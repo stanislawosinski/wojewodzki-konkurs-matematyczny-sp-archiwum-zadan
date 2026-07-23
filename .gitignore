@@ -1,6 +1,6 @@
-# Generated question browser — rebuild with:
-#   cd browser && python3 build.py data/*.json -o wszystkie-zadania.html
-browser/*.html
+# Generated data shards — rebuild with: cd browser && node build.mjs
+browser/data.*.js
+browser/data.*.json
 
 # Python
 __pycache__/

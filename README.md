@@ -52,8 +52,9 @@ konkurs-mat/
   browser/
     data/     *.json      # source of truth — one structured JSON per test
     figures/  *.png       # cropped question figures
-    build.py              # JSON -> HTML generator (stdlib only, no dependencies)
-    # *.html              # the generated browser — NOT committed; rebuild with build.py
+    index.html app.css app.js   # the browser app (static, committed)
+    build.mjs             # JSON -> data shard preprocessor (Node, no dependencies)
+    # data.*.js data.*.json     # generated data shards — NOT committed; rebuild with build.mjs
 ```
 
 ## The data
@@ -82,19 +83,19 @@ were never web-archived; some podlaskie years shipped without an answer key. Det
 
 ## Building the browser
 
-The HTML browser is a generated artifact (not committed). Rebuild it from the JSON with Python 3
-(standard library only, no dependencies):
+The browser is a static page (`browser/index.html` + `app.css` + `app.js`) that renders questions
+client-side from generated per-stage data shards (not committed). Rebuild the shards from the JSON
+with Node (no dependencies):
 
 ```sh
-cd browser
-python3 build.py data/*.json -o wszystkie-zadania.html   # master: every question
-python3 build.py data/szkolny_2026_podkarpackie.json      # one test
-python3 build.py --topic "NWW / NWD" data/*.json          # a topic set
+cd browser && node build.mjs
 ```
 
-The output is a single self-contained page: MathML renders natively, figures load from
-`figures/`, answers reveal per-question, and a sidebar filters client-side. No build step at view
-time.
+Then open `browser/index.html` directly (`file://`) or serve the `browser/` directory over http —
+the app detects the protocol and loads shards via `<script>` tags or `fetch()` accordingly.
+MathML renders natively, figures load lazily from `figures/`, answers reveal per-question, a
+sidebar filters client-side, and results are paged 100 questions at a time. Topic sets are a
+filter in the UI (no build-time `--topic` needed).
 
 ## Sources & rights
 
@@ -108,6 +109,6 @@ To request removal of any material, please open an issue.
 ## License
 
 The repository's **original contributions** — the JSON structure and topic categorization, the
-cropped figures, `build.py`, and the documentation — are licensed **CC BY 4.0**. The third-party
+cropped figures, the browser app, and the documentation — are licensed **CC BY 4.0**. The third-party
 competition papers and question content are **not** relicensed (see above). Full terms in
 [`LICENSE`](LICENSE).

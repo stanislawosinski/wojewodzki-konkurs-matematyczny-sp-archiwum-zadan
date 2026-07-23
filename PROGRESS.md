@@ -6,10 +6,10 @@ Przedmiotowy z Matematyki* / *Konkurs Matematyczny* for primary schools (szkoły
 one older gimnazjum set), spanning many voivodeships and years (~2010–2026), across the three
 contest stages **szkolny** (school) → **rejonowy** (regional) → **wojewódzki** (provincial).
 The pipeline turns the official question-paper PDFs + answer keys into per-question structured
-JSON (`browser/data/`, figures in `browser/figures/`), then builds one **filterable HTML question
-browser** (`browser/wszystkie-zadania.html`) — search/filter practice problems by topic, year,
-voivodeship, points, question type, and school type. Purpose: a searchable practice bank for
-contest prep.
+JSON (`browser/data/`, figures in `browser/figures/`), served by one **filterable question
+browser** (`browser/index.html`, static app rendering client-side from generated data shards) —
+search/filter practice problems by topic, year, voivodeship, points, question type, and school
+type. Purpose: a searchable practice bank for contest prep.
 
 GitHub restructuring done 2026-07-23 (PDFs → `pdfs/<stage>/`, outputs → `browser/`; see README). This file is the resume/status point.
 Three docs, read in order: **SCHEMA.md** (JSON spec) → **EXTRACTION_PLAYBOOK.md**
@@ -36,7 +36,7 @@ the know-how that used to live only in the chat; everything needed to resume is 
   - **NEW field: `school_type`** (podstawowa | gimnazjum) added to EVERY json right after
     `competition`, derived from the title. Also a HTML filter ("Typ szkoły"). Only gimnazjum
     file so far: 2018_podkarpackie. Re-add script: the school_type block in the school_type
-    section below / build.py auto-derives `data-school`.
+    section below / the browser app filters on it directly.
 - **rejonowy: 0 / 147** processed. (was 163; on 2026-07-23 **all 16 W-M files were purged** —
   W-M SP math has NO rejonowy stage, so every `pdfs/rejonowy/*_warminsko-mazurskie.pdf` was a spurious
   śląskie dup. Remaining 147 are the real set. Earlier +15 merged from `remaining/rejonowy/`:
@@ -45,8 +45,9 @@ the know-how that used to live only in the chat; everything needed to resume is 
   genuine available: 2012/13–2015/16, 2025/26). On 2026-07-23 the W-M source files were **fixed**:
   12 genuine W-M wojewódzki papers (2009/10, 2010/11, 2011/12, 2016/17–2024/25) recovered & swapped
   in (keys for 2016/17 onward). Prep only — not processed. Earlier +16 merged from `remaining/wojewodzki/`.
-- Built: 22 per-test HTMLs + `browser/wszystkie-zadania.html` (master, 320 questions).
-  Rebuild master with: `cd browser && python3 build.py data/*.json -o wszystkie-zadania.html`
+- Browser: static app (`browser/index.html` + `app.css` + `app.js`, committed) rendering from
+  generated per-stage data shards (`data.<stage>.js`/`.json`, gitignored). Rebuild shards with:
+  `cd browser && node build.mjs` (2026-07-23: replaced the old per-test HTML generator `build.py`).
 
 Recompute the exact TODO list any time (don't trust a hardcoded list). This version
 also skips the mislabeled W-M duplicates (a W-M file byte-identical to same-year slaskie):
@@ -123,9 +124,9 @@ One background Opus agent per **question PDF** (+ its `_answers` PDF). Recipe th
     Wayback had no usable snapshot). Live re-download hub for genuine W-M arkusze+klucze:
     **https://www.ko.olsztyn.pl/category/konkursy-przedmiotowe/testy/** (recent years; older
     years likely gone). See SOURCES.md.
-- A resumed agent (2012-2013_malopolskie) ran `build.py` against instructions and left a
-  stray `browser/szkolny_2012-2013_malopolskie.html`. Harmless (master untouched); the final
-  HTML rebuild regenerates everything. Watch for stray per-test HTMLs after resumed agents.
+- (Historical) Resumed agents occasionally ran the old `build.py` against instructions and left
+  stray per-test HTMLs. Moot since 2026-07-23: build.py and per-test HTMLs are gone — the browser
+  is a static app; only `node build.mjs` regenerates data shards.
 
 
 - LibreOffice headless: first-ever call warms up the profile and can no-op silently; the

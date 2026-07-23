@@ -1,9 +1,10 @@
 # Konkurs Matematyczny — extraction schema & procedure
 
-One agent parses **one test file** into one JSON under `browser/data/`. HTML is
-generated from that JSON by `browser/build.py` — never hand-edit the HTML.
-Extraction (hard, agent) and assembly (trivial, filter) are kept separate so a
-topic set is just `build.py --topic "<topic>" data/*.json`.
+One agent parses **one test file** into one JSON under `browser/data/`. The browser
+(`browser/index.html`, a static app) renders client-side from data shards generated
+by `browser/build.mjs` — never hand-edit the shards. Extraction (hard, agent) and
+assembly (trivial, `node build.mjs`) are kept separate; topic sets are a filter in
+the browser UI.
 
 ## Files & naming
 
@@ -11,8 +12,8 @@ topic set is just `build.py --topic "<topic>" data/*.json`.
 browser/
   data/<stage>_<year>_<wojewodztwo>.json      # source of truth, one per test
   figures/<question_id>_figN.png              # cropped bitmaps
-  <stage>_<year>_<wojewodztwo>.html           # generated
-  build.py                                     # JSON -> HTML assembler
+  index.html app.css app.js                    # the browser app (static, committed)
+  build.mjs                                    # JSON -> data.<stage>.js/.json shards
 ```
 
 `question_id = <stage>_<year>_<wojewodztwo>_q<number>` (globally unique).
@@ -135,8 +136,8 @@ Difficulty is **not** a field — `points` carries it (2p basic, 3p advanced her
 ## Build
 
 ```
-python3 browser/build.py browser/data/<file>.json                 # one arkusz
-python3 browser/build.py --topic "NWW / NWD" browser/data/*.json   # topic set
+cd browser && node build.mjs    # regenerates data.<stage>.js/.json shards
 ```
-Self-contained HTML: MathML renders natively, one button toggles answers
-(hidden by default), figures via `<img src="figures/…">`. No dependencies.
+Then open `browser/index.html` (file:// or http). MathML renders natively,
+answers reveal per-question (hidden by default), figures via
+`<img src="figures/…">`. No dependencies.
