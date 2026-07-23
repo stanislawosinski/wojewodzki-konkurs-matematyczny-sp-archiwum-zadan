@@ -1,0 +1,196 @@
+{
+  "source_file": "szkolny/2022-2023_pomorskie.pdf",
+  "answers_file": "szkolny/2022-2023_pomorskie_answers.pdf",
+  "competition": "Wojewódzki Konkurs Matematyczny dla uczniów klas IV-VIII szkół podstawowych województwa pomorskiego",
+  "school_type": "podstawowa",
+  "stage": "szkolny",
+  "wojewodztwo": "pomorskie",
+  "school_year": "2022/2023",
+  "date": null,
+  "total_questions": 9,
+  "max_points": 25,
+  "questions": [
+    {
+      "id": "szkolny_2022-2023_pomorskie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "geometria",
+        "trójkąty"
+      ],
+      "prompt_html": "<p>Dany jest trapez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> o podstawach długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>20</mn><mtext>&#160;cm</mtext></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>CD</mi><mo>|</mo><mo>=</mo><mn>16</mn><mtext>&#160;cm</mtext></mrow></math>. Pole trapezu jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>216</mn><mtext>&#160;</mtext><msup><mtext>cm</mtext><mn>2</mn></msup></mrow></math>. Oblicz pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACD</mi></math>.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "96 cm²",
+        "solution_html": "<p>Wysokość trapezu obliczamy z wzoru na pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>216</mn><mo>=</mo><mfrac><mrow><mo>(</mo><mn>20</mn><mo>+</mo><mn>16</mn><mo>)</mo><mo>·</mo><mi>h</mi></mrow><mn>2</mn></mfrac></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>18</mn><mi>h</mi><mo>=</mo><mn>216</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><mn>12</mn></mrow></math>. Ta wysokość jest jednocześnie wysokością trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACD</mi></math> opuszczoną na bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>ACD</mi></msub><mo>=</mo><mfrac><mrow><mo>|</mo><mi>CD</mi><mo>|</mo><mo>·</mo><mi>h</mi></mrow><mn>2</mn></mfrac><mo>=</mo><mfrac><mrow><mn>16</mn><mo>·</mo><mn>12</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>96</mn><mtext>&#160;</mtext><msup><mtext>cm</mtext><mn>2</mn></msup></mrow></math>.</p><p>Odpowiedź: pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACD</mi></math> jest równe 96 cm².</p><p><em>Częściowo (1 pkt): poprawne obliczenie wysokości trapezu i zapisanie, że jest to wysokość trójkąta ACD.</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2022-2023_pomorskie_q2",
+      "number": 2,
+      "page": 3,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "proporcjonalność prosta"
+      ],
+      "prompt_html": "<p>Ala brała udział w projekcie z matematyki, w którym wykonała dwa plany swojego prostokątnego pokoju. Pierwszy plan wykonała w skali <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>:</mo><mn>20</mn></mrow></math>, a drugi w skali <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>:</mo><mn>50</mn></mrow></math>. Na planie w skali <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>:</mo><mn>20</mn></mrow></math> krótszy bok prostokąta ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mtext>&#160;cm</mtext></mrow></math>. Oblicz, jaką długość ma ten bok na planie w skali <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>:</mo><mn>50</mn></mrow></math>.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "4 cm",
+        "solution_html": "<p>W skali <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>:</mo><mn>20</mn></mrow></math> odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mtext>&#160;cm</mtext></mrow></math> planu odpowiada <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>20</mn><mtext>&#160;cm</mtext></mrow></math> w rzeczywistości, więc rzeczywista długość krótszego boku wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mtext>&#160;cm</mtext><mo>·</mo><mn>20</mn><mo>=</mo><mn>200</mn><mtext>&#160;cm</mtext></mrow></math>. Na planie w skali <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>:</mo><mn>50</mn></mrow></math> ten bok ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>200</mn><mtext>&#160;cm</mtext><mo>:</mo><mn>50</mn><mo>=</mo><mn>4</mn><mtext>&#160;cm</mtext></mrow></math>.</p><p>Odpowiedź: krótszy bok na planie w skali 1:50 ma długość 4 cm.</p><p><em>Częściowo (1 pkt): poprawne obliczenie rzeczywistej długości krótszego boku (200 cm).</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2022-2023_pomorskie_q3",
+      "number": 3,
+      "page": 4,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>W szkolnej sali na dwóch półkach leżały kasztany. Przed lekcjami na górnej półce było 60 kasztanów, a na dolnej 80. W czasie lekcji plastyki uczniowie zabrali część kasztanów, aby wykonać pracę plastyczną. Z dolnej półki ubyło trzy razy więcej kasztanów niż z górnej i wówczas na górnej półce zostało dwa razy więcej kasztanów niż na dolnej. Oblicz, ile kasztanów zabrali uczniowie do wykonania pracy plastycznej.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "80",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę kasztanów zabranych z górnej półki; z dolnej zabrano wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>x</mi></mrow></math>. Na górnej zostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>60</mn><mo>−</mo><mi>x</mi></mrow></math>, a na dolnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>80</mn><mo>−</mo><mn>3</mn><mi>x</mi></mrow></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>60</mn><mo>−</mo><mi>x</mi><mo>=</mo><mn>2</mn><mo>(</mo><mn>80</mn><mo>−</mo><mn>3</mn><mi>x</mi><mo>)</mo></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mi>x</mi><mo>=</mo><mn>100</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>20</mn></mrow></math>. Z dolnej półki zabrano <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>x</mi><mo>=</mo><mn>60</mn></mrow></math>. Łącznie uczniowie zabrali <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>20</mn><mo>+</mo><mn>60</mn><mo>=</mo><mn>80</mn></mrow></math> kasztanów.</p><p>Odpowiedź: do wykonania pracy plastycznej uczniowie zabrali 80 kasztanów.</p><p><em>Częściowo: 1 pkt za poprawną metodę obliczenia liczby kasztanów zabranych z jednej półki, 2 pkt za poprawne obliczenie liczby kasztanów zabranych z jednej półki.</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2022-2023_pomorskie_q4",
+      "number": 4,
+      "page": 5,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "geometria",
+        "wyłączanie jednomianu przed nawias"
+      ],
+      "prompt_html": "<p>Dany jest prostokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> o obwodzie równym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>6</mn><mi>y</mi></mrow></math> oraz boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>3</mn><mi>y</mi><mo>−</mo><mi>x</mi></mrow></math>. Wyznacz pole prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> za pomocą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>. Wynik zapisz w postaci sumy algebraicznej.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "6xy − 2x²",
+        "solution_html": "<p>Obwód prostokąta to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>(</mo><mo>|</mo><mi>AB</mi><mo>|</mo><mo>+</mo><mo>|</mo><mi>BC</mi><mo>|</mo><mo>)</mo></mrow></math>. Drugi bok obliczamy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mo>|</mo><mi>BC</mi><mo>|</mo><mo>=</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>6</mn><mi>y</mi><mo>−</mo><mn>2</mn><mo>(</mo><mn>3</mn><mi>y</mi><mo>−</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>4</mn><mi>x</mi></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>BC</mi><mo>|</mo><mo>=</mo><mn>2</mn><mi>x</mi></mrow></math>. Pole prostokąta wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>ABCD</mi></msub><mo>=</mo><mn>2</mn><mi>x</mi><mo>(</mo><mn>3</mn><mi>y</mi><mo>−</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>6</mn><mi>x</mi><mi>y</mi><mo>−</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></math>.</p><p>Odpowiedź: pole prostokąta jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mi>x</mi><mi>y</mi><mo>−</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></math>.</p><p><em>Częściowo (1 pkt): poprawne wyznaczenie długości boku i zapisanie go w postaci jednomianu (2x).</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2022-2023_pomorskie_q5",
+      "number": 5,
+      "page": 5,
+      "type": "true_false",
+      "points": 5,
+      "topics": [
+        "potęgi i pierwiastki",
+        "procenty",
+        "prędkość / droga / czas",
+        "trójkąty"
+      ],
+      "prompt_html": "<p>Oceń prawdziwość poniższych zdań. Otocz kółkiem P, jeśli zdanie jest prawdziwe lub F, jeśli zdanie jest fałszywe.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>70</mn><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac><mo>&gt;</mo><mn>20</mn><mfrac><mtext>m</mtext><mtext>s</mtext></mfrac></mrow></math>"
+        },
+        {
+          "label": "2",
+          "html": "Iloczyn dowolnych dwóch liczb, z których jedna jest wymierna a druga niewymierna jest liczbą niewymierną."
+        },
+        {
+          "label": "3",
+          "html": "Jeśli każdy bok prostokąta skrócimy o 5 %, to pole tego prostokąta zmaleje o 25%."
+        },
+        {
+          "label": "4",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>[</mo><mn>3</mn><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>−</mo><mn>1</mn><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>:</mo><mfrac><mn>7</mn><mn>8</mn></mfrac><mo>]</mo><mo>·</mo><mn>2</mn><mo>+</mo><mn>1,5</mn><mo>=</mo><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>)</mo></mrow><mrow><mo>−</mo><mn>1</mn></mrow></msup></mrow></math>"
+        },
+        {
+          "label": "5",
+          "html": "Kwadrat i trójkąt równoboczny mają równe obwody. Stosunek pola kwadratu do pola trójkąta jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>3</mn><mn>4</mn></mfrac><msqrt><mn>3</mn></msqrt></mrow></math>."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FFFPP",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2022-2023_pomorskie_q6",
+      "number": 6,
+      "page": 6,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "zagadki logiczne"
+      ],
+      "prompt_html": "<p>Zegar elektroniczny wskazuje godzinę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>03</mn><mo>:</mo><mn>05</mn></mrow></math>. Oblicz, ile czasu upłynie, zanim po raz pierwszy na tym zegarze pojawią się te same cztery cyfry, czyli cyfry <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0</mn><mo>,</mo><mn>0</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>5</mn></mrow></math>.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "45 minut",
+        "solution_html": "<p>Szukamy najbliższej po godzinie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>03</mn><mo>:</mo><mn>05</mn></mrow></math> godziny zapisanej tym samym zestawem cyfr 0, 0, 3, 5. Jest to godzina <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>03</mn><mo>:</mo><mn>50</mn></mrow></math>. Od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>03</mn><mo>:</mo><mn>05</mn></mrow></math> do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>03</mn><mo>:</mo><mn>50</mn></mrow></math> upływa 45 minut.</p><p>Odpowiedź: upłynie 45 minut.</p><p><em>Częściowo (1 pkt): zapisanie godziny 03:50, o której po raz pierwszy pojawią się te same cyfry.</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2022-2023_pomorskie_q7",
+      "number": 7,
+      "page": 7,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "trójkąty",
+        "dwusieczna kąta / symetralna odcinka"
+      ],
+      "prompt_html": "<p>W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> dwusieczne kątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACB</mi></math> przecinają się w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>. Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BDC</mi></math> jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mo>°</mo></mrow></math>. Oblicz miarę kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BAC</mi></math>.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "20°",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> będzie połową kąta przy wierzchołku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> połową kąta przy wierzchołku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> (dwusieczne dzielą te kąty na połowy). W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BDC</mi></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>100</mn><mo>°</mo><mo>=</mo><mn>80</mn><mo>°</mo></mrow></math>. Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BAC</mi></math> wyznaczamy z sumy kątów trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mo>∢</mo><mi>BAC</mi><mo>|</mo><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>2</mn><mi>y</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>2</mn><mo>·</mo><mn>80</mn><mo>°</mo><mo>=</mo><mn>20</mn><mo>°</mo></mrow></math>.</p><p>Odpowiedź: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mo>∢</mo><mi>BAC</mi><mo>|</mo><mo>=</mo><mn>20</mn><mo>°</mo></mrow></math>.</p><p><em>Częściowo: 1 pkt za obliczenie sumy miar kątów x i y (lub uzależnienie miary kąta BAC od x i y), 2 pkt za obliczenie sumy x + y oraz uzależnienie miary kąta BAC od x i y.</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2022-2023_pomorskie_q8",
+      "number": 8,
+      "page": 8,
+      "type": "closed_single",
+      "points": 2,
+      "topics": [
+        "procenty"
+      ],
+      "prompt_html": "<p>Połącz w pary napisy mówiące o obniżce o tę samą liczbę procent.</p><ul><li><strong>I.</strong> Obniżka o 10%, a następnie o 40%</li><li><strong>II.</strong> Obniżka o 20%, a następnie o 30%</li></ul><ul><li><strong>A.</strong> łączna obniżka o 44%</li><li><strong>B.</strong> łączna obniżka o 46%</li><li><strong>C.</strong> łączna obniżka o 50%</li><li><strong>D.</strong> łączna obniżka o 54%</li><li><strong>E.</strong> łączna obniżka o 56%</li></ul><p>Pary to: I i …, II i …</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "I – B, II – A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2022-2023_pomorskie_q9",
+      "number": 9,
+      "page": 8,
+      "type": "closed_single",
+      "points": 4,
+      "topics": [
+        "potęgi i pierwiastki",
+        "zliczanie / metody zliczania",
+        "trójkąty"
+      ],
+      "prompt_html": "<p>W zadaniach zamkniętych dokładnie jedna odpowiedź jest poprawna. Wskaż tę odpowiedź, otaczając ją kółkiem.</p><p><strong>9.1</strong> Rozwiązaniem równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2</mn><mn>2023</mn></msup><mo>·</mo><mi>x</mi><mo>=</mo><msup><mn>2</mn><mn>2023</mn></msup><mo>−</mo><msup><mn>2</mn><mn>2022</mn></msup></mrow></math> jest:</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math></li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><msup><mn>2</mn><mn>2022</mn></msup></mrow></math></li></ul><p><strong>9.2</strong> Suma cyfr liczby sześciocyfrowej jest równa 2. Ile jest takich liczb?</p><ul><li>A. 2</li><li>B. 4</li><li>C. 6</li><li>D. 12</li></ul><p><strong>9.3</strong> Cyfrą jedności liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>7</mn><mn>87</mn></msup><mo>−</mo><mn>2</mn></mrow></math> jest:</p><ul><li>A. 1</li><li>B. 5</li><li>C. 7</li><li>D. 9</li></ul><p><strong>9.4</strong> Ile trójkątów równoramiennych o polu równym 1 ma bok długości 2?</p><ul><li>A. 1</li><li>B. 2</li><li>C. 3</li><li>D. 4</li></ul>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "9.1 – C, 9.2 – C, 9.3 – A, 9.4 – C",
+        "solution_html": null
+      }
+    }
+  ]
+}

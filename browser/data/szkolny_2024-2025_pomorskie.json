@@ -1,0 +1,176 @@
+{
+  "source_file": "szkolny/2024-2025_pomorskie.pdf",
+  "answers_file": "szkolny/2024-2025_pomorskie_answers.pdf",
+  "competition": "Wojewódzki Konkurs Matematyczny dla uczniów klas IV-VIII szkół podstawowych województwa pomorskiego",
+  "school_type": "podstawowa",
+  "stage": "szkolny",
+  "wojewodztwo": "pomorskie",
+  "school_year": "2024/2025",
+  "date": null,
+  "total_questions": 8,
+  "max_points": 20,
+  "questions": [
+    {
+      "id": "szkolny_2024-2025_pomorskie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "podzielność"
+      ],
+      "prompt_html": "<p>Wyznacz cyfry <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>X</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi></math> tak, aby liczba czterocyfrowa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>X</mi><mn>2</mn><mi>Y</mi></mrow></math> była podzielna przez 12. Podaj wszystkie rozwiązania tego zadania. Odpowiedź uzasadnij.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "10 par (X, Y): (2,0), (5,0), (8,0), (1,4), (4,4), (7,4), (0,8), (3,8), (6,8), (9,8)",
+        "solution_html": "<p>Liczba jest podzielna przez 12, gdy jest podzielna przez 3 i przez 4. Z podzielności przez 4 wynika, że liczba utworzona z dwóch ostatnich cyfr, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>20</mn><mo>+</mo><mi>Y</mi></mrow></math>, jest podzielna przez 4 — daje to liczby 20, 24 lub 28, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>Y</mi><mo>∈</mo><mo>{</mo><mn>0</mn><mo>,</mo><mn>4</mn><mo>,</mo><mn>8</mn><mo>}</mo></mrow></math>. Z podzielności przez 3 suma cyfr <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>+</mo><mi>X</mi><mo>+</mo><mn>2</mn><mo>+</mo><mi>Y</mi></mrow></math> musi być podzielna przez 3.</p><ul><li>Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>Y</mi><mo>=</mo><mn>0</mn></mrow></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>X</mi><mo>∈</mo><mo>{</mo><mn>2</mn><mo>,</mo><mn>5</mn><mo>,</mo><mn>8</mn><mo>}</mo></mrow></math>.</li><li>Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>Y</mi><mo>=</mo><mn>4</mn></mrow></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>X</mi><mo>∈</mo><mo>{</mo><mn>1</mn><mo>,</mo><mn>4</mn><mo>,</mo><mn>7</mn><mo>}</mo></mrow></math>.</li><li>Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>Y</mi><mo>=</mo><mn>8</mn></mrow></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>X</mi><mo>∈</mo><mo>{</mo><mn>0</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>6</mn><mo>,</mo><mn>9</mn><mo>}</mo></mrow></math>.</li></ul><p>Łącznie jest 10 rozwiązań.</p><p><em>Częściowo (1 pkt): zauważenie podzielności przez 3 i przez 4 oraz wyznaczenie wszystkich możliwości dla Y, lub zapisanie warunku, że X + Y jest równe 2, 5 lub 8.</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2024-2025_pomorskie_q2",
+      "number": 2,
+      "page": 3,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "prędkość / droga / czas"
+      ],
+      "prompt_html": "<p>Samochód ciężarowy o długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>18</mn><mtext>&#160;m</mtext></mrow></math> przejechał przez tunel z prędkością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>80</mn><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac></mrow></math>. Od momentu rozpoczęcia wjazdu do tunelu do momentu całkowitego wyjazdu samochodu upłynęło <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>18</mn><mtext>&#160;s</mtext></mrow></math>. Ile metrów ma tunel? Zapisz obliczenia.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "382 m",
+        "solution_html": "<p>Zamieniamy prędkość na metry na sekundę: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>80</mn><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac><mo>=</mo><mfrac><mrow><mn>80000</mn><mtext>&#160;m</mtext></mrow><mrow><mn>3600</mn><mtext>&#160;s</mtext></mrow></mfrac></mrow></math>. W ciągu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>18</mn><mtext>&#160;s</mtext></mrow></math> samochód pokonuje drogę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>s</mi><mo>=</mo><mfrac><mn>80000</mn><mn>3600</mn></mfrac><mo>·</mo><mn>18</mn><mo>=</mo><mn>400</mn><mtext>&#160;m</mtext></mrow></math>. Ta droga to długość tunelu powiększona o długość samochodu, więc długość tunelu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>400</mn><mtext>&#160;m</mtext><mo>−</mo><mn>18</mn><mtext>&#160;m</mtext><mo>=</mo><mn>382</mn><mtext>&#160;m</mtext></mrow></math>.</p><p>Odpowiedź: tunel ma 382 m długości.</p><p><em>Częściowo (1 pkt): prawidłowa zamiana jednostki prędkości lub obliczenie drogi 0,4 km (400 m).</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2024-2025_pomorskie_q3",
+      "number": 3,
+      "page": 4,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "geometria",
+        "trójkąty"
+      ],
+      "prompt_html": "<p>Boki trapezu równoramiennego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> mają długości: 10, 10, 10, 24. Oblicz długość przekątnej tego trapezu.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "2√85",
+        "solution_html": "<p>Podstawami trapezu są boki długości 24 i 10, a ramiona mają długość 10. Rzut ramienia na dłuższą podstawę ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>24</mn><mo>−</mo><mn>10</mn><mo>)</mo><mo>:</mo><mn>2</mn><mo>=</mo><mn>7</mn></mrow></math>. Wysokość trapezu obliczamy z twierdzenia Pitagorasa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>h</mi><mn>2</mn></msup><mo>=</mo><msup><mn>10</mn><mn>2</mn></msup><mo>−</mo><msup><mn>7</mn><mn>2</mn></msup><mo>=</mo><mn>51</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><msqrt><mn>51</mn></msqrt></mrow></math>. Spodek wysokości poprowadzonej z wierzchołka krótszej podstawy dzieli dłuższą podstawę tak, że odległość od drugiego wierzchołka wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>24</mn><mo>−</mo><mn>7</mn><mo>=</mo><mn>17</mn></mrow></math>. Przekątną obliczamy z twierdzenia Pitagorasa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>d</mi><mn>2</mn></msup><mo>=</mo><msup><mi>h</mi><mn>2</mn></msup><mo>+</mo><msup><mn>17</mn><mn>2</mn></msup><mo>=</mo><mn>51</mn><mo>+</mo><mn>289</mn><mo>=</mo><mn>340</mn></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>d</mi><mo>=</mo><msqrt><mn>340</mn></msqrt><mo>=</mo><mn>2</mn><msqrt><mn>85</mn></msqrt></mrow></math>.</p><p>Odpowiedź: przekątna trapezu ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msqrt><mn>85</mn></msqrt></mrow></math>.</p><p><em>Częściowo (1 pkt): prawidłowe obliczenie wysokości trapezu lub zapisanie poprawnego równania prowadzącego do długości przekątnej.</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2024-2025_pomorskie_q4",
+      "number": 4,
+      "page": 5,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "równania z jedną zmienną",
+        "proporcjonalność prosta"
+      ],
+      "prompt_html": "<p>W Szkole Podstawowej nr 23 odbył się Kiermasz zorganizowany przez Radę Rodziców, na którym Lena sprzedawała babeczki. Dziewczynka przyniosła do szkoły 100 babeczek, które planowała sprzedać za 320 zł. Gdy sprzedała jedną czwartą wszystkich babeczek, okazało się, że niektóre z pozostałych babeczek nie nadawały się do sprzedaży. Aby zarobić zamierzone 320 zł, resztę dobrych babeczek sprzedała po 4 zł za sztukę. Oblicz, ile babeczek nie nadawało się do sprzedaży.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "15",
+        "solution_html": "<p>Planowana cena jednej babeczki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>320</mn><mtext>&#160;zł</mtext><mo>:</mo><mn>100</mn><mo>=</mo><mn>3,20</mn><mtext>&#160;zł</mtext></mrow></math>. Lena sprzedała <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>25</mn></mrow></math> babeczek, uzyskując <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>25</mn><mo>·</mo><mn>3,20</mn><mtext>&#160;zł</mtext><mo>=</mo><mn>80</mn><mtext>&#160;zł</mtext></mrow></math>. Do zarobienia pozostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>320</mn><mtext>&#160;zł</mtext><mo>−</mo><mn>80</mn><mtext>&#160;zł</mtext><mo>=</mo><mn>240</mn><mtext>&#160;zł</mtext></mrow></math>. Po 4 zł sprzedała <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>240</mn><mtext>&#160;zł</mtext><mo>:</mo><mn>4</mn><mtext>&#160;zł</mtext><mo>=</mo><mn>60</mn></mrow></math> babeczek. Nie nadawało się do sprzedaży <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mo>−</mo><mn>25</mn><mo>−</mo><mn>60</mn><mo>=</mo><mn>15</mn></mrow></math> babeczek.</p><p>Odpowiedź: 15 babeczek nie nadawało się do sprzedaży.</p><p><em>Częściowo (1 pkt): obliczenie kwoty, która pozostała do zdobycia po sprzedaży 25 babeczek (240 zł).</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2024-2025_pomorskie_q5",
+      "number": 5,
+      "page": 6,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Z pewnej trzycyfrowej liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> utworzono dwie liczby czterocyfrowe. Pierwszą poprzez dopisanie na końcu liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> cyfry 8, a drugą poprzez dopisanie na początku liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> cyfry 2. Okazało się, że pierwsza z utworzonych liczb czterocyfrowych jest dwa razy większa od drugiej. Wyznacz liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>. Odpowiedź uzasadnij.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "499",
+        "solution_html": "<p>Liczba powstała przez dopisanie cyfry 8 na końcu ma postać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mi>x</mi><mo>+</mo><mn>8</mn></mrow></math>, a liczba powstała przez dopisanie cyfry 2 na początku ma postać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2000</mn><mo>+</mo><mi>x</mi></mrow></math>. Z warunku zadania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mi>x</mi><mo>+</mo><mn>8</mn><mo>=</mo><mn>2</mn><mo>(</mo><mn>2000</mn><mo>+</mo><mi>x</mi><mo>)</mo></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mi>x</mi><mo>+</mo><mn>8</mn><mo>=</mo><mn>4000</mn><mo>+</mo><mn>2</mn><mi>x</mi></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mi>x</mi><mo>=</mo><mn>3992</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>499</mn></mrow></math>.</p><p>Odpowiedź: szukana liczba to 499.</p><p><em>Częściowo (1 pkt): zapisanie liczb w postaci 10x + 8 oraz 2000 + x.</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2024-2025_pomorskie_q6",
+      "number": 6,
+      "page": 7,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "procenty"
+      ],
+      "prompt_html": "<p>W pewnej szkole podstawowej 20% wszystkich uczniów stanowią chłopcy, a 80% wszystkich uczniów to dziewczęta. Pewnego dnia do szkoły nie przyszło 20% chłopców i 80% dziewcząt. Jaki procent uczniów, którzy przyszli tego dnia do szkoły, stanowili chłopcy, a jaki dziewczęta? Zapisz obliczenia.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "50% chłopców i 50% dziewcząt",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę wszystkich uczniów. Chłopców jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,2</mn><mi>x</mi></mrow></math>, a dziewcząt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,8</mn><mi>x</mi></mrow></math>. Tego dnia przyszło 80% chłopców, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,8</mn><mo>·</mo><mn>0,2</mn><mi>x</mi><mo>=</mo><mn>0,16</mn><mi>x</mi></mrow></math>, oraz 20% dziewcząt, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,2</mn><mo>·</mo><mn>0,8</mn><mi>x</mi><mo>=</mo><mn>0,16</mn><mi>x</mi></mrow></math>. Liczby obecnych chłopców i dziewcząt są równe, więc każda z tych grup stanowi 50% obecnych uczniów.</p><p>Odpowiedź: wśród obecnych tego dnia uczniów było 50% chłopców i 50% dziewcząt.</p><p><em>Częściowo (1 pkt): zapisanie, jaka część chłopców i jaka część dziewcząt przyszła (lub nie przyszła) do szkoły.</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2024-2025_pomorskie_q7",
+      "number": 7,
+      "page": 8,
+      "type": "true_false",
+      "points": 4,
+      "topics": [
+        "równania z jedną zmienną",
+        "potęgi i pierwiastki",
+        "zagadki logiczne"
+      ],
+      "prompt_html": "<p>Oceń prawdziwość zdań. Zaznacz kółkiem odpowiedź P – jeśli zdanie jest prawdziwe albo F – jeśli zdanie jest fałszywe.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Metalowy pręt o długości 1 metra przecięto na 10 równych części. Za każde pojedyncze przecięcie pręta na dwie części zapłacono <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3,10</mn></math> zł. Kwota 30 zł wystarczyła na pocięcie tego pręta na 10 równych części."
+        },
+        {
+          "label": "2",
+          "html": "Banknot o nominale 20 zł można rozmienić na siedem monet, z których każda ma nominał 1 zł lub 5 zł."
+        },
+        {
+          "label": "3",
+          "html": "Ula zbiera białe, czerwone i niebieskie kulki. W swojej kolekcji obecnie ma 83 kulki. Kulek białych ma dwa razy więcej niż czerwonych, a niebieskich o 8 więcej niż białych. Gdy do swojej kolekcji dołoży jeszcze dwie kulki niebieskie, to kulek niebieskich będzie miała o 5 mniej niż kulek w pozostałych kolorach."
+        },
+        {
+          "label": "4",
+          "html": "Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>7</mn><mn>2</mn></msup><mo>−</mo><msup><mn>3</mn><mn>2</mn></msup></mrow></msqrt></math> jest równa 4."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PFPF",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2024-2025_pomorskie_q8",
+      "number": 8,
+      "page": 9,
+      "type": "closed_single",
+      "points": 4,
+      "topics": [
+        "reszta z dzielenia",
+        "procenty",
+        "geometria",
+        "trójkąty"
+      ],
+      "prompt_html": "<p>W zadaniach zamkniętych dokładnie jedna odpowiedź jest poprawna. Wskaż tę odpowiedź otaczając ją kółkiem.</p><p><strong>10.1</strong> Dzieląc liczbę całkowitą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> przez 6 otrzymujemy resztę 5. Jaką resztę otrzymamy z dzielenia liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mi>x</mi></mrow></math> przez 10?</p><ul><li>A. 3</li><li>B. 4</li><li>C. 5</li><li>D. 6</li></ul><p><strong>10.2</strong> W klasie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>VIII&#160;a</mi></math> jest o 50% więcej chłopców niż dziewcząt. Zatem w tej klasie dziewcząt jest mniej niż chłopców o:</p><ul><li>A. 25%</li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>33</mn><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>%</mo></mrow></math></li><li>C. 50%</li><li>D. 75%</li></ul><p><strong>10.3</strong> Na rysunku poniżej proste <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi></math> są równoległe, zaś prosta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest prostopadła do prostej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>. Zatem miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> jest równa:</p><ul><li>A. 30°</li><li>B. 40°</li><li>C. 50°</li><li>D. 60°</li></ul><p><strong>10.4</strong> Dany jest trójkąt prostokątny równoramienny. Wysokość poprowadzona na przeciwprostokątną ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math>. Długość przeciwprostokątnej w tym trójkącie jest równa:</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>h</mi></mrow></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>2</mn></msqrt><mi>h</mi></mrow></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>h</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac></math></li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math></li></ul>",
+      "choices": [],
+      "figures": [
+        "szkolny_2024-2025_pomorskie_q8_fig1.png"
+      ],
+      "answer": {
+        "correct": "10.1 – C, 10.2 – B, 10.3 – A, 10.4 – A",
+        "solution_html": null
+      }
+    }
+  ]
+}

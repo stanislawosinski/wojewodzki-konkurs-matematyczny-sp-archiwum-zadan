@@ -1,0 +1,147 @@
+{
+  "source_file": "szkolny/2019-2020_pomorskie.pdf",
+  "answers_file": "szkolny/2019-2020_pomorskie_answers.pdf",
+  "competition": "Wojewódzki Konkurs Matematyczny dla uczniów klas IV – VIII szkół podstawowych województwa pomorskiego",
+  "school_type": "podstawowa",
+  "stage": "szkolny",
+  "wojewodztwo": "pomorskie",
+  "school_year": "2019/2020",
+  "date": null,
+  "total_questions": 6,
+  "max_points": 20,
+  "questions": [
+    {
+      "id": "szkolny_2019-2020_pomorskie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "procenty",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>W koszu były tylko jabłka i gruszki. Jabłka stanowiły 25% wszystkich owoców w koszu. Asia zjadła dwa jabłka i teraz jabłka stanowią 20% wszystkich owoców w koszu. Oblicz, ile gruszek było w koszu.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "24 gruszki",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę wszystkich owoców w koszu. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,25</mn><mi>x</mi><mo>−</mo><mn>2</mn><mo>=</mo><mn>0,2</mn><mo>(</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo>)</mo></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,25</mn><mi>x</mi><mo>−</mo><mn>2</mn><mo>=</mo><mn>0,2</mn><mi>x</mi><mo>−</mo><mn>0,4</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,05</mn><mi>x</mi><mo>=</mo><mn>1,6</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>32</mn></mrow></math>. Gruszki stanowią 75% owoców, więc jest ich <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,75</mn><mo>·</mo><mn>32</mn><mo>=</mo><mn>24</mn></mrow></math>.</p><p>Odpowiedź: W koszu były 24 gruszki.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2019-2020_pomorskie_q2",
+      "number": 2,
+      "page": 3,
+      "type": "true_false",
+      "points": 5,
+      "topics": [
+        "podzielność",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Oceń prawdziwość zdań. Otocz kółkiem P, jeśli zdanie jest prawdziwe albo F, jeśli zdanie jest fałszywe.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>456</mn><mn>98765</mn></msup><mo>−</mo><msup><mn>321</mn><mn>56789</mn></msup></mrow></math> jest liczbą nieparzystą."
+        },
+        {
+          "label": "2",
+          "html": "Wśród liczb: 0, 1, 3, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>25</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>10</mn><mn>2</mn></msup><mo>−</mo><msup><mn>8</mn><mn>2</mn></msup></mrow></msqrt></math> są dwie liczby pierwsze."
+        },
+        {
+          "label": "3",
+          "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>10</mn><mn>2018</mn></msup><mo>+</mo><mn>2018</mn></mrow></math> jest podzielna przez 9."
+        },
+        {
+          "label": "4",
+          "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><msup><mn>8</mn><mn>15</mn></msup><mo>+</mo><mn>3</mn><mo>·</mo><msup><mn>8</mn><mn>16</mn></msup><mo>+</mo><mn>5</mn><mo>·</mo><msup><mn>8</mn><mn>17</mn></msup></mrow></math> jest podzielna przez 15."
+        },
+        {
+          "label": "5",
+          "html": "Liczbą odwrotną do liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><msqrt><mn>32</mn></msqrt><mo>−</mo><msqrt><mn>72</mn></msqrt></mrow><msqrt><mn>2</mn></msqrt></mfrac></math> jest 2."
+        },
+        {
+          "label": "6",
+          "html": "Sześcian sześcianu liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2</mn></msqrt></math> jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>16</mn><msqrt><mn>2</mn></msqrt></mrow></math>."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PPFPFP",
+        "solution_html": "<p>1. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>456</mn><mn>98765</mn></msup></math> jest parzysta, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>321</mn><mn>56789</mn></msup></math> nieparzysta, więc ich różnica jest nieparzysta — P. 2. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>25</mn></msqrt><mo>=</mo><mn>5</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mrow><msup><mn>10</mn><mn>2</mn></msup><mo>−</mo><msup><mn>8</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>36</mn></msqrt><mo>=</mo><mn>6</mn></mrow></math>; liczbami pierwszymi są 3 i 5 — dwie liczby, więc P. 3. Suma cyfr liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>10</mn><mn>2018</mn></msup><mo>+</mo><mn>2018</mn></mrow></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>0</mn><mo>+</mo><mn>1</mn><mo>+</mo><mn>8</mn><mo>=</mo><mn>12</mn></mrow></math>, a 12 nie dzieli się przez 9 — F. 4. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><msup><mn>8</mn><mn>15</mn></msup><mo>(</mo><mn>1</mn><mo>+</mo><mn>3</mn><mo>·</mo><mn>8</mn><mo>+</mo><mn>5</mn><mo>·</mo><mn>64</mn><mo>)</mo><mo>=</mo><msup><mn>8</mn><mn>15</mn></msup><mo>·</mo><mn>345</mn></mrow></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>345</mn><mo>=</mo><mn>15</mn><mo>·</mo><mn>23</mn></mrow></math>, więc P. 5. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>2</mn><msqrt><mn>32</mn></msqrt><mo>−</mo><msqrt><mn>72</mn></msqrt></mrow><msqrt><mn>2</mn></msqrt></mfrac><mo>=</mo><mfrac><mrow><mn>8</mn><msqrt><mn>2</mn></msqrt><mo>−</mo><mn>6</mn><msqrt><mn>2</mn></msqrt></mrow><msqrt><mn>2</mn></msqrt></mfrac><mo>=</mo><mn>2</mn></mrow></math>; liczbą odwrotną do 2 jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math>, więc F. 6. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><msup><mrow><mo>(</mo><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>3</mn></msup><mo>)</mo></mrow><mn>3</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>9</mn></msup><mo>=</mo><mn>16</mn><msqrt><mn>2</mn></msqrt></mrow></math>, więc P.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2019-2020_pomorskie_q3",
+      "number": 3,
+      "page": 4,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Jaś i Małgosia otrzymali od mamy w sobotę po tyle samo żelków. W tym samym dniu Jaś zjadł czwartą część swoich żelków, a Małgosia zjadła cztery żelki. W niedzielę Jaś zjadł <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> pozostałych żelków, a Małgosia trzy żelki. W poniedziałek Jaś zjadł połowę z tego, co mu zostało, a Małgosia dwa żelki. Wówczas spostrzegli, że każdemu z nich zostało po tyle samo żelków. Po ile żelków dała im mama?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "po 12 żelków",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę otrzymanych żelków. Jaś: w sobotę zjadł <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>x</mi></mrow></math> i zostało mu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>3</mn><mn>4</mn></mfrac><mi>x</mi></mrow></math>; w niedzielę zjadł <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>x</mi></mrow></math> i zostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>x</mi></mrow></math>; w poniedziałek zjadł <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>x</mi></mrow></math>, więc zostało mu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>x</mi></mrow></math>. Małgosia zjadła w sumie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>9</mn></mrow></math> żelków, więc zostało jej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>−</mo><mn>9</mn></mrow></math>. Z równości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>x</mi><mo>=</mo><mi>x</mi><mo>−</mo><mn>9</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>3</mn><mn>4</mn></mfrac><mi>x</mi><mo>=</mo><mn>9</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>12</mn></mrow></math>.</p><p>Odpowiedź: Mama dała Jasiowi i Małgosi po 12 żelków.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2019-2020_pomorskie_q4",
+      "number": 4,
+      "page": 5,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Dany jest równoległobok o obwodzie 40 cm. Jeden bok tego równoległoboku ma 16 cm długości, natomiast drugi bok jest dwa razy krótszy od dłuższej wysokości. Oblicz długości dwóch różnych wysokości tego równoległoboku.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "ha = 2 cm, hb = 8 cm",
+        "solution_html": "<p>Długość krótszego boku równoległoboku: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mo>(</mo><mn>40</mn><mo>−</mo><mn>2</mn><mo>·</mo><mn>16</mn><mo>)</mo><mo>:</mo><mn>2</mn><mo>=</mo><mn>4</mn></mrow></math> cm. Dłuższa wysokość (opuszczona na krótszy bok) jest dwa razy dłuższa od tego boku: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>h</mi><mi>b</mi></msub><mo>=</mo><mn>4</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>8</mn></mrow></math> cm. Pole równoległoboku jest takie samo niezależnie od boku, do którego liczymy wysokość, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>16</mn><mo>·</mo><msub><mi>h</mi><mi>a</mi></msub></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>h</mi><mi>a</mi></msub><mo>=</mo><mn>2</mn></mrow></math> cm.</p><p>Odpowiedź: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>h</mi><mi>a</mi></msub><mo>=</mo><mn>2</mn></mrow></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>h</mi><mi>b</mi></msub><mo>=</mo><mn>8</mn></mrow></math> cm.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2019-2020_pomorskie_q5",
+      "number": 5,
+      "page": 6,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "bryły",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Podstawą altany jest kwadrat o boku długości 4 m, zaś wysokość jej ścian wynosi 2 m. Długość każdej z czterech belek dachowych od wierzchołka dachu do jego narożnika wynosi 5 m. Oblicz wysokość altany, czyli odległość od podstawy altany do wierzchołka dachu.</p>",
+      "choices": [],
+      "figures": [
+        "szkolny_2019-2020_pomorskie_q5_fig1.png"
+      ],
+      "answer": {
+        "correct": "(√17 + 2) m",
+        "solution_html": "<p>Wierzchołek dachu leży nad środkiem kwadratowej podstawy dachu, a belka dachowa łączy go z narożnikiem. Połowa przekątnej kwadratu o boku 4 m wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>4</mn><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow></math> m. Oznaczmy przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi></math> wysokość samego dachu. Z twierdzenia Pitagorasa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>H</mi><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mn>5</mn><mn>2</mn></msup></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>H</mi><mn>2</mn></msup><mo>=</mo><mn>25</mn><mo>−</mo><mn>8</mn><mo>=</mo><mn>17</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>H</mi><mo>=</mo><msqrt><mn>17</mn></msqrt></mrow></math> m. Wysokość altany to suma wysokości ścian i wysokości dachu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>17</mn></msqrt><mo>+</mo><mn>2</mn></mrow></math> m.</p><p>Odpowiedź: Wysokość altany wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>17</mn></msqrt><mo>+</mo><mn>2</mn></mrow></math> m.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2019-2020_pomorskie_q6",
+      "number": 6,
+      "page": 7,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "potęgi i pierwiastki",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Rozwiąż równanie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2020</mn><mn>2019</mn></msup><mi>x</mi><mo>+</mo><msup><mn>2020</mn><mn>2019</mn></msup><mo>=</mo><msup><mn>2020</mn><mn>2021</mn></msup></mrow></math>. Wynik przedstaw w postaci liczby naturalnej.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "4080399",
+        "solution_html": "<p>Wyłączamy wspólny czynnik: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2020</mn><mn>2019</mn></msup><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>=</mo><msup><mn>2020</mn><mn>2021</mn></msup></mrow></math> i dzielimy obie strony przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2020</mn><mn>2019</mn></msup></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>1</mn><mo>=</mo><msup><mn>2020</mn><mn>2</mn></msup></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><msup><mn>2020</mn><mn>2</mn></msup><mo>−</mo><mn>1</mn><mo>=</mo><mn>4080399</mn></mrow></math>.</p>"
+      }
+    }
+  ]
+}

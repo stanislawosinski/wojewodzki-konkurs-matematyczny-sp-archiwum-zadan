@@ -1,0 +1,691 @@
+{
+  "source_file": "szkolny/2016-2017_slaskie.pdf",
+  "answers_file": "szkolny/2016-2017_slaskie_answers.pdf",
+  "competition": "Wojewódzki Konkurs Przedmiotowy z Matematyki dla uczniów szkół podstawowych województwa śląskiego",
+  "school_type": "podstawowa",
+  "stage": "szkolny",
+  "wojewodztwo": "slaskie",
+  "school_year": "2016/2017",
+  "date": null,
+  "total_questions": 23,
+  "max_points": 50,
+  "questions": [
+    {
+      "id": "szkolny_2016-2017_slaskie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "liczby rzymskie",
+        "zagadki logiczne"
+      ],
+      "prompt_html": "<p>W puste białe pola „liczbowej krzyżówki” wstaw liczby zapisane w systemie rzymskim tak, aby wszystkie działania i równości były poprawne. (Jeżeli zapiszesz liczby cyframi arabskimi otrzymasz mniej punktów).</p>",
+      "choices": [],
+      "figures": [
+        "szkolny_2016-2017_slaskie_q1_fig1.png"
+      ],
+      "answer": {
+        "correct": "Białe pola: IV i II (wiersz 1), II i XIX (wiersz 3), XIX i XXV (wiersz 5) oraz XXII (wiersz 7).",
+        "solution_html": "<p>Po uzupełnieniu wszystkie działania w wierszach i kolumnach są poprawne:</p><ul><li>wiersze: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>IV</mtext><mo>+</mo><mtext>VII</mtext><mo>−</mo><mtext>IX</mtext><mo>=</mo><mtext>II</mtext></mrow></math> (4+7−9=2), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>IX</mtext><mo>−</mo><mtext>II</mtext><mo>+</mo><mtext>XIX</mtext><mo>=</mo><mtext>XXVI</mtext></mrow></math> (9−2+19=26), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>XII</mtext><mo>+</mo><mtext>XIX</mtext><mo>−</mo><mtext>VI</mtext><mo>=</mo><mtext>XXV</mtext></mrow></math> (12+19−6=25), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>I</mtext><mo>+</mo><mtext>XXIV</mtext><mo>−</mo><mtext>XXII</mtext><mo>=</mo><mtext>III</mtext></mrow></math> (1+24−22=3);</li><li>kolumny: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>IV</mtext><mo>+</mo><mtext>IX</mtext><mo>−</mo><mtext>XII</mtext><mo>=</mo><mtext>I</mtext></mrow></math> (4+9−12=1), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>VII</mtext><mo>−</mo><mtext>II</mtext><mo>+</mo><mtext>XIX</mtext><mo>=</mo><mtext>XXIV</mtext></mrow></math> (7−2+19=24), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>IX</mtext><mo>+</mo><mtext>XIX</mtext><mo>−</mo><mtext>VI</mtext><mo>=</mo><mtext>XXII</mtext></mrow></math> (9+19−6=22), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>II</mtext><mo>+</mo><mtext>XXVI</mtext><mo>−</mo><mtext>XXV</mtext><mo>=</mo><mtext>III</mtext></mrow></math> (2+26−25=3).</li></ul><p><em>Punktacja: za uzupełnienie liczbami rzymskimi — 5 p. za wszystkie poprawne, 4 p. za 5–6, 3 p. za 4, 2 p. za 3, 1 p. za 2 poprawne wyniki. Za zapis w systemie dziesiątkowym odpowiednio mniej (maks. 3 p.).</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2016-2017_slaskie_q2",
+      "number": 2,
+      "page": 2,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>W poniższych wyrażeniach arytmetycznych wstaw nawiasy tak, aby wynik był:</p><p>A) możliwie najmniejszy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>200</mn><mo>−</mo><mn>40</mn><mo>·</mo><mn>3</mn><mo>+</mo><mn>2</mn></mrow></math></p><p>B) możliwie największy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>200</mn><mo>:</mo><mn>40</mn><mo>·</mo><mn>3</mn><mo>+</mo><mn>2</mn></mrow></math></p><p>C) równy 100: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>400</mn><mo>:</mo><mn>400</mn><mo>:</mo><mn>20</mn><mo>:</mo><mn>5</mn></mrow></math></p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "A) 200 − 40·(3+2) = 0; B) 200 : 40 · (3+2) = 25; C) 400 : [(400:20):5] = 100",
+        "solution_html": "<p>A) wynik możliwie najmniejszy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>200</mn><mo>−</mo><mn>40</mn><mo>·</mo><mo>(</mo><mn>3</mn><mo>+</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>200</mn><mo>−</mo><mn>200</mn><mo>=</mo><mn>0</mn></mrow></math>.</p><p>B) wynik możliwie największy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>200</mn><mo>:</mo><mn>40</mn><mo>·</mo><mo>(</mo><mn>3</mn><mo>+</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>5</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>25</mn></mrow></math>.</p><p>C) wynik równy 100: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>400</mn><mo>:</mo><mo>[</mo><mo>(</mo><mn>400</mn><mo>:</mo><mn>20</mn><mo>)</mo><mo>:</mo><mn>5</mn><mo>]</mo><mo>=</mo><mn>400</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>100</mn></mrow></math>.</p><p><em>Punktacja: po 1 p. za poprawne wstawienie nawiasów w każdym z wyrażeń.</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2016-2017_slaskie_q3",
+      "number": 3,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "zliczanie / metody zliczania"
+      ],
+      "prompt_html": "<p>Ile jest wszystkich liczb dwucyfrowych, których obie cyfry są mniejsze od cyfry 4?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "9"
+        },
+        {
+          "label": "B",
+          "html": "12"
+        },
+        {
+          "label": "C",
+          "html": "16"
+        },
+        {
+          "label": "D",
+          "html": "20"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2016-2017_slaskie_q4",
+      "number": 4,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Jaś wybrał pewną liczbę, odjął od niej 2016 i do otrzymanego wyniku dodał 216. W rezultacie otrzymał 20016. Jaką liczbę wybrał na początku?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "22248"
+        },
+        {
+          "label": "B",
+          "html": "21816"
+        },
+        {
+          "label": "C",
+          "html": "18216"
+        },
+        {
+          "label": "D",
+          "html": "17784"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2016-2017_slaskie_q5",
+      "number": 5,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "podzielność"
+      ],
+      "prompt_html": "<p>Liczba 213</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "jest liczbą pierwszą."
+        },
+        {
+          "label": "B",
+          "html": "jest podzielna przez 13."
+        },
+        {
+          "label": "C",
+          "html": "ma cztery dodatnie dzielniki."
+        },
+        {
+          "label": "D",
+          "html": "powiększona o 1 dzieli się przez 4."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2016-2017_slaskie_q6",
+      "number": 6,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "procenty"
+      ],
+      "prompt_html": "<p>Cena laptopa po obniżce wynosiła 1960 zł, co stanowiło <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>5</mn></mfrac></math> początkowej ceny. Przed obniżką cena laptopa wynosiła</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "2250 zł"
+        },
+        {
+          "label": "B",
+          "html": "2068 zł"
+        },
+        {
+          "label": "C",
+          "html": "2450 zł"
+        },
+        {
+          "label": "D",
+          "html": "2040 zł"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2016-2017_slaskie_q7",
+      "number": 7,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Jaką miarę ma mniejszy z kątów, jaki tworzą wskazówki zegara o godzinie 9.30?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "90°"
+        },
+        {
+          "label": "B",
+          "html": "105°"
+        },
+        {
+          "label": "C",
+          "html": "120°"
+        },
+        {
+          "label": "D",
+          "html": "135°"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2016-2017_slaskie_q8",
+      "number": 8,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "zliczanie / metody zliczania"
+      ],
+      "prompt_html": "<p>Ile razy do ponumerowania 281 stronicowej książki została użyta cyfra 7, jeżeli każda strona jest numerowana?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "58"
+        },
+        {
+          "label": "B",
+          "html": "55"
+        },
+        {
+          "label": "C",
+          "html": "31"
+        },
+        {
+          "label": "D",
+          "html": "28"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2016-2017_slaskie_q9",
+      "number": 9,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "geometria",
+        "zliczanie / metody zliczania"
+      ],
+      "prompt_html": "<p>Ile trójkątów prostokątnych o przyprostokątnych 1 cm i 3 cm potrzebujemy do całkowitego pokrycia prostokąta o wymiarach 8 cm i 12 cm?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "28"
+        },
+        {
+          "label": "B",
+          "html": "32"
+        },
+        {
+          "label": "C",
+          "html": "48"
+        },
+        {
+          "label": "D",
+          "html": "64"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2016-2017_slaskie_q10",
+      "number": 10,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "trójkąty",
+        "zliczanie / metody zliczania"
+      ],
+      "prompt_html": "<p>Janek ma patyczki długościach 7 cm, 6 cm, 3 cm, 2 cm i 1 dm. Ile trójkątów można utworzyć nie łamiąc patyczków?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "6"
+        },
+        {
+          "label": "B",
+          "html": "5"
+        },
+        {
+          "label": "C",
+          "html": "4"
+        },
+        {
+          "label": "D",
+          "html": "3"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2016-2017_slaskie_q11",
+      "number": 11,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "NWW / NWD"
+      ],
+      "prompt_html": "<p>Iloraz NWW (najmniejszej wspólnej wielokrotności) liczb 48 i 72 przez ich NWD (największy wspólny dzielnik) wynosi</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "24"
+        },
+        {
+          "label": "B",
+          "html": "7"
+        },
+        {
+          "label": "C",
+          "html": "6"
+        },
+        {
+          "label": "D",
+          "html": "1,5"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2016-2017_slaskie_q12",
+      "number": 12,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "NWW / NWD",
+        "podzielność"
+      ],
+      "prompt_html": "<p>Ula w swojej biblioteczce ma więcej niż 40, ale mniej niż 50 książek. Spośród wszystkich książek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> to podręczniki, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> to lektury, a pozostałe to słowniki. Ile słowników ma Ula w biblioteczce?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "16"
+        },
+        {
+          "label": "B",
+          "html": "20"
+        },
+        {
+          "label": "C",
+          "html": "12"
+        },
+        {
+          "label": "D",
+          "html": "28"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2016-2017_slaskie_q13",
+      "number": 13,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "reszta z dzielenia"
+      ],
+      "prompt_html": "<p>Dziecko rysuje kółeczka jedno obok drugiego w kolorach czerwonym, żółtym, zielonym, niebieskim, zawsze w tej samej kolejności. Pierwsze narysowane kółeczko jest czerwone. Jakiego koloru będzie pięćdziesiąte kółeczko?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "Żółte."
+        },
+        {
+          "label": "B",
+          "html": "Zielone."
+        },
+        {
+          "label": "C",
+          "html": "Niebieskie."
+        },
+        {
+          "label": "D",
+          "html": "Czerwone."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2016-2017_slaskie_q14",
+      "number": 14,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Z siedmiu jednakowych kwadratów zbudowano prostokąt o polu równym sumie pól wszystkich kwadratów. Pole jednego kwadratu jest równe 81 cm².</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "Pole prostokąta wynosi 0,0567 m²."
+        },
+        {
+          "label": "B",
+          "html": "Pole prostokąta wynosi 5,67 m²."
+        },
+        {
+          "label": "C",
+          "html": "Obwód prostokąta jest równy 1,24 m."
+        },
+        {
+          "label": "D",
+          "html": "Obwód prostokąta jest równy 1,42 m."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2016-2017_slaskie_q15",
+      "number": 15,
+      "page": 5,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>W każdym z trzech koszyków były grzyby, w sumie 20 sztuk. W drugim koszyku było o 2 grzyby więcej niż w pierwszym. W trzecim koszyku było dziewięć razy mniej niż wynosiła suma grzybów z pierwszego i drugiego koszyka. W pierwszym koszyku było</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "6 grzybów."
+        },
+        {
+          "label": "B",
+          "html": "8 grzybów."
+        },
+        {
+          "label": "C",
+          "html": "10 grzybów."
+        },
+        {
+          "label": "D",
+          "html": "11 grzybów."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2016-2017_slaskie_q16",
+      "number": 16,
+      "page": 5,
+      "type": "true_false",
+      "points": 5,
+      "topics": [
+        "inne",
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>Licznik i mianownik pewnego ułamka są liczbami całkowitymi dodatnimi oraz licznik jest mniejszy od mianownika.</p><p>Oceń, czy podane zdania są prawdziwe czy fałszywe.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Jeśli mianownik podzielimy przez pięć, to otrzymany ułamek będzie pięć razy większy od danego ułamka."
+        },
+        {
+          "label": "2",
+          "html": "Jeśli zmniejszymy licznik i mianownik dwa razy to otrzymamy ułamek cztery razy mniejszy od danego ułamka."
+        },
+        {
+          "label": "3",
+          "html": "Jeśli do licznika dodamy liczbę 5, a do mianownika dodamy 3, to otrzymany ułamek zawsze będzie większy od 1."
+        },
+        {
+          "label": "4",
+          "html": "Odwrotność danego ułamka nie może być liczbą większą od 10."
+        },
+        {
+          "label": "5",
+          "html": "Suma danego ułamka i jego odwrotności jest liczbą większą od 1."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PFFFP",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2016-2017_slaskie_q17",
+      "number": 17,
+      "page": 5,
+      "type": "true_false",
+      "points": 4,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Reprezentacja sportowa szkoły w piłce siatkowej rozegrała 15 spotkań. Dwa razy więcej zremisowała niż przegrała, o 5 meczy więcej wygrała niż zremisowała.</p><p>Oceń, czy podane zdania są prawdziwe czy fałszywe.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Liczba meczy wygranych przez drużynę stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>5</mn></mfrac></math> liczby meczy przez nią rozegranych."
+        },
+        {
+          "label": "2",
+          "html": "Drużyna wygrała 10 meczy."
+        },
+        {
+          "label": "3",
+          "html": "Drużyna wygrała o 7 meczy więcej niż przegrała."
+        },
+        {
+          "label": "4",
+          "html": "Drużyna zremisowała 4 mecze."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PFPP",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2016-2017_slaskie_q18",
+      "number": 18,
+      "page": 6,
+      "type": "true_false",
+      "points": 4,
+      "topics": [
+        "geometria",
+        "trójkąty"
+      ],
+      "prompt_html": "<p>Z dwóch wierzchołków trapezu równoramiennego o kącie ostrym: 45° poprowadzono wysokości, które podzieliły trapez na kwadrat i dwa trójkąty.</p><p>Oceń, czy podane zdania są prawdziwe czy fałszywe.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Pole kwadratu jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> pola trapezu."
+        },
+        {
+          "label": "2",
+          "html": "Jedna z podstaw ma długość trzy razy większą niż druga."
+        },
+        {
+          "label": "3",
+          "html": "Obwód trapezu jest sześć razy większy niż długość boku kwadratu."
+        },
+        {
+          "label": "4",
+          "html": "Wysokość trapezu jest równa długości krótszej podstawy trapezu."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FPFP",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2016-2017_slaskie_q19",
+      "number": 19,
+      "page": 6,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "inne",
+        "geometria"
+      ],
+      "prompt_html": "<p>Wpisz poprawne wyniki.</p><p>a) Zaokrągleniem liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5,2</mn><mo>(</mo><mn>94</mn><mo>)</mo></math> do części tysięcznych jest liczba ……….</p><p>b) Zaokrągleniem liczby 20169502 do tysięcy jest liczba ……….</p><p>c) W równej odległości pomiędzy punktami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> o współrzędnych 1 i 5 na osi liczbowej znajduje się punkt o współrzędnej ……….</p><p>d) W czworokącie miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> jest o 20° większa od miary kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>, miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> jest o 20° większa od miary kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> i miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> jest o 20° większa od miary kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>. Miara największego kąta w tym czworokącie wynosi: ……….</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "a) 5,295; b) 20170000; c) 3; d) 120°",
+        "solution_html": "<p>a) Zaokrągleniem liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5,2</mn><mo>(</mo><mn>94</mn><mo>)</mo></math> do części tysięcznych jest liczba <strong>5,295</strong>.</p><p>b) Zaokrągleniem liczby 20169502 do tysięcy jest liczba <strong>20170000</strong>.</p><p>c) Punktem w równej odległości od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> jest środek odcinka, czyli punkt o współrzędnej <strong>3</strong>.</p><p>d) Suma kątów czworokąta wynosi 360°. Jeśli miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>20</mn><mo>)</mo><mo>+</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>40</mn><mo>)</mo><mo>+</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>60</mn><mo>)</mo><mo>=</mo><mn>360</mn></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>60</mn></mrow></math>°, a największy kąt to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>60</mn><mo>°</mo><mo>+</mo><mn>60</mn><mo>°</mo><mo>=</mo><mn>120</mn><mo>°</mo></mrow></math>.</p><p><em>Punktacja: za każdą poprawnie wpisaną liczbę 1 punkt (razem 4 p.).</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2016-2017_slaskie_q20",
+      "number": 20,
+      "page": 6,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "podzielność"
+      ],
+      "prompt_html": "<p>Wypisz wszystkie liczby trzycyfrowe dodatnie podzielne przez 9, które w rzędzie dziesiątek mają cyfrę 7.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "270, 171, 279, 972, 378, 873, 477, 774, 576, 675",
+        "solution_html": "<p>Liczba jest podzielna przez 9, gdy suma jej cyfr dzieli się przez 9. Dla liczb postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mover><mrow><mi>a</mi><mn>7</mn><mi>b</mi></mrow><mo>―</mo></mover></mrow></math> szukamy takich, dla których <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mn>7</mn><mo>+</mo><mi>b</mi></mrow></math> dzieli się przez 9. Szukane liczby to: 270, 171, 279, 972, 378, 873, 477, 774, 576, 675 (jest ich 10).</p><p><em>Punktacja: 1 p. za wypisanie 5, 6, 7 lub 8 liczb; 2 p. za wypisanie 9 lub 10 liczb.</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2016-2017_slaskie_q21",
+      "number": 21,
+      "page": 7,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "trójkąty",
+        "geometria"
+      ],
+      "prompt_html": "<p>Na bokach kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> zbudowano na zewnątrz trójkąty równoboczne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABE</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCF</mi></math>. Wykonaj rysunek i oblicz miary kątów powstałego trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EFB</mi></math>.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Kąt EBF = 150°, kąty BEF = BFE = 15°.",
+        "solution_html": "<p>Wokół wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> mamy kąt kwadratu 90° oraz dwa kąty trójkątów równobocznych po 60°, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mo>∢</mo><mi>EBF</mi><mo>|</mo><mo>=</mo><mn>360</mn><mo>°</mo><mo>−</mo><mo>(</mo><mn>90</mn><mo>°</mo><mo>+</mo><mn>60</mn><mo>°</mo><mo>+</mo><mn>60</mn><mo>°</mo><mo>)</mo><mo>=</mo><mn>150</mn><mo>°</mo></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>BE</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>BF</mi><mo>|</mo></mrow></math> (boki trójkątów równobocznych na równych bokach kwadratu), trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EBF</mi></math> jest równoramienny, a jego kąty przy podstawie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mo>∢</mo><mi>BEF</mi><mo>|</mo><mo>=</mo><mo>|</mo><mo>∢</mo><mi>BFE</mi><mo>|</mo><mo>=</mo><mo>(</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>150</mn><mo>°</mo><mo>)</mo><mo>:</mo><mn>2</mn><mo>=</mo><mn>15</mn><mo>°</mo></mrow></math>.</p><p><em>Punktacja: 1 p. za poprawny rysunek z dorysowanym trójkątem, 1 p. za obliczenie kąta między ramionami, 1 p. za obliczenie kątów ostrych trójkąta.</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2016-2017_slaskie_q22",
+      "number": 22,
+      "page": 7,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Ania wstawiła ciasto do piekarnika na półtorej godziny. Po upieczeniu ciasto stygło jeszcze <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>6</mn></mfrac></math> godziny i dopiero po tym czasie było gotowe do jedzenia. O której godzinie wstawiła ciasto do piekarnika, jeśli ciasto było gotowe do jedzenia o 16:40?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "14:20",
+        "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,5</mn></mrow></math> godz. = 1 godz. 30 min, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>6</mn></mfrac></math> godz. = 50 min. Łączny czas pieczenia i stygnięcia: 1 godz. 30 min + 50 min = 2 godz. 20 min. Zatem ciasto wstawiono o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>16</mn><mo>:</mo><mn>40</mn></mrow></math> − 2 godz. 20 min = <strong>14:20</strong>.</p><p><em>Punktacja: 1 p. za poprawne zamiany godzin i minut, 1 p. za obliczenie sumy czasu pieczenia i stygnięcia, 1 p. za obliczenie godziny wstawienia ciasta.</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2016-2017_slaskie_q23",
+      "number": 23,
+      "page": 8,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "proporcjonalność prosta"
+      ],
+      "prompt_html": "<p>Na planie wykonanym w skali 1:4 000 długość drogi z domu Janka i Ali do szkoły wynosi 15 cm. Na każde 5 m drogi Ala wykonuje 10 kroków. Pokonując drogę do szkoły Ala robi o 200 kroków więcej niż Janek. Oblicz długość drogi z domu do szkoły oraz jakiej długości są kroki Janka.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Droga: 600 m; długość kroku Janka: 0,6 m.",
+        "solution_html": "<p>Długość drogi: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mtext> cm</mtext><mo>·</mo><mn>4000</mn><mo>=</mo><mn>60000</mn><mtext> cm</mtext><mo>=</mo><mn>600</mn><mtext> m</mtext></mrow></math>. Liczba kroków Ali: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>600</mn><mo>:</mo><mo>(</mo><mn>5</mn><mo>:</mo><mn>10</mn><mo>)</mo><mo>=</mo><mn>1200</mn></mrow></math>. Liczba kroków Janka: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1200</mn><mo>−</mo><mn>200</mn><mo>=</mo><mn>1000</mn></mrow></math>. Długość kroku Janka: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>600</mn><mtext> m</mtext><mo>:</mo><mn>1000</mn><mo>=</mo><mn>0,6</mn><mtext> m</mtext></mrow></math>.</p><p><em>Punktacja: po 1 p. za poprawną metodę obliczenia długości drogi, liczby kroków Ali, długości kroków Janka oraz za poprawne obliczenia końcowe.</em></p>"
+      }
+    }
+  ]
+}

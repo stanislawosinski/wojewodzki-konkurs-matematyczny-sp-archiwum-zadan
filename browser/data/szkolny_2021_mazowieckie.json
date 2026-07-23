@@ -1,0 +1,245 @@
+{
+  "source_file": "szkolny/2021_mazowieckie.pdf",
+  "answers_file": "szkolny/2021_mazowieckie_answers.pdf",
+  "competition": "Konkurs Matematyczny dla uczniów szkół podstawowych województwa mazowieckiego",
+  "school_type": "podstawowa",
+  "stage": "szkolny",
+  "wojewodztwo": "mazowieckie",
+  "school_year": "2021/2022",
+  "date": "2021-10-21",
+  "total_questions": 10,
+  "max_points": 20,
+  "questions": [
+    {
+      "id": "szkolny_2021_mazowieckie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "bryły",
+        "trójkąty"
+      ],
+      "prompt_html": "<p>Wymiary prostopadłościanu wynoszą 18 cm × 21 cm × 33 cm. Czy długość przekątnej najmniejszej ściany tego prostopadłościanu jest równa 21 cm?</p><p>Wybierz odpowiedź <strong>T</strong> (tak) albo <strong>N</strong> (nie) i uzasadnienie <strong>A</strong> lub <strong>B</strong>, lub <strong>C</strong>. (Poprawna odpowiedź podana jest w formacie: litera T/N oraz litera uzasadnienia.)</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "ta przekątna jest dłuższą przyprostokątną trójkąta prostokątnego, w którym długości pozostałych boków wynoszą 21 cm i 18 cm."
+        },
+        {
+          "label": "B",
+          "html": "ta przekątna jest przeciwprostokątną trójkąta prostokątnego, w którym długości pozostałych boków wynoszą 21 cm i 18 cm."
+        },
+        {
+          "label": "C",
+          "html": "ta przekątna jest krótszą przyprostokątną trójkąta prostokątnego, w którym długości pozostałych boków wynoszą 21 cm i 18 cm."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "NB",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2021_mazowieckie_q2",
+      "number": 2,
+      "page": 2,
+      "type": "true_false",
+      "points": 1,
+      "topics": [
+        "zagadki logiczne",
+        "podzielność"
+      ],
+      "prompt_html": "<p>Mateusz ułożył z cyfr: 1, 4, 5, 7 i 8 pięciocyfrowy kod do logowania się na komputerze tak, że:</p><ul><li>8 nie jest na pierwszym ani ostatnim miejscu kodu i nie sąsiaduje z liczbą pierwszą.</li><li>4 nie jest ostatnią cyfrą kodu.</li><li>1 jest na dalszym miejscu w kodzie niż 7.</li><li>7 nie jest pierwszą cyfrą kodu.</li></ul><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F, jeśli jest fałszywe.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Utworzony kod stanowi liczbę podzielną przez 4."
+        },
+        {
+          "label": "2",
+          "html": "Jeżeli do liczby stanowiącej utworzony kod dodamy 2519, to otrzymamy liczbę, która jest wielokrotnością 12."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FP",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2021_mazowieckie_q3",
+      "number": 3,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Jaką miarę ma kąt rozwarty w trapezie równoramiennym, w którym długość ramienia jest równa długości krótszej podstawy, a długość jego przekątnej jest równa długości dłuższej podstawy?</p><p>Wybierz poprawną odpowiedź spośród danych.</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "108°"
+        },
+        {
+          "label": "B",
+          "html": "102°"
+        },
+        {
+          "label": "C",
+          "html": "98°"
+        },
+        {
+          "label": "D",
+          "html": "120°"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2021_mazowieckie_q4",
+      "number": 4,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Alan pewnego dnia, w którym słońce wzeszło o 6:08, na odrabianie lekcji poświęcił 2 godziny 24 minuty, w tym przy komputerze pracował 1,1 godziny, co stanowiło <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>12</mn></mfrac></math> długości dnia.</p><p>Wybierz poprawną odpowiedź spośród oznaczonych literami A i B oraz C i D. (Poprawna odpowiedź składa się z jednej litery A/B oraz jednej litery C/D.)</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "Dzień trwał: 13,2 godziny"
+        },
+        {
+          "label": "B",
+          "html": "Dzień trwał: 13 godzin 20 minut"
+        },
+        {
+          "label": "C",
+          "html": "Słońce zaszło: o 19:20"
+        },
+        {
+          "label": "D",
+          "html": "Słońce zaszło: o 19:28"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "AC",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2021_mazowieckie_q5",
+      "number": 5,
+      "page": 3,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "prędkość / droga / czas"
+      ],
+      "prompt_html": "<p>Kuba i Bartek jeżdżą do szkoły rowerami. Droga Kuby do szkoły jest półtora raza dłuższa niż droga Bartka. Pewnego razu Bartek przebył tę drogę w czasie stanowiącym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math> czasu jazdy Kuby. Porównaj prędkości chłopców.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Obaj chłopcy jechali z taką samą prędkością.",
+        "solution_html": "<p>Oznaczmy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> – droga Bartka, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,5</mn><mi>x</mi></mrow></math> – droga Kuby, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math> – czas Kuby, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>2</mn><mn>3</mn></mfrac><mi>t</mi></mrow></math> – czas Bartka. Wtedy prędkość Bartka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>V</mi><mi>B</mi></msub><mo>=</mo><mfrac><mi>x</mi><mrow><mfrac><mn>2</mn><mn>3</mn></mfrac><mi>t</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>3</mn><mi>x</mi></mrow><mrow><mn>2</mn><mi>t</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>1,5</mn><mi>x</mi></mrow><mi>t</mi></mfrac></mrow></math>, a prędkość Kuby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>V</mi><mi>K</mi></msub><mo>=</mo><mfrac><mrow><mn>1,5</mn><mi>x</mi></mrow><mi>t</mi></mfrac></mrow></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>V</mi><mi>B</mi></msub><mo>=</mo><msub><mi>V</mi><mi>K</mi></msub></mrow></math>. Odpowiedź: obaj chłopcy jechali z taką samą prędkością.</p><p><em>Punktacja: 1 pkt za wprowadzenie oznaczeń, 1 pkt za wyrażenie i porównanie prędkości oraz podanie odpowiedzi.</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2021_mazowieckie_q6",
+      "number": 6,
+      "page": 4,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "trójkąty",
+        "procenty"
+      ],
+      "prompt_html": "<p>W trójkącie równoramiennym wysokość poprowadzona na ramię trójkąta jest trzy razy krótsza od wysokości poprowadzonej na jego podstawę. Oblicz, ile procent obwodu trójkąta stanowi długość jego podstawy. Odpowiedź podaj z dokładnością do 0,1%.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "około 14,3%",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> będzie długością podstawy, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> – długością ramienia, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>h</mi><mi>a</mi></msub></math> – wysokością na podstawę, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>h</mi><mi>b</mi></msub></math> – wysokością na ramię. Pole trójkąta zapisujemy dwoma sposobami: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mi>a</mi><mo>·</mo><msub><mi>h</mi><mi>a</mi></msub></mrow><mn>2</mn></mfrac><mo>=</mo><mfrac><mrow><mi>b</mi><mo>·</mo><msub><mi>h</mi><mi>b</mi></msub></mrow><mn>2</mn></mfrac></mrow></math>, a ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>h</mi><mi>a</mi></msub><mo>=</mo><mn>3</mn><msub><mi>h</mi><mi>b</mi></msub></mrow></math>, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>3</mn><mi>a</mi></mrow></math>. Długość podstawy stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mi>a</mi><mrow><mi>a</mi><mo>+</mo><mn>2</mn><mi>b</mi></mrow></mfrac><mo>=</mo><mfrac><mi>a</mi><mrow><mi>a</mi><mo>+</mo><mn>6</mn><mi>a</mi></mrow></mfrac><mo>=</mo><mfrac><mi>a</mi><mrow><mn>7</mn><mi>a</mi></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>7</mn></mfrac><mo>=</mo><mfrac><mn>100</mn><mn>7</mn></mfrac><mo>%</mo><mo>≈</mo><mn>14,3</mn><mo>%</mo></mrow></math> obwodu. Odpowiedź: długość podstawy stanowi około 14,3% obwodu trójkąta.</p><p><em>Punktacja: 1 pkt za wyznaczenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>3</mn><mi>a</mi></mrow></math>, 1 pkt za obliczenie procentu i podanie odpowiedzi.</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2021_mazowieckie_q7",
+      "number": 7,
+      "page": 5,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Wojtek i Kasia chodzą do jednej klasy technikum. Wojtek ma w klasie dwa razy tyle kolegów co koleżanek, a Kasia o dziesięciu kolegów więcej niż koleżanek. Oblicz, ilu uczniów liczy ta klasa.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "25 uczniów",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę dziewcząt w klasie. Wtedy chłopców jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></math> (Wojtek ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi></mrow></math> kolegów i sam też jest chłopcem), a koleżanek Kasi jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></math>. Z warunku dla Kasi układamy równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>−</mo><mn>1</mn><mo>+</mo><mn>10</mn><mo>=</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>8</mn></mrow></math>. W klasie jest więc 8 dziewcząt oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>8</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>17</mn></mrow></math> chłopców, czyli razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>+</mo><mn>17</mn><mo>=</mo><mn>25</mn></mrow></math> osób. Odpowiedź: ta klasa liczy 25 osób.</p><p><em>Punktacja: 1 pkt za analizę i oznaczenia, 1 pkt za ułożenie równania, 1 pkt za rozwiązanie równania i podanie odpowiedzi.</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2021_mazowieckie_q8",
+      "number": 8,
+      "page": 6,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "bryły",
+        "procenty"
+      ],
+      "prompt_html": "<p>Julka ma 43 sześcienne kostki o krawędzi długości 1. Zbudowała sześcian o krawędzi równej 3, a ze wszystkich pozostałych kostek prostopadłościan. Oblicz, jakie wymiary ma zbudowany prostopadłościan, jeśli wiadomo, że pole powierzchni całkowitej sześcianu jest o 35% większe od pola powierzchni całkowitej prostopadłościanu. Rozpatrz wszystkie możliwości.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "2 × 2 × 4",
+        "solution_html": "<p>Pole powierzchni całkowitej sześcianu o krawędzi 3 wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>s</mi></msub><mo>=</mo><mn>6</mn><mo>·</mo><msup><mn>3</mn><mn>2</mn></msup><mo>=</mo><mn>54</mn></mrow></math>. Skoro pole sześcianu jest o 35% większe, to stanowi 135% pola prostopadłościanu, więc pole prostopadłościanu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>p</mi></msub><mo>=</mo><mfrac><mrow><mn>54</mn><mo>·</mo><mn>100</mn><mo>%</mo></mrow><mrow><mn>135</mn><mo>%</mo></mrow></mfrac><mo>=</mo><mn>40</mn></mrow></math>. Objętość sześcianu to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>3</mn><mn>3</mn></msup><mo>=</mo><mn>27</mn></mrow></math>, więc prostopadłościan zbudowano z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>43</mn><mo>−</mo><mn>27</mn><mo>=</mo><mn>16</mn></mrow></math> kostek. Rozpatrujemy wymiary o objętości 16: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>×</mo><mn>1</mn><mo>×</mo><mn>16</mn></mrow></math> (pole 66), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>×</mo><mn>2</mn><mo>×</mo><mn>8</mn></mrow></math> (pole 52), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>×</mo><mn>4</mn><mo>×</mo><mn>4</mn></mrow></math> (pole 48) oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>×</mo><mn>2</mn><mo>×</mo><mn>4</mn></mrow></math> (pole 40). Tylko prostopadłościan o wymiarach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>×</mo><mn>2</mn><mo>×</mo><mn>4</mn></mrow></math> ma pole całkowite równe 40. Odpowiedź: wymiary prostopadłościanu to 2 × 2 × 4.</p><p><em>Punktacja: 1 pkt za pole sześcianu, 1 pkt za pole prostopadłościanu, 1 pkt za wskazanie wymiarów i odpowiedź.</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2021_mazowieckie_q9",
+      "number": 9,
+      "page": 7,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>W prostokącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> na boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> zaznaczono punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> tak, że pole trapezu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AECD</mi></math> jest równe 40 cm<sup>2</sup>, a pole trapezu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EBCD</mi></math> 56 cm<sup>2</sup>. Oblicz, jaką długość ma bok kwadratu, którego pole jest równe polu prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "8 cm",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> oznacza pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DEC</mi></math>. Ponieważ podstawą tego trójkąta jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DC</mi></math>, a wysokością bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> prostokąta, mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msub><mi>P</mi><mi>ABCD</mi></msub></mrow></math>. Oznaczmy jeszcze pola trójkątów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> – pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AED</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi></math> – pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EBC</mi></math>. Z treści zadania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>40</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>z</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>56</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mi>y</mi><mo>+</mo><mi>z</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>96</mn></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mi>y</mi><mo>+</mo><mi>z</mi><mo>=</mo><msub><mi>P</mi><mi>ABCD</mi></msub></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>0,5</mn><msub><mi>P</mi><mi>ABCD</mi></msub></mrow></math>, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,5</mn><msub><mi>P</mi><mi>ABCD</mi></msub><mo>=</mo><mn>96</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>ABCD</mi></msub><mo>=</mo><mn>64</mn></mrow></math> cm<sup>2</sup>. Bok szukanego kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>k</mi><mo>=</mo><msqrt><mn>64</mn></msqrt><mo>=</mo><mn>8</mn></mrow></math> cm. Odpowiedź: bok kwadratu ma długość 8 cm.</p><p><em>Punktacja: 1 pkt za oznaczenia i zauważenie, że pole trójkąta DEC to połowa pola prostokąta, 1 pkt za ułożenie zależności, 1 pkt za obliczenie pola i długości boku kwadratu.</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2021_mazowieckie_q10",
+      "number": 10,
+      "page": 8,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "procenty",
+        "NWW / NWD"
+      ],
+      "prompt_html": "<p>W pewnym sklepie przez weekend trwała promocja, w ramach której co 25. klient otrzymywał dwudziestoprocentową zniżkę na zakupy i co 40. klient – zniżkę osiemdziesięcioprocentową, naliczane niezależnie jedna po drugiej. W tym czasie zakupów dokonało 7200 klientów i każdy z tych klientów był w sklepie tylko raz. Pani Ewa otrzymała dwie zniżki i za swoje zakupy zapłaciła 128 zł. Oblicz, ilu jeszcze klientów otrzymało obie zniżki oraz ile złotych zaoszczędziła pani Ewa.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "35 klientów oraz 672 zł",
+        "solution_html": "<p>Obie zniżki otrzymywał co <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>NWW</mtext><mo>(</mo><mn>25</mn><mo>,</mo><mn>40</mn><mo>)</mo><mo>=</mo><mn>200</mn></mrow></math>. klient, więc łącznie było ich <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7200</mn><mo>:</mo><mn>200</mn><mo>=</mo><mn>36</mn></mrow></math> osób. Oprócz pani Ewy jest to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>36</mn><mo>−</mo><mn>1</mn><mo>=</mo><mn>35</mn></mrow></math> klientów. Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> będzie kwotą, jaką pani Ewa zapłaciłaby bez zniżek. Po 20% zniżce płaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,8</mn><mi>x</mi></mrow></math>, a po dodatkowej 80% zniżce <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,8</mn><mo>·</mo><mn>0,8</mn><mi>x</mi><mo>=</mo><mn>0,16</mn><mi>x</mi></mrow></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,16</mn><mi>x</mi><mo>=</mo><mn>128</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>128</mn><mo>:</mo><mn>0,16</mn><mo>=</mo><mn>800</mn></mrow></math> zł. Pani Ewa zaoszczędziła <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>800</mn><mo>−</mo><mn>128</mn><mo>=</mo><mn>672</mn></mrow></math> zł. Odpowiedź: oprócz pani Ewy obie zniżki otrzymało 35 klientów, a pani Ewa zaoszczędziła 672 zł.</p><p><em>Punktacja: 1 pkt za obliczenie liczby klientów (35), 1 pkt za zapisanie zniżki wyrażeniem, 1 pkt za obliczenie oszczędności (672 zł) i podanie odpowiedzi.</em></p>"
+      }
+    }
+  ]
+}

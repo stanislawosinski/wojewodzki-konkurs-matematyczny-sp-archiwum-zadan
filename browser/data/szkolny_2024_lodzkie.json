@@ -1,0 +1,507 @@
+{
+  "source_file": "szkolny/2024_lodzkie.pdf",
+  "answers_file": "szkolny/2024_lodzkie_answers.pdf",
+  "competition": "Wojewódzki Konkurs Przedmiotowy z Matematyki organizowany przez Łódzkiego Kuratora Oświaty dla uczniów szkół podstawowych",
+  "school_type": "podstawowa",
+  "stage": "szkolny",
+  "wojewodztwo": "lodzkie",
+  "school_year": "2023/2024",
+  "date": null,
+  "total_questions": 15,
+  "max_points": 60,
+  "questions": [
+    {
+      "id": "szkolny_2024_lodzkie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "closed_single",
+      "points": 2,
+      "topics": [
+        "zagadki logiczne",
+        "podzielność"
+      ],
+      "prompt_html": "<p>Ania, Bartek, Cecylia, Darek i Ewa poznali tajemną liczbę. Każdy wskazał pewną własność tej liczby. Ania powiedziała, że jest to liczba pierwsza, Bartek, że jest to liczba parzysta, Cecylia powiedziała, że jest to liczba nie większa niż 128, Darek powiedział, że jest to liczba nie mniejsza niż 128 a Ewa, że jest to liczba, którą można przedstawić w postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mi>n</mi></msup></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> nie jest liczbą pierwszą. Wiedząc, że dokładnie jedna z powyższych informacji jest fałszywa wskaż która?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "Wypowiedziana przez Anię"
+        },
+        {
+          "label": "B",
+          "html": "Wypowiedziana przez Bartka"
+        },
+        {
+          "label": "C",
+          "html": "Wypowiedziana przez Cecylię"
+        },
+        {
+          "label": "D",
+          "html": "Wypowiedziana przez Darka"
+        },
+        {
+          "label": "E",
+          "html": "Wypowiedziana przez Ewę"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2024_lodzkie_q2",
+      "number": 2,
+      "page": 2,
+      "type": "closed_single",
+      "points": 3,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Niech zapis <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>[</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo>,</mo><mi>c</mi><mo>,</mo><mi>d</mi><mo>]</mo></mrow></math> oznacza wynik dodawania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mfrac><mn>1</mn><mrow><mi>b</mi><mo>+</mo><mfrac><mn>1</mn><mrow><mi>c</mi><mo>+</mo><mfrac><mn>1</mn><mi>d</mi></mfrac></mrow></mfrac></mrow></mfrac></mrow></math>. Która z poniższych liczb jest największa?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>[</mo><mn>2</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>1</mn><mo>]</mo></mrow></math>"
+        },
+        {
+          "label": "B",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>[</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>]</mo></mrow></math>"
+        },
+        {
+          "label": "C",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>[</mo><mn>2</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>]</mo></mrow></math>"
+        },
+        {
+          "label": "D",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>[</mo><mn>2</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>]</mo></mrow></math>"
+        },
+        {
+          "label": "E",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>[</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>1</mn><mo>]</mo></mrow></math>"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2024_lodzkie_q3",
+      "number": 3,
+      "page": 2,
+      "type": "closed_single",
+      "points": 3,
+      "topics": [
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Która z powyższych równości jest prawdziwa?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mroot><mrow><mn>81</mn><mo>·</mo><msup><mn>10</mn><mn>6</mn></msup></mrow><mn>3</mn></mroot><mo>=</mo><mn>3</mn><mo>·</mo><msup><mn>10</mn><mn>2</mn></msup></mrow></math>"
+        },
+        {
+          "label": "B",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mroot><mrow><mn>81</mn><mo>·</mo><msup><mn>10</mn><mn>6</mn></msup></mrow><mn>3</mn></mroot><mo>=</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><msup><mn>10</mn><mn>2</mn></msup></mrow></math>"
+        },
+        {
+          "label": "C",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mroot><mrow><mn>81</mn><mo>·</mo><msup><mn>10</mn><mn>6</mn></msup></mrow><mn>3</mn></mroot><mo>=</mo><mn>3</mn><mo>·</mo><msup><mn>10</mn><mn>3</mn></msup></mrow></math>"
+        },
+        {
+          "label": "D",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mroot><mrow><mn>81</mn><mo>·</mo><msup><mn>10</mn><mn>6</mn></msup></mrow><mn>3</mn></mroot><mo>=</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><msup><mn>10</mn><mn>3</mn></msup></mrow></math>"
+        },
+        {
+          "label": "E",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mroot><mrow><mn>81</mn><mo>·</mo><msup><mn>10</mn><mn>6</mn></msup></mrow><mn>3</mn></mroot><mo>=</mo><mn>3</mn><mroot><mn>3</mn><mn>3</mn></mroot><mo>·</mo><msup><mn>10</mn><mn>2</mn></msup></mrow></math>"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "E",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2024_lodzkie_q4",
+      "number": 4,
+      "page": 3,
+      "type": "closed_single",
+      "points": 2,
+      "topics": [
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Która z poniższych liczb jest równa 5?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><msqrt><mn>2</mn></msqrt><mo>+</mo><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup></math>"
+        },
+        {
+          "label": "B",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>0,5</mn><mo>)</mo></mrow><mrow><mo>−</mo><mn>1</mn></mrow></msup></math>"
+        },
+        {
+          "label": "C",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>)</mo></mrow><mrow><mo>−</mo><mn>1</mn></mrow></msup></math>"
+        },
+        {
+          "label": "D",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>4</mn></msqrt><mo>+</mo><mroot><mn>8</mn><mn>3</mn></mroot><mo>+</mo><mfrac><mn>1</mn><msqrt><mn>4</mn></msqrt></mfrac><mo>+</mo><mfrac><mn>1</mn><mroot><mn>8</mn><mn>3</mn></mroot></mfrac></mrow></math>"
+        },
+        {
+          "label": "E",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mrow><mo>(</mo><msup><mn>5</mn><mn>2</mn></msup><mo>)</mo></mrow><mn>3</mn></msup><msup><mn>5</mn><mn>4</mn></msup></mfrac></math>"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2024_lodzkie_q5",
+      "number": 5,
+      "page": 3,
+      "type": "closed_single",
+      "points": 3,
+      "topics": [
+        "równania z jedną zmienną",
+        "procenty"
+      ],
+      "prompt_html": "<p>Kasia od stycznia do czerwca włącznie odkładała pieniądze na smartwatcha. Co miesiąc odkładała o 10 zł więcej niż poprzedniego miesiąca. Odkładając czerwcową „ratę” zauważyła, że brakuje jej jeszcze 37% ceny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> smartwatcha. Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza pierwszą kwotę odłożoną przez Kasię. Które równanie opisuje przedstawioną sytuację?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mi>x</mi><mo>+</mo><mn>150</mn><mo>=</mo><mn>0,37</mn><mi>C</mi></mrow></math>"
+        },
+        {
+          "label": "B",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mi>x</mi><mo>+</mo><mn>50</mn><mo>=</mo><mn>0,37</mn><mi>C</mi></mrow></math>"
+        },
+        {
+          "label": "C",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mi>x</mi><mo>+</mo><mn>150</mn><mo>=</mo><mn>0,63</mn></mrow></math>"
+        },
+        {
+          "label": "D",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mi>x</mi><mo>+</mo><mn>50</mn><mo>=</mo><mn>0,63</mn><mi>C</mi></mrow></math>"
+        },
+        {
+          "label": "E",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mi>x</mi><mo>+</mo><mn>150</mn><mo>=</mo><mn>0,63</mn><mi>C</mi></mrow></math>"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "E",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2024_lodzkie_q6",
+      "number": 6,
+      "page": 3,
+      "type": "closed_single",
+      "points": 2,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Rozważmy pięć zdań:</p><ol><li>Istnieje trapez, który nie ma osi symetrii</li><li>Istnieje trapez, który ma dokładnie cztery osie symetrii</li><li>Istnieje trapez, który ma dokładnie dwie osie symetrii</li><li>Istnieje trapez, który ma dokładnie jedną oś symetrii</li><li>Istnieje trapez, który ma dokładnie trzy osie symetrii</li></ol><p>Wskaż odpowiedź, w której wskazane są wszystkie zdania prawdziwe spośród zdań 1-5 oraz nie pojawiają się zdania fałszywe.</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "1, 2, 3, 4, 5"
+        },
+        {
+          "label": "B",
+          "html": "1, 2, 3, 4"
+        },
+        {
+          "label": "C",
+          "html": "1, 3, 4, 5"
+        },
+        {
+          "label": "D",
+          "html": "1, 3, 4"
+        },
+        {
+          "label": "E",
+          "html": "2, 3, 4"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2024_lodzkie_q7",
+      "number": 7,
+      "page": 4,
+      "type": "closed_single",
+      "points": 3,
+      "topics": [
+        "trójkąty",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Każdy z boków trójkąta prostokątnego jest też bokiem kwadratu (por. rysunek).</p><p>Korzystając z danych przedstawionych na rysunku oblicz sumę pól <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mn>1</mn></msub><mo>+</mo><msub><mi>P</mi><mn>2</mn></msub><mo>+</mo><msub><mi>P</mi><mn>3</mn></msub><mo>+</mo><msub><mi>P</mi><mn>4</mn></msub></mrow></math>.</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>51</mn><mo>+</mo><mn>2</mn><msqrt><mn>47</mn></msqrt><mo>)</mo></mrow></math> cm²"
+        },
+        {
+          "label": "B",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>98</mn><mo>+</mo><mn>3</mn><msqrt><mn>5</mn></msqrt><mo>)</mo></mrow></math> cm²"
+        },
+        {
+          "label": "C",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>49</mn><mo>+</mo><mn>5</mn><msqrt><mn>5</mn></msqrt><mo>)</mo></mrow></math> cm²"
+        },
+        {
+          "label": "D",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>83</mn></math> cm²"
+        },
+        {
+          "label": "E",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><msqrt><mn>53</mn></msqrt><mo>+</mo><mn>102</mn><mo>)</mo></mrow></math> cm²"
+        }
+      ],
+      "figures": [
+        "szkolny_2024_lodzkie_q7_fig1.png"
+      ],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2024_lodzkie_q8",
+      "number": 8,
+      "page": 5,
+      "type": "closed_single",
+      "points": 2,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Wskaż parę punktów, które są równoodległe od punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mo>−</mo><mn>2</mn><mo>,</mo><mn>1</mn><mo>)</mo></mrow></math>.</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>1</mn><mo>,</mo><mo>−</mo><mn>2</mn><mo>)</mo></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>2</mn><mo>,</mo><mo>−</mo><mn>1</mn><mo>)</mo></mrow></math>"
+        },
+        {
+          "label": "B",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>3</mn><mo>,</mo><mn>0</mn><mo>)</mo></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mo>−</mo><mn>3</mn><mo>,</mo><mo>−</mo><mn>3</mn><mo>)</mo></mrow></math>"
+        },
+        {
+          "label": "C",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mo>−</mo><mn>1</mn><mo>,</mo><mn>4</mn><mo>)</mo></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo>)</mo></mrow></math>"
+        },
+        {
+          "label": "D",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>4</mn><mo>,</mo><mn>3</mn><mo>)</mo></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>5</mn><mo>,</mo><mn>1</mn><mo>)</mo></mrow></math>"
+        },
+        {
+          "label": "E",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>0</mn><mo>,</mo><mn>2</mn><mo>)</mo></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>2</mn><mo>,</mo><mn>2</mn><mo>)</mo></mrow></math>"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2024_lodzkie_q9",
+      "number": 9,
+      "page": 5,
+      "type": "closed_single",
+      "points": 3,
+      "topics": [
+        "bryły",
+        "geometria"
+      ],
+      "prompt_html": "<p>Jedna ze ścian bocznych graniastosłupa prostego jest kwadratem. Podstawą graniastosłupa jest trapez prostokątny przedstawiony na poniższym rysunku.</p><p>Najmniejsza możliwa objętość tego graniastosłupa jest równa</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>96</mn></math> cm³."
+        },
+        {
+          "label": "B",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>120</mn></math> cm³."
+        },
+        {
+          "label": "C",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn></math> cm³."
+        },
+        {
+          "label": "D",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>48</mn><msqrt><mn>5</mn></msqrt></mrow></math> cm³."
+        },
+        {
+          "label": "E",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>72</mn></math> cm³."
+        }
+      ],
+      "figures": [
+        "szkolny_2024_lodzkie_q9_fig1.png"
+      ],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2024_lodzkie_q10",
+      "number": 10,
+      "page": 6,
+      "type": "closed_single",
+      "points": 2,
+      "topics": [
+        "prawdopodobieństwo",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Jakie jest prawdopodobieństwo, że losując liczbę ze zbioru liczb 1, …, 100 włącznie wylosujemy liczbę, której pierwiastek sześcienny jest liczbą naturalną.</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "50%"
+        },
+        {
+          "label": "B",
+          "html": "25%"
+        },
+        {
+          "label": "C",
+          "html": "10%"
+        },
+        {
+          "label": "D",
+          "html": "4%"
+        },
+        {
+          "label": "E",
+          "html": "3%"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2024_lodzkie_q11",
+      "number": 11,
+      "page": 6,
+      "type": "closed_single",
+      "points": 3,
+      "topics": [
+        "procenty"
+      ],
+      "prompt_html": "<p>Kwota wolna od podatku wynosi w Polsce 30000 zł. Oznacza to, że podatek płacony jest jedynie od dochodów powyżej 30000 zł. Jeśli podatnik zarabia nie więcej niż 120000 zł, to podatek wynosi 12%. Dochód powyżej 120000 zł objęty jest podatkiem 32%. Pan Mateusz zarobił w 2022 roku 150000 zł a pani Zofia - 100000 zł. Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math> oznacza różnicę w zapłaconych przez nich podatkach w 2022 roku.</p><p>Wskaż zdanie prawdziwe A-C oraz jego uzasadnienie 1-3.</p><p>Uzasadnienia (…, ponieważ):</p><ol><li>Pan Mateusz zapłacił 20400 zł podatku a pani Zofia 8400 zł.</li><li>Pan Mateusz zapłacił 24000 zł podatku a pani Zofia 12000 zł.</li><li>Pan Mateusz zapłacił 38400 zł a pani Zofia 12000 zł.</li></ol>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math> to kwota większa niż podatek zapłacony przez panią Zofię"
+        },
+        {
+          "label": "B",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math> jest równe kwocie podatku zapłaconego przez panią Zofię"
+        },
+        {
+          "label": "C",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math> to kwota niższa niż podatek zapłacony przez panią Zofię"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A1",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2024_lodzkie_q12",
+      "number": 12,
+      "page": 7,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "równania z jedną zmienną",
+        "wzory skróconego mnożenia"
+      ],
+      "prompt_html": "<p>Rozwiąż równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mi>x</mi><mo>−</mo><mi>y</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>7</mn><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn><mo>+</mo><mn>3</mn><mi>y</mi><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup></mrow></math> względem zmiennej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, gdy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>2</mn></mrow></math>.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "x = 2",
+        "solution_html": "<p>Podstawiamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>2</mn></mrow></math> do równania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>7</mn><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn><mo>+</mo><mn>6</mn><mo>+</mo><mn>4</mn></mrow></math>. Po rozwinięciu kwadratu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>4</mn><mo>+</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>7</mn><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>9</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mi>x</mi><mo>+</mo><mn>11</mn><mo>=</mo><mn>9</mn></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>2</mn></mrow></math>.</p><p><em>Punktacja: 1 pkt za podstawienie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>2</mn></mrow></math>; 2 pkt za doprowadzenie do postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>4</mn><mo>+</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>7</mn><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn><mo>+</mo><mn>6</mn><mo>+</mo><mn>4</mn></mrow></math> (lub równoważnej); 2 pkt za wyznaczenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>2</mn></mrow></math>.</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2024_lodzkie_q13",
+      "number": 13,
+      "page": 8,
+      "type": "open",
+      "points": 10,
+      "topics": [
+        "geometria",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>G</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>I</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>J</mi></math> leżą na punktach przecięcia kratek (są to tzw. punkty kratowe). Przyjmijmy, że długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt></math>.</p><ol type=\"a\"><li>Oblicz obwód ośmiokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDEFGHIJ</mi></math>. Podając ostateczny wynik wyłącz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt></math> przed nawias.</li><li>Czy pole tego ośmiokąta jest większe, mniejsze czy równe 30? Odpowiedź uzasadnij.</li></ol>",
+      "choices": [],
+      "figures": [
+        "szkolny_2024_lodzkie_q13_fig1.png"
+      ],
+      "answer": {
+        "correct": "a) obwód = √3·(12 + √5 + √10 + √13); b) pole ośmiokąta wynosi 28,5, więc jest mniejsze niż 30",
+        "solution_html": "<p><strong>a)</strong> Ponieważ odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> odpowiada jednej kratce i ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt></math>, boki poziome i pionowe ośmiokąta są całkowitymi wielokrotnościami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt></math> o łącznej długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>12</mn><msqrt><mn>3</mn></msqrt></mrow></math>. Boki ukośne obliczamy z twierdzenia Pitagorasa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>HI</mi><mo>|</mo><mo>=</mo><msqrt><mn>15</mn></msqrt></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>DE</mi><mo>|</mo><mo>=</mo><msqrt><mn>30</mn></msqrt></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>EF</mi><mo>|</mo><mo>=</mo><msqrt><mn>39</mn></msqrt></mrow></math>. Zatem obwód <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>L</mi><mo>=</mo><mn>12</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><msqrt><mn>15</mn></msqrt><mo>+</mo><msqrt><mn>30</mn></msqrt><mo>+</mo><msqrt><mn>39</mn></msqrt><mo>=</mo><msqrt><mn>3</mn></msqrt><mo>(</mo><mn>12</mn><mo>+</mo><msqrt><mn>5</mn></msqrt><mo>+</mo><msqrt><mn>10</mn></msqrt><mo>+</mo><msqrt><mn>13</mn></msqrt><mo>)</mo></mrow></math>.</p><p><strong>b)</strong> Pole ośmiokąta jest równe 28,5, więc jest mniejsze niż 30.</p><p><em>Punktacja: a) 4 pkt (po 1 pkt za obliczenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>DE</mi><mo>|</mo><mo>=</mo><msqrt><mn>30</mn></msqrt></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>EF</mi><mo>|</mo><mo>=</mo><msqrt><mn>39</mn></msqrt></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>HI</mi><mo>|</mo><mo>=</mo><msqrt><mn>15</mn></msqrt></mrow></math> oraz za zapis obwodu w postaci z wyłączonym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt></math>); b) 6 pkt za obliczenie pola ośmiokąta (28,5) lub oszacowanie i sformułowanie wniosku.</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2024_lodzkie_q14",
+      "number": 14,
+      "page": 10,
+      "type": "open",
+      "points": 10,
+      "topics": [
+        "bryły",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Objętość ostrosłupa prostego jest 8 razy mniejsza niż <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>4</mn><mn>3</mn></msup><mo>·</mo><msup><mn>3</mn><mn>2</mn></msup></mrow></math> cm³. Podstawą tego ostrosłupa jest prostokąt, w którym stosunek długości boków jest jak <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>:</mo><mn>2</mn></mrow></math>, a jego wysokość jest 2 razy mniejsza niż obwód podstawy. Oblicz objętość sześcianu, którego bok ma długość równą dłuższej krawędzi podstawy rozważanego ostrosłupa.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Vs = 288 cm³",
+        "solution_html": "<p>Objętość ostrosłupa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><msup><mn>4</mn><mn>3</mn></msup><mo>·</mo><msup><mn>3</mn><mn>2</mn></msup></mrow><mn>8</mn></mfrac><mo>=</mo><mfrac><mrow><mn>64</mn><mo>·</mo><mn>9</mn></mrow><mn>8</mn></mfrac><mo>=</mo><mn>72</mn></mrow></math> cm³. Niech krótszy bok podstawy ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, wtedy dłuższy to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi></mrow></math>, obwód podstawy wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mi>x</mi></mrow></math>, a wysokość ostrosłupa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>x</mi></mrow></math>. Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mi>x</mi><mo>·</mo><mn>2</mn><mi>x</mi><mo>·</mo><mn>3</mn><mi>x</mi><mo>=</mo><mn>72</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>=</mo><mn>36</mn></mrow></math>. Dłuższa krawędź podstawy ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi></mrow></math>, więc objętość sześcianu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>V</mi><mi>s</mi></msub><mo>=</mo><msup><mrow><mo>(</mo><mn>2</mn><mi>x</mi><mo>)</mo></mrow><mn>3</mn></msup><mo>=</mo><mn>8</mn><msup><mi>x</mi><mn>3</mn></msup><mo>=</mo><mn>8</mn><mo>·</mo><mn>36</mn><mo>=</mo><mn>288</mn></mrow></math> cm³.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2024_lodzkie_q15",
+      "number": 15,
+      "page": 11,
+      "type": "open",
+      "points": 7,
+      "topics": [
+        "statystyka opisowa",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Przyjmijmy, że w Polsce mamy 6 mln emerytów. Średnia emerytura to 3300 zł. Średnia emerytura mężczyzn wynosi 4100 zł, a średnia emerytura kobiet - 2800 zł. Oblicz, ile jest w Polsce emerytek. Wynik zaokrąglij do setek tysięcy. Zapisz obliczenia.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "3 700 000 (około 3,7 mln)",
+        "solution_html": "<p>Łączna kwota wszystkich emerytur wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>·</mo><mn>3300</mn><mo>=</mo><mn>19800</mn></mrow></math> mln zł. Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę emerytek (w mln). Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2800</mn><mi>x</mi><mo>+</mo><mn>4100</mn><mo>(</mo><mn>6</mn><mo>−</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>19800</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1300</mn><mi>x</mi><mo>=</mo><mn>4800</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>≈</mo><mn>3,7</mn></mrow></math> mln. Zatem w Polsce jest około 3 700 000 emerytek.</p>"
+      }
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "source_file": "szkolny/2018-2019_pomorskie.pdf",
+  "answers_file": "szkolny/2018-2019_pomorskie_answers.pdf",
+  "competition": "Wojewódzki Konkurs Matematyczny dla uczniów szkół podstawowych od klas IV województwa pomorskiego",
+  "school_type": "podstawowa",
+  "stage": "szkolny",
+  "wojewodztwo": "pomorskie",
+  "school_year": "2018/2019",
+  "date": null,
+  "total_questions": 12,
+  "max_points": 20,
+  "questions": [
+    {
+      "id": "szkolny_2018-2019_pomorskie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "inne",
+        "proporcjonalność prosta"
+      ],
+      "prompt_html": "<p>Z nieszczelnego kranu co 3 sekundy spada jedna kropla wody. Każda kropla ma objętość 200 mm³. Ile litrów wody wycieknie z tego kranu w ciągu doby? Zapisz obliczenia.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "5,76 litra",
+        "solution_html": "<p>Doba trwa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mo>·</mo><mn>60</mn><mo>·</mo><mn>60</mn><mo>=</mo><mn>86400</mn></math> sekund. Liczba kropli, które wyciekły: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>86400</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>28800</mn></math>. Objętość wody: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>28800</mn><mo>·</mo><mn>200</mn><mo>=</mo><mn>5760000</mn></math> mm³ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>5,76</mn></math> litra (bo 1 litr <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>1000000</mn></math> mm³). Odpowiedź: z kranu wycieknie 5,76 litra wody.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2018-2019_pomorskie_q2",
+      "number": 2,
+      "page": 3,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "geometria",
+        "trójkąty",
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>Pole prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> o bokach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>AD</mi><mo>|</mo><mo>=</mo><mi>b</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>≠</mo><mi>b</mi></math>, jest równe 6 cm². Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> jest punktem leżącym wewnątrz tego prostokąta, różnym od punktu przecięcia jego przekątnych. Oblicz sumę pól trójkątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AED</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCE</mi></math>.</p><p>Uwaga! W rozwiązaniu zadania nie można przyjąć konkretnych długości boków prostokąta, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>2</mn></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>3</mn></math> cm.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "3 cm²",
+        "solution_html": "<p>Oznaczmy przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>h</mi><mn>1</mn></msub></math> wysokość trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AED</mi></math>, a przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>h</mi><mn>2</mn></msub></math> wysokość trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCE</mi></math>, obie poprowadzone z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math>. Podstawami tych trójkątów są boki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> o długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, a suma wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>h</mi><mn>1</mn></msub><mo>+</mo><msub><mi>h</mi><mn>2</mn></msub></math> jest równa długości boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>b</mi><msub><mi>h</mi><mn>1</mn></msub><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>b</mi><msub><mi>h</mi><mn>2</mn></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>b</mi><mo>(</mo><msub><mi>h</mi><mn>1</mn></msub><mo>+</mo><msub><mi>h</mi><mn>2</mn></msub><mo>)</mo><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>b</mi><mi>a</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>6</mn><mo>=</mo><mn>3</mn></math> cm². Suma pól trójkątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AED</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCE</mi></math> wynosi 3 cm².</p>"
+      }
+    },
+    {
+      "id": "szkolny_2018-2019_pomorskie_q3",
+      "number": 3,
+      "page": 4,
+      "type": "open",
+      "points": 1,
+      "topics": [
+        "trójkąty",
+        "geometria"
+      ],
+      "prompt_html": "<p>Wysokości trójkąta prostokątnego mają długości 60 cm, 65 cm i 156 cm. Oblicz pole tego trójkąta.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "5070 cm²",
+        "solution_html": "<p>Najkrótsza wysokość (60 cm) jest opuszczona na najdłuższy bok, czyli na przeciwprostokątną. Zatem przyprostokątne trójkąta są pozostałymi dwiema wysokościami i mają długości 65 cm oraz 156 cm. Pole trójkąta prostokątnego: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><mrow><mn>156</mn><mo>·</mo><mn>65</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>5070</mn></math> cm². Odpowiedź: pole tego trójkąta jest równe 5070 cm².</p>"
+      }
+    },
+    {
+      "id": "szkolny_2018-2019_pomorskie_q4",
+      "number": 4,
+      "page": 5,
+      "type": "open",
+      "points": 1,
+      "topics": [
+        "dowodzenie / dowody",
+        "inne"
+      ],
+      "prompt_html": "<p>Uzasadnij, że poniższa równość jest prawdziwa:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mfrac><mn>2</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>2</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>2</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>2</mn><mrow><mn>1</mn><mo>+</mo><mn>2</mn></mrow></mfrac></mrow></mfrac></mrow></mfrac></mrow></mfrac><mo>=</mo><mn>2</mn><mfrac><mn>1</mn><mn>21</mn></mfrac></math></p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Równość jest prawdziwa (obie strony są równe 2 1/21).",
+        "solution_html": "<p>Obliczamy ułamek piętrowy, zaczynając od najniższego piętra: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>3</mn></math>; dalej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>=</mo><mfrac><mn>5</mn><mn>3</mn></mfrac></math>; następnie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mfrac><mn>2</mn><mfrac><mn>5</mn><mn>3</mn></mfrac></mfrac><mo>=</mo><mn>1</mn><mo>+</mo><mfrac><mn>6</mn><mn>5</mn></mfrac><mo>=</mo><mfrac><mn>11</mn><mn>5</mn></mfrac></math>; potem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mfrac><mn>2</mn><mfrac><mn>11</mn><mn>5</mn></mfrac></mfrac><mo>=</mo><mn>1</mn><mo>+</mo><mfrac><mn>10</mn><mn>11</mn></mfrac><mo>=</mo><mfrac><mn>21</mn><mn>11</mn></mfrac></math>; i na koniec <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mfrac><mn>2</mn><mfrac><mn>21</mn><mn>11</mn></mfrac></mfrac><mo>=</mo><mn>1</mn><mo>+</mo><mfrac><mn>22</mn><mn>21</mn></mfrac><mo>=</mo><mn>2</mn><mfrac><mn>1</mn><mn>21</mn></mfrac></math>. Zatem podana równość jest prawdziwa.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2018-2019_pomorskie_q5",
+      "number": 5,
+      "page": 6,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "równania z jedną zmienną",
+        "proporcjonalność prosta"
+      ],
+      "prompt_html": "<p>Agnieszka i Dorota mieszkają na dwóch krańcach Warszawy, jedna w Tarchominie, a druga na Ursynowie. Agnieszka postanowiła pojechać na rowerze do Doroty. Po przejechaniu części drogi okazało się, że odcinek, który już pokonała, ma się tak do pozostałej części drogi jak <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>:</mo><mn>3</mn></math>. Gdyby Agnieszka przejechała jeszcze 9 km, to stosunek pokonanej drogi do pozostałej części wyniósłby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mo>:</mo><mn>3</mn></math>. Oblicz, w jakiej odległości od siebie mieszkają dziewczęta.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "30 km",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mn>5</mn><mi>x</mi></math> będzie odległością między domami. Agnieszka pokonała najpierw drogę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi></math>, a do przejechania zostało jej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>x</mi></math>. Po przejechaniu jeszcze 9 km: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>9</mn></mrow><mrow><mn>3</mn><mi>x</mi><mo>−</mo><mn>9</mn></mrow></mfrac><mo>=</mo><mfrac><mn>7</mn><mn>3</mn></mfrac></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>x</mi><mo>+</mo><mn>27</mn><mo>=</mo><mn>21</mn><mi>x</mi><mo>−</mo><mn>63</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn><mi>x</mi><mo>=</mo><mn>90</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>6</mn></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mn>5</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>30</mn></math> km. Dziewczęta mieszkają w odległości 30 km od siebie.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2018-2019_pomorskie_q6",
+      "number": 6,
+      "page": 7,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "procenty",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Woda stanowi 0,9 masy świeżych grzybów. Ususzono 2,5 kg takich grzybów. W procesie ich suszenia wyparowało tylko <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>8</mn><mn>9</mn></mfrac></math> wody w nich zawartej. Oblicz, ile ważyły te grzyby po ususzeniu.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "0,5 kg",
+        "solution_html": "<p>Masa wody w świeżych grzybach: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,9</mn><mo>·</mo><mn>2,5</mn><mo>=</mo><mn>2,25</mn></math> kg. Masa wody, która wyparowała: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>8</mn><mn>9</mn></mfrac><mo>·</mo><mn>2,25</mn><mo>=</mo><mn>2</mn></math> kg. Masa grzybów po ususzeniu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2,5</mn><mo>−</mo><mn>2</mn><mo>=</mo><mn>0,5</mn></math> kg. Odpowiedź: grzyby po ususzeniu ważyły 0,5 kg.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2018-2019_pomorskie_q7",
+      "number": 7,
+      "page": 8,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "procenty",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Dwa obszary leśne o łącznej powierzchni 120 ha zostały powiększone przez zalesienie przylegających do nich nieużytków rolnych. Po zalesieniu łączna powierzchnia tych obszarów jest równa 130 ha. Powierzchnia pierwszego obszaru leśnego wzrosła o 5%, a drugiego obszaru o 10%. Jaką powierzchnię miał każdy z tych obszarów przed zalesieniem nieużytków? Zapisz obliczenia.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Pierwszy obszar: 40 ha, drugi obszar: 80 ha",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza powierzchnię pierwszego obszaru przed zalesieniem; wtedy drugi obszar miał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>120</mn><mo>−</mo><mi>x</mi></math> ha. Przyrosty powierzchni to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,05</mn><mi>x</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,1</mn><mo>(</mo><mn>120</mn><mo>−</mo><mi>x</mi><mo>)</mo></math>, a ich suma jest równa 10 ha: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,05</mn><mi>x</mi><mo>+</mo><mn>0,1</mn><mo>(</mo><mn>120</mn><mo>−</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>10</mn></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,05</mn><mi>x</mi><mo>+</mo><mn>12</mn><mo>−</mo><mn>0,1</mn><mi>x</mi><mo>=</mo><mn>10</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,05</mn><mi>x</mi><mo>=</mo><mn>2</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>40</mn></math>. Drugi obszar: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>120</mn><mo>−</mo><mn>40</mn><mo>=</mo><mn>80</mn></math> ha. Odpowiedź: pierwszy obszar miał 40 ha, a drugi 80 ha.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2018-2019_pomorskie_q8",
+      "number": 8,
+      "page": 9,
+      "type": "true_false",
+      "points": 1,
+      "topics": [
+        "potęgi i pierwiastki",
+        "trójkąty"
+      ],
+      "prompt_html": "<p>Oceń prawdziwość poniższych zdań. Otocz kółkiem P, jeśli zdanie jest prawdziwe lub F, jeśli zdanie jest fałszywe.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Wartość liczbowa wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>5</mn><mn>10</mn></msup><mo>+</mo><msup><mn>5</mn><mn>10</mn></msup><mo>+</mo><msup><mn>5</mn><mn>10</mn></msup><mo>+</mo><msup><mn>5</mn><mn>10</mn></msup><mo>+</mo><msup><mn>5</mn><mn>10</mn></msup></math> jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>5</mn><mn>50</mn></msup></math>."
+        },
+        {
+          "label": "2",
+          "html": "Obwód trójkąta równobocznego o wysokości 6 jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><msqrt><mn>3</mn></msqrt></math>."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FP",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2018-2019_pomorskie_q9",
+      "number": 9,
+      "page": 9,
+      "type": "closed_single",
+      "points": 2,
+      "topics": [
+        "procenty",
+        "równania z jedną zmienną",
+        "inne"
+      ],
+      "prompt_html": "<p>W zadaniach zamkniętych dokładnie jedna odpowiedź jest poprawna. Zaznacz ją.</p><p><strong>1.</strong> Kamil wydał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> swoich pieniędzy i jeszcze złotówkę. Po tych zakupach zostało mu 1 zł 25 gr. Ile pieniędzy Kamil miał na początku?</p><ul><li>A. 1 zł 85 gr</li><li>B. 3 zł</li><li>C. 1 zł</li><li>D. 4 zł 50 gr</li></ul><p><strong>2.</strong> Pole kwadratowej działki o boku długości 700 m jest równe:</p><ul><li>A. 0,049 km²</li><li>B. 4900 m²</li><li>C. 490 ha</li><li>D. 4900 a</li></ul><p><strong>3.</strong> Cenę biletu do kina obniżono o 20%. O ile procent trzeba podwyższyć tę nową cenę, aby cena biletu była taka jak na początku?</p><ul><li>A. o 10%</li><li>B. o 20%</li><li>C. o 25%</li><li>D. Nie wiadomo, bo nie znamy ceny początkowej.</li></ul>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "1 – B, 2 – D, 3 – C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2018-2019_pomorskie_q10",
+      "number": 10,
+      "page": 10,
+      "type": "open",
+      "points": 1,
+      "topics": [
+        "podzielność",
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>Karol pomnożył wszystkie liczby nieparzyste zawarte między 1 a 2018. Podaj, jaka jest cyfra jedności tego iloczynu. Odpowiedź uzasadnij.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "5",
+        "solution_html": "<p>Wśród mnożonych liczb nieparzystych jest liczba 5, więc iloczyn jest podzielny przez 5, a zatem jego cyfrą jedności jest 0 albo 5. Cyfra 0 pojawiłaby się tylko wtedy, gdyby iloczyn był również podzielny przez 2, ale wszystkie czynniki są nieparzyste, więc iloczyn jest liczbą nieparzystą. Zatem cyfrą jedności tego iloczynu jest 5.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2018-2019_pomorskie_q11",
+      "number": 11,
+      "page": 10,
+      "type": "open",
+      "points": 1,
+      "topics": [
+        "proporcjonalność prosta",
+        "zagadki logiczne"
+      ],
+      "prompt_html": "<p>Stary zegar spóźnia się 8 minut na dobę. Jest 22:00 i zegar ten wskazuje poprawną godzinę. Oblicz, o ile minut i w którą stronę (w przód czy w tył) trzeba przesunąć minutową wskazówkę zegara, aby następnego ranka o godzinie 7:00 zegar ten wskazał poprawną godzinę.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "w przód o 3 minuty",
+        "solution_html": "<p>Od godziny 22:00 do godziny 7:00 następnego ranka mija 9 godzin. Zegar spóźnia się 8 minut na dobę (24 godziny), więc w ciągu 9 godzin spóźni się <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>8</mn><mn>24</mn></mfrac><mo>·</mo><mn>9</mn><mo>=</mo><mn>3</mn></math> minuty. Aby o 7:00 zegar wskazał poprawną godzinę, należy przesunąć minutową wskazówkę w przód o 3 minuty.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2018-2019_pomorskie_q12",
+      "number": 12,
+      "page": 11,
+      "type": "open",
+      "points": 1,
+      "topics": [
+        "potęgi i pierwiastki",
+        "inne"
+      ],
+      "prompt_html": "<p>Oblicz:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mfrac><mn>1</mn><mn>16</mn></mfrac><mo>−</mo><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>·</mo><mo>(</mo><mn>0,5</mn><mo>)</mo></mrow><mrow><msup><mrow><mo>(</mo><mo>−</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>)</mo></mrow><mn>3</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mo>−</mo><mn>0,75</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>·</mo><mo>(</mo><mn>1,7</mn><mo>−</mo><mn>3,2</mn><mo>)</mo></mrow></mfrac><mo>·</mo><mn>31</mn><mo>+</mo><msqrt><mrow><mn>1</mn><mfrac><mn>9</mn><mn>16</mn></mfrac></mrow></msqrt></math></p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "1/4 (0,25)",
+        "solution_html": "<p>Licznik: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>16</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mn>16</mn></mfrac><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>32</mn></mfrac></math>. Mianownik: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mo>+</mo><mfrac><mn>9</mn><mn>16</mn></mfrac><mo>·</mo><mo>(</mo><mo>−</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>)</mo><mo>=</mo><mo>−</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mo>−</mo><mfrac><mn>27</mn><mn>32</mn></mfrac><mo>=</mo><mo>−</mo><mfrac><mn>31</mn><mn>32</mn></mfrac></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mfrac><mn>1</mn><mn>32</mn></mfrac><mrow><mo>−</mo><mfrac><mn>31</mn><mn>32</mn></mfrac></mrow></mfrac><mo>·</mo><mn>31</mn><mo>+</mo><msqrt><mrow><mn>1</mn><mfrac><mn>9</mn><mn>16</mn></mfrac></mrow></msqrt><mo>=</mo><mo>−</mo><mfrac><mn>1</mn><mn>31</mn></mfrac><mo>·</mo><mn>31</mn><mo>+</mo><mfrac><mn>5</mn><mn>4</mn></mfrac><mo>=</mo><mo>−</mo><mn>1</mn><mo>+</mo><mfrac><mn>5</mn><mn>4</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac></math>.</p>"
+      }
+    }
+  ]
+}

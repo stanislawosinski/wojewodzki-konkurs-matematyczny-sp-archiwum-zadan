@@ -1,0 +1,234 @@
+{
+  "source_file": "szkolny/2023_mazowieckie.pdf",
+  "answers_file": "szkolny/2023_mazowieckie_answers.pdf",
+  "competition": "Konkurs Matematyczny dla uczniów szkół podstawowych województwa mazowieckiego",
+  "school_type": "podstawowa",
+  "stage": "szkolny",
+  "wojewodztwo": "mazowieckie",
+  "school_year": "2023/2024",
+  "date": "2023-10-12",
+  "total_questions": 10,
+  "max_points": 20,
+  "questions": [
+    {
+      "id": "szkolny_2023_mazowieckie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "liczby rzymskie",
+        "podzielność"
+      ],
+      "prompt_html": "<p>W liczbie DCXLIV zamieniono miejscami znaki C z D i X z L. Wybierz wszystkie poprawne odpowiedzi spośród podanych.</p><p>Różnica liczby danej i otrzymanej jest wielokrotnością:</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "54"
+        },
+        {
+          "label": "B",
+          "html": "12"
+        },
+        {
+          "label": "C",
+          "html": "80"
+        },
+        {
+          "label": "D",
+          "html": "90"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B, D",
+        "solution_html": "<p>Dana liczba to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>DCXLIV</mtext><mo>=</mo><mn>644</mn></mrow></math>. Po zamianie znaków C z D oraz X z L otrzymujemy liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>CDLXIV</mtext><mo>=</mo><mn>464</mn></mrow></math>. Różnica danej i otrzymanej liczby wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>644</mn><mo>−</mo><mn>464</mn><mo>=</mo><mn>180</mn></mrow></math>. Liczba 180 jest wielokrotnością 12 (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>=</mo><mn>12</mn><mo>·</mo><mn>15</mn></mrow></math>) oraz 90 (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>=</mo><mn>90</mn><mo>·</mo><mn>2</mn></mrow></math>), natomiast nie jest wielokrotnością 54 ani 80. Zatem poprawne odpowiedzi to B i D.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2023_mazowieckie_q2",
+      "number": 2,
+      "page": 2,
+      "type": "true_false",
+      "points": 1,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F, jeśli jest fałszywe.</p><p>W trapezie równoramiennym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> są długościami jego podstaw, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>&gt;</mo><mi>b</mi></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> jest długością przekątnej, natomiast <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> jest długością ramienia.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Długość ramienia tego trapezu musi spełniać warunek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>&gt;</mo><mfrac><mrow><mi>a</mi><mo>−</mo><mi>b</mi></mrow><mn>2</mn></mfrac></mrow></math>."
+        },
+        {
+          "label": "2",
+          "html": "Długość przekątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> tego trapezu spełnia warunek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>d</mi><mo>&lt;</mo><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mn>2</mn></mfrac></mrow></math>."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PF",
+        "solution_html": "<p>Rzut ramienia trapezu równoramiennego na dłuższą podstawę ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mo>−</mo><mi>b</mi></mrow><mn>2</mn></mfrac></math>, a ramię <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> jest przeciwprostokątną trójkąta prostokątnego o przyprostokątnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mo>−</mo><mi>b</mi></mrow><mn>2</mn></mfrac></math> i wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>&gt;</mo><mfrac><mrow><mi>a</mi><mo>−</mo><mi>b</mi></mrow><mn>2</mn></mfrac></mrow></math> — zdanie 1 jest prawdziwe (P). Przekątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> ma rzut na dłuższą podstawę równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mn>2</mn></mfrac></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>d</mi><mo>&gt;</mo><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mn>2</mn></mfrac></mrow></math>, a nie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&lt;</mo></math> — zdanie 2 jest fałszywe (F).</p>"
+      }
+    },
+    {
+      "id": "szkolny_2023_mazowieckie_q3",
+      "number": 3,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "bryły",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Pole powierzchni całkowitej drewnianego sześcianu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>24</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></math>, a objętość szklanego sześcianu jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>64</mn><msup><mi>x</mi><mn>3</mn></msup></mrow></math>.</p><p>Wybierz poprawną odpowiedź spośród oznaczonych literami A i B oraz C i D.</p><p>Długość krawędzi jednego z tych dwóch sześcianów jest:</p><p>Stosunek objętości tych sześcianów wynosi:</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "równa długości krawędzi drugiego sześcianu"
+        },
+        {
+          "label": "B",
+          "html": "dwa razy większa od długości krawędzi drugiego sześcianu"
+        },
+        {
+          "label": "C",
+          "html": "1:1"
+        },
+        {
+          "label": "D",
+          "html": "1:8"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B, D",
+        "solution_html": "<p>Krawędź drewnianego sześcianu: z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>24</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>2</mn><mi>x</mi></mrow></math>. Krawędź szklanego sześcianu: z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>b</mi><mn>3</mn></msup><mo>=</mo><mn>64</mn><msup><mi>x</mi><mn>3</mn></msup></mrow></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>4</mn><mi>x</mi></mrow></math>. Zatem krawędź jednego sześcianu jest dwa razy większa od krawędzi drugiego (odpowiedź B). Objętości wynoszą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mn>2</mn><mi>x</mi><mo>)</mo></mrow><mn>3</mn></msup><mo>=</mo><mn>8</mn><msup><mi>x</mi><mn>3</mn></msup></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>64</mn><msup><mi>x</mi><mn>3</mn></msup></mrow></math>, a ich stosunek to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><msup><mi>x</mi><mn>3</mn></msup><mo>:</mo><mn>64</mn><msup><mi>x</mi><mn>3</mn></msup><mo>=</mo><mn>1</mn><mo>:</mo><mn>8</mn></mrow></math> (odpowiedź D).</p>"
+      }
+    },
+    {
+      "id": "szkolny_2023_mazowieckie_q4",
+      "number": 4,
+      "page": 3,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "podzielność",
+        "zagadki logiczne"
+      ],
+      "prompt_html": "<p>W małej sali kinowej wszystkie miejsca są zajęte przez dzieci i dorosłych. W każdym rzędzie siedzi tyle samo dzieci. Liczba dzieci i liczba dorosłych w rzędzie są różnymi liczbami pierwszymi. Rzędów jest tyle, ile miejsc w każdym rzędzie. Wszystkich miejsc jest więcej niż 60, ale mniej niż 100. Oblicz, ile dzieci i ilu dorosłych mogło być w tej sali, jeżeli dzieci było mniej niż dorosłych. Rozpatrz wszystkie możliwości.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "24 dzieci i 40 dorosłych lub 18 dzieci i 63 dorosłych",
+        "solution_html": "<p>Liczba miejsc w rzędzie jest równa liczbie rzędów, więc wszystkich miejsc jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>n</mi><mn>2</mn></msup></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> to liczba miejsc w rzędzie. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>60</mn><mo>&lt;</mo><msup><mi>n</mi><mn>2</mn></msup><mo>&lt;</mo><mn>100</mn></mrow></math> wynika, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>=</mo><mn>8</mn></mrow></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>=</mo><mn>9</mn></mrow></math>. Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest sumą liczby dzieci i liczby dorosłych w rzędzie — dwóch różnych liczb pierwszych. Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>=</mo><mn>3</mn><mo>+</mo><mn>5</mn></mrow></math>: dzieci było <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>8</mn><mo>=</mo><mn>24</mn></mrow></math>, a dorosłych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>·</mo><mn>8</mn><mo>=</mo><mn>40</mn></mrow></math>. Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mo>=</mo><mn>2</mn><mo>+</mo><mn>7</mn></mrow></math>: dzieci było <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>9</mn><mo>=</mo><mn>18</mn></mrow></math>, a dorosłych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7</mn><mo>·</mo><mn>9</mn><mo>=</mo><mn>63</mn></mrow></math>. W obu przypadkach dzieci jest mniej niż dorosłych. Odpowiedź: w sali mogło być 24 dzieci i 40 dorosłych albo 18 dzieci i 63 dorosłych.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2023_mazowieckie_q5",
+      "number": 5,
+      "page": 4,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "bryły",
+        "układy równań"
+      ],
+      "prompt_html": "<p>Obwody trzech różnych ścian prostopadłościennego wazonu wynoszą: 44 cm, 60 cm, 64 cm. Oblicz, ile pełnych litrów wody można wlać do tego wazonu.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "2 pełne litry",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> oznaczają krawędzie prostopadłościanu. Z obwodów ścian: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mo>=</mo><mn>44</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>(</mo><mi>a</mi><mo>+</mo><mi>c</mi><mo>)</mo><mo>=</mo><mn>60</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>(</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>)</mo><mo>=</mo><mn>64</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>22</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>c</mi><mo>=</mo><mn>30</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>+</mo><mi>c</mi><mo>=</mo><mn>32</mn></mrow></math>. Dodając stronami: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>)</mo><mo>=</mo><mn>84</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>=</mo><mn>42</mn></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>10</mn></mrow></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>12</mn></mrow></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><mn>20</mn></mrow></math> cm, czyli 1 dm, 1,2 dm i 2 dm. Objętość wazonu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>V</mi><mo>=</mo><mn>1</mn><mo>·</mo><mn>1,2</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>2,4</mn></mrow></math> l. Odpowiedź: do wazonu można wlać 2 pełne litry wody.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2023_mazowieckie_q6",
+      "number": 6,
+      "page": 5,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "podzielność",
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>Zuzia rzuciła 45 razy sześcienną kostką do gry i sumowała liczby wyrzuconych oczek. Czy jest możliwe, żeby suma ta wyniosła 147, jeśli liczb parzystych wypadło dwa razy mniej niż nieparzystych? Odpowiedź uzasadnij.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Nie, to niemożliwe (suma byłaby liczbą parzystą, a 147 jest nieparzyste)",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę wyrzuconych liczb parzystych, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi></mrow></math> — liczbę nieparzystych. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>2</mn><mi>x</mi><mo>=</mo><mn>45</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>x</mi><mo>=</mo><mn>45</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>15</mn></mrow></math>. Wypadło więc 15 liczb parzystych — ich suma jest parzysta — oraz 30 liczb nieparzystych; suma parzystej liczby (30) liczb nieparzystych też jest parzysta. Suma wszystkich wyrzuconych liczb jest zatem parzysta, a 147 jest liczbą nieparzystą. Odpowiedź: nie, suma nie może wynosić 147.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2023_mazowieckie_q7",
+      "number": 7,
+      "page": 6,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "procenty",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Złoty puchar jest o 40% wyższy od srebrnego pucharu. Jeśli srebrny puchar ustawimy na 15-centymetrowym podwyższeniu, to wraz z podwyższeniem będzie wyższy od złotego pucharu o 25%. Oblicz różnicę wysokości tych pucharów (bez podwyższenia).</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "8 cm",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> będzie wysokością srebrnego pucharu. Wtedy złoty puchar ma wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,4</mn><mi>x</mi></mrow></math>. Srebrny puchar wraz z 15-centymetrowym podwyższeniem jest o 25% wyższy od złotego: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>15</mn><mo>=</mo><mn>1,25</mn><mo>·</mo><mn>1,4</mn><mi>x</mi><mo>=</mo><mn>1,75</mn><mi>x</mi></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,75</mn><mi>x</mi><mo>=</mo><mn>15</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>20</mn></mrow></math> cm, a złoty puchar ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,4</mn><mo>·</mo><mn>20</mn><mo>=</mo><mn>28</mn></mrow></math> cm. Różnica wysokości wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>28</mn><mo>−</mo><mn>20</mn><mo>=</mo><mn>8</mn></mrow></math> cm.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2023_mazowieckie_q8",
+      "number": 8,
+      "page": 7,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>W prostokącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> na boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> zaznaczono punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> tak, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mo>|</mo><mi>AK</mi><mo>|</mo></mrow><mrow><mo>|</mo><mi>KB</mi><mo>|</mo></mrow></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>2</mn></mfrac></mrow></math>, natomiast na boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi></math> tak, że odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AL</mi></math> jest równoległy do odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CK</mi></math>. Oblicz, jaką część pola prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> stanowi pole czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AKCL</mi></math>.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "3/5 (0,6) pola prostokąta",
+        "solution_html": "<p>Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mo>|</mo><mi>AK</mi><mo>|</mo></mrow><mrow><mo>|</mo><mi>KB</mi><mo>|</mo></mrow></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>2</mn></mfrac></mrow></math> przyjmijmy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AK</mi><mo>|</mo><mo>=</mo><mn>3</mn><mi>x</mi></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>KB</mi><mo>|</mo><mo>=</mo><mn>2</mn><mi>x</mi></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>5</mn><mi>x</mi></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AL</mi></math> jest równoległy do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CK</mi></math>, czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AKCL</mi></math> jest równoległobokiem o podstawie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AK</mi><mo>|</mo><mo>=</mo><mn>3</mn><mi>x</mi></mrow></math> i wysokości równej bokowi prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>BC</mi><mo>|</mo><mo>=</mo><mi>y</mi></mrow></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>AKCL</mi></msub><mo>=</mo><mn>3</mn><mi>x</mi><mo>·</mo><mi>y</mi><mo>=</mo><mn>3</mn><mi>x</mi><mi>y</mi></mrow></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>ABCD</mi></msub><mo>=</mo><mn>5</mn><mi>x</mi><mo>·</mo><mi>y</mi><mo>=</mo><mn>5</mn><mi>x</mi><mi>y</mi></mrow></math>. Stosunek pól: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><msub><mi>P</mi><mi>AKCL</mi></msub><msub><mi>P</mi><mi>ABCD</mi></msub></mfrac><mo>=</mo><mfrac><mrow><mn>3</mn><mi>x</mi><mi>y</mi></mrow><mrow><mn>5</mn><mi>x</mi><mi>y</mi></mrow></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>5</mn></mfrac><mo>=</mo><mn>0,6</mn></mrow></math>. Pole czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AKCL</mi></math> stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>5</mn></mfrac></math> pola prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2023_mazowieckie_q9",
+      "number": 9,
+      "page": 8,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "podzielność",
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>Uzasadnij, że jest dokładnie dziesięć dat w roku 2024, które mają tę własność, że numer dnia i numer miesiąca są liczbami nieparzystymi, a ich suma jest liczbą podzielną przez 9. Zapisz te daty.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "17 stycznia, 15 marca, 13 maja, 31 maja, 11 lipca, 29 lipca, 9 września, 27 września, 7 listopada, 25 listopada",
+        "solution_html": "<p>Numer dnia i numer miesiąca są nieparzyste, więc ich suma jest parzysta. Suma jest podzielna przez 9 i nie większa niż <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>31</mn><mo>+</mo><mn>11</mn><mo>=</mo><mn>42</mn></mrow></math>, a jednocześnie parzysta, zatem może wynosić tylko 18 lub 36. Miesiące o nieparzystym numerze to 1, 3, 5, 7, 9, 11. Dla każdego z nich szukamy nieparzystych numerów dni, dla których suma wynosi 18 lub 36: 17 + 1, 15 + 3, 13 + 5, 31 + 5, 11 + 7, 29 + 7, 9 + 9, 27 + 9, 7 + 11, 25 + 11. Otrzymujemy dokładnie dziesięć dat: 17 stycznia, 15 marca, 13 maja, 31 maja, 11 lipca, 29 lipca, 9 września, 27 września, 7 listopada i 25 listopada.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2023_mazowieckie_q10",
+      "number": 10,
+      "page": 9,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "prędkość / droga / czas"
+      ],
+      "prompt_html": "<p>Dwaj bracia, starszy Bartek i młodszy Kuba, trenują bieg na 200 m. W pierwszej próbie wyścigu wygrał Bartek, wyprzedzając Kubę o 40 m (w momencie, gdy Bartek przekraczał metę). W drugiej próbie, aby wyrównać szanse, Bartek rozpoczyna bieg 40 m przed linią startu. Każdy z nich biegnie z taką samą prędkością, jak w pierwszej próbie. Który z braci wygra ten bieg? Odpowiedź uzasadnij.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Wygra Bartek",
+        "solution_html": "<p>W pierwszej próbie w tym samym czasie Bartek przebiega 200 m, a Kuba 160 m, więc stosunek ich prędkości wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>200</mn><mo>:</mo><mn>160</mn><mo>=</mo><mn>5</mn><mo>:</mo><mn>4</mn></mrow></math>. W drugiej próbie Bartek ma do przebiegnięcia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>200</mn><mo>+</mo><mn>40</mn><mo>=</mo><mn>240</mn></mrow></math> m, a Kuba 200 m. W czasie, w którym Kuba pokona 200 m, Bartek pokona <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>200</mn><mo>·</mo><mfrac><mn>5</mn><mn>4</mn></mfrac><mo>=</mo><mn>250</mn></mrow></math> m. Ponieważ 250 m to więcej niż 240 m, które ma do przebiegnięcia Bartek, dobiegnie on do mety wcześniej. Odpowiedź: drugi bieg wygra Bartek.</p>"
+      }
+    }
+  ]
+}

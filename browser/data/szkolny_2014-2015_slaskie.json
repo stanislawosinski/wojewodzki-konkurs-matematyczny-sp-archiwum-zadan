@@ -1,0 +1,687 @@
+{
+  "source_file": "szkolny/2014-2015_slaskie.pdf",
+  "answers_file": "szkolny/2014-2015_slaskie_answers.pdf",
+  "competition": "Wojewódzki Konkurs Przedmiotowy z Matematyki dla uczniów szkół podstawowych województwa śląskiego",
+  "school_type": "podstawowa",
+  "stage": "szkolny",
+  "wojewodztwo": "slaskie",
+  "school_year": "2014/2015",
+  "date": "2014-11-07",
+  "total_questions": 23,
+  "max_points": 50,
+  "questions": [
+    {
+      "id": "szkolny_2014-2015_slaskie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "open",
+      "points": 6,
+      "topics": [
+        "zagadki logiczne"
+      ],
+      "prompt_html": "<p>W puste <strong>białe</strong> pola „liczbowej krzyżówki” wstaw liczby tak, aby wszystkie działania i równości były poprawne.</p>",
+      "choices": [],
+      "figures": [
+        "szkolny_2014-2015_slaskie_q1_fig1.png"
+      ],
+      "answer": {
+        "correct": "Uzupełnione pola: 12 i 2 (górny wiersz), 2 i 10 (trzeci wiersz), 40 (piąty wiersz), 2 (siódmy wiersz) oraz 3, 2 i 25 (dolny wiersz).",
+        "solution_html": "<p>Równania poziome: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mo>·</mo><mn>2</mn><mo>−</mo><mn>6</mn><mo>−</mo><mn>12</mn><mo>=</mo><mn>2</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>+</mo><mn>6</mn><mo>:</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>10</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>+</mo><mn>40</mn><mo>−</mo><mn>4</mn><mo>·</mo><mn>10</mn><mo>=</mo><mn>3</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mo>·</mo><mn>4</mn><mo>−</mo><mn>4</mn><mo>−</mo><mn>2</mn><mo>=</mo><mn>30</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>+</mo><mn>2</mn><mo>−</mo><mn>20</mn><mo>+</mo><mn>40</mn><mo>=</mo><mn>25</mn></mrow></math>. Równania pionowe: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mo>−</mo><mn>1</mn><mo>+</mo><mn>3</mn><mo>−</mo><mn>9</mn><mo>=</mo><mn>3</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>6</mn><mo>−</mo><mn>40</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>2</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>−</mo><mn>2</mn><mo>+</mo><mn>4</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>20</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>12</mn><mo>+</mo><mn>3</mn><mo>·</mo><mn>10</mn><mo>−</mo><mn>2</mn><mo>=</mo><mn>40</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>−</mo><mn>10</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>30</mn><mo>=</mo><mn>25</mn></mrow></math>.</p><p><em>Punktacja: 6 pkt za bezbłędnie wypełnioną krzyżówkę; za każde błędne lub niewypełnione pole odejmuje się 1 pkt.</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2014-2015_slaskie_q2",
+      "number": 2,
+      "page": 2,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "zagadki logiczne"
+      ],
+      "prompt_html": "<p>W poniższych wyrażeniach arytmetycznych wstaw nawiasy tak, aby wynik był:</p><p>A) możliwie największy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mo>−</mo><mn>10</mn><mo>−</mo><mn>9</mn><mo>−</mo><mn>8</mn><mo>−</mo><mn>7</mn></mrow></math></p><p>B) możliwie najmniejszy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mo>−</mo><mn>10</mn><mo>+</mo><mn>9</mn><mo>−</mo><mn>8</mn><mo>−</mo><mn>7</mn></mrow></math></p><p>C) równy 100: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mo>−</mo><mn>10</mn><mo>−</mo><mn>9</mn><mo>−</mo><mn>8</mn><mo>−</mo><mn>7</mn></mrow></math></p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "A) 100 − {[(10 − 9) − 8] − 7} = 114;  B) 100 − (10 + 9) − 8 − 7 = 66;  C) 100 − [(10 − 9) − (8 − 7)] = 100",
+        "solution_html": "<p>A) wynik możliwie największy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mo>−</mo><mo>{</mo><mo>[</mo><mo>(</mo><mn>10</mn><mo>−</mo><mn>9</mn><mo>)</mo><mo>−</mo><mn>8</mn><mo>]</mo><mo>−</mo><mn>7</mn><mo>}</mo><mo>=</mo><mn>114</mn></mrow></math>.</p><p>B) wynik możliwie najmniejszy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mo>−</mo><mo>(</mo><mn>10</mn><mo>+</mo><mn>9</mn><mo>)</mo><mo>−</mo><mn>8</mn><mo>−</mo><mn>7</mn><mo>=</mo><mn>66</mn></mrow></math>.</p><p>C) wynik równy 100: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mo>−</mo><mo>[</mo><mo>(</mo><mn>10</mn><mo>−</mo><mn>9</mn><mo>)</mo><mo>−</mo><mo>(</mo><mn>8</mn><mo>−</mo><mn>7</mn><mo>)</mo><mo>]</mo><mo>=</mo><mn>100</mn></mrow></math>.</p><p><em>Punktacja: po 1 pkt za poprawne wstawienie nawiasów w każdym z wyrażeń (razem 3 pkt).</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2014-2015_slaskie_q3",
+      "number": 3,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Liczbę dwanaście milionów sześć tysięcy pięćset przedstawia zapis</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "12006500"
+        },
+        {
+          "label": "B",
+          "html": "1206500"
+        },
+        {
+          "label": "C",
+          "html": "1260500"
+        },
+        {
+          "label": "D",
+          "html": "12600500"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2014-2015_slaskie_q4",
+      "number": 4,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "reszta z dzielenia"
+      ],
+      "prompt_html": "<p>Cyfrą jedności iloczynu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>11</mn><mo>·</mo><mn>23</mn><mo>·</mo><mn>37</mn><mo>·</mo><mn>49</mn></mrow></math> jest</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "0"
+        },
+        {
+          "label": "B",
+          "html": "2"
+        },
+        {
+          "label": "C",
+          "html": "7"
+        },
+        {
+          "label": "D",
+          "html": "9"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2014-2015_slaskie_q5",
+      "number": 5,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "podzielność"
+      ],
+      "prompt_html": "<p>Aby liczba 3463? była podzielna jednocześnie przez 3 i przez 4, w miejsce „?” należy wpisać cyfrę</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "8"
+        },
+        {
+          "label": "B",
+          "html": "6"
+        },
+        {
+          "label": "C",
+          "html": "4"
+        },
+        {
+          "label": "D",
+          "html": "2"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2014-2015_slaskie_q6",
+      "number": 6,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Dowolny trapez ma</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "dwie pary boków równoległych."
+        },
+        {
+          "label": "B",
+          "html": "przeciwległe boki równej długości."
+        },
+        {
+          "label": "C",
+          "html": "przeciwległe kąty równej miary."
+        },
+        {
+          "label": "D",
+          "html": "jedną parę boków równoległych."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2014-2015_slaskie_q7",
+      "number": 7,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "proporcjonalność prosta"
+      ],
+      "prompt_html": "<p>Ile obrotów w ciągu minuty wykonuje skrzydło wiatraka obracające się o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>240</mn><mo>°</mo></mrow></math> w ciągu sekundy?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "30"
+        },
+        {
+          "label": "B",
+          "html": "40"
+        },
+        {
+          "label": "C",
+          "html": "50"
+        },
+        {
+          "label": "D",
+          "html": "60"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2014-2015_slaskie_q8",
+      "number": 8,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "proporcjonalność odwrotna"
+      ],
+      "prompt_html": "<p>Rozlewnia wody mineralnej wysłała do sprzedaży 6000 półtoralitrowych butelek wody. Gdyby tę samą ilość wody rozlano do butelek o pojemności 1,25 litra, to o ile więcej butelek należałoby przygotować?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "1200"
+        },
+        {
+          "label": "B",
+          "html": "1000"
+        },
+        {
+          "label": "C",
+          "html": "7200"
+        },
+        {
+          "label": "D",
+          "html": "1250"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2014-2015_slaskie_q9",
+      "number": 9,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "szacowanie (zamiast obliczania)"
+      ],
+      "prompt_html": "<p>Masa kostki masła to ćwierć kilograma. Do ciasta należy dodać 8 dag tłuszczu. Jaka to część kostki masła?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "około <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math> kostki"
+        },
+        {
+          "label": "B",
+          "html": "około <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> kostki"
+        },
+        {
+          "label": "C",
+          "html": "około <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> kostki"
+        },
+        {
+          "label": "D",
+          "html": "około <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>30</mn></mfrac></math> kostki"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2014-2015_slaskie_q10",
+      "number": 10,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "proporcjonalność prosta"
+      ],
+      "prompt_html": "<p>Co stanie się z ilorazem dwóch liczb, jeśli dzielną i dzielnik zwiększymy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mfrac><mn>3</mn><mn>4</mn></mfrac></mrow></math> razy?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "zwiększy się o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mfrac><mn>3</mn><mn>4</mn></mfrac></mrow></math>"
+        },
+        {
+          "label": "B",
+          "html": "zmniejszy się <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mfrac><mn>3</mn><mn>4</mn></mfrac></mrow></math> razy"
+        },
+        {
+          "label": "C",
+          "html": "zwiększy się <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mfrac><mn>3</mn><mn>4</mn></mfrac></mrow></math> razy"
+        },
+        {
+          "label": "D",
+          "html": "nie zmieni się"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2014-2015_slaskie_q11",
+      "number": 11,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "NWW / NWD"
+      ],
+      "prompt_html": "<p>Najmniejszą wspólną wielokrotnością wszystkich liczb naturalnych większych od zera i mniejszych od 7 jest:</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "30"
+        },
+        {
+          "label": "B",
+          "html": "60"
+        },
+        {
+          "label": "C",
+          "html": "120"
+        },
+        {
+          "label": "D",
+          "html": "180"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2014-2015_slaskie_q12",
+      "number": 12,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Jaką sumę cyfr miała liczba oznaczająca ostatni rok XX wieku?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "2"
+        },
+        {
+          "label": "B",
+          "html": "3"
+        },
+        {
+          "label": "C",
+          "html": "10"
+        },
+        {
+          "label": "D",
+          "html": "28"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2014-2015_slaskie_q13",
+      "number": 13,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Kiedy zapytano wędkarza, ile waży złowiona przez niego ryba, ten odpowiedział: „Waży ona <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac></math> kg i jeszcze 2 razy po <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>5</mn></mfrac></math> swojej masy”. Ryba ważyła</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math> kg"
+        },
+        {
+          "label": "B",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>5</mn></mfrac></math> kg"
+        },
+        {
+          "label": "C",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>5</mn></mfrac></math> kg"
+        },
+        {
+          "label": "D",
+          "html": "4 kg"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2014-2015_slaskie_q14",
+      "number": 14,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Spośród trzech kątów, które razem tworzą kąt półpełny, każdy następny jest o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>30</mn><mo>°</mo></mrow></math> większy od poprzedniego. Największy z tych kątów ma miarę</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>30</mn><mo>°</mo></mrow></math>"
+        },
+        {
+          "label": "B",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>60</mn><mo>°</mo></mrow></math>"
+        },
+        {
+          "label": "C",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>90</mn><mo>°</mo></mrow></math>"
+        },
+        {
+          "label": "D",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>120</mn><mo>°</mo></mrow></math>"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2014-2015_slaskie_q15",
+      "number": 15,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Na ile równych części o długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> m przecięto pręt długości 12 m?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "3"
+        },
+        {
+          "label": "B",
+          "html": "4"
+        },
+        {
+          "label": "C",
+          "html": "12"
+        },
+        {
+          "label": "D",
+          "html": "36"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2014-2015_slaskie_q16",
+      "number": 16,
+      "page": 5,
+      "type": "true_false",
+      "points": 6,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Oceń, czy poniższe zdania są prawdziwe czy fałszywe. Zaznacz właściwą odpowiedź.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Z dwóch ułamków o jednakowych mianownikach ten jest większy, który ma większy licznik."
+        },
+        {
+          "label": "2",
+          "html": "Ten ułamek jest mniejszy, który ma mniejszy mianownik."
+        },
+        {
+          "label": "3",
+          "html": "Jeśli pomnożymy licznik i mianownik ułamka przez tę samą liczbę (różną od zera), to otrzymamy ułamek równy danemu."
+        },
+        {
+          "label": "4",
+          "html": "Dla dowolnego ułamka, jeżeli dodamy do licznika i mianownika tę samą liczbę różną od zera, to otrzymamy ułamek równy danemu."
+        },
+        {
+          "label": "5",
+          "html": "Dwa ułamki zapisane w postaci dziesiętnej za pomocą tych samych cyfr zawsze są równe."
+        },
+        {
+          "label": "6",
+          "html": "Iloczyn dowolnego ułamka i jego odwrotności jest liczbą pierwszą."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PFPFFF",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2014-2015_slaskie_q17",
+      "number": 17,
+      "page": 5,
+      "type": "true_false",
+      "points": 3,
+      "topics": [
+        "układy równań"
+      ],
+      "prompt_html": "<p>Za 6 lizaków i 5 batonów Zosia zapłaciła 11,20 zł. W tym samym sklepie Szymon za 12 lizaków i 8 batonów zapłacił 19,60 zł.</p><p>Oceń, czy poniższe zdania są prawdziwe czy fałszywe. Zaznacz właściwą odpowiedź.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Jeden lizak kosztuje więcej niż 1 zł."
+        },
+        {
+          "label": "2",
+          "html": "Jeden baton kosztuje dwa razy więcej niż jeden lizak."
+        },
+        {
+          "label": "3",
+          "html": "Za 7 lizaków i 4 batony zapłacimy 12,50 zł."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FPF",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2014-2015_slaskie_q18",
+      "number": 18,
+      "page": 6,
+      "type": "true_false",
+      "points": 4,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Kwadrat rozcięto na 4 części w taki sposób, że powstały dwa jednakowe prostokąty, każdy o polu 18 cm² i dwa różnej wielkości kwadraty, z których większy ma pole 81 cm².</p><p>Oceń, czy poniższe zdania są prawdziwe czy fałszywe. Zaznacz właściwą odpowiedź.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Jeden z boków powstałego prostokąta ma długość 0,2 dm."
+        },
+        {
+          "label": "2",
+          "html": "Suma obwodów powstałych po rozcięciu kwadratów jest większa od sumy obwodów obu prostokątów."
+        },
+        {
+          "label": "3",
+          "html": "Pole kwadratu przed rozcięciem wynosi 100 cm²."
+        },
+        {
+          "label": "4",
+          "html": "Różnica pól kwadratów powstałych w wyniku rozcięcia wynosi 77 cm²."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PFFP",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2014-2015_slaskie_q19",
+      "number": 19,
+      "page": 6,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "trójkąty",
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>Dwa boki trójkąta mają odpowiednio 21 cm i 7 cm długości. Znajdź długość trzeciego boku, jeżeli wyraża się ona całkowitą liczbą decymetrów. Odpowiedź uzasadnij.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "20 cm (2 dm)",
+        "solution_html": "<p>Wyrażamy boki w decymetrach: 21 cm = 2,1 dm oraz 7 cm = 0,7 dm. Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> będzie szukanym bokiem (liczbą naturalną decymetrów). Z warunku trójkąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,7</mn><mo>+</mo><mn>2,1</mn><mo>&gt;</mo><mi>d</mi></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>d</mi><mo>&lt;</mo><mn>2,8</mn></mrow></math>, oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,7</mn><mo>+</mo><mi>d</mi><mo>&gt;</mo><mn>2,1</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>d</mi><mo>&gt;</mo><mn>1,4</mn></mrow></math>. Jedyną liczbą naturalną w przedziale <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,4</mn><mo>&lt;</mo><mi>d</mi><mo>&lt;</mo><mn>2,8</mn></mrow></math> jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>d</mi><mo>=</mo><mn>2</mn></mrow></math> dm, czyli trzeci bok ma 20 cm.</p><p><em>Punktacja: 1 pkt za poprawną metodę (warunek trójkąta), 1 pkt za poprawny wynik i wnioskowanie.</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2014-2015_slaskie_q20",
+      "number": 20,
+      "page": 7,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "geometria",
+        "trójkąty"
+      ],
+      "prompt_html": "<p>Prosta poprowadzona przez wierzchołek kwadratu dzieli go na trójkąt o polu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>12</mn><msup><mtext> cm</mtext><mn>2</mn></msup></mrow></math> i trapez o polu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>24</mn><msup><mtext> cm</mtext><mn>2</mn></msup></mrow></math>. Oblicz długość krótszej podstawy trapezu.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "2 cm",
+        "solution_html": "<p>Pole kwadratu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>12</mn><mo>+</mo><mn>24</mn><mo>=</mo><mn>36</mn></mrow></math> cm², więc bok kwadratu ma długość 6 cm. Z pola trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>6</mn><mo>·</mo><mi>y</mi><mo>=</mo><mn>12</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>4</mn></mrow></math>. Krótsza podstawa trapezu to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>6</mn><mo>−</mo><mn>4</mn><mo>=</mo><mn>2</mn></mrow></math> cm. (Równoważnie z pola trapezu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mo>(</mo><mn>6</mn><mo>+</mo><mi>x</mi><mo>)</mo><mo>·</mo><mn>6</mn><mo>=</mo><mn>24</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>+</mo><mi>x</mi><mo>=</mo><mn>8</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>2</mn></mrow></math> cm.)</p><p><em>Punktacja: 1 pkt za pole kwadratu, 2 pkt za długość boku kwadratu, 3 pkt za długości przyprostokątnych trójkąta, 4 pkt za długość krótszej podstawy trapezu.</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2014-2015_slaskie_q21",
+      "number": 21,
+      "page": 7,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Państwo Nowakowie zamierzają kupić mieszkanie, które składa się z trzech pokoi, kuchni i łazienki. Łączna powierzchnia tego mieszkania jest równa 75,2 m². Powierzchnia jednego pokoju stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>8</mn></mfrac></math> całej powierzchni, powierzchnia drugiego jest o 7,8 m² mniejsza od powierzchni pierwszego, a powierzchnia trzeciego pokoju stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> sumy powierzchni pierwszego i drugiego pokoju. Jaką powierzchnię zajmują pozostałe pomieszczenia w tym mieszkaniu?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "10,4 m²",
+        "solution_html": "<p>Pole I pokoju: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>3</mn><mn>8</mn></mfrac><mo>·</mo><mn>75,2</mn><mo>=</mo><mn>28,2</mn></mrow></math> m². Pole II pokoju: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>28,2</mn><mo>−</mo><mn>7,8</mn><mo>=</mo><mn>20,4</mn></mrow></math> m². Pole III pokoju: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mo>(</mo><mn>28,2</mn><mo>+</mo><mn>20,4</mn><mo>)</mo><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mn>48,6</mn><mo>=</mo><mn>16,2</mn></mrow></math> m². Pole pozostałych pomieszczeń: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>75,2</mn><mo>−</mo><mo>(</mo><mn>28,2</mn><mo>+</mo><mn>20,4</mn><mo>+</mo><mn>16,2</mn><mo>)</mo><mo>=</mo><mn>75,2</mn><mo>−</mo><mn>64,8</mn><mo>=</mo><mn>10,4</mn></mrow></math> m².</p><p><em>Punktacja: po 1 pkt za poprawne obliczenie pola I, II i III pokoju oraz pola pozostałych pomieszczeń.</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2014-2015_slaskie_q22",
+      "number": 22,
+      "page": 8,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "reszta z dzielenia",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Marek wykonał działanie, w którym dzielna jest równa 3028, iloraz 94, a reszta 20. Oblicz dzielnik.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "32",
+        "solution_html": "<p>Oznaczmy przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> szukany dzielnik. Z zależności dzielenia z resztą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3028</mn><mo>=</mo><mn>94</mn><mo>·</mo><mi>D</mi><mo>+</mo><mn>20</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>94</mn><mo>·</mo><mi>D</mi><mo>=</mo><mn>3008</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>D</mi><mo>=</mo><mn>3008</mn><mo>:</mo><mn>94</mn><mo>=</mo><mn>32</mn></mrow></math>.</p><p><em>Punktacja: 1 pkt za poprawne zapisanie zależności, 1 pkt za obliczenie dzielnika.</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2014-2015_slaskie_q23",
+      "number": 23,
+      "page": 8,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "NWW / NWD",
+        "reszta z dzielenia"
+      ],
+      "prompt_html": "<p>Ogrodnik miał do posadzenia mniej niż 400 cebulek tulipanów. Gdyby posadził je w rzędach po 8 sztuk lub po 20 sztuk, lub po 36 sztuk, to za każdym razem pozostałyby mu trzy cebulki. Ile cebulek miał do posadzenia ten ogrodnik? Wykonaj obliczenia i odpowiedź uzasadnij.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "363",
+        "solution_html": "<p>Liczba cebulek zmniejszona o 3 musi być wspólną wielokrotnością liczb 8, 20 i 36, przy czym sama liczba jest mniejsza od 400, więc ta wielokrotność jest mniejsza od 397. Obliczamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>NWW</mtext><mo>(</mo><mn>8</mn><mo>,</mo><mn>20</mn><mo>,</mo><mn>36</mn><mo>)</mo><mo>=</mo><mn>360</mn></mrow></math>. Następna wielokrotność to 720, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>720</mn><mo>&gt;</mo><mn>397</mn></mrow></math>, więc jedyną możliwością jest 360. Zatem liczba cebulek to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>360</mn><mo>+</mo><mn>3</mn><mo>=</mo><mn>363</mn></mrow></math>.</p><p><em>Punktacja: 1 pkt za podanie warunku (wspólna wielokrotność mniejsza od 397), 1 pkt za obliczenie NWW(8, 20, 36), 1 pkt za obliczenie liczby cebulek.</em></p>"
+      }
+    }
+  ]
+}

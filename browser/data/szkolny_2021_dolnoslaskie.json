@@ -1,0 +1,445 @@
+{
+  "source_file": "szkolny/2021_dolnoslaskie.pdf",
+  "answers_file": "szkolny/2021_dolnoslaskie_answers.pdf",
+  "competition": "Dolnośląski Konkurs Matematyczny zDolny Ślązak dla uczniów szkół podstawowych",
+  "school_type": "podstawowa",
+  "stage": "szkolny",
+  "wojewodztwo": "dolnoslaskie",
+  "school_year": "2020/2021",
+  "date": "2020-10-21",
+  "total_questions": 20,
+  "max_points": 25,
+  "questions": [
+    {
+      "id": "szkolny_2021_dolnoslaskie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "potęgi i pierwiastki",
+        "zliczanie / metody zliczania"
+      ],
+      "prompt_html": "<p>Ile jest liczb naturalnych, których kwadrat jest trzycyfrowy?</p>",
+      "choices": [
+        { "label": "A", "html": "20" },
+        { "label": "B", "html": "21" },
+        { "label": "C", "html": "22" },
+        { "label": "D", "html": "23" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2021_dolnoslaskie_q2",
+      "number": 2,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "liczby rzymskie"
+      ],
+      "prompt_html": "<p>Wojtek ułożył poprawny (zgodnie z aktualnie obowiązującymi zasadami) zapis liczby w systemie rzymskim, używając kartoników z zapisanymi na nich znakami z tego systemu.</p><p>Jeden z kartoników odwrócił tak, że znak na nim zapisany jest niewidoczny. Liczba Wojtka zapisana w systemie dziesiętnym, to</p>",
+      "choices": [
+        { "label": "A", "html": "346" },
+        { "label": "B", "html": "456" },
+        { "label": "C", "html": "355" },
+        { "label": "D", "html": "406" }
+      ],
+      "figures": [
+        "szkolny_2021_dolnoslaskie_q2_fig1.png"
+      ],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2021_dolnoslaskie_q3",
+      "number": 3,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "zliczanie / metody zliczania"
+      ],
+      "prompt_html": "<p>Za pomocą cyfr 1, 2, 3 zapisano wszystkie liczby trzycyfrowe o każdej cyfrze innej. Oznaczmy przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> odpowiednio najmniejszą i największą z tych liczb. Ile jest liczb nieparzystych większych od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math>, ale mniejszych od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math>?</p>",
+      "choices": [
+        { "label": "A", "html": "198" },
+        { "label": "B", "html": "197" },
+        { "label": "C", "html": "99" },
+        { "label": "D", "html": "98" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2021_dolnoslaskie_q4",
+      "number": 4,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "reszta z dzielenia",
+        "zagadki logiczne"
+      ],
+      "prompt_html": "<p>Pewien rok zwykły rozpoczął się w poniedziałek. Ile razy w tym roku trzynasty dzień miesiąca wypadnie w piątek?</p>",
+      "choices": [
+        { "label": "A", "html": "2" },
+        { "label": "B", "html": "3" },
+        { "label": "C", "html": "4" },
+        { "label": "D", "html": "5" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2021_dolnoslaskie_q5",
+      "number": 5,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "podzielność"
+      ],
+      "prompt_html": "<p>Ile dzielników jednocyfrowych ma liczba 5544?</p>",
+      "choices": [
+        { "label": "A", "html": "5" },
+        { "label": "B", "html": "6" },
+        { "label": "C", "html": "7" },
+        { "label": "D", "html": "8" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2021_dolnoslaskie_q6",
+      "number": 6,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Który z podanych ułamków jest największy?</p>",
+      "choices": [
+        { "label": "A", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math>" },
+        { "label": "B", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>23</mn><mn>45</mn></mfrac></math>" },
+        { "label": "C", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>234</mn><mn>567</mn></mfrac></math>" },
+        { "label": "D", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2345</mn><mn>6789</mn></mfrac></math>" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2021_dolnoslaskie_q7",
+      "number": 7,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Wskaż równość fałszywą.</p>",
+      "choices": [
+        { "label": "A", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mn>5</mn><mn>3</mn></mroot><mo>−</mo><mroot><mrow><mo>−</mo><mn>5</mn></mrow><mn>3</mn></mroot><mo>=</mo><mroot><mn>40</mn><mn>3</mn></mroot></math>" },
+        { "label": "B", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>+</mo><msqrt><mfrac><mn>9</mn><mn>4</mn></mfrac></msqrt><mo>=</mo><mfrac><mn>9</mn><mn>4</mn></mfrac><mo>−</mo><msqrt><mfrac><mn>1</mn><mn>4</mn></mfrac></msqrt></math>" },
+        { "label": "C", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mfrac><mn>1</mn><mn>4</mn></mfrac></msqrt><mo>−</mo><msqrt><mfrac><mn>1</mn><mn>16</mn></mfrac></msqrt><mo>=</mo><mroot><mfrac><mn>1</mn><mn>64</mn></mfrac><mn>3</mn></mroot></math>" },
+        { "label": "D", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mn>64</mn><mn>3</mn></mroot><mo>·</mo><msqrt><mfrac><mn>1</mn><mn>64</mn></mfrac></msqrt><mo>=</mo><msqrt><mn>64</mn></msqrt><mo>·</mo><mroot><mfrac><mn>1</mn><mn>64</mn></mfrac><mn>3</mn></mroot></math>" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2021_dolnoslaskie_q8",
+      "number": 8,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Na talerzu było 45 śliwek. Asia zjadła <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>9</mn></mfrac></math> wszystkich śliwek, Kasia zjadła <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>8</mn></mfrac></math> tego, co pozostało, Jurek zjadł <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>7</mn></mfrac></math> tych śliwek, które zostawiła mu Kasia, a Wojtek zjadł <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>6</mn></mfrac></math> reszty. Wskaż zdanie prawdziwe.</p>",
+      "choices": [
+        { "label": "A", "html": "Wojtek zjadł więcej śliwek niż każda z pozostałych osób." },
+        { "label": "B", "html": "Dziewczęta zjadły razem więcej śliwek niż chłopcy." },
+        { "label": "C", "html": "Wojtek zostawił na talerzu mniej niż 20 śliwek." },
+        { "label": "D", "html": "Każda z tych czterech osób zjadła po tyle samo śliwek." }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2021_dolnoslaskie_q9",
+      "number": 9,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Wielokąt przedstawiony na rysunku ma obwód 28. Dwa dłuższe boki są tej samej długości i wszystkie krótsze boki są też tej samej długości. Ponadto każde dwa sąsiednie boki są prostopadłe. Z dwóch takich wielokątów można ułożyć prostokąt. Ile jest równy obwód tego prostokąta?</p>",
+      "choices": [
+        { "label": "A", "html": "30" },
+        { "label": "B", "html": "42" },
+        { "label": "C", "html": "48" },
+        { "label": "D", "html": "56" }
+      ],
+      "figures": [
+        "szkolny_2021_dolnoslaskie_q9_fig1.png"
+      ],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2021_dolnoslaskie_q10",
+      "number": 10,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>W kratki zapisu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mo>·</mo><mo>□</mo><mo>+</mo><mn>11</mn><mo>·</mo><mo>□</mo></math> wpisano dwie różne liczby naturalne takie, że wartość tego wyrażenia jest równa 100. Ile jest równa suma obu wpisanych liczb?</p>",
+      "choices": [
+        { "label": "A", "html": "11" },
+        { "label": "B", "html": "12" },
+        { "label": "C", "html": "13" },
+        { "label": "D", "html": "14" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2021_dolnoslaskie_q11",
+      "number": 11,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Na osi liczbowej zaznaczono punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>, któremu odpowiada liczba −19, i punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>, któremu odpowiada liczba 46. Odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> podzielono na pięć równych części. Która z podanych liczb odpowiada jednemu z punktów tego podziału?</p>",
+      "choices": [
+        { "label": "A", "html": "−7" },
+        { "label": "B", "html": "10" },
+        { "label": "C", "html": "20" },
+        { "label": "D", "html": "34" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2021_dolnoslaskie_q12",
+      "number": 12,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "geometria",
+        "trójkąty"
+      ],
+      "prompt_html": "<p>W trapezie równoramiennym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> zachodzą równości: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BA</mi><mo>=</mo><mi>BD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CB</mi><mo>=</mo><mi>CD</mi></math> (patrz rysunek). Wskaż zdanie fałszywe.</p>",
+      "choices": [
+        { "label": "A", "html": "Półprosta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math> dzieli kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> na dwa równe kąty." },
+        { "label": "B", "html": "Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADB</mi></math> jest równy kątowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>." },
+        { "label": "C", "html": "Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCD</mi></math> jest dwa razy większy od kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BAD</mi></math>." },
+        { "label": "D", "html": "Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADC</mi></math> jest trzykrotnie większy od kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BDC</mi></math>." }
+      ],
+      "figures": [
+        "szkolny_2021_dolnoslaskie_q12_fig1.png"
+      ],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2021_dolnoslaskie_q13",
+      "number": 13,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "podzielność",
+        "zliczanie / metody zliczania"
+      ],
+      "prompt_html": "<p>Do zapisu trzech kolejnych liczb parzystych użyto łącznie 8 cyfr. Wskaż zdanie fałszywe.</p>",
+      "choices": [
+        { "label": "A", "html": "Dwie z tych liczb są trzycyfrowe." },
+        { "label": "B", "html": "Suma tych liczb dzieli się przez 75." },
+        { "label": "C", "html": "Jedna z tych liczb dzieli się przez 7." },
+        { "label": "D", "html": "Najwięcej dzielników ma największa z nich." }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2021_dolnoslaskie_q14",
+      "number": 14,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "trójkąty",
+        "geometria"
+      ],
+      "prompt_html": "<p>Kartkę w kształcie trójkąta równobocznego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> o obwodzie 54 cm (patrz rysunek 1.) złożono tak jak na rysunku 2. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A′</mi></math> jest środkiem odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EB</mi></math>. Obwód czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A′BCD</mi></math> jest równy</p>",
+      "choices": [
+        { "label": "A", "html": "48 cm" },
+        { "label": "B", "html": "42 cm" },
+        { "label": "C", "html": "36 cm" },
+        { "label": "D", "html": "27 cm" }
+      ],
+      "figures": [
+        "szkolny_2021_dolnoslaskie_q14_fig1.png"
+      ],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2021_dolnoslaskie_q15",
+      "number": 15,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "procenty"
+      ],
+      "prompt_html": "<p>Skrzynka z mandarynkami ma masę 12 kg, z czego 15% to masa samej skrzynki. W ciągu dnia sprzedano część mandarynek i teraz masa samej skrzynki stanowi 20% masy skrzynki wraz z pozostałymi mandarynkami. Ile kilogramów mandarynek sprzedano?</p>",
+      "choices": [
+        { "label": "A", "html": "1,8 kg" },
+        { "label": "B", "html": "3 kg" },
+        { "label": "C", "html": "3,6 kg" },
+        { "label": "D", "html": "6 kg" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2021_dolnoslaskie_q16",
+      "number": 16,
+      "page": 3,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "podzielność"
+      ],
+      "prompt_html": "<p>Wśród liczb pięciocyfrowych, których zapis dziesiętny ma postać 2244*, gdzie gwiazdką oznaczono cyfrę jedności, są dwie liczby pierwsze. Tymi liczbami są:</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "22441, 22447",
+        "solution_html": "<p>Liczba pierwsza postaci 2244* musi być nieparzysta i nie może kończyć się cyfrą 5, więc kandydatami są 22441, 22443, 22447 i 22449. Liczby 22443 (suma cyfr 15) oraz 22449 (suma cyfr 21) są podzielne przez 3, więc odpadają. Pozostają <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>22441</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>22447</mn></math> — obie są liczbami pierwszymi.</p><p><em>Za każdy prawidłowy element odpowiedzi — 1 p.</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2021_dolnoslaskie_q17",
+      "number": 17,
+      "page": 4,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "zliczanie / metody zliczania"
+      ],
+      "prompt_html": "<p>Za pomocą cyfr 1, 2, 3, 4 utworzono wszystkie liczby czterocyfrowe o każdej cyfrze innej. Liczby te zapisano w kolejności od najmniejszej do największej.</p><ul><li>Liczba 4213 znajduje się w tym zapisie na __________ miejscu.</li><li>Na 13. miejscu w tym zapisie znajduje się liczba __________ .</li></ul>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "21; 3124",
+        "solution_html": "<p>Z cyfr 1, 2, 3, 4 można utworzyć <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>!</mo><mo>=</mo><mn>24</mn></math> liczby. Przed liczbami zaczynającymi się od cyfry 4 stoi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>18</mn></math> liczb; wśród zaczynających się od 4 kolejno są 4123, 4132, 4213, więc liczba 4213 stoi na 21. miejscu. Miejsca 1–6 zajmują liczby z cyfrą 1 na początku, miejsca 7–12 z cyfrą 2, a 13. miejsce to pierwsza liczba z cyfrą 3 na początku, czyli 3124.</p><p><em>Za każdy prawidłowy element odpowiedzi — 1 p.</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2021_dolnoslaskie_q18",
+      "number": 18,
+      "page": 4,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "prędkość / droga / czas",
+        "procenty"
+      ],
+      "prompt_html": "<p>Dwie kolejki w lunaparku jeżdżą po zamkniętych torach o długości 40 m. Pierwsza z nich porusza z prędkością 0,5 m/s, a druga z prędkością o 20% mniejszą. Kolejki ruszyły w tym samym momencie.</p><ul><li>Jedno pełne okrążenie wolniejsza kolejka wykona w czasie o __________ sekund krótszym niż szybsza kolejka.</li><li>Gdy szybsza kolejka przejedzie jedno pełne okrążenie, wolniejszej pozostanie do przejechania jednego pełnego okrążenia jeszcze __________ metrów.</li></ul><p><em>Uwaga: w oficjalnym kluczu za pierwszy element nie przyznaje się punktów w związku z błędnym sformułowaniem, które pojawiło się w treści zdania (wolniejsza kolejka pokonuje okrążenie w czasie dłuższym, nie krótszym).</em></p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "— (pierwszy element nieoceniany z powodu błędu w treści); 8",
+        "solution_html": "<p>Prędkość drugiej kolejki wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,8</mn><mo>·</mo><mn>0,5</mn><mo>=</mo><mn>0,4</mn></math> m/s. Czasy jednego okrążenia to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>40</mn><mo>:</mo><mn>0,5</mn><mo>=</mo><mn>80</mn></math> s oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>40</mn><mo>:</mo><mn>0,4</mn><mo>=</mo><mn>100</mn></math> s (różnica 20 s, lecz wolniejsza kolejka jedzie dłużej, więc pierwszy podpunkt jest błędnie sformułowany i nie jest oceniany). Gdy szybsza kolejka pokona okrążenie w 80 s, wolniejsza przejedzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,4</mn><mo>·</mo><mn>80</mn><mo>=</mo><mn>32</mn></math> m, więc do końca okrążenia pozostanie jej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>40</mn><mo>−</mo><mn>32</mn><mo>=</mo><mn>8</mn></math> m.</p><p><em>Za drugi prawidłowy element odpowiedzi — 1 p.; za pierwszy element punktów nie przyznaje się.</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2021_dolnoslaskie_q19",
+      "number": 19,
+      "page": 4,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "trójkąty",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Jeśli do miary najmniejszego kąta w pewnym trójkącie dodamy 3 stopnie, to otrzymamy miarę średniego kąta, a jeśli do miary najmniejszego dodamy 30 stopni, to otrzymamy miarę największego kąta w tym trójkącie.</p><ul><li>Miara najmniejszego kąta w tym trójkącie jest równa __________ stopni.</li><li>Miara największego kąta w tym trójkącie jest równa __________ stopni.</li></ul>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "49; 79",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> będzie miarą najmniejszego kąta. Wtedy kąty trójkąta mają miary <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>3</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>30</mn></mrow></math>. Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>33</mn><mo>=</mo><mn>180</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>49</mn></mrow></math>. Największy kąt ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>49</mn><mo>+</mo><mn>30</mn><mo>=</mo><mn>79</mn></mrow></math>°.</p><p><em>Za każdy prawidłowy element odpowiedzi — 1 p.</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2021_dolnoslaskie_q20",
+      "number": 20,
+      "page": 4,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "bryły",
+        "podzielność"
+      ],
+      "prompt_html": "<p>Są dwa prostopadłościany, które spełniają dwa następujące warunki:</p><ul><li>wymiary wyrażają się całkowitymi liczbami centymetrów;</li><li>jedna ze ścian tej bryły ma pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>21</mn></math> cm², a inna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>39</mn></math> cm².</li></ul><ul><li>Pole powierzchni całkowitej tej z tych dwóch brył, która ma większą objętość, jest równe __________ cm².</li><li>Objętość tej z tych dwóch brył, która ma mniejsze pole powierzchni całkowitej, jest równa __________ cm³.</li></ul>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "1758; 273",
+        "solution_html": "<p>Wspólna krawędź dwóch ścian jest wspólnym dzielnikiem liczb 21 i 39; wspólne dzielniki to 1 i 3. Otrzymujemy dwa prostopadłościany: o wymiarach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>×</mo><mn>7</mn><mo>×</mo><mn>13</mn></mrow></math> (pole powierzchni <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>302</mn></math> cm², objętość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>273</mn></math> cm³) oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>×</mo><mn>21</mn><mo>×</mo><mn>39</mn></mrow></math> (pole powierzchni <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1758</mn></math> cm², objętość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>819</mn></math> cm³). Bryła o większej objętości (1 × 21 × 39) ma pole powierzchni całkowitej 1758 cm², a bryła o mniejszym polu powierzchni (3 × 7 × 13) ma objętość 273 cm³.</p><p><em>Za każdy prawidłowy element odpowiedzi — 1 p.</em></p>"
+      }
+    }
+  ]
+}

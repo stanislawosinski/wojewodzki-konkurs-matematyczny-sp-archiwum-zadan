@@ -1,0 +1,508 @@
+{
+  "source_file": "szkolny/2021_podkarpackie.pdf",
+  "answers_file": "szkolny/2021_podkarpackie_answers.pdf",
+  "competition": "Wojewódzki Konkurs z Matematyki dla uczniów szkół podstawowych (podkarpackie)",
+  "school_type": "podstawowa",
+  "stage": "szkolny",
+  "wojewodztwo": "podkarpackie",
+  "school_year": "2020/2021",
+  "date": null,
+  "total_questions": 22,
+  "max_points": 30,
+  "questions": [
+    {
+      "id": "szkolny_2021_podkarpackie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "liczby rzymskie"
+      ],
+      "prompt_html": "<p>Największą ilość znaków rzymskich użyjemy przy zapisie liczby:</p>",
+      "choices": [
+        { "label": "A", "html": "191" },
+        { "label": "B", "html": "245" },
+        { "label": "C", "html": "669" },
+        { "label": "D", "html": "1049" },
+        { "label": "E", "html": "2041" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2021_podkarpackie_q2",
+      "number": 2,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "nierówności",
+        "zliczanie / metody zliczania"
+      ],
+      "prompt_html": "<p>Ile jest liczb całkowitych spełniających warunek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>x</mi><mo>|</mo><mo>&lt;</mo><mn>100</mn></math>?</p>",
+      "choices": [
+        { "label": "A", "html": "198" },
+        { "label": "B", "html": "200" },
+        { "label": "C", "html": "199" },
+        { "label": "D", "html": "99" },
+        { "label": "E", "html": "100" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2021_podkarpackie_q3",
+      "number": 3,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "podzielność"
+      ],
+      "prompt_html": "<p>Symbol <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>!</mo></math> oznacza iloczyn liczb naturalnych od 1 do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> tzn. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>!</mo><mo>=</mo><mn>1</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><mo>…</mo><mo>·</mo><mi>n</mi></math> (np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>!</mo><mo>=</mo><mn>1</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>4</mn></math>). Która z poniższych liczb <u>nie jest</u> liczbą całkowitą?</p>",
+      "choices": [
+        { "label": "A", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>30</mn><mo>!</mo></mrow><mn>38</mn></mfrac></math>" },
+        { "label": "B", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>30</mn><mo>!</mo></mrow><mn>39</mn></mfrac></math>" },
+        { "label": "C", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>30</mn><mo>!</mo></mrow><mn>40</mn></mfrac></math>" },
+        { "label": "D", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>30</mn><mo>!</mo></mrow><mn>41</mn></mfrac></math>" },
+        { "label": "E", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>30</mn><mo>!</mo></mrow><mn>42</mn></mfrac></math>" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2021_podkarpackie_q4",
+      "number": 4,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Jaki kąt wklęsły tworzą wskazówki zegara o godzinie 16:40?</p>",
+      "choices": [
+        { "label": "A", "html": "260°" },
+        { "label": "B", "html": "270°" },
+        { "label": "C", "html": "250°" },
+        { "label": "D", "html": "240°" },
+        { "label": "E", "html": "210°" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2021_podkarpackie_q5",
+      "number": 5,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "reszta z dzielenia"
+      ],
+      "prompt_html": "<p>Sześćdziesiąta cyfra po przecinku rozwinięcia dziesiętnego ułamka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>1111</mn></mfrac></math> to:</p>",
+      "choices": [
+        { "label": "A", "html": "1" },
+        { "label": "B", "html": "0" },
+        { "label": "C", "html": "4" },
+        { "label": "D", "html": "8" },
+        { "label": "E", "html": "2" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2021_podkarpackie_q6",
+      "number": 6,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "procenty"
+      ],
+      "prompt_html": "<p>Ceny towarów X i Y są jednakowe. Cenę towaru X obniżono o 20%, a cenę towaru Y podniesiono o 30%. O ile procent cena towaru Y jest wyższa od ceny towaru X?</p>",
+      "choices": [
+        { "label": "A", "html": "62,5%" },
+        { "label": "B", "html": "25%" },
+        { "label": "C", "html": "40%" },
+        { "label": "D", "html": "37,5%" },
+        { "label": "E", "html": "50%" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2021_podkarpackie_q7",
+      "number": 7,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>O ile zwiększy się pole prostokąta o bokach długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>b</mi></math>, jeżeli bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> zwiększymy o 4, a drugi bok zwiększymy dwukrotnie?</p>",
+      "choices": [
+        { "label": "A", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>a</mi><mi>b</mi><mo>+</mo><mn>16</mn></math>" },
+        { "label": "B", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>+</mo><mn>2</mn><mi>b</mi></math>" },
+        { "label": "C", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mi>b</mi><mo>+</mo><mn>2</mn><mi>a</mi><mi>b</mi></math>" },
+        { "label": "D", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>a</mi><mo>+</mo><mn>16</mn><mi>b</mi></math>" },
+        { "label": "E", "html": "8" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2021_podkarpackie_q8",
+      "number": 8,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Średnia arytmetyczna liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6,8</mn><mo>·</mo><msup><mn>10</mn><mn>4020</mn></msup></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,52</mn><mo>·</mo><msup><mn>10</mn><mn>4021</mn></msup></math> jest równa:</p>",
+      "choices": [
+        { "label": "A", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><msup><mn>10</mn><mn>4020</mn></msup></math>" },
+        { "label": "B", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><msup><mn>5</mn><mn>4021</mn></msup></math>" },
+        { "label": "C", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>·</mo><msup><mn>5</mn><mn>4021</mn></msup></math>" },
+        { "label": "D", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>·</mo><msup><mn>10</mn><mn>4020</mn></msup></math>" },
+        { "label": "E", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><msup><mn>10</mn><mn>2010</mn></msup></math>" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2021_podkarpackie_q9",
+      "number": 9,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "podzielność"
+      ],
+      "prompt_html": "<p>Rozkład liczby 1080 na czynniki pierwsze to:</p>",
+      "choices": [
+        { "label": "A", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>3</mn></msup><mo>·</mo><mn>27</mn><mo>·</mo><mn>5</mn></math>" },
+        { "label": "B", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>10</mn></math>" },
+        { "label": "C", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>3</mn></msup><mo>·</mo><msup><mn>3</mn><mn>4</mn></msup><mo>·</mo><mn>5</mn></math>" },
+        { "label": "D", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>·</mo><msup><mn>3</mn><mn>3</mn></msup><mo>·</mo><mn>5</mn></math>" },
+        { "label": "E", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>3</mn></msup><mo>·</mo><msup><mn>3</mn><mn>3</mn></msup><mo>·</mo><mn>5</mn></math>" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "E",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2021_podkarpackie_q10",
+      "number": 10,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Połowa liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>58</mn></msup></math> jest równa:</p>",
+      "choices": [
+        { "label": "A", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>115</mn></msup></math>" },
+        { "label": "B", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>116</mn></msup></math>" },
+        { "label": "C", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>29</mn></msup></math>" },
+        { "label": "D", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>58</mn></msup></math>" },
+        { "label": "E", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>29</mn></msup></math>" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2021_podkarpackie_q11",
+      "number": 11,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Suma pięciu kolejnych liczb naturalnych jest równa 310. Ile wynosi kwadrat najmniejszej z tych liczb?</p>",
+      "choices": [
+        { "label": "A", "html": "3844" },
+        { "label": "B", "html": "3600" },
+        { "label": "C", "html": "3969" },
+        { "label": "D", "html": "4225" },
+        { "label": "E", "html": "4096" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2021_podkarpackie_q12",
+      "number": 12,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Dane są wyrażenia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>=</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mi>x</mi><mo>+</mo><mn>19,25</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mo>=</mo><mn>19,25</mn><mi>x</mi><mo>+</mo><mfrac><mn>3</mn><mn>4</mn></mfrac></math>. Ile wynosi wartość iloczynu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>C</mi><mo>+</mo><mi>D</mi><mo>)</mo><mo>·</mo><mo>(</mo><mi>C</mi><mo>+</mo><mi>D</mi><mo>)</mo></math> dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>0,5</mn></math>?</p>",
+      "choices": [
+        { "label": "A", "html": "1225" },
+        { "label": "B", "html": "900" },
+        { "label": "C", "html": "1600" },
+        { "label": "D", "html": "625" },
+        { "label": "E", "html": "400" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2021_podkarpackie_q13",
+      "number": 13,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "geometria",
+        "trójkąty"
+      ],
+      "prompt_html": "<p>Czworokąt o obwodzie 111 cm, przekątna podzieliła na dwa trójkąty o obwodach 37 cm i 96 cm. Jaką długość ma ta przekątna?</p>",
+      "choices": [
+        { "label": "A", "html": "22 cm" },
+        { "label": "B", "html": "21 cm" },
+        { "label": "C", "html": "10 cm" },
+        { "label": "D", "html": "11 cm" },
+        { "label": "E", "html": "12 cm" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2021_podkarpackie_q14",
+      "number": 14,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>W jednym trapezie równoramiennym miara kąta ostrego jest trzy razy mniejsza od miary kąta rozwartego. Natomiast w drugim trapezie równoramiennym miara kąta rozwartego jest pięć razy większa od miary kąta ostrego. Ile wynosi różnica miar kątów rozwartych tych dwóch trapezów?</p>",
+      "choices": [
+        { "label": "A", "html": "10°" },
+        { "label": "B", "html": "25°" },
+        { "label": "C", "html": "20°" },
+        { "label": "D", "html": "30°" },
+        { "label": "E", "html": "15°" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "E",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2021_podkarpackie_q15",
+      "number": 15,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>W dwie kratki wpisano taką samą liczbę i otrzymano wówczas równanie, którego rozwiązaniem jest liczba 10. Jaką liczbę wpisano w kratkę?</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mi>x</mi><mo>+</mo><mo>□</mo><mo>=</mo><mn>7</mn><mo>·</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo>·</mo><mo>□</mo></math></p>",
+      "choices": [
+        { "label": "A", "html": "−20" },
+        { "label": "B", "html": "−40" },
+        { "label": "C", "html": "40" },
+        { "label": "D", "html": "20" },
+        { "label": "E", "html": "30" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2021_podkarpackie_q16",
+      "number": 16,
+      "page": 6,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "bryły"
+      ],
+      "prompt_html": "<p>Dwa drewniane klocki w kształcie graniastosłupa prawidłowego sklejono tak, jak na rysunku. Pole powierzchni całkowitej graniastosłupa I jest równe 76 cm², a pole powierzchni całkowitej graniastosłupa II 158 cm². Pole kwadratowej ściany graniastosłupa I wynosi 4 cm². Jakie jest pole powierzchni sklejonej bryły?</p>",
+      "choices": [
+        { "label": "A", "html": "226 cm²" },
+        { "label": "B", "html": "230 cm²" },
+        { "label": "C", "html": "238 cm²" },
+        { "label": "D", "html": "234 cm²" },
+        { "label": "E", "html": "242 cm²" }
+      ],
+      "figures": [
+        "szkolny_2021_podkarpackie_q16_fig1.png"
+      ],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2021_podkarpackie_q17",
+      "number": 17,
+      "page": 6,
+      "type": "true_false",
+      "points": 3,
+      "topics": [
+        "geometria",
+        "trójkąty"
+      ],
+      "prompt_html": "<p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>",
+      "choices": [
+        { "label": "1", "html": "Miara kąta wewnętrznego dziesięciokąta foremnego wynosi 154°." },
+        { "label": "2", "html": "Obwód kwadratu o polu 196 cm² jest równy 5,6 dm." },
+        { "label": "3", "html": "W układzie współrzędnych narysowano trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>, w którym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>,</mo><mn>2</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mo>(</mo><mn>1</mn><mo>,</mo><mn>3</mn><mo>)</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>3</mn><mo>,</mo><mn>4</mn><mo>)</mo></math>. Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mo>=</mo><mo>(</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>)</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi><mo>=</mo><mo>(</mo><mn>5</mn><mo>,</mo><mn>2</mn><mo>)</mo></math> są dwoma wierzchołkami trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DEF</mi></math> przystającego do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math> może mieć współrzędne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>)</mo></math>." }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FPP",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2021_podkarpackie_q18",
+      "number": 18,
+      "page": 6,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "zliczanie / metody zliczania",
+        "inne"
+      ],
+      "prompt_html": "<p>Liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mn>9888</mn></math> zaokrąglono do dziesiątek.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>",
+      "choices": [
+        { "label": "1", "html": "Są trzy liczby naturalne mniejsze od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>, które mają takie samo zaokrąglenie do dziesiątek co liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>." },
+        { "label": "2", "html": "Jest sześć liczb naturalnych większych od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>, które mają takie samo zaokrąglenie do dziesiątek co liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>." }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PP",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2021_podkarpackie_q19",
+      "number": 19,
+      "page": 8,
+      "type": "true_false",
+      "points": 3,
+      "topics": [
+        "nierówności"
+      ],
+      "prompt_html": "<p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>",
+      "choices": [
+        { "label": "1", "html": "Aby iloczyn <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>−</mo><mn>3</mn><mo>)</mo><mo>·</mo><mo>(</mo><mo>−</mo><mi>x</mi><mo>)</mo><mo>·</mo><mo>(</mo><mo>−</mo><mi>x</mi><mo>)</mo><mo>·</mo><mo>(</mo><mo>−</mo><mi>x</mi><mo>)</mo></math> był liczbą ujemną, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> musi być liczbą ujemną." },
+        { "label": "2", "html": "Aby iloraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>−</mo><mn>3</mn></mrow><mrow><mn>2</mn><mi>x</mi></mrow></mfrac></math> był liczbą dodatnią, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> musi być liczbą dodatnią." },
+        { "label": "3", "html": "Aby liczba przeciwna do ilorazu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>−</mo><mn>2</mn><mi>x</mi></mrow><mn>7</mn></mfrac></math> była liczbą dodatnią, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> musi być liczbą ujemną." }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PFF",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2021_podkarpackie_q20",
+      "number": 20,
+      "page": 8,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "równania z jedną zmienną",
+        "proporcjonalność odwrotna"
+      ],
+      "prompt_html": "<p>Zosia, Agnieszka i Marcin wykonywali ozdoby choinkowe. Zosi wykonanie jednej ozdoby zajmowało 2 minuty, Agnieszce 3 minuty, a Marcinowi 4 minuty. Wspólnie mieli do wykonania 104 ozdoby choinkowe. Pracę rozpoczęli o godzinie 14:00.</p><p><strong>Uzupełnij:</strong></p><p>20.1. Zosia, Agnieszka i Marcin zakończyli pracę o godzinie: ………</p><p>20.2. Zosia wykonała ……… ozdób choinkowych, Agnieszka ……… Marcin ………</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "20.1. o godzinie 15:36; 20.2. Zosia — 48, Agnieszka — 32, Marcin — 24 ozdób",
+        "solution_html": "<p>W ciągu jednej minuty Zosia wykonuje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math> ozdoby, Agnieszka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math>, a Marcin <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math>. Razem w ciągu minuty wykonują <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>=</mo><mfrac><mn>13</mn><mn>12</mn></mfrac></math> ozdoby. Czas pracy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>104</mn><mo>:</mo><mfrac><mn>13</mn><mn>12</mn></mfrac><mo>=</mo><mn>104</mn><mo>·</mo><mfrac><mn>12</mn><mn>13</mn></mfrac><mo>=</mo><mn>96</mn></math> minut, czyli 1 godzina 36 minut. Zatem zakończyli pracę o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>14</mn><mo>:</mo><mn>00</mn><mo>+</mo><mn>1</mn><mo>:</mo><mn>36</mn><mo>=</mo><mn>15</mn><mo>:</mo><mn>36</mn></math>. Zosia wykonała <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>96</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>48</mn></math>, Agnieszka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>96</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>32</mn></math>, a Marcin <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>96</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>24</mn></math> ozdoby (razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>48</mn><mo>+</mo><mn>32</mn><mo>+</mo><mn>24</mn><mo>=</mo><mn>104</mn></math>).</p>"
+      }
+    },
+    {
+      "id": "szkolny_2021_podkarpackie_q21",
+      "number": 21,
+      "page": 8,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "trójkąty",
+        "geometria"
+      ],
+      "prompt_html": "<p>Uzupełnij lukę tak, aby zdanie było prawdziwe. Przyjmij, że długość jednej kratki jest równa 1.</p><p>Pole trójkąta przedstawionego na rysunku jest równe: …………………………</p>",
+      "choices": [],
+      "figures": [
+        "szkolny_2021_podkarpackie_q21_fig1.png"
+      ],
+      "answer": {
+        "correct": "7",
+        "solution_html": "<p>Trójkąt otaczamy najmniejszym prostokątem zbudowanym z kratek o wymiarach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>×</mo><mn>4</mn></math>, którego pole wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn></math>. Od pola prostokąta odejmujemy pola trzech trójkątów prostokątnych leżących w narożnikach, o polach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math>. Pole trójkąta wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mo>−</mo><mo>(</mo><mn>3</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>16</mn><mo>−</mo><mn>9</mn><mo>=</mo><mn>7</mn></math>.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2021_podkarpackie_q22",
+      "number": 22,
+      "page": 10,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "geometria",
+        "trójkąty"
+      ],
+      "prompt_html": "<p>Uzupełnij lukę tak, aby zdanie było prawdziwe.</p><p>Narysowana gwiazda jest zbudowana z kwadratu i czterech przystających trójkątów równoramiennych.</p><p>Pole tej gwiazdy jest równe: ……………………</p>",
+      "choices": [],
+      "figures": [
+        "szkolny_2021_podkarpackie_q22_fig1.png"
+      ],
+      "answer": {
+        "correct": "xy (dopuszczalne także: x·y, yx, y·x)",
+        "solution_html": "<p>Gwiazda składa się z kwadratu o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> (o polu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup></math>) oraz czterech przystających trójkątów równoramiennych o podstawie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math>. Łączne pole czterech trójkątów wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mi>x</mi><mo>·</mo><mi>h</mi><mo>=</mo><mn>2</mn><mi>x</mi><mi>h</mi></math>. Szerokość gwiazdy to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mi>x</mi><mo>+</mo><mn>2</mn><mi>h</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>h</mi><mo>=</mo><mi>y</mi><mo>−</mo><mi>x</mi></math>. Zatem pole gwiazdy wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi><mi>h</mi><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>(</mo><mi>y</mi><mo>−</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>x</mi><mi>y</mi></math>.</p>"
+      }
+    }
+  ]
+}

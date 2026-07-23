@@ -1,0 +1,19 @@
+I have a folder with questions for the Polish Konkurs Matematyczny. I'd like to create sets of questions around specific topics, such as (in Polish): NWD / NWW (greatest common denominator / least common multiple), single-variable equations, equation systems etc. My idea is this, let me know if this is feasible:
+
+You have agents parsing tests, each agent parses a single wojewodztwo tests (which should follow a common layout). Tests are usually PDF, they contain math notations and drawings, so perhaps looking at page images is better than using pdf extraction tools (you decide)? For each tests file, the agent extracts separate questions and re-layouts them as HTML+MathML. For images, cutting a bitmap from the PDF is fine, no need to render to SVG (but feel free to do that if this seems easier). (Why not laTex -- heavier dependencies, MathML should be enough for this level of math (primary school)?). For each question, make sure to note the source -- name of the file, page number and the original question number in the PDF.
+
+Is that feasible, anything worth doing better?
+
+First analyze and answer. Then I'll provide an example file to analyze and convert.
+
+Topics into which to divide the questions:
+
+- podzielność (zadania nt dowodzenia / analizy podzielności przez specyficnze liczby)
+- potęgi i pierwiastki (obliczanie podchwytliwych wyrażeń z potęgami i pierwiastkami)
+- równania z jedną zmienną (zadania wymagające rozwiązania / napisania + rozwiązania takiego równania)
+- układy równań
+- NWW / NWD
+- zliczanie / metody zliczania 
+- geometria
+- zagadki logiczne
+- inne

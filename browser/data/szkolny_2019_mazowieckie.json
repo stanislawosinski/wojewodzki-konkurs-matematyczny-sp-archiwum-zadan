@@ -1,0 +1,223 @@
+{
+  "source_file": "szkolny/2019_mazowieckie.pdf",
+  "answers_file": "szkolny/2019_mazowieckie_answers.pdf",
+  "competition": "Konkurs Matematyczny dla uczniów klas IV-VIII szkół podstawowych województwa mazowieckiego",
+  "school_type": "podstawowa",
+  "stage": "szkolny",
+  "wojewodztwo": "mazowieckie",
+  "school_year": "2019/2020",
+  "date": "2019-10-28",
+  "total_questions": 9,
+  "max_points": 20,
+  "questions": [
+    {
+      "id": "szkolny_2019_mazowieckie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "procenty",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>14% pewnej liczby jest o 7 większe od 9% tej liczby. Jaka to liczba?</p><p>Zakreśl poprawną odpowiedź spośród podanych.</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "107"
+        },
+        {
+          "label": "B",
+          "html": "114"
+        },
+        {
+          "label": "C",
+          "html": "140"
+        },
+        {
+          "label": "D",
+          "html": "180"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2019_mazowieckie_q2",
+      "number": 2,
+      "page": 2,
+      "type": "true_false",
+      "points": 1,
+      "topics": [
+        "trójkąty"
+      ],
+      "prompt_html": "<p>W trójkącie prostokątnym równoramiennym odległość wierzchołka kąta prostego od przeciwprostokątnej jest równa 7.</p><p>Oceń prawdziwość podanych zdań. Zakreśl P, jeśli zdanie jest prawdziwe albo F, jeśli jest fałszywe.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Długość ramienia tego trójkąta wynosi 7."
+        },
+        {
+          "label": "2",
+          "html": "Pole tego trójkąta jest równe 49."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FP",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2019_mazowieckie_q3",
+      "number": 3,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "bryły",
+        "zagadki logiczne"
+      ],
+      "prompt_html": "<p>Na ściankach jednego klocka Kuba zapisał kolejne liczby pierwsze, a na ściankach drugiego klocka – kolejne nieparzyste liczby naturalne, a następnie ustawił te klocki tak, jak na rysunku.</p><p>Uzupełnij poniższe zdania. Zakreśl jedną odpowiedź spośród oznaczonych literami A i B <u>oraz</u> jedną odpowiedź spośród oznaczonych literami C i D.</p><p>Liczbą pierwszą większą niż 3, która występuje na ściance jednego klocka, a nie ma jej na żadnej ściance drugiego klocka, jest (A albo B):</p><p>Suma liczb na niewidocznych ściankach obu klocków, jest równa (C albo D):</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "7"
+        },
+        {
+          "label": "B",
+          "html": "13"
+        },
+        {
+          "label": "C",
+          "html": "42"
+        },
+        {
+          "label": "D",
+          "html": "47"
+        }
+      ],
+      "figures": [
+        "szkolny_2019_mazowieckie_q3_fig1.png"
+      ],
+      "answer": {
+        "correct": "B, D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2019_mazowieckie_q4",
+      "number": 4,
+      "page": 3,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "zagadki logiczne"
+      ],
+      "prompt_html": "<p>Takim samym literom odpowiadają takie same cyfry, a różnym literom – różne cyfry. Rozszyfruj mnożenie. Napisz, jakiej cyfrze odpowiada litera R.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>RACHUNEK</mtext><mo>·</mo><mn>9</mn><mo>=</mo><mtext>KKKKKKKKK</mtext></math></p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "R = 6",
+        "solution_html": "<p>Ostatnią cyfrą iloczynu jest litera K, więc iloczyn <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi><mo>·</mo><mn>9</mn></math> musi kończyć się cyfrą K. Jedyną cyfrą różną od zera, która pomnożona przez 9 daje wynik o tej samej cyfrze jedności, jest 5, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi><mo>=</mo><mn>5</mn></math>. Iloczyn ma więc postać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>555555555</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>RACHUNEK</mtext><mo>=</mo><mn>555555555</mn><mo>:</mo><mn>9</mn><mo>=</mo><mn>61728395</mn></math>. Zatem literze R odpowiada cyfra 6.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2019_mazowieckie_q5",
+      "number": 5,
+      "page": 4,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "trójkąty",
+        "geometria",
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>Na rysunku odcinki AF, BE i CD przecinają się w punkcie K, a odcinki AB i CD są równoległe. Oblicz sumę miar kątów zaznaczonych łukami. Odpowiedź uzasadnij.</p>",
+      "choices": [],
+      "figures": [
+        "szkolny_2019_mazowieckie_q5_fig1.png"
+      ],
+      "answer": {
+        "correct": "360°",
+        "solution_html": "<p>Oznaczmy kąty zaznaczone łukami jak w modelu odpowiedzi: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ε</mi></math> przy wierzchołku A, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> przy B, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> przy C, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>δ</mi></math> przy D, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>φ</mi></math> przy E i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi></math> przy F. Ponieważ AB ∥ CD, kąt przy wierzchołku K w trójkącie CEK jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>, a w trójkącie DFK jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ε</mi></math>. Z twierdzenia o sumie kątów w trójkącie otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi><mo>+</mo><mi>φ</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mi>α</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi><mo>+</mo><mi>δ</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mi>ε</mi></math>. Suma wszystkich kątów zaznaczonych łukami wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>180</mn><mo>°</mo><mo>−</mo><mi>α</mi><mo>)</mo><mo>+</mo><mo>(</mo><mn>180</mn><mo>°</mo><mo>−</mo><mi>ε</mi><mo>)</mo><mo>+</mo><mo>(</mo><mi>α</mi><mo>+</mo><mi>ε</mi><mo>)</mo><mo>=</mo><mn>360</mn><mo>°</mo></math>.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2019_mazowieckie_q6",
+      "number": 6,
+      "page": 5,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "trójkąty",
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>Czy istnieje trójkąt, którego wysokości są równe: 2, 4, 6? Odpowiedź uzasadnij.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Nie, taki trójkąt nie istnieje.",
+        "solution_html": "<p>Załóżmy, że taki trójkąt istnieje i ma boki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>, na które opuszczono wysokości odpowiednio 2, 4 i 6. Pole trójkąta zapisujemy na trzy sposoby: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mo>·</mo><mn>2</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mfrac><mrow><mi>b</mi><mo>·</mo><mn>4</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mfrac><mrow><mi>c</mi><mo>·</mo><mn>6</mn></mrow><mn>2</mn></mfrac></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>2</mn><mi>b</mi><mo>=</mo><mn>3</mn><mi>c</mi></math>. Przyjmując <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>3</mn><mi>c</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>1,5</mn><mi>c</mi></math>, sprawdzamy warunek istnienia trójkąta. Nierówności <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>c</mi><mo>+</mo><mn>1,5</mn><mi>c</mi><mo>&gt;</mo><mi>c</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>c</mi><mo>+</mo><mi>c</mi><mo>&gt;</mo><mn>1,5</mn><mi>c</mi></math> są prawdziwe, ale <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,5</mn><mi>c</mi><mo>+</mo><mi>c</mi><mo>&gt;</mo><mn>3</mn><mi>c</mi></math> jest fałszywa, bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2,5</mn><mi>c</mi><mo>&lt;</mo><mn>3</mn><mi>c</mi></math>. Ponieważ nierówność trójkąta nie jest spełniona, taki trójkąt nie istnieje.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2019_mazowieckie_q7",
+      "number": 7,
+      "page": 6,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Prostokąt o wymiarach 22 cm × 16 cm naklejono na romb, jak na rysunku. Prostokąt przykrył <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>5</mn></mfrac></math> powierzchni rombu. Po odwróceniu sklejonych figur okazało się, że romb przykrył <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math> powierzchni prostokąta. Oblicz pole tego rombu.</p>",
+      "choices": [],
+      "figures": [
+        "szkolny_2019_mazowieckie_q7_fig1.png"
+      ],
+      "answer": {
+        "correct": "330 cm²",
+        "solution_html": "<p>Pole prostokąta wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>22</mn><mo>·</mo><mn>16</mn><mo>=</mo><mn>352</mn></math> cm². Pole wspólnej części obu figur stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math> pola prostokąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>·</mo><mn>352</mn><mo>=</mo><mn>264</mn></math> cm². Ta sama wspólna część stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>5</mn></mfrac></math> pola rombu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>5</mn></mfrac><mo>·</mo><mi>P</mi><mo>=</mo><mn>264</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>264</mn><mo>:</mo><mfrac><mn>4</mn><mn>5</mn></mfrac><mo>=</mo><mn>264</mn><mo>·</mo><mfrac><mn>5</mn><mn>4</mn></mfrac><mo>=</mo><mn>330</mn></math> cm². Pole rombu jest równe 330 cm².</p>"
+      }
+    },
+    {
+      "id": "szkolny_2019_mazowieckie_q8",
+      "number": 8,
+      "page": 7,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "równania z jedną zmienną",
+        "zagadki logiczne"
+      ],
+      "prompt_html": "<p>Na trzech półkach stało 60 książek. Asia, robiąc porządki, przełożyła 10 książek z drugiej półki na trzecią, z trzeciej półki 8 książek na pierwszą, a następnie z pierwszej półki 4 książki na drugą półkę. Wówczas okazało się, że na każdej półce jest po tyle samo książek. Ile książek stało na każdej półce sprzed porządków Asi? Odpowiedź uzasadnij.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "I półka: 16, II półka: 26, III półka: 18",
+        "solution_html": "<p>Po przełożeniu na każdej z trzech półek jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>20</mn></math> książek. Niech na pierwszej półce było <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> książek; po ruchach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>8</mn><mo>−</mo><mn>4</mn><mo>=</mo><mn>20</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>16</mn></math>. Na drugiej półce <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>−</mo><mn>10</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>20</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>26</mn></math>. Na trzeciej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi><mo>+</mo><mn>10</mn><mo>−</mo><mn>8</mn><mo>=</mo><mn>20</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi><mo>=</mo><mn>18</mn></math>. Sprawdzenie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mo>+</mo><mn>26</mn><mo>+</mo><mn>18</mn><mo>=</mo><mn>60</mn></math>. Odpowiedź: na pierwszej półce było 16 książek, na drugiej 26, a na trzeciej 18.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2019_mazowieckie_q9",
+      "number": 9,
+      "page": 8,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "podzielność",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Znajdź wszystkie liczby całkowite <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, dla których wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mi>a</mi><mo>+</mo><mn>3</mn></mrow><mrow><mi>a</mi><mo>−</mo><mn>2</mn></mrow></mfrac></math> jest liczbą całkowitą dodatnią.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "a = 3, a = 9 lub a = −5",
+        "solution_html": "<p>Przekształcamy wyrażenie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mi>a</mi><mo>+</mo><mn>3</mn></mrow><mrow><mi>a</mi><mo>−</mo><mn>2</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn><mo>(</mo><mi>a</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>+</mo><mn>7</mn></mrow><mrow><mi>a</mi><mo>−</mo><mn>2</mn></mrow></mfrac><mo>=</mo><mn>2</mn><mo>+</mo><mfrac><mn>7</mn><mrow><mi>a</mi><mo>−</mo><mn>2</mn></mrow></mfrac></math>. Aby wartość była liczbą całkowitą, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>−</mo><mn>2</mn></math> musi być dzielnikiem liczby 7, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>−</mo><mn>2</mn><mo>∈</mo><mo>{</mo><mn>1</mn><mo>,</mo><mo>−</mo><mn>1</mn><mo>,</mo><mn>7</mn><mo>,</mo><mo>−</mo><mn>7</mn><mo>}</mo></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>∈</mo><mo>{</mo><mn>3</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>9</mn><mo>,</mo><mo>−</mo><mn>5</mn><mo>}</mo></math>. Wartość jest dodatnia dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>3</mn></math> (wynik 9), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>9</mn></math> (wynik 3) i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mo>−</mo><mn>5</mn></math> (wynik 1); dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>1</mn></math> wynik wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>5</mn></math> i jest ujemny, więc go odrzucamy. Odpowiedź: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>3</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>9</mn></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mo>−</mo><mn>5</mn></math>.</p>"
+      }
+    }
+  ]
+}

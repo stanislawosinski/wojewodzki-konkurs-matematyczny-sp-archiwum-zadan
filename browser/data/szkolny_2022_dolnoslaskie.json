@@ -1,0 +1,624 @@
+{
+  "source_file": "szkolny/2022_dolnoslaskie.pdf",
+  "answers_file": "szkolny/2022_dolnoslaskie_answers.pdf",
+  "competition": "Dolnośląski Konkurs Matematyczny zDolny Ślązak dla uczniów szkół podstawowych",
+  "school_type": "podstawowa",
+  "stage": "szkolny",
+  "wojewodztwo": "dolnoslaskie",
+  "school_year": "2021/2022",
+  "date": "2021-10-20",
+  "total_questions": 20,
+  "max_points": 25,
+  "questions": [
+    {
+      "id": "szkolny_2022_dolnoslaskie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>W pięciu szklankach, każda o pojemności 240 ml, są następujące ilości wody:</p><p>100 ml, 150 ml, 200 ml, 220 ml, 230 ml.</p><p>Przelano wodę z niektórych szklanek do innych tak, że w każdej szklance jest teraz tyle samo wody. Jaką część każdej szklanki wypełnia teraz woda?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math>"
+        },
+        {
+          "label": "B",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math>"
+        },
+        {
+          "label": "C",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math>"
+        },
+        {
+          "label": "D",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>5</mn></mfrac></math>"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2022_dolnoslaskie_q2",
+      "number": 2,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "zagadki logiczne"
+      ],
+      "prompt_html": "<p>Kasia narysowała diagram:</p><p>Następnie zamalowała na czarno albo na niebiesko pola tego diagramu, przestrzegając przy tym dwóch reguł:</p><ul><li>każde pole niebieskie sąsiaduje z dokładnie jednym polem czarnym;</li><li>każde pole czarne sąsiaduje z dokładnie jednym polem niebieskim.</li></ul><p>Wskaż wypowiedź prawdziwą.</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "Pierwsze i ostatnie pole są tego samego koloru."
+        },
+        {
+          "label": "B",
+          "html": "Trzecie i dziewiąte pole mają różne kolory."
+        },
+        {
+          "label": "C",
+          "html": "Kasia zamalowała w diagramie na czarno więcej niż 5 pól."
+        },
+        {
+          "label": "D",
+          "html": "Każde pole niebieskie sąsiaduje z jednym polem niebieskim."
+        }
+      ],
+      "figures": [
+        "szkolny_2022_dolnoslaskie_q2_fig1.png"
+      ],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2022_dolnoslaskie_q3",
+      "number": 3,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "reszta z dzielenia",
+        "zagadki logiczne"
+      ],
+      "prompt_html": "<p>Ostatni dzień pewnego roku przypadł w niedzielę. Ile niedziel było w IV kwartale tego roku?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "12"
+        },
+        {
+          "label": "B",
+          "html": "13"
+        },
+        {
+          "label": "C",
+          "html": "14"
+        },
+        {
+          "label": "D",
+          "html": "15"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2022_dolnoslaskie_q4",
+      "number": 4,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "liczby rzymskie"
+      ],
+      "prompt_html": "<p>W każde pole diagramu należy wstawić inny znak spośród X, D, C tak, aby otrzymać poprawny zapis liczby w systemie rzymskim. Można to zrobić na trzy różne sposoby. Suma trzech tak utworzonych liczb jest równa:</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "1610"
+        },
+        {
+          "label": "B",
+          "html": "1590"
+        },
+        {
+          "label": "C",
+          "html": "1490"
+        },
+        {
+          "label": "D",
+          "html": "1410"
+        }
+      ],
+      "figures": [
+        "szkolny_2022_dolnoslaskie_q4_fig1.png"
+      ],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2022_dolnoslaskie_q5",
+      "number": 5,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Iloczyn liczby o 6 mniejszej od 10 i liczby o 6 większej od 30 jest 6 razy większy od liczby:</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "40"
+        },
+        {
+          "label": "B",
+          "html": "32"
+        },
+        {
+          "label": "C",
+          "html": "24"
+        },
+        {
+          "label": "D",
+          "html": "20"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2022_dolnoslaskie_q6",
+      "number": 6,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "bryły"
+      ],
+      "prompt_html": "<p>Suma długości wszystkich krawędzi pewnego sześcianu jest o 120 cm większa od obwodu jednej ściany tej bryły. Pole powierzchni tego sześcianu jest równe:</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "1350 cm²"
+        },
+        {
+          "label": "B",
+          "html": "2400 cm²"
+        },
+        {
+          "label": "C",
+          "html": "3375 cm²"
+        },
+        {
+          "label": "D",
+          "html": "5400 cm²"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2022_dolnoslaskie_q7",
+      "number": 7,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Kwadrat o obwodzie 48 cm podzielono na jednakowe prostokąty w sposób przedstawiony na rysunku. Obwód jednego takiego prostokąta jest równy:</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "12 cm"
+        },
+        {
+          "label": "B",
+          "html": "18 cm"
+        },
+        {
+          "label": "C",
+          "html": "24 cm"
+        },
+        {
+          "label": "D",
+          "html": "30 cm"
+        }
+      ],
+      "figures": [
+        "szkolny_2022_dolnoslaskie_q7_fig1.png"
+      ],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2022_dolnoslaskie_q8",
+      "number": 8,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "trójkąty",
+        "nierówności"
+      ],
+      "prompt_html": "<p>Jeden z boków trójkąta ma długość 7 cm, a drugi 19 cm. Wskaż liczbę, która może być obwodem tego trójkąta.</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "53 cm"
+        },
+        {
+          "label": "B",
+          "html": "52 cm"
+        },
+        {
+          "label": "C",
+          "html": "39 cm"
+        },
+        {
+          "label": "D",
+          "html": "38 cm"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2022_dolnoslaskie_q9",
+      "number": 9,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "procenty"
+      ],
+      "prompt_html": "<p>Pani Katarzyna spędziła godzinę w parku. Przez kwadrans siedziała na ławce, rozmawiając przez telefon, 20% czasu pobytu w parku stała w kolejce po lody, a pozostały czas przechadzała się po parku. Ile minut trwała ta przechadzka?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "35 min"
+        },
+        {
+          "label": "B",
+          "html": "33 min"
+        },
+        {
+          "label": "C",
+          "html": "27 min"
+        },
+        {
+          "label": "D",
+          "html": "25 min"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2022_dolnoslaskie_q10",
+      "number": 10,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "kombinatoryka",
+        "zliczanie / metody zliczania"
+      ],
+      "prompt_html": "<p>Za pomocą cyfr 1, 2, 3, 4 zapisano wszystkie liczby czterocyfrowe takie, że w każdej z nich każda cyfra występuje tylko raz. Ile wśród wypisanych liczb jest takich, w których obie cyfry parzyste są obok siebie?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "6"
+        },
+        {
+          "label": "B",
+          "html": "8"
+        },
+        {
+          "label": "C",
+          "html": "10"
+        },
+        {
+          "label": "D",
+          "html": "12"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2022_dolnoslaskie_q11",
+      "number": 11,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "podzielność"
+      ],
+      "prompt_html": "<p>Najmniejszą liczbą pierwszą, przez którą dzieli się liczba 97531, jest:</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "3"
+        },
+        {
+          "label": "B",
+          "html": "5"
+        },
+        {
+          "label": "C",
+          "html": "7"
+        },
+        {
+          "label": "D",
+          "html": "11"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2022_dolnoslaskie_q12",
+      "number": 12,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "proporcjonalność prosta"
+      ],
+      "prompt_html": "<p>Długość prostokątnego boiska jest równa 48 m, a szerokość 20 m. Prostokąt przedstawiający na planie to boisko ma długość o 0,7 cm większą niż szerokość. Ten plan jest sporządzony w skali:</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "1:7000"
+        },
+        {
+          "label": "B",
+          "html": "1:6000"
+        },
+        {
+          "label": "C",
+          "html": "1:5000"
+        },
+        {
+          "label": "D",
+          "html": "1:4000"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2022_dolnoslaskie_q13",
+      "number": 13,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "bryły"
+      ],
+      "prompt_html": "<p>Z kostek sześciennych o krawędzi długości 2 cm można ułożyć pełny model sześcianu o polu powierzchni 600 cm². Ile takich kostek należy użyć?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "1000"
+        },
+        {
+          "label": "B",
+          "html": "216"
+        },
+        {
+          "label": "C",
+          "html": "125"
+        },
+        {
+          "label": "D",
+          "html": "25"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2022_dolnoslaskie_q14",
+      "number": 14,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Łatwo sprawdzić, że zachodzi równość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>2</mn></msup><mo>+</mo><msup><mn>4</mn><mn>2</mn></msup><mo>=</mo><msup><mn>5</mn><mn>2</mn></msup></math>. Mnożąc obie jej strony przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>6</mn><mn>2</mn></msup></math> otrzymujemy sumę kwadratów dwóch liczb równą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>30</mn><mn>2</mn></msup></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>18</mn><mn>2</mn></msup><mo>+</mo><msup><mn>24</mn><mn>2</mn></msup><mo>=</mo><msup><mn>30</mn><mn>2</mn></msup></math>. Które z wyrażeń jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>90</mn><mn>2</mn></msup></math>?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>72</mn><mn>2</mn></msup><mo>+</mo><msup><mn>56</mn><mn>2</mn></msup></math>"
+        },
+        {
+          "label": "B",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>48</mn><mn>2</mn></msup><mo>+</mo><msup><mn>64</mn><mn>2</mn></msup></math>"
+        },
+        {
+          "label": "C",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>51</mn><mn>2</mn></msup><mo>+</mo><msup><mn>68</mn><mn>2</mn></msup></math>"
+        },
+        {
+          "label": "D",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>54</mn><mn>2</mn></msup><mo>+</mo><msup><mn>72</mn><mn>2</mn></msup></math>"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2022_dolnoslaskie_q15",
+      "number": 15,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Dane są trzy wyrażenia:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mfrac><mrow><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>6</mn></mfrac></mrow><mrow><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mn>6</mn></mfrac></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mfrac><mrow><mfrac><mn>1</mn><mn>0,5</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>0,6</mn></mfrac></mrow><mrow><mfrac><mn>1</mn><mn>0,5</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mn>0,6</mn></mfrac></mrow></mfrac></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi><mo>=</mo><mfrac><mrow><mfrac><mn>1</mn><mn>55</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>66</mn></mfrac></mrow><mrow><mfrac><mn>1</mn><mn>55</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mn>66</mn></mfrac></mrow></mfrac></math></p><p>Ile spośród tych wyrażeń ma wartość równą 11?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "trzy"
+        },
+        {
+          "label": "B",
+          "html": "dwa"
+        },
+        {
+          "label": "C",
+          "html": "jedno"
+        },
+        {
+          "label": "D",
+          "html": "żadne"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2022_dolnoslaskie_q16",
+      "number": 16,
+      "page": 3,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "zliczanie / metody zliczania",
+        "podzielność"
+      ],
+      "prompt_html": "<p>Jurek wypisał w arkuszu kalkulacyjnym wszystkie liczby dwucyfrowe, rozpoczynając od 10 i tak, że każda następna jest o 7 większa od poprzedniej.</p><p>Jurek wypisał __________ liczb.</p><p>Wśród liczb, które Jurek wypisał jest __________ liczb złożonych.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "13 liczb; wśród nich 9 złożonych",
+        "solution_html": "<p>Wypisane liczby to: 10, 17, 24, 31, 38, 45, 52, 59, 66, 73, 80, 87, 94 (następna, 101, jest już trzycyfrowa) — razem <strong>13</strong> liczb. Liczbami pierwszymi wśród nich są 17, 31, 59, 73 (4 liczby), zatem liczb złożonych jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>13</mn><mo>−</mo><mn>4</mn><mo>=</mo><mn>9</mn></math> (10 nie jest pierwsza, więc pozostałe 9 są złożone).</p>"
+      }
+    },
+    {
+      "id": "szkolny_2022_dolnoslaskie_q17",
+      "number": 17,
+      "page": 3,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "zliczanie / metody zliczania"
+      ],
+      "prompt_html": "<p>Za pomocą cyfr 4, 5, 6, 7 zapisano wszystkie liczby czterocyfrowe takie, że w każdej z nich każda cyfra występuje tylko raz. Każdą z tych liczb zaokrąglono do setek.</p><p>Najmniejszą liczbą, jaką otrzymano w wyniku tego zaokrąglenia jest __________, a największą liczbą jest __________.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "najmniejsza: 4600; największa: 7700",
+        "solution_html": "<p>Najmniejszą z zapisanych liczb jest 4567; po zaokrągleniu do setek daje <strong>4600</strong> (żadna inna nie zaokrągla się do mniejszej setki). Największą liczbą jest 7654; po zaokrągleniu do setek daje <strong>7700</strong>.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2022_dolnoslaskie_q18",
+      "number": 18,
+      "page": 3,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "równania z jedną zmienną",
+        "zagadki logiczne"
+      ],
+      "prompt_html": "<p>Do 18 szklanek – każda o pojemności 200 ml – rozlano 3 litry wody tak, że część szklanek została całkowicie napełniona, co najmniej jedna w połowie i co najmniej jedna szklanka pozostała pusta.</p><p>Liczba szklanek, które są wypełnione w połowie, to __________ lub __________.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "2 lub 4",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi></math> oznacza liczbę szklanek pełnych (200 ml), a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math> — wypełnionych w połowie (100 ml). Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>200</mn><mi>f</mi><mo>+</mo><mn>100</mn><mi>h</mi><mo>=</mo><mn>3000</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>f</mi><mo>+</mo><mi>h</mi><mo>=</mo><mn>30</mn></math>, oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>+</mo><mi>h</mi><mo>&lt;</mo><mn>18</mn></math> (co najmniej jedna pusta). Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>=</mo><mn>13</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mn>4</mn></math> (jedna szklanka pusta) albo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>=</mo><mn>14</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mn>2</mn></math> (dwie szklanki puste). Zatem szklanek wypełnionych w połowie jest 2 lub 4.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2022_dolnoslaskie_q19",
+      "number": 19,
+      "page": 4,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Na prostej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> obrano punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> i z niego poprowadzono półproste <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BE</mi></math>. Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABD</mi></math> ma miarę 122°, a kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CBE</mi></math> ma miarę 133°.</p><p>Spośród trzech kątów, oznaczonych na rysunku literami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi></math>, największy ma miarę __________ stopni, a najmniejszy ma miarę __________ stopni.</p>",
+      "choices": [],
+      "figures": [
+        "szkolny_2022_dolnoslaskie_q19_fig1.png"
+      ],
+      "answer": {
+        "correct": "największy: 75°; najmniejszy: 47°",
+        "solution_html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>+</mo><mi>β</mi><mo>=</mo><mn>122</mn><mo>°</mo></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi><mo>+</mo><mi>γ</mi><mo>=</mo><mn>133</mn><mo>°</mo></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>+</mo><mi>β</mi><mo>+</mo><mi>γ</mi><mo>=</mo><mn>180</mn><mo>°</mo></math> (kąt półpełny nad prostą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math>), więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>122</mn><mo>°</mo><mo>=</mo><mn>58</mn><mo>°</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>133</mn><mo>°</mo><mo>=</mo><mn>47</mn><mo>°</mo></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>47</mn><mo>°</mo><mo>−</mo><mn>58</mn><mo>°</mo><mo>=</mo><mn>75</mn><mo>°</mo></math>. Największy jest kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi><mo>=</mo><mn>75</mn><mo>°</mo></math>, a najmniejszy kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>=</mo><mn>47</mn><mo>°</mo></math>.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2022_dolnoslaskie_q20",
+      "number": 20,
+      "page": 4,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "bryły"
+      ],
+      "prompt_html": "<p>Na rysunkach przedstawiono niepełne siatki sześcianu – w każdej z nich brakuje jednej ściany. Uzupełnij rysunki tak, aby otrzymać dwie pełne siatki sześcianu.</p>",
+      "choices": [],
+      "figures": [
+        "szkolny_2022_dolnoslaskie_q20_fig1.png"
+      ],
+      "answer": {
+        "correct": "Brakujący kwadrat w każdej siatce należy dorysować w jednym z miejsc oznaczonych krzyżykiem w kluczu.",
+        "solution_html": "<p>W każdej z siatek brakujący kwadrat należy dorysować tak, aby powstała poprawna siatka sześcianu. Zgodnie z kluczem odpowiedzi kwadrat umieszcza się w jednym z miejsc oznaczonych krzyżykiem: w pierwszej siatce nad dwoma górnymi polami albo pod dwoma dolnymi, a w drugiej — nad dwoma górnymi polami albo z lewej strony dwóch pól.</p>"
+      }
+    }
+  ]
+}

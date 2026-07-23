@@ -1,0 +1,659 @@
+{
+  "source_file": "szkolny/2013-2014_slaskie.pdf",
+  "answers_file": "szkolny/2013-2014_slaskie_answers.pdf",
+  "competition": "Wojewódzki Konkurs Przedmiotowy z Matematyki z Elementami Przyrody dla uczniów szkół podstawowych województwa śląskiego",
+  "school_type": "podstawowa",
+  "stage": "szkolny",
+  "wojewodztwo": "slaskie",
+  "school_year": "2013/2014",
+  "date": "2013-11-08",
+  "total_questions": 24,
+  "max_points": 50,
+  "questions": [
+    {
+      "id": "szkolny_2013-2014_slaskie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "zagadki logiczne"
+      ],
+      "prompt_html": "<p>W puste białe pola „liczbowej krzyżówki” wstaw liczby tak, aby wszystkie działania były poprawne.</p>",
+      "choices": [],
+      "figures": [
+        "szkolny_2013-2014_slaskie_q1_fig1.png"
+      ],
+      "answer": {
+        "correct": "W puste pola wpisujemy: 4, 3, 5, 8, 3. Wiersze: 4·2+4=12, 10+6:3=12, 5+8−3=10.",
+        "solution_html": "<p>Uzupełniamy puste białe pola tak, aby zgadzały się działania w wierszach i kolumnach:</p><ul><li>górny wiersz: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>2</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>12</mn></math></li><li>środkowy wiersz: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>+</mo><mn>6</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>12</mn></math></li><li>dolny wiersz: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>+</mo><mn>8</mn><mo>−</mo><mn>3</mn><mo>=</mo><mn>10</mn></math></li><li>lewa kolumna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>+</mo><mn>10</mn><mo>−</mo><mn>5</mn><mo>=</mo><mn>9</mn></math></li><li>środkowa kolumna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>6</mn><mo>−</mo><mn>8</mn><mo>=</mo><mn>4</mn></math></li><li>prawa kolumna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>−</mo><mn>3</mn><mo>+</mo><mn>3</mn><mo>=</mo><mn>4</mn></math></li></ul><p>Punktacja: za poprawnie rozwiązaną krzyżówkę 3 punkty, przy 1 błędzie 2 punkty, przy 2 błędach 1 punkt.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2013-2014_slaskie_q2",
+      "number": 2,
+      "page": 2,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "zagadki logiczne"
+      ],
+      "prompt_html": "<p>W poniższych wyrażeniach wstaw nawiasy tak, aby otrzymać równości.</p><p>A) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn><mo>+</mo><mn>5</mn><mo>·</mo><mn>32</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>160</mn></math></p><p>B) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>−</mo><mn>25</mn><mo>+</mo><mn>75</mn><mo>:</mo><mn>5</mn><mo>=</mo><mn>60</mn></math></p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "A) (15+5)·(32:4)=160;  B) 100−(25+75:5)=60",
+        "solution_html": "<p>A) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>15</mn><mo>+</mo><mn>5</mn><mo>)</mo><mo>·</mo><mo>(</mo><mn>32</mn><mo>:</mo><mn>4</mn><mo>)</mo><mo>=</mo><mn>20</mn><mo>·</mo><mn>8</mn><mo>=</mo><mn>160</mn></math></p><p>B) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>−</mo><mo>(</mo><mn>25</mn><mo>+</mo><mn>75</mn><mo>:</mo><mn>5</mn><mo>)</mo><mo>=</mo><mn>100</mn><mo>−</mo><mn>40</mn><mo>=</mo><mn>60</mn></math></p><p>Punktacja: 2 punkty za poprawne wstawienie nawiasów w obu wyrażeniach, 1 punkt za poprawne wstawienie nawiasów w jednym z nich.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2013-2014_slaskie_q3",
+      "number": 3,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Do stołówki przyszła grupa 60-osobowa. Przy stolikach 6-osobowych usiadło 36 osób, a pozostali zajęli wszystkie miejsca przy stolikach 4-osobowych. Które z wyrażeń opisuje, ile 4-osobowych stolików zostało zajętych?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn><mo>−</mo><mn>4</mn><mo>·</mo><mn>6</mn></math>"
+        },
+        {
+          "label": "B",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn><mo>−</mo><mn>36</mn><mo>:</mo><mn>4</mn></math>"
+        },
+        {
+          "label": "C",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>36</mn><mo>·</mo><mn>6</mn><mo>−</mo><mn>60</mn><mo>)</mo><mo>:</mo><mn>4</mn></math>"
+        },
+        {
+          "label": "D",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>60</mn><mo>−</mo><mn>36</mn><mo>)</mo><mo>:</mo><mn>4</mn></math>"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2013-2014_slaskie_q4",
+      "number": 4,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>O godzinie 11:36 Bartek zaczął ćwiczyć grę na fortepianie po przerwie trwającej 25 godzin i 38 minut. Bartek zakończył poprzednie ćwiczenia gry na fortepianie wczoraj</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "o godz. 12:12"
+        },
+        {
+          "label": "B",
+          "html": "o godz. 8:14"
+        },
+        {
+          "label": "C",
+          "html": "o godz. 10:08"
+        },
+        {
+          "label": "D",
+          "html": "o godz. 9:58"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2013-2014_slaskie_q5",
+      "number": 5,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Masę 8 kg 23 g można zapisać jako</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "8,023 kg"
+        },
+        {
+          "label": "B",
+          "html": "8,0023 kg"
+        },
+        {
+          "label": "C",
+          "html": "8,23 kg"
+        },
+        {
+          "label": "D",
+          "html": "8,00023 kg"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2013-2014_slaskie_q6",
+      "number": 6,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Liczba „o dwa większa od liczby dwa razy większej od 6724” to</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "6728"
+        },
+        {
+          "label": "B",
+          "html": "2688"
+        },
+        {
+          "label": "C",
+          "html": "13452"
+        },
+        {
+          "label": "D",
+          "html": "13450"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2013-2014_slaskie_q7",
+      "number": 7,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "proporcjonalność prosta"
+      ],
+      "prompt_html": "<p>Z zepsutego kranu kapie woda. W ciągu 15 minut wycieka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> szklanki. Ile szklanek zapełni się wodą w ciągu doby, gdy będzie ona wyciekać w takim samym tempie?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "6"
+        },
+        {
+          "label": "B",
+          "html": "12"
+        },
+        {
+          "label": "C",
+          "html": "24"
+        },
+        {
+          "label": "D",
+          "html": "36"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2013-2014_slaskie_q8",
+      "number": 8,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "kombinatoryka",
+        "zliczanie / metody zliczania"
+      ],
+      "prompt_html": "<p>Ile jest wszystkich liczb czterocyfrowych mniejszych od 5555 utworzonych z cyfr: 3, 5, 5, 7?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "7"
+        },
+        {
+          "label": "B",
+          "html": "6"
+        },
+        {
+          "label": "C",
+          "html": "5"
+        },
+        {
+          "label": "D",
+          "html": "4"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2013-2014_slaskie_q9",
+      "number": 9,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Długość kroku Ali wynosi 50 cm. Ile kroków zrobiła Ala, gdy przeszła równym krokiem 1,5 km?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "300"
+        },
+        {
+          "label": "B",
+          "html": "3000"
+        },
+        {
+          "label": "C",
+          "html": "7500"
+        },
+        {
+          "label": "D",
+          "html": "750"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2013-2014_slaskie_q10",
+      "number": 10,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Dwaj bracia Jacek i Maciek mieli oszczędności w skarbonkach. Jacek miał dwa razy więcej pieniędzy w skarbonce niż Maciek. Pewnego dnia Jacek wyjął 10 zł, a Maciek 50 zł. Wtedy okazało się, że Jackowi zostało trzy razy więcej pieniędzy niż Maćkowi. Wynika z tego, że</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "Maćkowi zostało 140 zł, a Jackowi 280 zł."
+        },
+        {
+          "label": "B",
+          "html": "Maćkowi zostało 140 zł, a Jackowi 420 zł."
+        },
+        {
+          "label": "C",
+          "html": "Maćkowi zostało 90 zł, a Jackowi 270 zł."
+        },
+        {
+          "label": "D",
+          "html": "Maćkowi zostało 20 zł, Jackowi 60 zł."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2013-2014_slaskie_q11",
+      "number": 11,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Który z poniższych ułamków jest największy?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>8</mn></mfrac></math>"
+        },
+        {
+          "label": "B",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>66</mn><mn>77</mn></mfrac></math>"
+        },
+        {
+          "label": "C",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>555</mn><mn>666</mn></mfrac></math>"
+        },
+        {
+          "label": "D",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>444</mn><mn>555</mn></mfrac></math>"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2013-2014_slaskie_q12",
+      "number": 12,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> jest równa</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "130°"
+        },
+        {
+          "label": "B",
+          "html": "140°"
+        },
+        {
+          "label": "C",
+          "html": "220°"
+        },
+        {
+          "label": "D",
+          "html": "40°"
+        }
+      ],
+      "figures": [
+        "szkolny_2013-2014_slaskie_q12_fig1.png"
+      ],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2013-2014_slaskie_q13",
+      "number": 13,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Mapa jest zorientowana przy pomocy kompasu, gdy igła magnetyczna wyznaczająca północ ustawiona jest</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "równolegle do drogi na mapie."
+        },
+        {
+          "label": "B",
+          "html": "wzdłuż rzeki na mapie."
+        },
+        {
+          "label": "C",
+          "html": "równolegle do lewej ramki mapy."
+        },
+        {
+          "label": "D",
+          "html": "wzdłuż górnej krawędzi mapy."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2013-2014_slaskie_q14",
+      "number": 14,
+      "page": 4,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "proporcjonalność prosta"
+      ],
+      "prompt_html": "<p>Piotrek ma w swoim pokoju stół o wymiarach 90 cm na 180 cm. Oblicz wymiary stołu w skali 1:25. Wymiary stołu w skali podaj w milimetrach.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "36 mm na 72 mm",
+        "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>90</mn><mtext> cm</mtext><mo>:</mo><mn>25</mn><mo>=</mo><mn>3,6</mn><mtext> cm</mtext></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>180</mn><mtext> cm</mtext><mo>:</mo><mn>25</mn><mo>=</mo><mn>7,2</mn><mtext> cm</mtext></math>. Po zamianie na milimetry: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3,6</mn><mtext> cm</mtext><mo>=</mo><mn>36</mn><mtext> mm</mtext></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7,2</mn><mtext> cm</mtext><mo>=</mo><mn>72</mn><mtext> mm</mtext></math>. Wymiary stołu w skali to 36 mm na 72 mm.</p><p>Punktacja: 1 pkt za poprawną metodę obliczenia wymiarów, 1 pkt za poprawny wynik obliczeń, 1 pkt za zamianę cm na mm.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2013-2014_slaskie_q15",
+      "number": 15,
+      "page": 5,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Do rysunków przyporządkuj nazwy przedstawionych na nich form terenu spośród wymienionych: kotlina, wzniesienie o dwóch wierzchołkach, wzniesienie o jednym wierzchołku.</p>",
+      "choices": [],
+      "figures": [
+        "szkolny_2013-2014_slaskie_q15_fig1.png",
+        "szkolny_2013-2014_slaskie_q15_fig2.png"
+      ],
+      "answer": {
+        "correct": "A. kotlina;  B. wzniesienie o dwóch wierzchołkach",
+        "solution_html": "<p>A. kotlina (poziomice mają coraz mniejsze wartości ku środkowi).</p><p>B. wzniesienie o dwóch wierzchołkach (dwa punkty szczytowe 725 i 692).</p><p>Punktacja: po 1 pkt za każdą poprawną odpowiedź.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2013-2014_slaskie_q16",
+      "number": 16,
+      "page": 5,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Uzupełnij zdanie korzystając z rysunku poniżej.</p><p>A. Rzeka płynie w kierunku …</p><p>B. Łagodne zbocze doliny rzecznej znajduje się od strony …</p>",
+      "choices": [],
+      "figures": [
+        "szkolny_2013-2014_slaskie_q16_fig1.png"
+      ],
+      "answer": {
+        "correct": "A. południowo-wschodnim;  B. północno-wschodniej (dopuszczalne: północnej)",
+        "solution_html": "<p>A. Rzeka płynie w kierunku południowo-wschodnim.</p><p>B. Łagodne zbocze doliny rzecznej znajduje się od strony północno-wschodniej (dopuszczalna odpowiedź: północnej).</p><p>Punktacja: po 1 pkt za każdą poprawną odpowiedź.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2013-2014_slaskie_q17",
+      "number": 17,
+      "page": 5,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Na podstawie powyższego rysunku (profilu hipsometrycznego) podaj</p><p>A. wysokość bezwzględną szczytu B.</p><p>B. wysokość względną szczytu B względem punktu A.</p>",
+      "choices": [],
+      "figures": [
+        "szkolny_2013-2014_slaskie_q17_fig1.png"
+      ],
+      "answer": {
+        "correct": "A. 250 m n.p.m.;  B. 200 m",
+        "solution_html": "<p>A. Wysokość bezwzględna szczytu B wynosi 250 m n.p.m.</p><p>B. Punkt A leży na wysokości 50 m n.p.m., więc wysokość względna szczytu B względem punktu A wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>250</mn><mtext> m</mtext><mo>−</mo><mn>50</mn><mtext> m</mtext><mo>=</mo><mn>200</mn><mtext> m</mtext></math>.</p><p>Punktacja: po 1 pkt za każdą poprawną odpowiedź.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2013-2014_slaskie_q18",
+      "number": 18,
+      "page": 6,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Do składnika pogody dopasuj przyrząd służący do jego pomiaru oraz jednostkę pomiaru spośród wymienionych: termometr, deszczomierz, barometr, wiatromierz, milimetr (mm), stopień Celsjusza (°C), hektopaskal (hPa), kilometr na godzinę (km/h).</p><table><thead><tr><th>Składnik pogody</th><th>Przyrząd</th><th>Jednostka pomiaru</th></tr></thead><tbody><tr><td>Opady atmosferyczne</td><td></td><td></td></tr><tr><td>Ciśnienie atmosferyczne</td><td></td><td></td></tr><tr><td>Kierunek i prędkość wiatru</td><td></td><td></td></tr><tr><td>Temperatura powietrza</td><td></td><td></td></tr></tbody></table>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Opady atmosferyczne – deszczomierz, milimetr (mm); Ciśnienie atmosferyczne – barometr, hektopaskal (hPa); Kierunek i prędkość wiatru – wiatromierz, kilometr na godzinę (km/h); Temperatura powietrza – termometr, stopień Celsjusza (°C).",
+        "solution_html": "<table><thead><tr><th>Składnik pogody</th><th>Przyrząd</th><th>Jednostka pomiaru</th></tr></thead><tbody><tr><td>Opady atmosferyczne</td><td>deszczomierz</td><td>milimetr (mm)</td></tr><tr><td>Ciśnienie atmosferyczne</td><td>barometr</td><td>hektopaskal (hPa)</td></tr><tr><td>Kierunek i prędkość wiatru</td><td>wiatromierz</td><td>kilometr na godzinę (km/h)</td></tr><tr><td>Temperatura powietrza</td><td>termometr</td><td>stopień Celsjusza (°C)</td></tr></tbody></table><p>Punktacja: po 1 pkt za każdy prawidłowo wypełniony wiersz.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2013-2014_slaskie_q19",
+      "number": 19,
+      "page": 6,
+      "type": "true_false",
+      "points": 4,
+      "topics": [
+        "NWW / NWD",
+        "podzielność"
+      ],
+      "prompt_html": "<p>Oceń, czy podane zdania są prawdziwe czy fałszywe. Zaznacz właściwą odpowiedź.</p><p>W pewnej klasie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math> uczniów chciało iść do kina, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>9</mn></mfrac></math> uczniów na wystawę. Liczba uczniów w tej klasie jest:</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "nieparzysta."
+        },
+        {
+          "label": "2",
+          "html": "podzielna przez 11."
+        },
+        {
+          "label": "3",
+          "html": "podzielna przez 18."
+        },
+        {
+          "label": "4",
+          "html": "mniejsza niż 36."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FFPF",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2013-2014_slaskie_q20",
+      "number": 20,
+      "page": 6,
+      "type": "true_false",
+      "points": 4,
+      "topics": [
+        "geometria",
+        "NWW / NWD"
+      ],
+      "prompt_html": "<p>Oceń, czy podane zdania są prawdziwe czy fałszywe. Zaznacz właściwą odpowiedź.</p><p>O godzinie 19:20 kąt wypukły między wskazówkami minutową i godzinową:</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "jest kątem prostym."
+        },
+        {
+          "label": "2",
+          "html": "ma miarę 100°."
+        },
+        {
+          "label": "3",
+          "html": "ma miarę, która jest wielokrotnością liczby 6."
+        },
+        {
+          "label": "4",
+          "html": "ma miarę, która jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>NWW</mtext><mo>(</mo><mn>20</mn><mo>,</mo><mn>50</mn><mo>)</mo></math>."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FPFP",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2013-2014_slaskie_q21",
+      "number": 21,
+      "page": 7,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Tomek i Rafał chcieli kupić tę samą grę komputerową. Tomek miał tylko <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math>, a Rafał 0,6 potrzebnej kwoty, więc postanowili połączyć swoje oszczędności i kupić wspólnie jedną grę. Oblicz, ile kosztowała gra, jeśli ze wspólnych pieniędzy zostało im jeszcze 21 zł.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "60 zł",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza cenę gry. Chłopcy dysponują łącznie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac><mi>x</mi><mo>+</mo><mn>0,6</mn><mi>x</mi><mo>=</mo><mn>1,35</mn><mi>x</mi></math>. Po zakupie gry zostaje im 21 zł, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,35</mn><mi>x</mi><mo>=</mo><mi>x</mi><mo>+</mo><mn>21</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,35</mn><mi>x</mi><mo>=</mo><mn>21</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>60</mn></math>. Gra kosztowała 60 zł.</p><p>Punktacja: 1 pkt za zapis zależności między ceną gry a oszczędnościami, 1 pkt za ułożenie równania, 1 pkt za obliczenie ceny gry (60 zł).</p>"
+      }
+    },
+    {
+      "id": "szkolny_2013-2014_slaskie_q22",
+      "number": 22,
+      "page": 7,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Dwa kwadraty przedstawione na rysunku mają przekątne o długości 10 cm. Odcinek AB, łączący środki przekątnych kwadratów ma długość 7 cm. Do odcinka AB należą dwa wierzchołki kwadratów. Oblicz pole zacieniowanego kwadratu.</p>",
+      "choices": [],
+      "figures": [
+        "szkolny_2013-2014_slaskie_q22_fig1.png"
+      ],
+      "answer": {
+        "correct": "4,5 cm²",
+        "solution_html": "<p>Długość przekątnej zacieniowanego kwadratu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>−</mo><mn>7</mn><mo>=</mo><mn>3</mn></math> cm. Pole kwadratu o przekątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>d</mi><mo>·</mo><mi>d</mi></mrow><mn>2</mn></mfrac></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mo>·</mo><mn>3</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>4,5</mn></math> cm².</p><p>Punktacja: 1 pkt za obliczenie długości przekątnej kwadratu, 1 pkt za obliczenie pola kwadratu.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2013-2014_slaskie_q23",
+      "number": 23,
+      "page": 8,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>W łazience trzeba wyłożyć kafelkami ściany do wysokości 2 m i podłogę o wymiarach 2 m i 3 m. Drzwi do łazienki mają wysokość 2 m i powierzchnię 1,6 m². Ile paczek kafelków trzeba kupić, jeżeli kafelki mają kształt kwadratu o boku 20 cm, a w jednej paczce jest ich 20?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "31 paczek",
+        "solution_html": "<p>Pole podłogi: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>6</mn></math> m². Pole ścian do wysokości 2 m: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mo>(</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>)</mo><mo>+</mo><mn>2</mn><mo>·</mo><mo>(</mo><mn>2</mn><mo>·</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>20</mn></math> m². Razem 26 m². Po odjęciu powierzchni drzwi: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>26</mn><mo>−</mo><mn>1,6</mn><mo>=</mo><mn>24,4</mn></math> m². Pole jednego kafelka: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mtext> cm</mtext><mo>·</mo><mn>20</mn><mtext> cm</mtext><mo>=</mo><mn>400</mn></math> cm² <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>0,04</mn></math> m². Liczba kafelków: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24,4</mn><mo>:</mo><mn>0,04</mn><mo>=</mo><mn>610</mn></math>. Liczba paczek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>610</mn><mo>:</mo><mn>20</mn><mo>=</mo><mn>30,5</mn></math>, więc trzeba kupić 31 paczek kafelków.</p><p>Punktacja: 1 pkt za pole podłogi i ścian z drzwiami lub pole kafelka, 2 pkt za pole podłogi i ścian bez drzwi oraz pole kafelka, 3 pkt za liczbę kafelków, 4 pkt za liczbę paczek i podanie odpowiedzi (31 paczek).</p>"
+      }
+    },
+    {
+      "id": "szkolny_2013-2014_slaskie_q24",
+      "number": 24,
+      "page": 8,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "układy równań"
+      ],
+      "prompt_html": "<p>Na uszycie 6 spódnic i 5 żakietów potrzeba 15 m 2 dm materiału, a na uszycie 12 spódnic i 7 żakietów potrzeba 25 m 6 dm materiału, przy czym rozmiary spódnic i żakietów są jednakowe. Ile metrów materiału potrzeba na uszycie jednej spódnicy, a ile na uszycie jednego żakietu?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "spódnica: 1,2 m (1 m 2 dm), żakiet: 1,6 m (1 m 6 dm)",
+        "solution_html": "<p>Oznaczmy przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi></math> ilość materiału na jedną spódnicę, a przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi></math> na jeden żakiet (w metrach). Z treści zadania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>s</mi><mo>+</mo><mn>5</mn><mi>z</mi><mo>=</mo><mn>15,2</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mi>s</mi><mo>+</mo><mn>7</mn><mi>z</mi><mo>=</mo><mn>25,6</mn></math>. Podwajając pierwsze równanie otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mi>s</mi><mo>+</mo><mn>10</mn><mi>z</mi><mo>=</mo><mn>30,4</mn></math>. Odejmując od niego drugie równanie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>z</mi><mo>=</mo><mn>30,4</mn><mo>−</mo><mn>25,6</mn><mo>=</mo><mn>4,8</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi><mo>=</mo><mn>1,6</mn></math> m. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>=</mo><mo>(</mo><mn>15,2</mn><mo>−</mo><mn>5</mn><mo>·</mo><mn>1,6</mn><mo>)</mo><mo>:</mo><mn>6</mn><mo>=</mo><mn>1,2</mn></math> m. Na jedną spódnicę potrzeba 1,2 m (1 m 2 dm), a na jeden żakiet 1,6 m (1 m 6 dm) materiału.</p><p>Punktacja: 1 pkt za obliczenie ilości materiału na 12 spódnic i 10 żakietów, 1 pkt za ilość na 3 żakiety, 1 pkt za ilość na 1 żakiet, 1 pkt za ilość na 1 spódnicę.</p>"
+      }
+    }
+  ]
+}

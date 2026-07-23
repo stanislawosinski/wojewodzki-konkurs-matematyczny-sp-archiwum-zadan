@@ -1,0 +1,237 @@
+{
+  "source_file": "szkolny/2020_mazowieckie.pdf",
+  "answers_file": "szkolny/2020_mazowieckie_answers.pdf",
+  "competition": "Konkurs Matematyczny dla uczniów szkół podstawowych województwa mazowieckiego",
+  "school_type": "podstawowa",
+  "stage": "szkolny",
+  "wojewodztwo": "mazowieckie",
+  "school_year": "2020/2021",
+  "date": "2020-10-21",
+  "total_questions": 10,
+  "max_points": 20,
+  "questions": [
+    {
+      "id": "szkolny_2020_mazowieckie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "reszta z dzielenia",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Wszystkie cyfry, które nie występują w rzędzie jedności kwadratu liczby całkowitej to</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "2, 3"
+        },
+        {
+          "label": "B",
+          "html": "3, 7, 8"
+        },
+        {
+          "label": "C",
+          "html": "2, 3, 7, 8"
+        },
+        {
+          "label": "D",
+          "html": "0, 3, 7, 8"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2020_mazowieckie_q2",
+      "number": 2,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "potęgi i pierwiastki",
+        "inne"
+      ],
+      "prompt_html": "<p>Dane jest wyrażenie:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>−</mo><mn>0,8</mn><mo>+</mo><mn>2</mn><mfrac><mn>3</mn><mn>8</mn></mfrac><mo>−</mo><mn>1,5</mn><mo>+</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>−</mo><mn>1,2</mn><mo>+</mo><mn>1,625</mn><mo>−</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></math>.</p><p>Uzupełnij poniższe zdania, wybierając odpowiedź A lub B oraz C lub D.</p><p>Kwadrat wartości tego wyrażenia jest liczbą (A albo B).</p><p>Odwrotność wartości tego wyrażenia jest liczbą (C albo D).</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "większą od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mfrac><mn>1</mn><mn>343</mn></mfrac><mn>3</mn></mroot></math>"
+        },
+        {
+          "label": "B",
+          "html": "mniejszą niż 0,12"
+        },
+        {
+          "label": "C",
+          "html": "dodatnią"
+        },
+        {
+          "label": "D",
+          "html": "całkowitą"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B, D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2020_mazowieckie_q3",
+      "number": 3,
+      "page": 2,
+      "type": "true_false",
+      "points": 1,
+      "topics": [
+        "trójkąty"
+      ],
+      "prompt_html": "<p>Długości boków pewnego trójkąta równoramiennego są liczbami całkowitymi. Ramię ma długość 12. Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Obwód tego trójkąta może być większy lub równy 49."
+        },
+        {
+          "label": "2",
+          "html": "Wszystkie kąty wewnętrzne tego trójkąta mogą mieć takie same miary."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FP",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2020_mazowieckie_q4",
+      "number": 4,
+      "page": 3,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "zagadki logiczne",
+        "podzielność"
+      ],
+      "prompt_html": "<p>W równości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>W</mi><mo>·</mo><mi>O</mi><mo>·</mo><mi>D</mi><mo>·</mo><mi>A</mi><mo>=</mo><mfrac><mrow><mi>D</mi><mo>·</mo><mi>E</mi><mo>·</mo><mi>S</mi><mo>·</mo><mi>Z</mi><mo>·</mo><mi>C</mi><mo>·</mo><mi>Z</mi></mrow><mrow><mi>U</mi><mo>·</mo><mi>L</mi><mo>·</mo><mi>E</mi><mo>·</mo><mi>W</mi><mo>·</mo><mi>A</mi></mrow></mfrac></math> różnym literom odpowiadają różne cyfry, a jednakowym literom jednakowe cyfry. Jaką najmniejszą wartość może przyjmować iloczyn <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Z</mi><mo>·</mo><mi>A</mi><mo>·</mo><mi>L</mi><mo>·</mo><mi>E</mi><mo>·</mo><mi>W</mi></math>? Odpowiedź uzasadnij.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "120",
+        "solution_html": "<p>W danej równości występuje 10 różnych liter: A, C, D, E, L, O, S, U, W, Z, którym muszą odpowiadać wszystkie cyfry od 0 do 9. Zatem jedna z liter odpowiada cyfrze 0, przy czym nie może ona znajdować się w mianowniku. Aby równość zachodziła, zero musi pojawić się po obu jej stronach. Jedyną literą występującą zarówno po lewej stronie (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>W</mi><mo>·</mo><mi>O</mi><mo>·</mo><mi>D</mi><mo>·</mo><mi>A</mi></math>), jak i w liczniku po prawej stronie jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mo>=</mo><mn>0</mn></math>.</p><p>Wtedy w iloczynie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Z</mi><mo>·</mo><mi>A</mi><mo>·</mo><mi>L</mi><mo>·</mo><mi>E</mi><mo>·</mo><mi>W</mi></math> nie występuje zero, a jego najmniejszą wartość otrzymamy, przyjmując pięć najmniejszych różnych cyfr niezerowych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>4</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>120</mn></math>.</p><p><em>Punktacja: 1 pkt za spostrzeżenie, że jedna z 10 liter jest zerem i nie może być w mianowniku; 1 pkt za uzasadnienie, że najmniejsza wartość iloczynu wynosi 120.</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2020_mazowieckie_q5",
+      "number": 5,
+      "page": 4,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "procenty"
+      ],
+      "prompt_html": "<p>W sklepie warzywniczym obniżano w kolejnych trzech dniach cenę niesprzedanych śliwek o 10%, 40% i o 50%. Czy cena w trzecim dniu była wyższa od 25% ceny początkowej? Odpowiedź uzasadnij.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Tak — cena w trzecim dniu stanowiła 27% ceny początkowej.",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza początkową cenę śliwek. Ceny w kolejnych dniach obniżek wynoszą:</p><p>po pierwszym dniu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,9</mn><mi>x</mi></math>,</p><p>po drugim dniu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,9</mn><mi>x</mi><mo>−</mo><mn>0,4</mn><mo>·</mo><mn>0,9</mn><mi>x</mi><mo>=</mo><mn>0,54</mn><mi>x</mi></math>,</p><p>po trzecim dniu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,5</mn><mo>·</mo><mn>0,54</mn><mi>x</mi><mo>=</mo><mn>0,27</mn><mi>x</mi></math>.</p><p>Cena w trzecim dniu stanowiła 27% ceny początkowej, a więc była wyższa niż 25% ceny początkowej. Odpowiedź: tak.</p><p><em>Punktacja: 1 pkt za zapisanie cen w kolejnych dniach obniżki; 1 pkt za podanie odpowiedzi wraz z uzasadnieniem.</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2020_mazowieckie_q6",
+      "number": 6,
+      "page": 5,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "wzory skróconego mnożenia",
+        "inne"
+      ],
+      "prompt_html": "<p>Oblicz wartość wyrażenia.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mo>(</mo><mn>2018</mn><mfrac><mn>17</mn><mn>39</mn></mfrac><mo>·</mo><mn>2021</mn><mfrac><mn>17</mn><mn>39</mn></mfrac><mo>−</mo><mn>2019</mn><mfrac><mn>17</mn><mn>39</mn></mfrac><mo>·</mo><mn>2020</mn><mfrac><mn>17</mn><mn>39</mn></mfrac><mo>)</mo></math></p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "2",
+        "solution_html": "<p>Przyjmijmy oznaczenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>2018</mn><mfrac><mn>17</mn><mn>39</mn></mfrac></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2021</mn><mfrac><mn>17</mn><mn>39</mn></mfrac><mo>=</mo><mi>a</mi><mo>+</mo><mn>3</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2019</mn><mfrac><mn>17</mn><mn>39</mn></mfrac><mo>=</mo><mi>a</mi><mo>+</mo><mn>1</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2020</mn><mfrac><mn>17</mn><mn>39</mn></mfrac><mo>=</mo><mi>a</mi><mo>+</mo><mn>2</mn></math>, więc dane wyrażenie ma postać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mo>[</mo><mi>a</mi><mo>(</mo><mi>a</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>−</mo><mo>(</mo><mi>a</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>(</mo><mi>a</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>]</mo></math>.</p><p>Po wykonaniu działań: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mo>[</mo><mi>a</mi><mo>(</mo><mi>a</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>−</mo><mo>(</mo><mi>a</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>(</mo><mi>a</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>]</mo><mo>=</mo><mo>−</mo><mo>(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>a</mi><mo>−</mo><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>a</mi><mo>−</mo><mi>a</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>=</mo><mo>−</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>2</mn></math>.</p><p><em>Punktacja: 1 pkt za zapisanie wyrażenia w innej postaci (z podstawieniem); 1 pkt za obliczenie jego wartości.</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2020_mazowieckie_q7",
+      "number": 7,
+      "page": 6,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "prędkość / droga / czas"
+      ],
+      "prompt_html": "<p>Ada postanowiła pojechać autobusem w odwiedziny do babci. Na przystanek autobusowy mama podwiozła ją samochodem, a z końcowego przystanku doszła pieszo do domu babci. Skorzystaj z wykresu i oblicz długość trasy pokonanej przez Adę z dokładnością do kilometra.</p>",
+      "choices": [],
+      "figures": [
+        "szkolny_2020_mazowieckie_q7_fig1.png"
+      ],
+      "answer": {
+        "correct": "około 79 km",
+        "solution_html": "<p>Jednostką na osi czasu jest 5 minut, a na osi prędkości 5 km/h.</p><p>Droga do przystanku (15 minut = 0,25 h z prędkością 50 km/h): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>1</mn></msub><mo>=</mo><mn>0,25</mn><mo>·</mo><mn>50</mn><mo>=</mo><mn>12,5</mn></math> km. Następnie 10 minut oczekiwania na autobus.</p><p>Droga autobusem (65 minut = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>13</mn><mn>12</mn></mfrac></math> h z prędkością 60 km/h): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>2</mn></msub><mo>=</mo><mfrac><mn>13</mn><mn>12</mn></mfrac><mo>·</mo><mn>60</mn><mo>=</mo><mn>65</mn></math> km.</p><p>Droga pieszo do domu babci (20 minut = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> h z prędkością 5 km/h): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>3</mn></msub><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mn>5</mn><mo>=</mo><mn>1,(6)</mn></math> km.</p><p>Łączna długość trasy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mn>12,5</mn><mo>+</mo><mn>65</mn><mo>+</mo><mn>1,(6)</mn><mo>≈</mo><mn>79</mn></math> km. Odpowiedź: Ada pokonała około 79 km.</p><p><em>Punktacja: 1 pkt za poprawną interpretację danych z wykresu; 1 pkt za obliczenie długości trasy i podanie odpowiedzi.</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2020_mazowieckie_q8",
+      "number": 8,
+      "page": 7,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "geometria",
+        "procenty"
+      ],
+      "prompt_html": "<p>Dany jest równoległobok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>. Na półprostej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math> zaznaczono punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math>, którego odległość od punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> jest o 20% większa niż odległość punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> od punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>. Ile razy pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KDC</mi></math> jest mniejsze od pola równoległoboku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>? Odpowiedź uzasadnij.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "10 razy",
+        "solution_html": "<p>Poprowadźmy wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math> trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCD</mi></math> z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> na prostą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math>; jest ona jednocześnie wysokością trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KDC</mi></math>.</p><p>Mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>KDC</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mo>|</mo><mi>KD</mi><mo>|</mo><mo>·</mo><mi>h</mi></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>KB</mi><mo>|</mo><mo>=</mo><mn>1,2</mn><mo>·</mo><mo>|</mo><mi>DB</mi><mo>|</mo></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>KD</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>KB</mi><mo>|</mo><mo>−</mo><mo>|</mo><mi>DB</mi><mo>|</mo><mo>=</mo><mn>0,2</mn><mo>·</mo><mo>|</mo><mi>BD</mi><mo>|</mo></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>KDC</mi></msub><mo>=</mo><mn>0,2</mn><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mo>|</mo><mi>BD</mi><mo>|</mo><mo>·</mo><mi>h</mi><mo>=</mo><mn>0,2</mn><mo>·</mo><msub><mi>P</mi><mi>BCD</mi></msub></math>.</p><p>Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCD</mi></math> jest połową pola równoległoboku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>KDC</mi></msub><mo>=</mo><mn>0,2</mn><mo>·</mo><mn>0,5</mn><mo>·</mo><msub><mi>P</mi><mi>ABCD</mi></msub><mo>=</mo><mn>0,1</mn><mo>·</mo><msub><mi>P</mi><mi>ABCD</mi></msub></math>. Odpowiedź: pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KDC</mi></math> jest 10 razy mniejsze od pola równoległoboku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>.</p><p><em>Punktacja: 1 pkt za rysunek i zauważenie wspólnej wysokości trójkątów; 1 pkt za uzasadnienie zależności między polami trójkątów KDC i BCD; 1 pkt za podanie i uzasadnienie odpowiedzi.</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2020_mazowieckie_q9",
+      "number": 9,
+      "page": 8,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "równania z jedną zmienną",
+        "zagadki logiczne"
+      ],
+      "prompt_html": "<p>W szkolnym plebiscycie „Osobowość roku szkolnego 2019/2020” nominowanymi byli: Adam, Bartek, Celina, Darek i Ewelina. Wszystkich głosujących było pięć razy więcej niż głosujących na dziewczęta. Na Adama i Bartka zagłosowały w sumie 84 osoby, na Bartka i Celinę – 78 osób, na Celinę i Darka – 150 osób, a na Darka i Ewelinę – 144 osoby. Kto wygrał w tym plebiscycie i ile procent głosów zdobył? Odpowiedź uzasadnij.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Zadanie nie ma rozwiązania — opisana sytuacja jest niemożliwa.",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę głosów oddanych na Adama. Wtedy kolejno: na Bartka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>84</mn><mo>−</mo><mi>x</mi></math>, na Celinę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>78</mn><mo>−</mo><mo>(</mo><mn>84</mn><mo>−</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>x</mi><mo>−</mo><mn>6</mn></math>, na Darka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>150</mn><mo>−</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>6</mn><mo>)</mo><mo>=</mo><mn>156</mn><mo>−</mo><mi>x</mi></math>, na Ewelinę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>144</mn><mo>−</mo><mo>(</mo><mn>156</mn><mo>−</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>x</mi><mo>−</mo><mn>12</mn></math>.</p><p>Na dziewczęta (Celinę i Ewelinę) głosowało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>x</mi><mo>−</mo><mn>6</mn><mo>)</mo><mo>+</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>12</mn><mo>)</mo><mo>=</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>18</mn></math> osób. Ponieważ wszystkich głosujących było pięć razy więcej niż głosujących na dziewczęta, otrzymujemy równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mo>(</mo><mn>84</mn><mo>−</mo><mi>x</mi><mo>)</mo><mo>+</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>6</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>156</mn><mo>−</mo><mi>x</mi><mo>)</mo><mo>+</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>12</mn><mo>)</mo><mo>=</mo><mn>5</mn><mo>·</mo><mo>(</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>18</mn><mo>)</mo></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>222</mn><mo>=</mo><mn>10</mn><mi>x</mi><mo>−</mo><mn>90</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mi>x</mi><mo>=</mo><mn>312</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>34,(6)</mn></math>.</p><p>Otrzymany wynik nie jest liczbą naturalną, więc opisana sytuacja jest niemożliwa — zadanie nie ma rozwiązania.</p><p><em>Punktacja: 1 pkt za analizę zadania (zapisanie liczby głosów na poszczególne osoby); 1 pkt za ułożenie i rozwiązanie równania; 1 pkt za podanie i uzasadnienie odpowiedzi.</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2020_mazowieckie_q10",
+      "number": 10,
+      "page": 9,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "bryły"
+      ],
+      "prompt_html": "<p>W drewnianym klocku Robert wydrążył na wylot trzy centralnie położone i wzajemnie prostopadłe tunele o jednakowym przekroju, jak na rysunku. Oblicz pole powierzchni całkowitej otrzymanego klocka.</p>",
+      "choices": [],
+      "figures": [
+        "szkolny_2020_mazowieckie_q10_fig1.png"
+      ],
+      "answer": {
+        "correct": "352",
+        "solution_html": "<p>Klocek jest prostopadłościanem o wymiarach 5 × 7 × 9. Pole jego powierzchni przed wydrążeniem tuneli: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>2</mn><mo>·</mo><mo>(</mo><mn>45</mn><mo>+</mo><mn>35</mn><mo>+</mo><mn>63</mn><mo>)</mo><mo>=</mo><mn>286</mn></math>.</p><p>Wydrążenie trzech tuneli o przekroju 1 × 1 usuwa z powierzchni zewnętrznej 6 kwadratów jednostkowych (po jednym na każdej ścianie), a dodaje pole powierzchni wewnętrznej. Częścią wspólną trzech tuneli jest sześcian o krawędzi 1, którego ściany nie należą do powierzchni wewnętrznej. Powierzchnię wewnętrzną tworzą: dwa tunele o długości 4, dwa o długości 3 i dwa o długości 2: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>1</mn></msub><mo>=</mo><mn>2</mn><mo>·</mo><mn>4</mn><mo>·</mo><mn>4</mn><mo>+</mo><mn>2</mn><mo>·</mo><mn>4</mn><mo>·</mo><mn>3</mn><mo>+</mo><mn>2</mn><mo>·</mo><mn>4</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>32</mn><mo>+</mo><mn>24</mn><mo>+</mo><mn>16</mn><mo>=</mo><mn>72</mn></math>.</p><p>Pole powierzchni całkowitej otrzymanego klocka: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>2</mn></msub><mo>=</mo><mn>286</mn><mo>−</mo><mn>6</mn><mo>+</mo><mn>72</mn><mo>=</mo><mn>352</mn></math>.</p><p><em>Punktacja: 1 pkt za obliczenie pola powierzchni klocka przed wydrążeniem; 1 pkt za obliczenie pola powierzchni wewnętrznej; 1 pkt za obliczenie pola powierzchni całkowitej i podanie odpowiedzi.</em></p>"
+      }
+    }
+  ]
+}

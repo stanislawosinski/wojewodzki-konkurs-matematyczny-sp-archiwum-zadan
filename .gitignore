@@ -1,0 +1,13 @@
+# Generated question browser — rebuild with:
+#   cd browser && python3 build.py data/*.json -o wszystkie-zadania.html
+browser/*.html
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Scratch
+nwd.txt

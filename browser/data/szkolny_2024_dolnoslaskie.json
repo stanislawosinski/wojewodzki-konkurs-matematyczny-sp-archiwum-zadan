@@ -1,0 +1,336 @@
+{
+  "source_file": "szkolny/2024_dolnoslaskie.pdf",
+  "answers_file": "szkolny/2024_dolnoslaskie_answers.pdf",
+  "competition": "Dolnośląski Konkurs Matematyczny zDolny Ślązak dla uczniów szkół podstawowych",
+  "school_type": "podstawowa",
+  "stage": "szkolny",
+  "wojewodztwo": "dolnoslaskie",
+  "school_year": "2023/2024",
+  "date": "2023-10-23",
+  "total_questions": 16,
+  "max_points": 25,
+  "questions": [
+    {
+      "id": "szkolny_2024_dolnoslaskie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><mn>88</mn><mo>+</mo><mn>11</mn><mo>)</mo><mo>·</mo><mo>(</mo><mn>777</mn><mo>+</mo><mn>222</mn><mo>)</mo><mo>·</mo><mo>(</mo><mn>6666</mn><mo>+</mo><mn>3333</mn><mo>)</mo><mo>·</mo><mo>(</mo><mn>55555</mn><mo>+</mo><mn>44444</mn><mo>)</mo></mrow><mrow><mo>(</mo><mn>99</mn><mo>−</mo><mn>66</mn><mo>)</mo><mo>·</mo><mo>(</mo><mn>888</mn><mo>−</mo><mn>555</mn><mo>)</mo><mo>·</mo><mo>(</mo><mn>7777</mn><mo>−</mo><mn>4444</mn><mo>)</mo><mo>·</mo><mo>(</mo><mn>66666</mn><mo>−</mo><mn>33333</mn><mo>)</mo></mrow></mfrac></math> jest równa</p>",
+      "choices": [
+        { "label": "A", "html": "9" },
+        { "label": "B", "html": "11" },
+        { "label": "C", "html": "81" },
+        { "label": "D", "html": "111" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2024_dolnoslaskie_q2",
+      "number": 2,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "kombinatoryka",
+        "szacowanie (zamiast obliczania)"
+      ],
+      "prompt_html": "<p>Ile najmniej liczb dwucyfrowych, z których każda jest inna, można wybrać tak, aby ich suma była równa 888?</p>",
+      "choices": [
+        { "label": "A", "html": "10" },
+        { "label": "B", "html": "11" },
+        { "label": "C", "html": "12" },
+        { "label": "D", "html": "13" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2024_dolnoslaskie_q3",
+      "number": 3,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Suma liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> zaznaczonych na osiach liczbowych jest równa</p>",
+      "choices": [
+        { "label": "A", "html": "−1" },
+        { "label": "B", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math>" },
+        { "label": "C", "html": "0" },
+        { "label": "D", "html": "1" }
+      ],
+      "figures": [
+        "szkolny_2024_dolnoslaskie_q3_fig1.png"
+      ],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2024_dolnoslaskie_q4",
+      "number": 4,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Dla każdej liczby rzeczywistej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>≠</mo><mn>0</mn></mrow></math> wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mfrac><mi>a</mi><mrow><mi>a</mi><mo>+</mo><mi>a</mi></mrow></mfrac><mrow><mi>a</mi><mo>+</mo><mi>a</mi><mo>+</mo><mi>a</mi></mrow></mfrac><mo>·</mo><mfrac><mi>a</mi><mfrac><mrow><mi>a</mi><mo>+</mo><mi>a</mi></mrow><mrow><mi>a</mi><mo>+</mo><mi>a</mi><mo>+</mo><mi>a</mi></mrow></mfrac></mfrac></mrow></math> jest taka sama. Ta wartość jest równa</p>",
+      "choices": [
+        { "label": "A", "html": "3" },
+        { "label": "B", "html": "4" },
+        { "label": "C", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math>" },
+        { "label": "D", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math>" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2024_dolnoslaskie_q5",
+      "number": 5,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Z czterech jednakowych kwadratów – każdy o obwodzie 44 cm i z pięciu jednakowych kwadratów – każdy o obwodzie 12 cm zbudowano figurę taką, jak na rysunku. Żaden z kwadratów nie zachodzi na inny. Obwód tej figury jest równy</p>",
+      "choices": [
+        { "label": "A", "html": "308 cm" },
+        { "label": "B", "html": "236 cm" },
+        { "label": "C", "html": "112 cm" },
+        { "label": "D", "html": "100 cm" }
+      ],
+      "figures": [
+        "szkolny_2024_dolnoslaskie_q5_fig1.png"
+      ],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2024_dolnoslaskie_q6",
+      "number": 6,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "trójkąty"
+      ],
+      "prompt_html": "<p>W trójkącie prostokątnym o obwodzie 24 cm długość najkrótszego boku stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> obwodu i jest o 4 cm mniejsza od jednego z pozostałych boków. Pole tego trójkąta jest równe</p>",
+      "choices": [
+        { "label": "A", "html": "48 cm²" },
+        { "label": "B", "html": "30 cm²" },
+        { "label": "C", "html": "24 cm²" },
+        { "label": "D", "html": "20 cm²" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2024_dolnoslaskie_q7",
+      "number": 7,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "bryły"
+      ],
+      "prompt_html": "<p>Pudełko w kształcie prostopadłościanu można całkowicie wypełnić dwudziestoma białymi kostkami sześciennymi o krawędzi długości 6 cm. Pudełko to można również całkowicie wypełnić niebieskimi kostkami sześciennymi o krawędzi długości 3 cm, albo czerwonymi o krawędzi długości 2 cm. O ile więcej kostek czerwonych niż niebieskich należy użyć, aby całkowicie wypełnić to pudełko?</p>",
+      "choices": [
+        { "label": "A", "html": "380" },
+        { "label": "B", "html": "300" },
+        { "label": "C", "html": "240" },
+        { "label": "D", "html": "120" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2024_dolnoslaskie_q8",
+      "number": 8,
+      "page": 3,
+      "type": "open",
+      "points": 1,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Na tablicy napisanych jest 6 ułamków (przedstawiono je na rysunku). Wojtek jedną z tych liczb pominął, pozostałych pięć pomnożył i otrzymał wynik równy 1.</p><p>Ułamek, który Wojtek pominął, to _____ .</p>",
+      "choices": [],
+      "figures": [
+        "szkolny_2024_dolnoslaskie_q8_fig1.png"
+      ],
+      "answer": {
+        "correct": "2/3",
+        "solution_html": "<p>Iloczyn wszystkich sześciu ułamków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>10</mn><mn>27</mn></mfrac><mo>·</mo><mfrac><mn>6</mn><mn>5</mn></mfrac><mo>·</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>·</mo><mfrac><mn>15</mn><mn>2</mn></mfrac><mo>·</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>·</mo><mfrac><mn>2</mn><mn>5</mn></mfrac></mrow></math> jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math>. Iloczyn pięciu z nich jest równy 1, więc pominięty ułamek równa się iloczynowi wszystkich sześciu, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math>.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2024_dolnoslaskie_q9",
+      "number": 9,
+      "page": 3,
+      "type": "open",
+      "points": 1,
+      "topics": [
+        "proporcjonalność prosta"
+      ],
+      "prompt_html": "<p>Dodatnie liczby naturalne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> spełniają warunek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>3</mn><mi>k</mi></mfrac><mo>=</mo><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>=</mo><mfrac><mi>m</mi><mn>75</mn></mfrac></mrow></math>.</p><p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>k</mi><mi>m</mi></mrow><mrow><mi>k</mi><mo>+</mo><mi>m</mi></mrow></mfrac></math> jest równa _____ .</p><p><em>Zadanie anulowano — nie istnieje liczba naturalna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> spełniająca pierwszą równość.</em></p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": null,
+        "solution_html": "<p>Zadanie anulowano. Z równości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>3</mn><mi>k</mi></mfrac><mo>=</mo><mfrac><mn>2</mn><mn>5</mn></mfrac></mrow></math> wynikałoby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>k</mi><mo>=</mo><mfrac><mn>15</mn><mn>2</mn></mfrac></mrow></math>, co nie jest liczbą naturalną, więc żadna liczba naturalna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> nie spełnia warunku zadania.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2024_dolnoslaskie_q10",
+      "number": 10,
+      "page": 3,
+      "type": "open",
+      "points": 1,
+      "topics": [
+        "trójkąty",
+        "geometria"
+      ],
+      "prompt_html": "<p>Kąty oznaczone na rysunku literą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> mają miarę 33°. Kąt oznaczony literą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> ma miarę _____ .</p>",
+      "choices": [],
+      "figures": [
+        "szkolny_2024_dolnoslaskie_q10_fig1.png"
+      ],
+      "answer": {
+        "correct": "48°",
+        "solution_html": "<p>Suma miar kątów przy pięciu wierzchołkach ramion gwiazdy pięcioramiennej jest równa 180°. Cztery z nich mają miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> = 33°, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><mn>33</mn><mo>°</mo><mo>+</mo><mi>β</mi><mo>=</mo><mn>180</mn><mo>°</mo></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>β</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>132</mn><mo>°</mo><mo>=</mo><mn>48</mn><mo>°</mo></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2024_dolnoslaskie_q11",
+      "number": 11,
+      "page": 3,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Taśmę papierową podzielono na 20 pól i wpisano w te pola kolejne liczby od 1 do 20. Taśmę tę rozcięto na trzy części wzdłuż przerywanych linii tak, że na jednej z nich znalazło się 8 liczb, których suma jest równa 100.</p><p>Sumy liczb na dwóch pozostałych częściach, to _____ i _____ .</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "36 i 74",
+        "solution_html": "<p>Suma wszystkich liczb od 1 do 20 wynosi 210. Osiem kolejnych liczb o sumie 100 to liczby od 9 do 16 (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mi>a</mi><mo>+</mo><mn>28</mn><mo>=</mo><mn>100</mn></mrow></math> daje pierwszą liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>9</mn></mrow></math>) — jest to część środkowa. Pozostają liczby od 1 do 8 o sumie 36 oraz od 17 do 20 o sumie 74.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2024_dolnoslaskie_q12",
+      "number": 12,
+      "page": 3,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Dwie grupy rowerzystów: A i B planowały przejazd tą samą trasą. Grupa A podzieliła tę trasę na trzy etapy, z których pierwszy miał 19 km, drugi był o 3 km krótszy od pierwszego, a trzeci był o 3 km krótszy od drugiego. Grupa B podzieliła tę samą trasę na dwa etapy, z których pierwszy był trzykrotnie dłuższy niż drugi.</p><p>Etapy wyznaczone na trasie przez grupę B mają długość _____ km i _____ km.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "36 km i 12 km",
+        "solution_html": "<p>Cała trasa ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>19</mn><mo>+</mo><mn>16</mn><mo>+</mo><mn>13</mn><mo>=</mo><mn>48</mn></mrow></math> km. Dla grupy B: drugi etap ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, a pierwszy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>x</mi></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>x</mi><mo>=</mo><mn>48</mn></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>12</mn></mrow></math>. Etapy grupy B mają długość 36 km i 12 km.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2024_dolnoslaskie_q13",
+      "number": 13,
+      "page": 4,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Jurek dostał od dziadka dwie listewki: czerwoną i zieloną. Czerwona była dwa razy dłuższa niż zielona. Z listewki czerwonej Jurek odciął kawałek o długości 15 cm i z listewki zielonej też odciął kawałek o długości 15 cm. Pozostała część czerwonej listewki jest 3 razy dłuższa od pozostałej części zielonej listewki.</p><p>Czerwona listewka, przed odcięciem kawałka, miała długość _____ cm, a zielona, przed odcięciem kawałka, miała długość _____ cm.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "czerwona 60 cm, zielona 30 cm",
+        "solution_html": "<p>Niech zielona listewka ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, wtedy czerwona ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi></mrow></math>. Po odcięciu 15 cm z każdej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi><mo>−</mo><mn>15</mn><mo>=</mo><mn>3</mn><mo>(</mo><mi>x</mi><mo>−</mo><mn>15</mn><mo>)</mo></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi><mo>−</mo><mn>15</mn><mo>=</mo><mn>3</mn><mi>x</mi><mo>−</mo><mn>45</mn></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>30</mn></mrow></math>. Zielona listewka miała 30 cm, a czerwona 60 cm.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2024_dolnoslaskie_q14",
+      "number": 14,
+      "page": 4,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "zagadki logiczne"
+      ],
+      "prompt_html": "<p>W pierwszym tygodniu ferii zimowych, od poniedziałku do soboty, Wojtek zapisywał na pojedynczych karteczkach temperaturę, jaką wskazywał w południe termometr umieszczony za oknem. Karteczki pomieszały mu się, a ponieważ nie były podpisane, więc ma problem z ustaleniem dni, w których były zapisane poszczególne temperatury. Pamięta jedynie, że</p><ul><li>w środę było cieplej niż w poniedziałek,</li><li>temperatura w piątek była o 6 stopni niższa od temperatury we wtorek,</li><li>temperatura w czwartek była o 4 stopnie wyższa niż w sobotę.</li></ul><p>Z tych informacji i zapisów na karteczkach (przedstawionych na rysunku) wynika, że Wojtek zanotował następujące temperatury:</p><ul><li>w poniedziałek _____ stopni,</li><li>w środę _____ stopni,</li><li>w piątek _____ stopni.</li></ul>",
+      "choices": [],
+      "figures": [
+        "szkolny_2024_dolnoslaskie_q14_fig1.png"
+      ],
+      "answer": {
+        "correct": "poniedziałek −4, środa 3, piątek −5",
+        "solution_html": "<p>Na karteczkach zapisano temperatury: −6, −5, −4, −2, 1 oraz 3. Różnicę 6 stopni (piątek o 6 niższy od wtorku) daje jedynie para wtorek 1 i piątek −5. Różnicę 4 stopni (czwartek o 4 wyższy od soboty) daje para czwartek −2 i sobota −6. Pozostają temperatury −4 i 3 na poniedziałek i środę; ponieważ w środę było cieplej niż w poniedziałek, w środę było 3 stopnie, a w poniedziałek −4 stopnie.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2024_dolnoslaskie_q15",
+      "number": 15,
+      "page": 4,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "trójkąty",
+        "układy równań"
+      ],
+      "prompt_html": "<p>Dane są trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>1</mn></msub></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>2</mn></msub></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>3</mn></msub></math> o następujących miarach kątów:</p><ul><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>1</mn></msub></math>: 5°, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math>,</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>2</mn></msub></math>: 10°, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi></math>,</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>3</mn></msub></math>: 25°, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi></math>.</li></ul><p>Miary kątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi></math> spełniają równość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>+</mo><mi>β</mi><mo>+</mo><mi>γ</mi><mo>=</mo><mn>250</mn><mo>°</mo></mrow></math>. Określ rodzaj każdego z tych trójkątów ze względu na kąty za pomocą określeń: ostrokątny, prostokątny, rozwartokątny (określenia te mogą się powtarzać).</p><p>Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>1</mn></msub></math> jest _____ .</p><p>Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>2</mn></msub></math> jest _____ .</p><p>Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>3</mn></msub></math> jest _____ .</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "T₁: rozwartokątny, T₂: rozwartokątny, T₃: ostrokątny",
+        "solution_html": "<p>Z sum kątów w trójkątach: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>+</mo><mi>β</mi><mo>=</mo><mn>175</mn><mo>°</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>β</mi><mo>+</mo><mi>γ</mi><mo>=</mo><mn>170</mn><mo>°</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>+</mo><mi>γ</mi><mo>=</mo><mn>155</mn><mo>°</mo></mrow></math>. Korzystając z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>+</mo><mi>β</mi><mo>+</mo><mi>γ</mi><mo>=</mo><mn>250</mn><mo>°</mo></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>γ</mi><mo>=</mo><mn>75</mn><mo>°</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>=</mo><mn>80</mn><mo>°</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>β</mi><mo>=</mo><mn>95</mn><mo>°</mo></mrow></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>1</mn></msub></math> ma kąty 5°, 80°, 95° (rozwartokątny), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>2</mn></msub></math> ma kąty 10°, 95°, 75° (rozwartokątny), a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>3</mn></msub></math> ma kąty 25°, 80°, 75° (ostrokątny).</p>"
+      }
+    },
+    {
+      "id": "szkolny_2024_dolnoslaskie_q16",
+      "number": 16,
+      "page": 4,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "bryły"
+      ],
+      "prompt_html": "<p>Na rysunku przedstawiono siatkę pewnego sześcianu. Suma długości pogrubionych odcinków jest o 26 cm większa od sumy długości wszystkich krawędzi tej bryły. A zatem</p><ul><li>suma długości wszystkich krawędzi tego sześcianu jest równa _____ cm,</li><li>pole powierzchni całkowitej tego sześcianu jest równe _____ cm²,</li><li>objętość tego sześcianu jest równa _____ cm³.</li></ul>",
+      "choices": [],
+      "figures": [
+        "szkolny_2024_dolnoslaskie_q16_fig1.png"
+      ],
+      "answer": {
+        "correct": "krawędzie: 156 cm, pole: 1014 cm², objętość: 2197 cm³",
+        "solution_html": "<p>Pogrubiony brzeg siatki złożonej z sześciu kwadratów o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>14</mn><mi>a</mi></mrow></math>, a suma wszystkich krawędzi sześcianu to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>12</mn><mi>a</mi></mrow></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>14</mn><mi>a</mi><mo>−</mo><mn>12</mn><mi>a</mi><mo>=</mo><mn>26</mn></mrow></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>a</mi><mo>=</mo><mn>26</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>13</mn></mrow></math> cm. Stąd suma krawędzi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>12</mn><mo>·</mo><mn>13</mn><mo>=</mo><mn>156</mn></mrow></math> cm, pole powierzchni <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>·</mo><msup><mn>13</mn><mn>2</mn></msup><mo>=</mo><mn>1014</mn></mrow></math> cm², objętość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>13</mn><mn>3</mn></msup><mo>=</mo><mn>2197</mn></mrow></math> cm³.</p>"
+      }
+    }
+  ]
+}

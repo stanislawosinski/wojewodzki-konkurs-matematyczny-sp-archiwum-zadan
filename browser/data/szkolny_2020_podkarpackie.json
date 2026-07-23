@@ -1,0 +1,551 @@
+{
+  "source_file": "szkolny/2020_podkarpackie.pdf",
+  "answers_file": "szkolny/2020_podkarpackie_answers.pdf",
+  "competition": "Konkurs z Matematyki dla uczniów szkół podstawowych (podkarpackie)",
+  "school_type": "podstawowa",
+  "stage": "szkolny",
+  "wojewodztwo": "podkarpackie",
+  "school_year": "2019/2020",
+  "date": null,
+  "total_questions": 17,
+  "max_points": 30,
+  "questions": [
+    {
+      "id": "szkolny_2020_podkarpackie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "zliczanie / metody zliczania",
+        "podzielność"
+      ],
+      "prompt_html": "<p>Ile jest wszystkich trzycyfrowych, nieparzystych liczb naturalnych, z których żadna <u>nie jest</u> podzielna przez 5? <strong>Wybierz właściwą odpowiedź spośród podanych.</strong></p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "360"
+        },
+        {
+          "label": "B",
+          "html": "400"
+        },
+        {
+          "label": "C",
+          "html": "500"
+        },
+        {
+          "label": "D",
+          "html": "720"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2020_podkarpackie_q2",
+      "number": 2,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "zliczanie / metody zliczania",
+        "kombinatoryka"
+      ],
+      "prompt_html": "<p>Liczba symetryczna, to taka liczba naturalna, której cyfry stojące na miejscach pierwszym i ostatnim, drugim i przedostatnim itd. są parami równe. Na przykład liczby 51715, 2442, 353 są symetryczne. Jeśli liczba cyfr jest nieparzysta, środkowa cyfra w takiej liczbie jest jedna i nie ma „swojej pary”.</p><p>Ile jest wszystkich liczb symetrycznych trzycyfrowych? <strong>Wybierz właściwą odpowiedź spośród podanych.</strong></p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "80"
+        },
+        {
+          "label": "B",
+          "html": "81"
+        },
+        {
+          "label": "C",
+          "html": "90"
+        },
+        {
+          "label": "D",
+          "html": "100"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2020_podkarpackie_q3",
+      "number": 3,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Dany jest ułamek zwykły, w którym licznik i mianownik są liczbami naturalnymi, przy czym licznik jest mniejszy od mianownika. Jaki ułamek otrzymamy dodając do licznika i do mianownika tego ułamka liczbę 4? <strong>Wybierz właściwą odpowiedź spośród podanych.</strong></p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "Równy danemu ułamkowi."
+        },
+        {
+          "label": "B",
+          "html": "Większy od danego ułamka."
+        },
+        {
+          "label": "C",
+          "html": "Mniejszy od danego ułamka."
+        },
+        {
+          "label": "D",
+          "html": "Większy od danego ułamka o 1."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2020_podkarpackie_q4",
+      "number": 4,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p><strong>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</strong></p><p>Wartość ułamka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2020</mn><mo>·</mo><mn>4039</mn><mo>−</mo><mn>2019</mn></mrow><mrow><mn>2019</mn><mo>·</mo><mn>4039</mn><mo>+</mo><mn>2020</mn></mrow></mfrac></math> jest równa</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "1"
+        },
+        {
+          "label": "B",
+          "html": "2"
+        },
+        {
+          "label": "C",
+          "html": "2019"
+        },
+        {
+          "label": "D",
+          "html": "2020"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2020_podkarpackie_q5",
+      "number": 5,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "podzielność",
+        "reszta z dzielenia"
+      ],
+      "prompt_html": "<p>Ile jest wszystkich liczb całkowitych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>, dla których wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>n</mi><mo>+</mo><mn>5</mn></mrow><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></mfrac></math> jest liczbą całkowitą? <strong>Wybierz właściwą odpowiedź spośród podanych.</strong></p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "2"
+        },
+        {
+          "label": "B",
+          "html": "3"
+        },
+        {
+          "label": "C",
+          "html": "4"
+        },
+        {
+          "label": "D",
+          "html": "6"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2020_podkarpackie_q6",
+      "number": 6,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p><strong>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</strong></p><p>Po wykonaniu działań w wyrażeniu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>3</mn><mo>·</mo><msup><mn>4</mn><mn>6</mn></msup><mo>·</mo><msup><mn>10</mn><mn>6</mn></msup><mo>·</mo><msup><mn>5</mn><mn>12</mn></msup><mo>)</mo></mrow><mn>3</mn></msup></math> otrzymamy liczbę</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "60 cyfrową"
+        },
+        {
+          "label": "B",
+          "html": "58 cyfrową"
+        },
+        {
+          "label": "C",
+          "html": "56 cyfrową"
+        },
+        {
+          "label": "D",
+          "html": "54 cyfrową"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2020_podkarpackie_q7",
+      "number": 7,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "prędkość / droga / czas"
+      ],
+      "prompt_html": "<p>Rodzeństwo Ania i Jacek uczęszczają do tej samej szkoły. Ania drogę z domu do szkoły pokonuje pieszo z prędkością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac></math>, a Jacek pokonuje tę samą drogę na rowerze z prędkością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac></math> w czasie o 10 minut krótszym niż Ania. W jakiej odległości od domu Ani i Jacka znajduje się szkoła? <strong>Wybierz właściwą odpowiedź spośród podanych.</strong></p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "6 km"
+        },
+        {
+          "label": "B",
+          "html": "3 km"
+        },
+        {
+          "label": "C",
+          "html": "2 km"
+        },
+        {
+          "label": "D",
+          "html": "1 km"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2020_podkarpackie_q8",
+      "number": 8,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "procenty"
+      ],
+      "prompt_html": "<p>Przy sprzedaży karmy dla psów sklep do ceny netto dolicza 8% podatku VAT. Wartość podatku VAT przy sprzedaży 300 opakowań karmy wyniosła 600 zł. Jaka jest cena netto jednego opakowania tej karmy? <strong>Wybierz właściwą odpowiedź spośród podanych.</strong></p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "25 zł"
+        },
+        {
+          "label": "B",
+          "html": "27 zł"
+        },
+        {
+          "label": "C",
+          "html": "28 zł"
+        },
+        {
+          "label": "D",
+          "html": "30 zł"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2020_podkarpackie_q9",
+      "number": 9,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "trójkąty"
+      ],
+      "prompt_html": "<p>W trójkącie prostokątnym równoramiennym przeciwprostokątna ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>a</mi></math>. Jaką długość ma wysokość tego trójkąta opuszczona na przeciwprostokątną? <strong>Wybierz właściwą odpowiedź spośród podanych.</strong></p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,5</mn><mi>a</mi></math>"
+        },
+        {
+          "label": "B",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>"
+        },
+        {
+          "label": "C",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,5</mn><mi>a</mi></math>"
+        },
+        {
+          "label": "D",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>a</mi></math>"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2020_podkarpackie_q10",
+      "number": 10,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Przekątne rombu tworzą przy jednym z boków tego rombu kąty, których miary różnią się o 12°. Jaką miarę ma kąt rozwarty tego rombu? <strong>Wybierz właściwą odpowiedź spośród podanych.</strong></p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "112°"
+        },
+        {
+          "label": "B",
+          "html": "108°"
+        },
+        {
+          "label": "C",
+          "html": "102°"
+        },
+        {
+          "label": "D",
+          "html": "78°"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2020_podkarpackie_q11",
+      "number": 11,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "bryły"
+      ],
+      "prompt_html": "<p>Sześcian pomalowano niebieską farbą, a następnie rozcięto go na 125 jednakowych sześcianików. Ile z tych sześcianików nie ma żadnej ściany niebieskiej? <strong>Wybierz właściwą odpowiedź spośród podanych.</strong></p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "16"
+        },
+        {
+          "label": "B",
+          "html": "25"
+        },
+        {
+          "label": "C",
+          "html": "27"
+        },
+        {
+          "label": "D",
+          "html": "64"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2020_podkarpackie_q12",
+      "number": 12,
+      "page": 6,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Na poniższym rysunku odcinki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> są równoległe.</p><p>Które z poniższych równań określa prawidłowy związek między kątami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi></math>? <strong>Wybierz właściwą odpowiedź spośród podanych.</strong></p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>α</mi><mo>+</mo><mn>2</mn><mi>β</mi><mo>=</mo><mi>γ</mi></math>"
+        },
+        {
+          "label": "B",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>+</mo><mi>β</mi><mo>=</mo><mi>γ</mi></math>"
+        },
+        {
+          "label": "C",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>α</mi><mo>+</mo><mi>β</mi><mo>=</mo><mi>γ</mi></math>"
+        },
+        {
+          "label": "D",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>α</mi><mo>−</mo><mi>β</mi><mo>=</mo><mi>γ</mi></math>"
+        }
+      ],
+      "figures": [
+        "szkolny_2020_podkarpackie_q12_fig1.png"
+      ],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2020_podkarpackie_q13",
+      "number": 13,
+      "page": 6,
+      "type": "true_false",
+      "points": 4,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Zapisy liczb w systemach innych niż dziesiątkowy opierają się na tych samych zasadach co w systemie dziesiątkowym ale w związku z tym, że zmieniają się podstawy systemu, zmieniają się też ilości używanych cyfr. W systemie dwójkowym używamy dwóch cyfr 0 i 1, w trójkowym trzech 0, 1 i 2 itd. W systemie dziesiątkowym używamy oczywiście dziesięciu cyfr: 0, 1, 2,…,8, 9.</p><p>Np. liczbę 234 w systemie dziesiątkowym przedstawiamy w postaci:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mn>234</mn><mn>10</mn></msub><mo>=</mo><mn>2</mn><mo>·</mo><msup><mn>10</mn><mn>2</mn></msup><mo>+</mo><mn>3</mn><mo>·</mo><msup><mn>10</mn><mn>1</mn></msup><mo>+</mo><mn>4</mn><mo>·</mo><msup><mn>10</mn><mn>0</mn></msup></math></p><p>Aby liczbę zapisaną w danym systemie zapisać w systemie dziesiątkowym postępujemy analogicznie, np.:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mn>1101</mn><mn>2</mn></msub><mo>=</mo><mn>1</mn><mo>·</mo><msup><mn>2</mn><mn>3</mn></msup><mo>+</mo><mn>1</mn><mo>·</mo><msup><mn>2</mn><mn>2</mn></msup><mo>+</mo><mn>0</mn><mo>·</mo><msup><mn>2</mn><mn>1</mn></msup><mo>+</mo><mn>1</mn><mo>·</mo><msup><mn>2</mn><mn>0</mn></msup><mo>=</mo><mn>8</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>1</mn><mo>=</mo><msub><mn>13</mn><mn>10</mn></msub></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mn>122</mn><mn>3</mn></msub><mo>=</mo><mn>1</mn><mo>·</mo><msup><mn>3</mn><mn>2</mn></msup><mo>+</mo><mn>2</mn><mo>·</mo><msup><mn>3</mn><mn>1</mn></msup><mo>+</mo><mn>2</mn><mo>·</mo><msup><mn>3</mn><mn>0</mn></msup><mo>=</mo><mn>9</mn><mo>+</mo><mn>6</mn><mo>+</mo><mn>2</mn><mo>=</mo><msub><mn>17</mn><mn>10</mn></msub></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mn>234</mn><mn>7</mn></msub><mo>=</mo><mn>2</mn><mo>·</mo><msup><mn>7</mn><mn>2</mn></msup><mo>+</mo><mn>3</mn><mo>·</mo><msup><mn>7</mn><mn>1</mn></msup><mo>+</mo><mn>4</mn><mo>·</mo><msup><mn>7</mn><mn>0</mn></msup><mo>=</mo><mn>98</mn><mo>+</mo><mn>21</mn><mo>+</mo><mn>4</mn><mo>=</mo><msub><mn>123</mn><mn>10</mn></msub></math></p><p><strong>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</strong></p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Liczba 20 jest zapisana w systemie dziesiątkowym, zapis tej liczby w systemie trójkowym to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mn>202</mn><mn>3</mn></msub></math>."
+        },
+        {
+          "label": "2",
+          "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mn>1010</mn><mn>2</mn></msub></math> jest zapisana w systemie dwójkowym, jej zapis w systemie dziesiątkowym to 10."
+        },
+        {
+          "label": "3",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mn>221</mn><mn>5</mn></msub><mo>=</mo><msub><mn>111111</mn><mn>2</mn></msub></math>"
+        },
+        {
+          "label": "4",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mn>2220</mn><mn>3</mn></msub><mo>=</mo><msub><mn>1000010</mn><mn>2</mn></msub></math>"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PPFF",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2020_podkarpackie_q14",
+      "number": 14,
+      "page": 8,
+      "type": "true_false",
+      "points": 4,
+      "topics": [
+        "podzielność"
+      ],
+      "prompt_html": "<p><strong>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</strong></p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Jeżeli suma dwóch liczb naturalnych jest liczbą nieparzystą, to ich różnica jest także liczbą nieparzystą."
+        },
+        {
+          "label": "2",
+          "html": "Jeżeli suma dwóch liczb naturalnych jest liczbą nieparzystą, to ich iloczyn jest także liczbą nieparzystą."
+        },
+        {
+          "label": "3",
+          "html": "Suma trzech kolejnych liczb naturalnych jest podzielna przez 3."
+        },
+        {
+          "label": "4",
+          "html": "Kwadrat liczby parzystej jest liczbą podzielną przez 4."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PFPP",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2020_podkarpackie_q15",
+      "number": 15,
+      "page": 8,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "sześciokąty foremne",
+        "geometria"
+      ],
+      "prompt_html": "<p>Sześciokąt foremny o boku długości 6 cm został podzielony na osiem przystających trapezów równoramiennych w sposób pokazany na rysunku.</p><p><strong>Uzupełnij luki tak, by zdania dotyczące każdego z ośmiu przystających trapezów były prawdziwe.</strong></p><p>15.1. Kąt rozwarty trapezu ma miarę ……… .</p><p>15.2. Ramię trapezu ma długość ……… cm.</p><p>15.3. Obwód trapezu jest równy ……… cm.</p><p>15.4. Pole trapezu jest równe ……… cm².</p>",
+      "choices": [],
+      "figures": [
+        "szkolny_2020_podkarpackie_q15_fig1.png"
+      ],
+      "answer": {
+        "correct": "15.1: 120°; 15.2: 3 cm; 15.3: 15 cm; 15.4: 6,75√3 cm²",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2020_podkarpackie_q16",
+      "number": 16,
+      "page": 10,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>1</mn><mo>,</mo><mn>6</mn><mo>)</mo></math> jest środkiem odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math>, punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> jest środkiem odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math>. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> leży na osi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>OY</mi></math>, a punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> leży na osi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>OX</mi></math>.</p><p><strong>Uzupełnij luki</strong></p><p>16.1. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> ma współrzędne ……… .</p><p>16.2. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> ma współrzędne ……… .</p><p>16.3. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> ma współrzędne ……… .</p><p>16.4. Długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> jest równa ……… .</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "16.1: A = (0, 9); 16.2: C = (−2, 3); 16.3: D = (−3, 0); 16.4: 3√10",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2020_podkarpackie_q17",
+      "number": 17,
+      "page": 10,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "trójkąty"
+      ],
+      "prompt_html": "<p>W trójkącie równobocznym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> poprowadzono wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math> i na półprostej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math> wybrano punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> taki, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>BK</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>AC</mi><mo>|</mo></math>. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> połączono z punktami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>.</p><p><strong>Uzupełnij luki</strong></p><p>17.1. Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABK</mi></math> jest ……… . <strong>Wybierz odpowiedź spośród A/B/C.</strong> A. równoramienny; B. równoboczny; C. prostokątny.</p><p>17.2. Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AKC</mi></math> jest równa ……… .</p>",
+      "choices": [],
+      "figures": [
+        "szkolny_2020_podkarpackie_q17_fig1.png"
+      ],
+      "answer": {
+        "correct": "17.1: A — równoramienny; 17.2: 150°",
+        "solution_html": null
+      }
+    }
+  ]
+}

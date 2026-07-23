@@ -1,0 +1,549 @@
+{
+  "source_file": "szkolny/2023_podlaskie.pdf",
+  "answers_file": "szkolny/2023_podlaskie_answers.pdf",
+  "competition": "Wojewódzki Konkurs Matematyczny dla uczniów szkół podstawowych (podlaskie)",
+  "school_type": "podstawowa",
+  "stage": "szkolny",
+  "wojewodztwo": "podlaskie",
+  "school_year": "2023/2024",
+  "date": null,
+  "total_questions": 22,
+  "max_points": 40,
+  "questions": [
+    {
+      "id": "szkolny_2023_podlaskie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Jaka jest największa możliwa suma cyfr liczby czterocyfrowej?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "1"
+        },
+        {
+          "label": "B",
+          "html": "36"
+        },
+        {
+          "label": "C",
+          "html": "6789"
+        },
+        {
+          "label": "D",
+          "html": "9999"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2023_podlaskie_q2",
+      "number": 2,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "zagadki logiczne"
+      ],
+      "prompt_html": "<p>Uzupełniamy tabelę wpisując w każde jej pole liczbę 0 albo 1 w taki sposób, aby suma liczb w każdym wierszu i w każdej kolumnie była równa 2. Jakie są wartości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>0</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>0</mn></math>"
+        },
+        {
+          "label": "B",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>0</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>1</mn></math>"
+        },
+        {
+          "label": "C",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>1</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>0</mn></math>"
+        },
+        {
+          "label": "D",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>1</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>1</mn></math>"
+        }
+      ],
+      "figures": [
+        "szkolny_2023_podlaskie_q2_fig1.png"
+      ],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2023_podlaskie_q3",
+      "number": 3,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "nierówności",
+        "zliczanie / metody zliczania"
+      ],
+      "prompt_html": "<p>Ile różnych liczb całkowitych można wstawić w miejsce <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, aby nierówność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>x</mi><mo>|</mo><mo>&lt;</mo><mn>5</mn></mrow></math> była prawdziwa?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "4"
+        },
+        {
+          "label": "B",
+          "html": "5"
+        },
+        {
+          "label": "C",
+          "html": "8"
+        },
+        {
+          "label": "D",
+          "html": "9"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2023_podlaskie_q4",
+      "number": 4,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>W pewnej grze komputerowej Wojtek zdobył najpierw 20 punktów, potem kilka razy stracił po 1 punkcie, a następnie odrobił połowę strat i skończył grę z rezultatem 17 punktów. Ile razy poniósł stratę?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "5"
+        },
+        {
+          "label": "B",
+          "html": "6"
+        },
+        {
+          "label": "C",
+          "html": "7"
+        },
+        {
+          "label": "D",
+          "html": "8"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2023_podlaskie_q5",
+      "number": 5,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Narysowana figura ma</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "dokładnie jedną oś symetrii."
+        },
+        {
+          "label": "B",
+          "html": "dokładnie dwie osie symetrii."
+        },
+        {
+          "label": "C",
+          "html": "dokładnie cztery osie symetrii."
+        },
+        {
+          "label": "D",
+          "html": "nieskończenie wiele osi symetrii."
+        }
+      ],
+      "figures": [
+        "szkolny_2023_podlaskie_q5_fig1.png"
+      ],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2023_podlaskie_q6",
+      "number": 6,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "trójkąty",
+        "geometria"
+      ],
+      "prompt_html": "<p>Trapez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EFGH</mi></math> na rysunku obok jest równoramienny. Jaką miarę ma kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "40°"
+        },
+        {
+          "label": "B",
+          "html": "55°"
+        },
+        {
+          "label": "C",
+          "html": "110°"
+        },
+        {
+          "label": "D",
+          "html": "140°"
+        }
+      ],
+      "figures": [
+        "szkolny_2023_podlaskie_q6_fig1.png"
+      ],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2023_podlaskie_q7",
+      "number": 7,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "podzielność"
+      ],
+      "prompt_html": "<p>Czy prawdziwe jest stwierdzenie, że liczba 1725 jest podzielna przez 15?</p><p>Wybierz odpowiedź <strong>T</strong> (Tak) albo <strong>N</strong> (Nie) i jej uzasadnienie spośród <strong>A</strong>, <strong>B</strong> albo <strong>C</strong>. (Poprawna odpowiedź podana jest w formacie: litera T/N oraz litera uzasadnienia.)</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "jej ostatnią cyfrą jest 5."
+        },
+        {
+          "label": "B",
+          "html": "jest podzielna przez 3 i przez 5."
+        },
+        {
+          "label": "C",
+          "html": "suma jej cyfr jest podzielna przez 3."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "TB",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2023_podlaskie_q8",
+      "number": 8,
+      "page": 3,
+      "type": "open",
+      "points": 1,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Poniżej przedstawiono tabelę 3 × 3 wypełnioną liczbami. Odszukaj w niej i zaznacz kwadratową tabelkę o wymiarach 2 × 2 taką, aby suma liczb w niej występujących była największa.</p><table><tbody><tr><td>23</td><td>1</td><td>17</td></tr><tr><td>2</td><td>5</td><td>9</td></tr><tr><td>13</td><td>12</td><td>7</td></tr></tbody></table>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Kwadrat z liczbami 5, 9, 12, 7 (suma 33).",
+        "solution_html": "<p>Sumujemy liczby w każdej z czterech tabelek 2 × 2: lewa górna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>23</mn><mo>+</mo><mn>1</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>31</mn></mrow></math>, prawa górna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>+</mo><mn>17</mn><mo>+</mo><mn>5</mn><mo>+</mo><mn>9</mn><mo>=</mo><mn>32</mn></mrow></math>, lewa dolna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>+</mo><mn>5</mn><mo>+</mo><mn>13</mn><mo>+</mo><mn>12</mn><mo>=</mo><mn>32</mn></mrow></math>, prawa dolna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>+</mo><mn>9</mn><mo>+</mo><mn>12</mn><mo>+</mo><mn>7</mn><mo>=</mo><mn>33</mn></mrow></math>. Największą sumę (33) daje tabelka z liczbami 5, 9, 12, 7.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2023_podlaskie_q9",
+      "number": 9,
+      "page": 3,
+      "type": "open",
+      "points": 1,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>W pewnym mieście są ulice: Lecha, Czech, Rusa i Popiela. Ulica Rusa jest równoległa do ulicy Czecha. Ulica Czecha jest prostopadła do ulicy Popiela, a ulica Popiela jest prostopadła do ulicy Lecha. Jakie jest wzajemne położenie ulicy Rusa i ulicy Lecha?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Ulica Rusa i ulica Lecha są równoległe.",
+        "solution_html": "<p>Ulica Czecha jest prostopadła do ulicy Popiela, a ulica Popiela jest prostopadła do ulicy Lecha, więc ulica Czecha jest równoległa do ulicy Lecha. Ponieważ ulica Rusa jest równoległa do ulicy Czecha, to ulica Rusa jest również równoległa do ulicy Lecha.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2023_podlaskie_q10",
+      "number": 10,
+      "page": 4,
+      "type": "open",
+      "points": 1,
+      "topics": [
+        "podzielność"
+      ],
+      "prompt_html": "<p>Przedstaw liczbę 100 w postaci iloczynu trzech różnych liczb naturalnych większych od 1.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "100 = 2 · 5 · 10",
+        "solution_html": "<p>Rozkładamy liczbę 100 na iloczyn trzech różnych czynników naturalnych większych od 1, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mo>=</mo><mn>2</mn><mo>·</mo><mn>5</mn><mo>·</mo><mn>10</mn></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2023_podlaskie_q11",
+      "number": 11,
+      "page": 4,
+      "type": "open",
+      "points": 7,
+      "topics": [
+        "liczby rzymskie",
+        "prędkość / droga / czas",
+        "geometria",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Udziel odpowiedzi:</p><ol type=\"a\"><li>Która liczba jest większa: XL czy LX?</li><li>Podaj jeden przykład ułamka większego od 0,8, ale mniejszego od 0,9.</li><li>Ile razy liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>3</mn></msup></math> jest większa od liczby 10?</li><li>Sokół może osiągnąć prędkość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>120</mn><mfrac><mrow><mi>km</mi></mrow><mi>h</mi></mfrac></mrow></math>. Gdyby mógł lecieć stale z taką prędkością, to jaką odległość pokonałby w ciągu kwadransa?</li><li>Jeden z kątów przyległych ma miarę 50°. Jaką miarę ma drugi z nich?</li><li>Pewien odcinek ma długość 1000 mm. Ile to decymetrów?</li><li>Jak nazywa się romb, w którym wysokość jest równa długości boku?</li></ol>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "a) LX; b) np. 0,81; c) 100; d) 30 km; e) 130°; f) 10 dm; g) kwadrat",
+        "solution_html": "<p>a) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>XL</mtext><mo>=</mo><mn>40</mn></mrow></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>LX</mtext><mo>=</mo><mn>60</mn></mrow></math>, więc większa jest liczba LX.</p><p>b) Dowolny ułamek z przedziału <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>0,8</mn><mo>;</mo><mn>0,9</mn><mo>)</mo></mrow></math>, np. 0,81.</p><p>c) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>10</mn><mn>3</mn></msup><mo>=</mo><mn>1000</mn></mrow></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1000</mn><mo>:</mo><mn>10</mn><mo>=</mo><mn>100</mn></mrow></math>, czyli 100 razy.</p><p>d) Kwadrans to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> godziny, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>120</mn><mo>·</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>=</mo><mn>30</mn></mrow></math> km.</p><p>e) Kąty przyległe sumują się do 180°, więc drugi kąt ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>°</mo><mo>−</mo><mn>50</mn><mo>°</mo><mo>=</mo><mn>130</mn><mo>°</mo></mrow></math>.</p><p>f) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1000</mn><mtext> mm</mtext><mo>=</mo><mn>100</mn><mtext> cm</mtext><mo>=</mo><mn>10</mn><mtext> dm</mtext></mrow></math>.</p><p>g) Romb, w którym wysokość jest równa długości boku, to kwadrat.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2023_podlaskie_q12",
+      "number": 12,
+      "page": 4,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Zaznacz, które z poniższych zdań dotyczących rysunku są prawdziwe, a które fałszywe, wpisując przy każdym zdaniu znak „X” we właściwej kolumnie tabeli (Prawda/Fałsz).</p><p>Przyjrzyj się rysunkowi:</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Sytuację podaną na rysunku opisuje równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>x</mi><mo>−</mo><mn>1</mn><mo>=</mo><mn>17</mn></mrow></math>."
+        },
+        {
+          "label": "2",
+          "html": "Odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> pomniejszony o 1 ma długość 6."
+        }
+      ],
+      "figures": [
+        "szkolny_2023_podlaskie_q12_fig1.png"
+      ],
+      "answer": {
+        "correct": "PF",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2023_podlaskie_q13",
+      "number": 13,
+      "page": 5,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Jaką miarę ma kąt rozwarty, który tworzą wskazówki zegara o godz. 12:30? Przedstaw swoje rozwiązanie i zapisz odpowiedź.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "165°",
+        "solution_html": "<p>O godzinie 12:30 wskazówka minutowa wskazuje 6, czyli jest odchylona o 180° od położenia „12”. Wskazówka godzinowa przeszła połowę drogi między 12 a 1, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>30</mn><mo>°</mo><mo>=</mo><mn>15</mn><mo>°</mo></mrow></math> od położenia „12”. Kąt rozwarty między wskazówkami wynosi więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>°</mo><mo>−</mo><mn>15</mn><mo>°</mo><mo>=</mo><mn>165</mn><mo>°</mo></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2023_podlaskie_q14",
+      "number": 14,
+      "page": 5,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Babcia urodziła się 31 lipca 1932 roku, a dziadek 16 października 1929 roku. O ile dni dziadek jest starszy od babci? Przedstaw swoje rozwiązanie i zapisz odpowiedź.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "O 1019 dni",
+        "solution_html": "<p>Od 16 października 1929 r. do 16 października 1931 r. mija <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>365</mn><mo>+</mo><mn>365</mn><mo>=</mo><mn>730</mn></mrow></math> dni (żaden z tych lat nie jest w tym okresie przestępny). Od 16 października 1931 r. do 31 lipca 1932 r. (rok 1932 jest przestępny) mija 289 dni. Razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>730</mn><mo>+</mo><mn>289</mn><mo>=</mo><mn>1019</mn></mrow></math> dni. Dziadek jest starszy od babci o 1019 dni.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2023_podlaskie_q15",
+      "number": 15,
+      "page": 5,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "procenty",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>W sadzie rosną tylko wiśnie i czereśnie, razem 33 drzewa. Wiśni jest o 20% więcej niż czereśni. Ile wiśni rośnie w sadzie? Przedstaw swoje rozwiązanie i zapisz odpowiedź.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "18 wiśni",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> oznacza liczbę czereśni. Wiśni jest o 20% więcej, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,2</mn><mi>c</mi></mrow></math>. Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>+</mo><mn>1,2</mn><mi>c</mi><mo>=</mo><mn>33</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2,2</mn><mi>c</mi><mo>=</mo><mn>33</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><mn>15</mn></mrow></math>. Wiśni jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,2</mn><mo>·</mo><mn>15</mn><mo>=</mo><mn>18</mn></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2023_podlaskie_q16",
+      "number": 16,
+      "page": 6,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "trójkąty",
+        "geometria"
+      ],
+      "prompt_html": "<p>Oblicz miarę kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math>. Przedstaw swoje rozwiązanie i zapisz odpowiedź.</p>",
+      "choices": [],
+      "figures": [
+        "szkolny_2023_podlaskie_q16_fig1.png"
+      ],
+      "answer": {
+        "correct": "36°",
+        "solution_html": "<p>W dużym trójkącie suma miar kątów wynosi 180°, więc miara kąta przy wierzchołku, przy którym zaznaczono 25°, jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>°</mo><mo>−</mo><mn>38</mn><mo>°</mo><mo>−</mo><mn>81</mn><mo>°</mo><mo>=</mo><mn>61</mn><mo>°</mo></mrow></math>. Odcinek dzieli ten kąt na część o mierze 25° oraz kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math>, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>β</mi><mo>=</mo><mn>61</mn><mo>°</mo><mo>−</mo><mn>25</mn><mo>°</mo><mo>=</mo><mn>36</mn><mo>°</mo></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2023_podlaskie_q17",
+      "number": 17,
+      "page": 6,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "układy równań"
+      ],
+      "prompt_html": "<p>Na podwórku są owce i kury. Razem jest ich 20 i mają 54 nogi. Ile jest owiec, a ile kur? Przedstaw swoje rozwiązanie i zapisz odpowiedź.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "13 kur i 7 owiec",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>o</mi></math> oznacza liczbę owiec, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> liczbę kur. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>o</mi><mo>+</mo><mi>k</mi><mo>=</mo><mn>20</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>o</mi><mo>+</mo><mn>2</mn><mi>k</mi><mo>=</mo><mn>54</mn></mrow></math>. Z drugiego równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>o</mi><mo>+</mo><mi>k</mi><mo>=</mo><mn>27</mn></mrow></math>, więc po odjęciu pierwszego równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>o</mi><mo>=</mo><mn>7</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>k</mi><mo>=</mo><mn>13</mn></mrow></math>. Jest 13 kur i 7 owiec.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2023_podlaskie_q18",
+      "number": 18,
+      "page": 6,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "zagadki logiczne"
+      ],
+      "prompt_html": "<p>Gospodarz ciął drewno na opał. Wykonując cięcia, jeden kawałek drewna rozcinał jednym cięciem na dwie części. Po ułożeniu drewna zauważył, że po wykonaniu 10 cięć ma 16 kawałków drewna. Ile kawałków drewna było na początku? Przedstaw swoje rozwiązanie i zapisz odpowiedź.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "6 kawałków",
+        "solution_html": "<p>Każde cięcie zwiększa liczbę kawałków o 1. Po 10 cięciach liczba kawałków wzrosła o 10, więc na początku było <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>16</mn><mo>−</mo><mn>10</mn><mo>=</mo><mn>6</mn></mrow></math> kawałków.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2023_podlaskie_q19",
+      "number": 19,
+      "page": 7,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Zbiornik na paliwo ma pojemność 36 litrów. W samochodzie, który podjechał do stacji paliw, zbiornik ten był wypełniony do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> swojej pojemności. Ile zapłaci kierowca za dopełnienie zbiornika, jeżeli 1 litr benzyny kosztuje 6,50 zł? Przedstaw swoje rozwiązanie i zapisz odpowiedź.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "156 zł",
+        "solution_html": "<p>Zbiornik był wypełniony do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math>, czyli zawierał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>36</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>12</mn></mrow></math> litrów. Do dopełnienia potrzeba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>36</mn><mo>−</mo><mn>12</mn><mo>=</mo><mn>24</mn></mrow></math> litrów. Kierowca zapłaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>24</mn><mo>·</mo><mn>6,50</mn><mtext> zł</mtext><mo>=</mo><mn>156</mn><mtext> zł</mtext></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2023_podlaskie_q20",
+      "number": 20,
+      "page": 7,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "NWW / NWD"
+      ],
+      "prompt_html": "<p>Kasia i Piotr umówili się, że będą systematycznie odwiedzać babcię. Kasia stwierdziła, że odwiedzi babcię co 5 dni, a Piotr zobowiązał się, że odwiedzi babcię co 4 dni. Co ile dni Kasia i Piotr odwiedzą babcię tego samego dnia, jeśli dotrzymają zobowiązań? Przedstaw swoje rozwiązanie i zapisz odpowiedź.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "20 dni",
+        "solution_html": "<p>Wspólne odwiedziny nastąpią co tyle dni, ile wynosi najmniejsza wspólna wielokrotność liczb 4 i 5. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>NWW</mtext><mo>(</mo><mn>4</mn><mo>,</mo><mn>5</mn><mo>)</mo><mo>=</mo><mn>20</mn></mrow></math>, Kasia i Piotr odwiedzą babcię tego samego dnia co 20 dni.</p>"
+      }
+    },
+    {
+      "id": "szkolny_2023_podlaskie_q21",
+      "number": 21,
+      "page": 8,
+      "type": "closed_single",
+      "points": 2,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Kinga narysowała projekt ogródka, gdzie bok jednej kratki oznacza jeden metr. Ile wynosi powierzchnia tego ogródka (patrz rysunek)?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "64 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>m</mi><mn>2</mn></msup></math>"
+        },
+        {
+          "label": "B",
+          "html": "24 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>m</mi><mn>2</mn></msup></math>"
+        },
+        {
+          "label": "C",
+          "html": "36 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>m</mi><mn>2</mn></msup></math>"
+        },
+        {
+          "label": "D",
+          "html": "48 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>m</mi><mn>2</mn></msup></math>"
+        }
+      ],
+      "figures": [
+        "szkolny_2023_podlaskie_q21_fig1.png"
+      ],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2023_podlaskie_q22",
+      "number": 22,
+      "page": 8,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "bryły",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Wojtek przygotowując prezent dla Asi, włożył go do małego pudełka. To pudełko włożył do większego, a to do jeszcze większego, przy czym każde następne pudełko całkowicie mieściło się w poprzednim. Ustal w jakiej kolejności brał pudełka, jeśli wiadomo, że:</p><ul><li>pudełko żółte jest prostopadłościanem o wymiarach 4 cm × 5 cm × 6 cm,</li><li>pudełko zielone jest sześcianem o objętości 27 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>cm</mi><mn>3</mn></msup></math>,</li><li>pudełko różowe jest sześcianem o sumie długości wszystkich krawędzi równej 84 cm.</li></ul><p>Przedstaw swoje rozwiązanie i zapisz odpowiedź.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Od środka: zielone, następnie żółte, a na wierzchu różowe.",
+        "solution_html": "<p>Krawędź pudełka zielonego (sześcianu o objętości 27 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>cm</mi><mn>3</mn></msup></math>) wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mroot><mn>27</mn><mn>3</mn></mroot><mo>=</mo><mn>3</mn></mrow></math> cm. Krawędź pudełka różowego (sześcianu o sumie 12 krawędzi równej 84 cm) wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>84</mn><mo>:</mo><mn>12</mn><mo>=</mo><mn>7</mn></mrow></math> cm. Pudełko zielone (3 × 3 × 3) mieści się w żółtym (4 × 5 × 6), a żółte mieści się w różowym (7 × 7 × 7). Zatem zielone pudełko umieścił w środku, następnie żółte, a na wierzchu różowe.</p>"
+      }
+    }
+  ]
+}

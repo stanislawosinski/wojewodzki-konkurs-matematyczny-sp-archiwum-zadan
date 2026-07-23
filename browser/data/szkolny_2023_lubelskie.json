@@ -1,0 +1,470 @@
+{
+  "source_file": "szkolny/2023_lubelskie.pdf",
+  "answers_file": "szkolny/2023_lubelskie.pdf",
+  "competition": "Konkurs Matematyczny dla uczniów szkoły podstawowej (lubelskie)",
+  "school_type": "podstawowa",
+  "stage": "szkolny",
+  "wojewodztwo": "lubelskie",
+  "school_year": "2022/2023",
+  "date": null,
+  "total_questions": 17,
+  "max_points": 40,
+  "questions": [
+    {
+      "id": "szkolny_2023_lubelskie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "zliczanie / metody zliczania"
+      ],
+      "prompt_html": "<p>Ile jest liczb trzycyfrowych, których iloczyn cyfr jest równy 4?</p><p>Jedna z podanych odpowiedzi jest poprawna. Zaznacz kółkiem właściwą odpowiedź.</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "2"
+        },
+        {
+          "label": "B",
+          "html": "4"
+        },
+        {
+          "label": "C",
+          "html": "6"
+        },
+        {
+          "label": "D",
+          "html": "8"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2023_lubelskie_q2",
+      "number": 2,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "reszta z dzielenia"
+      ],
+      "prompt_html": "<p>Jaka jest 137 cyfra po przecinku w rozwinięciu dziesiętnym liczby 1,2345623456…?</p><p>Jedna z podanych odpowiedzi jest poprawna. Zaznacz kółkiem właściwą odpowiedź.</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "2"
+        },
+        {
+          "label": "B",
+          "html": "3"
+        },
+        {
+          "label": "C",
+          "html": "5"
+        },
+        {
+          "label": "D",
+          "html": "6"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2023_lubelskie_q3",
+      "number": 3,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Ile wynosi wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>|</mo><mo>−</mo><mn>13</mn><mo>−</mo><mn>1</mn><mo>|</mo><mo>−</mo><mo>|</mo><mn>16</mn><mo>−</mo><mn>8</mn><mo>|</mo></mrow><mrow><mo>−</mo><mo>|</mo><mo>−</mo><mn>9</mn><mo>+</mo><mn>5</mn><mo>|</mo><mo>+</mo><mn>2</mn></mrow></mfrac></math>?</p><p>Jedna z podanych odpowiedzi jest poprawna. Zaznacz kółkiem właściwą odpowiedź.</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "−3"
+        },
+        {
+          "label": "B",
+          "html": "3"
+        },
+        {
+          "label": "C",
+          "html": "6"
+        },
+        {
+          "label": "D",
+          "html": "7"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2023_lubelskie_q4",
+      "number": 4,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "NWW / NWD"
+      ],
+      "prompt_html": "<p><em>Dwie liczby całkowite <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> nazywamy liczbami względnie pierwszymi, jeżeli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>NWD</mi><mo>(</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo>)</mo><mo>=</mo><mn>1</mn></math>.</em></p><p>Która z poniższych par liczb to liczby względnie pierwsze?</p><p>Jedna z podanych odpowiedzi jest poprawna. Zaznacz kółkiem właściwą odpowiedź.</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "8 i 24"
+        },
+        {
+          "label": "B",
+          "html": "18 i 111"
+        },
+        {
+          "label": "C",
+          "html": "6 i 85"
+        },
+        {
+          "label": "D",
+          "html": "10 i 202"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2023_lubelskie_q5",
+      "number": 5,
+      "page": 3,
+      "type": "true_false",
+      "points": 4,
+      "topics": [
+        "podzielność"
+      ],
+      "prompt_html": "<p>Poniżej podane są cztery zdania dotyczące liczb całkowitych.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe. Wybraną odpowiedź zaznacz kółkiem.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Iloczyn liczby parzystej i liczby nieparzystej jest zawsze liczbą parzystą."
+        },
+        {
+          "label": "2",
+          "html": "Suma dwóch liczb nieparzystych jest liczbą nieparzystą."
+        },
+        {
+          "label": "3",
+          "html": "Liczba 1914 jest podzielna przez 4."
+        },
+        {
+          "label": "4",
+          "html": "Jednym z dzielników liczby 2022 jest liczba 3."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PFFP",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2023_lubelskie_q6",
+      "number": 6,
+      "page": 3,
+      "type": "true_false",
+      "points": 3,
+      "topics": [
+        "procenty"
+      ],
+      "prompt_html": "<p>W pewnym sklepie cenę kurtki najpierw podniesiono o 20%, a następnie dwukrotnie obniżono o 10% za każdym razem.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe. Wybraną odpowiedź zaznacz kółkiem.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Cena kurtki po wszystkich zmianach jest taka sama jak cena początkowa."
+        },
+        {
+          "label": "2",
+          "html": "Obecna cena kurtki jest wyższa od ceny początkowej."
+        },
+        {
+          "label": "3",
+          "html": "Obecna cena kurtki stanowi 97,2% ceny początkowej."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FFP",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2023_lubelskie_q7",
+      "number": 7,
+      "page": 4,
+      "type": "true_false",
+      "points": 4,
+      "topics": [
+        "trójkąty"
+      ],
+      "prompt_html": "<p>Podstawa trójkąta równoramiennego ma długość 11 cm.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe. Wybraną odpowiedź zaznacz kółkiem.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Jego ramię nie może być dwa razy krótsze od podstawy."
+        },
+        {
+          "label": "2",
+          "html": "Jego ramię może być o 6 cm krótsze od podstawy."
+        },
+        {
+          "label": "3",
+          "html": "Jego obwód zawsze jest większy od 22 cm."
+        },
+        {
+          "label": "4",
+          "html": "Jego obwód może być równy 33 cm."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PFPP",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2023_lubelskie_q8",
+      "number": 8,
+      "page": 4,
+      "type": "true_false",
+      "points": 4,
+      "topics": [
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Poniżej podane są cztery zdania dotyczące działań na potęgach i pierwiastkach.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe. Wybraną odpowiedź zaznacz kółkiem.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>100</mn><mo>−</mo><mn>64</mn></msqrt></math> jest równa liczbie 2."
+        },
+        {
+          "label": "2",
+          "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mn>135</mn><mn>3</mn></mroot></math> jest 3 razy większa od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mn>5</mn><mn>3</mn></mroot></math>."
+        },
+        {
+          "label": "3",
+          "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><msup><mn>3</mn><mn>8</mn></msup><mo>)</mo></mrow><mn>2</mn></msup><mo>:</mo><mn>3</mn></math> jest równa liczbie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>27</mn><mn>3</mn></msup><mo>·</mo><mn>9</mn><mo>·</mo><msup><mn>3</mn><mn>5</mn></msup></math>."
+        },
+        {
+          "label": "4",
+          "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>125</mn><mo>·</mo><msup><mn>5</mn><mn>13</mn></msup></math> jest 5 razy mniejsza od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mn>5</mn><mn>17</mn></msup><mn>25</mn></mfrac></math>."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FPFF",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2023_lubelskie_q9",
+      "number": 9,
+      "page": 5,
+      "type": "true_false",
+      "points": 4,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Poniżej podane są cztery zdania dotyczące równań.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe. Wybraną odpowiedź zaznacz kółkiem.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>3</mn></math> spełnia równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mn>3</mn><mo>−</mo><mn>2</mn><mi>x</mi></math>."
+        },
+        {
+          "label": "2",
+          "html": "Rozwiązanie równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>x</mi><mo>+</mo><mn>2</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mfrac><mrow><mi>x</mi><mo>−</mo><mn>2</mn></mrow><mn>3</mn></mfrac></math> jest też rozwiązaniem równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mi>x</mi></mfrac><mo>=</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mn>16</mn></mfrac></math>."
+        },
+        {
+          "label": "3",
+          "html": "Równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>x</mi><mo>=</mo><mi>x</mi></math> nie ma rozwiązania."
+        },
+        {
+          "label": "4",
+          "html": "Równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo><mo>=</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>2</mn></math> ma nieskończenie wiele rozwiązań."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PFFP",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2023_lubelskie_q10",
+      "number": 10,
+      "page": 5,
+      "type": "true_false",
+      "points": 4,
+      "topics": [
+        "geometria",
+        "bryły"
+      ],
+      "prompt_html": "<p>Poniżej podane są cztery zdania dotyczące własności figur geometrycznych.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe. Wybraną odpowiedź zaznacz kółkiem.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Kąt pomiędzy ramionami trójkąta równoramiennego jest zawsze kątem ostrym."
+        },
+        {
+          "label": "2",
+          "html": "Istnieje trapez równoramienny, którego przekątne są prostopadłe."
+        },
+        {
+          "label": "3",
+          "html": "Podstawą ostrosłupa, który ma 7 wierzchołków, jest siedmiokąt."
+        },
+        {
+          "label": "4",
+          "html": "Jeżeli graniastosłup ma 18 ścian, to jego podstawą jest dziewięciokąt."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FPFF",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2023_lubelskie_q11",
+      "number": 11,
+      "page": 6,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Poniższe zdania dotyczą zamiany jednostek czasu.</p><p>Uzupełnij luki tak, aby otrzymane zdania były prawdziwe.</p><ul><li>a) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>11</mn><mn>42</mn></mfrac></math> tygodnia, to …………………. godziny.</li><li>b) 10 kwadransów, to …………….. godziny.</li><li>c) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>15</mn></mfrac></math> minuty, to ……………………. sekund.</li></ul>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "a) 44, b) 2,5, c) 16",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2023_lubelskie_q12",
+      "number": 12,
+      "page": 6,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Dane są dwie liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>)</mo></mrow><mn>9</mn></msup></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>)</mo></mrow><mn>11</mn></msup></math>.</p><p>Uzupełnij zdanie dotyczące danych liczb, tak aby było ono prawdziwe.</p><p>Liczba ……. jest ……. razy większa od liczby …….</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Liczba a jest 4 razy większa od liczby b",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2023_lubelskie_q13",
+      "number": 13,
+      "page": 6,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "trójkąty"
+      ],
+      "prompt_html": "<p>Dany jest trójkąt prostokątny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>, w którym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>5</mn></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>AC</mi><mo>|</mo><mo>=</mo><mn>12</mn></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>BC</mi><mo>|</mo><mo>=</mo><mn>13</mn></math> cm.</p><p>Uzupełnij zdania, wpisując długości odcinków z prawidłową jednostką.</p><ul><li>a) Najdłuższa wysokość tego trójkąta ma długość …………….....</li><li>b) Najkrótsza wysokość tego trójkąta ma długość ………………...</li></ul>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "a) 12 cm, b) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mfrac><mn>8</mn><mn>13</mn></mfrac></math> cm",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2023_lubelskie_q14",
+      "number": 14,
+      "page": 6,
+      "type": "open",
+      "points": 1,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Boki równoległoboku mają długości 11 cm i 6 cm, a jego dłuższa wysokość 10 cm. Jaka jest długość drugiej wysokości tego równoległoboku?</p><p>W miejscu przeznaczonym na odpowiedź wpisz tylko liczbę.</p><p>Odpowiedź: …….… cm</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mfrac><mn>5</mn><mn>11</mn></mfrac></math> cm",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2023_lubelskie_q15",
+      "number": 15,
+      "page": 7,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Poniższe zdania dotyczą działań na liczbach.</p><p>Uzupełnij luki tak, aby otrzymane zdania były prawdziwe.</p><ul><li>a) Suma liczby −7 i jej odwrotności wynosi …………………………...</li><li>b) Suma liczby 5 i liczby do niej przeciwnej wynosi ………………</li><li>c) Różnica liczby −2 i jej sześcianu wynosi …………………………...</li></ul>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "a) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>7</mn><mfrac><mn>1</mn><mn>7</mn></mfrac></math>, b) 0, c) 6",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2023_lubelskie_q16",
+      "number": 16,
+      "page": 7,
+      "type": "open",
+      "points": 1,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>W trapezie, którego pole jest równe 27 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>dm</mi><mn>2</mn></msup></math>, suma długości podstaw wynosi 18 dm. Jaka jest długość jego wysokości?</p><p>W miejscu przeznaczonym na odpowiedź wpisz tylko liczbę.</p><p>Odpowiedź: …….… dm</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "3 dm",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "szkolny_2023_lubelskie_q17",
+      "number": 17,
+      "page": 7,
+      "type": "open",
+      "points": 1,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>W skarbonce jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> monet jednozłotowych i cztery razy więcej dwudziestogroszówek. Natomiast dziesięciogroszówek jest o dwie mniej niż monet jednozłotowych. Są tam jeszcze trzy dwuzłotówki i dwie monety jednogroszowe. W skarbonce jest razem 21,02 zł.</p><p>Zapisz równanie opisujące treść zadania.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>+</mo><mn>4</mn><mo>·</mo><mn>0,20</mn><mi>n</mi><mo>+</mo><mo>(</mo><mi>n</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>·</mo><mn>0,10</mn><mo>+</mo><mn>3</mn><mo>·</mo><mn>2</mn><mo>+</mo><mn>2</mn><mo>·</mo><mn>0,01</mn><mo>=</mo><mn>21,02</mn></math> [zł]",
+        "solution_html": null
+      }
+    }
+  ]
+}

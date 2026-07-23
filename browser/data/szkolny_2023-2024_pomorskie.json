@@ -1,0 +1,178 @@
+{
+  "source_file": "szkolny/2023-2024_pomorskie.pdf",
+  "answers_file": "szkolny/2023-2024_pomorskie_answers.pdf",
+  "competition": "Wojewódzki Konkurs Matematyczny dla uczniów klas IV-VIII szkół podstawowych województwa pomorskiego",
+  "school_type": "podstawowa",
+  "stage": "szkolny",
+  "wojewodztwo": "pomorskie",
+  "school_year": "2023/2024",
+  "date": null,
+  "total_questions": 9,
+  "max_points": 25,
+  "questions": [
+    {
+      "id": "szkolny_2023-2024_pomorskie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "równania z jedną zmienną",
+        "zagadki logiczne"
+      ],
+      "prompt_html": "<p>Na dwóch gałęziach drzewa siedzi razem 16 wróbli. Jeśli z pierwszej gałęzi przeniosłoby się na drugą gałąź tyle wróbli, że liczba wróbli na drugiej gałęzi podwoiłaby się, a następnie z drugiej gałęzi przeniosłoby się na pierwszą tyle wróbli, że liczba wróbli na pierwszej gałęzi podwoiłaby się, to na każdej z tych gałęzi byłoby po tyle samo wróbli. Ile wróbli siedzi na każdej z gałęzi? Zapisz obliczenia.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Na pierwszej gałęzi 10 wróbli, na drugiej 6 wróbli",
+        "solution_html": "<p>Zadanie rozwiązujemy, cofając się od końca. Na końcu na obu gałęziach jest po <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn></math> wróbli (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>16</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>8</mn></mrow></math>). Druga zmiana podwoiła liczbę wróbli na pierwszej gałęzi z 4 do 8 (przeniesiono 4 wróble z drugiej gałęzi), więc przed nią na pierwszej gałęzi były 4 wróble, a na drugiej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>12</mn></mrow></math>. Pierwsza zmiana podwoiła liczbę wróbli na drugiej gałęzi do 12 (przeniesiono 6 wróbli z pierwszej gałęzi), więc początkowo na drugiej gałęzi było <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>12</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>6</mn></mrow></math>, a na pierwszej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>+</mo><mn>6</mn><mo>=</mo><mn>10</mn></mrow></math> wróbli.</p><p>Odpowiedź: na pierwszej gałęzi siedzi 10 wróbli, a na drugiej 6.</p><p><em>Częściowo (1 pkt): zauważenie, że po pierwszej zmianie na gałęziach byłoby odpowiednio 4 i 12 wróbli.</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2023-2024_pomorskie_q2",
+      "number": 2,
+      "page": 3,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "geometria",
+        "trójkąty"
+      ],
+      "prompt_html": "<p>Przez wierzchołek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> poprowadzono prostą, która przecina bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math>. Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AED</mi></math> jest równe 21 cm², natomiast pole trapezu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCE</mi></math> jest równe 28 cm². Oblicz obwód trapezu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCE</mi></math>.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "15 + √85 cm",
+        "solution_html": "<p>Pole kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> to suma pól trójkąta i trapezu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>ABCD</mi></msub><mo>=</mo><mn>21</mn><mo>+</mo><mn>28</mn><mo>=</mo><mn>49</mn></mrow></math> cm², więc bok kwadratu ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>7</mn></mrow></math> cm. Z pola trapezu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mo>(</mo><mo>|</mo><mi>AB</mi><mo>|</mo><mo>+</mo><mo>|</mo><mi>EC</mi><mo>|</mo><mo>)</mo><mo>·</mo><mo>|</mo><mi>BC</mi><mo>|</mo></mrow><mn>2</mn></mfrac><mo>=</mo><mn>28</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mo>(</mo><mn>7</mn><mo>+</mo><mo>|</mo><mi>CE</mi><mo>|</mo><mo>)</mo><mo>·</mo><mn>7</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>28</mn></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>CE</mi><mo>|</mo><mo>=</mo><mn>1</mn></mrow></math> cm oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>DE</mi><mo>|</mo><mo>=</mo><mn>7</mn><mo>−</mo><mn>1</mn><mo>=</mo><mn>6</mn></mrow></math> cm. Z twierdzenia Pitagorasa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AE</mi><mo>|</mo><mo>=</mo><msqrt><mrow><msup><mn>7</mn><mn>2</mn></msup><mo>+</mo><msup><mn>6</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>85</mn></msqrt></mrow></math> cm. Obwód trapezu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>+</mo><mo>|</mo><mi>BC</mi><mo>|</mo><mo>+</mo><mo>|</mo><mi>CE</mi><mo>|</mo><mo>+</mo><mo>|</mo><mi>EA</mi><mo>|</mo><mo>=</mo><mn>7</mn><mo>+</mo><mn>7</mn><mo>+</mo><mn>1</mn><mo>+</mo><msqrt><mn>85</mn></msqrt><mo>=</mo><mn>15</mn><mo>+</mo><msqrt><mn>85</mn></msqrt></mrow></math> cm.</p><p>Odpowiedź: obwód trapezu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCE</mi></math> jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>+</mo><msqrt><mn>85</mn></msqrt></mrow></math> cm.</p><p><em>Częściowo: 1 pkt za obliczenie długości boku kwadratu; 2 pkt za obliczenie długości odcinka CE.</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2023-2024_pomorskie_q3",
+      "number": 3,
+      "page": 4,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Zapisz poniższe wyrażenie w postaci jednej potęgi tak, aby podstawa i wykładnik były liczbami naturalnymi.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>27</mn><mn>40</mn></msup><mo>+</mo><msup><mn>81</mn><mn>30</mn></msup><mo>+</mo><msup><mn>729</mn><mn>20</mn></msup><mo>=</mo></mrow></math></p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "3¹²¹",
+        "solution_html": "<p>Zapisujemy każdy składnik jako potęgę o podstawie 3: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>27</mn><mn>40</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><msup><mn>3</mn><mn>3</mn></msup><mo>)</mo></mrow><mn>40</mn></msup><mo>=</mo><msup><mn>3</mn><mn>120</mn></msup></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>81</mn><mn>30</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><msup><mn>3</mn><mn>4</mn></msup><mo>)</mo></mrow><mn>30</mn></msup><mo>=</mo><msup><mn>3</mn><mn>120</mn></msup></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>729</mn><mn>20</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><msup><mn>3</mn><mn>6</mn></msup><mo>)</mo></mrow><mn>20</mn></msup><mo>=</mo><msup><mn>3</mn><mn>120</mn></msup></mrow></math>. Zatem suma wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><msup><mn>3</mn><mn>120</mn></msup><mo>=</mo><msup><mn>3</mn><mn>121</mn></msup></mrow></math>.</p><p>Odpowiedź: wyrażenie jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>121</mn></msup></math>.</p><p><em>Częściowo (1 pkt): zapisanie każdego składnika sumy w postaci potęgi o podstawie 3.</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2023-2024_pomorskie_q4",
+      "number": 4,
+      "page": 4,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Wiadomo, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mfrac><mrow><mn>5</mn><mi>b</mi></mrow><mn>6</mn></mfrac></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>≠</mo><mn>0</mn></mrow></math>. Oblicz wartość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mi>a</mi></mrow><mrow><mn>7</mn><mi>b</mi></mrow></mfrac></math>.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "−1/14",
+        "solution_html": "<p>Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mfrac><mrow><mn>5</mn><mi>b</mi></mrow><mn>6</mn></mfrac></mrow></math> wyznaczamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mfrac><mrow><mn>5</mn><mi>b</mi></mrow><mn>6</mn></mfrac><mo>−</mo><mi>b</mi><mo>=</mo><mo>−</mo><mfrac><mn>1</mn><mn>6</mn></mfrac><mi>b</mi></mrow></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>3</mn><mi>a</mi></mrow><mrow><mn>7</mn><mi>b</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>3</mn><mo>·</mo><mo>(</mo><mo>−</mo><mfrac><mn>1</mn><mn>6</mn></mfrac><mi>b</mi><mo>)</mo></mrow><mrow><mn>7</mn><mi>b</mi></mrow></mfrac><mo>=</mo><mo>−</mo><mfrac><mn>1</mn><mn>14</mn></mfrac></mrow></math>.</p><p>Odpowiedź: wartość wyrażenia to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mfrac><mn>1</mn><mn>14</mn></mfrac></mrow></math>.</p><p><em>Częściowo (1 pkt): prawidłowe uzależnienie jednej niewiadomej od drugiej, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mo>−</mo><mfrac><mn>1</mn><mn>6</mn></mfrac><mi>b</mi></mrow></math>.</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2023-2024_pomorskie_q5",
+      "number": 5,
+      "page": 5,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "procenty",
+        "geometria"
+      ],
+      "prompt_html": "<p>Każdy bok kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> o polu 25 cm² przedłużono o 1 cm. Łącząc odpowiednie punkty otrzymano nowy kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EFGH</mi></math> (jak na rysunku). O ile procent pole kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EFGH</mi></math> jest większe od pola kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>? Zapisz obliczenia.</p>",
+      "choices": [],
+      "figures": [
+        "szkolny_2023-2024_pomorskie_q5_fig1.png"
+      ],
+      "answer": {
+        "correct": "48%",
+        "solution_html": "<p>Kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> ma pole 25 cm², więc jego bok ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>5</mn></mrow></math> cm. Bok nowego kwadratu jest przeciwprostokątną trójkąta prostokątnego o przyprostokątnych 1 cm i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>6</mn></mrow></math> cm, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><msup><mn>1</mn><mn>2</mn></msup><mo>+</mo><msup><mn>6</mn><mn>2</mn></msup><mo>=</mo><mn>37</mn></mrow></math> i pole kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EFGH</mi></math> wynosi 37 cm². Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>37</mn><mo>−</mo><mn>25</mn></mrow><mn>25</mn></mfrac><mo>·</mo><mn>100</mn><mo>%</mo><mo>=</mo><mn>48</mn><mo>%</mo></mrow></math>.</p><p>Odpowiedź: pole kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EFGH</mi></math> jest o 48% większe od pola kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>.</p><p><em>Częściowo (1 pkt): obliczenie długości boku kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> lub różnicy pól kwadratów (12 cm²).</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2023-2024_pomorskie_q6",
+      "number": 6,
+      "page": 6,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "procenty"
+      ],
+      "prompt_html": "<p>W pewnej szkole podstawowej jest 360 uczniów. Wiadomo, że 20% wszystkich uczniów wzięło udział w etapie szkolnym konkursu przedmiotowego z matematyki. Liczba dziewcząt, które przystąpiły do konkursu stanowi 10% wszystkich dziewcząt tej szkoły. Liczba chłopców biorących udział w konkursie to 60. Jaki procent chłopców z tej szkoły przystąpiło do tego konkursu? Zapisz obliczenia.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "25%",
+        "solution_html": "<p>Liczba uczniów biorących udział w konkursie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>20</mn><mo>%</mo><mo>·</mo><mn>360</mn><mo>=</mo><mn>72</mn></mrow></math>. Chłopców było 60, więc dziewcząt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>72</mn><mo>−</mo><mn>60</mn><mo>=</mo><mn>12</mn></mrow></math> — jest to 10% wszystkich dziewcząt, zatem dziewcząt w szkole jest 120. Chłopców w szkole jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>360</mn><mo>−</mo><mn>120</mn><mo>=</mo><mn>240</mn></mrow></math>. Procent chłopców, którzy przystąpili do konkursu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>60</mn><mn>240</mn></mfrac><mo>·</mo><mn>100</mn><mo>%</mo><mo>=</mo><mn>25</mn><mo>%</mo></mrow></math>.</p><p>Odpowiedź: do konkursu przystąpiło 25% chłopców.</p><p><em>Częściowo (1 pkt): prawidłowe obliczenie liczby dziewcząt (lub chłopców) w szkole.</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2023-2024_pomorskie_q7",
+      "number": 7,
+      "page": 6,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "podzielność",
+        "potęgi i pierwiastki",
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>Wykaż, że liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2023</mn><mn>2024</mn></msup><mo>+</mo><msup><mn>2024</mn><mn>2023</mn></msup></mrow></math> jest podzielna przez 5.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Ostatnią cyfrą liczby jest 5 (2023²⁰²⁴ kończy się na 1, a 2024²⁰²³ na 4), więc liczba dzieli się przez 5.",
+        "solution_html": "<p>Wyznaczamy ostatnie cyfry obu potęg. Ostatnia cyfra liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2023</mn><mn>2024</mn></msup></math> zależy od ostatniej cyfry podstawy (3), która w kolejnych potęgach powtarza się w cyklu 3, 9, 7, 1; ponieważ wykładnik 2024 jest podzielny przez 4, ostatnią cyfrą jest 1. Ostatnia cyfra liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2024</mn><mn>2023</mn></msup></math> zależy od cyfry 4: dla nieparzystego wykładnika wynosi ona 4. Zatem ostatnią cyfrą sumy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2023</mn><mn>2024</mn></msup><mo>+</mo><msup><mn>2024</mn><mn>2023</mn></msup></mrow></math> jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>5</mn></mrow></math>, więc liczba ta jest podzielna przez 5.</p><p><em>Częściowo (1 pkt): podanie ostatnich cyfr liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2023</mn><mn>2024</mn></msup></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2024</mn><mn>2023</mn></msup></math>.</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2023-2024_pomorskie_q8",
+      "number": 8,
+      "page": 7,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "prędkość / droga / czas",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Kasia i Tomek urządzili wyścig dla swoich żółwi. Oba żółwie, ustawione na linii START ruszyły jednocześnie w kierunku METY. Żółw Kasi pokonał początkowe 25 cm w czasie 4 sekund. Żółw Tomka pokonał początkowe 30 cm w czasie 5 sekund. Na całej trasie żółwie nie zmieniały swoich prędkości i pokonały dokładnie tę samą drogę. Na metę jeden z nich przybył o dwie sekundy wcześniej niż drugi. Oblicz długość trasy wyścigu (od linii START do METY).</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "3 m (300 cm)",
+        "solution_html": "<p>Prędkość żółwia Kasi: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>25</mn><mn>4</mn></mfrac><mo>=</mo><mn>6,25</mn></mrow></math> cm/s, a żółwia Tomka: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>30</mn><mn>5</mn></mfrac><mo>=</mo><mn>6</mn></mrow></math> cm/s. Żółw Kasi jest szybszy, więc dotrze na metę wcześniej. Oznaczmy przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math> czas żółwia Kasi; wtedy żółw Tomka pokonuje trasę w czasie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>t</mi><mo>+</mo><mn>2</mn></mrow></math>. Ponieważ trasa jest ta sama: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6,25</mn><mi>t</mi><mo>=</mo><mn>6</mn><mo>(</mo><mi>t</mi><mo>+</mo><mn>2</mn><mo>)</mo></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,25</mn><mi>t</mi><mo>=</mo><mn>12</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>t</mi><mo>=</mo><mn>48</mn></mrow></math> s. Długość trasy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6,25</mn><mo>·</mo><mn>48</mn><mo>=</mo><mn>300</mn></mrow></math> cm <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo></math> 3 m.</p><p>Odpowiedź: trasa wyścigu miała długość 3 m.</p><p><em>Częściowo: 1 pkt za zauważenie, że żółw Kasi dotrze na metę wcześniej; 2 pkt za zapisanie poprawnego równania z jedną niewiadomą.</em></p>"
+      }
+    },
+    {
+      "id": "szkolny_2023-2024_pomorskie_q9",
+      "number": 9,
+      "page": 8,
+      "type": "closed_single",
+      "points": 7,
+      "topics": [
+        "potęgi i pierwiastki",
+        "trójkąty",
+        "podzielność",
+        "geometria"
+      ],
+      "prompt_html": "<p>W zadaniach zamkniętych dokładnie jedna odpowiedź jest poprawna. Wskaż tę odpowiedź otaczając ją kółkiem.</p><p><strong>9.1</strong> Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>1,2</mn><mo>:</mo><mn>4,8</mn><mo>−</mo><msup><mn>1,5</mn><mn>2</mn></msup></mrow><mrow><mfrac><mn>1</mn><mn>7</mn></mfrac><mo>·</mo><mn>2</mn><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></mfrac></math> jest równa:</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mfrac><mn>2</mn><mn>3</mn></mfrac></mrow></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math></li><li>C. −6</li><li>D. 6</li></ul><p><strong>9.2</strong> Wiadomo, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>0,2023</mn></msup><mo>=</mo><mn>5</mn></mrow></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>0,8092</mn></msup></math> jest równe:</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>4</mn></mfrac></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>5</mn></msqrt></math></li><li>C. 125</li><li>D. 625</li></ul><p><strong>9.3</strong> W trójkącie prostokątnym o przyprostokątnych 6 i 8 wysokość poprowadzona z wierzchołka kąta prostego ma długość:</p><ul><li>A. 4,8</li><li>B. 6</li><li>C. 8</li><li>D. 9,6</li></ul><p><strong>9.4</strong> W trójkącie równoramiennym kąt przy podstawie ma miarę cztery razy mniejszą od miary kąta między ramionami. Miara kąta między ramionami jest równa:</p><ul><li>A. 120°</li><li>B. 30°</li><li>C. 60°</li><li>D. 150°</li></ul><p><strong>9.5</strong> Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>23754678</mn><mi>X</mi></mrow></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>X</mi></math> jest cyfrą jedności, jest podzielna przez 4. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>X</mi></math> może być równe:</p><ul><li>A. 0</li><li>B. 2</li><li>C. 6</li><li>D. 7</li></ul><p><strong>9.6</strong> Pole kwadratu o boku długości 400 m jest równe:</p><ul><li>A. 1600 m²</li><li>B. 1600 a</li><li>C. 160 ha</li><li>D. 1,6 km²</li></ul><p><strong>9.7</strong> Dany jest równoległobok o bokach długości 10 cm i 6 cm. Jego dłuższa wysokość ma 5 cm. Pole tego równoległoboku jest równe:</p><ul><li>A. 50 cm²</li><li>B. 30 cm²</li><li>C. 25 cm²</li><li>D. 15 cm²</li></ul>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "9.1 – C, 9.2 – D, 9.3 – A, 9.4 – A, 9.5 – A, 9.6 – B, 9.7 – B",
+        "solution_html": null
+      }
+    }
+  ]
+}
