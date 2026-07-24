@@ -31,6 +31,7 @@ for (const f of readdirSync(dataDir).filter(f => f.endsWith('.json')).sort()) {
     seenId.set(q.id, f); seenHash.set(hash, q.id);
     byStage[t.stage].push({
       id: q.id, hash, number: q.number, page: q.page, type: q.type, points: q.points,
+      ...(q.annulled ? { annulled: true } : {}), // only the rare annulled ones carry the flag
       topics: q.topics, prompt_html: q.prompt_html, choices: q.choices,
       figures: q.figures, answer: q.answer,
       source_file: t.source_file, school_year: t.school_year, wojewodztwo: t.wojewodztwo,

@@ -31,6 +31,7 @@ const FACETS = [
   { key: 'woj',    label: 'Województwo',  values: q => [q.wojewodztwo] },
   { key: 'year',   label: 'Rok',         values: q => [q.school_year] },
   { key: 'points', label: 'Punkty',      values: q => [String(q.points)], numeric: true, labelFor: v => `${v}p` },
+  { key: 'annul',  label: 'Anulowane',   values: q => [q.annulled ? 'tak' : 'nie'], order: ['nie', 'tak'], labelFor: v => v === 'tak' ? 'Anulowane' : 'Nie anulowane' },
 ];
 
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -54,7 +55,7 @@ function loadData() {
 const $ = id => document.getElementById(id);
 const search = $('search'), inc = $('include'), exc = $('exclude'),
   count = $('count'), selected = $('selected'), setsummary = $('setsummary'),
-  qlist = $('qlist'), facetsEl = $('facets');
+  qlist = $('qlist'), facetsEl = $('facets'), clearFilters = $('clearFilters');
 const pagers = [...document.querySelectorAll('.pager')];
 
 let DATA = [], byHash = {}, INDEX = {}, universe = new Set();
@@ -197,6 +198,7 @@ function update() {
 
   const active = useInc || excSet.size > 0 || terms.length > 0 || FACETS.some(f => selections[f.key].size);
   count.textContent = active ? `${matched.length} zadań` : '';
+  clearFilters.hidden = !active; // only offer the reset when there's filtering to clear
   const arks = new Set(matched.map(q => q._ark));
   setsummary.textContent = `${matched.length} zadań z ${arks.size} arkuszy`;
 }
@@ -244,6 +246,14 @@ function applyState() {
 
 const debounce = (fn, ms) => { let t; return () => { clearTimeout(t); t = setTimeout(fn, ms); }; };
 const refilter = () => { page = 1; update(); };
+
+// reset every filter (facets + search + include/exclude); leaves the print selection alone
+function clearAllFilters() {
+  for (const f of FACETS) selections[f.key].clear();
+  facetsEl.querySelectorAll('.facet-opt input').forEach(i => { i.checked = false; });
+  search.value = inc.value = exc.value = '';
+  writeUrl(true); refilter(); // push, so Back restores the filters you cleared
+}
 
 loadData().then(data => {
   DATA = data;
@@ -294,5 +304,6 @@ loadData().then(data => {
     updateSelected(); writeUrl(false);
   };
   $('copySel').onclick = () => { selected.select(); try { document.execCommand('copy'); } catch (e) {} };
+  clearFilters.onclick = e => { e.preventDefault(); clearAllFilters(); };
   applyState(); // restore filters from the URL hash (empty hash => same as a bare update())
 });
