@@ -1,7 +1,7 @@
 'use strict';
 // Run: node browser/facets.test.cjs   (exits 0 on success)
 const assert = require('node:assert');
-const { matchedHashes, facetCounts } = require('./facets.js');
+const { matchedHashes, facetCounts, encodeHash, decodeHash } = require('./facets.js');
 
 // 4 questions across two facets (2 topics x 2 województwa)
 const index = {
@@ -31,5 +31,19 @@ assert.deepStrictEqual(facetCounts(index, sel({ topic: ['potęgi'] }), yes, 'woj
 const notH1 = h => h !== 'h1';
 assert.deepStrictEqual(sorted(matchedHashes(index, sel({}), notH1, universe)), ['h2', 'h3', 'h4']);
 assert.deepStrictEqual(facetCounts(index, sel({}), notH1, 'topic', universe), { 'potęgi': 1, 'pierwiastki': 2 });
+
+// encode/decode round-trips: multi-value facets + special chars (diacritics, '/', spaces) + scalars
+const hashObj = {
+  topic: ['NWW / NWD', 'potęgi i pierwiastki'],
+  form: ['Prawda/Fałsz'],
+  q: ['pole trójkąta'],
+  sel: ['d60f0d0e', 'fda169ad'],
+};
+assert.deepStrictEqual(decodeHash(encodeHash(hashObj)), hashObj);
+// encoding is reversible even for keys/values the app doesn't know (validation happens later, in app.js)
+assert.deepStrictEqual(decodeHash(encodeHash({ bogus: ['x'] })), { bogus: ['x'] });
+// empty object -> empty string -> empty object
+assert.strictEqual(encodeHash({}), '');
+assert.deepStrictEqual(decodeHash(''), {});
 
 console.log('facets.test.cjs: all assertions passed');

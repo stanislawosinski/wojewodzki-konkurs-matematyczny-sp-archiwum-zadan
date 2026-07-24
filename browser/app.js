@@ -206,6 +206,42 @@ function updateSelected() {
   selected.value = DATA.filter(q => selectedSet.has(q.hash)).map(q => q.hash).join(', ');
 }
 
+// --- URL hash <-> state. The JS structures are the working truth; the hash is their
+// serialization. Written on every change (facet toggles push a history entry, everything
+// else replaces — see writeUrl). Read on load and on Back/Forward (popstate). page is not
+// stored. pushState/replaceState are silent (no popstate/hashchange), so writes never loop.
+function serialize() {
+  const o = {};
+  for (const f of FACETS) if (selections[f.key].size) o[f.key] = [...selections[f.key]];
+  if (search.value.trim()) o.q = [search.value.trim()];
+  const incIds = idList(inc.value); if (incIds.length) o.inc = incIds;
+  const excIds = idList(exc.value); if (excIds.length) o.exc = excIds;
+  if (selectedSet.size) o.sel = DATA.filter(q => selectedSet.has(q.hash)).map(q => q.hash);
+  return o;
+}
+
+function writeUrl(push) {
+  const h = Facets.encodeHash(serialize());
+  if (h === location.hash.slice(1)) return; // unchanged: don't spawn a dup history entry
+  history[push ? 'pushState' : 'replaceState'](null, '', h ? '#' + h : location.pathname + location.search);
+}
+
+function applyState() {
+  const o = Facets.decodeHash(location.hash.slice(1));
+  for (const f of FACETS) // drop unknown/stale values so state matches the checkboxes that exist
+    selections[f.key] = new Set((o[f.key] || []).filter(v => INDEX[f.key] && INDEX[f.key][v]));
+  facetsEl.querySelectorAll('.facet-opt input').forEach(inp => {
+    inp.checked = selections[inp.closest('.facet').dataset.facet].has(inp.value);
+  });
+  search.value = (o.q || []).join(' ');
+  inc.value = (o.inc || []).join(', ');
+  exc.value = (o.exc || []).join(', ');
+  selectedSet.clear();
+  for (const h of o.sel || []) if (byHash[h]) selectedSet.add(h);
+  updateSelected();
+  page = 1; update();
+}
+
 const debounce = (fn, ms) => { let t; return () => { clearTimeout(t); t = setTimeout(fn, ms); }; };
 const refilter = () => { page = 1; update(); };
 
@@ -229,10 +265,18 @@ loadData().then(data => {
     if (!e.target.matches('.facet-opt input')) return;
     const key = e.target.closest('.facet').dataset.facet, v = e.target.value;
     e.target.checked ? selections[key].add(v) : selections[key].delete(v);
-    refilter();
+    writeUrl(true); refilter(); // facet toggle: push, so Back undoes it
   });
-  search.oninput = debounce(refilter, 200);
-  inc.oninput = exc.oninput = refilter;
+  const replace = () => { writeUrl(false); refilter(); };
+  search.oninput = debounce(() => {
+    // push only when a search first appears (empty -> non-empty), so the pre-search view is one
+    // Back away; edits within the burst replace in place. Keeps the URL live either way.
+    const had = new URLSearchParams(location.hash.slice(1)).has('q');
+    writeUrl(had ? false : !!search.value.trim());
+    refilter();
+  }, 200);
+  inc.oninput = exc.oninput = replace;
+  addEventListener('popstate', applyState);
   for (const p of pagers) {
     p.querySelector('.prev').onclick = () => { page--; update(); scrollTo(0, 0); };
     p.querySelector('.next').onclick = () => { page++; update(); scrollTo(0, 0); };
@@ -241,14 +285,14 @@ loadData().then(data => {
     if (!e.target.matches('.selectbox input')) return;
     const h = e.target.closest('.q').dataset.hash;
     e.target.checked ? selectedSet.add(h) : selectedSet.delete(h);
-    updateSelected();
+    updateSelected(); writeUrl(false);
   });
-  $('useSel').onclick = () => { inc.value = selected.value; refilter(); };
+  $('useSel').onclick = () => { inc.value = selected.value; writeUrl(false); refilter(); };
   $('clearSel').onclick = () => {
     selectedSet.clear();
     qlist.querySelectorAll('.selectbox input').forEach(b => b.checked = false);
-    updateSelected();
+    updateSelected(); writeUrl(false);
   };
   $('copySel').onclick = () => { selected.select(); try { document.execCommand('copy'); } catch (e) {} };
-  update();
+  applyState(); // restore filters from the URL hash (empty hash => same as a bare update())
 });

@@ -62,5 +62,19 @@
     return counts;
   }
 
-  return { matchedHashes, facetCounts };
+  // URL-fragment (de)serialization. Generic: no facet knowledge, so it stays pure/testable.
+  //   obj = { key: [value, ...] }  <->  "key=value&key=value2&..." (URLSearchParams-encoded)
+  function encodeHash(obj) {
+    const p = new URLSearchParams();
+    for (const k of Object.keys(obj))
+      for (const v of obj[k]) p.append(k, v);
+    return p.toString();
+  }
+  function decodeHash(str) {
+    const o = {};
+    for (const [k, v] of new URLSearchParams(str)) (o[k] ||= []).push(v);
+    return o;
+  }
+
+  return { matchedHashes, facetCounts, encodeHash, decodeHash };
 });
