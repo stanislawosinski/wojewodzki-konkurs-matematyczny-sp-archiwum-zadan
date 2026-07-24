@@ -11,6 +11,8 @@ JSON** (question text as HTML + inline MathML, cropped figures, topic tags, answ
 assembles that JSON into a single **filterable HTML question browser** for contest prep — filter
 by topic, year, voivodeship, points, question type, and school type.
 
+**▶ Try it live: [the question browser](https://stanislawosinski.github.io/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/)** — search and filter the whole bank in your browser, nothing to install.
+
 ## Mostly the work of an LLM agent
 
 This archive is **largely the product of an autonomous LLM agent** (Claude / Opus, driven via
@@ -84,8 +86,10 @@ were never web-archived; some podlaskie years shipped without an answer key. Det
 ## Building the browser
 
 The browser is a static page (`browser/index.html` + `app.css` + `app.js`) that renders questions
-client-side from generated per-stage data shards (not committed). Rebuild the shards from the JSON
-with Node (no dependencies):
+client-side from generated per-stage data shards (not committed). It is auto-deployed to
+[GitHub Pages](https://stanislawosinski.github.io/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/)
+on every push to `main` (see [`.github/workflows/pages.yml`](.github/workflows/pages.yml)). To run
+it locally, rebuild the shards from the JSON with Node (no dependencies):
 
 ```sh
 cd browser && node build.mjs
