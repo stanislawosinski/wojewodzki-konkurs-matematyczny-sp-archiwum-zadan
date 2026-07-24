@@ -1,6 +1,8 @@
 'use strict';
-// Question browser: loads per-stage data shards, filters in memory, renders
-// at most PAGE_SIZE questions into the DOM (paged). Runs off file:// and http(s).
+// Question browser: loads per-stage data shards, filters in memory, renders at most
+// PAGE_SIZE questions into the DOM (paged). Runs off file:// and http(s). The facet
+// index is built from DATA at startup (~1 ms); facet counts (browser/facets.js) update
+// live per the drill-down rule.
 
 // Two-level catalog: category -> ordered leaves. Mirrors SCHEMA.md.
 const CATALOG = [
@@ -18,6 +20,18 @@ const TYPE_LABELS = { closed_single: 'Wielokrotny wybór', true_false: 'Prawda/F
 const SCHOOL_LABELS = { podstawowa: 'Szkoła podstawowa', gimnazjum: 'Gimnazjum' };
 const PAGE_SIZE = 100;
 const STAGES = ['szkolny', 'rejonowy', 'wojewodzki'];
+
+// The seven faceted filters. `values(q)` mirrors build.mjs so a missing index can be
+// rebuilt from DATA; `order` fixes non-alphabetical display order; `labelFor` prettifies.
+const FACETS = [
+  { key: 'topic',  label: 'Temat',       values: q => q.topics || [] },
+  { key: 'form',   label: 'Forma',       values: q => [q.type],         order: Object.keys(TYPE_LABELS), labelFor: v => TYPE_LABELS[v] || v },
+  { key: 'etap',   label: 'Etap',        values: q => [q.stage],        order: STAGES },
+  { key: 'school', label: 'Typ szkoły',  values: q => [q.school_type],  order: Object.keys(SCHOOL_LABELS), labelFor: v => SCHOOL_LABELS[v] || v },
+  { key: 'woj',    label: 'Województwo',  values: q => [q.wojewodztwo] },
+  { key: 'year',   label: 'Rok',         values: q => [q.school_year] },
+  { key: 'points', label: 'Punkty',      values: q => [String(q.points)], numeric: true, labelFor: v => `${v}p` },
+];
 
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
@@ -38,42 +52,73 @@ function loadData() {
 }
 
 const $ = id => document.getElementById(id);
-const search = $('search'), topic = $('topic'), form = $('form'), etap = $('etap'),
-  school = $('school'), woj = $('woj'), year = $('year'), points = $('points'),
-  inc = $('include'), exc = $('exclude'), count = $('count'), selected = $('selected'),
-  setsummary = $('setsummary'), qlist = $('qlist');
-const attrSelects = [topic, form, etap, school, woj, year, points];
+const search = $('search'), inc = $('include'), exc = $('exclude'),
+  count = $('count'), selected = $('selected'), setsummary = $('setsummary'),
+  qlist = $('qlist'), facetsEl = $('facets');
 const pagers = [...document.querySelectorAll('.pager')];
 
-let DATA = [], byHash = {};
+let DATA = [], byHash = {}, INDEX = {}, universe = new Set();
 let page = 1;
 const selectedSet = new Set(); // hashes; lives outside the DOM — articles are destroyed on re-render
+const selections = {}, EMPTY_SELECTIONS = {}; // facetKey -> Set<value>
+for (const f of FACETS) { selections[f.key] = new Set(); EMPTY_SELECTIONS[f.key] = new Set(); }
+const countSpans = {}; // facetKey -> { value: <span> }
 
 const idList = s => (s.match(/[0-9a-f]{8}/gi) || []).map(x => x.toLowerCase());
 
-function applyFilters() {
-  const order = idList(inc.value), incSet = new Set(order),
-    excSet = new Set(idList(exc.value)), useInc = incSet.size > 0,
-    terms = search.value.toLowerCase().split(/\s+/).filter(Boolean);
-  let matched;
-  if (useInc) {
-    // "Pokaż tylko id" is an override: exactly those ids, in pasted order, deduped
-    const seen = new Set();
-    matched = order.filter(h => byHash[h] && !seen.has(h) && seen.add(h)).map(h => byHash[h]);
-  } else {
-    matched = DATA.filter(q =>
-      terms.every(t => q._search.includes(t))
-      && (!topic.value || q.topics.includes(topic.value))
-      && (!form.value || q.type === form.value)
-      && (!etap.value || q.stage === etap.value)
-      && (!school.value || q.school_type === school.value)
-      && (!woj.value || q.wojewodztwo === woj.value)
-      && (!year.value || q.school_year === year.value)
-      && (!points.value || String(q.points) === points.value)
-      && !excSet.has(q.hash));
+// inverted index for faceting: facet -> value -> [hash, ...]. Built from DATA at startup
+// (~1 ms for ~3k questions), which the browser holds fully in memory anyway.
+function buildIndexFromData() {
+  const idx = Object.fromEntries(FACETS.map(f => [f.key, {}]));
+  for (const q of DATA)
+    for (const f of FACETS)
+      for (const v of f.values(q)) if (v != null) (idx[f.key][v] ||= []).push(q.hash);
+  return idx;
+}
+
+// ordered checkbox entries for a facet: {header} rows (topic categories) or {value} rows
+function facetEntries(f, present) {
+  if (f.key === 'topic') {
+    const has = new Set(present), seen = new Set(), out = [];
+    for (const [cat, leaves] of CATALOG) {
+      const hit = leaves.filter(l => has.has(l));
+      if (!hit.length) continue;
+      out.push({ header: cat });
+      for (const l of hit) { out.push({ value: l }); seen.add(l); }
+    }
+    const extra = present.filter(l => !seen.has(l)).sort();
+    if (extra.length) { out.push({ header: '(poza katalogiem)' }); for (const l of extra) out.push({ value: l }); }
+    return out;
   }
-  const active = useInc || excSet.size > 0 || terms.length > 0 || attrSelects.some(s => s.value);
-  return { matched, useInc, active };
+  let vals;
+  if (f.order) vals = [...f.order.filter(v => present.includes(v)), ...present.filter(v => !f.order.includes(v)).sort()];
+  else if (f.numeric) vals = present.slice().sort((a, b) => Number(a) - Number(b));
+  else vals = present.slice().sort();
+  return vals.map(v => ({ value: v }));
+}
+
+function buildFacetUI() {
+  for (const f of FACETS) {
+    countSpans[f.key] = {};
+    const box = document.createElement('div');
+    box.className = 'facet';
+    box.dataset.facet = f.key;
+    box.innerHTML = `<div class="facet-h">${esc(f.label)}</div>`;
+    const ul = document.createElement('ul');
+    ul.className = 'facet-list';
+    for (const entry of facetEntries(f, Object.keys(INDEX[f.key] || {}))) {
+      const li = document.createElement('li');
+      if (entry.header) { li.className = 'facet-cat'; li.textContent = entry.header; ul.append(li); continue; }
+      const v = entry.value, label = f.labelFor ? f.labelFor(v) : v;
+      li.className = 'facet-opt';
+      li.innerHTML = `<label><input type="checkbox" value="${esc(v)}">`
+        + `<span class="opt-l">${esc(label)}</span><span class="opt-c"></span></label>`;
+      countSpans[f.key][v] = li.querySelector('.opt-c');
+      ul.append(li);
+    }
+    box.append(ul);
+    facetsEl.append(box);
+  }
 }
 
 function renderQuestion(q, seq) {
@@ -106,7 +151,27 @@ function renderQuestion(q, seq) {
 }
 
 function update() {
-  const { matched, useInc, active } = applyFilters();
+  const incIds = idList(inc.value), useInc = incIds.length > 0;
+  const excSet = new Set(idList(exc.value));
+  const terms = search.value.toLowerCase().split(/\s+/).filter(Boolean);
+
+  let matched, countSel, countGate;
+  if (useInc) {
+    // "Pokaż tylko id" is an override: exactly those ids, in pasted order, deduped
+    const seen = new Set();
+    matched = incIds.filter(h => byHash[h] && !seen.has(h) && seen.add(h)).map(h => byHash[h]);
+    const shown = new Set(matched.map(q => q.hash)); // facets inert; counts describe the shown set
+    countSel = EMPTY_SELECTIONS;
+    countGate = h => shown.has(h);
+  } else {
+    const gate = h => !excSet.has(h) && terms.every(t => byHash[h]._search.includes(t));
+    const hits = new Set(Facets.matchedHashes(INDEX, selections, gate, universe));
+    matched = DATA.filter(q => hits.has(q.hash)); // DATA order = original document order
+    countSel = selections;
+    countGate = gate;
+  }
+
+  // page + render
   const pages = Math.max(1, Math.ceil(matched.length / PAGE_SIZE));
   page = Math.min(Math.max(1, page), pages);
   const start = (page - 1) * PAGE_SIZE;
@@ -118,9 +183,22 @@ function update() {
     p.querySelector('.prev').disabled = page === 1;
     p.querySelector('.next').disabled = page === pages;
   }
+
+  // facet counts (drill-down); ponytail: O(facets × universe) per change, fine at ~3k rows
+  for (const f of FACETS) {
+    const counts = Facets.facetCounts(INDEX, countSel, countGate, f.key, universe);
+    const spans = countSpans[f.key];
+    for (const v in spans) {
+      const n = counts[v] || 0;
+      spans[v].textContent = n;
+      spans[v].closest('.facet-opt').classList.toggle('dim', n === 0 && !selections[f.key].has(v));
+    }
+  }
+
+  const active = useInc || excSet.size > 0 || terms.length > 0 || FACETS.some(f => selections[f.key].size);
+  count.textContent = active ? `${matched.length} zadań` : '';
   const arks = new Set(matched.map(q => q._ark));
   setsummary.textContent = `${matched.length} zadań z ${arks.size} arkuszy`;
-  count.textContent = active ? `${matched.length} zadań` : '';
 }
 
 function updateSelected() {
@@ -142,38 +220,17 @@ loadData().then(data => {
     q._ark = q.id.replace(/_q\d+$/, '');
     byHash[q.hash] = q;
   }
-  // populate selects from values present in the data
-  const addOpt = (parent, value, label) => {
-    const o = document.createElement('option');
-    o.value = value; o.textContent = label;
-    parent.append(o);
-  };
-  const present = new Set(DATA.flatMap(q => q.topics || [])), seen = new Set();
-  for (const [cat, leaves] of CATALOG) {
-    const hit = leaves.filter(l => present.has(l));
-    hit.forEach(l => seen.add(l));
-    if (!hit.length) continue;
-    const g = document.createElement('optgroup');
-    g.label = cat;
-    hit.forEach(l => addOpt(g, l, l));
-    topic.append(g);
-  }
-  const extra = [...present].filter(l => !seen.has(l)).sort();
-  if (extra.length) {
-    const g = document.createElement('optgroup');
-    g.label = '(poza katalogiem)';
-    extra.forEach(l => addOpt(g, l, l));
-    topic.append(g);
-  }
-  const distinct = f => [...new Set(DATA.map(f))].filter(v => v != null).sort();
-  Object.keys(TYPE_LABELS).filter(t => DATA.some(q => q.type === t)).forEach(t => addOpt(form, t, TYPE_LABELS[t]));
-  distinct(q => q.stage).forEach(v => addOpt(etap, v, v));
-  distinct(q => q.school_type).forEach(v => addOpt(school, v, SCHOOL_LABELS[v] || v));
-  distinct(q => q.wojewodztwo).forEach(v => addOpt(woj, v, v));
-  distinct(q => q.school_year).forEach(v => addOpt(year, v, v));
-  [...new Set(DATA.map(q => q.points))].sort((a, b) => a - b).forEach(v => addOpt(points, String(v), `${v}p`));
+  INDEX = buildIndexFromData();
+  universe = new Set(Object.keys(byHash));
+  buildFacetUI();
+
   // events
-  attrSelects.forEach(s => s.onchange = refilter);
+  facetsEl.addEventListener('change', e => {
+    if (!e.target.matches('.facet-opt input')) return;
+    const key = e.target.closest('.facet').dataset.facet, v = e.target.value;
+    e.target.checked ? selections[key].add(v) : selections[key].delete(v);
+    refilter();
+  });
   search.oninput = debounce(refilter, 200);
   inc.oninput = exc.oninput = refilter;
   for (const p of pagers) {

@@ -5,7 +5,11 @@
 // Usage: node build.mjs   (cwd doesn't matter)
 import { readdirSync, readFileSync, writeFileSync, rmSync } from 'node:fs';
 import { createHash } from 'node:crypto';
+import { gzipSync } from 'node:zlib';
 import { fileURLToPath } from 'node:url';
+
+// the browser fetches the .json files over http(s); gzip size ≈ what goes over the wire
+const gz = s => `${(s.length / 1024).toFixed(0)} KB (${(gzipSync(s).length / 1024).toFixed(0)} KB gzip)`;
 
 const here = fileURLToPath(new URL('.', import.meta.url));
 const dataDir = fileURLToPath(new URL('data/', import.meta.url));
@@ -43,7 +47,7 @@ for (const s of STAGES) {
   const json = JSON.stringify(qs);
   writeFileSync(jsonPath, json);
   writeFileSync(jsPath, `window.DATA = window.DATA || [];\nwindow.DATA.push(...${json});\n`);
-  console.log(`${s}: ${qs.length} questions, ${json.length} bytes (.json), + .js shard`);
+  console.log(`${s}: ${qs.length} questions, ${gz(json)} (.json), + .js shard`);
   total += qs.length;
 }
 console.log(`total: ${total} questions`);

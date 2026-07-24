@@ -3,18 +3,13 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Wszystkie zadania</title>
 <link rel="stylesheet" href="app.css">
+<script defer src="facets.js"></script>
 <script defer src="app.js"></script>
 </head>
 <body>
 <aside class="sidebar">
 <label>Szukaj: <input type="text" id="search" placeholder="słowo w treści…"></label>
-<label>Temat: <select id="topic"><option value="">Wszystkie tematy</option></select></label>
-<label>Forma: <select id="form"><option value="">Każda forma</option></select></label>
-<label>Etap: <select id="etap"><option value="">Każdy etap</option></select></label>
-<label>Typ szkoły: <select id="school"><option value="">Każdy typ szkoły</option></select></label>
-<label>Województwo: <select id="woj"><option value="">Wszystkie województwa</option></select></label>
-<label>Rok: <select id="year"><option value="">Wszystkie lata</option></select></label>
-<label>Punkty: <select id="points"><option value="">Każda liczba pkt</option></select></label>
+<div id="facets"></div>
 <label>Pokaż tylko id: <input type="text" id="include" placeholder="hash, hash, …"></label>
 <label>Pomiń id: <input type="text" id="exclude" placeholder="hash, hash, …"></label>
 <div id="count"></div>

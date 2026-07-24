@@ -36,6 +36,20 @@ select{font:inherit;padding:.35rem}
 .sidebar label{display:block;font-size:.85rem;color:#444}
 .sidebar select,.sidebar input[type=text]{width:100%;box-sizing:border-box;margin-top:.15rem}
 .sidebar input[type=text]{font:inherit;padding:.3rem}
+/* faceted filters: heading + scrollable checkbox list with live counts */
+.facet{margin-top:.1rem}
+.facet-h{font-size:.85rem;font-weight:bold;color:#333;margin:.3rem 0 .1rem}
+.facet-list{list-style:none;margin:0;padding:.1rem 0;max-height:11rem;overflow:auto;
+  border:1px solid #ddd;border-radius:4px;background:#fafafa}
+.facet-cat{font-size:.72rem;color:#888;font-weight:bold;padding:.3rem .45rem .05rem}
+.facet-opt{margin:0}
+.facet-opt label{display:flex;align-items:baseline;gap:.35rem;padding:.1rem .45rem;
+  font-size:.8rem;color:#222;cursor:pointer;margin:0}
+.facet-opt input{width:auto;margin:0;flex:0 0 auto}
+.facet-opt .opt-l{flex:1 1 auto;min-width:0;overflow-wrap:anywhere}
+.facet-opt .opt-c{flex:0 0 auto;color:#888;font-size:.75rem;font-variant-numeric:tabular-nums}
+.facet-opt.dim{opacity:.4}
+.facet-opt.dim label{cursor:default}
 .selrow{display:flex;flex-direction:column;gap:.4rem;margin-top:.3rem}
 .selrow button{width:100%}
 #selected{font-family:monospace;font-size:.8rem;width:100%;box-sizing:border-box;resize:vertical}
