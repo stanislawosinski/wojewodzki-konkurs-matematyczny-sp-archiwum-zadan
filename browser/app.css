@@ -41,6 +41,13 @@ select{font:inherit;padding:.35rem}
 .sidebar label{display:block;font-size:.85rem;color:#444}
 .sidebar select,.sidebar input[type=text]{width:100%;box-sizing:border-box;margin-top:.15rem}
 .sidebar input[type=text]{font:inherit;padding:.3rem}
+/* clear-"×" tucked inside the search box, shown only when it has text */
+.searchwrap{position:relative;display:block;margin-top:.15rem}
+.searchwrap #search{margin-top:0;padding-right:1.6rem}
+#clearSearch{position:absolute;right:.15rem;top:50%;transform:translateY(-50%);
+  border:none;background:none;color:#999;font-size:1.15rem;line-height:1;cursor:pointer;padding:.1rem .3rem}
+#clearSearch:hover{color:#333}
+#clearSearch[hidden]{display:none}
 /* faceted filters: heading + scrollable checkbox list with live counts */
 #facets{display:flex;flex-direction:column;gap:1.5em}
 .facet-h{font-size:.85rem;font-weight:bold;color:#333;margin:0 0 .25rem}

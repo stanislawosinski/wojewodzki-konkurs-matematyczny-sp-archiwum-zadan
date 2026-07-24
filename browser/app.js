@@ -56,7 +56,7 @@ const $ = id => document.getElementById(id);
 const search = $('search'), inc = $('include'), exc = $('exclude'),
   count = $('count'), selected = $('selected'), setsummary = $('setsummary'),
   qlist = $('qlist'), facetsEl = $('facets'),
-  clearFilters = $('clearFilters'), clearFacets = $('clearFacets');
+  clearFilters = $('clearFilters'), clearFacets = $('clearFacets'), clearSearch = $('clearSearch');
 const pagers = [...document.querySelectorAll('.pager')];
 
 let DATA = [], byHash = {}, INDEX = {}, universe = new Set();
@@ -202,6 +202,7 @@ function update() {
   count.textContent = active ? `${matched.length} zadań` : '';
   clearFilters.hidden = !active;   // "Wyczyść wszystko": any filtering at all
   clearFacets.hidden = !anyFacet;  // "Wyczyść filtry": facet checkboxes only (.clearrow reserves the space)
+  clearSearch.hidden = !search.value; // the "×" inside the search box
   const arks = new Set(matched.map(q => q._ark));
   setsummary.textContent = `${matched.length} zadań z ${arks.size} arkuszy`;
 }
@@ -293,6 +294,12 @@ loadData().then(data => {
     refilter();
   }, 200);
   inc.oninput = exc.oninput = replace;
+  search.addEventListener('input', () => { clearSearch.hidden = !search.value; }); // instant, not debounced
+  clearSearch.onclick = () => {
+    if (!search.value) return;
+    search.value = ''; clearSearch.hidden = true; search.focus();
+    writeUrl(false); refilter(); // clearing removes q in place, like backspacing to empty
+  };
   addEventListener('popstate', applyState);
   for (const p of pagers) {
     p.querySelector('.prev').onclick = () => { page--; update(); scrollTo(0, 0); };

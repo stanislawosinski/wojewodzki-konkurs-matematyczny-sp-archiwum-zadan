@@ -8,7 +8,12 @@
 </head>
 <body>
 <aside class="sidebar">
-<label>Szukaj: <input type="text" id="search" placeholder="słowo w treści…"></label>
+<label>Szukaj:
+<span class="searchwrap">
+<input type="text" id="search" placeholder="słowo w treści…">
+<button type="button" id="clearSearch" title="Wyczyść wyszukiwanie" aria-label="Wyczyść wyszukiwanie" hidden>×</button>
+</span>
+</label>
 <div class="clearrow">
 <a href="#" id="clearFacets" hidden>Wyczyść filtry</a>
 <a href="#" id="clearFilters" hidden>Wyczyść wszystko</a>
