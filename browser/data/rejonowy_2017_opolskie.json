@@ -1,0 +1,272 @@
+{
+  "source_file": "rejonowy/2017_opolskie.pdf",
+  "answers_file": "rejonowy/2017_opolskie_answers.pdf",
+  "competition": "XVII Wojewódzki Konkurs Matematyczny dla uczniów szkół podstawowych województwa opolskiego",
+  "school_type": "podstawowa",
+  "stage": "rejonowy",
+  "wojewodztwo": "opolskie",
+  "school_year": "2016/2017",
+  "date": null,
+  "total_questions": 11,
+  "max_points": 40,
+  "questions": [
+    {
+      "id": "rejonowy_2017_opolskie_q1",
+      "number": 1,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Przy każdym zdaniu wpisz TAK lub NIE.</p><p>Suma liczby −5 i jej odwrotności wynosi:</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>5</mn><mfrac><mn>1</mn><mn>5</mn></mfrac></math>"
+        },
+        {
+          "label": "2",
+          "html": "0"
+        },
+        {
+          "label": "3",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>4</mn><mfrac><mn>4</mn><mn>5</mn></mfrac></math>"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PFF",
+        "solution_html": "<p>Odwrotnością liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>5</mn></math> jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mfrac><mn>1</mn><mn>5</mn></mfrac></math>. Ich suma wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>5</mn><mo>+</mo><mo>(</mo><mo>−</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>)</mo><mo>=</mo><mo>−</mo><mn>5</mn><mfrac><mn>1</mn><mn>5</mn></mfrac></mrow></math>, więc poprawna jest tylko pierwsza wartość (TAK, NIE, NIE). Wartość 0 byłaby sumą liczby −5 i liczby do niej przeciwnej, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>4</mn><mfrac><mn>4</mn><mn>5</mn></mfrac></mrow></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>5</mn><mo>+</mo><mfrac><mn>1</mn><mn>5</mn></mfrac></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2017_opolskie_q2",
+      "number": 2,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Wielokąt ma 5 przekątnych.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Suma miar kątów wewnętrznych tego wielokąta wynosi 540°."
+        },
+        {
+          "label": "2",
+          "html": "Jeżeli zwiększymy liczbę boków o 1, to liczba przekątnych zwiększy się o 4."
+        },
+        {
+          "label": "3",
+          "html": "Ten wielokąt może mieć co najwyżej 3 kąty proste."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PPP",
+        "solution_html": "<p>Liczba przekątnych wielokąta o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> bokach wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>n</mi><mo>(</mo><mi>n</mi><mo>−</mo><mn>3</mn><mo>)</mo></mrow><mn>2</mn></mfrac></math>. Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mi>n</mi><mo>(</mo><mi>n</mi><mo>−</mo><mn>3</mn><mo>)</mo></mrow><mn>2</mn></mfrac><mo>=</mo><mn>5</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>=</mo><mn>5</mn></mrow></math> (pięciokąt). Suma kątów wewnętrznych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>5</mn><mo>−</mo><mn>2</mn><mo>)</mo><mo>·</mo><mn>180</mn><mo>°</mo><mo>=</mo><mn>540</mn><mo>°</mo></mrow></math> (TAK). Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>=</mo><mn>6</mn></mrow></math> przekątnych jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>6</mn><mo>·</mo><mn>3</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>9</mn></mrow></math>, czyli o 4 więcej (TAK). Cztery kąty proste dałyby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><mn>90</mn><mo>°</mo><mo>=</mo><mn>360</mn><mo>°</mo></mrow></math>, a piąty kąt musiałby mieć 180° — to niemożliwe, więc pięciokąt ma co najwyżej 3 kąty proste (TAK).</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2017_opolskie_q3",
+      "number": 3,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "zliczanie / metody zliczania",
+        "podzielność"
+      ],
+      "prompt_html": "<p>Zosia wypisała wszystkie liczby trzycyfrowe, których suma cyfr wynosi 4. Natomiast Filip wypisał wszystkie liczby trzycyfrowe, których suma cyfr wynosi co najwyżej 3.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Więcej liczb wypisała Zosia."
+        },
+        {
+          "label": "2",
+          "html": "Filip wypisał więcej liczb parzystych niż Zosia."
+        },
+        {
+          "label": "3",
+          "html": "Zosia wypisała więcej liczb podzielnych przez 4 niż Filip."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FPF",
+        "solution_html": "<p>Zosia wypisała liczby trzycyfrowe o sumie cyfr 4 — jest ich 10. Filip wypisał liczby o sumie cyfr 1, 2 lub 3 — również 10 (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>6</mn><mo>=</mo><mn>10</mn></mrow></math>), więc liczb jest tyle samo (NIE). Parzystych jest u Zosi 6, a u Filipa 7 — Filip ma ich więcej (TAK). Podzielnych przez 4 jest u Zosi 3 (112, 220, 400), a u Filipa 4 (100, 120, 200, 300) — Zosia ma ich mniej (NIE).</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2017_opolskie_q4",
+      "number": 4,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "trójkąty",
+        "geometria"
+      ],
+      "prompt_html": "<p>Z trzech trójkątów równobocznych zbudowano trapez równoramienny. Obwód jednego trójkąta wynosi 15 cm.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Obwód trapezu wynosi 45 cm."
+        },
+        {
+          "label": "2",
+          "html": "Wysokość trapezu ma długość 5 cm."
+        },
+        {
+          "label": "3",
+          "html": "Gdybyśmy zbudowali trapez z trójkątów o obwodzie większym o 3 cm, to obwód trapezu byłby większy o 5 cm."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FFP",
+        "solution_html": "<p>Bok każdego trójkąta ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>5</mn></mrow></math> cm. Trapez ma podstawy 5 cm i 10 cm oraz dwa ramiona po 5 cm, więc jego obwód wynosi 25 cm (NIE — nie 45 cm). Wysokość trapezu jest równa wysokości trójkąta równobocznego o boku 5 cm, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>5</mn><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac><mo>≈</mo><mn>4,33</mn></mrow></math> cm (NIE — nie 5 cm). Gdy bok trójkąta wzrośnie do 6 cm (obwód większy o 3 cm), obwód trapezu wyniesie 30 cm, czyli o 5 cm więcej (TAK).</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2017_opolskie_q5",
+      "number": 5,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "podzielność"
+      ],
+      "prompt_html": "<p>Przy każdym zdaniu wpisz TAK lub NIE.</p><p>Iloczyn trzech różnych liczb pierwszych może być:</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "liczbą parzystą."
+        },
+        {
+          "label": "2",
+          "html": "liczbą podzielną przez 4."
+        },
+        {
+          "label": "3",
+          "html": "równy 15."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PFF",
+        "solution_html": "<p>Iloczyn trzech różnych liczb pierwszych, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>30</mn></mrow></math>, może być parzysty, gdy jednym z czynników jest 2 (TAK). Nie może być podzielny przez 4, bo czynnik 2 występuje co najwyżej raz — liczby są różne (NIE). Nie może być równy 15, bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>=</mo><mn>3</mn><mo>·</mo><mn>5</mn></mrow></math> jest iloczynem tylko dwóch liczb pierwszych (NIE).</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2017_opolskie_q6",
+      "number": 6,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "podzielność",
+        "zliczanie / metody zliczania"
+      ],
+      "prompt_html": "<p>Janek wypisał na tablicy wszystkie liczby naturalne od 1 do 300. Następnie skreślił liczby podzielne przez 3, potem skreślił liczby podzielne przez 5. Chciał policzyć, ile pozostało liczb, ale gdy wrócił po przerwie, tablica była zmazana. Pomóż Jankowi obliczyć, ile liczb pozostało na tablicy nieskreślonych, bez ich ponownego wypisywania i skreślania.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "160",
+        "solution_html": "<p>Wśród liczb od 1 do 300 podzielnych przez 3 jest 100, podzielnych przez 5 jest 60, a podzielnych przez 15 jest 20. Skreślono więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mo>+</mo><mn>60</mn><mo>−</mo><mn>20</mn><mo>=</mo><mn>140</mn></mrow></math> liczb. Pozostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>300</mn><mo>−</mo><mn>140</mn><mo>=</mo><mn>160</mn></mrow></math> liczb.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2017_opolskie_q7",
+      "number": 7,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Przez wierzchołek kwadratu poprowadzono prostą, która podzieliła kwadrat na trójkąt o polu 10 cm² i trapez o polu 15 cm². Oblicz długość krótszej podstawy trapezu.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "1 cm",
+        "solution_html": "<p>Pole kwadratu to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mo>+</mo><mn>15</mn><mo>=</mo><mn>25</mn></mrow></math> cm², więc jego bok ma 5 cm. Prosta z wierzchołka odcina trójkąt prostokątny, którego jedną przyprostokątną jest bok kwadratu (5 cm). Z pola <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>5</mn><mo>·</mo><mi>h</mi><mo>=</mo><mn>10</mn></mrow></math> wynika <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><mn>4</mn></mrow></math> cm, więc na sąsiednim boku pozostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>−</mo><mn>4</mn><mo>=</mo><mn>1</mn></mrow></math> cm. Krótsza podstawa trapezu ma 1 cm (dłuższa to bok kwadratu, 5 cm).</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2017_opolskie_q8",
+      "number": 8,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "podzielność",
+        "zliczanie / metody zliczania"
+      ],
+      "prompt_html": "<p>Ania postanowiła ułożyć zdjęcia w albumie. Zdjęcia są w dwóch rozmiarach, większe mieszczą się po trzy na jednej stronie albumu, a mniejsze po osiem. Udało jej się ułożyć 80 zdjęć, wśród nich były zdjęcia mniejsze i większe. Nie było strony zapełnionej częściowo. Każda strona zawierała zdjęcia jednej wielkości. Ile Ania mogła mieć większych, a ile mniejszych zdjęć? Podaj wszystkie możliwości.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "72 większe i 8 mniejszych, 48 większych i 32 mniejsze albo 24 większe i 56 mniejszych",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę stron ze zdjęciami większymi (po 3), a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> — ze zdjęciami mniejszymi (po 8). Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>8</mn><mi>y</mi><mo>=</mo><mn>80</mn></mrow></math>, przy czym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>≥</mo><mn>1</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>≥</mo><mn>1</mn></mrow></math>. Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>80</mn><mo>−</mo><mn>8</mn><mi>y</mi></mrow></math> musi być podzielna przez 3, co daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>1</mn></mrow></math>, 4 lub 7. Stąd trzy możliwości: 72 większe i 8 mniejszych, 48 większych i 32 mniejsze oraz 24 większe i 56 mniejszych.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2017_opolskie_q9",
+      "number": 9,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "bryły",
+        "procenty"
+      ],
+      "prompt_html": "<p>Drewniany klocek w kształcie sześcianu, o krawędzi długości 3 dm, rozcięto na dwa jednakowe prostopadłościany. O ile decymetrów kwadratowych pole powierzchni całkowitej jednego z tych prostopadłościanów jest mniejsze od pola powierzchni sześcianu? O ile procent powierzchnia tego prostopadłościanu jest mniejsza od powierzchni sześcianu?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "mniejsze o 18 dm², czyli o 33⅓%",
+        "solution_html": "<p>Pole powierzchni sześcianu o krawędzi 3 dm wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>·</mo><msup><mn>3</mn><mn>2</mn></msup><mo>=</mo><mn>54</mn></mrow></math> dm². Po przecięciu powstają prostopadłościany o wymiarach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>×</mo><mn>3</mn><mo>×</mo><mn>1,5</mn></mrow></math> dm; pole powierzchni jednego z nich to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mo>(</mo><mn>3</mn><mo>·</mo><mn>3</mn><mo>+</mo><mn>3</mn><mo>·</mo><mn>1,5</mn><mo>+</mo><mn>3</mn><mo>·</mo><mn>1,5</mn><mo>)</mo><mo>=</mo><mn>36</mn></mrow></math> dm². Różnica wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>54</mn><mo>−</mo><mn>36</mn><mo>=</mo><mn>18</mn></mrow></math> dm². Procentowo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>18</mn><mn>54</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math>, czyli powierzchnia prostopadłościanu jest mniejsza o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>33</mn><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>%</mo></mrow></math> (≈ 33,3%).</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2017_opolskie_q10",
+      "number": 10,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "procenty",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Przed świętami na bazar przywieziono choinki na sprzedaż. Pierwszego dnia sprzedano 20% z nich i w efekcie zostało o 90 sztuk więcej niż sprzedano. Ile choinek przywieziono na bazar?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "150",
+        "solution_html": "<p>Sprzedano 20% choinek, a zostało 80%. Różnica <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>80</mn><mo>%</mo><mo>−</mo><mn>20</mn><mo>%</mo><mo>=</mo><mn>60</mn><mo>%</mo></mrow></math> wszystkich choinek to 90 sztuk, więc wszystkich było <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>90</mn><mo>:</mo><mn>0,6</mn><mo>=</mo><mn>150</mn></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2017_opolskie_q11",
+      "number": 11,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "statystyka opisowa"
+      ],
+      "prompt_html": "<p>Kasia i jej znajomi pisali test, z którego uzyskali średnią punktów 27,5. Ile punktów uzyskała Kasia, jeżeli jej znajomi uzyskali odpowiednio: 35, 17, 24, 18 i 42 punkty?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "29",
+        "solution_html": "<p>Kasia i pięcioro znajomych to 6 osób, więc suma punktów wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>·</mo><mn>27,5</mn><mo>=</mo><mn>165</mn></mrow></math>. Znajomi zdobyli łącznie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>35</mn><mo>+</mo><mn>17</mn><mo>+</mo><mn>24</mn><mo>+</mo><mn>18</mn><mo>+</mo><mn>42</mn><mo>=</mo><mn>136</mn></mrow></math> punktów. Kasia uzyskała <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>165</mn><mo>−</mo><mn>136</mn><mo>=</mo><mn>29</mn></mrow></math> punktów.</p>"
+      }
+    }
+  ]
+}

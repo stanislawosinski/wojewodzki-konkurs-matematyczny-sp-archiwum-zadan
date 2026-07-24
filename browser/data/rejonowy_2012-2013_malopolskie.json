@@ -1,0 +1,503 @@
+{
+  "source_file": "rejonowy/2012-2013_malopolskie.pdf",
+  "answers_file": "rejonowy/2012-2013_malopolskie_answers.pdf",
+  "competition": "Małopolski Konkurs Matematyczny",
+  "school_type": "podstawowa",
+  "stage": "rejonowy",
+  "wojewodztwo": "malopolskie",
+  "school_year": "2012/2013",
+  "date": "2012-12-03",
+  "total_questions": 23,
+  "max_points": 40,
+  "questions": [
+    {
+      "id": "rejonowy_2012-2013_malopolskie_q1",
+      "number": 1,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "liczby rzymskie"
+      ],
+      "prompt_html": "<p>Pan Antoni urodził się w MCMLXVII roku. Ile lat będzie miał w MMXIII?</p>",
+      "choices": [
+        { "label": "A", "html": "68" },
+        { "label": "B", "html": "66" },
+        { "label": "C", "html": "48" },
+        { "label": "D", "html": "46" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2012-2013_malopolskie_q2",
+      "number": 2,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Różnica liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mfrac><mn>1</mn><mn>2</mn></mfrac></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mfrac><mn>3</mn><mn>7</mn></mfrac></math> wynosi:</p>",
+      "choices": [
+        { "label": "A", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mfrac><mn>1</mn><mn>14</mn></mfrac></math>" },
+        { "label": "B", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mfrac><mn>13</mn><mn>14</mn></mfrac></math>" },
+        { "label": "C", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>−</mo><mn>4</mn><mfrac><mn>1</mn><mn>14</mn></mfrac><mo>)</mo></math>" },
+        { "label": "D", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>−</mo><mn>3</mn><mfrac><mn>13</mn><mn>14</mn></mfrac><mo>)</mo></math>" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2012-2013_malopolskie_q3",
+      "number": 3,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Położenie punktów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi></math> na osi określają współrzędne:</p>",
+      "choices": [
+        { "label": "A", "html": "K = 4,875,  L = 5,375" },
+        { "label": "B", "html": "K = 4,875,  L = 5,25" },
+        { "label": "C", "html": "K = 4,9,  L = 5,25" },
+        { "label": "D", "html": "K = 4,85,  L = 5,35" }
+      ],
+      "figures": [
+        "rejonowy_2012-2013_malopolskie_q3_fig1.png"
+      ],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2012-2013_malopolskie_q4",
+      "number": 4,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "statystyka opisowa",
+        "procenty"
+      ],
+      "prompt_html": "<p>Uczniom pewnej szkoły podstawowej zadano pytanie: „Jaki jest twój ulubiony przedmiot szkolny?” Wyniki przedstawiono na diagramie procentowym.</p><p>Wybierz zdanie <u>fałszywe</u>:</p>",
+      "choices": [
+        { "label": "A", "html": "Matematyka jest ulubionym przedmiotem więcej niż połowy pytanych uczniów." },
+        { "label": "B", "html": "Troje uczniów bardziej lubi język polski niż przyrodę." },
+        { "label": "C", "html": "WF cieszy się dwa razy większą popularnością niż przyroda." },
+        { "label": "D", "html": "Matematyka i WF są ulubionymi przedmiotami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math> uczniów tej szkoły." }
+      ],
+      "figures": [
+        "rejonowy_2012-2013_malopolskie_q4_fig1.png"
+      ],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2012-2013_malopolskie_q5",
+      "number": 5,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "zagadki logiczne",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Magda i Jacek są rodzeństwem. Magda ma tyle samo braci, co sióstr, a Jacek ma dwa razy więcej sióstr niż braci. Ile dzieci liczy rodzina Magdy i Jacka?</p>",
+      "choices": [
+        { "label": "A", "html": "5" },
+        { "label": "B", "html": "6" },
+        { "label": "C", "html": "7" },
+        { "label": "D", "html": "8" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2012-2013_malopolskie_q6",
+      "number": 6,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Powierzchnia 999 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>m</mi><mn>2</mn></msup></math> to około:</p>",
+      "choices": [
+        { "label": "A", "html": "1 a" },
+        { "label": "B", "html": "10 a" },
+        { "label": "C", "html": "1 ha" },
+        { "label": "D", "html": "10 ha" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2012-2013_malopolskie_q7",
+      "number": 7,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Podczas grzybobrania Natalia znalazła <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> prawdziwków, o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> mniej kurek i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> razy więcej podgrzybków niż prawdziwków. Liczbę grzybów, które znalazła Natalia, przedstawia wyrażenie:</p>",
+      "choices": [
+        { "label": "A", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,75</mn><mi>x</mi><mo>+</mo><mi>x</mi><mi>y</mi></math>" },
+        { "label": "B", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>0,25</mn><mi>x</mi><mi>y</mi></math>" },
+        { "label": "C", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>x</mi><mo>−</mo><mn>0,25</mn><mo>)</mo><mo>·</mo><mi>y</mi></math>" },
+        { "label": "D", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mi>y</mi><mo>+</mo><mn>1,25</mn><mi>x</mi></math>" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2012-2013_malopolskie_q8",
+      "number": 8,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Przekątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> dzieli czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> na dwa trójkąty. Obwód trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> równa się 33 cm, a obwód trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACD</mi></math> jest równy 24 cm. Oblicz długość przekątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math>, jeżeli obwód czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> jest równy 35 cm.</p>",
+      "choices": [
+        { "label": "A", "html": "12 cm" },
+        { "label": "B", "html": "5 cm" },
+        { "label": "C", "html": "11 cm" },
+        { "label": "D", "html": "13 cm" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2012-2013_malopolskie_q9",
+      "number": 9,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "bryły"
+      ],
+      "prompt_html": "<p>Ile co najwyżej kostek w kształcie sześcianu o krawędzi 2 cm zmieści się w pudełku prostopadłościennym o wymiarach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>11</mn><mtext> cm</mtext><mo>×</mo><mn>3</mn><mtext> dm</mtext><mo>×</mo><mn>0,21</mn><mtext> m</mtext></math>?</p>",
+      "choices": [
+        { "label": "A", "html": "750" },
+        { "label": "B", "html": "866" },
+        { "label": "C", "html": "693" },
+        { "label": "D", "html": "86" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2012-2013_malopolskie_q10",
+      "number": 10,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "statystyka opisowa"
+      ],
+      "prompt_html": "<p>Monika otrzymała z pięciu sprawdzianów z matematyki następujące oceny: 5, 2, 5, 3, 2. Aby średnia jej ocen ze sprawdzianów wynosiła co najmniej 4, wystarczy, aby z dwóch następnych sprawdzianów otrzymała oceny:</p>",
+      "choices": [
+        { "label": "A", "html": "4, 4" },
+        { "label": "B", "html": "5, 5" },
+        { "label": "C", "html": "5, 6" },
+        { "label": "D", "html": "5, 4" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2012-2013_malopolskie_q11",
+      "number": 11,
+      "page": 4,
+      "type": "closed_single",
+      "points": 2,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Pani Mariola kupiła 1,7 kg pomarańczy po 5,60 zł/kg oraz banany po 4,80 zł/kg. Z dwudziestu złotych otrzymała resztę 2,80 zł. Ile kilogramów bananów kupiła pani Mariola?</p>",
+      "choices": [
+        { "label": "A", "html": "1,5 kg" },
+        { "label": "B", "html": "1,6 kg" },
+        { "label": "C", "html": "1,7 kg" },
+        { "label": "D", "html": "1,8 kg" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2012-2013_malopolskie_q12",
+      "number": 12,
+      "page": 5,
+      "type": "closed_single",
+      "points": 2,
+      "topics": [
+        "trójkąty",
+        "geometria"
+      ],
+      "prompt_html": "<p><em>Kąt zewnętrzny wielokąta – to kąt przyległy do danego kąta wewnętrznego wielokąta. Na rysunku obok zarówno kąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>β</mi><mo>′</mo></msup></math>, jak i kąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>δ</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>δ</mi><mo>′</mo></msup></math> są zewnętrzne do wielokąta w różnych wierzchołkach.</em></p><p>Suma wszystkich kątów zewnętrznych trójkąta równobocznego wynosi:</p>",
+      "choices": [
+        { "label": "A", "html": "180°" },
+        { "label": "B", "html": "360°" },
+        { "label": "C", "html": "720°" },
+        { "label": "D", "html": "900°" }
+      ],
+      "figures": [
+        "rejonowy_2012-2013_malopolskie_q12_fig1.png"
+      ],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2012-2013_malopolskie_q13",
+      "number": 13,
+      "page": 5,
+      "type": "closed_single",
+      "points": 2,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Na pomalowanie płotu wokół domu Bartek potrzebowałby 5 dni, a jego młodszy brat Kuba potrzebowałby 20 dni. Ile dni malowaliby wspólnie ten płot?</p>",
+      "choices": [
+        { "label": "A", "html": "dwa dni" },
+        { "label": "B", "html": "trzy dni" },
+        { "label": "C", "html": "trzy i pół dnia" },
+        { "label": "D", "html": "cztery dni" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2012-2013_malopolskie_q14",
+      "number": 14,
+      "page": 5,
+      "type": "closed_single",
+      "points": 2,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Krótsza podstawa i wysokość trapezu równoramiennego mają po 8 cm długości, a kąty wewnętrzne przy krótszej podstawie mają miarę 135°. Pole tego trapezu wynosi:</p>",
+      "choices": [
+        { "label": "A", "html": "64 cm²" },
+        { "label": "B", "html": "96 cm²" },
+        { "label": "C", "html": "128 cm²" },
+        { "label": "D", "html": "zbyt mało danych, aby można było obliczyć to pole." }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2012-2013_malopolskie_q15",
+      "number": 15,
+      "page": 5,
+      "type": "closed_single",
+      "points": 2,
+      "topics": [
+        "zliczanie / metody zliczania",
+        "kombinatoryka"
+      ],
+      "prompt_html": "<p>Pająk rozpina nitki pajęczyny we wnętrzu kwadratowej drewnianej ramki. Początek i koniec każdej nitki znajduje się w wierzchołku lub na środku boku, nigdy jednak na tym samym boku kwadratu. Ile nitek może w ten sposób rozpiąć?</p>",
+      "choices": [
+        { "label": "A", "html": "12" },
+        { "label": "B", "html": "16" },
+        { "label": "C", "html": "20" },
+        { "label": "D", "html": "24" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2012-2013_malopolskie_q16",
+      "number": 16,
+      "page": 5,
+      "type": "closed_single",
+      "points": 2,
+      "topics": [
+        "proporcjonalność prosta",
+        "geometria"
+      ],
+      "prompt_html": "<p>Na planie miasta wykonanym w skali <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>:</mo><mn>12&#8239;000</mn></math> zaznaczono park jako prostokąt o wymiarach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2,5</mn><mtext> cm</mtext><mo>×</mo><mn>4,2</mn><mtext> cm</mtext></math>. Ile metrów siatki potrzeba na ogrodzenie tego parku?</p>",
+      "choices": [
+        { "label": "A", "html": "80,4 m" },
+        { "label": "B", "html": "160,8 m" },
+        { "label": "C", "html": "804 m" },
+        { "label": "D", "html": "1608 m" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2012-2013_malopolskie_q17",
+      "number": 17,
+      "page": 6,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "procenty",
+        "inne"
+      ],
+      "prompt_html": "<p>Karol ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> gier komputerowych, a Maciek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> gier. Ustal, ile gier będzie miał każdy z nich, jeśli:</p><p>a) Karol podaruje Maćkowi 6 gier,<br>b) Maciek podaruje Karolowi 15% swoich gier.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "a) Karol: x − 6, Maciek: y + 6;  b) Karol: x + 0,15y, Maciek: 0,85y",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2012-2013_malopolskie_q18",
+      "number": 18,
+      "page": 6,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "statystyka opisowa"
+      ],
+      "prompt_html": "<p>Asia, Basia, Jasia i Kasia rozwiązywały trudne zadanie matematyczne. W tabeli podano czasy, w jakich dziewczynki uporały się z zadaniem.</p><table><tbody><tr><td>Asia</td><td>7 min. 5 s</td></tr><tr><td>Basia</td><td>552 s</td></tr><tr><td>Jasia</td><td>8 min. 52 s</td></tr><tr><td>Kasia</td><td>443 s</td></tr></tbody></table><p>a) Która dziewczynka najdłużej rozwiązywała zadanie?<br>b) Jaki był średni czas rozwiązywania zadania przez dziewczynki?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "a) Basia;  b) 488 s (8 min i 8 s)",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2012-2013_malopolskie_q19",
+      "number": 19,
+      "page": 6,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "zagadki logiczne"
+      ],
+      "prompt_html": "<p>Wpisując w puste pola schematu □ □ + □ × □ □ cyfry 1, 2, 3, 4, 5 (w każde pole inną cyfrę), najmniejszy wynik, jaki można otrzymać, to:</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "59",
+        "solution_html": "<p>Najmniejszy wynik otrzymamy, gdy jako pojedynczy mnożnik wpiszemy cyfrę 1, a najmniejsze z pozostałych cyfr umieścimy w rzędach dziesiątek. Na przykład <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mo>+</mo><mn>1</mn><mo>×</mo><mn>35</mn><mo>=</mo><mn>24</mn><mo>+</mo><mn>35</mn><mo>=</mo><mn>59</mn></math>.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2012-2013_malopolskie_q20",
+      "number": 20,
+      "page": 6,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Na rysunku podano wymiary trójkąta prostokątnego, równoległoboku, trapezu prostokątnego i rombu.</p><p>Równe pola mają:</p>",
+      "choices": [],
+      "figures": [
+        "rejonowy_2012-2013_malopolskie_q20_fig1.png"
+      ],
+      "answer": {
+        "correct": "trójkąt, trapez i romb",
+        "solution_html": "<p>Pola poszczególnych figur: trójkąt prostokątny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>6</mn><mo>·</mo><mn>8</mn><mo>=</mo><mn>24</mn></math>, równoległobok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>20</mn></math>, trapez prostokątny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>4</mn><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>4</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>24</mn></math>, romb (przekątne 8 i 6) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>8</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>24</mn></math>. Równe pola (24) mają trójkąt, trapez i romb.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2012-2013_malopolskie_q21",
+      "number": 21,
+      "page": 7,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "prędkość / droga / czas",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Piotrek przebiegł dystans 9 km ze średnią szybkością 5 m/s. Paweł przebiegł ten sam dystans ze średnią szybkością o 2 km/h większą. O ile minut czas biegu Pawła był krótszy od czasu biegu Piotrka?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "3 minuty",
+        "solution_html": "<p>Prędkość Piotrka: 5 m/s = 18 km/h. Czas biegu Piotrka: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mfrac><mrow><mn>9</mn><mtext> km</mtext></mrow><mrow><mn>18</mn><mtext> km/h</mtext></mfrac><mo>=</mo><mn>0,5</mn><mtext> h</mtext><mo>=</mo><mn>30</mn><mtext> min</mtext></math>. Prędkość Pawła: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>18</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>20</mn></math> km/h. Czas biegu Pawła: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi><mo>=</mo><mfrac><mrow><mn>9</mn><mtext> km</mtext></mrow><mrow><mn>20</mn><mtext> km/h</mtext></mfrac><mo>=</mo><mfrac><mn>9</mn><mn>20</mn></mfrac><mtext> h</mtext><mo>=</mo><mn>27</mn><mtext> min</mtext></math>. Różnica: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi><mo>−</mo><mi>t</mi><mo>=</mo><mn>30</mn><mo>−</mo><mn>27</mn><mo>=</mo><mn>3</mn></math> min.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2012-2013_malopolskie_q22",
+      "number": 22,
+      "page": 7,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Przed szkołą jest klomb w kształcie kwadratu o boku długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. Kwiaty są posadzone tylko w części zamalowanej na rysunku. Zapisz działanie pozwalające na obliczenie pola powierzchni zajmowanego przez kwiaty i doprowadź je do najprostszej postaci.</p>",
+      "choices": [],
+      "figures": [
+        "rejonowy_2012-2013_malopolskie_q22_fig1.png"
+      ],
+      "answer": {
+        "correct": "a² − 2,5a + 9 lub (2a² − 5a + 18)/2",
+        "solution_html": "<p>Pole kwadratu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup></math>. Odejmujemy pola dwóch białych trójkątów. Trójkąt po lewej stronie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>3</mn><mo>·</mo><mo>(</mo><mi>a</mi><mo>−</mo><mn>4</mn><mo>)</mo><mo>=</mo><mn>1,5</mn><mi>a</mi><mo>−</mo><mn>6</mn></math>. Trójkąt po prawej stronie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>2</mn><mo>·</mo><mo>(</mo><mi>a</mi><mo>−</mo><mn>3</mn><mo>)</mo><mo>=</mo><mi>a</mi><mo>−</mo><mn>3</mn></math>. Pole zajmowane przez kwiaty: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mo>(</mo><mn>1,5</mn><mi>a</mi><mo>−</mo><mn>6</mn><mo>)</mo><mo>−</mo><mo>(</mo><mi>a</mi><mo>−</mo><mn>3</mn><mo>)</mo><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mn>2,5</mn><mi>a</mi><mo>+</mo><mn>9</mn></math>.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2012-2013_malopolskie_q23",
+      "number": 23,
+      "page": 8,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "bryły",
+        "procenty"
+      ],
+      "prompt_html": "<p>Pokój Marzeny ma kształt graniastosłupa czworokątnego o podstawie prostokąta o wymiarach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mtext> m</mtext><mo>×</mo><mn>3</mn><mtext> m</mtext></math> i wysokości 2,5 m. W ferie zimowe ściany i sufit tego pokoju zostaną pomalowane dwa razy, przy czym przy drugim malowaniu zużywa się o 30% mniej farby niż przy pierwszym, a litr farby wystarcza na pomalowanie 8 – 10 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>m</mi><mn>2</mn></msup></math> powierzchni. Oblicz, ile co najmniej pojemników z farbą należy kupić, by mieć pewność, że farby nie zabraknie, jeśli wiemy, że jeden taki pojemnik zawiera 3 litry farby.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "4 pojemniki",
+        "solution_html": "<p>Pole ścian i sufitu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>4</mn><mo>·</mo><mn>2,5</mn><mo>+</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>2,5</mn><mo>+</mo><mn>3</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>47</mn></math> m². Aby mieć pewność, że farby nie zabraknie, przyjmujemy, że litr wystarcza na 8 m². Pierwsze malowanie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>47</mn><mo>:</mo><mn>8</mn><mo>=</mo><mn>5,875</mn></math> l. Drugie malowanie (o 30% mniej): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5,875</mn><mo>·</mo><mn>0,7</mn><mo>=</mo><mn>4,1125</mn></math> l. Razem: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5,875</mn><mo>+</mo><mn>4,1125</mn><mo>=</mo><mn>9,9875</mn></math> l. Ponieważ jeden pojemnik mieści 3 l, potrzeba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9,9875</mn><mo>:</mo><mn>3</mn><mo>≈</mo><mn>3,33</mn></math>, czyli należy kupić 4 pojemniki.</p>"
+      }
+    }
+  ]
+}

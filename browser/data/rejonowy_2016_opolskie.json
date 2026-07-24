@@ -1,0 +1,274 @@
+{
+  "source_file": "rejonowy/2016_opolskie.pdf",
+  "answers_file": "rejonowy/2016_opolskie_answers.pdf",
+  "competition": "XVI Wojewódzki Konkurs Matematyczny dla uczniów szkół podstawowych województwa opolskiego",
+  "school_type": "podstawowa",
+  "stage": "rejonowy",
+  "wojewodztwo": "opolskie",
+  "school_year": "2015/2016",
+  "date": null,
+  "total_questions": 11,
+  "max_points": 40,
+  "questions": [
+    {
+      "id": "rejonowy_2016_opolskie_q1",
+      "number": 1,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "zliczanie / metody zliczania",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Kasjerka musi wydać 111 zł. Dysponuje tylko monetami 5 zł i 2 zł.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Może to zrobić wykorzystując 24 monety."
+        },
+        {
+          "label": "2",
+          "html": "Może to zrobić wykorzystując 50 monet."
+        },
+        {
+          "label": "3",
+          "html": "Może to zrobić na 11 sposobów."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PFP",
+        "solution_html": "<p>Szukamy rozwiązań równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mi>a</mi><mo>+</mo><mn>2</mn><mi>b</mi><mo>=</mo><mn>111</mn></mrow></math> w liczbach całkowitych nieujemnych (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> — liczba monet 5 zł, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> — liczba monet 2 zł). Dla 24 monet: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>24</mn></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>a</mi><mo>=</mo><mn>111</mn><mo>−</mo><mn>48</mn><mo>=</mo><mn>63</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>21</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>3</mn></mrow></math> — możliwe (TAK). Dla 50 monet: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>a</mi><mo>=</mo><mn>111</mn><mo>−</mo><mn>100</mn><mo>=</mo><mn>11</mn></mrow></math> — brak rozwiązania w liczbach całkowitych (NIE). Ponieważ 111 jest nieparzyste, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> musi być nieparzyste, a z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mi>a</mi><mo>≤</mo><mn>111</mn></mrow></math> wynika <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>∈</mo><mo>{</mo><mn>1</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>5</mn><mo>,</mo><mo>…</mo><mo>,</mo><mn>21</mn><mo>}</mo></mrow></math> — jest 11 takich wartości, więc 11 sposobów (TAK).</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2016_opolskie_q2",
+      "number": 2,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "podzielność"
+      ],
+      "prompt_html": "<p>Przy każdym zdaniu wpisz TAK lub NIE.</p><p>Spośród czterech kolejnych liczb naturalnych zawsze znajdzie się liczba:</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "podzielna przez 3"
+        },
+        {
+          "label": "2",
+          "html": "podzielna przez 4"
+        },
+        {
+          "label": "3",
+          "html": "podzielna przez 5"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PPF",
+        "solution_html": "<p>Wśród każdych trzech kolejnych liczb naturalnych jest liczba podzielna przez 3, więc tym bardziej wśród czterech — TAK. Wśród czterech kolejnych liczb dokładnie jedna jest podzielna przez 4 — TAK. Natomiast liczba podzielna przez 5 nie musi wystąpić, np. wśród 1, 2, 3, 4 nie ma wielokrotności 5 — NIE.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2016_opolskie_q3",
+      "number": 3,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "procenty"
+      ],
+      "prompt_html": "<p>25% liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest równe 20% liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest o 5% większa od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>."
+        },
+        {
+          "label": "2",
+          "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest mniejsza od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>."
+        },
+        {
+          "label": "3",
+          "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest o 20% większa od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FPF",
+        "solution_html": "<p>Z równości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,25</mn><mi>a</mi><mo>=</mo><mn>0,20</mn><mi>b</mi></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>0,8</mn><mi>b</mi></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>1,25</mn><mi>a</mi></mrow></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest o 20% mniejsza od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> (nie o 5% większa) — NIE. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest mniejsza od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> — TAK. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest o 25% większa od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, a nie o 20% — NIE.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2016_opolskie_q4",
+      "number": 4,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "prędkość / droga / czas"
+      ],
+      "prompt_html": "<p>Pociąg wyjechał z Opola o 21:23 i dojechał do Wrocławia o 22:47. Odległość z Opola do Wrocławia wynosi 84 km.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Pociąg jechał 1,4 godziny."
+        },
+        {
+          "label": "2",
+          "html": "Pociąg jechał z prędkością 60 km/h."
+        },
+        {
+          "label": "3",
+          "html": "Gdyby pociąg jechał z prędkością o 10 km/h większą, to czas przejazdu skróciłby się o 12 minut."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PPP",
+        "solution_html": "<p>Czas jazdy: od 21:23 do 22:47 to 1 h 24 min <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>=</mo><mn>1,4</mn></mrow></math> h — TAK. Prędkość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>84</mn><mo>:</mo><mn>1,4</mn><mo>=</mo><mn>60</mn></mrow></math> km/h — TAK. Przy prędkości 70 km/h czas wynosiłby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>84</mn><mo>:</mo><mn>70</mn><mo>=</mo><mn>1,2</mn></mrow></math> h <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>=</mo><mn>1</mn></mrow></math> h 12 min, czyli o 12 min krócej — TAK.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2016_opolskie_q5",
+      "number": 5,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "trójkąty",
+        "zliczanie / metody zliczania"
+      ],
+      "prompt_html": "<p>Jeden bok trójkąta ma długość 2 cm, drugi – 10 cm, a trzeci bok ma długość wyrażoną liczbą naturalną.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Obwód trójkąta może wynosić 20 cm."
+        },
+        {
+          "label": "2",
+          "html": "Obwód trójkąta może wynosić 21 cm."
+        },
+        {
+          "label": "3",
+          "html": "Takie trójkąty są 3."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FPP",
+        "solution_html": "<p>Z nierówności trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mo>−</mo><mn>2</mn><mo>&lt;</mo><mi>c</mi><mo>&lt;</mo><mn>10</mn><mo>+</mo><mn>2</mn></mrow></math>, więc trzeci bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>&lt;</mo><mi>c</mi><mo>&lt;</mo><mn>12</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>∈</mo><mo>{</mo><mn>9</mn><mo>,</mo><mn>10</mn><mo>,</mo><mn>11</mn><mo>}</mo></mrow></math>. Obwód <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>=</mo><mn>12</mn><mo>+</mo><mi>c</mi></mrow></math>. Obwód 20 cm dawałby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><mn>8</mn></mrow></math> — niemożliwe (NIE). Obwód 21 cm daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><mn>9</mn></mrow></math> — możliwe (TAK). Takich trójkątów jest 3 — TAK.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2016_opolskie_q6",
+      "number": 6,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "podzielność"
+      ],
+      "prompt_html": "<p>Podaj:</p><ul><li>a) najmniejszą i największą liczbę dwucyfrową podzielną przez 15,</li><li>b) najmniejszą i największą liczbę trzycyfrową podzielną przez 15,</li><li>c) najmniejszą i największą liczbę czterocyfrową podzielną przez 15.</li></ul>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "a) 15 i 90; b) 105 i 990; c) 1005 i 9990",
+        "solution_html": "<p>Wielokrotności 15 to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>·</mo><mi>k</mi></mrow></math>. Dwucyfrowe: od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>·</mo><mn>1</mn><mo>=</mo><mn>15</mn></mrow></math> do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>90</mn></mrow></math>. Trzycyfrowe: od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>·</mo><mn>7</mn><mo>=</mo><mn>105</mn></mrow></math> do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>·</mo><mn>66</mn><mo>=</mo><mn>990</mn></mrow></math>. Czterocyfrowe: od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>·</mo><mn>67</mn><mo>=</mo><mn>1005</mn></mrow></math> do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>·</mo><mn>666</mn><mo>=</mo><mn>9990</mn></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2016_opolskie_q7",
+      "number": 7,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "proporcjonalność prosta",
+        "prędkość / droga / czas"
+      ],
+      "prompt_html": "<p>Samochód pani <em>Nieznanej</em> spala średnio 6 litrów benzyny na 100 km. Jeden litr benzyny kosztuje 4,34 zł. Jaki będzie koszt benzyny zużytej na trasie 275 km? Ile kilometrów może przejechać pani <em>Nieznana</em> mając w baku tylko 25,5 litra benzyny?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Koszt benzyny: 71,61 zł; zasięg: 425 km",
+        "solution_html": "<p>Na 275 km samochód zużyje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>·</mo><mfrac><mn>275</mn><mn>100</mn></mfrac><mo>=</mo><mn>16,5</mn></mrow></math> litra benzyny, co kosztuje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>16,5</mn><mo>·</mo><mn>4,34</mn><mo>=</mo><mn>71,61</mn></mrow></math> zł. Mając 25,5 litra, przy zużyciu 6 litrów na 100 km, przejedzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>25,5</mn><mn>6</mn></mfrac><mo>·</mo><mn>100</mn><mo>=</mo><mn>425</mn></mrow></math> km.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2016_opolskie_q8",
+      "number": 8,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "równania z jedną zmienną",
+        "statystyka opisowa",
+        "procenty"
+      ],
+      "prompt_html": "<p>W klasie 6a ze sprawdzianu z matematyki jedna osoba uzyskała ocenę celującą, jedna niedostateczną, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>8</mn></mfrac></math> klasy – ocenę bardzo dobrą, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> – dobrą, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> – dostateczną, a pozostałych pięciu uczniów – dopuszczającą.</p><ul><li>a) Ilu uczniów liczy ta klasa?</li><li>b) Jaki procent klasy uzyskał co najmniej ocenę dostateczną?</li><li>c) Ilu uczniów musiałoby poprawić ocenę o jeden stopień, żeby średnia wynosiła 3,5?</li></ul>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "a) 24 uczniów; b) 75%; c) 2 uczniów",
+        "solution_html": "<p>a) Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> to liczba uczniów. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>+</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mi>n</mi><mo>+</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>n</mi><mo>+</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>n</mi><mo>+</mo><mn>5</mn><mo>=</mo><mi>n</mi></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>17</mn><mn>24</mn></mfrac><mi>n</mi><mo>=</mo><mi>n</mi><mo>−</mo><mn>7</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>7</mn><mn>24</mn></mfrac><mi>n</mi><mo>=</mo><mn>7</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>=</mo><mn>24</mn></mrow></math>. b) Oceny: bardzo dobra 3, dobra 8, dostateczna 6, celująca 1 — co najmniej dostateczną ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>24</mn><mo>−</mo><mn>1</mn><mo>−</mo><mn>5</mn><mo>=</mo><mn>18</mn></mrow></math> uczniów, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>18</mn><mn>24</mn></mfrac><mo>=</mo><mn>75</mn><mo>%</mo></mrow></math>. c) Suma ocen wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>+</mo><mn>1</mn><mo>+</mo><mn>5</mn><mo>·</mo><mn>3</mn><mo>+</mo><mn>4</mn><mo>·</mo><mn>8</mn><mo>+</mo><mn>3</mn><mo>·</mo><mn>6</mn><mo>+</mo><mn>2</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>82</mn></mrow></math>. Aby średnia była 3,5, suma ma wynosić <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3,5</mn><mo>·</mo><mn>24</mn><mo>=</mo><mn>84</mn></mrow></math>, brakuje 2, a poprawa oceny o jeden stopień zwiększa sumę o 1 — potrzeba więc 2 uczniów.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2016_opolskie_q9",
+      "number": 9,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Proste <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi></math> są równoległe. Wyznacz kąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> zaznaczone na rysunku. Pamiętaj, żeby wyjaśnić, jak obliczyłeś miary tych kątów.</p>",
+      "choices": [],
+      "figures": [
+        "rejonowy_2016_opolskie_q9_fig1.png"
+      ],
+      "answer": {
+        "correct": "α = 40°, β = 140°",
+        "solution_html": "<p>Obie sieczne wraz z prostą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi></math> tworzą trójkąt. Sieczna oznaczona kątem 20° tworzy z prostą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi></math> kąt 20°, a zaznaczony przy prostej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> kąt 120° jest kątem wierzchołkowym kąta wewnętrznego tego trójkąta w punkcie przecięcia siecznych. Trzeci kąt trójkąta (przy prostej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi></math>) ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>°</mo><mo>−</mo><mn>120</mn><mo>°</mo><mo>−</mo><mn>20</mn><mo>°</mo><mo>=</mo><mn>40</mn><mo>°</mo></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi></math> są równoległe, kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> jest równy temu kątowi, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>=</mo><mn>40</mn><mo>°</mo></mrow></math>. Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> jest kątem przyległym do tego kąta 40° przy prostej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>β</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>40</mn><mo>°</mo><mo>=</mo><mn>140</mn><mo>°</mo></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2016_opolskie_q10",
+      "number": 10,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "geometria",
+        "procenty"
+      ],
+      "prompt_html": "<p>Obwód rombu wynosi 69 cm. Bok tego rombu jest o 15% dłuższy od wysokości. Oblicz pole tego rombu.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "258,75 cm²",
+        "solution_html": "<p>Bok rombu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>69</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>17,25</mn></mrow></math> cm. Bok jest o 15% dłuższy od wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>17,25</mn><mo>=</mo><mn>1,15</mn><mi>h</mi></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><mn>15</mn></mrow></math> cm. Pole rombu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>=</mo><mtext>bok</mtext><mo>·</mo><mi>h</mi><mo>=</mo><mn>17,25</mn><mo>·</mo><mn>15</mn><mo>=</mo><mn>258,75</mn></mrow></math> cm².</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2016_opolskie_q11",
+      "number": 11,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "bryły"
+      ],
+      "prompt_html": "<p>Ze 105 sześcianików jednostkowych zbudowano możliwie największy kompletny sześcian. Z pozostałych zbudowano kolejny możliwie największy sześcian i dalej kolejny.</p><ul><li>a) Czy wykorzystano wszystkie sześcianiki?</li><li>b) Ile zbudowano sześcianów o krawędzi większej niż jeden?</li></ul>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "a) Nie — pozostało 6 sześcianików; b) 3 sześciany",
+        "solution_html": "<p>Największy sześcian z 105 sześcianików ma krawędź 4 (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>4</mn><mn>3</mn></msup><mo>=</mo><mn>64</mn></mrow></math>), zostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>105</mn><mo>−</mo><mn>64</mn><mo>=</mo><mn>41</mn></mrow></math>. Z 41 największy sześcian ma krawędź 3 (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>3</mn><mn>3</mn></msup><mo>=</mo><mn>27</mn></mrow></math>), zostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>41</mn><mo>−</mo><mn>27</mn><mo>=</mo><mn>14</mn></mrow></math>. Z 14 największy sześcian ma krawędź 2 (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2</mn><mn>3</mn></msup><mo>=</mo><mn>8</mn></mrow></math>), zostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>14</mn><mo>−</mo><mn>8</mn><mo>=</mo><mn>6</mn></mrow></math>. Z 6 sześcianików nie da się już zbudować sześcianu o krawędzi 2. a) Nie — pozostało 6 nierozdysponowanych sześcianików. b) Zbudowano 3 sześciany o krawędzi większej niż jeden (o krawędziach 4, 3 i 2).</p>"
+      }
+    }
+  ]
+}
