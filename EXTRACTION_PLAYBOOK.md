@@ -81,9 +81,10 @@ STEPS:
    appear in the QUESTION paper — diagrams that appear only in the answer key are NOT extracted.
 7. Use the PRINTED HEADER for school_year / voivodeship — the filename year is often off by one
    (e.g. a "2020_x" file whose header says 2019/2020). Trust the header.
-8. Annulled questions ("Zadanie anulowano") — keep its points, answer.correct null. Two cases:
-   (a) the paper still PRINTS the question -> keep the real question text + an italic annulment
-   note; (b) the paper REPLACED the question with only the notice -> keep just the notice.
+8. Annulled questions ("Zadanie anulowano") — keep its points, answer.correct null, and add
+   `"annulled": true` to the question object (SCHEMA.md; omit the field on all other questions).
+   Two cases: (a) the paper still PRINTS the question -> keep the real question text + an italic
+   annulment note; (b) the paper REPLACED the question with only the notice -> keep just the notice.
 9. Validate: python3 -c "import json;json.load(open('browser/data/<NAME>.json'));print('ok')"
    and confirm per-question points sum to the stated max where the PDF states one.
 

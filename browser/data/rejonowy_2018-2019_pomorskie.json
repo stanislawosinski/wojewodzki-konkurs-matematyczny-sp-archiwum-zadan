@@ -1,0 +1,190 @@
+{
+  "source_file": "rejonowy/2018-2019_pomorskie.pdf",
+  "answers_file": "rejonowy/2018-2019_pomorskie_answers.pdf",
+  "competition": "Wojewódzki Konkurs Matematyczny dla uczniów szkół podstawowych od klas IV województwa pomorskiego",
+  "school_type": "podstawowa",
+  "stage": "rejonowy",
+  "wojewodztwo": "pomorskie",
+  "school_year": "2018/2019",
+  "date": null,
+  "total_questions": 10,
+  "max_points": 20,
+  "questions": [
+    {
+      "id": "rejonowy_2018-2019_pomorskie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "podzielność",
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>Uzasadnij, &#380;e liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2019</mn><mn>2019</mn></msup><mo>&#8722;</mo><msup><mn>123</mn><mn>122</mn></msup></mrow></math> jest podzielna przez 10.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Cyfrą jedności różnicy jest 0, więc liczba jest podzielna przez 10.",
+        "solution_html": "<p>Cyfr&#261; jedno&#347;ci liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2019</mn><mn>2019</mn></msup></math> jest 9. Cyfr&#281; jedno&#347;ci ustalamy, badaj&#261;c kolejne pot&#281;gi liczby 9 &#8212; ich cyfry jedno&#347;ci tworz&#261; cykl 9, 1; poniewa&#380; wyk&#322;adnik 2019 jest nieparzysty, cyfr&#261; jedno&#347;ci jest 9.</p><p>Cyfr&#261; jedno&#347;ci liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>123</mn><mn>122</mn></msup></math> jest r&#243;wnie&#380; 9. Cyfry jedno&#347;ci kolejnych pot&#281;g liczby 3 tworz&#261; cykl 3, 9, 7, 1; poniewa&#380; 122 daje reszt&#281; 2 z dzielenia przez 4, cyfr&#261; jedno&#347;ci jest 9.</p><p>Zatem cyfr&#261; jedno&#347;ci r&#243;&#380;nicy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2019</mn><mn>2019</mn></msup><mo>&#8722;</mo><msup><mn>123</mn><mn>122</mn></msup></mrow></math> jest 0, czyli liczba ta jest podzielna przez 10.</p><p><em>Cz&#281;&#347;ciowo (1 pkt): znalezienie cyfry jedno&#347;ci jednej z tych liczb.</em></p>"
+      }
+    },
+    {
+      "id": "rejonowy_2018-2019_pomorskie_q2",
+      "number": 2,
+      "page": 3,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "procenty"
+      ],
+      "prompt_html": "<p>Beduini, podr&#243;&#380;uj&#261;c przez pustyni&#281;, ka&#380;dego dnia wypijali tak&#261; sam&#261; ilo&#347;&#263; wody. Po dziewi&#281;ciu dniach zorientowali si&#281;, &#380;e wypili ju&#380; 60% zapas&#243;w wody i zosta&#322;o im 48 buk&#322;ak&#243;w z wod&#261;. Oblicz, o ile procent Beduini powinni zmniejszy&#263; dzienn&#261; racj&#281; wody, aby wystarczy&#322;o jej na kolejne 8 dni (po tyle samo wody na ka&#380;dy dzie&#324;).</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "o 25%",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczb&#281; wszystkich buk&#322;ak&#243;w z wod&#261;. Pozosta&#322;e 48 buk&#322;ak&#243;w to 40% zapas&#243;w, wi&#281;c <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>40</mn><mo>%</mo><mo>&#183;</mo><mi>x</mi><mo>=</mo><mn>48</mn></mrow></math>, sk&#261;d <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>120</mn></mrow></math>.</p><p>Przez pierwsze 9 dni Beduini wypili <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>60</mn><mo>%</mo><mo>&#183;</mo><mn>120</mn><mo>=</mo><mn>72</mn></mrow></math> buk&#322;aki, czyli dziennie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>72</mn><mo>:</mo><mn>9</mn><mo>=</mo><mn>8</mn></mrow></math> buk&#322;ak&#243;w. Aby pozosta&#322;e 48 buk&#322;ak&#243;w wystarczy&#322;o na 8 dni, dzienna racja powinna wynosi&#263; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>48</mn><mo>:</mo><mn>8</mn><mo>=</mo><mn>6</mn></mrow></math> buk&#322;ak&#243;w.</p><p>Racj&#281; nale&#380;y zmniejszy&#263; o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>&#8722;</mo><mn>6</mn><mo>=</mo><mn>2</mn></mrow></math> buk&#322;aki, czyli o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>2</mn><mn>8</mn></mfrac><mo>&#183;</mo><mn>100</mn><mo>%</mo><mo>=</mo><mn>25</mn><mo>%</mo></mrow></math>.</p><p>Odpowied&#378;: Beduini powinni zmniejszy&#263; dzienn&#261; racj&#281; wody o 25%.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2018-2019_pomorskie_q3",
+      "number": 3,
+      "page": 4,
+      "type": "open",
+      "points": 1,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Oblicz miar&#281; k&#261;ta wypuk&#322;ego, kt&#243;ry tworz&#261; wskaz&#243;wki zegara o godzinie 23:45.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "82,5°",
+        "solution_html": "<p>Wskaz&#243;wka godzinowa w ci&#261;gu 45 minut obraca si&#281; o k&#261;t <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>22,5</mn><mo>&#176;</mo></mrow></math>. Wskaz&#243;wka minutowa w ci&#261;gu 45 minut obraca si&#281; o k&#261;t <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>270</mn><mo>&#176;</mo></mrow></math>.</p><p>O godzinie 23:45 wskaz&#243;wka minutowa wskazuje 9, a wskaz&#243;wka godzinowa znajduje si&#281; mi&#281;dzy 11 a 12. K&#261;t wypuk&#322;y mi&#281;dzy tymi wskaz&#243;wkami ma miar&#281; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>60</mn><mo>&#176;</mo><mo>+</mo><mn>22,5</mn><mo>&#176;</mo><mo>=</mo><mn>82,5</mn><mo>&#176;</mo></mrow></math>.</p><p>Odpowied&#378;: k&#261;t wypuk&#322;y mi&#281;dzy wskaz&#243;wkami zegara o godzinie 23:45 ma miar&#281; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>82,5</mn><mo>&#176;</mo></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2018-2019_pomorskie_q4",
+      "number": 4,
+      "page": 5,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "trójkąty"
+      ],
+      "prompt_html": "<p>Na przed&#322;u&#380;eniach przeciwprostok&#261;tnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> tr&#243;jk&#261;ta prostok&#261;tnego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> zaznaczono punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math>, takie &#380;e <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AD</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>AC</mi><mo>|</mo></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>BE</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>BC</mi><mo>|</mo></mrow></math>. Oblicz miar&#281; k&#261;ta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DCE</mi></math>.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "135°",
+        "solution_html": "<p>Oznaczmy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mo>&#8737;</mo><mi>ACD</mi><mo>|</mo><mo>=</mo><mi>&#945;</mi></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mo>&#8737;</mo><mi>BCE</mi><mo>|</mo><mo>=</mo><mi>&#946;</mi></mrow></math>. Tr&#243;jk&#261;ty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCE</mi></math> s&#261; r&#243;wnoramienne (bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AD</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>AC</mi><mo>|</mo></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>BE</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>BC</mi><mo>|</mo></mrow></math>), wi&#281;c k&#261;ty przy podstawach s&#261; r&#243;wne, a k&#261;ty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>&#8737;</mo><mi>CAB</mi></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>&#8737;</mo><mi>CBA</mi></mrow></math> (jako k&#261;ty zewn&#281;trzne tych tr&#243;jk&#261;t&#243;w) maj&#261; miary <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>&#945;</mi></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>&#946;</mi></mrow></math>.</p><p>Tr&#243;jk&#261;t <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest prostok&#261;tny (k&#261;t prosty przy wierzcho&#322;ku C), wi&#281;c <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>&#945;</mi><mo>+</mo><mn>2</mn><mi>&#946;</mi><mo>=</mo><mn>90</mn><mo>&#176;</mo></mrow></math>, sk&#261;d <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>&#945;</mi><mo>+</mo><mi>&#946;</mi><mo>=</mo><mn>45</mn><mo>&#176;</mo></mrow></math>.</p><p>K&#261;t <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DCE</mi></math> sk&#322;ada si&#281; z k&#261;t&#243;w <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>&#8737;</mo><mi>DCA</mi></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>&#8737;</mo><mi>ACB</mi></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>&#8737;</mo><mi>BCE</mi></mrow></math>, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mo>&#8737;</mo><mi>DCE</mi><mo>|</mo><mo>=</mo><mi>&#945;</mi><mo>+</mo><mn>90</mn><mo>&#176;</mo><mo>+</mo><mi>&#946;</mi><mo>=</mo><mn>90</mn><mo>&#176;</mo><mo>+</mo><mn>45</mn><mo>&#176;</mo><mo>=</mo><mn>135</mn><mo>&#176;</mo></mrow></math>.</p><p>Odpowied&#378;: miara k&#261;ta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DCE</mi></math> jest r&#243;wna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>135</mn><mo>&#176;</mo></mrow></math>.</p><p><em>Cz&#281;&#347;ciowo (1 pkt): wykazanie, &#380;e <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mo>&#8737;</mo><mi>CAB</mi><mo>|</mo><mo>=</mo><mn>2</mn><mo>&#183;</mo><mo>|</mo><mo>&#8737;</mo><mi>ACD</mi><mo>|</mo></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mo>&#8737;</mo><mi>CBA</mi><mo>|</mo><mo>=</mo><mn>2</mn><mo>&#183;</mo><mo>|</mo><mo>&#8737;</mo><mi>BCE</mi><mo>|</mo></mrow></math>.</em></p>"
+      }
+    },
+    {
+      "id": "rejonowy_2018-2019_pomorskie_q5",
+      "number": 5,
+      "page": 6,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Nauczycielka matematyki napisa&#322;a swoj&#261; interpretacj&#281; bajki o Kopciuszku. Oto jej fragment:</p><p><em>Z&#322;a macocha wsypa&#322;a dwie miski ziaren soczewicy do wiadra z popio&#322;em i kaza&#322;a Kopciuszkowi w ci&#261;gu godziny wybra&#263; wszystkie ziarna. Ziarna stanowi&#322;y <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> masy tej mieszanki. Najpierw przylecia&#322;y go&#322;&#281;bie i wydzioba&#322;y z popio&#322;u <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac></math> wszystkich ziaren, potem przylecia&#322;y turkawki i wydzioba&#322;y 0,7 pozosta&#322;ych ziaren. Na koniec przylecia&#322;y wr&#243;ble i wydzioba&#322;y z popio&#322;u ostatnie 18 dag ziaren.</em></p><p>Oblicz, ile kilogram&#243;w wa&#380;y&#322;y ziarna soczewicy i ile kilogram&#243;w wa&#380;y&#322; popi&#243;&#322;.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "ziarna soczewicy: 1 kg, popiół: 3 kg",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza mas&#281; mieszanki. Masa ziaren soczewicy to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>x</mi></mrow></math>.</p><p>Go&#322;&#281;bie wydzioba&#322;y <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>&#183;</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>10</mn></mfrac><mi>x</mi></mrow></math>. Pozosta&#322;o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>x</mi><mo>&#8722;</mo><mfrac><mn>1</mn><mn>10</mn></mfrac><mi>x</mi><mo>=</mo><mfrac><mn>3</mn><mn>20</mn></mfrac><mi>x</mi></mrow></math> ziaren.</p><p>Turkawki wydzioba&#322;y <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,7</mn><mo>&#183;</mo><mfrac><mn>3</mn><mn>20</mn></mfrac><mi>x</mi><mo>=</mo><mfrac><mn>21</mn><mn>200</mn></mfrac><mi>x</mi></mrow></math>. Pozosta&#322;o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>3</mn><mn>20</mn></mfrac><mi>x</mi><mo>&#8722;</mo><mfrac><mn>21</mn><mn>200</mn></mfrac><mi>x</mi><mo>=</mo><mfrac><mn>9</mn><mn>200</mn></mfrac><mi>x</mi></mrow></math> ziaren, kt&#243;re wydzioba&#322;y wr&#243;ble.</p><p>Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>9</mn><mn>200</mn></mfrac><mi>x</mi><mo>=</mo><mn>18</mn></mrow></math> dag, sk&#261;d <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>400</mn></mrow></math> dag <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>=</mo><mn>4</mn></mrow></math> kg (masa mieszanki).</p><p>Masa ziaren soczewicy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>&#183;</mo><mn>400</mn></mrow></math> dag = 100 dag = 1 kg. Masa popio&#322;u: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>400</mn><mo>&#8722;</mo><mn>100</mn><mo>=</mo><mn>300</mn></mrow></math> dag = 3 kg.</p><p>Odpowied&#378;: ziarna soczewicy wa&#380;y&#322;y 1 kg, a popi&#243;&#322; wa&#380;y&#322; 3 kg.</p><p><em>Cz&#281;&#347;ciowo (1 pkt): zapisanie poprawnego r&#243;wnania pozwalaj&#261;cego obliczy&#263; mas&#281; mieszanki.</em></p>"
+      }
+    },
+    {
+      "id": "rejonowy_2018-2019_pomorskie_q6",
+      "number": 6,
+      "page": 7,
+      "type": "open",
+      "points": 1,
+      "topics": [
+        "trójkąty",
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>Udowodnij, &#380;e suma p&#243;l tr&#243;jk&#261;t&#243;w r&#243;wnobocznych zbudowanych na przyprostok&#261;tnych tr&#243;jk&#261;ta prostok&#261;tnego jest r&#243;wna polu tr&#243;jk&#261;ta r&#243;wnobocznego zbudowanego na przeciwprostok&#261;tnej tego tr&#243;jk&#261;ta.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Teza prawdziwa: suma pól trójkątów równobocznych na przyprostokątnych równa się polu trójkąta równobocznego na przeciwprostokątnej.",
+        "solution_html": "<p>Oznaczmy przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> przyprostok&#261;tne, a przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> przeciwprostok&#261;tn&#261; tr&#243;jk&#261;ta prostok&#261;tnego; wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo>=</mo><msup><mi>c</mi><mn>2</mn></msup></mrow></math> (twierdzenie Pitagorasa). Pole tr&#243;jk&#261;ta r&#243;wnobocznego o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><msqrt><mn>3</mn></msqrt><mn>4</mn></mfrac><msup><mi>d</mi><mn>2</mn></msup></mrow></math>.</p><p>St&#261;d suma p&#243;l tr&#243;jk&#261;t&#243;w na przyprostok&#261;tnych to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>a</mi></msub><mo>+</mo><msub><mi>P</mi><mi>b</mi></msub><mo>=</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>4</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>4</mn></mfrac><msup><mi>b</mi><mn>2</mn></msup><mo>=</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>4</mn></mfrac><mo>(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo>)</mo><mo>=</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>4</mn></mfrac><msup><mi>c</mi><mn>2</mn></msup><mo>=</mo><msub><mi>P</mi><mi>c</mi></msub></mrow></math>, czyli pole tr&#243;jk&#261;ta r&#243;wnobocznego na przeciwprostok&#261;tnej. To ko&#324;czy dow&#243;d.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2018-2019_pomorskie_q7",
+      "number": 7,
+      "page": 8,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "geometria",
+        "trójkąty"
+      ],
+      "prompt_html": "<p>Przek&#261;tne trapezu r&#243;wnoramiennego o wysoko&#347;ci 7 cm s&#261; wzajemnie prostopad&#322;e. Oblicz pole tego trapezu.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "49 cm²",
+        "solution_html": "<p>Oznaczmy podstawy trapezu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mi>b</mi></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>CD</mi><mo>|</mo><mo>=</mo><mi>a</mi></mrow></math>. Poniewa&#380; przek&#261;tne s&#261; prostopad&#322;e, a trapez jest r&#243;wnoramienny, tr&#243;jk&#261;ty utworzone przez przek&#261;tne i podstawy s&#261; prostok&#261;tne r&#243;wnoramienne. Wysoko&#347;&#263; trapezu jest wtedy r&#243;wna po&#322;owie sumy podstaw: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mn>2</mn></mfrac></mrow></math>.</p><p>St&#261;d pole trapezu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mn>2</mn></mfrac><mo>&#183;</mo><mi>h</mi><mo>=</mo><mi>h</mi><mo>&#183;</mo><mi>h</mi><mo>=</mo><mn>7</mn><mo>&#183;</mo><mn>7</mn><mo>=</mo><mn>49</mn></mrow></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mtext>cm</mtext></mrow><mn>2</mn></msup></math>.</p><p>Odpowied&#378;: pole trapezu jest r&#243;wne 49 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mtext>cm</mtext></mrow><mn>2</mn></msup></math>.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2018-2019_pomorskie_q8",
+      "number": 8,
+      "page": 9,
+      "type": "open",
+      "points": 1,
+      "topics": [
+        "potęgi i pierwiastki",
+        "usuwanie niewymierności z mianownika"
+      ],
+      "prompt_html": "<p>Oblicz warto&#347;&#263; wyra&#380;enia. Wynik przedstaw w postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><msqrt><mn>3</mn></msqrt></mrow></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> s&#261; liczbami wymiernymi.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><msqrt><mrow><msup><mn>10</mn><mn>2</mn></msup><mo>&#8722;</mo><msup><mn>6</mn><mn>2</mn></msup></mrow></msqrt><mn>3</mn></mfrac><mo>&#8722;</mo><mfrac><mrow><msqrt><mn>27</mn></msqrt><mo>&#8722;</mo><mn>3</mn></mrow><mrow><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow></mfrac><mo>&#8722;</mo><mfrac><mrow><msup><mn>4</mn><mn>6</mn></msup><mo>&#183;</mo><msup><mn>22</mn><mn>3</mn></msup></mrow><mrow><msup><mn>11</mn><mn>2</mn></msup><mo>&#183;</mo><msup><mn>2</mn><mn>16</mn></msup></mrow></mfrac></mrow></math></p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "−4⅓ + ½√3 (a = −13/3, b = 1/2)",
+        "solution_html": "<p>Obliczamy kolejne sk&#322;adniki. Pierwszy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><msqrt><mrow><msup><mn>10</mn><mn>2</mn></msup><mo>&#8722;</mo><msup><mn>6</mn><mn>2</mn></msup></mrow></msqrt><mn>3</mn></mfrac><mo>=</mo><mfrac><msqrt><mn>64</mn></msqrt><mn>3</mn></mfrac><mo>=</mo><mfrac><mn>8</mn><mn>3</mn></mfrac></mrow></math>.</p><p>Drugi: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><msqrt><mn>27</mn></msqrt><mo>&#8722;</mo><mn>3</mn></mrow><mrow><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>&#8722;</mo><mn>3</mn></mrow><mrow><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>9</mn><mo>&#8722;</mo><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow><mn>6</mn></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>&#8722;</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac></mrow></math>.</p><p>Trzeci: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><msup><mn>4</mn><mn>6</mn></msup><mo>&#183;</mo><msup><mn>22</mn><mn>3</mn></msup></mrow><mrow><msup><mn>11</mn><mn>2</mn></msup><mo>&#183;</mo><msup><mn>2</mn><mn>16</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mrow><msup><mn>2</mn><mn>15</mn></msup><mo>&#183;</mo><msup><mn>11</mn><mn>3</mn></msup></mrow><mrow><msup><mn>11</mn><mn>2</mn></msup><mo>&#183;</mo><msup><mn>2</mn><mn>16</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mn>11</mn><mn>2</mn></mfrac></mrow></math>.</p><p>Zatem warto&#347;&#263; wyra&#380;enia wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>8</mn><mn>3</mn></mfrac><mo>+</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac><mo>&#8722;</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>&#8722;</mo><mfrac><mn>11</mn><mn>2</mn></mfrac><mo>=</mo><mo>&#8722;</mo><mfrac><mn>13</mn><mn>3</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msqrt><mn>3</mn></msqrt></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>&#8722;</mo><mn>4</mn><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msqrt><mn>3</mn></msqrt></mrow></math> (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mo>&#8722;</mo><mfrac><mn>13</mn><mn>3</mn></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math>).</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2018-2019_pomorskie_q9",
+      "number": 9,
+      "page": 10,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "podzielność",
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>Wyka&#380;, &#380;e liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>+</mo><msup><mn>2</mn><mn>2</mn></msup><mo>+</mo><msup><mn>2</mn><mn>3</mn></msup><mo>+</mo><msup><mn>2</mn><mn>4</mn></msup><mo>+</mo><mo>&#8943;</mo><mo>+</mo><msup><mn>2</mn><mn>50</mn></msup></mrow></math> jest podzielna przez 3.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Liczba jest podzielna przez 3 (suma równa 3·(2 + 2³ + … + 2⁴⁹)).",
+        "solution_html": "<p>Grupujemy sk&#322;adniki parami:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>+</mo><msup><mn>2</mn><mn>2</mn></msup><mo>+</mo><msup><mn>2</mn><mn>3</mn></msup><mo>+</mo><msup><mn>2</mn><mn>4</mn></msup><mo>+</mo><mo>&#8943;</mo><mo>+</mo><msup><mn>2</mn><mn>50</mn></msup><mo>=</mo><mo>(</mo><mn>2</mn><mo>+</mo><msup><mn>2</mn><mn>2</mn></msup><mo>)</mo><mo>+</mo><mo>(</mo><msup><mn>2</mn><mn>3</mn></msup><mo>+</mo><msup><mn>2</mn><mn>4</mn></msup><mo>)</mo><mo>+</mo><mo>&#8943;</mo><mo>+</mo><mo>(</mo><msup><mn>2</mn><mn>49</mn></msup><mo>+</mo><msup><mn>2</mn><mn>50</mn></msup><mo>)</mo></mrow></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>=</mo><mn>2</mn><mo>(</mo><mn>1</mn><mo>+</mo><mn>2</mn><mo>)</mo><mo>+</mo><msup><mn>2</mn><mn>3</mn></msup><mo>(</mo><mn>1</mn><mo>+</mo><mn>2</mn><mo>)</mo><mo>+</mo><mo>&#8943;</mo><mo>+</mo><msup><mn>2</mn><mn>49</mn></msup><mo>(</mo><mn>1</mn><mo>+</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>3</mn><mo>(</mo><mn>2</mn><mo>+</mo><msup><mn>2</mn><mn>3</mn></msup><mo>+</mo><mo>&#8943;</mo><mo>+</mo><msup><mn>2</mn><mn>49</mn></msup><mo>)</mo></mrow></math></p><p>Poniewa&#380; dana suma jest iloczynem liczby 3 i pewnej liczby naturalnej, jest podzielna przez 3.</p><p><em>Cz&#281;&#347;ciowo (1 pkt): zapisanie sumy w postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>(</mo><mn>1</mn><mo>+</mo><mn>2</mn><mo>)</mo><mo>+</mo><msup><mn>2</mn><mn>3</mn></msup><mo>(</mo><mn>1</mn><mo>+</mo><mn>2</mn><mo>)</mo><mo>+</mo><mo>&#8943;</mo><mo>+</mo><msup><mn>2</mn><mn>49</mn></msup><mo>(</mo><mn>1</mn><mo>+</mo><mn>2</mn><mo>)</mo></mrow></math>.</em></p>"
+      }
+    },
+    {
+      "id": "rejonowy_2018-2019_pomorskie_q10",
+      "number": 10,
+      "page": 11,
+      "type": "closed_single",
+      "points": 3,
+      "topics": [
+        "potęgi i pierwiastki",
+        "inne"
+      ],
+      "prompt_html": "<p>W zadaniach zamkni&#281;tych dok&#322;adnie jedna odpowied&#378; jest poprawna. Zaznacz j&#261;.</p><p><strong>1.</strong> Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mrow><mo>(</mo><msup><mn>7</mn><mn>4</mn></msup><mo>)</mo></mrow><mrow><mo>&#8722;</mo><mn>5</mn></mrow></msup><mrow><msup><mrow><mo>(</mo><mo>&#8722;</mo><mn>7</mn><mo>)</mo></mrow><mn>4</mn></msup><mo>&#183;</mo><msup><mn>7</mn><mrow><mo>&#8722;</mo><mn>5</mn></mrow></msup></mrow></mfrac></math> jest r&#243;wna:</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>7</mn><mrow><mo>&#8722;</mo><mn>21</mn></mrow></msup></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>7</mn><mrow><mo>&#8722;</mo><mn>19</mn></mrow></msup></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math></li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>7</mn><mn>19</mn></msup></math></li></ul><p><strong>2.</strong> 500 mm to:</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>&#183;</mo><msup><mn>10</mn><mrow><mo>&#8722;</mo><mn>8</mn></mrow></msup></mrow></math> km</li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>&#183;</mo><msup><mn>10</mn><mrow><mo>&#8722;</mo><mn>6</mn></mrow></msup></mrow></math> km</li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>&#183;</mo><msup><mn>10</mn><mrow><mo>&#8722;</mo><mn>4</mn></mrow></msup></mrow></math> km</li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>&#183;</mo><msup><mn>10</mn><mn>8</mn></msup></mrow></math> km</li></ul><p><strong>3.</strong> Siedem litr&#243;w wody zmie&#347;ci si&#281; w pojemniku o obj&#281;to&#347;ci:</p><ul><li>A. 5000 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mtext>cm</mtext></mrow><mn>3</mn></msup></math></li><li>B. 0,01 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mtext>m</mtext></mrow><mn>3</mn></msup></math></li><li>C. 0,8 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mtext>dm</mtext></mrow><mn>3</mn></msup></math></li><li>D. 0,01 hl</li></ul><p><strong>4.</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mrow><mn>10</mn><mo>&#183;</mo><mn>11</mn></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>11</mn><mo>&#183;</mo><mn>12</mn></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>12</mn><mo>&#183;</mo><mn>13</mn></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>13</mn><mo>&#183;</mo><mn>14</mn></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>14</mn><mo>&#183;</mo><mn>15</mn></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>15</mn><mo>&#183;</mo><mn>16</mn></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>16</mn><mo>&#183;</mo><mn>17</mn></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>17</mn><mo>&#183;</mo><mn>18</mn></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>18</mn><mo>&#183;</mo><mn>19</mn></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>19</mn><mo>&#183;</mo><mn>20</mn></mrow></mfrac><mo>=</mo></mrow></math></p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>10</mn></mfrac></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>14</mn></mfrac></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>15</mn></mfrac></math></li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>20</mn></mfrac></math></li></ul>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "1 – B, 2 – C, 3 – B, 4 – D",
+        "solution_html": null
+      }
+    }
+  ]
+}

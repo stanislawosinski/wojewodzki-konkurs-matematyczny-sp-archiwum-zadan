@@ -1,0 +1,168 @@
+{
+  "source_file": "rejonowy/2019-2020_pomorskie.pdf",
+  "answers_file": "rejonowy/2019-2020_pomorskie_answers.pdf",
+  "competition": "Wojewódzki Konkurs Matematyczny dla uczniów klas IV-VIII szkół podstawowych województwa pomorskiego",
+  "school_type": "podstawowa",
+  "stage": "rejonowy",
+  "wojewodztwo": "pomorskie",
+  "school_year": "2019/2020",
+  "date": null,
+  "total_questions": 7,
+  "max_points": 20,
+  "questions": [
+    {
+      "id": "rejonowy_2019-2020_pomorskie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "procenty"
+      ],
+      "prompt_html": "<p>Liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> są dodatnie. Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest o 200% większa od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> jest o 100% większa od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> jest o 100% większa od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>. Oblicz, o ile procent liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest mniejsza od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math>.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "75%",
+        "solution_html": "<p>Kolejne liczby wyrażamy przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>3</mn><mi>a</mi></mrow></math> (o 200% większa), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><mn>2</mn><mi>b</mi><mo>=</mo><mn>6</mn><mi>a</mi></mrow></math> (o 100% większa od b), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>d</mi><mo>=</mo><mn>2</mn><mi>c</mi><mo>=</mo><mn>12</mn><mi>a</mi></mrow></math> (o 100% większa od c). Różnica <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>d</mi><mo>−</mo><mi>b</mi><mo>=</mo><mn>12</mn><mi>a</mi><mo>−</mo><mn>3</mn><mi>a</mi><mo>=</mo><mn>9</mn><mi>a</mi></mrow></math>, więc liczba b jest mniejsza od d o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>9</mn><mi>a</mi></mrow><mrow><mn>12</mn><mi>a</mi></mrow></mfrac><mo>·</mo><mn>100</mn><mo>%</mo><mo>=</mo><mn>75</mn><mo>%</mo></mrow></math>.</p><p>Odpowiedź: liczba b jest o 75% mniejsza od liczby d.</p><p><em>Częściowo (1 pkt): poprawne uzależnienie liczb b, c i d od liczby a.</em></p>"
+      }
+    },
+    {
+      "id": "rejonowy_2019-2020_pomorskie_q2",
+      "number": 2,
+      "page": 3,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "równania z jedną zmienną",
+        "zagadki logiczne"
+      ],
+      "prompt_html": "<p>Dwie beczki zawierają razem 240 litrów wody. Gdyby z pierwszej beczki przelać do drugiej tyle wody, żeby zawartość drugiej beczki podwoiła się, a następnie z drugiej beczki przelać do pierwszej tyle wody, żeby zawartość pierwszej beczki podwoiła się, to w obu beczkach byłoby tyle samo wody. Oblicz, ile litrów wody jest w każdej z tych beczek.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "I beczka: 150 l, II beczka: 90 l",
+        "solution_html": "<p>Po obu przelaniach w każdej beczce jest po <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>240</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>120</mn></mrow></math> litrów wody. Cofając drugie przelanie (podwojenie zawartości pierwszej beczki): przed nim w pierwszej beczce było <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>120</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>60</mn></mrow></math> litrów, a w drugiej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>120</mn><mo>+</mo><mn>60</mn><mo>=</mo><mn>180</mn></mrow></math> litrów. Cofając pierwsze przelanie (podwojenie zawartości drugiej beczki): przed nim w drugiej beczce było <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>90</mn></mrow></math> litrów, a w pierwszej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>60</mn><mo>+</mo><mn>90</mn><mo>=</mo><mn>150</mn></mrow></math> litrów.</p><p>Odpowiedź: w pierwszej beczce jest 150 litrów wody, a w drugiej 90 litrów.</p><p><em>Częściowo: 1 pkt za zauważenie, że ostatecznie w beczkach jest po 120 litrów; 2 pkt za obliczenie zawartości beczek przed drugim przelaniem.</em></p>"
+      }
+    },
+    {
+      "id": "rejonowy_2019-2020_pomorskie_q3",
+      "number": 3,
+      "page": 4,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "trójkąty",
+        "geometria"
+      ],
+      "prompt_html": "<p>W trójkącie ostrokątnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> poprowadzono dwie wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AE</mi></math>. Wiadomo, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>DB</mi><mo>|</mo><mo>=</mo><mn>2,5</mn></mrow></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>CD</mi><mo>|</mo><mo>=</mo><mn>5</mn></mrow></math> cm oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AE</mi><mo>|</mo><mo>=</mo><mn>4</mn></mrow></math> cm. Oblicz długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EB</mi></math>.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "|EB| = 2 cm",
+        "solution_html": "<p>Z trójkąta prostokątnego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDB</mi></math> (kąt prosty przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>) na mocy twierdzenia Pitagorasa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>|</mo><mi>CB</mi><mo>|</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>|</mo><mi>CD</mi><mo>|</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>|</mo><mi>DB</mi><mo>|</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mn>5</mn><mn>2</mn></msup><mo>+</mo><msup><mn>2,5</mn><mn>2</mn></msup><mo>=</mo><mfrac><mn>125</mn><mn>4</mn></mfrac></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>CB</mi><mo>|</mo><mo>=</mo><mfrac><mrow><mn>5</mn><msqrt><mn>5</mn></msqrt></mrow><mn>2</mn></mfrac></mrow></math>. Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> można zapisać dwoma sposobami: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>|</mo><mi>AB</mi><mo>|</mo><mo>·</mo><mo>|</mo><mi>CD</mi><mo>|</mo><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>|</mo><mi>CB</mi><mo>|</mo><mo>·</mo><mo>|</mo><mi>AE</mi><mo>|</mo></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>·</mo><mn>5</mn><mo>=</mo><mo>|</mo><mi>CB</mi><mo>|</mo><mo>·</mo><mn>4</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>2</mn><msqrt><mn>5</mn></msqrt></mrow></math>. Z trójkąta prostokątnego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AEB</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>|</mo><mi>AB</mi><mo>|</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>|</mo><mi>AE</mi><mo>|</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>|</mo><mi>EB</mi><mo>|</mo></mrow><mn>2</mn></msup></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mn>2</mn><msqrt><mn>5</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mn>4</mn><mn>2</mn></msup><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mn>4</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>2</mn></mrow></math>.</p><p>Odpowiedź: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>EB</mi><mo>|</mo><mo>=</mo><mn>2</mn></mrow></math> cm.</p><p><em>Częściowo: 1 pkt za obliczenie długości boku CB; 2 pkt za obliczenie długości boku AB.</em></p>"
+      }
+    },
+    {
+      "id": "rejonowy_2019-2020_pomorskie_q4",
+      "number": 4,
+      "page": 5,
+      "type": "open",
+      "points": 1,
+      "topics": [
+        "trójkąty",
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>Wykaż, że jeżeli kąt przyległy do jednego z kątów wewnętrznych trójkąta jest dwa razy większy od drugiego kąta wewnętrznego tego trójkąta, to trójkąt jest równoramienny.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Dowód: dwa kąty wewnętrzne trójkąta są równe (γ = α), więc trójkąt jest równoramienny.",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi></math> będą dwoma kątami wewnętrznymi trójkąta, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> trzecim kątem. Kąt przyległy do kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>°</mo><mo>−</mo><mi>β</mi></mrow></math> i zgodnie z założeniem jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>α</mi></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>β</mi><mo>+</mo><mn>2</mn><mi>α</mi><mo>=</mo><mn>180</mn><mo>°</mo></mrow></math>. Ponieważ suma kątów wewnętrznych trójkąta wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>+</mo><mi>β</mi><mo>+</mo><mi>γ</mi><mo>=</mo><mn>180</mn><mo>°</mo></mrow></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>+</mo><mi>β</mi><mo>+</mo><mi>γ</mi><mo>=</mo><mi>β</mi><mo>+</mo><mn>2</mn><mi>α</mi></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>γ</mi><mo>=</mo><mi>α</mi></mrow></math>. Trójkąt ma dwa równe kąty wewnętrzne, więc jest równoramienny.</p><p><em>Uczeń otrzymuje 1 pkt za przeprowadzenie poprawnego dowodu.</em></p>"
+      }
+    },
+    {
+      "id": "rejonowy_2019-2020_pomorskie_q5",
+      "number": 5,
+      "page": 5,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "układy równań",
+        "reszta z dzielenia"
+      ],
+      "prompt_html": "<p>Suma dwóch liczb naturalnych wynosi 64. Przy dzieleniu większej przez mniejszą otrzymujemy iloraz 3 i resztę 4. Znajdź te liczby.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "49 i 15",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> oznacza większą, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> mniejszą z liczb. Z warunków zadania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>64</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>3</mn><mi>b</mi><mo>+</mo><mn>4</mn></mrow></math>. Podstawiając: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>b</mi><mo>+</mo><mn>4</mn><mo>+</mo><mi>b</mi><mo>=</mo><mn>64</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>b</mi><mo>+</mo><mn>4</mn><mo>=</mo><mn>64</mn></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>15</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>49</mn></mrow></math>.</p><p>Odpowiedź: szukane liczby to 49 i 15.</p><p><em>Częściowo (1 pkt): zapisanie poprawnych równań a + b = 64 oraz a = 3b + 4.</em></p>"
+      }
+    },
+    {
+      "id": "rejonowy_2019-2020_pomorskie_q6",
+      "number": 6,
+      "page": 6,
+      "type": "closed_single",
+      "points": 4,
+      "topics": [
+        "trójkąty",
+        "reszta z dzielenia",
+        "równania z jedną zmienną",
+        "inne"
+      ],
+      "prompt_html": "<p>W zadaniach zamkniętych dokładnie jedna odpowiedź jest poprawna. Zaznacz ją.</p><p><strong>6.1</strong> Długości dwóch boków trójkąta wynoszą 4 oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math>, a obwód tego trójkąta jest liczbą naturalną. Trzeci bok tego trójkąta może mieć maksymalnie długość równą:</p><ul><li>A. 9</li><li>B. 8,5</li><li>C. 7,5</li><li>D. 9,5</li></ul><p><strong>6.2</strong> Kwadrat liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> jest o 1 większy od kwadratu liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> pomniejszonej o 1. Zatem</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0</mn><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mn>1</mn></mrow></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>1</mn></mrow></math></li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>&gt;</mo><mn>1</mn></mrow></math></li></ul><p><strong>6.3</strong> Jeżeli w wyniku podzielenia liczby całkowitej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> przez liczbę 5 otrzymamy resztę 3, to dzieląc liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>a</mi></mrow></math> przez 10 otrzymamy resztę:</p><ul><li>A. 2</li><li>B. 3</li><li>C. 4</li><li>D. 6</li></ul><p><strong>6.4</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mrow><mn>2</mn><mo>·</mo><mn>4</mn></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>4</mn><mo>·</mo><mn>6</mn></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>6</mn><mo>·</mo><mn>8</mn></mrow></mfrac><mo>+</mo><mo>⋯</mo><mo>+</mo><mfrac><mn>1</mn><mrow><mn>48</mn><mo>·</mo><mn>50</mn></mrow></mfrac><mo>=</mo></mrow></math></p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>48</mn><mn>100</mn></mfrac></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>26</mn><mn>100</mn></mfrac></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>13</mn><mn>100</mn></mfrac></math></li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>24</mn><mn>100</mn></mfrac></math></li></ul>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "6.1 – B, 6.2 – C, 6.3 – A, 6.4 – D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2019-2020_pomorskie_q7",
+      "number": 7,
+      "page": 7,
+      "type": "true_false",
+      "points": 5,
+      "topics": [
+        "NWW / NWD",
+        "trójkąty",
+        "podzielność",
+        "zliczanie / metody zliczania"
+      ],
+      "prompt_html": "<p>Oceń prawdziwość poniższych zdań. Otocz kółkiem P, jeśli zdanie jest prawdziwe lub F, jeśli zdanie jest fałszywe.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Każde dwie spośród trzech dodatnich liczb całkowitych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi></math> są różne. Ponadto liczby te spełniają zależności <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>NWD</mtext><mo>(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>)</mo><mo>=</mo><mn>1</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>NWD</mtext><mo>(</mo><mi>x</mi><mo>,</mo><mi>z</mi><mo>)</mo><mo>=</mo><mn>1</mn></mrow></math>. Wynika z tego, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>NWD</mtext><mo>(</mo><mi>y</mi><mo>,</mo><mi>z</mi><mo>)</mo><mo>=</mo><mn>1</mn></mrow></math>."
+        },
+        {
+          "label": "2",
+          "html": "Obwód trójkąta równobocznego o wysokości 3 jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><msqrt><mn>3</mn></msqrt></mrow></math>."
+        },
+        {
+          "label": "3",
+          "html": "Cyfry 1, 2, 3, 4, 5, 6 można ustawić w takiej kolejności, aby otrzymać liczbę sześciocyfrową, która jest liczbą pierwszą."
+        },
+        {
+          "label": "4",
+          "html": "Liczba dodatnich liczb nieparzystych, mniejszych od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>2020</mn></msup></math> jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>2019</mn></msup></math>."
+        },
+        {
+          "label": "5",
+          "html": "Liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> są długościami boków dowolnego trójkąta. Wynika z tego, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>b</mi><mn>2</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>c</mi><mn>2</mn></msup></math> również są długościami boków trójkąta."
+        },
+        {
+          "label": "6",
+          "html": "Liczb trzycyfrowych podzielnych przez 7 lub 11 jest 198."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FPFPFP",
+        "solution_html": null
+      }
+    }
+  ]
+}

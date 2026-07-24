@@ -42,6 +42,7 @@ Source PDFs live under `pdfs/<stage>/`; `source_file` is that path relative to `
 | `page` | 1-based **PDF** page it appears on |
 | `type` | `closed_single` \| `open` \| `true_false` |
 | `points` | points for the task |
+| `annulled` | `true` only for an annulled task (`answer.correct` null, points retained, `prompt_html` carries the "Zadanie anulowano…" note); **omit the field entirely otherwise** — its absence means "not annulled" |
 | `topics` | 1+ **leaf** topics from the catalog below, most-specific first; category is derived, not stored |
 | `prompt_html` | question body, HTML + inline MathML |
 | `choices` | `[{label,html}]` for closed/true_false; `[]` for open |
