@@ -9,11 +9,14 @@
 <body>
 <aside class="sidebar">
 <label>Szukaj: <input type="text" id="search" placeholder="słowo w treści…"></label>
+<div class="clearrow">
+<a href="#" id="clearFacets" hidden>Wyczyść filtry</a>
+<a href="#" id="clearFilters" hidden>Wyczyść wszystko</a>
+</div>
 <div id="facets"></div>
 <label>Pokaż tylko id: <input type="text" id="include" placeholder="hash, hash, …"></label>
 <label>Pomiń id: <input type="text" id="exclude" placeholder="hash, hash, …"></label>
 <div id="count"></div>
-<a href="#" id="clearFilters" hidden>Wyczyść filtry</a>
 <div class="selrow">
 <button type="button" id="useSel">Zaznaczone → „Pokaż tylko id”</button>
 <button type="button" id="clearSel">Wyczyść zaznaczenie</button>

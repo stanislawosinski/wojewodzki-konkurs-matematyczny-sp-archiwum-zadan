@@ -55,7 +55,8 @@ function loadData() {
 const $ = id => document.getElementById(id);
 const search = $('search'), inc = $('include'), exc = $('exclude'),
   count = $('count'), selected = $('selected'), setsummary = $('setsummary'),
-  qlist = $('qlist'), facetsEl = $('facets'), clearFilters = $('clearFilters');
+  qlist = $('qlist'), facetsEl = $('facets'),
+  clearFilters = $('clearFilters'), clearFacets = $('clearFacets');
 const pagers = [...document.querySelectorAll('.pager')];
 
 let DATA = [], byHash = {}, INDEX = {}, universe = new Set();
@@ -196,9 +197,11 @@ function update() {
     }
   }
 
-  const active = useInc || excSet.size > 0 || terms.length > 0 || FACETS.some(f => selections[f.key].size);
+  const anyFacet = FACETS.some(f => selections[f.key].size);
+  const active = useInc || excSet.size > 0 || terms.length > 0 || anyFacet;
   count.textContent = active ? `${matched.length} zadań` : '';
-  clearFilters.hidden = !active; // only offer the reset when there's filtering to clear
+  clearFilters.hidden = !active;   // "Wyczyść wszystko": any filtering at all
+  clearFacets.hidden = !anyFacet;  // "Wyczyść filtry": facet checkboxes only (.clearrow reserves the space)
   const arks = new Set(matched.map(q => q._ark));
   setsummary.textContent = `${matched.length} zadań z ${arks.size} arkuszy`;
 }
@@ -245,12 +248,16 @@ function applyState() {
 }
 
 const debounce = (fn, ms) => { let t; return () => { clearTimeout(t); t = setTimeout(fn, ms); }; };
-const refilter = () => { page = 1; update(); };
+const refilter = () => { page = 1; update(); scrollTo(0, 0); }; // filter change: back to page 1, top
 
-// reset every filter (facets + search + include/exclude); leaves the print selection alone
-function clearAllFilters() {
+// uncheck every facet checkbox (state + DOM); callers push the URL and refilter
+function clearFacetSelections() {
   for (const f of FACETS) selections[f.key].clear();
   facetsEl.querySelectorAll('.facet-opt input').forEach(i => { i.checked = false; });
+}
+// reset every filter (facets + search + include/exclude); leaves the print selection alone
+function clearAllFilters() {
+  clearFacetSelections();
   search.value = inc.value = exc.value = '';
   writeUrl(true); refilter(); // push, so Back restores the filters you cleared
 }
@@ -305,5 +312,6 @@ loadData().then(data => {
   };
   $('copySel').onclick = () => { selected.select(); try { document.execCommand('copy'); } catch (e) {} };
   clearFilters.onclick = e => { e.preventDefault(); clearAllFilters(); };
+  clearFacets.onclick = e => { e.preventDefault(); clearFacetSelections(); writeUrl(true); refilter(); };
   applyState(); // restore filters from the URL hash (empty hash => same as a bare update())
 });
