@@ -1,0 +1,145 @@
+{
+  "source_file": "rejonowy/2020-2021_pomorskie.pdf",
+  "answers_file": "rejonowy/2020-2021_pomorskie_answers.pdf",
+  "competition": "Wojewódzki Konkurs Matematyczny dla uczniów klas IV-VIII szkół podstawowych województwa pomorskiego",
+  "school_type": "podstawowa",
+  "stage": "rejonowy",
+  "wojewodztwo": "pomorskie",
+  "school_year": "2020/2021",
+  "date": null,
+  "total_questions": 7,
+  "max_points": 20,
+  "questions": [
+    {
+      "id": "rejonowy_2020-2021_pomorskie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Wśród uczniów biorących udział w zawodach, chłopcy stanowili <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> wszystkich uczestników. Połowa chłopców oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>5</mn></mfrac></math> dziewcząt, razem 99 uczniów, miało białe koszulki. Oblicz, ile dziewcząt brało udział w tych zawodach.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "270 dziewcząt",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę wszystkich uczestników zawodów. Chłopców jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>x</mi></math>, a dziewcząt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac><mi>x</mi></math>. Białe koszulki miała połowa chłopców, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>8</mn></mfrac><mi>x</mi></math>, oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>5</mn></mfrac></math> dziewcząt, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>·</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mi>x</mi></mrow></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>8</mn></mfrac><mi>x</mi><mo>+</mo><mfrac><mn>3</mn><mn>20</mn></mfrac><mi>x</mi><mo>=</mo><mn>99</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>11</mn><mn>40</mn></mfrac><mi>x</mi><mo>=</mo><mn>99</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>360</mn></mrow></math>. Dziewcząt jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>·</mo><mn>360</mn><mo>=</mo><mn>270</mn></mrow></math>.</p><p>Odpowiedź: w zawodach brało udział 270 dziewcząt.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2020-2021_pomorskie_q2",
+      "number": 2,
+      "page": 4,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "trójkąty",
+        "potęgi i pierwiastki",
+        "szacowanie (zamiast obliczania)"
+      ],
+      "prompt_html": "<p>W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> przedstawionym na rysunku bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>12</mn><mtext>&#160;cm</mtext></mrow></math>. Oblicz obwód tego trójkąta oraz oszacuj, czy możliwe jest wykonanie modelu tego trójkąta z drutu o długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3,4</mn><mtext>&#160;dm</mtext></mrow></math>.</p>",
+      "choices": [],
+      "figures": [
+        "rejonowy_2020-2021_pomorskie_q2_fig1.png"
+      ],
+      "answer": {
+        "correct": "Obwód = 6(√2 + √6 + 2) cm ≈ 34,8 cm; z drutu o długości 3,4 dm (34 cm) nie można zbudować modelu tego trójkąta.",
+        "solution_html": "<p>Prowadzimy wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math>. Z trójkątów prostokątnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADC</mi></math> (kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>45</mn><mo>°</mo></mrow></math>) i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BDC</mi></math> (kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>60</mn><mo>°</mo></mrow></math>) otrzymujemy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AD</mi><mo>|</mo><mo>=</mo><mfrac><mn>12</mn><msqrt><mn>2</mn></msqrt></mfrac><mo>=</mo><mn>6</mn><msqrt><mn>2</mn></msqrt></mrow></math> (stąd też wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>CD</mi><mo>|</mo><mo>=</mo><mn>6</mn><msqrt><mn>2</mn></msqrt></mrow></math>), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>DB</mi><mo>|</mo><mo>=</mo><mfrac><mrow><mn>6</mn><msqrt><mn>2</mn></msqrt></mrow><msqrt><mn>3</mn></msqrt></mfrac><mo>=</mo><mn>2</mn><msqrt><mn>6</mn></msqrt></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>BC</mi><mo>|</mo><mo>=</mo><mn>4</mn><msqrt><mn>6</mn></msqrt></mrow></math>. Obwód wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>+</mo><mo>|</mo><mi>BC</mi><mo>|</mo><mo>+</mo><mo>|</mo><mi>AC</mi><mo>|</mo><mo>=</mo><mn>6</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>2</mn><msqrt><mn>6</mn></msqrt><mo>+</mo><mn>12</mn><mo>+</mo><mn>4</mn><msqrt><mn>6</mn></msqrt><mo>=</mo><mn>6</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>6</mn><msqrt><mn>6</mn></msqrt><mo>+</mo><mn>12</mn><mo>=</mo><mn>6</mn><mo>(</mo><msqrt><mn>2</mn></msqrt><mo>+</mo><msqrt><mn>6</mn></msqrt><mo>+</mo><mn>2</mn><mo>)</mo></mrow></math> cm.</p><p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,4</mn><mo>&lt;</mo><msqrt><mn>2</mn></msqrt></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2,4</mn><mo>&lt;</mo><msqrt><mn>6</mn></msqrt></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5,8</mn><mo>&lt;</mo><msqrt><mn>2</mn></msqrt><mo>+</mo><msqrt><mn>6</mn></msqrt><mo>+</mo><mn>2</mn></mrow></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>34</mn><mo>&lt;</mo><mn>34,8</mn><mo>&lt;</mo><mn>6</mn><mo>(</mo><msqrt><mn>2</mn></msqrt><mo>+</mo><msqrt><mn>6</mn></msqrt><mo>+</mo><mn>2</mn><mo>)</mo></mrow></math>, czyli obwód jest większy niż <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>34</mn><mtext>&#160;cm</mtext><mo>=</mo><mn>3,4</mn><mtext>&#160;dm</mtext></mrow></math>.</p><p>Odpowiedź: obwód trójkąta jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>(</mo><msqrt><mn>2</mn></msqrt><mo>+</mo><msqrt><mn>6</mn></msqrt><mo>+</mo><mn>2</mn><mo>)</mo></mrow></math> cm. Z drutu o długości 3,4 dm nie można zbudować modelu tego trójkąta.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2020-2021_pomorskie_q3",
+      "number": 3,
+      "page": 5,
+      "type": "open",
+      "points": 1,
+      "topics": [
+        "trójkąty",
+        "geometria"
+      ],
+      "prompt_html": "<p>W trapezie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>, w którym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AB</mi><mo>∥</mo><mi>CD</mi></mrow></math>, przedłużono boki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> do przecięcia w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math>. Oblicz długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>OC</mi></math>, jeśli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AD</mi><mo>|</mo><mo>=</mo><mn>4</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>OD</mi><mo>|</mo><mo>=</mo><mn>5</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>BC</mi><mo>|</mo><mo>=</mo><mn>4</mn><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math>.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "|OC| = 5 5/12",
+        "solution_html": "<p>Trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>OCD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>OBA</mi></math> są podobne (ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>CD</mi><mo>∥</mo><mi>AB</mi></mrow></math>), więc odpowiednie odcinki są proporcjonalne. Ponadto <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>OA</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>OD</mi><mo>|</mo><mo>+</mo><mo>|</mo><mi>AD</mi><mo>|</mo><mo>=</mo><mn>5</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>9</mn></mrow></math>. Z proporcji <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mo>|</mo><mi>OD</mi><mo>|</mo></mrow><mrow><mo>|</mo><mi>OA</mi><mo>|</mo></mrow></mfrac><mo>=</mo><mfrac><mrow><mo>|</mo><mi>OC</mi><mo>|</mo></mrow><mrow><mo>|</mo><mi>OB</mi><mo>|</mo></mrow></mfrac></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>5</mn><mn>4</mn></mfrac><mo>=</mo><mfrac><mrow><mo>|</mo><mi>OC</mi><mo>|</mo></mrow><mrow><mn>4</mn><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></mfrac></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>OC</mi><mo>|</mo><mo>=</mo><mfrac><mn>5</mn><mn>4</mn></mfrac><mo>·</mo><mfrac><mn>13</mn><mn>3</mn></mfrac><mo>=</mo><mfrac><mn>65</mn><mn>12</mn></mfrac><mo>=</mo><mn>5</mn><mfrac><mn>5</mn><mn>12</mn></mfrac></mrow></math>.</p><p>Odpowiedź: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>OC</mi><mo>|</mo><mo>=</mo><mn>5</mn><mfrac><mn>5</mn><mn>12</mn></mfrac></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2020-2021_pomorskie_q4",
+      "number": 4,
+      "page": 6,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "prędkość / droga / czas",
+        "proporcjonalność prosta"
+      ],
+      "prompt_html": "<p>Motorówka stoi w odległości 5000 łokci od brzegu. Na mapie odległość ta wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2,5</mn><mtext>&#160;cm</mtext></mrow></math>. Oblicz,</p><ul><li>a) w jakiej skali wykonana jest ta mapa przyjmując, że 1 łokieć, to 0,6 m;</li><li>b) ilu minut potrzeba, aby motorówka, płynąca ze stałą prędkością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac></mrow></math>, dopłynęła do brzegu?</li></ul>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "a) skala 1:120000; b) 12 minut",
+        "solution_html": "<p><strong>a)</strong> Rzeczywista odległość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5000</mn><mtext>&#160;łokci</mtext><mo>=</mo><mn>5000</mn><mo>·</mo><mn>0,6</mn><mtext>&#160;m</mtext><mo>=</mo><mn>3000</mn><mtext>&#160;m</mtext><mo>=</mo><mn>300000</mn><mtext>&#160;cm</mtext></mrow></math>. Na mapie odpowiada temu 2,5 cm, więc 1 cm na mapie to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>300000</mn><mo>:</mo><mn>2,5</mn><mo>=</mo><mn>120000</mn></mrow></math> cm w terenie. Mapa jest wykonana w skali <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>:</mo><mn>120000</mn></mrow></math>.</p><p><strong>b)</strong> Odległość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>300000</mn><mtext>&#160;cm</mtext><mo>=</mo><mn>3</mn><mtext>&#160;km</mtext></mrow></math>. Czas: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>3</mn><mtext>&#160;km</mtext></mrow><mrow><mn>15</mn><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mtext>&#160;h</mtext><mo>=</mo><mn>12</mn><mtext>&#160;minut</mtext></mrow></math>.</p><p>Odpowiedź: mapa jest w skali 1:120000, a motorówka dopłynie do brzegu w ciągu 12 minut.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2020-2021_pomorskie_q5",
+      "number": 5,
+      "page": 7,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Na rynku w pewnym mieście o każdej pełnej godzinie rozbrzmiewa hejnał.</p><p>Basia spędziła na tym rynku 25 minut. Opuściła go w momencie, gdy do końca doby zostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>5</mn></mfrac></math> czasu, jaki minął od początku doby. Czy Basia, będąc na rynku usłyszała grany tam hejnał? Jeśli tak, to o której godzinie? Odpowiedź uzasadnij.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Tak, usłyszała hejnał o godzinie 13:00 (przebywała na rynku od 12:55 do 13:20).",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza czas (w godzinach), który minął od początku doby do momentu, gdy Basia opuściła rynek. Do końca doby zostało wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>24</mn><mo>−</mo><mi>x</mi></mrow></math>, co jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>4</mn><mn>5</mn></mfrac><mi>x</mi></mrow></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>4</mn><mn>5</mn></mfrac><mi>x</mi><mo>+</mo><mi>x</mi><mo>=</mo><mn>24</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>13</mn><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math>, czyli 13 godzin i 20 minut. Basia opuściła rynek o godzinie 13:20, a była na nim 25 minut, więc przebywała tam od 12:55 do 13:20. W tym czasie usłyszała hejnał grany o godzinie 13:00.</p><p>Odpowiedź: tak, Basia usłyszała hejnał grany o godzinie 13:00.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2020-2021_pomorskie_q6",
+      "number": 6,
+      "page": 8,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "bryły"
+      ],
+      "prompt_html": "<p>Do prostopadłościennego pojemnika nr 1 o wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mtext>&#160;dm</mtext></mrow></math> i polu podstawy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msup><mtext>&#160;dm</mtext><mn>2</mn></msup></mrow></math> wlano wodę, która wypełniła połowę objętości tego pojemnika. Pusty prostopadłościenny pojemnik nr 2 o polu podstawy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><msup><mtext>&#160;dm</mtext><mn>2</mn></msup></mrow></math> i wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7</mn><mtext>&#160;cm</mtext></mrow></math> wstawiono na dno pojemnika nr 1. Poziom wody w pojemniku nr 1 podniósł się i pewna jej część przelała się do pojemnika nr 2. Oblicz, do jakiego poziomu woda wypełniła pojemnik nr 2.</p>",
+      "choices": [],
+      "figures": [
+        "rejonowy_2020-2021_pomorskie_q6_fig1.png"
+      ],
+      "answer": {
+        "correct": "3 cm",
+        "solution_html": "<p>Pole podstawy pojemnika nr 1 to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msup><mtext>&#160;dm</mtext><mn>2</mn></msup><mo>=</mo><mn>200</mn><msup><mtext>&#160;cm</mtext><mn>2</mn></msup></mrow></math>, a wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mtext>&#160;dm</mtext><mo>=</mo><mn>10</mn><mtext>&#160;cm</mtext></mrow></math>. Woda wypełnia połowę pojemnika, czyli jej wysokość to 5 cm, a objętość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>V</mi><mn>1</mn></msub><mo>=</mo><mn>200</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>1000</mn><msup><mtext>&#160;cm</mtext><mn>3</mn></msup></mrow></math>. Objętość pojemnika nr 2 to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>V</mi><mn>2</mn></msub><mo>=</mo><mn>100</mn><mo>·</mo><mn>7</mn><mo>=</mo><mn>700</mn><msup><mtext>&#160;cm</mtext><mn>3</mn></msup></mrow></math>. Gdyby pojemnik nr 2 był zamknięty, poziom wody w pojemniku nr 1 wyniósłby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>1000</mn><mo>+</mo><mn>700</mn><mo>)</mo><mo>:</mo><mn>200</mn><mo>=</mo><mn>1700</mn><mo>:</mo><mn>200</mn><mo>=</mo><mn>8,5</mn></mrow></math> cm. Woda ponad krawędzią pojemnika nr 2 (wysokości 7 cm) ma wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8,5</mn><mo>−</mo><mn>7</mn><mo>=</mo><mn>1,5</mn></mrow></math> cm, więc do pojemnika nr 2 przelało się <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>200</mn><mo>·</mo><mn>1,5</mn><mo>=</mo><mn>300</mn><msup><mtext>&#160;cm</mtext><mn>3</mn></msup></mrow></math> wody. Poziom wody w pojemniku nr 2 wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>300</mn><mo>:</mo><mn>100</mn><mo>=</mo><mn>3</mn></mrow></math> cm.</p><p>Odpowiedź: woda wypełni pojemnik nr 2 do wysokości 3 cm.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2020-2021_pomorskie_q7",
+      "number": 7,
+      "page": 9,
+      "type": "closed_single",
+      "points": 5,
+      "topics": [
+        "potęgi i pierwiastki",
+        "procenty",
+        "trójkąty",
+        "podzielność",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>W zadaniach zamkniętych dokładnie jedna odpowiedź jest poprawna. Zaznacz ją.</p><p><strong>1.</strong> Dane są liczby: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>44</mn><mn>4</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>44</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><msup><mn>4</mn><mn>4</mn></msup></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><msup><mn>4</mn><mn>4</mn></msup><mo>)</mo></mrow><mn>4</mn></msup></math>. Najmniejszą z tych liczb jest:</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>44</mn><mn>4</mn></msup></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>44</mn></msup></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><msup><mn>4</mn><mn>4</mn></msup></msup></math></li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><msup><mn>4</mn><mn>4</mn></msup><mo>)</mo></mrow><mn>4</mn></msup></math></li></ul><p><strong>2.</strong> Fabryka produkuje tygodniowo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math> rowerów. Ile rowerów tygodniowo będzie produkować ta fabryka, jeżeli jej produkcja wzrośnie o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>&#160;%?</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>R</mi><mi>x</mi></mrow><mn>100</mn></mfrac></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mi>x</mi><mn>100</mn></mfrac><mo>+</mo><mi>R</mi></mrow></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>R</mi><mo>+</mo><mi>x</mi><mi>R</mi></mrow><mn>100</mn></mfrac></math></li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>R</mi><mo>+</mo><mfrac><mrow><mi>x</mi><mi>R</mi></mrow><mn>100</mn></mfrac></mrow></math></li></ul><p><strong>3.</strong> W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> jest środkiem boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>, punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> środkiem boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>, punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math> środkiem odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CE</mi></math>, zaś punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>G</mi></math> leży na odcinku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ED</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>EG</mi><mo>|</mo><mo>:</mo><mo>|</mo><mi>GD</mi><mo>|</mo><mo>=</mo><mn>1</mn><mo>:</mo><mn>3</mn></mrow></math>. Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EFG</mi></math> jest równe 1. Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest równe:</p><ul><li>A. 16</li><li>B. 24</li><li>C. 32</li><li>D. 64</li></ul><p><strong>4.</strong> Liczbę 4 można zapisać jako sumę dwóch liczb pierwszych następująco <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>=</mo><mn>2</mn><mo>+</mo><mn>2</mn></mrow></math>, podobnie jest na przykład z liczbą 21, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>21</mn><mo>=</mo><mn>19</mn><mo>+</mo><mn>2</mn></mrow></math>. Ilu liczb całkowitych dodatnich, mniejszych od 20, nie można zapisać jako sumy dwóch liczb pierwszych?</p><ul><li>A. 3</li><li>B. 4</li><li>C. 5</li><li>D. 6</li><li>E. 7</li></ul><p><strong>5.</strong> Dla pewnych dodatnich liczb rzeczywistych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> prawdziwa jest równość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mi>c</mi><mo>=</mo><mi>a</mi><mo>+</mo><mi>b</mi><mi>c</mi></mrow></math>. Zatem:</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>1</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>1</mn></mrow></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>1</mn></mrow></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>1</mn></mrow></math></li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><mn>1</mn></mrow></math></li></ul>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "1 – A, 2 – D, 3 – C, 4 – C, 5 – D",
+        "solution_html": null
+      }
+    }
+  ]
+}

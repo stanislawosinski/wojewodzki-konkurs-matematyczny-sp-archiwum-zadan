@@ -1,0 +1,238 @@
+{
+  "source_file": "rejonowy/2020_mazowieckie.pdf",
+  "answers_file": "rejonowy/2020_mazowieckie_answers.pdf",
+  "competition": "Konkurs Matematyczny dla uczniów klas IV-VIII szkół podstawowych województwa mazowieckiego",
+  "school_type": "podstawowa",
+  "stage": "rejonowy",
+  "wojewodztwo": "mazowieckie",
+  "school_year": "2020/2021",
+  "date": "2020-11-25",
+  "total_questions": 9,
+  "max_points": 20,
+  "questions": [
+    {
+      "id": "rejonowy_2020_mazowieckie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "zagadki logiczne",
+        "podzielność"
+      ],
+      "prompt_html": "<p>Na tablicy przedstawionej niżej Julka zakreśliła kółkiem cztery liczby, a następnie Janek zaznaczył krzyżykiem cztery z pozostałych pięciu liczb. Okazało się, że suma liczb zaznaczonych przez Julkę jest cztery razy mniejsza od sumy liczb zaznaczonych przez Janka.</p><table style=\"border-collapse:collapse;margin:6px 0\"><tr><td style=\"border:1px solid #000;padding:2px 10px;text-align:center\">6</td><td style=\"border:1px solid #000;padding:2px 10px;text-align:center\">28</td><td style=\"border:1px solid #000;padding:2px 10px;text-align:center\">7</td></tr><tr><td style=\"border:1px solid #000;padding:2px 10px;text-align:center\">27</td><td style=\"border:1px solid #000;padding:2px 10px;text-align:center\">16</td><td style=\"border:1px solid #000;padding:2px 10px;text-align:center\">33</td></tr><tr><td style=\"border:1px solid #000;padding:2px 10px;text-align:center\">8</td><td style=\"border:1px solid #000;padding:2px 10px;text-align:center\">5</td><td style=\"border:1px solid #000;padding:2px 10px;text-align:center\">24</td></tr></table><p>Jakiej liczby nie zaznaczono? Wybierz poprawną odpowiedź spośród podanych.</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "33"
+        },
+        {
+          "label": "B",
+          "html": "8"
+        },
+        {
+          "label": "C",
+          "html": "24"
+        },
+        {
+          "label": "D",
+          "html": "16"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": "<p>Suma wszystkich dziewięciu liczb na tablicy wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>+</mo><mn>28</mn><mo>+</mo><mn>7</mn><mo>+</mo><mn>27</mn><mo>+</mo><mn>16</mn><mo>+</mo><mn>33</mn><mo>+</mo><mn>8</mn><mo>+</mo><mn>5</mn><mo>+</mo><mn>24</mn><mo>=</mo><mn>154</mn></mrow></math>. Oznaczmy sumę liczb Julki przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>J</mi></math>, sumę liczb Janka przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math>, a niezaznaczoną liczbę przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>u</mi></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>J</mi><mo>+</mo><mi>K</mi><mo>+</mo><mi>u</mi><mo>=</mo><mn>154</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>K</mi><mo>=</mo><mn>4</mn><mi>J</mi></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mi>J</mi><mo>+</mo><mi>u</mi><mo>=</mo><mn>154</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mi>J</mi><mo>=</mo><mn>154</mn><mo>−</mo><mi>u</mi></mrow></math> — liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>154</mn><mo>−</mo><mi>u</mi></mrow></math> musi być podzielna przez 5. Spośród liczb 33, 8, 24 i 16 tylko dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>u</mi><mo>=</mo><mn>24</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>154</mn><mo>−</mo><mn>24</mn><mo>=</mo><mn>130</mn><mo>=</mo><mn>5</mn><mo>·</mo><mn>26</mn></mrow></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>J</mi><mo>=</mo><mn>26</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>K</mi><mo>=</mo><mn>104</mn></mrow></math>; rzeczywiście <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>+</mo><mn>7</mn><mo>+</mo><mn>8</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>26</mn></mrow></math> (Julka) oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>28</mn><mo>+</mo><mn>27</mn><mo>+</mo><mn>16</mn><mo>+</mo><mn>33</mn><mo>=</mo><mn>104</mn></mrow></math> (Janek). Nie zaznaczono liczby 24 — odpowiedź C.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2020_mazowieckie_q2",
+      "number": 2,
+      "page": 2,
+      "type": "true_false",
+      "points": 1,
+      "topics": [
+        "układy równań",
+        "wzory skróconego mnożenia"
+      ],
+      "prompt_html": "<p>Dany jest układ równań <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>{</mo><mtable columnalign=\"left\"><mtr><mtd><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mn>80</mn><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup></mrow></mtd></mtr><mtr><mtd><mrow><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>20</mn></mrow></mtd></mtr></mtable></mrow></math></p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> jest o 4 większa od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>."
+        },
+        {
+          "label": "2",
+          "html": "Jedna z liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> jest dodatnia, a druga ujemna."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PF",
+        "solution_html": "<p>Z pierwszego równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><mn>80</mn></mrow></math>, a korzystając ze wzoru skróconego mnożenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>x</mi><mo>−</mo><mi>y</mi><mo>)</mo><mo>(</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>)</mo><mo>=</mo><mn>80</mn></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>20</mn></mrow></math>, mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>x</mi><mo>−</mo><mi>y</mi><mo>)</mo><mo>·</mo><mn>20</mn><mo>=</mo><mn>80</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>−</mo><mi>y</mi><mo>=</mo><mn>4</mn></mrow></math> — liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> jest o 4 większa od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> (zdanie 1. jest prawdziwe — P). Z układu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>20</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>−</mo><mi>y</mi><mo>=</mo><mn>4</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>12</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>8</mn></mrow></math> — obie liczby są dodatnie (zdanie 2. jest fałszywe — F).</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2020_mazowieckie_q3",
+      "number": 3,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "trójkąty",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>W trójkącie prostokątnym kąt zewnętrzny przyległy do mniejszego z kątów ostrych jest od niego pięć razy większy.</p><p>Uzupełnij poniższe zdania. Wybierz odpowiedź spośród oznaczonych literami A i B oraz odpowiedź spośród oznaczonych literami C i D.</p><p>Różnica miar kątów ostrych tego trójkąta wynosi:</p><p>Stosunek długości przeciwprostokątnej do długości jednej z przyprostokątnych jest równy:</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "40°"
+        },
+        {
+          "label": "B",
+          "html": "30°"
+        },
+        {
+          "label": "C",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac></math>"
+        },
+        {
+          "label": "D",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow><mn>3</mn></mfrac></math>"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B, D",
+        "solution_html": "<p>Oznaczmy mniejszy kąt ostry przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>. Kąt zewnętrzny przyległy do niego ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>°</mo><mo>−</mo><mi>α</mi></mrow></math> i jest pięć razy większy od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>°</mo><mo>−</mo><mi>α</mi><mo>=</mo><mn>5</mn><mi>α</mi></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mi>α</mi><mo>=</mo><mn>180</mn><mo>°</mo></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>=</mo><mn>30</mn><mo>°</mo></mrow></math>. Drugi kąt ostry ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>90</mn><mo>°</mo><mo>−</mo><mn>30</mn><mo>°</mo><mo>=</mo><mn>60</mn><mo>°</mo></mrow></math>, więc różnica miar kątów ostrych wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>60</mn><mo>°</mo><mo>−</mo><mn>30</mn><mo>°</mo><mo>=</mo><mn>30</mn><mo>°</mo></mrow></math> (odpowiedź B). Jest to trójkąt o kątach 30°, 60°, 90°, w którym długości boków mają się jak <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>:</mo><msqrt><mn>3</mn></msqrt><mo>:</mo><mn>2</mn></mrow></math>. Stosunek długości przeciwprostokątnej do dłuższej przyprostokątnej wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>2</mn><msqrt><mn>3</mn></msqrt></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow><mn>3</mn></mfrac></mrow></math> (odpowiedź D). Poprawne odpowiedzi to B i D.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2020_mazowieckie_q4",
+      "number": 4,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "podzielność",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Która z podanych niżej liczb jest dzielnikiem wartości wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2</mn><mn>2020</mn></msup><mo>+</mo><msup><mn>2</mn><mn>2021</mn></msup><mo>+</mo><msup><mn>2</mn><mn>2022</mn></msup><mo>+</mo><msup><mn>2</mn><mn>2023</mn></msup></mrow></math>? Zaznacz wszystkie poprawne odpowiedzi.</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "3"
+        },
+        {
+          "label": "B",
+          "html": "7"
+        },
+        {
+          "label": "C",
+          "html": "35"
+        },
+        {
+          "label": "D",
+          "html": "40"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A, D",
+        "solution_html": "<p>Wyłączamy wspólny czynnik <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>2020</mn></msup></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2</mn><mn>2020</mn></msup><mo>+</mo><msup><mn>2</mn><mn>2021</mn></msup><mo>+</mo><msup><mn>2</mn><mn>2022</mn></msup><mo>+</mo><msup><mn>2</mn><mn>2023</mn></msup><mo>=</mo><msup><mn>2</mn><mn>2020</mn></msup><mo>(</mo><mn>1</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>8</mn><mo>)</mo><mo>=</mo><msup><mn>2</mn><mn>2020</mn></msup><mo>·</mo><mn>15</mn><mo>=</mo><msup><mn>2</mn><mn>2020</mn></msup><mo>·</mo><mn>3</mn><mo>·</mo><mn>5</mn></mrow></math>. Wśród podanych liczb dzielnikami tej wartości są 3 (odpowiedź A) oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>40</mn><mo>=</mo><msup><mn>2</mn><mn>3</mn></msup><mo>·</mo><mn>5</mn></mrow></math> (odpowiedź D — wyrażenie zawiera czynniki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>3</mn></msup></math> i 5). Liczba 7 nie dzieli tej wartości, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>35</mn><mo>=</mo><mn>5</mn><mo>·</mo><mn>7</mn></mrow></math> również nie (brak czynnika 7). Poprawne odpowiedzi to A i D.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2020_mazowieckie_q5",
+      "number": 5,
+      "page": 3,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "bryły"
+      ],
+      "prompt_html": "<p>Bartek ma białe i szare klocki sześcienne. Białych klocków ma trzy razy więcej niż szarych. Ze wszystkich szarych klocków skleił bryłę przedstawioną na rysunku, składającą się z dwóch jednakowych elementów w kształcie litery E i łącznika w kształcie litery S.</p><p>Oblicz, ile białych klocków zostałoby Bartkowi po uzupełnieniu tej bryły do najmniejszego sześcianu.</p>",
+      "choices": [],
+      "figures": [
+        "rejonowy_2020_mazowieckie_q5_fig1.png"
+      ],
+      "answer": {
+        "correct": "39 białych klocków",
+        "solution_html": "<p>Bryła składa się z dwóch jednakowych elementów w kształcie litery E, na które zużyto <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>17</mn><mo>=</mo><mn>34</mn></mrow></math> klocki, oraz łącznika w kształcie litery S z 7 klocków, czyli łącznie z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>34</mn><mo>+</mo><mn>7</mn><mo>=</mo><mn>41</mn></mrow></math> szarych klocków. Białych klocków jest zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>41</mn><mo>=</mo><mn>123</mn></mrow></math>. Najmniejszy sześcian, do którego można uzupełnić tę bryłę, ma krawędź długości 5 klocków i składa się z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>5</mn><mn>3</mn></msup><mo>=</mo><mn>125</mn></mrow></math> klocków, więc na jego zbudowanie potrzeba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>125</mn><mo>−</mo><mn>41</mn><mo>=</mo><mn>84</mn></mrow></math> białych klocków. Bartkowi pozostanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>123</mn><mo>−</mo><mn>84</mn><mo>=</mo><mn>39</mn></mrow></math> białych klocków.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2020_mazowieckie_q6",
+      "number": 6,
+      "page": 4,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "równania z jedną zmienną",
+        "procenty",
+        "statystyka opisowa"
+      ],
+      "prompt_html": "<p>Agnieszka zapisała pięć liczb w kolejności rosnącej. Różnica między pierwszą a ostatnią liczbą wynosi 10, środkowa liczba jest o 200% większa od pierwszej. Druga liczba to 4, a przedostatnia liczba jest o 2 mniejsza od ostatniej. Średnia arytmetyczna tych liczb wynosi 8. Jakie to liczby? Uzasadnij odpowiedź.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "3, 4, 9, 11, 13",
+        "solution_html": "<p>Oznaczmy najmniejszą (pierwszą) liczbę przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>. Druga liczba to 4. Liczba środkowa jest o 200% większa od pierwszej, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>2</mn><mi>x</mi><mo>=</mo><mn>3</mn><mi>x</mi></mrow></math>. Ostatnia liczba jest o 10 większa od pierwszej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>10</mn></mrow></math>, a przedostatnia o 2 mniejsza od ostatniej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>8</mn></mrow></math>. Średnia pięciu liczb wynosi 8, więc ich suma to 40: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>4</mn><mo>+</mo><mn>3</mn><mi>x</mi><mo>+</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>8</mn><mo>)</mo><mo>+</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>10</mn><mo>)</mo><mo>=</mo><mn>40</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mi>x</mi><mo>+</mo><mn>22</mn><mo>=</mo><mn>40</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mi>x</mi><mo>=</mo><mn>18</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>3</mn></mrow></math>. Szukane liczby to więc 3, 4, 9, 11, 13 (są zapisane w kolejności rosnącej, a ich średnia arytmetyczna wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>3</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>9</mn><mo>+</mo><mn>11</mn><mo>+</mo><mn>13</mn></mrow><mn>5</mn></mfrac><mo>=</mo><mfrac><mn>40</mn><mn>5</mn></mfrac><mo>=</mo><mn>8</mn></mrow></math>).</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2020_mazowieckie_q7",
+      "number": 7,
+      "page": 5,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "prędkość / droga / czas",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Pan Jacek trenuje jazdę na rowerze. Wcześniej obliczył, że jadąc ze średnią prędkością 20 km/h wróci na obiad na godzinę 15. Po przejechaniu 70% drogi „złapał gumę”. Jej wymiana zajęła panu Jackowi 9 minut. Aby nie spóźnić się na obiad, musiał resztę drogi jechać ze średnią prędkością 30 km/h. Oblicz, jaką drogę miał do pokonania pan Jacek.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "30 km",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi></math> oznacza całą drogę (w km). Zaplanowany czas przejazdu z prędkością 20 km/h to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>s</mi><mn>20</mn></mfrac></math> godziny. Czas pierwszego etapu (70% drogi z prędkością 20 km/h) wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0,7</mn><mi>s</mi></mrow><mn>20</mn></mfrac></math>, czas postoju <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>9</mn><mn>60</mn></mfrac></math> godziny, a czas drugiego etapu (30% drogi z prędkością 30 km/h) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0,3</mn><mi>s</mi></mrow><mn>30</mn></mfrac></math>. Rzeczywisty czas ma być równy zaplanowanemu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>0,7</mn><mi>s</mi></mrow><mn>20</mn></mfrac><mo>+</mo><mfrac><mn>9</mn><mn>60</mn></mfrac><mo>+</mo><mfrac><mrow><mn>0,3</mn><mi>s</mi></mrow><mn>30</mn></mfrac><mo>=</mo><mfrac><mi>s</mi><mn>20</mn></mfrac></mrow></math>. Mnożąc obie strony przez 60, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2,1</mn><mi>s</mi><mo>+</mo><mn>9</mn><mo>+</mo><mn>0,6</mn><mi>s</mi><mo>=</mo><mn>3</mn><mi>s</mi></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,3</mn><mi>s</mi><mo>=</mo><mn>9</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>s</mi><mo>=</mo><mn>30</mn></mrow></math>. Pan Jacek miał do pokonania 30 km.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2020_mazowieckie_q8",
+      "number": 8,
+      "page": 6,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "bryły",
+        "sześciokąty foremne"
+      ],
+      "prompt_html": "<p>Ania kupiła w prezencie dwa jednakowe pojemniki na przyprawy. Pojemniki te mają kształt graniastosłupa prawidłowego. Długość krawędzi podstawy pojemnika wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, wysokość jest od niej trzy razy większa, natomiast suma długości wszystkich krawędzi pojemnika jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>30</mn><mi>a</mi></mrow></math>. Ania chce zapakować te dwa pojemniki do prostopadłościennego pudełka. Ile jest pudełek o najmniejszej objętości, ale o różnych wymiarach, w których można umieścić te dwa pojemniki? Odpowiedź uzasadnij.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "3 pudełka",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> oznacza liczbę boków podstawy graniastosłupa prawidłowego. Graniastosłup ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> krawędzi w każdej z dwóch podstaw (długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>) oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> krawędzi bocznych (długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>a</mi></mrow></math>), więc suma długości krawędzi wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>n</mi><mi>a</mi><mo>+</mo><mi>n</mi><mo>·</mo><mn>3</mn><mi>a</mi><mo>=</mo><mn>5</mn><mi>n</mi><mi>a</mi></mrow></math>. Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mi>n</mi><mi>a</mi><mo>=</mo><mn>30</mn><mi>a</mi></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>=</mo><mn>6</mn></mrow></math>, więc podstawą jest sześciokąt foremny o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, a wysokość pojemnika to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>a</mi></mrow></math>. Dwa takie graniastosłupy sześciokątne można ułożyć na dnie prostopadłościennego pudełka na trzy sposoby, dające pudełka o różnych wymiarach:</p><ul><li>stykając się krawędziami bocznymi — pudełko o wymiarach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>a</mi><mo>×</mo><mn>3</mn><mi>a</mi><mo>×</mo><mi>a</mi><msqrt><mn>3</mn></msqrt></mrow></math>, o objętości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>V</mi><mi>I</mi></msub><mo>=</mo><mn>4</mn><mi>a</mi><mo>·</mo><mn>3</mn><mi>a</mi><mo>·</mo><mi>a</mi><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>12</mn><msup><mi>a</mi><mn>3</mn></msup><msqrt><mn>3</mn></msqrt></mrow></math>;</li><li>stykając się ścianami bocznymi — pudełko o wymiarach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>a</mi><msqrt><mn>3</mn></msqrt><mo>×</mo><mn>3</mn><mi>a</mi><mo>×</mo><mn>2</mn><mi>a</mi></mrow></math>, o objętości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>V</mi><mi>II</mi></msub><mo>=</mo><mn>2</mn><mi>a</mi><msqrt><mn>3</mn></msqrt><mo>·</mo><mn>3</mn><mi>a</mi><mo>·</mo><mn>2</mn><mi>a</mi><mo>=</mo><mn>12</mn><msup><mi>a</mi><mn>3</mn></msup><msqrt><mn>3</mn></msqrt></mrow></math>;</li><li>stykając się podstawami — pudełko o wymiarach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>a</mi><mo>×</mo><mn>6</mn><mi>a</mi><mo>×</mo><mi>a</mi><msqrt><mn>3</mn></msqrt></mrow></math>, o objętości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>V</mi><mi>III</mi></msub><mo>=</mo><mn>2</mn><mi>a</mi><mo>·</mo><mn>6</mn><mi>a</mi><mo>·</mo><mi>a</mi><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>12</mn><msup><mi>a</mi><mn>3</mn></msup><msqrt><mn>3</mn></msqrt></mrow></math>.</li></ul><p>Wszystkie trzy pudełka mają tę samą, najmniejszą objętość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>12</mn><msup><mi>a</mi><mn>3</mn></msup><msqrt><mn>3</mn></msqrt></mrow></math>, ale różne wymiary, więc takich pudełek są trzy.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2020_mazowieckie_q9",
+      "number": 9,
+      "page": 7,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "geometria",
+        "szacowanie (zamiast obliczania)"
+      ],
+      "prompt_html": "<p>Pan Andrzej ma trawnik w kształcie trapezu o wymiarach: podstawy 14 m i 4 m, ramiona 10 m i 6,3 m. Do pielęgnacji trawnika stosuje sześć razy w roku nawóz. Zakupił worek, w którym jest 10 kg nawozu. Oszacuj, czy wystarczy panu Andrzejowi ta ilość nawozu na rok, jeżeli na jednokrotne użycie potrzeba 30 g nawozu na 1 m<sup>2</sup>. W obliczeniach przyjmij, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mn>6,3</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>40</mn></mrow></math>.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Tak, wystarczy (na rok potrzeba około 9,72 kg nawozu, a worek zawiera 10 kg)",
+        "solution_html": "<p>Wyznaczmy wysokość trapezu. Przesuwając krótsze ramię tak, by z dłuższym ramieniem i różnicą podstaw powstał trójkąt, oznaczmy przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> rzut ramienia 6,3 m na dłuższą podstawę. Z twierdzenia Pitagorasa wysokość spełnia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>h</mi><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mn>6,3</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>h</mi><mn>2</mn></msup><mo>=</mo><msup><mn>10</mn><mn>2</mn></msup><mo>−</mo><msup><mrow><mo>(</mo><mn>10</mn><mo>−</mo><mi>x</mi><mo>)</mo></mrow><mn>2</mn></msup></mrow></math>. Przyjmując <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mn>6,3</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>40</mn></mrow></math>, mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>40</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mn>100</mn><mo>−</mo><mo>(</mo><mn>100</mn><mo>−</mo><mn>20</mn><mi>x</mi><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mo>)</mo></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>20</mn><mi>x</mi><mo>=</mo><mn>40</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>2</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><msqrt><mrow><mn>40</mn><mo>−</mo><mn>4</mn></mrow></msqrt><mo>=</mo><msqrt><mn>36</mn></msqrt><mo>=</mo><mn>6</mn></mrow></math> m. Pole trapezu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mo>(</mo><mn>4</mn><mo>+</mo><mn>14</mn><mo>)</mo><mo>·</mo><mn>6</mn><mo>=</mo><mn>54</mn></mrow></math> m<sup>2</sup>. Na jednokrotne nawożenie potrzeba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>54</mn><mo>·</mo><mn>30</mn><mtext> g</mtext><mo>=</mo><mn>1620</mn><mtext> g</mtext><mo>=</mo><mn>1,62</mn></mrow></math> kg nawozu, a na sześć zastosowań w roku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>·</mo><mn>1,62</mn><mo>=</mo><mn>9,72</mn></mrow></math> kg. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9,72</mn><mo>&lt;</mo><mn>10</mn></mrow></math> (albo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mo>:</mo><mn>1,62</mn><mo>&gt;</mo><mn>6</mn></mrow></math>), jeden worek nawozu wystarczy panu Andrzejowi na rok.</p>"
+      }
+    }
+  ]
+}

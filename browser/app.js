@@ -56,7 +56,8 @@ const $ = id => document.getElementById(id);
 const search = $('search'), inc = $('include'), exc = $('exclude'),
   count = $('count'), selected = $('selected'), setsummary = $('setsummary'),
   qlist = $('qlist'), facetsEl = $('facets'),
-  clearFilters = $('clearFilters'), clearFacets = $('clearFacets'), clearSearch = $('clearSearch');
+  clearFilters = $('clearFilters'), clearFacets = $('clearFacets'), clearSearch = $('clearSearch'),
+  onePerPage = $('onePerPage');
 const pagers = [...document.querySelectorAll('.pager')];
 
 let DATA = [], byHash = {}, INDEX = {}, universe = new Set();
@@ -320,5 +321,7 @@ loadData().then(data => {
   $('copySel').onclick = () => { selected.select(); try { document.execCommand('copy'); } catch (e) {} };
   clearFilters.onclick = e => { e.preventDefault(); clearAllFilters(); };
   clearFacets.onclick = e => { e.preventDefault(); clearFacetSelections(); writeUrl(true); refilter(); };
+  onePerPage.onchange = () => document.body.classList.toggle('onePerPage', onePerPage.checked); // print layout only
+
   applyState(); // restore filters from the URL hash (empty hash => same as a bare update())
 });

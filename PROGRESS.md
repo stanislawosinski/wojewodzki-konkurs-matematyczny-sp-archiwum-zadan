@@ -37,7 +37,7 @@ the know-how that used to live only in the chat; everything needed to resume is 
     `competition`, derived from the title. Also a HTML filter ("Typ szkoły"). Only gimnazjum
     file so far: 2018_podkarpackie. Re-add script: the school_type block in the school_type
     section below / the browser app filters on it directly.
-- **rejonowy: 45 / 147** processed (batches 1–3 done 2026-07-23; batches 4–5 done 2026-07-24). (was 163; on 2026-07-23 **all 16
+- **rejonowy: 71 / 147** processed (batches 1–3 done 2026-07-23; batches 4–8 done 2026-07-24). (was 163; on 2026-07-23 **all 16
   W-M files were purged** — W-M SP math has NO rejonowy stage, so every
   `pdfs/rejonowy/*_warminsko-mazurskie.pdf` was a spurious śląskie dup. Remaining 147 are the real
   set. Earlier +15 merged from `remaining/rejonowy/`: podkarpackie_gim 2010, podlaskie 2012–2015
@@ -76,6 +76,47 @@ the know-how that used to live only in the chat; everything needed to resume is 
     to keyless list: now 2012_podkarpackie, 2018_podkarpackie, 2012/2013 podlaskie sp/gim, 2017-2018_pomorskie.)
   - **2018_podlaskie key has a stale-template header (2017/2018)** while the question paper says 2018/2019
     (date 19.12.2018) — trust the question paper, not the key header.
+  - **Batch 6 (6):** 2019-2020_wielkopolskie, 2019-2020_zachodniopomorskie (33 closed, no annulment
+    this year), 2019_kujawsko-pomorskie (new woj), 2019_lodzkie (keyless — see below), 2019_lubuskie
+    (new woj), 2019_mazowieckie (combined-choice). All keyed + self-verified except łódzkie.
+  - **New voivodeships:** kujawsko-pomorskie, lubuskie (both podstawowa, header-verified).
+  - **łódzkie 2019 GENUINELY KEYLESS** (no separate + no embedded; łódzkie 2019–2021 all keyless,
+    2022+ keyed) → answers null. docx-converted layout; some closed items have 3 or 5 (A–E) choices.
+    (Adds to keyless list.)
+  - **mazowieckie combined-choice confirmed for rejonowy:** "zaznacz wszystkie" item → ONE
+    closed_single with comma-joined answer (e.g. "C, D"), per szkolny_2023_mazowieckie.
+  - Filename single-year vs header: 2019_* files nearly all resolve to **2018/2019** (Dec 2018 / Feb
+    2019 contest dates) — trust the printed date, not the filename.
+  - **Batch 7 (15):** 2019_opolskie (embedded key), 2019_podkarpackie, 2019_podlaskie,
+    2020-2021_{malopolskie, pomorskie (bundled), slaskie (pure math), wielkopolskie,
+    zachodniopomorskie, swietokrzyskie_1, swietokrzyskie_2}, 2020_{dolnoslaskie (new woj),
+    kujawsko-pomorskie, lodzkie (keyless), lubuskie, mazowieckie (combined-choice)}. All
+    header-verified; keyed + self-verified except łódzkie.
+  - **New rejonowy voivodeship:** dolnoslaskie ("zDolny Ślązak", printed stage "powiatowy" → kept
+    rejonowy). Also świętokrzyskie ships **two SP papers per year** (_1 = 19.01, _2 = 03.02.2021;
+    both podstawowa) — process each separately, store the printed title in `competition`.
+  - **2019_opolskie key is EMBEDDED** in the question PDF (pp.3–4) → answers_file = the question pdf
+    itself (like lubelskie). Opolskie prints Part II before Part I; keep logical numbering 1–11.
+  - **łódzkie 2020 keyless + docx colon-garble:** the docx→pdf conversion misplaces the ratio/division
+    colon (renders *after* the following number); decode by the consistent swap rule (e.g. "11000:"
+    → "1:1000", "19:8:" → "1:9:8"). Still no key → answers null.
+  - **kujawsko-pomorskie format is not stable:** 2019 = 5 open (20 pts); 2020 = 21 mixed q (16 closed
+    + T/F + open, 30 pts). Don't assume; read the paper.
+  - **Two more suspected key errors (borderline, stored official C, flagged in
+    suspected_key_errors.tsv):** `rejonowy_2020-2021_malopolskie_q1` (Roman numerals, key C vs likely
+    D) and `rejonowy_2020-2021_swietokrzyskie_1_q1` ("cannot equal −1,2" has two valid options as
+    printed; likely a print error in option B). Ground-truth candidates for the blind pass.
+  - `dolnoslaskie` rejonowy figures include cryptarithm/long-multiplication layouts kept AS figures
+    (aligned digit grids don't render faithfully as text). `2020_lubuskie` q25 (cube-net choice) puts
+    each option's diagram as an inline `<img src="figures/…">` inside the choice html (+ a reference
+    fig1) — renders correctly; keep this pattern for image-choice questions.
+  - **Batch 8 (5):** 2020_opolskie (key clean this year), 2020_podkarpackie (KEYLESS — see below),
+    2020_podlaskie, 2021-2022_malopolskie (Q9 "D lub E" alternate), 2021-2022_pomorskie (bundled Q7).
+    All header-verified.
+  - **2020_podkarpackie: NO key** (no separate PDF, none embedded — page 13 is a blank karta
+    odpowiedzi) → answers null. Confirms podkarpackie keys are separate downloads sometimes missing;
+    other podkarpackie years mostly keyed. (Keyless list grows: 2012/2018/2020_podkarpackie, 2012/2013
+    podlaskie sp/gim, 2017-2018_pomorskie, 2019/2020_lodzkie.)
   - **Keyless (answers null):** 2012_podkarpackie, 2012_podlaskie_sp, 2013_podlaskie_gim/sp — no
     separate key and none embedded (checked last pages). All other 18 keyed + self-verified.
   - **ŚLĄSKIE switched away from "z Elementami Przyrody" ~2014/2015:** 2010-2013 śląskie rejonowy

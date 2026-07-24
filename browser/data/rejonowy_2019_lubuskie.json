@@ -1,0 +1,757 @@
+{
+  "source_file": "rejonowy/2019_lubuskie.pdf",
+  "answers_file": "rejonowy/2019_lubuskie_answers.pdf",
+  "competition": "Konkurs przedmiotowy z matematyki dla uczniów szkół podstawowych (lubuskie)",
+  "school_type": "podstawowa",
+  "stage": "rejonowy",
+  "wojewodztwo": "lubuskie",
+  "school_year": "2018/2019",
+  "date": "2019-02-09",
+  "total_questions": 33,
+  "max_points": 40,
+  "questions": [
+    {
+      "id": "rejonowy_2019_lubuskie_q1",
+      "number": 1,
+      "page": 1,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "zliczanie / metody zliczania"
+      ],
+      "prompt_html": "<p>Spośród 30 uczniów pewnej klasy 15 zna język angielski, 10 zna język niemiecki, a 6 uczniów nie zna żadnego z tych języków. Ilu uczniów zna jednocześnie język angielski i niemiecki?</p>",
+      "choices": [
+        { "label": "a", "html": "10" },
+        { "label": "b", "html": "5" },
+        { "label": "c", "html": "2" },
+        { "label": "d", "html": "1" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "d",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2019_lubuskie_q2",
+      "number": 2,
+      "page": 1,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "zagadki logiczne"
+      ],
+      "prompt_html": "<p>Wiktor, skacząc do basenu z trampoliny, odbija się od niej na wysokość 1 metra, następnie spada w dół 5 metrów, wreszcie – wypływając w górę 2 metry – osiąga powierzchnię wody. Na jakiej wysokości nad powierzchnią wody znajduje się trampolina?</p>",
+      "choices": [
+        { "label": "a", "html": "1 m" },
+        { "label": "b", "html": "2 m" },
+        { "label": "c", "html": "3 m" },
+        { "label": "d", "html": "4 m" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "b",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2019_lubuskie_q3",
+      "number": 3,
+      "page": 1,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Liczba trzycyfrowa, w której cyfrą dziesiątek jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, cyfra jedności jest dwa razy większa niż cyfra dziesiątek, a cyfra setek jest o 1 mniejsza od cyfry jedności, ma postać</p>",
+      "choices": [
+        { "label": "a", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>112</mn><mi>a</mi></math>" },
+        { "label": "b", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>212</mn><mi>a</mi><mo>−</mo><mn>100</mn></math>" },
+        { "label": "c", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>112</mn><mi>a</mi><mo>+</mo><mn>100</mn></math>" },
+        { "label": "d", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>112</mn><mi>a</mi><mo>−</mo><mn>100</mn></math>" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "b",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2019_lubuskie_q4",
+      "number": 4,
+      "page": 1,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Suma liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>48</mn></msqrt></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>27</mn></msqrt></math> jest równa</p>",
+      "choices": [
+        { "label": "a", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>147</mn></msqrt></math>" },
+        { "label": "b", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>75</mn></msqrt></math>" },
+        { "label": "c", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>1296</mn></msqrt></math>" },
+        { "label": "d", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>21</mn></msqrt></math>" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "a",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2019_lubuskie_q5",
+      "number": 5,
+      "page": 1,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "trójkąty",
+        "geometria"
+      ],
+      "prompt_html": "<p>Na bokach trójkąta prostokątnego równoramiennego o przyprostokątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math> Daniel zbudował trójkąty równoboczne. Otrzymał w ten sposób sześciokąt o polu</p>",
+      "choices": [
+        { "label": "a", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>p</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></math>" },
+        { "label": "b", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mi>p</mi><mn>2</mn></msup><mn>2</mn></mfrac><mo>+</mo><msup><mi>p</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></math>" },
+        { "label": "c", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msup><mi>p</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></math>" },
+        { "label": "d", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mi>p</mi><mn>2</mn></msup><mn>2</mn></mfrac><mo>+</mo><mn>2</mn><msup><mi>p</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></math>" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "b",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2019_lubuskie_q6",
+      "number": 6,
+      "page": 1,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Ze wzoru <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mi>b</mi></mfrac><mo>=</mo><mn>3</mn><mi>c</mi><mi>d</mi></math> Konrad wyznaczył po kolei wszystkie wielkości. Jedną wielkość wyznaczył błędnie. Którą?</p>",
+      "choices": [
+        { "label": "a", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>3</mn><mi>b</mi><mi>c</mi><mi>d</mi></math>" },
+        { "label": "b", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mfrac><mi>a</mi><mrow><mn>3</mn><mi>c</mi><mi>d</mi></mrow></mfrac></math>" },
+        { "label": "c", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mfrac><mrow><mn>3</mn><mi>a</mi></mrow><mrow><mi>b</mi><mi>d</mi></mrow></mfrac></math>" },
+        { "label": "d", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><mfrac><mi>a</mi><mrow><mn>3</mn><mi>b</mi><mi>c</mi></mrow></mfrac></math>" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "c",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2019_lubuskie_q7",
+      "number": 7,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Wynikiem działania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mn>6</mn><mo>−</mo><mn>3</mn><mo>|</mo><mo>−</mo><mo>|</mo><mo>−</mo><mn>2</mn><mo>−</mo><mn>5</mn><mo>|</mo></math> jest</p>",
+      "choices": [
+        { "label": "a", "html": "10" },
+        { "label": "b", "html": "6" },
+        { "label": "c", "html": "4" },
+        { "label": "d", "html": "−4" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "d",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2019_lubuskie_q8",
+      "number": 8,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "proporcjonalność prosta"
+      ],
+      "prompt_html": "<p>Korek o objętości 2 cm³ ma masę 0,5 g. Jaką masę ma 1 m³ tego korka?</p>",
+      "choices": [
+        { "label": "a", "html": "2,5 kg" },
+        { "label": "b", "html": "25 kg" },
+        { "label": "c", "html": "250 kg" },
+        { "label": "d", "html": "2,5 t" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "c",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2019_lubuskie_q9",
+      "number": 9,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Przedstawiona na rysunku figura</p>",
+      "choices": [
+        { "label": "a", "html": "ma 1 oś symetrii." },
+        { "label": "b", "html": "ma 2 osie symetrii." },
+        { "label": "c", "html": "ma 3 osie symetrii." },
+        { "label": "d", "html": "nie ma osi symetrii." }
+      ],
+      "figures": [
+        "rejonowy_2019_lubuskie_q9_fig1.png"
+      ],
+      "answer": {
+        "correct": "d",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2019_lubuskie_q10",
+      "number": 10,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "zliczanie / metody zliczania"
+      ],
+      "prompt_html": "<p>W biegu na 100 m startuje 625 zawodników. Bieżnia stadionu ma 5 torów i tylko zwycięzca każdego biegu przechodzi do kolejnej rundy, a wszyscy pozostali odpadają z dalszej rywalizacji. Najmniejsza liczba biegów konieczna do wyłonienia zwycięzcy zawodów to</p>",
+      "choices": [
+        { "label": "a", "html": "156" },
+        { "label": "b", "html": "126" },
+        { "label": "c", "html": "125" },
+        { "label": "d", "html": "106" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "a",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2019_lubuskie_q11",
+      "number": 11,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Cyfrą jedności liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>15</mn></msup><mo>+</mo><msup><mn>9</mn><mn>11</mn></msup><mo>+</mo><msup><mn>5</mn><mn>12</mn></msup></math> jest</p>",
+      "choices": [
+        { "label": "a", "html": "0" },
+        { "label": "b", "html": "4" },
+        { "label": "c", "html": "5" },
+        { "label": "d", "html": "9" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "b",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2019_lubuskie_q12",
+      "number": 12,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Kacper ma w woreczku 41 szklanych kulek w czterech kolorach: czerwonym, zielonym, niebieskim i żółtym. Czerwonych kulek ma o trzy więcej niż zielonych, niebieskich o dwie mniej niż czerwonych, a żółtych ma o cztery więcej niż niebieskich. Ile kulek żółtych ma Kacper?</p>",
+      "choices": [
+        { "label": "a", "html": "8" },
+        { "label": "b", "html": "12" },
+        { "label": "c", "html": "13" },
+        { "label": "d", "html": "17" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "c",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2019_lubuskie_q13",
+      "number": 13,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "statystyka opisowa"
+      ],
+      "prompt_html": "<p>Drużyna piłki nożnej składa się z 11 piłkarzy. Średni wiek piłkarzy tej drużyny to 22 lata. Podczas meczu jeden z graczy został kontuzjowany i opuścił boisko. Średni wiek pozostałych na boisku piłkarzy wynosi teraz 21 lat. Ile lat ma piłkarz, który opuścił boisko?</p>",
+      "choices": [
+        { "label": "a", "html": "21" },
+        { "label": "b", "html": "22" },
+        { "label": "c", "html": "23" },
+        { "label": "d", "html": "32" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "d",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2019_lubuskie_q14",
+      "number": 14,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "procenty"
+      ],
+      "prompt_html": "<p>80% powierzchni pewnej fotografii zostało pokryte czarnym kolorem, a 20% białym. Fotograf powiększył ją trzykrotnie. Jaki teraz procent powierzchni powiększonej fotografii zajmuje biały kolor?</p>",
+      "choices": [
+        { "label": "a", "html": "20%" },
+        { "label": "b", "html": "40%" },
+        { "label": "c", "html": "60%" },
+        { "label": "d", "html": "80%" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "a",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2019_lubuskie_q15",
+      "number": 15,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "równania z jedną zmienną",
+        "zagadki logiczne"
+      ],
+      "prompt_html": "<p>Za 2 lata syn pana Jana będzie 2 razy starszy niż 2 lata temu. Córka pana Jana za 3 lata będzie 3 razy starsza niż 3 lata temu. Która informacja o wieku dzieci pana Jana jest prawdziwa?</p>",
+      "choices": [
+        { "label": "a", "html": "Syn jest starszy od córki." },
+        { "label": "b", "html": "Córka jest starsza od syna." },
+        { "label": "c", "html": "Syn i córka to bliźnięta." },
+        { "label": "d", "html": "Za mało danych, by określić wiek dzieci." }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "c",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2019_lubuskie_q16",
+      "number": 16,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Wyrażenie opisujące potrojoną różnicę sześcianów liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> to</p>",
+      "choices": [
+        { "label": "a", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msup><mi>a</mi><mn>3</mn></msup><mo>−</mo><msup><mi>b</mi><mn>3</mn></msup></math>" },
+        { "label": "b", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msup><mrow><mo>(</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo>)</mo></mrow><mn>3</mn></msup></math>" },
+        { "label": "c", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>(</mo><msup><mi>a</mi><mn>3</mn></msup><mo>−</mo><msup><mi>b</mi><mn>3</mn></msup><mo>)</mo></math>" },
+        { "label": "d", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msup><mrow><mo>(</mo><msup><mi>a</mi><mn>3</mn></msup><mo>−</mo><msup><mi>b</mi><mn>3</mn></msup><mo>)</mo></mrow><mn>3</mn></msup></math>" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "c",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2019_lubuskie_q17",
+      "number": 17,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "prawdopodobieństwo",
+        "statystyka opisowa"
+      ],
+      "prompt_html": "<p>Poniższy diagram przedstawia, ilu uczniów klas ósmych pewnej szkoły podstawowej urodziło się w poszczególnych dniach tygodnia. Jakie jest prawdopodobieństwo, że losowo wybrany uczeń nie urodził się ani w sobotę, ani w niedzielę?</p>",
+      "choices": [
+        { "label": "a", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>11</mn></mfrac></math>" },
+        { "label": "b", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>66</mn></mfrac></math>" },
+        { "label": "c", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>13</mn><mn>66</mn></mfrac></math>" },
+        { "label": "d", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>53</mn><mn>66</mn></mfrac></math>" }
+      ],
+      "figures": [
+        "rejonowy_2019_lubuskie_q17_fig1.png"
+      ],
+      "answer": {
+        "correct": "d",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2019_lubuskie_q18",
+      "number": 18,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "procenty"
+      ],
+      "prompt_html": "<p>Jabłka są o 20% tańsze od śliwek, a gruszki są o 40% droższe od śliwek. O ile procent gruszki są droższe od jabłek?</p>",
+      "choices": [
+        { "label": "a", "html": "o 100%" },
+        { "label": "b", "html": "o 75%" },
+        { "label": "c", "html": "o 60%" },
+        { "label": "d", "html": "o 50%" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "b",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2019_lubuskie_q19",
+      "number": 19,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "prędkość / droga / czas",
+        "proporcjonalność odwrotna"
+      ],
+      "prompt_html": "<p>Pociąg dalekobieżny jadący z Monachium do Paryża porusza się z prędkością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>135</mn><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac></math>. Podróż trwa 6 godzin. Aby czas podróży został skrócony do 4 godzin, pociąg powinien poruszać się z prędkością</p>",
+      "choices": [
+        { "label": "a", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>202,5</mn><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac></math>" },
+        { "label": "b", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>200</mn><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac></math>" },
+        { "label": "c", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>90</mn><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac></math>" },
+        { "label": "d", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>25</mn><mfrac><mtext>m</mtext><mtext>s</mtext></mfrac></math>" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "a",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2019_lubuskie_q20",
+      "number": 20,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Powierzchnię 43 km² można zapisać jako</p>",
+      "choices": [
+        { "label": "a", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4,3</mn><mo>·</mo><msup><mn>10</mn><mn>2</mn></msup></math> km²" },
+        { "label": "b", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4,3</mn><mo>·</mo><msup><mn>10</mn><mn>6</mn></msup></math> m²" },
+        { "label": "c", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4,3</mn><mo>·</mo><msup><mn>10</mn><mn>5</mn></msup></math> a" },
+        { "label": "d", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4,3</mn><mo>·</mo><msup><mn>10</mn><mn>2</mn></msup></math> ha" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "c",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2019_lubuskie_q21",
+      "number": 21,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Wśród liczb: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><msqrt><mn>2</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>10</mn><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup></math></p>",
+      "choices": [
+        { "label": "a", "html": "wszystkie trzy są niewymierne." },
+        { "label": "b", "html": "dwie są niewymierne." },
+        { "label": "c", "html": "jedna jest niewymierna." },
+        { "label": "d", "html": "wszystkie trzy są wymierne." }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "b",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2019_lubuskie_q22",
+      "number": 22,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "pierścień kołowy",
+        "koła / okręgi"
+      ],
+      "prompt_html": "<p>Średnica małego koła wynosi 5, a średnica większego wynosi 7. Pole zacieniowanego obszaru to</p>",
+      "choices": [
+        { "label": "a", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mi>π</mi></math>" },
+        { "label": "b", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mi>π</mi></math>" },
+        { "label": "c", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>π</mi></math>" },
+        { "label": "d", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>π</mi></math>" }
+      ],
+      "figures": [
+        "rejonowy_2019_lubuskie_q22_fig1.png"
+      ],
+      "answer": {
+        "correct": "c",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2019_lubuskie_q23",
+      "number": 23,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Zegar katedralny wskazuje godzinę 9:20. Jeden z kątów między wskazówką godzinową i minutową ma miarę</p>",
+      "choices": [
+        { "label": "a", "html": "170°" },
+        { "label": "b", "html": "160°" },
+        { "label": "c", "html": "150°" },
+        { "label": "d", "html": "140°" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "b",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2019_lubuskie_q24",
+      "number": 24,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Punktem symetrycznym do punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>6</mn><mo>,</mo><mn>5</mn><mo>)</mo></math> względem początku układu współrzędnych jest punkt</p>",
+      "choices": [
+        { "label": "a", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>(</mo><mn>6</mn><mo>,</mo><mo>−</mo><mn>5</mn><mo>)</mo></math>" },
+        { "label": "b", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>6</mn><mo>,</mo><mo>−</mo><mn>5</mn><mo>)</mo></math>" },
+        { "label": "c", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>=</mo><mo>(</mo><mn>6</mn><mo>,</mo><mn>5</mn><mo>)</mo></math>" },
+        { "label": "d", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>5</mn><mo>,</mo><mn>6</mn><mo>)</mo></math>" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "a",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2019_lubuskie_q25",
+      "number": 25,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>W zapisie dziesiętnym liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>12</mn></msup><mo>·</mo><msup><mn>5</mn><mn>8</mn></msup></math> jest</p>",
+      "choices": [
+        { "label": "a", "html": "20 cyfr." },
+        { "label": "b", "html": "12 cyfr." },
+        { "label": "c", "html": "10 cyfr." },
+        { "label": "d", "html": "96 cyfr." }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "c",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2019_lubuskie_q26",
+      "number": 26,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "trójkąty",
+        "geometria"
+      ],
+      "prompt_html": "<p>Suma miar wszystkich kątów zaznaczonych na poniższym rysunku łukami wynosi</p>",
+      "choices": [
+        { "label": "a", "html": "180°" },
+        { "label": "b", "html": "270°" },
+        { "label": "c", "html": "360°" },
+        { "label": "d", "html": "540°" }
+      ],
+      "figures": [
+        "rejonowy_2019_lubuskie_q26_fig1.png"
+      ],
+      "answer": {
+        "correct": "c",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2019_lubuskie_q27",
+      "number": 27,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "koła / okręgi",
+        "geometria"
+      ],
+      "prompt_html": "<p>Jaka jest długość boku kwadratu, jeżeli wiadomo, że jego obwód jest taki sam jak obwód koła o promieniu 10?</p>",
+      "choices": [
+        { "label": "a", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mi>π</mi></math>" },
+        { "label": "b", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mi>π</mi></math>" },
+        { "label": "c", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2,5</mn><mi>π</mi></math>" },
+        { "label": "d", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,25</mn><mi>π</mi></math>" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "b",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2019_lubuskie_q28",
+      "number": 28,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "bryły"
+      ],
+      "prompt_html": "<p>Julita wykonała rysunek przedstawiający model ostrosłupa prawidłowego. Która liczba wyraża pole powierzchni bocznej tego ostrosłupa?</p>",
+      "choices": [
+        { "label": "a", "html": "180" },
+        { "label": "b", "html": "84" },
+        { "label": "c", "html": "48" },
+        { "label": "d", "html": "12" }
+      ],
+      "figures": [
+        "rejonowy_2019_lubuskie_q28_fig1.png"
+      ],
+      "answer": {
+        "correct": "c",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2019_lubuskie_q29",
+      "number": 29,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "zagadki logiczne",
+        "proporcjonalność prosta"
+      ],
+      "prompt_html": "<p>Sześć żab łapie sześć much w ciągu sześciu minut. Ile żab złapie dwanaście much w ciągu dwunastu minut?</p>",
+      "choices": [
+        { "label": "a", "html": "6" },
+        { "label": "b", "html": "12" },
+        { "label": "c", "html": "18" },
+        { "label": "d", "html": "24" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "a",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2019_lubuskie_q30",
+      "number": 30,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "liczby rzymskie"
+      ],
+      "prompt_html": "<p>Znak oznaczający odejmowanie po raz pierwszy pojawił się prawdopodobnie w książce w 1489 roku. Który zapis za pomocą cyfr rzymskich pokazuje tę datę?</p>",
+      "choices": [
+        { "label": "a", "html": "MCDLXXXXI" },
+        { "label": "b", "html": "MDCLXXXXI" },
+        { "label": "c", "html": "MDCLXXXIX" },
+        { "label": "d", "html": "MCDLXXXIX" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "d",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2019_lubuskie_q31",
+      "number": 31,
+      "page": 5,
+      "type": "true_false",
+      "points": 4,
+      "topics": [
+        "podzielność"
+      ],
+      "prompt_html": "<p>Poniższe zdania dotyczą cech podzielności. Oceń poprawność zaprezentowanego rozumowania.</p>",
+      "choices": [
+        { "label": "1", "html": "Liczba 1 340 208 dzieli się przez 9." },
+        { "label": "2", "html": "Liczba 278 040 nie dzieli się przez 15." },
+        { "label": "3", "html": "Na pewnym przyjęciu każda z osób miała dokładnie trzech znajomych. Wynika z tego, że liczba osób obecnych na przyjęciu dzieli się przez 3." },
+        { "label": "4", "html": "Każda liczba podzielna przez 4 oraz przez 6 dzieli się też przez ich iloczyn, tzn. przez 24." }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PFFF",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2019_lubuskie_q32",
+      "number": 32,
+      "page": 5,
+      "type": "true_false",
+      "points": 3,
+      "topics": [
+        "prawdopodobieństwo"
+      ],
+      "prompt_html": "<p>Mieszkańcy pewnego osiedla zorganizowali loterię. W puli przygotowanych przez nich losów co czwarty los wygrywa. Wśród losów wygrywających tylko 10% z nich gwarantuje otrzymanie nagrody, a 90% to losy, które pozwalają losować jeszcze raz. Maciek kupił jeden los. Oceń poniższe sytuacje.</p>",
+      "choices": [
+        { "label": "1", "html": "Prawdopodobieństwo, że Maciek otrzyma los przegrywający, wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math>." },
+        { "label": "2", "html": "Prawdopodobieństwo otrzymania przez Maćka losu gwarantującego nagrodę wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>40</mn></mfrac></math>." },
+        { "label": "3", "html": "Prawdopodobieństwo otrzymania przez Maćka losu pozwalającego losować ponownie wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>9</mn><mn>40</mn></mfrac></math>." }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FPP",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2019_lubuskie_q33",
+      "number": 33,
+      "page": 5,
+      "type": "true_false",
+      "points": 3,
+      "topics": [
+        "bryły",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Fryderyk zbudował model prostopadłościanu z klocków o wymiarach 1 cm × 1 cm × 2 cm. Agnieszce udało się ułożyć taki sam model z klocków o wymiarach 1 cm × 1 cm × 3 cm, przy czym wzięła ich o 50 mniej niż Fryderyk. Okazało się, że Bartek złożył identyczny model z klocków o wymiarach 1 cm × 1 cm × 4 cm. W oparciu o powyższe dane oceń zaistniałe sytuacje.</p>",
+      "choices": [
+        { "label": "1", "html": "Fryderyk zbudował model prostopadłościanu, używając 200 klocków." },
+        { "label": "2", "html": "Bartek złożył model prostopadłościanu z 75 klocków." },
+        { "label": "3", "html": "Zbudowany przez nich model prostopadłościanu ma objętość 300 cm³." }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FPP",
+        "solution_html": null
+      }
+    }
+  ]
+}

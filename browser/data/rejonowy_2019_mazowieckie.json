@@ -1,0 +1,252 @@
+{
+  "source_file": "rejonowy/2019_mazowieckie.pdf",
+  "answers_file": "rejonowy/2019_mazowieckie_answers.pdf",
+  "competition": "Konkurs Matematyczny dla uczniów klas IV-VIII szkół podstawowych województwa mazowieckiego",
+  "school_type": "podstawowa",
+  "stage": "rejonowy",
+  "wojewodztwo": "mazowieckie",
+  "school_year": "2019/2020",
+  "date": "2019-12-05",
+  "total_questions": 10,
+  "max_points": 20,
+  "questions": [
+    {
+      "id": "rejonowy_2019_mazowieckie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "układy równań",
+        "procenty"
+      ],
+      "prompt_html": "<p>Liczba o 10% mniejsza od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest o 4 większa od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, natomiast liczba o 10% większa od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest o 5 mniejsza od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>.</p><p>Wybierz układ równań, który opisuje treść zadania.</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>{</mo><mtable columnalign=\"left\"><mtr><mtd><mrow><mn>0,9</mn><mi>b</mi><mo>−</mo><mi>a</mi><mo>=</mo><mn>4</mn></mrow></mtd></mtr><mtr><mtd><mrow><mi>b</mi><mo>−</mo><mn>1,1</mn><mi>a</mi><mo>=</mo><mn>5</mn></mrow></mtd></mtr></mtable></mrow></math>"
+        },
+        {
+          "label": "B",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>{</mo><mtable columnalign=\"left\"><mtr><mtd><mrow><mi>a</mi><mo>−</mo><mn>10</mn><mo>=</mo><mi>b</mi><mo>+</mo><mn>4</mn></mrow></mtd></mtr><mtr><mtd><mrow><mi>b</mi><mo>+</mo><mn>10</mn><mo>=</mo><mi>a</mi><mo>−</mo><mn>5</mn></mrow></mtd></mtr></mtable></mrow></math>"
+        },
+        {
+          "label": "C",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>{</mo><mtable columnalign=\"left\"><mtr><mtd><mrow><mi>a</mi><mo>−</mo><mn>1,1</mn><mi>b</mi><mo>=</mo><mn>5</mn></mrow></mtd></mtr><mtr><mtd><mrow><mn>0,9</mn><mi>a</mi><mo>−</mo><mi>b</mi><mo>=</mo><mn>4</mn></mrow></mtd></mtr></mtable></mrow></math>"
+        },
+        {
+          "label": "D",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>{</mo><mtable columnalign=\"left\"><mtr><mtd><mrow><mn>0,9</mn><mi>a</mi><mo>+</mo><mn>4</mn><mo>=</mo><mi>b</mi></mrow></mtd></mtr><mtr><mtd><mrow><mn>1,1</mn><mi>b</mi><mo>−</mo><mn>5</mn><mo>=</mo><mi>a</mi></mrow></mtd></mtr></mtable></mrow></math>"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": "<p>Liczba o 10% mniejsza od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,9</mn><mi>a</mi></mrow></math>. Jest ona o 4 większa od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,9</mn><mi>a</mi><mo>=</mo><mi>b</mi><mo>+</mo><mn>4</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,9</mn><mi>a</mi><mo>−</mo><mi>b</mi><mo>=</mo><mn>4</mn></mrow></math>. Liczba o 10% większa od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,1</mn><mi>b</mi></mrow></math>. Jest ona o 5 mniejsza od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,1</mn><mi>b</mi><mo>=</mo><mi>a</mi><mo>−</mo><mn>5</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>−</mo><mn>1,1</mn><mi>b</mi><mo>=</mo><mn>5</mn></mrow></math>. Treść zadania opisuje układ z odpowiedzi C.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2019_mazowieckie_q2",
+      "number": 2,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "usuwanie niewymierności z mianownika",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Wybierz poprawną odpowiedź spośród podanych.</p><p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mfrac><mrow><mn>6</mn><mo>−</mo><msqrt><mn>6</mn></msqrt></mrow><msqrt><mn>6</mn></msqrt></mfrac><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup></math> jest równa:</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>6</mn></mfrac></math>"
+        },
+        {
+          "label": "B",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>6</mn></msqrt><mn>6</mn></mfrac></math>"
+        },
+        {
+          "label": "C",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>6</mn></msqrt></math>"
+        },
+        {
+          "label": "D",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn></math>"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>6</mn><msqrt><mn>6</mn></msqrt></mfrac><mo>=</mo><msqrt><mn>6</mn></msqrt></mrow></math>, mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>6</mn><mo>−</mo><msqrt><mn>6</mn></msqrt></mrow><msqrt><mn>6</mn></msqrt></mfrac><mo>=</mo><msqrt><mn>6</mn></msqrt><mo>−</mo><mn>1</mn></mrow></math>. Wyrażenie w nawiasie jest więc równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>6</mn></msqrt><mo>−</mo><mn>1</mn><mo>+</mo><mn>1</mn><mo>=</mo><msqrt><mn>6</mn></msqrt></mrow></math>, a jego kwadrat wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><msqrt><mn>6</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>6</mn></mrow></math>. Poprawna odpowiedź to D.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2019_mazowieckie_q3",
+      "number": 3,
+      "page": 2,
+      "type": "true_false",
+      "points": 1,
+      "topics": [
+        "trójkąty"
+      ],
+      "prompt_html": "<p>Tomek wykonał z drutu trójkąt, w którym długości boków są w stosunku 17 : 8 : 15.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe albo F, jeśli jest fałszywe.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Suma kątów ostrych tego trójkąta wynosi 90°."
+        },
+        {
+          "label": "2",
+          "html": "Jeśli długość najkrótszego boku tego trójkąta jest równa 16, to jego obwód wynosi 80."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PP",
+        "solution_html": "<p>Sprawdzamy, czy trójkąt o bokach w stosunku 17 : 8 : 15 jest prostokątny: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>8</mn><mn>2</mn></msup><mo>+</mo><msup><mn>15</mn><mn>2</mn></msup><mo>=</mo><mn>64</mn><mo>+</mo><mn>225</mn><mo>=</mo><mn>289</mn><mo>=</mo><msup><mn>17</mn><mn>2</mn></msup></mrow></math>, więc na mocy twierdzenia odwrotnego do twierdzenia Pitagorasa trójkąt jest prostokątny. Suma jego kątów ostrych wynosi 90° — zdanie 1. jest prawdziwe (P). Najkrótszy bok odpowiada liczbie 8 w stosunku. Jeśli ma on długość 16, to skala wynosi 2, a boki mają długości 34, 16 i 30. Obwód wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>34</mn><mo>+</mo><mn>16</mn><mo>+</mo><mn>30</mn><mo>=</mo><mn>80</mn></mrow></math> — zdanie 2. jest prawdziwe (P).</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2019_mazowieckie_q4",
+      "number": 4,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "sześciokąty foremne",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Jaką długość może mieć przekątna sześciokąta foremnego o boku równym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow></math>? Zaznacz wszystkie poprawne odpowiedzi spośród podanych.</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><msqrt><mn>3</mn></msqrt></mrow></math>"
+        },
+        {
+          "label": "B",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>54</mn></msqrt></math>"
+        },
+        {
+          "label": "C",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><msqrt><mn>3</mn></msqrt></mrow></math>"
+        },
+        {
+          "label": "D",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn></math>"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C, D",
+        "solution_html": "<p>Sześciokąt foremny o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> ma krótszą przekątną długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><msqrt><mn>3</mn></msqrt></mrow></math> oraz dłuższą przekątną długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>a</mi></mrow></math>. Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow></math> krótsza przekątna wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>6</mn></mrow></math> (odpowiedź D), a dłuższa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>4</mn><msqrt><mn>3</mn></msqrt></mrow></math> (odpowiedź C). Wartości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><msqrt><mn>3</mn></msqrt></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>54</mn></msqrt><mo>=</mo><mn>3</mn><msqrt><mn>6</mn></msqrt></mrow></math> nie są przekątnymi tego sześciokąta. Poprawne odpowiedzi to C i D.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2019_mazowieckie_q5",
+      "number": 5,
+      "page": 3,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "potęgi i pierwiastki",
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>Uzasadnij, że jeśli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><msup><mn>3</mn><mn>15</mn></msup></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><msup><mn>8</mn><mn>10</mn></msup></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><msup><mn>2</mn><mn>32</mn></msup></mrow></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>&lt;</mo><mi>b</mi><mo>&lt;</mo><mi>c</mi></mrow></math>.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "a < b < c",
+        "solution_html": "<p>Zapisujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><msup><mn>8</mn><mn>10</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><msup><mn>2</mn><mn>3</mn></msup><mo>)</mo></mrow><mn>10</mn></msup><mo>=</mo><msup><mn>2</mn><mn>30</mn></msup></mrow></math>. Dalej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><msup><mn>2</mn><mn>30</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><msup><mn>2</mn><mn>2</mn></msup><mo>)</mo></mrow><mn>15</mn></msup><mo>=</mo><msup><mn>4</mn><mn>15</mn></msup></mrow></math>, a ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>4</mn><mn>15</mn></msup><mo>&gt;</mo><msup><mn>3</mn><mn>15</mn></msup><mo>=</mo><mi>a</mi></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>&lt;</mo><mi>b</mi></mrow></math>. Ponadto <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><msup><mn>2</mn><mn>32</mn></msup><mo>&gt;</mo><msup><mn>2</mn><mn>30</mn></msup><mo>=</mo><mi>b</mi></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>&lt;</mo><mi>c</mi></mrow></math>. Łącząc obie nierówności, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>&lt;</mo><mi>b</mi><mo>&lt;</mo><mi>c</mi></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2019_mazowieckie_q6",
+      "number": 6,
+      "page": 4,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "statystyka opisowa",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Bartek ma 4 lata i kilkoro rodzeństwa. Średnia wieku jego rodziny (rodzice i dzieci) wynosi 19 lat, a średnia wieku rodziny liczona bez wieku Bartka jest równa 22 lata. Ile rodzeństwa ma Bartek? Odpowiedź uzasadnij.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Bartek ma troje rodzeństwa (rodzina liczy 6 osób)",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę osób w rodzinie. Suma wieku wszystkich osób wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>19</mn><mi>x</mi></mrow></math>, a suma wieku bez Bartka (który ma 4 lata) to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>19</mn><mi>x</mi><mo>−</mo><mn>4</mn></mrow></math>. Bez Bartka rodzinę tworzy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>−</mo><mn>1</mn></mrow></math> osób o średniej wieku 22 lata, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>19</mn><mi>x</mi><mo>−</mo><mn>4</mn><mo>=</mo><mn>22</mn><mo>(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>19</mn><mi>x</mi><mo>−</mo><mn>4</mn><mo>=</mo><mn>22</mn><mi>x</mi><mo>−</mo><mn>22</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>x</mi><mo>=</mo><mn>18</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>6</mn></mrow></math>. Rodzina liczy 6 osób: dwoje rodziców i czworo dzieci, więc Bartek ma troje rodzeństwa.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2019_mazowieckie_q7",
+      "number": 7,
+      "page": 5,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "trójkąty",
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>Wojtek zmierzył w każdym z dwóch trójkątów trzy kąty zewnętrzne (po jednym przy każdym wierzchołku). Wyniki pomiarów zapisał na kartce (w dowolnej kolejności), a potem tak nieszczęśliwie oddarł część kartki, że zgubił dwa z nich. Kasia spojrzała na pozostałe cztery wyniki i stwierdziła, że jeden z trójkątów musiał być równoramienny. Odtwórz (Podaj) brakujące wyniki pomiarów Wojtka i uzasadnij, że jeden z tych trójkątów był równoramienny lub prostokątny.</p><p>Na kartce pozostały cztery wyniki: 70°, 110°, 140°, 160°.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Brakujące pary kątów zewnętrznych: 90° i 150° lub 110° i 130°",
+        "solution_html": "<p>Kąt wewnętrzny trójkąta jest dopełnieniem kąta zewnętrznego do 180°. Zachowanym kątom zewnętrznym 70°, 110°, 140°, 160° odpowiadają kąty wewnętrzne 110°, 70°, 40°, 20°. Kąt 110° jest rozwarty, więc trójkąt z tym kątem jest rozwartokątny; jego drugi kąt może wynosić 40° albo 20° (nie 70°, bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>110</mn><mo>+</mo><mn>70</mn><mo>=</mo><mn>180</mn></mrow></math>).</p><p>Przypadek I: kąty wewnętrzne 110°, 40°, 30° (kąty zewnętrzne 70°, 140°, 150°) — brakuje 150°. Wtedy drugi trójkąt ma kąty wewnętrzne 20°, 70°, 90° (kąty zewnętrzne 160°, 110°, 90°) — brakuje 90°; jest to trójkąt prostokątny.</p><p>Przypadek II: kąty wewnętrzne 110°, 20°, 50° (kąty zewnętrzne 70°, 160°, 130°) — brakuje 130°. Wtedy drugi trójkąt ma kąty wewnętrzne 70°, 40°, 70° (kąty zewnętrzne 110°, 140°, 110°) — brakuje 110°; jest to trójkąt równoramienny.</p><p>Brakującymi wynikami pomiarów są zatem pary: 90° i 150° albo 110° i 130°.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2019_mazowieckie_q8",
+      "number": 8,
+      "page": 6,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "prędkość / droga / czas"
+      ],
+      "prompt_html": "<p>Weronika i młodsza od niej Karolina rozpoczęły bieg o godzinie 17.00. Weronika goni Karolinę, a odległość między nimi na starcie wynosiła 180 m. Weronika w ciągu 5 sekund robi 25 kroków, a Karolina w ciągu 8 sekund 36 kroków. Krok Weroniki ma 0,6 m, a Karoliny 0,5 m. O której godzinie Weronika dogoni Karolinę? Odpowiedź uzasadnij.</p><p>Przyjmij, że podczas biegu długości kroków oraz prędkości obu dziewcząt nie zmieniają się.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "O godzinie 17.04 (po 4 minutach)",
+        "solution_html": "<p>Prędkość Weroniki wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>25</mn><mn>5</mn></mfrac><mo>·</mo><mn>0,6</mn><mo>=</mo><mn>5</mn><mo>·</mo><mn>0,6</mn><mo>=</mo><mn>3</mn></mrow></math> m/s, a prędkość Karoliny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>36</mn><mn>8</mn></mfrac><mo>·</mo><mn>0,5</mn><mo>=</mo><mn>4,5</mn><mo>·</mo><mn>0,5</mn><mo>=</mo><mn>2,25</mn></mrow></math> m/s. W każdej sekundzie Weronika zmniejsza dzielącą je odległość o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>−</mo><mn>2,25</mn><mo>=</mo><mn>0,75</mn></mrow></math> m. Aby nadrobić 180 m, potrzebuje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>:</mo><mn>0,75</mn><mo>=</mo><mn>240</mn></mrow></math> s, czyli 4 minuty. Zatem Weronika dogoni Karolinę o godzinie 17.04.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2019_mazowieckie_q9",
+      "number": 9,
+      "page": 7,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "trójkąty",
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>Na płaszczyźnie dane są punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>, które spełniają jednocześnie następujące warunki:</p><ul><li>odległość punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> od punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> wynosi 24;</li><li>odległość punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> od punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> wynosi 30;</li><li>odległość punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> od punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> wynosi 50;</li><li>odległość punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> od punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> wynosi 18;</li><li>odległość między punktami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> wynosi 32.</li></ul><p>Jaka jest odległość między punktami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>? Odpowiedź uzasadnij.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "40",
+        "solution_html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>32</mn><mo>+</mo><mn>18</mn><mo>=</mo><mn>50</mn></mrow></math>, punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> leżą na jednej prostej, przy czym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> leży między <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>. Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACD</mi></math> jest prostokątny, bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>24</mn><mn>2</mn></msup><mo>+</mo><msup><mn>18</mn><mn>2</mn></msup><mo>=</mo><mn>576</mn><mo>+</mo><mn>324</mn><mo>=</mo><mn>900</mn><mo>=</mo><msup><mn>30</mn><mn>2</mn></msup></mrow></math>, zatem kąt przy wierzchołku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> jest prosty, czyli odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> jest prostopadły do prostej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math>. Wobec tego również trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACB</mi></math> jest prostokątny (kąt przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> równy 90°) i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>|</mo><mi>AB</mi><mo>|</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mn>32</mn><mn>2</mn></msup><mo>+</mo><msup><mn>24</mn><mn>2</mn></msup><mo>=</mo><mn>1024</mn><mo>+</mo><mn>576</mn><mo>=</mo><mn>1600</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>40</mn></mrow></math>. Odległość między punktami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> wynosi 40.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2019_mazowieckie_q10",
+      "number": 10,
+      "page": 8,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "bryły",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>W graniastosłupie prawidłowym czworokątnym przekątna podstawy jest pięć razy krótsza od przekątnej ściany bocznej. Objętość tego graniastosłupa wynosi 7. Jaką długość ma krawędź podstawy? Odpowiedź uzasadnij.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "1",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> oznacza krawędź podstawy (kwadratu). Przekątna podstawy ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><msqrt><mn>2</mn></msqrt></mrow></math>, a przekątna ściany bocznej jest pięć razy dłuższa, więc równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mi>a</mi><msqrt><mn>2</mn></msqrt></mrow></math>. Ściana boczna jest prostokątem o krawędziach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> oraz wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math>, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mn>5</mn><mi>a</mi><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>h</mi><mn>2</mn></msup></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>50</mn><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>h</mi><mn>2</mn></msup></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>h</mi><mn>2</mn></msup><mo>=</mo><mn>49</mn><msup><mi>a</mi><mn>2</mn></msup></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><mn>7</mn><mi>a</mi></mrow></math>. Objętość graniastosłupa wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>V</mi><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><mo>·</mo><mi>h</mi><mo>=</mo><mn>7</mn><msup><mi>a</mi><mn>3</mn></msup></mrow></math>. Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7</mn><msup><mi>a</mi><mn>3</mn></msup><mo>=</mo><mn>7</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>3</mn></msup><mo>=</mo><mn>1</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>1</mn></mrow></math>. Krawędź podstawy ma długość 1.</p>"
+      }
+    }
+  ]
+}
