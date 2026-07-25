@@ -127,6 +127,9 @@ function buildFacetUI() {
 function renderQuestion(q, seq) {
   const src = `${q.source_file}, s.${q.page}, zad. ${q.number}`;
   const parts = [`<article class="q" id="${esc(q.id)}" data-hash="${q.hash}">`];
+  if (seq != null) parts.push( // ordered "Pokaż tylko id" mode: gutter arrows reorder the id list
+    `<button type="button" class="reorder up" title="Przesuń w górę" aria-label="w górę">↑</button>`
+    + `<button type="button" class="reorder down" title="Przesuń w dół" aria-label="w dół">↓</button>`);
   parts.push(`<label class="selectbox" title="zaznacz do wydruku"><input type="checkbox"${selectedSet.has(q.hash) ? ' checked' : ''}></label>`);
   parts.push(`<div class="qhead"><span class="qnum">Zadanie ${seq ?? q.number}.</span>`
     + `<span class="pts">${q.points}p</span>`
@@ -308,6 +311,17 @@ loadData().then(data => {
     const h = e.target.closest('.q').dataset.hash;
     e.target.checked ? selectedSet.add(h) : selectedSet.delete(h);
     writeUrl(false);
+  });
+  qlist.addEventListener('click', e => { // reorder arrows: swap adjacent hashes in the id box
+    const btn = e.target.closest('.reorder');
+    if (!btn) return;
+    const ids = idList(inc.value);
+    const i = ids.indexOf(btn.closest('.q').dataset.hash);
+    const j = i + (btn.classList.contains('up') ? -1 : 1);
+    if (i < 0 || j < 0 || j >= ids.length) return;
+    [ids[i], ids[j]] = [ids[j], ids[i]];
+    inc.value = ids.join(', ');
+    writeUrl(false); update(); // keep current page & scroll, just re-render in the new order
   });
   // "Zaznaczone ↑": drop the print-selected question ids into the "Pokaż tylko id" box
   $('useSel').onclick = () => { inc.value = selectedHashes().join(', '); writeUrl(false); refilter(); };
