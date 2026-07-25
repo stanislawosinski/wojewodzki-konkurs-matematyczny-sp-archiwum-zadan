@@ -204,7 +204,7 @@ the know-how that used to live only in the chat; everything needed to resume is 
        192 cm²); key row looks mismatched. Stored the correct 192; verify in blind pass.
     3. `rejonowy_2014_podkarpackie_q16` — arkusz omitted square labels; everyone got 1 pt but key
        still lists B. Kept correct=B + italic note (not an annulment).
-- **wojewodzki: 20 / 160** processed (batch 1 done 2026-07-25). (160 real of 165 — 5 W-M śląskie-dups
+- **wojewodzki: 40 / 160** processed (batches 1–2 done 2026-07-25). (160 real of 165 — 5 W-M śląskie-dups
   still present for years with no genuine available: 2012/13–2015/16, 2025/26. On 2026-07-23 the W-M
   source files were fixed: 12 genuine W-M wojewódzki papers (2009/10, 2010/11, 2011/12, 2016/17–2024/25)
   recovered & swapped in — keys for 2016/17 onward. Earlier +16 merged from `remaining/wojewodzki/`.)
@@ -222,6 +222,20 @@ the know-how that used to live only in the chat; everything needed to resume is 
   - **2nd documented points!=max:** `wojewodzki_2011_podlaskie_gim` sum 42 ≠ stated 45 — closed block
     1–13 are MULTIPLE-SELECT ("może być po kilka poprawnych odpowiedzi") worth extra untabulated
     points; kept max_points at the printed 45. Not an extraction error; validator will keep flagging it.
+  - **Batch 2 (20):** 2014_podlaskie_sp/gim, 2015_podkarpackie/podlaskie_sp/podlaskie_gim/opolskie,
+    2015-2016_slaskie/malopolskie, 2016_opolskie/podkarpackie/podlaskie, 2016-2017_slaskie/malopolskie/
+    warminsko-mazurskie, 2017_opolskie, 2017-2018_slaskie/malopolskie/pomorskie/zachodniopomorskie/
+    warminsko-mazurskie. All keyed + self-verified except 2017-2018_pomorskie (keyless).
+  - **W-M has SEPARATE KEYS from 2016/2017 on** (2016-2017 & 2017-2018 W-M both keyed + verified, genuine
+    Olsztyn confirmed by md5 + "W-M ODN OLSZTYN" logo). Still no printed max on the arkusz → max_points
+    computed (closed 1pt convention + stated open points).
+  - **New wojewódzki voivodeships:** opolskie (two-part TAK/NIE + open, keys re-derived clean),
+    zachodniopomorskie (closed+open, no annulment), pomorskie (2017-2018 KEYLESS, 9 q incl. an 8-stmt T/F).
+  - **śląskie wojewódzki fully pure-math from 2014/2015** (2015-2016, 2016-2017, 2017-2018 all pure math,
+    crossword q1). Confirmed przyroda ended after 2013/2014 at every stage.
+  - **Official key corrections (not errors, not annulments):** 2016_podkarpackie key was officially
+    corrected for q14/q17 (q14 = "A lub C" alternate). Minor source/key number mismatches
+    (2016_opolskie q2, 2017_opolskie q3 missing sequence term) left faithful; P/F verdict robust.
 - Browser: static app (`browser/index.html` + `app.css` + `app.js`, committed) rendering from
   generated per-stage data shards (`data.<stage>.js`/`.json`, gitignored). Rebuild shards with:
   `cd browser && node build.mjs` (2026-07-23: replaced the old per-test HTML generator `build.py`).

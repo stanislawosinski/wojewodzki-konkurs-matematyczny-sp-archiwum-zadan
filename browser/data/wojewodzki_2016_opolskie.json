@@ -1,0 +1,270 @@
+{
+  "source_file": "wojewodzki/2016_opolskie.pdf",
+  "answers_file": "wojewodzki/2016_opolskie_answers.pdf",
+  "competition": "XVI Wojewódzki Konkurs Matematyczny dla uczniów szkół podstawowych województwa opolskiego",
+  "school_type": "podstawowa",
+  "stage": "wojewodzki",
+  "wojewodztwo": "opolskie",
+  "school_year": "2015/2016",
+  "date": null,
+  "total_questions": 11,
+  "max_points": 40,
+  "questions": [
+    {
+      "id": "wojewodzki_2016_opolskie_q1",
+      "number": 1,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "procenty"
+      ],
+      "prompt_html": "<p>Płaszcz kosztuje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> zł. Jeżeli jego cena wzrośnie o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>p</mi><mo>%</mo></mrow></math>, to będzie wynosić:</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mo>·</mo><mi>p</mi></mrow><mn>100</mn></mfrac></math>"
+        },
+        {
+          "label": "2",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mfrac><mrow><mi>a</mi><mo>·</mo><mi>p</mi></mrow><mn>100</mn></mfrac></mrow></math>"
+        },
+        {
+          "label": "3",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mfrac><mi>p</mi><mn>100</mn></mfrac></mrow></math>"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FPF",
+        "solution_html": "<p>Podwyżka o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>p</mi><mo>%</mo></mrow></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mo>·</mo><mi>p</mi></mrow><mn>100</mn></mfrac></math> zł, więc nowa cena to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mfrac><mrow><mi>a</mi><mo>·</mo><mi>p</mi></mrow><mn>100</mn></mfrac></mrow></math> zł. Pierwsze wyrażenie to sama podwyżka, a nie cena (NIE); drugie to poprawna nowa cena (TAK); trzecie jest błędne (NIE).</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2016_opolskie_q2",
+      "number": 2,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "trójkąty"
+      ],
+      "prompt_html": "<p>Bok trójkąta jest 1,5 razy dłuższy od wysokości opuszczonej na ten bok. Pole tego trójkąta wynosi 27 m².</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Bok trójkąta ma długość 32,4 m."
+        },
+        {
+          "label": "2",
+          "html": "Wysokość trójkąta ma długość 21,6 m."
+        },
+        {
+          "label": "3",
+          "html": "Jeżeli bok i wysokość zwiększymy dwa razy, to pole trójkąta będzie większe niż 1 ar."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FFP",
+        "solution_html": "<p>Niech wysokość wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math>; wtedy bok ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,5</mn><mi>h</mi></mrow></math>. Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>1,5</mn><mi>h</mi><mo>·</mo><mi>h</mi><mo>=</mo><mn>0,75</mn><msup><mi>h</mi><mn>2</mn></msup><mo>=</mo><mn>27</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>h</mi><mn>2</mn></msup><mo>=</mo><mn>36</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><mn>6</mn></mrow></math> m, a bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>=</mo><mn>9</mn></mrow></math> m. Podane w zdaniach wartości (32,4 m i 21,6 m) są więc błędne — obie odpowiedzi to NIE. Po dwukrotnym powiększeniu boku i wysokości pole rośnie czterokrotnie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><mn>27</mn><mo>=</mo><mn>108</mn></mrow></math> m², a to więcej niż 1 ar <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>=</mo><mn>100</mn></mrow></math> m² — TAK. (W kluczu odpowiedzi treści zdań 1 i 2 mają inne, także błędne wartości — 21,6 m i 14,4 m; poprawne to 9 m i 6 m, więc w obu wersjach odpowiedzi brzmią NIE, NIE, TAK.)</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2016_opolskie_q3",
+      "number": 3,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Przekątne trapezu równoramiennego są prostopadłe, jego wysokość ma długość 10 cm.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Za mało danych, żeby obliczyć pole."
+        },
+        {
+          "label": "2",
+          "html": "Suma długości podstaw wynosi 20 cm."
+        },
+        {
+          "label": "3",
+          "html": "Pole powierzchni trapezu wynosi 100 cm²."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FPP",
+        "solution_html": "<p>W trapezie równoramiennym o prostopadłych przekątnych wysokość jest równa średniej długości podstaw: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mn>2</mn></mfrac></mrow></math> (przekątne wraz z podstawami tworzą trójkąty prostokątne równoramienne). Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>2</mn><mi>h</mi><mo>=</mo><mn>20</mn></mrow></math> cm — suma podstaw jest znana (TAK). Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mi>h</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>20</mn><mo>·</mo><mn>10</mn><mo>=</mo><mn>100</mn></mrow></math> cm² (TAK). Danych zatem wystarcza — pierwsze zdanie NIE.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2016_opolskie_q4",
+      "number": 4,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "podzielność"
+      ],
+      "prompt_html": "<p>Suma trzech różnych liczb pierwszych może wynosić:</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "6"
+        },
+        {
+          "label": "2",
+          "html": "10"
+        },
+        {
+          "label": "3",
+          "html": "11"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FPF",
+        "solution_html": "<p>Najmniejsze trzy różne liczby pierwsze to 2, 3, 5, a ich suma wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>10</mn></mrow></math>. Suma 6 jest za mała (NIE). Suma 10 jest osiągalna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>5</mn></mrow></math> (TAK). Suma 11 (nieparzysta) jest niemożliwa: jeśli nie użyjemy liczby 2, najmniejsza suma trzech różnych nieparzystych liczb pierwszych to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>+</mo><mn>5</mn><mo>+</mo><mn>7</mn><mo>=</mo><mn>15</mn></mrow></math>, a jeśli użyjemy liczby 2, suma jest parzysta (NIE).</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2016_opolskie_q5",
+      "number": 5,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "zliczanie / metody zliczania"
+      ],
+      "prompt_html": "<p>Do ponumerowania stron książki użyto 255 cyfr.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Książka ma 121 stron."
+        },
+        {
+          "label": "2",
+          "html": "Cyfrę 0 napisano 21 razy."
+        },
+        {
+          "label": "3",
+          "html": "Cyfrę 1 napisano 63 razy."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PFF",
+        "solution_html": "<p>Strony 1–9 to 9 cyfr, strony 10–99 to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>90</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>180</mn></mrow></math> cyfr, razem 189. Pozostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>255</mn><mo>−</mo><mn>189</mn><mo>=</mo><mn>66</mn></mrow></math> cyfr, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>66</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>22</mn></mrow></math> strony trzycyfrowe (100–121). Książka ma więc 121 stron (TAK). Cyfrę 0 zapisano 22 razy — 9 razy w liczbach 10–99 oraz 13 razy w 100–121 — a nie 21 (NIE). Cyfrę 1 zapisano 55 razy: 13 na miejscu jedności, 20 na miejscu dziesiątek i 22 na miejscu setek — a nie 63 (NIE).</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2016_opolskie_q6",
+      "number": 6,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "procenty"
+      ],
+      "prompt_html": "<p>W bibliotece Adama 75% to książki historyczne, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>6</mn></mfrac></math> z nich dotyczy II wojny światowej. O ile procent mniej Adam ma książek o II wojnie światowej niż pozostałych historycznych?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "80%",
+        "solution_html": "<p>Przyjmijmy, że książek historycznych jest 6 jednostek. Wtedy o II wojnie światowej jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>6</mn></mfrac></math> z nich, czyli 1 jednostka, a pozostałych historycznych 5 jednostek. Książek o II wojnie jest o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>−</mo><mn>1</mn><mo>=</mo><mn>4</mn></mrow></math> jednostki mniej niż pozostałych, co stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>4</mn><mn>5</mn></mfrac><mo>·</mo><mn>100</mn><mo>%</mo><mo>=</mo><mn>80</mn><mo>%</mo></mrow></math> liczby pozostałych historycznych. Odpowiedź: o 80% mniej.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2016_opolskie_q7",
+      "number": 7,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Prawnuczek ma tyle miesięcy ile prababcia ma lat. Razem mają 91 lat. Ile lat ma prawnuczek?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "7 lat",
+        "solution_html": "<p>Niech prababcia ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> lat. Prawnuczek ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> miesięcy, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>x</mi><mn>12</mn></mfrac></math> lat. Razem: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mfrac><mi>x</mi><mn>12</mn></mfrac><mo>=</mo><mn>91</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>13</mn><mi>x</mi></mrow><mn>12</mn></mfrac><mo>=</mo><mn>91</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>84</mn></mrow></math>. Prababcia ma 84 lata, a prawnuczek 84 miesiące, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>84</mn><mo>:</mo><mn>12</mn><mo>=</mo><mn>7</mn></mrow></math> lat.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2016_opolskie_q8",
+      "number": 8,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Oblicz obwód trapezu równoramiennego, którego ramię ma długość 10 cm, wysokość 8 cm, a pole wynosi 128 cm².</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "52 cm",
+        "solution_html": "<p>Z pola trapezu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mo>·</mo><mn>8</mn><mo>=</mo><mn>128</mn></mrow></math>, stąd suma podstaw <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>32</mn></mrow></math> cm. Rzut ramienia na podstawę wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mrow><msup><mn>10</mn><mn>2</mn></msup><mo>−</mo><msup><mn>8</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>36</mn></msqrt><mo>=</mo><mn>6</mn></mrow></math> cm, więc różnica podstaw <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>−</mo><mi>b</mi><mo>=</mo><mn>2</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>12</mn></mrow></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>22</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>10</mn></mrow></math>. Obwód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mn>2</mn><mo>·</mo><mn>10</mn><mo>=</mo><mn>32</mn><mo>+</mo><mn>20</mn><mo>=</mo><mn>52</mn></mrow></math> cm.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2016_opolskie_q9",
+      "number": 9,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "geometria",
+        "układy równań"
+      ],
+      "prompt_html": "<p>Prostokąt został podzielony na 6 kwadratów (jak na rysunku). Pole najmniejszego kwadratu wynosi 4. Oblicz pole prostokąta.</p>",
+      "choices": [],
+      "figures": [
+        "wojewodzki_2016_opolskie_q9_fig1.png"
+      ],
+      "answer": {
+        "correct": "572 cm²",
+        "solution_html": "<p>Najmniejszy kwadrat ma pole 4, więc jego bok wynosi 2. Oznaczmy bok środkowego górnego kwadratu (równego prawemu górnemu) przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>. Z rysunku kwadrat lewy górny ma bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>+</mo><mn>2</mn></mrow></math>, lewy dolny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>+</mo><mn>4</mn></mrow></math>, a prawy dolny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>+</mo><mn>6</mn></mrow></math>. Górny rząd ma szerokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>b</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>+</mo><mi>b</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>3</mn><mi>b</mi><mo>+</mo><mn>2</mn></mrow></math>, dolny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>b</mi><mo>+</mo><mn>4</mn><mo>)</mo><mo>+</mo><mo>(</mo><mi>b</mi><mo>+</mo><mn>6</mn><mo>)</mo><mo>=</mo><mn>2</mn><mi>b</mi><mo>+</mo><mn>10</mn></mrow></math>. Z równości szerokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>b</mi><mo>+</mo><mn>2</mn><mo>=</mo><mn>2</mn><mi>b</mi><mo>+</mo><mn>10</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>8</mn></mrow></math>. Boki kwadratów wynoszą więc 2, 8, 8, 10, 12, 14, a prostokąt ma wymiary <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>26</mn><mo>×</mo><mn>22</mn></mrow></math>. Pole prostokąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>26</mn><mo>·</mo><mn>22</mn><mo>=</mo><mn>572</mn></mrow></math> cm² (sprawdzenie sumą pól kwadratów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>+</mo><mn>64</mn><mo>+</mo><mn>64</mn><mo>+</mo><mn>100</mn><mo>+</mo><mn>144</mn><mo>+</mo><mn>196</mn><mo>=</mo><mn>572</mn></mrow></math>).</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2016_opolskie_q10",
+      "number": 10,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "geometria",
+        "trójkąty"
+      ],
+      "prompt_html": "<p>W kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> wpisano trójkąt równoboczny w ten sposób, że dwa wierzchołki trójkąta pokrywają się z wierzchołkami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> kwadratu, trzeci (punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math>) leży wewnątrz kwadratu. Oblicz miarę kąta wypukłego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CKD</mi></math>. Zrób odpowiedni rysunek, zaznacz wskazany kąt i uzasadnij odpowiedź.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "150°",
+        "solution_html": "<p>Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABK</mi></math> jest równoboczny, a jego bok równa się bokowi kwadratu, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AK</mi><mo>=</mo><mi>BK</mi><mo>=</mo><mi>AD</mi><mo>=</mo><mi>BC</mi></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∡</mo><mi>KAB</mi><mo>=</mo><mn>60</mn><mo>°</mo></mrow></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∡</mo><mi>KAD</mi><mo>=</mo><mn>90</mn><mo>°</mo><mo>−</mo><mn>60</mn><mo>°</mo><mo>=</mo><mn>30</mn><mo>°</mo></mrow></math>. Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AKD</mi></math> jest równoramienny (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AK</mi><mo>=</mo><mi>AD</mi></mrow></math>), więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∡</mo><mi>AKD</mi><mo>=</mo><mfrac><mrow><mn>180</mn><mo>°</mo><mo>−</mo><mn>30</mn><mo>°</mo></mrow><mn>2</mn></mfrac><mo>=</mo><mn>75</mn><mo>°</mo></mrow></math>. Analogicznie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∡</mo><mi>BKC</mi><mo>=</mo><mn>75</mn><mo>°</mo></mrow></math>. Kąty przy punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> dają pełny kąt, więc kąt wypukły <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∡</mo><mi>CKD</mi><mo>=</mo><mn>360</mn><mo>°</mo><mo>−</mo><mo>∡</mo><mi>AKB</mi><mo>−</mo><mo>∡</mo><mi>AKD</mi><mo>−</mo><mo>∡</mo><mi>BKC</mi><mo>=</mo><mn>360</mn><mo>°</mo><mo>−</mo><mn>60</mn><mo>°</mo><mo>−</mo><mn>75</mn><mo>°</mo><mo>−</mo><mn>75</mn><mo>°</mo><mo>=</mo><mn>150</mn><mo>°</mo></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2016_opolskie_q11",
+      "number": 11,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Ania wybrała się na zakupy. Chce kupić ramki na zdjęcia. Jeżeli wybierze większe, to wystarczy pieniędzy tylko na 3 ramki i zostanie jej 2,50 zł. Jeżeli natomiast wybierze mniejsze, które są o 2 zł tańsze, to kupi 4 ramki i zostanie jej 3 zł. Ile pieniędzy ma Ania?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "25 zł",
+        "solution_html": "<p>Niech większa ramka kosztuje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> zł. Ania ma wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>2,50</mn></mrow></math> zł. Mniejsza ramka kosztuje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>−</mo><mn>2</mn></mrow></math> zł, więc tę samą kwotę można zapisać jako <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>(</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>+</mo><mn>3</mn></mrow></math>. Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>2,50</mn><mo>=</mo><mn>4</mn><mo>(</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>+</mo><mn>3</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>2,50</mn><mo>=</mo><mn>4</mn><mi>x</mi><mo>−</mo><mn>5</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>7,50</mn></mrow></math>. Ania ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>7,50</mn><mo>+</mo><mn>2,50</mn><mo>=</mo><mn>25</mn></mrow></math> zł.</p>"
+      }
+    }
+  ]
+}
