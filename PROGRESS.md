@@ -204,7 +204,21 @@ the know-how that used to live only in the chat; everything needed to resume is 
        192 cm²); key row looks mismatched. Stored the correct 192; verify in blind pass.
     3. `rejonowy_2014_podkarpackie_q16` — arkusz omitted square labels; everyone got 1 pt but key
        still lists B. Kept correct=B + italic note (not an annulment).
-- **wojewodzki: 60 / 160** processed (batches 1–3 done 2026-07-25).
+- **wojewodzki: 80 / 160** processed (batches 1–4 done 2026-07-25).
+  - **Batch 4 (20):** 2019_opolskie (embedded key)/podkarpackie/podlaskie, 2020_dolnoslaskie (first
+    dolnoslaskie at this stage)/kujawsko-pomorskie/lodzkie (keyless)/mazowieckie/opolskie (embedded
+    key)/podkarpackie (keyless)/podlaskie, 2020-2021_{malopolskie, pomorskie (bundled), slaskie,
+    swietokrzyskie, warminsko-mazurskie, wielkopolskie, zachodniopomorskie}, 2021-2022_{malopolskie,
+    pomorskie (bundled), slaskie}. All keyed + self-verified except the two keyless below.
+  - **Keyless this batch (answers_file null, all answer.correct null):** 2020_lodzkie (docx, 50-pt,
+    A–D, no embedded key), 2020_podkarpackie (no separate + no embedded key). 2019_opolskie &
+    2020_opolskie carry EMBEDDED keys (answers_file = the question pdf itself).
+  - **First dolnoslaskie wojewódzki:** "zDolny Ślązak" III etap, 6 all-open tasks, 30 pts, Jan 2020.
+  - **W-M keyed & verified for 2020/21** (Olsztyn, Q16 T-F "PPPFP"). mazowieckie 2020 combined-choice
+    q1 → "N, B". Two śląskie crosswords in 2021-2022 (q1 word + q2 digit, 11 pts each).
+  - **New suspected key-error flag:** wojewodzki_2020_opolskie_q5 — official embedded key "FPF" is
+    internally inconsistent (stmt2 volume TAK contradicts stmt1 NIE); stored official FPF, logged in
+    suspected_key_errors.tsv for the blind pass.
   - **Batch 3 (20):** 2017_podkarpackie/podlaskie, 2018_opolskie/podkarpackie/podlaskie,
     2018-2019_{malopolskie, pomorskie (bundled), slaskie, warminsko-mazurskie, zachodniopomorskie},
     2019_kujawsko-pomorskie/lodzkie (keyless)/lubuskie, 2019-2020_{malopolskie, pomorskie (bundled),

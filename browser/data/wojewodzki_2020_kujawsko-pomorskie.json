@@ -1,0 +1,345 @@
+{
+  "source_file": "wojewodzki/2020_kujawsko-pomorskie.pdf",
+  "answers_file": "wojewodzki/2020_kujawsko-pomorskie_answers.pdf",
+  "competition": "Wojewódzki Konkurs Przedmiotowy z matematyki dla uczniów szkół podstawowych województwa kujawsko-pomorskiego",
+  "school_type": "podstawowa",
+  "stage": "wojewodzki",
+  "wojewodztwo": "kujawsko-pomorskie",
+  "school_year": "2019/2020",
+  "date": "2020-02-22",
+  "total_questions": 17,
+  "max_points": 40,
+  "questions": [
+    {
+      "id": "wojewodzki_2020_kujawsko-pomorskie_q1",
+      "number": 1,
+      "page": 3,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "proporcjonalność prosta"
+      ],
+      "prompt_html": "<p>Samochód zużywa 5 litrów paliwa na przejechanie 100 km. Litr paliwa kosztuje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5,10</mn></math> zł.</p><p>Oceń prawdziwość zdań. Zaznacz PRAWDA, jeśli zdanie jest prawdziwe, lub FAŁSZ – jeśli jest fałszywe.</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "Koszt paliwa potrzebnego do przejechania 200 km tym samochodem wynosi 51 zł."
+        },
+        {
+          "label": "B",
+          "html": "Na przejechanie 300 km tym samochodem wystarczy 15 litrów paliwa."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PP",
+        "solution_html": "<p><strong>A. PRAWDA</strong> — na 200 km potrzeba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>10</mn></mrow></math> litrów, co kosztuje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mo>·</mo><mn>5,10</mn><mtext> zł</mtext><mo>=</mo><mn>51</mn><mtext> zł</mtext></mrow></math>.</p><p><strong>B. PRAWDA</strong> — na 300 km potrzeba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>15</mn></mrow></math> litrów, więc 15 litrów wystarczy.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2020_kujawsko-pomorskie_q2",
+      "number": 2,
+      "page": 3,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Czy dla każdej liczby trzycyfrowej prawdziwe są zdania?</p><p>Zaznacz PRAWDA, jeśli zdanie jest prawdziwe, lub FAŁSZ – jeśli jest fałszywe.</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "Jeżeli uczeń dopisze 0 po cyfrze jedności tej liczby, to otrzymana liczba będzie 10 razy większa od wyjściowej liczby."
+        },
+        {
+          "label": "B",
+          "html": "Jeżeli uczeń wpisze cyfrę 5 między cyfry dziesiątek i jedności tej liczby, to otrzymana liczba będzie 50 razy większa od wyjściowej liczby."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PF",
+        "solution_html": "<p><strong>A. PRAWDA</strong> — dopisanie 0 na końcu liczby oznacza pomnożenie jej przez 10.</p><p><strong>B. FAŁSZ</strong> — dla liczby o cyfrach setek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi></math>, dziesiątek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> i jedności <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>j</mi></math> liczba wyjściowa to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mi>s</mi><mo>+</mo><mn>10</mn><mi>d</mi><mo>+</mo><mi>j</mi></mrow></math>, a po wstawieniu 5 między cyfry dziesiątek i jedności otrzymamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1000</mn><mi>s</mi><mo>+</mo><mn>100</mn><mi>d</mi><mo>+</mo><mn>50</mn><mo>+</mo><mi>j</mi></mrow></math>, co nie jest 50 razy większe od liczby wyjściowej (np. dla 100 otrzymamy 1050, a nie 5000).</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2020_kujawsko-pomorskie_q3",
+      "number": 3,
+      "page": 4,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "bryły",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Przekątna sześcianu ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm. Uzupełnij luki.</p><ul><li>A. Przekątna podstawy tego sześcianu ma długość …… cm.</li><li>B. Pole powierzchni całkowitej sześcianu jest równe …… <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>cm</mtext><mn>2</mn></msup></math>.</li><li>C. Objętość sześcianu jest równa …… <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>cm</mtext><mn>3</mn></msup></math>.</li></ul>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "A) 5√2 cm; B) 150 cm²; C) 125 cm³",
+        "solution_html": "<p>Przekątna sześcianu o krawędzi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><msqrt><mn>3</mn></msqrt></mrow></math>, więc z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>5</mn><msqrt><mn>3</mn></msqrt></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>5</mn></mrow></math> cm.</p><p><strong>A.</strong> Przekątna podstawy (kwadratu o boku 5): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><msqrt><mn>2</mn></msqrt></mrow></math> cm.</p><p><strong>B.</strong> Pole powierzchni całkowitej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>·</mo><msup><mn>5</mn><mn>2</mn></msup><mo>=</mo><mn>150</mn></mrow></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>cm</mtext><mn>2</mn></msup></math>.</p><p><strong>C.</strong> Objętość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>5</mn><mn>3</mn></msup><mo>=</mo><mn>125</mn></mrow></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>cm</mtext><mn>3</mn></msup></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2020_kujawsko-pomorskie_q4",
+      "number": 4,
+      "page": 5,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Dodajemy pewną liczbę składników, z których każdy równa się 2, tak, aby otrzymać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>11</mn></msup></math>. Ile składników występuje w tej sumie?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "1024 (2¹⁰)",
+        "solution_html": "<p>Suma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> składników równych 2 wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>n</mi></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>n</mi><mo>=</mo><msup><mn>2</mn><mn>11</mn></msup></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>=</mo><mfrac><msup><mn>2</mn><mn>11</mn></msup><mn>2</mn></mfrac><mo>=</mo><msup><mn>2</mn><mn>10</mn></msup><mo>=</mo><mn>1024</mn></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2020_kujawsko-pomorskie_q5",
+      "number": 5,
+      "page": 5,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "procenty",
+        "geometria"
+      ],
+      "prompt_html": "<p>Jaka część prostokąta pozostała niezamalowana? Wynik podaj w procentach.</p>",
+      "choices": [],
+      "figures": [
+        "wojewodzki_2020_kujawsko-pomorskie_q5_fig1.png"
+      ],
+      "answer": {
+        "correct": "48%",
+        "solution_html": "<p>Pole prostokąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mn>5</mn><mo>·</mo><mn>10</mn><mo>=</mo><mn>50</mn></mrow></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>j</mtext><mn>2</mn></msup></math>.</p><p>Pole obszaru niezamalowanego (białego) obliczamy sumując pola części: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>+</mo><mn>5</mn><mo>+</mo><mn>12</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>24</mn></mrow></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>j</mtext><mn>2</mn></msup></math>.</p><p>Część niezamalowana: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>24</mn><mn>50</mn></mfrac><mo>·</mo><mn>100</mn><mo>%</mo><mo>=</mo><mn>48</mn><mo>%</mo></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2020_kujawsko-pomorskie_q6",
+      "number": 6,
+      "page": 6,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "koła / okręgi"
+      ],
+      "prompt_html": "<p>Obwód pierwszego koła wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>90</mn><mi>π</mi></mrow></math> cm, a pole drugiego koła jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>25</mn><mi>π</mi></mrow></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>cm</mtext><mn>2</mn></msup></math>. Oblicz różnicę długości średnic pierwszego i drugiego koła.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "80 cm",
+        "solution_html": "<p>Z obwodu pierwszego koła: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>l</mi><mn>1</mn></msub><mo>=</mo><mn>90</mn><mi>π</mi><mo>=</mo><msub><mi>d</mi><mn>1</mn></msub><mo>·</mo><mi>π</mi></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>d</mi><mn>1</mn></msub><mo>=</mo><mn>90</mn></mrow></math> cm.</p><p>Z pola drugiego koła: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mn>2</mn></msub><mo>=</mo><mn>25</mn><mi>π</mi><mo>=</mo><mi>π</mi><msubsup><mi>r</mi><mn>2</mn><mn>2</mn></msubsup></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>r</mi><mn>2</mn></msub><mo>=</mo><mn>5</mn></mrow></math> cm, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>d</mi><mn>2</mn></msub><mo>=</mo><mn>10</mn></mrow></math> cm.</p><p>Różnica średnic: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>90</mn><mtext> cm</mtext><mo>−</mo><mn>10</mn><mtext> cm</mtext><mo>=</mo><mn>80</mn><mtext> cm</mtext></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2020_kujawsko-pomorskie_q7",
+      "number": 7,
+      "page": 6,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "sześciokąty foremne",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Oblicz obwód zacieniowanego fragmentu sześciokąta foremnego przedstawionego na rysunku.</p>",
+      "choices": [],
+      "figures": [
+        "wojewodzki_2020_kujawsko-pomorskie_q7_fig1.png"
+      ],
+      "answer": {
+        "correct": "9 + 3√3",
+        "solution_html": "<p>Sześciokąt foremny ma bok długości 3. Zacieniowany trójkąt tworzą: bok sześciokąta (długość 3), dłuższa przekątna przechodząca przez środek (równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>6</mn></mrow></math>) oraz krótsza przekątna (równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mfrac><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow></math>).</p><p>Obwód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>9</mn><mo>+</mo><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2020_kujawsko-pomorskie_q8",
+      "number": 8,
+      "page": 7,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "bryły",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Objętość prostopadłościanu jest równa 192 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>cm</mtext><mn>3</mn></msup></math>. Oblicz długości krawędzi tego prostopadłościanu, jeżeli pozostają one w stosunku 2 : 3 : 4.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "4 cm, 6 cm, 8 cm",
+        "solution_html": "<p>Niech krawędzie mają długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>x</mi></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>x</mi></mrow></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi><mo>·</mo><mn>3</mn><mi>x</mi><mo>·</mo><mn>4</mn><mi>x</mi><mo>=</mo><mn>192</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>24</mn><msup><mi>x</mi><mn>3</mn></msup><mo>=</mo><mn>192</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>=</mo><mn>8</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>2</mn></mrow></math>.</p><p>Krawędzie mają długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi><mo>=</mo><mn>4</mn></mrow></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>x</mi><mo>=</mo><mn>6</mn></mrow></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>x</mi><mo>=</mo><mn>8</mn></mrow></math> cm.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2020_kujawsko-pomorskie_q9",
+      "number": 9,
+      "page": 7,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "koła / okręgi",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Z pewnego punktu na okręgu poprowadzono dwie prostopadłe cięciwy. Odległość jednej cięciwy od środka okręgu wynosi 12 cm, a odległość drugiej cięciwy od środka okręgu jest równa 16 cm. Oblicz długość promienia tego okręgu.</p>",
+      "choices": [],
+      "figures": [
+        "wojewodzki_2020_kujawsko-pomorskie_q9_fig1.png"
+      ],
+      "answer": {
+        "correct": "r = 20 cm",
+        "solution_html": "<p>Odległości cięciw od środka (12 cm i 16 cm) są bokami prostokąta, którego przekątną jest promień okręgu. Z twierdzenia Pitagorasa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>12</mn><mn>2</mn></msup><mo>+</mo><msup><mn>16</mn><mn>2</mn></msup><mo>=</mo><msup><mi>r</mi><mn>2</mn></msup></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>r</mi><mn>2</mn></msup><mo>=</mo><mn>144</mn><mo>+</mo><mn>256</mn><mo>=</mo><mn>400</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>r</mi><mo>=</mo><mn>20</mn></mrow></math> cm.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2020_kujawsko-pomorskie_q10",
+      "number": 10,
+      "page": 8,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "prawdopodobieństwo",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>W torbie są cukierki owocowe i miętowe. Prawdopodobieństwo wyboru cukierka miętowego z tej torby jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac></math>. Oblicz, ile jest w torbie cukierków miętowych, jeżeli wiadomo, że cukierków owocowych jest 12.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "8 cukierków miętowych",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę cukierków miętowych. Wszystkich cukierków jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>12</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mi>x</mi><mrow><mi>x</mi><mo>+</mo><mn>12</mn></mrow></mfrac><mo>=</mo><mfrac><mn>2</mn><mn>5</mn></mfrac></mrow></math>.</p><p>Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mi>x</mi><mo>=</mo><mn>2</mn><mo>(</mo><mi>x</mi><mo>+</mo><mn>12</mn><mo>)</mo><mo>=</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>24</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>x</mi><mo>=</mo><mn>24</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>8</mn></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2020_kujawsko-pomorskie_q11",
+      "number": 11,
+      "page": 8,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "trójkąty"
+      ],
+      "prompt_html": "<p>W trójkącie równoramiennym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> o podstawie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> poprowadzono do boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> wysokość, która z podstawą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> tworzy kąt 15°. Oblicz miarę kąta przy wierzchołku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "30°",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> będzie spodkiem wysokości na boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math>. W trójkącie prostokątnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABD</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∠</mo><mi>DAB</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mo>(</mo><mn>90</mn><mo>°</mo><mo>+</mo><mn>15</mn><mo>°</mo><mo>)</mo><mo>=</mo><mn>75</mn><mo>°</mo></mrow></math>.</p><p>Ponieważ trójkąt jest równoramienny o podstawie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>, kąty przy podstawie są równe, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∠</mo><mi>ACB</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>2</mn><mo>·</mo><mn>75</mn><mo>°</mo><mo>=</mo><mn>30</mn><mo>°</mo></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2020_kujawsko-pomorskie_q12",
+      "number": 12,
+      "page": 9,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "równania z jedną zmienną",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Znajdź dwie wzajemnie odwrotne liczby dodatnie, wiedząc, że jedna jest 16 razy większa od drugiej.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "4 i 1/4",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> będzie większą liczbą, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mi>x</mi></mfrac></math> liczbą do niej odwrotną. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>16</mn><mo>·</mo><mfrac><mn>1</mn><mi>x</mi></mfrac></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mn>16</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>4</mn></mrow></math> (liczba dodatnia).</p><p>Szukane liczby to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2020_kujawsko-pomorskie_q13",
+      "number": 13,
+      "page": 9,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "geometria",
+        "trójkąty"
+      ],
+      "prompt_html": "<p>Na rysunku przedstawiony jest pięciokąt foremny i trójkąt równoboczny. Oblicz miarę kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>.</p><p><strong>Wskazówka:</strong> Pamiętaj, że kąt wewnętrzny pięciokąta foremnego jest równy 108°.</p>",
+      "choices": [],
+      "figures": [
+        "wojewodzki_2020_kujawsko-pomorskie_q13_fig1.png"
+      ],
+      "answer": {
+        "correct": "α = 48°",
+        "solution_html": "<p>W małym trójkącie przy podstawie jeden kąt ma miarę 60° (kąt trójkąta równobocznego), a drugi 72° (kąt przyległy do kąta wewnętrznego pięciokąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>°</mo><mo>−</mo><mn>108</mn><mo>°</mo><mo>=</mo><mn>72</mn><mo>°</mo></mrow></math>).</p><p>Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mo>(</mo><mn>60</mn><mo>°</mo><mo>+</mo><mn>72</mn><mo>°</mo><mo>)</mo><mo>=</mo><mn>48</mn><mo>°</mo></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2020_kujawsko-pomorskie_q14",
+      "number": 14,
+      "page": 10,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "geometria",
+        "trójkąty"
+      ],
+      "prompt_html": "<p>Na boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> obrano punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math>, tak że odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EC</mi></math> jest dwukrotnie dłuższy od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DE</mi></math>. Na odcinku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BE</mi></math> obrano punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math>, tak że odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>FB</mi></math> jest dwukrotnie dłuższy od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EF</mi></math>. Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AFE</mi></math> jest równe 10 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>cm</mtext><mn>2</mn></msup></math>. Oblicz pole kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>. Zapisz obliczenia.</p>",
+      "choices": [],
+      "figures": [
+        "wojewodzki_2020_kujawsko-pomorskie_q14_fig1.png"
+      ],
+      "answer": {
+        "correct": "P = 60 cm²",
+        "solution_html": "<p>Trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABF</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AFE</mi></math> mają wspólną wysokość (z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> na prostą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BE</mi></math>), a podstawa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>FB</mi></math> jest 2 razy dłuższa od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EF</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>ABF</mi></msub><mo>=</mo><mn>2</mn><mo>·</mo><msub><mi>P</mi><mi>AFE</mi></msub><mo>=</mo><mn>2</mn><mo>·</mo><mn>10</mn><mo>=</mo><mn>20</mn></mrow></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>cm</mtext><mn>2</mn></msup></math>.</p><p>Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>ABE</mi></msub><mo>=</mo><msub><mi>P</mi><mi>ABF</mi></msub><mo>+</mo><msub><mi>P</mi><mi>AFE</mi></msub><mo>=</mo><mn>20</mn><mo>+</mo><mn>10</mn><mo>=</mo><mn>30</mn></mrow></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>cm</mtext><mn>2</mn></msup></math>.</p><p>Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABE</mi></math> ma podstawę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i wysokość równą bokowi kwadratu, więc jego pole to połowa pola kwadratu. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>ABCD</mi></msub><mo>=</mo><mn>2</mn><mo>·</mo><msub><mi>P</mi><mi>ABE</mi></msub><mo>=</mo><mn>2</mn><mo>·</mo><mn>30</mn><mo>=</mo><mn>60</mn></mrow></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>cm</mtext><mn>2</mn></msup></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2020_kujawsko-pomorskie_q15",
+      "number": 15,
+      "page": 11,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "koła / okręgi",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Duże koło bicykla wykonało na krótkim odcinku drogi o 44 obroty mniej niż małe. Średnica małego koła jest równa 30 cm, a średnica dużego koła to 1,5 m. Za <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>π</mi></math> przyjmij 3. Jaką odległość przejechał bicykl? Jaką liczbę obrotów wykonało małe koło? Zapisz obliczenia.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "małe koło: 55 obrotów; odległość: 49,5 m",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę obrotów małego koła; duże koło wykonało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>−</mo><mn>44</mn></mrow></math> obrotów. Obie drogi są równe: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>l</mi><mi>D</mi></msub><mo>·</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>44</mn><mo>)</mo><mo>=</mo><msub><mi>l</mi><mi>M</mi></msub><mo>·</mo><mi>x</mi></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,5</mn><mi>π</mi><mo>·</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>44</mn><mo>)</mo><mo>=</mo><mn>0,3</mn><mi>π</mi><mo>·</mo><mi>x</mi></mrow></math>.</p><p>Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,5</mn><mi>x</mi><mo>−</mo><mn>66</mn><mo>=</mo><mn>0,3</mn><mi>x</mi></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,2</mn><mi>x</mi><mo>=</mo><mn>66</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>55</mn></mrow></math> obrotów.</p><p>Odległość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>l</mi><mo>=</mo><mn>0,3</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>55</mn><mo>=</mo><mn>49,5</mn></mrow></math> m.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2020_kujawsko-pomorskie_q16",
+      "number": 16,
+      "page": 12,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "bryły",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Figura na rysunku obok jest siatką ostrosłupa prawidłowego trójkątnego, którego powierzchnię boczną tworzą przystające równoramienne trójkąty prostokątne, a pole powierzchni podstawy jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt></math>. Oblicz pole powierzchni całkowitej ostrosłupa. Zapisz obliczenia.</p>",
+      "choices": [],
+      "figures": [
+        "wojewodzki_2020_kujawsko-pomorskie_q16_fig1.png"
+      ],
+      "answer": {
+        "correct": "3 + √3",
+        "solution_html": "<p>Podstawa jest trójkątem równobocznym o polu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>3</mn></msqrt><mo>=</mo><mfrac><mrow><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>4</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>2</mn></mrow></math>.</p><p>Ściany boczne to 3 przystające trójkąty prostokątne równoramienne o przeciwprostokątnej 2 i przyprostokątnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2</mn></msqrt></math>. Pole powierzchni bocznej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>b</mi></msub><mo>=</mo><mn>3</mn><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><msqrt><mn>2</mn></msqrt><mo>·</mo><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>3</mn></mrow></math>.</p><p>Pole powierzchni całkowitej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>3</mn><mo>=</mo><mn>3</mn><mo>+</mo><msqrt><mn>3</mn></msqrt></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2020_kujawsko-pomorskie_q17",
+      "number": 17,
+      "page": 13,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "układy równań",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Gdyby Aleksander Wielki umarł o 5 lat wcześniej, panowałby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> swego życia, gdyby zaś żył o 9 lat dłużej, panowałby połowę swego życia. Ile lat żył i ile lat panował Aleksander Wielki? Zapisz obliczenia.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "żył 33 lata, panował 12 lat",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę lat życia, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> liczbę lat panowania Aleksandra Wielkiego. Wtedy:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>{</mo><mtable><mtr><mtd><mrow><mi>x</mi><mo>−</mo><mn>5</mn><mo>=</mo><mn>4</mn><mo>(</mo><mi>y</mi><mo>−</mo><mn>5</mn><mo>)</mo></mrow></mtd></mtr><mtr><mtd><mrow><mi>x</mi><mo>+</mo><mn>9</mn><mo>=</mo><mn>2</mn><mo>(</mo><mi>y</mi><mo>+</mo><mn>9</mn><mo>)</mo></mrow></mtd></mtr></mtable></mrow></math></p><p>Z pierwszego równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>4</mn><mi>y</mi><mo>−</mo><mn>15</mn></mrow></math>. Podstawiając do drugiego: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>y</mi><mo>−</mo><mn>15</mn><mo>+</mo><mn>9</mn><mo>=</mo><mn>2</mn><mi>y</mi><mo>+</mo><mn>18</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>y</mi><mo>=</mo><mn>24</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>12</mn></mrow></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>4</mn><mo>·</mo><mn>12</mn><mo>−</mo><mn>15</mn><mo>=</mo><mn>33</mn></mrow></math>.</p><p>Aleksander Wielki żył 33 lata i panował 12 lat.</p>"
+      }
+    }
+  ]
+}
