@@ -1,0 +1,237 @@
+{
+  "source_file": "rejonowy/2025_mazowieckie.pdf",
+  "answers_file": "rejonowy/2025_mazowieckie_answers.pdf",
+  "competition": "Konkurs Matematyczny dla uczniów szkół podstawowych województwa mazowieckiego",
+  "school_type": "podstawowa",
+  "stage": "rejonowy",
+  "wojewodztwo": "mazowieckie",
+  "school_year": "2025/2026",
+  "date": "2025-12-01",
+  "total_questions": 10,
+  "max_points": 20,
+  "questions": [
+    {
+      "id": "rejonowy_2025_mazowieckie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "true_false",
+      "points": 1,
+      "topics": [
+        "proporcjonalność prosta"
+      ],
+      "prompt_html": "<p>Zegar ścienny spóźnia się 9 minut na dobę.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F, jeśli jest fałszywe.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Ten zegar spóźnia się 60 sekund na 3 godziny."
+        },
+        {
+          "label": "2",
+          "html": "O godzinie 21.00 trzeba ten zegar ustawić na godzinę 21.03, aby następnego dnia o godzinie 5.00 wskazał prawidłowy czas."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FP",
+        "solution_html": "<p>Zegar spóźnia się 9 minut na dobę, czyli na 24 godziny. Opóźnienie jest wprost proporcjonalne do czasu, więc w ciągu 3 godzin zegar spóźni się <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mo>·</mo><mfrac><mn>3</mn><mn>24</mn></mfrac><mo>=</mo><mfrac><mn>27</mn><mn>24</mn></mfrac><mo>=</mo><mn>1,125</mn></mrow></math> minuty, czyli 67,5 sekundy, a nie 60 sekund — zdanie 1 jest fałszywe (F). Od godziny 21.00 do godziny 5.00 następnego dnia mija 8 godzin, w ciągu których zegar spóźni się o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mo>·</mo><mfrac><mn>8</mn><mn>24</mn></mfrac><mo>=</mo><mn>3</mn></mrow></math> minuty. Jeśli o 21.00 ustawimy zegar na 21.03 (3 minuty do przodu), to po 8 godzinach spóźni się dokładnie o te 3 minuty i o godzinie 5.00 wskaże prawidłowy czas — zdanie 2 jest prawdziwe (P).</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2025_mazowieckie_q2",
+      "number": 2,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "trójkąty"
+      ],
+      "prompt_html": "<p>W trójkącie prostokątnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> na przyprostokątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> zaznaczono punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math>, a na przyprostokątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CB</mi></math> punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi></math> oraz punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>N</mi></math> na przeciwprostokątnej trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> tak, że odcinki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KM</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>LN</mi></math> są prostopadłe do przeciwprostokątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>.</p><p>Wybierz wszystkie poprawne odpowiedzi spośród podanych.</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "Trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AKM</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BLN</mi></math> są przystające."
+        },
+        {
+          "label": "B",
+          "html": "Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AKM</mi></math> jest podobny do trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>."
+        },
+        {
+          "label": "C",
+          "html": "Trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AKM</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BLN</mi></math> nie muszą być podobne."
+        },
+        {
+          "label": "D",
+          "html": "Trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AKM</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BLN</mi></math> są podobne."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B, D",
+        "solution_html": "<p>Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AKM</mi></math> jest prostokątny (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>KM</mi><mo>⊥</mo><mi>AB</mi></mrow></math>) i ma kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> wspólny z trójkątem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>, więc jest do niego podobny — odpowiedź B jest poprawna. Podobnie trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BLN</mi></math> jest prostokątny i ma wspólny kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> z trójkątem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>, więc również jest do niego podobny. Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AKM</mi></math> ma kąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>,</mo><mn>90</mn><mo>°</mo><mo>,</mo><mn>90</mn><mo>°</mo><mo>−</mo><mi>α</mi></mrow></math>, a trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BLN</mi></math> kąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>β</mi><mo>,</mo><mn>90</mn><mo>°</mo><mo>,</mo><mn>90</mn><mo>°</mo><mo>−</mo><mi>β</mi></mrow></math>, przy czym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>β</mi><mo>=</mo><mn>90</mn><mo>°</mo><mo>−</mo><mi>α</mi></mrow></math>. Oba trójkąty mają więc te same miary kątów, zatem są podobne — odpowiedź D jest poprawna, a C błędna. Przystające być nie muszą, bo ich rozmiary zależą od położenia punktów, więc odpowiedź A jest błędna. Poprawne odpowiedzi to B i D.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2025_mazowieckie_q3",
+      "number": 3,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "statystyka opisowa"
+      ],
+      "prompt_html": "<p>Średnia wieku 15-osobowej wycieczki wynosi 21 lat. Po doliczeniu wieku pilota wycieczki średnia wieku wzrośnie o 1 rok.</p><p>Uzupełnij poniższe zdania, wybierając odpowiedź A lub B oraz C lub D.</p><p>Pilot wycieczki ma A / B.</p><p>Z powyższych informacji C / D pilot wycieczki jest starszy od każdego uczestnika.</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "43 lata"
+        },
+        {
+          "label": "B",
+          "html": "37 lat"
+        },
+        {
+          "label": "C",
+          "html": "wynika, że"
+        },
+        {
+          "label": "D",
+          "html": "nie wynika, że"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B, D",
+        "solution_html": "<p>Suma wieku 15 uczestników wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>·</mo><mn>21</mn><mo>=</mo><mn>315</mn></mrow></math> lat. Po doliczeniu pilota jest 16 osób, a średnia wynosi 22 lata, więc łączny wiek to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>16</mn><mo>·</mo><mn>22</mn><mo>=</mo><mn>352</mn></mrow></math> lata. Pilot ma zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>352</mn><mo>−</mo><mn>315</mn><mo>=</mo><mn>37</mn></mrow></math> lat — odpowiedź B. Z podanych informacji nie wynika, że pilot jest starszy od każdego uczestnika, bo wśród uczestników mogą być osoby starsze niż 37 lat (średnia 21 lat nie wyklucza takich osób) — odpowiedź D. Poprawna odpowiedź to B, D.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2025_mazowieckie_q4",
+      "number": 4,
+      "page": 3,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "wzory skróconego mnożenia",
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>Uzasadnij, że dla dowolnych liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mo>=</mo><mo>(</mo><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mn>2</mn></mfrac><mo>−</mo><mi>a</mi><mo>)</mo><mo>(</mo><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mn>2</mn></mfrac><mo>−</mo><mi>b</mi><mo>)</mo></mrow></math> nie jest liczbą dodatnią.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "A = −(a − b)² / 4 ≤ 0, więc A nie jest liczbą dodatnią",
+        "solution_html": "<p>Przekształcamy wyrażenie do prostszej postaci: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mo>=</mo><mo>(</mo><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mn>2</mn></mfrac><mo>−</mo><mi>a</mi><mo>)</mo><mo>(</mo><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mn>2</mn></mfrac><mo>−</mo><mi>b</mi><mo>)</mo><mo>=</mo><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>−</mo><mn>2</mn><mi>a</mi></mrow><mn>2</mn></mfrac><mo>·</mo><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>−</mo><mn>2</mn><mi>b</mi></mrow><mn>2</mn></mfrac><mo>=</mo><mfrac><mrow><mi>b</mi><mo>−</mo><mi>a</mi></mrow><mn>2</mn></mfrac><mo>·</mo><mfrac><mrow><mi>a</mi><mo>−</mo><mi>b</mi></mrow><mn>2</mn></mfrac><mo>=</mo><mfrac><mrow><mo>−</mo><msup><mrow><mo>(</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo>)</mo></mrow><mn>2</mn></msup></mrow><mn>4</mn></mfrac></mrow></math>. Wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo>)</mo></mrow><mn>2</mn></msup></math> jest kwadratem, więc jest nieujemne, a zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mo>=</mo><mo>−</mo><mfrac><msup><mrow><mo>(</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo>)</mo></mrow><mn>2</mn></msup><mn>4</mn></mfrac><mo>≤</mo><mn>0</mn></mrow></math>. Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mi>b</mi></mrow></math> jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mo>=</mo><mn>0</mn></mrow></math>, a dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>≠</mo><mi>b</mi></mrow></math> jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mo>&lt;</mo><mn>0</mn></mrow></math>. W żadnym przypadku wartość wyrażenia nie jest liczbą dodatnią.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2025_mazowieckie_q5",
+      "number": 5,
+      "page": 4,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "trójkąty",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Wewnątrz trójkąta równoramiennego prostokątnego o przyprostokątnej równej 12 cm narysowano trójkąt równoramienny prostokątny, którego długość przyprostokątnej jest równa wysokości wyjściowego trójkąta poprowadzonej na przeciwprostokątną. Tę czynność powtórzono i narysowano analogicznie trzeci trójkąt, jak na rysunku. Oblicz całkowity obwód zacieniowanej figury.</p>",
+      "choices": [],
+      "figures": [
+        "rejonowy_2025_mazowieckie_q5_fig1.png"
+      ],
+      "answer": {
+        "correct": "(18√2 + 24) cm",
+        "solution_html": "<p>Pierwszy trójkąt jest równoramienny prostokątny o przyprostokątnych 12 cm, więc jego przeciwprostokątna wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>12</mn><msqrt><mn>2</mn></msqrt></mrow></math> cm. Wysokość poprowadzona na przeciwprostokątną jest równa połowie przeciwprostokątnej, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>12</mn><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><mn>6</mn><msqrt><mn>2</mn></msqrt></mrow></math> cm — to przyprostokątna drugiego trójkąta. Drugi trójkąt ma więc boki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><msqrt><mn>2</mn></msqrt></mrow></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><msqrt><mn>2</mn></msqrt></mrow></math> cm i 12 cm (jego przeciwprostokątna to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><msqrt><mn>2</mn></msqrt><mo>·</mo><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>12</mn></mrow></math> cm), a jego wysokość na przeciwprostokątną wynosi 6 cm — to przyprostokątna trzeciego trójkąta. Trzeci trójkąt ma boki 6 cm, 6 cm i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><msqrt><mn>2</mn></msqrt></mrow></math> cm. Zacieniowana figura jest obwiedziona brzegiem drugiego i trzeciego trójkąta, więc jej całkowity obwód to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>6</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>6</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>12</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>6</mn><mo>+</mo><mn>6</mn><mo>+</mo><mn>6</mn><msqrt><mn>2</mn></msqrt><mo>)</mo><mo>=</mo><mn>18</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>24</mn></mrow></math> cm.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2025_mazowieckie_q6",
+      "number": 6,
+      "page": 5,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "NWW / NWD",
+        "podzielność"
+      ],
+      "prompt_html": "<p>Z prostopadłościennych klocków o wymiarach 16,8 cm × 9 cm × 9 cm Szymek ułożył najniższe możliwe dwie wieże o jednakowych wysokościach. Sposób układania wież przedstawiono na rysunku. Oblicz, ile klocków wykorzystał łącznie Szymek.</p>",
+      "choices": [],
+      "figures": [
+        "rejonowy_2025_mazowieckie_q6_fig1.png"
+      ],
+      "answer": {
+        "correct": "43 klocki",
+        "solution_html": "<p>W jednej wieży klocki leżą (wysokość klocka 9 cm), a w drugiej stoją (wysokość klocka 16,8 cm). Najmniejsza wspólna wysokość obu wież jest równa najmniejszej wspólnej wielokrotności liczb wyrażających wysokości klocków. Wygodnie jest przejść na milimetry: 9 cm = 90 mm, 16,8 cm = 168 mm. Rozkładamy na czynniki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>90</mn><mo>=</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>5</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>168</mn><mo>=</mo><mn>2</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>7</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>NWW</mtext><mo>(</mo><mn>90</mn><mo>,</mo><mn>168</mn><mo>)</mo><mo>=</mo><mn>2</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>5</mn><mo>·</mo><mn>7</mn><mo>=</mo><mn>2520</mn></mrow></math> mm. Wysokość każdej wieży to 2520 mm. W wieży ze stojących klocków jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2520</mn><mo>:</mo><mn>168</mn><mo>=</mo><mn>15</mn></mrow></math> klocków, a w wieży z leżących <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2520</mn><mo>:</mo><mn>90</mn><mo>=</mo><mn>28</mn></mrow></math> klocków. Łącznie Szymek wykorzystał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>+</mo><mn>28</mn><mo>=</mo><mn>43</mn></mrow></math> klocki.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2025_mazowieckie_q7",
+      "number": 7,
+      "page": 6,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "prędkość / droga / czas"
+      ],
+      "prompt_html": "<p>Mama z córką wybrały się do sklepu odległego od ich domu o 1,8 km. Mama szła pieszo ze średnią prędkością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mfrac><mn>1</mn><mn>9</mn></mfrac></mrow></math> m/s, a córka jechała rowerem ze średnią prędkością 18 km/h. Umówiły się, że córka po dojechaniu do sklepu zawróci do mamy, potem znów dojedzie do sklepu i tak do momentu, kiedy mama dojdzie do sklepu. Oblicz, jaką drogę przebyła córka.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "8,1 km",
+        "solution_html": "<p>Prędkość mamy to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mfrac><mn>1</mn><mn>9</mn></mfrac><mo>=</mo><mfrac><mn>10</mn><mn>9</mn></mfrac></mrow></math> m/s. Czas, w jakim mama pokona 1,8 km = 1800 m, wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>t</mi><mo>=</mo><mfrac><mn>1800</mn><mfrac><mn>10</mn><mn>9</mn></mfrac></mfrac><mo>=</mo><mfrac><mrow><mn>1800</mn><mo>·</mo><mn>9</mn></mrow><mn>10</mn></mfrac><mo>=</mo><mn>1620</mn></mrow></math> s, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1620</mn><mn>3600</mn></mfrac><mo>=</mo><mfrac><mn>27</mn><mn>60</mn></mfrac></mrow></math> h = 27 min. Przez cały ten czas córka jeździła bez przerwy z prędkością 18 km/h, więc przebyła drogę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>18</mn><mo>·</mo><mfrac><mn>27</mn><mn>60</mn></mfrac><mo>=</mo><mn>3</mn><mo>·</mo><mn>2,7</mn><mo>=</mo><mn>8,1</mn></mrow></math> km.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2025_mazowieckie_q8",
+      "number": 8,
+      "page": 7,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "podzielność",
+        "geometria"
+      ],
+      "prompt_html": "<p>Długości boków prostokąta są liczbami naturalnymi. Liczba wyrażająca obwód tego prostokąta jest o 4 mniejsza od liczby wyrażającej jego pole. Oblicz, jakie wymiary ma ten prostokąt. Rozważ wszystkie przypadki.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "10 × 3 lub 6 × 4",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> będą długościami boków prostokąta (liczby naturalne). Warunek zadania: obwód jest o 4 mniejszy od pola, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>a</mi><mo>+</mo><mn>2</mn><mi>b</mi><mo>=</mo><mi>a</mi><mi>b</mi><mo>−</mo><mn>4</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mi>b</mi><mo>=</mo><mn>2</mn><mi>a</mi><mo>+</mo><mn>2</mn><mi>b</mi><mo>+</mo><mn>4</mn></mrow></math>. Przekształcamy do postaci iloczynowej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mi>b</mi><mo>−</mo><mn>2</mn><mi>a</mi><mo>−</mo><mn>2</mn><mi>b</mi><mo>+</mo><mn>4</mn><mo>=</mo><mn>8</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>a</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>(</mo><mi>b</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>8</mn></mrow></math>. Przyjmijmy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>≥</mo><mi>b</mi></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> są liczbami naturalnymi dodatnimi, rozkłady liczby 8 na czynniki dają: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>−</mo><mn>2</mn><mo>=</mo><mn>1</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>−</mo><mn>2</mn><mo>=</mo><mn>8</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>10</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>3</mn></mrow></math>, albo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>−</mo><mn>2</mn><mo>=</mo><mn>2</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>−</mo><mn>2</mn><mo>=</mo><mn>4</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>6</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>4</mn></mrow></math>. Wymiary prostokąta to 10 × 3 lub 6 × 4.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2025_mazowieckie_q9",
+      "number": 9,
+      "page": 8,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "procenty",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>W sierpniu bilet na spływ kajakowy kosztował 100 zł. We wrześniu obniżono cenę biletu. Wówczas liczba uczestników spływu wzrosła o 25%, a kwota uzyskana ze sprzedaży biletów zwiększyła się o 20%. Oblicz, o ile procent obniżono cenę biletu.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Cenę biletu obniżono o 4%",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> oznacza liczbę biletów sprzedanych w sierpniu, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math> — część, o jaką obniżono cenę biletu. W sierpniu cena biletu wynosiła 100 zł, więc kwota ze sprzedaży to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mi>a</mi></mrow></math> zł. We wrześniu cena wynosiła <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mo>(</mo><mn>1</mn><mo>−</mo><mi>p</mi><mo>)</mo></mrow></math> zł, a liczba biletów wzrosła o 25%, czyli do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>5</mn><mn>4</mn></mfrac><mi>a</mi></mrow></math>. Kwota ze sprzedaży we wrześniu wynosi więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mo>(</mo><mn>1</mn><mo>−</mo><mi>p</mi><mo>)</mo><mo>·</mo><mfrac><mn>5</mn><mn>4</mn></mfrac><mi>a</mi><mo>=</mo><mn>125</mn><mi>a</mi><mo>(</mo><mn>1</mn><mo>−</mo><mi>p</mi><mo>)</mo></mrow></math>. Z drugiej strony jest ona o 20% większa od sierpniowej, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,2</mn><mo>·</mo><mn>100</mn><mi>a</mi><mo>=</mo><mn>120</mn><mi>a</mi></mrow></math>. Otrzymujemy równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>125</mn><mi>a</mi><mo>(</mo><mn>1</mn><mo>−</mo><mi>p</mi><mo>)</mo><mo>=</mo><mn>120</mn><mi>a</mi></mrow></math>. Dzieląc przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>−</mo><mi>p</mi><mo>=</mo><mfrac><mn>120</mn><mn>125</mn></mfrac><mo>=</mo><mfrac><mn>24</mn><mn>25</mn></mfrac></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>p</mi><mo>=</mo><mfrac><mn>1</mn><mn>25</mn></mfrac><mo>=</mo><mn>0,04</mn><mo>=</mo><mn>4</mn><mo>%</mo></mrow></math>. Cenę biletu obniżono o 4%.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2025_mazowieckie_q10",
+      "number": 10,
+      "page": 9,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "bryły",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Do wazonu w kształcie graniastosłupa prawidłowego sześciokątnego wlano wodę do wysokości 10 cm, którą następnie przelano do wazonu w kształcie graniastosłupa prawidłowego trójkątnego. Stosunek długości krawędzi podstawy wazonu w kształcie graniastosłupa prawidłowego trójkątnego do długości krawędzi podstawy wazonu w kształcie graniastosłupa prawidłowego sześciokątnego wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>3</mn></mfrac></math>. Oblicz, jaką minimalną wysokość powinien mieć wazon o większej krawędzi podstawy, aby woda się z niego nie wylała.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "33,75 cm",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> będzie krawędzią podstawy wazonu sześciokątnego, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> — trójkątnego, przy czym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><mi>a</mi></mrow></math> (wazon trójkątny ma większą krawędź podstawy). Pole sześciokąta foremnego to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mn>1</mn></msub><mo>=</mo><mfrac><mrow><mn>6</mn><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac></mrow></math>, a pole trójkąta równobocznego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mn>2</mn></msub><mo>=</mo><mfrac><mrow><msup><mi>b</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mfrac><mrow><msup><mrow><mo>(</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><mi>a</mi><mo>)</mo></mrow><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mfrac><mrow><mn>4</mn><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>9</mn></mfrac></mrow></math>. Objętość wody wlanej do wazonu sześciokątnego (do wysokości 10 cm): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>V</mi><mo>=</mo><mfrac><mrow><mn>6</mn><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>·</mo><mn>10</mn><mo>=</mo><mn>15</mn><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow></math>. Aby woda nie wylała się z wazonu trójkątnego, jego wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math> musi spełniać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>4</mn><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>9</mn></mfrac><mo>·</mo><mi>h</mi><mo>=</mo><mn>15</mn><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><mfrac><mrow><mn>135</mn><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mrow><mn>4</mn><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow></mfrac><mo>=</mo><mfrac><mn>135</mn><mn>4</mn></mfrac><mo>=</mo><mn>33,75</mn></mrow></math> cm. Minimalna wysokość wazonu trójkątnego to 33,75 cm.</p>"
+      }
+    }
+  ]
+}

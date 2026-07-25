@@ -1,0 +1,270 @@
+{
+  "source_file": "rejonowy/2026_opolskie.pdf",
+  "answers_file": "rejonowy/2026_opolskie_answers.pdf",
+  "competition": "Wojewódzki Konkurs Matematyczny dla uczniów szkół podstawowych województwa opolskiego",
+  "school_type": "podstawowa",
+  "stage": "rejonowy",
+  "wojewodztwo": "opolskie",
+  "school_year": "2025/2026",
+  "date": null,
+  "total_questions": 11,
+  "max_points": 40,
+  "questions": [
+    {
+      "id": "rejonowy_2026_opolskie_q1",
+      "number": 1,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "podzielność"
+      ],
+      "prompt_html": "<p>Przy każdym zdaniu wpisz TAK lub NIE.</p><p>Iloczyn trzech różnych liczb pierwszych może być liczbą:</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "podzielną przez 4."
+        },
+        {
+          "label": "2",
+          "html": "podzielną przez 6."
+        },
+        {
+          "label": "3",
+          "html": "podzielną przez 12."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FPF",
+        "solution_html": "<p>Iloczyn trzech różnych liczb pierwszych to liczba postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>·</mo><mi>q</mi><mo>·</mo><mi>r</mi></math>, w której każdy czynnik pierwszy występuje tylko raz.</p><ul><li>Podzielność przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup></math> wymagałaby dwóch czynników 2, a przy różnych liczbach pierwszych czynnik 2 może wystąpić najwyżej raz — <strong>NIE</strong>.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>=</mo><mn>2</mn><mo>·</mo><mn>3</mn></math>, więc np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>30</mn></math> jest podzielne przez 6 — <strong>TAK</strong>.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup><mo>·</mo><mn>3</mn></math> także wymaga dwóch czynników 2, co jest niemożliwe — <strong>NIE</strong>.</li></ul>"
+      }
+    },
+    {
+      "id": "rejonowy_2026_opolskie_q2",
+      "number": 2,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Przy każdym zdaniu wpisz TAK lub NIE.</p><p>Równość jest prawdziwa:</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>15</mn></msup><mo>+</mo><msup><mn>2</mn><mn>15</mn></msup><mo>=</mo><msup><mn>2</mn><mn>30</mn></msup></math>"
+        },
+        {
+          "label": "2",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>15</mn></msup><mo>·</mo><msup><mn>5</mn><mn>15</mn></msup><mo>=</mo><msup><mn>10</mn><mn>30</mn></msup></math>"
+        },
+        {
+          "label": "3",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>18</mn></msqrt><mo>−</mo><msqrt><mn>8</mn></msqrt><mo>=</mo><msqrt><mn>2</mn></msqrt></math>"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FFP",
+        "solution_html": "<ul><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>15</mn></msup><mo>+</mo><msup><mn>2</mn><mn>15</mn></msup><mo>=</mo><mn>2</mn><mo>·</mo><msup><mn>2</mn><mn>15</mn></msup><mo>=</mo><msup><mn>2</mn><mn>16</mn></msup></math>, a nie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>30</mn></msup></math> — <strong>NIE</strong>.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>15</mn></msup><mo>·</mo><msup><mn>5</mn><mn>15</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mn>2</mn><mo>·</mo><mn>5</mn><mo>)</mo></mrow><mn>15</mn></msup><mo>=</mo><msup><mn>10</mn><mn>15</mn></msup></math>, a nie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>30</mn></msup></math> — <strong>NIE</strong>.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>18</mn></msqrt><mo>−</mo><msqrt><mn>8</mn></msqrt><mo>=</mo><mn>3</mn><msqrt><mn>2</mn></msqrt><mo>−</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><msqrt><mn>2</mn></msqrt></math> — <strong>TAK</strong>.</li></ul>"
+      }
+    },
+    {
+      "id": "rejonowy_2026_opolskie_q3",
+      "number": 3,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Czy w danym wierszu liczby są ustawione w kolejności rosnącej?</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "0,7(3);&nbsp;&nbsp;0,(73);&nbsp;&nbsp;0,(737);&nbsp;&nbsp;0,73(7)."
+        },
+        {
+          "label": "2",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mo>−</mo><mn>8</mn><mo>)</mo></mrow><mn>5</mn></msup><mo>,</mo><msup><mrow><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo></mrow><mn>8</mn></msup><mo>,</mo><msup><mrow><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo></mrow><msup><mn>2</mn><mn>4</mn></msup></msup><mo>,</mo><msup><mrow><mo>(</mo><mo>−</mo><mn>4</mn><mo>)</mo></mrow><mn>4</mn></msup></math>"
+        },
+        {
+          "label": "3",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>6</mn></mfrac><mo>,</mo><mfrac><mn>8</mn><mn>7</mn></mfrac><mo>,</mo><mfrac><mn>11</mn><mn>10</mn></mfrac><mo>,</mo><mfrac><mn>16</mn><mn>15</mn></mfrac></math>"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PFF",
+        "solution_html": "<ul><li>Rozwijając ułamki okresowe: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,7</mn><mo>(</mo><mn>3</mn><mo>)</mo><mo>=</mo><mn>0,7333…</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,</mn><mo>(</mo><mn>73</mn><mo>)</mo><mo>=</mo><mn>0,7373…</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,</mn><mo>(</mo><mn>737</mn><mo>)</mo><mo>=</mo><mn>0,737737…</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,73</mn><mo>(</mo><mn>7</mn><mo>)</mo><mo>=</mo><mn>0,73777…</mn></math>. Porównując kolejne cyfry po przecinku, mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,7333…</mn><mo>&lt;</mo><mn>0,7373…</mn><mo>&lt;</mo><mn>0,737737…</mn><mo>&lt;</mo><mn>0,73777…</mn></math>, więc liczby są w kolejności rosnącej — <strong>TAK</strong>.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mo>−</mo><mn>8</mn><mo>)</mo></mrow><mn>5</mn></msup><mo>=</mo><mo>−</mo><mn>32768</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo></mrow><mn>8</mn></msup><mo>=</mo><mn>256</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo></mrow><msup><mn>2</mn><mn>4</mn></msup></msup><mo>=</mo><msup><mrow><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo></mrow><mn>16</mn></msup><mo>=</mo><mn>65536</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mo>−</mo><mn>4</mn><mo>)</mo></mrow><mn>4</mn></msup><mo>=</mo><mn>256</mn></math>. Ciąg <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>32768</mn><mo>,</mo><mn>256</mn><mo>,</mo><mn>65536</mn><mo>,</mo><mn>256</mn></math> nie jest rosnący (po 65536 znów 256) — <strong>NIE</strong>.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>6</mn></mfrac><mo>≈</mo><mn>1,17</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>8</mn><mn>7</mn></mfrac><mo>≈</mo><mn>1,14</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>11</mn><mn>10</mn></mfrac><mo>=</mo><mn>1,1</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>16</mn><mn>15</mn></mfrac><mo>≈</mo><mn>1,07</mn></math> — liczby maleją, więc nie są w kolejności rosnącej — <strong>NIE</strong>.</li></ul>"
+      }
+    },
+    {
+      "id": "rejonowy_2026_opolskie_q4",
+      "number": 4,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "bryły"
+      ],
+      "prompt_html": "<p>Dany jest sześcian złożony z 8 jednakowych sześciennych kostek o krawędzi długości 5 cm. Z tego sześcianu wyjęto jedną kostkę i powstała nowa bryła. Porównujemy sześcian z nową bryłą.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Objętość nowej bryły jest o 12,5% mniejsza od objętości sześcianu."
+        },
+        {
+          "label": "2",
+          "html": "Pole powierzchni całkowitej nie zmieniło się."
+        },
+        {
+          "label": "3",
+          "html": "Suma długości wszystkich krawędzi nie zmieniła się."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PPF",
+        "solution_html": "<p>Sześcian złożony z 8 kostek o krawędzi 5 cm ma krawędź 10 cm. Wyjęto jedną z narożnych kostek.</p><ul><li>Objętość maleje z 8 do 7 kostek, czyli o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>8</mn></mfrac><mo>=</mo><mn>12,5</mn><mo>%</mo></math> — <strong>TAK</strong>.</li><li>Wyjęcie narożnej kostki usuwa z powierzchni 3 kwadraty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>×</mo><mn>5</mn></math>, ale odsłania 3 takie same kwadraty na ściankach wnęki, więc pole powierzchni całkowitej się nie zmienia — <strong>TAK</strong>.</li><li>W miejscu wyjętej kostki powstaje wnęka z nowymi krawędziami: suma długości krawędzi rośnie ze <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>·</mo><mn>10</mn><mo>=</mo><mn>120</mn></math> cm do 150 cm, więc się zmienia — <strong>NIE</strong>.</li></ul>"
+      }
+    },
+    {
+      "id": "rejonowy_2026_opolskie_q5",
+      "number": 5,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "trójkąty",
+        "geometria"
+      ],
+      "prompt_html": "<p>Przy każdym zdaniu wpisz TAK lub NIE.</p><p>Prawdą jest, że:</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Trójkąt o bokach długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>3</mn></msqrt></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>2</mn></msqrt></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>2</mn></msqrt></math> cm jest prostokątny."
+        },
+        {
+          "label": "2",
+          "html": "Równoległobok o bokach długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math> dm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math> dm i przekątnej długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>6</mn></mfrac></math> dm jest prostokątem."
+        },
+        {
+          "label": "3",
+          "html": "Stosunek długości boku kwadratu do długości jego przekątnej wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>2</mn></msqrt><mn>2</mn></mfrac></math>."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FPP",
+        "solution_html": "<ul><li>Najdłuższy bok to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>2</mn></msqrt></math>. Sprawdzamy twierdzenie Pitagorasa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mn>3</mn><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>12</mn><mo>+</mo><mn>18</mn><mo>=</mo><mn>30</mn></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>4</mn><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>32</mn></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>≠</mo><mn>32</mn></math>, trójkąt nie jest prostokątny — <strong>NIE</strong>.</li><li>Równoległobok jest prostokątem, gdy przekątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> spełnia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>d</mi><mn>2</mn></msup><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup></math>. Tu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>+</mo><mfrac><mn>4</mn><mn>9</mn></mfrac><mo>=</mo><mfrac><mn>25</mn><mn>36</mn></mfrac><mo>=</mo><msup><mrow><mo>(</mo><mfrac><mn>5</mn><mn>6</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup></math>, więc jest prostokątem — <strong>TAK</strong>.</li><li>Przekątna kwadratu o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><msqrt><mn>2</mn></msqrt></math>, więc stosunek boku do przekątnej to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mrow><mi>a</mi><msqrt><mn>2</mn></msqrt></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><msqrt><mn>2</mn></msqrt></mfrac><mo>=</mo><mfrac><msqrt><mn>2</mn></msqrt><mn>2</mn></mfrac></math> — <strong>TAK</strong>.</li></ul>"
+      }
+    },
+    {
+      "id": "rejonowy_2026_opolskie_q6",
+      "number": 6,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "koła / okręgi",
+        "geometria"
+      ],
+      "prompt_html": "<p>Pole kwadratu wynosi 64 cm². Oblicz pole powierzchni części wspólnej kwadratu i koła, którego środek znajduje się w jednym z wierzchołków kwadratu, a środek symetrii kwadratu leży na brzegu koła.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "8π cm²",
+        "solution_html": "<p>Z pola kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>64</mn></math> otrzymujemy bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>8</mn></math> cm. Promień koła to odległość wierzchołka kwadratu od jego środka symetrii, czyli połowa przekątnej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mfrac><mrow><mi>a</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><mfrac><mrow><mn>8</mn><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><mn>4</mn><msqrt><mn>2</mn></msqrt></math> cm, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>r</mi><mn>2</mn></msup><mo>=</mo><mn>32</mn></math>.</p><p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>2</mn></msqrt><mo>≈</mo><mn>5,66</mn><mo>&lt;</mo><mn>8</mn></math>, cała ćwiartka koła wyznaczona przez kąt prosty przy wierzchołku mieści się w kwadracie, więc częścią wspólną jest ćwiartka koła: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>·</mo><mi>π</mi><mo>·</mo><msup><mi>r</mi><mn>2</mn></msup><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>·</mo><mi>π</mi><mo>·</mo><mn>32</mn><mo>=</mo><mn>8</mn><mi>π</mi></math> cm².</p><p>Pole części wspólnej wynosi <strong>8π cm²</strong> (≈ 25,1 cm²).</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2026_opolskie_q7",
+      "number": 7,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "trójkąty"
+      ],
+      "prompt_html": "<p>Oblicz pole trójkąta prostokątnego, którego jedna przyprostokątna ma długość 9, a przeciwprostokątna jest o 3 dłuższa od drugiej przyprostokątnej.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "54",
+        "solution_html": "<p>Niech druga przyprostokątna ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, wtedy przeciwprostokątna ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>+</mo><mn>3</mn></math>. Z twierdzenia Pitagorasa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>9</mn><mn>2</mn></msup><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mi>b</mi><mo>+</mo><mn>3</mn><mo>)</mo></mrow><mn>2</mn></msup></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>81</mn><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo>=</mo><msup><mi>b</mi><mn>2</mn></msup><mo>+</mo><mn>6</mn><mi>b</mi><mo>+</mo><mn>9</mn></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>72</mn><mo>=</mo><mn>6</mn><mi>b</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>12</mn></math>.</p><p>Pole trójkąta prostokątnego to połowa iloczynu przyprostokątnych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>9</mn><mo>·</mo><mn>12</mn><mo>=</mo><mn>54</mn></math>.</p><p>Pole tego trójkąta wynosi <strong>54</strong>.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2026_opolskie_q8",
+      "number": 8,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Trzy lata temu syn był trzy razy młodszy od matki, a teraz jest trzy razy młodszy od ojca. O ile lat ojciec jest starszy od matki?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "6 lat",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi></math> oznacza obecny wiek syna, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> — matki, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>o</mi></math> — ojca. Teraz syn jest 3 razy młodszy od ojca, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>o</mi><mo>=</mo><mn>3</mn><mi>s</mi></math>. Trzy lata temu syn miał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>−</mo><mn>3</mn></math>, a matka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi><mo>−</mo><mn>3</mn></math> i była 3 razy starsza: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi><mo>−</mo><mn>3</mn><mo>=</mo><mn>3</mn><mo>(</mo><mi>s</mi><mo>−</mo><mn>3</mn><mo>)</mo></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi><mo>=</mo><mn>3</mn><mi>s</mi><mo>−</mo><mn>6</mn></math>.</p><p>Różnica wieku ojca i matki wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>o</mi><mo>−</mo><mi>m</mi><mo>=</mo><mn>3</mn><mi>s</mi><mo>−</mo><mo>(</mo><mn>3</mn><mi>s</mi><mo>−</mo><mn>6</mn><mo>)</mo><mo>=</mo><mn>6</mn></math> i nie zależy od wieku syna.</p><p>Ojciec jest starszy od matki o <strong>6 lat</strong>.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2026_opolskie_q9",
+      "number": 9,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Bracia mieli w sumie 400 zł. Kiedy starszy wydał tyle, ile miał młodszy, zostało mu jeszcze <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>9</mn></mfrac></math> tego, co miał na początku. Ile pieniędzy wydał starszy brat?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "175 zł",
+        "solution_html": "<p>Niech starszy brat miał na początku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> zł, wtedy młodszy miał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>400</mn><mo>−</mo><mi>x</mi></math> zł. Starszy wydał tyle, ile miał młodszy, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>400</mn><mo>−</mo><mi>x</mi></math>, i zostało mu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>9</mn></mfrac></math> początkowej kwoty: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>−</mo><mo>(</mo><mn>400</mn><mo>−</mo><mi>x</mi><mo>)</mo><mo>=</mo><mfrac><mn>2</mn><mn>9</mn></mfrac><mi>x</mi></math>.</p><p>Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>−</mo><mn>400</mn><mo>=</mo><mfrac><mn>2</mn><mn>9</mn></mfrac><mi>x</mi></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>16</mn><mn>9</mn></mfrac><mi>x</mi><mo>=</mo><mn>400</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>225</mn></math>. Młodszy miał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>400</mn><mo>−</mo><mn>225</mn><mo>=</mo><mn>175</mn></math> zł i tyle wydał starszy brat. Sprawdzenie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>225</mn><mo>−</mo><mn>175</mn><mo>=</mo><mn>50</mn><mo>=</mo><mfrac><mn>2</mn><mn>9</mn></mfrac><mo>·</mo><mn>225</mn></math>.</p><p>Starszy brat wydał <strong>175 zł</strong>.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2026_opolskie_q10",
+      "number": 10,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "sześciokąty foremne",
+        "trójkąty",
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>W sześciokącie foremnym o boku długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn></math> cm połączono odcinkami co drugi wierzchołek. Uzasadnij, że tak otrzymany trójkąt jest równoboczny. Oblicz pole powierzchni tego trójkąta.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "27√3 cm²",
+        "solution_html": "<p>Oznaczmy wierzchołki sześciokąta foremnego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>B</mi><mi>C</mi><mi>D</mi><mi>E</mi><mi>F</mi></math>. Łącząc co drugi wierzchołek, otrzymujemy trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>C</mi><mi>E</mi></math>. Odcinki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>C</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mi>E</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi><mi>A</mi></math> są podstawami trzech przystających trójkątów równoramiennych (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>B</mi><mi>C</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mi>D</mi><mi>E</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi><mi>F</mi><mi>A</mi></math>) o ramionach 6 cm i kącie 120° między nimi. Skoro trójkąty te są przystające (cecha bok-kąt-bok), to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>C</mi><mo>=</mo><mi>C</mi><mi>E</mi><mo>=</mo><mi>E</mi><mi>A</mi></math>, więc trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>C</mi><mi>E</mi></math> jest równoboczny.</p><p>Bok trójkąta to krótsza przekątna sześciokąta foremnego: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>C</mi><mo>=</mo><mn>6</mn><msqrt><mn>3</mn></msqrt></math> cm. Pole trójkąta równobocznego o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>6</mn><msqrt><mn>3</mn></msqrt></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mfrac><mrow><mn>108</mn><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mn>27</mn><msqrt><mn>3</mn></msqrt></math> cm².</p><p>Pole tego trójkąta wynosi <strong>27√3 cm²</strong> (≈ 46,8 cm²).</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2026_opolskie_q11",
+      "number": 11,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "bryły"
+      ],
+      "prompt_html": "<p>W ostrosłupie prawidłowym czworokątnym długość krawędzi bocznej wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msqrt><mn>2</mn></msqrt></math> cm i tworzy z wysokością ostrosłupa kąt 30°. Oblicz objętość tego ostrosłupa.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "36√6 cm³",
+        "solution_html": "<p>W ostrosłupie prawidłowym czworokątnym wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi></math> i połowa przekątnej podstawy są prostopadłe, a krawędź boczna jest przeciwprostokątną. Krawędź boczna tworzy z wysokością kąt 30°, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi><mo>=</mo><mn>6</mn><msqrt><mn>2</mn></msqrt><mo>·</mo><mi>cos</mi><mn>30</mn><mo>°</mo><mo>=</mo><mn>6</mn><msqrt><mn>2</mn></msqrt><mo>·</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac><mo>=</mo><mn>3</mn><msqrt><mn>6</mn></msqrt></math> cm, a połowa przekątnej podstawy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>6</mn><msqrt><mn>2</mn></msqrt><mo>·</mo><mi>sin</mi><mn>30</mn><mo>°</mo><mo>=</mo><mn>6</mn><msqrt><mn>2</mn></msqrt><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>=</mo><mn>3</mn><msqrt><mn>2</mn></msqrt></math> cm.</p><p>Połowa przekątnej kwadratu o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><mn>3</mn><msqrt><mn>2</mn></msqrt></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>6</mn></math> cm i pole podstawy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>36</mn></math> cm². Objętość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mn>36</mn><mo>·</mo><mn>3</mn><msqrt><mn>6</mn></msqrt><mo>=</mo><mn>36</mn><msqrt><mn>6</mn></msqrt></math> cm³.</p><p>Objętość ostrosłupa wynosi <strong>36√6 cm³</strong> (≈ 88,2 cm³).</p>"
+      }
+    }
+  ]
+}

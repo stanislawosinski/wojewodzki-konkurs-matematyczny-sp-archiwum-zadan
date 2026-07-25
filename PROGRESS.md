@@ -37,8 +37,13 @@ the know-how that used to live only in the chat; everything needed to resume is 
     `competition`, derived from the title. Also a HTML filter ("Typ szkoły"). Only gimnazjum
     file so far: 2018_podkarpackie. Re-add script: the school_type block in the school_type
     section below / the browser app filters on it directly.
-- **rejonowy: 131 / 147** processed (batches 1–3 done 2026-07-23; batches 4–8 done 2026-07-24;
-  batches 9–12 done 2026-07-25). (was 163; on 2026-07-23 **all 16
+- **rejonowy: COMPLETE — 147 / 147** processed (batches 1–3 done 2026-07-23; batches 4–8 done
+  2026-07-24; batches 9–13 done 2026-07-25). → **147 files, 2706 questions; validates clean**
+  (no dup ids, no invalid JSON, every points-sum == max except the one documented source defect
+  rejonowy_2012_podlaskie_sp 31≠30, no missing/orphan figures, all have school_type). 2 annulled
+  (zachodniopomorskie 2018-19 q23, dolnoslaskie 2023 q9). Keyless: 2012/2018/2020/2021_podkarpackie,
+  2012/2013 podlaskie sp/gim, 2017-2018_pomorskie, 2019/2020/2021_lodzkie. Embedded keys: all
+  lubelskie + opolskie 2019. (was 163; on 2026-07-23 **all 16
   W-M files were purged** — W-M SP math has NO rejonowy stage, so every
   `pdfs/rejonowy/*_warminsko-mazurskie.pdf` was a spurious śląskie dup. Remaining 147 are the real
   set. Earlier +15 merged from `remaining/rejonowy/`: podkarpackie_gim 2010, podlaskie 2012–2015
@@ -171,6 +176,19 @@ the know-how that used to live only in the chat; everything needed to resume is 
     modeled as closed_single with comma-joined answers, same as mazowieckie multi-select.
   - **podkarpackie & dolnoslaskie confirm their per-year format drift:** 2024_podkarpackie = 9 all-open
     (6×2+3×4=24pt); dolnoslaskie stays ~15-16 q / 24-25 pt with Nov/Dec-prior-year dates.
+  - **Batch 13 (16) — FINISHES REJONOWY:** the single-year 2025 & 2026 tail (dolnoslaskie,
+    kujawsko-pomorskie, lodzkie, lubelskie [embedded], lubuskie, mazowieckie, opolskie, podkarpackie,
+    podlaskie for 2025; dolnoslaskie, kujawsko-pomorskie, lodzkie, lubelskie [embedded], lubuskie,
+    opolskie, podkarpackie for 2026). All keyed + self-verified; no annulments.
+  - **2025/2026 season fully in for these voivodeships.** New closed sub-formats normalized to
+    closed_single with combined answers: lubuskie "two-select" (choices A–H, e.g. "A, H"),
+    "teza+uzasadnienie" ("B2"), and multi-answer "wielokrotnego wyboru". łódzkie uses 60/80/100-pt
+    scales interchangeably per year — trust the printed "Maksymalna liczba punktów".
+  - **Source authoring defects seen (transcribed faithfully, key answer still unambiguous):**
+    2026_kujawsko-pomorskie q4 (truncated numerators in choices B/C), 2025_lodzkie q9 ("no valid
+    answer" impossibility task — NOT an annulment, computed heights stored). Embedded-key running
+    headers occasionally carry a stale prior-year (2025_lubelskie key hdr says 2023/2024,
+    2025_mazowieckie answers title says "ETAP SZKOLNY") — trust the question paper.
   - **Keyless (answers null):** 2012_podkarpackie, 2012_podlaskie_sp, 2013_podlaskie_gim/sp — no
     separate key and none embedded (checked last pages). All other 18 keyed + self-verified.
   - **ŚLĄSKIE switched away from "z Elementami Przyrody" ~2014/2015:** 2010-2013 śląskie rejonowy

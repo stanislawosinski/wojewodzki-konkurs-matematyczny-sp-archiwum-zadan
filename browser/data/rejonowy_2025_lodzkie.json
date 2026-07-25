@@ -1,0 +1,256 @@
+{
+  "source_file": "rejonowy/2025_lodzkie.pdf",
+  "answers_file": "rejonowy/2025_lodzkie_answers.pdf",
+  "competition": "Wojewódzki Konkurs Przedmiotowy z Matematyki dla uczniów szkół podstawowych (łódzkie)",
+  "school_type": "podstawowa",
+  "stage": "rejonowy",
+  "wojewodztwo": "lodzkie",
+  "school_year": "2024/2025",
+  "date": null,
+  "total_questions": 11,
+  "max_points": 80,
+  "questions": [
+    {
+      "id": "rejonowy_2025_lodzkie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "koła / okręgi",
+        "trójkąty"
+      ],
+      "prompt_html": "<p>Wiemy, że</p><ul><li>przedstawiony na poniższym rysunku trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest prostokątny,</li><li>punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>J</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> są, odpowiednio, środkami odcinków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math>,</li><li>długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> jest równa 7, a odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> jest równa 8,</li><li>wszystkie łuki na rysunku są półokręgami.</li></ul><p>A) Oblicz pole zacieniowanej figury. Wskaż właściwą odpowiedź spośród podanych.</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>28</mn><mo>+</mo><mfrac><mn>89</mn><mn>4</mn></mfrac><mi>π</mi></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>28</mn><mo>+</mo><mfrac><mn>339</mn><mn>2</mn></mfrac><mi>π</mi></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>28</mn><mo>+</mo><mfrac><mn>1017</mn><mn>16</mn></mfrac><mi>π</mi></math></li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>28</mn><mo>+</mo><mfrac><mn>339</mn><mn>4</mn></mfrac><mi>π</mi></math></li><li>E. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>28</mn><mo>+</mo><mfrac><mn>113</mn><mn>8</mn></mfrac><mi>π</mi></math></li></ul><p>B) Oblicz obwód zacieniowanej figury.</p>",
+      "choices": [],
+      "figures": [
+        "rejonowy_2025_lodzkie_q1_fig1.png"
+      ],
+      "answer": {
+        "correct": "A) 28 + 113/8·π (odpowiedź E); B) obwód L = (7,5 + √113/2)·π",
+        "solution_html": "<p>Pole zacieniowanej figury to pole trójkąta prostokątnego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> powiększone o pola sześciu półkoli zbudowanych na połowach boków (średnice: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AM</mi><mo>=</mo><mi>MB</mi><mo>=</mo><mn>3,5</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BJ</mi><mo>=</mo><mi>JC</mi><mo>=</mo><mn>4</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AK</mi><mo>=</mo><mi>KC</mi><mo>=</mo><mfrac><msqrt><mn>113</mn></msqrt><mn>2</mn></mfrac></math>).</p><p>Pole trójkąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>7</mn><mo>·</mo><mn>8</mn><mo>=</mo><mn>28</mn></math>. Suma pól półkoli wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>π</mi><mo>·</mo><msup><mn>1,75</mn><mn>2</mn></msup><mo>+</mo><mn>2</mn><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>π</mi><mo>·</mo><msup><mn>2</mn><mn>2</mn></msup><mo>+</mo><mn>2</mn><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>π</mi><mo>·</mo><msup><mrow><mo>(</mo><mfrac><msqrt><mn>113</mn></msqrt><mn>4</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mfrac><mn>113</mn><mn>8</mn></mfrac><mi>π</mi></math>. Zatem pole = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>28</mn><mo>+</mo><mfrac><mn>113</mn><mn>8</mn></mfrac><mi>π</mi></math> (odpowiedź E).</p><p>Obwód figury tworzą łuki sześciu półokręgów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi><mo>=</mo><mi>π</mi><mo>·</mo><mn>3,5</mn><mo>+</mo><mi>π</mi><mo>·</mo><mn>4</mn><mo>+</mo><mi>π</mi><mo>·</mo><mfrac><msqrt><mn>113</mn></msqrt><mn>2</mn></mfrac><mo>=</mo><mrow><mo>(</mo><mn>7,5</mn><mo>+</mo><mfrac><msqrt><mn>113</mn></msqrt><mn>2</mn></mfrac><mo>)</mo></mrow><mi>π</mi></math>.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2025_lodzkie_q2",
+      "number": 2,
+      "page": 3,
+      "type": "open",
+      "points": 9,
+      "topics": [
+        "geometria",
+        "zliczanie / metody zliczania"
+      ],
+      "prompt_html": "<p>Na zegarze elektronicznym wyświetlane są zawsze cztery cyfry (tzn. na przykład 8:15 to 08:15) wyglądające jak poniżej.</p><p>Zegar pokazuje godziny od 00:00 do 23:59. W tym zadaniu traktujemy wyświetlaną godzinę jak figurę.</p><p>A) Podaj dwa przykłady godziny, która ma zarówno pionową jak i poziomą oś symetrii.</p><p>B) Podaj trzy przykłady godziny, która ma tylko pionową oś symetrii.</p><p>C) Podaj trzy przykłady godziny, która ma tylko poziomą oś symetrii.</p><p>D) Podaj dwa przykłady godziny, która ma środek symetrii.</p>",
+      "choices": [],
+      "figures": [
+        "rejonowy_2025_lodzkie_q2_fig1.png"
+      ],
+      "answer": {
+        "correct": "A) np. 00:00, 11:11, 01:10, 10:01; B) np. 22:55, 12:51, 02:50, 15:21, 05:20, 20:05, 21:15; C) wszystkie godziny złożone z cyfr 1, 3, 0, 8 (z wyłączeniem godzin z pkt. A); D) np. 00:00, 11:11, 01:10, 10:01, 22:22",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2025_lodzkie_q3",
+      "number": 3,
+      "page": 4,
+      "type": "true_false",
+      "points": 9,
+      "topics": [
+        "potęgi i pierwiastki",
+        "trójkąty",
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>Rozważmy liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>φ</mi><mn>1</mn></msub><mo>=</mo><mfrac><mrow><mn>1</mn><mo>+</mo><msqrt><mn>5</mn></msqrt></mrow><mn>2</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>φ</mi><mn>2</mn></msub><mo>=</mo><mfrac><mrow><mn>1</mn><mo>−</mo><msqrt><mn>5</mn></msqrt></mrow><mn>2</mn></mfrac></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>φ</mi><mn>3</mn></msub><mo>=</mo><mfrac><mrow><mo>−</mo><mn>1</mn><mo>+</mo><msqrt><mn>5</mn></msqrt></mrow><mn>2</mn></mfrac></math>.</p><p>Rozstrzygnij, czy stwierdzenia zapisane w lewej kolumnie są prawdziwe. Wpisz w prawej kolumnie „prawda” lub „fałsz”. Odpowiedź uzasadnij.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><msub><mi>φ</mi><mn>1</mn></msub><mn>2</mn></msup><mo>−</mo><msub><mi>φ</mi><mn>1</mn></msub><mo>−</mo><mn>1</mn><mo>=</mo><mn>0</mn></math>"
+        },
+        {
+          "label": "2",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><msub><mi>φ</mi><mn>2</mn></msub><mn>2</mn></msup><mo>−</mo><msub><mi>φ</mi><mn>2</mn></msub><mo>−</mo><mn>1</mn><mo>=</mo><mn>0</mn></math>"
+        },
+        {
+          "label": "3",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><msub><mi>φ</mi><mn>3</mn></msub><mn>2</mn></msup><mo>−</mo><msub><mi>φ</mi><mn>3</mn></msub><mo>−</mo><mn>1</mn><mo>=</mo><mn>0</mn></math>"
+        },
+        {
+          "label": "4",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><msub><mi>φ</mi><mn>1</mn></msub></mrow></mfrac><mo>=</mo><msub><mi>φ</mi><mn>1</mn></msub><mo>−</mo><mn>1</mn></math>"
+        },
+        {
+          "label": "5",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><msub><mi>φ</mi><mn>2</mn></msub></mrow></mfrac><mo>=</mo><msub><mi>φ</mi><mn>2</mn></msub><mo>−</mo><mn>1</mn></math>"
+        },
+        {
+          "label": "6",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><msub><mi>φ</mi><mn>3</mn></msub></mrow></mfrac><mo>=</mo><msub><mi>φ</mi><mn>3</mn></msub><mo>−</mo><mn>1</mn></math>"
+        },
+        {
+          "label": "7",
+          "html": "Można zbudować trójkąt prostokątny, a następnie na jego bokach kwadraty o polach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>φ</mi><mn>1</mn></msub></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><msub><mi>φ</mi><mn>1</mn></msub><mn>2</mn></msup></math> (por. rysunek)."
+        },
+        {
+          "label": "8",
+          "html": "Można zbudować trójkąt prostokątny, a następnie na jego bokach kwadraty o polach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>φ</mi><mn>2</mn></msub></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><msub><mi>φ</mi><mn>2</mn></msub><mn>2</mn></msup></math> (por. rysunek)."
+        },
+        {
+          "label": "9",
+          "html": "Można zbudować trójkąt prostokątny, a następnie na jego bokach kwadraty o polach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>φ</mi><mn>3</mn></msub></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><msub><mi>φ</mi><mn>3</mn></msub><mn>2</mn></msup></math> (por. rysunek)."
+        }
+      ],
+      "figures": [
+        "rejonowy_2025_lodzkie_q3_fig1.png",
+        "rejonowy_2025_lodzkie_q3_fig2.png",
+        "rejonowy_2025_lodzkie_q3_fig3.png"
+      ],
+      "answer": {
+        "correct": "PPFPPFPFF",
+        "solution_html": "<p>Liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>φ</mi><mn>1</mn></msub></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>φ</mi><mn>2</mn></msub></math> to pierwiastki równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo>=</mo><mn>0</mn></math>, więc stwierdzenia 1 i 2 są prawdziwe, a 3 fałszywe (bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>φ</mi><mn>3</mn></msub></math> nie spełnia tego równania). Z równości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mi>x</mi><mo>+</mo><mn>1</mn></math> po podzieleniu przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> wynika <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mi>x</mi></mfrac><mo>=</mo><mn>1</mn><mo>−</mo><mfrac><mn>1</mn><mi>x</mi></mfrac></math>… — dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>φ</mi><mn>1</mn></msub></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>φ</mi><mn>2</mn></msub></math> zachodzi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mi>x</mi></mfrac><mo>=</mo><mi>x</mi><mo>−</mo><mn>1</mn></math> (stwierdzenia 4 i 5 prawdziwe), a dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>φ</mi><mn>3</mn></msub></math> nie (stwierdzenie 6 fałszywe).</p><p>Na bokach trójkąta prostokątnego kwadraty o polach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>φ</mi><mn>1</mn></msub></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><msub><mi>φ</mi><mn>1</mn></msub><mn>2</mn></msup></math> można zbudować wtedy, gdy pole największego kwadratu równa się sumie pól dwóch pozostałych, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><msub><mi>φ</mi><mn>1</mn></msub><mn>2</mn></msup><mo>=</mo><mn>1</mn><mo>+</mo><msub><mi>φ</mi><mn>1</mn></msub></math> — to zachodzi dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>φ</mi><mn>1</mn></msub></math> (stwierdzenie 7 prawdziwe). Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>φ</mi><mn>2</mn></msub></math> pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>φ</mi><mn>2</mn></msub></math> byłoby ujemne (kwadrat nie istnieje), a dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>φ</mi><mn>3</mn></msub></math> nie zachodzi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><msub><mi>φ</mi><mn>3</mn></msub><mn>2</mn></msup><mo>=</mo><mn>1</mn><mo>+</mo><msub><mi>φ</mi><mn>3</mn></msub></math>, więc stwierdzenia 8 i 9 są fałszywe.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2025_lodzkie_q4",
+      "number": 4,
+      "page": 5,
+      "type": "open",
+      "points": 12,
+      "topics": [
+        "statystyka opisowa",
+        "procenty"
+      ],
+      "prompt_html": "<p>Spośród 1000 ankietowanych 85% ma samochód. Wśród osób, które mają samochód, 26% ma dokładnie dwa samochody, co dziesiąty ma dokładnie trzy samochody, jeden na 50 ma cztery samochody. Nikt nie ma więcej samochodów niż cztery.</p><p>A) Ile średnio samochodów mają ankietowani?</p><p>B) Czy jest prawdą, że ponad połowa samochodów jest w posiadaniu ludzi, którzy mają dokładnie jeden samochód? Odpowiedź uzasadnij.</p><p>C) Czy jest prawdą, że ponad 60% ankietowanych ma mniej samochodów niż średnia w tej grupie? Odpowiedź uzasadnij.</p><p>D) O ile wzrośnie ta średnia, gdy każdy posiadacz samochodu zakupi dodatkowy samochód?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "A) 1,292; B) NIE; C) TAK; D) o 0,85",
+        "solution_html": "<p>Samochód ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>85</mn><mo>%</mo><mo>·</mo><mn>1000</mn><mo>=</mo><mn>850</mn></math> osób. Dokładnie 2 samochody ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>26</mn><mo>%</mo><mo>·</mo><mn>850</mn><mo>=</mo><mn>221</mn></math> osób, 3 samochody — <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>10</mn></mfrac><mo>·</mo><mn>850</mn><mo>=</mo><mn>85</mn></math> osób, 4 samochody — <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>50</mn></mfrac><mo>·</mo><mn>850</mn><mo>=</mo><mn>17</mn></math> osób, a 1 samochód — <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>850</mn><mo>−</mo><mn>221</mn><mo>−</mo><mn>85</mn><mo>−</mo><mn>17</mn><mo>=</mo><mn>527</mn></math> osób.</p><p>A) Wszystkich samochodów jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>527</mn><mo>+</mo><mn>2</mn><mo>·</mo><mn>221</mn><mo>+</mo><mn>3</mn><mo>·</mo><mn>85</mn><mo>+</mo><mn>4</mn><mo>·</mo><mn>17</mn><mo>=</mo><mn>1292</mn></math>, więc średnia wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1292</mn><mn>1000</mn></mfrac><mo>=</mo><mn>1,292</mn></math>.</p><p>B) Osoby z jednym samochodem mają 527 samochodów, a połowa wszystkich to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>1292</mn><mo>=</mo><mn>646</mn></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>527</mn><mo>&lt;</mo><mn>646</mn></math>, odpowiedź brzmi NIE.</p><p>C) Mniej niż 1,292 samochodu mają osoby z 0 lub 1 samochodem: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>150</mn><mo>+</mo><mn>527</mn><mo>=</mo><mn>677</mn></math>, czyli 67,7% ankietowanych. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>677</mn><mo>&gt;</mo><mn>600</mn></math>, odpowiedź brzmi TAK.</p><p>D) Po dokupieniu przybędzie 850 samochodów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1292</mn><mo>+</mo><mn>850</mn><mo>=</mo><mn>2142</mn></math>, nowa średnia to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2,142</mn></math>. Wzrost: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2,142</mn><mo>−</mo><mn>1,292</mn><mo>=</mo><mn>0,85</mn></math>.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2025_lodzkie_q5",
+      "number": 5,
+      "page": 6,
+      "type": "open",
+      "points": 9,
+      "topics": [
+        "prawdopodobieństwo",
+        "kombinatoryka"
+      ],
+      "prompt_html": "<p>Do pustego pokoju wchodzili kolejno:</p><ul><li>Ania z siostrą</li><li>Krzysiek z siostrą i bratem</li><li>Maciek z bratem</li><li>Wojtek z siostrą</li><li>Marysia z bratem</li><li>Julian</li><li>Nicola z siostrą i bratem</li><li>Milena</li></ul><p>A) Jakie jest prawdopodobieństwo, że losowa osoba z pokoju ma tam siostrę? Wynik przedstaw w procentach.</p><p>B) Jedna osoba wyszła z pokoju. Wówczas prawdopodobieństwo, że losowo wybrana osoba z pokoju ma w nim siostrę, wyniosło 53,33%. Wypisz cztery przykładowe osoby, które mogły wyjść.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "A) 56,25%; B) mogli wyjść (dowolne cztery): Krzysiek, brat Krzyśka, brat Nicoli, Wojtek, siostra Wojtka, Marysia lub brat Marysi",
+        "solution_html": "<p>A) W pokoju jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>1</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>16</mn></math> osób. Siostrę ma w pokoju 9 osób (Ania i jej siostra; Krzysiek i jego brat; Wojtek; brat Marysi; Nicola, jej siostra i jej brat). Prawdopodobieństwo: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>9</mn><mn>16</mn></mfrac><mo>=</mo><mn>56,25</mn><mo>%</mo></math>.</p><p>B) Po wyjściu jednej osoby zostaje 15 osób, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>53,33</mn><mo>%</mo><mo>=</mo><mfrac><mn>8</mn><mn>15</mn></mfrac></math> — więc siostrę ma teraz 8 osób. Tak stanie się, gdy wyjdzie osoba, której wyjście zmniejsza tę liczbę dokładnie o 1. Mogli wyjść (dowolne cztery): Krzysiek, brat Krzyśka, brat Nicoli, Wojtek, siostra Wojtka, Marysia lub brat Marysi.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2025_lodzkie_q6",
+      "number": 6,
+      "page": 7,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "trójkąty",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Rozważmy pięć trójkątów:</p><ol><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>1</mn></msub></math> o bokach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>3</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>2</mn></msub></math> – trójkąt prostokątny, w którym najdłuższy bok ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>6</mn></msqrt></math>, a jeden z krótszych boków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>27</mn></msqrt></math>.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>3</mn></msub></math> o bokach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>6</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>8</mn></msqrt></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>4</mn></msub></math> o bokach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>3</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>29</mn></msqrt></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>5</mn></msub></math> o bokach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>6</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>3</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>2</mn></msqrt></math></li></ol><p>Uzupełnij tekst.</p><p>W trójkącie …………… kąty mają miary 30°, 60° i 90°, natomiast w trójkącie …………… kąty mają miary 45°, 45° i 90°. Oprócz nich trójkątem prostokątnym jest trójkąt …………… .</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "30°,60°,90°: T₃; 45°,45°,90°: T₂; trzeci trójkąt prostokątny: T₅",
+        "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>3</mn></msub></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><msqrt><mn>6</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>2</mn><mo>+</mo><mn>6</mn><mo>=</mo><mn>8</mn><mo>=</mo><msup><mrow><mo>(</mo><msqrt><mn>8</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup></math>, a boki są w stosunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>:</mo><msqrt><mn>3</mn></msqrt><mo>:</mo><mn>2</mn></math>, więc kąty to 30°, 60°, 90°.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>2</mn></msub></math>: drugi krótszy bok to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mrow><mo>(</mo><mn>3</mn><msqrt><mn>6</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>−</mo><msup><mrow><mo>(</mo><msqrt><mn>27</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>54</mn><mo>−</mo><mn>27</mn></mrow></msqrt><mo>=</mo><msqrt><mn>27</mn></msqrt></math> — oba krótsze boki są równe, więc kąty to 45°, 45°, 90°.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>5</mn></msub></math> jest prostokątny, bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><msqrt><mn>6</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>6</mn><mo>+</mo><mn>12</mn><mo>=</mo><mn>18</mn><mo>=</mo><msup><mrow><mo>(</mo><mn>3</mn><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup></math>, ale nie jest to trójkąt 30-60-90 ani 45-45-90. Trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>1</mn></msub></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>4</mn></msub></math> nie są prostokątne.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2025_lodzkie_q7",
+      "number": 7,
+      "page": 8,
+      "type": "open",
+      "points": 8,
+      "topics": [
+        "nierówności",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Rozważmy nierówność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>−</mo><mn>3</mn><mo>&gt;</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>1</mn></math>.</p><p>A) Podaj największą liczbę całkowitą ujemną, która spełnia tę nierówność.</p><p>B) Podaj przykład trzech liczb całkowitych niedodatnich, które nie spełniają tej nierówności.</p><p>C) Czy zbiór rozwiązań nierówności z poniższej tabeli jest taki sam jak zbiór rozwiązań rozważanej nierówności? Wpisz „TAK” lub „NIE” obok każdej z nich.</p><ul><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>x</mi><mo>−</mo><mn>1</mn><mo>&gt;</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>−</mo><mn>3</mn><mi>x</mi></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mi>x</mi><mo>+</mo><msqrt><msup><mn>2</mn><mn>2</mn></msup></msqrt><mo>&gt;</mo><mi>x</mi><mo>−</mo><mn>2</mn></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mn>125</mn><mn>3</mn></mroot><mo>·</mo><mi>x</mi><mo>−</mo><mn>4</mn><mo>&gt;</mo><mn>3</mn><mi>x</mi><mo>−</mo><mn>8</mn></math></li></ul>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "A) −3; B) np. −2, −1, 0; C) NIE, NIE, NIE",
+        "solution_html": "<p>Nierówność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>−</mo><mn>3</mn><mo>&gt;</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>1</mn></math> daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&lt;</mo><mo>−</mo><mn>2</mn></math>.</p><p>A) Największa liczba całkowita ujemna spełniająca tę nierówność to −3.</p><p>B) Nie spełniają jej liczby całkowite niedodatnie ≥ −2, np. −2, −1, 0.</p><p>C) Kolejno: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>x</mi><mo>−</mo><mn>1</mn><mo>&gt;</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>−</mo><mn>3</mn><mi>x</mi></math> → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&gt;</mo><mn>2</mn></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo>&gt;</mo><mi>x</mi><mo>−</mo><mn>2</mn></math> → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&lt;</mo><mn>2</mn></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mi>x</mi><mo>−</mo><mn>4</mn><mo>&gt;</mo><mn>3</mn><mi>x</mi><mo>−</mo><mn>8</mn></math> → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&gt;</mo><mo>−</mo><mn>2</mn></math>. Żaden z tych zbiorów rozwiązań nie jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&lt;</mo><mo>−</mo><mn>2</mn></math>, więc odpowiedzi to NIE, NIE, NIE.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2025_lodzkie_q8",
+      "number": 8,
+      "page": 9,
+      "type": "open",
+      "points": 8,
+      "topics": [
+        "prędkość / droga / czas"
+      ],
+      "prompt_html": "<p>Mateusz przejechał na rowerze 60 km w 330 minut. Na początku, przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> trasy, utrzymywał średnią prędkość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn><mfrac><mi>km</mi><mi>h</mi></mfrac></math>. Następnie, w 50 minut, przejechał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> pozostałej trasy. Jaka część trasy została mu wtedy do przejechania? Ile czasu potrzebował, by to zrobić? Jaka była jego średnia prędkość na tym ostatnim odcinku? Czy była większa niż średnia prędkość Mateusza na całej trasie?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Zostało do przejechania 1/2 trasy (30 km); czas 200 min (10/3 h); średnia prędkość na ostatnim odcinku 9 km/h; nie — średnia na całej trasie (120/11 ≈ 10,9 km/h) była większa",
+        "solution_html": "<p>Pierwszy odcinek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mn>60</mn><mo>=</mo><mn>20</mn></math> km, przejechane w czasie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>20</mn><mn>15</mn></mfrac><mo>=</mo><mfrac><mn>4</mn><mn>3</mn></mfrac></math> h = 80 min. Następnie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>·</mo><mn>40</mn><mo>=</mo><mn>10</mn></math> km w 50 min. Przejechał już 30 km, więc zostało do przejechania 30 km, czyli połowa trasy.</p><p>Czas ostatniego odcinka: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>330</mn><mo>−</mo><mn>80</mn><mo>−</mo><mn>50</mn><mo>=</mo><mn>200</mn></math> min = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>10</mn><mn>3</mn></mfrac></math> h. Średnia prędkość na nim: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>30</mn><mfrac><mn>10</mn><mn>3</mn></mfrac></mfrac><mo>=</mo><mn>9</mn><mfrac><mi>km</mi><mi>h</mi></mfrac></math>.</p><p>Średnia prędkość na całej trasie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>60</mn><mn>5,5</mn></mfrac><mo>=</mo><mfrac><mn>120</mn><mn>11</mn></mfrac><mo>≈</mo><mn>10,9</mn><mfrac><mi>km</mi><mi>h</mi></mfrac></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mo>&lt;</mo><mfrac><mn>120</mn><mn>11</mn></mfrac></math>, prędkość na ostatnim odcinku NIE była większa — średnia na całej trasie była większa.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2025_lodzkie_q9",
+      "number": 9,
+      "page": 10,
+      "type": "open",
+      "points": 7,
+      "topics": [
+        "bryły",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>W pewnym graniastosłupie prawidłowym sześć krawędzi ma długość 7, a trzy krawędzie mają długość 4. Graniastosłup nie ma więcej krawędzi. Ostrosłup prawidłowy o tej samej objętości ma cztery krawędzie długości 3,5 i cztery krawędzie długości 4. Oblicz wysokość ostrosłupa. Rozważ wszystkie przypadki.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "H₁ = 147/16·√3 lub H₂ = 12√3 (przy podanych danych taki ostrosłup w rzeczywistości nie istnieje)",
+        "solution_html": "<p>Graniastosłup ma 9 krawędzi, więc jest to graniastosłup prawidłowy trójkątny: podstawa to trójkąt równoboczny o boku 7 (sześć krawędzi), a trzy krawędzie boczne mają długość 4 (wysokość 4).</p><p>Pole podstawy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>p</mi></msub><mo>=</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>4</mn></mfrac><mo>·</mo><msup><mn>7</mn><mn>2</mn></msup><mo>=</mo><mfrac><mn>49</mn><mn>4</mn></mfrac><msqrt><mn>3</mn></msqrt></math>, objętość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mfrac><mn>49</mn><mn>4</mn></mfrac><msqrt><mn>3</mn></msqrt><mo>·</mo><mn>4</mn><mo>=</mo><mn>49</mn><msqrt><mn>3</mn></msqrt></math>.</p><p>Ostrosłup prawidłowy o 8 krawędziach to ostrosłup czworokątny. Przypadek 1 — krawędź podstawy 4: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>49</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mn>16</mn><mo>·</mo><msub><mi>H</mi><mn>1</mn></msub></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>H</mi><mn>1</mn></msub><mo>=</mo><mfrac><mn>147</mn><mn>16</mn></mfrac><msqrt><mn>3</mn></msqrt></math>. Przypadek 2 — krawędź podstawy 3,5: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>49</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mfrac><mn>49</mn><mn>4</mn></mfrac><mo>·</mo><msub><mi>H</mi><mn>2</mn></msub></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>H</mi><mn>2</mn></msub><mo>=</mo><mn>12</mn><msqrt><mn>3</mn></msqrt></math>.</p><p>Uwaga: przy podanych długościach krawędzi taki ostrosłup w rzeczywistości nie istnieje (krawędź boczna jest za krótka względem podstawy) — uczniowie, którzy to zauważyli, również otrzymywali komplet punktów.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2025_lodzkie_q10",
+      "number": 10,
+      "page": 11,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Uzupełnij luki w tekście, wybierając spośród odpowiedzi podanych poniżej.</p><p>Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>0</mn><mo>,</mo><mo>−</mo><mn>1</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>−</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo>)</mo></math> są wierzchołkami czworokąta. Jest to ……… .</p><p>Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>15</mn><mo>,</mo><mn>100</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>100</mn><mo>,</mo><mo>−</mo><mn>15</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>15</mn><mo>,</mo><mo>−</mo><mn>100</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>100</mn><mo>,</mo><mn>15</mn><mo>)</mo></math> są wierzchołkami czworokąta. Jest to ……… .</p><ul><li>A) Kwadrat</li><li>B) Romb, który nie jest kwadratem</li><li>C) Prostokąt, który nie jest kwadratem</li><li>D) Równoległobok, który nie jest prostokątem</li><li>E) Trapez, który nie jest równoległobokiem</li><li>F) Czworokąt, który nie jest trapezem</li></ul>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "pierwszy czworokąt: A (kwadrat); drugi czworokąt: E (trapez, który nie jest równoległobokiem)",
+        "solution_html": "<p>Pierwszy czworokąt ma wierzchołki na osiach w odległości 1 od początku układu — przekątne są równe, prostopadłe i dzielą się na połowy, więc jest to kwadrat (A).</p><p>W drugim czworokącie dwa boki leżą na prostych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>15</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>100</mn></math> (są pionowe, więc równoległe), a ich długości to 200 i 30 — są różne, więc jest to trapez, który nie jest równoległobokiem (E).</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2025_lodzkie_q11",
+      "number": 11,
+      "page": 12,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "podzielność",
+        "statystyka opisowa"
+      ],
+      "prompt_html": "<p>Rozważmy liczby: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>3</mn><mo>+</mo><mn>3</mn><mo>·</mo><mn>3</mn><mo>−</mo><mn>3</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mo>(</mo><mn>3</mn><mo>+</mo><mn>3</mn><mo>)</mo><mo>·</mo><mn>3</mn><mo>−</mo><mn>3</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mn>3</mn><mo>+</mo><mn>3</mn><mo>·</mo><mo>(</mo><mn>3</mn><mo>−</mo><mn>3</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><mn>3</mn><mo>−</mo><mn>3</mn><mo>·</mo><mn>3</mn><mo>+</mo><mn>3</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>e</mi><mo>=</mo><mo>(</mo><mn>3</mn><mo>−</mo><mn>3</mn><mo>)</mo><mo>·</mo><mo>(</mo><mn>3</mn><mo>+</mo><mn>3</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>=</mo><mn>3</mn><mo>−</mo><mn>3</mn><mo>·</mo><mo>(</mo><mn>3</mn><mo>+</mo><mn>3</mn><mo>)</mo></math>. Spośród nich:</p><p>A) liczby pierwsze to:</p><p>B) liczby ujemne to:</p><p>C) liczby, które mają dokładnie 3 dzielniki dodatnie, to:</p><p>D) pary liczb przeciwnych to:</p><p>E) Średnia arytmetyczna tych liczb jest równa:</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "A) c; B) d, f; C) a; D) cd, bf; E) 3/2",
+        "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>9</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>15</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mn>3</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><mo>−</mo><mn>3</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>e</mi><mo>=</mo><mn>0</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>=</mo><mo>−</mo><mn>15</mn></math>.</p><p>A) liczba pierwsza to c (= 3). B) liczby ujemne to d i f. C) dokładnie 3 dzielniki dodatnie ma a (= 9 = 3², dzielniki 1, 3, 9). D) pary liczb przeciwnych to c i d (3 i −3) oraz b i f (15 i −15). E) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>9</mn><mo>+</mo><mn>15</mn><mo>+</mo><mn>3</mn><mo>−</mo><mn>3</mn><mo>+</mo><mn>0</mn><mo>−</mo><mn>15</mn></mrow><mn>6</mn></mfrac><mo>=</mo><mfrac><mn>9</mn><mn>6</mn></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>2</mn></mfrac></math>.</p>"
+      }
+    }
+  ]
+}
