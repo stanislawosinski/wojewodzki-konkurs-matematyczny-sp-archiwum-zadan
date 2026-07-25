@@ -1,0 +1,223 @@
+{
+  "source_file": "rejonowy/2021_mazowieckie.pdf",
+  "answers_file": "rejonowy/2021_mazowieckie_answers.pdf",
+  "competition": "Konkurs Matematyczny dla uczniów szkół podstawowych województwa mazowieckiego",
+  "school_type": "podstawowa",
+  "stage": "rejonowy",
+  "wojewodztwo": "mazowieckie",
+  "school_year": "2021/2022",
+  "date": "2021-12-09",
+  "total_questions": 9,
+  "max_points": 20,
+  "questions": [
+    {
+      "id": "rejonowy_2021_mazowieckie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "statystyka opisowa"
+      ],
+      "prompt_html": "<p>Podczas koncertu „Bitwa na róże”, czterech śpiewaków walczy o tytuł najlepszego tenora. Wygrywa ten, który otrzyma od publiczności najwięcej róż. Średnia róż dla uczestników, którzy nie odnieśli zwycięstwa wyniosła 191 róż, zaś wliczając róże dla zwycięzcy, średnia ta wzrosła o 8 róż.</p><p>Uzupełnij poniższe zdania, wybierając odpowiedź A lub B oraz C lub D.</p><p>Do głosowania użyto</p><p>Zwycięzca otrzymał</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "ponad 800 róż."
+        },
+        {
+          "label": "B",
+          "html": "mniej niż 808 róż."
+        },
+        {
+          "label": "C",
+          "html": "223 róże."
+        },
+        {
+          "label": "D",
+          "html": "parzystą liczbę róż."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B, C",
+        "solution_html": "<p>Zwycięstwa nie odniosło trzech śpiewaków, a średnia liczba oddanych na nich róż wynosiła 191, więc łącznie otrzymali oni <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>191</mn><mo>=</mo><mn>573</mn></mrow></math> róże. Po wliczeniu zwycięzcy średnia wszystkich czterech wyniosła <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>191</mn><mo>+</mo><mn>8</mn><mo>=</mo><mn>199</mn></mrow></math>, więc razem oddano <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><mn>199</mn><mo>=</mo><mn>796</mn></mrow></math> róż. Do głosowania użyto zatem 796 róż — to mniej niż 808 (odpowiedź B), a nie ponad 800. Zwycięzca otrzymał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>796</mn><mo>−</mo><mn>573</mn><mo>=</mo><mn>223</mn></mrow></math> róże (odpowiedź C); liczba 223 jest nieparzysta, więc odpowiedź D jest błędna. Poprawne odpowiedzi to B i C.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2021_mazowieckie_q2",
+      "number": 2,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "usuwanie niewymierności z mianownika",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Spośród podanych liczb wybierz wszystkie, które są równe liczbie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>3</mn><mrow><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>2</mn></mrow></mfrac><mo>−</mo><msqrt><mn>3</mn></msqrt></mrow></math>.</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>(</mo><mn>2</mn><mo>+</mo><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow></math>"
+        },
+        {
+          "label": "B",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow><mrow><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>2</mn></mrow></mfrac></math>"
+        },
+        {
+          "label": "C",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>2</mn><mo>(</mo><mn>3</mn><mo>+</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow></math>"
+        },
+        {
+          "label": "D",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>2</mn></mrow><mrow><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>2</mn></mrow></mfrac></math>"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B, C",
+        "solution_html": "<p>Usuwamy niewymierność z mianownika, mnożąc licznik i mianownik przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>2</mn></mrow></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>3</mn><mrow><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>2</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>3</mn><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>2</mn><mo>)</mo></mrow><mrow><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>2</mn><mo>)</mo><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>2</mn><mo>)</mo></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>6</mn></mrow><mrow><mn>3</mn><mo>−</mo><mn>4</mn></mrow></mfrac><mo>=</mo><mo>−</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>6</mn></mrow></math>. Po odjęciu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>6</mn><mo>−</mo><msqrt><mn>3</mn></msqrt><mo>=</mo><mo>−</mo><mn>6</mn><mo>−</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><mo>−</mo><mn>2</mn><mo>(</mo><mn>3</mn><mo>+</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow></math>. To bezpośrednio odpowiedź C. Odpowiedź B: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow><mrow><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>2</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>2</mn><mo>)</mo></mrow><mrow><mn>3</mn><mo>−</mo><mn>4</mn></mrow></mfrac><mo>=</mo><mo>−</mo><mo>(</mo><mn>6</mn><mo>+</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>)</mo><mo>=</mo><mo>−</mo><mn>2</mn><mo>(</mo><mn>3</mn><mo>+</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow></math> — także równa danej liczbie. Odpowiedź A jest liczbą dodatnią, a D po usunięciu niewymierności wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mo>(</mo><mn>7</mn><mo>+</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow></math>, więc żadna z nich nie jest równa danej liczbie. Poprawne odpowiedzi to B i C.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2021_mazowieckie_q3",
+      "number": 3,
+      "page": 2,
+      "type": "true_false",
+      "points": 1,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Dane są trzy kąty: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AOB</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BOC</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>COD</mi></math>. Największy z nich jest o 50° większy od najmniejszego, a najmniejszy jest o 10° mniejszy od średniego i wśród nich jest kąt prosty.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F, jeśli jest fałszywe.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> mogą być współliniowe."
+        },
+        {
+          "label": "2",
+          "html": "Suma miar tych kątów może być równa 330°."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PP",
+        "solution_html": "<p>Oznaczmy najmniejszy kąt przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi></math>. Wówczas kąt średni ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>s</mi><mo>+</mo><mn>10</mn><mo>°</mo></mrow></math>, a największy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>s</mi><mo>+</mo><mn>50</mn><mo>°</mo></mrow></math>. Suma miar trzech kątów wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>s</mi><mo>+</mo><mo>(</mo><mi>s</mi><mo>+</mo><mn>10</mn><mo>°</mo><mo>)</mo><mo>+</mo><mo>(</mo><mi>s</mi><mo>+</mo><mn>50</mn><mo>°</mo><mo>)</mo><mo>=</mo><mn>3</mn><mi>s</mi><mo>+</mo><mn>60</mn><mo>°</mo></mrow></math>. Kąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AOB</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BOC</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>COD</mi></math> są kolejnymi kątami przy wierzchołku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>∠</mi><mi>AOD</mi><mo>|</mo><mo>=</mo><mn>3</mn><mi>s</mi><mo>+</mo><mn>60</mn><mo>°</mo></mrow></math>.</p><p>Zdanie 1: punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> są współliniowe, gdy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>∠</mi><mi>AOD</mi><mo>|</mo><mo>=</mo><mn>180</mn><mo>°</mo></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>s</mi><mo>+</mo><mn>60</mn><mo>°</mo><mo>=</mo><mn>180</mn><mo>°</mo></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>s</mi><mo>=</mo><mn>40</mn><mo>°</mo></mrow></math>. Wtedy kąty mają miary 40°, 50°, 90° — wśród nich jest kąt prosty, więc taka sytuacja jest możliwa (P).</p><p>Zdanie 2: suma miar wynosi 330°, gdy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>s</mi><mo>+</mo><mn>60</mn><mo>°</mo><mo>=</mo><mn>330</mn><mo>°</mo></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>s</mi><mo>=</mo><mn>90</mn><mo>°</mo></mrow></math>. Wtedy kąty mają miary 90°, 100°, 140° — wśród nich jest kąt prosty, więc taka sytuacja jest możliwa (P). Obie oceny to P.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2021_mazowieckie_q4",
+      "number": 4,
+      "page": 3,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "potęgi i pierwiastki",
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>Uzasadnij, że wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mo>+</mo><msup><mn>3</mn><mn>2</mn></msup><mo>−</mo><msup><mn>3</mn><mn>3</mn></msup><mo>−</mo><msup><mn>3</mn><mn>4</mn></msup><mo>+</mo><msup><mn>3</mn><mn>5</mn></msup><mo>+</mo><msup><mn>3</mn><mn>6</mn></msup><mo>−</mo><msup><mn>3</mn><mn>7</mn></msup><mo>−</mo><msup><mn>3</mn><mn>8</mn></msup><mo>+</mo><msup><mn>3</mn><mn>9</mn></msup><mo>+</mo><msup><mn>3</mn><mn>10</mn></msup></mrow><mn>4</mn></mfrac></math> jest liczbą naturalną.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Jest liczbą naturalną (wynosi 17715).",
+        "solution_html": "<p>Grupujemy w liczniku po dwa kolejne wyrazy i z każdej pary wyłączamy wspólny czynnik <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>+</mo><mn>3</mn><mo>=</mo><mn>4</mn></mrow></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>+</mo><msup><mn>3</mn><mn>2</mn></msup><mo>−</mo><mo>(</mo><msup><mn>3</mn><mn>3</mn></msup><mo>+</mo><msup><mn>3</mn><mn>4</mn></msup><mo>)</mo><mo>+</mo><mo>(</mo><msup><mn>3</mn><mn>5</mn></msup><mo>+</mo><msup><mn>3</mn><mn>6</mn></msup><mo>)</mo><mo>−</mo><mo>(</mo><msup><mn>3</mn><mn>7</mn></msup><mo>+</mo><msup><mn>3</mn><mn>8</mn></msup><mo>)</mo><mo>+</mo><mo>(</mo><msup><mn>3</mn><mn>9</mn></msup><mo>+</mo><msup><mn>3</mn><mn>10</mn></msup><mo>)</mo></mrow></math>. Daje to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>(</mo><mn>1</mn><mo>+</mo><mn>3</mn><mo>)</mo><mo>−</mo><msup><mn>3</mn><mn>3</mn></msup><mo>(</mo><mn>1</mn><mo>+</mo><mn>3</mn><mo>)</mo><mo>+</mo><msup><mn>3</mn><mn>5</mn></msup><mo>(</mo><mn>1</mn><mo>+</mo><mn>3</mn><mo>)</mo><mo>−</mo><msup><mn>3</mn><mn>7</mn></msup><mo>(</mo><mn>1</mn><mo>+</mo><mn>3</mn><mo>)</mo><mo>+</mo><msup><mn>3</mn><mn>9</mn></msup><mo>(</mo><mn>1</mn><mo>+</mo><mn>3</mn><mo>)</mo><mo>=</mo><mn>4</mn><mo>(</mo><mn>3</mn><mo>−</mo><msup><mn>3</mn><mn>3</mn></msup><mo>+</mo><msup><mn>3</mn><mn>5</mn></msup><mo>−</mo><msup><mn>3</mn><mn>7</mn></msup><mo>+</mo><msup><mn>3</mn><mn>9</mn></msup><mo>)</mo></mrow></math>. Po skróceniu przez 4 zostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>−</mo><msup><mn>3</mn><mn>3</mn></msup><mo>+</mo><msup><mn>3</mn><mn>5</mn></msup><mo>−</mo><msup><mn>3</mn><mn>7</mn></msup><mo>+</mo><msup><mn>3</mn><mn>9</mn></msup></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>3</mn><mo>+</mo><msup><mn>3</mn><mn>5</mn></msup><mo>+</mo><msup><mn>3</mn><mn>9</mn></msup><mo>)</mo><mo>&gt;</mo><mo>(</mo><msup><mn>3</mn><mn>3</mn></msup><mo>+</mo><msup><mn>3</mn><mn>7</mn></msup><mo>)</mo></mrow></math> i obie sumy są liczbami naturalnymi, ich różnica jest liczbą naturalną. Wartość wyrażenia jest więc liczbą naturalną — równą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>−</mo><mn>27</mn><mo>+</mo><mn>243</mn><mo>−</mo><mn>2187</mn><mo>+</mo><mn>19683</mn><mo>=</mo><mn>17715</mn></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2021_mazowieckie_q5",
+      "number": 5,
+      "page": 4,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "trójkąty",
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>Na bokach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> zaznaczono punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi></math> tak, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AK</mi><mo>|</mo><mo>+</mo><mo>|</mo><mi>AL</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>CD</mi><mo>|</mo></mrow></math>. Następnie połączono punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> z wierzchołkami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> kwadratu, a punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi></math> z wierzchołkami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> (patrz rysunek). Uzasadnij, że suma kątów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi></math> jest równa 90°.</p>",
+      "choices": [],
+      "figures": [
+        "rejonowy_2021_mazowieckie_q5_fig1.png"
+      ],
+      "answer": {
+        "correct": "α + β + γ = 90°",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AK</mi><mo>|</mo><mo>=</mo><mi>x</mi></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AL</mi><mo>|</mo><mo>=</mo><mi>y</mi></mrow></math>, a bok kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mi>x</mi><mo>+</mo><mi>y</mi></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AK</mi><mo>|</mo><mo>+</mo><mo>|</mo><mi>KB</mi><mo>|</mo><mo>=</mo><mi>a</mi></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AK</mi><mo>|</mo><mo>+</mo><mo>|</mo><mi>AL</mi><mo>|</mo><mo>=</mo><mi>a</mi></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>KB</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>AL</mi><mo>|</mo><mo>=</mo><mi>y</mi></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>DL</mi><mo>|</mo><mo>=</mo><mi>a</mi><mo>−</mo><mi>y</mi><mo>=</mo><mi>x</mi><mo>=</mo><mo>|</mo><mi>AK</mi><mo>|</mo></mrow></math>.</p><p>Trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>LAB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KBC</mi></math> są przystające (cecha bkb): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>LA</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>KB</mi><mo>|</mo><mo>=</mo><mi>y</mi></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>BC</mi><mo>|</mo><mo>=</mo><mi>a</mi></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>∠</mi><mi>LAB</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>∠</mi><mi>KBC</mi><mo>|</mo><mo>=</mo><mn>90</mn><mo>°</mo></mrow></math>. Stąd kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> (przy wierzchołku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>) jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>∠</mi><mi>KCB</mi><mo>|</mo></mrow></math>.</p><p>Podobnie trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KAD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>LDC</mi></math> są przystające (cecha bkb): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AK</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>DL</mi><mo>|</mo><mo>=</mo><mi>x</mi></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AD</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>DC</mi><mo>|</mo><mo>=</mo><mi>a</mi></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>∠</mi><mi>KAD</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>∠</mi><mi>LDC</mi><mo>|</mo><mo>=</mo><mn>90</mn><mo>°</mo></mrow></math>. Stąd kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi></math> (przy wierzchołku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>) jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>∠</mi><mi>DCL</mi><mo>|</mo></mrow></math>.</p><p>Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> to kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>∠</mi><mi>KCL</mi><mo>|</mo></mrow></math> przy wierzchołku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>. Kąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>∠</mi><mi>KCB</mi></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>∠</mi><mi>KCL</mi></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>∠</mi><mi>DCL</mi></mrow></math> razem tworzą kąt prosty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>∠</mi><mi>DCB</mi></mrow></math> kwadratu, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>+</mo><mi>β</mi><mo>+</mo><mi>γ</mi><mo>=</mo><mo>|</mo><mi>∠</mi><mi>DCB</mi><mo>|</mo><mo>=</mo><mn>90</mn><mo>°</mo></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2021_mazowieckie_q6",
+      "number": 6,
+      "page": 5,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "procenty"
+      ],
+      "prompt_html": "<p>W listopadzie baton czekoladowy był dwa razy droższy od batona truskawkowego. W grudniu baton czekoladowy staniał o 18%, a baton truskawkowy zdrożał o 9%. Paulina kupiła w grudniu dwa batony truskawkowe i jeden baton czekoladowy. Oblicz, czy zapłaciła więcej, czy mniej, niż gdyby je kupiła w listopadzie oraz o ile procent? Odpowiedź uzasadnij.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Zapłaciła mniej, o 4,5%.",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza listopadową cenę batona truskawkowego. Wtedy baton czekoladowy kosztował <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi></mrow></math>. W grudniu baton truskawkowy zdrożał o 9%, więc kosztuje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,09</mn><mi>x</mi></mrow></math>, a czekoladowy staniał o 18%, więc kosztuje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,82</mn><mo>·</mo><mn>2</mn><mi>x</mi><mo>=</mo><mn>1,64</mn><mi>x</mi></mrow></math>.</p><p>Koszt zakupu dwóch batonów truskawkowych i jednego czekoladowego wynosi w listopadzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>2</mn><mi>x</mi><mo>=</mo><mn>4</mn><mi>x</mi></mrow></math>, a w grudniu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>1,09</mn><mi>x</mi><mo>+</mo><mn>1,64</mn><mi>x</mi><mo>=</mo><mn>2,18</mn><mi>x</mi><mo>+</mo><mn>1,64</mn><mi>x</mi><mo>=</mo><mn>3,82</mn><mi>x</mi></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3,82</mn><mi>x</mi><mo>&lt;</mo><mn>4</mn><mi>x</mi></mrow></math>, Paulina zapłaciła mniej. Zapłaciła <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>3,82</mn><mi>x</mi></mrow><mrow><mn>4</mn><mi>x</mi></mrow></mfrac><mo>=</mo><mn>0,955</mn><mo>=</mo><mn>95,5</mn><mo>%</mo></mrow></math> kwoty z listopada, czyli o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mo>%</mo><mo>−</mo><mn>95,5</mn><mo>%</mo><mo>=</mo><mn>4,5</mn><mo>%</mo></mrow></math> mniej.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2021_mazowieckie_q7",
+      "number": 7,
+      "page": 6,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "podzielność",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Jacek dodał cztery kolejne liczby naturalne. Pamięta, że otrzymał liczbę trzycyfrową o cyfrach 1, 4, 6. Jakie liczby mógł dodać Jacek? Podaj wszystkie rozwiązania.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "35, 36, 37, 38 (suma 146) lub 152, 153, 154, 155 (suma 614).",
+        "solution_html": "<p>Niech cztery kolejne liczby naturalne to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>2</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>3</mn></mrow></math>. Ich suma wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>x</mi><mo>+</mo><mn>6</mn><mo>=</mo><mn>2</mn><mo>(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>3</mn><mo>)</mo></mrow></math>, jest więc liczbą parzystą. Z cyfr 1, 4, 6 można utworzyć cztery parzyste liczby trzycyfrowe: 146, 164, 416, 614. Sprawdzamy, dla których z nich <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> jest liczbą naturalną:</p><ul><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>x</mi><mo>+</mo><mn>6</mn><mo>=</mo><mn>146</mn></mrow></math> daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>35</mn></mrow></math> — liczba naturalna;</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>x</mi><mo>+</mo><mn>6</mn><mo>=</mo><mn>164</mn></mrow></math> daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>39,5</mn></mrow></math> — odrzucamy;</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>x</mi><mo>+</mo><mn>6</mn><mo>=</mo><mn>416</mn></mrow></math> daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>102,5</mn></mrow></math> — odrzucamy;</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>x</mi><mo>+</mo><mn>6</mn><mo>=</mo><mn>614</mn></mrow></math> daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>152</mn></mrow></math> — liczba naturalna.</li></ul><p>Jacek mógł zatem dodać liczby 35, 36, 37, 38 (suma 146) albo 152, 153, 154, 155 (suma 614).</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2021_mazowieckie_q8",
+      "number": 8,
+      "page": 7,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "bryły",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Prostokątną kartkę o polu 648 cm<sup>2</sup> Marysia przecięła na pół i otrzymała dwa kwadraty. Następnie jeden z tych kwadratów przecięła na dwa, a drugi na trzy przystające prostokąty i wreszcie jeden z mniejszych prostokątów przecięła na dwa przystające prostokąty (patrz rysunek). Z otrzymanych kawałków złożyła siatkę prostopadłościanu. Czy w naczyniu o pojemności równej objętości tego prostopadłościanu zmieści się 1 litr mleka? Odpowiedź uzasadnij.</p>",
+      "choices": [],
+      "figures": [
+        "rejonowy_2021_mazowieckie_q8_fig1.png"
+      ],
+      "answer": {
+        "correct": "Nie, nie zmieści się (objętość wynosi 972 cm³ = 0,972 l).",
+        "solution_html": "<p>Kartkę o polu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>648</mn></mrow></math> cm<sup>2</sup> przecięto na dwa kwadraty, więc każdy kwadrat ma pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>648</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>324</mn></mrow></math> cm<sup>2</sup>. Bok kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><msqrt><mn>324</mn></msqrt><mo>=</mo><mn>18</mn></mrow></math> cm. Z rysunku wynika, że prostopadłościan ma wymiary <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>×</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>a</mi><mo>×</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>a</mi></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>18</mn><mtext> cm</mtext><mo>×</mo><mn>9</mn><mtext> cm</mtext><mo>×</mo><mn>6</mn><mtext> cm</mtext></mrow></math>. Jego objętość wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>V</mi><mo>=</mo><mn>18</mn><mo>·</mo><mn>9</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>972</mn></mrow></math> cm<sup>3</sup>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>972</mn><mtext> cm</mtext><msup><mrow></mrow><mn>3</mn></msup><mo>=</mo><mn>0,972</mn><mtext> dm</mtext><msup><mrow></mrow><mn>3</mn></msup><mo>=</mo><mn>0,972</mn></mrow></math> l, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,972</mn><mo>&lt;</mo><mn>1</mn></mrow></math>, w naczyniu o tej pojemności nie zmieści się 1 litr mleka.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2021_mazowieckie_q9",
+      "number": 9,
+      "page": 8,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "trójkąty",
+        "potęgi i pierwiastki",
+        "szacowanie (zamiast obliczania)"
+      ],
+      "prompt_html": "<p>Witrażowe okno jest wykonane m.in. z elementu w kształcie trapezu równoramiennego składającego się z czterech trójkątów prostokątnych, połączonych ołowianą taśmą tak, jak na rysunku. Brzeg elementu również wykończony jest tą taśmą. Stosunek długości przyprostokątnych w trójkątach przystających wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math>. Oblicz, czy na wykonanie elementu witraża wystarczy 0,5 m taśmy ołowianej, jeśli odległość między podstawami trapezu wynosi 7 cm.</p>",
+      "choices": [],
+      "figures": [
+        "rejonowy_2021_mazowieckie_q9_fig1.png"
+      ],
+      "answer": {
+        "correct": "Tak, wystarczy (potrzeba 14 + 24√2 < 50 cm taśmy).",
+        "solution_html": "<p>Przyprostokątne trójkątów przystających mają się jak 3 : 4, więc oznaczmy je <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>x</mi></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>x</mi></mrow></math>; przeciwprostokątna (ramię trapezu) ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mrow><msup><mrow><mo>(</mo><mn>3</mn><mi>x</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mn>4</mn><mi>x</mi><mo>)</mo></mrow><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>5</mn><mi>x</mi></mrow></math>. Trójkąt utworzony przez przekątną i wysokość jest prostokątny i równoramienny, a odległość między podstawami wynosi 7 cm, więc przekątna trapezu ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7</mn><mi>x</mi><mo>=</mo><mn>7</mn><msqrt><mn>2</mn></msqrt></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><msqrt><mn>2</mn></msqrt></mrow></math>.</p><p>Wtedy podstawy trapezu mają długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><msqrt><mn>2</mn></msqrt><mo>·</mo><mi>x</mi><mo>=</mo><mn>6</mn></mrow></math> cm i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><msqrt><mn>2</mn></msqrt><mo>·</mo><mi>x</mi><mo>=</mo><mn>8</mn></mrow></math> cm, ramiona <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mi>x</mi><mo>=</mo><mn>5</mn><msqrt><mn>2</mn></msqrt></mrow></math> cm, a przekątne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7</mn><mi>x</mi><mo>=</mo><mn>7</mn><msqrt><mn>2</mn></msqrt></mrow></math> cm. Taśma ołowiana biegnie po brzegu (obwodzie) trapezu oraz po obu przekątnych, więc jej długość wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>d</mi><mo>=</mo><mn>6</mn><mo>+</mo><mn>8</mn><mo>+</mo><mn>2</mn><mo>·</mo><mn>5</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>2</mn><mo>·</mo><mn>7</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>14</mn><mo>+</mo><mn>24</mn><msqrt><mn>2</mn></msqrt></mrow></math> cm.</p><p>Szacujemy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>2</mn></msqrt><mo>&lt;</mo><mn>1,5</mn></mrow></math> (bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>&lt;</mo><mn>2,25</mn></mrow></math>), więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>24</mn><msqrt><mn>2</mn></msqrt><mo>&lt;</mo><mn>36</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>d</mi><mo>&lt;</mo><mn>14</mn><mo>+</mo><mn>36</mn><mo>=</mo><mn>50</mn></mrow></math> cm. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>d</mi><mo>&lt;</mo><mn>0,5</mn></mrow></math> m — na wykonanie elementu witraża 0,5 m taśmy ołowianej wystarczy.</p>"
+      }
+    }
+  ]
+}

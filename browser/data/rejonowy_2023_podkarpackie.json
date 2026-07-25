@@ -1,0 +1,175 @@
+{
+  "source_file": "rejonowy/2023_podkarpackie.pdf",
+  "answers_file": "rejonowy/2023_podkarpackie_answers.pdf",
+  "competition": "Konkurs z Matematyki dla uczniów szkół podstawowych (podkarpackie)",
+  "school_type": "podstawowa",
+  "stage": "rejonowy",
+  "wojewodztwo": "podkarpackie",
+  "school_year": "2022/2023",
+  "date": null,
+  "total_questions": 9,
+  "max_points": 24,
+  "questions": [
+    {
+      "id": "rejonowy_2023_podkarpackie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "geometria",
+        "trójkąty"
+      ],
+      "prompt_html": "<p>Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> leży na boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>. Pola trójkątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADE</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCE</mi></math> są równe odpowiednio 15,75 cm² i 2,25 cm². Oblicz długość boku kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "6 cm",
+        "solution_html": "<p>Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABE</mi></math> stanowi połowę pola kwadratu, ponieważ jego podstawa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> jest bokiem kwadratu, a wysokość opuszczona z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> jest równa bokowi kwadratu. Zatem pozostała część kwadratu, czyli trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADE</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCE</mi></math>, również stanowi połowę pola kwadratu. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>ABCD</mi></msub><mo>=</mo><mn>2</mn><mo>·</mo><mo>(</mo><mn>15,75</mn><mo>+</mo><mn>2,25</mn><mo>)</mo><mo>=</mo><mn>36</mn></mrow></math> cm². Bok kwadratu ma więc długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>36</mn></msqrt><mo>=</mo><mn>6</mn></mrow></math> cm.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2023_podkarpackie_q2",
+      "number": 2,
+      "page": 3,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "potęgi i pierwiastki",
+        "reszta z dzielenia"
+      ],
+      "prompt_html": "<p>Wyznacz cyfrę jedności liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>7</mn><mn>2021</mn></msup><mo>+</mo><msup><mn>7</mn><mn>2023</mn></msup></mrow></math>.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "0",
+        "solution_html": "<p>Zapisujemy wyrażenie w postaci iloczynu, wyłączając wspólny czynnik przed nawias: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>7</mn><mn>2021</mn></msup><mo>+</mo><msup><mn>7</mn><mn>2023</mn></msup><mo>=</mo><msup><mn>7</mn><mn>2021</mn></msup><mo>(</mo><mn>1</mn><mo>+</mo><msup><mn>7</mn><mn>2</mn></msup><mo>)</mo><mo>=</mo><msup><mn>7</mn><mn>2021</mn></msup><mo>·</mo><mn>50</mn><mo>=</mo><msup><mn>7</mn><mn>2021</mn></msup><mo>·</mo><mn>5</mn><mo>·</mo><mn>10</mn></mrow></math>. Liczba ta jest podzielna przez 10, więc jej cyfrą jedności jest 0.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2023_podkarpackie_q3",
+      "number": 3,
+      "page": 4,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "zagadki logiczne"
+      ],
+      "prompt_html": "<p>Liczbę nazywamy palindromem, jeśli po zamianie kolejności cyfr na przeciwną otrzymujemy tę samą liczbę. Przykładami palindromów są liczby 484, 1331, 192217712291.</p><p>Znajdź taki trzycyfrowy palindrom, aby po dodaniu do niego liczby 2023 otrzymać sumę, która również jest palindromem.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "969",
+        "solution_html": "<p>Suma liczby trzycyfrowej i 2023 leży pomiędzy 2123 a 3022, więc wynik musi być czterocyfrowym palindromem zaczynającym się od cyfry 2 lub 3. Gdyby zaczynał się od 3, to (jako palindrom) kończyłby się na 3; wtedy ostatnia cyfra szukanego składnika musiałaby być 0, co jest niemożliwe dla palindromu. Zatem wynik zaczyna się i kończy cyfrą 2. Aby suma kończyła się na 2, ostatnia cyfra szukanej liczby musi być 9 (bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mo>+</mo><mn>3</mn></mrow></math> daje na końcu 2), więc — jako palindrom — zaczyna się także od 9. Liczba postaci 9x9 dodana do 2023 daje wynik większy od 2900 i mniejszy od 3000, czyli 2992. Stąd szukany palindrom to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2992</mn><mo>−</mo><mn>2023</mn><mo>=</mo><mn>969</mn></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2023_podkarpackie_q4",
+      "number": 4,
+      "page": 5,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "równania z jedną zmienną",
+        "zagadki logiczne"
+      ],
+      "prompt_html": "<p>W trzech szufladach są schowane 72 długopisy. Połowę długopisów z trzeciej szuflady przełożono do drugiej szuflady, a następnie z pierwszej przełożono do trzeciej 20 długopisów. Teraz w pierwszych dwóch szufladach jest po tyle samo długopisów, a w trzeciej jest ich tyle, ile w dwóch pierwszych razem. Ile długopisów znajdowało się na początku w trzeciej szufladzie?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "32",
+        "solution_html": "<p>Na końcu w szufladach jest łącznie 72 długopisy, przy czym w trzeciej jest ich tyle, ile w dwóch pierwszych razem, a pierwsze dwie mają po tyle samo. Oznacza to, że łączna liczba długopisów jest czterokrotnością liczby długopisów w pierwszej szufladzie, więc jest w niej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>72</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>18</mn></mrow></math>. Zatem końcowy rozkład to 18, 18 i 36. Cofając ostatnie przełożenie (20 długopisów z pierwszej do trzeciej), otrzymujemy 38, 18 i 16. Wcześniej połowę długopisów z trzeciej przełożono do drugiej, więc w trzeciej było wtedy dwa razy więcej niż 16, czyli 32.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2023_podkarpackie_q5",
+      "number": 5,
+      "page": 6,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "bryły"
+      ],
+      "prompt_html": "<p>Do sześciennego pudełka nalano litr wody, a pudełko ustawiono na krawędzi. Poziom wody wypadał dokładnie w połowie czterech krawędzi, jak na rysunku. Jaka jest długość krawędzi tego sześcianu?</p>",
+      "choices": [],
+      "figures": [
+        "rejonowy_2023_podkarpackie_q5_fig1.png"
+      ],
+      "answer": {
+        "correct": "20 cm (2 dm)",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> oznacza długość krawędzi sześcianu. Woda przybrała kształt graniastosłupa trójkątnego, którego podstawą jest trójkąt prostokątny o przyprostokątnych długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>a</mi></mrow></math>. Pole podstawy jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>a</mi><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>a</mi><mo>=</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup></mrow></math>, a wysokością graniastosłupa jest krawędź sześcianu, więc objętość wody to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>8</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup><mo>·</mo><mi>a</mi><mo>=</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><msup><mi>a</mi><mn>3</mn></msup></mrow></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>8</mn></mfrac><msup><mi>a</mi><mn>3</mn></msup><mo>=</mo><mn>1</mn></mrow></math> dm³ otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>3</mn></msup><mo>=</mo><mn>8</mn></mrow></math> dm³, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>2</mn></mrow></math> dm, czyli 20 cm.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2023_podkarpackie_q6",
+      "number": 6,
+      "page": 7,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "procenty",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>W ankiecie każdy uczestnik wybierał jednego z dwóch kandydatów. Wśród osób biorących udział w ankiecie na kandydata A zagłosowało 60% kobiet oraz 50% mężczyzn. Wiadomo, że kandydat A otrzymał łącznie o 126 głosów więcej niż kandydat B, a wśród uczestników ankiety 45% stanowiły kobiety. Ile osób wzięło udział w tej ankiecie?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "1400",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę osób w ankiecie. Kobiety stanowiły 45%, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,45</mn><mi>x</mi></mrow></math>. Kandydat A otrzymał 60% głosów kobiet, a kandydat B — 40% głosów kobiet; głosy mężczyzn rozłożyły się po równo (po 50%), więc różnica głosów pochodzi wyłącznie od kobiet: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,6</mn><mo>·</mo><mn>0,45</mn><mi>x</mi><mo>−</mo><mn>0,4</mn><mo>·</mo><mn>0,45</mn><mi>x</mi><mo>=</mo><mn>126</mn></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,09</mn><mi>x</mi><mo>=</mo><mn>126</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>1400</mn></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2023_podkarpackie_q7",
+      "number": 7,
+      "page": 8,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "podzielność"
+      ],
+      "prompt_html": "<p>Znajdź wszystkie dodatnie liczby całkowite <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math>, dla których liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>91</mn><mrow><mi>k</mi><mo>+</mo><mn>5</mn></mrow></mfrac></math> jest liczbą całkowitą.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "k ∈ {2, 8, 86}",
+        "solution_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>k</mi><mo>+</mo><mn>5</mn></mrow></math> jest liczbą całkowitą większą od 5. Aby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>91</mn><mrow><mi>k</mi><mo>+</mo><mn>5</mn></mrow></mfrac></math> była całkowita, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>k</mi><mo>+</mo><mn>5</mn></mrow></math> musi być dzielnikiem liczby 91. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>91</mn><mo>=</mo><mn>7</mn><mo>·</mo><mn>13</mn></mrow></math>, jej dzielnikami są 1, 7, 13 i 91. Spośród nich większe od 5 są tylko 7, 13 i 91, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>k</mi><mo>+</mo><mn>5</mn></mrow></math> przyjmuje wartości 7, 13 lub 91, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> jest równe 2, 8 lub 86.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2023_podkarpackie_q8",
+      "number": 8,
+      "page": 10,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "wzory skróconego mnożenia",
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>Różnica pewnych dwóch liczb wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>11</mn></msqrt></math>, a ich suma jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>23</mn></msqrt></math>. Wykaż, że iloczyn tych liczb jest równy 3.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "iloczyn równy 3 (dowód)",
+        "solution_html": "<p><em>Założenie:</em> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>−</mo><mi>b</mi><mo>=</mo><msqrt><mn>11</mn></msqrt></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><msqrt><mn>23</mn></msqrt></mrow></math>. <em>Teza:</em> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>·</mo><mi>b</mi><mo>=</mo><mn>3</mn></mrow></math>.</p><p>Podnosząc obie równości do kwadratu, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo>=</mo><mn>11</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo>=</mo><mn>23</mn></mrow></math>. Odejmując pierwszą równość od drugiej, dostajemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo>)</mo><mo>−</mo><mo>(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo>)</mo><mo>=</mo><mn>23</mn><mo>−</mo><mn>11</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>a</mi><mi>b</mi><mo>=</mo><mn>12</mn></mrow></math>. Dzieląc obie strony przez 4, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mi>b</mi><mo>=</mo><mn>3</mn></mrow></math>, co należało wykazać.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2023_podkarpackie_q9",
+      "number": 9,
+      "page": 12,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "koła / okręgi",
+        "trójkąty"
+      ],
+      "prompt_html": "<p>Dane jest koło o środku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> i jego cięciwa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> o długości 4 cm. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> leży na półprostej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>, na zewnątrz koła. Odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> ma taką samą długość, jak promień koła, a kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACS</mi></math> ma miarę 22,5°. Oblicz pole koła.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "8π cm²",
+        "solution_html": "<p>Ponieważ odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> ma taką samą długość jak promień koła, trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BSC</mi></math> jest równoramienny (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>SB</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>BC</mi><mo>|</mo><mo>=</mo><mi>r</mi></mrow></math>), więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mo>∢</mo><mi>BSC</mi><mo>|</mo><mo>=</mo><mo>|</mo><mo>∢</mo><mi>BCS</mi><mo>|</mo><mo>=</mo><mn>22,5</mn><mo>°</mo></mrow></math>. Z sumy kątów trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mo>∢</mo><mi>SBC</mi><mo>|</mo><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>22,5</mn><mo>°</mo><mo>−</mo><mn>22,5</mn><mo>°</mo><mo>=</mo><mn>135</mn><mo>°</mo></mrow></math>. Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SBA</mi></math>, jako przyległy do kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SBC</mi></math>, ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>45</mn><mo>°</mo></mrow></math>. Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SBA</mi></math> jest równoramienny (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>SA</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>SB</mi><mo>|</mo><mo>=</mo><mi>r</mi></mrow></math>) i ma kąt przy podstawie równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>45</mn><mo>°</mo></mrow></math>, więc jest prostokątny, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><msqrt><mn>2</mn></msqrt><mo>·</mo><mo>|</mo><mi>AS</mi><mo>|</mo></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>r</mi><mo>=</mo><mo>|</mo><mi>AS</mi><mo>|</mo><mo>=</mo><mfrac><mn>4</mn><msqrt><mn>2</mn></msqrt></mfrac><mo>=</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow></math> cm. Pole koła wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>π</mi><mo>·</mo><msup><mrow><mo>(</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>8</mn><mi>π</mi></mrow></math> cm².</p>"
+      }
+    }
+  ]
+}

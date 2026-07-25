@@ -1,0 +1,177 @@
+{
+  "source_file": "rejonowy/2024_podkarpackie.pdf",
+  "answers_file": "rejonowy/2024_podkarpackie_answers.pdf",
+  "competition": "Konkurs z Matematyki dla uczniów szkół podstawowych (podkarpackie)",
+  "school_type": "podstawowa",
+  "stage": "rejonowy",
+  "wojewodztwo": "podkarpackie",
+  "school_year": "2023/2024",
+  "date": null,
+  "total_questions": 9,
+  "max_points": 24,
+  "questions": [
+    {
+      "id": "rejonowy_2024_podkarpackie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "nierówności"
+      ],
+      "prompt_html": "<p>Liczby naturalne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> spełniają nierówność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>&lt;</mo><mfrac><mi>a</mi><mi>b</mi></mfrac><mo>&lt;</mo><mfrac><mn>15</mn><mn>29</mn></mfrac></mrow></math>. Jaką najmniejszą wartość może mieć liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "31",
+        "solution_html": "<p>Rozważamy dwa przypadki w zależności od parzystości liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>.</p><p>Jeśli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>2</mn><mi>k</mi></mrow></math>, to nierówność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>&lt;</mo><mfrac><mi>a</mi><mrow><mn>2</mn><mi>k</mi></mrow></mfrac></mrow></math> daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>k</mi><mo>&lt;</mo><mi>a</mi></mrow></math>, więc dla ustalonego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> najmniejsza wartość ułamka to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>k</mi><mo>+</mo><mn>1</mn></mrow><mrow><mn>2</mn><mi>k</mi></mrow></mfrac></math>. Warunek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mi>k</mi><mo>+</mo><mn>1</mn></mrow><mrow><mn>2</mn><mi>k</mi></mrow></mfrac><mo>&lt;</mo><mfrac><mn>15</mn><mn>29</mn></mfrac></mrow></math> jest równoważny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>29</mn><mo>(</mo><mi>k</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>&lt;</mo><mn>30</mn><mi>k</mi></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>k</mi><mo>&gt;</mo><mn>29</mn></mrow></math>. Najmniejsze parzyste <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>30</mn><mo>=</mo><mn>60</mn></mrow></math>.</p><p>Jeśli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>2</mn><mi>k</mi><mo>−</mo><mn>1</mn></mrow></math>, to najmniejsza wartość ułamka to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>k</mi><mrow><mn>2</mn><mi>k</mi><mo>−</mo><mn>1</mn></mrow></mfrac></math>, a warunek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mi>k</mi><mrow><mn>2</mn><mi>k</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mo>&lt;</mo><mfrac><mn>15</mn><mn>29</mn></mfrac></mrow></math> daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>29</mn><mi>k</mi><mo>&lt;</mo><mn>15</mn><mo>(</mo><mn>2</mn><mi>k</mi><mo>−</mo><mn>1</mn><mo>)</mo></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>k</mi><mo>&gt;</mo><mn>15</mn></mrow></math>. Najmniejsze nieparzyste <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>16</mn><mo>−</mo><mn>1</mn><mo>=</mo><mn>31</mn></mrow></math>.</p><p>Mniejsza z obu wartości to 31, więc najmniejszą możliwą wartością liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest 31.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2024_podkarpackie_q2",
+      "number": 2,
+      "page": 3,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "trójkąty",
+        "dwusieczna kąta / symetralna odcinka"
+      ],
+      "prompt_html": "<p>Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest równoramienny, przy czym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>AC</mi><mo>|</mo></mrow></math>. Dwusieczne kątów przy wierzchołkach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> przecinają się w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math>. Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BSC</mi></math> jest o 17° większy od kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BAC</mi></math>. Wyznacz miarę kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BAC</mi></math>.</p><p><em>Uwaga: wymienione w zadaniu kąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BSC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BAC</mi></math> są kątami wewnętrznymi trójkątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BSC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BAC</mi></math>.</em></p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "146°",
+        "solution_html": "<p>Oznaczmy przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> połowę kąta przy wierzchołku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mo>∢</mo><mi>ABS</mi><mo>|</mo><mo>=</mo><mo>|</mo><mo>∢</mo><mi>CBS</mi><mo>|</mo><mo>=</mo><mo>|</mo><mo>∢</mo><mi>BAS</mi><mo>|</mo><mo>=</mo><mo>|</mo><mo>∢</mo><mi>CAS</mi><mo>|</mo><mo>=</mo><mi>α</mi></mrow></math>. Z sumy kątów trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCS</mi></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mo>∢</mo><mi>BSC</mi><mo>|</mo><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>2</mn><mi>α</mi></mrow></math>, a z sumy kątów trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mo>∢</mo><mi>BAC</mi><mo>|</mo><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>4</mn><mi>α</mi></mrow></math>. Warunek zadania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>°</mo><mo>−</mo><mn>2</mn><mi>α</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>4</mn><mi>α</mi><mo>+</mo><mn>17</mn><mo>°</mo></mrow></math> daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>α</mi><mo>=</mo><mn>17</mn><mo>°</mo></mrow></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mo>∢</mo><mi>BAC</mi><mo>|</mo><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>2</mn><mo>·</mo><mn>17</mn><mo>°</mo><mo>=</mo><mn>146</mn><mo>°</mo></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2024_podkarpackie_q3",
+      "number": 3,
+      "page": 4,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "wzory skróconego mnożenia",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Liczby naturalne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> spełniają warunek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>b</mi><mn>2</mn></msup><mo>−</mo><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>11109</mn></mrow></math> oraz ułamki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mi>b</mi></mfrac></math> są równe. Oblicz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "46",
+        "solution_html": "<p>Skoro <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>=</mo><mfrac><mi>a</mi><mi>b</mi></mfrac></mrow></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>2</mn><mi>k</mi></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>5</mn><mi>k</mi></mrow></math> dla pewnej liczby naturalnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math>. Wstawiając do warunku, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mn>5</mn><mi>k</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>−</mo><msup><mrow><mo>(</mo><mn>2</mn><mi>k</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>11109</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>25</mn><msup><mi>k</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn><msup><mi>k</mi><mn>2</mn></msup><mo>=</mo><mn>11109</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>21</mn><msup><mi>k</mi><mn>2</mn></msup><mo>=</mo><mn>11109</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>k</mi><mn>2</mn></msup><mo>=</mo><mn>529</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>k</mi><mo>=</mo><mn>23</mn></mrow></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>2</mn><mi>k</mi><mo>=</mo><mn>46</mn></mrow></math>. (Można też skorzystać ze wzoru <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>b</mi><mn>2</mn></msup><mo>−</mo><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mo>(</mo><mi>b</mi><mo>−</mo><mi>a</mi><mo>)</mo><mo>(</mo><mi>b</mi><mo>+</mo><mi>a</mi><mo>)</mo></mrow></math> i rozkładu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>11109</mn><mo>=</mo><mn>3</mn><mo>·</mo><mn>7</mn><mo>·</mo><mn>23</mn><mo>·</mo><mn>23</mn></mrow></math>.)</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2024_podkarpackie_q4",
+      "number": 4,
+      "page": 5,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "reszta z dzielenia",
+        "zliczanie / metody zliczania"
+      ],
+      "prompt_html": "<p>Ile spośród liczb naturalnych większych od 6000 i mniejszych od 9000 daje resztę 3 z dzielenia przez 7?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "429",
+        "solution_html": "<p>Liczby naturalne większe od 6000 i mniejsze od 9000 to liczby od 6001 do 8999; jest ich <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8999</mn><mo>−</mo><mn>6001</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>2999</mn></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2999</mn><mo>:</mo><mn>7</mn><mo>=</mo><mn>428</mn></mrow></math> reszty 3, wśród liczb od 6004 do 8999 (kolejnych 2996 liczb) jest dokładnie 428 liczb dających resztę 3 z dzielenia przez 7. Pozostaje sprawdzić liczby 6001, 6002 i 6003. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6001</mn><mo>:</mo><mn>7</mn><mo>=</mo><mn>857</mn></mrow></math> reszty 2, dają one reszty 2, 3 i 4, więc jeszcze jedna z nich (6002) daje resztę 3. Łącznie liczb spełniających warunek jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>428</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>429</mn></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2024_podkarpackie_q5",
+      "number": 5,
+      "page": 6,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "proporcjonalność prosta",
+        "inne"
+      ],
+      "prompt_html": "<p>Na osi liczbowej punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math> leżą w tej właśnie kolejności, a odcinki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DE</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EF</mi></math> są tej samej długości. Jaka wartość odpowiada punktowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>, jeśli punktowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> odpowiada <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math>, a punktowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math> odpowiada <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>5</mn></mfrac></math>?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "18/25 (= 0,72)",
+        "solution_html": "<p>Odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AF</mi></math> ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>4</mn><mn>5</mn></mfrac><mo>−</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>=</mo><mfrac><mn>2</mn><mn>15</mn></mfrac></mrow></math>. Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> dzielą go na 5 równych odcinków długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>2</mn><mn>15</mn></mfrac><mo>:</mo><mn>5</mn><mo>=</mo><mfrac><mn>2</mn><mn>75</mn></mfrac></mrow></math>. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> jest oddalony od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> o dwa takie odcinki, więc odpowiada mu wartość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>+</mo><mn>2</mn><mo>·</mo><mfrac><mn>2</mn><mn>75</mn></mfrac><mo>=</mo><mfrac><mn>50</mn><mn>75</mn></mfrac><mo>+</mo><mfrac><mn>4</mn><mn>75</mn></mfrac><mo>=</mo><mfrac><mn>54</mn><mn>75</mn></mfrac><mo>=</mo><mfrac><mn>18</mn><mn>25</mn></mfrac></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2024_podkarpackie_q6",
+      "number": 6,
+      "page": 7,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "równania z jedną zmienną",
+        "podzielność",
+        "szacowanie (zamiast obliczania)"
+      ],
+      "prompt_html": "<p>Znaleźć liczbę naturalną <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>, spełniającą równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo>)</mo><mo>·</mo><mi>n</mi><mo>·</mo><mo>(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>=</mo><mn>15600</mn></mrow></math>.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "25",
+        "solution_html": "<p>Rozkładem liczby 15600 na czynniki pierwsze jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>5</mn><mo>·</mo><mn>5</mn><mo>·</mo><mn>13</mn></mrow></math>. Liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></math> są trzema kolejnymi liczbami naturalnymi, których iloczyn dzieli się przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>·</mo><mn>5</mn></mrow></math>, więc jedna z nich musi być równa 25 (większa wielokrotność 25, np. 50, dałaby iloczyn co najmniej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>48</mn><mo>·</mo><mn>49</mn><mo>·</mo><mn>50</mn><mo>&gt;</mo><mn>15600</mn></mrow></math>). Trójki 23, 24, 25 oraz 25, 26, 27 odrzucamy, bo w rozkładzie nie ma czynnika 23 ani drugiej trójki potrzebnej do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>27</mn><mo>=</mo><mn>3</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>3</mn></mrow></math>. Zatem szukane liczby to 24, 25 i 26, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>=</mo><mn>25</mn></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2024_podkarpackie_q7",
+      "number": 7,
+      "page": 8,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "geometria",
+        "trójkąty",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Pięciokąt wypukły ma wszystkie boki równe 10 cm oraz dwa kąty proste. Oblicz pole tego pięciokąta. Rozważ wszystkie możliwe przypadki.</p><p><em>Uwaga: pięciokąt wypukły to taki, którego wszystkie kąty wewnętrzne mają mniej niż 180°.</em></p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "(100 + 25√3) cm² lub (100 + 25√7) cm²",
+        "solution_html": "<p>Kąty proste mogą być kątami sąsiednimi (przy jednym boku pięciokąta) lub nie — rozważamy oba przypadki.</p><p><strong>Przypadek 1.</strong> Kąty proste w sąsiednich wierzchołkach. Oznaczmy je <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>, a pozostałe tak, by otrzymać pięciokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDE</mi></math>. Boki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EA</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> mają długość 10 cm i tworzą dwa kąty proste, więc czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EABC</mi></math> jest kwadratem o polu 100 cm² oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>EC</mi><mo>|</mo><mo>=</mo><mn>10</mn></mrow></math> cm. Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ECD</mi></math> jest wtedy równoboczny o polu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><msup><mn>10</mn><mn>2</mn></msup><mo>·</mo><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mn>25</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm². Pole pięciokąta to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>100</mn><mo>+</mo><mn>25</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow></math> cm².</p><p><strong>Przypadek 2.</strong> Kąty proste nie są sąsiednie. Oznaczmy pięciokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDE</mi></math> tak, by kąty proste były w wierzchołkach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>. Trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EAB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCD</mi></math> są prostokątne równoramienne, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>EB</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>BD</mi><mo>|</mo><mo>=</mo><mn>10</mn><msqrt><mn>2</mn></msqrt></mrow></math> cm, a pole każdego z nich to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>10</mn><mo>·</mo><mn>10</mn><mo>=</mo><mn>50</mn></mrow></math> cm². Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BDE</mi></math> jest równoramienny o podstawie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>DE</mi><mo>|</mo><mo>=</mo><mn>10</mn></mrow></math> cm i ramionach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><msqrt><mn>2</mn></msqrt></mrow></math> cm; z twierdzenia Pitagorasa jego wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>BM</mi><mo>|</mo><mo>=</mo><msqrt><mn>175</mn></msqrt><mo>=</mo><mn>5</mn><msqrt><mn>7</mn></msqrt></mrow></math> cm, więc jego pole to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>10</mn><mo>·</mo><mn>5</mn><msqrt><mn>7</mn></msqrt><mo>=</mo><mn>25</mn><msqrt><mn>7</mn></msqrt></mrow></math> cm². Pole pięciokąta to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>50</mn><mo>+</mo><mn>50</mn><mo>+</mo><mn>25</mn><msqrt><mn>7</mn></msqrt><mo>)</mo><mo>=</mo><mo>(</mo><mn>100</mn><mo>+</mo><mn>25</mn><msqrt><mn>7</mn></msqrt><mo>)</mo></mrow></math> cm².</p><p>Szukane pole pięciokąta jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>100</mn><mo>+</mo><mn>25</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow></math> cm² lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>100</mn><mo>+</mo><mn>25</mn><msqrt><mn>7</mn></msqrt><mo>)</mo></mrow></math> cm².</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2024_podkarpackie_q8",
+      "number": 8,
+      "page": 10,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "podzielność",
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>Udowodnij, że suma siedmiu kolejnych liczb naturalnych jest liczbą złożoną.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Suma jest równa 7d, więc jest liczbą złożoną (dowód)",
+        "solution_html": "<p><em>Założenie:</em> liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>e</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>g</mi></math> są kolejnymi liczbami naturalnymi. <em>Teza:</em> suma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>+</mo><mi>d</mi><mo>+</mo><mi>e</mi><mo>+</mo><mi>f</mi><mo>+</mo><mi>g</mi></mrow></math> jest liczbą złożoną.</p><p>Zapiszmy te liczby względem środkowej liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mi>d</mi><mo>−</mo><mn>3</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mi>d</mi><mo>−</mo><mn>2</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><mi>d</mi><mo>−</mo><mn>1</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>e</mi><mo>=</mo><mi>d</mi><mo>+</mo><mn>1</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>f</mi><mo>=</mo><mi>d</mi><mo>+</mo><mn>2</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>g</mi><mo>=</mo><mi>d</mi><mo>+</mo><mn>3</mn></mrow></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>+</mo><mi>d</mi><mo>+</mo><mi>e</mi><mo>+</mo><mi>f</mi><mo>+</mo><mi>g</mi><mo>=</mo><mn>7</mn><mi>d</mi></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> jest liczbą naturalną większą od 1 (następuje po liczbach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>), liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7</mn><mi>d</mi></mrow></math> jest podzielna przez 7 i większa od 7, a więc jest liczbą złożoną, co należało wykazać.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2024_podkarpackie_q9",
+      "number": 9,
+      "page": 12,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "procenty",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Pewna firma sprzedaje cztery zestawy klocków: „Autobus”, „Boisko”, „Cukiernia” i „Dinopark”. Wiadomo, że „Boisko” jest o 25% droższe niż „Autobus”, a „Dinopark” jest o 10% tańszy niż „Cukiernia”. Ponadto „Boisko” jest o 85 zł droższe od „Cukierni”, a „Dinopark” jest o 4 zł droższy od „Autobusu”.</p><p>Jaka jest cena zestawu „Autobus”?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "644 zł",
+        "solution_html": "<p>Oznaczmy cenę zestawu „Autobus” przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. „Boisko” jest o 25% droższe, więc kosztuje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,25</mn><mi>a</mi></mrow></math>. „Boisko” jest o 85 zł droższe od „Cukierni”, więc „Cukiernia” kosztuje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,25</mn><mi>a</mi><mo>−</mo><mn>85</mn></mrow></math> zł. „Dinopark” jest o 10% tańszy od „Cukierni”, więc kosztuje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,9</mn><mo>·</mo><mo>(</mo><mn>1,25</mn><mi>a</mi><mo>−</mo><mn>85</mn><mo>)</mo></mrow></math> zł. Ponieważ „Dinopark” jest o 4 zł droższy od „Autobusu”, otrzymujemy równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,9</mn><mo>·</mo><mo>(</mo><mn>1,25</mn><mi>a</mi><mo>−</mo><mn>85</mn><mo>)</mo><mo>=</mo><mi>a</mi><mo>+</mo><mn>4</mn></mrow></math>. Przekształcając: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,125</mn><mi>a</mi><mo>−</mo><mn>76,5</mn><mo>=</mo><mi>a</mi><mo>+</mo><mn>4</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,125</mn><mi>a</mi><mo>=</mo><mn>80,5</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>644</mn></mrow></math>. Zestaw „Autobus” kosztuje 644 zł.</p>"
+      }
+    }
+  ]
+}

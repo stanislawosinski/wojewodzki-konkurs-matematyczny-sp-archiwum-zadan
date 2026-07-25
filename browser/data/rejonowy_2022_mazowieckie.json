@@ -1,0 +1,216 @@
+{
+  "source_file": "rejonowy/2022_mazowieckie.pdf",
+  "answers_file": "rejonowy/2022_mazowieckie_answers.pdf",
+  "competition": "Konkurs Matematyczny dla uczniów szkół podstawowych województwa mazowieckiego",
+  "school_type": "podstawowa",
+  "stage": "rejonowy",
+  "wojewodztwo": "mazowieckie",
+  "school_year": "2022/2023",
+  "date": "2023-01-10",
+  "total_questions": 9,
+  "max_points": 20,
+  "questions": [
+    {
+      "id": "rejonowy_2022_mazowieckie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "true_false",
+      "points": 1,
+      "topics": [
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Dana jest liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><msqrt><mn>45</mn></msqrt><mo>−</mo><mn>3</mn><msqrt><mn>27</mn></msqrt></mrow></math>. Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F, jeśli jest fałszywe.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Tę liczbę można przedstawić w postaci iloczynu, w którym jeden z czynników jest liczbą naturalną większą niż 1."
+        },
+        {
+          "label": "2",
+          "html": "Wartość danej liczby jest mniejsza od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>150</mn></msqrt></math>."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PP",
+        "solution_html": "<p>Przekształcamy daną liczbę: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><msqrt><mn>45</mn></msqrt><mo>=</mo><mn>4</mn><mo>·</mo><mn>3</mn><msqrt><mn>5</mn></msqrt><mo>=</mo><mn>12</mn><msqrt><mn>5</mn></msqrt></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><msqrt><mn>27</mn></msqrt><mo>=</mo><mn>3</mn><mo>·</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>9</mn><msqrt><mn>3</mn></msqrt></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><msqrt><mn>45</mn></msqrt><mo>−</mo><mn>3</mn><msqrt><mn>27</mn></msqrt><mo>=</mo><mn>12</mn><msqrt><mn>5</mn></msqrt><mo>−</mo><mn>9</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>3</mn><mo>(</mo><mn>4</mn><msqrt><mn>5</mn></msqrt><mo>−</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow></math>.</p><p>Zdanie 1: liczbę można zapisać jako iloczyn <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mo>(</mo><mn>4</mn><msqrt><mn>5</mn></msqrt><mo>−</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow></math>, w którym jeden z czynników — liczba 3 — jest liczbą naturalną większą niż 1. Zdanie jest prawdziwe (P).</p><p>Zdanie 2: ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>12</mn><msqrt><mn>5</mn></msqrt><mo>≈</mo><mn>26,83</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><msqrt><mn>3</mn></msqrt><mo>≈</mo><mn>15,59</mn></mrow></math>, dana liczba wynosi około <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>11,24</mn></math>. Natomiast <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>150</mn></msqrt><mo>≈</mo><mn>12,25</mn></mrow></math>, więc wartość danej liczby jest mniejsza od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>150</mn></msqrt></math>. Zdanie jest prawdziwe (P). Obie oceny to P.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2022_mazowieckie_q2",
+      "number": 2,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "wzory skróconego mnożenia",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Dla pewnej liczby całkowitej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi></mrow></math> jest równa 182. Jaką wartość może mieć wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></math>? Zaznacz wszystkie poprawne odpowiedzi spośród podanych.</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "144"
+        },
+        {
+          "label": "B",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>13</mn><mn>2</mn></msup><mo>−</mo><mn>1</mn></mrow></math>"
+        },
+        {
+          "label": "C",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mo>−</mo><mn>15</mn><mo>)</mo></mrow><mn>2</mn></msup></math>"
+        },
+        {
+          "label": "D",
+          "html": "156"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A, C",
+        "solution_html": "<p>Rozwiązujemy równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>=</mo><mn>182</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>−</mo><mn>182</mn><mo>=</mo><mn>0</mn></mrow></math>, co daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>x</mi><mo>−</mo><mn>13</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>14</mn><mo>)</mo><mo>=</mo><mn>0</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>13</mn></mrow></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mo>−</mo><mn>14</mn></mrow></math>.</p><p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>=</mo><msup><mrow><mo>(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup></mrow></math>, to dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>13</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mn>13</mn><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mn>12</mn><mn>2</mn></msup><mo>=</mo><mn>144</mn></mrow></math>, a dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mo>−</mo><mn>14</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mo>−</mo><mn>14</mn><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mo>−</mo><mn>15</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>225</mn></mrow></math>. Wartościami mogą więc być 144 (odpowiedź A) i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mo>−</mo><mn>15</mn><mo>)</mo></mrow><mn>2</mn></msup></math> (odpowiedź C). Odpowiedź B to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>13</mn><mn>2</mn></msup><mo>−</mo><mn>1</mn><mo>=</mo><mn>168</mn></mrow></math>, a odpowiedź D to 156 — obie są błędne. Poprawne odpowiedzi to A i C.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2022_mazowieckie_q3",
+      "number": 3,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "prawdopodobieństwo",
+        "kombinatoryka"
+      ],
+      "prompt_html": "<p>W urnie są kule jednakowej wielkości: 15 białych, 7 zielonych, 26 czerwonych, 10 niebieskich i 12 czarnych.</p><p>Zaznacz poprawną odpowiedź spośród oznaczonych literami A i B oraz C i D.</p><p>Podczas jednokrotnego losowania kuli z urny, prawdopodobieństwo wylosowania zielonej kuli wynosi</p><p>Aby mieć pewność, że wśród wylosowanych kul jest co najmniej sześć kul jednego koloru, wystarczy wylosować</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "0,1."
+        },
+        {
+          "label": "B",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>7</mn></mfrac></math>."
+        },
+        {
+          "label": "C",
+          "html": "27 kul."
+        },
+        {
+          "label": "D",
+          "html": "26 kul."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A, D",
+        "solution_html": "<p>Wszystkich kul jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>+</mo><mn>7</mn><mo>+</mo><mn>26</mn><mo>+</mo><mn>10</mn><mo>+</mo><mn>12</mn><mo>=</mo><mn>70</mn></mrow></math>. Prawdopodobieństwo wylosowania zielonej kuli wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>7</mn><mn>70</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>10</mn></mfrac><mo>=</mo><mn>0,1</mn></mrow></math> — odpowiedź A.</p><p>Kolorów jest 5, a każdego z nich w urnie jest co najmniej 5 kul. W najgorszym przypadku można wylosować po 5 kul każdego koloru, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>25</mn></mrow></math> kul, nie mając jeszcze sześciu kul jednego koloru. Dopiero 26. wylosowana kula musi dać szóstą kulę pewnego koloru, więc wystarczy wylosować 26 kul — odpowiedź D. Poprawne odpowiedzi to A i D.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2022_mazowieckie_q4",
+      "number": 4,
+      "page": 3,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "podzielność"
+      ],
+      "prompt_html": "<p>Kolejne cyfry: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> liczby pięciocyfrowej są różne. Liczba ta jest podzielna przez 36. Co to za liczba? Podaj wszystkie możliwości i uzasadnij odpowiedź.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "21348 lub 29340",
+        "solution_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mover><mrow><mn>2</mn><mi>a</mi><mn>3</mn><mn>4</mn><mi>b</mi></mrow><mo>‾</mo></mover></math> jest podzielna przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>36</mn><mo>=</mo><mn>4</mn><mo>·</mo><mn>9</mn></mrow></math>, więc musi być podzielna przez 4 i przez 9.</p><p>Podzielność przez 4 zależy od dwóch ostatnich cyfr <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mover><mrow><mn>4</mn><mi>b</mi></mrow><mo>‾</mo></mover></math>. Liczby 40, 44, 48 są podzielne przez 4, ale 44 odpada (cyfry muszą być różne, a cyfra 4 już występuje), więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>0</mn></mrow></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>8</mn></mrow></math>.</p><p>Podzielność przez 9: suma cyfr <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>+</mo><mi>a</mi><mo>+</mo><mn>3</mn><mo>+</mo><mn>4</mn><mo>+</mo><mi>b</mi><mo>=</mo><mn>9</mn><mo>+</mo><mi>a</mi><mo>+</mo><mi>b</mi></mrow></math> musi być podzielna przez 9, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow></math> jest podzielne przez 9. Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>0</mn></mrow></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>9</mn></mrow></math> (liczba 29340), a dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>8</mn></mrow></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>1</mn></mrow></math> (liczba 21348). W obu przypadkach wszystkie cyfry są różne. Szukane liczby to 21348 oraz 29340.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2022_mazowieckie_q5",
+      "number": 5,
+      "page": 4,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "bryły",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> są środkami dwóch sąsiednich ścian sześcianu o krawędzi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> jest jednym ze wspólnych wierzchołków tych ścian sześcianu, na których leżą punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>. Zapisz obwód trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> za pomocą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "3a√2/2",
+        "solution_html": "<p>Odcinki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> łączą środek ściany z jej wierzchołkiem, więc każdy z nich ma długość równą połowie przekątnej ściany sześcianu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AC</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>BC</mi><mo>|</mo><mo>=</mo><mfrac><mrow><mi>a</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac></mrow></math>.</p><p>Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> są środkami sąsiednich ścian, a odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> jest przeciwprostokątną trójkąta prostokątnego równoramiennego o przyprostokątnych długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mn>2</mn></mfrac></math> (odcinki łączące środki ścian ze środkiem wspólnej krawędzi). Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mfrac><mrow><mi>a</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac></mrow></math>.</p><p>Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest więc równoboczny o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac></math>, a jego obwód wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>L</mi><mi>ABC</mi></msub><mo>=</mo><mn>3</mn><mo>·</mo><mfrac><mrow><mi>a</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><mfrac><mrow><mn>3</mn><mi>a</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2022_mazowieckie_q6",
+      "number": 6,
+      "page": 5,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "statystyka opisowa",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Ośmiu zawodników zgłosiło się na Rowerowy Rajd, a wśród nich poprzedni triumfator Łukasz. Dwa dni przed zawodami Łukasz doznał kontuzji. Na jego miejsce pojechał dwukrotnie młodszy Wojtek. W związku z tym średnia wieku uczestników rajdu zmniejszyła się o 1 rok. Oblicz, ile lat ma Wojtek.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "8 lat",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza wiek Wojtka, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> — sumę wieku pozostałych siedmiu uczestników. Łukasz, jako dwukrotnie starszy od Wojtka, miał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi></mrow></math> lat. Średnia wieku uczestników z Łukaszem wynosiła <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mi>y</mi></mrow><mn>8</mn></mfrac></math>, a z Wojtkiem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow><mn>8</mn></mfrac></math>.</p><p>Ponieważ średnia zmniejszyła się o 1 rok, zachodzi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mi>y</mi></mrow><mn>8</mn></mfrac><mo>=</mo><mfrac><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow><mn>8</mn></mfrac><mo>+</mo><mn>1</mn></mrow></math>. Mnożąc obustronnie przez 8: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>+</mo><mn>8</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>8</mn></mrow></math>. Wojtek ma 8 lat.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2022_mazowieckie_q7",
+      "number": 7,
+      "page": 6,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "prędkość / droga / czas"
+      ],
+      "prompt_html": "<p>Pan Tomasz wyruszył w podróż samochodem o godzinie 9:15. Czwartą część trasy przejechał ze średnią prędkością 60 km/h, a pozostałą część drogi ze średnią prędkością 25 m/s. Do celu dotarł o 12:45. Oblicz długość trasy, którą przebył pan Tomasz oraz średnią prędkość na całej trasie.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Trasa 280 km, średnia prędkość 80 km/h",
+        "solution_html": "<p>Zamieniamy jednostki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>25</mn><mtext> m/s</mtext><mo>=</mo><mn>25</mn><mo>·</mo><mn>3,6</mn><mtext> km/h</mtext><mo>=</mo><mn>90</mn><mtext> km/h</mtext></mrow></math>. Całkowity czas podróży to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>12</mn><mo>:</mo><mn>45</mn><mo>−</mo><mn>9</mn><mo>:</mo><mn>15</mn><mo>=</mo><mn>3,5</mn></mrow></math> h.</p><p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi></math> będzie długością trasy. Pierwszą część <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>s</mi><mn>4</mn></mfrac></math> przejechał w czasie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>t</mi><mn>1</mn></msub><mo>=</mo><mfrac><mrow><mi>s</mi><mo>/</mo><mn>4</mn></mrow><mn>60</mn></mfrac><mo>=</mo><mfrac><mi>s</mi><mn>240</mn></mfrac></mrow></math>, a pozostałą część <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mi>s</mi></mrow><mn>4</mn></mfrac></math> w czasie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>t</mi><mn>2</mn></msub><mo>=</mo><mfrac><mrow><mn>3</mn><mi>s</mi><mo>/</mo><mn>4</mn></mrow><mn>90</mn></mfrac><mo>=</mo><mfrac><mi>s</mi><mn>120</mn></mfrac></mrow></math>.</p><p>Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mi>s</mi><mn>240</mn></mfrac><mo>+</mo><mfrac><mi>s</mi><mn>120</mn></mfrac><mo>=</mo><mn>3,5</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>3</mn><mi>s</mi></mrow><mn>240</mn></mfrac><mo>=</mo><mfrac><mi>s</mi><mn>80</mn></mfrac><mo>=</mo><mn>3,5</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>s</mi><mo>=</mo><mn>280</mn></mrow></math> km. Średnia prędkość na całej trasie wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>280</mn><mn>3,5</mn></mfrac><mo>=</mo><mn>80</mn></mrow></math> km/h.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2022_mazowieckie_q8",
+      "number": 8,
+      "page": 7,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "trójkąty",
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>Boki prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> mają długości: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>12</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>BC</mi><mo>|</mo><mo>=</mo><mn>8</mn></mrow></math>. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> dzieli bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> na połowy, a punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math> dzieli bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> w stosunku 1 : 2. Wykaż, że trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EFD</mi></math> jest prostokątny. Rozpatrz wszystkie możliwości.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Trójkąt EFD jest prostokątny w obu przypadkach (kąt prosty przy wierzchołku F)",
+        "solution_html": "<p>Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> jest środkiem boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>BE</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>CE</mi><mo>|</mo><mo>=</mo><mn>4</mn></mrow></math>. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math> dzieli bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> o długości 12 w stosunku 1 : 2, co daje dwa przypadki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AF</mi><mo>|</mo><mo>=</mo><mn>4</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>FB</mi><mo>|</mo><mo>=</mo><mn>8</mn></mrow></math> albo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AF</mi><mo>|</mo><mo>=</mo><mn>8</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>FB</mi><mo>|</mo><mo>=</mo><mn>4</mn></mrow></math>.</p><p>Przypadek I (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AF</mi><mo>|</mo><mo>=</mo><mn>4</mn></mrow></math>). Z twierdzenia Pitagorasa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>|</mo><mi>FE</mi><mo>|</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mn>8</mn><mn>2</mn></msup><mo>+</mo><msup><mn>4</mn><mn>2</mn></msup><mo>=</mo><mn>80</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>|</mo><mi>FD</mi><mo>|</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mn>4</mn><mn>2</mn></msup><mo>+</mo><msup><mn>8</mn><mn>2</mn></msup><mo>=</mo><mn>80</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>|</mo><mi>DE</mi><mo>|</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mn>12</mn><mn>2</mn></msup><mo>+</mo><msup><mn>4</mn><mn>2</mn></msup><mo>=</mo><mn>160</mn></mrow></math>.</p><p>Przypadek II (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AF</mi><mo>|</mo><mo>=</mo><mn>8</mn></mrow></math>). Analogicznie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>|</mo><mi>FE</mi><mo>|</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mn>4</mn><mn>2</mn></msup><mo>+</mo><msup><mn>4</mn><mn>2</mn></msup><mo>=</mo><mn>32</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>|</mo><mi>FD</mi><mo>|</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mn>8</mn><mn>2</mn></msup><mo>+</mo><msup><mn>8</mn><mn>2</mn></msup><mo>=</mo><mn>128</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>|</mo><mi>DE</mi><mo>|</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mn>12</mn><mn>2</mn></msup><mo>+</mo><msup><mn>4</mn><mn>2</mn></msup><mo>=</mo><mn>160</mn></mrow></math>.</p><p>W obu przypadkach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>|</mo><mi>FE</mi><mo>|</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>|</mo><mi>FD</mi><mo>|</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>|</mo><mi>DE</mi><mo>|</mo></mrow><mn>2</mn></msup></mrow></math> (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>80</mn><mo>+</mo><mn>80</mn><mo>=</mo><mn>160</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>32</mn><mo>+</mo><mn>128</mn><mo>=</mo><mn>160</mn></mrow></math>). Z twierdzenia odwrotnego do twierdzenia Pitagorasa trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EFD</mi></math> jest prostokątny — kąt prosty znajduje się przy wierzchołku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math>.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2022_mazowieckie_q9",
+      "number": 9,
+      "page": 8,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "bryły",
+        "procenty"
+      ],
+      "prompt_html": "<p>Graniastosłup prosty ma w podstawie romb o wysokości równej 4 cm. Kąt rozwarty rombu ma miarę pięć razy większą od miary kąta ostrego. Oblicz objętość tego graniastosłupa, jeśli wiadomo, że pole podstawy graniastosłupa stanowi 20% pola jego powierzchni całkowitej.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "96 cm³",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> będzie kątem ostrym rombu. Kąt rozwarty ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mi>α</mi></mrow></math>, a sąsiednie kąty rombu sumują się do 180°: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>+</mo><mn>5</mn><mi>α</mi><mo>=</mo><mn>180</mn><mo>°</mo></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>=</mo><mn>30</mn><mo>°</mo></mrow></math>.</p><p>Trójkąt prostokątny utworzony przez bok rombu, jego wysokość (4 cm) i kąt 30° jest połową trójkąta równobocznego, więc naprzeciw kąta 30° leży przyprostokątna równa połowie boku rombu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>a</mi></mrow></math>, zatem bok rombu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>8</mn></mrow></math> cm.</p><p>Pole podstawy (rombu) wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>p</mi></msub><mo>=</mo><mn>8</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>32</mn></mrow></math> cm<sup>2</sup>. Skoro pole podstawy to 20% pola powierzchni całkowitej, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>c</mi></msub><mo>=</mo><mn>32</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>160</mn></mrow></math> cm<sup>2</sup>. Pole powierzchni bocznej to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>b</mi></msub><mo>=</mo><mn>160</mn><mo>−</mo><mn>2</mn><mo>·</mo><mn>32</mn><mo>=</mo><mn>96</mn></mrow></math> cm<sup>2</sup>.</p><p>Pole boczne jest iloczynem obwodu podstawy i wysokości graniastosłupa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>96</mn><mo>=</mo><mn>4</mn><mo>·</mo><mn>8</mn><mo>·</mo><mi>h</mi><mo>=</mo><mn>32</mn><mi>h</mi></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><mn>3</mn></mrow></math> cm. Objętość graniastosłupa wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>V</mi><mo>=</mo><msub><mi>P</mi><mi>p</mi></msub><mo>·</mo><mi>h</mi><mo>=</mo><mn>32</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>96</mn></mrow></math> cm<sup>3</sup>.</p>"
+      }
+    }
+  ]
+}

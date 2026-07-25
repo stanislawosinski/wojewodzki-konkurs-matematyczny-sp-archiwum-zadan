@@ -1,0 +1,338 @@
+{
+  "source_file": "rejonowy/2023_lubelskie.pdf",
+  "answers_file": "rejonowy/2023_lubelskie.pdf",
+  "competition": "Konkurs Matematyczny dla uczniów szkoły podstawowej (lubelskie)",
+  "school_type": "podstawowa",
+  "stage": "rejonowy",
+  "wojewodztwo": "lubelskie",
+  "school_year": "2022/2023",
+  "date": null,
+  "total_questions": 17,
+  "max_points": 40,
+  "questions": [
+    {
+      "id": "rejonowy_2023_lubelskie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "proporcjonalność prosta"
+      ],
+      "prompt_html": "<p>Długość pewnego odcinka w skali 3:1 wynosi 6 km. Jaka jest długość tego odcinka w skali 1:25000?</p>",
+      "choices": [
+        { "label": "A", "html": "0,8 m" },
+        { "label": "B", "html": "0,72 cm" },
+        { "label": "C", "html": "7,2 cm" },
+        { "label": "D", "html": "0,08 m" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2023_lubelskie_q2",
+      "number": 2,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Które z wyrażeń <u>nie</u> jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>9</mn></msup></math>?</p>",
+      "choices": [
+        { "label": "A", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>8</mn></msup><mo>+</mo><msup><mn>2</mn><mn>8</mn></msup></math>" },
+        { "label": "B", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mo>(</mo><msup><mn>2</mn><mn>7</mn></msup><mo>+</mo><msup><mn>2</mn><mn>7</mn></msup><mo>)</mo></math>" },
+        { "label": "C", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>11</mn></msup><mo>−</mo><msup><mn>2</mn><mn>2</mn></msup></math>" },
+        { "label": "D", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><msup><mn>2</mn><mn>10</mn></msup></math>" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2023_lubelskie_q3",
+      "number": 3,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>3200 kg zamieniono na gramy i otrzymaną liczbę zapisano w notacji wykładniczej. Który zapis jest poprawny?</p>",
+      "choices": [
+        { "label": "A", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,32</mn><mo>·</mo><msup><mn>10</mn><mn>7</mn></msup></math> g" },
+        { "label": "B", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3,2</mn><mo>·</mo><msup><mn>10</mn><mn>6</mn></msup></math> g" },
+        { "label": "C", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>32</mn><mo>·</mo><msup><mn>10</mn><mn>5</mn></msup></math> g" },
+        { "label": "D", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3,2</mn><mo>·</mo><msup><mn>10</mn><mn>5</mn></msup></math> g" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2023_lubelskie_q4",
+      "number": 4,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "trójkąty"
+      ],
+      "prompt_html": "<p>Który z trójkątów o podanych długościach boków jest prostokątny?</p>",
+      "choices": [
+        { "label": "A", "html": "13 cm; 12 cm; 6 cm" },
+        { "label": "B", "html": "5 dm; 0,4 m; 20 cm" },
+        { "label": "C", "html": "20 m; 18 m; 14 m" },
+        { "label": "D", "html": "2,6 dm; 24 cm; 0,1 m" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2023_lubelskie_q5",
+      "number": 5,
+      "page": 3,
+      "type": "true_false",
+      "points": 4,
+      "topics": [
+        "bryły"
+      ],
+      "prompt_html": "<p>Poniżej podane są cztery zdania dotyczące własności graniastosłupów.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>",
+      "choices": [
+        { "label": "1", "html": "Wszystkie krawędzie graniastosłupa prawidłowego mają równe długości." },
+        { "label": "2", "html": "W każdym graniastosłupie liczba krawędzi bocznych jest równa liczbie pozostałych krawędzi." },
+        { "label": "3", "html": "Każdy sześcian jest graniastosłupem prawidłowym czworokątnym." },
+        { "label": "4", "html": "Graniastosłup, którego podstawą jest wielokąt o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> kątach, ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>n</mi></math> krawędzi." }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FFPP",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2023_lubelskie_q6",
+      "number": 6,
+      "page": 3,
+      "type": "true_false",
+      "points": 4,
+      "topics": [
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Dane są dwie liczby, liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msup><mrow><mo>(</mo><mfrac><mn>1</mn><msup><mn>2</mn><mn>2</mn></msup></mfrac><mo>−</mo><mn>1</mn><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup></math> i liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mfrac><mrow><mo>−</mo><msup><mn>4</mn><mn>2</mn></msup></mrow><msqrt><mrow><mn>25</mn><mo>−</mo><mn>9</mn></mrow></msqrt></mfrac><mo>·</mo><msup><mrow><mo>(</mo><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>3</mn></msup></math>.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>",
+      "choices": [
+        { "label": "1", "html": "Ułamek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mi>b</mi></mfrac></math> jest ułamkiem niewłaściwym." },
+        { "label": "2", "html": "Ułamek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mo>+</mo><mn>1</mn></mrow><mrow><mi>b</mi><mo>+</mo><mn>1</mn></mrow></mfrac></math> jest równy ułamkowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mi>b</mi></mfrac></math>." },
+        { "label": "3", "html": "Ułamek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mo>+</mo><mn>1</mn></mrow><mrow><mi>b</mi><mo>+</mo><mn>1</mn></mrow></mfrac></math> jest większy od ułamka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mi>b</mi></mfrac></math>." },
+        { "label": "4", "html": "Ułamek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mo>+</mo><mn>1</mn></mrow><mrow><mi>b</mi><mo>+</mo><mn>1</mn></mrow></mfrac></math> jest większy od ułamka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mi>b</mi></mfrac></math> o 1." }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FFPF",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2023_lubelskie_q7",
+      "number": 7,
+      "page": 4,
+      "type": "open",
+      "points": 1,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Dany jest trapez równoramienny.</p><p>Uzupełnij zdanie.</p><p>Jeżeli wysokość trapezu równoramiennego jest dwa razy krótsza od jego ramienia, to kąt ostry tego trapezu ma miarę ……………….</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "30°",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2023_lubelskie_q8",
+      "number": 8,
+      "page": 4,
+      "type": "open",
+      "points": 1,
+      "topics": [
+        "wzory skróconego mnożenia"
+      ],
+      "prompt_html": "<p>Jakie wyrażenie algebraiczne otrzymał Janek, gdy poprawnie przekształcił do najprostszej postaci wyrażenie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>2</mn><mi>x</mi><mo>−</mo><mi>y</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>−</mo><msup><mi>y</mi><mn>2</mn></msup></math>?</p><p>Wpisz tylko odpowiedź (nie musisz zapisywać wykonanych przekształceń).</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "4x² − 4xy",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2023_lubelskie_q9",
+      "number": 9,
+      "page": 4,
+      "type": "open",
+      "points": 1,
+      "topics": [
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Ile cyfr ma liczba, którą otrzymamy, obliczając wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>3</mn><mo>·</mo><msup><mn>4</mn><mn>4</mn></msup><mo>·</mo><msup><mn>10</mn><mn>4</mn></msup><mo>·</mo><msup><mn>5</mn><mn>8</mn></msup><mo>)</mo></mrow><mn>4</mn></msup></math>?</p><p>Wpisz tylko odpowiedź (nie musisz zapisywać wykonanych obliczeń).</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "50",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2023_lubelskie_q10",
+      "number": 10,
+      "page": 4,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "prędkość / droga / czas"
+      ],
+      "prompt_html": "<p>Samochód, jadący ze stałą prędkością, w ciągu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mfrac><mn>1</mn><mn>3</mn></mfrac></math> godziny, pokonał odległość 100 km.</p><p>Uzupełnij zdania, wpisując w puste miejsca tylko liczby.</p><ul><li>a) W ciągu 3,5 godziny, jadąc z tą samą prędkością, przejedzie …………….. km.</li><li>b) Jadąc z tą samą prędkością, trasę długości 180 km pokona w czasie ………… minut.</li></ul>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "a) 262,5 km, b) 144 minut",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2023_lubelskie_q11",
+      "number": 11,
+      "page": 5,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "zliczanie / metody zliczania",
+        "trójkąty"
+      ],
+      "prompt_html": "<p>Uzupełnij zdania, wykorzystując dane przedstawione na powyższym rysunku. Wpisz w puste miejsca tylko liczby.</p><ul><li>a) Na rysunku widocznych jest ……………….. różnych trójkątów.</li><li>b) Suma pól wszystkich trójkątów widocznych na rysunku wynosi ……………. jednostek kwadratowych.</li></ul>",
+      "choices": [],
+      "figures": [
+        "rejonowy_2023_lubelskie_q11_fig1.png"
+      ],
+      "answer": {
+        "correct": "a) 6, b) 90",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2023_lubelskie_q12",
+      "number": 12,
+      "page": 5,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "procenty",
+        "proporcjonalność prosta"
+      ],
+      "prompt_html": "<p>Janek kupił 40 dag cukierków, za które zapłacił 14 zł.</p><p>Odpowiedz na pytania, wpisując w puste miejsca tylko liczby (nie musisz zapisywać wykonanych obliczeń).</p><ul><li>a) Jaka była cena 1 kg tych cukierków? Odpowiedź: ………………………….. zł</li><li>b) Ile Janek zapłaciłby za 2,5 kg takich samych cukierków, gdyby ich cenę obniżono o 30%? Odpowiedź: …………………………. zł</li></ul>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "a) 35 zł, b) 61,25 zł",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2023_lubelskie_q13",
+      "number": 13,
+      "page": 6,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "układy równań"
+      ],
+      "prompt_html": "<p>Jaś z Małgosią wybrali się na grzyby. Wśród 49 zebranych grzybów były prawdziwki, podgrzybki i 7 gąsek. W domu okazało się, że co czwarty prawdziwek i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> podgrzybków nadaje się do wyrzucenia. Do zjedzenia zostało 36 grzybów. Ile prawdziwków i ile podgrzybków znalazły dzieci?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "12 prawdziwków i 30 podgrzybków",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę prawdziwków, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> liczbę podgrzybków. Wszystkich grzybów jest 49, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mi>y</mi><mo>+</mo><mn>7</mn><mo>=</mo><mn>49</mn></math>. Do wyrzucenia nadaje się <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> prawdziwków i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> podgrzybków, więc do zjedzenia zostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac><mi>x</mi><mo>+</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mi>y</mi><mo>+</mo><mn>7</mn><mo>=</mo><mn>36</mn></math>. Rozwiązując układ równań otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>12</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>30</mn></math>. Dzieci znalazły 12 prawdziwków i 30 podgrzybków.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2023_lubelskie_q14",
+      "number": 14,
+      "page": 7,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "trójkąty"
+      ],
+      "prompt_html": "<p>W trójkącie równoramiennym podstawa ma długość 24 cm, a wysokość opuszczona na nią jest o 8 cm krótsza od ramienia trójkąta. Oblicz pole tego trójkąta.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "60 cm²",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza długość ramienia, wtedy wysokość ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>−</mo><mn>8</mn></math>. Wysokość opuszczona na podstawę dzieli ją na połowy po 12 cm, więc z twierdzenia Pitagorasa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mi>x</mi><mo>−</mo><mn>8</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mn>12</mn><mn>2</mn></msup><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>144</mn><mo>+</mo><mn>64</mn><mo>=</mo><mn>16</mn><mi>x</mi></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>13</mn></math>, a wysokość wynosi 5 cm. Pole trójkąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>24</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>60</mn></math> cm².</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2023_lubelskie_q15",
+      "number": 15,
+      "page": 8,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "trójkąty",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Antek, przygotowując się do konkursu matematycznego, znalazł w Internecie informację dotyczącą jednej z wysokości trójkąta prostokątnego:</p><p><em>W trójkącie prostokątnym kwadrat długości wysokości, poprowadzonej z wierzchołka kąta prostego, równa się iloczynowi długości odcinków, na jakie ta wysokość dzieli przeciwprostokątną.</em></p><p>Korzystając z powyższej informacji, rozwiąż zadanie.</p><p>W trójkącie prostokątnym wysokość poprowadzona z wierzchołka kąta prostego podzieliła przeciwprostokątną na odcinki o długościach 1 cm i 9 cm. Oblicz i zapisz w najprostszej postaci obwód tego trójkąta.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "(10 + 4√10) cm",
+        "solution_html": "<p>Z podanej informacji <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>h</mi><mn>2</mn></msup><mo>=</mo><mn>1</mn><mo>·</mo><mn>9</mn><mo>=</mo><mn>9</mn></math>, więc wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mn>3</mn></math> cm. Przeciwprostokątna ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mn>9</mn><mo>=</mo><mn>10</mn></math> cm. Krótsza przyprostokątna to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><mn>1</mn><mo>·</mo><mn>10</mn></mrow></msqrt><mo>=</mo><msqrt><mn>10</mn></msqrt></math> cm, a dłuższa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><mn>9</mn><mo>·</mo><mn>10</mn></mrow></msqrt><mo>=</mo><mn>3</mn><msqrt><mn>10</mn></msqrt></math> cm. Obwód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>+</mo><msqrt><mn>10</mn></msqrt><mo>+</mo><mn>3</mn><msqrt><mn>10</mn></msqrt><mo>=</mo><mo>(</mo><mn>10</mn><mo>+</mo><mn>4</mn><msqrt><mn>10</mn></msqrt><mo>)</mo></math> cm.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2023_lubelskie_q16",
+      "number": 16,
+      "page": 9,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "bryły"
+      ],
+      "prompt_html": "<p>Dany jest sześcian o krawędzi długości 8 cm oraz prostopadłościan, którego podstawa jest kwadratem o boku długości 6 cm. Oblicz wysokość prostopadłościanu, wiedząc, że pola powierzchni całkowitej obu brył są równe.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "13 cm",
+        "solution_html": "<p>Pole powierzchni całkowitej sześcianu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><msup><mn>8</mn><mn>2</mn></msup><mo>=</mo><mn>384</mn></math> cm². Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi></math> oznacza wysokość prostopadłościanu. Pole jego powierzchni całkowitej wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><msup><mn>6</mn><mn>2</mn></msup><mo>+</mo><mn>4</mn><mo>·</mo><mn>6</mn><mo>·</mo><mi>H</mi></math>. Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>72</mn><mo>+</mo><mn>24</mn><mi>H</mi><mo>=</mo><mn>384</mn></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mi>H</mi><mo>=</mo><mn>312</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi><mo>=</mo><mn>13</mn></math> cm.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2023_lubelskie_q17",
+      "number": 17,
+      "page": 10,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Ania otrzymuje co tydzień kieszonkowe na własne wydatki. Pierwszego dnia na urodzinowy prezent dla koleżanki wydała połowę kieszonkowego i jeszcze 2 zł. Drugiego dnia połowę pozostałej kwoty i jeszcze złotówkę wydała na ciastko i sok. Okazało się, że do końca tygodnia zostało jej tylko 8 zł. Ile wynosi kieszonkowe Ani? Ile kosztował, zakupiony przez Anię, prezent dla koleżanki?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "kieszonkowe 40 zł, prezent 22 zł",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza wysokość kieszonkowego. Pierwszego dnia Ania wydała <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>x</mi><mo>+</mo><mn>2</mn></math> zł, więc pozostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>x</mi><mo>−</mo><mn>2</mn></math> zł. Drugiego dnia wydała <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>x</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>+</mo><mn>1</mn></math> zł. Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>x</mi><mo>+</mo><mn>2</mn><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>x</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>+</mo><mn>1</mn><mo>+</mo><mn>8</mn><mo>=</mo><mi>x</mi></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>40</mn></math> zł. Prezent kosztował <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>40</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>22</mn></math> zł.</p>"
+      }
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "source_file": "rejonowy/2024_mazowieckie.pdf",
+  "answers_file": "rejonowy/2024_mazowieckie_answers.pdf",
+  "competition": "Konkurs Matematyczny dla uczniów klas IV-VIII szkół podstawowych województwa mazowieckiego",
+  "school_type": "podstawowa",
+  "stage": "rejonowy",
+  "wojewodztwo": "mazowieckie",
+  "school_year": "2024/2025",
+  "date": "2025-01-13",
+  "total_questions": 10,
+  "max_points": 20,
+  "questions": [
+    {
+      "id": "rejonowy_2024_mazowieckie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "prędkość / droga / czas"
+      ],
+      "prompt_html": "<p>Pan Krzysztof przejechał samochodem 240 km. Trzy czwarte trasy przebył autostradą ze średnią prędkością 90 km/h, a resztę drogami lokalnymi ze średnią prędkością 60 km/h. Wybierz wszystkie poprawne odpowiedzi spośród podanych.</p><p>Średnia prędkość na całej trasie jest:</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "równa 80 km/h."
+        },
+        {
+          "label": "B",
+          "html": "równa 75 km/h."
+        },
+        {
+          "label": "C",
+          "html": "o 15 km/h większa od średniej prędkości na krótszym odcinku trasy."
+        },
+        {
+          "label": "D",
+          "html": "jest o 10 km/h mniejsza od średniej prędkości na dłuższym odcinku trasy."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A, D",
+        "solution_html": "<p>Trzy czwarte trasy to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>·</mo><mn>240</mn><mo>=</mo><mn>180</mn></mrow></math> km pokonane z prędkością 90 km/h, czyli w czasie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>:</mo><mn>90</mn><mo>=</mo><mn>2</mn></mrow></math> h, a pozostałe 60 km z prędkością 60 km/h — w czasie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>60</mn><mo>:</mo><mn>60</mn><mo>=</mo><mn>1</mn></mrow></math> h. Łączny czas jazdy to 3 h, więc średnia prędkość na całej trasie wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>240</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>80</mn></mrow></math> km/h — odpowiedź A jest poprawna, a B (75 km/h) błędna. Krótszy odcinek (60 km) przebyto z prędkością 60 km/h, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>80</mn><mo>−</mo><mn>60</mn><mo>=</mo><mn>20</mn></mrow></math> km/h, a nie 15 km/h — odpowiedź C błędna. Dłuższy odcinek (180 km) przebyto z prędkością 90 km/h, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>90</mn><mo>−</mo><mn>80</mn><mo>=</mo><mn>10</mn></mrow></math> km/h — odpowiedź D poprawna. Poprawne odpowiedzi to A i D.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2024_mazowieckie_q2",
+      "number": 2,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>W czworokącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> boki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> są równoległe. Na boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> zaznaczono punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> tak, że kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EAB</mi></math> ma miarę 28° a odcinki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AE</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DE</mi></math> są równej długości. Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCE</mi></math> jest równa 115°.</p><p>Wybierz poprawną odpowiedź spośród oznaczonych literami A i B oraz C i D.</p><p>Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADE</mi></math> jest równa:</p><p>Czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>:</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "76°."
+        },
+        {
+          "label": "B",
+          "html": "65°."
+        },
+        {
+          "label": "C",
+          "html": "nie jest równoległobokiem."
+        },
+        {
+          "label": "D",
+          "html": "jest równoległobokiem."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A, C",
+        "solution_html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> jest równoległe do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math>, a punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> leży na <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math>, to kąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EAB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AED</mi></math> są naprzemianległe przy prostej siecznej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AE</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>∠</mi><mi>AED</mi><mo>|</mo><mo>=</mo><mn>28</mn><mo>°</mo></mrow></math>. Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADE</mi></math> jest równoramienny (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AE</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>DE</mi><mo>|</mo></mrow></math>), więc kąty przy podstawie są równe: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>∠</mi><mi>ADE</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>∠</mi><mi>DAE</mi><mo>|</mo><mo>=</mo><mfrac><mrow><mn>180</mn><mo>°</mo><mo>−</mo><mn>28</mn><mo>°</mo></mrow><mn>2</mn></mfrac><mo>=</mo><mn>76</mn><mo>°</mo></mrow></math> — odpowiedź A. Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>∠</mi><mi>ADC</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>∠</mi><mi>ADE</mi><mo>|</mo><mo>=</mo><mn>76</mn><mo>°</mo></mrow></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>∠</mi><mi>BCD</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>∠</mi><mi>BCE</mi><mo>|</mo><mo>=</mo><mn>115</mn><mo>°</mo></mrow></math>. Gdyby czworokąt był równoległobokiem, kąty przy bokach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> leżące przy ramieniu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> sumowałyby się do 180°, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>76</mn><mo>°</mo><mo>+</mo><mn>115</mn><mo>°</mo><mo>=</mo><mn>191</mn><mo>°</mo><mo>≠</mo><mn>180</mn><mo>°</mo></mrow></math>. Zatem czworokąt nie jest równoległobokiem — odpowiedź C. Poprawna odpowiedź to A, C.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2024_mazowieckie_q3",
+      "number": 3,
+      "page": 2,
+      "type": "true_false",
+      "points": 1,
+      "topics": [
+        "zagadki logiczne",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Państwo Nowakowie mają kilkoro dzieci, a wśród nich Anię i Pawła. Ania ma 5 razy mniej sióstr niż braci, a Paweł ma dwa razy więcej braci niż sióstr.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F, jeśli jest fałszywe.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Paweł ma jedną siostrę."
+        },
+        {
+          "label": "2",
+          "html": "Państwo Nowakowie mają więcej niż sześcioro dzieci."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FP",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> oznacza liczbę chłopców, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> liczbę dziewczynek w rodzinie. Ania (dziewczynka) ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>d</mi><mo>−</mo><mn>1</mn></mrow></math> sióstr i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> braci, a warunek „5 razy mniej sióstr niż braci” daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>5</mn><mo>(</mo><mi>d</mi><mo>−</mo><mn>1</mn><mo>)</mo></mrow></math>. Paweł (chłopiec) ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>−</mo><mn>1</mn></mrow></math> braci i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> sióstr, a warunek „dwa razy więcej braci niż sióstr” daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>−</mo><mn>1</mn><mo>=</mo><mn>2</mn><mi>d</mi></mrow></math>. Podstawiając: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>(</mo><mi>d</mi><mo>−</mo><mn>1</mn><mo>)</mo><mo>−</mo><mn>1</mn><mo>=</mo><mn>2</mn><mi>d</mi></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>d</mi><mo>=</mo><mn>6</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>d</mi><mo>=</mo><mn>2</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>5</mn></mrow></math>. Paweł ma więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>d</mi><mo>=</mo><mn>2</mn></mrow></math> siostry, a nie jedną — zdanie 1 jest fałszywe (F). Wszystkich dzieci jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>7</mn></mrow></math>, czyli więcej niż sześcioro — zdanie 2 jest prawdziwe (P).</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2024_mazowieckie_q4",
+      "number": 4,
+      "page": 3,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "usuwanie niewymierności z mianownika",
+        "podzielność"
+      ],
+      "prompt_html": "<p>Uzasadnij, że wartość liczbowa wyrażenia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><msqrt><mn>5</mn></msqrt><mo>+</mo><mfrac><mrow><mn>2</mn><mo>(</mo><msqrt><mn>5</mn></msqrt><mo>−</mo><mn>2</mn><mo>)</mo></mrow><mrow><msqrt><mn>5</mn></msqrt><mo>+</mo><mn>2</mn></mrow></mfrac></mrow></math> jest liczbą naturalną i wyznacz wszystkie jej dzielniki naturalne.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "18; dzielniki naturalne: 1, 2, 3, 6, 9, 18",
+        "solution_html": "<p>Usuwamy niewymierność z mianownika, mnożąc ułamek przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msqrt><mn>5</mn></msqrt><mo>−</mo><mn>2</mn></mrow><mrow><msqrt><mn>5</mn></msqrt><mo>−</mo><mn>2</mn></mrow></mfrac></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>2</mn><mo>(</mo><msqrt><mn>5</mn></msqrt><mo>−</mo><mn>2</mn><mo>)</mo></mrow><mrow><msqrt><mn>5</mn></msqrt><mo>+</mo><mn>2</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn><msup><mrow><mo>(</mo><msqrt><mn>5</mn></msqrt><mo>−</mo><mn>2</mn><mo>)</mo></mrow><mn>2</mn></msup></mrow><mrow><mo>(</mo><msqrt><mn>5</mn></msqrt><mo>+</mo><mn>2</mn><mo>)</mo><mo>(</mo><msqrt><mn>5</mn></msqrt><mo>−</mo><mn>2</mn><mo>)</mo></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn><mo>(</mo><mn>5</mn><mo>−</mo><mn>4</mn><msqrt><mn>5</mn></msqrt><mo>+</mo><mn>4</mn><mo>)</mo></mrow><mrow><mn>5</mn><mo>−</mo><mn>4</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>18</mn><mo>−</mo><mn>8</mn><msqrt><mn>5</mn></msqrt></mrow><mn>1</mn></mfrac><mo>=</mo><mn>18</mn><mo>−</mo><mn>8</mn><msqrt><mn>5</mn></msqrt></mrow></math>. Zatem całe wyrażenie wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><msqrt><mn>5</mn></msqrt><mo>+</mo><mn>18</mn><mo>−</mo><mn>8</mn><msqrt><mn>5</mn></msqrt><mo>=</mo><mn>18</mn></mrow></math>, czyli jest liczbą naturalną. Dzielnikami naturalnymi liczby 18 są: 1, 2, 3, 6, 9, 18.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2024_mazowieckie_q5",
+      "number": 5,
+      "page": 4,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "nierówności",
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> będą liczbami całkowitymi spełniającymi nierówność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0</mn><mo>&lt;</mo><mi>a</mi><mo>&lt;</mo><mi>b</mi></mrow></math>. Zarówno licznik, jak i mianownik ułamka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mi>b</mi></mfrac></math> zwiększono o 3. Rozstrzygnij, czy tak otrzymana liczba jest zawsze równa, większa czy mniejsza od wyjściowej. Odpowiedź uzasadnij.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Otrzymana liczba jest zawsze większa od wyjściowej",
+        "solution_html": "<p>Porównujemy ułamek dany z ułamkiem po zmianie, obliczając ich różnicę i sprowadzając do wspólnego mianownika: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mi>a</mi><mi>b</mi></mfrac><mo>−</mo><mfrac><mrow><mi>a</mi><mo>+</mo><mn>3</mn></mrow><mrow><mi>b</mi><mo>+</mo><mn>3</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>a</mi><mo>(</mo><mi>b</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>−</mo><mi>b</mi><mo>(</mo><mi>a</mi><mo>+</mo><mn>3</mn><mo>)</mo></mrow><mrow><mi>b</mi><mo>(</mo><mi>b</mi><mo>+</mo><mn>3</mn><mo>)</mo></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>a</mi><mi>b</mi><mo>+</mo><mn>3</mn><mi>a</mi><mo>−</mo><mi>a</mi><mi>b</mi><mo>−</mo><mn>3</mn><mi>b</mi></mrow><mrow><mi>b</mi><mo>(</mo><mi>b</mi><mo>+</mo><mn>3</mn><mo>)</mo></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>3</mn><mo>(</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo>)</mo></mrow><mrow><mi>b</mi><mo>(</mo><mi>b</mi><mo>+</mo><mn>3</mn><mo>)</mo></mrow></mfrac></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>&lt;</mo><mi>b</mi></mrow></math>, licznik <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>(</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo>)</mo></mrow></math> jest ujemny, a mianownik <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>(</mo><mi>b</mi><mo>+</mo><mn>3</mn><mo>)</mo></mrow></math> dodatni, więc cała różnica jest ujemna. Oznacza to, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mi>a</mi><mi>b</mi></mfrac><mo>&lt;</mo><mfrac><mrow><mi>a</mi><mo>+</mo><mn>3</mn></mrow><mrow><mi>b</mi><mo>+</mo><mn>3</mn></mrow></mfrac></mrow></math>, czyli liczba otrzymana po zwiększeniu licznika i mianownika o 3 jest zawsze większa od wyjściowej.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2024_mazowieckie_q6",
+      "number": 6,
+      "page": 5,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "geometria",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Pan Robert kosi prostokątny trawnik o długości 16 m kosiarką, której szerokość cięcia wynosi 50 cm. Po jednym przejeździe wzdłuż brzegów trawnika (patrz rysunek), zostało mu do skoszenia 120 m<sup>2</sup>. Oblicz, ile przejazdów trzeba wykonać, aby skosić trawnik w kształcie kwadratu, o polu równym polu trawnika pana Roberta.</p>",
+      "choices": [],
+      "figures": [
+        "rejonowy_2024_mazowieckie_q6_fig1.png"
+      ],
+      "answer": {
+        "correct": "12 przejazdów",
+        "solution_html": "<p>Szerokość cięcia to 50 cm = 0,5 m, więc po jednym przejeździe wzdłuż wszystkich brzegów każdy z wymiarów trawnika zmniejsza się o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>0,5</mn><mo>=</mo><mn>1</mn></mrow></math> m. Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza szerokość trawnika (w metrach). Po pierwszym przejeździe pozostaje prostokąt o wymiarach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>16</mn><mo>−</mo><mn>1</mn><mo>)</mo><mo>·</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo></mrow></math>, którego pole wynosi 120 m<sup>2</sup>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo><mo>=</mo><mn>120</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>−</mo><mn>1</mn><mo>=</mo><mn>8</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>9</mn></mrow></math> m. Pole całego trawnika to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mo>·</mo><mn>16</mn><mo>=</mo><mn>144</mn></mrow></math> m<sup>2</sup>. Kwadrat o tym samym polu ma bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><msqrt><mn>144</mn></msqrt><mo>=</mo><mn>12</mn></mrow></math> m. Liczba przejazdów potrzebnych do skoszenia trawnika jest równa jego szerokości wyrażonej w metrach, więc dla kwadratu o boku 12 m trzeba wykonać 12 przejazdów.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2024_mazowieckie_q7",
+      "number": 7,
+      "page": 6,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "trójkąty",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Miara jednego z kątów trójkąta jest równa różnicy miar dwóch pozostałych kątów. Długość najdłuższego boku wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msqrt><mn>5</mn></msqrt></mrow></math>, a najkrótszego boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow></math>. Oblicz pole tego trójkąta.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "2√6",
+        "solution_html": "<p>Oznaczmy miary kątów trójkąta przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi></math>. Z warunku zadania jeden z kątów jest różnicą dwóch pozostałych, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>=</mo><mi>γ</mi><mo>−</mo><mi>β</mi></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>+</mo><mi>β</mi><mo>=</mo><mi>γ</mi></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>+</mo><mi>β</mi><mo>+</mo><mi>γ</mi><mo>=</mo><mn>180</mn><mo>°</mo></mrow></math>, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>γ</mi><mo>=</mo><mn>180</mn><mo>°</mo></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>γ</mi><mo>=</mo><mn>90</mn><mo>°</mo></mrow></math> — trójkąt jest prostokątny. Najdłuższy bok (przeciwprostokątna) ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msqrt><mn>5</mn></msqrt></mrow></math>, a najkrótszy (przyprostokątna) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow></math>. Drugą przyprostokątną wyznaczamy z twierdzenia Pitagorasa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mn>2</mn><msqrt><mn>5</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>−</mo><msup><mrow><mo>(</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>20</mn><mo>−</mo><mn>8</mn><mo>=</mo><mn>12</mn></mrow></math>, więc jej długość to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>12</mn></msqrt><mo>=</mo><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow></math>. Pole trójkąta to połowa iloczynu przyprostokątnych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mfrac><mrow><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>·</mo><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><mn>2</mn><msqrt><mn>6</mn></msqrt></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2024_mazowieckie_q8",
+      "number": 8,
+      "page": 7,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "układy równań",
+        "procenty"
+      ],
+      "prompt_html": "<p>W listopadzie w pewnej osiedlowej piekarni zamówiono bułki pszenne i żytnie na obchody święta szkoły. W związku z tym miesięczna produkcja bułek pszennych w porównaniu do poprzedniego miesiąca wzrosła o 400 sztuk, a bułek żytnich o 4%. To spowodowało wzrost łącznej produkcji tych bułek o 600 sztuk. W październiku stosunek produkcji bułek żytnich do produkcji bułek pszennych wynosił 1 : 5. Oblicz, ile bułek żytnich, a ile pszennych wypieczono w listopadzie.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "5200 bułek żytnich i 25400 bułek pszennych",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> oznacza październikową produkcję bułek pszennych, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> — bułek żytnich. W listopadzie było ich odpowiednio <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mn>400</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,04</mn><mi>b</mi></mrow></math>. Zapisujemy układ równań: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>{</mo><mtable><mtr><mtd><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mn>600</mn><mo>=</mo><mo>(</mo><mi>a</mi><mo>+</mo><mn>400</mn><mo>)</mo><mo>+</mo><mn>1,04</mn><mi>b</mi></mrow></mtd></mtr><mtr><mtd><mrow><mi>b</mi><mo>:</mo><mi>a</mi><mo>=</mo><mn>1</mn><mo>:</mo><mn>5</mn></mrow></mtd></mtr></mtable></mrow></math>. Z pierwszego równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,04</mn><mi>b</mi><mo>=</mo><mn>200</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>5000</mn></mrow></math>, a z drugiego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>5</mn><mi>b</mi><mo>=</mo><mn>25000</mn></mrow></math>. Zatem w listopadzie wypieczono bułek pszennych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>25000</mn><mo>+</mo><mn>400</mn><mo>=</mo><mn>25400</mn></mrow></math> sztuk oraz bułek żytnich <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,04</mn><mo>·</mo><mn>5000</mn><mo>=</mo><mn>5200</mn></mrow></math> sztuk. Odpowiedź: 5200 bułek żytnich i 25400 bułek pszennych.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2024_mazowieckie_q9",
+      "number": 9,
+      "page": 8,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "bryły"
+      ],
+      "prompt_html": "<p>Na rysunku przedstawiono bryłę sklejoną z dwóch sześcianów i prostopadłościanu, który nie jest sześcianem. Pole powierzchni całkowitej większego sześcianu wynosi 384 cm<sup>2</sup>, a suma długości jego krawędzi jest taka sama jak suma długości krawędzi prostopadłościanu. Różnica długości boków dolnej podstawy sklejonej bryły jest trzy razy większa niż krawędź mniejszego sześcianu. Oblicz pole powierzchni całkowitej bryły przedstawionej na rysunku.</p>",
+      "choices": [],
+      "figures": [
+        "rejonowy_2024_mazowieckie_q9_fig1.png"
+      ],
+      "answer": {
+        "correct": "640 cm²",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> będzie krawędzią większego sześcianu. Z pola powierzchni: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>384</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>64</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>8</mn></mrow></math> cm, a suma długości jego krawędzi wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>12</mn><mo>·</mo><mn>8</mn><mo>=</mo><mn>96</mn></mrow></math> cm. Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> będzie krawędzią mniejszego sześcianu; prostopadłościan ma wymiary <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>×</mo><mo>(</mo><mi>b</mi><mo>+</mo><mn>8</mn><mo>)</mo><mo>×</mo><mi>c</mi></mrow></math>, przy czym różnica boków dolnej podstawy wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><mn>3</mn><mi>b</mi></mrow></math>. Suma krawędzi prostopadłościanu równa 96: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><mn>8</mn><mo>+</mo><mn>4</mn><mo>·</mo><mn>3</mn><mi>b</mi><mo>+</mo><mn>4</mn><mo>(</mo><mi>b</mi><mo>+</mo><mn>8</mn><mo>)</mo><mo>=</mo><mn>96</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>16</mn><mi>b</mi><mo>=</mo><mn>32</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>2</mn></mrow></math> cm. Zatem mniejszy sześcian ma krawędź 2 cm, a prostopadłościan wymiary <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>×</mo><mn>10</mn><mo>×</mo><mn>6</mn></mrow></math> cm. Sumując pola wszystkich ścian widocznych na zewnątrz sklejonej bryły, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>c</mi></msub><mo>=</mo><mn>2</mn><mo>·</mo><mo>(</mo><mn>60</mn><mo>+</mo><mn>64</mn><mo>+</mo><mn>4</mn><mo>)</mo><mo>+</mo><mn>2</mn><mo>·</mo><mo>(</mo><mn>8</mn><mo>·</mo><mn>14</mn><mo>)</mo><mo>+</mo><mn>2</mn><mo>·</mo><mo>(</mo><mn>8</mn><mo>·</mo><mn>10</mn><mo>)</mo><mo>=</mo><mn>640</mn></mrow></math> cm<sup>2</sup>. Pole powierzchni całkowitej bryły wynosi 640 cm<sup>2</sup>.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2024_mazowieckie_q10",
+      "number": 10,
+      "page": 9,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "zagadki logiczne",
+        "podzielność"
+      ],
+      "prompt_html": "<p>W koszykach są grzyby zebrane przez Tymona, Miłosza i Oskara. Każdy koszyk zawiera inną liczbę grzybów, tak jak podano na poniższym rysunku. Dwa koszyki są Tymona, a trzy Miłosza, przy czym liczba wszystkich grzybów jednego z nich jest dwa razy większa od liczby wszystkich grzybów drugiego. Które koszyki należą do poszczególnych chłopców? Odpowiedź uzasadnij.</p>",
+      "choices": [],
+      "figures": [
+        "rejonowy_2024_mazowieckie_q10_fig1.png"
+      ],
+      "answer": {
+        "correct": "Tymon: koszyki IV i V (30 + 36 = 66); Miłosz: koszyki I, II i VI (38 + 62 + 32 = 132); Oskar: koszyk III (40)",
+        "solution_html": "<p>W koszykach jest kolejno: I. — 38, II. — 62, III. — 40, IV. — 30, V. — 36, VI. — 32 grzybów, a razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>38</mn><mo>+</mo><mn>62</mn><mo>+</mo><mn>40</mn><mo>+</mo><mn>30</mn><mo>+</mo><mn>36</mn><mo>+</mo><mn>32</mn><mo>=</mo><mn>238</mn></mrow></math>. Jeden z chłopców (Tymon lub Miłosz) zebrał dwa razy więcej grzybów niż drugi, więc stosunek ich zbiorów wynosi 2 : 1, a łączna liczba zebranych przez nich grzybów dzieli się przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>3</mn></mrow></math>. Jeden koszyk należy do Oskara; jego liczba grzybów musi być taka, by pozostałe 238 minus ta liczba dzieliło się przez 3. Tylko <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>238</mn><mo>−</mo><mn>40</mn><mo>=</mo><mn>198</mn></mrow></math> jest podzielne przez 3, więc koszyk z 40 grzybami (III.) należy do Oskara. Pozostali dwaj chłopcy zebrali razem 198 grzybów, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>198</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>66</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>66</mn><mo>=</mo><mn>132</mn></mrow></math>. Jeden ma dwa koszyki, drugi trzy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>66</mn><mo>=</mo><mn>30</mn><mo>+</mo><mn>36</mn></mrow></math> (koszyki IV. i V. — Tymon) oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>132</mn><mo>=</mo><mn>38</mn><mo>+</mo><mn>62</mn><mo>+</mo><mn>32</mn></mrow></math> (koszyki I., II. i VI. — Miłosz). Ostatecznie: koszyki Tymona to IV. i V., koszyki Miłosza to I., II. i VI., a koszyk Oskara to III.</p>"
+      }
+    }
+  ]
+}

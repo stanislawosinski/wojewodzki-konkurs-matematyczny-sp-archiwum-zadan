@@ -1,0 +1,272 @@
+{
+  "source_file": "rejonowy/2024_opolskie.pdf",
+  "answers_file": "rejonowy/2024_opolskie_answers.pdf",
+  "competition": "Wojewódzki Konkurs Matematyczny dla uczniów szkół podstawowych województwa opolskiego",
+  "school_type": "podstawowa",
+  "stage": "rejonowy",
+  "wojewodztwo": "opolskie",
+  "school_year": "2023/2024",
+  "date": null,
+  "total_questions": 11,
+  "max_points": 40,
+  "questions": [
+    {
+      "id": "rejonowy_2024_opolskie_q1",
+      "number": 1,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Przy każdym zdaniu wpisz TAK lub NIE.</p><p>Przekątne pewnego czworokąta są prostopadłe. Ten czworokąt:</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "może być rombem."
+        },
+        {
+          "label": "2",
+          "html": "na pewno jest deltoidem."
+        },
+        {
+          "label": "3",
+          "html": "może być trapezem równoramiennym."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PFP",
+        "solution_html": "<ul><li>Romb ma przekątne prostopadłe, więc czworokąt o przekątnych prostopadłych <strong>może być</strong> rombem — <strong>TAK</strong>.</li><li>Przekątne prostopadłe ma nie tylko deltoid, ale też np. romb czy pewne trapezy równoramienne, więc czworokąt taki <strong>nie musi</strong> być deltoidem — <strong>NIE</strong>.</li><li>Istnieje trapez równoramienny o przekątnych prostopadłych (gdy jego wysokość jest równa połowie sumy podstaw), więc czworokąt taki <strong>może być</strong> trapezem równoramiennym — <strong>TAK</strong>.</li></ul>"
+      }
+    },
+    {
+      "id": "rejonowy_2024_opolskie_q2",
+      "number": 2,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "układy równań",
+        "procenty"
+      ],
+      "prompt_html": "<p>Na parkingu stoją auta w trzech kolorach: czerwone, niebieskie i białe. Czerwonych i białych jest łącznie 12, niebieskich i białych jest 10, a czerwonych i niebieskich jest 14.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Czerwonych aut jest o 50% więcej niż białych."
+        },
+        {
+          "label": "2",
+          "html": "Niebieskich aut jest o 25% mniej niż czerwonych."
+        },
+        {
+          "label": "3",
+          "html": "Wszystkich aut jest 36."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FPF",
+        "solution_html": "<p>Oznaczmy liczby aut: czerwone <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>, niebieskie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>, białe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>. Mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>12</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>10</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>+</mo><mi>n</mi><mo>=</mo><mn>14</mn></math>. Dodając stronami: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>(</mo><mi>c</mi><mo>+</mo><mi>n</mi><mo>+</mo><mi>b</mi><mo>)</mo><mo>=</mo><mn>36</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>+</mo><mi>n</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>18</mn></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>18</mn><mo>−</mo><mn>14</mn><mo>=</mo><mn>4</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mn>18</mn><mo>−</mo><mn>10</mn><mo>=</mo><mn>8</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>18</mn><mo>−</mo><mn>12</mn><mo>=</mo><mn>6</mn></math>.</p><ul><li>Białych jest 4, czerwonych 8, a to o 100% więcej (dwa razy tyle), a nie o 50% — <strong>NIE</strong>.</li><li>Czerwonych jest 8, o 25% mniej to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>·</mo><mn>0,75</mn><mo>=</mo><mn>6</mn></math>, czyli tyle, ile niebieskich — <strong>TAK</strong>.</li><li>Wszystkich aut jest 18, a nie 36 — <strong>NIE</strong>.</li></ul>"
+      }
+    },
+    {
+      "id": "rejonowy_2024_opolskie_q3",
+      "number": 3,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "podzielność"
+      ],
+      "prompt_html": "<p>Przy każdym zdaniu wpisz TAK lub NIE.</p><p>Iloczyn cyfr pewnej liczby naturalnej może wynosić:</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "32"
+        },
+        {
+          "label": "2",
+          "html": "52"
+        },
+        {
+          "label": "3",
+          "html": "72"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PFP",
+        "solution_html": "<p>Iloczyn cyfr składa się z czynników od 1 do 9, więc dana liczba jest możliwa jako iloczyn cyfr wtedy, gdy da się ją rozłożyć na czynniki nie większe niż 9.</p><ul><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>32</mn><mo>=</mo><mn>4</mn><mo>·</mo><mn>8</mn></math> — np. liczba 48 ma iloczyn cyfr 32 — <strong>TAK</strong>.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>52</mn><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup><mo>·</mo><mn>13</mn></math> — dzielnik 13 jest większy od 9 i nie da się go rozłożyć na cyfry, więc 52 nie może być iloczynem cyfr — <strong>NIE</strong>.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>72</mn><mo>=</mo><mn>8</mn><mo>·</mo><mn>9</mn></math> — np. liczba 89 ma iloczyn cyfr 72 — <strong>TAK</strong>.</li></ul>"
+      }
+    },
+    {
+      "id": "rejonowy_2024_opolskie_q4",
+      "number": 4,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "zliczanie / metody zliczania",
+        "podzielność"
+      ],
+      "prompt_html": "<p>Przy każdym zdaniu wpisz TAK lub NIE.</p><p>Mamy do dyspozycji cyfry 2, 3, 4, 5. Układamy z nich liczby tak, żeby cyfry nie powtarzały się. Można ułożyć:</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "dokładnie sześć liczb trzycyfrowych podzielnych przez 3."
+        },
+        {
+          "label": "2",
+          "html": "dokładnie cztery liczby dwucyfrowe podzielne przez 3."
+        },
+        {
+          "label": "3",
+          "html": "dokładnie dwanaście liczb trzycyfrowych nieparzystych."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FPP",
+        "solution_html": "<ul><li>Liczba jest podzielna przez 3, gdy suma jej cyfr dzieli się przez 3. Spośród trójek cyfr z {2, 3, 4, 5} warunek spełniają {2, 3, 4} (suma 9) oraz {3, 4, 5} (suma 12). Każda daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>!</mo><mo>=</mo><mn>6</mn></math> ustawień, więc trzycyfrowych liczb podzielnych przez 3 jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn></math>, a nie 6 — <strong>NIE</strong>.</li><li>Pary cyfr o sumie podzielnej przez 3 to {2, 4} (suma 6) oraz {4, 5} (suma 9). Każda daje 2 liczby dwucyfrowe, razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math> liczby — <strong>TAK</strong>.</li><li>Liczba jest nieparzysta, gdy kończy się cyfrą 3 lub 5 (2 możliwości). Pozostałe dwie cyfry z trzech wolnych ustawiamy na <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>6</mn></math> sposobów, więc trzycyfrowych liczb nieparzystych jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>12</mn></math> — <strong>TAK</strong>.</li></ul>"
+      }
+    },
+    {
+      "id": "rejonowy_2024_opolskie_q5",
+      "number": 5,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "bryły"
+      ],
+      "prompt_html": "<p>Przy każdym zdaniu wpisz TAK lub NIE.</p><p>Mamy kartonowe prostopadłościenne pudełko o wymiarach 90 cm, 30 cm, 20 cm. W tym pudełku można zmieścić maksymalnie:</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "54 sześcienne klocki o krawędzi długości 10 cm."
+        },
+        {
+          "label": "2",
+          "html": "432 sześcienne klocki o krawędzi długości 5 cm."
+        },
+        {
+          "label": "3",
+          "html": "250 sześciennych klocków o krawędzi długości 6 cm."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PPF",
+        "solution_html": "<p>Klocki układamy wzdłuż krawędzi pudełka, więc wzdłuż każdej krawędzi mieści się tyle klocków, ile razy długość krawędzi klocka dzieli się w długości krawędzi pudełka (część całkowita).</p><ul><li>Klocki o krawędzi 10 cm: wzdłuż krawędzi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>90</mn><mo>:</mo><mn>10</mn><mo>=</mo><mn>9</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>:</mo><mn>10</mn><mo>=</mo><mn>3</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mo>:</mo><mn>10</mn><mo>=</mo><mn>2</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>54</mn></math> — <strong>TAK</strong>.</li><li>Klocki o krawędzi 5 cm: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>18</mn><mo>·</mo><mn>6</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>432</mn></math> — <strong>TAK</strong>.</li><li>Klocki o krawędzi 6 cm: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>90</mn><mo>:</mo><mn>6</mn><mo>=</mo><mn>15</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>:</mo><mn>6</mn><mo>=</mo><mn>5</mn></math>, ale <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mo>:</mo><mn>6</mn><mo>=</mo><mn>3</mn></math> z resztą (mieszczą się tylko 3 warstwy). Zmieści się więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn><mo>·</mo><mn>5</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>225</mn></math> klocków, a nie 250 (chociaż stosunek objętości wynosi 250) — <strong>NIE</strong>.</li></ul>"
+      }
+    },
+    {
+      "id": "rejonowy_2024_opolskie_q6",
+      "number": 6,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "procenty",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Sprzedawca podniósł cenę towaru o 4 zł, a następnie o 4,20 zł. Za każdym razem podnosił o ten sam procent. Jaka jest cena towaru po drugiej podwyżce?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "88,20 zł",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> będzie początkową ceną towaru, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math> — procentem obu podwyżek. Pierwsza podwyżka o 4 zł to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math>% ceny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, a druga o 4,20 zł to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math>% ceny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>4</mn></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mi>x</mi></mfrac><mo>=</mo><mfrac><mn>4,20</mn><mrow><mi>x</mi><mo>+</mo><mn>4</mn></mrow></mfrac></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>(</mo><mi>x</mi><mo>+</mo><mn>4</mn><mo>)</mo><mo>=</mo><mn>4,20</mn><mi>x</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mo>=</mo><mn>0,20</mn><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>80</mn></math> zł.</p><p>Procent podwyżki wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>80</mn></mfrac><mo>=</mo><mn>5</mn></math>%. Cena po pierwszej podwyżce to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>80</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>84</mn></math> zł, a po drugiej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>84</mn><mo>+</mo><mn>4,20</mn><mo>=</mo><mn>88,20</mn></math> zł.</p><p>Cena towaru po drugiej podwyżce wynosi <strong>88,20 zł</strong>.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2024_opolskie_q7",
+      "number": 7,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "trójkąty"
+      ],
+      "prompt_html": "<p>Dany jest trójkąt prostokątny, w którym stosunek długości przyprostokątnych wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>:</mo><mn>4</mn></math>. Oblicz pole tego trójkąta, jeżeli przeciwprostokątna ma długość 20 cm.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "96 cm²",
+        "solution_html": "<p>Skoro przyprostokątne są w stosunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>:</mo><mn>4</mn></math>, oznaczmy je <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>k</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>k</mi></math>. Z twierdzenia Pitagorasa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>3</mn><mi>k</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mn>4</mn><mi>k</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mn>20</mn><mn>2</mn></msup></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>25</mn><msup><mi>k</mi><mn>2</mn></msup><mo>=</mo><mn>400</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mo>=</mo><mn>4</mn></math>. Przyprostokątne mają długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>12</mn></math> cm i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>16</mn></math> cm.</p><p>Pole trójkąta prostokątnego to połowa iloczynu przyprostokątnych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>12</mn><mo>·</mo><mn>16</mn><mo>=</mo><mn>96</mn></math> cm².</p><p>Pole tego trójkąta wynosi <strong>96 cm²</strong>.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2024_opolskie_q8",
+      "number": 8,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Siedem lat temu tata był 5 razy starszy od swojej córki Zosi. Teraz jest 3 razy starszy od niej. Ile lat ma Zosia?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "14 lat",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza obecny wiek Zosi. Teraz tata jest 3 razy starszy, więc ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>x</mi></math> lat. Siedem lat temu Zosia miała <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>−</mo><mn>7</mn></math>, a tata <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>x</mi><mo>−</mo><mn>7</mn></math> lat, i był wtedy 5 razy starszy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>x</mi><mo>−</mo><mn>7</mn><mo>=</mo><mn>5</mn><mo>(</mo><mi>x</mi><mo>−</mo><mn>7</mn><mo>)</mo></math>.</p><p>Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>x</mi><mo>−</mo><mn>7</mn><mo>=</mo><mn>5</mn><mi>x</mi><mo>−</mo><mn>35</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>28</mn><mo>=</mo><mn>2</mn><mi>x</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>14</mn></math>. Sprawdzenie: teraz Zosia ma 14 lat, tata 42; siedem lat temu Zosia 7, tata 35, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>35</mn><mo>=</mo><mn>5</mn><mo>·</mo><mn>7</mn></math>.</p><p>Zosia ma <strong>14 lat</strong>.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2024_opolskie_q9",
+      "number": 9,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "geometria",
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>Listwę o długości 160 cm podzielono na dwie części, z których jedna jest 3 razy dłuższa od drugiej. Z tych części zrobiono krzyżak do latawca (jak pokazuje rysunek). Jaka jest powierzchnia tego latawca? Czy dzieląc listwę w innej proporcji można otrzymać krzyżak do latawca o większej powierzchni? Odpowiedź uzasadnij.</p>",
+      "choices": [],
+      "figures": [
+        "rejonowy_2024_opolskie_q9_fig1.png"
+      ],
+      "answer": {
+        "correct": "2400 cm²; tak — przy podziale na dwie równe części po 80 cm pole latawca wynosi 3200 cm²",
+        "solution_html": "<p>Listwa o długości 160 cm dzieli się na dwie części, z których jedna jest 3 razy dłuższa od drugiej, więc krótsza ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>160</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>40</mn></math> cm, a dłuższa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>40</mn><mo>=</mo><mn>120</mn></math> cm. Te części są przekątnymi latawca (deltoidu), a pole latawca to połowa iloczynu przekątnych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>40</mn><mo>·</mo><mn>120</mn><mo>=</mo><mn>2400</mn></math> cm².</p><p>Przy dowolnym podziale listwy na przekątne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>160</mn><mo>−</mo><mi>x</mi></math> pole wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>x</mi><mo>(</mo><mn>160</mn><mo>−</mo><mi>x</mi><mo>)</mo></math>. Iloczyn dwóch liczb o stałej sumie 160 jest największy, gdy są równe, czyli dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>80</mn></math>. Wtedy pole to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>80</mn><mo>·</mo><mn>80</mn><mo>=</mo><mn>3200</mn></math> cm².</p><p>Powierzchnia latawca wynosi <strong>2400 cm²</strong>. Dzieląc listwę w innej proporcji <strong>można</strong> otrzymać latawiec o większej powierzchni — przy podziale na dwie równe części po 80 cm pole wynosi 3200 cm² (jest to największe możliwe pole).</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2024_opolskie_q10",
+      "number": 10,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "prędkość / droga / czas"
+      ],
+      "prompt_html": "<p>Janek idzie do szkoły 12 minut. Długość kroku Janka wynosi przeciętnie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math> m. Ile kroków zrobi Janek na trasie z domu do szkoły, jeżeli idzie z prędkością 4,5 km/h?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "1200 kroków",
+        "solution_html": "<p>Czas przejścia to 12 minut, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>12</mn><mn>60</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>5</mn></mfrac></math> godziny. Przy prędkości 4,5 km/h droga wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4,5</mn><mo>·</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>=</mo><mn>0,9</mn></math> km <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>900</mn></math> m.</p><p>Liczba kroków to droga podzielona przez długość jednego kroku: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>900</mn><mo>:</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>=</mo><mn>900</mn><mo>·</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><mo>=</mo><mn>1200</mn></math>.</p><p>Janek zrobi na trasie z domu do szkoły <strong>1200 kroków</strong>.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2024_opolskie_q11",
+      "number": 11,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "bryły"
+      ],
+      "prompt_html": "<p>Pole podstawy graniastosłupa prawidłowego czworokątnego wynosi 144 cm². Krawędź podstawy stanowi 80% wysokości graniastosłupa. Oblicz pole powierzchni bocznej oraz objętość tego graniastosłupa.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "pole powierzchni bocznej 720 cm², objętość 2160 cm³",
+        "solution_html": "<p>Podstawą graniastosłupa prawidłowego czworokątnego jest kwadrat. Z pola podstawy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>144</mn></math> otrzymujemy krawędź podstawy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>12</mn></math> cm.</p><p>Krawędź podstawy stanowi 80% wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>=</mo><mn>0,8</mn><mo>·</mo><mi>H</mi></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi><mo>=</mo><mn>12</mn><mo>:</mo><mn>0,8</mn><mo>=</mo><mn>15</mn></math> cm.</p><p>Powierzchnię boczną tworzą 4 prostokąty o wymiarach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>×</mo><mn>15</mn></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>b</mi></msub><mo>=</mo><mn>4</mn><mo>·</mo><mn>12</mn><mo>·</mo><mn>15</mn><mo>=</mo><mn>720</mn></math> cm². Objętość to iloczyn pola podstawy i wysokości: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mn>144</mn><mo>·</mo><mn>15</mn><mo>=</mo><mn>2160</mn></math> cm³.</p><p>Pole powierzchni bocznej wynosi <strong>720 cm²</strong>, a objętość graniastosłupa <strong>2160 cm³</strong>.</p>"
+      }
+    }
+  ]
+}

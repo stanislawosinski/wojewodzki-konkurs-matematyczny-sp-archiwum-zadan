@@ -1,0 +1,171 @@
+{
+  "source_file": "rejonowy/2025-2026_pomorskie.pdf",
+  "answers_file": "rejonowy/2025-2026_pomorskie_answers.pdf",
+  "competition": "Wojewódzki Konkurs z Matematyki dla uczniów klas IV-VIII szkół podstawowych województwa pomorskiego",
+  "school_type": "podstawowa",
+  "stage": "rejonowy",
+  "wojewodztwo": "pomorskie",
+  "school_year": "2025/2026",
+  "date": null,
+  "total_questions": 8,
+  "max_points": 20,
+  "questions": [
+    {
+      "id": "rejonowy_2025-2026_pomorskie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "geometria",
+        "trójkąty"
+      ],
+      "prompt_html": "<p>Marek przygotowuje dekorację na szkolne przedstawienie i potrzebuje wyciąć z kartonu element w kształcie rombu, którego przekątne mają długości 30 dm i 40 dm. Aby nie marnować materiału, chce wykorzystać prostokątny arkusz kartonu i umieścić w nim romb tak, jak pokazano na rysunku. Jakie wymiary powinien mieć prostokątny arkusz kartonu, aby dało się z niego wyciąć romb w taki sposób, jak pokazano na rysunku? Zapisz obliczenia.</p>",
+      "choices": [],
+      "figures": [
+        "rejonowy_2025-2026_pomorskie_q1_fig1.png"
+      ],
+      "answer": {
+        "correct": "32 dm × 24 dm",
+        "solution_html": "<p>Przekątne rombu mają długości 40 dm i 30 dm i przecinają się w połowie, więc bok rombu obliczamy z twierdzenia Pitagorasa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>|</mo><mi>AB</mi><mo>|</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mn>20</mn><mn>2</mn></msup><mo>+</mo><msup><mn>15</mn><mn>2</mn></msup></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>25</mn><mtext>&#160;dm</mtext></mrow></math>.</p><p>Pole rombu jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>40</mn><mo>·</mo><mn>30</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>600</mn><msup><mtext>&#160;dm</mtext><mn>2</mn></msup></mrow></math>. Oznaczając przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math> wysokość rombu, z zależności <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>·</mo><mi>h</mi><mo>=</mo><mn>600</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><mn>24</mn><mtext>&#160;dm</mtext></mrow></math>. Wysokość ta jest równa krótszemu bokowi prostokąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AE</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>CF</mi><mo>|</mo><mo>=</mo><mn>24</mn><mtext>&#160;dm</mtext></mrow></math>.</p><p>Z trójkąta prostokątnego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AED</mi></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>|</mo><mi>ED</mi><mo>|</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>|</mo><mi>AD</mi><mo>|</mo></mrow><mn>2</mn></msup><mo>−</mo><msup><mrow><mo>|</mo><mi>AE</mi><mo>|</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mn>25</mn><mn>2</mn></msup><mo>−</mo><msup><mn>24</mn><mn>2</mn></msup></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>ED</mi><mo>|</mo><mo>=</mo><mn>7</mn></mrow></math>. Dłuższy bok prostokąta ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AF</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>EC</mi><mo>|</mo><mo>=</mo><mn>25</mn><mo>+</mo><mn>7</mn><mo>=</mo><mn>32</mn><mtext>&#160;dm</mtext></mrow></math>.</p><p>Odpowiedź: prostokątny arkusz kartonu powinien mieć wymiary 32 dm × 24 dm.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2025-2026_pomorskie_q2",
+      "number": 2,
+      "page": 3,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "trójkąty",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>W trójkącie prostokątnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> przyprostokątne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> mają odpowiednio długości 18 cm i 6 cm. Na dłuższej przyprostokątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> zaznaczono taki punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>, że trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCD</mi></math> jest równoramienny. Oblicz długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math>. Wykonaj rysunek pomocniczy.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "8 cm",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mo>|</mo><mi>AD</mi><mo>|</mo></mrow></math>. Ponieważ trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCD</mi></math> jest równoramienny, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>BD</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>DC</mi><mo>|</mo><mo>=</mo><mn>18</mn><mo>−</mo><mi>x</mi></mrow></math>. Z twierdzenia Pitagorasa w trójkącie prostokątnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABD</mi></math> otrzymujemy:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mn>6</mn><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mn>18</mn><mo>−</mo><mi>x</mi><mo>)</mo></mrow><mn>2</mn></msup></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>36</mn><mo>=</mo><mn>324</mn><mo>−</mo><mn>36</mn><mi>x</mi><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>36</mn><mi>x</mi><mo>=</mo><mn>288</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>8</mn></mrow></math>.</p><p>Odpowiedź: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AD</mi><mo>|</mo><mo>=</mo><mn>8</mn><mtext>&#160;cm</mtext></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2025-2026_pomorskie_q3",
+      "number": 3,
+      "page": 4,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "proporcjonalność odwrotna",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>W pewnym mieście rozpoczęto budowę nowego placu zabaw. Do pracy oddelegowano 28 pracowników, którzy zbudowaliby ten plac zabaw w ciągu 26 dni. Jednakże po 6 dniach ich pracy okazało się, że plac zabaw ma zostać otwarty o 4 dni wcześniej. Kierownik budowy zwiększył więc liczbę pracowników i dzięki temu plac zabaw został ukończony zgodnie z nowym terminem. Oblicz, ilu dodatkowych pracowników zatrudnił kierownik.</p><p><strong>Uwaga:</strong> Zakładamy, że wszyscy pracownicy pracują z tą samą wydajnością.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "7 pracowników",
+        "solution_html": "<p>Gdyby nie zmieniono terminu, pozostałą pracę 28 pracowników wykonałoby w <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>26</mn><mo>−</mo><mn>6</mn><mo>=</mo><mn>20</mn></mrow></math> dni. Po zmianie terminu na pozostałą pracę zostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>26</mn><mo>−</mo><mn>4</mn><mo>)</mo><mo>−</mo><mn>6</mn><mo>=</mo><mn>16</mn></mrow></math> dni.</p><p>Liczba pracowników i liczba dni są odwrotnie proporcjonalne, więc jeśli przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznaczymy liczbę dodatkowo zatrudnionych pracowników, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>28</mn><mo>·</mo><mn>20</mn><mo>=</mo><mo>(</mo><mn>28</mn><mo>+</mo><mi>x</mi><mo>)</mo><mo>·</mo><mn>16</mn></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>28</mn><mo>+</mo><mi>x</mi><mo>=</mo><mn>35</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>7</mn></mrow></math>.</p><p>Odpowiedź: kierownik zatrudnił dodatkowo 7 pracowników.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2025-2026_pomorskie_q4",
+      "number": 4,
+      "page": 5,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "procenty"
+      ],
+      "prompt_html": "<p>Na terenie szkoły znaleziono tajemniczą szkatułkę pełną kolorowych żetonów, które postanowiono wykorzystać przy organizacji szkolnego festynu. Cztery osoby z komitetu organizacyjnego rozdzieliły te żetony między różne stanowiska. Najpierw Ania zabrała 25% wszystkich żetonów na swoje stoisko z zagadkami. Z pozostałej puli Bartek otrzymał 20% na stanowisko z grami zręcznościowymi. Następnie Celina wzięła 50% tego, co jeszcze zostało na konkurs plastyczny. Na końcu Daniel otrzymał resztę żetonów z przeznaczeniem na loterię fantową. Jaki procent wszystkich żetonów otrzymał Daniel?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "30%",
+        "solution_html": "<p>Przyjmijmy, że wszystkich żetonów jest 100%. Ania zabrała 25%, więc zostało 75%.</p><p>Bartek otrzymał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>20</mn><mo>%</mo><mo>·</mo><mn>75</mn><mo>%</mo><mo>=</mo><mn>15</mn><mo>%</mo></mrow></math>, więc zostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>75</mn><mo>%</mo><mo>−</mo><mn>15</mn><mo>%</mo><mo>=</mo><mn>60</mn><mo>%</mo></mrow></math>.</p><p>Celina wzięła <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>50</mn><mo>%</mo><mo>·</mo><mn>60</mn><mo>%</mo><mo>=</mo><mn>30</mn><mo>%</mo></mrow></math>, więc zostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>60</mn><mo>%</mo><mo>−</mo><mn>30</mn><mo>%</mo><mo>=</mo><mn>30</mn><mo>%</mo></mrow></math>. Tę resztę otrzymał Daniel.</p><p>Odpowiedź: Daniel otrzymał 30% wszystkich żetonów.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2025-2026_pomorskie_q5",
+      "number": 5,
+      "page": 6,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Uzupełnij zdania. Wpisz odpowiednie liczby w wykropkowanych miejscach tak, aby zdania były prawdziwe.</p><ol><li>Pierwiastek kwadratowy z liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>8</mn><mn>3</mn></mfrac></math>, więc pierwiastek kwadratowy z liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mi>a</mi></mrow></math> jest równy …</li><li>Pierwiastek sześcienny z liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest równy 12, więc pierwiastek sześcienny z liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mi>b</mi></mrow></math> jest równy …</li></ol>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "1. 8, 2. 24",
+        "solution_html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mrow><mn>9</mn><mi>a</mi></mrow></msqrt><mo>=</mo><msqrt><mn>9</mn></msqrt><mo>·</mo><msqrt><mi>a</mi></msqrt><mo>=</mo><mn>3</mn><mo>·</mo><mfrac><mn>8</mn><mn>3</mn></mfrac><mo>=</mo><mn>8</mn></mrow></math>, pierwiastek kwadratowy z liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mi>a</mi></mrow></math> jest równy 8.</p><p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mroot><mrow><mn>8</mn><mi>b</mi></mrow><mn>3</mn></mroot><mo>=</mo><mroot><mn>8</mn><mn>3</mn></mroot><mo>·</mo><mroot><mi>b</mi><mn>3</mn></mroot><mo>=</mo><mn>2</mn><mo>·</mo><mn>12</mn><mo>=</mo><mn>24</mn></mrow></math>, pierwiastek sześcienny z liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mi>b</mi></mrow></math> jest równy 24.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2025-2026_pomorskie_q6",
+      "number": 6,
+      "page": 7,
+      "type": "open",
+      "points": 1,
+      "topics": [
+        "bryły"
+      ],
+      "prompt_html": "<p>W szkolnej pracowni biologicznej znajduje się akwarium w kształcie prostopadłościanu. Wewnętrzne wymiary dna tego akwarium to 60 cm na 50 cm. W ramach przygotowań wystawy o życiu podwodnym nauczyciel poprosił uczniów, aby uzupełnili poziom wody w akwarium i uczniowie dolali do niego 15 litrów wody. O ile centymetrów podniósł się poziom wody w tym akwarium?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "5 cm",
+        "solution_html": "<p>15 litrów wody to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15000</mn><msup><mtext>&#160;cm</mtext><mn>3</mn></msup></mrow></math>. Jeżeli przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznaczymy wysokość, o którą podniósł się poziom wody, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>60</mn><mo>·</mo><mn>50</mn><mo>·</mo><mi>x</mi><mo>=</mo><mn>15000</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>5</mn><mtext>&#160;cm</mtext></mrow></math>.</p><p>Odpowiedź: poziom wody podniósł się o 5 cm.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2025-2026_pomorskie_q7",
+      "number": 7,
+      "page": 8,
+      "type": "closed_single",
+      "points": 7,
+      "topics": [
+        "potęgi i pierwiastki",
+        "trójkąty",
+        "zliczanie / metody zliczania",
+        "reszta z dzielenia",
+        "statystyka opisowa",
+        "inne"
+      ],
+      "prompt_html": "<p>W zadaniach zamkniętych dokładnie jedna odpowiedź jest poprawna. Wskaż tę odpowiedź otaczając ją kółkiem.</p><p><strong>7.1</strong> Ile jest liczb naturalnych czterocyfrowych, których iloczyn cyfr jest równy 5?</p><ul><li>A. 1</li><li>B. 2</li><li>C. 3</li><li>D. 4</li></ul><p><strong>7.2</strong> Jaka cyfra znajduje się na 2025 miejscu po przecinku liczby 20,25(1205)?</p><ul><li>A. 0</li><li>B. 1</li><li>C. 2</li><li>D. 5</li></ul><p><strong>7.3</strong> Średnia arytmetyczna liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mi>b</mi></mrow><mn>4</mn></mfrac></math>. Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mi>b</mi></mfrac></math> jest równa:</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math></li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math></li></ul><p><strong>7.4</strong> Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mo>−</mo><mo>|</mo><mo>−</mo><mn>1</mn><mo>|</mo><mo>−</mo><mo>(</mo><mo>−</mo><mn>1</mn><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>)</mo><mo>:</mo><mn>0,25</mn><mo>·</mo><mo>|</mo><mo>−</mo><mn>4,2</mn><mo>+</mo><mn>2</mn><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>|</mo><mo>)</mo></mrow></math> jest równa:</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>2</mn></mfrac></math></li><li>B. 2</li><li>C. 9</li><li>D. 11</li></ul><p><strong>7.5</strong> Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>·</mo><msup><mn>4</mn><mn>10</mn></msup><mo>+</mo><mn>12</mn><mo>·</mo><msup><mn>4</mn><mn>11</mn></msup><mo>+</mo><msup><mn>2</mn><mn>5</mn></msup><mo>·</mo><msup><mn>4</mn><mn>9</mn></msup></mrow></math> jest równa:</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>14</mn></msup></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>12</mn><mn>34</mn></msup></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>13</mn></msup></math></li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>25</mn></msup></math></li></ul><p><strong>7.6</strong> Podczas zajęć z geometrii Zosia z kolorowych patyczków zbudowała trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> o bokach długości 10 cm, 14 cm i 16 cm. Na kolejnych zajęciach nauczyciel poprosił, aby Zosia wykonała model trójkąta podobnego do trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>. Zosia zbudowała więc trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>A</mi><mn>1</mn></msub><msub><mi>B</mi><mn>1</mn></msub><msub><mi>C</mi><mn>1</mn></msub></mrow></math> podobny do trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>, przy czym najdłuższy bok trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>A</mi><mn>1</mn></msub><msub><mi>B</mi><mn>1</mn></msub><msub><mi>C</mi><mn>1</mn></msub></mrow></math> ma długość 8 cm. Ile jest równy obwód trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>A</mi><mn>1</mn></msub><msub><mi>B</mi><mn>1</mn></msub><msub><mi>C</mi><mn>1</mn></msub></mrow></math>?</p><ul><li>A. 14 cm</li><li>B. 20 cm</li><li>C. 22 cm</li><li>D. 28 cm</li></ul><p><strong>7.7</strong> Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mo>−</mo><mn>0,2</mn><mo>)</mo></mrow><mrow><mo>−</mo><mn>3</mn></mrow></msup></math> jest równa:</p><ul><li>A. −125</li><li>B. −8</li><li>C. 8</li><li>D. 125</li></ul>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "7.1 – D, 7.2 – A, 7.3 – B, 7.4 – C, 7.5 – C, 7.6 – B, 7.7 – A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2025-2026_pomorskie_q8",
+      "number": 8,
+      "page": 10,
+      "type": "true_false",
+      "points": 1,
+      "topics": [
+        "liczby rzymskie"
+      ],
+      "prompt_html": "<p>Poniżej przedstawiamy dwóch wybitnych matematyków XX wieku oraz daty ich urodzenia i śmierci: Stefan Banach (1892–1945) oraz Zofia Krygowska (1904–1988).</p><p>Oceń prawdziwość poniższych stwierdzeń. Otocz kółkiem P, jeśli stwierdzenie jest prawdziwe, albo F, jeśli jest fałszywe.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Stefan Banach żył LIII lata."
+        },
+        {
+          "label": "2",
+          "html": "Zofia Krygowska zmarła w MCMLXXXVIII roku."
+        }
+      ],
+      "figures": [
+        "rejonowy_2025-2026_pomorskie_q8_fig1.png"
+      ],
+      "answer": {
+        "correct": "PP",
+        "solution_html": null
+      }
+    }
+  ]
+}

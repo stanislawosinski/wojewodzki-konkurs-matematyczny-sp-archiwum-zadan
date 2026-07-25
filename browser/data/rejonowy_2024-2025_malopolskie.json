@@ -1,0 +1,491 @@
+{
+  "source_file": "rejonowy/2024-2025_malopolskie.pdf",
+  "answers_file": "rejonowy/2024-2025_malopolskie_answers.pdf",
+  "competition": "Małopolski Konkurs Matematyczny dla uczniów szkół podstawowych województwa małopolskiego",
+  "school_type": "podstawowa",
+  "stage": "rejonowy",
+  "wojewodztwo": "malopolskie",
+  "school_year": "2024/2025",
+  "date": "2024-12-06",
+  "total_questions": 20,
+  "max_points": 50,
+  "questions": [
+    {
+      "id": "rejonowy_2024-2025_malopolskie_q1",
+      "number": 1,
+      "page": 3,
+      "type": "closed_single",
+      "points": 2,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Ile wynosi różnica pomiędzy liczbami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,333</mn></math>?</p>",
+      "choices": [
+        { "label": "A", "html": "0" },
+        { "label": "B", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>10000</mn></mfrac></math>" },
+        { "label": "C", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3000</mn></mfrac></math>" },
+        { "label": "D", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>,</mo><mo>(</mo><mn>0003</mn><mo>)</mo></math>" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2024-2025_malopolskie_q2",
+      "number": 2,
+      "page": 3,
+      "type": "closed_single",
+      "points": 2,
+      "topics": [
+        "proporcjonalność prosta",
+        "zagadki logiczne"
+      ],
+      "prompt_html": "<p>Uczeń szkoły plastycznej otrzymał tabelę informującą o farbach koloru A i B, jakie należy zmieszać w stosunku ilości 1:1, aby otrzymać farbę w wybranym kolorze C. Fragment tabeli znajduje się poniżej.</p><table><thead><tr><th>Kolor A</th><th>Kolor B</th><th>Otrzymany kolor C</th></tr></thead><tbody><tr><td>czerwony</td><td>niebieski</td><td>fioletowy</td></tr><tr><td>czerwony</td><td>żółty</td><td>pomarańczowy</td></tr><tr><td>żółty</td><td>niebieski</td><td>zielony</td></tr><tr><td>pomarańczowy</td><td>fioletowy</td><td>brązowy</td></tr><tr><td>pomarańczowy</td><td>zielony</td><td>oliwkowy</td></tr><tr><td>brązowy</td><td>oliwkowy</td><td>kawowy</td></tr></tbody></table><p>Uczeń ma do dyspozycji farby koloru czerwonego, niebieskiego i żółtego. Ile farby koloru czerwonego potrzebuje uczeń, jeśli chce otrzymać 24 ml farby koloru kawowego?</p>",
+      "choices": [
+        { "label": "A", "html": "6 ml" },
+        { "label": "B", "html": "8 ml" },
+        { "label": "C", "html": "9 ml" },
+        { "label": "D", "html": "12 ml" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2024-2025_malopolskie_q3",
+      "number": 3,
+      "page": 3,
+      "type": "closed_single",
+      "points": 2,
+      "topics": [
+        "reszta z dzielenia",
+        "podzielność"
+      ],
+      "prompt_html": "<p>Ile różnych reszt możemy otrzymać przy dzieleniu sumy dwóch kolejnych liczb całkowitych przez 4?</p>",
+      "choices": [
+        { "label": "A", "html": "1" },
+        { "label": "B", "html": "2" },
+        { "label": "C", "html": "3" },
+        { "label": "D", "html": "4" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2024-2025_malopolskie_q4",
+      "number": 4,
+      "page": 3,
+      "type": "closed_single",
+      "points": 2,
+      "topics": [
+        "procenty",
+        "statystyka opisowa"
+      ],
+      "prompt_html": "<p>Klienci aquaparku mogą nabyć jeden z trzech rodzajów biletów: bilet normalny za 30 złotych, bilet ulgowy za 20 złotych lub bilet bezpłatny. Na diagramie kołowym przedstawiono, jaki procent wszystkich sprzedanych biletów stanowi każdy z rodzajów biletu.</p><p>O ile procent więcej wpływów pochodzi ze sprzedaży biletów normalnych niż ze sprzedaży biletów ulgowych?</p>",
+      "choices": [
+        { "label": "A", "html": "50%" },
+        { "label": "B", "html": "100%" },
+        { "label": "C", "html": "200%" },
+        { "label": "D", "html": "300%" }
+      ],
+      "figures": [
+        "rejonowy_2024-2025_malopolskie_q4_fig1.png"
+      ],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2024-2025_malopolskie_q5",
+      "number": 5,
+      "page": 4,
+      "type": "closed_single",
+      "points": 2,
+      "topics": [
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Dane jest wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>W</mi><mo>=</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> jest dowolną liczbą rzeczywistą. Które z poniższych zdań jest prawdziwe?</p>",
+      "choices": [
+        { "label": "A", "html": "Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>W</mi></math> jest zawsze parzysta." },
+        { "label": "B", "html": "Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>W</mi></math> jest zawsze dodatnia." },
+        { "label": "C", "html": "Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>W</mi></math> jest zawsze większa niż wartość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>." },
+        { "label": "D", "html": "Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>W</mi></math> jest zawsze równa połowie wartości wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>2</mn><mi>x</mi><mo>)</mo></mrow><mn>2</mn></msup></math>." }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2024-2025_malopolskie_q6",
+      "number": 6,
+      "page": 4,
+      "type": "closed_single",
+      "points": 2,
+      "topics": [
+        "prawdopodobieństwo",
+        "trójkąty"
+      ],
+      "prompt_html": "<p>Dany jest zestaw czterech odcinków o długościach: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mo>,</mo><mi>k</mi><mo>+</mo><mn>1</mn><mo>,</mo><mi>k</mi><mo>+</mo><mn>2</mn><mo>,</mo><mi>k</mi><mo>+</mo><mn>3</mn></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> jest jedną z liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math>. Z zestawu losowo odrzucamy jeden odcinek. Dla której z podanych wartości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> prawdopodobieństwo tego, że z pozostałych trzech odcinków można zbudować trójkąt, jest najmniejsze?</p>",
+      "choices": [
+        { "label": "A", "html": "1" },
+        { "label": "B", "html": "2" },
+        { "label": "C", "html": "3" },
+        { "label": "D", "html": "4" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2024-2025_malopolskie_q7",
+      "number": 7,
+      "page": 4,
+      "type": "closed_single",
+      "points": 2,
+      "topics": [
+        "geometria",
+        "trójkąty"
+      ],
+      "prompt_html": "<p>Na odcinku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> wyznaczono punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math>, a następnie kąt półpełny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ASB</mi></math> podzielono półprostymi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SC</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SE</mi></math> na cztery kąty równej miary (rysunek obok). Dane jest, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AS</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>BS</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>CS</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>ES</mi><mo>|</mo></mrow></math>.</p><p>Ile jest równa miara kąta wypukłego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∢</mo><mi>AEC</mi></math>?</p>",
+      "choices": [
+        { "label": "A", "html": "105°" },
+        { "label": "B", "html": "112,5°" },
+        { "label": "C", "html": "122,5°" },
+        { "label": "D", "html": "135°" }
+      ],
+      "figures": [
+        "rejonowy_2024-2025_malopolskie_q7_fig1.png"
+      ],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2024-2025_malopolskie_q8",
+      "number": 8,
+      "page": 4,
+      "type": "closed_single",
+      "points": 2,
+      "topics": [
+        "geometria",
+        "trójkąty"
+      ],
+      "prompt_html": "<p>Na odcinku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> wyznaczono punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math>, a następnie kąt półpełny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ASB</mi></math> podzielono półprostymi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SC</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SE</mi></math> na cztery kąty równej miary (rysunek obok). Dane jest, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AS</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>BS</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>CS</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>ES</mi><mo>|</mo></mrow></math>.</p><p>Dokończ zdanie: Jeśli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AS</mi><mo>|</mo><mo>=</mo><msqrt><mn>6</mn></msqrt></mrow></math>, to pole trapezu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ASCE</mi></math> jest równe</p>",
+      "choices": [
+        { "label": "A", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>+</mo><mn>1,5</mn><msqrt><mn>2</mn></msqrt></math>" },
+        { "label": "B", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>+</mo><msqrt><mn>3</mn></msqrt></math>" },
+        { "label": "C", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>+</mo><mn>3</mn><msqrt><mn>3</mn></msqrt></math>" },
+        { "label": "D", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msqrt><mn>3</mn></msqrt></math>" }
+      ],
+      "figures": [
+        "rejonowy_2024-2025_malopolskie_q8_fig1.png"
+      ],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2024-2025_malopolskie_q9",
+      "number": 9,
+      "page": 4,
+      "type": "closed_single",
+      "points": 2,
+      "topics": [
+        "bryły"
+      ],
+      "prompt_html": "<p>Pewien graniastosłup prosty ma o 12 więcej krawędzi niż ścian. Ile wierzchołków ma ten graniastosłup?</p>",
+      "choices": [
+        { "label": "A", "html": "12" },
+        { "label": "B", "html": "14" },
+        { "label": "C", "html": "20" },
+        { "label": "D", "html": "24" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2024-2025_malopolskie_q10",
+      "number": 10,
+      "page": 5,
+      "type": "closed_single",
+      "points": 2,
+      "topics": [
+        "prawdopodobieństwo",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>W pojemniku znajdują się 4 białe i 8 czarnych kul. Z pojemnika losujemy jedną kulę. Jaka jest liczba białych kul, którą należy dołożyć do tego pojemnika, aby prawdopodobieństwo wylosowania białej kuli wzrosło dwukrotnie?</p>",
+      "choices": [
+        { "label": "A", "html": "2" },
+        { "label": "B", "html": "4" },
+        { "label": "C", "html": "8" },
+        { "label": "D", "html": "12" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2024-2025_malopolskie_q11",
+      "number": 11,
+      "page": 5,
+      "type": "closed_single",
+      "points": 3,
+      "topics": [
+        "zliczanie / metody zliczania",
+        "podzielność"
+      ],
+      "prompt_html": "<p>Rozważmy wszystkie naturalne liczby dwucyfrowe o różnych cyfrach. Ile spośród tych liczb posiada iloczyn cyfr będącym kwadratem liczby całkowitej?</p>",
+      "choices": [
+        { "label": "A", "html": "8" },
+        { "label": "B", "html": "15" },
+        { "label": "C", "html": "16" },
+        { "label": "D", "html": "17" },
+        { "label": "E", "html": "26" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2024-2025_malopolskie_q12",
+      "number": 12,
+      "page": 5,
+      "type": "closed_single",
+      "points": 3,
+      "topics": [
+        "podzielność",
+        "zliczanie / metody zliczania"
+      ],
+      "prompt_html": "<p>Ile jest wszystkich naturalnych dzielników liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2024</mn></math>?</p>",
+      "choices": [
+        { "label": "A", "html": "5" },
+        { "label": "B", "html": "7" },
+        { "label": "C", "html": "8" },
+        { "label": "D", "html": "14" },
+        { "label": "E", "html": "16" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "E",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2024-2025_malopolskie_q13",
+      "number": 13,
+      "page": 5,
+      "type": "closed_single",
+      "points": 3,
+      "topics": [
+        "podzielność",
+        "reszta z dzielenia"
+      ],
+      "prompt_html": "<p>Dane jest wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mfrac><mrow><mi>a</mi><mo>+</mo><mn>8</mn></mrow><mrow><mi>a</mi><mo>+</mo><mn>5</mn></mrow></mfrac></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest dowolną liczbą całkowitą różną od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>5</mn></math>. Dla ilu różnych wartości liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> także jest liczbą całkowitą?</p>",
+      "choices": [
+        { "label": "A", "html": "0" },
+        { "label": "B", "html": "2" },
+        { "label": "C", "html": "3" },
+        { "label": "D", "html": "4" },
+        { "label": "E", "html": "nieskończenie wielu" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2024-2025_malopolskie_q14",
+      "number": 14,
+      "page": 5,
+      "type": "closed_single",
+      "points": 3,
+      "topics": [
+        "potęgi i pierwiastki",
+        "zliczanie / metody zliczania"
+      ],
+      "prompt_html": "<p>W pewnym turnieju tenisa bierze udział <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> zawodników. W pierwszej rundzie zawodników dzieli się na <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>n</mi><mn>2</mn></mfrac></math> par, z których każda rozgrywa jeden mecz. Przegrani odpadają, a zwycięzcy przechodzą do kolejnej rundy. W kolejnych rundach zawodnicy ponownie dzieleni są na pary, rozgrywają mecze, a przegrani odpadają. W ostatniej finałowej rundzie dwóch zawodników walczy o tytuł mistrza. Ilu zawodników wzięło udział w turnieju, jeśli mistrz wygrał w jego trakcie 6 meczów?</p>",
+      "choices": [
+        { "label": "A", "html": "7" },
+        { "label": "B", "html": "32" },
+        { "label": "C", "html": "64" },
+        { "label": "D", "html": "126" },
+        { "label": "E", "html": "128" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2024-2025_malopolskie_q15",
+      "number": 15,
+      "page": 6,
+      "type": "closed_single",
+      "points": 3,
+      "topics": [
+        "prędkość / droga / czas",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Mariusz zaplanował jednogodzinny trening na rowerze stacjonarnym. W trakcie pierwszego kwadransa jazdy przejechał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math> km, następnie przyspieszył i w ciągu kolejnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math> minut jazdy przejechał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn></math> km. Aplikacja powiadomiła wtedy Mariusza, że jeśli utrzyma to tempo jazdy do końca treningu, to w ciągu całej zaplanowanej godziny pokona łącznie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>18</mn></math> km. Ile wynosi wartość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math>?</p>",
+      "choices": [
+        { "label": "A", "html": "15" },
+        { "label": "B", "html": "18" },
+        { "label": "C", "html": "20" },
+        { "label": "D", "html": "27" },
+        { "label": "E", "html": "30" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2024-2025_malopolskie_q16",
+      "number": 16,
+      "page": 6,
+      "type": "closed_single",
+      "points": 3,
+      "topics": [
+        "geometria",
+        "trójkąty"
+      ],
+      "prompt_html": "<p>Prostokąt o bokach długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>3</mn></msqrt></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>15</mn></msqrt></math> podzielono przekątną na dwa trójkąty. Następnie, jak pokazano na rysunku obok, oba trójkąty połączono dłuższą przyprostokątną tak, że powstał równoległobok. Ile jest równy stosunek obwodu prostokąta do obwodu powstałego równoległoboku?</p>",
+      "choices": [
+        { "label": "A", "html": "1 : 1" },
+        { "label": "B", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt><mo>:</mo><msqrt><mn>5</mn></msqrt></math>" },
+        { "label": "C", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>6</mn></msqrt><mo>:</mo><mn>5</mn></math>" },
+        { "label": "D", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><msqrt><mn>5</mn></msqrt><mo>+</mo><mn>2</mn><mo>)</mo><mo>:</mo><mn>5</mn></math>" },
+        { "label": "E", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>2</mn><mo>)</mo><mo>:</mo><mn>1</mn></math>" }
+      ],
+      "figures": [
+        "rejonowy_2024-2025_malopolskie_q16_fig1.png"
+      ],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2024-2025_malopolskie_q17",
+      "number": 17,
+      "page": 6,
+      "type": "closed_single",
+      "points": 3,
+      "topics": [
+        "trójkąty",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>W trójkącie rozwartokątnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> długość boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>14</mn></math>, długość boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>13</mn></math>, a najdłuższa wysokość trójkąta wychodząca z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn></math>. Ile wynosi długość boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math>?</p>",
+      "choices": [
+        { "label": "A", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>13</mn></msqrt><mo>−</mo><mn>5</mn></math>" },
+        { "label": "B", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>340</mn></msqrt><mo>−</mo><mn>2</mn><msqrt><mn>85</mn></msqrt></math>" },
+        { "label": "C", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>−</mo><mn>2</mn><msqrt><mn>13</mn></msqrt></math>" },
+        { "label": "D", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>13</mn></msqrt></math>" },
+        { "label": "E", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>13</mn></msqrt><mo>+</mo><mn>5</mn></math>" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2024-2025_malopolskie_q18",
+      "number": 18,
+      "page": 6,
+      "type": "closed_single",
+      "points": 3,
+      "topics": [
+        "geometria",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> ma końce w punktach o współrzędnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>(</mo><mn>3</mn><mi>m</mi><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>,</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mi>n</mi><mo>−</mo><mfrac><mn>7</mn><mn>2</mn></mfrac><mo>)</mo></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>6</mn><mi>m</mi><mo>−</mo><mn>4</mn><mo>,</mo><mn>2</mn><mo>−</mo><mn>3</mn><mi>n</mi><mo>)</mo></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> to pewne liczby rzeczywiste. Środek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> ma współrzędne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>−</mo><mn>3</mn><mo>,</mo><mn>1</mn><mo>)</mo></math>. Które ze zdań poniżej jest <strong>fałszywe</strong>?</p>",
+      "choices": [
+        { "label": "A", "html": "Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> oraz punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> mają obie współrzędne całkowite." },
+        { "label": "B", "html": "Odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> przecina obie osie układu współrzędnych." },
+        { "label": "C", "html": "Współrzędne punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> są liczbami odwrotnymi." },
+        { "label": "D", "html": "Środek odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AS</mi></math> leży na osi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>OY</mi></math>." },
+        { "label": "E", "html": "Obie liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> są wymierne." }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2024-2025_malopolskie_q19",
+      "number": 19,
+      "page": 7,
+      "type": "closed_single",
+      "points": 3,
+      "topics": [
+        "geometria",
+        "zliczanie / metody zliczania"
+      ],
+      "prompt_html": "<p>W kartezjańskim układzie współrzędnych dany jest punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mo>(</mo><mn>5</mn><mo>,</mo><mn>3</mn><mo>)</mo></math>. Ile jest punktów o obu współrzędnych parzystych, których odległość od punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> jest równa co najwyżej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>10</mn></msqrt></math>?</p>",
+      "choices": [
+        { "label": "A", "html": "4" },
+        { "label": "B", "html": "6" },
+        { "label": "C", "html": "8" },
+        { "label": "D", "html": "10" },
+        { "label": "E", "html": "12" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "E",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2024-2025_malopolskie_q20",
+      "number": 20,
+      "page": 7,
+      "type": "closed_single",
+      "points": 3,
+      "topics": [
+        "bryły",
+        "geometria"
+      ],
+      "prompt_html": "<p>Podstawą graniastosłupa prostego czworokątnego jest deltoid, w którym dokładnie jeden kąt jest prosty, a miara kąta ostrego jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn><mo>°</mo></math>. Krótsza przekątna deltoidu ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn></math> i jest równa wysokości graniastosłupa (zobacz rysunek). Ile jest równa objętość graniastosłupa?</p>",
+      "choices": [
+        { "label": "A", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>108</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>108</mn></math>" },
+        { "label": "B", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>54</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>108</mn></math>" },
+        { "label": "C", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>54</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>54</mn></math>" },
+        { "label": "D", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>108</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>54</mn><msqrt><mn>3</mn></msqrt></math>" },
+        { "label": "E", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>18</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>36</mn></math>" }
+      ],
+      "figures": [
+        "rejonowy_2024-2025_malopolskie_q20_fig1.png"
+      ],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    }
+  ]
+}

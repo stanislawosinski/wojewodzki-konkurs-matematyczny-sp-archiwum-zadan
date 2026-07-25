@@ -1,0 +1,398 @@
+{
+  "source_file": "rejonowy/2022-2023_malopolskie.pdf",
+  "answers_file": "rejonowy/2022-2023_malopolskie_answers.pdf",
+  "competition": "Małopolski Konkurs Matematyczny dla uczniów szkół podstawowych województwa małopolskiego",
+  "school_type": "podstawowa",
+  "stage": "rejonowy",
+  "wojewodztwo": "malopolskie",
+  "school_year": "2022/2023",
+  "date": "2022-11-29",
+  "total_questions": 17,
+  "max_points": 60,
+  "questions": [
+    {
+      "id": "rejonowy_2022-2023_malopolskie_q1",
+      "number": 1,
+      "page": 3,
+      "type": "closed_single",
+      "points": 2,
+      "topics": [
+        "prawdopodobieństwo",
+        "kombinatoryka"
+      ],
+      "prompt_html": "<p>Karol napisał trzy listy do trzech różnych osób i zaadresował do tych osób trzy koperty. Do każdej koperty włożył jeden list, ale nie sprawdził, czy listy trafiły do właściwych kopert. Jakie jest prawdopodobieństwo, że dokładnie dwa listy zostały włożone do właściwych kopert?</p>",
+      "choices": [
+        { "label": "A", "html": "1" },
+        { "label": "B", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>6</mn></mfrac></math>" },
+        { "label": "C", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math>" },
+        { "label": "D", "html": "0" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2022-2023_malopolskie_q2",
+      "number": 2,
+      "page": 3,
+      "type": "closed_single",
+      "points": 2,
+      "topics": [
+        "równania z jedną zmienną",
+        "podzielność"
+      ],
+      "prompt_html": "<p>W pewnym stawie pływały 53 żabki, w tym tylko jedna samiczka. Wpuszczono do niego pewną liczbę samiczek i teraz samiczki stanowią k-tą część populacji żabek w tym stawie. Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> jest równa</p>",
+      "choices": [
+        { "label": "A", "html": "7" },
+        { "label": "B", "html": "6" },
+        { "label": "C", "html": "5" },
+        { "label": "D", "html": "4" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2022-2023_malopolskie_q3",
+      "number": 3,
+      "page": 3,
+      "type": "closed_single",
+      "points": 2,
+      "topics": [
+        "bryły",
+        "zliczanie / metody zliczania"
+      ],
+      "prompt_html": "<p>Ile przekątnych, które nie są ani przekątnymi ściany bocznej, ani przekątnymi podstawy, ma graniastosłup prawidłowy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>-kątny?</p>",
+      "choices": [
+        { "label": "A", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>(</mo><mn>2</mn><mi>n</mi><mo>−</mo><mn>1</mn><mo>)</mo></math>" },
+        { "label": "B", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>2</mn><mi>n</mi><mo>−</mo><mn>3</mn><mo>)</mo><mi>n</mi></math>" },
+        { "label": "C", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><mn>2</mn><mi>n</mi><mo>−</mo><mn>3</mn><mo>)</mo><mi>n</mi></mrow><mn>2</mn></mfrac></math>" },
+        { "label": "D", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>(</mo><mi>n</mi><mo>−</mo><mn>3</mn><mo>)</mo></math>" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2022-2023_malopolskie_q4",
+      "number": 4,
+      "page": 3,
+      "type": "closed_single",
+      "points": 2,
+      "topics": [
+        "procenty"
+      ],
+      "prompt_html": "<p>W pewnym lesie wśród drzew rosną sosny. W ciągu 30 lat z powodu zmian klimatycznych liczba wszystkich drzew zmniejszyła się o 20%, natomiast liczba sosen wzrosła z 50% do 65% całkowitej liczby drzew w tym lesie. Liczba sosen w tym lesie w stosunku do liczby sosen sprzed 30 lat</p>",
+      "choices": [
+        { "label": "A", "html": "wzrosła o 15%." },
+        { "label": "B", "html": "zmalała o 10%." },
+        { "label": "C", "html": "wzrosła o 4%." },
+        { "label": "D", "html": "zmalała o 6%." }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2022-2023_malopolskie_q5",
+      "number": 5,
+      "page": 4,
+      "type": "closed_single",
+      "points": 2,
+      "topics": [
+        "reszta z dzielenia",
+        "podzielność"
+      ],
+      "prompt_html": "<p>Ile jest równa reszta z dzielenia liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>4</mn><mo>·</mo><mn>5</mn><mo>·</mo><mn>6</mn><mo>·</mo><mn>7</mn><mo>·</mo><mn>8</mn><mo>·</mo><mn>9</mn><mo>·</mo><mn>10</mn></math> przez 11?</p>",
+      "choices": [
+        { "label": "A", "html": "7" },
+        { "label": "B", "html": "8" },
+        { "label": "C", "html": "9" },
+        { "label": "D", "html": "10" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2022-2023_malopolskie_q6",
+      "number": 6,
+      "page": 4,
+      "type": "closed_single",
+      "points": 2,
+      "topics": [
+        "sześciokąty foremne",
+        "geometria"
+      ],
+      "prompt_html": "<p>W układzie współrzędnych dany jest sześciokąt foremny, którego kolejne wierzchołki oznaczono literami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>,</mo><mi>B</mi><mo>,</mo><mi>C</mi><mo>,</mo><mi>D</mi><mo>,</mo><mi>E</mi><mo>,</mo><mi>F</mi></math>. Znamy współrzędne dwóch jego wierzchołków: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo>)</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi><mo>=</mo><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>,</mo><mn>1</mn><mo>)</mo></math> oraz współrzędne punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mo>(</mo><mfrac><mrow><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow><mn>3</mn></mfrac><mo>,</mo><mn>0</mn><mo>)</mo></math>, który jest punktem przecięcia dłuższych przekątnych tego sześciokąta. Iloczyn współrzędnych wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> tego sześciokąta wynosi</p>",
+      "choices": [
+        { "label": "A", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>3</mn></msqrt><mn>3</mn></mfrac></math>" },
+        { "label": "B", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>3</mn></mfrac></math>" },
+        { "label": "C", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>1</mn></math>" },
+        { "label": "D", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>−</mo><msqrt><mn>3</mn></msqrt></math>" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2022-2023_malopolskie_q7",
+      "number": 7,
+      "page": 4,
+      "type": "closed_single",
+      "points": 2,
+      "topics": [
+        "geometria",
+        "trójkąty"
+      ],
+      "prompt_html": "<p>Proste <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> są równoległe, punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> leży na prostej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>, punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> leży na prostej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math>, natomiast dwa różne punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> leżą pomiędzy prostymi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>. Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>,</mo><mi>B</mi><mo>,</mo><mi>C</mi><mo>,</mo><mi>D</mi></math> połączono odcinkami (patrz rysunek poniżej). Posługując się danymi z poniższego rysunku oblicz, ile jest równa wartość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>.</p>",
+      "choices": [
+        { "label": "A", "html": "25°" },
+        { "label": "B", "html": "30°" },
+        { "label": "C", "html": "35°" },
+        { "label": "D", "html": "40°" }
+      ],
+      "figures": [
+        "rejonowy_2022-2023_malopolskie_q7_fig1.png"
+      ],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2022-2023_malopolskie_q8",
+      "number": 8,
+      "page": 4,
+      "type": "closed_single",
+      "points": 2,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Kolejne wierzchołki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>-kąta foremnego, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>&gt;</mo><mn>4</mn></math>, oznaczono literami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>A</mi><mn>1</mn></msub><mo>,</mo><msub><mi>A</mi><mn>2</mn></msub><mo>,</mo><msub><mi>A</mi><mn>3</mn></msub><mo>,</mo><mo>…</mo><mo>,</mo><msub><mi>A</mi><mi>n</mi></msub></math>. Ile wynosi miara kąta wewnętrznego przy wierzchołku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>A</mi><mn>4</mn></msub></math> w trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>A</mi><mn>1</mn></msub><msub><mi>A</mi><mn>4</mn></msub><msub><mi>A</mi><mn>2</mn></msub></math>?</p>",
+      "choices": [
+        { "label": "A", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>90</mn><mo>°</mo></mrow><mi>n</mi></mfrac></math>" },
+        { "label": "B", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>180</mn><mo>°</mo></mrow><mi>n</mi></mfrac></math>" },
+        { "label": "C", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>270</mn><mo>°</mo></mrow><mi>n</mi></mfrac></math>" },
+        { "label": "D", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>360</mn><mo>°</mo></mrow><mi>n</mi></mfrac></math>" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2022-2023_malopolskie_q9",
+      "number": 9,
+      "page": 5,
+      "type": "closed_single",
+      "points": 3,
+      "topics": [
+        "geometria",
+        "zliczanie / metody zliczania"
+      ],
+      "prompt_html": "<p>Wybierz zdanie prawdziwe.</p>",
+      "choices": [
+        { "label": "A", "html": "Suma długości przekątnych każdego równoległoboku jest mniejsza od połowy jego obwodu." },
+        { "label": "B", "html": "Średnia arytmetyczna kwadratów długości przekątnych rombu o boku długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, który nie jest kwadratem, jest równa polu kwadratu o boku długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>." },
+        { "label": "C", "html": "Jeśli przekątne czworokąta są równej długości, to jest on trapezem." },
+        { "label": "D", "html": "W siedmiokącie foremnym liczba przekątnych nie jest liczbą pierwszą." },
+        { "label": "E", "html": "Jeśli przekątne czworokąta przecinają się pod kątem prostym, to jest on równoległobokiem." }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2022-2023_malopolskie_q10",
+      "number": 10,
+      "page": 5,
+      "type": "closed_single",
+      "points": 3,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Kątem zewnętrznym wielokąta wypukłego nazywamy kąt przyległy do danego kąta wewnętrznego tego wielokąta. Dla każdego kąta wewnętrznego ustalamy jeden kąt zewnętrzny. Ile jest równa suma miar tak ustalonych kątów zewnętrznych w dziesięciokącie foremnym?</p>",
+      "choices": [
+        { "label": "A", "html": "60°" },
+        { "label": "B", "html": "90°" },
+        { "label": "C", "html": "180°" },
+        { "label": "D", "html": "270°" },
+        { "label": "E", "html": "360°" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "E",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2022-2023_malopolskie_q11",
+      "number": 11,
+      "page": 5,
+      "type": "closed_single",
+      "points": 3,
+      "topics": [
+        "NWW / NWD",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Na jednej osi liczbowej, na której przyjęto jednostkę równą 1 cm, Kasia, Basia i Ola zaznaczały punkty zgodnie ze zwrotem osi. Kasia zaznaczyła punkt o współrzędnej 0, a następne punkty zaznaczała co 9 cm. Basia także zaznaczyła punkt o współrzędnej 0, a kolejne punkty zaznaczała co 15 cm. Ola również zaznaczyła najpierw punkt o współrzędnej 0, a następne punkty zaznaczała co <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><msqrt><mn>2</mn></msqrt></math> cm. Która z poniższych liczb jest współrzędną punktu, który został zaznaczony przez każdą z trzech dziewcząt w tym samym miejscu na osi i ma współrzędną dodatnią?</p>",
+      "choices": [
+        { "label": "A", "html": "45" },
+        { "label": "B", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>45</mn><msqrt><mn>2</mn></msqrt></math>" },
+        { "label": "C", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>90</mn><msqrt><mn>2</mn></msqrt></math>" },
+        { "label": "D", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>270</mn><msqrt><mn>2</mn></msqrt></math>" },
+        { "label": "E", "html": "Taki punkt nie istnieje." }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "E",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2022-2023_malopolskie_q12",
+      "number": 12,
+      "page": 5,
+      "type": "closed_single",
+      "points": 3,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>W pewnym trapezie równoramiennym przekątne przecinają się pod kątem prostym. Jedna przekątna ma długość równą 10. Ile jest równe pole tego trapezu?</p>",
+      "choices": [
+        { "label": "A", "html": "25" },
+        { "label": "B", "html": "50" },
+        { "label": "C", "html": "100" },
+        { "label": "D", "html": "125" },
+        { "label": "E", "html": "150" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2022-2023_malopolskie_q13",
+      "number": 13,
+      "page": 5,
+      "type": "closed_single",
+      "points": 3,
+      "topics": [
+        "trójkąty",
+        "proporcjonalność odwrotna"
+      ],
+      "prompt_html": "<p>Które trzy liczby mogą być długościami trzech wysokości w pewnym trójkącie?</p>",
+      "choices": [
+        { "label": "A", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>6</mn></mfrac><mo>,</mo><mfrac><mn>1</mn><mn>7</mn></mfrac><mo>,</mo><mfrac><mn>1</mn><mn>10</mn></mfrac></math>" },
+        { "label": "B", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>,</mo><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>,</mo><mfrac><mn>2</mn><mn>12</mn></mfrac></math>" },
+        { "label": "C", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>6</mn></mfrac><mo>,</mo><mfrac><mn>14</mn><mn>15</mn></mfrac><mo>,</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></math>" },
+        { "label": "D", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>6</mn></mfrac><mo>,</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>,</mo><mfrac><mn>3</mn><mn>15</mn></mfrac></math>" },
+        { "label": "E", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>6</mn></mfrac><mo>,</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>,</mo><mfrac><mn>1</mn><mn>9</mn></mfrac></math>" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2022-2023_malopolskie_q14",
+      "number": 14,
+      "page": 6,
+      "type": "closed_single",
+      "points": 3,
+      "topics": [
+        "równania z jedną zmienną",
+        "zagadki logiczne"
+      ],
+      "prompt_html": "<p>Obecnie Joasia jest dwa razy młodsza od Wioli oraz dwukrotnie starsza niż była wtedy, kiedy Arek miał tyle lat, ile Wiola ma teraz. Za cztery lata Joasia, Wiola i Arek będą mieli razem 100 lat. Ile lat ma obecnie Arek?</p>",
+      "choices": [
+        { "label": "A", "html": "24" },
+        { "label": "B", "html": "28" },
+        { "label": "C", "html": "32" },
+        { "label": "D", "html": "36" },
+        { "label": "E", "html": "40" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "E",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2022-2023_malopolskie_q15",
+      "number": 15,
+      "page": 7,
+      "type": "open",
+      "points": 8,
+      "topics": [
+        "potęgi i pierwiastki",
+        "szacowanie (zamiast obliczania)",
+        "prawdopodobieństwo"
+      ],
+      "prompt_html": "<p>Rozważmy liczby naturalne spełniające następujące warunki:</p><p>(i) liczba leży na osi liczbowej między liczbą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>37</mn></msqrt><msqrt><mn>3</mn></msqrt></mfrac><mo>−</mo><mn>1</mn></math> a liczbą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>291</mn></msqrt><mo>−</mo><mn>1</mn></math>,</p><p>(ii) liczba jest większa od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mn>32</mn><mn>3</mn></mroot></math> i jednocześnie mniejsza od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><msup><mn>2</mn><mn>2</mn></msup></msup><mo>+</mo><mroot><mn>54</mn><mn>3</mn></mroot></math>.</p><p>a) (3p) Wskaż wszystkie liczby naturalne spełniające tylko warunek (i). Odpowiedź uzasadnij.</p><p>b) (3p) Ile jest liczb naturalnych spełniających jednocześnie warunek (i) i warunek (ii)? Odpowiedź uzasadnij.</p><p>c) (2p) Spośród liczb naturalnych spełniających tylko warunek (i) losujemy jedną liczbę. Jakie jest prawdopodobieństwo, że nie jest ona kwadratem liczby naturalnej?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "a) 3, 4, 5, …, 16 (liczby naturalne od 3 do 16);  b) 13;  c) 11/14",
+        "solution_html": "<p><strong>a)</strong> Najpierw <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>37</mn></msqrt><msqrt><mn>3</mn></msqrt></mfrac><mo>−</mo><mn>1</mn><mo>=</mo><mfrac><msqrt><mn>111</mn></msqrt><mn>3</mn></mfrac><mo>−</mo><mn>1</mn></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>=</mo><msqrt><mn>100</mn></msqrt><mo>&lt;</mo><msqrt><mn>111</mn></msqrt><mo>&lt;</mo><msqrt><mn>121</mn></msqrt><mo>=</mo><mn>11</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>&lt;</mo><mfrac><msqrt><mn>111</mn></msqrt><mn>3</mn></mfrac><mo>−</mo><mn>1</mn><mo>&lt;</mo><mn>2</mn><mfrac><mn>2</mn><mn>3</mn></mfrac></math>. Ponadto <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>17</mn><mo>=</mo><msqrt><mn>289</mn></msqrt><mo>&lt;</mo><msqrt><mn>291</mn></msqrt><mo>&lt;</mo><msqrt><mn>324</mn></msqrt><mo>=</mo><mn>18</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mo>&lt;</mo><msqrt><mn>291</mn></msqrt><mo>−</mo><mn>1</mn><mo>&lt;</mo><mn>17</mn></math>. Liczby naturalne leżące między tymi wartościami to 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.</p><p><strong>b)</strong> Szacujemy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>=</mo><mroot><mn>27</mn><mn>3</mn></mroot><mo>&lt;</mo><mroot><mn>32</mn><mn>3</mn></mroot><mo>&lt;</mo><mroot><mn>64</mn><mn>3</mn></mroot><mo>=</mo><mn>4</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><msup><mn>2</mn><mn>2</mn></msup></msup><mo>=</mo><msup><mn>2</mn><mn>4</mn></msup><mo>=</mo><mn>16</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>&lt;</mo><mroot><mn>54</mn><mn>3</mn></mroot><mo>&lt;</mo><mn>4</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>19</mn><mo>&lt;</mo><msup><mn>2</mn><msup><mn>2</mn><mn>2</mn></msup></msup><mo>+</mo><mroot><mn>54</mn><mn>3</mn></mroot><mo>&lt;</mo><mn>20</mn></math>. Warunek (ii) spełniają liczby 4, 5, …, 19, więc oba warunki jednocześnie spełniają liczby 4, 5, …, 16 — jest ich 13.</p><p><strong>c)</strong> Warunek (i) spełnia 14 liczb (3–16). Kwadratami liczb naturalnych są wśród nich 4, 9, 16, czyli 3 liczby. Zostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>14</mn><mo>−</mo><mn>3</mn><mo>=</mo><mn>11</mn></math> liczb, które nie są kwadratami. Szukane prawdopodobieństwo wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>11</mn><mn>14</mn></mfrac></math>.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2022-2023_malopolskie_q16",
+      "number": 16,
+      "page": 9,
+      "type": "open",
+      "points": 9,
+      "topics": [
+        "geometria",
+        "trójkąty",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Na bokach kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>, którego bok ma długość 1, zbudowano trójkąty równoboczne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AEB</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BFC</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CGD</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DHA</mi></math> otrzymując w ten sposób ośmiokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AEBFCGDH</mi></math> (patrz rysunek).</p><p>a) (2p) Oblicz miarę kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>HCB</mi></math>.</p><p>b) (3p) Oblicz długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>HC</mi></math>.</p><p>c) (2p) Oblicz kąt przecięcia odcinków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>HB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EC</mi></math>.</p><p>d) (2p) Wykaż, że pole czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EBCH</mi></math> jest równe polu sześciokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EBCDHA</mi></math> i oblicz jego wartość.</p>",
+      "choices": [],
+      "figures": [
+        "rejonowy_2022-2023_malopolskie_q16_fig1.png"
+      ],
+      "answer": {
+        "correct": "a) 75°;  b) √(2+√3);  c) 90°;  d) 1 + √3/2",
+        "solution_html": "<p><strong>a)</strong> Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>HDC</mi></math> jest równoramienny (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>HD</mi><mo>=</mo><mi>DC</mi></math>), a miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>HDC</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn><mo>°</mo><mo>+</mo><mn>90</mn><mo>°</mo><mo>=</mo><mn>150</mn><mo>°</mo></math>. Zatem miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>HCD</mi></math> jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>180</mn><mo>°</mo><mo>−</mo><mn>150</mn><mo>°</mo></mrow><mn>2</mn></mfrac><mo>=</mo><mn>15</mn><mo>°</mo></math>, więc miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>HCB</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>90</mn><mo>°</mo><mo>−</mo><mn>15</mn><mo>°</mo><mo>=</mo><mn>75</mn><mo>°</mo></math>.</p><p><strong>b)</strong> Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ΔHDC</mi><mo>≅</mo><mi>ΔHAB</mi></math> (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>HD</mi><mo>=</mo><mi>DC</mi><mo>=</mo><mi>HA</mi><mo>=</mo><mi>AB</mi><mo>=</mo><mn>1</mn></math>), trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BHC</mi></math> jest równoramienny o podstawie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi><mo>=</mo><mn>1</mn></math> i wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac></math>. Z twierdzenia Pitagorasa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>HC</mi><mo>=</mo><msqrt><mrow><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>2</mn><mo>+</mo><msqrt><mn>3</mn></msqrt></mrow></msqrt></math>.</p><p><strong>c)</strong> Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CEB</mi></math> to 15°, a miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EBH</mi></math> to 75°. Z sumy kątów w trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EBP</mi></math> (gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> jest punktem przecięcia) wynika, że kąt przecięcia odcinków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>HB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EC</mi></math> ma miarę 90°.</p><p><strong>d)</strong> Z przystawania trójkątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ΔHDC</mi><mo>≅</mo><mi>ΔHAE</mi></math> wynika, że pole czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EBCH</mi></math> jest równe polu sześciokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EBCDHA</mi></math>, czyli sumie pola kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> oraz pól dwóch trójkątów równobocznych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABE</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>HAD</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>1</mn><mn>2</mn></msup><mo>+</mo><mn>2</mn><mo>·</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>4</mn></mfrac><mo>=</mo><mn>1</mn><mo>+</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac></math>.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2022-2023_malopolskie_q17",
+      "number": 17,
+      "page": 11,
+      "type": "open",
+      "points": 9,
+      "topics": [
+        "procenty",
+        "prawdopodobieństwo"
+      ],
+      "prompt_html": "<p>Za siedmioma lasami, za siedmioma rzekami na Górze Przeznaczenia stary Czarodziej w trzech naczyniach ma roztopione metale trzech różnych mocy: w pierwszym naczyniu 100 g metalu mocy władzy, w drugim 100 g metalu mocy miłości, a w trzecim 100 g metalu mocy mądrości. Czarodziej z pierwszego naczynia przelewa do drugiego i trzeciego po 10 g metalu mocy władzy i miesza dokładnie oddzielnymi łyżkami zawartości tych naczyń. Potem z drugiego i trzeciego naczynia Czarodziej odmierza po 10 g mieszanin i wlewa je do pierwszego naczynia i także miesza w nim dokładnie czystą łyżką. Na koniec Czarodziej tworzy przy użyciu trzech identycznych form:</p><ul><li>z całej zawartości pierwszego naczynia pierścień władzy,</li><li>z całej zawartości drugiego naczynia pierścień miłości,</li><li>z całej zawartości trzeciego naczynia pierścień mądrości.</li></ul><p>W tej baśni warunki były idealne: łyżki i naczynia były cudownie odporne na wysoką temperaturę, a ich obecność nie wpłynęła na skład mieszanin, roztopione metale dokładnie się wymieszały w odpowiednich naczyniach i w całości spłynęły z łyżek do naczyń, masa składników mieszanin nie uległa zmianie podczas tworzenia pierścieni, Czarodziej nie uronił ani kropli na żadnym etapie i tak dalej, i tak dalej… A Ty, drogi Uczniu, rozwiń poniższe matematyczne wątki tej opowieści.</p><p>a) (4p) Oblicz procentową zawartość masy metalu mocy władzy w pierścieniu władzy.</p><p>b) (3p) Oceń prawdziwość podanych zdań. Wpisz PRAWDA lub FAŁSZ w miejsce wyznaczone po prawej stronie zdań I, II i III.</p><ol type=\"I\"><li>W pierścieniu władzy masa metalu mocy mądrości jest większa niż masa metalu mocy władzy w pierścieniu mądrości.</li><li>W pierścieniu mądrości masa metalu mocy władzy jest mniejsza niż masa metalu mocy miłości w pierścieniu władzy.</li><li>W pierścieniu władzy masa metalu mocy miłości jest taka sama jak masa metalu mocy władzy w pierścieniu miłości.</li></ol><p>c) (2p) Wszystkie trzy pierścienie wyglądają identycznie. Czarodziej wybiera losowo jeden z nich. Jakie jest prawdopodobieństwo, że masa metalu mocy władzy w wylosowanym pierścieniu jest mniejsza, niż łączna masa metalu mocy miłości w pozostałych dwóch pierścieniach?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "a) 81 9/11 % (= 900/11 %);  b) I FAŁSZ, II FAŁSZ, III PRAWDA;  c) 2/3",
+        "solution_html": "<p><strong>a)</strong> W pierwszym naczyniu pozostaje 80 g metalu mocy władzy. Do drugiego i trzeciego naczynia trafia po 10 g metalu mocy władzy, więc jego stężenie w każdym z nich to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>10</mn><mtext> g</mtext></mrow><mrow><mn>110</mn><mtext> g</mtext></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>11</mn></mfrac></math>. Odmierzone po 10 g mieszaniny zawierają po <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>10</mn><mn>11</mn></mfrac></math> g metalu mocy władzy. Zatem w pierwszym naczyniu masa metalu mocy władzy wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>80</mn><mo>+</mo><mfrac><mn>10</mn><mn>11</mn></mfrac><mo>+</mo><mfrac><mn>10</mn><mn>11</mn></mfrac><mo>=</mo><mfrac><mn>900</mn><mn>11</mn></mfrac><mo>=</mo><mn>81</mn><mfrac><mn>9</mn><mn>11</mn></mfrac></math> g w 100 g stopu, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>81</mn><mfrac><mn>9</mn><mn>11</mn></mfrac><mo>%</mo></math>.</p><p><strong>b)</strong> I. FAŁSZ, II. FAŁSZ, III. PRAWDA.</p><p><strong>c)</strong> Każdy pierścień waży 100 g. Masa metalu mocy władzy w pierścieniu władzy to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>81</mn><mfrac><mn>9</mn><mn>11</mn></mfrac></math> g, a w pierścieniach miłości i mądrości po <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mfrac><mn>1</mn><mn>11</mn></mfrac></math> g. Łączna masa metalu mocy miłości we wszystkich pierścieniach to 100 g. Sprawdzając trzy wybory (pierścień władzy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>81</mn><mfrac><mn>9</mn><mn>11</mn></mfrac><mo>&lt;</mo><mn>90</mn><mfrac><mn>10</mn><mn>11</mn></mfrac></math> — spełnia; pierścień mądrości: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mfrac><mn>1</mn><mn>11</mn></mfrac><mo>&lt;</mo><mn>100</mn></math> — spełnia; pierścień miłości: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mfrac><mn>1</mn><mn>11</mn></mfrac><mo>=</mo><mn>9</mn><mfrac><mn>1</mn><mn>11</mn></mfrac></math> — nie spełnia). Warunek spełniają 2 z 3 wyborów, więc prawdopodobieństwo wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math>.</p>"
+      }
+    }
+  ]
+}

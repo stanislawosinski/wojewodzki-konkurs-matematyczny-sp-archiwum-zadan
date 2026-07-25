@@ -1,0 +1,760 @@
+{
+  "source_file": "rejonowy/2022_lubuskie.pdf",
+  "answers_file": "rejonowy/2022_lubuskie_answers.pdf",
+  "competition": "Konkurs przedmiotowy z matematyki dla uczniów szkół podstawowych (lubuskie)",
+  "school_type": "podstawowa",
+  "stage": "rejonowy",
+  "wojewodztwo": "lubuskie",
+  "school_year": "2021/2022",
+  "date": "2022-02-14",
+  "total_questions": 33,
+  "max_points": 40,
+  "questions": [
+    {
+      "id": "rejonowy_2022_lubuskie_q1",
+      "number": 1,
+      "page": 1,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "procenty"
+      ],
+      "prompt_html": "<p>Walentyna dostała bombonierkę, w której było 25 czekoladek. Sama zjadła 40% czekoladek, a jej brat Kazik zjadł 40% pozostałych. Ile procent czekoladek zostawili w bombonierce?</p>",
+      "choices": [
+        { "label": "A", "html": "60%" },
+        { "label": "B", "html": "44%" },
+        { "label": "C", "html": "36%" },
+        { "label": "D", "html": "20%" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2022_lubuskie_q2",
+      "number": 2,
+      "page": 1,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><msup><mn>14</mn><mn>2022</mn></msup></msqrt></math> jest równa</p>",
+      "choices": [
+        { "label": "A", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>7</mn><mn>2022</mn></msup></math>" },
+        { "label": "B", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>7</mn><mn>1011</mn></msup></math>" },
+        { "label": "C", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><msqrt><mn>14</mn></msqrt><mo>)</mo></mrow><mn>1011</mn></msup></math>" },
+        { "label": "D", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>14</mn><mn>1011</mn></msup></math>" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2022_lubuskie_q3",
+      "number": 3,
+      "page": 1,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Na poniższym rysunku widać dwa jednakowe kwadraty o boku a. Która z zacieniowanych figur (trójkąt czy trapez prostokątny) ma większe pole i o ile większe?</p>",
+      "choices": [
+        { "label": "A", "html": "Pole trapezu jest większe o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mn>2</mn></mfrac></math>." },
+        { "label": "B", "html": "Pole trójkąta jest większe o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,5</mn><msup><mi>a</mi><mn>2</mn></msup></math>." },
+        { "label": "C", "html": "Pole trójkąta jest większe o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mn>2</mn></mfrac></math>." },
+        { "label": "D", "html": "Pole trapezu jest większe o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,5</mn><msup><mi>a</mi><mn>2</mn></msup></math>." }
+      ],
+      "figures": [
+        "rejonowy_2022_lubuskie_q3_fig1.png"
+      ],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2022_lubuskie_q4",
+      "number": 4,
+      "page": 1,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "zagadki logiczne"
+      ],
+      "prompt_html": "<p>Ślimak chciał wejść na sosnę o wysokości 15 m. Każdego dnia przemieszczał się o 5 m w górę, a w nocy obsuwał się o 4 metry w dół. W którym dniu wędrówki ślimak osiągnie wierzchołek sosny?</p>",
+      "choices": [
+        { "label": "A", "html": "W dwudziestym dniu." },
+        { "label": "B", "html": "W osiemnastym dniu." },
+        { "label": "C", "html": "W piętnastym dniu." },
+        { "label": "D", "html": "W jedenastym dniu." }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2022_lubuskie_q5",
+      "number": 5,
+      "page": 1,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Na planie miasta w skali 1 : 2000 kwadratowy plac ma pole 6,25 cm². W rzeczywistości obwód placu jest równy</p>",
+      "choices": [
+        { "label": "A", "html": "1000 m" },
+        { "label": "B", "html": "500 m" },
+        { "label": "C", "html": "200 m" },
+        { "label": "D", "html": "190 m" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2022_lubuskie_q6",
+      "number": 6,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "reszta z dzielenia"
+      ],
+      "prompt_html": "<p>Liczbę naturalną, która przy dzieleniu przez 7 daje resztę 5, można zapisać w postaci</p>",
+      "choices": [
+        { "label": "A", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>+</mo><mn>5</mn></math>" },
+        { "label": "B", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mi>n</mi><mo>+</mo><mn>5</mn></math>" },
+        { "label": "C", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>+</mo><mn>7</mn></math>" },
+        { "label": "D", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mi>n</mi><mo>+</mo><mn>7</mn></math>" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2022_lubuskie_q7",
+      "number": 7,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "koła / okręgi",
+        "geometria"
+      ],
+      "prompt_html": "<p>Na poniższym rysunku przedstawiono proste styczne do okręgów. Kąt α ma miarę</p>",
+      "choices": [
+        { "label": "A", "html": "100°" },
+        { "label": "B", "html": "90°" },
+        { "label": "C", "html": "80°" },
+        { "label": "D", "html": "60°" }
+      ],
+      "figures": [
+        "rejonowy_2022_lubuskie_q7_fig1.png"
+      ],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2022_lubuskie_q8",
+      "number": 8,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "proporcjonalność prosta",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Jesienią w sadzie pana Jana rosło kilkanaście grusz i 12 jabłoni. Wiosną pan Jan zasadził jeszcze 3 grusze i 2 jabłonie, wtedy okazało się, że stosunek liczby grusz do liczby jabłoni nie zmienił się. Ile grusz rośnie teraz w sadzie pana Jana?</p>",
+      "choices": [
+        { "label": "A", "html": "18" },
+        { "label": "B", "html": "20" },
+        { "label": "C", "html": "21" },
+        { "label": "D", "html": "24" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2022_lubuskie_q9",
+      "number": 9,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "potęgi i pierwiastki",
+        "podzielność"
+      ],
+      "prompt_html": "<p>Suma cyfr liczby będącej wynikiem działania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>95</mn></msup><mo>−</mo><mn>95</mn></math> wynosi</p>",
+      "choices": [
+        { "label": "A", "html": "842" },
+        { "label": "B", "html": "833" },
+        { "label": "C", "html": "633" },
+        { "label": "D", "html": "108" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2022_lubuskie_q10",
+      "number": 10,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "wzory skróconego mnożenia"
+      ],
+      "prompt_html": "<p>Średnia arytmetyczna liczb: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow></mfrac></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><mi>a</mi><mo>−</mo><mi>b</mi></mrow></mfrac></math> ma postać</p>",
+      "choices": [
+        { "label": "A", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><msup><mi>b</mi><mn>2</mn></msup></mrow></mfrac></math>" },
+        { "label": "B", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mo>−</mo><mi>b</mi></mrow><mrow><mi>a</mi><mi>b</mi></mrow></mfrac></math>" },
+        { "label": "C", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mrow><mn>2</mn><mi>a</mi><mi>b</mi></mrow></mfrac></math>" },
+        { "label": "D", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mo>−</mo><mi>b</mi></mrow><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><msup><mi>b</mi><mn>2</mn></msup></mrow></mfrac></math>" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2022_lubuskie_q11",
+      "number": 11,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "kombinatoryka"
+      ],
+      "prompt_html": "<p>Emilia trzykrotnie rzuciła monetą. Ile jest wszystkich możliwych wyników tego doświadczenia?</p>",
+      "choices": [
+        { "label": "A", "html": "2" },
+        { "label": "B", "html": "3" },
+        { "label": "C", "html": "6" },
+        { "label": "D", "html": "8" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2022_lubuskie_q12",
+      "number": 12,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "reszta z dzielenia",
+        "zagadki logiczne"
+      ],
+      "prompt_html": "<p>Pewnego roku w listopadzie było 5 niedziel i 5 poniedziałków. W jakim dniu tygodnia wypadła wówczas Wigilia (24 grudnia)?</p>",
+      "choices": [
+        { "label": "A", "html": "w środę" },
+        { "label": "B", "html": "w czwartek" },
+        { "label": "C", "html": "w piątek" },
+        { "label": "D", "html": "w sobotę" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2022_lubuskie_q13",
+      "number": 13,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "geometria",
+        "dwusieczna kąta / symetralna odcinka"
+      ],
+      "prompt_html": "<p>Maciek narysował trapez równoramienny o podstawach długości 8 cm i 15 cm. Jedna z przekątnych zawiera się w dwusiecznej kąta ostrego tego trapezu. Jaki jest obwód tego trapezu?</p>",
+      "choices": [
+        { "label": "A", "html": "39 cm" },
+        { "label": "B", "html": "35 cm" },
+        { "label": "C", "html": "31 cm" },
+        { "label": "D", "html": "23 cm" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2022_lubuskie_q14",
+      "number": 14,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "procenty"
+      ],
+      "prompt_html": "<p>Ser feta zawiera 30% tłuszczu. Ile dekagramów tłuszczu zawiera 400 gramów tego sera?</p>",
+      "choices": [
+        { "label": "A", "html": "120 dag" },
+        { "label": "B", "html": "12 dag" },
+        { "label": "C", "html": "12 g" },
+        { "label": "D", "html": "125 g" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2022_lubuskie_q15",
+      "number": 15,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "koła / okręgi",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Kwadrat o boku π ma powierzchnię równą powierzchni koła. Średnica tego koła ma długość</p>",
+      "choices": [
+        { "label": "A", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2</mn><mi>π</mi></msqrt></math>" },
+        { "label": "B", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>π</mi></math>" },
+        { "label": "C", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msup><mi>π</mi><mn>2</mn></msup></math>" },
+        { "label": "D", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mi>π</mi></msqrt></math>" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2022_lubuskie_q16",
+      "number": 16,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "koła / okręgi"
+      ],
+      "prompt_html": "<p>Jaka jest długość narysowanej linii? Przyjmij, że bok kratki jest równy 1.</p>",
+      "choices": [
+        { "label": "A", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mi>π</mi></math>" },
+        { "label": "B", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>π</mi></math>" },
+        { "label": "C", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>π</mi></math>" },
+        { "label": "D", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,75</mn><mi>π</mi></math>" }
+      ],
+      "figures": [
+        "rejonowy_2022_lubuskie_q16_fig1.png"
+      ],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2022_lubuskie_q17",
+      "number": 17,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "zliczanie / metody zliczania",
+        "kombinatoryka"
+      ],
+      "prompt_html": "<p>Wiktor układa z cyfr od 1 do 5 liczby trzycyfrowe. Ile najwięcej może utworzyć liczb parzystych o różnych cyfrach?</p>",
+      "choices": [
+        { "label": "A", "html": "24" },
+        { "label": "B", "html": "19" },
+        { "label": "C", "html": "12" },
+        { "label": "D", "html": "10" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2022_lubuskie_q18",
+      "number": 18,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "trójkąty"
+      ],
+      "prompt_html": "<p>Jeśli trójkąt równoboczny o boku x ma powierzchnię P, to trójkąt równoboczny o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><msqrt><mn>3</mn></msqrt></math> ma powierzchnię</p>",
+      "choices": [
+        { "label": "A", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><msqrt><mn>3</mn></msqrt></math>" },
+        { "label": "B", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>P</mi></math>" },
+        { "label": "C", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mi>P</mi></mrow><mn>2</mn></mfrac></math>" },
+        { "label": "D", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>P</mi><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac></math>" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2022_lubuskie_q19",
+      "number": 19,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "zliczanie / metody zliczania"
+      ],
+      "prompt_html": "<p>W szkolnej stołówce można dziś zjeść trzy rodzaje zup i cztery rodzaje drugiego dania. Na ile sposobów można skompletować dwudaniowy obiad?</p>",
+      "choices": [
+        { "label": "A", "html": "3" },
+        { "label": "B", "html": "4" },
+        { "label": "C", "html": "7" },
+        { "label": "D", "html": "12" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2022_lubuskie_q20",
+      "number": 20,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>W której ćwiartce układu współrzędnych leży punkt K = (a, 3), gdy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>&lt;</mo><mn>0</mn></math>?</p>",
+      "choices": [
+        { "label": "A", "html": "W I ćwiartce." },
+        { "label": "B", "html": "W II ćwiartce." },
+        { "label": "C", "html": "W III ćwiartce." },
+        { "label": "D", "html": "W IV ćwiartce." }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2022_lubuskie_q21",
+      "number": 21,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Komputerowy wirus niszczy przestrzeń na dysku. Pierwszego dnia zniszczył <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math> tej przestrzeni, drugiego dnia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> tego, co zostało. Jaka część dysku pozostała użytkownikowi tego komputera po dwóch dniach?</p>",
+      "choices": [
+        { "label": "A", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math>" },
+        { "label": "B", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math>" },
+        { "label": "C", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>6</mn></mfrac></math>" },
+        { "label": "D", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>12</mn></mfrac></math>" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2022_lubuskie_q22",
+      "number": 22,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Jeśli waga na poniższym rysunku jest w równowadze, to jedna kulka ma masę</p>",
+      "choices": [
+        { "label": "A", "html": "100000 mg" },
+        { "label": "B", "html": "0,01 kg" },
+        { "label": "C", "html": "200 g" },
+        { "label": "D", "html": "0,00002 t" }
+      ],
+      "figures": [
+        "rejonowy_2022_lubuskie_q22_fig1.png"
+      ],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2022_lubuskie_q23",
+      "number": 23,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>80</mn></msqrt><mo>−</mo><mn>2</mn><msqrt><mn>20</mn></msqrt><mo>+</mo><mn>3</mn><msqrt><mn>45</mn></msqrt></math> jest równa</p>",
+      "choices": [
+        { "label": "A", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>9</mn><msqrt><mn>5</mn></msqrt></math>" },
+        { "label": "B", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>5</mn></msqrt></math>" },
+        { "label": "C", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><msqrt><mn>5</mn></msqrt></math>" },
+        { "label": "D", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>35</mn><msqrt><mn>5</mn></msqrt></math>" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2022_lubuskie_q24",
+      "number": 24,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "bryły"
+      ],
+      "prompt_html": "<p>Z prostopadłościanu wycięto bryłę przedstawioną na rysunku. Jaka jest objętość tej bryły?</p>",
+      "choices": [
+        { "label": "A", "html": "192" },
+        { "label": "B", "html": "96" },
+        { "label": "C", "html": "64" },
+        { "label": "D", "html": "32" }
+      ],
+      "figures": [
+        "rejonowy_2022_lubuskie_q24_fig1.png"
+      ],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2022_lubuskie_q25",
+      "number": 25,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "liczby rzymskie"
+      ],
+      "prompt_html": "<p>Ewa zapisała różnicę liczb CMLXXII i CCCXXVIII, stosując system rzymski. Która z wymienionych liczb jest wynikiem tego działania?</p>",
+      "choices": [
+        { "label": "A", "html": "DCXLVI" },
+        { "label": "B", "html": "DCXLIV" },
+        { "label": "C", "html": "DCLXVI" },
+        { "label": "D", "html": "DCLXIV" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2022_lubuskie_q26",
+      "number": 26,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Wynikiem działania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>−</mo><mn>12</mn><mo>−</mo><mo>|</mo><mo>−</mo><mn>5</mn><mo>|</mo><mo>)</mo><mo>·</mo><mo>|</mo><mn>5</mn><mo>−</mo><mn>2</mn><mo>|</mo></math> jest liczba</p>",
+      "choices": [
+        { "label": "A", "html": "−51" },
+        { "label": "B", "html": "−21" },
+        { "label": "C", "html": "21" },
+        { "label": "D", "html": "51" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2022_lubuskie_q27",
+      "number": 27,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Pan Ksawery w wieku 50 lat jest ojcem córki i syna. Syn jest o 4 lata starszy od swojej siostry. Za 8 lat wiek pana Ksawerego będzie równy sumie lat jego syna i córki. Ile lat ma syn pana Ksawerego?</p>",
+      "choices": [
+        { "label": "A", "html": "13 lat." },
+        { "label": "B", "html": "17 lat." },
+        { "label": "C", "html": "19 lat." },
+        { "label": "D", "html": "23 lata." }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2022_lubuskie_q28",
+      "number": 28,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Jeśli wskazówka minutowa zegara obróciła się o kąt 60°, to wskazówka godzinowa w tym samym czasie obróciła się o kąt</p>",
+      "choices": [
+        { "label": "A", "html": "60°" },
+        { "label": "B", "html": "30°" },
+        { "label": "C", "html": "10°" },
+        { "label": "D", "html": "5°" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2022_lubuskie_q29",
+      "number": 29,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Spośród poniższych równań jedno jest tożsamościowe. Które to równanie?</p>",
+      "choices": [
+        { "label": "A", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>(</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>4</mn><mo>)</mo><mo>=</mo><mn>2</mn><mo>(</mo><mn>3</mn><mi>x</mi><mo>−</mo><mn>4</mn><mo>)</mo></math>" },
+        { "label": "B", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>(</mo><mn>3</mn><mi>x</mi><mo>−</mo><mn>6</mn><mo>)</mo><mo>=</mo><mfrac><mn>3</mn><mn>5</mn></mfrac><mo>(</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo>)</mo></math>" },
+        { "label": "C", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>(</mo><mn>18</mn><mi>x</mi><mo>+</mo><mn>6</mn><mo>)</mo><mo>=</mo><mfrac><mn>2</mn><mn>9</mn></mfrac><mo>(</mo><mn>9</mn><mi>x</mi><mo>−</mo><mn>3</mn><mo>)</mo></math>" },
+        { "label": "D", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>7</mn><mo>)</mo><mo>=</mo><mn>5</mn><mo>(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>7</mn><mo>)</mo></math>" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2022_lubuskie_q30",
+      "number": 30,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "geometria",
+        "proporcjonalność prosta"
+      ],
+      "prompt_html": "<p>W szkolnej sali komputerowej poprowadzono po podłodze kabel o długości 14 m wzdłuż dwóch sąsiednich ścian tak, że stosunek długości jednej części do drugiej wynosi 4 : 3. Sala komputerowa ma kształt prostopadłościanu. Jaka jest odległość między końcami kabla?</p>",
+      "choices": [
+        { "label": "A", "html": "5 m" },
+        { "label": "B", "html": "7 m" },
+        { "label": "C", "html": "9 m" },
+        { "label": "D", "html": "10 m" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2022_lubuskie_q31",
+      "number": 31,
+      "page": 5,
+      "type": "true_false",
+      "points": 3,
+      "topics": [
+        "podzielność",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Oceń, czy podane niżej informacje o liczbach są prawdziwe.</p>",
+      "choices": [
+        { "label": "1", "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>15</mn><mn>20</mn></msup><mo>−</mo><mn>1</mn></math> jest podzielna przez 2." },
+        { "label": "2", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mo>−</mo><mn>3</mn><mo>)</mo></mrow><mn>5</mn></msup><mo>&gt;</mo><msup><mrow><mo>(</mo><mo>−</mo><mn>5</mn><mo>)</mo></mrow><mn>3</mn></msup></math>" },
+        { "label": "3", "html": "Reszta z dzielenia liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>7</mn><mn>8</mn></msup><mo>·</mo><msup><mn>3</mn><mn>8</mn></msup><mo>−</mo><msup><mn>5</mn><mn>7</mn></msup><mo>·</mo><msup><mn>2</mn><mn>7</mn></msup></math> przez 2 jest równa 0." }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PFF",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2022_lubuskie_q32",
+      "number": 32,
+      "page": 5,
+      "type": "true_false",
+      "points": 3,
+      "topics": [
+        "bryły",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Franek ustawił kostki sześcienne o krawędzi 1 jedną na drugiej (jak pokazuje rysunek obok) i zastanawiał się jakie długości mają przekątne tak zbudowanych prostopadłościanów. Oceń poniższe informacje.</p>",
+      "choices": [
+        { "label": "1", "html": "Długość przekątnej prostopadłościanu zbudowanego z dwóch kostek jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>6</mn></msqrt></math>." },
+        { "label": "2", "html": "Prostopadłościan zbudowany z pięciu kostek ma przekątną o długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>6</mn></msqrt></math>." },
+        { "label": "3", "html": "Jeśli Franek zbudowałby prostopadłościan z n takich samych kostek o krawędzi 1, ustawiając jedną kostkę na drugiej, wówczas długość przekątnej takiego prostopadłościanu można wyznaczyć z zależności <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2</mn><mo>+</mo><msup><mi>n</mi><mn>2</mn></msup></msqrt></math>." }
+      ],
+      "figures": [
+        "rejonowy_2022_lubuskie_q32_fig1.png"
+      ],
+      "answer": {
+        "correct": "PFP",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2022_lubuskie_q33",
+      "number": 33,
+      "page": 6,
+      "type": "true_false",
+      "points": 4,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Oceń, czy podane niżej informacje dotyczące symetrii są prawdziwe.</p>",
+      "choices": [
+        { "label": "1", "html": "Punkty symetryczne względem prostej leżą w równych odległościach od osi symetrii." },
+        { "label": "2", "html": "Punkty symetryczne względem początku układu współrzędnych leżą po przeciwnej stronie osi x i po tej samej stronie osi y." },
+        { "label": "3", "html": "Figury symetryczne względem prostej nie są figurami przystającymi." },
+        { "label": "4", "html": "Spośród napisów: SOS, TATA, BAAB, MAM tylko jeden ma oś symetrii." }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PFFP",
+        "solution_html": null
+      }
+    }
+  ]
+}

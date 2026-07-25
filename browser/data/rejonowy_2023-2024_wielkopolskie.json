@@ -1,0 +1,645 @@
+{
+  "source_file": "rejonowy/2023-2024_wielkopolskie.pdf",
+  "answers_file": "rejonowy/2023-2024_wielkopolskie_answers.pdf",
+  "competition": "Wojewódzki Konkurs Matematyczny dla uczniów szkół podstawowych województwa wielkopolskiego",
+  "school_type": "podstawowa",
+  "stage": "rejonowy",
+  "wojewodztwo": "wielkopolskie",
+  "school_year": "2023/2024",
+  "date": null,
+  "total_questions": 20,
+  "max_points": 31,
+  "questions": [
+    {
+      "id": "rejonowy_2023-2024_wielkopolskie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Zosia kupiła w hurtowni <em>x</em> kg moreli i 5 kg wiśni. Razem zapłaciła 33 zł. 1 kg moreli był o 3 zł droższy od 1 kg wiśni. Cena 1 kg moreli opisana za pomocą wyrażenia algebraicznego wynosi:</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>33</mn><mo>−</mo><mn>5</mn><mi>x</mi></mrow><mn>3</mn></mfrac></math> [zł]"
+        },
+        {
+          "label": "B",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>33</mn><mo>−</mo><mn>3</mn><mi>x</mi></mrow><mrow><mi>x</mi><mo>+</mo><mn>5</mn></mrow></mfrac></math> [zł]"
+        },
+        {
+          "label": "C",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>33</mn><mo>−</mo><mn>5</mn><mi>x</mi></mrow><mn>3</mn></mfrac><mo>+</mo><mn>3</mn></math> [zł]"
+        },
+        {
+          "label": "D",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>48</mn><mrow><mi>x</mi><mo>+</mo><mn>5</mn></mrow></mfrac></math> [zł]"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2023-2024_wielkopolskie_q2",
+      "number": 2,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "proporcjonalność prosta",
+        "geometria"
+      ],
+      "prompt_html": "<p>Prostokątna działka o długości 300 m i szerokości 200 m na planie ma powierzchnię równą 60000 cm². Plan sporządzono w skali:</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "1:100000"
+        },
+        {
+          "label": "B",
+          "html": "1:10000"
+        },
+        {
+          "label": "C",
+          "html": "1:1000"
+        },
+        {
+          "label": "D",
+          "html": "1:100"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2023-2024_wielkopolskie_q3",
+      "number": 3,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "proporcjonalność prosta"
+      ],
+      "prompt_html": "<p>Zmienne <em>x</em> i <em>y</em> są wprost proporcjonalne. W tabeli przedstawiono wartości <em>y</em> dla przykładowych wartości <em>x</em>. Który spośród podanych punktów (<em>x</em>, <em>y</em>) należy do tabeli wielkości wprost proporcjonalnych.</p><table><tr><th><em>x</em></th><td>0,625</td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mfrac><mn>3</mn><mn>4</mn></mfrac></math></td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mfrac><mn>1</mn><mn>4</mn></mfrac></math></td></tr><tr><th><em>y</em></th><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>15</mn><mn>16</mn></mfrac></math></td><td>4,125</td><td>6,375</td></tr></table>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "(15, 9)"
+        },
+        {
+          "label": "B",
+          "html": "(12, 18)"
+        },
+        {
+          "label": "C",
+          "html": "(9, 15)"
+        },
+        {
+          "label": "D",
+          "html": "(18, 12)"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2023-2024_wielkopolskie_q4",
+      "number": 4,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "trójkąty"
+      ],
+      "prompt_html": "<p>Dwa boki trójkąta mają długości 3 cm i 7 cm, a trzeci bok ma długość wyrażającą się całkowitą liczbą centymetrów. Ile można zbudować takich trójkątów?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "9"
+        },
+        {
+          "label": "B",
+          "html": "7"
+        },
+        {
+          "label": "C",
+          "html": "5"
+        },
+        {
+          "label": "D",
+          "html": "3"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2023-2024_wielkopolskie_q5",
+      "number": 5,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Odwrotność sumy odwrotności liczb: <em>a</em>, 2<em>a</em> i 6<em>a</em> jest równa:</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>10</mn><mrow><mn>6</mn><mi>a</mi></mrow></mfrac></math>"
+        },
+        {
+          "label": "B",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><mn>8</mn><mi>a</mi></mrow></mfrac></math>"
+        },
+        {
+          "label": "C",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mi>a</mi></math>"
+        },
+        {
+          "label": "D",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mi>a</mi></mrow><mn>5</mn></mfrac></math>"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2023-2024_wielkopolskie_q6",
+      "number": 6,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Dziewięć lat temu ojciec był sześć razy starszy od syna. Za dziewięć lat obaj będą mieli 85 lat. Ile lat ma obecnie syn?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "15 lat"
+        },
+        {
+          "label": "B",
+          "html": "16 lat"
+        },
+        {
+          "label": "C",
+          "html": "17 lat"
+        },
+        {
+          "label": "D",
+          "html": "18 lat"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2023-2024_wielkopolskie_q7",
+      "number": 7,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "geometria",
+        "trójkąty"
+      ],
+      "prompt_html": "<p>Poniższy rysunek przedstawia trapez prostokątny. Pole tego trapezu wynosi:</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>25</mn><mo>+</mo><mn>5</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></math>"
+        },
+        {
+          "label": "B",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>25</mn><msqrt><mn>3</mn></msqrt></math>"
+        },
+        {
+          "label": "C",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>25</mn><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac></math>"
+        },
+        {
+          "label": "D",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>37,5</mn><msqrt><mn>3</mn></msqrt></math>"
+        }
+      ],
+      "figures": [
+        "rejonowy_2023-2024_wielkopolskie_q7_fig1.png"
+      ],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2023-2024_wielkopolskie_q8",
+      "number": 8,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "procenty"
+      ],
+      "prompt_html": "<p>Pudełko żelków bez cukru o masie 150 g kosztowało 9 zł. W nowej dostawie pojawiły się opakowania o masie 280 g w cenie 21 zł za jedno. Cena kilograma żelków bez cukru</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "zmniejszyła się o 15 zł"
+        },
+        {
+          "label": "B",
+          "html": "zwiększyła się o 7,50 zł"
+        },
+        {
+          "label": "C",
+          "html": "wzrosła o 25 %"
+        },
+        {
+          "label": "D",
+          "html": "wzrosła o 20 zł"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2023-2024_wielkopolskie_q9",
+      "number": 9,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "układy równań"
+      ],
+      "prompt_html": "<p>Liczby <em>x</em> i <em>y</em> spełniają układ równań <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>{</mo><mtable columnalign=\"left\"><mtr><mtd><mo>−</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>5</mn><mi>y</mi><mo>=</mo><mn>9</mn></mtd></mtr><mtr><mtd><mn>8</mn><mi>x</mi><mo>−</mo><mn>4</mn><mi>y</mi><mo>=</mo><mo>−</mo><mn>4</mn></mtd></mtr></mtable></math>. Ile jest równa suma liczb <em>x</em> i <em>y</em>?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "7,4"
+        },
+        {
+          "label": "B",
+          "html": "6"
+        },
+        {
+          "label": "C",
+          "html": "3"
+        },
+        {
+          "label": "D",
+          "html": "2,5"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2023-2024_wielkopolskie_q10",
+      "number": 10,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Weronika miała w skarbonce monety pięćdziesięciogroszowe i dziesięciogroszowe – razem 40 sztuk. Pewnego razu zamieniła połowę posiadanych pięćdziesięciogroszówek na dziesięciogroszówki i ma teraz w skarbonce łącznie 60 monet. Ile jest wśród nich dziesięciogroszówek?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "55"
+        },
+        {
+          "label": "B",
+          "html": "45"
+        },
+        {
+          "label": "C",
+          "html": "30"
+        },
+        {
+          "label": "D",
+          "html": "10"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2023-2024_wielkopolskie_q11",
+      "number": 11,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "bryły"
+      ],
+      "prompt_html": "<p>W ostrosłupie prawidłowym stosunek liczby wszystkich krawędzi do liczby wszystkich jego wierzchołków jest równy 5 : 3. Podstawą tego ostrosłupa jest:</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "trójkąt"
+        },
+        {
+          "label": "B",
+          "html": "pięciokąt"
+        },
+        {
+          "label": "C",
+          "html": "siedmiokąt"
+        },
+        {
+          "label": "D",
+          "html": "ośmiokąt"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2023-2024_wielkopolskie_q12",
+      "number": 12,
+      "page": 6,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "zagadki logiczne"
+      ],
+      "prompt_html": "<p>Jeden z trzech przyjaciół miał kota, drugi grał na skrzypcach, a trzeci hodował gekona. Krzysztof nie przepadał za kotami, Witek był niemuzykalny, a kot chętnie czasami gościł u Jacka, który z kolei bał się jaszczurek. Do kogo należał kot, kto był właścicielem skrzypiec, a kto właścicielem gekona?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "Krzysztof – właściciel kota<br>Witek – właściciel skrzypiec<br>Jacek – właściciel gekona"
+        },
+        {
+          "label": "B",
+          "html": "Witek – właściciel kota<br>Jacek – właściciel skrzypiec<br>Krzysztof – właściciel gekona"
+        },
+        {
+          "label": "C",
+          "html": "Jacek – właściciel kota<br>Krzysztof – właściciel skrzypiec<br>Witek – właściciel gekona"
+        },
+        {
+          "label": "D",
+          "html": "Witek – właściciel kota<br>Krzysztof – właściciel skrzypiec<br>Jacek – właściciel gekona"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2023-2024_wielkopolskie_q13",
+      "number": 13,
+      "page": 6,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Na rysunku pomocniczym czworokąta <em>PRST</em> zaznaczono kąt „<em>x</em>”. Oblicz miarę tego kąta, jeśli α = 60°, β = 80°, γ = 40°, δ = 50°.</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "100°"
+        },
+        {
+          "label": "B",
+          "html": "110°"
+        },
+        {
+          "label": "C",
+          "html": "130°"
+        },
+        {
+          "label": "D",
+          "html": "140°"
+        }
+      ],
+      "figures": [
+        "rejonowy_2023-2024_wielkopolskie_q13_fig1.png"
+      ],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2023-2024_wielkopolskie_q14",
+      "number": 14,
+      "page": 6,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "bryły",
+        "trójkąty"
+      ],
+      "prompt_html": "<p>Podstawą ostrosłupa <em>ABCD</em> jest trójkąt <em>ABC</em>. Krawędź <em>AD</em> jest wysokością ostrosłupa (rysunek). Jaka jest objętość tego ostrosłupa, jeśli wiadomo, że |<em>AD</em>| = 12, |<em>BC</em>| = 6, |<em>BD</em>| = |<em>CD</em>| = 13.</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "104"
+        },
+        {
+          "label": "B",
+          "html": "78"
+        },
+        {
+          "label": "C",
+          "html": "48"
+        },
+        {
+          "label": "D",
+          "html": "39"
+        }
+      ],
+      "figures": [
+        "rejonowy_2023-2024_wielkopolskie_q14_fig1.png"
+      ],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "rejonowy_2023-2024_wielkopolskie_q15",
+      "number": 15,
+      "page": 8,
+      "type": "true_false",
+      "points": 3,
+      "topics": [
+        "potęgi i pierwiastki",
+        "usuwanie niewymierności z mianownika"
+      ],
+      "prompt_html": "<p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli zdanie jest fałszywe.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mfrac><mrow><msup><mn>3</mn><mn>18</mn></msup><mo>+</mo><msup><mn>3</mn><mn>30</mn></msup></mrow><mrow><msup><mn>3</mn><mn>24</mn></msup><mo>+</mo><msup><mn>3</mn><mn>12</mn></msup></mrow></mfrac><mn>3</mn></mroot><mo>=</mo><mn>9</mn></math>"
+        },
+        {
+          "label": "2",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><mn>8</mn><msqrt><mrow><mn>18</mn><msqrt><mrow><mn>54</mn><msqrt><mn>36</mn></msqrt></mrow></msqrt></mrow></msqrt></mrow></msqrt><mo>=</mo><mn>12</mn></math>"
+        },
+        {
+          "label": "3",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>5</mn></msqrt><msqrt><mn>2</mn></msqrt></mfrac><mo>+</mo><mfrac><mn>3</mn><msqrt><mn>0,1</mn></msqrt></mfrac><mo>=</mo><mn>3,5</mn><msqrt><mn>10</mn></msqrt></math>"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PPP",
+        "solution_html": "<p>Zdanie 1: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mn>3</mn><mn>18</mn></msup><mo>+</mo><msup><mn>3</mn><mn>30</mn></msup></mrow><mrow><msup><mn>3</mn><mn>24</mn></msup><mo>+</mo><msup><mn>3</mn><mn>12</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mrow><msup><mn>3</mn><mn>18</mn></msup><mo>(</mo><mn>1</mn><mo>+</mo><msup><mn>3</mn><mn>12</mn></msup><mo>)</mo></mrow><mrow><msup><mn>3</mn><mn>12</mn></msup><mo>(</mo><mn>1</mn><mo>+</mo><msup><mn>3</mn><mn>12</mn></msup><mo>)</mo></mrow></mfrac><mo>=</mo><msup><mn>3</mn><mn>6</mn></msup><mo>=</mo><mn>729</mn></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mn>729</mn><mn>3</mn></mroot><mo>=</mo><mn>9</mn></math> — prawda (P).</p><p>Zdanie 2: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>36</mn></msqrt><mo>=</mo><mn>6</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><mn>54</mn><mo>·</mo><mn>6</mn></mrow></msqrt><mo>=</mo><msqrt><mn>324</mn></msqrt><mo>=</mo><mn>18</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><mn>18</mn><mo>·</mo><mn>18</mn></mrow></msqrt><mo>=</mo><mn>18</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><mn>8</mn><mo>·</mo><mn>18</mn></mrow></msqrt><mo>=</mo><msqrt><mn>144</mn></msqrt><mo>=</mo><mn>12</mn></math> — prawda (P).</p><p>Zdanie 3: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>5</mn></msqrt><msqrt><mn>2</mn></msqrt></mfrac><mo>=</mo><mfrac><msqrt><mn>10</mn></msqrt><mn>2</mn></mfrac></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><msqrt><mn>0,1</mn></msqrt></mfrac><mo>=</mo><mn>3</mn><msqrt><mn>10</mn></msqrt></math>, suma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>10</mn></msqrt><mn>2</mn></mfrac><mo>+</mo><mn>3</mn><msqrt><mn>10</mn></msqrt><mo>=</mo><mn>3,5</mn><msqrt><mn>10</mn></msqrt></math> — prawda (P).</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2023-2024_wielkopolskie_q16",
+      "number": 16,
+      "page": 9,
+      "type": "true_false",
+      "points": 3,
+      "topics": [
+        "równania z jedną zmienną",
+        "nierówności"
+      ],
+      "prompt_html": "<p>Tomek, Bartek, Miłosz i Maurycy – miłośnicy muzyki kolekcjonują płyty winylowe. Tomek ma trzy razy więcej płyt od Bartka, Bartek trzy razy więcej od Miłosza, a Miłosz trzy razy więcej od Maurycego. Wiadomo, że razem mają więcej niż 50 płyt, ale mniej niż 100 płyt winylowych.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli zdanie jest fałszywe.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Bartek ma 6 płyt winylowych."
+        },
+        {
+          "label": "2",
+          "html": "Tomek ma w swoim zbiorze o 36 płyt więcej od Bartka."
+        },
+        {
+          "label": "3",
+          "html": "Wszyscy chłopcy mają razem 80 płyt."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FPP",
+        "solution_html": "<p>Niech Maurycy ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> płyt. Wtedy Miłosz ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>m</mi></math>, Bartek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mi>m</mi></math>, a Tomek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>27</mn><mi>m</mi></math>. Razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>40</mn><mi>m</mi></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>50</mn><mo>&lt;</mo><mn>40</mn><mi>m</mi><mo>&lt;</mo><mn>100</mn></math> wynika <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi><mo>=</mo><mn>2</mn></math>. Zatem Maurycy 2, Miłosz 6, Bartek 18, Tomek 54, razem 80 płyt.</p><p>Zdanie 1: Bartek ma 18, a nie 6 — fałsz (F). Zdanie 2: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>54</mn><mo>−</mo><mn>18</mn><mo>=</mo><mn>36</mn></math> — prawda (P). Zdanie 3: razem 80 — prawda (P).</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2023-2024_wielkopolskie_q17",
+      "number": 17,
+      "page": 10,
+      "type": "true_false",
+      "points": 3,
+      "topics": [
+        "sześciokąty foremne"
+      ],
+      "prompt_html": "<p>Siedem sześciokątów foremnych – każdy o boku 4 cm – rozmieszczono tak jak na rysunku. Punkty <em>K</em>, <em>L</em>, <em>M</em>, <em>N</em>, <em>P</em>, <em>R</em>, <em>S</em> są środkami symetrii tych sześciokątów.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli zdanie jest fałszywe.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Długość jednej krawędzi sześciokąta <em>KLMNPR</em> jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>3</mn></msqrt></math> cm."
+        },
+        {
+          "label": "2",
+          "html": "Pole powstałego sześciokąta wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>48</mn><msqrt><mn>3</mn></msqrt></math> cm²."
+        },
+        {
+          "label": "3",
+          "html": "Krótsza przekątna sześciokąta <em>KLMNPR</em> jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><msqrt><mn>3</mn></msqrt></math> cm."
+        }
+      ],
+      "figures": [
+        "rejonowy_2023-2024_wielkopolskie_q17_fig1.png"
+      ],
+      "answer": {
+        "correct": "PFF",
+        "solution_html": "<p>Odległość środków dwóch sąsiednich sześciokątów o boku 4 cm wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>3</mn></msqrt></math> cm. Sześć środków tworzy sześciokąt foremny <em>KLMNPR</em>, którego promień jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>3</mn></msqrt></math>, więc jego bok też ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>3</mn></msqrt></math> cm — prawda (P).</p><p>Pole sześciokąta foremnego o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>4</mn><msqrt><mn>3</mn></msqrt></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mfrac><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac><mo>·</mo><mn>48</mn><mo>=</mo><mn>72</mn><msqrt><mn>3</mn></msqrt></math> cm², a nie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>48</mn><msqrt><mn>3</mn></msqrt></math> — fałsz (F).</p><p>Krótsza przekątna sześciokąta foremnego o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>12</mn></math> cm, a nie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><msqrt><mn>3</mn></msqrt></math> — fałsz (F).</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2023-2024_wielkopolskie_q18",
+      "number": 18,
+      "page": 12,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>Uzasadnij, że średnia arytmetyczna czterech kolejnych liczb nieparzystych jest liczbą parzystą, gdy największa z nich to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>n</mi><mo>+</mo><mn>11</mn></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>∈</mo><mi>N</mi></math>. Zapisz rozwiązanie i podaj uzasadnienie (tylko na oznaczeniach ogólnych).</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "średnia = 2n + 8 = 2(n + 4), czyli liczba parzysta",
+        "solution_html": "<p>Cztery kolejne liczby nieparzyste, których największą jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>n</mi><mo>+</mo><mn>11</mn></math>, to: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>n</mi><mo>+</mo><mn>5</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>n</mi><mo>+</mo><mn>7</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>n</mi><mo>+</mo><mn>9</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>n</mi><mo>+</mo><mn>11</mn></math>. Ich średnia arytmetyczna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><mn>2</mn><mi>n</mi><mo>+</mo><mn>5</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>2</mn><mi>n</mi><mo>+</mo><mn>7</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>2</mn><mi>n</mi><mo>+</mo><mn>9</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>2</mn><mi>n</mi><mo>+</mo><mn>11</mn><mo>)</mo></mrow><mn>4</mn></mfrac><mo>=</mo><mfrac><mrow><mn>8</mn><mi>n</mi><mo>+</mo><mn>32</mn></mrow><mn>4</mn></mfrac><mo>=</mo><mn>2</mn><mi>n</mi><mo>+</mo><mn>8</mn><mo>=</mo><mn>2</mn><mo>(</mo><mi>n</mi><mo>+</mo><mn>4</mn><mo>)</mo></math>. Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>∈</mo><mi>N</mi></math> liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>(</mo><mi>n</mi><mo>+</mo><mn>4</mn><mo>)</mo></math> jest parzysta, co należało uzasadnić.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2023-2024_wielkopolskie_q19",
+      "number": 19,
+      "page": 13,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Piotrek wydał na imprezie szkolnej o 29 zł więcej niż jego koleżanka Magda. Gdy Piotrek kupił jeszcze jedną zapiekankę w cenie 10,50 zł, a Magda – frytki w cenie 6,50 zł, okazało się, że Piotrek wydał na imprezie szkolnej dwukrotnie więcej pieniędzy niż Magda. Ile pieniędzy wydali razem na imprezie szkolnej? Zapisz wszystkie obliczenia.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "99 zł",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza kwotę wydaną przez Magdę przed kupieniem frytek. Piotrek wydał wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>29</mn></math> zł. Po dokupieniu zapiekanki i frytek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>29</mn><mo>+</mo><mn>10,5</mn><mo>=</mo><mn>2</mn><mo>(</mo><mi>x</mi><mo>+</mo><mn>6,5</mn><mo>)</mo></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>39,5</mn><mo>=</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>13</mn></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>26,5</mn></math> zł. Magda wydała 26,5 zł, a Piotrek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>26,5</mn><mo>+</mo><mn>29</mn><mo>=</mo><mn>55,5</mn></math> zł. Razem na imprezie szkolnej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>55,5</mn><mo>+</mo><mn>10,5</mn><mo>+</mo><mn>26,5</mn><mo>+</mo><mn>6,5</mn><mo>=</mo><mn>99</mn></math> zł.</p>"
+      }
+    },
+    {
+      "id": "rejonowy_2023-2024_wielkopolskie_q20",
+      "number": 20,
+      "page": 14,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "bryły",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>W graniastosłupie prawidłowym trójkątnym przekątna ściany bocznej jest 2 razy dłuższa od wysokości podstawy. Oblicz pole powierzchni całkowitej tej bryły, jeżeli jej krawędź boczna ma długość 6 cm. Zapisz wszystkie obliczenia.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "9(√3 + 6√2) cm² = (9√3 + 54√2) cm²",
+        "solution_html": "<p>Przekątna ściany bocznej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> spełnia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><mn>2</mn><mi>h</mi></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mfrac><mrow><mi>a</mi><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac></math> to wysokość podstawy, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><mi>a</mi><msqrt><mn>3</mn></msqrt></math>. Z twierdzenia Pitagorasa dla ściany bocznej (krawędź boczna 6 cm): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mn>6</mn><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mi>a</mi><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>36</mn><mo>=</mo><mn>3</mn><msup><mi>a</mi><mn>2</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>18</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>3</mn><msqrt><mn>2</mn></msqrt></math> cm. Pole podstawy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>p</mi></msub><mo>=</mo><mfrac><mrow><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mfrac><mrow><mn>18</mn><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mn>4,5</mn><msqrt><mn>3</mn></msqrt></math> cm². Pole ściany bocznej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>·</mo><mn>6</mn><mo>=</mo><mn>18</mn><msqrt><mn>2</mn></msqrt></math> cm². Pole całkowite: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>c</mi></msub><mo>=</mo><mn>2</mn><msub><mi>P</mi><mi>p</mi></msub><mo>+</mo><mn>3</mn><mo>·</mo><mn>18</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>9</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>54</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>9</mn><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>6</mn><msqrt><mn>2</mn></msqrt><mo>)</mo></math> cm².</p>"
+      }
+    }
+  ]
+}

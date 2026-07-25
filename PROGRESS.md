@@ -37,7 +37,8 @@ the know-how that used to live only in the chat; everything needed to resume is 
     `competition`, derived from the title. Also a HTML filter ("Typ szkoły"). Only gimnazjum
     file so far: 2018_podkarpackie. Re-add script: the school_type block in the school_type
     section below / the browser app filters on it directly.
-- **rejonowy: 71 / 147** processed (batches 1–3 done 2026-07-23; batches 4–8 done 2026-07-24). (was 163; on 2026-07-23 **all 16
+- **rejonowy: 131 / 147** processed (batches 1–3 done 2026-07-23; batches 4–8 done 2026-07-24;
+  batches 9–12 done 2026-07-25). (was 163; on 2026-07-23 **all 16
   W-M files were purged** — W-M SP math has NO rejonowy stage, so every
   `pdfs/rejonowy/*_warminsko-mazurskie.pdf` was a spurious śląskie dup. Remaining 147 are the real
   set. Earlier +15 merged from `remaining/rejonowy/`: podkarpackie_gim 2010, podlaskie 2012–2015
@@ -117,6 +118,59 @@ the know-how that used to live only in the chat; everything needed to resume is 
     odpowiedzi) → answers null. Confirms podkarpackie keys are separate downloads sometimes missing;
     other podkarpackie years mostly keyed. (Keyless list grows: 2012/2018/2020_podkarpackie, 2012/2013
     podlaskie sp/gim, 2017-2018_pomorskie, 2019/2020_lodzkie.)
+  - **Batch 9 (10):** 2021-2022_{slaskie (pure math), swietokrzyskie, wielkopolskie,
+    zachodniopomorskie (30 closed, no annulment)}, 2021_{dolnoslaskie, lodzkie (keyless, 100-pt),
+    lubelskie (embedded key), lubuskie, mazowieckie (combined-choice), podkarpackie (KEYLESS)}. All
+    header-verified.
+  - **New rejonowy voivodeship: lubelskie** — like szkolny, the key is EMBEDDED in the question PDF
+    ("ODPOWIEDZI I SCHEMAT OCENIANIA", 2021 pp.14–15) → answers_file = the question pdf itself.
+  - **łódzkie 2021** keyless (docx); this one uses a **100-point scale** (11×5 A–E closed + T/F 10 +
+    open) and the colon-garble did NOT appear (ratios rendered fine) — still verify per file.
+  - **2021_podkarpackie also KEYLESS** (blank karta odpowiedzi, no embedded) → answers null. Both
+    2020 & 2021 podkarpackie rejonowy lack keys. (Keyless list: +2021_podkarpackie, +2021_lodzkie.)
+  - **Batch 10 (10):** 2021_podlaskie, 2022-2023_{malopolskie, pomorskie (bundled), slaskie (pure
+    math), swietokrzyskie, wielkopolskie, zachodniopomorskie (40 closed!)}, 2022_{dolnoslaskie,
+    lodzkie (now KEYED, 80-pt), lubelskie (embedded key)}. All keyed + self-verified.
+  - **łódzkie is KEYED from 2022 on** (2019–2021 were keyless). 2022_lodzkie has a separate
+    _answers.pdf, 80-pt scale (A–E closed @3pt) — NOT the 100-pt of 2021. docx layout persists.
+  - **zachodniopomorskie grew 30→40 closed questions in 2022/2023** (was 27 in 2018/19, 30–33 since).
+    Don't assume a fixed count.
+  - **dolnoslaskie filename year = END year; contest is Nov of the prior year** (2020→2019/2020 Nov
+    2019; 2021→2020/2021 Nov 2020; 2022→2021/2022 Nov 2021). Trust the printed date.
+  - **Source printing defects (recorded faithfully, NOT key errors):** 2022-2023_slaskie q11 and
+    2020-2021_swietokrzyskie_2 q6 have duplicated/mislabeled answer choices in the arkusz; the key's
+    answer is still unambiguous, noted in the question's solution_html.
+  - **Batch 11 (20):** 2022_{lubuskie, mazowieckie (combined-choice), opolskie, podkarpackie (now
+    KEYED), podlaskie} + all of 2023: 2023-2024_{malopolskie, pomorskie (bundled), slaskie (pure
+    math), swietokrzyskie, wielkopolskie, zachodniopomorskie (40 closed)}, 2023_{dolnoslaskie,
+    kujawsko-pomorskie, lodzkie (100-pt), lubelskie (embedded key), lubuskie, mazowieckie
+    (combined-choice), opolskie, podkarpackie, podlaskie}. All keyed + self-verified.
+  - **2nd rejonowy ANNULMENT:** `rejonowy_2023_dolnoslaskie_q9` — key explicitly says "Zadanie nr 9
+    zostało anulowane ze względu na błąd w poleceniu" (triangle labeled C but the prompt asks for T).
+    annulled:true, correct null, 1 pt retained, note in prompt_html, figure kept. (Annulled register
+    now 5: +this. grep 'anulowan' finds it.)
+  - **Official key UPDATE note:** 2023-2024_malopolskie key carries a dated correction (2024-01-25)
+    fixing q15 B→D and q16 D→E — use the corrected values (agent verified both).
+  - **podkarpackie became KEYED again in 2022** (2020/2021 were keyless); 2023_podkarpackie shifted to
+    an all-OPEN 9-question 24-pt paper (was 21–22 mixed). **kujawsko-pomorskie** keeps mutating
+    (2023 = 19 q / 20 pt, 18 closed + 1 T/F). Read each paper; don't assume prior-year shape.
+  - **łódzkie key transcription typos (open Qs):** 2023_lodzkie key mis-stated a point coord (q13) and
+    a surd (q14 √3 vs √6); agent stored the geometry-confirmed correct forms (the key's own working
+    confirmed them). Not tsv-flagged (key internally self-corrects).
+  - **New borderline key flag (suspected_key_errors.tsv):** `rejonowy_2023_dolnoslaskie_q5` (lattice
+    points at integer distance from A: key C=26 vs a strict Euclidean count of 34; narrower counting
+    convention). Stored official C.
+  - **Batch 12 (20):** all of 2024 (dolnoslaskie, kujawsko-pomorskie, lodzkie, lubelskie [embedded
+    key], lubuskie, mazowieckie, opolskie, podkarpackie, podlaskie) + 2024-2025_{malopolskie,
+    pomorskie, slaskie, swietokrzyskie, wielkopolskie, zachodniopomorskie} + 2025-2026_{malopolskie,
+    pomorskie, slaskie, swietokrzyskie, wielkopolskie}. All keyed + self-verified; no annulments.
+  - **The 2025/2026 rejonowy season is now partly in the corpus** (małopolskie, pomorskie, śląskie,
+    świętokrzyskie, wielkopolskie — contest dates Dec 2025 / Feb 2026). śląskie 2025-2026 dropped the
+    crossword q1 (17 q / 40 pt, not the 60-pt crossword format).
+  - **lubuskie 2024** added a 3rd item type: "wielokrotnego wyboru" (multi-answer closed, 27–29) →
+    modeled as closed_single with comma-joined answers, same as mazowieckie multi-select.
+  - **podkarpackie & dolnoslaskie confirm their per-year format drift:** 2024_podkarpackie = 9 all-open
+    (6×2+3×4=24pt); dolnoslaskie stays ~15-16 q / 24-25 pt with Nov/Dec-prior-year dates.
   - **Keyless (answers null):** 2012_podkarpackie, 2012_podlaskie_sp, 2013_podlaskie_gim/sp — no
     separate key and none embedded (checked last pages). All other 18 keyed + self-verified.
   - **ŚLĄSKIE switched away from "z Elementami Przyrody" ~2014/2015:** 2010-2013 śląskie rejonowy
@@ -239,10 +293,11 @@ One background Opus agent per **question PDF** (+ its `_answers` PDF). Recipe th
     2018-2019 Q8 & 2017-2018 Q19; the original text is GONE from the source) → the notice IS
     the content; `choices: []`. Nothing to restore. These two are correct as-is.
   After each batch, grep new JSONs for "anulowano" and verify the right sub-case was applied.
-  Current annulled set (4): szkolny_2017-2018_malopolskie q19 & szkolny_2018-2019_malopolskie q8 (paper
-  replaced text w/ notice — notice IS the content), **szkolny_2024_dolnoslaskie q9** and
-  **rejonowy_2018-2019_zachodniopomorskie q23** (paper KEEPS the full question — real text + annulment
-  note, points retained, answer null; the keep-text sub-case).
+  Current annulled set (5, all carry `"annulled": true`): szkolny_2017-2018_malopolskie q19 &
+  szkolny_2018-2019_malopolskie q8 (paper replaced text w/ notice — notice IS the content);
+  **szkolny_2024_dolnoslaskie q9**, **rejonowy_2018-2019_zachodniopomorskie q23**, and
+  **rejonowy_2023_dolnoslaskie q9** (paper KEEPS the full question — real text + annulment note,
+  points retained, answer null; the keep-text sub-case).
 - **No-key years**: 2017-2018_pomorskie (like 2025-2026_pomorskie) has no key anywhere
   (checked for embedded too) → answers_file null, all answer.correct null.
 - Filename year commonly one-off from printed school_year for single-year names
