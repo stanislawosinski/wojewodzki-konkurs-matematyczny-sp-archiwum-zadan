@@ -8,26 +8,29 @@
 </head>
 <body>
 <aside class="sidebar">
+<div class="idbox">
+<label>Pokaż tylko id:
+<textarea id="include" rows="2" placeholder="hash, hash, …"></textarea>
+</label>
+<div class="selrow">
+<button type="button" id="useSel" title="Wstaw id zaznaczonych zadań">Zaznaczone ↑</button>
+<button type="button" id="copySel" title="Kopiuj zawartość">Skopiuj</button>
+<button type="button" id="clearSel" title="Wyczyść pole i zaznaczenie">Wyczyść</button>
+</div>
+</div>
+<div id="facets"></div>
+<div class="clearrow">
+<a href="#" id="clearFacets" hidden>Wyczyść filtry</a>
+<a href="#" id="clearFilters" hidden>Wyczyść wszystko</a>
+</div>
 <label>Szukaj:
 <span class="searchwrap">
 <input type="text" id="search" placeholder="słowo w treści…">
 <button type="button" id="clearSearch" title="Wyczyść wyszukiwanie" aria-label="Wyczyść wyszukiwanie" hidden>×</button>
 </span>
 </label>
-<div class="clearrow">
-<a href="#" id="clearFacets" hidden>Wyczyść filtry</a>
-<a href="#" id="clearFilters" hidden>Wyczyść wszystko</a>
-</div>
-<div id="facets"></div>
-<label>Pokaż tylko id: <input type="text" id="include" placeholder="hash, hash, …"></label>
 <label>Pomiń id: <input type="text" id="exclude" placeholder="hash, hash, …"></label>
 <div id="count"></div>
-<div class="selrow">
-<button type="button" id="useSel">Zaznaczone → „Pokaż tylko id”</button>
-<button type="button" id="clearSel">Wyczyść zaznaczenie</button>
-<button type="button" id="copySel">Kopiuj</button>
-<textarea id="selected" readonly rows="2" placeholder="tu pojawią się id zaznaczonych zadań (przecinkami)"></textarea>
-</div>
 <label class="printopt"><input type="checkbox" id="onePerPage"> Jedno zadanie na stronę (do druku)</label>
 </aside>
 <main class="content">

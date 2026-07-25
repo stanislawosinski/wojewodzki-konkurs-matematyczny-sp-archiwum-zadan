@@ -54,7 +54,7 @@ function loadData() {
 
 const $ = id => document.getElementById(id);
 const search = $('search'), inc = $('include'), exc = $('exclude'),
-  count = $('count'), selected = $('selected'), setsummary = $('setsummary'),
+  count = $('count'), setsummary = $('setsummary'),
   qlist = $('qlist'), facetsEl = $('facets'),
   clearFilters = $('clearFilters'), clearFacets = $('clearFacets'), clearSearch = $('clearSearch'),
   onePerPage = $('onePerPage');
@@ -208,10 +208,8 @@ function update() {
   setsummary.textContent = `${matched.length} zadań z ${arks.size} arkuszy`;
 }
 
-function updateSelected() {
-  // DATA order = original document order (matches the old browser's semantics)
-  selected.value = DATA.filter(q => selectedSet.has(q.hash)).map(q => q.hash).join(', ');
-}
+// the hashes of the print-selected questions, in original document order
+const selectedHashes = () => DATA.filter(q => selectedSet.has(q.hash)).map(q => q.hash);
 
 // --- URL hash <-> state. The JS structures are the working truth; the hash is their
 // serialization. Written on every change (facet toggles push a history entry, everything
@@ -223,7 +221,7 @@ function serialize() {
   if (search.value.trim()) o.q = [search.value.trim()];
   const incIds = idList(inc.value); if (incIds.length) o.inc = incIds;
   const excIds = idList(exc.value); if (excIds.length) o.exc = excIds;
-  if (selectedSet.size) o.sel = DATA.filter(q => selectedSet.has(q.hash)).map(q => q.hash);
+  if (selectedSet.size) o.sel = selectedHashes();
   return o;
 }
 
@@ -245,7 +243,6 @@ function applyState() {
   exc.value = (o.exc || []).join(', ');
   selectedSet.clear();
   for (const h of o.sel || []) if (byHash[h]) selectedSet.add(h);
-  updateSelected();
   page = 1; update();
 }
 
@@ -310,15 +307,19 @@ loadData().then(data => {
     if (!e.target.matches('.selectbox input')) return;
     const h = e.target.closest('.q').dataset.hash;
     e.target.checked ? selectedSet.add(h) : selectedSet.delete(h);
-    updateSelected(); writeUrl(false);
+    writeUrl(false);
   });
-  $('useSel').onclick = () => { inc.value = selected.value; writeUrl(false); refilter(); };
+  // "Zaznaczone ↑": drop the print-selected question ids into the "Pokaż tylko id" box
+  $('useSel').onclick = () => { inc.value = selectedHashes().join(', '); writeUrl(false); refilter(); };
+  // "Skopiuj": copy the id box to the clipboard
+  $('copySel').onclick = () => { inc.select(); try { document.execCommand('copy'); } catch (e) {} };
+  // "Wyczyść": clear the id box and the checkbox selection
   $('clearSel').onclick = () => {
+    inc.value = '';
     selectedSet.clear();
     qlist.querySelectorAll('.selectbox input').forEach(b => b.checked = false);
-    updateSelected(); writeUrl(false);
+    writeUrl(false); refilter();
   };
-  $('copySel').onclick = () => { selected.select(); try { document.execCommand('copy'); } catch (e) {} };
   clearFilters.onclick = e => { e.preventDefault(); clearAllFilters(); };
   clearFacets.onclick = e => { e.preventDefault(); clearFacetSelections(); writeUrl(true); refilter(); };
   onePerPage.onchange = () => document.body.classList.toggle('onePerPage', onePerPage.checked); // print layout only

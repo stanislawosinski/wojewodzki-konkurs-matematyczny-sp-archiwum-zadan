@@ -67,9 +67,9 @@ select{font:inherit;padding:.35rem}
 .facet-opt.dim label{cursor:default}
 .printopt{display:flex;align-items:center;gap:.4rem} /* one-question-per-page print toggle */
 .printopt input{width:auto;margin:0}
-.selrow{display:flex;flex-direction:column;gap:.4rem;margin-top:.3rem}
-.selrow button{width:100%}
-#selected{font-family:monospace;font-size:.8rem;width:100%;box-sizing:border-box;resize:vertical}
+.selrow{display:flex;gap:.4rem;margin-top:.4rem} /* three small buttons in one line under the id box */
+.selrow button{flex:1;font-size:.75rem;padding:.3rem .2rem;white-space:nowrap} /* no min-width:0, so each button never shrinks below its one-line text */
+#include{font-family:monospace;font-size:.8rem;width:100%;height:8em;box-sizing:border-box;margin-top:.15rem;padding:.3rem;resize:vertical}
 .prompt{margin:.5rem 0} .fig{max-width:100%;height:auto;margin:.4rem 0}
 ul,ol.choices{margin:.4rem 0} .choices{list-style:none;padding-left:0}
 .choice{margin:.25rem 0;padding:.15rem .4rem;border-radius:4px}
