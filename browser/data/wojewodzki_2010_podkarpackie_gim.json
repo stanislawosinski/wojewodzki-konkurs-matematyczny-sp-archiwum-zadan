@@ -1,0 +1,176 @@
+{
+  "source_file": "wojewodzki/2010_podkarpackie_gim.pdf",
+  "answers_file": "wojewodzki/2010_podkarpackie_gim_answers.pdf",
+  "competition": "Konkurs Przedmiotowy z Matematyki dla uczniów gimnazjum (podkarpackie)",
+  "school_type": "gimnazjum",
+  "stage": "wojewodzki",
+  "wojewodztwo": "podkarpackie",
+  "school_year": "2009/2010",
+  "date": null,
+  "total_questions": 9,
+  "max_points": 35,
+  "questions": [
+    {
+      "id": "wojewodzki_2010_podkarpackie_gim_q1",
+      "number": 1,
+      "page": 2,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "równania z jedną zmienną",
+        "wzory skróconego mnożenia"
+      ],
+      "prompt_html": "<p>Wyznacz wartość parametru <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> wiedząc, że liczba 2 jest rozwiązaniem równania:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>(</mo><mi>a</mi><mo>+</mo><mn>3</mn><mi>x</mi><mo>)</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>−</mo><mn>4</mn><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mn>2</mn><mi>x</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>80</mn></mrow></math></p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "a = 6",
+        "solution_html": "<p>Podstawiamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>2</mn></mrow></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>(</mo><mi>a</mi><mo>+</mo><mn>3</mn><mo>·</mo><mn>2</mn><mo>)</mo><mo>(</mo><mn>2</mn><mo>+</mo><mn>1</mn><mo>)</mo><mo>−</mo><mn>4</mn><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mn>2</mn><mo>·</mo><mn>2</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>80</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>(</mo><mi>a</mi><mo>+</mo><mn>6</mn><mo>)</mo><mo>·</mo><mn>3</mn><mo>−</mo><mn>4</mn><mo>·</mo><msup><mn>5</mn><mn>2</mn></msup><mo>=</mo><mn>80</mn></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mi>a</mi><mo>+</mo><mn>90</mn><mo>−</mo><mn>100</mn><mo>=</mo><mn>80</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mi>a</mi><mo>=</mo><mn>90</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>6</mn></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2010_podkarpackie_gim_q2",
+      "number": 2,
+      "page": 2,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "procenty"
+      ],
+      "prompt_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> stanowi 75% liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>. Oblicz, jakim procentem liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> jest liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "133⅓%",
+        "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>75</mn><mo>%</mo><mo>·</mo><mi>y</mi><mo>=</mo><mn>0,75</mn><mi>y</mi></mrow></math>. Szukamy, jakim procentem liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> jest liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mi>y</mi><mi>x</mi></mfrac><mo>·</mo><mn>100</mn><mo>%</mo><mo>=</mo><mfrac><mi>y</mi><mrow><mn>0,75</mn><mi>y</mi></mrow></mfrac><mo>·</mo><mn>100</mn><mo>%</mo><mo>=</mo><mfrac><mn>100</mn><mn>75</mn></mfrac><mo>·</mo><mn>100</mn><mo>%</mo><mo>=</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><mo>·</mo><mn>100</mn><mo>%</mo><mo>=</mo><mn>133</mn><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>%</mo></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2010_podkarpackie_gim_q3",
+      "number": 3,
+      "page": 3,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "równania z jedną zmienną",
+        "podzielność"
+      ],
+      "prompt_html": "<p>Wyznacz wszystkie pary liczb całkowitych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, dla których funkcje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>2</mn><mi>x</mi><mo>+</mo><mi>b</mi></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mi>a</mi><mi>x</mi><mo>+</mo><mn>3</mn></mrow></math> mają takie samo miejsce zerowe?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "(a, b) ∈ {(1,6), (2,3), (3,2), (6,1), (−1,−6), (−2,−3), (−3,−2), (−6,−1)}",
+        "solution_html": "<p>Miejsce zerowe pierwszej funkcji: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0</mn><mo>=</mo><mn>2</mn><mi>x</mi><mo>+</mo><mi>b</mi></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mo>−</mo><mfrac><mi>b</mi><mn>2</mn></mfrac></mrow></math>. Miejsce zerowe drugiej funkcji: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0</mn><mo>=</mo><mi>a</mi><mi>x</mi><mo>+</mo><mn>3</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mo>−</mo><mfrac><mn>3</mn><mi>a</mi></mfrac></mrow></math>. Równość miejsc zerowych daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mfrac><mi>b</mi><mn>2</mn></mfrac><mo>=</mo><mo>−</mo><mfrac><mn>3</mn><mi>a</mi></mfrac></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>·</mo><mi>b</mi><mo>=</mo><mn>6</mn></mrow></math>. Całkowite pary o iloczynie 6 to: (1, 6), (2, 3), (3, 2), (6, 1), (−1, −6), (−2, −3), (−3, −2), (−6, −1).</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2010_podkarpackie_gim_q4",
+      "number": 4,
+      "page": 3,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "potęgi i pierwiastki",
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>Uzasadnij, że liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><msqrt><mrow><mn>4</mn><mo>−</mo><msqrt><mn>15</mn></msqrt></mrow></msqrt></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><msqrt><mrow><mn>4</mn><mo>+</mo><msqrt><mn>15</mn></msqrt></mrow></msqrt></mrow></math> są wzajemnie odwrotne.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "a·b = 1, więc liczby są wzajemnie odwrotne",
+        "solution_html": "<p>Wystarczy pokazać, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>·</mo><mi>b</mi><mo>=</mo><mn>1</mn></mrow></math>. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>·</mo><mi>b</mi><mo>=</mo><msqrt><mrow><mn>4</mn><mo>−</mo><msqrt><mn>15</mn></msqrt></mrow></msqrt><mo>·</mo><msqrt><mrow><mn>4</mn><mo>+</mo><msqrt><mn>15</mn></msqrt></mrow></msqrt><mo>=</mo><msqrt><mrow><mo>(</mo><mn>4</mn><mo>−</mo><msqrt><mn>15</mn></msqrt><mo>)</mo><mo>(</mo><mn>4</mn><mo>+</mo><msqrt><mn>15</mn></msqrt><mo>)</mo></mrow></msqrt><mo>=</mo><msqrt><mrow><msup><mn>4</mn><mn>2</mn></msup><mo>−</mo><mn>15</mn></mrow></msqrt><mo>=</mo><msqrt><mn>1</mn></msqrt><mo>=</mo><mn>1</mn></mrow></math>. Ponieważ iloczyn liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest równy 1, liczby te są wzajemnie odwrotne.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2010_podkarpackie_gim_q5",
+      "number": 5,
+      "page": 4,
+      "type": "open",
+      "points": 6,
+      "topics": [
+        "prędkość / droga / czas",
+        "układy równań"
+      ],
+      "prompt_html": "<p>Jeżeli zwiększy się prędkość pociągu o 10 km/h, to zyskuje się 40 minut na trasie. Jeśli jednak prędkość zostanie zmniejszona o 10 km/h, to traci się 1 godzinę. Oblicz długość trasy.</p><p>Zadanie rozwiąż za pomocą równania lub układu równań.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "200 km",
+        "solution_html": "<p>Oznaczmy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi></math> — długość trasy w km, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi></math> — prędkość pociągu w km/h. Czas przejazdu to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>s</mi><mi>v</mi></mfrac></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>40</mn><mtext> min</mtext><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mtext> h</mtext></mrow></math>. Układ równań: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mi>s</mi><mi>v</mi></mfrac><mo>−</mo><mfrac><mi>s</mi><mrow><mi>v</mi><mo>+</mo><mn>10</mn></mrow></mfrac><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mi>s</mi><mrow><mi>v</mi><mo>−</mo><mn>10</mn></mrow></mfrac><mo>−</mo><mfrac><mi>s</mi><mi>v</mi></mfrac><mo>=</mo><mn>1</mn></mrow></math>. Po przekształceniach otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>30</mn><mi>s</mi><mo>=</mo><mn>2</mn><msup><mi>v</mi><mn>2</mn></msup><mo>+</mo><mn>20</mn><mi>v</mi></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mi>s</mi><mo>=</mo><msup><mi>v</mi><mn>2</mn></msup><mo>−</mo><mn>10</mn><mi>v</mi></mrow></math>. Eliminując <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi></math> dostajemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0</mn><mo>=</mo><mo>−</mo><msup><mi>v</mi><mn>2</mn></msup><mo>+</mo><mn>50</mn><mi>v</mi></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>v</mi><mo>(</mo><mi>v</mi><mo>−</mo><mn>50</mn><mo>)</mo><mo>=</mo><mn>0</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>v</mi><mo>=</mo><mn>50</mn></mrow></math> km/h (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>v</mi><mo>=</mo><mn>0</mn></mrow></math> odrzucamy). Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>s</mi><mo>=</mo><mfrac><mrow><msup><mi>v</mi><mn>2</mn></msup><mo>−</mo><mn>10</mn><mi>v</mi></mrow><mn>10</mn></mfrac><mo>=</mo><mfrac><mrow><mn>2500</mn><mo>−</mo><mn>500</mn></mrow><mn>10</mn></mfrac><mo>=</mo><mn>200</mn></mrow></math> km.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2010_podkarpackie_gim_q6",
+      "number": 6,
+      "page": 5,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "równania z jedną zmienną",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Rozwiąż równanie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>)</mo></mrow><mrow><mn>3</mn><mi>x</mi><mo>−</mo><mn>5</mn></mrow></msup><mo>=</mo><msup><mrow><mo>(</mo><mfrac><mn>5</mn><mn>2</mn></mfrac><mo>)</mo></mrow><mrow><mn>5</mn><mi>x</mi><mo>−</mo><mn>3</mn></mrow></msup></mrow></math></p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "x = 1",
+        "solution_html": "<p>Zauważmy, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>5</mn><mn>2</mn></mfrac><mo>=</mo><msup><mrow><mo>(</mo><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>)</mo></mrow><mrow><mo>−</mo><mn>1</mn></mrow></msup></mrow></math>, więc równanie przyjmuje postać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>)</mo></mrow><mrow><mn>3</mn><mi>x</mi><mo>−</mo><mn>5</mn></mrow></msup><mo>=</mo><msup><mrow><mo>(</mo><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>)</mo></mrow><mrow><mo>−</mo><mo>(</mo><mn>5</mn><mi>x</mi><mo>−</mo><mn>3</mn><mo>)</mo></mrow></msup></mrow></math>. Podstawy są równe, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>x</mi><mo>−</mo><mn>5</mn><mo>=</mo><mo>−</mo><mo>(</mo><mn>5</mn><mi>x</mi><mo>−</mo><mn>3</mn><mo>)</mo></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>x</mi><mo>−</mo><mn>5</mn><mo>=</mo><mo>−</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>3</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mi>x</mi><mo>=</mo><mn>8</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>1</mn></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2010_podkarpackie_gim_q7",
+      "number": 7,
+      "page": 5,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "geometria",
+        "trójkąty",
+        "usuwanie niewymierności z mianownika"
+      ],
+      "prompt_html": "<p>Jedna z przekątnych oraz bok rombu mają taką samą długość. Pole tego rombu jest równe 2 cm<sup>2</sup>. Oblicz długość boku rombu.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "a = 2/⁴√3 = (2·⁴√27)/3 cm",
+        "solution_html": "<p>Krótsza przekątna dzieli romb na dwa trójkąty równoboczne o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, każdy o polu równym 1 cm<sup>2</sup> (pole rombu wynosi 2 cm<sup>2</sup>). Pole trójkąta równobocznego: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mfrac><mrow><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mn>1</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mfrac><mn>4</mn><msqrt><mn>3</mn></msqrt></mfrac></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mfrac><mn>2</mn><mroot><mn>3</mn><mn>4</mn></mroot></mfrac></mrow></math>. Po usunięciu niewymierności z mianownika: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mo>·</mo><mroot><mn>27</mn><mn>4</mn></mroot></mrow><mrow><mroot><mn>3</mn><mn>4</mn></mroot><mo>·</mo><mroot><mn>27</mn><mn>4</mn></mroot></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn><mroot><mn>27</mn><mn>4</mn></mroot></mrow><mn>3</mn></mfrac></mrow></math> cm.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2010_podkarpackie_gim_q8",
+      "number": 8,
+      "page": 6,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "trójkąty",
+        "geometria"
+      ],
+      "prompt_html": "<p>Wewnątrz trójkąta równobocznego o boku długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><msqrt><mn>3</mn></msqrt></mrow></math> obrano punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math>. Oblicz sumę odległości punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> od wszystkich boków tego trójkąta.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "12",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> będą odległościami punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> od boków. Łącząc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> z wierzchołkami, dzielimy trójkąt na trzy trójkąty o podstawie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><msqrt><mn>3</mn></msqrt></mrow></math> i wysokościach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>. Zatem pole trójkąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>8</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>)</mo><mo>=</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>)</mo></mrow></math>. Z drugiej strony pole trójkąta równobocznego: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mfrac><mrow><msup><mrow><mo>(</mo><mn>8</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mn>48</mn><msqrt><mn>3</mn></msqrt></mrow></math>. Porównując: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>)</mo><mo>=</mo><mn>48</mn><msqrt><mn>3</mn></msqrt></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>=</mo><mn>12</mn></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2010_podkarpackie_gim_q9",
+      "number": 9,
+      "page": 7,
+      "type": "open",
+      "points": 6,
+      "topics": [
+        "koła / okręgi",
+        "trójkąty"
+      ],
+      "prompt_html": "<p>Droga prowadzi przez tunel, który ma przekrój w kształcie półkola. Po obu stronach drogi znajduje się chodnik o szerokości 1 m. Samochód wjeżdżający do tunelu blisko krawężnika może mieć maksymalnie 3 m wysokości. Oblicz szerokość tunelu.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "10 m",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> będzie średnicą półkola, czyli szerokością tunelu. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> to najwyższy punkt samochodu przy krawężniku: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AD</mi><mo>|</mo><mo>=</mo><mn>1</mn></mrow></math> m (szerokość chodnika), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>CD</mi><mo>|</mo><mo>=</mo><mn>3</mn></mrow></math> m (wysokość). Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACB</mi></math>, wpisany oparty na średnicy, jest prosty, więc trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest prostokątny, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> jest wysokością opuszczoną na przeciwprostokątną. Z twierdzenia Pitagorasa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AC</mi><mo>|</mo><mo>=</mo><msqrt><mrow><msup><mn>1</mn><mn>2</mn></msup><mo>+</mo><msup><mn>3</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>10</mn></msqrt></mrow></math>. Z podobieństwa trójkątów prostokątnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mo>|</mo><mi>AD</mi><mo>|</mo></mrow><mrow><mo>|</mo><mi>AC</mi><mo>|</mo></mrow></mfrac><mo>=</mo><mfrac><mrow><mo>|</mo><mi>AC</mi><mo>|</mo></mrow><mrow><mo>|</mo><mi>AB</mi><mo>|</mo></mrow></mfrac></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><msqrt><mn>10</mn></msqrt></mfrac><mo>=</mo><mfrac><msqrt><mn>10</mn></msqrt><mi>d</mi></mfrac></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>d</mi><mo>=</mo><mn>10</mn></mrow></math> m.</p>"
+      }
+    }
+  ]
+}

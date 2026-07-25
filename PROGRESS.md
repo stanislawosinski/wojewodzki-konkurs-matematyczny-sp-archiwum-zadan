@@ -204,10 +204,24 @@ the know-how that used to live only in the chat; everything needed to resume is 
        192 cm²); key row looks mismatched. Stored the correct 192; verify in blind pass.
     3. `rejonowy_2014_podkarpackie_q16` — arkusz omitted square labels; everyone got 1 pt but key
        still lists B. Kept correct=B + italic note (not an annulment).
-- **wojewodzki: 0 / 165** processed (160 real — 5 W-M śląskie-dups still present for years with no
-  genuine available: 2012/13–2015/16, 2025/26). On 2026-07-23 the W-M source files were **fixed**:
-  12 genuine W-M wojewódzki papers (2009/10, 2010/11, 2011/12, 2016/17–2024/25) recovered & swapped
-  in (keys for 2016/17 onward). Prep only — not processed. Earlier +16 merged from `remaining/wojewodzki/`.
+- **wojewodzki: 20 / 160** processed (batch 1 done 2026-07-25). (160 real of 165 — 5 W-M śląskie-dups
+  still present for years with no genuine available: 2012/13–2015/16, 2025/26. On 2026-07-23 the W-M
+  source files were fixed: 12 genuine W-M wojewódzki papers (2009/10, 2010/11, 2011/12, 2016/17–2024/25)
+  recovered & swapped in — keys for 2016/17 onward. Earlier +16 merged from `remaining/wojewodzki/`.)
+  - **Batch 1 (20):** 2009-2010/2010-2011/2011-2012_warminsko-mazurskie (GENUINE Olsztyn, keyless),
+    2010-2011/2011-2012/2012-2013/2013-2014/2014-2015_slaskie, 2010_podkarpackie_gim, 2011/2012/2013/2014
+    _podkarpackie, 2011/2013_podlaskie_gim, 2012/2013_podlaskie_sp, 2012-2013/2013-2014/2014-2015
+    _malopolskie. All header-verified.
+  - **Genuine W-M confirmed:** the 3 W-M files (2009/10–2011/12) have md5 distinct from same-year
+    slaskie and printed "Kuratorium Oświaty w Olsztynie" / "W-M ODN" — NOT dups. They print NO
+    per-question points and NO key → points are convention-based (closed 1 / open 2–3), answers null.
+  - **śląskie wojewódzki: "z Elementami Przyrody" through 2013/2014, PURE MATH from 2014/2015** (same
+    switch as szkolny/rejonowy). 2010-2013 + 2013-2014 śląskie przyroda-tagged; 2014-2015 pure math.
+  - **Keyless wojewódzki (answers null):** all 3 genuine W-M, 2011/2012/2013 podlaskie sp/gim,
+    2012_podkarpackie. Others keyed + self-verified.
+  - **2nd documented points!=max:** `wojewodzki_2011_podlaskie_gim` sum 42 ≠ stated 45 — closed block
+    1–13 are MULTIPLE-SELECT ("może być po kilka poprawnych odpowiedzi") worth extra untabulated
+    points; kept max_points at the printed 45. Not an extraction error; validator will keep flagging it.
 - Browser: static app (`browser/index.html` + `app.css` + `app.js`, committed) rendering from
   generated per-stage data shards (`data.<stage>.js`/`.json`, gitignored). Rebuild shards with:
   `cd browser && node build.mjs` (2026-07-23: replaced the old per-test HTML generator `build.py`).

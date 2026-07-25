@@ -1,0 +1,667 @@
+{
+  "source_file": "wojewodzki/2012-2013_slaskie.pdf",
+  "answers_file": "wojewodzki/2012-2013_slaskie_answers.pdf",
+  "competition": "Wojewódzki Konkurs Przedmiotowy z Matematyki z Elementami Przyrody dla uczniów szkół podstawowych województwa śląskiego",
+  "school_type": "podstawowa",
+  "stage": "wojewodzki",
+  "wojewodztwo": "slaskie",
+  "school_year": "2012/2013",
+  "date": "2013-02-28",
+  "total_questions": 22,
+  "max_points": 50,
+  "questions": [
+    {
+      "id": "wojewodzki_2012-2013_slaskie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "open",
+      "points": 6,
+      "topics": [
+        "zagadki logiczne"
+      ],
+      "prompt_html": "<p>W puste białe pola „liczbowej krzyżówki” wstaw liczby tak, aby wszystkie działania były poprawne.</p>",
+      "choices": [],
+      "figures": [
+        "wojewodzki_2012-2013_slaskie_q1_fig1.png"
+      ],
+      "answer": {
+        "correct": "Wpisywane liczby (6 pól): 16 i 18 (górny wiersz), −2 i 4 (wiersz „… + … : 2 = 0”) oraz −2 i 4 (wiersz „2 + … − (−4) = …”). Poziomo: 10 + 0,5 · 16 = 18; −2 + 4 : 2 = 0; 2 + (−2) − (−4) = 4. Pionowo: 10 − (−2) − 2 = 10; 0,5 · 4 + (−2) = 0; 16 − 2 + (−4) = 10.",
+        "solution_html": "<p>Poziomo: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>+</mo><mn>0,5</mn><mo>·</mo><mn>16</mn><mo>=</mo><mn>18</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>2</mn><mo>+</mo><mn>4</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>0</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>+</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo><mo>−</mo><mo>(</mo><mo>−</mo><mn>4</mn><mo>)</mo><mo>=</mo><mn>4</mn></math>.</p><p>Pionowo: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>−</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo><mo>−</mo><mn>2</mn><mo>=</mo><mn>10</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,5</mn><mo>·</mo><mn>4</mn><mo>+</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>0</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mo>−</mo><mn>2</mn><mo>+</mo><mo>(</mo><mo>−</mo><mn>4</mn><mo>)</mo><mo>=</mo><mn>10</mn></math>.</p><p><em>Za każdą poprawnie wpisaną liczbę 1 punkt, w sumie 6 punktów.</em></p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2012-2013_slaskie_q2",
+      "number": 2,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Od jakiej liczby należy odjąć liczbę (−6), aby otrzymać liczbę (−5)?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "−1"
+        },
+        {
+          "label": "B",
+          "html": "1"
+        },
+        {
+          "label": "C",
+          "html": "11"
+        },
+        {
+          "label": "D",
+          "html": "−11"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2012-2013_slaskie_q3",
+      "number": 3,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Marek zauważył, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac></math> czasu, który upłynął od północy, równa się <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math> czasu, który pozostał jeszcze do południa. O której to było godzinie?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "7:30"
+        },
+        {
+          "label": "B",
+          "html": "7:50"
+        },
+        {
+          "label": "C",
+          "html": "5:30"
+        },
+        {
+          "label": "D",
+          "html": "5:10"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2012-2013_slaskie_q4",
+      "number": 4,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "układy równań"
+      ],
+      "prompt_html": "<p>Skrzynia napełniona po brzegi piaskiem ma masę 80 kg, a napełniona do połowy – 50 kg. Jaką masę ma pusta skrzynia?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "30 kg"
+        },
+        {
+          "label": "B",
+          "html": "20 kg"
+        },
+        {
+          "label": "C",
+          "html": "40 kg"
+        },
+        {
+          "label": "D",
+          "html": "25 kg"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2012-2013_slaskie_q5",
+      "number": 5,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Jeżeli iloraz dwóch liczb jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mfrac><mn>2</mn><mn>3</mn></mfrac></math>, a dzielna w tym ilorazie równa się <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math>, to dzielnik wynosi</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math>"
+        },
+        {
+          "label": "B",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>5</mn></mfrac></math>"
+        },
+        {
+          "label": "C",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>3</mn></mfrac></math>"
+        },
+        {
+          "label": "D",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>5</mn></mfrac></math>"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2012-2013_slaskie_q6",
+      "number": 6,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Jeśli liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> powiększymy o 10, a następnie otrzymaną sumę podwoimy, to uzyskana liczba będzie cztery razy większa od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>. Które równanie opisuje tę sytuację?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>+</mo><mn>10</mn><mo>=</mo><mn>4</mn><mi>x</mi></math>"
+        },
+        {
+          "label": "B",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>(</mo><mi>x</mi><mo>+</mo><mn>10</mn><mo>)</mo><mo>=</mo><mn>4</mn><mi>x</mi></math>"
+        },
+        {
+          "label": "C",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>10</mn><mo>)</mo><mo>=</mo><mi>x</mi></math>"
+        },
+        {
+          "label": "D",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>(</mo><mi>x</mi><mo>+</mo><mn>10</mn><mo>)</mo><mo>·</mo><mn>4</mn><mo>=</mo><mi>x</mi></math>"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2012-2013_slaskie_q7",
+      "number": 7,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Działka ma kształt trapezu prostokątnego o podstawach długości 30 m i 50 m oraz wysokości równej 28 m. Przez działkę poprowadzono ścieżkę, tak jak przedstawiono to na rysunku. Jaka jest powierzchnia ścieżki?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "2 m²"
+        },
+        {
+          "label": "B",
+          "html": "56 m²"
+        },
+        {
+          "label": "C",
+          "html": "60 m²"
+        },
+        {
+          "label": "D",
+          "html": "100 m²"
+        }
+      ],
+      "figures": [
+        "wojewodzki_2012-2013_slaskie_q7_fig1.png"
+      ],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2012-2013_slaskie_q8",
+      "number": 8,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "prędkość / droga / czas"
+      ],
+      "prompt_html": "<p>Rowerzysta jechał przez 3 godziny z prędkością 22 km/h, a potem przez 2 godziny z prędkością 17 km/h. Średnia prędkość rowerzysty na całej trasie wynosi</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "19 km/h"
+        },
+        {
+          "label": "B",
+          "html": "20,5 km/h"
+        },
+        {
+          "label": "C",
+          "html": "20 km/h"
+        },
+        {
+          "label": "D",
+          "html": "19,5 km/h"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2012-2013_slaskie_q9",
+      "number": 9,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Obwód figury o kształcie i wymiarach przedstawionych na rysunku jest równy</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "12"
+        },
+        {
+          "label": "B",
+          "html": "28"
+        },
+        {
+          "label": "C",
+          "html": "32"
+        },
+        {
+          "label": "D",
+          "html": "192"
+        }
+      ],
+      "figures": [
+        "wojewodzki_2012-2013_slaskie_q9_fig1.png"
+      ],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2012-2013_slaskie_q10",
+      "number": 10,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "procenty"
+      ],
+      "prompt_html": "<p>Na opakowaniu kostki masła o masie 250 g znajduje się informacja, że 82% tej masy stanowi tłuszcz. Ile gramów pozostałych składników zawiera ta kostka?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "205 g"
+        },
+        {
+          "label": "B",
+          "html": "182 g"
+        },
+        {
+          "label": "C",
+          "html": "82 g"
+        },
+        {
+          "label": "D",
+          "html": "45 g"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2012-2013_slaskie_q11",
+      "number": 11,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Która z poniższych liczb jest największa?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup></math>"
+        },
+        {
+          "label": "B",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mo>−</mo><mn>4</mn><mo>)</mo></mrow><mn>3</mn></msup></math>"
+        },
+        {
+          "label": "C",
+          "html": "0,333…"
+        },
+        {
+          "label": "D",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,2</mn><mo>:</mo><mn>2,8</mn></math>"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2012-2013_slaskie_q12",
+      "number": 12,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "procenty"
+      ],
+      "prompt_html": "<p>Na wiosnę cenę nart równą 820 zł, obniżono o 10%, a następnie przed Bożym Narodzeniem te same narty kosztowały o 10% drożej. Po tych dwóch zmianach cen narty kosztowały</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "820 zł"
+        },
+        {
+          "label": "B",
+          "html": "828,20 zł"
+        },
+        {
+          "label": "C",
+          "html": "738 zł"
+        },
+        {
+          "label": "D",
+          "html": "811,80 zł"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2012-2013_slaskie_q13",
+      "number": 13,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Suma długości podstaw trapezu jest równa 18 cm, a pole wynosi 36 cm². Wysokość trapezu jest równa</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "4 cm"
+        },
+        {
+          "label": "B",
+          "html": "2 cm"
+        },
+        {
+          "label": "C",
+          "html": "1 cm"
+        },
+        {
+          "label": "D",
+          "html": "8 cm"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2012-2013_slaskie_q14",
+      "number": 14,
+      "page": 4,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "przyroda"
+      ],
+      "prompt_html": "<p>Uzupełnij zdania:</p><p>a) Twórcą teorii heliocentrycznej jest …………………………………………</p><p>b) W Układzie Słonecznym trzecią planetą od Słońca jest …………………</p><p>c) Największa z planet Układu Słonecznego to ……………………………</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "a) Mikołaj Kopernik; b) Ziemia; c) Jowisz",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2012-2013_slaskie_q15",
+      "number": 15,
+      "page": 5,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "przyroda"
+      ],
+      "prompt_html": "<p>Ziemia wykonuje ruch obiegowy i obrotowy. Wpisz do tabeli cyfry (spośród 1–6), którymi oznaczono skutki każdego z tych ruchów.</p><p>1) pory roku,<br>2) pozorna wędrówka Słońca,<br>3) spłaszczenie Ziemi na biegunach,<br>4) zjawisko dnia i nocy,<br>5) dni i noce polarne,<br>6) zmiana miejsca wschodu i zachodu Słońca nad widnokręgiem.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Ruch obrotowy: 2, 3, 4. Ruch obiegowy: 1, 5, 6.",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2012-2013_slaskie_q16",
+      "number": 16,
+      "page": 5,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "przyroda"
+      ],
+      "prompt_html": "<p>W tabeli zamieszczono opisy właściwości substancji w różnych stanach skupienia. Uzupełnij kolumnę tabeli, wpisując odpowiednią nazwę stanu skupienia substancji.</p><ul><li>Odległości między cząsteczkami są duże. Cząsteczki przemieszczają się bardzo szybko we wszystkich kierunkach.</li><li>Cząsteczki ułożone są ciasno, nie przemieszczają się względem siebie, a jedynie wykonują drgania.</li></ul>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Opis pierwszy (duże odległości, szybki ruch cząsteczek): gazy (stan gazowy). Opis drugi (cząsteczki ciasno ułożone, tylko drgania): ciała stałe (stan stały).",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2012-2013_slaskie_q17",
+      "number": 17,
+      "page": 5,
+      "type": "true_false",
+      "points": 4,
+      "topics": [
+        "przyroda"
+      ],
+      "prompt_html": "<p>Oceń, czy podane zdania są prawdziwe, czy fałszywe. Zaznacz właściwą odpowiedź.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Powietrze jest przykładem mieszaniny niejednorodnej."
+        },
+        {
+          "label": "2",
+          "html": "Utlenianie, które przebiega w sposób gwałtowny z wydzielaniem ciepła i światła, nosi nazwę korozji."
+        },
+        {
+          "label": "3",
+          "html": "Krystalizacja jest sposobem rozdzielania składników mieszanin jednorodnych takich jak na przykład sól z wodą."
+        },
+        {
+          "label": "4",
+          "html": "Substancja prosta składająca się z jednego rodzaju atomów, to pierwiastek chemiczny."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FFPP",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2012-2013_slaskie_q18",
+      "number": 18,
+      "page": 6,
+      "type": "true_false",
+      "points": 4,
+      "topics": [
+        "przyroda"
+      ],
+      "prompt_html": "<p>Oceń, czy podane zdania są prawdziwe, czy fałszywe. Zaznacz właściwą odpowiedź.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Las równikowy wilgotny charakteryzuje niewielkie zróżnicowanie gatunkowe roślin i zwierząt."
+        },
+        {
+          "label": "2",
+          "html": "Sawanna porasta obszar o klimacie podrównikowym z wyraźnie występującą porą suchą i deszczową."
+        },
+        {
+          "label": "3",
+          "html": "Świat zwierząt obszarów pustynnych reprezentują między innymi węże i skorpiony."
+        },
+        {
+          "label": "4",
+          "html": "Tajga występuje na obszarach o klimacie umiarkowanym chłodnym i jest charakterystyczna dla półkuli południowej."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FPPF",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2012-2013_slaskie_q19",
+      "number": 19,
+      "page": 6,
+      "type": "true_false",
+      "points": 4,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Oceń, czy podane zdania są prawdziwe, czy fałszywe. Zaznacz właściwą odpowiedź.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Przekątna równoległoboku zawsze dzieli go na dwa trójkąty o równych polach."
+        },
+        {
+          "label": "2",
+          "html": "Kąty naprzemianległe są zawsze kątami ostrymi."
+        },
+        {
+          "label": "3",
+          "html": "Trójkąt rozwartokątny nie może być równoramienny."
+        },
+        {
+          "label": "4",
+          "html": "Każdy równoległobok, w którym wszystkie boki są równe, jest kwadratem."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PFFF",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2012-2013_slaskie_q20",
+      "number": 20,
+      "page": 6,
+      "type": "true_false",
+      "points": 4,
+      "topics": [
+        "podzielność",
+        "NWW / NWD"
+      ],
+      "prompt_html": "<p>W szkole zorganizowano spotkanie, na którym obecni byli uczniowie oraz ich goście. W spotkaniu uczestniczyło mniej niż 400 osób. Wszyscy siedzieli na 51 ławkach – po tyle samo osób na każdej. Goście stanowili <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>12</mn></mfrac></math> liczby wszystkich uczestników.</p><p>Oceń, czy podane zdania są prawdziwe, czy fałszywe. Zaznacz właściwą odpowiedź.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Liczba wszystkich uczestników spotkania jest wielokrotnością liczby 51."
+        },
+        {
+          "label": "2",
+          "html": "Liczba uczestników spotkania jest liczbą podzielną przez 3."
+        },
+        {
+          "label": "3",
+          "html": "W spotkaniu brało udział 306 osób."
+        },
+        {
+          "label": "4",
+          "html": "Gości było o 34 mniej niż uczniów."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PPFP",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2012-2013_slaskie_q21",
+      "number": 21,
+      "page": 7,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "układy równań"
+      ],
+      "prompt_html": "<p>Ania, Basia i Celina kupowały jednakowe zeszyty, mazaki i ołówki. Ania za 4 zeszyty, 6 mazaków i 1 ołówek zapłaciła 25,50 zł. Basia kupiła 6 zeszytów, 8 mazaków i 3 ołówki za kwotę 38,5 zł. Ile złotych zapłaciła Celina, która kupiła 1 zeszyt, 1 mazak i 1 ołówek?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "6,50 zł",
+        "solution_html": "<p>Oznaczmy ceny: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi></math> – zeszytu, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> – mazaka, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>o</mi></math> – ołówka. Z treści zadania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>z</mi><mo>+</mo><mn>6</mn><mi>m</mi><mo>+</mo><mi>o</mi><mo>=</mo><mn>25,50</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>z</mi><mo>+</mo><mn>8</mn><mi>m</mi><mo>+</mo><mn>3</mn><mi>o</mi><mo>=</mo><mn>38,50</mn></math>. Odejmując pierwsze równanie od drugiego, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>z</mi><mo>+</mo><mn>2</mn><mi>m</mi><mo>+</mo><mn>2</mn><mi>o</mi><mo>=</mo><mn>13</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi><mo>+</mo><mi>m</mi><mo>+</mo><mi>o</mi><mo>=</mo><mn>6,5</mn></math>. Celina zapłaciła 6,50 zł.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2012-2013_slaskie_q22",
+      "number": 22,
+      "page": 8,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "bryły"
+      ],
+      "prompt_html": "<p>W kartonie w kształcie prostopadłościanu o wymiarach 6 cm, 0,9 dm i 0,2 m jest mleko. Jeżeli dno kartonu stanowi ściana o najmniejszym polu, to mleko sięga do wysokości 7 cm. Do jakiej wysokości sięgałoby mleko, gdyby dnem kartonu była ściana o największym polu?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "2,1 cm",
+        "solution_html": "<p>Wymiary prostopadłościanu to 6 cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,9</mn></math> dm <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>9</mn></math> cm oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,2</mn></math> m <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>20</mn></math> cm. Najmniejsze pole ma ściana 6 cm × 9 cm, więc objętość mleka wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><mn>9</mn><mo>·</mo><mn>7</mn><mo>=</mo><mn>378</mn></math> cm³. Największe pole ma ściana 9 cm × 20 cm <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>180</mn></math> cm². Wysokość, do której sięgnie mleko, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>378</mn><mn>180</mn></mfrac><mo>=</mo><mn>2,1</mn></math> cm.</p>"
+      }
+    }
+  ]
+}
