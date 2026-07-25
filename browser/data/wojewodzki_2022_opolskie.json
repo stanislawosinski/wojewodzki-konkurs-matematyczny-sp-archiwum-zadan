@@ -1,0 +1,277 @@
+{
+  "source_file": "wojewodzki/2022_opolskie.pdf",
+  "answers_file": "wojewodzki/2022_opolskie_answers.pdf",
+  "competition": "XXII Wojewódzki Konkurs Matematyczny dla uczniów szkół podstawowych województwa opolskiego",
+  "school_type": "podstawowa",
+  "stage": "wojewodzki",
+  "wojewodztwo": "opolskie",
+  "school_year": "2021/2022",
+  "date": null,
+  "total_questions": 11,
+  "max_points": 40,
+  "questions": [
+    {
+      "id": "wojewodzki_2022_opolskie_q1",
+      "number": 1,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "podzielność",
+        "zliczanie / metody zliczania"
+      ],
+      "prompt_html": "<p>Oceń, czy zdanie jest prawdziwe.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Liczb trzycyfrowych, które są podzielne przez 3 i podzielne przez 5 jest dokładnie 180."
+        },
+        {
+          "label": "2",
+          "html": "Liczb trzycyfrowych, które są podzielne przez 3 i niepodzielne przez 5 jest dokładnie 240."
+        },
+        {
+          "label": "3",
+          "html": "Liczb trzycyfrowych, które są niepodzielne przez 3 i niepodzielne przez 5 jest dokładnie 420."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FPF",
+        "solution_html": "<p>Liczb trzycyfrowych jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>999</mn><mo>−</mo><mn>100</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>900</mn></math>.</p><ul><li>Podzielne przez 3 i przez 5, czyli przez 15: od 105 do 990, jest ich <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>990</mn><mo>−</mo><mn>105</mn></mrow><mn>15</mn></mfrac><mo>+</mo><mn>1</mn><mo>=</mo><mn>60</mn></math>, a nie 180 — <strong>NIE</strong>.</li><li>Podzielnych przez 3 jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>999</mn><mo>−</mo><mn>102</mn></mrow><mn>3</mn></mfrac><mo>+</mo><mn>1</mn><mo>=</mo><mn>300</mn></math>. Podzielne przez 3 i niepodzielne przez 5 to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>300</mn><mo>−</mo><mn>60</mn><mo>=</mo><mn>240</mn></math> — <strong>TAK</strong>.</li><li>Podzielnych przez 5 jest 180. Podzielnych przez 3 lub 5 jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>300</mn><mo>+</mo><mn>180</mn><mo>−</mo><mn>60</mn><mo>=</mo><mn>420</mn></math>, więc niepodzielnych przez 3 i niepodzielnych przez 5 jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>900</mn><mo>−</mo><mn>420</mn><mo>=</mo><mn>480</mn></math>, a nie 420 — <strong>NIE</strong>.</li></ul>"
+      }
+    },
+    {
+      "id": "wojewodzki_2022_opolskie_q2",
+      "number": 2,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "trójkąty"
+      ],
+      "prompt_html": "<p>Prawdą jest, że można podzielić:</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "każdy trójkąt ostrokątny na 3 trójkąty równoramienne."
+        },
+        {
+          "label": "2",
+          "html": "każdy trójkąt prostokątny na 2 trójkąty równoramienne."
+        },
+        {
+          "label": "3",
+          "html": "każdy trójkąt rozwartokątny na 4 trójkąty równoramienne."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PPP",
+        "solution_html": "<ul><li>W trójkącie ostrokątnym środek okręgu opisanego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math> leży wewnątrz trójkąta. Odcinki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi><mi>A</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi><mi>B</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi><mi>C</mi></math> są równe promieniowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math>, więc dzielą trójkąt na 3 trójkąty równoramienne — <strong>TAK</strong>.</li><li>W trójkącie prostokątnym środkowa poprowadzona z wierzchołka kąta prostego do przeciwprostokątnej ma długość równą połowie przeciwprostokątnej, więc dzieli trójkąt na 2 trójkąty równoramienne — <strong>TAK</strong>.</li><li>Trójkąt rozwartokątny można podzielić na 4 trójkąty równoramienne (np. najpierw wysokością z wierzchołka rozwartego kąta i dalszymi podziałami) — <strong>TAK</strong>.</li></ul>"
+      }
+    },
+    {
+      "id": "wojewodzki_2022_opolskie_q3",
+      "number": 3,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Wartość sumy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>10</mn></msup><mo>+</mo><msup><mn>2</mn><mn>10</mn></msup><mo>+</mo><msup><mn>2</mn><mn>10</mn></msup><mo>+</mo><msup><mn>2</mn><mn>10</mn></msup></math> wynosi:</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>12</mn></msup></math>"
+        },
+        {
+          "label": "2",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>8</mn></msup></math>"
+        },
+        {
+          "label": "3",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>8</mn><mn>4</mn></msup></math>"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PFP",
+        "solution_html": "<p>Suma czterech jednakowych składników: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><msup><mn>2</mn><mn>10</mn></msup><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup><mo>·</mo><msup><mn>2</mn><mn>10</mn></msup><mo>=</mo><msup><mn>2</mn><mn>12</mn></msup></math>.</p><ul><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>12</mn></msup></math> — <strong>TAK</strong>.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>8</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><msup><mn>2</mn><mn>2</mn></msup><mo>)</mo></mrow><mn>8</mn></msup><mo>=</mo><msup><mn>2</mn><mn>16</mn></msup><mo>≠</mo><msup><mn>2</mn><mn>12</mn></msup></math> — <strong>NIE</strong>.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>8</mn><mn>4</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><msup><mn>2</mn><mn>3</mn></msup><mo>)</mo></mrow><mn>4</mn></msup><mo>=</mo><msup><mn>2</mn><mn>12</mn></msup></math> — <strong>TAK</strong>.</li></ul>"
+      }
+    },
+    {
+      "id": "wojewodzki_2022_opolskie_q4",
+      "number": 4,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "podzielność",
+        "usuwanie niewymierności z mianownika",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Czy wartość wyrażenia jest liczbą naturalną?</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mn>10</mn><mn>421</mn></msup><mo>+</mo><mn>6</mn></mrow><mn>6</mn></mfrac></math>"
+        },
+        {
+          "label": "2",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>1</mn></mrow></mfrac><mo>−</mo><mfrac><mn>1</mn><mrow><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>1</mn></mrow></mfrac></math>"
+        },
+        {
+          "label": "3",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>6</mn><mo>+</mo><msup><mn>6</mn><mn>2</mn></msup><mo>+</mo><msup><mn>6</mn><mn>3</mn></msup><mo>+</mo><mo>⋯</mo><mo>+</mo><msup><mn>6</mn><mn>200</mn></msup></mrow><mn>7</mn></mfrac></math>"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FPP",
+        "solution_html": "<ul><li>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>≡</mo><mn>1</mn><mspace width=\"0.3em\"></mspace><mo>(</mo><mtext>mod</mtext><mspace width=\"0.3em\"></mspace><mn>3</mn><mo>)</mo></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>421</mn></msup><mo>+</mo><mn>6</mn><mo>≡</mo><mn>1</mn><mspace width=\"0.3em\"></mspace><mo>(</mo><mtext>mod</mtext><mspace width=\"0.3em\"></mspace><mn>3</mn><mo>)</mo></math>. Licznik nie dzieli się przez 3, więc tym bardziej nie dzieli się przez 6 — wartość nie jest liczbą naturalną — <strong>NIE</strong>.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>1</mn></mrow></mfrac><mo>−</mo><mfrac><mn>1</mn><mrow><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>1</mn><mo>)</mo><mo>−</mo><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mrow><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>1</mn><mo>)</mo><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>1</mn><mo>)</mo></mrow></mfrac><mo>=</mo><mfrac><mn>2</mn><mrow><mn>3</mn><mo>−</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mn>1</mn></math> — liczba naturalna — <strong>TAK</strong>.</li><li>Grupując kolejne składniki w pary: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>6</mn><mrow><mn>2</mn><mi>k</mi><mo>−</mo><mn>1</mn></mrow></msup><mo>+</mo><msup><mn>6</mn><mrow><mn>2</mn><mi>k</mi></mrow></msup><mo>=</mo><msup><mn>6</mn><mrow><mn>2</mn><mi>k</mi><mo>−</mo><mn>1</mn></mrow></msup><mo>(</mo><mn>1</mn><mo>+</mo><mn>6</mn><mo>)</mo><mo>=</mo><mn>7</mn><mo>·</mo><msup><mn>6</mn><mrow><mn>2</mn><mi>k</mi><mo>−</mo><mn>1</mn></mrow></msup></math>. Suma 200 składników rozpada się na 100 takich par, z których każda dzieli się przez 7, więc cała suma dzieli się przez 7 — liczba naturalna — <strong>TAK</strong>.</li></ul>"
+      }
+    },
+    {
+      "id": "wojewodzki_2022_opolskie_q5",
+      "number": 5,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "bryły"
+      ],
+      "prompt_html": "<p>Wielościan zbudowany tylko z trójkątów równobocznych może mieć:</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "6 krawędzi."
+        },
+        {
+          "label": "2",
+          "html": "6 wierzchołków."
+        },
+        {
+          "label": "3",
+          "html": "6 ścian."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PPP",
+        "solution_html": "<ul><li>Czworościan foremny ma 4 ściany będące trójkątami równobocznymi i dokładnie 6 krawędzi — <strong>TAK</strong>.</li><li>Ośmiościan foremny (dwa ostrosłupy prawidłowe czworokątne sklejone podstawami, o ścianach będących trójkątami równobocznymi) ma 6 wierzchołków — <strong>TAK</strong>.</li><li>Bryła powstała ze sklejenia dwóch czworościanów foremnych wspólną ścianą (ostrosłup podwójny trójkątny) ma 6 ścian, z których każda jest trójkątem równobocznym — <strong>TAK</strong>.</li></ul>"
+      }
+    },
+    {
+      "id": "wojewodzki_2022_opolskie_q6",
+      "number": 6,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "procenty",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Cena bluzki była o 40 zł niższa niż cena spódnicy. Gdy droższa rzecz potaniała o 10%, a tańsza podrożała o 10%, to za bluzkę i spódnicę łącznie płacimy o 2% mniej niż początkowo. Jakie były początkowe ceny bluzki i spódnicy?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "bluzka 80 zł, spódnica 120 zł",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi></math> oznacza cenę (droższej) spódnicy w złotych. Wtedy bluzka kosztuje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>−</mo><mn>40</mn></math>, a łączna cena początkowa to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>+</mo><mo>(</mo><mi>s</mi><mo>−</mo><mn>40</mn><mo>)</mo><mo>=</mo><mn>2</mn><mi>s</mi><mo>−</mo><mn>40</mn></math>.</p><p>Po zmianie spódnica kosztuje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,9</mn><mi>s</mi></math>, a bluzka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,1</mn><mo>(</mo><mi>s</mi><mo>−</mo><mn>40</mn><mo>)</mo></math>, czyli łącznie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,9</mn><mi>s</mi><mo>+</mo><mn>1,1</mn><mo>(</mo><mi>s</mi><mo>−</mo><mn>40</mn><mo>)</mo><mo>=</mo><mn>2</mn><mi>s</mi><mo>−</mo><mn>44</mn></math>. Kwota ta jest o 2% mniejsza od początkowej:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>s</mi><mo>−</mo><mn>44</mn><mo>=</mo><mn>0,98</mn><mo>(</mo><mn>2</mn><mi>s</mi><mo>−</mo><mn>40</mn><mo>)</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>s</mi><mo>−</mo><mn>44</mn><mo>=</mo><mn>1,96</mn><mi>s</mi><mo>−</mo><mn>39,2</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,04</mn><mi>s</mi><mo>=</mo><mn>4,8</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>=</mo><mn>120</mn></math>. Zatem spódnica kosztowała <strong>120 zł</strong>, a bluzka <strong>80 zł</strong>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2022_opolskie_q7",
+      "number": 7,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "geometria",
+        "trójkąty",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Przekątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>C</mi></math> prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>B</mi><mi>C</mi><mi>D</mi></math> ma długość 12 cm i dzieli ten prostokąt na dwa trójkąty. Wysokości tych trójkątów poprowadzone z wierzchołków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> podzieliły przekątną na 3 równe części. Oblicz pole tego prostokąta.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "48√2 cm²",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mi>A</mi><mi>B</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mi>B</mi><mi>C</mi></math> będą bokami prostokąta. Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>B</mi><mi>C</mi></math> jest prostokątny w wierzchołku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>, a spodek wysokości poprowadzonej z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> na przeciwprostokątną <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>C</mi></math> dzieli ją na odcinki o długościach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mi>a</mi><mn>2</mn></msup><mn>12</mn></mfrac></math> (od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>) oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mi>b</mi><mn>2</mn></msup><mn>12</mn></mfrac></math>. Z symetrii spodek wysokości z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> leży symetrycznie względem środka przekątnej.</p><p>Oba spodki dzielą przekątną na 3 równe części po 4 cm, więc jeden z odcinków wynosi 4, a drugi 8: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mi>a</mi><mn>2</mn></msup><mn>12</mn></mfrac><mo>=</mo><mn>4</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mi>b</mi><mn>2</mn></msup><mn>12</mn></mfrac><mo>=</mo><mn>8</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>48</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>b</mi><mn>2</mn></msup><mo>=</mo><mn>96</mn></math> (sprawdzenie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>48</mn><mo>+</mo><mn>96</mn><mo>=</mo><mn>144</mn><mo>=</mo><msup><mn>12</mn><mn>2</mn></msup></math>).</p><p>Pole prostokąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mi>a</mi><mo>·</mo><mi>b</mi><mo>=</mo><msqrt><mrow><mn>48</mn><mo>·</mo><mn>96</mn></mrow></msqrt><mo>=</mo><msqrt><mn>4608</mn></msqrt><mo>=</mo><mn>48</mn><msqrt><mn>2</mn></msqrt></math> cm².</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2022_opolskie_q8",
+      "number": 8,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "prędkość / droga / czas",
+        "proporcjonalność prosta"
+      ],
+      "prompt_html": "<p>Ze stacji A do B wyjeżdża pociąg, a godzinę później wyjeżdża pociąg ze stacji B do A. Pociągi jadą z tą samą prędkością i mijają się w punkcie dzielącym odległość z A do B w stosunku 5 : 3. Ile czasu potrzebuje pociąg na pokonanie drogi z A do B?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "4 godziny",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> oznacza odległość z A do B, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi></math> — wspólną prędkość pociągów. Punkt spotkania dzieli drogę w stosunku 5 : 3, więc pociąg z A pokonał do niego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>8</mn></mfrac><mi>d</mi></math>, a pociąg z B — <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>8</mn></mfrac><mi>d</mi></math>.</p><p>Pociąg z A jedzie o godzinę dłużej. Jeśli do spotkania jechał czas <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math>, to pociąg z B jechał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>−</mo><mn>1</mn></math>. Przy równych prędkościach przebyte drogi są proporcjonalne do czasów:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>t</mi><mrow><mi>t</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mfrac><mn>5</mn><mn>3</mn></mfrac></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>t</mi><mo>=</mo><mn>5</mn><mi>t</mi><mo>−</mo><mn>5</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>2,5</mn></math> godziny.</p><p>W czasie 2,5 h pociąg z A przebył <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>8</mn></mfrac><mi>d</mi></math>, więc na całą drogę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> potrzebuje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2,5</mn><mo>·</mo><mfrac><mn>8</mn><mn>5</mn></mfrac><mo>=</mo><mn>4</mn></math> godziny.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2022_opolskie_q9",
+      "number": 9,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "trójkąty",
+        "geometria"
+      ],
+      "prompt_html": "<p>Oblicz pole trójkąta równoramiennego, którego kąty przy podstawie mają po 75°. Wysokość tego trójkąta poprowadzona z wierzchołka kąta przy podstawie ma długość 10 cm.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "100 cm²",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>B</mi><mi>C</mi></math> będzie trójkątem równoramiennym o podstawie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>B</mi></math> i kątach przy podstawie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>75</mn><mo>°</mo></math>; ramiona to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>C</mi><mo>=</mo><mi>B</mi><mi>C</mi><mo>=</mo><mi>b</mi></math>, kąt przy wierzchołku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>180</mn><mo>°</mo><mo>−</mo><mn>2</mn><mo>·</mo><mn>75</mn><mo>°</mo><mo>=</mo><mn>30</mn><mo>°</mo></math>.</p><p>Rozważmy wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>H</mi></math> poprowadzoną z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> na ramię <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mi>C</mi></math>; ma ona długość 10 cm. W trójkącie prostokątnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>H</mi><mi>C</mi></math> kąt przy wierzchołku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>°</mo></math>, a naprzeciw niego leży przyprostokątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>H</mi><mo>=</mo><mn>10</mn></math>. Zatem przeciwprostokątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>C</mi><mo>=</mo><mi>b</mi></math> spełnia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>H</mi><mo>=</mo><mi>b</mi><mo>·</mo><mtext>sin</mtext><mspace width=\"0.15em\"></mspace><mn>30</mn><mo>°</mo><mo>=</mo><mfrac><mi>b</mi><mn>2</mn></mfrac></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>20</mn></math> cm.</p><p>Pole trójkąta liczymy, biorąc jako podstawę ramię <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mi>C</mi><mo>=</mo><mn>20</mn></math> i odpowiadającą mu wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>H</mi><mo>=</mo><mn>10</mn></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>20</mn><mo>·</mo><mn>10</mn><mo>=</mo><mn>100</mn></math> cm².</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2022_opolskie_q10",
+      "number": 10,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "reszta z dzielenia",
+        "podzielność",
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>Udowodnij, że jeżeli liczba naturalna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> nie jest podzielna przez 3, to liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn></math> jest podzielna przez 3.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Teza jest prawdziwa (dowód)",
+        "solution_html": "<p>Liczba naturalna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> niepodzielna przez 3 daje przy dzieleniu przez 3 resztę 1 albo 2, więc ma postać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>k</mi><mo>+</mo><mn>1</mn></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>k</mi><mo>+</mo><mn>2</mn></math> dla pewnej liczby całkowitej nieujemnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math>.</p><ul><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>3</mn><mi>k</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><mn>2</mn><mo>=</mo><mn>9</mn><msup><mi>k</mi><mn>2</mn></msup><mo>+</mo><mn>6</mn><mi>k</mi><mo>+</mo><mn>1</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>3</mn><mo>(</mo><mn>3</mn><msup><mi>k</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>k</mi><mo>+</mo><mn>1</mn><mo>)</mo></math> — liczba podzielna przez 3.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>3</mn><mi>k</mi><mo>+</mo><mn>2</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><mn>2</mn><mo>=</mo><mn>9</mn><msup><mi>k</mi><mn>2</mn></msup><mo>+</mo><mn>12</mn><mi>k</mi><mo>+</mo><mn>4</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>3</mn><mo>(</mo><mn>3</mn><msup><mi>k</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>k</mi><mo>+</mo><mn>2</mn><mo>)</mo></math> — liczba podzielna przez 3.</li></ul><p>W obu przypadkach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>n</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn></math> jest podzielna przez 3, co kończy dowód.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2022_opolskie_q11",
+      "number": 11,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "bryły",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>W ostrosłupie prawidłowym czworokątnym suma długości wszystkich krawędzi jest równa 60 cm. Stosunek długości przekątnej podstawy do długości krawędzi bocznej wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow><mn>3</mn></mfrac></math>. Oblicz objętość tego ostrosłupa.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "36√7 cm³",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> będzie krawędzią podstawy, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> — krawędzią boczną. Ostrosłup prawidłowy czworokątny ma 4 krawędzie podstawy i 4 krawędzie boczne, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>a</mi><mo>+</mo><mn>4</mn><mi>k</mi><mo>=</mo><mn>60</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>k</mi><mo>=</mo><mn>15</mn></math>.</p><p>Przekątna kwadratowej podstawy ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><msqrt><mn>2</mn></msqrt></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><msqrt><mn>2</mn></msqrt></mrow><mi>k</mi></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow><mn>3</mn></mfrac></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>a</mi><mo>=</mo><mn>2</mn><mi>k</mi></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mo>=</mo><mfrac><mrow><mn>3</mn><mi>a</mi></mrow><mn>2</mn></mfrac></math>.</p><p>Podstawiając: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mfrac><mrow><mn>3</mn><mi>a</mi></mrow><mn>2</mn></mfrac><mo>=</mo><mn>15</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>5</mn><mi>a</mi></mrow><mn>2</mn></mfrac><mo>=</mo><mn>15</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>6</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mo>=</mo><mn>9</mn></math>.</p><p>Wysokość ostrosłupa liczymy z trójkąta prostokątnego o przeciwprostokątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> i przyprostokątnej równej połowie przekątnej podstawy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><mn>3</mn><msqrt><mn>2</mn></msqrt></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi><mo>=</mo><msqrt><mrow><msup><mn>9</mn><mn>2</mn></msup><mo>−</mo><msup><mrow><mo>(</mo><mn>3</mn><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>81</mn><mo>−</mo><mn>18</mn></mrow></msqrt><mo>=</mo><msqrt><mn>63</mn></msqrt><mo>=</mo><mn>3</mn><msqrt><mn>7</mn></msqrt></math> cm.</p><p>Objętość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><msup><mi>a</mi><mn>2</mn></msup><mo>·</mo><mi>H</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mn>36</mn><mo>·</mo><mn>3</mn><msqrt><mn>7</mn></msqrt><mo>=</mo><mn>36</mn><msqrt><mn>7</mn></msqrt></math> cm³.</p>"
+      }
+    }
+  ]
+}

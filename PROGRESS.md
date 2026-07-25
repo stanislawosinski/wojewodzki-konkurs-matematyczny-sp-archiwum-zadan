@@ -204,7 +204,16 @@ the know-how that used to live only in the chat; everything needed to resume is 
        192 cm²); key row looks mismatched. Stored the correct 192; verify in blind pass.
     3. `rejonowy_2014_podkarpackie_q16` — arkusz omitted square labels; everyone got 1 pt but key
        still lists B. Kept correct=B + italic note (not an annulment).
-- **wojewodzki: 100 / 160** processed (batches 1–5 done 2026-07-25).
+- **wojewodzki: 110 / 160** processed (batches 1–6 done 2026-07-25).
+  - **Batch 6 (10):** 2022_lodzkie (keyed)/lubelskie (embedded key)/lubuskie/mazowieckie/opolskie/
+    podkarpackie/podlaskie, 2023-2024_{malopolskie, pomorskie (bundled), slaskie}. All keyed + self-verified.
+  - **łódzkie now keyed from 2022:** 2022_lodzkie has a separate answers pdf (80-pt scale, A–E); the
+    2019–2021 łódzkie remain keyless. 2022_lubelskie keeps the embedded-key convention.
+  - **pomorskie inline choice-figure:** wojewodzki_2023-2024_pomorskie q1 (true_false) has a diagram
+    belonging to one statement — embedded INLINE in that choice's html (figures[] empty) per the
+    lubuskie-q25 precedent. Orphan-scan flags it but build.mjs renders it via the choice html.
+  - **Minor key typos handled (points still reconcile to 40):** 2022_podkarpackie q11 key header "(0-3)"
+    vs rubric/paper "(0-2)" → used 2; kept faithful.
   - **Batch 5 (20):** 2021_dolnoslaskie/lodzkie (keyless)/lubelskie (embedded key)/lubuskie/mazowieckie/
     opolskie/podkarpackie/podlaskie, 2021-2022_{swietokrzyskie, warminsko-mazurskie, wielkopolskie,
     zachodniopomorskie}, 2022_dolnoslaskie, 2022-2023_{malopolskie, pomorskie (bundled), slaskie,

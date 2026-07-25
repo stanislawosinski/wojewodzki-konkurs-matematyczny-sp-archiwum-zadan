@@ -1,0 +1,455 @@
+{
+  "source_file": "wojewodzki/2023-2024_slaskie.pdf",
+  "answers_file": "wojewodzki/2023-2024_slaskie_answers.pdf",
+  "competition": "Wojewódzki Konkurs Przedmiotowy z Matematyki dla uczniów szkół podstawowych województwa śląskiego",
+  "school_type": "podstawowa",
+  "stage": "wojewodzki",
+  "wojewodztwo": "slaskie",
+  "school_year": "2023/2024",
+  "date": null,
+  "total_questions": 20,
+  "max_points": 60,
+  "questions": [
+    {
+      "id": "wojewodzki_2023-2024_slaskie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "open",
+      "points": 20,
+      "topics": [
+        "geometria",
+        "koła / okręgi",
+        "pierścień kołowy",
+        "bryły",
+        "statystyka opisowa",
+        "potęgi i pierwiastki",
+        "procenty",
+        "inne"
+      ],
+      "prompt_html": "<p>Rozwiąż krzyżówkę, wpisując litery w odpowiednie pola. Hasło to nazwa figury pokazanej na rysunku obok, konstrukcji polskiego matematyka Wacława Sierpińskiego. Hasło nie jest oceniane.</p><ol><li>Oś symetrii odcinka do niego prostopadła.</li><li>Czworokąt utworzony z dwóch trójkątów równobocznych o wspólnym boku.</li><li>Figura, która jest ścianą boczną ostrosłupa.</li><li>Wartość, od której odejmuje się daną liczbę.</li><li>Zbiór wszystkich punktów płaszczyzny równo oddalonych od danego punktu.</li><li>Część płaszczyzny ograniczona dwoma półprostymi o wspólnym początku.</li><li>Odcinek, który łączy dwa wierzchołki wielokąta nieleżące na tym samym boku.</li><li>Nazwa bryły, której szczególnym przypadkiem jest czworościan.</li><li>Wartość środkowa w uporządkowanym zbiorze liczb, który zawiera nieparzystą liczbę elementów.</li><li>Mianownik ułamka traktowanego jako zapis dzielenia.</li><li>Jedna setna danej wielkości.</li><li>Figura utworzona przez zaznaczenie wszystkich liczb nieujemnych na osi liczbowej.</li><li>Część płaszczyzny ograniczona przez dwa okręgi o wspólnym środku i różnych promieniach.</li><li>Jednostka miary kąta, w której miara kąta prostego wynosi 90.</li><li>Określenie wzajemnego położenia wysokości trójkąta i jego podstawy (lub jej przedłużenia), których długości są użyte do obliczenia pola powierzchni tego trójkąta.</li><li>Figura geometryczna, którą jest np.: promień koła, krawędź ostrosłupa, bok wielokąta.</li><li>Połowa średnicy okręgu.</li><li>Punkt wspólny krawędzi bocznych ostrosłupa.</li><li>Wyrażenie postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2023</mn><mn>2024</mn></msup></math>.</li><li>Figura będąca podstawą walca.</li></ol>",
+      "choices": [],
+      "figures": [
+        "wojewodzki_2023-2024_slaskie_q1_fig1.png",
+        "wojewodzki_2023-2024_slaskie_q1_fig2.png"
+      ],
+      "answer": {
+        "correct": "1) SYMETRALNA, 2) ROMB, 3) TRÓJKĄT, 4) ODJEMNA, 5) OKRĄG, 6) KĄT, 7) PRZEKĄTNA, 8) OSTROSŁUP, 9) MEDIANA, 10) DZIELNIK, 11) PROCENT, 12) PÓŁPROSTA, 13) PIERŚCIEŃ KOŁOWY, 14) STOPIEŃ, 15) PROSTOPADŁOŚĆ, 16) ODCINEK, 17) PROMIEŃ, 18) WIERZCHOŁEK, 19) POTĘGA, 20) KOŁO",
+        "solution_html": "<p>Kolejne hasła krzyżówki: <strong>1)</strong> SYMETRALNA, <strong>2)</strong> ROMB, <strong>3)</strong> TRÓJKĄT, <strong>4)</strong> ODJEMNA, <strong>5)</strong> OKRĄG, <strong>6)</strong> KĄT, <strong>7)</strong> PRZEKĄTNA, <strong>8)</strong> OSTROSŁUP, <strong>9)</strong> MEDIANA, <strong>10)</strong> DZIELNIK, <strong>11)</strong> PROCENT, <strong>12)</strong> PÓŁPROSTA, <strong>13)</strong> PIERŚCIEŃ KOŁOWY, <strong>14)</strong> STOPIEŃ, <strong>15)</strong> PROSTOPADŁOŚĆ, <strong>16)</strong> ODCINEK, <strong>17)</strong> PROMIEŃ, <strong>18)</strong> WIERZCHOŁEK, <strong>19)</strong> POTĘGA, <strong>20)</strong> KOŁO. Litery z zacieniowanej kolumny czytane z góry na dół tworzą hasło (nieoceniane): TRÓJKĄT SIERPIŃSKIEGO. Za każde poprawnie uzupełnione pole przyznaje się 1 punkt (łącznie 20 pkt).</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2023-2024_slaskie_q2",
+      "number": 2,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "zliczanie / metody zliczania"
+      ],
+      "prompt_html": "<p>Wszystkich liczb naturalnych trzycyfrowych, których iloczyn cyfr wynosi 6, jest</p>",
+      "choices": [
+        { "label": "A", "html": "12" },
+        { "label": "B", "html": "9" },
+        { "label": "C", "html": "8" },
+        { "label": "D", "html": "7" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2023-2024_slaskie_q3",
+      "number": 3,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Prostokątną kartkę o wymiarach 30 cm x 18 cm rozcięto tak, że otrzymano kwadrat i prostokąt. Obwody otrzymanych figur to:</p>",
+      "choices": [
+        { "label": "A", "html": "kwadratu – 36 cm i prostokąta – 60 cm." },
+        { "label": "B", "html": "kwadratu – 54 cm i prostokąta – 42 cm." },
+        { "label": "C", "html": "kwadratu – 54 cm i prostokąta – 60 cm." },
+        { "label": "D", "html": "kwadratu – 72 cm i prostokąta – 60 cm." }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2023-2024_slaskie_q4",
+      "number": 4,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "proporcjonalność prosta"
+      ],
+      "prompt_html": "<p>Pewną kwotę podzielono między troje przyjaciół w stosunku 3 : 2 : 5. Jaś otrzymał najmniejszą kwotę równą 100 zł. Przed podziałem kwota była równa</p>",
+      "choices": [
+        { "label": "A", "html": "400 zł" },
+        { "label": "B", "html": "500 zł" },
+        { "label": "C", "html": "800 zł" },
+        { "label": "D", "html": "1000 zł" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2023-2024_slaskie_q5",
+      "number": 5,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "potęgi i pierwiastki",
+        "wzory skróconego mnożenia"
+      ],
+      "prompt_html": "<p>Wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><msqrt><mn>5</mn></msqrt><mo>−</mo><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow><mrow><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>−</mo><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow></mfrac><mo>·</mo><mfrac><mrow><mo>(</mo><msqrt><mn>5</mn></msqrt><mo>+</mo><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow><mrow><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>+</mo><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow></mfrac></math> jest równe</p>",
+      "choices": [
+        { "label": "A", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2</mn></msqrt></math>" },
+        { "label": "B", "html": "2" },
+        { "label": "C", "html": "2,5" },
+        { "label": "D", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>5</mn></msqrt></math>" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2023-2024_slaskie_q6",
+      "number": 6,
+      "page": 5,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "procenty",
+        "trójkąty"
+      ],
+      "prompt_html": "<p>Długość podstawy pewnego trójkąta zmniejszono o 30%, a jego wysokość zwiększono o 40%. W wyniku opisanych zmian pole tego trójkąta</p>",
+      "choices": [
+        { "label": "A", "html": "zmalało o 12%." },
+        { "label": "B", "html": "wzrosło o 2%." },
+        { "label": "C", "html": "zmalało o 2%." },
+        { "label": "D", "html": "wzrosło o 10%." }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2023-2024_slaskie_q7",
+      "number": 7,
+      "page": 5,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Różnica miar dwóch sąsiednich kątów wewnętrznych równoległoboku jest równa 40°. Kąt rozwarty tego równoległoboku ma miarę</p>",
+      "choices": [
+        { "label": "A", "html": "140°" },
+        { "label": "B", "html": "130°" },
+        { "label": "C", "html": "110°" },
+        { "label": "D", "html": "100°" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2023-2024_slaskie_q8",
+      "number": 8,
+      "page": 5,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Suma wieku Basi, Jasia i Asi jest równa 32 lata. Jaś jest dwa razy starszy od Basi. Asia jest o 4 lata starsza od Basi. Basia ma</p>",
+      "choices": [
+        { "label": "A", "html": "7 lat." },
+        { "label": "B", "html": "9 lat." },
+        { "label": "C", "html": "11 lat." },
+        { "label": "D", "html": "14 lat." }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2023-2024_slaskie_q9",
+      "number": 9,
+      "page": 5,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "trójkąty"
+      ],
+      "prompt_html": "<p>W trójkącie prostokątnym równoramiennym odległość wierzchołka kąta prostego od przeciwprostokątnej jest równa 6. Pole tego trójkąta jest równe</p>",
+      "choices": [
+        { "label": "A", "html": "72" },
+        { "label": "B", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>36</mn><msqrt><mn>2</mn></msqrt></math>" },
+        { "label": "C", "html": "36" },
+        { "label": "D", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><msqrt><mn>2</mn></msqrt></math>" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2023-2024_slaskie_q10",
+      "number": 10,
+      "page": 5,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "bryły"
+      ],
+      "prompt_html": "<p>Liczba wszystkich krawędzi graniastosłupa jest o 14 większa od liczby wszystkich jego ścian. Podstawą tego graniastosłupa jest</p>",
+      "choices": [
+        { "label": "A", "html": "sześciokąt." },
+        { "label": "B", "html": "siedmiokąt." },
+        { "label": "C", "html": "ośmiokąt." },
+        { "label": "D", "html": "czternastokąt." }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2023-2024_slaskie_q11",
+      "number": 11,
+      "page": 6,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "liczby rzymskie"
+      ],
+      "prompt_html": "<p>Do zapisania liczb 888, 1111 i 2022 potrzeba łącznie 11 cyfr arabskich. Łączna liczba znaków rzymskich potrzebna do zapisu wszystkich tych liczb jest równa</p>",
+      "choices": [
+        { "label": "A", "html": "21" },
+        { "label": "B", "html": "22" },
+        { "label": "C", "html": "23" },
+        { "label": "D", "html": "24" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2023-2024_slaskie_q12",
+      "number": 12,
+      "page": 6,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "układy równań"
+      ],
+      "prompt_html": "<p>Trzy ołówki i dwa długopisy kosztują łącznie tyle, co cztery zeszyty. Za tę samą kwotę można też kupić jeden ołówek i trzy długopisy. Zaznacz zdanie prawdziwe.</p>",
+      "choices": [
+        { "label": "A", "html": "Ołówek jest dwa razy droższy niż długopis." },
+        { "label": "B", "html": "Cena czterech długopisów jest równa cenie trzech zeszytów." },
+        { "label": "C", "html": "Dwa długopisy kosztują tyle samo, co cztery ołówki." },
+        { "label": "D", "html": "Jeden zeszyt kosztuje więcej niż dwa ołówki." }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2023-2024_slaskie_q13",
+      "number": 13,
+      "page": 6,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "NWW / NWD"
+      ],
+      "prompt_html": "<p>Dwaj biegacze odbywają trening na zamkniętej pętli stadionu. Bieg rozpoczynają ze wspólnej linii startu. Pierwszy z nich pokonuje pełne okrążenie w czasie 4 minut, a drugi w czasie 5 minut. Podczas treningu trwającego 1 godzinę 40 minut obaj biegacze, wliczając moment startu, znajdą się jednocześnie na linii startu</p>",
+      "choices": [
+        { "label": "A", "html": "5 razy." },
+        { "label": "B", "html": "6 razy." },
+        { "label": "C", "html": "20 razy." },
+        { "label": "D", "html": "24 razy." }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2023-2024_slaskie_q14",
+      "number": 14,
+      "page": 7,
+      "type": "true_false",
+      "points": 4,
+      "topics": [
+        "podzielność",
+        "wzory skróconego mnożenia"
+      ],
+      "prompt_html": "<p>Dane jest wyrażenie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>W</mi><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn><mi>x</mi><mo>−</mo><mn>5</mn></math>. Oceń prawdziwość poniższych zdań, jeżeli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><msup><mn>10</mn><mn>23</mn></msup></math>.</p>",
+      "choices": [
+        { "label": "I", "html": "Wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>W</mi></math> jest podzielne przez 2." },
+        { "label": "II", "html": "Wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>W</mi></math> jest podzielne przez 4." },
+        { "label": "III", "html": "Wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>W</mi></math> jest podzielne przez 5." },
+        { "label": "IV", "html": "Wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>W</mi></math> jest podzielne przez 6." }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FFPF",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2023-2024_slaskie_q15",
+      "number": 15,
+      "page": 7,
+      "type": "true_false",
+      "points": 4,
+      "topics": [
+        "bryły",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Na stole postawiono sześcian, a na nim drugi taki sam sześcian, tak że ściany, którymi bryły się stykały, pokryły się. Wyobraź sobie ostrosłup o podstawie będącej dolną podstawą pierwszego sześcianu i mający swój wierzchołek w punkcie, w którym przecinają się przekątne górnej podstawy drugiego sześcianu.</p>",
+      "choices": [
+        { "label": "I", "html": "Pole powierzchni całkowitej ostrosłupa jest mniejsze niż pole powierzchni całkowitej jednego sześcianu." },
+        { "label": "II", "html": "Objętość ostrosłupa jest równa objętości jednego sześcianu." },
+        { "label": "III", "html": "Pole powierzchni całkowitej graniastosłupa powstałego z dwóch sześcianów jest dwa razy większe od pola powierzchni bocznej ostrosłupa." },
+        { "label": "IV", "html": "Długość wysokości ściany bocznej ostrosłupa jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>17</mn></msqrt><mn>2</mn></mfrac></math> długości krawędzi sześcianu." }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PFFP",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2023-2024_slaskie_q16",
+      "number": 16,
+      "page": 8,
+      "type": "true_false",
+      "points": 4,
+      "topics": [
+        "statystyka opisowa"
+      ],
+      "prompt_html": "<p>Grupa przyjaciół zbiera na plantacji truskawki do koszyków. Niech zbiór <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>=</mo><mo>{</mo><mn>12</mn><mo>,</mo><mn>15</mn><mo>,</mo><mn>16</mn><mo>,</mo><mn>18</mn><mo>,</mo><mn>24</mn><mo>}</mo></math> zawiera liczby koszyków zebranych przez poszczególnych chłopców, a zbiór <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mo>=</mo><mo>{</mo><mn>9</mn><mo>,</mo><mn>17</mn><mo>,</mo><mn>19</mn><mo>,</mo><mn>20</mn><mo>}</mo></math> zawiera liczby koszyków zebranych przez poszczególne dziewczęta.</p>",
+      "choices": [
+        { "label": "I", "html": "Mediana zbioru <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> jest większa niż mediana zbioru <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>." },
+        { "label": "II", "html": "Średnia arytmetyczna wszystkich liczb ze zbioru <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> jest większa od średniej arytmetycznej wszystkich liczb ze zbioru <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>." },
+        { "label": "III", "html": "Średnia arytmetyczna liczby koszyków zebranych razem przez chłopców i dziewczęta jest większa niż średnia arytmetyczna liczby koszyków zebranych tylko przez dziewczęta." },
+        { "label": "IV", "html": "Mediana zbioru złożonego z liczb koszyków zebranych razem przez chłopców i dziewczęta wynosi 17." }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FPPP",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2023-2024_slaskie_q17",
+      "number": 17,
+      "page": 8,
+      "type": "true_false",
+      "points": 4,
+      "topics": [
+        "geometria",
+        "trójkąty",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Trapez prostokątny zbudowano w następujący sposób: na jednym boku kwadratu o przekątnej długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msqrt><mn>3</mn></msqrt></math> dorysowano trójkąt prostokątny, taki że kąt ostry trapezu ma miarę 60°.</p>",
+      "choices": [
+        { "label": "I", "html": "Pole tego trapezu jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>72</mn><msqrt><mn>6</mn></msqrt></math>." },
+        { "label": "II", "html": "Najdłuższy bok tego trapezu ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>2</mn></msqrt><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>1</mn><mo>)</mo></math>." },
+        { "label": "III", "html": "Obwód tego trapezu jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>2</mn></msqrt><mo>(</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>3</mn><mo>)</mo></math>." },
+        { "label": "IV", "html": "Dłuższe ramię trapezu ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msqrt><mn>2</mn></msqrt></math>." }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FPFP",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2023-2024_slaskie_q18",
+      "number": 18,
+      "page": 9,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Dane są cztery liczby takie, że każda następna jest o cztery mniejsza od poprzedniej. Iloczyn liczb pierwszej i drugiej jest o 384 większy od iloczynu liczb trzeciej i czwartej. Oblicz te liczby i sumę tych liczb. Zapisz odpowiednie obliczenia i odpowiedź.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Kolejne liczby to: 30, 26, 22, 18. Suma tych liczb wynosi 96.",
+        "solution_html": "<p>Kolejne liczby oznaczamy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>−</mo><mn>4</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>−</mo><mn>8</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>−</mo><mn>12</mn></math>. Z warunku zadania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>(</mo><mi>x</mi><mo>−</mo><mn>4</mn><mo>)</mo><mo>=</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>8</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>12</mn><mo>)</mo><mo>+</mo><mn>384</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>30</mn></math>. Zatem kolejne liczby to 30, 26, 22, 18, a ich suma wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>+</mo><mn>26</mn><mo>+</mo><mn>22</mn><mo>+</mo><mn>18</mn><mo>=</mo><mn>96</mn></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2023-2024_slaskie_q19",
+      "number": 19,
+      "page": 10,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "trójkąty",
+        "koła / okręgi",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Dany jest trójkąt prostokątny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>, w którym przyprostokątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> ma długość 10, a przyprostokątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> ma długość 20. Wykreślono okrąg, którego średnicą jest dłuższa przyprostokątna tego trójkąta. Okrąg ten przecina przeciwprostokątną w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> (rys.). Wiedząc, że kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADB</mi></math> jest prosty, oblicz długości odcinków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DC</mi></math>.</p>",
+      "choices": [],
+      "figures": [
+        "wojewodzki_2023-2024_slaskie_q19_fig1.png"
+      ],
+      "answer": {
+        "correct": "|CD| = 2√5 oraz |BD| = 8√5.",
+        "solution_html": "<p>Z twierdzenia Pitagorasa w trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>|</mo><mi>AB</mi><mo>|</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>|</mo><mi>AC</mi><mo>|</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>|</mo><mi>BC</mi><mo>|</mo></mrow><mn>2</mn></msup></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>20</mn><mn>2</mn></msup><mo>+</mo><msup><mn>10</mn><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>|</mo><mi>BC</mi><mo>|</mo></mrow><mn>2</mn></msup></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>BC</mi><mo>|</mo></mrow><mo>=</mo><mn>10</mn><msqrt><mn>5</mn></msqrt></math>. Odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> jest wysokością trójkąta opuszczoną na przeciwprostokątną, więc z porównania pól <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>20</mn><mo>·</mo><mn>10</mn><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>10</mn><msqrt><mn>5</mn></msqrt><mo>·</mo><mrow><mo>|</mo><mi>AD</mi><mo>|</mo></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AD</mi><mo>|</mo></mrow><mo>=</mo><mn>4</mn><msqrt><mn>5</mn></msqrt></math>. Z trójkąta prostokątnego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADC</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>|</mo><mi>CD</mi><mo>|</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mn>4</mn><msqrt><mn>5</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mn>10</mn><mn>2</mn></msup></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>CD</mi><mo>|</mo></mrow><mo>=</mo><mn>2</mn><msqrt><mn>5</mn></msqrt></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>BD</mi><mo>|</mo></mrow><mo>=</mo><mrow><mo>|</mo><mi>BC</mi><mo>|</mo></mrow><mo>−</mo><mrow><mo>|</mo><mi>CD</mi><mo>|</mo></mrow><mo>=</mo><mn>10</mn><msqrt><mn>5</mn></msqrt><mo>−</mo><mn>2</mn><msqrt><mn>5</mn></msqrt><mo>=</mo><mn>8</mn><msqrt><mn>5</mn></msqrt></math>. Odpowiedź: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>CD</mi><mo>|</mo></mrow><mo>=</mo><mn>2</mn><msqrt><mn>5</mn></msqrt></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>BD</mi><mo>|</mo></mrow><mo>=</mo><mn>8</mn><msqrt><mn>5</mn></msqrt></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2023-2024_slaskie_q20",
+      "number": 20,
+      "page": 11,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "procenty",
+        "proporcjonalność prosta"
+      ],
+      "prompt_html": "<p>W fabryce realizowane jest zamówienie na wyprodukowanie pewnej liczby żarówek. W ciągu pierwszych 30 dni wyprodukowano 120 000 żarówek, co stanowi 30% zamówienia. Oblicz, o ile procent musi wzrosnąć produkcja dzienna w następnych dniach, jeżeli pozostałą część zamówienia fabryka powinna zrealizować w ciągu następnych 56 dni.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Dzienna produkcja musi wzrosnąć o 25%.",
+        "solution_html": "<p>Skoro 120 000 żarówek stanowi 30% zamówienia, to całe zamówienie wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>120</mn><mspace width=\"0.2em\"/><mn>000</mn><mo>:</mo><mn>0,3</mn><mo>=</mo><mn>400</mn><mspace width=\"0.2em\"/><mn>000</mn></math> żarówek. Do wyprodukowania pozostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>400</mn><mspace width=\"0.2em\"/><mn>000</mn><mo>−</mo><mn>120</mn><mspace width=\"0.2em\"/><mn>000</mn><mo>=</mo><mn>280</mn><mspace width=\"0.2em\"/><mn>000</mn></math> żarówek. Aby zrealizować je w 56 dni, dziennie trzeba produkować <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>280</mn><mspace width=\"0.2em\"/><mn>000</mn><mo>:</mo><mn>56</mn><mo>=</mo><mn>5000</mn></math> żarówek. Dotychczasowa produkcja dzienna wynosiła <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>120</mn><mspace width=\"0.2em\"/><mn>000</mn><mo>:</mo><mn>30</mn><mo>=</mo><mn>4000</mn></math> żarówek. Wzrost produkcji wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>5000</mn><mo>−</mo><mn>4000</mn></mrow><mn>4000</mn></mfrac><mo>=</mo><mn>0,25</mn><mo>=</mo><mn>25</mn><mo>%</mo></math>. Odpowiedź: dzienna produkcja musi wzrosnąć o 25%.</p>"
+      }
+    }
+  ]
+}
