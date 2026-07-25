@@ -47,8 +47,10 @@ function loadData() {
       document.head.append(el);
     }))).then(() => window.DATA);
   }
+  // cache:'no-cache' => revalidate the shards every load (conditional GET), so a redeploy's
+  // new data shows up immediately; unchanged data still 304s cheaply. Avoids stale-data confusion.
   return Promise.all(STAGES.map(s =>
-    fetch(`data.${s}.json`).then(r => r.ok ? r.json() : []).catch(() => [])
+    fetch(`data.${s}.json`, { cache: 'no-cache' }).then(r => r.ok ? r.json() : []).catch(() => [])
   )).then(a => a.flat());
 }
 
