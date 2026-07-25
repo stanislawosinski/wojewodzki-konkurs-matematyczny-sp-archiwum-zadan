@@ -54,7 +54,7 @@ function loadData() {
 
 const $ = id => document.getElementById(id);
 const search = $('search'), inc = $('include'), exc = $('exclude'),
-  count = $('count'), setsummary = $('setsummary'),
+  setsummary = $('setsummary'),
   qlist = $('qlist'), facetsEl = $('facets'),
   clearFilters = $('clearFilters'), clearFacets = $('clearFacets'), clearSearch = $('clearSearch'),
   onePerPage = $('onePerPage');
@@ -203,7 +203,6 @@ function update() {
 
   const anyFacet = FACETS.some(f => selections[f.key].size);
   const active = useInc || excSet.size > 0 || terms.length > 0 || anyFacet;
-  count.textContent = active ? `${matched.length} zadań` : '';
   clearFilters.hidden = !active;   // "Wyczyść wszystko": any filtering at all
   clearFacets.hidden = !anyFacet;  // "Wyczyść filtry": facet checkboxes only (.clearrow reserves the space)
   clearSearch.hidden = !search.value; // the "×" inside the search box
