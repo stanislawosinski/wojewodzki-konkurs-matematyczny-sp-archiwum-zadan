@@ -1,0 +1,278 @@
+{
+  "source_file": "wojewodzki/2018_opolskie.pdf",
+  "answers_file": "wojewodzki/2018_opolskie_answers.pdf",
+  "competition": "XVIII Wojewódzki Konkurs Matematyczny dla uczniów szkół podstawowych województwa opolskiego",
+  "school_type": "podstawowa",
+  "stage": "wojewodzki",
+  "wojewodztwo": "opolskie",
+  "school_year": "2017/2018",
+  "date": null,
+  "total_questions": 11,
+  "max_points": 40,
+  "questions": [
+    {
+      "id": "wojewodzki_2018_opolskie_q1",
+      "number": 1,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "zliczanie / metody zliczania",
+        "kombinatoryka"
+      ],
+      "prompt_html": "<p>W ligowych rozgrywkach piłkarskich brało udział 15 drużyn. Każda drużyna rozegrała z każdą z pozostałych dwa spotkania.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Jedna drużyna rozegrała 28 meczów."
+        },
+        {
+          "label": "2",
+          "html": "W rozgrywkach odbyło się 420 meczów."
+        },
+        {
+          "label": "3",
+          "html": "W rozgrywkach odbyło się 210 meczów."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PFP",
+        "solution_html": "<p>Każda drużyna gra z pozostałymi 14 drużynami po dwa mecze, więc rozgrywa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>14</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>28</mn></mrow></math> meczów (TAK). Liczba par drużyn to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>15</mn><mo>·</mo><mn>14</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>105</mn></mrow></math>, a każda para gra dwa razy, więc łącznie odbyło się <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>105</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>210</mn></mrow></math> meczów. Zatem 420 meczów to NIE, a 210 meczów to TAK.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2018_opolskie_q2",
+      "number": 2,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "zliczanie / metody zliczania"
+      ],
+      "prompt_html": "<p>W urnie znajduje się łącznie 100 kul w kolorach: czerwonym, zielonym, żółtym i niebieskim. Nie wiemy ile jakich jest. Jaką najmniejszą liczbę kul należy wyjąć, aby zawsze mieć pewność, że wśród wylosowanych kul będzie co najmniej 10 w jednym kolorze.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "13"
+        },
+        {
+          "label": "2",
+          "html": "25"
+        },
+        {
+          "label": "3",
+          "html": "40"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FFF",
+        "solution_html": "<p>W najgorszym przypadku możemy wyjąć po 9 kul z każdego z czterech kolorów, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>36</mn></mrow></math> kul, i wciąż nie mieć 10 kul jednego koloru. Dopiero kolejna, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>37</mn></mrow></math>-ma kula gwarantuje 10 kul w jednym kolorze. Szukana liczba to 37, więc żadna z podanych (13, 25, 40) nie jest poprawna — wszystkie NIE.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2018_opolskie_q3",
+      "number": 3,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "potęgi i pierwiastki",
+        "nierówności"
+      ],
+      "prompt_html": "<p>Przy każdym zdaniu wpisz TAK lub NIE.</p><p>Prawdziwa jest nierówność:</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><msqrt><mn>14</mn></msqrt><mo>&gt;</mo><mn>7</mn><msqrt><mn>5</mn></msqrt></mrow></math>"
+        },
+        {
+          "label": "2",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>8</mn></msqrt><mo>+</mo><msqrt><mn>18</mn></msqrt><mo>&gt;</mo><msqrt><mn>50</mn></msqrt></mrow></math>"
+        },
+        {
+          "label": "3",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2</mn><mn>10</mn></msup><mo>+</mo><msup><mn>2</mn><mn>10</mn></msup><mo>+</mo><msup><mn>2</mn><mn>10</mn></msup><mo>&lt;</mo><msup><mn>2</mn><mn>12</mn></msup></mrow></math>"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FFP",
+        "solution_html": "<p>Podnosząc do kwadratu dodatnie liczby: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mn>4</mn><msqrt><mn>14</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>16</mn><mo>·</mo><mn>14</mn><mo>=</mo><mn>224</mn></mrow></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mn>7</mn><msqrt><mn>5</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>49</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>245</mn></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>224</mn><mo>&lt;</mo><mn>245</mn></mrow></math>, mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><msqrt><mn>14</mn></msqrt><mo>&lt;</mo><mn>7</mn><msqrt><mn>5</mn></msqrt></mrow></math> (NIE). Dalej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>8</mn></msqrt><mo>+</mo><msqrt><mn>18</mn></msqrt><mo>=</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>3</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>5</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><msqrt><mn>50</mn></msqrt></mrow></math>, więc lewa strona jest równa, a nie większa (NIE). Wreszcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2</mn><mn>10</mn></msup><mo>+</mo><msup><mn>2</mn><mn>10</mn></msup><mo>+</mo><msup><mn>2</mn><mn>10</mn></msup><mo>=</mo><mn>3</mn><mo>·</mo><msup><mn>2</mn><mn>10</mn></msup></mrow></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2</mn><mn>12</mn></msup><mo>=</mo><mn>4</mn><mo>·</mo><msup><mn>2</mn><mn>10</mn></msup></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><msup><mn>2</mn><mn>10</mn></msup><mo>&lt;</mo><mn>4</mn><mo>·</mo><msup><mn>2</mn><mn>10</mn></msup></mrow></math> (TAK).</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2018_opolskie_q4",
+      "number": 4,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "trójkąty",
+        "nierówności"
+      ],
+      "prompt_html": "<p>Zbudowano trójkąt z odcinków o długościach: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>k</mi><mo>+</mo><mn>3</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>k</mi><mo>+</mo><mn>2</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>k</mi><mo>+</mo><mn>1</mn></mrow></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> jest liczbą naturalną.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Nie można zbudować takiego trójkąta."
+        },
+        {
+          "label": "2",
+          "html": "Można zbudować nieskończenie wiele takich trójkątów."
+        },
+        {
+          "label": "3",
+          "html": "Można zbudować tylko jeden taki trójkąt."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FFP",
+        "solution_html": "<p>Najdłuższy z boków to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>k</mi><mo>+</mo><mn>2</mn></mrow></math>. Warunek trójkąta wymaga, by był on krótszy od sumy dwóch pozostałych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>k</mi><mo>+</mo><mn>2</mn><mo>&lt;</mo><mo>(</mo><mn>2</mn><mi>k</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>+</mo><mo>(</mo><mi>k</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>=</mo><mn>3</mn><mi>k</mi><mo>+</mo><mn>4</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>k</mi><mo>&lt;</mo><mn>2</mn></mrow></math>. Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>k</mi><mo>=</mo><mn>0</mn></mrow></math> boki to 3, 2, 1 i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>3</mn></mrow></math> — trójkąt zdegenerowany (nie istnieje). Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow></math> boki to 5, 6, 2 i wszystkie nierówności trójkąta są spełnione — istnieje dokładnie jeden taki trójkąt. Zatem: „nie można zbudować\" (NIE), „nieskończenie wiele\" (NIE), „tylko jeden\" (TAK).</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2018_opolskie_q5",
+      "number": 5,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "kombinatoryka",
+        "zliczanie / metody zliczania"
+      ],
+      "prompt_html": "<p>Ania ma trzy kartki z różnymi cyframi. Wśród tych cyfr nie było 0. Układała z nich różne liczby trzycyfrowe i zapisywała. Następnie obliczyła sumę wszystkich takich liczb. Suma wyniosła 1776.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Na pewno była kartka z cyfrą 1."
+        },
+        {
+          "label": "2",
+          "html": "Na pewno była kartka z cyfrą 2."
+        },
+        {
+          "label": "3",
+          "html": "Na pewno była kartka z cyfrą 3."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PFF",
+        "solution_html": "<p>Z trzech różnych cyfr <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>,</mo><mi>b</mi><mo>,</mo><mi>c</mi></mrow></math> tworzymy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>!</mo><mo>=</mo><mn>6</mn></mrow></math> liczb trzycyfrowych. Każda cyfra stoi na każdej z pozycji (setek, dziesiątek, jedności) dokładnie 2 razy, więc suma wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>)</mo><mo>·</mo><mn>111</mn><mo>=</mo><mn>222</mn><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>)</mo></mrow></math>. Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>222</mn><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>)</mo><mo>=</mo><mn>1776</mn></mrow></math> wynika <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>=</mo><mn>8</mn></mrow></math>. Trzy różne cyfry niezerowe o sumie 8 to tylko zbiory <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>{</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>5</mn><mo>}</mo></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>{</mo><mn>1</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>4</mn><mo>}</mo></mrow></math>. Cyfra 1 należy do obu zbiorów, więc na pewno była (TAK). Cyfra 2 nie występuje w <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>{</mo><mn>1</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>4</mn><mo>}</mo></mrow></math> (NIE), a cyfra 3 nie występuje w <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>{</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>5</mn><mo>}</mo></mrow></math> (NIE).</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2018_opolskie_q6",
+      "number": 6,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "geometria",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Jeden bok prostokąta ma trzy razy tyle centymetrów długości ile drugi bok decymetrów. Pole tego prostokąta wynosi 120 dm². Oblicz jego obwód.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "52 dm",
+        "solution_html": "<p>Niech drugi bok ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> decymetrów. Wtedy pierwszy bok ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>x</mi></mrow></math> centymetrów, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>3</mn><mi>x</mi></mrow><mn>10</mn></mfrac><mo>=</mo><mn>0,3</mn><mi>x</mi></mrow></math> decymetra. Pole prostokąta wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,3</mn><mi>x</mi><mo>·</mo><mi>x</mi><mo>=</mo><mn>0,3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mn>120</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mn>400</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>20</mn></mrow></math> dm. Pierwszy bok ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,3</mn><mo>·</mo><mn>20</mn><mo>=</mo><mn>6</mn></mrow></math> dm (czyli 60 cm), a drugi 20 dm. Obwód wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mo>(</mo><mn>6</mn><mo>+</mo><mn>20</mn><mo>)</mo><mo>=</mo><mn>52</mn></mrow></math> dm.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2018_opolskie_q7",
+      "number": 7,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "reszta z dzielenia",
+        "NWW / NWD"
+      ],
+      "prompt_html": "<p>Liczby 5348 i 1099 podzielono przez tę samą liczbę naturalną i otrzymano odpowiednio reszty 8 i 7. Jaka to liczba?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "12",
+        "solution_html": "<p>Skoro dzielenie 5348 przez szukaną liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> daje resztę 8, to liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5348</mn><mo>−</mo><mn>8</mn><mo>=</mo><mn>5340</mn></mrow></math> dzieli się przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math>. Podobnie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1099</mn><mo>−</mo><mn>7</mn><mo>=</mo><mn>1092</mn></mrow></math> dzieli się przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> jest wspólnym dzielnikiem liczb 5340 i 1092. Rozkładając na czynniki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5340</mn><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup><mo>·</mo><mn>3</mn><mo>·</mo><mn>5</mn><mo>·</mo><mn>89</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1092</mn><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup><mo>·</mo><mn>3</mn><mo>·</mo><mn>7</mn><mo>·</mo><mn>13</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>NWD</mtext><mo>(</mo><mn>5340</mn><mo>,</mo><mn>1092</mn><mo>)</mo><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup><mo>·</mo><mn>3</mn><mo>=</mo><mn>12</mn></mrow></math>. Ponieważ reszta 8 wymaga dzielnika większego od 8, jedynym pasującym dzielnikiem liczby 12 jest samo 12. Szukana liczba to 12.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2018_opolskie_q8",
+      "number": 8,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "równania z jedną zmienną",
+        "proporcjonalność prosta"
+      ],
+      "prompt_html": "<p>Zmieszano cukierki kawowe z orzechowymi. Cukierki kawowe były w cenie 24 zł za kilogram, a orzechowe – 20 zł za kilogram. Cena 1 kg tak uzyskanej mieszanki wyniosła 21,50 zł. W jakim stosunku zmieszano cukierki kawowe z orzechowymi?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "3 : 5",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> oznacza masę cukierków kawowych, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> masę orzechowych (w kg). Wartość mieszanki to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>24</mn><mi>a</mi><mo>+</mo><mn>20</mn><mi>b</mi></mrow></math>, a jej cena za 1 kg wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>24</mn><mi>a</mi><mo>+</mo><mn>20</mn><mi>b</mi></mrow><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow></mfrac><mo>=</mo><mn>21,5</mn></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>24</mn><mi>a</mi><mo>+</mo><mn>20</mn><mi>b</mi><mo>=</mo><mn>21,5</mn><mi>a</mi><mo>+</mo><mn>21,5</mn><mi>b</mi></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2,5</mn><mi>a</mi><mo>=</mo><mn>1,5</mn><mi>b</mi></mrow></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mi>a</mi><mi>b</mi></mfrac><mo>=</mo><mfrac><mn>1,5</mn><mn>2,5</mn></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>5</mn></mfrac></mrow></math>, więc cukierki kawowe zmieszano z orzechowymi w stosunku 3 : 5.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2018_opolskie_q9",
+      "number": 9,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "bryły",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Z arkusza grubej blachy w kształcie kwadratu wycięto w 4-rech narożnikach kwadraty o boku długości 6 dm i wykonano otwarty pojemnik. Dno tego pojemnika ma pole powierzchni o 336 dm² mniejsze niż miało pole całego arkusza blachy. Oblicz objętość tak wykonanego pojemnika.</p>",
+      "choices": [],
+      "figures": [
+        "wojewodzki_2018_opolskie_q9_fig1.png"
+      ],
+      "answer": {
+        "correct": "384 dm³",
+        "solution_html": "<p>Niech bok kwadratowego arkusza ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> dm. Po wycięciu w narożnikach kwadratów o boku 6 dm i zagięciu ścianek dno pojemnika jest kwadratem o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>−</mo><mn>12</mn></mrow></math> dm (z każdej strony ubywa po 6 dm). Różnica pól arkusza i dna wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><msup><mrow><mo>(</mo><mi>a</mi><mo>−</mo><mn>12</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>24</mn><mi>a</mi><mo>−</mo><mn>144</mn><mo>=</mo><mn>336</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>24</mn><mi>a</mi><mo>=</mo><mn>480</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>20</mn></mrow></math> dm. Dno ma bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>20</mn><mo>−</mo><mn>12</mn><mo>=</mo><mn>8</mn></mrow></math> dm, a wysokość pojemnika to 6 dm. Objętość wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>·</mo><mn>8</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>384</mn></mrow></math> dm³.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2018_opolskie_q10",
+      "number": 10,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "prędkość / droga / czas",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Rowerzysta chce dojechać ze swojego domu do Opola na godzinę 16.00. Jeżeli będzie jechał ze średnią prędkością 18 km/h, to spóźni się pół godziny. Jeżeli natomiast będzie jechał z prędkością 24 km/h, to przyjedzie kwadrans za wcześnie. Jak długą drogę ma do pokonania rowerzysta?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "54 km",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi></math> oznacza długość drogi (w km). Czas jazdy z prędkością 18 km/h wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>s</mi><mn>18</mn></mfrac></math> h, a z prędkością 24 km/h — <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>s</mi><mn>24</mn></mfrac></math> h. W pierwszym przypadku rowerzysta spóźnia się o pół godziny, a w drugim przyjeżdża kwadrans (0,25 h) za wcześnie, więc różnica czasów jazdy wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,5</mn><mo>+</mo><mn>0,25</mn><mo>=</mo><mn>0,75</mn></mrow></math> h: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mi>s</mi><mn>18</mn></mfrac><mo>−</mo><mfrac><mi>s</mi><mn>24</mn></mfrac><mo>=</mo><mn>0,75</mn></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>18</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mn>24</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>72</mn></mfrac></mrow></math>, mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mi>s</mi><mn>72</mn></mfrac><mo>=</mo><mn>0,75</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>s</mi><mo>=</mo><mn>54</mn></mrow></math> km. (Czas do dyspozycji do godziny 16.00 wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>54</mn><mn>18</mn></mfrac><mo>−</mo><mn>0,5</mn><mo>=</mo><mn>2,5</mn></mrow></math> h.)</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2018_opolskie_q11",
+      "number": 11,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "dowodzenie / dowody",
+        "podzielność"
+      ],
+      "prompt_html": "<p>Dane są trzy kolejne liczby naturalne, z których pierwsza jest parzysta. Wykaż, że iloczyn tych liczb jest wielokrotnością liczby 24.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Dowód: iloczyn jest podzielny przez 24",
+        "solution_html": "<p>Ponieważ pierwsza liczba jest parzysta, trzy kolejne liczby naturalne można zapisać jako <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>k</mi></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>k</mi><mo>+</mo><mn>1</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>k</mi><mo>+</mo><mn>2</mn></mrow></math>. Wystarczy pokazać podzielność iloczynu przez 8 i przez 3 (bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>24</mn><mo>=</mo><mn>8</mn><mo>·</mo><mn>3</mn></mrow></math>, a 8 i 3 są względnie pierwsze). <strong>Podzielność przez 8:</strong> liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>k</mi></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>k</mi><mo>+</mo><mn>2</mn></mrow></math> to dwie kolejne liczby parzyste, więc jedna z nich jest podzielna przez 4, a druga przez 2 — ich iloczyn dzieli się przez 8. <strong>Podzielność przez 3:</strong> wśród trzech kolejnych liczb naturalnych zawsze jest jedna podzielna przez 3. Iloczyn jest więc podzielny przez 8 i przez 3, a zatem przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>24</mn></mrow></math>.</p>"
+      }
+    }
+  ]
+}

@@ -204,7 +204,19 @@ the know-how that used to live only in the chat; everything needed to resume is 
        192 cm²); key row looks mismatched. Stored the correct 192; verify in blind pass.
     3. `rejonowy_2014_podkarpackie_q16` — arkusz omitted square labels; everyone got 1 pt but key
        still lists B. Kept correct=B + italic note (not an annulment).
-- **wojewodzki: 40 / 160** processed (batches 1–2 done 2026-07-25). (160 real of 165 — 5 W-M śląskie-dups
+- **wojewodzki: 60 / 160** processed (batches 1–3 done 2026-07-25).
+  - **Batch 3 (20):** 2017_podkarpackie/podlaskie, 2018_opolskie/podkarpackie/podlaskie,
+    2018-2019_{malopolskie, pomorskie (bundled), slaskie, warminsko-mazurskie, zachodniopomorskie},
+    2019_kujawsko-pomorskie/lodzkie (keyless)/lubuskie, 2019-2020_{malopolskie, pomorskie (bundled),
+    slaskie, swietokrzyskie, warminsko-mazurskie, wielkopolskie, zachodniopomorskie}. All keyed +
+    self-verified except 2019_lodzkie (keyless).
+  - **More new wojewódzki voivodeships:** świętokrzyskie, wielkopolskie, kujawsko-pomorskie, lubuskie.
+    W-M keyed & verified for 2018/19 + 2019/20 (assertion-reason Q15 items → closed_single "TB"/"A3").
+  - **małopolskie wojewódzki mixes item shapes:** 5-option A–E closed + a combined "AC/AD/BC/BD" select
+    (→ closed_single "BD") + open. pomorskie wojewódzki uses the bundled multi-part closed_single too.
+  - **Minor question-vs-key number mismatches (P/F verdict / letter answer robust, transcribed
+    faithfully):** 2019-2020_pomorskie q6.1 (18180 vs 18179), 2018-2019_warminsko-mazurskie q20 (key
+    prints cm² for a dm² problem — used dm²). Not errors requiring the tsv. (160 real of 165 — 5 W-M śląskie-dups
   still present for years with no genuine available: 2012/13–2015/16, 2025/26. On 2026-07-23 the W-M
   source files were fixed: 12 genuine W-M wojewódzki papers (2009/10, 2010/11, 2011/12, 2016/17–2024/25)
   recovered & swapped in — keys for 2016/17 onward. Earlier +16 merged from `remaining/wojewodzki/`.)

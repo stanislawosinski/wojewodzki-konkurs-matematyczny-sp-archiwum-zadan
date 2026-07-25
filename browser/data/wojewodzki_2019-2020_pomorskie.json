@@ -1,0 +1,166 @@
+{
+  "source_file": "wojewodzki/2019-2020_pomorskie.pdf",
+  "answers_file": "wojewodzki/2019-2020_pomorskie_answers.pdf",
+  "competition": "Wojewódzki Konkurs Matematyczny dla uczniów szkół podstawowych od klas IV województwa pomorskiego",
+  "school_type": "podstawowa",
+  "stage": "wojewodzki",
+  "wojewodztwo": "pomorskie",
+  "school_year": "2019/2020",
+  "date": null,
+  "total_questions": 7,
+  "max_points": 20,
+  "questions": [
+    {
+      "id": "wojewodzki_2019-2020_pomorskie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "open",
+      "points": 1,
+      "topics": [
+        "potęgi i pierwiastki",
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>Dane są liczby: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><msqrt><mrow><mn>5</mn><mo>−</mo><mn>2</mn><msqrt><mn>6</mn></msqrt></mrow></msqrt></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><msqrt><mrow><mn>2</mn><msqrt><mn>6</mn></msqrt><mo>+</mo><mn>5</mn></mrow></msqrt></mrow></math>.</p><p>Udowodnij, że liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> są odwrotne.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "a · b = 1, więc liczby a i b są odwrotne",
+        "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>·</mo><mi>b</mi><mo>=</mo><msqrt><mrow><mn>5</mn><mo>−</mo><mn>2</mn><msqrt><mn>6</mn></msqrt></mrow></msqrt><mo>·</mo><msqrt><mrow><mn>2</mn><msqrt><mn>6</mn></msqrt><mo>+</mo><mn>5</mn></mrow></msqrt><mo>=</mo><msqrt><mrow><mo>(</mo><mn>5</mn><mo>−</mo><mn>2</mn><msqrt><mn>6</mn></msqrt><mo>)</mo><mo>·</mo><mo>(</mo><mn>2</mn><msqrt><mn>6</mn></msqrt><mo>+</mo><mn>5</mn><mo>)</mo></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>25</mn><mo>−</mo><mn>24</mn></mrow></msqrt><mo>=</mo><msqrt><mn>1</mn></msqrt><mo>=</mo><mn>1</mn></mrow></math>.</p><p>Ponieważ iloczyn liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest równy 1, liczby te są odwrotne.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2019-2020_pomorskie_q2",
+      "number": 2,
+      "page": 2,
+      "type": "open",
+      "points": 1,
+      "topics": [
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Oblicz:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mfrac><mrow><mo>[</mo><mo>(</mo><mo>−</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>)</mo><mo>·</mo><mfrac><mn>8</mn><mn>9</mn></mfrac><mo>−</mo><mn>2</mn><mo>]</mo><mo>·</mo><mo>[</mo><mo>(</mo><mo>−</mo><mn>1,5</mn><mo>)</mo><mo>·</mo><mfrac><mn>8</mn><mn>9</mn></mfrac><mo>+</mo><mn>2</mn><mo>]</mo></mrow><mrow><mo>|</mo><mo>−</mo><mn>10</mn><mo>|</mo><mo>·</mo><msup><mrow><mo>(</mo><mo>−</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>·</mo><msup><mrow><mo>(</mo><mfrac><msqrt><mn>2</mn></msqrt><mn>2</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup></mrow></mfrac></mrow></math></p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "a = −4",
+        "solution_html": "<p>Licznik: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>[</mo><mo>−</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>·</mo><mfrac><mn>8</mn><mn>9</mn></mfrac><mo>−</mo><mn>2</mn><mo>]</mo><mo>·</mo><mo>[</mo><mo>−</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>·</mo><mfrac><mn>8</mn><mn>9</mn></mfrac><mo>+</mo><mn>2</mn><mo>]</mo><mo>=</mo><mo>(</mo><mo>−</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><mo>−</mo><mn>2</mn><mo>)</mo><mo>·</mo><mo>(</mo><mo>−</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><mo>+</mo><mn>2</mn><mo>)</mo><mo>=</mo><mo>(</mo><mo>−</mo><mfrac><mn>10</mn><mn>3</mn></mfrac><mo>)</mo><mo>·</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>=</mo><mo>−</mo><mfrac><mn>20</mn><mn>9</mn></mfrac></mrow></math>.</p><p>Mianownik: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mo>·</mo><mfrac><mn>1</mn><mn>9</mn></mfrac><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>=</mo><mfrac><mn>5</mn><mn>9</mn></mfrac></mrow></math>.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mfrac><mrow><mo>−</mo><mfrac><mn>20</mn><mn>9</mn></mfrac></mrow><mfrac><mn>5</mn><mn>9</mn></mfrac></mfrac><mo>=</mo><mo>−</mo><mn>4</mn></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2019-2020_pomorskie_q3",
+      "number": 3,
+      "page": 3,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "prędkość / droga / czas",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Janek idąc z domu do szkoły i ze szkoły do domu zawsze porusza się tą samą drogą. Wiadomo, że Janek chodzi zawsze z prędkością 4 km/h, a biega zawsze z prędkością 6 km/h. Jeśli całą drogę z domu do szkoły biegnie, zamiast całą drogę iść, to oszczędza 3 minuty i 45 sekund. Oblicz, jaką drogę Janek pokonuje każdego dnia idąc z domu do szkoły i z powrotem.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "1,5 km",
+        "solution_html": "<p>Zamieniamy prędkości na kilometry na minutę: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>15</mn></mfrac><mfrac><mtext>km</mtext><mtext>min</mtext></mfrac></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>10</mn></mfrac><mfrac><mtext>km</mtext><mtext>min</mtext></mfrac></mrow></math>.</p><p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math> oznacza czas dojścia z domu do szkoły (w minutach). Zaoszczędzone 3 min 45 s to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mfrac><mn>3</mn><mn>4</mn></mfrac></mrow></math> min, więc bieg trwa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>t</mi><mo>−</mo><mn>3</mn><mfrac><mn>3</mn><mn>4</mn></mfrac></mrow></math>. Droga jest ta sama:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>15</mn></mfrac><mo>·</mo><mi>t</mi><mo>=</mo><mfrac><mn>1</mn><mn>10</mn></mfrac><mo>(</mo><mi>t</mi><mo>−</mo><mn>3</mn><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>)</mo></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>t</mi><mo>=</mo><mfrac><mn>45</mn><mn>4</mn></mfrac></mrow></math> min.</p><p>Droga w jedną stronę: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>45</mn><mn>4</mn></mfrac><mo>·</mo><mfrac><mn>1</mn><mn>15</mn></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>4</mn></mfrac></mrow></math> km. Droga w obie strony: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>=</mo><mn>1,5</mn></mrow></math> km.</p><p>Odpowiedź: Janek pokonuje 1,5 km.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2019-2020_pomorskie_q4",
+      "number": 4,
+      "page": 4,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "bryły"
+      ],
+      "prompt_html": "<p>W graniastosłupie prawidłowym czworokątnym krawędź podstawy jest o 50% krótsza od jego wysokości. Pole powierzchni całkowitej tego graniastosłupa jest równe polu powierzchni całkowitej sześcianu o krawędzi długości 5. Oblicz objętość tego graniastosłupa.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "30√15",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> będzie długością krawędzi podstawy, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi></math> wysokością graniastosłupa. Krawędź podstawy jest o 50% krótsza od wysokości, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>H</mi></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>H</mi><mo>=</mo><mn>2</mn><mi>a</mi></mrow></math>.</p><p>Pole powierzchni całkowitej sześcianu o krawędzi 5: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>·</mo><msup><mn>5</mn><mn>2</mn></msup><mo>=</mo><mn>150</mn></mrow></math>.</p><p>Pole powierzchni całkowitej graniastosłupa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mo>·</mo><mi>a</mi><mo>·</mo><mn>2</mn><mi>a</mi><mo>=</mo><mn>10</mn><msup><mi>a</mi><mn>2</mn></msup></mrow></math>. Z równości pól: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>150</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>15</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><msqrt><mn>15</mn></msqrt></mrow></math>.</p><p>Objętość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>V</mi><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><mo>·</mo><mn>2</mn><mi>a</mi><mo>=</mo><mn>15</mn><mo>·</mo><mn>2</mn><msqrt><mn>15</mn></msqrt><mo>=</mo><mn>30</mn><msqrt><mn>15</mn></msqrt></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2019-2020_pomorskie_q5",
+      "number": 5,
+      "page": 5,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Suma dwóch liczb naturalnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> wynosi 57460. Jeżeli do liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> dopiszemy z prawej strony liczbę 92, to otrzymamy liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. Wyznacz liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>.</p><p><strong>Uwaga:</strong> Dopisując do liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> liczbę dwucyfrową, otrzymujemy liczbę dłuższą o dwie cyfry od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>. Dopisać do danej liczby z prawej strony liczbę 92 oznacza na przykład utworzenie z liczby 1234 liczby 123492.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "a = 56892, b = 568",
+        "solution_html": "<p>Dopisanie liczby 92 z prawej strony liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> daje liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mi>b</mi><mo>+</mo><mn>92</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>100</mn><mi>b</mi><mo>+</mo><mn>92</mn></mrow></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>57460</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mi>b</mi><mo>+</mo><mn>92</mn><mo>+</mo><mi>b</mi><mo>=</mo><mn>57460</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>101</mn><mi>b</mi><mo>=</mo><mn>57368</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>568</mn></mrow></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>56892</mn></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2019-2020_pomorskie_q6",
+      "number": 6,
+      "page": 6,
+      "type": "closed_single",
+      "points": 4,
+      "topics": [
+        "potęgi i pierwiastki",
+        "bryły",
+        "reszta z dzielenia"
+      ],
+      "prompt_html": "<p>W zadaniach zamkniętych dokładnie jedna odpowiedź jest poprawna. Zaznacz ją.</p><p><strong>6.1</strong> Suma cyfr liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>10</mn><mn>2020</mn></msup><mo>−</mo><msup><mn>3</mn><mn>2</mn></msup></mrow></math> jest równa:</p><ul><li>A. 18172</li><li>B. 18181</li><li>C. 18171</li><li>D. 18180</li></ul><p><strong>6.2</strong> Dwa sześciany, jeden o krawędzi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mi>y</mi></mrow></math>, a drugi o krawędzi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>y</mi></mrow></math>, przetopiono w jeden sześcian. Jaka jest długość krawędzi otrzymanego sześcianu?</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mi>y</mi></mrow></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mroot><mn>21</mn><mn>3</mn></mroot><mi>y</mi></mrow></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mroot><mn>7</mn><mn>3</mn></mroot><mi>y</mi></mrow></math></li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7</mn><mi>y</mi></mrow></math></li></ul><p><strong>6.3</strong> Cyfrą jedności liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>6</mn><mn>3</mn></msup><mo>+</mo><msup><mn>3</mn><mn>13</mn></msup><mo>+</mo><msup><mn>7</mn><mn>23</mn></msup></mrow></math> jest:</p><ul><li>A. 8</li><li>B. 2</li><li>C. 7</li><li>D. 1</li></ul><p><strong>6.4</strong> Liczba wierzchołków ostrosłupa, w którym suma liczby ścian i krawędzi wynosi 40 jest równa:</p><ul><li>A. 9</li><li>B. 12</li><li>C. 14</li><li>D. 11</li></ul><p><strong>6.5</strong> Liczba całkowita <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> przy dzieleniu przez 5 daje resztę 3. Reszta z dzielenia liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>a</mi></mrow></math> przez 10 wynosi:</p><ul><li>A. 3</li><li>B. 2</li><li>C. 4</li><li>D. 6</li></ul>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "6.1 – A, 6.2 – C, 6.3 – B, 6.4 – C, 6.5 – B",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2019-2020_pomorskie_q7",
+      "number": 7,
+      "page": 7,
+      "type": "true_false",
+      "points": 5,
+      "topics": [
+        "podzielność",
+        "trójkąty",
+        "procenty",
+        "nierówności",
+        "kombinatoryka"
+      ],
+      "prompt_html": "<p>Oceń prawdziwość poniższych zdań. Otocz kółkiem P, jeśli zdanie jest prawdziwe lub F, jeśli zdanie jest fałszywe.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Dodatnia liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest mniejsza od 1. Wynika z tego, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mi>a</mi></mfrac><mo>&gt;</mo><mn>1</mn></mrow></math>."
+        },
+        {
+          "label": "2",
+          "html": "Każdą dodatnią liczbę całkowitą można przedstawić w postaci różnicy liczby podzielnej przez 7 i liczby podzielnej przez 6."
+        },
+        {
+          "label": "3",
+          "html": "Wiadomo, że 70% uczniów pewnej klasy uczy się języka angielskiego, 50% uczniów tej klasy uczy się języka niemieckiego oraz 30% uczniów tej klasy uczy się języka francuskiego. Wynika z tego, że każdy uczeń tej klasy uczy się co najmniej jednego języka obcego."
+        },
+        {
+          "label": "4",
+          "html": "Suma dwóch kolejnych liczb całkowitych nieparzystych może być równa 254."
+        },
+        {
+          "label": "5",
+          "html": "Dowolny trójkąt, w którym jeden z jego kątów wewnętrznych jest równy różnicy dwóch pozostałych kątów, jest prostokątny."
+        },
+        {
+          "label": "6",
+          "html": "Z cyfr 0, 1, 2, 3 Janek utworzył wszystkie możliwe liczby czterocyfrowe o różnych cyfrach. Wszystkie liczby utworzone przez Janka są podzielne przez 3."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PPFFPP",
+        "solution_html": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,626 @@
+{
+  "source_file": "wojewodzki/2019_lubuskie.pdf",
+  "answers_file": "wojewodzki/2019_lubuskie_answers.pdf",
+  "competition": "Konkurs przedmiotowy z matematyki dla uczniów szkół podstawowych (lubuskie)",
+  "school_type": "podstawowa",
+  "stage": "wojewodzki",
+  "wojewodztwo": "lubuskie",
+  "school_year": "2018/2019",
+  "date": "2019-03-09",
+  "total_questions": 28,
+  "max_points": 40,
+  "questions": [
+    {
+      "id": "wojewodzki_2019_lubuskie_q1",
+      "number": 1,
+      "page": 1,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "prawdopodobieństwo"
+      ],
+      "prompt_html": "<p>Adrian przyniósł na konkurs matematyczny dziewięć jednakowo wyglądających długopisów, z których część pisze na czarno, a reszta na czerwono. Obliczył, że prawdopodobieństwo wylosowania długopisu piszącego na czarno jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math>. Adrian wziął jeden długopis i okazało się, że pisze on na czarno. Jakie jest prawdopodobieństwo, że długopis wylosowany spośród pozostałych będzie pisał na czerwono?</p>",
+      "choices": [
+        { "label": "a", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math>" },
+        { "label": "b", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math>" },
+        { "label": "c", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>8</mn></mfrac></math>" },
+        { "label": "d", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>9</mn></mfrac></math>" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "c",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2019_lubuskie_q2",
+      "number": 2,
+      "page": 1,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "potęgi i pierwiastki",
+        "reszta z dzielenia"
+      ],
+      "prompt_html": "<p>Ostatnią cyfrą liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>2019</mn></msup></math> jest</p>",
+      "choices": [
+        { "label": "a", "html": "2" },
+        { "label": "b", "html": "4" },
+        { "label": "c", "html": "6" },
+        { "label": "d", "html": "8" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "d",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2019_lubuskie_q3",
+      "number": 3,
+      "page": 1,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "koła / okręgi"
+      ],
+      "prompt_html": "<p>Skrzydła wiatraka zakreślają koło o średnicy 38 m. Jeżeli środek tego koła znajduje się 40 m nad ziemią, to jak blisko nad ziemią przechodzą końce skrzydeł wiatraka?</p>",
+      "choices": [
+        { "label": "a", "html": "1 m" },
+        { "label": "b", "html": "2 m" },
+        { "label": "c", "html": "18 m" },
+        { "label": "d", "html": "21 m" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "d",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2019_lubuskie_q4",
+      "number": 4,
+      "page": 1,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Tysiąc miliardów po tysiąc ziarenek piasku – ile to ziarenek?</p>",
+      "choices": [
+        { "label": "a", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>15</mn></msup></math>" },
+        { "label": "b", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>14</mn></msup></math>" },
+        { "label": "c", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>13</mn></msup></math>" },
+        { "label": "d", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>12</mn></msup></math>" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "a",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2019_lubuskie_q5",
+      "number": 5,
+      "page": 1,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "podzielność"
+      ],
+      "prompt_html": "<p>Jeżeli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest liczbą naturalną, to jaką liczbę przedstawia wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>2</mn><mi>n</mi><mo>+</mo><mn>7</mn><mo>)</mo><mo>·</mo><mo>(</mo><mn>2</mn><mi>n</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>+</mo><mn>6</mn></math>?</p>",
+      "choices": [
+        { "label": "a", "html": "Liczbę parzystą dla każdego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>." },
+        { "label": "b", "html": "Liczbę parzystą dla niektórych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>." },
+        { "label": "c", "html": "Liczbę nieparzystą dla każdego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>." },
+        { "label": "d", "html": "Liczbę pierwszą dla każdego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>." }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "c",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2019_lubuskie_q6",
+      "number": 6,
+      "page": 1,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "geometria",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Marek narysował dwa kwadraty różnej wielkości. Długość boku większego kwadratu jest równa przekątnej mniejszego kwadratu. Stosunek pola powierzchni kwadratu mniejszego do pola powierzchni kwadratu większego przedstawia iloraz</p>",
+      "choices": [
+        { "label": "a", "html": "1 : 3" },
+        { "label": "b", "html": "1 : 2" },
+        { "label": "c", "html": "1 : 1,5" },
+        { "label": "d", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>:</mo><msqrt><mn>2</mn></msqrt></math>" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "b",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2019_lubuskie_q7",
+      "number": 7,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "koła / okręgi"
+      ],
+      "prompt_html": "<p>Z półkola o środku w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math> i promieniu 8 Zuzanna wycięła dwa półkola, co przedstawia rysunek obok. Obwód zakreskowanej figury jest równy</p>",
+      "choices": [
+        { "label": "a", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>32</mn><mi>π</mi></math>" },
+        { "label": "b", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mi>π</mi></math>" },
+        { "label": "c", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mi>π</mi></math>" },
+        { "label": "d", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mi>π</mi></math>" }
+      ],
+      "figures": [
+        "wojewodzki_2019_lubuskie_q7_fig1.png"
+      ],
+      "answer": {
+        "correct": "d",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2019_lubuskie_q8",
+      "number": 8,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "procenty"
+      ],
+      "prompt_html": "<p>Sprzedawca podniósł cenę kurtki o 10%, a następnie jeszcze o 5%. Stwierdziwszy jednak, że sprzedaż maleje, obniżył cenę najpierw o 5%, a potem o 10%. Co możesz powiedzieć o końcowej cenie towaru w stosunku do ceny wyjściowej?</p>",
+      "choices": [
+        { "label": "a", "html": "Są takie same." },
+        { "label": "b", "html": "Cena wzrosła." },
+        { "label": "c", "html": "Cena zmalała." },
+        { "label": "d", "html": "Nie da się tego obliczyć." }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "c",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2019_lubuskie_q9",
+      "number": 9,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "liczby rzymskie"
+      ],
+      "prompt_html": "<p>Spośród liczb: MCDXLIV, MDCLXIV, MCDLXVI, MCDXLVI największą jest</p>",
+      "choices": [
+        { "label": "a", "html": "MCDXLI" },
+        { "label": "b", "html": "MDCLXIV" },
+        { "label": "c", "html": "MCDLXV" },
+        { "label": "d", "html": "MDCXLVI" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "b",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2019_lubuskie_q10",
+      "number": 10,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><msup><mn>2</mn><mn>100</mn></msup></msqrt></math> to</p>",
+      "choices": [
+        { "label": "a", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>50</mn></msup></math>" },
+        { "label": "b", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>10</mn></msup></math>" },
+        { "label": "c", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>10</mn></msup></math>" },
+        { "label": "d", "html": "250" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "a",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2019_lubuskie_q11",
+      "number": 11,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mrow><mn>2</mn><mo>+</mo><mfrac><mn>1</mn><mrow><mn>3</mn><mo>+</mo><mfrac><mn>1</mn><mrow><mn>4</mn><mo>+</mo><mfrac><mn>1</mn><mn>5</mn></mfrac></mrow></mfrac></mrow></mfrac></mrow></mfrac></math> jest równa ułamkowi</p>",
+      "choices": [
+        { "label": "a", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>71</mn><mn>53</mn></mfrac></math>" },
+        { "label": "b", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>141</mn><mn>79</mn></mfrac></math>" },
+        { "label": "c", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>337</mn><mn>104</mn></mfrac></math>" },
+        { "label": "d", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>225</mn><mn>157</mn></mfrac></math>" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "d",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2019_lubuskie_q12",
+      "number": 12,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "kombinatoryka",
+        "geometria"
+      ],
+      "prompt_html": "<p>Z jednego punktu na płaszczyźnie Zosia poprowadziła 20 półprostych. Ile jest najwięcej kątów prostych utworzonych przez te półproste?</p>",
+      "choices": [
+        { "label": "a", "html": "10" },
+        { "label": "b", "html": "20" },
+        { "label": "c", "html": "30" },
+        { "label": "d", "html": "40" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "b",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2019_lubuskie_q13",
+      "number": 13,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "statystyka opisowa"
+      ],
+      "prompt_html": "<p>Paweł i jego czterej koledzy przeznaczyli pewną kwotę na szkolną zbiórkę pieniędzy na schronisko dla zwierząt. Każdy dał średnio po 8 zł, ale Paweł dał 10 zł. Ile złotych przeznaczył średnio na ten cel każdy z czterech kolegów Pawła?</p>",
+      "choices": [
+        { "label": "a", "html": "6 zł" },
+        { "label": "b", "html": "6,50 zł" },
+        { "label": "c", "html": "7 zł" },
+        { "label": "d", "html": "7,50 zł" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "d",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2019_lubuskie_q14",
+      "number": 14,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "trójkąty",
+        "geometria"
+      ],
+      "prompt_html": "<p>Igor narysował w trójkącie prostokątnym równoramiennym ABC odcinek DE prostopadły do boku AB (jak na rysunku obok). Jeżeli BD = 2, to odcinek DE ma długość</p>",
+      "choices": [
+        { "label": "a", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2</mn></msqrt></math>" },
+        { "label": "b", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt></math>" },
+        { "label": "c", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>2</mn></msqrt></math>" },
+        { "label": "d", "html": "2" }
+      ],
+      "figures": [
+        "wojewodzki_2019_lubuskie_q14_fig1.png"
+      ],
+      "answer": {
+        "correct": "a",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2019_lubuskie_q15",
+      "number": 15,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "inne"
+      ],
+      "prompt_html": "<p>Objętość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3,2</mn><mo>·</mo><msup><mn>10</mn><mn>7</mn></msup></math> cm³ to</p>",
+      "choices": [
+        { "label": "a", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3,2</mn><mo>·</mo><msup><mn>10</mn><mn>9</mn></msup></math> mm³" },
+        { "label": "b", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3,2</mn><mo>·</mo><msup><mn>10</mn><mn>3</mn></msup></math> dm³" },
+        { "label": "c", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3,2</mn><mo>·</mo><msup><mn>10</mn><mn>5</mn></msup></math> dm³" },
+        { "label": "d", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3,2</mn><mo>·</mo><mn>10</mn></math> m³" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "d",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2019_lubuskie_q16",
+      "number": 16,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Ile cyfr ma liczba będąca wartością wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>8,44</mn><mo>·</mo><msup><mn>10</mn><mn>7</mn></msup></mrow><mrow><mn>4,22</mn><mo>·</mo><msup><mn>10</mn><mn>3</mn></msup></mrow></mfrac></math>?</p>",
+      "choices": [
+        { "label": "a", "html": "3" },
+        { "label": "b", "html": "4" },
+        { "label": "c", "html": "5" },
+        { "label": "d", "html": "6" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "c",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2019_lubuskie_q17",
+      "number": 17,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "zagadki logiczne",
+        "geometria"
+      ],
+      "prompt_html": "<p>Z początku układu współrzędnych startuje punkt. Porusza się on następująco: w pierwszym kroku przemieszcza się jedną jednostkę w prawo, w drugim kroku dwie jednostki w górę, w trzecim kroku trzy jednostki w lewo, w czwartym kroku cztery jednostki w dół, w piątym kroku pięć jednostek w prawo itd. Które współrzędne określają położenie tego punktu po 10 krokach?</p>",
+      "choices": [
+        { "label": "a", "html": "(5; 6)" },
+        { "label": "b", "html": "(−6; 6)" },
+        { "label": "c", "html": "(5; 10)" },
+        { "label": "d", "html": "(5; −4)" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "a",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2019_lubuskie_q18",
+      "number": 18,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "geometria"
+      ],
+      "prompt_html": "<p>Ile liter polskiego alfabetu (przedstawionych obok) ma więcej niż jedną oś symetrii?</p>",
+      "choices": [
+        { "label": "a", "html": "2" },
+        { "label": "b", "html": "3" },
+        { "label": "c", "html": "4" },
+        { "label": "d", "html": "5" }
+      ],
+      "figures": [
+        "wojewodzki_2019_lubuskie_q18_fig1.png"
+      ],
+      "answer": {
+        "correct": "c",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2019_lubuskie_q19",
+      "number": 19,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "trójkąty",
+        "geometria"
+      ],
+      "prompt_html": "<p>Prosty metalowy pręt o długości 4 m oparty jest o mur, co przedstawia rysunek. Jaką długość ma ta część pręta, która wystaje ponad wysokość muru?</p>",
+      "choices": [
+        { "label": "a", "html": "1 m" },
+        { "label": "b", "html": "1,5 m" },
+        { "label": "c", "html": "2 m" },
+        { "label": "d", "html": "2,5 m" }
+      ],
+      "figures": [
+        "wojewodzki_2019_lubuskie_q19_fig1.png"
+      ],
+      "answer": {
+        "correct": "b",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2019_lubuskie_q20",
+      "number": 20,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "proporcjonalność prosta"
+      ],
+      "prompt_html": "<p>Złota sztabka o objętości 8 cm³ waży 15,44 dag. Objętość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> złotej sztabki o masie 19,3 g można obliczyć, rozwiązując równanie</p>",
+      "choices": [
+        { "label": "a", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>8</mn><mn>15,44</mn></mfrac><mo>=</mo><mfrac><mi>x</mi><mn>19,3</mn></mfrac></math>" },
+        { "label": "b", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15,44</mn><mo>·</mo><mn>8</mn><mo>=</mo><mn>19,3</mn><mi>x</mi></math>" },
+        { "label": "c", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>8</mn><mn>15,44</mn></mfrac><mo>=</mo><mfrac><mi>x</mi><mn>1,93</mn></mfrac></math>" },
+        { "label": "d", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,93</mn><mi>x</mi><mo>=</mo><mn>15,44</mn><mo>·</mo><mn>8</mn></math>" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "c",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2019_lubuskie_q21",
+      "number": 21,
+      "page": 3,
+      "type": "true_false",
+      "points": 3,
+      "topics": [
+        "kombinatoryka",
+        "geometria"
+      ],
+      "prompt_html": "<p>Poniższe zdania dotyczą przekątnych wielokąta wypukłego. Oceń, czy są prawdziwe.</p>",
+      "choices": [
+        { "label": "1", "html": "Liczba przekątnych jest zawsze większa od liczby boków wielokąta." },
+        { "label": "2", "html": "Istnieje wielokąt wypukły o 35 przekątnych." },
+        { "label": "3", "html": "Jeżeli liczba boków wielokąta jest nieparzysta, to liczba przekątnych też jest nieparzysta." }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FPF",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2019_lubuskie_q22",
+      "number": 22,
+      "page": 4,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "trójkąty",
+        "geometria"
+      ],
+      "prompt_html": "<p>Dany jest trójkąt prostokątny ABC, w którym AB = 8, AC = 6, AD = 4, co przedstawia rysunek obok. Czy podane poniżej informacje są prawdziwe?</p>",
+      "choices": [
+        { "label": "1", "html": "Obwód trójkąta ABC jest większy od obwodu trójkąta ABD o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mo>(</mo><mn>3</mn><mo>−</mo><msqrt><mn>5</mn></msqrt><mo>)</mo></math>." },
+        { "label": "2", "html": "Pole zacieniowanego obszaru w skali 1 : 2 jest równe 2." }
+      ],
+      "figures": [
+        "wojewodzki_2019_lubuskie_q22_fig1.png"
+      ],
+      "answer": {
+        "correct": "PP",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2019_lubuskie_q23",
+      "number": 23,
+      "page": 4,
+      "type": "true_false",
+      "points": 3,
+      "topics": [
+        "procenty"
+      ],
+      "prompt_html": "<p>W stadninie zgromadzono 1 tonę trawy, aby ją podsuszyć i uzyskać siano. Wilgotność skoszonej trawy wynosi 60%, a wilgotność siana jest równa 15%. Na podstawie tych danych oceń poniższe informacje.</p>",
+      "choices": [
+        { "label": "1", "html": "Z warunków zadania wynika, że w jednej tonie trawy jest 600 kg wody i 400 kg suchej masy." },
+        { "label": "2", "html": "Skoro siano ma 15% wilgotności, to masa wody <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> w nim zawarta spełnia równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>x</mi><mn>400</mn></mfrac><mo>=</mo><mfrac><mn>15</mn><mn>100</mn></mfrac></math>." },
+        { "label": "3", "html": "Z 1 tony trawy otrzymano nieco więcej niż 500 kg siana." }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PFF",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2019_lubuskie_q24",
+      "number": 24,
+      "page": 4,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "równania z jedną zmienną",
+        "reszta z dzielenia"
+      ],
+      "prompt_html": "<p>Suma dwóch liczb naturalnych jest równa 180. Jeśli większą z tych liczb podzielisz przez mniejszą, to otrzymasz iloraz 11 i resztę 12. Co to za liczby?</p><p>Szukane liczby to: ………, ……… .</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "166 i 14",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2019_lubuskie_q25",
+      "number": 25,
+      "page": 5,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "układy równań",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Bibliotekarka ustawiła na półkach książki o jednakowych wymiarach. Gdyby na każdej półce ustawiła po 10 książek, to zabrakłoby 4 półek. Jeśli natomiast na każdej półce ustawiłaby po 12 książek, to dwie półki byłyby wolne.</p><p>Liczba półek: ……… . Liczba książek: ……… .</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Liczba półek: 32, Liczba książek: 360",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2019_lubuskie_q26",
+      "number": 26,
+      "page": 5,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "bryły"
+      ],
+      "prompt_html": "<p>Rysunek przedstawia graniastosłup prawidłowy. Podaj długości odcinków oznaczonych literami.</p><p>t = ……… , w = ……… , z = ……… </p>",
+      "choices": [],
+      "figures": [
+        "wojewodzki_2019_lubuskie_q26_fig1.png"
+      ],
+      "answer": {
+        "correct": "t = 4√5, w = 6√2, z = 4",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2019_lubuskie_q27",
+      "number": 27,
+      "page": 5,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "trójkąty",
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>Trójkąt ABC przedstawiony na rysunku obok jest równoramienny (AC = BC). Z wierzchołków A i B zostały poprowadzone dwusieczne kątów, które przecinają ramiona trójkąta w punktach K i L. Uzasadnij, że długości odcinków AK i BL są takie same.</p>",
+      "choices": [],
+      "figures": [
+        "wojewodzki_2019_lubuskie_q27_fig1.png"
+      ],
+      "answer": {
+        "correct": "AK = BL (trójkąty ABK i ABL są przystające na podstawie cechy kąt-bok-kąt)",
+        "solution_html": "<p>W trójkącie równoramiennym kąty przy podstawie są równe, więc ∡BAC = ∡ABC. Dwusieczne tych kątów dają ∡BAK = ∡ABL (każdy z nich jest połową odpowiednio kąta ∡BAC i ∡ABC), a także ∡ABK = ∡BAL. Trójkąty ABK i ABL mają wspólny bok AB oraz dwa przylegające do niego kąty równych miar. Na podstawie cechy przystawania trójkątów kąt-bok-kąt trójkąty ABK i ABL są przystające, skąd wynika, że wszystkie ich odpowiednie boki są równe, a w szczególności AK = BL, co należało uzasadnić.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2019_lubuskie_q28",
+      "number": 28,
+      "page": 6,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Hodowca kur przyniósł na targ 100 jajek, które chciał sprzedać za 32 złote. Gdy sprzedał czwartą część wszystkich jajek, spostrzegł, że część jajek jest już popękanych. Odłożył je na bok i aby zarobić zamierzone 32 złote, resztę jajek sprzedał po 40 gr za sztukę. Ile jajek było popękanych?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "15",
+        "solution_html": "<p>Hodowca sprzedał czwartą część jajek, czyli 25 sztuk, uzyskując <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>·</mo><mn>32</mn></math> zł = 8 zł. Pozostało 75 jajek. Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę jajek popękanych; wtedy niepopękanych jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>75</mn><mo>−</mo><mi>x</mi></math> i sprzedano je po 0,40 zł, aby dołożyć brakujące 32 − 8 = 24 zł. Otrzymujemy równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>75</mn><mo>−</mo><mi>x</mi><mo>)</mo><mo>·</mo><mn>0,4</mn><mo>=</mo><mn>24</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>−</mo><mn>0,4</mn><mi>x</mi><mo>=</mo><mn>24</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,4</mn><mi>x</mi><mo>=</mo><mn>6</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>15</mn></math>. Popękanych było 15 jajek.</p>"
+      }
+    }
+  ]
+}
