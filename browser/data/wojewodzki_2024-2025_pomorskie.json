@@ -1,0 +1,159 @@
+{
+  "source_file": "wojewodzki/2024-2025_pomorskie.pdf",
+  "answers_file": "wojewodzki/2024-2025_pomorskie_answers.pdf",
+  "competition": "Wojewódzki Konkurs Matematyczny dla uczniów klas IV-VIII szkół podstawowych województwa pomorskiego",
+  "school_type": "podstawowa",
+  "stage": "wojewodzki",
+  "wojewodztwo": "pomorskie",
+  "school_year": "2024/2025",
+  "date": null,
+  "total_questions": 8,
+  "max_points": 20,
+  "questions": [
+    {
+      "id": "wojewodzki_2024-2025_pomorskie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Kasia dostała na urodziny swoje ulubione czekoladki. Gdy zjadła <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>7</mn></mfrac></math> wszystkich czekoladek, które dostała, to zostało jej o 12 czekoladek więcej niż zjadła. Ile czekoladek dostała na urodziny Kasia? Zapisz obliczenia.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "28 czekoladek",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę czekoladek, które Kasia dostała na urodziny. Zjadła <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>2</mn><mn>7</mn></mfrac><mi>x</mi></mrow></math>, a zostało jej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>5</mn><mn>7</mn></mfrac><mi>x</mi></mrow></math>. Ponieważ zostało o 12 więcej niż zjadła, otrzymujemy równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>5</mn><mn>7</mn></mfrac><mi>x</mi><mo>=</mo><mfrac><mn>2</mn><mn>7</mn></mfrac><mi>x</mi><mo>+</mo><mn>12</mn></mrow></math>.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>3</mn><mn>7</mn></mfrac><mi>x</mi><mo>=</mo><mn>12</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>28</mn></mrow></math>.</p><p>Odpowiedź: Kasia dostała na urodziny 28 czekoladek.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2024-2025_pomorskie_q2",
+      "number": 2,
+      "page": 3,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "równania z jedną zmienną",
+        "procenty"
+      ],
+      "prompt_html": "<p>Dana jest dodatnia liczba dwucyfrowa. Różnica tej liczby i liczby otrzymanej w wyniku przestawienia jej cyfr stanowi 75% mniejszej z tych liczb. Ile jest równa dana liczba? Podaj wszystkie możliwości.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "21, 42, 63, 84",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mi>x</mi><mo>+</mo><mi>y</mi></mrow></math> oznacza daną dodatnią liczbę dwucyfrową (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> — cyfra dziesiątek, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> — cyfra jedności). Liczba otrzymana po przestawieniu cyfr to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mi>y</mi><mo>+</mo><mi>x</mi></mrow></math>. Różnica tych liczb jest równa 75% mniejszej z nich:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mi>x</mi><mo>+</mo><mi>y</mi><mo>−</mo><mo>(</mo><mn>10</mn><mi>y</mi><mo>+</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>75</mn><mo>%</mo><mo>·</mo><mo>(</mo><mn>10</mn><mi>y</mi><mo>+</mo><mi>x</mi><mo>)</mo></mrow></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mi>x</mi><mo>−</mo><mn>9</mn><mi>y</mi><mo>=</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>·</mo><mo>(</mo><mn>10</mn><mi>y</mi><mo>+</mo><mi>x</mi><mo>)</mo></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>33</mn><mi>x</mi><mo>=</mo><mn>66</mn><mi>y</mi></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>2</mn><mi>y</mi></mrow></math>.</p><p>Dla kolejnych cyfr jedności <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>4</mn></mrow></math> otrzymujemy pary cyfr <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>)</mo></mrow></math>: (2,1), (4,2), (6,3), (8,4), a więc liczby 21, 42, 63, 84.</p><p>Odpowiedź: Szukane liczby to 21, 42, 63 i 84.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2024-2025_pomorskie_q3",
+      "number": 3,
+      "page": 4,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "bryły",
+        "trójkąty"
+      ],
+      "prompt_html": "<p>Dany jest ostrosłup prawidłowy trójkątny o polu powierzchni bocznej równym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>108</mn><msqrt><mn>3</mn></msqrt></mrow></math> oraz polu podstawy równym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>36</mn><msqrt><mn>3</mn></msqrt></mrow></math>. Oblicz objętość tego ostrosłupa. Zapisz obliczenia.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "144√2",
+        "solution_html": "<p>Podstawą jest trójkąt równoboczny o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. Z pola podstawy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mn>36</mn><msqrt><mn>3</mn></msqrt></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>144</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>12</mn></mrow></math>.</p><p>Powierzchnia boczna to trzy przystające trójkąty o podstawie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i wysokości ściany bocznej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>b</mi></msub><mo>=</mo><mn>3</mn><mo>·</mo><mfrac><mrow><mi>a</mi><mi>h</mi></mrow><mn>2</mn></mfrac><mo>=</mo><mn>108</mn><msqrt><mn>3</mn></msqrt></mrow></math>. Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>12</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>18</mn><mi>h</mi><mo>=</mo><mn>108</mn><msqrt><mn>3</mn></msqrt></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><mn>6</mn><msqrt><mn>3</mn></msqrt></mrow></math>.</p><p>Wysokość ostrosłupa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi></math> wyznaczamy z trójkąta prostokątnego, w którym przeciwprostokątną jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math>, a jedną z przyprostokątnych jest promień okręgu wpisanego w podstawę, równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mfrac><mrow><mi>a</mi><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>H</mi><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mn>6</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>H</mi><mn>2</mn></msup><mo>+</mo><mn>12</mn><mo>=</mo><mn>108</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>H</mi><mo>=</mo><msqrt><mn>96</mn></msqrt><mo>=</mo><mn>4</mn><msqrt><mn>6</mn></msqrt></mrow></math>.</p><p>Objętość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>V</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mn>36</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><mn>4</mn><msqrt><mn>6</mn></msqrt><mo>=</mo><mn>48</mn><msqrt><mn>18</mn></msqrt><mo>=</mo><mn>144</mn><msqrt><mn>2</mn></msqrt></mrow></math>.</p><p>Odpowiedź: Objętość tego ostrosłupa jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>144</mn><msqrt><mn>2</mn></msqrt></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2024-2025_pomorskie_q4",
+      "number": 4,
+      "page": 5,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "trójkąty",
+        "dwusieczna kąta / symetralna odcinka"
+      ],
+      "prompt_html": "<p>Dany jest trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>. Dwusieczne kątów wewnętrznych przy wierzchołkach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> przecinają się w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math>. Miara kąta rozwartego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>APB</mi></math> jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>137</mn><mo>°</mo></mrow></math>. Oblicz miarę kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACB</mi></math> trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "94°",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> oznaczają połowy kątów przy wierzchołkach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> (dwusieczne dzielą te kąty na połowy). W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>APB</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>+</mo><mi>β</mi><mo>+</mo><mn>137</mn><mo>°</mo><mo>=</mo><mn>180</mn><mo>°</mo></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>+</mo><mi>β</mi><mo>=</mo><mn>43</mn><mo>°</mo></mrow></math>.</p><p>W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> suma kątów wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>α</mi><mo>+</mo><mn>2</mn><mi>β</mi><mo>+</mo><mi>γ</mi><mo>=</mo><mn>180</mn><mo>°</mo></mrow></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>γ</mi><mo>=</mo><mo>|</mo><mo>∡</mo><mi>ACB</mi><mo>|</mo></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>γ</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>2</mn><mo>(</mo><mi>α</mi><mo>+</mo><mi>β</mi><mo>)</mo><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>2</mn><mo>·</mo><mn>43</mn><mo>°</mo><mo>=</mo><mn>94</mn><mo>°</mo></mrow></math>.</p><p>Odpowiedź: Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACB</mi></math> wynosi 94°.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2024-2025_pomorskie_q5",
+      "number": 5,
+      "page": 6,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "trójkąty",
+        "geometria"
+      ],
+      "prompt_html": "<p>Dany jest trapez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>, w którym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AB</mi><mo>∥</mo><mi>CD</mi></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AD</mi><mo>|</mo><mo>=</mo><mn>4</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>BC</mi><mo>|</mo><mo>=</mo><mn>8</mn></mrow></math>. W trapezie tym przedłużono ramiona <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> do przecięcia się w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math>. Wiedząc, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>DP</mi><mo>|</mo><mo>=</mo><mn>6</mn></mrow></math> oblicz długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CP</mi></math>. Zapisz obliczenia.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "12",
+        "solution_html": "<p>Z twierdzenia Talesa (ramiona przedłużone do punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math>, podstawy równoległe): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mo>|</mo><mi>DP</mi><mo>|</mo></mrow><mrow><mo>|</mo><mi>CP</mi><mo>|</mo></mrow></mfrac><mo>=</mo><mfrac><mrow><mo>|</mo><mi>AD</mi><mo>|</mo></mrow><mrow><mo>|</mo><mi>BC</mi><mo>|</mo></mrow></mfrac></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>6</mn><mrow><mo>|</mo><mi>CP</mi><mo>|</mo></mrow></mfrac><mo>=</mo><mfrac><mn>4</mn><mn>8</mn></mfrac></mrow></math>.</p><p>Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>CP</mi><mo>|</mo><mo>=</mo><mn>12</mn></mrow></math>.</p><p>Odpowiedź: Długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CP</mi></math> jest równa 12.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2024-2025_pomorskie_q6",
+      "number": 6,
+      "page": 7,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Oblicz odległość na osi liczbowej pomiędzy liczbami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, jeśli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest liczbą przeciwną do najmniejszej liczby pierwszej, zaś</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><msup><mn>125</mn><mn>10</mn></msup><mo>·</mo><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mn>25</mn></mfrac><mo>)</mo></mrow><mn>16</mn></msup><mo>:</mo><msup><mn>625</mn><mrow><mo>−</mo><mn>1</mn></mrow></msup></mrow></math></p><p>Wynik przedstaw w najprostszej postaci. Wykonaj obliczenia.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "27",
+        "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><msup><mrow><mo>(</mo><msup><mn>5</mn><mn>3</mn></msup><mo>)</mo></mrow><mn>10</mn></msup><mo>·</mo><msup><mrow><mo>(</mo><msup><mn>5</mn><mrow><mo>−</mo><mn>2</mn></mrow></msup><mo>)</mo></mrow><mn>16</mn></msup><mo>:</mo><msup><mn>5</mn><mrow><mo>−</mo><mn>4</mn></mrow></msup><mo>=</mo><msup><mn>5</mn><mn>30</mn></msup><mo>·</mo><msup><mn>5</mn><mrow><mo>−</mo><mn>32</mn></mrow></msup><mo>:</mo><msup><mn>5</mn><mrow><mo>−</mo><mn>4</mn></mrow></msup><mo>=</mo><msup><mn>5</mn><mn>2</mn></msup><mo>=</mo><mn>25</mn></mrow></math>.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest liczbą przeciwną do najmniejszej liczby pierwszej, którą jest 2, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mo>−</mo><mn>2</mn></mrow></math>.</p><p>Odległość na osi liczbowej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mn>25</mn><mo>−</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo><mo>|</mo><mo>=</mo><mn>27</mn></mrow></math>.</p><p>Odpowiedź: Odległość między liczbami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest równa 27.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2024-2025_pomorskie_q7",
+      "number": 7,
+      "page": 8,
+      "type": "closed_single",
+      "points": 5,
+      "topics": [
+        "potęgi i pierwiastki",
+        "usuwanie niewymierności z mianownika",
+        "wzory skróconego mnożenia",
+        "procenty",
+        "prędkość / droga / czas",
+        "geometria"
+      ],
+      "prompt_html": "<p>W zadaniach zamkniętych dokładnie jedna odpowiedź jest poprawna. Wskaż tę odpowiedź otaczając ją kółkiem.</p><p><strong>7.1</strong> Przekątne pięciokąta foremnego wychodzące z jednego wierzchołka tworzą kąt ostry o mierze:</p><ul><li>A. 72°</li><li>B. 60°</li><li>C. 54°</li><li>D. 36°</li></ul><p><strong>7.2</strong> Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow><mrow><mi>x</mi><mo>−</mo><mi>y</mi></mrow></mfrac></math> dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>2</mn><mo>−</mo><msqrt><mn>5</mn></msqrt></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>2</mn><mo>+</mo><msqrt><mn>5</mn></msqrt></mrow></math> jest równa:</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mfrac><mrow><mn>2</mn><msqrt><mn>5</mn></msqrt></mrow><mn>5</mn></mfrac></mrow></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><msqrt><mn>5</mn></msqrt></mrow><mn>5</mn></mfrac></math></li><li>C. 0</li><li>D. 4</li></ul><p><strong>7.3</strong> W pewnym gospodarstwie rolnym są kury i gęsi. Kur jest o 50% więcej niż gęsi. Jaki procent wszystkich tych zwierząt stanowią gęsi?</p><ul><li>A. 80%</li><li>B. 75%</li><li>C. 60%</li><li>D. 40%</li></ul><p><strong>7.4</strong> Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><msup><mn>2</mn><mrow><mo>(</mo><mn>1</mn><mo>−</mo><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow></msup><mo>)</mo></mrow><mrow><mo>(</mo><mn>1</mn><mo>+</mo><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow></msup></math> jest równa:</p><ul><li>A. 4</li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math></li><li>C. 1</li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math></li></ul><p><strong>7.5</strong> Samolot leci z prędkością 1000 km/h. Samolot ten pokonuje drogę równą 1 metr w czasie:</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>3</mn></mrow></msup><mtext> s</mtext></mrow></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3,6</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>5</mn></mrow></msup><mtext> s</mtext></mrow></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3,6</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>3</mn></mrow></msup><mtext> s</mtext></mrow></math></li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6,3</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>3</mn></mrow></msup><mtext> s</mtext></mrow></math></li></ul>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "7.1 – D, 7.2 – A, 7.3 – D, 7.4 – B, 7.5 – C",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2024-2025_pomorskie_q8",
+      "number": 8,
+      "page": 9,
+      "type": "open",
+      "points": 1,
+      "topics": [
+        "proporcjonalność prosta"
+      ],
+      "prompt_html": "<p>Polana o powierzchni 80 arów zajmuje na mapie pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><msup><mtext> cm</mtext><mn>2</mn></msup></mrow></math>. Jaka jest skala tej mapy? Zapisz obliczenia.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "1:4000",
+        "solution_html": "<p>Zamieniamy powierzchnię w terenie na centymetry kwadratowe: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>80</mn><mtext> arów</mtext><mo>=</mo><mn>8000</mn><msup><mtext> m</mtext><mn>2</mn></msup><mo>=</mo><mn>80000000</mn><msup><mtext> cm</mtext><mn>2</mn></msup></mrow></math>.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><msup><mtext> cm</mtext><mn>2</mn></msup></mrow></math> na mapie odpowiada <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>80000000</mn><msup><mtext> cm</mtext><mn>2</mn></msup></mrow></math> w terenie, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><msup><mtext> cm</mtext><mn>2</mn></msup></mrow></math> odpowiada <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>16000000</mn><msup><mtext> cm</mtext><mn>2</mn></msup></mrow></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mtext> cm</mtext></mrow></math> odpowiada <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>16000000</mn></msqrt><mo>=</mo><mn>4000</mn><mtext> cm</mtext></mrow></math>.</p><p>Odpowiedź: Skala tej mapy to 1:4000.</p>"
+      }
+    }
+  ]
+}

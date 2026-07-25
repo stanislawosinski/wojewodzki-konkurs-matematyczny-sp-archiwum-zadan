@@ -1,0 +1,423 @@
+{
+  "source_file": "wojewodzki/2023_kujawsko-pomorskie.pdf",
+  "answers_file": "wojewodzki/2023_kujawsko-pomorskie_answers.pdf",
+  "competition": "Konkurs Przedmiotowy z Matematyki dla uczniów szkół podstawowych województwa kujawsko-pomorskiego",
+  "school_type": "podstawowa",
+  "stage": "wojewodzki",
+  "wojewodztwo": "kujawsko-pomorskie",
+  "school_year": "2022/2023",
+  "date": "2023-03-07",
+  "total_questions": 18,
+  "max_points": 20,
+  "questions": [
+    {
+      "id": "wojewodzki_2023_kujawsko-pomorskie_q1",
+      "number": 1,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "podzielność",
+        "zliczanie / metody zliczania"
+      ],
+      "prompt_html": "<p>Pan Tomasz zapomniał swój dziesięciocyfrowy kod do otwarcia sejfu. Pamięta tylko osiem pierwszych cyfr tego szyfru: 20222023□□. Pamięta także, że liczba określająca szyfr była podzielna przez liczby 3 i 5 oraz niepodzielna przez liczbę 25. Ile co najwyżej możliwych kodów musi wypróbować pan Tomasz?</p>",
+      "choices": [
+        { "label": "A", "html": "4" },
+        { "label": "B", "html": "3" },
+        { "label": "C", "html": "7" },
+        { "label": "D", "html": "6" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": "<p>Szukany kod ma postać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>20222023</mn><mi>X</mi><mi>Y</mi></mrow></math>. Podzielność przez 5 wymaga, by <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>Y</mi><mo>∈</mo><mo>{</mo><mn>0</mn><mo>,</mo><mn>5</mn><mo>}</mo></mrow></math>. Suma ośmiu znanych cyfr wynosi 13, więc podzielność przez 3 wymaga, by <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>13</mn><mo>+</mo><mi>X</mi><mo>+</mo><mi>Y</mi></mrow></math> było podzielne przez 3.</p><p>Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>Y</mi><mo>=</mo><mn>0</mn></mrow></math>: potrzeba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>X</mi><mo>∈</mo><mo>{</mo><mn>2</mn><mo>,</mo><mn>5</mn><mo>,</mo><mn>8</mn><mo>}</mo></mrow></math>, ale liczba nie może być podzielna przez 25, więc odrzucamy końcówkę 50 (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>X</mi><mo>=</mo><mn>5</mn></mrow></math>). Zostają 20 i 80 — 2 kody.</p><p>Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>Y</mi><mo>=</mo><mn>5</mn></mrow></math>: potrzeba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>X</mi><mo>∈</mo><mo>{</mo><mn>0</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>6</mn><mo>,</mo><mn>9</mn><mo>}</mo></mrow></math>; żadna z końcówek 05, 35, 65, 95 nie jest podzielna przez 25 — 4 kody.</p><p>Razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>6</mn></mrow></math> kodów.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2023_kujawsko-pomorskie_q2",
+      "number": 2,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "potęgi i pierwiastki",
+        "podzielność"
+      ],
+      "prompt_html": "<p>Ile zer na końcu będzie mieć zapis liczby, która zapisana jako iloczyn ma postać:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2023</mn><mn>10</mn></msup><mo>·</mo><msup><mn>2</mn><mn>20</mn></msup><mo>·</mo><msup><mn>5</mn><mn>23</mn></msup></mrow></math>.</p>",
+      "choices": [
+        { "label": "A", "html": "10 zer" },
+        { "label": "B", "html": "20 zer" },
+        { "label": "C", "html": "23 zera" },
+        { "label": "D", "html": "53 zera" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": "<p>Liczba zer na końcu to liczba czynników 10, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>min</mi></mrow></math> z wykładników 2 i 5. Liczba 2023 jest nieparzysta i niepodzielna przez 5 (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2023</mn><mo>=</mo><mn>7</mn><mo>·</mo><msup><mn>17</mn><mn>2</mn></msup></mrow></math>), więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2023</mn><mn>10</mn></msup></math> nie wnosi żadnych dwójek ani piątek. Zatem czynników 2 jest 20, a czynników 5 jest 23, i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>min</mi><mo>(</mo><mn>20</mn><mo>,</mo><mn>23</mn><mo>)</mo><mo>=</mo><mn>20</mn></mrow></math>. Liczba kończy się 20 zerami.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2023_kujawsko-pomorskie_q3",
+      "number": 3,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "trójkąty",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Najmniejszy z kątów trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>XYZ</mi></math> jest o 30° mniejszy od drugiego kąta i cztery razy mniejszy od trzeciego kąta. Ile wynosi miara najmniejszego kąta trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>XYZ</mi></math>?</p>",
+      "choices": [
+        { "label": "A", "html": "55°" },
+        { "label": "B", "html": "30°" },
+        { "label": "C", "html": "25°" },
+        { "label": "D", "html": "20°" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": "<p>Niech najmniejszy kąt ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. Drugi kąt to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mn>30</mn><mo>°</mo></mrow></math>, a trzeci to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>a</mi></mrow></math>. Suma kątów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mo>(</mo><mi>a</mi><mo>+</mo><mn>30</mn><mo>°</mo><mo>)</mo><mo>+</mo><mn>4</mn><mi>a</mi><mo>=</mo><mn>180</mn><mo>°</mo></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mi>a</mi><mo>=</mo><mn>150</mn><mo>°</mo></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>25</mn><mo>°</mo></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2023_kujawsko-pomorskie_q4",
+      "number": 4,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "proporcjonalność prosta"
+      ],
+      "prompt_html": "<p>10 pająków w ciągu 10 dni łapie 60 much. Ile much złapie 25 pająków w 25 dni?</p>",
+      "choices": [
+        { "label": "A", "html": "750 much" },
+        { "label": "B", "html": "1500 much" },
+        { "label": "C", "html": "150 much" },
+        { "label": "D", "html": "375 much" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": "<p>10 pająków w 10 dni łapie 60 much, więc jeden pająk w ciągu jednego dnia łapie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>60</mn><mrow><mn>10</mn><mo>·</mo><mn>10</mn></mrow></mfrac><mo>=</mo><mn>0,6</mn></mrow></math> muchy. Zatem 25 pająków w ciągu 25 dni złapie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>25</mn><mo>·</mo><mn>25</mn><mo>·</mo><mn>0,6</mn><mo>=</mo><mn>375</mn></mrow></math> much.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2023_kujawsko-pomorskie_q5",
+      "number": 5,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "trójkąty",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Na przyprostokątnych trójkąta prostokątnego zbudowano kwadraty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> jak na rysunku.</p><p>Odczytaj z rysunku potrzebne informacje i określ, ile razy pole kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> jest większe od pola kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>. Wybierz właściwą odpowiedź spośród podanych.</p>",
+      "choices": [
+        { "label": "A", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow></math> razy" },
+        { "label": "B", "html": "3 razy" },
+        { "label": "C", "html": "9 razy" },
+        { "label": "D", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt></math> razy" }
+      ],
+      "figures": [
+        "wojewodzki_2023_kujawsko-pomorskie_q5_fig1.png"
+      ],
+      "answer": {
+        "correct": "B",
+        "solution_html": "<p>Dwa odcinki o długości 3 tworzą kąt 60°, więc trójkąt nad kwadratem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> jest równoboczny — bok kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> ma długość 3, a jego pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>3</mn><mn>2</mn></msup><mo>=</mo><mn>9</mn></mrow></math>.</p><p>Trójkąt prostokątny ma zatem przy podstawie kąt 60°, więc jest to trójkąt o kątach 30°, 60°, 90°. Przyprostokątna, na której zbudowano kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>, ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow></math>, więc pole kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>27</mn></mrow></math>.</p><p>Stosunek pól: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>27</mn><mn>9</mn></mfrac><mo>=</mo><mn>3</mn></mrow></math>. Pole kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> jest 3 razy większe.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2023_kujawsko-pomorskie_q6",
+      "number": 6,
+      "page": 5,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "prawdopodobieństwo",
+        "podzielność"
+      ],
+      "prompt_html": "<p>Doświadczenie losowe polega na czterokrotnym rzucie monetą. Jeśli wypadnie orzeł, zapisujemy 1, a jeśli reszka – zapisujemy 2. Wynikiem doświadczenia jest zapisana liczba czterocyfrowa. Prawdopodobieństwo, że zapisana liczba <u>nie jest</u> podzielna przez 3 wynosi:</p>",
+      "choices": [
+        { "label": "A", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math>" },
+        { "label": "B", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math>" },
+        { "label": "C", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>8</mn></mfrac></math>" },
+        { "label": "D", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>8</mn></mfrac></math>" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": "<p>Wszystkich wyników jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2</mn><mn>4</mn></msup><mo>=</mo><mn>16</mn></mrow></math>. Cyframi są tylko 1 i 2, więc suma czterech cyfr wynosi od 4 do 8. Liczba jest podzielna przez 3, gdy suma cyfr jest podzielna przez 3, czyli tylko gdy suma równa się 6 — to zachodzi, gdy dokładnie dwie cyfry to 2. Takich wyników jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mtable><mtr><mtd><mn>4</mn></mtd></mtr><mtr><mtd><mn>2</mn></mtd></mtr></mtable><mo>)</mo><mo>=</mo><mn>6</mn></mrow></math>.</p><p>Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>(</mo><mtext>podzielna</mtext><mo>)</mo><mo>=</mo><mfrac><mn>6</mn><mn>16</mn></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>8</mn></mfrac></mrow></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>(</mo><mtext>niepodzielna</mtext><mo>)</mo><mo>=</mo><mn>1</mn><mo>−</mo><mfrac><mn>3</mn><mn>8</mn></mfrac><mo>=</mo><mfrac><mn>5</mn><mn>8</mn></mfrac></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2023_kujawsko-pomorskie_q7",
+      "number": 7,
+      "page": 5,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "procenty"
+      ],
+      "prompt_html": "<p>W pewnym roztworze stosunek masy soli do masy wody wynosi 1:7. Jakie jest stężenie tego roztworu?</p>",
+      "choices": [
+        { "label": "A", "html": "10%" },
+        { "label": "B", "html": "12,5%" },
+        { "label": "C", "html": "37,5%" },
+        { "label": "D", "html": "70%" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": "<p>Stężenie to stosunek masy soli do masy całego roztworu. Przyjmując masę soli 1 i masę wody 7, masa roztworu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>+</mo><mn>7</mn><mo>=</mo><mn>8</mn></mrow></math>. Zatem stężenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>8</mn></mfrac><mo>=</mo><mn>12,5</mn><mo>%</mo></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2023_kujawsko-pomorskie_q8",
+      "number": 8,
+      "page": 5,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "prędkość / droga / czas",
+        "proporcjonalność prosta"
+      ],
+      "prompt_html": "<p>Kasia postanowiła spędzić popołudnie z koleżankami na basenie. Długość trasy od domu Kasi do budynku pływalni mierzona na planie sporządzonym w skali 1 : 30 000 jest równa 15 cm. Ile czasu zajmie Kasi przejście tej trasy, jeśli średnio w ciągu godziny pokonuje 6 km?</p>",
+      "choices": [
+        { "label": "A", "html": "1 h 30 min" },
+        { "label": "B", "html": "1 h 15 min" },
+        { "label": "C", "html": "45 min" },
+        { "label": "D", "html": "30 min" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": "<p>Rzeczywista długość trasy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mtext> cm</mtext><mo>·</mo><mn>30000</mn><mo>=</mo><mn>450000</mn><mtext> cm</mtext><mo>=</mo><mn>4,5</mn><mtext> km</mtext></mrow></math>. Przy prędkości 6 km/h czas przejścia wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>4,5</mn><mn>6</mn></mfrac><mo>=</mo><mn>0,75</mn><mtext> h</mtext><mo>=</mo><mn>45</mn><mtext> min</mtext></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2023_kujawsko-pomorskie_q9",
+      "number": 9,
+      "page": 6,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "proporcjonalność prosta",
+        "geometria"
+      ],
+      "prompt_html": "<p>Podłoga letniej altanki ma kształt prostokąta o wymiarach 3,5 m i 4 m. Ile lakieru zostanie w trzylitrowej puszce po dwukrotnym pomalowaniu desek na podłodze w tej altance, jeżeli 1 l lakieru wystarcza na jednokrotne pomalowanie 10 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>m</mtext><mn>2</mn></msup></math> powierzchni?</p>",
+      "choices": [
+        { "label": "A", "html": "2,8 l" },
+        { "label": "B", "html": "1,4 l" },
+        { "label": "C", "html": "1,6 l" },
+        { "label": "D", "html": "0,2 l" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": "<p>Pole podłogi: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3,5</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>14</mn></mrow></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>m</mtext><mn>2</mn></msup></math>. Malowanie dwukrotne to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>14</mn><mo>=</mo><mn>28</mn></mrow></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>m</mtext><mn>2</mn></msup></math>. Zużyty lakier: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>28</mn><mn>10</mn></mfrac><mo>=</mo><mn>2,8</mn></mrow></math> l. W puszce zostanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>−</mo><mn>2,8</mn><mo>=</mo><mn>0,2</mn></mrow></math> l.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2023_kujawsko-pomorskie_q10",
+      "number": 10,
+      "page": 6,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "trójkąty",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>W trójkącie równobocznym stosunek obwodu tego trójkąta do długości jego wysokości wynosi:</p>",
+      "choices": [
+        { "label": "A", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow></math>" },
+        { "label": "B", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt></math>" },
+        { "label": "C", "html": "2" },
+        { "label": "D", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><msqrt><mn>3</mn></msqrt></mrow></math>" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": "<p>Dla trójkąta równobocznego o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> obwód wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>a</mi></mrow></math>, a wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac></math>. Stosunek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>3</mn><mi>a</mi></mrow><mfrac><mrow><mi>a</mi><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac></mfrac><mo>=</mo><mfrac><mn>6</mn><msqrt><mn>3</mn></msqrt></mfrac><mo>=</mo><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2023_kujawsko-pomorskie_q11",
+      "number": 11,
+      "page": 6,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "bryły",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>W graniastosłupie prawidłowym trójkątnym pole powierzchni bocznej wynosi 48 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>cm</mtext><mn>2</mn></msup></math>. Jeżeli ściana boczna jest wielokątem foremnym, to objętość tego graniastosłupa wynosi:</p>",
+      "choices": [
+        { "label": "A", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><msqrt><mn>3</mn></msqrt></mrow></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>cm</mtext><mn>3</mn></msup></math>" },
+        { "label": "B", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><msqrt><mn>3</mn></msqrt></mrow></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>cm</mtext><mn>3</mn></msup></math>" },
+        { "label": "C", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>16</mn><msqrt><mn>3</mn></msqrt></mrow></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>cm</mtext><mn>3</mn></msup></math>" },
+        { "label": "D", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>32</mn><msqrt><mn>3</mn></msqrt></mrow></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>cm</mtext><mn>3</mn></msup></math>" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": "<p>Ściany boczne graniastosłupa prawidłowego trójkątnego to prostokąty; są wielokątami foremnymi, gdy są kwadratami. Zatem krawędź podstawy jest równa wysokości graniastosłupa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mi>H</mi></mrow></math>. Pole powierzchni bocznej to trzy kwadraty: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>48</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>16</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>4</mn></mrow></math>.</p><p>Pole podstawy (trójkąt równoboczny): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mfrac><mrow><mn>16</mn><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mn>4</mn><msqrt><mn>3</mn></msqrt></mrow></math>. Objętość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>V</mi><mo>=</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><mn>4</mn><mo>=</mo><mn>16</mn><msqrt><mn>3</mn></msqrt></mrow></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>cm</mtext><mn>3</mn></msup></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2023_kujawsko-pomorskie_q12",
+      "number": 12,
+      "page": 7,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "geometria",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Najdłuższy bok trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> o wierzchołkach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>,</mo><mo>−</mo><mn>2</mn><mo>)</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>B</mi><mo>=</mo><mo>(</mo><mn>3</mn><mo>,</mo><mn>2</mn><mo>)</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>C</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>,</mo><mn>4</mn><mo>)</mo></mrow></math> ma długość:</p>",
+      "choices": [
+        { "label": "A", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>41</mn></msqrt></math>" },
+        { "label": "B", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>29</mn></msqrt></math>" },
+        { "label": "C", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><msqrt><mn>2</mn></msqrt></mrow></math>" },
+        { "label": "D", "html": "6" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": "<p>Obliczamy długości boków ze wzoru na odległość punktów:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><msqrt><mrow><msup><mn>5</mn><mn>2</mn></msup><mo>+</mo><msup><mn>4</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>41</mn></msqrt></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>BC</mi><mo>|</mo><mo>=</mo><msqrt><mrow><msup><mn>5</mn><mn>2</mn></msup><mo>+</mo><msup><mn>2</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>29</mn></msqrt></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AC</mi><mo>|</mo><mo>=</mo><msqrt><mrow><msup><mn>0</mn><mn>2</mn></msup><mo>+</mo><msup><mn>6</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>6</mn></mrow></math>.</p><p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>41</mn></msqrt><mo>&gt;</mo><mn>6</mn><mo>&gt;</mo><msqrt><mn>29</mn></msqrt></mrow></math>, najdłuższy bok ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>41</mn></msqrt></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2023_kujawsko-pomorskie_q13",
+      "number": 13,
+      "page": 7,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "zagadki logiczne"
+      ],
+      "prompt_html": "<p>1 stycznia 2022 roku był w sobotę. Wskaż zdanie prawdziwe:</p>",
+      "choices": [
+        { "label": "A", "html": "W lutym 2022 roku było 5 sobót." },
+        { "label": "B", "html": "W kwietniu 2022 roku były tylko 4 soboty." },
+        { "label": "C", "html": "W maju 2022 roku były tylko 4 soboty." },
+        { "label": "D", "html": "W grudniu 2022 roku były tylko 4 soboty." }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": "<p>Rok 2022 nie jest przestępny. Skoro 1 stycznia to sobota, soboty stycznia wypadają 1, 8, 15, 22, 29, więc 31 stycznia to poniedziałek.</p><p><strong>A.</strong> Luty zaczyna się we wtorek; soboty to 5, 12, 19, 26 — tylko 4 soboty (fałsz).</p><p><strong>B.</strong> 1 kwietnia to piątek; soboty to 2, 9, 16, 23, 30 — 5 sobót (fałsz).</p><p><strong>C.</strong> 1 maja to niedziela; soboty to 7, 14, 21, 28 — dokładnie 4 soboty (prawda).</p><p><strong>D.</strong> 1 grudnia to czwartek; soboty to 3, 10, 17, 24, 31 — 5 sobót (fałsz).</p><p>Prawdziwe jest zdanie C.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2023_kujawsko-pomorskie_q14",
+      "number": 14,
+      "page": 8,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "procenty",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi></math> są dodatnie. Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> stanowi 38% liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oraz 57% liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi></math>. Wynika stąd, że:</p>",
+      "choices": [
+        { "label": "A", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>1,5</mn><mi>z</mi></mrow></math>" },
+        { "label": "B", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>z</mi><mo>=</mo><mn>1,5</mn><mi>x</mi></mrow></math>" },
+        { "label": "C", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>z</mi><mo>=</mo><mn>2,5</mn><mi>y</mi></mrow></math>" },
+        { "label": "D", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>2,5</mn><mi>z</mi></mrow></math>" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": "<p>Z warunków zadania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>0,38</mn><mi>x</mi></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>0,57</mn><mi>z</mi></mrow></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,38</mn><mi>x</mi><mo>=</mo><mn>0,57</mn><mi>z</mi></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mfrac><mn>0,57</mn><mn>0,38</mn></mfrac><mi>z</mi><mo>=</mo><mn>1,5</mn><mi>z</mi></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2023_kujawsko-pomorskie_q15",
+      "number": 15,
+      "page": 8,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "statystyka opisowa",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Janek i jego dwóch kolegów przeznaczyło pewną kwotę na zakup kwiatów dla koleżanek z okazji Dnia Kobiet. Każdy dał średnio po 14 zł. Gdyby Janek dał 2 razy więcej to ta średnia wyniosłaby 18 zł. Ile pieniędzy dał Janek?</p>",
+      "choices": [
+        { "label": "A", "html": "10 zł" },
+        { "label": "B", "html": "12 zł" },
+        { "label": "C", "html": "14 zł" },
+        { "label": "D", "html": "16 zł" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": "<p>Trzy osoby dały średnio po 14 zł, więc łącznie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>14</mn><mo>=</mo><mn>42</mn></mrow></math> zł. Niech Janek dał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>j</mi></math> zł. Gdyby dał dwa razy tyle, suma wzrosłaby o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>j</mi></math>, a nowa średnia wyniosłaby 18 zł, czyli suma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>18</mn><mo>=</mo><mn>54</mn></mrow></math> zł.</p><p>Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>42</mn><mo>+</mo><mi>j</mi><mo>=</mo><mn>54</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>j</mi><mo>=</mo><mn>12</mn></mrow></math> zł.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2023_kujawsko-pomorskie_q16",
+      "number": 16,
+      "page": 8,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "proporcjonalność odwrotna",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Paweł i Gaweł postanowili pomalować pokój. Paweł pracując sam wykonałby tę pracę w ciągu 6 dni. Gaweł pracując sam pomalowałby pokój w ciągu 9 dni. Oblicz w jakim czasie pomalują pokój, jeżeli będą pracować razem (zakładając, że pracują z tą samą wydajnością).</p>",
+      "choices": [
+        { "label": "A", "html": "mniej niż 3 dni" },
+        { "label": "B", "html": "3,6 dnia" },
+        { "label": "C", "html": "4,2 dnia" },
+        { "label": "D", "html": "więcej niż 5 dni" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": "<p>Paweł maluje w ciągu dnia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>6</mn></mfrac></math> pokoju, a Gaweł <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>9</mn></mfrac></math>. Razem w ciągu dnia malują <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>6</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>9</mn></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>18</mn></mfrac><mo>+</mo><mfrac><mn>2</mn><mn>18</mn></mfrac><mo>=</mo><mfrac><mn>5</mn><mn>18</mn></mfrac></mrow></math> pokoju.</p><p>Czas wspólnej pracy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>:</mo><mfrac><mn>5</mn><mn>18</mn></mfrac><mo>=</mo><mfrac><mn>18</mn><mn>5</mn></mfrac><mo>=</mo><mn>3,6</mn></mrow></math> dnia.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2023_kujawsko-pomorskie_q17",
+      "number": 17,
+      "page": 9,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "prędkość / droga / czas"
+      ],
+      "prompt_html": "<p>Oceń prawdziwość poniższych zdań. Zaznacz P, jeśli zdanie jest prawdziwe lub F, jeśli zdanie jest fałszywe.</p>",
+      "choices": [
+        { "label": "A", "html": "Jadąc ze średnią prędkością 62 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac></math>, samochód pokona drogę 200 km w czasie dłuższym niż 3,2 h." },
+        { "label": "B", "html": "Samochód jadący ze średnią prędkością 650 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mtext>m</mtext><mtext>min</mtext></mfrac></math>, w czasie 4,7 h pokona drogę dłuższą niż 185 km." }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PF",
+        "solution_html": "<p><strong>A. PRAWDA</strong> — czas przejazdu to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>200</mn><mn>62</mn></mfrac><mo>≈</mo><mn>3,23</mn></mrow></math> h, co jest więcej niż 3,2 h.</p><p><strong>B. FAŁSZ</strong> — <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>650</mn><mfrac><mtext>m</mtext><mtext>min</mtext></mfrac><mo>=</mo><mn>39</mn><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac></mrow></math>, więc w ciągu 4,7 h samochód pokona <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>39</mn><mo>·</mo><mn>4,7</mn><mo>=</mo><mn>183,3</mn></mrow></math> km, czyli mniej niż 185 km.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2023_kujawsko-pomorskie_q18",
+      "number": 18,
+      "page": 9,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "podzielność",
+        "reszta z dzielenia",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Oceń prawdziwość poniższych zdań. Zaznacz P, jeśli zdanie jest prawdziwe lub F, jeśli zdanie jest fałszywe.</p>",
+      "choices": [
+        { "label": "A", "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>16</mn><mn>2023</mn></msup><mo>−</mo><mn>1</mn></mrow></math> jest podzielna przez 5." },
+        { "label": "B", "html": "Reszta z dzielenia liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>7</mn><mn>2023</mn></msup><mo>·</mo><msup><mn>3</mn><mn>2023</mn></msup><mo>−</mo><msup><mn>5</mn><mn>2023</mn></msup><mo>·</mo><msup><mn>2</mn><mn>2023</mn></msup></mrow></math> przez 2 jest równa 0." }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PF",
+        "solution_html": "<p><strong>A. PRAWDA</strong> — <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>16</mn><mo>≡</mo><mn>1</mn></mrow></math> (mod 5), więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>16</mn><mn>2023</mn></msup><mo>≡</mo><mn>1</mn></mrow></math> (mod 5), a zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>16</mn><mn>2023</mn></msup><mo>−</mo><mn>1</mn></mrow></math> jest podzielne przez 5. (Można też zauważyć, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>16</mn><mn>2023</mn></msup></math> kończy się cyfrą 6, więc różnica kończy się cyfrą 5.)</p><p><strong>B. FAŁSZ</strong> — <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>7</mn><mn>2023</mn></msup><mo>·</mo><msup><mn>3</mn><mn>2023</mn></msup><mo>=</mo><msup><mn>21</mn><mn>2023</mn></msup></mrow></math> jest liczbą nieparzystą, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>5</mn><mn>2023</mn></msup><mo>·</mo><msup><mn>2</mn><mn>2023</mn></msup><mo>=</mo><msup><mn>10</mn><mn>2023</mn></msup></mrow></math> jest parzysta. Różnica nieparzysta − parzysta jest nieparzysta, więc reszta z dzielenia przez 2 wynosi 1, a nie 0.</p>"
+      }
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "source_file": "wojewodzki/2023_opolskie.pdf",
+  "answers_file": "wojewodzki/2023_opolskie_answers.pdf",
+  "competition": "Wojewódzki Konkurs Matematyczny dla uczniów szkół podstawowych województwa opolskiego",
+  "school_type": "podstawowa",
+  "stage": "wojewodzki",
+  "wojewodztwo": "opolskie",
+  "school_year": "2022/2023",
+  "date": null,
+  "total_questions": 11,
+  "max_points": 40,
+  "questions": [
+    {
+      "id": "wojewodzki_2023_opolskie_q1",
+      "number": 1,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "podzielność"
+      ],
+      "prompt_html": "<p>Liczbę 2023 można przedstawić jako iloczyn trzech liczb naturalnych większych od 1. Prawdą jest, że:</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Dokładnie jedna z tych liczb jest liczbą pierwszą."
+        },
+        {
+          "label": "2",
+          "html": "W tym iloczynie występują trzy różne czynniki."
+        },
+        {
+          "label": "3",
+          "html": "Liczba 2023 ma 5 dzielników."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FFF",
+        "solution_html": "<p>Rozkład na czynniki pierwsze: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2023</mn><mo>=</mo><mn>7</mn><mo>·</mo><msup><mn>17</mn><mn>2</mn></msup><mo>=</mo><mn>7</mn><mo>·</mo><mn>17</mn><mo>·</mo><mn>17</mn></math>.</p><ul><li>Wszystkie trzy czynniki (7, 17, 17) są liczbami pierwszymi, więc nie jest prawdą, że dokładnie jedna z nich jest pierwsza — <strong>NIE</strong>.</li><li>Czynniki to 7, 17 i 17 — nie są to trzy różne liczby (17 się powtarza) — <strong>NIE</strong>.</li><li>Liczba dzielników liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mo>·</mo><msup><mn>17</mn><mn>2</mn></msup></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>1</mn><mo>+</mo><mn>1</mn><mo>)</mo><mo>(</mo><mn>2</mn><mo>+</mo><mn>1</mn><mo>)</mo><mo>=</mo><mn>6</mn></math> (są to 1, 7, 17, 119, 289, 2023), a nie 5 — <strong>NIE</strong>.</li></ul>"
+      }
+    },
+    {
+      "id": "wojewodzki_2023_opolskie_q2",
+      "number": 2,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "kombinatoryka",
+        "prawdopodobieństwo"
+      ],
+      "prompt_html": "<p>W szufladzie są 4 skarpetki czerwone, 4 zielone i 4 żółte. Wyciągamy skarpetki nie zaglądając do szuflady.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Musimy wyjąć 4, żeby mieć pewność, że będziemy mieć parę tego samego koloru."
+        },
+        {
+          "label": "2",
+          "html": "Musimy wyjąć 10, żeby mieć pewność, że będziemy mieć parę w kolorze czerwonym."
+        },
+        {
+          "label": "3",
+          "html": "Prawdopodobieństwo, że wyjmując dwie skarpetki obie będą w tym samym kolorze wynosi 1/3."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PPF",
+        "solution_html": "<p>W szufladzie jest 12 skarpetek: po 4 w każdym z 3 kolorów.</p><ul><li>Kolory są 3, więc wśród 4 wyjętych skarpetek co najmniej dwie muszą być w tym samym kolorze (w najgorszym przypadku 3 pierwsze mają różne kolory, a czwarta powtarza któryś z nich) — <strong>TAK</strong>.</li><li>Skarpetek nieczerwonych jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>8</mn></math>. Może się zdarzyć, że wyjmiemy je jako pierwsze, dziewiąta będzie pierwszą czerwoną, a dopiero dziesiąta utworzy parę czerwonych — potrzeba więc 10 — <strong>TAK</strong>.</li><li>Wszystkich par jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>12</mn><mo>·</mo><mn>11</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>66</mn></math>, a par jednokolorowych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mfrac><mrow><mn>4</mn><mo>·</mo><mn>3</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>18</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><mn>18</mn><mn>66</mn></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>11</mn></mfrac></math>, a nie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> — <strong>NIE</strong>.</li></ul>"
+      }
+    },
+    {
+      "id": "wojewodzki_2023_opolskie_q3",
+      "number": 3,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "podzielność",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>+</mo><msup><mn>3</mn><mn>2</mn></msup><mo>+</mo><msup><mn>3</mn><mn>3</mn></msup><mo>+</mo><mo>⋯</mo><mo>+</mo><msup><mn>3</mn><mn>60</mn></msup></math> jest podzielna przez:</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "6"
+        },
+        {
+          "label": "2",
+          "html": "12"
+        },
+        {
+          "label": "3",
+          "html": "24"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PPP",
+        "solution_html": "<p>Oznaczmy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mn>3</mn><mo>+</mo><msup><mn>3</mn><mn>2</mn></msup><mo>+</mo><mo>⋯</mo><mo>+</mo><msup><mn>3</mn><mn>60</mn></msup></math>. Pogrupujmy 60 składników w 30 par: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mrow><mn>2</mn><mi>k</mi><mo>−</mo><mn>1</mn></mrow></msup><mo>+</mo><msup><mn>3</mn><mrow><mn>2</mn><mi>k</mi></mrow></msup><mo>=</mo><msup><mn>3</mn><mrow><mn>2</mn><mi>k</mi><mo>−</mo><mn>1</mn></mrow></msup><mo>(</mo><mn>1</mn><mo>+</mo><mn>3</mn><mo>)</mo><mo>=</mo><mn>4</mn><mo>·</mo><msup><mn>3</mn><mrow><mn>2</mn><mi>k</mi><mo>−</mo><mn>1</mn></mrow></msup></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mn>4</mn><mo>(</mo><mn>3</mn><mo>+</mo><msup><mn>3</mn><mn>3</mn></msup><mo>+</mo><mo>⋯</mo><mo>+</mo><msup><mn>3</mn><mn>59</mn></msup><mo>)</mo></math>. W nawiasie jest 30 składników nieparzystych, więc ich suma jest parzysta i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mn>4</mn><mo>·</mo><mn>2</mn><mi>u</mi><mo>=</mo><mn>8</mn><mi>u</mi></math> — liczba podzielna przez 8. Ponadto każdy składnik <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> dzieli się przez 3, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> dzieli się przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>8</mn><mo>=</mo><mn>24</mn></math>.</p><ul><li>Podzielna przez 6 — <strong>TAK</strong>.</li><li>Podzielna przez 12 — <strong>TAK</strong>.</li><li>Podzielna przez 24 — <strong>TAK</strong>.</li></ul>"
+      }
+    },
+    {
+      "id": "wojewodzki_2023_opolskie_q4",
+      "number": 4,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "potęgi i pierwiastki",
+        "wzory skróconego mnożenia"
+      ],
+      "prompt_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><mn>9</mn><mo>+</mo><mn>4</mn><msqrt><mn>5</mn></msqrt></mrow></msqrt><mo>+</mo><msqrt><mrow><mn>9</mn><mo>−</mo><mn>4</mn><msqrt><mn>5</mn></msqrt></mrow></msqrt></math> jest:</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "mniejsza niż wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><msqrt><mn>5</mn></msqrt><mo>+</mo><mn>3</mn><mo>|</mo><mo>−</mo><mo>|</mo><msqrt><mn>5</mn></msqrt><mo>−</mo><mn>3</mn><mo>|</mo></math>."
+        },
+        {
+          "label": "2",
+          "html": "większa niż 4."
+        },
+        {
+          "label": "3",
+          "html": "liczbą niewymierną."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FPP",
+        "solution_html": "<p>Zauważmy, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mo>+</mo><mn>4</mn><msqrt><mn>5</mn></msqrt><mo>=</mo><msup><mrow><mo>(</mo><msqrt><mn>5</mn></msqrt><mo>+</mo><mn>2</mn><mo>)</mo></mrow><mn>2</mn></msup></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mo>−</mo><mn>4</mn><msqrt><mn>5</mn></msqrt><mo>=</mo><msup><mrow><mo>(</mo><msqrt><mn>5</mn></msqrt><mo>−</mo><mn>2</mn><mo>)</mo></mrow><mn>2</mn></msup></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>5</mn></msqrt><mo>&gt;</mo><mn>2</mn></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><mn>9</mn><mo>+</mo><mn>4</mn><msqrt><mn>5</mn></msqrt></mrow></msqrt><mo>+</mo><msqrt><mrow><mn>9</mn><mo>−</mo><mn>4</mn><msqrt><mn>5</mn></msqrt></mrow></msqrt><mo>=</mo><mo>(</mo><msqrt><mn>5</mn></msqrt><mo>+</mo><mn>2</mn><mo>)</mo><mo>+</mo><mo>(</mo><msqrt><mn>5</mn></msqrt><mo>−</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>2</mn><msqrt><mn>5</mn></msqrt></math>.</p><ul><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><msqrt><mn>5</mn></msqrt><mo>+</mo><mn>3</mn><mo>|</mo><mo>−</mo><mo>|</mo><msqrt><mn>5</mn></msqrt><mo>−</mo><mn>3</mn><mo>|</mo><mo>=</mo><mo>(</mo><msqrt><mn>5</mn></msqrt><mo>+</mo><mn>3</mn><mo>)</mo><mo>−</mo><mo>(</mo><mn>3</mn><mo>−</mo><msqrt><mn>5</mn></msqrt><mo>)</mo><mo>=</mo><mn>2</mn><msqrt><mn>5</mn></msqrt></math> — obie wartości są równe, więc pierwsza nie jest od niej mniejsza — <strong>NIE</strong>.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>5</mn></msqrt><mo>=</mo><msqrt><mn>20</mn></msqrt><mo>≈</mo><mn>4,47</mn><mo>&gt;</mo><mn>4</mn></math> — <strong>TAK</strong>.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>5</mn></msqrt></math> jest liczbą niewymierną — <strong>TAK</strong>.</li></ul>"
+      }
+    },
+    {
+      "id": "wojewodzki_2023_opolskie_q5",
+      "number": 5,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "bryły",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Siatka ostrosłupa tworzy kwadrat o boku długości 12 cm.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Długość jednej z wysokości tego ostrosłupa jest równa 12 cm."
+        },
+        {
+          "label": "2",
+          "html": "Objętość ostrosłupa jest równa 72 cm³."
+        },
+        {
+          "label": "3",
+          "html": "Suma długości krawędzi ostrosłupa wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>6</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>12</mn><msqrt><mn>5</mn></msqrt><mo>+</mo><mn>36</mn><mo>)</mo></math> cm."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PPF",
+        "solution_html": "<p>Po złożeniu siatki powstaje ostrosłup o podstawie kwadratowej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>B</mi><mi>C</mi><mi>D</mi></math>, w którym krawędź boczna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mi>A</mi></math> jest prostopadła do podstawy i ma długość 12 cm — jest to zarazem wysokość ostrosłupa, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi><mo>=</mo><mn>12</mn></math> cm.</p><p>Podstawą jest kwadrat o przekątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>C</mi><mo>=</mo><mn>6</mn></math> cm, więc o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mfrac><mn>6</mn><msqrt><mn>2</mn></msqrt></mfrac><mo>=</mo><mn>3</mn><msqrt><mn>2</mn></msqrt></math> cm i polu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>p</mi></msub><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>18</mn></math> cm².</p><ul><li>Jedna z wysokości (krawędź <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mi>A</mi></math>) ma 12 cm — <strong>TAK</strong>.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><msub><mi>P</mi><mi>p</mi></msub><mo>·</mo><mi>H</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mn>18</mn><mo>·</mo><mn>12</mn><mo>=</mo><mn>72</mn></math> cm³ — <strong>TAK</strong>.</li><li>Krawędzie: podstawa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>3</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>12</mn><msqrt><mn>2</mn></msqrt></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mi>A</mi><mo>=</mo><mn>12</mn></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mi>B</mi><mo>=</mo><mi>S</mi><mi>D</mi><mo>=</mo><msqrt><mrow><msup><mn>12</mn><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mn>3</mn><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>162</mn></msqrt><mo>=</mo><mn>9</mn><msqrt><mn>2</mn></msqrt></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mi>C</mi><mo>=</mo><msqrt><mrow><msup><mn>12</mn><mn>2</mn></msup><mo>+</mo><msup><mn>6</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>180</mn></msqrt><mo>=</mo><mn>6</mn><msqrt><mn>5</mn></msqrt></math>. Suma krawędzi wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>+</mo><mn>30</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>6</mn><msqrt><mn>5</mn></msqrt></math> cm, a nie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>12</mn><msqrt><mn>5</mn></msqrt><mo>+</mo><mn>36</mn></math> — <strong>NIE</strong>.</li></ul>"
+      }
+    },
+    {
+      "id": "wojewodzki_2023_opolskie_q6",
+      "number": 6,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "proporcjonalność odwrotna",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Gdyby murarz z pomocnikiem pracowali cały czas razem, wykonaliby pracę w 12 dni. Jeżeli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> pracy murarz wykonuje sam, a resztę z pomocnikiem, to potrzebują 14 dni. Ile dni potrzebowałby murarz na wykonanie pracy, gdyby pracował cały czas sam? Ile czasu potrzebowałby pomocnik na wykonanie tej pracy, gdyby pracował sam?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "murarz 20 dni, pomocnik 30 dni",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math> oznaczają części pracy wykonywane w ciągu jednego dnia odpowiednio przez murarza i pomocnika. Pracując razem wykonują pracę w 12 dni, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi><mo>+</mo><mi>p</mi><mo>=</mo><mfrac><mn>1</mn><mn>12</mn></mfrac></math>.</p><p>W drugim wariancie murarz wykonuje sam <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> pracy, a pozostałe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math> robią razem. Wspólne wykonanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math> pracy zajmuje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>:</mo><mfrac><mn>1</mn><mn>12</mn></mfrac><mo>=</mo><mn>9</mn></math> dni, więc na samodzielne wykonanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> pracy murarz zużył <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>14</mn><mo>−</mo><mn>9</mn><mo>=</mo><mn>5</mn></math> dni. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>:</mo><mn>5</mn><mo>=</mo><mfrac><mn>1</mn><mn>20</mn></mfrac></math>, czyli murarz sam wykonałby pracę w <strong>20 dni</strong>.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>=</mo><mfrac><mn>1</mn><mn>12</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mn>20</mn></mfrac><mo>=</mo><mfrac><mrow><mn>5</mn><mo>−</mo><mn>3</mn></mrow><mn>60</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>30</mn></mfrac></math>, więc pomocnik sam potrzebowałby <strong>30 dni</strong>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2023_opolskie_q7",
+      "number": 7,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "koła / okręgi",
+        "geometria"
+      ],
+      "prompt_html": "<p>Czy w garnku o średnicy 24 cm zmieszczą się 4 słoiki o promieniu 5 cm każdy? Odpowiedź uzasadnij.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Nie zmieszczą się",
+        "solution_html": "<p>Garnek ma średnicę 24 cm, czyli promień <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi><mo>=</mo><mn>12</mn></math> cm. Ustawmy 4 słoiki (koła o promieniu 5 cm) tak, aby ich środki tworzyły kwadrat, a sąsiednie słoiki się stykały — wtedy bok tego kwadratu ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>10</mn></math> cm.</p><p>Środki słoików leżą na okręgu opisanym na tym kwadracie, o promieniu równym połowie przekątnej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mfrac><mrow><mn>10</mn><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><mn>5</mn><msqrt><mn>2</mn></msqrt></math> cm. Aby wszystkie słoiki zmieściły się w garnku, jego promień musiałby być co najmniej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>5</mn><mo>=</mo><mn>5</mn><mo>(</mo><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>1</mn><mo>)</mo><mo>≈</mo><mn>12,07</mn></math> cm.</p><p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12,07</mn><mo>&gt;</mo><mn>12</mn></math>, słoiki <strong>nie zmieszczą się</strong> w garnku.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2023_opolskie_q8",
+      "number": 8,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "podzielność",
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>Udowodnij, że dla każdej liczby naturalnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> co najmniej jedna z liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>n</mi><mn>2</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>n</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></math> jest podzielna przez 4.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Teza jest prawdziwa (dowód)",
+        "solution_html": "<p>Rozważmy dwa przypadki.</p><ul><li>Jeżeli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest parzysta, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>2</mn><mi>k</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>n</mi><mn>2</mn></msup><mo>=</mo><mn>4</mn><msup><mi>k</mi><mn>2</mn></msup></math> — liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>n</mi><mn>2</mn></msup></math> jest podzielna przez 4.</li><li>Jeżeli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest nieparzysta, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>n</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn><mo>=</mo><mo>(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo>)</mo><mo>(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo></math> jest iloczynem dwóch kolejnych liczb parzystych. Spośród dwóch kolejnych liczb parzystych jedna jest podzielna przez 4, więc ten iloczyn dzieli się przez 8, a tym bardziej przez 4.</li></ul><p>W obu przypadkach co najmniej jedna z liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>n</mi><mn>2</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>n</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></math> jest podzielna przez 4, co kończy dowód.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2023_opolskie_q9",
+      "number": 9,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "geometria",
+        "potęgi i pierwiastki",
+        "usuwanie niewymierności z mianownika"
+      ],
+      "prompt_html": "<p>Stosunek pól dwóch kwadratów wynosi 3, długość boku jednego jest o 2 cm dłuższa od długości boku drugiego kwadratu. Oblicz obwód większego kwadratu (wynik przedstaw w postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><msqrt><mi>c</mi></msqrt><mo>)</mo></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> są liczbami naturalnymi).</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "(12 + 4√3) cm",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> będzie bokiem mniejszego kwadratu, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> — bokiem większego. Stosunek pól wynosi 3: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mi>y</mi><mn>2</mn></msup><msup><mi>x</mi><mn>2</mn></msup></mfrac><mo>=</mo><mn>3</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mi>x</mi><msqrt><mn>3</mn></msqrt></math>. Ponadto bok większego jest o 2 cm dłuższy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mi>x</mi><mo>+</mo><mn>2</mn></math>.</p><p>Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><msqrt><mn>3</mn></msqrt><mo>=</mo><mi>x</mi><mo>+</mo><mn>2</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>1</mn><mo>)</mo><mo>=</mo><mn>2</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mfrac><mn>2</mn><mrow><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mrow><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>1</mn><mo>)</mo><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>1</mn><mo>)</mo></mrow></mfrac><mo>=</mo><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>1</mn></math>.</p><p>Bok większego kwadratu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo>=</mo><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>3</mn></math>. Obwód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>y</mi><mo>=</mo><mn>4</mn><mo>(</mo><mn>3</mn><mo>+</mo><msqrt><mn>3</mn></msqrt><mo>)</mo><mo>=</mo><mn>12</mn><mo>+</mo><mn>4</mn><msqrt><mn>3</mn></msqrt></math> cm.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2023_opolskie_q10",
+      "number": 10,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "bryły",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Sześcian rozcięto na trzy jednakowe ostrosłupy czworokątne. Narysuj siatkę i oblicz pole powierzchni całkowitej takiego jednego ostrosłupa. Krawędź sześcianu ma długość 4.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "32 + 16√2",
+        "solution_html": "<p>Sześcian o krawędzi 4 można rozciąć na trzy jednakowe ostrosłupy czworokątne: każdy ma za podstawę jedną ścianę sześcianu (kwadrat o boku 4), a wierzchołek w przeciwległym wierzchołku sześcianu. W takim ostrosłupie jedna krawędź boczna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mi>A</mi></math> jest prostopadła do podstawy i równa krawędzi sześcianu, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mi>A</mi><mo>=</mo><mn>4</mn></math>.</p><p>Ściany ostrosłupa:</p><ul><li>podstawa — kwadrat: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>16</mn></math>;</li><li>dwie ściany będące trójkątami prostokątnymi o przyprostokątnych 4 i 4: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>4</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>16</mn></math>;</li><li>dwie ściany będące trójkątami prostokątnymi o przyprostokątnych 4 i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>4</mn><mn>2</mn></msup><mo>+</mo><msup><mn>4</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>4</mn><msqrt><mn>2</mn></msqrt></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>4</mn><mo>·</mo><mn>4</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>16</mn><msqrt><mn>2</mn></msqrt></math>.</li></ul><p>Pole powierzchni całkowitej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>16</mn><mo>+</mo><mn>16</mn><mo>+</mo><mn>16</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>32</mn><mo>+</mo><mn>16</mn><msqrt><mn>2</mn></msqrt></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2023_opolskie_q11",
+      "number": 11,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "procenty",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>W naczyniu był 3,5% roztwór soli kuchennej. Po odparowaniu 0,5 kg wody otrzymano roztwór 4%. Ile kilogramów roztworu było w naczyniu przed odparowaniem części wody?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "4 kg",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> oznacza masę roztworu (w kg) przed odparowaniem. Masa soli wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,035</mn><mi>m</mi></math> i nie zmienia się przy odparowaniu wody. Po odparowaniu 0,5 kg wody masa roztworu to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi><mo>−</mo><mn>0,5</mn></math>, a jego stężenie 4%:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,035</mn><mi>m</mi><mo>=</mo><mn>0,04</mn><mo>(</mo><mi>m</mi><mo>−</mo><mn>0,5</mn><mo>)</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,035</mn><mi>m</mi><mo>=</mo><mn>0,04</mn><mi>m</mi><mo>−</mo><mn>0,02</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,005</mn><mi>m</mi><mo>=</mo><mn>0,02</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi><mo>=</mo><mn>4</mn></math>. W naczyniu było <strong>4 kg</strong> roztworu.</p>"
+      }
+    }
+  ]
+}

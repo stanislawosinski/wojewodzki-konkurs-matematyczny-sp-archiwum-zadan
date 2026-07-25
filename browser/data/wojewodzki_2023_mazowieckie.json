@@ -1,0 +1,264 @@
+{
+  "source_file": "wojewodzki/2023_mazowieckie.pdf",
+  "answers_file": "wojewodzki/2023_mazowieckie_answers.pdf",
+  "competition": "Konkurs Matematyczny dla uczniów szkół podstawowych województwa mazowieckiego",
+  "school_type": "podstawowa",
+  "stage": "wojewodzki",
+  "wojewodztwo": "mazowieckie",
+  "school_year": "2022/2023",
+  "date": "2023-03-09",
+  "total_questions": 10,
+  "max_points": 20,
+  "questions": [
+    {
+      "id": "wojewodzki_2023_mazowieckie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "true_false",
+      "points": 1,
+      "topics": [
+        "trójkąty"
+      ],
+      "prompt_html": "<p>Najdłuższy bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> ma 4 cm długości, a dwa jego kąty mają miary równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>30</mn><mo>°</mo></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>60</mn><mo>°</mo></mrow></math>. Na boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> zbudowano trójkąt równoboczny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADB</mi></math> tak, że powstał czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADBC</mi></math>.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F, jeśli jest fałszywe.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest dwa razy mniejsze od pola trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADB</mi></math>."
+        },
+        {
+          "label": "2",
+          "html": "Obwód czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADBC</mi></math> jest o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>1</mn><mo>)</mo></mrow></math> większy od obwodu trójkąta równobocznego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADB</mi></math>."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PP",
+        "solution_html": "<p>Suma kątów trójkąta wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>°</mo></mrow></math>, więc trzeci kąt trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>°</mo><mo>−</mo><mn>30</mn><mo>°</mo><mo>−</mo><mn>60</mn><mo>°</mo><mo>=</mo><mn>90</mn><mo>°</mo></mrow></math>. Najdłuższy bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> leży naprzeciw kąta prostego, więc jest przeciwprostokątną. Przyprostokątne mają długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><mi>sin</mi><mn>30</mn><mo>°</mo><mo>=</mo><mn>2</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><mi>sin</mi><mn>60</mn><mo>°</mo><mo>=</mo><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow></math>, a pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>2</mn><mo>·</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow></math>.</p><p>Trójkąt równoboczny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADB</mi></math> o boku 4 ma pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><msup><mn>4</mn><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mn>4</mn><msqrt><mn>3</mn></msqrt></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>4</mn><msqrt><mn>3</mn></msqrt></mrow></math>, pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest dwa razy mniejsze od pola <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADB</mi></math> — zdanie 1 prawdziwe (P).</p><p>Obwód trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADB</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>12</mn></mrow></math>. Obwód czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADBC</mi></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AD</mi><mo>+</mo><mi>DB</mi><mo>+</mo><mi>BC</mi><mo>+</mo><mi>CA</mi><mo>=</mo><mn>4</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>10</mn><mo>+</mo><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow></math>. Różnica obwodów wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>10</mn><mo>+</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>)</mo><mo>−</mo><mn>12</mn><mo>=</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>2</mn><mo>=</mo><mn>2</mn><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>1</mn><mo>)</mo></mrow></math> — zdanie 2 prawdziwe (P). Prawidłowa odpowiedź: P, P.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2023_mazowieckie_q2",
+      "number": 2,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Jeżeli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><msqrt><mroot><mi>x</mi><mn>3</mn></mroot></msqrt></msqrt><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math>, to jaką liczbą jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>? Wybierz wszystkie poprawne odpowiedzi spośród podanych.</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mo>−</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mo>)</mo></mrow><mn>4</mn></msup></math>"
+        },
+        {
+          "label": "B",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>)</mo></mrow><mn>7</mn></msup></math>"
+        },
+        {
+          "label": "C",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mn>16</mn></mfrac><mo>)</mo></mrow><mn>3</mn></msup></math>"
+        },
+        {
+          "label": "D",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mo>−</mo><mfrac><mn>1</mn><msup><mn>4</mn><mn>2</mn></msup></mfrac><mo>)</mo></mrow><mn>3</mn></msup></math>"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A, C",
+        "solution_html": "<p>Zagnieżdżone pierwiastki dają potęgę o wykładniku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>12</mn></mfrac></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mfrac><mn>1</mn><mn>12</mn></mfrac></msup><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>)</mo></mrow><mn>12</mn></msup><mo>=</mo><mfrac><mn>1</mn><mn>4096</mn></mfrac><mo>=</mo><msup><mn>2</mn><mrow><mo>−</mo><mn>12</mn></mrow></msup></mrow></math>. Ponieważ pierwiastki są parzyste, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> musi być dodatnie.</p><p>A: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mo>−</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mo>)</mo></mrow><mn>4</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mo>)</mo></mrow><mn>4</mn></msup><mo>=</mo><mfrac><mn>1</mn><mn>4096</mn></mfrac></mrow></math> — pasuje.</p><p>B: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>)</mo></mrow><mn>7</mn></msup><mo>=</mo><mfrac><mn>1</mn><mn>128</mn></mfrac></mrow></math> — nie pasuje.</p><p>C: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mn>16</mn></mfrac><mo>)</mo></mrow><mn>3</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><msup><mn>2</mn><mrow><mo>−</mo><mn>4</mn></mrow></msup><mo>)</mo></mrow><mn>3</mn></msup><mo>=</mo><msup><mn>2</mn><mrow><mo>−</mo><mn>12</mn></mrow></msup><mo>=</mo><mfrac><mn>1</mn><mn>4096</mn></mfrac></mrow></math> — pasuje.</p><p>D: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mo>−</mo><mfrac><mn>1</mn><mn>16</mn></mfrac><mo>)</mo></mrow><mn>3</mn></msup><mo>=</mo><mo>−</mo><mfrac><mn>1</mn><mn>4096</mn></mfrac></mrow></math> — liczba ujemna, nie pasuje. Prawidłowa odpowiedź: A, C.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2023_mazowieckie_q3",
+      "number": 3,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "trójkąty",
+        "geometria"
+      ],
+      "prompt_html": "<p>Dane są punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>3</mn><mo>,</mo><mn>3</mn><mo>)</mo></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>B</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>3</mn><mo>,</mo><mo>−</mo><mn>5</mn><mo>)</mo></mrow></math>. Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest prostokątny i równoramienny. Czy istnieją więcej niż cztery punkty, w których może znajdować się wierzchołek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>? Wybierz odpowiedź T (tak) albo N (nie) i uzasadnienie A lub B, lub C.</p>",
+      "choices": [
+        {
+          "label": "T",
+          "html": "Tak"
+        },
+        {
+          "label": "N",
+          "html": "Nie"
+        },
+        {
+          "label": "A",
+          "html": "współrzędne wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> mogą wynosić: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>5</mn><mo>,</mo><mn>3</mn><mo>)</mo></mrow></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>5</mn><mo>,</mo><mo>−</mo><mn>5</mn><mo>)</mo></mrow></math>."
+        },
+        {
+          "label": "B",
+          "html": "współrzędne wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> mogą wynosić: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>5</mn><mo>,</mo><mn>3</mn><mo>)</mo></mrow></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mo>−</mo><mn>11</mn><mo>,</mo><mn>3</mn><mo>)</mo></mrow></math>, lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>5</mn><mo>,</mo><mo>−</mo><mn>5</mn><mo>)</mo></mrow></math>, lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mo>−</mo><mn>11</mn><mo>,</mo><mo>−</mo><mn>5</mn><mo>)</mo></mrow></math>."
+        },
+        {
+          "label": "C",
+          "html": "współrzędne wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> mogą wynosić: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>5</mn><mo>,</mo><mn>3</mn><mo>)</mo></mrow></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mo>−</mo><mn>11</mn><mo>,</mo><mn>3</mn><mo>)</mo></mrow></math>, lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>5</mn><mo>,</mo><mo>−</mo><mn>5</mn><mo>)</mo></mrow></math>, lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mo>−</mo><mn>11</mn><mo>,</mo><mo>−</mo><mn>5</mn><mo>)</mo></mrow></math>, lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>1</mn><mo>,</mo><mo>−</mo><mn>1</mn><mo>)</mo></mrow></math>, lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mo>−</mo><mn>7</mn><mo>,</mo><mo>−</mo><mn>1</mn><mo>)</mo></mrow></math>"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "T, C",
+        "solution_html": "<p>Odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> jest pionowy (oba punkty mają odciętą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>3</mn></mrow></math>), a jego długość to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mn>3</mn><mo>−</mo><mo>(</mo><mo>−</mo><mn>5</mn><mo>)</mo><mo>|</mo><mo>=</mo><mn>8</mn></mrow></math>. Kąt prosty trójkąta prostokątnego równoramiennego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> może być przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>, przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> lub przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>.</p><p>Kąt prosty przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> (ramiona <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> równe): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AC</mi></mrow></math> poziomy o długości 8, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>C</mi><mo>=</mo><mo>(</mo><mn>5</mn><mo>,</mo><mn>3</mn><mo>)</mo></mrow></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mo>−</mo><mn>11</mn><mo>,</mo><mn>3</mn><mo>)</mo></mrow></math>.</p><p>Kąt prosty przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>C</mi><mo>=</mo><mo>(</mo><mn>5</mn><mo>,</mo><mo>−</mo><mn>5</mn><mo>)</mo></mrow></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mo>−</mo><mn>11</mn><mo>,</mo><mo>−</mo><mn>5</mn><mo>)</mo></mrow></math>.</p><p>Kąt prosty przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> (przeciwprostokątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> leży na symetralnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> (prosta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mo>−</mo><mn>1</mn></mrow></math>) w odległości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn></mrow></math> od środka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mo>−</mo><mn>3</mn><mo>,</mo><mo>−</mo><mn>1</mn><mo>)</mo></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>C</mi><mo>=</mo><mo>(</mo><mn>1</mn><mo>,</mo><mo>−</mo><mn>1</mn><mo>)</mo></mrow></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mo>−</mo><mn>7</mn><mo>,</mo><mo>−</mo><mn>1</mn><mo>)</mo></mrow></math>.</p><p>Łącznie jest 6 możliwych położeń wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>, czyli więcej niż cztery — odpowiedź T, a pełne wyliczenie to uzasadnienie C. Prawidłowa odpowiedź: T, C.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2023_mazowieckie_q4",
+      "number": 4,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "proporcjonalność odwrotna"
+      ],
+      "prompt_html": "<p>Na wykresie wyrażającym zależność między liczbą pracowników a czasem potrzebnym na wykonanie pewnej pracy zaznaczono niektóre punkty.</p><p>Wybierz poprawną odpowiedź spośród oznaczonych literami A i B oraz C i D.</p><p>Trzech pracowników, pracujących z taką samą wydajnością, wykonają tę pracę w:</p><p>Pracując z taką samą wydajnością w ciągu 1 godz. 15 minut tę pracę wykona:</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "7 godz. 10 minut"
+        },
+        {
+          "label": "B",
+          "html": "6 godz. 40 minut"
+        },
+        {
+          "label": "C",
+          "html": "17 pracowników"
+        },
+        {
+          "label": "D",
+          "html": "16 pracowników"
+        }
+      ],
+      "figures": [
+        "wojewodzki_2023_mazowieckie_q4_fig1.png"
+      ],
+      "answer": {
+        "correct": "B, D",
+        "solution_html": "<p>Liczba pracowników i czas pracy są odwrotnie proporcjonalne — z zaznaczonych punktów iloczyn liczby pracowników i czasu jest stały: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>·</mo><mn>20</mn><mo>=</mo><mn>2</mn><mo>·</mo><mn>10</mn><mo>=</mo><mn>4</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>20</mn></mrow></math> (pracownikogodzin).</p><p>Trzech pracowników wykona pracę w czasie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>20</mn><mn>3</mn></mfrac><mo>=</mo><mn>6</mn><mfrac><mn>2</mn><mn>3</mn></mfrac></mrow></math> godziny, czyli 6 godz. 40 min — odpowiedź B.</p><p>Czas 1 godz. 15 min to 1,25 h; liczba pracowników potrzebnych na wykonanie pracy w tym czasie to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>20</mn><mn>1,25</mn></mfrac><mo>=</mo><mn>16</mn></mrow></math> — odpowiedź D. Prawidłowa odpowiedź: B, D.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2023_mazowieckie_q5",
+      "number": 5,
+      "page": 4,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "koła / okręgi",
+        "potęgi i pierwiastki",
+        "szacowanie (zamiast obliczania)"
+      ],
+      "prompt_html": "<p>Pan Norbert na kwadracie o polu równym 64 dm<sup>2</sup> wykonał projekt numeru pawilonu wulkanizacji opon (patrz rysunek). Brzeg zaprojektowanego numeru 96 jest zbudowany z odcinków i części okręgów. Następnie wyciął z kwadratu ten numer i umieścił go na tle koła, w którym zajmuje on 25% powierzchni. Czy długość promienia tego koła jest większa niż 66 cm? Odpowiedź uzasadnij.</p>",
+      "choices": [],
+      "figures": [
+        "wojewodzki_2023_mazowieckie_q5_fig1.png"
+      ],
+      "answer": {
+        "correct": "Tak — promień koła wynosi 20√11 cm ≈ 66,3 cm, więc jest większy niż 66 cm",
+        "solution_html": "<p>Numer 96 jest zbudowany z części okręgów. Jego pole wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mn>96</mn></msub><mo>=</mo><mn>2</mn><mo>·</mo><mo>[</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>π</mi><mo>·</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>π</mi><mo>·</mo><mn>4</mn><mo>+</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>(</mo><mi>π</mi><mo>·</mo><mn>16</mn><mo>−</mo><mi>π</mi><mo>·</mo><mn>4</mn><mo>)</mo><mo>]</mo><mo>=</mo><mn>11</mn><mi>π</mi></mrow></math> dm<sup>2</sup>.</p><p>Numer zajmuje 25% powierzchni koła, więc pole koła jest cztery razy większe: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>K</mi></msub><mo>=</mo><mn>4</mn><mo>·</mo><mn>11</mn><mi>π</mi><mo>=</mo><mn>44</mn><mi>π</mi></mrow></math> dm<sup>2</sup>. Z równości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>π</mi><msup><mi>r</mi><mn>2</mn></msup><mo>=</mo><mn>44</mn><mi>π</mi></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>r</mi><mn>2</mn></msup><mo>=</mo><mn>44</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>r</mi><mo>=</mo><msqrt><mn>44</mn></msqrt><mo>=</mo><mn>2</mn><msqrt><mn>11</mn></msqrt></mrow></math> dm <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>20</mn><msqrt><mn>11</mn></msqrt></mrow></math> cm.</p><p>Porównujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>20</mn><msqrt><mn>11</mn></msqrt></mrow></math> z 66: nierówność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>20</mn><msqrt><mn>11</mn></msqrt><mo>&gt;</mo><mn>66</mn></mrow></math> jest równoważna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>11</mn></msqrt><mo>&gt;</mo><mn>3,3</mn></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>3,3</mn><mn>2</mn></msup><mo>=</mo><mn>10,89</mn><mo>&lt;</mo><mn>11</mn></mrow></math>, mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>11</mn></msqrt><mo>&gt;</mo><mn>3,3</mn></mrow></math>, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>20</mn><msqrt><mn>11</mn></msqrt><mo>&gt;</mo><mn>66</mn></mrow></math>. Odpowiedź: tak, to koło ma promień większy niż 66 cm.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2023_mazowieckie_q6",
+      "number": 6,
+      "page": 5,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Pani Kasia kupiła sadzonki krzewów, które chce posadzić w równych odstępach wzdłuż jednego boku kwadratowej rabaty. Pierwszy i ostatni krzew postanowiła posadzić w rogach rabaty. Wówczas okazało się, że jeśli posadzi je co 45 cm, to zabraknie trzech sadzonek, a jeśli co 60 cm, to zostaną dwie sadzonki. Oblicz, ile sadzonek kupiła pani Kasia.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "18 sadzonek",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę kupionych sadzonek. Sadząc co 45 cm zabraknie 3 sadzonek, więc do obsadzenia całego boku potrzeba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>3</mn></mrow></math> sadzonek, a długość boku (liczba odstępów razy 45) to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo>−</mo><mn>1</mn><mo>)</mo><mo>·</mo><mn>45</mn><mo>=</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>·</mo><mn>45</mn></mrow></math>. Sadząc co 60 cm zostaną 2 sadzonki, więc użyje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>−</mo><mn>2</mn></mrow></math> sadzonek, a długość boku to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo>−</mo><mn>1</mn><mo>)</mo><mo>·</mo><mn>60</mn><mo>=</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>3</mn><mo>)</mo><mo>·</mo><mn>60</mn></mrow></math>.</p><p>Długość boku jest ta sama, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>·</mo><mn>45</mn><mo>=</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>3</mn><mo>)</mo><mo>·</mo><mn>60</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>45</mn><mi>x</mi><mo>+</mo><mn>90</mn><mo>=</mo><mn>60</mn><mi>x</mi><mo>−</mo><mn>180</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mi>x</mi><mo>=</mo><mn>270</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>18</mn></mrow></math>. Pani Kasia kupiła 18 sadzonek krzewów.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2023_mazowieckie_q7",
+      "number": 7,
+      "page": 6,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "równania z jedną zmienną",
+        "zliczanie / metody zliczania"
+      ],
+      "prompt_html": "<p>Pierwszą cyfrą liczby czterocyfrowej jest 5, zaś po przestawieniu jej na ostatnie miejsce, otrzymamy liczbę stanowiącą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>6</mn></mfrac></math> początkowej liczby. Zapisz wszystkie liczby czterocyfrowe, które można utworzyć z cyfr tych liczb.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "5454, 5544, 5445, 4545, 4455, 4554",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> będzie liczbą trzycyfrową utworzoną z drugiej, trzeciej i czwartej cyfry szukanej liczby. Wówczas szukana liczba to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5000</mn><mo>+</mo><mi>x</mi></mrow></math>, a liczba po przestawieniu 5 na koniec to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mi>x</mi><mo>+</mo><mn>5</mn></mrow></math>.</p><p>Z warunku zadania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>5</mn><mn>6</mn></mfrac><mo>(</mo><mn>5000</mn><mo>+</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>10</mn><mi>x</mi><mo>+</mo><mn>5</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>(</mo><mn>5000</mn><mo>+</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>60</mn><mi>x</mi><mo>+</mo><mn>30</mn></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>25000</mn><mo>+</mo><mn>5</mn><mi>x</mi><mo>=</mo><mn>60</mn><mi>x</mi><mo>+</mo><mn>30</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>24970</mn><mo>=</mo><mn>55</mn><mi>x</mi></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>454</mn></mrow></math>. Szukana liczba to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5000</mn><mo>+</mo><mn>454</mn><mo>=</mo><mn>5454</mn></mrow></math>.</p><p>Z cyfr tych liczb (dwie piątki i dwie czwórki) można utworzyć <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>4</mn><mo>!</mo></mrow><mrow><mn>2</mn><mo>!</mo><mo>·</mo><mn>2</mn><mo>!</mo></mrow></mfrac><mo>=</mo><mn>6</mn></mrow></math> różnych liczb czterocyfrowych: 5454, 5544, 5445, 4545, 4455, 4554.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2023_mazowieckie_q8",
+      "number": 8,
+      "page": 7,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "bryły",
+        "geometria"
+      ],
+      "prompt_html": "<p>Na rysunkach 1. i 2. są przystające pięciokąty foremne. Uzupełnij te rysunki tak, aby otrzymać dwie siatki różnych czworościanów.</p>",
+      "choices": [],
+      "figures": [
+        "wojewodzki_2023_mazowieckie_q8_fig1.png",
+        "wojewodzki_2023_mazowieckie_q8_fig2.png"
+      ],
+      "answer": {
+        "correct": "Dwie różne siatki czworościanu — pięciokąt należy podzielić dorysowanymi odcinkami na cztery trójkąty tworzące siatkę (dwa różne podziały dają dwa różne czworościany)",
+        "solution_html": "<p>Kąt wewnętrzny pięciokąta foremnego ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>=</mo><mn>108</mn><mo>°</mo></mrow></math>. Dorysowując w pięciokącie odpowiednie odcinki łączące jego wierzchołki, dzielimy go na cztery trójkąty, które po sklejeniu tworzą czworościan. Złożenie jest możliwe, ponieważ w wierzchołku bryły schodzą się trzy kąty o sumie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>α</mi><mo>=</mo><mn>3</mn><mo>·</mo><mn>108</mn><mo>°</mo><mo>=</mo><mn>324</mn><mo>°</mo><mo>&lt;</mo><mn>360</mn><mo>°</mo></mrow></math>.</p><p>Można to zrobić na dwa różne sposoby (np. dzieląc pięciokąt jedną przekątną i dwoma odcinkami wychodzącymi z jej końców, jak na Rys. 1a, albo trzema odcinkami wychodzącymi z jednego wierzchołka, jak na Rys. 2a), otrzymując siatki dwóch różnych czworościanów. Wystarczy narysować dwie poprawne, różne siatki czworościanów.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2023_mazowieckie_q9",
+      "number": 9,
+      "page": 8,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "równania z jedną zmienną",
+        "nierówności"
+      ],
+      "prompt_html": "<p>Bartek miał w skarbonce kwotę większą od 232 zł, ale mniejszą od 245 zł w dwuzłotówkach i pięciozłotówkach. Na prezent imieninowy dla brata wydał pewną kwotę. Wtedy okazało się, że ma w skarbonce tyle dwuzłotówek, ile przedtem miał pięciozłotówek oraz tyle pięciozłotówek, ile przedtem miał dwuzłotówek, a obecna kwota w skarbonce do kwoty początkowej jest w stosunku 3 : 4. Oblicz, ile złotych kosztował prezent dla brata Bartka.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "60 zł",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę dwuzłotówek, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> — liczbę pięciozłotówek. Kwota początkowa to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>5</mn><mi>y</mi></mrow></math>, przy czym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>232</mn><mo>&lt;</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>5</mn><mi>y</mi><mo>&lt;</mo><mn>245</mn></mrow></math>. Po zamianie liczby monet Bartek ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> dwuzłotówek i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> pięciozłotówek, więc obecna kwota to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mi>x</mi><mo>+</mo><mn>2</mn><mi>y</mi></mrow></math>.</p><p>Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>5</mn><mi>x</mi><mo>+</mo><mn>2</mn><mi>y</mi></mrow><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>5</mn><mi>y</mi></mrow></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>4</mn></mfrac></mrow></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>(</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>2</mn><mi>y</mi><mo>)</mo><mo>=</mo><mn>3</mn><mo>(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>5</mn><mi>y</mi><mo>)</mo></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>20</mn><mi>x</mi><mo>+</mo><mn>8</mn><mi>y</mi><mo>=</mo><mn>6</mn><mi>x</mi><mo>+</mo><mn>15</mn><mi>y</mi></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>14</mn><mi>x</mi><mo>=</mo><mn>7</mn><mi>y</mi></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>2</mn><mi>x</mi></mrow></math>.</p><p>Wtedy kwota początkowa to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>5</mn><mo>·</mo><mn>2</mn><mi>x</mi><mo>=</mo><mn>12</mn><mi>x</mi></mrow></math>. Z nierówności <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>232</mn><mo>&lt;</mo><mn>12</mn><mi>x</mi><mo>&lt;</mo><mn>245</mn></mrow></math> oraz całkowitości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>19,3</mn><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mn>20,42</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>20</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>40</mn></mrow></math>. Kwota początkowa to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>12</mn><mo>·</mo><mn>20</mn><mo>=</mo><mn>240</mn></mrow></math> zł, obecna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>·</mo><mn>240</mn><mo>=</mo><mn>180</mn></mrow></math> zł. Prezent kosztował <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>240</mn><mo>−</mo><mn>180</mn><mo>=</mo><mn>60</mn></mrow></math> zł.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2023_mazowieckie_q10",
+      "number": 10,
+      "page": 9,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "geometria",
+        "trójkąty"
+      ],
+      "prompt_html": "<p>W trapezie prostokątnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> narysowano odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CE</mi></math> równoległy do odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math>, a następnie odcinki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ED</mi></math> przecinające się w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math>, jak na rysunku. Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCE</mi></math> jest równe 3 i stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math> pola trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ECO</mi></math>. Oblicz pole trapezu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>.</p>",
+      "choices": [],
+      "figures": [
+        "wojewodzki_2023_mazowieckie_q10_fig1.png"
+      ],
+      "answer": {
+        "correct": "21",
+        "solution_html": "<p>Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><msub><mi>P</mi><mi>BCE</mi></msub><msub><mi>P</mi><mi>ECO</mi></msub></mfrac><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>BCE</mi></msub><mo>=</mo><mn>3</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>3</mn><msub><mi>P</mi><mi>ECO</mi></msub></mfrac><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>ECO</mi></msub><mo>=</mo><mn>4,5</mn></mrow></math>.</p><p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>CE</mi><mo>∥</mo><mi>AD</mi></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>DC</mi><mo>∥</mo><mi>AE</mi></mrow></math> (bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>DC</mi><mo>∥</mo><mi>AB</mi></mrow></math>), czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AECD</mi></math> jest równoległobokiem. Jego przekątne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ED</mi></math> przecinają się w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math> i dzielą go na cztery trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AEO</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EOC</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>COD</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DOA</mi></math> o równych polach (każdy ma pole równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> pola równoległoboku). Zatem pole równoległoboku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AECD</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><msub><mi>P</mi><mi>ECO</mi></msub><mo>=</mo><mn>4</mn><mo>·</mo><mn>4,5</mn><mo>=</mo><mn>18</mn></mrow></math>.</p><p>Trapez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> składa się z równoległoboku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AECD</mi></math> oraz trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCE</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>ABCD</mi></msub><mo>=</mo><mn>4</mn><mo>·</mo><msub><mi>P</mi><mi>ECO</mi></msub><mo>+</mo><msub><mi>P</mi><mi>BCE</mi></msub><mo>=</mo><mn>18</mn><mo>+</mo><mn>3</mn><mo>=</mo><mn>21</mn></mrow></math>.</p>"
+      }
+    }
+  ]
+}

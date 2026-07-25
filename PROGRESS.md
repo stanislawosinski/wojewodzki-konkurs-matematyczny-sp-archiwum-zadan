@@ -204,7 +204,22 @@ the know-how that used to live only in the chat; everything needed to resume is 
        192 cm²); key row looks mismatched. Stored the correct 192; verify in blind pass.
     3. `rejonowy_2014_podkarpackie_q16` — arkusz omitted square labels; everyone got 1 pt but key
        still lists B. Kept correct=B + italic note (not an annulment).
-- **wojewodzki: 110 / 160** processed (batches 1–6 done 2026-07-25).
+- **wojewodzki: 125 / 160** processed (batches 1–7 done 2026-07-25).
+  - **Batch 7 (15):** 2023_dolnoslaskie/kujawsko-pomorskie/lodzkie/lubelskie (embedded key)/lubuskie/
+    mazowieckie/opolskie/podkarpackie/podlaskie, 2023-2024_{swietokrzyskie, warminsko-mazurskie,
+    wielkopolskie, zachodniopomorskie}, 2024-2025_{malopolskie, pomorskie (bundled)}. All keyed +
+    self-verified.
+  - **No keyless this batch:** 2023_lubelskie embeds its key (answers_file = the question pdf);
+    łódzkie 2023 keyed. Every closed answer independently re-derived.
+  - **podkarpackie wojewódzki reformatted from 2023:** now 9 all-open tasks (6 short + 3 full, 24 pts),
+    replacing the older 10-closed + open @40-pts layout. mazowieckie 2023 combined-choice q2 "A, C" /
+    q3 "T, C" / q4 "B, D". 2023_kujawsko-pomorskie answers-pdf header says "rejonowy" (copy-paste
+    error) — kept wojewodzki per the question paper.
+  - **New suspected key-error flag:** wojewodzki_2023-2024_swietokrzyskie_q11 — key marks stmt 2
+    (parallelogram perimeter 2√5+2√10) PRAWDA, but true perimeter is 4√5+4√10; stored official FPP,
+    logged in suspected_key_errors.tsv.
+  - **Point-misprint reconciled (not annulled):** 2023-2024_zachodniopomorskie q18 answer-card said
+    4 pts but paper/rubric say 3 → used 3 (test total stays 36). q16 alternate "15 lub 24".
   - **Batch 6 (10):** 2022_lodzkie (keyed)/lubelskie (embedded key)/lubuskie/mazowieckie/opolskie/
     podkarpackie/podlaskie, 2023-2024_{malopolskie, pomorskie (bundled), slaskie}. All keyed + self-verified.
   - **łódzkie now keyed from 2022:** 2022_lodzkie has a separate answers pdf (80-pt scale, A–E); the
