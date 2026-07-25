@@ -204,7 +204,24 @@ the know-how that used to live only in the chat; everything needed to resume is 
        192 cm²); key row looks mismatched. Stored the correct 192; verify in blind pass.
     3. `rejonowy_2014_podkarpackie_q16` — arkusz omitted square labels; everyone got 1 pt but key
        still lists B. Kept correct=B + italic note (not an annulment).
-- **wojewodzki: 80 / 160** processed (batches 1–4 done 2026-07-25).
+- **wojewodzki: 100 / 160** processed (batches 1–5 done 2026-07-25).
+  - **Batch 5 (20):** 2021_dolnoslaskie/lodzkie (keyless)/lubelskie (embedded key)/lubuskie/mazowieckie/
+    opolskie/podkarpackie/podlaskie, 2021-2022_{swietokrzyskie, warminsko-mazurskie, wielkopolskie,
+    zachodniopomorskie}, 2022_dolnoslaskie, 2022-2023_{malopolskie, pomorskie (bundled), slaskie,
+    swietokrzyskie, warminsko-mazurskie, wielkopolskie, zachodniopomorskie}. All keyed + self-verified
+    except 2021_lodzkie (keyless).
+  - **Keyless this batch:** 2021_lodzkie (docx, 100-pt scale, A–E, no embedded key → answers_file null).
+    2021_lubelskie carries an EMBEDDED key (answers_file = the question pdf; lubelskie convention).
+    2021_opolskie now has a SEPARATE answers pdf (unlike 2019/2020 opolskie which embed).
+  - **Two more dolnoslaskie wojewódzki** ("zDolny Ślązak" III etap, 6 all-open, 30 pts): 2021 (Mar 2021)
+    + 2022 (Mar 2022). mazowieckie 2021 combined-choice q3 "N, A" + q4 "A, C". malopolskie 2022-2023
+    q10 alternate-answer "C lub D".
+  - **Self-derived true_false (key omits P/F verdicts, deterministic, reasoning shown):**
+    wojewodzki_2022-2023_wielkopolskie q16–q18 (closed answers came from the key; only the 3 T-F were
+    computed). Flag for blind-pass awareness — not invented answers (test is keyed).
+  - **mazowieckie 2021 q7 printed-graph error:** official key notes the pedestrian's speed was hidden
+    by a print error, so only the first part (6 km) was graded; kept full points + valid partial answer,
+    NOT annulled (documented in solution_html).
   - **Batch 4 (20):** 2019_opolskie (embedded key)/podkarpackie/podlaskie, 2020_dolnoslaskie (first
     dolnoslaskie at this stage)/kujawsko-pomorskie/lodzkie (keyless)/mazowieckie/opolskie (embedded
     key)/podkarpackie (keyless)/podlaskie, 2020-2021_{malopolskie, pomorskie (bundled), slaskie,

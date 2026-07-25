@@ -1,0 +1,268 @@
+{
+  "source_file": "wojewodzki/2021_mazowieckie.pdf",
+  "answers_file": "wojewodzki/2021_mazowieckie_answers.pdf",
+  "competition": "Konkurs Matematyczny dla uczniów szkół podstawowych województwa mazowieckiego",
+  "school_type": "podstawowa",
+  "stage": "wojewodzki",
+  "wojewodztwo": "mazowieckie",
+  "school_year": "2020/2021",
+  "date": "2021-02-04",
+  "total_questions": 10,
+  "max_points": 20,
+  "questions": [
+    {
+      "id": "wojewodzki_2021_mazowieckie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "true_false",
+      "points": 1,
+      "topics": [
+        "podzielność",
+        "zagadki logiczne"
+      ],
+      "prompt_html": "<p>Iloczyn trzech różnych liczb naturalnych jest równy 176, a ich suma wynosi 21.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe albo F, jeśli jest fałszywe.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Największą z tych liczb jest 11."
+        },
+        {
+          "label": "2",
+          "html": "Jedna z tych liczb jest różnicą największej i najmniejszej liczby."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PF",
+        "solution_html": "<p>Rozkładamy 176 na czynniki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>176</mn><mo>=</mo><msup><mn>2</mn><mn>4</mn></msup><mo>·</mo><mn>11</mn></mrow></math>. Trzy różne liczby naturalne o iloczynie 176 i sumie 21 to 2, 8 i 11, bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>8</mn><mo>·</mo><mn>11</mn><mo>=</mo><mn>176</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>+</mo><mn>8</mn><mo>+</mo><mn>11</mn><mo>=</mo><mn>21</mn></mrow></math>; jest to jedyny taki zestaw. Największą z nich jest 11 — zdanie 1 jest prawdziwe (P). Różnica największej i najmniejszej liczby wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>11</mn><mo>−</mo><mn>2</mn><mo>=</mo><mn>9</mn></mrow></math>, a 9 nie jest żadną z liczb 2, 8, 11 — zdanie 2 jest fałszywe (F).</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2021_mazowieckie_q2",
+      "number": 2,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "sześciokąty foremne",
+        "geometria"
+      ],
+      "prompt_html": "<p>Długość boku sześciokąta foremnego na rysunku wynosi 8.</p><p>Jakie współrzędne ma punkt symetryczny do punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>W</mi></math> względem osi symetrii tego sześciokąta równoległej do osi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>? Wybierz poprawną odpowiedź spośród podanych.</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>12</mn><mo>,</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow></math>"
+        },
+        {
+          "label": "B",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>14</mn><mo>,</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow></math>"
+        },
+        {
+          "label": "C",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>8</mn><msqrt><mn>3</mn></msqrt><mo>,</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow></math>"
+        },
+        {
+          "label": "D",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>14</mn><mo>,</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow></math>"
+        }
+      ],
+      "figures": [
+        "wojewodzki_2021_mazowieckie_q2_fig1.png"
+      ],
+      "answer": {
+        "correct": "D",
+        "solution_html": "<p>Sześciokąt foremny o boku 8 ma oś symetrii równoległą do osi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> przechodzącą przez jego środek. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>W</mi></math> jest lewym wierzchołkiem sześciokąta, a jego obrazem w symetrii względem tej osi jest prawy wierzchołek o tej samej rzędnej. Odległość między lewym i prawym wierzchołkiem wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>8</mn><mo>=</mo><mn>16</mn></mrow></math>. Rzędna wierzchołków położonych w połowie wysokości równa jest apotemie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>·</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac><mo>=</mo><mn>4</mn><msqrt><mn>3</mn></msqrt></mrow></math>. Odczytując z rysunku, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>W</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>,</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow></math>, obraz otrzymujemy przesuwając rzędną o 16 w prawo: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>14</mn><mo>,</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow></math>. Prawidłowa odpowiedź: D.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2021_mazowieckie_q3",
+      "number": 3,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "prawdopodobieństwo"
+      ],
+      "prompt_html": "<p>Na talerzu jest 8 pączków, w tym 5 z nadzieniem czekoladowym. Kamil wybrał jeden pączek, a po chwili jeszcze jeden. Czy prawdopodobieństwo zdarzenia, że Kamil wybrał oba pączki z nadzieniem czekoladowym jest większe od 0,5?</p><p>Wybierz odpowiedź T (tak) albo N (nie) i uzasadnienie A lub B lub C.</p>",
+      "choices": [
+        {
+          "label": "T",
+          "html": "Tak"
+        },
+        {
+          "label": "N",
+          "html": "Nie"
+        },
+        {
+          "label": "A",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>p</mi><mo>=</mo><mfrac><mn>5</mn><mn>8</mn></mfrac><mo>·</mo><mfrac><mn>4</mn><mn>7</mn></mfrac><mo>=</mo><mfrac><mn>20</mn><mn>56</mn></mfrac><mo>&lt;</mo><mn>0,5</mn></mrow></math>"
+        },
+        {
+          "label": "B",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>p</mi><mo>=</mo><mfrac><mn>5</mn><mn>8</mn></mfrac><mo>&gt;</mo><mn>0,5</mn></mrow></math>"
+        },
+        {
+          "label": "C",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>p</mi><mo>=</mo><mfrac><mn>5</mn><mn>8</mn></mfrac><mo>·</mo><mfrac><mn>3</mn><mn>8</mn></mfrac><mo>=</mo><mfrac><mn>15</mn><mn>64</mn></mfrac><mo>&lt;</mo><mn>0,5</mn></mrow></math>"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "N, A",
+        "solution_html": "<p>Prawdopodobieństwo, że oba wybrane pączki mają nadzienie czekoladowe, jest iloczynem prawdopodobieństw kolejnych wyborów bez zwracania. Przy pierwszym losowaniu wynosi ono <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>8</mn></mfrac></math>, a przy drugim (z pozostałych 7 pączków, w tym 4 czekoladowych) — <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>7</mn></mfrac></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>p</mi><mo>=</mo><mfrac><mn>5</mn><mn>8</mn></mfrac><mo>·</mo><mfrac><mn>4</mn><mn>7</mn></mfrac><mo>=</mo><mfrac><mn>20</mn><mn>56</mn></mfrac><mo>≈</mo><mn>0,36</mn></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>20</mn><mn>56</mn></mfrac><mo>&lt;</mo><mn>0,5</mn></mrow></math>, odpowiedź brzmi N (nie), a poprawnym uzasadnieniem jest A. Prawidłowa odpowiedź: N, A.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2021_mazowieckie_q4",
+      "number": 4,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "koła / okręgi"
+      ],
+      "prompt_html": "<p>Gosia wykonała „pawie oczko” z kolorowych kółek, sklejając je według szablonu przedstawionego na rysunku. Promień kolejnego kółka jest dwukrotnie mniejszy od poprzedniego.</p><p>Uzupełnij poniższe zdania. Wybierz odpowiedź spośród oznaczonych literami A i B oraz odpowiedź spośród oznaczonych literami C i D.</p><p>Obwód kółka „5” jest ⬚ razy mniejszy niż obwód kółka „3”.</p><p>Pole kółka „1” jest ⬚ razy większe od pola kółka „4”.</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "4"
+        },
+        {
+          "label": "B",
+          "html": "6"
+        },
+        {
+          "label": "C",
+          "html": "64"
+        },
+        {
+          "label": "D",
+          "html": "16"
+        }
+      ],
+      "figures": [
+        "wojewodzki_2021_mazowieckie_q4_fig1.png"
+      ],
+      "answer": {
+        "correct": "A, C",
+        "solution_html": "<p>Promienie kolejnych kółek maleją dwukrotnie, więc jeśli kółko „1” ma promień <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math>, to kółko o numerze <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> ma promień <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>r</mi><msup><mn>2</mn><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></msup></mfrac></math>. Obwód jest wprost proporcjonalny do promienia, a promień kółka „3” to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>r</mi><mn>4</mn></mfrac></math>, kółka „5” zaś <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>r</mi><mn>16</mn></mfrac></math>, więc obwód kółka „5” jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>16</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>4</mn></mrow></math> razy mniejszy — odpowiedź A. Pole jest proporcjonalne do kwadratu promienia; pole kółka „1” to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>π</mi><msup><mi>r</mi><mn>2</mn></msup></mrow></math>, a kółka „4” to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>π</mi><msup><mrow><mo>(</mo><mfrac><mi>r</mi><mn>8</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mfrac><mrow><mi>π</mi><msup><mi>r</mi><mn>2</mn></msup></mrow><mn>64</mn></mfrac></mrow></math>, więc pole kółka „1” jest 64 razy większe — odpowiedź C. Prawidłowa odpowiedź: A, C.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2021_mazowieckie_q5",
+      "number": 5,
+      "page": 3,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "nierówności",
+        "wzory skróconego mnożenia",
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>Uzasadnij, że dokładnie 8 liczb pierwszych spełnia nierówność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><mo>(</mo><mi>x</mi><mo>−</mo><msqrt><mn>7</mn></msqrt><mo>)</mo><mo>(</mo><msqrt><mn>7</mn></msqrt><mo>+</mo><mi>x</mi><mo>)</mo><mo>≥</mo><mo>(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>10</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>5</mn><mo>)</mo></mrow></math>.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Nierówność spełniają liczby x ≤ 22, więc dokładnie 8 liczb pierwszych: 2, 3, 5, 7, 11, 13, 17, 19",
+        "solution_html": "<p>Przekształcamy nierówność, korzystając ze wzorów skróconego mnożenia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>x</mi><mo>−</mo><msqrt><mn>7</mn></msqrt><mo>)</mo><mo>(</mo><mi>x</mi><mo>+</mo><msqrt><mn>7</mn></msqrt><mo>)</mo><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>7</mn></mrow></math>. Lewa strona jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>7</mn><mo>=</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>6</mn></mrow></math>, a prawa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>10</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>5</mn><mo>)</mo><mo>=</mo><mn>2</mn><mo>(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>25</mn><mo>)</mo><mo>=</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>50</mn></mrow></math>. Nierówność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>6</mn><mo>≥</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>50</mn></mrow></math> upraszcza się do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>2</mn><mi>x</mi><mo>≥</mo><mo>−</mo><mn>44</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>≤</mo><mn>22</mn></mrow></math>. Liczby pierwsze nie większe od 22 to 2, 3, 5, 7, 11, 13, 17, 19 — jest ich dokładnie 8.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2021_mazowieckie_q6",
+      "number": 6,
+      "page": 4,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "potęgi i pierwiastki",
+        "nierówności",
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>Uzasadnij, że jeśli wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mrow><mo>−</mo><mn>1</mn></mrow></msup><mo>+</mo><msup><mrow><mo>(</mo><msqrt><mi>a</mi></msqrt><mo>)</mo></mrow><mrow><mo>−</mo><mn>1</mn></mrow></msup><mo>−</mo><msup><mrow><mo>(</mo><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>)</mo></mrow><mrow><mo>−</mo><mn>1</mn></mrow></msup></mrow></math> jest liczbą ujemną, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>&lt;</mo><mn>1</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>&gt;</mo><mn>0</mn></mrow></math>.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Teza udowodniona: wyrażenie równa się (√a − 1)/a; ponieważ a > 0, ujemna wartość wymaga √a − 1 < 0, czyli a < 1",
+        "solution_html": "<p>Przekształcamy wyrażenie, stosując definicję potęgi o wykładniku ujemnym: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mrow><mo>−</mo><mn>1</mn></mrow></msup><mo>+</mo><msup><mrow><mo>(</mo><msqrt><mi>a</mi></msqrt><mo>)</mo></mrow><mrow><mo>−</mo><mn>1</mn></mrow></msup><mo>−</mo><msup><mrow><mo>(</mo><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>)</mo></mrow><mrow><mo>−</mo><mn>1</mn></mrow></msup><mo>=</mo><mfrac><mn>1</mn><mi>a</mi></mfrac><mo>+</mo><mfrac><mn>1</mn><msqrt><mi>a</mi></msqrt></mfrac><mo>−</mo><mfrac><mn>2</mn><mi>a</mi></mfrac><mo>=</mo><mfrac><mn>1</mn><msqrt><mi>a</mi></msqrt></mfrac><mo>−</mo><mfrac><mn>1</mn><mi>a</mi></mfrac><mo>=</mo><mfrac><mrow><msqrt><mi>a</mi></msqrt><mo>−</mo><mn>1</mn></mrow><mi>a</mi></mfrac></mrow></math>. Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> występuje pod pierwiastkiem i w mianowniku, więc musi być dodatnia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>&gt;</mo><mn>0</mn></mrow></math>. Aby ułamek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msqrt><mi>a</mi></msqrt><mo>−</mo><mn>1</mn></mrow><mi>a</mi></mfrac></math> przy dodatnim mianowniku był ujemny, licznik musi być ujemny: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mi>a</mi></msqrt><mo>−</mo><mn>1</mn><mo>&lt;</mo><mn>0</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mi>a</mi></msqrt><mo>&lt;</mo><mn>1</mn></mrow></math>, a stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>&lt;</mo><mn>1</mn></mrow></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>&lt;</mo><mn>1</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>&gt;</mo><mn>0</mn></mrow></math>, co należało wykazać.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2021_mazowieckie_q7",
+      "number": 7,
+      "page": 5,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "proporcjonalność odwrotna",
+        "prędkość / droga / czas"
+      ],
+      "prompt_html": "<p>Pan Stanisław dba o swoją kondycję fizyczną, więc codziennie pieszo pokonuje drogę z domu do pracy i z powrotem. Na wykresie przedstawiono zależność między prędkością a czasem podczas przemieszczania się pana Stanisława w jedną stronę. Oblicz długość drogi z domu do pracy oraz czas w minutach na pokonanie tej drogi rowerem z prędkością 4 razy większą.</p>",
+      "choices": [],
+      "figures": [
+        "wojewodzki_2021_mazowieckie_q7_fig1.png"
+      ],
+      "answer": {
+        "correct": "Długość drogi z domu do pracy: 6 km",
+        "solution_html": "<p>Prędkość i czas są odwrotnie proporcjonalne, ponieważ droga <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>S</mi><mo>=</mo><mi>v</mi><mo>·</mo><mi>t</mi></mrow></math> jest stała. Odczytując z wykresu dowolny punkt, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>v</mi><mo>=</mo><mn>3</mn></mrow></math> km/h i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>t</mi><mo>=</mo><mn>2</mn></mrow></math> h, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>S</mi><mo>=</mo><mi>v</mi><mo>·</mo><mi>t</mi><mo>=</mo><mn>3</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>6</mn></mrow></math> km. Długość drogi z domu do pracy wynosi 6 km.</p><p>Uwaga: z powodu błędu technicznego wydruku (ukrycie na wykresie średniej prędkości pieszego) Wojewódzka Komisja Konkursowa dostosowała schemat punktowania do pierwszej części pytania — obliczenia długości drogi. Druga część (czas jazdy rowerem) nie była oceniana.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2021_mazowieckie_q8",
+      "number": 8,
+      "page": 6,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "bryły",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Dany jest sześcian <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDEFGH</mi></math> o krawędzi 5. Przyjmij za jednostkę długość boku kratki i narysuj siatkę ostrosłupa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDE</mi></math>. Oblicz pole powierzchni bocznej ostrosłupa i przedstaw je w postaci iloczynu.</p>",
+      "choices": [],
+      "figures": [
+        "wojewodzki_2021_mazowieckie_q8_fig1.png"
+      ],
+      "answer": {
+        "correct": "25(1 + √2)",
+        "solution_html": "<p>Podstawą ostrosłupa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDE</mi></math> jest kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> o boku 5, a wierzchołek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> leży nad wierzchołkiem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> — krawędź <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AE</mi><mo>=</mo><mn>5</mn></mrow></math> jest prostopadła do podstawy. Wszystkie ściany boczne są trójkątami prostokątnymi. Ściany <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABE</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADE</mi></math> mają przyprostokątne o długościach 5 i 5, więc ich pola wynoszą po <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>25</mn><mn>2</mn></mfrac></math>. Ściany <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCE</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DCE</mi></math> mają przyprostokątne 5 i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><msqrt><mn>2</mn></msqrt></mrow></math> (bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>BE</mi><mo>=</mo><mi>DE</mi><mo>=</mo><mn>5</mn><msqrt><mn>2</mn></msqrt></mrow></math>), więc ich pola wynoszą po <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>25</mn><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac></math>. Pole powierzchni bocznej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>b</mi></msub><mo>=</mo><mn>2</mn><mo>·</mo><mfrac><mn>25</mn><mn>2</mn></mfrac><mo>+</mo><mn>2</mn><mo>·</mo><mfrac><mrow><mn>25</mn><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><mn>25</mn><mo>+</mo><mn>25</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>25</mn><mo>(</mo><mn>1</mn><mo>+</mo><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2021_mazowieckie_q9",
+      "number": 9,
+      "page": 7,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "kombinatoryka",
+        "zliczanie / metody zliczania"
+      ],
+      "prompt_html": "<p>Julka zapisuje liczby sześciocyfrowe, które można utworzyć przy użyciu wszystkich spośród cyfr 3, 4 i 5 tak, aby każde dwie sąsiednie cyfry w ich zapisach były liczbami różniącymi się o jeden. Oblicz, ile najwięcej różnych liczb spełniających te warunki może zapisać Julka.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "12",
+        "solution_html": "<p>Sąsiednie cyfry mają się różnić o 1, więc dozwolone są tylko sąsiedztwa 3–4 oraz 4–5 (cyfry 3 i 5 różnią się o 2, więc nie mogą stać obok siebie). Zliczamy sześciocyfrowe ciągi, w których każde dwie sąsiednie cyfry różnią się o 1, według pierwszej cyfry: zaczynające się od 3 dają <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>·</mo><mn>1</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>1</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>1</mn><mo>=</mo><mn>4</mn></mrow></math>, od 4 dają <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>1</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>1</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>8</mn></mrow></math>, a od 5 dają <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>·</mo><mn>1</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>1</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>1</mn><mo>=</mo><mn>4</mn></mrow></math>, łącznie 16 liczb. Julka używa jednak wszystkich trzech cyfr, więc odrzucamy liczby zapisane tylko dwiema cyframi: 343434 (bez 5), 434343 i 454545 oraz 545454 (bez 3) — cztery liczby. Zostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>+</mo><mn>8</mn><mo>+</mo><mn>4</mn><mo>−</mo><mn>4</mn><mo>=</mo><mn>12</mn></mrow></math>. Julka może zapisać najwięcej 12 różnych liczb.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2021_mazowieckie_q10",
+      "number": 10,
+      "page": 8,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "geometria",
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>Z równoległoboku wycięto romb tak, jak na rysunku. Narysuj prostą przechodzącą przez środki symetrii równoległoboku i rombu, a następnie uzasadnij, że ta prosta dzieli otrzymaną figurę na dwie figury o równych polach.</p>",
+      "choices": [],
+      "figures": [
+        "wojewodzki_2021_mazowieckie_q10_fig1.png"
+      ],
+      "answer": {
+        "correct": "Prosta dzieli otrzymaną figurę na dwie części o równych polach (teza udowodniona)",
+        "solution_html": "<p>Prosta przechodząca przez środek symetrii dowolnego równoległoboku dzieli go na dwie przystające części o równych polach. Poprowadźmy prostą przez środek symetrii <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> równoległoboku i środek symetrii wyciętego rombu (punkt przecięcia jego przekątnych). Ta prosta dzieli równoległobok na dwie części o równych polach; jednocześnie, przechodząc przez środek rombu, dzieli wycięty romb na dwie części o równych polach (bo romb również jest równoległobokiem). Skoro z każdej z dwóch równych połówek równoległoboku usunięto równe połówki rombu, to otrzymana figura — równoległobok z wyciętym rombem — także jest podzielona przez tę prostą na dwie części o równych polach, co należało wykazać.</p>"
+      }
+    }
+  ]
+}

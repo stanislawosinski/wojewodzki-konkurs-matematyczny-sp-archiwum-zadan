@@ -1,0 +1,164 @@
+{
+  "source_file": "wojewodzki/2022-2023_pomorskie.pdf",
+  "answers_file": "wojewodzki/2022-2023_pomorskie_answers.pdf",
+  "competition": "Wojewódzki Konkurs Matematyczny dla uczniów klas IV – VIII szkół podstawowych województwa pomorskiego",
+  "school_type": "podstawowa",
+  "stage": "wojewodzki",
+  "wojewodztwo": "pomorskie",
+  "school_year": "2022/2023",
+  "date": null,
+  "total_questions": 8,
+  "max_points": 20,
+  "questions": [
+    {
+      "id": "wojewodzki_2022-2023_pomorskie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "podzielność",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Uczestnikami balu ósmoklasisty byli chłopcy i dziewczęta, uczniowie klas ósmych pewnej szkoły podstawowej. Usiedli oni przy 27 stolikach, przy każdym stoliku po tyle samo osób. Uczestników tych było więcej niż 100 i mniej niż 150. Oblicz, ile dziewcząt brało udział w balu, jeśli chłopcy stanowili <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>15</mn></mfrac></math> wszystkich ósmoklasistów uczestniczących w tym balu.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "72",
+        "solution_html": "<p>Liczba uczestników jest wielokrotnością 27. Wielokrotności liczby 27 większe od 100 i mniejsze od 150 to: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><mn>27</mn><mo>=</mo><mn>108</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>·</mo><mn>27</mn><mo>=</mo><mn>135</mn></mrow></math>.</p><p>Dziewczyny stanowiły <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>−</mo><mfrac><mn>7</mn><mn>15</mn></mfrac><mo>=</mo><mfrac><mn>8</mn><mn>15</mn></mfrac></mrow></math> wszystkich ósmoklasistów.</p><ul><li>I sytuacja (108 uczestników): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>8</mn><mn>15</mn></mfrac><mo>·</mo><mn>108</mn><mo>=</mo><mn>57,6</mn></mrow></math> — nie jest liczbą naturalną, sytuacja niemożliwa.</li><li>II sytuacja (135 uczestników): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>8</mn><mn>15</mn></mfrac><mo>·</mo><mn>135</mn><mo>=</mo><mn>72</mn></mrow></math>.</li></ul><p>Odpowiedź: W balu brały udział 72 dziewczynki.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2022-2023_pomorskie_q2",
+      "number": 2,
+      "page": 3,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "potęgi i pierwiastki",
+        "wzory skróconego mnożenia",
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>Suma pewnych dwóch liczb jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>24</mn></msqrt></math>, a ich różnica <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>8</mn></msqrt></math>. Wykaż, że iloczyn tych liczb jest równy 4.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Iloczyn tych liczb jest równy 4",
+        "solution_html": "<p>Oznaczmy szukane liczby przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>24</mn></msqrt><mo>=</mo><mn>2</mn><msqrt><mn>6</mn></msqrt></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>8</mn></msqrt><mo>=</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow></math>, otrzymujemy układ:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>{</mo><mtable><mtr><mtd><mrow><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>2</mn><msqrt><mn>6</mn></msqrt></mrow></mtd></mtr><mtr><mtd><mrow><mi>x</mi><mo>−</mo><mi>y</mi><mo>=</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow></mtd></mtr></mtable></mrow></math></p><p>Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><msqrt><mn>6</mn></msqrt><mo>+</mo><msqrt><mn>2</mn></msqrt></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><msqrt><mn>6</mn></msqrt><mo>−</mo><msqrt><mn>2</mn></msqrt></mrow></math>.</p><p>Iloczyn: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>·</mo><mi>y</mi><mo>=</mo><mo>(</mo><msqrt><mn>6</mn></msqrt><mo>+</mo><msqrt><mn>2</mn></msqrt><mo>)</mo><mo>(</mo><msqrt><mn>6</mn></msqrt><mo>−</mo><msqrt><mn>2</mn></msqrt><mo>)</mo><mo>=</mo><mn>6</mn><mo>−</mo><mn>2</mn><mo>=</mo><mn>4</mn></mrow></math>, co należało wykazać.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2022-2023_pomorskie_q3",
+      "number": 3,
+      "page": 4,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "równania z jedną zmienną",
+        "proporcjonalność odwrotna"
+      ],
+      "prompt_html": "<p>Trzy pompy mają opróżnić basen. Pierwsza pompa samodzielnie opróżniłaby basen w ciągu 15 godzin, druga w ciągu 10 godzin, a trzecia w ciągu 9 godzin. Oblicz, czy trzy pompy pracując jednocześnie zdążą opróżnić ten basen w ciągu 3 godzin.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Nie zdążą — w ciągu 3 godzin opróżnią tylko 5/6 basenu",
+        "solution_html": "<p>W ciągu jednej godziny pierwsza pompa opróżni <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>15</mn></mfrac></math> basenu, druga <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>10</mn></mfrac></math>, a trzecia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>9</mn></mfrac></math>. Trzy pompy pracując razem w ciągu godziny opróżnią:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>15</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>10</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>9</mn></mfrac><mo>=</mo><mfrac><mn>6</mn><mn>90</mn></mfrac><mo>+</mo><mfrac><mn>9</mn><mn>90</mn></mfrac><mo>+</mo><mfrac><mn>10</mn><mn>90</mn></mfrac><mo>=</mo><mfrac><mn>25</mn><mn>90</mn></mfrac><mo>=</mo><mfrac><mn>5</mn><mn>18</mn></mfrac></mrow></math> basenu.</p><p>Zatem w ciągu 3 godzin opróżnią <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mfrac><mn>5</mn><mn>18</mn></mfrac><mo>=</mo><mfrac><mn>5</mn><mn>6</mn></mfrac><mo>&lt;</mo><mn>1</mn></mrow></math>.</p><p>Odpowiedź: Trzy pompy nie zdążą opróżnić basenu w ciągu trzech godzin (samodzielne opróżnienie zajęłoby im <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>3,6</mn></mrow></math> godziny).</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2022-2023_pomorskie_q4",
+      "number": 4,
+      "page": 5,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "bryły",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Przekątna sześcianu ma długość 15 cm. Uzupełnij luki:</p><ul><li>A. Krawędź podstawy danego sześcianu ma długość …</li><li>B. Pole powierzchni całkowitej danego sześcianu jest równe …</li><li>C. Objętość danego sześcianu jest równa …</li></ul>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "A. 5√3 cm, B. 450 cm², C. 375√3 cm³",
+        "solution_html": "<p>Przekątna sześcianu o krawędzi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><msqrt><mn>3</mn></msqrt></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>15</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mfrac><mn>15</mn><msqrt><mn>3</mn></msqrt></mfrac><mo>=</mo><mn>5</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm.</p><p>A. Krawędź: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm.</p><p>B. Pole powierzchni całkowitej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>6</mn><mo>·</mo><msup><mrow><mo>(</mo><mn>5</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>6</mn><mo>·</mo><mn>75</mn><mo>=</mo><mn>450</mn></mrow></math> cm².</p><p>C. Objętość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>3</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mn>5</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow><mn>3</mn></msup><mo>=</mo><mn>125</mn><mo>·</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>375</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm³.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2022-2023_pomorskie_q5",
+      "number": 5,
+      "page": 6,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "trójkąty",
+        "geometria"
+      ],
+      "prompt_html": "<p>Na boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> obrano punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math>, tak że odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EC</mi></math> jest dwukrotnie dłuższy od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DE</mi></math>. Na odcinku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BE</mi></math> obrano punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math>, tak że odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>FB</mi></math> jest dwukrotnie dłuższy od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EF</mi></math>. Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AFE</mi></math> jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><msup><mtext> cm</mtext><mn>2</mn></msup></mrow></math>. Oblicz pole kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>.</p>",
+      "choices": [],
+      "figures": [
+        "wojewodzki_2022-2023_pomorskie_q5_fig1.png"
+      ],
+      "answer": {
+        "correct": "60 cm²",
+        "solution_html": "<p>Trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABF</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AFE</mi></math> mają wspólną wysokość poprowadzoną z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> na prostą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BE</mi></math>, a ich podstawy leżą na odcinku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BE</mi></math>, przy czym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>FB</mi><mo>|</mo><mo>=</mo><mn>2</mn><mo>|</mo><mi>EF</mi><mo>|</mo></mrow></math>. Zatem:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>ABF</mi></msub><mo>=</mo><mn>2</mn><mo>·</mo><msub><mi>P</mi><mi>AFE</mi></msub><mo>=</mo><mn>2</mn><mo>·</mo><mn>10</mn><mo>=</mo><mn>20</mn></mrow></math> cm².</p><p>Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABE</mi></math> składa się z trójkątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AFE</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABF</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>ABE</mi></msub><mo>=</mo><mn>10</mn><mo>+</mo><mn>20</mn><mo>=</mo><mn>30</mn></mrow></math> cm².</p><p>Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABE</mi></math> ma podstawę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> równą bokowi kwadratu i wysokość równą bokowi kwadratu, więc jego pole to połowa pola kwadratu:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>ABCD</mi></msub><mo>=</mo><mn>2</mn><mo>·</mo><msub><mi>P</mi><mi>ABE</mi></msub><mo>=</mo><mn>2</mn><mo>·</mo><mn>30</mn><mo>=</mo><mn>60</mn></mrow></math> cm².</p><p>Odpowiedź: Pole kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>60</mn><msup><mtext> cm</mtext><mn>2</mn></msup></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2022-2023_pomorskie_q6",
+      "number": 6,
+      "page": 7,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "prędkość / droga / czas"
+      ],
+      "prompt_html": "<p>Kasia i Tomek są oddaleni od siebie o 280 metrów. Ruszają naprzeciw siebie w tej samej chwili. Kasia idzie z prędkością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,5</mn><mfrac><mtext>m</mtext><mtext>s</mtext></mfrac></mrow></math>, a Tomek z prędkością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mfrac><mtext>m</mtext><mtext>s</mtext></mfrac></mrow></math>. Po jakim czasie się spotkają i jaki dystans pokona każde z nich? Zapisz obliczenia.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Po 80 s; Kasia pokona 120 m, Tomek 160 m",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math> oznacza czas w sekundach, który upłynął do momentu spotkania. Suma dróg przebytych przez Kasię i Tomka jest równa 280 m:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,5</mn><mi>t</mi><mo>+</mo><mn>2</mn><mi>t</mi><mo>=</mo><mn>280</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3,5</mn><mi>t</mi><mo>=</mo><mn>280</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>t</mi><mo>=</mo><mn>80</mn></mrow></math> s.</p><p>Droga Kasi: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,5</mn><mo>·</mo><mn>80</mn><mo>=</mo><mn>120</mn></mrow></math> m. Droga Tomka: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>80</mn><mo>=</mo><mn>160</mn></mrow></math> m.</p><p>Odpowiedź: Spotkają się po 80 sekundach, Kasia pokona w tym czasie 120 m, a Tomek 160 m.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2022-2023_pomorskie_q7",
+      "number": 7,
+      "page": 8,
+      "type": "open",
+      "points": 1,
+      "topics": [
+        "podzielność",
+        "potęgi i pierwiastki",
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>Wykaż, że liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>8</mn><mo>+</mo><msup><mn>8</mn><mn>2</mn></msup><mo>+</mo><msup><mn>8</mn><mn>3</mn></msup><mo>+</mo><msup><mn>8</mn><mn>4</mn></msup><mo>+</mo><mo>…</mo><mo>+</mo><msup><mn>8</mn><mn>300</mn></msup></mrow><mn>73</mn></mfrac></math> jest liczbą naturalną. Zapisz obliczenia.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Liczba jest naturalna (równa 8 + 8⁴ + … + 8²⁹⁸)",
+        "solution_html": "<p>Grupujemy składniki sumy po trzy, wyłączając z każdej grupy czynnik <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>+</mo><mn>8</mn><mo>+</mo><msup><mn>8</mn><mn>2</mn></msup><mo>=</mo><mn>73</mn></mrow></math>:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>+</mo><msup><mn>8</mn><mn>2</mn></msup><mo>+</mo><msup><mn>8</mn><mn>3</mn></msup><mo>+</mo><mo>…</mo><mo>+</mo><msup><mn>8</mn><mn>300</mn></msup><mo>=</mo><mn>8</mn><mo>(</mo><mn>1</mn><mo>+</mo><mn>8</mn><mo>+</mo><msup><mn>8</mn><mn>2</mn></msup><mo>)</mo><mo>+</mo><msup><mn>8</mn><mn>4</mn></msup><mo>(</mo><mn>1</mn><mo>+</mo><mn>8</mn><mo>+</mo><msup><mn>8</mn><mn>2</mn></msup><mo>)</mo><mo>+</mo><mo>…</mo><mo>+</mo><msup><mn>8</mn><mn>298</mn></msup><mo>(</mo><mn>1</mn><mo>+</mo><mn>8</mn><mo>+</mo><msup><mn>8</mn><mn>2</mn></msup><mo>)</mo></mrow></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>=</mo><mn>8</mn><mo>·</mo><mn>73</mn><mo>+</mo><msup><mn>8</mn><mn>4</mn></msup><mo>·</mo><mn>73</mn><mo>+</mo><mo>…</mo><mo>+</mo><msup><mn>8</mn><mn>298</mn></msup><mo>·</mo><mn>73</mn></mrow></math></p><p>Po podzieleniu przez 73 otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>+</mo><msup><mn>8</mn><mn>4</mn></msup><mo>+</mo><mo>…</mo><mo>+</mo><msup><mn>8</mn><mn>298</mn></msup></mrow></math>, a to jest liczba naturalna, co należało wykazać.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2022-2023_pomorskie_q8",
+      "number": 8,
+      "page": 9,
+      "type": "closed_single",
+      "points": 4,
+      "topics": [
+        "potęgi i pierwiastki",
+        "wzory skróconego mnożenia",
+        "trójkąty",
+        "bryły",
+        "podzielność"
+      ],
+      "prompt_html": "<p>W poniższych zadaniach zamkniętych dokładnie jedna odpowiedź jest poprawna. Wskaż tę odpowiedź otaczając ją kółkiem.</p><p><strong>8.1</strong> Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>2</mn><mo>−</mo><msqrt><mn>5</mn></msqrt><mo>)</mo><mo>·</mo><mo>|</mo><mn>2</mn><mo>−</mo><msqrt><mn>5</mn></msqrt><mo>|</mo></mrow></math> jest równa:</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>1</mn></mrow></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><msqrt><mn>5</mn></msqrt><mo>−</mo><mn>9</mn></mrow></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mo>−</mo><mn>4</mn><msqrt><mn>5</mn></msqrt></mrow></math></li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math></li></ul><p><strong>8.2</strong> Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>A</mi><mn>1</mn></msub></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>B</mi><mn>1</mn></msub></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>C</mi><mn>1</mn></msub></math> o polu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>128</mn><msup><mtext> cm</mtext><mn>2</mn></msup></mrow></math> jest podobny do trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> o polu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>54</mn><msup><mtext> cm</mtext><mn>2</mn></msup></mrow></math>. Skala podobieństwa trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>A</mi><mn>1</mn></msub></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>B</mi><mn>1</mn></msub></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>C</mi><mn>1</mn></msub></math> do trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest równa:</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>8</mn><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow></mfrac></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>16</mn><mn>9</mn></mfrac></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>3</mn></mfrac></math></li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>64</mn><mn>27</mn></mfrac></math></li></ul><p><strong>8.3</strong> Odwrotność liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></mfrac></mrow></mfrac></math> jest równa:</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>5</mn></mfrac></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>8</mn><mn>5</mn></mfrac></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>3</mn></mfrac></math></li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>8</mn></mfrac></math></li></ul><p><strong>8.4</strong> Ile cyfr posiada liczba będąca wynikiem działania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>999</mn></mfrac><mo>·</mo><mo>(</mo><msup><mn>10</mn><mn>2025</mn></msup><mo>−</mo><mn>1</mn><mo>)</mo></mrow></math>?</p><ul><li>A. 675</li><li>B. 2022</li><li>C. 2023</li><li>D. 2024</li></ul><p><strong>8.5</strong> Pewien prostopadłościan, którego długości wszystkich krawędzi wyrażają się liczbami naturalnymi, ma objętość równą 48. Obwód jego podstawy jest równy 22. Najkrótsza krawędź tego prostopadłościanu ma długość:</p><ul><li>A. 1</li><li>B. 2</li><li>C. 3</li><li>D. 4</li></ul>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "8.1 – B, 8.2 – A, 8.3 – C, 8.4 – C, 8.5 – B",
+        "solution_html": null
+      }
+    }
+  ]
+}

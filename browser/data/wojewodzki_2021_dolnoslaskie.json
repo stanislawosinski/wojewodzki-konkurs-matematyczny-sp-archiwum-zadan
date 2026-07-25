@@ -1,0 +1,123 @@
+{
+  "source_file": "wojewodzki/2021_dolnoslaskie.pdf",
+  "answers_file": "wojewodzki/2021_dolnoslaskie_answers.pdf",
+  "competition": "Dolnośląski Konkurs Matematyczny zDolny Ślązak dla uczniów szkół podstawowych",
+  "school_type": "podstawowa",
+  "stage": "wojewodzki",
+  "wojewodztwo": "dolnoslaskie",
+  "school_year": "2020/2021",
+  "date": "2021-03-10",
+  "total_questions": 6,
+  "max_points": 30,
+  "questions": [
+    {
+      "id": "wojewodzki_2021_dolnoslaskie_q1",
+      "number": 1,
+      "page": 1,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Pan Jerzy wyjechał samochodem z Jabłonkowa do Dyniówki. Trasa przejazdu składała się z trzech etapów. Pierwszy ‒ z Jabłonkowa do Gruszkowic był 1,5 raza dłuższy niż drugi ‒ z Gruszkowic do Śliwkowa. Trzeci etap, to odcinek Śliwkowo ‒ Dyniówka. Cała trasa jest dwukrotnie dłuższa niż długość trzeciego etapu. Ile razy droga z Gruszkowic do Dyniówki jest dłuższa niż droga ze Śliwkowa do Dyniówki?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "1,4 razy",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math> oznacza długość II etapu (z Gruszkowic do Śliwkowa), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,5</mn><mi>t</mi></mrow></math> — długość I etapu (z Jabłonkowa do Gruszkowic), a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> — długość III etapu (ze Śliwkowa do Dyniówki).</p><p>Cała trasa jest dwukrotnie dłuższa niż III etap: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,5</mn><mi>t</mi><mo>+</mo><mi>t</mi><mo>+</mo><mi>x</mi><mo>=</mo><mn>2</mn><mi>x</mi></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2,5</mn><mi>t</mi><mo>=</mo><mi>x</mi></mrow></math>.</p><p>Droga z Gruszkowic do Dyniówki to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>t</mi><mo>+</mo><mi>x</mi></mrow></math>, a droga ze Śliwkowa do Dyniówki to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mi>t</mi><mo>+</mo><mi>x</mi></mrow><mi>x</mi></mfrac><mo>=</mo><mfrac><mrow><mi>t</mi><mo>+</mo><mn>2,5</mn><mi>t</mi></mrow><mrow><mn>2,5</mn><mi>t</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>3,5</mn><mi>t</mi></mrow><mrow><mn>2,5</mn><mi>t</mi></mrow></mfrac><mo>=</mo><mn>1,4</mn></mrow></math>.</p><p>Droga z Gruszkowic do Dyniówki jest 1,4 razy dłuższa niż droga ze Śliwkowa do Dyniówki.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2021_dolnoslaskie_q2",
+      "number": 2,
+      "page": 2,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "bryły",
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>Średnia arytmetyczna długości wszystkich krawędzi pewnego graniastosłupa prawidłowego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>-kątnego (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>≥</mo><mn>3</mn></mrow></math>) jest równa długości krawędzi podstawy tej bryły. Uzasadnij, że wszystkie jej ściany boczne są kwadratami.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Każda ściana boczna jest kwadratem (krawędź boczna b = a)",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> oznacza długość krawędzi podstawy, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> — długość krawędzi bocznej. Graniastosłup prawidłowy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>-kątny ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>n</mi></mrow></math> krawędzi podstaw i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> krawędzi bocznych, więc średnia arytmetyczna długości wszystkich krawędzi wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>2</mn><mi>n</mi><mo>·</mo><mi>a</mi><mo>+</mo><mi>n</mi><mo>·</mo><mi>b</mi></mrow><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mi>n</mi></mrow></mfrac><mo>=</mo><mi>a</mi></mrow></math>.</p><p>Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>n</mi><mi>a</mi><mo>+</mo><mi>n</mi><mi>b</mi><mo>=</mo><mn>3</mn><mi>n</mi><mi>a</mi></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mi>b</mi><mo>=</mo><mi>n</mi><mi>a</mi></mrow></math>, a więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mi>a</mi></mrow></math>.</p><p>W graniastosłupie prawidłowym krawędź boczna jest prostopadła do krawędzi podstawy wychodzącej z tego samego wierzchołka. Ponieważ dodatkowo krawędź boczna ma długość równą długości krawędzi podstawy, każda ściana boczna jest kwadratem.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2021_dolnoslaskie_q3",
+      "number": 3,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "wzory skróconego mnożenia"
+      ],
+      "prompt_html": "<p>Dane są wyrażenia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>K</mi><mo>=</mo><mfrac><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow><msup><mrow><mo>(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mo>)</mo></mrow><mn>2</mn></msup></mfrac></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>M</mi><mo>=</mo><mfrac><msup><mi>a</mi><mn>4</mn></msup><msup><mrow><mo>(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mo>)</mo></mrow><mn>2</mn></msup></mfrac></mrow></math>. Dla pewnej liczby rzeczywistej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>8</mn></mfrac></math>. Ile jest równa wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi></math> dla tej samej liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>? Odpowiedź uzasadnij, zapisując odpowiednie obliczenia.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "M = 1/2",
+        "solution_html": "<p>Z równości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow><msup><mrow><mo>(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mo>)</mo></mrow><mn>2</mn></msup></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>8</mn></mfrac></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>8</mn><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>8</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>4</mn></msup><mo>+</mo><mn>4</mn><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mo>=</mo><mn>8</mn><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>8</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>4</mn></msup><mo>=</mo><mn>4</mn><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn></mrow></math>.</p><p>Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>M</mi><mo>=</mo><mfrac><msup><mi>a</mi><mn>4</mn></msup><msup><mrow><mo>(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mo>)</mo></mrow><mn>2</mn></msup></mfrac><mo>=</mo><mfrac><mrow><mn>4</mn><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn></mrow><mrow><mn>8</mn><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>8</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>4</mn><mo>(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mrow><mn>8</mn><mo>(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn><mo>)</mo></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2021_dolnoslaskie_q4",
+      "number": 4,
+      "page": 3,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "bryły"
+      ],
+      "prompt_html": "<p>Trzy prostopadłościenne belki ‒ każda o wymiarach 10 cm × 10 cm × 200 cm sklejono tak, jak na rysunku. Oblicz pole powierzchni otrzymanej bryły.</p>",
+      "choices": [],
+      "figures": [
+        "wojewodzki_2021_dolnoslaskie_q4_fig1.png"
+      ],
+      "answer": {
+        "correct": "24000 cm²",
+        "solution_html": "<p>Pole powierzchni jednej belki jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><msup><mn>10</mn><mn>2</mn></msup><mo>+</mo><mn>4</mn><mo>·</mo><mn>10</mn><mo>·</mo><mn>200</mn><mo>=</mo><mn>8200</mn></mrow></math> cm².</p><p>W miejscach sklejenia „schowanych” jest 6 kwadratów o wymiarach 10 cm × 10 cm.</p><p>Pole powierzchni całej bryły jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>8200</mn><mo>−</mo><mn>6</mn><mo>·</mo><msup><mn>10</mn><mn>2</mn></msup><mo>=</mo><mn>24000</mn></mrow></math> cm².</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2021_dolnoslaskie_q5",
+      "number": 5,
+      "page": 4,
+      "type": "open",
+      "points": 6,
+      "topics": [
+        "nierówności",
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>Dla liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi></math> takich, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0</mn><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mi>y</mi><mo>&lt;</mo><mi>z</mi></mrow></math> określamy wyrażenia:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>p</mi><mo>=</mo><mfrac><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow><mn>2</mn></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>q</mi><mo>=</mo><mfrac><mrow><mi>x</mi><mo>+</mo><mi>z</mi></mrow><mn>2</mn></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>r</mi><mo>=</mo><mfrac><mrow><mi>y</mi><mo>+</mo><mi>z</mi></mrow><mn>2</mn></mfrac></mrow></math>.</p><p>Uzasadnij, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mfrac><mrow><mi>p</mi><mo>+</mo><mi>q</mi></mrow><mn>2</mn></mfrac><mo>−</mo><mi>r</mi><mo>)</mo><mo>(</mo><mfrac><mrow><mi>q</mi><mo>+</mo><mi>r</mi></mrow><mn>2</mn></mfrac><mo>−</mo><mi>p</mi><mo>)</mo><mo>&lt;</mo><mn>0</mn></mrow></math>.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Iloczyn jest ujemny (nierówność zachodzi)",
+        "solution_html": "<p>Przekształcamy oba czynniki:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mi>p</mi><mo>+</mo><mi>q</mi></mrow><mn>2</mn></mfrac><mo>−</mo><mi>r</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mi>y</mi><mo>+</mo><mi>z</mi><mo>−</mo><mn>2</mn><mi>y</mi><mo>−</mo><mn>2</mn><mi>z</mi></mrow><mn>4</mn></mfrac><mo>=</mo><mfrac><mrow><mo>(</mo><mi>x</mi><mo>−</mo><mi>y</mi><mo>)</mo><mo>+</mo><mo>(</mo><mi>x</mi><mo>−</mo><mi>z</mi><mo>)</mo></mrow><mn>4</mn></mfrac></mrow></math>,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mi>q</mi><mo>+</mo><mi>r</mi></mrow><mn>2</mn></mfrac><mo>−</mo><mi>p</mi><mo>=</mo><mfrac><mrow><mi>x</mi><mo>+</mo><mi>y</mi><mo>+</mo><mn>2</mn><mi>z</mi><mo>−</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>2</mn><mi>y</mi></mrow><mn>4</mn></mfrac><mo>=</mo><mfrac><mrow><mo>(</mo><mi>z</mi><mo>−</mo><mi>x</mi><mo>)</mo><mo>+</mo><mo>(</mo><mi>z</mi><mo>−</mo><mi>y</mi><mo>)</mo></mrow><mn>4</mn></mfrac></mrow></math>.</p><p>Z założenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0</mn><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mi>y</mi><mo>&lt;</mo><mi>z</mi></mrow></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>−</mo><mi>y</mi><mo>&lt;</mo><mn>0</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>−</mo><mi>z</mi><mo>&lt;</mo><mn>0</mn></mrow></math>, więc pierwszy czynnik jest ujemny, oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>z</mi><mo>−</mo><mi>x</mi><mo>&gt;</mo><mn>0</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>z</mi><mo>−</mo><mi>y</mi><mo>&gt;</mo><mn>0</mn></mrow></math>, więc drugi czynnik jest dodatni.</p><p>Iloczyn liczby ujemnej i dodatniej jest ujemny, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mfrac><mrow><mi>p</mi><mo>+</mo><mi>q</mi></mrow><mn>2</mn></mfrac><mo>−</mo><mi>r</mi><mo>)</mo><mo>(</mo><mfrac><mrow><mi>q</mi><mo>+</mo><mi>r</mi></mrow><mn>2</mn></mfrac><mo>−</mo><mi>p</mi><mo>)</mo><mo>&lt;</mo><mn>0</mn></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2021_dolnoslaskie_q6",
+      "number": 6,
+      "page": 5,
+      "type": "open",
+      "points": 6,
+      "topics": [
+        "geometria",
+        "trójkąty"
+      ],
+      "prompt_html": "<p>Dwunastokąt foremny podzielono tak, jak na rysunku, na 12 jednakowych rombów ‒ każdy o polu równym 1 ‒ i na 12 jednakowych trójkątów. Oblicz pole tego dwunastokąta.</p>",
+      "choices": [],
+      "figures": [
+        "wojewodzki_2021_dolnoslaskie_q6_fig1.png"
+      ],
+      "answer": {
+        "correct": "12 + 6√3",
+        "solution_html": "<p>Kąt ostry rombu ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>360</mn><mo>°</mo><mo>:</mo><mn>12</mn><mo>=</mo><mn>30</mn><mo>°</mo></mrow></math>, a kąt rozwarty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>°</mo><mo>−</mo><mn>30</mn><mo>°</mo><mo>=</mo><mn>150</mn><mo>°</mo></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∢</mo><mi>ACB</mi><mo>=</mo><mn>360</mn><mo>°</mo><mo>−</mo><mn>2</mn><mo>·</mo><mn>150</mn><mo>°</mo><mo>=</mo><mn>60</mn><mo>°</mo></mrow></math>, a ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>CA</mi><mo>=</mo><mi>CB</mi></mrow></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∢</mo><mi>CAB</mi><mo>=</mo><mo>∢</mo><mi>CBA</mi><mo>=</mo><mo>(</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>60</mn><mo>°</mo><mo>)</mo><mo>:</mo><mn>2</mn><mo>=</mo><mn>60</mn><mo>°</mo></mrow></math>, czyli trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest równoboczny.</p><p>Wysokość rombu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>a</mi></mrow></math>. Pole rombu jest równe 1, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>=</mo><mi>a</mi><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>a</mi></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>2</mn></mrow></math>.</p><p>Pole dwunastokąta jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mn>12</mn></msub><mo>=</mo><mn>12</mn><mo>·</mo><mn>1</mn><mo>+</mo><mn>12</mn><mo>·</mo><mfrac><mrow><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mn>12</mn><mo>+</mo><mn>12</mn><mo>·</mo><mfrac><mrow><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mn>12</mn><mo>+</mo><mn>6</mn><msqrt><mn>3</mn></msqrt></mrow></math>.</p>"
+      }
+    }
+  ]
+}
