@@ -7,11 +7,27 @@
 <script defer src="app.js"></script>
 </head>
 <body>
-<aside class="sidebar">
-<div class="clearrow">
+<div class="topbar">
+<div class="tb-side">
 <a href="#" id="clearFacets" hidden>Wyczyść filtry</a>
 <a href="#" id="clearFilters" hidden>Wyczyść wszystko</a>
 </div>
+<div class="tb-main">
+<a href="#" id="clearSelBar" hidden>Wyczyść zaznaczenie</a>
+<nav class="pager" hidden>
+<button type="button" class="prev">‹ Poprzednia</button>
+<span class="pageinfo"></span>
+<button type="button" class="next">Następna ›</button>
+</nav>
+<span id="setsummary">Wczytywanie…</span>
+<span class="tb-right">
+<button type="button" id="printBtn" title="Drukuj">🖨 Drukuj</button>
+<label class="printopt"><input type="checkbox" id="onePerPage" checked> Jedno zadanie na stronę</label>
+</span>
+</div>
+</div>
+<div class="layout">
+<aside class="sidebar">
 <div class="idbox">
 <label>Pokaż tylko id:
 <textarea id="include" rows="2" placeholder="hash, hash, …"></textarea>
@@ -30,15 +46,9 @@
 </span>
 </label>
 <label>Pomiń id: <input type="text" id="exclude" placeholder="hash, hash, …"></label>
-<label class="printopt"><input type="checkbox" id="onePerPage"> Jedno zadanie na stronę (do druku)</label>
 </aside>
 <main class="content">
-<h1>Wszystkie zadania</h1><div class="meta"><span id="setsummary">Wczytywanie…</span></div>
-<nav class="pager" hidden>
-<button type="button" class="prev">‹ Poprzednia</button>
-<span class="pageinfo"></span>
-<button type="button" class="next">Następna ›</button>
-</nav>
+<h1>Wszystkie zadania</h1>
 <div id="qlist"></div>
 <nav class="pager" hidden>
 <button type="button" class="prev">‹ Poprzednia</button>
@@ -46,4 +56,5 @@
 <button type="button" class="next">Następna ›</button>
 </nav>
 </main>
+</div>
 </body></html>

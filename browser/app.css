@@ -1,28 +1,45 @@
 :root{color-scheme:light}
 body{font-family:ui-serif,Georgia,'Times New Roman',serif;margin:0;
-  padding:2rem 1.5rem;line-height:1.5;background:#fff;color:#000;
-  display:flex;gap:2rem;align-items:flex-start}
-h1{font-size:1.4rem;margin-top:0} .meta{color:#666;font-size:.9rem;margin-bottom:1.5rem}
+  line-height:1.5;background:#fff;color:#000}
+.layout{display:flex;gap:2rem;align-items:flex-start;padding:2rem 1.5rem}
+h1{font-size:1.4rem;margin-top:0}
+/* persistent top toolbar; mirrors the sidebar|content split so its groups line up with them */
+.topbar{position:sticky;top:0;z-index:5;background:#f7f7f7;border-bottom:1px solid #ddd;
+  font-family:system-ui,-apple-system,'Segoe UI',sans-serif;font-size:.8rem;color:#555;
+  display:flex;gap:2rem;padding:.4rem 1.5rem;align-items:center}
+.tb-side{flex:0 0 250px;padding-right:1rem;display:flex;gap:.8rem;align-items:center} /* +1rem matches the sidebar's padding-right so tb-main starts exactly where .content does */
+.tb-main{flex:1;min-width:0;max-width:820px;margin-inline:auto;position:relative;padding-left:1.8rem;display:flex;gap:1rem;align-items:center} /* padding-left mirrors .content, so the pager lines up with the question text */
+.tb-right{margin-left:auto;display:flex;gap:.8rem;align-items:center;white-space:nowrap}
+.topbar a{color:#a33;cursor:pointer}
+.topbar a[hidden]{display:none}
+/* clear-selection link lives in the gutter, right edge on the checkbox edge (= tb-main's left);
+   absolute so showing/hiding it never shifts the pager & co. to its right */
+#clearSelBar{position:absolute;right:100%;top:50%;transform:translateY(-50%);white-space:nowrap}
+.topbar .pager{background:none;padding:0;margin:0;border-radius:0;color:#555;font-size:inherit}
+.topbar #setsummary{color:#666;white-space:nowrap}
+.topbar .printopt{white-space:nowrap}
+#printBtn{font:inherit;padding:.2rem .5rem;cursor:pointer} /* match .pager button height so the bar keeps its height when the pager hides */
 /* left column: filters (sticky); right column: questions get the full width */
-.sidebar{flex:0 0 250px;position:sticky;top:1rem;align-self:flex-start;
+.sidebar{flex:0 0 250px;position:sticky;top:2.6rem;align-self:flex-start;
   font-family:system-ui,-apple-system,'Segoe UI',sans-serif;
-  max-height:calc(100vh - 2rem);overflow:auto;
+  max-height:calc(100vh - 3.6rem);overflow:auto;
   scrollbar-width:thin;scrollbar-color:#ccc transparent;
   display:flex;flex-direction:column;gap:1.5em;
   padding-right:1rem}
 .content{flex:1;min-width:0;max-width:820px;margin-inline:auto;padding-left:1.8rem}
 button{font:inherit;padding:.4rem .6rem;cursor:pointer}
 select{font:inherit;padding:.35rem}
-.clearrow{display:flex;gap:.8rem;min-height:1.2rem} /* reserve one line so the checkboxes don't shift */
-#clearFilters,#clearFacets{font-size:.8rem;color:#a33;cursor:pointer}
-#clearFilters[hidden],#clearFacets[hidden]{display:none}
 .pager{color:#666;font-size:.9rem;margin:0 0 1rem;padding:.5rem .7rem;background:#f6f6f6;border-radius:4px;
   display:flex;gap:1rem;align-items:center}
 .pager[hidden]{display:none}
 .pager button{padding:.2rem .6rem}
 .pager button:disabled{cursor:default;opacity:.4}
 @media(max-width:820px){          /* narrow: stack filters above questions */
-  body{display:block}
+  .layout{display:block}
+  .topbar{flex-wrap:wrap;gap:.4rem .8rem}
+  .tb-side,.tb-main{flex-basis:auto;max-width:none}
+  .tb-main{padding-left:0}
+  #clearSelBar{position:static}  /* flow inline when the bar wraps */
   .sidebar{flex-basis:auto;position:static;max-height:none;overflow:visible;
     border-right:none;border-bottom:1px solid #ccc;padding:0 0 .6rem;margin-bottom:1rem}
   .content{max-width:none}
@@ -96,8 +113,9 @@ math{font-size:1.05em}
 .q:has(.reveal[open]) .choice.correct{background:#d8f5d8;font-weight:600}
 @media print{
   .sidebar{display:none}        /* 1. hide UI */
-  h1,.meta{display:none}        /* drop the "Wszystkie zadania" title + summary line */
-  body{display:block;max-width:none}
+  .topbar{display:none}         /* hide the toolbar */
+  h1{display:none}              /* drop the "Wszystkie zadania" title */
+  .layout{display:block;padding:0}
   .content{max-width:none;padding-left:0}
   .selectbox{display:none}      /* checkboxes never print */
   .reorder{display:none}        /* reorder arrows never print */

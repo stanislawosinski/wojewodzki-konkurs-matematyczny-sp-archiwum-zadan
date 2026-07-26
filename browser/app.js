@@ -59,7 +59,7 @@ const search = $('search'), inc = $('include'), exc = $('exclude'),
   setsummary = $('setsummary'),
   qlist = $('qlist'), facetsEl = $('facets'),
   clearFilters = $('clearFilters'), clearFacets = $('clearFacets'), clearSearch = $('clearSearch'),
-  onePerPage = $('onePerPage');
+  clearSelBar = $('clearSelBar'), printBtn = $('printBtn'), onePerPage = $('onePerPage');
 const pagers = [...document.querySelectorAll('.pager')];
 
 let DATA = [], byHash = {}, INDEX = {}, universe = new Set();
@@ -206,8 +206,9 @@ function update() {
   const anyFacet = FACETS.some(f => selections[f.key].size);
   const active = useInc || excSet.size > 0 || terms.length > 0 || anyFacet;
   clearFilters.hidden = !active;   // "Wyczyść wszystko": any filtering at all
-  clearFacets.hidden = !anyFacet;  // "Wyczyść filtry": facet checkboxes only (.clearrow reserves the space)
+  clearFacets.hidden = !anyFacet;  // "Wyczyść filtry": facet checkboxes only
   clearSearch.hidden = !search.value; // the "×" inside the search box
+  clearSelBar.hidden = !selectedSet.size; // "Wyczyść zaznaczenie": only with a print selection
   const arks = new Set(matched.map(q => q._ark));
   setsummary.textContent = `${matched.length} zadań z ${arks.size} arkuszy`;
 }
@@ -311,6 +312,7 @@ loadData().then(data => {
     if (!e.target.matches('.selectbox input')) return;
     const h = e.target.closest('.q').dataset.hash;
     e.target.checked ? selectedSet.add(h) : selectedSet.delete(h);
+    clearSelBar.hidden = !selectedSet.size; // keep the toolbar link in sync without a full re-render
     writeUrl(false);
   });
   qlist.addEventListener('click', e => { // reorder arrows: swap adjacent hashes in the id box
@@ -338,6 +340,14 @@ loadData().then(data => {
   clearFilters.onclick = e => { e.preventDefault(); clearAllFilters(); };
   clearFacets.onclick = e => { e.preventDefault(); clearFacetSelections(); writeUrl(true); refilter(); };
   onePerPage.onchange = () => document.body.classList.toggle('onePerPage', onePerPage.checked); // print layout only
+  document.body.classList.toggle('onePerPage', onePerPage.checked); // honor the default (checked)
+  printBtn.onclick = () => window.print();
+  clearSelBar.onclick = e => { // "Wyczyść zaznaczenie": clear the print selection only
+    e.preventDefault();
+    selectedSet.clear();
+    qlist.querySelectorAll('.selectbox input').forEach(b => b.checked = false);
+    writeUrl(false); update();
+  };
 
   applyState(); // restore filters from the URL hash (empty hash => same as a bare update())
 });
