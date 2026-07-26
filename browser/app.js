@@ -334,13 +334,8 @@ loadData().then(data => {
   $('useSel').onclick = () => { inc.value = selectedHashes().join(', '); writeUrl(false); refilter(); };
   // "Skopiuj": copy the id box to the clipboard
   $('copySel').onclick = () => { inc.select(); try { document.execCommand('copy'); } catch (e) {} };
-  // "Wyczyść": clear the id box and the checkbox selection
-  $('clearSel').onclick = () => {
-    inc.value = '';
-    selectedSet.clear();
-    qlist.querySelectorAll('.selectbox input').forEach(b => b.checked = false);
-    writeUrl(false); refilter();
-  };
+  // "Wyczyść": clear only the "Pokaż tylko id" textarea (selection has its own link in the bar)
+  $('clearSel').onclick = () => { inc.value = ''; writeUrl(false); refilter(); };
   clearFilters.onclick = e => { e.preventDefault(); clearAllFilters(); };
   clearFacets.onclick = e => { e.preventDefault(); clearFacetSelections(); writeUrl(true); refilter(); };
   onePerPage.onchange = () => document.body.classList.toggle('onePerPage', onePerPage.checked); // print layout only
