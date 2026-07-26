@@ -209,9 +209,14 @@ function update() {
   clearFacets.hidden = !anyFacet;  // "Wyczyść filtry": facet checkboxes only
   clearSearch.hidden = !search.value; // the "×" inside the search box
   clearSelBar.hidden = !selectedSet.size; // "Wyczyść zaznaczenie": only with a print selection
-  const arks = new Set(matched.map(q => q._ark));
-  setsummary.textContent = `${matched.length} zadań z ${arks.size} arkuszy`;
+  setsummary.textContent = `${matched.length} ${plZadania(matched.length)}`;
 }
+
+// Polish plural of "zadanie": 1 zadanie; 2–4 zadania (not 12–14); else zadań
+const plZadania = n =>
+  n === 1 ? 'zadanie'
+    : n % 10 >= 2 && n % 10 <= 4 && !(n % 100 >= 12 && n % 100 <= 14) ? 'zadania'
+      : 'zadań';
 
 // the hashes of the print-selected questions, in original document order
 const selectedHashes = () => DATA.filter(q => selectedSet.has(q.hash)).map(q => q.hash);
@@ -274,7 +279,6 @@ loadData().then(data => {
     // plain-text of prompt + choices for the free-text search (tags stripped, lowercased)
     scratch.innerHTML = (q.prompt_html + ' ' + (q.choices || []).map(c => c.html).join(' ')).replace(/<[^>]+>/g, ' ');
     q._search = scratch.value.replace(/\s+/g, ' ').trim().toLowerCase();
-    q._ark = q.id.replace(/_q\d+$/, '');
     byHash[q.hash] = q;
   }
   INDEX = buildIndexFromData();

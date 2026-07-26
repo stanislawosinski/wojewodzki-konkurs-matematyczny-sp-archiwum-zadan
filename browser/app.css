@@ -1,5 +1,5 @@
 :root{color-scheme:light}
-body{font-family:ui-serif,Georgia,'Times New Roman',serif;margin:0;
+body{font-family:ui-serif,'New York','Iowan Old Style',Georgia,'Times New Roman',serif;margin:0;
   line-height:1.5;background:#fff;color:#000}
 .layout{display:flex;gap:2rem;align-items:flex-start;padding:2rem 1.5rem}
 h1{font-size:1.4rem;margin-top:0}
@@ -45,6 +45,7 @@ select{font:inherit;padding:.35rem}
   .content{max-width:none}
 }
 .q{position:relative;margin:1.6rem 0;padding-bottom:1rem;border-bottom:1px solid #eee}
+.q:first-child{margin-top:0} /* align the first question's top with the sidebar's top */
 .qhead{display:flex;gap:.8rem;align-items:baseline;flex-wrap:wrap}
 .qnum{font-weight:bold} .pts{color:#a33;font-size:.85rem}
 .hash{color:#aaa;font-size:.72rem;font-family:monospace}
