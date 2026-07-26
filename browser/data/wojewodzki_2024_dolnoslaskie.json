@@ -1,0 +1,127 @@
+{
+  "source_file": "wojewodzki/2024_dolnoslaskie.pdf",
+  "answers_file": "wojewodzki/2024_dolnoslaskie_answers.pdf",
+  "competition": "Dolnośląski Konkurs Matematyczny dla uczniów szkół podstawowych (zDolny Ślązak)",
+  "school_type": "podstawowa",
+  "stage": "wojewodzki",
+  "wojewodztwo": "dolnoslaskie",
+  "school_year": "2023/2024",
+  "date": "2024-02-23",
+  "total_questions": 6,
+  "max_points": 30,
+  "questions": [
+    {
+      "id": "wojewodzki_2024_dolnoslaskie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "układy równań"
+      ],
+      "prompt_html": "<p>Asia ma obecnie więcej niż 6 lat. Sześć lat temu stosunek wieku Asi do wieku Jurka był równy 1 : 3. Za sześć lat ten stosunek będzie równy 5 : 7. Wyznacz, jaki jest obecnie stosunek wieku Asi do wieku Jurka.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "3 : 5",
+        "solution_html": "<p>Oznaczmy przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> obecny wiek Asi, a przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> — obecny wiek Jurka. Zależności sprzed 6 lat oraz za 6 lat dają układ równań <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>{</mo><mtable><mtr><mtd><mrow><mi>x</mi><mo>−</mo><mn>6</mn><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>(</mo><mi>y</mi><mo>−</mo><mn>6</mn><mo>)</mo></mrow></mtd></mtr><mtr><mtd><mrow><mi>x</mi><mo>+</mo><mn>6</mn><mo>=</mo><mfrac><mn>5</mn><mn>7</mn></mfrac><mo>(</mo><mi>y</mi><mo>+</mo><mn>6</mn><mo>)</mo></mrow></mtd></mtr></mtable></mrow></math>. Rozwiązując go, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>9</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>15</mn></mrow></math> (Asia ma 9 lat, czyli więcej niż 6). Zatem obecny stosunek wieku Asi do wieku Jurka wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mo>:</mo><mn>15</mn><mo>=</mo><mn>3</mn><mo>:</mo><mn>5</mn></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2024_dolnoslaskie_q2",
+      "number": 2,
+      "page": 3,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "statystyka opisowa",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Firma produkująca okna otrzymała zamówienie, które zostało zrealizowane w ciągu 5 dni – od poniedziałku do piątku. Liczby wyprodukowanych okien w niektórych dniach przedstawiono na diagramie. Brak jest dokładnych danych o produkcji w czwartek, wiadomo jedynie, że stanowiła ona <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> całego zamówienia. Średni koszt wyprodukowania jednego okna od poniedziałku do czwartku był równy 200 zł. W piątek użyto droższych materiałów i średni koszt produkcji jednego okna w całym zamówieniu okazał się równy 207 zł. Ile kosztowało średnio wyprodukowanie jednego okna w piątek?</p>",
+      "choices": [],
+      "figures": [
+        "wojewodzki_2024_dolnoslaskie_q2_fig1.png"
+      ],
+      "answer": {
+        "correct": "236 zł",
+        "solution_html": "<p>W czterech dniach bez czwartku wyprodukowano <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>20</mn><mo>+</mo><mn>12</mn><mo>+</mo><mn>8</mn><mo>+</mo><mn>14</mn><mo>=</mo><mn>54</mn></mrow></math> okna. Produkcja czwartkowa to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> całości, więc 54 okna stanowią <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math> zamówienia; całe zamówienie to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>54</mn><mo>:</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>=</mo><mn>72</mn></mrow></math> okna, a w czwartek wyprodukowano <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>72</mn><mo>−</mo><mn>54</mn><mo>=</mo><mn>18</mn></mrow></math> okien. Koszt produkcji od poniedziałku do czwartku to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>20</mn><mo>+</mo><mn>12</mn><mo>+</mo><mn>8</mn><mo>+</mo><mn>18</mn><mo>)</mo><mo>·</mo><mn>200</mn><mo>=</mo><mn>11600</mn></mrow></math> zł. Oznaczając przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> średni koszt okna w piątek, mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>11600</mn><mo>+</mo><mn>14</mn><mi>k</mi></mrow><mn>72</mn></mfrac><mo>=</mo><mn>207</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>14</mn><mi>k</mi><mo>=</mo><mn>3304</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>k</mi><mo>=</mo><mn>236</mn></mrow></math>. Średni koszt wyprodukowania jednego okna w piątek to 236 zł.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2024_dolnoslaskie_q3",
+      "number": 3,
+      "page": 4,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "trójkąty",
+        "pole i obwód"
+      ],
+      "prompt_html": "<p>Boki trójkąta równoramiennego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> mają długości: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AC</mi><mo>=</mo><mi>BC</mi><mo>=</mo><mn>10</mn></mrow></math> cm i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AB</mi><mo>=</mo><mn>16</mn></mrow></math> cm. Na boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> obrano punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math>, a na boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> – punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Q</mi></math> tak, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AC</mi><mo>+</mo><mi>CP</mi><mo>=</mo><mi>PB</mi><mo>+</mo><mi>BQ</mi><mo>=</mo><mi>QA</mi></mrow></math>. Jaką częścią pola trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>APQ</mi></math>?</p>",
+      "choices": [],
+      "figures": [
+        "wojewodzki_2024_dolnoslaskie_q3_fig1.png"
+      ],
+      "answer": {
+        "correct": "3/5 pola trójkąta ABC",
+        "solution_html": "<p>Obwód trójkąta wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>L</mi><mo>=</mo><mn>2</mn><mo>·</mo><mn>10</mn><mo>+</mo><mn>16</mn><mo>=</mo><mn>36</mn></mrow></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AC</mi><mo>+</mo><mi>CP</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>L</mi><mo>=</mo><mn>12</mn></mrow></math> wynika <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>CP</mi><mo>=</mo><mn>2</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>PB</mi><mo>=</mo><mn>8</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>QA</mi><mo>=</mo><mn>12</mn></mrow></math>. Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>w</mi></math> będzie wysokością trójkąta opuszczoną z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> na bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><msub><mi>P</mi><mi>ABP</mi></msub><msub><mi>P</mi><mi>ABC</mi></msub></mfrac><mo>=</mo><mfrac><mi>PB</mi><mi>BC</mi></mfrac><mo>=</mo><mfrac><mn>8</mn><mn>10</mn></mfrac><mo>=</mo><mfrac><mn>4</mn><mn>5</mn></mfrac></mrow></math>. Trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>APQ</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABP</mi></math> mają wspólną wysokość z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><msub><mi>P</mi><mi>APQ</mi></msub><msub><mi>P</mi><mi>ABP</mi></msub></mfrac><mo>=</mo><mfrac><mi>AQ</mi><mi>AB</mi></mfrac><mo>=</mo><mfrac><mn>12</mn><mn>16</mn></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>4</mn></mfrac></mrow></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>APQ</mi></msub><mo>=</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>·</mo><mfrac><mn>4</mn><mn>5</mn></mfrac><mo>·</mo><msub><mi>P</mi><mi>ABC</mi></msub><mo>=</mo><mfrac><mn>3</mn><mn>5</mn></mfrac><msub><mi>P</mi><mi>ABC</mi></msub></mrow></math>. Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>APQ</mi></math> stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>5</mn></mfrac></math> pola trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2024_dolnoslaskie_q4",
+      "number": 4,
+      "page": 5,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "ostrosłupy",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Na rysunku przedstawiono siatkę ostrosłupa prawidłowego czworokątnego, którego wysokość jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><mn>6</mn><msqrt><mn>2</mn></msqrt></mrow></math> cm. Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> są wierzchołkami kwadratu o polu 8 razy większym niż pole kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EFGH</mi></math>. Oblicz objętość tego ostrosłupa.</p>",
+      "choices": [],
+      "figures": [
+        "wojewodzki_2024_dolnoslaskie_q4_fig1.png"
+      ],
+      "answer": {
+        "correct": "72√2 cm³",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>EF</mi><mo>=</mo><mi>a</mi></mrow></math> (krawędź podstawy) i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AB</mi><mo>=</mo><mi>c</mi></mrow></math> (bok większego kwadratu). Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>c</mi><mn>2</mn></msup><mo>=</mo><mn>8</mn><msup><mi>a</mi><mn>2</mn></msup></mrow></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mi>a</mi></mrow></math>. Przekątna dużego kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AC</mi><mo>=</mo><mi>c</mi><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>4</mn><mi>a</mi></mrow></math> równa się <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>w</mi><mo>+</mo><mi>a</mi></mrow></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>w</mi></math> jest wysokością ściany bocznej poprowadzoną do krawędzi podstawy; stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>w</mi><mo>=</mo><mn>1,5</mn><mi>a</mi></mrow></math>. Z trójkąta prostokątnego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>w</mi><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mn>0,5</mn><mi>a</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mi>h</mi><mn>2</mn></msup></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2,25</mn><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mn>0,25</mn><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>72</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>36</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>6</mn></mrow></math>. Objętość ostrosłupa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>V</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><msup><mn>6</mn><mn>2</mn></msup><mo>·</mo><mn>6</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>72</mn><msqrt><mn>2</mn></msqrt></mrow></math> cm³.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2024_dolnoslaskie_q5",
+      "number": 5,
+      "page": 6,
+      "type": "open",
+      "points": 6,
+      "topics": [
+        "wyrażenia algebraiczne",
+        "zliczanie / metody zliczania"
+      ],
+      "prompt_html": "<p>Wyznacz wszystkie liczby trzycyfrowe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mover accent=\"true\"><mrow><mi>a</mi><mi>b</mi><mi>c</mi></mrow><mo>‾</mo></mover></math>, dla których <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>·</mo><mover accent=\"true\"><mrow><mi>b</mi><mi>c</mi></mrow><mo>‾</mo></mover><mo>+</mo><mi>b</mi><mo>·</mo><mover accent=\"true\"><mrow><mi>a</mi><mi>c</mi></mrow><mo>‾</mo></mover><mo>+</mo><mi>c</mi><mo>·</mo><mover accent=\"true\"><mrow><mi>a</mi><mi>b</mi></mrow><mo>‾</mo></mover><mo>=</mo><mn>85</mn></mrow></math>.</p><p>(Symbol <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mover accent=\"true\"><mrow><mi>x</mi><mi>y</mi><mi>z</mi></mrow><mo>‾</mo></mover></math> oznacza liczbę, której cyfrą setek jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>≠</mo><mn>0</mn></mrow></math>, cyfrą dziesiątek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> i cyfrą jedności jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi></math>. Symbol <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mover accent=\"true\"><mrow><mi>x</mi><mi>y</mi></mrow><mo>‾</mo></mover></math> – określamy analogicznie.)</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "115 i 123",
+        "solution_html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mover accent=\"true\"><mrow><mi>b</mi><mi>c</mi></mrow><mo>‾</mo></mover><mo>=</mo><mn>10</mn><mi>b</mi><mo>+</mo><mi>c</mi></mrow></math> itd., lewa strona równa się <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>(</mo><mn>10</mn><mi>b</mi><mo>+</mo><mi>c</mi><mo>)</mo><mo>+</mo><mi>b</mi><mo>(</mo><mn>10</mn><mi>a</mi><mo>+</mo><mi>c</mi><mo>)</mo><mo>+</mo><mi>c</mi><mo>(</mo><mn>10</mn><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mo>=</mo><mn>20</mn><mi>a</mi><mi>b</mi><mo>+</mo><mn>11</mn><mi>a</mi><mi>c</mi><mo>+</mo><mn>2</mn><mi>b</mi><mi>c</mi></mrow></math>. Z równości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>20</mn><mi>a</mi><mi>b</mi><mo>+</mo><mn>11</mn><mi>a</mi><mi>c</mi><mo>+</mo><mn>2</mn><mi>b</mi><mi>c</mi><mo>=</mo><mn>85</mn></mrow></math> wyznaczamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><mfrac><mrow><mn>85</mn><mo>−</mo><mn>20</mn><mi>a</mi><mi>b</mi></mrow><mrow><mn>11</mn><mi>a</mi><mo>+</mo><mn>2</mn><mi>b</mi></mrow></mfrac></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>≥</mo><mn>0</mn></mrow></math>, musi być <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>85</mn><mo>−</mo><mn>20</mn><mi>a</mi><mi>b</mi><mo>≥</mo><mn>0</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mi>b</mi><mo>≤</mo><mn>4,25</mn></mrow></math>. Rozpatrując przypadki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mi>b</mi><mo>∈</mo><mo>{</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>4</mn><mo>}</mo></mrow></math>, jedyne całkowite wartości cyfry <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> dają rozwiązania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>1</mn><mo>,</mo><mi>b</mi><mo>=</mo><mn>1</mn><mo>,</mo><mi>c</mi><mo>=</mo><mn>5</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>1</mn><mo>,</mo><mi>b</mi><mo>=</mo><mn>2</mn><mo>,</mo><mi>c</mi><mo>=</mo><mn>3</mn></mrow></math>. Szukane liczby to 115 i 123.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2024_dolnoslaskie_q6",
+      "number": 6,
+      "page": 7,
+      "type": "open",
+      "points": 6,
+      "topics": [
+        "układy równań",
+        "wzory skróconego mnożenia"
+      ],
+      "prompt_html": "<p>Liczby rzeczywiste <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>w</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi></math> spełniają jednocześnie następujące warunki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mi>y</mi><mo>+</mo><mi>w</mi><mi>z</mi><mo>=</mo><mn>170</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><mn>242</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>w</mi><mn>2</mn></msup><mo>+</mo><msup><mi>z</mi><mn>2</mn></msup><mo>=</mo><mn>98</mn></mrow></math>. Oblicz wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>w</mi><mo>+</mo><mi>x</mi></mrow><mrow><mi>y</mi><mo>+</mo><mi>z</mi></mrow></mfrac></math> dla takich liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi></math>, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>+</mo><mi>z</mi><mo>≠</mo><mn>0</mn></mrow></math>.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "1",
+        "solution_html": "<p>Mnożąc pierwsze równanie przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>2</mn></mrow></math> i dodając do sumy dwóch pozostałych, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>x</mi><mi>y</mi><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup><mo>+</mo><msup><mi>w</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>w</mi><mi>z</mi><mo>+</mo><msup><mi>z</mi><mn>2</mn></msup><mo>=</mo><mo>−</mo><mn>340</mn><mo>+</mo><mn>242</mn><mo>+</mo><mn>98</mn><mo>=</mo><mn>0</mn></mrow></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mi>x</mi><mo>−</mo><mi>y</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mi>w</mi><mo>−</mo><mi>z</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>0</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mi>y</mi></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>w</mi><mo>=</mo><mi>z</mi></mrow></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mi>w</mi><mo>+</mo><mi>x</mi></mrow><mrow><mi>y</mi><mo>+</mo><mi>z</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mi>z</mi><mo>+</mo><mi>y</mi></mrow><mrow><mi>y</mi><mo>+</mo><mi>z</mi></mrow></mfrac><mo>=</mo><mn>1</mn></mrow></math>.</p>"
+      }
+    }
+  ]
+}

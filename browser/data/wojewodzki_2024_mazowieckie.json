@@ -1,0 +1,282 @@
+{
+  "source_file": "wojewodzki/2024_mazowieckie.pdf",
+  "answers_file": "wojewodzki/2024_mazowieckie_answers.pdf",
+  "competition": "Konkurs Matematyczny dla uczniów szkół podstawowych województwa mazowieckiego",
+  "school_type": "podstawowa",
+  "stage": "wojewodzki",
+  "wojewodztwo": "mazowieckie",
+  "school_year": "2023/2024",
+  "date": "2024-03-07",
+  "total_questions": 11,
+  "max_points": 20,
+  "questions": [
+    {
+      "id": "wojewodzki_2024_mazowieckie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "potęgi i pierwiastki",
+        "czworokąty",
+        "pole i obwód"
+      ],
+      "prompt_html": "<p>Jaką liczbą jest średnia arytmetyczna długości podstaw trapezu, którego pole jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>30</mn><msqrt><mn>2</mn></msqrt></mrow></math>, a wysokość 6? Wybierz wszystkie poprawne odpowiedzi spośród poniższych.</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "naturalną"
+        },
+        {
+          "label": "B",
+          "html": "niewymierną"
+        },
+        {
+          "label": "C",
+          "html": "większą niż <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msqrt><mn>10</mn></msqrt></mrow></math>"
+        },
+        {
+          "label": "D",
+          "html": "mniejszą niż 7"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B, C",
+        "solution_html": "<p>Pole trapezu jest równe iloczynowi średniej arytmetycznej długości podstaw i wysokości, więc średnia arytmetyczna podstaw wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>30</mn><msqrt><mn>2</mn></msqrt></mrow><mn>6</mn></mfrac><mo>=</mo><mn>5</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><msqrt><mn>50</mn></msqrt></mrow></math>. Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><msqrt><mn>2</mn></msqrt></mrow></math> jest niewymierna (B). Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msqrt><mn>10</mn></msqrt><mo>=</mo><msqrt><mn>40</mn></msqrt></mrow></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>50</mn></msqrt><mo>&gt;</mo><msqrt><mn>40</mn></msqrt></mrow></math>, więc jest ona większa niż <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msqrt><mn>10</mn></msqrt></mrow></math> (C). Jednocześnie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>50</mn></msqrt><mo>&gt;</mo><msqrt><mn>49</mn></msqrt><mo>=</mo><mn>7</mn></mrow></math>, więc nie jest mniejsza niż 7, ani naturalna. Poprawne odpowiedzi to B i C.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2024_mazowieckie_q2",
+      "number": 2,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "statystyka opisowa",
+        "proporcjonalność prosta"
+      ],
+      "prompt_html": "<p>Pani Aneta ma plantację truskawek. Na wykresie przedstawiono liczbę zebranych łubianek truskawek przez panią Anetę w kolejnych godzinach pracy pewnego dnia.</p><p>Wybierz poprawną odpowiedź spośród oznaczonych literami A i B oraz C i D.</p><p>W pierwszej godzinie pracy pani Aneta zebrała średnio (A albo B) łubianek truskawek w ciągu 10 minut:</p><p>Gdyby wydajność pani Anety była taka, jak po drugiej przerwie, to 90 łubianek truskawek zebrałaby w (C albo D) godzin ciągłej pracy:</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "5"
+        },
+        {
+          "label": "B",
+          "html": "6"
+        },
+        {
+          "label": "C",
+          "html": "9"
+        },
+        {
+          "label": "D",
+          "html": "8"
+        }
+      ],
+      "figures": [
+        "wojewodzki_2024_mazowieckie_q2_fig1.png"
+      ],
+      "answer": {
+        "correct": "A, C",
+        "solution_html": "<p>W pierwszej godzinie pracy (od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>8</mn><mn>00</mn></msup></math> do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>9</mn><mn>00</mn></msup></math>) pani Aneta zebrała 30 łubianek. W ciągu 10 minut zebrała więc średnio <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>30</mn><mo>:</mo><mn>6</mn><mo>=</mo><mn>5</mn></mrow></math> łubianek (odpowiedź A). Po drugiej przerwie liczba łubianek rosła od 75 do 90, czyli o 15 w ciągu 1,5 godziny, co daje wydajność 10 łubianek na godzinę. Przy takiej wydajności 90 łubianek zebrałaby w <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>90</mn><mo>:</mo><mn>10</mn><mo>=</mo><mn>9</mn></mrow></math> godzin (odpowiedź C).</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2024_mazowieckie_q3",
+      "number": 3,
+      "page": 3,
+      "type": "true_false",
+      "points": 1,
+      "topics": [
+        "czworokąty",
+        "pole i obwód",
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>Boki czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> mają różne długości. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> jest środkiem boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>, a punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math> środkiem boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DC</mi></math>. W dowolnym czworokącie spełniającym powyższe warunki:</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "pola trójkątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AED</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EBD</mi></math> są równe."
+        },
+        {
+          "label": "2",
+          "html": "pole czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BFDE</mi></math> jest połową pola czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PP",
+        "solution_html": "<p>Trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AED</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EBD</mi></math> mają wspólną wysokość opuszczoną z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> na prostą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> oraz równe podstawy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AE</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>EB</mi><mo>|</mo></mrow></math>, więc mają równe pola — zdanie 1 jest prawdziwe (P). Dzieląc czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BFDE</mi></math> przekątną <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math> na trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BDE</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BDF</mi></math>: ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> jest środkiem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>BDE</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msub><mi>P</mi><mi>ABD</mi></msub></mrow></math>, a ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math> jest środkiem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DC</mi></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>BDF</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msub><mi>P</mi><mi>BDC</mi></msub></mrow></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>BFDE</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>(</mo><msub><mi>P</mi><mi>ABD</mi></msub><mo>+</mo><msub><mi>P</mi><mi>BDC</mi></msub><mo>)</mo><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msub><mi>P</mi><mi>ABCD</mi></msub></mrow></math> — zdanie 2 jest prawdziwe (P).</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2024_mazowieckie_q4",
+      "number": 4,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "procenty"
+      ],
+      "prompt_html": "<p>W wodnym roztworze cukru, którego masa wynosi 1,2 kg, stosunek masy cukru do masy wody jest równy 15:25.</p><p>Wybierz poprawną odpowiedź spośród oznaczonych literami A i B oraz C i D.</p><p>Cukier stanowi (A albo B) masy tego roztworu:</p><p>Jeśli do tego roztworu dodamy 300 g cukru, to stężenie roztworu wzrośnie o (C albo D):</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>25</mn><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>%</mo></mrow></math>"
+        },
+        {
+          "label": "B",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>37</mn><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>%</mo></mrow></math>"
+        },
+        {
+          "label": "C",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>33</mn><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>%</mo></mrow></math>"
+        },
+        {
+          "label": "D",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>12</mn><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>%</mo></mrow></math>"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B, C",
+        "solution_html": "<p>Stosunek masy cukru do masy wody wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>:</mo><mn>25</mn><mo>=</mo><mn>3</mn><mo>:</mo><mn>5</mn></mrow></math>, więc cukier stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>8</mn></mfrac></math> masy roztworu, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>3</mn><mn>8</mn></mfrac><mo>=</mo><mn>37</mn><mo>,</mo><mn>5</mn><mo>%</mo><mo>=</mo><mn>37</mn><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>%</mo></mrow></math> (odpowiedź B). Masa cukru to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0</mn><mo>,</mo><mn>375</mn><mo>·</mo><mn>1200</mn><mo>=</mo><mn>450</mn></mrow></math> g. Po dodaniu 300 g cukru masa cukru wynosi 750 g, a masa roztworu 1500 g, więc stężenie wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>750</mn><mo>:</mo><mn>1500</mn><mo>=</mo><mn>50</mn><mo>%</mo></mrow></math>. Stężenie wzrosło z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>37</mn><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>%</mo></mrow></math> do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>50</mn><mo>%</mo></mrow></math>, czyli o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>50</mn><mo>−</mo><mn>37</mn><mo>,</mo><mn>5</mn></mrow><mrow><mn>37</mn><mo>,</mo><mn>5</mn></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>=</mo><mn>33</mn><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>%</mo></mrow></math> (odpowiedź C).</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2024_mazowieckie_q5",
+      "number": 5,
+      "page": 4,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "koła / okręgi",
+        "pole i obwód",
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>Wewnątrz kwadratu zacieniowano pole, którego brzegi są odcinkami lub częściami okręgu. Wykaż, że zacieniowane pole stanowi mniej niż <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>8</mn></mfrac></math> pola kwadratu. W uzasadnieniu możesz przyjąć, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>π</mi><mo>&gt;</mo><mn>3</mn></mrow></math>.</p>",
+      "choices": [],
+      "figures": [
+        "wojewodzki_2024_mazowieckie_q5_fig1.png"
+      ],
+      "answer": {
+        "correct": "Zacieniowane pole stanowi mniej niż 3/8 pola kwadratu",
+        "solution_html": "<p>Przyjmijmy, że bok kwadratu ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi></mrow></math> (kwadrat składa się z czterech kwadratów o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>), więc jego pole wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></math>. W górnej połowie każdy z dwóch zacieniowanych „liści” między przekątną kwadracika a ćwiartką okręgu ma pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mn>1</mn></msub><mo>=</mo><mfrac><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mfrac><mrow><mi>π</mi><msup><mi>x</mi><mn>2</mn></msup></mrow><mn>2</mn></mfrac></mrow><mn>2</mn></mfrac><mo>=</mo><mfrac><mrow><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mi>π</mi><msup><mi>x</mi><mn>2</mn></msup></mrow><mn>4</mn></mfrac></mrow></math>. W dolnej połowie pole niezacieniowanych „liści” wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mn>2</mn></msub><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><msub><mi>P</mi><mn>1</mn></msub><mo>=</mo><mfrac><mrow><mo>−</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>π</mi><msup><mi>x</mi><mn>2</mn></msup></mrow><mn>2</mn></mfrac></mrow></math>. Zacieniowane pole to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>z</mi></msub><mo>=</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><msub><mi>P</mi><mn>2</mn></msub><mo>=</mo><mfrac><mrow><mn>6</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mi>π</mi><msup><mi>x</mi><mn>2</mn></msup></mrow><mn>2</mn></mfrac></mrow></math>, więc jego stosunek do pola kwadratu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><msub><mi>P</mi><mi>z</mi></msub><mrow><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>6</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mi>π</mi><msup><mi>x</mi><mn>2</mn></msup></mrow><mrow><mn>8</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>π</mi><mo>&gt;</mo><mn>3</mn></mrow></math>, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>6</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mi>π</mi><msup><mi>x</mi><mn>2</mn></msup></mrow><mrow><mn>8</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mo>&lt;</mo><mfrac><mrow><mn>6</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup></mrow><mrow><mn>8</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>8</mn></mfrac></mrow></math>, co należało wykazać.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2024_mazowieckie_q6",
+      "number": 6,
+      "page": 5,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "dwusieczna kąta / symetralna odcinka",
+        "czworokąty",
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>Uzasadnij, że jeśli w rombie symetralne dwóch sąsiednich boków przecinają się w wierzchołku kąta rozwartego, to dzielą dłuższą przekątną rombu na trzy równe odcinki.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Symetralne dzielą dłuższą przekątną rombu na trzy równe odcinki",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> będzie rombem, w którym symetralne boków przecinają się w wierzchołku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> kąta rozwartego, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> — dłuższą przekątną, przeciętą przez symetralne w punktach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math>. Symetralna boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> przechodzi przez środek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>G</mi></math> boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> (po przeniesieniu), a w trójkącie prostokątnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AGD</mi></math> przeciwprostokątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AD</mi><mo>|</mo><mo>=</mo><mn>2</mn><mi>a</mi></mrow></math> jest dwa razy dłuższa od przyprostokątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AG</mi><mo>|</mo><mo>=</mo><mi>a</mi></mrow></math>, więc jest on połową trójkąta równobocznego i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mo>∡</mo><mi>DAG</mi><mo>|</mo><mo>=</mo><mn>60</mn><mo>°</mo></mrow></math>. Kąty rombu wynoszą więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>60</mn><mo>°</mo></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>120</mn><mo>°</mo></mrow></math>. Symetralna boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> przecina przekątną w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math>, dla którego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mo>∡</mo><mi>DAE</mi><mo>|</mo><mo>=</mo><mo>|</mo><mo>∡</mo><mi>ADE</mi><mo>|</mo><mo>=</mo><mn>30</mn><mo>°</mo></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AE</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>DE</mi><mo>|</mo><mo>=</mo><mi>x</mi></mrow></math>. Z przystawania trójkątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AED</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DFC</mi></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>DF</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>FC</mi><mo>|</mo><mo>=</mo><mi>x</mi></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mo>∡</mo><mi>ADC</mi><mo>|</mo><mo>=</mo><mn>120</mn><mo>°</mo></mrow></math>, to w trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EDF</mi></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mo>∡</mo><mi>EDF</mi><mo>|</mo><mo>=</mo><mn>60</mn><mo>°</mo></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>DE</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>DF</mi><mo>|</mo><mo>=</mo><mi>x</mi></mrow></math>, więc jest on równoboczny i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>EF</mi><mo>|</mo><mo>=</mo><mi>x</mi></mrow></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AE</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>EF</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>FC</mi><mo>|</mo><mo>=</mo><mi>x</mi></mrow></math>, czyli symetralne dzielą dłuższą przekątną na trzy równe odcinki.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2024_mazowieckie_q7",
+      "number": 7,
+      "page": 6,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "reszta z dzielenia",
+        "wzory skróconego mnożenia"
+      ],
+      "prompt_html": "<p>Liczba naturalna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> przy dzieleniu przez 5 daje resztę 3. Jaką resztę przy dzieleniu przez 5 daje liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>3</mn><mi>n</mi><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup></math>? Odpowiedź uzasadnij.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "4",
+        "solution_html": "<p>Skoro <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> przy dzieleniu przez 5 daje resztę 3, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>=</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>3</mn></mrow></math> dla pewnej liczby naturalnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>. Korzystając ze wzoru skróconego mnożenia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mn>3</mn><mi>n</mi><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>9</mn><msup><mi>n</mi><mn>2</mn></msup><mo>−</mo><mn>6</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow></math>. Podstawiając <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>=</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>3</mn></mrow></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><msup><mrow><mo>(</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>3</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>−</mo><mn>6</mn><mo>(</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>+</mo><mn>1</mn><mo>=</mo><mn>225</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>240</mn><mi>x</mi><mo>+</mo><mn>64</mn><mo>=</mo><mn>5</mn><mo>(</mo><mn>45</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>48</mn><mi>x</mi><mo>+</mo><mn>12</mn><mo>)</mo><mo>+</mo><mn>4</mn></mrow></math>. Reszta przy dzieleniu liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>3</mn><mi>n</mi><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup></math> przez 5 wynosi więc 4.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2024_mazowieckie_q8",
+      "number": 8,
+      "page": 7,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "zliczanie / metody zliczania",
+        "kombinatoryka"
+      ],
+      "prompt_html": "<p>Do zaszyfrowania załączników wysyłanych pocztą elektroniczną pewna firma stosuje kody składające się z 3 liter i 3 cyfr, które powstają według zasady: w kodzie występują tylko litery C, L, Z i dowolne cyfry, przy czym litery i cyfry nie mogą się powtarzać oraz litery C i L „stoją” obok siebie. Oblicz, ile takich kodów można utworzyć.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "28800",
+        "solution_html": "<p>Kod ma 6 pozycji: 3 litery (C, L, Z bez powtórzeń) i 3 różne cyfry. Litery C i L muszą stać obok siebie w kolejności CL. Para CL może zajmować jedno z 5 sąsiednich położeń wśród sześciu pozycji. Przy ustalonym położeniu pary CL literę Z można umieścić na 4 sposoby (jedno z czterech pozostałych miejsc), a trzy miejsca na cyfry obsadzić na <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mo>·</mo><mn>9</mn><mo>·</mo><mn>8</mn></mrow></math> sposobów, co daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><mn>10</mn><mo>·</mo><mn>9</mn><mo>·</mo><mn>8</mn><mo>=</mo><mn>2880</mn></mrow></math> kodów. Dla 5 położeń pary CL jest to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>·</mo><mn>2880</mn><mo>=</mo><mn>14400</mn></mrow></math> kodów. Analogicznie dla układu liter LC otrzymujemy kolejne 14400 kodów. Łącznie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>14400</mn><mo>+</mo><mn>14400</mn><mo>=</mo><mn>28800</mn></mrow></math> kodów.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2024_mazowieckie_q9",
+      "number": 9,
+      "page": 8,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "nierówności",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Suma dwóch liczb naturalnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest mniejsza niż 270. Trzykrotność liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest równa dwukrotności liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>. Znajdź liczby spełniające warunki zadania takie, aby liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> była możliwie największa. Odpowiedź uzasadnij.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "a = 106, b = 159",
+        "solution_html": "<p>Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>a</mi><mo>=</mo><mn>2</mn><mi>b</mi></mrow></math> wynika, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>2</mn><mi>x</mi></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>3</mn><mi>x</mi></mrow></math> dla pewnej liczby naturalnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>. Z nierówności <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>&lt;</mo><mn>270</mn></mrow></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>3</mn><mi>x</mi><mo>&lt;</mo><mn>270</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mi>x</mi><mo>&lt;</mo><mn>270</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>&lt;</mo><mn>54</mn></mrow></math>. Największą liczbą naturalną spełniającą ten warunek jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>53</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>2</mn><mo>·</mo><mn>53</mn><mo>=</mo><mn>106</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>3</mn><mo>·</mo><mn>53</mn><mo>=</mo><mn>159</mn></mrow></math>. Szukane liczby to 106 i 159.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2024_mazowieckie_q10",
+      "number": 10,
+      "page": 9,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "układ współrzędnych",
+        "pole i obwód",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Oblicz pole pięciokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDE</mi></math>, którego wierzchołki leżą w punktach:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mo>=</mo><mo>(</mo><mi>k</mi><mo>+</mo><mn>5</mn><mo>,</mo><mfrac><mi>k</mi><mn>2</mn></mfrac><mo>)</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>B</mi><mo>=</mo><mo>(</mo><mfrac><mrow><mo>−</mo><mi>k</mi></mrow><mn>3</mn></mfrac><mo>+</mo><mn>2</mn><mo>,</mo><mi>k</mi><mo>+</mo><mn>6</mn><mo>)</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>C</mi><mo>=</mo><mo>(</mo><mfrac><msup><mi>k</mi><mn>2</mn></msup><mrow><mn>2</mn><mo>·</mo><msup><mn>3</mn><mn>2</mn></msup></mrow></mfrac><mo>,</mo><mo>−</mo><mi>k</mi><mo>−</mo><mn>2</mn><mo>)</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>D</mi><mo>=</mo><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>k</mi><mo>+</mo><mn>3</mn><mo>,</mo><msup><mi>k</mi><mn>0</mn></msup><mo>)</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>E</mi><mo>=</mo><mo>(</mo><mi>k</mi><mo>+</mo><mn>1</mn><mo>,</mo><mfrac><mrow><mo>−</mo><mn>12</mn></mrow><mi>k</mi></mfrac><mo>)</mo></mrow></math>, wiedząc, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>6</mn></mrow></math>.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "26",
+        "solution_html": "<p>Podstawiając <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>k</mi><mo>=</mo><mo>−</mo><mn>6</mn></mrow></math>, obliczamy współrzędne wierzchołków: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>1</mn><mo>,</mo><mo>−</mo><mn>3</mn><mo>)</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>B</mi><mo>=</mo><mo>(</mo><mn>4</mn><mo>,</mo><mn>0</mn><mo>)</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>C</mi><mo>=</mo><mo>(</mo><mn>2</mn><mo>,</mo><mn>4</mn><mo>)</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>D</mi><mo>=</mo><mo>(</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo>)</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>E</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>5</mn><mo>,</mo><mn>2</mn><mo>)</mo></mrow></math>. Pięciokąt zawiera się w prostokącie o wymiarach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mo>×</mo><mn>7</mn></mrow></math> (o polu 63). Odejmując od pola prostokąta pola trójkątów prostokątnych i trapezu powstałych przy jego uzupełnieniu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mn>9</mn><mo>·</mo><mn>7</mn><mo>−</mo><mo>(</mo><mfrac><mrow><mn>5</mn><mo>·</mo><mn>4</mn></mrow><mn>2</mn></mfrac><mo>+</mo><mfrac><mrow><mn>5</mn><mo>·</mo><mn>3</mn></mrow><mn>2</mn></mfrac><mo>+</mo><mfrac><mrow><mn>4</mn><mo>·</mo><mn>2</mn></mrow><mn>2</mn></mfrac><mo>+</mo><mfrac><mrow><mn>2</mn><mo>·</mo><mn>3</mn></mrow><mn>2</mn></mfrac><mo>+</mo><mfrac><mrow><mo>(</mo><mn>3</mn><mo>+</mo><mn>2</mn><mo>)</mo><mo>·</mo><mn>5</mn></mrow><mn>2</mn></mfrac><mo>)</mo><mo>=</mo><mn>63</mn><mo>−</mo><mn>37</mn><mo>=</mo><mn>26</mn></mrow></math>. Pole pięciokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDE</mi></math> wynosi 26.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2024_mazowieckie_q11",
+      "number": 11,
+      "page": 10,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "ostrosłupy",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Janek i Julka projektowali siatki ostrosłupów. Najpierw każde z nich narysowało identyczny kwadrat. Następnie Janek podzielił ten kwadrat na trójkąty, a Julka dorysowała trójkąt równoboczny na zewnątrz jednego boku kwadratu i usunęła jeden wielokąt. W ten sposób otrzymali siatki, jak na poniższych rysunkach, z których skleili bryły. Różnica pól największej ściany bryły Janka i najmniejszej ściany bryły Julki wynosi 2. Oblicz pola powierzchni całkowitych tych brył oraz ich objętości.</p>",
+      "choices": [],
+      "figures": [
+        "wojewodzki_2024_mazowieckie_q11_fig1.png"
+      ],
+      "answer": {
+        "correct": "P₁ = 16, P₂ = 12 + 4√3, V₁ = 8/3, V₂ = 8√2/3",
+        "solution_html": "<p>Niech bok kwadratu ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi></mrow></math>. Największą ścianą bryły Janka jest trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DEF</mi></math> o polu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mo>·</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mfrac><msup><mi>x</mi><mn>2</mn></msup><mn>2</mn></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><msup><mi>x</mi><mn>2</mn></msup></mrow></math>, a najmniejszą ścianą bryły Julki — trójkąt o polu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>3</mn><mn>2</mn></mfrac><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mn>2</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>2</mn></mrow></math>. Pole powierzchni całkowitej ostrosłupa Janka to pole kwadratu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mn>1</mn></msub><mo>=</mo><mn>16</mn></mrow></math>. Pole powierzchni całkowitej ostrosłupa Julki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mn>2</mn></msub><mo>=</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>·</mo><mn>16</mn><mo>+</mo><mfrac><mrow><mn>16</mn><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mn>12</mn><mo>+</mo><mn>4</mn><msqrt><mn>3</mn></msqrt></mrow></math>. Objętości: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>V</mi><mn>1</mn></msub><mo>=</mo><mfrac><mrow><msub><mi>P</mi><mi>p</mi></msub><mo>·</mo><mi>h</mi></mrow><mn>3</mn></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn><mo>·</mo><mn>4</mn></mrow><mn>3</mn></mfrac><mo>=</mo><mfrac><mn>8</mn><mn>3</mn></mfrac></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>V</mi><mn>2</mn></msub><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mfrac><mn>16</mn><mn>4</mn></mfrac><mo>·</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mfrac><mrow><mn>8</mn><msqrt><mn>2</mn></msqrt></mrow><mn>3</mn></mfrac></mrow></math>.</p>"
+      }
+    }
+  ]
+}

@@ -204,7 +204,32 @@ the know-how that used to live only in the chat; everything needed to resume is 
        192 cm²); key row looks mismatched. Stored the correct 192; verify in blind pass.
     3. `rejonowy_2014_podkarpackie_q16` — arkusz omitted square labels; everyone got 1 pt but key
        still lists B. Kept correct=B + italic note (not an annulment).
-- **wojewodzki: 125 / 160** processed (batches 1–7 done 2026-07-25).
+- **wojewodzki: 160 / 160** processed — **COMPLETE** (batches 1–9 done; batch 9 2026-07-26).
+  - **Batch 9 (15, the 2025/2026 tail):** 2025_{lodzkie, lubelskie (embedded key), lubuskie, mazowieckie,
+    opolskie, podkarpackie, podlaskie}, 2026_{dolnoslaskie, kujawsko-pomorskie, lodzkie, lubelskie
+    (embedded key), lubuskie, mazowieckie, opolskie, podkarpackie}. All keyed (every question answered),
+    all points sum to max, no dup ids, no missing figures. Keys all read via `pdftotext -layout` first —
+    NO corrupt-image-layer cases this batch. lubuskie 2025 & 2026 print no voivodeship (slug from filename,
+    as expected). 2025-filename łódzkie/lubelskie/opolskie/podkarpackie print school_year 2024/2025 (header
+    trusted). lubuskie/mazowieckie multi-select modeled `closed_single` with comma-joined labels per convention.
+  - **Batch 8 (20):** 2024_{dolnoslaskie, kujawsko-pomorskie, lodzkie, lubelskie (embedded key),
+    lubuskie, mazowieckie, opolskie, podkarpackie, podlaskie}, 2024-2025_{slaskie, swietokrzyskie,
+    warminsko-mazurskie (GENUINE Olsztyn), wielkopolskie, zachodniopomorskie}, 2025_kujawsko-pomorskie,
+    2025-2026_{malopolskie, pomorskie (bundled), slaskie, swietokrzyskie, wielkopolskie}. All 2024-filename
+    files print school_year 2023/2024 (header trusted). śląskie 2024-25 & 2025-26 are pure MATEMATYKA
+    (no przyroda). śląskie 2024-25 q1 = 20-pt crossword stored as `open`.
+  - **⚠️ CORRUPT IMAGE LAYER in several _answers.pdf (batch 8):** `pdftoppm` renders the WRONG
+    competition (usually the wielkopolskie 2025/26 key, sometimes śląskie/podkarpackie) but
+    `pdftotext -layout` yields the CORRECT key. Five files first came back "keyless" from agents who
+    trusted the image render; recovered by re-reading the TEXT layer: **2024_kujawsko-pomorskie,
+    2024_podlaskie, 2025-2026_slaskie, 2025-2026_pomorskie** (2024_lodzkie's agent caught it live).
+    **LESSON: read answer keys via `pdftotext -layout` first; only fall back to pdftoppm if there is
+    no text layer.**
+  - **Genuinely keyless (answers null): 2024_lubuskie** — its `_answers.pdf` has NO text layer (3 bytes,
+    pure scanned image showing podlaskie content); the question paper also prints no voivodeship, so
+    `wojewodztwo: lubuskie` relies on the filename. Real lubuskie 2024 key still needs sourcing.
+  - **New suspected key-error flag:** wojewodzki_2024_opolskie_q8 — key prints "(66, 154)" but 66+154=220
+    fails the "suma=200" premise; correct pair 66 & 134; stored corrected, logged in suspected_key_errors.tsv.
   - **Batch 7 (15):** 2023_dolnoslaskie/kujawsko-pomorskie/lodzkie/lubelskie (embedded key)/lubuskie/
     mazowieckie/opolskie/podkarpackie/podlaskie, 2023-2024_{swietokrzyskie, warminsko-mazurskie,
     wielkopolskie, zachodniopomorskie}, 2024-2025_{malopolskie, pomorskie (bundled)}. All keyed +

@@ -1,0 +1,461 @@
+{
+  "source_file": "wojewodzki/2026_kujawsko-pomorskie.pdf",
+  "answers_file": "wojewodzki/2026_kujawsko-pomorskie_answers.pdf",
+  "competition": "Konkurs Przedmiotowy z Matematyki dla uczniów szkół podstawowych województwa kujawsko-pomorskiego",
+  "school_type": "podstawowa",
+  "stage": "wojewodzki",
+  "wojewodztwo": "kujawsko-pomorskie",
+  "school_year": "2025/2026",
+  "date": "2026-02-28",
+  "total_questions": 22,
+  "max_points": 40,
+  "questions": [
+    {
+      "id": "wojewodzki_2026_kujawsko-pomorskie_q1",
+      "number": 1,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "trójkąty"
+      ],
+      "prompt_html": "<p>W trójkącie stosunek miar kątów jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>:</mo><mn>5</mn><mo>:</mo><mn>7</mn></mrow></math>. Najmniejszy kąt tego trójkąta ma miarę:</p>",
+      "choices": [
+        { "label": "A", "html": "12°" },
+        { "label": "B", "html": "36°" },
+        { "label": "C", "html": "60°" },
+        { "label": "D", "html": "84°" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": "<p>Oznaczmy kąty przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>α</mi></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mi>α</mi></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7</mn><mi>α</mi></mrow></math>. Suma kątów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>α</mi><mo>+</mo><mn>5</mn><mi>α</mi><mo>+</mo><mn>7</mn><mi>α</mi><mo>=</mo><mn>15</mn><mi>α</mi><mo>=</mo><mn>180</mn><mo>°</mo></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>=</mo><mn>12</mn><mo>°</mo></mrow></math>. Najmniejszy kąt to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>α</mi><mo>=</mo><mn>36</mn><mo>°</mo></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2026_kujawsko-pomorskie_q2",
+      "number": 2,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "kąty"
+      ],
+      "prompt_html": "<p>Jeżeli kąt ostry <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> jest o 30° mniejszy od kąta przyległego do niego, to:</p>",
+      "choices": [
+        { "label": "A", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>=</mo><mn>75</mn><mo>°</mo></mrow></math>" },
+        { "label": "B", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>=</mo><mn>150</mn><mo>°</mo></mrow></math>" },
+        { "label": "C", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>=</mo><mn>105</mn><mo>°</mo></mrow></math>" },
+        { "label": "D", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>=</mo><mn>60</mn><mo>°</mo></mrow></math>" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": "<p>Kąt przyległy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>β</mi><mo>=</mo><mi>α</mi><mo>+</mo><mn>30</mn><mo>°</mo></mrow></math>, a kąty przyległe sumują się do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>°</mo></mrow></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>α</mi><mo>+</mo><mn>30</mn><mo>°</mo><mo>=</mo><mn>180</mn><mo>°</mo></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>=</mo><mn>75</mn><mo>°</mo></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2026_kujawsko-pomorskie_q3",
+      "number": 3,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "czworokąty",
+        "pole i obwód"
+      ],
+      "prompt_html": "<p>Która figura ma pole <strong>inne</strong> niż trapez o podstawach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> oraz wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math>? Wybierz właściwą odpowiedź spośród podanych.</p>",
+      "choices": [
+        { "label": "A", "html": "Prostokąt o wymiarach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,5</mn><mi>h</mi></mrow></math>." },
+        { "label": "B", "html": "Równoległobok o boku długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,5</mn><mi>h</mi></mrow></math> i wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo></mrow></math> opuszczonej na ten bok." },
+        { "label": "C", "html": "Romb o przekątnych długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,5</mn><mi>h</mi></mrow></math>." },
+        { "label": "D", "html": "Trójkąt o podstawie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo></mrow></math> i wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math> opuszczonej na ten bok." }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": "<p>Pole trapezu to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mfrac><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mo>·</mo><mi>h</mi></mrow><mn>2</mn></mfrac></mrow></math>. Figury A, B i D mają takie samo pole, natomiast romb (C) ma pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mo>·</mo><mn>0,5</mn><mi>h</mi><mo>=</mo><mfrac><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mo>·</mo><mi>h</mi></mrow><mn>4</mn></mfrac></mrow></math>, czyli inne.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2026_kujawsko-pomorskie_q4",
+      "number": 4,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Księżyc ma powierzchnię około <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3,79</mn><mo>·</mo><msup><mn>10</mn><mn>13</mn></msup></mrow></math> m². Ile to kilometrów kwadratowych? Wybierz właściwą odpowiedź spośród podanych.</p>",
+      "choices": [
+        { "label": "A", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,379</mn><mo>·</mo><msup><mn>10</mn><mn>10</mn></msup></mrow></math> km²" },
+        { "label": "B", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3,79</mn><mo>·</mo><msup><mn>10</mn><mn>10</mn></msup></mrow></math> km²" },
+        { "label": "C", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,00379</mn><mo>·</mo><msup><mn>10</mn><mn>13</mn></msup></mrow></math> km²" },
+        { "label": "D", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3,79</mn><mo>·</mo><msup><mn>10</mn><mn>7</mn></msup></mrow></math> km²" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><msup><mtext> km</mtext><mn>2</mn></msup><mo>=</mo><msup><mn>10</mn><mn>6</mn></msup><msup><mtext> m</mtext><mn>2</mn></msup></mrow></math>, mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3,79</mn><mo>·</mo><msup><mn>10</mn><mn>13</mn></msup><msup><mtext> m</mtext><mn>2</mn></msup><mo>=</mo><mn>3,79</mn><mo>·</mo><msup><mn>10</mn><mn>7</mn></msup><msup><mtext> km</mtext><mn>2</mn></msup></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2026_kujawsko-pomorskie_q5",
+      "number": 5,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "równania z jedną zmienną",
+        "podzielność"
+      ],
+      "prompt_html": "<p>Dzielimy bez reszty dwie liczby naturalne. Dzielna jest 6 razy większa od dzielnika, a dzielnik jest 5 razy większy od ilorazu. Zatem dzielna jest liczbą:</p>",
+      "choices": [
+        { "label": "A", "html": "dwucyfrową" },
+        { "label": "B", "html": "pierwszą" },
+        { "label": "C", "html": "podzielną przez 9" },
+        { "label": "D", "html": "większą od 180" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": "<p>Niech dzielnik będzie równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>. Iloraz to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mi>x</mi><mo>:</mo><mi>x</mi><mo>=</mo><mn>6</mn></mrow></math>, a ponieważ dzielnik jest 5 razy większy od ilorazu, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>5</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>30</mn></mrow></math>. Dzielna wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>·</mo><mn>30</mn><mo>=</mo><mn>180</mn></mrow></math>, a liczba 180 jest podzielna przez 9.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2026_kujawsko-pomorskie_q6",
+      "number": 6,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "ostrosłupy"
+      ],
+      "prompt_html": "<p>Ile wierzchołków ma ostrosłup, w którym suma liczby wszystkich ścian i liczby wszystkich krawędzi wynosi 25.</p>",
+      "choices": [
+        { "label": "A", "html": "6" },
+        { "label": "B", "html": "7" },
+        { "label": "C", "html": "8" },
+        { "label": "D", "html": "9" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> to liczba krawędzi podstawy. Wtedy ścian jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></math>, krawędzi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi></mrow></math>, wierzchołków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></math>. Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>1</mn><mo>+</mo><mn>2</mn><mi>x</mi><mo>=</mo><mn>25</mn></mrow></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>8</mn></mrow></math>, więc wierzchołków jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>9</mn></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2026_kujawsko-pomorskie_q7",
+      "number": 7,
+      "page": 5,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Suma liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>48</mn></msqrt></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>75</mn></msqrt></math> jest równa:</p>",
+      "choices": [
+        { "label": "A", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>243</mn></msqrt></math>" },
+        { "label": "B", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>123</mn></msqrt></math>" },
+        { "label": "C", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3600</mn></msqrt></math>" },
+        { "label": "D", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>27</mn></msqrt></math>" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>48</mn></msqrt><mo>+</mo><msqrt><mn>75</mn></msqrt><mo>=</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>5</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>9</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><msqrt><mn>243</mn></msqrt></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2026_kujawsko-pomorskie_q8",
+      "number": 8,
+      "page": 5,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "reszta z dzielenia"
+      ],
+      "prompt_html": "<p>2026 cyfrą po przecinku rozwinięcia dziesiętnego liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>1025</mn></mfrac></math> jest:</p>",
+      "choices": [
+        { "label": "A", "html": "0" },
+        { "label": "B", "html": "2" },
+        { "label": "C", "html": "3" },
+        { "label": "D", "html": "9" }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>4</mn><mn>1025</mn></mfrac><mo>=</mo><mn>0,00</mn><mo>(</mo><mn>39024</mn><mo>)</mo></mrow></math> — okres pięciu cyfr zaczyna się od trzeciego miejsca po przecinku. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2026</mn><mo>−</mo><mn>2</mn><mo>=</mo><mn>2024</mn></mrow></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2024</mn><mo>:</mo><mn>5</mn><mo>=</mo><mn>404</mn></mrow></math> reszta 4, szukaną cyfrą jest czwarta cyfra okresu, czyli 2.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2026_kujawsko-pomorskie_q9",
+      "number": 9,
+      "page": 5,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "czworokąty",
+        "układ współrzędnych"
+      ],
+      "prompt_html": "<p>W układzie współrzędnych rozważamy czworokąt o wierzchołkach w punktach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mo>,</mo><mi>B</mi><mo>,</mo><mi>C</mi><mo>,</mo><mi>D</mi></mrow></math>. Punkty te mają współrzędne: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>5</mn><mo>,</mo><mo>−</mo><mn>3</mn><mo>)</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>B</mi><mo>=</mo><mo>(</mo><mn>3</mn><mo>,</mo><mo>−</mo><mn>3</mn><mo>)</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>C</mi><mo>=</mo><mo>(</mo><mn>5</mn><mo>,</mo><mn>2</mn><mo>)</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>D</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>3</mn><mo>,</mo><mn>2</mn><mo>)</mo></mrow></math>. Które z podanych zdań jest prawdziwe? Wybierz właściwą odpowiedź spośród podanych.</p>",
+      "choices": [
+        { "label": "A", "html": "Czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> ma oś symetrii." },
+        { "label": "B", "html": "Kąt pomiędzy przekątnymi czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> jest prosty." },
+        { "label": "C", "html": "Czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> jest rombem." },
+        { "label": "D", "html": "Czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> jest trapezem." }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": "<p>Boki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DC</mi></math> są poziome i równej długości (8), więc czworokąt jest równoległobokiem — nie ma osi symetrii, jego przekątne nie są prostopadłe i nie jest rombem. Każdy równoległobok jest trapezem, więc prawdziwe jest zdanie D.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2026_kujawsko-pomorskie_q10",
+      "number": 10,
+      "page": 6,
+      "type": "open",
+      "points": 1,
+      "topics": [
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Ile składników <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>6</mn><mn>6</mn></msup></math> trzeba dodać, aby otrzymać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>12</mn><mn>6</mn></msup></math>?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "64",
+        "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>12</mn><mn>6</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mn>2</mn><mo>·</mo><mn>6</mn><mo>)</mo></mrow><mn>6</mn></msup><mo>=</mo><msup><mn>2</mn><mn>6</mn></msup><mo>·</mo><msup><mn>6</mn><mn>6</mn></msup><mo>=</mo><mn>64</mn><mo>·</mo><msup><mn>6</mn><mn>6</mn></msup></mrow></math>. Trzeba dodać 64 składniki.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2026_kujawsko-pomorskie_q11",
+      "number": 11,
+      "page": 6,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "trójkąty",
+        "dwusieczna kąta / symetralna odcinka"
+      ],
+      "prompt_html": "<p>Dany jest trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> o kącie 100° przy wierzchołku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>. Kąt między dwusieczną tego kąta, a wysokością poprowadzoną z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> ma miarę 20°. Oblicz miarę kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CAB</mi></math>. Zapisz wszystkie obliczenia.</p>",
+      "choices": [],
+      "figures": [
+        "wojewodzki_2026_kujawsko-pomorskie_q11_fig1.png"
+      ],
+      "answer": {
+        "correct": "20°",
+        "solution_html": "<p>Dwusieczna kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> dzieli go na połowy, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mo>∢</mo><mi>EBA</mi><mo>|</mo><mo>=</mo><mn>50</mn><mo>°</mo></mrow></math>. Kąt między dwusieczną a wysokością wynosi 20°, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mo>∢</mo><mi>DBA</mi><mo>|</mo><mo>=</mo><mn>20</mn><mo>°</mo><mo>+</mo><mn>50</mn><mo>°</mo><mo>=</mo><mn>70</mn><mo>°</mo></mrow></math>. W trójkącie prostokątnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABD</mi></math> szukany kąt to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>90</mn><mo>°</mo><mo>−</mo><mn>70</mn><mo>°</mo><mo>=</mo><mn>20</mn><mo>°</mo></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2026_kujawsko-pomorskie_q12",
+      "number": 12,
+      "page": 6,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "trójkąty",
+        "pole i obwód"
+      ],
+      "prompt_html": "<p>W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> został podzielony na cztery równe części (zobacz rysunek). Ile wynosi stosunek pola trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> do pola trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABF</mi></math>? Zapisz wszystkie obliczenia.</p>",
+      "choices": [],
+      "figures": [
+        "wojewodzki_2026_kujawsko-pomorskie_q12_fig1.png"
+      ],
+      "answer": {
+        "correct": "4:3",
+        "solution_html": "<p>Wysokość opuszczona z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> jest wspólna dla trójkątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABF</mi></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AF</mi><mo>|</mo><mo>=</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>|</mo><mi>AC</mi><mo>|</mo></mrow></math>, stosunek pól jest równy stosunkowi podstaw: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><msub><mi>P</mi><mi>ABC</mi></msub><msub><mi>P</mi><mi>ABF</mi></msub></mfrac><mo>=</mo><mfrac><mrow><mo>|</mo><mi>AC</mi><mo>|</mo></mrow><mrow><mo>|</mo><mi>AF</mi><mo>|</mo></mrow></mfrac><mo>=</mo><mfrac><mn>4</mn><mn>3</mn></mfrac></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2026_kujawsko-pomorskie_q13",
+      "number": 13,
+      "page": 7,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "koła / okręgi",
+        "procenty",
+        "pole i obwód"
+      ],
+      "prompt_html": "<p>Dane są dwa koła. Promień pierwszego koła jest większy od promienia drugiego koła o 40%. O ile procent pole pierwszego koła jest większe od pola drugiego koła? Zapisz wszystkie obliczenia.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "o 96%",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math> będzie promieniem mniejszego koła; wtedy większy promień <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>R</mi><mo>=</mo><mn>1,4</mn><mi>r</mi></mrow></math>. Pole większego koła: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>π</mi><msup><mi>R</mi><mn>2</mn></msup><mo>=</mo><mi>π</mi><mo>·</mo><msup><mrow><mo>(</mo><mn>1,4</mn><mi>r</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>1,96</mn><mo>·</mo><mi>π</mi><msup><mi>r</mi><mn>2</mn></msup></mrow></math>, czyli 196% pola mniejszego. Pierwsze koło ma pole większe o 96%.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2026_kujawsko-pomorskie_q14",
+      "number": 14,
+      "page": 7,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "podzielność",
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>Uzasadnij, że jeśli w liczbie trzycyfrowej, cyfra jedności jest o 2 większa od cyfry dziesiątek, a cyfra setek o 2 większa od cyfry jedności, to liczba ta jest podzielna przez 3. Zapisz wszystkie obliczenia.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Suma cyfr wynosi 3(x+2), więc jest podzielna przez 3, zatem liczba też.",
+        "solution_html": "<p>Niech cyfra dziesiątek to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>. Wtedy cyfra jedności to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>2</mn></mrow></math>, a cyfra setek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>2</mn><mo>+</mo><mn>2</mn><mo>=</mo><mi>x</mi><mo>+</mo><mn>4</mn></mrow></math>. Suma cyfr wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>4</mn><mo>)</mo><mo>+</mo><mi>x</mi><mo>+</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>6</mn><mo>=</mo><mn>3</mn><mo>(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo>)</mo></mrow></math>, jest więc podzielna przez 3. Skoro suma cyfr dzieli się przez 3, to i liczba jest podzielna przez 3.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2026_kujawsko-pomorskie_q15",
+      "number": 15,
+      "page": 8,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "prawdopodobieństwo",
+        "zliczanie / metody zliczania"
+      ],
+      "prompt_html": "<p>Spośród wszystkich liczb trzycyfrowych losujemy jedną liczbę. Jakie jest prawdopodobieństwo, że suma cyfr wylosowanej liczby wynosi 4? Zapisz wszystkie obliczenia.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "1/90",
+        "solution_html": "<p>Wszystkich liczb trzycyfrowych jest 900. Liczb, których suma cyfr wynosi 4, jest 10 (103, 130, 301, 310, 112, 121, 211, 202, 220, 400). Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mfrac><mn>10</mn><mn>900</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>90</mn></mfrac></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2026_kujawsko-pomorskie_q16",
+      "number": 16,
+      "page": 8,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "graniastosłupy",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Krawędź podstawy graniastosłupa prawidłowego czworokątnego ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><msqrt><mn>6</mn></msqrt></mrow></math>. Przekątna tego graniastosłupa tworzy z płaszczyzną podstawy kąt o mierze 60°. Jaka jest wysokość tego graniastosłupa? Zapisz wszystkie obliczenia.</p>",
+      "choices": [],
+      "figures": [
+        "wojewodzki_2026_kujawsko-pomorskie_q16_fig1.png"
+      ],
+      "answer": {
+        "correct": "24",
+        "solution_html": "<p>Przekątna kwadratu w podstawie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>4</mn><msqrt><mn>6</mn></msqrt><mo>·</mo><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>4</mn><msqrt><mn>12</mn></msqrt><mo>=</mo><mn>8</mn><msqrt><mn>3</mn></msqrt></mrow></math>. Wysokość, przekątna podstawy i przekątna graniastosłupa tworzą trójkąt o kątach 90°, 60°, 30°, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>H</mi><mo>=</mo><mn>8</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>8</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>24</mn></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2026_kujawsko-pomorskie_q17",
+      "number": 17,
+      "page": 9,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>W dwóch wannach jest tyle samo wody. Woda z pierwszej wanny wypływa w ciągu 20 minut, a z drugiej w ciągu 10 minut. Uruchamiamy odpływ wody z obu wanien równocześnie. W ciągu ilu minut w pierwszej wannie zostanie trzy razy więcej wody niż w drugiej wannie? Zakładamy, że prędkość wypływu w obu wannach jest stała. Zapisz wszystkie obliczenia.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "8 minut",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi></math> to początkowa ilość wody w każdej wannie, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math> czas w minutach. Po czasie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math> w wannach jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>V</mi><mo>−</mo><mfrac><mi>V</mi><mn>20</mn></mfrac><mi>t</mi></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>V</mi><mo>−</mo><mfrac><mi>V</mi><mn>10</mn></mfrac><mi>t</mi></mrow></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>V</mi><mo>−</mo><mfrac><mi>V</mi><mn>20</mn></mfrac><mi>t</mi><mo>=</mo><mn>3</mn><mo>(</mo><mi>V</mi><mo>−</mo><mfrac><mi>V</mi><mn>10</mn></mfrac><mi>t</mi><mo>)</mo></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>5</mn><mn>20</mn></mfrac><mi>t</mi><mo>=</mo><mn>2</mn></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>t</mi><mo>=</mo><mn>8</mn></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2026_kujawsko-pomorskie_q18",
+      "number": 18,
+      "page": 9,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "prawdopodobieństwo",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>W zestawie pytań konkursowych znajduje się 45 zadań z trzech różnych działów matematyki. Zadań z geometrii jest o 5 mniej niż zadań z algebry, a zadań z arytmetyki jest dwa razy więcej niż zadań z geometrii. Oblicz prawdopodobieństwo wylosowania, przez uczestnika konkursu, zadania innego niż zadanie z geometrii. Zapisz obliczenia.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "7/9",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> to liczba zadań z algebry. Zadań z geometrii jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>−</mo><mn>5</mn></mrow></math>, a z arytmetyki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>(</mo><mi>x</mi><mo>−</mo><mn>5</mn><mo>)</mo></mrow></math>. Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>x</mi><mo>−</mo><mn>5</mn><mo>)</mo><mo>+</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo>(</mo><mi>x</mi><mo>−</mo><mn>5</mn><mo>)</mo><mo>=</mo><mn>45</mn></mrow></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>15</mn></mrow></math>: geometrii 10, algebry 15, arytmetyki 20. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mfrac><mrow><mn>15</mn><mo>+</mo><mn>20</mn></mrow><mn>45</mn></mfrac><mo>=</mo><mfrac><mn>35</mn><mn>45</mn></mfrac><mo>=</mo><mfrac><mn>7</mn><mn>9</mn></mfrac></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2026_kujawsko-pomorskie_q19",
+      "number": 19,
+      "page": 10,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "pierścień kołowy",
+        "koła / okręgi",
+        "pole i obwód"
+      ],
+      "prompt_html": "<p>Basen ma kształt koła o średnicy 12 m. Wokół basenu ma powstać trawnik o szerokości 1,5 m przylegający ściśle do jego brzegu (patrz rysunek). Ile opakowań nasion trawy należy kupić, aby obsiać tę powierzchnię. Wiemy, że 1 opakowanie wystarcza na 10 m² trawnika. W obliczeniach przyjmij, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>π</mi><mo>=</mo><mn>3</mn></mrow></math>. Zapisz obliczenia.</p>",
+      "choices": [],
+      "figures": [
+        "wojewodzki_2026_kujawsko-pomorskie_q19_fig1.png"
+      ],
+      "answer": {
+        "correct": "7 opakowań",
+        "solution_html": "<p>Promień basenu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>r</mi><mo>=</mo><mn>6</mn></mrow></math> m, a promień koła z trawnikiem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>R</mi><mo>=</mo><mn>7,5</mn></mrow></math> m. Pole trawnika: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>π</mi><mo>(</mo><msup><mn>7,5</mn><mn>2</mn></msup><mo>−</mo><msup><mn>6</mn><mn>2</mn></msup><mo>)</mo><mo>=</mo><mn>20,25</mn><mi>π</mi><mo>≈</mo><mn>20,25</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>60,75</mn></mrow></math> m². Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>60,75</mn><mo>:</mo><mn>10</mn><mo>=</mo><mn>6,075</mn></mrow></math>, należy kupić 7 opakowań.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2026_kujawsko-pomorskie_q20",
+      "number": 20,
+      "page": 10,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "kombinatoryka",
+        "zliczanie / metody zliczania"
+      ],
+      "prompt_html": "<p>Rozważamy wszystkie liczby czterocyfrowe zbudowane z cyfr 7, 0, 2, 9. Cyfry w tych liczbach nie powtarzają się. Znajdź sumę cyfr wszystkich tych liczb. Zapisz obliczenia.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "324",
+        "solution_html": "<p>Na pierwszym miejscu nie może stać 0, więc liczb jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>1</mn><mo>=</mo><mn>18</mn></mrow></math>. Każda z nich ma tę samą sumę cyfr <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7</mn><mo>+</mo><mn>0</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>9</mn><mo>=</mo><mn>18</mn></mrow></math>. Suma cyfr wszystkich liczb: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>18</mn><mo>·</mo><mn>18</mn><mo>=</mo><mn>324</mn></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2026_kujawsko-pomorskie_q21",
+      "number": 21,
+      "page": 11,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "ostrosłupy"
+      ],
+      "prompt_html": "<p>Na rysunku obok przedstawiono kwadrat, który jest siatką pewnego ostrosłupa. Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math> są środkami odcinków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math>. Korzystając z zaznaczonego wymiaru oblicz objętość i pole powierzchni całkowitej tej bryły. Zapisz obliczenia.</p>",
+      "choices": [],
+      "figures": [
+        "wojewodzki_2026_kujawsko-pomorskie_q21_fig1.png"
+      ],
+      "answer": {
+        "correct": "P = 324 j², V = 243 j³",
+        "solution_html": "<p>Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EFD</mi></math> jest prostokątny równoramienny o kątach 90°, 45°, 45°, a przeciwprostokątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>EF</mi><mo>=</mo><mn>9</mn><msqrt><mn>2</mn></msqrt></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>DE</mi><mo>=</mo><mi>DF</mi><mo>=</mo><mn>9</mn></mrow></math> i bok kwadratu ma długość 18. Pole powierzchni całkowitej równa się polu kwadratu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><msup><mn>18</mn><mn>2</mn></msup><mo>=</mo><mn>324</mn></mrow></math>. Podstawą ostrosłupa jest trójkąt prostokątny o polu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>9</mn><mo>·</mo><mn>9</mn><mo>=</mo><mfrac><mn>81</mn><mn>2</mn></mfrac></mrow></math>, a wysokość ostrosłupa to 18. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>V</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mfrac><mn>81</mn><mn>2</mn></mfrac><mo>·</mo><mn>18</mn><mo>=</mo><mn>243</mn></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2026_kujawsko-pomorskie_q22",
+      "number": 22,
+      "page": 12,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "koła / okręgi",
+        "pole i obwód",
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest prostokątny i równoramienny, łuki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> są półokręgami, zaś <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> jest ćwiartką okręgu o środku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>. Która z figur <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>F</mi><mn>1</mn></msub></math> czy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>F</mi><mn>2</mn></msub></math> ma większe pole (patrz rysunek)?</p>",
+      "choices": [],
+      "figures": [
+        "wojewodzki_2026_kujawsko-pomorskie_q22_fig1.png"
+      ],
+      "answer": {
+        "correct": "Pola są równe (F₁ = F₂)",
+        "solution_html": "<p>Przyjmijmy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>r</mi><mo>=</mo><mn>1</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AB</mi><mo>=</mo><mn>2</mn></mrow></math>. Pole ćwiartki koła o promieniu 2 wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>π</mi><mo>·</mo><msup><mn>2</mn><mn>2</mn></msup><mo>=</mo><mi>π</mi></mrow></math>, a łączne pole dwóch półkoli o średnicach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>π</mi><mo>·</mo><msup><mn>1</mn><mn>2</mn></msup><mo>=</mo><mi>π</mi></mrow></math>. Porównując pola z uwzględnieniem części wspólnej otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>F</mi><mn>1</mn></msub><mo>=</mo><msub><mi>F</mi><mn>2</mn></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>π</mi><mo>−</mo><mn>1</mn></mrow></math>. Figury mają równe pola.</p>"
+      }
+    }
+  ]
+}

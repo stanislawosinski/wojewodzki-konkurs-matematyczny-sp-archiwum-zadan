@@ -67,6 +67,28 @@ staged as source PDFs, not yet extracted.
 - Some podlaskie years have **no answer key** (zips lacked schematy): 2011 gim-woj, 2012 sp
   (all stages), 2013 sp+gim (all stages), 2014 szkolny — see Provenance below.
 
+## Problematic answer-key PDFs (wojewódzki batch 8, found 2026-07-26)
+
+Several `pdfs/wojewodzki/*_answers.pdf` have a **corrupt image layer**: `pdftoppm` renders a
+*different* competition (usually the wielkopolskie 2025/26 key), but the **text layer**
+(`pdftotext -layout`) is the correct key. Extraction agents that read the render first wrongly
+reported these "keyless"; all but one were recovered from the text layer. **Always read keys via
+`pdftotext -layout` first** (now the standing rule in EXTRACTION_PLAYBOOK.md).
+
+| answers PDF | image layer renders as | real key (text layer) | status |
+|---|---|---|---|
+| `wojewodzki/2024_kujawsko-pomorskie_answers.pdf` | podkarpackie | kujawsko-pomorskie 2023/24 | recovered (text) |
+| `wojewodzki/2024_podlaskie_answers.pdf` | wielkopolskie | podlaskie 2024/25 | recovered (text) |
+| `wojewodzki/2024_lodzkie_answers.pdf` | śląskie 2025/26 | łódzkie 2023/24 | recovered (text) |
+| `wojewodzki/2025-2026_slaskie_answers.pdf` | wielkopolskie | śląskie 2025/26 | recovered (text) |
+| `wojewodzki/2025-2026_pomorskie_answers.pdf` | wielkopolskie | pomorskie 2025/26 | recovered (text) |
+| `wojewodzki/2024_lubuskie_answers.pdf` | podlaskie (scan) | **none** — no text layer (3 bytes) | **UNRECOVERED — needs re-sourcing** |
+
+`2024_lubuskie` is the only genuine loss: the file is a pure scanned image of a *podlaskie* key,
+so `wojewodzki_2024_lubuskie.json` has `answers_file: null` and all answers null. That paper also
+prints **no voivodeship** in its header — `wojewodztwo: lubuskie` rests on the filename alone.
+(Note: lubuskie & opolskie, listed absent above from the szkolny corpus, DO appear in wojewódzki.)
+
 ## Provenance of the merged files (formerly `remaining/NOTES.md`)
 
 78 PDFs were converted from ambiguous/archived source originals and merged into the main stage

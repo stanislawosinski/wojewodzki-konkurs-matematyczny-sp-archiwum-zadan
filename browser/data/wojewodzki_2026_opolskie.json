@@ -1,0 +1,274 @@
+{
+  "source_file": "wojewodzki/2026_opolskie.pdf",
+  "answers_file": "wojewodzki/2026_opolskie_answers.pdf",
+  "competition": "Wojewódzki Konkurs Matematyczny dla uczniów szkół podstawowych województwa opolskiego",
+  "school_type": "podstawowa",
+  "stage": "wojewodzki",
+  "wojewodztwo": "opolskie",
+  "school_year": "2025/2026",
+  "date": null,
+  "total_questions": 11,
+  "max_points": 40,
+  "questions": [
+    {
+      "id": "wojewodzki_2026_opolskie_q1",
+      "number": 1,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "podzielność"
+      ],
+      "prompt_html": "<p>45 jest dzielnikiem liczby:</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "103040"
+        },
+        {
+          "label": "2",
+          "html": "1030405060"
+        },
+        {
+          "label": "3",
+          "html": "203040506070"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FFP",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2026_opolskie_q2",
+      "number": 2,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "podzielność"
+      ],
+      "prompt_html": "<p>Jeżeli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest liczbą naturalną, to liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mo>=</mo><mo>(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>(</mo><mi>n</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>(</mo><mi>n</mi><mo>+</mo><mn>3</mn><mo>)</mo></mrow></math> na pewno dzieli się przez:</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "3"
+        },
+        {
+          "label": "2",
+          "html": "4"
+        },
+        {
+          "label": "3",
+          "html": "6"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PFP",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2026_opolskie_q3",
+      "number": 3,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Prawdą jest, że zachodzi równość:</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mi>a</mi><mo>+</mo><mi>b</mi></mrow></math>"
+        },
+        {
+          "label": "2",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><msup><mrow><mo>(</mo><msqrt><mn>2</mn></msqrt><mo>−</mo><mn>2</mn><mo>)</mo></mrow><mn>2</mn></msup></msqrt><mo>=</mo><msqrt><mn>2</mn></msqrt><mo>−</mo><mn>2</mn></mrow></math>"
+        },
+        {
+          "label": "3",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><msqrt><mrow><mn>2</mn><mo>+</mo><msqrt><mn>3</mn></msqrt></mrow></msqrt><mo>−</mo><msqrt><mrow><mn>2</mn><mo>−</mo><msqrt><mn>3</mn></msqrt></mrow></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow></math>"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FFF",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2026_opolskie_q4",
+      "number": 4,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "zliczanie / metody zliczania",
+        "kombinatoryka",
+        "podzielność"
+      ],
+      "prompt_html": "<p>Oceń, czy zdanie jest prawdziwe.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Liczb naturalnych trzycyfrowych o różnych cyfrach jest 648."
+        },
+        {
+          "label": "2",
+          "html": "Liczb naturalnych trzycyfrowych nieparzystych o różnych cyfrach jest 320."
+        },
+        {
+          "label": "3",
+          "html": "Liczb całkowitych nieujemnych nie większych niż 1000 podzielnych przez 2 lub 3 jest 667."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PPF",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2026_opolskie_q5",
+      "number": 5,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "ostrosłupy"
+      ],
+      "prompt_html": "<p>Siatka ostrosłupa jest trójkątem równobocznym o boku długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>24</mn><mspace width=\"0.15em\"></mspace><mi>cm</mi></mrow></math>.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Suma długości wszystkich krawędzi ostrosłupa wynosi 108 cm."
+        },
+        {
+          "label": "2",
+          "html": "Pole powierzchni całkowitej ostrosłupa wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>144</mn><msqrt><mn>3</mn></msqrt><mspace width=\"0.15em\"></mspace><msup><mi>cm</mi><mn>2</mn></msup></mrow></math>."
+        },
+        {
+          "label": "3",
+          "html": "Objętość ostrosłupa wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>144</mn><msqrt><mn>2</mn></msqrt><mspace width=\"0.15em\"></mspace><msup><mi>cm</mi><mn>3</mn></msup></mrow></math>."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FPP",
+        "solution_html": null
+      }
+    },
+    {
+      "id": "wojewodzki_2026_opolskie_q6",
+      "number": 6,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "procenty"
+      ],
+      "prompt_html": "<p>Jabłka zawierają przeciętnie 86% wody. Po wstępnym suszeniu odparowała połowa wody. Jaki procent stanowi woda w tak podsuszonych jabłkach?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "≈75,4%",
+        "solution_html": "<p>Rozważmy 100 kg jabłek: wody jest 86 kg, a suchej masy 14 kg. Po odparowaniu połowy wody zostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>86</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>43</mn></mrow></math> kg wody, a sucha masa nadal wynosi 14 kg. Łączna masa podsuszonych jabłek to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>43</mn><mo>+</mo><mn>14</mn><mo>=</mo><mn>57</mn></mrow></math> kg. Zatem woda stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>43</mn><mn>57</mn></mfrac><mo>·</mo><mn>100</mn><mo>%</mo><mo>≈</mo><mn>75,4</mn><mo>%</mo></mrow></math>.</p><p><em>Punktacja: 5 pkt za poprawny wynik; 4 pkt za poprawny sposób z błędem rachunkowym; 3 pkt za porównanie odpowiednich wielkości; 2 pkt za określenie ilości wody po podsuszeniu; 1 pkt za określenie ilości wody przed suszeniem.</em></p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2026_opolskie_q7",
+      "number": 7,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Iwona i Janusz mają razem 30 lat. Gdy Iwona będzie miała dwa razy więcej lat niż Janusz ma teraz, to razem będą mieli 78 lat. Ile lat obecnie ma Janusz, a ile Iwona?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Iwona 12 lat, Janusz 18 lat",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>j</mi></math> oznacza obecny wiek Janusza; wtedy Iwona ma teraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>30</mn><mo>−</mo><mi>j</mi></mrow></math> lat. Gdy Iwona będzie miała <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>j</mi></mrow></math> lat, upłynie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>j</mi><mo>−</mo><mo>(</mo><mn>30</mn><mo>−</mo><mi>j</mi><mo>)</mo><mo>=</mo><mn>3</mn><mi>j</mi><mo>−</mo><mn>30</mn></mrow></math> lat, a Janusz będzie miał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>j</mi><mo>+</mo><mo>(</mo><mn>3</mn><mi>j</mi><mo>−</mo><mn>30</mn><mo>)</mo><mo>=</mo><mn>4</mn><mi>j</mi><mo>−</mo><mn>30</mn></mrow></math> lat. Suma ich wieku wyniesie wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>j</mi><mo>+</mo><mo>(</mo><mn>4</mn><mi>j</mi><mo>−</mo><mn>30</mn><mo>)</mo><mo>=</mo><mn>78</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mi>j</mi><mo>=</mo><mn>108</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>j</mi><mo>=</mo><mn>18</mn></mrow></math>. Zatem Janusz ma 18 lat, a Iwona <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>30</mn><mo>−</mo><mn>18</mn><mo>=</mo><mn>12</mn></mrow></math> lat.</p><p><em>Punktacja: 5 pkt za poprawny wynik (Iwona 12, Janusz 18); 4 pkt za poprawny sposób z błędem rachunkowym; 3 pkt za ułożenie równania z jedną niewiadomą; 2 pkt za określenie wieku obu osób; 1 pkt za określenie wieku jednej osoby.</em></p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2026_opolskie_q8",
+      "number": 8,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "prędkość / droga / czas",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Z Opola do Zielonej Góry (trasa 260 km) wyjechał Fiat o godz. 8.00. 10 minut później tą samą drogą wyjechał Seat. Po 50 minutach Seat minął Fiata. Do Zielonej Góry Seat dojechał 16 minut wcześniej niż Fiat. Z jakimi średnimi prędkościami poruszały się oba samochody?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Fiat 100 km/h, Seat 120 km/h",
+        "solution_html": "<p>Gdy Seat mijał Fiata (o godz. 9.00), Fiat jechał już 1 h, a Seat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>50</mn></mrow></math> min, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>6</mn></mfrac></math> h; pokonali tę samą drogę, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>v</mi><mi>F</mi></msub><mo>=</mo><mfrac><mn>5</mn><mn>6</mn></mfrac><msub><mi>v</mi><mi>S</mi></msub></mrow></math>. Czas przejazdu Fiata to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>260</mn><msub><mi>v</mi><mi>F</mi></msub></mfrac></math>, a Seata <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>260</mn><msub><mi>v</mi><mi>S</mi></msub></mfrac></math>; Seat wyruszył 10 min później i przyjechał 16 min wcześniej, więc jego czas jazdy jest o 26 min <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mfrac><mn>13</mn><mn>30</mn></mfrac><mspace width=\"0.15em\"></mspace><mi>h</mi><mo>)</mo></mrow></math> krótszy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>260</mn><msub><mi>v</mi><mi>F</mi></msub></mfrac><mo>−</mo><mfrac><mn>260</mn><msub><mi>v</mi><mi>S</mi></msub></mfrac><mo>=</mo><mfrac><mn>13</mn><mn>30</mn></mfrac></mrow></math>. Podstawiając <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>v</mi><mi>F</mi></msub><mo>=</mo><mfrac><mn>5</mn><mn>6</mn></mfrac><msub><mi>v</mi><mi>S</mi></msub></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>52</mn><msub><mi>v</mi><mi>S</mi></msub></mfrac><mo>=</mo><mfrac><mn>13</mn><mn>30</mn></mfrac></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>v</mi><mi>S</mi></msub><mo>=</mo><mn>120</mn></mrow></math> km/h oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>v</mi><mi>F</mi></msub><mo>=</mo><mn>100</mn></mrow></math> km/h.</p><p><em>Punktacja: 5 pkt za poprawne prędkości (100 km/h, 120 km/h); 4 pkt za poprawny sposób z błędem rachunkowym lub poprawne obliczenie czasu przejazdu; 3 pkt za ułożenie równania prowadzącego do obliczenia czasu przejazdu; 2 pkt za wyznaczenie zależności między prędkościami; 1 pkt za wstępną analizę i określenie czasów.</em></p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2026_opolskie_q9",
+      "number": 9,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "koła / okręgi",
+        "pole i obwód"
+      ],
+      "prompt_html": "<p>Dwa koła zachodzą na siebie. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> jest środkiem większego koła, a jego promień ma długość 4 cm. Odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> jest średnicą mniejszego koła. Oblicz pole części wspólnej tych dwóch kół.</p>",
+      "choices": [],
+      "figures": [
+        "wojewodzki_2026_opolskie_q9_fig1.png"
+      ],
+      "answer": {
+        "correct": "8(π−1) cm²",
+        "solution_html": "<p>Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> leżą na większym okręgu, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>SA</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>SB</mi><mo>|</mo><mo>=</mo><mn>4</mn></mrow></math> cm. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> leży na mniejszym okręgu o średnicy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>, kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∢</mo><mi>ASB</mi><mo>=</mo><mn>90</mn><mo>°</mo></mrow></math> (kąt oparty na średnicy). Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>4</mn><msqrt><mn>2</mn></msqrt></mrow></math>, a promień mniejszego koła wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow></math> cm. Część wspólna składa się z połowy mniejszego koła oraz wycinka większego koła o kącie 90° pomniejszonego o trójkąt prostokątny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ASB</mi></math>. Połowa mniejszego koła: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mi>π</mi><mo>·</mo><msup><mrow><mo>(</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>4</mn><mi>π</mi></mrow></math>. Ćwiartka większego koła pomniejszona o trójkąt: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>·</mo><mn>16</mn><mi>π</mi><mo>−</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>4</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>4</mn><mi>π</mi><mo>−</mo><mn>8</mn></mrow></math>. Razem pole części wspólnej wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>π</mi><mo>+</mo><mn>4</mn><mi>π</mi><mo>−</mo><mn>8</mn><mo>=</mo><mn>8</mn><mo>(</mo><mi>π</mi><mo>−</mo><mn>1</mn><mo>)</mo></mrow></math> cm².</p><p><em>Punktacja: 5 pkt za poprawne pole części wspólnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>(</mo><mi>π</mi><mo>−</mo><mn>1</mn><mo>)</mo></mrow></math> cm²; 4 pkt za poprawny sposób z błędem rachunkowym; 3 pkt za obliczenie pól wszystkich elementów; 2 pkt za obliczenie pola jednej figury (połowy mniejszego koła, ćwiartki większego koła, trójkąta); 1 pkt za obliczenie promienia mniejszego koła.</em></p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2026_opolskie_q10",
+      "number": 10,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "trójkąty",
+        "pole i obwód"
+      ],
+      "prompt_html": "<p>W prostokącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> przekątna ma długość 30, a bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> jest dwa razy krótszy od tej przekątnej. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> leży na boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DC</mi></math> w równej odległości od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>. Oblicz pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACK</mi></math>.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "75√3",
+        "solution_html": "<p>Bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>BC</mi><mo>|</mo><mo>=</mo><mn>30</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>15</mn></mrow></math>, a z twierdzenia Pitagorasa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>DC</mi><mo>|</mo><mo>=</mo><msqrt><mrow><msup><mn>30</mn><mn>2</mn></msup><mo>−</mo><msup><mn>15</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>675</mn></msqrt><mo>=</mo><mn>15</mn><msqrt><mn>3</mn></msqrt></mrow></math>. Ponieważ kąt przy przekątnej wynosi 30°, trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACK</mi></math> z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>KA</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>KC</mi><mo>|</mo></mrow></math> jest równoramienny. Oznaczmy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>KC</mi><mo>|</mo><mo>=</mo><mi>x</mi></mrow></math>; wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>DK</mi><mo>|</mo><mo>=</mo><mn>15</mn><msqrt><mn>3</mn></msqrt><mo>−</mo><mi>x</mi></mrow></math>, a z trójkąta prostokątnego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADK</mi></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><msup><mn>15</mn><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mn>15</mn><msqrt><mn>3</mn></msqrt><mo>−</mo><mi>x</mi><mo>)</mo></mrow><mn>2</mn></msup></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>10</mn><msqrt><mn>3</mn></msqrt></mrow></math>. Wysokość trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACK</mi></math> opuszczona na podstawę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KC</mi></math> równa jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AD</mi><mo>|</mo><mo>=</mo><mn>15</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>ACK</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>10</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><mn>15</mn><mo>=</mo><mn>75</mn><msqrt><mn>3</mn></msqrt></mrow></math>.</p><p><em>Punktacja: 5 pkt za obliczenie pola trójkąta (75√3); 4 pkt za poprawny sposób z błędem rachunkowym; 3 pkt za zauważenie, że trójkąt ACK jest równoramienny, i wyznaczenie odpowiednich odcinków; 2 pkt za wyznaczenie kątów w trójkątach prostokątnych; 1 pkt za wykonanie rysunku.</em></p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2026_opolskie_q11",
+      "number": 11,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "równania z jedną zmienną",
+        "graniastosłupy"
+      ],
+      "prompt_html": "<p>Basen ma wymiary 4 m długości, 2,5 m szerokości i 1,5 m głębokości. Całkowite napełnienie pustego basenu trwa 10 godzin, a opróżnienie pełnego – 8 godzin. Obecnie basen jest napełniony do połowy. Zaczęto basen dopełniać wodą, ale przypadkowo otwarto również wylot. Po jakim czasie basen został opróżniony z wody? Zamknięto wylot i ponownie zaczęto napełniać basen. Ile potrzeba czasu, aby poziom wody podniósł się o 1 cm? Gdy basen został napełniony do połowy, podłączono dodatkowy wąż (napełnia cały basen w 15 godz.). O ile czasu to przyspieszy napełnienie basenu?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "20 h; 4 min; przyspieszenie o 2 h",
+        "solution_html": "<p>Objętość basenu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><mn>2,5</mn><mo>·</mo><mn>1,5</mn><mo>=</mo><mn>15</mn></mrow></math> m³. Wpływ wody: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>:</mo><mn>10</mn><mo>=</mo><mn>1,5</mn></mrow></math> m³/h, wypływ: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>:</mo><mn>8</mn><mo>=</mo><mn>1,875</mn></mrow></math> m³/h.</p><p><strong>1)</strong> Przy otwartym wlocie i wylocie poziom opada w tempie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,875</mn><mo>−</mo><mn>1,5</mn><mo>=</mo><mn>0,375</mn></mrow></math> m³/h. Z połowy (7,5 m³) basen opróżni się po <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7,5</mn><mo>:</mo><mn>0,375</mn><mo>=</mo><mn>20</mn></mrow></math> godzin.</p><p><strong>2)</strong> Pole dna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><mn>2,5</mn><mo>=</mo><mn>10</mn></mrow></math> m². Podniesienie poziomu o 1 cm to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mo>·</mo><mn>0,01</mn><mo>=</mo><mn>0,1</mn></mrow></math> m³, co przy wlocie 1,5 m³/h zajmie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,1</mn><mo>:</mo><mn>1,5</mn><mo>=</mo><mfrac><mn>1</mn><mn>15</mn></mfrac></mrow></math> h, czyli 4 minuty.</p><p><strong>3)</strong> Dodatkowy wąż daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>:</mo><mn>15</mn><mo>=</mo><mn>1</mn></mrow></math> m³/h, więc łącznie 2,5 m³/h. Napełnienie drugiej połowy (7,5 m³) trwa wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7,5</mn><mo>:</mo><mn>2,5</mn><mo>=</mo><mn>3</mn></mrow></math> h zamiast <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7,5</mn><mo>:</mo><mn>1,5</mn><mo>=</mo><mn>5</mn></mrow></math> h, czyli przyspiesza napełnianie o 2 godziny.</p><p><em>Punktacja: 5 pkt za obliczenie wszystkich czasów (20 h, 4 min, 2 h); 4 pkt za poprawne obliczenia z błędem rachunkowym; 3 pkt za odpowiedź na dwa pytania; 2 pkt za odpowiedź na jedno pytanie; 1 pkt za wstępną analizę.</em></p>"
+      }
+    }
+  ]
+}

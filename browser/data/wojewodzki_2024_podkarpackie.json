@@ -1,0 +1,177 @@
+{
+  "source_file": "wojewodzki/2024_podkarpackie.pdf",
+  "answers_file": "wojewodzki/2024_podkarpackie_answers.pdf",
+  "competition": "Konkurs z Matematyki dla uczniów szkół podstawowych (podkarpackie)",
+  "school_type": "podstawowa",
+  "stage": "wojewodzki",
+  "wojewodztwo": "podkarpackie",
+  "school_year": "2023/2024",
+  "date": null,
+  "total_questions": 9,
+  "max_points": 24,
+  "questions": [
+    {
+      "id": "wojewodzki_2024_podkarpackie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "koła / okręgi",
+        "trójkąty"
+      ],
+      "prompt_html": "<p>Wszystkie wierzchołki dziesięciokąta foremnego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDEFGHIJ</mi></math> leżą na pewnym okręgu. Wyznacz miary kątów trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABE</mi></math>.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "18°, 54° i 108°",
+        "solution_html": "<p>Oznaczmy środek okręgu przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math>. Kąty środkowe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AOB</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BOC</mi></math>, …, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>JOA</mi></math> są równe i razem tworzą kąt pełny, więc każdy ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>360</mn><mo>°</mo><mo>:</mo><mn>10</mn><mo>=</mo><mn>36</mn><mo>°</mo></mrow></math>. Zatem kąty środkowe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AOB</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BOE</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EOA</mi></math> mają miary <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>36</mn><mo>°</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>36</mn><mo>°</mo><mo>=</mo><mn>108</mn><mo>°</mo></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>·</mo><mn>36</mn><mo>°</mo><mo>=</mo><mn>216</mn><mo>°</mo></mrow></math>. Kąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AEB</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BAE</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EBA</mi></math> są kątami wpisanymi opartymi na tych samych łukach, więc ich miary są dwa razy mniejsze: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>36</mn><mo>°</mo><mo>:</mo><mn>2</mn><mo>=</mo><mn>18</mn><mo>°</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>108</mn><mo>°</mo><mo>:</mo><mn>2</mn><mo>=</mo><mn>54</mn><mo>°</mo></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>216</mn><mo>°</mo><mo>:</mo><mn>2</mn><mo>=</mo><mn>108</mn><mo>°</mo></mrow></math>.</p><p><em>Częściowo (1 pkt): odpowiedź, w której pojawiają się co najwyżej trzy miary kątów, w tym co najmniej jedna poprawna.</em></p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2024_podkarpackie_q2",
+      "number": 2,
+      "page": 3,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "podzielność",
+        "zliczanie / metody zliczania"
+      ],
+      "prompt_html": "<p>Ile spośród ułamków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>40</mn></mfrac><mo>,</mo><mfrac><mn>2</mn><mn>41</mn></mfrac><mo>,</mo><mfrac><mn>3</mn><mn>42</mn></mfrac><mo>,</mo><mo>…</mo><mo>,</mo><mfrac><mn>60</mn><mn>99</mn></mfrac><mo>,</mo><mfrac><mn>61</mn><mn>100</mn></mfrac></mrow></math> jest nieskracalnych?</p><p><em>Mianowniki powyższych ułamków to kolejne liczby naturalne od 40 do 100, a liczniki są odpowiednio kolejnymi liczbami naturalnymi od 1 do 61.</em></p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "38",
+        "solution_html": "<p>Ułamki opisane w zadaniu są postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>n</mi><mrow><mi>n</mi><mo>+</mo><mn>39</mn></mrow></mfrac></math> dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> od 1 do 61 (jest ich 61). Jeśli taki ułamek jest skracalny, to pewien dzielnik większy od 1 dzieli zarówno <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>, jak i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>+</mo><mn>39</mn></mrow></math>, a więc dzieli też 39. Ułamki mogą być zatem skracalne tylko przez dzielniki 39, czyli 3, 13 lub 39. Wśród liczb od 1 do 61 podzielnych przez 3 jest 20, a podzielnych przez 13 jest 4; jedynym ułamkiem skracalnym przez 39 jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>39</mn><mn>78</mn></mfrac></math> (który jest też skracalny przez 3). Z 61 ułamków 20 jest skracalnych przez 3, a spośród 4 skracalnych przez 13 trzy nie są jeszcze odrzucone (bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>39</mn><mn>78</mn></mfrac></math> policzono już przy 3). Zatem skracalnych jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>20</mn><mo>+</mo><mn>3</mn><mo>=</mo><mn>23</mn></mrow></math>, a nieskracalnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>61</mn><mo>−</mo><mn>23</mn><mo>=</mo><mn>38</mn></mrow></math>.</p><p><em>Częściowo (1 pkt): odpowiedź 23, 36, 37, 39 albo 40.</em></p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2024_podkarpackie_q3",
+      "number": 3,
+      "page": 4,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "równania z jedną zmienną",
+        "układ współrzędnych"
+      ],
+      "prompt_html": "<p>Atanazy wybrał pewien punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> na osi liczbowej i zmierzył odległość punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> od liczby 11 oraz odległość punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> od liczby 17. Okazało się, że jedna ze zmierzonych odległości jest trzy razy większa od drugiej. Znajdź wszystkie możliwe wartości punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>, które mają opisaną własność.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "8, 12,5, 15,5 i 20",
+        "solution_html": "<p>Oznaczmy szukaną wartość punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i rozważmy trzy przypadki. Gdy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>&lt;</mo><mn>11</mn></mrow></math>, odległość od 17 jest większa, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>17</mn><mo>−</mo><mi>a</mi><mo>=</mo><mn>3</mn><mo>·</mo><mo>(</mo><mn>11</mn><mo>−</mo><mi>a</mi><mo>)</mo></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>a</mi><mo>=</mo><mn>16</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>8</mn></mrow></math>. Gdy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>11</mn><mo>≤</mo><mi>a</mi><mo>≤</mo><mn>17</mn></mrow></math>, mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>−</mo><mn>11</mn><mo>=</mo><mn>3</mn><mo>·</mo><mo>(</mo><mn>17</mn><mo>−</mo><mi>a</mi><mo>)</mo></mrow></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>17</mn><mo>−</mo><mi>a</mi><mo>=</mo><mn>3</mn><mo>·</mo><mo>(</mo><mi>a</mi><mo>−</mo><mn>11</mn><mo>)</mo></mrow></math>, co daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>15,5</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>12,5</mn></mrow></math>. Gdy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>&gt;</mo><mn>17</mn></mrow></math>, odległość od 11 jest większa, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>−</mo><mn>11</mn><mo>=</mo><mn>3</mn><mo>·</mo><mo>(</mo><mi>a</mi><mo>−</mo><mn>17</mn><mo>)</mo></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>a</mi><mo>=</mo><mn>40</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>20</mn></mrow></math>.</p><p><em>Częściowo (1 pkt): podanie co najwyżej sześciu wartości punktu A, w tym co najmniej dwóch poprawnych.</em></p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2024_podkarpackie_q4",
+      "number": 4,
+      "page": 5,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Wyznacz najmniejszą liczbę naturalną <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> większą od 1, dla której wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>·</mo><msqrt><mi>n</mi></msqrt></mrow><mn>3</mn></mroot></math> jest liczbą naturalną.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "64",
+        "solution_html": "<p>Jeśli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>·</mo><msqrt><mi>n</mi></msqrt></mrow><mn>3</mn></mroot></math> jest liczbą naturalną, to jej sześcian <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>·</mo><msqrt><mi>n</mi></msqrt></mrow></math> też, co jest możliwe tylko gdy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mi>n</mi></msqrt></math> jest liczbą naturalną, czyli gdy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest kwadratem. Sprawdzając kolejne kwadraty większe od 1: dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>=</mo><mn>4</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mn>32</mn><mn>3</mn></mroot></math>, dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>=</mo><mn>9</mn></mrow></math> — <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mn>243</mn><mn>3</mn></mroot></math>, i tak dalej — żadne nie jest liczbą naturalną. Dopiero dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>=</mo><msup><mn>8</mn><mn>2</mn></msup><mo>=</mo><mn>64</mn></mrow></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mroot><mrow><msup><mn>64</mn><mn>2</mn></msup><mo>·</mo><msqrt><mn>64</mn></msqrt></mrow><mn>3</mn></mroot><mo>=</mo><mroot><msup><mn>2</mn><mn>15</mn></msup><mn>3</mn></mroot><mo>=</mo><msup><mn>2</mn><mn>5</mn></msup><mo>=</mo><mn>32</mn></mrow></math>. Zatem najmniejszą taką liczbą jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>=</mo><mn>64</mn></mrow></math>.</p><p><em>Częściowo (1 pkt): kwadrat liczby naturalnej różny od 1 i 64 albo 32768.</em></p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2024_podkarpackie_q5",
+      "number": 5,
+      "page": 6,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "bryły",
+        "trójkąty"
+      ],
+      "prompt_html": "<p>Pewien trapez prostokątny ma ramiona długości 6 cm i 7,5 cm. Staś, ucząc się o bryłach obrotowych, postanowił sprawdzić, jaką bryłę otrzyma obracając ten trapez wokół krótszej podstawy. Zauważył, że jeśli sklei tę bryłę z pewnym stożkiem, to otrzyma walec. Jaka jest wysokość tego stożka?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "4,5 cm",
+        "solution_html": "<p>Oznaczmy wierzchołki trapezu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>, a przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi></math> spodek wysokości spuszczonej z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>CH</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>DA</mi><mo>|</mo><mo>=</mo><mn>6</mn></mrow></math> cm, a z twierdzenia Pitagorasa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>|</mo><mi>HB</mi><mo>|</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mn>7,5</mn><mn>2</mn></msup><mo>−</mo><msup><mn>6</mn><mn>2</mn></msup><mo>=</mo><mn>56,25</mn><mo>−</mo><mn>36</mn><mo>=</mo><mn>20,25</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>HB</mi><mo>|</mo><mo>=</mo><mn>4,5</mn></mrow></math> cm. Bryła powstała z obrotu trapezu mieści się w walcu, a aby ją do walca uzupełnić, należy dokleić stożek powstały z obrotu trójkąta prostokątnego. Wysokością tego stożka jest odcinek równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>HB</mi><mo>|</mo><mo>=</mo><mn>4,5</mn></mrow></math> cm.</p><p><em>Częściowo (1 pkt): odpowiedzi wynikające z typowych pojedynczych błędów rachunkowych, np. 45 cm, √14 cm, 8,5 cm.</em></p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2024_podkarpackie_q6",
+      "number": 6,
+      "page": 7,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "podzielność",
+        "potęgi i pierwiastki",
+        "zliczanie / metody zliczania"
+      ],
+      "prompt_html": "<p>Ile jest liczb naturalnych, które są dzielnikami liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>37</mn><mn>2024</mn></msup></math> i mają cyfrę jedności równą 3?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "506",
+        "solution_html": "<p>Liczba 37 jest pierwsza, więc dzielnikami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>37</mn><mn>2024</mn></msup></math> są 1 oraz kolejne potęgi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>37</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>37</mn><mn>1</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>37</mn><mn>2</mn></msup></math>, …, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>37</mn><mn>2024</mn></msup></math> — jest ich 2024 (dzielnik 1 odrzucamy, bo jego cyfra jedności to nie 3). Cyfry jedności kolejnych potęg 37 tworzą cykl 7, 9, 3, 1, 7, 9, 3, 1, … (bo cyfra jedności zależy tylko od cyfry jedności 7 czynnika). Cyfrę jedności równą 3 ma co czwarta potęga, więc takich dzielników jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2024</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>506</mn></mrow></math>.</p><p><em>Częściowo (1 pkt): odpowiedź różniąca się o 1 od prawidłowej albo wynik podzielenia 2024 przez 3 lub 5.</em></p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2024_podkarpackie_q7",
+      "number": 7,
+      "page": 8,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "trójkąty",
+        "dowodzenie / dowody",
+        "pole i obwód"
+      ],
+      "prompt_html": "<p>Odcinki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math> przecinają się w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> i spełnione są równości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>CS</mi><mo>|</mo><mo>=</mo><mn>3</mn><mo>·</mo><mo>|</mo><mi>AS</mi><mo>|</mo></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>DS</mi><mo>|</mo><mo>=</mo><mn>2</mn><mo>·</mo><mo>|</mo><mi>BS</mi><mo>|</mo></mrow></math>. Udowodnij, że pola trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDS</mi></math> i pięciokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCSD</mi></math> są równe.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Oba pola są równe sześciokrotności pola trójkąta ABS, więc są sobie równe.",
+        "solution_html": "<p>Trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABS</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCS</mi></math> mają wspólną wysokość spuszczoną z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>CS</mi><mo>|</mo><mo>=</mo><mn>3</mn><mo>·</mo><mo>|</mo><mi>AS</mi><mo>|</mo></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>BCS</mi></msub><mo>=</mo><mn>3</mn><mo>·</mo><msub><mi>P</mi><mi>ABS</mi></msub></mrow></math>. Podobnie trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DCS</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCS</mi></math> mają wspólną wysokość z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>DS</mi><mo>|</mo><mo>=</mo><mn>2</mn><mo>·</mo><mo>|</mo><mi>BS</mi><mo>|</mo></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>DCS</mi></msub><mo>=</mo><mn>2</mn><mo>·</mo><msub><mi>P</mi><mi>BCS</mi></msub></mrow></math>. Rozpatrując wysokość z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> w trójkątach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABS</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADS</mi></math> dostajemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>ADS</mi></msub><mo>=</mo><mn>2</mn><mo>·</mo><msub><mi>P</mi><mi>ABS</mi></msub></mrow></math>. Pięciokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCSD</mi></math> jest sumą trójkątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADS</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABS</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCS</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>ABCSD</mi></msub><mo>=</mo><mn>2</mn><msub><mi>P</mi><mi>ABS</mi></msub><mo>+</mo><msub><mi>P</mi><mi>ABS</mi></msub><mo>+</mo><mn>3</mn><msub><mi>P</mi><mi>ABS</mi></msub><mo>=</mo><mn>6</mn><mo>·</mo><msub><mi>P</mi><mi>ABS</mi></msub></mrow></math>. Jednocześnie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>CDS</mi></msub><mo>=</mo><mn>2</mn><mo>·</mo><msub><mi>P</mi><mi>BCS</mi></msub><mo>=</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><msub><mi>P</mi><mi>ABS</mi></msub><mo>=</mo><mn>6</mn><mo>·</mo><msub><mi>P</mi><mi>ABS</mi></msub></mrow></math>. Zatem pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDS</mi></math> jest równe polu pięciokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCSD</mi></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2024_podkarpackie_q8",
+      "number": 8,
+      "page": 10,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "procenty",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Ania i Basia stoją w bardzo długiej kolejce. Ania obliczyła, że liczba osób stojących za nią stanowi 74% liczby osób stojących przed nią. W tym samym momencie Basia zauważyła, że liczba osób stojących za nią stanowi 45% liczby osób stojących przed nią. Ile osób stoi w kolejce, jeśli wiadomo, że między Anią i Basią stoi 9 osób?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "88",
+        "solution_html": "<p>Ania stoi w kolejce wcześniej niż Basia (stosunek liczby osób za nią do osób przed nią jest u niej większy). Oznaczmy przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> liczbę osób stojących przed Anią; wtedy za Anią stoi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,74</mn><mi>x</mi></mrow></math> osób. Przed Basią stoi o 10 osób więcej niż przed Anią (Ania i 9 osób między nimi), czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>10</mn></mrow></math>, a za Basią <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>45</mn><mo>%</mo><mo>·</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>10</mn><mo>)</mo><mo>=</mo><mn>0,45</mn><mi>x</mi><mo>+</mo><mn>4,5</mn></mrow></math>. Łączną liczbę osób zapisujemy na dwa sposoby: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>1</mn><mo>+</mo><mn>0,74</mn><mi>x</mi><mo>=</mo><mi>x</mi><mo>+</mo><mn>10</mn><mo>+</mo><mn>1</mn><mo>+</mo><mn>0,45</mn><mi>x</mi><mo>+</mo><mn>4,5</mn></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,74</mn><mi>x</mi><mo>=</mo><mn>1,45</mn><mi>x</mi><mo>+</mo><mn>14,5</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,29</mn><mi>x</mi><mo>=</mo><mn>14,5</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>50</mn></mrow></math>. Liczba osób w kolejce wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>1</mn><mo>+</mo><mn>0,74</mn><mi>x</mi><mo>=</mo><mn>1,74</mn><mo>·</mo><mn>50</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>88</mn></mrow></math>. Odpowiedź: w kolejce stoi 88 osób.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2024_podkarpackie_q9",
+      "number": 9,
+      "page": 12,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "prawdopodobieństwo",
+        "zliczanie / metody zliczania"
+      ],
+      "prompt_html": "<p>Liczbę naturalną nazywamy palindromem, jeśli po zamianie kolejności cyfr na przeciwną otrzymujemy tę samą liczbę. Przykładami palindromów są liczby 3, 474, 22600622.</p><p>W urnie znajduje się 10000 kul ponumerowanych liczbami naturalnymi od 1 do 10000. Jadzia losuje z urny jedną kulę (prawdopodobieństwo wylosowania każdej z kul jest jednakowe). Jakie jest prawdopodobieństwo, że numer wylosowanej kuli jest palindromem?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "0,0198",
+        "solution_html": "<p>Policzmy palindromy wśród liczb od 1 do 10000. Wszystkie 9 liczb jednocyfrowych to palindromy. Palindromy dwucyfrowe to liczby o jednakowych cyfrach — jest ich 9. Palindrom trzycyfrowy powstaje z dowolnej liczby dwucyfrowej przez dopisanie na końcu jej pierwszej cyfry, więc jest ich tyle co liczb dwucyfrowych, czyli 90. Podobnie palindromów czterocyfrowych jest 90. Jedyna liczba pięciocyfrowa w zakresie (10000) nie jest palindromem. Łącznie palindromów jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mo>+</mo><mn>9</mn><mo>+</mo><mn>90</mn><mo>+</mo><mn>90</mn><mo>=</mo><mn>198</mn></mrow></math>. Prawdopodobieństwo wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mfrac><mn>198</mn><mn>10000</mn></mfrac><mo>=</mo><mn>0,0198</mn></mrow></math>.</p>"
+      }
+    }
+  ]
+}

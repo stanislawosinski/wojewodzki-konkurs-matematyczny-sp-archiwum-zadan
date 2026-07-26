@@ -1,0 +1,199 @@
+{
+  "source_file": "wojewodzki/2025-2026_pomorskie.pdf",
+  "answers_file": "wojewodzki/2025-2026_pomorskie_answers.pdf",
+  "competition": "Wojewódzki Konkurs z Matematyki dla uczniów klas IV-VIII szkół podstawowych województwa pomorskiego",
+  "school_type": "podstawowa",
+  "stage": "wojewodzki",
+  "wojewodztwo": "pomorskie",
+  "school_year": "2025/2026",
+  "date": null,
+  "total_questions": 9,
+  "max_points": 20,
+  "questions": [
+    {
+      "id": "wojewodzki_2025-2026_pomorskie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "czworokąty",
+        "pole i obwód"
+      ],
+      "prompt_html": "<p>Dwa przystające kwadraty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB′C′D′</mi></math> o boku długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mtext>&#160;cm</mtext></mrow></math> nałożono na siebie w taki sposób, że mają wspólny wierzchołek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> (patrz rysunek). Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B′</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> należą do jednej prostej (są współliniowe). Bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DC</mi></math> pierwszego kwadratu przecina bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B′C′</mi></math> drugiego kwadratu w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math>. Oblicz pole czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB′ED</mi></math>.</p>",
+      "choices": [],
+      "figures": [
+        "wojewodzki_2025-2026_pomorskie_q1_fig1.png"
+      ],
+      "answer": {
+        "correct": "64√2 − 64 (cm²)",
+        "solution_html": "<p>Przekątna kwadratu <em>ABCD</em>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AC</mi><mo>|</mo><mo>=</mo><mn>8</mn><msqrt><mn>2</mn></msqrt></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB′</mi><mo>|</mo><mo>=</mo><mn>8</mn></mrow></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>B′C</mi><mo>|</mo><mo>=</mo><mn>8</mn><msqrt><mn>2</mn></msqrt><mo>−</mo><mn>8</mn></mrow></math>.</p><p>Trójkąt <em>B′CE</em> jest prostokątny i równoramienny (kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∠</mo><mi>B′CE</mi></mrow></math> ma miarę 45°), więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>B′C</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>B′E</mi><mo>|</mo></mrow></math>, a jego pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mrow><mi>B′CE</mi></mrow></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><msup><mrow><mo>(</mo><mn>8</mn><msqrt><mn>2</mn></msqrt><mo>−</mo><mn>8</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>96</mn><mo>−</mo><mn>64</mn><msqrt><mn>2</mn></msqrt></mrow></math>.</p><p>Pole trójkąta <em>ADC</em> (połowy kwadratu) wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>8</mn><mo>·</mo><mn>8</mn><mo>=</mo><mn>32</mn></mrow></math>. Stąd pole czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mrow><mi>AB′ED</mi></mrow></msub><mo>=</mo><mn>32</mn><mo>−</mo><mo>(</mo><mn>96</mn><mo>−</mo><mn>64</mn><msqrt><mn>2</mn></msqrt><mo>)</mo><mo>=</mo><mn>64</mn><msqrt><mn>2</mn></msqrt><mo>−</mo><mn>64</mn></mrow></math>.</p><p><strong>Odpowiedź:</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mrow><mi>AB′ED</mi></mrow></msub><mo>=</mo><mo>(</mo><mn>64</mn><msqrt><mn>2</mn></msqrt><mo>−</mo><mn>64</mn><mo>)</mo><mtext>&#160;cm</mtext><msup><mtext></mtext><mn>2</mn></msup></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2025-2026_pomorskie_q2",
+      "number": 2,
+      "page": 3,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "podzielność",
+        "potęgi i pierwiastki",
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>Uzasadnij, że dla każdej dodatniej liczby całkowitej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> liczba: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>5</mn><mrow><mi>n</mi><mo>+</mo><mn>2</mn></mrow></msup><mo>+</mo><mn>3</mn><mo>·</mo><msup><mn>5</mn><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msup><mo>+</mo><msup><mn>5</mn><mi>n</mi></msup></mrow></math> jest wielokrotnością liczby 41. Zapisz wszystkie etapy uzasadnienia.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Liczba jest równa 41·5ⁿ, więc jest wielokrotnością 41.",
+        "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>5</mn><mrow><mi>n</mi><mo>+</mo><mn>2</mn></mrow></msup><mo>+</mo><mn>3</mn><mo>·</mo><msup><mn>5</mn><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msup><mo>+</mo><msup><mn>5</mn><mi>n</mi></msup><mo>=</mo><mn>25</mn><mo>·</mo><msup><mn>5</mn><mi>n</mi></msup><mo>+</mo><mn>15</mn><mo>·</mo><msup><mn>5</mn><mi>n</mi></msup><mo>+</mo><msup><mn>5</mn><mi>n</mi></msup><mo>=</mo><mn>41</mn><mo>·</mo><msup><mn>5</mn><mi>n</mi></msup></mrow></math>.</p><p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>41</mn><mo>·</mo><msup><mn>5</mn><mi>n</mi></msup><mo>=</mo><mn>41</mn><mi>k</mi></mrow></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>k</mi><mo>=</mo><msup><mn>5</mn><mi>n</mi></msup></mrow></math> jest liczbą naturalną, dana liczba jest wielokrotnością 41.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2025-2026_pomorskie_q3",
+      "number": 3,
+      "page": 4,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "graniastosłupy"
+      ],
+      "prompt_html": "<p>Z sześcianu o krawędzi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mtext>&#160;cm</mtext></mrow></math> wycięto cztery jednakowe graniastosłupy prawidłowe trójkątne o długości krawędzi podstawy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mtext>&#160;cm</mtext></mrow></math> i wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mtext>&#160;cm</mtext></mrow></math> i otrzymano bryłę pokazaną na rysunku. Oblicz objętość otrzymanej bryły. Zapisz wszystkie obliczenia.</p>",
+      "choices": [],
+      "figures": [
+        "wojewodzki_2025-2026_pomorskie_q3_fig1.png"
+      ],
+      "answer": {
+        "correct": "3375 − 375√3 (cm³)",
+        "solution_html": "<p>Objętość sześcianu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>V</mi><mrow><mi>sześc</mi></mrow></msub><mo>=</mo><msup><mn>15</mn><mn>3</mn></msup><mo>=</mo><mn>3375</mn><mtext>&#160;cm</mtext><msup><mtext></mtext><mn>3</mn></msup></mrow></math>.</p><p>Objętość jednego graniastosłupa (podstawa – trójkąt równoboczny o boku 5): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>V</mi><mrow><mi>gr</mi></mrow></msub><mo>=</mo><mfrac><mrow><msup><mn>5</mn><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>·</mo><mn>15</mn><mo>=</mo><mfrac><mrow><mn>375</mn><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mtext>&#160;cm</mtext><msup><mtext></mtext><mn>3</mn></msup></mrow></math>.</p><p>Objętość bryły: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>V</mi><mo>=</mo><mn>3375</mn><mo>−</mo><mn>4</mn><mo>·</mo><mfrac><mrow><mn>375</mn><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mo>(</mo><mn>3375</mn><mo>−</mo><mn>375</mn><msqrt><mn>3</mn></msqrt><mo>)</mo><mtext>&#160;cm</mtext><msup><mtext></mtext><mn>3</mn></msup></mrow></math>.</p><p><strong>Odpowiedź:</strong> objętość otrzymanej bryły to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>3375</mn><mo>−</mo><mn>375</mn><msqrt><mn>3</mn></msqrt><mo>)</mo><mtext>&#160;cm</mtext><msup><mtext></mtext><mn>3</mn></msup></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2025-2026_pomorskie_q4",
+      "number": 4,
+      "page": 5,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "układy równań"
+      ],
+      "prompt_html": "<p>Dana jest naturalna liczba trzycyfrowa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. Suma cyfr tej liczby jest równa 21, a cyfra dziesiątek jest średnią arytmetyczną cyfry jedności i cyfry setek. Jeśli zamienimy miejscami cyfrę jedności z cyfrą setek liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, to otrzymamy nową liczbę, która jest o 198 większa od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. Wyznacz liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. Zapisz obliczenia.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "678",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> – cyfra setek, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> – cyfra jedności, a cyfra dziesiątek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>z</mi><mo>=</mo><mfrac><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow><mn>2</mn></mfrac></mrow></math>.</p><p>Z warunków zadania:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mfrac><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow><mn>2</mn></mfrac><mo>+</mo><mi>y</mi><mo>=</mo><mn>21</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mi>x</mi><mo>+</mo><mn>10</mn><mi>z</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>100</mn><mi>y</mi><mo>+</mo><mn>10</mn><mi>z</mi><mo>+</mo><mi>x</mi><mo>−</mo><mn>198</mn></mrow></math>.</p><p>Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>14</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>−</mo><mi>y</mi><mo>=</mo><mo>−</mo><mn>2</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>6</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>8</mn></mrow></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>z</mi><mo>=</mo><mfrac><mrow><mn>6</mn><mo>+</mo><mn>8</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>7</mn></mrow></math>.</p><p><strong>Odpowiedź:</strong> szukaną liczbą jest 678.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2025-2026_pomorskie_q5",
+      "number": 5,
+      "page": 6,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "ułamki"
+      ],
+      "prompt_html": "<p>Uzupełnij zdanie. Wpisz odpowiednią liczbę w wykropkowanym miejscu, aby zdanie było prawdziwe.</p><p>Liczba, której <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>15</mn></mfrac></math> jest równe tyle co <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math> wartości wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>8</mn><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>−</mo><mn>4</mn><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>1</mn><mfrac><mn>1</mn><mn>9</mn></mfrac><mo>)</mo><mo>:</mo><mn>1</mn><mfrac><mn>1</mn><mn>12</mn></mfrac></mrow></math> jest równa ………</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "15",
+        "solution_html": "<p>Najpierw wartość wyrażenia:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>8</mn><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>−</mo><mn>4</mn><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>1</mn><mfrac><mn>1</mn><mn>9</mn></mfrac><mo>)</mo><mo>:</mo><mn>1</mn><mfrac><mn>1</mn><mn>12</mn></mfrac><mo>=</mo><mo>(</mo><mn>8</mn><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>−</mo><mn>5</mn><mo>)</mo><mo>:</mo><mfrac><mn>13</mn><mn>12</mn></mfrac><mo>=</mo><mfrac><mn>13</mn><mn>4</mn></mfrac><mo>·</mo><mfrac><mn>12</mn><mn>13</mn></mfrac><mo>=</mo><mn>3</mn></mrow></math>.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>·</mo><mn>3</mn><mo>=</mo><mn>2</mn></mrow></math>. Szukana liczba spełnia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>2</mn><mn>15</mn></mfrac><mo>·</mo><mi>x</mi><mo>=</mo><mn>2</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>2</mn><mo>:</mo><mfrac><mn>2</mn><mn>15</mn></mfrac><mo>=</mo><mn>2</mn><mo>·</mo><mfrac><mn>15</mn><mn>2</mn></mfrac><mo>=</mo><mn>15</mn></mrow></math>.</p><p><strong>Odpowiedź:</strong> szukana liczba jest równa 15.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2025-2026_pomorskie_q6",
+      "number": 6,
+      "page": 7,
+      "type": "open",
+      "points": 1,
+      "topics": [
+        "równania z jedną zmienną",
+        "wzory skróconego mnożenia"
+      ],
+      "prompt_html": "<p>Uzupełnij zdanie. Wpisz odpowiednią liczbę w wykropkowanym miejscu, aby zdanie było prawdziwe.</p><p>Rozwiązaniem równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><msqrt><mn>2</mn></msqrt><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><mn>8</mn><mo>=</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>3</mn><msqrt><mn>8</mn></msqrt><mi>x</mi><mo>+</mo><mn>13</mn></mrow></math> jest liczba ………</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>2</mn></msqrt><mn>2</mn></mfrac></math>",
+        "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><msqrt><mn>2</mn></msqrt><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><mn>8</mn><mo>=</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>3</mn><msqrt><mn>8</mn></msqrt><mi>x</mi><mo>+</mo><mn>13</mn></mrow></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mi>x</mi><mo>+</mo><mn>9</mn><mo>=</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>6</mn><msqrt><mn>2</mn></msqrt><mi>x</mi><mo>+</mo><mn>13</mn></mrow></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><msqrt><mn>2</mn></msqrt><mi>x</mi><mo>=</mo><mn>4</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mfrac><mn>4</mn><mrow><mn>4</mn><msqrt><mn>2</mn></msqrt></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><msqrt><mn>2</mn></msqrt></mfrac><mo>=</mo><mfrac><msqrt><mn>2</mn></msqrt><mn>2</mn></mfrac></mrow></math>.</p><p><strong>Odpowiedź:</strong> szukaną liczbą jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>2</mn></msqrt><mn>2</mn></mfrac></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2025-2026_pomorskie_q7",
+      "number": 7,
+      "page": 8,
+      "type": "closed_single",
+      "points": 5,
+      "topics": [
+        "procenty",
+        "usuwanie niewymierności z mianownika",
+        "trójkąty",
+        "zagadki logiczne"
+      ],
+      "prompt_html": "<p>W zadaniach zamkniętych dokładnie jedna odpowiedź jest poprawna. Wskaż tę odpowiedź otaczając ją kółkiem.</p><p><strong>7.1</strong> Do dyspozycji mamy 4 litry soku. Sok nalewamy do szklanek o pojemności <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>5</mn></mfrac></math> litra, przy czym każdą szklankę napełniamy tylko do 0,8 jej pojemności. Ile maksymalnie szklanek można w ten sposób napełnić?</p><ul><li>A. 10</li><li>B. 15</li><li>C. 20</li><li>D. 25</li></ul><p><strong>7.2</strong> Trzy osoby wspólnie opłacały koszt wynajmu domku na weekend. Pierwsza z nich pokryła 60% całej kwoty, druga zapłaciła 40% z pozostałej części, a trzecia dopłaciła brakującą kwotę w wysokości 30 zł. Ile wynosił całkowity koszt wynajmu domku?</p><ul><li>A. 60 zł</li><li>B. 125 zł</li><li>C. 150 zł</li><li>D. 200 zł</li></ul><p><strong>7.3</strong> Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mfrac><mrow><mn>6</mn><mo>−</mo><msqrt><mn>6</mn></msqrt></mrow><msqrt><mn>6</mn></msqrt></mfrac><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup></math> jest równa</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>6</mn></mfrac></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>6</mn></msqrt><mn>6</mn></mfrac></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>6</mn></msqrt></math></li><li>D. 6</li></ul><p><strong>7.4</strong> Wiadomo, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AB</mi><mo>∥</mo><mi>CD</mi></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>OA</mi><mo>|</mo><mo>=</mo><mn>4</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>4</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>CD</mi><mo>|</mo><mo>=</mo><mn>5</mn></mrow></math> (patrz rysunek). Długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> wynosi:</p><ul><li>A. 4,5</li><li>B. 5</li><li>C. 1</li><li>D. 4</li></ul><p><strong>7.5</strong> Tomasz, Monika i Iga są rodzeństwem. Ich wiek podany w pewnej kolejności to: 12, 13 i 14 lat. Wiadomo, że wiek Moniki jest liczbą parzystą, natomiast wiek Igi stanowi dwukrotność liczby liter w imieniu jednego z jej rodzeństwa. Ile lat ma każde z dzieci?</p><ul><li>A. Tomasz – 12; Monika – 13; Iga – 14</li><li>B. Tomasz – 14; Monika – 12; Iga – 13</li><li>C. Tomasz – 13; Monika – 14; Iga – 12</li><li>D. Tomasz – 13; Monika – 12; Iga – 14</li></ul>",
+      "choices": [],
+      "figures": [
+        "wojewodzki_2025-2026_pomorskie_q7_fig1.png"
+      ],
+      "answer": {
+        "correct": "7.1 – D, 7.2 – B, 7.3 – D, 7.4 – C, 7.5 – C",
+        "solution_html": "<p><strong>7.1</strong> Do jednej szklanki nalewamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>·</mo><mn>0</mn><mo>,</mo><mn>8</mn><mo>=</mo><mn>0</mn><mo>,</mo><mn>16</mn></mrow></math> litra. Liczba szklanek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>:</mo><mn>0</mn><mo>,</mo><mn>16</mn><mo>=</mo><mn>25</mn></mrow></math>. Odpowiedź: <strong>D</strong>.</p><p><strong>7.2</strong> Pierwsza osoba – 60%, druga – 40% z pozostałych 40% = 16%. Trzecia dopłaca <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mo>%</mo><mo>−</mo><mn>60</mn><mo>%</mo><mo>−</mo><mn>16</mn><mo>%</mo><mo>=</mo><mn>24</mn><mo>%</mo></mrow></math> = 30 zł, więc całość to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>30</mn><mo>:</mo><mn>0</mn><mo>,</mo><mn>24</mn><mo>=</mo><mn>125</mn></mrow></math> zł. Odpowiedź: <strong>B</strong>.</p><p><strong>7.3</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>6</mn><mo>−</mo><msqrt><mn>6</mn></msqrt></mrow><msqrt><mn>6</mn></msqrt></mfrac><mo>+</mo><mn>1</mn><mo>=</mo><msqrt><mn>6</mn></msqrt><mo>−</mo><mn>1</mn><mo>+</mo><mn>1</mn><mo>=</mo><msqrt><mn>6</mn></msqrt></mrow></math>, zatem kwadrat wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><msqrt><mn>6</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>6</mn></mrow></math>. Odpowiedź: <strong>D</strong>.</p><p><strong>7.4</strong> Trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>OAB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>OCD</mi></math> są podobne, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mo>|</mo><mi>OA</mi><mo>|</mo></mrow><mrow><mo>|</mo><mi>OC</mi><mo>|</mo></mrow></mfrac><mo>=</mo><mfrac><mrow><mo>|</mo><mi>AB</mi><mo>|</mo></mrow><mrow><mo>|</mo><mi>CD</mi><mo>|</mo></mrow></mfrac><mo>=</mo><mfrac><mn>4</mn><mn>5</mn></mfrac></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>OC</mi><mo>|</mo><mo>=</mo><mn>5</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AC</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>OC</mi><mo>|</mo><mo>−</mo><mo>|</mo><mi>OA</mi><mo>|</mo><mo>=</mo><mn>1</mn></mrow></math>. Odpowiedź: <strong>C</strong>.</p><p><strong>7.5</strong> Wiek Igi to dwukrotność liczby liter imienia rodzeństwa (Tomasz i Monika mają po 6 liter), więc Iga ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>12</mn></mrow></math> lat. Wiek Moniki jest parzysty, więc Monika ma 14 lat, a Tomasz 13 lat. Odpowiedź: <strong>C</strong>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2025-2026_pomorskie_q8",
+      "number": 8,
+      "page": 9,
+      "type": "true_false",
+      "points": 1,
+      "topics": [
+        "zliczanie / metody zliczania"
+      ],
+      "prompt_html": "<p>W pewnej klasie jest 30 uczniów. Wśród nich jest pięcioro takich, którzy mają zarówno brata jak i siostrę oraz siedmioro takich, którzy nie mają ani brata ani siostry. Ponadto wiadomo, że 13 uczniów tej klasy ma siostrę.</p><p>Oceń prawdziwość poniższych stwierdzeń. Otocz kółkiem P, jeśli stwierdzenie jest prawdziwe, albo F jeśli stwierdzenie jest fałszywe.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "W klasie jest 8 uczniów, którzy mają siostrę, ale nie mają brata."
+        },
+        {
+          "label": "2",
+          "html": "W klasie jest 15 uczniów, którzy mają brata."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PP",
+        "solution_html": "<p>Siośrę ma 13 uczniów, z czego 5 ma też brata, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>13</mn><mo>−</mo><mn>5</mn><mo>=</mo><mn>8</mn></mrow></math> uczniów ma siostrę, ale nie ma brata – stwierdzenie 1. jest <strong>prawdziwe (P)</strong>.</p><p>Ani brata, ani siostry nie ma 7 uczniów, a tylko siostrę ma 8, zatem brata ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>30</mn><mo>−</mo><mn>7</mn><mo>−</mo><mn>8</mn><mo>=</mo><mn>15</mn></mrow></math> uczniów – stwierdzenie 2. jest <strong>prawdziwe (P)</strong>.</p><p><strong>Odpowiedź:</strong> PP.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2025-2026_pomorskie_q9",
+      "number": 9,
+      "page": 9,
+      "type": "true_false",
+      "points": 1,
+      "topics": [
+        "trójkąty",
+        "pole i obwód"
+      ],
+      "prompt_html": "<p>Dany jest trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>, w którym stosunek długości boków jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>17</mn><mo>:</mo><mn>8</mn><mo>:</mo><mn>15</mn></mrow></math>.</p><p>Oceń prawdziwość poniższych stwierdzeń. Otocz kółkiem P, jeśli stwierdzenie jest prawdziwe, albo F jeśli stwierdzenie jest fałszywe.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Suma kątów ostrych trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest równa 90°."
+        },
+        {
+          "label": "2",
+          "html": "Jeśli najkrótszy bok trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> ma długość 16, to jego obwód jest równy 80."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PP",
+        "solution_html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>8</mn><mn>2</mn></msup><mo>+</mo><msup><mn>15</mn><mn>2</mn></msup><mo>=</mo><mn>64</mn><mo>+</mo><mn>225</mn><mo>=</mo><mn>289</mn><mo>=</mo><msup><mn>17</mn><mn>2</mn></msup></mrow></math>, trójkąt o stosunku boków 17:8:15 jest prostokątny. Suma jego kątów ostrych wynosi 90° – stwierdzenie 1. jest <strong>prawdziwe (P)</strong>.</p><p>Jeśli najkrótszy bok ma długość 16, to skala wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>16</mn><mo>:</mo><mn>8</mn><mo>=</mo><mn>2</mn></mrow></math>, boki to 34, 16, 30, a obwód <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>34</mn><mo>+</mo><mn>16</mn><mo>+</mo><mn>30</mn><mo>=</mo><mn>80</mn></mrow></math> – stwierdzenie 2. jest <strong>prawdziwe (P)</strong>.</p><p><strong>Odpowiedź:</strong> PP.</p>"
+      }
+    }
+  ]
+}

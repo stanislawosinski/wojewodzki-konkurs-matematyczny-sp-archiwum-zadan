@@ -68,7 +68,12 @@ STEPS:
 3. Read the SOURCE PDF PAGE IMAGES for every question — the text layer drops
    exponents/roots/superscripts, so read the rendered pages for anything mathematical:
    pdftoppm -png -r 200 <SRC> <SCRATCH>/<NAME>_pg   then Read the PNGs.
-4. Extract answers from the answers PDF (read its page images too); map each to its question.
+4. Extract answers from the answers PDF. READ THE KEY VIA `pdftotext -layout <answers.pdf>` FIRST —
+   some answers PDFs have a CORRUPT IMAGE LAYER that pdftoppm renders as a DIFFERENT competition
+   (e.g. a wielkopolskie key showing under a śląskie/pomorskie/podlaskie filename), while the text
+   layer is the correct key. Only fall back to page images if the text layer is empty/missing. If BOTH
+   the text and image show a genuinely different test (wrong voivodeship/year, questions don't line up),
+   treat the key as missing: answers_file null, answer.correct null. Map each answer to its question.
 5. TRUE/FALSE = choices-form: each statement is a choice labeled "1","2","3",… ; the shared
    intro goes only in prompt_html. Put the generic "Oceń, czy…" instruction FIRST and any
    DANGLING sentence-stem that the statements complete LAST, ending with a colon (so it leads

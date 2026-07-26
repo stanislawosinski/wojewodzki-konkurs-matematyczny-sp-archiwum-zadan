@@ -1,0 +1,246 @@
+{
+  "source_file": "wojewodzki/2026_mazowieckie.pdf",
+  "answers_file": "wojewodzki/2026_mazowieckie_answers.pdf",
+  "competition": "Konkurs Matematyczny dla uczniów szkół podstawowych województwa mazowieckiego",
+  "school_type": "podstawowa",
+  "stage": "wojewodzki",
+  "wojewodztwo": "mazowieckie",
+  "school_year": "2025/2026",
+  "date": "2026-03-09",
+  "total_questions": 10,
+  "max_points": 20,
+  "questions": [
+    {
+      "id": "wojewodzki_2026_mazowieckie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "prawdopodobieństwo"
+      ],
+      "prompt_html": "<p>Ania ma w koszyku 4 jabłka i 2 gruszki, a w koszyku Kasi jest 8 jabłek i 4 brzoskwinie. Czy prawdopodobieństwo wybrania przez Anię jabłka z koszyka Kasi jest większe niż prawdopodobieństwo wybrania jabłka przez Kasię z koszyka Ani? Wybierz odpowiedź T (tak) albo N (nie) i jej uzasadnienie A lub B, lub C.</p>",
+      "choices": [
+        {
+          "label": "T",
+          "html": "Tak"
+        },
+        {
+          "label": "N",
+          "html": "Nie"
+        },
+        {
+          "label": "A",
+          "html": "W koszyku Kasi jest dwa razy więcej jabłek niż w koszyku Ani."
+        },
+        {
+          "label": "B",
+          "html": "Jabłka w obu koszykach stanowią taką samą część wszystkich owoców."
+        },
+        {
+          "label": "C",
+          "html": "W koszyku Kasi jest tyle samo brzoskwiń co jabłek w koszyku Ani."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "N, B",
+        "solution_html": "<p>W koszyku Ani jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>6</mn></mrow></math> owoców, a w koszyku Kasi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>12</mn></mrow></math> owoców. Prawdopodobieństwo wybrania przez Anię jabłka z koszyka Kasi wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>8</mn><mn>12</mn></mfrac><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac></mrow></math>, a prawdopodobieństwo wybrania przez Kasię jabłka z koszyka Ani wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>4</mn><mn>6</mn></mfrac><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac></mrow></math>. Oba prawdopodobieństwa są równe, więc pierwsze nie jest większe od drugiego — odpowiedź N. Powodem jest to, że jabłka w obu koszykach stanowią taką samą część wszystkich owoców (po <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math>) — uzasadnienie B.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2026_mazowieckie_q2",
+      "number": 2,
+      "page": 2,
+      "type": "true_false",
+      "points": 1,
+      "topics": [
+        "trójkąty",
+        "kąty"
+      ],
+      "prompt_html": "<p>Na rysunku odcinki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AE</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AE</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ED</mi></math> są prostopadłe, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mo>∡</mo><mi>EDG</mi><mo>|</mo><mo>=</mo><mn>145</mn><mo>°</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mo>∡</mo><mi>BCH</mi><mo>|</mo><mo>=</mo><mn>55</mn><mo>°</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mo>∡</mo><mi>CBG</mi><mo>|</mo><mo>=</mo><mn>70</mn><mo>°</mo></mrow></math> (patrz rysunek). Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F, jeśli jest fałszywe.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Odcinki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BH</mi></math> są jednakowej długości."
+        },
+        {
+          "label": "2",
+          "html": "Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DFC</mi></math> jest prosty."
+        }
+      ],
+      "figures": [
+        "wojewodzki_2026_mazowieckie_q2_fig1.png"
+      ],
+      "answer": {
+        "correct": "PP",
+        "solution_html": "<p>W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCH</mi></math> kąt przy wierzchołku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mo>∡</mo><mi>CBG</mi><mo>|</mo><mo>=</mo><mn>70</mn><mo>°</mo></mrow></math> (punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>G</mi></math> leżą na prostej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>), a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mo>∡</mo><mi>BCH</mi><mo>|</mo><mo>=</mo><mn>55</mn><mo>°</mo></mrow></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mo>∡</mo><mi>BHC</mi><mo>|</mo><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>70</mn><mo>°</mo><mo>−</mo><mn>55</mn><mo>°</mo><mo>=</mo><mn>55</mn><mo>°</mo></mrow></math>. Kąty przy podstawie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CH</mi></math> są równe (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>55</mn><mo>°</mo></mrow></math>), więc trójkąt jest równoramienny i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>BC</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>BH</mi><mo>|</mo></mrow></math> — zdanie 1 jest prawdziwe (P). Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ED</mi></math> jest poziome, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mo>∡</mo><mi>EDG</mi><mo>|</mo><mo>=</mo><mn>145</mn><mo>°</mo></mrow></math>, prosta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DG</mi></math> tworzy z poziomem kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>°</mo><mo>−</mo><mn>145</mn><mo>°</mo><mo>=</mo><mn>35</mn><mo>°</mo></mrow></math> (opadając w prawo). Prosta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CH</mi></math> tworzy z poziomem kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mo>∡</mo><mi>BHC</mi><mo>|</mo><mo>=</mo><mn>55</mn><mo>°</mo></mrow></math> (wznosząc się w prawo). Kąt między tymi prostymi w punkcie ich przecięcia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>35</mn><mo>°</mo><mo>+</mo><mn>55</mn><mo>°</mo><mo>=</mo><mn>90</mn><mo>°</mo></mrow></math>, więc kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DFC</mi></math> jest prosty — zdanie 2 jest prawdziwe (P).</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2026_mazowieckie_q3",
+      "number": 3,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "podzielność"
+      ],
+      "prompt_html": "<p>Pewna liczba jest iloczynem pięciu kolejnych dodatnich liczb naturalnych. Wybierz wszystkie poprawne odpowiedzi spośród podanych.</p><p>Ta liczba:</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "może być dwucyfrowa."
+        },
+        {
+          "label": "B",
+          "html": "jest na pewno podzielna przez 60."
+        },
+        {
+          "label": "C",
+          "html": "może nie być podzielna przez 7."
+        },
+        {
+          "label": "D",
+          "html": "nie musi być wielokrotnością liczby 10."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B, C",
+        "solution_html": "<p>Najmniejszy iloczyn pięciu kolejnych dodatnich liczb naturalnych to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>4</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>120</mn></mrow></math>, więc liczba ta zawsze ma co najmniej trzy cyfry — odpowiedź A jest fałszywa. Wśród pięciu kolejnych liczb zawsze jest wielokrotność 5, wielokrotność 4 i wielokrotność 3, więc iloczyn jest podzielny przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>4</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>60</mn></mrow></math> — odpowiedź B jest poprawna. Iloczyn nie musi być podzielny przez 7 (np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>4</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>120</mn></mrow></math> nie jest) — odpowiedź C jest poprawna. Iloczyn jest zawsze podzielny przez 2 i przez 5, więc zawsze jest wielokrotnością 10 — odpowiedź D jest fałszywa. Poprawne odpowiedzi to B i C.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2026_mazowieckie_q4",
+      "number": 4,
+      "page": 3,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "procenty",
+        "graniastosłupy"
+      ],
+      "prompt_html": "<p>Dane są dwa klocki sześcienne. Przekątna ściany jednego klocka wynosi 4 i jest krótsza o 20% od przekątnej ściany drugiego klocka. Oblicz, o ile procent pole powierzchni całkowitej mniejszego klocka jest mniejsze od pola powierzchni całkowitej większego klocka.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "o 36%",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> będzie długością krawędzi większego klocka, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> — mniejszego. Przekątna ściany sześcianu o krawędzi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> wynosi 4, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>4</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mfrac><mn>4</mn><msqrt><mn>2</mn></msqrt></mfrac><mo>=</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow></math>. Przekątna 4 jest krótsza o 20% od przekątnej ściany większego klocka, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,8</mn><mo>·</mo><mi>a</mi><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>4</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>5</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>2,5</mn><msqrt><mn>2</mn></msqrt></mrow></math>. Pola powierzchni całkowitych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>6</mn><mo>·</mo><msup><mrow><mo>(</mo><mn>2,5</mn><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>6</mn><mo>·</mo><mn>12,5</mn><mo>=</mo><mn>75</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><msup><mi>b</mi><mn>2</mn></msup><mo>=</mo><mn>6</mn><mo>·</mo><msup><mrow><mo>(</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>6</mn><mo>·</mo><mn>8</mn><mo>=</mo><mn>48</mn></mrow></math>. Pole mniejszego klocka stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>48</mn><mn>75</mn></mfrac><mo>·</mo><mn>100</mn><mo>%</mo><mo>=</mo><mn>64</mn><mo>%</mo></mrow></math> pola większego, zatem jest od niego mniejsze o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mo>%</mo><mo>−</mo><mn>64</mn><mo>%</mo><mo>=</mo><mn>36</mn><mo>%</mo></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2026_mazowieckie_q5",
+      "number": 5,
+      "page": 4,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "sześciokąty foremne",
+        "układ współrzędnych"
+      ],
+      "prompt_html": "<p>Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mo>=</mo><mo>(</mo><mi>x</mi><mo>,</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow></math> jest wierzchołkiem sześciokąta foremnego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDEF</mi></math> (patrz rysunek). Wyznacz współrzędne wszystkich wierzchołków sześciokąta.</p>",
+      "choices": [],
+      "figures": [
+        "wojewodzki_2026_mazowieckie_q5_fig1.png"
+      ],
+      "answer": {
+        "correct": "A = (3, 3√3), B = (0, 0), C = (−6, 0), D = (−9, 3√3), E = (−6, 6√3), F = (0, 6√3)",
+        "solution_html": "<p>Środek boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>FB</mi></math> oznaczmy przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math>. Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABS</mi></math> (gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> to środek sześciokąta) jest równoboczny o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi></mrow></math>, a jego wysokość jest równa współrzędnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><mfrac><mrow><mn>2</mn><mi>x</mi><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>3</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mo>=</mo><mo>(</mo><mn>3</mn><mo>,</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow></math>. Bok sześciokąta ma długość 6, więc pozostałe wierzchołki mają współrzędne: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>B</mi><mo>=</mo><mo>(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo>)</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>C</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>6</mn><mo>,</mo><mn>0</mn><mo>)</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>D</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>9</mn><mo>,</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>E</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>6</mn><mo>,</mo><mn>6</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>F</mi><mo>=</mo><mo>(</mo><mn>0</mn><mo>,</mo><mn>6</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2026_mazowieckie_q6",
+      "number": 6,
+      "page": 5,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "wyłączanie jednomianu przed nawias"
+      ],
+      "prompt_html": "<p>Każdy uczeń pewnej szkoły przyniósł do dekoracji sali pewną liczbę balonów. Okazało się, że ci uczniowie tworzą trzy grupy A, B, C spełniające określone warunki. W grupie A każdy uczeń przyniósł 3 balony. W grupie B było tylu uczniów, co w grupie A, i każdy uczeń przyniósł 7 balonów. W grupie C liczba uczniów stanowiła <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math> liczby uczniów grupy B i każdy uczeń przyniósł 9 balonów. Wszystkie te balony zebrano i rozdzielono po równo między uczniów do nadmuchania. Oblicz, po ile balonów przypadło każdemu uczniowi.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "po 6 balonów",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę uczniów grupy A. Wtedy grupa B liczy również <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> uczniów, a grupa C — <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>2</mn><mn>3</mn></mfrac><mi>x</mi></mrow></math> uczniów. Liczba wszystkich balonów wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>7</mn><mi>x</mi><mo>+</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mi>x</mi><mo>·</mo><mn>9</mn><mo>=</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>7</mn><mi>x</mi><mo>+</mo><mn>6</mn><mi>x</mi><mo>=</mo><mn>16</mn><mi>x</mi></mrow></math>, a liczba wszystkich uczniów to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mi>x</mi><mo>+</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mi>x</mi><mo>=</mo><mfrac><mn>8</mn><mn>3</mn></mfrac><mi>x</mi></mrow></math>. Na jednego ucznia przypada <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>16</mn><mi>x</mi></mrow><mrow><mfrac><mn>8</mn><mn>3</mn></mfrac><mi>x</mi></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>16</mn><mi>x</mi><mo>·</mo><mn>3</mn></mrow><mrow><mn>8</mn><mi>x</mi></mrow></mfrac><mo>=</mo><mn>6</mn></mrow></math> balonów. Odpowiedź: każdemu uczniowi przypadło po 6 balonów.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2026_mazowieckie_q7",
+      "number": 7,
+      "page": 6,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "czworokąty",
+        "trójkąty",
+        "pole i obwód"
+      ],
+      "prompt_html": "<p>Na rysunku prosta podzieliła kwadrat na dwie figury: trójkąt o polu 54 i trapez o polu 90. Oblicz obwód trapezu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCE</mi></math>.</p>",
+      "choices": [],
+      "figures": [
+        "wojewodzki_2026_mazowieckie_q7_fig1.png"
+      ],
+      "answer": {
+        "correct": "42",
+        "solution_html": "<p>Pole kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> jest równe sumie pól obu figur: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>54</mn><mo>+</mo><mn>90</mn><mo>=</mo><mn>144</mn></mrow></math>, więc bok kwadratu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><msqrt><mn>144</mn></msqrt><mo>=</mo><mn>12</mn></mrow></math>. Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DEC</mi></math> ma pole 54 i podstawę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>DC</mi><mo>|</mo><mo>=</mo><mn>12</mn></mrow></math>, a wysokością jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>DE</mi><mo>|</mo></mrow></math>: z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mo>|</mo><mi>DE</mi><mo>|</mo><mo>·</mo><mn>12</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>54</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>DE</mi><mo>|</mo><mo>=</mo><mn>9</mn></mrow></math>, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AE</mi><mo>|</mo><mo>=</mo><mn>12</mn><mo>−</mo><mn>9</mn><mo>=</mo><mn>3</mn></mrow></math>. Z twierdzenia Pitagorasa w trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DEC</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>EC</mi><mo>|</mo><mo>=</mo><msqrt><mrow><msup><mn>9</mn><mn>2</mn></msup><mo>+</mo><msup><mn>12</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>225</mn></msqrt><mo>=</mo><mn>15</mn></mrow></math>. Obwód trapezu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCE</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AE</mi><mo>|</mo><mo>+</mo><mo>|</mo><mi>AB</mi><mo>|</mo><mo>+</mo><mo>|</mo><mi>BC</mi><mo>|</mo><mo>+</mo><mo>|</mo><mi>CE</mi><mo>|</mo><mo>=</mo><mn>3</mn><mo>+</mo><mn>12</mn><mo>+</mo><mn>12</mn><mo>+</mo><mn>15</mn><mo>=</mo><mn>42</mn></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2026_mazowieckie_q8",
+      "number": 8,
+      "page": 7,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "koła / okręgi",
+        "pole i obwód"
+      ],
+      "prompt_html": "<p>W kole o środku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math> narysowano figurę składającą się z dwóch półkoli jak na rysunku. Obwód dużego koła jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>18</mn><mi>π</mi></mrow></math>. Pole większego zacieniowanego półkola wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>18</mn><mi>π</mi></mrow></math>. Oblicz obwód zacieniowanej figury.</p>",
+      "choices": [],
+      "figures": [
+        "wojewodzki_2026_mazowieckie_q8_fig1.png"
+      ],
+      "answer": {
+        "correct": "9(π + 2)",
+        "solution_html": "<p>Z obwodu dużego koła: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>π</mi><mo>·</mo><mi>R</mi><mo>=</mo><mn>18</mn><mi>π</mi></mrow></math>, skąd promień koła <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>R</mi><mo>=</mo><mn>9</mn></mrow></math>, a jego średnica <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>CD</mi><mo>|</mo><mo>=</mo><mn>18</mn></mrow></math>. Pole większego półkola: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mi>π</mi><msup><mi>r</mi><mn>2</mn></msup></mrow><mn>2</mn></mfrac><mo>=</mo><mn>18</mn><mi>π</mi></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>r</mi><mn>2</mn></msup><mo>=</mo><mn>36</mn></mrow></math> i promień większego półkola <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>r</mi><mo>=</mo><mn>6</mn></mrow></math>. Środek większego półkola oznaczmy przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>; wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AO</mi><mo>|</mo><mo>=</mo><mn>9</mn><mo>−</mo><mn>6</mn><mo>=</mo><mn>3</mn></mrow></math>, więc średnica mniejszego półkola wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>BC</mi><mo>|</mo><mo>=</mo><mn>6</mn></mrow></math>, a jego promień <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>=</mo><mn>3</mn></mrow></math>. Obwód zacieniowanej figury składa się z: łuku mniejszego półkola <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>π</mi><mo>·</mo><mn>3</mn><mo>=</mo><mn>3</mn><mi>π</mi></mrow></math>, łuku większego półkola <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>π</mi><mo>·</mo><mn>6</mn><mo>=</mo><mn>6</mn><mi>π</mi></mrow></math> oraz odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>CD</mi><mo>|</mo><mo>=</mo><mn>18</mn></mrow></math>. Zatem obwód wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>π</mi><mo>+</mo><mn>6</mn><mi>π</mi><mo>+</mo><mn>18</mn><mo>=</mo><mn>9</mn><mo>(</mo><mi>π</mi><mo>+</mo><mn>2</mn><mo>)</mo></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2026_mazowieckie_q9",
+      "number": 9,
+      "page": 8,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "wzory skróconego mnożenia",
+        "podzielność"
+      ],
+      "prompt_html": "<p>Różnica kwadratów dwóch liczb naturalnych jest równa 231. Wyznacz te liczby. Rozpatrz wszystkie przypadki.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "116 i 115, lub 40 i 37, lub 16 i 5, lub 20 i 13",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> będą liczbami naturalnymi, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>&gt;</mo><mi>b</mi></mrow></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><msup><mi>b</mi><mn>2</mn></msup><mo>=</mo><mo>(</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo>)</mo><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mo>=</mo><mn>231</mn></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>231</mn><mo>=</mo><mn>3</mn><mo>·</mo><mn>7</mn><mo>·</mo><mn>11</mn></mrow></math>, iloczyn dwóch czynników naturalnych można otrzymać na cztery sposoby: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>·</mo><mn>231</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>77</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7</mn><mo>·</mo><mn>33</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>11</mn><mo>·</mo><mn>21</mn></mrow></math>. Rozwiązując układy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>−</mo><mi>b</mi><mo>=</mo><mi>m</mi></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mi>n</mi></mrow></math> otrzymujemy: dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>·</mo><mn>231</mn></mrow></math> — <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>116</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>115</mn></mrow></math>; dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>77</mn></mrow></math> — <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>40</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>37</mn></mrow></math>; dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>11</mn><mo>·</mo><mn>21</mn></mrow></math> — <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>16</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>5</mn></mrow></math>; dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7</mn><mo>·</mo><mn>33</mn></mrow></math> — <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>20</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>13</mn></mrow></math>. Szukane pary liczb to 116 i 115, 40 i 37, 16 i 5 oraz 20 i 13.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2026_mazowieckie_q10",
+      "number": 10,
+      "page": 9,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "ostrosłupy"
+      ],
+      "prompt_html": "<p>Stosunek pola powierzchni bocznej ostrosłupa prawidłowego czworokątnego do pola jego podstawy jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>17</mn></msqrt></math>. Oblicz stosunek wysokości tego ostrosłupa do krawędzi jego podstawy.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "2",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> oznacza krawędź podstawy, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math> — wysokość ściany bocznej, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi></math> — wysokość ostrosłupa. Pole podstawy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>p</mi></msub><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup></mrow></math>, a pole boczne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>b</mi></msub><mo>=</mo><mn>4</mn><mo>·</mo><mfrac><mrow><mi>a</mi><mo>·</mo><mi>h</mi></mrow><mn>2</mn></mfrac><mo>=</mo><mn>2</mn><mi>a</mi><mi>h</mi></mrow></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><msub><mi>P</mi><mi>b</mi></msub><msub><mi>P</mi><mi>p</mi></msub></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn><mi>a</mi><mi>h</mi></mrow><msup><mi>a</mi><mn>2</mn></msup></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn><mi>h</mi></mrow><mi>a</mi></mfrac><mo>=</mo><msqrt><mn>17</mn></msqrt></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><mfrac><mrow><mi>a</mi><msqrt><mn>17</mn></msqrt></mrow><mn>2</mn></mfrac></mrow></math>. Z twierdzenia Pitagorasa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>H</mi><mn>2</mn></msup><mo>=</mo><msup><mi>h</mi><mn>2</mn></msup><mo>−</mo><msup><mrow><mo>(</mo><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mfrac><mrow><mn>17</mn><msup><mi>a</mi><mn>2</mn></msup></mrow><mn>4</mn></mfrac><mo>−</mo><mfrac><msup><mi>a</mi><mn>2</mn></msup><mn>4</mn></mfrac><mo>=</mo><mfrac><mrow><mn>16</mn><msup><mi>a</mi><mn>2</mn></msup></mrow><mn>4</mn></mfrac><mo>=</mo><mn>4</mn><msup><mi>a</mi><mn>2</mn></msup></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>H</mi><mo>=</mo><mn>2</mn><mi>a</mi></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mi>H</mi><mi>a</mi></mfrac><mo>=</mo><mn>2</mn></mrow></math>.</p>"
+      }
+    }
+  ]
+}

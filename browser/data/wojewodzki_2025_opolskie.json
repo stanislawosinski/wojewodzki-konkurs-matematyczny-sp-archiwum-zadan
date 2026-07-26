@@ -1,0 +1,277 @@
+{
+  "source_file": "wojewodzki/2025_opolskie.pdf",
+  "answers_file": "wojewodzki/2025_opolskie_answers.pdf",
+  "competition": "Wojewódzki Konkurs Matematyczny dla uczniów szkół podstawowych województwa opolskiego",
+  "school_type": "podstawowa",
+  "stage": "wojewodzki",
+  "wojewodztwo": "opolskie",
+  "school_year": "2024/2025",
+  "date": null,
+  "total_questions": 11,
+  "max_points": 40,
+  "questions": [
+    {
+      "id": "wojewodzki_2025_opolskie_q1",
+      "number": 1,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "symetrie"
+      ],
+      "prompt_html": "<p>Dokładnie dwie osie symetrii i środek symetrii ma każdy:</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "odcinek"
+        },
+        {
+          "label": "2",
+          "html": "równoległobok"
+        },
+        {
+          "label": "3",
+          "html": "romb"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PFP",
+        "solution_html": "<p>Odcinek ma dwie osie symetrii (prostą, w której leży, oraz symetralną) i środek symetrii (swój środek) — <strong>TAK</strong>. Równoległobok (niebędący prostokątem ani rombem) ma środek symetrii, ale nie ma żadnej osi symetrii — <strong>NIE</strong>. Romb ma dokładnie dwie osie symetrii (przekątne) i środek symetrii — <strong>TAK</strong>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2025_opolskie_q2",
+      "number": 2,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Liczbą wymierną nieujemną jest:</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mo>|</mo><mo>−</mo><msqrt><mn>196</mn></msqrt><mo>|</mo></math>"
+        },
+        {
+          "label": "2",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5,1</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>3</mn></mrow></msup></math>"
+        },
+        {
+          "label": "3",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>1</mn><mo>−</mo><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup></math>"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FPF",
+        "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mo>|</mo><mo>−</mo><msqrt><mn>196</mn></msqrt><mo>|</mo><mo>=</mo><mo>−</mo><mn>14</mn></math> — wymierna, ale ujemna, więc <strong>NIE</strong>. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5,1</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>3</mn></mrow></msup><mo>=</mo><mn>0,0051</mn></math> — wymierna i nieujemna, <strong>TAK</strong>. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>1</mn><mo>−</mo><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>3</mn><mo>−</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></math> — liczba niewymierna, więc <strong>NIE</strong>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2025_opolskie_q3",
+      "number": 3,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "reszta z dzielenia",
+        "podzielność"
+      ],
+      "prompt_html": "<p>Liczbę dwucyfrową dzielimy przez sumę jej cyfr. Możemy otrzymać resztę:</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "10"
+        },
+        {
+          "label": "2",
+          "html": "15"
+        },
+        {
+          "label": "3",
+          "html": "17"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PPF",
+        "solution_html": "<p>Reszta musi być mniejsza od dzielnika, a suma cyfr liczby dwucyfrowej nie przekracza 18. Resztę 10 można otrzymać, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>:</mo><mn>1</mn></math> daje resztę 0 — trzeba dobrać przykład, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>75</mn><mo>:</mo><mn>12</mn><mo>=</mo><mn>6</mn></math> r. 3; resztę 10 daje np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>76</mn><mo>:</mo><mn>13</mn><mo>=</mo><mn>5</mn></math> r. 11 — istnieją odpowiednie liczby, więc <strong>TAK</strong>. Resztę 15 również można otrzymać (dzielnik ≥ 16) — <strong>TAK</strong>. Reszta 17 wymagałaby dzielnika ≥ 18, czyli sumy cyfr równej 18 (tylko liczba 99), a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>99</mn><mo>:</mo><mn>18</mn><mo>=</mo><mn>5</mn></math> r. 9 — więc reszta 17 jest niemożliwa, <strong>NIE</strong>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2025_opolskie_q4",
+      "number": 4,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "czworokąty",
+        "pole i obwód",
+        "procenty"
+      ],
+      "prompt_html": "<p>Janek, Franek i Staszek otrzymali jednakowe prostokątne kartki papieru i mieli zadanie wyciąć z tej kartki jak największy romb. Staszek wykonał zadanie najlepiej. Jego romb miał przekątne długości 30 cm i 40 cm. Większego nie można było wyciąć.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "U Staszka odpady stanowiły 50% papierowej kartki."
+        },
+        {
+          "label": "2",
+          "html": "Każdy bok prostokątnej kartki miał długość mniejszą niż 40 cm."
+        },
+        {
+          "label": "3",
+          "html": "Obwód prostokątnej kartki wynosił 112 cm."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FPP",
+        "solution_html": "<p>Romb ma przekątne 30 cm i 40 cm, więc jego bok wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>15</mn><mn>2</mn></msup><mo>+</mo><msup><mn>20</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>25</mn></math> cm, a pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>30</mn><mo>·</mo><mn>40</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>600</mn></math> cm². Najmniejszy prostokąt, z którego można wyciąć ten (największy możliwy) romb, ma boki równoległe do boków rombu: jego wysokość jest równa wysokości rombu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>600</mn><mn>25</mn></mfrac><mo>=</mo><mn>24</mn></math> cm, a szerokość to podstawa powiększona o rzut boku pochyłego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>25</mn><mo>+</mo><msqrt><mrow><msup><mn>25</mn><mn>2</mn></msup><mo>−</mo><msup><mn>24</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>25</mn><mo>+</mo><mn>7</mn><mo>=</mo><mn>32</mn></math> cm. Kartka ma więc wymiary 32 cm × 24 cm. Odpady: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>32</mn><mo>·</mo><mn>24</mn><mo>−</mo><mn>600</mn><mo>=</mo><mn>168</mn></math> cm², czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>168</mn><mn>768</mn></mfrac><mo>≈</mo><mn>21,9</mn><mo>%</mo></math> — <strong>NIE</strong> (nie 50%). Każdy bok kartki (32 cm i 24 cm) jest mniejszy niż 40 cm — <strong>TAK</strong>. Obwód kartki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mo>(</mo><mn>32</mn><mo>+</mo><mn>24</mn><mo>)</mo><mo>=</mo><mn>112</mn></math> cm — <strong>TAK</strong>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2025_opolskie_q5",
+      "number": 5,
+      "page": 1,
+      "type": "true_false",
+      "points": 2,
+      "topics": [
+        "ostrosłupy"
+      ],
+      "prompt_html": "<p>Można zbudować ostrosłup, którego siatka składa się tylko:</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "z trójkątów równobocznych."
+        },
+        {
+          "label": "2",
+          "html": "z trójkątów prostokątnych."
+        },
+        {
+          "label": "3",
+          "html": "z kwadratu i trójkątów prostokątnych."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PPP",
+        "solution_html": "<p>Czworościan foremny ma siatkę złożoną z czterech trójkątów równobocznych — <strong>TAK</strong>. Istnieją ostrosłupy, których wszystkie ściany są trójkątami prostokątnymi (np. ostrosłup o trzech krawędziach wychodzących z jednego wierzchołka wzajemnie prostopadłych) — <strong>TAK</strong>. Ostrosłup prawidłowy czworokątny o odpowiednio dobranych krawędziach ma podstawę-kwadrat i ściany boczne będące trójkątami prostokątnymi — <strong>TAK</strong>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2025_opolskie_q6",
+      "number": 6,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "procenty",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>W naczyniu był 10% roztwór kwasu octowego (można taki kupić w sklepie spożywczym). Dolano do niego 450 g wody i wówczas otrzymano roztwór 6%. Ile gramów roztworu było w naczyniu przed dolaniem wody?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "675 g",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza masę roztworu przed dolaniem wody. Masa kwasu octowego (substancji) wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,1</mn><mi>x</mi></math> i nie zmienia się po dolaniu wody. Po dolaniu 450 g wody masa roztworu to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>450</mn></math>, a stężenie 6%: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0,1</mn><mi>x</mi></mrow><mrow><mi>x</mi><mo>+</mo><mn>450</mn></mrow></mfrac><mo>=</mo><mn>0,06</mn></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,1</mn><mi>x</mi><mo>=</mo><mn>0,06</mn><mi>x</mi><mo>+</mo><mn>27</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,04</mn><mi>x</mi><mo>=</mo><mn>27</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>675</mn></math>. W naczyniu było 675 g roztworu.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2025_opolskie_q7",
+      "number": 7,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "podzielność",
+        "wzory skróconego mnożenia",
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>Udowodnij, że różnica kwadratów dwóch kolejnych liczb nieparzystych jest podzielna przez 8.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Różnica kwadratów dwóch kolejnych liczb nieparzystych ma postać 8(k+1), więc jest podzielna przez 8.",
+        "solution_html": "<p>Dwie kolejne liczby nieparzyste zapiszmy jako <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>k</mi><mo>+</mo><mn>1</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>k</mi><mo>+</mo><mn>3</mn></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> jest liczbą całkowitą. Różnica ich kwadratów, po zastosowaniu wzoru na różnicę kwadratów, wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>2</mn><mi>k</mi><mo>+</mo><mn>3</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>−</mo><msup><mrow><mo>(</mo><mn>2</mn><mi>k</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mo>(</mo><mn>4</mn><mi>k</mi><mo>+</mo><mn>4</mn><mo>)</mo><mo>·</mo><mn>2</mn><mo>=</mo><mn>8</mn><mo>(</mo><mi>k</mi><mo>+</mo><mn>1</mn><mo>)</mo></math>. Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>(</mo><mi>k</mi><mo>+</mo><mn>1</mn><mo>)</mo></math> jest podzielna przez 8, co kończy dowód.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2025_opolskie_q8",
+      "number": 8,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "trójkąty",
+        "kąty",
+        "pole i obwód"
+      ],
+      "prompt_html": "<p>W pewnym pięciokącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDE</mi></math> dwa sąsiednie kąty (przy wierzchołkach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>) są proste, a trzy pozostałe tej samej miary. Bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><msqrt><mn>3</mn></msqrt></math> cm, pozostałe są równej długości. Oblicz pole tego pięciokąta.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "125√3 cm²",
+        "solution_html": "<p>Suma kątów pięciokąta wynosi 540°. Kąty przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> są proste (razem 180°), więc trzy pozostałe równe kąty mają miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>540</mn><mo>°</mo><mo>−</mo><mn>180</mn><mo>°</mo></mrow><mn>3</mn></mfrac><mo>=</mo><mn>120</mn><mo>°</mo></math>. Ponieważ kąty przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> są proste, boki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AE</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> są prostopadłe do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>, a czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCE</mi></math> jest prostokątem. Oznaczmy równą długość boków przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi></math>. Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDE</mi></math> jest równoramienny (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>CD</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>DE</mi><mo>|</mo><mo>=</mo><mi>s</mi></math>) o kącie przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> równym 120°, więc kąty przy podstawie mają po 30°, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>CE</mi><mo>|</mo><mo>=</mo><mi>s</mi><msqrt><mn>3</mn></msqrt></math>. Ale <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>CE</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>10</mn><msqrt><mn>3</mn></msqrt></math>, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>=</mo><mn>10</mn></math>. Pole prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCE</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><mn>10</mn><mo>=</mo><mn>100</mn><msqrt><mn>3</mn></msqrt></math> cm². Wysokość trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDE</mi></math> opuszczona na <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CE</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><mtext>tg</mtext><mn>30</mn><mo>°</mo><mo>=</mo><mn>5</mn></math>, więc jego pole to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>10</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><mn>5</mn><mo>=</mo><mn>25</mn><msqrt><mn>3</mn></msqrt></math> cm². Pole pięciokąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>25</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>125</mn><msqrt><mn>3</mn></msqrt></math> cm².</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2025_opolskie_q9",
+      "number": 9,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "bryły",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Czy prostopadłościan o wymiarach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn></math> cm zmieści się w kuli o promieniu długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>3</mn></msqrt></math> cm? Odpowiedź uzasadnij.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Nie, nie zmieści się",
+        "solution_html": "<p>Prostopadłościan zmieści się w kuli, gdy jego przekątna jest nie dłuższa od średnicy kuli (równoważnie: połowa przekątnej nie jest większa od promienia). Przekątna prostopadłościanu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>6</mn><mn>2</mn></msup><mo>+</mo><msup><mn>8</mn><mn>2</mn></msup><mo>+</mo><msup><mn>10</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>200</mn></msqrt><mo>=</mo><mn>10</mn><msqrt><mn>2</mn></msqrt></math> cm, więc jej połowa to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><msqrt><mn>2</mn></msqrt></math> cm. Promień kuli wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>3</mn></msqrt></math> cm. Porównujemy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><msqrt><mn>50</mn></msqrt></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><msqrt><mn>48</mn></msqrt></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>50</mn></msqrt><mo>&gt;</mo><msqrt><mn>48</mn></msqrt></math>, połowa przekątnej jest większa od promienia, więc prostopadłościan <strong>nie zmieści się</strong> w kuli.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2025_opolskie_q10",
+      "number": 10,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "ostrosłupy",
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Objętość ostrosłupa prawidłowego czworokątnego o krawędzi podstawy długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>10</mn></msqrt></math> cm wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>480</mn></math> cm³. Oblicz pole powierzchni całkowitej tego ostrosłupa.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "(160 + 88√10) cm²",
+        "solution_html": "<p>Krawędź podstawy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>4</mn><msqrt><mn>10</mn></msqrt></math> cm, więc pole podstawy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>160</mn></math> cm². Z objętości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mn>160</mn><mo>·</mo><mi>H</mi><mo>=</mo><mn>480</mn></math> wyznaczamy wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi><mo>=</mo><mn>9</mn></math> cm. Apotema podstawy to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>=</mo><mn>2</mn><msqrt><mn>10</mn></msqrt></math>, a apotema (wysokość ściany bocznej) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><msqrt><mrow><msup><mn>9</mn><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mn>2</mn><msqrt><mn>10</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>81</mn><mo>+</mo><mn>40</mn></mrow></msqrt><mo>=</mo><mn>11</mn></math> cm. Pole jednej ściany bocznej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>4</mn><msqrt><mn>10</mn></msqrt><mo>·</mo><mn>11</mn><mo>=</mo><mn>22</mn><msqrt><mn>10</mn></msqrt></math> cm², cztery ściany: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>88</mn><msqrt><mn>10</mn></msqrt></math> cm². Pole powierzchni całkowitej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>160</mn><mo>+</mo><mn>88</mn><msqrt><mn>10</mn></msqrt><mo>)</mo></math> cm².</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2025_opolskie_q11",
+      "number": 11,
+      "page": 2,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "prędkość / droga / czas",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Z miejscowości A wyjeżdża samochód do miejscowości B. W tym samym czasie z miejscowości B też wyjeżdża samochód kierując się do miejscowości A. Odległość między tymi miejscowościami wynosi 350 km. Samochody minęły się w punkcie dzielącym tę trasę w stosunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>:</mo><mn>3</mn></math>. Średnia prędkość pierwszego samochodu jest o 20 km/h większa niż drugiego. Za ile minut każdy z samochodów dotrze do celu (licząc od momentu spotkania), jeżeli ich prędkości się nie zmienią?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Pierwszy: 112,5 min, drugi: 200 min",
+        "solution_html": "<p>Do momentu spotkania oba samochody jadą tyle samo czasu. Pierwszy przejechał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>7</mn></mfrac><mo>·</mo><mn>350</mn><mo>=</mo><mn>200</mn></math> km, drugi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>7</mn></mfrac><mo>·</mo><mn>350</mn><mo>=</mo><mn>150</mn></math> km. Niech prędkość drugiego samochodu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi></math>, a pierwszego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi><mo>+</mo><mn>20</mn></math>. Z równości czasów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>200</mn><mrow><mi>v</mi><mo>+</mo><mn>20</mn></mrow></mfrac><mo>=</mo><mfrac><mn>150</mn><mi>v</mi></mfrac></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>200</mn><mi>v</mi><mo>=</mo><mn>150</mn><mi>v</mi><mo>+</mo><mn>3000</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi><mo>=</mo><mn>60</mn></math> km/h oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi><mo>+</mo><mn>20</mn><mo>=</mo><mn>80</mn></math> km/h. Po spotkaniu pierwszy samochód ma do przejechania 150 km: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>150</mn><mn>80</mn></mfrac><mo>=</mo><mn>1,875</mn></math> h <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>112,5</mn></math> min, a drugi 200 km: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>200</mn><mn>60</mn></mfrac><mo>=</mo><mfrac><mn>10</mn><mn>3</mn></mfrac></math> h <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>200</mn></math> min.</p>"
+      }
+    }
+  ]
+}

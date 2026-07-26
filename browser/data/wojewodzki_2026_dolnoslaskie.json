@@ -1,0 +1,124 @@
+{
+  "source_file": "wojewodzki/2026_dolnoslaskie.pdf",
+  "answers_file": "wojewodzki/2026_dolnoslaskie_answers.pdf",
+  "competition": "Dolnośląski Konkurs Matematyczny zDolny Ślązak dla uczniów szkół podstawowych",
+  "school_type": "podstawowa",
+  "stage": "wojewodzki",
+  "wojewodztwo": "dolnoslaskie",
+  "school_year": "2025/2026",
+  "date": "2026-02-25",
+  "total_questions": 6,
+  "max_points": 30,
+  "questions": [
+    {
+      "id": "wojewodzki_2026_dolnoslaskie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Dodatnia liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oraz różna od zera liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> spełniają warunek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mfrac><mn>1</mn><msqrt><mi>x</mi></msqrt></mfrac><mo>−</mo><mn>5</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mroot><mi>y</mi><mn>3</mn></mroot></mfrac><mo>+</mo><mn>5</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>0</mn></mrow></math>. Oblicz wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><mo>|</mo><mfrac><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow><mn>5</mn></mfrac><mo>|</mo></mrow></msqrt></math>.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "2/25",
+        "solution_html": "<p>Kwadrat liczby rzeczywistej jest nieujemny, więc jeśli suma dwóch kwadratów jest równa 0, to każdy ze składników jest równy 0. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><msqrt><mi>x</mi></msqrt></mfrac><mo>−</mo><mn>5</mn><mo>=</mo><mn>0</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mroot><mi>y</mi><mn>3</mn></mroot></mfrac><mo>+</mo><mn>5</mn><mo>=</mo><mn>0</mn></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mi>x</mi></msqrt><mo>=</mo><mfrac><mn>1</mn><mn>5</mn></mfrac></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>25</mn></mfrac></mrow></math>, oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mroot><mi>y</mi><mn>3</mn></mroot><mo>=</mo><mo>−</mo><mfrac><mn>1</mn><mn>5</mn></mfrac></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mo>−</mo><mfrac><mn>1</mn><mn>125</mn></mfrac></mrow></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mrow><mo>|</mo><mfrac><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow><mn>5</mn></mfrac><mo>|</mo></mrow></msqrt><mo>=</mo><msqrt><mrow><mo>|</mo><mfrac><mrow><mfrac><mn>1</mn><mn>25</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mn>125</mn></mfrac></mrow><mn>5</mn></mfrac><mo>|</mo></mrow></msqrt><mo>=</mo><msqrt><mfrac><mn>4</mn><mn>625</mn></mfrac></msqrt><mo>=</mo><mfrac><mn>2</mn><mn>25</mn></mfrac></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2026_dolnoslaskie_q2",
+      "number": 2,
+      "page": 3,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "czworokąty",
+        "okrąg wpisany i opisany"
+      ],
+      "prompt_html": "<p>Dany jest trapez o podstawach długości 4 i 14 oraz obu ramionach o długości 13. Środek okręgu przechodzącego przez wszystkie jego wierzchołki leży wewnątrz tego trapezu. Oblicz długość promienia tego okręgu.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "65/8",
+        "solution_html": "<p>Oznaczmy przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math> środek okręgu, przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math> jego promień, a przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Q</mi></math> środki podstaw <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math>. Wysokość trapezu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>h</mi><mn>2</mn></msup><mo>=</mo><msup><mn>13</mn><mn>2</mn></msup><mo>−</mo><msup><mrow><mo>(</mo><mfrac><mrow><mn>14</mn><mo>−</mo><mn>4</mn></mrow><mn>2</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>144</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><mn>12</mn></mrow></math>. Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>d</mi><mo>=</mo><mo>|</mo><mi>QO</mi><mo>|</mo></mrow></math>. Z twierdzenia Pitagorasa dla trójkątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>OCQ</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>PBO</mi></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>d</mi><mn>2</mn></msup><mo>+</mo><msup><mn>2</mn><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mn>12</mn><mo>−</mo><mi>d</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mn>7</mn><mn>2</mn></msup></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>24</mn><mi>d</mi><mo>=</mo><mn>189</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>d</mi><mo>=</mo><mfrac><mn>63</mn><mn>8</mn></mfrac></mrow></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>R</mi><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mfrac><mn>63</mn><mn>8</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><mn>4</mn><mo>=</mo><mfrac><mn>4225</mn><mn>64</mn></mfrac></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>R</mi><mo>=</mo><mfrac><mn>65</mn><mn>8</mn></mfrac><mo>=</mo><mn>8</mn><mfrac><mn>1</mn><mn>8</mn></mfrac></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2026_dolnoslaskie_q3",
+      "number": 3,
+      "page": 4,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "układy równań",
+        "potęgi i pierwiastki",
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>Liczby rzeczywiste <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> spełniają jednocześnie dwa następujące warunki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>−</mo><mi>y</mi><mo>=</mo><mn>2</mn></mrow></math>. Wykaż, że te liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> spełniają także nierówność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><msup><mi>y</mi><mn>2</mn></msup><mo>&lt;</mo><mfrac><mi>x</mi><mi>y</mi></mfrac></mrow></math>.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "x = √2+1, y = √2−1; wtedy x²−y² = 4√2 oraz x/y = 3+2√2, a ponieważ 4√2 = √8+2√2 < √9+2√2 = 3+2√2, zachodzi x²−y² < x/y.",
+        "solution_html": "<p>Dodając równania stronami: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi><mo>=</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>2</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>1</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo>=</mo><msqrt><mn>2</mn></msqrt><mo>−</mo><mn>1</mn></mrow></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><mo>(</mo><mi>x</mi><mo>−</mo><mi>y</mi><mo>)</mo><mo>(</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>)</mo><mo>=</mo><mn>2</mn><mo>·</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>4</mn><msqrt><mn>2</mn></msqrt></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mi>x</mi><mi>y</mi></mfrac><mo>=</mo><mfrac><mrow><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>1</mn></mrow><mrow><msqrt><mn>2</mn></msqrt><mo>−</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mfrac><msup><mrow><mo>(</mo><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mrow><mo>(</mo><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>1</mn><mo>)</mo><mo>(</mo><msqrt><mn>2</mn></msqrt><mo>−</mo><mn>1</mn><mo>)</mo></mrow></mfrac><mo>=</mo><mn>3</mn><mo>+</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><msqrt><mn>8</mn></msqrt><mo>+</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>&lt;</mo><msqrt><mn>9</mn></msqrt><mo>+</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>3</mn><mo>+</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow></math>, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><msup><mi>y</mi><mn>2</mn></msup><mo>&lt;</mo><mfrac><mi>x</mi><mi>y</mi></mfrac></mrow></math>, co należało wykazać.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2026_dolnoslaskie_q4",
+      "number": 4,
+      "page": 5,
+      "type": "open",
+      "points": 5,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Dane są trzy równania:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>R</mi><mn>1</mn></msub><mo>:</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mi>A</mi></mfrac><mo>=</mo><mn>3</mn></mrow></math>,&#160;&#160;&#160;&#160;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>R</mi><mn>2</mn></msub><mo>:</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mrow><mi>A</mi><mo>+</mo><mfrac><mn>1</mn><mi>B</mi></mfrac></mrow></mfrac><mo>=</mo><mn>4</mn></mrow></math>,&#160;&#160;&#160;&#160;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>R</mi><mn>3</mn></msub><mo>:</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mrow><mi>A</mi><mo>+</mo><mfrac><mn>1</mn><mrow><mi>B</mi><mo>+</mo><mfrac><mn>1</mn><mi>C</mi></mfrac></mrow></mfrac></mrow></mfrac><mo>=</mo><mn>5</mn></mrow></math>.</p><p>Liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> spełniającą równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mn>1</mn></msub></math> wstaw do równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mn>2</mn></msub></math>. Rozwiąż otrzymane równanie o niewiadomej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>. Liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> spełniającą równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mn>1</mn></msub></math> i liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> spełniającą równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mn>2</mn></msub></math> wstaw do równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mn>3</mn></msub></math> i rozwiąż otrzymane równanie o niewiadomej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "C = 1/2 (przy A = 1/2, B = −6)",
+        "solution_html": "<p>Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mn>1</mn></msub></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mi>A</mi></mfrac><mo>=</mo><mn>2</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math>. Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mn>2</mn></msub></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mi>B</mi></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mi>B</mi></mfrac><mo>=</mo><mo>−</mo><mfrac><mn>1</mn><mn>6</mn></mfrac></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>B</mi><mo>=</mo><mo>−</mo><mn>6</mn></mrow></math>. Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mn>3</mn></msub></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mo>−</mo><mn>6</mn><mo>+</mo><mfrac><mn>1</mn><mi>C</mi></mfrac></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>6</mn><mo>+</mo><mfrac><mn>1</mn><mi>C</mi></mfrac><mo>=</mo><mo>−</mo><mn>4</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mi>C</mi></mfrac><mo>=</mo><mn>2</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>C</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2026_dolnoslaskie_q5",
+      "number": 5,
+      "page": 6,
+      "type": "open",
+      "points": 6,
+      "topics": [
+        "kąty",
+        "trójkąty"
+      ],
+      "prompt_html": "<p>Przekątną <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AE</mi></math> ośmiokąta foremnego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDEFGH</mi></math> przedłużono poza punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> do punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> takiego, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>FP</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>AG</mi><mo>|</mo></mrow></math>. Oblicz różnicę miar kątów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mo>∢</mo><mi>EFP</mi><mo>|</mo><mo>−</mo><mo>|</mo><mo>∢</mo><mi>AGH</mi><mo>|</mo></mrow></math>.</p>",
+      "choices": [],
+      "figures": [
+        "wojewodzki_2026_dolnoslaskie_q5_fig1.png"
+      ],
+      "answer": {
+        "correct": "15°",
+        "solution_html": "<p>Miara kąta wewnętrznego ośmiokąta foremnego jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mo>(</mo><mn>8</mn><mo>−</mo><mn>2</mn><mo>)</mo><mo>·</mo><mn>180</mn><mo>°</mo></mrow><mn>8</mn></mfrac><mo>=</mo><mn>135</mn><mo>°</mo></mrow></math>. W trójkącie równoramiennym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AGH</mi></math> (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>HA</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>HG</mi><mo>|</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mo>∢</mo><mi>AHG</mi><mo>|</mo><mo>=</mo><mn>135</mn><mo>°</mo></mrow></math>) mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mo>∢</mo><mi>AGH</mi><mo>|</mo><mo>=</mo><mfrac><mrow><mn>180</mn><mo>°</mo><mo>−</mo><mn>135</mn><mo>°</mo></mrow><mn>2</mn></mfrac><mo>=</mo><mn>22,5</mn><mo>°</mo></mrow></math>. Trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AGH</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DFE</mi></math> są przystające (bkb), więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>DF</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>AG</mi><mo>|</mo></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mo>∢</mo><mi>DFE</mi><mo>|</mo><mo>=</mo><mn>22,5</mn><mo>°</mo></mrow></math>. Trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EFP</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EDP</mi></math> także są przystające, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>DP</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>FP</mi><mo>|</mo></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>FP</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>AG</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>DF</mi><mo>|</mo></mrow></math>, trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DPF</mi></math> jest równoboczny, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mo>∢</mo><mi>DFP</mi><mo>|</mo><mo>=</mo><mn>60</mn><mo>°</mo></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mo>∢</mo><mi>EFP</mi><mo>|</mo><mo>=</mo><mn>60</mn><mo>°</mo><mo>−</mo><mn>22,5</mn><mo>°</mo><mo>=</mo><mn>37,5</mn><mo>°</mo></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mo>∢</mo><mi>EFP</mi><mo>|</mo><mo>−</mo><mo>|</mo><mo>∢</mo><mi>AGH</mi><mo>|</mo><mo>=</mo><mn>37,5</mn><mo>°</mo><mo>−</mo><mn>22,5</mn><mo>°</mo><mo>=</mo><mn>15</mn><mo>°</mo></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2026_dolnoslaskie_q6",
+      "number": 6,
+      "page": 7,
+      "type": "open",
+      "points": 6,
+      "topics": [
+        "ostrosłupy"
+      ],
+      "prompt_html": "<p>Wszystkie krawędzie ostrosłupa prawidłowego czworokątnego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDE</mi></math> przedstawionego na rysunku mają długość 6. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Q</mi></math> jest środkiem odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CE</mi></math>. Przyjmijmy, że trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCQ</mi></math> jest podstawą czworościanu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCQD</mi></math>. Oblicz długość wysokości tego czworościanu opuszczonej na tę podstawę.</p>",
+      "choices": [],
+      "figures": [
+        "wojewodzki_2026_dolnoslaskie_q6_fig1.png"
+      ],
+      "answer": {
+        "correct": "2√6",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> będzie punktem przecięcia przekątnych podstawy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>DQ</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>BQ</mi><mo>|</mo><mo>=</mo><mfrac><mrow><mn>6</mn><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>DB</mi><mo>|</mo><mo>=</mo><mn>6</mn><msqrt><mn>2</mn></msqrt></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>SC</mi><mo>|</mo><mo>=</mo><mn>3</mn><msqrt><mn>2</mn></msqrt></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>QC</mi><mo>|</mo><mo>=</mo><mn>3</mn></mrow></math>. Z trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>QSC</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>|</mo><mi>QS</mi><mo>|</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>−</mo><msup><mrow><mo>(</mo><mn>3</mn><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>9</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>QS</mi><mo>|</mo><mo>=</mo><mn>3</mn></mrow></math>. Wysokość czworościanu z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Q</mi></math> na podstawę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCD</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>h</mi><mn>2</mn></msup><mo>=</mo><msup><mn>3</mn><mn>2</mn></msup><mo>−</mo><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>3</mn><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mfrac><mn>9</mn><mn>2</mn></mfrac></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><mfrac><mn>3</mn><msqrt><mn>2</mn></msqrt></mfrac></mrow></math>. Pola: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>BCD</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><msup><mn>6</mn><mn>2</mn></msup><mo>=</mo><mn>18</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>BCQ</mi></msub><mo>=</mo><mfrac><mrow><msup><mn>6</mn><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mfrac><mrow><mn>9</mn><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac></mrow></math>. Ponieważ objętość czworościanu można liczyć względem obu podstaw, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>BCD</mi></msub><mo>·</mo><mi>h</mi><mo>=</mo><msub><mi>P</mi><mi>BCQ</mi></msub><mo>·</mo><mi>w</mi></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>18</mn><mo>·</mo><mfrac><mn>3</mn><msqrt><mn>2</mn></msqrt></mfrac><mo>=</mo><mfrac><mrow><mn>9</mn><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac><mo>·</mo><mi>w</mi></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>w</mi><mo>=</mo><mn>2</mn><msqrt><mn>6</mn></msqrt></mrow></math>.</p>"
+      }
+    }
+  ]
+}

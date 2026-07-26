@@ -1,0 +1,338 @@
+{
+  "source_file": "wojewodzki/2024_kujawsko-pomorskie.pdf",
+  "answers_file": "wojewodzki/2024_kujawsko-pomorskie_answers.pdf",
+  "competition": "Konkurs Przedmiotowy z Matematyki dla uczniów szkół podstawowych województwa kujawsko – pomorskiego",
+  "school_type": "podstawowa",
+  "stage": "wojewodzki",
+  "wojewodztwo": "kujawsko-pomorskie",
+  "school_year": "2023/2024",
+  "date": "2024-03-09",
+  "total_questions": 14,
+  "max_points": 40,
+  "questions": [
+    {
+      "id": "wojewodzki_2024_kujawsko-pomorskie_q1",
+      "number": 1,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "potęgi i pierwiastki"
+      ],
+      "prompt_html": "<p>Ile wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>1,25</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>5</mn></mrow></msup><mo>)</mo><mo>·</mo><mo>(</mo><mn>8</mn><mo>·</mo><msup><mn>10</mn><mn>115</mn></msup><mo>)</mo></math>?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mrow><mo>−</mo><mn>23</mn></mrow></msup></math>"
+        },
+        {
+          "label": "B",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>23</mn></msup></math>"
+        },
+        {
+          "label": "C",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>110</mn></msup></math>"
+        },
+        {
+          "label": "D",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>111</mn></msup></math>"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>1,25</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>5</mn></mrow></msup><mo>)</mo><mo>·</mo><mo>(</mo><mn>8</mn><mo>·</mo><msup><mn>10</mn><mn>115</mn></msup><mo>)</mo><mo>=</mo><mn>1,25</mn><mo>·</mo><mn>8</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>5</mn></mrow></msup><mo>·</mo><msup><mn>10</mn><mn>115</mn></msup><mo>=</mo><mn>10</mn><mo>·</mo><msup><mn>10</mn><mn>110</mn></msup><mo>=</mo><msup><mn>10</mn><mn>111</mn></msup></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2024_kujawsko-pomorskie_q2",
+      "number": 2,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "podzielność"
+      ],
+      "prompt_html": "<p>Kasia czytając książkę zauważyła, że numer strony, którą właśnie przeczytała, dzieli się przez 2, 3 i 5. Cyfrą jedności numeru następnej strony tej książki jest:</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "1"
+        },
+        {
+          "label": "B",
+          "html": "3"
+        },
+        {
+          "label": "C",
+          "html": "5"
+        },
+        {
+          "label": "D",
+          "html": "6"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": "<p>Liczba podzielna przez 2 i 5 jest podzielna przez 10, zatem numer przeczytanej strony kończy się cyfrą 0, a cyfrą jedności numeru następnej strony jest 1.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2024_kujawsko-pomorskie_q3",
+      "number": 3,
+      "page": 3,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Kasia jest o 5 lat starsza od Julii, a Julia jest o 4 lata starsza od Ali. Suma lat dziewcząt wynosi 34 lata. Ile lat ma najstarsza z nich?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "16 lat",
+        "solution_html": "<p>Oznaczmy: wiek Kasi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, wiek Julii <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>−</mo><mn>5</mn></math>, wiek Ali <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>−</mo><mn>5</mn><mo>−</mo><mn>4</mn><mo>=</mo><mi>x</mi><mo>−</mo><mn>9</mn></math>.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>5</mn><mo>)</mo><mo>+</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>9</mn><mo>)</mo><mo>=</mo><mn>34</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>x</mi><mo>−</mo><mn>14</mn><mo>=</mo><mn>34</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>x</mi><mo>=</mo><mn>48</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>16</mn></math>.</p><p>Najstarsza (Kasia) ma 16 lat.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2024_kujawsko-pomorskie_q4",
+      "number": 4,
+      "page": 4,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "prędkość / droga / czas"
+      ],
+      "prompt_html": "<p>Ile kilometrów pokona rowerzysta w ciągu 4 godzin, jeżeli jedzie ze stałą prędkością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mfrac><mtext>m</mtext><mtext>s</mtext></mfrac></math>?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "72 km",
+        "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mfrac><mtext>m</mtext><mtext>s</mtext></mfrac><mo>=</mo><mn>5</mn><mo>·</mo><mfrac><mrow><mn>3600</mn></mrow><mrow><mn>1000</mn></mrow></mfrac><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac><mo>=</mo><mn>18</mn><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac></math>.</p><p>W ciągu 4 godzin rowerzysta pokona <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>18</mn><mtext> km</mtext><mo>=</mo><mn>72</mn><mtext> km</mtext></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2024_kujawsko-pomorskie_q5",
+      "number": 5,
+      "page": 4,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "statystyka opisowa",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Średnia wieku zawodników pewnej drużyny pływackiej wynosi 13 lat. Średnia wieku chłopców z tej drużyny wynosi 15 lat, a średnia wieku dziewcząt wynosi 10 lat. Jaki jest stosunek liczby chłopców do liczby dziewcząt w tej drużynie?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "3 : 2",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> to liczba chłopców, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> to liczba dziewcząt. Suma lat drużyny wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>c</mi><mo>+</mo><mi>d</mi><mo>)</mo><mo>·</mo><mn>13</mn></math>, a także <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn><mi>c</mi><mo>+</mo><mn>10</mn><mi>d</mi></math>.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>c</mi><mo>+</mo><mi>d</mi><mo>)</mo><mo>·</mo><mn>13</mn><mo>=</mo><mn>15</mn><mi>c</mi><mo>+</mo><mn>10</mn><mi>d</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>13</mn><mi>c</mi><mo>+</mo><mn>13</mn><mi>d</mi><mo>=</mo><mn>15</mn><mi>c</mi><mo>+</mo><mn>10</mn><mi>d</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>c</mi><mo>=</mo><mn>3</mn><mi>d</mi></math>.</p><p>Stosunek liczby chłopców do liczby dziewcząt wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>:</mo><mi>d</mi><mo>=</mo><mn>3</mn><mo>:</mo><mn>2</mn></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2024_kujawsko-pomorskie_q6",
+      "number": 6,
+      "page": 5,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "proporcjonalność prosta"
+      ],
+      "prompt_html": "<p>W 48 litrach napoju wiśniowego znajduje się 9,6 litra soku. Ile soku znajduje się w 10 litrach takiego napoju? Ile litrów napoju należy przygotować, aby zawierał on 1,4 litra soku?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "2 litry soku; 7 litrów napoju",
+        "solution_html": "<p>Stosunek napoju do soku: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>48</mn><mo>:</mo><mn>9,6</mn><mo>=</mo><mn>5</mn></math>.</p><p>W 10 litrach napoju: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>:</mo><mn>5</mn><mo>=</mo><mn>2</mn></math> litry soku.</p><p>Aby napój zawierał 1,4 litra soku, należy przygotować <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,4</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>7</mn></math> litrów napoju.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2024_kujawsko-pomorskie_q7",
+      "number": 7,
+      "page": 5,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "czworokąty",
+        "pole i obwód"
+      ],
+      "prompt_html": "<p>W rombie o polu 60 cm² jedna z przekątnych jest trzy razy dłuższa od drugiej. Ile wynosi długość boku rombu?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "10 cm",
+        "solution_html": "<p>Oznaczmy przekątne rombu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>e</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>e</mi></math>, a bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. Z pola rombu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>e</mi><mo>·</mo><mn>3</mn><mi>e</mi></mrow><mn>2</mn></mfrac><mo>=</mo><mn>60</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msup><mi>e</mi><mn>2</mn></msup><mo>=</mo><mn>120</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>e</mi><mn>2</mn></msup><mo>=</mo><mn>40</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>e</mi><mo>=</mo><mn>2</mn><msqrt><mn>10</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>e</mi><mo>=</mo><mn>6</mn><msqrt><mn>10</mn></msqrt></math>.</p><p>Z twierdzenia Pitagorasa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>e</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>3</mn><mi>e</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><msqrt><mn>10</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mn>3</mn><msqrt><mn>10</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>+</mo><mn>90</mn><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>100</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>10</mn></math>.</p><p>Długość boku rombu wynosi 10 cm.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2024_kujawsko-pomorskie_q8",
+      "number": 8,
+      "page": 6,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "prawdopodobieństwo"
+      ],
+      "prompt_html": "<p>W pewnej szkole codziennie losowany jest tak zwany szczęśliwy numerek, który zwalnia ucznia z pisania kartkówek i odpowiedzi ustnej. W puli znajdują się numery od 1 do 26. W poniedziałek rozpoczęto nową turę i wylosowano numer 21 i tym samym odrzucono go z puli losowań na kolejny dzień. Jakie jest prawdopodobieństwo, że we wtorek wylosowany numer będzie większy niż 21?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "1/5",
+        "solution_html": "<p>Numer większy niż 21 to jeden z 5 wyników: 22, 23, 24, 25, 26.</p><p>Numer 21 został odrzucony z puli, więc we wtorek losujemy z 25 numerów.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>=</mo><mfrac><mn>5</mn><mn>25</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>5</mn></mfrac></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2024_kujawsko-pomorskie_q9",
+      "number": 9,
+      "page": 6,
+      "type": "true_false",
+      "points": 5,
+      "topics": [
+        "czworokąty",
+        "pole i obwód"
+      ],
+      "prompt_html": "<p>W trapezie prostokątnym wysokość poprowadzona z wierzchołka kąta rozwartego ma długość 6 cm i dzieli ten trapez na kwadrat i trójkąt prostokątny równoramienny.</p><p>Oceń prawdziwość poniższych zdań. Zaznacz P, jeśli zdanie jest prawdziwe lub F, jeśli zdanie jest fałszywe.</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "Pole tego trapezu wynosi 32 cm²."
+        },
+        {
+          "label": "B",
+          "html": "Jeden z kątów wewnętrznych tego trapezu ma miarę 135°."
+        },
+        {
+          "label": "C",
+          "html": "Pole otrzymanego trójkąta prostokątnego stanowi połowę pola kwadratu."
+        },
+        {
+          "label": "D",
+          "html": "Suma długości podstaw trapezu wynosi 16 cm."
+        },
+        {
+          "label": "E",
+          "html": "Kąt ostry przy podstawie trapezu ma miarę 30°."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "FPPFF",
+        "solution_html": "<p>Wysokość dzieli trapez na kwadrat o boku 6 cm oraz trójkąt prostokątny równoramienny o przyprostokątnych 6 cm; kąty ostre trójkąta mają po 45°. Podstawy trapezu mają 6 cm i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>+</mo><mn>6</mn><mo>=</mo><mn>12</mn></math> cm.</p><p>Pole trapezu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mrow></mrow></msub><mo>=</mo><mfrac><mrow><mo>(</mo><mn>6</mn><mo>+</mo><mn>12</mn><mo>)</mo><mo>·</mo><mn>6</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>54</mn></math> cm² (A — F).</p><p>Kąt rozwarty trapezu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>90</mn><mo>°</mo><mo>+</mo><mn>45</mn><mo>°</mo><mo>=</mo><mn>135</mn><mo>°</mo></math> (B — P).</p><p>Pole kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>36</mn></math> cm², pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>6</mn><mo>·</mo><mn>6</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>18</mn></math> cm², czyli połowa pola kwadratu (C — P).</p><p>Suma podstaw: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>+</mo><mn>12</mn><mo>=</mo><mn>18</mn></math> cm (D — F).</p><p>Kąt ostry przy podstawie ma 45°, a nie 30° (E — F).</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2024_kujawsko-pomorskie_q10",
+      "number": 10,
+      "page": 7,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "czworokąty",
+        "pole i obwód",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Pan Kowalski postanowił swoją kwadratową działkę podzielić po równo pomiędzy dwóch synów. Każdy z nich otrzymał identyczną prostokątną działkę o obwodzie 180 m. Jaką powierzchnię ma działka pana Kowalskiego. Odpowiedź wyraź w hektarach.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "0,36 ha",
+        "solution_html": "<p>Kwadratowa działka o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> dzieli się na dwa przystające prostokąty o wymiarach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> na <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>a</mi></math>. Obwód prostokąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>a</mi><mo>+</mo><mn>2</mn><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>a</mi><mo>=</mo><mn>3</mn><mi>a</mi><mo>=</mo><mn>180</mn></math> m, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>60</mn></math> m.</p><p>Pole działki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mn>60</mn><mtext> m</mtext><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>3600</mn></math> m² <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>0,36</mn></math> ha.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2024_kujawsko-pomorskie_q11",
+      "number": 11,
+      "page": 8,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "ostrosłupy"
+      ],
+      "prompt_html": "<p>Każda krawędź ostrosłupa prawidłowego czworokątnego ma długość 4. Oblicz jego objętość.</p>",
+      "choices": [],
+      "figures": [
+        "wojewodzki_2024_kujawsko-pomorskie_q11_fig1.png"
+      ],
+      "answer": {
+        "correct": "32√2/3",
+        "solution_html": "<p>Podstawą jest kwadrat o boku 4, więc jego przekątna ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>2</mn></msqrt></math>, a jej połowa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>2</mn></msqrt></math>.</p><p>Wysokość ostrosłupa z twierdzenia Pitagorasa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>H</mi><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mn>4</mn><mn>2</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>H</mi><mn>2</mn></msup><mo>=</mo><mn>16</mn><mo>−</mo><mn>8</mn><mo>=</mo><mn>8</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi><mo>=</mo><msqrt><mn>8</mn></msqrt><mo>=</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></math>.</p><p>Pole podstawy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>p</mi></msub><mo>=</mo><mn>4</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>16</mn></math>.</p><p>Objętość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><msub><mi>P</mi><mi>p</mi></msub><mo>·</mo><mi>H</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mn>16</mn><mo>·</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mfrac><mn>32</mn><mn>3</mn></mfrac><msqrt><mn>2</mn></msqrt></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2024_kujawsko-pomorskie_q12",
+      "number": 12,
+      "page": 9,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "trójkąty",
+        "pole i obwód"
+      ],
+      "prompt_html": "<p>W trójkąt równoboczny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> wpisano trójkąt równoboczny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DEF</mi></math> tak, że boki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EF</mi></math> są prostopadłe. Ile wynosi stosunek pól trójkątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DEF</mi></math>?</p>",
+      "choices": [],
+      "figures": [
+        "wojewodzki_2024_kujawsko-pomorskie_q12_fig1.png"
+      ],
+      "answer": {
+        "correct": "3",
+        "solution_html": "<p>Trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AED</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDF</mi></math> są przystające (cecha kąt-bok-kąt), bo mają odpowiednie kąty równe i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>FE</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>DF</mi><mo>|</mo></math>. Oznaczmy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>EB</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>CF</mi><mo>|</mo><mo>=</mo><mi>a</mi></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>BF</mi><mo>|</mo><mo>=</mo><mn>2</mn><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>BC</mi><mo>|</mo><mo>=</mo><mn>3</mn><mi>a</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>FE</mi><mo>|</mo><mo>=</mo><mi>a</mi><msqrt><mn>3</mn></msqrt></math>.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mrow><mi>ABC</mi></mrow></msub><mo>=</mo><mfrac><mrow><msup><mrow><mo>(</mo><mn>3</mn><mi>a</mi><mo>)</mo></mrow><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mfrac><mrow><mn>9</mn><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mrow><mi>DEF</mi></mrow></msub><mo>=</mo><mfrac><mrow><msup><mrow><mo>(</mo><mi>a</mi><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mfrac><mrow><mn>3</mn><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac></math>.</p><p>Stosunek pól: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mrow><mi>ABC</mi></mrow></msub><mo>:</mo><msub><mi>P</mi><mrow><mi>DEF</mi></mrow></msub><mo>=</mo><mfrac><mrow><mn>9</mn><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>:</mo><mfrac><mrow><mn>3</mn><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mn>3</mn></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2024_kujawsko-pomorskie_q13",
+      "number": 13,
+      "page": 10,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "czworokąty",
+        "pole i obwód"
+      ],
+      "prompt_html": "<p>W trapezie równoramiennym przekątna ma długość 24 cm i tworzy z dłuższą podstawą kąt 30°. Jakie jest pole tego trapezu?</p>",
+      "choices": [],
+      "figures": [
+        "wojewodzki_2024_kujawsko-pomorskie_q13_fig1.png"
+      ],
+      "answer": {
+        "correct": "144√3 cm²",
+        "solution_html": "<p>Przekątna, wysokość i część dolnej podstawy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> tworzą trójkąt o kątach 30°, 60°, 90° (połowa trójkąta równobocznego), więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mn>12</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>12</mn><msqrt><mn>3</mn></msqrt></math>.</p><p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mi>a</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>12</mn><msqrt><mn>3</mn></msqrt></math>, suma podstaw wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>2</mn><mo>(</mo><mi>a</mi><mo>+</mo><mi>y</mi><mo>)</mo><mo>=</mo><mn>2</mn><mo>·</mo><mn>12</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>24</mn><msqrt><mn>3</mn></msqrt></math>.</p><p>Pole trapezu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mo>·</mo><mi>h</mi></mrow><mn>2</mn></mfrac><mo>=</mo><mfrac><mrow><mn>24</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><mn>12</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>144</mn><msqrt><mn>3</mn></msqrt></math> cm².</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2024_kujawsko-pomorskie_q14",
+      "number": 14,
+      "page": 11,
+      "type": "closed_single",
+      "points": 2,
+      "topics": [
+        "procenty",
+        "proporcjonalność odwrotna"
+      ],
+      "prompt_html": "<p>Producent bakalii zmniejszył zawartość opakowania o 20 g nie zmieniając jego ceny. W ten sposób cena 1 kg bakalii wzrosła o 25%. Ile bakalii zawierało opakowanie na początku?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "60 g"
+        },
+        {
+          "label": "B",
+          "html": "80 g"
+        },
+        {
+          "label": "C",
+          "html": "100 g"
+        },
+        {
+          "label": "D",
+          "html": "125 g"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> to waga opakowania na początku. Cena 1 kg wzrosła o 25%, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>x</mi><mo>−</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>20</mn><mo>)</mo></mrow><mrow><mi>x</mi><mo>−</mo><mn>20</mn></mrow></mfrac><mo>=</mo><mn>0,25</mn></math>.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>20</mn><mrow><mi>x</mi><mo>−</mo><mn>20</mn></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>−</mo><mn>20</mn><mo>=</mo><mn>80</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>100</mn></math> g.</p>"
+      }
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "source_file": "wojewodzki/2026_podkarpackie.pdf",
+  "answers_file": "wojewodzki/2026_podkarpackie_answers.pdf",
+  "competition": "Konkurs z Matematyki dla uczniów szkół podstawowych (podkarpackie)",
+  "school_type": "podstawowa",
+  "stage": "wojewodzki",
+  "wojewodztwo": "podkarpackie",
+  "school_year": "2025/2026",
+  "date": null,
+  "total_questions": 9,
+  "max_points": 24,
+  "questions": [
+    {
+      "id": "wojewodzki_2026_podkarpackie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "zliczanie / metody zliczania"
+      ],
+      "prompt_html": "<p>Krzyś bawi się w układanie figur z zapałek, składających się z kwadratów o boku jednej zapałki. Kolejne kwadraty układa „spiralnie\", w taki sposób, by nowo powstały kwadrat sąsiadował z poprzednio ułożonym. Na rysunku pokazany jest układ kwadratów po ułożeniu pierwszych 2, 3, 4 i 19 kwadratów, przy czym numery oznaczają, w jakiej kolejności Krzyś budował kwadraty. Ile zapałek użyje Krzyś do ułożenia 167 kwadratów?</p>",
+      "choices": [],
+      "figures": [
+        "wojewodzki_2026_podkarpackie_q1_fig1.png"
+      ],
+      "answer": {
+        "correct": "360",
+        "solution_html": "<p>Gdyby Krzyś ułożył 169 kwadratów, to byłyby one ułożone w kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>13</mn><mo>×</mo><mn>13</mn></mrow></math>. Do takiego układu zużyłby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>14</mn><mo>·</mo><mn>13</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>364</mn></mrow></math> zapałek (14 linii poziomych po 13 zapałek i 14 linii pionowych po 13 zapałek). Aby uzyskać układ złożony ze 167 kwadratów, wystarczy zabrać z tego układu 4 zapałki. Zatem Krzyś zużył <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>364</mn><mo>−</mo><mn>4</mn><mo>=</mo><mn>360</mn></mrow></math> zapałek.</p><p><em>Częściowo (1 pkt): liczba naturalna z przedziału ⟨340; 380⟩ różna od 360.</em></p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2026_podkarpackie_q2",
+      "number": 2,
+      "page": 3,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "zliczanie / metody zliczania",
+        "podzielność"
+      ],
+      "prompt_html": "<p>Ile jest 10-cyfrowych liczb naturalnych, które nie zawierają w zapisie cyfry 0 oraz spełniają następujące warunki:</p><ul><li>iloczyn pierwszej i drugiej cyfry dzieli się przez 2,</li><li>iloczyn drugiej i trzeciej cyfry dzieli się przez 3,</li><li>iloczyn trzeciej i czwartej cyfry dzieli się przez 4,</li><li>iloczyn czwartej i piątej cyfry dzieli się przez 5,</li><li>iloczyn piątej i szóstej cyfry dzieli się przez 6,</li><li>iloczyn szóstej i siódmej cyfry dzieli się przez 7,</li><li>iloczyn siódmej i ósmej cyfry dzieli się przez 8,</li><li>iloczyn ósmej i dziewiątej cyfry dzieli się przez 9,</li><li>iloczyn dziewiątej i dziesiątej cyfry jest równy 10?</li></ul>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "68",
+        "solution_html": "<p>Skoro iloczyn dziewiątej i dziesiątej cyfry jest równy 10, to jedna z nich jest równa 2, a druga 5 (2 możliwości). Aby iloczyn ósmej i dziewiątej cyfry dzielił się przez 9, ósma cyfra musi być równa 9; podobnie siódma musi być równa 8, szósta 7, piąta 6, a czwarta 5. Skoro iloczyn trzeciej i czwartej cyfry dzieli się przez 4, to trzecia cyfra jest równa 4 lub 8 (2 możliwości). Skoro iloczyn drugiej i trzeciej cyfry dzieli się przez 3, to druga cyfra jest równa 3, 6 lub 9. Analiza warunku o iloczynie pierwszej i drugiej cyfry daje 17 możliwości ustalenia pierwszych dwóch cyfr (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>17</mn></mrow></math>). Z zasady mnożenia wszystkich liczb jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>17</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>1</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>68</mn></mrow></math>.</p><p><em>Częściowo (1 pkt): liczba ze zbioru {16, 24, 32, 34, 36, 40, 48, 49, 52, 96, 136}.</em></p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2026_podkarpackie_q3",
+      "number": 3,
+      "page": 4,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "procenty",
+        "statystyka opisowa"
+      ],
+      "prompt_html": "<p>W pewnej hurtowni zabawek sprzedawano dwa rodzaje produktów: Auta i Bębenki. Oba rodzaje zabawek miały początkowo jednakową cenę. W ramach promocji postanowiono obniżyć cenę Aut o 20% oraz obniżyć cenę Bębenków o 30%. O ile procent spadła w ten sposób średnia cena produktu, jeśli w hurtowni Auta stanowiły 60% wszystkich zabawek?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "24%",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi></math> oznacza liczbę wszystkich zabawek, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> — początkową cenę każdej z nich. Po obniżkach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,6</mn><mi>z</mi></mrow></math> zabawek miało cenę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,8</mn><mi>c</mi></mrow></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,4</mn><mi>z</mi></mrow></math> zabawek — cenę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,7</mn><mi>c</mi></mrow></math>. Średnia cena po obniżkach wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>0,8</mn><mi>c</mi><mo>·</mo><mn>0,6</mn><mi>z</mi><mo>+</mo><mn>0,7</mn><mi>c</mi><mo>·</mo><mn>0,4</mn><mi>z</mi></mrow><mi>z</mi></mfrac><mo>=</mo><mn>0,76</mn><mi>c</mi></mrow></math>. Skoro średnia cena spadła z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,76</mn><mi>c</mi></mrow></math>, był to spadek o 24%.</p><p><em>Częściowo (1 pkt): inna wartość między 23% a 25%.</em></p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2026_podkarpackie_q4",
+      "number": 4,
+      "page": 5,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "podzielność"
+      ],
+      "prompt_html": "<p>Liczbę naturalną nazywamy <em>fajną</em>, jeśli ma dokładnie cztery dzielniki naturalne: dwa jednocyfrowe i dwa dwucyfrowe. Karol wypisał wszystkie <em>fajne</em> liczby naturalne. Dla każdej z nich obliczył sumę jej dzielników. Jaka była największa z tych sum?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "144",
+        "solution_html": "<p>Fajna liczba jest postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>p</mi><mo>·</mo><mi>q</mi></mrow></math> dla jednocyfrowej liczby pierwszej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math> i dwucyfrowej liczby pierwszej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>q</mi></math> (przypadek sześcianu liczby pierwszej daje liczby trzycyfrowe). Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>p</mi><mo>=</mo><mn>2</mn></mrow></math> suma dzielników wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>+</mo><mn>2</mn><mo>+</mo><mi>q</mi><mo>+</mo><mn>2</mn><mi>q</mi><mo>=</mo><mn>3</mn><mi>q</mi><mo>+</mo><mn>3</mn></mrow></math>, a warunek dwucyfrowości daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>q</mi><mo>&lt;</mo><mn>50</mn></mrow></math>; największe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>q</mi><mo>=</mo><mn>47</mn></mrow></math> daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>47</mn><mo>+</mo><mn>3</mn><mo>=</mo><mn>144</mn></mrow></math>. Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>p</mi><mo>=</mo><mn>3</mn><mo>,</mo><mn>5</mn><mo>,</mo><mn>7</mn></mrow></math> największe możliwe sumy to odpowiednio 128, 120 i 112. Zatem największa suma dzielników fajnej liczby wynosi 144.</p><p><em>Częściowo (1 pkt): odpowiedź 72, 96, 112, 114, 120, 128 lub 132.</em></p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2026_podkarpackie_q5",
+      "number": 5,
+      "page": 6,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "ostrosłupy",
+        "trójkąty"
+      ],
+      "prompt_html": "<p>Ksawery zbudował model czworościanu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>, w którym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>6</mn></mrow></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>BC</mi><mo>|</mo><mo>=</mo><mn>10</mn></mrow></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AC</mi><mo>|</mo><mo>=</mo><mn>8</mn></mrow></math> cm oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>DA</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>DB</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>DC</mi><mo>|</mo><mo>=</mo><mn>13</mn></mrow></math> cm. Oblicz objętość tego czworościanu.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "96 cm³",
+        "solution_html": "<p>Z twierdzenia odwrotnego do twierdzenia Pitagorasa ściana <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest trójkątem prostokątnym o kącie prostym w wierzchołku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>6</mn><mn>2</mn></msup><mo>+</mo><msup><mn>8</mn><mn>2</mn></msup><mo>=</mo><msup><mn>10</mn><mn>2</mn></msup></mrow></math>). Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>DA</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>DB</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>DC</mi><mo>|</mo></mrow></math>, spodek wysokości z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> jest środkiem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi></math> odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>. Z twierdzenia Pitagorasa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>|</mo><mi>DH</mi><mo>|</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mn>13</mn><mn>2</mn></msup><mo>−</mo><msup><mn>5</mn><mn>2</mn></msup><mo>=</mo><mn>144</mn></mrow></math>, więc wysokość ma długość 12 cm. Objętość wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>V</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>6</mn><mo>·</mo><mn>8</mn><mo>)</mo><mo>·</mo><mn>12</mn><mo>=</mo><mn>96</mn></mrow></math> cm³.</p><p><em>Częściowo (1 pkt): odpowiedź 192, 288 lub 576.</em></p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2026_podkarpackie_q6",
+      "number": 6,
+      "page": 7,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "podzielność",
+        "wzory skróconego mnożenia"
+      ],
+      "prompt_html": "<p>Rozważamy ułamki zwykłe, których licznik jest zawsze równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2025</mn><mo>+</mo><mn>2026</mn></mrow></math>, a mianowniki są kolejnymi liczbami naturalnymi od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2025</mn><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow></math> do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2026</mn><mn>2</mn></msup></math>:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>2025</mn><mo>+</mo><mn>2026</mn></mrow><mrow><msup><mn>2025</mn><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow></mfrac><mo>,</mo><mfrac><mrow><mn>2025</mn><mo>+</mo><mn>2026</mn></mrow><mrow><msup><mn>2025</mn><mn>2</mn></msup><mo>+</mo><mn>2</mn></mrow></mfrac><mo>,</mo><mfrac><mrow><mn>2025</mn><mo>+</mo><mn>2026</mn></mrow><mrow><msup><mn>2025</mn><mn>2</mn></msup><mo>+</mo><mn>3</mn></mrow></mfrac><mo>,</mo><mo>…</mo><mo>,</mo><mfrac><mrow><mn>2025</mn><mo>+</mo><mn>2026</mn></mrow><mrow><msup><mn>2026</mn><mn>2</mn></msup><mo>−</mo><mn>1</mn></mrow></mfrac><mo>,</mo><mfrac><mrow><mn>2025</mn><mo>+</mo><mn>2026</mn></mrow><msup><mn>2026</mn><mn>2</mn></msup></mfrac></mrow></math>.</p><p>Ile spośród tych ułamków jest skracalnych? Możesz wykorzystać fakt, że liczby 1013 i 4051 są liczbami pierwszymi.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "1",
+        "solution_html": "<p>Licznikiem wszystkich ułamków jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2025</mn><mo>+</mo><mn>2026</mn><mo>=</mo><mn>4051</mn></mrow></math>, która jest liczbą pierwszą. Ułamek jest więc skracalny tylko wtedy, gdy mianownik jest podzielny przez 4051. Mianowniki to kolejne liczby od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2025</mn><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow></math> do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2026</mn><mn>2</mn></msup></math>; jest ich <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2026</mn><mn>2</mn></msup><mo>−</mo><msup><mn>2025</mn><mn>2</mn></msup><mo>=</mo><mo>(</mo><mn>2026</mn><mo>−</mo><mn>2025</mn><mo>)</mo><mo>(</mo><mn>2026</mn><mo>+</mo><mn>2025</mn><mo>)</mo><mo>=</mo><mn>4051</mn></mrow></math>. Wśród 4051 kolejnych liczb naturalnych jest dokładnie jedna podzielna przez 4051, więc dokładnie jeden z ułamków jest skracalny.</p><p><em>Częściowo (1 pkt): odpowiedź 2.</em></p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2026_podkarpackie_q7",
+      "number": 7,
+      "page": 8,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "koła / okręgi",
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>Odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> jest średnicą pewnego okręgu, a punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> leży na tym okręgu. Okrąg <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>o</mi></math> jest styczny do odcinków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CA</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> odpowiednio w punktach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi></math>. Udowodnij, że kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KML</mi></math> ma miarę 45°.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Kąt KML ma miarę 45°.",
+        "solution_html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> jest średnicą, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> leży na okręgu, kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACB</mi></math> jest wpisany oparty na średnicy, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mo>∢</mo><mi>ACB</mi><mo>|</mo><mo>=</mo><mn>90</mn><mo>°</mo></mrow></math>. Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> będzie środkiem okręgu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>o</mi></math>. Czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CKSL</mi></math> jest prostokątem, bo ma kąty proste przy wierzchołku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> oraz przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi></math> (promień do punktu styczności jest prostopadły do stycznej), więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mo>∢</mo><mi>KSL</mi><mo>|</mo><mo>=</mo><mn>90</mn><mo>°</mo></mrow></math>. Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KML</mi></math> jest kątem wpisanym w okrąg <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>o</mi></math> opartym na łuku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KL</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mo>∢</mo><mi>KML</mi><mo>|</mo><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mo>|</mo><mo>∢</mo><mi>KSL</mi><mo>|</mo><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>90</mn><mo>°</mo><mo>=</mo><mn>45</mn><mo>°</mo></mrow></math>.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2026_podkarpackie_q8",
+      "number": 8,
+      "page": 10,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "równania z jedną zmienną",
+        "ułamki"
+      ],
+      "prompt_html": "<p>Kasia wybrała trzy liczby naturalne. Do pierwszej z nich dodała odwrotność drugiej. Następnie obliczyła odwrotność otrzymanej sumy i dodała do niej trzecią z wybranych liczb. Otrzymała wynik <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2677</mn><mn>205</mn></mfrac></math>. Jaka była największa z wybranych przez Kasię liczb?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "17",
+        "solution_html": "<p>Oznaczmy wybrane liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math>. Wartość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>k</mi><mo>+</mo><mfrac><mn>1</mn><mi>l</mi></mfrac></mrow></math> jest większa od 1, więc jej odwrotność jest dodatnia i mniejsza od 1. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>2677</mn><mn>205</mn></mfrac><mo>=</mo><mn>13</mn><mfrac><mn>12</mn><mn>205</mn></mfrac></mrow></math>, mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>m</mi><mo>=</mo><mn>13</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mrow><mi>k</mi><mo>+</mo><mfrac><mn>1</mn><mi>l</mi></mfrac></mrow></mfrac><mo>=</mo><mfrac><mn>12</mn><mn>205</mn></mfrac></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>k</mi><mo>+</mo><mfrac><mn>1</mn><mi>l</mi></mfrac><mo>=</mo><mfrac><mn>205</mn><mn>12</mn></mfrac><mo>=</mo><mn>17</mn><mfrac><mn>1</mn><mn>12</mn></mfrac></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>k</mi><mo>=</mo><mn>17</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>l</mi><mo>=</mo><mn>12</mn></mrow></math>. Największą z wybranych liczb było 17.</p>"
+      }
+    },
+    {
+      "id": "wojewodzki_2026_podkarpackie_q9",
+      "number": 9,
+      "page": 12,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "czworokąty",
+        "koła / okręgi"
+      ],
+      "prompt_html": "<p>Czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> jest kwadratem. Okrąg <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>o</mi></math> przechodzi przez punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> oraz jest styczny do odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math>. Wiedząc, że promień okręgu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>o</mi></math> jest równy 10 cm, oblicz długość boku kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "16 cm",
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> będzie środkiem okręgu, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> — punktem styczności z bokiem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math> — środkiem boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>. Prosta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ES</mi></math> jest osią symetrii, prostopadłą do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>. Oznaczając bok kwadratu przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>FB</mi><mo>|</mo><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>a</mi></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>SB</mi><mo>|</mo><mo>=</mo><mn>10</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>SF</mi><mo>|</mo><mo>=</mo><mi>a</mi><mo>−</mo><mn>10</mn></mrow></math>. Z twierdzenia Pitagorasa dla trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SFB</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mi>a</mi><mo>−</mo><mn>10</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>a</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mn>10</mn><mn>2</mn></msup></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>5</mn><mn>4</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mn>20</mn><mi>a</mi><mo>=</mo><mn>0</mn></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest dodatnie, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>16</mn></mrow></math> cm.</p>"
+      }
+    }
+  ]
+}
