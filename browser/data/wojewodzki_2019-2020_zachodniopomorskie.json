@@ -40,7 +40,7 @@
       "points": 1,
       "topics": [
         "okrąg wpisany i opisany",
-        "geometria"
+        "układ współrzędnych"
       ],
       "prompt_html": "<p>Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>(</mo><mn>4</mn><mo>,</mo><mn>2</mn><mo>)</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>(</mo><mo>−</mo><mn>3</mn><mo>,</mo><mn>1</mn><mo>)</mo></math> są przeciwległymi wierzchołkami kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>. Promień okręgu wpisanego w ten kwadrat ma długość:</p>",
       "choices": [
@@ -107,8 +107,9 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
-        "potęgi i pierwiastki"
+        "czworokąty",
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W trapezie równoramiennym ramię oraz krótsza podstawa mają długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt></math>, a kąt rozwarty trapezu ma miarę 150°. Obwód tego trapezu jest równy:</p>",
       "choices": [
@@ -130,7 +131,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Każdy wierzchołek sześcianu zaznaczono kolorem zielonym. Następnie połączono każde dwa zielone punkty odcinkiem. Wszystkie punkty przecięcia odcinków, które nie są zielone, pomalowano kolorem czerwonym. Liczba otrzymanych czerwonych punktów wynosi:</p>",
@@ -175,7 +176,8 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "pole i obwód",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Kwadrat podzielono na dwa prostokąty, których stosunek obwodów wynosi 5 : 4. Oblicz stosunek pól tych prostokątów.</p>",
@@ -284,7 +286,7 @@
       "points": 4,
       "topics": [
         "procenty",
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Do zbiornika w kształcie prostopadłościanu o wymiarach 20 dm, 10 dm, 10 m wlano 5000 dm³ mleka o zawartości 3,4% tłuszczu, resztę dopełniono mlekiem o zawartości 4,2% tłuszczu. Ile procent tłuszczu zawiera mleko w zbiorniku?</p>",
       "choices": [],
@@ -301,7 +303,7 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "procenty"
       ],
       "prompt_html": "<p>Długość krawędzi sześcianu zwiększono tak, że jego pole powierzchni całkowitej wzrosło o 69%. O ile procent wzrosła objętość tego sześcianu?</p>",

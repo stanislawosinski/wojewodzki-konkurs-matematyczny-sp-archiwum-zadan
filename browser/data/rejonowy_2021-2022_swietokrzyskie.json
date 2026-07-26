@@ -52,7 +52,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "układ współrzędnych"
       ],
       "prompt_html": "<p>Na osi liczbowej zaznaczono liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> oraz dwie liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>, leżące w jednakowej odległości od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, takie, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>&lt;</mo><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>&lt;</mo><mi>c</mi></math>. Która z poniższych równości jest prawdziwa?</p>",
       "choices": [
@@ -219,7 +219,8 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W równoległoboku o polu równym 1,2 dm² krótszy bok ma 16 cm. Wysokość opuszczona na dłuższy bok ma 0,04 m.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -249,8 +250,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Kwadrat podzielono na trzy trójkąty o różnych polach. Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADG</mi></math> wynosi 5, a pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DGC</mi></math> – 12,5. Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCG</mi></math> jest równe:</p>",
       "choices": [
@@ -286,8 +287,9 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "geometria",
-        "wzory skróconego mnożenia"
+        "czworokąty",
+        "wzory skróconego mnożenia",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Pole kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>k</mi><mn>2</mn></msup></math>.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -313,7 +315,8 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "bryły"
+        "graniastosłupy",
+        "ostrosłupy"
       ],
       "prompt_html": "<p>Graniastosłup prawidłowy i ostrosłup prawidłowy mają po tyle samo krawędzi. Graniastosłup ma 10 ścian.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -347,7 +350,7 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Graniastosłup prawidłowy trójkątny ma wszystkie krawędzie równe, a suma ich długości jest równa 54 dm.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",

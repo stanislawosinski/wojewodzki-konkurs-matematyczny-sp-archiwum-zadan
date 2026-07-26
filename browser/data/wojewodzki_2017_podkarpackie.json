@@ -187,7 +187,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Na pierwszej półce stało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> książek, a na drugiej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> książek, przy czym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&gt;</mo><mi>y</mi></math>. Ela przełożyła z pierwszej półki na drugą jedną książkę. O ile więcej jest teraz książek na pierwszej półce niż na drugiej?</p>",
       "choices": [
@@ -221,7 +221,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Pomalowano całą powierzchnię sześcianu i zużyto 3,63 litra farby. Potrzeba 0,5 litra farby na 1 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>m</mtext><mn>2</mn></msup></math> powierzchni. Jaka jest suma długości wszystkich krawędzi sześcianu?</p>",
       "choices": [
@@ -256,7 +256,8 @@
       "points": 2,
       "topics": [
         "koła / okręgi",
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W prostokącie umieszczono 6 identycznych okręgów jak na rysunku. Wierzchołki małego prostokąta są środkami czterech z tych okręgów. Wiadomo, że obwód małego prostokąta jest równy 60 cm. Ile jest równy obwód dużego prostokąta?</p>",
       "choices": [
@@ -292,7 +293,8 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Równoległobok, w którym stosunek długości sąsiednich boków wynosi 2:3, podzielono wzdłuż przekątnej o długości 13 cm na dwa przystające trójkąty. Obwód każdego z tych trójkątów jest równy 33 cm.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli zdanie jest fałszywe.</p>",
       "choices": [
@@ -323,7 +325,7 @@
       "points": 2,
       "topics": [
         "trójkąty",
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Na rysunku figura <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> jest kwadratem, zaś <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABE</mi></math> jest trójkątem równobocznym. Jaka jest miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DEC</mi></math> w trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DCE</mi></math>?</p>",
       "choices": [
@@ -424,7 +426,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Boki prostokąta o polu 1 przedłużamy podwajając ich długość (jak na rysunku). Jakie jest pole czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>?</p>",
       "choices": [
@@ -511,7 +514,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "pole i obwód",
         "proporcjonalność prosta"
       ],
       "prompt_html": "<p>Powierzchnia działki w kształcie kwadratu wynosi 9 arów. Działkę postanowiono obsiać trawą i z trzech stron ogrodzić.</p><p>Nasiona trawy można kupić w półkilogramowych opakowaniach. Według instrukcji na opakowaniu potrzeba 0,5 kg trawy na każde 25 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>m</mtext><mn>2</mn></msup></math> powierzchni. Aby ogrodzić działkę należy wbić słupki w odstępach co 2 metry.</p><p>Uzupełnij zdania wpisując w wykropkowane miejsca odpowiednie liczby.</p><p>I. Trzeba zakupić …… opakowań trawy.</p><p>II. W celu ogrodzenia działki z trzech stron wbito …… słupków.</p><p>III. Na planie w skali 1 : 200 bok działki ma …… cm długości.</p>",
@@ -530,7 +534,8 @@
       "points": 2,
       "topics": [
         "trójkąty",
-        "nierówności"
+        "nierówności",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Długości boków trójkąta równoramiennego to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&gt;</mo><mn>0</mn></math>. Oblicz obwód tego trójkąta. Zapisz wszystkie obliczenia i odpowiedź.</p>",
       "choices": [],
@@ -565,7 +570,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Do prostopadłościennego zbiornika o wymiarach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mfrac><mn>1</mn><mn>2</mn></mfrac></math> m × 2 m × <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mfrac><mn>2</mn><mn>5</mn></mfrac></math> m prowadzą dwie rury. Pierwsza rura napełnia zbiornik wodą w ciągu 6 godzin, a druga w ciągu 4 godzin.</p><p>W ciągu ilu godzin zostanie napełniony zbiornik przez obie rury?</p><p>Ile litrów wody mieści się w tym zbiorniku?</p><p>Zapisz wszystkie obliczenia i odpowiedź.</p>",
       "choices": [],
@@ -583,6 +588,7 @@
       "points": 5,
       "topics": [
         "trójkąty",
+        "kąty",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>W trójkącie prostokątnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> przedłużono przeciwprostokątną <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i na tym przedłużeniu odłożono odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> równy bokowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> oraz odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BE</mi></math> równy bokowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>. Jaką miarę ma powstały kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DCE</mi></math>? Zapisz wszystkie obliczenia i odpowiedź.</p>",

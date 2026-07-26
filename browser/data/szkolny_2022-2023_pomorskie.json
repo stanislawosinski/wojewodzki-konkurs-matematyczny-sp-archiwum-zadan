@@ -17,8 +17,9 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Dany jest trapez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> o podstawach długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>20</mn><mtext>&#160;cm</mtext></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>CD</mi><mo>|</mo><mo>=</mo><mn>16</mn><mtext>&#160;cm</mtext></mrow></math>. Pole trapezu jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>216</mn><mtext>&#160;</mtext><msup><mtext>cm</mtext><mn>2</mn></msup></mrow></math>. Oblicz pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACD</mi></math>.</p>",
       "choices": [],
@@ -69,8 +70,9 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "geometria",
-        "wyłączanie jednomianu przed nawias"
+        "czworokąty",
+        "wyrażenia algebraiczne",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Dany jest prostokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> o obwodzie równym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>6</mn><mi>y</mi></mrow></math> oraz boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>3</mn><mi>y</mi><mo>−</mo><mi>x</mi></mrow></math>. Wyznacz pole prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> za pomocą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>. Wynik zapisz w postaci sumy algebraicznej.</p>",
       "choices": [],
@@ -90,7 +92,10 @@
         "potęgi i pierwiastki",
         "procenty",
         "prędkość / droga / czas",
-        "trójkąty"
+        "trójkąty",
+        "czworokąty",
+        "pole i obwód",
+        "ułamki"
       ],
       "prompt_html": "<p>Oceń prawdziwość poniższych zdań. Otocz kółkiem P, jeśli zdanie jest prawdziwe lub F, jeśli zdanie jest fałszywe.</p>",
       "choices": [
@@ -181,8 +186,10 @@
       "points": 4,
       "topics": [
         "potęgi i pierwiastki",
+        "równania z jedną zmienną",
         "zliczanie / metody zliczania",
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W zadaniach zamkniętych dokładnie jedna odpowiedź jest poprawna. Wskaż tę odpowiedź, otaczając ją kółkiem.</p><p><strong>9.1</strong> Rozwiązaniem równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2</mn><mn>2023</mn></msup><mo>·</mo><mi>x</mi><mo>=</mo><msup><mn>2</mn><mn>2023</mn></msup><mo>−</mo><msup><mn>2</mn><mn>2022</mn></msup></mrow></math> jest:</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math></li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><msup><mn>2</mn><mn>2022</mn></msup></mrow></math></li></ul><p><strong>9.2</strong> Suma cyfr liczby sześciocyfrowej jest równa 2. Ile jest takich liczb?</p><ul><li>A. 2</li><li>B. 4</li><li>C. 6</li><li>D. 12</li></ul><p><strong>9.3</strong> Cyfrą jedności liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>7</mn><mn>87</mn></msup><mo>−</mo><mn>2</mn></mrow></math> jest:</p><ul><li>A. 1</li><li>B. 5</li><li>C. 7</li><li>D. 9</li></ul><p><strong>9.4</strong> Ile trójkątów równoramiennych o polu równym 1 ma bok długości 2?</p><ul><li>A. 1</li><li>B. 2</li><li>C. 3</li><li>D. 4</li></ul>",
       "choices": [],

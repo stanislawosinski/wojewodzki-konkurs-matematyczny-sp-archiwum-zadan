@@ -51,7 +51,6 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kombinatoryka",
         "zagadki logiczne"
       ],
       "prompt_html": "<p>Ada ma w pudełku 7 kul szarych, 4 białe i 3 czarne. Ile co najmniej kul musi wyciągnąć, mając zawiązane oczy, aby mieć pewność, że będzie wśród nich co najmniej jedna kula w każdym kolorze?</p>",
@@ -362,7 +361,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "układ współrzędnych"
       ],
       "prompt_html": "<p>Na płaszczyźnie zaznaczono punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>(</mo><mn>4</mn><mo>,</mo><mn>5</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mo>(</mo><mn>5</mn><mo>,</mo><mn>4</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>5</mn><mo>,</mo><mo>−</mo><mn>4</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mo>=</mo><mo>(</mo><mn>5</mn><mo>,</mo><mo>−</mo><mn>4</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>4</mn><mo>,</mo><mn>5</mn><mo>)</mo></math>. Odcinkiem równoległym do osi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Oy</mi></math> jest</p>",
       "choices": [
@@ -432,7 +431,8 @@
       "points": 1,
       "topics": [
         "pierścień kołowy",
-        "koła / okręgi"
+        "koła / okręgi",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> długości 20 cm jest styczny do małego okręgu (patrz rysunek). Pole pierścienia utworzonego pomiędzy okręgami jest równe</p>",
       "choices": [
@@ -468,7 +468,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Obwód trójkąta, którego wierzchołkami są środki boków trójkąta prostokątnego o przyprostokątnych długości 6 cm i 8 cm, jest równy</p>",
       "choices": [
@@ -536,7 +537,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "ostrosłupy"
       ],
       "prompt_html": "<p>Objętość ostrosłupa jest równa 96 cm³, a jego wysokość 12 cm. Pole podstawy tego ostrosłupa jest równe</p>",
       "choices": [
@@ -570,7 +571,6 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "prędkość / droga / czas",
         "proporcjonalność odwrotna"
       ],
       "prompt_html": "<p>Pierwszy kran napełnia basen w ciągu 10 godzin. Każdy z dwóch pozostałych napełnia ten basen dwa razy szybciej. W ciągu ilu godzin napełni się basen wodą, jeżeli otworzymy wszystkie trzy krany?</p>",
@@ -605,8 +605,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "kąty"
       ],
       "prompt_html": "<p>W deltoidzie przekątne są równe dłuższym bokom. Oblicz miary kątów wewnętrznych tego deltoidu.</p>",
       "choices": [],

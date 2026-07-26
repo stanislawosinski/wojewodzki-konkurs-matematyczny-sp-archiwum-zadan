@@ -87,8 +87,9 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Dany jest trapez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>, w którym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AB</mi><mo>∥</mo><mi>CD</mi></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AB</mi><mo>&gt;</mo><mi>CD</mi></mrow></math>. Pole tego trapezu jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,25</mn></math> razy większe od pola trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>. Ile razy bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> jest dłuższy od boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math>? Odpowiedź uzasadnij.</p>",
       "choices": [],
@@ -158,8 +159,7 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki",
-        "inne"
+        "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Oceń prawdziwość zdań. Otocz kółkiem literkę P – jeśli zdanie jest prawdziwe albo F – jeśli zdanie jest fałszywe.</p>",
       "choices": [
@@ -188,7 +188,8 @@
         "potęgi i pierwiastki",
         "procenty",
         "podzielność",
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W zadaniach zamkniętych dokładnie jedna odpowiedź jest poprawna. Wskaż tę odpowiedź otaczając ją kółkiem.</p><p><strong>10.1</strong> Sześcian sześcianu liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2</mn></msqrt></math> jest równy:</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>16</mn><msqrt><mn>2</mn></msqrt></mrow></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>18</mn></msup></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><msqrt><mn>2</mn></msqrt></mrow></math></li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>9</mn></msup></math></li></ul><p><strong>10.2</strong> Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> są środkami boków kwadratu o polu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>64</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></math>. Suma pól zacieniowanych części kwadratu jest równa (patrz rysunek):</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>16</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></math></li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>32</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></math></li></ul><p><strong>10.3</strong> W jakim stosunku trzeba zmieszać roztwór soli o stężeniu 20% z roztworem soli o stężeniu 50%, aby otrzymać roztwór soli o stężeniu 30%?</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>:</mo><mn>1</mn></mrow></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>:</mo><mn>2</mn></mrow></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>:</mo><mn>2</mn></mrow></math></li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>:</mo><mn>3</mn></mrow></math></li></ul><p><strong>10.4</strong> Największa liczba trzycyfrowa podzielna przez 12 to:</p><ul><li>A. 972</li><li>B. 984</li><li>C. 996</li><li>D. 999</li></ul>",
       "choices": [],

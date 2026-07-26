@@ -51,7 +51,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "pole i obwód",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Z 300 kwadratów o obwodzie 12 cm każdy złożono prostokąt, którego długość jest 3 razy większa od szerokości. Iloraz obwodu prostokąta (w cm) przez jego pole (w cm²) wynosi:</p>",
@@ -190,7 +191,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "pole i obwód",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Jedna z przekątnych rombu ma długość 0,001 km, a druga <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt></math> m. Obwód tego rombu jest równy:</p>",
@@ -399,6 +401,7 @@
       "points": 2,
       "topics": [
         "trójkąty",
+        "układ współrzędnych",
         "szacowanie (zamiast obliczania)"
       ],
       "prompt_html": "<p>Obwód trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DEF</mi></math>, powstałego w wyniku połączenia środków boków trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> o wierzchołkach w punktach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>(</mo><mn>0</mn><mo>,</mo><mn>4</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>,</mo><mo>−</mo><mn>8</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>=</mo><mo>(</mo><mn>6</mn><mo>,</mo><mn>2</mn><mo>)</mo></math>:</p>",
@@ -433,7 +436,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Ile różnych rodzajów graniastosłupów ma tę własność, że łączna liczba ścian, wierzchołków i krawędzi w danym graniastosłupie jest mniejsza od 56? Przyjmij, że różne rodzaje graniastosłupów to takie, które mają inną liczbę krawędzi w podstawie.</p>",
@@ -506,7 +509,9 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "kąty",
+        "pole i obwód",
         "procenty"
       ],
       "prompt_html": "<p>W równoległoboku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> jest dwa razy dłuższy niż <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math>, a kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BAD</mi></math> ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>40</mn><mo>°</mo></math>. Środek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> połączono z wierzchołkiem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>. Ile stopni ma kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ECD</mi></math>? Jakim procentem pola równoległoboku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> jest pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EBC</mi></math>?</p>",
@@ -541,8 +546,8 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "bryły",
-        "potęgi i pierwiastki"
+        "graniastosłupy",
+        "trójkąty"
       ],
       "prompt_html": "<p>Podstawą pewnego graniastosłupa prostego jest trójkąt prostokątny o przyprostokątnej długości 3 cm i przeciwprostokątnej długości 5 cm. Z dwóch takich graniastosłupów o wysokości 1 dm każdy zbudowano graniastosłup czworokątny, sklejając je ścianami bocznymi. Jakie najmniejsze, a jakie największe pole powierzchni bocznej (w cm²) może mieć tak zbudowany graniastosłup? Ile wynosi objętość (w cm³) tego graniastosłupa? Zapisz obliczenia.</p>",
       "choices": [],
@@ -577,7 +582,7 @@
       "type": "open",
       "points": 6,
       "topics": [
-        "geometria",
+        "trójkąty",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Dany jest taki sześciokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDEF</mi></math>, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BE</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CF</mi></math> przecinają się w jednym punkcie oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>AD</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>BE</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>CF</mi><mo>|</mo><mo>=</mo><mn>1</mn></math>. Sprawdź, czy obwód sześciokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDEF</mi></math> jest zawsze mniejszy od 6. Uzasadnij odpowiedź i zapisz obliczenia.</p>",

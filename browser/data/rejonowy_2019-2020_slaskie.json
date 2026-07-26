@@ -22,7 +22,10 @@
         "liczby rzymskie",
         "NWW / NWD",
         "reszta z dzielenia",
-        "statystyka opisowa"
+        "statystyka opisowa",
+        "układ współrzędnych",
+        "równania z jedną zmienną",
+        "koła / okręgi"
       ],
       "prompt_html": "<p>Rozwiąż krzyżówkę, wpisując cyfry w odpowiednie pola. Hasło w zacieniowanych okienkach, to kolejne cyfry rozwinięcia dziesiętnego liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2020</mn></msqrt></math>. Hasło nie jest oceniane.</p><ol type=\"a\"><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><msqrt><mn>91</mn></msqrt><mo>−</mo><mn>1</mn><mo>)</mo><mo>(</mo><mn>2</mn><mo>+</mo><msqrt><mn>91</mn></msqrt><mo>)</mo><mo>−</mo><mo>(</mo><msqrt><mn>91</mn></msqrt><mo>−</mo><mn>2</mn><mo>)</mo></mrow></math></li><li>Liczba zer na końcu liczby równej iloczynowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2</mn><mn>4</mn></msup><mo>·</mo><msup><mn>3</mn><mn>4</mn></msup><mo>·</mo><msup><mn>5</mn><mn>5</mn></msup><mo>·</mo><msup><mn>7</mn><mn>5</mn></msup></mrow></math>.</li><li>Za tyle lat Antek, który ma 14 lat, będzie 2 razy starszy od Janka mającego 5 lat.</li><li>Liczba gęsi, wśród pasących się na łące 16 zwierząt: krów, owiec i gęsi – jeżeli 11 z nich to nie krowy, a 9 – to nie owce.</li><li>Wynik działania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><msup><mn>10</mn><mn>2</mn></msup><mo>+</mo><mn>2</mn><mo>·</mo><msup><mn>10</mn><mn>1</mn></msup><mo>+</mo><mn>1</mn><mo>·</mo><msup><mn>10</mn><mn>0</mn></msup></mrow></math>.</li><li>Wynik działania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>12</mn><mo>−</mo><mn>16</mn><mo>+</mo><mn>58</mn><mo>−</mo><mn>34</mn></mrow></math>.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>16</mn></mfrac></math> liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>6</mn><mn>4</mn></msup></math>.</li><li>Liczba drzew w pewnym sadzie, które wymarzły podczas zimy, jeżeli wiadomo, że wymarzło w tym sadzie 20% drzew, a pozostało 240 drzew zdrowych.</li><li>Długość przekątnej prostokąta nachylonej pod kątem 60° do boku o długości 9.</li><li>Liczba, której zapis w systemie rzymskim ma postać MCDLXXXIX.</li><li>Największa liczba trzycyfrowa, która przy dzieleniu przez 27 daje resztę 6.</li><li>88% liczby 110000.</li><li>Długość drogi, którą podczas 3 pełnych obrotów okręgu o średnicy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>48</mn><mi>π</mi></mfrac></math> pokonuje dany punkt tego okręgu.</li><li>Liczba szóstek, które trzeba dodać, aby otrzymać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>6</mn><mn>3</mn></msup></math>.</li><li>Najmniejsza liczba dodatnia będąca rozwiązaniem równania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>4</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>5</mn><mo>)</mo><mo>=</mo><mn>0</mn></mrow></math>.</li><li>Najmniejsza wspólna wielokrotność liczb: 100 i 110.</li><li>Największa liczba paczek, którą można przygotować, mając do dyspozycji 140 cukierków czekoladowych, 84 cukierki owocowe i 56 cukierków orzechowych, tak aby w każdej paczce było po tyle samo cukierków każdego rodzaju.</li><li>Liczba liczb pierwszych w zbiorze {1, 2, 3, 4, 5, 9, 11, 14, 15, 29, 49}.</li><li>Długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>, którego końce mają współrzędne: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>3</mn><mo>,</mo><mn>0</mn><mo>)</mo></mrow></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>B</mi><mo>=</mo><mo>(</mo><mn>6</mn><mo>,</mo><mn>12</mn><mo>)</mo></mrow></math>.</li><li>Wiek trenera, jeżeli średnia wieku 11 piłkarzy i trenera wynosi 29 lat, a średnia wieku 11 piłkarzy bez trenera wynosi 28 lat.</li></ol>",
       "choices": [],
@@ -63,7 +66,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "układ współrzędnych"
       ],
       "prompt_html": "<p>Na osi liczbowej zaznaczono dwie liczby 219 i (−111). Liczbą, która na osi liczbowej znajduje się w jednakowej odległości od każdej z zaznaczonych liczb jest</p>",
       "choices": [
@@ -85,7 +88,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "pole i obwód",
         "proporcjonalność prosta"
       ],
       "prompt_html": "<p>Wymiary prostokątnego boiska sportowego na planie w skali 1:200 są równe 5 cm × 12 cm. Boisko w rzeczywistości ma pole równe</p>",
@@ -108,7 +112,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Przekątne rombu mają długości 24 cm i 10 cm. Obwód tego rombu jest równy</p>",
       "choices": [
@@ -174,7 +179,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty"
       ],
       "prompt_html": "<p>Jeżeli każdy bok prostokąta zwiększymy 3 razy, to długość przekątnej tego prostokąta zwiększy się</p>",
       "choices": [
@@ -197,7 +202,9 @@
       "points": 4,
       "topics": [
         "trójkąty",
-        "geometria"
+        "symetrie",
+        "pole i obwód",
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Rozpoczynając od białego trójkąta równobocznego (1), tworzymy nieskończony szereg figur w taki sposób, że kolejna figura powstaje poprzez wycięcie zacieniowanych trójkątów równobocznych, których wierzchołkami są środki boków białych trójkątów w figurze poprzedniej (rys. poniżej).</p><p>Oceń, czy podane zdania są prawdziwe, czy fałszywe. Zaznacz właściwą odpowiedź.</p>",
       "choices": [
@@ -265,8 +272,9 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Dany jest kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> jest środkiem boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>, a punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math> środkiem boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math>. Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AEF</mi></math> jest równe 24.</p><p>Oceń, czy podane zdania są prawdziwe, czy fałszywe. Zaznacz właściwą odpowiedź.</p>",
       "choices": [
@@ -289,7 +297,8 @@
       "points": 3,
       "topics": [
         "trójkąty",
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W trójkącie równobocznym o boku 10 cm odcięto z narożników (jak na rysunku obok) trzy przystające trójkąty równoboczne. Suma obwodów odciętych trójkątów jest równa obwodowi powstałego sześciokąta. Oblicz długość boku odciętego trójkąta równobocznego.</p>",
       "choices": [],
@@ -308,7 +317,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>W zamkniętym przeźroczystym naczyniu w kształcie prostopadłościanu znajduje się 1 litr wody. Jeśli postawiamy to naczynie poziomo kolejno na ściankach o różnych wymiarach, to poziom wody osiągnie wysokości odpowiednio: 2 cm, 4 cm i 5 cm. Oblicz pole powierzchni wewnętrznej prostopadłościanu.</p>",
       "choices": [],
@@ -342,8 +351,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "podzielność",
-        "proporcjonalność prosta"
+        "proporcjonalność prosta",
+        "podzielność"
       ],
       "prompt_html": "<p>W klasie 8a stosunek liczby dziewcząt do liczby chłopców wynosi 3 : 2, a w klasie 8b stosunek liczby dziewcząt do liczby chłopców jest równy 5 : 4. W klasie 8a jest mniej uczniów niż w klasie 8b. W każdej klasie jest więcej niż 10 uczniów. Suma wszystkich uczniów z obu klas jest liczbą pierwszą większą od 40 i mniejszą od 50. Wyznacz liczby uczniów w obu klasach ósmych.</p>",
       "choices": [],
@@ -360,8 +369,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "trójkąty",
-        "geometria"
+        "czworokąty",
+        "trójkąty"
       ],
       "prompt_html": "<p>W prostokącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> przekątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> jest nachylona do boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> pod kątem 30°. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> jest środkiem boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>, punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math> – środkiem boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>. Odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EF</mi></math> ma długość 14 cm i jest równoległy do przekątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math>. Oblicz długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DE</mi></math>.</p>",
       "choices": [],

@@ -105,7 +105,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Na rysunku przedstawiono dwa trójkąty prostokątne. Czy te trójkąty są przystające?</p><p>Wybierz odpowiedź <strong>T</strong> (Tak) lub <strong>N</strong> (Nie) oraz jej uzasadnienie spośród A., B., C. (Poprawna odpowiedź podana jest w formacie: litera T/N oraz litera uzasadnienia.)</p>",
       "choices": [
@@ -150,8 +151,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty"
       ],
       "prompt_html": "<p>Przekątne rombu mają długości 0,12 m i 0,16 m. Jaką długość ma bok rombu?</p>",
       "choices": [
@@ -219,7 +219,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Zaokrąglenie do części setnych rozwinięcia dziesiętnego ułamka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>25</mn><mn>33</mn></mfrac></math> wynosi:</p>",
       "choices": [
@@ -345,8 +345,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W rombie o boku długości 10 cm kąt rozwarty ma miarę 5 razy większą od miary kąta ostrego. Oblicz wysokość i pole tego rombu.</p><p>Przedstaw swoje rozwiązanie i zapisz odpowiedź.</p>",
       "choices": [],
@@ -363,7 +363,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Czy w kartonie w kształcie prostopadłościanu o wymiarach 10 cm, 6 cm i 20 cm zmieści się 1,5 litra soku?</p><p>Przedstaw swoje rozwiązanie i zapisz odpowiedź.</p>",
       "choices": [],
@@ -380,7 +380,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Wysokość graniastosłupa prawidłowego czworokątnego jest o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> dłuższa od krawędzi podstawy. Oblicz, ile razy pole powierzchni całkowitej tego graniastosłupa jest większe od jego pola powierzchni bocznej.</p><p>Przedstaw swoje rozwiązanie i zapisz odpowiedź.</p>",
       "choices": [],

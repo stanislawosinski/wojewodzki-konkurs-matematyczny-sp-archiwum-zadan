@@ -51,8 +51,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "NWW / NWD",
-        "równania z jedną zmienną"
+        "NWW / NWD"
       ],
       "prompt_html": "<p>W klasie jest mniej niż 30 uczniów. Z pracy kontrolnej z matematyki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>8</mn></mfrac></math> uczniów uzyskała ocenę bardzo dobrą, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> dobrą, połowa dostateczną, a jeden uczeń niedostateczną. Ocen celujących i dopuszczających nie było. Ilu uczniów liczy ta klasa?</p>",
       "choices": [
@@ -120,7 +119,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Która z podanych liczb jest najmniejsza?</p>",
       "choices": [
@@ -154,7 +153,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Wartość, którego wyrażenia <strong>nie jest</strong> odwrotnością liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mfrac><mn>1</mn><mn>2</mn></mfrac></math>?</p>",
       "choices": [
@@ -188,7 +187,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> przedstawionego na rysunku obok, jest równe:</p>",
       "choices": [
@@ -258,7 +258,8 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Podstawa trójkąta równoramiennego ma długość 11 cm.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli zdanie jest fałszywe.</p>",
       "choices": [
@@ -292,7 +293,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "geometria",
+        "kąty",
         "procenty"
       ],
       "prompt_html": "<p>Różnica miar dwóch kątów przyległych wynosi 20% kąta prostego. Miary tych kątów wynoszą:</p>",
@@ -327,7 +328,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "kąty"
       ],
       "prompt_html": "<p>Czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> jest rombem. Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, zaznaczonego na tym rysunku, jest równa:</p>",
       "choices": [
@@ -433,7 +435,7 @@
       "points": 2,
       "topics": [
         "układy równań",
-        "geometria"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Marysia dodała długości trzech boków prostokąta i otrzymała 50 cm. Zosia również dodała długości trzech boków tego samego prostokąta i otrzymała 40 cm. Obwód tego prostokąta jest równy:</p>",
       "choices": [
@@ -467,7 +469,7 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Marek ma 100 jednakowych sześciennych klocków o krawędzi 1 cm.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli zdanie jest fałszywe.</p>",
       "choices": [
@@ -536,7 +538,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "inne"
+        "reszta z dzielenia"
       ],
       "prompt_html": "<p>Czterdzieści godzin przed jutrzejszym południem była godzina:</p>",
       "choices": [
@@ -638,7 +640,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Uzupełnij zdanie, wpisując w wykropkowane miejsce odpowiednią miarę kąta.</p><p>Wskazówki zegara o godzinie 17:40 tworzą kąt ostry o mierze: ………</p>",
       "choices": [],
@@ -655,7 +657,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Rozlano 16 litrów soku pomarańczowego do butelek o pojemnościach: 0,2 litra, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> litra i 0,33 litra. Ile napełniono butelek o pojemności 0,33 litra, jeżeli pełnych butelek o pojemności 0,2 litra było 11, a pełnych butelek ćwierćlitrowych było o 2 mniej niż napełnionych butelek o pojemności 0,2 litra? Zapisz odpowiednie obliczenia i podaj odpowiedź.</p>",
       "choices": [],
@@ -689,8 +691,9 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "trójkąty",
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> ma obwód 48 cm. Środki dwóch kolejnych boków tego kwadratu połączono ze sobą i z wierzchołkiem nie należącym do tych boków. Oblicz pole otrzymanego w ten sposób trójkąta. Zapisz, jaką częścią pola kwadratu jest pole tego trójkąta. Wykonaj pomocniczy rysunek. Zapisz odpowiednie obliczenia i podaj odpowiedź.</p>",
       "choices": [],

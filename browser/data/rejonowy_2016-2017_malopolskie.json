@@ -85,7 +85,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "kąty",
+        "czworokąty"
       ],
       "prompt_html": "<p>Jaką miarę ma kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> w narysowanym poniżej prostokącie?</p>",
       "choices": [
@@ -155,7 +156,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>W sali kinowej jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math> rzędów po <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> miejsc w każdym rzędzie oraz na balkonie dodatkowo 6 rzędów po <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi></math> miejsc w każdym rzędzie. Które z wyrażeń opisuje liczbę miejsc siedzących w tym kinie?</p>",
       "choices": [
@@ -189,7 +190,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Pole kwadratu jest równe polu rombu o przekątnych długości 0,2 m i 100 mm. Długość boku tego kwadratu jest równa:</p>",
       "choices": [
@@ -223,8 +225,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "zliczanie / metody zliczania",
-        "kombinatoryka"
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Na ile sposobów można wnieść konkursową opłatę wpisową 4,50 zł przy pomocy monet o nominałach 2 zł, 1 zł, 50 gr?</p>",
       "choices": [
@@ -360,7 +361,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Ile drutu należy zużyć na zbudowanie modelu szkieletowego graniastosłupa o podstawie trójkąta równoramiennego, którego siatka jest przedstawiona na rysunku?</p>",
       "choices": [
@@ -448,8 +449,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Krótsza przekątna trapezu prostokątnego dzieli go na dwa trójkąty o polach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><msup><mtext> cm</mtext><mn>2</mn></msup></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>32</mn><msup><mtext> cm</mtext><mn>2</mn></msup></mrow></math>. Suma długości podstaw tego trapezu jest równa 16 cm. Oblicz długość wysokości tego trapezu.</p>",
       "choices": [],
@@ -519,7 +520,7 @@
       "points": 4,
       "topics": [
         "trójkąty",
-        "geometria"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Rabatka ogrodowa ma kształt trójkąta równobocznego o obwodzie 48 m (jak na rysunku poniżej). Część kwiatowa ma również kształt trójkąta równobocznego, którego pole wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>16</mn><msqrt><mn>3</mn></msqrt></mrow></math> m². Oblicz, ile półkilogramowych paczek nasion trawy należy zakupić na obsianie trawnika, jeżeli wiadomo, że na 1 m² potrzeba 2,5 dag nasion. Do obliczeń przyjmij, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>3</mn></msqrt><mo>≈</mo><mn>1,7</mn></mrow></math>. Zapisz obliczenia.</p><p><em>Uwaga! Pole trójkąta równobocznego można obliczyć korzystając ze wzoru <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mfrac><mrow><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac></mrow></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest długością boku tego trójkąta.</em></p>",
       "choices": [],

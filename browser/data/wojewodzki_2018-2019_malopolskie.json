@@ -55,8 +55,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "zagadki logiczne",
-        "reszta z dzielenia"
+        "reszta z dzielenia",
+        "zagadki logiczne"
       ],
       "prompt_html": "<p>W jakim dniu tygodnia wypadnie 29 lutego 2024 roku?</p>",
       "choices": [
@@ -366,6 +366,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
+        "układ współrzędnych",
         "zagadki logiczne"
       ],
       "prompt_html": "<p>Dominika zaznaczyła na osi liczbowej cztery liczby całkowite w kolejności od najmniejszej do największej. Wśród nich są dwie pary liczb przeciwnych. Najmniejsza z nich różni się od drugiej o 6, druga natomiast jest o 8 mniejsza od liczby największej. Odwrotność iloczynu zaznaczonych na osi liczb jest równa:</p>",
@@ -404,7 +405,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "geometria",
+        "czworokąty",
         "dwusieczna kąta / symetralna odcinka"
       ],
       "prompt_html": "<p>W trapezie suma miar kątów ostrych leżących przy dłuższej podstawie jest równa 106°. Dwusieczne tych kątów zawierają przekątne trapezu. Miary kątów tego trapezu to:</p>",
@@ -520,7 +521,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Mamy trzy pudełka: jedno w kształcie sześcianu, drugie w kształcie graniastosłupa prawidłowego trójkątnego, trzecie w kształcie graniastosłupa prawidłowego sześciokątnego. Na oklejenie wszystkich krawędzi każdego z nich potrzeba po 3,6 m taśmy. Jeżeli graniastosłup trójkątny i graniastosłup sześciokątny mają po 6 krawędzi tej samej długości co krawędź sześcianu, to zakładając, że wszystkie długości wyrażone są w metrach, można wywnioskować, że:</p>",
       "choices": [
@@ -559,7 +560,8 @@
       "points": 3,
       "topics": [
         "podzielność",
-        "potęgi i pierwiastki"
+        "potęgi i pierwiastki",
+        "szacowanie (zamiast obliczania)"
       ],
       "prompt_html": "<p>Dane są liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><munder><munder><mrow><mn>11</mn><mo>…</mo><mn>1</mn></mrow><mo>⏟</mo></munder><mn>14</mn></munder><munder><munder><mrow><mn>22</mn><mo>…</mo><mn>2</mn></mrow><mo>⏟</mo></munder><mn>7</mn></munder><munder><munder><mrow><mn>11</mn><mo>…</mo><mn>1</mn></mrow><mo>⏟</mo></munder><mn>14</mn></munder><mo>+</mo><mn>6</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mfrac><mrow><msqrt><mn>3</mn></msqrt><mo>+</mo><msqrt><mn>2</mn></msqrt></mrow><msqrt><mn>3</mn></msqrt></mfrac></math> (liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> zapisana jest za pomocą czternastu jedynek, siedmiu dwójek i czternastu jedynek).</p><p>Uzupełnij poniższe zdania. Wybierz odpowiedź spośród oznaczonych literami A i B oraz odpowiedź spośród oznaczonych literami C i D.</p>",
       "choices": [
@@ -593,7 +595,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "geometria",
+        "czworokąty",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>W prostokącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> jest środkiem boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>, punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math> – środkiem boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math>, a punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> – punktem przecięcia odcinków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DP</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BR</mi></math>. Udowodnij, że miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>PAR</mi></math> jest równa mierze kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BKP</mi></math>.</p>",
@@ -649,7 +651,8 @@
       "type": "open",
       "points": 6,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "pole i obwód",
         "trójkąty"
       ],
       "prompt_html": "<p>W trapezie dane są długości podstaw: 10 cm i 30 cm oraz długości przekątnych: 24 cm i 32 cm. Oblicz pole tego trapezu. Zapisz tok swojego rozumowania.</p>",
@@ -667,7 +670,7 @@
       "type": "open",
       "points": 6,
       "topics": [
-        "bryły",
+        "ostrosłupy",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Podstawą ostrosłupa jest romb o boku długości 20 cm i kącie ostrym o mierze 60°. Punkt przecięcia się przekątnych podstawy jest spodkiem wysokości ostrosłupa, której długość wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><msqrt><mn>6</mn></msqrt></math> cm. Oblicz długość wysokości ściany bocznej, poprowadzonej na krawędź podstawy rozważanego ostrosłupa, a także objętość tego ostrosłupa. Zapisz tok swojego rozumowania.</p>",

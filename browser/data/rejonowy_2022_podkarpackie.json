@@ -172,7 +172,8 @@
       "points": 1,
       "topics": [
         "proporcjonalność prosta",
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Boisko sportowe w kształcie prostokąta w skali 1:300 ma wymiary 0,6 cm x 1,2 cm. Pole tego boiska w rzeczywistości jest równe:</p>",
       "choices": [
@@ -210,7 +211,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Cztery litry soku rozlewamy do szklanek o pojemności 0,2 l, napełniając je do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>5</mn></mfrac></math> objętości. Ile szklanek można w ten sposób napełnić?</p>",
       "choices": [
@@ -325,7 +326,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "proporcjonalność prosta"
       ],
       "prompt_html": "<p>Każdy bok prostokąta został zwiększony 5 razy. Przekątna wówczas zwiększy się:</p>",
       "choices": [
@@ -402,6 +404,7 @@
       "points": 2,
       "topics": [
         "trójkąty",
+        "pole i obwód",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>W pewnym trójkącie długości boków są równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>5</mn></msqrt></math> dm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>3</mn></msqrt></math> dm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>7</mn></msqrt></math> dm. Pole tego trójkąta wynosi:</p>",
@@ -440,7 +443,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Z drutu o długości 180 cm zbudowano szkielet sześcianu. Pole powierzchni tego sześcianu jest równe:</p>",
       "choices": [
@@ -478,7 +481,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "geometria"
+        "symetrie"
       ],
       "prompt_html": "<p>Uzupełnij tabelę tak, aby informacje w niej zawarte były prawdziwe.</p><table><thead><tr><th>Wielokąt foremny</th><th>Liczba osi symetrii</th><th>Środek symetrii</th></tr></thead><tbody><tr><td>trójkąt</td><td></td><td>nie ma / ma*</td></tr><tr><td>pięciokąt</td><td></td><td>nie ma / ma*</td></tr></tbody></table><p>* skreśl niepotrzebne słowo</p>",
       "choices": [],
@@ -496,7 +499,9 @@
       "points": 4,
       "topics": [
         "procenty",
-        "geometria",
+        "symetrie",
+        "czworokąty",
+        "pole i obwód",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Uzupełnij:</p><p>14.1. Cenę pewnego towaru podwyższono o 20%. O ile procent należy obniżyć podwyższoną cenę tego towaru, aby otrzymać cenę początkową?: …</p><p>14.2. Ile osi symetrii ma prosta?: …</p><p>14.3. Pole kwadratu o przekątnej równej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>13</mn></msqrt></math> wynosi: …</p><p>14.4. Ile jest równa szósta potęga pierwiastka kwadratowego z liczby 11: …</p>",
@@ -514,7 +519,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Ile wynosi wartość wyrażenia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>2</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>3</mn><mrow><mn>1</mn><mo>+</mo><mn>4</mn></mrow></mfrac></mrow></mfrac></mrow></mfrac></mrow></math>. Czy liczba ta jest większa od 1,5? Zapisz obliczenia i odpowiedź.</p>",
       "choices": [],
@@ -604,7 +609,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Z sześciennej kostki o krawędzi 12 cm wycięto cztery jednakowe graniastosłupy (rysunek). Jaka jest objętość otrzymanej bryły?</p><p>Zapisz obliczenia i odpowiedź.</p>",
       "choices": [],
@@ -624,7 +629,8 @@
       "points": 4,
       "topics": [
         "koła / okręgi",
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Oblicz obwód oraz pole figury przedstawionej na rysunku (półkole).</p><p>Zapisz obliczenia i odpowiedź.</p>",
       "choices": [],

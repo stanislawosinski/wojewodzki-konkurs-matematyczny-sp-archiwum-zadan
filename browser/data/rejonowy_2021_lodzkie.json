@@ -133,7 +133,7 @@
       "type": "closed_single",
       "points": 5,
       "topics": [
-        "geometria"
+        "układ współrzędnych"
       ],
       "prompt_html": "<p>Na prostej obrano kolejno pięć punktów: A, B, C, D, E. Wiadomo, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>19</mn></mrow></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>CE</mi><mo>|</mo><mo>=</mo><mn>97</mn></mrow></math> cm oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AC</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>BD</mi><mo>|</mo></mrow></math>.</p><p>Długość odcinka DE jest równa:</p>",
       "choices": [
@@ -250,7 +250,8 @@
       "type": "closed_single",
       "points": 5,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "pole i obwód",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Pole powierzchni rombu o obwodzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><msqrt><mn>3</mn></msqrt></math> i kącie ostrym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>°</mo></math> jest równe:</p>",
@@ -289,8 +290,9 @@
       "type": "closed_single",
       "points": 5,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W prostokącie ABCD punkt E jest środkiem boku BC, a punkt F jest środkiem boku CD. Trójkąt AEF ma pole równe 15 cm².</p><p>Pole prostokąta ABCD jest równe:</p>",
       "choices": [
@@ -370,7 +372,7 @@
       "points": 5,
       "topics": [
         "koła / okręgi",
-        "geometria"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Pole powierzchni zamalowanej figury jest równe</p>",
       "choices": [
@@ -475,7 +477,7 @@
       "type": "open",
       "points": 10,
       "topics": [
-        "geometria",
+        "kąty",
         "trójkąty"
       ],
       "prompt_html": "<p>Oblicz sumę wyróżnionych kątów przedstawionej na rysunku gwiazdy.</p>",
@@ -513,7 +515,8 @@
       "type": "open",
       "points": 8,
       "topics": [
-        "koła / okręgi"
+        "koła / okręgi",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Kolejka jeździ w kółko po szynach, które tworzą dwa współśrodkowe okręgi. Każde koło wagonika ma średnicę 40 cm. Podczas jednego pełnego okrążenia zewnętrzne koło robi o cztery pełne obroty więcej niż wewnętrzne. Jaki jest rozstaw szyn tej kolejki? Zapisz rozwiązanie.</p>",
       "choices": [],
@@ -530,7 +533,8 @@
       "type": "open",
       "points": 10,
       "topics": [
-        "bryły"
+        "ostrosłupy",
+        "graniastosłupy"
       ],
       "prompt_html": "<p>W ostrosłupie prawidłowym czworokątnym krawędź podstawy jest równa 6 cm, a każda ze ścian ma takie samo pole powierzchni. W graniastosłupie prawidłowym trójkątnym jest podobnie – krawędź podstawy ma 6 cm i także każda ze ścian ma takie samo pole. Która bryła ma większą objętość? Odpowiedź uzasadnij stosownymi obliczeniami.</p>",
       "choices": [],

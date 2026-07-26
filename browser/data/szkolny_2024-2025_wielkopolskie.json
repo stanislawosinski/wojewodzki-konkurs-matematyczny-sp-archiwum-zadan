@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Dane są dwa wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mfrac><mrow><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>12</mn></mfrac></mrow><mrow><mfrac><mn>3</mn><mn>5</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></mfrac></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>3,75</mn></math>. Oblicz wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>W</mi><mo>=</mo><mi>x</mi><mo>:</mo><mo>(</mo><mn>2</mn><mi>y</mi><mo>)</mo></math>.</p>",
       "choices": [
@@ -51,7 +51,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Suma liczby odwrotnej do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>−</mo><mn>4</mn></mrow><mrow><mi>a</mi><mo>+</mo><mn>1</mn></mrow></mfrac></math> i liczby przeciwnej do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mo>−</mo><mn>3</mn><mi>a</mi></mrow><mn>6</mn></mfrac></math> jest równa:</p>",
       "choices": [
@@ -85,7 +85,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Wskaż, w którym przykładzie suma jednomianów jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>13</mn><msup><mi>x</mi><mn>4</mn></msup><msup><mi>y</mi><mn>6</mn></msup></math>.</p>",
       "choices": [
@@ -188,7 +188,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Podczas jazdy motocyklem Paweł zużył 2,5 litra benzyny, co równało się <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>6</mn></mfrac></math> benzyny znajdującej się w zbiorniku paliwa. Podczas drugiej jazdy zużył 0,4 benzyny, która pozostała po pierwszej jeździe. Podczas trzeciej jazdy zużył piątą część tego, co jeszcze zostało. Ile litrów paliwa zostało w zbiorniku po trzech jazdach?</p>",
       "choices": [
@@ -360,7 +360,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Spośród trójkątów równoramiennych o ramionach długości 8 i podstawie, której długość wyraża się liczbą naturalną, wybieramy trójkąt o największym obwodzie. Obwód ten jest równy:</p>",
       "choices": [
@@ -394,7 +395,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Pole trapezu różnobocznego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KLMN</mi></math> na poniższym rysunku pomocniczym wynosi:</p>",
       "choices": [
@@ -431,7 +433,7 @@
       "points": 1,
       "topics": [
         "trójkąty",
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Miara zaznaczonego kąta na rysunku pomocniczym, jeśli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi><mo>=</mo><mi>AB</mi><mo>+</mo><mi>BD</mi></math> wynosi:</p>",
       "choices": [
@@ -467,7 +469,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Liczba wszystkich krawędzi graniastosłupa jest równa 54. Zatem liczba wszystkich wierzchołków tego graniastosłupa wynosi:</p>",
       "choices": [
@@ -612,7 +614,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "pole i obwód",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Z dwóch prostokątów można zbudować prostokąt o obwodzie 80 cm. Można także zbudować z nich kwadrat. Oblicz pole powierzchni takiego kwadratu. Zapisz wszystkie obliczenia.</p>",

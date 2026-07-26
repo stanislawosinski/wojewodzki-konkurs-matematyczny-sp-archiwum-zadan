@@ -17,8 +17,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "zagadki logiczne",
-        "inne"
+        "ułamki",
+        "zagadki logiczne"
       ],
       "prompt_html": "<p>Na karteczkach znajdują się ułamki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>22</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>22</mn><mn>7</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>17</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>17</mn><mn>21</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>21</mn><mn>20</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>20</mn><mn>9</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>9</mn><mn>16</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>16</mn><mn>11</mn></mfrac></math>. Adaś wybrał niektóre z karteczek, a następnie pomnożył ułamki, które się na nich znajdują. Jaki największy wynik mógł w ten sposób otrzymać Adaś?</p>",
       "choices": [],
@@ -35,8 +35,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "podzielność",
-        "reszta z dzielenia"
+        "reszta z dzielenia",
+        "podzielność"
       ],
       "prompt_html": "<p>Karol wykonał dzielenie z resztą liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2026</mn></math> przez swoją ulubioną liczbę. Otrzymał pewien iloraz i resztę, zauważył też, że otrzymana reszta z dzielenia jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>11</mn></math> razy mniejsza od otrzymanego ilorazu. Jaka jest ulubiona liczba Karola?</p>",
       "choices": [],
@@ -53,7 +53,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "geometria",
+        "kąty",
         "sześciokąty foremne",
         "trójkąty"
       ],
@@ -93,7 +93,7 @@
       "points": 2,
       "topics": [
         "proporcjonalność prosta",
-        "inne"
+        "układ współrzędnych"
       ],
       "prompt_html": "<p>Na osi liczbowej Paweł oznaczył pięć punktów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> (w tej kolejności). Następnie zmierzył długości poszczególnych odcinków i zauważył, że stosunki ich długości są równe odpowiednio: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>:</mo><mo>|</mo><mi>BC</mi><mo>|</mo><mo>=</mo><mn>7</mn><mo>:</mo><mn>4</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>BC</mi><mo>|</mo><mo>:</mo><mo>|</mo><mi>CD</mi><mo>|</mo><mo>=</mo><mn>3</mn><mo>:</mo><mn>7</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>CD</mi><mo>|</mo><mo>:</mo><mo>|</mo><mi>DE</mi><mo>|</mo><mo>=</mo><mn>4</mn><mo>:</mo><mn>7</mn></mrow></math>. Wiedząc, że punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> odpowiada liczbie 0, a punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> odpowiada liczbie 77, wyznacz jakiej liczbie odpowiada punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>.</p>",
       "choices": [],
@@ -111,8 +111,7 @@
       "points": 2,
       "topics": [
         "liczby rzymskie",
-        "zliczanie / metody zliczania",
-        "kombinatoryka"
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Michał wypisał w systemie rzymskim wszystkie liczby, które mają w zapisie wszystkie symbole (spośród symboli I, V, X, L, C, D, M), w tym symbol M występuje dokładnie jeden raz. Ile liczb wypisał Michał?</p>",
       "choices": [],
@@ -130,8 +129,9 @@
       "points": 4,
       "topics": [
         "koła / okręgi",
+        "czworokąty",
         "trójkąty",
-        "geometria"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KL</mi></math> długości 6 cm jest średnicą pewnego okręgu. Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> leżą na tym okręgu, punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> leżą na odcinku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KL</mi></math>, a czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> jest kwadratem. Oblicz pole kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>.</p>",
       "choices": [],
@@ -167,7 +167,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Kasia wykonała model graniastosłupa prawidłowego trójkątnego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>ABC</mi><msup><mi>A</mi><mo>′</mo></msup><msup><mi>B</mi><mo>′</mo></msup><msup><mi>C</mi><mo>′</mo></msup></mrow></math> i nalała do niego wody. Następnie ustawiła go na krawędzi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> w taki sposób, że powierzchnia wody przechodziła przez wierzchołki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>A</mi><mo>′</mo></msup></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>B</mi><mo>′</mo></msup></math>, jak na rysunku. Udowodnij, że objętość nalanej wody stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math> objętości graniastosłupa.</p>",

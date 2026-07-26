@@ -51,7 +51,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "ostrosłupy"
       ],
       "prompt_html": "<p>Który rysunek nie przedstawia siatki ostrosłupa?</p>",
       "choices": [
@@ -122,7 +122,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Suma liczby ścian, krawędzi i wierzchołków pewnego graniastosłupa jest równa 44. Podstawą tego graniastosłupa jest:</p>",
       "choices": [
@@ -262,7 +262,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "koła / okręgi"
+        "koła / okręgi",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Promień okręgu o środku A ma długość 8 cm. W okrąg wpisano dwa mniejsze okręgi jak na rysunku. Jaki jest obwód trójkąta ABC utworzonego z połączenia środków tych okręgów?</p>",
       "choices": [
@@ -298,8 +299,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Jaką częścią kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> przedstawionego na rysunku jest zamalowany trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>APQ</mi></math>? Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> jest środkiem boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>, punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Q</mi></math> jest środkiem boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math>.</p>",
       "choices": [
@@ -336,7 +337,7 @@
       "points": 2,
       "topics": [
         "trójkąty",
-        "geometria"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Elementem dekoracji na przyjęciu urodzinowym Oli było 10 nietoperzy wykonanych metodą origami. Każdy powstał w wyniku zginania kartki papieru w kształcie trójkąta prostokątnego równoramiennego, o przeciwprostokątnej długości 40 cm. Ile metrów kwadratowych papieru zużyto na wykonanie tych nietoperzy?</p>",
       "choices": [
@@ -406,7 +407,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Prostopadłościenne akwarium o wymiarach 30 cm długości, 40 cm szerokości i 25 cm wysokości, napełniono do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>5</mn></mfrac></math> wysokości. Ile litrów wody należy jeszcze wlać do akwarium, aby poziom wody wzrósł o 8 cm?</p>",
       "choices": [
@@ -647,7 +648,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "pole i obwód",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Dany jest prostokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> o obwodzie 52 cm. Z wierzchołka prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> poprowadzono półprostą, która podzieliła kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DAB</mi></math> na połowę, a obwód prostokąta na dwie części oznaczone na rysunku linią ciągłą i przerywaną. Oblicz pole prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> wiedząc, że długość linii ciągłej jest o 20 cm większa od długości linii przerywanej.</p>",
@@ -667,7 +669,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "procenty"
       ],
       "prompt_html": "<p>Pokój Malwiny, znajdujący się na poddaszu, ma kształt graniastosłupa prostego. Jego wymiary podano na rysunku. Wykorzystując poniższe informacje oblicz, ile litrów tlenu znajduje się w tym pokoju. (Skład procentowy powietrza: tlen 21%, azot 78%, inne gazy 1%.)</p>",

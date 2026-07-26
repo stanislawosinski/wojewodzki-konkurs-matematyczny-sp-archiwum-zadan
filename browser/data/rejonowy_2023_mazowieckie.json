@@ -18,7 +18,7 @@
       "points": 1,
       "topics": [
         "trójkąty",
-        "geometria"
+        "czworokąty"
       ],
       "prompt_html": "<p>W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>∠</mi><mi>BAC</mi><mo>|</mo><mo>=</mo><mn>35</mn><mo>°</mo></mrow></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>∠</mi><mi>ACB</mi><mo>|</mo><mo>=</mo><mn>80</mn><mo>°</mo></mrow></math>. Na bokach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> zaznaczono odpowiednio punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi></math> tak, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>∠</mi><mi>KLC</mi><mo>|</mo><mo>=</mo><mn>70</mn><mo>°</mo></mrow></math>. Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F, jeśli jest fałszywe.</p>",
       "choices": [
@@ -79,7 +79,6 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "prędkość / droga / czas",
         "proporcjonalność prosta"
       ],
       "prompt_html": "<p>Do pracy przy zrywaniu czereśni zgłosiły się dwie czteroosobowe grupy licealistów. Pierwsza grupa w ciągu godziny zbiera średnio o 20 kg czereśni więcej niż druga. W ciągu kilku godzin pierwsza grupa zerwała 600 kg czereśni, a druga w tym samym czasie 480 kg.</p><p>Wybierz poprawną odpowiedź spośród oznaczonych literami A i B oraz C i D.</p><p>Uczestnik pierwszej grupy w ciągu godziny zrywa średnio (A albo B) czereśni więcej niż uczestnik drugiej grupy.</p><p>Aby zerwać 720 kg czereśni druga grupa, musi pracować z tą samą wydajnością (C albo D).</p>",
@@ -205,7 +204,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "geometria",
+        "czworokąty",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>W czworokącie wypukłym przekątne przecinają się pod kątem 120° i dzielą go na cztery trójkąty o polach równych 15. Uzasadnij, że czworokąt jest równoległobokiem. Wykaż, że stosunek długości tych przekątnych wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>3</mn></msqrt><mn>5</mn></mfrac></math>, jeżeli krótsza przekątna ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><msqrt><mn>3</mn></msqrt></mrow></math>.</p>",
@@ -241,8 +240,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "bryły",
-        "geometria"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Klocek w kształcie graniastosłupa prawidłowego czworokątnego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDEFGH</mi></math> rozcięto na cztery klocki, każdy w kształcie graniastosłupa prostego trójkątnego. Podstawą jednego z nich jest trójkąt, którego dwa wierzchołki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi></math> są środkami krawędzi podstawy graniastosłupa czworokątnego, trzeci wierzchołek jest jednym z wierzchołków tej podstawy, a ponadto żadna ze ścian bocznych tego graniastosłupa trójkątnego nie zawiera się w żadnej ścianie graniastosłupa czworokątnego. Oblicz, ile procent objętości największego z otrzymanych po rozcięciu klocków stanowi objętość najmniejszego klocka. Wynik podaj z dokładnością do 1%.</p>",
       "choices": [],

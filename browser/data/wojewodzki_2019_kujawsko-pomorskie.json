@@ -18,7 +18,8 @@
       "points": 5,
       "topics": [
         "trójkąty",
-        "okrąg wpisany i opisany",
+        "koła / okręgi",
+        "pole i obwód",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>W okrąg o promieniu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>r</mi><mo>=</mo><mn>2</mn></mrow></math> wpisano trójkąt równoramienny, którego podstawa też ma długość 2. Oblicz pole tego trójkąta. Rozpatrz dwa przypadki.</p>",
@@ -72,7 +73,7 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "bryły",
+        "ostrosłupy",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Figura na zamieszczonym rysunku to siatka ostrosłupa prawidłowego czworokątnego. Wiedząc, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>2</mn></mrow></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>CD</mi><mo>|</mo><mo>=</mo><mn>3</mn><msqrt><mn>2</mn></msqrt></mrow></math> cm, oblicz objętość tego ostrosłupa.</p>",
@@ -92,7 +93,7 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "geometria",
+        "kąty",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>5</mn></mfrac></math> kąta do niego przyległego. Jaką miarę ma kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>?</p>",
@@ -110,8 +111,9 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "proporcjonalność prosta",
-        "geometria"
+        "czworokąty",
+        "pole i obwód",
+        "proporcjonalność prosta"
       ],
       "prompt_html": "<p>Ile metrów kwadratowych zajmuje w rzeczywistości prostokątny dywanik, który na planie w skali 1 : 20 ma wymiary 75 mm i 50 mm?</p>",
       "choices": [],
@@ -128,8 +130,9 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W prostokącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> jest środkiem boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>, zaś <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math> jest środkiem boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math>. Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AEF</mi></math> ma pole 15 cm². Jakie pole ma prostokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>?</p>",
       "choices": [],
@@ -166,7 +169,7 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Ile wynosi kąt między przekątnymi pięciokąta foremnego wychodzącymi z tego samego wierzchołka?</p>",
       "choices": [],
@@ -257,9 +260,8 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "okrąg wpisany i opisany",
-        "trójkąty",
-        "koła / okręgi"
+        "koła / okręgi",
+        "trójkąty"
       ],
       "prompt_html": "<p>Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest wpisany w okrąg o środku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> jest średnicą tego okręgu. Prosta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest styczną do okręgu w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>. Podaj miarę kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>.</p>",
       "choices": [],

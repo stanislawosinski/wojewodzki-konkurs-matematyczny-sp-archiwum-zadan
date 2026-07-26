@@ -121,7 +121,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Pewien graniastosłup prawidłowy ma tyle samo ścian będących kwadratami, co sześcian. Jaki wielokąt może być podstawą tego graniastosłupa?</p>",
       "choices": [
@@ -256,7 +256,7 @@
       "points": 2,
       "topics": [
         "trójkąty",
-        "geometria"
+        "czworokąty"
       ],
       "prompt_html": "<p>Dany jest trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>, w którym kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BAC</mi></math> ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>35</mn><mo>°</mo></mrow></math>, a kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACB</mi></math> ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>80</mn><mo>°</mo></mrow></math>. Na bokach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> tego trójkąta zaznaczono odpowiednio punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>N</mi></math> tak, że miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>MNC</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>65</mn><mo>°</mo></mrow></math>.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe. Wybraną odpowiedź zaznacz kółkiem.</p>",
       "choices": [
@@ -283,7 +283,7 @@
       "points": 4,
       "topics": [
         "równania z jedną zmienną",
-        "potęgi i pierwiastki"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Poniższe zdania dotyczą wyrażeń algebraicznych.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe. Wybraną odpowiedź zaznacz kółkiem.</p>",
       "choices": [
@@ -377,8 +377,8 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "trójkąty",
+        "czworokąty"
       ],
       "prompt_html": "<p>Poniżej podane są cztery zdania dotyczące figur płaskich.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe. Wybraną odpowiedź zaznacz kółkiem.</p>",
       "choices": [
@@ -412,7 +412,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Uzupełnij poniższy zapis.</p><p>4 h &nbsp;&nbsp; …… min &nbsp;&nbsp; 17 s<br>+ &nbsp;&nbsp; …… h &nbsp;&nbsp; 37 min &nbsp;&nbsp; …… s<br>= 7 h &nbsp;&nbsp; 12 min &nbsp;&nbsp; 0 s</p><p>Jaką częścią doby jest 7 godzin i 12 minut?</p><p>Wpisz tylko odpowiedź.</p>",
       "choices": [],
@@ -448,7 +448,7 @@
       "points": 1,
       "topics": [
         "trójkąty",
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Suma miar czterech kątów zaznaczonych na rysunku tylko łukami (<em>patrz poniżej</em>) jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>290</mn><mo>°</mo></mrow></math>.</p><p>Uzupełnij zdanie, wpisując tylko liczbę.</p><p>Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> ma miarę …………… stopni.</p>",
       "choices": [],
@@ -467,8 +467,9 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Z prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>, którego obwód ma długość 100 wycięto trójkąt równoboczny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCE</mi></math> (<em>patrz rysunek</em>). Obwód wyciętego trójkąta ma długość 30.</p><p>Uzupełnij zdanie, wpisując tylko liczbę.</p><p>Obwód zacieniowanej figury ma długość …………………</p>",
       "choices": [],
@@ -487,7 +488,8 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Pole zacieniowanego prostokąta (<em>patrz rysunek</em>) jest równe 5. Każdy bok tego prostokąta przedłużono potrajając jego długość i otrzymano punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>N</mi></math>.</p><p>Uzupełnij zdanie wpisując tylko liczbę.</p><p>Pole czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KLMN</mi></math> jest równe …………………</p>",
       "choices": [],

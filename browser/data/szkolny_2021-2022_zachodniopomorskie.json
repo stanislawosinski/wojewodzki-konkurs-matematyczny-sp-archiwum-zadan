@@ -187,7 +187,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty"
       ],
       "prompt_html": "<p>Które z poniższych zdań jest zawsze prawdziwe?</p>",
       "choices": [
@@ -221,7 +221,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Oto cztery liczby: 0,3456; 0,6; 0,78; 0,2345. Ile wynosi suma najmniejszej i największej z nich?</p>",
       "choices": [
@@ -493,7 +493,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Kwadrat ma pole powierzchni 36 cm². Ile wynosi jego obwód w skali 3:1?</p>",
       "choices": [
@@ -528,7 +529,8 @@
       "points": 1,
       "topics": [
         "trójkąty",
-        "procenty"
+        "procenty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W trójkącie jeden z boków skrócono o 20%, a wysokość opuszczoną na ten bok wydłużono o 20%. Jak zmieniło się pole tego trójkąta?</p>",
       "choices": [
@@ -579,7 +581,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "kąty"
       ],
       "prompt_html": "<p>Stosunek miar kątów równoległoboku jest równy 2:3. Znajdź miarę kąta między wysokościami równoległoboku wychodzącymi z wierzchołka kąta rozwartego tego równoległoboku. Wykonaj rysunek.</p>",
       "choices": [],
@@ -596,7 +599,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "pole i obwód",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Romb zbudowany jest z dwóch trójkątów równoramiennych o bokach 6 m, 60 dm, 800 cm. Oblicz pole tego rombu. Wynik podaj w metrach kwadratowych w zaokrągleniu do części dziesiątych.</p>",
@@ -614,7 +618,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Kasia ma 480 znaczków. Trzecia część połowy wszystkich znaczków to znaczki angielskie, trzy czwarte czwartej części wszystkich znaczków to znaczki francuskie, połowa sumy znaczków angielskich i francuskich to znaczki włoskie. Znaczki niemieckie stanowią trzy piąte sumy znaczków angielskich, francuskich i włoskich. Pozostałe znaczki to znaczki polskie. Ile znaczków z każdego państwa ma Kasia?</p>",
       "choices": [],

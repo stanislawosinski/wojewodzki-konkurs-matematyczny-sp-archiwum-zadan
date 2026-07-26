@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "zagadki logiczne"
       ],
       "prompt_html": "<p>Suma pięciu liczb naturalnych dwucyfrowych, wśród których nie ma dwóch jednakowych liczb, jest równa 484.</p><p><strong>Ile jest równa suma cyfr najmniejszej z tych liczb? Wybierz odpowiedź spośród podanych.</strong></p>",
       "choices": [
@@ -116,7 +116,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "nierówności"
+        "ułamki"
       ],
       "prompt_html": "<p><strong>Dokończ zdanie. Wybierz odpowiedź spośród podanych.</strong></p><p>Pomiędzy liczbami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>0</mn><mo>,</mo><mo>(</mo><mn>3</mn><mo>)</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>0</mn><mo>,</mo><mo>(</mo><mn>1</mn><mo>)</mo></math> znajdują się liczby</p>",
       "choices": [
@@ -180,7 +180,8 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Dłuższy bok równoległoboku o obwodzie 8,4 cm ma długość 22 mm, a wysokość opuszczona na krótszy bok ma 11 mm.</p><p><strong>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</strong></p>",
       "choices": [
@@ -211,7 +212,8 @@
       "points": 1,
       "topics": [
         "trójkąty",
-        "potęgi i pierwiastki"
+        "potęgi i pierwiastki",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W trójkącie równoramiennym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jeden z kątów ma miarę 120°. Podstawa tego trójkąta wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><msqrt><mn>6</mn></msqrt></math>.</p><p><strong>Ile jest równe pole tego trójkąta? Wybierz odpowiedź spośród podanych.</strong></p>",
       "choices": [
@@ -245,7 +247,8 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W trójkącie prostokątnym o obwodzie 150 cm przyprostokątne są w stosunku 5:12.</p><p><strong>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</strong></p>",
       "choices": [
@@ -275,7 +278,8 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "geometria"
+        "kąty",
+        "czworokąty"
       ],
       "prompt_html": "<p>W pięciokącie foremnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDE</mi></math> poprowadzono przekątne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CE</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BE</mi></math>. Przekątne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BE</mi></math> przecięły się w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math>.</p><p><strong>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</strong></p>",
       "choices": [
@@ -307,7 +311,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Prostokąt P, którego boki wyrażały się liczbami naturalnymi, rozcięto na trzy kwadraty.</p><p><strong>Dokończ zdanie. Prostokąt P <u>nie mógł</u> mieć pola równego:</strong></p>",
       "choices": [
@@ -341,8 +346,9 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "geometria",
-        "wzory skróconego mnożenia"
+        "czworokąty",
+        "wzory skróconego mnożenia",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Pole kwadratu K jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>k</mi><mn>2</mn></msup></math>.</p><p><strong>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</strong></p>",
       "choices": [
@@ -372,7 +378,9 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "geometria"
+        "układ współrzędnych",
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>7</mn><mo>,</mo><mo>−</mo><mn>1</mn><mo>)</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mo>(</mo><mn>1</mn><mo>,</mo><mo>−</mo><mn>5</mn><mo>)</mo></math> są dwoma wierzchołkami prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>, a punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>,</mo><mo>−</mo><mn>1</mn><mo>)</mo></math> jest punktem przecięcia się jego przekątnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DB</mi></math>.</p><p><strong>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</strong></p>",
       "choices": [
@@ -470,7 +478,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Dany jest graniastosłup prawidłowy, który ma 36 krawędzi. Każda z krawędzi tej bryły jest równa 10 cm.</p><p><strong>Ile jest równe pole powierzchni bocznej tej bryły? Wybierz odpowiedź spośród podanych.</strong></p>",
       "choices": [

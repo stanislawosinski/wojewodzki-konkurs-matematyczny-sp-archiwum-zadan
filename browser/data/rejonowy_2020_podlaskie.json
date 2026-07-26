@@ -39,7 +39,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Marek zapisał pewną liczbę, a następnie dodał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>5</mn><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math>, odjął <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>13</mn><mfrac><mn>3</mn><mn>4</mn></mfrac></mrow></math>, odjął <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>4</mn><mfrac><mn>5</mn><mn>6</mn></mfrac></mrow></math> i dodał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>6</mn><mfrac><mn>1</mn><mn>6</mn></mfrac></mrow></math>. W wyniku otrzymał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>10</mn><mfrac><mn>7</mn><mn>12</mn></mfrac></mrow></math>. Jaką liczbę zapisał Marek na początku?</p>",
       "choices": [
@@ -61,7 +61,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>, przedstawionego na rysunku obok, jest równa</p>",
       "choices": [
@@ -108,8 +108,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zliczanie / metody zliczania",
-        "trójkąty"
+        "trójkąty",
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Ile jest trójkątów o wierzchołkach w zaznaczonych na rysunku punktach, jeżeli wszystkie boki trójkąta są nierównoległe do linii siatki?</p>",
       "choices": [
@@ -133,8 +133,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "trójkąty",
+        "kąty"
       ],
       "prompt_html": "<p>Czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> na rysunku obok jest kwadratem. Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>FSC</mi></math> ma miarę 30°. Jaką miarę ma kąt ostry <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SEB</mi></math>?</p>",
       "choices": [
@@ -181,7 +181,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "proporcjonalność prosta"
       ],
       "prompt_html": "<p>Uczniowie włożyli dwukilogramowy kamień do akwarium o podstawie prostokąta o wymiarach 70 cm x 30 cm. Ustalili, że poziom wody wzniósł się wówczas o 0,4 cm. Wykorzystując wyniki tych pomiarów, wyznacz przybliżoną masę 1 cm³ kamienia.</p>",
@@ -227,7 +227,7 @@
       "points": 1,
       "topics": [
         "równania z jedną zmienną",
-        "wzory skróconego mnożenia"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>2</mn><mo>(</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>+</mo><mi>x</mi><mo>−</mo><mn>3</mn></mrow><mrow><mn>4</mn><mi>x</mi><mo>−</mo><mn>2</mn><mo>(</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>3</mn><mo>)</mo></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>3</mn><mo>+</mo><mn>2</mn><mi>x</mi></mrow><mrow><mi>x</mi><mo>(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo><mo>−</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>+</mo><mn>2</mn></mrow></mfrac></mrow></math></p>",
       "choices": [
@@ -249,7 +249,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "procenty"
       ],
       "prompt_html": "<p>Do szklanki o pojemności ćwierć litra całkowicie napełnionej wodą wrzucono stalowy sześcian o krawędzi 2 cm. Jaka część wody się wylała?</p>",
@@ -295,7 +295,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
+        "układ współrzędnych",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Odległość między punktami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>5</mn><mo>,</mo><mo>−</mo><mn>5</mn><mo>)</mo></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>B</mi><mo>=</mo><mo>(</mo><mn>4</mn><mo>,</mo><mo>−</mo><mn>2</mn><mo>)</mo></mrow></math> jest równa</p>",
@@ -430,7 +430,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Jakie pole ma czworokąt narysowany obok?</p>",
       "choices": [
@@ -499,7 +500,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "bryły"
+        "ostrosłupy"
       ],
       "prompt_html": "<p>Kwadrat na rysunku przedstawia siatkę ostrosłupa. Oblicz objętość tego ostrosłupa.</p>",
       "choices": [],
@@ -536,7 +537,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "procenty"
       ],
       "prompt_html": "<p>Z cegieł o wymiarach 25 cm x 12 cm x 6 cm wybudowano murowane ogrodzenie o długości 4,5 m, wysokości 2 m i grubości 0,25 m. Wiedząc, że 20% objętości muru stanowi zaprawa murarska, oblicz ile cegieł użyto do budowy muru. Zapisz obliczenia.</p>",
@@ -590,8 +591,9 @@
       "type": "open",
       "points": 4,
       "topics": [
+        "czworokąty",
         "trójkąty",
-        "geometria"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Dany jest trapez równoramienny o przekątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math> cm. Wyznacz obwód tego trapezu, wiedząc, że przekątna tworzy z podstawą kąt 30°, a z ramieniem – kąt prosty.</p>",
       "choices": [],

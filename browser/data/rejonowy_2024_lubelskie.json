@@ -40,7 +40,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Wiadomo, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mfrac><mrow><mn>5</mn><mi>b</mi></mrow><mn>6</mn></mfrac></math>. Która z podanych liczb jest równa wartości wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mi>a</mi></mrow><mrow><mn>7</mn><mi>b</mi></mrow></mfrac></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>≠</mo><mn>0</mn></math>?</p>",
       "choices": [
@@ -84,7 +84,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>W pewnym graniastosłupie suma liczby krawędzi, ścian i wierzchołków jest równa 32. Jaki wielokąt jest podstawą tego graniastosłupa?</p>",
       "choices": [
@@ -106,7 +106,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Które z podanych wyrażeń dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mo>−</mo><mn>11</mn></math> przyjmuje inną wartość niż dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>11</mn></math>?</p>",
       "choices": [
@@ -129,6 +129,7 @@
       "points": 1,
       "topics": [
         "trójkąty",
+        "pole i obwód",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Boki pewnego trójkąta mają długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>30</mn></msqrt></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>3</mn></msqrt></math> cm i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>2</mn></msqrt></math> cm. Ile wynosi pole tego trójkąta?</p>",
@@ -195,7 +196,8 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Pole każdego z poniższych prostokątów (patrz rysunki) jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math>.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -218,6 +220,7 @@
       "type": "open",
       "points": 1,
       "topics": [
+        "kąty",
         "trójkąty"
       ],
       "prompt_html": "<p>Miary trzech kątów oznaczonych na rysunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi></math> wynoszą odpowiednio 22°, 37° i 41°. Jaką miarę ma kąt oznaczony na rysunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>δ</mi></math>?</p><p>Wpisz tylko liczbę.</p>",
@@ -237,8 +240,9 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Dany jest trapez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ZERO</mi></math>, którego wysokość ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>ZE</mi><mo>|</mo><mo>=</mo><mn>2</mn><mo>|</mo><mi>OR</mi><mo>|</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mo>∢</mo><mi>OZE</mi><mo>|</mo><mo>=</mo><mo>|</mo><mo>∢</mo><mi>ZER</mi><mo>|</mo><mo>=</mo><mn>60</mn><mo>°</mo></math>. Na dłuższej podstawie tego trapezu zbudowano trójkąt równoboczny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ZPE</mi></math> tak, że powstał pięciokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ZPERO</mi></math>.</p><p>Uzupełnij zdania, wpisując w puste miejsca tylko liczby (nie musisz zapisywać wykonanych obliczeń).</p><ul><li>a) Ramię trapezu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ZERO</mi></math> ma długość ……………………….</li><li>b) Obwód pięciokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ZPERO</mi></math> wynosi ……………………….</li><li>c) Pole pięciokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ZPERO</mi></math> wynosi ……………………….</li></ul>",
       "choices": [],
@@ -291,8 +295,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "trójkąty",
-        "geometria"
+        "czworokąty",
+        "trójkąty"
       ],
       "prompt_html": "<p>Wewnątrz kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> o boku długości 12 zaznaczono punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math>, którego odległość od dwóch sąsiednich wierzchołków tego kwadratu wynosi 10. Oblicz odległość punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> od każdego z dwóch pozostałych wierzchołków kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>.</p>",
       "choices": [],
@@ -309,7 +313,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Dane są dwie bryły - prostopadłościan i sześcian. Podstawą prostopadłościanu, którego wysokość ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><msqrt><mn>3</mn></msqrt></math> cm, jest kwadrat o boku długości 4 cm. Długość krawędzi sześcianu jest równa długości przekątnej podstawy prostopadłościanu. Która z tych brył ma większe pole powierzchni całkowitej? Zapisz obliczenia.</p>",

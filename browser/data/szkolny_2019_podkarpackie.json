@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Dane są ułamki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mfrac><mn>2017</mn><mn>2018</mn></mfrac></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mfrac><mn>2018</mn><mn>2019</mn></mfrac></math>.</p><p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p><p>Prawdą jest, że</p>",
       "choices": [
@@ -51,7 +51,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "zagadki logiczne"
       ],
       "prompt_html": "<p>Spośród wszystkich liczb trzycyfrowych o sumie cyfr równej 8 wybrano liczbę największą i najmniejszą. Ile jest równa suma tych liczb? Wybierz właściwą odpowiedź spośród podanych.</p>",
       "choices": [
@@ -85,7 +85,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "układ współrzędnych"
       ],
       "prompt_html": "<p>Na osi liczbowej zaznaczono punktami liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, przy czym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>&lt;</mo><mn>0</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>&gt;</mo><mn>0</mn></math>.</p><p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p><p>Odległość między tymi punktami jest</p>",
       "choices": [
@@ -324,7 +324,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Z jednakowych sześciennych kostek, których krawędź ma długość 1, sklejono bryłę przedstawioną na rysunku.</p><p>Aby otrzymać wypełniony takimi kostkami sześcian, należy do tej bryły dokleić co najmniej</p>",
       "choices": [
@@ -394,7 +394,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "pole i obwód",
         "proporcjonalność prosta"
       ],
       "prompt_html": "<p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p><p>Prostokąt o wymiarach 3 cm i 7 mm narysowany w skali 200 : 1 ma pole równe</p>",
@@ -494,8 +495,9 @@
       "type": "true_false",
       "points": 3,
       "topics": [
+        "czworokąty",
         "trójkąty",
-        "geometria"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Przekątna prostokąta jest dwa razy dłuższa od jednego z boków tego prostokąta.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -526,7 +528,7 @@
       "points": 4,
       "topics": [
         "zliczanie / metody zliczania",
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Z zapałek budujemy figury w sposób pokazany na rysunku.</p><p>Uzupełnij luki.</p><p>16.1. Do ułożenia figury 4. potrzeba …….. zapałek.</p><p>16.2. Do ułożenia figury 6. potrzeba …….. zapałek.</p><p>16.3. Do ułożenia figury ……. potrzeba 31 zapałek.</p><p>16.4. Do ułożenia figury <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest liczbą naturalną dodatnią) potrzeba ……………… zapałek.</p>",
       "choices": [],
@@ -545,7 +547,9 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "geometria",
+        "układ współrzędnych",
+        "czworokąty",
+        "pole i obwód",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>3</mn><mo>,</mo><mo>−</mo><mn>2</mn><mo>)</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mo>(</mo><mn>2</mn><mo>,</mo><mn>1</mn><mo>)</mo></math> są wierzchołkami kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>,</mo><mn>2</mn><mo>)</mo></math> jest środkiem przekątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math>.</p><p>Uzupełnij luki.</p><p>17.1. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> ma współrzędne …………… .</p><p>17.2. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> ma współrzędne …………… .</p><p>17.3. Przekątna tego kwadratu ma długość …………….. .</p><p>17.4. Pole tego kwadratu jest równe …………… .</p>",

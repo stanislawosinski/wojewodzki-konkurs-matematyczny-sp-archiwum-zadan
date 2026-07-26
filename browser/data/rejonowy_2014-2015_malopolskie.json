@@ -51,7 +51,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Wartością wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>·</mo><mn>2,5</mn><mo>−</mo><mn>3,5</mn><mo>:</mo><mo>(</mo><mo>−</mo><mn>1,4</mn><mo>)</mo></math> jest liczba:</p>",
       "choices": [
@@ -221,7 +221,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "proporcjonalność prosta"
       ],
       "prompt_html": "<p>Napełnienie wodą prostopadłościennego akwarium o wymiarach: 2 dm, 4 dm, 2,5 dm trwało 90 sekund. Ile będzie trwało napełnienie w takim samym tempie akwarium o wymiarach: 10 cm, 40 cm, 50 cm?</p>",
@@ -325,8 +325,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "trójkąty",
+        "kąty"
       ],
       "prompt_html": "<p>Na boku kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> zbudowano trójkąt równoboczny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DCE</mi></math> (tak jak na rysunku).</p><p>Miara kąta ostrego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EBC</mi></math> jest równa:</p>",
       "choices": [
@@ -362,7 +362,9 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "geometria",
+        "trójkąty",
+        "czworokąty",
+        "pole i obwód",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Pole trójkąta prostokątnego jest równe polu prostokąta (rysunek poniżej). Tę sytuację opisuje równanie:</p>",
@@ -417,7 +419,7 @@
       "points": 2,
       "topics": [
         "trójkąty",
-        "geometria"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Ile cm² ma pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDE</mi></math> przedstawionego na rysunku poniżej, jeżeli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>BE</mi><mo>|</mo><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>|</mo><mi>EC</mi><mo>|</mo></math>, pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BEF</mi></math> wynosi 3 cm², a pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DEF</mi></math> jest równe 4 cm²?</p>",
       "choices": [],
@@ -437,7 +439,8 @@
       "points": 4,
       "topics": [
         "kombinatoryka",
-        "zliczanie / metody zliczania"
+        "zliczanie / metody zliczania",
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Na okręgu obieramy różne liczby punktów (rysunek poniżej) i łączymy je odcinkami <strong>każdy punkt z każdym</strong> innym punktem na danym okręgu.</p><p>a) Uzupełnij tabelkę wpisując liczby odcinków odpowiadające podanym liczbom punktów na okręgu.</p><table><tr><td>Liczba punktów na okręgu</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><td>Liczba odcinków na danym okręgu</td><td></td><td></td><td></td><td></td><td></td></tr></table><p>b) Ile odcinków powstanie, jeżeli na danym okręgu obierzemy 30 różnych punktów?</p><p>c) Zapisz przy pomocy wzoru (wyrażenia algebraicznego) ile odcinków powstanie, jeżeli na danym okręgu zaznaczymy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> różnych punktów.</p>",
       "choices": [],

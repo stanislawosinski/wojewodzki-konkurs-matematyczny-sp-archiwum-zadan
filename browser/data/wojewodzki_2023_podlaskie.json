@@ -85,7 +85,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "ostrosłupy"
       ],
       "prompt_html": "<p>Ostrosłup o 30 krawędziach ma</p>",
       "choices": [
@@ -153,8 +153,9 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
-        "proporcjonalność prosta"
+        "czworokąty",
+        "proporcjonalność prosta",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Na planie miasta w skali 1:2000 kwadratowy plac ma pole 4 cm<sup>2</sup>. W rzeczywistości obwód placu jest równy</p>",
       "choices": [
@@ -188,7 +189,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "koła / okręgi"
+        "koła / okręgi",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Połowa obwodu koła o promieniu 4 cm wynosi</p>",
       "choices": [
@@ -223,7 +225,8 @@
       "points": 1,
       "topics": [
         "koła / okręgi",
-        "potęgi i pierwiastki"
+        "potęgi i pierwiastki",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Kwadrat o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>π</mi></math> ma pole równe polu koła. Średnica tego koła ma długość</p>",
       "choices": [
@@ -291,7 +294,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "symetrie"
       ],
       "prompt_html": "<p>Który napis ma środek symetrii?</p>",
       "choices": [
@@ -391,7 +394,7 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "geometria"
+        "czworokąty"
       ],
       "prompt_html": "<p>Oceń, które zdania są prawdziwe, a które fałszywe, wpisując przy każdym zdaniu znak „X” we właściwej kolumnie tabeli (Prawda/Fałsz).</p>",
       "choices": [
@@ -418,10 +421,11 @@
       "points": 8,
       "topics": [
         "wzory skróconego mnożenia",
-        "liczby rzymskie",
-        "statystyka opisowa",
+        "symetrie",
         "zagadki logiczne",
-        "zliczanie / metody zliczania"
+        "wyrażenia algebraiczne",
+        "statystyka opisowa",
+        "liczby rzymskie"
       ],
       "prompt_html": "<p>Udziel odpowiedzi:</p><p>a) Uzupełnij: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mtext>……</mtext><mo>−</mo><mn>6</mn><mi>y</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mtext>……</mtext><mo>+</mo><mtext>……</mtext></mrow></math></p><p>b) Ile osi symetrii może mieć trójkąt?</p><p>c) Wyobraź sobie, że masz trzy klucze do trzech zamków. Ile prób co najwyżej musisz wykonać, by dowiedzieć się, który klucz pasuje do którego zamka?</p><p>d) Czy można do sześciu pudełek włożyć 13 przedmiotów tak, aby w każdym z nich była inna liczba przedmiotów?</p><p>e) W pewnej klasie nie można wskazać czterech uczniów, którzy urodzili się w tym samym dniu tygodnia. Ilu najwięcej uczniów może być w tej klasie?</p><p>f) Przyjmijmy, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> oznacza liczbę całkowitą. Zapisz trzy kolejne liczby całkowite następujące po liczbie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>−</mo><mn>2</mn></mrow></math>.</p><p>g) Zapisz wyrażenie opisujące średnią arytmetyczną liczb: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>5</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>5</mn><mn>2</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>.</p><p>h) Jaka jest różnica między zapisanymi w systemie rzymskim liczbami LX i XL?</p>",
       "choices": [],
@@ -439,6 +443,7 @@
       "points": 2,
       "topics": [
         "trójkąty",
+        "kąty",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Uzasadnij, że trzy przecinające się proste (patrz rysunek), utworzyły trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>, który jest trójkątem prostokątnym.</p>",
@@ -458,7 +463,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Prostokątna działka ma wymiary 15 m x 25 m. Dom ma stać co najmniej 3 m od granicy działki. Jaka jest powierzchnia tej części działki, na której można zbudować dom? Przedstaw swoje rozwiązanie i zapisz odpowiedź.</p>",
       "choices": [],
@@ -563,7 +569,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "bryły"
+        "ostrosłupy"
       ],
       "prompt_html": "<p>Dwa ostrosłupy prawidłowe czworokątne mają różne wysokości, ale takie same podstawy o krawędzi 6 cm. Gdy sklejono podstawy, odległość między wierzchołkami ostrosłupów wyniosła 10 cm. Oblicz objętość otrzymanej bryły. Przedstaw swoje rozwiązanie i zapisz odpowiedź.</p>",
       "choices": [],

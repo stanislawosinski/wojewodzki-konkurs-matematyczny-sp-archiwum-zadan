@@ -1,0 +1,105 @@
+{
+  "revision": "2026-07-26",
+  "note": "Canonical topic catalog. Tag every question with LEAF names (the `name` field), most-specific first. Categories are for browsing/filtering only — derive them from the leaf, never store a category on a question. A `cross_cutting` leaf combines with a content leaf (e.g. [\"trójkąty\", \"dowodzenie / dowody\"]).",
+  "categories": [
+    {
+      "name": "Liczby i podzielność",
+      "leaves": [
+        { "name": "podzielność", "desc": "podzielność liczb całkowitych, cechy podzielności, dowody podzielności" },
+        { "name": "reszta z dzielenia", "desc": "reszty z dzielenia, proste rozumowania modularne" },
+        { "name": "NWW / NWD", "desc": "najmniejsza wspólna wielokrotność i największy wspólny dzielnik" },
+        { "name": "liczby rzymskie", "desc": "zapis i odczyt liczb w systemie rzymskim" },
+        { "name": "procenty", "desc": "obliczenia procentowe, podwyżki i obniżki, punkty procentowe" },
+        { "name": "ułamki", "desc": "arytmetyka ułamków zwykłych i dziesiętnych: zamiana, porównywanie, działania", "new": true }
+      ]
+    },
+    {
+      "name": "Wyrażenia: potęgi, pierwiastki, przekształcenia",
+      "leaves": [
+        { "name": "potęgi i pierwiastki", "desc": "potęgi o wykładniku całkowitym, pierwiastki, notacja wykładnicza a·10ⁿ" },
+        { "name": "usuwanie niewymierności z mianownika", "desc": "usuwanie niewymierności z mianownika ułamka" },
+        { "name": "wzory skróconego mnożenia", "desc": "różnica kwadratów, kwadrat sumy i kwadrat różnicy" },
+        { "name": "wyłączanie jednomianu przed nawias", "desc": "wyłączanie wspólnego czynnika, zapis wyrażenia w postaci iloczynu" },
+        { "name": "wyrażenia algebraiczne", "desc": "budowanie i przekształcanie wyrażeń algebraicznych, redukcja wyrazów podobnych", "new": true }
+      ]
+    },
+    {
+      "name": "Równania, nierówności, proporcje",
+      "leaves": [
+        { "name": "równania z jedną zmienną", "desc": "równania pierwszego stopnia z jedną niewiadomą, zadania tekstowe na równania" },
+        { "name": "układy równań", "desc": "układy równań pierwszego stopnia z dwiema niewiadomymi" },
+        { "name": "nierówności", "desc": "nierówności pierwszego stopnia z jedną niewiadomą" },
+        { "name": "proporcjonalność prosta", "desc": "wielkości wprost proporcjonalne, proporcje" },
+        { "name": "proporcjonalność odwrotna", "desc": "wielkości odwrotnie proporcjonalne" },
+        { "name": "prędkość / droga / czas", "desc": "zadania o ruchu: związki między prędkością, drogą i czasem" }
+      ]
+    },
+    {
+      "name": "Geometria płaska",
+      "leaves": [
+        { "name": "geometria", "desc": "ogólne zadania z geometrii płaskiej, gdy nic bardziej szczegółowego nie pasuje" },
+        { "name": "trójkąty", "desc": "własności trójkątów, twierdzenie Pitagorasa, trójkąty 30-60-90 i 45-45-90" },
+        { "name": "czworokąty", "desc": "kwadrat, prostokąt, romb, trapez, równoległobok, deltoid", "new": true },
+        { "name": "kąty", "desc": "miary kątów, kąty wierzchołkowe/przyległe, suma kątów, kąt zewnętrzny trójkąta", "new": true },
+        { "name": "sześciokąty foremne", "desc": "pole, przekątne i bok sześciokąta foremnego" },
+        { "name": "koła / okręgi", "desc": "długość okręgu, pole koła, cięciwy i kąty w okręgu" },
+        { "name": "pierścień kołowy", "desc": "pole pierścienia kołowego" },
+        { "name": "okrąg wpisany i opisany", "desc": "promień okręgu wpisanego/opisanego w kwadrat, trójkąt równoboczny lub sześciokąt foremny" },
+        { "name": "dwusieczna kąta / symetralna odcinka", "desc": "własności dwusiecznej kąta i symetralnej odcinka, dowody geometryczne" },
+        { "name": "symetrie", "desc": "symetria osiowa i środkowa, oś i środek symetrii figury", "new": true },
+        { "name": "układ współrzędnych", "desc": "oś liczbowa, punkty i odległości w układzie współrzędnych", "new": true },
+        { "name": "pole i obwód", "desc": "obliczanie pola i obwodu figur płaskich — łącz z leafem kształtu (np. [\"czworokąty\", \"pole i obwód\"])", "new": true, "cross_cutting": true }
+      ]
+    },
+    {
+      "name": "Geometria przestrzenna",
+      "leaves": [
+        { "name": "graniastosłupy", "desc": "sześcian, prostopadłościan, graniastosłup prosty/prawidłowy; objętość, pole powierzchni, przekątne", "new": true },
+        { "name": "ostrosłupy", "desc": "ostrosłup prawidłowy/czworokątny/trójkątny; objętość i pole powierzchni", "new": true },
+        { "name": "bryły", "desc": "bryły obrotowe (walec, stożek, kula) oraz ogólne/mieszane zadania o bryłach" }
+      ]
+    },
+    {
+      "name": "Kombinatoryka i prawdopodobieństwo",
+      "leaves": [
+        { "name": "zliczanie / metody zliczania", "desc": "systematyczne zliczanie, reguła mnożenia i dodawania" },
+        { "name": "kombinatoryka", "desc": "permutacje, kombinacje, zaawansowane metody zliczania" },
+        { "name": "prawdopodobieństwo", "desc": "prawdopodobieństwo zdarzeń losowych" }
+      ]
+    },
+    {
+      "name": "Statystyka",
+      "leaves": [
+        { "name": "statystyka opisowa", "desc": "średnia, mediana, dominanta, odczyt danych z tabel i wykresów" }
+      ]
+    },
+    {
+      "name": "Metody i rozumowanie (przekrojowe)",
+      "leaves": [
+        { "name": "dowodzenie / dowody", "desc": "dowody algebraiczne i geometryczne — łącz z leafem treściowym", "cross_cutting": true },
+        { "name": "szacowanie (zamiast obliczania)", "desc": "szacowanie i przybliżanie zamiast dokładnych obliczeń", "cross_cutting": true },
+        { "name": "zagadki logiczne", "desc": "łamigłówki i rozumowania logiczne" }
+      ]
+    },
+    {
+      "name": "Inne",
+      "leaves": [
+        { "name": "inne", "desc": "zadania niepasujące do żadnej kategorii treściowej (mieszane zadania tekstowe)" },
+        { "name": "przyroda", "desc": "zadania przyrodnicze / przyrodniczo-matematyczne, zwłaszcza śląskie 'z Elementami Przyrody'" }
+      ]
+    }
+  ],
+  "migration": {
+    "instructions": "This revision carves new leaves out of the old catch-alls (`geometria`, `bryły`, `inne`). When re-tagging existing questions, decide tags from the question CONTENT against this catalog — do NOT mechanically copy the old coarse tags. Keep multi-tagging: a content leaf plus any cross_cutting leaf (e.g. `pole i obwód`, `dowodzenie / dowody`).",
+    "new_leaves": ["czworokąty", "kąty", "symetrie", "pole i obwód", "graniastosłupy", "ostrosłupy", "ułamki", "układ współrzędnych", "wyrażenia algebraiczne"],
+    "rules": [
+      "Old `geometria`: reclassify to `czworokąty` / `kąty` / `symetrie` / `układ współrzędnych` (or `trójkąty` / `koła / okręgi`) as content dictates; keep `geometria` only when genuinely general. Add cross-cutting `pole i obwód` whenever the task is computing area or perimeter.",
+      "Old `bryły`: assign `graniastosłupy` (sześcian, prostopadłościan, graniastosłup) or `ostrosłupy`; keep `bryły` only for round solids (walec/stożek/kula) or mixed/general.",
+      "`inne` in the śląskie 'Konkurs ... z Elementami Przyrody' contest that is a nature/science item → `przyroda`.",
+      "Fraction-arithmetic items previously in `inne` or untagged → `ułamki`.",
+      "Number-line / coordinate items previously in `inne` or `geometria` → `układ współrzędnych`.",
+      "General algebraic-expression building or simplifying → `wyrażenia algebraiczne`.",
+      "Do not split `trójkąty`; `trójkąty`↔`geometria` co-tagging is fine. Leave already well-tagged questions alone."
+    ]
+  }
+}

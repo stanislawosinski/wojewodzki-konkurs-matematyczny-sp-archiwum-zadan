@@ -97,7 +97,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Trójkąt równoramienny ABC został odwzorowany na trójkąt DEC w skali 1:2. Obwód trójkąta DEC wynosi 16 cm, a obwód czworokąta ABED 28 cm.</p>",
       "choices": [
@@ -187,7 +188,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W równoległoboku długość dłuższego boku wynosi 7 cm, a długość wysokości poprowadzonej do tego boku 2 cm. Wysokość poprowadzona do krótszego boku ma długość 4 cm. Obwód tego równoległoboku jest równy</p>",
       "choices": [
@@ -209,7 +211,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Na planie wykonanym w skali 1:50 dom ma kształt prostokąta o wymiarach 20 cm × 15 cm. W rzeczywistości ten dom zajmuje na działce powierzchnię o polu równym</p>",
       "choices": [
@@ -275,7 +278,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Prostopadłościan ułożony z 36 sześcianów o krawędzi 1 <u>nie może</u> mieć wymiarów</p>",
       "choices": [
@@ -320,7 +323,7 @@
       "points": 4,
       "topics": [
         "trójkąty",
-        "geometria"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Dany jest trójkąt ABC, który ma każdy bok innej długości. Punkty D, E, F dzielą bok AB na cztery równe części. Punkt G jest środkiem boku BC.</p><p>Oceń, czy podane zdania są prawdziwe, czy fałszywe. Zaznacz właściwą odpowiedź.</p>",
       "choices": [
@@ -423,7 +426,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Długości krawędzi prostopadłościanu wyrażają się liczbami naturalnymi. Dwie ściany są kwadratami. Pola powierzchni dwóch różnych ścian wynoszą 225 cm² i 360 cm². Oblicz długości krawędzi prostopadłościanu oraz jego objętość.</p>",
       "choices": [],
@@ -440,7 +443,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "geometria",
+        "kąty",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Oblicz miary kątów wewnętrznych w trapezie, jeżeli wiadomo, że kąty przy jednym ramieniu spełniają warunek: kąt przy dłuższej podstawie jest cztery razy mniejszy od kąta przy krótszej podstawie. Natomiast kąty przy drugim ramieniu spełniają warunek: kąt przy krótszej podstawie ma miarę o 40° większą niż kąt przy dłuższej podstawie. Wykonaj pomocniczy rysunek.</p>",

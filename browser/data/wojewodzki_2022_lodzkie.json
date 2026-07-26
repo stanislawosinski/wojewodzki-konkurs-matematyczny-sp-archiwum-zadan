@@ -247,6 +247,7 @@
       "points": 3,
       "topics": [
         "koła / okręgi",
+        "pole i obwód",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Średnica koła, dla którego liczba wyrażająca jego pole jest dwa razy większa od liczby wyrażającej jego obwód wynosi:</p>",
@@ -285,7 +286,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Wiadomo, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mrow><mi>a</mi><mo>−</mo><mi>b</mi></mrow></mfrac><mo>=</mo><mn>4</mn></math>. Wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mo>+</mo><mn>5</mn><mi>b</mi></mrow><mrow><mi>a</mi><mo>−</mo><mn>5</mn><mi>b</mi></mrow></mfrac></math> ma wartość:</p>",
       "choices": [
@@ -323,7 +324,8 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Pole trójkąta prostokątnego równoramiennego jest równe 18. Obwód tego trójkąta wynosi:</p>",
       "choices": [
@@ -399,7 +401,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Z 27 jednakowych małych sześcianików o polu powierzchni 12 cm² każdy zbudowano duży sześcian. Pole powierzchni dużego sześcianu jest równe:</p>",
       "choices": [
@@ -515,7 +517,8 @@
       "points": 6,
       "topics": [
         "trójkąty",
-        "geometria"
+        "układ współrzędnych",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W prostokątnym układzie współrzędnych dany jest trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> o wierzchołkach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>,</mo><mn>4</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mo>(</mo><mn>6</mn><mo>,</mo><mo>−</mo><mn>2</mn><mo>)</mo></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>=</mo><mo>(</mo><mn>9</mn><mo>,</mo><mn>2</mn><mo>)</mo></math>.</p><p>Oceń, czy poniższe zdania dotyczące tego trójkąta są prawdziwe.</p>",
       "choices": [
@@ -541,7 +544,8 @@
       "type": "open",
       "points": 7,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W trójkącie prostokątnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> kąt przy wierzchołku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> jest prosty, a kąt przy wierzchołku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> ma miarę 30°. Na boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> tego trójkąta obrano punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> tak, że miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDA</mi></math> jest równa 60°, a odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> ma długość 6. Oblicz pole powierzchni trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>.</p>",
       "choices": [],
@@ -558,7 +562,8 @@
       "type": "open",
       "points": 7,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Przekątna trapezu ma długość 8 i tworzy z podstawami tego trapezu kąty 45°. Połowa sumy długości podstaw trapezu jest równa długości jego wysokości. Oblicz pole tego trapezu.</p>",
       "choices": [],
@@ -575,8 +580,8 @@
       "type": "open",
       "points": 7,
       "topics": [
-        "układy równań",
-        "reszta z dzielenia"
+        "reszta z dzielenia",
+        "układy równań"
       ],
       "prompt_html": "<p>Dana jest liczba dwucyfrowa, w której cyfra jedności jest większa od cyfry dziesiątek. Liczba ta przy dzieleniu przez sumę swoich cyfr daje iloraz 4 i resztę 3. Przy dzieleniu przez różnicę cyfr daje iloraz 15 i resztę 2. Jaka to liczba?</p>",
       "choices": [],
@@ -611,7 +616,7 @@
       "type": "open",
       "points": 8,
       "topics": [
-        "bryły"
+        "ostrosłupy"
       ],
       "prompt_html": "<p>Oblicz pole powierzchni całkowitej i objętość czworościanu foremnego o krawędzi długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>c</mi></math>.</p>",
       "choices": [],

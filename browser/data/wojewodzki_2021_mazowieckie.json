@@ -45,7 +45,7 @@
       "points": 1,
       "topics": [
         "sześciokąty foremne",
-        "geometria"
+        "symetrie"
       ],
       "prompt_html": "<p>Długość boku sześciokąta foremnego na rysunku wynosi 8.</p><p>Jakie współrzędne ma punkt symetryczny do punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>W</mi></math> względem osi symetrii tego sześciokąta równoległej do osi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>? Wybierz poprawną odpowiedź spośród podanych.</p>",
       "choices": [
@@ -119,7 +119,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "koła / okręgi"
+        "koła / okręgi",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Gosia wykonała „pawie oczko” z kolorowych kółek, sklejając je według szablonu przedstawionego na rysunku. Promień kolejnego kółka jest dwukrotnie mniejszy od poprzedniego.</p><p>Uzupełnij poniższe zdania. Wybierz odpowiedź spośród oznaczonych literami A i B oraz odpowiedź spośród oznaczonych literami C i D.</p><p>Obwód kółka „5” jest ⬚ razy mniejszy niż obwód kółka „3”.</p><p>Pole kółka „1” jest ⬚ razy większe od pola kółka „4”.</p>",
       "choices": [
@@ -213,8 +214,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "bryły",
-        "potęgi i pierwiastki"
+        "ostrosłupy"
       ],
       "prompt_html": "<p>Dany jest sześcian <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDEFGH</mi></math> o krawędzi 5. Przyjmij za jednostkę długość boku kratki i narysuj siatkę ostrosłupa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDE</mi></math>. Oblicz pole powierzchni bocznej ostrosłupa i przedstaw je w postaci iloczynu.</p>",
       "choices": [],
@@ -251,7 +251,9 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "symetrie",
+        "pole i obwód",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Z równoległoboku wycięto romb tak, jak na rysunku. Narysuj prostą przechodzącą przez środki symetrii równoległoboku i rombu, a następnie uzasadnij, że ta prosta dzieli otrzymaną figurę na dwie figury o równych polach.</p>",

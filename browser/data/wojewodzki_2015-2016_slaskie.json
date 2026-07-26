@@ -80,7 +80,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Suma długości wszystkich krawędzi sześcianu jest równa 72 dm. Cztery takie sześciany mają objętość</p>",
       "choices": [
@@ -102,7 +102,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Prostokątną działkę budowlaną, której długość jest równa 32 m, podzielono na 3 mniejsze części o polach odpowiednio: 128 m², 64 m², 192 m². Ile metrów siatki potrzeba na ogrodzenie całej działki?</p>",
       "choices": [
@@ -146,7 +147,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>W klasie jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> chłopców i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> dziewcząt. Pewnego dnia do szkoły nie przyszedł co szósty chłopiec i cztery dziewczęta. Które z wyrażeń opisuje liczbę uczniów obecnych tego dnia w klasie?</p>",
       "choices": [
@@ -168,7 +169,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Z naczynia w kształcie prostopadłościanu o podstawie kwadratu wypłynęło 2,5 litra wody. Krawędź podstawy wewnątrz naczynia ma długość 25 cm. O ile cm obniżył się poziom wody w naczyniu?</p>",
       "choices": [
@@ -322,7 +323,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Suma liczby ścian, krawędzi i wierzchołków pewnego graniastosłupa jest równa 44. Podstawą tego graniastosłupa jest</p>",
       "choices": [
@@ -366,8 +367,9 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "kąty",
+        "trójkąty",
+        "geometria"
       ],
       "prompt_html": "<p>Oceń, czy podane zdania są prawdziwe czy fałszywe. Zaznacz właściwą odpowiedź.</p>",
       "choices": [
@@ -389,7 +391,8 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "bryły"
+        "graniastosłupy",
+        "ułamki"
       ],
       "prompt_html": "<p>Do zbiornika w kształcie prostopadłościanu wlewano wodę. Najpierw napełniono <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>5</mn></mfrac></math> zbiornika, potem dolano jeszcze <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> pozostałej objętości tego zbiornika. W sumie wlano 700 litrów wody.</p><p>Oceń, czy podane zdania są prawdziwe czy fałszywe. Zaznacz właściwą odpowiedź.</p>",
       "choices": [
@@ -411,8 +414,8 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Suma długości podstaw pewnego trapezu równoramiennego równa jest 24 cm. Jedna z podstaw jest trzy razy krótsza od drugiej podstawy tego trapezu. Kąt ostry tego trapezu ma miarę 45°.</p><p>Oceń, czy podane zdania są prawdziwe czy fałszywe. Zaznacz właściwą odpowiedź.</p>",
       "choices": [
@@ -486,7 +489,7 @@
       "points": 3,
       "topics": [
         "trójkąty",
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>W trójkącie równobocznym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> przez wierzchołek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> poprowadzono prostą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math>, przecinającą bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>, a przez wierzchołek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> – prostą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi></math>, równoległą do boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math>. Proste <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi></math> przecinają się w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math>. Wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BF</mi></math> trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABE</mi></math> poprowadzona z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> wynosi 3 cm, a miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BAD</mi></math> jest równa 15°. Wykonaj odpowiedni rysunek. Oblicz miarę kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BED</mi></math> oraz długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EF</mi></math>.</p>",
       "choices": [],

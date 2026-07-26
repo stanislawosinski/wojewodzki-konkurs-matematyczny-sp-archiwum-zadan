@@ -62,7 +62,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mo>−</mo><mn>4</mn><mi>x</mi><mo>−</mo><mn>1</mn><mo>|</mo><mo>−</mo><mo>|</mo><mn>10</mn><mo>−</mo><mn>2</mn><mi>x</mi><mo>|</mo></math> dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>∈</mo><mo>⟨</mo><mo>−</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>,</mo><mn>5</mn><mo>)</mo></math> wynosi:</p>",
       "choices": [
@@ -84,7 +84,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
+        "czworokąty",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Jaka jest skala podobieństwa kwadratu, którego bok ma długość równą połowie przekątnej kwadratu ABCD do kwadratu ABCD:</p>",
@@ -107,7 +107,9 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "układ współrzędnych",
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>X</mi><mo>=</mo><mo>(</mo><mn>2</mn><mo>,</mo><mn>1</mn><mo>)</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>,</mo><mo>−</mo><mn>2</mn><mo>)</mo></math> są wierzchołami pewnego kwadratu.</p><ul><li>I. Jeden z wierzchołków kwadratu może mieć współrzędne (2, −2).</li><li>II. Obwód kwadratu może wynosić 20 jednostek.</li><li>III. Pole kwadratu może wynosić 12,5 jednostek kwadratowych.</li></ul><p>Które z podanych stwierdzeń są prawdziwe?</p>",
       "choices": [
@@ -174,7 +176,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy",
+        "ostrosłupy"
       ],
       "prompt_html": "<p>W sześcianie połączono odcinkami kilka wierzchołków tak, że powstał czworościan foremny. Jaką część objętości sześcianu stanowi objętość czworościanu?</p>",
       "choices": [
@@ -279,7 +282,8 @@
       "points": 4,
       "topics": [
         "koła / okręgi",
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Średnicą koła jest podstawa trójkąta równobocznego o boku długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. Oblicz pole części wspólnej koła i trójkąta.</p>",
       "choices": [],
@@ -366,9 +370,10 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "trójkąty",
-        "potęgi i pierwiastki",
-        "dowodzenie / dowody"
+        "czworokąty",
+        "pole i obwód",
+        "dowodzenie / dowody",
+        "potęgi i pierwiastki"
       ],
       "prompt_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>K</mi><mn>1</mn></msub></math> jest kwadratem o boku długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>K</mi><mn>2</mn></msub></math> jest kwadratem, którego każdy wierzchołek leży na innym boku kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>K</mi><mn>1</mn></msub></math> i dzieli ten bok w stosunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>:</mo><mn>3</mn></math>. Wykaż, że suma długości obwodów tych kwadratów jest większa od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mi>a</mi></math>.</p>",
       "choices": [],

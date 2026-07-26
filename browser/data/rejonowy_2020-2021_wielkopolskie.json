@@ -119,7 +119,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>O godzinie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>19</mn><mn>20</mn></msup></math> kąt wypukły między wskazówkami minutową i godzinową wynosi:</p>",
       "choices": [
@@ -221,8 +221,9 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "trójkąty",
         "procenty",
-        "trójkąty"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Długości boków trójkąta równobocznego powiększono o 30%. Pole trójkąta zwiększyło się o:</p>",
       "choices": [
@@ -256,7 +257,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "procenty"
       ],
       "prompt_html": "<p>Akwarium w kształcie prostopadłościanu ma wymiary 20 cm x 3 dm x 0,4 m i jest w 80% wypełnione wodą. Ile litrów wody jest w tym akwarium?</p>",
@@ -393,7 +394,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W trapezie prostokątnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> o kącie ostrym 60°, krótsza podstawa ma długość 4, a druga podstawa jest od niej dwa razy dłuższa. Zatem pole trapezu jest równe:</p>",
       "choices": [
@@ -461,7 +463,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Dane są dwie sumy algebraiczne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msup><mi>a</mi><mn>3</mn></msup><mo>−</mo><mn>2</mn><mi>a</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>3</mn><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn></math>. Iloczyn tych sum jest równy:</p>",
       "choices": [
@@ -495,7 +497,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Liczba trzycyfrowa, w której cyfra dziesiątek jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, cyfra jedności jest dwa razy większa niż cyfra dziesiątek, a cyfra setek jest o 1 mniejsza od cyfry jedności, ma postać:</p>",
       "choices": [
@@ -529,7 +531,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Długość przekątnej sześcianu jest równa 9. Stąd wynika, że pole całkowite tego sześcianu jest równe:</p>",
       "choices": [
@@ -633,7 +635,7 @@
       "points": 3,
       "topics": [
         "trójkąty",
-        "geometria"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Boki trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> mają długości: 5 cm, 12 cm i 13 cm. Pole tego trójkąta jest równe polu prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KLMN</mi></math>, którego bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KL</mi></math> ma długość równą 5 cm.</p><p>Określ prawdziwość zdań, zaznaczając P, jeśli zdanie jest prawdziwe, lub zaznaczając F, jeśli zdanie jest fałszywe.</p>",
       "choices": [
@@ -712,8 +714,9 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "układy równań",
-        "geometria"
+        "czworokąty",
+        "pole i obwód",
+        "układy równań"
       ],
       "prompt_html": "<p>Stosunek obwodów dwóch kwadratów jest równy 3:4. Oblicz długość boku każdego z kwadratów, jeżeli wiadomo, że suma pól tych kwadratów jest równa 100 cm².</p>",
       "choices": [],
@@ -749,7 +752,8 @@
       "points": 4,
       "topics": [
         "trójkąty",
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Oblicz pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EFG</mi></math>, wiedząc, że czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> jest prostokątem, w którym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>30</mn></mrow></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>BC</mi><mo>|</mo><mo>=</mo><mn>15</mn></mrow></math> cm i trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABE</mi></math> jest równoboczny. Wynik doprowadź do najprostszej postaci.</p>",
       "choices": [],

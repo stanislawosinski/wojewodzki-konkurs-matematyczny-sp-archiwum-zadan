@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Odwrotność liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></mfrac></mrow></mfrac></math> jest równa:</p>",
       "choices": [
@@ -86,7 +86,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Ile cyfr posiada liczba będąca wynikiem działania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>999</mn></mfrac><mo>·</mo><mo>(</mo><msup><mn>10</mn><mn>1998</mn></msup><mo>−</mo><mn>1</mn><mo>)</mo></mrow></math>?</p>",
       "choices": [
@@ -109,7 +109,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "układ współrzędnych"
       ],
       "prompt_html": "<p>Końce odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> mają współrzędne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>C</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>,</mo><mo>−</mo><mn>4</mn><mo>)</mo></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>D</mi><mo>=</mo><mo>(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>)</mo></mrow></math>. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mo>=</mo><mo>(</mo><mn>5</mn><mo>,</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>)</mo></mrow></math> jest środkiem tego odcinka. Znajdź współrzędne punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>.</p>",
       "choices": [
@@ -178,7 +178,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W prostokącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> dzieli odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DC</mi></math> o długości 36 cm w ten sposób, że długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EC</mi></math> stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>8</mn></mfrac></math> długości odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DE</mi></math>. Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AED</mi></math> wynosi 1,6 dm². Ile jest równe pole prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>?</p>",
       "choices": [
@@ -201,7 +202,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "ostrosłupy"
       ],
       "prompt_html": "<p>Podstawą ostrosłupa o objętości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi></math> jest prostokąt. Wymiary tego ostrosłupa zmieniono w następujący sposób: jeden bok prostokąta zmniejszono trzykrotnie, drugi zwiększono o 200%, natomiast wysokość ostrosłupa zwiększono dwukrotnie. Objętość nowego ostrosłupa jest równa:</p>",
       "choices": [
@@ -303,7 +304,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W prostokącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> jest środkiem boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>, zaś <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math> środkiem boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math>. Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AEF</mi></math> jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>12</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm². Oblicz pole prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>.</p><p>Zapisz obliczenia i odpowiedź.</p>",
       "choices": [],
@@ -321,7 +323,8 @@
       "points": 3,
       "topics": [
         "koła / okręgi",
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Średnica koła jest podstawą trójkąta równobocznego o boku długości 8 cm. Oblicz pole powierzchni części wspólnej koła i tego trójkąta.</p><p>Zapisz obliczenia i odpowiedź.</p>",
       "choices": [],
@@ -338,7 +341,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "bryły",
+        "ostrosłupy",
         "trójkąty"
       ],
       "prompt_html": "<p>Pole powierzchni całkowitej czworościanu foremnego jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>16</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm². Oblicz ile wynosi kwadrat długości wysokości podstawy.</p><p>Zapisz obliczenia i odpowiedź.</p>",
@@ -374,7 +377,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "sześciokąty foremne"
       ],
       "prompt_html": "<p>Dany jest graniastosłup prawidłowy sześciokątny, którego wszystkie krawędzie mają jednakową długość. Pole powierzchni całkowitej graniastosłupa jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>27</mn><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>2</mn><mo>)</mo></mrow></math> cm². Oblicz łączną długość wszystkich jego krawędzi.</p><p>Zapisz obliczenia i odpowiedź.</p>",
@@ -392,7 +395,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Na środku każdej ze ścian sześcianu o krawędzi długości 7 cm przyklejono sześcian o krawędzi długości 6 cm. Jakie jest pole powierzchni całkowitej oraz objętość uzyskanej bryły?</p><p>Zapisz obliczenia i odpowiedź.</p>",
       "choices": [],

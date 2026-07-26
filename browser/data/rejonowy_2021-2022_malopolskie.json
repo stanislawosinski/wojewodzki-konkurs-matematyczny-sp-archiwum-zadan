@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Rzeźbiarz ma dwa sześciany wykonane z tej samej masy plastycznej. Krawędź mniejszego sześcianu jest pięciokrotnie krótsza niż krawędź większego sześcianu. Ile waży mniejszy sześcian, jeśli większy waży 10 kg?</p>",
@@ -86,8 +86,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "bryły",
-        "geometria"
+        "graniastosłupy",
+        "czworokąty"
       ],
       "prompt_html": "<p>Wszystkie ściany boczne pewnego graniastosłupa prostego mają takie samo pole, ale graniastosłup ten nie jest prawidłowy. Jakim wielokątem może być podstawa tego graniastosłupa?</p>",
       "choices": [
@@ -176,7 +176,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>0</mn><mo>,</mo><mo>(</mo><mn>1</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>0</mn><mo>,</mo><mo>(</mo><mn>01</mn><mo>)</mo></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mn>0</mn><mo>,</mo><mo>(</mo><mn>001</mn><mo>)</mo></math>. Która z poniższych liczb jest równa liczbie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>25</mn><mn>22</mn></mfrac></math>?</p>",
       "choices": [
@@ -246,7 +246,8 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "geometria"
+        "układ współrzędnych",
+        "czworokąty"
       ],
       "prompt_html": "<p>Trzy kolejne wierzchołki równoległoboku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> znajdują się w punktach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mo>(</mo><mn>3</mn><mo>+</mo><msqrt><mn>2</mn></msqrt><mo>,</mo><mn>2</mn><mo>−</mo><msqrt><mn>2</mn></msqrt><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>=</mo><mo>(</mo><mn>5</mn><mo>+</mo><msqrt><mn>2</mn></msqrt><mo>,</mo><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>2</mn><mo>)</mo></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>3</mn><mo>+</mo><msqrt><mn>2</mn></msqrt><mo>,</mo><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>2</mn><mo>)</mo></math>. Jakie będą współrzędne punktu przecięcia przekątnych równoległoboku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>?</p>",
       "choices": [
@@ -269,7 +270,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Na płaszczyźnie poprowadzono 9 prostych, przy czym proste <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> są równoległe do siebie, tak jak proste <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>e</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi></math> oraz proste <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>g</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>i</mi></math>.</p><p>Dwanaście punktów przecięcia prostych połączono łamaną zamkniętą, tworząc wielokąt przedstawiony na rysunku obok. Wielokąt ten można podzielić na dwanaście przystających trójkątów różnobocznych. Ile wynosi suma kątów wewnętrznych tego wielokąta?</p>",
       "choices": [
@@ -362,8 +363,10 @@
       "points": 10,
       "topics": [
         "geometria",
-        "potęgi i pierwiastki",
-        "trójkąty"
+        "czworokąty",
+        "trójkąty",
+        "wyrażenia algebraiczne",
+        "pole i obwód"
       ],
       "prompt_html": "<p><strong>I.</strong> Franek wyciął z papieru pasek w kształcie równoległoboku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>. Następnie złożył pasek w trzech miejscach, jak pokazano na rysunku obok, tak iż wierzchołek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> pokrył się z wierzchołkiem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>, a wierzchołek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> pokrył się z wierzchołkiem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>. Krawędź zewnętrzna złożonego paska ma kształt ośmiokąta foremnego, a wewnętrzna – kwadratu. Szerokość paska papieru wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> cm.</p><p>a) (1p) Podaj miarę kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∢</mo><mi>ADC</mi></math> równoległoboku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>.</p><p>b) (3p) Znajdź wyrażenie algebraiczne przedstawiające obwód równoległoboku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> w zależności od długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>. W znalezionym wyrażeniu zredukuj wyrazy podobne.</p><p><strong>II.</strong> Dany jest ośmiokąt foremny o boku długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2</mn></msqrt></math>.</p><p>a) (3p) Oblicz pole powierzchni tego ośmiokąta. Zapisz obliczenia.</p><p>b) (3p) Oblicz długość najdłuższej przekątnej tego ośmiokąta. Zapisz obliczenia.</p>",
       "choices": [],

@@ -51,7 +51,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Jeśli prostokąt o wymiarach 28 cm × 11 cm rozetniemy na prostokąty o wymiarach 4 cm × 7 cm, to ile części otrzymamy?</p>",
       "choices": [
@@ -119,7 +120,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Łącząc środki boków kwadratu o polu 24 cm² otrzymano mniejszy kwadrat. Pole tego mniejszego kwadratu jest równe</p>",
       "choices": [
@@ -188,7 +190,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest zaokrągleniem liczby 6,645 do części setnych. Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest zaokrągleniem liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> do części dziesiątych. Różnica <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>−</mo><mi>a</mi></math> jest równa</p>",
       "choices": [
@@ -425,9 +427,9 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "zliczanie / metody zliczania",
+        "podzielność",
         "NWW / NWD",
-        "podzielność"
+        "zagadki logiczne"
       ],
       "prompt_html": "<p>Pierwsze dwie cyfry czterocyfrowej tablicy rejestracyjnej tworzą liczbę pierwszą. Cyfra jedności czterocyfrowej liczby tablicy jest najmniejszą dodatnią liczbą parzystą, zaś trzecia cyfra tablicy to sześcian ostatniej cyfry. Suma wszystkich cyfr tablicy to najmniejsza wspólna wielokrotność liczb 4 i 5. Podaj liczby czterocyfrowe, które mogą widnieć na tej tablicy, wiedząc, że cyfry w danym numerze rejestracyjnym nie powtarzają się.</p>",
       "choices": [],
@@ -444,8 +446,9 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Podstawy trapezu równoramiennego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> mają długości: 12 cm i 24 cm. Pole tego trapezu jest równe 144 cm². Oblicz obwód trapezu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>. Wykonaj rysunek pomocniczy.</p>",
       "choices": [],

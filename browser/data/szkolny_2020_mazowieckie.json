@@ -52,8 +52,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
-        "inne"
+        "ułamki",
+        "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Dane jest wyrażenie:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>−</mo><mn>0,8</mn><mo>+</mo><mn>2</mn><mfrac><mn>3</mn><mn>8</mn></mfrac><mo>−</mo><mn>1,5</mn><mo>+</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>−</mo><mn>1,2</mn><mo>+</mo><mn>1,625</mn><mo>−</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></math>.</p><p>Uzupełnij poniższe zdania, wybierając odpowiedź A lub B oraz C lub D.</p><p>Kwadrat wartości tego wyrażenia jest liczbą (A albo B).</p><p>Odwrotność wartości tego wyrażenia jest liczbą (C albo D).</p>",
       "choices": [
@@ -87,7 +87,9 @@
       "type": "true_false",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód",
+        "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Długości boków pewnego trójkąta równoramiennego są liczbami całkowitymi. Ramię ma długość 12. Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -148,8 +150,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "wzory skróconego mnożenia",
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Oblicz wartość wyrażenia.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mo>(</mo><mn>2018</mn><mfrac><mn>17</mn><mn>39</mn></mfrac><mo>·</mo><mn>2021</mn><mfrac><mn>17</mn><mn>39</mn></mfrac><mo>−</mo><mn>2019</mn><mfrac><mn>17</mn><mn>39</mn></mfrac><mo>·</mo><mn>2020</mn><mfrac><mn>17</mn><mn>39</mn></mfrac><mo>)</mo></math></p>",
       "choices": [],
@@ -185,8 +186,10 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "geometria",
-        "procenty"
+        "czworokąty",
+        "procenty",
+        "pole i obwód",
+        "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Dany jest równoległobok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>. Na półprostej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math> zaznaczono punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math>, którego odległość od punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> jest o 20% większa niż odległość punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> od punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>. Ile razy pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KDC</mi></math> jest mniejsze od pola równoległoboku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>? Odpowiedź uzasadnij.</p>",
       "choices": [],
@@ -221,7 +224,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>W drewnianym klocku Robert wydrążył na wylot trzy centralnie położone i wzajemnie prostopadłe tunele o jednakowym przekroju, jak na rysunku. Oblicz pole powierzchni całkowitej otrzymanego klocka.</p>",
       "choices": [],

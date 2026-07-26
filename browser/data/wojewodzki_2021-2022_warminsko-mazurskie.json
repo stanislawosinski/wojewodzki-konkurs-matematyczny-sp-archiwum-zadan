@@ -119,7 +119,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Tymek wykonał model prostopadłościanu. Układał i sklejał ze sobą kolejno drewniane klocki sześcienne o krawędzi 4 cm wzdłuż każdej ściany prostopadłościennego pudełka o wymiarach: 36 cm, 28 cm, 20 cm. Na rysunku przedstawiono część wykonanego modelu (model jest w środku pusty). Ile klocków łącznie zużył Tymek na wykonanie całego modelu?</p>",
@@ -156,7 +156,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Liczba wszystkich krawędzi graniastosłupa jest o 10 większa od liczby wszystkich jego ścian bocznych. Stąd wynika, że podstawą tego graniastosłupa jest</p>",
       "choices": [
@@ -190,7 +190,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>O godzinie 14:20 wskazówki zegara tworzą kąt</p>",
       "choices": [
@@ -294,8 +294,9 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "czworokąty",
         "trójkąty",
-        "geometria"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Z prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> o obwodzie 50 wycięto trójkąt równoboczny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AOD</mi></math> o obwodzie 15. Obwód zacieniowanej figury jest równy</p>",
       "choices": [
@@ -469,7 +470,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "sześciokąty foremne",
         "potęgi i pierwiastki"
       ],
@@ -539,9 +540,11 @@
       "type": "true_false",
       "points": 5,
       "topics": [
+        "ostrosłupy",
+        "trójkąty",
+        "równania z jedną zmienną",
         "podzielność",
-        "bryły",
-        "trójkąty"
+        "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Oceń prawdziwość zdań (P-prawda, F-fałsz):</p>",
       "choices": [
@@ -596,7 +599,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "pole i obwód",
         "wzory skróconego mnożenia"
       ],
       "prompt_html": "<p>Kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABEF</mi></math> i romb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCDE</mi></math> położone są tak, jak na rysunku. Różnica długości przekątnych rombu jest równa 10 cm. Ile jest równa różnica pól kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABEF</mi></math> i rombu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCDE</mi></math>? Zapisz obliczenia.</p>",
@@ -644,7 +648,7 @@
       "type": "open",
       "points": 6,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "trójkąty"
       ],
       "prompt_html": "<p>Dany jest graniastosłup prosty o wysokości 0,5 m. Oblicz jego objętość wiedząc, że podstawą graniastosłupa jest trapez o krótszej podstawie długości 2 cm i ramionach długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>2</mn></msqrt></math> cm i 4 cm tworzących z dłuższą podstawą kąty o miarach 45° i 30°. Wykonaj rysunek pomocniczy zgodny z warunkami zadania.</p>",

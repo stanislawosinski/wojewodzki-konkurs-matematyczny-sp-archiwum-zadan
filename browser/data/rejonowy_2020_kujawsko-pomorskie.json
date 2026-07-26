@@ -85,7 +85,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "układ współrzędnych",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> = (−1, 3) i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> = (−5, 5) są przeciwległymi wierzchołkami kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>. Pole tego kwadratu jest równe</p>",
       "choices": [
@@ -119,7 +120,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "trójkąty"
       ],
       "prompt_html": "<p>Obwód prostokąta jest równy 28. Stosunek długości jego boków jest równy 3 : 4. Przekątna tego prostokąta jest równa</p>",
       "choices": [
@@ -187,8 +189,9 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Z prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> o obwodzie 30 wycięto trójkąt równoboczny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AOD</mi></math> o obwodzie 15. Obwód zacieniowanej figury jest równy</p>",
       "choices": [
@@ -259,7 +262,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Dany jest sześcian, w którym liczba określająca jego objętość w <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>cm</mtext><mn>3</mn></msup></math> jest równa liczbie określającej jego powierzchnię całkowitą w <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>cm</mtext><mn>2</mn></msup></math>. Długość krawędzi tego sześcianu jest równa</p>",
@@ -364,7 +367,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Wskazówka godzinowa w ciągu 20 minut obróci się o</p>",
       "choices": [
@@ -398,8 +401,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty",
-        "geometria"
+        "kąty",
+        "trójkąty"
       ],
       "prompt_html": "<p>Suma zacieniowanych kątów przedstawionych na rysunku, wynosi</p>",
       "choices": [
@@ -435,7 +438,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną"
+        "ułamki"
       ],
       "prompt_html": "<p>Chcemy rozlać 12 litrów soku do butelek o pojemności <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math> litra, wypełniając te butelki do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math> objętości. Liczba butelek, które należy przygotować, to</p>",
       "choices": [
@@ -573,8 +576,9 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "pole i obwód",
+        "kąty"
       ],
       "prompt_html": "<p><strong>Przeczytaj zadanie i uzupełnij luki.</strong></p><p>W równoległoboku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> krótszy bok ma długość 10 cm, kąt ostry ma miarę 45° oraz krótsza przekątna jest prostopadła do jednego z boków.</p><ul><li>A. Pole tego równoległoboku wynosi …… <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>cm</mtext><mn>2</mn></msup></math></li><li>B. Kąt rozwarty równoległoboku ma miarę …… °</li><li>C. Wysokość tego równoległoboku opuszczona na dłuższy bok ma długość …… cm</li></ul>",
       "choices": [],
@@ -621,8 +625,9 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Dany jest trapez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>, w którym podstawy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>8</mn></mrow></math> cm i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>CD</mi><mo>|</mo><mo>=</mo><mn>2</mn></mrow></math> cm. Ile razy pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACD</mi></math> jest mniejsze od pola trapezu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>?</p>",
       "choices": [],
@@ -640,7 +645,7 @@
       "points": 2,
       "topics": [
         "koła / okręgi",
-        "geometria"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Obwód figury przedstawionej na rysunku składa się z czterech jednakowych półokręgów o promieniu 2 cm. Oblicz pole zacieniowanej figury.</p>",
       "choices": [],

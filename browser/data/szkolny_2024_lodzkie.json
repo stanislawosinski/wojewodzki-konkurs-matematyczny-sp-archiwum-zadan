@@ -56,7 +56,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Niech zapis <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>[</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo>,</mo><mi>c</mi><mo>,</mo><mi>d</mi><mo>]</mo></mrow></math> oznacza wynik dodawania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mfrac><mn>1</mn><mrow><mi>b</mi><mo>+</mo><mfrac><mn>1</mn><mrow><mi>c</mi><mo>+</mo><mfrac><mn>1</mn><mi>d</mi></mfrac></mrow></mfrac></mrow></mfrac></mrow></math>. Która z poniższych liczb jest największa?</p>",
       "choices": [
@@ -209,7 +209,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "geometria"
+        "symetrie",
+        "czworokąty"
       ],
       "prompt_html": "<p>Rozważmy pięć zdań:</p><ol><li>Istnieje trapez, który nie ma osi symetrii</li><li>Istnieje trapez, który ma dokładnie cztery osie symetrii</li><li>Istnieje trapez, który ma dokładnie dwie osie symetrii</li><li>Istnieje trapez, który ma dokładnie jedną oś symetrii</li><li>Istnieje trapez, który ma dokładnie trzy osie symetrii</li></ol><p>Wskaż odpowiedź, w której wskazane są wszystkie zdania prawdziwe spośród zdań 1-5 oraz nie pojawiają się zdania fałszywe.</p>",
       "choices": [
@@ -248,6 +249,7 @@
       "points": 3,
       "topics": [
         "trójkąty",
+        "pole i obwód",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Każdy z boków trójkąta prostokątnego jest też bokiem kwadratu (por. rysunek).</p><p>Korzystając z danych przedstawionych na rysunku oblicz sumę pól <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mn>1</mn></msub><mo>+</mo><msub><mi>P</mi><mn>2</mn></msub><mo>+</mo><msub><mi>P</mi><mn>3</mn></msub><mo>+</mo><msub><mi>P</mi><mn>4</mn></msub></mrow></math>.</p>",
@@ -288,7 +290,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "geometria"
+        "układ współrzędnych"
       ],
       "prompt_html": "<p>Wskaż parę punktów, które są równoodległe od punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mo>−</mo><mn>2</mn><mo>,</mo><mn>1</mn><mo>)</mo></mrow></math>.</p>",
       "choices": [
@@ -326,8 +328,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "bryły",
-        "geometria"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Jedna ze ścian bocznych graniastosłupa prostego jest kwadratem. Podstawą graniastosłupa jest trapez prostokątny przedstawiony na poniższym rysunku.</p><p>Najmniejsza możliwa objętość tego graniastosłupa jest równa</p>",
       "choices": [
@@ -455,6 +456,7 @@
       "points": 10,
       "topics": [
         "geometria",
+        "pole i obwód",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>G</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>I</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>J</mi></math> leżą na punktach przecięcia kratek (są to tzw. punkty kratowe). Przyjmijmy, że długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt></math>.</p><ol type=\"a\"><li>Oblicz obwód ośmiokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDEFGHIJ</mi></math>. Podając ostateczny wynik wyłącz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt></math> przed nawias.</li><li>Czy pole tego ośmiokąta jest większe, mniejsze czy równe 30? Odpowiedź uzasadnij.</li></ol>",
@@ -474,7 +476,8 @@
       "type": "open",
       "points": 10,
       "topics": [
-        "bryły",
+        "ostrosłupy",
+        "graniastosłupy",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Objętość ostrosłupa prostego jest 8 razy mniejsza niż <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>4</mn><mn>3</mn></msup><mo>·</mo><msup><mn>3</mn><mn>2</mn></msup></mrow></math> cm³. Podstawą tego ostrosłupa jest prostokąt, w którym stosunek długości boków jest jak <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>:</mo><mn>2</mn></mrow></math>, a jego wysokość jest 2 razy mniejsza niż obwód podstawy. Oblicz objętość sześcianu, którego bok ma długość równą dłuższej krawędzi podstawy rozważanego ostrosłupa.</p>",

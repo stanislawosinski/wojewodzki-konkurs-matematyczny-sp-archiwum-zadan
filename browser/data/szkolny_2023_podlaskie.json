@@ -156,7 +156,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "symetrie"
       ],
       "prompt_html": "<p>Narysowana figura ma</p>",
       "choices": [
@@ -192,8 +192,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty",
-        "geometria"
+        "czworokąty",
+        "kąty"
       ],
       "prompt_html": "<p>Trapez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EFGH</mi></math> na rysunku obok jest równoramienny. Jaką miarę ma kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>?</p>",
       "choices": [
@@ -259,7 +259,7 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "inne"
+        "zagadki logiczne"
       ],
       "prompt_html": "<p>Poniżej przedstawiono tabelę 3 × 3 wypełnioną liczbami. Odszukaj w niej i zaznacz kwadratową tabelkę o wymiarach 2 × 2 taką, aby suma liczb w niej występujących była największa.</p><table><tbody><tr><td>23</td><td>1</td><td>17</td></tr><tr><td>2</td><td>5</td><td>9</td></tr><tr><td>13</td><td>12</td><td>7</td></tr></tbody></table>",
       "choices": [],
@@ -276,7 +276,8 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "geometria"
+        "geometria",
+        "dowodzenie / dowody"
       ],
       "prompt_html": "<p>W pewnym mieście są ulice: Lecha, Czech, Rusa i Popiela. Ulica Rusa jest równoległa do ulicy Czecha. Ulica Czecha jest prostopadła do ulicy Popiela, a ulica Popiela jest prostopadła do ulicy Lecha. Jakie jest wzajemne położenie ulicy Rusa i ulicy Lecha?</p>",
       "choices": [],
@@ -311,9 +312,11 @@
       "points": 7,
       "topics": [
         "liczby rzymskie",
+        "ułamki",
+        "potęgi i pierwiastki",
         "prędkość / droga / czas",
-        "geometria",
-        "potęgi i pierwiastki"
+        "kąty",
+        "czworokąty"
       ],
       "prompt_html": "<p>Udziel odpowiedzi:</p><ol type=\"a\"><li>Która liczba jest większa: XL czy LX?</li><li>Podaj jeden przykład ułamka większego od 0,8, ale mniejszego od 0,9.</li><li>Ile razy liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>3</mn></msup></math> jest większa od liczby 10?</li><li>Sokół może osiągnąć prędkość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>120</mn><mfrac><mrow><mi>km</mi></mrow><mi>h</mi></mfrac></mrow></math>. Gdyby mógł lecieć stale z taką prędkością, to jaką odległość pokonałby w ciągu kwadransa?</li><li>Jeden z kątów przyległych ma miarę 50°. Jaką miarę ma drugi z nich?</li><li>Pewien odcinek ma długość 1000 mm. Ile to decymetrów?</li><li>Jak nazywa się romb, w którym wysokość jest równa długości boku?</li></ol>",
       "choices": [],
@@ -358,7 +361,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Jaką miarę ma kąt rozwarty, który tworzą wskazówki zegara o godz. 12:30? Przedstaw swoje rozwiązanie i zapisz odpowiedź.</p>",
       "choices": [],
@@ -464,7 +467,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Zbiornik na paliwo ma pojemność 36 litrów. W samochodzie, który podjechał do stacji paliw, zbiornik ten był wypełniony do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> swojej pojemności. Ile zapłaci kierowca za dopełnienie zbiornika, jeżeli 1 litr benzyny kosztuje 6,50 zł? Przedstaw swoje rozwiązanie i zapisz odpowiedź.</p>",
       "choices": [],
@@ -498,7 +501,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "geometria"
+        "geometria",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Kinga narysowała projekt ogródka, gdzie bok jednej kratki oznacza jeden metr. Ile wynosi powierzchnia tego ogródka (patrz rysunek)?</p>",
       "choices": [
@@ -534,7 +538,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Wojtek przygotowując prezent dla Asi, włożył go do małego pudełka. To pudełko włożył do większego, a to do jeszcze większego, przy czym każde następne pudełko całkowicie mieściło się w poprzednim. Ustal w jakiej kolejności brał pudełka, jeśli wiadomo, że:</p><ul><li>pudełko żółte jest prostopadłościanem o wymiarach 4 cm × 5 cm × 6 cm,</li><li>pudełko zielone jest sześcianem o objętości 27 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>cm</mi><mn>3</mn></msup></math>,</li><li>pudełko różowe jest sześcianem o sumie długości wszystkich krawędzi równej 84 cm.</li></ul><p>Przedstaw swoje rozwiązanie i zapisz odpowiedź.</p>",

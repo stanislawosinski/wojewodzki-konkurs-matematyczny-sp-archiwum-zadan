@@ -17,8 +17,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "reszta z dzielenia",
-        "potęgi i pierwiastki"
+        "potęgi i pierwiastki",
+        "reszta z dzielenia"
       ],
       "prompt_html": "<p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p><p>Cyfrą jedności liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>2020</mn></msup><mo>+</mo><msup><mn>4</mn><mn>2020</mn></msup><mo>+</mo><msup><mn>5</mn><mn>2020</mn></msup></math> jest</p>",
       "choices": [
@@ -62,8 +62,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną",
-        "zagadki logiczne"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Ewa i Adam otrzymali w poniedziałek od rodziców tyle samo pieniędzy. Już w poniedziałek Ewa wydała czwartą cześć swoich pieniędzy, a Adam wydał 40 zł. We wtorek Ewa wydała trzecią część pozostałej kwoty, a Adam – 30 zł. W środę Ewa wydała połowę tego, co jej zostało, a Adam – 20 zł. Wówczas okazało się, że obojgu pozostała taka sama kwota. Jaką kwotę dostali od rodziców w poniedziałek? Wybierz właściwą odpowiedź spośród podanych.</p>",
       "choices": [
@@ -107,8 +106,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zagadki logiczne",
-        "zliczanie / metody zliczania"
+        "zliczanie / metody zliczania",
+        "zagadki logiczne"
       ],
       "prompt_html": "<p>Mama dostała na urodziny bukiet złożony z 20 kwiatów, wśród których były tylko róże i goździki w dwóch kolorach: białym i czerwonym. W bukiecie było 14 goździków i 11 kwiatów w kolorze czerwonym. Jaka może być najmniejsza liczba białych goździków w tym bukiecie? Wybierz właściwą odpowiedź spośród podanych.</p>",
       "choices": [
@@ -152,8 +151,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "kąty"
       ],
       "prompt_html": "<p>Dowolne trzy wierzchołki trapezu równoramiennego (czyli takiego trapezu, który ma nierównoległe boki równej długości) wyznaczają trójkąt równoramienny.</p><p>Wskaż zdanie <u>fałszywe</u>.</p>",
       "choices": [
@@ -175,8 +174,9 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "kąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Z wierzchołka kąta rozwartego rombu o boku długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> poprowadzono przekątną oraz wysokości do obu nierównoległych boków. Odcinki te podzieliły kąt rozwarty rombu na cztery kąty o równych miarach. Wskaż zdanie <u>fałszywe</u>.</p>",
       "choices": [
@@ -199,7 +199,7 @@
       "points": 1,
       "topics": [
         "trójkąty",
-        "geometria"
+        "pole i obwód"
       ],
       "prompt_html": "<p>W trójkącie prostokątnym wysokość poprowadzona z wierzchołka kąta prostego dzieli przeciwprostokątną na odcinki o długościach 2 cm i 8 cm. Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p><p>Pole tego trójkąta prostokątnego jest równe</p>",
       "choices": [
@@ -221,7 +221,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "kąty",
         "zagadki logiczne"
       ],
       "prompt_html": "<p>Każda przekątna czworokąta wypukłego wyznacza z jego bokami cztery kąty. Ile kątów prostych może być wśród tak wyznaczonych kątów? Wybierz właściwą odpowiedź spośród podanych.</p>",
@@ -244,7 +245,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Oblicz wartość wyrażenia, nie wykonując działań pisemnych:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2019</mn><mo>·</mo><mn>20202020</mn><mo>−</mo><mn>2020</mn><mo>·</mo><mn>20192019</mn></math></p>",
       "choices": [],
@@ -315,8 +316,9 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "geometria",
-        "równania z jedną zmienną"
+        "czworokąty",
+        "równania z jedną zmienną",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> o boku długości 9 podzielono na mniejszy kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KLMN</mi></math> i dwie czwórki przystających prostokątów (rysunek poniżej). Każda część ma takie samo pole.</p><p>Oblicz obwód zacieniowanego prostokąta.</p>",
       "choices": [],
@@ -353,8 +355,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "bryły",
-        "geometria"
+        "ostrosłupy"
       ],
       "prompt_html": "<p>W ostrosłupie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCS</mi></math> kąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCA</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCS</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SCA</mi></math> są proste (rysunek poniżej). Pola ścian <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BSC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ASC</mi></math> są odpowiednio równe 3, 4 i 6. Oblicz objętość ostrosłupa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCS</mi></math>. Zapisz obliczenia.</p>",
       "choices": [],

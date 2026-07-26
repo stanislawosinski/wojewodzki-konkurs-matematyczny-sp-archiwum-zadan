@@ -85,7 +85,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "statystyka opisowa"
       ],
       "prompt_html": "<p>Średnia arytmetyczna długości, szerokości i wysokości prostopadłościanu jest równa 14 cm. Suma długości wszystkich jego krawędzi jest równa:</p>",
@@ -154,7 +154,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Graniastosłup ma 52 wierzchołki. Suma liczby wszystkich jego ścian i liczby krawędzi wynosi:</p>",
       "choices": [
@@ -222,8 +222,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "bryły",
-        "proporcjonalność prosta"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Do wykonania sześciennej kostki o długości krawędzi 2 cm zużyto 8 gramów plasteliny. Ile gramów plasteliny zużyjemy do wykonania sześciennej kostki o krawędzi 4 cm?</p>",
       "choices": [
@@ -427,7 +426,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Liczby: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mo>-</mo><mn>1</mn><mfrac><mn>11</mn><mn>111</mn></mfrac></mrow></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mo>-</mo><mn>1,1</mn></mrow></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><mo>-</mo><mn>1</mn><mo>,</mo><mo>(</mo><mn>1</mn><mo>)</mo></mrow></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>d</mi><mo>=</mo><mo>-</mo><mn>1</mn><mfrac><mn>1</mn><mn>11</mn></mfrac></mrow></math> uporządkowane rosnąco to:</p>",
       "choices": [
@@ -461,7 +460,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "procenty"
+        "procenty",
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Komputer przed podwyżką kosztował 4000 zł, a po podwyżce <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> zł. O ile procent podwyższono cenę komputera?</p>",
       "choices": [
@@ -543,7 +543,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "geometria",
+        "kąty",
         "trójkąty"
       ],
       "prompt_html": "<p>Na pięciokąt foremny nałożono trójkąt równoboczny, tak jak pokazuje poniższy rysunek. Miara kąta zaznaczonego na rysunku jest równa:</p>",
@@ -616,7 +616,7 @@
       "points": 3,
       "topics": [
         "trójkąty",
-        "geometria"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EFG</mi></math> jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AE</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>EG</mi><mo>|</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>EF</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>FB</mi><mo>|</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>FG</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>GC</mi><mo>|</mo></mrow></math>.</p><p>Oceń prawdziwość poniższych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli zdanie jest fałszywe.</p>",
       "choices": [
@@ -700,7 +700,9 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Przedstawione na poniższym rysunku figury: kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>, trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DCF</mi></math> i trapez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCFE</mi></math>, mają równe pola. Oblicz długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BE</mi></math>, jeśli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>12</mn></mrow></math> cm.</p><p>Zapisz wszystkie obliczenia i podaj odpowiedź.</p>",
       "choices": [],

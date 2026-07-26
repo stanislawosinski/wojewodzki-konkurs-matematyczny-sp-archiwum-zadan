@@ -191,8 +191,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty",
-        "geometria"
+        "kąty",
+        "trójkąty"
       ],
       "prompt_html": "<p>Trzy proste przecinają się w punktach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> (rysunek poniżej).</p><p>Ile jest równa suma miar kątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi></math>? Wybierz właściwą odpowiedź spośród podanych.</p>",
       "choices": [
@@ -263,8 +263,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W rombie o boku długości 12 cm kąt rozwarty ma miarę 5 razy większą od miary kąta ostrego. Ile jest równe pole tego rombu? Wybierz właściwą odpowiedź spośród podanych.</p>",
       "choices": [
@@ -298,8 +298,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
-        "geometria"
+        "czworokąty",
+        "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Antek narysował kwadrat o boku długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, a następnie rysował kolejne kwadraty, tak, że pole każdego następnego kwadratu było 2 razy większe od pola poprzedzającego go kwadratu. Kolejne kwadraty ponumerował liczbami naturalnymi dodatnimi.</p><p>Wskaż zdanie <u>fałszywe</u>.</p>",
       "choices": [
@@ -335,7 +335,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Przekątna graniastosłupa prawidłowego czworokątnego o krawędzi podstawy długości 1 cm ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>2</mn></msqrt></math> cm. Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p><p>Objętość tego graniastosłupa jest równa</p>",
@@ -370,7 +370,8 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> o boku długości 10 cm podzielono na mniejszy kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KLMN</mi></math> i cztery przystające prostokąty (rysunek poniżej). Każda z pięciu części, na jakie podzielono kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> ma taki sam obwód.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -443,7 +444,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "równania z jedną zmienną"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Wiedząc, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mi>a</mi><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>5</mn></mfrac></mrow></math>, oblicz wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>5</mn><mi>b</mi></mrow><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow></mfrac></math>. Zapisz obliczenia.</p>",
       "choices": [],

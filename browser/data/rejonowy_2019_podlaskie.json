@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Którą z podanych czterech liczb: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mfrac><mn>7</mn><mn>20</mn></mfrac></mrow></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3,9</mn></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4,0</mn></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mfrac><mn>3</mn><mn>4</mn></mfrac></mrow></math> należy wykreślić, aby suma trzech pozostałych była równa 10?</p>",
       "choices": [
@@ -51,7 +51,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Rozwinięcie dziesiętne nieskończone ma ułamek</p>",
       "choices": [
@@ -120,7 +120,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Olek ma obecnie trzy razy tyle lat co jego brat Rafał 6 lat temu. Jeśli obecny wiek Rafała oznaczymy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, to obecny wiek Olka opisuje wyrażenie</p>",
       "choices": [
@@ -466,7 +466,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Pojemnik farby wystarczy na pomalowanie 4 m² powierzchni. Ile co najmniej takich pojemników farby trzeba kupić, aby pomalować z obu stron trzy latawce w kształcie rombu o przekątnych 3,2 m i 2 m?</p>",
       "choices": [
@@ -500,7 +501,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Prostokąt zbudowany jest z pięciu identycznych kwadratów. Jeżeli obwód prostokąta jest równy 60 cm, to pole jednego kwadratu jest równe</p>",
       "choices": [
@@ -568,7 +570,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły",
+        "ostrosłupy",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Ile wierzchołków ma podstawa ostrosłupa, jeżeli suma liczby wszystkich wierzchołków i wszystkich krawędzi ostrosłupa jest równa 100?</p>",
@@ -603,7 +605,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "układ współrzędnych"
       ],
       "prompt_html": "<p>Końce odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> mają współrzędne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mo>=</mo><mo>(</mo><mn>4</mn><mo>,</mo><mn>8</mn><mo>)</mo></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>B</mi><mo>=</mo><mo>(</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo>)</mo></mrow></math>. Wiedząc, że punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>C</mi><mo>=</mo><mo>(</mo><mn>5</mn><mo>,</mo><mn>6</mn><mo>)</mo></mrow></math> jest środkiem tego odcinka. Znajdź współrzędne punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>.</p>",
       "choices": [
@@ -637,7 +639,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki"
+        "potęgi i pierwiastki",
+        "układ współrzędnych"
       ],
       "prompt_html": "<p>Oblicz odległość na osi liczbowej między liczbą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i liczbą przeciwną do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, jeżeli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><msup><mn>27</mn><mn>10</mn></msup><mo>·</mo><mn>81</mn><mo>:</mo><msup><mn>9</mn><mn>16</mn></msup></mrow></math>, natomiast <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest najmniejszą liczbą pierwszą. Wynik przedstaw w najprostszej postaci.</p>",
       "choices": [],
@@ -671,7 +674,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "geometria",
+        "czworokąty",
         "trójkąty"
       ],
       "prompt_html": "<p>Suma długości podstaw trapezu równoramiennego jest równa 18 cm. Jedna z podstaw jest dwukrotnie dłuższa od drugiej podstawy. Oblicz wysokość trapezu, jeżeli jego przekątna ma długość 15 cm.</p>",
@@ -689,7 +692,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "układy równań"
       ],
       "prompt_html": "<p>Do podstawy graniastosłupa prawidłowego czworokątnego doklejono drugi taki sam graniastosłup, otrzymując graniastosłup o polu powierzchni większym o 216 cm² i sumie długości wszystkich krawędzi większej o 36 cm. Oblicz wymiary początkowego graniastosłupa.</p>",

@@ -17,8 +17,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki",
-        "nierówności"
+        "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Wskaż zdanie prawdziwe dla dowolnej liczby rzeczywistej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>.</p>",
       "choices": [
@@ -170,7 +169,8 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "pole i obwód",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Wiedząc, że pole trapezu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> przedstawionego na poniższym rysunku wynosi 66, oblicz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>.</p>",
@@ -251,6 +251,7 @@
       "points": 3,
       "topics": [
         "trójkąty",
+        "pole i obwód",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Oblicz obwód czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACED</mi></math> przedstawionego na poniższym rysunku. Zaznacz prawidłową odpowiedź spośród podanych.</p>",
@@ -287,8 +288,9 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "koła / okręgi",
-        "geometria"
+        "okrąg wpisany i opisany",
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Oblicz pole zacieniowanego obszaru. Zaznacz właściwą odpowiedź.</p>",
       "choices": [
@@ -458,7 +460,9 @@
       "type": "open",
       "points": 12,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód",
+        "symetrie"
       ],
       "prompt_html": "<p>Postępuj zgodnie z instrukcją:</p><ul><li>narysuj kwadrat,</li><li>narysuj jedną z jego osi symetrii, która dzieli kwadrat na dwa trójkąty (nie ma znaczenia, którą),</li><li>narysuj romb, którego jednym z boków jest bok kwadratu, a drugi bok zawiera się w osi symetrii kwadratu, ale nie zawiera się w jego przekątnej (nie ma znaczenia który),</li><li>przyjmij, że bok kwadratu ma długość 4 (nie ma znaczenia długość na Twoim rysunku).</li></ul><p>Oblicz obwód i pole narysowanego sześciokąta (jeden z boków kwadratu jest przekątną powstałego sześciokąta).</p>",
       "choices": [],
@@ -475,7 +479,7 @@
       "type": "open",
       "points": 12,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "procenty"
       ],
       "prompt_html": "<p>Rozważmy prostopadłościenne akwarium o podstawie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mspace width=\"0.2em\"></mspace><mi>dm</mi><mo>×</mo><mn>6</mn><mspace width=\"0.2em\"></mspace><mi>dm</mi></math> i wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3,75</mn><mspace width=\"0.2em\"></mspace><mi>dm</mi></math>. Jest on napełniony wodą do pewnej wysokości. Wrzucono do niego sześcienny klocek o krawędzi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mspace width=\"0.2em\"></mspace><mi>dm</mi></math>. Poziom wody z akwarium podniósł się o 25%.</p><p>a) Do jakiej wysokości sięgała wtedy woda?</p><p>b) Ile jeszcze takich całych klocków można włożyć do tego akwarium tak żeby woda się nie rozlała?</p>",

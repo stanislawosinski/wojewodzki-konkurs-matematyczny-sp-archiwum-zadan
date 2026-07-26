@@ -132,9 +132,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "usuwanie niewymierności z mianownika",
         "potęgi i pierwiastki",
-        "proporcjonalność prosta"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Jeżeli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>6</mn><msqrt><mn>3</mn></msqrt></mrow><mrow><mn>2</mn><mi>x</mi></mrow></mfrac><mo>=</mo><mfrac><mn>4</mn><mrow><mn>2</mn><msqrt><mn>12</mn></msqrt></mrow></mfrac></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> jest równe:</p>",
       "choices": [
@@ -172,7 +171,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Liczby naturalne 1, 3 oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>k</mi></math> są długościami boków trójkąta. Połowa jego obwodu wynosi:</p>",
       "choices": [
@@ -365,6 +365,7 @@
       "points": 1,
       "topics": [
         "trójkąty",
+        "pole i obwód",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Dane są dwa trójkąty równoboczne o bokach równych 3 cm oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>7</mn></msqrt></math> cm. Ile wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> sumy pól tych trójkątów?</p>",
@@ -403,7 +404,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "geometria",
+        "czworokąty",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>W równoległoboku różnica miar kątów leżących przy tym samym boku jest równa 68°. Miara kąta rozwartego tego równoległoboku jest równa:</p>",
@@ -480,7 +481,7 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Objętość graniastosłupa prostego przedstawionego na rysunku jest równa 120 cm³.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -517,7 +518,7 @@
       "points": 2,
       "topics": [
         "sześciokąty foremne",
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Uzupełnij:</p><p>14.1. Miara kąta wewnętrznego sześciokąta foremnego wynosi: …</p><p>14.2. Miara kąta wewnętrznego osiemnastokąta foremnego wynosi: …</p>",
       "choices": [],
@@ -621,7 +622,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Pole powierzchni całkowitej sześcianu jest równe 60 cm². Jaką długość ma przekątna jego podstawy?</p><p>Zapisz obliczenia i odpowiedź.</p>",
@@ -639,8 +640,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W pewnym trapezie ramiona mają długość 11 cm i 13 cm, a podstawy 40 cm i 28 cm. Oblicz pole tego trapezu.</p><p>Zapisz obliczenia i odpowiedź.</p>",
       "choices": [],
@@ -659,7 +660,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Szczelnie zamknięte naczynie w kształcie graniastosłupa prawidłowego czworokątnego ma objętość 3000 cm³ i jest częściowo wypełnione wodą. Gdy stoi ono na podstawie to poziom wody sięga do wysokości 24 cm, natomiast gdy na ścianie bocznej to poziom wody sięga do wysokości 8 cm. Jaka jest objętość wody w naczyniu?</p><p>Zapisz obliczenia i odpowiedź.</p>",

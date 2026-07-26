@@ -119,7 +119,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Która z liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mo>−</mo><mn>2</mn><mfrac><mn>8</mn><mn>15</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mo>−</mo><mn>2</mn><mfrac><mn>4</mn><mn>7</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mo>−</mo><mn>2</mn><mfrac><mn>8</mn><mn>11</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><mo>−</mo><mn>2</mn><mfrac><mn>5</mn><mn>7</mn></mfrac></math> jest największa? Wybierz odpowiedź spośród podanych.</p>",
       "choices": [
@@ -221,7 +221,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W trójkącie równoramiennym jeden z boków ma długość 16 cm, a drugi ma długość 7 cm. Ile jest równy obwód tego trójkąta? Wybierz odpowiedź spośród podanych.</p>",
       "choices": [
@@ -287,7 +288,7 @@
       "points": 3,
       "topics": [
         "potęgi i pierwiastki",
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Dane są liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>0,875</mn><mo>−</mo><mn>2</mn><mfrac><mn>2</mn><mn>15</mn></mfrac><mo>:</mo><mn>5</mn><mfrac><mn>1</mn><mn>3</mn></mfrac></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><msup><mrow><mo>(</mo><mo>−</mo><mn>1</mn><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>)</mo></mrow><mn>3</mn></msup><mo>+</mo><mn>0,9</mn></math>.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -318,7 +319,8 @@
       "points": 3,
       "topics": [
         "proporcjonalność prosta",
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Jeden bok prostokątnej działki jest 1,5 razy dłuższy od drugiego. Na planie krótszy bok tej działki jest równy 5 cm. W rzeczywistości pole tej działki jest równe 54 a.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -348,7 +350,8 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "kąty"
       ],
       "prompt_html": "<p>W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>, kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> ma miarę 3 razy większą niż kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CAB</mi></math>, a kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCA</mi></math> ma miarę o 72° mniejszą niż kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -430,8 +433,9 @@
       "type": "open",
       "points": 6,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W prostokącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> o obwodzie 112 cm, bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> jest o 28 cm dłuższy od boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math>. Z tego prostokąta wycięto dwa trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AKD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BLC</mi></math> tak, jak na rysunku obok. Wiedząc, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>AK</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>DK</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>BL</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>CL</mi><mo>|</mo></math> oraz że wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math> trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AKD</mi></math> opuszczona na bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> jest 2,4 razy krótsza od długości boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>, oblicz pole sześciokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABLCDK</mi></math>.</p>",
       "choices": [],

@@ -51,8 +51,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną",
-        "zagadki logiczne"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Piotr i jego siostra Ania mają w sumie 28 lat. 11 lat temu Ania była dwukrotnie młodsza od Piotra. O ile lat Ania jest młodsza od Piotra? Wybierz odpowiedź spośród podanych.</p>",
       "choices": [
@@ -154,8 +153,9 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "trójkąty",
         "procenty",
-        "trójkąty"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Podstawa trójkąta wzrosła o 20%, a jego wysokość zmalała o 20%. Pole tego trójkąta:</p>",
       "choices": [
@@ -224,7 +224,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Dane są liczby: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>)</mo><mo>:</mo><mo>(</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>−</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>)</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mo>(</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>)</mo><mo>:</mo><mo>(</mo><mfrac><mn>4</mn><mn>5</mn></mfrac><mo>−</mo><mfrac><mn>5</mn><mn>6</mn></mfrac><mo>)</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><mo>(</mo><mfrac><mn>1</mn><mn>6</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mn>7</mn></mfrac><mo>)</mo><mo>:</mo><mo>(</mo><mfrac><mn>6</mn><mn>7</mn></mfrac><mo>−</mo><mfrac><mn>7</mn><mn>8</mn></mfrac><mo>)</mo></mrow></math>.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -254,8 +254,9 @@
       "type": "true_false",
       "points": 3,
       "topics": [
+        "czworokąty",
         "trójkąty",
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>W czworokącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> ma miarę 140°, a kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCD</mi></math> ma miarę 58°. Przekątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math> czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> jest prostopadła do boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> i ma długość równą długości boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -285,7 +286,8 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "pole i obwód",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Dany jest prostokąt, w którym różnica długości dwóch kolejnych boków jest równa 12 cm a stosunek długości tych boków wynosi 7:3.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
@@ -317,6 +319,7 @@
       "points": 5,
       "topics": [
         "potęgi i pierwiastki",
+        "ułamki",
         "procenty"
       ],
       "prompt_html": "<p>Co jest większe: liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> zmniejszona o swoją siódmą część, czy 20% liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>?</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>−</mo><mn>0,8</mn><mo>:</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>−</mo><mn>3,6</mn><mo>:</mo><mfrac><mn>3</mn><mn>5</mn></mfrac><mo>+</mo><mn>10</mn><mfrac><mn>4</mn><mn>9</mn></mfrac></mrow></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mo>−</mo><mn>2,7</mn><mo>·</mo><mo>(</mo><mo>−</mo><mfrac><mn>1</mn><mn>9</mn></mfrac><mo>)</mo><mo>+</mo><mn>1,4</mn><mo>:</mo><mo>(</mo><mo>−</mo><mfrac><mn>7</mn><mn>5</mn></mfrac><mo>)</mo><mo>+</mo><msqrt><mrow><msup><mrow><mo>(</mo><mn>2</mn><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>·</mo><msup><mrow><mo>(</mo><mn>1</mn><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup></mrow></msqrt></mrow></math></p><p>Zapisz odpowiednie obliczenia i odpowiedź.</p>",
@@ -335,7 +338,7 @@
       "points": 5,
       "topics": [
         "równania z jedną zmienną",
-        "wzory skróconego mnożenia"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Dane są cztery liczby takie, że każda następna jest o trzy mniejsza od poprzedniej. Iloczyn pierwszej i drugiej jest o 198 większy od iloczynu trzeciej i czwartej. Oblicz sumę tych liczb.</p><p>Zapisz odpowiednie obliczenia i odpowiedź.</p>",
       "choices": [],
@@ -389,7 +392,8 @@
       "points": 6,
       "topics": [
         "trójkąty",
-        "procenty"
+        "procenty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Trójkąt równoramienny ma obwód równy 144 cm i pole 960 cm². Ramię tego trójkąta jest o 30% dłuższe od podstawy. Oblicz wartość bezwzględną różnicy wysokości tego trójkąta o różnych długościach.</p><p>Zapisz odpowiednie obliczenia i odpowiedź.</p>",
       "choices": [],

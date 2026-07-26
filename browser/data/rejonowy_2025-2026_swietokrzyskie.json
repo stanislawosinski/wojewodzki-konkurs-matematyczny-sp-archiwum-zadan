@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Dana jest liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> różna od zera. <strong>Dokończ zdanie.</strong></p><p>Wartość wyrażenia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><mfrac><mn>1</mn><mrow><mn>2</mn><mi>k</mi></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>3</mn><mi>k</mi></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>4</mn><mi>k</mi></mrow></mfrac></mrow></mfrac></math> jest równa:</p>",
       "choices": [
@@ -220,7 +220,7 @@
       "points": 3,
       "topics": [
         "trójkąty",
-        "procenty"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Dane są cztery trójkąty równoboczne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>1</mn></msub></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>2</mn></msub></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>3</mn></msub></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>4</mn></msub></math>. Bok trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>2</mn></msub></math> jest dwa razy mniejszy od boku trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>1</mn></msub></math>. Bok trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>3</mn></msub></math> jest dwa razy mniejszy od boku trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>2</mn></msub></math>. Bok trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>4</mn></msub></math> jest dwa razy mniejszy od boku trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>3</mn></msub></math>.</p><p><strong>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</strong></p>",
       "choices": [
@@ -250,7 +250,9 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "układ współrzędnych",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>3</mn><mo>,</mo><mn>5</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>1</mn><mo>,</mo><mo>−</mo><mn>1</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>=</mo><mo>(</mo><mn>8</mn><mo>,</mo><mn>2</mn><mo>)</mo></math> są trzema kolejnymi wierzchołkami równoległoboku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>.</p><p><strong>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</strong></p>",
       "choices": [
@@ -284,7 +286,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p><strong>Dokończ zdanie.</strong></p><p>Graniastosłup, którego siatka zbudowana jest z 22 wielokątów:</p>",
       "choices": [
@@ -386,7 +388,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "geometria",
+        "czworokąty",
         "trójkąty"
       ],
       "prompt_html": "<p>W trapezie równoramiennym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>, w którym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi><mo>∥</mo><mi>CD</mi></math>, kąt rozwarty jest dwa razy większy od kąta ostrego i przekątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> tworzy z ramieniem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> kąt prosty.</p><p><strong>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</strong></p>",
@@ -417,7 +419,8 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Na dwóch dłuższych bokach trójkąta prostokątnego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> zbudowano kwadraty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>K</mi><mn>1</mn></msub></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>K</mi><mn>2</mn></msub></math>, których pola są odpowiednio równe 144 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>cm</mtext><mn>2</mn></msup></math> oraz 169 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>cm</mtext><mn>2</mn></msup></math>. Na trzecim boku tego trójkąta zbudowano kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>K</mi><mn>3</mn></msub></math>.</p><p><strong>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</strong></p>",
       "choices": [

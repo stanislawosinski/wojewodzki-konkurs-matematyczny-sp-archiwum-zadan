@@ -120,7 +120,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>2018</mn><mn>20,18</mn></mfrac><mo>+</mo><mfrac><mn>201,8</mn><mn>2,018</mn></mfrac></mrow></math> wynosi:</p>",
       "choices": [
@@ -154,7 +154,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Spośród trzech kątów, które razem tworzą kąt półpełny, każdy następny jest o 30° większy od poprzedniego. Największy z tych kątów ma miarę:</p>",
       "choices": [
@@ -224,7 +224,7 @@
       "points": 1,
       "topics": [
         "trójkąty",
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> zaznaczony na rysunku ma miarę:</p>",
       "choices": [
@@ -328,7 +328,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Z drutu o długości 60 cm zbudowano szkielet sześcianu. Pole powierzchni tego sześcianu wynosi:</p>",
       "choices": [
@@ -396,8 +396,9 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "czworokąty",
         "procenty",
-        "geometria"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Zwiększając długość prostokąta o 20%, a szerokość o 50%, zwiększamy jego pole o:</p>",
       "choices": [
@@ -499,7 +500,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Ile obrotów w ciągu minuty wykona skrzydło wiatraka obracając się o 240° w ciągu sekundy?</p>",
       "choices": [
@@ -533,8 +534,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "trójkąty",
+        "czworokąty"
       ],
       "prompt_html": "<p>Kąt ostry między przekątnymi prostokąta ma miarę 60°, a długość krótszego boku ma długość 14 cm. Przekątna tego prostokąta ma długość:</p>",
       "choices": [
@@ -636,7 +637,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Który z poniższych ułamków jest większy od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math> i mniejszy od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>5</mn></mfrac></math>?</p>",
       "choices": [
@@ -743,8 +744,9 @@
       "type": "true_false",
       "points": 5,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W trapezie prostokątnym wysokość poprowadzona z wierzchołka kąta rozwartego ma długość 6 cm i dzieli ten trapez na kwadrat i trójkąt prostokątny równoramienny.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -799,7 +801,8 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "pole i obwód",
         "procenty"
       ],
       "prompt_html": "<p>W rombie o obwodzie 20 cm, przekątne mają długość: 6 cm i 8 cm.</p><ol type=\"A\"><li>Pole rombu wynosi ……… cm².</li><li>Bok rombu ma długość ……… cm.</li><li>Jeżeli w tym rombie długość każdej przekątnej zwiększy się o 2 cm, to jego pole zwiększy się o ……… cm².</li><li>Wysokość rombu ma długość ……… cm.</li><li>Jeżeli długość każdego boku zwiększy się o 1 cm to jego obwód wzrośnie o ……… %.</li></ol>",

@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "symetrie"
       ],
       "prompt_html": "<p>Który napis nie ma osi symetrii?</p>",
       "choices": [
@@ -51,7 +51,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Która z poniższych liczb ma wartość najbliższą liczbie 5?</p>",
       "choices": [
@@ -85,7 +85,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Ile sześcianów o krawędzi 3 cm możemy umieścić w graniastosłupie o objętości 216 cm³?</p>",
       "choices": [
@@ -187,7 +187,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Na kwadrat o obwodzie 24 cm położono kwadrat w sposób pokazany na rysunku. Pole mniejszego kwadratu jest równe:</p>",
       "choices": [
@@ -361,7 +362,7 @@
       "points": 1,
       "topics": [
         "trójkąty",
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Suma miar wszystkich kątów zaznaczonych na rysunku wynosi:</p>",
       "choices": [
@@ -397,7 +398,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "pole i obwód",
         "procenty"
       ],
       "prompt_html": "<p>W trapezie równoramiennym podstawa dolna jest o 3 cm większa od podstawy górnej. Wysokość trapezu wynosi 2 cm i stanowi 60% długości podstawy górnej. Pole powierzchni tego trapezu wynosi:</p>",
@@ -466,7 +468,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "pole i obwód",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Obwód czworokąta ABCD jest pięć razy większy od długości przekątnej BD. Obwód trójkąta ABD jest równy 40, a obwód trójkąta BCD jest równy 23. Jaką długość ma przekątna BD?</p>",
@@ -485,7 +488,7 @@
       "points": 3,
       "topics": [
         "trójkąty",
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>W trójkącie równobocznym ABC poprowadzono przez wierzchołek A prostą <em>k</em> prostopadłą do boku AC, a przez wierzchołek B prostą <em>l</em> prostopadłą do boku BC. Narysuj odpowiedni rysunek. Oblicz miarę kąta ostrego między prostymi <em>k</em> i <em>l</em>.</p>",
       "choices": [],
@@ -502,8 +505,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "układy równań",
-        "proporcjonalność prosta"
+        "proporcjonalność prosta",
+        "układy równań"
       ],
       "prompt_html": "<p>Złotnik ma dwa stopy złota ze srebrem. W pierwszym stopie stosunek masy złota do srebra wynosi 2:3, a w drugim 3:7. Ile musi wziąć każdego ze stopów, aby otrzymać 8 kg nowego stopu, w którym stosunek masy złota do srebra wynosi 5:11?</p>",
       "choices": [],
@@ -556,7 +559,7 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "procenty",
+        "ułamki",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Nieuważny pracownik zmieszał w silosie ze zbożem pszenicę z plewami. Sama pszenica stanowiła <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> tej mieszanki. Najpierw udało się przy użyciu sita oddzielić <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac></math> ziaren pszenicy z całości. Następnie przy użyciu odpowiedniej dmuchawy 0,7 pozostałych ziaren pszenicy odsunięto od plew. Na koniec w młynie udało się jeszcze odzyskać 180 kg czystej pszenicy. Ile ton mieszanki pracownik zmieszał w silosie? Ile ton pszenicy było w silosie?</p>",
@@ -592,8 +595,8 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "procenty",
-        "bryły"
+        "graniastosłupy",
+        "procenty"
       ],
       "prompt_html": "<p>Długość pewnego prostopadłościanu zmniejszono o 20%, jego szerokość zmniejszono o 25%, a wysokość zmniejszono o 50%. Otrzymano sześcian o polu powierzchni równym 864 cm². Jakie pole powierzchni i jaką objętość miał prostopadłościan?</p>",
       "choices": [],

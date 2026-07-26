@@ -17,6 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "ułamki",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Kasia zaznaczyła kropkami na osi liczbowej wszystkie ułamki, których licznik jest jedną z liczb: 1, 2, 4, a mianownik jest jedną z liczb 2, 4, 8. W ilu różnych miejscach na osi liczbowej Kasia zaznaczyła kropki?</p>",
@@ -89,7 +90,7 @@
       "points": 1,
       "topics": [
         "trójkąty",
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>W trapezie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> przedstawionym na rysunku obok jest taki punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math>, że trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABE</mi></math> jest prostokątny równoramienny, a trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AED</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCE</mi></math> są równoboczne. Ile razy kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest większy od kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDE</mi></math>?</p>",
       "choices": [
@@ -264,7 +265,8 @@
       "points": 1,
       "topics": [
         "trójkąty",
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W kwadracie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> umieszczono cztery jednakowe trójkąty prostokątne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi></math> zaznaczone na rysunku obok szarym kolorem. Najkrótszy bok trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi></math> ma długość 9 cm, a najdłuższy 15 cm. Oblicz pole kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>.</p>",
       "choices": [
@@ -320,7 +322,8 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "zagadki logiczne"
       ],
       "prompt_html": "<p>W zapisie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mo>∗</mo><mn>2</mn></mfrac><mo>+</mo><mfrac><mn>3</mn><mo>∗</mo></mfrac><mo>+</mo><mfrac><mo>∗</mo><mn>4</mn></mfrac><mo>=</mo><mn>5</mn></math> zastąpiono gwiazdką tę samą liczbę jednocyfrową. Liczba zastąpiona gwiazdką, to …… .</p>",
       "choices": [],
@@ -337,7 +340,8 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy",
+        "ułamki"
       ],
       "prompt_html": "<p>W prostopadłościanie przedstawionym na rysunku obok oznaczono przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>X</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Z</mi></math> ściany o wspólnym wierzchołku. Pole ściany <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>X</mi></math> stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>7</mn></mfrac></math> pola powierzchni całkowitej tego prostopadłościanu, a pole ściany <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Z</mi></math> stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>14</mn></mfrac></math> pola powierzchni całkowitej tej bryły. To, jaką częścią pola powierzchni całkowitej tego prostopadłościanu jest pole ściany <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi></math> można wyrazić ułamkiem równym …… .</p>",
       "choices": [],
@@ -356,8 +360,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "równania z jedną zmienną",
-        "zagadki logiczne"
+        "zagadki logiczne",
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Liczba naturalna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> jest czterocyfrowa, a liczba naturalna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest trzycyfrowa. Cyfrą jedności sumy tych liczb jest 7, a różnica między większą i mniejszą z tych liczb jest także równa 7. Liczbami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> są …… i …… .</p>",
       "choices": [],

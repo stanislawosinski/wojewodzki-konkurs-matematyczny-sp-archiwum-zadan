@@ -52,7 +52,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "podzielność"
+        "podzielność",
+        "ułamki"
       ],
       "prompt_html": "<p>Dana jest liczba wymierna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi><mo>=</mo><mn>0</mn><mo>,</mo><mi>x</mi><mo>(</mo><mn>35</mn><mo>)</mo></math>, w której <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> jest pewną cyfrą. W rozwinięciu dziesiętnym iloczynu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>110</mn><mo>·</mo><mi>z</mi></math> dodano do siebie cyfry występujące przed przecinkiem i cyfrę, z której składa się okres. Otrzymana suma jest wielokrotnością liczby 11. Ile jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>?</p>",
       "choices": [
@@ -228,7 +229,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Suma miar kątów wewnętrznych pewnego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>-kąta foremnego jest największą możliwą liczbą naturalną, mniejszą niż 2023. Ile jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>?</p>",
       "choices": [
@@ -267,7 +268,7 @@
       "points": 3,
       "topics": [
         "potęgi i pierwiastki",
-        "geometria"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Odcinek o długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> podzielono na pięć równych odcinków. Z czterech odcinków powstałych w wyniku tego podziału zbudowano pierwszy kwadrat o boku długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mn>5</mn></mfrac></math>, a piąty odcinek ponownie podzielono na pięć równych odcinków. Z uzyskanych w ten sposób czterech odcinków zbudowano drugi kwadrat, a piąty, niewykorzystany odcinek ponownie podzielono na pięć równych odcinków. Zbudowano w ten sposób 64 kwadraty. Ile jest równe pole ostatniego kwadratu?</p>",
       "choices": [
@@ -344,7 +345,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "układy równań"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Kubuś Puchatek zgromadził na zimę pięć pełnych baryłek miodu i dwa pełne worki marchewek, a Królik jedną pełną baryłkę miodu i dziesięć pełnych worków marchewek. Zapasy każdego z nich miały tę samą masę. Baryłki były jednakowe i w każdej pełnej baryłce była taka sama masa miodu. Worki również były jednakowe i w każdym pełnym worku była taka sama masa marchewek. Wybierz zdanie prawdziwe.</p>",
       "choices": [
@@ -382,7 +383,8 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "pole i obwód",
         "szacowanie (zamiast obliczania)"
       ],
       "prompt_html": "<p>W pewnym trapezie prostokątnym o wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math> przekątne mają długości 6 cm i 10 cm. Wybierz zdanie prawdziwe.</p>",
@@ -421,7 +423,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "procenty"
       ],
       "prompt_html": "<p>W tym zadaniu zakładamy idealizację całej sytuacji: idealny kształt i wymiary zabawki, idealnie równe powierzchnie, niebieska ciecz zachowuje się jak woda, a grubość każdej ścianki zabawki jest bliska zeru i pomijamy ją w obliczeniach.</p><p>Zabawka dziecięca ma kształt szczelnie zamkniętego szklanego prostopadłościanu o wymiarach równych 200 mm, 1,5 dm, 10 cm. Zabawka wypełniona jest niebieską cieczą, która zajmuje 20% jej objętości. Postawiono tę zabawkę na ściance o wymiarach 200 mm × 10 cm na równej podłodze. Do jakiej wysokości, mierzonej od powierzchni tej ścianki, sięga poziom niebieskiej cieczy?</p>",

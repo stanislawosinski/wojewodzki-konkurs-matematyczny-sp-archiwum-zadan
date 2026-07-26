@@ -179,7 +179,7 @@
       "points": 3,
       "topics": [
         "trójkąty",
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Na rysunku odcinki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>OA</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>OB</mi></math> są tej samej długości, a odcinki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> są równoległe.</p><p>Oceń, czy podane zdania są prawdziwe, czy fałszywe.</p>",
       "choices": [
@@ -211,7 +211,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "geometria"
+        "czworokąty"
       ],
       "prompt_html": "<p>Na mapie punkty oznaczające miejscowości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> są kolejnymi wierzchołkami pewnego czworokąta wypukłego. Drogi łączące miejscowości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> są odcinkami przecinającymi się pod kątem prostym. Wielokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> może być</p>",
       "choices": [
@@ -272,7 +272,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Mając do dyspozycji <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jednakowych kostek sześciennych o krawędzi długości 1 dm (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest dowolną dodatnią liczbą naturalną, większą od 1), można zawsze ułożyć z nich</p>",
       "choices": [
@@ -302,7 +302,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Śnieg pokrył powierzchnię w kształcie prostokąta o polu 2 hektarów równomierną warstwą o grubości 20 cm.</p>",
       "choices": [
@@ -332,7 +332,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "podzielność"
+        "ułamki"
       ],
       "prompt_html": "<p>Oceń, czy podane zdania są prawdziwe, czy fałszywe.</p>",
       "choices": [
@@ -396,8 +396,9 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "trójkąty",
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Czworokąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABEF</mi></math> są przystającymi równoległobokami. Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABS</mi></math> jest trójkątem równobocznym o boku długości 2 cm, a punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> jest środkiem odcinków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BE</mi></math>. Oblicz pole siedmiokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDSEF</mi></math>.</p>",
       "choices": [],
@@ -416,8 +417,9 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Krótsza przekątna trapezu prostokątnego dzieli go na dwa trójkąty prostokątne, równoramienne. Oblicz obwód tego trapezu, jeżeli jego pole jest równe 54 cm².</p>",
       "choices": [],

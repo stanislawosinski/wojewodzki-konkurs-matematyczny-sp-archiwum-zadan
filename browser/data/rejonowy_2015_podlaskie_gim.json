@@ -129,7 +129,7 @@
       "points": 1,
       "topics": [
         "wzory skróconego mnożenia",
-        "równania z jedną zmienną"
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Ile jest par <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo>)</mo></math> takich liczb naturalnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn><msup><mi>b</mi><mn>2</mn></msup><mo>=</mo><mn>45</mn></math>?</p>",
       "choices": [
@@ -173,7 +173,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
+        "czworokąty",
         "dwusieczna kąta / symetralna odcinka"
       ],
       "prompt_html": "<p>Krótsza przekątna trapezu prostokątnego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> jest dwusieczną jego kąta prostego. Jego podstawy mają długości 3 cm i 7 cm. Dłuższe ramię tego trapezu ma długość</p>",
@@ -197,6 +197,7 @@
       "points": 1,
       "topics": [
         "trójkąty",
+        "pole i obwód",
         "procenty"
       ],
       "prompt_html": "<p>Długość każdego boku trójkąta równobocznego zwiększono o 30%. Wynika stąd, że pole tego trójkąta wzrosło o</p>",
@@ -219,7 +220,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "geometria",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Pola figur podobnych wynoszą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mspace width=\"0.2em\"/><msup><mtext>cm</mtext><mn>2</mn></msup></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>18</mn><mspace width=\"0.2em\"/><msup><mtext>dm</mtext><mn>2</mn></msup></math>. Jaka jest skala podobieństwa figury o większej powierzchni do figury o mniejszej powierzchni?</p>",
       "choices": [
@@ -263,7 +265,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "ostrosłupy"
       ],
       "prompt_html": "<p>Pole powierzchni bocznej ostrosłupa prawidłowego czworokątnego jest cztery razy większe od pola jego podstawy. W tym ostrosłupie stosunek wysokości ściany bocznej do długości krawędzi podstawy jest równy</p>",
       "choices": [
@@ -309,8 +311,9 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "okrąg wpisany i opisany",
-        "koła / okręgi"
+        "koła / okręgi",
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Na prostokącie o bokach 8 cm i 6 cm opisano koło. Pole powierzchni tego koła jest równe</p>",
       "choices": [
@@ -332,7 +335,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "ostrosłupy"
       ],
       "prompt_html": "<p>Jaką figurą jest przekrój ostrosłupa prawidłowego pięciokątnego płaszczyzną przechodzącą przez dwie krawędzie boczne nie należące do tej samej ściany?</p>",
       "choices": [
@@ -399,8 +402,9 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną",
-        "geometria"
+        "czworokąty",
+        "pole i obwód",
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Na rysunku przedstawiony jest równoległobok i podane są długości jego boków za pomocą wyrażeń algebraicznych. Ile jest równy obwód tego równoległoboku?</p>",
       "choices": [
@@ -442,8 +446,9 @@
       "type": "open",
       "points": 4,
       "topics": [
+        "trójkąty",
         "okrąg wpisany i opisany",
-        "trójkąty"
+        "pole i obwód"
       ],
       "prompt_html": "<p>W trójkąt równoramienny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> o ramionach długości 15 i podstawie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> długości 20 wpisano okrąg. Oblicz pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DEC</mi></math>, jeśli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> to punkty styczności ramion trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> do okręgu. (patrz rysunek)</p>",
       "choices": [],
@@ -462,7 +467,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Martyna rozcięła kwadratową kartkę papieru na dwa jednakowe prostokąty. Każdy z nich złożyła tak, że otrzymała powierzchnie boczne dwóch różnych graniastosłupów prawidłowych czworokątnych. Suma objętości tych graniastosłupów jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>375</mn><mspace width=\"0.2em\"/><msup><mtext>cm</mtext><mn>3</mn></msup></math>. Jaką długość ma bok kartki, którą Martyna miała na początku?</p>",

@@ -150,7 +150,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
+        "czworokąty",
         "trójkąty"
       ],
       "prompt_html": "<p>Dany jest czworokąt wypukły <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>, w którym boki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DC</mi></math> są tej samej długości, zaś przekątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> dzieli kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DAB</mi></math> na dwa równe kąty. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math> jest punktem przecięcia się przekątnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DB</mi></math>. Wskaż zdanie prawdziwe.</p>",
@@ -173,7 +173,8 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W pewnym trapezie równoramiennym krótsza podstawa i wysokość trapezu mają taką samą długość 3 cm, a kąt ostry ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>60</mn><mo>°</mo></mrow></math>.</p>",
       "choices": [
@@ -240,7 +241,7 @@
       "points": 4,
       "topics": [
         "geometria",
-        "trójkąty"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Dane są figury: prostokąt o wymiarach 0,33 dm i 2 cm, trójkąt równoboczny o boku 0,04 m, równoległobok o bokach 0,4 dm i 3 cm oraz wysokościach 0,02 m i 1,5 cm.</p>",
       "choices": [
@@ -297,8 +298,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "trójkąty",
-        "geometria"
+        "kąty",
+        "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Na rysunku zaznaczono kąt o mierze <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>83</mn><mo>°</mo></mrow></math>, dwa kąty o mierze <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> oraz kąt o mierze <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math>. Oblicz miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math>. Odpowiedź uzasadnij.</p>",
       "choices": [],
@@ -317,8 +318,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "trójkąty",
-        "geometria"
+        "trójkąty"
       ],
       "prompt_html": "<p>Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest prostokątny i równoramienny. Na przeciwprostokątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> zbudowano trójkąt równoboczny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACD</mi></math>. Oblicz miarę kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABD</mi></math>. Rozważ wszystkie możliwości, przedstawiając je na rysunku.</p>",
       "choices": [],

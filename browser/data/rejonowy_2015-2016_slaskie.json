@@ -36,7 +36,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną"
+        "ułamki"
       ],
       "prompt_html": "<p>Janek przeszedł 5 km i wtedy zauważył, że przebył już <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math> całej trasy. Ile kilometrów liczy cała trasa?</p>",
       "choices": [
@@ -207,7 +207,8 @@
       "points": 1,
       "topics": [
         "trójkąty",
-        "podzielność"
+        "podzielność",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Jaki jest najmniejszy możliwy obwód trójkąta, który jest nierównoramienny, a długości jego boków są liczbami pierwszymi?</p>",
       "choices": [
@@ -309,7 +310,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Ile najwięcej osób może zmieścić się na placu w kształcie kwadratu o boku długości 200 metrów, jeżeli na każdym metrze kwadratowym powierzchni mieszczą się 4 osoby?</p>",
       "choices": [
@@ -377,7 +379,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
+        "czworokąty",
         "trójkąty"
       ],
       "prompt_html": "<p>W prostokącie kąt ostry między przekątnymi prostokąta wynosi 60°, a długość krótszego boku wynosi 14 cm. Długość przekątnej tego prostokąta wynosi:</p>",
@@ -582,7 +584,7 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "geometria"
+        "czworokąty"
       ],
       "prompt_html": "<p>Oceń, czy podane zdania są prawdziwe czy fałszywe. Zaznacz właściwą odpowiedź.</p>",
       "choices": [
@@ -616,7 +618,8 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Oceń, czy podane zdania są prawdziwe czy fałszywe. Zaznacz właściwą odpowiedź.</p><p>Obwód pewnego równoległoboku jest równy 100 cm, a jego pole 180 cm². Jedna z jego wysokości ma długość 9 cm.</p>",
       "choices": [
@@ -650,7 +653,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Oceń, czy podane zdania są prawdziwe czy fałszywe. Zaznacz właściwą odpowiedź.</p><p>Suma długości krawędzi wychodzących z jednego wierzchołka sześcianu wynosi 12 cm.</p>",
       "choices": [
@@ -698,7 +701,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "pole i obwód",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Obwód trapezu równoramiennego wynosi 36 cm. Krótsza podstawa jest dwa razy dłuższa od ramienia, a wysokość stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> dłuższej podstawy. Różnica długości podstaw jest równa 6 cm. Oblicz pole trapezu.</p>",
@@ -716,7 +720,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Naczynie ma kształt prostopadłościanu. Krawędzie jego podstawy mają długości 4 dm i 3,2 dm. Do naczynia nalano wody do połowy jego wysokości. Następnie na dnie naczynia postawiono metalowy sześcian, który całkowicie zanurzył się w wodzie. Poziom wody w naczyniu podniósł się o 1,2 cm. Oblicz objętość tego sześcianu.</p>",
       "choices": [],

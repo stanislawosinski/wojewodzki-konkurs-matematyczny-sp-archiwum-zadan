@@ -40,7 +40,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></mfrac></mrow></mfrac></math> jest równa:</p>",
       "choices": [
@@ -84,7 +84,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Pewien rolnik zostawił w spadku trzem synom kwadratowe pole o powierzchni 3600 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>m</mtext><mn>2</mn></msup></math>. Synowie podzielili to pole na trzy prostokątne działki, z których jedna była kwadratem o polu 1600 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>m</mtext><mn>2</mn></msup></math>. Jakie było pole najmniejszej z tych trzech działek?</p>",
       "choices": [
@@ -129,8 +130,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "trójkąty",
+        "kąty"
       ],
       "prompt_html": "<p>Suma miar wszystkich kątów zaznaczonych na rysunku wynosi:</p>",
       "choices": [
@@ -154,7 +155,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Ile wynosi odwrotność sumy odwrotności liczb 2, 3, 6 i 7?</p>",
       "choices": [
@@ -199,7 +200,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2018</mn><mo>−</mo><mfrac><mn>2018</mn><mn>2017</mn></mfrac><mo>+</mo><mn>2018</mn><mo>·</mo><mfrac><mn>2018</mn><mn>2017</mn></mfrac></math> jest równa:</p>",
       "choices": [
@@ -268,7 +269,7 @@
       "points": 2,
       "topics": [
         "trójkąty",
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Prosta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> dzieli trójkąt równoramienny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> na poniższym rysunku na trójkąt i czworokąt. Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDE</mi></math> jest równa:</p>",
       "choices": [
@@ -315,7 +316,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Na poniższym rysunku przedstawiony jest dziewięciokąt foremny. Jaka jest miara kąta zaznaczonego na rysunku łukiem?</p>",
       "choices": [
@@ -339,7 +340,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "procenty"
       ],
       "prompt_html": "<p>Suma długości wszystkich krawędzi prostopadłościanu jest równa 108 cm, a krawędzie tej bryły są w stosunku 2 : 3 : 4.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli zdanie jest fałszywe.</p>",
@@ -385,7 +386,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Oblicz obwody poniższych wielokątów. Uzupełnij zdania, wpisując w wykropkowane miejsca odpowiednią liczbę.</p><ol><li>Kwadrat o polu 0,81 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>dm</mtext><mn>2</mn></msup></math> ma obwód równy ………… cm.</li><li>Trapez równoramienny, którego ramię ma długość 5 cm, wysokość 0,04 m, a pole 52 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>cm</mtext><mn>2</mn></msup></math> ma obwód równy ………… cm.</li><li>Prostokąt o polu 40 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>cm</mtext><mn>2</mn></msup></math> i długości 50 mm ma obwód równy ………… cm.</li><li>Romb o wysokości 9,6 cm oraz przekątnych długości 1,2 dm i 1,6 dm ma obwód równy ………… cm.</li></ol>",
       "choices": [],
@@ -402,7 +404,8 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "pole i obwód",
         "procenty"
       ],
       "prompt_html": "<p>Mieszkanie ma dwa pokoje. Duży pokój jest trzy razy większy od małego i zajmuje połowę powierzchni mieszkania. Powierzchnia kuchni stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>7</mn></mfrac></math>, a łazienki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>12</mn></mfrac></math> powierzchni mieszkania. Natomiast przedpokój ma wymiary 1,5 m × 3 m.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli zdanie jest fałszywe.</p>",
@@ -424,8 +427,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "zliczanie / metody zliczania",
-        "równania z jedną zmienną"
+        "wyrażenia algebraiczne",
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Z zapałek budujemy płotek. Płotek przedstawiony na rysunku poniżej ma 7 sztachetek. Do jego zbudowania zużyto 37 zapałek.</p><p>Uzupełnij zdania, wpisując w wykropkowane miejsca odpowiednią liczbę.</p><ol><li>Do zbudowania płotka składającego się z 10 sztachetek potrzeba ……. zapałek.</li><li>Do zbudowania płotka składającego się z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> sztachetek potrzeba ………… zapałek.</li><li>Aby ogrodzić takim płotkiem kwadrat o boku długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> zapałek potrzeba …… zapałek.</li></ol>",
       "choices": [],
@@ -444,7 +447,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "procenty"
+        "procenty",
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>W sklepie u pana Romana można kupić stół za 351 zł. Pan Roman zarabia na nim 8% (to znaczy sprzedaje go o 8% drożej niż zapłacił za niego w hurtowni). Ile procent zysku miałby pan Roman, gdyby sprzedał ten stół za 364 zł? Zapisz wszystkie obliczenia i podaj <strong>odpowiedź</strong>.</p>",
       "choices": [],
@@ -462,7 +466,7 @@
       "points": 3,
       "topics": [
         "potęgi i pierwiastki",
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Prostopadłościenne pudełko należy wypełnić <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>3</mn><mo>+</mo><msup><mn>3</mn><mn>2</mn></msup><mo>·</mo><msup><mn>3</mn><mn>2</mn></msup><mo>)</mo><mo>+</mo><mo>(</mo><mn>1</mn><mo>+</mo><msup><mn>3</mn><mn>1</mn></msup><mo>)</mo><mo>·</mo><mn>33</mn><mo>−</mo><mfrac><mrow><msup><mn>3</mn><mn>2</mn></msup><mo>·</mo><msup><mn>2</mn><mn>2</mn></msup><mo>·</mo><mn>35</mn></mrow><mn>6</mn></mfrac></math> sześciennymi kostkami o krawędzi 3 cm. Jakie wymiary wyrażone liczbami naturalnymi może mieć to pudełko? Zapisz wszystkie obliczenia i podaj <strong>odpowiedź</strong>.</p>",
       "choices": [],
@@ -479,8 +483,9 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>G</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi></math> dzielą boki prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> o polu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> w stosunku 1 : 2, jak pokazano na rysunku poniżej. Jaki jest stosunek pola czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EFGH</mi></math> do pola prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>? Zapisz wszystkie obliczenia i podaj <strong>odpowiedź</strong>.</p>",
       "choices": [],

@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Pewna liczba jest równa czwartej części połowy dwukrotności liczby 28. Szukana liczba to:</p>",
       "choices": [
@@ -86,7 +86,7 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Licznik pierwszego ułamka jest o 1 większy od licznika drugiego ułamka, a mianownik drugiego ułamka jest o 1 większy od mianownika pierwszego ułamka.</p><p>Oceń prawdziwość podanych zdań. Wybierz P – jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -112,7 +112,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "kąty"
       ],
       "prompt_html": "<p>Pole równoległoboku o bokach 3 cm i 4 cm jest równe 12 cm². Ten równoległobok ma kąty:</p>",
       "choices": [
@@ -214,7 +215,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Liczbę dwucyfrową piszemy dwukrotnie obok siebie. Ile razy powstała w ten sposób liczba czterocyfrowa jest większa od danej na początku liczby dwucyfrowej?</p>",
       "choices": [
@@ -316,7 +317,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Jedna działka jest kwadratem o boku 80 m. Druga ma kształt prostokąta, którego długość jest o 42 m krótsza od boku kwadratu. Obwód działki prostokątnej stanowi 0,4 obwodu działki kwadratowej. Pole działki prostokątnej wynosi:</p>",
       "choices": [
@@ -418,7 +420,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Graniastosłup ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>n</mi><mo>+</mo><mn>6</mn></mrow></math> wierzchołków. Liczba wszystkich krawędzi tego graniastosłupa wynosi:</p>",
       "choices": [
@@ -572,7 +574,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "równania z jedną zmienną"
+        "ułamki"
       ],
       "prompt_html": "<p>Mieszkanie Oli ma dwa pokoje. Duży pokój ma powierzchnię trzy razy większą od powierzchni małego pokoju i zajmuje połowę powierzchni mieszkania. Powierzchnia kuchni stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>7</mn></mfrac></math>, a łazienki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>12</mn></mfrac></math> powierzchni tego mieszkania. Jaką powierzchnię ma mieszkanie Oli, jeśli przedpokój ma wymiary 1,5 m × 3 m? Zapisz obliczenia.</p>",
       "choices": [],
@@ -606,7 +608,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "geometria"
+        "geometria",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W prostokącie o wymiarach 5 cm na 3 cm, przedłużono każdy bok, z każdej strony o 2 cm i po połączeniu końców narysowanych odcinków powstała nowa figura – ośmiokąt. Oblicz pole powstałego ośmiokąta. Wykonaj rysunek.</p>",
       "choices": [],
@@ -623,7 +626,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Suma długości wszystkich krawędzi prostopadłościennego kartonu na napoje wynosi 256 cm. Różnica krawędzi podstawy jest równa 24 cm. Krawędź boczna stanowi 0,2 dłuższej krawędzi podstawy. Ile m² tektury należy przygotować na wykonanie 200 takich kartonów?</p>",

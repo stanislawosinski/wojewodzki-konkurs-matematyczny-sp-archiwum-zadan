@@ -17,8 +17,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zagadki logiczne",
-        "podzielność"
+        "podzielność",
+        "zagadki logiczne"
       ],
       "prompt_html": "<p>Na tablicy przedstawionej niżej Julka zakreśliła kółkiem cztery liczby, a następnie Janek zaznaczył krzyżykiem cztery z pozostałych pięciu liczb. Okazało się, że suma liczb zaznaczonych przez Julkę jest cztery razy mniejsza od sumy liczb zaznaczonych przez Janka.</p><table style=\"border-collapse:collapse;margin:6px 0\"><tr><td style=\"border:1px solid #000;padding:2px 10px;text-align:center\">6</td><td style=\"border:1px solid #000;padding:2px 10px;text-align:center\">28</td><td style=\"border:1px solid #000;padding:2px 10px;text-align:center\">7</td></tr><tr><td style=\"border:1px solid #000;padding:2px 10px;text-align:center\">27</td><td style=\"border:1px solid #000;padding:2px 10px;text-align:center\">16</td><td style=\"border:1px solid #000;padding:2px 10px;text-align:center\">33</td></tr><tr><td style=\"border:1px solid #000;padding:2px 10px;text-align:center\">8</td><td style=\"border:1px solid #000;padding:2px 10px;text-align:center\">5</td><td style=\"border:1px solid #000;padding:2px 10px;text-align:center\">24</td></tr></table><p>Jakiej liczby nie zaznaczono? Wybierz poprawną odpowiedź spośród podanych.</p>",
       "choices": [
@@ -79,8 +79,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty",
-        "potęgi i pierwiastki"
+        "trójkąty"
       ],
       "prompt_html": "<p>W trójkącie prostokątnym kąt zewnętrzny przyległy do mniejszego z kątów ostrych jest od niego pięć razy większy.</p><p>Uzupełnij poniższe zdania. Wybierz odpowiedź spośród oznaczonych literami A i B oraz odpowiedź spośród oznaczonych literami C i D.</p><p>Różnica miar kątów ostrych tego trójkąta wynosi:</p><p>Stosunek długości przeciwprostokątnej do długości jednej z przyprostokątnych jest równy:</p>",
       "choices": [
@@ -149,7 +148,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Bartek ma białe i szare klocki sześcienne. Białych klocków ma trzy razy więcej niż szarych. Ze wszystkich szarych klocków skleił bryłę przedstawioną na rysunku, składającą się z dwóch jednakowych elementów w kształcie litery E i łącznika w kształcie litery S.</p><p>Oblicz, ile białych klocków zostałoby Bartkowi po uzupełnieniu tej bryły do najmniejszego sześcianu.</p>",
       "choices": [],
@@ -205,7 +204,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "sześciokąty foremne"
       ],
       "prompt_html": "<p>Ania kupiła w prezencie dwa jednakowe pojemniki na przyprawy. Pojemniki te mają kształt graniastosłupa prawidłowego. Długość krawędzi podstawy pojemnika wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, wysokość jest od niej trzy razy większa, natomiast suma długości wszystkich krawędzi pojemnika jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>30</mn><mi>a</mi></mrow></math>. Ania chce zapakować te dwa pojemniki do prostopadłościennego pudełka. Ile jest pudełek o najmniejszej objętości, ale o różnych wymiarach, w których można umieścić te dwa pojemniki? Odpowiedź uzasadnij.</p>",
@@ -223,7 +222,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "pole i obwód",
         "szacowanie (zamiast obliczania)"
       ],
       "prompt_html": "<p>Pan Andrzej ma trawnik w kształcie trapezu o wymiarach: podstawy 14 m i 4 m, ramiona 10 m i 6,3 m. Do pielęgnacji trawnika stosuje sześć razy w roku nawóz. Zakupił worek, w którym jest 10 kg nawozu. Oszacuj, czy wystarczy panu Andrzejowi ta ilość nawozu na rok, jeżeli na jednokrotne użycie potrzeba 30 g nawozu na 1 m<sup>2</sup>. W obliczeniach przyjmij, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mn>6,3</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>40</mn></mrow></math>.</p>",

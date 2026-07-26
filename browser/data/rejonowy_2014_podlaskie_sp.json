@@ -51,7 +51,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Jeśli różnicę 7 i 4,8 pomnożymy przez sumę liczb 12,4 i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>17</mn><mfrac><mn>3</mn><mn>5</mn></mfrac></math>, to otrzymamy:</p>",
       "choices": [
@@ -85,7 +85,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Połowa iloczynu liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> to:</p>",
       "choices": [
@@ -120,7 +120,7 @@
       "points": 1,
       "topics": [
         "trójkąty",
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> zaznaczonego na rysunku jest równa:</p>",
       "choices": [
@@ -329,7 +329,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "koła / okręgi"
+        "bryły"
       ],
       "prompt_html": "<p>Sznur korali składa się z osiemdziesięciu ściśle do siebie przylegających kulistych koralików. Pięćdziesiąt z nich ma promień 6 mm, a pozostałe są trzy razy mniejsze. Jaka jest długość tego sznura korali?</p>",
       "choices": [
@@ -397,7 +397,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Pole rombu wynosi 62 cm². Jedna z jego przekątnych ma długość 1 dm. Jaka jest długość drugiej przekątnej?</p>",
       "choices": [
@@ -431,7 +432,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Połowa jednej tysięcznej to:</p>",
       "choices": [
@@ -465,7 +466,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Ile wszystkich wierzchołków ma graniastosłup o 18 krawędziach?</p>",
       "choices": [
@@ -533,7 +534,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Suma miar kątów wewnętrznych dowolnego siedmiokąta jest równa:</p>",
       "choices": [
@@ -601,7 +602,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Która liczba jest największa?</p>",
       "choices": [
@@ -635,7 +636,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Pole kwadratu jest równe 144 cm². Ile wynosi obwód tego kwadratu?</p>",
       "choices": [
@@ -703,8 +705,9 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Przez wierzchołek kwadratu poprowadzono prostą, która dzieli go na trójkąt o polu 24 cm² i trapez o polu 40 cm². Oblicz długości podstaw trapezu. Wykonaj rysunek pomocniczy.</p><p>Zapisz obliczenia i podaj odpowiedź.</p>",
       "choices": [],
@@ -738,8 +741,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "bryły",
-        "geometria"
+        "graniastosłupy",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Miłosz ma dwa prostopadłościenne pudełka: jedno o krawędziach 12 cm, 15 cm i 25 cm, a drugie o krawędziach 14 cm, 15 cm i 18 cm. Ma także papierowe torby w kształcie prostokąta o wymiarach 28 cm na 45 cm, otwierające się wzdłuż krótszego boku. Które z pudełek może włożyć do takiej torby i dlaczego?</p><p>Zapisz obliczenia, podaj odpowiedź i ją uzasadnij.</p>",
       "choices": [],

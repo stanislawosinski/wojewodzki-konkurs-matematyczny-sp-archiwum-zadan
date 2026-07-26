@@ -35,7 +35,7 @@
       "points": 2,
       "topics": [
         "trójkąty",
-        "wzory skróconego mnożenia"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Jeden z boków trójkąta prostokątnego ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. Bok ten jest o tyle dłuższy od boku najkrótszego, o ile jest krótszy od boku najdłuższego. Wyznacz, w zależności od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, pole tego trójkąta.</p>",
       "choices": [],
@@ -104,7 +104,8 @@
       "points": 2,
       "topics": [
         "trójkąty",
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Wyznacz stosunek pola trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>MNC</mi></math> do pola kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi></math> jest środkiem boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math>, punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>N</mi></math> leży na przekątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> i odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>MN</mi></math> jest prostopadły do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math>.</p>",
       "choices": [],
@@ -141,7 +142,7 @@
       "topics": [
         "procenty",
         "potęgi i pierwiastki",
-        "bryły",
+        "ostrosłupy",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>W poniższych zadaniach zamkniętych dokładnie jedna odpowiedź jest poprawna. Wskaż tę odpowiedź otaczając ją kółkiem.</p><p><strong>8.1</strong> W pewnych zawodach liczba wszystkich uczestników zwiększyła się w stosunku do roku ubiegłego o 32%. W roku ubiegłym liczba dziewcząt uczestniczących w tych zawodach stanowiła 55% liczby wszystkich zawodników, a w tym roku liczba dziewcząt stanowiła 50% wszystkich zawodników. W porównaniu z rokiem ubiegłym liczba dziewcząt</p><ul><li>A. zmniejszyła się o 5%</li><li>B. zwiększyła się o 32%</li><li>C. zwiększyła się o 11%</li><li>D. zwiększyła się o 20%</li></ul><p><strong>8.2</strong> Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mn>1</mn><mo>−</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>|</mo><mo>−</mo><mo>|</mo><mo>−</mo><mn>3</mn><mo>−</mo><msqrt><mn>8</mn></msqrt><mo>|</mo></mrow></math> jest równa</p><ul><li>A. 4</li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>4</mn></mrow></math></li><li>C. 2</li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>2</mn></mrow></math></li></ul><p><strong>8.3</strong> Objętość czworościanu foremnego o powierzchni całkowitej równej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt></math> jest równa</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>3</mn></msqrt><mn>4</mn></mfrac></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>12</mn></mfrac><msqrt><mn>2</mn></msqrt></mrow></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>11</mn></msqrt><mn>24</mn></mfrac></math></li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>6</mn></mfrac></math></li></ul><p><strong>8.4</strong> Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>−</mo><mn>2</mn><mo>+</mo><mn>3</mn><mo>−</mo><mn>4</mn><mo>+</mo><mn>5</mn><mo>−</mo><mn>6</mn><mo>+</mo><mo>⋯</mo><mo>+</mo><mn>2017</mn><mo>−</mo><mn>2018</mn><mo>+</mo><mn>2019</mn></mrow></math> jest równa</p><ul><li>A. 0</li><li>B. 1009</li><li>C. 1010</li><li>D. 2019</li></ul>",
@@ -160,9 +161,11 @@
       "points": 4,
       "topics": [
         "prędkość / droga / czas",
-        "geometria",
+        "trójkąty",
+        "czworokąty",
+        "kąty",
         "potęgi i pierwiastki",
-        "trójkąty"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Oceń prawdziwość zdań. Otocz kółkiem P, jeśli zdanie jest prawdziwe lub F, jeśli zdanie jest fałszywe.</p>",
       "choices": [

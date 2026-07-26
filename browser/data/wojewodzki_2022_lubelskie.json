@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Dana jest liczba</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mfrac><mn>2</mn><mrow><mn>2</mn><mo>+</mo><mfrac><mn>2</mn><mrow><mn>2</mn><mo>+</mo><mfrac><mn>2</mn><mrow><mn>2</mn><mo>+</mo><mfrac><mn>2</mn><mn>5</mn></mfrac></mrow></mfrac></mrow></mfrac></mrow></mfrac></math></p><p>Ile wynosi liczba przeciwna do połowy liczby odwrotnej do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>?</p>",
       "choices": [
@@ -129,7 +129,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "geometria",
+        "czworokąty",
         "dwusieczna kąta / symetralna odcinka"
       ],
       "prompt_html": "<p>Dany jest trapez prostokątny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>, w którym dłuższą podstawą jest bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>, a dłuższym ramieniem – bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>",
@@ -219,7 +219,8 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "geometria"
+        "geometria",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Obwód czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> wynosi 32 cm. Przekątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math> podzieliła ten czworokąt na dwa trójkąty: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCD</mi></math>, których obwody wynoszą odpowiednio: 16 cm i 30 cm. Jaką długość ma odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math>?</p>",
       "choices": [],
@@ -255,7 +256,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "geometria",
+        "układ współrzędnych",
+        "pole i obwód",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>;</mo><mo>−</mo><mn>2</mn><mo>)</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mo>(</mo><mn>4</mn><mo>;</mo><mo>−</mo><mn>4</mn><mo>)</mo></math> są wierzchołkami prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>, którego przekątne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math> przecinają się w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mo>(</mo><mn>2</mn><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>;</mo><mn>1</mn><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>)</mo></math>.</p><p>Uzupełnij luki w poniższych zdaniach – wpisz w puste miejsca odpowiednie liczby.</p><ul><li>a) Wierzchołek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> ma współrzędne …… .</li><li>b) Pole prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> wynosi …… jednostek kwadratowych.</li><li>c) Obwód trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABS</mi></math> wynosi …… jednostek.</li></ul>",
@@ -273,8 +275,9 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "geometria",
-        "dwusieczna kąta / symetralna odcinka"
+        "czworokąty",
+        "dwusieczna kąta / symetralna odcinka",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Kąt ostry równoległoboku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> ma miarę 45°, a długości boków tego równoległoboku wynoszą: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>10</mn></math> cm i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>AD</mi><mo>|</mo><mo>=</mo><mn>4</mn><msqrt><mn>2</mn></msqrt></math> cm. Symetralna boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> przecina bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math>, a bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math>. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>G</mi></math> położony jest na boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> tak, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>BG</mi><mo>|</mo><mo>:</mo><mo>|</mo><mi>GC</mi><mo>|</mo><mo>=</mo><mn>1</mn><mo>:</mo><mn>3</mn></math>. Prosta prostopadła do boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> i przechodząca przez punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>G</mi></math> przecina bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> równoległoboku w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi></math>.</p><p>Uzupełnij luki w poniższych zdaniach – wpisz w puste miejsca odpowiednie liczby.</p><ul><li>a) Obwód pięciokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EBGHF</mi></math> wynosi …… cm.</li><li>b) Przekątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EG</mi></math> pięciokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EBGHF</mi></math> ma długość …… cm.</li><li>c) Pole powierzchni czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EGHF</mi></math> wynosi …… cm².</li></ul>",
       "choices": [],
@@ -343,7 +346,8 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "bryły",
+        "graniastosłupy",
+        "ostrosłupy",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Podstawy graniastosłupa prawidłowego i ostrosłupa prawidłowego są przystającymi trójkątami. Wszystkie krawędzie graniastosłupa są równej długości, a jego objętość wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>54</mn><msqrt><mn>3</mn></msqrt></math> cm³. Długość krawędzi bocznej ostrosłupa jest równa długości przekątnej ściany bocznej graniastosłupa.</p><ul><li>a) Oblicz objętość tego ostrosłupa.</li><li>b) Graniastosłup i ostrosłup połączono podstawami tak, że te podstawy całkowicie się pokryły. Oblicz pole powierzchni całkowitej otrzymanej w ten sposób figury przestrzennej.</li></ul>",

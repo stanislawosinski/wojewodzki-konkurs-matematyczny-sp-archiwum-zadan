@@ -17,8 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "kąty"
       ],
       "prompt_html": "<p>Na rysunku obok zaznaczono kąty o miarach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>105</mn><mo>°</mo><mo>,</mo><mi>α</mi><mo>,</mo><mn>35</mn><mo>°</mo><mo>,</mo><mi>α</mi></math>. Wiadomo, że proste <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi></math> są równoległe. Ile wynosi miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>?</p>",
       "choices": [
@@ -158,8 +157,9 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
-        "proporcjonalność prosta"
+        "czworokąty",
+        "proporcjonalność prosta",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Pani Zosia potrzebuje 1 minuty, aby obejść dookoła pewien kwadratowy plac. Ile minut zajmie jej obejście w tym samym tempie kwadratowego placu o czterokrotnie większej powierzchni?</p>",
       "choices": [
@@ -296,8 +296,9 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "geometria",
+        "czworokąty",
         "trójkąty",
+        "pole i obwód",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Krótsza przekątna dzieli trapez prostokątny na dwa trójkąty, z których jeden jest równoboczny. Wysokość trapezu ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm. Oblicz pole tego trapezu i sprawdź, czy jest ono większe niż pole kwadratu o przekątnej 12 cm.</p>",
@@ -332,8 +333,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "bryły",
-        "geometria"
+        "graniastosłupy",
+        "procenty"
       ],
       "prompt_html": "<p>W pewnym zamku jest pomieszczenie, którego podłoga ma kształt figury przedstawionej na rysunku. Wysokość tego pomieszczenia wynosi 3 m.</p><ol><li>Oblicz, ile litrów farby potrzeba na pomalowanie ścian i sufitu pomieszczenia, wiedząc, że wydajność farby wynosi 1 litr na <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mspace width=\"0.15em\"></mspace><msup><mi>m</mi><mn>2</mn></msup></mrow></math> oraz że 15% powierzchni ścian stanowią okna i drzwi. (Okien i drzwi nie malujemy.)</li><li>Ile puszek farby o pojemności 3 litry wystarczy kupić, aby pomalować tę powierzchnię?</li></ol>",
       "choices": [],

@@ -17,16 +17,19 @@
       "type": "open",
       "points": 22,
       "topics": [
-        "potęgi i pierwiastki",
         "podzielność",
+        "potęgi i pierwiastki",
+        "równania z jedną zmienną",
+        "procenty",
+        "czworokąty",
+        "kąty",
+        "symetrie",
+        "pole i obwód",
+        "graniastosłupy",
+        "statystyka opisowa",
         "reszta z dzielenia",
         "NWW / NWD",
         "liczby rzymskie",
-        "bryły",
-        "geometria",
-        "statystyka opisowa",
-        "procenty",
-        "równania z jedną zmienną",
         "inne"
       ],
       "prompt_html": "<p>Rozwiąż krzyżówkę, wpisując cyfry w odpowiednie pola. Hasło, to 22 pierwsze cyfry stałej Sierpińskiego. Hasło nie jest oceniane.</p><p><strong>a)</strong> Reszta z dzielenia 1000 przez 28.</p><p><strong>b)</strong> Miara kąta ostrego rombu, którego kąt rozwarty ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>135</mn><mo>°</mo></mrow></math>.</p><p><strong>c)</strong> Największa wartość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> spełniająca równanie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>9</mn></mfrac><mi>x</mi><mo>(</mo><mi>x</mi><mo>−</mo><mn>8</mn><mo>)</mo><mo>(</mo><mn>7</mn><mo>−</mo><mi>x</mi><mo>)</mo><mo>(</mo><mn>8</mn><mo>+</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>0</mn></mrow></math>.</p><p><strong>d)</strong> Suma kwadratów dwóch najmniejszych, nieparzystych liczb pierwszych.</p><p><strong>e)</strong> Procent pierwotnej ceny artykułu, którą to cenę najpierw podniesiono o 10%, a potem nową cenę obniżono o 10%.</p><p><strong>f)</strong> Liczba przeciwna do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mroot><mrow><mo>−</mo><mn>64</mn></mrow><mn>3</mn></mroot><mn>0,5</mn></mfrac></math>.</p><p><strong>g)</strong> Kwadrat najmniejszej liczby nieparzystej, złożonej.</p><p><strong>h)</strong> Długość krawędzi sześcianu o polu powierzchni <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>294</mn></mrow></math> cm².</p><p><strong>i)</strong> Kwadrat pierwiastka sześciennego z liczby 125.</p><p><strong>j)</strong> Średnia arytmetyczna liczb: 885, 890, 895, 900, 905, 910, 915.</p><p><strong>k)</strong> Pole powierzchni sześcianu zbudowanego z 27 sześcianów jednostkowych.</p><p><strong>l)</strong> 7 cm² wyrażone w mm².</p><p><strong>m)</strong> Miara kąta utworzonego przez przekątne kwadratu.</p><p><strong>n)</strong> Liczba osi symetrii rombu, niebędącego kwadratem.</p><p><strong>o)</strong> Sześcian odwrotności liczby 0,125.</p><p><strong>p)</strong> Wartość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> w równaniu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2</mn><mi>x</mi></msup><mo>·</mo><msup><mn>3</mn><mi>x</mi></msup><mo>=</mo><mn>216</mn></mrow></math>.</p><p><strong>q)</strong> Liczba MMXXII zapisana cyframi arabskimi.</p><p><strong>r)</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>NWD</mtext><mo>(</mo><mn>462</mn><mo>,</mo><mn>1820</mn><mo>)</mo></mrow></math>.</p><p><strong>s)</strong> Pierwszy rok osiemnastego wieku.</p><p><strong>t)</strong> Największa liczba trzycyfrowa podzielna przez 15.</p><p><strong>u)</strong> Liczba ósemek, które trzeba dodać, aby otrzymać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>8</mn><mn>3</mn></msup></math>.</p><p><strong>v)</strong> Pole kwadratu, którego przekątna ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><msqrt><mn>2</mn></msqrt></mrow></math>.</p>",
@@ -148,7 +151,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "kąty"
       ],
       "prompt_html": "<p>Różnica miar dwóch sąsiednich kątów wewnętrznych równoległoboku jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>40</mn><mo>°</mo></mrow></math>. Kąt rozwarty tego równoległoboku ma miarę</p>",
       "choices": [
@@ -182,8 +186,9 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty",
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód",
+        "procenty"
       ],
       "prompt_html": "<p>Podstawa trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>1</mn></msub></math> jest o 30% krótsza niż podstawa trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>2</mn></msub></math>. Wysokość trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>1</mn></msub></math> jest o 40% dłuższa niż wysokość trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>2</mn></msub></math>. Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>1</mn></msub></math> jest od pola trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>2</mn></msub></math> o</p>",
       "choices": [
@@ -251,7 +256,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W trójkącie prostokątnym równoramiennym odległość wierzchołka kąta prostego od przeciwprostokątnej jest równa 6. Pole tego trójkąta jest równe</p>",
       "choices": [
@@ -285,7 +291,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Liczba wszystkich krawędzi graniastosłupa jest o 14 większa od liczby jego ścian. Podstawą tego graniastosłupa jest</p>",
       "choices": [
@@ -387,7 +393,8 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "kąty",
         "trójkąty"
       ],
       "prompt_html": "<p>W czworokącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>150</mn><mo>°</mo></mrow></math>, a kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BAD</mi></math> ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>30</mn><mo>°</mo></mrow></math>. Przekątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math> czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> jest prostopadła do boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> i ma długość równą długości boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>.</p><p>Oceń, czy podane zdania są prawdziwe, czy fałszywe.</p>",
@@ -456,8 +463,9 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "geometria",
-        "dwusieczna kąta / symetralna odcinka"
+        "czworokąty",
+        "dwusieczna kąta / symetralna odcinka",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W trapezie równoramiennym przekątna jest dwusieczną kąta ostrego. Obwód tego trapezu wynosi 30 cm, a krótsza podstawa ma długość 6 cm.</p><p>Oceń, czy podane zdania są prawdziwe, czy fałszywe.</p>",
       "choices": [

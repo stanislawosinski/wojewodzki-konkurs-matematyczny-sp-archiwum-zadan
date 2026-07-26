@@ -63,7 +63,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "proporcjonalność prosta"
+        "proporcjonalność prosta",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Na planie miasta, narysowanym w skali 1:50000, las jest prostokątem o bokach 4 cm i 5 cm. Wynika stąd, że ten las ma powierzchnię:</p>",
       "choices": [
@@ -85,7 +86,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "ostrosłupy"
       ],
       "prompt_html": "<p>Jeżeli długość każdej krawędzi podstawy ostrosłupa prawidłowego czworokątnego zwiększymy 2 razy, a jego wysokość zmniejszymy 2 razy, to objętość ostrosłupa:</p>",
       "choices": [
@@ -153,7 +154,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Przekrój graniastosłupa prawidłowego czworokątnego jest prostokątem, zaznaczonym na rysunku. Wymiary tego prostokąta wynoszą odpowiednio 4 <em>cm</em> i 0,5 <em>dm</em>. Wiedząc, że wysokość tego graniastosłupa jest równa 0,5 <em>dm</em> to objętość tego graniastosłupa wynosi:</p>",
       "choices": [
@@ -201,8 +202,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Z prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> o obwodzie 60 wycięto trójkąt równoboczny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BPC</mi></math> o obwodzie 30 (tak, jak pokazano na rysunku). Obwód pięciokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABPCD</mi></math> jest równy:</p>",
       "choices": [
@@ -295,7 +296,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "układ współrzędnych"
       ],
       "prompt_html": "<p>W układzie współrzędnych dane są punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>(</mo><mi>a</mi><mo>,</mo><mn>8</mn><mo>)</mo></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mo>(</mo><mn>9</mn><mo>,</mo><mi>b</mi><mo>)</mo></math>. Środkiem odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> jest punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mo>(</mo><mn>5</mn><mo>,</mo><mn>3</mn><mo>)</mo></math>. Wynika stąd, że</p>",
       "choices": [
@@ -317,7 +318,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "koła / okręgi"
+        "koła / okręgi",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Pole koła o obwodzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mi>π</mi></math> wynosi:</p>",
       "choices": [
@@ -472,7 +474,7 @@
       "points": 4,
       "topics": [
         "trójkąty",
-        "geometria"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest równoboczny. Wewnątrz trójkąta obrano punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math>, którego odległości od boków trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CA</mi></math> wynoszą odpowiednio <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>3</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>3</mn></msqrt></math> (patrz rysunek). Oblicz pole i obwód tego trójkąta.</p>",
       "choices": [],
@@ -492,7 +494,7 @@
       "points": 4,
       "topics": [
         "trójkąty",
-        "geometria",
+        "układ współrzędnych",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Wykaż, że trójkąt o wierzchołkach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>(</mo><mo>−</mo><mn>2</mn><mo>,</mo><mn>1</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>(</mo><mn>4</mn><mo>,</mo><mn>5</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>(</mo><mn>10</mn><mo>,</mo><mo>−</mo><mn>4</mn><mo>)</mo></math> jest prostokątny.</p>",
@@ -528,7 +530,7 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "bryły",
+        "ostrosłupy",
         "trójkąty"
       ],
       "prompt_html": "<p>Podstawą ostrosłupa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDW</mi></math> jest prostokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>, krawędź boczna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DW</mi></math> jest wysokością tego ostrosłupa. Oblicz objętość tego ostrosłupa, jeśli najdłuższa krawędź boczna ma długość równą 12 cm i jest nachylona do płaszczyzny podstawy pod kątem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>45</mn><mo>°</mo></math>, a przekątne podstawy przecinają się pod kątem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn><mo>°</mo></math>.</p>",

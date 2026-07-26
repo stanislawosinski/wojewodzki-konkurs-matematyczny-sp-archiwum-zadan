@@ -51,7 +51,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> jest liczbą przeciwną do liczby odwrotnej do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math>. Która z podanych liczb jest równa iloczynowi liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math>?</p><p>Jedna z podanych odpowiedzi jest poprawna. Zaznacz kółkiem właściwą odpowiedź.</p>",
       "choices": [
@@ -119,7 +119,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Wiadomo, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mi>x</mi></mfrac><mo>=</mo><mn>3,5</mn></math>. Która z podanych liczb jest równa wartości wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><mi>x</mi><mo>+</mo><mn>2</mn></mrow></mfrac></math>?</p><p>Jedna z podanych odpowiedzi jest poprawna. Zaznacz kółkiem właściwą odpowiedź.</p>",
       "choices": [
@@ -252,7 +252,8 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "pole i obwód",
         "wzory skróconego mnożenia"
       ],
       "prompt_html": "<p>Pole powierzchni kwadratowej działki wynosi 81 arów. Druga działka, w kształcie prostokąta, jest od niej dłuższa o 30 m, ale jednocześnie o 30 m węższa.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe. Wybraną odpowiedź zaznacz kółkiem.</p>",
@@ -444,7 +445,8 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "kąty"
       ],
       "prompt_html": "<p>Dany jest równoległobok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> (patrz rysunek).</p><p>Uzupełnij zdanie, wpisując tylko liczbę.</p><p>Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> ma miarę …………………………………………… stopni.</p>",
       "choices": [],
@@ -463,6 +465,7 @@
       "type": "open",
       "points": 1,
       "topics": [
+        "kąty",
         "trójkąty"
       ],
       "prompt_html": "<p>Uzupełnij zdanie, wpisując tylko liczbę.</p><p>Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> zaznaczonego na rysunku (powyżej) wynosi …………………… stopni.</p>",
@@ -483,7 +486,7 @@
       "points": 2,
       "topics": [
         "trójkąty",
-        "potęgi i pierwiastki"
+        "pole i obwód"
       ],
       "prompt_html": "<p>W pewnym trójkącie prostokątnym jeden z kątów ostrych ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>°</mo></math>, a krótsza przyprostokątna ma długość 2.</p><p>Uzupełnij zdania, wpisując tylko liczby.</p><ul><li>a) Dłuższa przyprostokątna tego trójkąta ma długość …………………………………………</li><li>b) Pole tego trójkąta jest równe …………………………………………</li></ul>",
       "choices": [],

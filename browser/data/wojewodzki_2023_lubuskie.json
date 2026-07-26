@@ -105,7 +105,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty"
       ],
       "prompt_html": "<p>Natalia narysowała deltoid, w którym długość boku wynosi 5 cm, a długość jednej przekątnej 10 cm. O drugiej przekątnej można powiedzieć, że jej długość jest</p>",
       "choices": [
@@ -127,7 +127,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "symetrie"
       ],
       "prompt_html": "<p>Przekątne są jedynymi osiami symetrii</p>",
       "choices": [
@@ -259,7 +259,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Podczas lekcji matematyki uczniowie pewnej klasy pracowali z modelami brył geometrycznych: sześcianem i graniastosłupem prawidłowym czworokątnym, o przystających podstawach. Powierzchnia całkowita sześcianu jest równa 150 cm², a graniastosłupa 210 cm². Oto niektóre informacje zapisane przez uczniów:</p><ul><li><em>Graniastosłup jest o 3 cm wyższy od sześcianu.</em></li><li><em>Sześcian ma objętość 125 cm³.</em></li><li><em>Pole powierzchni bocznej graniastosłupa jest równe 160 cm².</em></li><li><em>Krawędzie podstawy każdej z tych brył mają długość 4 cm.</em></li></ul><p>Ile spośród powyższych zdań to informacje prawdziwe?</p>",
       "choices": [
@@ -304,7 +304,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Rysunek przedstawia pięciokąt, który Michał ułożył z czterech trójkątów równobocznych. Obwód tego pięciokąta wynosi</p>",
       "choices": [
@@ -350,7 +351,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Mrówka siedzi w punkcie S na środku górnej podstawy sześciennego pudełka o krawędzi 2. Najkrótsza długość drogi, jaką mrówka chce przejść po powierzchni pudełka z punktu S do wierzchołka M leżącego na dolnej podstawie, wynosi</p>",
       "choices": [
@@ -419,7 +420,7 @@
       "points": 1,
       "topics": [
         "trójkąty",
-        "geometria"
+        "układ współrzędnych"
       ],
       "prompt_html": "<p><em>Rozpiętością</em> figury nazywamy najmniejszą z odległości między prostymi równoległymi, pomiędzy którymi zawarta jest figura. Na przykład rozpiętością półokręgu jest długość promienia, rozpiętością prostokąta jest długość krótszego boku. Dane są punkty: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>(</mo><mn>1</mn><mo>,</mo><mn>4</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mo>(</mo><mn>5</mn><mo>,</mo><mn>1</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>=</mo><mo>(</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>)</mo></math>, będące wierzchołkami trójkąta ABC. Jaka jest rozpiętość tego trójkąta?</p>",
       "choices": [
@@ -441,7 +442,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
+        "czworokąty",
         "trójkąty"
       ],
       "prompt_html": "<p>Patryk narysował cztery prostokąty o wymiarach podanych w tabeli.</p><table><tr><td>P<sub>1</sub></td><td>4 cm x 10 cm</td></tr><tr><td>P<sub>2</sub></td><td>7 cm x 7 cm</td></tr><tr><td>P<sub>3</sub></td><td>6 cm x 8 cm</td></tr><tr><td>P<sub>4</sub></td><td>5 cm x 9 cm</td></tr></table><p>Przekątna którego prostokąta jest najdłuższa?</p>",
@@ -464,7 +465,8 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "reszta z dzielenia"
+        "reszta z dzielenia",
+        "ułamki"
       ],
       "prompt_html": "<p>Oceń, czy informacje dotyczące ułamka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>11</mn></mfrac></math> są prawdziwe.</p>",
       "choices": [
@@ -508,7 +510,8 @@
       "topics": [
         "trójkąty",
         "sześciokąty foremne",
-        "podzielność"
+        "podzielność",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Oceń informacje dotyczące wielokątów.</p>",
       "choices": [
@@ -605,8 +608,9 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Z dwóch przeciwległych wierzchołków prostokąta zostały poprowadzone prostopadłe odcinki do przekątnej. Odcinki te podzieliły przekątną na trzy części o długościach: 3 cm, 6 cm, 3 cm. Oblicz pole tego prostokąta. Wykonaj odpowiedni rysunek.</p>",
       "choices": [],

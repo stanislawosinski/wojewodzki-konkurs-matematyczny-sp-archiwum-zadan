@@ -51,8 +51,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "trójkąty",
+        "kąty"
       ],
       "prompt_html": "<p>Geodeta próbował zmierzyć w terenie kąt δ (rysunek obok). Ze względu na warunki terenowe nie było to możliwe, więc zmierzył kąty oznaczone na rysunku przez α, β, γ i otrzymał: α = 22°, β = 37°, γ = 46°. Kąt δ ma miarę</p>",
       "choices": [
@@ -191,8 +191,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty",
-        "geometria"
+        "trójkąty"
       ],
       "prompt_html": "<p>Czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> jest kwadratem. Trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDG</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EBF</mi></math> są podobne. Skala podobieństwa większego z nich do mniejszego jest równa</p>",
       "choices": [
@@ -298,7 +297,8 @@
       "points": 1,
       "topics": [
         "koła / okręgi",
-        "procenty"
+        "procenty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Jaki procent powierzchni koła zamalowano (rysunek obok)?</p>",
       "choices": [
@@ -368,7 +368,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Które z podanych wyrażeń dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mo>−</mo><mn>3</mn></mrow></math> przyjmuje inną wartość niż dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>3</mn></mrow></math>?</p>",
       "choices": [
@@ -470,7 +470,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "układ współrzędnych",
+        "czworokąty"
       ],
       "prompt_html": "<p>Marysia narysowała w układzie współrzędnych równoległobok nr 1. Kolejne przystające do niego równoległoboki rysowała według zasady (rysunek): <em>środek górnego boku ostatnio narysowanego równoległoboku to dolny lewy wierzchołek następnego równoległoboku</em>. W ten sposób Marysia narysowała <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> równoległoboków. Współrzędna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> prawego górnego wierzchołka równoległoboku o numerze <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest równa</p>",
       "choices": [
@@ -541,7 +542,9 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "układ współrzędnych",
+        "pole i obwód",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Ile wynoszą pole i obwód kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>, którego środkiem symetrii jest punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>O</mi><mo>=</mo><mo>(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo>)</mo></mrow></math>, a wierzchołek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> ma współrzędne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>0</mn><mo>,</mo><mo>−</mo><mn>8</mn><mo>)</mo></mrow></math>?</p>",
@@ -576,7 +579,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>+</mo><mfrac><mn>5</mn><mn>6</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>+</mo><mfrac><mn>7</mn><mn>10</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>+</mo><mfrac><mn>9</mn><mn>14</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mn>7</mn></mfrac><mo>+</mo><mfrac><mn>11</mn><mn>18</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mn>9</mn></mfrac><mo>+</mo><mfrac><mn>13</mn><mn>22</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mn>11</mn></mfrac><mo>+</mo><mfrac><mn>15</mn><mn>26</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mn>13</mn></mfrac></math> jest równa</p>",
       "choices": [
@@ -645,7 +648,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Suma liczby ścian, krawędzi i wierzchołków pewnego graniastosłupa jest równa 44. Podstawą tego graniastosłupa jest</p>",
       "choices": [
@@ -752,7 +755,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W trójkącie prostokątnym najdłuższy bok jest o 4,5 cm dłuższy od najkrótszego boku. Średni bok ma długość 7,5 cm. Oblicz długość najkrótszej wysokości tego trójkąta.</p>",
       "choices": [],
@@ -769,8 +773,9 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "bryły",
-        "sześciokąty foremne"
+        "graniastosłupy",
+        "sześciokąty foremne",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Graniastosłup prawidłowy sześciokątny o wszystkich krawędziach długości 8 cm przecięto, otrzymując graniastosłup trójkątny i graniastosłup pięciokątny (rysunek obok). Oblicz pole powierzchni całkowitej graniastosłupa pięciokątnego.</p>",
       "choices": [],
@@ -789,7 +794,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Wojtek wykonał drewniany model sześcianu (rysunek obok). Używał listewek, których przekrój poprzeczny jest kwadratem o boku 2 cm. Masa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mtext> </mtext><msup><mtext>cm</mtext><mn>3</mn></msup></mrow></math> drewna, z którego je wykonano, jest równa 0,8 g. Oblicz masę tego modelu, jeżeli krawędź sześcianu ma długość 20 cm.</p>",
       "choices": [],

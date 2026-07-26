@@ -52,7 +52,7 @@
       "points": 1,
       "topics": [
         "zliczanie / metody zliczania",
-        "geometria"
+        "podzielność"
       ],
       "prompt_html": "<p>W 30-kącie foremnym, rozpoczynając od wierzchołka, który oznaczono literą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>, poprowadzono kolejno odcinki, łącząc co drugi wierzchołek tego wielokąta, aż do powrotu do punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>. W ten sposób otrzymano łamaną <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>X</mi></math>. Analogicznie – rozpoczynając od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i łącząc co trzeci wierzchołek aż do powrotu do punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>, otrzymano łamaną <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi></math>. Ile wierzchołków tego 30-kąta nie należy ani do łamanej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>X</mi></math>, ani do łamanej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi></math>?</p>",
       "choices": [
@@ -121,7 +121,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "układ współrzędnych"
       ],
       "prompt_html": "<p>Na osi liczbowej zaznaczono punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> o współrzędnej 3 i punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> o współrzędnej 7 oraz wszystkie punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>X</mi></math> takie, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AX</mi><mo>+</mo><mi>BX</mi><mo>=</mo><mn>4</mn></math>. Wszystkie zaznaczone punkty wyznaczyły pewien odcinek. Jaka jest długość tego odcinka?</p>",
       "choices": [
@@ -191,7 +191,7 @@
       "points": 1,
       "topics": [
         "trójkąty",
-        "geometria"
+        "pole i obwód"
       ],
       "prompt_html": "<p>W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> o wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi><mo>=</mo><mn>10</mn></math> cm wierzchołki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> połączone są łamaną <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AXYZB</mi></math>, której każde dwa sąsiednie boki są prostopadłe. Długości tych boków podano na rysunku. Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest równe</p>",
       "choices": [
@@ -228,7 +228,7 @@
       "points": 1,
       "topics": [
         "trójkąty",
-        "geometria"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Trójkąt równoboczny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> i trójkąt prostokątny równoramienny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABD</mi></math> położone są tak, jak na rysunku. Odcinki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math> przecinają się w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math>. Wspólna część obu trójkątów ma pole równe 3 cm<sup>2</sup>. Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AED</mi></math> jest równe</p>",
       "choices": [
@@ -264,8 +264,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły",
-        "geometria"
+        "graniastosłupy",
+        "trójkąty"
       ],
       "prompt_html": "<p>Na papierowym modelu sześcianu o krawędzi długości 6 cm narysowano linię <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> łączącą wierzchołek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> ze środkiem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> krawędzi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>PQ</mi></math> i przebiegającą przez ściany o wspólnym wierzchołku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi></math> tak, jak na rysunku 1. Następnie rozcięto ten model i otrzymano siatkę sześcianu taką, jak na rysunku 2. Na siatce linia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> jest odcinkiem. Długość tego odcinka jest równa</p>",
       "choices": [
@@ -321,7 +321,8 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "kąty"
       ],
       "prompt_html": "<p>Przekątna równoległoboku, łącząca wierzchołki jego kątów ostrych, dzieli każdy z tych kątów na dwa kąty, których miary różnią się o 5°, a druga przekątna dzieli każdy z dwóch pozostałych kątów równoległoboku na dwa kąty, których miary różnią się o 15°.</p><p>Miara kąta rozwartego między tymi przekątnymi jest równa …… stopni.</p>",
       "choices": [],
@@ -338,7 +339,8 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> jest środkiem boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> przedstawionego na rysunku poniżej, a punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math> jest punktem przecięcia się przekątnych tego kwadratu. Pole wielokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABFCE</mi></math>, zamalowanego na rysunku na szaro, stanowi pewien ułamek pola kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>.</p><p>Tym ułamkiem jest …… .</p>",
       "choices": [],
@@ -376,7 +378,7 @@
       "points": 2,
       "topics": [
         "trójkąty",
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Na prostej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> obrano punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>, a poza nią punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>. Odcinki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CA</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CB</mi></math> i prosta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> wyznaczają kąty, których miary są opisane na rysunku. Odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> ma długość 10 cm.</p><ul><li>A. Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest równa …… stopni.</li><li>B. Odległość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> od prostej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> jest równa …… centymetrów.</li></ul>",
       "choices": [],
@@ -415,7 +417,7 @@
       "topics": [
         "trójkąty",
         "procenty",
-        "geometria"
+        "pole i obwód"
       ],
       "prompt_html": "<p>W trójkącie prostokątnym równoramiennym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> umieszczono, tak jak na rysunku poniżej, 10 jednakowych kwadratów – każdy o polu 8 cm<sup>2</sup>. Niektóre z tych kwadratów zamalowano na szaro.</p><ul><li>A. Pole niezamalowanej na szaro części trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> stanowi …… procent pola tego trójkąta.</li><li>B. Przeciwprostokątna trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> ma długość …… cm.</li><li>C. Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest równe polu kwadratu o boku długości …… cm.</li></ul>",
       "choices": [],

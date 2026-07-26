@@ -61,8 +61,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zliczanie / metody zliczania",
-        "równania z jedną zmienną"
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Ile jest par liczb naturalnych trzycyfrowych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> takich, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>&gt;</mo><mi>k</mi></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>−</mo><mi>k</mi><mo>=</mo><mn>345</mn></mrow></math>?</p>",
       "choices": [
@@ -84,7 +83,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>O dodatnich liczbach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> wiadomo, że liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>5</mn></mfrac></math> liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math>, liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math> liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>8</mn></mfrac></math> liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>. Najmniejszą z tych czterech liczb jest</p>",
       "choices": [
@@ -106,7 +105,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>+</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>+</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>+</mo><mfrac><mn>4</mn><mn>5</mn></mfrac><mo>+</mo><mfrac><mn>5</mn><mn>6</mn></mfrac></mrow><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>·</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>·</mo><mfrac><mn>4</mn><mn>5</mn></mfrac><mo>·</mo><mfrac><mn>5</mn><mn>6</mn></mfrac></mrow></mfrac></math> jest równa</p>",
       "choices": [
@@ -194,7 +193,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
+        "układ współrzędnych",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Na papierze w kratkę zaznaczono 16 punktów, tak jak na rysunku, i dwa z nich połączono odcinkiem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. Ile jest odcinków prostopadłych do odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, których końcami są zaznaczone punkty?</p>",
@@ -220,7 +219,7 @@
       "points": 1,
       "topics": [
         "trójkąty",
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>W kwadracie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> umieszczono trójkąt równoboczny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CEF</mi></math>, którego wierzchołek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math> leży na przekątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math> kwadratu (patrz rysunek). Wskaż trójkąt, w którym różnica miar największego i najmniejszego kąta jest równa 30°.</p>",
       "choices": [
@@ -244,7 +243,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Dokończ zdanie tak, aby otrzymać zdanie <u>fałszywe</u>.</p><p>Trójkąt, którego jeden z boków ma długość 6 cm, a drugi 8 cm może mieć</p>",
       "choices": [
@@ -267,7 +267,7 @@
       "points": 1,
       "topics": [
         "trójkąty",
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> poprowadzono odcinki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AE</mi></math> oraz zaznaczono miary niektórych kątów (patrz rysunek). Suma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>β</mi><mo>+</mo><mi>γ</mi></mrow></math> jest równa</p>",
       "choices": [
@@ -291,7 +291,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "kąty"
       ],
       "prompt_html": "<p>Trzy spośród czterech podanych niżej związków zachodzą dla każdego trójkąta równoramiennego, w którym miarę kąta między ramionami oznaczono przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>, a miarę kąta przy podstawie przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math>. Wskaż związek, który <u>nie zachodzi</u>.</p>",
       "choices": [
@@ -336,7 +337,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>W prostopadłościanie, którego podstawy są kwadratami, stosunek pola powierzchni bocznej do pola powierzchni całkowitej jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac></math>. Ile jest równy stosunek długości krawędzi podstawy do krawędzi bocznej tej bryły?</p>",
       "choices": [
@@ -393,7 +394,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "inne"
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Asia wypisała zestaw liczb całkowitych, rozpoczynając od liczby −25 i dopisując następne tak, aby kolejna liczba była o 5 większa od poprzedniej. Wypisywanie zakończyła na liczbie 50.</p><ul><li>Asia wypisała ............ liczb.</li><li>Suma wszystkich liczb wypisanych przez Asię jest równa ............ .</li></ul>",
       "choices": [],
@@ -427,7 +428,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "bryły",
+        "graniastosłupy",
+        "wyrażenia algebraiczne",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Dany jest graniastosłup, którego podstawa jest wielokątem foremnym o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> bokach. Uzupełnij puste pola.</p><ul><li>Wybrano jedną ścianę boczną tego graniastosłupa. Za pomocą wyrażenia algebraicznego zapisz w pustym miejscu, ile jest wszystkich ścian, które nie mają żadnego punktu wspólnego z wybraną ścianą. Takich ścian jest ............ .</li><li>Wybrano jedną krawędź podstawy tego graniastosłupa. Za pomocą wyrażenia algebraicznego zapisz w pustym miejscu, ile jest wszystkich krawędzi, które nie mają żadnego punktu wspólnego z wybraną krawędzią. Takich krawędzi jest ............ .</li></ul>",

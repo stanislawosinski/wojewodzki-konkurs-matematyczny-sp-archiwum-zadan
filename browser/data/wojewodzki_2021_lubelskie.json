@@ -61,7 +61,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "układ współrzędnych"
       ],
       "prompt_html": "<p>Dane są punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>(</mo><mn>3</mn><mo>;</mo><mo>−</mo><mn>1</mn><mo>)</mo></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>(</mo><mo>−</mo><mn>7</mn><mo>;</mo><mn>3</mn><mo>)</mo></math>. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> jest środkiem odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>. Zatem punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> ma współrzędne</p>",
       "choices": [
@@ -206,7 +206,7 @@
       "points": 1,
       "topics": [
         "pierścień kołowy",
-        "koła / okręgi"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Z koła o obwodzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mi>π</mi></math> cm wycięto koło o tym samym środku i obwodzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>π</mi></math> cm. Jakie jest pole powierzchni powstałego pierścienia kołowego?</p>",
       "choices": [],
@@ -223,7 +223,7 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Objętość sześcianu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>216</mn><msup><mi>cm</mi><mn>3</mn></msup></math>. O ile cm należy zwiększyć długość każdej krawędzi tego sześcianu, by jego pole powierzchni zwiększyło się o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>168</mn><msup><mi>cm</mi><mn>2</mn></msup></math>?</p>",
       "choices": [],
@@ -240,7 +240,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "geometria",
+        "układ współrzędnych",
+        "pole i obwód",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>(</mo><mo>−</mo><mn>5</mn><mo>;</mo><mo>−</mo><mn>2</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>(</mo><mo>−</mo><mn>2</mn><mo>;</mo><mo>−</mo><mn>6</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>(</mo><mn>4</mn><mo>;</mo><mn>4</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mo>(</mo><mo>−</mo><mn>2</mn><mo>;</mo><mn>8</mn><mo>)</mo></math> są wierzchołkami czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>.</p><p>Uzupełnij luki w poniższych zdaniach – wpisz w puste miejsca odpowiednie liczby.</p><ul><li>a) Długość boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> tego czworokąta wynosi …… .</li><li>b) Pole powierzchni czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> wynosi …… .</li><li>c) Długość odcinka łączącego wierzchołek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> ze środkiem boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> wynosi …… .</li></ul>",
@@ -328,8 +329,9 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "trójkąty",
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W czworokącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> kąty przy wierzchołkach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> są proste. Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCD</mi></math> jest sześć razy mniejsze od pola czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>. Oblicz stosunek pola trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACD</mi></math> do pola trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCD</mi></math>.</p>",
       "choices": [],
@@ -346,7 +348,7 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "bryły",
+        "ostrosłupy",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Przekątna podstawy ostrosłupa prawidłowego czworokątnego ma długość 12 cm. Krawędź boczna tego ostrosłupa ma długość 10 cm. Oblicz pole powierzchni całkowitej i objętość tego ostrosłupa.</p>",

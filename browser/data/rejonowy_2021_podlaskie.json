@@ -107,7 +107,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "pole i obwód",
         "podzielność"
       ],
       "prompt_html": "<p>Z 24 kwadratów o boku równym 1 zbudowano prostokąt. Która z liczb nie może być obwodem tego prostokąta?</p>",
@@ -176,7 +177,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Sześcian o polu powierzchni całkowitej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2,4</mn><mo>·</mo><msup><mn>10</mn><mn>7</mn></msup></math> cm² ma objętość równą</p>",
@@ -221,7 +222,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "układ współrzędnych"
       ],
       "prompt_html": "<p>W prostokątnym układzie współrzędnych dane są punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi><mo>=</mo><mo>(</mo><mi>a</mi><mo>,</mo><mn>0</mn><mo>)</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi><mo>=</mo><mo>(</mo><mn>0</mn><mo>,</mo><mi>b</mi><mo>)</mo></math>. Jeżeli środkiem odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KL</mi></math> jest punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>4</mn><mo>,</mo><mn>2</mn><mo>)</mo></math>, to</p>",
       "choices": [
@@ -312,7 +313,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "kąty"
       ],
       "prompt_html": "<p>Miary dwóch kątów wewnętrznych trójkąta są równe 36° i 64°. Kąt przyległy do trzeciego kąta tego trójkąta ma</p>",
       "choices": [
@@ -334,8 +336,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Przekątne rombu o obwodzie 200 cm mają długości 80 cm i 60 cm. Wysokość tego rombu jest równa</p>",
       "choices": [
@@ -357,7 +359,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "proporcjonalność prosta"
       ],
       "prompt_html": "<p>Napełnienie wodą prostopadłościennego akwarium o wymiarach 20 cm, 40 cm, 25 cm trwało 1,5 minuty. Ile czasu zajmie napełnienie w takim samym tempie akwarium o wymiarach 50 cm, 10 cm, 40 cm?</p>",
@@ -380,7 +382,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Pole powierzchni całkowitej graniastosłupa prawidłowego trójkątnego o krawędzi podstawy 8 cm jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>104</mn><msqrt><mn>3</mn></msqrt></math> cm². Ile jest równa wysokość tego graniastosłupa?</p>",
@@ -403,7 +405,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Liczby: 0,284; 7,376; 5,145 zaokrąglono do części setnych, a otrzymane zaokrąglenia dodano. Uzyskana w ten sposób suma po zaokrągleniu do części dziesiątych jest równa</p>",
       "choices": [
@@ -425,8 +427,9 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Przekątna prostokąta tworzy kąt o mierze 60° z krótszym bokiem o długości 4 cm. Pole prostokąta jest równe</p>",
       "choices": [
@@ -471,7 +474,8 @@
       "points": 3,
       "topics": [
         "trójkąty",
-        "geometria"
+        "geometria",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Z czterech przystających trójkątów prostokątnych o przyprostokątnych długości 12 cm i 16 cm ułożono figurę taką jak na rysunku. Oblicz obwód tej figury.</p>",
       "choices": [],
@@ -490,8 +494,9 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "trójkąty",
+        "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Dany jest trapez równoramienny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>, w którym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi><mo>=</mo><mi>CD</mi><mo>=</mo><mi>DA</mi></math>, a przekątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> jest prostopadła do boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>. Oblicz miary kątów tego trapezu. Przedstawiając rozwiązanie, zapisuj z jakich zależności korzystasz.</p>",
       "choices": [],
@@ -528,7 +533,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>W graniastosłupie prawidłowym czworokątnym obwód ściany bocznej jest o 10 cm większy od obwodu podstawy, a pole ściany bocznej – o 50 cm² większe od pola podstawy. Oblicz objętość tego graniastosłupa.</p>",
@@ -547,7 +552,8 @@
       "points": 4,
       "topics": [
         "sześciokąty foremne",
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Proste <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> zawierają równoległe boki sześciokąta foremnego (zob. rysunek). Odległość między prostymi jest równa 6 cm. Oblicz obwód i pole sześciokąta.</p>",
       "choices": [],
@@ -566,8 +572,9 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "trójkąty",
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Kwadratowy klomb o polu 64 m² (zob. rysunek) podzielono na dziewięć części:</p><ul><li>dwa sektory w kształcie trójkąta równoramiennego A, każdy o polu 12 m²,</li><li>dwa sektory w kształcie trójkąta równoramiennego B, każdy o polu 8 m²,</li><li>romb R,</li><li>cztery przystające trójkąty X.</li></ul><p>Oblicz pole trójkąta X.</p>",
       "choices": [],

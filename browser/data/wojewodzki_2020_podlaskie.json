@@ -17,8 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty",
-        "geometria"
+        "czworokąty"
       ],
       "prompt_html": "<p>Rysunek przedstawia trapez prostokątny. Dłuższa podstawa tego trapezu ma</p>",
       "choices": [
@@ -227,7 +226,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
+        "czworokąty",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Długość jednego z boków równoległoboku przedstawia wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mi>x</mi><mo>+</mo><mn>10</mn></mrow></math>, dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>&gt;</mo><mn>0</mn></mrow></math>, natomiast obwód tego równoległoboku opisuje wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>14</mn><mi>x</mi><mo>+</mo><mn>24</mn></mrow></math>. Długość drugiego boku tej figury można zapisać jako</p>",
@@ -297,7 +296,7 @@
       "points": 1,
       "topics": [
         "trójkąty",
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>, przedstawionego na rysunku obok, jest równa</p>",
       "choices": [
@@ -367,7 +366,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "koła / okręgi"
+        "koła / okręgi",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Z koła o promieniu 16 cm wycięto trzy mniejsze koła, każde o obwodzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>12</mn><mi>π</mi></mrow></math> cm (rysunek obok). Pole zacieniowanej figury jest równe</p>",
       "choices": [
@@ -403,7 +403,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy",
+        "ostrosłupy"
       ],
       "prompt_html": "<p>Graniastosłup i ostrosłup mają takie same podstawy i równe objętości. Ostrosłup ma wysokość 114 cm. Wysokość graniastosłupa jest równa</p>",
       "choices": [
@@ -437,7 +438,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "ostrosłupy"
       ],
       "prompt_html": "<p>Długość krawędzi czworościanu foremnego jest równa 6 cm. Które zdanie jest fałszywe?</p>",
       "choices": [
@@ -506,7 +507,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "potęgi i pierwiastki",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Pole prostokąta o bokach długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>·</mo><msup><mn>10</mn><mn>5</mn></msup></mrow></math> cm i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mo>·</mo><msup><mn>10</mn><mn>4</mn></msup></mrow></math> cm zapisane w notacji wykładniczej jest równe</p>",
       "choices": [
@@ -713,6 +715,7 @@
       "points": 2,
       "topics": [
         "koła / okręgi",
+        "pole i obwód",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Udowodnij, że suma pól ćwierćkół zbudowanych na przyprostokątnych trójkąta prostokątnego jest równa polu ćwierćkoła zbudowanego na jego przeciwprostokątnej.</p>",
@@ -750,8 +753,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Dany jest trapez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> o podstawach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AB</mi><mo>=</mo><mn>36</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>CD</mi><mo>=</mo><mn>14</mn></mrow></math>. Na podstawie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> leży taki punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math>, że odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CE</mi></math> rozcina trapez na dwie figury o równych polach. Oblicz długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AE</mi></math>.</p>",
       "choices": [],
@@ -788,8 +791,10 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "układ współrzędnych",
+        "symetrie",
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W prostokątnym układzie współrzędnych zaznaczono trzy punkty: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mo>=</mo><mo>(</mo><mo>−</mo><mi>b</mi><mo>+</mo><mn>5</mn><mo>,</mo><mn>2</mn><mi>a</mi><mo>−</mo><mn>1</mn><mo>)</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>B</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>2</mn><mi>a</mi><mo>−</mo><mn>4</mn><mo>,</mo><mo>−</mo><mi>a</mi><mo>+</mo><mn>2</mn><mo>)</mo></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>C</mi><mo>=</mo><mo>(</mo><mn>4</mn><mo>,</mo><mn>0</mn><mo>)</mo></mrow></math>. Wiedząc, że punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> są symetryczne względem osi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, wyznacz ich współrzędne oraz oblicz pole i obwód trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>.</p>",
       "choices": [],
@@ -806,7 +811,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Sześcian o krawędzi 6 cm przecięto płaszczyzną przechodzącą przez przekątną jego podstawy i środek krawędzi bocznej (rysunek obok). Oblicz pole powierzchni całkowitej uzyskanego w ten sposób wielościanu o 7 ścianach.</p>",

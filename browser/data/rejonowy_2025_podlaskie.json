@@ -108,7 +108,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "geometria",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Które pole jest największe?</p>",
       "choices": [
@@ -130,7 +131,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Przekątne pewnego czworokąta mają długości 10 cm i 20 cm, dzielą się na połowy i są do siebie prostopadłe. Dokończ poniższe zdania, zaznaczając odpowiedzi spośród A i B oraz spośród C i D.</p><p>1) Czworokątem tym na pewno jest …</p><p>2) Pole tego czworokąta jest równe …</p>",
       "choices": [
@@ -152,7 +154,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Graniastosłup, który ma 12 ścian ma również</p>",
       "choices": [
@@ -218,7 +220,7 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Ile co najwyżej kątów prostych może mieć pięciokąt?</p>",
       "choices": [],
@@ -288,7 +290,7 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "wyłączanie jednomianu przed nawias"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Zapisz wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mo>−</mo><mo>(</mo><mn>3</mn><mi>x</mi><mo>−</mo><mn>2</mn><mi>y</mi><mo>)</mo><mo>+</mo><mo>(</mo><mo>−</mo><mn>5</mn><mi>y</mi><mo>−</mo><mn>8</mn><mi>x</mi><mo>)</mo></math> w najprostszej postaci.</p>",
       "choices": [],
@@ -306,7 +308,7 @@
       "points": 2,
       "topics": [
         "trójkąty",
-        "potęgi i pierwiastki"
+        "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Maszt o wysokości 5 m jest przymocowany napiętą liną do ziemi. Długość liny od najwyższego punktu na maszcie do ziemi jest równa 13 m. Odległość podstawy masztu do punktu zaczepienia liny na ziemi jest równa 12 m. (Podstawa masztu i punkt zaczepienia liny na ziemi wyznaczają dokładnie poziom). Czy maszt jest ustawiony pionowo? Zapisując obliczenia, uzasadnij odpowiedź.</p>",
       "choices": [],
@@ -323,8 +325,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "trójkąty",
-        "geometria"
+        "układ współrzędnych",
+        "trójkąty"
       ],
       "prompt_html": "<p>Jeden koniec odcinka o długości 5 ma współrzędną <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>−</mo><mn>3</mn><mo>;</mo><mn>0</mn><mo>)</mo></math>, a drugi leży na osi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>. Jakie współrzędne może mieć drugi koniec odcinka? Podaj wszystkie możliwości.</p>",
       "choices": [],
@@ -392,7 +394,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>W sklepie spożywczym przygotowano kilogramowe zestawy prezentowe z suszonymi owocami. Do jednego zestawu wchodzi: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac></math> kg moreli, 0,35 kg żurawiny, pozostała część to figi. Sklep miał na początku 48 kg suszonych owoców, z czego: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>8</mn></mfrac></math> stanowiły morele, 18,2 kg to żurawina, reszta to figi. Oblicz, ile kilogramowych zestawów prezentowych można przygotować z dostępnych owoców.</p>",
       "choices": [],
@@ -444,7 +446,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Szczelnie zamknięte prostopadłościenne szklane pudełko o wymiarach 5 cm x 12 cm x 20 cm jest częściowo napełnione wodą. Pudełko stoi na ścianie o najmniejszej powierzchni, a woda sięga do wysokości 16 cm. Do jakiej wysokości sięgnie woda, gdy pudełko będzie stało na ścianie o największej powierzchni?</p>",
       "choices": [],

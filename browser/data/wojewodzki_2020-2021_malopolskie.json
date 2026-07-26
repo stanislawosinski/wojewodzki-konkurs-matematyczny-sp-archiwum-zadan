@@ -95,7 +95,8 @@
       "points": 3,
       "topics": [
         "pierścień kołowy",
-        "koła / okręgi"
+        "koła / okręgi",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Ze środka pierścienia kołowego poprowadzono dwie półproste odcinające zacieniowaną figurę przedstawioną na rysunku obok. Jaki jest obwód tej figury podany w zaokrągleniu do 1 m?</p>",
       "choices": [
@@ -135,8 +136,8 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "dwusieczna kąta / symetralna odcinka",
-        "trójkąty"
+        "czworokąty",
+        "dwusieczna kąta / symetralna odcinka"
       ],
       "prompt_html": "<p>W trapezie prostokątnym ABCD, w którym AB ∥ CD, symetralna ramienia BC przechodzi przez wierzchołek A i razem z przekątną AC dzielą kąt DAB na trzy równe części. Wiedząc, że ramię BC ma długość 4 cm, oblicz długość przekątnej BD trapezu.</p>",
       "choices": [
@@ -174,8 +175,8 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "zagadki logiczne",
-        "podzielność"
+        "podzielność",
+        "zagadki logiczne"
       ],
       "prompt_html": "<p>W trakcie meczu koszykówki zawodnik wykonał 44 rzuty za dwa lub trzy punkty. Celnie trafił co trzeci rzut za dwa punkty i co czwarty rzut za trzy punkty, za które w sumie zdobył nieparzystą liczbę punktów. Ile wykonał celnych rzutów?</p>",
       "choices": [
@@ -213,7 +214,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "bryły",
+        "ostrosłupy",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Do ścian czworościanu foremnego o krawędzi a doklejono cztery identyczne ostrosłupy prawidłowe trójkątne o krawędzi podstawy a i ścianach bocznych będących trójkątami prostokątnymi równoramiennymi. Cztery ostrosłupy są przyklejone do czworościanu ścianami przystającymi, w sposób pokazany na rysunku poniżej. Otrzymano bryłę o polu całkowitym wynoszącym 900 cm². Oblicz długość krawędzi a.</p><p>Uwaga: Czworościanem foremnym nazywamy ostrosłup prawidłowy trójkątny o wszystkich krawędziach tej samej długości.</p>",
@@ -409,7 +410,7 @@
       "points": 3,
       "topics": [
         "koła / okręgi",
-        "geometria"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Na łące pasie się koza, która została przywiązana sznurkiem do palika umieszczonego w rogu zagrody dla zwierząt zbudowanej na planie prostokąta o wymiarach 8 m × 4 m. Koza zjada trawę z całej powierzchni, na dostęp do której pozwala kozie sznurek, ale nie dalej niż 6 metrów od palika, do którego jest przywiązana. Jakie jest pole powierzchni dostępnej dla kozy?</p>",
       "choices": [
@@ -450,7 +451,7 @@
       "points": 8,
       "topics": [
         "trójkąty",
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>W nawigacji namiarem nazywana jest wartość kąta pomiędzy kierunkiem północnym (N) a kierunkiem od obserwatora do wybranego obiektu. Podaje się go jako wartość pomiędzy 0° a 360°, licząc od północy zgodnie z kierunkiem ruchu wskazówek zegara.</p><p>Namiary, które wykonano z jachtu na port i na latarnię morską, wyniosły odpowiednio 110° i 160° (rysunek poniżej). Namiar z portu na latarnię wynosi 250°. W chwili wykonania namiaru jacht znajdował się w odległości 12 km od portu i 7,7 km od latarni, gdzie odległości podano w zaokrągleniu do 0,1 km.</p><p>a) (2p) Ile wyniósłby namiar wykonany z latarni na jacht?</p><p>b) (5p) Jaka jest odległość pomiędzy latarnią a portem podana w zaokrągleniu do 1 km? Zapisz obliczenia.</p><p>c) (1p) Jacht płynie w kierunku portu. Czy wraz z przybliżaniem się jachtu do portu wartość namiaru z jachtu na latarnię rośnie, maleje czy nie zmienia się?</p>",
       "choices": [],
@@ -469,9 +470,11 @@
       "type": "open",
       "points": 10,
       "topics": [
-        "bryły",
+        "graniastosłupy",
+        "ostrosłupy",
         "układy równań",
-        "potęgi i pierwiastki"
+        "potęgi i pierwiastki",
+        "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Objętość graniastosłupa prawidłowego trójkątnego wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>72</mn><msqrt><mn>3</mn></msqrt></math>, a pole powierzchni bocznej wynosi 144.</p><p>a) (6p) Oblicz sumę długości krawędzi graniastosłupa.</p><p>Na każdej krawędzi dolnej podstawy tego graniastosłupa zaznaczono dwa punkty, które dzielą tę krawędź na trzy równe części, a połączone tworzą sześciokąt (rysunek obok). Wierzchołki sześciokąta połączono ze środkiem jednej z krawędzi bocznych, tworząc ostrosłup sześciokątny.</p><p>b) (1p) Czy otrzymany ostrosłup jest prawidłowy? Odpowiedź uzasadnij.</p><p>c) (3p) Jaką objętość ma ten ostrosłup? Zapisz obliczenia.</p>",
       "choices": [],

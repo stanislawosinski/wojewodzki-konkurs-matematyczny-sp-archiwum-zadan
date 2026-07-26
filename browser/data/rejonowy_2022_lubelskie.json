@@ -83,7 +83,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Miary dwóch kątów przyległych, z których jeden jest o 16° mniejszy od drugiego, wynoszą</p>",
       "choices": [
@@ -105,7 +105,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Krawędzie prostopadłościanu wychodzące z jednego wierzchołka mają długości: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn></math> cm i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn></math> cm. Pole powierzchni całkowitej tego prostopadłościanu wynosi</p>",
       "choices": [
@@ -128,6 +128,7 @@
       "points": 3,
       "topics": [
         "geometria",
+        "pole i obwód",
         "procenty"
       ],
       "prompt_html": "<p>Na rysunku przedstawione są trzy wielokąty: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>W</mi><mn>1</mn></msub></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>W</mi><mn>2</mn></msub></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>W</mi><mn>3</mn></msub></math>.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>",
@@ -240,7 +241,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Obwód trójkąta równoramiennego wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>50</mn></math> cm, a podstawa ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn></math> cm.</p><p>Uzupełnij luki w poniższych zdaniach – wpisz w puste miejsca odpowiednie liczby.</p><ul><li>a) Ramię tego trójkąta ma długość …… cm.</li><li>b) Wysokość trójkąta poprowadzona na podstawę ma długość …… cm.</li><li>c) Pole tego trójkąta wynosi …… cm².</li></ul>",
       "choices": [],
@@ -309,7 +311,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W trójkącie prostokątnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> (rysunek) dane są długości dwóch boków: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>30</mn></math> cm i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>BC</mi><mo>|</mo><mo>=</mo><mn>18</mn></math> cm.</p><p>Oblicz pole powierzchni trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> oraz długość wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> poprowadzonej z wierzchołka kąta prostego tego trójkąta.</p>",
       "choices": [],
@@ -328,8 +331,9 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Podstawy trapezu prostokątnego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> (rysunek) mają długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>13</mn></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>CD</mi><mo>|</mo><mo>=</mo><mn>7</mn></math> cm. Dłuższe ramię tego trapezu ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn></math> cm.</p><p>Oblicz pole powierzchni i obwód trapezu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> oraz długość jego krótszej przekątnej.</p>",
       "choices": [],

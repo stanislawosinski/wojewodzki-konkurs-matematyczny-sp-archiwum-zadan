@@ -84,7 +84,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Który zapis przedstawia uproszczoną postać wyrażenia w ramce?</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mo>[</mo><mo>−</mo><mo>(</mo><mo>−</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo>)</mo><mo>−</mo><mi>b</mi><mo>]</mo><mo>−</mo><mo>(</mo><mo>−</mo><mi>a</mi><mo>)</mo><mo>−</mo><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo></math></p>",
       "choices": [
@@ -106,7 +106,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "symetrie"
       ],
       "prompt_html": "<p>Ile jest figur środkowosymetrycznych wśród wymienionych: pięciokąt foremny, trapez równoramienny, romb, dziesięciokąt foremny, odcinek, kąt, półkole?</p>",
       "choices": [
@@ -308,7 +308,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "sześciokąty foremne"
+        "sześciokąty foremne",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Krótsza przekątna sześciokąta foremnego ma długość 4 cm. Jakie jest pole tego sześciokąta?</p>",
       "choices": [
@@ -374,7 +375,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Proste k i l są równoległe. Kąt DAE zaznaczony na poniższym rysunku</p>",
       "choices": [
@@ -420,7 +421,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Jaka jest najmniejsza liczba prostopadłościennych klocków o wymiarach 1 cm x 2 cm x 6 cm, z których można ułożyć sześcian?</p>",
       "choices": [
@@ -442,8 +443,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły",
-        "geometria"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Natalia narysowała trzy graniastosłupy: I. i II. o podstawie prostokąta, III. o podstawie trapezu. Bryły te mają równe pola podstaw oraz jednakowe objętości. Natalia oznaczyła pola powierzchni bocznych odpowiednio: P<sub>I</sub>, P<sub>II</sub>, P<sub>III</sub>. Które uporządkowanie pól powierzchni bocznych tych brył w kolejności rosnącej jest właściwe?</p>",
       "choices": [
@@ -467,7 +467,8 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "pole i obwód",
         "wyłączanie jednomianu przed nawias"
       ],
       "prompt_html": "<p>Prostokąt o bokach: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>+</mo><mn>3</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>9</mn></math> został podzielony odcinkami na cztery mniejsze prostokąty tak, jak pokazano na rysunku. W oparciu o te dane oceń, czy informacje dotyczące zacieniowanego prostokąta są prawdziwe.</p>",
@@ -490,7 +491,8 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "symetrie"
       ],
       "prompt_html": "<p>Antek narysował kwadrat i wykreślił jego przekątne (co pokazuje rysunek). Czy poniższe zdania są prawdziwe?</p>",
       "choices": [
@@ -513,7 +515,8 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "koła / okręgi"
+        "koła / okręgi",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Oceń, czy opisane niżej sytuacje dotyczące koła i okręgów są prawdziwe. Przyjmij <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>π</mi><mo>=</mo><mn>3,14</mn></math>.</p>",
       "choices": [

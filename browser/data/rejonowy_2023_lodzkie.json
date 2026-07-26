@@ -209,7 +209,7 @@
       "type": "closed_single",
       "points": 4,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Wynikiem działania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>1,17</mn><mo>+</mo><mn>2</mn><mo>·</mo><mfrac><mn>2</mn><mn>9</mn></mfrac><mo>+</mo><mn>7,39</mn><mo>+</mo><mn>3</mn><mfrac><mn>5</mn><mn>9</mn></mfrac><mo>−</mo><mn>5,39</mn><mo>−</mo><mn>1,83</mn></math> jest liczba</p>",
       "choices": [
@@ -286,7 +286,7 @@
       "points": 4,
       "topics": [
         "prawdopodobieństwo",
-        "kombinatoryka"
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Kamil wybrał jeden z wierzchołków dwudziestokąta. Następnie Asia wybiera losowo inny wierzchołek. Jakie jest prawdopodobieństwo, że łącząc wybrane przez Kamila i Asię wierzchołki otrzymamy przekątną tego dwudziestokąta?</p>",
       "choices": [
@@ -444,8 +444,8 @@
       "type": "open",
       "points": 16,
       "topics": [
-        "dowodzenie / dowody",
-        "inne"
+        "zagadki logiczne",
+        "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Wykaż, że każdą liczbę naturalną mniejszą niż 14 można przedstawić jako sumę liczb 1, 3 i 9 pomnożonych przez −1, 0 i 1, wzorując się na przykładzie</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>=</mo><mn>1</mn><mo>·</mo><mn>1</mn><mo>+</mo><mn>3</mn><mo>·</mo><mn>1</mn><mo>+</mo><mn>9</mn><mo>·</mo><mn>0</mn></math>.</p><p>Pamiętaj, że 0 jest też liczbą naturalną.</p>",
       "choices": [],
@@ -462,7 +462,7 @@
       "type": "open",
       "points": 15,
       "topics": [
-        "trójkąty",
+        "układ współrzędnych",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Do czerwca roku 2022 płaszczaki – stworzenia żyjące na płaszczyźnie kartezjańskiej – umiały się poruszać jedynie równolegle do osi układu współrzędnych. Jednak w wyniku rewolucji technologicznej zyskały możliwość przechodzenia z punktu do punktu najkrótszą drogą. Płaszczak Paweł mieszka w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>−</mo><mn>2</mn><mo>,</mo><mo>−</mo><mn>1</mn><mo>)</mo></math>, a jego szkoła znajduje się w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>1</mn><mo>,</mo><mn>3</mn><mo>)</mo></math>. 1.09.2022 roku wypadł w czwartek. Paweł nie opuścił ani jednego dnia szkoły przez cały wrzesień. Zawsze szedł z domu do szkoły i wracał ze szkoły prosto do domu najkrótszą możliwą drogą. Ile drogi mniej pokonał Paweł we wrześniu dzięki rewolucji technologicznej? (W przypadku rozważań na płaszczyźnie kartezjańskiej nie posługujemy się jednostkami, odpowiedzią na pytanie jest liczba).</p>",
@@ -480,8 +480,9 @@
       "type": "open",
       "points": 13,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Oblicz pole i obwód czworokąta przedstawionego na rysunku.</p>",
       "choices": [],

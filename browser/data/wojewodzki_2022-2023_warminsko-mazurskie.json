@@ -51,7 +51,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Z którego zestawu odcinków (o długościach wyrażonych w jednakowych jednostkach) można zbudować trójkąt o obwodzie 20?</p>",
       "choices": [
@@ -255,7 +256,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły",
+        "ostrosłupy",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Pole powierzchni całkowitej czworościanu foremnego o krawędzi 5 jest równe</p>",
@@ -290,7 +291,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Na kartonowej siatce sześcianu Ania nakleił 6 figur tak, jak pokazano na rysunku. Następnie z tej siatki skleiła sześcian.</p><p>Który rysunek przedstawia sześcian sklejony przez Anię?</p>",
       "choices": [
@@ -395,7 +396,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "podzielność"
       ],
       "prompt_html": "<p>Długości krawędzi prostopadłościanu, wyrażone w centymetrach, są liczbami naturalnymi. Jedna ze ścian ma pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>45</mn><mspace width=\"0.2em\"/><msup><mtext>cm</mtext><mn>2</mn></msup></math>, a druga <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>36</mn><mspace width=\"0.2em\"/><msup><mtext>cm</mtext><mn>2</mn></msup></math>. Prostopadłościanów spełniających powyższe warunki jest dokładnie</p>",
@@ -537,9 +538,11 @@
       "type": "true_false",
       "points": 5,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "kąty",
+        "potęgi i pierwiastki",
         "reszta z dzielenia",
-        "potęgi i pierwiastki"
+        "ułamki"
       ],
       "prompt_html": "<p>Oceń prawdziwość zdań (P-prawda, F-fałsz).</p>",
       "choices": [
@@ -577,7 +580,7 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Mrówka przeszła po powierzchni sześcianu z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> do wierzchołka będącego drugim końcem przekątnej sześcianu wychodzącej z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>, przy czym była to droga najkrótsza. Narysuj siatkę sześcianu, zaznacz początek i koniec drogi mrówki i oblicz odległość, jaką pokonała mrówka, jeżeli krawędź sześcianu ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>5</mn></msqrt></math>.</p>",
@@ -613,7 +616,7 @@
       "points": 5,
       "topics": [
         "zagadki logiczne",
-        "podzielność"
+        "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Na tablicy rejestracyjnej auta pana Henryka widnieją litery NO oraz liczba pięciocyfrowa mniejsza od 20 000 o następujących własnościach:</p><ol><li>Suma pięciu cyfr tablicy rejestracyjnej to sześcian liczby 3.</li><li>Druga cyfra to pierwiastek sześcienny z sumy wszystkich cyfr.</li><li>Cyfra dziesiątek jest dwukrotnością drugiej cyfry.</li><li>Ostatnia cyfra jest sumą drugiej i czwartej.</li><li>Różnica trzeciej i czwartej jest taka sama jak drugiej i pierwszej.</li><li>Żadna cyfra w tablicy nie powtarza się.</li></ol><p>Przeanalizuj liczby, które spełniają powyższe warunki, a następnie zapisz wszystkie symbole widniejące na tej tablicy.</p>",
       "choices": [],
@@ -631,7 +634,8 @@
       "points": 5,
       "topics": [
         "trójkąty",
-        "geometria"
+        "czworokąty",
+        "kąty"
       ],
       "prompt_html": "<p>Na boku kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> o długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> zbudowano trójkąt równoboczny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDL</mi></math> tak, że częścią wspólną kwadratu i trójkąta jest tylko bok kwadratu. Oblicz miarę kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BLC</mi></math> oraz długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BL</mi></math>.</p>",
       "choices": [],

@@ -18,6 +18,13 @@ const STAGES = ['szkolny', 'rejonowy', 'wojewodzki'];
 const byStage = Object.fromEntries(STAGES.map(s => [s, []]));
 const seenId = new Map(), seenHash = new Map();
 
+// every question topic must be a known leaf in the canonical catalog (catches typos in the exact-match tags)
+const LEAVES = new Set(
+  JSON.parse(readFileSync(fileURLToPath(new URL('../categories.json', import.meta.url)), 'utf8'))
+    .categories.flatMap(c => c.leaves.map(l => l.name)),
+);
+const badTopics = [];
+
 for (const f of readdirSync(dataDir).filter(f => f.endsWith('.json')).sort()) {
   const t = JSON.parse(readFileSync(dataDir + f, 'utf8'));
   if (!byStage[t.stage]) {
@@ -29,6 +36,7 @@ for (const f of readdirSync(dataDir).filter(f => f.endsWith('.json')).sort()) {
     if (seenId.has(q.id)) { console.error(`duplicate id ${q.id} (${f}, ${seenId.get(q.id)})`); process.exit(1); }
     if (seenHash.has(hash)) { console.error(`hash collision ${hash}: ${q.id} vs ${seenHash.get(hash)} — lengthen the hash`); process.exit(1); }
     seenId.set(q.id, f); seenHash.set(hash, q.id);
+    for (const tag of q.topics || []) if (!LEAVES.has(tag)) badTopics.push(`${q.id}: "${tag}"`);
     byStage[t.stage].push({
       id: q.id, hash, number: q.number, page: q.page, type: q.type, points: q.points,
       ...(q.annulled ? { annulled: true } : {}), // only the rare annulled ones carry the flag
@@ -38,6 +46,11 @@ for (const f of readdirSync(dataDir).filter(f => f.endsWith('.json')).sort()) {
       stage: t.stage, school_type: t.school_type, competition: t.competition,
     });
   }
+}
+
+if (badTopics.length) {
+  console.error(`unknown topic tag(s) not in categories.json — fix the tag or add the leaf:\n  ${badTopics.join('\n  ')}`);
+  process.exit(1);
 }
 
 let total = 0;

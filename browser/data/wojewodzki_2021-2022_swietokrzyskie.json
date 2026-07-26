@@ -85,7 +85,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Jeżeli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mi>y</mi></mrow><mrow><mn>2</mn><mi>x</mi><mo>−</mo><mn>3</mn><mi>y</mi></mrow></mfrac><mo>=</mo><mn>1</mn></math>, to wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>x</mi><mrow><mn>2</mn><mi>y</mi></mrow></mfrac></math> jest równa:</p>",
       "choices": [
@@ -218,7 +218,8 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "geometria"
+        "geometria",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Dany jest ośmiokąt foremny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDEFGH</mi></math> o boku 6 cm.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -254,7 +255,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty"
       ],
       "prompt_html": "<p>Wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math> trapezu prostokątnego jest równa długości krótszej podstawy i połowie długości dłuższej podstawy. Długość dłuższego ramienia trapezu wynosi:</p>",
       "choices": [
@@ -288,7 +289,8 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "koła / okręgi"
+        "koła / okręgi",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> leżą na jednej prostej i są środkami trzech okręgów, odpowiednio o promieniach: 5 cm, 14 cm i 9 cm. Okręgi o środkach w punktach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> są względem siebie styczne zewnętrznie i styczne wewnętrznie do okręgu o środku w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>, tak jak na rysunku obok.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -324,7 +326,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "podzielność"
       ],
       "prompt_html": "<p>Pewien graniastosłup ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> krawędzi. Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> nie może być równa:</p>",
@@ -359,7 +361,8 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "bryły"
+        "ostrosłupy",
+        "sześciokąty foremne"
       ],
       "prompt_html": "<p>Dany jest ostrosłup prawidłowy sześciokątny, o krawędzi podstawy równej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. Pole podstawy tego ostrosłupa jest dwanaście razy mniejsze od jego pola powierzchni bocznej.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -423,8 +426,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zliczanie / metody zliczania",
-        "kombinatoryka"
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Wszystkich liczb trzycyfrowych o różnych cyfrach, w zapisie których w rzędzie dziesiątek jest cyfra 7 jest:</p>",
       "choices": [

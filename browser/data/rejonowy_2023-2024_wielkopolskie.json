@@ -52,7 +52,7 @@
       "points": 1,
       "topics": [
         "proporcjonalność prosta",
-        "geometria"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Prostokątna działka o długości 300 m i szerokości 200 m na planie ma powierzchnię równą 60000 cm². Plan sporządzono w skali:</p>",
       "choices": [
@@ -154,7 +154,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Odwrotność sumy odwrotności liczb: <em>a</em>, 2<em>a</em> i 6<em>a</em> jest równa:</p>",
       "choices": [
@@ -222,8 +222,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Poniższy rysunek przedstawia trapez prostokątny. Pole tego trapezu wynosi:</p>",
       "choices": [
@@ -361,7 +361,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "ostrosłupy"
       ],
       "prompt_html": "<p>W ostrosłupie prawidłowym stosunek liczby wszystkich krawędzi do liczby wszystkich jego wierzchołków jest równy 5 : 3. Podstawą tego ostrosłupa jest:</p>",
       "choices": [
@@ -429,7 +429,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "kąty"
       ],
       "prompt_html": "<p>Na rysunku pomocniczym czworokąta <em>PRST</em> zaznaczono kąt „<em>x</em>”. Oblicz miarę tego kąta, jeśli α = 60°, β = 80°, γ = 40°, δ = 50°.</p>",
       "choices": [
@@ -465,7 +466,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły",
+        "ostrosłupy",
         "trójkąty"
       ],
       "prompt_html": "<p>Podstawą ostrosłupa <em>ABCD</em> jest trójkąt <em>ABC</em>. Krawędź <em>AD</em> jest wysokością ostrosłupa (rysunek). Jaka jest objętość tego ostrosłupa, jeśli wiadomo, że |<em>AD</em>| = 12, |<em>BC</em>| = 6, |<em>BD</em>| = |<em>CD</em>| = 13.</p>",
@@ -564,7 +565,8 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "sześciokąty foremne"
+        "sześciokąty foremne",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Siedem sześciokątów foremnych – każdy o boku 4 cm – rozmieszczono tak jak na rysunku. Punkty <em>K</em>, <em>L</em>, <em>M</em>, <em>N</em>, <em>P</em>, <em>R</em>, <em>S</em> są środkami symetrii tych sześciokątów.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli zdanie jest fałszywe.</p>",
       "choices": [
@@ -596,6 +598,7 @@
       "type": "open",
       "points": 2,
       "topics": [
+        "podzielność",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Uzasadnij, że średnia arytmetyczna czterech kolejnych liczb nieparzystych jest liczbą parzystą, gdy największa z nich to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>n</mi><mo>+</mo><mn>11</mn></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>∈</mo><mi>N</mi></math>. Zapisz rozwiązanie i podaj uzasadnienie (tylko na oznaczeniach ogólnych).</p>",
@@ -630,7 +633,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>W graniastosłupie prawidłowym trójkątnym przekątna ściany bocznej jest 2 razy dłuższa od wysokości podstawy. Oblicz pole powierzchni całkowitej tej bryły, jeżeli jej krawędź boczna ma długość 6 cm. Zapisz wszystkie obliczenia.</p>",

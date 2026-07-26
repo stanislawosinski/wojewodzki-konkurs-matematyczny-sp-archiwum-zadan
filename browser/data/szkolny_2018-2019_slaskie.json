@@ -19,7 +19,8 @@
       "topics": [
         "inne",
         "potęgi i pierwiastki",
-        "liczby rzymskie"
+        "liczby rzymskie",
+        "NWW / NWD"
       ],
       "prompt_html": "<p>Rozwiąż krzyżówkę, wpisując cyfry w odpowiednie pola. Hasło w zacieniowanych okienkach to kolejne cyfry rozwinięcia dziesiętnego liczby Eulera (zwanej również liczbą Nepera), którą oznaczamy krótko literą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>e</mi></math>. Hasło nie jest oceniane.</p><ol type=\"a\"><li>Spośród liczb: 15465, 16470, 99912, 36490 — podzielna przez 5 i przez 6.</li><li>Najmniejsza liczba pierwsza, której kwadrat jest liczbą większą od 290.</li><li>Największy wspólny dzielnik liczb: 280 i 792.</li><li>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mfrac><mn>1</mn><mn>8</mn></mfrac></math> w postaci dziesiętnej.</li><li>Średnia arytmetyczna liczb: 4; 12,04; 36,6; 24,06; 13,3.</li><li>Mianownik liczby odwrotnej do 1,11 zapisanej w postaci ułamka nieskracalnego.</li><li>96% liczby 4000.</li><li>Liczba, której 35% wynosi 700.</li><li>Wynik działania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mn>125000</mn><mn>3</mn></mroot><mo>−</mo><mroot><mrow><mn>512</mn><mo>·</mo><mn>27</mn></mrow><mn>3</mn></mroot><mo>−</mo><mo>(</mo><mn>5</mn><mo>·</mo><mn>9</mn><mo>−</mo><mn>9</mn><mo>·</mo><mn>11</mn><mo>)</mo></math>.</li><li>Długość boku kwadratu o polu 1681 cm².</li><li>Liczba, której zapis w systemie rzymskim ma postać: CMLIX.</li><li>Długość przekątnej kwadratu o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>9</mn><mn>2</mn></mfrac><msqrt><mn>2</mn></msqrt></math>.</li><li>Liczba całkowita, która nie jest dodatnia i nie jest ujemna.</li><li>Pole kwadratu o boku 18 cm.</li><li>Zaokrąglenie liczby 451 z dokładnością do setek.</li><li>Sześcian najmniejszej liczby pierwszej nieparzystej.</li><li>Najmniejsza wspólna wielokrotność liczb: 9, 37, 111.</li><li>Czwarta potęga odwrotności liczby 0,2.</li></ol>",
       "choices": [],
@@ -73,7 +74,6 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne",
         "zagadki logiczne"
       ],
       "prompt_html": "<p>Jakie cztery cyfry należy skreślić w liczbie 3214076, aby otrzymana liczba trzycyfrowa była najmniejsza?</p>",
@@ -177,8 +177,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność",
-        "NWW / NWD"
+        "podzielność"
       ],
       "prompt_html": "<p>Iloczyn liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>17</mn><mo>·</mo><mn>18</mn><mo>·</mo><mn>19</mn><mo>·</mo><mn>20</mn><mo>·</mo><mn>21</mn></math> dzieli się przez</p>",
       "choices": [
@@ -318,7 +317,7 @@
       "points": 4,
       "topics": [
         "podzielność",
-        "równania z jedną zmienną"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Dane jest wyrażenie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mo>:</mo><mi>x</mi><mo>−</mo><mn>10</mn><mo>−</mo><mi>x</mi></math>.</p><p>Oceń, czy podane zdania są prawdziwe czy fałszywe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F, jeśli jest fałszywe.</p>",
       "choices": [
@@ -420,8 +419,8 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "geometria",
-        "potęgi i pierwiastki"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W prostokącie krótszy bok o długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>5</mn></mfrac></math> długości boku dłuższego.</p><p>Oceń, czy podane zdania są prawdziwe czy fałszywe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F, jeśli jest fałszywe.</p>",
       "choices": [
@@ -489,8 +488,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "równania z jedną zmienną",
-        "zagadki logiczne"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Na wycieczkę miało jechać dwa razy więcej dziewcząt niż chłopców. Jednak trzy dziewczyny nie pojechały i ostatecznie pojechało o sześć dziewczyn więcej niż chłopców. Ilu uczniów pojechało na wycieczkę?</p>",
       "choices": [],
@@ -507,7 +505,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "kąty"
       ],
       "prompt_html": "<p>Dany jest trójkąt równoramienny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>, w którym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>AC</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>BC</mi><mo>|</mo></math>, a odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> jest dłuższy od podstawy. Na ramieniu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> zaznaczono punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>, taki, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>DC</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>DB</mi><mo>|</mo></math>. Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DBC</mi></math> wynosi 40°. Oblicz miarę kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABD</mi></math>.</p>",
       "choices": [],
@@ -524,7 +523,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "geometria",
+        "czworokąty",
         "trójkąty",
         "potęgi i pierwiastki"
       ],

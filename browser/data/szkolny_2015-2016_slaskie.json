@@ -37,8 +37,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "zagadki logiczne",
-        "inne"
+        "zagadki logiczne"
       ],
       "prompt_html": "<p>W poniższych wyrażeniach arytmetycznych wstaw nawiasy tak, aby wynik był:</p><ul><li>A) możliwie najmniejszy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>200</mn><mo>:</mo><mn>40</mn><mo>·</mo><mn>3</mn><mo>+</mo><mn>2</mn></mrow></math></li><li>B) możliwie największy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>200</mn><mo>−</mo><mn>40</mn><mo>·</mo><mn>3</mn><mo>+</mo><mn>2</mn></mrow></math></li><li>C) równy 100: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>200</mn><mo>:</mo><mn>200</mn><mo>:</mo><mn>20</mn><mo>:</mo><mn>5</mn></mrow></math></li></ul>",
       "choices": [],
@@ -55,8 +54,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną",
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Który z ułamków ma tę własność, że jeśli licznik tego ułamka zmniejszymy o 2, a mianownik o 3, to wartość tego ułamka się nie zmieni?</p>",
       "choices": [
@@ -160,7 +158,7 @@
       "points": 1,
       "topics": [
         "trójkąty",
-        "geometria"
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Ela rozcięła trójkąt równoboczny o boku długości 4 cm na trójkąty równoboczne o boku długości 1 cm. Ile otrzymała małych trójkątów?</p>",
       "choices": [
@@ -194,8 +192,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną",
-        "procenty"
+        "ułamki",
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Wiktoria przeczytała 378 stron książki, co stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>9</mn></mfrac></math> wszystkich jej stron. Ile stron ma ta książka?</p>",
       "choices": [
@@ -470,7 +468,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Wskazówki zegara – minutowa i godzinowa – o godzinie 16:12 tworzą kąt o mierze</p>",
       "choices": [
@@ -504,7 +502,8 @@
       "type": "true_false",
       "points": 6,
       "topics": [
-        "podzielność"
+        "podzielność",
+        "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Oceń prawdziwość następujących zdań. Zaznacz PRAWDA, jeśli zdanie jest prawdziwe, lub FAŁSZ, jeśli jest fałszywe.</p>",
       "choices": [
@@ -546,8 +545,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "proporcjonalność prosta",
-        "procenty"
+        "proporcjonalność prosta"
       ],
       "prompt_html": "<p>Dwulitrowa butelka napoju kosztuje 3,40 zł, a półtoralitrowa butelka tego samego napoju – 3,00 zł. Z tego wynika, że:</p><p>Oceń prawdziwość poniższych zdań. Zaznacz PRAWDA, jeśli zdanie jest prawdziwe, lub FAŁSZ, jeśli jest fałszywe.</p>",
       "choices": [
@@ -577,8 +575,9 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W trapezie prostokątnym wysokość poprowadzona z wierzchołka kąta rozwartego ma długość 6 cm i dzieli ten trapez na kwadrat i trójkąt prostokątny równoramienny.</p><p>Oceń prawdziwość poniższych zdań. Zaznacz PRAWDA, jeśli zdanie jest prawdziwe, lub FAŁSZ, jeśli jest fałszywe.</p>",
       "choices": [
@@ -612,7 +611,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "równania z jedną zmienną"
+        "ułamki",
+        "proporcjonalność prosta"
       ],
       "prompt_html": "<p>Słój wypełniony w całości miodem waży 3,7 kg, a wypełniony do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> jego wysokości – 1,3 kg. Ile waży pusty słój?</p>",
       "choices": [],
@@ -629,7 +629,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "równania z jedną zmienną"
+        "ułamki"
       ],
       "prompt_html": "<p>W trzech zestawach klocków jest razem 270 elementów. W pierwszym zestawie znajduje się <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>8</mn><mn>15</mn></mfrac></math> wszystkich klocków, w drugim <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>6</mn><mn>7</mn></mfrac></math> pozostałych. Ile klocków jest w trzecim zestawie? Zapisz obliczenia.</p>",
       "choices": [],
@@ -646,7 +646,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "pole i obwód",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Boki prostokąta mają długości 30 cm i 50 cm. Długość jednej pary boków równoległych zwiększono w taki sposób, że obwód powstałego prostokąta równa się obwodowi kwadratu o boku długości 62 cm. O ile cm zwiększono długość boku? Jakie wymiary może mieć tak otrzymany prostokąt? Przedstaw wszystkie rozwiązania.</p>",

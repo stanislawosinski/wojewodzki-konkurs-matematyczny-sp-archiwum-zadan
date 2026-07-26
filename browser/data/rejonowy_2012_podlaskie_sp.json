@@ -153,7 +153,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Działka ma kształt prostokąta o bokach długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> metrów i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> metrów. Cena jednego metra bieżącego ogrodzenia jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> złotych. Wskaż wyrażenie opisujące koszt ogrodzenia działki.</p>",
       "choices": [
@@ -255,7 +255,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Ile litrów wody zmieści się w sześciennym naczyniu o krawędzi 10 cm.</p>",
       "choices": [
@@ -289,7 +289,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Która z liczb określa liczbę wszystkich krawędzi pewnego graniastosłupa?</p>",
       "choices": [
@@ -323,7 +323,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "szacowanie (zamiast obliczania)"
       ],
       "prompt_html": "<p>Wskaż błędne przybliżenie liczby z dokładnością do części dziesiątych</p>",
       "choices": [
@@ -443,7 +443,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "procenty"
+        "procenty",
+        "ułamki"
       ],
       "prompt_html": "<p>Oblicz 60% wartości wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8,6</mn><mo>−</mo><mn>1</mn><mfrac><mn>3</mn><mn>5</mn></mfrac><mo>:</mo><mn>0,2</mn></mrow></math>.</p>",
       "choices": [],
@@ -460,7 +461,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "równania z jedną zmienną"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>W Stanach Zjednoczonych temperaturę mierzy się w stopniach Fahrenheita (°F). Korzystając ze wzoru <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><mfrac><mn>5</mn><mn>9</mn></mfrac><mo>·</mo><mo>(</mo><mi>f</mi><mo>−</mo><mn>32</mn><mo>)</mo></mrow></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> to temperatura w stopniach Celsjusza a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi></math> to temperatura w stopniach Fahrenheita, można przeliczyć stopnie Fahrenheita na używane w Polsce stopnie Celsjusza. Przelicz temperaturę 59°F na stopnie Celsjusza.</p>",
       "choices": [],
@@ -477,7 +478,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Dla pewnych liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mo>−</mo><mn>1</mn></mrow><mi>b</mi></mfrac></math> jest równa 3. Jaka jest wartość, dla tych samych liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mfrac><mrow><mi>a</mi><mo>−</mo><mn>1</mn></mrow><mi>b</mi></mfrac><mo>+</mo><mn>3</mn><mo>·</mo><mfrac><mi>b</mi><mrow><mi>a</mi><mo>−</mo><mn>1</mn></mrow></mfrac></mrow></math>?</p>",
       "choices": [],
@@ -511,7 +512,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Podstawą graniastosłupa jest kwadrat o polu 64 cm². Wysokość graniastosłupa jest dwa razy dłuższa od długości krawędzi podstawy. Oblicz sumę długości wszystkich krawędzi tego graniastosłupa.</p>",
       "choices": [],

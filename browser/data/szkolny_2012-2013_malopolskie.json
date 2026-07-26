@@ -188,7 +188,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Bok małego pokolorowanego kwadratu ma długość 4 cm. Pole dużego kwadratu wynosi:</p>",
       "choices": [
@@ -224,7 +225,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "symetrie"
       ],
       "prompt_html": "<p>W nazwach drużyn grających w EURO 2012 w grupie A znajdują się litery posiadające osie symetrii.</p><p style=\"text-align:center;font-weight:bold;letter-spacing:2px;\">CZECHY &nbsp;&nbsp; GRECJA &nbsp;&nbsp; POLSKA &nbsp;&nbsp; ROSJA</p><p>Przynajmniej jedna litera mająca dokładnie dwie osie symetrii występuje w zapisanych powyżej nazwach:</p>",
       "choices": [
@@ -292,7 +293,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "pole i obwód",
         "szacowanie (zamiast obliczania)"
       ],
       "prompt_html": "<p><strong>Wskaż zdanie fałszywe.</strong></p><p>Boisko na Stadionie Narodowym w Warszawie ma kształt prostokąta o wymiarach 105 m na 68 m. W jednym z meczów EURO 2012 rozegranych na Stadionie Narodowym w Warszawie pewien zawodnik przebiegł w sumie 9,71 km. Oznacza to, że gdyby biegał po liniach wyznaczających obwód boiska, pokonałby:</p>",
@@ -361,7 +363,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Pewien mecz wraz z doliczonym czasem gry trwał 96 minut. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>11</mn><mn>24</mn></mfrac></math> tego czasu w posiadaniu piłki była drużyna A, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>16</mn></mfrac></math> tego czasu przy piłce była drużyna B. Przerwy w grze stanowiły resztę czasu, czyli:</p>",
       "choices": [
@@ -429,7 +431,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "podzielność"
+        "podzielność",
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Każdą liczbę o 3 mniejszą od parzystej liczby całkowitej podzielnej przez 3 można zapisać w postaci wyrażenia algebraicznego, w którym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest liczbą całkowitą:</p>",
       "choices": [
@@ -497,7 +500,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Druga połowa meczu zakończyła się o godzinie 22.35. Wtedy kąt rozwarty, jaki tworzyły wskazówki zegara - godzinowa i minutowa miał miarę:</p>",
       "choices": [
@@ -531,7 +534,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "pole i obwód",
         "proporcjonalność prosta"
       ],
       "prompt_html": "<p>Boisko na Stadionie Narodowym w Warszawie ma kształt prostokąta o wymiarach 105 m na 68 m. Pole powierzchni tego boiska na planie w skali 1:1000 wynosi:</p>",
@@ -566,7 +570,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "bryły"
+        "graniastosłupy",
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Powierzchnię sześcianu o boku 8 cm pomalowano, a następnie sześcian rozcięto na małe sześciany o boku długości 1 cm. Liczba sześcianików, których żadna ściana nie była pomalowana wynosi:</p>",
       "choices": [
@@ -600,8 +605,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "równania z jedną zmienną",
-        "zagadki logiczne"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Pewien piłkarz zapytany przez ucznia na spotkaniu w szkole ile lat gra profesjonalnie w piłkę nożną, odpowiedział zagadką: „Za rok będzie to 3 razy dłużej niż jeszcze 7 lat temu”. Pomóż dociekliwemu uczniowi policzyć, ile lat ten piłkarz gra profesjonalnie w piłkę nożną.</p>",
       "choices": [],
@@ -619,6 +623,7 @@
       "points": 2,
       "topics": [
         "geometria",
+        "pole i obwód",
         "proporcjonalność prosta"
       ],
       "prompt_html": "<p>W mieście A strefa kibica miała kształt trójkąta o podstawie 80 m i wysokości wyrażonej w metrach, będącej najmniejszą trzycyfrową liczbą pierwszą. W mieście B strefa kibica miała kształt trapezu, którego krótsza podstawa o długości 40 m, wysokość oraz dłuższa podstawa trapezu, wyrażone w metrach, w podanej kolejności są kolejnymi wielokrotnościami długości krótszej podstawy. W strefie kibica w mieście B mogło jednocześnie przebywać najwyżej 12800 osób. Oblicz ile najwyżej osób mogło przebywać w strefie kibica w mieście A, zakładając, że w obu strefach „zagęszczenie” kibiców na jeden metr kwadratowy było jednakowe.</p>",

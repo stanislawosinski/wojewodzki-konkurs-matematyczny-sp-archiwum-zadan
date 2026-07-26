@@ -51,7 +51,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "kąty"
       ],
       "prompt_html": "<p>W czworokącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> boki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> są równoległe. Na boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> zaznaczono punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> tak, że kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EAB</mi></math> ma miarę 28° a odcinki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AE</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DE</mi></math> są równej długości. Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCE</mi></math> jest równa 115°.</p><p>Wybierz poprawną odpowiedź spośród oznaczonych literami A i B oraz C i D.</p><p>Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADE</mi></math> jest równa:</p><p>Czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>:</p>",
       "choices": [
@@ -86,7 +87,7 @@
       "points": 1,
       "topics": [
         "zagadki logiczne",
-        "równania z jedną zmienną"
+        "układy równań"
       ],
       "prompt_html": "<p>Państwo Nowakowie mają kilkoro dzieci, a wśród nich Anię i Pawła. Ania ma 5 razy mniej sióstr niż braci, a Paweł ma dwa razy więcej braci niż sióstr.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F, jeśli jest fałszywe.</p>",
       "choices": [
@@ -113,7 +114,8 @@
       "points": 2,
       "topics": [
         "usuwanie niewymierności z mianownika",
-        "podzielność"
+        "podzielność",
+        "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Uzasadnij, że wartość liczbowa wyrażenia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><msqrt><mn>5</mn></msqrt><mo>+</mo><mfrac><mrow><mn>2</mn><mo>(</mo><msqrt><mn>5</mn></msqrt><mo>−</mo><mn>2</mn><mo>)</mo></mrow><mrow><msqrt><mn>5</mn></msqrt><mo>+</mo><mn>2</mn></mrow></mfrac></mrow></math> jest liczbą naturalną i wyznacz wszystkie jej dzielniki naturalne.</p>",
       "choices": [],
@@ -148,8 +150,9 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "geometria",
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Pan Robert kosi prostokątny trawnik o długości 16 m kosiarką, której szerokość cięcia wynosi 50 cm. Po jednym przejeździe wzdłuż brzegów trawnika (patrz rysunek), zostało mu do skoszenia 120 m<sup>2</sup>. Oblicz, ile przejazdów trzeba wykonać, aby skosić trawnik w kształcie kwadratu, o polu równym polu trawnika pana Roberta.</p>",
       "choices": [],
@@ -169,6 +172,7 @@
       "points": 3,
       "topics": [
         "trójkąty",
+        "pole i obwód",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Miara jednego z kątów trójkąta jest równa różnicy miar dwóch pozostałych kątów. Długość najdłuższego boku wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msqrt><mn>5</mn></msqrt></mrow></math>, a najkrótszego boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow></math>. Oblicz pole tego trójkąta.</p>",
@@ -204,7 +208,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Na rysunku przedstawiono bryłę sklejoną z dwóch sześcianów i prostopadłościanu, który nie jest sześcianem. Pole powierzchni całkowitej większego sześcianu wynosi 384 cm<sup>2</sup>, a suma długości jego krawędzi jest taka sama jak suma długości krawędzi prostopadłościanu. Różnica długości boków dolnej podstawy sklejonej bryły jest trzy razy większa niż krawędź mniejszego sześcianu. Oblicz pole powierzchni całkowitej bryły przedstawionej na rysunku.</p>",
       "choices": [],

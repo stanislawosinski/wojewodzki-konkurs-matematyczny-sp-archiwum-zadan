@@ -47,7 +47,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Kąt zewnętrzny pięciokąta foremnego wynosi:</p>",
       "choices": [
@@ -185,7 +185,7 @@
       "points": 1,
       "topics": [
         "trójkąty",
-        "potęgi i pierwiastki"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Pole trójkąta równobocznego wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>75</mn></msqrt></math>. Jego obwód wynosi:</p>",
       "choices": [
@@ -219,7 +219,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "kąty",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>W rombie suma miar trzech kolejnych kątów jest 4 razy większa od miary czwartego z nich. Większy z kątów rombu wynosi:</p>",
@@ -323,8 +324,9 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty",
-        "geometria"
+        "czworokąty",
+        "pole i obwód",
+        "procenty"
       ],
       "prompt_html": "<p>Jeden bok kwadratu zmniejszamy o 20% długości, a drugi zwiększamy o 20% długości. Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>L</mi><mn>2</mn></msub></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>2</mn></msub></math> oznaczają odpowiednio obwód i pole powstałego prostokąta, zaś <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>L</mi><mn>1</mn></msub></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>1</mn></msub></math> obwód i pole kwadratu. Wówczas prawdą jest, że:</p>",
       "choices": [
@@ -393,8 +395,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "wzory skróconego mnożenia",
-        "nierówności"
+        "wzory skróconego mnożenia"
       ],
       "prompt_html": "<p>Tylko dodatnie wartości przyjmuje dla każdego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> wyrażenie:</p>",
       "choices": [
@@ -462,8 +463,7 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "trójkąty",
-        "geometria"
+        "trójkąty"
       ],
       "prompt_html": "<p>Dany jest trójkąt prostokątny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> o kącie prostym przy wierzchołku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>, w którym kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>30</mn><mo>°</mo></mrow></math>. Na bokach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> zbudowano trójkąty równoboczne odpowiednio <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACE</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCD</mi></math>. Wiedząc, że odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> ma długość 6, oblicz długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ED</mi></math>.</p>",
       "choices": [],
@@ -480,7 +480,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "bryły"
+        "ostrosłupy"
       ],
       "prompt_html": "<p>Dany jest ostrosłup prawidłowy trójkątny o krawędzi podstawy 5, w którym krawędzie boczne są parami prostopadłe. Oblicz jego pole i objętość.</p>",
       "choices": [],

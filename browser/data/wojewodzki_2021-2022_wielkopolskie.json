@@ -17,8 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "układy równań",
-        "równania z jedną zmienną"
+        "układy równań"
       ],
       "prompt_html": "<p>Liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>,</mo><mi>b</mi><mo>,</mo><mi>c</mi></math> spełniają warunki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>4</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>+</mo><mi>c</mi><mo>=</mo><mn>5</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>c</mi><mo>=</mo><mn>3</mn></math>. Zatem wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>)</mo></math> wynosi:</p>",
       "choices": [
@@ -201,7 +200,8 @@
       "points": 1,
       "topics": [
         "dwusieczna kąta / symetralna odcinka",
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Prostokąt ma wymiary 20 cm × 25 cm. Poprowadzona została dwusieczna jednego z kątów tego prostokąta, która podzieliła ten prostokąt na trójkąt prostokątny i trapez. Pole trapezu jest większe od pola trójkąta o:</p>",
       "choices": [
@@ -245,7 +245,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "układ współrzędnych"
       ],
       "prompt_html": "<p>Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>(</mo><mn>4</mn><mo>,</mo><mo>−</mo><mn>6</mn><mo>)</mo></math> jest końcem odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>, punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> leży na osi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>OY</mi></math>, a środek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> tego odcinka leży na osi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>OX</mi></math>. Wynika stąd, że:</p>",
       "choices": [
@@ -267,7 +267,9 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "układ współrzędnych",
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>,</mo><mn>6</mn><mo>)</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>=</mo><mo>(</mo><mn>4</mn><mo>,</mo><mn>2</mn><mo>)</mo></math> są przeciwległymi wierzchołkami kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>. Pole tego kwadratu wynosi:</p>",
       "choices": [
@@ -289,7 +291,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Pudełko w kształcie prostopadłościanu ma wymiary 20 cm × 12 cm × 18 cm. Ile sześciennych klocków o krawędzi 3 cm zmieści się w tym pudełku?</p>",
       "choices": [
@@ -311,7 +313,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "pierścień kołowy"
+        "pierścień kołowy",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Pewien pierścień kołowy, jest wyznaczony przez dwa okręgi. Wiadomo, że promień mniejszego z nich jest równy 4, a średnica większego z większego z nich jest 3 razy dłuższy od promienia mniejszego z tych okręgów. Pole tego pierścienia kołowego wynosi:</p>",
       "choices": [
@@ -355,7 +358,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "bryły",
+        "ostrosłupy",
         "trójkąty"
       ],
       "prompt_html": "<p>Podstawą ostrosłupa prawidłowego czworokątnego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDS</mi></math>, jest kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>. Wszystkie krawędzie ostrosłupa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDS</mi></math> mają długość 6 cm.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli zdanie jest fałszywe.</p>",
@@ -461,7 +464,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Prostopadłościenny zamknięty karton o pojemności 1,8 <em>litra</em> jest częściowo wypełniony sokiem. Gdy stoi na ścianie o najmniejszym polu, poziom soku sięga do wysokości 1,5 cm, gdy na średniej ścianie – sok osiąga poziom 1,2 cm, gdy zaś na największej – sok sięga do wysokości 1 cm. Jaka jest objętość soku w kartonie? Zapisz obliczenia i podaj odpowiedź.</p>",
       "choices": [],
@@ -515,7 +518,6 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "kombinatoryka",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Pan Andrzej bardzo lubi ubrania w kratkę, każdego dnia ubierając się wybiera ze swojej szafy koszulę oraz marynarkę. Pan Andrzej posiada 10 różnych koszul, wśród których 3 są w kratkę i 7 różnych marynarek, wśród których dokładnie 2 są w kratkę. Pan Andrzej każdego dnia wybiera marynarkę lub koszulę w kratkę, ale nigdy nie założy jednocześnie koszuli w kratkę i marynarki w kratkę. Czy pan Andrzej w miesiącu styczniu może każdego dnia wybrać inny zestaw koszuli i marynarki, który na siebie założy? Zapisz obliczenia i podaj uzasadnienie swojej odpowiedzi.</p>",

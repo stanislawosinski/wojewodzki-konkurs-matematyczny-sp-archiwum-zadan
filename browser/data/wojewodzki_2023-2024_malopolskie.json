@@ -63,7 +63,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>−</mo><mo>|</mo><mo>|</mo><mn>1</mn><mo>−</mo><mi>π</mi><mo>|</mo><mo>−</mo><mn>2</mn><mi>π</mi><mo>|</mo></math> jest równa</p>",
       "choices": [
@@ -108,7 +108,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "geometria"
+        "symetrie",
+        "układ współrzędnych"
       ],
       "prompt_html": "<p>W kartezjańskim układzie współrzędnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>)</mo></math> dane są cztery punkty, będące kolejnymi wierzchołkami czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>. Punkty te mają współrzędne: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mo>(</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>=</mo><mo>(</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo>,</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mo>=</mo><mo>(</mo><mo>−</mo><mi>b</mi><mo>,</mo><mi>a</mi><mo>)</mo></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> są liczbami dodatnimi. Środek symetrii czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math></p>",
       "choices": [
@@ -155,8 +156,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "trójkąty",
-        "geometria"
+        "trójkąty"
       ],
       "prompt_html": "<p><strong>Informacja do zadań 6. i 7.</strong> Na rysunku obok przedstawiono trójkąt prostokątny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADE</mi></math>, w którym kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADE</mi></math> ma miarę 30°. Na boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> zaznaczono punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> tak, by <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>ABE</mi><mo>|</mo><mo>=</mo><mn>60</mn><mo>°</mo></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>ACE</mi><mo>|</mo><mo>=</mo><mn>45</mn><mo>°</mo></math>.</p><p>Jaki jest stosunek proporcjonalny długości odcinków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math>?</p>",
       "choices": [
@@ -205,7 +205,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "geometria",
+        "czworokąty",
         "dwusieczna kąta / symetralna odcinka"
       ],
       "prompt_html": "<p>Romb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> ma bok długości 6. Symetralna boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> dzieli bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> na odcinki długości 1 i 5, jak pokazano na rysunku obok.</p><p>Jaka jest długość przekątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> tego rombu?</p>",
@@ -325,7 +325,8 @@
       "topics": [
         "koła / okręgi",
         "trójkąty",
-        "dowodzenie / dowody"
+        "dowodzenie / dowody",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Dany jest kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BAC</mi></math> o mierze równej 30°, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>6</mn></math> oraz okrąg <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math> o środku w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> oraz o dowolnym promieniu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math>.</p><p><strong>I.</strong> Jeśli długość promienia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math> wynosi 3, to okrąg <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math> ma jeden punkt wspólny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> z ramieniem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math>, a kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>APB</mi></math> jest prosty.</p><p><strong>a)</strong> (2p) Oblicz pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>APB</mi></math>. Zapisz obliczenia.</p><p><strong>b)</strong> (2p) Okrąg <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math> przecina odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>. Oblicz długość mniejszego łuku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DP</mi></math>. Zapisz obliczenia.</p><p><strong>II.</strong> Dla pewnego promienia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math> okrąg <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math> przecina ramię <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> w dwóch punktach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>AS</mi><mo>|</mo><mo>&lt;</mo><mo>|</mo><mi>AT</mi><mo>|</mo></math> tak, że trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ATB</mi></math> jest prostokątny. Sytuację przedstawiono na rysunku obok.</p><p><strong>a)</strong> (2p) Udowodnij, że trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>STB</mi></math> jest równoboczny.</p><p><strong>b)</strong> (2p) Znajdź długość promienia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math>. Zapisz obliczenia.</p><p><strong>III.</strong> (3p) Niech długość promienia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math> okręgu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math> wynosi 6. Oblicz pole zacieniowanej figury przedstawionej na rysunku obok. Zapisz obliczenia.</p>",
       "choices": [],
@@ -345,7 +346,7 @@
       "type": "open",
       "points": 9,
       "topics": [
-        "bryły",
+        "ostrosłupy",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p><strong>I.</strong> Czworościan foremny ma krawędzie o długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>.</p><p><strong>a)</strong> (1p) Zapisz wzór na wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math> dowolnej ściany czworościanu foremnego.</p><p><strong>b)</strong> (2p) Zapisz wzór na odległość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math> pomiędzy wierzchołkiem ściany a spodkiem wysokości czworościanu foremnego znajdującym się na tej ścianie. Wzór wyraź w zależności od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>.</p><p><strong>c)</strong> (2p) Wyznacz wzór na wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi></math> czworościanu foremnego. Wzór wyraź w zależności od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>.</p><p><strong>II.</strong> (4p) Dany jest dziesięciościan zbudowany z pięciu czworościanów foremnych. Bryłę przedstawiono na rysunku obok. Objętość danego dziesięciościanu jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><msqrt><mn>2</mn></msqrt></math>. Oblicz długość krawędzi tej bryły. Zapisz obliczenia.</p>",

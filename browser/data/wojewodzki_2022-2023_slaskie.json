@@ -17,14 +17,16 @@
       "type": "open",
       "points": 22,
       "topics": [
-        "geometria",
+        "inne",
+        "czworokąty",
+        "kąty",
         "koła / okręgi",
-        "bryły",
+        "ostrosłupy",
         "potęgi i pierwiastki",
         "statystyka opisowa",
-        "reszta z dzielenia",
         "podzielność",
-        "inne"
+        "reszta z dzielenia",
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Rozwiąż krzyżówkę, której hasłem jest nazwa dziedziny matematyki, którą posługiwał się Mikołaj Kopernik w opisie teorii heliocentrycznej, a obecnie służy np. geodetom. Hasło nie jest oceniane.</p><ol><li>Figura, której jednostką miary jest stopień.</li><li>Odcinek, którego długość jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>π</mi></math> razy mniejsza niż obwód koła.</li><li>0,00001 km (słownie).</li><li>Wyrażenie typu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>7</mn><mn>25</mn></msup></math></li><li>Figura, która jest podstawą stożka.</li><li>Trapez, który przy podstawie ma kąty o równej mierze.</li><li>Wyrażenie algebraiczne, które jest iloczynem liczby i zmiennych.</li><li>Nazwa wyrażenia algebraicznego postaci: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mi>b</mi><mo>+</mo><mi>c</mi><mo>+</mo><mi>a</mi><msqrt><mi>d</mi></msqrt></math></li><li>Wartość 5 dla uporządkowanych niemalejąco danych: 1, 2, 4, 4, 6, 6, 7, 7.</li><li>Romb, który jest jednocześnie prostokątem.</li><li>Nazwa wyrażenia postaci: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>5</mn></msqrt></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mn>27</mn><mn>3</mn></mroot></math>.</li><li>Mianownik ułamka, rozumianego jako działanie.</li><li>Jednostka powierzchni równa 0,0001 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>km</mtext><mn>2</mn></msup></math>.</li><li>Odcinek łączący wierzchołek ostrosłupa prawidłowego czworokątnego z punktem przecięcia przekątnych podstawy.</li><li>Dowolny zbiór punktów płaszczyzny (np. siedmiokąt, odcinek).</li><li>Suma liczb przeciwnych (słownie).</li><li>Punkt wspólny wszystkich krawędzi bocznych ostrosłupa.</li><li>Prosta mająca dokładnie jeden punkt wspólny z okręgiem.</li><li>Dzielna w ilorazie zapisanym w postaci ułamka.</li><li>Odcinek, którego długość w kwadracie o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><msqrt><mn>2</mn></msqrt></math>.</li><li>Równość dwóch wyrażeń algebraicznych.</li><li>Przy dzieleniu 130 przez 9 jest nią 4.</li></ol>",
       "choices": [],
@@ -43,7 +45,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "proporcjonalność prosta"
+        "proporcjonalność prosta",
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Jeden <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>dm</mtext><mn>3</mn></msup></math> drewna waży 1,2 kg. Sześcian o krawędzi 2 cm wykonany z tego samego drewna waży</p>",
       "choices": [
@@ -65,8 +68,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
-        "bryły"
+        "graniastosłupy",
+        "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Objętość prostopadłościanu o wymiarach: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>2</mn><mroot><mn>135</mn><mn>3</mn></mroot></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>3</mn><mroot><mn>40</mn><mn>3</mn></mroot></math> cm i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mn>6</mn><mroot><mn>5</mn><mn>3</mn></mroot></math> cm, jest równa</p>",
       "choices": [
@@ -132,8 +135,9 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "podzielność",
         "wyłączanie jednomianu przed nawias",
-        "podzielność"
+        "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Dana jest liczba postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>6</mn><msup><mi>k</mi><mn>2</mn></msup><mo>+</mo><mn>12</mn><msup><mi>k</mi><mn>4</mn></msup><mo>+</mo><mn>18</mn><msup><mi>k</mi><mn>6</mn></msup><mo>+</mo><mn>24</mn><msup><mi>k</mi><mn>8</mn></msup></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> jest liczbą naturalną, dodatnią. Podzielności przez 2 <u>nie dowodzi</u> zapis tej liczby w postaci</p>",
       "choices": [
@@ -155,8 +159,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "proporcjonalność prosta",
-        "procenty"
+        "procenty",
+        "proporcjonalność prosta"
       ],
       "prompt_html": "<p>Opakowanie czekoladek o masie 500 g kosztowało 20 zł. W nowej dostawie pojawiły się opakowania czekoladek o masie 360 g w cenie 18 zł za jedno. Cena kilograma czekoladek</p>",
       "choices": [
@@ -202,7 +206,8 @@
       "points": 1,
       "topics": [
         "trójkąty",
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Przekątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math> ma długość 6 i dzieli czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> na dwa trójkąty prostokątne, jak przedstawia rysunek. Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BAD</mi></math> ma miarę 60°, a kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DBC</mi></math> miarę 45°. Pole tego czworokąta wynosi</p>",
       "choices": [
@@ -251,7 +256,9 @@
       "points": 4,
       "topics": [
         "trójkąty",
-        "potęgi i pierwiastki"
+        "potęgi i pierwiastki",
+        "pole i obwód",
+        "symetrie"
       ],
       "prompt_html": "<p>Dany jest trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>, w którym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AC</mi><mo>|</mo></mrow><mo>=</mo><mrow><mo>|</mo><mi>BC</mi><mo>|</mo></mrow><mo>=</mo><mn>5</mn><msqrt><mn>3</mn></msqrt></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo></mrow><mo>=</mo><mn>6</mn><msqrt><mn>3</mn></msqrt></math>.</p><p>Oceń, czy podane zdania są prawdziwe, czy fałszywe. Zaznacz właściwą odpowiedź.</p>",
       "choices": [
@@ -273,7 +280,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Z sześcianu złożonego z 27 sześcianów jednostkowych wyjęto jeden z widocznych sześcianów jednostkowych.</p><p>Oceń, czy podane zdania są prawdziwe, czy fałszywe. Zaznacz właściwą odpowiedź.</p>",
       "choices": [
@@ -294,7 +301,8 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "pole i obwód",
         "wzory skróconego mnożenia"
       ],
       "prompt_html": "<p>Dany jest kwadrat o boku dłuższym niż 5 cm.</p><p>Oceń, czy podane zdania są prawdziwe, czy fałszywe. Zaznacz właściwą odpowiedź.</p>",
@@ -339,7 +347,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "pole i obwód",
         "trójkąty",
         "potęgi i pierwiastki"
       ],
@@ -358,7 +367,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "podzielność"
       ],
       "prompt_html": "<p>Dany jest prostopadłościan, którego wszystkie krawędzie mają długości wyrażone liczbami naturalnymi. Jedna ze ścian bocznych ma pole równe 6, a pole podstawy wynosi 18. Znajdź wszystkie możliwe prostopadłościany spełniające powyższe warunki i oblicz ich objętości.</p>",
@@ -377,7 +386,7 @@
       "points": 2,
       "topics": [
         "procenty",
-        "równania z jedną zmienną"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Ołówek kosztował <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> zł, a długopis był od niego dwa razy droższy. Po zmianie cen długopis staniał o 14%, a ołówek zdrożał o 48%. Zapisz wyrażenia algebraiczne przedstawiające koszt zakupu dwóch długopisów i jednego ołówka przed zmianą cen i po zmianie cen. Porównując te wyrażenia odpowiedz na pytanie, kiedy dwa długopisy i jeden ołówek kosztowały mniej, przed czy po zmianie cen.</p>",
       "choices": [],

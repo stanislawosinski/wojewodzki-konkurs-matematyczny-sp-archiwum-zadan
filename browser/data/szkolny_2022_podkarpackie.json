@@ -86,7 +86,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest liczbą przeciwną do liczby odwrotnej do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>. Ile jest równy iloczyn liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>?</p>",
       "choices": [
@@ -202,7 +202,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Którą ze wskazanych wielkości <u>wyznaczono błędnie</u> z równania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mi>c</mi><mi>x</mi><mo>+</mo><mi>y</mi></math>?</p>",
       "choices": [
@@ -225,7 +225,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "układ współrzędnych"
       ],
       "prompt_html": "<p>Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> jest środkiem odcinka o końcach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>6</mn><mo>,</mo><mo>−</mo><mn>3</mn><mo>)</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mo>(</mo><mn>10</mn><mo>,</mo><mn>13</mn><mo>)</mo></math>. Jakie współrzędne ma środek odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math>?</p>",
       "choices": [
@@ -271,8 +271,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
-        "potęgi i pierwiastki"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Przekątna jednego kwadratu ma długość 12 cm, a długość boku drugiego kwadratu jest równa 7 cm. Ile wynosi suma pól tych kwadratów?</p>",
       "choices": [
@@ -341,7 +341,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Prostokąt miał wymiary 12 cm x 2 cm. Krótsze boki prostokąta zmniejszono o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math> cm, a dłuższe o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>7</mn></mfrac></math> cm. O ile cm² zmniejszyło się pole?</p>",
       "choices": [
@@ -407,7 +408,7 @@
       "points": 2,
       "topics": [
         "trójkąty",
-        "geometria"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Dany jest trójkąt prostokątny o bokach równych 6 cm, 8 cm, 10 cm.</p><p><strong>Uzupełnij:</strong></p><p>18.1. Najkrótsza wysokość tego trójkąta jest równa: …</p><p>18.2. Suma pól 10 takich trójkątów prostokątnych jest równa: …</p>",
       "choices": [],
@@ -424,7 +425,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p><strong>Uzupełnij luki</strong> tak, aby zdania były prawdziwe.</p><p>Dane są dwie bryły A i B.</p><p>19.1. Suma wszystkich ścian brył A i B jest równa: …</p><p>19.2. Suma wszystkich wierzchołków tych brył wynosi: …</p><p>19.3. Suma wszystkich krawędzi brył A i B jest równa: …</p>",
       "choices": [],
@@ -443,8 +444,10 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "geometria",
         "trójkąty",
+        "kąty",
+        "czworokąty",
+        "pole i obwód",
         "inne"
       ],
       "prompt_html": "<p><strong>Uzupełnij luki</strong> tak, aby zdania były prawdziwe.</p><p>20.1. 1,3 minuty to … sekund.</p><p>20.2. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> tygodnia to … godzin.</p><p>20.3. Przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>5</mn></mfrac></math> lekcji matematyki uczniowie rozwiązywali zadania tekstowe. Ile to minut? …</p><p>20.4. Dany jest trójkąt równoramienny. Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> wynosi: …</p><p>20.5. Pole zacieniowanej części prostokąta jest równe: …</p>",

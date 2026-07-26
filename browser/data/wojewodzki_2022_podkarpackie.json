@@ -110,6 +110,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "ułamki",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Iloczyn kwadratów odwrotności liczb: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mfrac><mn>5</mn><mn>6</mn></mfrac></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>17</mn></mfrac></math> wynosi:</p>",
@@ -133,7 +134,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Pole trójkąta o bokach równych: 5 cm, 8 cm, 5 cm wynosi:</p>",
       "choices": [
@@ -179,7 +181,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Kwadrat podzielono na dwa prostokąty, w których stosunek obwodów wynosi 7:5. Ile jest równy stosunek pól tych prostokątów?</p>",
       "choices": [
@@ -202,7 +205,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy",
+        "ostrosłupy"
       ],
       "prompt_html": "<p>Dany jest graniastosłup prawidłowy siedmiokątny, którego każda ściana boczna jest kwadratem o obwodzie 12 cm oraz czworościan foremny o polu podstawy równej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm². Ile wynosi łączna długość wszystkich krawędzi obu tych graniastosłupów?</p>",
       "choices": [
@@ -225,7 +229,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy",
+        "ostrosłupy"
       ],
       "prompt_html": "<p>Sześcian oraz ostrosłup prawidłowy czworokątny o krawędzi podstawy równej 3 cm i wysokości trzykrotnie dłuższej mają równe objętości. Ile wynosi pole powierzchni sześcianu?</p>",
       "choices": [
@@ -248,7 +253,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "wzory skróconego mnożenia",
+        "wyrażenia algebraiczne",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Wykaż, że dla dowolnej wartości zmiennej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> wartość wyrażenia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>7</mn><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>−</mo><mn>7</mn><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>−</mo><mn>20</mn><mi>x</mi></mrow></math> jest liczbą dodatnią.</p><p>Zapisz obliczenia.</p>",
@@ -322,7 +327,8 @@
       "points": 4,
       "topics": [
         "trójkąty",
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Dany jest trójkąt prostokątny, w którym długości boków są równe: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>−</mo><mn>7</mn></mrow></math> (rysunek). Oblicz pole tego trójkąta oraz długość najkrótszej wysokości.</p><p>Zapisz obliczenia i odpowiedź.</p>",
       "choices": [],
@@ -362,7 +368,8 @@
       "points": 4,
       "topics": [
         "NWW / NWD",
-        "geometria"
+        "układ współrzędnych",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W prostokątnym układzie współrzędnych zaznacz wszystkie punkty, których współrzędne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> są liczbami naturalnymi spełniającymi równocześnie dwa warunki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>NWW</mi><mo>(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>)</mo><mo>=</mo><mn>12</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>NWD</mi><mo>(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>)</mo><mo>=</mo><mn>1</mn></mrow></math>. Połącz te punkty w taki sposób, aby otrzymać wielokąt i oblicz jego pole.</p><p>Zapisz obliczenia i odpowiedź.</p>",
       "choices": [],
@@ -380,7 +387,8 @@
       "points": 4,
       "topics": [
         "koła / okręgi",
-        "geometria"
+        "geometria",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Dane są dwie figury: A i B (rysunek).</p><p>Przyjmując, że bok jednej kratki ma 1, oblicz ich pola.</p><p>Zapisz obliczenia i odpowiedź.</p>",
       "choices": [],
@@ -399,7 +407,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "bryły",
+        "ostrosłupy",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Do zbudowania ostrosłupa prawidłowego użyto tylko dwóch rodzajów figur: trójkątów równobocznych oraz kwadratu. Pole jednego trójkąta równobocznego jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>64</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm². Oblicz objętość tego ostrosłupa.</p><p>Zapisz obliczenia i odpowiedź.</p>",

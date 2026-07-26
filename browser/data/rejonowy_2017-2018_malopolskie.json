@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Zeszyt kosztuje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> złotych. Ta cena jest o 2 zł mniejsza od ceny długopisu. Wyrażenie określające, ile trzeba zapłacić kupując <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> długopisów, ma postać:</p>",
       "choices": [
@@ -51,7 +51,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Liczbą, której <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math> wynosi tyle, co <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>5</mn></mfrac></math> wartości wyrażenia arytmetycznego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>·</mo><mo>(</mo><mn>3,5</mn><mo>−</mo><mn>2,25</mn><mo>)</mo></mrow></math>, jest:</p>",
       "choices": [
@@ -86,7 +86,7 @@
       "points": 1,
       "topics": [
         "trójkąty",
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> zaznaczony na rysunku ma miarę:</p>",
       "choices": [
@@ -156,7 +156,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Małgosia upraszczała wyrażenia algebraiczne:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mn>10</mn></math>&nbsp;&nbsp;&nbsp;&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>13</mn><mi>xy</mi><mo>−</mo><mn>21</mn><mi>yx</mi><mo>=</mo><mo>−</mo><mn>8</mn><mi>xy</mi></math>&nbsp;&nbsp;&nbsp;&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>xy</mi><mo>−</mo><mn>3</mn><mi>y</mi><mo>=</mo><mi>x</mi></math>&nbsp;&nbsp;&nbsp;&nbsp;<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>x</mi><mn>2</mn></msup><msup><mi>y</mi><mn>2</mn></msup><mo>−</mo><mn>3</mn><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>xy</mi><mo>=</mo><mi>xy</mi></math></p><p>Ile z tych przykładów Małgosia przekształciła poprawnie?</p>",
       "choices": [
@@ -225,7 +225,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Sześcian pomalowany farbą rozcięto na 64 jednakowe sześcianiki. Wynika z tego, że:</p>",
@@ -294,8 +294,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Obwód czworokąta wynosi 40 cm. Przekątna dzieli ten czworokąt na dwa trójkąty o obwodach 36 cm i 30 cm. Długość tej przekątnej wynosi:</p>",
       "choices": [
@@ -329,7 +329,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "proporcjonalność prosta"
+        "proporcjonalność prosta",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Ile hektarów zajmuje w rzeczywistości prostokątna działka, która na planie w skali <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>:</mo><mn>2000</mn></math> ma wymiary 75 mm i 50 mm?</p>",
       "choices": [
@@ -363,7 +364,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Z drutu o długości 42 cm zbudowano szkielet graniastosłupa prawidłowego o krawędzi podstawy 1,5 cm i krawędzi bocznej 4 cm. Podstawą tego graniastosłupa jest:</p>",
       "choices": [
@@ -537,7 +538,8 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "pole i obwód",
         "procenty"
       ],
       "prompt_html": "<p>W trapezie równoramiennym przekątna dzieli kąt ostry na połowy. Dłuższa podstawa trapezu ma długość 11 cm, jego obwód wynosi 26 cm, a pole 32 cm². Jakim procentem obwodu tego trapezu jest długość jego wysokości? Zapisz obliczenia.</p>",

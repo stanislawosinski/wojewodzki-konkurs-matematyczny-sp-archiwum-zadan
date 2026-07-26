@@ -51,7 +51,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Puszka farby wystarcza na pomalowanie 4 m² powierzchni. Ile co najmniej takich puszek farby trzeba kupić, aby pomalować obustronnie latawiec w kształcie rombu o przekątnych 3 m i 2 m?</p>",
       "choices": [
@@ -153,7 +154,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Łączna liczba wszystkich ścian, wierzchołków i krawędzi pewnego graniastosłupa jest równa 110. Ile wierzchołków ma wielokąt, będący podstawą tego graniastosłupa?</p>",
       "choices": [
@@ -187,7 +188,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "ostrosłupy"
       ],
       "prompt_html": "<p>Podstawą ostrosłupa, który ma 14 wierzchołków jest</p>",
       "choices": [
@@ -222,7 +223,7 @@
       "points": 1,
       "topics": [
         "trójkąty",
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Suma miar kątów α i β zaznaczonych na rysunku wynosi</p>",
       "choices": [
@@ -292,7 +293,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>W czasie, gdy wskazówka minutowa zegara obraca się o 90°, wskazówka godzinowa obraca się o</p>",
       "choices": [
@@ -326,7 +327,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Największa spośród liczb to</p>",
       "choices": [
@@ -360,7 +361,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "sześciokąty foremne"
+        "sześciokąty foremne",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Dany jest sześciokąt foremny o obwodzie 24. Pole tego sześciokąta wynosi</p>",
       "choices": [
@@ -394,7 +396,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Sześcienna kostka o krawędzi 1 cm waży 16 g. Kostka wykonana z tego samego materiału o krawędzi 2 cm waży</p>",
       "choices": [
@@ -462,7 +464,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Po uproszczeniu wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>15</mn><mi>x</mi><mo>−</mo><mn>5</mn></mrow><mn>5</mn></mfrac><mo>−</mo><mn>4</mn><mo>·</mo><mfrac><mrow><mn>3</mn><mi>x</mi><mo>−</mo><mn>6</mn></mrow><mn>3</mn></mfrac></math> otrzymamy</p>",
       "choices": [
@@ -496,7 +498,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Dane jest wyrażenie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>1,24</mn><mo>:</mo><mo>(</mo><mn>0,6</mn><mo>−</mo><mn>1,6</mn><mo>)</mo></mrow><mrow><mo>−</mo><mn>0,33</mn></mrow></mfrac></math>. Czy wartość tego wyrażenia jest liczbą dodatnią? Wybierz odpowiedź T(tak) lub N(nie) i jej uzasadnienie spośród A, B albo C.</p>",
       "choices": [
@@ -539,9 +541,11 @@
       "points": 3,
       "topics": [
         "potęgi i pierwiastki",
-        "bryły",
         "wzory skróconego mnożenia",
-        "procenty"
+        "procenty",
+        "graniastosłupy",
+        "ostrosłupy",
+        "geometria"
       ],
       "prompt_html": "<p>Oceń prawdziwość zdań, wpisując <strong>P</strong>-prawda lub <strong>F</strong>-fałsz:</p>",
       "choices": [
@@ -640,8 +644,9 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Przekątne rombu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> mają długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi><mo>=</mo><mn>8</mn></math> dm i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi><mo>=</mo><mn>10</mn></math> dm. Przekątną <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math> rombu przedłużono do punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> w taki sposób, że odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BE</mi></math> jest dwa razy dłuższy od tej przekątnej. Oblicz pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDE</mi></math>. Rozważ wszystkie możliwości. Swoje obliczenia i rozważania zapisz.</p>",
       "choices": [],

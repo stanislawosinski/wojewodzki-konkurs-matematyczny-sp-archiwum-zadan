@@ -55,7 +55,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Zegar ma dwie wskazówki: godzinową i minutową. W pewnym momencie wskazówki te pokrywają się. W której minucie mniejszy kąt między wskazówkami przestanie być ostry? Wybierz poprawną odpowiedź spośród danych.</p>",
       "choices": [
@@ -124,7 +124,7 @@
       "type": "true_false",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Pole podstawy sześcianu i jej obwód wyrażają się tą samą liczbą.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F, jeśli jest fałszywe.</p>",
       "choices": [
@@ -185,7 +185,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "pole i obwód",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Uzasadnij, że pole trapezu równoramiennego o wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math>, w którym przekątne są prostopadłe, jest równe polu kwadratu, którego bok ma długość równą wysokości tego trapezu.</p>",
@@ -203,7 +204,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Na rysunku boki kwadratów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BEGF</mi></math> są jednakowej długości, a punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi></math> jest środkiem odpowiednich boków tych kwadratów. Oblicz, ile razy pole sześciokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCDHGF</mi></math> jest większe od pola każdego z rozważanych kwadratów.</p>",
       "choices": [],
@@ -240,7 +242,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "podzielność"
       ],
       "prompt_html": "<p>Zosia skleiła wszystkie możliwe modele prostopadłościanów, których długości krawędzi są liczbami naturalnymi, natomiast jedna ze ścian każdego z tych prostopadłościanów ma pole równe 12, a druga 30. Ile modeli prostopadłościanów wykonała Zosia i jakie są ich objętości? Odpowiedź uzasadnij.</p>",

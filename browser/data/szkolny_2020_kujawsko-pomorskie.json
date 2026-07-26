@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Który ułamek jest większy od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>8</mn><mn>9</mn></mfrac></math> i mniejszy od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>9</mn><mn>10</mn></mfrac></math>?</p>",
       "choices": [
@@ -153,7 +153,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Obwód prostokąta jest równy 32 cm. Jakie pole może mieć ten prostokąt, którego długości boków są wyrażone liczbami naturalnymi?</p>",
       "choices": [
@@ -256,7 +257,7 @@
       "points": 1,
       "topics": [
         "trójkąty",
-        "geometria"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Jakie pole ma zacieniowany na rysunku trójkąt, jeśli jeden mały kwadrat ma pole równe 1 j²?</p>",
       "choices": [
@@ -361,7 +362,8 @@
       "points": 1,
       "topics": [
         "procenty",
-        "geometria"
+        "geometria",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Figura przedstawiona na rysunku jest zbudowana z przystających kwadratów i trójkątów równoramiennych. Jaki procent całej figury stanowi część zacieniowana?</p>",
       "choices": [
@@ -431,7 +433,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Mamy sześcian. Dodajemy liczbę ścian do liczby wierzchołków i odejmujemy liczbę krawędzi. Otrzymana liczba to:</p>",
       "choices": [
@@ -465,7 +467,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "układ współrzędnych",
+        "czworokąty"
       ],
       "prompt_html": "<p>Dane są trzy wierzchołki kwadratu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>(</mo><mn>1</mn><mo>;</mo><mn>4</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mo>(</mo><mn>4</mn><mo>;</mo><mn>6</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>=</mo><mo>(</mo><mn>6</mn><mo>;</mo><mn>3</mn><mo>)</mo></math>. Wskaż współrzędne czwartego wierzchołka:</p>",
       "choices": [
@@ -499,7 +502,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Jeśli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> szklanki jest pusta, to jest w niej 180 ml soku. Ile jest soku w pełnej szklance?</p>",
       "choices": [
@@ -534,7 +537,7 @@
       "points": 1,
       "topics": [
         "trójkąty",
-        "geometria"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Jaką część trójkąta, przedstawionego na rysunku, zacieniowano?</p>",
       "choices": [
@@ -745,9 +748,10 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "geometria",
-        "procenty",
-        "proporcjonalność prosta"
+        "czworokąty",
+        "pole i obwód",
+        "proporcjonalność prosta",
+        "procenty"
       ],
       "prompt_html": "<p>Kwadratową działkę podzielono na pięć jednakowych działek prostokątnych. Linie podziałowe były równoległe do jednego boku kwadratu tak jak na rysunku. Ogrodzono wszystkie działki (pomiędzy działkami jest jedno ogrodzenie). Łączna długość ogrodzenia to 400 m.</p><ol type=\"A\"><li>Pole dużej działki jest równe ……… m².</li><li>Długość ogrodzenia jednej małej działki wynosi ……… m.</li><li>Krótszy bok małej działki na planie w skali 1 : 200 ma długość ……… cm.</li><li>Jeżeli koszt jednego metra ogrodzenia wynosi 27 zł, to za całe ogrodzenie trzeba zapłacić ……… zł.</li><li>Wiadomo, że 1 kg trawy wystarcza na obsianie 50 m² powierzchni. Aby obsiać 30% powierzchni dużej działki należy kupić ……… kg trawy.</li></ol>",
       "choices": [],

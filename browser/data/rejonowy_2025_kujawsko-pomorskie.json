@@ -51,7 +51,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W trójkącie prostokątnym dwa dłuższe boki mają długość 20 cm i 16 cm. Oblicz pole tego trójkąta. Wskaż odpowiedź spośród podanych.</p>",
       "choices": [
@@ -85,7 +86,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Wartość liczbowa wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>[</mo><mo>(</mo><mi>x</mi><mo>+</mo><mfrac><mi>x</mi><mi>y</mi></mfrac><mo>)</mo><mo>·</mo><mo>(</mo><mfrac><mi>y</mi><mi>x</mi></mfrac><mo>−</mo><mi>y</mi><mo>)</mo><mo>]</mo><mo>:</mo><mfrac><mn>1</mn><mrow><mi>x</mi><mo>−</mo><mi>y</mi></mrow></mfrac></mrow></math> dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mo>−</mo><mn>2</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>1,5</mn></mrow></math> wynosi:</p>",
       "choices": [
@@ -264,7 +265,7 @@
       "points": 1,
       "topics": [
         "pierścień kołowy",
-        "koła / okręgi"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Pan Jan postanowił założyć w swoim ogrodzie rabatę kwiatową w kształcie koła. Rabata ma średnicę równą 10 m. Pan Jan zauważył, że jego rabata ma idealnie pasujące miejsce na ścieżkę wokół niej o szerokości 1 m. Przyjmij, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>π</mi><mo>≈</mo><mn>3,14</mn></mrow></math>. Pole powierzchni tej ścieżki, przybliżone do części dziesiątych, wyrażone w metrach kwadratowych wynosi:</p>",
       "choices": [
@@ -298,7 +299,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "reszta z dzielenia"
+        "ułamki"
       ],
       "prompt_html": "<p>Zamień ułamek 0,0(27) na ułamek zwykły. Wskaż odpowiedź spośród podanych.</p>",
       "choices": [
@@ -332,7 +333,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "układ współrzędnych"
       ],
       "prompt_html": "<p>W układzie współrzędnych dany jest odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>MN</mi></math>. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>S</mi><mo>=</mo><mo>(</mo><mfrac><mn>7</mn><mn>2</mn></mfrac><mo>;</mo><mo>−</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>)</mo></mrow></math> jest środkiem odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>MN</mi></math>. Wiedząc, że punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>M</mi><mo>=</mo><mo>(</mo><mfrac><mn>5</mn><mn>2</mn></mfrac><mo>;</mo><mfrac><mn>5</mn><mn>4</mn></mfrac><mo>)</mo></mrow></math> wskaż współrzędne punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>N</mi></math>.</p>",
       "choices": [
@@ -400,7 +401,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Dany jest sześcian o powierzchni bocznej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,64</mn><mtext>&#xA0;</mtext><msup><mtext>dm</mtext><mn>2</mn></msup></mrow></math>. Wskaż liczbę, będącą sumą długości wszystkich krawędzi tego sześcianu wyrażoną w metrach.</p>",
       "choices": [
@@ -434,7 +435,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Z kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> o boku 6 cm wycięto dwa przystające trapezy równoramienne, tak jak na rysunku obok. Ile wynosi pole powstałej w ten sposób zacieniowanej figury? Wskaż odpowiedź spośród podanych.</p>",
       "choices": [
@@ -470,8 +472,9 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "czworokąty",
         "koła / okręgi",
-        "geometria"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Obwód kwadratu jest dwa razy większy od obwodu koła. Stosunek pola tego kwadratu do pola koła wynosi:</p>",
       "choices": [
@@ -505,7 +508,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "kąty"
       ],
       "prompt_html": "<p>Dany jest trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>, kąt przy wierzchołku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> jest dwa razy mniejszy od kąta przy wierzchołku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>, a kąt przy wierzchołku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> jest 9 razy większy od kąta przy wierzchołku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>. Różnica między miarami kąta największego i najmniejszego wynosi:</p>",
       "choices": [
@@ -539,7 +543,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Dane są dwie bryły - prostopadłościan i sześcian. Podstawą prostopadłościanu, którego wysokość ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><msqrt><mn>2</mn></msqrt></mrow></math> cm, jest kwadrat o boku długości 5 cm. Długość krawędzi sześcianu jest równa długości przekątnej podstawy prostopadłościanu. Suma powierzchni całkowitych tych dwóch brył wynosi:</p>",
       "choices": [
@@ -573,8 +577,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność",
-        "zliczanie / metody zliczania"
+        "podzielność"
       ],
       "prompt_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2024</mn><mo>−</mo><mn>2023</mn><mo>+</mo><mn>2022</mn><mo>−</mo><mn>2021</mn><mo>+</mo><mo>…</mo><mo>+</mo><mn>2</mn><mo>−</mo><mn>1</mn></mrow></math> jest liczbą:</p>",
       "choices": [

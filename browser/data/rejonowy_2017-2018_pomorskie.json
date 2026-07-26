@@ -35,7 +35,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Oblicz miarę kąta wypukłego utworzonego przez wskazówki zegara o godzinie 20:25.</p>",
       "choices": [],
@@ -103,9 +103,10 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "procenty",
-        "geometria",
-        "wzory skróconego mnożenia"
+        "czworokąty",
+        "pole i obwód",
+        "wzory skróconego mnożenia",
+        "procenty"
       ],
       "prompt_html": "<p>Każda z dziewczynek: Ania, Zosia i Marysia wycięła z kartonu jeden kwadrat. Kwadrat Zosi ma bok o 10 cm dłuższy od boku kwadratu Ani, a kwadrat Marysi ma bok o 1 cm krótszy od boku kwadratu Ani. Okazało się, że pole kwadratu Zosi jest o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>600</mn><mtext>&#160;</mtext><msup><mi>cm</mi><mn>2</mn></msup></mrow></math> większe od pola kwadratu Ani. Oblicz, o ile procent pole kwadratu Marysi jest mniejsze od pola kwadratu Ani.</p>",
       "choices": [],
@@ -122,10 +123,12 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki",
         "trójkąty",
-        "procenty",
-        "wyłączanie jednomianu przed nawias"
+        "kąty",
+        "wyrażenia algebraiczne",
+        "wyłączanie jednomianu przed nawias",
+        "potęgi i pierwiastki",
+        "procenty"
       ],
       "prompt_html": "<p>Oceń prawdziwość zdań. Otocz kółkiem P, jeśli zdanie jest prawdziwe lub F, jeśli zdanie jest fałszywe.</p>",
       "choices": [
@@ -184,8 +187,9 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Przekątna prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> ma długość 50 cm. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> jest środkiem boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>. Oblicz pole prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> wiedząc, że odległość punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> od przekątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DB</mi></math> (długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EF</mi></math>) jest równa 12 cm.</p>",
       "choices": [],

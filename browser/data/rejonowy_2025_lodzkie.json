@@ -17,8 +17,9 @@
       "type": "open",
       "points": 4,
       "topics": [
+        "trójkąty",
         "koła / okręgi",
-        "trójkąty"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Wiemy, że</p><ul><li>przedstawiony na poniższym rysunku trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest prostokątny,</li><li>punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>J</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> są, odpowiednio, środkami odcinków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math>,</li><li>długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> jest równa 7, a odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> jest równa 8,</li><li>wszystkie łuki na rysunku są półokręgami.</li></ul><p>A) Oblicz pole zacieniowanej figury. Wskaż właściwą odpowiedź spośród podanych.</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>28</mn><mo>+</mo><mfrac><mn>89</mn><mn>4</mn></mfrac><mi>π</mi></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>28</mn><mo>+</mo><mfrac><mn>339</mn><mn>2</mn></mfrac><mi>π</mi></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>28</mn><mo>+</mo><mfrac><mn>1017</mn><mn>16</mn></mfrac><mi>π</mi></math></li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>28</mn><mo>+</mo><mfrac><mn>339</mn><mn>4</mn></mfrac><mi>π</mi></math></li><li>E. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>28</mn><mo>+</mo><mfrac><mn>113</mn><mn>8</mn></mfrac><mi>π</mi></math></li></ul><p>B) Oblicz obwód zacieniowanej figury.</p>",
       "choices": [],
@@ -37,8 +38,7 @@
       "type": "open",
       "points": 9,
       "topics": [
-        "geometria",
-        "zliczanie / metody zliczania"
+        "symetrie"
       ],
       "prompt_html": "<p>Na zegarze elektronicznym wyświetlane są zawsze cztery cyfry (tzn. na przykład 8:15 to 08:15) wyglądające jak poniżej.</p><p>Zegar pokazuje godziny od 00:00 do 23:59. W tym zadaniu traktujemy wyświetlaną godzinę jak figurę.</p><p>A) Podaj dwa przykłady godziny, która ma zarówno pionową jak i poziomą oś symetrii.</p><p>B) Podaj trzy przykłady godziny, która ma tylko pionową oś symetrii.</p><p>C) Podaj trzy przykłady godziny, która ma tylko poziomą oś symetrii.</p><p>D) Podaj dwa przykłady godziny, która ma środek symetrii.</p>",
       "choices": [],
@@ -136,7 +136,7 @@
       "points": 9,
       "topics": [
         "prawdopodobieństwo",
-        "kombinatoryka"
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Do pustego pokoju wchodzili kolejno:</p><ul><li>Ania z siostrą</li><li>Krzysiek z siostrą i bratem</li><li>Maciek z bratem</li><li>Wojtek z siostrą</li><li>Marysia z bratem</li><li>Julian</li><li>Nicola z siostrą i bratem</li><li>Milena</li></ul><p>A) Jakie jest prawdopodobieństwo, że losowa osoba z pokoju ma tam siostrę? Wynik przedstaw w procentach.</p><p>B) Jedna osoba wyszła z pokoju. Wówczas prawdopodobieństwo, że losowo wybrana osoba z pokoju ma w nim siostrę, wyniosło 53,33%. Wypisz cztery przykładowe osoby, które mogły wyjść.</p>",
       "choices": [],
@@ -206,7 +206,8 @@
       "type": "open",
       "points": 7,
       "topics": [
-        "bryły",
+        "graniastosłupy",
+        "ostrosłupy",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>W pewnym graniastosłupie prawidłowym sześć krawędzi ma długość 7, a trzy krawędzie mają długość 4. Graniastosłup nie ma więcej krawędzi. Ostrosłup prawidłowy o tej samej objętości ma cztery krawędzie długości 3,5 i cztery krawędzie długości 4. Oblicz wysokość ostrosłupa. Rozważ wszystkie przypadki.</p>",
@@ -224,7 +225,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "układ współrzędnych"
       ],
       "prompt_html": "<p>Uzupełnij luki w tekście, wybierając spośród odpowiedzi podanych poniżej.</p><p>Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>0</mn><mo>,</mo><mo>−</mo><mn>1</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>−</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo>)</mo></math> są wierzchołkami czworokąta. Jest to ……… .</p><p>Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>15</mn><mo>,</mo><mn>100</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>100</mn><mo>,</mo><mo>−</mo><mn>15</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>15</mn><mo>,</mo><mo>−</mo><mn>100</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>100</mn><mo>,</mo><mn>15</mn><mo>)</mo></math> są wierzchołkami czworokąta. Jest to ……… .</p><ul><li>A) Kwadrat</li><li>B) Romb, który nie jest kwadratem</li><li>C) Prostokąt, który nie jest kwadratem</li><li>D) Równoległobok, który nie jest prostokątem</li><li>E) Trapez, który nie jest równoległobokiem</li><li>F) Czworokąt, który nie jest trapezem</li></ul>",
       "choices": [],

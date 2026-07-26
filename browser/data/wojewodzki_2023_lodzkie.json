@@ -55,7 +55,7 @@
       "type": "closed_single",
       "points": 4,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Ile jest liczb całkowitych wśród liczb: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>−</mo><mn>4</mn><mo>·</mo><mfrac><mn>1</mn><mn>8</mn></mfrac></mrow><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>:</mo><mfrac><mn>1</mn><mn>4</mn></mfrac></mrow></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>:</mo><mfrac><mn>1</mn><mn>4</mn></mfrac></mrow><mrow><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>−</mo><mn>4</mn><mo>)</mo><mo>·</mo><mfrac><mn>1</mn><mn>8</mn></mfrac></mrow></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><mrow><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>:</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>−</mo><mn>4</mn><mo>)</mo><mo>·</mo><mfrac><mn>1</mn><mn>8</mn></mfrac></mrow><mrow><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></mfrac></math></p>",
       "choices": [
@@ -249,7 +249,7 @@
       "type": "closed_single",
       "points": 4,
       "topics": [
-        "geometria",
+        "trójkąty",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Samochód pokonał trasę długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>50</mn></msqrt></math> km w kierunku północno-wschodnim (pod kątem 45° od kierunku wschodniego) a następnie 15 km na południe. Z miejsca, do którego dotarł wrócił najkrótszą możliwą drogą do punktu startu. Ten ostatni fragment drogi miał długość</p>",
@@ -328,6 +328,8 @@
       "points": 4,
       "topics": [
         "trójkąty",
+        "układ współrzędnych",
+        "pole i obwód",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Oblicz pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> trójkąta, którego wierzchołkami są punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>(</mo><mn>0</mn><mo>,</mo><msqrt><mn>75</mn></msqrt><mo>−</mo><mn>2</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>(</mo><mn>0</mn><mo>,</mo><mn>5</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>6</mn><mo>)</mo></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>(</mo><msqrt><mn>23</mn></msqrt><mo>,</mo><msqrt><mn>19</mn></msqrt><mo>)</mo></math></p>",
@@ -366,7 +368,8 @@
       "type": "closed_single",
       "points": 4,
       "topics": [
-        "bryły"
+        "graniastosłupy",
+        "ostrosłupy"
       ],
       "prompt_html": "<p>Z sześcianu o krawędzi 6 dm wydrążono największy możliwy ostrosłup prawidłowy czworokątny (porównaj rysunek).</p><p>W ten sposób powstały cztery bryły (ostrosłupy trójkątne). Objętość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi></math> każdej z nich jest równa</p>",
       "choices": [
@@ -407,6 +410,7 @@
       "points": 4,
       "topics": [
         "bryły",
+        "okrąg wpisany i opisany",
         "sześciokąty foremne"
       ],
       "prompt_html": "<p>Podstawą niebieskiego walca o wysokości 1 dm jest koło, w które wpisano sześciokąt foremny o polu równym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>27</mn><mn>2</mn></mfrac><msqrt><mn>3</mn></msqrt></math> dm². Podstawą zielonego walca o wysokości 22,5 cm jest koło, na którym opisano kwadrat o polu równym 8 dm². Który walec ma większą objętość? Wskaż właściwą odpowiedź A–C oraz jej uzasadnienie 1–3.</p>",
@@ -449,8 +453,7 @@
       "type": "open",
       "points": 12,
       "topics": [
-        "koła / okręgi",
-        "szacowanie (zamiast obliczania)"
+        "koła / okręgi"
       ],
       "prompt_html": "<p>Pizzeria sprzedaje pizzę w trzech rozmiarach:</p><ul><li>Mała (średnica 24 cm) za 28,4 zł</li><li>Średnia (średnica 32 cm) za 41 zł</li><li>Duża (średnica 42 cm) za 48,30 zł</li></ul><p>Finaliści Wojewódzkiego Konkursu Przedmiotowego z matematyki wyliczyli, że potrzebują minimum <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2000</mn><mi>π</mi></math> cm² pizzy. Jaka jest minimalna kwota jaką muszą zapłacić, by kupić potrzebną ilość pizzy? Odpowiedź uzasadnij.</p>",
       "choices": [],
@@ -503,6 +506,7 @@
       "points": 5,
       "topics": [
         "trójkąty",
+        "pole i obwód",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Trójkąt Sierpińskiego to zbiór, który powstaje poprzez stopniowe usuwanie z trójkątów równobocznych odpowiednich trójkątów równobocznych. Nie da się narysować trójkąta Sierpińskiego a jedynie kolejne jego przybliżenia jak na poniższym rysunku:</p><p>a) Oblicz pole trzeciego przybliżenia trójkąta Sierpińskiego, jeśli trójkąt będący pierwszym przybliżeniem ma bok długości 5 cm</p><p>b) Wyznacz pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>-tego przybliżenia trójkąta Sierpińskiego, jeśli trójkąt będący pierwszym przybliżeniem ma pole równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math></p>",
@@ -522,6 +526,7 @@
       "type": "open",
       "points": 12,
       "topics": [
+        "graniastosłupy",
         "bryły",
         "nierówności"
       ],

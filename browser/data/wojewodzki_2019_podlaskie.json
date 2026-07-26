@@ -188,8 +188,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty",
-        "proporcjonalność prosta"
+        "procenty"
       ],
       "prompt_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest o 20% większa od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>. Stosunek liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> do liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest równy</p>",
       "choices": [
@@ -224,7 +223,7 @@
       "points": 1,
       "topics": [
         "prawdopodobieństwo",
-        "kombinatoryka"
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Krzysiek zapomniał dwie ostatnie cyfry sześciocyfrowego kodu do swojego telefonu. Wpisuje dokładnie zapamiętane cztery pierwsze cyfry, a dwie ostatnie na chybił trafił. Prawdopodobieństwo, że Krzysiek za pierwszym razem odblokuje swój telefon jest równe</p>",
       "choices": [
@@ -327,6 +326,7 @@
       "points": 1,
       "topics": [
         "koła / okręgi",
+        "pole i obwód",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Z kartki w kształcie kwadratu o przekątnej równej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>14</mn><msqrt><mn>2</mn></msqrt></mrow></math> cm wycięto możliwie największe koło. Obwód wyciętego koła jest równy</p>",
@@ -396,6 +396,7 @@
       "points": 1,
       "topics": [
         "trójkąty",
+        "pole i obwód",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>W trójkącie prostokątnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> (patrz rysunek) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>8</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AC</mi><mo>|</mo><mo>=</mo><mn>6</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AD</mi><mo>|</mo><mo>=</mo><mn>4</mn></mrow></math>. Obwód trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest większy od obwodu trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABD</mi></math> o</p>",
@@ -432,8 +433,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
-        "proporcjonalność prosta"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Pole jednego kwadratu jest 9 razy większe od pola drugiego kwadratu. Ile razy obwód małego kwadratu jest mniejszy od obwodu większego kwadratu?</p>",
       "choices": [
@@ -467,7 +468,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W prostokącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> jest środkiem boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>, zaś <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math> jest środkiem boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> (patrz rysunek obok). Jeżeli pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AEF</mi></math> jest równe 15 cm², to pole prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> wynosi</p>",
       "choices": [
@@ -503,7 +505,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "proporcjonalność prosta"
       ],
       "prompt_html": "<p>Okrąg o średnicy 8 cm narysowano w pewnej skali, uzyskując okrąg o promieniu 12 cm. Rysunek wykonano w skali</p>",
       "choices": [
@@ -572,7 +574,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "symetrie"
       ],
       "prompt_html": "<p>Figurą, która ma środek symetrii, a nie ma osi symetrii jest</p>",
       "choices": [
@@ -606,7 +608,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Średnia arytmetyczna długości krawędzi graniastosłupa prostego o podstawie równoległoboku, wychodzących z jednego wierzchołka, jest równa 12 cm. Suma długości wszystkich krawędzi tego graniastosłupa jest równa</p>",
       "choices": [
@@ -696,7 +698,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "bryły",
+        "ostrosłupy",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Figura na rysunku jest siatką ostrosłupa prawidłowego czworokątnego. Wiedząc, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>4</mn></mrow></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>BC</mi><mo>|</mo><mo>=</mo><mn>2</mn><msqrt><mn>5</mn></msqrt></mrow></math> cm, oblicz objętość tego ostrosłupa.</p>",

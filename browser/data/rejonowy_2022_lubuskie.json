@@ -61,7 +61,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "geometria",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Na poniższym rysunku widać dwa jednakowe kwadraty o boku a. Która z zacieniowanych figur (trójkąt czy trapez prostokątny) ma większe pole i o ile większe?</p>",
       "choices": [
@@ -107,7 +108,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Na planie miasta w skali 1 : 2000 kwadratowy plac ma pole 6,25 cm². W rzeczywistości obwód placu jest równy</p>",
       "choices": [
@@ -151,8 +153,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "koła / okręgi",
-        "geometria"
+        "koła / okręgi"
       ],
       "prompt_html": "<p>Na poniższym rysunku przedstawiono proste styczne do okręgów. Kąt α ma miarę</p>",
       "choices": [
@@ -199,8 +200,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
-        "podzielność"
+        "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Suma cyfr liczby będącej wynikiem działania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>95</mn></msup><mo>−</mo><mn>95</mn></math> wynosi</p>",
       "choices": [
@@ -289,8 +289,9 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
-        "dwusieczna kąta / symetralna odcinka"
+        "czworokąty",
+        "dwusieczna kąta / symetralna odcinka",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Maciek narysował trapez równoramienny o podstawach długości 8 cm i 15 cm. Jedna z przekątnych zawiera się w dwusiecznej kąta ostrego tego trapezu. Jaki jest obwód tego trapezu?</p>",
       "choices": [
@@ -335,7 +336,8 @@
       "points": 1,
       "topics": [
         "koła / okręgi",
-        "potęgi i pierwiastki"
+        "potęgi i pierwiastki",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Kwadrat o boku π ma powierzchnię równą powierzchni koła. Średnica tego koła ma długość</p>",
       "choices": [
@@ -381,8 +383,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zliczanie / metody zliczania",
-        "kombinatoryka"
+        "kombinatoryka",
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Wiktor układa z cyfr od 1 do 5 liczby trzycyfrowe. Ile najwięcej może utworzyć liczb parzystych o różnych cyfrach?</p>",
       "choices": [
@@ -404,7 +406,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Jeśli trójkąt równoboczny o boku x ma powierzchnię P, to trójkąt równoboczny o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><msqrt><mn>3</mn></msqrt></math> ma powierzchnię</p>",
       "choices": [
@@ -448,7 +451,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "układ współrzędnych"
       ],
       "prompt_html": "<p>W której ćwiartce układu współrzędnych leży punkt K = (a, 3), gdy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>&lt;</mo><mn>0</mn></math>?</p>",
       "choices": [
@@ -470,7 +473,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Komputerowy wirus niszczy przestrzeń na dysku. Pierwszego dnia zniszczył <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math> tej przestrzeni, drugiego dnia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> tego, co zostało. Jaka część dysku pozostała użytkownikowi tego komputera po dwóch dniach?</p>",
       "choices": [
@@ -538,7 +541,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Z prostopadłościanu wycięto bryłę przedstawioną na rysunku. Jaka jest objętość tej bryły?</p>",
       "choices": [
@@ -628,7 +631,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Jeśli wskazówka minutowa zegara obróciła się o kąt 60°, to wskazówka godzinowa w tym samym czasie obróciła się o kąt</p>",
       "choices": [
@@ -672,7 +675,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
+        "trójkąty",
         "proporcjonalność prosta"
       ],
       "prompt_html": "<p>W szkolnej sali komputerowej poprowadzono po podłodze kabel o długości 14 m wzdłuż dwóch sąsiednich ścian tak, że stosunek długości jednej części do drugiej wynosi 4 : 3. Sala komputerowa ma kształt prostopadłościanu. Jaka jest odległość między końcami kabla?</p>",
@@ -717,7 +720,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Franek ustawił kostki sześcienne o krawędzi 1 jedną na drugiej (jak pokazuje rysunek obok) i zastanawiał się jakie długości mają przekątne tak zbudowanych prostopadłościanów. Oceń poniższe informacje.</p>",
@@ -741,7 +744,7 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "geometria"
+        "symetrie"
       ],
       "prompt_html": "<p>Oceń, czy podane niżej informacje dotyczące symetrii są prawdziwe.</p>",
       "choices": [

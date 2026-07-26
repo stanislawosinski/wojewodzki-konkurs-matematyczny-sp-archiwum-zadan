@@ -86,7 +86,8 @@
       "points": 1,
       "topics": [
         "potęgi i pierwiastki",
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Dany jest kwadrat o polu 16 cm². Bok kwadratu o polu 3 razy większym ma długość</p>",
       "choices": [
@@ -154,7 +155,9 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "symetrie",
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Prostokąt o bokach 9 cm i 12 cm przekształcono symetrycznie względem prostej zawierającej środki sąsiednich boków. Pole figury będącej częścią wspólną figur wzajemnie symetrycznych jest równe</p>",
       "choices": [
@@ -257,7 +260,8 @@
       "points": 1,
       "topics": [
         "trójkąty",
-        "potęgi i pierwiastki"
+        "potęgi i pierwiastki",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Pola kwadratów zbudowanych na przyprostokątnej i przeciwprostokątnej trójkąta prostokątnego są odpowiednio równe 7 i 15. Pole tego trójkąta jest równe</p>",
       "choices": [
@@ -291,7 +295,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Łączna liczba wierzchołków, ścian i krawędzi pewnego graniastosłupa jest równa 110. Ile wierzchołków ma wielokąt będący podstawą tego graniastosłupa?</p>",
       "choices": [
@@ -325,8 +329,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
-        "procenty"
+        "proporcjonalność prosta",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Sad zajmuje prostokątną powierzchnię o wymiarach 400 m × 500 m. Na planie jego powierzchnia wynosi 2 000 cm². Plan sporządzono w skali</p>",
       "choices": [
@@ -360,7 +364,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Pole pewnego trójkąta równobocznego o boku dwa razy dłuższym od boku innego trójkąta równobocznego o wysokości 6 cm jest równe</p>",
       "choices": [
@@ -428,7 +433,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Jaką miarę ma kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, jeżeli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>k</mi><mo>∥</mo><mi>l</mi></mrow></math>?</p>",
       "choices": [
@@ -465,7 +470,7 @@
       "points": 1,
       "topics": [
         "procenty",
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Każdą krawędź sześcianu wydłużono o 10%. O ile procent wzrosła objętość tego sześcianu?</p>",
       "choices": [
@@ -603,7 +608,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "układ współrzędnych"
       ],
       "prompt_html": "<p>W układzie współrzędnych dane są punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mo>=</mo><mo>(</mo><mi>a</mi><mo>,</mo><mn>6</mn><mo>)</mo></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>B</mi><mo>=</mo><mo>(</mo><mn>7</mn><mo>,</mo><mi>b</mi><mo>)</mo></mrow></math>. Środkiem odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> jest punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>M</mi><mo>=</mo><mo>(</mo><mn>3</mn><mo>,</mo><mn>4</mn><mo>)</mo></mrow></math>. Wynika stąd, że</p>",
       "choices": [
@@ -637,8 +642,9 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "trójkąty",
+        "kąty"
       ],
       "prompt_html": "<p>W równoległoboku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> długość boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> jest dwa razy większa od długości boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> dzielący bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> na połowy połączono z punktami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>. Oblicz miarę kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CKD</mi></math>.</p>",
       "choices": [],
@@ -710,8 +716,8 @@
       "points": 3,
       "topics": [
         "trójkąty",
-        "geometria",
-        "potęgi i pierwiastki"
+        "potęgi i pierwiastki",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Na zewnątrz trzech boków trójkąta prostokątnego równoramiennego o przyprostokątnej długości 6 cm zbudowano kwadraty. Środki tych kwadratów połączono odcinkami. Wyznacz pole otrzymanego trójkąta.</p>",
       "choices": [],

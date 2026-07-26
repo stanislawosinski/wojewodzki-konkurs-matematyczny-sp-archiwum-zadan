@@ -62,7 +62,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "statystyka opisowa"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Jeśli do średniej arytmetycznej liczb 7 i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> dodamy kwadrat liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, otrzymamy</p>",
       "choices": [
@@ -106,7 +106,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Kąt wewnętrzny dziewięciokąta foremnego ma miarę</p>",
       "choices": [
@@ -151,8 +151,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
-        "potęgi i pierwiastki"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Jeżeli przekątna kwadratu ma długość 5, to jego pole wynosi</p>",
       "choices": [
@@ -197,7 +197,7 @@
       "points": 1,
       "topics": [
         "proporcjonalność prosta",
-        "geometria"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Na planie w skali 1 : 15 000 pastwisko jest kwadratem o polu 9 cm². Zaznacz rzeczywistą powierzchnię tego pastwiska.</p>",
       "choices": [
@@ -241,8 +241,9 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "trójkąty",
+        "układ współrzędnych",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Końce podstawy trójkąta równoramiennego mają współrzędne (2,1) i (6,1). Pole trójkąta jest równe 10 j². Które współrzędne może mieć trzeci wierzchołek tego trójkąta?</p>",
       "choices": [
@@ -264,7 +265,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "ostrosłupy"
       ],
       "prompt_html": "<p>Ścianami bocznymi ostrosłupa prawidłowego trójkątnego są trójkąty o bokach 20 cm, 20 cm i 10 cm. Suma długości krawędzi tego ostrosłupa jest równa</p>",
       "choices": [
@@ -443,7 +444,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy",
+        "ostrosłupy"
       ],
       "prompt_html": "<p>Graniastosłup prawidłowy i ostrosłup prawidłowy mają po tyle samo krawędzi. Graniastosłup ma 10 ścian. Wskaż zdanie prawdziwe.</p>",
       "choices": [
@@ -501,7 +503,7 @@
       "points": 2,
       "topics": [
         "trójkąty",
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Na bokach AB i BC trójkąta równobocznego ABC zbudowano kwadraty (patrz rysunek). Wyznacz miarę kąta wypukłego CFE. Zapisz obliczenia i odpowiedź.</p>",
       "choices": [],
@@ -557,8 +559,9 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Trapez prostokątny ma pole równe 24 cm². Krótsza przekątna dzieli go na dwa trójkąty prostokątne równoramienne. Wyznacz długość dłuższej przekątnej tego trapezu. Zapisz obliczenia i odpowiedź.</p>",
       "choices": [],
@@ -575,7 +578,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Z sześciennej kostki o krawędzi 3 cm wycięto cztery jednakowe graniastosłupy (patrz rysunek). Wyznacz objętość otrzymanej bryły. Zapisz obliczenia i odpowiedź.</p>",
       "choices": [],

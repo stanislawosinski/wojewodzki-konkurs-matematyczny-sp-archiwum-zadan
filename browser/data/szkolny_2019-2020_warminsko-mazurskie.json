@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
+        "czworokąty",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Przekątna kwadratu o polu 100 ma długość:</p>",
@@ -223,7 +223,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Długości boków pewnego trójkąta są liczbami naturalnymi, a dwa z nich mają długość 1 cm i 5 cm. Obwód tego trójkąta jest równy:</p>",
       "choices": [
@@ -292,7 +293,7 @@
       "points": 1,
       "topics": [
         "proporcjonalność prosta",
-        "geometria"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Prostokątna działka, która na planie w skali 1 : 2000 ma wymiary 75 mm i 50 mm zajmuje w rzeczywistości:</p>",
       "choices": [
@@ -370,7 +371,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "pole i obwód",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Dany jest trapez prostokątny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KLMN</mi></math> o krótszej podstawie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>MN</mi><mo>=</mo><mn>6</mn></mrow></math>, dłuższym ramieniu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>LM</mi><mo>=</mo><mn>8</mn><msqrt><mn>2</mn></msqrt></mrow></math> oraz kącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>KLM</mi><mo>=</mo><mn>45</mn><mo>°</mo></mrow></math>. Wykonaj rysunek pomocniczy tego trapezu i oblicz jego pole.</p>",
@@ -388,8 +390,9 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "bryły",
-        "geometria"
+        "graniastosłupy",
+        "ostrosłupy",
+        "czworokąty"
       ],
       "prompt_html": "<p>Oceń prawdziwość zdań, wpisując w tabeli P – jeśli zdanie jest prawdziwe lub F – jeśli zdanie jest fałszywe:</p>",
       "choices": [
@@ -419,7 +422,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Podaj liczbę odwrotną do liczby przeciwnej do wartości wyrażenia:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>:</mo><mn>0,25</mn><mo>+</mo><mn>5,25</mn><mo>:</mo><mn>0,05</mn><mo>−</mo><mn>7</mn><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>(</mo><mn>2,5</mn><mo>−</mo><mn>3</mn><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>)</mo><mo>+</mo><mn>1,25</mn><mo>=</mo></math></p>",
       "choices": [],

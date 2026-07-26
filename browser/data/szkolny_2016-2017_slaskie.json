@@ -37,7 +37,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "inne"
+        "zagadki logiczne"
       ],
       "prompt_html": "<p>W poniższych wyrażeniach arytmetycznych wstaw nawiasy tak, aby wynik był:</p><p>A) możliwie najmniejszy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>200</mn><mo>−</mo><mn>40</mn><mo>·</mo><mn>3</mn><mo>+</mo><mn>2</mn></mrow></math></p><p>B) możliwie największy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>200</mn><mo>:</mo><mn>40</mn><mo>·</mo><mn>3</mn><mo>+</mo><mn>2</mn></mrow></math></p><p>C) równy 100: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>400</mn><mo>:</mo><mn>400</mn><mo>:</mo><mn>20</mn><mo>:</mo><mn>5</mn></mrow></math></p>",
       "choices": [],
@@ -190,7 +190,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Jaką miarę ma mniejszy z kątów, jaki tworzą wskazówki zegara o godzinie 9.30?</p>",
       "choices": [
@@ -258,7 +258,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
+        "trójkąty",
+        "pole i obwód",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Ile trójkątów prostokątnych o przyprostokątnych 1 cm i 3 cm potrzebujemy do całkowitego pokrycia prostokąta o wymiarach 8 cm i 12 cm?</p>",
@@ -362,8 +363,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "NWW / NWD",
-        "podzielność"
+        "podzielność",
+        "NWW / NWD"
       ],
       "prompt_html": "<p>Ula w swojej biblioteczce ma więcej niż 40, ale mniej niż 50 książek. Spośród wszystkich książek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> to podręczniki, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> to lektury, a pozostałe to słowniki. Ile słowników ma Ula w biblioteczce?</p>",
       "choices": [
@@ -431,7 +432,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Z siedmiu jednakowych kwadratów zbudowano prostokąt o polu równym sumie pól wszystkich kwadratów. Pole jednego kwadratu jest równe 81 cm².</p>",
       "choices": [
@@ -499,7 +501,7 @@
       "type": "true_false",
       "points": 5,
       "topics": [
-        "inne",
+        "ułamki",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Licznik i mianownik pewnego ułamka są liczbami całkowitymi dodatnimi oraz licznik jest mniejszy od mianownika.</p><p>Oceń, czy podane zdania są prawdziwe czy fałszywe.</p>",
@@ -572,8 +574,9 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Z dwóch wierzchołków trapezu równoramiennego o kącie ostrym: 45° poprowadzono wysokości, które podzieliły trapez na kwadrat i dwa trójkąty.</p><p>Oceń, czy podane zdania są prawdziwe czy fałszywe.</p>",
       "choices": [
@@ -607,8 +610,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "inne",
-        "geometria"
+        "kąty",
+        "układ współrzędnych"
       ],
       "prompt_html": "<p>Wpisz poprawne wyniki.</p><p>a) Zaokrągleniem liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5,2</mn><mo>(</mo><mn>94</mn><mo>)</mo></math> do części tysięcznych jest liczba ……….</p><p>b) Zaokrągleniem liczby 20169502 do tysięcy jest liczba ……….</p><p>c) W równej odległości pomiędzy punktami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> o współrzędnych 1 i 5 na osi liczbowej znajduje się punkt o współrzędnej ……….</p><p>d) W czworokącie miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> jest o 20° większa od miary kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>, miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> jest o 20° większa od miary kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> i miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> jest o 20° większa od miary kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>. Miara największego kąta w tym czworokącie wynosi: ……….</p>",
       "choices": [],
@@ -643,7 +646,7 @@
       "points": 3,
       "topics": [
         "trójkąty",
-        "geometria"
+        "czworokąty"
       ],
       "prompt_html": "<p>Na bokach kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> zbudowano na zewnątrz trójkąty równoboczne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABE</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCF</mi></math>. Wykonaj rysunek i oblicz miary kątów powstałego trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EFB</mi></math>.</p>",
       "choices": [],

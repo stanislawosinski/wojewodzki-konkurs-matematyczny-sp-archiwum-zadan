@@ -78,7 +78,7 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Suma długości wszystkich krawędzi sześcianu jest równa 96 cm.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
       "choices": [
@@ -108,7 +108,9 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "układ współrzędnych",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W układzie współrzędnych dane są punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>X</mi><mo>=</mo><mo>(</mo><mn>2</mn><mo>,</mo><mn>1</mn><mo>)</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>,</mo><mo>−</mo><mn>2</mn><mo>)</mo></math>. Są to wierzchołki pewnego kwadratu.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
       "choices": [
@@ -186,7 +188,8 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "pole i obwód",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Z prostokątnego kawałka wykładziny, w którym stosunek długości boków wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>:</mo><mn>5</mn></math>, odcięto możliwie największy kwadrat. Powierzchnia tego kwadratowego kawałka wyniosła 576 dm². Oblicz, ile pozostało decymetrów kwadratowych wykładziny.</p>",
@@ -222,8 +225,7 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "NWW / NWD",
-        "geometria"
+        "NWW / NWD"
       ],
       "prompt_html": "<p>Do ułożenia chodnika wykorzystano prostokątne płyty kamienne o wymiarach 35 cm × 60 cm. Płyty układano kolejno tak, jak na rysunku, na zewnątrz szerszą stroną do brzegu, a po środku węższą. W ten sposób ułożono segment, który miał kształt pełnego prostokąta.</p><p>Chodnik zakończono układać, gdy ułożono 5 takich segmentów. Jakiej długości chodnik ułożono?</p>",
       "choices": [],
@@ -242,8 +244,9 @@
       "type": "open",
       "points": 5,
       "topics": [
+        "czworokąty",
         "trójkąty",
-        "geometria",
+        "pole i obwód",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Krótsza przekątna dzieli trapez prostokątny na dwa trójkąty prostokątne równoramienne. Przekątna ta ma długość 8 cm. Oblicz pole trapezu oraz długość drugiej przekątnej.</p>",
@@ -262,7 +265,8 @@
       "points": 5,
       "topics": [
         "sześciokąty foremne",
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Sześciokąt foremny i trójkąt równoboczny mają jednakowe obwody. Oblicz stosunek pól tych figur.</p>",
       "choices": [],

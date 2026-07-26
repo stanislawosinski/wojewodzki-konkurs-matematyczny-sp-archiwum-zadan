@@ -154,7 +154,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
+        "czworokąty",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Dany jest prostokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> o wymiarach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>×</mo><mn>16</mn></math>. Ile jest punktów leżących na bokach tego prostokąta, których odległość od wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> jest dodatnią liczbą naturalną?</p>",
@@ -223,7 +223,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Liczby rzeczywiste <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> spełniają warunek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>6</mn></math>. Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn></mrow><mn>4</mn></mfrac><mo>−</mo><mfrac><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow><mn>3</mn></mfrac><mo>+</mo><mfrac><mrow><mi>y</mi><mo>−</mo><mn>1</mn></mrow><mn>2</mn></mfrac></math> dla tych liczb jest równa</p>",
       "choices": [
@@ -292,8 +292,9 @@
       "points": 1,
       "annulled": true,
       "topics": [
-        "geometria",
-        "procenty"
+        "czworokąty",
+        "procenty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W kwadracie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> umieszczono tak, jak na rysunku, kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> oraz trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>. Pole kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> stanowi 36% pola kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math>, a pole kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>, to 4% pola kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math>. Jakim procentem pola kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> jest pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi></math>?</p><p><em>Zadanie anulowano ze względu na błąd w poleceniu. Nie przyznawano punktów za to zadanie.</em></p>",
       "choices": [
@@ -364,7 +365,8 @@
       "points": 2,
       "topics": [
         "sześciokąty foremne",
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Z kartki w kształcie sześciokąta foremnego o obwodzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msqrt><mn>2</mn></msqrt></math> cm wycięto 6 trójkątów prostokątnych równoramiennych w sposób przedstawiony na rysunku i otrzymano figurę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math>.</p><ul><li>Obwód figury <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math> jest równy …… cm.</li><li>Pole figury <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math> jest równe …… cm<sup>2</sup>.</li></ul>",
       "choices": [],
@@ -401,7 +403,8 @@
       "points": 3,
       "topics": [
         "trójkąty",
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> leży w kwadracie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> o boku długości 20 cm, w odległości 15 cm od boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i 17 cm od wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>. Podaj pola trójkątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCE</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACE</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BDE</mi></math>.</p><ul><li>trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCE</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>BCE</mi></msub></math> = …… cm<sup>2</sup></li><li>trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACE</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>ACE</mi></msub></math> = …… cm<sup>2</sup></li><li>trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BDE</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>BDE</mi></msub></math> = …… cm<sup>2</sup></li></ul>",
       "choices": [],
@@ -437,7 +440,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "sześciokąty foremne"
       ],
       "prompt_html": "<p>Z kwadratowej kartki o boku długości 30 cm wycięto siatkę graniastosłupa prawidłowego sześciokątnego w sposób przedstawiony na rysunku. Oblicz objętość tego graniastosłupa.</p>",

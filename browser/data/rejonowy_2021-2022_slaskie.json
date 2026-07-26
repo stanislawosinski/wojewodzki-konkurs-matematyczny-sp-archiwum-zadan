@@ -19,11 +19,17 @@
       "topics": [
         "potęgi i pierwiastki",
         "NWW / NWD",
-        "liczby rzymskie",
-        "bryły",
-        "prędkość / droga / czas",
-        "procenty",
         "podzielność",
+        "liczby rzymskie",
+        "równania z jedną zmienną",
+        "graniastosłupy",
+        "czworokąty",
+        "pole i obwód",
+        "trójkąty",
+        "kąty",
+        "procenty",
+        "prędkość / droga / czas",
+        "statystyka opisowa",
         "inne"
       ],
       "prompt_html": "<p>Rozwiąż krzyżówkę, wpisując cyfry w odpowiednie pola. Hasło stanowi ciąg cyfr utworzony z kolejno zapisanych 13 pierwszych wyrazów ciągu Fibonacciego. Hasło nie jest oceniane.</p><p><strong>1)</strong> Iloczyn 5 najmniejszych liczb pierwszych.</p><p><strong>2)</strong> Liczba arów w hektarze.</p><p><strong>3)</strong> Liczba krawędzi graniastosłupa ośmiokątnego.</p><p><strong>4)</strong> Najmniejsza liczba naturalna będąca rozwiązaniem równania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>5</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>3</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>5</mn><mo>)</mo><mo>=</mo><mn>0</mn></mrow></math>.</p><p><strong>5)</strong> Liczba odwrotna do 0,008.</p><p><strong>6)</strong> Wartość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> w równaniu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2</mn><mi>x</mi></msup><mo>=</mo><mn>256</mn></mrow></math>.</p><p><strong>7)</strong> Najmniejsza dwucyfrowa liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, dla której spełniony jest warunek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>NWD</mtext><mo>(</mo><mi>x</mi><mo>,</mo><mn>21</mn><mo>)</mo><mo>=</mo><mn>7</mn></mrow></math>.</p><p><strong>8)</strong> Długość krawędzi sześcianu o przekątnej równej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow></math>.</p><p><strong>9)</strong> Pierwszy rok trzeciego tysiąclecia.</p><p><strong>10)</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>NWW</mtext><mo>(</mo><mn>15</mn><mo>,</mo><mn>42</mn><mo>)</mo></mrow></math>.</p><p><strong>11)</strong> Różnica liczby dni w pierwszym i drugim półroczu roku nieprzestępnego.</p><p><strong>12)</strong> Pole rombu o przekątnych długości 7 i 14.</p><p><strong>13)</strong> Suma kwadratów 5 największych ujemnych liczb całkowitych.</p><p><strong>14)</strong> Średnia arytmetyczna liczb jednocyfrowych, dodatnich.</p><p><strong>15)</strong> Liczba, której 15% wynosi 120.</p><p><strong>16)</strong> Wynik działania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>+</mo><mn>30</mn><mo>−</mo><mn>24</mn><mo>:</mo><mn>3</mn><mo>·</mo><mn>2</mn></mrow></math>.</p><p><strong>17)</strong> Najmniejsza liczba trzycyfrowa podzielna przez 6.</p><p><strong>18)</strong> Przybliżenie do całości liczby 144,99.</p><p><strong>19)</strong> Miara kąta przy podstawie trójkąta równoramiennego, którego ramiona tworzą kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mo>°</mo></mrow></math>.</p><p><strong>20)</strong> Prędkość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>20</mn><mfrac><mtext>m</mtext><mtext>s</mtext></mfrac></mrow></math> wyrażona w <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac></math>.</p><p><strong>21)</strong> Liczba DXXXI zapisana cyframi arabskimi.</p><p><strong>22)</strong> Miara kąta przyległego do kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>147</mn><mo>°</mo></mrow></math>.</p>",
@@ -145,7 +151,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Najmniejszą liczbę odwrotną spośród liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>,</mo><mo>(</mo><mn>2</mn><mo>)</mo></mrow></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>18</mn><mn>17</mn></mfrac></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2,1</mn></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mfrac><mn>3</mn><mn>7</mn></mfrac></mrow></math> ma</p>",
       "choices": [
@@ -179,7 +185,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "proporcjonalność prosta"
       ],
       "prompt_html": "<p>Kostka sześcienna o krawędzi 3 cm waży 54 g. Prostopadłościan wykonany z tego samego materiału o wymiarach 4 cm, 6 cm i 9 cm waży</p>",
@@ -319,7 +325,8 @@
       "points": 4,
       "topics": [
         "trójkąty",
-        "dwusieczna kąta / symetralna odcinka"
+        "dwusieczna kąta / symetralna odcinka",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Dany jest trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>, w którym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AC</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>BC</mi><mo>|</mo><mo>=</mo><mn>5</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>6</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm.</p><p>Oceń, czy podane zdania są prawdziwe, czy fałszywe.</p>",
       "choices": [
@@ -353,7 +360,8 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Dany jest kwadrat o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> dłuższym niż 5 cm.</p><p>Oceń, czy podane zdania są prawdziwe, czy fałszywe.</p>",
       "choices": [
@@ -439,7 +447,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "pole i obwód",
         "usuwanie niewymierności z mianownika"
       ],
       "prompt_html": "<p>Oblicz pole kwadratu, w którym przekątna jest o 2 dm dłuższa od boku.</p>",
@@ -474,7 +483,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Wykonano cztery jednakowe modele sześcianu. Siatka każdego z nich ma obwód 28 cm. Następnie sklejono te sześciany tak, że utworzyły prostopadłościan. Oblicz pole powierzchni tego prostopadłościanu. Rozważ dwa przypadki.</p>",
       "choices": [],

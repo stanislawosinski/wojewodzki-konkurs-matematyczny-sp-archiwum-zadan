@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Różnica między dwiema dodatnimi liczbami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> wynosi 15. Jeżeli odjemną <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> zmniejszymy o 5, a odjemnik <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> zwiększymy o 5, to różnica:</p>",
       "choices": [
@@ -52,7 +52,8 @@
       "points": 1,
       "topics": [
         "procenty",
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Jak zmieni się pole prostokąta o wymiarach 8 cm i 10 cm, jeżeli długość jednego jego boku zwiększymy o 10%, a drugiego zmniejszymy o 10 %?</p>",
       "choices": [
@@ -154,7 +155,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Trapez i romb mają równe pola i długości wysokości. Jeżeli podstawy trapezu mają długość 8 cm i 12 cm, to bok rombu ma długość:</p>",
       "choices": [
@@ -188,7 +190,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "równania z jedną zmienną"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Kolejne liczby w szeregu zapisano zgodnie z pewną regułą.</p><p>2; (-1); (-4); (-7); (-10); (-13); …</p><p>Które wyrażenie pozwala obliczyć <strong>każdą wymienioną</strong> w tym szeregu liczbę, jeżeli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza numer pozycji, na jakiej została wpisana dana liczba (np. liczba 2 została zapisana na pozycji pierwszej, a liczba (-10) na pozycji piątej)?</p>",
       "choices": [
@@ -222,7 +224,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Wymiary prostopadłościanu są wyrażone za pomocą kolejnych liczb naturalnych. Suma długości wszystkich krawędzi tego prostopadłościanu wynosi 156 cm. Wynika z tego, że:</p>",
       "choices": [
@@ -325,7 +327,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Jeżeli suma trzech dodatnich ułamków dziesiętnych o rozwinięciu dziesiętnym skończonym jest o jeden większa od sumy ich zaokrągleń do całości, to najmniejsza suma cyfr dziesiątych części tych ułamków jest równa:</p>",
       "choices": [
@@ -359,8 +361,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "trójkąty",
+        "czworokąty"
       ],
       "prompt_html": "<p>Ile cm długości ma przekątna prostokąta, w którym krótszy bok ma długość 10 cm, a miara kąta ostrego między przekątnymi tego prostokąta ma 60°.</p>",
       "choices": [],
@@ -394,7 +396,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "kąty"
       ],
       "prompt_html": "<p>Podaj miary kątów wewnętrznych przy dłuższym ramieniu trapezu prostokątnego, jeżeli różnica długości jego podstaw jest równa wysokości tego trapezu.</p>",
       "choices": [],
@@ -411,7 +414,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Drewniany sześcian o objętości 64 cm³ pomalowano czerwoną farbą. Następnie pocięto go na sześciany o krawędzi długości 1 cm. Jaką część wszystkich sześcianów o krawędzi 1 cm stanowią te, które mają pomalowane na czerwono dokładnie dwie ściany? Wynik przedstaw w postaci ułamka zwykłego nieskracalnego.</p>",
@@ -447,8 +450,8 @@
       "type": "open",
       "points": 6,
       "topics": [
-        "zliczanie / metody zliczania",
-        "równania z jedną zmienną"
+        "wyrażenia algebraiczne",
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Paweł układa rzędami guziki białe (zaznaczone kołem białym na rysunku poniżej) i czarne (zaznaczone kołem czarnym na rysunku poniżej). W kolejnym rzędzie najpierw układa guziki tak jak w rzędzie poprzednim i dokłada na obu końcach po jednym guziku według reguły przedstawionej na poniższym schemacie, tak żeby sąsiednie guziki w rzędzie różniły się kolorami.</p><ol type=\"a\"><li>Ile guzików będzie w siódmym rzędzie?</li><li>Ile guzików będzie w dwudziestym rzędzie?</li><li>Zapisz w postaci wyrażenia algebraicznego liczbę guzików w rzędzie o numerze <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>.</li><li>Zapisz w postaci wyrażenia algebraicznego liczbę białych guzików w rzędzie o numerze <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>, jeżeli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> jest liczbą parzystą.</li></ol>",
       "choices": [],
@@ -485,7 +488,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Na poziomym blacie biurka w pokoju Dawida stoi akwarium w kształcie sześcianu o wewnętrznej krawędzi długości 20 cm. Na jego dnie Dawid położył sześcienną metalową kostkę o krawędzi długości 10 cm. Do tak przygotowanego akwarium wlał 4 litry wody. Jak wysoko sięgał poziom wody w tym akwarium? <u>Zapisz tok swojego rozumowania</u>.</p>",

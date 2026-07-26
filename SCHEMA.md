@@ -50,64 +50,15 @@ Source PDFs live under `pdfs/<stage>/`; `source_file` is that path relative to `
 | `answer.correct` | choice label (`"C"`) or short text; `null` if unknown |
 | `answer.solution_html` | worked solution HTML, or `null` if the key gives only a letter |
 
-### Topic catalog (use these exact leaf strings)
+### Topic catalog
 
-A question is tagged with **leaves** (most-specific first). The category
-headings are for browsing/filtering only — derive them from the leaf, don't
-store them. **Metody i rozumowanie** leaves are cross-cutting: combine with a
-content leaf, e.g. `["trójkąty", "dowodzenie / dowody"]`.
-
-**Liczby i podzielność**
-- `podzielność`
-- `reszta z dzielenia`
-- `NWW / NWD`
-- `liczby rzymskie`
-- `procenty`
-
-**Wyrażenia: potęgi, pierwiastki, przekształcenia**
-- `potęgi i pierwiastki`
-- `usuwanie niewymierności z mianownika`
-- `wzory skróconego mnożenia`
-- `wyłączanie jednomianu przed nawias`
-
-**Równania, nierówności, proporcje**
-- `równania z jedną zmienną`
-- `układy równań`
-- `nierówności`
-- `proporcjonalność prosta`
-- `proporcjonalność odwrotna`
-- `prędkość / droga / czas`
-
-**Geometria płaska**
-- `geometria` — ogólna, gdy nic bardziej szczegółowego nie pasuje
-- `trójkąty`
-- `sześciokąty foremne`
-- `koła / okręgi`
-- `pierścień kołowy`
-- `okrąg wpisany i opisany`
-- `dwusieczna kąta / symetralna odcinka`
-
-**Geometria przestrzenna**
-- `bryły`
-
-**Kombinatoryka i prawdopodobieństwo**
-- `zliczanie / metody zliczania`
-- `kombinatoryka`
-- `prawdopodobieństwo`
-
-**Statystyka**
-- `statystyka opisowa`
-
-**Metody i rozumowanie** (przekrojowe)
-- `dowodzenie / dowody`
-- `szacowanie (zamiast obliczania)`
-- `zagadki logiczne`
-
-**Inne**
-- `inne`
-- `przyroda` — nature/biology/geography/science items (esp. the śląskie "…z Elementami Przyrody"
-  contests). Tag these `przyroda`, NOT `inne`, so they can be filtered out. (Older already-processed
-  śląskie files used `inne` for these; do not retag them — this leaf applies to newly processed files.)
+The catalog is the machine-readable **[`categories.json`](categories.json)** at repo root —
+categories → leaves, each leaf with a one-line `desc`. Tag questions with the exact leaf
+`name` strings (most-specific first); category headings are for filtering only, derive them
+from the leaf and never store them. A `cross_cutting` leaf combines with a content leaf,
+e.g. `["trójkąty", "dowodzenie / dowody"]` or `["czworokąty", "pole i obwód"]`. `build.mjs`
+fails the build on any tag not in the catalog. When re-tagging older sheets, follow the
+`migration` block in that file (e.g. old śląskie nature items tagged `inne` → `przyroda`).
 
 Difficulty is **not** a field — `points` carries it (2p basic, 3p advanced here).
 

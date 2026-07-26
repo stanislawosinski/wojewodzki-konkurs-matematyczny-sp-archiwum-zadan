@@ -94,7 +94,7 @@
       "type": "closed_single",
       "points": 4,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Wśród poniższych odpowiedzi wskaż odpowiedź fałszywą. Suma liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0</mn><mo>,</mo><mo>(</mo><mn>3</mn><mo>)</mo></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>12</mn></mfrac></math> jest równa</p>",
       "choices": [
@@ -170,7 +170,8 @@
       "type": "closed_single",
       "points": 4,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Trójkąt o bokach długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>5</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>2</mn></mrow></math> jest przystający do trójkąta, w którym najdłuższy bok ma długość 15. Obwód tego trójkąta jest równy</p>",
       "choices": [
@@ -246,7 +247,7 @@
       "type": "closed_single",
       "points": 4,
       "topics": [
-        "bryły"
+        "ostrosłupy"
       ],
       "prompt_html": "<p>Pewien ostrosłup ma tyle samo krawędzi, co graniastosłup dwunastokątny. Ile wierzchołków ma ten ostrosłup?</p>",
       "choices": [
@@ -284,7 +285,7 @@
       "type": "closed_single",
       "points": 4,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Jakie wyrażenie należy wstawić w miejsce trzech kropek aby poniższa równość była prawdziwa?</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>)</mo><mo>·</mo><mo>(</mo><mi>x</mi><mi>y</mi><mo>−</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>)</mo><mo>−</mo><mo>(</mo><mo>…</mo><mo>)</mo><mo>=</mo><mo>−</mo><mn>3</mn><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mi>y</mi><mo>+</mo><mn>3</mn><mi>x</mi><msup><mi>y</mi><mn>2</mn></msup></mrow></math></p>",
       "choices": [
@@ -322,7 +323,8 @@
       "type": "closed_single",
       "points": 4,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Julia wzięła arkusz papieru o wymiarach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>dm</mi><mo>×</mo><mn>5</mn><mi>dm</mi></mrow></math>. Jednym cięciem odcięła kwadrat o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>dm</mi><mo>×</mo><mn>3</mn><mi>dm</mi></mrow></math> (porównaj rysunek). Następnie wzięła pozostały prostokąt i znów odcięła największy możliwy kwadrat. Procedurę tę kontynuowała. Jakie będzie pole prostokąta, który pozostanie po odcięciu w ten sposób trzech kwadratów (jako pierwszy liczymy kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>dm</mi><mo>×</mo><mn>3</mn><mi>dm</mi></mrow></math>)?</p>",
       "choices": [
@@ -451,7 +453,7 @@
       "type": "open",
       "points": 16,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "procenty"
       ],
       "prompt_html": "<p>Podstawą graniastosłupa jest prostokąt, w którym długości boków są w stosunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>:</mo><mn>5</mn></mrow></math> i którego obwód jest równy 20 cm. Wysokość tego graniastosłupa jest o 75% dłuższa niż krótsza krawędź podstawy. Oblicz pole powierzchni całkowitej i objętość tego graniastosłupa. Wyniki podaj w postaci ułamka zwykłego nieskracalnego – objętość w centymetrach sześciennych i decymetrach sześciennych a pole powierzchni całkowitej w centymetrach kwadratowych i decymetrach kwadratowych.</p>",
@@ -469,7 +471,8 @@
       "type": "open",
       "points": 14,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "pole i obwód",
         "usuwanie niewymierności z mianownika"
       ],
       "prompt_html": "<p>Odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> jest przekątną kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> (porównaj poniższy rysunek). Ponadto <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AC</mi><mo>|</mo><mo>=</mo><mn>4</mn><msqrt><mn>3</mn></msqrt></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>DE</mi><mo>|</mo><mo>=</mo><mn>1</mn></mrow></math>. Jaka powinna być długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BF</mi></math>, żeby suma pól dwóch białych trójkątów (tj. trójkątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AEC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABF</mi></math>) była dwa razy większa niż suma pól dwóch zamalowanych trójkątów (tj. trójkątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADE</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACF</mi></math>)? W końcowym wyniku usuń niewymierność z mianownika.</p>",

@@ -17,7 +17,6 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "inne",
         "proporcjonalność prosta"
       ],
       "prompt_html": "<p>Z nieszczelnego kranu co 3 sekundy spada jedna kropla wody. Każda kropla ma objętość 200 mm³. Ile litrów wody wycieknie z tego kranu w ciągu doby? Zapisz obliczenia.</p>",
@@ -35,8 +34,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "geometria",
         "trójkąty",
+        "pole i obwód",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Pole prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> o bokach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>AD</mi><mo>|</mo><mo>=</mo><mi>b</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>≠</mo><mi>b</mi></math>, jest równe 6 cm². Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> jest punktem leżącym wewnątrz tego prostokąta, różnym od punktu przecięcia jego przekątnych. Oblicz sumę pól trójkątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AED</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCE</mi></math>.</p><p>Uwaga! W rozwiązaniu zadania nie można przyjąć konkretnych długości boków prostokąta, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>2</mn></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>3</mn></math> cm.</p>",
@@ -55,7 +54,7 @@
       "points": 1,
       "topics": [
         "trójkąty",
-        "geometria"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Wysokości trójkąta prostokątnego mają długości 60 cm, 65 cm i 156 cm. Oblicz pole tego trójkąta.</p>",
       "choices": [],
@@ -72,8 +71,8 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "dowodzenie / dowody",
-        "inne"
+        "ułamki",
+        "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Uzasadnij, że poniższa równość jest prawdziwa:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mfrac><mn>2</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>2</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>2</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>2</mn><mrow><mn>1</mn><mo>+</mo><mn>2</mn></mrow></mfrac></mrow></mfrac></mrow></mfrac></mrow></mfrac><mo>=</mo><mn>2</mn><mfrac><mn>1</mn><mn>21</mn></mfrac></math></p>",
       "choices": [],
@@ -145,7 +144,8 @@
       "points": 1,
       "topics": [
         "potęgi i pierwiastki",
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Oceń prawdziwość poniższych zdań. Otocz kółkiem P, jeśli zdanie jest prawdziwe lub F, jeśli zdanie jest fałszywe.</p>",
       "choices": [
@@ -171,9 +171,10 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "procenty",
         "równania z jedną zmienną",
-        "inne"
+        "procenty",
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W zadaniach zamkniętych dokładnie jedna odpowiedź jest poprawna. Zaznacz ją.</p><p><strong>1.</strong> Kamil wydał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> swoich pieniędzy i jeszcze złotówkę. Po tych zakupach zostało mu 1 zł 25 gr. Ile pieniędzy Kamil miał na początku?</p><ul><li>A. 1 zł 85 gr</li><li>B. 3 zł</li><li>C. 1 zł</li><li>D. 4 zł 50 gr</li></ul><p><strong>2.</strong> Pole kwadratowej działki o boku długości 700 m jest równe:</p><ul><li>A. 0,049 km²</li><li>B. 4900 m²</li><li>C. 490 ha</li><li>D. 4900 a</li></ul><p><strong>3.</strong> Cenę biletu do kina obniżono o 20%. O ile procent trzeba podwyższyć tę nową cenę, aby cena biletu była taka jak na początku?</p><ul><li>A. o 10%</li><li>B. o 20%</li><li>C. o 25%</li><li>D. Nie wiadomo, bo nie znamy ceny początkowej.</li></ul>",
       "choices": [],
@@ -208,8 +209,7 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "proporcjonalność prosta",
-        "zagadki logiczne"
+        "proporcjonalność prosta"
       ],
       "prompt_html": "<p>Stary zegar spóźnia się 8 minut na dobę. Jest 22:00 i zegar ten wskazuje poprawną godzinę. Oblicz, o ile minut i w którą stronę (w przód czy w tył) trzeba przesunąć minutową wskazówkę zegara, aby następnego ranka o godzinie 7:00 zegar ten wskazał poprawną godzinę.</p>",
       "choices": [],
@@ -227,7 +227,7 @@
       "points": 1,
       "topics": [
         "potęgi i pierwiastki",
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Oblicz:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mfrac><mn>1</mn><mn>16</mn></mfrac><mo>−</mo><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>·</mo><mo>(</mo><mn>0,5</mn><mo>)</mo></mrow><mrow><msup><mrow><mo>(</mo><mo>−</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>)</mo></mrow><mn>3</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mo>−</mo><mn>0,75</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>·</mo><mo>(</mo><mn>1,7</mn><mo>−</mo><mn>3,2</mn><mo>)</mo></mrow></mfrac><mo>·</mo><mn>31</mn><mo>+</mo><msqrt><mrow><mn>1</mn><mfrac><mn>9</mn><mn>16</mn></mfrac></mrow></msqrt></math></p>",
       "choices": [],

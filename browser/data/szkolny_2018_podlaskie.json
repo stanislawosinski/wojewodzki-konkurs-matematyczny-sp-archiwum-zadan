@@ -120,7 +120,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "geometria",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Na rysunku przedstawiono figurę, w której wszystkie dłuższe boki mają jednakową długość i każdy z nich jest dwa razy dłuższy od każdego z krótszych boków. Wszystkie kąty są proste, a pole figury ma 200 cm². Obwód tej figury jest równy</p>",
       "choices": [
@@ -226,7 +227,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Jeden z boków trójkąta równoramiennego ma długość 8 cm, a drugi 3 cm. Jaki jest obwód tego trójkąta?</p>",
       "choices": [
@@ -260,7 +262,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "kąty"
       ],
       "prompt_html": "<p>W trójkącie równoramiennym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACD</mi></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>AD</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>CD</mi><mo>|</mo></math>, poprowadzono odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math> taki, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>BD</mi><mo>|</mo></math>. Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BAD</mi></math> jest równa 27°. Oblicz miarę kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BDC</mi></math>.</p>",
       "choices": [
@@ -364,7 +367,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Pola powierzchni dwóch sześcianów, z których jeden ma krawędź dłuższą o 2 cm, różnią się o 96 cm². Długości krawędzi tych sześcianów są równe</p>",
@@ -433,7 +436,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Jeżeli do podwojonego iloczynu liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mfrac><mn>3</mn><mn>8</mn></mfrac></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>0,75</mn></math> dodano ich iloraz, to otrzymano</p>",
       "choices": [
@@ -467,7 +470,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Podwojony sześcian sumy liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, to</p>",
       "choices": [
@@ -501,7 +504,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Objętość bryły zbudowanej z prostopadłościennych klocków, tak jak na rysunku, jest równa</p>",
       "choices": [
@@ -571,8 +574,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "równania z jedną zmienną",
-        "zagadki logiczne"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Piąta część pszczelej gromadki usiadła na kwiatach magnolii, trzecia część tej gromadki na kwiatach lotosu, potrojona różnica trzeciej i piątej części pszczelej gromadki odleciała ku kwiatom jaśminu. Tylko jedna pszczoła, zwabiona pachnącym kwiatem koniczyny, krążyła nad nim. Ile pszczół było w tej gromadce?</p>",
       "choices": [],
@@ -606,7 +608,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "pole i obwód",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Obwody trzech prostokątnych działek są jednakowe i wynoszą po 12 metrów. Jedna z nich ma kształt kwadratu, długość drugiej działki stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>2</mn></mfrac></math> jej szerokości, szerokość trzeciej działki stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>7</mn></mfrac></math> jej długości. Oblicz pole każdej działki. Która działka ma największe pole?</p>",

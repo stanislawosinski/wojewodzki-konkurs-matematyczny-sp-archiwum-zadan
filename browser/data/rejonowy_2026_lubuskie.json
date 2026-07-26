@@ -61,7 +61,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mfrac><mn>5</mn><mn>9</mn></mfrac><mo>−</mo><mn>1</mn><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mn>1,5</mn><mo>+</mo><mn>2</mn><mfrac><mn>1</mn><mn>6</mn></mfrac><mo>:</mo><mn>0,(3)</mn><mo>−</mo><mn>2,5</mn><mo>:</mo><mn>3</mn></math> jest równa</p>",
       "choices": [
@@ -171,7 +171,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>5</mn></mfrac></math> kąta do niego przyległego. Jaką miarę ma kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>?</p>",
       "choices": [
@@ -193,7 +193,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "podzielność"
       ],
       "prompt_html": "<p>Która z podanych liczb może wyrażać liczbę krawędzi graniastosłupa?</p>",
@@ -216,7 +216,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Trening rozpoczął się o godzinie 14:30, a skończył o 17:00. Pierwszy kwadrans treningu zajęła rozgrzewka. Jaką część treningu zajęła rozgrzewka?</p>",
       "choices": [
@@ -238,8 +238,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną",
-        "zagadki logiczne"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Mama kupiła 4 rodzaje owoców, łącznie 34 sztuki. Jabłek było o dwa więcej niż gruszek, a gruszek dwa razy więcej niż pomarańczy. Pomarańczy było trzy razy mniej niż bananów. Ile było gruszek?</p>",
       "choices": [
@@ -283,7 +282,6 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>W zbiorze dodatnich liczb całkowitych określamy operacje: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>{</mo><mi>a</mi><mo>}</mo><mo>=</mo><msup><mi>a</mi><mn>4</mn></msup></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⟨</mo><mi>a</mi><mo>|</mo><mi>b</mi><mo>⟩</mo><mo>=</mo><mi>a</mi><mo>+</mo><mi>b</mi></math>. Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>{</mo><mo>⟨</mo><mo>{</mo><mn>2</mn><mo>}</mo><mo>|</mo><mo>{</mo><mn>2</mn><mo>}</mo><mo>⟩</mo><mo>}</mo></math> jest równa</p>",
@@ -329,7 +327,7 @@
       "points": 1,
       "topics": [
         "koła / okręgi",
-        "geometria"
+        "czworokąty"
       ],
       "prompt_html": "<p>Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> leżą na okręgu o środku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> tak, że czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCS</mi></math> jest rombem. Suma kątów wewnętrznych tego czworokąta przy wierzchołkach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> jest równa</p>",
       "choices": [
@@ -351,7 +349,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Dany jest prostokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> o polu 120. Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>N</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Q</mi></math> są środkami boków odpowiednio <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DA</mi></math>. Pole sześciokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>MBNPDQ</mi></math> jest równe</p>",
       "choices": [
@@ -373,7 +372,8 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W trapezie prostokątnym wysokość poprowadzona z wierzchołka kąta rozwartego ma długość 6 cm i dzieli ten trapez na kwadrat i trójkąt prostokątny równoramienny.</p><p>Oceń prawdziwość zdań, wstawiając X w odpowiednie miejsca tabeli.</p>",
       "choices": [
@@ -415,8 +415,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "równania z jedną zmienną",
-        "zagadki logiczne"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Marta ma teraz 14 lat. Cztery lata temu była 4 razy młodsza od swojego taty.</p><p>Oceń prawdziwość zdań, wstawiając X w odpowiednie miejsca tabeli.</p>",
       "choices": [
@@ -458,7 +457,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Zadanie zamknięte wielokrotnego wyboru – każda z odpowiedzi może być poprawna.</p><p>Zosia zapisała dwa ułamki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>1</mn></mfrac></mrow></mfrac></mrow></mfrac></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mfrac><mn>2</mn><mrow><mn>2</mn><mo>+</mo><mfrac><mn>2</mn><mrow><mn>2</mn><mo>+</mo><mfrac><mn>2</mn><mn>2</mn></mfrac></mrow></mfrac></mrow></mfrac></math>. Prawdą jest, że:</p>",
       "choices": [
@@ -480,7 +479,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Zadanie zamknięte wielokrotnego wyboru – każda z odpowiedzi może być poprawna.</p><p>Ile papieru potrzeba na wykonanie latawca w kształcie deltoidu, jeśli jego przekątne są równe 80 cm i 6 dm?</p>",
       "choices": [
@@ -524,7 +524,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "geometria",
+        "czworokąty",
         "trójkąty"
       ],
       "prompt_html": "<p>W równoległoboku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> długość boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> jest dwa razy większa od długości boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math>, dzielący bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> na połowy, połączono z punktami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>. Wyznacz miarę kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CKD</mi></math>.</p>",

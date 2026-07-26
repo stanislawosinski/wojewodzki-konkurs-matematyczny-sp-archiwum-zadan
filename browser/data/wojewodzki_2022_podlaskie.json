@@ -189,7 +189,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "symetrie"
       ],
       "prompt_html": "<p>Ile liter w słowie SYMETRIA ma przynajmniej jedną oś symetrii?</p>",
       "choices": [
@@ -327,7 +327,7 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "bryły",
+        "ostrosłupy",
         "sześciokąty foremne"
       ],
       "prompt_html": "<p>Dany jest ostrosłup prawidłowy sześciokątny, o krawędzi podstawy równej 2. Pole podstawy tego ostrosłupa jest 12 razy mniejsze od jego pola powierzchni bocznej.</p><p>Zaznacz, które z poniższych zdań są prawdziwe, a które fałszywe.</p>",
@@ -362,7 +362,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "układ współrzędnych"
       ],
       "prompt_html": "<p>Środkiem odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KL</mi></math>, gdy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>K</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>5</mn><mo>;</mo><mn>4</mn><mo>)</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>L</mi><mo>=</mo><mo>(</mo><mn>3</mn><mo>;</mo><mn>2</mn><mo>)</mo></mrow></math>, jest punkt o współrzędnych</p>",
       "choices": [
@@ -501,8 +501,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zliczanie / metody zliczania",
-        "kombinatoryka"
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Krawcowa planuje uszyć z dzianiny jednokolorową czapkę i ozdobić ją pomponem. Ma do dyspozycji 6 kolorów dzianiny i 5 rodzajów pomponów. Na ile sposobów może wybrać zestaw (dzianina i pompon) potrzebny do uszycia czapki?</p>",
       "choices": [
@@ -562,7 +561,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "symetrie"
       ],
       "prompt_html": "<p>Zaznacz figurę, która ma więcej niż jeden środek symetrii.</p>",
       "choices": [
@@ -650,7 +649,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "geometria",
+        "kąty",
         "procenty"
       ],
       "prompt_html": "<p>Wyznacz miarę kąta, który stanowi 25% miary kąta do niego przyległego. Zapisz obliczenia i odpowiedź.</p>",
@@ -668,7 +667,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "trójkąty"
       ],
       "prompt_html": "<p>Do zbudowania graniastosłupa prawidłowego użyto tylko dwóch rodzajów figur - trójkątów równobocznych oraz kwadratów. Pole jednego trójkąta równobocznego jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm². Oblicz pole powierzchni bocznej tego graniastosłupa. Zapisz obliczenia i odpowiedź.</p>",
@@ -686,8 +685,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "dowodzenie / dowody",
-        "inne"
+        "wyrażenia algebraiczne",
+        "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Wykaż, że dla dowolnej wartości zmiennej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> wartość wyrażenia</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>−</mo><mi>x</mi><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>+</mo><mn>4</mn></mrow></math></p><p>jest liczbą dodatnią. <strong>Przedstaw uzasadnienie.</strong></p>",
       "choices": [],
@@ -704,7 +703,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W trójkącie prostokątnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> kąt przy wierzchołku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> jest prosty, a kąt przy wierzchołku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> ma miarę 30°. Na boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> tego trójkąta obrano punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> tak, że odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> ma długość 4. Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDA</mi></math> jest równa 60°. Oblicz pole powierzchni trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DBC</mi></math>. Zapisz obliczenia i odpowiedź.</p>",
       "choices": [],
@@ -722,7 +722,8 @@
       "points": 3,
       "topics": [
         "trójkąty",
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Dany jest trójkąt prostokątny, w którym długości boków są równe 12, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>−</mo><mn>7</mn></mrow></math> (patrz rysunek). Oblicz obwód tego trójkąta. Zapisz obliczenia i odpowiedź.</p>",
       "choices": [],
@@ -741,7 +742,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "ułamki"
       ],
       "prompt_html": "<p>Trzy beczki mają różną pojemność. Jeżeli napełnimy pustą drugą beczkę z pełnej pierwszej beczki, to w pierwszej beczce pozostanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>5</mn></mfrac></math> zawartości. Jeżeli napełnimy pustą trzecią beczkę z pełnej drugiej beczki, to w drugiej pozostanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>6</mn></mfrac></math> zawartości. Jeżeli napełnimy drugą i trzecią beczkę z pełnej pierwszej beczki, to zostanie w niej 40 litrów. Oblicz pojemność każdej z tych beczek. Zapisz obliczenia i odpowiedź.</p>",
       "choices": [],

@@ -63,7 +63,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Ile przekątnych, które nie są ani przekątnymi ściany bocznej, ani przekątnymi podstawy, ma graniastosłup prawidłowy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>-kątny?</p>",
@@ -132,7 +132,7 @@
       "points": 2,
       "topics": [
         "sześciokąty foremne",
-        "geometria"
+        "układ współrzędnych"
       ],
       "prompt_html": "<p>W układzie współrzędnych dany jest sześciokąt foremny, którego kolejne wierzchołki oznaczono literami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>,</mo><mi>B</mi><mo>,</mo><mi>C</mi><mo>,</mo><mi>D</mi><mo>,</mo><mi>E</mi><mo>,</mo><mi>F</mi></math>. Znamy współrzędne dwóch jego wierzchołków: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo>)</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi><mo>=</mo><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>,</mo><mn>1</mn><mo>)</mo></math> oraz współrzędne punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mo>(</mo><mfrac><mrow><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow><mn>3</mn></mfrac><mo>,</mo><mn>0</mn><mo>)</mo></math>, który jest punktem przecięcia dłuższych przekątnych tego sześciokąta. Iloczyn współrzędnych wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> tego sześciokąta wynosi</p>",
       "choices": [
@@ -154,8 +154,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "kąty"
       ],
       "prompt_html": "<p>Proste <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> są równoległe, punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> leży na prostej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>, punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> leży na prostej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math>, natomiast dwa różne punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> leżą pomiędzy prostymi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>. Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>,</mo><mi>B</mi><mo>,</mo><mi>C</mi><mo>,</mo><mi>D</mi></math> połączono odcinkami (patrz rysunek poniżej). Posługując się danymi z poniższego rysunku oblicz, ile jest równa wartość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>.</p>",
       "choices": [
@@ -179,7 +178,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Kolejne wierzchołki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>-kąta foremnego, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>&gt;</mo><mn>4</mn></math>, oznaczono literami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>A</mi><mn>1</mn></msub><mo>,</mo><msub><mi>A</mi><mn>2</mn></msub><mo>,</mo><msub><mi>A</mi><mn>3</mn></msub><mo>,</mo><mo>…</mo><mo>,</mo><msub><mi>A</mi><mi>n</mi></msub></math>. Ile wynosi miara kąta wewnętrznego przy wierzchołku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>A</mi><mn>4</mn></msub></math> w trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>A</mi><mn>1</mn></msub><msub><mi>A</mi><mn>4</mn></msub><msub><mi>A</mi><mn>2</mn></msub></math>?</p>",
       "choices": [
@@ -201,7 +200,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "geometria",
+        "czworokąty",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Wybierz zdanie prawdziwe.</p>",
@@ -225,7 +224,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Kątem zewnętrznym wielokąta wypukłego nazywamy kąt przyległy do danego kąta wewnętrznego tego wielokąta. Dla każdego kąta wewnętrznego ustalamy jeden kąt zewnętrzny. Ile jest równa suma miar tak ustalonych kątów zewnętrznych w dziesięciokącie foremnym?</p>",
       "choices": [
@@ -272,7 +271,8 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W pewnym trapezie równoramiennym przekątne przecinają się pod kątem prostym. Jedna przekątna ma długość równą 10. Ile jest równe pole tego trapezu?</p>",
       "choices": [
@@ -362,9 +362,10 @@
       "type": "open",
       "points": 9,
       "topics": [
-        "geometria",
         "trójkąty",
-        "potęgi i pierwiastki"
+        "potęgi i pierwiastki",
+        "pole i obwód",
+        "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Na bokach kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>, którego bok ma długość 1, zbudowano trójkąty równoboczne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AEB</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BFC</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CGD</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DHA</mi></math> otrzymując w ten sposób ośmiokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AEBFCGDH</mi></math> (patrz rysunek).</p><p>a) (2p) Oblicz miarę kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>HCB</mi></math>.</p><p>b) (3p) Oblicz długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>HC</mi></math>.</p><p>c) (2p) Oblicz kąt przecięcia odcinków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>HB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EC</mi></math>.</p><p>d) (2p) Wykaż, że pole czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EBCH</mi></math> jest równe polu sześciokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EBCDHA</mi></math> i oblicz jego wartość.</p>",
       "choices": [],

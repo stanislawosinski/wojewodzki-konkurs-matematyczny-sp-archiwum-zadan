@@ -153,7 +153,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Miara kąta wewnętrznego wielokąta foremnego jest równa 150°. Ile boków ma ten wielokąt?</p>",
       "choices": [
@@ -462,7 +462,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "symetrie"
       ],
       "prompt_html": "<p>Każdy równoległobok nie będący rombem ani prostokątem</p>",
       "choices": [
@@ -530,7 +531,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Na przygotowanie maszyny do produkcji pewnych detali potrzeba 3 minuty. Po uruchomieniu maszyna wytwarza jeden detal w ciągu 2,5 minuty. Funkcja wyrażająca całkowity czas potrzebny do produkcji <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> detali wyraża się wzorem</p>",
       "choices": [
@@ -564,7 +565,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Ile wierzchołków ma graniastosłup o 54 krawędziach?</p>",
       "choices": [
@@ -598,7 +599,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Pole trapezu przedstawionego na rysunku jest równe</p>",
       "choices": [
@@ -634,7 +636,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "potęgi i pierwiastki"
+        "potęgi i pierwiastki",
+        "układ współrzędnych"
       ],
       "prompt_html": "<p>Dane są liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mfrac><mrow><msup><mn>11</mn><mn>2016</mn></msup><mo>−</mo><msup><mn>11</mn><mn>2015</mn></msup></mrow><msup><mn>11</mn><mn>2015</mn></msup></mfrac></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> – najmniejsza dwucyfrowa liczba pierwsza. Oblicz odległość na osi liczbowej między liczbą odwrotną do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i liczbą przeciwną do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>. Wynik przedstaw w najprostszej postaci.</p>",
       "choices": [],
@@ -652,7 +655,8 @@
       "points": 4,
       "topics": [
         "koła / okręgi",
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Pole zamalowanego wycinka koła o środku w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math>, zaznaczonego na rysunku, jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>14</mn><mi>π</mi></math> cm². Oblicz pole rombu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SPQR</mi></math>.</p>",
       "choices": [],
@@ -671,7 +675,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "sześciokąty foremne"
       ],
       "prompt_html": "<p>Zbiornik o pojemności 144 litrów ma kształt graniastosłupa, którego podstawą jest sześciokąt foremny. Stosunek wysokości pojemnika do długości krawędzi podstawy wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt><mo>:</mo><mn>2</mn></math>. Jaką wysokość ma zbiornik? Odpowiedź podaj z jednostką.</p>",

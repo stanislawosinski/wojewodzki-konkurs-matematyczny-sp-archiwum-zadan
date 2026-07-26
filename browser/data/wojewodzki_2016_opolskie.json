@@ -47,7 +47,8 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Bok trójkąta jest 1,5 razy dłuższy od wysokości opuszczonej na ten bok. Pole tego trójkąta wynosi 27 m².</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
       "choices": [
@@ -77,7 +78,8 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Przekątne trapezu równoramiennego są prostopadłe, jego wysokość ma długość 10 cm.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
       "choices": [
@@ -201,7 +203,8 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Oblicz obwód trapezu równoramiennego, którego ramię ma długość 10 cm, wysokość 8 cm, a pole wynosi 128 cm².</p>",
       "choices": [],
@@ -218,8 +221,8 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "geometria",
-        "układy równań"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Prostokąt został podzielony na 6 kwadratów (jak na rysunku). Pole najmniejszego kwadratu wynosi 4. Oblicz pole prostokąta.</p>",
       "choices": [],
@@ -238,7 +241,7 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "geometria",
+        "kąty",
         "trójkąty"
       ],
       "prompt_html": "<p>W kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> wpisano trójkąt równoboczny w ten sposób, że dwa wierzchołki trójkąta pokrywają się z wierzchołkami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> kwadratu, trzeci (punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math>) leży wewnątrz kwadratu. Oblicz miarę kąta wypukłego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CKD</mi></math>. Zrób odpowiedni rysunek, zaznacz wskazany kąt i uzasadnij odpowiedź.</p>",

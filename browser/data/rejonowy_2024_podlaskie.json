@@ -83,8 +83,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty",
-        "geometria"
+        "układ współrzędnych",
+        "trójkąty"
       ],
       "prompt_html": "<p>Odległość punktu A(5, 12) od początku układu współrzędnych jest równa:</p>",
       "choices": [
@@ -106,7 +106,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Obwody dwóch kwadratów różnią się o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mfrac><mn>2</mn><mn>5</mn></mfrac></math> dm. O ile centymetrów różnią się długości boków tych kwadratów?</p>",
       "choices": [
@@ -128,7 +129,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Janek ma w albumie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> sztuk starych zagranicznych banknotów i o 5 więcej starych polskich banknotów. Ile ma wszystkich banknotów razem?</p>",
       "choices": [
@@ -150,7 +151,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Który z poniższych ułamków nie jest równy ułamkowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>16</mn><mn>24</mn></mfrac></math>?</p>",
       "choices": [
@@ -172,7 +173,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>W którym zestawie liczby uporządkowano malejąco, wstawiając właściwe nierówności?</p>",
       "choices": [
@@ -262,8 +263,7 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "koła / okręgi",
-        "geometria"
+        "okrąg wpisany i opisany"
       ],
       "prompt_html": "<p>Kartka papieru ma kształt kwadratu o boku 13,5 cm. Podaj promień największego koła, które można wyciąć z tej kartki.</p>",
       "choices": [],
@@ -280,7 +280,8 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "procenty"
+        "procenty",
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Kilogram bananów przed obniżką kosztował <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> zł, a po obniżce <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> zł. Zapisz za pomocą wyrażenia algebraicznego, o ile procent obniżono cenę bananów w stosunku do ceny początkowej.</p>",
       "choices": [],
@@ -332,7 +333,7 @@
       "points": 2,
       "topics": [
         "trójkąty",
-        "potęgi i pierwiastki"
+        "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Czy trójkąt o bokach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>10</mn></msqrt></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math> cm jest prostokątny? Zapisz sprawdzenie i odpowiedź.</p>",
       "choices": [],
@@ -349,7 +350,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "wyłączanie jednomianu przed nawias"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Doprowadź do najprostszej postaci wyrażenie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mi>x</mi><mo>−</mo><mo>(</mo><mn>4</mn><mi>x</mi><mo>+</mo><mn>6</mn><mi>y</mi><mo>−</mo><mn>5</mn><mo>)</mo><mo>−</mo><mn>2</mn><mo>(</mo><mo>−</mo><mn>5</mn><mi>y</mi><mo>+</mo><mn>8</mn><mi>x</mi><mo>−</mo><mn>2</mn><mo>)</mo></math>.</p>",
       "choices": [],
@@ -400,7 +401,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "bryły"
+        "ostrosłupy"
       ],
       "prompt_html": "<p>Ile litrów wody można wlać do naczynia w kształcie ostrosłupa o polu podstawy równym 25 dm² i wysokości ostrosłupa równej 60 cm? Zapisz obliczenia i odpowiedź.</p>",
       "choices": [],
@@ -417,7 +418,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "trójkąty"
       ],
       "prompt_html": "<p>Narysuj w rzeczywistych wymiarach siatkę graniastosłupa prostego o wysokości 5 cm, o podstawie trójkąta prostokątnego o przyprostokątnych 3 cm i 4 cm. Oblicz sumę długości wszystkich krawędzi tego graniastosłupa.</p>",
@@ -470,8 +471,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Pole trapezu prostokątnego jest równe 96 cm². Dłuższa podstawa ma długość 15 cm. Długości podstaw są w stosunku 3:5. Oblicz obwód tego trapezu. Zapisz obliczenia i odpowiedź.</p>",
       "choices": [],

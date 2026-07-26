@@ -17,10 +17,12 @@
       "type": "open",
       "points": 18,
       "topics": [
-        "liczby rzymskie",
         "potęgi i pierwiastki",
         "procenty",
-        "NWW / NWD"
+        "NWW / NWD",
+        "graniastosłupy",
+        "liczby rzymskie",
+        "ułamki"
       ],
       "prompt_html": "<p>Rozwiąż krzyżówkę, wpisując cyfry w odpowiednie pola. Hasło w zacieniowanych okienkach, to kolejne cyfry rozwinięcia dziesiętnego liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>5</mn></msqrt></math>. Hasło nie jest oceniane.</p><ol type=\"a\"><li>Liczba, której zapis w systemie rzymskim ma postać: MCDLXXII.</li><li>Liczba pierwsza, której kwadrat jest liczbą większą od 900 a mniejszą od 1225.</li><li>Największy wspólny dzielnik liczb: 150 i 294.</li><li>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>19</mn><mn>198</mn></mfrac></math> w postaci dziesiętnej zaokrąglona do części setnych.</li><li>Obwód trapezu prostokątnego o podstawach 2 i 5 oraz wysokości 4.</li><li>Mianownik liczby odwrotnej do 7,77 zapisanej w postaci ułamka nieskracalnego.</li><li>9% z 99% liczby 100 000.</li><li>Najmniejsza wspólna wielokrotność liczb: 13, 83 i 91.</li><li>Wynik działania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mroot><mn>27000000</mn><mn>3</mn></mroot><mo>−</mo><mroot><mrow><mn>8</mn><mo>·</mo><mn>27</mn></mrow><mn>3</mn></mroot><mo>)</mo><mo>−</mo><mo>(</mo><mn>5</mn><mo>·</mo><mn>99</mn><mo>−</mo><mn>9</mn><mo>·</mo><mn>31</mn><mo>)</mo></mrow></math></li><li>Długość krawędzi sześcianu o polu powierzchni całkowitej 9600 cm².</li><li>Spośród liczb: 760, 774, 788, 792 liczba podzielna przez 9 i przez 4.</li><li>Długość przekątnej sześcianu o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow></math>.</li><li>Wysokość prostopadłościanu o podstawie kwadratu o boku 4 cm i objętości 112 cm³.</li><li>Objętość sześcianu o krawędzi 12 cm.</li><li>Liczba, której 45% wynosi 405.</li><li>Sześcian najmniejszej parzystej liczby złożonej.</li><li>Średnia arytmetyczna liczb: 996, 998, 1000, 1002.</li><li>Czwarta potęga odwrotności liczby 0,25.</li></ol>",
       "choices": [],
@@ -73,7 +75,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Dane są liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mfrac><mn>19</mn><mn>88</mn></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mfrac><mn>1919</mn><mn>8888</mn></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><mfrac><mn>191919</mn><mn>888888</mn></mfrac></mrow></math>. Wynika z tego, że</p>",
       "choices": [
@@ -142,7 +144,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Wynikiem działania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>)</mo><mo>·</mo><mo>(</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>)</mo><mo>·</mo><mo>(</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>)</mo><mo>·</mo><mo>…</mo><mo>·</mo><mo>(</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>2018</mn></mfrac><mo>)</mo><mo>·</mo><mo>(</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>2019</mn></mfrac><mo>)</mo></mrow></math> jest liczba</p>",
       "choices": [
@@ -244,7 +246,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>W zamkniętym naczyniu w kształcie prostopadłościanu o wymiarach 16 cm, 42 cm, 28 cm znajduje się woda. Jeśli naczynie postawimy na największej ściance, to wysokość wody wyniesie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math> wysokości prostopadłościanu. Jeśli postawimy je na najmniejszej ściance, to wysokość wody wyniesie</p>",
       "choices": [
@@ -346,7 +348,8 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Suma dwóch krótszych boków trójkąta jest równa 51 cm, a stosunek długości tych boków wynosi 5 : 12.</p><p>Oceń, czy podane zdania są prawdziwe, czy fałszywe. Zaznacz właściwą odpowiedź.</p>",
       "choices": [
@@ -450,7 +453,7 @@
       "points": 4,
       "topics": [
         "prawdopodobieństwo",
-        "kombinatoryka"
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Rzucano jednocześnie dwiema sześciennymi kostkami do gry. Wyniki otrzymane na każdej kostce podczas jednego rzutu to cyfry liczby dwucyfrowej.</p><p>Oceń, czy podane zdania są prawdziwe, czy fałszywe. Zaznacz właściwą odpowiedź.</p>",
       "choices": [
@@ -502,8 +505,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W trapezie prostokątnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> krótsza podstawa jest równa wysokości trapezu, a krótsza przekątna ma długość równą długości dłuższego ramienia trapezu. Pole trapezu wynosi 96 cm². Oblicz długości boków trapezu.</p>",
       "choices": [],

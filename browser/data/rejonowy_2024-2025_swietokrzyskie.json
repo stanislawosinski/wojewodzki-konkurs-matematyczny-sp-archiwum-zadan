@@ -120,8 +120,9 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "czworokąty",
         "procenty",
-        "geometria"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Długość boku kwadratu zwiększono o 20%. O ile procent zwiększyło się pole kwadratu?</p><p><strong>Wybierz odpowiedź spośród podanych.</strong></p>",
       "choices": [
@@ -155,7 +156,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p><strong>Dokończ zdanie.</strong></p><p>Wartość wyrażenia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>1</mn><mo>+</mo><mfrac><mn>2</mn><mn>1</mn></mfrac><mo>)</mo><mo>·</mo><mo>(</mo><mn>1</mn><mo>+</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>)</mo><mo>·</mo><mo>(</mo><mn>1</mn><mo>+</mo><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>)</mo><mo>·</mo><mo>…</mo><mo>·</mo><mo>(</mo><mn>1</mn><mo>+</mo><mfrac><mn>2</mn><mn>2021</mn></mfrac><mo>)</mo><mo>·</mo><mo>(</mo><mn>1</mn><mo>+</mo><mfrac><mn>2</mn><mn>2023</mn></mfrac><mo>)</mo><mo>·</mo><mo>(</mo><mn>1</mn><mo>+</mo><mfrac><mn>2</mn><mn>2025</mn></mfrac><mo>)</mo></math> jest równa:</p>",
       "choices": [
@@ -190,7 +191,8 @@
       "points": 1,
       "topics": [
         "trójkąty",
-        "potęgi i pierwiastki"
+        "potęgi i pierwiastki",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Obwód trójkąta równoramiennego jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>180</mn><msqrt><mn>5</mn></msqrt></math> cm. Stosunek długości podstawy tego trójkąta do długości ramienia jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>:</mo><mn>13</mn></math>. O ile centymetrów podstawa tego trójkąta jest krótsza od jego ramienia?</p><p><strong>Wybierz odpowiedź spośród podanych.</strong></p>",
       "choices": [
@@ -224,8 +226,9 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "geometria",
-        "potęgi i pierwiastki"
+        "czworokąty",
+        "potęgi i pierwiastki",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Obwód rombu o polu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>72</mn><msqrt><mn>3</mn></msqrt></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>cm</mtext><mn>2</mn></msup></math> wynosi 48 cm.</p><p><strong>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</strong></p>",
       "choices": [
@@ -347,8 +350,10 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "układ współrzędnych",
+        "trójkąty",
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W układzie współrzędnych dane są punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>4</mn><mo>,</mo><mo>−</mo><mn>4</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mo>(</mo><mn>6</mn><mo>,</mo><mo>−</mo><mn>4</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>=</mo><mo>(</mo><mn>2</mn><mo>,</mo><mn>14</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>4</mn><mo>,</mo><mn>6</mn><mo>)</mo></math>.</p><p><strong>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</strong></p>",
       "choices": [
@@ -379,7 +384,8 @@
       "points": 3,
       "topics": [
         "trójkąty",
-        "procenty"
+        "procenty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W trójkącie prostokątnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACB</mi></math> ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>90</mn><mo>°</mo></math> i długość jednej przyprostokątnej jest równa 75% długości drugiej przyprostokątnej. Z wierzchołka kąta prostego tego trójkąta poprowadzono wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math>.</p><p><strong>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</strong></p>",
       "choices": [

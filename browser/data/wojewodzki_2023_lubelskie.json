@@ -63,7 +63,8 @@
       "points": 1,
       "topics": [
         "geometria",
-        "szacowanie (zamiast obliczania)"
+        "szacowanie (zamiast obliczania)",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Jaki obwód ma pięciokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDE</mi></math> (rysunek), jeżeli wiadomo, że punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math> leży wewnątrz tego pięciokąta oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>FB</mi><mo>|</mo><mo>=</mo><mn>1</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>FC</mi><mo>|</mo><mo>=</mo><mn>2</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>FA</mi><mo>|</mo><mo>=</mo><mn>3</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>FE</mi><mo>|</mo><mo>=</mo><mn>4</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>FD</mi><mo>|</mo><mo>=</mo><mn>5</mn></math>?</p><p>Jedna z podanych odpowiedzi jest poprawna. Zaznacz kółkiem właściwą odpowiedź.</p>",
       "choices": [
@@ -226,7 +227,8 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KLM</mi></math> (rysunek) wynosi 2, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>MC</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>ML</mi><mo>|</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>LB</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>LK</mi><mo>|</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>KA</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>KM</mi><mo>|</mo></math>. Jakie pole ma trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>?</p><p>Wpisz tylko odpowiedź (nie musisz zapisywać wykonanych obliczeń).</p>",
       "choices": [],
@@ -262,7 +264,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "geometria",
+        "układ współrzędnych",
+        "pole i obwód",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>4</mn><mo>,</mo><mn>2</mn><mo>)</mo></math> jest jednym z wierzchołków trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>. Środkiem boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> tego trójkąta jest punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mo>(</mo><mn>2</mn><mo>,</mo><mn>2</mn><mo>)</mo></math>, a punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> jest punktem symetrycznym do punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> względem osi odciętych.</p><p>Uzupełnij poniższe zdania.</p><ul><li>c) Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> ma współrzędne …… .</li><li>d) Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> wynosi …… jednostek kwadratowych.</li><li>e) Obwód trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> wynosi …… jednostek.</li></ul>",
@@ -351,7 +354,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "geometria",
+        "czworokąty",
         "dwusieczna kąta / symetralna odcinka"
       ],
       "prompt_html": "<p>Długości podstaw trapezu równoramiennego wynoszą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mfrac><mn>23</mn><mn>1,2</mn></mfrac><mo>·</mo><mfrac><mn>12</mn><mn>10</mn></mfrac></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><msqrt><msup><mn>13</mn><mn>2</mn></msup></msqrt></math>. Przekątna tego trapezu zawiera się w dwusiecznej kąta przy dłuższej podstawie. Oblicz długość wysokości tego trapezu.</p>",
@@ -369,7 +372,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "bryły",
+        "ostrosłupy",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Ania w sklepie Dziwne rzeczy zakupiła przycisk do papieru. Na tekturowym pudełku, do którego zapakowany był przycisk, zapisane były informacje:</p><p><em>W pudełku znajduje się przedmiot w kształcie ostrosłupa prawidłowego trójkątnego, którego objętość wynosi</em> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn></math> <em>cm³. Stosunek długości wysokości ostrosłupa do długości krawędzi jego podstawy wynosi</em> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt><mo>:</mo><mn>1</mn></math>.</p><p>Oblicz długość wysokości ostrosłupa, o którym jest mowa w powyższej informacji.</p>",

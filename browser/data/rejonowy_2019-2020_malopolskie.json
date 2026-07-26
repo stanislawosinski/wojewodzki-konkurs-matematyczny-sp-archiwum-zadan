@@ -53,7 +53,7 @@
       "points": 2,
       "topics": [
         "trójkąty",
-        "geometria"
+        "układ współrzędnych"
       ],
       "prompt_html": "<p>Dany jest trójkąt o wierzchołkach w punktach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>5</mn><mo>,</mo><mo>−</mo><mn>1</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi><mo>=</mo><mo>(</mo><mn>2</mn><mo>,</mo><mo>−</mo><mn>1</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>G</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>4</mn><mo>,</mo><mn>2</mn><mo>)</mo></math> oraz punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>(</mo><mn>0</mn><mo>,</mo><mn>2</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mo>(</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>4</mn><mo>,</mo><mo>−</mo><mn>3</mn><mo>)</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mo>=</mo><mo>(</mo><mn>1</mn><mo>,</mo><mo>−</mo><mn>3</mn><mo>)</mo></math>. Który z podanych trójkątów jest przystający do trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EFG</mi></math>?</p>",
       "choices": [
@@ -122,7 +122,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Sześcian pomalowany zieloną farbą rozcięto na 125 jednakowych, sześciennych klocków. Ile z tych klocków nie ma żadnej ściany zielonej?</p>",
@@ -262,7 +262,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Przez punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> leżący na zewnątrz kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> o mierze 39° poprowadzono dwie proste: prostą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> równoległą do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> oraz prostą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> prostopadłą do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>. Wynika z tego, że miara kąta ostrego między prostymi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> jest:</p>",
       "choices": [
@@ -330,7 +330,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W kwadracie o boku długości 8 cm umieszczono dwa prostokąty w sposób przedstawiony na rysunku.</p><p>Suma obwodów tych prostokątów jest równa:</p>",
       "choices": [
@@ -444,7 +445,8 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Przekątna trapezu ma długość 24 i tworzy z podstawami tego trapezu kąt 45°. Połowa sumy długości podstaw trapezu jest równa długości wysokości tego trapezu. Zatem pole tego trapezu jest równe:</p>",
       "choices": [
@@ -482,8 +484,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "układy równań",
-        "wzory skróconego mnożenia"
+        "układy równań"
       ],
       "prompt_html": "<p>Jeżeli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> spełniają równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo>+</mo><mn>5</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mn>2</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>0</mn></math>, to wartość sumy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi></math> jest równa:</p>",
       "choices": [
@@ -540,7 +541,7 @@
       "points": 4,
       "topics": [
         "trójkąty",
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Dany jest trójkąt prostokątny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>XYZ</mi></math> o przeciwprostokątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>XY</mi></math>. Na prostej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>XY</mi></math> zaznaczono odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>XD</mi></math> równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>XZ</mi></math> oraz odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>YE</mi></math> równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>YZ</mi></math>. Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> nie leżą na odcinku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>XY</mi></math>. Jaką miarę ma kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DZE</mi></math>? Zapisz obliczenia.</p>",
       "choices": [],
@@ -595,7 +596,9 @@
       "points": 5,
       "topics": [
         "NWW / NWD",
-        "geometria"
+        "układ współrzędnych",
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W układzie współrzędnych zaznacz wszystkie punkty, których współrzędne są liczbami naturalnymi spełniającymi jednocześnie oba warunki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>NWD</mtext><mo>(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>)</mo><mo>=</mo><mn>1</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>NWW</mtext><mo>(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>)</mo><mo>=</mo><mn>3</mn><mi>p</mi></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math> jest parzystą liczbą pierwszą. Połącz te punkty w pewien wielokąt, a następnie oblicz jego pole. Zapisz obliczenia.</p>",
       "choices": [],
@@ -612,8 +615,8 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "bryły",
-        "potęgi i pierwiastki"
+        "graniastosłupy",
+        "trójkąty"
       ],
       "prompt_html": "<p>Przekątna ściany bocznej graniastosłupa prawidłowego trójkątnego ma długość 1 dm. Wiedząc, że długości krawędzi bocznych i krawędzi podstawy (wyrażone w centymetrach) są liczbami całkowitymi, oblicz pole powierzchni tego graniastosłupa. Rozważ wszystkie przypadki. Zapisz obliczenia.</p>",
       "choices": [],

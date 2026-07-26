@@ -62,7 +62,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "układ współrzędnych"
       ],
       "prompt_html": "<p>Suma liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> zaznaczonych na osiach liczbowych jest równa</p>",
       "choices": [
@@ -86,7 +86,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Dla każdej liczby rzeczywistej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>≠</mo><mn>0</mn></mrow></math> wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mfrac><mi>a</mi><mrow><mi>a</mi><mo>+</mo><mi>a</mi></mrow></mfrac><mrow><mi>a</mi><mo>+</mo><mi>a</mi><mo>+</mo><mi>a</mi></mrow></mfrac><mo>·</mo><mfrac><mi>a</mi><mfrac><mrow><mi>a</mi><mo>+</mo><mi>a</mi></mrow><mrow><mi>a</mi><mo>+</mo><mi>a</mi><mo>+</mo><mi>a</mi></mrow></mfrac></mfrac></mrow></math> jest taka sama. Ta wartość jest równa</p>",
       "choices": [
@@ -108,7 +108,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Z czterech jednakowych kwadratów – każdy o obwodzie 44 cm i z pięciu jednakowych kwadratów – każdy o obwodzie 12 cm zbudowano figurę taką, jak na rysunku. Żaden z kwadratów nie zachodzi na inny. Obwód tej figury jest równy</p>",
       "choices": [
@@ -132,7 +133,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W trójkącie prostokątnym o obwodzie 24 cm długość najkrótszego boku stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> obwodu i jest o 4 cm mniejsza od jednego z pozostałych boków. Pole tego trójkąta jest równe</p>",
       "choices": [
@@ -154,7 +156,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Pudełko w kształcie prostopadłościanu można całkowicie wypełnić dwudziestoma białymi kostkami sześciennymi o krawędzi długości 6 cm. Pudełko to można również całkowicie wypełnić niebieskimi kostkami sześciennymi o krawędzi długości 3 cm, albo czerwonymi o krawędzi długości 2 cm. O ile więcej kostek czerwonych niż niebieskich należy użyć, aby całkowicie wypełnić to pudełko?</p>",
       "choices": [
@@ -176,7 +178,7 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Na tablicy napisanych jest 6 ułamków (przedstawiono je na rysunku). Wojtek jedną z tych liczb pominął, pozostałych pięć pomnożył i otrzymał wynik równy 1.</p><p>Ułamek, który Wojtek pominął, to _____ .</p>",
       "choices": [],
@@ -213,8 +215,7 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "trójkąty",
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Kąty oznaczone na rysunku literą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> mają miarę 33°. Kąt oznaczony literą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> ma miarę _____ .</p>",
       "choices": [],
@@ -321,7 +322,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Na rysunku przedstawiono siatkę pewnego sześcianu. Suma długości pogrubionych odcinków jest o 26 cm większa od sumy długości wszystkich krawędzi tej bryły. A zatem</p><ul><li>suma długości wszystkich krawędzi tego sześcianu jest równa _____ cm,</li><li>pole powierzchni całkowitej tego sześcianu jest równe _____ cm²,</li><li>objętość tego sześcianu jest równa _____ cm³.</li></ul>",
       "choices": [],

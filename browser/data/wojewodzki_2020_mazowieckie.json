@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły",
+        "ostrosłupy",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Czy istnieje ostrosłup prawidłowy czworokątny, w którym przekątna podstawy ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>22</mn><msqrt><mn>2</mn></msqrt></mrow></math> cm długości, a krawędź boczna 15 cm?</p><p>Wybierz odpowiedź T (Tak) albo N (Nie) i jej uzasadnienie spośród A, B lub C.</p>",
@@ -56,7 +56,6 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kombinatoryka",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Wybierz poprawną odpowiedź spośród podanych.</p><p>Ile jest liczb trzycyfrowych, w których wszystkie cyfry są różne oraz cyfry 5 i 9 umieszczone są obok siebie?</p>",
@@ -91,8 +90,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "reszta z dzielenia",
-        "podzielność"
+        "reszta z dzielenia"
       ],
       "prompt_html": "<p>Cyfrą dziesiątek liczby osiem razy większej od pewnej liczby dwucyfrowej jest 6, a cyfrą jedności liczby dziewięć razy większej od tej samej liczby dwucyfrowej jest 7. Znajdź wszystkie liczby dwucyfrowe spełniające opisane warunki. Odpowiedź uzasadnij.</p>",
       "choices": [],
@@ -110,8 +108,8 @@
       "points": 2,
       "topics": [
         "podzielność",
-        "dowodzenie / dowody",
-        "potęgi i pierwiastki"
+        "potęgi i pierwiastki",
+        "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Wykaż, że liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2</mn><mn>2</mn></msup><mi>a</mi><mo>(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn><mo>)</mo><mo>+</mo><msqrt><mfrac><mn>4</mn><mn>5</mn></mfrac></msqrt><mo>·</mo><mn>4</mn><msqrt><mn>5</mn></msqrt><mo>(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn><mo>)</mo></mrow></math> jest podzielna przez 8, gdy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest liczbą całkowitą.</p>",
       "choices": [],
@@ -146,8 +144,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "bryły",
-        "geometria"
+        "graniastosłupy",
+        "symetrie"
       ],
       "prompt_html": "<p>Na rysunku przedstawiono prostokąt i jego osie symetrii. Uzupełnij rysunek tak, aby powstała siatka graniastosłupa prawidłowego trójkątnego, która ma tylko jedną oś symetrii. Przedstaw dwa różne rozwiązania.</p>",
       "choices": [],
@@ -203,7 +201,6 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "układy równań",
         "zagadki logiczne"
       ],
       "prompt_html": "<p>Liczby całkowite <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> spełniają warunek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>&gt;</mo><mi>y</mi></mrow></math>. Wyniki działań: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>−</mo><mi>y</mi></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>·</mo><mi>y</mi></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>:</mo><mi>y</mi></mrow></math> zapisane w kolejności malejącej to: 18, 12, −5, −45. Znajdź liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>.</p>",
@@ -221,7 +218,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "pole i obwód",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Uzasadnij, że pole trapezu równoramiennego o wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math>, którego przekątne są prostopadłe, jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>h</mi><mn>2</mn></msup></math>.</p>",
@@ -239,8 +237,9 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "geometria",
-        "potęgi i pierwiastki"
+        "układ współrzędnych",
+        "czworokąty",
+        "symetrie"
       ],
       "prompt_html": "<p>Czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> ma środek symetrii. Oblicz długość dłuższej przekątnej czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>, jeżeli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mo>=</mo><mo>(</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo>)</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>B</mi><mo>=</mo><mo>(</mo><mn>10</mn><mo>,</mo><mo>−</mo><mn>9</mn><mo>)</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>C</mi><mo>=</mo><mo>(</mo><mn>9</mn><mo>,</mo><mn>6</mn><mo>)</mo></mrow></math>.</p>",
       "choices": [],

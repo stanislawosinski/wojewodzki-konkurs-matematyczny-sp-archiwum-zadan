@@ -17,7 +17,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wyłączanie jednomianu przed nawias",
+        "ułamki"
       ],
       "prompt_html": "<p>Dana jest liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>3001</mn><mo>+</mo><mfrac><mn>3001</mn><mn>3000</mn></mfrac><mo>−</mo><mn>3001</mn><mo>·</mo><mfrac><mn>3001</mn><mn>3000</mn></mfrac></math>. Wskaż zdanie fałszywe.</p>",
       "choices": [
@@ -51,7 +52,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Działka budowlana ma kształt prostokąta o wymiarach 16 m × 26 m. Dom, który można postawić na działce ma stać co najmniej 4 metry od granicy działki. Maksymalna powierzchnia działki, na której można postawić dom jest równa:</p>",
       "choices": [
@@ -153,8 +155,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły",
-        "proporcjonalność prosta"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Do pomalowania pewnej sześciennej kostki potrzeba 2,5 litra farby. Ile litrów tej samej farby będziemy potrzebować, jeśli zechcemy pomalować sześcienną kostkę o krawędzi 2 razy dłuższej niż dana?</p>",
       "choices": [
@@ -292,7 +293,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy",
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Drewniany sześcian pomalowano białą farbą i rozcięto na 64 jednakowe sześciany. Liczba sześcianów, których żadna ściana nie jest pomalowana białą farbą jest równa:</p>",
       "choices": [
@@ -326,7 +328,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Krawędzie prostopadłościanu wychodzące z jednego wierzchołka wynoszą odpowiednio 10 cm, 3 cm i 4 cm. Długość przekątnej tego prostopadłościanu jest równa:</p>",
       "choices": [
@@ -394,7 +396,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Jeżeli ułamek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mi>x</mi></mrow><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow></mfrac><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mi>y</mi><mo>≠</mo><mn>0</mn></math>. To wartość ułamka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mi>y</mi></mrow><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow></mfrac></math> będzie równa:</p>",
       "choices": [
@@ -462,7 +464,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>O godzinie 19:20 kąt wypukły między wskazówkami minutową i godzinową zegara analogowego jest:</p>",
       "choices": [
@@ -530,8 +532,9 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Z trzech identycznych trójkątów prostokątnych równoramiennych zbudowano trapez równoramienny. Pole trapezu jest równe 108 cm².</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli zdanie jest fałszywe.</p>",
       "choices": [
@@ -587,7 +590,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "geometria",
+        "czworokąty",
         "trójkąty"
       ],
       "prompt_html": "<p>Przekątne deltoidu przecinają się w ten sposób, że trzy z powstałych odcinków są równej długości, a czwarty jest trzy razy dłuższy od każdego z pozostałych. Wiedząc, że dłuższy bok deltoidu ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>5</mn></msqrt></math> cm, wyznacz długość krótszego boku deltoidu. Zapisz wszystkie obliczenia.</p>",

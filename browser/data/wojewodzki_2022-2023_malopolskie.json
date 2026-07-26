@@ -65,7 +65,7 @@
       "points": 2,
       "topics": [
         "dwusieczna kąta / symetralna odcinka",
-        "geometria"
+        "czworokąty"
       ],
       "prompt_html": "<p>W równoległoboku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> dwusieczna kąta wewnętrznego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADC</mi></math> przecięła przekątną <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math>, a dwusieczna kąta wewnętrznego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> przecięła przekątną <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi></math>. Ile wynosi stosunek długości odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AK</mi></math> do długości odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KL</mi></math>, jeśli stosunek długości boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> do długości boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> jest równy 3:8?</p>",
       "choices": [
@@ -110,7 +110,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "podzielność"
       ],
       "prompt_html": "<p>Długości trzech krawędzi pierwszego prostopadłościanu są równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>,</mo><mi>n</mi><mo>+</mo><mn>2</mn><mo>,</mo><mi>n</mi><mo>+</mo><mn>4</mn></math>, a długości krawędzi drugiego prostopadłościanu są równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>+</mo><mn>2</mn><mo>,</mo><mi>n</mi><mo>+</mo><mn>4</mn><mo>,</mo><mi>n</mi><mo>+</mo><mn>6</mn></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest pewną dodatnią liczbą naturalną. Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>V</mi><mn>1</mn></msub></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>V</mi><mn>2</mn></msub></math> oznaczają odpowiednio objętość pierwszego i drugiego prostopadłościanu. Wówczas równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>V</mi><mn>2</mn></msub><mo>=</mo><mi>a</mi><mo>·</mo><msub><mi>V</mi><mn>1</mn></msub></math> ma rozwiązanie dla</p>",
@@ -133,8 +133,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "trójkąty",
-        "geometria"
+        "trójkąty"
       ],
       "prompt_html": "<p>Ile wynosi stosunek długości odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> do długości odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AG</mi></math>?</p>",
       "choices": [
@@ -344,8 +343,9 @@
       "points": 10,
       "topics": [
         "trójkąty",
-        "dowodzenie / dowody",
-        "geometria"
+        "czworokąty",
+        "pole i obwód",
+        "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Dany jest trójkąt prostokątny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>, w którym kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACB</mi></math> jest prosty. Na bokach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> zbudowano kwadraty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACDE</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AFGB</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BHIC</mi></math>, a środki przekątnych tych kwadratów oznaczono odpowiednio przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>,</mo><mi>Q</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math> (patrz rysunek obok). Oznaczmy długości boków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> odpowiednio <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>.</p><p><strong>a)</strong> (3p) Udowodnij, że czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABRP</mi></math> jest trapezem i zapisz jego pole w zależności od długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>.</p><p><strong>b)</strong> (3p) Udowodnij, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>pole </mtext><mi>Δ</mi><mi>AQB</mi><mo>+</mo><mtext>pole </mtext><mi>Δ</mi><mi>ABC</mi><mo>=</mo><msup><mrow><mo>(</mo><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mn>2</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup></math>.</p><p><strong>c)</strong> (4p) Wykaż, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>obwód </mtext><mi>Δ</mi><mi>PQR</mi><mo>&lt;</mo><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>)</mo><mo>·</mo><msqrt><mn>2</mn></msqrt></math>.</p>",
       "choices": [],
@@ -366,7 +366,7 @@
       "topics": [
         "kombinatoryka",
         "prawdopodobieństwo",
-        "bryły"
+        "ostrosłupy"
       ],
       "prompt_html": "<p>Adam, Bartek, Czesiek i Darek mieli po dwa ostrosłupy trójkątne, których wszystkie ściany były przystającymi trójkątami równobocznymi. W każdym ostrosłupie ściany były z zewnątrz pomalowane na kolor biały, zielony, niebieski lub czerwony i każda ściana była w innym kolorze. Następnie każdy z chłopców skleił swoje dwa ostrosłupy białymi podstawami tak, że wierzchołki ścian pomalowanych na biało się pokryły.</p><p>W dalszej części zadania <strong><em>parą zgodną</em></strong> nazywamy takie dwie ściany, po jednej z każdego z dwóch sklejonych czworościanów, które mają wspólną krawędź i są pomalowane tym samym kolorem.</p><p><strong>a)</strong> (2p) Poniżej przedstawiono siatki dwóch ostrosłupów, których wszystkie ściany są przystającymi trójkątami równobocznymi. Wpisz w wyznaczone miejsca wewnątrz ścian każdej z siatek ostrosłupów symbole kolorów: <strong>b (biały), c (czerwony), n (niebieski), z (zielony)</strong> tak, aby <strong>każdy kolor wystąpił jeden raz</strong> oraz aby można było z ostrosłupów otrzymanych z poniższych siatek, po sklejeniu tych ostrosłupów białymi podstawami tak, aby wierzchołki białych ścian się pokryły, uzyskać wielościan o <strong>dokładnie</strong> jednej parze zgodnej.</p><p>UWAGA: Zakładamy, że wszystkie ściany siatek malujemy tylko z jednej, wspólnej strony płaszczyzny, na której obie siatki się znajdują.</p><p><strong>b)</strong> (1p) Czy z ostrosłupów powstałych z siatek otrzymanych w podpunkcie a) można, poprzez sklejenie ich białymi podstawami tak, aby wierzchołki białych ścian się pokryły, otrzymać wielościan, który nie ma pary zgodnej? Wpisz odpowiedź w miejsce wskazane poniżej.</p><p><strong>c)</strong> (4p) Gdy każdy z chłopców skleił swoje dwa ostrosłupy, okazało się, że Adam, Bartek, Czesiek i Darek otrzymali <u>cztery <strong>różne wielościany</strong></u>, które spełniały łącznie następujące trzy warunki:</p><ol type=\"i\"><li>przynajmniej jeden wielościan miał co najmniej dwie pary zgodne,</li><li>co najmniej dwa wielościany miały <strong>dokładnie jedną</strong> parę zgodną,</li><li>co najwyżej dwa wielościany miały <strong>dokładnie tę samą liczbę</strong> par zgodnych.</li></ol><p>Odpowiedz na pytania dotyczące wielościanów uzyskanych przez chłopców.</p><ol type=\"I\"><li>Ile chłopcy otrzymali wielościanów posiadających <strong>dokładnie trzy</strong> pary zgodne?</li><li>Ile chłopcy otrzymali wielościanów posiadających <strong>dokładnie dwie</strong> pary zgodne?</li><li>Ile chłopcy otrzymali wielościanów posiadających <strong>dokładnie jedną</strong> parę zgodną?</li><li>Ile chłopcy otrzymali wielościanów nieposiadających ani jednej pary zgodnej?</li></ol><p><strong>d)</strong> (2p) Wśród wielościanów otrzymanych przez Adama, Bartka, Czesia i Darka ile jest takich wielościanów, w których liczba par zgodnych jest nieparzysta i jakie jest prawdopodobieństwo wylosowania takiego wielościanu spośród tych otrzymanych przez chłopców? W rozwiązaniu podaj obie wartości liczbowe, których dotyczy pytanie.</p>",
       "choices": [],

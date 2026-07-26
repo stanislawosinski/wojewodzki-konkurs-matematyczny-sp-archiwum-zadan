@@ -52,8 +52,9 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Na bokach kwadratu o obwodzie równym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi></math> zbudowano trójkąty równoboczne. Pole powierzchni <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> otrzymanego w ten sposób ośmiokąta jest równe:</p>",
       "choices": [
@@ -191,7 +192,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "ostrosłupy"
       ],
       "prompt_html": "<p>Podstawami dwóch różnych ostrosłupów są czworokąty o polach 9 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>cm</mtext><mn>2</mn></msup></math> każdy. Wysokość jednego ostrosłupa jest o 5 cm dłuższa od wysokości drugiego ostrosłupa.</p><p><strong>O ile większą objętość ma wyższy ostrosłup? Wybierz odpowiedź spośród podanych.</strong></p>",
       "choices": [
@@ -257,7 +258,9 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "geometria"
+        "układ współrzędnych",
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>1</mn><mo>,</mo><mo>−</mo><mn>4</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mo>(</mo><mn>5</mn><mo>,</mo><mn>4</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>5</mn><mo>,</mo><mo>−</mo><mn>1</mn><mo>)</mo></math> są wierzchołkami trapezu prostokątnego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>. Boki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> są równoległe.</p><p><strong>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</strong></p>",
       "choices": [
@@ -289,7 +292,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "inne",
+        "wyrażenia algebraiczne",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>W pewnej liczbie trzycyfrowej cyfra w rzędzie dziesiątek jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. Cyfra w rzędzie setek jest o 5 mniejsza od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> oraz cyfra w rzędzie jedności jest o 2 większa od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>.</p><p><strong>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</strong></p>",
@@ -351,8 +354,9 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Dany jest trapez prostokątny o kącie ostrym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn><mo>°</mo></math>, w którym dłuższe ramię ma długość 12 cm, a dłuższa przekątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msqrt><mn>7</mn></msqrt></math> cm.</p><p><strong>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</strong></p>",
       "choices": [
@@ -382,7 +386,8 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Obwód rabaty w kształcie trójkąta prostokątnego jest równy 54 m. Stosunek długości boków tej rabaty jest równy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mo>:</mo><mn>40</mn><mo>:</mo><mn>41</mn></math>.</p><p><strong>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</strong></p>",
       "choices": [
@@ -413,7 +418,8 @@
       "points": 3,
       "topics": [
         "trójkąty",
-        "potęgi i pierwiastki"
+        "potęgi i pierwiastki",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Środkowa trójkąta to odcinek łączący wierzchołek trójkąta ze środkiem przeciwległego boku. Każdy trójkąt ma trzy środkowe, które przecinają się w jednym punkcie. Dzieli on każdą z nich w stosunku 2:1 licząc od wierzchołka.</p><p>W trójkącie równobocznym odległość punktu przecięcia się środkowych od jego boków jest równa 2 cm.</p><p><strong>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</strong></p>",
       "choices": [

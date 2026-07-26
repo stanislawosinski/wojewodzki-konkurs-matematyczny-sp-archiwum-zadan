@@ -61,7 +61,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Liczba trzycyfrowa, w której cyfrą dziesiątek jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, cyfra jedności jest dwa razy większa niż cyfra dziesiątek, a cyfra setek jest o 1 mniejsza od cyfry jedności, ma postać</p>",
       "choices": [
@@ -106,7 +106,7 @@
       "points": 1,
       "topics": [
         "trójkąty",
-        "geometria"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Na bokach trójkąta prostokątnego równoramiennego o przyprostokątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math> Daniel zbudował trójkąty równoboczne. Otrzymał w ten sposób sześciokąt o polu</p>",
       "choices": [
@@ -128,7 +128,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Ze wzoru <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mi>b</mi></mfrac><mo>=</mo><mn>3</mn><mi>c</mi><mi>d</mi></math> Konrad wyznaczył po kolei wszystkie wielkości. Jedną wielkość wyznaczył błędnie. Którą?</p>",
       "choices": [
@@ -194,7 +194,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "symetrie"
       ],
       "prompt_html": "<p>Przedstawiona na rysunku figura</p>",
       "choices": [
@@ -351,7 +351,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Wyrażenie opisujące potrojoną różnicę sześcianów liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> to</p>",
       "choices": [
@@ -443,7 +443,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Powierzchnię 43 km² można zapisać jako</p>",
       "choices": [
@@ -488,7 +488,7 @@
       "points": 1,
       "topics": [
         "pierścień kołowy",
-        "koła / okręgi"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Średnica małego koła wynosi 5, a średnica większego wynosi 7. Pole zacieniowanego obszaru to</p>",
       "choices": [
@@ -512,7 +512,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Zegar katedralny wskazuje godzinę 9:20. Jeden z kątów między wskazówką godzinową i minutową ma miarę</p>",
       "choices": [
@@ -534,7 +534,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "układ współrzędnych",
+        "symetrie"
       ],
       "prompt_html": "<p>Punktem symetrycznym do punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>6</mn><mo>,</mo><mn>5</mn><mo>)</mo></math> względem początku układu współrzędnych jest punkt</p>",
       "choices": [
@@ -578,8 +579,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty",
-        "geometria"
+        "kąty",
+        "trójkąty"
       ],
       "prompt_html": "<p>Suma miar wszystkich kątów zaznaczonych na poniższym rysunku łukami wynosi</p>",
       "choices": [
@@ -604,7 +605,7 @@
       "points": 1,
       "topics": [
         "koła / okręgi",
-        "geometria"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Jaka jest długość boku kwadratu, jeżeli wiadomo, że jego obwód jest taki sam jak obwód koła o promieniu 10?</p>",
       "choices": [
@@ -626,7 +627,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "ostrosłupy"
       ],
       "prompt_html": "<p>Julita wykonała rysunek przedstawiający model ostrosłupa prawidłowego. Która liczba wyraża pole powierzchni bocznej tego ostrosłupa?</p>",
       "choices": [
@@ -695,7 +696,8 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "podzielność"
+        "podzielność",
+        "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Poniższe zdania dotyczą cech podzielności. Oceń poprawność zaprezentowanego rozumowania.</p>",
       "choices": [
@@ -738,7 +740,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Fryderyk zbudował model prostopadłościanu z klocków o wymiarach 1 cm × 1 cm × 2 cm. Agnieszce udało się ułożyć taki sam model z klocków o wymiarach 1 cm × 1 cm × 3 cm, przy czym wzięła ich o 50 mniej niż Fryderyk. Okazało się, że Bartek złożył identyczny model z klocków o wymiarach 1 cm × 1 cm × 4 cm. W oparciu o powyższe dane oceń zaistniałe sytuacje.</p>",

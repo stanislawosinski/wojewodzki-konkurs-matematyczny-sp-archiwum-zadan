@@ -17,7 +17,7 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "geometria"
+        "czworokąty"
       ],
       "prompt_html": "<p>Przy każdym zdaniu wpisz TAK lub NIE.</p><p>Przekątne pewnego czworokąta są prostopadłe. Ten czworokąt:</p>",
       "choices": [
@@ -139,7 +139,7 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Przy każdym zdaniu wpisz TAK lub NIE.</p><p>Mamy kartonowe prostopadłościenne pudełko o wymiarach 90 cm, 30 cm, 20 cm. W tym pudełku można zmieścić maksymalnie:</p>",
       "choices": [
@@ -187,7 +187,8 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Dany jest trójkąt prostokątny, w którym stosunek długości przyprostokątnych wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>:</mo><mn>4</mn></math>. Oblicz pole tego trójkąta, jeżeli przeciwprostokątna ma długość 20 cm.</p>",
       "choices": [],
@@ -221,7 +222,8 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "pole i obwód",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Listwę o długości 160 cm podzielono na dwie części, z których jedna jest 3 razy dłuższa od drugiej. Z tych części zrobiono krzyżak do latawca (jak pokazuje rysunek). Jaka jest powierzchnia tego latawca? Czy dzieląc listwę w innej proporcji można otrzymać krzyżak do latawca o większej powierzchni? Odpowiedź uzasadnij.</p>",
@@ -258,7 +260,7 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Pole podstawy graniastosłupa prawidłowego czworokątnego wynosi 144 cm². Krawędź podstawy stanowi 80% wysokości graniastosłupa. Oblicz pole powierzchni bocznej oraz objętość tego graniastosłupa.</p>",
       "choices": [],

@@ -155,7 +155,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty"
       ],
       "prompt_html": "<p>Dowolny trapez ma</p>",
       "choices": [
@@ -257,6 +257,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "ułamki",
         "szacowanie (zamiast obliczania)"
       ],
       "prompt_html": "<p>Masa kostki masła to ćwierć kilograma. Do ciasta należy dodać 8 dag tłuszczu. Jaka to część kostki masła?</p>",
@@ -427,7 +428,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Spośród trzech kątów, które razem tworzą kąt półpełny, każdy następny jest o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>30</mn><mo>°</mo></mrow></math> większy od poprzedniego. Największy z tych kątów ma miarę</p>",
       "choices": [
@@ -461,7 +462,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Na ile równych części o długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> m przecięto pręt długości 12 m?</p>",
       "choices": [
@@ -495,7 +496,7 @@
       "type": "true_false",
       "points": 6,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Oceń, czy poniższe zdania są prawdziwe czy fałszywe. Zaznacz właściwą odpowiedź.</p>",
       "choices": [
@@ -567,7 +568,8 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Kwadrat rozcięto na 4 części w taki sposób, że powstały dwa jednakowe prostokąty, każdy o polu 18 cm² i dwa różnej wielkości kwadraty, z których większy ma pole 81 cm².</p><p>Oceń, czy poniższe zdania są prawdziwe czy fałszywe. Zaznacz właściwą odpowiedź.</p>",
       "choices": [
@@ -619,8 +621,9 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Prosta poprowadzona przez wierzchołek kwadratu dzieli go na trójkąt o polu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>12</mn><msup><mtext> cm</mtext><mn>2</mn></msup></mrow></math> i trapez o polu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>24</mn><msup><mtext> cm</mtext><mn>2</mn></msup></mrow></math>. Oblicz długość krótszej podstawy trapezu.</p>",
       "choices": [],
@@ -637,7 +640,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "równania z jedną zmienną"
+        "ułamki"
       ],
       "prompt_html": "<p>Państwo Nowakowie zamierzają kupić mieszkanie, które składa się z trzech pokoi, kuchni i łazienki. Łączna powierzchnia tego mieszkania jest równa 75,2 m². Powierzchnia jednego pokoju stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>8</mn></mfrac></math> całej powierzchni, powierzchnia drugiego jest o 7,8 m² mniejsza od powierzchni pierwszego, a powierzchnia trzeciego pokoju stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> sumy powierzchni pierwszego i drugiego pokoju. Jaką powierzchnię zajmują pozostałe pomieszczenia w tym mieszkaniu?</p>",
       "choices": [],

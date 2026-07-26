@@ -39,7 +39,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Miara kąta wewnętrznego dziesięciokąta foremnego jest równa:</p>",
       "choices": [
@@ -61,7 +61,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "pierścień kołowy"
+        "pierścień kołowy",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Pole pierścienia kołowego przedstawionego na rysunku poniżej jest równe:</p>",
       "choices": [
@@ -85,8 +86,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kombinatoryka",
-        "zliczanie / metody zliczania"
+        "zliczanie / metody zliczania",
+        "kombinatoryka"
       ],
       "prompt_html": "<p>Ile liczb trzycyfrowych o różnych cyfrach można utworzyć z cyfr należących do zbioru <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>{</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>4</mn><mo>}</mo></math>?</p>",
       "choices": [
@@ -108,7 +109,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>O godzinie 9:20 wskazówki zegara tworzą kąt.</p>",
       "choices": [
@@ -153,7 +154,7 @@
       "points": 1,
       "topics": [
         "trójkąty",
-        "geometria"
+        "układ współrzędnych"
       ],
       "prompt_html": "<p>Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>)</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mo>(</mo><mn>1</mn><mo>,</mo><mo>−</mo><mn>1</mn><mo>)</mo></math> są wierzchołkami trójkąta równobocznego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>. Długość boku tego trójkąta wynosi:</p>",
       "choices": [
@@ -175,7 +176,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "układ współrzędnych"
       ],
       "prompt_html": "<p>Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mo>(</mo><mn>3</mn><mo>,</mo><mo>−</mo><mn>4</mn><mo>)</mo></math> jest środkiem odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>. Wiadomo, że punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>5</mn><mo>,</mo><mn>2</mn><mo>)</mo></math>. Jeśli punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mo>(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>)</mo></math> to</p>",
       "choices": [
@@ -219,7 +220,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "koła / okręgi"
+        "koła / okręgi",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Obwód koła o polu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mi>π</mi></math> wynosi</p>",
       "choices": [
@@ -241,7 +243,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "kąty"
       ],
       "prompt_html": "<p>Z wierzchołka kąta rozwartego równoległoboku poprowadzono dwie różne wysokości, które utworzyły kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>36</mn><mo>°</mo></math>. Kąt ostry tego równoległoboku ma miarę</p>",
       "choices": [
@@ -369,8 +372,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "reszta z dzielenia",
-        "potęgi i pierwiastki"
+        "potęgi i pierwiastki",
+        "reszta z dzielenia"
       ],
       "prompt_html": "<p>Dana jest liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><msup><mn>999</mn><mn>101</mn></msup><mo>+</mo><msup><mn>999</mn><mn>100</mn></msup></math>. Wyznacz cyfrę jedności liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>.</p>",
       "choices": [],
@@ -422,7 +425,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Drewnianą sześcienną kostkę o długości krawędzi 4 <em>cm</em> pomalowano na zielono i następnie rozcięto na 64 sześciany o długości krawędzi równej 1 <em>cm</em>.</p><p>Uzupełnij poniższe zdania wstawiając liczby tak, aby uzyskać zdania prawdziwe:</p><ol><li>Liczba sześcianów z trzema ścianami pomalowanymi na zielono jest równa: ……</li><li>Liczba sześcianów z dwoma ścianami pomalowanymi na zielono jest równa: ……</li><li>Liczba sześcianów, których jedna lub dwie ściany są pomalowane na zielono jest równa: ……</li><li>Liczba sześcianów, których żadna ściana nie jest pomalowana na zielono jest równa: ……</li></ol>",
@@ -459,7 +462,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "geometria",
+        "czworokąty",
         "trójkąty",
         "dowodzenie / dowody"
       ],
@@ -533,7 +536,7 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "bryły",
+        "ostrosłupy",
         "trójkąty"
       ],
       "prompt_html": "<p>W ostrosłupie prawidłowym trójkątnym krawędź boczna ma długość 8 <em>cm</em>. Wyznacz objętość tego ostrosłupa jeśli krawędź boczna jest nachylona do płaszczyzny podstawy pod kątem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn><mo>°</mo></math>.</p>",

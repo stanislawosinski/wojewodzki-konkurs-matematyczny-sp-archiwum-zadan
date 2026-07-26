@@ -77,6 +77,7 @@
       "type": "true_false",
       "points": 2,
       "topics": [
+        "ułamki",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Czy w danym wierszu liczby są ustawione w kolejności rosnącej?</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
@@ -107,7 +108,7 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Dany jest sześcian złożony z 8 jednakowych sześciennych kostek o krawędzi długości 5 cm. Z tego sześcianu wyjęto jedną kostkę i powstała nowa bryła. Porównujemy sześcian z nową bryłą.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
       "choices": [
@@ -138,7 +139,7 @@
       "points": 2,
       "topics": [
         "trójkąty",
-        "geometria"
+        "czworokąty"
       ],
       "prompt_html": "<p>Przy każdym zdaniu wpisz TAK lub NIE.</p><p>Prawdą jest, że:</p>",
       "choices": [
@@ -169,7 +170,7 @@
       "points": 5,
       "topics": [
         "koła / okręgi",
-        "geometria"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Pole kwadratu wynosi 64 cm². Oblicz pole powierzchni części wspólnej kwadratu i koła, którego środek znajduje się w jednym z wierzchołków kwadratu, a środek symetrii kwadratu leży na brzegu koła.</p>",
       "choices": [],
@@ -186,7 +187,8 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Oblicz pole trójkąta prostokątnego, którego jedna przyprostokątna ma długość 9, a przeciwprostokątna jest o 3 dłuższa od drugiej przyprostokątnej.</p>",
       "choices": [],
@@ -239,6 +241,7 @@
       "topics": [
         "sześciokąty foremne",
         "trójkąty",
+        "pole i obwód",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>W sześciokącie foremnym o boku długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn></math> cm połączono odcinkami co drugi wierzchołek. Uzasadnij, że tak otrzymany trójkąt jest równoboczny. Oblicz pole powierzchni tego trójkąta.</p>",
@@ -256,7 +259,7 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "bryły"
+        "ostrosłupy"
       ],
       "prompt_html": "<p>W ostrosłupie prawidłowym czworokątnym długość krawędzi bocznej wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msqrt><mn>2</mn></msqrt></math> cm i tworzy z wysokością ostrosłupa kąt 30°. Oblicz objętość tego ostrosłupa.</p>",
       "choices": [],

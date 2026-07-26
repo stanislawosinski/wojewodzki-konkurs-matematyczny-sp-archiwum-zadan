@@ -85,8 +85,9 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "trójkąty",
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Trójkąt równoboczny i prostokąt, z których zbudowana jest figura, mają takie same obwody. Bok trójkąta ma długość 12 cm. Jaka jest długość krótszego boku prostokąta?</p>",
       "choices": [
@@ -156,7 +157,6 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Na tablicy narysowano rozłączne figury w kształcie kwadratów oraz trójkątów. Łączna liczba wierzchołków wszystkich figur jest równa 17. Ile trójkątów narysowano na tablicy?</p>",
@@ -191,7 +191,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Do prostopadłościanu przyklejono sześcian (tak jak na rysunku). Pole powierzchni otrzymanej bryły jest równe</p>",
       "choices": [
@@ -261,7 +261,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "nierówności"
+        "nierówności",
+        "ułamki"
       ],
       "prompt_html": "<p>Którą z liczb {1, 2, 3, 5} należy wpisać w miejsce kratki, aby zależność była prawdziwa?</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>8</mn></mfrac><mo>&lt;</mo><mfrac><mrow><mo>□</mo></mrow><mn>6</mn></mfrac><mo>&lt;</mo><mfrac><mn>7</mn><mn>8</mn></mfrac></math></p>",
       "choices": [
@@ -295,7 +296,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Jedna z przekątnych równoległoboku ma długość 6 cm i rozcina go na dwa trójkąty o obwodzie 17 cm każdy. Obwód równoległoboku jest równy</p>",
       "choices": [
@@ -397,7 +399,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "geometria",
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Wielokąt, w którym suma liczby boków i przekątnych jest równa 15, to</p>",
       "choices": [
@@ -431,7 +434,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "pole i obwód",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Długość prostokąta o polu 48 cm² jest trzy razy większa od jego szerokości. Krótszy bok prostokąta jest równy</p>",
@@ -500,6 +504,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "ułamki",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Suma dwóch ułamków jest równa 1, a ich różnica 0,1. Mniejszy z nich to</p>",
@@ -569,7 +574,7 @@
       "points": 1,
       "topics": [
         "trójkąty",
-        "geometria"
+        "pole i obwód"
       ],
       "prompt_html": "<p>W trójkącie o bokach długości 6 dm, 8 dm, 12 dm wysokość opuszczona na najdłuższy bok ma 4,4 dm. Wysokość opuszczona na najkrótszy bok ma długość</p>",
       "choices": [
@@ -603,7 +608,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "równania z jedną zmienną"
+        "inne"
       ],
       "prompt_html": "<p>Właściciel sklepu muzycznego kupił w hurtowni 260 płyt z muzyką po 29,50 zł za sztukę. Następnie sprzedał wszystkie kupione w hurtowni płyty. Z ich sprzedaży otrzymał 9100 zł. O ile złotych była wyższa cena jednej płyty kupionej w sklepie od ceny tej płyty kupionej w hurtowni?</p>",
       "choices": [],
@@ -637,8 +642,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "równania z jedną zmienną",
-        "geometria"
+        "ułamki",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Mieszkanie Pana Doriana ma dwa pokoje, kuchnię, łazienkę i przedpokój. Duży pokój jest trzy razy większy od małego i zajmuje połowę mieszkania. Powierzchnia kuchni jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>7</mn></mfrac></math>, a powierzchnia łazienki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>12</mn></mfrac></math> powierzchni mieszkania. Jaką powierzchnię ma mieszkanie, jeśli przedpokój jest prostokątem o wymiarach 1,5 m i 3 m?</p>",
       "choices": [],
@@ -655,8 +660,9 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "trójkąty",
-        "geometria"
+        "czworokąty",
+        "kąty",
+        "trójkąty"
       ],
       "prompt_html": "<p>Dany jest trapez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>. Kąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CBA</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CAB</mi></math> są równe oraz kąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DAC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DCA</mi></math> są równe. Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> ma 32°. Oblicz miarę kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADC</mi></math>.</p>",
       "choices": [],

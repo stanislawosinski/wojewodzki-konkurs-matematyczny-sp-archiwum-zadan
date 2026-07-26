@@ -120,8 +120,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "inne",
-        "potęgi i pierwiastki"
+        "inne"
       ],
       "prompt_html": "<p>Adam zapisał trzy różne liczby:</p><ul><li>liczbę całkowitą, która nie jest naturalna,</li><li>liczbę wymierną, która nie jest całkowita,</li><li>liczbę rzeczywistą, która nie jest wymierna.</li></ul><p>Następnie Adam dodał wszystkie zapisane liczby. Którą z poniższych sum mógł otrzymać?</p>",
       "choices": [
@@ -155,7 +154,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Oblicz objętość V sześcianu o polu powierzchni całkowitej równym 72.</p>",
@@ -258,7 +257,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "podzielność"
       ],
       "prompt_html": "<p>Wszystkie krawędzie graniastosłupa prawidłowego mają tę samą długość, będącą liczbą pierwszą. Pole powierzchni bocznej tego graniastosłupa wynosi 36. Ile istnieje różnych graniastosłupów spełniających te warunki?</p>",
@@ -293,7 +292,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "pole i obwód",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Pole rombu o przekątnych długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>+</mo><msqrt><mn>2</mn></msqrt></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>−</mo><msqrt><mn>2</mn></msqrt></mrow></math> wynosi</p>",
@@ -397,8 +397,8 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "trójkąty",
-        "geometria"
+        "czworokąty",
+        "trójkąty"
       ],
       "prompt_html": "<p>Krótsza przekątna dzieli deltoid na dwa trójkąty równoramienne. Dłuższa przekątna deltoidu <strong>nie może</strong> go podzielić na dwa trójkąty:</p>",
       "choices": [
@@ -436,7 +436,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Jaką miarę ma kąt ostry utworzony przez wskazówki godzinową i minutową o godzinie 1:15?</p>",
       "choices": [
@@ -591,8 +591,9 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
+        "czworokąty",
         "trójkąty",
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Przekątna AC dzieli trapez ABCD na dwa trójkąty równoramienne, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>AC</mi><mo>|</mo></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>CD</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>AD</mi><mo>|</mo></mrow></math> tak, jak przedstawiono na rysunku obok. Punkt E leży na podstawie AB trapezu ABCD oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AE</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>AD</mi><mo>|</mo></mrow></math>, a miara kąta BAC wynosi 40°.</p><p>Ile wynosi różnica pomiędzy miarą największego a miarą najmniejszego kąta trapezu EBCD?</p>",
       "choices": [

@@ -20,7 +20,8 @@
         "potęgi i pierwiastki",
         "NWW / NWD",
         "liczby rzymskie",
-        "bryły",
+        "podzielność",
+        "graniastosłupy",
         "inne"
       ],
       "prompt_html": "<p>Rozwiąż krzyżówkę, wpisując cyfry w odpowiednie pola. Hasło w zacieniowanych okienkach, to kolejne cyfry rozwinięcia dziesiętnego liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2</mn></msqrt></math>. Hasło nie jest oceniane.</p><ul><li>a) Najmniejsza wspólna wielokrotność liczb: 1111 i 40.</li><li>b) Pierwiastek kwadratowy liczby 121.</li><li>c) Największy wspólny dzielnik liczb 42 i 70.</li><li>d) Liczba, której zapis w systemie rzymskim ma postać: CXXIX.</li><li>e) Iloraz liczb 333 i 3.</li><li>f) Wynik działania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>75</mn><mn>2</mn></msup><mo>−</mo><msup><mn>2</mn><mn>3</mn></msup><mo>·</mo><mn>45</mn><mo>·</mo><mn>15</mn><mo>−</mo><mn>132</mn></math></li><li>g) Spośród liczb 1578, 1574, 1572, 1570 podzielna przez 4.</li><li>h) Iloczyn drugiej potęgi liczby 2 i drugiej potęgi liczby 3.</li><li>i) Wynik działania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><mn>81</mn><mo>+</mo><mn>144</mn></mrow></msqrt><mo>+</mo><msqrt><mn>400</mn></msqrt><mo>−</mo><mroot><mn>729</mn><mn>3</mn></mroot></math></li><li>j) Długość boku kwadratu o polu 961 cm².</li><li>k) 4,6 godziny po zamianie na minuty.</li><li>l) Jedna trzecia największej liczby dwucyfrowej.</li><li>m) Wartość wyrażenia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>999</mn><mo>−</mo><mn>888</mn><mo>:</mo><mn>8</mn><mo>)</mo><mo>:</mo><mn>8</mn><mo>−</mo><mn>111</mn></math>.</li><li>n) Pole kwadratu o boku 23 cm.</li><li>o) Zaokrąglenie liczby 451 z dokładnością do setek.</li><li>p) Najmniejsza liczba trzycyfrowa podzielna przez 3.</li><li>q) Objętość prostopadłościanu o krawędziach 2 cm, 6 cm i 37 cm.</li><li>r) Odległość 0,998 km wyrażona w metrach.</li><li>s) Odjemna, gdy różnica jest równa (−2), a odjemnik jest równy 10.</li><li>t) Liczba krawędzi graniastosłupa prostego o podstawie dziesięciokąta.</li></ul>",
@@ -40,7 +41,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "układ współrzędnych"
       ],
       "prompt_html": "<p>Końce odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> na osi liczbowej mają współrzędne −5 i −2. Końce odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> mają współrzędne −1 i 4. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> jest środkiem odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>, a punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math> jest środkiem odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math>. Jaką współrzędną ma środek odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SO</mi></math>?</p>",
       "choices": [
@@ -74,7 +75,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Pani Zofia w restauracji zamówiła zestaw obiadowy składający się z zupy, drugiego dania i deseru. Zupa kosztowała <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> złotych i była o 2 złote tańsza od deseru. Drugie danie było 3,5 razy droższe od zupy. Zapłaciła banknotem 50 zł. Otrzymała resztę, której wartość opisuje wyrażenie</p>",
       "choices": [
@@ -177,7 +178,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Dane są trzy liczby: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mfrac><mn>19</mn><mn>71</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mfrac><mn>1919</mn><mn>7171</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mfrac><mn>191919</mn><mn>717171</mn></mfrac></math>. Które z poniższych zdań jest prawdziwe?</p>",
       "choices": [
@@ -349,7 +350,8 @@
       "points": 4,
       "topics": [
         "koła / okręgi",
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>, którego długość wynosi 14 cm, jest średnicą okręgu o środku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math>. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> należy do danego okręgu. Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BOC</mi></math> jest równa 42°. Do obliczeń przyjmujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>π</mi><mo>=</mo><mfrac><mn>22</mn><mn>7</mn></mfrac></math>.</p><p>Oceń, czy podane zdania są prawdziwe czy fałszywe. Zaznacz właściwą odpowiedź.</p>",
       "choices": [
@@ -451,7 +453,8 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Długość jednej przyprostokątnej trójkąta prostokątnego wynosi 8 cm. Długość drugiej przyprostokątnej stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>5</mn></mfrac></math> długości przeciwprostokątnej.</p><p>Oceń, czy podane zdania są prawdziwe czy fałszywe. Zaznacz właściwą odpowiedź.</p>",
       "choices": [
@@ -503,8 +506,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Pole trapezu równoramiennego wynosi 48 cm². Ramię ma długość 5 cm, a wysokość 4 cm. Oblicz obwód trapezu oraz długości podstaw.</p>",
       "choices": [],
@@ -521,7 +524,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W prostokącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> o obwodzie 28 cm, punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi></math> należą odpowiednio do boków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math>. Boki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> są prostopadłe. Obwody czworokątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AKLD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KBCL</mi></math> są równe 14 cm i 24 cm. Oblicz długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KL</mi></math>.</p>",
       "choices": [],

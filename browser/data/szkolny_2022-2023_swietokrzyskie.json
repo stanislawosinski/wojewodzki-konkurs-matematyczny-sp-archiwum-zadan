@@ -222,7 +222,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "kąty"
       ],
       "prompt_html": "<p>Kąt między przekątną a jednym bokiem prostokąta ma miarę 65°. Ile wynosi miara kąta rozwartego między przekątnymi tego prostokąta? Wybierz odpowiedź spośród podanych.</p>",
       "choices": [
@@ -256,8 +257,8 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "reszta z dzielenia",
-        "podzielność"
+        "podzielność",
+        "reszta z dzielenia"
       ],
       "prompt_html": "<p>Suma stu jedenastu kolejnych liczb naturalnych jest liczbą parzystą.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -318,6 +319,7 @@
       "points": 3,
       "topics": [
         "trójkąty",
+        "pole i obwód",
         "procenty"
       ],
       "prompt_html": "<p>W trójkącie prostokątnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> każdą z przyprostokątnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> zmniejszono o 60% i otrzymano trójkąt prostokątny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADE</mi></math>. Następnie każdą z przyprostokątnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AE</mi></math> trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADE</mi></math> zwiększono o 40% i otrzymano trójkąt prostokątny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AFG</mi></math>. Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math> leżą na prostej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>, a punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>G</mi></math> leżą na prostej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> (zob. rysunek).</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
@@ -350,8 +352,9 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> jest trapezem, w którym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi><mo>∥</mo><mi>CD</mi></math>. Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest trzykrotnie większe od pola trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADC</mi></math>.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -399,6 +402,7 @@
       "points": 6,
       "topics": [
         "potęgi i pierwiastki",
+        "ułamki",
         "procenty"
       ],
       "prompt_html": "<p>Różnica liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> stanowi 27% liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>. Oblicz liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>, jeśli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mfrac><mrow><mn>0,625</mn><mo>:</mo><mfrac><mn>7</mn><mn>12</mn></mfrac><mo>−</mo><mn>15,5</mn><mo>·</mo><mfrac><mn>1</mn><mn>21</mn></mfrac></mrow><mrow><mn>2</mn><mfrac><mn>5</mn><mn>12</mn></mfrac><mo>−</mo><mfrac><mn>5</mn><mn>6</mn></mfrac><mo>·</mo><mn>2,4</mn></mrow></mfrac></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mfrac><mroot><mrow><mn>1,25</mn><mo>·</mo><msup><mn>2</mn><mn>5</mn></msup><mo>·</mo><msup><mn>5</mn><mn>5</mn></msup></mrow><mn>3</mn></mroot><msqrt><mrow><mn>1,6</mn><mo>·</mo><msup><mn>2</mn><mn>5</mn></msup><mo>·</mo><msup><mn>5</mn><mn>5</mn></msup></mrow></msqrt></mfrac></math>.</p>",
@@ -416,7 +420,8 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "kąty"
       ],
       "prompt_html": "<p>W równoległoboku kąt ostry ma miarę o 72° mniejszą niż kąt rozwarty. Oblicz miarę kąta, jaki tworzą wysokości tego równoległoboku poprowadzone z jednego wierzchołka. Sporządź odpowiedni rysunek i zapisz obliczenia.</p>",
       "choices": [],
@@ -452,7 +457,7 @@
       "points": 4,
       "topics": [
         "podzielność",
-        "równania z jedną zmienną"
+        "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Wyznacz wszystkie liczby całkowite <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, dla których wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mo>−</mo><mn>7</mn></mrow><mrow><mi>a</mi><mo>+</mo><mn>2</mn></mrow></mfrac></math> jest liczbą całkowitą. Uzasadnij, że nie ma ich więcej.</p>",
       "choices": [],

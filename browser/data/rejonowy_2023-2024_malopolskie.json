@@ -86,7 +86,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "geometria",
+        "kąty",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Jaka jest najmniejsza liczba kątów ostrych utworzonych przez cztery różne proste na płaszczyźnie? Zakładamy, że rozważamy tylko takie układy prostych, które tworzą co najmniej jeden kąt ostry.</p>",
@@ -131,7 +131,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>W pewnym sześcianie różnica między długością przekątnej sześcianu a długością jego krawędzi jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>6</mn></msqrt><mo>−</mo><msqrt><mn>2</mn></msqrt></math>. Ile jest równa objętość tego sześcianu?</p>",
@@ -154,8 +154,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W trapezie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> długość krótszej podstawy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> jest równa 8. Przez wierzchołek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> poprowadzono prostą równoległą do ramienia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> tak, że przecięła ona podstawę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math>. Pola trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AED</mi></math> oraz równoległoboku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCDE</mi></math> są równe. W jakim stosunku punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> dzieli podstawę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>?</p>",
       "choices": [
@@ -177,7 +177,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "geometria"
+        "układ współrzędnych",
+        "czworokąty"
       ],
       "prompt_html": "<p>Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo>)</mo></math> jest punktem przecięcia przekątnych równoległoboku, a punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>(</mo><mn>2</mn><mo>,</mo><mn>6</mn><mo>)</mo></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>(</mo><mo>−</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>)</mo></math> są dwoma kolejnymi wierzchołkami tego równoległoboku. Ile jest równa długość wysokości poprowadzonej z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> na bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>?</p>",
       "choices": [
@@ -247,8 +248,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "wyłączanie jednomianu przed nawias",
-        "wzory skróconego mnożenia"
+        "wyłączanie jednomianu przed nawias"
       ],
       "prompt_html": "<p>Wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mi>a</mi><mn>5</mn></msup><mo>+</mo><msup><mi>a</mi><mn>3</mn></msup><mo>+</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow></mfrac></math> jest równe</p>",
       "choices": [
@@ -296,7 +296,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "proporcjonalność prosta"
       ],
       "prompt_html": "<p>Prostopadłościan ma wymiary <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> km, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> m, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> dm. Sporządzono siatkę tego prostopadłościanu w skali 1:500. Jaka jest objętość prostopadłościanu sklejonego z tej siatki?</p>",
@@ -345,8 +345,8 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W pięciokącie, którego kolejne wierzchołki oznaczono literami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>,</mo><mi>B</mi><mo>,</mo><mi>C</mi><mo>,</mo><mi>D</mi><mo>,</mo><mi>E</mi></math>, przekątne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EC</mi></math> są równej długości. Obwód pięciokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDE</mi></math> jest trzykrotnie większy, niż długość przekątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math>, obwód trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest równy 26, obwód trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACE</mi></math> jest równy 28, a obwód trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ECD</mi></math> jest równy 30. Ile jest równa długość przekątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math>?</p>",
       "choices": [
@@ -369,7 +369,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "geometria",
+        "czworokąty",
         "podzielność"
       ],
       "prompt_html": "<p>Przekątne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math> prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> przecinają się w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math>, zaś jego boki mają długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi><mo>=</mo><mn>3</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi><mo>=</mo><mn>4</mn></math>. Na płaszczyźnie wybrano punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> różny od wierzchołków tego prostokąta i taki, że długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>PO</mi></math> jest równa połowie długości przekątnej tego prostokąta. Ile różnych dzielników będących liczbami naturalnymi ma liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>PA</mi><mn>2</mn></msup><mo>+</mo><msup><mi>PB</mi><mn>2</mn></msup><mo>+</mo><msup><mi>PC</mi><mn>2</mn></msup><mo>+</mo><msup><mi>PD</mi><mn>2</mn></msup></math>?</p>",

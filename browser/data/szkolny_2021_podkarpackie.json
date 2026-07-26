@@ -87,7 +87,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Jaki kąt wklęsły tworzą wskazówki zegara o godzinie 16:40?</p>",
       "choices": [
@@ -156,7 +156,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>O ile zwiększy się pole prostokąta o bokach długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>b</mi></math>, jeżeli bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> zwiększymy o 4, a drugi bok zwiększymy dwukrotnie?</p>",
       "choices": [
@@ -271,7 +272,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Dane są wyrażenia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>=</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mi>x</mi><mo>+</mo><mn>19,25</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mo>=</mo><mn>19,25</mn><mi>x</mi><mo>+</mo><mfrac><mn>3</mn><mn>4</mn></mfrac></math>. Ile wynosi wartość iloczynu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>C</mi><mo>+</mo><mi>D</mi><mo>)</mo><mo>·</mo><mo>(</mo><mi>C</mi><mo>+</mo><mi>D</mi><mo>)</mo></math> dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>0,5</mn></math>?</p>",
       "choices": [
@@ -294,8 +295,9 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Czworokąt o obwodzie 111 cm, przekątna podzieliła na dwa trójkąty o obwodach 37 cm i 96 cm. Jaką długość ma ta przekątna?</p>",
       "choices": [
@@ -318,7 +320,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "kąty"
       ],
       "prompt_html": "<p>W jednym trapezie równoramiennym miara kąta ostrego jest trzy razy mniejsza od miary kąta rozwartego. Natomiast w drugim trapezie równoramiennym miara kąta rozwartego jest pięć razy większa od miary kąta ostrego. Ile wynosi różnica miar kątów rozwartych tych dwóch trapezów?</p>",
       "choices": [
@@ -364,7 +367,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Dwa drewniane klocki w kształcie graniastosłupa prawidłowego sklejono tak, jak na rysunku. Pole powierzchni całkowitej graniastosłupa I jest równe 76 cm², a pole powierzchni całkowitej graniastosłupa II 158 cm². Pole kwadratowej ściany graniastosłupa I wynosi 4 cm². Jakie jest pole powierzchni sklejonej bryły?</p>",
       "choices": [
@@ -389,8 +392,11 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "trójkąty",
+        "układ współrzędnych",
+        "czworokąty",
+        "kąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -472,7 +478,7 @@
       "points": 2,
       "topics": [
         "trójkąty",
-        "geometria"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Uzupełnij lukę tak, aby zdanie było prawdziwe. Przyjmij, że długość jednej kratki jest równa 1.</p><p>Pole trójkąta przedstawionego na rysunku jest równe: …………………………</p>",
       "choices": [],
@@ -491,8 +497,9 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Uzupełnij lukę tak, aby zdanie było prawdziwe.</p><p>Narysowana gwiazda jest zbudowana z kwadratu i czterech przystających trójkątów równoramiennych.</p><p>Pole tej gwiazdy jest równe: ……………………</p>",
       "choices": [],

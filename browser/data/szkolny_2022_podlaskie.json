@@ -40,7 +40,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Które z podanych wyrażeń dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mo>−</mo><mn>5</mn></mrow></math> przyjmuje inną wartość niż dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>5</mn></mrow></math>?</p>",
       "choices": [
@@ -128,7 +128,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Ile kroków długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math> m zrobi człowiek na drodze 1,5 km?</p>",
       "choices": [
@@ -239,7 +239,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Pole równoległoboku wynosi 20 cm². Wysokości mają wymiary 4 cm i 2 cm. Obwód tego równoległoboku wynosi</p>",
       "choices": [
@@ -283,8 +284,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły",
-        "geometria"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Biały sześcian włożono do naczynia z niebieską farbą. Sześcian ten zanurzył się w farbie do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> swojej wysokości. Jaka część powierzchni sześcianu ma teraz kolor niebieski?</p>",
       "choices": [
@@ -328,7 +328,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> należy do boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>EA</mi><mo>|</mo><mo>=</mo><mn>6</mn></mrow></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>EB</mi><mo>|</mo><mo>=</mo><mn>3</mn></mrow></math> cm. Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest równe 12 cm². Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EBC</mi></math> jest równe</p>",
       "choices": [
@@ -372,7 +373,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Pole powierzchni sześcianu wynosi 294 cm². Jaką objętość ma ten sześcian?</p>",
       "choices": [
@@ -394,7 +395,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><mn>2</mn><mo>+</mo><mfrac><mn>1</mn><mrow><mn>2</mn><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></mfrac></mrow></mfrac></math> jest równa</p>",
       "choices": [
@@ -416,7 +417,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Jaką miarę ma kąt utworzony przez minutową i godzinową wskazówkę zegara o godzinie 9:30?</p>",
       "choices": [
@@ -438,7 +439,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Jaka jest miara kąta przyległego do kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> (patrz rysunek)?</p>",
       "choices": [
@@ -462,7 +463,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Które wyrażenie algebraiczne przedstawia kwadrat liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> zwiększony o 6?</p>",
       "choices": [
@@ -589,7 +590,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Kwadrat podzielono na trzy jednakowe prostokąty (patrz rysunek), każdy o obwodzie 32 cm. Oblicz obwód tego kwadratu. Zapisz obliczenia.</p>",
       "choices": [],
@@ -625,7 +627,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Kostka mydła ma kształt prostopadłościanu. Piotr zauważył, że po 19 dniach wszystkie wymiary mydła zmniejszyły się o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> swych początkowych wartości. Na ile jeszcze dni wystarczy tego mydła Piotrowi, jeżeli będzie je zużywać w takim samym tempie jak dotychczas? Zapisz obliczenia.</p>",
@@ -660,8 +662,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Dany jest trapez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> o podstawach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math>. Na podstawie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> leży taki punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math>, że odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CE</mi></math> rozcina trapez na dwie figury o równych polach. Wiedząc, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>26</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>CD</mi><mo>|</mo><mo>=</mo><mn>12</mn></mrow></math>, oblicz długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AE</mi></math>. Zapisz obliczenia.</p>",
       "choices": [],

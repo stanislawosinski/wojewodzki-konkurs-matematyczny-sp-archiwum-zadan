@@ -39,7 +39,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Budujemy wyrażenia arytmetyczne w następujący sposób:</p><ul><li>I. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></math></li><li>II. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></mfrac></math></li><li>III. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></mfrac></mrow></mfrac></math></li><li>IV. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></mfrac></mrow></mfrac></mrow></mfrac></math></li><li>V. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></mfrac></mrow></mfrac></mrow></mfrac></mrow></mfrac></math></li></ul><p>Jaką wartość będzie miało VI. wyrażenie?</p>",
       "choices": [
@@ -177,8 +177,9 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Jedna z przekątnych czworokąta wypukłego, którego obwód wynosi 27 cm, dzieli ten czworokąt na dwa trójkąty o obwodach odpowiednio 24 cm i 23 cm. Jaka jest długość tej przekątnej?</p>",
       "choices": [
@@ -200,8 +201,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
-        "koła / okręgi"
+        "czworokąty",
+        "kąty"
       ],
       "prompt_html": "<p>Czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> jest równoległobokiem. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> jest środkiem boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i odcinki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SD</mi></math> mają równe długości.</p><p>Dokończ zdanie. Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADB</mi></math> jest równa</p>",
       "choices": [
@@ -225,7 +226,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Graniastosłup prosty, którego podstawą jest trójkąt o bokach długości 8 cm, 8 cm i 6 cm, przecięto na dwie części w sposób pokazany na rysunku. Wskaż zdanie <u>fałszywe</u>.</p>",
       "choices": [
@@ -339,6 +340,7 @@
       "points": 3,
       "topics": [
         "geometria",
+        "pole i obwód",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Dany jest ośmiokąt foremny o boku długości 2. Oblicz pole tego ośmiokąta. Zapisz obliczenia.</p>",
@@ -358,7 +360,9 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "geometria"
+        "układ współrzędnych",
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> są kolejnymi wierzchołkami równoległoboku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> oraz wiadomo, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mo>=</mo><mo>(</mo><mn>0</mn><mo>,</mo><mo>−</mo><mn>2</mn><mo>)</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>B</mi><mo>=</mo><mo>(</mo><mn>2</mn><mo>,</mo><mn>0</mn><mo>)</mo></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>D</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>6</mn><mo>,</mo><mn>2</mn><mo>)</mo></mrow></math>. Narysuj równoległobok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> w układzie współrzędnych. Podaj współrzędne wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> i oblicz pole równoległoboku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>. Zapisz obliczenia.</p>",
       "choices": [],
@@ -375,7 +379,7 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "bryły",
+        "ostrosłupy",
         "trójkąty",
         "dowodzenie / dowody"
       ],

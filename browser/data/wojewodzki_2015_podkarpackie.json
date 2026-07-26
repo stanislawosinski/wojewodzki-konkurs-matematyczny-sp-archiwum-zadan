@@ -188,7 +188,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty"
       ],
       "prompt_html": "<p>W prostokącie przedstawionym na rysunku kąt ostry między przekątnymi prostokąta wynosi 60°, a długość krótszego boku 12 cm.</p><p>Długość przekątnej tego prostokąta wynosi:</p>",
       "choices": [
@@ -292,7 +292,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>Suma kątów wewnętrznych pewnego wielokąta wynosi 1620°. Wynika stąd, że jest to:</p>",
       "choices": [
@@ -428,7 +428,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Jak zmieni się pole trójkąta, gdy jego podstawę zwiększymy trzy razy, a wysokość zmniejszymy sześć razy?</p>",
       "choices": [
@@ -462,7 +463,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Pan Adam postanowił wzdłuż drogi prowadzącej do domu, po jednej stronie posadzić świerki. Odległość między sąsiednimi drzewami jest równa 3 m. Uzupełnij tabelę.</p><table><thead><tr><th>Liczba drzew</th><th>Odległość między pierwszym i ostatnim drzewem.</th></tr></thead><tbody><tr><td>3</td><td></td></tr><tr><td>10</td><td></td></tr><tr><td></td><td>33 m</td></tr><tr><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math></td><td></td></tr></tbody></table>",
       "choices": [],
@@ -514,7 +515,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Kostka sześcienna została pomalowana, a następnie rozcięta na 64 jednakowe kostki. Uzupełnij tabelę:</p><table><thead><tr><th>Rodzaj kostki</th><th>Liczba kostek</th></tr></thead><tbody><tr><td>Pomalowana jedna ściana.</td><td></td></tr><tr><td>Pomalowane dwie ściany.</td><td></td></tr><tr><td>Pomalowane trzy ściany.</td><td></td></tr><tr><td>Żadna ze ścian nie jest pomalowana.</td><td></td></tr></tbody></table>",
@@ -585,7 +586,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Tekturowe pudełko pozbawione wieczka, wypełniono klockami w kształcie prostopadłościanu o wymiarach 10 cm × 8 cm × 12 cm. Ile maksymalnie klocków uda się umieścić w pudełku. Rozważ różne możliwości. Zapisz obliczenia.</p>",
@@ -605,7 +606,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "pole i obwód",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Na kwadratowej działce, której pole powierzchni wynosi 1 ar założono klomb, którego bokami były odcinki łączące środki boków tej działki. Jakie jest pole powierzchni tego klombu? Wykonaj rysunek. Odpowiedź uzasadnij.</p>",

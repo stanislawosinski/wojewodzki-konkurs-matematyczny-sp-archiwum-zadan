@@ -51,7 +51,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Wykonaj obliczenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>27</mn></mfrac></mrow><mrow><mn>2</mn><mo>+</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>+</mo><mfrac><mn>2</mn><mn>27</mn></mfrac></mrow></mfrac></math>. Iloraz jest równy:</p>",
       "choices": [
@@ -224,7 +224,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "geometria",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Jaki jest obwód figury narysowanej poniżej?</p>",
       "choices": [
@@ -363,7 +364,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Kot przesypia średnio <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>25</mn><mn>48</mn></mfrac></math> doby, a pies <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>16</mn></mfrac></math> doby. W ciągu 3 tygodni kot śpi dłużej od psa o:</p>",
       "choices": [
@@ -398,7 +399,8 @@
       "points": 2,
       "topics": [
         "prędkość / droga / czas",
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Staw hodowlany ma kształt prostokąta, którego długości boków są w stosunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>:</mo><mn>7</mn></math>. Krótszy bok jest równy 256 metrów. W jakim czasie obejdzie ten staw dookoła żółw wodny idący z prędkością 4 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mtext>m</mtext><mtext>h</mtext></mfrac></math>?</p>",
       "choices": [
@@ -433,7 +435,8 @@
       "points": 2,
       "topics": [
         "proporcjonalność prosta",
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Na planie bok kwadratowego boiska ma długość 4 cm. W rzeczywistości pole powierzchni tego boiska ma 3600 m². Jaka jest skala planu boiska?</p>",
       "choices": [
@@ -537,7 +540,8 @@
       "points": 2,
       "topics": [
         "procenty",
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Długość prostokąta zwiększono o 20%, a szerokość zmniejszono o 25%. Jak zmieniło się pole wyjściowego prostokąta?</p>",
       "choices": [
@@ -641,7 +645,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Dwaj bracia kupili 2 prostokątne działki o obwodach równych odpowiednio 80 m i 160 m. Aby wybudować dom postanowili zamienić je na działkę w kształcie kwadratu o obwodzie równym sumie obwodów obu prostokątów. Oblicz pole powierzchni tej działki.</p>",
       "choices": [],
@@ -676,7 +681,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "równania z jedną zmienną"
+        "ułamki"
       ],
       "prompt_html": "<p>Do basenu w kształcie prostopadłościanu wlewano wodę. Najpierw napełniono <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>5</mn></mfrac></math> basenu, potem dolano jeszcze <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> pozostałej objętości tego basenu. Okazało się, że wlano 700 litrów wody. Ile litrów wody trzeba jeszcze dolać, aby basen był pełny?</p>",
       "choices": [],
@@ -711,7 +716,7 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Dany jest sześcian złożony z 8 jednakowych kostek sześciennych o długości krawędzi 1 cm. Wykonaj odpowiedni rysunek.</p><ul><li>Oblicz objętość i pole powierzchni tego sześcianu.</li><li>Zabierz z tego sześcianu dwie kostki z górnej warstwy. Oblicz pole powierzchni całkowitej nowej bryły. Rozważ różne przypadki.</li></ul>",
       "choices": [],

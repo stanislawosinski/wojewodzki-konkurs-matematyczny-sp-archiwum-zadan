@@ -17,8 +17,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "proporcjonalność prosta",
-        "procenty"
+        "proporcjonalność prosta"
       ],
       "prompt_html": "<p>Na planie pewnego miasta wykonanego w skali 1:24 000 ulica Krótka ma długość 2,4 cm. Pewien turysta wykonał kserokopię tego planu w powiększeniu. Na otrzymanym wydruku ulica Krótka ma długość 3,6 cm. W jakiej skali jest wykonana przez turystę kopia planu tego miasta?</p>",
       "choices": [
@@ -52,7 +51,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Które z poniższych wyrażeń należy wpisać w miejsce wykropkowane w równaniu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>5</mn><mo>)</mo><mo>(</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>4</mn><mo>)</mo><mo>−</mo><mn>6</mn><mi>x</mi><mo>(</mo><mi>x</mi><mo>−</mo><mn>5</mn><mo>)</mo><mo>=</mo><mo>…</mo></math>, aby otrzymać równanie sprzeczne?</p>",
       "choices": [
@@ -189,7 +189,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Oblicz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>156</mn><mn>963</mn></mfrac><mo>·</mo><mfrac><mn>369</mn><mn>321</mn></mfrac><mo>−</mo><mfrac><mn>246</mn><mn>651</mn></mfrac><mo>·</mo><mfrac><mn>325</mn><mn>642</mn></mfrac><mo>+</mo><mfrac><mn>369</mn><mn>321</mn></mfrac><mo>·</mo><mfrac><mn>165</mn><mn>963</mn></mfrac><mo>−</mo><mfrac><mn>246</mn><mn>651</mn></mfrac><mo>·</mo><mfrac><mn>326</mn><mn>642</mn></mfrac></math>. Zapisz obliczenia.</p>",
       "choices": [],
@@ -240,7 +240,7 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Do prostopadłościennego pudełka wlano 10,8 l wody. Gdyby pudełko z wodą ustawiać po kolei na każdej z trzech jego ścian o różnych wymiarach, woda sięgałaby na wysokość 15, 24 i 30 centymetrów. Oblicz pole powierzchni całkowitej tego pudełka. Zapisz obliczenia.</p>",
       "choices": [],
@@ -276,6 +276,7 @@
       "topics": [
         "trójkąty",
         "dwusieczna kąta / symetralna odcinka",
+        "pole i obwód",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Dany jest trójkąt ostrokątny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> taki, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi><mo>&gt;</mo><mi>AC</mi></math>. Poprowadzono symetralną boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>, która przecięła bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> i bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi></math> tak, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>CL</mi><mo>|</mo><mo>:</mo><mo>|</mo><mi>BL</mi><mo>|</mo><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></math>. Następnie przez punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> poprowadzono prostą, która przecięła bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi></math> tak, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>AM</mi><mo>|</mo><mo>:</mo><mo>|</mo><mi>CM</mi><mo>|</mo><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></math>. Wykaż, że pole czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KLCM</mi></math> stanowi połowę pola trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>. Zapisz obliczenia.</p>",
@@ -293,9 +294,10 @@
       "type": "open",
       "points": 8,
       "topics": [
-        "geometria",
+        "czworokąty",
         "trójkąty",
-        "dwusieczna kąta / symetralna odcinka"
+        "dwusieczna kąta / symetralna odcinka",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W trapezie równoramiennym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>, o podstawach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math>, przekątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> jest prostopadła do ramienia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> oraz zawiera się w dwusiecznej kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BAD</mi></math>. Oblicz pole i obwód tego trapezu wiedząc, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi><mo>=</mo><mn>12</mn></math> cm. Zapisz obliczenia.</p>",
       "choices": [],
@@ -312,9 +314,9 @@
       "type": "open",
       "points": 12,
       "topics": [
-        "geometria",
-        "reszta z dzielenia",
-        "podzielność"
+        "układ współrzędnych",
+        "podzielność",
+        "reszta z dzielenia"
       ],
       "prompt_html": "<p>W układzie współrzędnych zaznaczono punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mo>(</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi><mo>=</mo><mo>(</mo><mi>c</mi><mo>,</mo><mi>d</mi><mo>)</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mo>(</mo><mi>e</mi><mo>,</mo><mi>f</mi><mo>)</mo></math>. Wiadomo, że:</p><ul><li>liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>,</mo><mi>b</mi><mo>,</mo><mi>c</mi><mo>,</mo><mi>d</mi><mo>,</mo><mi>e</mi><mo>,</mo><mi>f</mi></math> są nieujemne,</li><li>liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> są pierwsze oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest o 5 większe od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>,</li><li>punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math> leży na osi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi></math>, punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> leży na osi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>X</mi></math>,</li><li>liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> jest dzielnikiem każdej liczby naturalnej,</li><li>liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>e</mi></math> jest resztą z dzielenia liczby 2025 przez 6.</li></ul><p>Oblicz odległość punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math> od odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>PS</mi></math>. Zapisz obliczenia.</p>",
       "choices": [],

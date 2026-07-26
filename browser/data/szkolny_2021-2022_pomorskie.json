@@ -52,8 +52,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "trójkąty",
+        "czworokąty"
       ],
       "prompt_html": "<p>Dany jest kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> oraz półprosta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> wychodząca z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>. Półprosta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> jest nachylona do odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> pod kątem 60° i przecina odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DC</mi></math> w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math>. Suma odległości wierzchołków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> od półprostej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>+</mo><mn>6</mn><msqrt><mn>3</mn></msqrt></mrow></math>. Oblicz długość boku kwadratu.</p>",
       "choices": [],
@@ -109,7 +109,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "procenty"
       ],
       "prompt_html": "<p>Dane są dwa sześciany. Pierwszy sześcian ma pole powierzchni całkowitej o 69% większe od pola powierzchni całkowitej drugiego. Krawędź drugiego sześcianu ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. O ile procent objętość pierwszego sześcianu jest większa od objętości drugiego sześcianu? Zapisz obliczenia.</p><p><em>Uwaga!</em> W rozwiązaniu zadania <strong>nie</strong> można przyjąć konkretnej długości boku sześcianu, np.: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>5</mn></mrow></math>.</p>",
@@ -144,7 +144,8 @@
       "type": "closed_single",
       "points": 4,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "pole i obwód",
         "procenty",
         "podzielność",
         "potęgi i pierwiastki"

@@ -18,10 +18,16 @@
       "points": 20,
       "topics": [
         "potęgi i pierwiastki",
+        "procenty",
         "liczby rzymskie",
         "NWW / NWD",
-        "procenty",
-        "inne"
+        "podzielność",
+        "trójkąty",
+        "pole i obwód",
+        "pierścień kołowy",
+        "prędkość / droga / czas",
+        "graniastosłupy",
+        "statystyka opisowa"
       ],
       "prompt_html": "<p>Rozwiąż krzyżówkę wpisując w kratki odpowiednie cyfry. Hasło w zacieniowanych okienkach, to przybliżona wartość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2019</mn></msqrt></math>. Hasło nie jest oceniane.</p><ul><li>a) Kwadrat największej dwucyfrowej liczby pierwszej.</li><li>b) Liczba, której 2% to 88.</li><li>c) Liczba MCMLIX zapisana cyframi arabskimi.</li><li>d) Długość wysokości trójkąta równobocznego o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>22</mn><msqrt><mn>3</mn></msqrt></math>.</li><li>e) Długość boku trójkąta równobocznego o polu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>225</mn><msqrt><mn>3</mn></msqrt></math>.</li><li>f) Największy wspólny dzielnik liczb 63 i 105.</li><li>g) Wartość wyrażenia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mn>8000</mn><mn>3</mn></mroot><mo>−</mo><mroot><mrow><mo>−</mo><mn>125</mn><mo>·</mo><mn>27</mn></mrow><mn>3</mn></mroot><mo>−</mo><mo>(</mo><mn>7</mn><mo>·</mo><mn>9</mn><mo>−</mo><mn>6</mn><mo>·</mo><mn>11</mn><mo>)</mo></math></li><li>h) Największa liczba całkowita mniejsza od 123,75.</li><li>i) Wartość wyrażenia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mn>2</mn><msup><mn>2</mn><mn>3</mn></msup></msup><mo>−</mo><msup><mrow><mo>(</mo><msup><mn>2</mn><mn>2</mn></msup><mo>)</mo></mrow><mn>3</mn></msup></mrow><msup><mn>2</mn><mn>2</mn></msup></mfrac></math>.</li><li>j) 37% liczby 10100.</li><li>k) Pole pierścienia kołowego ograniczonego okręgami o średnicach 20 i 6. Przyjmij <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>π</mi><mo>=</mo><mn>3</mn></math>.</li><li>l) Przybliżenie liczby 72999,99 do setek.</li><li>m) Czas w godzinach w jakim rowerzysta pokona drogę 24 km, gdyby jego średnia prędkość jazdy na tej trasie była równa 200 metrów na minutę.</li><li>n) Długość przyprostokątnych w trójkącie prostokątnym równoramiennym o polu 72 j².</li><li>o) Wartość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> w wyrażeniu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mn>13</mn><mn>5</mn></msup><mo>·</mo><msup><mn>13</mn><mn>8</mn></msup><mo>·</mo><msup><mn>13</mn><mn>6</mn></msup></mrow><msup><mn>13</mn><mn>10</mn></msup></mfrac><mo>=</mo><msup><mn>13</mn><mi>x</mi></msup></math></li><li>p) Sześcian największej jednocyfrowej liczby pierwszej.</li><li>q) Liczba która nie jest ani dodatnia, ani ujemna.</li><li>r) Objętość sześcianu o krawędzi 9.</li><li>s) Średnia arytmetyczna liczb: 40; 32,04; 36,6; 44,06; 12,3.</li><li>t) Cyfra X dziesiątek pięciocyfrowej liczby 523X6, o której wiadomo, że jest podzielna przez 3 i 4.</li></ul>",
       "choices": [],
@@ -40,7 +46,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "zagadki logiczne"
       ],
       "prompt_html": "<p>Liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> spełniają warunki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mi>b</mi><mi>c</mi><mo>=</mo><mo>−</mo><mn>10</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>0</mn></math>.</p>",
       "choices": [
@@ -130,7 +136,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Do naczynia w kształcie graniastosłupa prawidłowego trójkątnego o krawędzi podstawy 1,2 dm nalano wodę. Następnie wrzucono do niego metalowy przedmiot, który całkowicie zanurzył się w wodzie. Woda nie wylała się z naczynia. Poziom wody podniósł się o 2,5 cm. Jaka była objętość przedmiotu?</p>",
       "choices": [
@@ -221,8 +227,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
-        "nierówności"
+        "trójkąty"
       ],
       "prompt_html": "<p>Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> jest odległy od punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> o 13 cm, a punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> jest odległy od punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> o 8 cm. Odległość między punktami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> jest równa</p>",
       "choices": [
@@ -244,8 +249,9 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W trapezie o podstawach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> przedłużenia ramion <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> przecinają się pod kątem prostym. Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> ma miarę 30°. Ramię <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> ma długość 8 cm, a dolna podstawa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><msqrt><mn>3</mn></msqrt></math> cm.</p><p>Oceń, czy podane zdania są prawdziwe czy fałszywe. Zaznacz właściwą odpowiedź.</p>",
       "choices": [
@@ -267,8 +273,9 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "układ współrzędnych",
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W układzie współrzędnych zaznaczono punkty: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>4</mn><mo>,</mo><mn>0</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>1</mn><mo>,</mo><mo>−</mo><mn>2</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>=</mo><mo>(</mo><mn>3</mn><mo>,</mo><mn>3</mn><mo>)</mo></math>.</p><p>Oceń, czy podane zdania są prawdziwe czy fałszywe. Zaznacz właściwą odpowiedź.</p>",
       "choices": [
@@ -312,7 +319,7 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "bryły",
+        "ostrosłupy",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Objętość ostrosłupa prawidłowego czworokątnego wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>9</mn><msqrt><mn>14</mn></msqrt></mrow><mn>2</mn></mfrac></math> cm³. Krawędź boczna jest dwa razy dłuższa od podstawy.</p><p>Oceń, czy podane zdania są prawdziwe czy fałszywe. Zaznacz właściwą odpowiedź.</p>",
@@ -353,7 +360,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "geometria",
+        "czworokąty",
         "trójkąty",
         "potęgi i pierwiastki"
       ],
@@ -373,7 +380,8 @@
       "points": 4,
       "topics": [
         "trójkąty",
-        "koła / okręgi"
+        "koła / okręgi",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Dany jest trójkąt równoboczny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KLM</mi></math>, którego długość boku jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math> jest środkiem boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KL</mi></math> i jednocześnie środkiem koła o średnicy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KL</mi></math>. Zapisz pole tej części trójkąta, która nie zawiera się w tym kole. Odpowiedź podaj w postaci wyrażenia algebraicznego, w którym zmienną jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>.</p>",
       "choices": [],

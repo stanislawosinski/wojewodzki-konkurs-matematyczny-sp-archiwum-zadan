@@ -52,7 +52,8 @@
       "type": "true_false",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W trójkącie prostokątnym równoramiennym odległość wierzchołka kąta prostego od przeciwprostokątnej jest równa 7.</p><p>Oceń prawdziwość podanych zdań. Zakreśl P, jeśli zdanie jest prawdziwe albo F, jeśli jest fałszywe.</p>",
       "choices": [
@@ -78,7 +79,6 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły",
         "zagadki logiczne"
       ],
       "prompt_html": "<p>Na ściankach jednego klocka Kuba zapisał kolejne liczby pierwsze, a na ściankach drugiego klocka – kolejne nieparzyste liczby naturalne, a następnie ustawił te klocki tak, jak na rysunku.</p><p>Uzupełnij poniższe zdania. Zakreśl jedną odpowiedź spośród oznaczonych literami A i B <u>oraz</u> jedną odpowiedź spośród oznaczonych literami C i D.</p><p>Liczbą pierwszą większą niż 3, która występuje na ściance jednego klocka, a nie ma jej na żadnej ściance drugiego klocka, jest (A albo B):</p><p>Suma liczb na niewidocznych ściankach obu klocków, jest równa (C albo D):</p>",
@@ -132,8 +132,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "trójkąty",
-        "geometria",
+        "kąty",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Na rysunku odcinki AF, BE i CD przecinają się w punkcie K, a odcinki AB i CD są równoległe. Oblicz sumę miar kątów zaznaczonych łukami. Odpowiedź uzasadnij.</p>",
@@ -171,7 +170,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Prostokąt o wymiarach 22 cm × 16 cm naklejono na romb, jak na rysunku. Prostokąt przykrył <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>5</mn></mfrac></math> powierzchni rombu. Po odwróceniu sklejonych figur okazało się, że romb przykrył <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math> powierzchni prostokąta. Oblicz pole tego rombu.</p>",
       "choices": [],
@@ -190,8 +190,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "równania z jedną zmienną",
-        "zagadki logiczne"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Na trzech półkach stało 60 książek. Asia, robiąc porządki, przełożyła 10 książek z drugiej półki na trzecią, z trzeciej półki 8 książek na pierwszą, a następnie z pierwszej półki 4 książki na drugą półkę. Wówczas okazało się, że na każdej półce jest po tyle samo książek. Ile książek stało na każdej półce sprzed porządków Asi? Odpowiedź uzasadnij.</p>",
       "choices": [],
@@ -208,8 +207,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "podzielność",
-        "równania z jedną zmienną"
+        "podzielność"
       ],
       "prompt_html": "<p>Znajdź wszystkie liczby całkowite <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, dla których wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mi>a</mi><mo>+</mo><mn>3</mn></mrow><mrow><mi>a</mi><mo>−</mo><mn>2</mn></mrow></mfrac></math> jest liczbą całkowitą dodatnią.</p>",
       "choices": [],

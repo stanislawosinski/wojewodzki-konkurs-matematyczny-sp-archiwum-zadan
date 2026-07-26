@@ -17,7 +17,6 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "kombinatoryka",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>W klasie jest 12 dziewcząt i 8 chłopców. Na ile sposobów można wybrać przewodniczącego klasy i zastępcę przewodniczącego, jeżeli nie mogą być to osoby tej samej płci?</p>",
@@ -129,7 +128,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "koła / okręgi"
+        "koła / okręgi",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Marlena zaprojektowała logo szkolnego koła wolontariatu. Jak pokazano na rysunku obok, składają się na nie wycinek koła o kącie miary 150° oraz dwa półkola o średnicy równej promieniowi wycinka.</p><p>Ile wynosi pole powierzchni otrzymanego logo, jeżeli długość średnicy każdego z półkoli to 6 cm?</p>",
       "choices": [
@@ -176,7 +176,8 @@
       "points": 3,
       "topics": [
         "trójkąty",
-        "dwusieczna kąta / symetralna odcinka"
+        "dwusieczna kąta / symetralna odcinka",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Dany jest trójkąt prostokątny ABC, w którym kąt ABC ma miarę 60°. Dwusieczna kąta ABC przecina bok AC w punkcie P. Jaki jest stosunek pola trójkąta ABP do pola trójkąta PBC?</p>",
       "choices": [
@@ -199,7 +200,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "bryły",
+        "ostrosłupy",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Jaka jest objętość ostrosłupa prawidłowego czworokątnego o wszystkich krawędziach długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2</mn></msqrt></math> cm?</p>",
@@ -270,7 +271,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Suma długości wszystkich krawędzi graniastosłupa prostego o podstawie będącej trójkątem prostokątnym równoramiennym wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>+</mo><mn>10</mn><msqrt><mn>2</mn></msqrt></math>. Jaka jest objętość tego graniastosłupa, jeżeli wiadomo, że dokładnie jedna z jego ścian jest kwadratem?</p>",
@@ -295,7 +296,8 @@
       "points": 3,
       "topics": [
         "dwusieczna kąta / symetralna odcinka",
-        "geometria"
+        "geometria",
+        "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Na płaszczyźnie dane są trzy niewspółliniowe punkty A, B i C. Przeczytaj stwierdzenia podane poniżej.</p><ol type=\"I\"><li>Wysokość trójkąta ABC wychodząca z wierzchołka C jest równoległa do symetralnej odcinka AB.</li><li>Jeżeli D jest punktem przecięcia symetralnej odcinka AB i symetralnej odcinka AC, to długości odcinków AD, BD i CD są równe.</li><li>Każdy punkt nieleżący na symetralnej odcinka AB jest albo bliżej punktu A niż punktu B albo bliżej punktu B niż punktu A.</li></ol><p>Które z powyższych stwierdzeń są prawdziwe?</p>",
       "choices": [
@@ -338,7 +340,8 @@
       "points": 10,
       "topics": [
         "sześciokąty foremne",
-        "bryły",
+        "graniastosłupy",
+        "wyrażenia algebraiczne",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Dana jest figura F złożona z n przystających sześciokątów foremnych o boku długości a. Tylko dwa wierzchołki i łączący je bok są wspólne dla dwóch sąsiadujących sześciokątów, jak pokazano na rysunku poniżej (patrz rys. 1).</p><p><strong>a)</strong> (2p) Jakim wyrażeniem algebraicznym można zapisać długość D zaznaczoną na rysunku powyżej? Odpowiedź podaj w zależności od liczby sześciokątów n i długości boku a.</p><p><strong>b)</strong> (1p) Jakim wyrażeniem algebraicznym można zapisać długość H<sub>1</sub> zaznaczoną na rysunku powyżej? Odpowiedź podaj w zależności od długości boku a.</p><p>Rozważmy teraz dwie przystające figury F ułożone jedna nad drugą w sposób pokazany na rysunku obok (patrz rys. 2). Sześciokąty przylegają do siebie i na siebie nie zachodzą.</p><p><strong>c)</strong> (2p) Wykaż, że długość H<sub>2</sub>, zaznaczona na rysunku obok, jest o 1,5a dłuższa od długości H<sub>1</sub>.</p><p><strong>d)</strong> (5p) Zakład produkuje ołówki w kształcie graniastosłupa prawidłowego sześciokątnego o krawędzi podstawy długości 4 mm i wysokości 200 mm. Ołówki pakowane są do prostopadłościennych pudełek o wymiarach wewnętrznych 70 mm × 70 mm × 205 mm. Zapakowane ołówki przylegają do siebie tak, by ich podstawy tworzyły układ, jak powyżej na rysunku 2. Jaka jest największa liczba ołówków, które zmieszczą się do takiego opakowania? Zapisz obliczenia. W obliczeniach przyjmij <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt><mo>≈</mo><mn>1,7</mn></math>.</p>",
@@ -360,8 +363,10 @@
       "points": 10,
       "topics": [
         "trójkąty",
-        "bryły",
-        "potęgi i pierwiastki"
+        "ostrosłupy",
+        "wyrażenia algebraiczne",
+        "potęgi i pierwiastki",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Wzór Herona pozwala obliczyć pole powierzchni <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mo>△</mo></msub></math> trójkąta o bokach długości a, b oraz c. Niech p oznacza połowę obwodu trójkąta. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mo>△</mo></msub><mo>=</mo><msqrt><mrow><mi>p</mi><mo>(</mo><mi>p</mi><mo>−</mo><mi>a</mi><mo>)</mo><mo>(</mo><mi>p</mi><mo>−</mo><mi>b</mi><mo>)</mo><mo>(</mo><mi>p</mi><mo>−</mo><mi>c</mi><mo>)</mo></mrow></msqrt></math>.</p><p><strong>a)</strong> (2p) Użyj wzoru Herona, by obliczyć pole trójkąta o bokach długości 5, 7 i 8. Zapisz obliczenia.</p><p><strong>b)</strong> (5p) Dany jest ostrosłup czworokątny ABCDE, pokazany na rysunku poniżej. Podstawę stanowi trapez równoramienny ABCD, w którym AB ∥ CD, |AB| = 6, |CD| = 4, |BC| = |AD| = 8. Ściana ABE oraz ściana CDE to trójkąty równoboczne. Oblicz pole powierzchni całkowitej ostrosłupa ABCDE. Zapisz obliczenia.</p><p><strong>c)</strong> (3p) Zapisz wyrażenie algebraiczne opisujące długość boku trójkąta równobocznego o obwodzie równym 2p. Następnie wyznacz wzór na pole trójkąta równobocznego o obwodzie równym 2p.</p>",
       "choices": [],

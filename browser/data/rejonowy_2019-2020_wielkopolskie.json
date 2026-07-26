@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Średnia arytmetyczna długości, szerokości i wysokości pewnego prostopadłościanu wynosi 2,4 <em>dm</em>. Zatem suma długości wszystkich jego krawędzi jest równa:</p>",
       "choices": [
@@ -120,7 +120,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Przekątna sześcianu o krawędzi 10 ma długość:</p>",
@@ -258,7 +258,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>A</mi><mn>1</mn></msub><msub><mi>B</mi><mn>1</mn></msub><msub><mi>C</mi><mn>1</mn></msub></math> ma obwód 36 <em>cm</em> i jest podobny do trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> w skali 3. Obwód trójkąta ABC jest równy:</p>",
       "choices": [
@@ -361,7 +362,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W rombie o boku długości 10 <em>cm</em> krótsza przekątna ma 12 <em>cm</em>. Pole tego rombu jest równe:</p>",
       "choices": [
@@ -601,8 +603,7 @@
       "type": "true_false",
       "points": 1,
       "topics": [
-        "trójkąty",
-        "geometria"
+        "trójkąty"
       ],
       "prompt_html": "<p>Przed wejściem do przychodni lekarskiej znajdują się schody, które mają 12 stopni o wysokości 15 <em>cm</em> każdy. Dla osób poruszających się na wózkach wykonano podjazd o nachyleniu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>°</mo></math>.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F - jeśli jest fałszywe.</p>",
       "choices": [
@@ -765,7 +766,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Stosunek długości trzech krawędzi prostopadłościanu o wspólnym wierzchołku wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>:</mo><mn>5</mn><mo>:</mo><mn>6</mn></math>. Objętość tego prostopadłościanu wynosi 480 <em>cm</em>³. Zatem pole powierzchni największej ściany tego prostopadłościanu jest równe:</p>",
       "choices": [
@@ -817,7 +818,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "trójkąty"
       ],
       "prompt_html": "<p>W graniastosłupie prawidłowym czworokątnym kąt między przekątną graniastosłupa, a przekątną jego podstawy, wychodzącymi z jednego wierzchołka, jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn><mo>°</mo></math>. Oblicz objętość tego graniastosłupa jeśli krawędź jego podstawy jest równa 6 <em>cm</em>.</p>",
@@ -888,7 +889,7 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "geometria",
+        "czworokąty",
         "dwusieczna kąta / symetralna odcinka"
       ],
       "prompt_html": "<p>W trapezie równoramiennym, przekątna trapezu dzieli kąt przy dłuższej podstawie na dwie równe części. Wyznacz miarę kąta ostrego tego trapezu, jeśli stosunek długości podstaw trapezu wynosi 1:2.</p>",
@@ -906,7 +907,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "pole i obwód",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>W prostokącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> (rysunek) punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> jest środkiem boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>, a punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math> jest środkiem boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math>. Wykaż, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mrow><mi>Δ</mi><mi>APR</mi></mrow></msub><mo>=</mo><msub><mi>P</mi><mrow><mi>Δ</mi><mi>ADR</mi></mrow></msub><mo>+</mo><msub><mi>P</mi><mrow><mi>Δ</mi><mi>PCR</mi></mrow></msub></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mrow><mi>Δ</mi><mi>APR</mi></mrow></msub></math> oznacza pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>APR</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mrow><mi>Δ</mi><mi>ADR</mi></mrow></msub></math> oznacza pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADR</mi></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mrow><mi>Δ</mi><mi>PCR</mi></mrow></msub></math> oznacza pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>PCR</mi></math>.</p>",

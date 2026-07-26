@@ -22,14 +22,18 @@
         "reszta z dzielenia",
         "NWW / NWD",
         "liczby rzymskie",
-        "bryły",
-        "geometria",
         "sześciokąty foremne",
+        "kąty",
+        "czworokąty",
+        "graniastosłupy",
+        "ostrosłupy",
         "statystyka opisowa",
         "procenty",
         "proporcjonalność prosta",
         "równania z jedną zmienną",
-        "inne"
+        "ułamki",
+        "inne",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Rozwiąż krzyżówkę, wpisując cyfry w odpowiednie pola. Hasło to 22 pierwsze cyfry rozwinięcia dziesiętnego liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2023</mn><mn>2024</mn></mfrac></math> – „ilorazu bieżącego roku szkolnego”. Hasło nie jest oceniane.</p><p><strong>a)</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>NWW</mtext><mo>(</mo><mn>30</mn><mo>,</mo><mn>105</mn><mo>)</mo></mrow></math></p><p><strong>b)</strong> Wynik działania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>11</mn><mo>+</mo><mn>24</mn><mo>:</mo><mn>4</mn><mo>·</mo><mn>3</mn></mrow></math></p><p><strong>c)</strong> Reszta z dzielenia liczby 6399 przez 1600</p><p><strong>d)</strong> Największa liczba trzycyfrowa podzielna przez 3</p><p><strong>e)</strong> Mianownik ułamka zwykłego, równego 0,8%, którego licznik jest równy 1</p><p><strong>f)</strong> Miara kąta wewnętrznego sześciokąta foremnego wyrażona w stopniach</p><p><strong>g)</strong> Iloczyn wszystkich rozwiązań równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>5</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>7</mn><mo>)</mo><mo>=</mo><mn>0</mn></mrow></math></p><p><strong>h)</strong> Największa liczba dwucyfrowa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> spełniająca warunek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>NWD</mtext><mo>(</mo><mi>x</mi><mo>,</mo><mn>24</mn><mo>)</mo><mo>=</mo><mn>3</mn></mrow></math></p><p><strong>i)</strong> Powtarzający się układ cyfr (okres) rozwinięcia dziesiętnego ułamka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>11</mn></mfrac></math></p><p><strong>j)</strong> Wartość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> w równaniu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><msup><mn>2</mn><mi>x</mi></msup><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mn>4</mn><mn>8</mn></msup></mrow></math></p><p><strong>k)</strong> Wyrażona w stopniach suma miar kątów przyległych</p><p><strong>l)</strong> Odwrotność sześcianu liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>5</mn></mfrac></math></p><p><strong>m)</strong> Najmniejsza nieparzysta liczba pierwsza</p><p><strong>n)</strong> Liczba wierzchołków ostrosłupa, który ma 12 krawędzi</p><p><strong>o)</strong> Długość krawędzi sześcianu o polu powierzchni równym 150</p><p><strong>p)</strong> Pole kwadratu, którego przekątna ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><msqrt><mn>2</mn></msqrt></mrow></math></p><p><strong>q)</strong> Wyrażona w centymetrach długość odcinka na mapie w skali 1 : 2 500 000 odpowiadającego odległości 2250 km w terenie</p><p><strong>r)</strong> Rozwiązanie równania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>7</mn><mo>(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo><mo>=</mo><mo>−</mo><mn>1</mn><mo>−</mo><mn>5</mn><mi>x</mi></mrow></math></p><p><strong>s)</strong> Średnia arytmetyczna wszystkich liczb całkowitych większych od −45 i mniejszych od 45</p><p><strong>t)</strong> Wynik odejmowania liczby XLII od liczby LIX zapisany cyframi arabskimi</p><p><strong>u)</strong> Dzielnik każdej liczby naturalnej</p><p><strong>v)</strong> Najmniejsza trzycyfrowa liczba naturalna, która jest kwadratem innej liczby naturalnej</p>",
       "choices": [],
@@ -70,8 +74,9 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
-        "dwusieczna kąta / symetralna odcinka"
+        "czworokąty",
+        "dwusieczna kąta / symetralna odcinka",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Dany jest trapez równoramienny. Przekątna tego trapezu zawiera się w dwusiecznej kąta ostrego i jest prostopadła do drugiego ramienia. Suma długości ramion i krótszej podstawy jest równa 18 cm. Pole tego trapezu jest równe</p>",
       "choices": [
@@ -159,7 +164,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Miary kątów w trójkącie są równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>30</mn><mo>°</mo><mo>,</mo><mn>120</mn><mo>°</mo><mo>,</mo><mn>30</mn><mo>°</mo></mrow></math>. Długość najdłuższego boku tego trójkąta wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><msqrt><mn>3</mn></msqrt></mrow></math>. Pole tego trójkąta jest równe</p>",
       "choices": [
@@ -247,7 +253,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "geometria",
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Liczba przekątnych pewnego wielokąta wypukłego jest trzy razy większa od liczby jego boków. Tym wielokątem jest</p>",
       "choices": [
@@ -357,8 +364,9 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> leży na boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CB</mi></math> kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>. Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABE</mi></math> jest równe 360 cm<sup>2</sup>, a pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ECD</mi></math> jest równe 90 cm<sup>2</sup>.</p><p>Oceń, czy podane zdania są prawdziwe, czy fałszywe.</p>",
       "choices": [
@@ -403,7 +411,7 @@
       "points": 4,
       "topics": [
         "trójkąty",
-        "geometria"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> (rysunek poniżej) ma pole równe 80. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> jest środkiem boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>, punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math> środkiem boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>, a punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math> jest środkiem odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CE</mi></math>. Oblicz pole czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EBFO</mi></math>. Zapisz obliczenia.</p>",
       "choices": [],
@@ -423,7 +431,7 @@
       "points": 3,
       "topics": [
         "procenty",
-        "bryły"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Do zbiornika w kształcie prostopadłościanu o wewnętrznych wymiarach 1 dm, 2 dm i 1 m wlano 5 litrów mleka o zawartości 3,4% tłuszczu, a resztę zbiornika dopełniono mlekiem o zawartości 4,2% tłuszczu. Oblicz, ile procent tłuszczu zawiera obecnie mleko w zbiorniku. Zapisz obliczenia.</p>",
       "choices": [],
@@ -440,7 +448,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "geometria",
+        "czworokąty",
         "dwusieczna kąta / symetralna odcinka",
         "dowodzenie / dowody"
       ],

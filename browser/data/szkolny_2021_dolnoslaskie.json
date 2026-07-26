@@ -131,7 +131,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Który z podanych ułamków jest największy?</p>",
       "choices": [
@@ -175,7 +175,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Na talerzu było 45 śliwek. Asia zjadła <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>9</mn></mfrac></math> wszystkich śliwek, Kasia zjadła <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>8</mn></mfrac></math> tego, co pozostało, Jurek zjadł <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>7</mn></mfrac></math> tych śliwek, które zostawiła mu Kasia, a Wojtek zjadł <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>6</mn></mfrac></math> reszty. Wskaż zdanie prawdziwe.</p>",
       "choices": [
@@ -197,7 +197,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "geometria",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Wielokąt przedstawiony na rysunku ma obwód 28. Dwa dłuższe boki są tej samej długości i wszystkie krótsze boki są też tej samej długości. Ponadto każde dwa sąsiednie boki są prostopadłe. Z dwóch takich wielokątów można ułożyć prostokąt. Ile jest równy obwód tego prostokąta?</p>",
       "choices": [
@@ -243,7 +244,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "układ współrzędnych"
       ],
       "prompt_html": "<p>Na osi liczbowej zaznaczono punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>, któremu odpowiada liczba −19, i punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>, któremu odpowiada liczba 46. Odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> podzielono na pięć równych części. Która z podanych liczb odpowiada jednemu z punktów tego podziału?</p>",
       "choices": [
@@ -265,8 +266,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
-        "trójkąty"
+        "czworokąty",
+        "kąty"
       ],
       "prompt_html": "<p>W trapezie równoramiennym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> zachodzą równości: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BA</mi><mo>=</mo><mi>BD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CB</mi><mo>=</mo><mi>CD</mi></math> (patrz rysunek). Wskaż zdanie fałszywe.</p>",
       "choices": [
@@ -291,7 +292,7 @@
       "points": 1,
       "topics": [
         "podzielność",
-        "zliczanie / metody zliczania"
+        "zagadki logiczne"
       ],
       "prompt_html": "<p>Do zapisu trzech kolejnych liczb parzystych użyto łącznie 8 cyfr. Wskaż zdanie fałszywe.</p>",
       "choices": [
@@ -314,7 +315,7 @@
       "points": 1,
       "topics": [
         "trójkąty",
-        "geometria"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Kartkę w kształcie trójkąta równobocznego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> o obwodzie 54 cm (patrz rysunek 1.) złożono tak jak na rysunku 2. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A′</mi></math> jest środkiem odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EB</mi></math>. Obwód czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A′BCD</mi></math> jest równy</p>",
       "choices": [
@@ -430,7 +431,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "bryły",
+        "graniastosłupy",
         "podzielność"
       ],
       "prompt_html": "<p>Są dwa prostopadłościany, które spełniają dwa następujące warunki:</p><ul><li>wymiary wyrażają się całkowitymi liczbami centymetrów;</li><li>jedna ze ścian tej bryły ma pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>21</mn></math> cm², a inna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>39</mn></math> cm².</li></ul><ul><li>Pole powierzchni całkowitej tej z tych dwóch brył, która ma większą objętość, jest równe __________ cm².</li><li>Objętość tej z tych dwóch brył, która ma mniejsze pole powierzchni całkowitej, jest równa __________ cm³.</li></ul>",
