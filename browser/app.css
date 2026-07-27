@@ -19,6 +19,7 @@ h1{font-size:1.4rem;margin-top:0}
 #clearSelBar{position:absolute;right:100%;top:50%;transform:translateY(-50%);white-space:nowrap}
 .topbar .pager{background:none;padding:0;margin:0;border-radius:0;color:#555;font-size:inherit}
 .topbar #setsummary{color:#666;white-space:nowrap}
+.selcopy{cursor:pointer;user-select:none} /* click to copy the selected ids */
 .topbar .printopt{white-space:nowrap}
 #printBtn{font:inherit;padding:.2rem .5rem;cursor:pointer} /* always present + tallest control, so the bar keeps its height when the pager hides */
 /* left column: filters (sticky); right column: questions get the full width */
@@ -48,8 +49,8 @@ select{font:inherit;padding:.35rem}
 .q{position:relative;margin:1.6rem 0;padding-bottom:1rem;border-bottom:1px solid #eee}
 .q:first-child{margin-top:0} /* align the first question's top with the sidebar's top */
 .qhead{display:flex;gap:.8rem;align-items:baseline;flex-wrap:wrap}
-.qnum{font-weight:bold} .pts{color:#a33;font-size:.85rem}
-.hash{color:#aaa;font-size:.72rem;font-family:monospace}
+.qnum{font-weight:bold;cursor:pointer;user-select:none} /* click to flip the print checkbox */ .pts{color:#a33;font-size:.85rem}
+.hash{color:#aaa;font-size:.72rem;font-family:monospace;cursor:pointer;user-select:none}
 /* per-question meta tags, inline in the header and right-aligned: woj, rok, etap | topics; toggled by "Meta" */
 .qmeta{margin-left:auto;display:flex;flex-wrap:wrap;gap:.3rem;align-items:baseline;justify-content:flex-end}
 .qmeta .tag{font-size:.68rem;color:#555;background:#f4f4f4;border-radius:3px;padding:.05rem .4rem;

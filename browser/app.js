@@ -72,6 +72,16 @@ const countSpans = {}; // facetKey -> { value: <span> }
 
 const idList = s => (s.match(/[0-9a-f]{8}/gi) || []).map(x => x.toLowerCase());
 
+// copy to clipboard via a throwaway textarea + execCommand — works off file:// too,
+// where navigator.clipboard (secure-context only) is unavailable
+const copyText = t => {
+  const ta = document.createElement('textarea');
+  ta.value = t; ta.style.cssText = 'position:fixed;top:0;opacity:0';
+  document.body.append(ta); ta.select();
+  try { document.execCommand('copy'); } catch (e) {}
+  ta.remove();
+};
+
 // inverted index for faceting: facet -> value -> [hash, ...]. Built from DATA at startup
 // (~1 ms for ~3k questions), which the browser holds fully in memory anyway.
 function buildIndexFromData() {
@@ -139,7 +149,7 @@ function renderQuestion(q, seq) {
     + topics.map(t => `<span class="tag">${esc(t)}</span>`).join('');
   parts.push(`<div class="qhead"><span class="qnum">Zadanie ${seq ?? q.number}.</span>`
     + `<span class="pts">${q.points}p</span>`
-    + `<span class="hash" title="identyfikator zadania">(${q.hash})</span>`
+    + `<span class="hash" title="kliknij, aby skopiować id">(${q.hash})</span>`
     + `<span class="qmeta">${metaHtml}</span></div>`);
   parts.push(`<div class="prompt">${q.prompt_html}</div>`);
   for (const fig of q.figures || [])
@@ -213,14 +223,22 @@ function update() {
   clearFacets.hidden = !anyFacet;  // "Wyczyść filtry": facet checkboxes only
   clearSearch.hidden = !search.value; // the "×" inside the search box
   clearSelBar.hidden = !selectedSet.size; // "Wyczyść zaznaczenie": only with a print selection
-  setsummary.textContent = `${matched.length} ${plZadania(matched.length)}`;
+  shownCount = matched.length;
+  renderSummary();
 }
 
-// Polish plural of "zadanie": 1 zadanie; 2–4 zadania (not 12–14); else zadań
-const plZadania = n =>
-  n === 1 ? 'zadanie'
-    : n % 10 >= 2 && n % 10 <= 4 && !(n % 100 >= 12 && n % 100 <= 14) ? 'zadania'
-      : 'zadań';
+// summary: "<n> zadanie/zadania/zadań [(<k> zaznaczone/zaznaczonych)]". shownCount is cached so
+// ticking a print checkbox can refresh just this line (no full re-render).
+let shownCount = 0;
+const renderSummary = () => {
+  const k = selectedSet.size; // content is numbers + fixed words, so innerHTML is safe here
+  setsummary.innerHTML = `${shownCount} ${plZadania(shownCount)}`
+    + (k ? ` (<span class="selcopy" title="kliknij, aby skopiować listę id">${k} ${plZaznaczone(k)}</span>)` : '');
+};
+// Polish plurals — pl2_4 = the 2/3/4 branch (not 12–14); the "one" form covers 1 (and 2–4 too here)
+const pl2_4 = n => n % 10 >= 2 && n % 10 <= 4 && !(n % 100 >= 12 && n % 100 <= 14);
+const plZadania = n => n === 1 ? 'zadanie' : pl2_4(n) ? 'zadania' : 'zadań';
+const plZaznaczone = n => n === 1 || pl2_4(n) ? 'zaznaczone' : 'zaznaczonych';
 
 // the hashes of the print-selected questions, in original document order
 const selectedHashes = () => DATA.filter(q => selectedSet.has(q.hash)).map(q => q.hash);
@@ -320,11 +338,21 @@ loadData().then(data => {
     if (!e.target.matches('.selectbox input')) return;
     const h = e.target.closest('.q').dataset.hash;
     e.target.checked ? selectedSet.add(h) : selectedSet.delete(h);
-    clearSelBar.hidden = !selectedSet.size; // keep the toolbar link in sync without a full re-render
+    clearSelBar.hidden = !selectedSet.size; // keep the toolbar link + count in sync without a full re-render
+    renderSummary();
     writeUrl(false);
   });
-  qlist.addEventListener('click', e => { // reorder arrows: swap adjacent hashes in the id box
-    const btn = e.target.closest('.reorder');
+  qlist.addEventListener('click', e => {
+    const qnum = e.target.closest('.qnum'); // click "Zadanie N" to flip its print checkbox
+    if (qnum) {
+      const cb = qnum.closest('.q').querySelector('.selectbox input');
+      cb.checked = !cb.checked;
+      cb.dispatchEvent(new Event('change', { bubbles: true })); // reuse the selection handler
+      return;
+    }
+    const hashEl = e.target.closest('.hash'); // click the id to copy it to the clipboard
+    if (hashEl) { copyText(hashEl.closest('.q').dataset.hash); return; }
+    const btn = e.target.closest('.reorder'); // reorder arrows: swap adjacent hashes in the id box
     if (!btn) return;
     const ids = idList(inc.value);
     const i = ids.indexOf(btn.closest('.q').dataset.hash);
@@ -353,6 +381,10 @@ loadData().then(data => {
     qlist.querySelectorAll('.selectbox input').forEach(b => b.checked = false);
     writeUrl(false); update();
   };
+  // click the "N zaznaczone" in the summary to copy the selected ids (", "-separated, DATA order)
+  setsummary.addEventListener('click', e => {
+    if (e.target.closest('.selcopy')) copyText(selectedHashes().join(', '));
+  });
 
   applyState(); // restore filters from the URL hash (empty hash => same as a bare update())
 });
