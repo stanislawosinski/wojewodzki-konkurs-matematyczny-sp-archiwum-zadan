@@ -25,6 +25,13 @@ const LEAVES = new Set(
 );
 const badTopics = [];
 
+// questions flagged in suspected_key_errors.tsv get a `suspect: true` shard flag (browser filter);
+// column 0 is the sha1(id)[:8] hash. File lives at repo root. Updated as suspects are resolved.
+const suspects = new Set(
+  readFileSync(fileURLToPath(new URL('../suspected_key_errors.tsv', import.meta.url)), 'utf8')
+    .trim().split('\n').slice(1).map(l => l.split('\t')[0]),
+);
+
 for (const f of readdirSync(dataDir).filter(f => f.endsWith('.json')).sort()) {
   const t = JSON.parse(readFileSync(dataDir + f, 'utf8'));
   if (!byStage[t.stage]) {
@@ -40,6 +47,7 @@ for (const f of readdirSync(dataDir).filter(f => f.endsWith('.json')).sort()) {
     byStage[t.stage].push({
       id: q.id, hash, number: q.number, page: q.page, type: q.type, points: q.points,
       ...(q.annulled ? { annulled: true } : {}), // only the rare annulled ones carry the flag
+      ...(suspects.has(hash) ? { suspect: true } : {}), // key flagged in suspected_key_errors.tsv
       topics: q.topics, prompt_html: q.prompt_html, choices: q.choices,
       figures: q.figures, answer: q.answer,
       source_file: t.source_file, school_year: t.school_year, wojewodztwo: t.wojewodztwo,

@@ -373,7 +373,7 @@
         "model": {
           "answer": "a) I. NWW = 2^b·3^b; II. NWD = 2^a·3^a. b) Obie strony równania są zawsze równe 12^c (z praw absorpcji NWW(x,NWD(x,y))=x oraz NWD(x,NWW(x,y))=x; przy danym warunku 12^c=2^{2c}3^c, 18^d=2^d3^{2d}, warunek d/2<c<3d/4 daje 2c>d i c<2d, co potwierdza obliczenia wprost) — równanie prawdziwe. c) Pary {m,n}: {2²·3², 2⁸·3³} oraz {2²·3³, 2⁸·3²} (w dowolnej kolejności).",
           "by": "sonnet",
-          "agrees": null
+          "agrees": false
         }
       }
     },
@@ -401,7 +401,7 @@
         "model": {
           "answer": "a) 9 + 9√3/4 + π; b) obwód F = a(2+3√2+√6)/2 + 2π; c) dowód: łuki sumują się do pełnego okręgu o promieniu 1 (suma kątów zewnętrznych trójkąta = 360°), a proste odcinki figury F mają łącznie długość równą obwodowi trójkąta ABC, stąd obwód(F) = obwód(ABC) + 2π.",
           "by": "sonnet",
-          "agrees": null
+          "agrees": true
         }
       }
     },
@@ -427,7 +427,7 @@
         "model": {
           "answer": "a) V = 578; b) suma krawędzi = 52 + 41√2; c) największe pole ma ściana EAB (trójkąt równoboczny o boku 12√2), pole = 72√3",
           "by": "sonnet",
-          "agrees": null
+          "agrees": true
         }
       }
     }

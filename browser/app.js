@@ -21,8 +21,9 @@ const SCHOOL_LABELS = { podstawowa: 'Szkoła podstawowa', gimnazjum: 'Gimnazjum'
 const PAGE_SIZE = 100;
 const STAGES = ['szkolny', 'rejonowy', 'wojewodzki'];
 
-// The seven faceted filters. `values(q)` mirrors build.mjs so a missing index can be
+// The faceted filters. `values(q)` mirrors build.mjs so a missing index can be
 // rebuilt from DATA; `order` fixes non-alphabetical display order; `labelFor` prettifies.
+const VERIF_LABELS = { zgodne: 'AI zgodne z kluczem', rozbiezne: 'AI niezgodne z kluczem', podejrzany: 'Klucz podejrzany', bezklucza: 'Bez klucza', niepewne: 'Niepewna odpowiedź AI', nieroz: 'Nierozstrzygnięte' };
 const FACETS = [
   { key: 'topic',  label: 'Temat',       values: q => q.topics || [] },
   { key: 'form',   label: 'Forma',       values: q => [q.type],         order: Object.keys(TYPE_LABELS), labelFor: v => TYPE_LABELS[v] || v },
@@ -32,6 +33,22 @@ const FACETS = [
   { key: 'year',   label: 'Rok',         values: q => [q.school_year] },
   { key: 'points', label: 'Punkty',      values: q => [String(q.points)], numeric: true, labelFor: v => `${v}p` },
   { key: 'annul',  label: 'Anulowane',   values: q => [q.annulled ? 'tak' : 'nie'], order: ['nie', 'tak'], labelFor: v => v === 'tak' ? 'Anulowane' : 'Nie anulowane' },
+  // verification status from the blind-solve pass (answer.model.agrees / corroborated + suspect flag)
+  { key: 'weryf',  label: 'Weryfikacja',
+    values: q => { const a = q.answer || {}, m = a.model || {}, hasKey = a.correct != null && a.correct !== '', o = [];
+      if (q.suspect) o.push('podejrzany');
+      if (!hasKey) { o.push('bezklucza'); if (m.corroborated === false) o.push('niepewne'); }
+      else if (m.agrees === true) o.push('zgodne');
+      else if (m.agrees === false) o.push('rozbiezne');
+      else o.push('nieroz');
+      return o; },
+    order: ['zgodne', 'rozbiezne', 'podejrzany', 'bezklucza', 'niepewne', 'nieroz'], labelFor: v => VERIF_LABELS[v] || v },
+  { key: 'sol',    label: 'Rozwiązanie',
+    values: q => [((q.answer && q.answer.model && q.answer.model.solution_html) || (q.answer && q.answer.solution_html)) ? 'z' : 'bez'],
+    order: ['z', 'bez'], labelFor: v => v === 'z' ? 'Z rozwiązaniem' : 'Bez rozwiązania' },
+  { key: 'fig',    label: 'Rysunek',
+    values: q => [q.figures && q.figures.length ? 'z' : 'bez'],
+    order: ['z', 'bez'], labelFor: v => v === 'z' ? 'Z rysunkiem' : 'Bez rysunku' },
 ];
 
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
