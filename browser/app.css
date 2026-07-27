@@ -50,7 +50,12 @@ select{font:inherit;padding:.35rem}
 .qhead{display:flex;gap:.8rem;align-items:baseline;flex-wrap:wrap}
 .qnum{font-weight:bold} .pts{color:#a33;font-size:.85rem}
 .hash{color:#aaa;font-size:.72rem;font-family:monospace}
-.src{color:#999;font-size:.72rem;margin-left:auto;font-family:monospace}
+/* per-question meta tags, inline in the header and right-aligned: woj, rok, etap | topics; toggled by "Meta" */
+.qmeta{margin-left:auto;display:flex;flex-wrap:wrap;gap:.3rem;align-items:baseline;justify-content:flex-end}
+.qmeta .tag{font-size:.68rem;color:#555;background:#f4f4f4;border-radius:3px;padding:.05rem .4rem;
+  font-family:system-ui,-apple-system,'Segoe UI',sans-serif}
+.qmeta .tag.ctx{color:#aaa;background:#fbfbfb} /* woj/rok/etap: lighter text + fainter bg than topic tags */
+.hide-meta .qmeta{display:none}
 /* selection checkbox in the left gutter */
 .selectbox{position:absolute;left:calc(-1.1rem - .5rem - 1.5rem);top:.1rem;
   width:1.3rem;height:1.3rem;display:flex;align-items:center;justify-content:center;cursor:pointer}
@@ -123,7 +128,7 @@ math{font-size:1.05em}
   .reorder{display:none}        /* reorder arrows never print */
   .pager{display:none}
   .q{break-inside:avoid}        /* 2. keep each question on one page */
-  .src{display:none}            /* 3. hide file/page/question provenance */
+  .qmeta{display:none}          /* 3. hide source + tags when printing */
   .reveal>summary{display:none} /* hide the reveal button (opened answers still print) */
   /* opt-in: one question per page, leaving the rest of the sheet for working out */
   .onePerPage .q:not(:last-child){break-after:page;page-break-after:always}

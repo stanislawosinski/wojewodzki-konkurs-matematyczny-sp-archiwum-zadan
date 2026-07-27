@@ -59,7 +59,8 @@ const search = $('search'), inc = $('include'), exc = $('exclude'),
   setsummary = $('setsummary'),
   qlist = $('qlist'), facetsEl = $('facets'),
   clearFilters = $('clearFilters'), clearFacets = $('clearFacets'), clearSearch = $('clearSearch'),
-  clearSelBar = $('clearSelBar'), printBtn = $('printBtn'), onePerPage = $('onePerPage');
+  clearSelBar = $('clearSelBar'), printBtn = $('printBtn'), onePerPage = $('onePerPage'),
+  metaToggle = $('metaToggle');
 const pagers = [...document.querySelectorAll('.pager')];
 
 let DATA = [], byHash = {}, INDEX = {}, universe = new Set();
@@ -127,16 +128,19 @@ function buildFacetUI() {
 }
 
 function renderQuestion(q, seq) {
-  const src = `${q.source_file}, s.${q.page}, zad. ${q.number}`;
   const parts = [`<article class="q" id="${esc(q.id)}" data-hash="${q.hash}">`];
   if (seq != null) parts.push( // ordered "Pokaż tylko id" mode: gutter arrows reorder the id list
     `<button type="button" class="reorder up" title="Przesuń w górę" aria-label="w górę">↑</button>`
     + `<button type="button" class="reorder down" title="Przesuń w dół" aria-label="w dół">↓</button>`);
   parts.push(`<label class="selectbox" title="zaznacz do wydruku"><input type="checkbox"${selectedSet.has(q.hash) ? ' checked' : ''}></label>`);
+  // meta tags inline in the header, right-aligned: województwo, rok, etap | topics — toggled by "Meta"
+  const ctx = [q.wojewodztwo, q.school_year, q.stage].filter(Boolean), topics = q.topics || [];
+  const metaHtml = ctx.map(t => `<span class="tag ctx">${esc(t)}</span>`).join('')
+    + topics.map(t => `<span class="tag">${esc(t)}</span>`).join('');
   parts.push(`<div class="qhead"><span class="qnum">Zadanie ${seq ?? q.number}.</span>`
     + `<span class="pts">${q.points}p</span>`
     + `<span class="hash" title="identyfikator zadania">(${q.hash})</span>`
-    + `<span class="src" title="źródło">${esc(src)}</span></div>`);
+    + `<span class="qmeta">${metaHtml}</span></div>`);
   parts.push(`<div class="prompt">${q.prompt_html}</div>`);
   for (const fig of q.figures || [])
     parts.push(`<img class="fig" src="figures/${esc(fig)}" loading="lazy" alt="rysunek do zadania ${q.number}">`);
@@ -340,6 +344,8 @@ loadData().then(data => {
   clearFacets.onclick = e => { e.preventDefault(); clearFacetSelections(); writeUrl(true); refilter(); };
   onePerPage.onchange = () => document.body.classList.toggle('onePerPage', onePerPage.checked); // print layout only
   document.body.classList.toggle('onePerPage', onePerPage.checked); // honor the default (checked)
+  const applyMeta = () => document.body.classList.toggle('hide-meta', !metaToggle.checked); // per-question source+tags
+  metaToggle.onchange = applyMeta; applyMeta();
   printBtn.onclick = () => window.print();
   clearSelBar.onclick = e => { // "Wyczyść zaznaczenie": clear the print selection only
     e.preventDefault();
