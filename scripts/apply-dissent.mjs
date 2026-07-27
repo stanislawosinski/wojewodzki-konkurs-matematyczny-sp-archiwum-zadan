@@ -11,12 +11,12 @@
 import { readdirSync, readFileSync, writeFileSync, existsSync } from 'node:fs';
 const SP = process.argv[2], root = process.argv[3], dataDir = root + '/browser/data/';
 
-// --- Opus answers, id -> string, from both blind-solve output dirs ---
+// --- Opus answers (+ reasoning), id -> {answer, solution_html}, from both solve output dirs ---
 const opus = {};
 const addDir = dir => { if (!existsSync(dir)) return;
   for (const f of readdirSync(dir).filter(f => f.endsWith('.json')))
     for (const [id, v] of Object.entries(JSON.parse(readFileSync(dir + '/' + f, 'utf8'))))
-      if (v && v.answer != null) opus[id] = v.answer; };
+      if (v && v.answer != null) opus[id] = { answer: v.answer, solution_html: v.solution_html }; };
 addDir(SP + '/solved-opus');
 addDir(SP + '/open-verify/solve-out');
 
@@ -45,10 +45,12 @@ for (const file of readdirSync(dataDir).filter(f => f.endsWith('.json'))) {
   const text = readFileSync(dataDir + file, 'utf8').replace(allBlocks, block => {
     const q = qs[i++];
     if (!needsDissent(q)) return block;
-    const ans = opus[q.id];
-    if (ans == null) { missing.push(q.id); return block; }
+    const o = opus[q.id];
+    if (o == null) { missing.push(q.id); return block; }
+    const dissent = { by: 'opus', answer: o.answer };
+    if (o.solution_html) dissent.solution_html = o.solution_html; // reasoning, shown when it's the sole answer
     const indent = block.match(modelRe)[1];
-    const field = `"dissent": ${JSON.stringify({ by: 'opus', answer: ans })},\n${indent}`;
+    const field = `"dissent": ${JSON.stringify(dissent)},\n${indent}`;
     changed++; applied++;
     return block.replace(modelRe, `"model": {\n${indent}${field}`);
   });

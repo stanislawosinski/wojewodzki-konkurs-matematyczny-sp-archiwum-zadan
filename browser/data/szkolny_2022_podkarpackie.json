@@ -526,7 +526,7 @@
         "correct": "19.1: 27; 19.2: 46; 19.3: 69",
         "solution_html": "<p>Bryła A (kształt litery E) ma 16 ścian, 28 wierzchołków i 42 krawędzie, a bryła B (kształt krzyża) ma 11 ścian, 18 wierzchołków i 27 krawędzi.</p><p>19.1. Suma ścian: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mo>+</mo><mn>11</mn><mo>=</mo><mn>27</mn></math>.</p><p>19.2. Suma wierzchołków: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>28</mn><mo>+</mo><mn>18</mn><mo>=</mo><mn>46</mn></math>.</p><p>19.3. Suma krawędzi: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>42</mn><mo>+</mo><mn>27</mn><mo>=</mo><mn>69</mn></math>.</p>",
         "model": {
-          "dissent": {"by":"opus","answer":"19.1) 28 ścian; 19.2) 48 wierzchołków; 19.3) 72 krawędzie"},
+          "dissent": {"by":"opus","answer":"19.1) 28 ścian; 19.2) 48 wierzchołków; 19.3) 72 krawędzie","solution_html":"<p>Obie bryły to graniastosłupy o podstawach będących wielokątami o 12 wierzchołkach: A — litera 'E' (12 boków), B — 'krzyż'/plus (12 boków).</p><p>Dla graniastosłupa nad 12-kątem: ściany = 12+2 = 14, wierzchołki = 2·12 = 24, krawędzie = 3·12 = 36 (sprawdzenie Eulera: 24−36+14=2).</p><p><b>19.1</b> ściany: 14 + 14 = <b>28</b>.<br><b>19.2</b> wierzchołki: 24 + 24 = <b>48</b>.<br><b>19.3</b> krawędzie: 36 + 36 = <b>72</b>.</p>"},
           "answer": "19.1. 28; 19.2. 48; 19.3. 72",
           "by": "sonnet",
           "agrees": false

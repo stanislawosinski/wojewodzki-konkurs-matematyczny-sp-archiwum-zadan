@@ -452,7 +452,7 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "dissent": {"by":"opus","answer":"C"},
+          "dissent": {"by":"opus","answer":"C","solution_html":"<p>Boki naturalne, obwód 7 i nierówność trójkąta dają tylko (1,3,3) oraz (2,2,3). Oba mają bok długości 3 → C prawdziwe zawsze. Oba są też równoramienne, więc B również zawsze prawdziwe (błąd arkusza); (2,2,3) rozwartokątny, ale (1,3,3) ostrokątny, więc A nie zawsze; D fałszywe (brak boku 2 w (1,3,3)). Wybieram C.</p>"},
           "answer": "B",
           "by": "sonnet",
           "agrees": null,
@@ -621,7 +621,7 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "dissent": {"by":"opus","answer":"15√7 + 13√3 + 6√15 cm² ≈ 85,4 cm²"},
+          "dissent": {"by":"opus","answer":"15√7 + 13√3 + 6√15 cm² ≈ 85,4 cm²","solution_html":"<p>Podstawa (trapez 6,4,ramiona 8): h = √(8²−1²) = 3√7, pole = ½(6+4)·3√7 = 15√7. Ściany równoboczne: ABE (bok 6) = 9√3, CDE (bok 4) = 4√3. Ściany BCE i ADE mają boki 8,6,4; Heron p=9: pole = √(9·1·3·5) = 3√15 każda, razem 6√15. Suma = 15√7 + 13√3 + 6√15 ≈ 85,4 cm².</p>"},
           "answer": "15√7 + 13√3 + 6√15 ≈ 85,44",
           "by": "sonnet",
           "agrees": null,

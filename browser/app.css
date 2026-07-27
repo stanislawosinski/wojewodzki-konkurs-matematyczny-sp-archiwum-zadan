@@ -148,6 +148,7 @@ math{font-size:1.05em}
 .reveal .eye{position:relative;top:.1em}
 .answer{margin-top:.5rem;color:#161}
 .answer.ai{color:#2b4a6f} /* AI's blind-solve answer — distinct from the official (green) answer */
+.answer.solution.ai-sol{color:#2b4a6f} /* AI's reasoning (sole AI answer) — blue like its answer, not official green */
 /* verification badge shown with the AI answer in the reveal */
 .verif{margin-top:.5rem;display:inline-block;padding:.1rem .55rem;border-radius:10px;
   font-family:system-ui,-apple-system,'Segoe UI',sans-serif;font-size:.75rem}

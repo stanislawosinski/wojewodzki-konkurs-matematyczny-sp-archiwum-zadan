@@ -276,7 +276,7 @@
         "correct": "21 m",
         "solution_html": "<p>Przy brzegach płyty leżą dłuższym bokiem (60 cm) wzdłuż chodnika, a w środku krótszym (35 cm). Segment tworzy pełny prostokąt dopiero wtedy, gdy jego długość jest wspólną wielokrotnością liczb 60 i 35 — najmniejszą taką jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>NWW</mtext><mo>(</mo><mn>35</mn><mo>,</mo><mn>60</mn><mo>)</mo><mo>=</mo><mn>420</mn></math> cm. Zatem jeden segment ma długość 420 cm <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>4,2</mn></math> m. Pięć segmentów daje chodnik długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>·</mo><mn>4,2</mn><mo>=</mo><mn>21</mn></math> m.</p>",
         "model": {
-          "dissent": {"by":"opus","answer":"600 cm (6 m)"},
+          "dissent": {"by":"opus","answer":"600 cm (6 m)","solution_html":"<p>Segment to prostokąt: rzędy zewnętrzne (przy brzegach) z płyt ułożonych szerszym bokiem 60 cm wzdłuż brzegu (po 2 płyty = 120 cm), środek z płyt węższym bokiem (35 cm) o wysokości 60 cm; szerokość chodnika = 35 + 60 + 35 = 130 cm. Długość jednego segmentu ≈ 2·60 = 120 cm. Dla 5 segmentów: 5·120 = 600 cm = 6 m.</p><p>(Rysunek jest schematyczny — dokładne kafelkowanie płytami 35×60 nie domyka się idealnie przy tych proporcjach, stąd niepewność co do dokładnej długości; wynik 6 m przyjęto z długości segmentu wyznaczonej płytami zewnętrznymi.)</p>"},
           "answer": "650 cm (6,5 m)",
           "by": "sonnet",
           "agrees": false

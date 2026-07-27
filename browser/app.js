@@ -24,6 +24,8 @@ const STAGES = ['szkolny', 'rejonowy', 'wojewodzki'];
 // The faceted filters. `values(q)` mirrors build.mjs so a missing index can be
 // rebuilt from DATA; `order` fixes non-alphabetical display order; `labelFor` prettifies.
 const VERIF_LABELS = { zgodne: 'AI zgodne z kluczem', rozbiezne: 'AI niezgodne z kluczem', podejrzany: 'Klucz podejrzany', bezklucza: 'Bez klucza', niepewne: 'Niepewna odpowiedź AI', nieroz: 'Nierozstrzygnięte' };
+// which model(s) produced an answer, for labelling AI answers in the reveal
+const MODEL_LABELS = { sonnet: 'Sonnet', 'opus+sonnet': 'Sonnet + Opus', opus: 'Opus' };
 // explanations behind the ⓘ info icons; `_` is the facet-header note. Only facets/values listed here get an icon.
 const FACET_INFO = {
   weryf: {
@@ -197,16 +199,18 @@ function buildFacetUI() {
   }
 }
 
-// single verification badge for the reveal (accompanies the AI answer). null = stay quiet
-// (keyed but unresolved/format-only — showing a status there would be noise).
-function verifBadge(q) {
+// single verification badge for the reveal, given how many AI answers are shown (aiCount).
+// The badge tracks the SHOWN answers so it never contradicts them (e.g. one dissenting Opus
+// answer under a green "zgodne" badge). null = stay quiet (keyed, unresolved, nothing to show).
+function verifBadge(q, aiCount) {
   const a = q.answer || {}, m = a.model || {}, hasKey = a.correct != null && a.correct !== '';
   if (q.suspect) return { cls: 'suspect', text: 'Klucz podejrzany — możliwy błąd w kluczu' };
   if (!hasKey) return m.answer == null ? null
-    : m.corroborated === false ? { cls: 'warn', text: 'Modele AI niezgodne (brak klucza)' }
+    : aiCount > 1 ? { cls: 'warn', text: 'Modele AI niezgodne (brak klucza)' }
     : { cls: 'ok', text: 'Potwierdzone przez AI (brak klucza)' };
-  if (m.agrees === true) return { cls: 'ok', text: 'AI zgodne z kluczem' };
-  if (m.agrees === false) return { cls: 'warn', text: 'AI niezgodne z kluczem' };
+  if (aiCount > 1) return { cls: 'warn', text: 'Modele AI niezgodne' };      // key + ≥2 differing AI answers
+  if (aiCount === 1) return { cls: 'warn', text: 'AI niezgodne z kluczem' }; // one AI answer differs from key
+  if (m.agrees === true) return { cls: 'ok', text: 'AI zgodne z kluczem' };  // AI matched key, nothing to show
   return null;
 }
 
@@ -242,15 +246,17 @@ function renderQuestion(q, seq) {
   // AI answers to show: only when they add information — no key (show the AI's answer), or a
   // key the AI disagreed with. `dissent` is a second, distinct model answer (Sonnet vs Opus).
   const ai = [];
-  if (!hasKey) { if (m.answer != null) ai.push(m.answer); }
-  else if (m.agrees === false && m.answer != null) ai.push(m.answer);
-  if (m.dissent && m.dissent.answer != null) ai.push(m.dissent.answer);
-  const badge = verifBadge(q);
+  const primaryLabel = MODEL_LABELS[m.by] || 'AI';
+  if (!hasKey) { if (m.answer != null) ai.push({ label: primaryLabel, answer: m.answer, sol: m.solution_html }); }
+  else if (m.agrees === false && m.answer != null) ai.push({ label: primaryLabel, answer: m.answer, sol: m.solution_html });
+  if (m.dissent && m.dissent.answer != null) ai.push({ label: 'Opus', answer: m.dissent.answer, sol: m.dissent.solution_html });
+  const badge = verifBadge(q, ai.length);
   if (correct || sol || ai.length || badge) {
     parts.push('<details class="reveal"><summary title="Pokaż odpowiedź"><span class="eye">👁</span></summary>');
     if (correct) parts.push(`<div class="answer">Odpowiedź: <b>${correct}</b></div>`);
     if (badge) parts.push(`<div class="verif ${badge.cls}">${esc(badge.text)}</div>`);
-    for (const x of ai) parts.push(`<div class="answer ai">AI: <b>${esc(x)}</b></div>`);
+    for (const x of ai) parts.push(`<div class="answer ai">${esc(x.label)}: <b>${esc(x.answer)}</b></div>`);
+    if (ai.length === 1 && ai[0].sol) parts.push(`<div class="answer solution ai-sol">${ai[0].sol}</div>`); // sole AI answer → show its reasoning
     if (sol) parts.push(`<div class="answer solution">${sol}</div>`);
     parts.push('</details>');
   }
