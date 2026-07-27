@@ -197,6 +197,19 @@ function buildFacetUI() {
   }
 }
 
+// single verification badge for the reveal (accompanies the AI answer). null = stay quiet
+// (keyed but unresolved/format-only — showing a status there would be noise).
+function verifBadge(q) {
+  const a = q.answer || {}, m = a.model || {}, hasKey = a.correct != null && a.correct !== '';
+  if (q.suspect) return { cls: 'suspect', text: 'Klucz podejrzany — możliwy błąd w kluczu' };
+  if (!hasKey) return m.answer == null ? null
+    : m.corroborated === false ? { cls: 'warn', text: 'Modele AI niezgodne (brak klucza)' }
+    : { cls: 'ok', text: 'Potwierdzone przez AI (brak klucza)' };
+  if (m.agrees === true) return { cls: 'ok', text: 'AI zgodne z kluczem' };
+  if (m.agrees === false) return { cls: 'warn', text: 'AI niezgodne z kluczem' };
+  return null;
+}
+
 function renderQuestion(q, seq) {
   const parts = [`<article class="q" id="${esc(q.id)}" data-hash="${q.hash}">`];
   if (seq != null) parts.push( // ordered "Pokaż tylko id" mode: gutter arrows reorder the id list
@@ -225,9 +238,19 @@ function renderQuestion(q, seq) {
     parts.push('</ol>');
   }
   const sol = q.answer && q.answer.solution_html;
-  if (correct || sol) {
+  const m = (q.answer && q.answer.model) || {}, hasKey = correct != null && correct !== '';
+  // AI answers to show: only when they add information — no key (show the AI's answer), or a
+  // key the AI disagreed with. `dissent` is a second, distinct model answer (Sonnet vs Opus).
+  const ai = [];
+  if (!hasKey) { if (m.answer != null) ai.push(m.answer); }
+  else if (m.agrees === false && m.answer != null) ai.push(m.answer);
+  if (m.dissent && m.dissent.answer != null) ai.push(m.dissent.answer);
+  const badge = verifBadge(q);
+  if (correct || sol || ai.length || badge) {
     parts.push('<details class="reveal"><summary title="Pokaż odpowiedź"><span class="eye">👁</span></summary>');
     if (correct) parts.push(`<div class="answer">Odpowiedź: <b>${correct}</b></div>`);
+    if (badge) parts.push(`<div class="verif ${badge.cls}">${esc(badge.text)}</div>`);
+    for (const x of ai) parts.push(`<div class="answer ai">AI: <b>${esc(x)}</b></div>`);
     if (sol) parts.push(`<div class="answer solution">${sol}</div>`);
     parts.push('</details>');
   }

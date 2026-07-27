@@ -147,6 +147,13 @@ math{font-size:1.05em}
 .reveal[open]>summary{border-color:#8c8;background:#eef8ee}
 .reveal .eye{position:relative;top:.1em}
 .answer{margin-top:.5rem;color:#161}
+.answer.ai{color:#2b4a6f} /* AI's blind-solve answer — distinct from the official (green) answer */
+/* verification badge shown with the AI answer in the reveal */
+.verif{margin-top:.5rem;display:inline-block;padding:.1rem .55rem;border-radius:10px;
+  font-family:system-ui,-apple-system,'Segoe UI',sans-serif;font-size:.75rem}
+.verif.ok{background:#e8f5e9;color:#1b5e20}
+.verif.warn{background:#fff4e5;color:#8a5a00}
+.verif.suspect{background:#fdecea;color:#a1160a;font-weight:600}
 .choice.correct{background:transparent}
 .q:has(.reveal[open]) .choice.correct{background:#d8f5d8;font-weight:600}
 @media print{

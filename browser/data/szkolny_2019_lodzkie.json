@@ -663,6 +663,7 @@
         "correct": null,
         "solution_html": null,
         "model": {
+          "dissent": {"by":"opus","answer":"Liczba niepodzielna przez 3 ma postać 3k±1; jej kwadrat = 9k²±6k+1 daje resztę 1 z dzielenia przez 3. Suma dwóch takich kwadratów daje resztę 1+1 = 2. c.n.d."},
           "answer": "Dla naturalnych a, b niepodzielnych przez 3: a≡1 lub 2 (mod 3), więc a²≡1 (mod 3) (bo 1²=1, 2²=4≡1). Analogicznie b²≡1 (mod 3). Zatem a²+b²≡1+1=2 (mod 3).",
           "by": "sonnet",
           "agrees": null,
