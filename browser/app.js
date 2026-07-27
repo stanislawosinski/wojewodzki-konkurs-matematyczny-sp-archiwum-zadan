@@ -82,6 +82,20 @@ const copyText = t => {
   ta.remove();
 };
 
+// reusable "copied" popover, shown just below whatever was clicked; auto-hides after 1s
+const copytip = Object.assign(document.createElement('div'),
+  { className: 'copytip', textContent: 'Skopiowano do schowka', hidden: true });
+document.body.append(copytip);
+let copytipTimer;
+const flashCopied = el => {
+  const r = el.getBoundingClientRect();
+  copytip.style.left = `${r.left + r.width / 2}px`;
+  copytip.style.top = `${r.bottom}px`;
+  copytip.hidden = false;
+  clearTimeout(copytipTimer);
+  copytipTimer = setTimeout(() => { copytip.hidden = true; }, 1000);
+};
+
 // inverted index for faceting: facet -> value -> [hash, ...]. Built from DATA at startup
 // (~1 ms for ~3k questions), which the browser holds fully in memory anyway.
 function buildIndexFromData() {
@@ -351,7 +365,7 @@ loadData().then(data => {
       return;
     }
     const hashEl = e.target.closest('.hash'); // click the id to copy it to the clipboard
-    if (hashEl) { copyText(hashEl.closest('.q').dataset.hash); return; }
+    if (hashEl) { copyText(hashEl.closest('.q').dataset.hash); flashCopied(hashEl); return; }
     const btn = e.target.closest('.reorder'); // reorder arrows: swap adjacent hashes in the id box
     if (!btn) return;
     const ids = idList(inc.value);
@@ -365,7 +379,7 @@ loadData().then(data => {
   // "Zaznaczone ↑": drop the print-selected question ids into the "Pokaż tylko id" box
   $('useSel').onclick = () => { inc.value = selectedHashes().join(', '); writeUrl(false); refilter(); };
   // "Skopiuj": copy the id box to the clipboard
-  $('copySel').onclick = () => { inc.select(); try { document.execCommand('copy'); } catch (e) {} };
+  $('copySel').onclick = e => { inc.select(); try { document.execCommand('copy'); } catch (e) {} flashCopied(e.currentTarget); };
   // "Wyczyść": clear only the "Pokaż tylko id" textarea (selection has its own link in the bar)
   $('clearSel').onclick = () => { inc.value = ''; writeUrl(false); refilter(); };
   clearFilters.onclick = e => { e.preventDefault(); clearAllFilters(); };
@@ -383,7 +397,8 @@ loadData().then(data => {
   };
   // click the "N zaznaczone" in the summary to copy the selected ids (", "-separated, DATA order)
   setsummary.addEventListener('click', e => {
-    if (e.target.closest('.selcopy')) copyText(selectedHashes().join(', '));
+    const sc = e.target.closest('.selcopy');
+    if (sc) { copyText(selectedHashes().join(', ')); flashCopied(sc); }
   });
 
   applyState(); // restore filters from the URL hash (empty hash => same as a bare update())

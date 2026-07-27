@@ -20,6 +20,13 @@ h1{font-size:1.4rem;margin-top:0}
 .topbar .pager{background:none;padding:0;margin:0;border-radius:0;color:#555;font-size:inherit}
 .topbar #setsummary{color:#666;white-space:nowrap}
 .selcopy{cursor:pointer;user-select:none} /* click to copy the selected ids */
+/* "copied" popover: sits below the clicked element, 45deg arrow = a rotated square poking out the top */
+.copytip{position:fixed;z-index:20;transform:translate(-50%,8px);pointer-events:none;
+  background:#333;color:#fff;font-size:.72rem;white-space:nowrap;padding:.25rem .5rem;border-radius:4px;
+  font-family:system-ui,-apple-system,'Segoe UI',sans-serif}
+.copytip[hidden]{display:none}
+.copytip::after{content:'';position:absolute;left:50%;top:-4px;width:8px;height:8px;
+  background:inherit;transform:translateX(-50%) rotate(45deg)}
 .topbar .printopt{white-space:nowrap}
 #printBtn{font:inherit;padding:.2rem .5rem;cursor:pointer} /* always present + tallest control, so the bar keeps its height when the pager hides */
 /* left column: filters (sticky); right column: questions get the full width */
