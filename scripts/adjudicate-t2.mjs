@@ -24,9 +24,20 @@ const resolveClosed = (ma, q) => {
   return hit.length === 1 ? hit[0].label.toUpperCase() : null;
 };
 const normTF = s => String(s).toUpperCase().replace(/[^PF]/g, '');
-// numeric fingerprint for open answers: sorted numbers (comma->dot), for a heuristic equal/differ
-const nums = s => (String(s).replace(/\s/g, '').match(/-?\d+(?:[.,]\d+)?/g) || []).map(x => x.replace(',', '.')).sort();
-const openEq = (a, b) => { const na = nums(a), nb = nums(b); if (na.length && na.join('|') === nb.join('|')) return true; return flat(a) === flat(b) && flat(a).length > 0; };
+// numeric fingerprint for open answers: sorted numbers, for a heuristic equal/differ.
+// Drop parenthetical/≈ approximations first so "6√5 (≈13,4)" == "6√5". Don't strip spaces
+// (that glues "3. 15" -> "3.15"); unify minus glyphs; Number() collapses 4,50==4,5 and 05==5.
+// strip only APPROXIMATIONS: "(≈ 529)" parens and bare "≈ 529,1 cm²" — keep exact parenthesized math.
+const stripApprox = s => String(s ?? '').replace(/\([^()]*[≈~≅][^()]*\)/g, ' ').replace(/[≈~≅][^;,)]*/g, ' ');
+const nums = s => (stripApprox(s).replace(/[−‑–]/g, '-').match(/-?\d+(?:[.,]\d+)?/g) || []).map(x => String(Number(x.replace(',', '.')))).sort();
+const UNIT = /\b(cm|mm|dm|km|m|zł|gr|ml|l|kg|dag|g|min|minut[ay]?|godz(?:in[ay]?)?|proc|st)\b|[²³°%]/gi;
+const words = s => txt(stripApprox(s)).toLowerCase().replace(/[−‑–]/g, '-').replace(UNIT, '').replace(/[^0-9a-ząćęłńóśźż-]/gi, '');
+const subset = (a, b) => [...a].every(x => b.has(x));
+const openEq = (a, b) => {
+  const na = new Set(nums(a)), nb = new Set(nums(b));
+  if (na.size && nb.size && (subset(na, nb) || subset(nb, na))) return true;   // number-set match (ignores explanatory repeats)
+  const wa = words(a), wb = words(b); return wa === wb && wa.length > 0;
+};
 
 // compare two answers for a given type -> boolean|null(unresolvable)
 function eq(a, b, q) {

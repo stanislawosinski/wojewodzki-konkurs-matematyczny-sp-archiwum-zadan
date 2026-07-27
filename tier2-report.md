@@ -6,18 +6,18 @@ Opus re-solved the 739 contested questions **blind** (never shown the key or Son
 
 | verdict | count | meaning |
 |---|---:|---|
-| key_suspect | 20 | Opus + Sonnet agree *against* the stored key (likely key error) |
-| three_way_split | 11 | key, Sonnet, Opus all differ (needs human) |
-| new_dispute | 3 | Opus disputes a low-conf answer that had agreed with the key |
-| key_confirmed | 32 | Opus sides with the key; Sonnet had erred |
-| keyless_split | 50 | no key; Opus and Sonnet disagree (low confidence) |
+| key_suspect | 22 | Opus + Sonnet agree *against* the stored key (likely key error) |
+| three_way_split | 7 | key, Sonnet, Opus all differ (needs human) |
+| new_dispute | 1 | Opus disputes a low-conf answer that had agreed with the key |
+| key_confirmed | 33 | Opus sides with the key; Sonnet had erred |
+| keyless_split | 19 | no key; Opus and Sonnet disagree (low confidence) |
 | keyless_review | 2 | no key; answers unresolvable to auto-compare |
 | agree_review | 17 | low-conf; Opus answer unresolvable to auto-compare |
-| keyless_agreed | 594 | no key; Opus and Sonnet agree (high-confidence fill) |
-| agree_confirmed | 10 | low-conf answer confirmed by Opus |
+| keyless_agreed | 625 | no key; Opus and Sonnet agree (high-confidence fill) |
+| agree_confirmed | 13 | low-conf answer confirmed by Opus |
 | **total** | **739** | |
 
-## KEY SUSPECT — Opus + Sonnet agree *against* the stored key (likely key error) (20)
+## KEY SUSPECT — Opus + Sonnet agree *against* the stored key (likely key error) (22)
 
 ### `75566c22` · rejonowy_2018-2019_zachodniopomorskie_q27 · _closed_single_
 - **key:** `A` · **sonnet:** `C`(med) · **opus:** `C`(high)
@@ -65,6 +65,11 @@ Opus re-solved the 739 contested questions **blind** (never shown the key or Son
 - **Q:** Drewniany sześcian pomalowano białą farbą i rozcięto na 64 jednakowe sześciany. Liczba sześcianów, których żadna ściana nie jest pomalowana białą farbą jest równa:
 - **choices:** A) 4 · B) 8 · C) 12 · D) 2
 - **opus reasoning:** 64 małych sześcianów oznacza podział 4 × 4 × 4 . Niepomalowane są tylko sześciany wewnętrzne: ( 4 − 2 ) 3 = 2 3 = 8 .
+
+### `c583d3c3` · rejonowy_2025_lodzkie_q9 · _open_
+- **key:** `H₁ = 147/16·√3 lub H₂ = 12√3 (przy podanych danych taki ostrosłup w rzeczywistości nie istnieje)` · **sonnet:** `Przypadek 1 (podstawa 3,5; krawędź boczna 4): h = √158/4 ≈ 3,14; Przypadek 2 (podstawa 4; krawędź boczna 3,5): h = √17/2 ≈ 2,06`(low) · **opus:** `Dwa przypadki (ostrosłup prawidłowy czworokątny): a) podstawa a=4, krawędź boczna 3,5: h = √17/2 ≈ 2,06; b) podstawa a=3,5, krawędź boczna 4: h = √158/4 ≈ 3,14`(med)
+- **Q:** W pewnym graniastosłupie prawidłowym sześć krawędzi ma długość 7, a trzy krawędzie mają długość 4. Graniastosłup nie ma więcej krawędzi. Ostrosłup prawidłowy o tej samej objętości ma cztery krawędzie długości 3,5 i cztery krawędzie długości 4. Oblicz wysokość ostrosłupa. Rozważ wszystkie przypadki.
+- **opus reasoning:** Graniastosłup ma 9 krawędzi → prawidłowy trójkątny: 6 krawędzi podstaw = 7, 3 krawędzie boczne = 4. Ostrosłup ma 8 krawędzi → prawidłowy czworokątny (kwadrat w podstawie): 4 krawędzie podstawy + 4 krawędzie boczne, czyli para {3,5; 4}. Przekątna kwadratu = a 2 , odległość środka od wierzchołka = a 2 2 , więc h 2 = l 2 - a 2 2 . a) a=4, l=3,5: h 2 = 12,25 - 8 = 4,25 , h = √17/2 ≈ 2,06. b) a=3,5, l=4: h 2 = 16 - 6,125 = 9,875 , h = √158/4 ≈ 3,14. (Uwaga: podana „ta sama objętość” jest niespójna — V graniastosłupa = 49√3 ≈ 84,9, a każdego z ostrosłupów ≈ 11–13; wysokość liczona jest z krawędzi.)
 
 ### `aff9ae09` · szkolny_2018_podkarpackie_2_q1 · _closed_single_
 - **key:** `B` · **sonnet:** `C`(high) · **opus:** `C`(high)
@@ -120,6 +125,11 @@ Opus re-solved the 739 contested questions **blind** (never shown the key or Son
 - **choices:** 1) Jeden z wierzchołków tego równoległoboku ma współrzędne ( − 2 , 0 ) . · 2) Obwód tego równoległoboku jest równy 2 5 + 2 10 · 3) Pole tego równoległoboku jest równe 28.
 - **opus reasoning:** Środek symetrii S = ( 2 , 1 ) jest środkiem przekątnych, więc C = 2 S − A = ( − 2 , 2 ) oraz D = 2 S − B = ( 0 , − 2 ) . (1) Wierzchołki to (6,0),(4,4),(−2,2),(0,−2) — żaden nie ma współrzędnych (−2,0) → F. (2) AB = 20 = 2 5 , BC = 40 = 2 10 , obwód = 4 5 + 4 10 , a nie 2 5 + 2 10 → F. (3) Pole = |iloczyn wektorowy AB → =(−2,4), BC → =(−6,−2)| = |(−2)(−2)−(4)(−6)| = 28 → P.
 
+### `a21eaa1f` · wojewodzki_2023_mazowieckie_q8 · _open_
+- **key:** `Dwie różne siatki czworościanu — pięciokąt należy podzielić dorysowanymi odcinkami na cztery trójkąty tworzące siatkę (dwa różne podziały dają dwa różne czworościany)` · **sonnet:** `Rys.1: z jednego wierzchołka pięciokąta poprowadzić obie przekątne (dzielą kąt 108° na trzy kąty 36°, dzieląc pięciokąt na 3 trójkąty), a do boku przeciwległego temu wierzchołkowi dorysować na zewnątrz trójkąt równoboczny o boku równym bokowi pięciokąta – po złożeniu wzdłuż przekątnych i tego boku powstaje czworościan o 4 krawędziach równych bokowi pięciokąta i 2 równych przekątnej. Rys.2: analogiczną konstrukcję wykonać w inny sposób (np. dorysowując dodatkowy trójkąt do innego boku / z innym podziałem), tak by otrzymać czworościan o innym zestawie długości krawędzi (nieprzystający do pierwszego).`(low) · **opus:** `Zadanie konstrukcyjne (rysunek) — przykładowe siatki dwóch różnych czworościanów; odpowiedź niejednoznaczna. Np. na każdym pięciokącie ABCDE zaznaczamy punkt F na jednym z boków i rysujemy odcinki (linie zgięcia) z F do trzech przeciwległych wierzchołków, dzieląc pięciokąt na 4 trójkąty; dla dwóch rysunków wybieramy różne układy linii zgięcia, otrzymując dwa nieprzystające czworościany.`(low)
+- **Q:** Na rysunkach 1. i 2. są przystające pięciokąty foremne. Uzupełnij te rysunki tak, aby otrzymać dwie siatki różnych czworościanów.
+- **opus reasoning:** Siatka czworościanu składa się z 4 trójkątnych ścian i ma 6 krawędzi brzegowych sklejanych w 3 pary. Sam pięciokąt (5 boków) trójkątuje się przekątnymi tylko na 3 trójkąty, więc trzeba poprowadzić linie zgięcia tak, by koniec jednej z nich trafił w wnętrze pewnego boku — dzieli go na dwie krawędzie (razem 6 krawędzi brzegowych). Przykład: w pięciokącie ABCDE obieramy punkt F na boku AB i rysujemy odcinki FC , FD , FE . Powstają 4 trójkąty ( FBC , FCD , FDE , FEA ) tworzące siatkę czworościanu. Aby otrzymać drugi, nieprzystający czworościan, na drugim rysunku wybieramy inne linie zgięcia (np. i …
+
 ### `6d8d923e` · wojewodzki_2024-2025_slaskie_q1 · _open_
 - **key:** `GEOMETRIA EUKLIDESOWA` · **sonnet:** `1. okrąg 2. procent 3. wierzchołek 4. romb 5. wartość bezwzględna 6. trapez 7. przyległe 8. oś liczbowa 9. hektar 10. dzielna 11. ostrosłup 12. trójkąt 13. symetralna 14. wykładnik 15. odcinek 16. ułamek 17. suma 18. prosty 19. mianownik 20. średnica`(low) · **opus:** `1. OKRĄG; 2. PROCENT; 3. WIERZCHOŁEK; 4. ROMB; 5. WARTOŚĆ BEZWZGLĘDNA; 6. TRAPEZ; 7. PRZYLEGŁE; 8. OŚ LICZBOWA; 9. HEKTAR; 10. DZIELNA; 11. OSTROSŁUP; 12. TRÓJKĄT; 13. SYMETRALNA; 14. WYKŁADNIK; 15. ODCINEK; 16. UŁAMEK; 17. SUMA; 18. PROSTY; 19. MIANOWNIK; 20. ŚREDNICA (hasło nie jest oceniane)`(med)
 - **Q:** Rozwiąż krzyżówkę, wpisując litery w odpowiednie pola. Hasło to nazwa dziedziny matematyki, z którą stykasz się podczas lekcji tego przedmiotu w szkole. Hasło nie jest oceniane. Zbiór wszystkich punktów płaszczyzny równoodległych od określonego punktu tej płaszczyzny. 10 razy więcej niż promil. Punkt wspólny kilku krawędzi graniastosłupa. Równoległobok, który nie jest prostokątem, a jego przekątne przecinają się pod kątem prostym. Jej interpretacją geometryczną jest odległość …
@@ -137,19 +147,7 @@ Opus re-solved the 739 contested questions **blind** (never shown the key or Son
 - **choices:** 1) U Staszka odpady stanowiły 50% papierowej kartki. · 2) Każdy bok prostokątnej kartki miał długość mniejszą niż 40 cm. · 3) Obwód prostokątnej kartki wynosił 112 cm.
 - **opus reasoning:** Największy romb wpisany w prostokąt ma wierzchołki w środkach boków, więc prostokąt ma wymiary równe przekątnym: 40 cm × 30 cm. 1) Pole rombu = 1 2 · 30 · 40 = 600 ; pole prostokąta = 1200 ; odpady = 600 = 50 % → P. 2) Boki prostokąta to 40 cm i 30 cm; bok 40 cm nie jest mniejszy niż 40 → F. 3) Obwód = 2 ( 40 + 30 ) = 140 cm, nie 112 → F.
 
-## THREE-WAY SPLIT — key, Sonnet, Opus all differ (needs human) (11)
-
-### `ef8b9007` · rejonowy_2019_opolskie_q9 · _open_
-- **key:** `21 m` · **sonnet:** `650 cm (6,5 m)`(low) · **opus:** `21 m (2100 cm)`(high)
-- **Q:** Do ułożenia chodnika wykorzystano prostokątne płyty kamienne o wymiarach 35 cm × 60 cm. Płyty układano kolejno tak, jak na rysunku, na zewnątrz szerszą stroną do brzegu, a po środku węższą. W ten sposób ułożono segment, który miał kształt pełnego prostokąta. Chodnik zakończono układać, gdy ułożono 5 takich segmentów. Jakiej długości chodnik ułożono?
-- **opus reasoning:** Płyty przy obu brzegach leżą dłuższym bokiem wzdłuż chodnika, więc styki wypadają co 60 cm ; płyty w środku leżą krótszym bokiem wzdłuż, więc ich styki wypadają co 35 cm . Szerokość chodnika to 35 + 60 + 35 = 130 cm. Pełny prostokąt (segment) powstaje tam, gdzie styki obu rzędów pokrywają się, czyli po długości równej NWW ( 60 , 35 ) = 420 cm. Sprawdzenie: 7+7 płyt na brzegach i 12 w środku = 26 płyt, pole 26 · 2100 = 54600 = 420 · 130 cm². 5 segmentów daje długość 5 · 420 = 2100 cm = 21 m.
-- **sonnet reasoning:** Segment składa się z 7 płyt 35×60 cm ułożonych w 3 pasach: skrajne (2 płyty, szerszym bokiem 60 cm poziomo) mają wysokość 35 cm każdy, środkowy pas (3 płyty obrócone, węższym bokiem 35 cm poziomo) ma wysokość 60 cm. Długość jednego segmentu = 35+60+35 = 130 cm. Dla 5 segmentów: 5·130 = 650 cm = 6,5 m. (Niepewność: rysunek w wyodrębnionym pliku ma zniekształconą/niekompletną prawą krawędź środkoweg …
-
-### `c583d3c3` · rejonowy_2025_lodzkie_q9 · _open_
-- **key:** `H₁ = 147/16·√3 lub H₂ = 12√3 (przy podanych danych taki ostrosłup w rzeczywistości nie istnieje)` · **sonnet:** `Przypadek 1 (podstawa 3,5; krawędź boczna 4): h = √158/4 ≈ 3,14; Przypadek 2 (podstawa 4; krawędź boczna 3,5): h = √17/2 ≈ 2,06`(low) · **opus:** `Dwa przypadki (ostrosłup prawidłowy czworokątny): a) podstawa a=4, krawędź boczna 3,5: h = √17/2 ≈ 2,06; b) podstawa a=3,5, krawędź boczna 4: h = √158/4 ≈ 3,14`(med)
-- **Q:** W pewnym graniastosłupie prawidłowym sześć krawędzi ma długość 7, a trzy krawędzie mają długość 4. Graniastosłup nie ma więcej krawędzi. Ostrosłup prawidłowy o tej samej objętości ma cztery krawędzie długości 3,5 i cztery krawędzie długości 4. Oblicz wysokość ostrosłupa. Rozważ wszystkie przypadki.
-- **opus reasoning:** Graniastosłup ma 9 krawędzi → prawidłowy trójkątny: 6 krawędzi podstaw = 7, 3 krawędzie boczne = 4. Ostrosłup ma 8 krawędzi → prawidłowy czworokątny (kwadrat w podstawie): 4 krawędzie podstawy + 4 krawędzie boczne, czyli para {3,5; 4}. Przekątna kwadratu = a 2 , odległość środka od wierzchołka = a 2 2 , więc h 2 = l 2 - a 2 2 . a) a=4, l=3,5: h 2 = 12,25 - 8 = 4,25 , h = √17/2 ≈ 2,06. b) a=3,5, l=4: h 2 = 16 - 6,125 = 9,875 , h = √158/4 ≈ 3,14. (Uwaga: podana „ta sama objętość” jest niespójna — V graniastosłupa = 49√3 ≈ 84,9, a każdego z ostrosłupów ≈ 11–13; wysokość liczona jest z krawędzi.)
-- **sonnet reasoning:** Graniastosłup: 6 krawędzi=7 to boki dwóch trójkątów równobocznych (podstawy), 3 krawędzie=4 to wysokość – prawidłowy graniastosłup trójkątny o V=49√3. Ostrosłup ma 4+4=8 krawędzi → podstawa kwadratowa. Dwa przypadki przypisania: podstawa a, krawędź boczna b. h=√(b² - a²/2): dla a=3,5,b=4: h=√(16-6,125)=√9,875=√158/4≈3,14; dla a=4,b=3,5: h=√(12,25-8)=√4,25=√17/2≈2,06.
+## THREE-WAY SPLIT — key, Sonnet, Opus all differ (needs human) (7)
 
 ### `b3229c02` · szkolny_2013-2014_slaskie_q16 · _open_
 - **key:** `A. południowo-wschodnim;  B. północno-wschodniej (dopuszczalne: północnej)` · **sonnet:** `A. w kierunku południowo-wschodnim; B. od strony północno-wschodniej`(low) · **opus:** `A. na południowy wschód (zgodnie ze strzałką i spadkiem terenu); B. od strony północno-wschodniej (szeroko rozstawione poziomice)`(low)
@@ -196,19 +194,7 @@ Opus re-solved the 739 contested questions **blind** (never shown the key or Son
 - **opus reasoning:** Wiek Kasi: 7 2 − | 5 − 5 2 | + ( − 2 ) 3 − 5 0 = 49 − |5 − 25| + (−8) − 1 = 49 − 20 − 8 − 1 = 20. Wiek Eli różni się o 4, więc 16 lub 24; Piotr = 2·Ela. Przypadek Ela = 16: Piotr = 32, średnia = (20+16+32)/3 = 68/3 ≈ 22,67. Przypadek Ela = 24: Piotr = 48, średnia = (20+24+48)/3 = 92/3 ≈ 30,67.
 - **sonnet reasoning:** Wiek Kasi: 7² − |5−5²| + (−2)³ − 5⁰ = 49 − 20 − 8 − 1 = 20 lat. Przyjmując, że Ela jest starsza o 4 lata: Ela=24, Piotr=2·24=48 (kierunek różnicy wieku nie jest jednoznacznie podany w treści). Średnia: (20+24+48)/3 = 92/3 ≈ 30,67 roku.
 
-### `a21eaa1f` · wojewodzki_2023_mazowieckie_q8 · _open_
-- **key:** `Dwie różne siatki czworościanu — pięciokąt należy podzielić dorysowanymi odcinkami na cztery trójkąty tworzące siatkę (dwa różne podziały dają dwa różne czworościany)` · **sonnet:** `Rys.1: z jednego wierzchołka pięciokąta poprowadzić obie przekątne (dzielą kąt 108° na trzy kąty 36°, dzieląc pięciokąt na 3 trójkąty), a do boku przeciwległego temu wierzchołkowi dorysować na zewnątrz trójkąt równoboczny o boku równym bokowi pięciokąta – po złożeniu wzdłuż przekątnych i tego boku powstaje czworościan o 4 krawędziach równych bokowi pięciokąta i 2 równych przekątnej. Rys.2: analogiczną konstrukcję wykonać w inny sposób (np. dorysowując dodatkowy trójkąt do innego boku / z innym podziałem), tak by otrzymać czworościan o innym zestawie długości krawędzi (nieprzystający do pierwszego).`(low) · **opus:** `Zadanie konstrukcyjne (rysunek) — przykładowe siatki dwóch różnych czworościanów; odpowiedź niejednoznaczna. Np. na każdym pięciokącie ABCDE zaznaczamy punkt F na jednym z boków i rysujemy odcinki (linie zgięcia) z F do trzech przeciwległych wierzchołków, dzieląc pięciokąt na 4 trójkąty; dla dwóch rysunków wybieramy różne układy linii zgięcia, otrzymując dwa nieprzystające czworościany.`(low)
-- **Q:** Na rysunkach 1. i 2. są przystające pięciokąty foremne. Uzupełnij te rysunki tak, aby otrzymać dwie siatki różnych czworościanów.
-- **opus reasoning:** Siatka czworościanu składa się z 4 trójkątnych ścian i ma 6 krawędzi brzegowych sklejanych w 3 pary. Sam pięciokąt (5 boków) trójkątuje się przekątnymi tylko na 3 trójkąty, więc trzeba poprowadzić linie zgięcia tak, by koniec jednej z nich trafił w wnętrze pewnego boku — dzieli go na dwie krawędzie (razem 6 krawędzi brzegowych). Przykład: w pięciokącie ABCDE obieramy punkt F na boku AB i rysujemy odcinki FC , FD , FE . Powstają 4 trójkąty ( FBC , FCD , FDE , FEA ) tworzące siatkę czworościanu. Aby otrzymać drugi, nieprzystający czworościan, na drugim rysunku wybieramy inne linie zgięcia (np. i …
-- **sonnet reasoning:** To zadanie konstrukcyjne (rysunkowe) — poprawność sprawdza się przez złożenie siatki w bryłę, nie da się jej jednoznacznie zweryfikować bez rysunku ucznia. Standardowa konstrukcja: przekątne z jednego wierzchołka dzielą pięciokąt na 3 trójkąty (2 przystające „złote” trójkąty i jeden środkowy), a doklejenie trójkąta równobocznego do boku naprzeciw tego wierzchołka domyka czworościan. Dla drugiej, r …
-
-### `b2dea76b` · wojewodzki_2024-2025_malopolskie_q15 · _open_
-- **key:** `a) 4(√3 − 1) cm²;  b) ⅓√2 + ⅔;  c) a = 2(2√3 − 1) cm;  d) b = 2(√3 − 1) cm` · **sonnet:** `a) Pole ABCD = 4√3-4 cm²; b) obwód I : obwód II = √2; c) a ≈ 2+2√3 cm; d) b = 2√2 cm`(low) · **opus:** `a) 4√3 − 4 cm² (≈ 2,93 cm²); b) (√2 + 1)/2 = ½√2 + ½; c) a = 2√3 cm (≈ 3,46 cm); d) b = 2√3 − 2 cm (≈ 1,46 cm)`(low)
-- **Q:** W trójkącie równobocznym ACD o boku długości 4 cm zaznaczono punkt B tak, że trójkąt ACB jest prostokątny i równoramienny (rysunek obok). a) (2p) Oblicz pole czworokąta ABCD . Zapisz obliczenia. Filip wyciął z papieru 12 czworokątów przystających do czworokąta ABCD i ułożył z nich dwa dwunastokąty: dwunastokąt I oraz dwunastokąt II (rysunek poniżej). b) (3p) Oblicz stosunek obwodu dwunastokąta I do obwodu dwunastokąta II. Zapisz obliczenia. Odpowiedź przedstaw w postaci p q + …
-- **opus reasoning:** Czworokąt ABCD (dart): ACD równoboczny bok 4; ACB prostokątny równoramienny z kątem prostym w B, więc AC=4 to przeciwprostokątna, przyprostokątne AB=BC=4/√2=2√2. Boki DA=CD=4, kąty A=C=15°, D=60°, kąt wklęsły B=270°. a) Pole ABCD = pole(ACD) − pole(ACB) = (√3/4)·4² − ½·(2√2)² = 4√3 − 4 ≈ 2,93 cm². b) Dwunastokąt II (gwiazda) = 6 dartów złączonych wierzchołkami D (60°·6=360°) w środku; na obwodzie 12 krótkich boków: obwód II = 12·2√2 = 24√2. Dwunastokąt I ma na brzegu 6 boków długich i 6 krótkich (dzielone: 3 długie + 3 krótkie), więc obwód I = 6·4 + 6·2√2 = 24 + 12√2. Stosunek = (24+12√2)/(24√ …
-- **sonnet reasoning:** a) Trójkąt ACD równoboczny bok 4: pole=4√3. Trójkąt ACB prostokątny równoramienny, przeciwprostokątna AC=4, więc AB=BC=2√2, pole=(1/2)(2√2)(2√2)=4. Pole ABCD (trójkąt ACD minus ABC) = 4√3-4. b,c,d) Kąty czworokąta ABCD: przy D=60°, przy A i C po 15°, przy B (wklęsły)=270°; boki AB=BC=2√2 (krótkie), AD=DC=4 (długie). Sześć egzemplarzy złożonych wierzchołkami D (6·60°=360°) tworzy gwiaździsty dwunas …
-
-## NEW DISPUTE — Opus disputes a low-conf answer that had agreed with the key (3)
+## NEW DISPUTE — Opus disputes a low-conf answer that had agreed with the key (1)
 
 ### `281b5059` · szkolny_2019_podkarpackie_q10 · _closed_single_
 - **key:** `C` · **sonnet:** `C`(low) · **opus:** `A`(med)
@@ -217,19 +203,7 @@ Opus re-solved the 739 contested questions **blind** (never shown the key or Son
 - **opus reasoning:** Bryła jest szeroka na 3 i wysoka na 3, więc najmniejszy pełny sześcian, w którym się mieści, ma bok 3: 3 3 = 27 kostek. Bryła to warstwa głębokości 2 o profilu wysokości 3, 1, 2 z przodu, czyli ( 3 + 1 + 2 ) · 2 = 12 kostek. Aby otrzymać pełny sześcian, trzeba dokleić 27 − 12 = 15 kostek. Odpowiedzi 52 i 54 zakładają błędnie sześcian 4×4×4.
 - **sonnet reasoning:** Bryła mieści się w prostopadłościanie o wymiarach 4×4×4 (najdłuższy wymiar = 4 jednostki), więc do wypełnienia sześcianu potrzeba sześcianu 4×4×4=64 kostek. Bryła składa się z ok. 12 kostek, więc trzeba dokleić około 64−12=52 kostki.
 
-### `de27f020` · szkolny_2022-2023_swietokrzyskie_q14 · _open_
-- **key:** `54° (z wierzchołka kąta rozwartego) i 126° (z wierzchołka kąta ostrego)` · **sonnet:** `54° lub 126°`(low) · **opus:** `54°`(high)
-- **Q:** W równoległoboku kąt ostry ma miarę o 72° mniejszą niż kąt rozwarty. Oblicz miarę kąta, jaki tworzą wysokości tego równoległoboku poprowadzone z jednego wierzchołka. Sporządź odpowiedni rysunek i zapisz obliczenia.
-- **opus reasoning:** Kąt ostry jest o 72° mniejszy od rozwartego oraz ich suma to 180°, więc kąt ostry = 54°, rozwarty = 126°. Wysokości poprowadzone z wierzchołka kąta rozwartego wraz z przeciwległym wierzchołkiem tworzą czworokąt z dwoma kątami prostymi i kątem 126°. Kąt między wysokościami = 360° − 90° − 90° − 126° = 54° (równy kątowi ostremu równoległoboku).
-- **sonnet reasoning:** Kąt ostry α i rozwarty β spełniają α+β=180°, β−α=72° → α=54°, β=126°. Wysokości poprowadzone z wierzchołka tworzą z bokami dwa kąty proste; w czworokącie (wierzchołek, dwa spodki wysokości, przeciwległy wierzchołek) suma kątów=360°, więc kąt między wysokościami = 180° − (kąt równoległoboku przy przeciwległym wierzchołku). Z wierzchołka kąta rozwartego (126°) kąt między wysokościami = 54°; z wierzc …
-
-### `407e1bd6` · wojewodzki_2016-2017_slaskie_q2 · _open_
-- **key:** `A) 100 : [(5+20)·2] − 2 = 0; B) 100 : [2 : (10+2)] · 10 = 6000; C) (1000·8 : 100) · 4 : (10000 : 125) = 4` · **sonnet:** `A) 100:(5+20)·(2−2)=0; B) 100:(2:((10+2)·10))=6000; C) 1000·8:100·4:(10000:125)=4`(low) · **opus:** `A) 0, np. 100 : ((5 + 20) · 2) − 2 = 0; B) 6000, np. 100 : (2 : ((10 + 2) · 10)) = 6000; C) 1000 · 8 : 100 · 4 : (10000 : 125) = 4`(high)
-- **Q:** W poniższych wyrażeniach arytmetycznych wstaw nawiasy tak, aby wynik był A) możliwie najmniejszy: 100 : 5 + 20 · 2 − 2 B) możliwie największy: 100 : 2 : 10 + 2 · 10 C) równy 4: 1000 · 8 : 100 · 4 : 10000 : 125
-- **opus reasoning:** A) Aby zminimalizować, dzielimy 100 przez możliwie duży dzielnik: 100 : ( ( 5 + 20 ) · 2 ) − 2 = 100 : 50 − 2 = 2 − 2 = 0 . Część przed odejmowaniem jest zawsze ≥ 2, więc mniej niż 0 się nie da; minimum = 0. B) Aby zmaksymalizować, dzielimy 100 przez bardzo małą liczbę: 100 : ( 2 : ( ( 10 + 2 ) · 10 ) ) . Tu ( 10 + 2 ) · 10 = 120 , 2 : 120 = 1 60 , więc 100 · 60 = 6000 . Maksimum = 6000. C) 1000 · 8 : 100 · 4 : ( 10000 : 125 ) : kolejno 1000 · 8 = 8000 , 8000 : 100 = 80 , 80 · 4 = 320 , 10000 : 125 = 80 , 320 : 80 = 4 .
-- **sonnet reasoning:** A) Zeruj drugi nawias: 100:(5+20)·(2−2)=4·0=0 (mniej niż wynik przy pojedynczym nawiasie, np. 100:(5+20)·2−2=6). B) Zagnieżdżony dwukropek działa jak odwrócenie: 100:(2:((10+2)·10))=100:(2:120)=100:(1/60)=6000. C) 1000·8:100·4:(10000:125)=8000:100·4:80=80·4:80=320:80=4.
-
-## KEY CONFIRMED — Opus sides with the key; Sonnet had erred (32)
+## KEY CONFIRMED — Opus sides with the key; Sonnet had erred (33)
 
 ### `3549f8c1` · rejonowy_2012-2013_malopolskie_q12 · _closed_single_
 - **key:** `C` · **sonnet:** `B`(high) · **opus:** `C`(high)
@@ -254,6 +228,11 @@ Opus re-solved the 739 contested questions **blind** (never shown the key or Son
 - **Q:** Liczba a = ( 4,2 · 10 15 ) · ( 1,5 · 10 21 ) 0,2 · 10 49 , zapisana w notacji wykładniczej, jest równa:
 - **choices:** A) 31,5 · 10 − 13 · B) 3,15 · 10 − 14 · C) 3,15 · 10 − 12 · D) 31,5 · 10 85
 - **opus reasoning:** Licznik: 4,2 · 1,5 = 6,3 , a 10 15 · 10 21 = 10 36 , czyli licznik = 6,3 · 10 36 . Dzieląc: 6,3 ÷ 0,2 = 31,5 , a 10 36 ÷ 10 49 = 10 − 13 . Wynik 31,5 · 10 − 13 w notacji wykładniczej to 3,15 · 10 − 12 (odp. C).
+
+### `ef8b9007` · rejonowy_2019_opolskie_q9 · _open_
+- **key:** `21 m` · **sonnet:** `650 cm (6,5 m)`(low) · **opus:** `21 m (2100 cm)`(high)
+- **Q:** Do ułożenia chodnika wykorzystano prostokątne płyty kamienne o wymiarach 35 cm × 60 cm. Płyty układano kolejno tak, jak na rysunku, na zewnątrz szerszą stroną do brzegu, a po środku węższą. W ten sposób ułożono segment, który miał kształt pełnego prostokąta. Chodnik zakończono układać, gdy ułożono 5 takich segmentów. Jakiej długości chodnik ułożono?
+- **opus reasoning:** Płyty przy obu brzegach leżą dłuższym bokiem wzdłuż chodnika, więc styki wypadają co 60 cm ; płyty w środku leżą krótszym bokiem wzdłuż, więc ich styki wypadają co 35 cm . Szerokość chodnika to 35 + 60 + 35 = 130 cm. Pełny prostokąt (segment) powstaje tam, gdzie styki obu rzędów pokrywają się, czyli po długości równej NWW ( 60 , 35 ) = 420 cm. Sprawdzenie: 7+7 płyt na brzegach i 12 w środku = 26 płyt, pole 26 · 2100 = 54600 = 420 · 130 cm². 5 segmentów daje długość 5 · 420 = 2100 cm = 21 m.
 
 ### `3bd325d2` · rejonowy_2020-2021_slaskie_q6 · _true_false_
 - **key:** `PPP` · **sonnet:** `PPF`(med) · **opus:** `PPP`(med)
@@ -385,11 +364,6 @@ Opus re-solved the 739 contested questions **blind** (never shown the key or Son
 - **choices:** A) β = 2 α · B) α = 3 2 β · C) β = 3 2 α · D) α = β
 - **opus reasoning:** Trapez równoramienny: ramiona i krótsza podstawa równe (AB=BC=CD), przekątna AC. Z BC ∥ AD: ∠ B C A = ∠ C A D (kąty naprzemianległe). Trójkąt ABC jest równoramienny (AB=BC), więc ∠ B A C = ∠ B C A = α . Zatem kąt przy podstawie ∠ B A D = 2 α , a z równoramienności β = ∠ A D C = 2 α .
 
-### `8b0a2189` · wojewodzki_2022-2023_malopolskie_q16 · _open_
-- **key:** `a) pokolorowanie siatek (każdy kolor raz, kolejność n, c, z wokół białej podstawy taka sama w obu siatkach);  b) NIE;  c) I: 1, II: 0, III: 2, IV: 1;  d) 3 wielościany, prawdopodobieństwo 3/4` · **sonnet:** `a) biały w środkowym trójkącie (podstawa) w obu siatkach; pozostałe trzy kolory (b,c,n) rozmieszczone w bokach tak, by ich cykliczna kolejność w siatce I była odwrotna niż w siatce II (np. siatka I: góra=c, lewy dół=n, prawy dół=z; siatka II: góra=c, lewy dół=z, prawy dół=n) — daje przeciwną chiralność obu ostrosłupów. b) NIE. c) I. dokładnie 3 pary zgodne: 1 wielościan; II. dokładnie 2 pary zgodne: 0 (niemożliwe); III. dokładnie 1 para zgodna: 2 wielościany; IV. brak pary zgodnej: 1 wielościan. d) 3 wielościany mają nieparzystą liczbę par zgodnych; prawdopodobieństwo losowania takiego = 3/4.`(low) · **opus:** `a) przykład: obie siatki środek b (biały), siatka I rogi c, n, z; siatka II rogi c, z, n (kolory różnią się transpozycją) — daje dokładnie jedną parę zgodną; b) Nie; c) I) 1, II) 0, III) 2, IV) 1; d) 3 wielościany, prawdopodobieństwo 3/4`(med)
-- **Q:** Adam, Bartek, Czesiek i Darek mieli po dwa ostrosłupy trójkątne, których wszystkie ściany były przystającymi trójkątami równobocznymi. W każdym ostrosłupie ściany były z zewnątrz pomalowane na kolor biały, zielony, niebieski lub czerwony i każda ściana była w innym kolorze. Następnie każdy z chłopców skleił swoje dwa ostrosłupy białymi podstawami tak, że wierzchołki ścian pomalowanych na biało się pokryły. W dalszej części zadania parą zgodną nazywamy takie dwie ściany, po je …
-- **opus reasoning:** Po sklejeniu białymi podstawami pary zgodne mogą powstać tylko wzdłuż 3 krawędzi wspólnej podstawy. Kolory ścian górnego i dolnego czworościanu to permutacje zbioru {zielony, niebieski, czerwony}, więc liczba zgodności = liczba punktów stałych względnej permutacji ∈ {0, 1, 3} — dokładnie 2 jest niemożliwe (stąd II = 0). Różnych brył: 1 z trzema parami, 6 z jedną, 2 z zerem. Warunki: (ii)+(iii) dają dokładnie 2 bryły z jedną parą; (i) wymaga bryły z ≥2 parami, czyli z 3 parami, a taka bryła jest tylko jedna, więc dokładnie 1 bryła z trzema parami; zostaje 1 bryła bez pary. Zatem c) I=1, II=0, I …
-
 ### `16ba9b1a` · wojewodzki_2022_lubuskie_q21 · _true_false_
 - **key:** `PP` · **sonnet:** `FF`(med) · **opus:** `PP`(high)
 - **Q:** Prostokąt o bokach: 5 x 2 + x + 3 oraz 8 x 2 + 9 został podzielony odcinkami na cztery mniejsze prostokąty tak, jak pokazano na rysunku. W oparciu o te dane oceń, czy informacje dotyczące zacieniowanego prostokąta są prawdziwe.
@@ -408,6 +382,11 @@ Opus re-solved the 739 contested questions **blind** (never shown the key or Son
 - **choices:** 1) Długość jednej z wysokości tego ostrosłupa jest równa 12 cm. · 2) Objętość ostrosłupa jest równa 72 cm³. · 3) Suma długości krawędzi ostrosłupa wynosi ( 6 2 + 12 5 + 36 ) cm.
 - **opus reasoning:** Kwadrat 12×12 (pole 144) jest siatką ostrosłupa trójkątnego — „narożnika” o trzech wzajemnie prostopadłych krawędziach 6, 6 i 12 cm. Ściany: trójkąty prostokątne o przyprostokątnych 6&6 (pole 18), 6&12 (pole 36), 6&12 (pole 36) oraz trójkąt o bokach 6 2 , 6 5 , 6 5 (pole 54). Suma pól = 18+36+36+54 = 144 ✓. (1) Biorąc za podstawę trójkąt prostokątny o przyprostokątnych 6&6, krawędź 12 cm jest do niej prostopadła, więc jedna z wysokości = 12 cm — PRAWDA . (2) Objętość = 1 3 ·18·12 = 72 cm³ — PRAWDA . (3) Suma krawędzi = 6+6+12+ 6 2 + 6 5 + 6 5 = 24 + 6 2 + 12 5 , a nie 36 + 6 2 + 12 5 — FAŁSZ .
 
+### `b2dea76b` · wojewodzki_2024-2025_malopolskie_q15 · _open_
+- **key:** `a) 4(√3 − 1) cm²;  b) ⅓√2 + ⅔;  c) a = 2(2√3 − 1) cm;  d) b = 2(√3 − 1) cm` · **sonnet:** `a) Pole ABCD = 4√3-4 cm²; b) obwód I : obwód II = √2; c) a ≈ 2+2√3 cm; d) b = 2√2 cm`(low) · **opus:** `a) 4√3 − 4 cm² (≈ 2,93 cm²); b) (√2 + 1)/2 = ½√2 + ½; c) a = 2√3 cm (≈ 3,46 cm); d) b = 2√3 − 2 cm (≈ 1,46 cm)`(low)
+- **Q:** W trójkącie równobocznym ACD o boku długości 4 cm zaznaczono punkt B tak, że trójkąt ACB jest prostokątny i równoramienny (rysunek obok). a) (2p) Oblicz pole czworokąta ABCD . Zapisz obliczenia. Filip wyciął z papieru 12 czworokątów przystających do czworokąta ABCD i ułożył z nich dwa dwunastokąty: dwunastokąt I oraz dwunastokąt II (rysunek poniżej). b) (3p) Oblicz stosunek obwodu dwunastokąta I do obwodu dwunastokąta II. Zapisz obliczenia. Odpowiedź przedstaw w postaci p q + …
+- **opus reasoning:** Czworokąt ABCD (dart): ACD równoboczny bok 4; ACB prostokątny równoramienny z kątem prostym w B, więc AC=4 to przeciwprostokątna, przyprostokątne AB=BC=4/√2=2√2. Boki DA=CD=4, kąty A=C=15°, D=60°, kąt wklęsły B=270°. a) Pole ABCD = pole(ACD) − pole(ACB) = (√3/4)·4² − ½·(2√2)² = 4√3 − 4 ≈ 2,93 cm². b) Dwunastokąt II (gwiazda) = 6 dartów złączonych wierzchołkami D (60°·6=360°) w środku; na obwodzie 12 krótkich boków: obwód II = 12·2√2 = 24√2. Dwunastokąt I ma na brzegu 6 boków długich i 6 krótkich (dzielone: 3 długie + 3 krótkie), więc obwód I = 6·4 + 6·2√2 = 24 + 12√2. Stosunek = (24+12√2)/(24√ …
+
 ### `4521f604` · wojewodzki_2024_lubelskie_q7 · _true_false_
 - **key:** `FFFF` · **sonnet:** `PFFF`(med) · **opus:** `FFFF`(high)
 - **Q:** Poniżej podane są zdania dotyczące ostrosłupów. Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.
@@ -420,112 +399,27 @@ Opus re-solved the 739 contested questions **blind** (never shown the key or Son
 - **choices:** 1) − | − 196 | · 2) 5,1 · 10 − 3 · 3) ( 1 − 2 ) 2
 - **opus reasoning:** 1) − | − 196 | = − | − 14 | = − 14 — wymierna, ale ujemna → F. 2) 5,1 · 10 − 3 = 0,0051 — wymierna i dodatnia → P. 3) ( 1 − 2 ) 2 = 3 − 2 2 — niewymierna → F.
 
-## KEYLESS SPLIT — no key; Opus and Sonnet disagree (low confidence) (50)
+## KEYLESS SPLIT — no key; Opus and Sonnet disagree (low confidence) (19)
 
 ### `d091ef6c` · rejonowy_2012_podkarpackie_q23 · _open_
 - **key:** `(none)` · **sonnet:** `27 czekoladek; z pozostałych 8: Ola powinna dostać 3, Ania 5 (Kasia 0)`(high) · **opus:** `27 czekoladek; Kasia ma już 9 (sprawiedliwo), z 8 pozostałych Oli należą się 3, a Ani 5`(high)
 - **Q:** Mama kupiła swoim trzem córkom Kasi, Oli i Ani czekoladki. Ponieważ dziewczynki nie przyszły jeszcze ze szkoły położyła czekoladki na stole w kuchni. Napisała karteczkę, aby podzieliły czekoladki równo między siebie i wyszła. Gdy przyszła ze szkoły Kasia zobaczyła na stole czekoladki, zgodnie z prośbą mamy przeliczyła je, wzięła jedną trzecią i poszła do koleżanki. Następnie przyszła ze szkoły Ola, zobaczyła na stole czekoladki, przeliczyła je, wzięła jedną trzecią i poszła d …
 - **opus reasoning:** Po każdej zostaje 2/3: ( 2 3 ) ³ x = 8 27 x = 8 ⇒ x = 27 . Sprawiedliwy podział = 9 na osobę. Kasia wzięła 9, Ola 6, Ania 4. Z 8 pozostałych: Ola +3, Ania +5 (każda ma po 9).
 
-### `cc428018` · rejonowy_2012_podlaskie_sp_q17 · _open_
-- **key:** `(none)` · **sonnet:** `Zuzia ma więcej o 4,5 zł`(high) · **opus:** `Zuzia ma więcej o 4,50 zł`(high)
-- **Q:** Ola i Zuzia dostały od babci 50 zł. Ola jest starsza, więc wzięła 70% otrzymanej kwoty. Następnego dnia oddała siostrze 35% swoich pieniędzy. Oblicz, która siostra ma teraz więcej pieniędzy i o ile.
-- **opus reasoning:** Ola: 70% z 50 = 35 zł, Zuzia: 15 zł. Ola oddaje 35% z 35 = 12,25 zł. Ola: 35−12,25 = 22,75 zł; Zuzia: 15+12,25 = 27,25 zł. Zuzia ma więcej o 27,25−22,75 = 4,50 zł.
-
 ### `45dc25db` · rejonowy_2012_podlaskie_sp_q19 · _open_
 - **key:** `(none)` · **sonnet:** `125°`(high) · **opus:** `135°`(high)
 - **Q:** W trójkącie prostokątnym ABC przedłużono przeciwprostokątną AB i odłożono odcinek AD o długości równej przyprostokątnej AC oraz odcinek BE o długości równej przyprostokątnej BC . Miara kąta CAB jest równa 40°. Wykonaj rysunek. Oblicz, jaką miarę ma kąt DCE ?
 - **opus reasoning:** Kąt prosty przy C. Trójkąt ACD (AC=AD) ma kąt przy A = 180°−40° = 140°, więc ∠ACD = 20°. Trójkąt BCE (BC=BE): kąt przy B = 180°−50° = 130°, więc ∠BCE = 25°. ∠DCE = 20° + 90° + 25° = 135°.
-
-### `e2504025` · rejonowy_2013_podlaskie_gim_q18 · _open_
-- **key:** `(none)` · **sonnet:** `Kąty deltoidu: 150°, 75°, 60°, 75° (kąt między krótszymi bokami 150°, kąt między dłuższymi bokami 60°, pozostałe dwa kąty po 75°).`(med) · **opus:** `60°, 75°, 75°, 150°`(high)
-- **Q:** W deltoidzie przekątne są równe dłuższym bokom. Oblicz miary kątów wewnętrznych tego deltoidu.
-- **opus reasoning:** Trójkąt utworzony przez dłuższe boki i krótszą przekątną jest równoboczny (kąt 60°), a przy dłuższej przekątnej powstaje kąt 150°; kąty boczne 60°+15°=75°. Suma 360°.
-
-### `6dcf112a` · rejonowy_2013_podlaskie_sp_q16 · _open_
-- **key:** `(none)` · **sonnet:** `13.11.2013, godz. 05:46`(high) · **opus:** `13.11.2013, godz. 5:46`(high)
-- **Q:** Jest dzień 11.11.2013 godzina 20:13. Jaka będzie data i godzina po upływie 2013 minut?
-- **opus reasoning:** 2013 min = 33 h 33 min. 11.11 20:13 + 33 h 33 min = 13.11.2013 godz. 5:46.
-
-### `249907b6` · rejonowy_2018_podkarpackie_q20 · _open_
-- **key:** `(none)` · **sonnet:** `1. -8; 2. -106; 3. 15`(high) · **opus:** `1) -8; 2) -106; 3) 15`(high)
-- **Q:** Poniżej zapisano trzy wyrażenia. Oblicz wartości tych wyrażeń, a następnie wpisz otrzymane wyniki w odpowiednie miejsca. ( - 12,5 ) · ( - 32 ) : ( - 100 ) · 2 ( - 200 ) : 2 - ( - 300 ) : ( - 50 ) · ( - 2 ) - [ 11 - 1 · ( - 5 ) - ( - 2 ) ] ( 2 - 2 5 ) 2 · 5 2 - ( - 7 ) 2 Wyrażenie: 1. ma wartość równą…… 2. ma wartość równą…… 3. ma wartość równą……
-- **opus reasoning:** 1) ( - 12 , 5 ) · ( - 32 ) = 400 , 400 ÷ ( - 100 ) · 2 = - 8 . 2) - 100 - ( - 12 ) - 18 = - 106 . 3) ( 8 5 ) 2 · 25 - 49 = 64 - 49 = 15 .
-
-### `3c889e06` · rejonowy_2019_lodzkie_q15 · _open_
-- **key:** `(none)` · **sonnet:** `P = 25(3+√3)/4 ≈ 29,58; V = 125√2/24 ≈ 7,37`(high) · **opus:** `P = (75 + 25√3)/4 ≈ 29,58; V = 125√2/24 ≈ 7,37`(high)
-- **Q:** Dany jest ostrosłup prawidłowy trójkątny o krawędzi podstawy 5, w którym krawędzie boczne są parami prostopadłe. Oblicz jego pole i objętość.
-- **opus reasoning:** Krawędzie boczne b parami prostopadłe → krawędź podstawy = b√2 = 5, więc b = 5/√2, b² = 25/2. Ściany boczne to trójkąty prostokątne o przyprostokątnych b: pole każdej = b²/2 = 25/4, trzy = 75/4. Podstawa (bok 5): 25√3/4. Pole całk. = (75+25√3)/4. Objętość = b³/6 = 125√2/24.
-
-### `f50c8bc1` · rejonowy_2020_lodzkie_q15 · _open_
-- **key:** `(none)` · **sonnet:** `(300 + 50√21) cm² ≈ 529,1 cm²`(high) · **opus:** `300 + 50√21 cm² (≈ 529 cm²)`(high)
-- **Q:** Podstawą ostrosłupa jest trójkąt równoboczny o polu 3 dm². Jedna z krawędzi bocznych o długości 15cm jest prostopadła do podstawy. Oblicz pole powierzchni bocznej tej bryły.
-- **opus reasoning:** Pole podstawy a 2 3 4 = 3 dm² → a=2 dm = 20 cm. Krawędź boczna SA⊥podstawa, SA=15 cm. Ściany przy A: prostokątne, po 1 2 · 15 · 20 = 150 cm² (dwie). SB=SC= 15 2 + 20 2 = 25 ; wysokość w ścianie SBC = 25 2 − 10 2 = 5 21 , pole 1 2 · 20 · 5 21 = 50 21 cm². Razem 300 + 50 21 cm².
-
-### `cd199855` · rejonowy_2020_podkarpackie_q13 · _open_
-- **key:** `(none)` · **sonnet:** `x=3; wczoraj: nieobecnych 3, obecnych 27; dzisiaj: nieobecnych 5, obecnych 25; równanie: 5(x+2)=9x−2; 13.3: F, P, P`(high) · **opus:** `13.1. wczoraj: nieobecni x, obecni 9x; dzisiaj: nieobecni x+2, obecni 9x−2 (liczbowo 3/27 oraz 5/25); 13.2. x+2 = 0,2·(9x−2), x=3; 13.3. FPP`(high)
-- **Q:** Wczoraj na lekcji matematyki w klasie 8a uczniów obecnych było 9 razy więcej niż nieobecnych. Dzisiaj liczba uczniów nieobecnych jest o 2 większa niż wczoraj i nieobecni stanowią dzisiaj 20% obecnych. Niech x oznacza liczbę uczniów nieobecnych na lekcji matematyki w dniu wczorajszym. 13.1. Uzupełnij puste miejsc w tabeli (liczba uczniów nieobecnych oraz liczba uczniów obecnych – wczoraj i dzisiaj; wczoraj nieobecnych: x ). 13.2. Zapisz za pomocą równania z niewiadomą x zależn …
-- **opus reasoning:** Wczoraj: nieobecni x, obecni 9x. Dzisiaj nieobecni x+2, obecni 10x−(x+2)=9x−2. Warunek: x + 2 = 0,2 ( 9 x − 2 ) → x=3. Wszystkich uczniów 30. A) obecnych 27, nie 24 (F). B) dziś nieobecnych 5 (P). C) 3 = 10% z 30 (P).
 
 ### `ff16af86` · rejonowy_2020_podkarpackie_q15 · _open_
 - **key:** `(none)` · **sonnet:** `15.1. 3,5²−3·4=0,25; 8,5²−9·10=0,25; 99,5²−99·100=0,25 | 15.2. (n+0,5)²−n(n+1)=0,25 dla naturalnego n | 15.3. dowód przez rozwinięcie: (n+0,5)²−n(n+1)=n²+n+0,25−n²−n=0,25`(high) · **opus:** `15.1. 3,5²−3·4=0,25; 9,5²−9·10=0,25; 99,5²−99·100=0,25. 15.2. (n+0,5)²−n(n+1)=0,25. 15.3. (n+0,5)²−n(n+1)=n²+n+0,25−n²−n=0,25`(high)
 - **Q:** Zauważ, że 1,5 2 − 1 · 2 = 2,25 − 2 = 0,25 2,5 2 − 2 · 3 = 6,25 − 6 = 0,25 15.1. Wykorzystując regułę zastosowaną w powyższych równościach, uzupełnij zapisy: 3,5 2 − … · … = … … − 9 · 10 = … 99,5 2 − … · … = … 15.2. Oznacz przez n dowolną liczbę naturalną i zapisz w postaci ogólnego wzoru zależność zachodzącą w równościach powyżej. 15.3. Udowodnij, że zapisany przez Ciebie wzór jest prawdziwy dla każdej liczby naturalnej n .
 - **opus reasoning:** Reguła: ( n + 0,5 ) 2 − n ( n + 1 ) = 0,25 . Uzupełnienia: n=3, n=9, n=99. Dowód: n 2 + n + 0,25 − n 2 − n = 0,25 .
 
-### `bb2d880e` · rejonowy_2020_podkarpackie_q18 · _open_
-- **key:** `(none)` · **sonnet:** `Pole powierzchni = 216√3 cm² (≈374,1 cm²); objętość = 216(1+√2) cm³ = (216+216√2) cm³ (≈521,4 cm³)`(high) · **opus:** `Pole powierzchni 216√3 cm² (≈374 cm²); objętość 216(1+√2) cm³ = 216+216√2 cm³ (≈521,5 cm³)`(high)
-- **Q:** Na ścianach sześcianu o krawędzi długości 6 cm zbudowano ostrosłupy prawidłowe, których wszystkie ściany boczne są trójkątami równobocznymi (rysunek poniżej). Oblicz pole powierzchni i objętość otrzymanej bryły. Zapisz obliczenia.
-- **opus reasoning:** Ostrosłupy: podstawa 6×6, ściany boczne — trójkąty równoboczne o boku 6. Wysokość ostrosłupa: h 2 = ( 3 3 ) 2 − 3 2 = 18 , h=3√2. Powierzchnia = 24 trójkąty: 24 · 6 2 3 4 = 216 3 . Objętość = sześcian + 6 ostrosłupów: 6 3 + 6 · 1 3 · 36 · 3 2 = 216 + 216 2 .
-
-### `592508cb` · rejonowy_2021_podkarpackie_q18 · _open_
-- **key:** `(none)` · **sonnet:** `a = -15`(high) · **opus:** `a = −15`(high)
-- **Q:** Dla jakiej wartości a rozwiązaniem poniższego równania jest liczba 2? 5 ( 2 x − 3 ) − a x − ( 2 x − 3 ) 2 − 6 = 22 x − 4 x 2 Zapisz obliczenia i odpowiedź.
-- **opus reasoning:** Dla x = 2: 2x−3 = 1, (2x−3)² = 1. Lewa: 5·1 − 2a − 1 − 6 = −2 − 2a. Prawa: 22·2 − 4·4 = 28. −2 − 2a = 28 → a = −15 .
-
 ### `bc9f8b00` · rejonowy_2021_podkarpackie_q19 · _open_
 - **key:** `(none)` · **sonnet:** `≈28,57% (dokładnie 200/7 %)`(high) · **opus:** `o 2/7 ≈ 28,57%`(high)
 - **Q:** Mariusz ma o 40% więcej pieniędzy niż Adam. O ile procent mniej pieniędzy ma Adam od Mariusza? Zapisz obliczenia i odpowiedź.
 - **opus reasoning:** Adam = 100, Mariusz = 140. Różnica = 40. 40/140 = 2/7 ≈ 28,57% mniej.
-
-### `9e8b8662` · rejonowy_2021_podkarpackie_q20 · _open_
-- **key:** `(none)` · **sonnet:** `2√5 cm (≈4,47 cm)`(high) · **opus:** `2√5 cm`(high)
-- **Q:** Pole powierzchni całkowitej sześcianu jest równe 60 cm². Jaką długość ma przekątna jego podstawy? Zapisz obliczenia i odpowiedź.
-- **opus reasoning:** 6a² = 60 → a² = 10 → a = √10. Przekątna podstawy: a√2 = √10·√2 = √20 = 2√5 cm (≈4,47 cm).
-
-### `043822a6` · szkolny_2010-2011_warminsko-mazurskie_q14 · _open_
-- **key:** `(none)` · **sonnet:** `2 godziny 16 minut`(high) · **opus:** `136 minut (2 godziny 16 minut)`(high)
-- **Q:** Zając biegnie 35 razy szybciej niż żółw, który na przebycie trasy wyścigu potrzebuje 2 godzin i 20 minut. Z jakim wyprzedzeniem wystartować musi żółw, aby obaj przyjaciele przybiegli do mety równocześnie?
-- **opus reasoning:** Żółw: 2 h 20 min = 140 min. Zając 35× szybszy: 140 / 35 = 4 min. Wyprzedzenie: 140 - 4 = 136 min = 2 h 16 min.
-
-### `208415ce` · szkolny_2011-2012_warminsko-mazurskie_q14 · _open_
-- **key:** `(none)` · **sonnet:** `Pytanie 1: 165 klocków (9²+7²+5²+3²+1² = 81+49+25+9+1); Pytanie 2: 84 klocki wewnętrzne (7²+5²+3²+1² = 49+25+9+1)`(high) · **opus:** `a) 165 klocków (81+49+25+9+1); b) 84 klocki (49+25+9+1)`(high)
-- **Q:** Mały Tomek zbudował na podłodze w pokoju piramidkę z klocków sześciennych jednakowej wielkości, tak jak pokazano na rysunku. Pierwsza warstwa to ułożony kwadrat 5 na 5 klocków, druga: kwadrat 3 na 3 klocki – ułożone równo na wewnętrznych kostkach niższej warstwy. Na szczycie stoi 1 klocek. Pytanie 1. Ilu klocków potrzebowałby Tomek, gdyby chciał zbudować podobną ale większą piramidę, rozpoczynając od warstwy 9 na 9 klocków? Pytanie 2. Ile jest klocków (wewnętrznych) w piramid …
-- **opus reasoning:** Pytanie 1: Warstwy 9×9, 7×7, 5×5, 3×3, 1×1: 81+49+25+9+1 = 165 klocków. Pytanie 2: Klocek jest ukryty, gdy ma klocek nad sobą i sąsiadów z 4 boków. W każdej warstwie ukryte są klocki leżące pod warstwą wyższą: 49 (pod 7×7) + 25 (pod 5×5) + 9 (pod 3×3) + 1 (pod szczytem) = 84.
-
-### `e35bad15` · szkolny_2013_podlaskie_gim_q18 · _open_
-- **key:** `(none)` · **sonnet:** `2^15+2^16+2^17+2^18 = 2^15·(1+2+4+8) = 2^15·15 = 2^14·30, podzielne przez 30`(high) · **opus:** `2¹⁵ + 2¹⁶ + 2¹⁷ + 2¹⁸ = 2¹⁵·(1+2+4+8) = 2¹⁵·15 = 2¹⁴·30, więc jest podzielna przez 30.`(high)
-- **Q:** Uzasadnij, że suma 2 15 + 2 16 + 2 17 + 2 18 jest podzielna przez 30.
-- **opus reasoning:** Wyłączając 2 15 : suma = 2¹⁵·(1 + 2 + 4 + 8) = 2¹⁵·15 = 2¹⁴·2·15 = 2¹⁴·30, a więc jest podzielna przez 30.
-
-### `93aaaca0` · szkolny_2013_podlaskie_sp_q18 · _open_
-- **key:** `(none)` · **sonnet:** `Proporcjonalnie do zebranych oszczędności (suma 1200 zł, 60 zł to 5% sumy): VIa – 15 zł, VIb – 6 zł, VIc – 24 zł, VId – 15 zł`(high) · **opus:** `VIa – 15 zł, VIb – 6 zł, VIc – 24 zł, VId – 15 zł (proporcjonalnie, po 5% oszczędności)`(high)
-- **Q:** Uczniowie klas szóstych oszczędzali pieniądze w SKO. Oto stan oszczędności klas: kl. VIa – 300 zł, kl. VIb – 120 zł, kl. VIc – 480 zł, kl. VId – 300 zł. Za oszczędzanie dostały 60 złotych do podziału między klasy. Jak sprawiedliwie podzielić otrzymaną nagrodę?
-- **opus reasoning:** Łączne oszczędności 300+120+480+300 = 1200 zł; 60/1200 = 5%. Każda klasa dostaje 5% swoich oszczędności: 15, 6, 24, 15 zł.
-
-### `c231f5da` · szkolny_2014_podlaskie_gim_q18 · _open_
-- **key:** `(none)` · **sonnet:** `h₁ = 2√3 cm (do boku 5√2 cm); h₂ = 5√2/2 cm (do boku 4√3 cm)`(high) · **opus:** `h₁ = 2√3 cm ≈ 3,46 cm (na bok 5√2 cm); h₂ = 2,5√2 cm ≈ 3,54 cm (na bok 4√3 cm)`(high)
-- **Q:** W równoległoboku długości boków mają 5 2 cm i 4 3 cm oraz dany jest kąt ostry 30°. Oblicz obie wysokości tego równoległoboku. Zapisz obliczenia i podaj odpowiedź.
-- **opus reasoning:** Pole: P = 5 2 · 4 3 · sin 30 ° = 10 6 cm². Wysokość na bok 5√2: 4 3 · 1 2 = 2 3 cm. Wysokość na bok 4√3: 5 2 · 1 2 = 2,5 2 cm.
-
-### `6a53b7c0` · szkolny_2014_podlaskie_sp_q23 · _open_
-- **key:** `(none)` · **sonnet:** `2,7 cm`(high) · **opus:** `2,7 cm (0,027 m)`(high)
-- **Q:** Pusty basen w kształcie prostopadłościanu ma 0,0625 km długości i 500 dm szerokości. Do tego basenu wlano 25 sześciennych pojemników wody o krawędzi długości 150 cm każdy. Jak wysoki jest poziom wody w basenie? (zapisz obliczenia i odpowiedź)
-- **opus reasoning:** Długość 0,0625 km = 62,5 m; szerokość 500 dm = 50 m; pole dna = 3125 m². Objętość wody: 25·(1,5 m)³ = 25·3,375 = 84,375 m³. Wysokość = 84,375/3125 = 0,027 m = 2,7 cm.
-
-### `4536ffd7` · szkolny_2017-2018_pomorskie_q7 · _open_
-- **key:** `(none)` · **sonnet:** `a) żółte: 15, zielone: 21, białe: 22, czerwone: 2; b) 35%`(high) · **opus:** `a) żółte 15, zielone 21, białe 22, czerwone 2 (razem 60); b) 35%`(high)
-- **Q:** Ania zrobiła naszyjnik z koralików w czterech różnych kolorach. Czwarta część wszystkich koralików użytych przez Anię jest w kolorze żółtym, 7 15 pozostałych koralików jest koloru zielonego. Wśród koralików, które nie są ani żółte, ani zielone, 11 12 jest koloru białego, a pozostałe dwa koraliki są czerwone. a) Oblicz, ile koralików każdego koloru użyła Ania do zrobienia naszyjnika. b) Oblicz, jaki procent wszystkich koralików stanowiły koraliki zielone.
-- **opus reasoning:** N — liczba koralików. Żółte N 4 ; zielone 7 15 · 3 N 4 = 7 N 20 ; reszta 2 N 5 . Czerwone: 1 12 · 2 N 5 = 2 ⟹ N=60. Żółte 15, zielone 21, białe 22, czerwone 2. b) 21/60 = 35%.
 
 ### `dbad9e7c` · szkolny_2019_lodzkie_q17 · _open_
 - **key:** `(none)` · **sonnet:** `Dla naturalnych a, b niepodzielnych przez 3: a≡1 lub 2 (mod 3), więc a²≡1 (mod 3) (bo 1²=1, 2²=4≡1). Analogicznie b²≡1 (mod 3). Zatem a²+b²≡1+1=2 (mod 3).`(high) · **opus:** `Liczba niepodzielna przez 3 ma postać 3k±1; jej kwadrat = 9k²±6k+1 daje resztę 1 z dzielenia przez 3. Suma dwóch takich kwadratów daje resztę 1+1 = 2. c.n.d.`(high)
@@ -537,35 +431,10 @@ Opus re-solved the 739 contested questions **blind** (never shown the key or Son
 - **Q:** Dodatnie liczby naturalne k , m spełniają warunek 3 k = 2 5 = m 75 . Wartość wyrażenia k m k + m jest równa _____ . Zadanie anulowano — nie istnieje liczba naturalna k spełniająca pierwszą równość.
 - **opus reasoning:** Z 2 5 = m 75 wynika m = 30 . Z 3 k = 2 5 wynika k = 7,5 — nie jest to liczba naturalna, więc zadanie anulowano. Formalnie k m k + m = 225 37,5 = 6 .
 
-### `cba1bdc3` · szkolny_2025-2026_pomorskie_q5 · _open_
-- **key:** `(none)` · **sonnet:** `4 razy (AB = 4·CD)`(high) · **opus:** `AB jest 4 razy dłuższy od CD`(high)
-- **Q:** Dany jest trapez ABCD , w którym AB ∥ CD oraz AB > CD . Pole tego trapezu jest 1,25 razy większe od pola trójkąta ABC . Ile razy bok AB jest dłuższy od boku CD ? Odpowiedź uzasadnij.
-- **opus reasoning:** Trapez i trójkąt ABC mają tę samą wysokość h. ( AB + CD ) AB =1,25, więc CD AB =0,25, czyli AB = 4·CD.
-
-### `f5fb12ad` · wojewodzki_2009-2010_warminsko-mazurskie_q16 · _open_
-- **key:** `(none)` · **sonnet:** `150 l w pierwszym naczyniu i 30 l w drugim (razem 180 l)`(high) · **opus:** `W pierwszym 150 l, w drugim 30 l`(high)
-- **Q:** W dwóch naczyniach jest razem 180 l wody. Jeżeli z pierwszego naczynia odlejemy 2 5 jego zawartości i wlejemy do drugiego naczynia, to w obu naczyniach będzie ta sama ilość wody. Ile wody było na początku w obu naczyniach?
-- **opus reasoning:** Po przelaniu: (3/5)x = y + (2/5)x → y = x/5. Z x+y=180: (6/5)x = 180, x = 150, y = 30.
-
-### `51222074` · wojewodzki_2009-2010_warminsko-mazurskie_q19 · _open_
-- **key:** `(none)` · **sonnet:** `I grupa: 3, II grupa: 4, III grupa: 7 (możliwe też: 2, 10, 2)`(low) · **opus:** `I grupa 2, II grupa 10, III grupa 2 lub I grupa 3, II grupa 4, III grupa 7`(med)
-- **Q:** Trzy grupy rybaków złowiły razem 92 ryby. Każdy rybak z pierwszej grupy złowił po 11 ryb, z drugiej po 6 ryb, a z trzeciej po 5 ryb. Jeżeli wszystkich rybaków było 14 to ilu rybaków było w każdej grupie?
-- **opus reasoning:** a+b+c=14, 11a+6b+5c=92 → 6a+b=22. Rozwiązania z a,b,c≥1: (a,b,c)=(2,10,2) oraz (3,4,7). Oba spełniają warunki.
-
 ### `2297dbc6` · wojewodzki_2011-2012_warminsko-mazurskie_q20 · _open_
 - **key:** `(none)` · **sonnet:** `Tak, lis zdąży uciec do nory.`(high) · **opus:** `Tak, lis zdąży uciec`(high)
 - **Q:** Pies goni lisa. Prędkość psa to 8 m/s, a lisa 6 m/s. Odległość między nimi na początku wynosi 360 m. Lis ma do nory 1 km. Czy lis zdąży uciec? Przedstaw obliczenia.
 - **opus reasoning:** Lis dobiega do nory w 1000/6 ≈ 166,7 s. Pies zmniejsza dystans 2 m/s, dogoniłby po 360/2 = 180 s. 166,7 s < 180 s, więc lis ucieka (z zapasem ok. 27 m).
-
-### `43b0e92b` · wojewodzki_2011_podlaskie_gim_q19 · _open_
-- **key:** `(none)` · **sonnet:** `6√5/5`(high) · **opus:** `6√5/5 (= 6/√5 ≈ 2,68)`(high)
-- **Q:** Wykres funkcji y = − x 2 + 3 przecina osie układu współrzędnych w punktach A i B. Narysuj ten wykres i wyznacz wysokość trójkąta AOB opuszczoną z wierzchołka O(0,0).
-- **opus reasoning:** Punkty przecięcia z osiami: A=(6,0), B=(0,3). Trójkąt prostokątny AOB o przyprostokątnych 6 i 3. Pole = ½·6·3 = 9, AB = √(36+9) = 3√5. Wysokość z O: h = 2·9/(3√5) = 6/√5 = 6√5/5.
-
-### `c1652616` · wojewodzki_2011_podlaskie_gim_q20 · _open_
-- **key:** `(none)` · **sonnet:** `14 i 15 (oraz -14 i -15)`(high) · **opus:** `(15, 14), (15, −14), (−15, 14), (−15, −14)`(high)
-- **Q:** Różnica kwadratów dwóch liczb całkowitych jest równa 29. Znajdź wszystkie pary liczb, które spełniają ten warunek.
-- **opus reasoning:** a²−b² = (a−b)(a+b) = 29, a 29 jest liczbą pierwszą. Rozkłady na czynniki całkowite dają a−b i a+b równe ±1 i ±29, skąd |a|=15, |b|=14. Sprawdzenie: 15²−14² = 225−196 = 29. Pary: (15,14), (15,−14), (−15,14), (−15,−14).
 
 ### `83cc57f7` · wojewodzki_2012_podkarpackie_q19 · _open_
 - **key:** `(none)` · **sonnet:** `≈5,19 cm (140/27 cm)`(med) · **opus:** `3,5 cm`(high)
@@ -589,31 +458,16 @@ Opus re-solved the 739 contested questions **blind** (never shown the key or Son
 - **choices:** A) 4 · B) 3 · C) 2 · D) 5
 - **opus reasoning:** Cztery spirale są skręcone w tę samą stronę, jedna jest odbiciem lustrzanym (przeciwny kierunek skrętu). Ta niepasująca to spirala nr 5.
 
-### `615f2d95` · wojewodzki_2017-2018_pomorskie_q4 · _open_
-- **key:** `(none)` · **sonnet:** `42048, 42840`(high) · **opus:** `42048 i 42840`(high)
-- **Q:** Kolejnymi cyframi pewnej liczby pięciocyfrowej są: 4, 2, x , 4, y (cyfry wymieniono rozpoczynając od cyfry dziesiątek tysięcy, a kończąc na cyfrze jedności). Wiadomo, że liczba ta jest podzielna przez 72. Podaj wszystkie liczby pięciocyfrowe spełniające warunki zadania.
-- **opus reasoning:** Liczba 42 x 4 y podzielna przez 72 = 8·9. Cecha ÷9: 10+x+y ≡ 0 (mod 9) ⇒ x+y = 8 lub 17. Cecha ÷8: 4x+y ≡ 0 (mod 8). x+y=8: x=0,y=8 (42048) oraz x=8,y=0 (42840); x+y=17 nie daje rozwiązań. Sprawdzenie: 42048 = 72·584, 42840 = 72·595.
-
-### `5f1e217d` · wojewodzki_2017-2018_warminsko-mazurskie_q20 · _open_
-- **key:** `(none)` · **sonnet:** `Kąt DCE = 135°: w trójkątach równoramiennych ACD (AD=AC) i BCE (BE=BC) kąty przy D i E wynoszą odpowiednio α/2 i β/2, gdzie α, β to kąty ostre trójkąta ABC (α+β=90°, bo kąt C=90°). Suma kątów przy D i E w trójkącie DCE to (α+β)/2=45°, więc kąt DCE=180°−45°=135°.`(high) · **opus:** `&angmsd;DCE = 135° (dowód)`(high)
-- **Q:** Narysuj dowolny trójkąt prostokątny ABC. Przedłuż przeciwprostokątną AB. Na zewnątrz trójkąta, na przedłużeniu przeciwprostokątnej, otrzymasz odcinki AD i BE. Wiedząc, że odcinki AD i AC są równe oraz równe są odcinki BE i BC, uzasadnij, że kąt DCE ma 135°.
-- **opus reasoning:** Kąt prosty w C, więc ∡CAB + ∡CBA = 90°. Oznaczmy ∡CAB = α, ∡CBA = β. Trójkąt ADC jest równoramienny (AD = AC). Kąt ∡DAC = 180° − α (kąt przyległy), więc kąty przy podstawie ∡ACD = α/2. Trójkąt BEC jest równoramienny (BE = BC). Kąt ∡EBC = 180° − β, więc ∡BCE = β/2. Zatem ∡DCE = ∡DCA + ∡ACB + ∡BCE = α/2 + 90° + β/2 = 90° + (α+β)/2 = 90° + 45° = 135°.
-
 ### `a4079629` · wojewodzki_2019_lodzkie_q1 · _closed_single_
 - **key:** `(none)` · **sonnet:** `A`(high) · **opus:** `B`(med)
 - **Q:** Każdy ułamek dziesiętny można zamienić na ułamek zwykły:
 - **choices:** A) Prawda · B) Fałsz
 - **opus reasoning:** Istnieją ułamki (rozwinięcia) dziesiętne nieskończone nieokresowe, np. 0,101001000100001…, które są liczbami niewymiernymi i nie da się ich zapisać jako ułamek zwykły. Zatem twierdzenie „każdy” jest fałszywe. (Uwaga: zależy od przyjętej definicji „ułamka dziesiętnego”; jeśli ograniczyć do skończonych/okresowych — byłaby Prawda.)
 
-### `b58cfa58` · wojewodzki_2019_lodzkie_q16 · _open_
-- **key:** `(none)` · **sonnet:** `AD' = √(20 + 8√3) cm = 2√(5 + 2√3) cm ≈ 5,82 cm`(med) · **opus:** `√(20+8√3) cm (≈ 5,82 cm)`(med)
-- **Q:** Dany jest drewniany klocek w kształcie graniastosłupa prawidłowego sześciokątnego: ABCDEFA′B′C′D′E′F′ o krawędziach bocznych odpowiednio AA′ , BB′ , ……, FF′ , w którym wszystkie krawędzie mają 2 cm. Mrówka chce przejść od wierzchołka A (na dolnej podstawie) do wierzchołka D′ (na górnej podstawie) wędrując po powierzchni bryły. Wyznacz najkrótszą drogę i oblicz jej długość (wykonaj rysunek i nie obliczaj przybliżonych wartości pierwiastków).
-- **opus reasoning:** Najkrótsza droga prowadzi przez jedną ścianę boczną i podstawę górną (a nie tylko po ścianach bocznych). Po rozwinięciu trzech ścian bocznych: 6 2 + 2 2 = 40 = 2 10 ≈ 6,32. Rozwinięcie jednej ściany bocznej i podstawy górnej: obraz D′ w punkcie (2; 2+2√3) względem A(0;0), stąd 2 2 + ( 2 + 2 3 ) 2 = 20 + 8 3 ≈ 5,82 < 2√10, więc to jest najkrótsza droga.
-
-### `f252a5ce` · wojewodzki_2020_lodzkie_q15 · _open_
-- **key:** `(none)` · **sonnet:** `400 cm³ (0,4 l)`(high) · **opus:** `400 cm³`(high)
-- **Q:** Prostopadłościenny karton o pojemności 1 litra jest częściowo wypełniony sokiem. Gdy stoi na ścianie o najmniejszym polu, poziom soku sięga do wysokości 8 cm, gdy na średniej ścianie – sok osiąga poziom 4 cm, gdy zaś na największej – sok sięga do wysokości 2 cm. Jaka jest objętość soku w kartonie?
-- **opus reasoning:** Objętość soku V stała: V = 8 S 1 = 4 S 2 = 2 S 3 . Iloczyn pól ścian = 1000 2 , więc V 3 64 = 10 6 , V=400 cm³.
+### `5d79d187` · wojewodzki_2019_lodzkie_q17 · _open_
+- **key:** `(none)` · **sonnet:** `9,11 km/h`(high) · **opus:** `≈ 9,11 km/h`(high)
+- **Q:** Turysta podzielił trasę na trzy jednakowe odcinki. Pierwszy z nich przeszedł krokiem spacerowym idąc 6 km/h, drugi odcinek przebiegł z prędkością 10 km/h, a trzeci przejechał rowerem jadąc 16 km/h. Jaka była średnia prędkość turysty na całej trasie? Wynik zaokrąglij do dwóch miejsc po przecinku.
+- **opus reasoning:** Odcinki równe (d). Prędkość średnia = droga/czas = 3 1 6 + 1 10 + 1 16 = 720 79 ≈ 9,11 km/h.
 
 ### `849c14b2` · wojewodzki_2020_lodzkie_q18 · _open_
 - **key:** `(none)` · **sonnet:** `Pole kwadratu / pole trójkąta = 3√3/4 ≈ 1,3 > 1, więc pole kwadratu jest większe.`(high) · **opus:** `Pole kwadratu (P²/16) > pole trójkąta (√3·P²/36) — dowód`(high)
@@ -631,26 +485,6 @@ Opus re-solved the 739 contested questions **blind** (never shown the key or Son
 - **Q:** Udowodnij, że każda liczba całkowita k , która przy dzieleniu przez 5 daje resztę 2, ma tę własność, że reszta z dzielenia liczby 3 k 2 przez 5 jest równa 2.
 - **opus reasoning:** k = 5n+2 ⇒ k² = 25n²+20n+4 ⇒ 3k² = 75n²+60n+12 = 5(15n²+12n+2)+2. Reszta = 2. ∎
 
-### `fd47d85f` · wojewodzki_2020_podkarpackie_q13 · _open_
-- **key:** `(none)` · **sonnet:** `Dowód: liczba czterocyfrowa = 100(10a+b)+(10b+a) = 1001a+110b = 11(91a+10b), więc jest podzielna przez 11.`(high) · **opus:** `Dowód: liczba abba = 1001a + 110b = 11(91a + 10b), więc jest podzielna przez 11.`(high)
-- **Q:** Liczby lustrzane to takie dwie liczby, które są utworzone z tych samych cyfr zapisanych odwrotnej kolejności, np.: 124 i 421, 67 i 76, 3241 i 1423. Uzasadnij, że liczba czterocyfrowa utworzona przez dopisanie do liczby dwucyfrowej jej lustrzanego odbicia jest podzielna przez 11.
-- **opus reasoning:** Dwucyfrowa 10a+b, jej odbicie 10b+a. Czterocyfrowa: 1000a+100b+10b+a = 1001a+110b = 11(91a+10b). Podzielna przez 11. ∎
-
-### `c166e94c` · wojewodzki_2020_podkarpackie_q15 · _open_
-- **key:** `(none)` · **sonnet:** `6√5`(med) · **opus:** `6√5 (≈ 13,42)`(high)
-- **Q:** Kwadrat ABCD o boku długości 9 podzielono na mniejszy kwadrat KLMN i dwie czwórki przystających prostokątów (rysunek poniżej). Każda część ma takie samo pole. Oblicz obwód zacieniowanego prostokąta.
-- **opus reasoning:** 9 równych części, każda o polu 81/9 = 9. Prostokąty zewnętrzne a×b: a+b=9, ab=9 ⇒ a,b=(9±3√5)/2, więc kwadrat wewnętrzny ma bok a−b=3√5. Prostokąty wewnętrzne c×d: c+d=3√5, c−d=3 (bok KLMN), cd=9. Zacieniony to prostokąt c×d, obwód = 2(c+d) = 2·3√5 = 6√5.
-
-### `66fc4ef6` · wojewodzki_2020_podkarpackie_q16 · _open_
-- **key:** `(none)` · **sonnet:** `Kąt ACB = 90°, więc trójkąt ABC jest prostokątny (kąt A=60°, kąt B=30°, kąt C=90°).`(high) · **opus:** `Dowód: kąt A = 60°, kąt C = 90° — trójkąt jest prostokątny.`(high)
-- **Q:** W trójkącie ABC miara kąta wewnętrznego przy wierzchołku B jest równa 30°, a wysokość CD dzieli bok AB w stosunku 1 : 3, gdzie D należy do boku AB . Uzasadnij, że trójkąt ABC jest prostokątny.
-- **opus reasoning:** Niech AD=t, DB=3t (D bliżej A). CD⊥AB, w trójkącie BCD: CD = DB·tan30° = 3t/√3 = t√3. W trójkącie ACD: tan A = CD/AD = t√3/t = √3 ⇒ A = 60°. Zatem C = 180°−30°−60° = 90°. ∎
-
-### `7931b3aa` · wojewodzki_2021_lodzkie_q13 · _open_
-- **key:** `(none)` · **sonnet:** `V = (4/3)π·S²/a — dowód: h=2S/a, bryła obrotowa to dwa stożki (lub różnica stożków) o wspólnej podstawie πh² i sumie/różnicy wysokości a, V=(1/3)πh²a=(4/3)πS²/a`(high) · **opus:** `V = (1/3)πh²·a = (4/3)π·S²/a (dwa stożki o wspólnej podstawie promienia h=2S/a)`(high)
-- **Q:** Wykaż, że jeżeli trójkąt ABC obraca się wokół boku BC o długości a , to objętość bryły otrzymanej w ten sposób jest równa 4 3 π S 2 a , gdzie S jest polem trójkąta ABC .
-- **opus reasoning:** Wysokość z A na BC: h, gdzie S=½ah ⇒ h=2S/a. Obrót daje dwa stożki o wspólnym promieniu h i sumie wysokości a. V=⅓πh²·a=⅓π(4S²/a²)·a=(4/3)π·S²/a. ∎
-
 ### `5b43a954` · wojewodzki_2021_lodzkie_q15 · _open_
 - **key:** `(none)` · **sonnet:** `y < z < x`(high) · **opus:** `y < z < x (−8/3 < −5/6 < −1/10)`(high)
 - **Q:** Uporządkuj rosnąco liczby x , y , z jeśli: 1 x + 1 1 + 1 1 + 1 2 = 2 1 1 + 1 y + 1 1 + 1 2 = 2 1 1 + 1 1 + 1 z + 1 2 = 2
@@ -661,16 +495,6 @@ Opus re-solved the 739 contested questions **blind** (never shown the key or Son
 - **Q:** Obwód trójkąta ABC jest równy 7 cm. Długości boków wyrażają się liczbami naturalnymi. Zatem
 - **choices:** A) trójkąt ABC jest rozwartokątny. · B) trójkąt ABC jest równoramienny. · C) co najmniej jeden bok ma długość 3 cm. · D) co najmniej jeden bok ma długość 2 cm.
 - **opus reasoning:** Boki naturalne, obwód 7 i nierówność trójkąta dają tylko (1,3,3) oraz (2,2,3). Oba mają bok długości 3 → C prawdziwe zawsze. Oba są też równoramienne, więc B również zawsze prawdziwe (błąd arkusza); (2,2,3) rozwartokątny, ale (1,3,3) ostrokątny, więc A nie zawsze; D fałszywe (brak boku 2 w (1,3,3)). Wybieram C.
-
-### `b1981c04` · wojewodzki_2024_lubuskie_q13 · _open_
-- **key:** `(none)` · **sonnet:** `a) 4 minuty; b) (-4, 0)`(high) · **opus:** `po 4 minutach, w punkcie (−4; 0)`(high)
-- **Q:** W układzie współrzędnych dany jest kwadrat o wierzchołkach A = ( 4 ; 4 ) , B = ( 4 ; − 4 ) , C = ( − 4 ; − 4 ) i D = ( − 4 ; 4 ) . W wierzchołku A znajduje się pająk, a w wierzchołku C mucha. W pewnym momencie rozpoczęły one wędrówkę po obwodzie kwadratu zgodnie z ruchem wskazówek zegara. Pająk szedł z prędkością 13 jednostek na minutę, a mucha z prędkością 9 jednostek na minutę. Po jakim czasie pająk dogonił muchę? Podaj współrzędne punktu tego spotkania.
-- **opus reasoning:** Bok = 8, obwód = 32. Idąc zgodnie z ruchem wskazówek (A→B→C→D), mucha w C jest 16 j. przed pająkiem. Prędkość względna 13−9 = 4 j/min, więc czas = 16/4 = 4 min. Pająk: 13·4 = 52 ≡ 20 (mod 32) od A → punkt (−4; 0); mucha: 16+36 = 52 ≡ 20 — ten sam punkt.
-
-### `dc1fe170` · wojewodzki_2024_lubuskie_q14 · _open_
-- **key:** `(none)` · **sonnet:** `kąt przy 12: 75°; kąt przy 9: 60°; kąt przy 4: 45°`(high) · **opus:** `45°, 60°, 75°`(high)
-- **Q:** Na okrągłej tarczy zegara połączono odcinkami punkty leżące na jej brzegu, odpowiadające godzinom 4, 9 i 12. Oblicz miary kątów otrzymanego trójkąta.
-- **opus reasoning:** Sąsiednie godziny to łuki po 30°. Łuki: 12→4 = 120°, 4→9 = 150°, 9→12 = 90°. Kąty wpisane = połowa łuku naprzeciw: przy 12 → 150°/2 = 75°, przy 4 → 90°/2 = 45°, przy 9 → 120°/2 = 60°. Suma 180°.
 
 ### `f5b968c0` · wojewodzki_2024_lubuskie_q17 · _open_
 - **key:** `(none)` · **sonnet:** `15√7 + 13√3 + 6√15 ≈ 85,44`(high) · **opus:** `15√7 + 13√3 + 6√15 cm² ≈ 85,4 cm²`(high)
@@ -685,10 +509,10 @@ _Summarised (hashes):_ `e102e151` `80d6ed38`
 
 _Summarised (hashes):_ `81b417e8` `7bbe0c0c` `8a764635` `98ecfbef` `71adf5b6` `bb1c8e9e` `f4c5a498` `d5bb6f98` `59bc0f61` `6ae6546d` `e8d2bb52` `b9c79dff` `fb3bd243` `5e98c5e0` `2a843698` `da0bf3e0` `4c1719aa`
 
-## KEYLESS AGREED — no key; Opus and Sonnet agree (high-confidence fill) (594)
+## KEYLESS AGREED — no key; Opus and Sonnet agree (high-confidence fill) (625)
 
-_Summarised (hashes):_ `663a9340` `04d905a1` `32ecb404` `84a0561f` `af5effac` `94ac75d7` `31c1d940` `6ccc966c` `decae42e` `769aa834` `c6268f61` `1e451309` `31383916` `2d070ca5` `4ebdc95b` `742d18c7` `ca9d73a2` `8444077b` `b8f7fac2` `d57c957e` `87667a2c` `dd8254b2` `a30dd3af` `c2e249f3` `b04e94e9` `d00fd88f` `dff12180` `10dbdbad` `afa99533` `9bee5751` `29bed187` `24d0d551` `487d264b` `b65de6d0` `89f9205a` `ed7969bb` `a52ecda9` `2e01dc8f` `17b9c010` `309afc5d` `8566ba58` `0d9db0ff` `3264c0ae` `9cf1b166` `14185629` `624d24ef` `11682dc7` `adf704a0` `b4fa66c4` `90c6033e` `e7fdb629` `fdff3a0d` `20ffc34a` `2bcc81f2` `078bb5aa` `b1268ebb` `3d9c9cc9` `616b5947` `1f5afc57` `a1a8ccef` `b15cc010` `51f7b53e` `04c1678c` `82d7215d` `39d7fcb3` `7745fc25` `70dac3da` `367c636b` `c1a52e30` `4f42ddc6` `f199cc94` `6928447c` `f2c8c585` `544c1526` `3a680fb5` `95f06c13` `e19ed0a4` `dfbf5308` `faf3f3e1` `183fa976` `8aba695e` `d1cde1f2` `cd1798e7` `b00461f7` `fb1fc38d` `e47e5765` `9d08709a` `00f2d6f3` `9b3706cd` `b00b179e` `7a4ce8c6` `3e52302f` `f4eb7e33` `15178f45` `e97f22d7` `b1e6c16f` `9a483d80` `ff62b097` `8c01d045` `bfee4d27` `5ba92f56` `3354e676` `da43083e` `83449a49` `5c1b2533` `796cadf5` `a779847b` `a61c795d` `4b1a998b` `453f08bf` `90b49952` `eb5e5a88` `e8e0f60e` `1034b91c` `a3aead2c` `5dcb41f4` `b6b69409` `53d55574` `da8e26e4` `a535d786` `b2aa64f2` `a7a996cf` `3a5c0ede` `24c6a4b4` `f26807aa` `2d1e6885` `19fcda24` `7d4686a7` `799ff34f` `bc167f9e` `e3e15a2e` `df64154e` `cba1349b` `317e2941` `16ea3e54` `29ee351c` `7b0f0850` `edaf85c1` `b5e4a574` `d9c13a3b` `b4b96e68` `aad56a85` `b10db80c` `04784e97` `ef7e2226` `3194e011` `12161c74` `a15b7426` `8c71c534` `51e00220` `eac4df93` `2d4e077a` `4307f4a2` `7a1508b4` `5f0c857a` `c6dd7735` `640fed02` `bc9560b9` `e1604072` `3fdf3d76` `5a84a6e0` `6b138381` `44afee6d` `a2c0d714` `22707e4b` `e2d837f9` `3ec864d5` `aeef27ba` `d4eed4c2` `97cee85e` `deaca366` `8610c4d9` `daece19b` `57201df3` `2a7fddc2` `695c0d19` `72dc4160` `1a20eecd` `8a2e2c62` `3c5a659a` `ee3a2ace` `3fd831ae` `4b69c830` `10b88775` `6f396cb8` `f9cce2d6` `dbc29d4b` `bfcad17e` `0aed2cb5` `f939b3c9` `6fbb92dc` `1585acb6` `5a76af10` `24d8e763` `4a9ae492` `4540e6b9` `9613ba6c` `dd89d3ca` `160140ac` `a58c88bf` `c9f1923a` `ea640209` `fbd648ba` `8e207e3b` `b66d99cb` `d865c9d4` `8cf4972f` `751baff2` `f59d6f06` `e4c33de6` `36d5bb5d` `5b2c74aa` `d1b7f165` `4178160f` `58c56665` `9eb5fc12` `2ba679d5` `c8c9e07c` `b62cc07f` `453f8aaa` `257cc265` `6cd0d1a0` `9744f3ce` `de90fc06` `9756d2e0` `a53a8df2` `abfd09ff` `c66fe508` `a9cb136b` `91e3654f` `af72c63d` `d1a50628` `27f40e71` `2f4df339` `c50308ad` `8c6e1910` `e4792be7` `b6c912a8` `88a92ceb` `2c16becb` `1237f826` `8f0af9c0` `1c53b761` `5231ca0b` `c3c5c396` `923f4290` `fb166d44` `2b4294bf` `f9187e3d` `c5e13cff` `7336bd2e` `3bae8f57` `51ee5757` `4f292226` `25eb5894` `d0505d8f` `4d945038` `ff143bc4` `3f90690a` `6fd4c168` `547d5557` `46c37f7f` `7f047e8a` `9fdf6af7` `5c424fa4` `8d8df3b2` `896d9de7` `20c67e0b` `3095e4f1` `07bdbd6c` `a403b662` `537275dd` `5b642f00` `0df5a4d3` `eba83bc7` `abebe03b` `31b9d266` `69177578` `0389a790` `a835b847` `c767480a` `6b5b863e` `48bcc7bb` `541cf142` `4f99fdd8` `794662d9` `ef58c40b` `9cdde770` `fc64b5ad` `44c95181` `453c5d6c` `0668c557` `0a097ee4` `5f93ac5e` `a16917ba` `d60eb731` `65543413` `8a94e508` `bf465808` `560bec22` `478fa0cf` `00c5ced2` `cf1f593f` `3e78b407` `0d094114` `bb14d1ee` `261d5a00` `84f65abe` `963dab3c` `726fe3b5` `8e49f368` `f2888b0b` `5131fb90` `e647c58e` `95a2185f` `e793874d` `2e9648dd` `8b3ba915` `9b0f64aa` `4bb6aec9` `0bb8e1b7` `db6c7c0a` `6e49e881` `433e9ac4` `6f9b82b1` `b09d5bb7` `39626058` `1be2e65f` `99ee639e` `539b7063` `44a19f85` `5cd26643` `d60353ab` `59d06074` `d27d6e59` `38e5e038` `18a6fb23` `e6a957b6` `3725a447` `3d63abff` `d50c0694` `57e91965` `1f49fd25` `efa69f32` `07a588af` `5d64843c` `0e988073` `c34c4852` `77240649` `d7bad089` `617e5a9c` `243ff07c` `59b758b6` `258a1d63` `2b618185` `e7c33be6` `e436b362` `64516470` `cbcdd69e` `4e1519d0` `efc3b83c` `6866a8d7` `bb022307` `1477f18c` `c7ec3878` `44acd1fd` `edf2151c` `dace02d1` `51adc929` `c4afdeb5` `21b7c321` `1f066741` `bf8c5292` `bf883dd3` `0171f771` `24b79440` `5b94c6be` `daf394f5` `0fba5158` `e3d4ba1e` `035cb483` `a942e9fd` `d79373c9` `aa23ee0d` `22e8f27a` `218b3c2d` `92fa8cce` `291f350e` `39ed8cef` `b7fc7040` `755d785b` `00b9a7e5` `7c3ade57` `94e5fb1d` `41dddfa4` `3046fcd9` `f0881ce1` `0957ae18` `5e8997b6` `39822623` `4678c14b` `b0153d37` `3acbacbc` `7632dcf7` `c0cc66eb` `ac543151` `a45d81dc` `7df3f755` `e62d7fa4` `0622f340` `49c8f3a7` `8db4d61c` `45236010` `05f73550` `69902157` `bab4bd0e` `d13adddf` `81c8caf1` `c1909ac7` `71ef47ab` `e431d2df` `b8ef9d1e` `0f84e5b7` `99c7d31e` `6cdd1ef0` `b8b5f78d` `2ca58623` `7bcbfb68` `3b4d9fde` `d5408e76` `7cc2e3f3` `046bdd54` `1a4e6e7c` `62d57a8f` `a2c97fc2` `06b13a70` `2757a8bf` `1391433f` `f8046bc4` `8614d6b8` `7da19c45` `a810a8f8` `0a24809a` `ebb36d34` `a1e3ea27` `8d44e6ca` `458aa3c3` `cc896c82` `eb740a38` `6f85c6dd` `ad98dbd5` `4723ddb1` `f00748c6` `31633c06` `abc3fc54` `256cba1f` `e0e0f2ee` `c675672e` `b711b052` `7b4e6f52` `3269d47f` `51b243d8` `aebf5919` `45631d0f` `5a0fd11b` `3ff5fd66` `707136e5` `b4f5db2e` `f4b621d8` `5f0eb0a3` `0dc03d48` `f888eee7` `07e8286f` `ce10dd8a` `8c4dabc5` `8567cfe4` `c7cfb440` `0c8416d5` `80b39386` `141ca58e` `f934eb82` `9d83ac0a` `ecc77cc0` `b1f209f2` `b9bff4d8` `e4987214` `9f7bf9e8` `2ab1ebaa` `036897b0` `451bae03` `b22f3b2d` `27848916` `4c4f1af5` `39a0ebdc` `fdd6b1d5` `666939b0` `8266bff7` `c5533a24` `964f058d` `88f41f68` `4a0f9ba9` `054110e6` `fc8190c2` `766dfec7` `a71afd5e` `4c579c4e` `b2ac14e5` `fa4527d1` `affd99dc` `7b35f159` `caf9971d` `ba1b7536` `59aff1ea` `072ced54` `2af8bdb6` `083a7d3f` `8cd681cb` `62cf13c3` `abd2da1a` `ce221f7f` `9201353e` `d3443909` `73ffd012` `1a699553` `f7f76ab3` `4f30349b` `cd8e3a24` `4d6b283f` `042618c2` `0f45100e` `cc34c63c` `4af35b99` `5804d7ef` `01a63728` `05e752d4` `7f2c66d7` `13d1c649` `5d79d187` `438f60a2` `b29e31d2` `309b72c2` `347ed971` `5051b9d5` `463a7b86` `1a42d640` `ed4a1b8e` `b1644460` `a5d1b956` `5a029659` `89bb5928` `8b1fafd6` `e27500f1` `39b64a7a` `95b8a3c5` `ccd1c951` `5048ff48` `451b1a16` `394f09eb` `d3f049ca` `fa1fbcbd` `c8eadc9c` `7cf0530c` `573e300f` `5162b807` `877853ef` `fbbc52bf` `fbf35b5b` `1c7ed200` `b238591b` `40dc6623` `c531c81a` `a41d4c0a` `bc4ba637` `433f8cf8` `5316e457` `11c71ab2` `f4f49cd2` `d1c6d579` `b270a5bf` `17530678` `9b35c6f5` `4ebc2223` `b9bc16c8` `b7436061` `61d12287` `34465111` `967e8a36` `1ef7772b` `00ac55ce` `66919f75` `d5171a26` `4485c0e3` `b3184d74` `c89b551c`
+_Summarised (hashes):_ `663a9340` `04d905a1` `32ecb404` `84a0561f` `af5effac` `94ac75d7` `31c1d940` `6ccc966c` `decae42e` `769aa834` `c6268f61` `1e451309` `31383916` `2d070ca5` `4ebdc95b` `742d18c7` `ca9d73a2` `8444077b` `b8f7fac2` `d57c957e` `87667a2c` `dd8254b2` `a30dd3af` `c2e249f3` `b04e94e9` `d00fd88f` `dff12180` `10dbdbad` `afa99533` `9bee5751` `29bed187` `24d0d551` `487d264b` `b65de6d0` `89f9205a` `ed7969bb` `a52ecda9` `2e01dc8f` `cc428018` `17b9c010` `309afc5d` `8566ba58` `0d9db0ff` `3264c0ae` `9cf1b166` `14185629` `624d24ef` `11682dc7` `adf704a0` `b4fa66c4` `90c6033e` `e7fdb629` `fdff3a0d` `20ffc34a` `2bcc81f2` `078bb5aa` `b1268ebb` `e2504025` `3d9c9cc9` `616b5947` `1f5afc57` `a1a8ccef` `b15cc010` `51f7b53e` `04c1678c` `82d7215d` `39d7fcb3` `7745fc25` `70dac3da` `367c636b` `c1a52e30` `4f42ddc6` `f199cc94` `6928447c` `f2c8c585` `6dcf112a` `544c1526` `3a680fb5` `95f06c13` `e19ed0a4` `dfbf5308` `faf3f3e1` `183fa976` `8aba695e` `d1cde1f2` `cd1798e7` `b00461f7` `fb1fc38d` `e47e5765` `9d08709a` `00f2d6f3` `9b3706cd` `b00b179e` `7a4ce8c6` `3e52302f` `f4eb7e33` `15178f45` `e97f22d7` `b1e6c16f` `9a483d80` `ff62b097` `8c01d045` `bfee4d27` `5ba92f56` `3354e676` `da43083e` `83449a49` `5c1b2533` `249907b6` `796cadf5` `a779847b` `a61c795d` `4b1a998b` `453f08bf` `90b49952` `eb5e5a88` `e8e0f60e` `1034b91c` `a3aead2c` `5dcb41f4` `b6b69409` `53d55574` `da8e26e4` `a535d786` `b2aa64f2` `a7a996cf` `3c889e06` `3a5c0ede` `24c6a4b4` `f26807aa` `2d1e6885` `19fcda24` `7d4686a7` `799ff34f` `bc167f9e` `e3e15a2e` `df64154e` `cba1349b` `317e2941` `16ea3e54` `29ee351c` `7b0f0850` `f50c8bc1` `edaf85c1` `b5e4a574` `d9c13a3b` `b4b96e68` `aad56a85` `b10db80c` `04784e97` `ef7e2226` `3194e011` `12161c74` `a15b7426` `8c71c534` `cd199855` `51e00220` `eac4df93` `2d4e077a` `bb2d880e` `4307f4a2` `7a1508b4` `5f0c857a` `c6dd7735` `640fed02` `bc9560b9` `e1604072` `3fdf3d76` `5a84a6e0` `6b138381` `44afee6d` `a2c0d714` `22707e4b` `e2d837f9` `3ec864d5` `aeef27ba` `d4eed4c2` `97cee85e` `deaca366` `8610c4d9` `daece19b` `57201df3` `2a7fddc2` `695c0d19` `72dc4160` `1a20eecd` `8a2e2c62` `3c5a659a` `ee3a2ace` `3fd831ae` `4b69c830` `10b88775` `6f396cb8` `592508cb` `9e8b8662` `f9cce2d6` `dbc29d4b` `bfcad17e` `0aed2cb5` `f939b3c9` `6fbb92dc` `1585acb6` `5a76af10` `24d8e763` `4a9ae492` `4540e6b9` `9613ba6c` `dd89d3ca` `160140ac` `a58c88bf` `c9f1923a` `043822a6` `ea640209` `fbd648ba` `8e207e3b` `b66d99cb` `d865c9d4` `8cf4972f` `751baff2` `f59d6f06` `e4c33de6` `36d5bb5d` `5b2c74aa` `d1b7f165` `4178160f` `208415ce` `58c56665` `9eb5fc12` `2ba679d5` `c8c9e07c` `b62cc07f` `453f8aaa` `257cc265` `6cd0d1a0` `9744f3ce` `de90fc06` `9756d2e0` `a53a8df2` `abfd09ff` `c66fe508` `a9cb136b` `91e3654f` `af72c63d` `d1a50628` `27f40e71` `2f4df339` `c50308ad` `8c6e1910` `e4792be7` `b6c912a8` `88a92ceb` `2c16becb` `1237f826` `8f0af9c0` `1c53b761` `5231ca0b` `c3c5c396` `923f4290` `fb166d44` `2b4294bf` `f9187e3d` `e35bad15` `c5e13cff` `7336bd2e` `3bae8f57` `51ee5757` `4f292226` `25eb5894` `d0505d8f` `4d945038` `ff143bc4` `3f90690a` `6fd4c168` `547d5557` `46c37f7f` `7f047e8a` `9fdf6af7` `5c424fa4` `8d8df3b2` `896d9de7` `20c67e0b` `93aaaca0` `3095e4f1` `07bdbd6c` `a403b662` `537275dd` `5b642f00` `0df5a4d3` `eba83bc7` `abebe03b` `31b9d266` `69177578` `0389a790` `a835b847` `c767480a` `6b5b863e` `48bcc7bb` `541cf142` `4f99fdd8` `794662d9` `c231f5da` `ef58c40b` `9cdde770` `fc64b5ad` `44c95181` `453c5d6c` `0668c557` `0a097ee4` `5f93ac5e` `a16917ba` `d60eb731` `65543413` `8a94e508` `bf465808` `560bec22` `478fa0cf` `00c5ced2` `cf1f593f` `3e78b407` `0d094114` `bb14d1ee` `261d5a00` `84f65abe` `963dab3c` `726fe3b5` `6a53b7c0` `8e49f368` `f2888b0b` `5131fb90` `e647c58e` `95a2185f` `e793874d` `2e9648dd` `4536ffd7` `8b3ba915` `9b0f64aa` `4bb6aec9` `0bb8e1b7` `db6c7c0a` `6e49e881` `433e9ac4` `6f9b82b1` `b09d5bb7` `39626058` `1be2e65f` `99ee639e` `539b7063` `44a19f85` `5cd26643` `d60353ab` `59d06074` `d27d6e59` `38e5e038` `18a6fb23` `e6a957b6` `3725a447` `3d63abff` `d50c0694` `57e91965` `1f49fd25` `efa69f32` `07a588af` `5d64843c` `0e988073` `c34c4852` `77240649` `d7bad089` `617e5a9c` `243ff07c` `59b758b6` `258a1d63` `2b618185` `e7c33be6` `e436b362` `64516470` `cbcdd69e` `4e1519d0` `efc3b83c` `6866a8d7` `bb022307` `1477f18c` `c7ec3878` `44acd1fd` `edf2151c` `cba1bdc3` `dace02d1` `51adc929` `c4afdeb5` `21b7c321` `1f066741` `bf8c5292` `bf883dd3` `0171f771` `24b79440` `5b94c6be` `daf394f5` `0fba5158` `e3d4ba1e` `035cb483` `a942e9fd` `d79373c9` `aa23ee0d` `22e8f27a` `218b3c2d` `f5fb12ad` `92fa8cce` `291f350e` `51222074` `39ed8cef` `b7fc7040` `755d785b` `00b9a7e5` `7c3ade57` `94e5fb1d` `41dddfa4` `3046fcd9` `f0881ce1` `0957ae18` `5e8997b6` `39822623` `4678c14b` `b0153d37` `3acbacbc` `7632dcf7` `c0cc66eb` `ac543151` `a45d81dc` `7df3f755` `e62d7fa4` `0622f340` `49c8f3a7` `8db4d61c` `45236010` `05f73550` `69902157` `bab4bd0e` `d13adddf` `81c8caf1` `c1909ac7` `71ef47ab` `e431d2df` `b8ef9d1e` `0f84e5b7` `99c7d31e` `6cdd1ef0` `b8b5f78d` `2ca58623` `7bcbfb68` `3b4d9fde` `d5408e76` `7cc2e3f3` `046bdd54` `1a4e6e7c` `62d57a8f` `a2c97fc2` `06b13a70` `2757a8bf` `1391433f` `f8046bc4` `8614d6b8` `7da19c45` `a810a8f8` `0a24809a` `ebb36d34` `a1e3ea27` `8d44e6ca` `458aa3c3` `43b0e92b` `c1652616` `cc896c82` `eb740a38` `6f85c6dd` `ad98dbd5` `4723ddb1` `f00748c6` `31633c06` `abc3fc54` `256cba1f` `e0e0f2ee` `c675672e` `b711b052` `7b4e6f52` `3269d47f` `51b243d8` `aebf5919` `45631d0f` `5a0fd11b` `3ff5fd66` `707136e5` `b4f5db2e` `f4b621d8` `5f0eb0a3` `0dc03d48` `f888eee7` `07e8286f` `ce10dd8a` `8c4dabc5` `8567cfe4` `c7cfb440` `0c8416d5` `80b39386` `141ca58e` `f934eb82` `9d83ac0a` `ecc77cc0` `b1f209f2` `b9bff4d8` `e4987214` `9f7bf9e8` `2ab1ebaa` `036897b0` `451bae03` `b22f3b2d` `27848916` `4c4f1af5` `39a0ebdc` `fdd6b1d5` `666939b0` `8266bff7` `c5533a24` `964f058d` `88f41f68` `4a0f9ba9` `054110e6` `fc8190c2` `766dfec7` `a71afd5e` `4c579c4e` `b2ac14e5` `fa4527d1` `affd99dc` `7b35f159` `caf9971d` `ba1b7536` `59aff1ea` `072ced54` `2af8bdb6` `083a7d3f` `8cd681cb` `62cf13c3` `615f2d95` `abd2da1a` `ce221f7f` `9201353e` `d3443909` `73ffd012` `5f1e217d` `1a699553` `f7f76ab3` `4f30349b` `cd8e3a24` `4d6b283f` `042618c2` `0f45100e` `cc34c63c` `4af35b99` `5804d7ef` `01a63728` `05e752d4` `7f2c66d7` `13d1c649` `b58cfa58` `438f60a2` `b29e31d2` `309b72c2` `347ed971` `5051b9d5` `463a7b86` `1a42d640` `ed4a1b8e` `b1644460` `a5d1b956` `5a029659` `89bb5928` `8b1fafd6` `f252a5ce` `e27500f1` `39b64a7a` `95b8a3c5` `ccd1c951` `5048ff48` `451b1a16` `394f09eb` `d3f049ca` `fa1fbcbd` `c8eadc9c` `7cf0530c` `573e300f` `5162b807` `fd47d85f` `877853ef` `c166e94c` `66fc4ef6` `fbbc52bf` `fbf35b5b` `1c7ed200` `b238591b` `40dc6623` `c531c81a` `a41d4c0a` `bc4ba637` `433f8cf8` `5316e457` `11c71ab2` `f4f49cd2` `d1c6d579` `b270a5bf` `7931b3aa` `17530678` `9b35c6f5` `4ebc2223` `b9bc16c8` `b7436061` `61d12287` `34465111` `967e8a36` `1ef7772b` `00ac55ce` `66919f75` `d5171a26` `4485c0e3` `b1981c04` `dc1fe170` `b3184d74` `c89b551c`
 
-## AGREE CONFIRMED — low-conf answer confirmed by Opus (10)
+## AGREE CONFIRMED — low-conf answer confirmed by Opus (13)
 
-_Summarised (hashes):_ `20416ca7` `89613f90` `72320ee9` `39994aea` `d82fdee1` `fa181098` `41d4db3c` `b4bde9f7` `3e52901d` `3bc18d24`
+_Summarised (hashes):_ `20416ca7` `89613f90` `72320ee9` `de27f020` `39994aea` `d82fdee1` `407e1bd6` `fa181098` `41d4db3c` `b4bde9f7` `8b0a2189` `3e52901d` `3bc18d24`
