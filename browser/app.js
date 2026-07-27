@@ -24,6 +24,18 @@ const STAGES = ['szkolny', 'rejonowy', 'wojewodzki'];
 // The faceted filters. `values(q)` mirrors build.mjs so a missing index can be
 // rebuilt from DATA; `order` fixes non-alphabetical display order; `labelFor` prettifies.
 const VERIF_LABELS = { zgodne: 'AI zgodne z kluczem', rozbiezne: 'AI niezgodne z kluczem', podejrzany: 'Klucz podejrzany', bezklucza: 'Bez klucza', niepewne: 'Niepewna odpowiedź AI', nieroz: 'Nierozstrzygnięte' };
+// explanations behind the ⓘ info icons; `_` is the facet-header note. Only facets/values listed here get an icon.
+const FACET_INFO = {
+  weryf: {
+    _: 'Każde zadanie zostało rozwiązane niezależnie przez AI, bez podglądania klucza („na ślepo”). Ten filtr pokazuje, jak odpowiedź AI ma się do oficjalnego klucza — pomaga wyłapać możliwe błędy w kluczu.',
+    zgodne: 'Odpowiedź AI zgadza się z oficjalnym kluczem odpowiedzi.',
+    rozbiezne: 'Odpowiedź AI różni się od klucza — najczęściej pomyłka AI, czasem przypadek sporny.',
+    podejrzany: 'Ręcznie oznaczone jako możliwy błąd w kluczu: dwa niezależne modele AI dały tę samą odpowiedź sprzeczną z kluczem. Czeka na weryfikację człowieka.',
+    bezklucza: 'Zadanie nie ma oficjalnego klucza odpowiedzi (np. arkusz opublikowany bez odpowiedzi).',
+    niepewne: 'Zadanie bez klucza, w którym modele AI nie były ze sobą zgodne — odpowiedź AI traktuj ostrożnie.',
+    nieroz: 'Weryfikacji nie udało się jednoznacznie rozstrzygnąć.',
+  },
+};
 const FACETS = [
   { key: 'topic',  label: 'Temat',       values: q => q.topics || [] },
   { key: 'form',   label: 'Forma',       values: q => [q.type],         order: Object.keys(TYPE_LABELS), labelFor: v => TYPE_LABELS[v] || v },
@@ -33,7 +45,13 @@ const FACETS = [
   { key: 'year',   label: 'Rok',         values: q => [q.school_year] },
   { key: 'points', label: 'Punkty',      values: q => [String(q.points)], numeric: true, labelFor: v => `${v}p` },
   { key: 'annul',  label: 'Anulowane',   values: q => [q.annulled ? 'tak' : 'nie'], order: ['nie', 'tak'], labelFor: v => v === 'tak' ? 'Anulowane' : 'Nie anulowane' },
-  // verification status from the blind-solve pass (answer.model.agrees / corroborated + suspect flag)
+  { key: 'sol',    label: 'Rozwiązanie',
+    values: q => [((q.answer && q.answer.model && q.answer.model.solution_html) || (q.answer && q.answer.solution_html)) ? 'z' : 'bez'],
+    order: ['z', 'bez'], labelFor: v => v === 'z' ? 'Z rozwiązaniem' : 'Bez rozwiązania' },
+  { key: 'fig',    label: 'Rysunek',
+    values: q => [q.figures && q.figures.length ? 'z' : 'bez'],
+    order: ['z', 'bez'], labelFor: v => v === 'z' ? 'Z rysunkiem' : 'Bez rysunku' },
+  // verification status from the blind-solve pass (answer.model.agrees / corroborated + suspect flag) — last filter
   { key: 'weryf',  label: 'Weryfikacja',
     values: q => { const a = q.answer || {}, m = a.model || {}, hasKey = a.correct != null && a.correct !== '', o = [];
       if (q.suspect) o.push('podejrzany');
@@ -43,12 +61,6 @@ const FACETS = [
       else o.push('nieroz');
       return o; },
     order: ['zgodne', 'rozbiezne', 'podejrzany', 'bezklucza', 'niepewne', 'nieroz'], labelFor: v => VERIF_LABELS[v] || v },
-  { key: 'sol',    label: 'Rozwiązanie',
-    values: q => [((q.answer && q.answer.model && q.answer.model.solution_html) || (q.answer && q.answer.solution_html)) ? 'z' : 'bez'],
-    order: ['z', 'bez'], labelFor: v => v === 'z' ? 'Z rozwiązaniem' : 'Bez rozwiązania' },
-  { key: 'fig',    label: 'Rysunek',
-    values: q => [q.figures && q.figures.length ? 'z' : 'bez'],
-    order: ['z', 'bez'], labelFor: v => v === 'z' ? 'Z rysunkiem' : 'Bez rysunku' },
 ];
 
 const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -113,6 +125,20 @@ const flashCopied = el => {
   copytipTimer = setTimeout(() => { copytip.hidden = true; }, 1000);
 };
 
+// shared info popover for the facet ⓘ icons: click an icon to show its note under it,
+// click the same icon / anywhere else / Escape to dismiss. Positioned fixed, clamped to viewport.
+const infotip = Object.assign(document.createElement('div'), { className: 'infotip', hidden: true });
+document.body.append(infotip);
+let infotipFor = null;
+const hideInfotip = () => { infotip.hidden = true; infotipFor = null; };
+const showInfotip = (icon, text) => {
+  if (infotipFor === icon) return hideInfotip(); // same icon again = toggle off
+  infotip.textContent = text; infotip.hidden = false; infotipFor = icon;
+  const r = icon.getBoundingClientRect(), w = infotip.offsetWidth;
+  infotip.style.left = `${Math.max(8, Math.min(r.left + r.width / 2 - w / 2, innerWidth - w - 8))}px`;
+  infotip.style.top = `${r.bottom + 6}px`;
+};
+
 // inverted index for faceting: facet -> value -> [hash, ...]. Built from DATA at startup
 // (~1 ms for ~3k questions), which the browser holds fully in memory anyway.
 function buildIndexFromData() {
@@ -147,10 +173,12 @@ function facetEntries(f, present) {
 function buildFacetUI() {
   for (const f of FACETS) {
     countSpans[f.key] = {};
+    const info = FACET_INFO[f.key] || {};
+    const iconFor = t => t ? ` <button type="button" class="info-i" aria-label="Wyjaśnienie" data-info="${esc(t)}">ⓘ</button>` : '';
     const box = document.createElement('div');
     box.className = 'facet';
     box.dataset.facet = f.key;
-    box.innerHTML = `<div class="facet-h">${esc(f.label)}</div>`;
+    box.innerHTML = `<div class="facet-h">${esc(f.label)}${iconFor(info._)}</div>`;
     const ul = document.createElement('ul');
     ul.className = 'facet-list';
     for (const entry of facetEntries(f, Object.keys(INDEX[f.key] || {}))) {
@@ -159,7 +187,8 @@ function buildFacetUI() {
       const v = entry.value, label = f.labelFor ? f.labelFor(v) : v;
       li.className = 'facet-opt';
       li.innerHTML = `<label><input type="checkbox" value="${esc(v)}">`
-        + `<span class="opt-l">${esc(label)}</span><span class="opt-c"></span></label>`;
+        + `<span class="opt-l">${esc(label)}</span><span class="opt-c"></span></label>`
+        + iconFor(info[v]); // ⓘ sits outside the label so clicking it never toggles the checkbox
       countSpans[f.key][v] = li.querySelector('.opt-c');
       ul.append(li);
     }
@@ -348,6 +377,10 @@ loadData().then(data => {
     e.target.checked ? selections[key].add(v) : selections[key].delete(v);
     writeUrl(true); refilter(); // facet toggle: push, so Back undoes it
   });
+  facetsEl.addEventListener('click', e => { // ⓘ info icons: show the explanation popover
+    const icon = e.target.closest('.info-i');
+    if (icon) { e.preventDefault(); e.stopPropagation(); showInfotip(icon, icon.dataset.info); }
+  });
   const replace = () => { writeUrl(false); refilter(); };
   search.oninput = debounce(() => {
     // push only when a search first appears (empty -> non-empty), so the pre-search view is one
@@ -415,8 +448,9 @@ loadData().then(data => {
   settingsBtn.onclick = e => { e.stopPropagation(); settingsPop.hidden = !settingsPop.hidden; };
   document.addEventListener('click', e => {
     if (!settingsPop.hidden && !e.target.closest('.settings')) settingsPop.hidden = true;
+    if (!infotip.hidden && !e.target.closest('.info-i') && !e.target.closest('.infotip')) hideInfotip();
   });
-  addEventListener('keydown', e => { if (e.key === 'Escape') settingsPop.hidden = true; });
+  addEventListener('keydown', e => { if (e.key === 'Escape') { settingsPop.hidden = true; hideInfotip(); } });
   printBtn.onclick = () => window.print();
   clearSelBar.onclick = e => { // "Wyczyść zaznaczenie": clear the print selection only
     e.preventDefault();

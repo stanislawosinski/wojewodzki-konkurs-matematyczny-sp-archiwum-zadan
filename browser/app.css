@@ -112,9 +112,18 @@ select{font:inherit;padding:.35rem}
 .facet-list::-webkit-scrollbar-track,.sidebar::-webkit-scrollbar-track{background:transparent}
 .facet-list::-webkit-scrollbar-thumb,.sidebar::-webkit-scrollbar-thumb{background:#ccc;border-radius:6px}
 .facet-cat{font-size:.72rem;color:#888;font-weight:bold;padding:.3rem 0 .05rem}
-.facet-opt{margin:0}
-.facet-opt label{display:flex;align-items:baseline;gap:.35rem;padding:.1rem 0;
+.facet-opt{margin:0;display:flex;align-items:baseline;gap:.15rem}
+.facet-opt label{flex:1 1 auto;min-width:0;display:flex;align-items:baseline;gap:.35rem;padding:.1rem 0;
   font-size:.8rem;color:#222;cursor:pointer;margin:0}
+/* clickable ⓘ next to a facet header / option: shows an explanation popover */
+.facet-h{display:flex;align-items:baseline;gap:.25rem}
+.info-i{flex:0 0 auto;border:none;background:none;padding:0;margin:0;line-height:1;
+  font-size:.78rem;color:#bbb;cursor:pointer;font-family:system-ui,-apple-system,sans-serif}
+.info-i:hover{color:#555}
+.infotip{position:fixed;z-index:25;max-width:16rem;font-size:.75rem;line-height:1.4;color:#333;
+  background:#fafafa;border:1px solid #e2e2e2;border-radius:5px;box-shadow:0 2px 8px rgba(0,0,0,.12);
+  padding:.5rem .6rem;font-family:system-ui,-apple-system,'Segoe UI',sans-serif}
+.infotip[hidden]{display:none}
 .facet-opt input{width:auto;margin:0;flex:0 0 auto;position:relative;top:.15em}
 .facet-opt .opt-l{flex:1 1 auto;min-width:0;overflow-wrap:anywhere}
 .facet-opt .opt-c{flex:0 0 auto;color:#888;font-size:.75rem;font-variant-numeric:tabular-nums}
