@@ -20,10 +20,24 @@
 <button type="button" class="next">Następna ›</button>
 </nav>
 <span id="setsummary">Wczytywanie…</span>
-<label class="printopt"><input type="checkbox" id="metaToggle" checked> Meta</label>
 <span class="tb-right">
 <button type="button" id="printBtn" title="Drukuj">🖨 Drukuj</button>
-<label class="printopt"><input type="checkbox" id="onePerPage" checked> Jedno zadanie na stronę</label>
+<span class="settings">
+<button type="button" id="settingsBtn" title="Ustawienia" aria-label="Ustawienia">⚙</button>
+<div class="settings-pop" id="settingsPop" hidden>
+<section><h4>Wydruk</h4>
+<label><input type="checkbox" id="onePerPage" checked> Jedno zadanie na stronę</label>
+<p class="hint">pozostawia miejsce na brudnopis dla każdego zadania</p>
+</section>
+<section><h4>Lista zadań</h4>
+<p class="sublabel">Pokaż dodatkowo:</p>
+<label><input type="checkbox" id="metaWoj" checked> Województwo</label>
+<label><input type="checkbox" id="metaRok" checked> Rok</label>
+<label><input type="checkbox" id="metaEtap" checked> Etap</label>
+<label><input type="checkbox" id="metaTopics" checked> Tematy</label>
+</section>
+</div>
+</span>
 </span>
 </div>
 </div>

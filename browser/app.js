@@ -60,7 +60,7 @@ const search = $('search'), inc = $('include'), exc = $('exclude'),
   qlist = $('qlist'), facetsEl = $('facets'),
   clearFilters = $('clearFilters'), clearFacets = $('clearFacets'), clearSearch = $('clearSearch'),
   clearSelBar = $('clearSelBar'), printBtn = $('printBtn'), onePerPage = $('onePerPage'),
-  metaToggle = $('metaToggle');
+  settingsBtn = $('settingsBtn'), settingsPop = $('settingsPop');
 const pagers = [...document.querySelectorAll('.pager')];
 
 let DATA = [], byHash = {}, INDEX = {}, universe = new Set();
@@ -157,10 +157,13 @@ function renderQuestion(q, seq) {
     `<button type="button" class="reorder up" title="Przesuń w górę" aria-label="w górę">↑</button>`
     + `<button type="button" class="reorder down" title="Przesuń w dół" aria-label="w dół">↓</button>`);
   parts.push(`<label class="selectbox" title="zaznacz do wydruku"><input type="checkbox"${selectedSet.has(q.hash) ? ' checked' : ''}></label>`);
-  // meta tags inline in the header, right-aligned: województwo, rok, etap | topics — toggled by "Meta"
-  const ctx = [q.wojewodztwo, q.school_year, q.stage].filter(Boolean), topics = q.topics || [];
-  const metaHtml = ctx.map(t => `<span class="tag ctx">${esc(t)}</span>`).join('')
-    + topics.map(t => `<span class="tag">${esc(t)}</span>`).join('');
+  // meta tags inline in the header, right-aligned; each type toggled from the settings popup
+  const metaHtml = [
+    q.wojewodztwo && `<span class="tag ctx woj">${esc(q.wojewodztwo)}</span>`,
+    q.school_year && `<span class="tag ctx rok">${esc(q.school_year)}</span>`,
+    q.stage && `<span class="tag ctx etap">${esc(q.stage)}</span>`,
+    ...(q.topics || []).map(t => `<span class="tag topic">${esc(t)}</span>`),
+  ].filter(Boolean).join('');
   parts.push(`<div class="qhead"><span class="qnum">Zadanie ${seq ?? q.number}.</span>`
     + `<span class="pts">${q.points}p</span>`
     + `<span class="hash" title="kliknij, aby skopiować id">(${q.hash})</span>`
@@ -386,8 +389,17 @@ loadData().then(data => {
   clearFacets.onclick = e => { e.preventDefault(); clearFacetSelections(); writeUrl(true); refilter(); };
   onePerPage.onchange = () => document.body.classList.toggle('onePerPage', onePerPage.checked); // print layout only
   document.body.classList.toggle('onePerPage', onePerPage.checked); // honor the default (checked)
-  const applyMeta = () => document.body.classList.toggle('hide-meta', !metaToggle.checked); // per-question source+tags
-  metaToggle.onchange = applyMeta; applyMeta();
+  // meta type toggles: each checkbox hides its tag type via a body class (default checked = shown)
+  for (const [id, cls] of [['metaWoj', 'hide-woj'], ['metaRok', 'hide-rok'], ['metaEtap', 'hide-etap'], ['metaTopics', 'hide-topics']]) {
+    const cb = $(id), apply = () => document.body.classList.toggle(cls, !cb.checked);
+    cb.onchange = apply; apply();
+  }
+  // settings popup: toggle on the gear, close on outside click or Escape
+  settingsBtn.onclick = e => { e.stopPropagation(); settingsPop.hidden = !settingsPop.hidden; };
+  document.addEventListener('click', e => {
+    if (!settingsPop.hidden && !e.target.closest('.settings')) settingsPop.hidden = true;
+  });
+  addEventListener('keydown', e => { if (e.key === 'Escape') settingsPop.hidden = true; });
   printBtn.onclick = () => window.print();
   clearSelBar.onclick = e => { // "Wyczyść zaznaczenie": clear the print selection only
     e.preventDefault();

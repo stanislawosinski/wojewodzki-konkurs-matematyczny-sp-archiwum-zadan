@@ -27,8 +27,24 @@ h1{font-size:1.4rem;margin-top:0}
 .copytip[hidden]{display:none}
 .copytip::after{content:'';position:absolute;left:50%;top:-4px;width:8px;height:8px;
   background:inherit;transform:translateX(-50%) rotate(45deg)}
-.topbar .printopt{white-space:nowrap}
 #printBtn{font:inherit;padding:.2rem .5rem;cursor:pointer} /* always present + tallest control, so the bar keeps its height when the pager hides */
+#settingsBtn{border:none;background:none;font-size:1.5rem;line-height:1;padding:0 .2rem;cursor:pointer;color:#666;
+  transform:translateY(-.06em)} /* the ⚙ glyph sits optically low in its box; nudge up to center */
+#settingsBtn:hover{color:#222}
+/* settings popup: light-grey panel with a subtle border + 45deg arrow (rotated square), like the copy tip */
+.settings{position:relative;display:inline-flex}
+.settings-pop{position:absolute;top:calc(100% + 8px);right:0;z-index:20;min-width:13rem;
+  background:#fafafa;border:1px solid #e2e2e2;border-radius:5px;box-shadow:0 2px 8px rgba(0,0,0,.1);
+  padding:.55rem .7rem;color:#333;white-space:normal}
+.settings-pop[hidden]{display:none}
+.settings-pop::before{content:'';position:absolute;top:-5px;right:.55rem;width:8px;height:8px;
+  background:#fafafa;border-left:1px solid #e2e2e2;border-top:1px solid #e2e2e2;transform:rotate(45deg)}
+.settings-pop section + section{margin-top:.55rem;padding-top:.5rem;border-top:1px solid #ddd}
+.settings-pop h4{margin:0 0 .3rem;font-size:.68rem;text-transform:uppercase;letter-spacing:.04em;color:#999}
+.settings-pop label{display:flex;align-items:center;gap:.4rem;padding:.12rem 0;cursor:pointer;color:#333}
+.settings-pop input{width:auto;margin:0}
+.settings-pop .hint{margin:.15rem 0 0 1.4rem;font-size:.7rem;color:#999;line-height:1.3}
+.settings-pop .sublabel{margin:.05rem 0 .25rem;font-size:.75rem;color:#666}
 /* left column: filters (sticky); right column: questions get the full width */
 .sidebar{flex:0 0 250px;position:sticky;top:2.6rem;align-self:flex-start;
   font-family:system-ui,-apple-system,'Segoe UI',sans-serif;
@@ -63,7 +79,7 @@ select{font:inherit;padding:.35rem}
 .qmeta .tag{font-size:.68rem;color:#555;background:#f4f4f4;border-radius:3px;padding:.05rem .4rem;
   font-family:system-ui,-apple-system,'Segoe UI',sans-serif}
 .qmeta .tag.ctx{color:#aaa;background:#fbfbfb} /* woj/rok/etap: lighter text + fainter bg than topic tags */
-.hide-meta .qmeta{display:none}
+.hide-woj .qmeta .woj,.hide-rok .qmeta .rok,.hide-etap .qmeta .etap,.hide-topics .qmeta .topic{display:none}
 /* selection checkbox in the left gutter */
 .selectbox{position:absolute;left:calc(-1.1rem - .5rem - 1.5rem);top:.1rem;
   width:1.3rem;height:1.3rem;display:flex;align-items:center;justify-content:center;cursor:pointer}
@@ -104,8 +120,6 @@ select{font:inherit;padding:.35rem}
 .facet-opt .opt-c{flex:0 0 auto;color:#888;font-size:.75rem;font-variant-numeric:tabular-nums}
 .facet-opt.dim{opacity:.4}
 .facet-opt.dim label{cursor:default}
-.printopt{display:flex;align-items:center;gap:.4rem} /* one-question-per-page print toggle */
-.printopt input{width:auto;margin:0}
 .selrow{display:flex;gap:.4rem;margin-top:.4rem} /* three small buttons in one line under the id box */
 .selrow button{flex:1;font-size:.75rem;padding:.3rem .2rem;white-space:nowrap} /* no min-width:0, so each button never shrinks below its one-line text */
 #include{font-family:monospace;font-size:.8rem;width:100%;height:8em;box-sizing:border-box;margin-top:.15rem;padding:.3rem;resize:vertical}
