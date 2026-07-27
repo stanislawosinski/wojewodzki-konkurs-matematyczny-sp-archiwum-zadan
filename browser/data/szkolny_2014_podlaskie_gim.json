@@ -44,9 +44,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Sprowadzamy do wspólnego wykładnika 100: 2<sup>600</sup>=64<sup>100</sup>, 3<sup>500</sup>=243<sup>100</sup>, 4<sup>400</sup>=256<sup>100</sup>, 7<sup>100</sup>. Największa podstawa to 256, więc największa liczba to 4<sup>400</sup>.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Sprowadzam do wykładnika 100: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>600</mn></msup><mo>=</mo><msup><mn>64</mn><mn>100</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>500</mn></msup><mo>=</mo><msup><mn>243</mn><mn>100</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>400</mn></msup><mo>=</mo><msup><mn>256</mn><mn>100</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>7</mn><mn>100</mn></msup></math>. Największa podstawa 256, więc największa jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>400</mn></msup></math> (opcja C).</p>"
         }
       }
     },
@@ -84,9 +85,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Liczba dająca resztę 1 z dzielenia przez 5 ma postać 5k+1.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Liczba dająca resztę 1 przy dzieleniu przez 5 ma postać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mi>k</mi><mo>+</mo><mn>1</mn></math> (opcja D).</p>"
         }
       }
     },
@@ -124,9 +126,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>3 5/6 = 3 + 0,8333... = 3,8(3).</p>"
+          "corroborated": true,
+          "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mfrac><mn>5</mn><mn>6</mn></mfrac><mo>=</mo><mn>3</mn><mo>+</mo><mn>0,8333...</mn></math> = 3,8(3) (opcja A).</p>"
         }
       }
     },
@@ -164,9 +167,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>(a−b)/b = a/b − 1, więc iloraz zmniejsza się o 1.</p>"
+          "corroborated": true,
+          "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mo>−</mo><mi>b</mi></mrow><mi>b</mi></mfrac><mo>=</mo><mfrac><mi>a</mi><mi>b</mi></mfrac><mo>−</mo><mn>1</mn></math>, więc iloraz zmniejsza się o 1 (opcja D).</p>"
         }
       }
     },
@@ -204,9 +208,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>3<sup>0</sup>=1, więc 2<sup>3^0</sup>=2<sup>1</sup>=2.</p>"
+          "corroborated": true,
+          "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><msup><mn>3</mn><mn>0</mn></msup></msup><mo>=</mo><msup><mn>2</mn><mn>1</mn></msup><mo>=</mo><mn>2</mn></math> (opcja D).</p>"
         }
       }
     },
@@ -245,9 +250,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>25% = 1/4 = 2<sup>−2</sup>, więc 2<sup>48</sup>·2<sup>−2</sup>=2<sup>46</sup>.</p>"
+          "corroborated": true,
+          "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>25</mn><mo>%</mo></math> to dzielenie przez 4: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>48</mn></msup><mo>:</mo><msup><mn>2</mn><mn>2</mn></msup><mo>=</mo><msup><mn>2</mn><mn>46</mn></msup></math> (opcja B).</p>"
         }
       }
     },
@@ -286,9 +292,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>5 kotów w 5 godzin łapie 5 myszy, więc 1 kot w 1 godzinę łapie 1/5 myszy. 100 kotów w 100 godzin: 100·100·(1/5)=2000.</p>"
+          "corroborated": true,
+          "solution_html": "<p>5 kotów / 5 myszy / 5 h ⇒ 1 kot łapie 1 mysz w 5 h, czyli 20 myszy w 100 h. 100 kotów × 20 = 2000 myszy (opcja D).</p>"
         }
       }
     },
@@ -326,9 +333,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>k=(2−x)/(3−m) ⟹ k(3−m)=2−x ⟹ x=2−3k+km=km−3k+2.</p>"
+          "corroborated": true,
+          "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mo>(</mo><mn>3</mn><mo>−</mo><mi>m</mi><mo>)</mo><mo>=</mo><mn>2</mn><mo>−</mo><mi>x</mi></math> ⇒ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>2</mn><mo>−</mo><mn>3</mn><mi>k</mi><mo>+</mo><mi>k</mi><mi>m</mi><mo>=</mo><mi>k</mi><mi>m</mi><mo>−</mo><mn>3</mn><mi>k</mi><mo>+</mo><mn>2</mn></math> (opcja A).</p>"
         }
       }
     },
@@ -366,9 +374,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>x−y=2 pomnożone przez 2 daje 2x−2y=4. Aby układ był sprzeczny, potrzebna prosta równoległa (ten sam współczynnik przy x,y) o innej stałej: 2x−2y=2 (czyli x−y=1) jest równoległa, ale różna od x−y=2 — brak rozwiązań.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>−</mo><mi>y</mi><mo>=</mo><mn>2</mn></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>−</mo><mn>2</mn><mi>y</mi><mo>=</mo><mn>4</mn></math>. Równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>−</mo><mn>2</mn><mi>y</mi><mo>=</mo><mn>2</mn></math> jest z nim sprzeczne (opcja D).</p>"
         }
       }
     },
@@ -406,9 +415,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Prosta y=ax+7 nie przecina osi OX, gdy jest pozioma, czyli a=0.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Prosta nie przecina osi OX tylko gdy jest pozioma, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>0</mn></math> (wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>7</mn></math>) (opcja C).</p>"
         }
       }
     },
@@ -447,9 +457,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Pole = 700·700 = 490000 m². 1 a = 100 m², więc 490000 m² = 4900 a.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Pole = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>700</mn><mn>2</mn></msup><mo>=</mo><mn>490000</mn></math> m². Ponieważ 1 a = 100 m², to 490000 m² = 4900 a (opcja B).</p>"
         }
       }
     },
@@ -488,9 +499,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Sprawdzamy tw. Pitagorasa: 1²+(√2)²=1+2=3=(√3)² — spełnione, więc trójkąt o bokach 1, √2, √3 jest prostokątny.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Sprawdzam twierdzenie Pitagorasa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>1</mn><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>1</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>3</mn><mo>=</mo><msup><mrow><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup></math> — trójkąt prostokątny (opcja A).</p>"
         }
       }
     },
@@ -528,9 +540,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Kąt środkowy = 20%·360° = 72°. Kąt wpisany oparty na tym samym łuku to połowa kąta środkowego: 36°.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Kąt środkowy = 20% × 360° = 72°. Kąt wpisany oparty na tym samym łuku to połowa: 36° (opcja C).</p>"
         }
       }
     },
@@ -568,9 +581,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Jedyną osią symetrii figury (prosta + punkt poza nią) jest prosta prostopadła do danej prostej, przechodząca przez dany punkt — istnieje dokładnie jedna taka prosta.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Jedyną osią symetrii jest prosta prostopadła do danej prostej i przechodząca przez dany punkt — dokładnie jedna (opcja A).</p>"
         }
       }
     },
@@ -609,9 +623,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Dwusieczne kątów prostych przy A i B mają po 45°. W trójkącie ABE kąty przy A i B wynoszą po 45°, więc AE=BE (kąt przy E=90°) — trójkąt jest równoramienny (prostokątny równoramienny).</p>"
+          "corroborated": true,
+          "solution_html": "<p>Kąty przy A i B prostokąta są proste, dwusieczne tworzą z bokiem AB po 45°. Trójkąt ABE ma kąty 45°, 45°, 90° — jest równoramienny (i prostokątny), opcja B.</p>"
         }
       }
     },
@@ -650,9 +665,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>|AB| = √((4−2)²+(3−1)²) = √(4+4) = √8 = 2√2.</p>"
+          "corroborated": true,
+          "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi><mo>=</mo><msqrt><mrow><msup><mrow><mo>(</mo><mn>4</mn><mo>−</mo><mn>2</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mn>3</mn><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>8</mn></msqrt><mo>=</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></math> (opcja D).</p>"
         }
       }
     },
@@ -690,9 +706,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>2x−3=5 ⟹ x=4, lub 2x−3=−5 ⟹ x=−1.</p>"
+          "corroborated": true,
+          "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>−</mo><mn>3</mn><mo>=</mo><mn>5</mn></math> ⇒ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>4</mn></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>−</mo><mn>3</mn><mo>=</mo><mo>−</mo><mn>5</mn></math> ⇒ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mo>−</mo><mn>1</mn></math> (opcja B).</p>"
         }
       }
     },
@@ -713,10 +730,11 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "answer": "h₁ = 2√3 cm (do boku 5√2 cm); h₂ = 5√2/2 cm (do boku 4√3 cm)",
-          "by": "sonnet",
+          "answer": "h₁ = 2√3 cm ≈ 3,46 cm (na bok 5√2 cm); h₂ = 2,5√2 cm ≈ 3,54 cm (na bok 4√3 cm)",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Pole równoległoboku: P = 5√2·4√3·sin30° = 20√6·0,5 = 10√6 cm².</p><p>h₁ = P/(5√2) = 10√6/(5√2) = 2√3 cm (można też: h₁=4√3·sin30°=2√3 cm).</p><p>h₂ = P/(4√3) = 10√6/(4√3) = 5√2/2 cm (h₂=5√2·sin30°=5√2/2 cm).</p>"
+          "corroborated": true,
+          "solution_html": "<p>Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>5</mn><msqrt><mn>2</mn></msqrt><mo>·</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><mi>sin</mi><mn>30</mn><mo>°</mo><mo>=</mo><mn>10</mn><msqrt><mn>6</mn></msqrt></math> cm². Wysokość na bok 5√2: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>=</mo><mn>2</mn><msqrt><mn>3</mn></msqrt></math> cm. Wysokość na bok 4√3: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><msqrt><mn>2</mn></msqrt><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>=</mo><mn>2,5</mn><msqrt><mn>2</mn></msqrt></math> cm.</p>"
         }
       }
     },
@@ -738,9 +756,10 @@
         "solution_html": null,
         "model": {
           "answer": "674",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Niech h,t,u — cyfry setek, dziesiątek, jedności; h+t+u=17, u=(2/3)h ⟹ h musi być podzielne przez 3: h∈{3,6,9}.</p><p>h=6: u=4, t=17−6−4=7 (7 jest liczbą pierwszą) — liczba 674. h=9: u=6, t=2 — liczba 926. h=3: u=2, t=12 (niemożliwe).</p><p>Wybieramy możliwie największą pierwszą cyfrę dziesiątek: t=7 &gt; t=2, więc liczba to 674.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Cyfra jedności = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math> cyfry setek, więc setki podzielne przez 3: 6→4. Suma cyfr 17: 6+7+4=17. Cyfra dziesiątek 7 jest największą cyfrą i pierwszą. Liczba: 674.</p>"
         }
       }
     },
@@ -760,10 +779,11 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "answer": "Pole powierzchni całkowitej = 468 cm²; objętość = 648 cm³",
-          "by": "sonnet",
+          "answer": "Pole całkowite = 468 cm²; objętość = 648 cm³",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Suma 12 krawędzi = 4(a+b+c)=108 ⟹ a+b+c=27. Przy stosunku 2:3:4: 9k=27 ⟹ k=3, więc a=6, b=9, c=12 cm.</p><p>Pole całkowite = 2(ab+bc+ca) = 2(54+108+72) = 2·234 = 468 cm².</p><p>Objętość = a·b·c = 6·9·12 = 648 cm³.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Suma krawędzi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>)</mo><mo>=</mo><mn>108</mn></math> ⇒ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>=</mo><mn>27</mn></math>. Przy 2:3:4: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mi>x</mi><mo>=</mo><mn>27</mn></math>, x=3 ⇒ 6, 9, 12. V = 6·9·12 = 648 cm³; P = 2(54+108+72) = 468 cm².</p>"
         }
       }
     }

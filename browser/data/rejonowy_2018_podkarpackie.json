@@ -44,9 +44,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Suma wszystkich cukierków = 1+2+...+10 = 55. Zuzia = 55 − (5+7+9+19) = 55 − 40 = 15.</p><p>Sprawdzenie parami: Maja (9,10)=19, Zuzia (7,8)=15, Kasia (3,6)=9, Ola (2,5)=7, Ania (1,4)=5 — wykorzystuje wszystkie liczby 1–10 dokładnie raz.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Suma cukierków w 10 torebkach: <math><mrow><mn>1</mn><mo>+</mo><mo>&#8230;</mo><mo>+</mo><mn>10</mn><mo>=</mo><mn>55</mn></mrow></math>.</p><p>Zuzia = <math><mrow><mn>55</mn><mo>-</mo><mo>(</mo><mn>5</mn><mo>+</mo><mn>7</mn><mo>+</mo><mn>9</mn><mo>+</mo><mn>19</mn><mo>)</mo><mo>=</mo><mn>15</mn></mrow></math>. Wartość 15 to odpowiedź C.</p>"
         }
       }
     },
@@ -84,9 +85,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Liczba = 100h+50+(h−3) = 101h+47. Po zamianie cyfr setek i jedności: 100(h−3)+50+h = 101h−250.</p><p>Różnica = (101h+47) − (101h−250) = 297, niezależnie od h.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Liczba: <math><mrow><mn>100</mn><mi>h</mi><mo>+</mo><mn>50</mn><mo>+</mo><mi>u</mi></mrow></math>, gdzie <math><mrow><mi>u</mi><mo>=</mo><mi>h</mi><mo>-</mo><mn>3</mn></mrow></math>. Po zamianie: <math><mrow><mn>100</mn><mi>u</mi><mo>+</mo><mn>50</mn><mo>+</mo><mi>h</mi></mrow></math>.</p><p>Różnica <math><mrow><mo>=</mo><mn>99</mn><mo>(</mo><mi>h</mi><mo>-</mo><mi>u</mi><mo>)</mo><mo>=</mo><mn>99</mn><mo>&#183;</mo><mn>3</mn><mo>=</mo><mn>297</mn></mrow></math>. Odpowiedź D.</p>"
         }
       }
     },
@@ -125,9 +127,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Średnia trzech krawędzi = 14 cm, więc l+w+h = 42 cm.</p><p>Prostopadłościan ma 12 krawędzi: 4 długości, 4 szerokości, 4 wysokości. Suma = 4(l+w+h) = 4·42 = 168 cm.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Średnia = 14, więc <math><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>=</mo><mn>42</mn></mrow></math> cm.</p><p>Suma krawędzi prostopadłościanu <math><mrow><mo>=</mo><mn>4</mn><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>)</mo><mo>=</mo><mn>4</mn><mo>&#183;</mo><mn>42</mn><mo>=</mo><mn>168</mn></mrow></math> cm. Odpowiedź B.</p>"
         }
       }
     },
@@ -165,9 +168,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>24% = 6/25, więc liczba uczniów musi być wielokrotnością 25, aby liczba dziewczynek była liczbą całkowitą.</p><p>25·0,24 = 6 (całkowita). Pozostałe opcje dają wartości niecałkowite (24·0,24=5,76; 28·0,24=6,72; 30·0,24=7,2).</p>"
+          "corroborated": true,
+          "solution_html": "<p><math><mrow><mn>24</mn><mo>%</mo><mo>=</mo><mfrac><mn>6</mn><mn>25</mn></mfrac></mrow></math>, więc liczba uczniów musi być wielokrotnością 25.</p><p>Spośród podanych tylko 25 daje całkowitą liczbę dziewczynek (<math><mrow><mn>24</mn><mo>%</mo><mo>&#183;</mo><mn>25</mn><mo>=</mo><mn>6</mn></mrow></math>). Odpowiedź C.</p>"
         }
       }
     },
@@ -205,9 +209,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Graniastosłup o podstawie n-kąta ma 2n wierzchołków. 2n=52 ⟹ n=26.</p><p>Ściany: n+2 = 28. Krawędzie: 3n = 78. Suma = 28+78 = 106.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Graniastosłup o podstawie n-kąta ma <math><mrow><mn>2</mn><mi>n</mi></mrow></math> wierzchołków: <math><mrow><mn>2</mn><mi>n</mi><mo>=</mo><mn>52</mn></mrow></math>, więc <math><mrow><mi>n</mi><mo>=</mo><mn>26</mn></mrow></math>.</p><p>Ściany: <math><mrow><mi>n</mi><mo>+</mo><mn>2</mn><mo>=</mo><mn>28</mn></mrow></math>, krawędzie: <math><mrow><mn>3</mn><mi>n</mi><mo>=</mo><mn>78</mn></mrow></math>. Suma <math><mrow><mo>=</mo><mn>106</mn></mrow></math>. Odpowiedź A.</p>"
         }
       }
     },
@@ -245,9 +250,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>22/7 = 3,(142857) — okres długości 6.</p><p>126 = 6·21, więc 126. cyfra po przecinku to ostatnia cyfra okresu, czyli 7.</p>"
+          "corroborated": true,
+          "solution_html": "<p><math><mrow><mfrac><mn>22</mn><mn>7</mn></mfrac><mo>=</mo><mn>3</mn><mo>,</mo><mo>(</mo><mn>142857</mn><mo>)</mo></mrow></math> — okres 6 cyfr.</p><p><math><mrow><mn>126</mn><mo>&#247;</mo><mn>6</mn></mrow></math> daje resztę 0, więc 126. cyfra to ostatnia cyfra okresu = 7. Odpowiedź C.</p>"
         }
       }
     },
@@ -285,9 +291,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Masa plasteliny jest proporcjonalna do objętości sześcianu, czyli do (krawędzi)³.</p><p>Krawędź rośnie 2×, więc objętość rośnie 2³=8×. Masa = 8g · 8 = 64 g.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Masa plasteliny jest proporcjonalna do objętości. Kostka 2 cm: <math><mrow><msup><mn>2</mn><mn>3</mn></msup><mo>=</mo><mn>8</mn></mrow></math> cm³ = 8 g.</p><p>Kostka 4 cm: <math><mrow><msup><mn>4</mn><mn>3</mn></msup><mo>=</mo><mn>64</mn></mrow></math> cm³, czyli 64 g. Odpowiedź B.</p>"
         }
       }
     },
@@ -325,9 +332,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Podzielność przez 4: liczba dwucyfrowa \"8b\" (80+b) musi dzielić się przez 4 ⟹ b∈{0,4,8}.</p><p>Podzielność przez 3: 5+1+6+a+4+8+b = 24+a+b musi dzielić się przez 3 ⟹ a+b podzielne przez 3.</p><p>Możliwe sumy a+b: dla b=0: a∈{0,3,6,9}⟹a+b∈{0,3,6,9}; dla b=4: a∈{2,5,8}⟹a+b∈{6,9,12}; dla b=8: a∈{1,4,7}⟹a+b∈{9,12,15}. Zbiór możliwych sum: {0,3,6,9,12,15} — zawiera zarówno 6, jak i 9.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Podzielność przez 12 = przez 4 i 3. Ostatnie cyfry <math><mrow><mn>8</mn><mi>b</mi></mrow></math> podzielne przez 4 &#8658; <math><mrow><mi>b</mi><mo>&#8712;</mo><mo>{</mo><mn>0</mn><mo>,</mo><mn>4</mn><mo>,</mo><mn>8</mn><mo>}</mo></mrow></math>. Suma cyfr <math><mrow><mn>24</mn><mo>+</mo><mi>a</mi><mo>+</mo><mi>b</mi></mrow></math> podzielna przez 3 &#8658; <math><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow></math> podzielne przez 3.</p><p>Możliwe sumy: 0, 3, 6, 9, 12, 15 — wśród nich 6 i 9. Odpowiedź A.</p>"
         }
       }
     },
@@ -365,9 +373,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>A: lipiec ma 31 dni, dni nieparzystych jest 16, nie 17 — fałsz.</p><p>B: czerwiec ma 30 dni; dzień 30 (ostatni, zaznaczony przez Janka) jest parzysty, więc Agata go nie zaznacza — fałsz.</p><p>C: jeśli sierpień zaczyna się we wtorek, dzień 1 (wtorek) i dzień 31 (czwartek) nie są weekendem — żaden dzień nie jest zaznaczony przez wszystkich — fałsz.</p><p>D: jeśli maj zaczyna się w piątek, to 31 maja przypada w niedzielę: jest to dzień nieparzysty (Agata), ostatni dzień miesiąca (Janek) i niedziela (Marysia) — prawda.</p>"
+          "corroborated": true,
+          "solution_html": "<p>A: lipiec ma 16 dni nieparzystych, nie 17 — fałsz. B: Janek zaznacza 30 czerwca (parzysty), Agata nie — fałsz. C: Janek zaznacza tylko 1 i 31 sierpnia; przy starcie we wtorek 1=wt, 31=czw — żaden nie jest weekendem, więc brak wspólnego dnia — fałsz.</p><p>D: maj od piątku &#8658; 31 maja wypada w niedzielę (zaznacza Marysia), jest nieparzysty (Agata) i jest ostatnim dniem (Janek). Wszyscy zaznaczają. Odpowiedź D.</p>"
         }
       }
     },
@@ -405,9 +414,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>3/4 kartonika = 1,5 szklanki, więc cały (pełny) kartonik = 1,5·(4/3) = 2 szklanki.</p><p>5 pełnych kartoników = 5·2 = 10 szklanek.</p>"
+          "corroborated": true,
+          "solution_html": "<p><math><mrow><mfrac><mn>3</mn><mn>4</mn></mfrac></mrow></math> kartonika = 1,5 szklanki, więc pełny kartonik = <math><mrow><mn>1</mn><mo>,</mo><mn>5</mn><mo>&#183;</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><mo>=</mo><mn>2</mn></mrow></math> szklanki.</p><p>5 kartoników = <math><mrow><mn>5</mn><mo>&#183;</mo><mn>2</mn><mo>=</mo><mn>10</mn></mrow></math> szklanek. Odpowiedź C.</p>"
         }
       }
     },
@@ -445,9 +455,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Rzeczywista szerokość drogi: 6 cm · 50 = 300 cm.</p><p>Na planie 1:20: 300/20 = 15 cm.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Rzeczywista szerokość: <math><mrow><mn>6</mn><mo>&#183;</mo><mn>50</mn><mo>=</mo><mn>300</mn></mrow></math> cm.</p><p>Na planie 1:20: <math><mrow><mn>300</mn><mo>&#247;</mo><mn>20</mn><mo>=</mo><mn>15</mn></mrow></math> cm. Odpowiedź D.</p>"
         }
       }
     },
@@ -485,9 +496,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Wzrost o 6 2/3% = 20/3%: 135·(1+20/300) = 135·16/15 = 144 zł.</p><p>Spadek o 0,5%: 144·0,995 = 143,28 zł.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Wzrost o <math><mrow><mn>6</mn><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>%</mo><mo>=</mo><mfrac><mn>1</mn><mn>15</mn></mfrac></mrow></math>: <math><mrow><mn>135</mn><mo>&#183;</mo><mfrac><mn>16</mn><mn>15</mn></mfrac><mo>=</mo><mn>144</mn></mrow></math> zł.</p><p>Spadek o 0,5%: <math><mrow><mn>144</mn><mo>&#183;</mo><mn>0</mn><mo>,</mo><mn>995</mn><mo>=</mo><mn>143</mn><mo>,</mo><mn>28</mn></mrow></math> zł. Odpowiedź B.</p>"
         }
       }
     },
@@ -525,9 +537,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>a = −122/111 ≈ −1,0991; b = −1,1; c = −10/9 ≈ −1,1111; d = −12/11 ≈ −1,0909.</p><p>Wartości bezwzględne: |c|>|b|>|a|>|d|, więc rosnąco (najbardziej ujemna pierwsza): c &lt; b &lt; a &lt; d.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Wartości: <math><mrow><mi>a</mi><mo>&#8776;</mo><mo>-</mo><mn>1</mn><mo>,</mo><mn>0991</mn></mrow></math>, <math><mrow><mi>b</mi><mo>=</mo><mo>-</mo><mn>1</mn><mo>,</mo><mn>1</mn></mrow></math>, <math><mrow><mi>c</mi><mo>=</mo><mo>-</mo><mn>1</mn><mo>,</mo><mn>111&#8230;</mn></mrow></math>, <math><mrow><mi>d</mi><mo>&#8776;</mo><mo>-</mo><mn>1</mn><mo>,</mo><mn>0909</mn></mrow></math>.</p><p>Rosnąco: <math><mrow><mi>c</mi><mo>&lt;</mo><mi>b</mi><mo>&lt;</mo><mi>a</mi><mo>&lt;</mo><mi>d</mi></mrow></math>. Odpowiedź A.</p>"
         }
       }
     },
@@ -566,9 +579,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Procent podwyżki = (x−4000)/4000 · 100% = (x−4000)/40 %.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Podwyżka wynosi <math><mrow><mo>(</mo><mi>x</mi><mo>-</mo><mn>4000</mn><mo>)</mo></mrow></math> zł, procentowo: <math><mrow><mfrac><mrow><mi>x</mi><mo>-</mo><mn>4000</mn></mrow><mn>4000</mn></mfrac><mo>&#183;</mo><mn>100</mn><mo>%</mo><mo>=</mo><mfrac><mrow><mi>x</mi><mo>-</mo><mn>4000</mn></mrow><mn>40</mn></mfrac><mo>%</mo></mrow></math>. Odpowiedź D.</p>"
         }
       }
     },
@@ -589,9 +603,10 @@
         "solution_html": null,
         "model": {
           "answer": "202",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Niech liczby to n−2,n−1,n,n+1,n+2. Suma = 5n = 1000 ⟹ n=200.</p><p>Największa liczba = n+2 = 202.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Środkowa z 5 kolejnych liczb: <math><mrow><mn>1000</mn><mo>&#247;</mo><mn>5</mn><mo>=</mo><mn>200</mn></mrow></math>. Liczby: 198, 199, 200, 201, 202.</p><p>Największa to 202.</p>"
         }
       }
     },
@@ -626,9 +641,10 @@
         "solution_html": null,
         "model": {
           "answer": "PPF",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Sumując 4 równania: 4T − T = 9+8,5+8+7,5 = 33 ⟹ 3T=33 ⟹ T=11 zł (razem). (1) Prawda.</p><p>Maciek=T−9=2; Tomek=T−8,5=2,5; Daniel=T−8=3; Paweł=T−7,5=3,5.</p><p>(2) Daniel+Tomek=3+2,5=5,5; Paweł+Maciek=3,5+2=5,5 — równe — Prawda.</p><p>(3) Różnica Daniel−Maciek = 3−2 = 1 zł, nie 1,50 zł — Fałsz.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Sumując 4 warunki: <math><mrow><mn>3</mn><mi>S</mi><mo>=</mo><mn>33</mn></mrow></math>, więc razem <math><mrow><mi>S</mi><mo>=</mo><mn>11</mn></mrow></math> zł. Stąd M=2, T=2,5, D=3, P=3,5.</p><p>(1) razem 11 zł — P. (2) D+T = 5,5 = P+M — P. (3) M o 1 zł mniej niż D, nie o 1,50 — F. Wynik PPF.</p>"
         }
       }
     },
@@ -669,9 +685,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Kąt wewnętrzny pięciokąta przy wierzchołku wspólnym z trójkątem = 108°, więc każdy bok pięciokąta odchyla się od osi symetrii o 54°. Kąt trójkąta równobocznego = 60°, więc każdy jego bok odchyla się od osi o 30°.</p><p>W trójkącie utworzonym przez wierzchołek wspólny, sąsiedni wierzchołek pięciokąta i punkt przecięcia boku trójkąta z bokiem pięciokąta: kąty to 24° (54°−30°) i 108° (kąt pięciokąta), więc trzeci kąt = 180−24−108 = 48°.</p><p>Zaznaczony kąt jest kątem przyległym (na zewnątrz) do tego kąta 48°, więc wynosi 180−48 = 132°.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Bok trójkąta równobocznego (wierzchołek w górnym wierzchołku pięciokąta) tworzy z poziomem kąt 60°, a dolny bok pięciokąta kąt 72°.</p><p>W punkcie przecięcia kąt ostry = <math><mrow><mn>72</mn><mo>&#176;</mo><mo>-</mo><mn>60</mn><mo>&#176;</mo><mo>+</mo><mn>36</mn><mo>&#176;</mo><mo>=</mo><mn>48</mn><mo>&#176;</mo></mrow></math>; zaznaczony kąt rozwarty (otwarty na zewnątrz) = <math><mrow><mn>180</mn><mo>&#176;</mo><mo>-</mo><mn>48</mn><mo>&#176;</mo><mo>=</mo><mn>132</mn><mo>&#176;</mo></mrow></math>. Odpowiedź A.</p>"
         }
       }
     },
@@ -710,9 +727,10 @@
         "solution_html": null,
         "model": {
           "answer": "FPFP",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Jakub = x−1, Kasia = 2x.</p><p>(1) Za 5 lat Jakub = (x−1)+5 = x+4, nie x+5 — Fałsz.</p><p>(2) Za 2 lata: Jakub=x+1, Kasia=2x+2=2(x+1) — Jakub jest 2 razy młodszy — Prawda.</p><p>(3) Kasia−Jakub = 2x−(x−1) = x+1, nie x−1 — Fałsz.</p><p>(4) Różnica wieku Kasia−Jakub jest stała i wynosi x+1. Dla x=1 (Adam ma 1 rok, Jakub właśnie się urodził, Kasia ma 2 lata) różnica = 2, więc mogła mieć 2 lata — Prawda.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Adam <math><mi>x</mi></math>, Jakub <math><mrow><mi>x</mi><mo>-</mo><mn>1</mn></mrow></math>, Kasia <math><mrow><mn>2</mn><mi>x</mi></mrow></math>.</p><p>(1) Za 5 lat Jakub: <math><mrow><mi>x</mi><mo>+</mo><mn>4</mn></mrow></math>, nie <math><mrow><mi>x</mi><mo>+</mo><mn>5</mn></mrow></math> — F. (2) Za 2 lata: Kasia <math><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>2</mn></mrow></math> = 2·(Jakub <math><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></math>) — P. (3) Kasia−Jakub = <math><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></math>, nie <math><mrow><mi>x</mi><mo>-</mo><mn>1</mn></mrow></math> — F. (4) Różnica wieku <math><mrow><mi>x</mi><mo>+</mo><mn>1</mn><mo>&#8805;</mo><mn>2</mn></mrow></math>, dla <math><mrow><mi>x</mi><mo>=</mo><mn>1</mn></mrow></math> Kasia miała 2 lata — możliwe, P. Wynik FPFP.</p>"
         }
       }
     },
@@ -749,9 +767,10 @@
         "solution_html": null,
         "model": {
           "answer": "FPP",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Z warunków: E=środek AG, F=środek EB, G=środek FC. Rozwiązując układ: E=(4A+B+2C)/7, F=(2A+4B+C)/7, G=(A+2B+4C)/7 (współrzędne barycentryczne).</p><p>Wyznacznik macierzy współczynników = 49/343 = 1/7, więc pole EFG = (1/7)·pole ABC, czyli pole ABC = 7x.</p><p>(1) ABC 6 razy większe od EFG — Fałsz (jest 7 razy). (2) Różnica pól = 7x−x=6x — Prawda. (3) ABC 7 razy większe od EFG — Prawda.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Z warunków E, F, G są środkami: <math><mrow><mi>A</mi><mo>=</mo><mn>2</mn><mi>E</mi><mo>-</mo><mi>G</mi></mrow></math>, <math><mrow><mi>B</mi><mo>=</mo><mn>2</mn><mi>F</mi><mo>-</mo><mi>E</mi></mrow></math>, <math><mrow><mi>C</mi><mo>=</mo><mn>2</mn><mi>G</mi><mo>-</mo><mi>F</mi></mrow></math>. Rachunek pól daje <math><mrow><msub><mi>P</mi><mi>ABC</mi></msub><mo>=</mo><mn>7</mn><mi>x</mi></mrow></math>.</p><p>(1) 6 razy — F. (2) różnica <math><mrow><mn>7</mn><mi>x</mi><mo>-</mo><mi>x</mi><mo>=</mo><mn>6</mn><mi>x</mi></mrow></math> — P. (3) 7 razy — P. Wynik FPP.</p>"
         }
       }
     },
@@ -771,10 +790,11 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "answer": "1. -8; 2. -106; 3. 15",
-          "by": "sonnet",
+          "answer": "1) -8; 2) -106; 3) 15",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>1. (−12,5)·(−32):(−100)·2 = 400:(−100)·2 = (−4)·2 = −8.</p><p>2. (−200):2 − (−300):(−50)·(−2) − [11−1·(−5)−(−2)] = −100 − (6·(−2)) − [11+5+2] = −100−(−12)−18 = −100+12−18 = −106.</p><p>3. (2−2/5)²·5² − (−7)² = (8/5)²·25 − 49 = (64/25)·25 − 49 = 64−49 = 15.</p>"
+          "corroborated": true,
+          "solution_html": "<p>1) <math><mrow><mo>(</mo><mo>-</mo><mn>12</mn><mo>,</mo><mn>5</mn><mo>)</mo><mo>&#183;</mo><mo>(</mo><mo>-</mo><mn>32</mn><mo>)</mo><mo>=</mo><mn>400</mn></mrow></math>, <math><mrow><mn>400</mn><mo>&#247;</mo><mo>(</mo><mo>-</mo><mn>100</mn><mo>)</mo><mo>&#183;</mo><mn>2</mn><mo>=</mo><mo>-</mo><mn>8</mn></mrow></math>.</p><p>2) <math><mrow><mo>-</mo><mn>100</mn><mo>-</mo><mo>(</mo><mo>-</mo><mn>12</mn><mo>)</mo><mo>-</mo><mn>18</mn><mo>=</mo><mo>-</mo><mn>106</mn></mrow></math>.</p><p>3) <math><mrow><msup><mrow><mo>(</mo><mfrac><mn>8</mn><mn>5</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>&#183;</mo><mn>25</mn><mo>-</mo><mn>49</mn><mo>=</mo><mn>64</mn><mo>-</mo><mn>49</mn><mo>=</mo><mn>15</mn></mrow></math>.</p>"
         }
       }
     },
@@ -795,10 +815,11 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "answer": "Liczby to 50 i 8; mniejsza stanowi 16% większej.",
-          "by": "sonnet",
+          "answer": "50 i 8; 16%",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Niech mniejsza = a, większa = 58−a. Z dzielenia: 58−a = 6a+2 ⟹ 7a=56 ⟹ a=8, druga liczba = 50.</p><p>Sprawdzenie: 50=6·8+2 ✓.</p><p>8/50·100% = 16%.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Niech mniejsza = m, większa = <math><mrow><mn>6</mn><mi>m</mi><mo>+</mo><mn>2</mn></mrow></math>. <math><mrow><mn>7</mn><mi>m</mi><mo>+</mo><mn>2</mn><mo>=</mo><mn>58</mn></mrow></math> &#8658; <math><mrow><mi>m</mi><mo>=</mo><mn>8</mn></mrow></math>, większa 50.</p><p><math><mrow><mfrac><mn>8</mn><mn>50</mn></mfrac><mo>=</mo><mn>0</mn><mo>,</mo><mn>16</mn><mo>=</mo><mn>16</mn><mo>%</mo></mrow></math>. Liczby 50 i 8; mniejsza to 16% większej.</p>"
         }
       }
     },
@@ -819,9 +840,10 @@
         "solution_html": null,
         "model": {
           "answer": "264",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Niech N = liczba wszystkich kasztanów. Marek wziął N/11, Kasia 6, razem N/9.</p><p>N/9 − N/11 = 6 ⟹ N·(2/99) = 6 ⟹ N = 297.</p><p>Marek: 297/11=27, Kasia: 6, razem 33 (=297/9 ✓). Pozostało: 297−33 = 264.</p>"
+          "corroborated": true,
+          "solution_html": "<p><math><mrow><mfrac><mn>1</mn><mn>11</mn></mfrac><mi>N</mi><mo>+</mo><mn>6</mn><mo>=</mo><mfrac><mn>1</mn><mn>9</mn></mfrac><mi>N</mi></mrow></math> &#8658; <math><mrow><mn>6</mn><mo>=</mo><mi>N</mi><mo>(</mo><mfrac><mn>1</mn><mn>9</mn></mfrac><mo>-</mo><mfrac><mn>1</mn><mn>11</mn></mfrac><mo>)</mo><mo>=</mo><mfrac><mrow><mn>2</mn><mi>N</mi></mrow><mn>99</mn></mfrac></mrow></math>, więc <math><mrow><mi>N</mi><mo>=</mo><mn>297</mn></mrow></math>.</p><p>Zebrano <math><mrow><mfrac><mn>1</mn><mn>9</mn></mfrac><mo>&#183;</mo><mn>297</mn><mo>=</mo><mn>33</mn></mrow></math>. Zostało <math><mrow><mn>297</mn><mo>-</mo><mn>33</mn><mo>=</mo><mn>264</mn></mrow></math> kasztanów.</p>"
         }
       }
     },
@@ -845,10 +867,11 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "answer": "BE = 6 cm",
-          "by": "sonnet",
+          "answer": "6 cm",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Niech A=(0,12), B=(0,0), C=(12,0), D=(12,12) (kwadrat o boku 12, pole=144).</p><p>Trójkąt DCF: podstawa DC=12 (pionowa), pole=0,5·12·h₁=144 ⟹ h₁=24 — odległość F od prostej DC, więc F=(36, y_F).</p><p>Trapezoid BCFE: podstawy BC=12 i EF=36 (E leży pod B, F wyznaczone wyżej), wysokość = BE = h. Pole = 0,5·(12+36)·h = 24h = 144 ⟹ h=6.</p><p>BE = 6 cm.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Pole kwadratu <math><mrow><mo>=</mo><msup><mn>12</mn><mn>2</mn></msup><mo>=</mo><mn>144</mn></mrow></math> cm². Trójkąt DCF: <math><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>&#183;</mo><mn>12</mn><mo>&#183;</mo><mi>h</mi><mo>=</mo><mn>144</mn></mrow></math> &#8658; <math><mrow><mi>h</mi><mo>=</mo><mn>24</mn></mrow></math>, więc dolna podstawa trapezu <math><mrow><mi>EF</mi><mo>=</mo><mn>12</mn><mo>+</mo><mn>24</mn><mo>=</mo><mn>36</mn></mrow></math>.</p><p>Trapez BCFE: <math><mrow><mfrac><mrow><mn>12</mn><mo>+</mo><mn>36</mn></mrow><mn>2</mn></mfrac><mo>&#183;</mo><mi>BE</mi><mo>=</mo><mn>144</mn></mrow></math> &#8658; <math><mrow><mn>24</mn><mo>&#183;</mo><mi>BE</mi><mo>=</mo><mn>144</mn></mrow></math> &#8658; <math><mrow><mi>BE</mi><mo>=</mo><mn>6</mn></mrow></math> cm.</p>"
         }
       }
     }

@@ -48,9 +48,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Krótszy kawałek odpowiada mniejszej liczbie w stosunku 3:5, czyli 3 częściom: 27&nbsp;cm ÷ 3 = 9&nbsp;cm/część. Cała listwa to 3+5=8 części: 8·9 = 72&nbsp;cm.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Krótszy kawałek to 3 części stosunku: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math> części = 27 cm, więc 1 część = 9 cm.</p><p>Cała listwa = 8 części = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>·</mo><mn>9</mn><mo>=</mo><mn>72</mn></math> cm.</p>"
         }
       }
     },
@@ -93,9 +94,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>252 = 2²·3²·7. Wielokrotność musi zawierać co najmniej 2², 3² i 7¹ w rozkładzie. Tylko odpowiedź C: 2³·3²·7 spełnia ten warunek (zawiera 2², 3² i 7).</p>"
+          "corroborated": true,
+          "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>252</mn><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup><mo>·</mo><msup><mn>3</mn><mn>2</mn></msup><mo>·</mo><mn>7</mn></math>. Wielokrotność musi zawierać co najmniej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>2</mn></msup><mo>,</mo><msup><mn>3</mn><mn>2</mn></msup><mo>,</mo><mn>7</mn></math>.</p><p>Tylko C: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>3</mn></msup><mo>·</mo><msup><mn>3</mn><mn>2</mn></msup><mo>·</mo><mn>7</mn><mo>=</mo><mn>504</mn><mo>=</mo><mn>2</mn><mo>·</mo><mn>252</mn></math>.</p>"
         }
       }
     },
@@ -138,9 +140,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>4¹²+4¹³+4¹⁴ = 4¹²(1+4+16) = 4¹²·21 = 2²⁴·3·7. Ta liczba jest podzielna przez 2·3·7=42 (odp. C), ale nie przez 20 (brak 5), 35 (brak 5), 52 (brak 13) ani 63=9·7 (brak drugiej trójki).</p>"
+          "corroborated": true,
+          "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>12</mn></msup><mo>+</mo><msup><mn>4</mn><mn>13</mn></msup><mo>+</mo><msup><mn>4</mn><mn>14</mn></msup><mo>=</mo><msup><mn>4</mn><mn>12</mn></msup><mo>(</mo><mn>1</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>16</mn><mo>)</mo><mo>=</mo><msup><mn>2</mn><mn>24</mn></msup><mo>·</mo><mn>21</mn></math>.</p><p>21 = 3·7, więc suma = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>24</mn></msup><mo>·</mo><mn>3</mn><mo>·</mo><mn>7</mn></math>. Dzieli się przez 42 = 2·3·7.</p>"
         }
       }
     },
@@ -184,9 +187,10 @@
         "solution_html": null,
         "model": {
           "answer": "E",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Niech A=0, wtedy B=19. Niech AC=BD=x, więc C=x, D=19+x. Z CE=97 mamy E=x+97. Zatem DE = E−D = (x+97)−(19+x) = 78&nbsp;cm — niezależnie od x.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Kolejno A,B,C,D,E. Niech A=0, B=19, C=c. Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>AC</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>BD</mi><mo>|</mo></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mi>d</mi><mo>−</mo><mn>19</mn></math>, więc D=c+19.</p><p>Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>CE</mi><mo>|</mo><mo>=</mo><mn>97</mn></math>: E=c+97. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>DE</mi><mo>|</mo><mo>=</mo><mn>97</mn><mo>−</mo><mn>19</mn><mo>=</mo><mn>78</mn></math> cm.</p>"
         }
       }
     },
@@ -228,9 +232,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Niech t = liczba minut od północy do południa: t + (720−t) rozbicie. (2/5)t = (2/3)(720−t) ⇒ 6t=10(720−t) ⇒ 16t=7200 ⇒ t=450 min = 7 h 30 min.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Niech t = godzin od północy. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac><mi>t</mi><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>(</mo><mn>12</mn><mo>−</mo><mi>t</mi><mo>)</mo></math>.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>t</mi><mo>=</mo><mn>5</mn><mo>(</mo><mn>12</mn><mo>−</mo><mi>t</mi><mo>)</mo><mo>⇒</mo><mn>8</mn><mi>t</mi><mo>=</mo><mn>60</mn><mo>⇒</mo><mi>t</mi><mo>=</mo><mn>7</mn><mo>,</mo><mn>5</mn></math> = 7:30.</p>"
         }
       }
     },
@@ -273,9 +278,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>(a+b)/2 = 3b/4 ⇒ a+b = 3b/2 ⇒ a = b/2. Zatem a jest dwa razy mniejsza od b.</p>"
+          "corroborated": true,
+          "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mn>2</mn></mfrac><mo>=</mo><mfrac><mrow><mn>3</mn><mi>b</mi></mrow><mn>4</mn></mfrac><mo>⇒</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mfrac><mrow><mn>3</mn><mi>b</mi></mrow><mn>2</mn></mfrac><mo>⇒</mo><mi>a</mi><mo>=</mo><mfrac><mi>b</mi><mn>2</mn></mfrac></math>.</p><p>a jest dwa razy mniejsza od b.</p>"
         }
       }
     },
@@ -319,9 +325,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Bok rombu: 16√3 ÷ 4 = 4√3. Pole = a²·sin30° = (4√3)²·(1/2) = 48·0,5 = 24.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Bok rombu = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>16</mn><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mn>4</mn><msqrt><mn>3</mn></msqrt></math>.</p><p>Pole = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>sin</mo><mn>30</mn><mo>°</mo><mo>=</mo><mn>48</mn><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>=</mo><mn>24</mn></math>.</p>"
         }
       }
     },
@@ -367,9 +374,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Współrzędne: A(0,0), B(w,0), C(w,h), D(0,h), E(w,h/2), F(w/2,h). Pole AEF = ½|w·h − w·h/4| = 3wh/8 = 15 ⇒ wh = 40 cm² — to jest pole prostokąta ABCD.</p>"
+          "corroborated": true,
+          "solution_html": "<p>A=(0,0), B=(a,0), C=(a,b), D=(0,b); E=(a,b/2), F=(a/2,b).</p><p>Pole AEF = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>|</mo><mi>ab</mi><mo>−</mo><mfrac><mrow><mi>ab</mi></mrow><mn>4</mn></mfrac><mo>|</mo><mo>=</mo><mfrac><mrow><mn>3</mn><mi>ab</mi></mrow><mn>8</mn></mfrac><mo>=</mo><mn>15</mn></math> ⇒ ab = 40 cm².</p>"
         }
       }
     },
@@ -412,9 +420,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>(x−3)²−(x+5)/2 &lt; 3−(x+4)(4−x). Ponieważ (x+4)(4−x)=16−x², prawa strona = x²−13. Po redukcji x²: −6x+9−(x+5)/2 &lt; −13 ⇒ (·2) −13x+13&lt;−26 ⇒ x&gt;3. Najmniejsza liczba całkowita: 4.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Lewa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>6</mn><mi>x</mi><mo>+</mo><mn>9</mn><mo>−</mo><mfrac><mrow><mi>x</mi><mo>+</mo><mn>5</mn></mrow><mn>2</mn></mfrac></math>; prawa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>−</mo><mo>(</mo><mn>16</mn><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo>)</mo><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>13</mn></math>.</p><p>Redukując <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>12</mn><mi>x</mi><mo>+</mo><mn>44</mn><mo>&lt;</mo><mi>x</mi><mo>+</mo><mn>5</mn><mo>⇒</mo><mi>x</mi><mo>&gt;</mo><mn>3</mn></math>. Najmniejsza całkowita = 4.</p>"
         }
       }
     },
@@ -459,9 +468,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Ćwiartka koła o promieniu a i środku w jednym rogu kwadratu ma pole πa²/4; obszar kwadratu poza tą ćwiartką ma pole a²−πa²/4 (to \"róg\" przy przeciwległym wierzchołku). Liść (część wspólna dwóch takich ćwiartek z przeciwległych rogów) = a² − 2(a²−πa²/4) = a²(π/2−1).</p>"
+          "corroborated": true,
+          "solution_html": "<p>Figura to soczewka dwóch łuków ćwierćokręgów o promieniu a, środki w przeciwległych wierzchołkach (odległość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><msqrt><mn>2</mn></msqrt></math>).</p><p>Pole = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mfrac><mrow><mi>π</mi><msup><mi>a</mi><mn>2</mn></msup></mrow><mn>4</mn></mfrac><mo>−</mo><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><mo>(</mo><mfrac><mi>π</mi><mn>2</mn></mfrac><mo>−</mo><mn>1</mn><mo>)</mo></math>.</p>"
         }
       }
     },
@@ -504,9 +514,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>(√2−√6)² = 2 − 2√12 + 6 = 8 − 4√3. Dodając 4√3: 8 − 4√3 + 4√3 = 8.</p>"
+          "corroborated": true,
+          "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><msqrt><mn>2</mn></msqrt><mo>−</mo><msqrt><mn>6</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>2</mn><mo>−</mo><mn>2</mn><msqrt><mn>12</mn></msqrt><mo>+</mo><mn>6</mn><mo>=</mo><mn>8</mn><mo>−</mo><mn>4</mn><msqrt><mn>3</mn></msqrt></math>.</p><p>Dodając <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>3</mn></msqrt></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn></math>.</p>"
         }
       }
     },
@@ -536,9 +547,10 @@
         "solution_html": null,
         "model": {
           "answer": "FP",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>1) W 1000 kg trawy sucha masa = 40%·1000 = 400 kg (prawda dla trawy, nie dla siana!). W 1 tonie SIANA (15% wody, 85% suchej masy) sucha masa = 850 kg ≠ 400 kg — zdanie 1 fałszywe.</p><p>2) By otrzymać 1000 kg siana potrzeba 850 kg suchej masy, co stanowi 40% masy trawy: 850/0,4 = 2125 kg = 2,125 t &gt; 2 t — zdanie 2 prawdziwe.</p>"
+          "corroborated": true,
+          "solution_html": "<p>(1) Siano ma 15% wody, czyli 85% suchej masy. 1 tona siana = 850 kg suchej masy, nie 400 kg — <b>F</b>.</p><p>(2) 1 t siana zawiera 850 kg suchej masy. Trawa ma 40% suchej masy, więc potrzeba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>850</mn><mrow><mn>0</mn><mo>,</mo><mn>4</mn></mrow></mfrac><mo>=</mo><mn>2125</mn></math> kg = 2,125 t > 2 t — <b>P</b>.</p>"
         }
       }
     },
@@ -562,9 +574,10 @@
         "solution_html": null,
         "model": {
           "answer": "180°",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Suma kątów przy wierzchołkach dowolnej gwiazdy pięcioramiennej (samoprzecinającego się pięciokąta gwiaździstego) jest stała i wynosi 180°, niezależnie od kształtu — wynika to z sumy kątów w trójkątach utworzonych przez przecinające się ramiona.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Suma kątów przy wierzchołkach dowolnej gwiazdy pięcioramiennej (pentagramu) wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>180</mn><mo>°</mo></math> (każdy kąt jest kątem zewnętrznym powstałym z przecięć; korzysta się z twierdzenia o kącie zewnętrznym trójkąta).</p>"
         }
       }
     },
@@ -586,9 +599,10 @@
         "solution_html": null,
         "model": {
           "answer": "75 dni i 50 dni",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Niech r1, r2 — wydajności (dzienne) obu osób, stałe w czasie; (r1+r2)·30=1 ⇒ r1+r2=1/30. Po 6 dniach wspólnej pracy wykonano 6/30=1/5 pracy, zostało 4/5. Osoba, która dokończyła sama w 40 dni: r_druga·40=4/5 ⇒ r_druga=1/50 (50 dni samodzielnie). Wtedy r_pierwsza = 1/30−1/50 = 1/75 (75 dni samodzielnie).</p>"
+          "corroborated": true,
+          "solution_html": "<p>Wspólna wydajność = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>30</mn></mfrac></math>. Po 6 dniach wykonano <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>6</mn><mn>30</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>5</mn></mfrac></math>, zostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>5</mn></mfrac></math>.</p><p>Druga osoba: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>5</mn></mfrac><mo>÷</mo><mn>40</mn><mo>=</mo><mfrac><mn>1</mn><mn>50</mn></mfrac></math> ⇒ 50 dni. Pierwsza: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>30</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mn>50</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>75</mn></mfrac></math> ⇒ 75 dni.</p>"
         }
       }
     },
@@ -610,9 +624,10 @@
         "solution_html": null,
         "model": {
           "answer": "80 cm",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Obwód koła zależy od promienia toru: liczba obrotów koła = obwód_toru/obwód_koła = 2πR/(π·40) = R/20. Różnica obrotów: (R−r)/20 = 4 ⇒ R−r = 80 cm — to jest rozstaw szyn.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Obwód koła jezdnego = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>40</mn><mi>π</mi></math>. Liczba obrotów = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mi>π</mi><mi>R</mi></mrow><mrow><mn>40</mn><mi>π</mi></mrow></mfrac><mo>=</mo><mfrac><mi>R</mi><mn>20</mn></mfrac></math>.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>R</mi><mo>−</mo><mi>r</mi></mrow><mn>20</mn></mfrac><mo>=</mo><mn>4</mn><mo>⇒</mo><mi>R</mi><mo>−</mo><mi>r</mi><mo>=</mo><mn>80</mn></math> cm — to rozstaw szyn.</p>"
         }
       }
     },
@@ -633,10 +648,11 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "answer": "Ostrosłup ma większą objętość: V(ostrosłupa) = 36√15 ≈ 139,4 cm³ > V(graniastosłupa) = 40,5 cm³",
-          "by": "sonnet",
+          "answer": "Ostrosłup; V_ostrosłupa = 36√15 ≈ 139,4 cm³ > V_graniastosłupa = 40,5 cm³",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p><b>Ostrosłup:</b> pole podstawy = 6²=36 cm² = pole ściany bocznej ⇒ wysokość ściany bocznej (apotema) l: ½·6·l=36 ⇒ l=12. Wysokość bryły H: H²=l²−3²=144−9=135 ⇒ H=3√15. V=⅓·36·3√15=36√15≈139,4 cm³.</p><p><b>Graniastosłup:</b> pole podstawy (trójkąt równoboczny a=6) = 9√3 cm² = pole ściany bocznej = 6·H' ⇒ H'=9√3/6=1,5√3. V=9√3·1,5√3=40,5 cm³.</p><p>36√15 ≈139,4 cm³ &gt; 40,5 cm³, więc ostrosłup ma większą objętość.</p>"
+          "corroborated": true,
+          "solution_html": "<p><b>Ostrosłup:</b> podstawa 36 cm²; ściana boczna = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>l</mi><mo>=</mo><mn>36</mn></math> ⇒ apotema l=12. Wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><msqrt><mrow><msup><mn>12</mn><mn>2</mn></msup><mo>−</mo><msup><mn>3</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>3</mn><msqrt><mn>15</mn></msqrt></math>. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mn>36</mn><mo>·</mo><mn>3</mn><msqrt><mn>15</mn></msqrt><mo>=</mo><mn>36</mn><msqrt><mn>15</mn></msqrt><mo>≈</mo><mn>139</mn><mo>,</mo><mn>4</mn></math> cm³.</p><p><b>Graniastosłup:</b> podstawa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><msqrt><mn>3</mn></msqrt></math>; ściana boczna 6H = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><msqrt><mn>3</mn></msqrt></math> ⇒ H = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac></math>. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mn>9</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><mfrac><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><mn>40</mn><mo>,</mo><mn>5</mn></math> cm³. Ostrosłup ma większą objętość.</p>"
         }
       }
     }

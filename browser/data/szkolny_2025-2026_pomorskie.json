@@ -27,10 +27,11 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "answer": "900 l i 1000 l",
-          "by": "sonnet",
+          "answer": "Pierwsza cysterna: 900 l, druga cysterna: 1000 l",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Niech pierwsza cysterna ma <i>a</i> litrów, druga <i>b</i> litrów: a+b=1900.</p><p>(2/3)a = (3/5)b ⇒ a = (9/10)b.</p><p>(9/10)b + b = 1900 ⇒ 1,9b = 1900 ⇒ b = 1000, a = 900.</p><p>Sprawdzenie: (2/3)·900=600=(3/5)·1000. Pierwsza: 900 l, druga: 1000 l.</p>"
+          "corroborated": true,
+          "solution_html": "<p>x+y=1900 oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math>x=<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>5</mn></mfrac></math>y, więc x=<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>9</mn><mn>10</mn></mfrac></math>y.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>19</mn><mn>10</mn></mfrac></math>y=1900 → y=1000, x=900.</p>"
         }
       }
     },
@@ -52,9 +53,10 @@
         "solution_html": null,
         "model": {
           "answer": "6 km/h",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Droga = 5 km/h · 12/60 h = 1 km.</p><p>Starsza siostra: v = 1 km ÷ (10/60 h) = 6 km/h.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Droga: 5 km/h · <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>12</mn><mn>60</mn></mfrac></math> h = 1 km.</p><p>Starsza: 1 km ÷ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>10</mn><mn>60</mn></mfrac></math> h = 6 km/h.</p>"
         }
       }
     },
@@ -75,9 +77,10 @@
         "solution_html": null,
         "model": {
           "answer": "20:24",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Zegar traci 4 min na godzinę, więc w ciągu 60 min rzeczywistych pokazuje 56 min.</p><p>Od 12:00 do 21:00 mija 540 min rzeczywistych ⇒ zegar pokazuje 540·(56/60)=504 min = 8 h 24 min.</p><p>12:00 + 8:24 = 20:24.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Od 12:00 do 21:00 mija 9 godzin. Zegar spóźnia się 4 min/h, czyli 9·4 = 36 min.</p><p>21:00 − 36 min = 20:24.</p>"
         }
       }
     },
@@ -98,9 +101,10 @@
         "solution_html": null,
         "model": {
           "answer": "49",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>n + (n+1) + (n+2) = 144 ⇒ 3n+3=144 ⇒ n=47.</p><p>Największa liczba: n+2 = 49.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Środkowa liczba: 144÷3 = 48. Liczby: 47, 48, 49. Największa = 49.</p>"
         }
       }
     },
@@ -122,10 +126,11 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "answer": "4 razy (AB = 4·CD)",
-          "by": "sonnet",
+          "answer": "AB jest 4 razy dłuższy od CD",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Wysokość trapezu h. Pole ABC = ½·AB·h (bo odległość C od AB wynosi h). Pole trapezu = ½(AB+CD)h.</p><p>½(AB+CD)h = 1,25 · ½·AB·h ⇒ AB+CD = 1,25AB ⇒ CD = 0,25AB ⇒ AB = 4·CD.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Trapez i trójkąt ABC mają tę samą wysokość h. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><mi>AB</mi><mo>+</mo><mi>CD</mi><mo>)</mo></mrow><mi>AB</mi></mfrac></math>=1,25, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>CD</mi><mi>AB</mi></mfrac></math>=0,25, czyli AB = 4·CD.</p>"
         }
       }
     },
@@ -147,9 +152,10 @@
         "solution_html": null,
         "model": {
           "answer": "2",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>3^2026 dzieli się przez 3, więc 3^2026 ≡ 0 (mod 3).</p><p>2 ≡ −1 (mod 3), więc 2^2025 ≡ (−1)^2025 = −1 ≡ 2 (mod 3).</p><p>Suma ≡ 2+0 = 2 (mod 3). Reszta wynosi 2.</p>"
+          "corroborated": true,
+          "solution_html": "<p>2≡−1 (mod 3), więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>2025</mn></msup></math>≡(−1)^2025≡2. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>2026</mn></msup></math>≡0. Suma ≡ 2 (mod 3).</p>"
         }
       }
     },
@@ -170,10 +176,11 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "answer": "45",
-          "by": "sonnet",
+          "answer": "45 gruszek",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Ania = 0,75·Krysia = 15 ⇒ Krysia = 20.</p><p>Ania = 1,5·Monika = 15 ⇒ Monika = 10.</p><p>Razem: 15+20+10 = 45.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Ania=15. Krysia: 15=0,75·K → K=20. Monika: 15=1,5·M → M=10. Razem 15+20+10=45.</p>"
         }
       }
     },
@@ -194,9 +201,10 @@
         "solution_html": null,
         "model": {
           "answer": "40 kg",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>W = 10 + ¾W ⇒ ¼W = 10 ⇒ W = 40 kg.</p>"
+          "corroborated": true,
+          "solution_html": "<p>m = 10 + <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math>m → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math>m = 10 → m = 40 kg.</p>"
         }
       }
     },
@@ -226,9 +234,10 @@
         "solution_html": null,
         "model": {
           "answer": "PP",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>1) 4,6·10⁵ m² = 460000 m² = 46 ha (1 ha = 10⁴ m²) — prawda.</p><p>2) 7,2·10⁻² m³ = 0,072 m³ = 72 dm³ (1 m³ = 10³ dm³) — prawda.</p>"
+          "corroborated": true,
+          "solution_html": "<p>(1) 46 ha = 46·10⁴ m² = 4,6·10⁵ m² — P.</p><p>(2) 7,2·10⁻² m³ = 0,072 m³ = 72 dm³ — P.</p>"
         }
       }
     },
@@ -257,6 +266,7 @@
           "answer": "10.1 – A, 10.2 – C, 10.3 – A, 10.4 – C",
           "by": "sonnet",
           "agrees": null,
+          "corroborated": false,
           "solution_html": "<p><b>10.1</b> (√2)³ podniesione do sześcianu = (√2)⁹ = 2^4,5 = 16√2 → A.</p><p><b>10.2</b> Kwadrat 8x·8x podzielony liniami z rogów do środków boków A,B na 8 przystających trójkątów o polu 8x² każdy (¼·64x²÷2); dwa zacieniowane = 16x² → C.</p><p><b>10.3</b> Reguła mieszanin: (50−30):(30−20)=20:10=2:1 (20% : 50%) → A.</p><p><b>10.4</b> 999÷12=83,25; 83·12=996, podzielne przez 12 → C.</p>"
         }
       }

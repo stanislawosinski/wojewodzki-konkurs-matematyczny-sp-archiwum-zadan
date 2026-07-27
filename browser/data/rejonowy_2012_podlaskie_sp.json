@@ -44,9 +44,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>16 = XVI w zapisie rzymskim: X + V + I = 3 znaki.</p>"
+          "corroborated": true,
+          "solution_html": "<p>16 zapisujemy rzymsko jako <b>XVI</b> = X, V, I — trzy znaki.</p>"
         }
       }
     },
@@ -84,9 +85,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Liczby przeciwne to liczby o sumie równej 0, np. a i −a. Zatem a + b = 0.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Liczby przeciwne spełniają <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>0</mn></mrow></math> (np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mo>−</mo><mi>a</mi></mrow></math>).</p>"
         }
       }
     },
@@ -124,9 +126,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>A, B, C są prawdziwe. Kąty przyległe (sumujące się do 180°) są równe tylko gdy oba są proste (90°) — ogólnie nie są równe, więc D jest fałszywe.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Kąty przyległe sumują się do 180°, więc nie są zawsze równe (równe tylko gdy oba po 90°). Zdania A, B, C są prawdziwe.</p>"
         }
       }
     },
@@ -164,9 +167,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Liczba = dzielnik · iloraz + reszta = 34·33 + 29 = 1122 + 29 = 1151.</p>"
+          "corroborated": true,
+          "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>34</mn><mo>·</mo><mn>33</mn><mo>+</mo><mn>29</mn><mo>=</mo><mn>1122</mn><mo>+</mo><mn>29</mn><mo>=</mo><mn>1151</mn></mrow></math>.</p>"
         }
       }
     },
@@ -204,9 +208,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Obwód działki = 2a + 2b, koszt = obwód · cena = 2x(a+b), co po rozwinięciu daje 2ax + 2bx (odpowiedź B jest zapisem tego wyrażenia).</p>"
+          "corroborated": true,
+          "solution_html": "<p>Obwód działki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>=</mo><mn>2</mn><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo></mrow></math>, koszt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>=</mo><mn>2</mn><mi>x</mi><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo></mrow></math>.</p>"
         }
       }
     },
@@ -244,9 +249,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Wyparowało 2/5, więc zostało 3/5 objętości = 36 l. Całość = 36 : 3/5 = 36 · 5/3 = 60 litrów.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Pozostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>5</mn></mfrac></math> = 36 l, więc całość = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>36</mn><mo>·</mo><mfrac><mn>5</mn><mn>3</mn></mfrac><mo>=</mo><mn>60</mn></mrow></math> litrów.</p>"
         }
       }
     },
@@ -284,9 +290,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Dwa kąty przy podstawie po 50° — trójkąt równoramienny. Trzeci kąt = 180° − 50° − 50° = 80°, wszystkie kąty ostre, więc trójkąt ostrokątny równoramienny.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Dwa kąty przy boku po 50° dają trzeci kąt 80° — wszystkie ostre (ostrokątny) i dwa równe kąty przy podstawie ⇒ równoramienny.</p>"
         }
       }
     },
@@ -324,9 +331,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Objętość sześcianu = 10³ = 1000 cm³ = 1 litr.</p>"
+          "corroborated": true,
+          "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>10</mn><mn>3</mn></msup><mo>=</mo><mn>1000</mn></mrow></math> cm³ = 1 dm³ = 1 litr.</p>"
         }
       }
     },
@@ -364,9 +372,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Liczba krawędzi graniastosłupa n-kątnego wynosi 3n, więc musi być podzielna przez 3. Z podanych liczb tylko 18 jest podzielne przez 3 (n=6, graniastosłup sześciokątny).</p>"
+          "corroborated": true,
+          "solution_html": "<p>Graniastosłup o podstawie n-kąta ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>n</mi></mrow></math> krawędzi — liczba podzielna przez 3. Spośród podanych tylko 18 = 3·6.</p>"
         }
       }
     },
@@ -404,9 +413,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>5,972 zaokrąglone do części dziesiątych: cyfra setek dziesiętnych to 7 (≥5), więc zaokrąglamy w górę: 5,9 → 6,0. Podane 5,972 ≈ 5,9 jest błędne. Pozostałe zaokrąglenia (A, C, D) są poprawne.</p>"
+          "corroborated": true,
+          "solution_html": "<p>5,972 zaokrąglone do dziesiątych to 6,0 (bo setne =7), a nie 5,9. Pozostałe zaokrąglenia są poprawne.</p>"
         }
       }
     },
@@ -444,9 +454,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>A: −1⁶ = −1. B: (−1)⁵ = −1. C: (−1)¹⁰ = 1 (dodatnia). D: −(−1)² = −1. Jedynie C jest dodatnia.</p>"
+          "corroborated": true,
+          "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>10</mn></msup><mo>=</mo><mn>1</mn></mrow></math> (dodatnia). A = −1, B = −1, D = −1.</p>"
         }
       }
     },
@@ -485,9 +496,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Niech h = liczba wyższych, l = liczba niższych od Basi. h + l = 27, oraz l = 2h (h jest 2 razy mniejsze od l). Stąd 3h = 27, h = 9. Basia stoi na miejscu h+1 = 10 (licząc od najwyższego).</p>"
+          "corroborated": true,
+          "solution_html": "<p>Wyższych t, niższych s: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>t</mi><mo>=</mo><mfrac><mi>s</mi><mn>2</mn></mfrac></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>t</mi><mo>+</mo><mi>s</mi><mo>=</mo><mn>27</mn></mrow></math> ⇒ t=9, s=18. Basia stoi na miejscu 9+1 = 10.</p>"
         }
       }
     },
@@ -508,9 +520,10 @@
         "solution_html": null,
         "model": {
           "answer": "2 cm",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Skala 3:1 oznacza, że rysunek jest 3 razy większy od rzeczywistości: długość rzeczywista = 18 : 3 = 6 cm. W skali 1:3 rysunek jest 3 razy mniejszy od rzeczywistości: 6 : 3 = 2 cm.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Skala 3:1 — rysunek 3× większy, więc rzeczywista długość = 18:3 = 6 cm. W skali 1:3 rysunek = 6:3 = 2 cm.</p>"
         }
       }
     },
@@ -532,9 +545,10 @@
         "solution_html": null,
         "model": {
           "answer": "0,36",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>1 3/5 : 0,2 = 1,6 : 0,2 = 8. 8,6 − 8 = 0,6. 60% · 0,6 = 0,36.</p>"
+          "corroborated": true,
+          "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mfrac><mn>3</mn><mn>5</mn></mfrac><mo>:</mo><mn>0,2</mn><mo>=</mo><mn>1,6</mn><mo>:</mo><mn>0,2</mn><mo>=</mo><mn>8</mn></mrow></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8,6</mn><mo>−</mo><mn>8</mn><mo>=</mo><mn>0,6</mn></mrow></math>; 60% z 0,6 = 0,36.</p>"
         }
       }
     },
@@ -555,9 +569,10 @@
         "solution_html": null,
         "model": {
           "answer": "15°C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>c = 5/9 · (59 − 32) = 5/9 · 27 = 15°C.</p>"
+          "corroborated": true,
+          "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><mfrac><mn>5</mn><mn>9</mn></mfrac><mo>·</mo><mo>(</mo><mn>59</mn><mo>−</mo><mn>32</mn><mo>)</mo><mo>=</mo><mfrac><mn>5</mn><mn>9</mn></mfrac><mo>·</mo><mn>27</mn><mo>=</mo><mn>15</mn></mrow></math> °C.</p>"
         }
       }
     },
@@ -578,9 +593,10 @@
         "solution_html": null,
         "model": {
           "answer": "7",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>(a−1)/b = 3, więc b/(a−1) = 1/3. Wyrażenie = 2·3 + 3·(1/3) = 6 + 1 = 7.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mi>a</mi><mo>−</mo><mn>1</mn></mrow><mi>b</mi></mfrac><mo>=</mo><mn>3</mn></mrow></math>, wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mi>b</mi><mrow><mi>a</mi><mo>−</mo><mn>1</mn></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math>. Wyrażenie = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>3</mn><mo>+</mo><mn>3</mn><mo>·</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>=</mo><mn>6</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>7</mn></mrow></math>.</p>"
         }
       }
     },
@@ -600,10 +616,11 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "answer": "Zuzia ma więcej o 4,5 zł",
-          "by": "sonnet",
+          "answer": "Zuzia ma więcej o 4,50 zł",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Ola: 70% z 50 zł = 35 zł, Zuzia: 30% z 50 zł = 15 zł. Ola oddaje 35% z 35 zł = 12,25 zł. Ola: 35 − 12,25 = 22,75 zł. Zuzia: 15 + 12,25 = 27,25 zł. Różnica = 27,25 − 22,75 = 4,5 zł na korzyść Zuzi.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Ola: 70% z 50 = 35 zł, Zuzia: 15 zł. Ola oddaje 35% z 35 = 12,25 zł. Ola: 35−12,25 = 22,75 zł; Zuzia: 15+12,25 = 27,25 zł. Zuzia ma więcej o 27,25−22,75 = 4,50 zł.</p>"
         }
       }
     },
@@ -624,9 +641,10 @@
         "solution_html": null,
         "model": {
           "answer": "128 cm",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Bok podstawy: √64 = 8 cm. Wysokość = 2·8 = 16 cm. Suma krawędzi = 8 krawędzi podstaw (2·4·8=64) + 4 krawędzie boczne (4·16=64) = 64+64 = 128 cm.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Krawędź podstawy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>64</mn></msqrt><mo>=</mo><mn>8</mn></mrow></math> cm, wysokość = 16 cm. Suma = 8 krawędzi podstaw·8 + 4 krawędzi bocznych·16 = 64 + 64 = 128 cm.</p>"
         }
       }
     },
@@ -649,6 +667,7 @@
           "answer": "125°",
           "by": "sonnet",
           "agrees": null,
+          "corroborated": false,
           "solution_html": "<p>Kąt C = 90°, kąt A = 40°, więc kąt B = 50°. Trójkąt ACD (AD=AC) jest równoramienny, kąt DAC = 180°−40°=140°, więc kąt ACD = (180°−140°)/2 = 10°. Trójkąt BCE (BE=BC) jest równoramienny, kąt CBE = 180°−50°=130°, więc kąt BCE = (180°−130°)/2 = 25°. Kąt DCE = kąt DCA + kąt ACB + kąt BCE = 10°+90°+25° = 125°.</p>"
         }
       }

@@ -45,9 +45,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>N = 25! Liczba zer końcowych = liczba czynników 5 w rozkładzie = ⌊25/5⌋ + ⌊25/25⌋ = 5 + 1 = 6.</p>"
+          "corroborated": true,
+          "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>N</mi><mo>=</mo><mn>25</mn><mo>!</mo></math>. Liczba zer końcowych = liczba czynników 5: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>⌊</mo><mn>25</mn><mo>/</mo><mn>5</mn><mo>⌋</mo><mo>+</mo><mo>⌊</mo><mn>25</mn><mo>/</mo><mn>25</mn><mo>⌋</mo><mo>=</mo><mn>5</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>6</mn></math>. Dwójek jest więcej, więc 6 zer.</p>"
         }
       }
     },
@@ -86,9 +87,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Podzielność przez 15 = podzielność przez 3 i przez 5. Spośród podzbiorów 3-elementowych z {0,1,2,5} sumę podzielną przez 3 mają {0,1,2} (suma 3) i {0,1,5} (suma 6).</p><p>{0,1,2}: liczby z ostatnią cyfrą 0 (dzielnik 5): 120, 210 → 2 liczby.</p><p>{0,1,5}: ostatnia cyfra 0 lub 5: 150, 510, 105 → 3 liczby.</p><p>Razem 2+3=5.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Podzielność przez 15 = przez 3 i 5. Cyfry sumujące się do wielokrotności 3: {0,1,2} i {0,1,5}. Ostatnia cyfra 0 lub 5, pierwsza ≠ 0. Otrzymujemy: 120, 210, 150, 510, 105 — łącznie 5 liczb.</p>"
         }
       }
     },
@@ -127,9 +129,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Suma czterech kolejnych liczb całkowitych: n+(n+1)+(n+2)+(n+3)=4n+6, więc reszta z dzielenia przez 4 zawsze wynosi 2.</p><p>6006 mod 4 = 2 ✓, 66 mod 4 = 2 ✓, 606 mod 4 = 2 ✓, 660 mod 4 = 0 ✗ (4n+6=660 daje n=163,5 — nie całkowite).</p>"
+          "corroborated": true,
+          "solution_html": "<p>Suma czterech kolejnych liczb: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>n</mi><mo>+</mo><mn>6</mn></math>, czyli reszta 2 przy dzieleniu przez 4. Tylko 660 daje resztę 0 (660:4=165), więc nie może być tą sumą.</p>"
         }
       }
     },
@@ -168,9 +171,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Suma trenujących (unia) = 250+100−75 = 275. Nie trenuje żadnej dyscypliny: 300−275=25 uczniów.</p><p>Prawdopodobieństwo = 25/300 = 1/12.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Trenuje co najmniej jeden sport: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>250</mn><mo>+</mo><mn>100</mn><mo>−</mo><mn>75</mn><mo>=</mo><mn>275</mn></math>. Żadnego: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>300</mn><mo>−</mo><mn>275</mn><mo>=</mo><mn>25</mn></math>. Prawdopodobieństwo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>25</mn><mn>300</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>12</mn></mfrac></math>.</p>"
         }
       }
     },
@@ -208,9 +212,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Strony 1–9: 9 cyfr. Strony 10–99: 90×2=180 cyfr. Razem 189 cyfr, zostaje 2019−189=1830 cyfr na strony 3-cyfrowe.</p><p>1830/3=610 stron, czyli strony od 100 do 709. Książka ma 709 stron.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Strony 1–9: 9 cyfr; 10–99: 180 cyfr (razem 189). Zostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2019</mn><mo>−</mo><mn>189</mn><mo>=</mo><mn>1830</mn></math> cyfr po 3, czyli 610 stron. Ostatnia strona: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>99</mn><mo>+</mo><mn>610</mn><mo>=</mo><mn>709</mn></math>.</p>"
         }
       }
     },
@@ -251,9 +256,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Trzy proste tworzą trójkąt ABC. Kąty α, β, γ zaznaczone na rysunku są (jak wynika z ich położenia względem wierzchołków) kątami przyległymi/dopełniającymi do kątów wewnętrznych trójkąta w każdym wierzchołku, tzn. każdy z nich = 180° − (kąt wewnętrzny trójkąta w tym wierzchołku).</p><p>Suma: α+β+γ = 3·180° − (A+B+C) = 540° − 180° = 360°.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Trzy proste tworzą trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>. Kąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi></math> zaznaczone na zewnątrz trójkąta to kąty zewnętrzne (po jednym przy każdym wierzchołku). Suma kątów zewnętrznych trójkąta = 360°.</p>"
         }
       }
     },
@@ -292,9 +298,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Suma liczby boków i przekątnych n-kąta = n + n(n−3)/2 = n(n−1)/2 (to liczba wszystkich odcinków łączących pary wierzchołków).</p><p>n(n−1)/2=105 → n(n−1)=210 → n=15.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Liczba przekątnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>n</mi><mo>(</mo><mi>n</mi><mo>−</mo><mn>3</mn><mo>)</mo></mrow><mn>2</mn></mfrac></math>. Równanie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>+</mo><mfrac><mrow><mi>n</mi><mo>(</mo><mi>n</mi><mo>−</mo><mn>3</mn><mo>)</mo></mrow><mn>2</mn></mfrac><mo>=</mo><mn>105</mn></math> → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>n</mi><mn>2</mn></msup><mo>−</mo><mi>n</mi><mo>−</mo><mn>210</mn><mo>=</mo><mn>0</mn></math> → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>15</mn></math>.</p>"
         }
       }
     },
@@ -333,9 +340,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Kąty przyległe rombu sumują się do 180°. Niech kąt ostry = x, rozwarty = 5x: x+5x=180° → x=30°.</p><p>Pole = a²·sin(30°) = 144·0,5 = 72 cm².</p>"
+          "corroborated": true,
+          "solution_html": "<p>Kąt ostry + rozwarty = 180°, przy rozwartym = 5·ostry: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>x</mi><mo>=</mo><mn>180</mn><mo>°</mo></math> → ostry 30°. Pole rombu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msup><mn>12</mn><mn>2</mn></msup><mo>·</mo><mi>sin</mi><mn>30</mn><mo>°</mo><mo>=</mo><mn>144</mn><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>=</mo><mn>72</mn></math> cm².</p>"
         }
       }
     },
@@ -376,9 +384,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Pole rośnie 2× więc bok rośnie √2×: bok_n = a·(√2)^(n−1).</p><p>A: bok₂=a√2 — prawda. B: bok₃=a·2 — prawda. C: przekątna kwadratu n = bok_n·√2 = bok_(n+1) — prawda.</p><p>D: bok_n/bok_(n−1)=√2 ≈1,41, a nie 2 — to zdanie jest fałszywe.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Pole rośnie ×2, więc bok rośnie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2</mn></msqrt></math> razy. Bok kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2</mn></msqrt></math> (nie 2) razy większy od boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>−</mo><mn>1</mn></math>. Zdanie D fałszywe (A, B, C prawdziwe).</p>"
         }
       }
     },
@@ -417,9 +426,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Przekątna graniastosłupa: d²=2a²+h², gdzie a=1: (3√2)²=18=2+h² → h²=16 → h=4.</p><p>Objętość = a²·h = 1·4 = 4 cm³.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Przekątna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>1</mn><mn>2</mn></msup><mo>+</mo><msup><mn>1</mn><mn>2</mn></msup><mo>+</mo><msup><mi>h</mi><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>3</mn><msqrt><mn>2</mn></msqrt></math> → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>+</mo><msup><mi>h</mi><mn>2</mn></msup><mo>=</mo><mn>18</mn></math> → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mn>4</mn></math>. Objętość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msup><mn>1</mn><mn>2</mn></msup><mo>·</mo><mn>4</mn><mo>=</mo><mn>4</mn></math> cm³.</p>"
         }
       }
     },
@@ -460,9 +470,10 @@
         "solution_html": null,
         "model": {
           "answer": "FPFP",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>W pinwheel-dissection: bok prostokąta p+q = a = 10 (obwód prostokąta = 2·10=20 zawsze). Bok kwadratu KLMN = p−q. Z warunku równych obwodów: 4(p−q)=20 → p−q=5, więc p=7,5; q=2,5; bok KLMN=5.</p><p>A: obwód KLMN=20, obwód ABCD=40 — to jest 2 razy mniejszy, nie 4 razy → F.</p><p>B: boki prostokątów 2,5 i 7,5 cm → P.</p><p>C: pole KLMN=25 cm², pole prostokąta=7,5·2,5=18,75 cm² — różne pola → F.</p><p>D: pole KLMN = 5²=25 cm² → P.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Prostokąt L×W, bok kwadratu = L+W = 10, obwód prostokąta = obwód kwadratu KLMN: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>(</mo><mi>L</mi><mo>+</mo><mi>W</mi><mo>)</mo><mo>=</mo><mn>4</mn><mo>(</mo><mi>L</mi><mo>−</mo><mi>W</mi><mo>)</mo></math> → L=3W, więc W=2,5; L=7,5; bok KLMN=5. A) obwód KLMN=20, ABCD=40 → 2×, nie 4× (F). B) 2,5 i 7,5 (P). C) pola: 18,75 vs 25, różne (F). D) 5²=25 cm² (P).</p>"
         }
       }
     },
@@ -485,9 +496,10 @@
         "solution_html": null,
         "model": {
           "answer": "12.1. 20 wierzchołków; 12.2. 30 krawędzi",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Dwunastościan foremny: 12 ścian pięciokątnych. Krawędzie: E=12·5/2=30. Wierzchołki (z twierdzenia Eulera V−E+F=2, przy 3 ścianach na wierzchołek): V=12·5/3=20.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Dwunastościan foremny: 12 pięciokątnych ścian. Wierzchołki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mn>12</mn><mo>·</mo><mn>5</mn></mrow><mn>3</mn></mfrac><mo>=</mo><mn>20</mn></math>, krawędzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mn>12</mn><mo>·</mo><mn>5</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>30</mn></math> (Euler: 20−30+12=2).</p>"
         }
       }
     },
@@ -508,10 +520,11 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "answer": "x=3; wczoraj: nieobecnych 3, obecnych 27; dzisiaj: nieobecnych 5, obecnych 25; równanie: 5(x+2)=9x−2; 13.3: F, P, P",
-          "by": "sonnet",
+          "answer": "13.1. wczoraj: nieobecni x, obecni 9x; dzisiaj: nieobecni x+2, obecni 9x−2 (liczbowo 3/27 oraz 5/25); 13.2. x+2 = 0,2·(9x−2), x=3; 13.3. FPP",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Wczoraj: nieobecni=x, obecni=9x, razem=10x. Dziś: nieobecni=x+2, obecni=10x−(x+2)=9x−2.</p><p>Warunek: x+2=0,2·(9x−2) → 5(x+2)=9x−2 → 5x+10=9x−2 → 12=4x → x=3.</p><p>Wczoraj: 3 nieobecnych, 27 obecnych. Dziś: 5 nieobecnych, 25 obecnych.</p><p>A: obecnych wczoraj było 27, nie 24 → F. B: dziś 5 nieobecnych → P. C: 3/30=10% klasy → P.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Wczoraj: nieobecni x, obecni 9x. Dzisiaj nieobecni x+2, obecni 10x−(x+2)=9x−2. Warunek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>2</mn><mo>=</mo><mn>0,2</mn><mo>(</mo><mn>9</mn><mi>x</mi><mo>−</mo><mn>2</mn><mo>)</mo></math> → x=3. Wszystkich uczniów 30. A) obecnych 27, nie 24 (F). B) dziś nieobecnych 5 (P). C) 3 = 10% z 30 (P).</p>"
         }
       }
     },
@@ -532,9 +545,10 @@
         "solution_html": null,
         "model": {
           "answer": "4",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Skoro a/(a+b)=1/5, to b/(a+b)=1−1/5=4/5.</p><p>5b/(a+b) = 5·(4/5) = 4.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>5</mn></mfrac></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>b</mi><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow></mfrac><mo>=</mo><mfrac><mn>4</mn><mn>5</mn></mfrac></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>5</mn><mi>b</mi></mrow><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow></mfrac><mo>=</mo><mn>5</mn><mo>·</mo><mfrac><mn>4</mn><mn>5</mn></mfrac><mo>=</mo><mn>4</mn></math>.</p>"
         }
       }
     },
@@ -558,6 +572,7 @@
           "answer": "15.1. 3,5²−3·4=0,25; 8,5²−9·10=0,25; 99,5²−99·100=0,25 | 15.2. (n+0,5)²−n(n+1)=0,25 dla naturalnego n | 15.3. dowód przez rozwinięcie: (n+0,5)²−n(n+1)=n²+n+0,25−n²−n=0,25",
           "by": "sonnet",
           "agrees": null,
+          "corroborated": false,
           "solution_html": "<p>Wzorzec: (n+0,5)² − n(n+1) = 0,25, gdzie kolejne przykłady to n=1,2,...</p><p>15.1: 3,5²−3·4=12,25−12=0,25; 8,5²−9·10=72,25−72=0,25; 99,5²−99·100=9900,25−9900=0,25.</p><p>15.2: (n+0,5)²−n(n+1)=0,25.</p><p>15.3: (n+0,5)²−n(n+1) = n²+n+0,25 − (n²+n) = 0,25. Co kończy dowód.</p>"
         }
       }
@@ -579,10 +594,11 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "answer": "Ewa: 9 lat; mama: 33 lata",
-          "by": "sonnet",
+          "answer": "Ewa ma 9 lat, mama 33 lata",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Niech e=wiek Ewy, m=wiek mamy. m+2=5(e−2). Za e lat Ewa będzie miała 2e lat; wtedy mama będzie miała m+e lat: 2e+(m+e)=60 → 3e+m=60.</p><p>Z pierwszego: m=5e−12. Podstawiając: 3e+5e−12=60 → 8e=72 → e=9, m=33.</p>"
+          "corroborated": true,
+          "solution_html": "<p>e — wiek Ewy, m — mamy. Za 2 lata: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi><mo>+</mo><mn>2</mn><mo>=</mo><mn>5</mn><mo>(</mo><mi>e</mi><mo>−</mo><mn>2</mn><mo>)</mo></math>. Gdy Ewa ma 2e (za e lat): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>e</mi><mo>+</mo><mo>(</mo><mi>m</mi><mo>+</mo><mi>e</mi><mo>)</mo><mo>=</mo><mn>60</mn></math> → m=60−3e. Podstawiając: e=9, m=33.</p>"
         }
       }
     },
@@ -604,9 +620,10 @@
         "solution_html": null,
         "model": {
           "answer": "12 i 84 lub 36 i 60",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Liczby = 12a, 12b, gdzie NWD(a,b)=1. 12a+12b=96 → a+b=8.</p><p>Pary względnie pierwsze sumujące się do 8: (1,7) i (3,5).</p><p>Dają liczby: (12,84) oraz (36,60).</p>"
+          "corroborated": true,
+          "solution_html": "<p>Liczby = 12a, 12b, NWD=12, więc NWD(a,b)=1 i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mi>a</mi><mo>+</mo><mn>12</mn><mi>b</mi><mo>=</mo><mn>96</mn></math> → a+b=8. Pary względnie pierwsze: (1,7) i (3,5), stąd 12 i 84 albo 36 i 60.</p>"
         }
       }
     },
@@ -628,10 +645,11 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "answer": "Pole powierzchni = 216√3 cm² (≈374,1 cm²); objętość = 216(1+√2) cm³ = (216+216√2) cm³ (≈521,4 cm³)",
-          "by": "sonnet",
+          "answer": "Pole powierzchni 216√3 cm² (≈374 cm²); objętość 216(1+√2) cm³ = 216+216√2 cm³ (≈521,5 cm³)",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Ostrosłup na ścianie: podstawa a=6, ściany boczne równoboczne (krawędź boczna=6). Wysokość: h²=a²−(a√2/2)²=a²/2 → h=3√2.</p><p>Pole powierzchni = 6 ścian × 4 trójkąty równoboczne = 24·(√3/4·6²) = 24·9√3 = 216√3 cm².</p><p>Objętość = V(sześcianu) + 6·V(ostrosłupa) = 6³ + 6·(1/3·36·3√2) = 216 + 216√2 cm³.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Ostrosłupy: podstawa 6×6, ściany boczne — trójkąty równoboczne o boku 6. Wysokość ostrosłupa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>h</mi><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>−</mo><msup><mn>3</mn><mn>2</mn></msup><mo>=</mo><mn>18</mn></math>, h=3√2. Powierzchnia = 24 trójkąty: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mo>·</mo><mfrac><mrow><msup><mn>6</mn><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mn>216</mn><msqrt><mn>3</mn></msqrt></math>. Objętość = sześcian + 6 ostrosłupów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>6</mn><mn>3</mn></msup><mo>+</mo><mn>6</mn><mo>·</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mn>36</mn><mo>·</mo><mn>3</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>216</mn><mo>+</mo><mn>216</mn><msqrt><mn>2</mn></msqrt></math>.</p>"
         }
       }
     }

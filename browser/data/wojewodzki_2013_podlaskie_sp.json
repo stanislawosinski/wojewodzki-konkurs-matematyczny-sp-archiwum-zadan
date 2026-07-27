@@ -45,9 +45,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Ostatnie cyfry potęg 3: 3,9,7,1,3,9,7,1,… okres 4. 53 mod 4 = 1, więc ostatnia cyfra jak dla wykładnika 1, czyli 3.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Ostatnia cyfra potęg 3 tworzy cykl 3, 9, 7, 1 (okres 4). <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>53</mn></math> mod 4 = 1, więc ostatnia cyfra to 3.</p>"
         }
       }
     },
@@ -85,9 +86,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Wydajność napełniania: 1/6 basenu/h, wydajność opróżniania: 1/8 basenu/h. Łącznie: 1/6 − 1/8 = 1/24 basenu/h, więc napełni się w 24 godziny.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Dopływ: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>6</mn></mfrac></math>/h, odpływ: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>8</mn></mfrac></math>/h. Netto <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>6</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>24</mn></mfrac></math>/h, więc 24 godziny.</p>"
         }
       }
     },
@@ -126,9 +128,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>(−3,3)² = 10,89. (−3 1/3)² = (10/3)² = 100/9 ≈ 11,11. Zatem 10,89 &lt; 11,11, więc wstawiamy znak &lt;.</p>"
+          "corroborated": true,
+          "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3,3</mn><mn>2</mn></msup><mo>=</mo><mn>10,89</mn></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mfrac><mn>10</mn><mn>3</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mfrac><mn>100</mn><mn>9</mn></mfrac><mo>≈</mo><mn>11,11</mn></math>. Zatem znak &lt;.</p>"
         }
       }
     },
@@ -166,9 +169,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Iloczyn teleskopowy: (1−1/2)(1−1/3)…(1−1/20) = (1/2)(2/3)(3/4)…(19/20) = 1/20.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Iloczyn teleskopowy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>·</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>⋯</mo><mfrac><mn>19</mn><mn>20</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>20</mn></mfrac></math>.</p>"
         }
       }
     },
@@ -206,9 +210,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Suma wieku dzieci: 13+10+6=29. Ojciec: 41. Różnica: 12. Co roku różnica maleje o 3−1=2 (dzieci razem rosną o 3, ojciec o 1). 12/2=6 lat.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Dzieci razem: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>13</mn><mo>+</mo><mn>10</mn><mo>+</mo><mn>6</mn><mo>=</mo><mn>29</mn></math>. Za x lat: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>41</mn><mo>+</mo><mi>x</mi><mo>=</mo><mn>29</mn><mo>+</mo><mn>3</mn><mi>x</mi></math>, stąd x = 6.</p>"
         }
       }
     },
@@ -246,9 +251,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Dla graniastosłupa prostego o podstawie n-kąta: ściany n+2, wierzchołki 2n, krawędzie 3n. Suma: 6n+2=50 ⇒ n=8 (ośmiokąt).</p>"
+          "corroborated": true,
+          "solution_html": "<p>Dla podstawy n-kąta: ściany <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>+</mo><mn>2</mn></math>, wierzchołki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>n</mi></math>, krawędzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>n</mi></math>. Suma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>n</mi><mo>+</mo><mn>2</mn><mo>=</mo><mn>50</mn></math>, n = 8 (ośmiokąt).</p>"
         }
       }
     },
@@ -286,9 +292,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Zmniejszenie rysunku dwukrotnie przy zachowaniu tego samego obiektu rzeczywistego podwaja mianownik skali: 1:500 → 1:1000.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Zmniejszenie wymiarów planu dwukrotnie oznacza, że 1 cm nowego planu odpowiada dwukrotnie większej odległości rzeczywistej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>500</mn><mo>=</mo><mn>1000</mn></math>, skala 1:1000.</p>"
         }
       }
     },
@@ -328,9 +335,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Nowe pole = 1,1 · 0,9 · P = 0,99P, czyli pole zmalało o 1%, niezależnie od wymiarów.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Pole zmienia się o czynnik <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,1</mn><mo>·</mo><mn>0,9</mn><mo>=</mo><mn>0,99</mn></math>, czyli zmalało o 1%.</p>"
         }
       }
     },
@@ -369,9 +377,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Sprawdzając nierówność trójkąta dla wszystkich 10 trójek z {29,14,12,6,19}, warunek spełniają: (29,14,19), (29,12,19), (14,12,6), (14,12,19), (14,6,19) — łącznie 5 trójkątów.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Warunek trójkąta spełniają trójki: {14,19,29}, {12,19,29}, {6,12,14}, {12,14,19}, {6,14,19} — łącznie 5.</p>"
         }
       }
     },
@@ -409,9 +418,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>60 l na 1 m² = 60 dm³ na 1 m² = 0,06 m³ na 1 m², co daje wzrost poziomu wody o 0,06 m = 6 cm, niezależnie od powierzchni basenu.</p>"
+          "corroborated": true,
+          "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn></math> litrów = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn></math> dm³ na 1 m². Wysokość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,06</mn></math> m³ / 1 m² = 0,06 m = 6 cm.</p>"
         }
       }
     },
@@ -434,9 +444,10 @@
         "solution_html": null,
         "model": {
           "answer": "48 m",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Niech krótszy bok = x, dłuższy = 3x. x·3x=108 ⇒ x²=36 ⇒ x=6, 3x=18. Obwód = 2(6+18)=48 m.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Boki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>a</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>108</mn></math>, a = 6, drugi bok 18. Obwód <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>(</mo><mn>6</mn><mo>+</mo><mn>18</mn><mo>)</mo><mo>=</mo><mn>48</mn></math> m.</p>"
         }
       }
     },
@@ -457,9 +468,10 @@
         "solution_html": null,
         "model": {
           "answer": "2 kg",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Niech w — masa ryby. w = 2/5 + 2·(2/5)w = 2/5 + (4/5)w. Stąd (1/5)w = 2/5, więc w = 2 kg.</p>"
+          "corroborated": true,
+          "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi><mo>=</mo><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>+</mo><mn>2</mn><mo>·</mo><mfrac><mn>2</mn><mn>5</mn></mfrac><mi>m</mi></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>5</mn></mfrac><mi>m</mi><mo>=</mo><mfrac><mn>2</mn><mn>5</mn></mfrac></math>, m = 2 kg.</p>"
         }
       }
     },
@@ -480,9 +492,10 @@
         "solution_html": null,
         "model": {
           "answer": "6",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Niech pierwszy składnik = a, drugi = 2a, trzeci = 4a. a+2a+4a=42 ⇒ 7a=42 ⇒ a=6. Najmniejszy składnik to 6.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Składniki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>,</mo><mn>2</mn><mi>x</mi><mo>,</mo><mn>4</mn><mi>x</mi></math>, suma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mi>x</mi><mo>=</mo><mn>42</mn></math>, x = 6. Najmniejszy: 6.</p>"
         }
       }
     },
@@ -503,9 +516,10 @@
         "solution_html": null,
         "model": {
           "answer": "10 szklanek",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>3/4 kartonika = 1 1/2 szklanki, więc cały kartonik = 1,5 ÷ (3/4) = 2 szklanki. 5 kartoników = 5·2 = 10 szklanek.</p>"
+          "corroborated": true,
+          "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math> kartonika = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mfrac><mn>1</mn><mn>2</mn></mfrac></math> szklanki, więc pełny kartonik = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,5</mn><mo>·</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><mo>=</mo><mn>2</mn></math> szklanki. 5 kartoników → 10 szklanek.</p>"
         }
       }
     },
@@ -526,9 +540,10 @@
         "solution_html": null,
         "model": {
           "answer": "33,6 m³",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Sufit skośny między wysokością 1,2 m a 3 m tworzy w przekroju trapez o wysokościach 1,2 m i 3 m i podstawie 4 m. Średnia wysokość = (1,2+3)/2 = 2,1 m. Objętość = 2,1 · 4 · 4 = 33,6 m³.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Przekrój to trapez o podstawach 1,2 m i 3 m i szerokości 4 m. Objętość = średnia wysokość × pole podłogi = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>1,2</mn><mo>+</mo><mn>3</mn></mrow><mn>2</mn></mfrac><mo>·</mo><mn>16</mn><mo>=</mo><mn>2,1</mn><mo>·</mo><mn>16</mn><mo>=</mo><mn>33,6</mn></math> m³.</p>"
         }
       }
     },
@@ -549,9 +564,10 @@
         "solution_html": null,
         "model": {
           "answer": "360 zł",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Niech druga skarbonka miała x zł, pierwsza 2x. Po wydatkach: 2x−10 = 3(x−50) ⇒ 2x−10=3x−150 ⇒ x=140. Pierwsza: 2·140−10=270, druga: 140−50=90. Razem: 270+90=360 zł.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Druga x, pierwsza 2x. Po wyjęciu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>−</mo><mn>10</mn><mo>=</mo><mn>3</mn><mo>(</mo><mi>x</mi><mo>−</mo><mn>50</mn><mo>)</mo></math>, x = 140. Zostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>270</mn><mo>+</mo><mn>90</mn><mo>=</mo><mn>360</mn></math> zł.</p>"
         }
       }
     },
@@ -572,9 +588,10 @@
         "solution_html": null,
         "model": {
           "answer": "80 km",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Czas pierwszego kolarza: 8/20 (dojazd) + 8/20 (powrót) + 12 min (0,2 h) + D/20 (dojazd do B) = 1 + D/20. Czas drugiego: D/16. Z równości: D/16 = 1 + D/20 ⇒ 5D = 80 + 4D ⇒ D = 80 km.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Pierwszy jedzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mo>+</mo><mn>16</mn></math> km i traci 0,2 h. Równanie czasów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>D</mi><mo>+</mo><mn>16</mn></mrow><mn>20</mn></mfrac><mo>+</mo><mn>0,2</mn><mo>=</mo><mfrac><mi>D</mi><mn>16</mn></mfrac></math>, stąd D = 80 km (oba czasy = 5 h).</p>"
         }
       }
     }

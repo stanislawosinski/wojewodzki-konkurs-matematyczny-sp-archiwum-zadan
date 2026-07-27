@@ -28,9 +28,10 @@
         "solution_html": null,
         "model": {
           "answer": "15",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Wartość wyrażenia: 8&frac14; − 4&frac12;·1&frac19; = 33/4 − (9/2·10/9) = 33/4 − 5 = 13/4. Podzielone przez 1&frac1{12}=13/12: (13/4):(13/12)=3.</p><p>Szukana liczba x spełnia (2/15)x = (2/3)·3 = 2, więc x = 2·15/2 = <b>15</b>.</p>"
+          "corroborated": true,
+          "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>1</mn><mfrac><mn>1</mn><mn>9</mn></mfrac><mo>=</mo><mfrac><mn>9</mn><mn>2</mn></mfrac><mo>·</mo><mfrac><mn>10</mn><mn>9</mn></mfrac><mo>=</mo><mn>5</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>−</mo><mn>5</mn><mo>=</mo><mfrac><mn>13</mn><mn>4</mn></mfrac></math>.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>13</mn><mn>4</mn></mfrac><mo>:</mo><mfrac><mn>13</mn><mn>12</mn></mfrac><mo>=</mo><mn>3</mn></math>. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>·</mo><mn>3</mn><mo>=</mo><mn>2</mn></math>.</p><p>Szukana liczba: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>:</mo><mfrac><mn>2</mn><mn>15</mn></mfrac><mo>=</mo><mn>15</mn></math>.</p>"
         }
       }
     },
@@ -52,9 +53,10 @@
         "solution_html": null,
         "model": {
           "answer": "6 razy: 12:01, 12:02, 12:03, 12:04, 12:06, 12:12",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Przez cały czas od 12:00 do 13:00 liczba godziny to 12. Trzeba znaleźć minuty (01–59, bo 0 nie jest dzielnikiem) będące dzielnikami 12: 1,2,3,4,6,12.</p><p>Daje to 6 chwil: 12:01, 12:02, 12:03, 12:04, 12:06, 12:12.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Godzina to 12. Minuty muszą być dzielnikiem 12 i mieścić się w zakresie 00–59.</p><p>Dzielniki 12: 1, 2, 3, 4, 6, 12 — sześć wartości: 12:01, 12:02, 12:03, 12:04, 12:06, 12:12.</p>"
         }
       }
     },
@@ -75,9 +77,10 @@
         "solution_html": null,
         "model": {
           "answer": "4 godziny 55 minut",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Z cyfr 0,0,2,7 możliwe poprawne godziny (HH:MM) to: 00:27, 02:07, 07:02, 07:20, 20:07.</p><p>Po 02:07 najbliższa z nich to 07:02. Różnica: od 02:07 do 07:07 = 5h, minus 5 min = <b>4 godz. 55 min</b>.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Godziny złożone z cyfr 0,0,2,7 (i poprawne): 00:27, 02:07, 07:02, 07:20, 20:07.</p><p>Pierwsza po 02:07 to 07:02. Czas: 7:02 − 2:07 = 4 h 55 min (295 minut).</p>"
         }
       }
     },
@@ -112,9 +115,10 @@
         "solution_html": null,
         "model": {
           "answer": "FFP",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Podstawa = 7 cm. Nierówność trójkąta: suma ramion musi być > 7.</p><p>1) Ramię = 3,5 cm ⇒ 3,5+3,5=7, nie > 7 ⇒ F.</p><p>2) Ramię = 7−4=3 cm ⇒ 3+3=6 < 7 ⇒ F.</p><p>3) Zawsze 2·ramię > 7, więc obwód = 7+2·ramię > 14 ⇒ P.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Podstawa 7. (1) Ramię 3,5: 3,5+3,5=7 nie &gt; 7 — trójkąt nie istnieje → F. (2) Ramię 3: 3+3=6 &lt; 7 → F. (3) Aby trójkąt istniał, ramię &gt; 3,5, więc obwód = 7 + 2·ramię &gt; 14 → P.</p>"
         }
       }
     },
@@ -149,9 +153,10 @@
         "solution_html": null,
         "model": {
           "answer": "PFP",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Z 3J=2G ⇒ G=1,5J. Z K+G=7J ⇒ K=5,5J.</p><p>1) 3G+1J = 4,5J+1J = 5,5J = K ⇒ P.</p><p>2) G=1,5J, a 2J=2J; 1,5J nie jest większe od 2J ⇒ F.</p><p>3) K=5,5J, 3G=4,5J; 5,5J>4,5J ⇒ P.</p>"
+          "corroborated": true,
+          "solution_html": "<p>K+G=7J, 3J=2G ⟹ G=1,5J, więc K=7J−1,5J=5,5J.</p><p>(1) 3G+J=4,5J+J=5,5J=K → P. (2) G=1,5J &lt; 2J → F. (3) 3G=4,5J &lt; 5,5J=K → P.</p>"
         }
       }
     },
@@ -173,9 +178,10 @@
         "solution_html": null,
         "model": {
           "answer": "czwartek",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Niedziele różnią się o 7 (nieparzyście), więc parzystość dat niedziel na przemian: takie same jak data pierwszej niedzieli dla niedziel 1,3,5, przeciwne dla 2,4.</p><p>Aby 3 niedziele były parzyste, musi być 5 niedziel w miesiącu i pierwsza niedziela parzysta. Jedyna możliwość: 2, 9, 16, 23, 30 (dla d=4 lub 6 miesiąc ma tylko 4 niedziele).</p><p>Więc niedziela wypada 2., 9., 16., 23., 30. dnia. 20. dzień to 16+4 = niedziela+4 dni = <b>czwartek</b>.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Kolejne niedziele różnią się o 7 (nieparzyste), więc parzystość się zmienia. Trzy parzyste niedziele wymagają układu P,N,P,N,P — pięć niedziel z pierwszą 2-go: 2, 9, 16, 23, 30.</p><p>16 to niedziela, zatem 20-ty wypada w czwartek.</p>"
         }
       }
     },
@@ -196,10 +202,11 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "answer": "a) żółte: 15, zielone: 21, białe: 22, czerwone: 2; b) 35%",
-          "by": "sonnet",
+          "answer": "a) żółte 15, zielone 21, białe 22, czerwone 2 (razem 60); b) 35%",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Niech N = liczba wszystkich koralików. Żółte = N/4. Pozostałe = 3N/4, zielone = 7/15·3N/4 = 7N/20.</p><p>Ani żółte ani zielone = N − N/4 − 7N/20 = 8N/20 = 2N/5. Czerwone stanowią 1/12 tej grupy = 2 koraliki, więc (2N/5)/12 = 2 ⇒ N=60.</p><p>Żółte=15, zielone=21, ani żółte ani zielone=24, białe=11/12·24=22, czerwone=2 (zgadza się).</p><p>b) 21/60 = 35%.</p>"
+          "corroborated": true,
+          "solution_html": "<p>N — liczba koralików. Żółte <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>N</mi><mn>4</mn></mfrac></math>; zielone <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>15</mn></mfrac><mo>·</mo><mfrac><mrow><mn>3</mn><mi>N</mi></mrow><mn>4</mn></mfrac><mo>=</mo><mfrac><mrow><mn>7</mn><mi>N</mi></mrow><mn>20</mn></mfrac></math>; reszta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mi>N</mi></mrow><mn>5</mn></mfrac></math>.</p><p>Czerwone: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>12</mn></mfrac><mo>·</mo><mfrac><mrow><mn>2</mn><mi>N</mi></mrow><mn>5</mn></mfrac><mo>=</mo><mn>2</mn></math> ⟹ N=60. Żółte 15, zielone 21, białe 22, czerwone 2.</p><p>b) 21/60 = 35%.</p>"
         }
       }
     },
@@ -220,9 +227,10 @@
         "solution_html": null,
         "model": {
           "answer": "4",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Suma 4 pierwszych ocen = 4·3,25 = 13. Suma 5 ocen = 5·3,4 = 17. Piąta ocena = 17−13 = <b>4</b>.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Przed dziś 4 oceny o średniej 3,25 → suma 13. Po piątej ocenie średnia 3,4 → suma 5·3,4=17.</p><p>Piąta ocena: 17 − 13 = 4.</p>"
         }
       }
     },
@@ -244,9 +252,10 @@
         "solution_html": null,
         "model": {
           "answer": "168°",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Ponieważ AB=BC (bok pięciokąta) i BF=AB (trójkąt równoboczny), BF=BC, więc trójkąt BFC jest równoramienny, a &ang;FBC = 108°−60° = 48°, stąd &ang;BFC = (180°−48°)/2 = 66°. Analogicznie &ang;AFE = 66°.</p><p>Kąty wokół punktu F sumują się do 360°: &ang;AFB+&ang;BFC+&ang;CFE+&ang;EFA = 360°.</p><p>&ang;CFE = 360° − 60° − 66° − 66° = <b>168°</b>.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Trójkąt ABF równoboczny: ∠FAB=∠FBA=60°, AF=BF=AB=bok pięciokąta.</p><p>∠EAF=108°−60°=48°, a AE=AF, więc w trójkącie AEF ∠AFE=(180°−48°)/2=66°. Podobnie ∠BFC=66°.</p><p>Wokół F: ∠CFE=360°−∠EFA−∠AFB−∠BFC=360°−66°−60°−66°=168°.</p>"
         }
       }
     }

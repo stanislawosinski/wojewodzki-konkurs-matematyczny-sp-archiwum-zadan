@@ -44,9 +44,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>A: n+(n+1)=2n+1 &ndash; nieparzysta (prawda). B: iloczyn kolejnych liczb zawsze parzysty (prawda). D: suma dwóch liczb nieparzystych = parzysta (prawda). C: różnica dwóch liczb nieparzystych jest zawsze <strong>parzysta</strong> (np. 7&minus;3=4), więc zdanie C jest fałszywe.</p>"
+          "corroborated": true,
+          "solution_html": "<p>A: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>+</mo><mo>(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>=</mo><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn></mrow></math> nieparzysta (prawda). B: iloczyn kolejnych — jedna jest parzysta, więc parzysty (prawda). D: nieparzysta+nieparzysta=parzysta (prawda). C: nieparzysta−nieparzysta = parzysta, nie nieparzysta — zdanie fałszywe.</p>"
         }
       }
     },
@@ -84,9 +85,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>1/0,3 = 10/3, 1/0,4 = 5/2. Różnica: 10/3 &minus; 5/2 = 20/6 &minus; 15/6 = 5/6.</p>"
+          "corroborated": true,
+          "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mrow><mn>0,3</mn></mrow></mfrac><mo>−</mo><mfrac><mn>1</mn><mrow><mn>0,4</mn></mrow></mfrac><mo>=</mo><mfrac><mn>10</mn><mn>3</mn></mfrac><mo>−</mo><mfrac><mn>5</mn><mn>2</mn></mfrac><mo>=</mo><mfrac><mn>20</mn><mn>6</mn></mfrac><mo>−</mo><mfrac><mn>15</mn><mn>6</mn></mfrac><mo>=</mo><mfrac><mn>5</mn><mn>6</mn></mfrac></mrow></math></p>"
         }
       }
     },
@@ -124,9 +126,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>9² = 3⁴, 27⁴ = 3¹². (3⁴)ˣ = 3¹² ⇒ 4x = 12 ⇒ x = 3.</p>"
+          "corroborated": true,
+          "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>9</mn><mn>2</mn></msup><mo>=</mo><msup><mn>3</mn><mn>4</mn></msup></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>27</mn><mn>4</mn></msup><mo>=</mo><msup><mn>3</mn><mn>12</mn></msup></mrow></math>. Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>3</mn><mrow><mn>4</mn><mi>x</mi></mrow></msup><mo>=</mo><msup><mn>3</mn><mn>12</mn></msup></mrow></math> wynika <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>3</mn></mrow></math>.</p>"
         }
       }
     },
@@ -164,9 +167,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Zmiany: &minus;1+2&minus;3+4&minus;...&minus;49+50. Grupując parami: (&minus;1+2)+(&minus;3+4)+...+(&minus;49+50) = 25 par × (+1) = +25. Suma wzrosła o 25.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Składniki nieparzyste (indeksy 1,3,…,49) zmniejszono, parzyste (2,4,…,50) zwiększono. Zmiana = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>2</mn><mo>+</mo><mn>4</mn><mo>+</mo><mo>…</mo><mo>+</mo><mn>50</mn><mo>)</mo><mo>−</mo><mo>(</mo><mn>1</mn><mo>+</mo><mn>3</mn><mo>+</mo><mo>…</mo><mo>+</mo><mn>49</mn><mo>)</mo><mo>=</mo><mn>650</mn><mo>−</mo><mn>625</mn><mo>=</mo><mn>25</mn></mrow></math>. Wzrosła o 25.</p>"
         }
       }
     },
@@ -204,9 +208,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>√(7²·13²&minus;7²·5²) = √(49·(169&minus;25)) = √(49·144) = 7·12 = 84.</p>"
+          "corroborated": true,
+          "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>7</mn><mn>2</mn></msup><mo>(</mo><msup><mn>13</mn><mn>2</mn></msup><mo>−</mo><msup><mn>5</mn><mn>2</mn></msup><mo>)</mo></mrow></msqrt></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>=</mo><mn>7</mn><msqrt><mrow><mn>169</mn><mo>−</mo><mn>25</mn></mrow></msqrt><mo>=</mo><mn>7</mn><mo>·</mo><mn>12</mn><mo>=</mo><mn>84</mn></mrow></math></p>"
         }
       }
     },
@@ -244,9 +249,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Tłuszcz: 200·0,12 + 300·0,22 = 24 + 66 = 90 ml. Objętość: 200+300=500 ml. 90/500 = 18%.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Tłuszcz: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>200</mn><mo>·</mo><mn>0,12</mn><mo>+</mo><mn>300</mn><mo>·</mo><mn>0,22</mn><mo>=</mo><mn>24</mn><mo>+</mo><mn>66</mn><mo>=</mo><mn>90</mn></mrow></math> ml na 500 ml. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>90</mn><mn>500</mn></mfrac><mo>=</mo><mn>18</mn><mo>%</mo></mrow></math></p>"
         }
       }
     },
@@ -284,9 +290,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Kąty przyległe sumują się do 180°. x + 5x = 180 ⇒ x = 30°, drugi kąt = 150°. Różnica = 150° &minus; 30° = 120°.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Kąty przyległe: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>5</mn><mi>x</mi><mo>=</mo><mn>180</mn><mo>°</mo></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>30</mn><mo>°</mo></mrow></math>, drugi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>150</mn><mo>°</mo></mrow></math>. Różnica <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>120</mn><mo>°</mo></mrow></math>.</p>"
         }
       }
     },
@@ -325,9 +332,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>2(l+w)=32 ⇒ l+w=16. w = (3/5)l ⇒ l + 0,6l = 16 ⇒ 1,6l=16 ⇒ l=10, w=6. Pole = 10·6 = 60 cm².</p>"
+          "corroborated": true,
+          "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>l</mi><mo>+</mo><mi>w</mi><mo>=</mo><mn>16</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>w</mi><mo>=</mo><mfrac><mn>3</mn><mn>5</mn></mfrac><mi>l</mi></mrow></math> → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>8</mn><mn>5</mn></mfrac><mi>l</mi><mo>=</mo><mn>16</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>l</mi><mo>=</mo><mn>10</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>w</mi><mo>=</mo><mn>6</mn></mrow></math>. Pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>60</mn></mrow></math> cm².</p>"
         }
       }
     },
@@ -365,9 +373,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Pole powierzchni sześcianu 6a², suma krawędzi 12a. 6a² = 12a ⇒ a = 2. Objętość = a³ = 8.</p>"
+          "corroborated": true,
+          "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>12</mn><mi>a</mi></mrow></math> → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>2</mn></mrow></math>. Objętość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2</mn><mn>3</mn></msup><mo>=</mo><mn>8</mn></mrow></math>.</p>"
         }
       }
     },
@@ -405,9 +414,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Niech s = część drogi przespana. Zasnął w połowie drogi, obudził się w punkcie 1/2+s. Pozostało 1&minus;(1/2+s) = 1/2&minus;s, co ma być równe s/2: 1/2&minus;s = s/2 ⇒ 1/2 = 3s/2 ⇒ s = 1/3. Sprawdzenie: zasypia w 1/2, budzi się w 1/2+1/3=5/6, pozostaje 1/6 = połowa z 1/3. Zgadza się.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Cała droga = 1. Zasnął w <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math>, przespał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi></math>. Pozostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>−</mo><mi>s</mi><mo>=</mo><mfrac><mi>s</mi><mn>2</mn></mfrac></mrow></math> → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mi>s</mi></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>s</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math>.</p>"
         }
       }
     },
@@ -428,10 +438,11 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "answer": "18",
-          "by": "sonnet",
+          "answer": "18 lat",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Niech x = obecny wiek. Wiek za 3 lata: x+3, potrojony: 3(x+3). Wiek 3 lata temu: x&minus;3, potrojony: 3(x&minus;3). Zgodnie z zagadką: 3(x+3) &minus; 3(x&minus;3) = x. 3x+9&minus;3x+9 = x ⇒ 18 = x. Bartek ma 18 lat.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Niech wiek = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>(</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>−</mo><mn>3</mn><mo>(</mo><mi>x</mi><mo>−</mo><mn>3</mn><mo>)</mo><mo>=</mo><mn>18</mn></mrow></math>, a to ma być równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>18</mn></mrow></math>.</p>"
         }
       }
     },
@@ -452,9 +463,10 @@
         "solution_html": null,
         "model": {
           "answer": "1 cm",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Objętość jednej kostki: 5·10·20 = 1000 cm³. Dziesięć kostek: 10 000 cm³. Podstawa zbiornika: 100·100 = 10 000 cm². Przyrost poziomu wody = 10000/10000 = 1 cm.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Objętość kostek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mo>·</mo><mn>5</mn><mo>·</mo><mn>10</mn><mo>·</mo><mn>20</mn><mo>=</mo><mn>10000</mn></mrow></math> cm³. Podstawa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mo>·</mo><mn>100</mn><mo>=</mo><mn>10000</mn></mrow></math> cm². Wzrost <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>10000</mn><mn>10000</mn></mfrac><mo>=</mo><mn>1</mn></mrow></math> cm.</p>"
         }
       }
     },
@@ -476,10 +488,11 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "answer": "Pole zmaleje o 25%",
-          "by": "sonnet",
+          "answer": "Tak, zmaleje o 25%",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Niech dłuższy bok = y, krótszy x = 0,8y. Pole początkowe = 0,8y². Po zmianie: krótszy 1,5x = 1,2y, dłuższy 0,5y. Nowe pole = 1,2y·0,5y = 0,6y². Stosunek 0,6/0,8 = 0,75 ⇒ pole stanowi 75% pola pierwotnego, czyli zmalało o 25%.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Boki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,8</mn><mi>a</mi></mrow></math>, pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,8</mn><msup><mi>a</mi><mn>2</mn></msup></mrow></math>. Nowe: krótszy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,5</mn><mo>·</mo><mn>0,8</mn><mi>a</mi><mo>=</mo><mn>1,2</mn><mi>a</mi></mrow></math>, dłuższy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,5</mn><mi>a</mi></mrow></math>, pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,6</mn><msup><mi>a</mi><mn>2</mn></msup></mrow></math>. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>0,6</mn><mn>0,8</mn></mfrac><mo>=</mo><mn>0,75</mn></mrow></math> — spadek o 25%.</p>"
         }
       }
     }

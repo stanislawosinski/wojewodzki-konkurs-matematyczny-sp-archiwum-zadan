@@ -44,9 +44,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Liczba 17 w systemie rzymskim: 10 = X, 5 = V, 2 = II, więc 17 = XVII.</p>"
+          "corroborated": true,
+          "solution_html": "<p>17 = 10 + 5 + 1 + 1 = XVII.</p>"
         }
       }
     },
@@ -84,9 +85,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Kolejność działań: mnożenie i dzielenie od lewej do prawej: 5·4=20, 20:2=10. Następnie 25−10=15.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Kolejność działań: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>·</mo><mn>4</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>10</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>25</mn><mo>−</mo><mn>10</mn><mo>=</mo><mn>15</mn></math>.</p>"
         }
       }
     },
@@ -124,9 +126,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Sprawdzamy cyfrę dziesiątek i tysięcy: 2614 &rarr; tysiące=2, dziesiątki=1; 1&lt;2 — warunek spełniony. Pozostałe liczby nie spełniają warunku.</p>"
+          "corroborated": true,
+          "solution_html": "<p>2614: cyfra dziesiątek = 1, cyfra tysięcy = 2, i 1 &lt; 2. Pozostałe nie spełniają warunku.</p>"
         }
       }
     },
@@ -164,9 +167,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Tuzin to 12 sztuk (z definicji).</p>"
+          "corroborated": true,
+          "solution_html": "<p>Tuzin to 12 sztuk.</p>"
         }
       }
     },
@@ -204,9 +208,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Liczby naturalne między 3,14 a 10,1: 4, 5, 6, 7, 8, 9, 10 — czyli 7 liczb.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Liczby naturalne między 3,14 a 10,1 to 4, 5, 6, 7, 8, 9, 10 — razem 7.</p>"
         }
       }
     },
@@ -244,9 +249,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>III kwartał roku obejmuje miesiące: lipiec (VII), sierpień (VIII), wrzesień (IX).</p>"
+          "corroborated": true,
+          "solution_html": "<p>Trzeci kwartał roku to lipiec, sierpień, wrzesień: VII, VIII, IX.</p>"
         }
       }
     },
@@ -284,9 +290,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>8 kg = 800 dag. 800 dag : 20 słoików = 40 dag na słoik.</p>"
+          "corroborated": true,
+          "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mtext> kg</mtext><mo>:</mo><mn>20</mn><mo>=</mo><mn>0,4</mn><mtext> kg</mtext></math> = 400 g = 40 dag.</p>"
         }
       }
     },
@@ -324,9 +331,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Średnia = (5+5+4+3):4 = 17:4 = 4,25.</p>"
+          "corroborated": true,
+          "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>5</mn><mo>+</mo><mn>5</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>3</mn></mrow><mn>4</mn></mfrac><mo>=</mo><mfrac><mn>17</mn><mn>4</mn></mfrac><mo>=</mo><mn>4,25</mn></math>.</p>"
         }
       }
     },
@@ -364,9 +372,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Za kwadrans siódma = 6:45. 6:45 + 90 min (1h30min) = 8:15.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Za kwadrans siódma = 6:45. 6:45 + 90 min = 8:15.</p>"
         }
       }
     },
@@ -404,9 +413,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Warunek trójkąta: suma dwóch krótszych boków musi być większa od trzeciego. A: 2+2=4&lt;20 — nie. B: 2,5+1=3,5=3,5 — nie (równość, zdegenerowany). C: 8 dm; 3 dm; 0,6 m=6 dm: 3+6=9&gt;8, 8+3=11&gt;6, 8+6=14&gt;3 — tak. D: 100+5=105&lt;400 — nie.</p>"
+          "corroborated": true,
+          "solution_html": "<p>C: 8 dm, 3 dm, 0,6 m = 80, 30, 60 cm; 30 + 60 = 90 &gt; 80 — warunek trójkąta spełniony. Pozostałe zestawy nie spełniają nierówności trójkąta.</p>"
         }
       }
     },
@@ -445,9 +455,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Urodziny Pawła przypadają 50 dni po urodzinach Piotra (bo Piotr jest starszy o 50 dni). 50 = 7·7+1, więc dzień tygodnia przesuwa się o 1: piątek + 1 dzień = sobota.</p>"
+          "corroborated": true,
+          "solution_html": "<p>50 dni = 7 tygodni i 1 dzień, więc urodziny Pawła (młodszego, o 50 dni później) wypadają dzień po piątku, czyli w sobotę.</p>"
         }
       }
     },
@@ -485,9 +496,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>4 kg &rarr; 6 zł, więc 1 kg = 1,50 zł. 3 kg = 3·1,50 zł = 4,50 zł.</p>"
+          "corroborated": true,
+          "solution_html": "<p>1 kg = 6 zł : 4 = 1,50 zł, więc 3 kg = 3 · 1,50 zł = 4,50 zł.</p>"
         }
       }
     },
@@ -525,9 +537,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Suma cyfr 6+9+4+2+3=24. 24+x musi dzielić się przez 9. Najbliższa wielokrotność 9 to 27, więc x=3.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Suma cyfr 6+9+4+2+3 = 24. Aby była podzielna przez 9, potrzeba 27, więc gwiazdka = 3.</p>"
         }
       }
     },
@@ -566,9 +579,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Kąt półpełny = 180°. 1/5 z 180° = 36°. W rombie kąt przeciwległy też ma 36°, a pozostałe dwa kąty = 180°−36°=144° każdy. Zatem pozostałe trzy kąty (poza danym) to 36°; 144°; 144° (suma z danym 36° = 360°).</p>"
+          "corroborated": true,
+          "solution_html": "<p>Kąt = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>5</mn></mfrac></math> · 180° = 36°. W rombie kąty przeciwległe są równe, a sąsiednie sumują się do 180°, więc pozostałe kąty to 36°, 144°, 144°.</p>"
         }
       }
     },
@@ -606,9 +620,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Pole podstawy = 60 cm · 125 cm = 7500 cm². 300 l = 300 000 cm³. Wysokość wody = 300000:7500 = 40 cm = 4 dm.</p>"
+          "corroborated": true,
+          "solution_html": "<p>300 l = 300 000 cm³. Pole dna = 60 · 125 = 7500 cm². Wysokość = 300000 : 7500 = 40 cm = 4 dm (mieści się w 50 cm).</p>"
         }
       }
     },
@@ -629,9 +644,10 @@
         "solution_html": null,
         "model": {
           "answer": "15",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Wartość pięciozłotówek = 18·5 zł = 90 zł, co stanowi 3/4 oszczędności (bo dwuzłotówki to 1/4). Całość oszczędności = 90 : 3/4 = 120 zł. Wartość dwuzłotówek = 1/4·120 = 30 zł. Liczba dwuzłotówek = 30:2 = 15 sztuk.</p>"
+          "corroborated": true,
+          "solution_html": "<p>18 pięciozłotówek = 90 zł to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math> oszczędności, więc całość = 120 zł. Dwuzłotówki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> · 120 = 30 zł, czyli 30 : 2 = 15 sztuk.</p>"
         }
       }
     },
@@ -651,10 +667,11 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "answer": "14",
-          "by": "sonnet",
+          "answer": "14 drzew",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>34 uczniów · 0,7 kg (70 dag) = 23,8 kg tlenu na godzinę potrzeba. Liczba drzew = 23,8 : 1,7 = 14.</p>"
+          "corroborated": true,
+          "solution_html": "<p>70 dag = 0,7 kg. Zapotrzebowanie: 34 · 0,7 = 23,8 kg/godz. Liczba drzew: 23,8 : 1,7 = 14.</p>"
         }
       }
     },
@@ -677,9 +694,10 @@
         "solution_html": null,
         "model": {
           "answer": "24 dm²",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Bok kwadratu = 32:4 = 8 dm. Ustawiamy kwadrat A(0,0), B(8,0), C(8,8), D(0,8). Środki boków AB i BC: M(4,0), N(8,4); wierzchołek nienależący do tych boków: D(0,8). Pole trójkąta MND = pole kwadratu (64) minus trzy trójkąty narożne: AMD=16, MBN=8, NCD=16, razem 40. 64−40=24 dm².</p>"
+          "corroborated": true,
+          "solution_html": "<p>Bok kwadratu = 32 : 4 = 8 dm, pole = 64 dm². Trójkąt otrzymamy odejmując trzy narożne trójkąty: przy wspólnym wierzchołku ½·4·4 = 8, oraz dwa po ½·4·8 = 16. Pole = 64 − (8 + 16 + 16) = 24 dm².</p>"
         }
       }
     }

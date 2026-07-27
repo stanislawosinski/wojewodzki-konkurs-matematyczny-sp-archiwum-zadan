@@ -44,9 +44,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Najmniejsza liczba pierwsza to 2. Trzykrotność: 3×2=6. Połowa: 6÷2=3.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Najmniejsza liczba pierwsza to 2. Trzykrotność: <math><mn>3</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>6</mn></math>. Połowa: <math><mn>6</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>3</mn></math>.</p>"
         }
       }
     },
@@ -84,9 +85,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>c + m = 34, c + m/2 = 17,5. Odejmując: m/2 = 16,5, więc m = 33. Stąd c = 34 − 33 = 1 kg.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Różnica <math><mn>34</mn><mo>-</mo><mn>17,5</mn><mo>=</mo><mn>16,5</mn></math> kg to masa połowy mleka, więc całe mleko waży 33 kg. Pusty pojemnik: <math><mn>34</mn><mo>-</mo><mn>33</mn><mo>=</mo><mn>1</mn></math> kg.</p>"
         }
       }
     },
@@ -125,9 +127,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>CMXXXVIII=938 (niepodz. przez 4), CDXCVI=496=4×124 (podzielna!), DCCXLII=742 (nie), MDLXX=1570 (nie).</p>"
+          "corroborated": true,
+          "solution_html": "<p>CMXXXVIII=938, CDXCVI=496, DCCXLII=742, MDLXX=1570. Tylko 496 dzieli się przez 4 (496:4=124).</p>"
         }
       }
     },
@@ -165,9 +168,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Różnica: (−15) − (−5) = −10. Liczba przeciwna do −10 to 10.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Różnica: <math><mo>(</mo><mo>-</mo><mn>15</mn><mo>)</mo><mo>-</mo><mo>(</mo><mo>-</mo><mn>5</mn><mo>)</mo><mo>=</mo><mo>-</mo><mn>10</mn></math>. Liczba przeciwna: 10.</p>"
         }
       }
     },
@@ -205,9 +209,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Kąt półpełny = 180°. 1/6 z 180° = 30°. Kąt przyległy: 180° − 30° = 150°.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Kąt półpełny = 180°, jego <math><mfrac><mn>1</mn><mn>6</mn></mfrac></math> = 30°. Kąt przyległy: <math><mn>180</mn><mo>-</mo><mn>30</mn><mo>=</mo><mn>150</mn></math>°.</p>"
         }
       }
     },
@@ -245,9 +250,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Suma 1+2+...+58 = 58×59/2 = 1711.</p>"
+          "corroborated": true,
+          "solution_html": "<p><math><mfrac><mrow><mn>58</mn><mo>·</mo><mn>59</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>1711</mn></math>.</p>"
         }
       }
     },
@@ -285,9 +291,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>12 wierzchołków → podstawa ma 6 boków (graniastosłup sześciokątny). Ściany: 2 podstawy + 6 bocznych = 8. Krawędzie: 3×6 = 18.</p>"
+          "corroborated": true,
+          "solution_html": "<p>12 wierzchołków → graniastosłup sześciokątny (podstawa 6-kąt). Ścian: 6+2=8, krawędzi: 3·6=18.</p>"
         }
       }
     },
@@ -325,9 +332,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>V=1000 cm³ → a=10 cm (10³=1000). Pole powierzchni = 6a² = 6×100 = 600 cm².</p>"
+          "corroborated": true,
+          "solution_html": "<p>1 litr = 1000 cm³, krawędź = 10 cm. Pole powierzchni: <math><mn>6</mn><mo>·</mo><msup><mn>10</mn><mn>2</mn></msup><mo>=</mo><mn>600</mn></math> cm².</p>"
         }
       }
     },
@@ -365,9 +373,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Trapez to czworokąt mający co najmniej jedną parę boków równoległych, więc każdy kwadrat (mający dwie pary boków równoległych) jest trapezem. Pozostałe zdania są fałszywe.</p>"
+          "corroborated": true,
+          "solution_html": "<p>A, B, D fałszywe. Kwadrat ma parę boków równoległych, więc jest trapezem (definicja z co najmniej jedną parą boków równoległych). Zdanie C prawdziwe.</p>"
         }
       }
     },
@@ -405,9 +414,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Przyjścia: Iwona=0, Ela=3, Staś=8 (min). Wyjścia: Iwona=D, Staś=D+2, Ela=D+5. Czas Stasia = D−6, czas Eli = D+2. Różnica = (D+2)−(D−6) = 8.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Przyjazd (Ela=0): Iwona −3, Ela 0, Staś +5. Wyjście (Iwona=D): Staś D+2, Ela D+5. Czas Eli: D+5, czas Stasia: (D+2)−5=D−3. Różnica: <math><mo>(</mo><mi>D</mi><mo>+</mo><mn>5</mn><mo>)</mo><mo>-</mo><mo>(</mo><mi>D</mi><mo>-</mo><mn>3</mn><mo>)</mo><mo>=</mo><mn>8</mn></math>.</p>"
         }
       }
     },
@@ -445,9 +455,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>320 m ÷ 0,4 m = 800 odstępów. Na odcinku prostym liczba sadzonek = liczba odstępów + 1 = 801.</p>"
+          "corroborated": true,
+          "solution_html": "<p>320 m : 0,4 m = 800 odstępów, sadzonki na obu końcach: <math><mn>800</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>801</mn></math>.</p>"
         }
       }
     },
@@ -485,9 +496,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Podział deski na 10 części wymaga 9 cięć. 9 × 2 min = 18 minut.</p>"
+          "corroborated": true,
+          "solution_html": "<p>10 części → 9 cięć. <math><mn>9</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>18</mn></math> minut.</p>"
         }
       }
     },
@@ -525,9 +537,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>7×1 + 18×10 + 13×100 + 5×1000 = 7 + 180 + 1300 + 5000 = 6487.</p>"
+          "corroborated": true,
+          "solution_html": "<p><math><mn>7</mn><mo>+</mo><mn>18</mn><mo>·</mo><mn>10</mn><mo>+</mo><mn>13</mn><mo>·</mo><mn>100</mn><mo>+</mo><mn>5</mn><mo>·</mo><mn>1000</mn><mo>=</mo><mn>7</mn><mo>+</mo><mn>180</mn><mo>+</mo><mn>1300</mn><mo>+</mo><mn>5000</mn><mo>=</mo><mn>6487</mn></math>.</p>"
         }
       }
     },
@@ -565,9 +578,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>25 m/s × 3600 s = 90000 m = 90 km.</p>"
+          "corroborated": true,
+          "solution_html": "<p><math><mn>25</mn><mo>·</mo><mn>3600</mn><mo>=</mo><mn>90000</mn></math> m = 90 km.</p>"
         }
       }
     },
@@ -606,9 +620,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Skala 1:5, średnica na rysunku 6 cm → rzeczywista średnica = 6×5=30 cm, promień rzeczywisty=15 cm. W skali 2:1 promień na rysunku = 15×2=30 cm = 300 mm.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Skala 1:5 → rzeczywista średnica = 6·5 = 30 cm, promień = 15 cm. W skali 2:1 promień rysunku = 15·2 = 30 cm = 300 mm.</p>"
         }
       }
     },
@@ -628,10 +643,11 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "answer": "1155",
-          "by": "sonnet",
+          "answer": "1155 stron",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Strony 1–9: 9 cyfr. Strony 10–99: 180 cyfr (razem 189). Strony 100–999: 2700 cyfr (razem 2889). Pozostało 3513−2889=624 cyfry, czyli 624/4=156 stron czterocyfrowych (1000...1155). Łącznie 999+156=1155 stron.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Strony 1–9: 9 cyfr; 10–99: 180 cyfr; 100–999: 2700 cyfr (razem 2889). Pozostało 3513−2889=624 cyfry, czyli 624:4=156 stron czterocyfrowych. Razem 999+156=1155 stron.</p>"
         }
       }
     },
@@ -653,9 +669,10 @@
         "solution_html": null,
         "model": {
           "answer": "4 ha",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Długość płotu = 160000 zł ÷ 200 zł/m = 800 m. Bok kwadratu = 800÷4=200 m. Pole = 200×200=40000 m² = 4 ha.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Obwód: 160000:200=800 m. Bok: 800:4=200 m. Pole: 200²=40000 m² = 4 ha.</p>"
         }
       }
     },
@@ -676,9 +693,10 @@
         "solution_html": null,
         "model": {
           "answer": "200 cm³",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Podstawa: 0,8 dm = 8 cm, więc 8 cm × 50 cm = 400 cm². Podniesienie poziomu wody o 5 mm = 0,5 cm. Objętość żółwia = 400 × 0,5 = 200 cm³.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Podstawa: 0,8 dm = 8 cm, więc 8·50 = 400 cm². Wzrost poziomu 5 mm = 0,5 cm. Objętość żółwia: 400·0,5 = 200 cm³.</p>"
         }
       }
     },
@@ -700,9 +718,10 @@
         "solution_html": null,
         "model": {
           "answer": "7 liczb: 1020, 1125, 1320, 1425, 1620, 1725, 1920",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Liczba ma postać 1X2Y. Podzielność przez 5: Y=0 lub Y=5. Podzielność przez 3 sprawdzona przez sumę cyfr. Dla Y=0: X∈{0,3,6,9} → 1020,1320,1620,1920. Dla Y=5: X∈{1,4,7} → 1125,1425,1725. Razem 7 liczb.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Liczba postaci 1&#95;2&#95; podzielna przez 15 (przez 3 i 5). Cyfra jedności 0 lub 5; suma cyfr 3+setki+jedności podzielna przez 3. Dla 0: setki 0,3,6,9 → 1020,1320,1620,1920. Dla 5: setki 1,4,7 → 1125,1425,1725. Razem 7 liczb.</p>"
         }
       }
     },
@@ -724,9 +743,10 @@
         "solution_html": null,
         "model": {
           "answer": "55 km/h, 105 km/h lub 155 km/h",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Start: 15951 (palindrom). Kolejne palindromy 5-cyfrowe zaczynające się na 1: 16061 (+110), 16161 (+210), 16261 (+310), 16361 (+410)... Ponieważ w 2 godziny przy v≤180 km/h można przejechać maks. 360 km, możliwe różnice to 110, 210, 310 km, co daje prędkości 55, 105, 155 km/h.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Kolejne liczby symetryczne po 15951: 16061, 16161, 16261 (16361 daje >180 km/h). Przejechane drogi: 110, 210, 310 km w 2 h → prędkości 55, 105, 155 km/h (wszystkie ≤180).</p>"
         }
       }
     }

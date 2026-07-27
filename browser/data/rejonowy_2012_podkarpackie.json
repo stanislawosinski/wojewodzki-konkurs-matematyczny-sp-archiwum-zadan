@@ -44,9 +44,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Spadek temperatury: 450 m ÷ 100 m × 0,6°C = 4,5 × 0,6 = 2,7°C.</p><p>Temperatura na wysokości: 2°C − 2,7°C = −0,7°C.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Spadek: <math><mn>0,6</mn><mo>·</mo><mfrac><mn>450</mn><mn>100</mn></mfrac><mo>=</mo><mn>2,7</mn></math>°C. Temperatura: <math><mn>2</mn><mo>−</mo><mn>2,7</mn><mo>=</mo><mo>−</mo><mn>0,7</mn></math>°C.</p>"
         }
       }
     },
@@ -84,9 +85,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Każda z dwóch części drutu ma długość 1,25 m, kąt między nimi 60°.</p><p>Z tw. cosinusów (lub zauważając, że trójkąt jest równoboczny, bo dwa boki równe i kąt między nimi 60°): odległość końców = 1,25 m.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Każda część ma <math><mn>1,25</mn></math> m. Trójkąt o dwóch bokach 1,25 m i kącie 60° między nimi jest równoboczny, więc odległość końców = 1,25 m.</p>"
         }
       }
     },
@@ -124,9 +126,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Trasa Rowy–Łeba: 4 możliwe szlaki.</p><p>Trasa Łeba–Rowy: musi być inny szlak niż w drodze tam, więc 3 możliwości.</p><p>Łącznie: 4 × 3 = 12.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Tam: 4 szlaki, z powrotem: 3 (nie ten sam). <math><mn>4</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>12</mn></math>.</p>"
         }
       }
     },
@@ -165,9 +168,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Liczby: 1; 3−1=2; 9−3+1=7; 27−9+3−1=20; 81−27+9−3+1=61.</p><p>Liczby pierwsze wśród {1,2,7,20,61}: 2, 7, 61 — czyli 3 liczby pierwsze.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Wartości: 1 (nie), <math><mn>3</mn><mo>−</mo><mn>1</mn><mo>=</mo><mn>2</mn></math> (pierwsza), <math><mn>9</mn><mo>−</mo><mn>3</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>7</mn></math> (pierwsza), <math><mn>27</mn><mo>−</mo><mn>9</mn><mo>+</mo><mn>3</mn><mo>−</mo><mn>1</mn><mo>=</mo><mn>20</mn></math> (nie), <math><mn>81</mn><mo>−</mo><mn>27</mn><mo>+</mo><mn>9</mn><mo>−</mo><mn>3</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>61</mn></math> (pierwsza). Razem 3 liczby pierwsze.</p>"
         }
       }
     },
@@ -205,9 +209,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Niech Iwona przyjdzie o czasie 0. Ela przyszła 3 min później (czas 3), Staś 5 min po Eli (czas 8).</p><p>Iwona wyszła jako pierwsza o czasie D; Staś wyszedł o D+2, Ela o D+5.</p><p>Czas pobytu Eli = D+2, czas pobytu Stasia = D−6. Różnica = 8 minut (Ela dłużej).</p>"
+          "corroborated": true,
+          "solution_html": "<p>Przyjścia: Iwona 0, Ela +3, Staś +8. Wyjścia: Iwona L, Staś L+2, Ela L+5. Czas Eli = L+2, Stasia = L−6. Różnica <math><mo>(</mo><mi>L</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>−</mo><mo>(</mo><mi>L</mi><mo>−</mo><mn>6</mn><mo>)</mo><mo>=</mo><mn>8</mn></math> min.</p>"
         }
       }
     },
@@ -245,9 +250,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Kura = 20 × jajko. Jajko = 4 × żółtko, więc żółtko = jajko/4.</p><p>Kura = 20 × 4 × żółtko = 80 × żółtko — żółtko jest 80 razy lżejsze od kury.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Jajko = kura/20, jajko = 4·żółtko ⇒ żółtko = jajko/4 = kura/80. Żółtko 80 razy lżejsze.</p>"
         }
       }
     },
@@ -285,9 +291,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Cykl 6 drzew powtarza się co 6 liczb. Reszta z dzielenia: (10004−1) mod 6 = 10003 mod 6 = 1.</p><p>Pozycja 1+1=2 w cyklu (czereśnia=1, grusza=2,...) — drzewo to grusza.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Cykl 6 drzew. <math><mn>10004</mn><mo>=</mo><mn>6</mn><mo>·</mo><mn>1667</mn><mo>+</mo><mn>2</mn></math>. Reszta 2 ⇒ drugie drzewo = grusza.</p>"
         }
       }
     },
@@ -325,9 +332,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>x − x/3 = 6 ⟹ (2/3)x = 6 ⟹ x = 9.</p><p>Dynia waży 9 kg.</p>"
+          "corroborated": true,
+          "solution_html": "<p><math><mi>w</mi><mo>=</mo><mn>6</mn><mo>+</mo><mfrac><mi>w</mi><mn>3</mn></mfrac></math> ⇒ <math><mfrac><mn>2</mn><mn>3</mn></mfrac><mi>w</mi><mo>=</mo><mn>6</mn></math> ⇒ <math><mi>w</mi><mo>=</mo><mn>9</mn></math> kg.</p>"
         }
       }
     },
@@ -365,9 +373,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Na s szalików zużyto 3s kłębków.</p><p>Pozostało: k − 3s.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Na s szalików zużyto 3s kłębków, zostało <math><mi>k</mi><mo>−</mo><mn>3</mn><mi>s</mi></math>.</p>"
         }
       }
     },
@@ -405,9 +414,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>6 uderzeń, 5 przerw, czas 8 s: 6×0,5 + 5×przerwa = 8 ⟹ przerwa = 1 s.</p><p>8 uderzeń, 7 przerw: 8×0,5 + 7×1 = 4 + 7 = 11 s.</p>"
+          "corroborated": true,
+          "solution_html": "<p>6 uderzeń po 0,5 s + 5 przerw = 8 s ⇒ <math><mn>3</mn><mo>+</mo><mn>5</mn><mi>p</mi><mo>=</mo><mn>8</mn></math> ⇒ przerwa 1 s. Dla 8 uderzeń: <math><mn>8</mn><mo>·</mo><mn>0,5</mn><mo>+</mo><mn>7</mn><mo>·</mo><mn>1</mn><mo>=</mo><mn>11</mn></math> s.</p>"
         }
       }
     },
@@ -445,9 +455,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Pudełko: 30 cm × 40 cm × 50 cm, sześcian 8 cm.</p><p>Wzdłuż każdej krawędzi mieści się: ⌊30/8⌋=3, ⌊40/8⌋=5, ⌊50/8⌋=6.</p><p>Łącznie: 3×5×6 = 90 pojemników.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Pudełko 30×40×50 cm, sześcian 8 cm. Wzdłuż boków: ⌊30/8⌋=3, ⌊40/8⌋=5, ⌊50/8⌋=6. <math><mn>3</mn><mo>·</mo><mn>5</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>90</mn></math> (117 to zwodniczy wynik objętościowy).</p>"
         }
       }
     },
@@ -485,9 +496,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>1100 × 0,9 × 0,9 = 1100 × 0,81 = 891 zł.</p>"
+          "corroborated": true,
+          "solution_html": "<p><math><mn>1100</mn><mo>·</mo><mn>0,9</mn><mo>·</mo><mn>0,9</mn><mo>=</mo><mn>1100</mn><mo>·</mo><mn>0,81</mn><mo>=</mo><mn>891</mn></math> zł.</p>"
         }
       }
     },
@@ -528,9 +540,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Lewa szalka: 1 walec + 3 sześciany. Prawa szalka: 20 g + 2 walce + 2 sześciany.</p><p>Równowaga: w+3s = 20+2w+2s ⟹ s = w+20.</p><p>Suma wszystkich brył: 3w+5s = 500. Podstawiając: 3w+5(w+20)=500 ⟹ 8w=400 ⟹ w=50 g.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Lewa szalka: 1 walec + 3 sześciany; prawa: 20 g + 2 walce + 2 sześciany. Równowaga: <math><mi>c</mi><mo>+</mo><mn>3</mn><mi>s</mi><mo>=</mo><mn>20</mn><mo>+</mo><mn>2</mn><mi>c</mi><mo>+</mo><mn>2</mn><mi>s</mi></math> ⇒ <math><mi>s</mi><mo>−</mo><mi>c</mi><mo>=</mo><mn>20</mn></math>. Wszystkie bryły: <math><mn>5</mn><mi>s</mi><mo>+</mo><mn>3</mn><mi>c</mi><mo>=</mo><mn>500</mn></math> ⇒ <math><mi>c</mi><mo>=</mo><mn>50</mn></math> g.</p>"
         }
       }
     },
@@ -568,9 +581,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Duży pokój = S/2, mały = S/6, kuchnia = S/7, łazienka = S/12, przedpokój = 1,5×3 = 4,5 m².</p><p>S/2+S/6+S/7+S/12 = 75S/84, więc S − 75S/84 = 4,5 ⟹ 9S/84 = 4,5 ⟹ S = 42 m².</p>"
+          "corroborated": true,
+          "solution_html": "<p>Duży pokój = 1/2, mały = 1/6 (trzy razy mniejszy), kuchnia 1/7, łazienka 1/12. Suma = 75/84. Na przedpokój zostaje 9/84 = 3/28. Przedpokój = 1,5·3 = 4,5 m². Całość <math><mn>4,5</mn><mo>:</mo><mfrac><mn>3</mn><mn>28</mn></mfrac><mo>=</mo><mn>42</mn></math> m².</p>"
         }
       }
     },
@@ -609,9 +623,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Niech przekątne z jednego wierzchołka to AC=7 i AD=8, dzielące pięciokąt ABCDE na trójkąty ABC, ACD, ADE.</p><p>Obw. ACD: 7+CD+8=20 ⟹ CD=5. Obw. ABC: AB+BC+7=20 ⟹ AB+BC=13. Obw. ADE: 8+DE+EA=20 ⟹ DE+EA=12.</p><p>Obwód pięciokąta = 13+5+12 = 30 cm.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Suma obwodów 3 trójkątów = 60. Każda przekątna liczona 2 razy: <math><mn>60</mn><mo>=</mo><mi>Obw</mi><mo>+</mo><mn>2</mn><mo>·</mo><mn>7</mn><mo>+</mo><mn>2</mn><mo>·</mo><mn>8</mn></math> ⇒ <math><mi>Obw</mi><mo>=</mo><mn>60</mn><mo>−</mo><mn>30</mn><mo>=</mo><mn>30</mn></math> cm.</p>"
         }
       }
     },
@@ -652,9 +667,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Przyjmując A=(0,0), B=(1,0), C=(0.5,√3/2), L=(0,−1), K=(1,−1) oraz kwadrat na BC na zewnątrz trójkąta: M=(0.5+√3/2, 0.5+√3/2), N=(1+√3/2, 0.5).</p><p>Wektory N→C i N→K dają kąt o cosinusie ≈0,2588, czyli kąt CNK = 75°.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Obliczenie współrzędnych: dla trójkąta równobocznego i kwadratów na AB, BC otrzymujemy wektory NC i NK dające <math><mi>cos</mi><mi>∠CNK</mi><mo>=</mo><mn>0,2588</mn></math>, czyli 75°.</p>"
         }
       }
     },
@@ -692,9 +708,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Witamina C w jednej jagodzie: 0,2% × 0,4 g = 0,0008 g = 0,8 mg.</p><p>Liczba jagód: 2,4 mg ÷ 0,8 mg = 3.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Witamina C w jagodzie: <math><mn>0,2</mn><mo>%</mo><mo>·</mo><mn>0,4</mn><mspace width=\"0.2em\"></mspace><mtext>g</mtext><mo>=</mo><mn>0,0008</mn><mspace width=\"0.2em\"></mspace><mtext>g</mtext><mo>=</mo><mn>0,8</mn></math> mg. <math><mn>2,4</mn><mo>:</mo><mn>0,8</mn><mo>=</mo><mn>3</mn></math> jagody.</p>"
         }
       }
     },
@@ -735,9 +752,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Trzy przekątne na rysunku łączą naprzemienne wierzchołki sześcianu (trójkąt „odcinający” jeden narożnik), omijając wspólny wierzchołek trzech ścian.</p><p>Po analizie zgięcia siatek, tylko w siatce A wszystkie trzy przekątne (góra, bok, dół) konsekwentnie omijają ten sam wspólny wierzchołek, tworząc spójny trójkąt — w B, C, D co najmniej jedna przekątna przechodzi przez ten wierzchołek.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Na sześcianie przekątne trzech ścian tworzą zamknięty trójkąt. Po złożeniu tylko siatka A daje trzy przekątne łączące się w trójkąt (końce wspólne parami); w B, C przekątne się nie domykają, w D wszystkie schodzą się w jednym wierzchołku (gwiazda).</p>"
         }
       }
     },
@@ -758,9 +776,10 @@
         "solution_html": null,
         "model": {
           "answer": "5 doniczek",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Wymiary zewnętrzne: 6 cm × 21 cm × 6 cm (bo 3/50 m = 6 cm, 2,1 dm = 21 cm).</p><p>Objętość zewnętrzna = 6×21×6 = 756 cm³. Objętość wnętrza (pojemność wody) = 0,5 l = 500 cm³.</p><p>Modelina na jedną doniczkę = 756 − 500 = 256 cm³. Liczba doniczek: 1500 ÷ 256 ≈ 5,86 ⟹ 5 pełnych doniczek.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Wymiary zewn.: 6 cm × 6 cm × 21 cm ⇒ objętość <math><mn>756</mn></math> cm³. Pojemność 0,5 l = 500 cm³. Modelina na 1 doniczkę: <math><mn>756</mn><mo>−</mo><mn>500</mn><mo>=</mo><mn>256</mn></math> cm³. <math><mn>1500</mn><mo>:</mo><mn>256</mn><mo>≈</mo><mn>5,9</mn></math> ⇒ 5 doniczek.</p>"
         }
       }
     },
@@ -781,9 +800,10 @@
         "solution_html": null,
         "model": {
           "answer": "co 56 dni; 2 stycznia, 27 lutego, 23 kwietnia, 18 czerwca 2012",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>NWW(2,7,8) = 56 — wszystkie statki wypływają razem co 56 dni.</p><p>Start: 2 stycznia 2012. Kolejne wspólne dni (2012 to rok przestępny): 2.01+56=27.02, 27.02+56=23.04, 23.04+56=18.06. Następny (13.08) wykracza już poza I półrocze.</p>"
+          "corroborated": true,
+          "solution_html": "<p>NWW(2, 7, 8) = 56 dni. Od 2 I 2012 (2012 – rok przestępny): +56 = 27 II, +56 = 23 IV, +56 = 18 VI. Kolejny termin wypada już w drugiej połowie roku.</p>"
         }
       }
     },
@@ -804,9 +824,10 @@
         "solution_html": null,
         "model": {
           "answer": "24 km/h",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Planowana droga: 200 m/min × 30 min = 6000 m. 2/3 drogi = 4000 m, czas = 4000/200 = 20 min.</p><p>Po 20 min + 5 min postoju zostało 30−25 = 5 minut na pokonanie 2000 m.</p><p>Prędkość = 2000 m / 5 min = 400 m/min = 24000 m/h = 24 km/h.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Trasa: <math><mn>200</mn><mo>·</mo><mn>30</mn><mo>=</mo><mn>6000</mn></math> m. 2/3 = 4000 m w 20 min, postój 5 min ⇒ zużyto 25 min. Zostało 5 min na 2000 m ⇒ <math><mn>400</mn></math> m/min <math><mo>=</mo><mn>24</mn></math> km/h.</p>"
         }
       }
     },
@@ -827,9 +848,10 @@
         "solution_html": null,
         "model": {
           "answer": "300 m",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Niech R = rzeczywista odległość (w cm). D1=R/5000, D2=R/20000, D1−D2=4,5.</p><p>R(1/5000−1/20000) = 3R/20000 = 4,5 ⟹ R = 30000 cm = 300 m.</p>"
+          "corroborated": true,
+          "solution_html": "<p><math><mfrac><mi>D</mi><mn>5000</mn></mfrac><mo>−</mo><mfrac><mi>D</mi><mn>20000</mn></mfrac><mo>=</mo><mn>4,5</mn></math> cm ⇒ <math><mfrac><mrow><mn>3</mn><mi>D</mi></mrow><mn>20000</mn></mfrac><mo>=</mo><mn>4,5</mn></math> ⇒ <math><mi>D</mi><mo>=</mo><mn>30000</mn></math> cm = 300 m.</p>"
         }
       }
     },
@@ -853,6 +875,7 @@
           "answer": "27 czekoladek; z pozostałych 8: Ola powinna dostać 3, Ania 5 (Kasia 0)",
           "by": "sonnet",
           "agrees": null,
+          "corroborated": false,
           "solution_html": "<p>Po Kasi zostaje (2/3)N, po Oli (2/3)²N, po Ani (2/3)³N = 8N/27 = 8 ⟹ N=27.</p><p>Kasia wzięła 9 (=1/3·27), Ola 6 (=1/3·18), Ania 4 (=1/3·12).</p><p>Sprawiedliwy udział to 27/3=9 każda: Kasia ma już 9 (0 więcej), Oli brakuje 3, Ani brakuje 5 — razem 8, dokładnie tyle, ile zostało.</p>"
         }
       }

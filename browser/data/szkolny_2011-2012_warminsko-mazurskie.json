@@ -44,9 +44,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>4 bociany w 2 godziny łapią 8 żab, więc w 1 godzinę 4 bociany łapią 4 żaby (1 żaba/bocian/h).</p><p>By złapać 80 żab w 1 godzinę potrzeba 80 bocianów (80 razy więcej żab niż 1 bocian w 1 h).</p>"
+          "corroborated": true,
+          "solution_html": "<p>Wydajność: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>8</mn><mrow><mn>4</mn><mo>·</mo><mn>2</mn></mrow></mfrac></math> = 1 żaba na bociana na godzinę.</p><p>Aby złapać 80 żab w 1 h, potrzeba 80 bocianów.</p>"
         }
       }
     },
@@ -85,9 +86,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Niech wierzchołki to x, y, z; boki: x+y, y+z, z+x równe 8, 10, 12 (w jakiejś kolejności).</p><p>Suma boków = 2(x+y+z) = 30, więc x+y+z = 15. Każdy wierzchołek = 15 − (bok naprzeciw): 15−8=7, 15−10=5, 15−12=3.</p><p>Najmniejsza liczba to 3.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Suma boków = 8+10+12 = 30 = 2(a+b+c), więc a+b+c = 15.</p><p>Każdy wierzchołek = 15 − przeciwległy bok. Wierzchołki: 15−12=3, 15−10=5, 15−8=7. Najmniejszy = 3.</p>"
         }
       }
     },
@@ -125,9 +127,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>(0,03)² = 0,03 · 0,03 = 0,0009.</p>"
+          "corroborated": true,
+          "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>0,03</mn><mo>)</mo></mrow><mn>2</mn></msup></math> = 0,03 · 0,03 = 0,0009.</p>"
         }
       }
     },
@@ -166,9 +169,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Trójkąt równoboczny o boku n podzielony na trójkąty jednostkowe daje n² trójkątów.</p><p>Dla n=3: 3² = 9 (6 skierowanych „w górę” + 3 skierowane „w dół”).</p>"
+          "corroborated": true,
+          "solution_html": "<p>Trójkąt równoboczny o boku n dzieli się na n² trójkątów jednostkowych. Dla n=3: 3² = 9.</p>"
         }
       }
     },
@@ -206,9 +210,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>1 litr = 1000 cm³ waży 1 kg = 1000 g, więc 1 cm³ waży 1 g.</p>"
+          "corroborated": true,
+          "solution_html": "<p>1 litr = 1000 cm³ waży 1 kg = 1000 g. Zatem 1 cm³ waży 1 g.</p>"
         }
       }
     },
@@ -246,9 +251,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>48 : (−2) = −24. −40 : 2 = −20.</p><p>−24 − (−20) = −24 + 20 = −4.</p>"
+          "corroborated": true,
+          "solution_html": "<p>48:(−2) = −24; −40:2 = −20; więc −24 − (−20) = −24 + 20 = −4.</p>"
         }
       }
     },
@@ -286,9 +292,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>0,8 = 4/5, więc odwrotność to 5/4 = 1,25.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Odwrotność 0,8 = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>0,8</mn></mfrac></math> = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>4</mn></mfrac></math> = 1,25.</p>"
         }
       }
     },
@@ -326,9 +333,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Niech wolnych miejsc będzie x, zajętych 2x. x + 2x = 108, 3x = 108, x = 36.</p><p>Zajętych (pasażerów) = 2·36 = 72.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Zajęte = 2 · wolne, razem 108. Wolne = 36, zajęte = 72. Pasażerów (zajęte miejsca) = 72.</p>"
         }
       }
     },
@@ -366,9 +374,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>12:45 + 1/10 h (6 min) = 12:51 (przyjście do biblioteki).</p><p>+ 2 kwadranse (30 min) = 13:21 (wyjście z biblioteki).</p><p>+ 300 s (5 min) = 13:26 (dotarcie do domu).</p>"
+          "corroborated": true,
+          "solution_html": "<p>12:45 + 1/10 h (6 min) = 12:51. + 2 kwadranse (30 min) = 13:21. + 300 s (5 min) = 13:26.</p>"
         }
       }
     },
@@ -406,9 +415,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Liczb naturalnych o sumie cyfr ≤ 3 jest nieskończenie wiele (np. 1, 10, 100, 1000, ... - każda ma sumę cyfr 1), więc jest ich więcej niż 10.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Liczby jak 3, 30, 300, 3000, … mają sumę cyfr 3; podobnie 12, 21, 111 itd. Takich liczb jest nieskończenie wiele, więc więcej niż 10.</p>"
         }
       }
     },
@@ -429,10 +439,11 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "answer": "1,5 godziny (1 godzina 30 minut)",
-          "by": "sonnet",
+          "answer": "1,5 godziny (1 h 30 min)",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Wydajności: 1/2 basenu/h i 1/6 basenu/h. Razem: 1/2 + 1/6 = 3/6 + 1/6 = 4/6 = 2/3 basenu/h.</p><p>Czas napełnienia = 1 : (2/3) = 3/2 = 1,5 h.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Wydajności: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math> + <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>6</mn></mfrac></math> = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math> basenu/h.</p><p>Czas = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>2</mn></mfrac></math> h = 1,5 godziny.</p>"
         }
       }
     },
@@ -474,9 +485,10 @@
         "solution_html": null,
         "model": {
           "answer": "FPPFF",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>1. Fałsz - ściany boczne graniastosłupa nie są równoległe (spotykają się na krawędziach bocznych).</p><p>2. Prawda - liczba wierzchołków to 2n (dwie podstawy), zawsze parzysta.</p><p>3. Prawda - w każdym wierzchołku spotykają się 2 krawędzie podstawy i 1 krawędź boczna, czyli 3 krawędzie.</p><p>4. Fałsz - podstawą graniastosłupa musi być wielokąt, a nie dowolna figura płaska.</p><p>5. Fałsz - liczba krawędzi to 3n, co jest parzyste dla parzystego n (np. graniastosłup czworokątny ma 12 krawędzi).</p>"
+          "corroborated": true,
+          "solution_html": "<p>1) Ściany boczne nie są wzajemnie równoległe (np. w graniastosłupie trójkątnym) – F.</p><p>2) n-kąt w podstawie → 2n wierzchołków (parzyste) – P.</p><p>3) W każdym wierzchołku schodzą się 3 krawędzie – P.</p><p>4) Podstawą musi być wielokąt, nie dowolna figura – F.</p><p>5) 3n krawędzi – nieparzyste tylko dla nieparzystego n (np. prostopadłościan ma 12) – F.</p>"
         }
       }
     },
@@ -497,10 +509,11 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "answer": "47/285 powierzchni (94 m² z 570 m², ok. 16,5%)",
-          "by": "sonnet",
+          "answer": "47/285 powierzchni (≈16,5%), tj. 94 m² z 570 m²",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Pole trawnika: 30 · 19 = 570 m².</p><p>Po dwóch okrążeniach kosiarką o szerokości 0,5 m pas skoszony wokół brzegu ma szerokość 2·0,5 = 1 m z każdej strony, więc nieskoszony prostokąt wewnętrzny ma wymiary (30−2)×(19−2) = 28×17 = 476 m².</p><p>Skoszono 570 − 476 = 94 m², czyli 94/570 = 47/285 (≈16,5%) powierzchni trawnika.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Dwa okrążenia kosiarką 0,5 m dają skoszony pas szerokości 1 m wzdłuż brzegów.</p><p>Pole trawnika = 30·19 = 570 m². Nieskoszony środek = 28·17 = 476 m². Skoszone = 570 − 476 = 94 m².</p><p>Część = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>94</mn><mn>570</mn></mfrac></math> = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>47</mn><mn>285</mn></mfrac></math> ≈ 16,5%.</p>"
         }
       }
     },
@@ -523,10 +536,11 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "answer": "Pytanie 1: 165 klocków (9²+7²+5²+3²+1² = 81+49+25+9+1); Pytanie 2: 84 klocki wewnętrzne (7²+5²+3²+1² = 49+25+9+1)",
-          "by": "sonnet",
+          "answer": "a) 165 klocków (81+49+25+9+1); b) 84 klocki (49+25+9+1)",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Piramida z warstwy 9×9 ma kolejne warstwy 9,7,5,3,1 (każda mniejsza o 2, wyśrodkowana). Łączna liczba klocków = 9²+7²+5²+3²+1² = 81+49+25+9+1 = 165.</p><p>Klocek jest „wewnętrzny” (niewidoczny z żadnej strony poza podłogą), gdy leży w wewnętrznej części swojej warstwy (nie na brzegu) - a to dokładnie ten obszar, który przykrywa warstwa leżąca wyżej. Dla warstwy o boku s liczba takich klocków to (s−2)².</p><p>Warstwa 9: (9−2)²=49; warstwa 7: (7−2)²=25; warstwa 5: (5−2)²=9; warstwa 3: (3−2)²=1; warstwa 1 (szczyt) - widoczna z góry, 0 ukrytych.</p><p>Suma: 49+25+9+1 = 84 klocki wewnętrzne.</p>"
+          "corroborated": true,
+          "solution_html": "<p><strong>Pytanie 1:</strong> Warstwy 9×9, 7×7, 5×5, 3×3, 1×1: 81+49+25+9+1 = 165 klocków.</p><p><strong>Pytanie 2:</strong> Klocek jest ukryty, gdy ma klocek nad sobą i sąsiadów z 4 boków. W każdej warstwie ukryte są klocki leżące pod warstwą wyższą: 49 (pod 7×7) + 25 (pod 5×5) + 9 (pod 3×3) + 1 (pod szczytem) = 84.</p>"
         }
       }
     }

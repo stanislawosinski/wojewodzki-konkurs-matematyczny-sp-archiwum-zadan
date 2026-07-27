@@ -44,9 +44,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Odcinek ma 2 osie symetrii (prosta zawierająca odcinek + symetralna). Prosta i okrąg mają nieskończenie wiele osi symetrii. Półprosta ma dokładnie 1 oś symetrii — prostą, na której leży (żadna prosta prostopadła w innym punkcie nie zachowuje półprostej).</p>"
+          "corroborated": true,
+          "solution_html": "<p>Odcinek ma 2 osie symetrii (symetralna i prosta go zawierająca), prosta oraz okrąg mają nieskończenie wiele osi, a półprosta ma dokładnie jedną oś symetrii — prostą, która ją zawiera.</p>"
         }
       }
     },
@@ -84,9 +85,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Niech początkowo A:B:C = k:2k:3k (suma 6k), na końcu 4m:5m:6m (suma 15m). Liczba żetonów łącznie się nie zmieniła: 6k=15m ⇒ k=2,5m.</p><p>Adam: 2,5m → 4m (wzrost). Bartek: 5m → 5m (bez zmian). Czarek: 7,5m → 6m (spadek).</p>"
+          "corroborated": true,
+          "solution_html": "<p>Suma żetonów stała. Początek (części z 6): Adam 1/6, Bartek 2/6=1/3, Czarek 3/6=1/2. Koniec (części z 15): Adam 4/15, Bartek 5/15=1/3, Czarek 6/15=2/5. Zatem Adam: 1/6→4/15 (wzrost), Bartek: 1/3=1/3 (bez zmian), Czarek: 1/2→2/5 (spadek).</p>"
         }
       }
     },
@@ -124,9 +126,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Startowo 5 białych, 8 czarnych (13 razem). Aby P(biała)=1/2 potrzeba równej liczby białych i czarnych.</p><p>C: zabranie 3 czarnych daje 5 białych i 5 czarnych (10 razem), P=5/10=1/2 — spełnia warunek.</p><p>Uwaga: opcja B (dodanie 3 białych: 8 białych, 8 czarnych, P=8/16=1/2) matematycznie również spełnia warunek — zadanie ma dwie poprawne pod względem rachunku odpowiedzi, wybrano C.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Trzeba wyrównać liczbę kul białych i czarnych. Start: 5 białych, 8 czarnych. Zabranie 3 czarnych: 5 i 5 → P=5/10=1/2 (C). Uwaga: dodanie 3 białych (B) też daje 8 i 8 → 8/16=1/2, więc B również jest poprawne — pytanie ma dwie poprawne odpowiedzi.</p>"
         }
       }
     },
@@ -164,9 +167,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Kąt wewnętrzny pięciokąta foremnego = 108°. Dwie przekątne wychodzące z jednego wierzchołka dzielą ten kąt na 3 równe części (z symetrii figury): 108°/3 = 36°. To właśnie kąt między przekątnymi.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Kąt wewnętrzny pięciokąta foremnego to 108°. Dwie przekątne z jednego wierzchołka dzielą go na trzy równe kąty po 36°, więc kąt między przekątnymi wynosi 36°.</p>"
         }
       }
     },
@@ -204,9 +208,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Liczby pierwsze 31 i 37 są kolejnymi liczbami pierwszymi (między nimi nie ma innej liczby pierwszej). Ich średnia: (31+37)/2 = 34.</p>"
+          "corroborated": true,
+          "solution_html": "<p>34 = (31 + 37)/2, a 31 i 37 to kolejne liczby pierwsze (32–36 są złożone). Pozostałe liczby nie są średnią sąsiednich liczb pierwszych.</p>"
         }
       }
     },
@@ -244,9 +249,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Przekrój osiowy stożka to trójkąt równoramienny (ramiona = tworzące l, podstawa = 2r). Jeśli jest prostokątny, kąt prosty musi być przy wierzchołku (bo kąty przy podstawie są równe), więc h=r.</p><p>V = (1/3)πr²h = (1/3)πr³ = 9π ⇒ r³=27 ⇒ r=3, h=3.</p><p>Tworząca l = √(r²+h²) = √18 = 3√2.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Przekrój osiowy to trójkąt prostokątny równoramienny (kąt prosty przy wierzchołku), więc h = r. Objętość: (1/3)πr²·r = (1/3)πr³ = 9π → r³=27 → r=3, h=3. Tworząca l = √(r²+h²) = √18 = 3√2.</p>"
         }
       }
     },
@@ -284,9 +290,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>V=(4/3)πr³=36π ⇒ r³=27 ⇒ r=3 cm.</p><p>Pole powierzchni kuli = 4πr² = 4π·9 = 36π cm² — zgadza się z C.</p><p>Uwaga: pole koła wielkiego = πr² = 9π cm² również zgadza się z treścią opcji B — obie B i C są rachunkowo prawdziwe dla r=3; wybrano C.</p>"
+          "corroborated": true,
+          "solution_html": "<p>V=(4/3)πr³=36π → r³=27 → r=3. Pole powierzchni kuli 4πr²=36π cm² (C) — prawda. Uwaga: pole koła wielkiego πr²=9π (B) też jest prawdziwe, więc pytanie ma dwie poprawne odpowiedzi. A (r=6) i D (V=4π/3, nie 12π) są fałszywe.</p>"
         }
       }
     },
@@ -324,9 +331,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Praca całkowita w \"maszynistko-dniach\": 6·15=90. Dla 10 dni: 90/10=9 maszynistek.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Proporcja odwrotna: 6·15 = x·10 → x = 90/10 = 9 maszynistek.</p>"
         }
       }
     },
@@ -364,9 +372,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>3∗5 = 3·5+3+5 = 23.</p><p>2∗x = 2x+2+x = 3x+2 = 23 ⇒ 3x=21 ⇒ x=7.</p>"
+          "corroborated": true,
+          "solution_html": "<p>3∗5 = 15+3+5 = 23. 2∗x = 2x+2+x = 3x+2. Z 3x+2=23 → x=7.</p>"
         }
       }
     },
@@ -405,9 +414,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Droga w ciągu doby: 9 km/h · 24 h = 216 km. Odległość od równika (składowa prostopadła) = 216·sin30° = 216·0,5 = 108 km.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Droga = 9 km/h · 24 h = 216 km. Odległość od równika (prostopadła) = 216·sin30° = 216·0,5 = 108 km.</p>"
         }
       }
     },
@@ -446,9 +456,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Dwie ostatnie cyfry losowane spośród 100 możliwych kombinacji (00–99), tylko jedna jest właściwa. P = 1/100.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Dwie ostatnie cyfry losowane niezależnie z 0–9: 10·10 = 100 możliwości, jedna poprawna. P = 1/100.</p>"
         }
       }
     },
@@ -486,9 +497,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>y = -(mx-4)/2 = -(m/2)x + 2, więc współczynnik kierunkowy a = -m/2.</p><p>Funkcja rosnąca ⇔ a&gt;0 ⇔ m&lt;0 — zgodne z D.</p><p>Uwaga: dla m=0 funkcja jest stała (opcja B) — to również prawdziwe stwierdzenie; wybrano D jako główny \"haczyk\" zadania (odwrócenie znaku).</p>"
+          "corroborated": true,
+          "solution_html": "<p>y = −(mx−4)/2 = −(m/2)x + 2, współczynnik kierunkowy −m/2. Dla m<0 nachylenie >0 → funkcja rosnąca (D) — prawda. Uwaga: dla m=0 funkcja jest stała (B) też prawda, więc pytanie ma dwie poprawne odpowiedzi. A i C są fałszywe.</p>"
         }
       }
     },
@@ -527,9 +539,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Wzór powtarza się z okresem 6: 1,2,3,4,3,2, 1,2,3,4,3,2, ... (sprawdzone na podanych 11 wyrazach).</p><p>3003 = 500·6 + 3, więc 3003. liść odpowiada 3. wyrazowi cyklu = 3, czyli drzewu nr 3 = jabłoń.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Ciąg 1,2,3,4,3,2 powtarza się z okresem 6. 3003 = 6·500 + 3, reszta 3, więc 3003. liść to trzeci element okresu = 3 = jabłoń.</p>"
         }
       }
     },
@@ -549,10 +562,11 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "answer": "a) 3; b) 9; c) 7",
-          "by": "sonnet",
+          "answer": "a = 3, b = 9, c = 7",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Liczba 8a06 kończy się cyfrą 6; iloczyn kończy się na 4, więc 6·b ≡ 4 (mod 10) ⇒ b=4 lub b=9.</p><p>Sprawdzenie b=9: 8306·9 = 74754, co pasuje do wzoru c4754 (c=7). Żadna inna wartość a (0–9) ani b=4 nie daje pasującego wyniku.</p><p>Zatem a=3, b=9, c=7 (8306·9=74754).</p>"
+          "corroborated": true,
+          "solution_html": "<p>Liczba 8a06 · b = c4754. Cyfra jedności 6·b kończy się na 4 → b=4 lub 9. Sprawdzenie: 8306·9 = 74754, więc a=3, b=9, c=7 (b=4 nie daje rozwiązania całkowitego dla a).</p>"
         }
       }
     },
@@ -573,10 +587,11 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "answer": "a) 150; b) 100; c) 75",
-          "by": "sonnet",
+          "answer": "A. 150; B. 100; C. 75",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Niech V = objętość modelu. Liczba klocków Ewy E=V/2, Magdy M=V/3, przy czym M=E-50.</p><p>V/3 = V/2 - 50 ⇒ 2V=3V-300 ⇒ V=300 cm³.</p><p>E=300/2=150, M=300/3=100 (150-50=100 ✓), Jola: J=300/4=75.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Ten sam prostopadłościan o objętości V. Ewa: V/2 klocków, Magda: V/3. V/2 − V/3 = 50 → V/6 = 50 → V = 300. Ewa 300/2 = 150, Magda 300/3 = 100, Jola 300/4 = 75.</p>"
         }
       }
     },
@@ -610,9 +625,10 @@
         "solution_html": null,
         "model": {
           "answer": "PPF",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Początkowo: 1 biała, 2 czarne, 3 zielone (6 razem): P(b)=1/6, P(cz)=1/3, P(z)=1/2.</p><p>Po dołożeniu po 1 każdego koloru: 2 białe, 3 czarne, 4 zielone (9 razem): P(b)=2/9, P(cz)=1/3, P(z)=4/9.</p><p>A: 1/6→2/9 wzrost (P). B: 1/3→1/3 bez zmian (P). C: 1/2→4/9 spadek, nie wzrost (F).</p>"
+          "corroborated": true,
+          "solution_html": "<p>Start: 1 biała, 2 czarne, 3 zielone (6). Po dołożeniu po jednej: 2, 3, 4 (9). Biała: 1/6→2/9 (wzrost, P). Czarna: 2/6=1/3, 3/9=1/3 (bez zmian, P). Zielona: 3/6=1/2→4/9 (spadek, F).</p>"
         }
       }
     },
@@ -634,10 +650,11 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "answer": "Każdy kąt czworokąta wyznaczonego przez punkty przecięcia dwusiecznych ma miarę 90°, więc jest to prostokąt.",
-          "by": "sonnet",
+          "answer": "Czworokąt jest prostokątem (dwusieczne sąsiednich kątów przecinają się pod kątem 90°)",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>W równoległoboku ABCD kąty przy sąsiednich wierzchołkach są uzupełniające: ∠A+∠B=180° (kąty przyległe przy ramieniu AB).</p><p>Dwusieczne kątów A i B przecinają się w punkcie P; w trójkącie ABP kąty przy A i B wynoszą ∠A/2 i ∠B/2, więc kąt przy P = 180° - (∠A+∠B)/2 = 180° - 90° = 90°.</p><p>Analogicznie w każdym z pozostałych 3 \"narożnych\" trójkątów kąt przy punkcie przecięcia dwusiecznych wynosi 90°. Czworokąt o wszystkich kątach prostych jest prostokątem.</p>"
+          "corroborated": true,
+          "solution_html": "<p>W równoległoboku kąty przy tym samym boku sumują się do 180°. Dwusieczne dwóch sąsiednich kątów tworzą z bokiem kąty będące ich połowami, których suma to 90°, więc w trójkącie kąt między dwusiecznymi = 180°−90° = 90°. Każdy z czterech kątów powstałego czworokąta jest prosty, zatem jest to prostokąt.</p>"
         }
       }
     },
@@ -659,10 +676,11 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "answer": "a√17",
-          "by": "sonnet",
+          "answer": "a√17 cm",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Rozwijamy 4 ściany boczne sześcianu (przez które przechodzi mrówka) w jeden pas o wymiarach 4a × a (bo A i A′ leżą na tej samej krawędzi pionowej, a mrówka okrąża cały sześcian).</p><p>Najkrótsza droga to odcinek łączący rozłożone A i A′ na przekątnej tego pasa: długość = √((4a)² + a²) = √(17a²) = a√17.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Rozwijamy cztery ściany boczne na płaszczyznę: pas o wymiarach 4a (poziomo) × a (pionowo). Punkty A i A′ leżą na przeciwległych końcach pasa. Najkrótsza droga to przekątna: √((4a)² + a²) = √(17a²) = a√17.</p>"
         }
       }
     },
@@ -683,10 +701,11 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "answer": "6√5/5",
-          "by": "sonnet",
+          "answer": "6√5/5 (= 6/√5 ≈ 2,68)",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Punkty przecięcia z osiami: dla x=0, y=3 (punkt (0,3)); dla y=0, x=6 (punkt (6,0)). Pole trójkąta AOB = (1/2)·3·6=9.</p><p>Prosta AB: x+2y-6=0. Odległość O(0,0) od tej prostej (czyli szukana wysokość) = |0+0-6|/√(1²+2²) = 6/√5 = 6√5/5.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Punkty przecięcia z osiami: A=(6,0), B=(0,3). Trójkąt prostokątny AOB o przyprostokątnych 6 i 3. Pole = ½·6·3 = 9, AB = √(36+9) = 3√5. Wysokość z O: h = 2·9/(3√5) = 6/√5 = 6√5/5.</p>"
         }
       }
     },
@@ -707,10 +726,11 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "answer": "14 i 15 (oraz -14 i -15)",
-          "by": "sonnet",
+          "answer": "(15, 14), (15, −14), (−15, 14), (−15, −14)",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>a²-b²=(a-b)(a+b)=29. Ponieważ 29 jest liczbą pierwszą, jedyny (z dokładnością do znaku) rozkład to 1·29.</p><p>a-b=1, a+b=29 ⇒ a=15, b=14. Sprawdzenie: 15²-14²=225-196=29.</p><p>Jedyna para liczb (co do wartości bezwzględnej) to 14 i 15.</p>"
+          "corroborated": true,
+          "solution_html": "<p>a²−b² = (a−b)(a+b) = 29, a 29 jest liczbą pierwszą. Rozkłady na czynniki całkowite dają a−b i a+b równe ±1 i ±29, skąd |a|=15, |b|=14. Sprawdzenie: 15²−14² = 225−196 = 29. Pary: (15,14), (15,−14), (−15,14), (−15,−14).</p>"
         }
       }
     }

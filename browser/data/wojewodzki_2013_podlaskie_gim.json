@@ -44,9 +44,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Razem mają 147+57=204 zł (suma się nie zmienia). Po oddaniu x złotych: Tomek ma 2×(kwota Sławka). Niech Sławek ma s, wtedy Tomek 2s, 3s=204, s=68. Sławek dostaje 68-57=11 zł.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Niech Tomek da <math><mi>x</mi></math>. Wtedy <math><mn>147</mn><mo>-</mo><mi>x</mi><mo>=</mo><mn>2</mn><mo>(</mo><mn>57</mn><mo>+</mo><mi>x</mi><mo>)</mo></math>, czyli <math><mn>33</mn><mo>=</mo><mn>3</mn><mi>x</mi></math>, więc <math><mi>x</mi><mo>=</mo><mn>11</mn></math>.</p>"
         }
       }
     },
@@ -85,9 +86,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Liczba trójkątów o wierzchołkach w wierzchołkach pięciokąta wypukłego = liczba trójek punktów = C(5,3) = 10 (żadne trzy wierzchołki nie są współliniowe).</p>"
+          "corroborated": true,
+          "solution_html": "<p>Każde 3 z 5 wierzchołków wyznaczają trójkąt: <math><mo>(</mo><mtable><mtr><mtd><mn>5</mn></mtd></mtr><mtr><mtd><mn>3</mn></mtd></mtr></mtable><mo>)</mo><mo>=</mo><mn>10</mn></math>.</p>"
         }
       }
     },
@@ -125,9 +127,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Liczba jest podzielna przez 3 wtedy i tylko wtedy, gdy suma jej cyfr jest podzielna przez 3. 30 dzieli się przez 3 (ale nie przez 9), więc a na pewno dzieli się przez 3.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Suma cyfr 30 dzieli się przez 3, więc liczba dzieli się przez 3. (30 nie dzieli się przez 9, ani nic nie wymusza podzielności przez 2, 4, 5.)</p>"
         }
       }
     },
@@ -166,9 +169,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Cyfra jedności liczby 23407 to 7. Cyfra jedności 7³ = 343, czyli 3.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Cyfra jedności zależy tylko od cyfry jedności podstawy: <math><msup><mn>7</mn><mn>3</mn></msup><mo>=</mo><mn>343</mn></math>, więc cyfra jedności to 3.</p>"
         }
       }
     },
@@ -207,9 +211,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Suma z 4 sprawdzianów = 4×30=120. Suma z 5 sprawdzianów ma wynosić 5×32=160. Piąty wynik = 160-120=40.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Suma 4 sprawdzianów: <math><mn>4</mn><mo>·</mo><mn>30</mn><mo>=</mo><mn>120</mn></math>. Potrzebna suma 5: <math><mn>5</mn><mo>·</mo><mn>32</mn><mo>=</mo><mn>160</mn></math>. Brakuje <math><mn>160</mn><mo>-</mo><mn>120</mn><mo>=</mo><mn>40</mn></math>.</p>"
         }
       }
     },
@@ -247,9 +252,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Wysokości: h, h+2, h+4, h+6, h+8. Największy = wieża z dwóch najmniejszych: h+8 = h+(h+2) ⇒ h=6. Wysokości: 6,8,10,12,14, suma = 50 cm.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Wysokości: <math><mi>h</mi><mo>,</mo><mi>h</mi><mo>+</mo><mn>2</mn><mo>,</mo><mo>…</mo><mo>,</mo><mi>h</mi><mo>+</mo><mn>8</mn></math>. Warunek: <math><mi>h</mi><mo>+</mo><mn>8</mn><mo>=</mo><mi>h</mi><mo>+</mo><mo>(</mo><mi>h</mi><mo>+</mo><mn>2</mn><mo>)</mo></math>, więc <math><mi>h</mi><mo>=</mo><mn>6</mn></math>. Suma: <math><mn>6</mn><mo>+</mo><mn>8</mn><mo>+</mo><mn>10</mn><mo>+</mo><mn>12</mn><mo>+</mo><mn>14</mn><mo>=</mo><mn>50</mn></math> cm.</p>"
         }
       }
     },
@@ -288,9 +294,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Stopnie: P=1,Q=1,R=2,S=2,T=2, P-T już wykorzystuje jedyne powitanie P, więc pozostaje P poza grą. Gdyby Q przywitał się z T, obaj mieliby wyczerpany limit, a wtedy R i S mogłyby powitać się tylko ze sobą (stopień 1 zamiast 2) — sprzeczność. Zatem powitanie Q z T nie mogło mieć miejsca; pozostałe warianty (np. T-S-R-Q w łańcuchu) są możliwe.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Stopnie: P=1, Q=1, R=S=T=2 (4 powitania). P–T zajmuje P oraz jeden stopień T. Jedyne konfiguracje: R–S plus R–Q, S–T lub R–T, S–Q. W żadnej nie ma Q–T (bo T ma już P, a drugi stopień idzie do R lub S).</p>"
         }
       }
     },
@@ -330,9 +337,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Wykres to „V” z wierzchołkiem w (1,0) i wartością 1 w x=0, co odpowiada funkcji |x−1| (dla x=0: |0−1|=1, dla x=1: 0).</p>"
+          "corroborated": true,
+          "solution_html": "<p>Wierzchołek litery V w punkcie <math><mo>(</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo>)</mo></math>, przecięcie z osią y w <math><mo>(</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo>)</mo></math> — to wykres <math><mo>|</mo><mi>x</mi><mo>-</mo><mn>1</mn><mo>|</mo></math>.</p>"
         }
       }
     },
@@ -371,9 +379,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>31 dni = 4 tygodnie + 3 dni, więc trzy kolejne dni tygodnia (dni 1,2,3 stycznia) występują 5 razy, pozostałe cztery dni tygodnia po 4 razy. Aby poniedziałek i piątek wystąpiły po 4 razy, dni „nadliczbowe” muszą być wtorek-środa-czwartek. Więc 1 stycznia był wtorkiem.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Styczeń = 31 dni = 4 tyg. + 3 dni; trzy dni tygodnia (dni 1., 2., 3.) występują 5 razy. Poniedziałek i piątek mają wystąpić 4 razy, więc nie mogą być wśród nich. Dla 1 stycznia = wtorek: 5×{wt, śr, czw}, a pon. i pt. po 4 razy.</p>"
         }
       }
     },
@@ -412,9 +421,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Chcemy, by po zabraniu k słoików w piwnicy na pewno pozostały ≥4 słoiki jednego rodzaju i ≥3 innego. Najgorszy przypadek: zabierający redukuje dwa mniej liczne rodzaje (malinowy 7 i żurawinowy 5) możliwie mocno. Sprowadzenie obu do ≤2 wymaga zabrania (7-2)+(5-2)=8 słoików — wtedy warunek pada (8,2,2). Przy zabraniu tylko 7 słoików optymalny podział adwersarza daje resztki co najmniej (3,2) lub (2,3) w tych dwóch rodzajach, więc drugi co do wielkości pozostały rodzaj ma zawsze ≥3. Zatem bezpieczne maksimum to 7.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Aby warunek złamać, przeciwnik musi doprowadzić dwa rodzaje do ≤2 słoików: malinowy 7→2 (5) i żurawinowy 5→2 (3) = 8 zabranych. Więc bezpiecznie można zabrać co najwyżej <math><mn>7</mn></math>.</p>"
         }
       }
     },
@@ -453,9 +463,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Szukamy skojarzeń doskonałych grafu sześcianu (8 wierzchołków, 12 krawędzi). Licząc wg liczby użytych „szprych” (krawędzi pionowych) w reprezentacji graniastosłupa: 0 szprych → 2×2=4 skojarzenia, 2 szprychy → 4 skojarzenia, 4 szprychy → 1 skojarzenie. Razem 4+4+1=9.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Cztery krawędzie bez wspólnych wierzchołków to skojarzenie doskonałe grafu sześcianu (Q3). Liczba skojarzeń doskonałych Q3 wynosi 9.</p>"
         }
       }
     },
@@ -495,9 +506,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Przypadek 1: bok 2 to podstawa. Wysokość h: (1/2)·2·h=1 ⇒ h=1, ramiona=√2 — jeden trójkąt.<br>Przypadek 2: bok 2 to ramię, podstawa b: (1/2)·b·√(4−b²/4)=1 ⇒ b⁴−16b²+16=0 ⇒ b²=8±4√3, oba dodatnie i <16 ⇒ dwa różne trójkąty.<br>Razem: 1+2=3 różne trójkąty.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Bok 2 jako podstawa: wysokość 1, ramiona <math><msqrt><mn>2</mn></msqrt></math> — 1 trójkąt. Bok 2 jako ramiona (oba): pole <math><mn>2</mn><mi>sin</mi><mi>θ</mi><mo>=</mo><mn>1</mn></math>, więc <math><mi>θ</mi><mo>=</mo><mn>30</mn><mo>°</mo></math> lub <math><mn>150</mn><mo>°</mo></math> — 2 trójkąty. Razem 3.</p>"
         }
       }
     },
@@ -538,9 +550,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Przekątne prostokąta przecinają się w środku, dzieląc go na 4 trójkąty równoramienne (ramiona = połowy przekątnej). Kąt naprzeciw krótszego boku wynosi 180°−120°=60°, więc trójkąt oparty na krótszym boku jest równoboczny: krótszy bok = połowa przekątnej. Stąd 12 = d/2, d=24.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Przekątne dzielą się na połowy; krótszy bok (12) leży naprzeciw mniejszego kąta środkowego <math><mn>60</mn><mo>°</mo></math> (drugi kąt to 120°). Trójkąt równoramienny z ramionami <math><mi>d</mi><mo>/</mo><mn>2</mn></math> i kątem 60° jest równoboczny, więc <math><mi>d</mi><mo>/</mo><mn>2</mn><mo>=</mo><mn>12</mn></math>, <math><mi>d</mi><mo>=</mo><mn>24</mn></math>.</p>"
         }
       }
     },
@@ -578,9 +591,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>V=(4/3)πr³=500 ⇒ r³≈119,4 ⇒ r≈4,93 cm, średnica ≈9,85 cm < 10 cm = bok kwadratu. Kula przejdzie nawet bokiem otworu (bez potrzeby przekątnej).</p>"
+          "corroborated": true,
+          "solution_html": "<p><math><mfrac><mn>4</mn><mn>3</mn></mfrac><mi>π</mi><msup><mi>r</mi><mn>3</mn></msup><mo>=</mo><mn>500</mn></math> daje <math><mi>r</mi><mo>≈</mo><mn>4</mn><mo>,</mo><mn>9</mn></math>, średnica ≈ 9,85 cm < 10 cm = bok kwadratu, więc kula przejdzie.</p>"
         }
       }
     },
@@ -618,9 +632,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Połowa cięciwy = 12. Odległość środka okręgu o r=13 od cięciwy: √(13²−12²)=5. Dla r=15: √(15²−12²)=9. Gdy środki po przeciwnych stronach cięciwy, odległość środków = 5+9=14 (jedna z możliwych wartości).</p>"
+          "corroborated": true,
+          "solution_html": "<p>Połowa cięciwy 12. Odległości środków od cięciwy: <math><msqrt><mrow><msup><mn>13</mn><mn>2</mn></msup><mo>-</mo><msup><mn>12</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>5</mn></math> i <math><msqrt><mrow><msup><mn>15</mn><mn>2</mn></msup><mo>-</mo><msup><mn>12</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>9</mn></math>. Środki po przeciwnych stronach: <math><mn>5</mn><mo>+</mo><mn>9</mn><mo>=</mo><mn>14</mn></math>.</p>"
         }
       }
     },
@@ -660,9 +675,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Nowe pole = (1,2a)² = 1,44a², czyli wzrost o 44%.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Nowe pole: <math><msup><mrow><mo>(</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>1</mn><mo>,</mo><mn>44</mn></math>, czyli wzrost o 44%.</p>"
         }
       }
     },
@@ -700,9 +716,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Cukier: 2·10%+3·15% = 0,2+0,45=0,65 l w 5 l mieszaniny ⇒ 0,65/5=13%.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Cukier: <math><mn>2</mn><mo>·</mo><mn>0</mn><mo>,</mo><mn>10</mn><mo>+</mo><mn>3</mn><mo>·</mo><mn>0</mn><mo>,</mo><mn>15</mn><mo>=</mo><mn>0</mn><mo>,</mo><mn>65</mn></math> l w 5 l. Stężenie <math><mn>0</mn><mo>,</mo><mn>65</mn><mo>/</mo><mn>5</mn><mo>=</mo><mn>13</mn><mo>%</mo></math>.</p>"
         }
       }
     },
@@ -724,10 +741,11 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "answer": "Kąt CMD = 90° (dowód geometryczny — patrz rozwiązanie)",
-          "by": "sonnet",
+          "answer": "Kąt CMD = 90° (dowód)",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>AB=2BC, M — środek AB, więc AM=MB=BC=AD (bo AD=BC w równoległoboku). Trójkąt AMD jest równoramienny (AM=AD), więc ∠AMD=∠ADM=90°−∠A/2. Trójkąt BMC równoramienny (BM=BC), więc ∠BMC=∠BCM=90°−∠B/2. Ponieważ ∠A+∠B=180° (kąty przy ramieniu AB), to ∠CMD=180°−∠AMD−∠BMC = (∠A+∠B)/2 = 90°.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Niech <math><mi>BC</mi><mo>=</mo><mi>a</mi></math>, więc <math><mi>AB</mi><mo>=</mo><mn>2</mn><mi>a</mi></math> i <math><mi>AM</mi><mo>=</mo><mi>MB</mi><mo>=</mo><mi>a</mi></math>. Trójkąt <math><mi>AMD</mi></math> jest równoramienny (<math><mi>AM</mi><mo>=</mo><mi>AD</mi><mo>=</mo><mi>a</mi></math>), a <math><mi>BMC</mi></math> równoramienny (<math><mi>BM</mi><mo>=</mo><mi>BC</mi><mo>=</mo><mi>a</mi></math>). Wtedy <math><mo>∠</mo><mi>AMD</mi><mo>+</mo><mo>∠</mo><mi>BMC</mi><mo>=</mo><mfrac><mrow><mn>180</mn><mo>-</mo><mo>∠</mo><mi>A</mi></mrow><mn>2</mn></mfrac><mo>+</mo><mfrac><mrow><mn>180</mn><mo>-</mo><mo>∠</mo><mi>B</mi></mrow><mn>2</mn></mfrac><mo>=</mo><mn>90</mn><mo>°</mo></math> (bo <math><mo>∠</mo><mi>A</mi><mo>+</mo><mo>∠</mo><mi>B</mi><mo>=</mo><mn>180</mn><mo>°</mo></math>). Stąd <math><mo>∠</mo><mi>CMD</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>-</mo><mn>90</mn><mo>°</mo><mo>=</mo><mn>90</mn><mo>°</mo></math>.</p>"
         }
       }
     },
@@ -749,9 +767,10 @@
         "solution_html": null,
         "model": {
           "answer": "1120 km",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Niech pierwsza część = x km, druga = x−320 km. Czas: x/720 + (x−320)/1000. Średnia prędkość: (2x−320)/[x/720+(x−320)/1000] = 800. Rozwiązując: 90x−14400=86x−11520 ⇒ 4x=2880 ⇒ x=720. Trasa = 2·720−320 = 1120 km (sprawdzenie: t=1h+0,4h=1,4h, 1120/1,4=800 km/h).</p>"
+          "corroborated": true,
+          "solution_html": "<p>Niech pierwsza część <math><msub><mi>d</mi><mn>1</mn></msub></math>, druga <math><msub><mi>d</mi><mn>1</mn></msub><mo>-</mo><mn>320</mn></math>. Ze średniej <math><mfrac><msub><mi>d</mi><mn>1</mn></msub><mn>720</mn></mfrac><mo>+</mo><mfrac><mrow><msub><mi>d</mi><mn>1</mn></msub><mo>-</mo><mn>320</mn></mrow><mn>1000</mn></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn><msub><mi>d</mi><mn>1</mn></msub><mo>-</mo><mn>320</mn></mrow><mn>800</mn></mfrac></math> wychodzi <math><msub><mi>d</mi><mn>1</mn></msub><mo>=</mo><mn>720</mn></math>, druga część 400. Trasa <math><mn>720</mn><mo>+</mo><mn>400</mn><mo>=</mo><mn>1120</mn></math> km. (Sprawdzenie: 1 h + 0,4 h = 1,4 h; 1120/1,4 = 800.)</p>"
         }
       }
     },
@@ -773,10 +792,11 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "answer": "V = a³/3",
-          "by": "sonnet",
+          "answer": "a³/3",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Przekątne ścian sześcianu łączące na przemian wybrane wierzchołki tworzą czworościan foremny o krawędzi a√2. Objętość sześcianu pomniejszona o 4 „narożne” ostrosłupy (każdy o objętości a³/6): a³−4·(a³/6)=a³−2a³/3=a³/3.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Przekątne ścian tworzą czworościan foremny o krawędzi <math><mi>a</mi><msqrt><mn>2</mn></msqrt></math>. Jego objętość = objętość sześcianu minus 4 naroża: <math><msup><mi>a</mi><mn>3</mn></msup><mo>-</mo><mn>4</mn><mo>·</mo><mfrac><msup><mi>a</mi><mn>3</mn></msup><mn>6</mn></mfrac><mo>=</mo><mfrac><msup><mi>a</mi><mn>3</mn></msup><mn>3</mn></mfrac></math>.</p>"
         }
       }
     }

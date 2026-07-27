@@ -44,9 +44,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Każdy czynnik (1+1/k)=(k+1)/k dla k=2,...,2019, więc iloczyn teleskopuje: (3/2)(4/3)...(2020/2019) = 2020/2 = 1010.</p><p>Sprawdzamy C: (1+1/2019)·2019:2 = (2020/2019)·(2019/2) = 2020/2 = 1010 — zgadza się z wynikiem.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Każdy czynnik <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mi>n</mi></mfrac><mo>=</mo><mfrac><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow><mi>n</mi></mfrac></math>; iloczyn dla n=2..2019 to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>·</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><mo>⋯</mo><mfrac><mn>2020</mn><mn>2019</mn></mfrac></math>, teleskopuje do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2020</mn><mn>2</mn></mfrac><mo>=</mo><mn>1010</mn></math>.</p><p>Odp. C: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>2019</mn></mfrac><mo>)</mo><mo>·</mo><mn>2019</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>2020</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>1010</mn></math>.</p>"
         }
       }
     },
@@ -85,9 +86,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Cyfry jedności potęg 3: 3,9,7,1,3,9,7,1,... (okres 4). 2019 mod 4 = 3, więc odpowiada trzeciej pozycji w cyklu (3^3=27), czyli cyfra jedności 7.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Cyfry jedności potęg 3 cyklują: 3, 9, 7, 1 (okres 4). <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2019</mn><mo>=</mo><mn>4</mn><mo>·</mo><mn>504</mn><mo>+</mo><mn>3</mn></math>, więc cyfra jak dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>3</mn></msup></math>, czyli 7.</p>"
         }
       }
     },
@@ -125,9 +127,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Porównujemy rzędy wielkości: 999 &lt; 99^9 (~10^18) &lt; 9^99 (~10^94) &lt; 9^(9^9), bo 9^9 ≈ 3,87·10^8, więc 9^(9^9) ma setki milionów cyfr — zdecydowanie największa.</p>"
+          "corroborated": true,
+          "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>9</mn><msup><mn>9</mn><mn>9</mn></msup></msup><mo>=</mo><msup><mn>9</mn><mn>387420489</mn></msup></math> jest nieporównywalnie większe od 999, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>9</mn><mn>99</mn></msup></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>99</mn><mn>9</mn></msup></math>.</p>"
         }
       }
     },
@@ -167,9 +170,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>a = 3√6+2√6+5√2−5√6 = 5√2 — niewymierna.</p><p>b = (10√3−√3)/(3√3) = 9√3/3√3 = 3 — wymierna.</p><p>c = √[(25−2)+(2√2−√2)²] = √(23+2) = √25 = 5 — wymierna.</p><p>Niewymierna jest tylko a.</p>"
+          "corroborated": true,
+          "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>3</mn><msqrt><mn>6</mn></msqrt><mo>+</mo><mn>2</mn><msqrt><mn>6</mn></msqrt><mo>+</mo><mn>5</mn><msqrt><mn>2</mn></msqrt><mo>−</mo><mn>5</mn><msqrt><mn>6</mn></msqrt><mo>=</mo><mn>5</mn><msqrt><mn>2</mn></msqrt></math> (niewymierna).</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mfrac><mrow><mn>10</mn><msqrt><mn>3</mn></msqrt><mo>−</mo><msqrt><mn>3</mn></msqrt></mrow><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow></mfrac><mo>=</mo><mn>3</mn></math>. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><msqrt><mrow><mn>23</mn><mo>+</mo><mn>2</mn></mrow></msqrt><mo>=</mo><mn>5</mn></math>. Niewymierne: tylko a.</p>"
         }
       }
     },
@@ -207,9 +211,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Kolejne obniżki mnożą pozostałe wydatki: 0,8·0,75·0,65 = 0,39, czyli zostało 39% wydatków, więc łączna obniżka wynosi 61%.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Pozostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,8</mn><mo>·</mo><mn>0,75</mn><mo>·</mo><mn>0,65</mn><mo>=</mo><mn>0,39</mn></math>, czyli 39% wydatków. Obniżka o 61%.</p>"
         }
       }
     },
@@ -248,9 +253,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Rzeczywisty prostokąt: 400m×500m = 40000cm×50000cm, pole = 2·10^9 cm². Pole na planie = 2000 cm². Stosunek pól = 1:10^6 = (skala liniowa)². Skala liniowa = 1:1000. Sprawdzenie: 400m:1000=40cm, 500m:1000=50cm, 40·50=2000 cm² — zgadza się.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Rzeczywiste wymiary 40000 cm × 50000 cm, pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><msup><mn>10</mn><mn>9</mn></msup></math> cm². Stosunek pól <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2000</mn><mrow><mn>2</mn><mo>·</mo><msup><mn>10</mn><mn>9</mn></msup></mrow></mfrac><mo>=</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>6</mn></mrow></msup></math>; skala liniowa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><msup><mn>10</mn><mrow><mo>−</mo><mn>6</mn></mrow></msup></msqrt><mo>=</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>3</mn></mrow></msup></math> = 1:1000.</p>"
         }
       }
     },
@@ -289,9 +295,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Nierówność trójkąta: |4−1| &lt; x &lt; 4+1, czyli 3 &lt; x &lt; 5, jedyna liczba naturalna to x=4. Obwód = 1+4+4 = 9cm.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Trzeci bok x naturalny: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>−</mo><mn>1</mn><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mn>4</mn><mo>+</mo><mn>1</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mn>5</mn></math> → x=4. Obwód 1+4+4=9 cm.</p>"
         }
       }
     },
@@ -330,9 +337,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Suma części 1+9+8=18 odpowiada 180°, więc 1 część = 10°. Kąty: 10°, 90°, 80°. Jeden kąt ma dokładnie 90°, więc trójkąt jest prostokątny.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Suma 1+9+8=18 części = 180°, część 10°. Kąty: 10°, 90°, 80° — trójkąt prostokątny.</p>"
         }
       }
     },
@@ -370,9 +378,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Niech krótsza podstawa = a, dłuższa = 3a, ramię = L. Rzut ramienia na dłuższą podstawę: L·cos60° = L/2 = (3a−a)/2 = a, więc L=2a. Obwód: 4a+2L = 4a+4a = 8a = 20 ⇒ a=2,5, L=5cm.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Podstawy a i 3a, ramię b. Rzut ramienia na dłuższą podstawę: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mi>a</mi><mo>−</mo><mi>a</mi></mrow><mn>2</mn></mfrac><mo>=</mo><mi>a</mi></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>·</mo><mi>cos</mi><mn>60</mn><mo>°</mo><mo>=</mo><mi>a</mi></math> → b=2a. Obwód 4a+2b=8a=20 → a=2,5; ramię b=5 cm.</p>"
         }
       }
     },
@@ -412,9 +421,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Przyprostokątna²=7, przeciwprostokątna²=15, więc druga przyprostokątna² = 15−7=8. Pole trójkąta = ½·√7·√8 = ½·√56 = ½·2√14 = √14.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Przyprostokątna² = 7, przeciwprostokątna² = 15 → druga przyprostokątna² = 15−7 = 8. Pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><msqrt><mn>7</mn></msqrt><msqrt><mn>8</mn></msqrt><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msqrt><mn>56</mn></msqrt><mo>=</mo><msqrt><mn>14</mn></msqrt></math>.</p>"
         }
       }
     },
@@ -453,9 +463,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>πr² = 4·2πr ⇒ r = 8 (r≠0). Średnica = 2r = 16.</p>"
+          "corroborated": true,
+          "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>π</mi><msup><mi>r</mi><mn>2</mn></msup><mo>=</mo><mn>4</mn><mo>·</mo><mn>2</mn><mi>π</mi><mi>r</mi></math> → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mn>8</mn></math>, średnica 16.</p>"
         }
       }
     },
@@ -493,9 +504,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>4 osoby · 1,5h = 6 osobogodzin pracy. Przy 3 osobach: 6/3 = 2h. Różnica: 2h − 1,5h = 0,5h.</p>"
+          "corroborated": true,
+          "solution_html": "<p>4 osoby · 1,5 h = 6 roboczogodzin. Przy 3 osobach: 6/3 = 2 h. Różnica 2 − 1,5 = 0,5 h.</p>"
         }
       }
     },
@@ -517,9 +529,10 @@
         "solution_html": null,
         "model": {
           "answer": "6",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Pierwsza nierówność ×4: 2(x+2)−(x−3) &gt; 4+2(x+1) ⇒ x+7 &gt; 2x+6 ⇒ x &lt; 1.</p><p>Druga: (x√5−√2)(x√5+√2)−(2x−1)² = 5x²−2−4x²+4x−1 = x²+4x−3. Prawa strona: 2x−4−(x+3)(3−x) = 2x−4−(9−x²) = x²+2x−13. Nierówność: x²+4x−3 ≥ x²+2x−13 ⇒ 2x ≥ −10 ⇒ x ≥ −5.</p><p>Część wspólna: −5 ≤ x &lt; 1. Liczby całkowite: −5,−4,−3,−2,−1,0 — łącznie 6.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Nierówność 1: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>x</mi><mo>+</mo><mn>7</mn></mrow><mn>4</mn></mfrac><mo>&gt;</mo><mfrac><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>6</mn></mrow><mn>4</mn></mfrac></math> → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&lt;</mo><mn>1</mn></math>.</p><p>Nierówność 2: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>x</mi><mo>−</mo><mn>3</mn><mo>≥</mo><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>13</mn></math> → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>≥</mo><mo>−</mo><mn>5</mn></math>.</p><p>Wspólnie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>5</mn><mo>≤</mo><mi>x</mi><mo>&lt;</mo><mn>1</mn></math>: całkowite −5,−4,−3,−2,−1,0 — 6 liczb.</p>"
         }
       }
     },
@@ -541,9 +554,10 @@
         "solution_html": null,
         "model": {
           "answer": "36 cm²",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Współrzędne: C=(0,0), A=(6,0), B=(0,6) (kąt prosty w C, przyprostokątne=6). Kwadraty budowane na zewnątrz trójkąta na bokach CA, CB, AB.</p><p>Środki kwadratów: na CA — (3,−3); na CB — (−3,3); na AB (przeciwprostokątna, środek AB=(3,3), przesunięcie o połowę boku 3√2 w kierunku (1,1)/√2 na zewnątrz) — (6,6).</p><p>Pole trójkąta o wierzchołkach (3,−3), (−3,3), (6,6): ½|3(3−6)+(−3)(6+3)+6(−3−3)| = ½|−9−27−36| = 36 cm².</p>"
+          "corroborated": true,
+          "solution_html": "<p>Ustawiam wierzchołek kąta prostego w (0,0), A(6,0), B(0,6). Środki kwadratów na przyprostokątnych: (3,−3) i (−3,3); środek kwadratu na przeciwprostokątnej: (6,6).</p><p>Pole trójkąta o wierzchołkach (3,−3),(−3,3),(6,6): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>|</mo><mo>−</mo><mn>72</mn><mo>|</mo><mo>=</mo><mn>36</mn></math> cm².</p>"
         }
       }
     },
@@ -564,10 +578,11 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "answer": "(300 + 50√21) cm² ≈ 529,1 cm²",
-          "by": "sonnet",
+          "answer": "300 + 50√21 cm² (≈ 529 cm²)",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Pole podstawy = √3 dm² = 100√3 cm² = (√3/4)a² ⇒ a²=400 ⇒ a=20cm.</p><p>Ustawiamy A=(0,0,0), B=(20,0,0), C=(10,10√3,0), wierzchołek W=(0,0,15) (WA⊥podstawa, WA=15).</p><p>Ściana WAB: trójkąt prostokątny w A, nogi 15 i 20, pole=150 cm². Ściana WAC: analogicznie, pole=150 cm² (WA⊥AC, bo WA⊥podstawa).</p><p>Ściana WBC: WB=WC=√(20²+15²)=25, BC=20 (trójkąt równoramienny), wysokość=√(25²−10²)=5√21, pole=½·20·5√21=50√21 cm².</p><p>Pole boczne = 150+150+50√21 = 300+50√21 ≈ 529,1 cm².</p>"
+          "corroborated": true,
+          "solution_html": "<p>Pole podstawy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><msqrt><mn>3</mn></msqrt></math> dm² → a=2 dm = 20 cm. Krawędź boczna SA⊥podstawa, SA=15 cm.</p><p>Ściany przy A: prostokątne, po <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>15</mn><mo>·</mo><mn>20</mn><mo>=</mo><mn>150</mn></math> cm² (dwie).</p><p>SB=SC=<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>15</mn><mn>2</mn></msup><mo>+</mo><msup><mn>20</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>25</mn></math>; wysokość w ścianie SBC = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>25</mn><mn>2</mn></msup><mo>−</mo><msup><mn>10</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>5</mn><msqrt><mn>21</mn></msqrt></math>, pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>20</mn><mo>·</mo><mn>5</mn><msqrt><mn>21</mn></msqrt><mo>=</mo><mn>50</mn><msqrt><mn>21</mn></msqrt></math> cm². Razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>300</mn><mo>+</mo><mn>50</mn><msqrt><mn>21</mn></msqrt></math> cm².</p>"
         }
       }
     }

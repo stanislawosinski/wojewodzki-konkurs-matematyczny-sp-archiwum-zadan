@@ -721,10 +721,11 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "answer": "Kąt DCE = 135°: w trójkątach równoramiennych ACD (AD=AC) i BCE (BE=BC) kąty przy D i E wynoszą odpowiednio α/2 i β/2, gdzie α, β to kąty ostre trójkąta ABC (α+β=90°, bo kąt C=90°). Suma kątów przy D i E w trójkącie DCE to (α+β)/2=45°, więc kąt DCE=180°−45°=135°.",
-          "by": "sonnet",
+          "answer": "&angmsd;DCE = 135° (dowód)",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>D, A, B, E leżą na jednej prostej (przedłużenie przeciwprostokątnej). Kąt DAC jest kątem przyległym do kąta CAB=α, więc kąt DAC=180°−α. Trójkąt ACD jest równoramienny (AD=AC), więc kąty przy podstawie: kąt ADC=kąt ACD=(180°−(180°−α))/2=α/2.</p><p>Analogicznie w trójkącie BCE (BE=BC): kąt BEC=β/2, gdzie β to kąt CBA.</p><p>W trójkącie ABC kąt C=90° (prostokątny), więc α+β=90°.</p><p>W trójkącie DCE: kąt D + kąt E + kąt DCE = 180°, czyli α/2+β/2+kąt DCE=180° ⇒ kąt DCE=180°−45°=135°. c.n.d.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Kąt prosty w C, więc &angmsd;CAB + &angmsd;CBA = 90°. Oznaczmy &angmsd;CAB = &alpha;, &angmsd;CBA = &beta;.</p><p>Trójkąt ADC jest równoramienny (AD = AC). Kąt &angmsd;DAC = 180° &minus; &alpha; (kąt przyległy), więc kąty przy podstawie &angmsd;ACD = &alpha;/2.</p><p>Trójkąt BEC jest równoramienny (BE = BC). Kąt &angmsd;EBC = 180° &minus; &beta;, więc &angmsd;BCE = &beta;/2.</p><p>Zatem &angmsd;DCE = &angmsd;DCA + &angmsd;ACB + &angmsd;BCE = &alpha;/2 + 90° + &beta;/2 = 90° + (&alpha;+&beta;)/2 = 90° + 45° = 135°.</p>"
         }
       }
     }

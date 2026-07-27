@@ -44,9 +44,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Marek+Piotr=33, Marek=Piotr+3, więc 2·Piotr+3=33, Piotr=15.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Piotr = P, Marek = P+3. <math><mn>2</mn><mi>P</mi><mo>+</mo><mn>3</mn><mo>=</mo><mn>33</mn></math>, więc P = 15.</p>"
         }
       }
     },
@@ -84,9 +85,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Najgorszy przypadek: wyciągnie kolejno wszystkie kule szare (7) i wszystkie białe (4) = 11 kul, wciąż bez czarnej. 12. kula musi być czarna, więc potrzeba co najmniej 12 kul.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Najgorszy przypadek: wyciągnięcie wszystkich 7 szarych i 4 białych (11 kul) bez czarnej, potem +1. Razem 12.</p>"
         }
       }
     },
@@ -124,9 +126,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>(n-2)+n+(n+2)=39 ⇒ 3n=39 ⇒ n=13. Liczby: 11,13,15. Największa: 15.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Środkowa = 39/3 = 13, liczby 11, 13, 15. Największa 15.</p>"
         }
       }
     },
@@ -164,9 +167,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>5^11+5^10 = 5^10(5+1) = 6·5^10.</p>"
+          "corroborated": true,
+          "solution_html": "<p><math><msup><mn>5</mn><mn>11</mn></msup><mo>+</mo><msup><mn>5</mn><mn>10</mn></msup><mo>=</mo><msup><mn>5</mn><mn>10</mn></msup><mo>(</mo><mn>5</mn><mo>+</mo><mn>1</mn><mo>)</mo><mo>=</mo><mn>6</mn><mo>·</mo><msup><mn>5</mn><mn>10</mn></msup></math>.</p>"
         }
       }
     },
@@ -205,9 +209,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Suma 4 sprawdzianów = 4·25=100. Potrzebna suma 5 sprawdzianów = 5·26=130. Brakuje 130-100=30 punktów.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Suma 4 sprawdzianów = 100. Potrzebna suma 5 = 130. Piąty wynik = 30.</p>"
         }
       }
     },
@@ -245,9 +250,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>x=5a, y=5b, a+b=12, NWD(a,b)=1. Liczby a∈{1,...,11} względnie pierwsze z 12: 1,5,7,11 – 4 pary (a,b), więc 4 pary (x,y).</p>"
+          "corroborated": true,
+          "solution_html": "<p>x=5a, y=5b, a+b=12, NWD(a,b)=1 ⇔ a względnie pierwsze z 12: a∈{1,5,7,11}. Cztery pary uporządkowane.</p>"
         }
       }
     },
@@ -286,9 +292,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Kasia ma 40 zł, Janek 18 zł, razem 58 zł, po podziale po 29 zł. Kasia musi oddać netto 11 zł: 5x-2y=11 (x monet 5-złotowych oddaje, y monet 2-złotowych otrzymuje). Najmniejsze rozwiązanie: x=3, y=2, razem 5 monet.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Kasia 40 zł, Janek 18 zł, razem 58, po 29 każdy. Kasia daje 3 monety po 5 zł, Janek 2 monety po 2 zł: 15−4 = 11 zł przepływu netto. Razem 5 monet.</p>"
         }
       }
     },
@@ -326,9 +333,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>32·1,5³ = 32·3,375 = 108.</p>"
+          "corroborated": true,
+          "solution_html": "<p><math><mn>32</mn><mo>·</mo><msup><mn>1,5</mn><mn>3</mn></msup><mo>=</mo><mn>32</mn><mo>·</mo><mn>3,375</mn><mo>=</mo><mn>108</mn></math>.</p>"
         }
       }
     },
@@ -367,9 +375,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>W 30% pusta = 70% pojemności V; w 30% napełniona = 30% V. Różnica: 0,7V-0,3V=0,4V=30 l ⇒ V=75 l.</p>"
+          "corroborated": true,
+          "solution_html": "<p>W 30% pusta = 70% pełna. <math><mn>0,7</mn><mi>V</mi><mo>−</mo><mn>0,3</mn><mi>V</mi><mo>=</mo><mn>0,4</mn><mi>V</mi><mo>=</mo><mn>30</mn></math>, V = 75 l.</p>"
         }
       }
     },
@@ -408,9 +417,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>a+p+k=8, 20a+30p+40k=230 ⇒ 2a+3p+4k=23. Z a,p≥1 i maksymalizacji k: k=3 daje a=4,p=1 (koszt 80+30+120=230). k=4 wymagałoby p=-1 (niemożliwe). Maksymalnie 3 kosze kiwi.</p>"
+          "corroborated": true,
+          "solution_html": "<p>a+p+k=8, 20a+30p+40k=230 ⇒ p+2k=7. Max k gdy p=1: k=3, a=4. Sprawdzenie: 80+30+120=230.</p>"
         }
       }
     },
@@ -448,9 +458,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Odcinek równoległy do osi Oy ma stałą współrzędną x. B=(5,4), D=(5,-4) mają tę samą x=5, więc BD jest równoległy do Oy.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Odcinek równoległy do Oy ma stałą x. B=(5,4), D=(5,−4) — obie x=5, więc BD.</p>"
         }
       }
     },
@@ -489,9 +500,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Dla kąta wierzchołkowego α i kątów przy podstawie β (α+2β=180°), kąt między dwusiecznymi kątów przy podstawie (kąt przy środku okręgu wpisanego) wynosi 90°+α/2. Z warunku 90°+α/2=3α otrzymujemy α=36°, β=72°. Kąty trójkąta: 36°,72°,72°.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Kąt między dwusiecznymi = 180°−β = 3α, oraz 2β+α=180°. Stąd 90°+α/2=3α, α=36°, β=72°. Kąty 36°, 72°, 72°.</p>"
         }
       }
     },
@@ -533,9 +545,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>AB jest cięciwą dużego okręgu (R) styczną do małego okręgu (r) w jego środku, więc z tw. Pitagorasa R²-r²=(AB/2)²=10²=100. Pole pierścienia = π(R²-r²)=100π cm².</p>"
+          "corroborated": true,
+          "solution_html": "<p>Cięciwa AB dużego okręgu styczna do małego: <math><msup><mi>R</mi><mn>2</mn></msup><mo>−</mo><msup><mi>r</mi><mn>2</mn></msup><mo>=</mo><msup><mo>(</mo><mi>AB</mi><mo>/</mo><mn>2</mn><mo>)</mo><mn>2</mn></msup><mo>=</mo><mn>100</mn></math>. Pole pierścienia = 100π cm².</p>"
         }
       }
     },
@@ -574,9 +587,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Przeciwprostokątna = √(6²+8²)=10. Trójkąt środkowy (łączący środki boków) ma boki o połowę mniejsze: 3,4,5. Obwód = 12 cm.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Trójkąt środkowy ma obwód równy połowie obwodu oryginału. Oryginał 6+8+10=24, więc 12 cm.</p>"
         }
       }
     },
@@ -614,9 +628,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Liczba przekątnych wielokąta n-bocznego: n(n-3)/2 = 6n ⇒ n-3=12 ⇒ n=15.</p>"
+          "corroborated": true,
+          "solution_html": "<p><math><mfrac><mrow><mi>n</mi><mo>(</mo><mi>n</mi><mo>−</mo><mn>3</mn><mo>)</mo></mrow><mn>2</mn></mfrac><mo>=</mo><mn>6</mn><mi>n</mi></math> ⇒ n−3=12 ⇒ n=15.</p>"
         }
       }
     },
@@ -654,9 +669,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>V=(1/3)Bh ⇒ 96=(1/3)·B·12=4B ⇒ B=24 cm².</p>"
+          "corroborated": true,
+          "solution_html": "<p><math><mi>V</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>P</mi><mi>h</mi></math>: 96 = (1/3)·P·12 = 4P, P = 24 cm².</p>"
         }
       }
     },
@@ -694,9 +710,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Wydajności: 1/10 + 1/5 + 1/5 = 1/10+2/10+2/10 = 5/10 = 1/2 basenu/h. Czas = 2 godziny.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Wydajności: 1/10 + 1/5 + 1/5 = 5/10 = 1/2 basenu/godz. Czas = 2 godz.</p>"
         }
       }
     },
@@ -717,10 +734,11 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "answer": "Kąty deltoidu: 150°, 75°, 60°, 75° (kąt między krótszymi bokami 150°, kąt między dłuższymi bokami 60°, pozostałe dwa kąty po 75°).",
-          "by": "sonnet",
+          "answer": "60°, 75°, 75°, 150°",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Niech krótsze boki = a (kąt przy nich A), dłuższe = b (kąt przy nich C), przekątne AC=BD=b. Punkt przecięcia przekątnych M: BM=b/2 (bo BD=b), z trójkąta CMB: sin(γ)=BM/CB=1/2 ⇒ γ=30°, więc kąt C=2γ=60°. Z trójkąta ABM: tg(α)=BM/AM, AM=AC-CM=b-b·cos30°=b(2-√3)/2, więc tg(α)=1/(2-√3)=2+√3=tg75° ⇒ α=75°, kąt A=2α=150°. Kąty B=D=(360-150-60)/2=75°.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Trójkąt utworzony przez dłuższe boki i krótszą przekątną jest równoboczny (kąt 60°), a przy dłuższej przekątnej powstaje kąt 150°; kąty boczne 60°+15°=75°. Suma 360°.</p>"
         }
       }
     },
@@ -742,10 +760,11 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "answer": "529 uczestników; początkowo planowano 24 sale.",
-          "by": "sonnet",
+          "answer": "529 uczniów; początkowo 24 sale",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Niech n = początkowa liczba sal. N=22n+1 (o 1 osobę za mało miejsc). Po rezygnacji z sali: N osób równo w (n-1) salach, po ≤26 osób: N/(n-1)=22+23/(n-1) musi być całkowite i ≤26, więc (n-1)|23. Ponieważ 23 pierwsza: n-1=23 (n-1=1 daje 45>26 – odrzucamy). n=24, N=22·24+1=529. Sprawdzenie: 529/23=23≤26. ✔</p>"
+          "corroborated": true,
+          "solution_html": "<p>N=22n+1. Po rezygnacji z sali: (22n+1)/(n−1)=22+23/(n−1) całkowite i ≤26 ⇒ n−1=23, n=24, po 23 osoby. N=22·24+1=529.</p>"
         }
       }
     },
@@ -765,10 +784,11 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "answer": "V = 5a³/6; liczba krawędzi bryły = 24 (bryła to sześcian ścięty na naroża = kuboktaedr)",
-          "by": "sonnet",
+          "answer": "objętość 5a³/6; 24 krawędzie",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Każdy odcięty narożnik to czworościan o trzech wzajemnie prostopadłych krawędziach a/2: objętość = (a/2)³/6=a³/48. Osiem naroży: 8·a³/48=a³/6. Objętość pozostałej bryły: a³-a³/6=5a³/6. Powstały wielościan (kuboktaedr) ma 12 wierzchołków (środki 12 krawędzi sześcianu), 14 ścian (8 trójkątów+6 kwadratów); z wzoru Eulera V-E+F=2: 12-E+14=2 ⇒ E=24.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Cięcie w połowie krawędzi daje sześcio-ośmiościan. Odcięto 8 naroży po V=(1/6)(a/2)³=a³/48, razem a³/6. Objętość = a³−a³/6 = 5a³/6. Krawędzie: V=12, F=14, z Eulera E=24.</p>"
         }
       }
     }

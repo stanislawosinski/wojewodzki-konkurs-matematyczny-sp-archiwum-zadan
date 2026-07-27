@@ -44,8 +44,9 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
+          "corroborated": true,
           "solution_html": "<p>2649 = 2000 + 600 + 40 + 9 = MM + DC + XL + IX = <b>MMDCXLIX</b>.</p>"
         }
       }
@@ -84,9 +85,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Niech x = wiek Eli teraz. x − 8 = x/3, więc (2/3)x = 8, x = 12. Sprawdzenie: 8 lat temu miała 4 lata, czyli 3 razy mniej niż 12.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Niech teraz <math><mi>x</mi></math>. Osiem lat temu: <math><mi>x</mi><mo>-</mo><mn>8</mn><mo>=</mo><mfrac><mi>x</mi><mn>3</mn></mfrac></math>, stąd <math><mfrac><mn>2</mn><mn>3</mn></mfrac><mi>x</mi><mo>=</mo><mn>8</mn></math>, <math><mi>x</mi><mo>=</mo><mn>12</mn></math>.</p>"
         }
       }
     },
@@ -127,9 +129,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Składając siatkę (8 nad 1 nad 0, 6-0-2 w rzędzie, 5 pod 2), ściany przeciwległe to pary: (0,8), (6,2), (1,5).</p><p>Liczby dwucyfrowe: z pary (0,8) tylko 80 (08 nie jest liczbą dwucyfrową); z (6,2): 62 i 26; z (1,5): 15 i 51. Razem 1+2+2 = <b>5</b>.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Po złożeniu ściany przeciwległe: {0,8}, {1,5}, {2,6}. Liczby dwucyfrowe: z {1,5}→15,51; z {2,6}→26,62; z {0,8}→tylko 80 (08 nie jest dwucyfrowa). Razem <b>5</b>.</p>"
         }
       }
     },
@@ -167,9 +170,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Największy sześcian z kostek 1 cm: 5³ = 125 ≤ 200 < 216 = 6³. Niewykorzystane: 200 − 125 = <b>75</b>.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Największy sześcian z 200 kostek ma krawędź 5 (bo <math><msup><mn>5</mn><mn>3</mn></msup><mo>=</mo><mn>125</mn></math>, a <math><msup><mn>6</mn><mn>3</mn></msup><mo>=</mo><mn>216</mn><mo>&gt;</mo><mn>200</mn></math>). Zostaje <math><mn>200</mn><mo>-</mo><mn>125</mn><mo>=</mo><mn>75</mn></math>.</p>"
         }
       }
     },
@@ -207,9 +211,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Wschód–zachód: 10 + 3 − 13 = 0. Północ–południe: 5 − 11 = −6 (6 km na południe). Odległość od startu = <b>6 km</b>.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Wschód–zachód: <math><mn>10</mn><mo>+</mo><mn>3</mn><mo>-</mo><mn>13</mn><mo>=</mo><mn>0</mn></math>. Północ–południe: <math><mn>5</mn><mo>-</mo><mn>11</mn><mo>=</mo><mo>-</mo><mn>6</mn></math>. Odległość = <math><msqrt><mrow><msup><mn>0</mn><mn>2</mn></msup><mo>+</mo><msup><mn>6</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>6</mn></math> km.</p>"
         }
       }
     },
@@ -248,9 +253,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>6 półprostych tworzy C(6,2) = 15 par (kątów) łącznie. Jeśli wszystkie 6 półprostych umieścimy blisko siebie w wąskim kącie (np. rozstaw mniejszy niż 90°), to każdy z 15 kątów między dowolnymi dwiema z nich jest ostry. Zatem maksymalnie można uzyskać <b>15</b> kątów ostrych.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Par półprostych jest <math><mo>(</mo><mtable><mtr><mtd><mn>6</mn></mtd></mtr><mtr><mtd><mn>2</mn></mtd></mtr></mtable><mo>)</mo><mo>=</mo><mn>15</mn></math>. Umieszczając wszystkie 6 półprostych w wycinku o rozwartości mniejszej niż 90°, każdy z 15 kątów jest ostry. Maksimum = 15.</p>"
         }
       }
     },
@@ -288,9 +294,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Podstawa (romb) ma 2×4 krawędzie po 12 cm = 96 cm. Pozostają 4 krawędzie boczne (wysokość h): 96 + 4h = 136, więc 4h = 40, h = <b>10 cm</b>.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Graniastosłup o podstawie rombu ma 8 krawędzi podstaw (po 12 cm) i 4 krawędzie boczne = wysokość. <math><mn>8</mn><mo>·</mo><mn>12</mn><mo>+</mo><mn>4</mn><mi>h</mi><mo>=</mo><mn>136</mn></math>, <math><mn>96</mn><mo>+</mo><mn>4</mn><mi>h</mi><mo>=</mo><mn>136</mn></math>, <math><mi>h</mi><mo>=</mo><mn>10</mn></math> cm.</p>"
         }
       }
     },
@@ -328,9 +335,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>2 skrzypków × 2 pianistów × 2 perkusistów = <b>8</b> możliwych tercetów.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Wybór skrzypka, pianisty i perkusisty niezależnie: <math><mn>2</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>8</mn></math> tercetów.</p>"
         }
       }
     },
@@ -368,9 +376,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Rzeczywista szerokość: 20 cm × 20 = 400 cm. Na planie 1:50: 400 cm / 50 = <b>8 cm</b>.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Rzeczywista szerokość: <math><mn>20</mn><mo>·</mo><mn>20</mn><mo>=</mo><mn>400</mn></math> cm. W skali 1:50: <math><mn>400</mn><mo>/</mo><mn>50</mn><mo>=</mo><mn>8</mn></math> cm.</p>"
         }
       }
     },
@@ -408,9 +417,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>750 zł za 1000 kg → 0,75 zł/kg. 2 kg × 0,75 zł = <b>1,50 zł</b>.</p>"
+          "corroborated": true,
+          "solution_html": "<p>1 tona = 1000 kg. Cena za kg: <math><mn>750</mn><mo>/</mo><mn>1000</mn><mo>=</mo><mn>0</mn><mo>,</mo><mn>75</mn></math> zł. Za 2 kg: <math><mn>2</mn><mo>·</mo><mn>0</mn><mo>,</mo><mn>75</mn><mo>=</mo><mn>1</mn><mo>,</mo><mn>50</mn></math> zł.</p>"
         }
       }
     },
@@ -431,9 +441,10 @@
         "solution_html": null,
         "model": {
           "answer": "9",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>(5/6)x + 1,5 = x ⇒ 1,5 = (1/6)x ⇒ x = 9. Sprawdzenie: 5/6·9 = 7,5; 7,5+1,5 = 9.</p>"
+          "corroborated": true,
+          "solution_html": "<p><math><mfrac><mn>5</mn><mn>6</mn></mfrac><mi>n</mi><mo>+</mo><mn>1</mn><mo>,</mo><mn>5</mn><mo>=</mo><mi>n</mi></math> ⇒ <math><mfrac><mn>1</mn><mn>6</mn></mfrac><mi>n</mi><mo>=</mo><mn>1</mn><mo>,</mo><mn>5</mn></math> ⇒ <math><mi>n</mi><mo>=</mo><mn>9</mn></math> drzew.</p>"
         }
       }
     },
@@ -455,9 +466,10 @@
         "solution_html": null,
         "model": {
           "answer": "3484 cm²",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Rzut poziomy ramienia: (160−108)/2 = 26 cm. Przy kącie 45° wysokość h = 26·tan45° = 26 cm.</p><p>Pole = (160+108)/2 · 26 = 134 · 26 = <b>3484 cm²</b>.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Różnica podstaw <math><mn>160</mn><mo>-</mo><mn>108</mn><mo>=</mo><mn>52</mn></math>, po <math><mn>26</mn></math> cm z każdej strony. Kąt 45° ⇒ wysokość = 26 cm. Pole = <math><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>(</mo><mn>160</mn><mo>+</mo><mn>108</mn><mo>)</mo><mo>·</mo><mn>26</mn><mo>=</mo><mn>134</mn><mo>·</mo><mn>26</mn><mo>=</mo><mn>3484</mn></math> cm².</p>"
         }
       }
     },
@@ -477,10 +489,11 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "answer": "18,5 roku",
-          "by": "sonnet",
+          "answer": "18,5 lat",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Suma wieku drużyny: 15·17 = 255. Z trenerem: 255+41 = 296, osób 16. Średnia = 296/16 = <b>18,5</b> roku.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Suma wieku: <math><mn>15</mn><mo>·</mo><mn>17</mn><mo>=</mo><mn>255</mn></math>. Z trenerem: <math><mn>255</mn><mo>+</mo><mn>41</mn><mo>=</mo><mn>296</mn></math>, średnia <math><mn>296</mn><mo>/</mo><mn>16</mn><mo>=</mo><mn>18</mn><mo>,</mo><mn>5</mn></math>.</p>"
         }
       }
     },
@@ -500,10 +513,11 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "answer": "2 godziny 16 minut",
-          "by": "sonnet",
+          "answer": "136 minut (2 godziny 16 minut)",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Żółw pokonuje trasę w 140 minut. Zając (35× szybszy) w 140/35 = 4 minuty.</p><p>Aby zakończyć razem, żółw musi wystartować wcześniej o 140 − 4 = <b>136 minut = 2 godz. 16 min</b>.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Żółw: 2 h 20 min = 140 min. Zając 35× szybszy: <math><mn>140</mn><mo>/</mo><mn>35</mn><mo>=</mo><mn>4</mn></math> min. Wyprzedzenie: <math><mn>140</mn><mo>-</mo><mn>4</mn><mo>=</mo><mn>136</mn></math> min = 2 h 16 min.</p>"
         }
       }
     }

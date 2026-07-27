@@ -44,9 +44,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>x = 2<sup>24</sup>/4 = 2<sup>22</sup>. Połowa x = 2<sup>22</sup>/2 = 2<sup>21</sup>.</p>"
+          "corroborated": true,
+          "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><msup><mn>2</mn><mn>24</mn></msup><mo>/</mo><mn>4</mn><mo>=</mo><msup><mn>2</mn><mn>22</mn></msup></math>. Połowa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>22</mn></msup><mo>/</mo><mn>2</mn><mo>=</mo><msup><mn>2</mn><mn>21</mn></msup></math>.</p>"
         }
       }
     },
@@ -85,9 +86,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Palindrom 3-cyfrowy: liczba = 101a+10b (a=1..9,b=0..9). Podzielność przez 4 ⇔ a+2b ≡ 0 (mod 4). Ponieważ 2b mod4 ∈ {0,2}, warunek spełniają tylko a=2,4,6,8 (4 wartości), każda z 5 wartościami b (parzyste lub nieparzyste) ⇒ 4·5 = 20 liczb.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Palindrom trzycyfrowy ma postać <em>aba</em>; podzielność przez 4 zależy od dwóch ostatnich cyfr <em>ba</em> = 10b+a, czyli 2b+a ≡ 0 (mod 4). Dla a∈{4,8} b parzyste (5 możliwości każde), dla a∈{2,6} b nieparzyste (5 każde), dla a nieparzystego brak. Razem 10+10 = 20.</p>"
         }
       }
     },
@@ -126,9 +128,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>6 1/5 − 5,94 = 6,2 − 5,94 = 0,26 = 13/50; (13/50)² = 169/2500.</p><p>(0,1)³+(1/5)² = 1/1000 + 1/25 = 41/1000.</p><p>169/2500 − 41/1000 = 338/5000 − 205/5000 = 133/5000. Razy 2 = 266/5000 = 133/2500 = 0,0532.</p>"
+          "corroborated": true,
+          "solution_html": "<p>6⅕ − 5,94 = 0,26; 0,26² = 0,0676. (0,1)³+(⅕)² = 0,001+0,04 = 0,041. Nawias: 0,0676 − 0,041 = 0,0266. ×2 = 0,0532 = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>133</mn><mn>2500</mn></mfrac></math>. (B i C = 0,0266 to wartość bez ×2.)</p>"
         }
       }
     },
@@ -166,9 +169,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Wymiary: 10 cm, 20 cm, 40 cm ⇒ V = 8000 cm³. Sześcian o tej objętości: bok = 20 cm, pole całkowite = 6·20² = 2400 cm² = 0,24 m².</p><p>Uwaga: 2400 cm² to też dokładnie 240000 mm² (odpowiedź B), więc B i D są matematycznie równoważne — wybrano D jako bardziej naturalną formę.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Objętość: 10 cm · 20 cm · 40 cm = 8000 cm³. Sześcian o tej objętości ma krawędź 20 cm, pole powierzchni 6·20² = 2400 cm² = 0,24 m². Uwaga: opcja B (240000 mm²) też równa się 2400 cm² — obie B i D są poprawne (błąd arkusza); wybieram D.</p>"
         }
       }
     },
@@ -208,9 +212,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Umieszczając A=(-5,0), B=(5,0) (AB=10) i korzystając z |AD|=2√5 oraz BD⊥AD, otrzymujemy D=(-3,4) (h=4, przesunięcie x=3), więc CD=6.</p><p>Pole = ½(AB+CD)·h = ½·16·4 = 32.</p>"
+          "corroborated": true,
+          "solution_html": "<p>W trójkącie prostokątnym ABD (kąt przy D): BD = √(10²−(2√5)²) = √80 = 4√5. Wysokość trapezu h = AD·BD/AB = (2√5·4√5)/10 = 4. Rzut ramienia = √(20−16) = 2, więc CD = 10−2·2 = 6. Pole = ½(10+6)·4 = 32.</p>"
         }
       }
     },
@@ -245,9 +250,10 @@
         "solution_html": null,
         "model": {
           "answer": "FPP",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>1) Do pewności o parze tego samego koloru wystarczą 4 kule (3 kolory + 1), nie 9 ⇒ F.</p><p>2) Najgorszy przypadek: 4 czerwone + 10 niebieskich = 14 bez żółtej, 15. kula musi być żółta ⇒ P.</p><p>3) Najgorszy przypadek: po 2 z każdego koloru = 6, 7. kula daje trójkę ⇒ P.</p>"
+          "corroborated": true,
+          "solution_html": "<p>(1) Do dwóch tego samego koloru wystarczą 4 kule (3 różne + 1) — twierdzenie o 9 jest fałszywe → F. (2) Najgorszy przypadek: 4 czerwone + 10 niebieskich = 14, 15-ta na pewno żółta → P. (3) Co najwyżej 2 każdego koloru = 6 kul, 7-ma daje trójkę → P.</p>"
         }
       }
     },
@@ -282,9 +288,10 @@
         "solution_html": null,
         "model": {
           "answer": "PFF",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Strony 1–9: 9 cyfr; 10–99: 180 cyfr (razem 189); pozostało 255−189=66 cyfr ⇒ 66/3=22 strony trzycyfrowe (100–121). Książka ma 121 stron ⇒ zdanie 1 P.</p><p>Zliczenie cyfry 0 na stronach 1–121 daje 22 (nie 21) ⇒ zdanie 2 F.</p><p>Zliczenie cyfry 1 na stronach 1–121 daje 55 (nie 63) ⇒ zdanie 3 F.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Cyfry: 9 (str.1–9) + 180 (10–99) = 189; pozostaje 255−189 = 66 = 22·3, czyli strony 100–121 → 121 stron (P). Zer: 9 (w 10–99) + 13 (w 100–121) = 22, nie 21 → F. Jedynek: 20 (1–99) + 35 (100–121) = 55, nie 63 → F.</p>"
         }
       }
     },
@@ -322,9 +329,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Licznik: 3⁷·7⁴·8² (bo (−8)²=8²). Mianownik: 8·(−7⁵)·3⁴ (bo (−7)⁵=−7⁵).</p><p>Wyrażenie = −(3³·7⁴·8)/(7⁵) = −(27·8)/7 = −216/7.</p><p>To dokładnie odpowiedź C; jest to też liczba ujemna (D), ale C podaje dokładną wartość.</p>"
+          "corroborated": true,
+          "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mn>3</mn><mn>7</mn></msup><msup><mn>7</mn><mn>4</mn></msup><mo>·</mo><mn>64</mn></mrow><mrow><mn>8</mn><mo>·</mo><mo>(</mo><mo>−</mo><msup><mn>7</mn><mn>5</mn></msup><mo>)</mo><msup><mn>3</mn><mn>4</mn></msup></mrow></mfrac></math> = 3³·(−1/7)·8 = −216/7 = −30 6/7. Wartość = −216/7 (C). D „ujemna” też prawdziwe; C podaje dokładną wartość.</p>"
         }
       }
     },
@@ -362,9 +370,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>3⊗5 = 15+3+5 = 23. 2⊗y = 2y+2+y = 3y+2. 3y+2=23 ⇒ y=7.</p><p>Uwaga: odpowiedź C (56/8) upraszcza się również do 7 — wartości B i C są identyczne; wybrano B jako postać podstawową.</p>"
+          "corroborated": true,
+          "solution_html": "<p>3⊗5 = 15+3+5 = 23. 2⊗y = 2y+2+y = 3y+2 = 23 ⇒ y = 7. Uwaga: opcja C = 56/8 = 7 też równa 7 (prawdopodobny błąd/typo arkusza); wybieram B.</p>"
         }
       }
     },
@@ -403,9 +412,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Suma pensji przed: 19·3600=68400. Nowa średnia: 3600·1,04=3744, suma po: 20·3744=74880.</p><p>Pensja nowego pracownika = 74880−68400 = 6480 zł.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Suma 19·3600 = 68400. Nowa średnia 3600·1,04 = 3744; nowa suma 20·3744 = 74880. Pensja = 74880−68400 = 6480 zł. Wszystkie warianty A–D opisują tę samą kwotę 6480 (80% powyżej 3600; +2736 nad 3744; +2880 nad 3600) — arkusz ma cztery prawdziwe zdania; wybieram A jako bezpośrednią kwotę.</p>"
         }
       }
     },
@@ -445,6 +455,7 @@
           "answer": "B",
           "by": "sonnet",
           "agrees": null,
+          "corroborated": false,
           "solution_html": "<p>Jedyne trójkąty o bokach naturalnych i obwodzie 7 spełniające nierówność trójkąta to (1,3,3) i (2,2,3) — oba równoramienne.</p><p>Uwaga: oba zawierają też bok 3 cm (odpowiedź C jest równie prawdziwa); wybrano B jako główną cechę.</p>"
         }
       }
@@ -483,9 +494,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Iloczyn teleskopowy (3/2)(4/3)...(1001/1000) = 1001/2, ułamek nieskracalny, więc a=1001, b=2.</p><p>a−b=999 (A, prawda). Sprawdzenie pozostałych: 2a+3b=2008≠2009 (B fałsz); a+b=1003&gt;1000 (C prawda); 3a+2b=3007 (D prawda). Trzy odpowiedzi wychodzą prawdziwe — wybrano A jako najprostszą.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Iloczyn teleskopuje: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>·</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><mo>⋯</mo><mfrac><mn>1001</mn><mn>1000</mn></mfrac><mo>=</mo><mfrac><mn>1001</mn><mn>2</mn></mfrac></math>, więc a=1001, b=2. Wtedy a−b = 999 (A). Uwaga: C (a+b=1003>10³) i D (3a+2b=3007) też prawdziwe; tylko B (2a+3b=2008≠2009) fałszywe. Wybieram A.</p>"
         }
       }
     },
@@ -506,10 +518,11 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "answer": "a) 4 minuty; b) (-4, 0)",
-          "by": "sonnet",
+          "answer": "po 4 minutach, w punkcie (−4; 0)",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Bok kwadratu = 8, obwód = 32. Idąc zgodnie z ruchem wskazówek zegara A→B→C→D, odległość od A do C w kierunku ruchu wynosi 16.</p><p>Prędkość względna 13−9=4 jedn./min, więc czas dogonienia t = 16/4 = 4 min.</p><p>Pająk przebywa 13·4=52 (mod 32)=20 od A, co daje punkt 4 jednostki za C w stronę D: (-4, -4+4) = (-4, 0).</p>"
+          "corroborated": true,
+          "solution_html": "<p>Bok = 8, obwód = 32. Idąc zgodnie z ruchem wskazówek (A→B→C→D), mucha w C jest 16 j. przed pająkiem. Prędkość względna 13−9 = 4 j/min, więc czas = 16/4 = 4 min. Pająk: 13·4 = 52 ≡ 20 (mod 32) od A → punkt (−4; 0); mucha: 16+36 = 52 ≡ 20 — ten sam punkt.</p>"
         }
       }
     },
@@ -530,10 +543,11 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "answer": "kąt przy 12: 75°; kąt przy 9: 60°; kąt przy 4: 45°",
-          "by": "sonnet",
+          "answer": "45°, 60°, 75°",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Punkty na okręgu w kątach (mierzonych zgodnie z ruchem wskazówek od 12): 12→0°, 4→120°, 9→270°. Łuki między nimi: 12-4=120°, 4-9=150°, 9-12=90°.</p><p>Kąt wpisany = połowa łuku naprzeciwko wierzchołka: przy 12 (łuk 4-9=150°) = 75°; przy 4 (łuk 9-12=90°) = 45°; przy 9 (łuk 12-4=120°) = 60°.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Sąsiednie godziny to łuki po 30°. Łuki: 12→4 = 120°, 4→9 = 150°, 9→12 = 90°. Kąty wpisane = połowa łuku naprzeciw: przy 12 → 150°/2 = 75°, przy 4 → 90°/2 = 45°, przy 9 → 120°/2 = 60°. Suma 180°.</p>"
         }
       }
     },
@@ -556,10 +570,11 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "answer": "a) 20°; b) 25%",
-          "by": "sonnet",
+          "answer": "kąt ECD = 20°; pole trójkąta EBC to 25% pola równoległoboku",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Przyjmując AD=a, AB=2a, kąt BAD=40°, umieszczając A=(0,0), B=(2a,0), D=(a cos40°,a sin40°), C=B+D−A, E=(a,0).</p><p>Obliczenie wektorów CE i CD daje cos(∠ECD)=cos20°, więc ∠ECD=20°.</p><p>Pole trójkąta EBC = ½a²sin40°, pole równoległoboku = 2a²sin40°, stosunek = 1/4 = 25%.</p>"
+          "corroborated": true,
+          "solution_html": "<p>EB = ½AB = AD = BC, więc trójkąt EBC równoramienny (EB = BC) z kątem EBC = 180°−40° = 140°, stąd kąt BEC = 20°. Ponieważ DC ∥ AB, kąt ECD = kąt BEC = 20° (kąty naprzemianległe). Pole EBC = ½·EB·h = ½·(½AB)·h, a pole równoległoboku = AB·h, więc stosunek = ¼ = 25%.</p>"
         }
       }
     },
@@ -581,9 +596,10 @@
         "solution_html": null,
         "model": {
           "answer": "36000 płytek srebrnych i 160000 płytek brązowych",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Objętość komory: 28·28·50 = 39200 cm³. Objętość jednej płytki: 1·1·0,2 = 0,2 cm³. Liczba płytek: 39200/0,2 = 196000.</p><p>Układ: s+b=196000, 10s+4b=1000000 ⇒ 6s=216000 ⇒ s=36000, b=160000.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Objętość komory 28·28·50 = 39200 cm³, płytka 0,2 cm³ → 196000 płytek. Układ: s+b = 196000 oraz 10s+4b = 1000000. Stąd 6s = 216000, s = 36000, b = 160000. (Sprawdzenie: 360000+640000 = 1000000 \\$.)</p>"
         }
       }
     },
@@ -607,6 +623,7 @@
           "answer": "15√7 + 13√3 + 6√15 ≈ 85,44",
           "by": "sonnet",
           "agrees": null,
+          "corroborated": false,
           "solution_html": "<p>Trapez ABCD: wysokość h=√(8²−1²)=3√7 (przesunięcie 1=(6−4)/2), pole = ½(6+4)·3√7 = 15√7.</p><p>Trójkąty równoboczne ABE (bok 6): pole 9√3; CDE (bok 4): pole 4√3.</p><p>Ściany BCE i ADE mają boki 8,4,6 (Heron: p=9, pole=√(9·1·5·3)=3√15 każda).</p><p>Suma: 15√7+9√3+4√3+3√15+3√15 = 15√7+13√3+6√15 ≈ 85,44.</p>"
         }
       }

@@ -44,9 +44,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>50 monet = 5 pudełek. Aby mieć dostęp do 5 pudełek trzeba otworzyć co najmniej 2 skrzynie (bo w 1 skrzyni są tylko 3 pudełka). Zamki: kufer 1 + skrzynie 2 + pudełka 5 = 8.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Trzeba otworzyć kufer (1 zamek). 50 monet = 5 pudełek po 10 monet. 5 pudełek mieści się w 2 skrzyniach (3+3), więc otwieramy 2 skrzynie. Razem: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>8</mn></math> zamków.</p>"
         }
       }
     },
@@ -84,9 +85,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Kwadrans = 15 min, jego 1/3 = 5 min. Godzina lekcyjna = 45 min. 5/45 = 1/9 = 11 1/9%.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Kwadrans = 15 min, jego trzecia część = 5 min. Godzina lekcyjna = 45 min. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>45</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>9</mn></mfrac><mo>=</mo><mn>11</mn><mfrac><mn>1</mn><mn>9</mn></mfrac><mo>%</mo></math>.</p>"
         }
       }
     },
@@ -128,6 +130,7 @@
           "answer": "C",
           "by": "sonnet",
           "agrees": null,
+          "corroborated": false,
           "solution_html": "<p>Patrząc na sam symbol (bez indeksu w rogu): A♣ - kier trefl ma tylko oś pionową (1 oś). A♦ - romb ma 2 osie symetrii (pionową i poziomą) - odpada. 2♥ - dwa serca ułożone symetrycznie względem pionowej osi środkowej - 1 oś. 3♣ - trzy trefle na osi pionowej - 1 oś. Zatem dokładnie jedną oś symetrii mają: A♣, 2♥, 3♣.</p>"
         }
       }
@@ -167,9 +170,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>h·(2/5)^3 = 6,4 cm, więc h = 6,4 · 125/8 = 100 cm = 10 dm.</p>"
+          "corroborated": true,
+          "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>·</mo><msup><mrow><mo>(</mo><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>)</mo></mrow><mn>3</mn></msup><mo>=</mo><mn>6,4</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>·</mo><mfrac><mn>8</mn><mn>125</mn></mfrac><mo>=</mo><mn>6,4</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mn>100</mn></math> cm = 10 dm.</p>"
         }
       }
     },
@@ -207,9 +211,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Kontrprzykład: 12 dzieli się przez 4 i przez 6, ale nie dzieli się przez 24. Zdanie C jest fałszywe.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Fałszywe jest C: np. 12 dzieli się przez 4 i 6, ale nie przez 24 (NWW(4,6)=12). Pozostałe są prawdziwe.</p>"
         }
       }
     },
@@ -251,6 +256,7 @@
           "answer": "A",
           "by": "sonnet",
           "agrees": null,
+          "corroborated": false,
           "solution_html": "<p>Analiza pikselowa 5 spiral (3 współśrodkowe łuki każda) pokazała kąt środka przerwy każdego pierścienia. W figurach 1,2,3,5 kolejność skrętu (kierunek narastania przerwy między pierścieniami) jest zgodna, a figura 4 ma odwrócony (lustrzany) kierunek skrętu względem pozostałych.</p>"
         }
       }
@@ -289,9 +295,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>C = 9C/5 + 32 → -4C/5 = 32 → C = -40. Przy -40° obie skale wskazują tę samą wartość.</p>"
+          "corroborated": true,
+          "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>=</mo><mfrac><mrow><mn>9</mn><mi>C</mi></mrow><mn>5</mn></mfrac><mo>+</mo><mn>32</mn></math> → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>-</mo><mfrac><mn>4</mn><mn>5</mn></mfrac><mi>C</mi><mo>=</mo><mn>32</mn></math> → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>=</mo><mo>-</mo><mn>40</mn></math>°.</p>"
         }
       }
     },
@@ -330,9 +337,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>15 wejść × koszt 3 biletów = 45p (p - cena biletu). Sprawiedliwy udział każdego = 15p. Paweł oddał 30 zł = 15p, więc p = 2 zł. Adam zapłacił 8·3p=24p=48 zł (nadpłata 18 zł), Tomek 7·3p=21p=42 zł (nadpłata 12 zł). Paweł oddaje 18 zł Adamowi i 12 zł Tomkowi.</p>"
+          "corroborated": true,
+          "solution_html": "<p>15 wyjść × 3 bilety = 45 biletów; każdy powinien pokryć 15. Paweł winien 15 biletów = 30 zł, więc bilet = 2 zł. Adam zapłacił 24 bilety (48 zł), nadpłata 18 zł; Tomek 21 biletów (42 zł), nadpłata 12 zł. Podział: 18 zł i 12 zł.</p>"
         }
       }
     },
@@ -372,9 +380,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>4a = a + 24 → a = 8 cm. Pole = 8² = 64 cm².</p>"
+          "corroborated": true,
+          "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>a</mi><mo>=</mo><mi>a</mi><mo>+</mo><mn>24</mn></math> → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>8</mn></math>. Pole = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>8</mn><mn>2</mn></msup><mo>=</mo><mn>64</mn></math> cm².</p>"
         }
       }
     },
@@ -412,9 +421,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Szybkość Arka = 1/14 butelki/dzień, razem = 1/10. Ania: 1/10 - 1/14 = 2/70 = 1/35, więc sama wypije butelkę w 35 dni.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Wydajność Ani = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>10</mn></mfrac><mo>-</mo><mfrac><mn>1</mn><mn>14</mn></mfrac><mo>=</mo><mfrac><mn>2</mn><mn>70</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>35</mn></mfrac></math>, więc sama wypije w 35 dni.</p>"
         }
       }
     },
@@ -452,9 +462,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Suma dawnych pensji = 14·2100 = 29400 zł. Nowa średnia = 2058 zł, nowa suma = 15·2058 = 30870 zł. Pensja nowego pracownika = 30870 - 29400 = 1470 zł.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Suma przed: 14·2100 = 29400. Nowa średnia 2058, suma dla 15 osób: 15·2058 = 30870. Nowy pracownik: 30870 − 29400 = 1470 zł.</p>"
         }
       }
     },
@@ -493,9 +504,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Romby: 0,6·80=48. Prostokąty: 0,55·80=44. 48+44-80=12 kartoników należy do obu grup jednocześnie, czyli są kwadratami.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Romby: 0,6·80 = 48; prostokąty: 55%·80 = 44. Kwadraty (i romb, i prostokąt): 48 + 44 − 80 = 12.</p>"
         }
       }
     },
@@ -533,9 +545,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Analiza przypadków (Sylwia na 2, 3 lub 4 miejscu) z warunkami sąsiedztwa i kolejności daje jedyne spójne ustawienie: Ela, Sylwia, Marysia, Dorota, Kasia. Pierwsza stoi Ela.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Pierwsza nie może być M, S (warunki), D (Ela przed Dorotą) ani K (prowadzi do sprzeczności). Ustawienie E, S, M, D, K spełnia wszystkie warunki, więc pierwsza jest Ela.</p>"
         }
       }
     },
@@ -559,9 +572,10 @@
         "solution_html": null,
         "model": {
           "answer": "10020",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Kod dzieli się na 5 sześcioznakowych okienek. Wzór okienka dla cyfry v to: D + P^v + D + P^(4-v) (D=kreska pozioma, P=pionowa), tzn. liczba pionowych kresek między dwiema poziomymi kreskami = wartość cyfry. Okienka czytane są od prawej do lewej (okienko 1 w obrazku = ostatnia cyfra kodu) - sprawdzone na przykładzie 02100: okienka [0,0,1,2,0] odczytane wstecz dają 0,2,1,0,0 ✓. Dla drugiej naklejki okienka = [0,2,0,0,1], odczytane wstecz: 1,0,0,2,0.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Każda cyfra to blok 6 kresek: liczba pionowych kresek między dwiema poziomymi daje cyfrę (−−||||=0, −|−|||=1, −||−||=2). Bloki czytamy od prawej do lewej (sprawdzenie: rys.1 daje 0,0,1,2,0 → odwrócone 02100). Rys.2: bloki 0,2,0,0,1 → odwrócone <strong>10020</strong>.</p>"
         }
       }
     },
@@ -583,9 +597,10 @@
         "solution_html": null,
         "model": {
           "answer": "382 cm²",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>4(a+(a+1)+(a+2))=96 → 12a+12=96 → a=7, wymiary 7,8,9 cm. Pole powierzchni = 2(7·8+8·9+7·9) = 2·191 = 382 cm².</p>"
+          "corroborated": true,
+          "solution_html": "<p>Suma krawędzi: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>)</mo><mo>=</mo><mn>96</mn></math> → a+b+c = 24, kolejne liczby: 7, 8, 9. Pole powierzchni = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>(</mo><mn>56</mn><mo>+</mo><mn>72</mn><mo>+</mo><mn>63</mn><mo>)</mo><mo>=</mo><mn>382</mn></math> cm².</p>"
         }
       }
     },
@@ -609,9 +624,10 @@
         "solution_html": null,
         "model": {
           "answer": "66°",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Kąt EAB = 108° (kąt wewnętrzny pięciokąta), kąt KAB = 60° (trójkąt równoboczny ABK), więc kąt EAK = 108°-60° = 48°. Ponieważ AE = AB = AK (bok pięciokąta = bok trójkąta równobocznego), trójkąt AEK jest równoramienny, więc kąt AKE = (180°-48°)/2 = 66°.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Trójkąt ABK równoboczny → ∠KAB = 60°, więc ∠KAE = 108° − 60° = 48°. Bo AE = AB = AK, trójkąt AKE jest równoramienny: ∠AKE = (180° − 48°)/2 = 66°.</p>"
         }
       }
     },
@@ -633,10 +649,11 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "answer": "72 cm; L(n) = 11n + 6 (cm)",
-          "by": "sonnet",
+          "answer": "72 cm; wyrażenie: (11n + 6) cm",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Z 1 na 2 elementy długość rośnie o 28-17=11 cm na każdy dodatkowy element. L(n) = 17 + 11(n-1) = 11n+6. Dla n=6: L(6) = 11·6+6 = 72 cm.</p>"
+          "corroborated": true,
+          "solution_html": "<p>1 element = 17 cm, 2 elementy = 28 cm, każdy kolejny dodaje 11 cm. Długość dla n: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>17</mn><mo>+</mo><mn>11</mn><mo>(</mo><mi>n</mi><mo>-</mo><mn>1</mn><mo>)</mo><mo>=</mo><mn>11</mn><mi>n</mi><mo>+</mo><mn>6</mn></math>. Dla n = 6: 72 cm.</p>"
         }
       }
     },
@@ -658,9 +675,10 @@
         "solution_html": null,
         "model": {
           "answer": "6,75 cm",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Pole trójkąta ABD = ½·AB·h(z D) = ½·9·6 = 27 cm². To samo pole = ½·BD·h(z A) = ½·8·h. Stąd h = 27/4 = 6,75 cm.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Pole trójkąta ABD = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>9</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>27</mn></math> cm². Biorąc BD = 8 jako podstawę: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>8</mn><mo>·</mo><mi>d</mi><mo>=</mo><mn>27</mn></math> → d = 6,75 cm.</p>"
         }
       }
     },
@@ -686,6 +704,7 @@
           "answer": "≈5,19 cm (140/27 cm)",
           "by": "sonnet",
           "agrees": null,
+          "corroborated": false,
           "solution_html": "<p>Pole 'asfaltu' to trójkąt o podstawie = prawy bok (27 m) i wysokości = 20 m (odległość pozioma do punktu podziału lewego boku): pole = ½·27·20 = 270 m². Objętość asfaltu = 19,6 t / 1,4 t/m³ = 14 m³. Grubość = 14/270 m = 140/27 cm ≈ 5,19 cm.</p>"
         }
       }
@@ -709,6 +728,7 @@
           "answer": "64/9 kg ≈ 7,11 kg",
           "by": "sonnet",
           "agrees": null,
+          "corroborated": false,
           "solution_html": "<p>Sucha masa arbuza (bez wody) jest stała: 8 kg·8% = 0,64 kg. Po dwóch tygodniach ta masa stanowi 9% wagi arbuza (bo woda to 91%). Nowa waga = 0,64/0,09 = 64/9 ≈ 7,11 kg.</p>"
         }
       }
@@ -731,9 +751,10 @@
         "solution_html": null,
         "model": {
           "answer": "240 cm (2,4 m)",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Niech D = głębokość dołu. Przy połowie głębokości: listewka wystaje nad ziemię o 180 - D/2. Na końcu: listewka jest schowana pod ziemią o D - 180. Z równości: 180 - D/2 = D - 180 → D = 240 cm.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Głębokość d. Na dnie: listewka wystaje/schowana o |180 − d| = d − 180 (poniżej). Przy połowie d/2: nad ziemią 180 − d/2. Warunek d − 180 = 180 − d/2 → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>2</mn></mfrac><mi>d</mi><mo>=</mo><mn>360</mn></math> → d = 240 cm.</p>"
         }
       }
     }

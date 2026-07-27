@@ -44,9 +44,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Największa 3-cyfrowa liczba o sumie cyfr 8: maksymalizujemy setki (8), reszta 0 → 800. Najmniejsza: minimalizujemy setki (1), potem dziesiątki (0), reszta na jedności (7) → 107. Suma: 800+107=907.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Największa trzycyfrowa o sumie cyfr 8: <b>800</b>. Najmniejsza: <b>107</b>. Suma: 800 + 107 = 907.</p>"
         }
       }
     },
@@ -84,9 +85,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>a4=a2+a3=6, a6=a4+a5=15 → a5=9. a5=a3+a4 → a3=3. a2=6-3=3, a1=3-3=0. a7=a5+a6=9+15=24.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Każdy wyraz od trzeciego = suma dwóch poprzednich, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>a</mi><mn>6</mn></msub><mo>=</mo><msub><mi>a</mi><mn>4</mn></msub><mo>+</mo><msub><mi>a</mi><mn>5</mn></msub></math>: 15 = 6 + a₅ → a₅ = 9. a₇ = a₅ + a₆ = 9 + 15 = 24.</p>"
         }
       }
     },
@@ -124,9 +126,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Liczby &lt;20 o dokładnie 3 czynnikach pierwszych (z krotnością): 8=2·2·2, 12=2·2·3, 18=2·3·3. To 3 liczby (20=2·2·5 nie jest &lt;20).</p>"
+          "corroborated": true,
+          "solution_html": "<p>Długość 3 = iloczyn 3 czynników pierwszych. Liczby &lt; 20: 8 = 2·2·2, 12 = 2·2·3, 18 = 2·3·3. To 3 liczby (20 = 2·2·5 już nie jest mniejsze od 20).</p>"
         }
       }
     },
@@ -164,9 +167,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>8^8=(2^3)^8=2^24. 4^4=(2^2)^4=2^8. (2^8)^x=2^24 → x=3.</p>"
+          "corroborated": true,
+          "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>8</mn><mn>8</mn></msup><mo>=</mo><msup><mn>2</mn><mn>24</mn></msup></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>4</mn></msup><mo>=</mo><msup><mn>2</mn><mn>8</mn></msup></math>. (2⁸)ᵏ = 2²⁴ → 8k = 24 → k = 3.</p>"
         }
       }
     },
@@ -204,9 +208,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>80% poprawnie, więc 20% to 5 pytań bez odpowiedzi. 20% = 5 → 100% = 25.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Poprawnie 80%, więc pozostałe 5 pytań to 20% całości. 5 / 0,2 = 25 pytań.</p>"
         }
       }
     },
@@ -244,9 +249,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>A, B, C są parzyste (symetryczne) względem x→-x, dają tę samą wartość. D: dla x=-5: 1-5=-4; dla x=5: -1-5=-6 — różne wartości.</p>"
+          "corroborated": true,
+          "solution_html": "<p>A, B, C zależą tylko od |x| lub x² (te same wartości). D: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mi>x</mi><mo>−</mo><mn>5</mn></math> daje dla x = −5 wynik −4, a dla x = 5 wynik −6 — różne.</p>"
         }
       }
     },
@@ -284,9 +290,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Klasy trzecie = 280 - m - (m+n) = 280 - m - m - n.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Pierwsze: m, drugie: m + n. Trzecie = 280 − m − (m + n) = 280 − m − m − n.</p>"
         }
       }
     },
@@ -324,9 +331,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Za 150 zł kupujemy 15 pudełek, otrzymując 15 kuponów. 15 kuponów / 3 = 5 dodatkowych pudełek gratis. Łącznie 15+5=20 pudełek.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Za 150 zł kupuje się 150/10 = 15 pudełek → 15 kuponów → 15/3 = 5 pudełek gratis. Razem 15 + 5 = 20 pudełek (odpowiedź z listy).</p>"
         }
       }
     },
@@ -364,9 +372,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Ania starsza od Eli o 4·3=12 lat. Ela=e, Ania=e+12=7e → e=2, Ania=14. Zosia jest 2 odstępy młodsza od Ani: 14-6=8.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Ania jest o 4·3 = 12 lat starsza od Eli. Ania = 7·Ela oraz Ania = Ela + 12 → 6·Ela = 12 → Ela = 2, Ania = 14. Zosia (środkowa) = 14 − 6 = 8.</p>"
         }
       }
     },
@@ -404,9 +413,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>A+C=J+40, J+C=A+60. Odejmując: A-J=-(A-J)-20 → 2(A-J)=-20 → J=A+10. Wtedy A+C=A+50 → C=50 cm.</p>"
+          "corroborated": true,
+          "solution_html": "<p>a + h − j = 40 oraz j + h − a = 60. Dodając: 2h = 100 → h = 50 cm.</p>"
         }
       }
     },
@@ -444,9 +454,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Suma wieku 11 graczy=11·22=242. Suma 10 pozostałych=10·21=210. Kontuzjowany: 242-210=32 lata.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Suma wieku 11 graczy = 11·22 = 242. Po kontuzji 10 graczy: 10·21 = 210. Kontuzjowany: 242 − 210 = 32.</p>"
         }
       }
     },
@@ -484,9 +495,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>f(0)=-2=K_y, f(-1)=-5=L_y, f(-2)=-8=M_y. Wszystkie trzy punkty spełniają równanie.</p>"
+          "corroborated": true,
+          "solution_html": "<p>f(x) = 3x − 2: f(0) = −2 (K), f(−1) = −5 (L), f(−2) = −8 (M). Wszystkie trzy punkty należą do wykresu.</p>"
         }
       }
     },
@@ -525,9 +537,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>A=(2,-3). Symetria względem osi x: B=(2,3). Symetria B względem osi y: C=(-2,3).</p>"
+          "corroborated": true,
+          "solution_html": "<p>A = (2, −3). Symetria względem osi x: B = (2, 3). Symetria względem osi y: C = (−2, 3).</p>"
         }
       }
     },
@@ -565,9 +578,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>4 punkty wewnętrzne dzielą odcinek na 5 równych części: 4/5=0,8.</p>"
+          "corroborated": true,
+          "solution_html": "<p>4 punkty wewnętrzne dzielą odcinek na 5 części. Każda: 4/5 = 0,8.</p>"
         }
       }
     },
@@ -605,9 +619,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>(n-2)·180/n=144 → 180n-360=144n → 36n=360 → n=10.</p>"
+          "corroborated": true,
+          "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><mi>n</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>·</mo><mn>180</mn></mrow><mi>n</mi></mfrac><mo>=</mo><mn>144</mn></math> → 180n − 360 = 144n → 36n = 360 → n = 10.</p>"
         }
       }
     },
@@ -648,9 +663,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Współrzędne: C=(0,0), A=(a,0), B=(0,b), ab=192 (bo pole ABC=96). D=(a/2,0), E=(a/4,0), F=(0,b/2). Pole AEF = (1/2)|(-3a/4)(b/2)| = 3ab/16 = 3·192/16 = 36.</p>"
+          "corroborated": true,
+          "solution_html": "<p>C = (0,0), A = (a,0), B = (0,b), ab = 192 (pole 96). E = (a/4, 0) (środek DC), F = (0, b/2). AE = 3a/4, wysokość z F = b/2. Pole AEF = ½·(3a/4)·(b/2) = 3ab/16 = 3·192/16 = 36.</p>"
         }
       }
     },
@@ -688,9 +704,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Naczynia to sześciany, więc wysokość=bok. Duże: pole podstawy 4 dm² → bok 2, objętość 8 dm³. Małe: pole podstawy 1 dm² → bok 1, objętość 1 dm³. 8/1=8 razy.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Duże naczynie: bok 2 dm (pole podstawy 4 dm²), objętość 8 dm³. Małe: bok 1 dm, objętość 1 dm³. 8/1 = 8 razy.</p>"
         }
       }
     },
@@ -712,10 +729,11 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "answer": "2^15+2^16+2^17+2^18 = 2^15·(1+2+4+8) = 2^15·15 = 2^14·30, podzielne przez 30",
-          "by": "sonnet",
+          "answer": "2¹⁵ + 2¹⁶ + 2¹⁷ + 2¹⁸ = 2¹⁵·(1+2+4+8) = 2¹⁵·15 = 2¹⁴·30, więc jest podzielna przez 30.",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Wyłączamy 2^15 przed nawias: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>15</mn></msup><mo>(</mo><mn>1</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>8</mn><mo>)</mo><mo>=</mo><msup><mn>2</mn><mn>15</mn></msup><mo>·</mo><mn>15</mn></math>. Ponieważ 2^15=2·2^14, wyrażenie = 2^14·30, czyli iloczyn zawiera czynnik 30 — jest podzielne przez 30.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Wyłączając <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>15</mn></msup></math>: suma = 2¹⁵·(1 + 2 + 4 + 8) = 2¹⁵·15 = 2¹⁴·2·15 = 2¹⁴·30, a więc jest podzielna przez 30.</p>"
         }
       }
     },
@@ -736,10 +754,11 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "answer": "5 dużych pudełek, 1 małe pudełko",
-          "by": "sonnet",
+          "answer": "5 dużych pudełek i 1 małe pudełko",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Suma batonów w małych pudełkach = 15% z 180 = 27. Niech D = liczba dużych pudełek, S=0,2D. Baton na duże pudełko: 180/D, na małe: 27/S=135/D. Różnica 9: 180/D - 135/D = 45/D = 9 → D=5, S=1. Sprawdzenie: 180/5=36, 27/1=27, 36-27=9 ✓.</p>"
+          "corroborated": true,
+          "solution_html": "<p>W dużych łącznie 180 batonów, w małych 15%·180 = 27. Niech D — liczba dużych, M = 0,2D. Batonów w dużym: 180/D, w małym: 27/(0,2D) = 135/D. Warunek 180/D = 135/D + 9 → 45/D = 9 → D = 5, M = 1. Sprawdzenie: 36 − 27 = 9. ✓</p>"
         }
       }
     },
@@ -761,9 +780,10 @@
         "solution_html": null,
         "model": {
           "answer": "10 cm",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Niech a-dłuższy bok, b-krótszy. 2b+a=20, 2a+b=22. Mnożąc pierwsze przez 2: 4b+2a=40; odejmując drugie: 3b=18 → b=6, a=8. Przekątna = √(a²+b²)=√(64+36)=√100=10 cm.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Niech a — krótszy, b — dłuższy bok. 2a + b = 20, 2b + a = 22. Dodając: a + b = 14; odejmując: b − a = 2 → b = 8, a = 6. Przekątna = √(6² + 8²) = √100 = 10 cm.</p>"
         }
       }
     }

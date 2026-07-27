@@ -38,6 +38,7 @@
           "answer": "A",
           "by": "sonnet",
           "agrees": null,
+          "corroborated": false,
           "solution_html": "<p>Ułamek dziesiętny (skończony lub okresowy) zawsze można zapisać jako iloraz dwóch liczb całkowitych, np. 0,25 = 25/100 = 1/4. To definicja ułamka zwykłego równoważnego dziesiętnemu.</p><p>Odpowiedź: Prawda.</p>"
         }
       }
@@ -77,9 +78,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Liczba przekątnych n-kąta wypukłego: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>n</mi><mo>(</mo><mi>n</mi><mo>−</mo><mn>3</mn><mo>)</mo></mrow><mn>2</mn></mfrac></math>. Dla n=8: 8·5/2 = 20.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Liczba przekątnych n-kąta wypukłego: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>n</mi><mo>(</mo><mi>n</mi><mo>−</mo><mn>3</mn><mo>)</mo></mrow><mn>2</mn></mfrac></math>. Dla n=8: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>8</mn><mo>·</mo><mn>5</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>20</mn></math>.</p>"
         }
       }
     },
@@ -118,9 +120,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Cyfra jedności 5^7 = 5. Cykl cyfr jedności potęg 7: 7,9,3,1 — dla wykładnika 5 (5 mod 4 =1) cyfra = 7. Cykl potęg 3: 3,9,7,1 — dla wykładnika 9 (9 mod 4=1) cyfra = 3.</p><p>Suma cyfr jedności: 5+7+3=15 → cyfra jedności wyniku to 5.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Cyfra jedności: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>5</mn><mn>7</mn></msup></math>→5; potęgi 7 mają cykl 7,9,3,1, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>7</mn><mn>5</mn></msup></math>→7; potęgi 3 cykl 3,9,7,1, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>9</mn></msup></math>→3. Suma jedności 5+7+3=15 → cyfra 5.</p>"
         }
       }
     },
@@ -158,9 +161,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Marek = 0,6·Wojtek. Wojtek/Marek = 1/0,6 = 5/3. Różnica względem Marka: (5/3 − 1) = 2/3 = 66 2/3%.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Niech Wojtek = W, Marek = 0,6W. Wojtek ma więcej o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>W</mi><mo>−</mo><mn>0,6</mn><mi>W</mi></mrow><mrow><mn>0,6</mn><mi>W</mi></mrow></mfrac><mo>=</mo><mfrac><mn>0,4</mn><mn>0,6</mn></mfrac><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac></math> = 66⅔%.</p>"
         }
       }
     },
@@ -199,9 +203,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Liczby trzycyfrowe abc z a+b+c=4, a≥1. Podstawiając a'=a−1≥0: a'+b+c=3, liczba nieujemnych rozwiązań = C(3+2,2)=10.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Cyfra setek a≥1, a+b+c=4. Liczba rozwiązań nieujemnych a'+b+c=3 to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mfrac linethickness=\"0\"><mn>5</mn><mn>2</mn></mfrac><mo>)</mo><mo>=</mo><mn>10</mn></math>. (103,112,121,130,202,211,220,301,310,400).</p>"
         }
       }
     },
@@ -240,9 +245,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Każda para gra 2 partie, więc liczba partii = 2·C(n,2) = n(n−1). n(n−1)=30 → n=6 (6·5=30).</p>"
+          "corroborated": true,
+          "solution_html": "<p>Po dwie partie „każdy z każdym”: liczba partii = n(n−1). n(n−1)=30 → n=6 (6·5=30).</p>"
         }
       }
     },
@@ -281,9 +287,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Suma części stosunku: 6+7+11=24. Jedna część: 96/24=4. Najdłuższy bok: 11·4=44.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Suma części stosunku 6+7+11=24. Obwód 96 → jednostka 96/24=4. Najdłuższy bok 11·4=44.</p>"
         }
       }
     },
@@ -321,9 +328,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Początkowo: 10 kg roztworu 2% → 0,2 kg soli. Dosypano 20 dag = 0,2 kg soli → sól: 0,4 kg. Dolano 10 kg wody → masa całkowita: 10+0,2+10=20,2 kg.</p><p>Nowe stężenie: 0,4/20,2 ≈ 1,98% < 2% — zmalało.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Sól początkowo 2%·10 kg=0,2 kg. Dodano 20 dag=0,2 kg soli i 10 kg wody. Nowa sól 0,4 kg, masa 20,2 kg. Stężenie 0,4/20,2≈1,98% &lt; 2% → zmalało.</p>"
         }
       }
     },
@@ -361,9 +369,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Dla ostrosłupa o podstawie n-kąta: wierzchołki = n+1, krawędzie = 2n, ściany = n+1.</p><p>Ściany+krawędzie = (n+1)+2n = 3n+1 = 40 → n=13. Wierzchołków: n+1=14.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Ostrosłup o podstawie n-kąta: ścian n+1, krawędzi 2n. (n+1)+2n=3n+1=40 → n=13. Wierzchołków n+1=14.</p>"
         }
       }
     },
@@ -401,9 +410,10 @@
         "solution_html": null,
         "model": {
           "answer": "C",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>A: pierwiastek sześc. z −729 = −9 (wymierna). B: ułamek okresowy 2,(573) — wymierny. D: √8:√2=√4=2 — wymierny. C: 0,101001000100001…(itd.) to nieskończony, nieokresowy rozwinięcie dziesiętne — liczba niewymierna.</p>"
+          "corroborated": true,
+          "solution_html": "<p>A: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mrow><mo>−</mo><mn>729</mn></mrow><mn>3</mn></mroot></math>=−9 (wymierna). B: 2,(573) okresowa → wymierna. D: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>8</mn></msqrt><mo>:</mo><msqrt><mn>2</mn></msqrt><mo>=</mo><msqrt><mn>4</mn></msqrt><mo>=</mo><mn>2</mn></math>. C: nieskończone nieokresowe → niewymierna.</p>"
         }
       }
     },
@@ -443,9 +453,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Przyprostokątne a=b: pole = a²/2 = 18 → a²=36 → a=6. Przeciwprostokątna = 6√2.</p><p>Obwód = 6+6+6√2 = 12+6√2.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Przyprostokątne równe a. Pole a²/2=18 → a=6. Przeciwprostokątna 6√2. Obwód 6+6+6√2 = 12+6√2.</p>"
         }
       }
     },
@@ -485,9 +496,10 @@
         "solution_html": null,
         "model": {
           "answer": "B",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>|AC| = √((1−(−3))²+(5−2)²) = √(16+9) = √25 = 5 — to przekątna kwadratu.</p><p>Bok kwadratu: s = 5/√2. Obwód = 4s = 20/√2 = 10√2.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Przekątna AC: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>4</mn><mn>2</mn></msup><mo>+</mo><msup><mn>3</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>5</mn></math>. Bok a=5/√2. Obwód 4a=20/√2=10√2.</p>"
         }
       }
     },
@@ -525,9 +537,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Zależność: NWD·NWW = iloczyn liczb. NWW = 229075/35 = 6545.</p>"
+          "corroborated": true,
+          "solution_html": "<p>NWW·NWD = iloczyn liczb. NWW = 229075/35 = 6545.</p>"
         }
       }
     },
@@ -565,9 +578,10 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Dla n/d z n&lt;d, po dodaniu k&gt;0 do obu: (n+k)/(d+k) − n/d = k(d−n)/[d(d+k)] &gt; 0, bo d&gt;n. Ułamek się zwiększa (zbliża do 1).</p>"
+          "corroborated": true,
+          "solution_html": "<p>Dla ułamka właściwego a/b (a&lt;b): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mo>+</mo><mi>k</mi></mrow><mrow><mi>b</mi><mo>+</mo><mi>k</mi></mrow></mfrac><mo>−</mo><mfrac><mi>a</mi><mi>b</mi></mfrac><mo>=</mo><mfrac><mrow><mi>k</mi><mo>(</mo><mi>b</mi><mo>−</mo><mi>a</mi><mo>)</mo></mrow><mrow><mi>b</mi><mo>(</mo><mi>b</mi><mo>+</mo><mi>k</mi><mo>)</mo></mrow></mfrac><mo>&gt;</mo><mn>0</mn></math> → zwiększył się.</p>"
         }
       }
     },
@@ -605,9 +619,10 @@
         "solution_html": null,
         "model": {
           "answer": "D",
-          "by": "sonnet",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>Cała drużyna (6 osób z bramkarzem): suma wieku = 6·24=144. „Piątka” (5 osób): suma = 5·23=115.</p><p>Wiek bramkarza = 144−115=29.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Drużyna na lodzie = 6 (piątka + bramkarz). Suma wieku 6·24=144, piątki 5·23=115. Bramkarz 144−115=29.</p>"
         }
       }
     },
@@ -628,10 +643,11 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "answer": "AD' = √(20 + 8√3) cm = 2√(5 + 2√3) cm ≈ 5,82 cm",
-          "by": "sonnet",
+          "answer": "√(20+8√3) cm (≈ 5,82 cm)",
+          "by": "opus+sonnet",
           "agrees": null,
-          "solution_html": "<p>A i D są wierzchołkami przeciwległymi sześciokąta (odległymi o 3 boki). Rozwinięcie samych trzech ścian bocznych (AB, BC, CD) daje trójkąt prostokątny 6×2, więc drogę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msqrt><mn>10</mn></msqrt></math>... właściwie √(6²+2²)=2√10 ≈ 6,32 cm — ale to nie jest najkrótsza droga.</p><p>Krótsza droga: rozłożyć podstawę dolną (sześciokąt) razem z jedną sąsiednią ścianą boczną CDD'C' w jednej płaszczyźnie. Przy boku a=2 i wysokości h=2, po rozłożeniu D' znajduje się w punkcie D + 2·(wektor normalny do CD), a odległość od A do tak rozłożonego D' wynosi √(20+8√3) ≈ 5,82 cm — krócej niż 2√10.</p><p>Sprawdzenie: prosta łącząca A z rozłożonym D' przecina krawędź CD wewnątrz odcinka (t≈0,63), więc droga jest poprawna geometrycznie (nie wychodzi poza bryłę). Najkrótsza droga: przez podstawę i jedną ścianę boczną, długość √(20+8√3) cm.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Najkrótsza droga prowadzi przez jedną ścianę boczną i podstawę górną (a nie tylko po ścianach bocznych).</p><p>Po rozwinięciu trzech ścian bocznych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>6</mn><mn>2</mn></msup><mo>+</mo><msup><mn>2</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>40</mn></msqrt><mo>=</mo><mn>2</mn><msqrt><mn>10</mn></msqrt></math> ≈ 6,32.</p><p>Rozwinięcie jednej ściany bocznej i podstawy górnej: obraz D′ w punkcie (2; 2+2√3) względem A(0;0), stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>2</mn><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mn>2</mn><mo>+</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>20</mn><mo>+</mo><mn>8</mn><msqrt><mn>3</mn></msqrt></mrow></msqrt></math> ≈ 5,82 &lt; 2√10, więc to jest najkrótsza droga.</p>"
         }
       }
     },
@@ -654,6 +670,7 @@
           "answer": "9,11 km/h",
           "by": "sonnet",
           "agrees": null,
+          "corroborated": false,
           "solution_html": "<p>Niech każdy odcinek ma długość d. Czasy: d/6, d/10, d/16. Suma czasów = d(1/6+1/10+1/16) = d·79/240.</p><p>Prędkość średnia = 3d / (79d/240) = 720/79 ≈ 9,1139 ≈ 9,11 km/h.</p>"
         }
       }
