@@ -38,7 +38,12 @@
       "figures": [],
       "answer": {
         "correct": "PPP",
-        "solution_html": "<p>Suma wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mn>2</mn><mo>+</mo><mo>⋯</mo><mo>+</mo><mn>2018</mn><mo>=</mo><mfrac><mrow><mn>2018</mn><mo>·</mo><mn>2019</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>1009</mn><mo>·</mo><mn>2019</mn><mo>=</mo><mn>2</mn><mspace width=\"0.15em\"></mspace><mn>037</mn><mspace width=\"0.15em\"></mspace><mn>171</mn></math>.</p><ul><li>Liczby 1009 i 2019 są nieparzyste, więc ich iloczyn jest nieparzysty — <strong>TAK</strong>.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2019</mn><mo>=</mo><mn>3</mn><mo>·</mo><mn>673</mn></math>, więc iloczyn dzieli się przez 3 — <strong>TAK</strong>.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mspace width=\"0.15em\"></mspace><mn>037</mn><mspace width=\"0.15em\"></mspace><mn>171</mn><mo>&gt;</mo><mn>2</mn><mspace width=\"0.15em\"></mspace><mn>000</mn><mspace width=\"0.15em\"></mspace><mn>000</mn></math> — <strong>TAK</strong>.</li></ul>"
+        "solution_html": "<p>Suma wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mn>2</mn><mo>+</mo><mo>⋯</mo><mo>+</mo><mn>2018</mn><mo>=</mo><mfrac><mrow><mn>2018</mn><mo>·</mo><mn>2019</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>1009</mn><mo>·</mo><mn>2019</mn><mo>=</mo><mn>2</mn><mspace width=\"0.15em\"></mspace><mn>037</mn><mspace width=\"0.15em\"></mspace><mn>171</mn></math>.</p><ul><li>Liczby 1009 i 2019 są nieparzyste, więc ich iloczyn jest nieparzysty — <strong>TAK</strong>.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2019</mn><mo>=</mo><mn>3</mn><mo>·</mo><mn>673</mn></math>, więc iloczyn dzieli się przez 3 — <strong>TAK</strong>.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mspace width=\"0.15em\"></mspace><mn>037</mn><mspace width=\"0.15em\"></mspace><mn>171</mn><mo>&gt;</mo><mn>2</mn><mspace width=\"0.15em\"></mspace><mn>000</mn><mspace width=\"0.15em\"></mspace><mn>000</mn></math> — <strong>TAK</strong>.</li></ul>",
+        "model": {
+          "answer": "PPP",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -68,7 +73,12 @@
       "figures": [],
       "answer": {
         "correct": "FPP",
-        "solution_html": "<p>Czas przejazdu całej trasy: samochód A — <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>210</mn><mn>80</mn></mfrac><mo>=</mo><mn>2,625</mn></math> h, samochód B — <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>210</mn><mn>70</mn></mfrac><mo>=</mo><mn>3</mn></math> h. Różnica <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,375</mn></math> h <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>22,5</mn></math> min (nie 25 min) — <strong>NIE</strong>.</p><p>Zbliżają się z prędkością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>80</mn><mo>+</mo><mn>70</mn><mo>=</mo><mn>150</mn></math> km/h, więc spotkają się po <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>210</mn><mn>150</mn></mfrac><mo>=</mo><mn>1,4</mn></math> h — <strong>TAK</strong>. W tym czasie A przejedzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>80</mn><mo>·</mo><mn>1,4</mn><mo>=</mo><mn>112</mn></math> km — <strong>TAK</strong>.</p>"
+        "solution_html": "<p>Czas przejazdu całej trasy: samochód A — <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>210</mn><mn>80</mn></mfrac><mo>=</mo><mn>2,625</mn></math> h, samochód B — <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>210</mn><mn>70</mn></mfrac><mo>=</mo><mn>3</mn></math> h. Różnica <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,375</mn></math> h <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>22,5</mn></math> min (nie 25 min) — <strong>NIE</strong>.</p><p>Zbliżają się z prędkością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>80</mn><mo>+</mo><mn>70</mn><mo>=</mo><mn>150</mn></math> km/h, więc spotkają się po <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>210</mn><mn>150</mn></mfrac><mo>=</mo><mn>1,4</mn></math> h — <strong>TAK</strong>. W tym czasie A przejedzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>80</mn><mo>·</mo><mn>1,4</mn><mo>=</mo><mn>112</mn></math> km — <strong>TAK</strong>.</p>",
+        "model": {
+          "answer": "FPP",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -98,7 +108,12 @@
       "figures": [],
       "answer": {
         "correct": "PFP",
-        "solution_html": "<p>Sześcian ma 12 krawędzi, więc krawędź <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mfrac><mn>96</mn><mn>12</mn></mfrac><mo>=</mo><mn>8</mn></math> cm.</p><ul><li>Objętość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>8</mn><mn>3</mn></msup><mo>=</mo><mn>512</mn></math> cm³ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>0,512</mn></math> dm³ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&gt;</mo><mn>0,5</mn></math> dm³ — <strong>TAK</strong>.</li><li>Pole powierzchni <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><msup><mn>8</mn><mn>2</mn></msup><mo>=</mo><mn>384</mn></math> cm² <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>3,84</mn></math> dm² <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&lt;</mo><mn>4</mn></math> dm² — <strong>NIE</strong>.</li><li>Przekątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><msqrt><mn>3</mn></msqrt><mo>≈</mo><mn>13,86</mn></math> cm <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&lt;</mo><mn>14</mn></math> cm — <strong>TAK</strong>.</li></ul>"
+        "solution_html": "<p>Sześcian ma 12 krawędzi, więc krawędź <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mfrac><mn>96</mn><mn>12</mn></mfrac><mo>=</mo><mn>8</mn></math> cm.</p><ul><li>Objętość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>8</mn><mn>3</mn></msup><mo>=</mo><mn>512</mn></math> cm³ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>0,512</mn></math> dm³ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&gt;</mo><mn>0,5</mn></math> dm³ — <strong>TAK</strong>.</li><li>Pole powierzchni <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><msup><mn>8</mn><mn>2</mn></msup><mo>=</mo><mn>384</mn></math> cm² <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>3,84</mn></math> dm² <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&lt;</mo><mn>4</mn></math> dm² — <strong>NIE</strong>.</li><li>Przekątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><msqrt><mn>3</mn></msqrt><mo>≈</mo><mn>13,86</mn></math> cm <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&lt;</mo><mn>14</mn></math> cm — <strong>TAK</strong>.</li></ul>",
+        "model": {
+          "answer": "PFP",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -130,7 +145,12 @@
       "figures": [],
       "answer": {
         "correct": "FPP",
-        "solution_html": "<p>Odległość punktów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>XY</mi><mo>|</mo><mo>=</mo><msqrt><mrow><msup><mrow><mo>(</mo><mn>2</mn><mo>−</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mn>1</mn><mo>−</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo><mo>)</mo></mrow><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>16</mn><mo>+</mo><mn>9</mn></mrow></msqrt><mo>=</mo><mn>5</mn></math>.</p><ul><li>Gdy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>X</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi></math> są sąsiednimi wierzchołkami, bok kwadratu wynosi 5, więc obwód <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>20</mn></math> — <strong>TAK</strong>.</li><li>Gdy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>X</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi></math> są końcami przekątnej (długość 5), pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mn>5</mn><mn>2</mn></msup><mn>2</mn></mfrac><mo>=</mo><mn>12,5</mn></math> — <strong>TAK</strong>.</li><li>W żadnym z tych ułożeń punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>2</mn><mo>,</mo><mo>−</mo><mn>2</mn><mo>)</mo></math> nie jest wierzchołkiem kwadratu — <strong>NIE</strong>.</li></ul>"
+        "solution_html": "<p>Odległość punktów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>XY</mi><mo>|</mo><mo>=</mo><msqrt><mrow><msup><mrow><mo>(</mo><mn>2</mn><mo>−</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mn>1</mn><mo>−</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo><mo>)</mo></mrow><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>16</mn><mo>+</mo><mn>9</mn></mrow></msqrt><mo>=</mo><mn>5</mn></math>.</p><ul><li>Gdy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>X</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi></math> są sąsiednimi wierzchołkami, bok kwadratu wynosi 5, więc obwód <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>20</mn></math> — <strong>TAK</strong>.</li><li>Gdy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>X</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi></math> są końcami przekątnej (długość 5), pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mn>5</mn><mn>2</mn></msup><mn>2</mn></mfrac><mo>=</mo><mn>12,5</mn></math> — <strong>TAK</strong>.</li><li>W żadnym z tych ułożeń punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>2</mn><mo>,</mo><mo>−</mo><mn>2</mn><mo>)</mo></math> nie jest wierzchołkiem kwadratu — <strong>NIE</strong>.</li></ul>",
+        "model": {
+          "answer": "FPP",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -160,7 +180,12 @@
       "figures": [],
       "answer": {
         "correct": "PFF",
-        "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>7</mn></mfrac><mo>=</mo><mn>0,</mn><mover><mrow><mn>285714</mn></mrow><mo>‾</mo></mover></math> — okres ma długość 6, kolejne cyfry to 2, 8, 5, 7, 1, 4.</p><ul><li>4. cyfra to 7 — <strong>TAK</strong>.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>14</mn><mo>=</mo><mn>6</mn><mo>·</mo><mn>2</mn><mo>+</mo><mn>2</mn></math>, więc 14. cyfra jest jak 2. cyfra okresu, czyli 8 (nie 4) — <strong>NIE</strong>.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>124</mn><mo>=</mo><mn>6</mn><mo>·</mo><mn>20</mn><mo>+</mo><mn>4</mn></math>, więc 124. cyfra jest jak 4. cyfra okresu, czyli 7 (nie 8) — <strong>NIE</strong>.</li></ul>"
+        "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>7</mn></mfrac><mo>=</mo><mn>0,</mn><mover><mrow><mn>285714</mn></mrow><mo>‾</mo></mover></math> — okres ma długość 6, kolejne cyfry to 2, 8, 5, 7, 1, 4.</p><ul><li>4. cyfra to 7 — <strong>TAK</strong>.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>14</mn><mo>=</mo><mn>6</mn><mo>·</mo><mn>2</mn><mo>+</mo><mn>2</mn></math>, więc 14. cyfra jest jak 2. cyfra okresu, czyli 8 (nie 4) — <strong>NIE</strong>.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>124</mn><mo>=</mo><mn>6</mn><mo>·</mo><mn>20</mn><mo>+</mo><mn>4</mn></math>, więc 124. cyfra jest jak 4. cyfra okresu, czyli 7 (nie 8) — <strong>NIE</strong>.</li></ul>",
+        "model": {
+          "answer": "PFF",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -178,7 +203,12 @@
       "figures": [],
       "answer": {
         "correct": "20 km",
-        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza długość całej trasy (w km). Pierwszego dnia turysta przeszedł <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>+</mo><mn>2</mn></math>, więc po pierwszym dniu zostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>−</mo><mo>(</mo><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>+</mo><mn>2</mn><mo>)</mo><mo>=</mo><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>−</mo><mn>2</mn></math> km. Drugiego dnia turysta pokonał całą pozostałą część, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>25</mn><mo>%</mo></math> tej reszty i jeszcze 6 km:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>−</mo><mn>2</mn><mo>=</mo><mn>0,25</mn><mo>·</mo><mo>(</mo><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>−</mo><mn>2</mn><mo>)</mo><mo>+</mo><mn>6</mn></math></p><p>Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,75</mn><mo>·</mo><mo>(</mo><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>−</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>6</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>−</mo><mn>2</mn><mo>=</mo><mn>8</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>=</mo><mn>10</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>20</mn></math>. Cała trasa miała długość <strong>20 km</strong>.</p>"
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza długość całej trasy (w km). Pierwszego dnia turysta przeszedł <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>+</mo><mn>2</mn></math>, więc po pierwszym dniu zostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>−</mo><mo>(</mo><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>+</mo><mn>2</mn><mo>)</mo><mo>=</mo><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>−</mo><mn>2</mn></math> km. Drugiego dnia turysta pokonał całą pozostałą część, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>25</mn><mo>%</mo></math> tej reszty i jeszcze 6 km:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>−</mo><mn>2</mn><mo>=</mo><mn>0,25</mn><mo>·</mo><mo>(</mo><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>−</mo><mn>2</mn><mo>)</mo><mo>+</mo><mn>6</mn></math></p><p>Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,75</mn><mo>·</mo><mo>(</mo><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>−</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>6</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>−</mo><mn>2</mn><mo>=</mo><mn>8</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>=</mo><mn>10</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>20</mn></math>. Cała trasa miała długość <strong>20 km</strong>.</p>",
+        "model": {
+          "answer": "20 km",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -197,7 +227,12 @@
       "figures": [],
       "answer": {
         "correct": "384 dm²",
-        "solution_html": "<p>Największy kwadrat, jaki można odciąć z prostokąta, ma bok równy krótszemu bokowi prostokąta. Bok kwadratu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>576</mn></msqrt><mo>=</mo><mn>24</mn></math> dm, więc krótszy bok prostokąta ma 24 dm. Odpowiada on 3 częściom stosunku, zatem jedna część to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>24</mn><mn>3</mn></mfrac><mo>=</mo><mn>8</mn></math> dm, a dłuższy bok to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>·</mo><mn>8</mn><mo>=</mo><mn>40</mn></math> dm. Pole prostokąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mo>·</mo><mn>40</mn><mo>=</mo><mn>960</mn></math> dm². Po odcięciu kwadratu pozostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>960</mn><mo>−</mo><mn>576</mn><mo>=</mo><mn>384</mn></math> dm² wykładziny.</p>"
+        "solution_html": "<p>Największy kwadrat, jaki można odciąć z prostokąta, ma bok równy krótszemu bokowi prostokąta. Bok kwadratu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>576</mn></msqrt><mo>=</mo><mn>24</mn></math> dm, więc krótszy bok prostokąta ma 24 dm. Odpowiada on 3 częściom stosunku, zatem jedna część to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>24</mn><mn>3</mn></mfrac><mo>=</mo><mn>8</mn></math> dm, a dłuższy bok to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>·</mo><mn>8</mn><mo>=</mo><mn>40</mn></math> dm. Pole prostokąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mo>·</mo><mn>40</mn><mo>=</mo><mn>960</mn></math> dm². Po odcięciu kwadratu pozostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>960</mn><mo>−</mo><mn>576</mn><mo>=</mo><mn>384</mn></math> dm² wykładziny.</p>",
+        "model": {
+          "answer": "384 dm²",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -215,7 +250,12 @@
       "figures": [],
       "answer": {
         "correct": "Nowak: 30 000 zł, Kowalski: 35 000 zł",
-        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza kwotę wpłaconą przez pana Nowaka. Jego odsetki to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,03</mn><mi>x</mi></math>. Pan Kowalski wpłacił <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>5000</mn></math> zł, a jego odsetki to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,025</mn><mo>·</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>5000</mn><mo>)</mo></math>. Z warunku, że są o 25 zł mniejsze:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,025</mn><mo>·</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>5000</mn><mo>)</mo><mo>=</mo><mn>0,03</mn><mi>x</mi><mo>−</mo><mn>25</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,025</mn><mi>x</mi><mo>+</mo><mn>125</mn><mo>=</mo><mn>0,03</mn><mi>x</mi><mo>−</mo><mn>25</mn></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>150</mn><mo>=</mo><mn>0,005</mn><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>30000</mn></math>. Pan Nowak wpłacił <strong>30 000 zł</strong>, a pan Kowalski <strong>35 000 zł</strong>.</p>"
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza kwotę wpłaconą przez pana Nowaka. Jego odsetki to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,03</mn><mi>x</mi></math>. Pan Kowalski wpłacił <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>5000</mn></math> zł, a jego odsetki to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,025</mn><mo>·</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>5000</mn><mo>)</mo></math>. Z warunku, że są o 25 zł mniejsze:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,025</mn><mo>·</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>5000</mn><mo>)</mo><mo>=</mo><mn>0,03</mn><mi>x</mi><mo>−</mo><mn>25</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,025</mn><mi>x</mi><mo>+</mo><mn>125</mn><mo>=</mo><mn>0,03</mn><mi>x</mi><mo>−</mo><mn>25</mn></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>150</mn><mo>=</mo><mn>0,005</mn><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>30000</mn></math>. Pan Nowak wpłacił <strong>30 000 zł</strong>, a pan Kowalski <strong>35 000 zł</strong>.</p>",
+        "model": {
+          "answer": "Nowak: 30 000 zł; Kowalski: 35 000 zł",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -234,7 +274,12 @@
       ],
       "answer": {
         "correct": "21 m",
-        "solution_html": "<p>Przy brzegach płyty leżą dłuższym bokiem (60 cm) wzdłuż chodnika, a w środku krótszym (35 cm). Segment tworzy pełny prostokąt dopiero wtedy, gdy jego długość jest wspólną wielokrotnością liczb 60 i 35 — najmniejszą taką jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>NWW</mtext><mo>(</mo><mn>35</mn><mo>,</mo><mn>60</mn><mo>)</mo><mo>=</mo><mn>420</mn></math> cm. Zatem jeden segment ma długość 420 cm <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>4,2</mn></math> m. Pięć segmentów daje chodnik długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>·</mo><mn>4,2</mn><mo>=</mo><mn>21</mn></math> m.</p>"
+        "solution_html": "<p>Przy brzegach płyty leżą dłuższym bokiem (60 cm) wzdłuż chodnika, a w środku krótszym (35 cm). Segment tworzy pełny prostokąt dopiero wtedy, gdy jego długość jest wspólną wielokrotnością liczb 60 i 35 — najmniejszą taką jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>NWW</mtext><mo>(</mo><mn>35</mn><mo>,</mo><mn>60</mn><mo>)</mo><mo>=</mo><mn>420</mn></math> cm. Zatem jeden segment ma długość 420 cm <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>4,2</mn></math> m. Pięć segmentów daje chodnik długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>·</mo><mn>4,2</mn><mo>=</mo><mn>21</mn></math> m.</p>",
+        "model": {
+          "answer": "650 cm (6,5 m)",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -254,7 +299,12 @@
       "figures": [],
       "answer": {
         "correct": "Pole 48 cm², druga przekątna 4√10 cm",
-        "solution_html": "<p>Krótsza przekątna (długości 8 cm) jest przeciwprostokątną obu trójkątów prostokątnych równoramiennych, więc każda przyprostokątna ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>8</mn><msqrt><mn>2</mn></msqrt></mfrac><mo>=</mo><mn>4</mn><msqrt><mn>2</mn></msqrt></math> cm. Krótsza podstawa i wysokość trapezu są równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>2</mn></msqrt></math> cm, a dłuższa podstawa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>4</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>8</mn><msqrt><mn>2</mn></msqrt></math> cm.</p><p>Pole trapezu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mo>(</mo><mn>4</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>8</mn><msqrt><mn>2</mn></msqrt><mo>)</mo><mo>·</mo><mn>4</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>12</mn><msqrt><mn>2</mn></msqrt><mo>·</mo><mn>4</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>48</mn></math> cm².</p><p>Druga przekątna łączy przeciwległe wierzchołki i ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mrow><mo>(</mo><mn>8</mn><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mn>4</mn><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>128</mn><mo>+</mo><mn>32</mn></mrow></msqrt><mo>=</mo><msqrt><mn>160</mn></msqrt><mo>=</mo><mn>4</mn><msqrt><mn>10</mn></msqrt></math> cm.</p>"
+        "solution_html": "<p>Krótsza przekątna (długości 8 cm) jest przeciwprostokątną obu trójkątów prostokątnych równoramiennych, więc każda przyprostokątna ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>8</mn><msqrt><mn>2</mn></msqrt></mfrac><mo>=</mo><mn>4</mn><msqrt><mn>2</mn></msqrt></math> cm. Krótsza podstawa i wysokość trapezu są równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>2</mn></msqrt></math> cm, a dłuższa podstawa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>4</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>8</mn><msqrt><mn>2</mn></msqrt></math> cm.</p><p>Pole trapezu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mo>(</mo><mn>4</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>8</mn><msqrt><mn>2</mn></msqrt><mo>)</mo><mo>·</mo><mn>4</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>12</mn><msqrt><mn>2</mn></msqrt><mo>·</mo><mn>4</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>48</mn></math> cm².</p><p>Druga przekątna łączy przeciwległe wierzchołki i ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mrow><mo>(</mo><mn>8</mn><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mn>4</mn><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>128</mn><mo>+</mo><mn>32</mn></mrow></msqrt><mo>=</mo><msqrt><mn>160</mn></msqrt><mo>=</mo><mn>4</mn><msqrt><mn>10</mn></msqrt></math> cm.</p>",
+        "model": {
+          "answer": "Pole = 48 cm²; druga przekątna = 4√10 cm ≈ 12,65 cm",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -273,7 +323,12 @@
       "figures": [],
       "answer": {
         "correct": "3 : 2 (lub 2 : 3)",
-        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> będzie bokiem sześciokąta, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> bokiem trójkąta. Z równości obwodów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>a</mi><mo>=</mo><mn>3</mn><mi>b</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>2</mn><mi>a</mi></math>.</p><p>Pole sześciokąta foremnego: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>6</mn></msub><mo>=</mo><mfrac><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup></math>. Pole trójkąta równobocznego: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>3</mn></msub><mo>=</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>4</mn></mfrac><msup><mrow><mo>(</mo><mn>2</mn><mi>a</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msqrt><mn>3</mn></msqrt><msup><mi>a</mi><mn>2</mn></msup></math>. Stosunek pól: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msub><mi>P</mi><mn>6</mn></msub><msub><mi>P</mi><mn>3</mn></msub></mfrac><mo>=</mo><mfrac><mrow><mfrac><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup></mrow><mrow><msqrt><mn>3</mn></msqrt><msup><mi>a</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>2</mn></mfrac></math>. Stosunek pola sześciokąta do pola trójkąta wynosi <strong>3 : 2</strong> (a trójkąta do sześciokąta — 2 : 3).</p>"
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> będzie bokiem sześciokąta, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> bokiem trójkąta. Z równości obwodów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>a</mi><mo>=</mo><mn>3</mn><mi>b</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>2</mn><mi>a</mi></math>.</p><p>Pole sześciokąta foremnego: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>6</mn></msub><mo>=</mo><mfrac><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup></math>. Pole trójkąta równobocznego: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>3</mn></msub><mo>=</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>4</mn></mfrac><msup><mrow><mo>(</mo><mn>2</mn><mi>a</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msqrt><mn>3</mn></msqrt><msup><mi>a</mi><mn>2</mn></msup></math>. Stosunek pól: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msub><mi>P</mi><mn>6</mn></msub><msub><mi>P</mi><mn>3</mn></msub></mfrac><mo>=</mo><mfrac><mrow><mfrac><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup></mrow><mrow><msqrt><mn>3</mn></msqrt><msup><mi>a</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>2</mn></mfrac></math>. Stosunek pola sześciokąta do pola trójkąta wynosi <strong>3 : 2</strong> (a trójkąta do sześciokąta — 2 : 3).</p>",
+        "model": {
+          "answer": "3:2 (pole sześciokąta : pole trójkąta)",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     }
   ]

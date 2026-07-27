@@ -30,7 +30,12 @@
       "figures": [],
       "answer": {
         "correct": "D",
-        "solution_html": "<p>Szukany kod ma postać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>20222023</mn><mi>X</mi><mi>Y</mi></mrow></math>. Podzielność przez 5 wymaga, by <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>Y</mi><mo>∈</mo><mo>{</mo><mn>0</mn><mo>,</mo><mn>5</mn><mo>}</mo></mrow></math>. Suma ośmiu znanych cyfr wynosi 13, więc podzielność przez 3 wymaga, by <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>13</mn><mo>+</mo><mi>X</mi><mo>+</mo><mi>Y</mi></mrow></math> było podzielne przez 3.</p><p>Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>Y</mi><mo>=</mo><mn>0</mn></mrow></math>: potrzeba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>X</mi><mo>∈</mo><mo>{</mo><mn>2</mn><mo>,</mo><mn>5</mn><mo>,</mo><mn>8</mn><mo>}</mo></mrow></math>, ale liczba nie może być podzielna przez 25, więc odrzucamy końcówkę 50 (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>X</mi><mo>=</mo><mn>5</mn></mrow></math>). Zostają 20 i 80 — 2 kody.</p><p>Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>Y</mi><mo>=</mo><mn>5</mn></mrow></math>: potrzeba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>X</mi><mo>∈</mo><mo>{</mo><mn>0</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>6</mn><mo>,</mo><mn>9</mn><mo>}</mo></mrow></math>; żadna z końcówek 05, 35, 65, 95 nie jest podzielna przez 25 — 4 kody.</p><p>Razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>6</mn></mrow></math> kodów.</p>"
+        "solution_html": "<p>Szukany kod ma postać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>20222023</mn><mi>X</mi><mi>Y</mi></mrow></math>. Podzielność przez 5 wymaga, by <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>Y</mi><mo>∈</mo><mo>{</mo><mn>0</mn><mo>,</mo><mn>5</mn><mo>}</mo></mrow></math>. Suma ośmiu znanych cyfr wynosi 13, więc podzielność przez 3 wymaga, by <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>13</mn><mo>+</mo><mi>X</mi><mo>+</mo><mi>Y</mi></mrow></math> było podzielne przez 3.</p><p>Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>Y</mi><mo>=</mo><mn>0</mn></mrow></math>: potrzeba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>X</mi><mo>∈</mo><mo>{</mo><mn>2</mn><mo>,</mo><mn>5</mn><mo>,</mo><mn>8</mn><mo>}</mo></mrow></math>, ale liczba nie może być podzielna przez 25, więc odrzucamy końcówkę 50 (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>X</mi><mo>=</mo><mn>5</mn></mrow></math>). Zostają 20 i 80 — 2 kody.</p><p>Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>Y</mi><mo>=</mo><mn>5</mn></mrow></math>: potrzeba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>X</mi><mo>∈</mo><mo>{</mo><mn>0</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>6</mn><mo>,</mo><mn>9</mn><mo>}</mo></mrow></math>; żadna z końcówek 05, 35, 65, 95 nie jest podzielna przez 25 — 4 kody.</p><p>Razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>6</mn></mrow></math> kodów.</p>",
+        "model": {
+          "answer": "D",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -53,7 +58,12 @@
       "figures": [],
       "answer": {
         "correct": "B",
-        "solution_html": "<p>Liczba zer na końcu to liczba czynników 10, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>min</mi></mrow></math> z wykładników 2 i 5. Liczba 2023 jest nieparzysta i niepodzielna przez 5 (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2023</mn><mo>=</mo><mn>7</mn><mo>·</mo><msup><mn>17</mn><mn>2</mn></msup></mrow></math>), więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2023</mn><mn>10</mn></msup></math> nie wnosi żadnych dwójek ani piątek. Zatem czynników 2 jest 20, a czynników 5 jest 23, i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>min</mi><mo>(</mo><mn>20</mn><mo>,</mo><mn>23</mn><mo>)</mo><mo>=</mo><mn>20</mn></mrow></math>. Liczba kończy się 20 zerami.</p>"
+        "solution_html": "<p>Liczba zer na końcu to liczba czynników 10, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>min</mi></mrow></math> z wykładników 2 i 5. Liczba 2023 jest nieparzysta i niepodzielna przez 5 (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2023</mn><mo>=</mo><mn>7</mn><mo>·</mo><msup><mn>17</mn><mn>2</mn></msup></mrow></math>), więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2023</mn><mn>10</mn></msup></math> nie wnosi żadnych dwójek ani piątek. Zatem czynników 2 jest 20, a czynników 5 jest 23, i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>min</mi><mo>(</mo><mn>20</mn><mo>,</mo><mn>23</mn><mo>)</mo><mo>=</mo><mn>20</mn></mrow></math>. Liczba kończy się 20 zerami.</p>",
+        "model": {
+          "answer": "B",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -76,7 +86,12 @@
       "figures": [],
       "answer": {
         "correct": "C",
-        "solution_html": "<p>Niech najmniejszy kąt ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. Drugi kąt to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mn>30</mn><mo>°</mo></mrow></math>, a trzeci to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>a</mi></mrow></math>. Suma kątów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mo>(</mo><mi>a</mi><mo>+</mo><mn>30</mn><mo>°</mo><mo>)</mo><mo>+</mo><mn>4</mn><mi>a</mi><mo>=</mo><mn>180</mn><mo>°</mo></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mi>a</mi><mo>=</mo><mn>150</mn><mo>°</mo></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>25</mn><mo>°</mo></mrow></math>.</p>"
+        "solution_html": "<p>Niech najmniejszy kąt ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. Drugi kąt to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mn>30</mn><mo>°</mo></mrow></math>, a trzeci to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>a</mi></mrow></math>. Suma kątów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mo>(</mo><mi>a</mi><mo>+</mo><mn>30</mn><mo>°</mo><mo>)</mo><mo>+</mo><mn>4</mn><mi>a</mi><mo>=</mo><mn>180</mn><mo>°</mo></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mi>a</mi><mo>=</mo><mn>150</mn><mo>°</mo></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>25</mn><mo>°</mo></mrow></math>.</p>",
+        "model": {
+          "answer": "C",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -98,7 +113,12 @@
       "figures": [],
       "answer": {
         "correct": "D",
-        "solution_html": "<p>10 pająków w 10 dni łapie 60 much, więc jeden pająk w ciągu jednego dnia łapie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>60</mn><mrow><mn>10</mn><mo>·</mo><mn>10</mn></mrow></mfrac><mo>=</mo><mn>0,6</mn></mrow></math> muchy. Zatem 25 pająków w ciągu 25 dni złapie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>25</mn><mo>·</mo><mn>25</mn><mo>·</mo><mn>0,6</mn><mo>=</mo><mn>375</mn></mrow></math> much.</p>"
+        "solution_html": "<p>10 pająków w 10 dni łapie 60 much, więc jeden pająk w ciągu jednego dnia łapie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>60</mn><mrow><mn>10</mn><mo>·</mo><mn>10</mn></mrow></mfrac><mo>=</mo><mn>0,6</mn></mrow></math> muchy. Zatem 25 pająków w ciągu 25 dni złapie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>25</mn><mo>·</mo><mn>25</mn><mo>·</mo><mn>0,6</mn><mo>=</mo><mn>375</mn></mrow></math> much.</p>",
+        "model": {
+          "answer": "D",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -124,7 +144,12 @@
       ],
       "answer": {
         "correct": "B",
-        "solution_html": "<p>Dwa odcinki o długości 3 tworzą kąt 60°, więc trójkąt nad kwadratem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> jest równoboczny — bok kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> ma długość 3, a jego pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>3</mn><mn>2</mn></msup><mo>=</mo><mn>9</mn></mrow></math>.</p><p>Trójkąt prostokątny ma zatem przy podstawie kąt 60°, więc jest to trójkąt o kątach 30°, 60°, 90°. Przyprostokątna, na której zbudowano kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>, ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow></math>, więc pole kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>27</mn></mrow></math>.</p><p>Stosunek pól: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>27</mn><mn>9</mn></mfrac><mo>=</mo><mn>3</mn></mrow></math>. Pole kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> jest 3 razy większe.</p>"
+        "solution_html": "<p>Dwa odcinki o długości 3 tworzą kąt 60°, więc trójkąt nad kwadratem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> jest równoboczny — bok kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> ma długość 3, a jego pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>3</mn><mn>2</mn></msup><mo>=</mo><mn>9</mn></mrow></math>.</p><p>Trójkąt prostokątny ma zatem przy podstawie kąt 60°, więc jest to trójkąt o kątach 30°, 60°, 90°. Przyprostokątna, na której zbudowano kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>, ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow></math>, więc pole kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>27</mn></mrow></math>.</p><p>Stosunek pól: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>27</mn><mn>9</mn></mfrac><mo>=</mo><mn>3</mn></mrow></math>. Pole kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> jest 3 razy większe.</p>",
+        "model": {
+          "answer": "B",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -147,7 +172,12 @@
       "figures": [],
       "answer": {
         "correct": "D",
-        "solution_html": "<p>Wszystkich wyników jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2</mn><mn>4</mn></msup><mo>=</mo><mn>16</mn></mrow></math>. Cyframi są tylko 1 i 2, więc suma czterech cyfr wynosi od 4 do 8. Liczba jest podzielna przez 3, gdy suma cyfr jest podzielna przez 3, czyli tylko gdy suma równa się 6 — to zachodzi, gdy dokładnie dwie cyfry to 2. Takich wyników jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mtable><mtr><mtd><mn>4</mn></mtd></mtr><mtr><mtd><mn>2</mn></mtd></mtr></mtable><mo>)</mo><mo>=</mo><mn>6</mn></mrow></math>.</p><p>Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>(</mo><mtext>podzielna</mtext><mo>)</mo><mo>=</mo><mfrac><mn>6</mn><mn>16</mn></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>8</mn></mfrac></mrow></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>(</mo><mtext>niepodzielna</mtext><mo>)</mo><mo>=</mo><mn>1</mn><mo>−</mo><mfrac><mn>3</mn><mn>8</mn></mfrac><mo>=</mo><mfrac><mn>5</mn><mn>8</mn></mfrac></mrow></math>.</p>"
+        "solution_html": "<p>Wszystkich wyników jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2</mn><mn>4</mn></msup><mo>=</mo><mn>16</mn></mrow></math>. Cyframi są tylko 1 i 2, więc suma czterech cyfr wynosi od 4 do 8. Liczba jest podzielna przez 3, gdy suma cyfr jest podzielna przez 3, czyli tylko gdy suma równa się 6 — to zachodzi, gdy dokładnie dwie cyfry to 2. Takich wyników jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mtable><mtr><mtd><mn>4</mn></mtd></mtr><mtr><mtd><mn>2</mn></mtd></mtr></mtable><mo>)</mo><mo>=</mo><mn>6</mn></mrow></math>.</p><p>Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>(</mo><mtext>podzielna</mtext><mo>)</mo><mo>=</mo><mfrac><mn>6</mn><mn>16</mn></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>8</mn></mfrac></mrow></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>(</mo><mtext>niepodzielna</mtext><mo>)</mo><mo>=</mo><mn>1</mn><mo>−</mo><mfrac><mn>3</mn><mn>8</mn></mfrac><mo>=</mo><mfrac><mn>5</mn><mn>8</mn></mfrac></mrow></math>.</p>",
+        "model": {
+          "answer": "D",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -169,7 +199,12 @@
       "figures": [],
       "answer": {
         "correct": "B",
-        "solution_html": "<p>Stężenie to stosunek masy soli do masy całego roztworu. Przyjmując masę soli 1 i masę wody 7, masa roztworu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>+</mo><mn>7</mn><mo>=</mo><mn>8</mn></mrow></math>. Zatem stężenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>8</mn></mfrac><mo>=</mo><mn>12,5</mn><mo>%</mo></mrow></math>.</p>"
+        "solution_html": "<p>Stężenie to stosunek masy soli do masy całego roztworu. Przyjmując masę soli 1 i masę wody 7, masa roztworu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>+</mo><mn>7</mn><mo>=</mo><mn>8</mn></mrow></math>. Zatem stężenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>8</mn></mfrac><mo>=</mo><mn>12,5</mn><mo>%</mo></mrow></math>.</p>",
+        "model": {
+          "answer": "B",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -192,7 +227,12 @@
       "figures": [],
       "answer": {
         "correct": "C",
-        "solution_html": "<p>Rzeczywista długość trasy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mtext> cm</mtext><mo>·</mo><mn>30000</mn><mo>=</mo><mn>450000</mn><mtext> cm</mtext><mo>=</mo><mn>4,5</mn><mtext> km</mtext></mrow></math>. Przy prędkości 6 km/h czas przejścia wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>4,5</mn><mn>6</mn></mfrac><mo>=</mo><mn>0,75</mn><mtext> h</mtext><mo>=</mo><mn>45</mn><mtext> min</mtext></mrow></math>.</p>"
+        "solution_html": "<p>Rzeczywista długość trasy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mtext> cm</mtext><mo>·</mo><mn>30000</mn><mo>=</mo><mn>450000</mn><mtext> cm</mtext><mo>=</mo><mn>4,5</mn><mtext> km</mtext></mrow></math>. Przy prędkości 6 km/h czas przejścia wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>4,5</mn><mn>6</mn></mfrac><mo>=</mo><mn>0,75</mn><mtext> h</mtext><mo>=</mo><mn>45</mn><mtext> min</mtext></mrow></math>.</p>",
+        "model": {
+          "answer": "C",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -216,7 +256,12 @@
       "figures": [],
       "answer": {
         "correct": "D",
-        "solution_html": "<p>Pole podłogi: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3,5</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>14</mn></mrow></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>m</mtext><mn>2</mn></msup></math>. Malowanie dwukrotne to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>14</mn><mo>=</mo><mn>28</mn></mrow></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>m</mtext><mn>2</mn></msup></math>. Zużyty lakier: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>28</mn><mn>10</mn></mfrac><mo>=</mo><mn>2,8</mn></mrow></math> l. W puszce zostanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>−</mo><mn>2,8</mn><mo>=</mo><mn>0,2</mn></mrow></math> l.</p>"
+        "solution_html": "<p>Pole podłogi: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3,5</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>14</mn></mrow></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>m</mtext><mn>2</mn></msup></math>. Malowanie dwukrotne to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>14</mn><mo>=</mo><mn>28</mn></mrow></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>m</mtext><mn>2</mn></msup></math>. Zużyty lakier: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>28</mn><mn>10</mn></mfrac><mo>=</mo><mn>2,8</mn></mrow></math> l. W puszce zostanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>−</mo><mn>2,8</mn><mo>=</mo><mn>0,2</mn></mrow></math> l.</p>",
+        "model": {
+          "answer": "D",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -240,7 +285,12 @@
       "figures": [],
       "answer": {
         "correct": "A",
-        "solution_html": "<p>Dla trójkąta równobocznego o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> obwód wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>a</mi></mrow></math>, a wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac></math>. Stosunek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>3</mn><mi>a</mi></mrow><mfrac><mrow><mi>a</mi><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac></mfrac><mo>=</mo><mfrac><mn>6</mn><msqrt><mn>3</mn></msqrt></mfrac><mo>=</mo><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow></math>.</p>"
+        "solution_html": "<p>Dla trójkąta równobocznego o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> obwód wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>a</mi></mrow></math>, a wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac></math>. Stosunek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>3</mn><mi>a</mi></mrow><mfrac><mrow><mi>a</mi><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac></mfrac><mo>=</mo><mfrac><mn>6</mn><msqrt><mn>3</mn></msqrt></mfrac><mo>=</mo><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow></math>.</p>",
+        "model": {
+          "answer": "A",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -263,7 +313,12 @@
       "figures": [],
       "answer": {
         "correct": "C",
-        "solution_html": "<p>Ściany boczne graniastosłupa prawidłowego trójkątnego to prostokąty; są wielokątami foremnymi, gdy są kwadratami. Zatem krawędź podstawy jest równa wysokości graniastosłupa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mi>H</mi></mrow></math>. Pole powierzchni bocznej to trzy kwadraty: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>48</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>16</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>4</mn></mrow></math>.</p><p>Pole podstawy (trójkąt równoboczny): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mfrac><mrow><mn>16</mn><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mn>4</mn><msqrt><mn>3</mn></msqrt></mrow></math>. Objętość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>V</mi><mo>=</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><mn>4</mn><mo>=</mo><mn>16</mn><msqrt><mn>3</mn></msqrt></mrow></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>cm</mtext><mn>3</mn></msup></math>.</p>"
+        "solution_html": "<p>Ściany boczne graniastosłupa prawidłowego trójkątnego to prostokąty; są wielokątami foremnymi, gdy są kwadratami. Zatem krawędź podstawy jest równa wysokości graniastosłupa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mi>H</mi></mrow></math>. Pole powierzchni bocznej to trzy kwadraty: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>48</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>16</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>4</mn></mrow></math>.</p><p>Pole podstawy (trójkąt równoboczny): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mfrac><mrow><mn>16</mn><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mn>4</mn><msqrt><mn>3</mn></msqrt></mrow></math>. Objętość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>V</mi><mo>=</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><mn>4</mn><mo>=</mo><mn>16</mn><msqrt><mn>3</mn></msqrt></mrow></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>cm</mtext><mn>3</mn></msup></math>.</p>",
+        "model": {
+          "answer": "C",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -286,7 +341,12 @@
       "figures": [],
       "answer": {
         "correct": "A",
-        "solution_html": "<p>Obliczamy długości boków ze wzoru na odległość punktów:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><msqrt><mrow><msup><mn>5</mn><mn>2</mn></msup><mo>+</mo><msup><mn>4</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>41</mn></msqrt></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>BC</mi><mo>|</mo><mo>=</mo><msqrt><mrow><msup><mn>5</mn><mn>2</mn></msup><mo>+</mo><msup><mn>2</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>29</mn></msqrt></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AC</mi><mo>|</mo><mo>=</mo><msqrt><mrow><msup><mn>0</mn><mn>2</mn></msup><mo>+</mo><msup><mn>6</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>6</mn></mrow></math>.</p><p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>41</mn></msqrt><mo>&gt;</mo><mn>6</mn><mo>&gt;</mo><msqrt><mn>29</mn></msqrt></mrow></math>, najdłuższy bok ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>41</mn></msqrt></math>.</p>"
+        "solution_html": "<p>Obliczamy długości boków ze wzoru na odległość punktów:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><msqrt><mrow><msup><mn>5</mn><mn>2</mn></msup><mo>+</mo><msup><mn>4</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>41</mn></msqrt></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>BC</mi><mo>|</mo><mo>=</mo><msqrt><mrow><msup><mn>5</mn><mn>2</mn></msup><mo>+</mo><msup><mn>2</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>29</mn></msqrt></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AC</mi><mo>|</mo><mo>=</mo><msqrt><mrow><msup><mn>0</mn><mn>2</mn></msup><mo>+</mo><msup><mn>6</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>6</mn></mrow></math>.</p><p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>41</mn></msqrt><mo>&gt;</mo><mn>6</mn><mo>&gt;</mo><msqrt><mn>29</mn></msqrt></mrow></math>, najdłuższy bok ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>41</mn></msqrt></math>.</p>",
+        "model": {
+          "answer": "A",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -308,7 +368,12 @@
       "figures": [],
       "answer": {
         "correct": "C",
-        "solution_html": "<p>Rok 2022 nie jest przestępny. Skoro 1 stycznia to sobota, soboty stycznia wypadają 1, 8, 15, 22, 29, więc 31 stycznia to poniedziałek.</p><p><strong>A.</strong> Luty zaczyna się we wtorek; soboty to 5, 12, 19, 26 — tylko 4 soboty (fałsz).</p><p><strong>B.</strong> 1 kwietnia to piątek; soboty to 2, 9, 16, 23, 30 — 5 sobót (fałsz).</p><p><strong>C.</strong> 1 maja to niedziela; soboty to 7, 14, 21, 28 — dokładnie 4 soboty (prawda).</p><p><strong>D.</strong> 1 grudnia to czwartek; soboty to 3, 10, 17, 24, 31 — 5 sobót (fałsz).</p><p>Prawdziwe jest zdanie C.</p>"
+        "solution_html": "<p>Rok 2022 nie jest przestępny. Skoro 1 stycznia to sobota, soboty stycznia wypadają 1, 8, 15, 22, 29, więc 31 stycznia to poniedziałek.</p><p><strong>A.</strong> Luty zaczyna się we wtorek; soboty to 5, 12, 19, 26 — tylko 4 soboty (fałsz).</p><p><strong>B.</strong> 1 kwietnia to piątek; soboty to 2, 9, 16, 23, 30 — 5 sobót (fałsz).</p><p><strong>C.</strong> 1 maja to niedziela; soboty to 7, 14, 21, 28 — dokładnie 4 soboty (prawda).</p><p><strong>D.</strong> 1 grudnia to czwartek; soboty to 3, 10, 17, 24, 31 — 5 sobót (fałsz).</p><p>Prawdziwe jest zdanie C.</p>",
+        "model": {
+          "answer": "C",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -331,7 +396,12 @@
       "figures": [],
       "answer": {
         "correct": "A",
-        "solution_html": "<p>Z warunków zadania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>0,38</mn><mi>x</mi></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>0,57</mn><mi>z</mi></mrow></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,38</mn><mi>x</mi><mo>=</mo><mn>0,57</mn><mi>z</mi></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mfrac><mn>0,57</mn><mn>0,38</mn></mfrac><mi>z</mi><mo>=</mo><mn>1,5</mn><mi>z</mi></mrow></math>.</p>"
+        "solution_html": "<p>Z warunków zadania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>0,38</mn><mi>x</mi></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>0,57</mn><mi>z</mi></mrow></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,38</mn><mi>x</mi><mo>=</mo><mn>0,57</mn><mi>z</mi></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mfrac><mn>0,57</mn><mn>0,38</mn></mfrac><mi>z</mi><mo>=</mo><mn>1,5</mn><mi>z</mi></mrow></math>.</p>",
+        "model": {
+          "answer": "A",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -354,7 +424,12 @@
       "figures": [],
       "answer": {
         "correct": "B",
-        "solution_html": "<p>Trzy osoby dały średnio po 14 zł, więc łącznie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>14</mn><mo>=</mo><mn>42</mn></mrow></math> zł. Niech Janek dał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>j</mi></math> zł. Gdyby dał dwa razy tyle, suma wzrosłaby o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>j</mi></math>, a nowa średnia wyniosłaby 18 zł, czyli suma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>18</mn><mo>=</mo><mn>54</mn></mrow></math> zł.</p><p>Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>42</mn><mo>+</mo><mi>j</mi><mo>=</mo><mn>54</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>j</mi><mo>=</mo><mn>12</mn></mrow></math> zł.</p>"
+        "solution_html": "<p>Trzy osoby dały średnio po 14 zł, więc łącznie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>14</mn><mo>=</mo><mn>42</mn></mrow></math> zł. Niech Janek dał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>j</mi></math> zł. Gdyby dał dwa razy tyle, suma wzrosłaby o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>j</mi></math>, a nowa średnia wyniosłaby 18 zł, czyli suma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>18</mn><mo>=</mo><mn>54</mn></mrow></math> zł.</p><p>Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>42</mn><mo>+</mo><mi>j</mi><mo>=</mo><mn>54</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>j</mi><mo>=</mo><mn>12</mn></mrow></math> zł.</p>",
+        "model": {
+          "answer": "B",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -377,7 +452,12 @@
       "figures": [],
       "answer": {
         "correct": "B",
-        "solution_html": "<p>Paweł maluje w ciągu dnia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>6</mn></mfrac></math> pokoju, a Gaweł <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>9</mn></mfrac></math>. Razem w ciągu dnia malują <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>6</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>9</mn></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>18</mn></mfrac><mo>+</mo><mfrac><mn>2</mn><mn>18</mn></mfrac><mo>=</mo><mfrac><mn>5</mn><mn>18</mn></mfrac></mrow></math> pokoju.</p><p>Czas wspólnej pracy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>:</mo><mfrac><mn>5</mn><mn>18</mn></mfrac><mo>=</mo><mfrac><mn>18</mn><mn>5</mn></mfrac><mo>=</mo><mn>3,6</mn></mrow></math> dnia.</p>"
+        "solution_html": "<p>Paweł maluje w ciągu dnia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>6</mn></mfrac></math> pokoju, a Gaweł <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>9</mn></mfrac></math>. Razem w ciągu dnia malują <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>6</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>9</mn></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>18</mn></mfrac><mo>+</mo><mfrac><mn>2</mn><mn>18</mn></mfrac><mo>=</mo><mfrac><mn>5</mn><mn>18</mn></mfrac></mrow></math> pokoju.</p><p>Czas wspólnej pracy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>:</mo><mfrac><mn>5</mn><mn>18</mn></mfrac><mo>=</mo><mfrac><mn>18</mn><mn>5</mn></mfrac><mo>=</mo><mn>3,6</mn></mrow></math> dnia.</p>",
+        "model": {
+          "answer": "B",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -397,7 +477,12 @@
       "figures": [],
       "answer": {
         "correct": "PF",
-        "solution_html": "<p><strong>A. PRAWDA</strong> — czas przejazdu to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>200</mn><mn>62</mn></mfrac><mo>≈</mo><mn>3,23</mn></mrow></math> h, co jest więcej niż 3,2 h.</p><p><strong>B. FAŁSZ</strong> — <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>650</mn><mfrac><mtext>m</mtext><mtext>min</mtext></mfrac><mo>=</mo><mn>39</mn><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac></mrow></math>, więc w ciągu 4,7 h samochód pokona <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>39</mn><mo>·</mo><mn>4,7</mn><mo>=</mo><mn>183,3</mn></mrow></math> km, czyli mniej niż 185 km.</p>"
+        "solution_html": "<p><strong>A. PRAWDA</strong> — czas przejazdu to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>200</mn><mn>62</mn></mfrac><mo>≈</mo><mn>3,23</mn></mrow></math> h, co jest więcej niż 3,2 h.</p><p><strong>B. FAŁSZ</strong> — <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>650</mn><mfrac><mtext>m</mtext><mtext>min</mtext></mfrac><mo>=</mo><mn>39</mn><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac></mrow></math>, więc w ciągu 4,7 h samochód pokona <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>39</mn><mo>·</mo><mn>4,7</mn><mo>=</mo><mn>183,3</mn></mrow></math> km, czyli mniej niż 185 km.</p>",
+        "model": {
+          "answer": "PF",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -419,7 +504,12 @@
       "figures": [],
       "answer": {
         "correct": "PF",
-        "solution_html": "<p><strong>A. PRAWDA</strong> — <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>16</mn><mo>≡</mo><mn>1</mn></mrow></math> (mod 5), więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>16</mn><mn>2023</mn></msup><mo>≡</mo><mn>1</mn></mrow></math> (mod 5), a zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>16</mn><mn>2023</mn></msup><mo>−</mo><mn>1</mn></mrow></math> jest podzielne przez 5. (Można też zauważyć, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>16</mn><mn>2023</mn></msup></math> kończy się cyfrą 6, więc różnica kończy się cyfrą 5.)</p><p><strong>B. FAŁSZ</strong> — <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>7</mn><mn>2023</mn></msup><mo>·</mo><msup><mn>3</mn><mn>2023</mn></msup><mo>=</mo><msup><mn>21</mn><mn>2023</mn></msup></mrow></math> jest liczbą nieparzystą, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>5</mn><mn>2023</mn></msup><mo>·</mo><msup><mn>2</mn><mn>2023</mn></msup><mo>=</mo><msup><mn>10</mn><mn>2023</mn></msup></mrow></math> jest parzysta. Różnica nieparzysta − parzysta jest nieparzysta, więc reszta z dzielenia przez 2 wynosi 1, a nie 0.</p>"
+        "solution_html": "<p><strong>A. PRAWDA</strong> — <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>16</mn><mo>≡</mo><mn>1</mn></mrow></math> (mod 5), więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>16</mn><mn>2023</mn></msup><mo>≡</mo><mn>1</mn></mrow></math> (mod 5), a zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>16</mn><mn>2023</mn></msup><mo>−</mo><mn>1</mn></mrow></math> jest podzielne przez 5. (Można też zauważyć, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>16</mn><mn>2023</mn></msup></math> kończy się cyfrą 6, więc różnica kończy się cyfrą 5.)</p><p><strong>B. FAŁSZ</strong> — <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>7</mn><mn>2023</mn></msup><mo>·</mo><msup><mn>3</mn><mn>2023</mn></msup><mo>=</mo><msup><mn>21</mn><mn>2023</mn></msup></mrow></math> jest liczbą nieparzystą, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>5</mn><mn>2023</mn></msup><mo>·</mo><msup><mn>2</mn><mn>2023</mn></msup><mo>=</mo><msup><mn>10</mn><mn>2023</mn></msup></mrow></math> jest parzysta. Różnica nieparzysta − parzysta jest nieparzysta, więc reszta z dzielenia przez 2 wynosi 1, a nie 0.</p>",
+        "model": {
+          "answer": "PF",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     }
   ]

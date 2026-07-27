@@ -26,7 +26,12 @@
       ],
       "answer": {
         "correct": "W puste pola wpisujemy: 4, 3, 5, 8, 3. Wiersze: 4·2+4=12, 10+6:3=12, 5+8−3=10.",
-        "solution_html": "<p>Uzupełniamy puste białe pola tak, aby zgadzały się działania w wierszach i kolumnach:</p><ul><li>górny wiersz: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>2</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>12</mn></math></li><li>środkowy wiersz: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>+</mo><mn>6</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>12</mn></math></li><li>dolny wiersz: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>+</mo><mn>8</mn><mo>−</mo><mn>3</mn><mo>=</mo><mn>10</mn></math></li><li>lewa kolumna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>+</mo><mn>10</mn><mo>−</mo><mn>5</mn><mo>=</mo><mn>9</mn></math></li><li>środkowa kolumna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>6</mn><mo>−</mo><mn>8</mn><mo>=</mo><mn>4</mn></math></li><li>prawa kolumna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>−</mo><mn>3</mn><mo>+</mo><mn>3</mn><mo>=</mo><mn>4</mn></math></li></ul><p>Punktacja: za poprawnie rozwiązaną krzyżówkę 3 punkty, przy 1 błędzie 2 punkty, przy 2 błędach 1 punkt.</p>"
+        "solution_html": "<p>Uzupełniamy puste białe pola tak, aby zgadzały się działania w wierszach i kolumnach:</p><ul><li>górny wiersz: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>2</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>12</mn></math></li><li>środkowy wiersz: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>+</mo><mn>6</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>12</mn></math></li><li>dolny wiersz: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>+</mo><mn>8</mn><mo>−</mo><mn>3</mn><mo>=</mo><mn>10</mn></math></li><li>lewa kolumna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>+</mo><mn>10</mn><mo>−</mo><mn>5</mn><mo>=</mo><mn>9</mn></math></li><li>środkowa kolumna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>6</mn><mo>−</mo><mn>8</mn><mo>=</mo><mn>4</mn></math></li><li>prawa kolumna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>−</mo><mn>3</mn><mo>+</mo><mn>3</mn><mo>=</mo><mn>4</mn></math></li></ul><p>Punktacja: za poprawnie rozwiązaną krzyżówkę 3 punkty, przy 1 błędzie 2 punkty, przy 2 błędach 1 punkt.</p>",
+        "model": {
+          "answer": "Wiersz 1: 4 · 2 + 4 = 12; Wiersz 3: 10 + 6 : 3 = 12; Wiersz 5: 5 + 8 − 3 = 10",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -43,7 +48,12 @@
       "figures": [],
       "answer": {
         "correct": "A) (15+5)·(32:4)=160;  B) 100−(25+75:5)=60",
-        "solution_html": "<p>A) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>15</mn><mo>+</mo><mn>5</mn><mo>)</mo><mo>·</mo><mo>(</mo><mn>32</mn><mo>:</mo><mn>4</mn><mo>)</mo><mo>=</mo><mn>20</mn><mo>·</mo><mn>8</mn><mo>=</mo><mn>160</mn></math></p><p>B) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>−</mo><mo>(</mo><mn>25</mn><mo>+</mo><mn>75</mn><mo>:</mo><mn>5</mn><mo>)</mo><mo>=</mo><mn>100</mn><mo>−</mo><mn>40</mn><mo>=</mo><mn>60</mn></math></p><p>Punktacja: 2 punkty za poprawne wstawienie nawiasów w obu wyrażeniach, 1 punkt za poprawne wstawienie nawiasów w jednym z nich.</p>"
+        "solution_html": "<p>A) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>15</mn><mo>+</mo><mn>5</mn><mo>)</mo><mo>·</mo><mo>(</mo><mn>32</mn><mo>:</mo><mn>4</mn><mo>)</mo><mo>=</mo><mn>20</mn><mo>·</mo><mn>8</mn><mo>=</mo><mn>160</mn></math></p><p>B) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>−</mo><mo>(</mo><mn>25</mn><mo>+</mo><mn>75</mn><mo>:</mo><mn>5</mn><mo>)</mo><mo>=</mo><mn>100</mn><mo>−</mo><mn>40</mn><mo>=</mo><mn>60</mn></math></p><p>Punktacja: 2 punkty za poprawne wstawienie nawiasów w obu wyrażeniach, 1 punkt za poprawne wstawienie nawiasów w jednym z nich.</p>",
+        "model": {
+          "answer": "A) (15+5)·32:4=160; B) 100−(25+75:5)=60",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -77,7 +87,12 @@
       "figures": [],
       "answer": {
         "correct": "D",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "D",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -111,7 +126,12 @@
       "figures": [],
       "answer": {
         "correct": "D",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "D",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -145,7 +165,12 @@
       "figures": [],
       "answer": {
         "correct": "A",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "A",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -179,7 +204,12 @@
       "figures": [],
       "answer": {
         "correct": "D",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "D",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -213,7 +243,12 @@
       "figures": [],
       "answer": {
         "correct": "C",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "C",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -248,7 +283,12 @@
       "figures": [],
       "answer": {
         "correct": "B",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "B",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -282,7 +322,12 @@
       "figures": [],
       "answer": {
         "correct": "B",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "B",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -316,7 +361,12 @@
       "figures": [],
       "answer": {
         "correct": "C",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "C",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -350,7 +400,12 @@
       "figures": [],
       "answer": {
         "correct": "A",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "A",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -386,7 +441,12 @@
       ],
       "answer": {
         "correct": "A",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "A",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -420,7 +480,13 @@
       "figures": [],
       "answer": {
         "correct": "C",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "D",
+          "by": "sonnet",
+          "agrees": false,
+          "solution_html": "<p>Mapę orientuje się tak, aby igła kompasu (wskazująca północ) była równoległa do kierunku północy na mapie, czyli wzdłuż górnej krawędzi mapy (standardowo góra mapy = północ).</p>"
+        }
       }
     },
     {
@@ -437,7 +503,12 @@
       "figures": [],
       "answer": {
         "correct": "36 mm na 72 mm",
-        "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>90</mn><mtext> cm</mtext><mo>:</mo><mn>25</mn><mo>=</mo><mn>3,6</mn><mtext> cm</mtext></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>180</mn><mtext> cm</mtext><mo>:</mo><mn>25</mn><mo>=</mo><mn>7,2</mn><mtext> cm</mtext></math>. Po zamianie na milimetry: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3,6</mn><mtext> cm</mtext><mo>=</mo><mn>36</mn><mtext> mm</mtext></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7,2</mn><mtext> cm</mtext><mo>=</mo><mn>72</mn><mtext> mm</mtext></math>. Wymiary stołu w skali to 36 mm na 72 mm.</p><p>Punktacja: 1 pkt za poprawną metodę obliczenia wymiarów, 1 pkt za poprawny wynik obliczeń, 1 pkt za zamianę cm na mm.</p>"
+        "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>90</mn><mtext> cm</mtext><mo>:</mo><mn>25</mn><mo>=</mo><mn>3,6</mn><mtext> cm</mtext></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>180</mn><mtext> cm</mtext><mo>:</mo><mn>25</mn><mo>=</mo><mn>7,2</mn><mtext> cm</mtext></math>. Po zamianie na milimetry: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3,6</mn><mtext> cm</mtext><mo>=</mo><mn>36</mn><mtext> mm</mtext></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7,2</mn><mtext> cm</mtext><mo>=</mo><mn>72</mn><mtext> mm</mtext></math>. Wymiary stołu w skali to 36 mm na 72 mm.</p><p>Punktacja: 1 pkt za poprawną metodę obliczenia wymiarów, 1 pkt za poprawny wynik obliczeń, 1 pkt za zamianę cm na mm.</p>",
+        "model": {
+          "answer": "36 mm × 72 mm",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -457,7 +528,12 @@
       ],
       "answer": {
         "correct": "A. kotlina;  B. wzniesienie o dwóch wierzchołkach",
-        "solution_html": "<p>A. kotlina (poziomice mają coraz mniejsze wartości ku środkowi).</p><p>B. wzniesienie o dwóch wierzchołkach (dwa punkty szczytowe 725 i 692).</p><p>Punktacja: po 1 pkt za każdą poprawną odpowiedź.</p>"
+        "solution_html": "<p>A. kotlina (poziomice mają coraz mniejsze wartości ku środkowi).</p><p>B. wzniesienie o dwóch wierzchołkach (dwa punkty szczytowe 725 i 692).</p><p>Punktacja: po 1 pkt za każdą poprawną odpowiedź.</p>",
+        "model": {
+          "answer": "A – wzniesienie o jednym wierzchołku; B – wzniesienie o dwóch wierzchołkach",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -476,7 +552,12 @@
       ],
       "answer": {
         "correct": "A. południowo-wschodnim;  B. północno-wschodniej (dopuszczalne: północnej)",
-        "solution_html": "<p>A. Rzeka płynie w kierunku południowo-wschodnim.</p><p>B. Łagodne zbocze doliny rzecznej znajduje się od strony północno-wschodniej (dopuszczalna odpowiedź: północnej).</p><p>Punktacja: po 1 pkt za każdą poprawną odpowiedź.</p>"
+        "solution_html": "<p>A. Rzeka płynie w kierunku południowo-wschodnim.</p><p>B. Łagodne zbocze doliny rzecznej znajduje się od strony północno-wschodniej (dopuszczalna odpowiedź: północnej).</p><p>Punktacja: po 1 pkt za każdą poprawną odpowiedź.</p>",
+        "model": {
+          "answer": "A. w kierunku południowo-wschodnim; B. od strony północno-wschodniej",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -495,7 +576,12 @@
       ],
       "answer": {
         "correct": "A. 250 m n.p.m.;  B. 200 m",
-        "solution_html": "<p>A. Wysokość bezwzględna szczytu B wynosi 250 m n.p.m.</p><p>B. Punkt A leży na wysokości 50 m n.p.m., więc wysokość względna szczytu B względem punktu A wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>250</mn><mtext> m</mtext><mo>−</mo><mn>50</mn><mtext> m</mtext><mo>=</mo><mn>200</mn><mtext> m</mtext></math>.</p><p>Punktacja: po 1 pkt za każdą poprawną odpowiedź.</p>"
+        "solution_html": "<p>A. Wysokość bezwzględna szczytu B wynosi 250 m n.p.m.</p><p>B. Punkt A leży na wysokości 50 m n.p.m., więc wysokość względna szczytu B względem punktu A wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>250</mn><mtext> m</mtext><mo>−</mo><mn>50</mn><mtext> m</mtext><mo>=</mo><mn>200</mn><mtext> m</mtext></math>.</p><p>Punktacja: po 1 pkt za każdą poprawną odpowiedź.</p>",
+        "model": {
+          "answer": "A) 250 m n.p.m.; B) 200 m",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -512,7 +598,12 @@
       "figures": [],
       "answer": {
         "correct": "Opady atmosferyczne – deszczomierz, milimetr (mm); Ciśnienie atmosferyczne – barometr, hektopaskal (hPa); Kierunek i prędkość wiatru – wiatromierz, kilometr na godzinę (km/h); Temperatura powietrza – termometr, stopień Celsjusza (°C).",
-        "solution_html": "<table><thead><tr><th>Składnik pogody</th><th>Przyrząd</th><th>Jednostka pomiaru</th></tr></thead><tbody><tr><td>Opady atmosferyczne</td><td>deszczomierz</td><td>milimetr (mm)</td></tr><tr><td>Ciśnienie atmosferyczne</td><td>barometr</td><td>hektopaskal (hPa)</td></tr><tr><td>Kierunek i prędkość wiatru</td><td>wiatromierz</td><td>kilometr na godzinę (km/h)</td></tr><tr><td>Temperatura powietrza</td><td>termometr</td><td>stopień Celsjusza (°C)</td></tr></tbody></table><p>Punktacja: po 1 pkt za każdy prawidłowo wypełniony wiersz.</p>"
+        "solution_html": "<table><thead><tr><th>Składnik pogody</th><th>Przyrząd</th><th>Jednostka pomiaru</th></tr></thead><tbody><tr><td>Opady atmosferyczne</td><td>deszczomierz</td><td>milimetr (mm)</td></tr><tr><td>Ciśnienie atmosferyczne</td><td>barometr</td><td>hektopaskal (hPa)</td></tr><tr><td>Kierunek i prędkość wiatru</td><td>wiatromierz</td><td>kilometr na godzinę (km/h)</td></tr><tr><td>Temperatura powietrza</td><td>termometr</td><td>stopień Celsjusza (°C)</td></tr></tbody></table><p>Punktacja: po 1 pkt za każdy prawidłowo wypełniony wiersz.</p>",
+        "model": {
+          "answer": "Opady atmosferyczne – deszczomierz – milimetr (mm); Ciśnienie atmosferyczne – barometr – hektopaskal (hPa); Kierunek i prędkość wiatru – wiatromierz – kilometr na godzinę (km/h); Temperatura powietrza – termometr – stopień Celsjusza (°C)",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -547,7 +638,12 @@
       "figures": [],
       "answer": {
         "correct": "FFPF",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "FFPF",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -582,7 +678,12 @@
       "figures": [],
       "answer": {
         "correct": "FPFP",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "FPFP",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -599,7 +700,12 @@
       "figures": [],
       "answer": {
         "correct": "60 zł",
-        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza cenę gry. Chłopcy dysponują łącznie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac><mi>x</mi><mo>+</mo><mn>0,6</mn><mi>x</mi><mo>=</mo><mn>1,35</mn><mi>x</mi></math>. Po zakupie gry zostaje im 21 zł, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,35</mn><mi>x</mi><mo>=</mo><mi>x</mi><mo>+</mo><mn>21</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,35</mn><mi>x</mi><mo>=</mo><mn>21</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>60</mn></math>. Gra kosztowała 60 zł.</p><p>Punktacja: 1 pkt za zapis zależności między ceną gry a oszczędnościami, 1 pkt za ułożenie równania, 1 pkt za obliczenie ceny gry (60 zł).</p>"
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza cenę gry. Chłopcy dysponują łącznie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac><mi>x</mi><mo>+</mo><mn>0,6</mn><mi>x</mi><mo>=</mo><mn>1,35</mn><mi>x</mi></math>. Po zakupie gry zostaje im 21 zł, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,35</mn><mi>x</mi><mo>=</mo><mi>x</mi><mo>+</mo><mn>21</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,35</mn><mi>x</mi><mo>=</mo><mn>21</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>60</mn></math>. Gra kosztowała 60 zł.</p><p>Punktacja: 1 pkt za zapis zależności między ceną gry a oszczędnościami, 1 pkt za ułożenie równania, 1 pkt za obliczenie ceny gry (60 zł).</p>",
+        "model": {
+          "answer": "60 zł",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -619,7 +725,12 @@
       ],
       "answer": {
         "correct": "4,5 cm²",
-        "solution_html": "<p>Długość przekątnej zacieniowanego kwadratu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>−</mo><mn>7</mn><mo>=</mo><mn>3</mn></math> cm. Pole kwadratu o przekątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>d</mi><mo>·</mo><mi>d</mi></mrow><mn>2</mn></mfrac></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mo>·</mo><mn>3</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>4,5</mn></math> cm².</p><p>Punktacja: 1 pkt za obliczenie długości przekątnej kwadratu, 1 pkt za obliczenie pola kwadratu.</p>"
+        "solution_html": "<p>Długość przekątnej zacieniowanego kwadratu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>−</mo><mn>7</mn><mo>=</mo><mn>3</mn></math> cm. Pole kwadratu o przekątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>d</mi><mo>·</mo><mi>d</mi></mrow><mn>2</mn></mfrac></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mo>·</mo><mn>3</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>4,5</mn></math> cm².</p><p>Punktacja: 1 pkt za obliczenie długości przekątnej kwadratu, 1 pkt za obliczenie pola kwadratu.</p>",
+        "model": {
+          "answer": "4,5 cm²",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -637,7 +748,12 @@
       "figures": [],
       "answer": {
         "correct": "31 paczek",
-        "solution_html": "<p>Pole podłogi: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>6</mn></math> m². Pole ścian do wysokości 2 m: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mo>(</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>)</mo><mo>+</mo><mn>2</mn><mo>·</mo><mo>(</mo><mn>2</mn><mo>·</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>20</mn></math> m². Razem 26 m². Po odjęciu powierzchni drzwi: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>26</mn><mo>−</mo><mn>1,6</mn><mo>=</mo><mn>24,4</mn></math> m². Pole jednego kafelka: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mtext> cm</mtext><mo>·</mo><mn>20</mn><mtext> cm</mtext><mo>=</mo><mn>400</mn></math> cm² <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>0,04</mn></math> m². Liczba kafelków: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24,4</mn><mo>:</mo><mn>0,04</mn><mo>=</mo><mn>610</mn></math>. Liczba paczek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>610</mn><mo>:</mo><mn>20</mn><mo>=</mo><mn>30,5</mn></math>, więc trzeba kupić 31 paczek kafelków.</p><p>Punktacja: 1 pkt za pole podłogi i ścian z drzwiami lub pole kafelka, 2 pkt za pole podłogi i ścian bez drzwi oraz pole kafelka, 3 pkt za liczbę kafelków, 4 pkt za liczbę paczek i podanie odpowiedzi (31 paczek).</p>"
+        "solution_html": "<p>Pole podłogi: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>6</mn></math> m². Pole ścian do wysokości 2 m: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mo>(</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>)</mo><mo>+</mo><mn>2</mn><mo>·</mo><mo>(</mo><mn>2</mn><mo>·</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>20</mn></math> m². Razem 26 m². Po odjęciu powierzchni drzwi: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>26</mn><mo>−</mo><mn>1,6</mn><mo>=</mo><mn>24,4</mn></math> m². Pole jednego kafelka: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mtext> cm</mtext><mo>·</mo><mn>20</mn><mtext> cm</mtext><mo>=</mo><mn>400</mn></math> cm² <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>0,04</mn></math> m². Liczba kafelków: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24,4</mn><mo>:</mo><mn>0,04</mn><mo>=</mo><mn>610</mn></math>. Liczba paczek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>610</mn><mo>:</mo><mn>20</mn><mo>=</mo><mn>30,5</mn></math>, więc trzeba kupić 31 paczek kafelków.</p><p>Punktacja: 1 pkt za pole podłogi i ścian z drzwiami lub pole kafelka, 2 pkt za pole podłogi i ścian bez drzwi oraz pole kafelka, 3 pkt za liczbę kafelków, 4 pkt za liczbę paczek i podanie odpowiedzi (31 paczek).</p>",
+        "model": {
+          "answer": "31 paczek",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -654,7 +770,12 @@
       "figures": [],
       "answer": {
         "correct": "spódnica: 1,2 m (1 m 2 dm), żakiet: 1,6 m (1 m 6 dm)",
-        "solution_html": "<p>Oznaczmy przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi></math> ilość materiału na jedną spódnicę, a przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi></math> na jeden żakiet (w metrach). Z treści zadania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>s</mi><mo>+</mo><mn>5</mn><mi>z</mi><mo>=</mo><mn>15,2</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mi>s</mi><mo>+</mo><mn>7</mn><mi>z</mi><mo>=</mo><mn>25,6</mn></math>. Podwajając pierwsze równanie otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mi>s</mi><mo>+</mo><mn>10</mn><mi>z</mi><mo>=</mo><mn>30,4</mn></math>. Odejmując od niego drugie równanie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>z</mi><mo>=</mo><mn>30,4</mn><mo>−</mo><mn>25,6</mn><mo>=</mo><mn>4,8</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi><mo>=</mo><mn>1,6</mn></math> m. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>=</mo><mo>(</mo><mn>15,2</mn><mo>−</mo><mn>5</mn><mo>·</mo><mn>1,6</mn><mo>)</mo><mo>:</mo><mn>6</mn><mo>=</mo><mn>1,2</mn></math> m. Na jedną spódnicę potrzeba 1,2 m (1 m 2 dm), a na jeden żakiet 1,6 m (1 m 6 dm) materiału.</p><p>Punktacja: 1 pkt za obliczenie ilości materiału na 12 spódnic i 10 żakietów, 1 pkt za ilość na 3 żakiety, 1 pkt za ilość na 1 żakiet, 1 pkt za ilość na 1 spódnicę.</p>"
+        "solution_html": "<p>Oznaczmy przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi></math> ilość materiału na jedną spódnicę, a przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi></math> na jeden żakiet (w metrach). Z treści zadania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>s</mi><mo>+</mo><mn>5</mn><mi>z</mi><mo>=</mo><mn>15,2</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mi>s</mi><mo>+</mo><mn>7</mn><mi>z</mi><mo>=</mo><mn>25,6</mn></math>. Podwajając pierwsze równanie otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mi>s</mi><mo>+</mo><mn>10</mn><mi>z</mi><mo>=</mo><mn>30,4</mn></math>. Odejmując od niego drugie równanie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>z</mi><mo>=</mo><mn>30,4</mn><mo>−</mo><mn>25,6</mn><mo>=</mo><mn>4,8</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi><mo>=</mo><mn>1,6</mn></math> m. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mo>=</mo><mo>(</mo><mn>15,2</mn><mo>−</mo><mn>5</mn><mo>·</mo><mn>1,6</mn><mo>)</mo><mo>:</mo><mn>6</mn><mo>=</mo><mn>1,2</mn></math> m. Na jedną spódnicę potrzeba 1,2 m (1 m 2 dm), a na jeden żakiet 1,6 m (1 m 6 dm) materiału.</p><p>Punktacja: 1 pkt za obliczenie ilości materiału na 12 spódnic i 10 żakietów, 1 pkt za ilość na 3 żakiety, 1 pkt za ilość na 1 żakiet, 1 pkt za ilość na 1 spódnicę.</p>",
+        "model": {
+          "answer": "spódnica: 1,2 m; żakiet: 1,6 m",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     }
   ]

@@ -38,7 +38,12 @@
       "figures": [],
       "answer": {
         "correct": "PPF",
-        "solution_html": "<p>Soboty wypadają co 7 dni, więc numery kolejnych sobót są na przemian parzyste i nieparzyste. Aby trzy soboty przypadły w dni parzyste, pierwsza sobota musi wypaść drugiego dnia miesiąca — wtedy soboty przypadają na dni 2, 9, 16, 23, 30 (parzyste: 2, 16, 30).</p><ul><li>9. dnia była sobota — <strong>TAK</strong>.</li><li>16. dnia była sobota — <strong>TAK</strong>.</li><li>29. dnia była sobota? Nie, sobota wypadła 30. dnia — <strong>NIE</strong>.</li></ul>"
+        "solution_html": "<p>Soboty wypadają co 7 dni, więc numery kolejnych sobót są na przemian parzyste i nieparzyste. Aby trzy soboty przypadły w dni parzyste, pierwsza sobota musi wypaść drugiego dnia miesiąca — wtedy soboty przypadają na dni 2, 9, 16, 23, 30 (parzyste: 2, 16, 30).</p><ul><li>9. dnia była sobota — <strong>TAK</strong>.</li><li>16. dnia była sobota — <strong>TAK</strong>.</li><li>29. dnia była sobota? Nie, sobota wypadła 30. dnia — <strong>NIE</strong>.</li></ul>",
+        "model": {
+          "answer": "PPF",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -68,7 +73,12 @@
       "figures": [],
       "answer": {
         "correct": "FFP",
-        "solution_html": "<p>Skoro 3300 plakatów to o 20% więcej niż plan, plan wynosił <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3300</mn><mo>:</mo><mn>1,2</mn><mo>=</mo><mn>2750</mn></math> plakatów.</p><ul><li>Plan nie wynosił 2640, lecz 2750 plakatów — <strong>NIE</strong>.</li><li>Przekroczenie planu o 10%: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2750</mn><mo>·</mo><mn>1,1</mn><mo>=</mo><mn>3025</mn></math> plakatów, czyli więcej niż 3000 — <strong>NIE</strong>.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>40</mn><mo>%</mo></math> planu to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,4</mn><mo>·</mo><mn>2750</mn><mo>=</mo><mn>1100</mn></math> plakatów — <strong>TAK</strong>.</li></ul>"
+        "solution_html": "<p>Skoro 3300 plakatów to o 20% więcej niż plan, plan wynosił <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3300</mn><mo>:</mo><mn>1,2</mn><mo>=</mo><mn>2750</mn></math> plakatów.</p><ul><li>Plan nie wynosił 2640, lecz 2750 plakatów — <strong>NIE</strong>.</li><li>Przekroczenie planu o 10%: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2750</mn><mo>·</mo><mn>1,1</mn><mo>=</mo><mn>3025</mn></math> plakatów, czyli więcej niż 3000 — <strong>NIE</strong>.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>40</mn><mo>%</mo></math> planu to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,4</mn><mo>·</mo><mn>2750</mn><mo>=</mo><mn>1100</mn></math> plakatów — <strong>TAK</strong>.</li></ul>",
+        "model": {
+          "answer": "FFP",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -99,7 +109,12 @@
       "figures": [],
       "answer": {
         "correct": "FPF",
-        "solution_html": "<p>Rozkłady na czynniki pierwsze: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>330</mn><mo>=</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>5</mn><mo>·</mo><mn>11</mn></math>, druga liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>2</mn><mo>·</mo><mn>5</mn><mo>·</mo><mn>7</mn><mo>·</mo><mn>11</mn><mo>=</mo><mn>770</mn></math>.</p><ul><li>NWD to iloczyn wspólnych czynników: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>5</mn><mo>·</mo><mn>11</mn><mo>=</mo><mn>110</mn></math>, a nie 11 — <strong>NIE</strong>.</li><li>Każda z liczb jest iloczynem czterech różnych liczb pierwszych w pierwszej potędze, więc każda ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>4</mn></msup><mo>=</mo><mn>16</mn></math> dzielników — po tyle samo — <strong>TAK</strong>.</li><li>NWW <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>5</mn><mo>·</mo><mn>7</mn><mo>·</mo><mn>11</mn><mo>=</mo><mn>2310</mn></math>, a nie 23 100 — <strong>NIE</strong>.</li></ul>"
+        "solution_html": "<p>Rozkłady na czynniki pierwsze: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>330</mn><mo>=</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>5</mn><mo>·</mo><mn>11</mn></math>, druga liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>2</mn><mo>·</mo><mn>5</mn><mo>·</mo><mn>7</mn><mo>·</mo><mn>11</mn><mo>=</mo><mn>770</mn></math>.</p><ul><li>NWD to iloczyn wspólnych czynników: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>5</mn><mo>·</mo><mn>11</mn><mo>=</mo><mn>110</mn></math>, a nie 11 — <strong>NIE</strong>.</li><li>Każda z liczb jest iloczynem czterech różnych liczb pierwszych w pierwszej potędze, więc każda ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>4</mn></msup><mo>=</mo><mn>16</mn></math> dzielników — po tyle samo — <strong>TAK</strong>.</li><li>NWW <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>5</mn><mo>·</mo><mn>7</mn><mo>·</mo><mn>11</mn><mo>=</mo><mn>2310</mn></math>, a nie 23 100 — <strong>NIE</strong>.</li></ul>",
+        "model": {
+          "answer": "FPF",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -131,7 +146,12 @@
       "figures": [],
       "answer": {
         "correct": "PPF",
-        "solution_html": "<p>Wysokość względem boku 9 cm wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>36</mn><mo>:</mo><mn>9</mn><mo>=</mo><mn>4</mn></math> cm, a względem boku 5 cm <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>36</mn><mo>:</mo><mn>5</mn><mo>=</mo><mn>7,2</mn></math> cm.</p><p>Bok długości 5 cm rzutuje się na podstawę odcinkiem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>5</mn><mn>2</mn></msup><mo>−</mo><msup><mn>4</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>3</mn></math> cm. Umieśćmy równoległobok tak, by podstawa 9 cm leżała poziomo na wysokości 4 cm. Dłuższa przekątna ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mrow><mo>(</mo><mn>9</mn><mo>+</mo><mn>3</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mn>4</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>144</mn><mo>+</mo><mn>16</mn></mrow></msqrt><mo>=</mo><msqrt><mn>160</mn></msqrt><mo>=</mo><mn>4</mn><msqrt><mn>10</mn></msqrt></math> cm, a krótsza <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mrow><mo>(</mo><mn>9</mn><mo>−</mo><mn>3</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mn>4</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>36</mn><mo>+</mo><mn>16</mn></mrow></msqrt><mo>=</mo><msqrt><mn>52</mn></msqrt><mo>=</mo><mn>2</mn><msqrt><mn>13</mn></msqrt><mo>≈</mo><mn>7,21</mn></math> cm.</p><ul><li>Jedna z wysokości ma 7,2 cm — <strong>TAK</strong>.</li><li>Jedna z przekątnych ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>10</mn></msqrt></math> cm — <strong>TAK</strong>.</li><li>Krótsza przekątna ma około 7,21 cm, więc żadna nie jest krótsza niż 7 cm — <strong>NIE</strong>.</li></ul>"
+        "solution_html": "<p>Wysokość względem boku 9 cm wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>36</mn><mo>:</mo><mn>9</mn><mo>=</mo><mn>4</mn></math> cm, a względem boku 5 cm <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>36</mn><mo>:</mo><mn>5</mn><mo>=</mo><mn>7,2</mn></math> cm.</p><p>Bok długości 5 cm rzutuje się na podstawę odcinkiem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>5</mn><mn>2</mn></msup><mo>−</mo><msup><mn>4</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>3</mn></math> cm. Umieśćmy równoległobok tak, by podstawa 9 cm leżała poziomo na wysokości 4 cm. Dłuższa przekątna ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mrow><mo>(</mo><mn>9</mn><mo>+</mo><mn>3</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mn>4</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>144</mn><mo>+</mo><mn>16</mn></mrow></msqrt><mo>=</mo><msqrt><mn>160</mn></msqrt><mo>=</mo><mn>4</mn><msqrt><mn>10</mn></msqrt></math> cm, a krótsza <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mrow><mo>(</mo><mn>9</mn><mo>−</mo><mn>3</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mn>4</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>36</mn><mo>+</mo><mn>16</mn></mrow></msqrt><mo>=</mo><msqrt><mn>52</mn></msqrt><mo>=</mo><mn>2</mn><msqrt><mn>13</mn></msqrt><mo>≈</mo><mn>7,21</mn></math> cm.</p><ul><li>Jedna z wysokości ma 7,2 cm — <strong>TAK</strong>.</li><li>Jedna z przekątnych ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>10</mn></msqrt></math> cm — <strong>TAK</strong>.</li><li>Krótsza przekątna ma około 7,21 cm, więc żadna nie jest krótsza niż 7 cm — <strong>NIE</strong>.</li></ul>",
+        "model": {
+          "answer": "PPF",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -162,7 +182,12 @@
       "figures": [],
       "answer": {
         "correct": "PFP",
-        "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>8</mn></msup><mo>+</mo><msup><mn>3</mn><mn>8</mn></msup><mo>+</mo><msup><mn>3</mn><mn>8</mn></msup><mo>+</mo><msup><mn>3</mn><mn>8</mn></msup><mo>=</mo><mn>4</mn><mo>·</mo><msup><mn>3</mn><mn>8</mn></msup><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup><mo>·</mo><msup><mn>3</mn><mn>8</mn></msup></math>.</p><ul><li>Podzielna przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup><mo>·</mo><mn>3</mn></math> — czynniki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>2</mn></msup></math> i 3 występują — <strong>TAK</strong>.</li><li>Podzielna przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn><mo>=</mo><mn>3</mn><mo>·</mo><mn>5</mn></math> — brak czynnika 5 — <strong>NIE</strong>.</li><li>Podzielna przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>18</mn><mo>=</mo><mn>2</mn><mo>·</mo><msup><mn>3</mn><mn>2</mn></msup></math> — czynniki 2 i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>2</mn></msup></math> występują — <strong>TAK</strong>.</li></ul>"
+        "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>8</mn></msup><mo>+</mo><msup><mn>3</mn><mn>8</mn></msup><mo>+</mo><msup><mn>3</mn><mn>8</mn></msup><mo>+</mo><msup><mn>3</mn><mn>8</mn></msup><mo>=</mo><mn>4</mn><mo>·</mo><msup><mn>3</mn><mn>8</mn></msup><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup><mo>·</mo><msup><mn>3</mn><mn>8</mn></msup></math>.</p><ul><li>Podzielna przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup><mo>·</mo><mn>3</mn></math> — czynniki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>2</mn></msup></math> i 3 występują — <strong>TAK</strong>.</li><li>Podzielna przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn><mo>=</mo><mn>3</mn><mo>·</mo><mn>5</mn></math> — brak czynnika 5 — <strong>NIE</strong>.</li><li>Podzielna przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>18</mn><mo>=</mo><mn>2</mn><mo>·</mo><msup><mn>3</mn><mn>2</mn></msup></math> — czynniki 2 i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>2</mn></msup></math> występują — <strong>TAK</strong>.</li></ul>",
+        "model": {
+          "answer": "PFP",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -179,7 +204,12 @@
       "figures": [],
       "answer": {
         "correct": "Ojciec: 62 lata, syn: 24 lata",
-        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza obecny wiek syna. Pięć lat temu syn miał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>−</mo><mn>5</mn></math> lat, a ojciec <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>(</mo><mi>x</mi><mo>−</mo><mn>5</mn><mo>)</mo></math> lat, więc obecnie ojciec ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>(</mo><mi>x</mi><mo>−</mo><mn>5</mn><mo>)</mo><mo>+</mo><mn>5</mn><mo>=</mo><mn>3</mn><mi>x</mi><mo>−</mo><mn>10</mn></math> lat.</p><p>Za siedem lat suma ich wieku wyniesie 100 lat: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>x</mi><mo>+</mo><mn>7</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>3</mn><mi>x</mi><mo>−</mo><mn>10</mn><mo>+</mo><mn>7</mn><mo>)</mo><mo>=</mo><mn>100</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>x</mi><mo>+</mo><mn>4</mn><mo>=</mo><mn>100</mn></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>x</mi><mo>=</mo><mn>96</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>24</mn></math>. Ojciec ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>24</mn><mo>−</mo><mn>10</mn><mo>=</mo><mn>62</mn></math> lata.</p><p>Obecnie syn ma <strong>24 lata</strong>, a ojciec <strong>62 lata</strong>.</p>"
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza obecny wiek syna. Pięć lat temu syn miał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>−</mo><mn>5</mn></math> lat, a ojciec <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>(</mo><mi>x</mi><mo>−</mo><mn>5</mn><mo>)</mo></math> lat, więc obecnie ojciec ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>(</mo><mi>x</mi><mo>−</mo><mn>5</mn><mo>)</mo><mo>+</mo><mn>5</mn><mo>=</mo><mn>3</mn><mi>x</mi><mo>−</mo><mn>10</mn></math> lat.</p><p>Za siedem lat suma ich wieku wyniesie 100 lat: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>x</mi><mo>+</mo><mn>7</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>3</mn><mi>x</mi><mo>−</mo><mn>10</mn><mo>+</mo><mn>7</mn><mo>)</mo><mo>=</mo><mn>100</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>x</mi><mo>+</mo><mn>4</mn><mo>=</mo><mn>100</mn></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>x</mi><mo>=</mo><mn>96</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>24</mn></math>. Ojciec ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>24</mn><mo>−</mo><mn>10</mn><mo>=</mo><mn>62</mn></math> lata.</p><p>Obecnie syn ma <strong>24 lata</strong>, a ojciec <strong>62 lata</strong>.</p>",
+        "model": {
+          "answer": "Ojciec ma 62 lata, syn ma 24 lata.",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -198,7 +228,12 @@
       "figures": [],
       "answer": {
         "correct": "5√3/2",
-        "solution_html": "<p>Obwód rombu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>80</mn></msqrt><mo>=</mo><mn>4</mn><msqrt><mn>5</mn></msqrt></math>, więc bok ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msqrt><mn>80</mn></msqrt><mo>:</mo><mn>4</mn><mo>=</mo><msqrt><mn>5</mn></msqrt></math>.</p><p>Przekątna wychodząca z wierzchołka kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>120</mn><mo>°</mo></math> dzieli romb na dwa trójkąty równoboczne o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msqrt><mn>5</mn></msqrt></math>. Pole rombu jest równe podwojonemu polu takiego trójkąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>2</mn><mo>·</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>4</mn></mfrac><msup><mrow><mo>(</mo><msqrt><mn>5</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac><mo>·</mo><mn>5</mn><mo>=</mo><mfrac><mrow><mn>5</mn><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac></math>.</p><p>Pole rombu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>5</mn><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac></math> (≈ 4,33).</p>"
+        "solution_html": "<p>Obwód rombu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>80</mn></msqrt><mo>=</mo><mn>4</mn><msqrt><mn>5</mn></msqrt></math>, więc bok ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msqrt><mn>80</mn></msqrt><mo>:</mo><mn>4</mn><mo>=</mo><msqrt><mn>5</mn></msqrt></math>.</p><p>Przekątna wychodząca z wierzchołka kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>120</mn><mo>°</mo></math> dzieli romb na dwa trójkąty równoboczne o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msqrt><mn>5</mn></msqrt></math>. Pole rombu jest równe podwojonemu polu takiego trójkąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>2</mn><mo>·</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>4</mn></mfrac><msup><mrow><mo>(</mo><msqrt><mn>5</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac><mo>·</mo><mn>5</mn><mo>=</mo><mfrac><mrow><mn>5</mn><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac></math>.</p><p>Pole rombu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>5</mn><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac></math> (≈ 4,33).</p>",
+        "model": {
+          "answer": "5√3/2 ≈ 4,33 cm²",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -216,7 +251,12 @@
       "figures": [],
       "answer": {
         "correct": "56",
-        "solution_html": "<p>Niech cyfrą dziesiątek będzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, a cyfrą jedności <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>; liczba to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mi>a</mi><mo>+</mo><mi>b</mi></math>. Z warunków: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>11</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mi>b</mi><mo>+</mo><mi>a</mi><mo>=</mo><mn>10</mn><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mn>9</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mi>b</mi><mo>−</mo><mn>9</mn><mi>a</mi><mo>=</mo><mn>9</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>−</mo><mi>a</mi><mo>=</mo><mn>1</mn></math>.</p><p>Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>11</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>−</mo><mi>a</mi><mo>=</mo><mn>1</mn></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>5</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>6</mn></math>. Szukaną liczbą jest <strong>56</strong> (po przestawieniu cyfr: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>65</mn><mo>=</mo><mn>56</mn><mo>+</mo><mn>9</mn></math>).</p>"
+        "solution_html": "<p>Niech cyfrą dziesiątek będzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, a cyfrą jedności <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>; liczba to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mi>a</mi><mo>+</mo><mi>b</mi></math>. Z warunków: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>11</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mi>b</mi><mo>+</mo><mi>a</mi><mo>=</mo><mn>10</mn><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mn>9</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mi>b</mi><mo>−</mo><mn>9</mn><mi>a</mi><mo>=</mo><mn>9</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>−</mo><mi>a</mi><mo>=</mo><mn>1</mn></math>.</p><p>Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>11</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>−</mo><mi>a</mi><mo>=</mo><mn>1</mn></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>5</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>6</mn></math>. Szukaną liczbą jest <strong>56</strong> (po przestawieniu cyfr: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>65</mn><mo>=</mo><mn>56</mn><mo>+</mo><mn>9</mn></math>).</p>",
+        "model": {
+          "answer": "56",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -233,7 +273,12 @@
       "figures": [],
       "answer": {
         "correct": "50 s",
-        "solution_html": "<p>Chłopcy zbliżają się z łączną prędkością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>14,4</mn><mo>+</mo><mn>18</mn><mo>=</mo><mn>32,4</mn></math> km/h. Zamieniamy ją na metry na sekundę: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>32,4</mn><mtext> km/h</mtext><mo>=</mo><mfrac><mrow><mn>32,4</mn><mo>·</mo><mn>1000</mn></mrow><mn>3600</mn></mfrac><mo>=</mo><mn>9</mn></math> m/s. Odległość 450 m pokonają w czasie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>450</mn><mo>:</mo><mn>9</mn><mo>=</mo><mn>50</mn></math> s.</p><p>Spotkali się po <strong>50 sekundach</strong>.</p>"
+        "solution_html": "<p>Chłopcy zbliżają się z łączną prędkością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>14,4</mn><mo>+</mo><mn>18</mn><mo>=</mo><mn>32,4</mn></math> km/h. Zamieniamy ją na metry na sekundę: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>32,4</mn><mtext> km/h</mtext><mo>=</mo><mfrac><mrow><mn>32,4</mn><mo>·</mo><mn>1000</mn></mrow><mn>3600</mn></mfrac><mo>=</mo><mn>9</mn></math> m/s. Odległość 450 m pokonają w czasie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>450</mn><mo>:</mo><mn>9</mn><mo>=</mo><mn>50</mn></math> s.</p><p>Spotkali się po <strong>50 sekundach</strong>.</p>",
+        "model": {
+          "answer": "50 sekund",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -251,7 +296,12 @@
       "figures": [],
       "answer": {
         "correct": "Cena początkowa 350 zł; cena końcowa jest o 4% wyższa od początkowej",
-        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> oznacza cenę początkową. Po podwyżce o 30% i obniżce o 20% cena wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>·</mo><mn>1,3</mn><mo>·</mo><mn>0,8</mn><mo>=</mo><mn>1,04</mn><mi>c</mi></math>. Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,04</mn><mi>c</mi><mo>=</mo><mn>364</mn></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mn>350</mn></math> zł.</p><p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>364</mn><mo>:</mo><mn>350</mn><mo>=</mo><mn>1,04</mn></math>, cena końcowa jest <strong>wyższa</strong> od początkowej o <strong>4%</strong>, a cena początkowa wynosiła <strong>350 zł</strong> (cena po pierwszej zmianie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,3</mn><mo>·</mo><mn>350</mn><mo>=</mo><mn>455</mn></math> zł).</p>"
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> oznacza cenę początkową. Po podwyżce o 30% i obniżce o 20% cena wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>·</mo><mn>1,3</mn><mo>·</mo><mn>0,8</mn><mo>=</mo><mn>1,04</mn><mi>c</mi></math>. Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,04</mn><mi>c</mi><mo>=</mo><mn>364</mn></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mn>350</mn></math> zł.</p><p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>364</mn><mo>:</mo><mn>350</mn><mo>=</mo><mn>1,04</mn></math>, cena końcowa jest <strong>wyższa</strong> od początkowej o <strong>4%</strong>, a cena początkowa wynosiła <strong>350 zł</strong> (cena po pierwszej zmianie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,3</mn><mo>·</mo><mn>350</mn><mo>=</mo><mn>455</mn></math> zł).</p>",
+        "model": {
+          "answer": "Cena końcowa jest wyższa o 4%; cena początkowa wynosiła 350 zł.",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -270,7 +320,12 @@
       "figures": [],
       "answer": {
         "correct": "(22½ + √3/2) cm²",
-        "solution_html": "<p>Pole powierzchni sześcianu wynosi 24 cm², więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>24</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>4</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>2</mn></math> cm.</p><p>Płaszczyzna przechodzi przez środki trzech krawędzi wychodzących z jednego wierzchołka, odcinając naroże. Na każdej z trzech ścian przy tym wierzchołku ubywa trójkąt prostokątny o przyprostokątnych 1 cm i polu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>1</mn><mo>·</mo><mn>1</mn><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></math> cm²; łącznie ubywa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>=</mo><mn>1</mn><mfrac><mn>1</mn><mn>2</mn></mfrac></math> cm². Z pierwotnej powierzchni pozostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mo>−</mo><mn>1</mn><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>=</mo><mn>22</mn><mfrac><mn>1</mn><mn>2</mn></mfrac></math> cm².</p><p>Powstaje nowa ściana — trójkąt równoboczny o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>1</mn><mn>2</mn></msup><mo>+</mo><msup><mn>1</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>2</mn></msqrt></math> cm i polu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>3</mn></msqrt><mn>4</mn></mfrac><mo>·</mo><msup><mrow><mo>(</mo><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>4</mn></mfrac><mo>·</mo><mn>2</mn><mo>=</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac></math> cm².</p><p>Pole powierzchni otrzymanej bryły: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>22</mn><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>+</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac></math> cm² (≈ 23,37 cm²).</p>"
+        "solution_html": "<p>Pole powierzchni sześcianu wynosi 24 cm², więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>24</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>4</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>2</mn></math> cm.</p><p>Płaszczyzna przechodzi przez środki trzech krawędzi wychodzących z jednego wierzchołka, odcinając naroże. Na każdej z trzech ścian przy tym wierzchołku ubywa trójkąt prostokątny o przyprostokątnych 1 cm i polu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>1</mn><mo>·</mo><mn>1</mn><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></math> cm²; łącznie ubywa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>=</mo><mn>1</mn><mfrac><mn>1</mn><mn>2</mn></mfrac></math> cm². Z pierwotnej powierzchni pozostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mo>−</mo><mn>1</mn><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>=</mo><mn>22</mn><mfrac><mn>1</mn><mn>2</mn></mfrac></math> cm².</p><p>Powstaje nowa ściana — trójkąt równoboczny o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>1</mn><mn>2</mn></msup><mo>+</mo><msup><mn>1</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>2</mn></msqrt></math> cm i polu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>3</mn></msqrt><mn>4</mn></mfrac><mo>·</mo><msup><mrow><mo>(</mo><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>4</mn></mfrac><mo>·</mo><mn>2</mn><mo>=</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac></math> cm².</p><p>Pole powierzchni otrzymanej bryły: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>22</mn><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>+</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac></math> cm² (≈ 23,37 cm²).</p>",
+        "model": {
+          "answer": "(45+√3)/2 cm² ≈ 23,37 cm²",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     }
   ]

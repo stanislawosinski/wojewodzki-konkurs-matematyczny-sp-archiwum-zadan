@@ -26,7 +26,12 @@
       ],
       "answer": {
         "correct": "Do białych pól wpisujemy kolejno: 3; 2 i 13; 4, 8, 2.",
-        "solution_html": "<p>Uzupełniona krzyżówka poziomo: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>2</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>10</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mo>+</mo><mn>6</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>13</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>+</mo><mn>8</mn><mo>−</mo><mn>2</mn><mo>=</mo><mn>10</mn></mrow></math>; pionowo: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>+</mo><mn>10</mn><mo>−</mo><mn>4</mn><mo>=</mo><mn>9</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>6</mn><mo>−</mo><mn>8</mn><mo>=</mo><mn>4</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>−</mo><mn>2</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>4</mn></mrow></math>. Za każdą poprawnie wpisaną liczbę przyznaje się 1 punkt (łącznie 6 punktów).</p>"
+        "solution_html": "<p>Uzupełniona krzyżówka poziomo: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>2</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>10</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mo>+</mo><mn>6</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>13</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>+</mo><mn>8</mn><mo>−</mo><mn>2</mn><mo>=</mo><mn>10</mn></mrow></math>; pionowo: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>+</mo><mn>10</mn><mo>−</mo><mn>4</mn><mo>=</mo><mn>9</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>6</mn><mo>−</mo><mn>8</mn><mo>=</mo><mn>4</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>−</mo><mn>2</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>4</mn></mrow></math>. Za każdą poprawnie wpisaną liczbę przyznaje się 1 punkt (łącznie 6 punktów).</p>",
+        "model": {
+          "answer": "Puste pola: wiersz1 kol1=3; wiersz3 kol5=2, kol7(wynik)=13; wiersz5 kol1=4, kol3=8, kol5=2. Działania: 3·2+4=10; 10+6:2=13; 4+8−2=10; kolumny: 3+10−4=9; 2·6−8=4; 4−2+2=4.",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -43,7 +48,12 @@
       "figures": [],
       "answer": {
         "correct": "A: [(2+2)·5+16]:6+3=9;  B: [30:2+3·(5−2)]:8+6=9",
-        "solution_html": "<p>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>[</mo><mo>(</mo><mn>2</mn><mo>+</mo><mn>2</mn><mo>)</mo><mo>·</mo><mn>5</mn><mo>+</mo><mn>16</mn><mo>]</mo><mo>:</mo><mn>6</mn><mo>+</mo><mn>3</mn><mo>=</mo><mn>9</mn></mrow></math></p><p>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>[</mo><mn>30</mn><mo>:</mo><mn>2</mn><mo>+</mo><mn>3</mn><mo>·</mo><mo>(</mo><mn>5</mn><mo>−</mo><mn>2</mn><mo>)</mo><mo>]</mo><mo>:</mo><mn>8</mn><mo>+</mo><mn>6</mn><mo>=</mo><mn>9</mn></mrow></math></p><p><em>Za poprawne wstawienie nawiasów w obu wyrażeniach — 2 punkty; w jednym z wyrażeń — 1 punkt.</em></p>"
+        "solution_html": "<p>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>[</mo><mo>(</mo><mn>2</mn><mo>+</mo><mn>2</mn><mo>)</mo><mo>·</mo><mn>5</mn><mo>+</mo><mn>16</mn><mo>]</mo><mo>:</mo><mn>6</mn><mo>+</mo><mn>3</mn><mo>=</mo><mn>9</mn></mrow></math></p><p>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>[</mo><mn>30</mn><mo>:</mo><mn>2</mn><mo>+</mo><mn>3</mn><mo>·</mo><mo>(</mo><mn>5</mn><mo>−</mo><mn>2</mn><mo>)</mo><mo>]</mo><mo>:</mo><mn>8</mn><mo>+</mo><mn>6</mn><mo>=</mo><mn>9</mn></mrow></math></p><p><em>Za poprawne wstawienie nawiasów w obu wyrażeniach — 2 punkty; w jednym z wyrażeń — 1 punkt.</em></p>",
+        "model": {
+          "answer": "A. ((2+2)·5+16):6+3 = 9;  B. (30:2+3·(5−2)):8+6 = 9",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -77,7 +87,12 @@
       "figures": [],
       "answer": {
         "correct": "C",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "C",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -112,7 +127,12 @@
       "figures": [],
       "answer": {
         "correct": "A",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "A",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -146,7 +166,12 @@
       "figures": [],
       "answer": {
         "correct": "D",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "D",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -180,7 +205,12 @@
       "figures": [],
       "answer": {
         "correct": "C",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "C",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -214,7 +244,12 @@
       "figures": [],
       "answer": {
         "correct": "B",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "B",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -249,7 +284,12 @@
       "figures": [],
       "answer": {
         "correct": "B",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "B",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -283,7 +323,12 @@
       "figures": [],
       "answer": {
         "correct": "D",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "D",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -318,7 +363,12 @@
       "figures": [],
       "answer": {
         "correct": "A",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "A",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -352,7 +402,12 @@
       "figures": [],
       "answer": {
         "correct": "C",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "C",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -389,7 +444,12 @@
       ],
       "answer": {
         "correct": "B",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "B",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -423,7 +483,12 @@
       "figures": [],
       "answer": {
         "correct": "B",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "B",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -457,7 +522,12 @@
       "figures": [],
       "answer": {
         "correct": "D",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "D",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -476,7 +546,12 @@
       ],
       "answer": {
         "correct": "Lewa strzałka – wiatr północno-wschodni; prawa strzałka – wiatr południowo-wschodni.",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "a) wiatr południowo-zachodni (SW); b) wiatr północno-zachodni (NW)",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -493,7 +568,12 @@
       "figures": [],
       "answer": {
         "correct": "1 : 25 000 → 1 cm – 250 m;  1 cm – 5 km → 1 : 500 000",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "1:25 000 → 1 cm – 250 m; 1:500 000 → 1 cm – 5 km",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -512,7 +592,12 @@
       ],
       "answer": {
         "correct": "a) 780 m n.p.m.;  b) 150 m",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "a) 780 m n.p.m.; b) ok. 180 m (A≈600 m, B=780 m)",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -529,7 +614,12 @@
       "figures": [],
       "answer": {
         "correct": "a) wiatromierz;  b) deszczomierz;  c) barometr",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "a) wiatromierz (anemometr); b) deszczomierz (pluwiometr); c) barometr",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -546,7 +636,12 @@
       "figures": [],
       "answer": {
         "correct": "a) runo – borowiki, borówki, zawilce;  b) podszyt – leszczyny, głóg, jarzębina;  c) korony drzew – buki, dęby",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "a) runo: zawilce, borowiki, borówki; b) podszyt: leszczyny, głóg, jarzębina; c) korony drzew: buki, dęby",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -563,7 +658,12 @@
       "figures": [],
       "answer": {
         "correct": "a) zima i jesień;  b) wiosna i jesień;  c) zima;  d) lato;  e) wiosna;  f) lato",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "a) jesień i zima; b) wiosna i jesień; c) zima; d) lato; e) wiosna; f) lato",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -599,7 +699,12 @@
       "figures": [],
       "answer": {
         "correct": "PFFP",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "PFFP",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -633,7 +738,12 @@
       "figures": [],
       "answer": {
         "correct": "PFFP",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "PFFP",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -652,7 +762,12 @@
       "figures": [],
       "answer": {
         "correct": "540",
-        "solution_html": "<p>Szukana liczba jest podzielna przez 3, 4, 5 i 6, czyli jest wielokrotnością liczby 60 (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>NWW</mtext><mo>(</mo><mn>3</mn><mo>,</mo><mn>4</mn><mo>,</mo><mn>5</mn><mo>,</mo><mn>6</mn><mo>)</mo><mo>=</mo><mn>60</mn></mrow></math>). Spośród liczb większych od 400 i mniejszych od 600 wielokrotnościami 60 są: 420, 480 i 540. Szukana liczba przy dzieleniu przez 7 daje resztę 1 — ten warunek spełnia tylko <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>540</mn><mo>=</mo><mn>7</mn><mo>·</mo><mn>77</mn><mo>+</mo><mn>1</mn></mrow></math>. W szkole uczyło się 540 uczniów.</p>"
+        "solution_html": "<p>Szukana liczba jest podzielna przez 3, 4, 5 i 6, czyli jest wielokrotnością liczby 60 (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>NWW</mtext><mo>(</mo><mn>3</mn><mo>,</mo><mn>4</mn><mo>,</mo><mn>5</mn><mo>,</mo><mn>6</mn><mo>)</mo><mo>=</mo><mn>60</mn></mrow></math>). Spośród liczb większych od 400 i mniejszych od 600 wielokrotnościami 60 są: 420, 480 i 540. Szukana liczba przy dzieleniu przez 7 daje resztę 1 — ten warunek spełnia tylko <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>540</mn><mo>=</mo><mn>7</mn><mo>·</mo><mn>77</mn><mo>+</mo><mn>1</mn></mrow></math>. W szkole uczyło się 540 uczniów.</p>",
+        "model": {
+          "answer": "540",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -669,7 +784,12 @@
       "figures": [],
       "answer": {
         "correct": "600 kg",
-        "solution_html": "<p>Masa drewna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,75</mn><mtext> t</mtext><mo>=</mo><mn>750</mn><mtext> kg</mtext></mrow></math>. Woda w drewnie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>·</mo><mn>750</mn><mtext> kg</mtext><mo>=</mo><mn>187,5</mn><mtext> kg</mtext></mrow></math>. Woda, która wyparowała: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,8</mn><mo>·</mo><mn>187,5</mn><mtext> kg</mtext><mo>=</mo><mn>150</mn><mtext> kg</mtext></mrow></math>. Masa drewna po roku: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>750</mn><mtext> kg</mtext><mo>−</mo><mn>150</mn><mtext> kg</mtext><mo>=</mo><mn>600</mn><mtext> kg</mtext></mrow></math>.</p>"
+        "solution_html": "<p>Masa drewna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,75</mn><mtext> t</mtext><mo>=</mo><mn>750</mn><mtext> kg</mtext></mrow></math>. Woda w drewnie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>·</mo><mn>750</mn><mtext> kg</mtext><mo>=</mo><mn>187,5</mn><mtext> kg</mtext></mrow></math>. Woda, która wyparowała: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,8</mn><mo>·</mo><mn>187,5</mn><mtext> kg</mtext><mo>=</mo><mn>150</mn><mtext> kg</mtext></mrow></math>. Masa drewna po roku: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>750</mn><mtext> kg</mtext><mo>−</mo><mn>150</mn><mtext> kg</mtext><mo>=</mo><mn>600</mn><mtext> kg</mtext></mrow></math>.</p>",
+        "model": {
+          "answer": "600 kg",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     }
   ]

@@ -26,7 +26,12 @@
       ],
       "answer": {
         "correct": "Brakujące liczby: 6 (górny wiersz), 10 i 5 (środkowy wiersz), 5 i 2 (dolny wiersz).",
-        "solution_html": "<p>Uzupełniona krzyżówka spełnia wszystkie działania w wierszach i kolumnach. Wiersze: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>6</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>8</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>:</mo><mn>5</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>8</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>+</mo><mn>5</mn><mo>−</mo><mn>2</mn><mo>=</mo><mn>8</mn></math>. Kolumny: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>+</mo><mn>10</mn><mo>−</mo><mn>5</mn><mo>=</mo><mn>9</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><mn>5</mn><mo>−</mo><mn>5</mn><mo>=</mo><mn>25</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>−</mo><mn>4</mn><mo>·</mo><mn>2</mn><mo>=</mo><mo>−</mo><mn>5</mn></math>. Do pustych pól należy wpisać kolejno: 6, 10, 5, 5 i 2.</p>"
+        "solution_html": "<p>Uzupełniona krzyżówka spełnia wszystkie działania w wierszach i kolumnach. Wiersze: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>6</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>8</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>:</mo><mn>5</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>8</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>+</mo><mn>5</mn><mo>−</mo><mn>2</mn><mo>=</mo><mn>8</mn></math>. Kolumny: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>+</mo><mn>10</mn><mo>−</mo><mn>5</mn><mo>=</mo><mn>9</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><mn>5</mn><mo>−</mo><mn>5</mn><mo>=</mo><mn>25</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>−</mo><mn>4</mn><mo>·</mo><mn>2</mn><mo>=</mo><mo>−</mo><mn>5</mn></math>. Do pustych pól należy wpisać kolejno: 6, 10, 5, 5 i 2.</p>",
+        "model": {
+          "answer": "Brakujące liczby: 6, 10, 5, 5, 2 — wiersz 1: 4·6:3=8; wiersz 3: 10:5·4=8; wiersz 5: 5+5−2=8 (sprawdzenie pionowe: 4+10−5=9; 6·5−5=25; 3−4·2=−5)",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -43,7 +48,12 @@
       "figures": [],
       "answer": {
         "correct": "A) 100 − (10 − 9) + 8 = 107;  B) 100 − 10 − (9 + 8) = 73",
-        "solution_html": "<p>A) największy wynik: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>−</mo><mo>(</mo><mn>10</mn><mo>−</mo><mn>9</mn><mo>)</mo><mo>+</mo><mn>8</mn><mo>=</mo><mn>107</mn></math> (lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>−</mo><mo>[</mo><mn>10</mn><mo>−</mo><mo>(</mo><mn>9</mn><mo>+</mo><mn>8</mn><mo>)</mo><mo>]</mo><mo>=</mo><mn>107</mn></math>). B) najmniejszy wynik: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>−</mo><mn>10</mn><mo>−</mo><mo>(</mo><mn>9</mn><mo>+</mo><mn>8</mn><mo>)</mo><mo>=</mo><mn>73</mn></math>.</p>"
+        "solution_html": "<p>A) największy wynik: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>−</mo><mo>(</mo><mn>10</mn><mo>−</mo><mn>9</mn><mo>)</mo><mo>+</mo><mn>8</mn><mo>=</mo><mn>107</mn></math> (lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>−</mo><mo>[</mo><mn>10</mn><mo>−</mo><mo>(</mo><mn>9</mn><mo>+</mo><mn>8</mn><mo>)</mo><mo>]</mo><mo>=</mo><mn>107</mn></math>). B) najmniejszy wynik: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>−</mo><mn>10</mn><mo>−</mo><mo>(</mo><mn>9</mn><mo>+</mo><mn>8</mn><mo>)</mo><mo>=</mo><mn>73</mn></math>.</p>",
+        "model": {
+          "answer": "A) 100 − (10 − 9) + 8 = 107; B) 100 − 10 − (9 + 8) = 73",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -77,7 +87,12 @@
       "figures": [],
       "answer": {
         "correct": "B",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "B",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -111,7 +126,12 @@
       "figures": [],
       "answer": {
         "correct": "C",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "C",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -145,7 +165,12 @@
       "figures": [],
       "answer": {
         "correct": "D",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "D",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -179,7 +204,12 @@
       "figures": [],
       "answer": {
         "correct": "B",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "B",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -213,7 +243,12 @@
       "figures": [],
       "answer": {
         "correct": "D",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "D",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -247,7 +282,12 @@
       "figures": [],
       "answer": {
         "correct": "C",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "C",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -281,7 +321,12 @@
       "figures": [],
       "answer": {
         "correct": "A",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "A",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -315,7 +360,12 @@
       "figures": [],
       "answer": {
         "correct": "C",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "C",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -350,7 +400,12 @@
       "figures": [],
       "answer": {
         "correct": "C",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "C",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -384,7 +439,12 @@
       "figures": [],
       "answer": {
         "correct": "B",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "B",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -418,7 +478,12 @@
       "figures": [],
       "answer": {
         "correct": "D",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "D",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -435,7 +500,12 @@
       "figures": [],
       "answer": {
         "correct": "A. Niemcami; B. Bratysława; C. Litwa",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "A) Niemcy; B) Bratysława; C) Litwa",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -452,7 +522,12 @@
       "figures": [],
       "answer": {
         "correct": "A. Wrocław; B. Białystok; C. Warszawa",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "A) Wrocław; B) Białystok; C) Warszawa",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -469,7 +544,12 @@
       "figures": [],
       "answer": {
         "correct": "A. ospa wietrzna; B. świnka; C. różyczka; D. grypa",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "A) ospa wietrzna; B) świnka; C) różyczka; D) grypa",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -503,7 +583,12 @@
       "figures": [],
       "answer": {
         "correct": "PFFF",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "PFFF",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -533,7 +618,12 @@
       "figures": [],
       "answer": {
         "correct": "FPP",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "FPP",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -568,7 +658,12 @@
       "figures": [],
       "answer": {
         "correct": "PPFP",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "PPFP",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -603,7 +698,12 @@
       "figures": [],
       "answer": {
         "correct": "PFFF",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "PFFF",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -620,7 +720,12 @@
       "figures": [],
       "answer": {
         "correct": "10,6 m",
-        "solution_html": "<p>Długość całej liny: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3,375</mn><mo>:</mo><mn>0,225</mn><mo>=</mo><mn>15</mn></math> m. Odcięto <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>=</mo><mn>4,4</mn></math> m, więc pozostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn><mo>−</mo><mn>4,4</mn><mo>=</mo><mn>10,6</mn></math> m.</p><p><em>Inny sposób: masa odciętej części <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4,4</mn><mo>·</mo><mn>0,225</mn><mo>=</mo><mn>0,99</mn></math> kg; masa pozostałej części <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3,375</mn><mo>−</mo><mn>0,99</mn><mo>=</mo><mn>2,385</mn></math> kg; długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2,385</mn><mo>:</mo><mn>0,225</mn><mo>=</mo><mn>10,6</mn></math> m.</em></p>"
+        "solution_html": "<p>Długość całej liny: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3,375</mn><mo>:</mo><mn>0,225</mn><mo>=</mo><mn>15</mn></math> m. Odcięto <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>=</mo><mn>4,4</mn></math> m, więc pozostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn><mo>−</mo><mn>4,4</mn><mo>=</mo><mn>10,6</mn></math> m.</p><p><em>Inny sposób: masa odciętej części <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4,4</mn><mo>·</mo><mn>0,225</mn><mo>=</mo><mn>0,99</mn></math> kg; masa pozostałej części <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3,375</mn><mo>−</mo><mn>0,99</mn><mo>=</mo><mn>2,385</mn></math> kg; długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2,385</mn><mo>:</mo><mn>0,225</mn><mo>=</mo><mn>10,6</mn></math> m.</em></p>",
+        "model": {
+          "answer": "10,6 m",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -637,7 +742,12 @@
       "figures": [],
       "answer": {
         "correct": "19 cm",
-        "solution_html": "<p>Na krawędzie podstaw przypada <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>10</mn><mo>+</mo><mn>4</mn><mo>·</mo><mn>16</mn><mo>=</mo><mn>104</mn></math> cm. Na cztery wysokości pozostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>180</mn><mo>−</mo><mn>104</mn><mo>=</mo><mn>76</mn></math> cm, więc wysokość wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>76</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>19</mn></math> cm.</p>"
+        "solution_html": "<p>Na krawędzie podstaw przypada <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>10</mn><mo>+</mo><mn>4</mn><mo>·</mo><mn>16</mn><mo>=</mo><mn>104</mn></math> cm. Na cztery wysokości pozostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>180</mn><mo>−</mo><mn>104</mn><mo>=</mo><mn>76</mn></math> cm, więc wysokość wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>76</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>19</mn></math> cm.</p>",
+        "model": {
+          "answer": "19 cm",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -655,7 +765,12 @@
       "figures": [],
       "answer": {
         "correct": "∡ABC = 86°, ∡BCD = 94°, ∡ADC = 133°",
-        "solution_html": "<p>W trójkącie prostokątnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABD</mi></math> (kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADB</mi></math> prosty, bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi><mo>⊥</mo><mi>AD</mi></math>) mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∢</mo><mi>ABD</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>90</mn><mo>°</mo><mo>−</mo><mn>47</mn><mo>°</mo><mo>=</mo><mn>43</mn><mo>°</mo></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> ∥ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math>, kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDB</mi></math> jest naprzemianległy z kątem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABD</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∢</mo><mi>CDB</mi><mo>=</mo><mn>43</mn><mo>°</mo></math>. Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCD</mi></math> jest równoramienny (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>BC</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>CD</mi><mo>|</mo></math>), zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∢</mo><mi>DBC</mi><mo>=</mo><mo>∢</mo><mi>CDB</mi><mo>=</mo><mn>43</mn><mo>°</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∢</mo><mi>BCD</mi><mo>=</mo><mn>94</mn><mo>°</mo></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∢</mo><mi>ABC</mi><mo>=</mo><mn>43</mn><mo>°</mo><mo>+</mo><mn>43</mn><mo>°</mo><mo>=</mo><mn>86</mn><mo>°</mo></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∢</mo><mi>ADC</mi><mo>=</mo><mn>90</mn><mo>°</mo><mo>+</mo><mn>43</mn><mo>°</mo><mo>=</mo><mn>133</mn><mo>°</mo></math>. Pozostałe kąty wewnętrzne trapezu mają miary: 86°, 94° i 133°.</p>"
+        "solution_html": "<p>W trójkącie prostokątnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABD</mi></math> (kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADB</mi></math> prosty, bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi><mo>⊥</mo><mi>AD</mi></math>) mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∢</mo><mi>ABD</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>90</mn><mo>°</mo><mo>−</mo><mn>47</mn><mo>°</mo><mo>=</mo><mn>43</mn><mo>°</mo></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> ∥ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math>, kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDB</mi></math> jest naprzemianległy z kątem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABD</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∢</mo><mi>CDB</mi><mo>=</mo><mn>43</mn><mo>°</mo></math>. Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCD</mi></math> jest równoramienny (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>BC</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>CD</mi><mo>|</mo></math>), zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∢</mo><mi>DBC</mi><mo>=</mo><mo>∢</mo><mi>CDB</mi><mo>=</mo><mn>43</mn><mo>°</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∢</mo><mi>BCD</mi><mo>=</mo><mn>94</mn><mo>°</mo></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∢</mo><mi>ABC</mi><mo>=</mo><mn>43</mn><mo>°</mo><mo>+</mo><mn>43</mn><mo>°</mo><mo>=</mo><mn>86</mn><mo>°</mo></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∢</mo><mi>ADC</mi><mo>=</mo><mn>90</mn><mo>°</mo><mo>+</mo><mn>43</mn><mo>°</mo><mo>=</mo><mn>133</mn><mo>°</mo></math>. Pozostałe kąty wewnętrzne trapezu mają miary: 86°, 94° i 133°.</p>",
+        "model": {
+          "answer": "kąt ABC = 86°, kąt BCD = 94°, kąt CDA = 133°",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     }
   ]

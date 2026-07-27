@@ -26,7 +26,12 @@
       ],
       "answer": {
         "correct": "Wpisywane liczby: 10 i 6 (wiersz 1), 3 (wiersz 3), 10 (wiersz 5), 9 i 4 (wiersz 7) oraz 2, 40 i 25 (wiersz 9).",
-        "solution_html": "<p>Poprawnie uzupełnione wiersze:</p><ul><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>·</mo><mn>2</mn><mo>−</mo><mn>6</mn><mo>−</mo><mn>12</mn><mo>=</mo><mn>2</mn></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mn>6</mn><mo>:</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>10</mn></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>+</mo><mn>40</mn><mo>−</mo><mn>4</mn><mo>·</mo><mn>10</mn><mo>=</mo><mn>3</mn></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mo>·</mo><mn>4</mn><mo>−</mo><mn>4</mn><mo>−</mo><mn>2</mn><mo>=</mo><mn>30</mn></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>+</mo><mn>2</mn><mo>−</mo><mn>20</mn><mo>+</mo><mn>40</mn><mo>=</mo><mn>25</mn></math></li></ul><p>Odpowiadające kolumny również dają prawidłowe wyniki:</p><ul><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>−</mo><mn>1</mn><mo>+</mo><mn>3</mn><mo>−</mo><mn>9</mn><mo>=</mo><mn>3</mn></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>6</mn><mo>−</mo><mn>40</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>2</mn></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>−</mo><mn>2</mn><mo>+</mo><mn>4</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>20</mn></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>+</mo><mn>3</mn><mo>·</mo><mn>10</mn><mo>−</mo><mn>2</mn><mo>=</mo><mn>40</mn></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>−</mo><mn>10</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>30</mn><mo>=</mo><mn>25</mn></math></li></ul><p><em>Punktacja: 6 pkt za całą krzyżówkę; za każdy błąd (także puste pole) odejmuje się 1 pkt.</em></p>"
+        "solution_html": "<p>Poprawnie uzupełnione wiersze:</p><ul><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>·</mo><mn>2</mn><mo>−</mo><mn>6</mn><mo>−</mo><mn>12</mn><mo>=</mo><mn>2</mn></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mn>6</mn><mo>:</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>10</mn></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>+</mo><mn>40</mn><mo>−</mo><mn>4</mn><mo>·</mo><mn>10</mn><mo>=</mo><mn>3</mn></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mo>·</mo><mn>4</mn><mo>−</mo><mn>4</mn><mo>−</mo><mn>2</mn><mo>=</mo><mn>30</mn></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>+</mo><mn>2</mn><mo>−</mo><mn>20</mn><mo>+</mo><mn>40</mn><mo>=</mo><mn>25</mn></math></li></ul><p>Odpowiadające kolumny również dają prawidłowe wyniki:</p><ul><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>−</mo><mn>1</mn><mo>+</mo><mn>3</mn><mo>−</mo><mn>9</mn><mo>=</mo><mn>3</mn></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>6</mn><mo>−</mo><mn>40</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>2</mn></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>−</mo><mn>2</mn><mo>+</mo><mn>4</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>20</mn></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>+</mo><mn>3</mn><mo>·</mo><mn>10</mn><mo>−</mo><mn>2</mn><mo>=</mo><mn>40</mn></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>−</mo><mn>10</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>30</mn><mo>=</mo><mn>25</mn></math></li></ul><p><em>Punktacja: 6 pkt za całą krzyżówkę; za każdy błąd (także puste pole) odejmuje się 1 pkt.</em></p>",
+        "model": {
+          "answer": "Wiersz1: lewe pole=10, środkowe puste=6; Wiersz3: prawe puste=3; Wiersz5: prawe puste=10; Wiersz7: lewe puste=9, środkowe puste=4; Wiersz9: środkowe puste=2, prawe puste=40, wynik (prawy dolny róg)=25",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -43,7 +48,12 @@
       "figures": [],
       "answer": {
         "correct": "A) 100·(2−1)·(9−8)=100; B) 100·2−1·(9−8)=199; C) 100·(2−1·9−8)=−1500",
-        "solution_html": "<ul><li>A) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>·</mo><mo>(</mo><mn>2</mn><mo>−</mo><mn>1</mn><mo>)</mo><mo>·</mo><mo>(</mo><mn>9</mn><mo>−</mo><mn>8</mn><mo>)</mo><mo>=</mo><mn>100</mn></math></li><li>B) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>·</mo><mn>2</mn><mo>−</mo><mn>1</mn><mo>·</mo><mo>(</mo><mn>9</mn><mo>−</mo><mn>8</mn><mo>)</mo><mo>=</mo><mn>199</mn></math></li><li>C) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>·</mo><mo>(</mo><mn>2</mn><mo>−</mo><mn>1</mn><mo>·</mo><mn>9</mn><mo>−</mo><mn>8</mn><mo>)</mo><mo>=</mo><mo>−</mo><mn>1500</mn></math></li></ul><p><em>Punktacja: po 1 pkt za poprawne wstawienie nawiasów w każdym z wyrażeń (łącznie 3 pkt).</em></p>"
+        "solution_html": "<ul><li>A) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>·</mo><mo>(</mo><mn>2</mn><mo>−</mo><mn>1</mn><mo>)</mo><mo>·</mo><mo>(</mo><mn>9</mn><mo>−</mo><mn>8</mn><mo>)</mo><mo>=</mo><mn>100</mn></math></li><li>B) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>·</mo><mn>2</mn><mo>−</mo><mn>1</mn><mo>·</mo><mo>(</mo><mn>9</mn><mo>−</mo><mn>8</mn><mo>)</mo><mo>=</mo><mn>199</mn></math></li><li>C) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>·</mo><mo>(</mo><mn>2</mn><mo>−</mo><mn>1</mn><mo>·</mo><mn>9</mn><mo>−</mo><mn>8</mn><mo>)</mo><mo>=</mo><mo>−</mo><mn>1500</mn></math></li></ul><p><em>Punktacja: po 1 pkt za poprawne wstawienie nawiasów w każdym z wyrażeń (łącznie 3 pkt).</em></p>",
+        "model": {
+          "answer": "A) 100·(2−1)·(9−8)=100; B) 100·2−1·(9−8)=199; C) 100·(2−1·9−8)=−1500",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -66,7 +76,12 @@
       "figures": [],
       "answer": {
         "correct": "C",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "C",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -88,7 +103,12 @@
       "figures": [],
       "answer": {
         "correct": "C",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "C",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -110,7 +130,12 @@
       "figures": [],
       "answer": {
         "correct": "B",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "B",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -133,7 +158,12 @@
       "figures": [],
       "answer": {
         "correct": "A",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "A",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -155,7 +185,12 @@
       "figures": [],
       "answer": {
         "correct": "B",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "B",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -177,7 +212,12 @@
       "figures": [],
       "answer": {
         "correct": "D",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "D",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -199,7 +239,12 @@
       "figures": [],
       "answer": {
         "correct": "D",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "D",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -221,7 +266,12 @@
       "figures": [],
       "answer": {
         "correct": "C",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "C",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -243,7 +293,12 @@
       "figures": [],
       "answer": {
         "correct": "B",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "B",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -266,7 +321,12 @@
       "figures": [],
       "answer": {
         "correct": "C",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "C",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -288,7 +348,12 @@
       "figures": [],
       "answer": {
         "correct": "D",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "D",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -310,7 +375,12 @@
       "figures": [],
       "answer": {
         "correct": "D",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "D",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -332,7 +402,12 @@
       "figures": [],
       "answer": {
         "correct": "D",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "D",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -356,7 +431,12 @@
       "figures": [],
       "answer": {
         "correct": "PPPFP",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "PPPFP",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -379,7 +459,12 @@
       "figures": [],
       "answer": {
         "correct": "PFPPP",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "PFPPP",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -401,7 +486,12 @@
       "figures": [],
       "answer": {
         "correct": "FPFP",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "FPFP",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -418,7 +508,12 @@
       "figures": [],
       "answer": {
         "correct": "około 3,60 kcal",
-        "solution_html": "<p>Wartość energetyczna 1 g sera: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>313</mn><mo>:</mo><mn>100</mn><mo>=</mo><mn>3,13</mn></math> kcal. Masa jednego plastra: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>46</mn><mo>:</mo><mn>40</mn><mo>=</mo><mn>1,15</mn></math> g. Wartość energetyczna jednego plastra: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3,13</mn><mo>·</mo><mn>1,15</mn><mo>=</mo><mn>3,5995</mn><mo>≈</mo><mn>3,60</mn></math> kcal.</p><p><em>Punktacja (4 pkt): po 1 pkt za poprawną metodę obliczenia wartości energetycznej 1 g sera, obliczenia masy 1 plastra, obliczenia wartości energetycznej 1 plastra oraz za poprawne zaokrąglenie wyniku.</em></p>"
+        "solution_html": "<p>Wartość energetyczna 1 g sera: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>313</mn><mo>:</mo><mn>100</mn><mo>=</mo><mn>3,13</mn></math> kcal. Masa jednego plastra: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>46</mn><mo>:</mo><mn>40</mn><mo>=</mo><mn>1,15</mn></math> g. Wartość energetyczna jednego plastra: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3,13</mn><mo>·</mo><mn>1,15</mn><mo>=</mo><mn>3,5995</mn><mo>≈</mo><mn>3,60</mn></math> kcal.</p><p><em>Punktacja (4 pkt): po 1 pkt za poprawną metodę obliczenia wartości energetycznej 1 g sera, obliczenia masy 1 plastra, obliczenia wartości energetycznej 1 plastra oraz za poprawne zaokrąglenie wyniku.</em></p>",
+        "model": {
+          "answer": "3,60 kcal",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -436,7 +531,12 @@
       "figures": [],
       "answer": {
         "correct": "4 cm",
-        "solution_html": "<p>Ze wzoru na pole trapezu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mo>·</mo><mi>h</mi><mo>=</mo><mn>24</mn></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>12</mn></math>, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>h</mi><mo>=</mo><mn>24</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mn>4</mn></math> cm.</p><p><em>Punktacja (3 pkt): 1 pkt za wstawienie do wzoru sumy podstaw 12 cm, 2 pkt za dobrą metodę obliczenia wysokości, 3 pkt za poprawnie obliczoną wysokość.</em></p>"
+        "solution_html": "<p>Ze wzoru na pole trapezu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mo>·</mo><mi>h</mi><mo>=</mo><mn>24</mn></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>12</mn></math>, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>h</mi><mo>=</mo><mn>24</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mn>4</mn></math> cm.</p><p><em>Punktacja (3 pkt): 1 pkt za wstawienie do wzoru sumy podstaw 12 cm, 2 pkt za dobrą metodę obliczenia wysokości, 3 pkt za poprawnie obliczoną wysokość.</em></p>",
+        "model": {
+          "answer": "4 cm",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -454,7 +554,12 @@
       "figures": [],
       "answer": {
         "correct": "200 wyrazów na minutę",
-        "solution_html": "<p>Czas czytania książki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>1,5</mn><mo>=</mo><mn>6</mn></math> godzin, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><mn>60</mn><mo>=</mo><mn>360</mn></math> minut. Liczba przeczytanych wyrazów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>240</mn><mo>·</mo><mn>300</mn><mo>=</mo><mn>72000</mn></math>. Szybkość czytania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>72000</mn><mo>:</mo><mn>360</mn><mo>=</mo><mn>200</mn></math> wyrazów na minutę.</p><p><em>Punktacja (4 pkt): po 1 pkt za obliczenie czasu czytania, zamianę godzin na minuty, obliczenie liczby przeczytanych wyrazów oraz obliczenie szybkości czytania.</em></p>"
+        "solution_html": "<p>Czas czytania książki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>1,5</mn><mo>=</mo><mn>6</mn></math> godzin, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><mn>60</mn><mo>=</mo><mn>360</mn></math> minut. Liczba przeczytanych wyrazów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>240</mn><mo>·</mo><mn>300</mn><mo>=</mo><mn>72000</mn></math>. Szybkość czytania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>72000</mn><mo>:</mo><mn>360</mn><mo>=</mo><mn>200</mn></math> wyrazów na minutę.</p><p><em>Punktacja (4 pkt): po 1 pkt za obliczenie czasu czytania, zamianę godzin na minuty, obliczenie liczby przeczytanych wyrazów oraz obliczenie szybkości czytania.</em></p>",
+        "model": {
+          "answer": "200 wyrazów na minutę",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -472,7 +577,12 @@
       "figures": [],
       "answer": {
         "correct": "220 arów",
-        "solution_html": "<p>Pole działki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn><mo>·</mo><mn>500</mn><mo>=</mo><mn>30000</mn></math> m² <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>300</mn></math> a. Powierzchnia truskawek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,8</mn></math> ha <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>80</mn></math> a. Powierzchnia warzywniaka: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>300</mn><mo>−</mo><mn>80</mn><mo>=</mo><mn>220</mn></math> a.</p><p><em>Punktacja (3 pkt): po 1 pkt za obliczenie pola działki, poprawną zamianę jednostek (ha oraz m² na ary) i obliczenie pola warzywniaka.</em></p>"
+        "solution_html": "<p>Pole działki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn><mo>·</mo><mn>500</mn><mo>=</mo><mn>30000</mn></math> m² <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>300</mn></math> a. Powierzchnia truskawek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,8</mn></math> ha <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>80</mn></math> a. Powierzchnia warzywniaka: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>300</mn><mo>−</mo><mn>80</mn><mo>=</mo><mn>220</mn></math> a.</p><p><em>Punktacja (3 pkt): po 1 pkt za obliczenie pola działki, poprawną zamianę jednostek (ha oraz m² na ary) i obliczenie pola warzywniaka.</em></p>",
+        "model": {
+          "answer": "220 arów",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     }
   ]

@@ -26,7 +26,12 @@
       ],
       "answer": {
         "correct": "a) 11111, b) 44, c) 11, d) 755, e) 999, f) 22, g) 1647, h) 25, i) 34, j) 5, k) 187, l) 97, m) 7, n) 169, o) 300, p) 24, q) 333, r) 1288200, s) 4, t) 60",
-        "solution_html": "<p>Rozwiązania poszczególnych haseł: a) 11111, b) 44, c) 11, d) 755, e) 999, f) 22, g) 1647, h) 25, i) 34, j) 5, k) 187, l) 97, m) 7, n) 169, o) 300, p) 24, q) 333, r) 1288200, s) 4, t) 60. Cyfry w zacieniowanej kolumnie, czytane z góry na dół, tworzą kolejne cyfry rozwinięcia dziesiętnego liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>π</mi></math>: 1, 4, 1, 5, 9, 2, 6, 5, 3, 5, 8, 9, 7, 9, 3, 2, 3, 8, 4, 6. Za każde poprawnie uzupełnione pole przyznaje się 1 punkt.</p>"
+        "solution_html": "<p>Rozwiązania poszczególnych haseł: a) 11111, b) 44, c) 11, d) 755, e) 999, f) 22, g) 1647, h) 25, i) 34, j) 5, k) 187, l) 97, m) 7, n) 169, o) 300, p) 24, q) 333, r) 1288200, s) 4, t) 60. Cyfry w zacieniowanej kolumnie, czytane z góry na dół, tworzą kolejne cyfry rozwinięcia dziesiętnego liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>π</mi></math>: 1, 4, 1, 5, 9, 2, 6, 5, 3, 5, 8, 9, 7, 9, 3, 2, 3, 8, 4, 6. Za każde poprawnie uzupełnione pole przyznaje się 1 punkt.</p>",
+        "model": {
+          "answer": "a) 11111; b) 44; c) 11; d) 755; e) 999; f) 22; g) 1647; h) 25; i) 34; j) 5 cm; k) 187; l) 97; m) 7; n) 169 cm²; o) 300; p) 24; q) 333; r) 1288200 m; s) 4; t) 60",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -43,7 +48,12 @@
       "figures": [],
       "answer": {
         "correct": "A) (3333 − 1111) : 11 − 1;   B) 3333 − (1111 : 11 − 1);   C) (3333 − 1111) : (11 − 1)",
-        "solution_html": "<p>A) możliwie najmniejszy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>3333</mn><mo>−</mo><mn>1111</mn><mo>)</mo><mo>:</mo><mn>11</mn><mo>−</mo><mn>1</mn><mo>=</mo><mn>201</mn></math>. B) możliwie największy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3333</mn><mo>−</mo><mo>(</mo><mn>1111</mn><mo>:</mo><mn>11</mn><mo>−</mo><mn>1</mn><mo>)</mo><mo>=</mo><mn>3233</mn></math>. C) równy 222,2: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>3333</mn><mo>−</mo><mn>1111</mn><mo>)</mo><mo>:</mo><mo>(</mo><mn>11</mn><mo>−</mo><mn>1</mn><mo>)</mo><mo>=</mo><mn>222,2</mn></math>. Za wstawienie nawiasów poprawnie w każdym wyrażeniu — 3 pkt, w dwóch — 2 pkt, w jednym — 1 pkt.</p>"
+        "solution_html": "<p>A) możliwie najmniejszy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>3333</mn><mo>−</mo><mn>1111</mn><mo>)</mo><mo>:</mo><mn>11</mn><mo>−</mo><mn>1</mn><mo>=</mo><mn>201</mn></math>. B) możliwie największy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3333</mn><mo>−</mo><mo>(</mo><mn>1111</mn><mo>:</mo><mn>11</mn><mo>−</mo><mn>1</mn><mo>)</mo><mo>=</mo><mn>3233</mn></math>. C) równy 222,2: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>3333</mn><mo>−</mo><mn>1111</mn><mo>)</mo><mo>:</mo><mo>(</mo><mn>11</mn><mo>−</mo><mn>1</mn><mo>)</mo><mo>=</mo><mn>222,2</mn></math>. Za wstawienie nawiasów poprawnie w każdym wyrażeniu — 3 pkt, w dwóch — 2 pkt, w jednym — 1 pkt.</p>",
+        "model": {
+          "answer": "A) ((3333−1111):11)−1 = 201; B) 3333−((1111:11)−1) = 3233; C) (3333−1111):(11−1) = 222,2",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -78,7 +88,12 @@
       "figures": [],
       "answer": {
         "correct": "D",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "D",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -112,7 +127,12 @@
       "figures": [],
       "answer": {
         "correct": "C",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "C",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -147,7 +167,12 @@
       "figures": [],
       "answer": {
         "correct": "D",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "D",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -181,7 +206,12 @@
       "figures": [],
       "answer": {
         "correct": "C",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "C",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -215,7 +245,12 @@
       "figures": [],
       "answer": {
         "correct": "A",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "A",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -249,7 +284,12 @@
       "figures": [],
       "answer": {
         "correct": "B",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "B",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -283,7 +323,12 @@
       "figures": [],
       "answer": {
         "correct": "C",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "C",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -317,7 +362,12 @@
       "figures": [],
       "answer": {
         "correct": "A",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "A",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -351,7 +401,12 @@
       "figures": [],
       "answer": {
         "correct": "B",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "B",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -385,7 +440,12 @@
       "figures": [],
       "answer": {
         "correct": "C",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "C",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -420,7 +480,12 @@
       "figures": [],
       "answer": {
         "correct": "C",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "C",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -454,7 +519,12 @@
       "figures": [],
       "answer": {
         "correct": "A",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "A",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -488,7 +558,12 @@
       "figures": [],
       "answer": {
         "correct": "C",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "C",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -523,7 +598,12 @@
       "figures": [],
       "answer": {
         "correct": "FPPF",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "FPPF",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -559,7 +639,12 @@
       "figures": [],
       "answer": {
         "correct": "PPFF",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "PPFF",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -593,7 +678,12 @@
       "figures": [],
       "answer": {
         "correct": "FFPP",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "FFPP",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -611,7 +701,12 @@
       "figures": [],
       "answer": {
         "correct": "75°",
-        "solution_html": "<p>Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABE</mi></math> ma miarę 60°, bo to kąt wewnętrzny trójkąta równobocznego. Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EBC</mi></math> ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>90</mn><mo>°</mo><mo>−</mo><mn>60</mn><mo>°</mo><mo>=</mo><mn>30</mn><mo>°</mo></math>. Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACB</mi></math> wynosi 45°, ponieważ przekątna kwadratu jest nachylona do boku pod takim kątem. W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BSC</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mo>∢</mo><mi>BSC</mi><mo>|</mo><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mo>(</mo><mn>30</mn><mo>°</mo><mo>+</mo><mn>45</mn><mo>°</mo><mo>)</mo><mo>=</mo><mn>105</mn><mo>°</mo></math>. Kąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ESC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BSC</mi></math> są kątami przyległymi, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mo>∢</mo><mi>ESC</mi><mo>|</mo><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>105</mn><mo>°</mo><mo>=</mo><mn>75</mn><mo>°</mo></math>.</p>"
+        "solution_html": "<p>Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABE</mi></math> ma miarę 60°, bo to kąt wewnętrzny trójkąta równobocznego. Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EBC</mi></math> ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>90</mn><mo>°</mo><mo>−</mo><mn>60</mn><mo>°</mo><mo>=</mo><mn>30</mn><mo>°</mo></math>. Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACB</mi></math> wynosi 45°, ponieważ przekątna kwadratu jest nachylona do boku pod takim kątem. W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BSC</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mo>∢</mo><mi>BSC</mi><mo>|</mo><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mo>(</mo><mn>30</mn><mo>°</mo><mo>+</mo><mn>45</mn><mo>°</mo><mo>)</mo><mo>=</mo><mn>105</mn><mo>°</mo></math>. Kąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ESC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BSC</mi></math> są kątami przyległymi, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mo>∢</mo><mi>ESC</mi><mo>|</mo><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>105</mn><mo>°</mo><mo>=</mo><mn>75</mn><mo>°</mo></math>.</p>",
+        "model": {
+          "answer": "75°",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -630,7 +725,12 @@
       "figures": [],
       "answer": {
         "correct": "15 cm",
-        "solution_html": "<p>Pole 175 cm² jest sumą pola kwadratu o boku 5 cm i pól dwóch przystających prostokątów, z których jeden bok ma długość 5 cm, a drugi jest równy bokowi kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>. Pole kwadratu o boku 5 cm wynosi 25 cm². Pole jednego prostokąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>175</mn><mo>−</mo><mn>25</mn><mo>)</mo><mo>:</mo><mn>2</mn><mo>=</mo><mn>75</mn></math>. Zatem drugi bok ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>75</mn><mo>:</mo><mn>5</mn><mo>=</mo><mn>15</mn></math>. Odpowiedź: długość boku kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> wynosi 15 cm. Równoważnie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mn>5</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>175</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>15</mn></math> cm.</p>"
+        "solution_html": "<p>Pole 175 cm² jest sumą pola kwadratu o boku 5 cm i pól dwóch przystających prostokątów, z których jeden bok ma długość 5 cm, a drugi jest równy bokowi kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>. Pole kwadratu o boku 5 cm wynosi 25 cm². Pole jednego prostokąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>175</mn><mo>−</mo><mn>25</mn><mo>)</mo><mo>:</mo><mn>2</mn><mo>=</mo><mn>75</mn></math>. Zatem drugi bok ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>75</mn><mo>:</mo><mn>5</mn><mo>=</mo><mn>15</mn></math>. Odpowiedź: długość boku kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> wynosi 15 cm. Równoważnie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mn>5</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>175</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>15</mn></math> cm.</p>",
+        "model": {
+          "answer": "15 cm",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -648,7 +748,12 @@
       "figures": [],
       "answer": {
         "correct": "27 zł lub 28 zł",
-        "solution_html": "<p>Cyryl miał za mało o 27 zł, więc gra kosztowała 27 zł lub więcej. Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>g</mi></math> oznacza cenę gry. Suma oszczędności braci to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>g</mi><mo>−</mo><mn>5</mn><mo>)</mo><mo>+</mo><mo>(</mo><mi>g</mi><mo>−</mo><mn>25</mn><mo>)</mo><mo>+</mo><mo>(</mo><mi>g</mi><mo>−</mo><mn>27</mn><mo>)</mo></math> i była za mała na zakup gry, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>g</mi><mo>−</mo><mn>5</mn><mo>)</mo><mo>+</mo><mo>(</mo><mi>g</mi><mo>−</mo><mn>25</mn><mo>)</mo><mo>+</mo><mo>(</mo><mi>g</mi><mo>−</mo><mn>27</mn><mo>)</mo><mo>&lt;</mo><mi>g</mi></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>g</mi><mo>−</mo><mn>57</mn><mo>&lt;</mo><mi>g</mi></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>g</mi><mo>&lt;</mo><mn>28,5</mn></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>g</mi><mo>≥</mo><mn>27</mn></math> i cena jest pełną złotówką, gra mogła kosztować 27 zł lub 28 zł.</p>"
+        "solution_html": "<p>Cyryl miał za mało o 27 zł, więc gra kosztowała 27 zł lub więcej. Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>g</mi></math> oznacza cenę gry. Suma oszczędności braci to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>g</mi><mo>−</mo><mn>5</mn><mo>)</mo><mo>+</mo><mo>(</mo><mi>g</mi><mo>−</mo><mn>25</mn><mo>)</mo><mo>+</mo><mo>(</mo><mi>g</mi><mo>−</mo><mn>27</mn><mo>)</mo></math> i była za mała na zakup gry, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>g</mi><mo>−</mo><mn>5</mn><mo>)</mo><mo>+</mo><mo>(</mo><mi>g</mi><mo>−</mo><mn>25</mn><mo>)</mo><mo>+</mo><mo>(</mo><mi>g</mi><mo>−</mo><mn>27</mn><mo>)</mo><mo>&lt;</mo><mi>g</mi></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>g</mi><mo>−</mo><mn>57</mn><mo>&lt;</mo><mi>g</mi></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>g</mi><mo>&lt;</mo><mn>28,5</mn></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>g</mi><mo>≥</mo><mn>27</mn></math> i cena jest pełną złotówką, gra mogła kosztować 27 zł lub 28 zł.</p>",
+        "model": {
+          "answer": "27 zł lub 28 zł",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -666,7 +771,12 @@
       "figures": [],
       "answer": {
         "correct": "Dawid zrównał się z Adamem 1500 m od domu; bracia doszli do szkoły o godzinie 7:50",
-        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math> oznacza czas (w minutach), jaki upłynął od wyjścia Dawida do zrównania się z Adamem. W czasie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math> Dawid przeszedł <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mi>t</mi></math> metrów, a Adam <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn><mi>t</mi></math> metrów. Różnica dróg <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>40</mn><mi>t</mi></math> jest równa drodze przebytej przez Adama w ciągu 10 minut (od 7:15 do 7:25), czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn><mo>·</mo><mn>10</mn><mo>=</mo><mn>600</mn></math> m. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>40</mn><mi>t</mi><mo>=</mo><mn>600</mn></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>15</mn></math> min. Odległość od domu w chwili zrównania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn><mo>·</mo><mn>100</mn><mo>=</mo><mn>1500</mn></math> m. Adam całą drogę 2100 m pokonał w tempie 60 m/min, czyli w czasie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2100</mn><mo>:</mo><mn>60</mn><mo>=</mo><mn>35</mn></math> min. Odpowiedź: Dawid zrównał się z Adamem w odległości 1500 m od domu, a bracia doszli do szkoły o godzinie 7:50.</p>"
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math> oznacza czas (w minutach), jaki upłynął od wyjścia Dawida do zrównania się z Adamem. W czasie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math> Dawid przeszedł <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mi>t</mi></math> metrów, a Adam <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn><mi>t</mi></math> metrów. Różnica dróg <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>40</mn><mi>t</mi></math> jest równa drodze przebytej przez Adama w ciągu 10 minut (od 7:15 do 7:25), czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn><mo>·</mo><mn>10</mn><mo>=</mo><mn>600</mn></math> m. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>40</mn><mi>t</mi><mo>=</mo><mn>600</mn></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>15</mn></math> min. Odległość od domu w chwili zrównania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn><mo>·</mo><mn>100</mn><mo>=</mo><mn>1500</mn></math> m. Adam całą drogę 2100 m pokonał w tempie 60 m/min, czyli w czasie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2100</mn><mo>:</mo><mn>60</mn><mo>=</mo><mn>35</mn></math> min. Odpowiedź: Dawid zrównał się z Adamem w odległości 1500 m od domu, a bracia doszli do szkoły o godzinie 7:50.</p>",
+        "model": {
+          "answer": "1500 m (1,5 km) od domu; do szkoły doszli o 7:50",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     }
   ]

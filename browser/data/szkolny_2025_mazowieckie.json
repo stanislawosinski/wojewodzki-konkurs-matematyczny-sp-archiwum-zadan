@@ -33,7 +33,12 @@
       "figures": [],
       "answer": {
         "correct": "FP",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "FP",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -68,7 +73,13 @@
       "figures": [],
       "answer": {
         "correct": "A, D",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "AD",
+          "by": "sonnet",
+          "agrees": null,
+          "solution_html": "<p>Niech v = prędkość ciężarówki, wtedy prędkość osobówki = 1,5v. Czasy: 480/v i 480/(1,5v)=320/v. Różnica czasów: 480/v − 320/v = 160/v = 2 ⇒ v = 80 km/h.</p><p>Prędkość osobówki = 1,5·80 = 120 km/h → <b>A</b>. Różnica prędkości = 120 − 80 = 40 km/h → <b>D</b>.</p>"
+        }
       }
     },
     {
@@ -103,7 +114,13 @@
       "figures": [],
       "answer": {
         "correct": "B, D",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "BD",
+          "by": "sonnet",
+          "agrees": null,
+          "solution_html": "<p>Boki: 4a−2, a+1, 6 muszą tworzyć trójkąt równoramienny (dwa boki równe) spełniający nierówność trójkąta.</p><p>4a−2=a+1 ⇒ a=1 → boki 2,2,6 — nie spełnia nierówności trójkąta (odrzucamy).<br>4a−2=6 ⇒ a=2 → boki 6,3,6 — poprawny trójkąt.<br>a+1=6 ⇒ a=5 → boki 18,6,6 — nie spełnia nierówności (odrzucamy).</p><p>Jedyne a=2. To najmniejsza liczba pierwsza (B - prawda). Wyrażenie: −3²·2+1½·3−77,5:(−5) = −18+4,5+15,5 = 2 = a (D - prawda). A i C fałszywe.</p>"
+        }
       }
     },
     {
@@ -120,7 +137,12 @@
       "figures": [],
       "answer": {
         "correct": "8 km",
-        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza odległość między domami Adama i Bartka. Trasa przez Czarka ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>DC</mi><mo>|</mo><mo>+</mo><mo>|</mo><mi>CB</mi><mo>|</mo><mo>=</mo><mn>21</mn><mo>+</mo><mn>9</mn><mo>=</mo><mn>30</mn></math> km, a trasa przez Adama – <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mo>+</mo><mi>x</mi></math> km. Ponieważ trasa przez Czarka jest o jedną czwartą dłuższa, mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>=</mo><mfrac><mn>5</mn><mn>4</mn></mfrac><mo>(</mo><mn>16</mn><mo>+</mo><mi>x</mi><mo>)</mo></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mo>+</mo><mi>x</mi><mo>=</mo><mn>24</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>8</mn></math>. Odpowiedź: Adam mieszka w odległości 8 km od Bartka.</p><p><em>Częściowo (1 pkt): analiza treści zadania i zapisanie poprawnego równania.</em></p>"
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza odległość między domami Adama i Bartka. Trasa przez Czarka ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>DC</mi><mo>|</mo><mo>+</mo><mo>|</mo><mi>CB</mi><mo>|</mo><mo>=</mo><mn>21</mn><mo>+</mo><mn>9</mn><mo>=</mo><mn>30</mn></math> km, a trasa przez Adama – <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mo>+</mo><mi>x</mi></math> km. Ponieważ trasa przez Czarka jest o jedną czwartą dłuższa, mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>=</mo><mfrac><mn>5</mn><mn>4</mn></mfrac><mo>(</mo><mn>16</mn><mo>+</mo><mi>x</mi><mo>)</mo></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mo>+</mo><mi>x</mi><mo>=</mo><mn>24</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>8</mn></math>. Odpowiedź: Adam mieszka w odległości 8 km od Bartka.</p><p><em>Częściowo (1 pkt): analiza treści zadania i zapisanie poprawnego równania.</em></p>",
+        "model": {
+          "answer": "8 km",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -138,7 +160,12 @@
       "figures": [],
       "answer": {
         "correct": "127, 247, 367 lub 487",
-        "solution_html": "<p>Liczba torebek pomniejszona o 7 jest podzielna zarówno przez 24, jak i przez 30, więc jest wielokrotnością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>NWW</mtext><mo>(</mo><mn>24</mn><mo>,</mo><mn>30</mn><mo>)</mo></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mo>=</mo><mn>2</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>3</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>=</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>5</mn></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>NWW</mtext><mo>(</mo><mn>24</mn><mo>,</mo><mn>30</mn><mo>)</mo><mo>=</mo><mn>120</mn></math>. Szukana liczba ma postać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>120</mn><mi>k</mi><mo>+</mo><mn>7</mn></math> i jest mniejsza od 500, więc wynosi 127, 247, 367 lub 487.</p><p><em>Częściowo (1 pkt): zauważenie, że najmniejsza taka liczba to NWW(24, 30) + 7, i obliczenie NWW(24, 30) = 120.</em></p>"
+        "solution_html": "<p>Liczba torebek pomniejszona o 7 jest podzielna zarówno przez 24, jak i przez 30, więc jest wielokrotnością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>NWW</mtext><mo>(</mo><mn>24</mn><mo>,</mo><mn>30</mn><mo>)</mo></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mo>=</mo><mn>2</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>3</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>=</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>5</mn></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>NWW</mtext><mo>(</mo><mn>24</mn><mo>,</mo><mn>30</mn><mo>)</mo><mo>=</mo><mn>120</mn></math>. Szukana liczba ma postać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>120</mn><mi>k</mi><mo>+</mo><mn>7</mn></math> i jest mniejsza od 500, więc wynosi 127, 247, 367 lub 487.</p><p><em>Częściowo (1 pkt): zauważenie, że najmniejsza taka liczba to NWW(24, 30) + 7, i obliczenie NWW(24, 30) = 120.</em></p>",
+        "model": {
+          "answer": "7, 127, 247, 367 lub 487 torebek",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -158,7 +185,12 @@
       ],
       "answer": {
         "correct": "135°",
-        "solution_html": "<p>Trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCE</mi></math> są równoramienne, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mo>∢</mo><mi>ADC</mi><mo>|</mo><mo>=</mo><mo>|</mo><mo>∢</mo><mi>ACD</mi><mo>|</mo><mo>=</mo><mi>α</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mo>∢</mo><mi>BEC</mi><mo>|</mo><mo>=</mo><mo>|</mo><mo>∢</mo><mi>BCE</mi><mo>|</mo><mo>=</mo><mi>β</mi></math>. Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACB</mi></math> jest prosty, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mo>∢</mo><mi>DCE</mi><mo>|</mo><mo>=</mo><mi>α</mi><mo>+</mo><mn>90</mn><mo>°</mo><mo>+</mo><mi>β</mi></math>. Z twierdzenia o sumie miar kątów trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DCE</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>+</mo><mi>β</mi><mo>+</mo><mo>(</mo><mi>α</mi><mo>+</mo><mi>β</mi><mo>+</mo><mn>90</mn><mo>°</mo><mo>)</mo><mo>=</mo><mn>180</mn><mo>°</mo></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>(</mo><mi>α</mi><mo>+</mo><mi>β</mi><mo>)</mo><mo>=</mo><mn>90</mn><mo>°</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>+</mo><mi>β</mi><mo>=</mo><mn>45</mn><mo>°</mo></math>. Największy kąt to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mo>∢</mo><mi>DCE</mi><mo>|</mo><mo>=</mo><mn>45</mn><mo>°</mo><mo>+</mo><mn>90</mn><mo>°</mo><mo>=</mo><mn>135</mn><mo>°</mo></math>.</p><p><em>Częściowo (1 pkt): zapisanie miary kąta DCE za pomocą wyrażenia α + β + 90°.</em></p>"
+        "solution_html": "<p>Trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCE</mi></math> są równoramienne, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mo>∢</mo><mi>ADC</mi><mo>|</mo><mo>=</mo><mo>|</mo><mo>∢</mo><mi>ACD</mi><mo>|</mo><mo>=</mo><mi>α</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mo>∢</mo><mi>BEC</mi><mo>|</mo><mo>=</mo><mo>|</mo><mo>∢</mo><mi>BCE</mi><mo>|</mo><mo>=</mo><mi>β</mi></math>. Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACB</mi></math> jest prosty, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mo>∢</mo><mi>DCE</mi><mo>|</mo><mo>=</mo><mi>α</mi><mo>+</mo><mn>90</mn><mo>°</mo><mo>+</mo><mi>β</mi></math>. Z twierdzenia o sumie miar kątów trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DCE</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>+</mo><mi>β</mi><mo>+</mo><mo>(</mo><mi>α</mi><mo>+</mo><mi>β</mi><mo>+</mo><mn>90</mn><mo>°</mo><mo>)</mo><mo>=</mo><mn>180</mn><mo>°</mo></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>(</mo><mi>α</mi><mo>+</mo><mi>β</mi><mo>)</mo><mo>=</mo><mn>90</mn><mo>°</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>+</mo><mi>β</mi><mo>=</mo><mn>45</mn><mo>°</mo></math>. Największy kąt to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mo>∢</mo><mi>DCE</mi><mo>|</mo><mo>=</mo><mn>45</mn><mo>°</mo><mo>+</mo><mn>90</mn><mo>°</mo><mo>=</mo><mn>135</mn><mo>°</mo></math>.</p><p><em>Częściowo (1 pkt): zapisanie miary kąta DCE za pomocą wyrażenia α + β + 90°.</em></p>",
+        "model": {
+          "answer": "135°",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -176,7 +208,12 @@
       "figures": [],
       "answer": {
         "correct": "Iloczyn ma postać 5k + 2, więc reszta z dzielenia przez 5 wynosi 2.",
-        "solution_html": "<p>Zapiszmy te liczby jako <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mi>a</mi><mo>+</mo><mn>3</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mi>b</mi><mo>+</mo><mn>4</mn></math>. Ich iloczyn: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>5</mn><mi>a</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>(</mo><mn>5</mn><mi>b</mi><mo>+</mo><mn>4</mn><mo>)</mo><mo>=</mo><mn>25</mn><mi>a</mi><mi>b</mi><mo>+</mo><mn>20</mn><mi>a</mi><mo>+</mo><mn>15</mn><mi>b</mi><mo>+</mo><mn>12</mn></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>=</mo><mn>10</mn><mo>+</mo><mn>2</mn></math>, mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>5</mn><mo>(</mo><mn>5</mn><mi>a</mi><mi>b</mi><mo>+</mo><mn>4</mn><mi>a</mi><mo>+</mo><mn>3</mn><mi>b</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>+</mo><mn>2</mn><mo>=</mo><mn>5</mn><mi>k</mi><mo>+</mo><mn>2</mn></math>. Iloczyn jest postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mi>k</mi><mo>+</mo><mn>2</mn></math>, więc przy dzieleniu przez 5 daje resztę 2.</p><p><em>Częściowo (1 pkt): zapisanie iloczynu liczb w postaci algebraicznej (5a + 3)(5b + 4).</em></p>"
+        "solution_html": "<p>Zapiszmy te liczby jako <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mi>a</mi><mo>+</mo><mn>3</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mi>b</mi><mo>+</mo><mn>4</mn></math>. Ich iloczyn: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>5</mn><mi>a</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>(</mo><mn>5</mn><mi>b</mi><mo>+</mo><mn>4</mn><mo>)</mo><mo>=</mo><mn>25</mn><mi>a</mi><mi>b</mi><mo>+</mo><mn>20</mn><mi>a</mi><mo>+</mo><mn>15</mn><mi>b</mi><mo>+</mo><mn>12</mn></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>=</mo><mn>10</mn><mo>+</mo><mn>2</mn></math>, mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>5</mn><mo>(</mo><mn>5</mn><mi>a</mi><mi>b</mi><mo>+</mo><mn>4</mn><mi>a</mi><mo>+</mo><mn>3</mn><mi>b</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>+</mo><mn>2</mn><mo>=</mo><mn>5</mn><mi>k</mi><mo>+</mo><mn>2</mn></math>. Iloczyn jest postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mi>k</mi><mo>+</mo><mn>2</mn></math>, więc przy dzieleniu przez 5 daje resztę 2.</p><p><em>Częściowo (1 pkt): zapisanie iloczynu liczb w postaci algebraicznej (5a + 3)(5b + 4).</em></p>",
+        "model": {
+          "answer": "Reszta wynosi 2 (dowód algebraiczny)",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -195,7 +232,12 @@
       "figures": [],
       "answer": {
         "correct": "Możliwe zestawy pól: {78, 120, 400}, {138, 60, 400}, {120, 204, 36} oraz {240, 111, 9} cm².",
-        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza długość boku odciętego kwadratu, a połowa obwodu kartki wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>98</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>49</mn></math> cm. W zależności od ułożenia cięć otrzymujemy cztery przypadki.</p><p><strong>Przypadek I:</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>(</mo><mn>6</mn><mo>+</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo>+</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>98</mn></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>20</mn></math> cm. Pola: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>26</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>78</mn></math> cm², <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>120</mn></math> cm², kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mo>·</mo><mn>20</mn><mo>=</mo><mn>400</mn></math> cm².</p><p><strong>Przypadek II:</strong> bok kwadratu 20 cm. Pola: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>23</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>138</mn></math> cm², <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>60</mn></math> cm², kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>400</mn></math> cm².</p><p><strong>Przypadek III:</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>(</mo><mi>x</mi><mo>+</mo><mn>15</mn><mo>)</mo><mo>=</mo><mn>98</mn></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>34</mn></math> cm, bok kwadratu 6 cm. Pola: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>40</mn><mo>=</mo><mn>120</mn></math> cm², <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>34</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>204</mn></math> cm², kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>36</mn></math> cm².</p><p><strong>Przypadek IV:</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>(</mo><mi>x</mi><mo>+</mo><mn>12</mn><mo>)</mo><mo>=</mo><mn>98</mn></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>37</mn></math> cm, bok kwadratu 3 cm. Pola: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><mn>40</mn><mo>=</mo><mn>240</mn></math> cm², <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>37</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>111</mn></math> cm², kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>9</mn></math> cm².</p><p><em>Za rozpatrzenie co najmniej trzech przypadków – 3 pkt, za dwa – 2 pkt, za jeden – 1 pkt.</em></p>"
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza długość boku odciętego kwadratu, a połowa obwodu kartki wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>98</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>49</mn></math> cm. W zależności od ułożenia cięć otrzymujemy cztery przypadki.</p><p><strong>Przypadek I:</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>(</mo><mn>6</mn><mo>+</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo>+</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>98</mn></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>20</mn></math> cm. Pola: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>26</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>78</mn></math> cm², <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>120</mn></math> cm², kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mo>·</mo><mn>20</mn><mo>=</mo><mn>400</mn></math> cm².</p><p><strong>Przypadek II:</strong> bok kwadratu 20 cm. Pola: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>23</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>138</mn></math> cm², <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>60</mn></math> cm², kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>400</mn></math> cm².</p><p><strong>Przypadek III:</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>(</mo><mi>x</mi><mo>+</mo><mn>15</mn><mo>)</mo><mo>=</mo><mn>98</mn></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>34</mn></math> cm, bok kwadratu 6 cm. Pola: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>40</mn><mo>=</mo><mn>120</mn></math> cm², <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>34</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>204</mn></math> cm², kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>36</mn></math> cm².</p><p><strong>Przypadek IV:</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>(</mo><mi>x</mi><mo>+</mo><mn>12</mn><mo>)</mo><mo>=</mo><mn>98</mn></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>37</mn></math> cm, bok kwadratu 3 cm. Pola: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><mn>40</mn><mo>=</mo><mn>240</mn></math> cm², <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>37</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>111</mn></math> cm², kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>9</mn></math> cm².</p><p><em>Za rozpatrzenie co najmniej trzech przypadków – 3 pkt, za dwa – 2 pkt, za jeden – 1 pkt.</em></p>",
+        "model": {
+          "answer": "Przypadek 1: kwadrat 9 cm², prostokąty 37×3=111 cm² i 40×6=240 cm². Przypadek 2: kwadrat 36 cm², prostokąty 34×6=204 cm² i 40×3=120 cm²",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -213,7 +255,12 @@
       "figures": [],
       "answer": {
         "correct": "2684 zł",
-        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> to zarobek w pierwszym tygodniu. W kolejnych tygodniach zarobki wynoszą: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,2</mn><mi>x</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>1,2</mn><mn>2</mn></msup><mi>x</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>1,2</mn><mn>3</mn></msup><mi>x</mi></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>1,2</mn><mn>3</mn></msup><mi>x</mi><mo>−</mo><msup><mn>1,2</mn><mn>2</mn></msup><mi>x</mi><mo>=</mo><mn>144</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,44</mn><mo>·</mo><mn>0,2</mn><mi>x</mi><mo>=</mo><mn>144</mn></math>, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,288</mn><mi>x</mi><mo>=</mo><mn>144</mn></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>500</mn></math> zł. Łączny zarobek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>500</mn><mo>+</mo><mn>600</mn><mo>+</mo><mn>720</mn><mo>+</mo><mn>864</mn><mo>=</mo><mn>2684</mn></math> zł.</p><p><em>Częściowo: po 1 pkt za zapisanie zależności między tygodniami, za obliczenie zarobku w pierwszym tygodniu (500 zł) oraz za obliczenie łącznego zarobku i podanie odpowiedzi.</em></p>"
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> to zarobek w pierwszym tygodniu. W kolejnych tygodniach zarobki wynoszą: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,2</mn><mi>x</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>1,2</mn><mn>2</mn></msup><mi>x</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>1,2</mn><mn>3</mn></msup><mi>x</mi></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>1,2</mn><mn>3</mn></msup><mi>x</mi><mo>−</mo><msup><mn>1,2</mn><mn>2</mn></msup><mi>x</mi><mo>=</mo><mn>144</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,44</mn><mo>·</mo><mn>0,2</mn><mi>x</mi><mo>=</mo><mn>144</mn></math>, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,288</mn><mi>x</mi><mo>=</mo><mn>144</mn></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>500</mn></math> zł. Łączny zarobek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>500</mn><mo>+</mo><mn>600</mn><mo>+</mo><mn>720</mn><mo>+</mo><mn>864</mn><mo>=</mo><mn>2684</mn></math> zł.</p><p><em>Częściowo: po 1 pkt za zapisanie zależności między tygodniami, za obliczenie zarobku w pierwszym tygodniu (500 zł) oraz za obliczenie łącznego zarobku i podanie odpowiedzi.</em></p>",
+        "model": {
+          "answer": "2684 zł",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -231,7 +278,12 @@
       "figures": [],
       "answer": {
         "correct": "2 cm × 8 cm × 8 cm",
-        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> będzie długością krawędzi sześcianu. Jacek dzieli sześcian na cztery jednakowe płytki o wymiarach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>×</mo><mi>a</mi><mo>×</mo><mfrac><mi>a</mi><mn>4</mn></mfrac></math>; pole powierzchni całkowitej jednej z nich to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>1</mn></msub><mo>=</mo><mn>2</mn><mo>(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mo>·</mo><mi>a</mi><mo>·</mo><mfrac><mi>a</mi><mn>4</mn></mfrac><mo>)</mo><mo>=</mo><mn>3</mn><msup><mi>a</mi><mn>2</mn></msup></math>. Adam dzieli sześcian na cztery jednakowe słupki o wymiarach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>×</mo><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>×</mo><mi>a</mi></math>; pole powierzchni całkowitej jednego to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>2</mn></msub><mo>=</mo><mn>2</mn><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>1</mn></msub><mo>−</mo><msub><mi>P</mi><mn>2</mn></msub><mo>=</mo><mn>3</mn><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>32</mn></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>64</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>8</mn></math> cm. Zatem klocek Jacka ma wymiary 2 cm × 8 cm × 8 cm.</p><p><em>Częściowo: po 1 pkt za wzór na pole powierzchni klocka Jacka, za wzór na pole powierzchni klocka Adama oraz za obliczenie wymiarów klocka Jacka.</em></p>"
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> będzie długością krawędzi sześcianu. Jacek dzieli sześcian na cztery jednakowe płytki o wymiarach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>×</mo><mi>a</mi><mo>×</mo><mfrac><mi>a</mi><mn>4</mn></mfrac></math>; pole powierzchni całkowitej jednej z nich to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>1</mn></msub><mo>=</mo><mn>2</mn><mo>(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mo>·</mo><mi>a</mi><mo>·</mo><mfrac><mi>a</mi><mn>4</mn></mfrac><mo>)</mo><mo>=</mo><mn>3</mn><msup><mi>a</mi><mn>2</mn></msup></math>. Adam dzieli sześcian na cztery jednakowe słupki o wymiarach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>×</mo><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>×</mo><mi>a</mi></math>; pole powierzchni całkowitej jednego to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>2</mn></msub><mo>=</mo><mn>2</mn><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>1</mn></msub><mo>−</mo><msub><mi>P</mi><mn>2</mn></msub><mo>=</mo><mn>3</mn><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>32</mn></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>64</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>8</mn></math> cm. Zatem klocek Jacka ma wymiary 2 cm × 8 cm × 8 cm.</p><p><em>Częściowo: po 1 pkt za wzór na pole powierzchni klocka Jacka, za wzór na pole powierzchni klocka Adama oraz za obliczenie wymiarów klocka Jacka.</em></p>",
+        "model": {
+          "answer": "8 cm × 8 cm × 2 cm",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     }
   ]

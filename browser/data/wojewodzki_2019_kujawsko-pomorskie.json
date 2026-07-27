@@ -27,7 +27,12 @@
       "figures": [],
       "answer": {
         "correct": "P = 2 + √3 lub P = 2 − √3",
-        "solution_html": "<p>Podstawa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> jest cięciwą o długości 2, a promień okręgu wynosi 2, więc trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABO</mi></math> (gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math> jest środkiem okręgu) jest równoboczny o boku 2. Jego wysokość opuszczona na <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt></math>, a wierzchołek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> leży na symetralnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> w odległości równej promieniowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>OC</mi><mo>=</mo><mn>2</mn></mrow></math> od środka.</p><p><strong>I przypadek</strong> (wierzchołek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> po przeciwnej stronie środka): wysokość trójkąta to suma wysokości trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABO</mi></math> i promienia, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>H</mi><mo>=</mo><mn>2</mn><mo>+</mo><msqrt><mn>3</mn></msqrt></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mo>·</mo><mo>(</mo><mn>2</mn><mo>+</mo><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow><mn>2</mn></mfrac><mo>=</mo><mn>2</mn><mo>+</mo><msqrt><mn>3</mn></msqrt></mrow></math>.</p><p><strong>II przypadek</strong> (wierzchołek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> po tej samej stronie): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>H</mi><mo>=</mo><mn>2</mn><mo>−</mo><msqrt><mn>3</mn></msqrt></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mo>·</mo><mo>(</mo><mn>2</mn><mo>−</mo><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow><mn>2</mn></mfrac><mo>=</mo><mn>2</mn><mo>−</mo><msqrt><mn>3</mn></msqrt></mrow></math>.</p>"
+        "solution_html": "<p>Podstawa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> jest cięciwą o długości 2, a promień okręgu wynosi 2, więc trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABO</mi></math> (gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math> jest środkiem okręgu) jest równoboczny o boku 2. Jego wysokość opuszczona na <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt></math>, a wierzchołek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> leży na symetralnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> w odległości równej promieniowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>OC</mi><mo>=</mo><mn>2</mn></mrow></math> od środka.</p><p><strong>I przypadek</strong> (wierzchołek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> po przeciwnej stronie środka): wysokość trójkąta to suma wysokości trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABO</mi></math> i promienia, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>H</mi><mo>=</mo><mn>2</mn><mo>+</mo><msqrt><mn>3</mn></msqrt></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mo>·</mo><mo>(</mo><mn>2</mn><mo>+</mo><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow><mn>2</mn></mfrac><mo>=</mo><mn>2</mn><mo>+</mo><msqrt><mn>3</mn></msqrt></mrow></math>.</p><p><strong>II przypadek</strong> (wierzchołek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> po tej samej stronie): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>H</mi><mo>=</mo><mn>2</mn><mo>−</mo><msqrt><mn>3</mn></msqrt></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mo>·</mo><mo>(</mo><mn>2</mn><mo>−</mo><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow><mn>2</mn></mfrac><mo>=</mo><mn>2</mn><mo>−</mo><msqrt><mn>3</mn></msqrt></mrow></math>.</p>",
+        "model": {
+          "answer": "P₁ = 2+√3, P₂ = 2−√3",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -45,7 +50,12 @@
       "figures": [],
       "answer": {
         "correct": "a) 18 uczniów; b) 4 uczniów; c) 1/5",
-        "solution_html": "<p><strong>a)</strong> Tylko w jednym konkursie: matematyka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>14</mn><mo>−</mo><mn>5</mn><mo>−</mo><mn>4</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>7</mn></mrow></math>, fizyka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>12</mn><mo>−</mo><mn>5</mn><mo>−</mo><mn>3</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>6</mn></mrow></math>, chemia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mo>−</mo><mn>4</mn><mo>−</mo><mn>3</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>5</mn></mrow></math>. Razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7</mn><mo>+</mo><mn>6</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>18</mn></mrow></math>.</p><p><strong>b)</strong> W co najmniej jednym konkursie bierze udział <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>14</mn><mo>+</mo><mn>12</mn><mo>+</mo><mn>10</mn><mo>−</mo><mn>5</mn><mo>−</mo><mn>4</mn><mo>−</mo><mn>3</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>26</mn></mrow></math> uczniów, więc w żadnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>30</mn><mo>−</mo><mn>26</mn><mo>=</mo><mn>4</mn></mrow></math>.</p><p><strong>c)</strong> Dokładnie w dwóch konkursach: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>5</mn><mo>−</mo><mn>2</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>4</mn><mo>−</mo><mn>2</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>3</mn><mo>−</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>6</mn></mrow></math> uczniów, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mfrac><mn>6</mn><mn>30</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>5</mn></mfrac></mrow></math>.</p>"
+        "solution_html": "<p><strong>a)</strong> Tylko w jednym konkursie: matematyka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>14</mn><mo>−</mo><mn>5</mn><mo>−</mo><mn>4</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>7</mn></mrow></math>, fizyka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>12</mn><mo>−</mo><mn>5</mn><mo>−</mo><mn>3</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>6</mn></mrow></math>, chemia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mo>−</mo><mn>4</mn><mo>−</mo><mn>3</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>5</mn></mrow></math>. Razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7</mn><mo>+</mo><mn>6</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>18</mn></mrow></math>.</p><p><strong>b)</strong> W co najmniej jednym konkursie bierze udział <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>14</mn><mo>+</mo><mn>12</mn><mo>+</mo><mn>10</mn><mo>−</mo><mn>5</mn><mo>−</mo><mn>4</mn><mo>−</mo><mn>3</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>26</mn></mrow></math> uczniów, więc w żadnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>30</mn><mo>−</mo><mn>26</mn><mo>=</mo><mn>4</mn></mrow></math>.</p><p><strong>c)</strong> Dokładnie w dwóch konkursach: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>5</mn><mo>−</mo><mn>2</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>4</mn><mo>−</mo><mn>2</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>3</mn><mo>−</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>6</mn></mrow></math> uczniów, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mfrac><mn>6</mn><mn>30</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>5</mn></mfrac></mrow></math>.</p>",
+        "model": {
+          "answer": "a) 18 uczniów; b) 4 uczniów; c) P = 1/5 (0,2)",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -63,7 +73,12 @@
       "figures": [],
       "answer": {
         "correct": "90 godzin",
-        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę ton ładowanych w ciągu godziny przez dźwig o mniejszej mocy; dźwig o większej mocy ładuje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>10,5</mn></mrow></math> ton na godzinę. Oba dźwigi pracowały tyle samo czasu, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>66</mn><mi>x</mi></mfrac><mo>=</mo><mfrac><mn>108</mn><mrow><mi>x</mi><mo>+</mo><mn>10,5</mn></mrow></mfrac></mrow></math>.</p><p>Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>66</mn><mo>(</mo><mi>x</mi><mo>+</mo><mn>10,5</mn><mo>)</mo><mo>=</mo><mn>108</mn><mi>x</mi></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>42</mn><mi>x</mi><mo>=</mo><mn>693</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>16,5</mn></mrow></math> ton na godzinę.</p><p>Czas załadunku 1485 ton: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1485</mn><mo>:</mo><mn>16,5</mn><mo>=</mo><mn>90</mn></mrow></math> godzin.</p>"
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę ton ładowanych w ciągu godziny przez dźwig o mniejszej mocy; dźwig o większej mocy ładuje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>10,5</mn></mrow></math> ton na godzinę. Oba dźwigi pracowały tyle samo czasu, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>66</mn><mi>x</mi></mfrac><mo>=</mo><mfrac><mn>108</mn><mrow><mi>x</mi><mo>+</mo><mn>10,5</mn></mrow></mfrac></mrow></math>.</p><p>Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>66</mn><mo>(</mo><mi>x</mi><mo>+</mo><mn>10,5</mn><mo>)</mo><mo>=</mo><mn>108</mn><mi>x</mi></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>42</mn><mi>x</mi><mo>=</mo><mn>693</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>16,5</mn></mrow></math> ton na godzinę.</p><p>Czas załadunku 1485 ton: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1485</mn><mo>:</mo><mn>16,5</mn><mo>=</mo><mn>90</mn></mrow></math> godzin.</p>",
+        "model": {
+          "answer": "90 godzin",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -83,7 +98,12 @@
       ],
       "answer": {
         "correct": "V = 4√3/3 cm³",
-        "solution_html": "<p>Podstawą ostrosłupa jest kwadrat o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>2</mn></mrow></math> cm. Odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> jest przeciwprostokątną trójkąta prostokątnego równoramiennego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDO</mi></math>, więc jego przyprostokątne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>CO</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>DO</mi><mo>|</mo><mo>=</mo><mn>3</mn></mrow></math> cm.</p><p>Wysokość ściany bocznej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>PC</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>OC</mi><mo>|</mo><mo>−</mo><mo>|</mo><mi>OP</mi><mo>|</mo><mo>=</mo><mn>3</mn><mo>−</mo><mn>1</mn><mo>=</mo><mn>2</mn></mrow></math> cm (apotema <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>OP</mi><mo>|</mo><mo>=</mo><mn>1</mn></mrow></math>).</p><p>Wysokość ostrosłupa z twierdzenia Pitagorasa w trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>OPC</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>H</mi><mn>2</mn></msup><mo>+</mo><msup><mn>1</mn><mn>2</mn></msup><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>H</mi><mo>=</mo><msqrt><mn>3</mn></msqrt></mrow></math>.</p><p>Objętość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>V</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><msup><mn>2</mn><mn>2</mn></msup><mo>·</mo><msqrt><mn>3</mn></msqrt><mo>=</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><msqrt><mn>3</mn></msqrt></mrow></math> cm³.</p>"
+        "solution_html": "<p>Podstawą ostrosłupa jest kwadrat o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>2</mn></mrow></math> cm. Odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> jest przeciwprostokątną trójkąta prostokątnego równoramiennego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDO</mi></math>, więc jego przyprostokątne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>CO</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>DO</mi><mo>|</mo><mo>=</mo><mn>3</mn></mrow></math> cm.</p><p>Wysokość ściany bocznej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>PC</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>OC</mi><mo>|</mo><mo>−</mo><mo>|</mo><mi>OP</mi><mo>|</mo><mo>=</mo><mn>3</mn><mo>−</mo><mn>1</mn><mo>=</mo><mn>2</mn></mrow></math> cm (apotema <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>OP</mi><mo>|</mo><mo>=</mo><mn>1</mn></mrow></math>).</p><p>Wysokość ostrosłupa z twierdzenia Pitagorasa w trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>OPC</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>H</mi><mn>2</mn></msup><mo>+</mo><msup><mn>1</mn><mn>2</mn></msup><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>H</mi><mo>=</mo><msqrt><mn>3</mn></msqrt></mrow></math>.</p><p>Objętość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>V</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><msup><mn>2</mn><mn>2</mn></msup><mo>·</mo><msqrt><mn>3</mn></msqrt><mo>=</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><msqrt><mn>3</mn></msqrt></mrow></math> cm³.</p>",
+        "model": {
+          "answer": "V = (4√3)/3 cm³ ≈ 2,31 cm³",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -101,7 +121,12 @@
       "figures": [],
       "answer": {
         "correct": "α = 80°",
-        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> będzie kątem przyległym. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>=</mo><mfrac><mn>4</mn><mn>5</mn></mfrac><mi>β</mi></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>+</mo><mi>β</mi><mo>=</mo><mn>180</mn><mo>°</mo></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>4</mn><mn>5</mn></mfrac><mi>β</mi><mo>+</mo><mi>β</mi><mo>=</mo><mn>180</mn><mo>°</mo></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>β</mi><mo>=</mo><mn>100</mn><mo>°</mo></mrow></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>=</mo><mfrac><mn>4</mn><mn>5</mn></mfrac><mo>·</mo><mn>100</mn><mo>°</mo><mo>=</mo><mn>80</mn><mo>°</mo></mrow></math>.</p>"
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> będzie kątem przyległym. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>=</mo><mfrac><mn>4</mn><mn>5</mn></mfrac><mi>β</mi></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>+</mo><mi>β</mi><mo>=</mo><mn>180</mn><mo>°</mo></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>4</mn><mn>5</mn></mfrac><mi>β</mi><mo>+</mo><mi>β</mi><mo>=</mo><mn>180</mn><mo>°</mo></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>β</mi><mo>=</mo><mn>100</mn><mo>°</mo></mrow></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>=</mo><mfrac><mn>4</mn><mn>5</mn></mfrac><mo>·</mo><mn>100</mn><mo>°</mo><mo>=</mo><mn>80</mn><mo>°</mo></mrow></math>.</p>",
+        "model": {
+          "answer": "80°",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -120,7 +145,12 @@
       "figures": [],
       "answer": {
         "correct": "P = 1,5 m²",
-        "solution_html": "<p>Rzeczywiste wymiary: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>75</mn><mtext> mm</mtext><mo>·</mo><mn>20</mn><mo>=</mo><mn>1500</mn><mtext> mm</mtext><mo>=</mo><mn>1,5</mn><mtext> m</mtext></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>50</mn><mtext> mm</mtext><mo>·</mo><mn>20</mn><mo>=</mo><mn>1000</mn><mtext> mm</mtext><mo>=</mo><mn>1</mn><mtext> m</mtext></mrow></math>.</p><p>Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mn>1,5</mn><mtext> m</mtext><mo>·</mo><mn>1</mn><mtext> m</mtext><mo>=</mo><mn>1,5</mn></mrow></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>m</mtext><mn>2</mn></msup></math>.</p>"
+        "solution_html": "<p>Rzeczywiste wymiary: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>75</mn><mtext> mm</mtext><mo>·</mo><mn>20</mn><mo>=</mo><mn>1500</mn><mtext> mm</mtext><mo>=</mo><mn>1,5</mn><mtext> m</mtext></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>50</mn><mtext> mm</mtext><mo>·</mo><mn>20</mn><mo>=</mo><mn>1000</mn><mtext> mm</mtext><mo>=</mo><mn>1</mn><mtext> m</mtext></mrow></math>.</p><p>Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mn>1,5</mn><mtext> m</mtext><mo>·</mo><mn>1</mn><mtext> m</mtext><mo>=</mo><mn>1,5</mn></mrow></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>m</mtext><mn>2</mn></msup></math>.</p>",
+        "model": {
+          "answer": "1,5 m²",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -141,7 +171,12 @@
       ],
       "answer": {
         "correct": "P = 40 cm²",
-        "solution_html": "<p>Oznaczmy pole prostokąta przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math>. Od pola prostokąta odejmujemy pola trzech trójkątów prostokątnych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>ABE</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>P</mi></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>ADF</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>P</mi></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>CEF</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mi>P</mi></mrow></math>.</p><p>Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>AEF</mi></msub><mo>=</mo><mi>P</mi><mo>−</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>P</mi><mo>−</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>P</mi><mo>−</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mi>P</mi><mo>=</mo><mfrac><mn>3</mn><mn>8</mn></mfrac><mi>P</mi></mrow></math>. Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>=</mo><mfrac><mn>3</mn><mn>8</mn></mfrac><mi>P</mi></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mn>40</mn></mrow></math> cm².</p>"
+        "solution_html": "<p>Oznaczmy pole prostokąta przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math>. Od pola prostokąta odejmujemy pola trzech trójkątów prostokątnych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>ABE</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>P</mi></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>ADF</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>P</mi></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>CEF</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mi>P</mi></mrow></math>.</p><p>Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>AEF</mi></msub><mo>=</mo><mi>P</mi><mo>−</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>P</mi><mo>−</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>P</mi><mo>−</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mi>P</mi><mo>=</mo><mfrac><mn>3</mn><mn>8</mn></mfrac><mi>P</mi></mrow></math>. Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>=</mo><mfrac><mn>3</mn><mn>8</mn></mfrac><mi>P</mi></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mn>40</mn></mrow></math> cm².</p>",
+        "model": {
+          "answer": "40 cm²",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -159,7 +194,12 @@
       "figures": [],
       "answer": {
         "correct": "5/6",
-        "solution_html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>120</mn><mo>%</mo><mi>b</mi><mo>=</mo><mn>1,2</mn><mi>b</mi></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mi>b</mi><mi>a</mi></mfrac><mo>=</mo><mfrac><mi>b</mi><mrow><mn>1,2</mn><mi>b</mi></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>1,2</mn></mfrac><mo>=</mo><mfrac><mn>10</mn><mn>12</mn></mfrac><mo>=</mo><mfrac><mn>5</mn><mn>6</mn></mfrac></mrow></math>.</p>"
+        "solution_html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>120</mn><mo>%</mo><mi>b</mi><mo>=</mo><mn>1,2</mn><mi>b</mi></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mi>b</mi><mi>a</mi></mfrac><mo>=</mo><mfrac><mi>b</mi><mrow><mn>1,2</mn><mi>b</mi></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>1,2</mn></mfrac><mo>=</mo><mfrac><mn>10</mn><mn>12</mn></mfrac><mo>=</mo><mfrac><mn>5</mn><mn>6</mn></mfrac></mrow></math>.</p>",
+        "model": {
+          "answer": "b : a = 5 : 6",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -176,7 +216,12 @@
       "figures": [],
       "answer": {
         "correct": "36°",
-        "solution_html": "<p>Kąt wewnętrzny pięciokąta foremnego ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>180</mn><mo>°</mo><mo>:</mo><mn>5</mn><mo>=</mo><mn>540</mn><mo>°</mo><mo>:</mo><mn>5</mn><mo>=</mo><mn>108</mn><mo>°</mo></mrow></math>. Dwie przekątne wychodzące z jednego wierzchołka dzielą ten kąt na trzy równe części po <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>108</mn><mo>°</mo><mo>)</mo><mo>:</mo><mn>2</mn><mo>=</mo><mn>36</mn><mo>°</mo></mrow></math>. Kąt między przekątnymi to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>108</mn><mo>°</mo><mo>−</mo><mn>2</mn><mo>·</mo><mn>36</mn><mo>°</mo><mo>=</mo><mn>36</mn><mo>°</mo></mrow></math>.</p>"
+        "solution_html": "<p>Kąt wewnętrzny pięciokąta foremnego ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>180</mn><mo>°</mo><mo>:</mo><mn>5</mn><mo>=</mo><mn>540</mn><mo>°</mo><mo>:</mo><mn>5</mn><mo>=</mo><mn>108</mn><mo>°</mo></mrow></math>. Dwie przekątne wychodzące z jednego wierzchołka dzielą ten kąt na trzy równe części po <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>108</mn><mo>°</mo><mo>)</mo><mo>:</mo><mn>2</mn><mo>=</mo><mn>36</mn><mo>°</mo></mrow></math>. Kąt między przekątnymi to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>108</mn><mo>°</mo><mo>−</mo><mn>2</mn><mo>·</mo><mn>36</mn><mo>°</mo><mo>=</mo><mn>36</mn><mo>°</mo></mrow></math>.</p>",
+        "model": {
+          "answer": "36°",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -194,7 +239,12 @@
       "figures": [],
       "answer": {
         "correct": "5/12",
-        "solution_html": "<p>Można ułożyć <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>12</mn></mrow></math> liczb dwucyfrowych o różnych cyfrach. Liczbami pierwszymi są: 13, 23, 31, 41, 43 — jest ich 5. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>p</mi><mo>=</mo><mfrac><mn>5</mn><mn>12</mn></mfrac></mrow></math>.</p>"
+        "solution_html": "<p>Można ułożyć <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>12</mn></mrow></math> liczb dwucyfrowych o różnych cyfrach. Liczbami pierwszymi są: 13, 23, 31, 41, 43 — jest ich 5. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>p</mi><mo>=</mo><mfrac><mn>5</mn><mn>12</mn></mfrac></mrow></math>.</p>",
+        "model": {
+          "answer": "5/12",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -215,7 +265,12 @@
       ],
       "answer": {
         "correct": "144π cm²",
-        "solution_html": "<p>Cięciwa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> większego okręgu jest styczna do mniejszego, a punkt styczności jest jej środkiem, więc połowa cięciwy ma długość 12 cm. Z twierdzenia Pitagorasa dla promieni <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>12</mn><mn>2</mn></msup><mo>+</mo><msup><mi>r</mi><mn>2</mn></msup><mo>=</mo><msup><mi>R</mi><mn>2</mn></msup></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>R</mi><mn>2</mn></msup><mo>−</mo><msup><mi>r</mi><mn>2</mn></msup><mo>=</mo><mn>144</mn></mrow></math>.</p><p>Pole pierścienia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mi>π</mi><mo>(</mo><msup><mi>R</mi><mn>2</mn></msup><mo>−</mo><msup><mi>r</mi><mn>2</mn></msup><mo>)</mo><mo>=</mo><mn>144</mn><mi>π</mi></mrow></math> cm².</p>"
+        "solution_html": "<p>Cięciwa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> większego okręgu jest styczna do mniejszego, a punkt styczności jest jej środkiem, więc połowa cięciwy ma długość 12 cm. Z twierdzenia Pitagorasa dla promieni <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>12</mn><mn>2</mn></msup><mo>+</mo><msup><mi>r</mi><mn>2</mn></msup><mo>=</mo><msup><mi>R</mi><mn>2</mn></msup></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>R</mi><mn>2</mn></msup><mo>−</mo><msup><mi>r</mi><mn>2</mn></msup><mo>=</mo><mn>144</mn></mrow></math>.</p><p>Pole pierścienia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mi>π</mi><mo>(</mo><msup><mi>R</mi><mn>2</mn></msup><mo>−</mo><msup><mi>r</mi><mn>2</mn></msup><mo>)</mo><mo>=</mo><mn>144</mn><mi>π</mi></mrow></math> cm².</p>",
+        "model": {
+          "answer": "144π cm²",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -232,7 +287,12 @@
       "figures": [],
       "answer": {
         "correct": "448",
-        "solution_html": "<p>Brakującym znakiem jest X, więc liczba to CDXLVIII, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>400</mn><mo>+</mo><mn>40</mn><mo>+</mo><mn>8</mn><mo>=</mo><mn>448</mn></mrow></math>.</p>"
+        "solution_html": "<p>Brakującym znakiem jest X, więc liczba to CDXLVIII, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>400</mn><mo>+</mo><mn>40</mn><mo>+</mo><mn>8</mn><mo>=</mo><mn>448</mn></mrow></math>.</p>",
+        "model": {
+          "answer": "448",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -250,7 +310,12 @@
       "figures": [],
       "answer": {
         "correct": "n = 1010",
-        "solution_html": "<p>Z warunku zadania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>−</mo><msup><mrow><mo>(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>2019</mn></mrow></math>. Po rozwinięciu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>−</mo><mo>(</mo><msup><mi>n</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>=</mo><mn>2019</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>n</mi><mo>−</mo><mn>1</mn><mo>=</mo><mn>2019</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>n</mi><mo>=</mo><mn>2020</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>=</mo><mn>1010</mn></mrow></math>.</p>"
+        "solution_html": "<p>Z warunku zadania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>−</mo><msup><mrow><mo>(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>2019</mn></mrow></math>. Po rozwinięciu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>−</mo><mo>(</mo><msup><mi>n</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>=</mo><mn>2019</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>n</mi><mo>−</mo><mn>1</mn><mo>=</mo><mn>2019</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>n</mi><mo>=</mo><mn>2020</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>=</mo><mn>1010</mn></mrow></math>.</p>",
+        "model": {
+          "answer": "n = 1010",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -270,7 +335,12 @@
       ],
       "answer": {
         "correct": "α = 54°",
-        "solution_html": "<p>Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BAC</mi></math> jest oparty na średnicy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>, więc ma miarę 90°. Kąt między styczną <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> a cięciwą wynosi 36°, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>=</mo><mn>90</mn><mo>°</mo><mo>−</mo><mn>36</mn><mo>°</mo><mo>=</mo><mn>54</mn><mo>°</mo></mrow></math>.</p>"
+        "solution_html": "<p>Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BAC</mi></math> jest oparty na średnicy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>, więc ma miarę 90°. Kąt między styczną <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> a cięciwą wynosi 36°, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>=</mo><mn>90</mn><mo>°</mo><mo>−</mo><mn>36</mn><mo>°</mo><mo>=</mo><mn>54</mn><mo>°</mo></mrow></math>.</p>",
+        "model": {
+          "answer": "α = 54°",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     }
   ]

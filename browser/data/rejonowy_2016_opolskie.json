@@ -38,7 +38,12 @@
       "figures": [],
       "answer": {
         "correct": "PFP",
-        "solution_html": "<p>Szukamy rozwiązań równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mi>a</mi><mo>+</mo><mn>2</mn><mi>b</mi><mo>=</mo><mn>111</mn></mrow></math> w liczbach całkowitych nieujemnych (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> — liczba monet 5 zł, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> — liczba monet 2 zł). Dla 24 monet: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>24</mn></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>a</mi><mo>=</mo><mn>111</mn><mo>−</mo><mn>48</mn><mo>=</mo><mn>63</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>21</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>3</mn></mrow></math> — możliwe (TAK). Dla 50 monet: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>a</mi><mo>=</mo><mn>111</mn><mo>−</mo><mn>100</mn><mo>=</mo><mn>11</mn></mrow></math> — brak rozwiązania w liczbach całkowitych (NIE). Ponieważ 111 jest nieparzyste, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> musi być nieparzyste, a z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mi>a</mi><mo>≤</mo><mn>111</mn></mrow></math> wynika <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>∈</mo><mo>{</mo><mn>1</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>5</mn><mo>,</mo><mo>…</mo><mo>,</mo><mn>21</mn><mo>}</mo></mrow></math> — jest 11 takich wartości, więc 11 sposobów (TAK).</p>"
+        "solution_html": "<p>Szukamy rozwiązań równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mi>a</mi><mo>+</mo><mn>2</mn><mi>b</mi><mo>=</mo><mn>111</mn></mrow></math> w liczbach całkowitych nieujemnych (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> — liczba monet 5 zł, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> — liczba monet 2 zł). Dla 24 monet: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>24</mn></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>a</mi><mo>=</mo><mn>111</mn><mo>−</mo><mn>48</mn><mo>=</mo><mn>63</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>21</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>3</mn></mrow></math> — możliwe (TAK). Dla 50 monet: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>a</mi><mo>=</mo><mn>111</mn><mo>−</mo><mn>100</mn><mo>=</mo><mn>11</mn></mrow></math> — brak rozwiązania w liczbach całkowitych (NIE). Ponieważ 111 jest nieparzyste, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> musi być nieparzyste, a z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mi>a</mi><mo>≤</mo><mn>111</mn></mrow></math> wynika <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>∈</mo><mo>{</mo><mn>1</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>5</mn><mo>,</mo><mo>…</mo><mo>,</mo><mn>21</mn><mo>}</mo></mrow></math> — jest 11 takich wartości, więc 11 sposobów (TAK).</p>",
+        "model": {
+          "answer": "PFP",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -68,7 +73,12 @@
       "figures": [],
       "answer": {
         "correct": "PPF",
-        "solution_html": "<p>Wśród każdych trzech kolejnych liczb naturalnych jest liczba podzielna przez 3, więc tym bardziej wśród czterech — TAK. Wśród czterech kolejnych liczb dokładnie jedna jest podzielna przez 4 — TAK. Natomiast liczba podzielna przez 5 nie musi wystąpić, np. wśród 1, 2, 3, 4 nie ma wielokrotności 5 — NIE.</p>"
+        "solution_html": "<p>Wśród każdych trzech kolejnych liczb naturalnych jest liczba podzielna przez 3, więc tym bardziej wśród czterech — TAK. Wśród czterech kolejnych liczb dokładnie jedna jest podzielna przez 4 — TAK. Natomiast liczba podzielna przez 5 nie musi wystąpić, np. wśród 1, 2, 3, 4 nie ma wielokrotności 5 — NIE.</p>",
+        "model": {
+          "answer": "PPF",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -98,7 +108,12 @@
       "figures": [],
       "answer": {
         "correct": "FPF",
-        "solution_html": "<p>Z równości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,25</mn><mi>a</mi><mo>=</mo><mn>0,20</mn><mi>b</mi></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>0,8</mn><mi>b</mi></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>1,25</mn><mi>a</mi></mrow></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest o 20% mniejsza od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> (nie o 5% większa) — NIE. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest mniejsza od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> — TAK. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest o 25% większa od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, a nie o 20% — NIE.</p>"
+        "solution_html": "<p>Z równości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,25</mn><mi>a</mi><mo>=</mo><mn>0,20</mn><mi>b</mi></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>0,8</mn><mi>b</mi></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>1,25</mn><mi>a</mi></mrow></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest o 20% mniejsza od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> (nie o 5% większa) — NIE. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest mniejsza od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> — TAK. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest o 25% większa od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, a nie o 20% — NIE.</p>",
+        "model": {
+          "answer": "FPF",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -128,7 +143,12 @@
       "figures": [],
       "answer": {
         "correct": "PPP",
-        "solution_html": "<p>Czas jazdy: od 21:23 do 22:47 to 1 h 24 min <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>=</mo><mn>1,4</mn></mrow></math> h — TAK. Prędkość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>84</mn><mo>:</mo><mn>1,4</mn><mo>=</mo><mn>60</mn></mrow></math> km/h — TAK. Przy prędkości 70 km/h czas wynosiłby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>84</mn><mo>:</mo><mn>70</mn><mo>=</mo><mn>1,2</mn></mrow></math> h <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>=</mo><mn>1</mn></mrow></math> h 12 min, czyli o 12 min krócej — TAK.</p>"
+        "solution_html": "<p>Czas jazdy: od 21:23 do 22:47 to 1 h 24 min <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>=</mo><mn>1,4</mn></mrow></math> h — TAK. Prędkość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>84</mn><mo>:</mo><mn>1,4</mn><mo>=</mo><mn>60</mn></mrow></math> km/h — TAK. Przy prędkości 70 km/h czas wynosiłby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>84</mn><mo>:</mo><mn>70</mn><mo>=</mo><mn>1,2</mn></mrow></math> h <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>=</mo><mn>1</mn></mrow></math> h 12 min, czyli o 12 min krócej — TAK.</p>",
+        "model": {
+          "answer": "PPP",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -160,7 +180,12 @@
       "figures": [],
       "answer": {
         "correct": "FPP",
-        "solution_html": "<p>Z nierówności trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mo>−</mo><mn>2</mn><mo>&lt;</mo><mi>c</mi><mo>&lt;</mo><mn>10</mn><mo>+</mo><mn>2</mn></mrow></math>, więc trzeci bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>&lt;</mo><mi>c</mi><mo>&lt;</mo><mn>12</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>∈</mo><mo>{</mo><mn>9</mn><mo>,</mo><mn>10</mn><mo>,</mo><mn>11</mn><mo>}</mo></mrow></math>. Obwód <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>=</mo><mn>12</mn><mo>+</mo><mi>c</mi></mrow></math>. Obwód 20 cm dawałby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><mn>8</mn></mrow></math> — niemożliwe (NIE). Obwód 21 cm daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><mn>9</mn></mrow></math> — możliwe (TAK). Takich trójkątów jest 3 — TAK.</p>"
+        "solution_html": "<p>Z nierówności trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mo>−</mo><mn>2</mn><mo>&lt;</mo><mi>c</mi><mo>&lt;</mo><mn>10</mn><mo>+</mo><mn>2</mn></mrow></math>, więc trzeci bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>&lt;</mo><mi>c</mi><mo>&lt;</mo><mn>12</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>∈</mo><mo>{</mo><mn>9</mn><mo>,</mo><mn>10</mn><mo>,</mo><mn>11</mn><mo>}</mo></mrow></math>. Obwód <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>=</mo><mn>12</mn><mo>+</mo><mi>c</mi></mrow></math>. Obwód 20 cm dawałby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><mn>8</mn></mrow></math> — niemożliwe (NIE). Obwód 21 cm daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><mn>9</mn></mrow></math> — możliwe (TAK). Takich trójkątów jest 3 — TAK.</p>",
+        "model": {
+          "answer": "FPP",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -177,7 +202,12 @@
       "figures": [],
       "answer": {
         "correct": "a) 15 i 90; b) 105 i 990; c) 1005 i 9990",
-        "solution_html": "<p>Wielokrotności 15 to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>·</mo><mi>k</mi></mrow></math>. Dwucyfrowe: od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>·</mo><mn>1</mn><mo>=</mo><mn>15</mn></mrow></math> do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>90</mn></mrow></math>. Trzycyfrowe: od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>·</mo><mn>7</mn><mo>=</mo><mn>105</mn></mrow></math> do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>·</mo><mn>66</mn><mo>=</mo><mn>990</mn></mrow></math>. Czterocyfrowe: od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>·</mo><mn>67</mn><mo>=</mo><mn>1005</mn></mrow></math> do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>·</mo><mn>666</mn><mo>=</mo><mn>9990</mn></mrow></math>.</p>"
+        "solution_html": "<p>Wielokrotności 15 to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>·</mo><mi>k</mi></mrow></math>. Dwucyfrowe: od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>·</mo><mn>1</mn><mo>=</mo><mn>15</mn></mrow></math> do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>90</mn></mrow></math>. Trzycyfrowe: od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>·</mo><mn>7</mn><mo>=</mo><mn>105</mn></mrow></math> do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>·</mo><mn>66</mn><mo>=</mo><mn>990</mn></mrow></math>. Czterocyfrowe: od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>·</mo><mn>67</mn><mo>=</mo><mn>1005</mn></mrow></math> do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>·</mo><mn>666</mn><mo>=</mo><mn>9990</mn></mrow></math>.</p>",
+        "model": {
+          "answer": "a) 15 i 90; b) 105 i 990; c) 1005 i 9990",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -194,7 +224,12 @@
       "figures": [],
       "answer": {
         "correct": "Koszt benzyny: 71,61 zł; zasięg: 425 km",
-        "solution_html": "<p>Na 275 km samochód zużyje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>·</mo><mfrac><mn>275</mn><mn>100</mn></mfrac><mo>=</mo><mn>16,5</mn></mrow></math> litra benzyny, co kosztuje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>16,5</mn><mo>·</mo><mn>4,34</mn><mo>=</mo><mn>71,61</mn></mrow></math> zł. Mając 25,5 litra, przy zużyciu 6 litrów na 100 km, przejedzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>25,5</mn><mn>6</mn></mfrac><mo>·</mo><mn>100</mn><mo>=</mo><mn>425</mn></mrow></math> km.</p>"
+        "solution_html": "<p>Na 275 km samochód zużyje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>·</mo><mfrac><mn>275</mn><mn>100</mn></mfrac><mo>=</mo><mn>16,5</mn></mrow></math> litra benzyny, co kosztuje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>16,5</mn><mo>·</mo><mn>4,34</mn><mo>=</mo><mn>71,61</mn></mrow></math> zł. Mając 25,5 litra, przy zużyciu 6 litrów na 100 km, przejedzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>25,5</mn><mn>6</mn></mfrac><mo>·</mo><mn>100</mn><mo>=</mo><mn>425</mn></mrow></math> km.</p>",
+        "model": {
+          "answer": "Koszt: 71,61 zł; zasięg: 425 km",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -213,7 +248,12 @@
       "figures": [],
       "answer": {
         "correct": "a) 24 uczniów; b) 75%; c) 2 uczniów",
-        "solution_html": "<p>a) Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> to liczba uczniów. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>+</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mi>n</mi><mo>+</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>n</mi><mo>+</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>n</mi><mo>+</mo><mn>5</mn><mo>=</mo><mi>n</mi></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>17</mn><mn>24</mn></mfrac><mi>n</mi><mo>=</mo><mi>n</mi><mo>−</mo><mn>7</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>7</mn><mn>24</mn></mfrac><mi>n</mi><mo>=</mo><mn>7</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>=</mo><mn>24</mn></mrow></math>. b) Oceny: bardzo dobra 3, dobra 8, dostateczna 6, celująca 1 — co najmniej dostateczną ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>24</mn><mo>−</mo><mn>1</mn><mo>−</mo><mn>5</mn><mo>=</mo><mn>18</mn></mrow></math> uczniów, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>18</mn><mn>24</mn></mfrac><mo>=</mo><mn>75</mn><mo>%</mo></mrow></math>. c) Suma ocen wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>+</mo><mn>1</mn><mo>+</mo><mn>5</mn><mo>·</mo><mn>3</mn><mo>+</mo><mn>4</mn><mo>·</mo><mn>8</mn><mo>+</mo><mn>3</mn><mo>·</mo><mn>6</mn><mo>+</mo><mn>2</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>82</mn></mrow></math>. Aby średnia była 3,5, suma ma wynosić <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3,5</mn><mo>·</mo><mn>24</mn><mo>=</mo><mn>84</mn></mrow></math>, brakuje 2, a poprawa oceny o jeden stopień zwiększa sumę o 1 — potrzeba więc 2 uczniów.</p>"
+        "solution_html": "<p>a) Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> to liczba uczniów. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>+</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mi>n</mi><mo>+</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>n</mi><mo>+</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>n</mi><mo>+</mo><mn>5</mn><mo>=</mo><mi>n</mi></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>17</mn><mn>24</mn></mfrac><mi>n</mi><mo>=</mo><mi>n</mi><mo>−</mo><mn>7</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>7</mn><mn>24</mn></mfrac><mi>n</mi><mo>=</mo><mn>7</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>=</mo><mn>24</mn></mrow></math>. b) Oceny: bardzo dobra 3, dobra 8, dostateczna 6, celująca 1 — co najmniej dostateczną ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>24</mn><mo>−</mo><mn>1</mn><mo>−</mo><mn>5</mn><mo>=</mo><mn>18</mn></mrow></math> uczniów, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>18</mn><mn>24</mn></mfrac><mo>=</mo><mn>75</mn><mo>%</mo></mrow></math>. c) Suma ocen wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>+</mo><mn>1</mn><mo>+</mo><mn>5</mn><mo>·</mo><mn>3</mn><mo>+</mo><mn>4</mn><mo>·</mo><mn>8</mn><mo>+</mo><mn>3</mn><mo>·</mo><mn>6</mn><mo>+</mo><mn>2</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>82</mn></mrow></math>. Aby średnia była 3,5, suma ma wynosić <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3,5</mn><mo>·</mo><mn>24</mn><mo>=</mo><mn>84</mn></mrow></math>, brakuje 2, a poprawa oceny o jeden stopień zwiększa sumę o 1 — potrzeba więc 2 uczniów.</p>",
+        "model": {
+          "answer": "a) 24 uczniów; b) 75%; c) 2 uczniów",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -232,7 +272,12 @@
       ],
       "answer": {
         "correct": "α = 40°, β = 140°",
-        "solution_html": "<p>Obie sieczne wraz z prostą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi></math> tworzą trójkąt. Sieczna oznaczona kątem 20° tworzy z prostą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi></math> kąt 20°, a zaznaczony przy prostej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> kąt 120° jest kątem wierzchołkowym kąta wewnętrznego tego trójkąta w punkcie przecięcia siecznych. Trzeci kąt trójkąta (przy prostej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi></math>) ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>°</mo><mo>−</mo><mn>120</mn><mo>°</mo><mo>−</mo><mn>20</mn><mo>°</mo><mo>=</mo><mn>40</mn><mo>°</mo></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi></math> są równoległe, kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> jest równy temu kątowi, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>=</mo><mn>40</mn><mo>°</mo></mrow></math>. Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> jest kątem przyległym do tego kąta 40° przy prostej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>β</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>40</mn><mo>°</mo><mo>=</mo><mn>140</mn><mo>°</mo></mrow></math>.</p>"
+        "solution_html": "<p>Obie sieczne wraz z prostą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi></math> tworzą trójkąt. Sieczna oznaczona kątem 20° tworzy z prostą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi></math> kąt 20°, a zaznaczony przy prostej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> kąt 120° jest kątem wierzchołkowym kąta wewnętrznego tego trójkąta w punkcie przecięcia siecznych. Trzeci kąt trójkąta (przy prostej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi></math>) ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>°</mo><mo>−</mo><mn>120</mn><mo>°</mo><mo>−</mo><mn>20</mn><mo>°</mo><mo>=</mo><mn>40</mn><mo>°</mo></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi></math> są równoległe, kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> jest równy temu kątowi, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>=</mo><mn>40</mn><mo>°</mo></mrow></math>. Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> jest kątem przyległym do tego kąta 40° przy prostej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>β</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>40</mn><mo>°</mo><mo>=</mo><mn>140</mn><mo>°</mo></mrow></math>.</p>",
+        "model": {
+          "answer": "α = 40°, β = 140°",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -251,7 +296,12 @@
       "figures": [],
       "answer": {
         "correct": "258,75 cm²",
-        "solution_html": "<p>Bok rombu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>69</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>17,25</mn></mrow></math> cm. Bok jest o 15% dłuższy od wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>17,25</mn><mo>=</mo><mn>1,15</mn><mi>h</mi></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><mn>15</mn></mrow></math> cm. Pole rombu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>=</mo><mtext>bok</mtext><mo>·</mo><mi>h</mi><mo>=</mo><mn>17,25</mn><mo>·</mo><mn>15</mn><mo>=</mo><mn>258,75</mn></mrow></math> cm².</p>"
+        "solution_html": "<p>Bok rombu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>69</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>17,25</mn></mrow></math> cm. Bok jest o 15% dłuższy od wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>17,25</mn><mo>=</mo><mn>1,15</mn><mi>h</mi></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><mn>15</mn></mrow></math> cm. Pole rombu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>=</mo><mtext>bok</mtext><mo>·</mo><mi>h</mi><mo>=</mo><mn>17,25</mn><mo>·</mo><mn>15</mn><mo>=</mo><mn>258,75</mn></mrow></math> cm².</p>",
+        "model": {
+          "answer": "258,75 cm²",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -268,7 +318,12 @@
       "figures": [],
       "answer": {
         "correct": "a) Nie — pozostało 6 sześcianików; b) 3 sześciany",
-        "solution_html": "<p>Największy sześcian z 105 sześcianików ma krawędź 4 (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>4</mn><mn>3</mn></msup><mo>=</mo><mn>64</mn></mrow></math>), zostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>105</mn><mo>−</mo><mn>64</mn><mo>=</mo><mn>41</mn></mrow></math>. Z 41 największy sześcian ma krawędź 3 (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>3</mn><mn>3</mn></msup><mo>=</mo><mn>27</mn></mrow></math>), zostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>41</mn><mo>−</mo><mn>27</mn><mo>=</mo><mn>14</mn></mrow></math>. Z 14 największy sześcian ma krawędź 2 (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2</mn><mn>3</mn></msup><mo>=</mo><mn>8</mn></mrow></math>), zostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>14</mn><mo>−</mo><mn>8</mn><mo>=</mo><mn>6</mn></mrow></math>. Z 6 sześcianików nie da się już zbudować sześcianu o krawędzi 2. a) Nie — pozostało 6 nierozdysponowanych sześcianików. b) Zbudowano 3 sześciany o krawędzi większej niż jeden (o krawędziach 4, 3 i 2).</p>"
+        "solution_html": "<p>Największy sześcian z 105 sześcianików ma krawędź 4 (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>4</mn><mn>3</mn></msup><mo>=</mo><mn>64</mn></mrow></math>), zostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>105</mn><mo>−</mo><mn>64</mn><mo>=</mo><mn>41</mn></mrow></math>. Z 41 największy sześcian ma krawędź 3 (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>3</mn><mn>3</mn></msup><mo>=</mo><mn>27</mn></mrow></math>), zostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>41</mn><mo>−</mo><mn>27</mn><mo>=</mo><mn>14</mn></mrow></math>. Z 14 największy sześcian ma krawędź 2 (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2</mn><mn>3</mn></msup><mo>=</mo><mn>8</mn></mrow></math>), zostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>14</mn><mo>−</mo><mn>8</mn><mo>=</mo><mn>6</mn></mrow></math>. Z 6 sześcianików nie da się już zbudować sześcianu o krawędzi 2. a) Nie — pozostało 6 nierozdysponowanych sześcianików. b) Zbudowano 3 sześciany o krawędzi większej niż jeden (o krawędziach 4, 3 i 2).</p>",
+        "model": {
+          "answer": "a) Nie (wykorzystano 99 z 105, zostało 6); b) 3 sześciany",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     }
   ]

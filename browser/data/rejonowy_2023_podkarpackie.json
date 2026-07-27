@@ -25,7 +25,12 @@
       "figures": [],
       "answer": {
         "correct": "6 cm",
-        "solution_html": "<p>Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABE</mi></math> stanowi połowę pola kwadratu, ponieważ jego podstawa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> jest bokiem kwadratu, a wysokość opuszczona z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> jest równa bokowi kwadratu. Zatem pozostała część kwadratu, czyli trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADE</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCE</mi></math>, również stanowi połowę pola kwadratu. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>ABCD</mi></msub><mo>=</mo><mn>2</mn><mo>·</mo><mo>(</mo><mn>15,75</mn><mo>+</mo><mn>2,25</mn><mo>)</mo><mo>=</mo><mn>36</mn></mrow></math> cm². Bok kwadratu ma więc długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>36</mn></msqrt><mo>=</mo><mn>6</mn></mrow></math> cm.</p>"
+        "solution_html": "<p>Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABE</mi></math> stanowi połowę pola kwadratu, ponieważ jego podstawa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> jest bokiem kwadratu, a wysokość opuszczona z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> jest równa bokowi kwadratu. Zatem pozostała część kwadratu, czyli trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADE</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCE</mi></math>, również stanowi połowę pola kwadratu. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>ABCD</mi></msub><mo>=</mo><mn>2</mn><mo>·</mo><mo>(</mo><mn>15,75</mn><mo>+</mo><mn>2,25</mn><mo>)</mo><mo>=</mo><mn>36</mn></mrow></math> cm². Bok kwadratu ma więc długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>36</mn></msqrt><mo>=</mo><mn>6</mn></mrow></math> cm.</p>",
+        "model": {
+          "answer": "6 cm",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -43,7 +48,12 @@
       "figures": [],
       "answer": {
         "correct": "0",
-        "solution_html": "<p>Zapisujemy wyrażenie w postaci iloczynu, wyłączając wspólny czynnik przed nawias: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>7</mn><mn>2021</mn></msup><mo>+</mo><msup><mn>7</mn><mn>2023</mn></msup><mo>=</mo><msup><mn>7</mn><mn>2021</mn></msup><mo>(</mo><mn>1</mn><mo>+</mo><msup><mn>7</mn><mn>2</mn></msup><mo>)</mo><mo>=</mo><msup><mn>7</mn><mn>2021</mn></msup><mo>·</mo><mn>50</mn><mo>=</mo><msup><mn>7</mn><mn>2021</mn></msup><mo>·</mo><mn>5</mn><mo>·</mo><mn>10</mn></mrow></math>. Liczba ta jest podzielna przez 10, więc jej cyfrą jedności jest 0.</p>"
+        "solution_html": "<p>Zapisujemy wyrażenie w postaci iloczynu, wyłączając wspólny czynnik przed nawias: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>7</mn><mn>2021</mn></msup><mo>+</mo><msup><mn>7</mn><mn>2023</mn></msup><mo>=</mo><msup><mn>7</mn><mn>2021</mn></msup><mo>(</mo><mn>1</mn><mo>+</mo><msup><mn>7</mn><mn>2</mn></msup><mo>)</mo><mo>=</mo><msup><mn>7</mn><mn>2021</mn></msup><mo>·</mo><mn>50</mn><mo>=</mo><msup><mn>7</mn><mn>2021</mn></msup><mo>·</mo><mn>5</mn><mo>·</mo><mn>10</mn></mrow></math>. Liczba ta jest podzielna przez 10, więc jej cyfrą jedności jest 0.</p>",
+        "model": {
+          "answer": "0",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -60,7 +70,12 @@
       "figures": [],
       "answer": {
         "correct": "969",
-        "solution_html": "<p>Suma liczby trzycyfrowej i 2023 leży pomiędzy 2123 a 3022, więc wynik musi być czterocyfrowym palindromem zaczynającym się od cyfry 2 lub 3. Gdyby zaczynał się od 3, to (jako palindrom) kończyłby się na 3; wtedy ostatnia cyfra szukanego składnika musiałaby być 0, co jest niemożliwe dla palindromu. Zatem wynik zaczyna się i kończy cyfrą 2. Aby suma kończyła się na 2, ostatnia cyfra szukanej liczby musi być 9 (bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mo>+</mo><mn>3</mn></mrow></math> daje na końcu 2), więc — jako palindrom — zaczyna się także od 9. Liczba postaci 9x9 dodana do 2023 daje wynik większy od 2900 i mniejszy od 3000, czyli 2992. Stąd szukany palindrom to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2992</mn><mo>−</mo><mn>2023</mn><mo>=</mo><mn>969</mn></mrow></math>.</p>"
+        "solution_html": "<p>Suma liczby trzycyfrowej i 2023 leży pomiędzy 2123 a 3022, więc wynik musi być czterocyfrowym palindromem zaczynającym się od cyfry 2 lub 3. Gdyby zaczynał się od 3, to (jako palindrom) kończyłby się na 3; wtedy ostatnia cyfra szukanego składnika musiałaby być 0, co jest niemożliwe dla palindromu. Zatem wynik zaczyna się i kończy cyfrą 2. Aby suma kończyła się na 2, ostatnia cyfra szukanej liczby musi być 9 (bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mo>+</mo><mn>3</mn></mrow></math> daje na końcu 2), więc — jako palindrom — zaczyna się także od 9. Liczba postaci 9x9 dodana do 2023 daje wynik większy od 2900 i mniejszy od 3000, czyli 2992. Stąd szukany palindrom to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2992</mn><mo>−</mo><mn>2023</mn><mo>=</mo><mn>969</mn></mrow></math>.</p>",
+        "model": {
+          "answer": "969",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -78,7 +93,12 @@
       "figures": [],
       "answer": {
         "correct": "32",
-        "solution_html": "<p>Na końcu w szufladach jest łącznie 72 długopisy, przy czym w trzeciej jest ich tyle, ile w dwóch pierwszych razem, a pierwsze dwie mają po tyle samo. Oznacza to, że łączna liczba długopisów jest czterokrotnością liczby długopisów w pierwszej szufladzie, więc jest w niej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>72</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>18</mn></mrow></math>. Zatem końcowy rozkład to 18, 18 i 36. Cofając ostatnie przełożenie (20 długopisów z pierwszej do trzeciej), otrzymujemy 38, 18 i 16. Wcześniej połowę długopisów z trzeciej przełożono do drugiej, więc w trzeciej było wtedy dwa razy więcej niż 16, czyli 32.</p>"
+        "solution_html": "<p>Na końcu w szufladach jest łącznie 72 długopisy, przy czym w trzeciej jest ich tyle, ile w dwóch pierwszych razem, a pierwsze dwie mają po tyle samo. Oznacza to, że łączna liczba długopisów jest czterokrotnością liczby długopisów w pierwszej szufladzie, więc jest w niej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>72</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>18</mn></mrow></math>. Zatem końcowy rozkład to 18, 18 i 36. Cofając ostatnie przełożenie (20 długopisów z pierwszej do trzeciej), otrzymujemy 38, 18 i 16. Wcześniej połowę długopisów z trzeciej przełożono do drugiej, więc w trzeciej było wtedy dwa razy więcej niż 16, czyli 32.</p>",
+        "model": {
+          "answer": "32",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -97,7 +117,12 @@
       ],
       "answer": {
         "correct": "20 cm (2 dm)",
-        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> oznacza długość krawędzi sześcianu. Woda przybrała kształt graniastosłupa trójkątnego, którego podstawą jest trójkąt prostokątny o przyprostokątnych długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>a</mi></mrow></math>. Pole podstawy jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>a</mi><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>a</mi><mo>=</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup></mrow></math>, a wysokością graniastosłupa jest krawędź sześcianu, więc objętość wody to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>8</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup><mo>·</mo><mi>a</mi><mo>=</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><msup><mi>a</mi><mn>3</mn></msup></mrow></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>8</mn></mfrac><msup><mi>a</mi><mn>3</mn></msup><mo>=</mo><mn>1</mn></mrow></math> dm³ otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>3</mn></msup><mo>=</mo><mn>8</mn></mrow></math> dm³, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>2</mn></mrow></math> dm, czyli 20 cm.</p>"
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> oznacza długość krawędzi sześcianu. Woda przybrała kształt graniastosłupa trójkątnego, którego podstawą jest trójkąt prostokątny o przyprostokątnych długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>a</mi></mrow></math>. Pole podstawy jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>a</mi><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>a</mi><mo>=</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup></mrow></math>, a wysokością graniastosłupa jest krawędź sześcianu, więc objętość wody to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>8</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup><mo>·</mo><mi>a</mi><mo>=</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><msup><mi>a</mi><mn>3</mn></msup></mrow></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>8</mn></mfrac><msup><mi>a</mi><mn>3</mn></msup><mo>=</mo><mn>1</mn></mrow></math> dm³ otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>3</mn></msup><mo>=</mo><mn>8</mn></mrow></math> dm³, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>2</mn></mrow></math> dm, czyli 20 cm.</p>",
+        "model": {
+          "answer": "20 cm",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -115,7 +140,12 @@
       "figures": [],
       "answer": {
         "correct": "1400",
-        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę osób w ankiecie. Kobiety stanowiły 45%, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,45</mn><mi>x</mi></mrow></math>. Kandydat A otrzymał 60% głosów kobiet, a kandydat B — 40% głosów kobiet; głosy mężczyzn rozłożyły się po równo (po 50%), więc różnica głosów pochodzi wyłącznie od kobiet: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,6</mn><mo>·</mo><mn>0,45</mn><mi>x</mi><mo>−</mo><mn>0,4</mn><mo>·</mo><mn>0,45</mn><mi>x</mi><mo>=</mo><mn>126</mn></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,09</mn><mi>x</mi><mo>=</mo><mn>126</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>1400</mn></mrow></math>.</p>"
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę osób w ankiecie. Kobiety stanowiły 45%, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,45</mn><mi>x</mi></mrow></math>. Kandydat A otrzymał 60% głosów kobiet, a kandydat B — 40% głosów kobiet; głosy mężczyzn rozłożyły się po równo (po 50%), więc różnica głosów pochodzi wyłącznie od kobiet: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,6</mn><mo>·</mo><mn>0,45</mn><mi>x</mi><mo>−</mo><mn>0,4</mn><mo>·</mo><mn>0,45</mn><mi>x</mi><mo>=</mo><mn>126</mn></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,09</mn><mi>x</mi><mo>=</mo><mn>126</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>1400</mn></mrow></math>.</p>",
+        "model": {
+          "answer": "1400",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -132,7 +162,12 @@
       "figures": [],
       "answer": {
         "correct": "k ∈ {2, 8, 86}",
-        "solution_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>k</mi><mo>+</mo><mn>5</mn></mrow></math> jest liczbą całkowitą większą od 5. Aby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>91</mn><mrow><mi>k</mi><mo>+</mo><mn>5</mn></mrow></mfrac></math> była całkowita, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>k</mi><mo>+</mo><mn>5</mn></mrow></math> musi być dzielnikiem liczby 91. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>91</mn><mo>=</mo><mn>7</mn><mo>·</mo><mn>13</mn></mrow></math>, jej dzielnikami są 1, 7, 13 i 91. Spośród nich większe od 5 są tylko 7, 13 i 91, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>k</mi><mo>+</mo><mn>5</mn></mrow></math> przyjmuje wartości 7, 13 lub 91, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> jest równe 2, 8 lub 86.</p>"
+        "solution_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>k</mi><mo>+</mo><mn>5</mn></mrow></math> jest liczbą całkowitą większą od 5. Aby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>91</mn><mrow><mi>k</mi><mo>+</mo><mn>5</mn></mrow></mfrac></math> była całkowita, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>k</mi><mo>+</mo><mn>5</mn></mrow></math> musi być dzielnikiem liczby 91. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>91</mn><mo>=</mo><mn>7</mn><mo>·</mo><mn>13</mn></mrow></math>, jej dzielnikami są 1, 7, 13 i 91. Spośród nich większe od 5 są tylko 7, 13 i 91, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>k</mi><mo>+</mo><mn>5</mn></mrow></math> przyjmuje wartości 7, 13 lub 91, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> jest równe 2, 8 lub 86.</p>",
+        "model": {
+          "answer": "k = 2, 8, 86",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -150,7 +185,12 @@
       "figures": [],
       "answer": {
         "correct": "iloczyn równy 3 (dowód)",
-        "solution_html": "<p><em>Założenie:</em> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>−</mo><mi>b</mi><mo>=</mo><msqrt><mn>11</mn></msqrt></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><msqrt><mn>23</mn></msqrt></mrow></math>. <em>Teza:</em> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>·</mo><mi>b</mi><mo>=</mo><mn>3</mn></mrow></math>.</p><p>Podnosząc obie równości do kwadratu, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo>=</mo><mn>11</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo>=</mo><mn>23</mn></mrow></math>. Odejmując pierwszą równość od drugiej, dostajemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo>)</mo><mo>−</mo><mo>(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo>)</mo><mo>=</mo><mn>23</mn><mo>−</mo><mn>11</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>a</mi><mi>b</mi><mo>=</mo><mn>12</mn></mrow></math>. Dzieląc obie strony przez 4, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mi>b</mi><mo>=</mo><mn>3</mn></mrow></math>, co należało wykazać.</p>"
+        "solution_html": "<p><em>Założenie:</em> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>−</mo><mi>b</mi><mo>=</mo><msqrt><mn>11</mn></msqrt></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><msqrt><mn>23</mn></msqrt></mrow></math>. <em>Teza:</em> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>·</mo><mi>b</mi><mo>=</mo><mn>3</mn></mrow></math>.</p><p>Podnosząc obie równości do kwadratu, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo>=</mo><mn>11</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo>=</mo><mn>23</mn></mrow></math>. Odejmując pierwszą równość od drugiej, dostajemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo>)</mo><mo>−</mo><mo>(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>a</mi><mi>b</mi><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup><mo>)</mo><mo>=</mo><mn>23</mn><mo>−</mo><mn>11</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>a</mi><mi>b</mi><mo>=</mo><mn>12</mn></mrow></math>. Dzieląc obie strony przez 4, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mi>b</mi><mo>=</mo><mn>3</mn></mrow></math>, co należało wykazać.</p>",
+        "model": {
+          "answer": "Iloczyn = 3",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -169,7 +209,12 @@
       "figures": [],
       "answer": {
         "correct": "8π cm²",
-        "solution_html": "<p>Ponieważ odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> ma taką samą długość jak promień koła, trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BSC</mi></math> jest równoramienny (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>SB</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>BC</mi><mo>|</mo><mo>=</mo><mi>r</mi></mrow></math>), więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mo>∢</mo><mi>BSC</mi><mo>|</mo><mo>=</mo><mo>|</mo><mo>∢</mo><mi>BCS</mi><mo>|</mo><mo>=</mo><mn>22,5</mn><mo>°</mo></mrow></math>. Z sumy kątów trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mo>∢</mo><mi>SBC</mi><mo>|</mo><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>22,5</mn><mo>°</mo><mo>−</mo><mn>22,5</mn><mo>°</mo><mo>=</mo><mn>135</mn><mo>°</mo></mrow></math>. Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SBA</mi></math>, jako przyległy do kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SBC</mi></math>, ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>45</mn><mo>°</mo></mrow></math>. Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SBA</mi></math> jest równoramienny (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>SA</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>SB</mi><mo>|</mo><mo>=</mo><mi>r</mi></mrow></math>) i ma kąt przy podstawie równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>45</mn><mo>°</mo></mrow></math>, więc jest prostokątny, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><msqrt><mn>2</mn></msqrt><mo>·</mo><mo>|</mo><mi>AS</mi><mo>|</mo></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>r</mi><mo>=</mo><mo>|</mo><mi>AS</mi><mo>|</mo><mo>=</mo><mfrac><mn>4</mn><msqrt><mn>2</mn></msqrt></mfrac><mo>=</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow></math> cm. Pole koła wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>π</mi><mo>·</mo><msup><mrow><mo>(</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>8</mn><mi>π</mi></mrow></math> cm².</p>"
+        "solution_html": "<p>Ponieważ odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> ma taką samą długość jak promień koła, trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BSC</mi></math> jest równoramienny (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>SB</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>BC</mi><mo>|</mo><mo>=</mo><mi>r</mi></mrow></math>), więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mo>∢</mo><mi>BSC</mi><mo>|</mo><mo>=</mo><mo>|</mo><mo>∢</mo><mi>BCS</mi><mo>|</mo><mo>=</mo><mn>22,5</mn><mo>°</mo></mrow></math>. Z sumy kątów trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mo>∢</mo><mi>SBC</mi><mo>|</mo><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>22,5</mn><mo>°</mo><mo>−</mo><mn>22,5</mn><mo>°</mo><mo>=</mo><mn>135</mn><mo>°</mo></mrow></math>. Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SBA</mi></math>, jako przyległy do kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SBC</mi></math>, ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>45</mn><mo>°</mo></mrow></math>. Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SBA</mi></math> jest równoramienny (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>SA</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>SB</mi><mo>|</mo><mo>=</mo><mi>r</mi></mrow></math>) i ma kąt przy podstawie równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>45</mn><mo>°</mo></mrow></math>, więc jest prostokątny, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><msqrt><mn>2</mn></msqrt><mo>·</mo><mo>|</mo><mi>AS</mi><mo>|</mo></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>r</mi><mo>=</mo><mo>|</mo><mi>AS</mi><mo>|</mo><mo>=</mo><mfrac><mn>4</mn><msqrt><mn>2</mn></msqrt></mfrac><mo>=</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow></math> cm. Pole koła wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>π</mi><mo>·</mo><msup><mrow><mo>(</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>8</mn><mi>π</mi></mrow></math> cm².</p>",
+        "model": {
+          "answer": "8π cm²",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     }
   ]

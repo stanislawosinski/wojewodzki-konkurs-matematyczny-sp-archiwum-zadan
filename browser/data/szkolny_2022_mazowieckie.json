@@ -45,7 +45,13 @@
       "figures": [],
       "answer": {
         "correct": "T, C",
-        "solution_html": "<p>Suma wszystkich dodatnich ułamków właściwych o mianowniku 97 wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>1</mn><mo>+</mo><mn>2</mn><mo>+</mo><mo>…</mo><mo>+</mo><mn>96</mn></mrow><mn>97</mn></mfrac></mrow></math>. Licznik <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>+</mo><mn>2</mn><mo>+</mo><mo>…</mo><mo>+</mo><mn>96</mn><mo>=</mo><mfrac><mrow><mn>96</mn><mo>·</mo><mn>97</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>48</mn><mo>·</mo><mn>97</mn></mrow></math> jest wielokrotnością liczby 97, więc suma jest równa 48 — liczbie całkowitej. Zatem odpowiedź T oraz uzasadnienie C.</p>"
+        "solution_html": "<p>Suma wszystkich dodatnich ułamków właściwych o mianowniku 97 wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>1</mn><mo>+</mo><mn>2</mn><mo>+</mo><mo>…</mo><mo>+</mo><mn>96</mn></mrow><mn>97</mn></mfrac></mrow></math>. Licznik <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>+</mo><mn>2</mn><mo>+</mo><mo>…</mo><mo>+</mo><mn>96</mn><mo>=</mo><mfrac><mrow><mn>96</mn><mo>·</mo><mn>97</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>48</mn><mo>·</mo><mn>97</mn></mrow></math> jest wielokrotnością liczby 97, więc suma jest równa 48 — liczbie całkowitej. Zatem odpowiedź T oraz uzasadnienie C.</p>",
+        "model": {
+          "answer": "TC",
+          "by": "sonnet",
+          "agrees": null,
+          "solution_html": "<p>Suma wszystkich ułamków k/97 dla k=1,...,96 wynosi (1+2+...+96)/97 = (96·97/2)/97 = 4656/97 = 48 — liczba całkowita, więc odpowiedź T.</p><p>Uzasadnienie: 1+2+...+96 = 4656 = 48·97, czyli jest wielokrotnością 97 (opcja C). Wtedy dzielenie przez 97 daje liczbę całkowitą.</p>"
+        }
       }
     },
     {
@@ -79,7 +85,12 @@
       "figures": [],
       "answer": {
         "correct": "C",
-        "solution_html": "<p>W ciągu minuty wskazówka minutowa przebywa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>°</mo></mrow></math>, a godzinowa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,5</mn><mo>°</mo></mrow></math>, więc kąt między nimi rośnie o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5,5</mn><mo>°</mo></mrow></math> na minutę. Kąt przestaje być ostry, gdy osiągnie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>90</mn><mo>°</mo></mrow></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>90</mn><mo>:</mo><mn>5,5</mn><mo>≈</mo><mn>16,4</mn></mrow></math> minuty. Następuje to więc w siedemnastej minucie (między 16. a 17. minutą). Odpowiedź C.</p>"
+        "solution_html": "<p>W ciągu minuty wskazówka minutowa przebywa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>°</mo></mrow></math>, a godzinowa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,5</mn><mo>°</mo></mrow></math>, więc kąt między nimi rośnie o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5,5</mn><mo>°</mo></mrow></math> na minutę. Kąt przestaje być ostry, gdy osiągnie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>90</mn><mo>°</mo></mrow></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>90</mn><mo>:</mo><mn>5,5</mn><mo>≈</mo><mn>16,4</mn></mrow></math> minuty. Następuje to więc w siedemnastej minucie (między 16. a 17. minutą). Odpowiedź C.</p>",
+        "model": {
+          "answer": "C",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -114,7 +125,13 @@
       "figures": [],
       "answer": {
         "correct": "B, D",
-        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> oznacza liczbę zawodników lepszych od Maćka. Wtedy gorszych było <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>k</mi></mrow></math>, a wszystkich uczestników <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>k</mi><mo>+</mo><mn>3</mn><mi>k</mi><mo>+</mo><mn>1</mn><mo>=</mo><mn>4</mn><mi>k</mi><mo>+</mo><mn>1</mn></mrow></math>. Liczba uczestników musi więc dawać resztę 1 przy dzieleniu przez 4. Spośród 27 i 25 warunek spełnia 25 (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><mn>6</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>25</mn></mrow></math>). Wtedy lepszych jest 6, więc Maciek zajął 7. miejsce. Odpowiedź B oraz D.</p>"
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> oznacza liczbę zawodników lepszych od Maćka. Wtedy gorszych było <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>k</mi></mrow></math>, a wszystkich uczestników <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>k</mi><mo>+</mo><mn>3</mn><mi>k</mi><mo>+</mo><mn>1</mn><mo>=</mo><mn>4</mn><mi>k</mi><mo>+</mo><mn>1</mn></mrow></math>. Liczba uczestników musi więc dawać resztę 1 przy dzieleniu przez 4. Spośród 27 i 25 warunek spełnia 25 (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><mn>6</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>25</mn></mrow></math>). Wtedy lepszych jest 6, więc Maciek zajął 7. miejsce. Odpowiedź B oraz D.</p>",
+        "model": {
+          "answer": "BD",
+          "by": "sonnet",
+          "agrees": null,
+          "solution_html": "<p>Niech b = liczba zawodników lepszych od Maćka, wtedy gorszych jest 3b. Wszystkich uczestników: 4b+1.</p><p>4b+1=25 daje b=6 (liczba całkowita) — więc liczba uczestników to 25 (B). Dla 27: 4b+1=27 → b=6,5 (niecałkowite, odrzucamy).</p><p>Miejsce Maćka = b+1 = 7 (siódme) — odpowiedź D.</p>"
+        }
       }
     },
     {
@@ -140,7 +157,12 @@
       "figures": [],
       "answer": {
         "correct": "PP",
-        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> będzie długością krawędzi. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>4</mn><mi>a</mi></mrow></math> wynika <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>4</mn></mrow></math>. Pole powierzchni całkowitej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>·</mo><msup><mn>4</mn><mn>2</mn></msup><mo>=</mo><mn>96</mn></mrow></math> — zdanie 1 prawdziwe. Objętość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>4</mn><mn>3</mn></msup><mo>=</mo><mn>64</mn><mo>=</mo><msup><mn>8</mn><mn>2</mn></msup></mrow></math> — jest kwadratem liczby całkowitej, więc zdanie 2 też prawdziwe.</p>"
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> będzie długością krawędzi. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>4</mn><mi>a</mi></mrow></math> wynika <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>4</mn></mrow></math>. Pole powierzchni całkowitej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>·</mo><msup><mn>4</mn><mn>2</mn></msup><mo>=</mo><mn>96</mn></mrow></math> — zdanie 1 prawdziwe. Objętość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>4</mn><mn>3</mn></msup><mo>=</mo><mn>64</mn><mo>=</mo><msup><mn>8</mn><mn>2</mn></msup></mrow></math> — jest kwadratem liczby całkowitej, więc zdanie 2 też prawdziwe.</p>",
+        "model": {
+          "answer": "PP",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -157,7 +179,12 @@
       "figures": [],
       "answer": {
         "correct": "o 20%",
-        "solution_html": "<p>Opakowanie sobotnie jest o 25% większe od 400 g, czyli waży <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>400</mn><mo>·</mo><mn>1,25</mn><mo>=</mo><mn>500</mn></mrow></math> g. Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> będzie ceną opakowania (taką samą w tygodniu i w sobotę). Cena 1 g malin od poniedziałku do piątku to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>x</mi><mn>400</mn></mfrac></math>, a w sobotę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>x</mi><mn>500</mn></mfrac></math>. Nowa cena stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mi>x</mi><mn>500</mn></mfrac><mo>:</mo><mfrac><mi>x</mi><mn>400</mn></mfrac><mo>=</mo><mn>0,8</mn></mrow></math> starej ceny, czyli 80%. Odpowiedź: w sobotę maliny są o 20% tańsze.</p>"
+        "solution_html": "<p>Opakowanie sobotnie jest o 25% większe od 400 g, czyli waży <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>400</mn><mo>·</mo><mn>1,25</mn><mo>=</mo><mn>500</mn></mrow></math> g. Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> będzie ceną opakowania (taką samą w tygodniu i w sobotę). Cena 1 g malin od poniedziałku do piątku to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>x</mi><mn>400</mn></mfrac></math>, a w sobotę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>x</mi><mn>500</mn></mfrac></math>. Nowa cena stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mi>x</mi><mn>500</mn></mfrac><mo>:</mo><mfrac><mi>x</mi><mn>400</mn></mfrac><mo>=</mo><mn>0,8</mn></mrow></math> starej ceny, czyli 80%. Odpowiedź: w sobotę maliny są o 20% tańsze.</p>",
+        "model": {
+          "answer": "20%",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -175,7 +202,12 @@
       "figures": [],
       "answer": {
         "correct": "Suma tych ośmiu liczb jest równa 40(x+1) = 8·5·(x+1), więc dzieli się przez 5 i przez 8.",
-        "solution_html": "<p>Skoro różnica największej i najmniejszej liczby wynosi 8, wszystkie osiem liczb mieści się wśród dziewięciu kolejnych liczb naturalnych. Ponieważ żadna nie dzieli się przez 5, muszą to być liczby o postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>,</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>2</mn><mo>,</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>3</mn><mo>,</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>4</mn><mo>,</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>6</mn><mo>,</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>7</mn><mo>,</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>8</mn><mo>,</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>9</mn></mrow></math> (pominięto podzielną przez 5 liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mi>x</mi><mo>+</mo><mn>5</mn></mrow></math>), gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> jest liczbą naturalną. Ich suma wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>40</mn><mi>x</mi><mo>+</mo><mn>40</mn><mo>=</mo><mn>40</mn><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>=</mo><mn>8</mn><mo>·</mo><mn>5</mn><mo>·</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow></math>, jest więc podzielna zarówno przez 5, jak i przez 8.</p>"
+        "solution_html": "<p>Skoro różnica największej i najmniejszej liczby wynosi 8, wszystkie osiem liczb mieści się wśród dziewięciu kolejnych liczb naturalnych. Ponieważ żadna nie dzieli się przez 5, muszą to być liczby o postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>,</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>2</mn><mo>,</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>3</mn><mo>,</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>4</mn><mo>,</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>6</mn><mo>,</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>7</mn><mo>,</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>8</mn><mo>,</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>9</mn></mrow></math> (pominięto podzielną przez 5 liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mi>x</mi><mo>+</mo><mn>5</mn></mrow></math>), gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> jest liczbą naturalną. Ich suma wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>40</mn><mi>x</mi><mo>+</mo><mn>40</mn><mo>=</mo><mn>40</mn><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>=</mo><mn>8</mn><mo>·</mo><mn>5</mn><mo>·</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow></math>, jest więc podzielna zarówno przez 5, jak i przez 8.</p>",
+        "model": {
+          "answer": "Suma dzieli się przez 40 (a więc przez 5 i przez 8)",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -194,7 +226,12 @@
       "figures": [],
       "answer": {
         "correct": "Pole trapezu jest równe h², czyli polu kwadratu o boku h.",
-        "solution_html": "<p>W trapezie równoramiennym o prostopadłych przekątnych kąty przy podstawach mają miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>45</mn><mo>°</mo></mrow></math>, więc wysokość poprowadzona z punktu przecięcia przekątnych dzieli się na dwa odcinki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> równe połowom podstaw: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>a</mi><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>b</mi><mo>=</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mi>h</mi></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>2</mn><mi>h</mi></mrow></math>. Zatem pole trapezu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mfrac><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mo>·</mo><mi>h</mi></mrow><mn>2</mn></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn><mi>h</mi><mo>·</mo><mi>h</mi></mrow><mn>2</mn></mfrac><mo>=</mo><msup><mi>h</mi><mn>2</mn></msup></mrow></math>, czyli jest równe polu kwadratu o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math>.</p>"
+        "solution_html": "<p>W trapezie równoramiennym o prostopadłych przekątnych kąty przy podstawach mają miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>45</mn><mo>°</mo></mrow></math>, więc wysokość poprowadzona z punktu przecięcia przekątnych dzieli się na dwa odcinki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> równe połowom podstaw: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>a</mi><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>b</mi><mo>=</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mi>h</mi></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>2</mn><mi>h</mi></mrow></math>. Zatem pole trapezu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mfrac><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mo>·</mo><mi>h</mi></mrow><mn>2</mn></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn><mi>h</mi><mo>·</mo><mi>h</mi></mrow><mn>2</mn></mfrac><mo>=</mo><msup><mi>h</mi><mn>2</mn></msup></mrow></math>, czyli jest równe polu kwadratu o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math>.</p>",
+        "model": {
+          "answer": "Pole = h² (równe polu kwadratu o boku h)",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -214,7 +251,12 @@
       ],
       "answer": {
         "correct": "1,5 raza",
-        "solution_html": "<p>Niech bok każdego kwadratu ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>a</mi></mrow></math>. Wtedy pole kwadratu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>ABCD</mi></msub><mo>=</mo><msup><mrow><mo>(</mo><mn>2</mn><mi>a</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>4</mn><msup><mi>a</mi><mn>2</mn></msup></mrow></math>. Trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABH</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BEH</mi></math> są przystające, a pole każdego z nich to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>ABH</mi></msub><mo>=</mo><mfrac><mrow><mn>2</mn><mi>a</mi><mo>·</mo><mi>a</mi></mrow><mn>2</mn></mfrac><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup></mrow></math>. Zatem pole czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCDH</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>3</mn><msup><mi>a</mi><mn>2</mn></msup></mrow></math>, a pole sześciokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>BCDHGF</mi></msub><mo>=</mo><mn>2</mn><mo>·</mo><mn>3</mn><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>6</mn><msup><mi>a</mi><mn>2</mn></msup></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>6</mn><msup><mi>a</mi><mn>2</mn></msup></mrow><mrow><mn>4</mn><msup><mi>a</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>=</mo><mn>1,5</mn></mrow></math>. Pole sześciokąta jest 1,5 raza większe od pola każdego z kwadratów.</p>"
+        "solution_html": "<p>Niech bok każdego kwadratu ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>a</mi></mrow></math>. Wtedy pole kwadratu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>ABCD</mi></msub><mo>=</mo><msup><mrow><mo>(</mo><mn>2</mn><mi>a</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>4</mn><msup><mi>a</mi><mn>2</mn></msup></mrow></math>. Trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABH</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BEH</mi></math> są przystające, a pole każdego z nich to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>ABH</mi></msub><mo>=</mo><mfrac><mrow><mn>2</mn><mi>a</mi><mo>·</mo><mi>a</mi></mrow><mn>2</mn></mfrac><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup></mrow></math>. Zatem pole czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCDH</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>3</mn><msup><mi>a</mi><mn>2</mn></msup></mrow></math>, a pole sześciokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>BCDHGF</mi></msub><mo>=</mo><mn>2</mn><mo>·</mo><mn>3</mn><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>6</mn><msup><mi>a</mi><mn>2</mn></msup></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>6</mn><msup><mi>a</mi><mn>2</mn></msup></mrow><mrow><mn>4</mn><msup><mi>a</mi><mn>2</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>=</mo><mn>1,5</mn></mrow></math>. Pole sześciokąta jest 1,5 raza większe od pola każdego z kwadratów.</p>",
+        "model": {
+          "answer": "1,5 raza (3/2)",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -232,7 +274,12 @@
       "figures": [],
       "answer": {
         "correct": "58 i 26",
-        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> będzie większą, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> mniejszą liczbą. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>−</mo><mi>y</mi><mo>=</mo><mn>32</mn></mrow></math> oraz — z warunku, że iloraz wynosi 2 i reszty 6 — <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>2</mn><mi>y</mi><mo>+</mo><mn>6</mn></mrow></math>. Podstawiając: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>y</mi><mo>+</mo><mn>6</mn><mo>−</mo><mi>y</mi><mo>=</mo><mn>32</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>+</mo><mn>6</mn><mo>=</mo><mn>32</mn></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>26</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>58</mn></mrow></math>. Odpowiedź: tymi liczbami są 58 i 26.</p>"
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> będzie większą, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> mniejszą liczbą. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>−</mo><mi>y</mi><mo>=</mo><mn>32</mn></mrow></math> oraz — z warunku, że iloraz wynosi 2 i reszty 6 — <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>2</mn><mi>y</mi><mo>+</mo><mn>6</mn></mrow></math>. Podstawiając: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>y</mi><mo>+</mo><mn>6</mn><mo>−</mo><mi>y</mi><mo>=</mo><mn>32</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>+</mo><mn>6</mn><mo>=</mo><mn>32</mn></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>26</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>58</mn></mrow></math>. Odpowiedź: tymi liczbami są 58 i 26.</p>",
+        "model": {
+          "answer": "26 i 58",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -250,7 +297,12 @@
       "figures": [],
       "answer": {
         "correct": "4 modele o wymiarach 1×12×30, 2×6×15, 3×4×10, 6×2×5 i objętościach 360, 180, 120, 60",
-        "solution_html": "<p>Oznaczmy krawędzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi></math>. Dwie sąsiednie ściany mają pola <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mi>y</mi><mo>=</mo><mn>12</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mi>z</mi><mo>=</mo><mn>30</mn></mrow></math>, więc wspólna krawędź <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> jest wspólnym dzielnikiem liczb 12 i 30, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>∈</mo><mo>{</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>6</mn><mo>}</mo></mrow></math>. Odpowiednio otrzymujemy: dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>1</mn></mrow></math> wymiary <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>×</mo><mn>12</mn><mo>×</mo><mn>30</mn></mrow></math>, dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>2</mn></mrow></math> — <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>×</mo><mn>6</mn><mo>×</mo><mn>15</mn></mrow></math>, dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>3</mn></mrow></math> — <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>×</mo><mn>4</mn><mo>×</mo><mn>10</mn></mrow></math>, dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>6</mn></mrow></math> — <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>×</mo><mn>2</mn><mo>×</mo><mn>5</mn></mrow></math>. Zosia wykonała więc 4 modele, a ich objętości wynoszą odpowiednio 360, 180, 120 i 60.</p>"
+        "solution_html": "<p>Oznaczmy krawędzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi></math>. Dwie sąsiednie ściany mają pola <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mi>y</mi><mo>=</mo><mn>12</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mi>z</mi><mo>=</mo><mn>30</mn></mrow></math>, więc wspólna krawędź <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> jest wspólnym dzielnikiem liczb 12 i 30, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>∈</mo><mo>{</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>6</mn><mo>}</mo></mrow></math>. Odpowiednio otrzymujemy: dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>1</mn></mrow></math> wymiary <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>×</mo><mn>12</mn><mo>×</mo><mn>30</mn></mrow></math>, dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>2</mn></mrow></math> — <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>×</mo><mn>6</mn><mo>×</mo><mn>15</mn></mrow></math>, dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>3</mn></mrow></math> — <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>×</mo><mn>4</mn><mo>×</mo><mn>10</mn></mrow></math>, dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>6</mn></mrow></math> — <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>×</mo><mn>2</mn><mo>×</mo><mn>5</mn></mrow></math>. Zosia wykonała więc 4 modele, a ich objętości wynoszą odpowiednio 360, 180, 120 i 60.</p>",
+        "model": {
+          "answer": "4 modele; objętości: 60, 120, 180, 360",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     }
   ]

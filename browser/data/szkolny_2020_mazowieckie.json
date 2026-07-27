@@ -42,7 +42,12 @@
       "figures": [],
       "answer": {
         "correct": "C",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "C",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -77,7 +82,13 @@
       "figures": [],
       "answer": {
         "correct": "B, D",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "B, D",
+          "by": "sonnet",
+          "agrees": null,
+          "solution_html": "<p>Grupując składniki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>−</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>)</mo><mo>+</mo><mo>(</mo><mo>−</mo><mn>0,8</mn><mo>−</mo><mn>1,2</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>2</mn><mfrac><mn>3</mn><mn>8</mn></mfrac><mo>+</mo><mn>1,625</mn><mo>)</mo><mo>+</mo><mo>(</mo><mo>−</mo><mn>1,5</mn><mo>−</mo><mn>0,5</mn><mo>)</mo><mo>=</mo><mo>−</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>−</mo><mn>2</mn><mo>+</mo><mn>4</mn><mo>−</mo><mn>2</mn><mo>=</mo><mo>−</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></math>.</p><p>Kwadrat: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>9</mn></mfrac><mo>≈</mo><mn>0,111</mn></math> — mniejsze niż <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,12</mn></math> i mniejsze niż <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>7</mn></mfrac></math>, więc prawdziwe jest B (nie A).</p><p>Odwrotność: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>3</mn></math> — liczba całkowita, ale nie dodatnia, więc prawdziwe jest D (nie C). Odpowiedź: B, D.</p>"
+        }
       }
     },
     {
@@ -105,7 +116,12 @@
       "figures": [],
       "answer": {
         "correct": "FP",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "FP",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -123,7 +139,12 @@
       "figures": [],
       "answer": {
         "correct": "120",
-        "solution_html": "<p>W danej równości występuje 10 różnych liter: A, C, D, E, L, O, S, U, W, Z, którym muszą odpowiadać wszystkie cyfry od 0 do 9. Zatem jedna z liter odpowiada cyfrze 0, przy czym nie może ona znajdować się w mianowniku. Aby równość zachodziła, zero musi pojawić się po obu jej stronach. Jedyną literą występującą zarówno po lewej stronie (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>W</mi><mo>·</mo><mi>O</mi><mo>·</mo><mi>D</mi><mo>·</mo><mi>A</mi></math>), jak i w liczniku po prawej stronie jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mo>=</mo><mn>0</mn></math>.</p><p>Wtedy w iloczynie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Z</mi><mo>·</mo><mi>A</mi><mo>·</mo><mi>L</mi><mo>·</mo><mi>E</mi><mo>·</mo><mi>W</mi></math> nie występuje zero, a jego najmniejszą wartość otrzymamy, przyjmując pięć najmniejszych różnych cyfr niezerowych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>4</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>120</mn></math>.</p><p><em>Punktacja: 1 pkt za spostrzeżenie, że jedna z 10 liter jest zerem i nie może być w mianowniku; 1 pkt za uzasadnienie, że najmniejsza wartość iloczynu wynosi 120.</em></p>"
+        "solution_html": "<p>W danej równości występuje 10 różnych liter: A, C, D, E, L, O, S, U, W, Z, którym muszą odpowiadać wszystkie cyfry od 0 do 9. Zatem jedna z liter odpowiada cyfrze 0, przy czym nie może ona znajdować się w mianowniku. Aby równość zachodziła, zero musi pojawić się po obu jej stronach. Jedyną literą występującą zarówno po lewej stronie (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>W</mi><mo>·</mo><mi>O</mi><mo>·</mo><mi>D</mi><mo>·</mo><mi>A</mi></math>), jak i w liczniku po prawej stronie jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mo>=</mo><mn>0</mn></math>.</p><p>Wtedy w iloczynie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Z</mi><mo>·</mo><mi>A</mi><mo>·</mo><mi>L</mi><mo>·</mo><mi>E</mi><mo>·</mo><mi>W</mi></math> nie występuje zero, a jego najmniejszą wartość otrzymamy, przyjmując pięć najmniejszych różnych cyfr niezerowych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>4</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>120</mn></math>.</p><p><em>Punktacja: 1 pkt za spostrzeżenie, że jedna z 10 liter jest zerem i nie może być w mianowniku; 1 pkt za uzasadnienie, że najmniejsza wartość iloczynu wynosi 120.</em></p>",
+        "model": {
+          "answer": "120",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -140,7 +161,12 @@
       "figures": [],
       "answer": {
         "correct": "Tak — cena w trzecim dniu stanowiła 27% ceny początkowej.",
-        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza początkową cenę śliwek. Ceny w kolejnych dniach obniżek wynoszą:</p><p>po pierwszym dniu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,9</mn><mi>x</mi></math>,</p><p>po drugim dniu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,9</mn><mi>x</mi><mo>−</mo><mn>0,4</mn><mo>·</mo><mn>0,9</mn><mi>x</mi><mo>=</mo><mn>0,54</mn><mi>x</mi></math>,</p><p>po trzecim dniu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,5</mn><mo>·</mo><mn>0,54</mn><mi>x</mi><mo>=</mo><mn>0,27</mn><mi>x</mi></math>.</p><p>Cena w trzecim dniu stanowiła 27% ceny początkowej, a więc była wyższa niż 25% ceny początkowej. Odpowiedź: tak.</p><p><em>Punktacja: 1 pkt za zapisanie cen w kolejnych dniach obniżki; 1 pkt za podanie odpowiedzi wraz z uzasadnieniem.</em></p>"
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza początkową cenę śliwek. Ceny w kolejnych dniach obniżek wynoszą:</p><p>po pierwszym dniu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,9</mn><mi>x</mi></math>,</p><p>po drugim dniu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,9</mn><mi>x</mi><mo>−</mo><mn>0,4</mn><mo>·</mo><mn>0,9</mn><mi>x</mi><mo>=</mo><mn>0,54</mn><mi>x</mi></math>,</p><p>po trzecim dniu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,5</mn><mo>·</mo><mn>0,54</mn><mi>x</mi><mo>=</mo><mn>0,27</mn><mi>x</mi></math>.</p><p>Cena w trzecim dniu stanowiła 27% ceny początkowej, a więc była wyższa niż 25% ceny początkowej. Odpowiedź: tak.</p><p><em>Punktacja: 1 pkt za zapisanie cen w kolejnych dniach obniżki; 1 pkt za podanie odpowiedzi wraz z uzasadnieniem.</em></p>",
+        "model": {
+          "answer": "Tak — cena w trzecim dniu stanowiła 27% ceny początkowej (27% > 25%).",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -157,7 +183,12 @@
       "figures": [],
       "answer": {
         "correct": "2",
-        "solution_html": "<p>Przyjmijmy oznaczenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>2018</mn><mfrac><mn>17</mn><mn>39</mn></mfrac></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2021</mn><mfrac><mn>17</mn><mn>39</mn></mfrac><mo>=</mo><mi>a</mi><mo>+</mo><mn>3</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2019</mn><mfrac><mn>17</mn><mn>39</mn></mfrac><mo>=</mo><mi>a</mi><mo>+</mo><mn>1</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2020</mn><mfrac><mn>17</mn><mn>39</mn></mfrac><mo>=</mo><mi>a</mi><mo>+</mo><mn>2</mn></math>, więc dane wyrażenie ma postać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mo>[</mo><mi>a</mi><mo>(</mo><mi>a</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>−</mo><mo>(</mo><mi>a</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>(</mo><mi>a</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>]</mo></math>.</p><p>Po wykonaniu działań: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mo>[</mo><mi>a</mi><mo>(</mo><mi>a</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>−</mo><mo>(</mo><mi>a</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>(</mo><mi>a</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>]</mo><mo>=</mo><mo>−</mo><mo>(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>a</mi><mo>−</mo><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>a</mi><mo>−</mo><mi>a</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>=</mo><mo>−</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>2</mn></math>.</p><p><em>Punktacja: 1 pkt za zapisanie wyrażenia w innej postaci (z podstawieniem); 1 pkt za obliczenie jego wartości.</em></p>"
+        "solution_html": "<p>Przyjmijmy oznaczenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>2018</mn><mfrac><mn>17</mn><mn>39</mn></mfrac></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2021</mn><mfrac><mn>17</mn><mn>39</mn></mfrac><mo>=</mo><mi>a</mi><mo>+</mo><mn>3</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2019</mn><mfrac><mn>17</mn><mn>39</mn></mfrac><mo>=</mo><mi>a</mi><mo>+</mo><mn>1</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2020</mn><mfrac><mn>17</mn><mn>39</mn></mfrac><mo>=</mo><mi>a</mi><mo>+</mo><mn>2</mn></math>, więc dane wyrażenie ma postać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mo>[</mo><mi>a</mi><mo>(</mo><mi>a</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>−</mo><mo>(</mo><mi>a</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>(</mo><mi>a</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>]</mo></math>.</p><p>Po wykonaniu działań: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mo>[</mo><mi>a</mi><mo>(</mo><mi>a</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>−</mo><mo>(</mo><mi>a</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>(</mo><mi>a</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>]</mo><mo>=</mo><mo>−</mo><mo>(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>a</mi><mo>−</mo><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mi>a</mi><mo>−</mo><mi>a</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>=</mo><mo>−</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>2</mn></math>.</p><p><em>Punktacja: 1 pkt za zapisanie wyrażenia w innej postaci (z podstawieniem); 1 pkt za obliczenie jego wartości.</em></p>",
+        "model": {
+          "answer": "2",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -176,7 +207,12 @@
       ],
       "answer": {
         "correct": "około 79 km",
-        "solution_html": "<p>Jednostką na osi czasu jest 5 minut, a na osi prędkości 5 km/h.</p><p>Droga do przystanku (15 minut = 0,25 h z prędkością 50 km/h): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>1</mn></msub><mo>=</mo><mn>0,25</mn><mo>·</mo><mn>50</mn><mo>=</mo><mn>12,5</mn></math> km. Następnie 10 minut oczekiwania na autobus.</p><p>Droga autobusem (65 minut = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>13</mn><mn>12</mn></mfrac></math> h z prędkością 60 km/h): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>2</mn></msub><mo>=</mo><mfrac><mn>13</mn><mn>12</mn></mfrac><mo>·</mo><mn>60</mn><mo>=</mo><mn>65</mn></math> km.</p><p>Droga pieszo do domu babci (20 minut = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> h z prędkością 5 km/h): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>3</mn></msub><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mn>5</mn><mo>=</mo><mn>1,(6)</mn></math> km.</p><p>Łączna długość trasy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mn>12,5</mn><mo>+</mo><mn>65</mn><mo>+</mo><mn>1,(6)</mn><mo>≈</mo><mn>79</mn></math> km. Odpowiedź: Ada pokonała około 79 km.</p><p><em>Punktacja: 1 pkt za poprawną interpretację danych z wykresu; 1 pkt za obliczenie długości trasy i podanie odpowiedzi.</em></p>"
+        "solution_html": "<p>Jednostką na osi czasu jest 5 minut, a na osi prędkości 5 km/h.</p><p>Droga do przystanku (15 minut = 0,25 h z prędkością 50 km/h): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>1</mn></msub><mo>=</mo><mn>0,25</mn><mo>·</mo><mn>50</mn><mo>=</mo><mn>12,5</mn></math> km. Następnie 10 minut oczekiwania na autobus.</p><p>Droga autobusem (65 minut = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>13</mn><mn>12</mn></mfrac></math> h z prędkością 60 km/h): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>2</mn></msub><mo>=</mo><mfrac><mn>13</mn><mn>12</mn></mfrac><mo>·</mo><mn>60</mn><mo>=</mo><mn>65</mn></math> km.</p><p>Droga pieszo do domu babci (20 minut = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> h z prędkością 5 km/h): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>3</mn></msub><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mn>5</mn><mo>=</mo><mn>1,(6)</mn></math> km.</p><p>Łączna długość trasy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mn>12,5</mn><mo>+</mo><mn>65</mn><mo>+</mo><mn>1,(6)</mn><mo>≈</mo><mn>79</mn></math> km. Odpowiedź: Ada pokonała około 79 km.</p><p><em>Punktacja: 1 pkt za poprawną interpretację danych z wykresu; 1 pkt za obliczenie długości trasy i podanie odpowiedzi.</em></p>",
+        "model": {
+          "answer": "około 79 km",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -196,7 +232,12 @@
       "figures": [],
       "answer": {
         "correct": "10 razy",
-        "solution_html": "<p>Poprowadźmy wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math> trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCD</mi></math> z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> na prostą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math>; jest ona jednocześnie wysokością trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KDC</mi></math>.</p><p>Mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>KDC</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mo>|</mo><mi>KD</mi><mo>|</mo><mo>·</mo><mi>h</mi></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>KB</mi><mo>|</mo><mo>=</mo><mn>1,2</mn><mo>·</mo><mo>|</mo><mi>DB</mi><mo>|</mo></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>KD</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>KB</mi><mo>|</mo><mo>−</mo><mo>|</mo><mi>DB</mi><mo>|</mo><mo>=</mo><mn>0,2</mn><mo>·</mo><mo>|</mo><mi>BD</mi><mo>|</mo></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>KDC</mi></msub><mo>=</mo><mn>0,2</mn><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mo>|</mo><mi>BD</mi><mo>|</mo><mo>·</mo><mi>h</mi><mo>=</mo><mn>0,2</mn><mo>·</mo><msub><mi>P</mi><mi>BCD</mi></msub></math>.</p><p>Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCD</mi></math> jest połową pola równoległoboku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>KDC</mi></msub><mo>=</mo><mn>0,2</mn><mo>·</mo><mn>0,5</mn><mo>·</mo><msub><mi>P</mi><mi>ABCD</mi></msub><mo>=</mo><mn>0,1</mn><mo>·</mo><msub><mi>P</mi><mi>ABCD</mi></msub></math>. Odpowiedź: pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KDC</mi></math> jest 10 razy mniejsze od pola równoległoboku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>.</p><p><em>Punktacja: 1 pkt za rysunek i zauważenie wspólnej wysokości trójkątów; 1 pkt za uzasadnienie zależności między polami trójkątów KDC i BCD; 1 pkt za podanie i uzasadnienie odpowiedzi.</em></p>"
+        "solution_html": "<p>Poprowadźmy wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math> trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCD</mi></math> z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> na prostą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math>; jest ona jednocześnie wysokością trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KDC</mi></math>.</p><p>Mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>KDC</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mo>|</mo><mi>KD</mi><mo>|</mo><mo>·</mo><mi>h</mi></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>KB</mi><mo>|</mo><mo>=</mo><mn>1,2</mn><mo>·</mo><mo>|</mo><mi>DB</mi><mo>|</mo></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>KD</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>KB</mi><mo>|</mo><mo>−</mo><mo>|</mo><mi>DB</mi><mo>|</mo><mo>=</mo><mn>0,2</mn><mo>·</mo><mo>|</mo><mi>BD</mi><mo>|</mo></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>KDC</mi></msub><mo>=</mo><mn>0,2</mn><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mo>|</mo><mi>BD</mi><mo>|</mo><mo>·</mo><mi>h</mi><mo>=</mo><mn>0,2</mn><mo>·</mo><msub><mi>P</mi><mi>BCD</mi></msub></math>.</p><p>Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCD</mi></math> jest połową pola równoległoboku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>KDC</mi></msub><mo>=</mo><mn>0,2</mn><mo>·</mo><mn>0,5</mn><mo>·</mo><msub><mi>P</mi><mi>ABCD</mi></msub><mo>=</mo><mn>0,1</mn><mo>·</mo><msub><mi>P</mi><mi>ABCD</mi></msub></math>. Odpowiedź: pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KDC</mi></math> jest 10 razy mniejsze od pola równoległoboku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>.</p><p><em>Punktacja: 1 pkt za rysunek i zauważenie wspólnej wysokości trójkątów; 1 pkt za uzasadnienie zależności między polami trójkątów KDC i BCD; 1 pkt za podanie i uzasadnienie odpowiedzi.</em></p>",
+        "model": {
+          "answer": "10 razy",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -214,7 +255,12 @@
       "figures": [],
       "answer": {
         "correct": "Zadanie nie ma rozwiązania — opisana sytuacja jest niemożliwa.",
-        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę głosów oddanych na Adama. Wtedy kolejno: na Bartka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>84</mn><mo>−</mo><mi>x</mi></math>, na Celinę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>78</mn><mo>−</mo><mo>(</mo><mn>84</mn><mo>−</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>x</mi><mo>−</mo><mn>6</mn></math>, na Darka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>150</mn><mo>−</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>6</mn><mo>)</mo><mo>=</mo><mn>156</mn><mo>−</mo><mi>x</mi></math>, na Ewelinę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>144</mn><mo>−</mo><mo>(</mo><mn>156</mn><mo>−</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>x</mi><mo>−</mo><mn>12</mn></math>.</p><p>Na dziewczęta (Celinę i Ewelinę) głosowało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>x</mi><mo>−</mo><mn>6</mn><mo>)</mo><mo>+</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>12</mn><mo>)</mo><mo>=</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>18</mn></math> osób. Ponieważ wszystkich głosujących było pięć razy więcej niż głosujących na dziewczęta, otrzymujemy równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mo>(</mo><mn>84</mn><mo>−</mo><mi>x</mi><mo>)</mo><mo>+</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>6</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>156</mn><mo>−</mo><mi>x</mi><mo>)</mo><mo>+</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>12</mn><mo>)</mo><mo>=</mo><mn>5</mn><mo>·</mo><mo>(</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>18</mn><mo>)</mo></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>222</mn><mo>=</mo><mn>10</mn><mi>x</mi><mo>−</mo><mn>90</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mi>x</mi><mo>=</mo><mn>312</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>34,(6)</mn></math>.</p><p>Otrzymany wynik nie jest liczbą naturalną, więc opisana sytuacja jest niemożliwa — zadanie nie ma rozwiązania.</p><p><em>Punktacja: 1 pkt za analizę zadania (zapisanie liczby głosów na poszczególne osoby); 1 pkt za ułożenie i rozwiązanie równania; 1 pkt za podanie i uzasadnienie odpowiedzi.</em></p>"
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę głosów oddanych na Adama. Wtedy kolejno: na Bartka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>84</mn><mo>−</mo><mi>x</mi></math>, na Celinę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>78</mn><mo>−</mo><mo>(</mo><mn>84</mn><mo>−</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>x</mi><mo>−</mo><mn>6</mn></math>, na Darka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>150</mn><mo>−</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>6</mn><mo>)</mo><mo>=</mo><mn>156</mn><mo>−</mo><mi>x</mi></math>, na Ewelinę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>144</mn><mo>−</mo><mo>(</mo><mn>156</mn><mo>−</mo><mi>x</mi><mo>)</mo><mo>=</mo><mi>x</mi><mo>−</mo><mn>12</mn></math>.</p><p>Na dziewczęta (Celinę i Ewelinę) głosowało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>x</mi><mo>−</mo><mn>6</mn><mo>)</mo><mo>+</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>12</mn><mo>)</mo><mo>=</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>18</mn></math> osób. Ponieważ wszystkich głosujących było pięć razy więcej niż głosujących na dziewczęta, otrzymujemy równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mo>(</mo><mn>84</mn><mo>−</mo><mi>x</mi><mo>)</mo><mo>+</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>6</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>156</mn><mo>−</mo><mi>x</mi><mo>)</mo><mo>+</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>12</mn><mo>)</mo><mo>=</mo><mn>5</mn><mo>·</mo><mo>(</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>18</mn><mo>)</mo></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>222</mn><mo>=</mo><mn>10</mn><mi>x</mi><mo>−</mo><mn>90</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mi>x</mi><mo>=</mo><mn>312</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>34,(6)</mn></math>.</p><p>Otrzymany wynik nie jest liczbą naturalną, więc opisana sytuacja jest niemożliwa — zadanie nie ma rozwiązania.</p><p><em>Punktacja: 1 pkt za analizę zadania (zapisanie liczby głosów na poszczególne osoby); 1 pkt za ułożenie i rozwiązanie równania; 1 pkt za podanie i uzasadnienie odpowiedzi.</em></p>",
+        "model": {
+          "answer": "Zadanie nie ma rozwiązania — opisana sytuacja jest niemożliwa.",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -233,7 +279,12 @@
       ],
       "answer": {
         "correct": "352",
-        "solution_html": "<p>Klocek jest prostopadłościanem o wymiarach 5 × 7 × 9. Pole jego powierzchni przed wydrążeniem tuneli: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>2</mn><mo>·</mo><mo>(</mo><mn>45</mn><mo>+</mo><mn>35</mn><mo>+</mo><mn>63</mn><mo>)</mo><mo>=</mo><mn>286</mn></math>.</p><p>Wydrążenie trzech tuneli o przekroju 1 × 1 usuwa z powierzchni zewnętrznej 6 kwadratów jednostkowych (po jednym na każdej ścianie), a dodaje pole powierzchni wewnętrznej. Częścią wspólną trzech tuneli jest sześcian o krawędzi 1, którego ściany nie należą do powierzchni wewnętrznej. Powierzchnię wewnętrzną tworzą: dwa tunele o długości 4, dwa o długości 3 i dwa o długości 2: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>1</mn></msub><mo>=</mo><mn>2</mn><mo>·</mo><mn>4</mn><mo>·</mo><mn>4</mn><mo>+</mo><mn>2</mn><mo>·</mo><mn>4</mn><mo>·</mo><mn>3</mn><mo>+</mo><mn>2</mn><mo>·</mo><mn>4</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>32</mn><mo>+</mo><mn>24</mn><mo>+</mo><mn>16</mn><mo>=</mo><mn>72</mn></math>.</p><p>Pole powierzchni całkowitej otrzymanego klocka: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>2</mn></msub><mo>=</mo><mn>286</mn><mo>−</mo><mn>6</mn><mo>+</mo><mn>72</mn><mo>=</mo><mn>352</mn></math>.</p><p><em>Punktacja: 1 pkt za obliczenie pola powierzchni klocka przed wydrążeniem; 1 pkt za obliczenie pola powierzchni wewnętrznej; 1 pkt za obliczenie pola powierzchni całkowitej i podanie odpowiedzi.</em></p>"
+        "solution_html": "<p>Klocek jest prostopadłościanem o wymiarach 5 × 7 × 9. Pole jego powierzchni przed wydrążeniem tuneli: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>2</mn><mo>·</mo><mo>(</mo><mn>45</mn><mo>+</mo><mn>35</mn><mo>+</mo><mn>63</mn><mo>)</mo><mo>=</mo><mn>286</mn></math>.</p><p>Wydrążenie trzech tuneli o przekroju 1 × 1 usuwa z powierzchni zewnętrznej 6 kwadratów jednostkowych (po jednym na każdej ścianie), a dodaje pole powierzchni wewnętrznej. Częścią wspólną trzech tuneli jest sześcian o krawędzi 1, którego ściany nie należą do powierzchni wewnętrznej. Powierzchnię wewnętrzną tworzą: dwa tunele o długości 4, dwa o długości 3 i dwa o długości 2: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>1</mn></msub><mo>=</mo><mn>2</mn><mo>·</mo><mn>4</mn><mo>·</mo><mn>4</mn><mo>+</mo><mn>2</mn><mo>·</mo><mn>4</mn><mo>·</mo><mn>3</mn><mo>+</mo><mn>2</mn><mo>·</mo><mn>4</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>32</mn><mo>+</mo><mn>24</mn><mo>+</mo><mn>16</mn><mo>=</mo><mn>72</mn></math>.</p><p>Pole powierzchni całkowitej otrzymanego klocka: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>2</mn></msub><mo>=</mo><mn>286</mn><mo>−</mo><mn>6</mn><mo>+</mo><mn>72</mn><mo>=</mo><mn>352</mn></math>.</p><p><em>Punktacja: 1 pkt za obliczenie pola powierzchni klocka przed wydrążeniem; 1 pkt za obliczenie pola powierzchni wewnętrznej; 1 pkt za obliczenie pola powierzchni całkowitej i podanie odpowiedzi.</em></p>",
+        "model": {
+          "answer": "352",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     }
   ]

@@ -38,7 +38,12 @@
       "figures": [],
       "answer": {
         "correct": "PFF",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "PFF",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -68,7 +73,13 @@
       "figures": [],
       "answer": {
         "correct": "FPF",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "FPP",
+          "by": "sonnet",
+          "agrees": false,
+          "solution_html": "<p>a=15m, b=15n, gcd(m,n)=1, mn=210/15=14. Coprime pary (m,n): (1,14) i (2,7) &rarr; dwie pary liczb: (15,210) i (30,105).</p><p>1) Tylko jedna para &rarr; NIE (F).</p><p>2) Dwie pary &rarr; TAK (P).</p><p>3) Liczby parzyste wśród {15,210,30,105}: 210 i 30 &rarr; dwie &rarr; TAK (P).</p>"
+        }
       }
     },
     {
@@ -99,7 +110,12 @@
       "figures": [],
       "answer": {
         "correct": "PFP",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "PFP",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -129,7 +145,12 @@
       "figures": [],
       "answer": {
         "correct": "PFF",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "PFF",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -160,7 +181,12 @@
       "figures": [],
       "answer": {
         "correct": "FFP",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "FFP",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -177,7 +203,12 @@
       "figures": [],
       "answer": {
         "correct": "27",
-        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę wszystkich jabłek. Janek zabrał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>2</mn><mn>5</mn></mfrac><mi>x</mi></mrow></math>, więc pozostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>3</mn><mn>5</mn></mfrac><mi>x</mi></mrow></math>. Jurek zabrał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>4</mn><mn>7</mn></mfrac><mo>·</mo><mfrac><mn>3</mn><mn>5</mn></mfrac><mi>x</mi><mo>=</mo><mfrac><mn>12</mn><mn>35</mn></mfrac><mi>x</mi></mrow></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>2</mn><mn>5</mn></mfrac><mi>x</mi><mo>−</mo><mfrac><mn>12</mn><mn>35</mn></mfrac><mi>x</mi><mo>=</mo><mn>6</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>2</mn><mn>35</mn></mfrac><mi>x</mi><mo>=</mo><mn>6</mn></mrow></math>, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>105</mn></mrow></math>. W skrzyni pozostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>3</mn><mn>5</mn></mfrac><mo>·</mo><mn>105</mn><mo>−</mo><mfrac><mn>12</mn><mn>35</mn></mfrac><mo>·</mo><mn>105</mn><mo>=</mo><mn>63</mn><mo>−</mo><mn>36</mn><mo>=</mo><mn>27</mn></mrow></math> jabłek.</p><p><em>Punktacja: poprawne obliczenie, ile jabłek zostało (27) — 5 pkt; obliczenie tylko liczby wszystkich jabłek (105) — 3 pkt; zapisanie równania — 2 pkt; zapisanie wyrażeń określających, ile jabłek wziął każdy z chłopców — 1 pkt.</em></p>"
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę wszystkich jabłek. Janek zabrał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>2</mn><mn>5</mn></mfrac><mi>x</mi></mrow></math>, więc pozostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>3</mn><mn>5</mn></mfrac><mi>x</mi></mrow></math>. Jurek zabrał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>4</mn><mn>7</mn></mfrac><mo>·</mo><mfrac><mn>3</mn><mn>5</mn></mfrac><mi>x</mi><mo>=</mo><mfrac><mn>12</mn><mn>35</mn></mfrac><mi>x</mi></mrow></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>2</mn><mn>5</mn></mfrac><mi>x</mi><mo>−</mo><mfrac><mn>12</mn><mn>35</mn></mfrac><mi>x</mi><mo>=</mo><mn>6</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>2</mn><mn>35</mn></mfrac><mi>x</mi><mo>=</mo><mn>6</mn></mrow></math>, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>105</mn></mrow></math>. W skrzyni pozostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>3</mn><mn>5</mn></mfrac><mo>·</mo><mn>105</mn><mo>−</mo><mfrac><mn>12</mn><mn>35</mn></mfrac><mo>·</mo><mn>105</mn><mo>=</mo><mn>63</mn><mo>−</mo><mn>36</mn><mo>=</mo><mn>27</mn></mrow></math> jabłek.</p><p><em>Punktacja: poprawne obliczenie, ile jabłek zostało (27) — 5 pkt; obliczenie tylko liczby wszystkich jabłek (105) — 3 pkt; zapisanie równania — 2 pkt; zapisanie wyrażeń określających, ile jabłek wziął każdy z chłopców — 1 pkt.</em></p>",
+        "model": {
+          "answer": "27",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -197,7 +228,12 @@
       ],
       "answer": {
         "correct": "3 cm, 5 cm, 7 cm",
-        "solution_html": "<p>Ponieważ okręgi są styczne zewnętrznie, długość każdego boku trójkąta łączącego środki jest sumą promieni dwóch stycznych okręgów. Oznaczając promienie przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>, otrzymujemy układ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>8</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>+</mo><mi>c</mi><mo>=</mo><mn>10</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>c</mi><mo>=</mo><mn>12</mn></mrow></math>. Dodając równania stronami: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>)</mo><mo>=</mo><mn>30</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>=</mo><mn>15</mn></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><mn>15</mn><mo>−</mo><mn>8</mn><mo>=</mo><mn>7</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>15</mn><mo>−</mo><mn>10</mn><mo>=</mo><mn>5</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>15</mn><mo>−</mo><mn>12</mn><mo>=</mo><mn>3</mn></mrow></math>. Promienie okręgów mają długości 3 cm, 5 cm i 7 cm.</p>"
+        "solution_html": "<p>Ponieważ okręgi są styczne zewnętrznie, długość każdego boku trójkąta łączącego środki jest sumą promieni dwóch stycznych okręgów. Oznaczając promienie przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>, otrzymujemy układ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>8</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>+</mo><mi>c</mi><mo>=</mo><mn>10</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>c</mi><mo>=</mo><mn>12</mn></mrow></math>. Dodając równania stronami: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>)</mo><mo>=</mo><mn>30</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>=</mo><mn>15</mn></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><mn>15</mn><mo>−</mo><mn>8</mn><mo>=</mo><mn>7</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>15</mn><mo>−</mo><mn>10</mn><mo>=</mo><mn>5</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>15</mn><mo>−</mo><mn>12</mn><mo>=</mo><mn>3</mn></mrow></math>. Promienie okręgów mają długości 3 cm, 5 cm i 7 cm.</p>",
+        "model": {
+          "answer": "3 cm, 5 cm, 7 cm",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -214,7 +250,12 @@
       "figures": [],
       "answer": {
         "correct": "0,8 kg",
-        "solution_html": "<p>W 2 kg roztworu o stężeniu 6% czystego octu jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,06</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>0,12</mn></mrow></math> kg. Ta sama ilość octu pochodzi z roztworu dziesięcioprocentowego, więc jego masa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> spełnia równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,1</mn><mi>x</mi><mo>=</mo><mn>0,12</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>1,2</mn></mrow></math> kg. Wody należy dolać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>−</mo><mn>1,2</mn><mo>=</mo><mn>0,8</mn></mrow></math> kg.</p>"
+        "solution_html": "<p>W 2 kg roztworu o stężeniu 6% czystego octu jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,06</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>0,12</mn></mrow></math> kg. Ta sama ilość octu pochodzi z roztworu dziesięcioprocentowego, więc jego masa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> spełnia równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,1</mn><mi>x</mi><mo>=</mo><mn>0,12</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>1,2</mn></mrow></math> kg. Wody należy dolać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>−</mo><mn>1,2</mn><mo>=</mo><mn>0,8</mn></mrow></math> kg.</p>",
+        "model": {
+          "answer": "0,8 kg wody (800 g)",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -231,7 +272,12 @@
       "figures": [],
       "answer": {
         "correct": "87,5 km",
-        "solution_html": "<p>Połowa drogi to 100 km, a planowany czas przejazdu to 1 h 20 min <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>=</mo><mfrac><mn>4</mn><mn>3</mn></mfrac></mrow></math> h, więc planowana prędkość każdego samochodu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mo>:</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><mo>=</mo><mn>75</mn></mrow></math> km/h. Opóźnienie jednego kierowcy to 20 min <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math> h. Jeśli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math> to czas jazdy kierowcy, który wyjechał punktualnie, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>75</mn><mi>t</mi><mo>+</mo><mn>75</mn><mo>(</mo><mi>t</mi><mo>−</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>)</mo><mo>=</mo><mn>200</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>150</mn><mi>t</mi><mo>=</mo><mn>225</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>t</mi><mo>=</mo><mn>1,5</mn></mrow></math> h. Kierowca, który się spóźnił, jedzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,5</mn><mo>−</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>=</mo><mfrac><mn>7</mn><mn>6</mn></mfrac></mrow></math> h, więc pokona <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>75</mn><mo>·</mo><mfrac><mn>7</mn><mn>6</mn></mfrac><mo>=</mo><mn>87,5</mn></mrow></math> km.</p>"
+        "solution_html": "<p>Połowa drogi to 100 km, a planowany czas przejazdu to 1 h 20 min <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>=</mo><mfrac><mn>4</mn><mn>3</mn></mfrac></mrow></math> h, więc planowana prędkość każdego samochodu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mo>:</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><mo>=</mo><mn>75</mn></mrow></math> km/h. Opóźnienie jednego kierowcy to 20 min <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math> h. Jeśli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math> to czas jazdy kierowcy, który wyjechał punktualnie, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>75</mn><mi>t</mi><mo>+</mo><mn>75</mn><mo>(</mo><mi>t</mi><mo>−</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>)</mo><mo>=</mo><mn>200</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>150</mn><mi>t</mi><mo>=</mo><mn>225</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>t</mi><mo>=</mo><mn>1,5</mn></mrow></math> h. Kierowca, który się spóźnił, jedzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,5</mn><mo>−</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>=</mo><mfrac><mn>7</mn><mn>6</mn></mfrac></mrow></math> h, więc pokona <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>75</mn><mo>·</mo><mfrac><mn>7</mn><mn>6</mn></mfrac><mo>=</mo><mn>87,5</mn></mrow></math> km.</p>",
+        "model": {
+          "answer": "87,5 km",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -250,7 +296,12 @@
       "figures": [],
       "answer": {
         "correct": "60 m",
-        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> oznacza długość boku początkowego kwadratu (w metrach). Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mn>3</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>−</mo><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>81</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mi>a</mi><mo>+</mo><mn>9</mn><mo>=</mo><mn>81</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>12</mn></mrow></math> m. Bok nowego kwadratu ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>12</mn><mo>+</mo><mn>3</mn><mo>=</mo><mn>15</mn></mrow></math> m, więc na jego ogrodzenie potrzeba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><mn>15</mn><mo>=</mo><mn>60</mn></mrow></math> m siatki.</p>"
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> oznacza długość boku początkowego kwadratu (w metrach). Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mn>3</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>−</mo><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>81</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mi>a</mi><mo>+</mo><mn>9</mn><mo>=</mo><mn>81</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>12</mn></mrow></math> m. Bok nowego kwadratu ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>12</mn><mo>+</mo><mn>3</mn><mo>=</mo><mn>15</mn></mrow></math> m, więc na jego ogrodzenie potrzeba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><mn>15</mn><mo>=</mo><mn>60</mn></mrow></math> m siatki.</p>",
+        "model": {
+          "answer": "60 m",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -268,7 +319,12 @@
       "figures": [],
       "answer": {
         "correct": "Nie — wynik jest zawsze liczbą parzystą",
-        "solution_html": "<p>Wśród liczb 1, 2, 3, 4, 5 są trzy liczby nieparzyste (1, 3, 5) i dwie parzyste (2, 4). Iloczyn pięciu sum jest nieparzysty tylko wtedy, gdy każda z tych sum jest nieparzysta, a suma dwóch liczb jest nieparzysta tylko wtedy, gdy jeden składnik jest parzysty, a drugi nieparzysty. Na każdej stronie kartek są jednak tylko dwie liczby parzyste, a nieparzystych — trzy. Zatem co najmniej jednej z trzech nieparzystych liczb z jednej strony musi odpowiadać liczba nieparzysta z drugiej strony (bo parzystych jest tylko dwie). Na takiej kartce suma dwóch liczb nieparzystych jest parzysta, więc cały iloczyn jest parzysty. Odpowiedź: wynik nie może być liczbą nieparzystą — zawsze jest parzysty.</p>"
+        "solution_html": "<p>Wśród liczb 1, 2, 3, 4, 5 są trzy liczby nieparzyste (1, 3, 5) i dwie parzyste (2, 4). Iloczyn pięciu sum jest nieparzysty tylko wtedy, gdy każda z tych sum jest nieparzysta, a suma dwóch liczb jest nieparzysta tylko wtedy, gdy jeden składnik jest parzysty, a drugi nieparzysty. Na każdej stronie kartek są jednak tylko dwie liczby parzyste, a nieparzystych — trzy. Zatem co najmniej jednej z trzech nieparzystych liczb z jednej strony musi odpowiadać liczba nieparzysta z drugiej strony (bo parzystych jest tylko dwie). Na takiej kartce suma dwóch liczb nieparzystych jest parzysta, więc cały iloczyn jest parzysty. Odpowiedź: wynik nie może być liczbą nieparzystą — zawsze jest parzysty.</p>",
+        "model": {
+          "answer": "Nie, wynik nie może być liczbą nieparzystą.",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     }
   ]

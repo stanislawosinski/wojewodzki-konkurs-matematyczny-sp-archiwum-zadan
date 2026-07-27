@@ -25,7 +25,12 @@
       "figures": [],
       "answer": {
         "correct": "a · b = 1, więc liczby a i b są odwrotne",
-        "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>·</mo><mi>b</mi><mo>=</mo><msqrt><mrow><mn>5</mn><mo>−</mo><mn>2</mn><msqrt><mn>6</mn></msqrt></mrow></msqrt><mo>·</mo><msqrt><mrow><mn>2</mn><msqrt><mn>6</mn></msqrt><mo>+</mo><mn>5</mn></mrow></msqrt><mo>=</mo><msqrt><mrow><mo>(</mo><mn>5</mn><mo>−</mo><mn>2</mn><msqrt><mn>6</mn></msqrt><mo>)</mo><mo>·</mo><mo>(</mo><mn>2</mn><msqrt><mn>6</mn></msqrt><mo>+</mo><mn>5</mn><mo>)</mo></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>25</mn><mo>−</mo><mn>24</mn></mrow></msqrt><mo>=</mo><msqrt><mn>1</mn></msqrt><mo>=</mo><mn>1</mn></mrow></math>.</p><p>Ponieważ iloczyn liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest równy 1, liczby te są odwrotne.</p>"
+        "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>·</mo><mi>b</mi><mo>=</mo><msqrt><mrow><mn>5</mn><mo>−</mo><mn>2</mn><msqrt><mn>6</mn></msqrt></mrow></msqrt><mo>·</mo><msqrt><mrow><mn>2</mn><msqrt><mn>6</mn></msqrt><mo>+</mo><mn>5</mn></mrow></msqrt><mo>=</mo><msqrt><mrow><mo>(</mo><mn>5</mn><mo>−</mo><mn>2</mn><msqrt><mn>6</mn></msqrt><mo>)</mo><mo>·</mo><mo>(</mo><mn>2</mn><msqrt><mn>6</mn></msqrt><mo>+</mo><mn>5</mn><mo>)</mo></mrow></msqrt><mo>=</mo><msqrt><mrow><mn>25</mn><mo>−</mo><mn>24</mn></mrow></msqrt><mo>=</mo><msqrt><mn>1</mn></msqrt><mo>=</mo><mn>1</mn></mrow></math>.</p><p>Ponieważ iloczyn liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest równy 1, liczby te są odwrotne.</p>",
+        "model": {
+          "answer": "a·b = 1, więc a i b są liczbami odwrotnymi",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -42,7 +47,12 @@
       "figures": [],
       "answer": {
         "correct": "a = −4",
-        "solution_html": "<p>Licznik: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>[</mo><mo>−</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>·</mo><mfrac><mn>8</mn><mn>9</mn></mfrac><mo>−</mo><mn>2</mn><mo>]</mo><mo>·</mo><mo>[</mo><mo>−</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>·</mo><mfrac><mn>8</mn><mn>9</mn></mfrac><mo>+</mo><mn>2</mn><mo>]</mo><mo>=</mo><mo>(</mo><mo>−</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><mo>−</mo><mn>2</mn><mo>)</mo><mo>·</mo><mo>(</mo><mo>−</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><mo>+</mo><mn>2</mn><mo>)</mo><mo>=</mo><mo>(</mo><mo>−</mo><mfrac><mn>10</mn><mn>3</mn></mfrac><mo>)</mo><mo>·</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>=</mo><mo>−</mo><mfrac><mn>20</mn><mn>9</mn></mfrac></mrow></math>.</p><p>Mianownik: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mo>·</mo><mfrac><mn>1</mn><mn>9</mn></mfrac><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>=</mo><mfrac><mn>5</mn><mn>9</mn></mfrac></mrow></math>.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mfrac><mrow><mo>−</mo><mfrac><mn>20</mn><mn>9</mn></mfrac></mrow><mfrac><mn>5</mn><mn>9</mn></mfrac></mfrac><mo>=</mo><mo>−</mo><mn>4</mn></mrow></math>.</p>"
+        "solution_html": "<p>Licznik: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>[</mo><mo>−</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>·</mo><mfrac><mn>8</mn><mn>9</mn></mfrac><mo>−</mo><mn>2</mn><mo>]</mo><mo>·</mo><mo>[</mo><mo>−</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>·</mo><mfrac><mn>8</mn><mn>9</mn></mfrac><mo>+</mo><mn>2</mn><mo>]</mo><mo>=</mo><mo>(</mo><mo>−</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><mo>−</mo><mn>2</mn><mo>)</mo><mo>·</mo><mo>(</mo><mo>−</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><mo>+</mo><mn>2</mn><mo>)</mo><mo>=</mo><mo>(</mo><mo>−</mo><mfrac><mn>10</mn><mn>3</mn></mfrac><mo>)</mo><mo>·</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>=</mo><mo>−</mo><mfrac><mn>20</mn><mn>9</mn></mfrac></mrow></math>.</p><p>Mianownik: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mo>·</mo><mfrac><mn>1</mn><mn>9</mn></mfrac><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>=</mo><mfrac><mn>5</mn><mn>9</mn></mfrac></mrow></math>.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mfrac><mrow><mo>−</mo><mfrac><mn>20</mn><mn>9</mn></mfrac></mrow><mfrac><mn>5</mn><mn>9</mn></mfrac></mfrac><mo>=</mo><mo>−</mo><mn>4</mn></mrow></math>.</p>",
+        "model": {
+          "answer": "-4",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -60,7 +70,12 @@
       "figures": [],
       "answer": {
         "correct": "1,5 km",
-        "solution_html": "<p>Zamieniamy prędkości na kilometry na minutę: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>15</mn></mfrac><mfrac><mtext>km</mtext><mtext>min</mtext></mfrac></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>10</mn></mfrac><mfrac><mtext>km</mtext><mtext>min</mtext></mfrac></mrow></math>.</p><p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math> oznacza czas dojścia z domu do szkoły (w minutach). Zaoszczędzone 3 min 45 s to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mfrac><mn>3</mn><mn>4</mn></mfrac></mrow></math> min, więc bieg trwa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>t</mi><mo>−</mo><mn>3</mn><mfrac><mn>3</mn><mn>4</mn></mfrac></mrow></math>. Droga jest ta sama:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>15</mn></mfrac><mo>·</mo><mi>t</mi><mo>=</mo><mfrac><mn>1</mn><mn>10</mn></mfrac><mo>(</mo><mi>t</mi><mo>−</mo><mn>3</mn><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>)</mo></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>t</mi><mo>=</mo><mfrac><mn>45</mn><mn>4</mn></mfrac></mrow></math> min.</p><p>Droga w jedną stronę: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>45</mn><mn>4</mn></mfrac><mo>·</mo><mfrac><mn>1</mn><mn>15</mn></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>4</mn></mfrac></mrow></math> km. Droga w obie strony: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>=</mo><mn>1,5</mn></mrow></math> km.</p><p>Odpowiedź: Janek pokonuje 1,5 km.</p>"
+        "solution_html": "<p>Zamieniamy prędkości na kilometry na minutę: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>15</mn></mfrac><mfrac><mtext>km</mtext><mtext>min</mtext></mfrac></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>10</mn></mfrac><mfrac><mtext>km</mtext><mtext>min</mtext></mfrac></mrow></math>.</p><p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math> oznacza czas dojścia z domu do szkoły (w minutach). Zaoszczędzone 3 min 45 s to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mfrac><mn>3</mn><mn>4</mn></mfrac></mrow></math> min, więc bieg trwa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>t</mi><mo>−</mo><mn>3</mn><mfrac><mn>3</mn><mn>4</mn></mfrac></mrow></math>. Droga jest ta sama:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>15</mn></mfrac><mo>·</mo><mi>t</mi><mo>=</mo><mfrac><mn>1</mn><mn>10</mn></mfrac><mo>(</mo><mi>t</mi><mo>−</mo><mn>3</mn><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>)</mo></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>t</mi><mo>=</mo><mfrac><mn>45</mn><mn>4</mn></mfrac></mrow></math> min.</p><p>Droga w jedną stronę: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>45</mn><mn>4</mn></mfrac><mo>·</mo><mfrac><mn>1</mn><mn>15</mn></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>4</mn></mfrac></mrow></math> km. Droga w obie strony: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>=</mo><mn>1,5</mn></mrow></math> km.</p><p>Odpowiedź: Janek pokonuje 1,5 km.</p>",
+        "model": {
+          "answer": "1,5 km (1500 m)",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -77,7 +92,12 @@
       "figures": [],
       "answer": {
         "correct": "30√15",
-        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> będzie długością krawędzi podstawy, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi></math> wysokością graniastosłupa. Krawędź podstawy jest o 50% krótsza od wysokości, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>H</mi></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>H</mi><mo>=</mo><mn>2</mn><mi>a</mi></mrow></math>.</p><p>Pole powierzchni całkowitej sześcianu o krawędzi 5: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>·</mo><msup><mn>5</mn><mn>2</mn></msup><mo>=</mo><mn>150</mn></mrow></math>.</p><p>Pole powierzchni całkowitej graniastosłupa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mo>·</mo><mi>a</mi><mo>·</mo><mn>2</mn><mi>a</mi><mo>=</mo><mn>10</mn><msup><mi>a</mi><mn>2</mn></msup></mrow></math>. Z równości pól: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>150</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>15</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><msqrt><mn>15</mn></msqrt></mrow></math>.</p><p>Objętość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>V</mi><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><mo>·</mo><mn>2</mn><mi>a</mi><mo>=</mo><mn>15</mn><mo>·</mo><mn>2</mn><msqrt><mn>15</mn></msqrt><mo>=</mo><mn>30</mn><msqrt><mn>15</mn></msqrt></mrow></math>.</p>"
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> będzie długością krawędzi podstawy, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi></math> wysokością graniastosłupa. Krawędź podstawy jest o 50% krótsza od wysokości, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>H</mi></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>H</mi><mo>=</mo><mn>2</mn><mi>a</mi></mrow></math>.</p><p>Pole powierzchni całkowitej sześcianu o krawędzi 5: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>·</mo><msup><mn>5</mn><mn>2</mn></msup><mo>=</mo><mn>150</mn></mrow></math>.</p><p>Pole powierzchni całkowitej graniastosłupa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mo>·</mo><mi>a</mi><mo>·</mo><mn>2</mn><mi>a</mi><mo>=</mo><mn>10</mn><msup><mi>a</mi><mn>2</mn></msup></mrow></math>. Z równości pól: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>150</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>15</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><msqrt><mn>15</mn></msqrt></mrow></math>.</p><p>Objętość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>V</mi><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><mo>·</mo><mn>2</mn><mi>a</mi><mo>=</mo><mn>15</mn><mo>·</mo><mn>2</mn><msqrt><mn>15</mn></msqrt><mo>=</mo><mn>30</mn><msqrt><mn>15</mn></msqrt></mrow></math>.</p>",
+        "model": {
+          "answer": "V = 30√15 (≈ 116,19)",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -94,7 +114,12 @@
       "figures": [],
       "answer": {
         "correct": "a = 56892, b = 568",
-        "solution_html": "<p>Dopisanie liczby 92 z prawej strony liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> daje liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mi>b</mi><mo>+</mo><mn>92</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>100</mn><mi>b</mi><mo>+</mo><mn>92</mn></mrow></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>57460</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mi>b</mi><mo>+</mo><mn>92</mn><mo>+</mo><mi>b</mi><mo>=</mo><mn>57460</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>101</mn><mi>b</mi><mo>=</mo><mn>57368</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>568</mn></mrow></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>56892</mn></mrow></math>.</p>"
+        "solution_html": "<p>Dopisanie liczby 92 z prawej strony liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> daje liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mi>b</mi><mo>+</mo><mn>92</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>100</mn><mi>b</mi><mo>+</mo><mn>92</mn></mrow></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>57460</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mi>b</mi><mo>+</mo><mn>92</mn><mo>+</mo><mi>b</mi><mo>=</mo><mn>57460</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>101</mn><mi>b</mi><mo>=</mo><mn>57368</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>568</mn></mrow></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>56892</mn></mrow></math>.</p>",
+        "model": {
+          "answer": "a = 56892, b = 568",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -114,7 +139,13 @@
       "figures": [],
       "answer": {
         "correct": "6.1 – A, 6.2 – C, 6.3 – B, 6.4 – C, 6.5 – B",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "6.1: A; 6.2: C; 6.3: B; 6.4: C; 6.5: B",
+          "by": "sonnet",
+          "agrees": null,
+          "solution_html": "<p><strong>6.1</strong> 10^2020 − 9 = 2019 dziewiątek zakończonych cyfrą 1, suma cyfr = 2019·9+1 = 18172 → A.</p><p><strong>6.2</strong> Objętości sumują się: (5y)³+(4y)³=189y³=27·7y³, krawędź = 3y·∛7 → C.</p><p><strong>6.3</strong> Cyfry jedności: 6³→6, 3^13 (13 mod4=1)→3, 7^23 (23 mod4=3)→3; suma jedności 6+3+3=12 → cyfra jedności 2 → B.</p><p><strong>6.4</strong> Dla ostrosłupa o n-kącie: wierzchołki n+1, krawędzie 2n, ściany n+1; (n+1)+2n=40 → n=13, wierzchołków n+1=14 → C.</p><p><strong>6.5</strong> a=5k+3, 4a=20k+12, reszta z dzielenia przez 10 to 2 → B.</p>"
+        }
       }
     },
     {
@@ -160,7 +191,12 @@
       "figures": [],
       "answer": {
         "correct": "PPFFPP",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "PPFFPP",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     }
   ]

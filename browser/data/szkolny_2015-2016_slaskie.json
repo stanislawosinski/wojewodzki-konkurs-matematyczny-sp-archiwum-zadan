@@ -27,7 +27,12 @@
       ],
       "answer": {
         "correct": "Pola do uzupełnienia: VII i IX (wiersz 1), IX i XXVI (wiersz 3), XII (wiersz 5), XXII i III (wiersz 7).",
-        "solution_html": "<p>Uzupełniony diagram (w nawiasach wartości w systemie dziesiętnym):</p><ul><li>Wiersz 1: IV + VII − IX = II (4 + 7 − 9 = 2)</li><li>Wiersz 3: IX − II + XIX = XXVI (9 − 2 + 19 = 26)</li><li>Wiersz 5: XII + XIX − VI = XXV (12 + 19 − 6 = 25)</li><li>Wiersz 7: I + XXIV − XXII = III (1 + 24 − 22 = 3)</li></ul><p>Sprawdzenie kolumn: IV + IX − XII = I (4 + 9 − 12 = 1); VII − II + XIX = XXIV (7 − 2 + 19 = 24); IX + XIX − VI = XXII (9 + 19 − 6 = 22); II + XXVI − XXV = III (2 + 26 − 25 = 3).</p><p><em>Punktacja: 1 pkt za każde poprawnie uzupełnione pole w systemie rzymskim (7 pól). Za zapisanie poprawnie 5 lub 6 pól tylko w systemie dziesiętnym — 2 pkt, za 3 lub 4 pola — 1 pkt.</em></p>"
+        "solution_html": "<p>Uzupełniony diagram (w nawiasach wartości w systemie dziesiętnym):</p><ul><li>Wiersz 1: IV + VII − IX = II (4 + 7 − 9 = 2)</li><li>Wiersz 3: IX − II + XIX = XXVI (9 − 2 + 19 = 26)</li><li>Wiersz 5: XII + XIX − VI = XXV (12 + 19 − 6 = 25)</li><li>Wiersz 7: I + XXIV − XXII = III (1 + 24 − 22 = 3)</li></ul><p>Sprawdzenie kolumn: IV + IX − XII = I (4 + 9 − 12 = 1); VII − II + XIX = XXIV (7 − 2 + 19 = 24); IX + XIX − VI = XXII (9 + 19 − 6 = 22); II + XXVI − XXV = III (2 + 26 − 25 = 3).</p><p><em>Punktacja: 1 pkt za każde poprawnie uzupełnione pole w systemie rzymskim (7 pól). Za zapisanie poprawnie 5 lub 6 pól tylko w systemie dziesiętnym — 2 pkt, za 3 lub 4 pola — 1 pkt.</em></p>",
+        "model": {
+          "answer": "Puste pola krzyżówki (wiersze 1,3,5,7 × kolumny 1,3,5,7) uzupełniamy: w1k3=VII(7), w1k5=IX(9), w3k1=IX(9), w3k7=XXVI(26), w5k1=XII(12), w7k5=XXII(22), w7k7=III(3). Pełna krzyżówka: IV+VII−IX=II; IX−II+XIX=XXVI; XII+XIX−VI=XXV; I+XXIV−XXII=III (kolumnowo: IV+IX−XII=I; VII−II+XIX=XXIV; IX+XIX−VI=XXII; II+XXVI−XXV=III).",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -44,7 +49,12 @@
       "figures": [],
       "answer": {
         "correct": "A) 200 : [40 · (3 + 2)] = 1; B) (200 − 40) · (3 + 2) = 800; C) 200 : [(200 : 20) : 5] = 100 (lub 200 : (200 : 20 : 5))",
-        "solution_html": "<p>A) możliwie najmniejszy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>200</mn><mo>:</mo><mo>[</mo><mn>40</mn><mo>·</mo><mo>(</mo><mn>3</mn><mo>+</mo><mn>2</mn><mo>)</mo><mo>]</mo><mo>=</mo><mn>1</mn></mrow></math>.</p><p>B) możliwie największy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>200</mn><mo>−</mo><mn>40</mn><mo>)</mo><mo>·</mo><mo>(</mo><mn>3</mn><mo>+</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>800</mn></mrow></math>.</p><p>C) równy 100: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>200</mn><mo>:</mo><mo>[</mo><mo>(</mo><mn>200</mn><mo>:</mo><mn>20</mn><mo>)</mo><mo>:</mo><mn>5</mn><mo>]</mo><mo>=</mo><mn>100</mn></mrow></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>200</mn><mo>:</mo><mo>(</mo><mn>200</mn><mo>:</mo><mn>20</mn><mo>:</mo><mn>5</mn><mo>)</mo><mo>=</mo><mn>100</mn></mrow></math>.</p><p><em>Punktacja: 3 pkt za poprawne nawiasy we wszystkich wyrażeniach, 2 pkt za dwa wyrażenia, 1 pkt za jedno.</em></p>"
+        "solution_html": "<p>A) możliwie najmniejszy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>200</mn><mo>:</mo><mo>[</mo><mn>40</mn><mo>·</mo><mo>(</mo><mn>3</mn><mo>+</mo><mn>2</mn><mo>)</mo><mo>]</mo><mo>=</mo><mn>1</mn></mrow></math>.</p><p>B) możliwie największy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>200</mn><mo>−</mo><mn>40</mn><mo>)</mo><mo>·</mo><mo>(</mo><mn>3</mn><mo>+</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>800</mn></mrow></math>.</p><p>C) równy 100: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>200</mn><mo>:</mo><mo>[</mo><mo>(</mo><mn>200</mn><mo>:</mo><mn>20</mn><mo>)</mo><mo>:</mo><mn>5</mn><mo>]</mo><mo>=</mo><mn>100</mn></mrow></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>200</mn><mo>:</mo><mo>(</mo><mn>200</mn><mo>:</mo><mn>20</mn><mo>:</mo><mn>5</mn><mo>)</mo><mo>=</mo><mn>100</mn></mrow></math>.</p><p><em>Punktacja: 3 pkt za poprawne nawiasy we wszystkich wyrażeniach, 2 pkt za dwa wyrażenia, 1 pkt za jedno.</em></p>",
+        "model": {
+          "answer": "A) 200:(40·(3+2))=1; B) (200−40)·(3+2)=800; C) 200:((200:20):5)=100",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -78,7 +88,12 @@
       "figures": [],
       "answer": {
         "correct": "C",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "C",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -112,7 +127,12 @@
       "figures": [],
       "answer": {
         "correct": "D",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "D",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -147,7 +167,12 @@
       "figures": [],
       "answer": {
         "correct": "C",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "C",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -182,7 +207,12 @@
       "figures": [],
       "answer": {
         "correct": "B",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "B",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -217,7 +247,12 @@
       "figures": [],
       "answer": {
         "correct": "A",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "A",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -252,7 +287,12 @@
       "figures": [],
       "answer": {
         "correct": "C",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "C",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -287,7 +327,12 @@
       "figures": [],
       "answer": {
         "correct": "C",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "C",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -321,7 +366,12 @@
       "figures": [],
       "answer": {
         "correct": "A",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "A",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -355,7 +405,12 @@
       "figures": [],
       "answer": {
         "correct": "B",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "B",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -389,7 +444,12 @@
       "figures": [],
       "answer": {
         "correct": "C",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "C",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -424,7 +484,12 @@
       "figures": [],
       "answer": {
         "correct": "D",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "D",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -458,7 +523,12 @@
       "figures": [],
       "answer": {
         "correct": "B",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "B",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -492,7 +562,12 @@
       "figures": [],
       "answer": {
         "correct": "C",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "C",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -535,7 +610,12 @@
       "figures": [],
       "answer": {
         "correct": "PFFFPP",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "PFFFPP",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -565,7 +645,12 @@
       "figures": [],
       "answer": {
         "correct": "FPP",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "FPP",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -601,7 +686,12 @@
       "figures": [],
       "answer": {
         "correct": "FPFP",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "FPFP",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -619,7 +709,12 @@
       "figures": [],
       "answer": {
         "correct": "0,5 kg",
-        "solution_html": "<p>Masa miodu wypełniającego słój do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math> wysokości: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3,7</mn><mo>−</mo><mn>1,3</mn><mo>=</mo><mn>2,4</mn></mrow></math> kg. Masa miodu wypełniającego słój do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> wysokości: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2,4</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>0,8</mn></mrow></math> kg. Masa miodu wypełniającego cały słój: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,8</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>3,2</mn></mrow></math> kg. Masa pustego słoja: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3,7</mn><mo>−</mo><mn>3,2</mn><mo>=</mo><mn>0,5</mn></mrow></math> kg.</p><p><em>Punktacja: po 1 pkt za obliczenie masy miodu do 3/4 wysokości, masy miodu w całym słoju oraz masy pustego słoja.</em></p>"
+        "solution_html": "<p>Masa miodu wypełniającego słój do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math> wysokości: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3,7</mn><mo>−</mo><mn>1,3</mn><mo>=</mo><mn>2,4</mn></mrow></math> kg. Masa miodu wypełniającego słój do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> wysokości: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2,4</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>0,8</mn></mrow></math> kg. Masa miodu wypełniającego cały słój: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,8</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>3,2</mn></mrow></math> kg. Masa pustego słoja: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3,7</mn><mo>−</mo><mn>3,2</mn><mo>=</mo><mn>0,5</mn></mrow></math> kg.</p><p><em>Punktacja: po 1 pkt za obliczenie masy miodu do 3/4 wysokości, masy miodu w całym słoju oraz masy pustego słoja.</em></p>",
+        "model": {
+          "answer": "0,5 kg",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -636,7 +731,12 @@
       "figures": [],
       "answer": {
         "correct": "18",
-        "solution_html": "<p>Liczba klocków w pierwszym zestawie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>8</mn><mn>15</mn></mfrac><mo>·</mo><mn>270</mn><mo>=</mo><mn>144</mn></mrow></math>. Liczba klocków w drugim zestawie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>6</mn><mn>7</mn></mfrac><mo>·</mo><mo>(</mo><mn>270</mn><mo>−</mo><mn>144</mn><mo>)</mo><mo>=</mo><mfrac><mn>6</mn><mn>7</mn></mfrac><mo>·</mo><mn>126</mn><mo>=</mo><mn>108</mn></mrow></math>. Liczba klocków w trzecim zestawie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>270</mn><mo>−</mo><mo>(</mo><mn>144</mn><mo>+</mo><mn>108</mn><mo>)</mo><mo>=</mo><mn>18</mn></mrow></math> (lub od razu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>7</mn></mfrac><mo>·</mo><mn>126</mn><mo>=</mo><mn>18</mn></mrow></math>).</p><p><em>Punktacja: po 1 pkt za obliczenie liczby klocków w pierwszym, drugim i trzecim zestawie.</em></p>"
+        "solution_html": "<p>Liczba klocków w pierwszym zestawie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>8</mn><mn>15</mn></mfrac><mo>·</mo><mn>270</mn><mo>=</mo><mn>144</mn></mrow></math>. Liczba klocków w drugim zestawie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>6</mn><mn>7</mn></mfrac><mo>·</mo><mo>(</mo><mn>270</mn><mo>−</mo><mn>144</mn><mo>)</mo><mo>=</mo><mfrac><mn>6</mn><mn>7</mn></mfrac><mo>·</mo><mn>126</mn><mo>=</mo><mn>108</mn></mrow></math>. Liczba klocków w trzecim zestawie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>270</mn><mo>−</mo><mo>(</mo><mn>144</mn><mo>+</mo><mn>108</mn><mo>)</mo><mo>=</mo><mn>18</mn></mrow></math> (lub od razu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>7</mn></mfrac><mo>·</mo><mn>126</mn><mo>=</mo><mn>18</mn></mrow></math>).</p><p><em>Punktacja: po 1 pkt za obliczenie liczby klocków w pierwszym, drugim i trzecim zestawie.</em></p>",
+        "model": {
+          "answer": "18",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -655,7 +755,12 @@
       "figures": [],
       "answer": {
         "correct": "Zwiększono o 44 cm; wymiary 94 cm × 30 cm lub 74 cm × 50 cm.",
-        "solution_html": "<p>Obwód prostokąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mo>(</mo><mn>50</mn><mo>+</mo><mn>30</mn><mo>)</mo><mo>=</mo><mn>160</mn></mrow></math> cm. Obwód kwadratu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><mn>62</mn><mo>=</mo><mn>248</mn></mrow></math> cm. Różnica obwodów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>248</mn><mo>−</mo><mn>160</mn><mo>=</mo><mn>88</mn></mrow></math> cm. Zwiększono jedną parę boków, więc długość boku zwiększono o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>88</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>44</mn></mrow></math> cm. Możliwe wymiary: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>50</mn><mo>+</mo><mn>44</mn><mo>=</mo><mn>94</mn></mrow></math> cm i drugi bok 30 cm (prostokąt 94 cm × 30 cm), albo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>30</mn><mo>+</mo><mn>44</mn><mo>=</mo><mn>74</mn></mrow></math> cm i drugi bok 50 cm (prostokąt 74 cm × 50 cm).</p><p><em>Punktacja: po 1 pkt za obliczenie obwodu prostokąta lub kwadratu, długości o jaką zwiększono bok (44 cm), wymiarów jednego prostokąta (94 cm, 30 cm) oraz drugiego (74 cm, 50 cm).</em></p>"
+        "solution_html": "<p>Obwód prostokąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mo>(</mo><mn>50</mn><mo>+</mo><mn>30</mn><mo>)</mo><mo>=</mo><mn>160</mn></mrow></math> cm. Obwód kwadratu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><mn>62</mn><mo>=</mo><mn>248</mn></mrow></math> cm. Różnica obwodów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>248</mn><mo>−</mo><mn>160</mn><mo>=</mo><mn>88</mn></mrow></math> cm. Zwiększono jedną parę boków, więc długość boku zwiększono o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>88</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>44</mn></mrow></math> cm. Możliwe wymiary: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>50</mn><mo>+</mo><mn>44</mn><mo>=</mo><mn>94</mn></mrow></math> cm i drugi bok 30 cm (prostokąt 94 cm × 30 cm), albo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>30</mn><mo>+</mo><mn>44</mn><mo>=</mo><mn>74</mn></mrow></math> cm i drugi bok 50 cm (prostokąt 74 cm × 50 cm).</p><p><em>Punktacja: po 1 pkt za obliczenie obwodu prostokąta lub kwadratu, długości o jaką zwiększono bok (44 cm), wymiarów jednego prostokąta (94 cm, 30 cm) oraz drugiego (74 cm, 50 cm).</em></p>",
+        "model": {
+          "answer": "Zwiększono o 44 cm; prostokąt ma wymiary 50 cm × 74 cm lub 30 cm × 94 cm.",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -673,7 +778,12 @@
       "figures": [],
       "answer": {
         "correct": "Skala 1 : 400 000; na planie: I etap 1,5 dm, II etap 2 dm, III etap 2,5 dm, IV etap 3 dm.",
-        "solution_html": "<p>Długość I etapu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>360</mn><mo>−</mo><mn>20</mn><mo>−</mo><mn>40</mn><mo>−</mo><mn>60</mn></mrow><mn>4</mn></mfrac><mo>=</mo><mn>60</mn></mrow></math> km. Zamiana jednostek: 60 km = 6 000 000 cm, 1,5 dm = 15 cm. Skala: 15 cm odpowiada 6 000 000 cm, czyli plan jest w skali <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>:</mo><mn>400000</mn></mrow></math>. Długości rzeczywiste kolejnych etapów: II — 80 km, III — 100 km, IV — 120 km. Długości na planie: II etap <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8000000</mn><mo>:</mo><mn>400000</mn><mo>=</mo><mn>20</mn></mrow></math> cm = 2 dm; III etap 25 cm = 2,5 dm; IV etap 30 cm = 3 dm.</p><p><em>Punktacja: po 1 pkt za obliczenie długości I etapu, zamianę jednostek potrzebną do obliczenia skali, długości rzeczywiste wszystkich etapów oraz długości wszystkich etapów na planie.</em></p>"
+        "solution_html": "<p>Długość I etapu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>360</mn><mo>−</mo><mn>20</mn><mo>−</mo><mn>40</mn><mo>−</mo><mn>60</mn></mrow><mn>4</mn></mfrac><mo>=</mo><mn>60</mn></mrow></math> km. Zamiana jednostek: 60 km = 6 000 000 cm, 1,5 dm = 15 cm. Skala: 15 cm odpowiada 6 000 000 cm, czyli plan jest w skali <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>:</mo><mn>400000</mn></mrow></math>. Długości rzeczywiste kolejnych etapów: II — 80 km, III — 100 km, IV — 120 km. Długości na planie: II etap <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8000000</mn><mo>:</mo><mn>400000</mn><mo>=</mo><mn>20</mn></mrow></math> cm = 2 dm; III etap 25 cm = 2,5 dm; IV etap 30 cm = 3 dm.</p><p><em>Punktacja: po 1 pkt za obliczenie długości I etapu, zamianę jednostek potrzebną do obliczenia skali, długości rzeczywiste wszystkich etapów oraz długości wszystkich etapów na planie.</em></p>",
+        "model": {
+          "answer": "Skala 1:400 000; odcinki na planie: 15 cm (1,5 dm), 20 cm (2 dm), 25 cm (2,5 dm), 30 cm (3 dm).",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     }
   ]

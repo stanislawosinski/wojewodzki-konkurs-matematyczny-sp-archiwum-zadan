@@ -42,7 +42,12 @@
       "figures": [],
       "answer": {
         "correct": "C",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "C",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -69,7 +74,12 @@
       "figures": [],
       "answer": {
         "correct": "FP",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "FP",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -105,7 +115,13 @@
       ],
       "answer": {
         "correct": "B, D",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "BD",
+          "by": "sonnet",
+          "agrees": null,
+          "solution_html": "<p>Widoczne ścianki: klocek 1 (liczby pierwsze) ma widoczne 2, 5, 11 — to zbiór {2,3,5,7,11,13}; klocek 2 (liczby nieparzyste) ma widoczne 1, 11 — to zbiór {1,3,5,7,9,11}.</p><p>Liczba pierwsza >3 występująca tylko na klocku 1: 5,7,11 są też u drugiego klocka, 13 nie występuje u drugiego — odpowiedź B (13).</p><p>Niewidoczne ścianki klocka 1: 3,7,13 (suma 23); klocka 2: 3,5,7,9 (suma 24). Razem 23+24=47 — odpowiedź D.</p>"
+        }
       }
     },
     {
@@ -122,7 +138,12 @@
       "figures": [],
       "answer": {
         "correct": "R = 6",
-        "solution_html": "<p>Ostatnią cyfrą iloczynu jest litera K, więc iloczyn <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi><mo>·</mo><mn>9</mn></math> musi kończyć się cyfrą K. Jedyną cyfrą różną od zera, która pomnożona przez 9 daje wynik o tej samej cyfrze jedności, jest 5, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi><mo>=</mo><mn>5</mn></math>. Iloczyn ma więc postać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>555555555</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>RACHUNEK</mtext><mo>=</mo><mn>555555555</mn><mo>:</mo><mn>9</mn><mo>=</mo><mn>61728395</mn></math>. Zatem literze R odpowiada cyfra 6.</p>"
+        "solution_html": "<p>Ostatnią cyfrą iloczynu jest litera K, więc iloczyn <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi><mo>·</mo><mn>9</mn></math> musi kończyć się cyfrą K. Jedyną cyfrą różną od zera, która pomnożona przez 9 daje wynik o tej samej cyfrze jedności, jest 5, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi><mo>=</mo><mn>5</mn></math>. Iloczyn ma więc postać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>555555555</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>RACHUNEK</mtext><mo>=</mo><mn>555555555</mn><mo>:</mo><mn>9</mn><mo>=</mo><mn>61728395</mn></math>. Zatem literze R odpowiada cyfra 6.</p>",
+        "model": {
+          "answer": "5",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -142,7 +163,12 @@
       ],
       "answer": {
         "correct": "360°",
-        "solution_html": "<p>Oznaczmy kąty zaznaczone łukami jak w modelu odpowiedzi: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ε</mi></math> przy wierzchołku A, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> przy B, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> przy C, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>δ</mi></math> przy D, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>φ</mi></math> przy E i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi></math> przy F. Ponieważ AB ∥ CD, kąt przy wierzchołku K w trójkącie CEK jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>, a w trójkącie DFK jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ε</mi></math>. Z twierdzenia o sumie kątów w trójkącie otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi><mo>+</mo><mi>φ</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mi>α</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi><mo>+</mo><mi>δ</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mi>ε</mi></math>. Suma wszystkich kątów zaznaczonych łukami wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>180</mn><mo>°</mo><mo>−</mo><mi>α</mi><mo>)</mo><mo>+</mo><mo>(</mo><mn>180</mn><mo>°</mo><mo>−</mo><mi>ε</mi><mo>)</mo><mo>+</mo><mo>(</mo><mi>α</mi><mo>+</mo><mi>ε</mi><mo>)</mo><mo>=</mo><mn>360</mn><mo>°</mo></math>.</p>"
+        "solution_html": "<p>Oznaczmy kąty zaznaczone łukami jak w modelu odpowiedzi: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ε</mi></math> przy wierzchołku A, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> przy B, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> przy C, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>δ</mi></math> przy D, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>φ</mi></math> przy E i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi></math> przy F. Ponieważ AB ∥ CD, kąt przy wierzchołku K w trójkącie CEK jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>, a w trójkącie DFK jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ε</mi></math>. Z twierdzenia o sumie kątów w trójkącie otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi><mo>+</mo><mi>φ</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mi>α</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi><mo>+</mo><mi>δ</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mi>ε</mi></math>. Suma wszystkich kątów zaznaczonych łukami wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>180</mn><mo>°</mo><mo>−</mo><mi>α</mi><mo>)</mo><mo>+</mo><mo>(</mo><mn>180</mn><mo>°</mo><mo>−</mo><mi>ε</mi><mo>)</mo><mo>+</mo><mo>(</mo><mi>α</mi><mo>+</mo><mi>ε</mi><mo>)</mo><mo>=</mo><mn>360</mn><mo>°</mo></math>.</p>",
+        "model": {
+          "answer": "360°",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -160,7 +186,12 @@
       "figures": [],
       "answer": {
         "correct": "Nie, taki trójkąt nie istnieje.",
-        "solution_html": "<p>Załóżmy, że taki trójkąt istnieje i ma boki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>, na które opuszczono wysokości odpowiednio 2, 4 i 6. Pole trójkąta zapisujemy na trzy sposoby: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mo>·</mo><mn>2</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mfrac><mrow><mi>b</mi><mo>·</mo><mn>4</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mfrac><mrow><mi>c</mi><mo>·</mo><mn>6</mn></mrow><mn>2</mn></mfrac></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>2</mn><mi>b</mi><mo>=</mo><mn>3</mn><mi>c</mi></math>. Przyjmując <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>3</mn><mi>c</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>1,5</mn><mi>c</mi></math>, sprawdzamy warunek istnienia trójkąta. Nierówności <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>c</mi><mo>+</mo><mn>1,5</mn><mi>c</mi><mo>&gt;</mo><mi>c</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>c</mi><mo>+</mo><mi>c</mi><mo>&gt;</mo><mn>1,5</mn><mi>c</mi></math> są prawdziwe, ale <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,5</mn><mi>c</mi><mo>+</mo><mi>c</mi><mo>&gt;</mo><mn>3</mn><mi>c</mi></math> jest fałszywa, bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2,5</mn><mi>c</mi><mo>&lt;</mo><mn>3</mn><mi>c</mi></math>. Ponieważ nierówność trójkąta nie jest spełniona, taki trójkąt nie istnieje.</p>"
+        "solution_html": "<p>Załóżmy, że taki trójkąt istnieje i ma boki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>, na które opuszczono wysokości odpowiednio 2, 4 i 6. Pole trójkąta zapisujemy na trzy sposoby: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mo>·</mo><mn>2</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mfrac><mrow><mi>b</mi><mo>·</mo><mn>4</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mfrac><mrow><mi>c</mi><mo>·</mo><mn>6</mn></mrow><mn>2</mn></mfrac></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>2</mn><mi>b</mi><mo>=</mo><mn>3</mn><mi>c</mi></math>. Przyjmując <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>3</mn><mi>c</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>1,5</mn><mi>c</mi></math>, sprawdzamy warunek istnienia trójkąta. Nierówności <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>c</mi><mo>+</mo><mn>1,5</mn><mi>c</mi><mo>&gt;</mo><mi>c</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>c</mi><mo>+</mo><mi>c</mi><mo>&gt;</mo><mn>1,5</mn><mi>c</mi></math> są prawdziwe, ale <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,5</mn><mi>c</mi><mo>+</mo><mi>c</mi><mo>&gt;</mo><mn>3</mn><mi>c</mi></math> jest fałszywa, bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2,5</mn><mi>c</mi><mo>&lt;</mo><mn>3</mn><mi>c</mi></math>. Ponieważ nierówność trójkąta nie jest spełniona, taki trójkąt nie istnieje.</p>",
+        "model": {
+          "answer": "Nie, taki trójkąt nie istnieje",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -180,7 +211,12 @@
       ],
       "answer": {
         "correct": "330 cm²",
-        "solution_html": "<p>Pole prostokąta wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>22</mn><mo>·</mo><mn>16</mn><mo>=</mo><mn>352</mn></math> cm². Pole wspólnej części obu figur stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math> pola prostokąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>·</mo><mn>352</mn><mo>=</mo><mn>264</mn></math> cm². Ta sama wspólna część stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>5</mn></mfrac></math> pola rombu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>5</mn></mfrac><mo>·</mo><mi>P</mi><mo>=</mo><mn>264</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>264</mn><mo>:</mo><mfrac><mn>4</mn><mn>5</mn></mfrac><mo>=</mo><mn>264</mn><mo>·</mo><mfrac><mn>5</mn><mn>4</mn></mfrac><mo>=</mo><mn>330</mn></math> cm². Pole rombu jest równe 330 cm².</p>"
+        "solution_html": "<p>Pole prostokąta wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>22</mn><mo>·</mo><mn>16</mn><mo>=</mo><mn>352</mn></math> cm². Pole wspólnej części obu figur stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math> pola prostokąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>·</mo><mn>352</mn><mo>=</mo><mn>264</mn></math> cm². Ta sama wspólna część stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>5</mn></mfrac></math> pola rombu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>5</mn></mfrac><mo>·</mo><mi>P</mi><mo>=</mo><mn>264</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mn>264</mn><mo>:</mo><mfrac><mn>4</mn><mn>5</mn></mfrac><mo>=</mo><mn>264</mn><mo>·</mo><mfrac><mn>5</mn><mn>4</mn></mfrac><mo>=</mo><mn>330</mn></math> cm². Pole rombu jest równe 330 cm².</p>",
+        "model": {
+          "answer": "330 cm²",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -197,7 +233,12 @@
       "figures": [],
       "answer": {
         "correct": "I półka: 16, II półka: 26, III półka: 18",
-        "solution_html": "<p>Po przełożeniu na każdej z trzech półek jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>20</mn></math> książek. Niech na pierwszej półce było <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> książek; po ruchach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>8</mn><mo>−</mo><mn>4</mn><mo>=</mo><mn>20</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>16</mn></math>. Na drugiej półce <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>−</mo><mn>10</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>20</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>26</mn></math>. Na trzeciej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi><mo>+</mo><mn>10</mn><mo>−</mo><mn>8</mn><mo>=</mo><mn>20</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi><mo>=</mo><mn>18</mn></math>. Sprawdzenie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mo>+</mo><mn>26</mn><mo>+</mo><mn>18</mn><mo>=</mo><mn>60</mn></math>. Odpowiedź: na pierwszej półce było 16 książek, na drugiej 26, a na trzeciej 18.</p>"
+        "solution_html": "<p>Po przełożeniu na każdej z trzech półek jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>20</mn></math> książek. Niech na pierwszej półce było <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> książek; po ruchach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>8</mn><mo>−</mo><mn>4</mn><mo>=</mo><mn>20</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>16</mn></math>. Na drugiej półce <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>−</mo><mn>10</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>20</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>26</mn></math>. Na trzeciej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi><mo>+</mo><mn>10</mn><mo>−</mo><mn>8</mn><mo>=</mo><mn>20</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi><mo>=</mo><mn>18</mn></math>. Sprawdzenie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mo>+</mo><mn>26</mn><mo>+</mo><mn>18</mn><mo>=</mo><mn>60</mn></math>. Odpowiedź: na pierwszej półce było 16 książek, na drugiej 26, a na trzeciej 18.</p>",
+        "model": {
+          "answer": "I półka: 16, II półka: 26, III półka: 18",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -214,7 +255,12 @@
       "figures": [],
       "answer": {
         "correct": "a = 3, a = 9 lub a = −5",
-        "solution_html": "<p>Przekształcamy wyrażenie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mi>a</mi><mo>+</mo><mn>3</mn></mrow><mrow><mi>a</mi><mo>−</mo><mn>2</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn><mo>(</mo><mi>a</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>+</mo><mn>7</mn></mrow><mrow><mi>a</mi><mo>−</mo><mn>2</mn></mrow></mfrac><mo>=</mo><mn>2</mn><mo>+</mo><mfrac><mn>7</mn><mrow><mi>a</mi><mo>−</mo><mn>2</mn></mrow></mfrac></math>. Aby wartość była liczbą całkowitą, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>−</mo><mn>2</mn></math> musi być dzielnikiem liczby 7, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>−</mo><mn>2</mn><mo>∈</mo><mo>{</mo><mn>1</mn><mo>,</mo><mo>−</mo><mn>1</mn><mo>,</mo><mn>7</mn><mo>,</mo><mo>−</mo><mn>7</mn><mo>}</mo></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>∈</mo><mo>{</mo><mn>3</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>9</mn><mo>,</mo><mo>−</mo><mn>5</mn><mo>}</mo></math>. Wartość jest dodatnia dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>3</mn></math> (wynik 9), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>9</mn></math> (wynik 3) i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mo>−</mo><mn>5</mn></math> (wynik 1); dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>1</mn></math> wynik wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>5</mn></math> i jest ujemny, więc go odrzucamy. Odpowiedź: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>3</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>9</mn></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mo>−</mo><mn>5</mn></math>.</p>"
+        "solution_html": "<p>Przekształcamy wyrażenie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mi>a</mi><mo>+</mo><mn>3</mn></mrow><mrow><mi>a</mi><mo>−</mo><mn>2</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn><mo>(</mo><mi>a</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>+</mo><mn>7</mn></mrow><mrow><mi>a</mi><mo>−</mo><mn>2</mn></mrow></mfrac><mo>=</mo><mn>2</mn><mo>+</mo><mfrac><mn>7</mn><mrow><mi>a</mi><mo>−</mo><mn>2</mn></mrow></mfrac></math>. Aby wartość była liczbą całkowitą, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>−</mo><mn>2</mn></math> musi być dzielnikiem liczby 7, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>−</mo><mn>2</mn><mo>∈</mo><mo>{</mo><mn>1</mn><mo>,</mo><mo>−</mo><mn>1</mn><mo>,</mo><mn>7</mn><mo>,</mo><mo>−</mo><mn>7</mn><mo>}</mo></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>∈</mo><mo>{</mo><mn>3</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>9</mn><mo>,</mo><mo>−</mo><mn>5</mn><mo>}</mo></math>. Wartość jest dodatnia dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>3</mn></math> (wynik 9), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>9</mn></math> (wynik 3) i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mo>−</mo><mn>5</mn></math> (wynik 1); dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>1</mn></math> wynik wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>5</mn></math> i jest ujemny, więc go odrzucamy. Odpowiedź: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>3</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>9</mn></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mo>−</mo><mn>5</mn></math>.</p>",
+        "model": {
+          "answer": "a ∈ {−5, 3, 9}",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     }
   ]

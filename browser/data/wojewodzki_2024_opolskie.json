@@ -38,7 +38,12 @@
       "figures": [],
       "answer": {
         "correct": "PPF",
-        "solution_html": "<p>Usuwając niewymierność z mianownika: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><msqrt><mn>5</mn></msqrt><mo>−</mo><mn>2</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><msqrt><mn>5</mn></msqrt><mo>+</mo><mn>2</mn></mrow><mrow><mo>(</mo><msqrt><mn>5</mn></msqrt><mo>−</mo><mn>2</mn><mo>)</mo><mo>(</mo><msqrt><mn>5</mn></msqrt><mo>+</mo><mn>2</mn><mo>)</mo></mrow></mfrac><mo>=</mo><mfrac><mrow><msqrt><mn>5</mn></msqrt><mo>+</mo><mn>2</mn></mrow><mn>1</mn></mfrac><mo>=</mo><msqrt><mn>5</mn></msqrt><mo>+</mo><mn>2</mn></math>. Odwrotnością liczby jest zarówno <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><msqrt><mn>5</mn></msqrt><mo>−</mo><mn>2</mn></mrow></mfrac></math> (TAK), jak i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>5</mn></msqrt><mo>+</mo><mn>2</mn></math> (TAK); wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><msqrt><mn>5</mn></msqrt><mo>+</mo><mn>2</mn></math> to liczba przeciwna, nie odwrotna (NIE).</p>"
+        "solution_html": "<p>Usuwając niewymierność z mianownika: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><msqrt><mn>5</mn></msqrt><mo>−</mo><mn>2</mn></mrow></mfrac><mo>=</mo><mfrac><mrow><msqrt><mn>5</mn></msqrt><mo>+</mo><mn>2</mn></mrow><mrow><mo>(</mo><msqrt><mn>5</mn></msqrt><mo>−</mo><mn>2</mn><mo>)</mo><mo>(</mo><msqrt><mn>5</mn></msqrt><mo>+</mo><mn>2</mn><mo>)</mo></mrow></mfrac><mo>=</mo><mfrac><mrow><msqrt><mn>5</mn></msqrt><mo>+</mo><mn>2</mn></mrow><mn>1</mn></mfrac><mo>=</mo><msqrt><mn>5</mn></msqrt><mo>+</mo><mn>2</mn></math>. Odwrotnością liczby jest zarówno <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><msqrt><mn>5</mn></msqrt><mo>−</mo><mn>2</mn></mrow></mfrac></math> (TAK), jak i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>5</mn></msqrt><mo>+</mo><mn>2</mn></math> (TAK); wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><msqrt><mn>5</mn></msqrt><mo>+</mo><mn>2</mn></math> to liczba przeciwna, nie odwrotna (NIE).</p>",
+        "model": {
+          "answer": "PPF",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -69,7 +74,12 @@
       "figures": [],
       "answer": {
         "correct": "PFP",
-        "solution_html": "<p>Liczby pierwsze mniejsze od 20 to 2, 3, 5, 7, 11, 13, 17, 19 — dokładnie 8 liczb (TAK). Liczby całkowite o wartości bezwzględnej mniejszej od 5 to −4, −3, −2, −1, 0, 1, 2, 3, 4 — jest ich 9, a nie 8 (NIE). Naturalne dzielniki liczby 24 to 1, 2, 3, 4, 6, 8, 12, 24 — dokładnie 8 liczb (TAK).</p>"
+        "solution_html": "<p>Liczby pierwsze mniejsze od 20 to 2, 3, 5, 7, 11, 13, 17, 19 — dokładnie 8 liczb (TAK). Liczby całkowite o wartości bezwzględnej mniejszej od 5 to −4, −3, −2, −1, 0, 1, 2, 3, 4 — jest ich 9, a nie 8 (NIE). Naturalne dzielniki liczby 24 to 1, 2, 3, 4, 6, 8, 12, 24 — dokładnie 8 liczb (TAK).</p>",
+        "model": {
+          "answer": "PFP",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -99,7 +109,12 @@
       "figures": [],
       "answer": {
         "correct": "PFF",
-        "solution_html": "<p>Zauważmy, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>20</mn></msup><mo>=</mo><msup><mn>2</mn><mn>40</mn></msup></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>5</mn><mn>40</mn></msup><mo>·</mo><msup><mn>4</mn><mn>20</mn></msup><mo>=</mo><msup><mn>5</mn><mn>40</mn></msup><mo>·</mo><msup><mn>2</mn><mn>40</mn></msup><mo>=</mo><msup><mn>10</mn><mn>40</mn></msup></math>. Suma cyfr liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>40</mn></msup></math> jest równa 1 (TAK). Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>40</mn></msup></math> ma 41 cyfr, a nie 21 (NIE). Ponadto <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5,103</mn><mo>·</mo><msup><mn>10</mn><mn>12</mn></msup><mo>+</mo><mn>48,97</mn><mo>·</mo><msup><mn>10</mn><mn>11</mn></msup><mo>=</mo><mn>5103</mn><mo>·</mo><msup><mn>10</mn><mn>9</mn></msup><mo>+</mo><mn>4897</mn><mo>·</mo><msup><mn>10</mn><mn>9</mn></msup><mo>=</mo><mn>10000</mn><mo>·</mo><msup><mn>10</mn><mn>9</mn></msup><mo>=</mo><msup><mn>10</mn><mn>13</mn></msup></math>, co ma 14 cyfr, a nie 13 (NIE).</p>"
+        "solution_html": "<p>Zauważmy, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>20</mn></msup><mo>=</mo><msup><mn>2</mn><mn>40</mn></msup></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>5</mn><mn>40</mn></msup><mo>·</mo><msup><mn>4</mn><mn>20</mn></msup><mo>=</mo><msup><mn>5</mn><mn>40</mn></msup><mo>·</mo><msup><mn>2</mn><mn>40</mn></msup><mo>=</mo><msup><mn>10</mn><mn>40</mn></msup></math>. Suma cyfr liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>40</mn></msup></math> jest równa 1 (TAK). Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>40</mn></msup></math> ma 41 cyfr, a nie 21 (NIE). Ponadto <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5,103</mn><mo>·</mo><msup><mn>10</mn><mn>12</mn></msup><mo>+</mo><mn>48,97</mn><mo>·</mo><msup><mn>10</mn><mn>11</mn></msup><mo>=</mo><mn>5103</mn><mo>·</mo><msup><mn>10</mn><mn>9</mn></msup><mo>+</mo><mn>4897</mn><mo>·</mo><msup><mn>10</mn><mn>9</mn></msup><mo>=</mo><mn>10000</mn><mo>·</mo><msup><mn>10</mn><mn>9</mn></msup><mo>=</mo><msup><mn>10</mn><mn>13</mn></msup></math>, co ma 14 cyfr, a nie 13 (NIE).</p>",
+        "model": {
+          "answer": "PFF",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -129,7 +144,12 @@
       "figures": [],
       "answer": {
         "correct": "FPP",
-        "solution_html": "<p>Trzeci bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> spełnia nierówność trójkąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>−</mo><mn>2</mn><mo>&lt;</mo><mi>c</mi><mo>&lt;</mo><mn>5</mn><mo>+</mo><mn>2</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>&lt;</mo><mi>c</mi><mo>&lt;</mo><mn>7</mn></math>. Skoro <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> jest całkowite, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>∈</mo><mo>{</mo><mn>4</mn><mo>,</mo><mn>5</mn><mo>,</mo><mn>6</mn><mo>}</mo></math>, więc obwód <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mo>+</mo><mi>c</mi><mo>∈</mo><mo>{</mo><mn>11</mn><mo>,</mo><mn>12</mn><mo>,</mo><mn>13</mn><mo>}</mo></math>. Obwód 10 cm dawałby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mn>3</mn></math> (trójkąt zdegenerowany) — NIE; 11 cm i 12 cm są możliwe — TAK, TAK.</p>"
+        "solution_html": "<p>Trzeci bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> spełnia nierówność trójkąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>−</mo><mn>2</mn><mo>&lt;</mo><mi>c</mi><mo>&lt;</mo><mn>5</mn><mo>+</mo><mn>2</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>&lt;</mo><mi>c</mi><mo>&lt;</mo><mn>7</mn></math>. Skoro <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> jest całkowite, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>∈</mo><mo>{</mo><mn>4</mn><mo>,</mo><mn>5</mn><mo>,</mo><mn>6</mn><mo>}</mo></math>, więc obwód <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mo>+</mo><mi>c</mi><mo>∈</mo><mo>{</mo><mn>11</mn><mo>,</mo><mn>12</mn><mo>,</mo><mn>13</mn><mo>}</mo></math>. Obwód 10 cm dawałby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mn>3</mn></math> (trójkąt zdegenerowany) — NIE; 11 cm i 12 cm są możliwe — TAK, TAK.</p>",
+        "model": {
+          "answer": "FPP",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -160,7 +180,12 @@
       "figures": [],
       "answer": {
         "correct": "PFF",
-        "solution_html": "<p>W ostrosłupie prawidłowym, którego podstawą jest wielokąt foremny o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> bokach, ściana boczna może być trójkątem rozwartokątnym tylko dla podstawy trójkątnej (TAK); dla podstawy czworokątnej i sześciokątnej kąt przy podstawie ściany bocznej jest zbyt duży, aby kąt przy wierzchołku ostrosłupa był rozwarty (NIE, NIE).</p>"
+        "solution_html": "<p>W ostrosłupie prawidłowym, którego podstawą jest wielokąt foremny o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> bokach, ściana boczna może być trójkątem rozwartokątnym tylko dla podstawy trójkątnej (TAK); dla podstawy czworokątnej i sześciokątnej kąt przy podstawie ściany bocznej jest zbyt duży, aby kąt przy wierzchołku ostrosłupa był rozwarty (NIE, NIE).</p>",
+        "model": {
+          "answer": "PFF",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -177,7 +202,12 @@
       "figures": [],
       "answer": {
         "correct": "406 250 zł",
-        "solution_html": "<p>Zysk przy oprocentowaniu 6,5%: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>400000</mn><mo>·</mo><mn>0,065</mn><mo>=</mo><mn>26000</mn></math> zł. Szukaną kwotę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> wyznaczamy z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>·</mo><mn>0,064</mn><mo>=</mo><mn>26000</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mfrac><mn>26000</mn><mn>0,064</mn></mfrac><mo>=</mo><mn>406250</mn></math> zł. Odpowiedź: należałoby wpłacić 406 250 zł.</p>"
+        "solution_html": "<p>Zysk przy oprocentowaniu 6,5%: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>400000</mn><mo>·</mo><mn>0,065</mn><mo>=</mo><mn>26000</mn></math> zł. Szukaną kwotę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> wyznaczamy z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>·</mo><mn>0,064</mn><mo>=</mo><mn>26000</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mfrac><mn>26000</mn><mn>0,064</mn></mfrac><mo>=</mo><mn>406250</mn></math> zł. Odpowiedź: należałoby wpłacić 406 250 zł.</p>",
+        "model": {
+          "answer": "406 250 zł",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -194,7 +224,12 @@
       "figures": [],
       "answer": {
         "correct": "górna 45, dolna 35",
-        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> to początkowa liczba słoików na dolnej półce; na górnej było <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>80</mn><mo>−</mo><mi>d</mi></math>. Po zmianach na dolnej jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>−</mo><mn>13</mn></math>, a na górnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>80</mn><mo>−</mo><mi>d</mi><mo>+</mo><mn>13</mn><mo>−</mo><mn>3</mn><mo>=</mo><mn>90</mn><mo>−</mo><mi>d</mi></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>90</mn><mo>−</mo><mi>d</mi><mo>=</mo><mn>2,5</mn><mo>(</mo><mi>d</mi><mo>−</mo><mn>13</mn><mo>)</mo></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>90</mn><mo>−</mo><mi>d</mi><mo>=</mo><mn>2,5</mn><mi>d</mi><mo>−</mo><mn>32,5</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3,5</mn><mi>d</mi><mo>=</mo><mn>122,5</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><mn>35</mn></math>. Zatem na dolnej półce było początkowo 35 słoików, a na górnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>80</mn><mo>−</mo><mn>35</mn><mo>=</mo><mn>45</mn></math> słoików.</p>"
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> to początkowa liczba słoików na dolnej półce; na górnej było <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>80</mn><mo>−</mo><mi>d</mi></math>. Po zmianach na dolnej jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>−</mo><mn>13</mn></math>, a na górnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>80</mn><mo>−</mo><mi>d</mi><mo>+</mo><mn>13</mn><mo>−</mo><mn>3</mn><mo>=</mo><mn>90</mn><mo>−</mo><mi>d</mi></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>90</mn><mo>−</mo><mi>d</mi><mo>=</mo><mn>2,5</mn><mo>(</mo><mi>d</mi><mo>−</mo><mn>13</mn><mo>)</mo></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>90</mn><mo>−</mo><mi>d</mi><mo>=</mo><mn>2,5</mn><mi>d</mi><mo>−</mo><mn>32,5</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3,5</mn><mi>d</mi><mo>=</mo><mn>122,5</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><mn>35</mn></math>. Zatem na dolnej półce było początkowo 35 słoików, a na górnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>80</mn><mo>−</mo><mn>35</mn><mo>=</mo><mn>45</mn></math> słoików.</p>",
+        "model": {
+          "answer": "na dolnej 35 słoików, na górnej 45 słoików",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -211,7 +246,12 @@
       "figures": [],
       "answer": {
         "correct": "66 i 134",
-        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> to mniejsza liczba, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> większa; wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>200</mn></math>. Dopisanie cyfry 6 po prawej stronie liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> daje liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mi>a</mi><mo>+</mo><mn>6</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mi>a</mi><mo>+</mo><mn>6</mn><mo>+</mo><mi>b</mi><mo>=</mo><mn>800</mn></math>. Odejmując pierwsze równanie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mi>a</mi><mo>+</mo><mn>6</mn><mo>=</mo><mn>600</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>66</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>200</mn><mo>−</mo><mn>66</mn><mo>=</mo><mn>134</mn></math>. Sprawdzenie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>66</mn><mo>+</mo><mn>134</mn><mo>=</mo><mn>200</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>666</mn><mo>+</mo><mn>134</mn><mo>=</mo><mn>800</mn></math>.</p><p><em>W kluczu odpowiedzi wydrukowano parę (66, 154), jednak jest to omyłka — para (66, 154) nie spełnia warunku sumy równej 200; poprawną drugą liczbą jest 134.</em></p>"
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> to mniejsza liczba, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> większa; wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>200</mn></math>. Dopisanie cyfry 6 po prawej stronie liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> daje liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mi>a</mi><mo>+</mo><mn>6</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mi>a</mi><mo>+</mo><mn>6</mn><mo>+</mo><mi>b</mi><mo>=</mo><mn>800</mn></math>. Odejmując pierwsze równanie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mi>a</mi><mo>+</mo><mn>6</mn><mo>=</mo><mn>600</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>66</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>200</mn><mo>−</mo><mn>66</mn><mo>=</mo><mn>134</mn></math>. Sprawdzenie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>66</mn><mo>+</mo><mn>134</mn><mo>=</mo><mn>200</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>666</mn><mo>+</mo><mn>134</mn><mo>=</mo><mn>800</mn></math>.</p><p><em>W kluczu odpowiedzi wydrukowano parę (66, 154), jednak jest to omyłka — para (66, 154) nie spełnia warunku sumy równej 200; poprawną drugą liczbą jest 134.</em></p>",
+        "model": {
+          "answer": "66 i 134",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -229,7 +269,12 @@
       "figures": [],
       "answer": {
         "correct": "10 cm i 2√97 cm",
-        "solution_html": "<p>Przyjmijmy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo>)</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mo>(</mo><mn>12</mn><mo>,</mo><mn>0</mn><mo>)</mo></math> (dłuższy bok). Symetralna boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> to prosta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>6</mn></math>; ma na niej leżeć wierzchołek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>AD</mi><mo>|</mo><mo>=</mo><mn>10</mn></math>, mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mo>=</mo><mo>(</mo><mn>6</mn><mo>,</mo><msqrt><mrow><msup><mn>10</mn><mn>2</mn></msup><mo>−</mo><msup><mn>6</mn><mn>2</mn></msup></mrow></msqrt><mo>)</mo><mo>=</mo><mo>(</mo><mn>6</mn><mo>,</mo><mn>8</mn><mo>)</mo></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>=</mo><mo>(</mo><mn>18</mn><mo>,</mo><mn>8</mn><mo>)</mo></math>. Krótsza przekątna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>BD</mi><mo>|</mo><mo>=</mo><msqrt><mrow><msup><mrow><mo>(</mo><mn>12</mn><mo>−</mo><mn>6</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mn>8</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>100</mn></msqrt><mo>=</mo><mn>10</mn></math> cm. Dłuższa przekątna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>AC</mi><mo>|</mo><mo>=</mo><msqrt><mrow><msup><mn>18</mn><mn>2</mn></msup><mo>+</mo><msup><mn>8</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>388</mn></msqrt><mo>=</mo><mn>2</mn><msqrt><mn>97</mn></msqrt></math> cm.</p>"
+        "solution_html": "<p>Przyjmijmy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo>)</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mo>(</mo><mn>12</mn><mo>,</mo><mn>0</mn><mo>)</mo></math> (dłuższy bok). Symetralna boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> to prosta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>6</mn></math>; ma na niej leżeć wierzchołek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>AD</mi><mo>|</mo><mo>=</mo><mn>10</mn></math>, mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mo>=</mo><mo>(</mo><mn>6</mn><mo>,</mo><msqrt><mrow><msup><mn>10</mn><mn>2</mn></msup><mo>−</mo><msup><mn>6</mn><mn>2</mn></msup></mrow></msqrt><mo>)</mo><mo>=</mo><mo>(</mo><mn>6</mn><mo>,</mo><mn>8</mn><mo>)</mo></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>=</mo><mo>(</mo><mn>18</mn><mo>,</mo><mn>8</mn><mo>)</mo></math>. Krótsza przekątna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>BD</mi><mo>|</mo><mo>=</mo><msqrt><mrow><msup><mrow><mo>(</mo><mn>12</mn><mo>−</mo><mn>6</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mn>8</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>100</mn></msqrt><mo>=</mo><mn>10</mn></math> cm. Dłuższa przekątna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>AC</mi><mo>|</mo><mo>=</mo><msqrt><mrow><msup><mn>18</mn><mn>2</mn></msup><mo>+</mo><msup><mn>8</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>388</mn></msqrt><mo>=</mo><mn>2</mn><msqrt><mn>97</mn></msqrt></math> cm.</p>",
+        "model": {
+          "answer": "10 cm oraz 2√97 cm (≈ 19,7 cm)",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -246,7 +291,12 @@
       "figures": [],
       "answer": {
         "correct": "1,6 mm",
-        "solution_html": "<p>Objętość zanurzonej kostki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>8</mn><mn>3</mn></msup><mo>=</mo><mn>512</mn></math> cm³. Ta objętość rozkłada się na powierzchni podstawy naczynia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>80</mn><mo>·</mo><mn>40</mn><mo>=</mo><mn>3200</mn></math> cm². Przyrost poziomu wody: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>512</mn><mn>3200</mn></mfrac><mo>=</mo><mn>0,16</mn></math> cm <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>1,6</mn></math> mm.</p>"
+        "solution_html": "<p>Objętość zanurzonej kostki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>8</mn><mn>3</mn></msup><mo>=</mo><mn>512</mn></math> cm³. Ta objętość rozkłada się na powierzchni podstawy naczynia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>80</mn><mo>·</mo><mn>40</mn><mo>=</mo><mn>3200</mn></math> cm². Przyrost poziomu wody: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>512</mn><mn>3200</mn></mfrac><mo>=</mo><mn>0,16</mn></math> cm <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>1,6</mn></math> mm.</p>",
+        "model": {
+          "answer": "1,6 mm",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -266,7 +316,12 @@
       ],
       "answer": {
         "correct": "pole 112 cm², obwód (56 − 8√2) cm",
-        "solution_html": "<p>Wierzchołek jednego kwadratu leży w środku drugiego, więc część wspólna obu kwadratów to ćwiartka kwadratu o polu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mn>8</mn><mn>2</mn></msup></mrow><mn>4</mn></mfrac><mo>=</mo><mn>16</mn></math> cm². Pole figury: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><msup><mn>8</mn><mn>2</mn></msup><mo>−</mo><mn>16</mn><mo>=</mo><mn>128</mn><mo>−</mo><mn>16</mn><mo>=</mo><mn>112</mn></math> cm². Obwód powstaje z obwodów obu kwadratów pomniejszonych o zasłonięte odcinki: na brzeg figury składa się <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>56</mn><mo>−</mo><mn>8</mn><msqrt><mn>2</mn></msqrt></math> cm.</p>"
+        "solution_html": "<p>Wierzchołek jednego kwadratu leży w środku drugiego, więc część wspólna obu kwadratów to ćwiartka kwadratu o polu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mn>8</mn><mn>2</mn></msup></mrow><mn>4</mn></mfrac><mo>=</mo><mn>16</mn></math> cm². Pole figury: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><msup><mn>8</mn><mn>2</mn></msup><mo>−</mo><mn>16</mn><mo>=</mo><mn>128</mn><mo>−</mo><mn>16</mn><mo>=</mo><mn>112</mn></math> cm². Obwód powstaje z obwodów obu kwadratów pomniejszonych o zasłonięte odcinki: na brzeg figury składa się <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>56</mn><mo>−</mo><mn>8</mn><msqrt><mn>2</mn></msqrt></math> cm.</p>",
+        "model": {
+          "answer": "Pole = 112 cm²; obwód = (56 − 8√2) cm ≈ 44,7 cm",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     }
   ]

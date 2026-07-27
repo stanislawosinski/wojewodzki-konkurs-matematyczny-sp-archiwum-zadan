@@ -26,7 +26,12 @@
       ],
       "answer": {
         "correct": "Wpisywane liczby: 0, 6, −3, −2, 5, 3. Poziomo: 13 + 0 · 2 = 13; 6 + 6 : (−3) = 4; −2 + 5 − (−2) = 5. Pionowo: 13 − 6 − (−2) = 9; 0 · 6 + 5 = 5; 2 − (−3) + (−2) = 3.",
-        "solution_html": "<p>W puste pola wpisujemy kolejno: <strong>0</strong> (górny wiersz), <strong>6</strong> i <strong>−3</strong> (środkowy wiersz), <strong>−2</strong> (piąta kolumna, wiersz zaczynający się od −2) oraz <strong>5</strong> i <strong>3</strong> (dolny wiersz). Wszystkie działania są wtedy poprawne.</p><p>Poziomo: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>13</mn><mo>+</mo><mn>0</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>13</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>+</mo><mn>6</mn><mo>:</mo><mo>(</mo><mo>−</mo><mn>3</mn><mo>)</mo><mo>=</mo><mn>4</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>2</mn><mo>+</mo><mn>5</mn><mo>−</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>5</mn></math>.</p><p>Pionowo: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>13</mn><mo>−</mo><mn>6</mn><mo>−</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>9</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>·</mo><mn>6</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>5</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>−</mo><mo>(</mo><mo>−</mo><mn>3</mn><mo>)</mo><mo>+</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>3</mn></math>.</p><p><em>Za każdą poprawnie wpisaną liczbę 1 punkt, w sumie 6 punktów.</em></p>"
+        "solution_html": "<p>W puste pola wpisujemy kolejno: <strong>0</strong> (górny wiersz), <strong>6</strong> i <strong>−3</strong> (środkowy wiersz), <strong>−2</strong> (piąta kolumna, wiersz zaczynający się od −2) oraz <strong>5</strong> i <strong>3</strong> (dolny wiersz). Wszystkie działania są wtedy poprawne.</p><p>Poziomo: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>13</mn><mo>+</mo><mn>0</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>13</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>+</mo><mn>6</mn><mo>:</mo><mo>(</mo><mo>−</mo><mn>3</mn><mo>)</mo><mo>=</mo><mn>4</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>2</mn><mo>+</mo><mn>5</mn><mo>−</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>5</mn></math>.</p><p>Pionowo: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>13</mn><mo>−</mo><mn>6</mn><mo>−</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>9</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>·</mo><mn>6</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>5</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>−</mo><mo>(</mo><mo>−</mo><mn>3</mn><mo>)</mo><mo>+</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>3</mn></math>.</p><p><em>Za każdą poprawnie wpisaną liczbę 1 punkt, w sumie 6 punktów.</em></p>",
+        "model": {
+          "answer": "wiersz1,kol3=0; wiersz3,kol1=6; wiersz3,kol5=−3; wiersz5,kol5=−2; wiersz7,kol3=5; wiersz7,kol5=3",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -43,7 +48,12 @@
       "figures": [],
       "answer": {
         "correct": "a) (2 + 2) · 5 + 36 : (6 + 3) = 24;  b) 30 : 2 + (7 · 5 − 8) : (8 − 5) = 24",
-        "solution_html": "<p>a) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>2</mn><mo>+</mo><mn>2</mn><mo>)</mo><mo>·</mo><mn>5</mn><mo>+</mo><mn>36</mn><mo>:</mo><mo>(</mo><mn>6</mn><mo>+</mo><mn>3</mn><mo>)</mo><mo>=</mo><mn>20</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>24</mn></math></p><p>b) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>:</mo><mn>2</mn><mo>+</mo><mo>(</mo><mn>7</mn><mo>·</mo><mn>5</mn><mo>−</mo><mn>8</mn><mo>)</mo><mo>:</mo><mo>(</mo><mn>8</mn><mo>−</mo><mn>5</mn><mo>)</mo><mo>=</mo><mn>15</mn><mo>+</mo><mn>9</mn><mo>=</mo><mn>24</mn></math></p><p><em>2 punkty za wstawienie nawiasów w obu wyrażeniach; 1 punkt za jedno wyrażenie.</em></p>"
+        "solution_html": "<p>a) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>2</mn><mo>+</mo><mn>2</mn><mo>)</mo><mo>·</mo><mn>5</mn><mo>+</mo><mn>36</mn><mo>:</mo><mo>(</mo><mn>6</mn><mo>+</mo><mn>3</mn><mo>)</mo><mo>=</mo><mn>20</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>24</mn></math></p><p>b) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>:</mo><mn>2</mn><mo>+</mo><mo>(</mo><mn>7</mn><mo>·</mo><mn>5</mn><mo>−</mo><mn>8</mn><mo>)</mo><mo>:</mo><mo>(</mo><mn>8</mn><mo>−</mo><mn>5</mn><mo>)</mo><mo>=</mo><mn>15</mn><mo>+</mo><mn>9</mn><mo>=</mo><mn>24</mn></math></p><p><em>2 punkty za wstawienie nawiasów w obu wyrażeniach; 1 punkt za jedno wyrażenie.</em></p>",
+        "model": {
+          "answer": "a) (2+2)·5+36:(6+3)=24; b) 30:2+(7·5−8):(8−5)=24",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -77,7 +87,12 @@
       "figures": [],
       "answer": {
         "correct": "C",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "C",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -111,7 +126,12 @@
       "figures": [],
       "answer": {
         "correct": "A",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "A",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -145,7 +165,12 @@
       "figures": [],
       "answer": {
         "correct": "B",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "B",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -179,7 +204,12 @@
       "figures": [],
       "answer": {
         "correct": "D",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "D",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -215,7 +245,12 @@
       ],
       "answer": {
         "correct": "D",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "D",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -249,7 +284,12 @@
       "figures": [],
       "answer": {
         "correct": "D",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "D",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -283,7 +323,12 @@
       "figures": [],
       "answer": {
         "correct": "D",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "D",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -317,7 +362,12 @@
       "figures": [],
       "answer": {
         "correct": "B",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "B",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -352,7 +402,12 @@
       "figures": [],
       "answer": {
         "correct": "B",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "B",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -386,7 +441,12 @@
       "figures": [],
       "answer": {
         "correct": "B",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "B",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -420,7 +480,12 @@
       "figures": [],
       "answer": {
         "correct": "B",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "B",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -454,7 +519,12 @@
       "figures": [],
       "answer": {
         "correct": "C",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "C",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -488,7 +558,12 @@
       "figures": [],
       "answer": {
         "correct": "A",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "A",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -522,7 +597,12 @@
       "figures": [],
       "answer": {
         "correct": "A",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "A",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -541,7 +621,12 @@
       ],
       "answer": {
         "correct": "1. Litwa – Wilno; 2. Białoruś – Mińsk; 3. Ukraina – Kijów; 4. Słowacja – Bratysława; 5. Niemcy – Berlin",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "1. Litwa – Wilno; 2. Białoruś – Mińsk; 3. Ukraina – Kijów; 4. Czechy – Praga; 5. Niemcy – Berlin",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -558,7 +643,12 @@
       "figures": [],
       "answer": {
         "correct": "Sudety: najwyższe pasmo Karkonosze, szczyt Śnieżka, wysokość 1602 m n.p.m., osobliwość grzyby skalne. Karpaty: najwyższe pasmo Tatry, szczyt Rysy, wysokość 2499 m n.p.m., osobliwość Siklawa. Góry Świętokrzyskie: najwyższe pasmo Łysogóry, szczyt Łysica, wysokość 612 m n.p.m., osobliwość Jaskinia Raj.",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "Sudety: Karkonosze, Śnieżka, 1602 m n.p.m., skalne grzyby; Karpaty: Tatry, Rysy, 2499 m n.p.m., Siklawa; Góry Świętokrzyskie: Łysogóry, Łysica, 612 m n.p.m., Jaskinia Raj",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -575,7 +665,12 @@
       "figures": [],
       "answer": {
         "correct": "A – 4 (Białowieski PN); B – 3 (Słowiński PN); C – 1 (Kampinoski PN); D – 5 (Woliński PN). Niewykorzystany: 2 (Biebrzański PN).",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "A-4, B-3, C-1, D-5",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -609,7 +704,12 @@
       "figures": [],
       "answer": {
         "correct": "PFFP",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "PFFP",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -643,7 +743,12 @@
       "figures": [],
       "answer": {
         "correct": "FFPP",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "FFPP",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -661,7 +766,12 @@
       "figures": [],
       "answer": {
         "correct": "1534 m²",
-        "solution_html": "<p>Powierzchnia działki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>18,4</mn></math> ara <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>1840</mn></math> m². W skali 1 : 100 na planie 12 cm odpowiada 12 m, a 14 cm odpowiada 14 m w rzeczywistości, więc pole domu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>·</mo><mn>14</mn><mo>=</mo><mn>168</mn></math> m². Pole chodników z wjazdem: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>40</mn></mfrac><mo>·</mo><mn>1840</mn><mo>=</mo><mn>138</mn></math> m². Na ogród pozostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1840</mn><mo>−</mo><mn>168</mn><mo>−</mo><mn>138</mn><mo>=</mo><mn>1534</mn></math> m².</p>"
+        "solution_html": "<p>Powierzchnia działki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>18,4</mn></math> ara <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>1840</mn></math> m². W skali 1 : 100 na planie 12 cm odpowiada 12 m, a 14 cm odpowiada 14 m w rzeczywistości, więc pole domu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>·</mo><mn>14</mn><mo>=</mo><mn>168</mn></math> m². Pole chodników z wjazdem: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>40</mn></mfrac><mo>·</mo><mn>1840</mn><mo>=</mo><mn>138</mn></math> m². Na ogród pozostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1840</mn><mo>−</mo><mn>168</mn><mo>−</mo><mn>138</mn><mo>=</mo><mn>1534</mn></math> m².</p>",
+        "model": {
+          "answer": "1534 m²",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -678,7 +788,12 @@
       "figures": [],
       "answer": {
         "correct": "W pierwszym pojemniku 172 kg, w drugim 28 kg.",
-        "solution_html": "<p>Po odsypaniu 124 kg w obu pojemnikach zostało łącznie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>200</mn><mo>−</mo><mn>124</mn><mo>=</mo><mn>76</mn></math> kg. Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza ilość ryżu w drugim pojemniku; wtedy w pierwszym pozostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>20</mn></math>. Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>20</mn><mo>+</mo><mi>x</mi><mo>=</mo><mn>76</mn></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>=</mo><mn>56</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>28</mn></math> kg. W pierwszym pojemniku było początkowo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>28</mn><mo>+</mo><mn>20</mn><mo>)</mo><mo>+</mo><mn>124</mn><mo>=</mo><mn>172</mn></math> kg, a w drugim 28 kg.</p>"
+        "solution_html": "<p>Po odsypaniu 124 kg w obu pojemnikach zostało łącznie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>200</mn><mo>−</mo><mn>124</mn><mo>=</mo><mn>76</mn></math> kg. Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza ilość ryżu w drugim pojemniku; wtedy w pierwszym pozostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>20</mn></math>. Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>20</mn><mo>+</mo><mi>x</mi><mo>=</mo><mn>76</mn></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>=</mo><mn>56</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>28</mn></math> kg. W pierwszym pojemniku było początkowo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>28</mn><mo>+</mo><mn>20</mn><mo>)</mo><mo>+</mo><mn>124</mn><mo>=</mo><mn>172</mn></math> kg, a w drugim 28 kg.</p>",
+        "model": {
+          "answer": "I pojemnik: 172 kg, II pojemnik: 28 kg",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     }
   ]

@@ -30,7 +30,13 @@
       "figures": [],
       "answer": {
         "correct": null,
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "C",
+          "by": "sonnet",
+          "agrees": null,
+          "solution_html": "<p>Cykl cyfr jedności: 3<sup>n</sup>: 3,9,7,1 (okres 4); 4<sup>n</sup>: 4,6 (okres 2); 5<sup>n</sup>: zawsze 5.</p><p>2020 dzieli się przez 4, więc 3<sup>2020</sup> kończy się na 1; 2020 parzyste, więc 4<sup>2020</sup> kończy się na 6; 5<sup>2020</sup> kończy się na 5.</p><p>1+6+5=12 → cyfra jedności to 2.</p>"
+        }
       }
     },
     {
@@ -52,7 +58,13 @@
       "figures": [],
       "answer": {
         "correct": null,
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "C",
+          "by": "sonnet",
+          "agrees": null,
+          "solution_html": "<p>Niech wszystkich cukierków będzie 100: 20 kawowych, 80 owocowych.</p><p>Zjedzono 20% z 20 = 4 kawowych (zostało 16) oraz 80% z 80 = 64 owocowych (zostało 16).</p><p>Pozostało 32 cukierki, w tym 16 owocowych: 16/32=50%.</p>"
+        }
       }
     },
     {
@@ -74,7 +86,13 @@
       "figures": [],
       "answer": {
         "correct": null,
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "B",
+          "by": "sonnet",
+          "agrees": null,
+          "solution_html": "<p>Niech x = kwota otrzymana przez każde z nich. Ewie zostaje kolejno: 3x/4 → x/2 → x/4.</p><p>Adamowi zostaje: x−40−30−20 = x−90.</p><p>x/4 = x−90 ⟹ 3x/4=90 ⟹ x=120 zł.</p>"
+        }
       }
     },
     {
@@ -96,7 +114,13 @@
       "figures": [],
       "answer": {
         "correct": null,
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "D",
+          "by": "sonnet",
+          "agrees": null,
+          "solution_html": "<p>Licznik: 9<sup>6</sup>=3<sup>12</sup>, 81<sup>2</sup>·9<sup>3</sup>=3<sup>8</sup>·3<sup>6</sup>=3<sup>14</sup>. Suma = 3<sup>12</sup>(1+9)=10·3<sup>12</sup>.</p><p>Mianownik: 3<sup>10</sup> − 9<sup>9</sup> + 27<sup>6</sup> = 3<sup>10</sup> − 3<sup>18</sup> + 3<sup>18</sup> = 3<sup>10</sup>.</p><p>Wynik: 10·3<sup>12</sup>/3<sup>10</sup> = 10·3<sup>2</sup> = 90.</p>"
+        }
       }
     },
     {
@@ -119,7 +143,13 @@
       "figures": [],
       "answer": {
         "correct": null,
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "C",
+          "by": "sonnet",
+          "agrees": null,
+          "solution_html": "<p>20 kwiatów: 14 goździków, 6 róż; 11 czerwonych, 9 białych.</p><p>Białe goździki = 14 − (czerwone goździki). Aby zminimalizować białe goździki, maksymalizujemy czerwone goździki: co najwyżej 11 (tyle ile jest czerwonych łącznie), wtedy wszystkie róże są białe (6 białych róż).</p><p>Białe goździki = 14−11=3 (sprawdzenie: białe razem 3+6=9 ✓).</p>"
+        }
       }
     },
     {
@@ -141,7 +171,13 @@
       "figures": [],
       "answer": {
         "correct": null,
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "B",
+          "by": "sonnet",
+          "agrees": null,
+          "solution_html": "<p>P(kostka&lt;3)=2/6=1/3 → pudełko niebieskie, P(wygrana|niebieskie)=6/8=3/4.</p><p>P(kostka≥3)=4/6=2/3 → pudełko żółte, P(wygrana|żółte)=2/8=1/4.</p><p>P(wygrana) = 1/3·3/4 + 2/3·1/4 = 1/4+1/6 = 5/12.</p>"
+        }
       }
     },
     {
@@ -164,7 +200,13 @@
       "figures": [],
       "answer": {
         "correct": null,
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "A",
+          "by": "sonnet",
+          "agrees": null,
+          "solution_html": "<p>Jedyny (z dokładnością do podobieństwa) trapez równoramienny, w którym dowolne 3 wierzchołki tworzą trójkąt równoramienny, to trapez powstały z 4 kolejnych wierzchołków pięciokąta foremnego: krótsza podstawa = ramię, a przekątna = dłuższa podstawa.</p><p>Obliczenia (np. z twierdzenia cosinusów) dają kąt ostry = 72°, kąt rozwarty = 108°.</p><p>Zatem zdanie „kąt ostry ma miarę 36°” jest fałszywe (poprawnie 72°); pozostałe zdania (108°, podstawa=ramię, podstawa=przekątna) są prawdziwe.</p>"
+        }
       }
     },
     {
@@ -188,7 +230,13 @@
       "figures": [],
       "answer": {
         "correct": null,
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "D",
+          "by": "sonnet",
+          "agrees": null,
+          "solution_html": "<p>Niech kąt rozwarty = 4x (podzielony na 4 równe kąty x). W trójkącie utworzonym przez bok i wysokość: kąt między bokiem a przekątną wynosi 4x−90° (bo kąt przy drugim wierzchołku rombu = 180°−4x). Z warunku 4x−90=x ⟹ x=30°, kąt rozwarty=120°, kąt ostry=60° (A prawda).</p><p>Trójkąt utworzony przez przekątną i dwa boki jest wtedy równoboczny (kąt 60° między bokami równymi a), więc przekątna = a (B prawda), a wysokość rombu = wysokość trójkąta równobocznego = a√3/2 (C prawda).</p><p>Pole rombu = a²sin60° = a²√3/2 (nie a²√3/4) — zdanie D jest fałszywe.</p>"
+        }
       }
     },
     {
@@ -211,7 +259,13 @@
       "figures": [],
       "answer": {
         "correct": null,
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "C",
+          "by": "sonnet",
+          "agrees": null,
+          "solution_html": "<p>Wysokość poprowadzona z kąta prostego: h = √(2·8) = 4 cm. Przeciwprostokątna = 10 cm.</p><p>Pole = (1/2)·10·4 = 20 cm².</p>"
+        }
       }
     },
     {
@@ -235,7 +289,13 @@
       "figures": [],
       "answer": {
         "correct": null,
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "B",
+          "by": "sonnet",
+          "agrees": null,
+          "solution_html": "<p>Przekątna AC dzieli kąty przy A i C na po dwa kąty; kąty te są kątami trójkątów ABC oraz ACD. W jednym trójkącie mogą być co najwyżej 1 kąt prosty, więc w trójkącie ABC ≤1 z kątów (BAC, BCA) jest prosty i analogicznie w ACD ≤1 z (DAC, DCA).</p><p>Łącznie więc co najwyżej 2 kąty proste — i da się to osiągnąć (np. BAC=90° i DCA=90° niezależnie). Odpowiedź: co najwyżej dwa kąty.</p>"
+        }
       }
     },
     {
@@ -252,7 +312,13 @@
       "figures": [],
       "answer": {
         "correct": null,
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "0",
+          "by": "sonnet",
+          "agrees": null,
+          "solution_html": "<p>20202020 = 2020·10001, 20192019 = 2019·10001.</p><p>2019·(2020·10001) − 2020·(2019·10001) = 2019·2020·10001 − 2020·2019·10001 = 0.</p>"
+        }
       }
     },
     {
@@ -270,7 +336,13 @@
       "figures": [],
       "answer": {
         "correct": null,
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "Dowód: k=5m+2 ⇒ k²=25m²+20m+4, więc k²≡4 (mod 5), zatem 3k²≡12≡2 (mod 5) — reszta z dzielenia 3k² przez 5 zawsze wynosi 2.",
+          "by": "sonnet",
+          "agrees": null,
+          "solution_html": "<p>Niech k=5m+2 dla pewnej liczby całkowitej m. Wtedy k²=25m²+20m+4=5(5m²+4m)+4, więc k² daje resztę 4 z dzielenia przez 5.</p><p>3k²=3(5(5m²+4m)+4)=5·3(5m²+4m)+12=5·(...)+10+2, czyli 3k² daje resztę 2 z dzielenia przez 5. Q.E.D.</p>"
+        }
       }
     },
     {
@@ -288,7 +360,13 @@
       "figures": [],
       "answer": {
         "correct": null,
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "Dowód: liczba czterocyfrowa = 100(10a+b)+(10b+a) = 1001a+110b = 11(91a+10b), więc jest podzielna przez 11.",
+          "by": "sonnet",
+          "agrees": null,
+          "solution_html": "<p>Niech liczba dwucyfrowa ma postać 10a+b (a≠0), jej lustrzane odbicie to 10b+a.</p><p>Liczba czterocyfrowa: (10a+b)·100+(10b+a)=1000a+100b+10b+a=1001a+110b=11(91a+10b), co jest podzielne przez 11.</p>"
+        }
       }
     },
     {
@@ -306,7 +384,13 @@
       "figures": [],
       "answer": {
         "correct": null,
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "x = 1/2",
+          "by": "sonnet",
+          "agrees": null,
+          "solution_html": "<p>Wzór skróconego mnożenia: (x+2<sup>2019</sup>)²−(x−2<sup>2019</sup>)² = [2·2<sup>2019</sup>]·[2x] = 2<sup>2021</sup>x.</p><p>2<sup>2021</sup>x = 2<sup>2020</sup> ⟹ x = 2<sup>2020</sup>/2<sup>2021</sup> = 1/2.</p>"
+        }
       }
     },
     {
@@ -327,7 +411,13 @@
       ],
       "answer": {
         "correct": null,
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "6√5",
+          "by": "sonnet",
+          "agrees": null,
+          "solution_html": "<p>Pole kwadratu ABCD = 81, dzieli się na 9 równych części (KLMN + 4+4 prostokątów), każda o polu 9, więc bok KLMN = 3.</p><p>Zewnętrzny „wiatraczek”: bok dużego kwadratu 9 = p+q, pole prostokąta pq=9, stąd (p−q)²=(p+q)²−4pq=81−36=45, czyli bok wewnętrznego kwadratu SPQR = p−q = 3√5.</p><p>Wewnętrzny „wiatraczek” wewnątrz SPQR: bok 3√5 = r+s (wymiary zacieniowanego prostokąta), rs=9, (r−s)²=45−36=9 ⟹ r−s=3 (zgodne z bokiem KLMN=3, co potwierdza spójność).</p><p>Obwód zacieniowanego prostokąta = 2(r+s) = 2·3√5 = 6√5.</p>"
+        }
       }
     },
     {
@@ -345,7 +435,13 @@
       "figures": [],
       "answer": {
         "correct": null,
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "Kąt ACB = 90°, więc trójkąt ABC jest prostokątny (kąt A=60°, kąt B=30°, kąt C=90°).",
+          "by": "sonnet",
+          "agrees": null,
+          "solution_html": "<p>Niech AD:DB=1:3, AD=t, DB=3t. W trójkącie prostokątnym BDC: kąt B=30°, więc CD=DB·tan30°=3t/√3=t√3.</p><p>W trójkącie prostokątnym ADC: tan(∠DAC)=CD/AD=t√3/t=√3, więc ∠A=60°.</p><p>Wtedy ∠ACB=180°−30°−60°=90° — trójkąt ABC jest prostokątny (kąt prosty przy C).</p>"
+        }
       }
     },
     {
@@ -364,7 +460,13 @@
       ],
       "answer": {
         "correct": null,
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "4",
+          "by": "sonnet",
+          "agrees": null,
+          "solution_html": "<p>Kąty przy C są proste, więc CA,CB,CS są parami prostopadłe. Niech CA=x, CB=y, CS=z.</p><p>Pola: (1/2)xy=3 ⟹ xy=6; (1/2)yz=4 ⟹ yz=8; (1/2)zx=6 ⟹ zx=12.</p><p>(xyz)²=6·8·12=576 ⟹ xyz=24, stąd x=3, y=2, z=4.</p><p>Objętość = (1/6)xyz = (1/6)·24 = 4.</p>"
+        }
       }
     },
     {
@@ -381,7 +483,13 @@
       "figures": [],
       "answer": {
         "correct": null,
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "125 minut (2 godz. 5 min)",
+          "by": "sonnet",
+          "agrees": null,
+          "solution_html": "<p>Objętość kropli (promień 3 mm): V=(4/3)π·3³=36π mm³. 20 kropli/min ⟹ 720π mm³/min.</p><p>Objętość naczynia (walec, promień 30 mm, wysokość 100 mm): V=π·30²·100=90000π mm³.</p><p>Czas = 90000π / 720π = 125 minut = 2 godziny 5 minut.</p>"
+        }
       }
     }
   ]

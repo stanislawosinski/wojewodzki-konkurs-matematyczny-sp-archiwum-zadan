@@ -37,7 +37,12 @@
       "figures": [],
       "answer": {
         "correct": "FPF",
-        "solution_html": "<p>Podwyżka o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>p</mi><mo>%</mo></mrow></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mo>·</mo><mi>p</mi></mrow><mn>100</mn></mfrac></math> zł, więc nowa cena to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mfrac><mrow><mi>a</mi><mo>·</mo><mi>p</mi></mrow><mn>100</mn></mfrac></mrow></math> zł. Pierwsze wyrażenie to sama podwyżka, a nie cena (NIE); drugie to poprawna nowa cena (TAK); trzecie jest błędne (NIE).</p>"
+        "solution_html": "<p>Podwyżka o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>p</mi><mo>%</mo></mrow></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mo>·</mo><mi>p</mi></mrow><mn>100</mn></mfrac></math> zł, więc nowa cena to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mfrac><mrow><mi>a</mi><mo>·</mo><mi>p</mi></mrow><mn>100</mn></mfrac></mrow></math> zł. Pierwsze wyrażenie to sama podwyżka, a nie cena (NIE); drugie to poprawna nowa cena (TAK); trzecie jest błędne (NIE).</p>",
+        "model": {
+          "answer": "FPF",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -68,7 +73,12 @@
       "figures": [],
       "answer": {
         "correct": "FFP",
-        "solution_html": "<p>Niech wysokość wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math>; wtedy bok ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,5</mn><mi>h</mi></mrow></math>. Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>1,5</mn><mi>h</mi><mo>·</mo><mi>h</mi><mo>=</mo><mn>0,75</mn><msup><mi>h</mi><mn>2</mn></msup><mo>=</mo><mn>27</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>h</mi><mn>2</mn></msup><mo>=</mo><mn>36</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><mn>6</mn></mrow></math> m, a bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>=</mo><mn>9</mn></mrow></math> m. Podane w zdaniach wartości (32,4 m i 21,6 m) są więc błędne — obie odpowiedzi to NIE. Po dwukrotnym powiększeniu boku i wysokości pole rośnie czterokrotnie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><mn>27</mn><mo>=</mo><mn>108</mn></mrow></math> m², a to więcej niż 1 ar <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>=</mo><mn>100</mn></mrow></math> m² — TAK. (W kluczu odpowiedzi treści zdań 1 i 2 mają inne, także błędne wartości — 21,6 m i 14,4 m; poprawne to 9 m i 6 m, więc w obu wersjach odpowiedzi brzmią NIE, NIE, TAK.)</p>"
+        "solution_html": "<p>Niech wysokość wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math>; wtedy bok ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,5</mn><mi>h</mi></mrow></math>. Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>1,5</mn><mi>h</mi><mo>·</mo><mi>h</mi><mo>=</mo><mn>0,75</mn><msup><mi>h</mi><mn>2</mn></msup><mo>=</mo><mn>27</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>h</mi><mn>2</mn></msup><mo>=</mo><mn>36</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><mn>6</mn></mrow></math> m, a bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>=</mo><mn>9</mn></mrow></math> m. Podane w zdaniach wartości (32,4 m i 21,6 m) są więc błędne — obie odpowiedzi to NIE. Po dwukrotnym powiększeniu boku i wysokości pole rośnie czterokrotnie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><mn>27</mn><mo>=</mo><mn>108</mn></mrow></math> m², a to więcej niż 1 ar <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>=</mo><mn>100</mn></mrow></math> m² — TAK. (W kluczu odpowiedzi treści zdań 1 i 2 mają inne, także błędne wartości — 21,6 m i 14,4 m; poprawne to 9 m i 6 m, więc w obu wersjach odpowiedzi brzmią NIE, NIE, TAK.)</p>",
+        "model": {
+          "answer": "FFP",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -99,7 +109,12 @@
       "figures": [],
       "answer": {
         "correct": "FPP",
-        "solution_html": "<p>W trapezie równoramiennym o prostopadłych przekątnych wysokość jest równa średniej długości podstaw: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mn>2</mn></mfrac></mrow></math> (przekątne wraz z podstawami tworzą trójkąty prostokątne równoramienne). Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>2</mn><mi>h</mi><mo>=</mo><mn>20</mn></mrow></math> cm — suma podstaw jest znana (TAK). Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mi>h</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>20</mn><mo>·</mo><mn>10</mn><mo>=</mo><mn>100</mn></mrow></math> cm² (TAK). Danych zatem wystarcza — pierwsze zdanie NIE.</p>"
+        "solution_html": "<p>W trapezie równoramiennym o prostopadłych przekątnych wysokość jest równa średniej długości podstaw: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mn>2</mn></mfrac></mrow></math> (przekątne wraz z podstawami tworzą trójkąty prostokątne równoramienne). Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>2</mn><mi>h</mi><mo>=</mo><mn>20</mn></mrow></math> cm — suma podstaw jest znana (TAK). Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mi>h</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>20</mn><mo>·</mo><mn>10</mn><mo>=</mo><mn>100</mn></mrow></math> cm² (TAK). Danych zatem wystarcza — pierwsze zdanie NIE.</p>",
+        "model": {
+          "answer": "FPP",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -129,7 +144,12 @@
       "figures": [],
       "answer": {
         "correct": "FPF",
-        "solution_html": "<p>Najmniejsze trzy różne liczby pierwsze to 2, 3, 5, a ich suma wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>10</mn></mrow></math>. Suma 6 jest za mała (NIE). Suma 10 jest osiągalna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>5</mn></mrow></math> (TAK). Suma 11 (nieparzysta) jest niemożliwa: jeśli nie użyjemy liczby 2, najmniejsza suma trzech różnych nieparzystych liczb pierwszych to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>+</mo><mn>5</mn><mo>+</mo><mn>7</mn><mo>=</mo><mn>15</mn></mrow></math>, a jeśli użyjemy liczby 2, suma jest parzysta (NIE).</p>"
+        "solution_html": "<p>Najmniejsze trzy różne liczby pierwsze to 2, 3, 5, a ich suma wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>10</mn></mrow></math>. Suma 6 jest za mała (NIE). Suma 10 jest osiągalna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>5</mn></mrow></math> (TAK). Suma 11 (nieparzysta) jest niemożliwa: jeśli nie użyjemy liczby 2, najmniejsza suma trzech różnych nieparzystych liczb pierwszych to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>+</mo><mn>5</mn><mo>+</mo><mn>7</mn><mo>=</mo><mn>15</mn></mrow></math>, a jeśli użyjemy liczby 2, suma jest parzysta (NIE).</p>",
+        "model": {
+          "answer": "FPF",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -159,7 +179,12 @@
       "figures": [],
       "answer": {
         "correct": "PFF",
-        "solution_html": "<p>Strony 1–9 to 9 cyfr, strony 10–99 to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>90</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>180</mn></mrow></math> cyfr, razem 189. Pozostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>255</mn><mo>−</mo><mn>189</mn><mo>=</mo><mn>66</mn></mrow></math> cyfr, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>66</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>22</mn></mrow></math> strony trzycyfrowe (100–121). Książka ma więc 121 stron (TAK). Cyfrę 0 zapisano 22 razy — 9 razy w liczbach 10–99 oraz 13 razy w 100–121 — a nie 21 (NIE). Cyfrę 1 zapisano 55 razy: 13 na miejscu jedności, 20 na miejscu dziesiątek i 22 na miejscu setek — a nie 63 (NIE).</p>"
+        "solution_html": "<p>Strony 1–9 to 9 cyfr, strony 10–99 to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>90</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>180</mn></mrow></math> cyfr, razem 189. Pozostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>255</mn><mo>−</mo><mn>189</mn><mo>=</mo><mn>66</mn></mrow></math> cyfr, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>66</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>22</mn></mrow></math> strony trzycyfrowe (100–121). Książka ma więc 121 stron (TAK). Cyfrę 0 zapisano 22 razy — 9 razy w liczbach 10–99 oraz 13 razy w 100–121 — a nie 21 (NIE). Cyfrę 1 zapisano 55 razy: 13 na miejscu jedności, 20 na miejscu dziesiątek i 22 na miejscu setek — a nie 63 (NIE).</p>",
+        "model": {
+          "answer": "PFF",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -176,7 +201,12 @@
       "figures": [],
       "answer": {
         "correct": "80%",
-        "solution_html": "<p>Przyjmijmy, że książek historycznych jest 6 jednostek. Wtedy o II wojnie światowej jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>6</mn></mfrac></math> z nich, czyli 1 jednostka, a pozostałych historycznych 5 jednostek. Książek o II wojnie jest o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>−</mo><mn>1</mn><mo>=</mo><mn>4</mn></mrow></math> jednostki mniej niż pozostałych, co stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>4</mn><mn>5</mn></mfrac><mo>·</mo><mn>100</mn><mo>%</mo><mo>=</mo><mn>80</mn><mo>%</mo></mrow></math> liczby pozostałych historycznych. Odpowiedź: o 80% mniej.</p>"
+        "solution_html": "<p>Przyjmijmy, że książek historycznych jest 6 jednostek. Wtedy o II wojnie światowej jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>6</mn></mfrac></math> z nich, czyli 1 jednostka, a pozostałych historycznych 5 jednostek. Książek o II wojnie jest o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>−</mo><mn>1</mn><mo>=</mo><mn>4</mn></mrow></math> jednostki mniej niż pozostałych, co stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>4</mn><mn>5</mn></mfrac><mo>·</mo><mn>100</mn><mo>%</mo><mo>=</mo><mn>80</mn><mo>%</mo></mrow></math> liczby pozostałych historycznych. Odpowiedź: o 80% mniej.</p>",
+        "model": {
+          "answer": "80%",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -193,7 +223,12 @@
       "figures": [],
       "answer": {
         "correct": "7 lat",
-        "solution_html": "<p>Niech prababcia ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> lat. Prawnuczek ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> miesięcy, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>x</mi><mn>12</mn></mfrac></math> lat. Razem: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mfrac><mi>x</mi><mn>12</mn></mfrac><mo>=</mo><mn>91</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>13</mn><mi>x</mi></mrow><mn>12</mn></mfrac><mo>=</mo><mn>91</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>84</mn></mrow></math>. Prababcia ma 84 lata, a prawnuczek 84 miesiące, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>84</mn><mo>:</mo><mn>12</mn><mo>=</mo><mn>7</mn></mrow></math> lat.</p>"
+        "solution_html": "<p>Niech prababcia ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> lat. Prawnuczek ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> miesięcy, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>x</mi><mn>12</mn></mfrac></math> lat. Razem: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mfrac><mi>x</mi><mn>12</mn></mfrac><mo>=</mo><mn>91</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>13</mn><mi>x</mi></mrow><mn>12</mn></mfrac><mo>=</mo><mn>91</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>84</mn></mrow></math>. Prababcia ma 84 lata, a prawnuczek 84 miesiące, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>84</mn><mo>:</mo><mn>12</mn><mo>=</mo><mn>7</mn></mrow></math> lat.</p>",
+        "model": {
+          "answer": "7 lat",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -211,7 +246,12 @@
       "figures": [],
       "answer": {
         "correct": "52 cm",
-        "solution_html": "<p>Z pola trapezu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mo>·</mo><mn>8</mn><mo>=</mo><mn>128</mn></mrow></math>, stąd suma podstaw <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>32</mn></mrow></math> cm. Rzut ramienia na podstawę wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mrow><msup><mn>10</mn><mn>2</mn></msup><mo>−</mo><msup><mn>8</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>36</mn></msqrt><mo>=</mo><mn>6</mn></mrow></math> cm, więc różnica podstaw <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>−</mo><mi>b</mi><mo>=</mo><mn>2</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>12</mn></mrow></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>22</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>10</mn></mrow></math>. Obwód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mn>2</mn><mo>·</mo><mn>10</mn><mo>=</mo><mn>32</mn><mo>+</mo><mn>20</mn><mo>=</mo><mn>52</mn></mrow></math> cm.</p>"
+        "solution_html": "<p>Z pola trapezu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mo>·</mo><mn>8</mn><mo>=</mo><mn>128</mn></mrow></math>, stąd suma podstaw <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>32</mn></mrow></math> cm. Rzut ramienia na podstawę wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mrow><msup><mn>10</mn><mn>2</mn></msup><mo>−</mo><msup><mn>8</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>36</mn></msqrt><mo>=</mo><mn>6</mn></mrow></math> cm, więc różnica podstaw <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>−</mo><mi>b</mi><mo>=</mo><mn>2</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>12</mn></mrow></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>22</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>10</mn></mrow></math>. Obwód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mn>2</mn><mo>·</mo><mn>10</mn><mo>=</mo><mn>32</mn><mo>+</mo><mn>20</mn><mo>=</mo><mn>52</mn></mrow></math> cm.</p>",
+        "model": {
+          "answer": "52 cm",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -231,7 +271,12 @@
       ],
       "answer": {
         "correct": "572 cm²",
-        "solution_html": "<p>Najmniejszy kwadrat ma pole 4, więc jego bok wynosi 2. Oznaczmy bok środkowego górnego kwadratu (równego prawemu górnemu) przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>. Z rysunku kwadrat lewy górny ma bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>+</mo><mn>2</mn></mrow></math>, lewy dolny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>+</mo><mn>4</mn></mrow></math>, a prawy dolny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>+</mo><mn>6</mn></mrow></math>. Górny rząd ma szerokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>b</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>+</mo><mi>b</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>3</mn><mi>b</mi><mo>+</mo><mn>2</mn></mrow></math>, dolny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>b</mi><mo>+</mo><mn>4</mn><mo>)</mo><mo>+</mo><mo>(</mo><mi>b</mi><mo>+</mo><mn>6</mn><mo>)</mo><mo>=</mo><mn>2</mn><mi>b</mi><mo>+</mo><mn>10</mn></mrow></math>. Z równości szerokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>b</mi><mo>+</mo><mn>2</mn><mo>=</mo><mn>2</mn><mi>b</mi><mo>+</mo><mn>10</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>8</mn></mrow></math>. Boki kwadratów wynoszą więc 2, 8, 8, 10, 12, 14, a prostokąt ma wymiary <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>26</mn><mo>×</mo><mn>22</mn></mrow></math>. Pole prostokąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>26</mn><mo>·</mo><mn>22</mn><mo>=</mo><mn>572</mn></mrow></math> cm² (sprawdzenie sumą pól kwadratów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>+</mo><mn>64</mn><mo>+</mo><mn>64</mn><mo>+</mo><mn>100</mn><mo>+</mo><mn>144</mn><mo>+</mo><mn>196</mn><mo>=</mo><mn>572</mn></mrow></math>).</p>"
+        "solution_html": "<p>Najmniejszy kwadrat ma pole 4, więc jego bok wynosi 2. Oznaczmy bok środkowego górnego kwadratu (równego prawemu górnemu) przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>. Z rysunku kwadrat lewy górny ma bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>+</mo><mn>2</mn></mrow></math>, lewy dolny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>+</mo><mn>4</mn></mrow></math>, a prawy dolny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>+</mo><mn>6</mn></mrow></math>. Górny rząd ma szerokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>b</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>+</mo><mi>b</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>3</mn><mi>b</mi><mo>+</mo><mn>2</mn></mrow></math>, dolny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>b</mi><mo>+</mo><mn>4</mn><mo>)</mo><mo>+</mo><mo>(</mo><mi>b</mi><mo>+</mo><mn>6</mn><mo>)</mo><mo>=</mo><mn>2</mn><mi>b</mi><mo>+</mo><mn>10</mn></mrow></math>. Z równości szerokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>b</mi><mo>+</mo><mn>2</mn><mo>=</mo><mn>2</mn><mi>b</mi><mo>+</mo><mn>10</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>8</mn></mrow></math>. Boki kwadratów wynoszą więc 2, 8, 8, 10, 12, 14, a prostokąt ma wymiary <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>26</mn><mo>×</mo><mn>22</mn></mrow></math>. Pole prostokąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>26</mn><mo>·</mo><mn>22</mn><mo>=</mo><mn>572</mn></mrow></math> cm² (sprawdzenie sumą pól kwadratów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>+</mo><mn>64</mn><mo>+</mo><mn>64</mn><mo>+</mo><mn>100</mn><mo>+</mo><mn>144</mn><mo>+</mo><mn>196</mn><mo>=</mo><mn>572</mn></mrow></math>).</p>",
+        "model": {
+          "answer": "572",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -249,7 +294,12 @@
       "figures": [],
       "answer": {
         "correct": "150°",
-        "solution_html": "<p>Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABK</mi></math> jest równoboczny, a jego bok równa się bokowi kwadratu, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AK</mi><mo>=</mo><mi>BK</mi><mo>=</mo><mi>AD</mi><mo>=</mo><mi>BC</mi></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∡</mo><mi>KAB</mi><mo>=</mo><mn>60</mn><mo>°</mo></mrow></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∡</mo><mi>KAD</mi><mo>=</mo><mn>90</mn><mo>°</mo><mo>−</mo><mn>60</mn><mo>°</mo><mo>=</mo><mn>30</mn><mo>°</mo></mrow></math>. Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AKD</mi></math> jest równoramienny (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AK</mi><mo>=</mo><mi>AD</mi></mrow></math>), więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∡</mo><mi>AKD</mi><mo>=</mo><mfrac><mrow><mn>180</mn><mo>°</mo><mo>−</mo><mn>30</mn><mo>°</mo></mrow><mn>2</mn></mfrac><mo>=</mo><mn>75</mn><mo>°</mo></mrow></math>. Analogicznie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∡</mo><mi>BKC</mi><mo>=</mo><mn>75</mn><mo>°</mo></mrow></math>. Kąty przy punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> dają pełny kąt, więc kąt wypukły <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∡</mo><mi>CKD</mi><mo>=</mo><mn>360</mn><mo>°</mo><mo>−</mo><mo>∡</mo><mi>AKB</mi><mo>−</mo><mo>∡</mo><mi>AKD</mi><mo>−</mo><mo>∡</mo><mi>BKC</mi><mo>=</mo><mn>360</mn><mo>°</mo><mo>−</mo><mn>60</mn><mo>°</mo><mo>−</mo><mn>75</mn><mo>°</mo><mo>−</mo><mn>75</mn><mo>°</mo><mo>=</mo><mn>150</mn><mo>°</mo></mrow></math>.</p>"
+        "solution_html": "<p>Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABK</mi></math> jest równoboczny, a jego bok równa się bokowi kwadratu, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AK</mi><mo>=</mo><mi>BK</mi><mo>=</mo><mi>AD</mi><mo>=</mo><mi>BC</mi></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∡</mo><mi>KAB</mi><mo>=</mo><mn>60</mn><mo>°</mo></mrow></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∡</mo><mi>KAD</mi><mo>=</mo><mn>90</mn><mo>°</mo><mo>−</mo><mn>60</mn><mo>°</mo><mo>=</mo><mn>30</mn><mo>°</mo></mrow></math>. Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AKD</mi></math> jest równoramienny (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AK</mi><mo>=</mo><mi>AD</mi></mrow></math>), więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∡</mo><mi>AKD</mi><mo>=</mo><mfrac><mrow><mn>180</mn><mo>°</mo><mo>−</mo><mn>30</mn><mo>°</mo></mrow><mn>2</mn></mfrac><mo>=</mo><mn>75</mn><mo>°</mo></mrow></math>. Analogicznie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∡</mo><mi>BKC</mi><mo>=</mo><mn>75</mn><mo>°</mo></mrow></math>. Kąty przy punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> dają pełny kąt, więc kąt wypukły <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∡</mo><mi>CKD</mi><mo>=</mo><mn>360</mn><mo>°</mo><mo>−</mo><mo>∡</mo><mi>AKB</mi><mo>−</mo><mo>∡</mo><mi>AKD</mi><mo>−</mo><mo>∡</mo><mi>BKC</mi><mo>=</mo><mn>360</mn><mo>°</mo><mo>−</mo><mn>60</mn><mo>°</mo><mo>−</mo><mn>75</mn><mo>°</mo><mo>−</mo><mn>75</mn><mo>°</mo><mo>=</mo><mn>150</mn><mo>°</mo></mrow></math>.</p>",
+        "model": {
+          "answer": "150°",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -266,7 +316,12 @@
       "figures": [],
       "answer": {
         "correct": "25 zł",
-        "solution_html": "<p>Niech większa ramka kosztuje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> zł. Ania ma wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>2,50</mn></mrow></math> zł. Mniejsza ramka kosztuje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>−</mo><mn>2</mn></mrow></math> zł, więc tę samą kwotę można zapisać jako <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>(</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>+</mo><mn>3</mn></mrow></math>. Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>2,50</mn><mo>=</mo><mn>4</mn><mo>(</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>+</mo><mn>3</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>2,50</mn><mo>=</mo><mn>4</mn><mi>x</mi><mo>−</mo><mn>5</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>7,50</mn></mrow></math>. Ania ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>7,50</mn><mo>+</mo><mn>2,50</mn><mo>=</mo><mn>25</mn></mrow></math> zł.</p>"
+        "solution_html": "<p>Niech większa ramka kosztuje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> zł. Ania ma wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>2,50</mn></mrow></math> zł. Mniejsza ramka kosztuje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>−</mo><mn>2</mn></mrow></math> zł, więc tę samą kwotę można zapisać jako <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>(</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>+</mo><mn>3</mn></mrow></math>. Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>2,50</mn><mo>=</mo><mn>4</mn><mo>(</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>+</mo><mn>3</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>2,50</mn><mo>=</mo><mn>4</mn><mi>x</mi><mo>−</mo><mn>5</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>7,50</mn></mrow></math>. Ania ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>7,50</mn><mo>+</mo><mn>2,50</mn><mo>=</mo><mn>25</mn></mrow></math> zł.</p>",
+        "model": {
+          "answer": "25 zł",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     }
   ]

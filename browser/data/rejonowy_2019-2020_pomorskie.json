@@ -24,7 +24,12 @@
       "figures": [],
       "answer": {
         "correct": "75%",
-        "solution_html": "<p>Kolejne liczby wyrażamy przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>3</mn><mi>a</mi></mrow></math> (o 200% większa), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><mn>2</mn><mi>b</mi><mo>=</mo><mn>6</mn><mi>a</mi></mrow></math> (o 100% większa od b), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>d</mi><mo>=</mo><mn>2</mn><mi>c</mi><mo>=</mo><mn>12</mn><mi>a</mi></mrow></math> (o 100% większa od c). Różnica <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>d</mi><mo>−</mo><mi>b</mi><mo>=</mo><mn>12</mn><mi>a</mi><mo>−</mo><mn>3</mn><mi>a</mi><mo>=</mo><mn>9</mn><mi>a</mi></mrow></math>, więc liczba b jest mniejsza od d o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>9</mn><mi>a</mi></mrow><mrow><mn>12</mn><mi>a</mi></mrow></mfrac><mo>·</mo><mn>100</mn><mo>%</mo><mo>=</mo><mn>75</mn><mo>%</mo></mrow></math>.</p><p>Odpowiedź: liczba b jest o 75% mniejsza od liczby d.</p><p><em>Częściowo (1 pkt): poprawne uzależnienie liczb b, c i d od liczby a.</em></p>"
+        "solution_html": "<p>Kolejne liczby wyrażamy przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>3</mn><mi>a</mi></mrow></math> (o 200% większa), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><mn>2</mn><mi>b</mi><mo>=</mo><mn>6</mn><mi>a</mi></mrow></math> (o 100% większa od b), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>d</mi><mo>=</mo><mn>2</mn><mi>c</mi><mo>=</mo><mn>12</mn><mi>a</mi></mrow></math> (o 100% większa od c). Różnica <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>d</mi><mo>−</mo><mi>b</mi><mo>=</mo><mn>12</mn><mi>a</mi><mo>−</mo><mn>3</mn><mi>a</mi><mo>=</mo><mn>9</mn><mi>a</mi></mrow></math>, więc liczba b jest mniejsza od d o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>9</mn><mi>a</mi></mrow><mrow><mn>12</mn><mi>a</mi></mrow></mfrac><mo>·</mo><mn>100</mn><mo>%</mo><mo>=</mo><mn>75</mn><mo>%</mo></mrow></math>.</p><p>Odpowiedź: liczba b jest o 75% mniejsza od liczby d.</p><p><em>Częściowo (1 pkt): poprawne uzależnienie liczb b, c i d od liczby a.</em></p>",
+        "model": {
+          "answer": "75%",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -41,7 +46,12 @@
       "figures": [],
       "answer": {
         "correct": "I beczka: 150 l, II beczka: 90 l",
-        "solution_html": "<p>Po obu przelaniach w każdej beczce jest po <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>240</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>120</mn></mrow></math> litrów wody. Cofając drugie przelanie (podwojenie zawartości pierwszej beczki): przed nim w pierwszej beczce było <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>120</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>60</mn></mrow></math> litrów, a w drugiej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>120</mn><mo>+</mo><mn>60</mn><mo>=</mo><mn>180</mn></mrow></math> litrów. Cofając pierwsze przelanie (podwojenie zawartości drugiej beczki): przed nim w drugiej beczce było <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>90</mn></mrow></math> litrów, a w pierwszej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>60</mn><mo>+</mo><mn>90</mn><mo>=</mo><mn>150</mn></mrow></math> litrów.</p><p>Odpowiedź: w pierwszej beczce jest 150 litrów wody, a w drugiej 90 litrów.</p><p><em>Częściowo: 1 pkt za zauważenie, że ostatecznie w beczkach jest po 120 litrów; 2 pkt za obliczenie zawartości beczek przed drugim przelaniem.</em></p>"
+        "solution_html": "<p>Po obu przelaniach w każdej beczce jest po <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>240</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>120</mn></mrow></math> litrów wody. Cofając drugie przelanie (podwojenie zawartości pierwszej beczki): przed nim w pierwszej beczce było <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>120</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>60</mn></mrow></math> litrów, a w drugiej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>120</mn><mo>+</mo><mn>60</mn><mo>=</mo><mn>180</mn></mrow></math> litrów. Cofając pierwsze przelanie (podwojenie zawartości drugiej beczki): przed nim w drugiej beczce było <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>90</mn></mrow></math> litrów, a w pierwszej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>60</mn><mo>+</mo><mn>90</mn><mo>=</mo><mn>150</mn></mrow></math> litrów.</p><p>Odpowiedź: w pierwszej beczce jest 150 litrów wody, a w drugiej 90 litrów.</p><p><em>Częściowo: 1 pkt za zauważenie, że ostatecznie w beczkach jest po 120 litrów; 2 pkt za obliczenie zawartości beczek przed drugim przelaniem.</em></p>",
+        "model": {
+          "answer": "150 litrów w pierwszej beczce i 90 litrów w drugiej",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -59,7 +69,12 @@
       "figures": [],
       "answer": {
         "correct": "|EB| = 2 cm",
-        "solution_html": "<p>Z trójkąta prostokątnego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDB</mi></math> (kąt prosty przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>) na mocy twierdzenia Pitagorasa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>|</mo><mi>CB</mi><mo>|</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>|</mo><mi>CD</mi><mo>|</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>|</mo><mi>DB</mi><mo>|</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mn>5</mn><mn>2</mn></msup><mo>+</mo><msup><mn>2,5</mn><mn>2</mn></msup><mo>=</mo><mfrac><mn>125</mn><mn>4</mn></mfrac></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>CB</mi><mo>|</mo><mo>=</mo><mfrac><mrow><mn>5</mn><msqrt><mn>5</mn></msqrt></mrow><mn>2</mn></mfrac></mrow></math>. Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> można zapisać dwoma sposobami: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>|</mo><mi>AB</mi><mo>|</mo><mo>·</mo><mo>|</mo><mi>CD</mi><mo>|</mo><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>|</mo><mi>CB</mi><mo>|</mo><mo>·</mo><mo>|</mo><mi>AE</mi><mo>|</mo></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>·</mo><mn>5</mn><mo>=</mo><mo>|</mo><mi>CB</mi><mo>|</mo><mo>·</mo><mn>4</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>2</mn><msqrt><mn>5</mn></msqrt></mrow></math>. Z trójkąta prostokątnego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AEB</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>|</mo><mi>AB</mi><mo>|</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>|</mo><mi>AE</mi><mo>|</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>|</mo><mi>EB</mi><mo>|</mo></mrow><mn>2</mn></msup></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mn>2</mn><msqrt><mn>5</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mn>4</mn><mn>2</mn></msup><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mn>4</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>2</mn></mrow></math>.</p><p>Odpowiedź: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>EB</mi><mo>|</mo><mo>=</mo><mn>2</mn></mrow></math> cm.</p><p><em>Częściowo: 1 pkt za obliczenie długości boku CB; 2 pkt za obliczenie długości boku AB.</em></p>"
+        "solution_html": "<p>Z trójkąta prostokątnego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDB</mi></math> (kąt prosty przy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>) na mocy twierdzenia Pitagorasa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>|</mo><mi>CB</mi><mo>|</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>|</mo><mi>CD</mi><mo>|</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>|</mo><mi>DB</mi><mo>|</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mn>5</mn><mn>2</mn></msup><mo>+</mo><msup><mn>2,5</mn><mn>2</mn></msup><mo>=</mo><mfrac><mn>125</mn><mn>4</mn></mfrac></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>CB</mi><mo>|</mo><mo>=</mo><mfrac><mrow><mn>5</mn><msqrt><mn>5</mn></msqrt></mrow><mn>2</mn></mfrac></mrow></math>. Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> można zapisać dwoma sposobami: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>|</mo><mi>AB</mi><mo>|</mo><mo>·</mo><mo>|</mo><mi>CD</mi><mo>|</mo><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>|</mo><mi>CB</mi><mo>|</mo><mo>·</mo><mo>|</mo><mi>AE</mi><mo>|</mo></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>·</mo><mn>5</mn><mo>=</mo><mo>|</mo><mi>CB</mi><mo>|</mo><mo>·</mo><mn>4</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>2</mn><msqrt><mn>5</mn></msqrt></mrow></math>. Z trójkąta prostokątnego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AEB</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>|</mo><mi>AB</mi><mo>|</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>|</mo><mi>AE</mi><mo>|</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>|</mo><mi>EB</mi><mo>|</mo></mrow><mn>2</mn></msup></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mn>2</mn><msqrt><mn>5</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mn>4</mn><mn>2</mn></msup><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mn>4</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>2</mn></mrow></math>.</p><p>Odpowiedź: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>EB</mi><mo>|</mo><mo>=</mo><mn>2</mn></mrow></math> cm.</p><p><em>Częściowo: 1 pkt za obliczenie długości boku CB; 2 pkt za obliczenie długości boku AB.</em></p>",
+        "model": {
+          "answer": "|EB| = 2 cm",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -77,7 +92,12 @@
       "figures": [],
       "answer": {
         "correct": "Dowód: dwa kąty wewnętrzne trójkąta są równe (γ = α), więc trójkąt jest równoramienny.",
-        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi></math> będą dwoma kątami wewnętrznymi trójkąta, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> trzecim kątem. Kąt przyległy do kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>°</mo><mo>−</mo><mi>β</mi></mrow></math> i zgodnie z założeniem jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>α</mi></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>β</mi><mo>+</mo><mn>2</mn><mi>α</mi><mo>=</mo><mn>180</mn><mo>°</mo></mrow></math>. Ponieważ suma kątów wewnętrznych trójkąta wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>+</mo><mi>β</mi><mo>+</mo><mi>γ</mi><mo>=</mo><mn>180</mn><mo>°</mo></mrow></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>+</mo><mi>β</mi><mo>+</mo><mi>γ</mi><mo>=</mo><mi>β</mi><mo>+</mo><mn>2</mn><mi>α</mi></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>γ</mi><mo>=</mo><mi>α</mi></mrow></math>. Trójkąt ma dwa równe kąty wewnętrzne, więc jest równoramienny.</p><p><em>Uczeń otrzymuje 1 pkt za przeprowadzenie poprawnego dowodu.</em></p>"
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi></math> będą dwoma kątami wewnętrznymi trójkąta, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> trzecim kątem. Kąt przyległy do kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>°</mo><mo>−</mo><mi>β</mi></mrow></math> i zgodnie z założeniem jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>α</mi></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>β</mi><mo>+</mo><mn>2</mn><mi>α</mi><mo>=</mo><mn>180</mn><mo>°</mo></mrow></math>. Ponieważ suma kątów wewnętrznych trójkąta wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>+</mo><mi>β</mi><mo>+</mo><mi>γ</mi><mo>=</mo><mn>180</mn><mo>°</mo></mrow></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>+</mo><mi>β</mi><mo>+</mo><mi>γ</mi><mo>=</mo><mi>β</mi><mo>+</mo><mn>2</mn><mi>α</mi></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>γ</mi><mo>=</mo><mi>α</mi></mrow></math>. Trójkąt ma dwa równe kąty wewnętrzne, więc jest równoramienny.</p><p><em>Uczeń otrzymuje 1 pkt za przeprowadzenie poprawnego dowodu.</em></p>",
+        "model": {
+          "answer": "Trójkąt jest równoramienny — dowód: jeśli kąt przyległy do kąta α wynosi 180°−α = 2β, to α = 180°−2β, a wtedy trzeci kąt γ = 180°−α−β = β. Skoro β = γ, trójkąt ma dwa równe kąty, więc jest równoramienny.",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -95,7 +115,12 @@
       "figures": [],
       "answer": {
         "correct": "49 i 15",
-        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> oznacza większą, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> mniejszą z liczb. Z warunków zadania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>64</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>3</mn><mi>b</mi><mo>+</mo><mn>4</mn></mrow></math>. Podstawiając: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>b</mi><mo>+</mo><mn>4</mn><mo>+</mo><mi>b</mi><mo>=</mo><mn>64</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>b</mi><mo>+</mo><mn>4</mn><mo>=</mo><mn>64</mn></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>15</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>49</mn></mrow></math>.</p><p>Odpowiedź: szukane liczby to 49 i 15.</p><p><em>Częściowo (1 pkt): zapisanie poprawnych równań a + b = 64 oraz a = 3b + 4.</em></p>"
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> oznacza większą, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> mniejszą z liczb. Z warunków zadania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>64</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>3</mn><mi>b</mi><mo>+</mo><mn>4</mn></mrow></math>. Podstawiając: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>b</mi><mo>+</mo><mn>4</mn><mo>+</mo><mi>b</mi><mo>=</mo><mn>64</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>b</mi><mo>+</mo><mn>4</mn><mo>=</mo><mn>64</mn></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>15</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>49</mn></mrow></math>.</p><p>Odpowiedź: szukane liczby to 49 i 15.</p><p><em>Częściowo (1 pkt): zapisanie poprawnych równań a + b = 64 oraz a = 3b + 4.</em></p>",
+        "model": {
+          "answer": "15 i 49",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -116,7 +141,13 @@
       "figures": [],
       "answer": {
         "correct": "6.1 – B, 6.2 – C, 6.3 – A, 6.4 – D",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "6.1 B, 6.2 C, 6.3 A, 6.4 D",
+          "by": "sonnet",
+          "agrees": null,
+          "solution_html": "<p><strong>6.1</strong> Boki 4 i 5,5; suma 9,5+x musi być liczbą naturalną, więc x ma część ułamkową 0,5. Z nierówności trójkąta 1,5&lt;x&lt;9,5, największe takie x to 8,5 (perymetr 18). Odp. B.</p><p><strong>6.2</strong> x² = (x−1)²+1 = x²−2x+2 → 2x=2 → x=1. Odp. C.</p><p><strong>6.3</strong> a=5k+3, 4a=20k+12, więc 4a mod 10 = 2. Odp. A.</p><p><strong>6.4</strong> Suma teleskopowa 1/(2n(2n+2)) = ¼(1/n − 1/(n+1)) dla n=1..24: suma = ¼(1 − 1/25) = 24/100. Odp. D.</p>"
+        }
       }
     },
     {
@@ -162,7 +193,12 @@
       "figures": [],
       "answer": {
         "correct": "FPFPFP",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "FPFPFP",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     }
   ]

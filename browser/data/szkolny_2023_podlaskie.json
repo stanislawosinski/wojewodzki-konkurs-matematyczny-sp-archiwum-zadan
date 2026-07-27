@@ -41,7 +41,12 @@
       "figures": [],
       "answer": {
         "correct": "B",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "B",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -77,7 +82,12 @@
       ],
       "answer": {
         "correct": "A",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "A",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -112,7 +122,12 @@
       "figures": [],
       "answer": {
         "correct": "D",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "D",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -146,7 +161,12 @@
       "figures": [],
       "answer": {
         "correct": "B",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "B",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -182,7 +202,12 @@
       ],
       "answer": {
         "correct": "B",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "B",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -219,7 +244,12 @@
       ],
       "answer": {
         "correct": "A",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "A",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -249,7 +279,13 @@
       "figures": [],
       "answer": {
         "correct": "TB",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "TB",
+          "by": "sonnet",
+          "agrees": null,
+          "solution_html": "<p>1725 : 15 = 115, więc liczba jest podzielna przez 15 — odpowiedź T (Tak). Uzasadnienie: liczba jest podzielna przez 15 wtedy i tylko wtedy, gdy jest podzielna jednocześnie przez 3 i przez 5 (1725 kończy się na 5 — podzielna przez 5; suma cyfr 1+7+2+5=15 — podzielna przez 3). To dokładnie uzasadnienie B.</p>"
+        }
       }
     },
     {
@@ -266,7 +302,12 @@
       "figures": [],
       "answer": {
         "correct": "Kwadrat z liczbami 5, 9, 12, 7 (suma 33).",
-        "solution_html": "<p>Sumujemy liczby w każdej z czterech tabelek 2 × 2: lewa górna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>23</mn><mo>+</mo><mn>1</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>31</mn></mrow></math>, prawa górna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>+</mo><mn>17</mn><mo>+</mo><mn>5</mn><mo>+</mo><mn>9</mn><mo>=</mo><mn>32</mn></mrow></math>, lewa dolna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>+</mo><mn>5</mn><mo>+</mo><mn>13</mn><mo>+</mo><mn>12</mn><mo>=</mo><mn>32</mn></mrow></math>, prawa dolna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>+</mo><mn>9</mn><mo>+</mo><mn>12</mn><mo>+</mo><mn>7</mn><mo>=</mo><mn>33</mn></mrow></math>. Największą sumę (33) daje tabelka z liczbami 5, 9, 12, 7.</p>"
+        "solution_html": "<p>Sumujemy liczby w każdej z czterech tabelek 2 × 2: lewa górna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>23</mn><mo>+</mo><mn>1</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>31</mn></mrow></math>, prawa górna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>+</mo><mn>17</mn><mo>+</mo><mn>5</mn><mo>+</mo><mn>9</mn><mo>=</mo><mn>32</mn></mrow></math>, lewa dolna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>+</mo><mn>5</mn><mo>+</mo><mn>13</mn><mo>+</mo><mn>12</mn><mo>=</mo><mn>32</mn></mrow></math>, prawa dolna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>+</mo><mn>9</mn><mo>+</mo><mn>12</mn><mo>+</mo><mn>7</mn><mo>=</mo><mn>33</mn></mrow></math>. Największą sumę (33) daje tabelka z liczbami 5, 9, 12, 7.</p>",
+        "model": {
+          "answer": "Prawy dolny kwadrat 2×2 (wiersze 2-3, kolumny 2-3): 5, 9, 12, 7; suma = 33",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -284,7 +325,12 @@
       "figures": [],
       "answer": {
         "correct": "Ulica Rusa i ulica Lecha są równoległe.",
-        "solution_html": "<p>Ulica Czecha jest prostopadła do ulicy Popiela, a ulica Popiela jest prostopadła do ulicy Lecha, więc ulica Czecha jest równoległa do ulicy Lecha. Ponieważ ulica Rusa jest równoległa do ulicy Czecha, to ulica Rusa jest również równoległa do ulicy Lecha.</p>"
+        "solution_html": "<p>Ulica Czecha jest prostopadła do ulicy Popiela, a ulica Popiela jest prostopadła do ulicy Lecha, więc ulica Czecha jest równoległa do ulicy Lecha. Ponieważ ulica Rusa jest równoległa do ulicy Czecha, to ulica Rusa jest również równoległa do ulicy Lecha.</p>",
+        "model": {
+          "answer": "Ulica Rusa jest równoległa do ulicy Lecha",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -301,7 +347,12 @@
       "figures": [],
       "answer": {
         "correct": "100 = 2 · 5 · 10",
-        "solution_html": "<p>Rozkładamy liczbę 100 na iloczyn trzech różnych czynników naturalnych większych od 1, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mo>=</mo><mn>2</mn><mo>·</mo><mn>5</mn><mo>·</mo><mn>10</mn></mrow></math>.</p>"
+        "solution_html": "<p>Rozkładamy liczbę 100 na iloczyn trzech różnych czynników naturalnych większych od 1, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mo>=</mo><mn>2</mn><mo>·</mo><mn>5</mn><mo>·</mo><mn>10</mn></mrow></math>.</p>",
+        "model": {
+          "answer": "100 = 2 × 5 × 10",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -323,7 +374,12 @@
       "figures": [],
       "answer": {
         "correct": "a) LX; b) np. 0,81; c) 100; d) 30 km; e) 130°; f) 10 dm; g) kwadrat",
-        "solution_html": "<p>a) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>XL</mtext><mo>=</mo><mn>40</mn></mrow></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>LX</mtext><mo>=</mo><mn>60</mn></mrow></math>, więc większa jest liczba LX.</p><p>b) Dowolny ułamek z przedziału <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>0,8</mn><mo>;</mo><mn>0,9</mn><mo>)</mo></mrow></math>, np. 0,81.</p><p>c) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>10</mn><mn>3</mn></msup><mo>=</mo><mn>1000</mn></mrow></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1000</mn><mo>:</mo><mn>10</mn><mo>=</mo><mn>100</mn></mrow></math>, czyli 100 razy.</p><p>d) Kwadrans to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> godziny, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>120</mn><mo>·</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>=</mo><mn>30</mn></mrow></math> km.</p><p>e) Kąty przyległe sumują się do 180°, więc drugi kąt ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>°</mo><mo>−</mo><mn>50</mn><mo>°</mo><mo>=</mo><mn>130</mn><mo>°</mo></mrow></math>.</p><p>f) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1000</mn><mtext> mm</mtext><mo>=</mo><mn>100</mn><mtext> cm</mtext><mo>=</mo><mn>10</mn><mtext> dm</mtext></mrow></math>.</p><p>g) Romb, w którym wysokość jest równa długości boku, to kwadrat.</p>"
+        "solution_html": "<p>a) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>XL</mtext><mo>=</mo><mn>40</mn></mrow></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>LX</mtext><mo>=</mo><mn>60</mn></mrow></math>, więc większa jest liczba LX.</p><p>b) Dowolny ułamek z przedziału <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>0,8</mn><mo>;</mo><mn>0,9</mn><mo>)</mo></mrow></math>, np. 0,81.</p><p>c) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>10</mn><mn>3</mn></msup><mo>=</mo><mn>1000</mn></mrow></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1000</mn><mo>:</mo><mn>10</mn><mo>=</mo><mn>100</mn></mrow></math>, czyli 100 razy.</p><p>d) Kwadrans to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> godziny, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>120</mn><mo>·</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>=</mo><mn>30</mn></mrow></math> km.</p><p>e) Kąty przyległe sumują się do 180°, więc drugi kąt ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>°</mo><mo>−</mo><mn>50</mn><mo>°</mo><mo>=</mo><mn>130</mn><mo>°</mo></mrow></math>.</p><p>f) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1000</mn><mtext> mm</mtext><mo>=</mo><mn>100</mn><mtext> cm</mtext><mo>=</mo><mn>10</mn><mtext> dm</mtext></mrow></math>.</p><p>g) Romb, w którym wysokość jest równa długości boku, to kwadrat.</p>",
+        "model": {
+          "answer": "a) LX; b) np. 0,85; c) 100 razy; d) 30 km; e) 130°; f) 10 dm; g) kwadrat",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -351,7 +407,12 @@
       ],
       "answer": {
         "correct": "PF",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "PF",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -368,7 +429,12 @@
       "figures": [],
       "answer": {
         "correct": "165°",
-        "solution_html": "<p>O godzinie 12:30 wskazówka minutowa wskazuje 6, czyli jest odchylona o 180° od położenia „12”. Wskazówka godzinowa przeszła połowę drogi między 12 a 1, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>30</mn><mo>°</mo><mo>=</mo><mn>15</mn><mo>°</mo></mrow></math> od położenia „12”. Kąt rozwarty między wskazówkami wynosi więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>°</mo><mo>−</mo><mn>15</mn><mo>°</mo><mo>=</mo><mn>165</mn><mo>°</mo></mrow></math>.</p>"
+        "solution_html": "<p>O godzinie 12:30 wskazówka minutowa wskazuje 6, czyli jest odchylona o 180° od położenia „12”. Wskazówka godzinowa przeszła połowę drogi między 12 a 1, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>30</mn><mo>°</mo><mo>=</mo><mn>15</mn><mo>°</mo></mrow></math> od położenia „12”. Kąt rozwarty między wskazówkami wynosi więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>°</mo><mo>−</mo><mn>15</mn><mo>°</mo><mo>=</mo><mn>165</mn><mo>°</mo></mrow></math>.</p>",
+        "model": {
+          "answer": "165°",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -385,7 +451,12 @@
       "figures": [],
       "answer": {
         "correct": "O 1019 dni",
-        "solution_html": "<p>Od 16 października 1929 r. do 16 października 1931 r. mija <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>365</mn><mo>+</mo><mn>365</mn><mo>=</mo><mn>730</mn></mrow></math> dni (żaden z tych lat nie jest w tym okresie przestępny). Od 16 października 1931 r. do 31 lipca 1932 r. (rok 1932 jest przestępny) mija 289 dni. Razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>730</mn><mo>+</mo><mn>289</mn><mo>=</mo><mn>1019</mn></mrow></math> dni. Dziadek jest starszy od babci o 1019 dni.</p>"
+        "solution_html": "<p>Od 16 października 1929 r. do 16 października 1931 r. mija <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>365</mn><mo>+</mo><mn>365</mn><mo>=</mo><mn>730</mn></mrow></math> dni (żaden z tych lat nie jest w tym okresie przestępny). Od 16 października 1931 r. do 31 lipca 1932 r. (rok 1932 jest przestępny) mija 289 dni. Razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>730</mn><mo>+</mo><mn>289</mn><mo>=</mo><mn>1019</mn></mrow></math> dni. Dziadek jest starszy od babci o 1019 dni.</p>",
+        "model": {
+          "answer": "1019 dni",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -403,7 +474,12 @@
       "figures": [],
       "answer": {
         "correct": "18 wiśni",
-        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> oznacza liczbę czereśni. Wiśni jest o 20% więcej, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,2</mn><mi>c</mi></mrow></math>. Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>+</mo><mn>1,2</mn><mi>c</mi><mo>=</mo><mn>33</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2,2</mn><mi>c</mi><mo>=</mo><mn>33</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><mn>15</mn></mrow></math>. Wiśni jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,2</mn><mo>·</mo><mn>15</mn><mo>=</mo><mn>18</mn></mrow></math>.</p>"
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> oznacza liczbę czereśni. Wiśni jest o 20% więcej, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,2</mn><mi>c</mi></mrow></math>. Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>+</mo><mn>1,2</mn><mi>c</mi><mo>=</mo><mn>33</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2,2</mn><mi>c</mi><mo>=</mo><mn>33</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><mn>15</mn></mrow></math>. Wiśni jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,2</mn><mo>·</mo><mn>15</mn><mo>=</mo><mn>18</mn></mrow></math>.</p>",
+        "model": {
+          "answer": "18 wiśni",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -423,7 +499,12 @@
       ],
       "answer": {
         "correct": "36°",
-        "solution_html": "<p>W dużym trójkącie suma miar kątów wynosi 180°, więc miara kąta przy wierzchołku, przy którym zaznaczono 25°, jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>°</mo><mo>−</mo><mn>38</mn><mo>°</mo><mo>−</mo><mn>81</mn><mo>°</mo><mo>=</mo><mn>61</mn><mo>°</mo></mrow></math>. Odcinek dzieli ten kąt na część o mierze 25° oraz kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math>, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>β</mi><mo>=</mo><mn>61</mn><mo>°</mo><mo>−</mo><mn>25</mn><mo>°</mo><mo>=</mo><mn>36</mn><mo>°</mo></mrow></math>.</p>"
+        "solution_html": "<p>W dużym trójkącie suma miar kątów wynosi 180°, więc miara kąta przy wierzchołku, przy którym zaznaczono 25°, jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>°</mo><mo>−</mo><mn>38</mn><mo>°</mo><mo>−</mo><mn>81</mn><mo>°</mo><mo>=</mo><mn>61</mn><mo>°</mo></mrow></math>. Odcinek dzieli ten kąt na część o mierze 25° oraz kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math>, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>β</mi><mo>=</mo><mn>61</mn><mo>°</mo><mo>−</mo><mn>25</mn><mo>°</mo><mo>=</mo><mn>36</mn><mo>°</mo></mrow></math>.</p>",
+        "model": {
+          "answer": "36°",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -440,7 +521,12 @@
       "figures": [],
       "answer": {
         "correct": "13 kur i 7 owiec",
-        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>o</mi></math> oznacza liczbę owiec, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> liczbę kur. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>o</mi><mo>+</mo><mi>k</mi><mo>=</mo><mn>20</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>o</mi><mo>+</mo><mn>2</mn><mi>k</mi><mo>=</mo><mn>54</mn></mrow></math>. Z drugiego równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>o</mi><mo>+</mo><mi>k</mi><mo>=</mo><mn>27</mn></mrow></math>, więc po odjęciu pierwszego równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>o</mi><mo>=</mo><mn>7</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>k</mi><mo>=</mo><mn>13</mn></mrow></math>. Jest 13 kur i 7 owiec.</p>"
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>o</mi></math> oznacza liczbę owiec, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> liczbę kur. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>o</mi><mo>+</mo><mi>k</mi><mo>=</mo><mn>20</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>o</mi><mo>+</mo><mn>2</mn><mi>k</mi><mo>=</mo><mn>54</mn></mrow></math>. Z drugiego równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>o</mi><mo>+</mo><mi>k</mi><mo>=</mo><mn>27</mn></mrow></math>, więc po odjęciu pierwszego równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>o</mi><mo>=</mo><mn>7</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>k</mi><mo>=</mo><mn>13</mn></mrow></math>. Jest 13 kur i 7 owiec.</p>",
+        "model": {
+          "answer": "7 owiec i 13 kur",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -457,7 +543,12 @@
       "figures": [],
       "answer": {
         "correct": "6 kawałków",
-        "solution_html": "<p>Każde cięcie zwiększa liczbę kawałków o 1. Po 10 cięciach liczba kawałków wzrosła o 10, więc na początku było <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>16</mn><mo>−</mo><mn>10</mn><mo>=</mo><mn>6</mn></mrow></math> kawałków.</p>"
+        "solution_html": "<p>Każde cięcie zwiększa liczbę kawałków o 1. Po 10 cięciach liczba kawałków wzrosła o 10, więc na początku było <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>16</mn><mo>−</mo><mn>10</mn><mo>=</mo><mn>6</mn></mrow></math> kawałków.</p>",
+        "model": {
+          "answer": "6 kawałków",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -474,7 +565,12 @@
       "figures": [],
       "answer": {
         "correct": "156 zł",
-        "solution_html": "<p>Zbiornik był wypełniony do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math>, czyli zawierał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>36</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>12</mn></mrow></math> litrów. Do dopełnienia potrzeba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>36</mn><mo>−</mo><mn>12</mn><mo>=</mo><mn>24</mn></mrow></math> litrów. Kierowca zapłaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>24</mn><mo>·</mo><mn>6,50</mn><mtext> zł</mtext><mo>=</mo><mn>156</mn><mtext> zł</mtext></mrow></math>.</p>"
+        "solution_html": "<p>Zbiornik był wypełniony do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math>, czyli zawierał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>36</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>12</mn></mrow></math> litrów. Do dopełnienia potrzeba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>36</mn><mo>−</mo><mn>12</mn><mo>=</mo><mn>24</mn></mrow></math> litrów. Kierowca zapłaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>24</mn><mo>·</mo><mn>6,50</mn><mtext> zł</mtext><mo>=</mo><mn>156</mn><mtext> zł</mtext></mrow></math>.</p>",
+        "model": {
+          "answer": "156 zł",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -491,7 +587,12 @@
       "figures": [],
       "answer": {
         "correct": "20 dni",
-        "solution_html": "<p>Wspólne odwiedziny nastąpią co tyle dni, ile wynosi najmniejsza wspólna wielokrotność liczb 4 i 5. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>NWW</mtext><mo>(</mo><mn>4</mn><mo>,</mo><mn>5</mn><mo>)</mo><mo>=</mo><mn>20</mn></mrow></math>, Kasia i Piotr odwiedzą babcię tego samego dnia co 20 dni.</p>"
+        "solution_html": "<p>Wspólne odwiedziny nastąpią co tyle dni, ile wynosi najmniejsza wspólna wielokrotność liczb 4 i 5. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>NWW</mtext><mo>(</mo><mn>4</mn><mo>,</mo><mn>5</mn><mo>)</mo><mo>=</mo><mn>20</mn></mrow></math>, Kasia i Piotr odwiedzą babcię tego samego dnia co 20 dni.</p>",
+        "model": {
+          "answer": "co 20 dni",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -528,7 +629,12 @@
       ],
       "answer": {
         "correct": "D",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "D",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -546,7 +652,12 @@
       "figures": [],
       "answer": {
         "correct": "Od środka: zielone, następnie żółte, a na wierzchu różowe.",
-        "solution_html": "<p>Krawędź pudełka zielonego (sześcianu o objętości 27 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>cm</mi><mn>3</mn></msup></math>) wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mroot><mn>27</mn><mn>3</mn></mroot><mo>=</mo><mn>3</mn></mrow></math> cm. Krawędź pudełka różowego (sześcianu o sumie 12 krawędzi równej 84 cm) wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>84</mn><mo>:</mo><mn>12</mn><mo>=</mo><mn>7</mn></mrow></math> cm. Pudełko zielone (3 × 3 × 3) mieści się w żółtym (4 × 5 × 6), a żółte mieści się w różowym (7 × 7 × 7). Zatem zielone pudełko umieścił w środku, następnie żółte, a na wierzchu różowe.</p>"
+        "solution_html": "<p>Krawędź pudełka zielonego (sześcianu o objętości 27 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>cm</mi><mn>3</mn></msup></math>) wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mroot><mn>27</mn><mn>3</mn></mroot><mo>=</mo><mn>3</mn></mrow></math> cm. Krawędź pudełka różowego (sześcianu o sumie 12 krawędzi równej 84 cm) wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>84</mn><mo>:</mo><mn>12</mn><mo>=</mo><mn>7</mn></mrow></math> cm. Pudełko zielone (3 × 3 × 3) mieści się w żółtym (4 × 5 × 6), a żółte mieści się w różowym (7 × 7 × 7). Zatem zielone pudełko umieścił w środku, następnie żółte, a na wierzchu różowe.</p>",
+        "model": {
+          "answer": "Kolejność od najmniejszego: zielone (sześcian a=3 cm, V=27 cm³), żółte (4×5×6 cm, V=120 cm³), różowe (sześcian a=7 cm, V=343 cm³)",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     }
   ]

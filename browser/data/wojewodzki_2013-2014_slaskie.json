@@ -26,7 +26,12 @@
       ],
       "answer": {
         "correct": "Uzupełnione pola: 6 (1. wiersz), 20 i 4 (2. wiersz liczbowy), 5 i 2 (3. wiersz liczbowy) oraz −14 (dolny wiersz).",
-        "solution_html": "<p>Uzupełniona krzyżówka spełnia wszystkie działania. Wiersze: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mo>:</mo><mn>6</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>8</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mo>·</mo><mn>4</mn><mo>:</mo><mn>10</mn><mo>=</mo><mn>8</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>+</mo><mn>5</mn><mo>−</mo><mn>2</mn><mo>=</mo><mn>8</mn></math>. Kolumny: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mo>−</mo><mn>20</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>9</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>−</mo><mn>4</mn><mo>·</mo><mn>5</mn><mo>=</mo><mo>−</mo><mn>14</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>−</mo><mn>10</mn><mo>·</mo><mn>2</mn><mo>=</mo><mo>−</mo><mn>18</mn></math>. Do pustych pól należy wpisać kolejno: 6, 20, 4, 5, 2 oraz −14.</p>"
+        "solution_html": "<p>Uzupełniona krzyżówka spełnia wszystkie działania. Wiersze: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mo>:</mo><mn>6</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>8</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mo>·</mo><mn>4</mn><mo>:</mo><mn>10</mn><mo>=</mo><mn>8</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>+</mo><mn>5</mn><mo>−</mo><mn>2</mn><mo>=</mo><mn>8</mn></math>. Kolumny: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mo>−</mo><mn>20</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>9</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>−</mo><mn>4</mn><mo>·</mo><mn>5</mn><mo>=</mo><mo>−</mo><mn>14</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>−</mo><mn>10</mn><mo>·</mo><mn>2</mn><mo>=</mo><mo>−</mo><mn>18</mn></math>. Do pustych pól należy wpisać kolejno: 6, 20, 4, 5, 2 oraz −14.</p>",
+        "model": {
+          "answer": "Wiersz1: 24:6·2=8; Wiersz3: 20·4:10=8; Wiersz5: 5+5−2=8; Kolumna1: 24−20+5=9; Kolumna3: 6−4·5=−14; Kolumna5: 2−10·2=−18 (brakujące pola: w.1k.3=6, w.3k.1=20, w.3k.3=4, w.5k.3=5, w.5k.5=2, w.7k.3=−14)",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -43,7 +48,12 @@
       "figures": [],
       "answer": {
         "correct": "A) (16 + 32) : 4 · (15 + 5) = 240;  B) (25 + 75) : (5 + 15) − 25 : 5 = 0",
-        "solution_html": "<p>A) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>16</mn><mo>+</mo><mn>32</mn><mo>)</mo><mo>:</mo><mn>4</mn><mo>·</mo><mo>(</mo><mn>15</mn><mo>+</mo><mn>5</mn><mo>)</mo><mo>=</mo><mn>48</mn><mo>:</mo><mn>4</mn><mo>·</mo><mn>20</mn><mo>=</mo><mn>240</mn></math>. B) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>25</mn><mo>+</mo><mn>75</mn><mo>)</mo><mo>:</mo><mo>(</mo><mn>5</mn><mo>+</mo><mn>15</mn><mo>)</mo><mo>−</mo><mn>25</mn><mo>:</mo><mn>5</mn><mo>=</mo><mn>100</mn><mo>:</mo><mn>20</mn><mo>−</mo><mn>5</mn><mo>=</mo><mn>5</mn><mo>−</mo><mn>5</mn><mo>=</mo><mn>0</mn></math>.</p>"
+        "solution_html": "<p>A) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>16</mn><mo>+</mo><mn>32</mn><mo>)</mo><mo>:</mo><mn>4</mn><mo>·</mo><mo>(</mo><mn>15</mn><mo>+</mo><mn>5</mn><mo>)</mo><mo>=</mo><mn>48</mn><mo>:</mo><mn>4</mn><mo>·</mo><mn>20</mn><mo>=</mo><mn>240</mn></math>. B) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>25</mn><mo>+</mo><mn>75</mn><mo>)</mo><mo>:</mo><mo>(</mo><mn>5</mn><mo>+</mo><mn>15</mn><mo>)</mo><mo>−</mo><mn>25</mn><mo>:</mo><mn>5</mn><mo>=</mo><mn>100</mn><mo>:</mo><mn>20</mn><mo>−</mo><mn>5</mn><mo>=</mo><mn>5</mn><mo>−</mo><mn>5</mn><mo>=</mo><mn>0</mn></math>.</p>",
+        "model": {
+          "answer": "A) (16+32):4·(15+5)=240; B) (25+75):(5+15)−25:5=0",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -77,7 +87,12 @@
       "figures": [],
       "answer": {
         "correct": "D",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "D",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -111,7 +126,12 @@
       "figures": [],
       "answer": {
         "correct": "C",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "C",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -145,7 +165,12 @@
       "figures": [],
       "answer": {
         "correct": "C",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "C",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -179,7 +204,12 @@
       "figures": [],
       "answer": {
         "correct": "D",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "D",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -213,7 +243,12 @@
       "figures": [],
       "answer": {
         "correct": "B",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "B",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -247,7 +282,12 @@
       "figures": [],
       "answer": {
         "correct": "C",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "C",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -281,7 +321,12 @@
       "figures": [],
       "answer": {
         "correct": "C",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "C",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -315,7 +360,12 @@
       "figures": [],
       "answer": {
         "correct": "B",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "B",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -349,7 +399,12 @@
       "figures": [],
       "answer": {
         "correct": "A",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "A",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -384,7 +439,12 @@
       "figures": [],
       "answer": {
         "correct": "A",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "A",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -401,7 +461,12 @@
       "figures": [],
       "answer": {
         "correct": "A. 24 godziny; B. zaćmienie Słońca",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "A – 24 godziny; B – zaćmienie Słońca",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -418,7 +483,12 @@
       "figures": [],
       "answer": {
         "correct": "A. tundra; B. wilgotne lasy równikowe; C. roślinność śródziemnomorska",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "A – tundra; B – wilgotne lasy równikowe; C – roślinność śródziemnomorska",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -435,7 +505,12 @@
       "figures": [],
       "answer": {
         "correct": "Arktyka: 3, 5, 6; Antarktyda: 1, 2, 4",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "Arktyka: 3, 5, 6; Antarktyda: 1, 2, 4",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -452,7 +527,12 @@
       "figures": [],
       "answer": {
         "correct": "siła ciężkości – skutek 3, przyczyna C; siła tarcia – skutek 4, przyczyna A; siła sprężystości – skutek 2, przyczyna D; siła oddziaływania magnetycznego – skutek 1, przyczyna B",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "siła ciężkości: skutek 3, przyczyna C; siła tarcia: skutek 4, przyczyna A; siła sprężystości: skutek 2, przyczyna D; siła oddziaływania magnetycznego: skutek 1, przyczyna B",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -482,7 +562,12 @@
       "figures": [],
       "answer": {
         "correct": "PFP",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "PFP",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -512,7 +597,12 @@
       "figures": [],
       "answer": {
         "correct": "PPF",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "PPF",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -543,7 +633,12 @@
       "figures": [],
       "answer": {
         "correct": "FPF",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "FPF",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -573,7 +668,12 @@
       "figures": [],
       "answer": {
         "correct": "PFP",
-        "solution_html": null
+        "solution_html": null,
+        "model": {
+          "answer": "PFP",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -590,7 +690,12 @@
       "figures": [],
       "answer": {
         "correct": "Niższą cenę 1 m² zawiera oferta działki nr I – 90 zł/m² (działka nr II – 104 zł/m²).",
-        "solution_html": "<p>Działka nr I: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,14</mn><mtext> ha</mtext><mo>=</mo><mn>1400</mn><msup><mtext> m</mtext><mn>2</mn></msup></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>126000</mn><mo>:</mo><mn>1400</mn><mo>=</mo><mn>90</mn></math> zł/m². Działka nr II: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6,5</mn><mtext> a</mtext><mo>=</mo><mn>650</mn><msup><mtext> m</mtext><mn>2</mn></msup></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>67600</mn><mo>:</mo><mn>650</mn><mo>=</mo><mn>104</mn></math> zł/m². Niższą cenę 1 m² zawiera oferta działki nr I (90 zł/m²).</p>"
+        "solution_html": "<p>Działka nr I: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,14</mn><mtext> ha</mtext><mo>=</mo><mn>1400</mn><msup><mtext> m</mtext><mn>2</mn></msup></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>126000</mn><mo>:</mo><mn>1400</mn><mo>=</mo><mn>90</mn></math> zł/m². Działka nr II: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6,5</mn><mtext> a</mtext><mo>=</mo><mn>650</mn><msup><mtext> m</mtext><mn>2</mn></msup></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>67600</mn><mo>:</mo><mn>650</mn><mo>=</mo><mn>104</mn></math> zł/m². Niższą cenę 1 m² zawiera oferta działki nr I (90 zł/m²).</p>",
+        "model": {
+          "answer": "Działka nr I; cena 90 zł/m²",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -607,7 +712,12 @@
       "figures": [],
       "answer": {
         "correct": "Objętość: 504 cm³; pole powierzchni całkowitej: 384 cm².",
-        "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mn>0,512</mn><msup><mtext> dm</mtext><mn>3</mn></msup><mo>=</mo><mn>512</mn><msup><mtext> cm</mtext><mn>3</mn></msup></math>, więc krawędź sześcianu ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn></math> cm (bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>·</mo><mn>8</mn><mo>·</mo><mn>8</mn><mo>=</mo><mn>512</mn></math>). Usunięto 8 naroży, każde o objętości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>1</mn><mn>3</mn></msup><mo>=</mo><mn>1</mn></math> cm³, więc objętość powstałej bryły to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>512</mn><mo>−</mo><mn>8</mn><mo>·</mo><mn>1</mn><mo>=</mo><mn>504</mn></math> cm³. Usunięcie naroży nie zmienia pola powierzchni – w miejsce każdych trzech odsłoniętych kwadratów pojawiają się trzy takie same – więc pole powierzchni całkowitej pozostaje równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><msup><mn>8</mn><mn>2</mn></msup><mo>=</mo><mn>384</mn></math> cm².</p>"
+        "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mn>0,512</mn><msup><mtext> dm</mtext><mn>3</mn></msup><mo>=</mo><mn>512</mn><msup><mtext> cm</mtext><mn>3</mn></msup></math>, więc krawędź sześcianu ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn></math> cm (bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>·</mo><mn>8</mn><mo>·</mo><mn>8</mn><mo>=</mo><mn>512</mn></math>). Usunięto 8 naroży, każde o objętości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>1</mn><mn>3</mn></msup><mo>=</mo><mn>1</mn></math> cm³, więc objętość powstałej bryły to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>512</mn><mo>−</mo><mn>8</mn><mo>·</mo><mn>1</mn><mo>=</mo><mn>504</mn></math> cm³. Usunięcie naroży nie zmienia pola powierzchni – w miejsce każdych trzech odsłoniętych kwadratów pojawiają się trzy takie same – więc pole powierzchni całkowitej pozostaje równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><msup><mn>8</mn><mn>2</mn></msup><mo>=</mo><mn>384</mn></math> cm².</p>",
+        "model": {
+          "answer": "Pole powierzchni całkowitej = 384 cm²; objętość = 504 cm³",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -624,7 +734,12 @@
       "figures": [],
       "answer": {
         "correct": "22,3 km/h",
-        "solution_html": "<p>Do spotkania pierwszy rowerzysta przejechał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15,2</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>60,8</mn></math> km. Drugi rowerzysta przejechał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>150</mn><mo>−</mo><mn>60,8</mn><mo>=</mo><mn>89,2</mn></math> km w ciągu 4 godzin, więc jego średnia prędkość to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>89,2</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>22,3</mn></math> km/h.</p>"
+        "solution_html": "<p>Do spotkania pierwszy rowerzysta przejechał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15,2</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>60,8</mn></math> km. Drugi rowerzysta przejechał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>150</mn><mo>−</mo><mn>60,8</mn><mo>=</mo><mn>89,2</mn></math> km w ciągu 4 godzin, więc jego średnia prędkość to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>89,2</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>22,3</mn></math> km/h.</p>",
+        "model": {
+          "answer": "22,3 km/h",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     }
   ]

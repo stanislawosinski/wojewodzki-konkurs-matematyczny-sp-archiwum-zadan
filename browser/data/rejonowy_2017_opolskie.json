@@ -37,7 +37,12 @@
       "figures": [],
       "answer": {
         "correct": "PFF",
-        "solution_html": "<p>Odwrotnością liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>5</mn></math> jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mfrac><mn>1</mn><mn>5</mn></mfrac></math>. Ich suma wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>5</mn><mo>+</mo><mo>(</mo><mo>−</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>)</mo><mo>=</mo><mo>−</mo><mn>5</mn><mfrac><mn>1</mn><mn>5</mn></mfrac></mrow></math>, więc poprawna jest tylko pierwsza wartość (TAK, NIE, NIE). Wartość 0 byłaby sumą liczby −5 i liczby do niej przeciwnej, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>4</mn><mfrac><mn>4</mn><mn>5</mn></mfrac></mrow></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>5</mn><mo>+</mo><mfrac><mn>1</mn><mn>5</mn></mfrac></mrow></math>.</p>"
+        "solution_html": "<p>Odwrotnością liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>5</mn></math> jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mfrac><mn>1</mn><mn>5</mn></mfrac></math>. Ich suma wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>5</mn><mo>+</mo><mo>(</mo><mo>−</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>)</mo><mo>=</mo><mo>−</mo><mn>5</mn><mfrac><mn>1</mn><mn>5</mn></mfrac></mrow></math>, więc poprawna jest tylko pierwsza wartość (TAK, NIE, NIE). Wartość 0 byłaby sumą liczby −5 i liczby do niej przeciwnej, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>4</mn><mfrac><mn>4</mn><mn>5</mn></mfrac></mrow></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>5</mn><mo>+</mo><mfrac><mn>1</mn><mn>5</mn></mfrac></mrow></math>.</p>",
+        "model": {
+          "answer": "PFF",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -68,7 +73,12 @@
       "figures": [],
       "answer": {
         "correct": "PPP",
-        "solution_html": "<p>Liczba przekątnych wielokąta o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> bokach wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>n</mi><mo>(</mo><mi>n</mi><mo>−</mo><mn>3</mn><mo>)</mo></mrow><mn>2</mn></mfrac></math>. Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mi>n</mi><mo>(</mo><mi>n</mi><mo>−</mo><mn>3</mn><mo>)</mo></mrow><mn>2</mn></mfrac><mo>=</mo><mn>5</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>=</mo><mn>5</mn></mrow></math> (pięciokąt). Suma kątów wewnętrznych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>5</mn><mo>−</mo><mn>2</mn><mo>)</mo><mo>·</mo><mn>180</mn><mo>°</mo><mo>=</mo><mn>540</mn><mo>°</mo></mrow></math> (TAK). Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>=</mo><mn>6</mn></mrow></math> przekątnych jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>6</mn><mo>·</mo><mn>3</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>9</mn></mrow></math>, czyli o 4 więcej (TAK). Cztery kąty proste dałyby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><mn>90</mn><mo>°</mo><mo>=</mo><mn>360</mn><mo>°</mo></mrow></math>, a piąty kąt musiałby mieć 180° — to niemożliwe, więc pięciokąt ma co najwyżej 3 kąty proste (TAK).</p>"
+        "solution_html": "<p>Liczba przekątnych wielokąta o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> bokach wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>n</mi><mo>(</mo><mi>n</mi><mo>−</mo><mn>3</mn><mo>)</mo></mrow><mn>2</mn></mfrac></math>. Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mi>n</mi><mo>(</mo><mi>n</mi><mo>−</mo><mn>3</mn><mo>)</mo></mrow><mn>2</mn></mfrac><mo>=</mo><mn>5</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>=</mo><mn>5</mn></mrow></math> (pięciokąt). Suma kątów wewnętrznych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>5</mn><mo>−</mo><mn>2</mn><mo>)</mo><mo>·</mo><mn>180</mn><mo>°</mo><mo>=</mo><mn>540</mn><mo>°</mo></mrow></math> (TAK). Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>=</mo><mn>6</mn></mrow></math> przekątnych jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>6</mn><mo>·</mo><mn>3</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>9</mn></mrow></math>, czyli o 4 więcej (TAK). Cztery kąty proste dałyby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><mn>90</mn><mo>°</mo><mo>=</mo><mn>360</mn><mo>°</mo></mrow></math>, a piąty kąt musiałby mieć 180° — to niemożliwe, więc pięciokąt ma co najwyżej 3 kąty proste (TAK).</p>",
+        "model": {
+          "answer": "PPP",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -99,7 +109,12 @@
       "figures": [],
       "answer": {
         "correct": "FPF",
-        "solution_html": "<p>Zosia wypisała liczby trzycyfrowe o sumie cyfr 4 — jest ich 10. Filip wypisał liczby o sumie cyfr 1, 2 lub 3 — również 10 (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>6</mn><mo>=</mo><mn>10</mn></mrow></math>), więc liczb jest tyle samo (NIE). Parzystych jest u Zosi 6, a u Filipa 7 — Filip ma ich więcej (TAK). Podzielnych przez 4 jest u Zosi 3 (112, 220, 400), a u Filipa 4 (100, 120, 200, 300) — Zosia ma ich mniej (NIE).</p>"
+        "solution_html": "<p>Zosia wypisała liczby trzycyfrowe o sumie cyfr 4 — jest ich 10. Filip wypisał liczby o sumie cyfr 1, 2 lub 3 — również 10 (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>6</mn><mo>=</mo><mn>10</mn></mrow></math>), więc liczb jest tyle samo (NIE). Parzystych jest u Zosi 6, a u Filipa 7 — Filip ma ich więcej (TAK). Podzielnych przez 4 jest u Zosi 3 (112, 220, 400), a u Filipa 4 (100, 120, 200, 300) — Zosia ma ich mniej (NIE).</p>",
+        "model": {
+          "answer": "FPF",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -131,7 +146,12 @@
       "figures": [],
       "answer": {
         "correct": "FFP",
-        "solution_html": "<p>Bok każdego trójkąta ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>5</mn></mrow></math> cm. Trapez ma podstawy 5 cm i 10 cm oraz dwa ramiona po 5 cm, więc jego obwód wynosi 25 cm (NIE — nie 45 cm). Wysokość trapezu jest równa wysokości trójkąta równobocznego o boku 5 cm, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>5</mn><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac><mo>≈</mo><mn>4,33</mn></mrow></math> cm (NIE — nie 5 cm). Gdy bok trójkąta wzrośnie do 6 cm (obwód większy o 3 cm), obwód trapezu wyniesie 30 cm, czyli o 5 cm więcej (TAK).</p>"
+        "solution_html": "<p>Bok każdego trójkąta ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>5</mn></mrow></math> cm. Trapez ma podstawy 5 cm i 10 cm oraz dwa ramiona po 5 cm, więc jego obwód wynosi 25 cm (NIE — nie 45 cm). Wysokość trapezu jest równa wysokości trójkąta równobocznego o boku 5 cm, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>5</mn><msqrt><mn>3</mn></msqrt></mrow><mn>2</mn></mfrac><mo>≈</mo><mn>4,33</mn></mrow></math> cm (NIE — nie 5 cm). Gdy bok trójkąta wzrośnie do 6 cm (obwód większy o 3 cm), obwód trapezu wyniesie 30 cm, czyli o 5 cm więcej (TAK).</p>",
+        "model": {
+          "answer": "FFP",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -161,7 +181,12 @@
       "figures": [],
       "answer": {
         "correct": "PFF",
-        "solution_html": "<p>Iloczyn trzech różnych liczb pierwszych, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>30</mn></mrow></math>, może być parzysty, gdy jednym z czynników jest 2 (TAK). Nie może być podzielny przez 4, bo czynnik 2 występuje co najwyżej raz — liczby są różne (NIE). Nie może być równy 15, bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>=</mo><mn>3</mn><mo>·</mo><mn>5</mn></mrow></math> jest iloczynem tylko dwóch liczb pierwszych (NIE).</p>"
+        "solution_html": "<p>Iloczyn trzech różnych liczb pierwszych, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>30</mn></mrow></math>, może być parzysty, gdy jednym z czynników jest 2 (TAK). Nie może być podzielny przez 4, bo czynnik 2 występuje co najwyżej raz — liczby są różne (NIE). Nie może być równy 15, bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>15</mn><mo>=</mo><mn>3</mn><mo>·</mo><mn>5</mn></mrow></math> jest iloczynem tylko dwóch liczb pierwszych (NIE).</p>",
+        "model": {
+          "answer": "PFF",
+          "by": "sonnet",
+          "agrees": true
+        }
       }
     },
     {
@@ -179,7 +204,12 @@
       "figures": [],
       "answer": {
         "correct": "160",
-        "solution_html": "<p>Wśród liczb od 1 do 300 podzielnych przez 3 jest 100, podzielnych przez 5 jest 60, a podzielnych przez 15 jest 20. Skreślono więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mo>+</mo><mn>60</mn><mo>−</mo><mn>20</mn><mo>=</mo><mn>140</mn></mrow></math> liczb. Pozostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>300</mn><mo>−</mo><mn>140</mn><mo>=</mo><mn>160</mn></mrow></math> liczb.</p>"
+        "solution_html": "<p>Wśród liczb od 1 do 300 podzielnych przez 3 jest 100, podzielnych przez 5 jest 60, a podzielnych przez 15 jest 20. Skreślono więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mo>+</mo><mn>60</mn><mo>−</mo><mn>20</mn><mo>=</mo><mn>140</mn></mrow></math> liczb. Pozostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>300</mn><mo>−</mo><mn>140</mn><mo>=</mo><mn>160</mn></mrow></math> liczb.</p>",
+        "model": {
+          "answer": "160",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -197,7 +227,12 @@
       "figures": [],
       "answer": {
         "correct": "1 cm",
-        "solution_html": "<p>Pole kwadratu to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mo>+</mo><mn>15</mn><mo>=</mo><mn>25</mn></mrow></math> cm², więc jego bok ma 5 cm. Prosta z wierzchołka odcina trójkąt prostokątny, którego jedną przyprostokątną jest bok kwadratu (5 cm). Z pola <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>5</mn><mo>·</mo><mi>h</mi><mo>=</mo><mn>10</mn></mrow></math> wynika <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><mn>4</mn></mrow></math> cm, więc na sąsiednim boku pozostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>−</mo><mn>4</mn><mo>=</mo><mn>1</mn></mrow></math> cm. Krótsza podstawa trapezu ma 1 cm (dłuższa to bok kwadratu, 5 cm).</p>"
+        "solution_html": "<p>Pole kwadratu to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mo>+</mo><mn>15</mn><mo>=</mo><mn>25</mn></mrow></math> cm², więc jego bok ma 5 cm. Prosta z wierzchołka odcina trójkąt prostokątny, którego jedną przyprostokątną jest bok kwadratu (5 cm). Z pola <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>5</mn><mo>·</mo><mi>h</mi><mo>=</mo><mn>10</mn></mrow></math> wynika <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><mn>4</mn></mrow></math> cm, więc na sąsiednim boku pozostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>−</mo><mn>4</mn><mo>=</mo><mn>1</mn></mrow></math> cm. Krótsza podstawa trapezu ma 1 cm (dłuższa to bok kwadratu, 5 cm).</p>",
+        "model": {
+          "answer": "1 cm",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -215,7 +250,12 @@
       "figures": [],
       "answer": {
         "correct": "72 większe i 8 mniejszych, 48 większych i 32 mniejsze albo 24 większe i 56 mniejszych",
-        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę stron ze zdjęciami większymi (po 3), a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> — ze zdjęciami mniejszymi (po 8). Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>8</mn><mi>y</mi><mo>=</mo><mn>80</mn></mrow></math>, przy czym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>≥</mo><mn>1</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>≥</mo><mn>1</mn></mrow></math>. Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>80</mn><mo>−</mo><mn>8</mn><mi>y</mi></mrow></math> musi być podzielna przez 3, co daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>1</mn></mrow></math>, 4 lub 7. Stąd trzy możliwości: 72 większe i 8 mniejszych, 48 większych i 32 mniejsze oraz 24 większe i 56 mniejszych.</p>"
+        "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę stron ze zdjęciami większymi (po 3), a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> — ze zdjęciami mniejszymi (po 8). Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>8</mn><mi>y</mi><mo>=</mo><mn>80</mn></mrow></math>, przy czym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>≥</mo><mn>1</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>≥</mo><mn>1</mn></mrow></math>. Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>80</mn><mo>−</mo><mn>8</mn><mi>y</mi></mrow></math> musi być podzielna przez 3, co daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>1</mn></mrow></math>, 4 lub 7. Stąd trzy możliwości: 72 większe i 8 mniejszych, 48 większych i 32 mniejsze oraz 24 większe i 56 mniejszych.</p>",
+        "model": {
+          "answer": "72 większych i 8 mniejszych, lub 48 większych i 32 mniejszych, lub 24 większych i 56 mniejszych",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -233,7 +273,12 @@
       "figures": [],
       "answer": {
         "correct": "mniejsze o 18 dm², czyli o 33⅓%",
-        "solution_html": "<p>Pole powierzchni sześcianu o krawędzi 3 dm wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>·</mo><msup><mn>3</mn><mn>2</mn></msup><mo>=</mo><mn>54</mn></mrow></math> dm². Po przecięciu powstają prostopadłościany o wymiarach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>×</mo><mn>3</mn><mo>×</mo><mn>1,5</mn></mrow></math> dm; pole powierzchni jednego z nich to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mo>(</mo><mn>3</mn><mo>·</mo><mn>3</mn><mo>+</mo><mn>3</mn><mo>·</mo><mn>1,5</mn><mo>+</mo><mn>3</mn><mo>·</mo><mn>1,5</mn><mo>)</mo><mo>=</mo><mn>36</mn></mrow></math> dm². Różnica wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>54</mn><mo>−</mo><mn>36</mn><mo>=</mo><mn>18</mn></mrow></math> dm². Procentowo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>18</mn><mn>54</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math>, czyli powierzchnia prostopadłościanu jest mniejsza o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>33</mn><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>%</mo></mrow></math> (≈ 33,3%).</p>"
+        "solution_html": "<p>Pole powierzchni sześcianu o krawędzi 3 dm wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>·</mo><msup><mn>3</mn><mn>2</mn></msup><mo>=</mo><mn>54</mn></mrow></math> dm². Po przecięciu powstają prostopadłościany o wymiarach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>×</mo><mn>3</mn><mo>×</mo><mn>1,5</mn></mrow></math> dm; pole powierzchni jednego z nich to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mo>(</mo><mn>3</mn><mo>·</mo><mn>3</mn><mo>+</mo><mn>3</mn><mo>·</mo><mn>1,5</mn><mo>+</mo><mn>3</mn><mo>·</mo><mn>1,5</mn><mo>)</mo><mo>=</mo><mn>36</mn></mrow></math> dm². Różnica wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>54</mn><mo>−</mo><mn>36</mn><mo>=</mo><mn>18</mn></mrow></math> dm². Procentowo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>18</mn><mn>54</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math>, czyli powierzchnia prostopadłościanu jest mniejsza o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>33</mn><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>%</mo></mrow></math> (≈ 33,3%).</p>",
+        "model": {
+          "answer": "o 18 dm² mniej; o 33⅓% (33,(3)%) mniejsza",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -251,7 +296,12 @@
       "figures": [],
       "answer": {
         "correct": "150",
-        "solution_html": "<p>Sprzedano 20% choinek, a zostało 80%. Różnica <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>80</mn><mo>%</mo><mo>−</mo><mn>20</mn><mo>%</mo><mo>=</mo><mn>60</mn><mo>%</mo></mrow></math> wszystkich choinek to 90 sztuk, więc wszystkich było <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>90</mn><mo>:</mo><mn>0,6</mn><mo>=</mo><mn>150</mn></mrow></math>.</p>"
+        "solution_html": "<p>Sprzedano 20% choinek, a zostało 80%. Różnica <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>80</mn><mo>%</mo><mo>−</mo><mn>20</mn><mo>%</mo><mo>=</mo><mn>60</mn><mo>%</mo></mrow></math> wszystkich choinek to 90 sztuk, więc wszystkich było <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>90</mn><mo>:</mo><mn>0,6</mn><mo>=</mo><mn>150</mn></mrow></math>.</p>",
+        "model": {
+          "answer": "150",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     },
     {
@@ -268,7 +318,12 @@
       "figures": [],
       "answer": {
         "correct": "29",
-        "solution_html": "<p>Kasia i pięcioro znajomych to 6 osób, więc suma punktów wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>·</mo><mn>27,5</mn><mo>=</mo><mn>165</mn></mrow></math>. Znajomi zdobyli łącznie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>35</mn><mo>+</mo><mn>17</mn><mo>+</mo><mn>24</mn><mo>+</mo><mn>18</mn><mo>+</mo><mn>42</mn><mo>=</mo><mn>136</mn></mrow></math> punktów. Kasia uzyskała <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>165</mn><mo>−</mo><mn>136</mn><mo>=</mo><mn>29</mn></mrow></math> punktów.</p>"
+        "solution_html": "<p>Kasia i pięcioro znajomych to 6 osób, więc suma punktów wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>·</mo><mn>27,5</mn><mo>=</mo><mn>165</mn></mrow></math>. Znajomi zdobyli łącznie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>35</mn><mo>+</mo><mn>17</mn><mo>+</mo><mn>24</mn><mo>+</mo><mn>18</mn><mo>+</mo><mn>42</mn><mo>=</mo><mn>136</mn></mrow></math> punktów. Kasia uzyskała <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>165</mn><mo>−</mo><mn>136</mn><mo>=</mo><mn>29</mn></mrow></math> punktów.</p>",
+        "model": {
+          "answer": "29",
+          "by": "sonnet",
+          "agrees": null
+        }
       }
     }
   ]
