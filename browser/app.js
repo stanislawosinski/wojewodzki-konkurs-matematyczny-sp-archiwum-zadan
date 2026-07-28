@@ -90,7 +90,7 @@ const search = $('search'), inc = $('include'), exc = $('exclude'),
   setsummary = $('setsummary'),
   qlist = $('qlist'), facetsEl = $('facets'),
   clearFilters = $('clearFilters'), clearFacets = $('clearFacets'), clearSearch = $('clearSearch'),
-  clearSelBar = $('clearSelBar'), printBtn = $('printBtn'), onePerPage = $('onePerPage'),
+  clearSelBar = $('clearSelBar'), printBtn = $('printBtn'),
   settingsBtn = $('settingsBtn'), settingsPop = $('settingsPop');
 const pagers = [...document.querySelectorAll('.pager')];
 
@@ -488,8 +488,14 @@ loadData().then(data => {
   $('clearSel').onclick = () => { inc.value = ''; writeUrl(false); refilter(); };
   clearFilters.onclick = e => { e.preventDefault(); clearAllFilters(); };
   clearFacets.onclick = e => { e.preventDefault(); clearFacetSelections(); writeUrl(true); refilter(); };
-  onePerPage.onchange = () => document.body.classList.toggle('onePerPage', onePerPage.checked); // print layout only
-  document.body.classList.toggle('onePerPage', onePerPage.checked); // honor the default (checked)
+  // print page-break mode (radio): one/two questions per page, or none. Only affects print.
+  const applyPageMode = () => {
+    const mode = document.querySelector('input[name="pageMode"]:checked').value;
+    document.body.classList.toggle('one-per-page', mode === 'one');
+    document.body.classList.toggle('two-per-page', mode === 'two');
+  };
+  for (const r of document.querySelectorAll('input[name="pageMode"]')) r.onchange = applyPageMode;
+  applyPageMode();
   // meta type toggles: each checkbox hides its tag type via a body class (default checked = shown)
   for (const [id, cls] of [['metaWoj', 'hide-woj'], ['metaRok', 'hide-rok'], ['metaEtap', 'hide-etap'], ['metaTopics', 'hide-topics']]) {
     const cb = $(id), apply = () => document.body.classList.toggle(cls, !cb.checked);

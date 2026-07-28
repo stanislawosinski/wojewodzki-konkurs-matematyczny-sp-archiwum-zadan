@@ -173,6 +173,10 @@ math{font-size:1.05em}
   .q{break-inside:avoid}        /* 2. keep each question on one page */
   .qmeta{display:none}          /* 3. hide source + tags when printing */
   .reveal>summary{display:none} /* hide the reveal button (opened answers still print) */
-  /* opt-in: one question per page, leaving the rest of the sheet for working out */
-  .onePerPage .q:not(:last-child){break-after:page;page-break-after:always}
+  /* page-break modes: break after every question (1/page) or every 2nd (2/page); none = continuous */
+  .one-per-page .q:not(:last-child){break-after:page;page-break-after:always}
+  /* 2/page: reserve ~half a page per question so notes sit under each, not both at the top.
+     min-height is A4-tuned; kept a touch under half so two fit even with larger margins. */
+  .two-per-page .q{min-height:11.5cm}
+  .two-per-page .q:nth-child(2n):not(:last-child){break-after:page;page-break-after:always}
 }
