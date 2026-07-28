@@ -270,6 +270,21 @@ function renderQuestion(q, seq) {
   return parts.join('\n');
 }
 
+// Short A–D choices read better as one row than as four lines. But "short" is a rendered
+// width — a fraction in MathML is two characters and half a line tall — so nothing is
+// guessed from the text: every list is laid out inline and the row is kept only where it
+// measurably did not wrap. Batched write → read → write, so a page costs one reflow.
+function layoutChoices(root) {
+  const lists = [...root.querySelectorAll('.choices')]
+    .filter(ol => ol.children.length > 1 && !ol.querySelector('img')); // an image not yet loaded measures 0 wide
+  for (const ol of lists) ol.classList.add('inline');
+  const wrapped = lists.filter(ol => {
+    const k = ol.children;
+    return k[0].offsetTop !== k[k.length - 1].offsetTop || ol.scrollWidth > ol.clientWidth;
+  });
+  for (const ol of wrapped) ol.classList.remove('inline');
+}
+
 function update() {
   const incIds = idList(inc.value), useInc = incIds.length > 0;
   const excSet = new Set(idList(exc.value));
@@ -297,6 +312,7 @@ function update() {
   const start = (page - 1) * PAGE_SIZE;
   qlist.innerHTML = matched.slice(start, start + PAGE_SIZE)
     .map((q, i) => renderQuestion(q, useInc ? start + i + 1 : null)).join('\n');
+  layoutChoices(qlist);
   for (const p of pagers) {
     p.hidden = pages === 1;
     p.querySelector('.pageinfo').textContent = `Strona ${page} z ${pages}`;

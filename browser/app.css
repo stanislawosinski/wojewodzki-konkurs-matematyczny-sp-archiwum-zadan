@@ -135,6 +135,10 @@ select{font:inherit;padding:.35rem}
 .prompt{margin:.5rem 0} .fig{max-width:100%;height:auto;margin:.4rem 0}
 ul,ol.choices{margin:.4rem 0} .choices{list-style:none;padding-left:0}
 .choice{margin:.25rem 0;padding:.15rem .4rem;border-radius:4px}
+/* One row instead of four lines. The class is put on by layoutChoices(), and only where the
+   row was measured to fit. wrap stays on: the print column can be narrower than the screen
+   one, and there the row should break rather than run past the margin. */
+.choices.inline{display:flex;flex-wrap:wrap;column-gap:1.2rem}
 .lbl{font-weight:bold;margin-right:.3rem}
 math{font-size:1.05em}
 /* per-question reveal: native <details>; toggle sits in the gutter, 1em below the checkbox */
