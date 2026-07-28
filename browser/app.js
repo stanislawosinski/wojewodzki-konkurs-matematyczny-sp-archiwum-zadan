@@ -232,8 +232,14 @@ function renderQuestion(q, seq) {
     + `<span class="hash" title="kliknij, aby skopiować id">(${q.hash})</span>`
     + `<span class="qmeta">${metaHtml}</span></div>`);
   parts.push(`<div class="prompt">${q.prompt_html}</div>`);
-  for (const fig of q.figures || [])
-    parts.push(`<img class="fig" src="figures/${esc(fig)}" loading="lazy" alt="rysunek do zadania ${q.number}">`);
+  for (const fig of q.figures || []) {
+    // A 400 dpi figure is laid out at its 200 dpi size, so the extra pixels go to
+    // sharpness rather than to a picture twice as large. (srcset "2x" does NOT do this:
+    // src joins the candidate list as 1x and wins on a non-retina display.)
+    const d = (q.figdim || {})[fig];
+    const dim = d ? ` width="${d[0]}" height="${d[1]}"` : '';
+    parts.push(`<img class="fig" src="figures/${esc(fig)}"${dim} loading="lazy" alt="rysunek do zadania ${q.number}">`);
+  }
   const correct = q.answer && q.answer.correct;
   if (q.choices && q.choices.length) {
     parts.push('<ol class="choices">');

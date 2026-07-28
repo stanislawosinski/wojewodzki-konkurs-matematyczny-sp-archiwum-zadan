@@ -1,15 +1,20 @@
 #!/usr/bin/env python3
 """Audit and re-crop question figures.
 
-browser/figures/*.png are pdftoppm crops of the source PDF pages at 200 dpi. The crop
-boxes were never recorded -- but they are exactly recoverable: re-render the page and
-template-match the PNG into it, and the match is pixel-identical. Everything here builds
-on that. Nothing is persisted; boxes are re-derived on demand.
+browser/figures/*.png are crops of the source PDF pages. The crop boxes were never
+recorded -- but they are exactly recoverable: re-render the page and template-match the
+PNG into it, and the match is pixel-identical. Everything here builds on that. Nothing is
+persisted; boxes are re-derived on demand, always in 200-dpi page coordinates.
+
+Figures whose source region is vector art are shipped at 400 dpi (`hidpi`); the rest stay
+at 200. locate() halves a 400-dpi figure before matching, so boxes stay comparable and
+every command works on both.
 
   figcrop.py audit                    # scan every figure, score clipping evidence
   figcrop.py queue [hash|fig ...]     # build per-figure work items for review agents
   figcrop.py crop <fig> X Y W H       # preview a candidate box
   figcrop.py crop <fig> X Y W H --apply    # overwrite the figure in the repo
+  figcrop.py hidpi [--apply]          # re-render vector figures at 400 dpi
   figcrop.py revert <fig>             # restore from the pre-apply backup
   figcrop.py montage                  # contact sheets of unflagged figures
   figcrop.py sheet                    # recrop-review.html for the human gate
@@ -21,10 +26,12 @@ import cv2, numpy as np
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FIGS = os.path.join(REPO, 'browser', 'figures')
 WORK = os.environ.get('FIGWORK', '/private/tmp/konkurs-figwork')
-DPI = 200
+DPI = 200          # crop boxes are always expressed at this page-render scale
+HIDPI = 400        # vector figures are shipped at this scale
 INK = 200          # gray < INK counts as ink
 OUTSIDE_T = 0.002  # ink just outside the box -> something got clipped
 BORDER_T = 0.01    # ink on the box's own edge -> clipped, or a stray rule got included
+BLOB_T = 10        # largest blob of ink a re-render may add to the shipped figure
 
 
 # --- corpus index -----------------------------------------------------------
@@ -60,23 +67,23 @@ def todo_notes():
 
 _pcache = {}
 
-def page(src, pg, color=False):
-    """Render one page of pdfs/<src> at 200 dpi. None if it can't be rendered.
+def page(src, pg, color=False, dpi=DPI):
+    """Render one page of pdfs/<src>. None if it can't be rendered.
 
     Cache key includes the stage directory -- szkolny/, rejonowy/ and wojewodzki/ share
     PDF basenames, and collapsing them silently serves the wrong page.
     """
     if pg < 1:
         return None
-    key = (src, pg, color)
+    key = (src, pg, color, dpi)
     if key in _pcache:
         return _pcache[key]
-    stem = os.path.join(WORK, 'pages', src.replace('/', '__')[:-4] + f'_{pg}')
+    stem = os.path.join(WORK, 'pages', src.replace('/', '__')[:-4] + f'_{pg}_{dpi}')
     os.makedirs(os.path.dirname(stem), exist_ok=True)
     hits = glob.glob(stem + '-*.png')
     if not hits:
         try:
-            subprocess.run(['pdftoppm', '-png', '-r', str(DPI), '-f', str(pg), '-l', str(pg),
+            subprocess.run(['pdftoppm', '-png', '-r', str(dpi), '-f', str(pg), '-l', str(pg),
                             os.path.join(REPO, 'pdfs', src), stem],
                            check=True, capture_output=True)
         except subprocess.CalledProcessError:
@@ -94,30 +101,50 @@ def page(src, pg, color=False):
 
 
 def locate(figname, src, pg):
-    """Find the figure's crop box in its page. -> (x, y, w, h, page, score) or None.
+    """Find the figure's crop box in its page.
+
+    -> (x, y, w, h, page, score, scale) or None. The box is in 200-dpi page coordinates
+    whatever the figure's own resolution; scale is the figure's pixels per box pixel
+    (1 for a 200-dpi figure, 2 for a 400-dpi one).
 
     Tries the recorded page first, then +-1: a handful of figures sit on the neighbouring
     page because the question spans a page break.
 
     Squared-difference finds an exact re-render. Figures with fine hatching are noisy
-    enough under it to miss the cutoff, so fall back to correlation, which separates
-    cleanly: a real match scores ~0.88, a figure genuinely absent from the PDF ~0.1.
+    enough under it to miss the cutoff -- as is any 400-dpi figure, whose downscale
+    resamples differently from a native 200-dpi render -- so fall back to correlation,
+    which separates cleanly: a real match scores ~0.9, a figure genuinely absent ~0.1.
     """
-    F = cv2.imread(os.path.join(FIGS, figname), cv2.IMREAD_GRAYSCALE)
-    if F is None:
+    F0 = cv2.imread(os.path.join(FIGS, figname), cv2.IMREAD_GRAYSCALE)
+    if F0 is None:
         return None
     pages = [(p, page(src, p)) for p in (pg, pg + 1, pg - 1)]
-    pages = [(p, P) for p, P in pages
-             if P is not None and F.shape[0] <= P.shape[0] and F.shape[1] <= P.shape[1]]
-    for p, P in pages:
+    pages = [(p, P) for p, P in pages if P is not None]
+    cands = []
+    for s in (1, 2):
+        F = F0 if s == 1 else cv2.resize(F0, (F0.shape[1] // 2, F0.shape[0] // 2),
+                                         interpolation=cv2.INTER_AREA)
+        for p, P in pages:
+            if F.shape[0] <= P.shape[0] and F.shape[1] <= P.shape[1]:
+                cands.append((s, F, p, P))
+    for s, F, p, P in cands:
         mn, _, loc, _ = cv2.minMaxLoc(cv2.matchTemplate(P, F, cv2.TM_SQDIFF_NORMED))
         if mn < 1e-2:
-            return loc[0], loc[1], F.shape[1], F.shape[0], p, float(mn)
-    for p, P in pages:
+            return loc[0], loc[1], F.shape[1], F.shape[0], p, float(mn), s
+    for s, F, p, P in cands:
         _, mx, _, loc = cv2.minMaxLoc(cv2.matchTemplate(P, F, cv2.TM_CCOEFF_NORMED))
         if mx > 0.85:
-            return loc[0], loc[1], F.shape[1], F.shape[0], p, float(mx)
+            return loc[0], loc[1], F.shape[1], F.shape[0], p, float(mx), s
     return None
+
+
+def figure(figname, scale=1):
+    """The shipped figure as grayscale, downscaled to 200-dpi page scale."""
+    F = cv2.imread(os.path.join(FIGS, figname), cv2.IMREAD_GRAYSCALE)
+    if F is None or scale == 1:
+        return F
+    return cv2.resize(F, (F.shape[1] // scale, F.shape[0] // scale),
+                      interpolation=cv2.INTER_AREA)
 
 
 # --- geometry ---------------------------------------------------------------
@@ -194,9 +221,8 @@ def cmd_audit(a):
         if not loc:
             unlocated.append((f, h, qid, pg, src))
             continue
-        x, y, w, hh, p, _ = loc
-        o, b = signals(page(src, p), cv2.imread(os.path.join(FIGS, f), cv2.IMREAD_GRAYSCALE),
-                       x, y, w, hh)
+        x, y, w, hh, p, _, s = loc
+        o, b = signals(page(src, p), figure(f, s), x, y, w, hh)
         flag = 'todo' if h in notes else ('flag' if (o > OUTSIDE_T or b > BORDER_T) else '')
         rows.append((f, h, qid, pg, p, x, y, w, hh, round(o, 5), round(b, 5), flag,
                      notes.get(h, '')))
@@ -282,14 +308,16 @@ def cmd_crop(a):
         sys.exit(f'unknown figure: {a.fig}')
     _, _, pg, src = figs[a.fig]
     loc = locate(a.fig, src, pg)
-    pfound = loc[4] if loc else pg
+    pfound, scale = (loc[4], loc[6]) if loc else (pg, 1)
     P = page(src, pfound)
     if P is None:
         sys.exit(f'cannot render page {pfound} of {src}')
     x, y, w, h = a.box
     if x < 0 or y < 0 or x + w > P.shape[1] or y + h > P.shape[0]:
         sys.exit(f'box outside page ({P.shape[1]}x{P.shape[0]})')
-    crop = P[y:y + h, x:x + w]
+    # a 400-dpi figure gets re-cropped at 400 dpi -- the box stays in 200-dpi coordinates
+    Pc = P if scale == 1 else page(src, pfound, dpi=DPI * scale)
+    crop = Pc[y * scale:(y + h) * scale, x * scale:(x + w) * scale]
     if a.apply:
         dest = os.path.join(FIGS, a.fig)
         bak = os.path.join(WORK, 'orig', a.fig)
@@ -303,6 +331,108 @@ def cmd_crop(a):
         os.makedirs(os.path.dirname(out), exist_ok=True)
         cv2.imwrite(out, crop)
         print(out)
+
+
+def is_vector(src, p, box):
+    """Is the crop box vector art in the PDF, rather than a pasted bitmap?
+
+    Only vector regions have detail beyond 200 dpi worth re-rendering. A low-res bitmap
+    upscaled to 400 dpi is the same blur at three times the bytes.
+    """
+    import fitz
+    try:
+        doc = fitz.open(os.path.join(REPO, 'pdfs', src))
+        pg = doc[p - 1]
+    except Exception:
+        return False
+    x, y, w, h = box
+    s = 72 / DPI
+    R = fitz.Rect(x * s, y * s, (x + w) * s, (y + h) * s)
+    for im in pg.get_images(full=True):
+        for r in pg.get_image_rects(im[0]):
+            if (fitz.Rect(r) & R).get_area() / max(R.get_area(), 1e-9) >= 0.5:
+                return False
+    return sum(1 for d in pg.get_drawings() if R.intersects(d['rect'])) >= 3
+
+
+def cmd_hidpi(a):
+    """Re-render vector figures at 400 dpi. Gated on matching what we already ship."""
+    figs, _ = index()
+    done = skip = reject = 0
+    hi = {}
+    for i, (f, (h, qid, pg, src)) in enumerate(sorted(figs.items()), 1):
+        if i % 100 == 0:
+            print(f'  ...{i}/{len(figs)}', file=sys.stderr)
+        loc = locate(f, src, pg)
+        if not loc:
+            skip += 1
+            continue
+        x, y, w, hh, p, _, s = loc
+        P = page(src, p, dpi=HIDPI)
+        P2 = page(src, p)
+        if P is None or P.shape[0] != P2.shape[0] * 2 or P.shape[1] != P2.shape[1] * 2:
+            skip += 1
+            continue
+        crop = P[y * 2:(y + hh) * 2, x * 2:(x + w) * 2]
+        if s == 2:
+            # Already re-rendered on an earlier run -- but only if it really is the
+            # 400 dpi page slice. A figure whose source PDF no longer contains it can
+            # correlate past locate()'s cutoff at half scale purely because downscaling
+            # smooths it, and listing that as 2x would render it at half size.
+            if np.array_equal(crop, cv2.imread(os.path.join(FIGS, f), cv2.IMREAD_GRAYSCALE)):
+                hi[f] = [w, hh]
+            skip += 1
+            continue
+        if not is_vector(src, p, (x, y, w, hh)):
+            skip += 1
+            continue
+        # The gate: downscaled, the re-render must not bring back ink the shipped figure
+        # doesn't have. That is what a figure edited after cropping looks like -- the
+        # erased prompt text -- and re-rendering it from the PDF would undo the edit.
+        #
+        # Measured as the largest connected blob, not a total or a whole-image average.
+        # An average is hopeless (a resurrected word moves it by ~1 gray level) and a
+        # total conflates two different things: fine hatching resamples differently at
+        # 400 dpi and scatters isolated pixels, while text arrives as one solid blob.
+        # Clean figures top out at 1 px; the two known erased ones score 35 and 54.
+        old = cv2.imread(os.path.join(FIGS, f), cv2.IMREAD_GRAYSCALE)
+        half = cv2.resize(crop, (old.shape[1], old.shape[0]), interpolation=cv2.INTER_AREA)
+        gained = ((half < INK) & (old >= INK)).astype(np.uint8)
+        gained = cv2.erode(gained, np.ones((3, 3), np.uint8))  # drop the antialias rim
+        n, _, stats, _ = cv2.connectedComponentsWithStats(gained, 8)
+        blob = int(stats[1:, cv2.CC_STAT_AREA].max()) if n > 1 else 0
+        if blob > BLOB_T:
+            print(f'  REJECT {f}  re-render adds a {blob}px blob of ink')
+            reject += 1
+            continue
+        # Post-condition: the figure must still find its own box afterwards. Fine hatching
+        # resamples into different moire at each dpi, and a few figures stop correlating
+        # with their own page once halved -- shipping those would trade a sharper picture
+        # for an unrecoverable crop box, which is the one thing this file guarantees.
+        _, mx, _, mloc = cv2.minMaxLoc(cv2.matchTemplate(P2, half, cv2.TM_CCOEFF_NORMED))
+        if mx <= 0.85 or mloc != (x, y):
+            print(f'  REJECT {f}  would stop locating (best {mx:.2f} at {mloc}, want {(x, y)})')
+            reject += 1
+            continue
+        if a.apply:
+            dest = os.path.join(FIGS, f)
+            bak = os.path.join(WORK, 'orig', f)
+            os.makedirs(os.path.dirname(bak), exist_ok=True)
+            if not os.path.exists(bak):
+                shutil.copy2(dest, bak)
+            cv2.imwrite(dest, crop)
+            hi[f] = [w, hh]
+        done += 1
+    print(f'{"re-rendered" if a.apply else "eligible"} {done}   skipped {skip}   rejected {reject}')
+    if a.apply:
+        # fig -> [w, h] in CSS px, i.e. the 200 dpi box. The app puts these on the <img>
+        # so a 400 dpi figure lays out at the same size as before instead of at its
+        # natural (doubled) size. Rebuilt whole each run, so it never drifts.
+        man = os.path.join(FIGS, 'hidpi.json')
+        json.dump(dict(sorted(hi.items())), open(man, 'w'), indent=0)
+        print(f'-> {man} ({len(hi)} figures at {HIDPI} dpi)')
+    else:
+        print('(dry run -- pass --apply to write)')
 
 
 def cmd_revert(a):
@@ -383,14 +513,15 @@ def self_check():
     src = 'szkolny/2011-2012_warminsko-mazurskie.pdf'
     loc = locate(f, src, 6)
     assert loc is not None, 'figure did not locate'
-    x, y, w, h, p, score = loc
+    x, y, w, h, p, score, s = loc
     # ponytail: no hardcoded box — re-cropping this figure would only make it stale.
     # Pixel-identity below is the invariant; the box is whatever it is.
     assert p == 6, f'located on wrong page: {loc}'
-    P = page(src, p)
+    P = page(src, p, dpi=DPI * s)
     F = cv2.imread(os.path.join(FIGS, f), cv2.IMREAD_GRAYSCALE)
-    assert np.array_equal(P[y:y + h, x:x + w], F), 'page slice is not pixel-identical'
-    print('self-check ok: crop boxes are exactly recoverable')
+    assert np.array_equal(P[y * s:(y + h) * s, x * s:(x + w) * s], F), \
+        'page slice is not pixel-identical'
+    print(f'self-check ok: crop boxes are exactly recoverable (figure at {DPI * s} dpi)')
 
 
 def main():
@@ -403,6 +534,8 @@ def main():
     c = sub.add_parser('crop')
     c.add_argument('fig'); c.add_argument('box', nargs=4, type=int, metavar=('X', 'Y', 'W', 'H'))
     c.add_argument('--apply', action='store_true'); c.set_defaults(fn=cmd_crop)
+    hd = sub.add_parser('hidpi')
+    hd.add_argument('--apply', action='store_true'); hd.set_defaults(fn=cmd_hidpi)
     r = sub.add_parser('revert'); r.add_argument('figs', nargs='+'); r.set_defaults(fn=cmd_revert)
     sub.add_parser('montage').set_defaults(fn=cmd_montage)
     sub.add_parser('sheet').set_defaults(fn=cmd_sheet)

@@ -32,6 +32,14 @@ const suspects = new Set(
     .trim().split('\n').slice(1).map(l => l.split('\t')[0]),
 );
 
+// figures/hidpi.json maps each figure re-rendered at 400 dpi (scripts/figcrop.py hidpi)
+// to its [w, h] in CSS px. The app puts those on the <img> so a 400 dpi figure lays out at
+// the same size as a 200 dpi one instead of at its natural, doubled size.
+let hidpi = {};
+try {
+  hidpi = JSON.parse(readFileSync(fileURLToPath(new URL('figures/hidpi.json', import.meta.url)), 'utf8'));
+} catch { /* no re-rendered figures yet */ }
+
 for (const f of readdirSync(dataDir).filter(f => f.endsWith('.json')).sort()) {
   const t = JSON.parse(readFileSync(dataDir + f, 'utf8'));
   if (!byStage[t.stage]) {
@@ -50,6 +58,7 @@ for (const f of readdirSync(dataDir).filter(f => f.endsWith('.json')).sort()) {
       ...(suspects.has(hash) ? { suspect: true } : {}), // key flagged in suspected_key_errors.tsv
       topics: q.topics, prompt_html: q.prompt_html, choices: q.choices,
       figures: q.figures, answer: q.answer,
+      ...((q.figures || []).some(f => hidpi[f]) ? { figdim: Object.fromEntries(q.figures.filter(f => hidpi[f]).map(f => [f, hidpi[f]])) } : {}),
       source_file: t.source_file, school_year: t.school_year, wojewodztwo: t.wojewodztwo,
       stage: t.stage, school_type: t.school_type, competition: t.competition,
     });

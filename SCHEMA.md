@@ -78,6 +78,9 @@ Difficulty is **not** a field — `points` carries it (2p basic, 3p advanced her
    ```
    `-x/-y/-W/-H` are pixels at the chosen `-r` DPI. Iterate: render, `Read` the
    png, adjust the box until the figure is tight. Save as `<question_id>_figN.png`.
+   Crop at 200 — that is the scale every box in the corpus is expressed in. Then run
+   `scripts/figcrop.py hidpi --apply`, which re-renders the vector-source ones at 400
+   and lists them in `browser/figures/hidpi.json` for the app's `srcset ... 2x`.
 5. **Answer key** — read the paired `answers_file`. Keys are usually a table
    with an `X` under the correct column (A–E); map row→letter into
    `answer.correct`. If the key shows full solutions, put them in
