@@ -183,8 +183,9 @@ math{font-size:1.05em}
   .reveal>summary{display:none} /* hide the reveal button (opened answers still print) */
   /* page-break modes: break after every question (1/page) or every 2nd (2/page); none = continuous */
   .one-per-page .q:not(:last-child){break-after:page;page-break-after:always}
-  /* 2/page: reserve ~half a page per question so notes sit under each, not both at the top.
-     min-height is A4-tuned; kept a touch under half so two fit even with larger margins. */
+  /* 2/page: each question reserves ~half a page (min-height); with .q{break-inside:avoid}
+     the browser then packs two short ones per page, and any question too tall to leave a
+     half-page slot for a neighbour falls to its own page. A4-tuned, a touch under half so
+     two still fit under larger margins. No forced nth-child break — pagination is natural. */
   .two-per-page .q{min-height:11.5cm}
-  .two-per-page .q:nth-child(2n):not(:last-child){break-after:page;page-break-after:always}
 }
