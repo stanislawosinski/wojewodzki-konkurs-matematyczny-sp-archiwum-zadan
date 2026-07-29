@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="496" height="501" viewBox="0 0 496 501">
+  <rect width="496" height="501" fill="#fff"/>
+  <g fill="none" stroke="#000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- square base -->
+    <path d="M154,179 L320,179 L320,346 L154,346 Z"/>
+    <!-- top triangle (D) -->
+    <path d="M154,179 L238,35 L320,179"/>
+    <!-- right triangle (C) -->
+    <path d="M320,179 L464,262 L320,346"/>
+    <!-- bottom triangle -->
+    <path d="M320,346 L237,490 L154,346"/>
+    <!-- left triangle -->
+    <path d="M154,346 L10,263 L154,179"/>
+  </g>
+  <circle cx="237" cy="263" r="2.2" fill="#000"/>
+  <g font-family="Times New Roman,serif" font-style="italic" font-size="26" fill="#000">
+    <text x="233" y="30">D</text>
+    <text x="468" y="271">C</text>
+    <text x="131" y="368">A</text>
+    <text x="321" y="368">B</text>
+    <text x="243" y="279">O</text>
+  </g>
+</svg>

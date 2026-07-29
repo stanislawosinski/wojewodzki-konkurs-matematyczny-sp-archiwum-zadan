@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="470" height="420" viewBox="0 0 470 420">
+  <rect width="470" height="420" fill="#fff"/>
+
+  <!-- top corner triangle (grey) -->
+  <path d="M218.8,41.1 L165.1,133.0 L272.6,133.0 Z" fill="#e6e6e6" stroke="#000" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- bottom-left corner triangle (grey) -->
+  <path d="M28.9,366.0 L83.5,272.6 L137.5,366.0 Z" fill="#e6e6e6" stroke="#000" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- bottom-right corner triangle (grey) -->
+  <path d="M408.8,366.0 L354.3,272.8 L299.9,366.0 Z" fill="#e6e6e6" stroke="#000" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- remaining plain edges of the outer triangle (hexagon sides not shared with a corner triangle) -->
+  <line x1="272.6" y1="133.0" x2="354.3" y2="272.8" stroke="#000" stroke-width="2"/>
+  <line x1="299.9" y1="366.0" x2="137.5" y2="366.0" stroke="#000" stroke-width="2"/>
+  <line x1="83.5" y1="272.6" x2="165.1" y2="133.0" stroke="#000" stroke-width="2"/>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="650" height="448" viewBox="0 0 650 448">
+<rect width="650" height="448" fill="#fff"/>
+<!-- top shape: D -> C -> arc(circleB) -> P2 -> arc(circleA) -> D -->
+<path d="M 105.7 78.1 L 551.7 84.6 A 283.8 283.8 0 0 0 326.6 188.9 A 283.8 283.8 0 0 0 105.7 78.1 Z" fill="#9FDFFF" stroke="none"/>
+<!-- bottom shape: QA -> arc(circleA) -> P2 -> arc(circleB) -> QB -> line -> QA -->
+<path d="M 384.5 365.4 A 283.8 283.8 0 0 1 326.6 188.9 A 283.8 283.8 0 0 1 262.8 363.4 L 384.5 365.4 Z" fill="#9FDFFF" stroke="none"/>
+<circle cx="100.7" cy="360.6" r="283.8" fill="none" stroke="#4D4D4D" stroke-width="3"/>
+<circle cx="546.6" cy="368.2" r="283.8" fill="none" stroke="#4D4D4D" stroke-width="3"/>
+<line x1="105.7" y1="78.1" x2="551.7" y2="84.6" stroke="#4D4D4D" stroke-width="3"/>
+<line x1="100.7" y1="360.6" x2="546.6" y2="368.2" stroke="#4D4D4D" stroke-width="3"/>
+<line x1="105.7" y1="78.1" x2="100.7" y2="360.6" stroke="#4D4D4D" stroke-width="3"/>
+<line x1="551.7" y1="84.6" x2="546.6" y2="368.2" stroke="#4D4D4D" stroke-width="3"/>
+<circle cx="105.7" cy="78.1" r="9" fill="#3300FF"/>
+<circle cx="551.7" cy="84.6" r="9" fill="#3300FF"/>
+<circle cx="100.7" cy="360.6" r="9" fill="#3300FF"/>
+<circle cx="546.6" cy="368.2" r="9" fill="#3300FF"/>
+<text x="60" y="50" font-family="Helvetica,Arial,sans-serif" font-size="27" fill="#3300FF">D</text>
+<text x="565" y="62" font-family="Helvetica,Arial,sans-serif" font-size="27" fill="#3300FF">C</text>
+<text x="62" y="393" font-family="Helvetica,Arial,sans-serif" font-size="27" fill="#3300FF">A</text>
+<text x="570" y="413" font-family="Helvetica,Arial,sans-serif" font-size="27" fill="#3300FF">B</text>
+</svg>

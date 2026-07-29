@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="324" height="305" viewBox="0 0 324 305">
+  <rect width="324" height="305" fill="#fff"/>
+
+  <!-- triangle sides -->
+  <line x1="49.5" y1="32" x2="49.5" y2="272" stroke="#000" stroke-width="2.6"/>
+  <line x1="49.5" y1="272" x2="300" y2="272.5" stroke="#000" stroke-width="2.6"/>
+  <line x1="49.5" y1="32" x2="300" y2="272.5" stroke="#000" stroke-width="2.6"/>
+
+  <!-- dashed DE segment -->
+  <line x1="49.5" y1="179.8" x2="117.7" y2="97.5" stroke="#000" stroke-width="2" stroke-dasharray="5,4"/>
+
+  <!-- right-angle arc at C -->
+  <path d="M 52.43,230.10 A 42,42 0 0 1 91.44,269.80" fill="none" stroke="#000" stroke-width="2"/>
+  <rect x="69.6" y="255.4" width="4" height="4" fill="#000"/>
+
+  <!-- right-angle arc at E (off-centre, as drawn) -->
+  <path d="M 139.52,132.58 A 33,33 0 0 1 93.35,135.41" fill="none" stroke="#000" stroke-width="2"/>
+  <rect x="118.5" y="127.5" width="4" height="2.5" fill="#000"/>
+
+  <!-- labels -->
+  <text x="27" y="38" font-family="Times New Roman,serif" font-size="27" stroke="#000" stroke-width="0.4">B</text>
+  <text x="138" y="93" font-family="Times New Roman,serif" font-size="27" stroke="#000" stroke-width="0.4">E</text>
+  <text x="10" y="193" font-family="Times New Roman,serif" font-size="27" stroke="#000" stroke-width="0.4">D</text>
+  <text x="17" y="289" font-family="Times New Roman,serif" font-size="27" stroke="#000" stroke-width="0.4">C</text>
+  <text x="292" y="295" font-family="Times New Roman,serif" font-size="27" stroke="#000" stroke-width="0.4">A</text>
+</svg>

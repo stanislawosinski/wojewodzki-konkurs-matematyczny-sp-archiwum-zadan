@@ -40,6 +40,14 @@ try {
   hidpi = JSON.parse(readFileSync(fileURLToPath(new URL('figures/hidpi.json', import.meta.url)), 'utf8'));
 } catch { /* no re-rendered figures yet */ }
 
+// figures/svg/<name>.svg is a vector redraw of figures/<name>.png. Only some figures have one;
+// the app offers a per-question bitmap↔vector toggle for the questions that do.
+let svgs = new Set();
+try {
+  svgs = new Set(readdirSync(fileURLToPath(new URL('figures/svg/', import.meta.url))));
+} catch { /* no redrawn figures yet */ }
+const svgOf = f => f.replace(/\.png$/, '.svg');
+
 for (const f of readdirSync(dataDir).filter(f => f.endsWith('.json')).sort()) {
   const t = JSON.parse(readFileSync(dataDir + f, 'utf8'));
   if (!byStage[t.stage]) {
@@ -52,6 +60,7 @@ for (const f of readdirSync(dataDir).filter(f => f.endsWith('.json')).sort()) {
     if (seenHash.has(hash)) { console.error(`hash collision ${hash}: ${q.id} vs ${seenHash.get(hash)} — lengthen the hash`); process.exit(1); }
     seenId.set(q.id, f); seenHash.set(hash, q.id);
     for (const tag of q.topics || []) if (!LEAVES.has(tag)) badTopics.push(`${q.id}: "${tag}"`);
+    const figsvg = (q.figures || []).filter(f => svgs.has(svgOf(f)));
     byStage[t.stage].push({
       id: q.id, hash, number: q.number, page: q.page, type: q.type, points: q.points,
       ...(q.annulled ? { annulled: true } : {}), // only the rare annulled ones carry the flag
@@ -59,6 +68,7 @@ for (const f of readdirSync(dataDir).filter(f => f.endsWith('.json')).sort()) {
       topics: q.topics, prompt_html: q.prompt_html, choices: q.choices,
       figures: q.figures, answer: q.answer,
       ...((q.figures || []).some(f => hidpi[f]) ? { figdim: Object.fromEntries(q.figures.filter(f => hidpi[f]).map(f => [f, hidpi[f]])) } : {}),
+      ...(figsvg.length ? { figsvg } : {}),
       source_file: t.source_file, school_year: t.school_year, wojewodztwo: t.wojewodztwo,
       stage: t.stage, school_type: t.school_type, competition: t.competition,
     });

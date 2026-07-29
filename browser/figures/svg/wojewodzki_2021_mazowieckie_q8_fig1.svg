@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="283" viewBox="0 0 380 283">
+  <rect width="380" height="283" fill="#fff"/>
+
+  <!-- solid cube edges -->
+  <!-- front face A B F E -->
+  <line x1="48" y1="244" x2="216" y2="244" stroke="black" stroke-width="2"/>
+  <line x1="216" y1="244" x2="216" y2="76" stroke="black" stroke-width="2"/>
+  <line x1="216" y1="76" x2="48" y2="76" stroke="black" stroke-width="2"/>
+  <line x1="48" y1="76" x2="48" y2="244" stroke="black" stroke-width="2"/>
+  <!-- right/back visible edges -->
+  <line x1="216" y1="244" x2="287" y2="196" stroke="black" stroke-width="2"/>
+  <line x1="287" y1="196" x2="287" y2="28" stroke="black" stroke-width="2"/>
+  <line x1="287" y1="28" x2="216" y2="76" stroke="black" stroke-width="2"/>
+  <line x1="287" y1="28" x2="119" y2="28" stroke="black" stroke-width="2"/>
+  <line x1="119" y1="28" x2="48" y2="76" stroke="black" stroke-width="2"/>
+
+  <!-- pyramid lateral edges EB, EC (solid) -->
+  <line x1="48" y1="76" x2="216" y2="244" stroke="black" stroke-width="2"/>
+  <line x1="48" y1="76" x2="287" y2="196" stroke="black" stroke-width="2"/>
+
+  <!-- hidden dashed edges through D -->
+  <line x1="48" y1="244" x2="119" y2="196" stroke="black" stroke-width="1.5" stroke-dasharray="7,5"/>
+  <line x1="119" y1="196" x2="287" y2="196" stroke="black" stroke-width="1.5" stroke-dasharray="7,5"/>
+  <line x1="119" y1="196" x2="119" y2="28" stroke="black" stroke-width="1.5" stroke-dasharray="7,5"/>
+  <line x1="48" y1="76" x2="119" y2="196" stroke="black" stroke-width="1.5" stroke-dasharray="7,5"/>
+
+  <!-- labels -->
+  <g font-family="Times New Roman,serif" font-size="24" font-style="italic" fill="#1a1a4d">
+    <text x="100" y="22">H</text>
+    <text x="292" y="26">G</text>
+    <text x="14" y="87">E</text>
+    <text x="222" y="94">F</text>
+    <text x="294" y="205">C</text>
+    <text x="112" y="223">D</text>
+    <text x="206" y="271">B</text>
+    <text x="17" y="271">A</text>
+  </g>
+</svg>

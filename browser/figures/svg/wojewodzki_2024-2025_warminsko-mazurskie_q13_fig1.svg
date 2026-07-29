@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="300" viewBox="0 0 700 300">
+<rect width="700" height="300" fill="#fff"/>
+
+<!-- parallelogram D-C-B-A -->
+<path d="M 61,72 L 581,72 L 631.6,253 L 111,253 Z" fill="none" stroke="#000" stroke-width="2.2"/>
+
+<!-- diagonal A-E -->
+<line x1="111" y1="253" x2="387" y2="72" stroke="#000" stroke-width="2.2"/>
+
+<!-- angle arc at E (angle AEC, unlabeled) -->
+<path d="M 454.4,72 A 67.4,67.4 0 0 1 330.6,108.9" fill="none" stroke="#000" stroke-width="1.6"/>
+
+<!-- angle arc at C (angle BCE = 106 deg) -->
+<path d="M 607.1,164.5 A 96,96 0 0 1 485.4,72" fill="none" stroke="#000" stroke-width="1.6"/>
+<text x="547" y="120" font-family="Times New Roman,serif" font-size="28" text-anchor="middle">106&#176;</text>
+
+<!-- vertex labels -->
+<text x="53" y="60" font-family="Times New Roman,serif" font-size="30" font-style="italic" text-anchor="middle">D</text>
+<text x="382" y="60" font-family="Times New Roman,serif" font-size="30" font-style="italic" text-anchor="middle">E</text>
+<text x="583" y="59" font-family="Times New Roman,serif" font-size="30" font-style="italic" text-anchor="middle">C</text>
+<text x="101" y="291" font-family="Times New Roman,serif" font-size="30" font-style="italic" text-anchor="middle">A</text>
+<text x="637" y="289" font-family="Times New Roman,serif" font-size="30" font-style="italic" text-anchor="middle">B</text>
+</svg>

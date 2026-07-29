@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="852" height="332" viewBox="0 0 852 332">
+  <rect width="852" height="332" fill="#fff"/>
+
+  <!-- parallel lines -->
+  <line x1="14" y1="116" x2="779" y2="116" stroke="#231f20" stroke-width="2.6"/>
+  <line x1="18" y1="231" x2="779" y2="231" stroke="#231f20" stroke-width="2.6"/>
+
+  <!-- transversal rays forming the V, vertex at bottom (angle x) -->
+  <line x1="41" y1="46" x2="366" y2="307" stroke="#231f20" stroke-width="2.6"/>
+  <line x1="634" y1="41" x2="366" y2="307" stroke="#231f20" stroke-width="2.6"/>
+
+  <!-- angle arcs -->
+  <path d="M 30.8 99.0 A 64.2 64.2 0 0 1 59.0 59.4" fill="none" stroke="#231f20" stroke-width="2.0"/>
+  <path d="M 507.3 165.6 A 52.2 52.2 0 0 1 536.3 231.0" fill="none" stroke="#231f20" stroke-width="2.0"/>
+
+  <!-- labels -->
+  <text x="42" y="104" font-family="Helvetica,Arial,sans-serif" font-size="17" fill="#4d4d4d">42°</text>
+  <text x="492" y="213" font-family="Helvetica,Arial,sans-serif" font-size="17" fill="#4d4d4d">50°</text>
+  <text x="355" y="288" font-family="Times New Roman,serif" font-style="italic" font-size="16" fill="#4d4d4d">x</text>
+  <text x="739" y="100" font-family="Times New Roman,serif" font-style="italic" font-size="18" fill="#4d4d4d">k</text>
+  <text x="737" y="255" font-family="Times New Roman,serif" font-style="italic" font-size="19" fill="#4d4d4d">l</text>
+</svg>

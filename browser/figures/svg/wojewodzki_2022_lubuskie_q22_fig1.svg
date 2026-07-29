@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="340" viewBox="0 0 320 340">
+  <rect width="320" height="340" fill="#fff"/>
+  <g stroke="#3a3a3a" stroke-width="2.2" fill="none" stroke-linecap="square">
+    <!-- square ABCD: A bottom-left, B bottom-right, C top-right, D top-left -->
+    <line x1="33.6" y1="283.9" x2="246.3" y2="283.9"/>
+    <line x1="246.3" y1="283.9" x2="246.3" y2="69.9"/>
+    <line x1="246.3" y1="69.9" x2="33.6" y2="69.9"/>
+    <line x1="33.6" y1="69.9" x2="33.6" y2="283.9"/>
+    <!-- diagonals AC and DB -->
+    <line x1="33.6" y1="283.9" x2="246.3" y2="69.9"/>
+    <line x1="33.6" y1="69.9" x2="246.3" y2="283.9"/>
+  </g>
+  <g fill="#000" font-family="Times New Roman,serif" font-style="italic" font-size="28" text-anchor="start">
+    <text x="12.5" y="64">D</text>
+    <text x="251" y="64">C</text>
+    <text x="14" y="307">A</text>
+    <text x="252.5" y="307">B</text>
+  </g>
+</svg>

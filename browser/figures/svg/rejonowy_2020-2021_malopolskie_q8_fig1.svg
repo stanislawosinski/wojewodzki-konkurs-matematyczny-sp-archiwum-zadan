@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="380" viewBox="0 0 500 380">
+<rect width="500" height="380" fill="#fff"/>
+<!-- dotted corner-completion lines -->
+<g stroke="#888" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="0.1,6.2">
+<line x1="20" y1="38" x2="94" y2="38"/>
+<line x1="20" y1="38" x2="20" y2="112"/>
+<line x1="315" y1="38" x2="389" y2="38"/>
+<line x1="389" y1="38" x2="389" y2="112"/>
+<line x1="20" y1="258" x2="20" y2="332"/>
+<line x1="20" y1="332" x2="94" y2="332"/>
+<line x1="389" y1="258" x2="389" y2="332"/>
+<line x1="315" y1="332" x2="389" y2="332"/>
+</g>
+<!-- dashed fold lines (interior of central rectangle) -->
+<g stroke="#808080" stroke-width="1.6" stroke-dasharray="9,8">
+<line x1="94" y1="112" x2="315" y2="112"/>
+<line x1="94" y1="258" x2="315" y2="258"/>
+<line x1="94" y1="112" x2="94" y2="258"/>
+<line x1="315" y1="112" x2="315" y2="258"/>
+</g>
+<!-- solid net outline (plus/cross shape) -->
+<path d="M94,38 L315,38 L315,112 L389,112 L389,258 L315,258 L315,332 L94,332 L94,258 L20,258 L20,112 L94,112 Z"
+      fill="none" stroke="#000" stroke-width="3"/>
+<!-- grid dots -->
+<g fill="#000">
+<circle cx="20" cy="38" r="3.5"/>
+<circle cx="94" cy="38" r="3.5"/>
+<circle cx="315" cy="38" r="3.5"/>
+<circle cx="389" cy="38" r="3.5"/>
+<circle cx="20" cy="112" r="3.5"/>
+<circle cx="94" cy="112" r="3.5"/>
+<circle cx="315" cy="112" r="3.5"/>
+<circle cx="389" cy="112" r="3.5"/>
+<circle cx="20" cy="258" r="3.5"/>
+<circle cx="94" cy="258" r="3.5"/>
+<circle cx="315" cy="258" r="3.5"/>
+<circle cx="389" cy="258" r="3.5"/>
+<circle cx="20" cy="332" r="3.5"/>
+<circle cx="94" cy="332" r="3.5"/>
+<circle cx="315" cy="332" r="3.5"/>
+<circle cx="389" cy="332" r="3.5"/>
+</g>
+</svg>

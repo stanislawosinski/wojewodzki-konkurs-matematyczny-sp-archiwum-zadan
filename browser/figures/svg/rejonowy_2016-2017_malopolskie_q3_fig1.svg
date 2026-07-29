@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="508" height="268" viewBox="0 0 508 268">
+  <rect width="508" height="268" fill="#fff"/>
+
+  <!-- rectangle -->
+  <rect x="12.5" y="23.5" width="474.5" height="213" fill="none" stroke="#231f20" stroke-width="2"/>
+
+  <!-- diagonals -->
+  <line x1="12.5" y1="23.5" x2="487" y2="236.5" stroke="#231f20" stroke-width="1.6"/>
+  <line x1="487" y1="23.5" x2="12.5" y2="236.5" stroke="#231f20" stroke-width="1.6"/>
+
+  <!-- 140 degree sector at center -->
+  <path d="M 249.75,130 L 303.45,154.44 A 59,59 0 0 1 196.01,154.35 Z" fill="#eeeeee" stroke="#231f20" stroke-width="1.6"/>
+
+  <!-- alpha sector at top-right corner -->
+  <path d="M 487,23.5 L 487,82.5 A 59,59 0 0 1 433.26,47.85 Z" fill="#eeeeee" stroke="#231f20" stroke-width="1.6"/>
+
+  <text x="253" y="172" font-family="Helvetica,Arial,sans-serif" font-size="30" text-anchor="middle" fill="#231f20">140°</text>
+  <text x="469" y="61" font-family="Times New Roman,serif" font-size="26" text-anchor="middle" fill="#231f20">&#945;</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="595" height="300" viewBox="0 0 595 300">
+  <rect width="595" height="300" fill="#fff"/>
+
+  <g stroke="#000000" stroke-width="2.6" fill="none" stroke-linecap="round">
+    <!-- horizontal line -->
+    <line x1="235" y1="95" x2="570" y2="96"/>
+    <!-- Line A: top-left apex through horizontal to bottom-right vertex -->
+    <line x1="285" y1="14" x2="436" y2="223"/>
+    <!-- Line B: top-right apex through horizontal to bottom-left vertex -->
+    <line x1="479" y1="34" x2="351" y2="248"/>
+    <!-- short side: top-left apex to left base vertex -->
+    <line x1="285" y1="14" x2="235" y2="95"/>
+    <!-- short side: top-right apex to right base vertex -->
+    <line x1="479" y1="34" x2="570" y2="96"/>
+    <!-- short side: bottom triangle base -->
+    <line x1="351" y1="248" x2="436" y2="223"/>
+  </g>
+
+  <!-- angle arcs -->
+  <g stroke="#000000" stroke-width="1" fill="none">
+    <path d="M 275.5 29.3 A 18 18 0 0 1 295.5 28.6"/>
+    <path d="M 244.5 79.7 A 18 18 0 0 1 253.0 95.1"/>
+    <path d="M 493.9 44.1 A 18 18 0 0 0 469.8 49.4"/>
+    <path d="M 555.1 85.9 A 18 18 0 0 0 552.0 95.9"/>
+    <path d="M 360.3 232.6 A 18 18 0 0 0 368.3 242.9"/>
+    <path d="M 425.5 208.4 A 18 18 0 0 1 418.7 228.1"/>
+  </g>
+</svg>

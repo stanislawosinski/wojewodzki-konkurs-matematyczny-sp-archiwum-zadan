@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="415" height="340" viewBox="0 0 415 340">
+<rect width="415" height="340" fill="#fff"/>
+<!-- shaded trapezoids I and II -->
+<path d="M 22 27 L 362 27 L 175 78 L 61 78 Z" fill="#dddddd" stroke="none"/>
+<path d="M 22 337 L 362 337 L 175 181 L 61 181 Z" fill="#dddddd" stroke="none"/>
+<!-- outer square -->
+<path d="M 22 27 L 362 27 L 362 337 L 22 337 Z" fill="none" stroke="#000" stroke-width="2"/>
+<!-- inner square -->
+<path d="M 61 78 L 175 78 L 175 181 L 61 181 Z" fill="none" stroke="#000" stroke-width="2"/>
+<!-- connectors -->
+<line x1="22" y1="27" x2="61" y2="78" stroke="#000" stroke-width="2"/>
+<line x1="362" y1="27" x2="175" y2="78" stroke="#000" stroke-width="2"/>
+<line x1="362" y1="337" x2="175" y2="181" stroke="#000" stroke-width="2"/>
+<line x1="22" y1="337" x2="61" y2="181" stroke="#000" stroke-width="2" stroke-dasharray="3,3"/>
+<!-- labels -->
+<text x="123" y="60" font-family="Times New Roman,serif" font-size="23" font-style="italic">I</text>
+<text x="28" y="141" font-family="Times New Roman,serif" font-size="23" font-style="italic">III</text>
+<text x="117" y="262" font-family="Times New Roman,serif" font-size="23" font-style="italic">II</text>
+<text x="252" y="141" font-family="Times New Roman,serif" font-size="23" font-style="italic">IV</text>
+</svg>

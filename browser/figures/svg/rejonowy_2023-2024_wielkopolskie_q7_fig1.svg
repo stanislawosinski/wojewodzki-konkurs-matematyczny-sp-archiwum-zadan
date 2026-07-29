@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="388" height="360" viewBox="0 0 388 360">
+<rect width="388" height="360" fill="#fff"/>
+
+<!-- trapezoid outline -->
+<path d="M94,44 L221,44 L362,311 L94,311 Z" fill="none" stroke="#000" stroke-width="6.5"/>
+
+<!-- diagonal -->
+<line x1="94" y1="311" x2="221" y2="44" stroke="#000" stroke-width="6.5"/>
+
+<!-- right-angle marker: arc + dot -->
+<path d="M94,62 A18,18 0 0 1 112,44" fill="none" stroke="#000" stroke-width="1.5"/>
+<circle cx="107" cy="57" r="2.5" fill="#000"/>
+
+<!-- labels -->
+<text x="149" y="33" font-family="Times New Roman,serif" font-size="18" fill="#000">a</text>
+<text x="32" y="178" font-family="Times New Roman,serif" font-size="20" fill="#000">5&#8730;3</text>
+<text x="141" y="160" font-family="Times New Roman,serif" font-size="18" font-style="italic" fill="#000">x</text>
+<text x="300" y="166" font-family="Times New Roman,serif" font-size="18" font-style="italic" fill="#000">x</text>
+<text x="205" y="335" font-family="Times New Roman,serif" font-size="18" font-style="italic" fill="#000">x</text>
+</svg>

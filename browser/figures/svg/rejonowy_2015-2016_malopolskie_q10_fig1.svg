@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="377" height="330" viewBox="0 0 377 330">
+  <rect width="377" height="330" fill="#fff"/>
+  <g fill="none" stroke="#000" stroke-width="2">
+    <!-- baseline -->
+    <line x1="10" y1="248" x2="366" y2="248"/>
+    <!-- line through A, overshooting past C at top and past A (120 deg mark) at bottom -->
+    <line x1="59.4" y1="318.7" x2="211.7" y2="10.4"/>
+    <!-- line through B, overshooting past C at top and past B (alpha mark) at bottom -->
+    <line x1="131.0" y1="11.0" x2="282.7" y2="318.1"/>
+    <!-- angle marks (arcs), common radius ~60 -->
+    <path d="M 154.3 248.0 A 60 60 0 0 1 67.8 301.8"/>
+    <path d="M 308.1 248.0 A 60 60 0 0 1 274.7 301.8"/>
+    <path d="M 144.7 146.1 A 60 60 0 0 0 197.8 146.1"/>
+  </g>
+  <g font-family="Times New Roman,serif" font-style="italic" font-size="24" fill="#000">
+    <text x="181" y="100">C</text>
+    <text x="76" y="239">A</text>
+    <text x="251" y="241">B</text>
+  </g>
+  <g font-family="Times New Roman,serif" font-size="22" fill="#000">
+    <text x="163" y="141">&#945;</text>
+    <text x="270" y="278">&#945;</text>
+    <text x="102" y="280">120&#176;</text>
+  </g>
+</svg>

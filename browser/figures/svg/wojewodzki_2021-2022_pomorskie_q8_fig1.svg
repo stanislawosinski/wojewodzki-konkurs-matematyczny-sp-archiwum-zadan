@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="288" height="216" viewBox="0 0 288 216">
+  <rect width="288" height="216" fill="#fff"/>
+
+  <!-- bounding rectangle, thin gray -->
+  <rect x="14.5" y="19" width="238" height="177.5" stroke="#606060" stroke-width="2.6" fill="none"/>
+
+  <!-- rhombus diagonals, dashed dark -->
+  <g stroke="#111" stroke-width="3.2" stroke-dasharray="15,4" fill="none">
+    <line x1="67" y1="19" x2="200" y2="196.5"/>
+    <line x1="252.5" y1="19" x2="14.5" y2="196.5"/>
+  </g>
+
+  <!-- rhombus, thick black -->
+  <path d="M67,19 L252.5,19 L200,196.5 L14.5,196.5 Z" stroke="#000" stroke-width="5" fill="none" stroke-linejoin="round"/>
+</svg>

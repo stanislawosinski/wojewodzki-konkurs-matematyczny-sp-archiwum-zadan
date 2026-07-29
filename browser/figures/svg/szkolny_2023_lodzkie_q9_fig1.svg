@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="595" viewBox="0 0 720 595">
+<rect width="720" height="595" fill="#fff"/>
+<!-- outer rectangle (thick border) -->
+<rect x="183.5" y="87.5" width="261" height="412.5" fill="none" stroke="#000" stroke-width="8.5"/>
+<!-- interior dividers (thin) -->
+<line x1="183.5" y1="329.5" x2="444.5" y2="329.5" stroke="#000" stroke-width="3.5"/>
+<line x1="345" y1="329.5" x2="345" y2="500" stroke="#000" stroke-width="3"/>
+<!-- left double-headed dimension arrow ("3 dm" height of top square) -->
+<line x1="109" y1="87" x2="109" y2="335" stroke="#000" stroke-width="2"/>
+<path d="M 100 99 L 109 87 L 118 99" fill="none" stroke="#000" stroke-width="2"/>
+<path d="M 100 323 L 109 335 L 118 323" fill="none" stroke="#000" stroke-width="2"/>
+<!-- right double-headed dimension arrow ("5 dm" full height) -->
+<line x1="566" y1="78" x2="566" y2="508" stroke="#000" stroke-width="2"/>
+<path d="M 558 90 L 566 78 L 574 90" fill="none" stroke="#000" stroke-width="2"/>
+<path d="M 558 496 L 566 508 L 574 496" fill="none" stroke="#000" stroke-width="2"/>
+<!-- labels -->
+<text x="256" y="40" font-family="Helvetica,Arial,sans-serif" font-size="24" fill="#000">3 dm</text>
+<text x="16" y="208" font-family="Helvetica,Arial,sans-serif" font-size="24" fill="#000">3 dm</text>
+<text x="595" y="315" font-family="Helvetica,Arial,sans-serif" font-size="24" fill="#000">5 dm</text>
+</svg>

@@ -150,6 +150,13 @@ math{font-size:1.05em}
 .reveal>summary::-webkit-details-marker{display:none}
 .reveal[open]>summary{border-color:#8c8;background:#eef8ee}
 .reveal .eye{position:relative;top:.1em}
+/* vector-redraw toggle: same gutter box as the reveal eye, one slot below it */
+.svgtoggle{position:absolute;left:calc(-1.1rem - .5rem - 1.5rem + .052rem);top:5.1rem;box-sizing:border-box;
+  width:1.196rem;height:1.196rem;display:flex;align-items:center;justify-content:center;
+  font-size:.8rem;line-height:1;border:1px solid #bbb;border-radius:3px;background:#fff;color:#555;
+  cursor:pointer;padding:0;user-select:none}
+.svgtoggle:hover{border-color:#888;color:#222}
+.svgtoggle.on{border-color:#8c8;background:#eef8ee;color:#161}
 .answer{margin-top:.5rem;color:#161}
 .answer.ai{color:#2b4a6f} /* AI's blind-solve answer — distinct from the official (green) answer */
 .answer.solution.ai-sol{color:#2b4a6f} /* AI's reasoning (sole AI answer) — blue like its answer, not official green */
@@ -169,6 +176,7 @@ math{font-size:1.05em}
   .content{max-width:none;padding-left:0}
   .selectbox{display:none}      /* checkboxes never print */
   .reorder{display:none}        /* reorder arrows never print */
+  .svgtoggle{display:none}      /* the SVG toggle never prints (the chosen src does) */
   .pager{display:none}
   .q{break-inside:avoid}        /* 2. keep each question on one page */
   .qmeta{display:none}          /* 3. hide source + tags when printing */

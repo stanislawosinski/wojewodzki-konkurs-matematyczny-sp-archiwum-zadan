@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="283" height="344" viewBox="0 0 283 344">
+<rect width="283" height="344" fill="#fff"/>
+<!-- triangle fill (mean flat colour, gradient approximated) -->
+<path d="M 12 72 L 270 247.3 L 184 335 Z" fill="#989898" stroke="#8c8c8c" stroke-width="1"/>
+<!-- grid -->
+<g stroke="#a0a0a0" stroke-width="1" fill="none">
+<line x1="12" y1="72" x2="12" y2="335"/>
+<line x1="98" y1="72" x2="98" y2="335"/>
+<line x1="184" y1="72" x2="184" y2="335"/>
+<line x1="270" y1="72" x2="270" y2="335"/>
+<line x1="12" y1="72" x2="270" y2="72"/>
+<line x1="12" y1="159.7" x2="270" y2="159.7"/>
+<line x1="12" y1="247.3" x2="270" y2="247.3"/>
+<line x1="12" y1="335" x2="270" y2="335"/>
+</g>
+<!-- dimension arrow for unit "1" -->
+<g stroke="#000" stroke-width="1" fill="none">
+<line x1="184" y1="28" x2="184" y2="72"/>
+<line x1="270" y1="28" x2="270" y2="72"/>
+<line x1="184" y1="40" x2="270" y2="40"/>
+<path d="M 184 40 L 192 36 M 184 40 L 192 44"/>
+<path d="M 270 40 L 262 36 M 270 40 L 262 44"/>
+</g>
+<text x="220" y="24" font-family="Helvetica,Arial,sans-serif" font-size="19" fill="#000">1</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="500" viewBox="0 0 520 500">
+  <rect width="520" height="500" fill="#fff"/>
+  <!-- hidden (dashed) edges: T-D, D-A, D-C -->
+  <line x1="244.5" y1="10.6" x2="127.3" y2="326.0" stroke="#555" stroke-width="2" stroke-dasharray="7,6"/>
+  <line x1="127.3" y1="326.0" x2="16.0" y2="446.4" stroke="#555" stroke-width="2" stroke-dasharray="7,6"/>
+  <line x1="127.3" y1="326.0" x2="465.0" y2="326.3" stroke="#555" stroke-width="2" stroke-dasharray="7,6"/>
+  <!-- base diagonals (thin) -->
+  <line x1="16.0" y1="446.4" x2="465.0" y2="326.3" stroke="#000" stroke-width="1"/>
+  <line x1="127.3" y1="326.0" x2="355.1" y2="449.6" stroke="#000" stroke-width="1"/>
+  <!-- height line (red) -->
+  <line x1="244.5" y1="10.6" x2="240.4" y2="386.2" stroke="#e00000" stroke-width="6"/>
+  <!-- visible solid edges -->
+  <line x1="244.5" y1="10.6" x2="16.0" y2="446.4" stroke="#000" stroke-width="3.2"/>
+  <line x1="244.5" y1="10.6" x2="355.1" y2="449.6" stroke="#000" stroke-width="3.2"/>
+  <line x1="244.5" y1="10.6" x2="465.0" y2="326.3" stroke="#000" stroke-width="3.2"/>
+  <line x1="16.0" y1="446.4" x2="355.1" y2="449.6" stroke="#000" stroke-width="3.2"/>
+  <line x1="355.1" y1="449.6" x2="465.0" y2="326.3" stroke="#000" stroke-width="3.2"/>
+  <!-- labels -->
+  <text x="377" y="166" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="28">4</text>
+  <text x="436" y="407" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="28">4</text>
+  <text x="163" y="495" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="28">4</text>
+</svg>

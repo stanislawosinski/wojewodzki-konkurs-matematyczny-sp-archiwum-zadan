@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="580" viewBox="0 0 600 580">
+<rect width="600" height="580" fill="#fff"/>
+<!-- fills -->
+<path d="M84.7,261.0 L251.4,193.2 L453.8,293.3 Z" fill="#cfcffb"/>
+<path d="M304.5,476.4 L84.7,261.0 L453.8,293.3 Z" fill="#e6e6fd"/>
+<path d="M304.5,476.4 L453.8,293.3 L471.1,408.4 Z" fill="#e6e6fd"/>
+<!-- dashed hidden edges -->
+<g stroke="#4d4d4d" stroke-width="3" fill="none" stroke-dasharray="16,11">
+<path d="M235.5,78.9 L251.4,193.2"/>
+<path d="M251.4,193.2 L471.1,408.4"/>
+</g>
+<!-- solid black edges -->
+<g stroke="#4d4d4d" stroke-width="3" fill="none" stroke-linejoin="round" stroke-linecap="round">
+<path d="M235.5,78.9 L84.7,261.0"/>
+<path d="M235.5,78.9 L453.8,293.3"/>
+<path d="M84.7,261.0 L304.5,476.4"/>
+<path d="M304.5,476.4 L471.1,408.4"/>
+<path d="M471.1,408.4 L453.8,293.3"/>
+<path d="M453.8,293.3 L304.5,476.4"/>
+</g>
+<!-- blue cutting-plane edges -->
+<g stroke="#4a4bf6" stroke-width="3" fill="none" stroke-linejoin="round" stroke-linecap="round">
+<path d="M84.7,261.0 L251.4,193.2"/>
+<path d="M84.7,261.0 L453.8,293.3"/>
+<path d="M251.4,193.2 L453.8,293.3"/>
+</g>
+<!-- vertex dots -->
+<g fill="#4a4bf6" stroke="#333" stroke-width="1.5">
+<circle cx="235.5" cy="78.9" r="9"/>
+<circle cx="251.4" cy="193.2" r="9"/>
+<circle cx="84.7" cy="261.0" r="9"/>
+<circle cx="453.8" cy="293.3" r="9"/>
+<circle cx="471.1" cy="408.4" r="9"/>
+<circle cx="304.5" cy="476.4" r="9"/>
+</g>
+<!-- labels -->
+<g font-family="Times New Roman,serif" font-size="26" fill="#4a4bf6" font-style="italic" text-anchor="middle">
+<text x="254.5" y="60">C'</text>
+<text x="278" y="183">B'</text>
+<text x="46" y="268">A'</text>
+<text x="476" y="280">C</text>
+<text x="499" y="424">B</text>
+<text x="287.5" y="509">A</text>
+</g>
+</svg>

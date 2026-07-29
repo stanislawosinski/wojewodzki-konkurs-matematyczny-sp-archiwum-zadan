@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1330" height="451" viewBox="0 0 1330 451">
+<rect width="1330" height="451" fill="#fff"/>
+
+<!-- box outer edges + dividers (thick) -->
+<line x1="29" y1="90.5" x2="1291" y2="90.5" stroke="#000" stroke-width="8"/>
+<line x1="29" y1="377" x2="1291" y2="377" stroke="#000" stroke-width="8"/>
+<line x1="29" y1="90.5" x2="29" y2="377" stroke="#000" stroke-width="9"/>
+<line x1="637" y1="90.5" x2="637" y2="377" stroke="#000" stroke-width="9"/>
+<line x1="802.5" y1="90.5" x2="802.5" y2="377" stroke="#000" stroke-width="8"/>
+<line x1="998" y1="90.5" x2="998" y2="377" stroke="#000" stroke-width="9"/>
+<line x1="1291" y1="90.5" x2="1291" y2="377" stroke="#000" stroke-width="9"/>
+
+<!-- hatch lines inside 2nd rectangle -->
+<line x1="637" y1="159.3" x2="761.1" y2="90.5" stroke="#000" stroke-width="2"/>
+<line x1="637" y1="219.4" x2="802.5" y2="124.6" stroke="#000" stroke-width="2"/>
+<line x1="637" y1="276.4" x2="802.5" y2="181.9" stroke="#000" stroke-width="2"/>
+<line x1="637" y1="326.4" x2="802.5" y2="231.9" stroke="#000" stroke-width="2"/>
+<line x1="637" y1="372.5" x2="802.5" y2="276.8" stroke="#000" stroke-width="2"/>
+<line x1="704.9" y1="377" x2="802.5" y2="321.9" stroke="#000" stroke-width="2"/>
+
+<!-- top dimension "25": extension ticks + arrow line -->
+<line x1="28" y1="46.5" x2="28" y2="90.5" stroke="#000" stroke-width="1.5"/>
+<line x1="996" y1="46.5" x2="996" y2="90.5" stroke="#000" stroke-width="1.5"/>
+<line x1="27" y1="46.5" x2="997" y2="46.5" stroke="#000" stroke-width="2"/>
+<path d="M 27 46.5 L 41 39 L 41 54 Z" fill="#000"/>
+<path d="M 997 46.5 L 983 39 L 983 54 Z" fill="#000"/>
+
+<!-- bottom dimension "14": extension ticks + arrow line -->
+<line x1="637" y1="377" x2="637" y2="427" stroke="#000" stroke-width="1.5"/>
+<line x1="1291" y1="377" x2="1291" y2="427" stroke="#000" stroke-width="1.5"/>
+<line x1="636" y1="427" x2="1290" y2="427" stroke="#000" stroke-width="2"/>
+<path d="M 636 427 L 650 419.5 L 650 434.5 Z" fill="#000"/>
+<path d="M 1290 427 L 1276 419.5 L 1276 434.5 Z" fill="#000"/>
+
+<!-- labels -->
+<text x="493" y="35" font-family="Helvetica,Arial,sans-serif" font-weight="bold" font-size="30" text-anchor="middle">25</text>
+<text x="298" y="234" font-family="Helvetica,Arial,sans-serif" font-weight="bold" font-size="30" text-anchor="middle">201</text>
+<text x="912" y="244" font-family="Helvetica,Arial,sans-serif" font-weight="bold" font-size="30" text-anchor="middle">40</text>
+<text x="1137" y="244" font-family="Helvetica,Arial,sans-serif" font-weight="bold" font-size="30" text-anchor="middle">80</text>
+<text x="964" y="415" font-family="Helvetica,Arial,sans-serif" font-weight="bold" font-size="30" text-anchor="middle">14</text>
+</svg>

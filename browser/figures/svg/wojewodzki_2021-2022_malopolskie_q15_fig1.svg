@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1141" height="249" viewBox="0 0 1141 249">
+  <rect width="1141" height="249" fill="#fff"/>
+
+  <!-- H1 double arrow -->
+  <g stroke="#333" stroke-width="1.6" fill="none">
+    <line x1="61" y1="16" x2="61" y2="161"/>
+  </g>
+  <g fill="#333">
+    <path d="M61,10 L66,22 L56,22 Z"/>
+    <path d="M61,167 L66,155 L56,155 Z"/>
+  </g>
+  <!-- dotted guide lines from arrow to hex1 apex / bottom apex -->
+  <g stroke="#333" stroke-width="1" stroke-dasharray="1.5,2.5" fill="none">
+    <line x1="68" y1="10" x2="150" y2="10"/>
+    <line x1="68" y1="167" x2="150" y2="167"/>
+  </g>
+
+  <!-- hexagon chain, solid: hex1 + hex2 -->
+  <path d="M85,48 L150,10 L215,48 L215,129 L150,167 L85,129 Z" stroke="#333" stroke-width="2.2" fill="none"/>
+  <path d="M215,48 L280,10 L345,48 L345,129 L280,167 L215,129 Z" stroke="#333" stroke-width="2.2" fill="none"/>
+
+  <!-- hex3: dashed outline, left edge solid (shared with hex2) -->
+  <line x1="345" y1="48" x2="345" y2="129" stroke="#333" stroke-width="2.2"/>
+  <path d="M345,48 L410,10 L475,48 L475,129 L410,167 L345,129" stroke="#333" stroke-width="1.6" stroke-dasharray="6,4.5" fill="none"/>
+
+  <!-- dashed stubs pointing toward the (unshown) next hexagon -->
+  <line x1="475" y1="48" x2="540" y2="10" stroke="#333" stroke-width="1.6" stroke-dasharray="6,4.5"/>
+  <line x1="475" y1="129" x2="540" y2="167" stroke="#333" stroke-width="1.6" stroke-dasharray="6,4.5"/>
+
+  <!-- ellipsis dots -->
+  <g fill="#333">
+    <circle cx="582" cy="88" r="2.6"/>
+    <circle cx="612" cy="88" r="2.6"/>
+    <circle cx="641" cy="88" r="2.6"/>
+  </g>
+
+  <!-- dashed stubs coming from the (unshown) previous hexagon into the last hexagon -->
+  <line x1="675" y1="10" x2="740" y2="48" stroke="#333" stroke-width="1.6" stroke-dasharray="6,4.5"/>
+  <line x1="675" y1="167" x2="740" y2="129" stroke="#333" stroke-width="1.6" stroke-dasharray="6,4.5"/>
+
+  <!-- last hexagon: solid -->
+  <path d="M740,48 L805,10 L870,48 L870,129 L805,167 L740,129 Z" stroke="#333" stroke-width="2.2" fill="none"/>
+
+  <!-- drop lines from hex chain extremes down to the D measurement line -->
+  <g stroke="#333" stroke-width="1">
+    <line x1="85" y1="129" x2="85" y2="204"/>
+    <line x1="870" y1="129" x2="870" y2="204"/>
+  </g>
+
+  <!-- D double arrow -->
+  <g stroke="#333" stroke-width="1.6">
+    <line x1="88" y1="204" x2="866" y2="204"/>
+  </g>
+  <g fill="#333">
+    <path d="M82,204 L92,199 L92,209 Z"/>
+    <path d="M872,204 L862,199 L862,209 Z"/>
+  </g>
+
+  <g font-family="Times New Roman,serif" font-style="italic" fill="#000">
+    <text x="10" y="101" font-size="30">H<tspan font-size="19" dy="7">1</tspan></text>
+    <text x="879" y="102" font-size="27">a</text>
+    <text x="479" y="235" font-size="27" text-anchor="middle">D</text>
+  </g>
+  <text x="1038" y="103" font-size="26" font-family="Times New Roman,serif" fill="#000">(rys. 1)</text>
+</svg>

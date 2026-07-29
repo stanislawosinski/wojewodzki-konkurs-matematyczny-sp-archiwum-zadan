@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="450" height="345" viewBox="0 0 450 345">
+  <rect width="450" height="345" fill="#fff"/>
+
+  <!-- axonometric: screen = (69.5 + 19.875*X - 7.625*Z , 312.5 - 21.5*Y - 8.25*Z)
+       big cube X0..8 Y0..8 Z0..8 ; cuboid X8..13.81 Y0..10 Z0..8 ;
+       small cube X6..8 Y8..10 Z0..2 (front-right of the big cube's top face) -->
+
+  <!-- top faces (grey) -->
+  <!-- big cube top, minus the part hidden by the small cube -->
+  <polygon points="8.5,74.5 167.5,74.5 173.5,81 173.5,124 188.75,140.5 69.5,140.5" fill="#cdcdcd"/>
+  <!-- cuboid top -->
+  <polygon points="228.5,97.5 344,97.5 283,31.5 167.5,31.5" fill="#cdcdcd"/>
+  <!-- small cube top (coplanar with the cuboid top) -->
+  <polygon points="188.75,97.5 228.5,97.5 213.25,81 173.5,81" fill="#cdcdcd"/>
+
+  <g stroke="#5f5f5f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- big cube -->
+    <line x1="8.5" y1="74.5" x2="167.5" y2="74.5"/>
+    <line x1="8.5" y1="74.5" x2="8.5" y2="246.5"/>
+    <line x1="8.5" y1="246.5" x2="69.5" y2="312.5"/>
+    <line x1="8.5" y1="74.5" x2="69.5" y2="140.5"/>
+    <line x1="69.5" y1="140.5" x2="69.5" y2="312.5"/>
+    <line x1="69.5" y1="140.5" x2="228.5" y2="140.5"/>
+    <line x1="69.5" y1="312.5" x2="344" y2="312.5"/>
+
+    <!-- crease big-cube-top / cuboid-left, collinear with the small cube's top-left edge -->
+    <line x1="167.5" y1="74.5" x2="188.75" y2="97.5"/>
+
+    <!-- small cube -->
+    <line x1="173.5" y1="81" x2="213.25" y2="81"/>
+    <line x1="173.5" y1="81" x2="173.5" y2="124"/>
+    <line x1="173.5" y1="124" x2="188.75" y2="140.5"/>
+    <line x1="188.75" y1="97.5" x2="188.75" y2="140.5"/>
+
+    <!-- cuboid -->
+    <line x1="167.5" y1="31.5" x2="283" y2="31.5"/>
+    <line x1="167.5" y1="31.5" x2="167.5" y2="74.5"/>
+    <line x1="167.5" y1="31.5" x2="228.5" y2="97.5"/>
+    <line x1="188.75" y1="97.5" x2="344" y2="97.5"/>
+    <line x1="283" y1="31.5" x2="344" y2="97.5"/>
+    <line x1="344" y1="97.5" x2="344" y2="312.5"/>
+    <line x1="228.5" y1="97.5" x2="228.5" y2="312.5"/>
+  </g>
+</svg>

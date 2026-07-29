@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="320" viewBox="0 0 380 320">
+  <rect x="0" y="0" width="380" height="320" fill="#fff"/>
+
+  <!-- dashed hidden edges / diagonals / height -->
+  <g fill="none" stroke="#000" stroke-width="1.5" stroke-dasharray="5,3">
+    <line x1="203" y1="22" x2="150" y2="171"/>   <!-- apex - back vertex -->
+    <line x1="64"  y1="248" x2="150" y2="171"/>  <!-- left - back -->
+    <line x1="345" y1="171" x2="150" y2="171"/>  <!-- right - back -->
+    <line x1="64"  y1="248" x2="345" y2="171"/>  <!-- diagonal L-R -->
+    <line x1="255" y1="248" x2="150" y2="171"/>  <!-- diagonal F-Bk -->
+    <line x1="203" y1="22" x2="203" y2="210"/>   <!-- height H -->
+  </g>
+
+  <!-- solid visible edges -->
+  <g fill="none" stroke="#000" stroke-width="1.8">
+    <line x1="203" y1="22" x2="64"  y2="248"/>
+    <line x1="203" y1="22" x2="255" y2="248"/>
+    <line x1="203" y1="22" x2="345" y2="171"/>
+    <line x1="64"  y1="248" x2="255" y2="248"/>
+    <line x1="255" y1="248" x2="345" y2="171"/>
+  </g>
+
+  <!-- right-angle mark at foot of height + dot -->
+  <path d="M 203 210 L 203 201 L 211.7 198.6 L 211.7 207.6 Z" fill="none" stroke="#000" stroke-width="1.1"/>
+  <circle cx="211.7" cy="198.6" r="1.7" fill="#000"/>
+
+  <!-- labels -->
+  <text x="162" y="271" font-family="Times New Roman,serif" font-style="italic" font-size="19" text-anchor="middle">a</text>
+  <text x="291" y="99" font-family="Times New Roman,serif" font-style="italic" font-size="19" text-anchor="middle">b</text>
+  <text x="190" y="139" font-family="Times New Roman,serif" font-style="italic" font-size="19" text-anchor="middle">H</text>
+</svg>

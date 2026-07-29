@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="348" height="404" viewBox="0 0 348 404">
+<rect width="348" height="404" fill="#fff"/>
+<!-- solid box edges -->
+<path d="M41,71 L255,68 M255,68 L255,348 M255,348 L41,347 M41,347 L41,71" fill="none" stroke="#000" stroke-width="1.8"/>
+<path d="M41,71 L124,10 M124,10 L336,11 M336,11 L255,68" fill="none" stroke="#000" stroke-width="1.8"/>
+<path d="M336,11 L336,288 M336,288 L255,348" fill="none" stroke="#000" stroke-width="1.8"/>
+<!-- hidden (dotted) edges -->
+<path d="M124,10 L122,289" fill="none" stroke="#000" stroke-width="1.6" stroke-dasharray="4,7"/>
+<path d="M122,289 L336,288" fill="none" stroke="#000" stroke-width="1.6" stroke-dasharray="4,7"/>
+<path d="M122,289 L41,347" fill="none" stroke="#000" stroke-width="1.6" stroke-dasharray="4,7"/>
+<!-- bold diagonals t, w, z -->
+<path d="M124,10 L255,348" fill="none" stroke="#000" stroke-width="4.5"/>
+<path d="M124,10 L336,288" fill="none" stroke="#000" stroke-width="4.5"/>
+<path d="M122,289 L255,348" fill="none" stroke="#000" stroke-width="4.5"/>
+<!-- labels -->
+<text x="8" y="216" font-family="Helvetica,Arial,sans-serif" font-size="28">8</text>
+<text x="174" y="219" font-family="Times New Roman,serif" font-size="26" font-style="italic">t</text>
+<text x="210" y="197" font-family="Times New Roman,serif" font-size="27" font-style="italic">w</text>
+<text x="143" y="334" font-family="Times New Roman,serif" font-size="25" font-style="italic">z</text>
+<text x="114" y="390" font-family="Helvetica,Arial,sans-serif" font-size="33">2&#8730;2</text>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="760" viewBox="0 0 1100 760">
+<rect width="1100" height="760" fill="#fff"/>
+<g stroke="#000" stroke-width="2.2" fill="none">
+  <!-- circle (hopscotch head), split by vertical diameter -->
+  <ellipse cx="164" cy="76" rx="83.5" ry="73"/>
+  <line x1="164" y1="3" x2="164" y2="149"/>
+  <!-- square 6 -->
+  <rect x="116" y="150" width="96" height="96"/>
+  <!-- cross row: 5, 4, 5 -->
+  <rect x="20" y="246" width="96" height="95"/>
+  <rect x="116" y="246" width="96" height="95"/>
+  <rect x="212" y="246" width="95" height="95"/>
+  <!-- square 3 -->
+  <rect x="116" y="341" width="96" height="96"/>
+  <!-- square 2 -->
+  <rect x="116" y="437" width="96" height="95"/>
+  <!-- square 1 -->
+  <rect x="116" y="532" width="96" height="95"/>
+</g>
+<g font-family="Helvetica,Arial,sans-serif" font-weight="bold" font-size="34" text-anchor="middle" fill="#000">
+  <text x="134" y="82">7</text>
+  <text x="199" y="84">8</text>
+  <text x="164" y="212">6</text>
+  <text x="65" y="305">5</text>
+  <text x="166" y="307">4</text>
+  <text x="263" y="303">5</text>
+  <text x="166" y="401">3</text>
+  <text x="164" y="497">2</text>
+  <text x="164" y="588">1</text>
+</g>
+
+<!-- right diagram: cube net with marked points -->
+<g stroke="#000" stroke-width="2.2" fill="none">
+  <rect x="505" y="246" width="96" height="95"/>
+  <rect x="505" y="341" width="96" height="95"/>
+  <rect x="601" y="341" width="95" height="95"/>
+  <rect x="696" y="341" width="96" height="95"/>
+  <rect x="792" y="341" width="96" height="95"/>
+  <rect x="505" y="436" width="96" height="97"/>
+</g>
+<g fill="#000">
+  <circle cx="505" cy="436" r="5"/>
+  <circle cx="505" cy="533" r="5"/>
+  <circle cx="601" cy="533" r="5"/>
+  <circle cx="792" cy="341" r="5"/>
+  <circle cx="792" cy="436" r="5"/>
+</g>
+<g font-family="Helvetica,Arial,sans-serif" font-weight="bold" font-size="24" fill="#000">
+  <text x="473" y="445" text-anchor="middle">M</text>
+  <text x="472" y="549" text-anchor="middle">L</text>
+  <text x="629" y="543" text-anchor="middle">K</text>
+  <text x="790" y="318" text-anchor="middle">R</text>
+  <text x="793" y="482" text-anchor="middle">X</text>
+</g>
+</svg>

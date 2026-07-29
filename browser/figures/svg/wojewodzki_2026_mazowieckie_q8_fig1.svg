@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="450" height="420" viewBox="0 0 450 420">
+  <rect width="450" height="420" fill="#fff"/>
+  <!-- large shaded semicircle (bottom, bulge right) -->
+  <path d="M 198.7,137.77 L 198.7,361.53 A 111.88,111.88 0 0 0 198.7,137.77 Z"
+        fill="#6f6f6f" stroke="#000" stroke-width="2.5"/>
+  <!-- small shaded semicircle (top, bulge left) -->
+  <path d="M 198.7,30.93 L 198.7,137.77 A 53.42,53.42 0 0 1 198.7,30.93 Z"
+        fill="#6f6f6f" stroke="#000" stroke-width="2.5"/>
+  <!-- outer circle -->
+  <circle cx="198.7" cy="196.23" r="165.3" fill="none" stroke="#000" stroke-width="2.8"/>
+  <!-- vertical diameter -->
+  <line x1="198.7" y1="30.93" x2="198.7" y2="361.53" stroke="#000" stroke-width="2.8"/>
+  <!-- center dot -->
+  <circle cx="198.7" cy="196.23" r="5" fill="#000"/>
+  <!-- label O -->
+  <text x="166" y="203" font-family="Times New Roman,serif" font-style="italic" font-size="27" fill="#000">O</text>
+</svg>

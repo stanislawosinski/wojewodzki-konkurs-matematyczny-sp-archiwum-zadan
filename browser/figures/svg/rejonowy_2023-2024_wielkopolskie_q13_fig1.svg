@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="810" height="388" viewBox="0 0 810 388">
+  <rect width="810" height="388" fill="#fff"/>
+
+  <!-- shaded angle x wedge at Q -->
+  <path d="M 346 250 L 295.7 227.8 A 55 55 0 0 1 391.3 218.8 Z"
+        fill="#c8bfe7" stroke="#333333" stroke-width="1"/>
+
+  <!-- main quadrilateral sides + diagonals -->
+  <g stroke="#000000" stroke-linecap="round" fill="none">
+    <line x1="78" y1="132" x2="666" y2="30" stroke-width="6"/>   <!-- T-S -->
+    <line x1="78" y1="132" x2="218" y2="339" stroke-width="6"/>  <!-- T-P -->
+    <line x1="543" y1="337" x2="666" y2="30" stroke-width="6"/>  <!-- R-S -->
+    <line x1="99" y1="338" x2="644" y2="338" stroke-width="6"/>  <!-- baseline (extended) -->
+    <line x1="78" y1="132" x2="543" y2="337" stroke-width="5"/>  <!-- diagonal T-R -->
+    <line x1="218" y1="339" x2="666" y2="30" stroke-width="5"/>  <!-- diagonal P-S -->
+  </g>
+
+  <!-- small angle arcs -->
+  <g stroke="#000000" stroke-width="1" fill="none">
+    <path d="M 173 339 A 45 45 0 0 1 192.8 301.7"/>  <!-- alpha at P -->
+    <path d="M 559.7 295.2 A 45 45 0 0 1 588 337"/>   <!-- beta at R -->
+    <path d="M 103.2 169.3 A 45 45 0 0 1 119.2 150.2"/> <!-- gamma at T -->
+    <path d="M 621.7 37.7 A 45 45 0 0 1 649.3 71.8"/>  <!-- delta at S -->
+  </g>
+
+  <!-- point labels -->
+  <g font-family="Times New Roman,serif" font-style="italic" font-size="24" fill="#000000">
+    <text x="62" y="130">T</text>
+    <text x="668" y="22">S</text>
+    <text x="203" y="376">P</text>
+    <text x="536" y="374">R</text>
+    <text x="338" y="282">Q</text>
+    <text x="333" y="228">X</text>
+  </g>
+  <!-- greek angle labels -->
+  <g font-family="Times New Roman,serif" font-style="italic" font-size="27" fill="#000000">
+    <text x="157" y="322">&#945;</text>
+    <text x="578" y="311">&#946;</text>
+    <text x="140" y="197">&#947;</text>
+    <text x="593" y="119">&#948;</text>
+  </g>
+</svg>

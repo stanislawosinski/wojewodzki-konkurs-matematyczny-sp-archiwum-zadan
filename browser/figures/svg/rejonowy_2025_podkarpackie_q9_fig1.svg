@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="330" viewBox="0 0 600 330">
+<rect width="600" height="330" fill="#fff"/>
+
+<!-- central square (diamond) A(top) B(left) C(bottom) D(right) -->
+<line x1="289.5" y1="15.6" x2="182.5" y2="122.6" stroke="#000" stroke-width="2"/>
+<line x1="289.5" y1="15.6" x2="396.7" y2="122.8" stroke="#000" stroke-width="2"/>
+<line x1="182.5" y1="122.6" x2="289.5" y2="229.2" stroke="#000" stroke-width="2"/>
+<line x1="289.5" y1="229.2" x2="396.7" y2="122.8" stroke="#000" stroke-width="2"/>
+
+<!-- triangle on BC, apex farLeft -->
+<line x1="182.5" y1="122.6" x2="5.3" y2="300.2" stroke="#000" stroke-width="2"/>
+<line x1="289.5" y1="229.2" x2="5.3" y2="300.2" stroke="#000" stroke-width="2"/>
+
+<!-- triangle on CD, apex farRight -->
+<line x1="289.5" y1="229.2" x2="574.2" y2="300.2" stroke="#000" stroke-width="2"/>
+<line x1="396.7" y1="122.8" x2="574.2" y2="300.2" stroke="#000" stroke-width="2"/>
+
+<!-- triangle on edge B-farLeft, apex outerLeft -->
+<line x1="182.5" y1="122.6" x2="33.1" y2="101.3" stroke="#000" stroke-width="2"/>
+<line x1="33.1" y1="101.3" x2="5.3" y2="300.2" stroke="#000" stroke-width="2"/>
+
+<!-- triangle on edge D-farRight, apex outerRight -->
+<line x1="396.7" y1="122.8" x2="546.0" y2="101.2" stroke="#000" stroke-width="2"/>
+<line x1="546.0" y1="101.2" x2="574.2" y2="300.2" stroke="#000" stroke-width="2"/>
+</svg>

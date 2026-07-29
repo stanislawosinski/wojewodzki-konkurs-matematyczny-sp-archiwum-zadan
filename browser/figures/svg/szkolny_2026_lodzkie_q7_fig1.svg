@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="810" height="350" viewBox="0 0 810 350">
+  <rect width="810" height="350" fill="#fff"/>
+  <g fill="none" stroke="#000" stroke-width="2">
+    <!-- trapezoid A(79,305) B(775,304) C(515,42) D(167,42) -->
+    <line x1="79" y1="305" x2="775" y2="304"/>
+    <line x1="167" y1="42" x2="515" y2="42"/>
+    <line x1="79" y1="305" x2="167" y2="42"/>
+    <line x1="775" y1="304" x2="515" y2="42"/>
+    <!-- diagonals -->
+    <line x1="79" y1="305" x2="515" y2="42"/>
+    <line x1="775" y1="304" x2="167" y2="42"/>
+  </g>
+  <g fill="#000" stroke="none">
+    <circle cx="167" cy="42" r="4.5"/>
+    <circle cx="515" cy="42" r="4.5"/>
+    <circle cx="370" cy="129" r="4.5"/>
+    <circle cx="79" cy="305" r="4.5"/>
+    <circle cx="775" cy="304" r="4.5"/>
+  </g>
+  <g fill="#000" stroke="none" font-family="Helvetica,Arial,sans-serif" font-size="26">
+    <text x="141" y="36">D</text>
+    <text x="524" y="36">C</text>
+    <text x="404" y="134">P</text>
+    <text x="55" y="328">A</text>
+    <text x="789" y="330">B</text>
+  </g>
+</svg>

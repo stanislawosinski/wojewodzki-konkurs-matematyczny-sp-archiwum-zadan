@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="388" viewBox="0 0 540 388">
+  <rect x="0" y="0" width="540" height="388" fill="#fff"/>
+
+  <!-- vertices: L(36,89) T(287,25) M(226,84) R(453,173) BL(32,313) B(288,365) C2(226,280) -->
+
+  <!-- solid: outer pentagon hull -->
+  <g stroke="#000" stroke-width="2.4" fill="none" stroke-linecap="round">
+    <line x1="36"  y1="89"  x2="287" y2="25"/>
+    <line x1="287" y1="25"  x2="453" y2="173"/>
+    <line x1="453" y1="173" x2="288" y2="365"/>
+    <line x1="288" y1="365" x2="32"  y2="313"/>
+    <line x1="32"  y1="313" x2="36"  y2="89"/>
+
+    <!-- solid: spokes from front apex M -->
+    <line x1="226" y1="84" x2="36"  y2="89"/>
+    <line x1="226" y1="84" x2="287" y2="25"/>
+    <line x1="226" y1="84" x2="453" y2="173"/>
+    <line x1="226" y1="84" x2="288" y2="365"/>
+    <line x1="226" y1="84" x2="32"  y2="313"/>
+  </g>
+
+  <!-- dashed: spokes from back apex C2, and the M-C2 construction diagonal -->
+  <g stroke="#000" stroke-width="2" fill="none" stroke-dasharray="8,6">
+    <line x1="226" y1="280" x2="36"  y2="89"/>
+    <line x1="226" y1="280" x2="287" y2="25"/>
+    <line x1="226" y1="280" x2="453" y2="173"/>
+    <line x1="226" y1="280" x2="32"  y2="313"/>
+    <line x1="226" y1="84"  x2="226" y2="280"/>
+  </g>
+
+  <!-- dotted: C2-B -->
+  <line x1="226" y1="280" x2="288" y2="365" stroke="#000" stroke-width="2" stroke-dasharray="2.5,4" stroke-linecap="round"/>
+</svg>

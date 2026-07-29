@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="750" height="470" viewBox="0 0 750 470">
+<rect width="750" height="470" fill="#fff"/>
+
+<!-- reference dashed lines -->
+<line x1="40" y1="31" x2="705" y2="31" stroke="#444" stroke-width="1.4" stroke-dasharray="11,10"/>
+<line x1="40" y1="351" x2="705" y2="351" stroke="#444" stroke-width="1.4" stroke-dasharray="11,10"/>
+
+<!-- double-headed height arrow -->
+<line x1="64" y1="50" x2="64" y2="338" stroke="#000" stroke-width="1.6"/>
+<path d="M64,30 L57,50 L71,50 Z" fill="#000"/>
+<path d="M64,358 L57,338 L71,338 Z" fill="#000"/>
+<text x="14" y="216" font-family="Times New Roman,serif" font-size="42" font-style="italic">a</text>
+
+<!-- grey 12-gon (dwunastokat I) -->
+<path d="M122,260 L255,130 L123,359 L257,228 L388,359 L522,228 L656,359 L524,130 L657,260 L524,30 L390,160 L255,30 Z" fill="#e6e6e6" stroke="#000" stroke-width="2.6"/>
+
+<!-- internal thin diagonals -->
+<line x1="255" y1="130" x2="388" y2="359" stroke="#000" stroke-width="1.1"/>
+<line x1="388" y1="359" x2="524" y2="130" stroke="#000" stroke-width="1.1"/>
+<line x1="255" y1="130" x2="390" y2="260" stroke="#000" stroke-width="1.1"/>
+<line x1="524" y1="130" x2="390" y2="260" stroke="#000" stroke-width="1.1"/>
+<line x1="255" y1="30" x2="390" y2="260" stroke="#000" stroke-width="1.1"/>
+<line x1="524" y1="30" x2="390" y2="260" stroke="#000" stroke-width="1.1"/>
+
+<!-- caption -->
+<text x="228" y="443" font-family="Helvetica,Arial,sans-serif" font-size="42">dwunastok&#261;t I</text>
+</svg>

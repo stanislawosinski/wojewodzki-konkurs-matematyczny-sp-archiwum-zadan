@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="470" height="515" viewBox="0 0 470 515">
+  <rect width="470" height="515" fill="#fff"/>
+
+  <!-- big gray sector: quarter circle centered at A, radius = side, from D to B -->
+  <path d="M 49,444 L 49,102 A 345,345 0 0 1 397,444 Z" fill="#c6c6c6" stroke="none"/>
+
+  <!-- white semicircle on diameter AD (cuts out the left bite) -->
+  <path d="M 49,102 A 171,171 0 0 1 49,444 Z" fill="#fff" stroke="none"/>
+
+  <!-- white semicircle on diameter (P..B) along AB (cuts out the bottom-right bite) -->
+  <path d="M 161,444 A 118,118 0 0 1 397,444 Z" fill="#fff" stroke="none"/>
+
+  <!-- re-stroke the three arcs on top -->
+  <path d="M 49,102 A 345,345 0 0 1 397,444" fill="none" stroke="#000" stroke-width="7"/>
+  <path d="M 49,102 A 171,171 0 0 1 49,444" fill="none" stroke="#000" stroke-width="7"/>
+  <path d="M 161,444 A 118,118 0 0 1 397,444" fill="none" stroke="#000" stroke-width="7"/>
+
+  <!-- square outline -->
+  <path d="M 49,444 L 397,444 L 397,102 L 49,102 Z" fill="none" stroke="#000" stroke-width="7"/>
+
+  <!-- center dots -->
+  <circle cx="49" cy="273" r="6" fill="#000"/>
+  <circle cx="279" cy="444" r="6" fill="#000"/>
+
+  <!-- labels -->
+  <text x="34" y="100" font-family="Helvetica,Arial,sans-serif" font-size="24" font-weight="bold" text-anchor="middle">D</text>
+  <text x="416" y="96" font-family="Helvetica,Arial,sans-serif" font-size="24" font-weight="bold" text-anchor="middle">C</text>
+  <text x="32" y="470" font-family="Helvetica,Arial,sans-serif" font-size="24" font-weight="bold" text-anchor="middle">A</text>
+  <text x="412" y="474" font-family="Helvetica,Arial,sans-serif" font-size="24" font-weight="bold" text-anchor="middle">B</text>
+  <text x="233" y="78" font-family="Helvetica,Arial,sans-serif" font-size="26" font-weight="bold" text-anchor="middle">6</text>
+  <text x="432" y="268" font-family="Helvetica,Arial,sans-serif" font-size="26" font-weight="bold" text-anchor="middle">6</text>
+</svg>

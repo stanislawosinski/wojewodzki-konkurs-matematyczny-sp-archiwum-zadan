@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="610" height="575" viewBox="0 0 610 575">
+  <rect width="610" height="575" fill="#fff"/>
+  <!-- octagon edges -->
+  <path d="M 244.43 434.66 L 376.02 380.46 L 430.42 247.95 L 376.14 117.2 L 242.19 61.81 L 109.38 116.87 L 54.71 247.74 L 109.33 382.81 Z"
+        fill="none" stroke="#3d3d3d" stroke-width="2.2"/>
+  <!-- diagonal AC -->
+  <line x1="244.43" y1="434.66" x2="430.42" y2="247.95" stroke="#3d3d3d" stroke-width="2.2"/>
+  <!-- angle arc at C between CD and CA -->
+  <path d="M 414.32 209.16 A 42 42 0 0 0 400.78 277.71" fill="none" stroke="#3d3d3d" stroke-width="1.6"/>
+  <!-- vertex dots -->
+  <g fill="#3d3d3d">
+    <circle cx="244.43" cy="434.66" r="2.6"/>
+    <circle cx="376.02" cy="380.46" r="2.6"/>
+    <circle cx="430.42" cy="247.95" r="2.6"/>
+    <circle cx="376.14" cy="117.2" r="2.6"/>
+    <circle cx="242.19" cy="61.81" r="2.6"/>
+    <circle cx="109.38" cy="116.87" r="2.6"/>
+    <circle cx="54.71" cy="247.74" r="2.6"/>
+    <circle cx="109.33" cy="382.81" r="2.6"/>
+  </g>
+  <!-- labels -->
+  <g font-family="Times New Roman,serif" font-style="italic" font-size="22" fill="#2a2a2a" text-anchor="middle">
+    <text x="243" y="45">E</text>
+    <text x="91" y="110">F</text>
+    <text x="394" y="116">D</text>
+    <text x="447" y="252">C</text>
+    <text x="34" y="254">G</text>
+    <text x="397" y="393">B</text>
+    <text x="87" y="400">H</text>
+    <text x="243" y="462">A</text>
+  </g>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="500" viewBox="0 0 520 500">
+<rect width="520" height="500" fill="#fff"/>
+
+<!-- shaded petals (square minus inscribed circle) -->
+<path d="M 257.6,46.85 L 165.555,146.66 A 130.2,141.1 0 0 1 349.7,146.655 L 257.6,46.85 Z" fill="#C3C3C3"/>
+<path d="M 441.84,246.46 L 349.7,146.655 A 130.2,141.1 0 0 1 349.73,346.23 L 441.84,246.46 Z" fill="#C3C3C3"/>
+<path d="M 257.62,446.0 L 349.73,346.23 A 130.2,141.1 0 0 1 165.585,346.235 L 257.62,446.0 Z" fill="#C3C3C3"/>
+<path d="M 73.55,246.47 L 165.585,346.235 A 130.2,141.1 0 0 1 165.555,146.66 L 73.55,246.47 Z" fill="#C3C3C3"/>
+
+<!-- axes -->
+<g stroke="#222222" stroke-width="1.3" fill="none">
+<line x1="67" y1="246.5" x2="495" y2="246.5"/>
+<line x1="257.7" y1="478" x2="257.7" y2="12.5"/>
+<path d="M 481.25,236.25 L 493.75,246.5 L 481.25,257.5"/>
+<path d="M 245,25 L 257.5,12.5 L 271.25,25"/>
+<!-- ticks -->
+<line x1="165.6" y1="242" x2="165.6" y2="251"/>
+<line x1="349.8" y1="242" x2="349.8" y2="251"/>
+<line x1="253" y1="146.7" x2="262" y2="146.7"/>
+<line x1="253" y1="346.3" x2="262" y2="346.3"/>
+</g>
+
+<!-- diamond -->
+<path d="M 257.6,46.85 L 441.84,246.46 L 257.62,446.0 L 73.55,246.47 Z" fill="none" stroke="#4D4D4D" stroke-width="1.8"/>
+
+<!-- circle -->
+<path d="M 165.555,146.66 A 130.2,141.1 0 0 1 349.7,146.655 A 130.2,141.1 0 0 1 349.73,346.23 A 130.2,141.1 0 0 1 165.585,346.235 A 130.2,141.1 0 0 1 165.555,146.66 Z" fill="none" stroke="#4D4D4D" stroke-width="1.8"/>
+
+<!-- vertex / origin dots -->
+<g fill="#7C7EFE" stroke="#2A2B62" stroke-width="1.2">
+<circle cx="257.6" cy="46.85" r="6.2"/>
+<circle cx="441.84" cy="246.46" r="6.2"/>
+<circle cx="257.62" cy="446.0" r="6.2"/>
+<circle cx="73.55" cy="246.47" r="6.2"/>
+<circle cx="257.7" cy="246.5" r="6.2"/>
+</g>
+
+<!-- labels -->
+<g font-family="Helvetica,Arial,sans-serif" font-size="16" fill="#222222" text-anchor="middle">
+<text x="73.5" y="270">-2</text>
+<text x="165.6" y="270">-1</text>
+<text x="246" y="270">0</text>
+<text x="349.8" y="270">1</text>
+<text x="441.84" y="270">2</text>
+<text x="240" y="52">2</text>
+<text x="240" y="151">1</text>
+<text x="240" y="351">-1</text>
+<text x="240" y="452">-2</text>
+</g>
+</svg>

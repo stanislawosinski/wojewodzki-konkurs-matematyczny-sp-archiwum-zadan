@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1290" height="860" viewBox="0 0 1290 860">
+  <rect width="1290" height="860" fill="#fff"/>
+
+  <!-- fills for special cells (drawn first, under grid lines) -->
+  <rect x="9" y="9" width="412" height="409" fill="#e6e6e6"/>
+  <path d="M1024,418 L1272,418 L1271,515 L1024,515 Z" fill="#b3e1b3"/>
+
+  <!-- outer silhouette (staircase: missing top-right cell and bottom-left cell) -->
+  <path d="M9,9 L1024,9 L1024,418 L1272,418 L1267,798 L423,798 L422,640 L9,639 Z"
+        fill="none" stroke="#000" stroke-width="3"/>
+
+  <!-- internal vertical dividers -->
+  <line x1="421" y1="9" x2="423" y2="798" stroke="#000" stroke-width="3"/>
+  <line x1="865" y1="9" x2="865" y2="798" stroke="#000" stroke-width="3"/>
+  <line x1="1024" y1="418" x2="1024" y2="798" stroke="#000" stroke-width="3"/>
+
+  <!-- internal horizontal dividers -->
+  <line x1="9" y1="418" x2="1024" y2="418" stroke="#000" stroke-width="3"/>
+  <line x1="9" y1="515" x2="1271" y2="515" stroke="#000" stroke-width="3"/>
+  <line x1="422" y1="640" x2="1269" y2="646" stroke="#000" stroke-width="3"/>
+
+  <!-- labels -->
+  <g font-family="Helvetica,Arial,sans-serif" font-size="54" text-anchor="middle">
+    <text x="187" y="222">169</text>
+    <text x="937" y="189">65</text>
+    <text x="644" y="481">42</text>
+    <text x="1157" y="476" font-size="50">?</text>
+    <text x="190" y="587">52</text>
+    <text x="646" y="587">56</text>
+    <text x="949" y="738">25</text>
+    <text x="1147" y="739">40</text>
+  </g>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="250" viewBox="0 0 500 250">
+  <rect width="500" height="250" fill="#fff"/>
+  <g fill="none" stroke="#000" stroke-width="2">
+    <!-- trapezium A(19,195.5) B(404,195.5) C(258.5,70.5) D(67,70.5) -->
+    <line x1="19" y1="195.5" x2="404" y2="195.5"/>
+    <line x1="19" y1="195.5" x2="67" y2="70.5"/>
+    <line x1="67" y1="70.5" x2="258.5" y2="70.5"/>
+    <line x1="258.5" y1="70.5" x2="404" y2="195.5"/>
+    <!-- diagonal D-B -->
+    <line x1="67" y1="70.5" x2="404" y2="195.5"/>
+    <!-- angle arc at A: centre A(19,195.5) r 55.5, ray AD (-69deg) -> ray AB (0deg) -->
+    <path d="M 38.90 143.70 A 55.5 55.5 0 0 1 74.50 195.50"/>
+    <!-- angle arc at C: as drawn in the original it is off-centre --
+         fitted circle centre (275.18,27.56) r 86.82, 149deg -> 72.5deg -->
+    <path d="M 200.77 72.29 A 86.82 86.82 0 0 0 301.10 110.36"/>
+  </g>
+  <g fill="#000" stroke="none" font-family="Times New Roman,serif" font-size="38" text-anchor="middle">
+    <text x="0" y="0" transform="translate(57,64) scale(0.7,1)">D</text>
+    <text x="0" y="0" transform="translate(273,71) scale(0.7,1)">C</text>
+    <text x="0" y="0" transform="translate(10,230) scale(0.7,1)">A</text>
+    <text x="0" y="0" transform="translate(425,235) scale(0.7,1)">B</text>
+  </g>
+  <g fill="#000" stroke="none" font-family="Times New Roman,serif" text-anchor="middle">
+    <text x="250" y="98" font-size="42">x</text>
+    <text x="45" y="186" font-size="34">&#945;</text>
+  </g>
+</svg>

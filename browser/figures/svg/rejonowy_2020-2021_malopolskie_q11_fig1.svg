@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="458" height="342" viewBox="0 0 458 342">
+  <rect x="0" y="0" width="458" height="342" fill="#fff"/>
+
+  <!-- shaded quadrant II region -->
+  <rect x="6" y="4" width="155.5" height="183.5" fill="#eaeaea"/>
+
+  <!-- horizontal axis (n) -->
+  <line x1="6" y1="187.5" x2="363" y2="187.5" stroke="#000" stroke-width="1.4"/>
+  <line x1="363" y1="187.5" x2="350" y2="178.5" stroke="#000" stroke-width="1.4"/>
+  <line x1="363" y1="187.5" x2="350" y2="196.5" stroke="#000" stroke-width="1.4"/>
+
+  <!-- vertical axis (k) -->
+  <line x1="161.5" y1="342" x2="161.5" y2="5" stroke="#000" stroke-width="1.4"/>
+  <line x1="161.5" y1="5" x2="152" y2="20" stroke="#000" stroke-width="1.4"/>
+  <line x1="161.5" y1="5" x2="171" y2="20" stroke="#000" stroke-width="1.4"/>
+
+  <!-- axis variable labels -->
+  <text x="184" y="29" font-family="Times New Roman,serif" font-style="italic" font-size="20" text-anchor="middle">k</text>
+  <text x="347" y="171" font-family="Times New Roman,serif" font-style="italic" font-size="20" text-anchor="middle">n</text>
+
+  <!-- k axis tick labels -->
+  <text x="148" y="22" font-family="Times New Roman,serif" font-size="16" text-anchor="middle">8</text>
+  <text x="147.5" y="65" font-family="Times New Roman,serif" font-size="16" text-anchor="middle">6</text>
+  <text x="147.5" y="109" font-family="Times New Roman,serif" font-size="16" text-anchor="middle">4</text>
+  <text x="148" y="153" font-family="Times New Roman,serif" font-size="16" text-anchor="middle">2</text>
+  <text x="142" y="240" font-family="Times New Roman,serif" font-size="16" text-anchor="middle">-2</text>
+  <text x="141.5" y="284" font-family="Times New Roman,serif" font-size="16" text-anchor="middle">-4</text>
+  <text x="147.5" y="326" font-family="Times New Roman,serif" font-size="16" text-anchor="middle">-6</text>
+
+  <!-- n axis tick labels -->
+  <text x="206" y="205" font-family="Times New Roman,serif" font-size="16" text-anchor="middle">2</text>
+  <text x="250" y="210" font-family="Times New Roman,serif" font-size="16" text-anchor="middle">4</text>
+  <text x="291" y="210" font-family="Times New Roman,serif" font-size="16" text-anchor="middle">6</text>
+  <text x="337" y="210" font-family="Times New Roman,serif" font-size="16" text-anchor="middle">8</text>
+  <text x="117" y="211" font-family="Times New Roman,serif" font-size="16" text-anchor="middle">-2</text>
+  <text x="73" y="211" font-family="Times New Roman,serif" font-size="16" text-anchor="middle">-4</text>
+  <text x="29" y="210" font-family="Times New Roman,serif" font-size="16" text-anchor="middle">-6</text>
+</svg>

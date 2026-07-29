@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="525" height="268" viewBox="0 0 525 268">
+  <rect width="525" height="268" fill="#fff"/>
+
+  <!-- rectangle pen: 8m x 4m -->
+  <rect x="147" y="105" width="282" height="138" fill="#efe4b0" stroke="#4d4d4d" stroke-width="2.4"/>
+
+  <!-- string from peg (koza) to bottom-left corner -->
+  <line x1="53" y1="53" x2="147" y2="243" stroke="#4d4d4d" stroke-width="1.6"/>
+
+  <!-- corner dots -->
+  <circle cx="147" cy="105" r="4.2" fill="#333333"/>
+  <circle cx="429" cy="105" r="4.2" fill="#333333"/>
+  <circle cx="429" cy="243" r="4.2" fill="#333333"/>
+  <circle cx="147" cy="243" r="4.2" fill="#333333"/>
+
+  <!-- peg dot -->
+  <circle cx="53" cy="53" r="6" fill="#222222"/>
+
+  <!-- labels -->
+  <text x="71" y="62" font-family="Times New Roman,serif" font-style="italic" font-size="25" fill="#222222">koza</text>
+  <text x="258" y="227" font-family="Times New Roman,serif" font-size="25" fill="#222222">8 m</text>
+  <text x="442" y="186" font-family="Times New Roman,serif" font-size="25" fill="#222222">4 m</text>
+</svg>

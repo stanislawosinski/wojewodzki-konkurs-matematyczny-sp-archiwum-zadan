@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="387" height="292" viewBox="0 0 387 292">
+  <rect width="387" height="292" fill="#fff"/>
+
+  <!-- L-shaped grey frame fragment, outline follows measured torn/ragged edges on
+       the right (end of the horizontal arm) and bottom (end of the vertical arm);
+       top and left edges are the straight true edges of the corner. -->
+  <path d="M 12,13
+           L 376,13
+           L 374,16 L 376,20 L 372,24 L 371,28 L 372,32 L 371,36 L 370,40
+           L 368,44 L 369,48 L 369,52 L 368,54 L 366,58 L 369,60 L 369,64
+           L 360,68 L 358,72 L 349,76 L 346,80 L 342,84
+           L 78,82
+           L 79,217
+           L 77,225 L 75,228 L 73,231 L 71,239 L 69,240 L 67,246 L 65,246
+           L 63,248 L 61,250 L 59,252 L 57,253 L 55,253 L 53,253 L 51,255
+           L 49,257 L 47,259 L 45,262 L 43,263 L 41,265 L 39,265 L 37,267
+           L 35,269 L 33,270 L 31,272 L 29,273 L 27,274 L 25,275 L 23,276
+           L 21,277 L 19,278 L 17,280 L 15,281 L 13,282 L 11,282
+           Z"
+        fill="#787878" stroke="#000" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- internal grid lines dividing the fragment into 1 cm squares -->
+  <line x1="78"  y1="14" x2="78"  y2="82" stroke="#000" stroke-width="2"/>
+  <line x1="143" y1="14" x2="143" y2="82" stroke="#000" stroke-width="2"/>
+  <line x1="208" y1="14" x2="208" y2="82" stroke="#000" stroke-width="2"/>
+  <line x1="273" y1="14" x2="273" y2="82" stroke="#000" stroke-width="2"/>
+  <line x1="338" y1="14" x2="338" y2="82" stroke="#000" stroke-width="2"/>
+  <line x1="12" y1="82"  x2="78" y2="82"  stroke="#000" stroke-width="2"/>
+  <line x1="12" y1="150" x2="79" y2="150" stroke="#000" stroke-width="2"/>
+</svg>

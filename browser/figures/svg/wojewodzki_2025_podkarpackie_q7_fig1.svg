@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="570" viewBox="0 0 680 570">
+<rect width="680" height="570" fill="#fff"/>
+<!-- green lens: intersection of circle K and circle L, between S and T -->
+<path d="M133.6,277.6 A250.35,250.35 0 0,1 487.3,278.9 A250.35,250.35 0 0,1 133.6,277.6 Z" fill="#80ff80" stroke="none"/>
+<!-- circles -->
+<g fill="none" stroke="#1a1a1a" stroke-width="2.3">
+<circle cx="310.6" cy="455.4" r="250.35"/>
+<circle cx="310.6" cy="101.1" r="250.35"/>
+<circle cx="310.6" cy="278.25" r="177.15"/>
+</g>
+<!-- rectangle ABCD -->
+<path d="M60.3,455.4 L560.97,455.4 L560.97,101.1 L60.3,101.1 Z" fill="none" stroke="#1a1a1a" stroke-width="2.3"/>
+<!-- points -->
+<g fill="#4b00ff">
+<circle cx="60.3" cy="101.1" r="8.5"/>
+<circle cx="310.6" cy="101.1" r="8.5"/>
+<circle cx="560.97" cy="101.1" r="8.5"/>
+<circle cx="133.6" cy="277.6" r="8.5"/>
+<circle cx="487.3" cy="278.9" r="8.5"/>
+<circle cx="60.3" cy="455.4" r="8.5"/>
+<circle cx="310.6" cy="455.4" r="8.5"/>
+<circle cx="560.97" cy="455.4" r="8.5"/>
+</g>
+<!-- labels -->
+<g font-family="Times New Roman,serif" font-size="24" fill="#4b00ff" text-anchor="middle">
+<text x="39" y="82">D</text>
+<text x="311" y="60">L</text>
+<text x="579" y="80">C</text>
+<text x="107" y="288">S</text>
+<text x="517" y="284">T</text>
+<text x="28" y="474">A</text>
+<text x="311" y="490">K</text>
+<text x="586" y="474">B</text>
+</g>
+</svg>

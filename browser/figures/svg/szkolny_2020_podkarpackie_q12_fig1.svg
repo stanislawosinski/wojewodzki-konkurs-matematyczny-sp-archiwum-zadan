@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="480" viewBox="0 0 680 480">
+<rect width="680" height="480" fill="#fff"/>
+
+<!-- main lines -->
+<line x1="86.5" y1="72.5" x2="570.5" y2="72.5" stroke="#000" stroke-width="1.5"/>
+<line x1="86.5" y1="440.5" x2="570.5" y2="440.5" stroke="#000" stroke-width="1.5"/>
+<line x1="570.5" y1="72.5" x2="328" y2="196" stroke="#000" stroke-width="1.5"/>
+<line x1="328" y1="196" x2="570.5" y2="440.5" stroke="#000" stroke-width="1.5"/>
+
+<!-- angle arcs -->
+<path d="M 447.5 72.5 A 123 123 0 0 1 460.9 128.3" fill="none" stroke="#000" stroke-width="1.5"/>
+<path d="M 447.5 440.5 A 123 123 0 0 0 483.9 353.2" fill="none" stroke="#000" stroke-width="1.5"/>
+<path d="M 434.0 142.0 A 119 119 0 0 1 411.8 280.5" fill="none" stroke="#000" stroke-width="1.5"/>
+
+<!-- vertex dots -->
+<circle cx="86.5" cy="72.5" r="3.5" fill="blue"/>
+<circle cx="570.5" cy="72.5" r="3.5" fill="blue"/>
+<circle cx="328" cy="196" r="3.5" fill="blue"/>
+<circle cx="86.5" cy="440.5" r="3.5" fill="blue"/>
+<circle cx="570.5" cy="440.5" r="3.5" fill="blue"/>
+
+<!-- labels -->
+<text x="84" y="63" font-family="Times New Roman,serif" font-size="22">D</text>
+<text x="566" y="63" font-family="Times New Roman,serif" font-size="22">C</text>
+<text x="303" y="197" font-family="Times New Roman,serif" font-size="22">E</text>
+<text x="88" y="477" font-family="Times New Roman,serif" font-size="22">A</text>
+<text x="566" y="477" font-family="Times New Roman,serif" font-size="22">B</text>
+<text x="477" y="106" font-family="Times New Roman,serif" font-size="20" font-style="italic">&#945;</text>
+<text x="401" y="216" font-family="Times New Roman,serif" font-size="20" font-style="italic">&#947;</text>
+<text x="492" y="422" font-family="Times New Roman,serif" font-size="20" font-style="italic">&#946;</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="490" viewBox="0 0 400 490">
+  <rect width="400" height="490" fill="#fff"/>
+  <g fill="none" stroke="#000" stroke-width="2">
+    <!-- triangle -->
+    <line x1="51.7" y1="395.4" x2="352.7" y2="395.5"/>
+    <line x1="51.7" y1="395.4" x2="202.3" y2="62.7"/>
+    <line x1="202.3" y1="62.7" x2="352.7" y2="395.5"/>
+    <!-- angle bisectors (each overshoots the far side slightly, as drawn) -->
+    <line x1="51.7" y1="395.4" x2="322" y2="227"/>
+    <line x1="352.7" y1="395.5" x2="70" y2="220"/>
+    <!-- angle marks -->
+    <path d="M 112.1 395.5 A 60.4 60.4 0 0 0 76.6 340.4"/>
+    <path d="M 292.4 395.5 A 60.4 60.4 0 0 1 327.9 340.5"/>
+  </g>
+  <g font-family="Times New Roman,serif" font-style="italic" font-size="24" fill="#000">
+    <text x="27" y="407">A</text>
+    <text x="359" y="407">B</text>
+    <text x="196" y="55">C</text>
+    <text x="93" y="261">L</text>
+    <text x="299" y="261">K</text>
+  </g>
+</svg>

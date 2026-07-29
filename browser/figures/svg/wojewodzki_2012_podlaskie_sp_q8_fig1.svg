@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="255" height="210" viewBox="0 0 255 210">
+  <rect width="255" height="210" fill="#fff"/>
+
+  <!-- gray diagonal / triangle sides -->
+  <line x1="10" y1="97" x2="119" y2="205" stroke="#8c8c8c" stroke-width="1.3"/>
+  <line x1="10" y1="205" x2="120" y2="15" stroke="#8c8c8c" stroke-width="1.3"/>
+  <line x1="120" y1="15" x2="229" y2="205" stroke="#8c8c8c" stroke-width="1.3"/>
+
+  <!-- bold square (3 sides, base drawn together with triangle base below) -->
+  <line x1="10" y1="97" x2="119" y2="97" stroke="#2b2b2b" stroke-width="1.8"/>
+  <line x1="119" y1="97" x2="119" y2="205" stroke="#2b2b2b" stroke-width="1.8"/>
+  <line x1="10" y1="97" x2="10" y2="205" stroke="#2b2b2b" stroke-width="1.8"/>
+
+  <!-- base: square bottom edge + triangle base, one continuous bold line -->
+  <line x1="10" y1="205" x2="229" y2="205" stroke="#2b2b2b" stroke-width="1.8"/>
+
+  <!-- angle arc + label -->
+  <path d="M35,167 Q42,188 76,166" fill="none" stroke="#000" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="46" y="165" font-family="Times New Roman,serif" font-style="italic" font-size="14">x</text>
+</svg>

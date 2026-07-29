@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="423" height="241" viewBox="0 0 423 241">
+  <rect width="423" height="241" fill="#fff"/>
+  <!-- shaded regions first, under the outlines -->
+  <path d="M 36 201 L 197 201 L 164 40 Z" fill="#7f7f7f"/>
+  <path d="M 312 39 L 410 39 L 410 201 L 377 201 Z" fill="#7f7f7f"/>
+  <g fill="none" stroke="#000" stroke-width="2">
+    <!-- left square -->
+    <path d="M 36 39 L 197 39 L 197 201 L 36 201 Z"/>
+    <!-- solid diagonal, corner to apex point "1" -->
+    <line x1="36" y1="201" x2="164" y2="40"/>
+    <!-- dashed diagonal, apex to bottom-right corner -->
+    <line x1="164" y1="40" x2="197" y2="201" stroke-dasharray="6,4"/>
+    <!-- right square -->
+    <path d="M 248 39 L 410 39 L 410 201 L 248 201 Z"/>
+    <!-- diagonal, top point (under "2") to bottom point (under "1") -->
+    <line x1="312" y1="39" x2="377" y2="201"/>
+  </g>
+  <g font-family="Times New Roman,serif" font-style="italic" font-size="24" fill="#000">
+    <text x="177" y="32">1</text>
+    <text x="14" y="129">a</text>
+    <text x="273" y="31">2</text>
+    <text x="388" y="228">1</text>
+  </g>
+</svg>

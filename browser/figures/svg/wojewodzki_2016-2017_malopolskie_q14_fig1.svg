@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="742" height="330" viewBox="0 0 742 330">
+  <rect x="0" y="0" width="742" height="330" fill="#fff"/>
+
+  <!-- whole parallelogram AEFD, light grey -->
+  <path d="M 35,264 L 409,264 L 618,77 L 241,77 Z" fill="#ebebeb"/>
+  <!-- parallelogram BEFC, darker grey, on top of the right part -->
+  <path d="M 317,264 L 409,264 L 618,77 L 526,77 Z" fill="#d2d2d2"/>
+
+  <!-- outline -->
+  <path d="M 35,264 L 409,264 L 618,77 L 241,77 Z" fill="none" stroke="#000" stroke-width="1.3"/>
+  <line x1="317" y1="264" x2="526" y2="77" stroke="#000" stroke-width="1.3"/>
+
+  <!-- labels -->
+  <g font-family="Times New Roman,serif" font-style="italic" font-size="24">
+    <text x="8"   y="290" text-anchor="middle">A</text>
+    <text x="311" y="298" text-anchor="middle">B</text>
+    <text x="410" y="298" text-anchor="middle">E</text>
+    <text x="241" y="45"  text-anchor="middle">D</text>
+    <text x="537" y="44"  text-anchor="middle">C</text>
+    <text x="637" y="49"  text-anchor="middle">F</text>
+  </g>
+</svg>

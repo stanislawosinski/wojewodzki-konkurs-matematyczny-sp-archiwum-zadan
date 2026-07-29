@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="615" height="505" viewBox="0 0 615 505">
+<rect width="615" height="505" fill="#fff"/>
+
+<!-- shaded angle X wedge at N (drawn under the triangle lines) -->
+<path d="M 252.3,442.8 L 220.05,365.2 A 84,84 0 0 1 319.3,392.1 Z" fill="#c8bfe7" stroke="none"/>
+
+<!-- angle arc at M (57 deg) -->
+<path d="M 304.0,120.8 A 108,108 0 0 1 406.1,137.1" fill="none" stroke="#808080" stroke-width="1.2"/>
+
+<!-- main triangle KML -->
+<path d="M 55.1,443.1 L 514.4,442.4 L 370.0,35.3 Z" fill="none" stroke="#000" stroke-width="5"/>
+<!-- cevians NP and NR -->
+<line x1="252.3" y1="442.8" x2="183.4" y2="277.0" stroke="#000" stroke-width="5"/>
+<line x1="252.3" y1="442.8" x2="459.1" y2="286.4" stroke="#000" stroke-width="5"/>
+
+<!-- point labels -->
+<g font-family="Helvetica,Arial,sans-serif" font-size="28" font-weight="bold" text-anchor="middle">
+<text x="368" y="30">M</text>
+<text x="38" y="466">K</text>
+<text x="528" y="469">L</text>
+<text x="174.5" y="278">P</text>
+<text x="477" y="294">R</text>
+<text x="248.5" y="477">N</text>
+<text x="263.5" y="400">X</text>
+</g>
+<text x="350" y="125" font-family="Helvetica,Arial,sans-serif" font-size="28" font-weight="bold" text-anchor="middle">57<tspan font-size="16" dy="-10">o</tspan></text>
+</svg>

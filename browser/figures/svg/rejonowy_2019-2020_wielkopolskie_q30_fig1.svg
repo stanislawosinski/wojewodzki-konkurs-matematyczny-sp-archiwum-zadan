@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="330" viewBox="0 0 660 330">
+<rect width="660" height="330" fill="#fff"/>
+
+<!-- rectangle ABCD: D top-left, C top-right, A bottom-left, B bottom-right -->
+<rect x="67.5" y="51.5" width="521" height="229" fill="none" stroke="#000" stroke-width="2"/>
+
+<!-- triangle APR: A bottom-left, P midpoint of BC, R midpoint of DC -->
+<line x1="67.5" y1="280.5" x2="328" y2="51.5" stroke="#000" stroke-width="2"/>
+<line x1="67.5" y1="280.5" x2="588.5" y2="166" stroke="#000" stroke-width="2"/>
+<line x1="328" y1="51.5" x2="588.5" y2="166" stroke="#000" stroke-width="2"/>
+
+<!-- labels -->
+<text x="20" y="49" font-family="Times New Roman,serif" font-size="22">D</text>
+<text x="597" y="49" font-family="Times New Roman,serif" font-size="22">C</text>
+<text x="305" y="37" font-family="Times New Roman,serif" font-size="22">R</text>
+<text x="21" y="297" font-family="Times New Roman,serif" font-size="22">A</text>
+<text x="597" y="297" font-family="Times New Roman,serif" font-size="22">B</text>
+<text x="599" y="179" font-family="Times New Roman,serif" font-size="22">P</text>
+</svg>

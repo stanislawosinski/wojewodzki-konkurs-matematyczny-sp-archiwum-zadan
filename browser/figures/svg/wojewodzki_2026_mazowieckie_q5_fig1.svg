@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="423" viewBox="0 0 540 423">
+<rect width="540" height="423" fill="#fff"/>
+<!-- axes -->
+<line x1="288" y1="412" x2="288" y2="14" stroke="#000" stroke-width="2"/>
+<path d="M281,27 L295,27 L288,10 Z" fill="#000"/>
+<line x1="10" y1="359" x2="512" y2="359" stroke="#000" stroke-width="2"/>
+<path d="M512,352 L512,367 L529,359.5 Z" fill="#000"/>
+<!-- hexagon F A B C D E -->
+<path d="M289,85 L368,222 L289,359 L131,359 L52,222 L131,85 Z" fill="none" stroke="#000" stroke-width="2"/>
+<!-- stray dot near C in original -->
+<circle cx="128" cy="368" r="1.3" fill="#000"/>
+<!-- labels -->
+<g font-family="Times New Roman,serif" font-style="italic" font-size="24" fill="#000">
+<text x="117" y="76">E</text>
+<text x="301" y="75">F</text>
+<text x="379" y="225">A</text>
+<text x="28" y="227">D</text>
+<text x="293" y="384">B</text>
+<text x="110" y="390">C</text>
+<text x="269" y="57">y</text>
+<text x="460" y="390">x</text>
+</g>
+</svg>

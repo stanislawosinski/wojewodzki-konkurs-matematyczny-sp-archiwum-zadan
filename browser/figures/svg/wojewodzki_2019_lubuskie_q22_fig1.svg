@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="435" height="360" viewBox="0 0 435 360">
+  <rect width="435" height="360" fill="#fff"/>
+  <!-- shaded triangle D-C-B -->
+  <path d="M 71,145 L 71,64 L 382,306.5 Z" fill="#8c8c8c" stroke="none"/>
+  <!-- outer triangle ABC -->
+  <path d="M 71,306.5 L 382,306.5 L 71,64 Z" fill="none" stroke="#000" stroke-width="2.5"/>
+  <!-- internal edge DB -->
+  <line x1="71" y1="145" x2="382" y2="306.5" stroke="#000" stroke-width="2.5"/>
+  <!-- right angle arc at A -->
+  <path d="M 129,306.5 A 58,58 0 0 0 71,248.5" fill="none" stroke="#000" stroke-width="2"/>
+  <!-- dot inside angle mark -->
+  <circle cx="94.6" cy="283.2" r="2.6" fill="#000"/>
+  <!-- labels -->
+  <text x="49" y="57" font-family="Times New Roman,serif" font-size="22" font-style="italic">C</text>
+  <text x="38" y="152" font-family="Times New Roman,serif" font-size="22" font-style="italic">D</text>
+  <text x="41" y="230" font-family="Times New Roman,serif" font-size="22">4</text>
+  <text x="47" y="327" font-family="Times New Roman,serif" font-size="22" font-style="italic">A</text>
+  <text x="210" y="347" font-family="Times New Roman,serif" font-size="22">8</text>
+  <text x="387" y="321" font-family="Times New Roman,serif" font-size="22" font-style="italic">B</text>
+</svg>

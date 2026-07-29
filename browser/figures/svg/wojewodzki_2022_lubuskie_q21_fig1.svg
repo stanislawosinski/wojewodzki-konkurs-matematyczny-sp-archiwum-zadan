@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="553" height="394" viewBox="0 0 553 394">
+<rect width="553" height="394" fill="#fff"/>
+
+<!-- shaded top-left cell -->
+<rect x="61.5" y="59" width="177.5" height="91" fill="#d6d6d6"/>
+
+<!-- grid: outer rectangle + dividers -->
+<g fill="none" stroke="#606060" stroke-width="2">
+<rect x="61.5" y="59" width="427" height="274.5"/>
+<line x1="239" y1="59" x2="239" y2="333.5"/>
+<line x1="61.5" y1="150" x2="488.5" y2="150"/>
+</g>
+
+<!-- dimension arrows -->
+<g stroke="#111111" stroke-width="2">
+<line x1="43" y1="60" x2="43" y2="333"/>
+<line x1="507.5" y1="150" x2="507.5" y2="333"/>
+<line x1="239" y1="41" x2="488" y2="41"/>
+<line x1="62" y1="351" x2="489" y2="351"/>
+</g>
+<g fill="#111111">
+<path d="M 38 70 L 43 60 L 48 70 Z"/>
+<path d="M 38 323 L 43 333 L 48 323 Z"/>
+<path d="M 502.5 160 L 507.5 150 L 512.5 160 Z"/>
+<path d="M 502.5 323 L 507.5 333 L 512.5 323 Z"/>
+<path d="M 249 36 L 239 41 L 249 46 Z"/>
+<path d="M 478 36 L 488 41 L 478 46 Z"/>
+<path d="M 72 346 L 62 351 L 72 356 Z"/>
+<path d="M 479 346 L 489 351 L 479 356 Z"/>
+</g>
+
+<!-- labels -->
+<g font-family="Helvetica,Arial,sans-serif" font-size="24" fill="#000" text-anchor="middle" dominant-baseline="middle">
+<text x="363.5" y="25">6x<tspan font-size="15" dy="-9">2</tspan><tspan dy="9">+3</tspan></text>
+<text x="275" y="368.5">8x<tspan font-size="15" dy="-9">2</tspan><tspan dy="9">+9</tspan></text>
+<text x="24.5" y="196" transform="rotate(-90 24.5 196)">5x<tspan font-size="15" dy="-9">2</tspan><tspan dy="9">+x+3</tspan></text>
+<text x="526" y="241.5" transform="rotate(90 526 241.5)">3x<tspan font-size="15" dy="-9">2</tspan><tspan dy="9">+1</tspan></text>
+</g>
+</svg>

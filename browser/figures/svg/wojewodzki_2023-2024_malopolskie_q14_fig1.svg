@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="440" viewBox="0 0 560 440">
+  <rect width="560" height="440" fill="#fff"/>
+
+  <!-- circle O centered at B -->
+  <circle cx="287.1" cy="195.8" r="174.6" fill="none" stroke="#000" stroke-width="1.6"/>
+
+  <!-- horizontal line A-C (extended) -->
+  <line x1="24" y1="346.5" x2="508" y2="346.5" stroke="#000" stroke-width="1.8"/>
+
+  <!-- ray A-B extended -->
+  <line x1="24" y1="346.5" x2="508" y2="68" stroke="#000" stroke-width="1.6"/>
+
+  <!-- triangle sides B-S and B-T -->
+  <line x1="287.1" y1="195.8" x2="201.7" y2="346.5" stroke="#000" stroke-width="1.6"/>
+  <line x1="287.1" y1="195.8" x2="372.0" y2="346.5" stroke="#000" stroke-width="1.6"/>
+
+  <!-- small angle arc at B between ray extension and BT, with center dot -->
+  <path d="M 312.2 181.3 A 29 29 0 0 1 301.3 221.1" fill="none" stroke="#000" stroke-width="1.2"/>
+  <circle cx="303.0" cy="200.1" r="1.5" fill="#000"/>
+
+  <!-- point dots -->
+  <circle cx="24" cy="346.5" r="3" fill="#000"/>
+  <circle cx="201.7" cy="346.5" r="3" fill="#000"/>
+  <circle cx="372.0" cy="346.5" r="3" fill="#000"/>
+  <circle cx="449.5" cy="346.5" r="3" fill="#000"/>
+  <circle cx="287.1" cy="195.8" r="3" fill="#000"/>
+
+  <!-- labels -->
+  <text x="17" y="380" font-family="Times New Roman,serif" font-style="italic" font-size="27">A</text>
+  <text x="183" y="380" font-family="Times New Roman,serif" font-style="italic" font-size="27">S</text>
+  <text x="373" y="380" font-family="Times New Roman,serif" font-style="italic" font-size="27">T</text>
+  <text x="438" y="380" font-family="Times New Roman,serif" font-style="italic" font-size="27">C</text>
+  <text x="275" y="181" font-family="Times New Roman,serif" font-style="italic" font-size="27">B</text>
+  <text x="344" y="271" font-family="Times New Roman,serif" font-style="italic" font-size="24">r</text>
+  <text x="76" y="338" font-family="Times New Roman,serif" font-size="22">30°</text>
+</svg>

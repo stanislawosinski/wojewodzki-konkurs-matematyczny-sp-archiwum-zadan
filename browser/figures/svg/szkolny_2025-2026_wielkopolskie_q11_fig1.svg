@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="470" viewBox="0 0 520 470">
+  <rect width="520" height="470" fill="#fff"/>
+  <!-- outer rectangle, filled -->
+  <rect x="80" y="68.5" width="376.5" height="312" fill="#fbd6ab" stroke="#000" stroke-width="3"/>
+  <!-- top strip dividers -->
+  <path d="M 80 146.5 L 456.5 146.5" stroke="#000" stroke-width="2.5"/>
+  <path d="M 206 68.5 L 206 146.5" stroke="#000" stroke-width="2.5"/>
+  <path d="M 331.5 68.5 L 331.5 146.5" stroke="#000" stroke-width="2.5"/>
+  <!-- lower area column dividers -->
+  <path d="M 163.5 146.5 L 163.5 380.5" stroke="#000" stroke-width="2.5"/>
+  <path d="M 289.5 146.5 L 289.5 380.5" stroke="#000" stroke-width="2.5"/>
+  <path d="M 373.5 146.5 L 373.5 380.5" stroke="#000" stroke-width="2.5"/>
+  <!-- col1 split -->
+  <path d="M 80 263 L 163.5 263" stroke="#000" stroke-width="2.5"/>
+  <!-- col2 splits (thirds) -->
+  <path d="M 163.5 224.5 L 289.5 224.5" stroke="#000" stroke-width="2.5"/>
+  <path d="M 163.5 302.5 L 289.5 302.5" stroke="#000" stroke-width="2.5"/>
+  <!-- col3 split -->
+  <path d="M 289.5 263 L 373.5 263" stroke="#000" stroke-width="2.5"/>
+  <!-- col4 split -->
+  <path d="M 373.5 263 L 456.5 263" stroke="#000" stroke-width="2.5"/>
+  <!-- labels -->
+  <text x="64" y="60" font-family="Helvetica,Arial,sans-serif" font-size="26" fill="#000" text-anchor="middle">D</text>
+  <text x="478" y="66" font-family="Helvetica,Arial,sans-serif" font-size="26" fill="#000" text-anchor="middle">C</text>
+  <text x="68" y="415" font-family="Helvetica,Arial,sans-serif" font-size="26" fill="#000" text-anchor="middle">A</text>
+  <text x="471" y="412" font-family="Helvetica,Arial,sans-serif" font-size="26" fill="#000" text-anchor="middle">B</text>
+  <text x="263" y="414" font-family="Helvetica,Arial,sans-serif" font-size="24" fill="#000" text-anchor="middle">81</text>
+</svg>

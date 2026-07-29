@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="380" viewBox="0 0 380 380">
+<rect width="380" height="380" fill="#fff"/>
+
+<!-- square border -->
+<path d="M 26 16.5 L 376 16.5 L 376 367 L 26 367 Z" fill="none" stroke="#000" stroke-width="2.5"/>
+
+<!-- 8 diagonals: each corner to the two rhombus hub points L_r, R_r -->
+<line x1="26" y1="16.5" x2="136.8" y2="187.2" stroke="#000" stroke-width="2"/>
+<line x1="26" y1="16.5" x2="263.4" y2="186.9" stroke="#000" stroke-width="2"/>
+<line x1="376" y1="16.5" x2="136.8" y2="187.2" stroke="#000" stroke-width="2"/>
+<line x1="376" y1="16.5" x2="263.4" y2="186.9" stroke="#000" stroke-width="2"/>
+<line x1="26" y1="367" x2="136.8" y2="187.2" stroke="#000" stroke-width="2"/>
+<line x1="26" y1="367" x2="263.4" y2="186.9" stroke="#000" stroke-width="2"/>
+<line x1="376" y1="367" x2="136.8" y2="187.2" stroke="#000" stroke-width="2"/>
+<line x1="376" y1="367" x2="263.4" y2="186.9" stroke="#000" stroke-width="2"/>
+
+<!-- labels -->
+<text x="199.5" y="76" font-family="Times New Roman,serif" font-style="italic" font-size="26" text-anchor="middle">A</text>
+<text x="135.5" y="139" font-family="Times New Roman,serif" font-style="italic" font-size="26" text-anchor="middle">X</text>
+<text x="250.5" y="148.5" font-family="Times New Roman,serif" font-style="italic" font-size="26" text-anchor="middle">X</text>
+<text x="74" y="196" font-family="Times New Roman,serif" font-style="italic" font-size="26" text-anchor="middle">B</text>
+<text x="198" y="196" font-family="Times New Roman,serif" font-style="italic" font-size="26" text-anchor="middle">R</text>
+<text x="328.5" y="196" font-family="Times New Roman,serif" font-style="italic" font-size="26" text-anchor="middle">B</text>
+<text x="135.5" y="247.5" font-family="Times New Roman,serif" font-style="italic" font-size="26" text-anchor="middle">X</text>
+<text x="257.5" y="257" font-family="Times New Roman,serif" font-style="italic" font-size="26" text-anchor="middle">X</text>
+<text x="199.5" y="320" font-family="Times New Roman,serif" font-style="italic" font-size="26" text-anchor="middle">A</text>
+</svg>

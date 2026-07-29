@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="400" viewBox="0 0 420 400">
+  <rect width="420" height="400" fill="#fff"/>
+
+  <!-- shaded region: outer axis-aligned square minus inner tilted square -->
+  <path d="M63 22 L373.65 22 L373.65 333.4 L63 333.4 Z
+           M110.26 51.31 L353.93 73.18 L331.91 316.74 L88.48 294.97 Z"
+        fill="#979797" fill-rule="evenodd" stroke="none"/>
+
+  <!-- outer square outline -->
+  <rect x="63" y="22" width="310.65" height="311.4" fill="none" stroke="#000" stroke-width="1.7"/>
+
+  <g fill="none" stroke="#000" stroke-width="1.9">
+    <!-- right-angle arcs at three outer corners -->
+    <path d="M94 22 A31 31 0 0 1 63 53"/>
+    <path d="M373.65 53 A31 31 0 0 1 342.65 22"/>
+    <path d="M63 302.4 A31 31 0 0 1 94 333.4"/>
+    <!-- right-angle arcs at three inner-square corners -->
+    <path d="M141.14 54.08 A31 31 0 0 1 107.49 82.19"/>
+    <path d="M351.16 104.06 A31 31 0 0 1 323.05 70.41"/>
+    <path d="M91.25 264.09 A31 31 0 0 1 119.36 297.74"/>
+  </g>
+
+  <g fill="#000" stroke="none">
+    <circle cx="74.9" cy="33.6" r="3.2"/>
+    <circle cx="361.5" cy="33.5" r="3.2"/>
+    <circle cx="74.4" cy="321.6" r="3.2"/>
+    <circle cx="121.75" cy="65.4" r="3.1"/>
+    <circle cx="340" cy="84.8" r="3.1"/>
+    <circle cx="101.5" cy="283.6" r="3.1"/>
+  </g>
+</svg>

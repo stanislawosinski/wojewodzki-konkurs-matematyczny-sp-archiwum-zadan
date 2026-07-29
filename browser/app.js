@@ -220,6 +220,8 @@ function renderQuestion(q, seq) {
     `<button type="button" class="reorder up" title="Przesuń w górę" aria-label="w górę">↑</button>`
     + `<button type="button" class="reorder down" title="Przesuń w dół" aria-label="w dół">↓</button>`);
   parts.push(`<label class="selectbox" title="zaznacz do wydruku"><input type="checkbox"${selectedSet.has(q.hash) ? ' checked' : ''}></label>`);
+  if ((q.figsvg || []).length) parts.push( // only for questions whose figures have a vector redraw
+    `<button type="button" class="svgtoggle" title="Pokaż rysunek wektorowy (SVG)" aria-label="wersja wektorowa">△</button>`);
   // meta tags inline in the header, right-aligned; each type toggled from the settings popup
   const metaHtml = [
     q.wojewodztwo && `<span class="tag ctx woj">${esc(q.wojewodztwo)}</span>`,
@@ -232,13 +234,16 @@ function renderQuestion(q, seq) {
     + `<span class="hash" title="kliknij, aby skopiować id">(${q.hash})</span>`
     + `<span class="qmeta">${metaHtml}</span></div>`);
   parts.push(`<div class="prompt">${q.prompt_html}</div>`);
+  const hasSvg = new Set(q.figsvg || []);
   for (const fig of q.figures || []) {
     // A 400 dpi figure is laid out at its 200 dpi size, so the extra pixels go to
     // sharpness rather than to a picture twice as large. (srcset "2x" does NOT do this:
     // src joins the candidate list as 1x and wins on a non-retina display.)
     const d = (q.figdim || {})[fig];
     const dim = d ? ` width="${d[0]}" height="${d[1]}"` : '';
-    parts.push(`<img class="fig" src="figures/${esc(fig)}"${dim} loading="lazy" alt="rysunek do zadania ${q.number}">`);
+    // the gutter △ swaps src between these two; the SVG shares the bitmap's viewBox, so dim still holds
+    const alt = hasSvg.has(fig) ? ` data-png="figures/${esc(fig)}" data-svg="figures/svg/${esc(fig.replace(/\.png$/, '.svg'))}"` : '';
+    parts.push(`<img class="fig" src="figures/${esc(fig)}"${dim}${alt} loading="lazy" alt="rysunek do zadania ${q.number}">`);
   }
   const correct = q.answer && q.answer.correct;
   if (q.choices && q.choices.length) {
@@ -470,6 +475,13 @@ loadData().then(data => {
     }
     const hashEl = e.target.closest('.hash'); // click the id to copy it to the clipboard
     if (hashEl) { copyText(hashEl.closest('.q').dataset.hash); flashCopied(hashEl); return; }
+    const svgBtn = e.target.closest('.svgtoggle'); // △: show the vector redraw instead of the bitmap
+    if (svgBtn) {
+      const on = svgBtn.classList.toggle('on'); // ponytail: state lives on the DOM, so a re-render resets it
+      for (const img of svgBtn.closest('.q').querySelectorAll('.fig[data-svg]'))
+        img.src = on ? img.dataset.svg : img.dataset.png;
+      return;
+    }
     const btn = e.target.closest('.reorder'); // reorder arrows: swap adjacent hashes in the id box
     if (!btn) return;
     const ids = idList(inc.value);

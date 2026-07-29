@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="372" viewBox="0 0 460 372">
+  <rect width="460" height="372" fill="#fff"/>
+  <g fill="none" stroke="#000" stroke-width="2">
+    <!-- square A(71,342) B(360,342) C(360,54) D(71,54) -->
+    <line x1="71" y1="342" x2="360" y2="342"/>
+    <line x1="360" y1="342" x2="360" y2="54"/>
+    <line x1="360" y1="54" x2="71" y2="54"/>
+    <line x1="71" y1="54" x2="71" y2="342"/>
+    <!-- cevians: K on AB, L on AD -->
+    <line x1="71" y1="54" x2="250" y2="342"/>
+    <line x1="250" y1="342" x2="360" y2="54"/>
+    <line x1="71" y1="233" x2="360" y2="342"/>
+    <line x1="71" y1="233" x2="360" y2="54"/>
+    <!-- angle arcs -->
+    <path d="M 88.49 81.98 A 33 33 0 0 1 71 87"/>
+    <path d="M 342.32 100.77 A 50 50 0 0 1 317.46 80.29"/>
+    <path d="M 288 342 A 72 72 0 0 1 292.6 316.6"/>
+  </g>
+  <g fill="#000" stroke="none" font-family="Helvetica,Arial,sans-serif" font-size="22">
+    <text x="53" y="42">D</text>
+    <text x="365" y="42">C</text>
+    <text x="53" y="237">L</text>
+    <text x="52" y="366">A</text>
+    <text x="236" y="366">K</text>
+    <text x="364" y="366">B</text>
+  </g>
+  <g fill="#000" stroke="none" font-family="Helvetica,Arial,sans-serif" font-size="20" font-style="italic">
+    <text x="74" y="103">&#947;</text>
+    <text x="326" y="98">&#946;</text>
+    <text x="296" y="338">&#945;</text>
+  </g>
+</svg>

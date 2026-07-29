@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="545" height="410" viewBox="0 0 545 410">
+  <rect width="545" height="410" fill="#fff"/>
+  <!-- trapezoid A-C-D-B -->
+  <path d="M 56.9 349.7 L 142.6 63.4 L 378.9 66.1 L 449.7 354.3 Z" fill="none" stroke="#8a8a8a" stroke-width="3"/>
+  <!-- internal cevians from F -->
+  <path d="M 301.6 352.0 L 142.6 63.4" fill="none" stroke="#8a8a8a" stroke-width="3"/>
+  <path d="M 301.6 352.0 L 378.9 66.1" fill="none" stroke="#8a8a8a" stroke-width="3"/>
+  <!-- vertex dots -->
+  <circle cx="142.6" cy="63.4" r="9.5" fill="#0f65b9"/>
+  <circle cx="378.9" cy="66.1" r="9.5" fill="#0f65b9"/>
+  <circle cx="56.9" cy="349.7" r="9.5" fill="#0f65b9"/>
+  <circle cx="301.6" cy="352.0" r="9.5" fill="#0f65b9"/>
+  <circle cx="449.7" cy="354.3" r="9.5" fill="#0f65b9"/>
+  <!-- vertex labels -->
+  <text x="163.5" y="38" font-family="Helvetica,Arial,sans-serif" font-size="24" fill="#6286af" text-anchor="middle">C</text>
+  <text x="400" y="42" font-family="Helvetica,Arial,sans-serif" font-size="24" fill="#6286af" text-anchor="middle">D</text>
+  <text x="77" y="325" font-family="Helvetica,Arial,sans-serif" font-size="24" fill="#6286af" text-anchor="middle">A</text>
+  <text x="321.5" y="327" font-family="Helvetica,Arial,sans-serif" font-size="24" fill="#6286af" text-anchor="middle">F</text>
+  <text x="470" y="329" font-family="Helvetica,Arial,sans-serif" font-size="24" fill="#6286af" text-anchor="middle">B</text>
+  <!-- triangle labels T~1 T~2 T~3 (tilde drawn as small wave path above the T) -->
+  <path d="M 138 233 Q 155.5 228 173 233" fill="none" stroke="#505050" stroke-width="1.8"/>
+  <text x="149" y="259" font-family="Times New Roman,serif" font-size="24" fill="#505050">T</text>
+  <text x="162.5" y="268" font-family="Times New Roman,serif" font-size="16" fill="#505050">1</text>
+
+  <path d="M 260 145 Q 277.5 140 295 145" fill="none" stroke="#505050" stroke-width="1.8"/>
+  <text x="271" y="170" font-family="Times New Roman,serif" font-size="24" fill="#505050">T</text>
+  <text x="285.5" y="179" font-family="Times New Roman,serif" font-size="16" fill="#505050">2</text>
+
+  <path d="M 358 235 Q 376 230 394 235" fill="none" stroke="#505050" stroke-width="1.8"/>
+  <text x="370" y="260" font-family="Times New Roman,serif" font-size="24" fill="#505050">T</text>
+  <text x="384.5" y="269" font-family="Times New Roman,serif" font-size="16" fill="#505050">3</text>
+</svg>

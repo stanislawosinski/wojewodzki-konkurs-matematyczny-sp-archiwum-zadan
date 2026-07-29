@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="570" height="500" viewBox="0 0 570 500">
+  <rect width="570" height="500" fill="#fff"/>
+
+  <!-- vertical lines k and l -->
+  <line x1="201" y1="14" x2="201" y2="500" stroke="black" stroke-width="2"/>
+  <line x1="367.5" y1="14" x2="367.5" y2="500" stroke="black" stroke-width="2"/>
+
+  <!-- horizontal line through C, A, D -->
+  <line x1="70" y1="345.5" x2="534" y2="345.5" stroke="black" stroke-width="2"/>
+
+  <!-- transversal through B and A -->
+  <line x1="80.5" y1="27" x2="482" y2="474" stroke="black" stroke-width="2"/>
+
+  <!-- shaded quarter-disk angle DAE -->
+  <path d="M 367.5 345.8 L 437.5 345.8 A 70 70 0 0 1 367.5 415.8 Z" fill="#979797" stroke="black" stroke-width="1.5"/>
+
+  <!-- redraw transversal segment on top so it shows through the shading -->
+  <line x1="367.5" y1="345.8" x2="425" y2="411" stroke="black" stroke-width="2"/>
+
+  <!-- angle arc 42 degrees at B -->
+  <path d="M 201 67.8 A 94 94 0 0 0 138.353 91.719" fill="none" stroke="black" stroke-width="1.5"/>
+
+  <!-- angle arc 47 degrees at A -->
+  <path d="M 281.5 345.645 A 86 86 0 0 1 309.797 282.032" fill="none" stroke="black" stroke-width="1.5"/>
+
+  <!-- dots for D and E -->
+  <circle cx="493.5" cy="345.5" r="4.5" fill="black"/>
+  <circle cx="367" cy="467.5" r="4.5" fill="black"/>
+
+  <!-- k || l small symbol -->
+  <line x1="503.5" y1="87" x2="503.5" y2="116" stroke="black" stroke-width="2"/>
+  <line x1="509.5" y1="87" x2="509.5" y2="116" stroke="black" stroke-width="2"/>
+
+  <!-- text labels -->
+  <g font-family="Times New Roman,serif" font-size="26" fill="black">
+    <text x="212" y="43">k</text>
+    <text x="378" y="43">l</text>
+    <text x="479" y="108">k</text>
+    <text x="517" y="108">l</text>
+    <text x="154" y="101">42°</text>
+    <text x="290" y="337">47°</text>
+    <text x="208" y="159">B</text>
+    <text x="171" y="377">C</text>
+    <text x="375" y="332">A</text>
+    <text x="484" y="332">D</text>
+    <text x="335" y="476">E</text>
+  </g>
+</svg>

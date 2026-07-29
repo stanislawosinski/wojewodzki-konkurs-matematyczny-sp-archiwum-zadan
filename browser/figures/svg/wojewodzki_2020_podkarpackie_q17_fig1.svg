@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="650" height="788" viewBox="0 0 650 788">
+<rect width="650" height="788" fill="#fff"/>
+
+<!-- solid edges: S-A, S-B, S-C, C-A, A-B, and the solid stub of C-B up to elbow P -->
+<line x1="51" y1="44" x2="321.7" y2="748" stroke="#000" stroke-width="7"/>
+<line x1="51" y1="44" x2="601.5" y2="350" stroke="#000" stroke-width="7"/>
+<line x1="51" y1="44" x2="51" y2="510.4" stroke="#000" stroke-width="7"/>
+<line x1="51" y1="510.4" x2="321.7" y2="748" stroke="#000" stroke-width="7"/>
+<line x1="321.7" y1="748" x2="601.5" y2="350" stroke="#000" stroke-width="7"/>
+<line x1="51" y1="510.4" x2="166.2" y2="476.8" stroke="#000" stroke-width="7"/>
+
+<!-- dashed remainder of C-B (hidden edge) -->
+<line x1="166.2" y1="476.8" x2="601.5" y2="350" stroke="#000" stroke-width="5" stroke-dasharray="25,17"/>
+
+<!-- right-angle arc markers at C: arc1 = full S-C-A span (innermost), arc2 = B-C-A, arc3 = S-C-B -->
+<path d="M 51 439.4 A 71 71 0 0 1 104.34 557.26" fill="none" stroke="#000" stroke-width="3"/>
+<path d="M 152.6 480.88 A 105.8 105.8 0 0 1 130.48 580.23" fill="none" stroke="#000" stroke-width="3"/>
+<path d="M 51 392.1 A 118.3 118.3 0 0 1 164.6 477.4" fill="none" stroke="#000" stroke-width="3"/>
+
+<!-- dots marking each right angle -->
+<circle cx="80.8" cy="491" r="2.5" fill="#000"/>
+<circle cx="103.8" cy="445" r="2.5" fill="#000"/>
+<circle cx="134.8" cy="524" r="2.5" fill="#000"/>
+
+<!-- vertex labels -->
+<text x="50" y="33" font-family="Times New Roman,serif" font-style="italic" font-size="26" text-anchor="middle">S</text>
+<text x="617" y="355" font-family="Times New Roman,serif" font-style="italic" font-size="26" text-anchor="middle">B</text>
+<text x="37" y="537" font-family="Times New Roman,serif" font-style="italic" font-size="26" text-anchor="middle">C</text>
+<text x="336" y="775" font-family="Times New Roman,serif" font-style="italic" font-size="26" text-anchor="middle">A</text>
+</svg>

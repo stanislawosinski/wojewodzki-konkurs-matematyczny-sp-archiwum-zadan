@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="400" viewBox="0 0 620 400">
+  <rect width="620" height="400" fill="#fff"/>
+
+  <!-- Triangle A-E-F (shaded) -->
+  <polygon points="49.5,345.5 531.5,201.5 290.5,57.5"
+           fill="#bcbcbc" stroke="#000000" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- Rectangle ABCD border -->
+  <rect x="49.5" y="57.5" width="482" height="288"
+        fill="none" stroke="#000000" stroke-width="2"/>
+
+  <!-- Vertex labels -->
+  <text x="36" y="41" font-family="Helvetica,Arial,sans-serif" font-size="20" text-anchor="middle">D</text>
+  <text x="540" y="32" font-family="Helvetica,Arial,sans-serif" font-size="20" text-anchor="middle">C</text>
+  <text x="290" y="33" font-family="Helvetica,Arial,sans-serif" font-size="20" text-anchor="middle">F</text>
+  <text x="551" y="207" font-family="Helvetica,Arial,sans-serif" font-size="20" text-anchor="middle">E</text>
+  <text x="41" y="376" font-family="Helvetica,Arial,sans-serif" font-size="20" text-anchor="middle">A</text>
+  <text x="547" y="369" font-family="Helvetica,Arial,sans-serif" font-size="20" text-anchor="middle">B</text>
+
+  <!-- Area label inside the triangle -->
+  <text x="302" y="195" font-family="Helvetica,Arial,sans-serif" font-size="22" text-anchor="middle">15 cm&#178;</text>
+</svg>

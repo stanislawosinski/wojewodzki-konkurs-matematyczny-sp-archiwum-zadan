@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="901" height="397" viewBox="0 0 901 397">
+  <rect width="901" height="397" fill="#fff"/>
+
+  <!-- parallel lines m (top) and n (bottom) -->
+  <line x1="10" y1="54.5" x2="890" y2="54.5" stroke="#000" stroke-width="2.2"/>
+  <line x1="10" y1="345.5" x2="888" y2="345.5" stroke="#000" stroke-width="2.2"/>
+
+  <!-- polyline D-C-B-A -->
+  <line x1="648.5" y1="54.5" x2="356.5" y2="223.0" stroke="#000" stroke-width="2.2"/>
+  <line x1="356.5" y1="223.0" x2="564.3" y2="205.25" stroke="#000" stroke-width="2.2"/>
+  <line x1="564.3" y1="205.25" x2="446.83" y2="345.5" stroke="#000" stroke-width="2.2"/>
+
+  <!-- angle arcs -->
+  <!-- x at C -->
+  <path d="M 462.16 162.0 A 122 122 0 0 1 478.06 212.62" fill="none" stroke="#000" stroke-width="1.6"/>
+  <!-- 45deg at B -->
+  <path d="M 461.58 214.06 A 103.1 103.1 0 0 0 498.10 284.29" fill="none" stroke="#000" stroke-width="1.6"/>
+  <!-- 2x at A -->
+  <path d="M 506.42 274.36 A 92.8 92.8 0 0 1 539.63 345.5" fill="none" stroke="#000" stroke-width="1.6"/>
+  <!-- 150deg at D -->
+  <path d="M 592.21 87.0 A 65 65 0 0 0 713.5 54.5" fill="none" stroke="#000" stroke-width="1.6"/>
+
+  <!-- labels -->
+  <text x="10" y="42" font-family="Times New Roman,serif" font-style="italic" font-size="26">m</text>
+  <text x="10" y="333" font-family="Times New Roman,serif" font-style="italic" font-size="26">n</text>
+  <text x="644" y="33" font-family="Times New Roman,serif" font-style="italic" font-size="26">D</text>
+  <text x="318" y="224" font-family="Times New Roman,serif" font-style="italic" font-size="26">C</text>
+  <text x="588" y="209" font-family="Times New Roman,serif" font-style="italic" font-size="26">B</text>
+  <text x="426" y="384" font-family="Times New Roman,serif" font-style="italic" font-size="26">A</text>
+  <text x="428" y="205" font-family="Times New Roman,serif" font-style="italic" font-size="24">x</text>
+  <text x="478" y="246" font-family="Times New Roman,serif" font-size="24">45°</text>
+  <text x="486" y="329" font-family="Times New Roman,serif" font-size="24">2x</text>
+  <text x="622" y="97" font-family="Times New Roman,serif" font-size="24">150°</text>
+</svg>
