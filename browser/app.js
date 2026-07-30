@@ -548,6 +548,7 @@ loadData().then(data => {
   const applyPageMode = () => {
     const mode = document.querySelector('input[name="pageMode"]:checked').value;
     document.body.classList.toggle('brudnopis-auto', mode === 'auto');
+    document.body.classList.toggle('brudnopis-half', mode === 'half');
     document.body.classList.toggle('brudnopis-full', mode === 'full');
     // 'off' → no class → continuous print
   };
