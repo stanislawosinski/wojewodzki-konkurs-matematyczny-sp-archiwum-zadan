@@ -253,10 +253,12 @@ function renderQuestion(q, seq) {
   // open, true/false series and anything with a figure get a whole page.
   const half = q.type === 'closed_single' && !(q.figures || []).length;
   const parts = [`<article class="q ${half ? 'phalf' : 'pfull'}" id="${esc(q.id)}" data-hash="${q.hash}">`];
-  if (seq != null) parts.push( // ordered "Pokaż tylko id" mode: gutter arrows reorder the id list
-    `<button type="button" class="reorder up" title="Przesuń w górę" aria-label="w górę"><span>▾</span></button>`
-    + `<button type="button" class="reorder down" title="Przesuń w dół" aria-label="w dół">▾</button>`);
-  parts.push(`<label class="selectbox" title="zaznacz do wydruku"><input type="checkbox"${selectedSet.has(q.hash) ? ' checked' : ''}></label>`);
+  // left-gutter controls wrapped in one .gutter group so they dim together and hover as a unit
+  const reorder = seq == null ? '' // ordered "Pokaż tylko id" mode: arrows reorder the id list, × drops it
+    : `<button type="button" class="reorder remove" title="Usuń z listy id" aria-label="usuń">×</button>`
+      + `<button type="button" class="reorder up" title="Przesuń w górę" aria-label="w górę"><span>▾</span></button>`
+      + `<button type="button" class="reorder down" title="Przesuń w dół" aria-label="w dół">▾</button>`;
+  parts.push(`<div class="gutter">${reorder}<label class="selectbox" title="zaznacz do wydruku"><input type="checkbox"${selectedSet.has(q.hash) ? ' checked' : ''}></label></div>`);
   if ((q.figsvg || []).length) parts.push( // only for questions whose figures have a vector redraw
     `<button type="button" class="svgtoggle" title="Pokaż rysunek wektorowy (SVG)" aria-label="wersja wektorowa">△</button>`);
   // meta tags inline in the header, right-aligned; each type toggled from the settings popup
@@ -516,6 +518,12 @@ loadData().then(data => {
       const on = svgBtn.classList.toggle('on'); // ponytail: state lives on the DOM, so a re-render resets it
       for (const img of svgBtn.closest('.q').querySelectorAll('.fig[data-svg]'))
         img.src = on ? img.dataset.svg : img.dataset.png;
+      return;
+    }
+    const rm = e.target.closest('.reorder.remove'); // × : drop this question's hash from the id box
+    if (rm) {
+      inc.value = idList(inc.value).filter(h => h !== rm.closest('.q').dataset.hash).join(', ');
+      writeUrl(false); refilter();
       return;
     }
     const btn = e.target.closest('.reorder'); // reorder arrows: swap adjacent hashes in the id box
