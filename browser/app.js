@@ -88,7 +88,7 @@ function loadData() {
 const $ = id => document.getElementById(id);
 const search = $('search'), inc = $('include'), exc = $('exclude'),
   setsummary = $('setsummary'),
-  qlist = $('qlist'), facetsEl = $('facets'),
+  qlist = $('qlist'), answerkey = $('answerkey'), facetsEl = $('facets'),
   clearFilters = $('clearFilters'), clearFacets = $('clearFacets'), clearSearch = $('clearSearch'),
   clearSelBar = $('clearSelBar'), printBtn = $('printBtn'),
   settingsBtn = $('settingsBtn'), settingsPop = $('settingsPop');
@@ -221,6 +221,33 @@ function verifBadge(q, aiCount) {
   return null;
 }
 
+// AI answers worth showing: none when the key is confirmed (agrees); the AI's own answer when
+// there's no key or the AI dissented; plus a distinct Opus dissent. Shared by the reveal + key sheet.
+function aiAnswers(q) {
+  const m = (q.answer && q.answer.model) || {}, correct = q.answer && q.answer.correct;
+  const hasKey = correct != null && correct !== '', primaryLabel = MODEL_LABELS[m.by] || 'AI';
+  const ai = [];
+  if (!hasKey) { if (m.answer != null) ai.push({ label: primaryLabel, answer: m.answer, sol: m.solution_html }); }
+  else if (m.agrees === false && m.answer != null) ai.push({ label: primaryLabel, answer: m.answer, sol: m.solution_html });
+  if (m.dissent && m.dissent.answer != null) ai.push({ label: 'Opus', answer: m.dissent.answer, sol: m.dissent.solution_html });
+  return ai;
+}
+const aiLine = x => `Odpowiedź AI${x.label && x.label !== 'AI' ? ` (${esc(x.label)})` : ''}: <b>${esc(x.answer)}</b>`;
+
+// Compact answer-key entry for the print-only key sheet: number + answer + AI verification
+// (status, justification, differing AI answers). No derivations — it's a quick reference.
+function renderKeyEntry(q, seq) {
+  const correct = q.answer && q.answer.correct, ai = aiAnswers(q), badge = verifBadge(q, ai.length);
+  const p = [`<div class="kq"><span class="kn">Zadanie ${seq ?? q.number}.</span> <span class="hash">(${q.hash})</span>`];
+  if (correct) p.push(` <span class="ka">Odpowiedź: <b>${correct}</b></span>`);
+  if (badge) {
+    p.push(`<div class="kverif">Weryfikacja AI: <b class="${badge.cls}">${esc(badge.text)}</b></div>`);
+    if (badge.reason) p.push(`<div class="kreason">${esc(badge.reason)}</div>`);
+  }
+  for (const x of ai) p.push(`<div class="kai">${aiLine(x)}</div>`);
+  return p.join('') + '</div>';
+}
+
 function renderQuestion(q, seq) {
   const parts = [`<article class="q" id="${esc(q.id)}" data-hash="${q.hash}">`];
   if (seq != null) parts.push( // ordered "Pokaż tylko id" mode: gutter arrows reorder the id list
@@ -260,15 +287,7 @@ function renderQuestion(q, seq) {
     parts.push('</ol>');
   }
   const sol = q.answer && q.answer.solution_html;
-  const m = (q.answer && q.answer.model) || {}, hasKey = correct != null && correct !== '';
-  // AI answers to show: only when they add information — no key (show the AI's answer), or a
-  // key the AI disagreed with. `dissent` is a second, distinct model answer (Sonnet vs Opus).
-  const ai = [];
-  const primaryLabel = MODEL_LABELS[m.by] || 'AI';
-  if (!hasKey) { if (m.answer != null) ai.push({ label: primaryLabel, answer: m.answer, sol: m.solution_html }); }
-  else if (m.agrees === false && m.answer != null) ai.push({ label: primaryLabel, answer: m.answer, sol: m.solution_html });
-  if (m.dissent && m.dissent.answer != null) ai.push({ label: 'Opus', answer: m.dissent.answer, sol: m.dissent.solution_html });
-  const badge = verifBadge(q, ai.length);
+  const ai = aiAnswers(q), badge = verifBadge(q, ai.length);
   if (correct || sol || ai.length || badge) {
     parts.push('<details class="reveal"><summary title="Pokaż odpowiedź"><span class="eye">👁</span></summary>');
     if (correct) parts.push(`<div class="answer">Odpowiedź: <b>${correct}</b></div>`);
@@ -277,7 +296,7 @@ function renderQuestion(q, seq) {
       parts.push(`<p class="verif">Weryfikacja AI: <b class="${badge.cls}">${esc(badge.text)}</b></p>`);
       if (badge.reason) parts.push(`<p class="verif-reason">${esc(badge.reason)}</p>`);   // AI's justification for questioning/confirming the key
     }
-    for (const x of ai) parts.push(`<div class="answer ai">Odpowiedź AI${x.label && x.label !== 'AI' ? ` (${esc(x.label)})` : ''}: <b>${esc(x.answer)}</b></div>`);
+    for (const x of ai) parts.push(`<div class="answer ai">${aiLine(x)}</div>`);
     if (ai.length === 1 && ai[0].sol) parts.push(`<div class="answer solution ai-sol">${ai[0].sol}</div>`); // sole AI answer → show its reasoning
     parts.push('</details>');
   }
@@ -325,8 +344,12 @@ function update() {
   const pages = Math.max(1, Math.ceil(matched.length / PAGE_SIZE));
   page = Math.min(Math.max(1, page), pages);
   const start = (page - 1) * PAGE_SIZE;
-  qlist.innerHTML = matched.slice(start, start + PAGE_SIZE)
-    .map((q, i) => renderQuestion(q, useInc ? start + i + 1 : null)).join('\n');
+  const shownPage = matched.slice(start, start + PAGE_SIZE);
+  qlist.innerHTML = shownPage.map((q, i) => renderQuestion(q, useInc ? start + i + 1 : null)).join('\n');
+  // print-only key sheet mirrors the questions on the page, in the same order (see @media print)
+  answerkey.innerHTML = shownPage.length
+    ? '<h2>Klucz odpowiedzi</h2>' + shownPage.map((q, i) => renderKeyEntry(q, useInc ? start + i + 1 : null)).join('')
+    : '';
   layoutChoices(qlist);
   for (const p of pagers) {
     p.hidden = pages === 1;
@@ -518,6 +541,9 @@ loadData().then(data => {
   };
   for (const r of document.querySelectorAll('input[name="pageMode"]')) r.onchange = applyPageMode;
   applyPageMode();
+  // "Klucz odpowiedzi" (default on): body.print-key shows the print-only key sheet, hides inline reveals
+  const keyCb = $('answerKey'), applyKey = () => document.body.classList.toggle('print-key', keyCb.checked);
+  keyCb.onchange = applyKey; applyKey();
   // meta type toggles: each checkbox hides its tag type via a body class (default checked = shown)
   for (const [id, cls] of [['metaWoj', 'hide-woj'], ['metaRok', 'hide-rok'], ['metaEtap', 'hide-etap'], ['metaTopics', 'hide-topics']]) {
     const cb = $(id), apply = () => document.body.classList.toggle(cls, !cb.checked);

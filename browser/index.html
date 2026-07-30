@@ -32,6 +32,8 @@
 <p class="hint">mniej miejsca na brudnopis</p>
 <label><input type="radio" name="pageMode" value="none"> Bez podziału na strony</label>
 <p class="hint">ciągły druk, bez brudnopisu</p>
+<label><input type="checkbox" id="answerKey" checked> Klucz odpowiedzi na końcu</label>
+<p class="hint">odpowiedzi i weryfikacja AI na osobnej kartce po zadaniach</p>
 </section>
 <section><h4>Lista zadań</h4>
 <p class="sublabel">Pokaż dodatkowo:</p>
@@ -68,6 +70,7 @@
 </aside>
 <main class="content">
 <div id="qlist"></div>
+<section id="answerkey"></section>
 <nav class="pager" hidden>
 <button type="button" class="prev">‹ Poprzednia</button>
 <span class="pageinfo"></span>

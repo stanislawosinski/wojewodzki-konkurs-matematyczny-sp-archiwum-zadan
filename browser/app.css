@@ -162,10 +162,17 @@ math{font-size:1.05em}
 .answer.solution.ai-sol{font-size:.85rem;color:#333} /* AI's reasoning (sole AI answer) — same smaller grey */
 /* AI section: opens with a 2rem gap that divides it from the key content above */
 .verif{margin-top:2rem;font-size:.85rem;color:#333}
-.verif .ok{color:#1b5e20} /* verdict stays colour-coded; the rest of the AI block is grey */
-.verif .warn{color:#8a5a00}
-.verif .suspect{color:#a1160a}
+.verif .ok,.kverif .ok{color:#1b5e20} /* verdict stays colour-coded; the rest of the AI block is grey */
+.verif .warn,.kverif .warn{color:#8a5a00}
+.verif .suspect,.kverif .suspect{color:#a1160a}
 .verif-reason{margin:.3rem 0 0;max-width:62ch;font-size:.85rem;color:#333}
+/* answer key: a print-only sheet compiled after the questions; never shown on screen (see @media print) */
+#answerkey{display:none}
+#answerkey h2{font-size:1.15rem;margin:0 0 .7rem}
+.kq{break-inside:avoid;margin:0 0 .5rem;padding-bottom:.4rem;border-bottom:1px solid #eee;font-size:.9rem}
+.kq .kn{font-weight:bold} .kq .hash{color:#888;font-size:.8rem}
+.kverif,.kreason,.kai{margin-top:.15rem;color:#333}
+.kreason{max-width:62ch}
 .choice.correct{background:transparent}
 .q:has(.reveal[open]) .choice.correct{background:#d8f5d8;font-weight:600}
 @media print{
@@ -181,6 +188,8 @@ math{font-size:1.05em}
   .q{break-inside:avoid}        /* 2. keep each question on one page */
   .qmeta{display:none}          /* 3. hide source + tags when printing */
   .reveal>summary{display:none} /* hide the reveal button (opened answers still print) */
+  .print-key .reveal{display:none}                    /* key sheet on → keep the question pages clean */
+  .print-key #answerkey:not(:empty){display:block;break-before:page} /* the answer key starts on its own sheet after the questions */
   /* page-break modes: break after every question (1/page) or every 2nd (2/page); none = continuous */
   .one-per-page .q:not(:last-child){break-after:page;page-break-after:always}
   /* 2/page: each question reserves ~half a page (min-height); with .q{break-inside:avoid}
