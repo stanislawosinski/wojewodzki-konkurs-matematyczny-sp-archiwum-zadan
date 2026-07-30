@@ -25,11 +25,13 @@ const LEAVES = new Set(
 );
 const badTopics = [];
 
-// questions flagged in suspected_key_errors.tsv get a `suspect: true` shard flag (browser filter);
-// column 0 is the sha1(id)[:8] hash. File lives at repo root. Updated as suspects are resolved.
-const suspects = new Set(
+// questions flagged in suspected_key_errors.tsv get `suspect: true` + `suspect_reason` + `suspect_verdict`.
+// col 0 = sha1(id)[:8] hash; col 3 = English maintainer note; col 4 = reason_pl (Polish text the browser
+// shows; blank → generic badge); col 5 = verdict (KEY_WRONG / KEY_CORRECT / SOLUTION_WRONG) driving the
+// badge label & colour. File lives at repo root.
+const suspects = new Map(
   readFileSync(fileURLToPath(new URL('../suspected_key_errors.tsv', import.meta.url)), 'utf8')
-    .trim().split('\n').slice(1).map(l => l.split('\t')[0]),
+    .trim().split('\n').slice(1).map(l => l.split('\t')).map(c => [c[0], { reason: c[4], verdict: c[5] }]),
 );
 
 // figures/hidpi.json maps each figure re-rendered at 400 dpi (scripts/figcrop.py hidpi)
@@ -64,7 +66,7 @@ for (const f of readdirSync(dataDir).filter(f => f.endsWith('.json')).sort()) {
     byStage[t.stage].push({
       id: q.id, hash, number: q.number, page: q.page, type: q.type, points: q.points,
       ...(q.annulled ? { annulled: true } : {}), // only the rare annulled ones carry the flag
-      ...(suspects.has(hash) ? { suspect: true } : {}), // key flagged in suspected_key_errors.tsv
+      ...(suspects.has(hash) ? { suspect: true, ...(suspects.get(hash).reason && { suspect_reason: suspects.get(hash).reason }), ...(suspects.get(hash).verdict && { suspect_verdict: suspects.get(hash).verdict }) } : {}), // flagged in suspected_key_errors.tsv
       topics: q.topics, prompt_html: q.prompt_html, choices: q.choices,
       figures: q.figures, answer: q.answer,
       ...((q.figures || []).some(f => hidpi[f]) ? { figdim: Object.fromEntries(q.figures.filter(f => hidpi[f]).map(f => [f, hidpi[f]])) } : {}),

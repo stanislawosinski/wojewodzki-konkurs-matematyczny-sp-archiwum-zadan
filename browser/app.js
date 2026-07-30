@@ -204,13 +204,20 @@ function buildFacetUI() {
 // answer under a green "zgodne" badge). null = stay quiet (keyed, unresolved, nothing to show).
 function verifBadge(q, aiCount) {
   const a = q.answer || {}, m = a.model || {}, hasKey = a.correct != null && a.correct !== '';
-  if (q.suspect) return { cls: 'suspect', text: 'Klucz podejrzany — możliwy błąd w kluczu' };
+  if (q.suspect) {
+    const b = { // badge label & colour by Opus verdict; blank verdict → generic suspect flag
+      KEY_WRONG: { cls: 'suspect', text: 'Klucz prawdopodobnie błędny' },
+      KEY_CORRECT: { cls: 'ok', text: 'Klucz zweryfikowany — poprawny' },
+      SOLUTION_WRONG: { cls: 'warn', text: 'Klucz poprawny, ale rozwiązanie błędne' },
+    }[q.suspect_verdict] || { cls: 'suspect', text: 'Klucz podejrzany — możliwy błąd w kluczu' };
+    return { ...b, reason: q.suspect_reason };
+  }
   if (!hasKey) return m.answer == null ? null
     : aiCount > 1 ? { cls: 'warn', text: 'Modele AI niezgodne (brak klucza)' }
     : { cls: 'ok', text: 'Potwierdzone przez AI (brak klucza)' };
   if (aiCount > 1) return { cls: 'warn', text: 'Modele AI niezgodne' };      // key + ≥2 differing AI answers
-  if (aiCount === 1) return { cls: 'warn', text: 'AI niezgodne z kluczem' }; // one AI answer differs from key
-  if (m.agrees === true) return { cls: 'ok', text: 'AI zgodne z kluczem' };  // AI matched key, nothing to show
+  if (aiCount === 1) return { cls: 'warn', text: 'niezgodne z kluczem' };    // one AI answer differs from key
+  if (m.agrees === true) return { cls: 'ok', text: 'zgodne z kluczem' };     // AI matched key, nothing to show
   return null;
 }
 
@@ -265,10 +272,13 @@ function renderQuestion(q, seq) {
   if (correct || sol || ai.length || badge) {
     parts.push('<details class="reveal"><summary title="Pokaż odpowiedź"><span class="eye">👁</span></summary>');
     if (correct) parts.push(`<div class="answer">Odpowiedź: <b>${correct}</b></div>`);
-    if (badge) parts.push(`<div class="verif ${badge.cls}">${esc(badge.text)}</div>`);
-    for (const x of ai) parts.push(`<div class="answer ai">${esc(x.label)}: <b>${esc(x.answer)}</b></div>`);
+    if (sol) parts.push(`<div class="answer solution">${sol}</div>`);                     // key's derivation kept with its answer
+    if (badge) {                                                                          // AI section: 2rem gap divides it from the key content above
+      parts.push(`<p class="verif">Weryfikacja AI: <b class="${badge.cls}">${esc(badge.text)}</b></p>`);
+      if (badge.reason) parts.push(`<p class="verif-reason">${esc(badge.reason)}</p>`);   // AI's justification for questioning/confirming the key
+    }
+    for (const x of ai) parts.push(`<div class="answer ai">Odpowiedź AI${x.label && x.label !== 'AI' ? ` (${esc(x.label)})` : ''}: <b>${esc(x.answer)}</b></div>`);
     if (ai.length === 1 && ai[0].sol) parts.push(`<div class="answer solution ai-sol">${ai[0].sol}</div>`); // sole AI answer → show its reasoning
-    if (sol) parts.push(`<div class="answer solution">${sol}</div>`);
     parts.push('</details>');
   }
   parts.push('</article>');
