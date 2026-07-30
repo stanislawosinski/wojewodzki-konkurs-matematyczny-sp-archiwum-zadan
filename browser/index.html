@@ -26,14 +26,15 @@
 <button type="button" id="settingsBtn" title="Ustawienia" aria-label="Ustawienia">⚙</button>
 <div class="settings-pop" id="settingsPop" hidden>
 <section><h4>Wydruk</h4>
-<label><input type="radio" name="pageMode" value="one" checked> Jedno zadanie na stronę</label>
-<p class="hint">najwięcej miejsca na brudnopis</p>
-<label><input type="radio" name="pageMode" value="two"> Dwa zadania na stronę</label>
-<p class="hint">mniej miejsca na brudnopis</p>
-<label><input type="radio" name="pageMode" value="none"> Bez podziału na strony</label>
-<p class="hint">ciągły druk, bez brudnopisu</p>
+<p class="sublabel">Brudnopis:</p>
+<label><input type="radio" name="pageMode" value="auto" checked> Automatyczny</label>
+<p class="hint">pół strony na zadania zamknięte, cała strona na pozostałe</p>
+<label><input type="radio" name="pageMode" value="full"> Cała strona</label>
+<p class="hint">jedno zadanie na stronę</p>
+<label><input type="radio" name="pageMode" value="off"> Wyłączony</label>
+<p class="hint">druk ciągły</p>
 <label><input type="checkbox" id="answerKey" checked> Klucz odpowiedzi na końcu</label>
-<p class="hint">odpowiedzi i weryfikacja AI na osobnej kartce po zadaniach</p>
+<p class="hint">na osobnej kartce</p>
 </section>
 <section><h4>Lista zadań</h4>
 <p class="sublabel">Pokaż dodatkowo:</p>

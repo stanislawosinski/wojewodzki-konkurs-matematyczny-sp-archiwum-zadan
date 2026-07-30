@@ -190,11 +190,15 @@ math{font-size:1.05em}
   .reveal>summary{display:none} /* hide the reveal button (opened answers still print) */
   .print-key .reveal{display:none}                    /* key sheet on → keep the question pages clean */
   .print-key #answerkey:not(:empty){display:block;break-before:page} /* the answer key starts on its own sheet after the questions */
-  /* page-break modes: break after every question (1/page) or every 2nd (2/page); none = continuous */
-  .one-per-page .q:not(:last-child){break-after:page;page-break-after:always}
-  /* 2/page: each question reserves ~half a page (min-height); with .q{break-inside:avoid}
-     the browser then packs two short ones per page, and any question too tall to leave a
-     half-page slot for a neighbour falls to its own page. A4-tuned, a touch under half so
-     two still fit under larger margins. No forced nth-child break — pagination is natural. */
-  .two-per-page .q{min-height:11.5cm}
+  /* Brudnopis (scratch space) modes. full = one question per page.
+     auto = half a page for short closed (a–d) questions, a whole page for open /
+     true-false / figure ones (tagged .phalf / .pfull in renderQuestion). off = no class. */
+  .brudnopis-full .q:not(:last-child){break-after:page;page-break-after:always}
+  /* half: each reserves ~half a page (min-height); with .q{break-inside:avoid} the browser
+     packs two per page and drops a too-tall one to its own page. A4-tuned, a touch under half
+     so two still fit under larger margins. */
+  .brudnopis-auto .q.phalf{min-height:11.5cm}
+  /* full-page ones get their own sheet via forced breaks (break-before keeps a preceding
+     half-page question from sharing the top of the page). */
+  .brudnopis-auto .q.pfull{break-before:page;page-break-before:always;break-after:page;page-break-after:always}
 }

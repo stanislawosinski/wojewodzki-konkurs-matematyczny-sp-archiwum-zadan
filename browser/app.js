@@ -249,7 +249,10 @@ function renderKeyEntry(q, seq) {
 }
 
 function renderQuestion(q, seq) {
-  const parts = [`<article class="q" id="${esc(q.id)}" data-hash="${q.hash}">`];
+  // print "Brudnopis: auto" sizing: short closed (a–d) questions get half a page (two per sheet);
+  // open, true/false series and anything with a figure get a whole page.
+  const half = q.type === 'closed_single' && !(q.figures || []).length;
+  const parts = [`<article class="q ${half ? 'phalf' : 'pfull'}" id="${esc(q.id)}" data-hash="${q.hash}">`];
   if (seq != null) parts.push( // ordered "Pokaż tylko id" mode: gutter arrows reorder the id list
     `<button type="button" class="reorder up" title="Przesuń w górę" aria-label="w górę">↑</button>`
     + `<button type="button" class="reorder down" title="Przesuń w dół" aria-label="w dół">↓</button>`);
@@ -536,8 +539,9 @@ loadData().then(data => {
   // print page-break mode (radio): one/two questions per page, or none. Only affects print.
   const applyPageMode = () => {
     const mode = document.querySelector('input[name="pageMode"]:checked').value;
-    document.body.classList.toggle('one-per-page', mode === 'one');
-    document.body.classList.toggle('two-per-page', mode === 'two');
+    document.body.classList.toggle('brudnopis-auto', mode === 'auto');
+    document.body.classList.toggle('brudnopis-full', mode === 'full');
+    // 'off' → no class → continuous print
   };
   for (const r of document.querySelectorAll('input[name="pageMode"]')) r.onchange = applyPageMode;
   applyPageMode();
