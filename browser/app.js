@@ -254,8 +254,8 @@ function renderQuestion(q, seq) {
   const half = q.type === 'closed_single' && !(q.figures || []).length;
   const parts = [`<article class="q ${half ? 'phalf' : 'pfull'}" id="${esc(q.id)}" data-hash="${q.hash}">`];
   if (seq != null) parts.push( // ordered "Pokaż tylko id" mode: gutter arrows reorder the id list
-    `<button type="button" class="reorder up" title="Przesuń w górę" aria-label="w górę">↑</button>`
-    + `<button type="button" class="reorder down" title="Przesuń w dół" aria-label="w dół">↓</button>`);
+    `<button type="button" class="reorder up" title="Przesuń w górę" aria-label="w górę"><span>▾</span></button>`
+    + `<button type="button" class="reorder down" title="Przesuń w dół" aria-label="w dół">▾</button>`);
   parts.push(`<label class="selectbox" title="zaznacz do wydruku"><input type="checkbox"${selectedSet.has(q.hash) ? ' checked' : ''}></label>`);
   if ((q.figsvg || []).length) parts.push( // only for questions whose figures have a vector redraw
     `<button type="button" class="svgtoggle" title="Pokaż rysunek wektorowy (SVG)" aria-label="wersja wektorowa">△</button>`);
