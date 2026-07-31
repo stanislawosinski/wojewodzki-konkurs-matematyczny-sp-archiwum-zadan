@@ -109,6 +109,9 @@ const pagers = [...document.querySelectorAll('.pager')];
 let DATA = [], byHash = {}, INDEX = {}, universe = new Set();
 let page = 1;
 const selectedSet = new Set(); // hashes; lives outside the DOM — articles are destroyed on re-render
+const scratchOverrides = new Map(); // hash -> 'half' | 'full'; per-question brudnopis override (default not stored)
+const brudGlyph = s => (s === 'half' ? '½' : s === 'full' ? '1' : '–');
+const brudTitle = s => 'Brudnopis dla tego zadania: ' + (s === 'half' ? 'pół strony' : s === 'full' ? 'cała strona' : 'domyślny');
 const selections = {}, EMPTY_SELECTIONS = {}; // facetKey -> Set<value>
 for (const f of FACETS) { selections[f.key] = new Set(); EMPTY_SELECTIONS[f.key] = new Set(); }
 const countSpans = {}; // facetKey -> { value: <span> }
@@ -265,13 +268,16 @@ function renderQuestion(q, seq) {
   // open, true/false series and anything with a figure get a whole page.
   const half = q.type === 'closed_single' && !(q.figures || []).length;
   const geom = (q.topics || []).some(t => GEOM_LEAVES.has(t)) ? ' geom' : ''; // kratka "tylko w geometrii" target
-  const parts = [`<article class="q ${half ? 'phalf' : 'pfull'}${geom}" id="${esc(q.id)}" data-hash="${q.hash}">`];
+  const bo = scratchOverrides.get(q.hash) || ''; // '' | 'half' | 'full' — per-question brudnopis override
+  const parts = [`<article class="q ${half ? 'phalf' : 'pfull'}${geom}${bo ? ' brud-' + bo : ''}" id="${esc(q.id)}" data-hash="${q.hash}">`];
   // left-gutter controls wrapped in one .gutter group so they dim together and hover as a unit
   const reorder = seq == null ? '' // ordered "Pokaż tylko id" mode: arrows reorder the id list, × drops it
     : `<button type="button" class="reorder remove" title="Usuń z listy id" aria-label="usuń">×</button>`
       + `<button type="button" class="reorder up" title="Przesuń w górę" aria-label="w górę"><span>▾</span></button>`
       + `<button type="button" class="reorder down" title="Przesuń w dół" aria-label="w dół">▾</button>`;
   parts.push(`<div class="gutter">${reorder}<label class="selectbox" title="zaznacz do wydruku"><input type="checkbox"${selectedSet.has(q.hash) ? ' checked' : ''}></label></div>`);
+  // per-question brudnopis override (–/½/1), left of the eye; hidden in print & when global brudnopis is off
+  parts.push(`<button type="button" class="brudtoggle${bo ? ' on' : ''}" title="${brudTitle(bo)}" aria-label="brudnopis zadania" data-brud="${bo}">${brudGlyph(bo)}</button>`);
   if ((q.figsvg || []).length) parts.push( // only for questions whose figures have a vector redraw
     `<button type="button" class="svgtoggle" title="Pokaż rysunek wektorowy (SVG)" aria-label="wersja wektorowa">△</button>`);
   // meta tags inline in the header, right-aligned; each type toggled from the settings popup
@@ -427,6 +433,11 @@ function serialize() {
   const incIds = idList(inc.value); if (incIds.length) o.inc = incIds;
   const excIds = idList(exc.value); if (excIds.length) o.exc = excIds;
   if (selectedSet.size) o.sel = selectedHashes();
+  // brudnopis overrides split by target height; defaults aren't stored (absent = follow the global setting)
+  const bh = [], bf = [];
+  for (const [h, v] of scratchOverrides) (v === 'half' ? bh : bf).push(h);
+  if (bh.length) o.bh = bh;
+  if (bf.length) o.bf = bf;
   return o;
 }
 
@@ -448,6 +459,9 @@ function applyState() {
   exc.value = (o.exc || []).join(', ');
   selectedSet.clear();
   for (const h of o.sel || []) if (byHash[h]) selectedSet.add(h);
+  scratchOverrides.clear();
+  for (const h of o.bh || []) if (byHash[h]) scratchOverrides.set(h, 'half');
+  for (const h of o.bf || []) if (byHash[h]) scratchOverrides.set(h, 'full');
   page = 1; update();
 }
 
@@ -536,6 +550,20 @@ loadData().then(data => {
         img.src = on ? img.dataset.svg : img.dataset.png;
       return;
     }
+    const brudBtn = e.target.closest('.brudtoggle'); // –/½/1: per-question brudnopis override (print reserved space)
+    if (brudBtn) {
+      const s = { '': 'half', half: 'full', full: '' }[brudBtn.dataset.brud || ''];
+      brudBtn.dataset.brud = s;
+      brudBtn.textContent = brudGlyph(s);
+      brudBtn.title = brudTitle(s);
+      brudBtn.classList.toggle('on', !!s);
+      const q = brudBtn.closest('.q'), h = q.dataset.hash;
+      q.classList.toggle('brud-half', s === 'half');
+      q.classList.toggle('brud-full', s === 'full');
+      if (s) scratchOverrides.set(h, s); else scratchOverrides.delete(h); // scratchOverrides is the truth; render + hash read it
+      writeUrl(false);
+      return;
+    }
     const rm = e.target.closest('.reorder.remove'); // × : drop this question's hash from the id box
     if (rm) {
       inc.value = idList(inc.value).filter(h => h !== rm.closest('.q').dataset.hash).join(', ');
@@ -583,7 +611,8 @@ loadData().then(data => {
     document.body.classList.toggle('brudnopis-auto', mode === 'auto');
     document.body.classList.toggle('brudnopis-half', mode === 'half');
     document.body.classList.toggle('brudnopis-full', mode === 'full');
-    // 'off' → no class → continuous print
+    document.body.classList.toggle('brudnopis-off', mode === 'off'); // hides the per-question override buttons
+    // 'off' → no brudnopis-auto/half/full class → continuous print
   };
   for (const r of document.querySelectorAll('input[name="pageMode"]')) r.onchange = applyPageMode;
   applyPageMode();
