@@ -88,7 +88,7 @@ select{font:inherit;padding:.35rem}
 .hide-woj .qmeta .woj,.hide-rok .qmeta .rok,.hide-etap .qmeta .etap,.hide-topics .qmeta .topic{display:none}
 /* left-gutter controls (screen order, left→right): × remove · ▾ up · ▾ down · checkbox · question.
    Every position derives from these gaps — tune them here. */
-.q{--btn:1.1rem;--cb:1.3rem;--qgap:2.7rem;--grp:.4rem;--pair:.15rem}
+.q{--btn:1.1rem;--cb:1.3rem;--qgap:2.7rem;--grp:.4rem;--pair:.15rem;--brudnopis-half:11.5cm;--brudnopis-full:21cm}
 /* the gutter controls sit dimmed; hovering any of them lights the whole group (:hover propagates
    to the .gutter ancestor even though the buttons are absolutely positioned) */
 .gutter{opacity:.7;transition:opacity .12s}
@@ -191,6 +191,8 @@ math{font-size:1.05em}
 .kreason{max-width:62ch}
 .choice.correct{background:transparent}
 .q:has(.reveal[open]) .choice.correct{background:#d8f5d8;font-weight:600}
+.scratch{display:none} /* brudnopis filler: print-only (see @media print) */
+.scratch>.kratka{display:none} /* the grid shows only in print + body.kratka (see @media print) */
 @media print{
   .sidebar{display:none}        /* 1. hide UI */
   .topbar{display:none}         /* hide the toolbar */
@@ -201,21 +203,37 @@ math{font-size:1.05em}
   .reorder{display:none}        /* reorder arrows never print */
   .svgtoggle{display:none}      /* the SVG toggle never prints (the chosen src does) */
   .pager{display:none}
-  .q{break-inside:avoid}        /* 2. keep each question on one page */
+  .q{break-inside:avoid;border-bottom:none}  /* 2. keep each question on one page; no divider line */
   .qmeta{display:none}          /* 3. hide source + tags when printing */
   .reveal>summary{display:none} /* hide the reveal button (opened answers still print) */
   .print-key .reveal{display:none}                    /* key sheet on → keep the question pages clean */
   .print-key #answerkey:not(:empty){display:block;break-before:page} /* the answer key starts on its own sheet after the questions */
-  /* Brudnopis (scratch space) modes. full = one question per page.
-     auto = half a page for short closed (a–d) questions, a whole page for open /
-     true-false / figure ones (tagged .phalf / .pfull in renderQuestion).
-     half = half a page for every question. off = no class. */
-  .brudnopis-full .q:not(:last-child){break-after:page;page-break-after:always}
-  /* half: each reserves ~half a page (min-height); with .q{break-inside:avoid} the browser
-     packs two per page and drops a too-tall one to its own page. A4-tuned, a touch under half
-     so two still fit under larger margins. */
-  .brudnopis-auto .q.phalf,.brudnopis-half .q{min-height:11.5cm}
-  /* full-page ones get their own sheet via forced breaks (break-before keeps a preceding
-     half-page question from sharing the top of the page). */
-  .brudnopis-auto .q.pfull{break-before:page;page-break-before:always;break-after:page;page-break-after:always}
+  /* Brudnopis (scratch space) modes. Each question reserves a fixed TOTAL height via min-height
+     (content at top, the trailing .scratch flex-fills the rest) — so packing is content-independent:
+     .q{break-inside:avoid} packs halves ~two-per-page and keeps fulls alone, and a longer question
+     still shares a page as long as its text fits the half. Pagination is driven only by min-height +
+     break-inside; the kratka's alignment below is independent of it. The scratch's own height is
+     arbitrary (= reserved − content), so a whole grid can't align at both ends: we top-anchor, giving
+     clean full cells from under the text down and a partial cell at the very bottom (capped by the
+     border). Chosen over bottom-anchoring so the writing area starts clean and the sliver hides at
+     the page edge; 2-per-page is unaffected either way.
+     auto = half for short closed (a–d) questions, full for open / true-false / figure ones
+     (.phalf / .pfull); half = half for all; full = full for all; off = no block. */
+  .brudnopis-auto .q,.brudnopis-half .q,.brudnopis-full .q{display:flex;flex-direction:column}
+  .brudnopis-auto .q>.scratch,.brudnopis-half .q>.scratch,.brudnopis-full .q>.scratch{display:block;flex:1 1 auto;position:relative}
+  .brudnopis-auto .q.phalf,.brudnopis-half .q{min-height:var(--brudnopis-half)}
+  .brudnopis-auto .q.pfull,.brudnopis-full .q{min-height:var(--brudnopis-full)}
+  /* optional 5 mm kratka (opt-in): the .kratka <svg> inside each .scratch (a <use> of #kratka5) is a
+     vector grid — it prints crisp because Chrome keeps inline SVG as vector in the PDF (a background
+     image, gradient or svg, would be rasterized ~screen-DPI and come out blurry). Positioned absolute
+     to fill the scratch: its height="100%" can't resolve against a flex-sized parent (it would fall
+     back to the 150px SVG default and cover only a strip), but an abs child resolves 100% against the
+     scratch's definite box. The svg viewport clips the 300 mm grid at the scratch bottom, so the top
+     rows are whole and the sliver lands at the bottom (see min-height note above). The box outline is
+     the <rect class="frame"> inside the same svg (not a CSS border — Chrome's print PDF snaps a sub-px
+     border unevenly, dropping one edge, doubling the opposite). Inset half a stroke (x/y/width/height
+     below) so the viewport clips no side, giving a frame identical to the grid lines. No
+     print-color-adjust needed — SVG strokes are foreground. */
+  body.kratka.brudnopis-auto .q>.scratch>.kratka,body.kratka.brudnopis-half .q>.scratch>.kratka,body.kratka.brudnopis-full .q>.scratch>.kratka{display:block;position:absolute;inset:0}
+  .kratka>.frame{x:.236px;y:.236px;width:calc(100% - .472px);height:calc(100% - .472px)} /* ½ stroke = ½ of px(0.125) */
 }

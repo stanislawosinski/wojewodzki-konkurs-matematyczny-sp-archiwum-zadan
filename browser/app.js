@@ -21,6 +21,27 @@ const SCHOOL_LABELS = { podstawowa: 'Szkoła podstawowa', gimnazjum: 'Gimnazjum'
 const PAGE_SIZE = 100;
 const STAGES = ['szkolny', 'rejonowy', 'wojewodzki'];
 
+// Print brudnopis kratka: the 5 mm grid must be a real inline <svg> (vector), NOT a CSS
+// background-image. Chrome's print-to-PDF rasterizes background-images (gradient AND svg alike) at
+// ~screen DPI, then upscales to the physical size → blurry. An inline <svg> path is emitted as
+// vector (and, being foreground, prints without the "Background graphics" toggle). Defined once as a
+// <defs> path in absolute px (1 CSS px = 1/96 in, so 5 mm prints true); each .scratch <use>s it and
+// its own 100%-sized viewport clips the grid to the (variable) scratch height. MAX ≥ any A4 scratch.
+const [KRATKA_DEF, KRATKA_SVG] = (() => {
+  const PXMM = 96 / 25.4, MAX = 300, px = mm => +(mm * PXMM).toFixed(2), sw = px(0.125);
+  let d = '';
+  for (let mm = 5; mm <= MAX; mm += 5) d += `M0 ${px(mm)}H${px(MAX)}M${px(mm)} 0V${px(MAX)}`; // interior lines only (start 5); .frame draws the box edges
+  const def = `<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>`
+    + `<path id="kratka5" d="${d}" fill="none" stroke="#d6d6d6" stroke-width="${sw}"/></defs></svg>`;
+  // .frame outlines the box in the SAME stroke as the grid (app.css insets it half a stroke so the
+  // svg viewport doesn't clip any side). A CSS border can't do this: Chrome's print-to-PDF snaps a
+  // sub-px border unevenly, dropping one edge and doubling the opposite.
+  const svg = `<svg class="kratka" width="100%" height="100%" aria-hidden="true"><use href="#kratka5"/>`
+    + `<rect class="frame" fill="none" stroke="#d6d6d6" stroke-width="${sw}"/></svg>`;
+  return [def, svg];
+})();
+document.body.insertAdjacentHTML('afterbegin', KRATKA_DEF); // deferred script → body exists
+
 // The faceted filters. `values(q)` mirrors build.mjs so a missing index can be
 // rebuilt from DATA; `order` fixes non-alphabetical display order; `labelFor` prettifies.
 const VERIF_LABELS = { zgodne: 'AI zgodne z kluczem', rozbiezne: 'AI niezgodne z kluczem', podejrzany: 'Klucz podejrzany', bezklucza: 'Bez klucza', niepewne: 'Niepewna odpowiedź AI', nieroz: 'Nierozstrzygnięte' };
@@ -268,6 +289,7 @@ function renderQuestion(q, seq) {
     q.stage && `<span class="tag ctx etap">${esc(q.stage)}</span>`,
     ...(q.topics || []).map(t => `<span class="tag topic">${esc(t)}</span>`),
   ].filter(Boolean).join('');
+  parts.push('<div class="qbody">'); // wraps the content so the print brudnopis .scratch below can flex-fill the rest of the page
   parts.push(`<div class="qhead"><span class="qnum">Zadanie ${seq ?? q.number}.</span>`
     + `<span class="pts">${q.points}p</span>`
     + `<span class="hash" title="kliknij, aby skopiować id">(${q.hash})</span>`
@@ -305,6 +327,8 @@ function renderQuestion(q, seq) {
     if (ai.length === 1 && ai[0].sol) parts.push(`<div class="answer solution ai-sol">${ai[0].sol}</div>`); // sole AI answer → show its reasoning
     parts.push('</details>');
   }
+  parts.push('</div>'); // /.qbody
+  parts.push(`<div class="scratch" aria-hidden="true">${KRATKA_SVG}</div>`); // print brudnopis filler (grows to fill the reserved page space; carries the 5 mm kratka)
   parts.push('</article>');
   return parts.join('\n');
 }
@@ -557,6 +581,9 @@ loadData().then(data => {
   // "Klucz odpowiedzi" (default on): body.print-key shows the print-only key sheet, hides inline reveals
   const keyCb = $('answerKey'), applyKey = () => document.body.classList.toggle('print-key', keyCb.checked);
   keyCb.onchange = applyKey; applyKey();
+  // "Kratka 5 mm" (default off): body.kratka draws the print-only grid sheet
+  const gridCb = $('grid5mm'), applyGrid = () => document.body.classList.toggle('kratka', gridCb.checked);
+  gridCb.onchange = applyGrid; applyGrid();
   // meta type toggles: each checkbox hides its tag type via a body class (default checked = shown)
   for (const [id, cls] of [['metaWoj', 'hide-woj'], ['metaRok', 'hide-rok'], ['metaEtap', 'hide-etap'], ['metaTopics', 'hide-topics']]) {
     const cb = $(id), apply = () => document.body.classList.toggle(cls, !cb.checked);
