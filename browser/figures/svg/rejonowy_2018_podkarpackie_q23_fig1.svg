@@ -1,7 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="655" height="358" viewBox="0 0 655 358">
   <rect width="655" height="358" fill="#fff"/>
   <!-- thin line: CF (part of trapezoid, drawn thin in original) -->
-  <line x1="279.5" y1="210.5" x2="621" y2="300" stroke="#333333" stroke-width="3"/>
+  <!-- ends at F=(627,293.5) like the other two, not at the scan's (621,300): the
+       scan's line drifts low and crosses E-F, leaving a stub past the vertex.
+       Costs ~0.03 of match@4px, since squaring up the endpoint tilts the whole line. -->
+  <line x1="279.5" y1="210.5" x2="627" y2="293.5" stroke="#333333" stroke-width="7" stroke-linecap="round"/>
   <!-- thick lines -->
   <line x1="86" y1="35.5" x2="86" y2="299.5" stroke="#333333" stroke-width="7" stroke-linecap="round"/>
   <line x1="86" y1="35.5" x2="279.5" y2="35.5" stroke="#333333" stroke-width="7" stroke-linecap="round"/>

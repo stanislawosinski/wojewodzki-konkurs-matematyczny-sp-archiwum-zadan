@@ -1,13 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="645" height="515" viewBox="0 0 645 515">
 <rect width="645" height="515" fill="#fff"/>
-<path d="M61.6,440.6 L190.2,43.7 L477.6,440.5 Z" fill="none" stroke="#8a8a8a" stroke-width="2"/>
-<circle cx="61.6" cy="440.6" r="5" fill="#000"/>
-<circle cx="477.6" cy="440.5" r="5" fill="#000"/>
-<circle cx="190.2" cy="43.7" r="5" fill="#000"/>
-<text x="194" y="26" font-family="Times New Roman,serif" font-style="italic" font-size="27">C</text>
-<text x="47" y="480" font-family="Times New Roman,serif" font-style="italic" font-size="23">A</text>
-<text x="478" y="479" font-family="Times New Roman,serif" font-style="italic" font-size="23">B</text>
-<text x="145" y="232" font-family="Times New Roman,serif" font-size="26">(<tspan font-style="italic">2x</tspan>+10)&#176;</text>
-<text x="90" y="400" font-family="Times New Roman,serif" font-size="26">(<tspan font-style="italic">6y</tspan>-6)&#176;</text>
-<text x="277" y="400" font-family="Times New Roman,serif" font-size="26">(<tspan font-style="italic">3x</tspan>-12)&#176;</text>
+<path d="M61.6,440.6 L190.2,43.7 L477.6,440.5 Z" fill="none" stroke="#8a8a8a" stroke-width="3.8"/>
+<circle cx="61.6" cy="440.6" r="5.5" fill="#000"/>
+<circle cx="477.6" cy="440.5" r="5.5" fill="#000"/>
+<circle cx="190.2" cy="43.7" r="5.5" fill="#000"/>
+<text x="192.5" y="25" font-family="Times New Roman,serif" font-style="italic" font-size="31">C</text>
+<text x="50" y="481" font-family="Times New Roman,serif" font-style="italic" font-size="31">A</text>
+<text x="479" y="481" font-family="Times New Roman,serif" font-style="italic" font-size="31">B</text>
+<!-- Angle labels: the scan prints them far out into the middle of the triangle. Placed
+     here on the internal bisector of their vertex, as close in as a 6px white gap to
+     both legs allows (C d=121, A d=78, B d=108 from the vertex) - a deliberate
+     deviation from the bitmap, for legibility. A barely moves: its 72px-wide label was
+     already at the limit imposed by edge AC. -->
+<text x="162.6" y="169.5" font-family="Times New Roman,serif" font-size="26">(<tspan font-style="italic">2x</tspan>+10)&#176;</text>
+<text x="87.7" y="400.7" font-family="Times New Roman,serif" font-size="26">(<tspan font-style="italic">6y</tspan>-6)&#176;</text>
+<text x="338.0" y="398.0" font-family="Times New Roman,serif" font-size="26">(<tspan font-style="italic">3x</tspan>-12)&#176;</text>
 </svg>
