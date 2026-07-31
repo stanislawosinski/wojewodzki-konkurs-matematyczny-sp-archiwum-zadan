@@ -2,13 +2,16 @@
   <rect width="790" height="355" fill="#fff"/>
 
   <!-- shaded angle wedges (grey fill, no stroke) -->
-  <path d="M 76.4 273.1 L 124.63 203.48 A 74.7 74.7 0 0 1 171.70 273.10 Z" fill="#ededed"/>
-  <path d="M 217.1 70.1 L 176.70 128.34 A 85.5 85.5 0 0 0 284.31 106.53 Z" fill="#ededed"/>
+  <!-- the source bitmap draws its angle marks as ELLIPTIC arcs centred on the
+       vertex (axis ratio ~1.16 on all three, rms fit residual <1.1px); a
+       vertex-centred circle is not what is drawn. See notes in the arcs below. -->
+  <path d="M 76.40 273.10 L 124.55 203.63 A 94.6 80.7 0 0 1 171.00 273.10 Z" fill="#ededed"/>
+  <path d="M 217.10 70.10 L 176.45 128.75 A 79.3 68.3 0 0 0 284.21 106.49 Z" fill="#ededed"/>
 
-  <!-- angle arcs -->
-  <path d="M 124.63 203.48 A 74.7 74.7 0 0 1 171.70 273.10" fill="none" stroke="#7d7d7d" stroke-width="3.5"/>
-  <path d="M 176.70 128.34 A 85.5 85.5 0 0 0 284.31 106.53" fill="none" stroke="#7d7d7d" stroke-width="3.5"/>
-  <path d="M 523.55 236.33 A 84.2 84.2 0 0 1 673.85 273.10" fill="none" stroke="#7d7d7d" stroke-width="3.5"/>
+  <!-- angle arcs: rx/ry and endpoints fitted off the bitmap, centre = the vertex -->
+  <path d="M 124.55 203.63 A 94.6 80.7 0 0 1 171.00 273.10" fill="none" stroke="#7d7d7d" stroke-width="3.5"/>
+  <path d="M 176.45 128.75 A 79.3 68.3 0 0 0 284.21 106.49" fill="none" stroke="#7d7d7d" stroke-width="3.5"/>
+  <path d="M 523.68 236.33 A 80.1 69.1 0 0 1 671.60 273.10" fill="none" stroke="#7d7d7d" stroke-width="3.5"/>
 
   <!-- base line A..B and its extension beyond B -->
   <line x1="75.5" y1="273.1" x2="752.5" y2="273.1" stroke="#555" stroke-width="4.5"/>

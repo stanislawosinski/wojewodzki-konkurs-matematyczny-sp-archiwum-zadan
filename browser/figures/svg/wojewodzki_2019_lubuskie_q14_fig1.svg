@@ -11,11 +11,11 @@
 
   <!-- right-angle arc at C -->
   <path d="M 52.43,230.10 A 42,42 0 0 1 91.44,269.80" fill="none" stroke="#000" stroke-width="2"/>
-  <rect x="69.6" y="255.4" width="4" height="4" fill="#000"/>
+  <circle cx="71.9" cy="257.1" r="2.4" fill="#000"/>
 
-  <!-- right-angle arc at E (off-centre, as drawn) -->
-  <path d="M 139.52,132.58 A 33,33 0 0 1 93.35,135.41" fill="none" stroke="#000" stroke-width="2"/>
-  <rect x="118.5" y="127.5" width="4" height="2.5" fill="#000"/>
+  <!-- right-angle arc at E, centred on E = BA x DE -->
+  <path d="M 149.45,127.96 A 44,44 0 0 1 89.64,131.37" fill="none" stroke="#000" stroke-width="2"/>
+  <circle cx="120.1" cy="128.6" r="2.0" fill="#000"/>
 
   <!-- labels -->
   <text x="27" y="38" font-family="Times New Roman,serif" font-size="27" stroke="#000" stroke-width="0.4">B</text>

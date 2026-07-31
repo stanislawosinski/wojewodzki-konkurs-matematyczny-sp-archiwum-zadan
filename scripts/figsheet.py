@@ -1,18 +1,24 @@
 #!/usr/bin/env python3
-"""figsheet.py -> debug/figure-redraw-review.html
+"""figsheet.py [name ...] -> debug/figure-redraw-review.html
 
 Side-by-side review of every vector redraw: left the shipped bitmap, right the
 SVG inline at the same CSS size. Worst match@4px first, so review can stop when
 the scores get boring. Each heading links its question hash into the local
 browser (#inc=<hash> is the "Pokaż tylko id" filter).
 
+With figure names on the command line, only those are included and the sheet
+goes to debug/figure-subset-review.html instead — for reviewing one batch of
+revisions without regenerating (and reloading) all 344.
+
 Needs browser/data.*.json — run `node browser/build.mjs` first.
 """
-import os, glob, html, json
+import os, sys, glob, html, json
 import cv2
 from figcheck import score, ROOT, FIGS, SVGS
 
-OUT = os.path.join(ROOT, 'debug', 'figure-redraw-review.html')
+only = set(sys.argv[1:])
+OUT = os.path.join(ROOT, 'debug',
+                   'figure-subset-review.html' if only else 'figure-redraw-review.html')
 
 qhash = {}
 for s in ('szkolny', 'rejonowy', 'wojewodzki'):
@@ -23,6 +29,8 @@ for s in ('szkolny', 'rejonowy', 'wojewodzki'):
 items = []
 for svg in sorted(glob.glob(os.path.join(SVGS, '*.svg'))):
     name = os.path.basename(svg)[:-4]
+    if only and name not in only:
+        continue
     png = os.path.join(FIGS, name + '.png')
     h, w = cv2.imread(png, cv2.IMREAD_GRAYSCALE).shape
     s, _, _ = score(svg, png)

@@ -6,7 +6,10 @@
 <path d="M 317.2 177.6 L 431.8 7.1 L 611.4 142.6 L 495.2 308.8 Z"/>
 <path d="M 317.2 307.4 L 317.2 177.6 L 495.2 308.8 Z"/>
 </g>
-<path d="M 303.2 307.4 A 14 14 0 0 0 317.2 293.4" stroke="#000" stroke-width="2.5" fill="none"/>
+<!-- right angle at (317.2,307.4): arc + dot, in the upper-right quadrant.
+     r 28 and the dot centre are the measured ink (ring mean r 28.1, sd 2.5). -->
+<path d="M 345.20 307.62 A 28 28 0 0 0 317.20 279.40" stroke="#000" stroke-width="3" fill="none"/>
+<circle cx="330.9" cy="297.6" r="4.5" fill="#000"/>
 <g font-family="Helvetica,Arial,sans-serif" fill="#000">
 <text x="248" y="258" font-size="30" text-anchor="middle">P1</text>
 <text x="395" y="418" font-size="30" text-anchor="middle">P2</text>

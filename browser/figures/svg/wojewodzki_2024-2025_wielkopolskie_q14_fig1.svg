@@ -8,8 +8,9 @@
   <!-- diagonal chord connecting the two radius endpoints -->
   <line x1="42" y1="106" x2="320" y2="384" stroke="#000" stroke-width="11"/>
 
-  <!-- small angle-mark arc near the vertex (same center, small radius, inset from the two sides) -->
-  <path d="M50,323 A62,62 0 0,1 104,378" fill="none" stroke="#000" stroke-width="3.5"/>
+  <!-- small angle-mark arc, vertex-centred (bitmap circle fit: centre 3.1px off the
+       vertex, r 60.6, rms 1.3); ends on the two legs, under the 11px border stroke -->
+  <path d="M42,323.5 A60.5,60.5 0 0,1 102.5,384" fill="none" stroke="#000" stroke-width="3.5"/>
 
   <!-- dot marking the angle -->
   <circle cx="63" cy="363" r="6.5" fill="#000"/>

@@ -7,9 +7,13 @@
 <!-- diagonal -->
 <line x1="94" y1="311" x2="221" y2="44" stroke="#000" stroke-width="6.5"/>
 
-<!-- right-angle marker: arc + dot -->
-<path d="M94,62 A18,18 0 0 1 112,44" fill="none" stroke="#000" stroke-width="1.5"/>
-<circle cx="107" cy="57" r="2.5" fill="#000"/>
+<!-- right-angle marker: arc + dot.  Measured off the bitmap: the original arc is a
+     circle of r=20.90 centred at (102.05,50.70) — 10.5px from the vertex along the
+     bisector — NOT a vertex-centred quarter arc. Its ends sit ~27px from the vertex
+     but its middle bulges to ~31px; a vertex-centred arc misses the ink by 5px there.
+     Both ends land on the legs; convex, bulging away from the vertex. -->
+<path d="M121.85,44 A20.9,20.9 0 0 1 94,69.99" fill="none" stroke="#000" stroke-width="1.5"/>
+<circle cx="107.2" cy="56.5" r="2.4" fill="#000"/>
 
 <!-- labels -->
 <text x="149" y="33" font-family="Times New Roman,serif" font-size="18" fill="#000">a</text>

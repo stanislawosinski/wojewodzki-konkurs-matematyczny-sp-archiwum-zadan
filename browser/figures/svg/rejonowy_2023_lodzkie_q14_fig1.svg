@@ -5,13 +5,16 @@
   <line x1="499" y1="22" x2="670" y2="600" stroke="#000" stroke-width="7"/>
   <line x1="670" y1="600" x2="175" y2="600" stroke="#000" stroke-width="7"/>
   <line x1="175" y1="600" x2="175" y2="104" stroke="#000" stroke-width="7"/>
-  <!-- right-angle tick marks -->
-  <path d="M 483.5 25.9 L 488.0 41.3 L 503.5 37.3" fill="none" stroke="#000" stroke-width="3"/>
-  <path d="M 175 586 L 189 586 L 189 600" fill="none" stroke="#000" stroke-width="3"/>
-  <!-- 75 degree arc at BR -->
-  <path d="M 497.4 575.3 L 501.4 562.8 L 506.5 550.7 L 512.7 539.2 L 520.0 528.3 L 528.2 518.1 L 537.3 508.7 L 547.3 500.2 L 558.0 492.6 L 569.4 486.1 L 581.3 480.6 L 593.6 476.3 L 606.4 473.1 L 619.3 471.2" fill="none" stroke="#000" stroke-width="3"/>
+  <!-- right-angle marks: quarter arc + dot (the glyph this source uses) -->
+  <path d="M 428.60 39.80 A 72.6 72.6 0 0 0 519.60 91.60" fill="none" stroke="#000" stroke-width="7"/>
+  <circle cx="473.0" cy="57.5" r="8.8" fill="#000"/>
+  <path d="M 175.00 533.60 A 66.4 66.4 0 0 1 241.40 600.00" fill="none" stroke="#000" stroke-width="7"/>
+  <circle cx="200.4" cy="573.6" r="6.4" fill="#000"/>
+  <!-- 75 degree arc at BR: circle-fitted off the bitmap, centre (636.3,614.9) r=145,
+       i.e. 37px off the vertex — the original really is drawn that way -->
+  <path d="M 492.07 600.00 A 145 145 0 0 1 631.53 469.98" fill="none" stroke="#000" stroke-width="7"/>
   <!-- labels -->
   <text x="24" y="300" font-family="Helvetica,Arial,sans-serif" font-size="30" font-weight="bold">6 cm</text>
   <text x="372" y="670" font-family="Helvetica,Arial,sans-serif" font-size="30" font-weight="bold">6 cm</text>
-  <text x="539" y="575" font-family="Helvetica,Arial,sans-serif" font-size="30" font-weight="bold">75&#176;</text>
+  <text x="537" y="579" font-family="Helvetica,Arial,sans-serif" font-size="52" font-weight="bold">75&#176;</text>
 </svg>
