@@ -223,17 +223,12 @@ math{font-size:1.05em}
   .brudnopis-auto .q>.scratch,.brudnopis-half .q>.scratch,.brudnopis-full .q>.scratch{display:block;flex:1 1 auto;position:relative}
   .brudnopis-auto .q.phalf,.brudnopis-half .q{min-height:var(--brudnopis-half)}
   .brudnopis-auto .q.pfull,.brudnopis-full .q{min-height:var(--brudnopis-full)}
-  /* optional 5 mm kratka (opt-in): the .kratka <svg> inside each .scratch (a <use> of #kratka5) is a
-     vector grid — it prints crisp because Chrome keeps inline SVG as vector in the PDF (a background
-     image, gradient or svg, would be rasterized ~screen-DPI and come out blurry). Positioned absolute
-     to fill the scratch: its height="100%" can't resolve against a flex-sized parent (it would fall
-     back to the 150px SVG default and cover only a strip), but an abs child resolves 100% against the
-     scratch's definite box. The svg viewport clips the 300 mm grid at the scratch bottom, so the top
-     rows are whole and the sliver lands at the bottom (see min-height note above). The box outline is
-     the <rect class="frame"> inside the same svg (not a CSS border — Chrome's print PDF snaps a sub-px
-     border unevenly, dropping one edge, doubling the opposite). Inset half a stroke (x/y/width/height
-     below) so the viewport clips no side, giving a frame identical to the grid lines. No
-     print-color-adjust needed — SVG strokes are foreground. */
-  body.kratka.brudnopis-auto .q>.scratch>.kratka,body.kratka.brudnopis-half .q>.scratch>.kratka,body.kratka.brudnopis-full .q>.scratch>.kratka{display:block;position:absolute;inset:0}
-  .kratka>.frame{x:.236px;y:.236px;width:calc(100% - .472px);height:calc(100% - .472px)} /* ½ stroke = ½ of px(0.125) */
+  /* optional 5 mm kratka (opt-in): inline-SVG grid (a <use> of #kratka5) — prints crisp because Chrome
+     keeps inline SVG as vector in the PDF (a CSS background gradient is rasterized ~screen-DPI, and is
+     in fact dropped entirely by the print path here). height="100%" needs a definite box, so the box
+     is positioned absolute against the scratch; its own svg viewport clips the 300 mm grid to the box.
+     round(down,100%,5mm) snaps the box to a whole number of cells so the CSS border lands exactly one
+     cell past the last gridline — no thin partial-column sliver doubling the frame on the right/bottom.
+     The frame is that CSS border (renders reliably); an SVG-drawn frame lands sub-px off the print clip. */
+  body.kratka.brudnopis-auto .q>.scratch>.kratka,body.kratka.brudnopis-half .q>.scratch>.kratka,body.kratka.brudnopis-full .q>.scratch>.kratka{display:block;position:absolute;left:0;top:0;width:round(down,100%,5mm);height:round(down,100%,5mm);box-sizing:border-box;border:.125mm solid #d6d6d6;overflow:hidden}
 }

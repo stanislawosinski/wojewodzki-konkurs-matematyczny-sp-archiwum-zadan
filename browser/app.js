@@ -30,14 +30,12 @@ const STAGES = ['szkolny', 'rejonowy', 'wojewodzki'];
 const [KRATKA_DEF, KRATKA_SVG] = (() => {
   const PXMM = 96 / 25.4, MAX = 300, px = mm => +(mm * PXMM).toFixed(2), sw = px(0.125);
   let d = '';
-  for (let mm = 5; mm <= MAX; mm += 5) d += `M0 ${px(mm)}H${px(MAX)}M${px(mm)} 0V${px(MAX)}`; // interior lines only (start 5); .frame draws the box edges
+  for (let mm = 5; mm <= MAX; mm += 5) d += `M0 ${px(mm)}H${px(MAX)}M${px(mm)} 0V${px(MAX)}`; // interior lines only (start 5); the CSS border draws the box edges
   const def = `<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>`
     + `<path id="kratka5" d="${d}" fill="none" stroke="#d6d6d6" stroke-width="${sw}"/></defs></svg>`;
-  // .frame outlines the box in the SAME stroke as the grid (app.css insets it half a stroke so the
-  // svg viewport doesn't clip any side). A CSS border can't do this: Chrome's print-to-PDF snaps a
-  // sub-px border unevenly, dropping one edge and doubling the opposite.
-  const svg = `<svg class="kratka" width="100%" height="100%" aria-hidden="true"><use href="#kratka5"/>`
-    + `<rect class="frame" fill="none" stroke="#d6d6d6" stroke-width="${sw}"/></svg>`;
+  // Just the interior grid; the frame/edges are a CSS border on the box (see app.css .kratka rule),
+  // which round()-snaps to whole 5 mm cells so the border sits one cell past the last line, no sliver.
+  const svg = `<svg class="kratka" width="100%" height="100%" aria-hidden="true"><use href="#kratka5"/></svg>`;
   return [def, svg];
 })();
 document.body.insertAdjacentHTML('afterbegin', KRATKA_DEF); // deferred script → body exists
