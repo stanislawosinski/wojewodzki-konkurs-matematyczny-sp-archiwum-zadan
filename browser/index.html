@@ -25,7 +25,15 @@
 <span class="settings">
 <button type="button" id="settingsBtn" title="Ustawienia" aria-label="Ustawienia">⚙</button>
 <div class="settings-pop" id="settingsPop" hidden>
+<section><h4>Lista zadań</h4>
+<p class="sublabel">Pokaż dodatkowo:</p>
+<label><input type="checkbox" id="metaWoj" checked> Województwo</label>
+<label><input type="checkbox" id="metaRok" checked> Rok</label>
+<label><input type="checkbox" id="metaEtap" checked> Etap</label>
+<label><input type="checkbox" id="metaTopics" checked> Tematy</label>
+</section>
 <section><h4>Wydruk</h4>
+<div class="optgroup">
 <p class="sublabel">Brudnopis:</p>
 <label><input type="radio" name="pageMode" value="auto" checked> Automatyczny</label>
 <p class="hint">pół strony na zadania zamknięte, cała strona na pozostałe</p>
@@ -35,17 +43,17 @@
 <p class="hint">jedno zadanie na stronę</p>
 <label><input type="radio" name="pageMode" value="off"> Wyłączony</label>
 <p class="hint">druk ciągły</p>
+</div>
+<div class="optgroup">
+<p class="sublabel">Brudnopis w kratkę:</p>
+<label><input type="radio" name="kratka" value="always"> Zawsze</label>
+<label><input type="radio" name="kratka" value="geom"> Tylko w geometrii</label>
+<label><input type="radio" name="kratka" value="never" checked> Nigdy</label>
+</div>
+<div class="optgroup">
 <label><input type="checkbox" id="answerKey" checked> Klucz odpowiedzi na końcu</label>
 <p class="hint">na osobnej kartce</p>
-<label><input type="checkbox" id="grid5mm"> Kratka 5&nbsp;mm</label>
-<p class="hint">papier w kratkę pod zadaniami (tylko wydruk)</p>
-</section>
-<section><h4>Lista zadań</h4>
-<p class="sublabel">Pokaż dodatkowo:</p>
-<label><input type="checkbox" id="metaWoj" checked> Województwo</label>
-<label><input type="checkbox" id="metaRok" checked> Rok</label>
-<label><input type="checkbox" id="metaEtap" checked> Etap</label>
-<label><input type="checkbox" id="metaTopics" checked> Tematy</label>
+</div>
 </section>
 </div>
 </span>

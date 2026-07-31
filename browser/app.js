@@ -4,18 +4,22 @@
 // index is built from DATA at startup (~1 ms); facet counts (browser/facets.js) update
 // live per the drill-down rule.
 
-// Two-level catalog: category -> ordered leaves. Mirrors SCHEMA.md.
+// Two-level catalog: category -> ordered leaves. Mirrors categories.json (the build-time source of
+// truth). Keep in sync when leaves are added there. // ponytail: hand-mirrored, not fetched at runtime
+// — one small array vs an async load + ordering dance; sync it here if categories.json changes.
 const CATALOG = [
-  ['Liczby i podzielność', ['podzielność', 'reszta z dzielenia', 'NWW / NWD', 'liczby rzymskie', 'procenty']],
-  ['Wyrażenia: potęgi, pierwiastki, przekształcenia', ['potęgi i pierwiastki', 'usuwanie niewymierności z mianownika', 'wzory skróconego mnożenia', 'wyłączanie jednomianu przed nawias']],
+  ['Liczby i podzielność', ['podzielność', 'reszta z dzielenia', 'NWW / NWD', 'liczby rzymskie', 'procenty', 'ułamki']],
+  ['Wyrażenia: potęgi, pierwiastki, przekształcenia', ['potęgi i pierwiastki', 'usuwanie niewymierności z mianownika', 'wzory skróconego mnożenia', 'wyłączanie jednomianu przed nawias', 'wyrażenia algebraiczne']],
   ['Równania, nierówności, proporcje', ['równania z jedną zmienną', 'układy równań', 'nierówności', 'proporcjonalność prosta', 'proporcjonalność odwrotna', 'prędkość / droga / czas']],
-  ['Geometria płaska', ['geometria', 'trójkąty', 'sześciokąty foremne', 'koła / okręgi', 'pierścień kołowy', 'okrąg wpisany i opisany', 'dwusieczna kąta / symetralna odcinka']],
-  ['Geometria przestrzenna', ['bryły']],
+  ['Geometria płaska', ['geometria', 'trójkąty', 'czworokąty', 'kąty', 'sześciokąty foremne', 'koła / okręgi', 'pierścień kołowy', 'okrąg wpisany i opisany', 'dwusieczna kąta / symetralna odcinka', 'symetrie', 'układ współrzędnych', 'pole i obwód']],
+  ['Geometria przestrzenna', ['graniastosłupy', 'ostrosłupy', 'bryły']],
   ['Kombinatoryka i prawdopodobieństwo', ['zliczanie / metody zliczania', 'kombinatoryka', 'prawdopodobieństwo']],
   ['Statystyka', ['statystyka opisowa']],
   ['Metody i rozumowanie', ['dowodzenie / dowody', 'szacowanie (zamiast obliczania)', 'zagadki logiczne']],
   ['Inne', ['inne', 'przyroda']],
 ];
+// leaves under the two Geometria categories — drives the "Brudnopis w kratkę: tylko w geometrii" option
+const GEOM_LEAVES = new Set(CATALOG.filter(([c]) => c.startsWith('Geometria')).flatMap(([, ls]) => ls));
 const TYPE_LABELS = { closed_single: 'Wielokrotny wybór', true_false: 'Prawda/Fałsz', open: 'Otwarte' };
 const SCHOOL_LABELS = { podstawowa: 'Szkoła podstawowa', gimnazjum: 'Gimnazjum' };
 const PAGE_SIZE = 100;
@@ -271,7 +275,8 @@ function renderQuestion(q, seq) {
   // print "Brudnopis: auto" sizing: short closed (a–d) questions get half a page (two per sheet);
   // open, true/false series and anything with a figure get a whole page.
   const half = q.type === 'closed_single' && !(q.figures || []).length;
-  const parts = [`<article class="q ${half ? 'phalf' : 'pfull'}" id="${esc(q.id)}" data-hash="${q.hash}">`];
+  const geom = (q.topics || []).some(t => GEOM_LEAVES.has(t)) ? ' geom' : ''; // kratka "tylko w geometrii" target
+  const parts = [`<article class="q ${half ? 'phalf' : 'pfull'}${geom}" id="${esc(q.id)}" data-hash="${q.hash}">`];
   // left-gutter controls wrapped in one .gutter group so they dim together and hover as a unit
   const reorder = seq == null ? '' // ordered "Pokaż tylko id" mode: arrows reorder the id list, × drops it
     : `<button type="button" class="reorder remove" title="Usuń z listy id" aria-label="usuń">×</button>`
@@ -579,9 +584,15 @@ loadData().then(data => {
   // "Klucz odpowiedzi" (default on): body.print-key shows the print-only key sheet, hides inline reveals
   const keyCb = $('answerKey'), applyKey = () => document.body.classList.toggle('print-key', keyCb.checked);
   keyCb.onchange = applyKey; applyKey();
-  // "Kratka 5 mm" (default off): body.kratka draws the print-only grid sheet
-  const gridCb = $('grid5mm'), applyGrid = () => document.body.classList.toggle('kratka', gridCb.checked);
-  gridCb.onchange = applyGrid; applyGrid();
+  // "Brudnopis w kratkę" (default nigdy): body.kratka draws the print-only grid; body.kratka-geomonly
+  // (see app.css) then hides it on non-.geom questions so it shows only under geometry ones.
+  const applyKratka = () => {
+    const mode = document.querySelector('input[name="kratka"]:checked').value;
+    document.body.classList.toggle('kratka', mode !== 'never');
+    document.body.classList.toggle('kratka-geomonly', mode === 'geom');
+  };
+  for (const r of document.querySelectorAll('input[name="kratka"]')) r.onchange = applyKratka;
+  applyKratka();
   // meta type toggles: each checkbox hides its tag type via a body class (default checked = shown)
   for (const [id, cls] of [['metaWoj', 'hide-woj'], ['metaRok', 'hide-rok'], ['metaEtap', 'hide-etap'], ['metaTopics', 'hide-topics']]) {
     const cb = $(id), apply = () => document.body.classList.toggle(cls, !cb.checked);
