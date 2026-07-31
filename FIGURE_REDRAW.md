@@ -81,6 +81,17 @@ something MuPDF cannot draw.
 - No CSS `<style>` blocks, no filters, no gradients (use the mean flat colour),
   no external fonts, no `<image>`.
 - Fonts: `Helvetica,Arial,sans-serif` or `Times New Roman,serif` only.
+
+**Ask MuPDF where it actually put the text** instead of guessing at metrics —
+it will hand you a bbox per character:
+
+```python
+fitz.open(svg)[0].get_text('rawdict')   # blocks > lines > spans > chars, each with 'bbox'
+```
+
+Coordinates come back in viewBox units, which for every figure here is the PNG
+pixel grid. This settles label placement, `text-anchor` drift and glyph widths
+in one call, and it is how the square-root bars below were positioned.
 - Allowed elements: `rect line path polyline circle ellipse text g` +
   presentation attributes, `transform`, `fill`, `stroke`, `stroke-width`,
   `stroke-dasharray`.
@@ -106,6 +117,15 @@ Ordered by how often they actually bit:
    in the same figure (0.846 → 0.962 on one, 0.937 → 0.963 on another).
 7. **Arcs**: wrong sweep flag, or drawn as a full circle where the original has
    a short angle tick.
+9. **Square roots drawn without their bar.** `&#8730;` renders fine, but the
+   vinculum over the radicand is a separate `<line>` — four figures were
+   missing all seven of theirs, reading as `√ 29` rather than `√29`. Place it
+   from the right edge of the `√` glyph's bbox to the right edge of the last
+   radicand glyph, at the topmost ink row inside the `√` bbox (all three from
+   `rawdict`). Do **not** copy the bar's position off the bitmap: MuPDF's glyph
+   advances differ from the scan's, so a bitmap-measured bar lands beside the
+   radical it belongs to — it scores slightly *better* and is plainly wrong.
+
 8. **Charts and tables**: gridlines present but tick labels missing, or axis
    numbers pulled from the question text instead of read off the picture.
 
