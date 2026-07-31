@@ -1,36 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="466" height="504" viewBox="0 0 466 504">
 <rect width="466" height="504" fill="#fff"/>
-<line x1="12.0" y1="128.0" x2="325.0" y2="127.0" stroke="#000" stroke-width="2.6" stroke-linecap="square"/>
-<line x1="325.0" y1="127.0" x2="328.0" y2="437.0" stroke="#000" stroke-width="2.6" stroke-linecap="square"/>
-<line x1="328.0" y1="437.0" x2="12.0" y2="441.0" stroke="#000" stroke-width="2.6" stroke-linecap="square"/>
-<line x1="12.0" y1="441.0" x2="12.0" y2="128.0" stroke="#000" stroke-width="2.6" stroke-linecap="square"/>
-<line x1="12.0" y1="128.0" x2="138.0" y2="14.0" stroke="#000" stroke-width="2.6" stroke-linecap="square"/>
-<line x1="138.0" y1="14.0" x2="451.0" y2="13.0" stroke="#000" stroke-width="2.6" stroke-linecap="square"/>
-<line x1="451.0" y1="13.0" x2="325.0" y2="127.0" stroke="#000" stroke-width="2.6" stroke-linecap="square"/>
-<line x1="328.0" y1="437.0" x2="455.0" y2="314.0" stroke="#000" stroke-width="2.6" stroke-linecap="square"/>
-<line x1="455.0" y1="314.0" x2="451.0" y2="13.0" stroke="#000" stroke-width="2.6" stroke-linecap="square"/>
-<line x1="45.0" y1="159.0" x2="296.0" y2="158.0" stroke="#000" stroke-width="2.6" stroke-linecap="square"/>
-<line x1="296.0" y1="158.0" x2="298.0" y2="405.0" stroke="#000" stroke-width="2.6" stroke-linecap="square"/>
-<line x1="298.0" y1="405.0" x2="45.0" y2="408.0" stroke="#000" stroke-width="2.6" stroke-linecap="square"/>
-<line x1="45.0" y1="408.0" x2="45.0" y2="159.0" stroke="#000" stroke-width="2.6" stroke-linecap="square"/>
-<line x1="48.0" y1="408.0" x2="138.0" y2="327.0" stroke="#000" stroke-width="2.6" stroke-linecap="square"/>
-<line x1="138.0" y1="327.0" x2="298.0" y2="320.0" stroke="#000" stroke-width="2.6" stroke-linecap="square"/>
-<line x1="138.0" y1="159.0" x2="138.0" y2="327.0" stroke="#000" stroke-width="2.6" stroke-linecap="square"/>
-<line x1="140.0" y1="32.0" x2="348.0" y2="28.0" stroke="#000" stroke-width="2.6" stroke-linecap="square"/>
-<line x1="140.0" y1="32.0" x2="138.0" y2="63.0" stroke="#000" stroke-width="2.6" stroke-linecap="square"/>
-<line x1="140.0" y1="63.0" x2="300.0" y2="60.0" stroke="#000" stroke-width="2.6" stroke-linecap="square"/>
-<line x1="140.0" y1="63.0" x2="65.0" y2="110.0" stroke="#000" stroke-width="2.6" stroke-linecap="square"/>
-<line x1="65.0" y1="110.0" x2="300.0" y2="110.0" stroke="#000" stroke-width="2.6" stroke-linecap="square"/>
-<line x1="170.0" y1="63.0" x2="170.0" y2="110.0" stroke="#000" stroke-width="2.6" stroke-linecap="square"/>
-<line x1="115.0" y1="98.0" x2="115.0" y2="110.0" stroke="#000" stroke-width="2.6" stroke-linecap="square"/>
-<line x1="338.0" y1="147.0" x2="438.0" y2="54.0" stroke="#000" stroke-width="2.6" stroke-linecap="square"/>
-<line x1="438.0" y1="54.0" x2="443.0" y2="300.0" stroke="#000" stroke-width="2.6" stroke-linecap="square"/>
-<line x1="443.0" y1="300.0" x2="343.0" y2="393.0" stroke="#000" stroke-width="2.6" stroke-linecap="square"/>
-<line x1="343.0" y1="393.0" x2="338.0" y2="147.0" stroke="#000" stroke-width="2.6" stroke-linecap="square"/>
-<line x1="340.0" y1="318.0" x2="440.0" y2="315.0" stroke="#000" stroke-width="2.6" stroke-linecap="square"/>
-<line x1="340.0" y1="290.0" x2="340.0" y2="340.0" stroke="#000" stroke-width="2.6" stroke-linecap="square"/>
-<line x1="17.0" y1="127.0" x2="45.0" y2="102.0" stroke="#000" stroke-width="2.6" stroke-linecap="square"/>
-<line x1="45.0" y1="410.0" x2="85.0" y2="372.0" stroke="#000" stroke-width="2.6" stroke-linecap="square"/>
+<!-- Cube frame of 12 square beams, generated rather than traced.
+     Model is the unit cube (u,v,w) = (right, down, into-the-page), mapped by
+       p = (11.0,131.0) + u*(314.2,-3.2) + v*(2.2,307.7) + w*(126.7,-117.8)
+     least-squares fitted to the 7 outer corners visible in the scan.
+     Beam cross-section 0.101 of the side across a face, 0.155 in depth — the scan
+     really is drawn that way (measured off row/column edge pairs), not square.
+     Paths are the boundary of the frame as one solid, so beams meet seamlessly:
+     first the inner faces seen through the windows (far to near, opaque so the
+     nearer ones cover), then the three outer faces as annuli. -->
+<g fill="#fff" stroke="#000" stroke-width="2.6" stroke-linejoin="miter">
+<path d="M 150.1,62.3 L 151.9,307.8 L 171.5,289.6 L 169.7,44.0 Z"/>
+<path d="M 151.9,307.8 L 402.6,305.2 L 422.3,287.0 L 171.5,289.6 Z"/>
+<path d="M 118.3,62.6 L 150.1,62.3 L 151.9,307.8 L 120.1,308.2 Z"/>
+<path d="M 151.9,307.8 L 402.6,305.2 L 402.9,336.3 L 152.1,338.9 Z"/>
+<path d="M 32.7,389.4 L 64.4,389.1 L 151.9,307.8 L 120.1,308.2 Z"/>
+<path d="M 64.4,389.1 L 64.6,420.2 L 152.1,338.9 L 151.9,307.8 Z"/>
+<path d="M 149.8,31.2 L 400.6,28.6 L 400.8,59.7 L 150.1,62.3 Z"/>
+<path d="M 400.8,59.7 L 432.6,59.3 L 434.4,304.9 L 402.6,305.2 Z"/>
+<path d="M 62.4,112.4 L 62.6,143.5 L 150.1,62.3 L 149.8,31.2 Z"/>
+<path d="M 315.2,386.5 L 346.9,386.2 L 434.4,304.9 L 402.6,305.2 Z"/>
+<path d="M 43.0,161.8 L 44.8,407.3 L 64.4,389.1 L 62.6,143.5 Z"/>
+<path d="M 44.8,407.3 L 295.5,404.7 L 315.2,386.5 L 64.4,389.1 Z"/>
+<path fill-rule="evenodd" d="M 11.0,131.0 L 325.2,127.7 L 327.5,435.5 L 13.2,438.7 Z M 43.0,161.8 L 293.7,159.2 L 295.5,404.7 L 44.8,407.3 Z"/>
+<path fill-rule="evenodd" d="M 11.0,131.0 L 325.2,127.7 L 452.0,10.0 L 137.7,13.2 Z M 62.4,112.4 L 313.2,109.8 L 400.6,28.6 L 149.8,31.2 Z"/>
+<path fill-rule="evenodd" d="M 325.2,127.7 L 327.5,435.5 L 454.2,317.7 L 452.0,10.0 Z M 345.1,140.6 L 346.9,386.2 L 434.4,304.9 L 432.6,59.3 Z"/>
+</g>
 <line x1="12" y1="464" x2="331" y2="464" stroke="#000" stroke-width="1.6"/>
 <path d="M 12,464 L 21,460 L 21,468 Z" fill="#000"/>
 <path d="M 331,464 L 322,460 L 322,468 Z" fill="#000"/>
