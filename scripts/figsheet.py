@@ -2,8 +2,13 @@
 """figsheet.py [name ...] -> debug/figure-redraw-review.html
 
 Side-by-side review of every vector redraw: left the shipped bitmap, right the
-SVG inline at the same CSS size. Worst match@4px first, so review can stop when
-the scores get boring. Each heading links its question hash into the local
+SVG at the same CSS size. Worst match@4px first, so review can stop when the
+scores get boring.
+
+Both panels are <img src>, so the redraws are read off disk on every reload —
+edit an SVG and refresh, no regeneration. That also matches how browser/app.js
+shows them (img.src swap), which inline SVG would not. Only the scores and the
+ordering are baked in; rerun to refresh those. Each heading links its question hash into the local
 browser (#inc=<hash> is the "Pokaż tylko id" filter).
 
 With figure names on the command line, only those are included and the sheet
@@ -34,13 +39,13 @@ for svg in sorted(glob.glob(os.path.join(SVGS, '*.svg'))):
     png = os.path.join(FIGS, name + '.png')
     h, w = cv2.imread(png, cv2.IMREAD_GRAYSCALE).shape
     s, _, _ = score(svg, png)
-    items.append((s, name, w, h, open(svg).read().split('?>')[-1].strip()))
+    items.append((s, name, w, h))
 
 items.sort()
 rows = [f'''<section><h2>{i}. {html.escape(name)} <a class=h href="../browser/index.html#inc={qhash.get(name, '')}" target=_blank>{qhash.get(name, '?')}</a> <span class=s>match@4px {s:.2f}</span></h2>
 <div class=p><figure><figcaption>original {w}&times;{h}</figcaption><img src="../browser/figures/{name}.png" width={w}></figure>
-<figure><figcaption>redraw</figcaption><div class=svg style="width:{w}px">{body}</div></figure></div></section>'''
-        for i, (s, name, w, h, body) in enumerate(items, 1)]
+<figure><figcaption>redraw</figcaption><img src="../browser/figures/svg/{name}.svg" width={w}></figure></div></section>'''
+        for i, (s, name, w, h) in enumerate(items, 1)]
 
 lo = sum(1 for s, *_ in items if s < 0.75)
 os.makedirs(os.path.dirname(OUT), exist_ok=True)
