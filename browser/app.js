@@ -4,20 +4,9 @@
 // index is built from DATA at startup (~1 ms); facet counts (browser/facets.js) update
 // live per the drill-down rule.
 
-// Two-level catalog: category -> ordered leaves. Mirrors categories.json (the build-time source of
-// truth). Keep in sync when leaves are added there. // ponytail: hand-mirrored, not fetched at runtime
-// — one small array vs an async load + ordering dance; sync it here if categories.json changes.
-const CATALOG = [
-  ['Liczby i podzielność', ['podzielność', 'reszta z dzielenia', 'NWW / NWD', 'liczby rzymskie', 'procenty', 'ułamki']],
-  ['Wyrażenia: potęgi, pierwiastki, przekształcenia', ['potęgi i pierwiastki', 'usuwanie niewymierności z mianownika', 'wzory skróconego mnożenia', 'wyłączanie jednomianu przed nawias', 'wyrażenia algebraiczne']],
-  ['Równania, nierówności, proporcje', ['równania z jedną zmienną', 'układy równań', 'nierówności', 'proporcjonalność prosta', 'proporcjonalność odwrotna', 'prędkość / droga / czas']],
-  ['Geometria płaska', ['geometria', 'trójkąty', 'czworokąty', 'kąty', 'sześciokąty foremne', 'koła / okręgi', 'pierścień kołowy', 'okrąg wpisany i opisany', 'dwusieczna kąta / symetralna odcinka', 'symetrie', 'układ współrzędnych', 'pole i obwód']],
-  ['Geometria przestrzenna', ['graniastosłupy', 'ostrosłupy', 'bryły']],
-  ['Kombinatoryka i prawdopodobieństwo', ['zliczanie / metody zliczania', 'kombinatoryka', 'prawdopodobieństwo']],
-  ['Statystyka', ['statystyka opisowa']],
-  ['Metody i rozumowanie', ['dowodzenie / dowody', 'szacowanie (zamiast obliczania)', 'zagadki logiczne']],
-  ['Inne', ['inne', 'przyroda']],
-];
+// Two-level catalog: category -> ordered leaves. Generated from categories.json (the single source of
+// truth) by build.mjs into catalog.js, loaded via <script> before this file — no hand-copy to drift.
+const CATALOG = window.CATALOG || []; // ponytail: [] if catalog.js is missing/unbuilt → empty topic facet, not a crash
 // leaves under the two Geometria categories — drives the "Brudnopis w kratkę: tylko w geometrii" option
 const GEOM_LEAVES = new Set(CATALOG.filter(([c]) => c.startsWith('Geometria')).flatMap(([, ls]) => ls));
 const TYPE_LABELS = { closed_single: 'Wielokrotny wybór', true_false: 'Prawda/Fałsz', open: 'Otwarte' };

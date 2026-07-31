@@ -18,11 +18,10 @@ const STAGES = ['szkolny', 'rejonowy', 'wojewodzki'];
 const byStage = Object.fromEntries(STAGES.map(s => [s, []]));
 const seenId = new Map(), seenHash = new Map();
 
-// every question topic must be a known leaf in the canonical catalog (catches typos in the exact-match tags)
-const LEAVES = new Set(
-  JSON.parse(readFileSync(fileURLToPath(new URL('../categories.json', import.meta.url)), 'utf8'))
-    .categories.flatMap(c => c.leaves.map(l => l.name)),
-);
+// The repo-root categories.json is the single source of truth: it validates every question's tags
+// (below) AND drives the browser's topic sidebar via the emitted catalog.js (near the shard writes).
+const CATEGORIES = JSON.parse(readFileSync(fileURLToPath(new URL('../categories.json', import.meta.url)), 'utf8')).categories;
+const LEAVES = new Set(CATEGORIES.flatMap(c => c.leaves.map(l => l.name))); // catches typos in exact-match tags
 const badTopics = [];
 
 // questions flagged in suspected_key_errors.tsv get `suspect: true` + `suspect_reason` + `suspect_verdict`.
@@ -81,6 +80,11 @@ if (badTopics.length) {
   console.error(`unknown topic tag(s) not in categories.json — fix the tag or add the leaf:\n  ${badTopics.join('\n  ')}`);
   process.exit(1);
 }
+
+// catalog.js: category -> ordered leaves for the browser's topic sidebar. A <script>, not fetch(), so
+// it works under file:// too. Strip a trailing "(przekrojowe)"-style note so it doesn't clutter the header.
+const catalog = CATEGORIES.map(c => [c.name.replace(/\s*\([^)]*\)$/, ''), c.leaves.map(l => l.name)]);
+writeFileSync(`${here}catalog.js`, `window.CATALOG = ${JSON.stringify(catalog)};\n`);
 
 let total = 0;
 for (const s of STAGES) {
