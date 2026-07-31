@@ -15,7 +15,9 @@ Annotation: drag on either panel to box a problem area, type a comment. Boxes
 are stored in viewBox/pixel units (both panels share that grid) so they point
 at the same place in the SVG source and in the scan. Notes live in
 localStorage; "copy JSONL" puts one line per annotated figure on the
-clipboard, to be pasted into debug/figure-feedback.jsonl.
+clipboard, to be pasted into debug/figure-feedback.jsonl. The "ok" checkbox
+signs a figure off (it fades but stays, so it can be unchecked); "copy OK list"
+exports those as their own JSONL, for dropping them from the next review round.
 
 With figure names on the command line, only those are included and the sheet
 goes to debug/figure-subset-review.html instead — for reviewing one batch of
@@ -37,10 +39,18 @@ for s in ('szkolny', 'rejonowy', 'wojewodzki'):
         for f in q.get('figures') or []:
             qhash[f[:-4]] = q['hash']
 
+# figures signed off via the sheet's "ok" checkbox; dropped from the full sheet,
+# but still shown if you name one on the command line
+OKFILE = os.path.join(ROOT, 'redraw-ok.jsonl')
+done = ({json.loads(l)['figure'] for l in open(OKFILE) if l.strip()}
+        if os.path.exists(OKFILE) else set())
+
 items = []
 for svg in sorted(glob.glob(os.path.join(SVGS, '*.svg'))):
     name = os.path.basename(svg)[:-4]
     if only and name not in only:
+        continue
+    if not only and name in done:
         continue
     png = os.path.join(FIGS, name + '.png')
     h, w = cv2.imread(png, cv2.IMREAD_GRAYSCALE).shape
@@ -50,7 +60,7 @@ for svg in sorted(glob.glob(os.path.join(SVGS, '*.svg'))):
 items.sort()
 SCALE = .75
 rows = [f'''<section data-name="{name}" data-hash="{qhash.get(name, '')}" data-w={w} data-h={h}>
-<h2>{i}. {html.escape(name)} <a class=h href="../browser/index.html#inc={qhash.get(name, '')}" target=_blank>{qhash.get(name, '?')}</a> <span class=s>match@4px {s:.2f}</span> <button class=cp hidden>copy JSON</button> <span class=n></span></h2>
+<h2>{i}. {html.escape(name)} <a class=h href="../browser/index.html#inc={qhash.get(name, '')}" target=_blank>{qhash.get(name, '?')}</a> <span class=s>match@4px {s:.2f}</span> <label class=ok><input type=checkbox> ok</label> <button class=cp hidden>copy JSON</button> <span class=n></span></h2>
 <div class=p><figure><figcaption>original {w}&times;{h}</figcaption><div class=ov><img src="../browser/figures/{name}.png" width={round(w * SCALE)}></div></figure>
 <figure><figcaption>redraw</figcaption><div class=ov><img src="../browser/figures/svg/{name}.svg" width={round(w * SCALE)}></div></figure></div></section>'''
         for i, (s, name, w, h) in enumerate(items, 1)]
@@ -69,15 +79,21 @@ img{background:#fff;display:block}
 .b{position:absolute;border:2px solid #e33;background:#e3333312;box-sizing:border-box;cursor:pointer}
 .b>i{position:absolute;top:0;left:0;background:#e33;color:#fff;font:10px/1 system-ui;padding:2px 3px;font-style:normal}
 .n{color:#e33;font-weight:400} button{font:11px system-ui;cursor:pointer}
+.ok{color:#2a2;font-weight:400;cursor:pointer;user-select:none} .ok input{vertical-align:-1px}
+section.done{opacity:.4}          /* still there to re-check, just out of the way */
 #bar{position:fixed;right:1rem;bottom:1rem;background:#fff;border:1px solid #ccc;border-radius:4px;padding:.5rem;box-shadow:0 1px 6px #0002}
 #bar button{display:block;width:100%;margin-top:.3rem}
 </style><div id=bar><span id=tot>(js off)</span>
-<button id=all>copy JSONL</button><button id=clr>clear all</button></div>'''
+<button id=all>copy JSONL</button><button id=okc>copy OK list</button><button id=clr>clear all</button></div>'''
 
 JS = '''<script>
 // notes are kept in viewBox/pixel units; both panels render on that same grid
 const KEY = 'figfeedback', store = JSON.parse(localStorage.getItem(KEY) || '{}')
 const save = () => { localStorage.setItem(KEY, JSON.stringify(store)); tot() }
+// "ok" is orthogonal to notes — a figure can be signed off with its old notes
+// still attached, so keep it in its own key rather than as a flag on store
+const OK = 'figok', okset = new Set(JSON.parse(localStorage.getItem(OK) || '[]'))
+const saveok = () => { localStorage.setItem(OK, JSON.stringify([...okset])); tot() }
 const rec = sec => ({figure: sec.dataset.name, hash: sec.dataset.hash,
   w: +sec.dataset.w, h: +sec.dataset.h, notes: store[sec.dataset.name] || []})
 const copy = (t, el) => navigator.clipboard.writeText(t)
@@ -86,7 +102,8 @@ const copy = (t, el) => navigator.clipboard.writeText(t)
 
 function tot() {
   const n = Object.keys(store).length
-  document.getElementById('tot').textContent = n ? n + ' figure(s) annotated' : 'no notes'
+  document.getElementById('tot').textContent =
+    (n ? n + ' annotated' : 'no notes') + (okset.size ? ', ' + okset.size + ' ok' : '')
 }
 function draw(sec) {
   const list = store[sec.dataset.name] || []
@@ -119,6 +136,14 @@ for (const sec of all()) {
   const btn = sec.querySelector('.cp')
   btn.dataset.t = btn.textContent
   btn.onclick = () => copy(JSON.stringify(rec(sec)), btn)
+  const cb = sec.querySelector('.ok input')
+  cb.checked = okset.has(sec.dataset.name)
+  sec.classList.toggle('done', cb.checked)
+  cb.onchange = () => {
+    cb.checked ? okset.add(sec.dataset.name) : okset.delete(sec.dataset.name)
+    sec.classList.toggle('done', cb.checked)
+    saveok()
+  }
   for (const ov of sec.querySelectorAll('.ov')) ov.onmousedown = e => {
     if (e.button) return
     e.preventDefault()                            // kills the browser's native image drag
@@ -150,10 +175,17 @@ redraw(); tot()
 document.getElementById('all').onclick = e => copy(
   [...all()].filter(s => store[s.dataset.name]).map(s => JSON.stringify(rec(s))).join('\\n') + '\\n', e.target)
 document.getElementById('all').dataset.t = 'copy JSONL'
+document.getElementById('okc').onclick = e => copy(
+  [...all()].filter(s => okset.has(s.dataset.name))
+    .map(s => JSON.stringify({figure: s.dataset.name, hash: s.dataset.hash, ok: true}))
+    .join('\\n') + '\\n', e.target)
+document.getElementById('okc').dataset.t = 'copy OK list'
 document.getElementById('clr').onclick = () => {
-  if (!confirm('delete every note?')) return
+  if (!confirm('delete every note and ok mark?')) return
   for (const k in store) delete store[k]
-  save(); redraw()
+  okset.clear()
+  save(); saveok(); redraw()
+  for (const sec of all()) { sec.classList.remove('done'); sec.querySelector('.ok input').checked = false }
 }
 </script>'''
 
@@ -163,4 +195,5 @@ open(OUT, 'w').write(f'''<!doctype html><meta charset=utf-8>
 <title>figure redraw review</title>{CSS}
 <p>{len(items)} figures, worst first. {lo} below 0.75. Drag on a panel to box a problem, click a box to edit or delete it.</p>
 {''.join(rows)}{JS}''')
-print(f'{len(items)} figures ({lo} below 0.75) -> {OUT}')
+print(f'{len(items)} figures ({lo} below 0.75'
+      + ('' if only else f', {len(done)} signed off and skipped') + f') -> {OUT}')
