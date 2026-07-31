@@ -1,30 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="500" height="410" viewBox="0 0 500 410">
 <rect width="500" height="410" fill="#fff"/>
-<g fill="none" stroke="#000" stroke-width="5" stroke-linejoin="round">
-<path d="M140.2,139.5 L210.2,172.9 L210.2,238.0 L145.8,271.4 L74.6,238.0 L74.8,172.8 Z"/>
-<path d="M205.9,244.1 L275.9,277.5 L275.9,342.6 L211.5,376.0 L140.3,342.6 L140.5,277.4 Z"/>
-<path d="M343.0,244.3 L413.0,277.7 L413.0,342.8 L348.6,376.2 L277.4,342.8 L277.6,277.6 Z"/>
-<path d="M413.8,141.1 L483.8,174.5 L483.8,239.6 L419.4,273.0 L348.2,239.6 L348.4,174.4 Z"/>
-<path d="M345.8,38.0 L415.8,71.4 L415.8,136.5 L351.4,169.9 L280.2,136.5 L280.4,71.3 Z"/>
-<path d="M209.3,36.5 L279.3,69.9 L279.3,135.0 L214.9,168.4 L143.7,135.0 L143.9,69.8 Z"/>
-<path d="M276.6,140.8 L346.6,174.2 L346.6,239.3 L282.2,272.7 L211.0,239.3 L211.2,174.1 Z"/>
+<!-- 7 hexagons on one lattice: centre (278.79,206.54), half width 68.30, half side 34.87, half height 68.46.
+     30 unique edges, each shared side drawn once: outer boundary, central hexagon, 6 spokes. -->
+<g fill="none" stroke="#000" stroke-width="8" stroke-linejoin="miter">
+<path d="M 415.39,138.08 L 483.69,171.67 L 483.69,241.41 L 415.39,275.00 L 415.39,344.74 L 347.09,378.33 L 278.79,344.74 L 210.49,378.33 L 142.19,344.74 L 142.19,275.00 L 73.89,241.41 L 73.89,171.67 L 142.19,138.08 L 142.19,68.34 L 210.49,34.75 L 278.79,68.34 L 347.09,34.75 L 415.39,68.34 Z"/>
+<path d="M 278.79,138.08 L 347.09,171.67 L 347.09,241.41 L 278.79,275.00 L 210.49,241.41 L 210.49,171.67 Z"/>
+<line x1="142.19" y1="138.08" x2="210.49" y2="171.67"/>
+<line x1="142.19" y1="275.00" x2="210.49" y2="241.41"/>
+<line x1="278.79" y1="68.34" x2="278.79" y2="138.08"/>
+<line x1="278.79" y1="275.00" x2="278.79" y2="344.74"/>
+<line x1="347.09" y1="171.67" x2="415.39" y2="138.08"/>
+<line x1="347.09" y1="241.41" x2="415.39" y2="275.00"/>
 </g>
 <g fill="#000">
-<circle cx="138.1" cy="204.6" r="3"/>
-<circle cx="208.7" cy="309.4" r="3"/>
-<circle cx="344.1" cy="315.6" r="3"/>
-<circle cx="421.4" cy="204.5" r="3"/>
-<circle cx="345.5" cy="109.6" r="3"/>
-<circle cx="210.4" cy="105.0" r="3"/>
-<circle cx="278.1" cy="206.4" r="3"/>
+<circle cx="210.4" cy="104.9" r="3.9"/>
+<circle cx="345.7" cy="109.9" r="3.9"/>
+<circle cx="138.0" cy="204.8" r="3.9"/>
+<circle cx="421.1" cy="204.8" r="3.9"/>
+<circle cx="278.0" cy="206.2" r="3.9"/>
+<circle cx="208.9" cy="309.1" r="3.9"/>
+<circle cx="344.0" cy="315.8" r="3.9"/>
 </g>
-<g font-family="Helvetica,Arial,sans-serif" font-size="22" fill="#000">
-<text x="120" y="212" text-anchor="middle">K</text>
-<text x="224" y="317" text-anchor="middle">L</text>
-<text x="360" y="323" text-anchor="middle">M</text>
-<text x="438" y="212" text-anchor="middle">N</text>
-<text x="362" y="117" text-anchor="middle">P</text>
-<text x="193" y="112" text-anchor="middle">R</text>
-<text x="294" y="213" text-anchor="middle">S</text>
-</g>
+<text x="109.11" y="236.73" font-family="Helvetica,Arial,sans-serif" font-size="33.5" fill="#000">K</text>
+<text x="207.78" y="347.73" font-family="Helvetica,Arial,sans-serif" font-size="33.5" fill="#000">L</text>
+<text x="356.93" y="342.73" font-family="Helvetica,Arial,sans-serif" font-size="33.5" fill="#000">M</text>
+<text x="437.44" y="209.73" font-family="Helvetica,Arial,sans-serif" font-size="33.5" fill="#000">N</text>
+<text x="358.11" y="106.73" font-family="Helvetica,Arial,sans-serif" font-size="33.5" fill="#000">P</text>
+<text x="177.60" y="112.73" font-family="Helvetica,Arial,sans-serif" font-size="33.5" fill="#000">R</text>
+<text x="281.78" y="199.56" font-family="Helvetica,Arial,sans-serif" font-size="33.5" fill="#000">S</text>
 </svg>

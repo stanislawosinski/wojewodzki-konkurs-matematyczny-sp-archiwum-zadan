@@ -39,12 +39,19 @@ stroke offset scores ~0 on otherwise perfect geometry.
 **red = in the original, missing from the redraw** and **blue = the redraw
 invented it**. Read that image; the number alone does not say *what* is wrong.
 
-Target ≥ 0.75. Current state: n=344, mean 0.963, 11 below 0.85.
+Target ≥ 0.75. Current state: n=344, mean 0.9725, 9 below 0.85. Eight are signed
+off in `redraw-ok.jsonl`, i.e. looked at and accepted; the ninth is
+`rejonowy_2019_lubuskie_q17` at 0.647, a gradient figure MuPDF cannot render at
+all (see below) — in Chrome it scores 1.000.
 
-**The score has a hard ceiling from text.** `figcheck.py` renders through
-MuPDF, which ignores `text-anchor` and `font-weight` and has no italic face, so
-labels never line up. A chart or table that is 40% text will sit at 0.80 with
-perfect geometry. Do not chase it — read the overlay and judge the *shapes*.
+**The score has a ceiling from text, but a smaller one than this doc used to
+claim.** MuPDF honours `text-anchor`, `font-weight` and italics when they sit
+on the `<text>` element (see below), so labels *can* be made to line up, and
+several figures now score 1.000 with a dozen labels. What does not close is ink
+*volume*: the scans are upscaled bitmap text whose blur pushes far more pixels
+under the gray<200 threshold than a clean glyph outline does. Expect a
+text-heavy figure to sit at ink ratio 0.7–0.8 with every label box matching to
+1–2px. Do not fatten glyphs to close that gap — it is inventing ink.
 Conversely, a whole shape missing from the middle panel means the SVG used
 something MuPDF cannot draw.
 
@@ -73,13 +80,48 @@ something MuPDF cannot draw.
 
 ## MuPDF quirks (the rasterizer everything is checked against)
 
+**The big one: MuPDF does not inherit text attributes from a `<g>`.**
+`text-anchor`, `font-family`, `font-weight` and `font-style` are each honoured
+on a `<text>` element and silently dropped when set on an ancestor group — where
+a browser inherits them normally. A group-styled label therefore renders in the
+*default* face (Times-Roman, upright, regular, left-anchored) for the scorer
+while the browser draws what you actually asked for, and every measurement you
+take off `rawdict` is of the wrong glyphs. Measured, not assumed:
+
+| attribute | on a `<g>` | on the `<text>` |
+|---|---|---|
+| `font-family="Helvetica,…"` | Times-Roman | Helvetica |
+| `font-weight="bold"` | Times-Roman | Helvetica-Bold |
+| `font-style="italic"` | Times-Roman | Times-Italic |
+| `text-anchor="middle"` | left-anchored | centred |
+
+`font-size` and `fill` *do* inherit. **Put font attributes on the `<text>`.**
+All four faces exist (`Helvetica`, `-Bold`, `-Oblique`, `-BoldOblique`, and the
+Times equivalents) — the old claim that `font-weight` is ignored and there is no
+italic face was wrong, and produced both undersized labels and "labels too
+light" misdiagnoses. Bold carries ~37% more ink than regular at the same size,
+which matters when calibrating ink ratio.
+
+A corpus sweep moved `text-anchor` off the group in 33 files (mean +0.035, best
++0.118, none worse); 127 files still carry a group-level font attribute.
+
 - **`<polygon>` loses its closing edge.** Use `<path d="M … Z">`.
-- `text-anchor` ignored — text is always left-anchored at `x`. Position labels
-  by their left edge, or accept the offset.
-- `font-weight` ignored; no italic face.
-- `stroke-dasharray` renders solid.
-- No CSS `<style>` blocks, no filters, no gradients (use the mean flat colour),
-  no external fonts, no `<image>`.
+- `stroke-dasharray` renders solid, so a dashed gridline scores as a solid line
+  and inflates ink ratio. Do not materialise dashes into segments to chase the
+  number — check by scoring a throwaway copy that has.
+- **Gradients render solid black.** Not dropped, not flattened: any
+  `fill="url(#…)"` paints a black shape. Every variant fails
+  (`objectBoundingBox`, `userSpaceOnUse`, CSS paint-fallback `url(#g) #ccc`).
+  If the scan really is a gradient, **draw the gradient and eat the score** —
+  `rejonowy_2019_lubuskie_q17` is 0.647 under MuPDF and 1.000 under headless
+  Chrome, and the review sheet shows the browser render, so the figure is right
+  and only the number is wrong. Flat bands sampled from the scan's profile are
+  the fallback for when a gradient would be overkill, not the preferred answer.
+- No filters, no external fonts, no `<image>`, `letter-spacing` ignored. CSS
+  `<style>` blocks are ignored too. That once tempted a dual representation —
+  a browser-only gradient plus `<style>`-hidden flat bands only MuPDF sees —
+  which does buy a 1.000. Don't: it is two drawings to keep in sync for a
+  number nobody reads.
 - Fonts: `Helvetica,Arial,sans-serif` or `Times New Roman,serif` only.
 
 **Ask MuPDF where it actually put the text** instead of guessing at metrics —
@@ -104,7 +146,9 @@ Ordered by how often they actually bit:
    and strokes lighter than that are invisible to the scorer *and* nearly
    invisible on screen. This alone produced 0.37 → 0.99 and 0.58 → 0.82 jumps.
    Suspect it whenever the middle panel looks emptier than the left one.
-2. **Text drifting** because `text-anchor="middle"` was assumed to work.
+2. **Text drifting** because a font attribute was set on the `<g>` instead of
+   the `<text>` — the browser inherits it, MuPDF does not, so the scorer marks
+   down a displacement nobody can see. Worth up to 0.118 on one figure.
 3. **A shape silently dropped** — `<polygon>`, a filter, a CSS rule.
 4. **Regularised geometry**: the redraw is the *ideal* figure, the original is
    the sloppy one. Check angles and side lengths against the bitmap, not
@@ -154,6 +198,9 @@ it is `dist(centre, vertex)`. Everything else follows the same way.
 | `centre-off-vertex` | arc isn't centred on the vertex it marks — concave, or marking nothing | recompute both endpoints as `V + r·(unit leg)`, redraw the `A` with `rx=ry=r` |
 | `endpoint-off-leg` | an end doesn't touch a side of the angle; or both ends sit on the *same* side | same |
 | `span-mismatch` | arc spans the complement/reflex instead of the interior angle | flip the sweep flag, or swap the endpoints |
+
+`span-mismatch` has a blind spot: it did **not** fire on `szkolny_2019_kujawsko-pomorskie_q7`'s 306.6° vertex-centred arc (`A 60 60 0 1 1 …`, a near-full circle bulging outside the triangle). A wrong `large-arc-flag` is invisible to it — that one showed up only in the score, 0.942, and by eye.
+
 | `label-outside-arc` | the α/β/γ inside the wedge is further from V than the arc | move the label to `V + 0.55r·(bisector)`, or grow `r` |
 | `arc-small-for-label` | arc too small to house its label | grow `r` |
 | `right-angle-mark` (INFO) | reports the glyph used: square tick / arc / arc+dot | eyeball vs the original — **conventions differ per source**, this is never a rule |
@@ -177,12 +224,29 @@ figures use a transform the parser bails on and are reported `INFO
 unsupported-transform` rather than checked.
 
 Elliptic arcs are skipped outright, on the theory that an ellipse is never an
-angle mark. That theory is wrong twice: `szkolny_2016-2017_malopolskie_q2` and
-`szkolny_2024-2025_wielkopolskie_q13` are both scans squashed on one axis
-(ry/rx ≈ 0.81–0.84), so their marks really are vertex-centred **ellipses** and
-fit to <1px rms where the best circle misses by 5–12px. Both figures therefore
-report nothing — unchecked, not verified. Drawing them as circles costs real
-score (0.997 → 0.971 on the first).
+angle mark. That theory is wrong in two separate ways, four figures so far, and
+those figures report nothing — unchecked, not verified.
+
+**Squashed scan.** `szkolny_2016-2017_malopolskie_q2`,
+`szkolny_2024-2025_wielkopolskie_q13` and `rejonowy_2024_lodzkie_q7` are scans
+compressed on one axis (ry/rx ≈ 0.81–0.85), so *every* mark in the figure is a
+vertex-centred **ellipse**, fitting to <1px rms where the best circle misses by
+5–12px. Drawing them as circles costs real score (0.997 → 0.971 on the first;
++0.019 across five marks on the third). The tell is that one squash factor fits
+all the marks at once — measure it on the node blobs, then fit one radius each.
+
+**Genuine perspective.** In `rejonowy_2023-2024_wielkopolskie_q14` the figure is
+a pyramid, so a right-angle marker lying in a receding face projects to an
+ellipse — a *rotated* one, not axis-aligned: circle 1.67px rms → axis-aligned
+ellipse 0.89 → general ellipse 0.58, with the radius drifting monotonically
+46.1 → 40.2px from one leg to the other. Deriving the axes from the two leg
+directions as conjugate diameters is the textbook construction but was measurably
+worse here than a free fit — the original drawer's ellipse is slightly off-true,
+and rule 2 says keep it.
+
+Emitting these as `A rx ry …` rather than a tessellated polyline is deliberate:
+the linter circle-fits runs of straight points and would report bogus
+`centre-off-vertex` FAILs for each one.
 
 ### Deciding whether the original really is off-centre
 
@@ -208,24 +272,28 @@ Draw dots as `<circle>`, never `<rect>`. A rect is loaded as four segments
 whose corners become vertices, and the linter will anchor a nearby arc to one
 of them and report an offset that isn't there.
 
-### Current state — 344 svg, 46 with findings, 10 FAIL in 8 figures
+### Current state — 344 svg, 18 FAIL in 12 figures
 
-8 `centre-off-vertex`, 2 `label-outside-arc`, 4 `arc-small-for-label` (WARN),
-48 right-angle-mark INFOs (10 square tick, 32 arc+dot, 6 arc without a dot),
-10 `unsupported-transform`.
+14 `centre-off-vertex`, 4 `label-outside-arc`, 4 `arc-small-for-label` (WARN),
+52 right-angle-mark INFOs (12 square tick, 38 arc+dot, 2 arc without a dot),
+9 `unsupported-transform`.
 
 The first pass over this linter fixed 36 figures (76 FAIL → 10); corpus mean
 `match@4px` went 0.961 → 0.963, biggest single gains 0.846 → 0.962
 (`szkolny_2020-2021_malopolskie_q10`) and 0.893 → 0.951
 (`rejonowy_2023-2024_pomorskie_q7`), and two figures reached 1.000.
 
-**The 10 that remain are accepted, not outstanding.** Every one was measured
+**The 18 that remain are accepted, not outstanding.** Every one was measured
 off the bitmap and the original really is drawn that way — rule 2, do not
 regularise a sloppy original. Do not "fix" these without re-measuring first.
 
 | figure | question | why it stays |
 |---|---|---|
 | `rejonowy_2010_podkarpackie_gim_q15_fig1` | `9a61f91b` | circle fit rms 1.0px, centre 47.6px off vertex C |
+| `rejonowy_2022-2023_malopolskie_q7_fig1` | `5951c837` | free fit rms 1.07px vs 3.22px vertex-constrained; local chamfer 1.000 vs 0.768 |
+| `rejonowy_2025-2026_wielkopolskie_q19_fig1` | `1c220237` | **linter false positive** — the "12" it calls a stray angle label is the side length of BC, printed there in the scan; it only tripped once the arc grew to its correct r=60 |
+| `szkolny_2025-2026_wielkopolskie_q10_fig1` | `707a888d` | all five arcs off-vertex in the scan: free fits 0.93–1.14px rms vs 2.8–5.3px centred, local chamfer 0.831→0.960 / 0.879→0.965 / 0.791→0.929 / 0.567→0.900 / 0.935→0.948; the worst confirmed by 3-point construction |
+| `wojewodzki_2020-2021_malopolskie_q6_fig1` | `9cdab7ec` | `label-outside-arc`; signed off by eye but never individually re-measured — the one entry here taken on trust |
 | `rejonowy_2022_lubuskie_q16_fig1` | `31d6505d` | S-curve of shape arcs, anchors to a dotted-grid crossing |
 | `rejonowy_2023-2024_wielkopolskie_q7_fig1` | `bb8fb9d6` | fit rms 0.21px off-centre vs 0.83px centred; ~an ellipse-tool drag that missed the corner |
 | `rejonowy_2023_lodzkie_q14_fig1` | `9f0722c2` | r=145 circle centred 37px *outside* the vertex; fit std 2.2px vs 11.9px centred |
@@ -242,22 +310,24 @@ labels rendered at half size because `text-anchor` was carrying the position
 
 ## Worth revising first
 
-The 11 below 0.85. Several are text-heavy charts where the ceiling is MuPDF's
-text rendering, not the SVG — check the overlay before rewriting anything.
+Nothing, on this evidence. The 9 below 0.85 are all explained: eight are
+**already signed off in `redraw-ok.jsonl`**, i.e. checked by eye in the browser
+and accepted — text-heavy charts where the ceiling is ink volume, not geometry
+— and the ninth is the gradient figure MuPDF can't draw. Do not "fix" any of
+them on the strength of the number; check the overlay first, and if the only
+gap is glyph weight or a gradient, leave it.
 
 | match@4px | figure | question |
 |---|---|---|
-| 0.745 | `wojewodzki_2021_podlaskie_q26_fig1` | `715d654b` |
+| 0.647 | `rejonowy_2019_lubuskie_q17_fig1` (gradient, 1.000 in Chrome) | `f55b3d5e` |
 | 0.752 | `wojewodzki_2022_lubuskie_q10_fig1` | `33fef160` |
-| 0.766 | `szkolny_2017-2018_malopolskie_q9_fig1` | `4dbb61ef` |
 | 0.778 | `wojewodzki_2021-2022_warminsko-mazurskie_q8_fig1` | `9f297a01` |
-| 0.785 | `szkolny_2025-2026_warminsko-mazurskie_q10_fig1` | `516a90ff` |
-| 0.789 | `wojewodzki_2020-2021_malopolskie_q6_fig1` | `9cdab7ec` |
-| 0.798 | `szkolny_2024_mazowieckie_q5_fig1` | `01c67824` |
-| 0.803 | `wojewodzki_2021-2022_warminsko-mazurskie_q19_fig1` | `2f487c4b` |
+| 0.792 | `wojewodzki_2020-2021_malopolskie_q6_fig1` | `9cdab7ec` |
 | 0.815 | `szkolny_2024-2025_warminsko-mazurskie_q3_fig1` | `e09ba5db` |
+| 0.823 | `szkolny_2017-2018_malopolskie_q9_fig1` | `4dbb61ef` |
 | 0.839 | `wojewodzki_2018_podkarpackie_q22_fig1` | `b886005b` |
 | 0.846 | `wojewodzki_2025_mazowieckie_q6_fig1` | `fb5cbdda` |
+| 0.849 | `szkolny_2024-2025_malopolskie_q6_fig1` | `ad68ccb5` |
 
 Regenerate the list any time with `python3 scripts/figcheck.py --all`.
 

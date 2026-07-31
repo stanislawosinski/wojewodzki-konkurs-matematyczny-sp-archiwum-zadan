@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="483" height="580" viewBox="0 0 483 580">
 <rect width="483" height="580" fill="#fff"/>
 <!-- main triangle ABC -->
-<path d="M 67.9,498.5 L 370.5,497.0 L 370.5,72.9 Z" fill="none" stroke="#000" stroke-width="2.3"/>
+<path d="M 67.9,498.5 L 370.5,497.0 L 370.5,72.9 Z" fill="none" stroke="#000" stroke-width="2.45"/>
 <!-- segment D-B (=8) -->
-<line x1="169.3" y1="356.0" x2="370.5" y2="497.0" stroke="#000" stroke-width="2.3"/>
+<line x1="169.3" y1="356.0" x2="370.5" y2="497.0" stroke="#000" stroke-width="2.45"/>
 <!-- segment F-E (=4) -->
-<line x1="269.2" y1="215.4" x2="370.5" y2="285.5" stroke="#000" stroke-width="2.3"/>
-<!-- angle arc at D (between DA and DB) -->
-<path d="M 155.4,375.5 A 24,24 0 0 0 188.9,369.7" fill="none" stroke="#000" stroke-width="1.4"/>
-<!-- angle arc at F (between FC and FE) -->
-<path d="M 283.1,195.8 A 24,24 0 0 1 288.9,229.1" fill="none" stroke="#000" stroke-width="1.4"/>
-<!-- angle arc at B (between BD and BC) -->
-<path d="M 350.8,483.2 A 24,24 0 0 1 370.5,473.0" fill="none" stroke="#000" stroke-width="1.4"/>
+<line x1="269.2" y1="215.4" x2="370.5" y2="285.5" stroke="#000" stroke-width="2.45"/>
+<!-- angle arc at D, r=56.1 from leg DA to leg DB (encloses the dot at r=32) -->
+<path d="M 136.78,401.71 A 56.1 56.1 0 0 0 215.24,388.20" fill="none" stroke="#000" stroke-width="2.45"/>
+<!-- angle arc at F, r=51.1 from leg FA to leg FE (encloses the dot at r=30) -->
+<path d="M 239.59,257.05 A 51.1 51.1 0 0 0 311.22,244.48" fill="none" stroke="#000" stroke-width="2.45"/>
+<!-- angle arc at B, r=60.9 from leg BC to leg BA: marks the right angle ABC -->
+<path d="M 370.50,436.10 A 60.9 60.9 0 0 0 309.60,497.30" fill="none" stroke="#000" stroke-width="2.45"/>
 <!-- equal-angle dots -->
 <circle cx="174.3" cy="388.1" r="5.2" fill="#000"/>
 <circle cx="274.0" cy="245.0" r="5.2" fill="#000"/>

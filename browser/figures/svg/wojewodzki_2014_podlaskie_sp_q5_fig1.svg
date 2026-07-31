@@ -1,60 +1,69 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="697" height="438" viewBox="0 0 697 438">
   <rect x="0" y="0" width="697" height="438" fill="#fff"/>
 
-  <!-- horizontal gridlines (values 1-8) -->
-  <line x1="11" y1="226.5" x2="685" y2="226.5" stroke="#808080" stroke-width="1"/>
-  <line x1="11" y1="199.5" x2="685" y2="199.5" stroke="#808080" stroke-width="1"/>
-  <line x1="11" y1="172.5" x2="685" y2="172.5" stroke="#808080" stroke-width="1"/>
-  <line x1="11" y1="146.5" x2="685" y2="146.5" stroke="#808080" stroke-width="1"/>
-  <line x1="11" y1="120.5" x2="685" y2="120.5" stroke="#808080" stroke-width="1"/>
-  <line x1="11" y1="94.5"  x2="685" y2="94.5"  stroke="#808080" stroke-width="1"/>
-  <line x1="11" y1="67.5"  x2="685" y2="67.5"  stroke="#808080" stroke-width="1"/>
-  <line x1="11" y1="42.5"  x2="685" y2="42.5"  stroke="#808080" stroke-width="1"/>
+  <!-- horizontal gridlines (values 1-8); they overshoot the value axis to the
+       left by ~10px - that overshoot is the y-axis tick mark -->
+  <line x1="59.6" y1="226.85" x2="656.1" y2="226.85" stroke="#808080" stroke-width="1.3"/>
+  <line x1="59.6" y1="200.16" x2="656.1" y2="200.16" stroke="#808080" stroke-width="1.3"/>
+  <line x1="59.6" y1="173.42" x2="656.1" y2="173.42" stroke="#808080" stroke-width="1.3"/>
+  <line x1="59.6" y1="146.74" x2="656.1" y2="146.74" stroke="#808080" stroke-width="1.3"/>
+  <line x1="59.6" y1="121.33" x2="656.1" y2="121.33" stroke="#808080" stroke-width="1.3"/>
+  <line x1="59.6" y1="94.64" x2="656.1" y2="94.64" stroke="#808080" stroke-width="1.3"/>
+  <line x1="59.6" y1="67.95" x2="656.1" y2="67.95" stroke="#808080" stroke-width="1.3"/>
+  <line x1="59.6" y1="42.56" x2="656.1" y2="42.56" stroke="#808080" stroke-width="1.3"/>
   <!-- axis (value 0) -->
-  <line x1="11" y1="251.5" x2="685" y2="251.5" stroke="#808080" stroke-width="1.2"/>
+  <line x1="59.6" y1="252.13" x2="656.1" y2="252.13" stroke="#808080" stroke-width="1.4"/>
+  <!-- value axis; doubles as the first category tick, so it runs past the axis -->
+  <line x1="69.23" y1="42.56" x2="69.23" y2="262.1" stroke="#808080" stroke-width="1.3"/>
 
   <!-- x-axis tick marks (category boundaries) -->
-  <line x1="68.5"  y1="251.5" x2="68.5"  y2="256" stroke="#808080" stroke-width="1"/>
-  <line x1="186.5" y1="251.5" x2="186.5" y2="256" stroke="#808080" stroke-width="1"/>
-  <line x1="303.5" y1="251.5" x2="303.5" y2="256" stroke="#808080" stroke-width="1"/>
-  <line x1="419.5" y1="251.5" x2="419.5" y2="256" stroke="#808080" stroke-width="1"/>
-  <line x1="537.5" y1="251.5" x2="537.5" y2="256" stroke="#808080" stroke-width="1"/>
-  <line x1="655"   y1="251.5" x2="655"   y2="256" stroke="#808080" stroke-width="1"/>
+  <line x1="186.78" y1="252.13" x2="186.78" y2="262.1" stroke="#808080" stroke-width="1.3"/>
+  <line x1="304.26" y1="252.13" x2="304.26" y2="262.1" stroke="#808080" stroke-width="1.3"/>
+  <line x1="420.44" y1="252.13" x2="420.44" y2="262.1" stroke="#808080" stroke-width="1.3"/>
+  <line x1="537.94" y1="252.13" x2="537.94" y2="262.1" stroke="#808080" stroke-width="1.3"/>
+  <line x1="655.39" y1="252.13" x2="655.39" y2="262.1" stroke="#808080" stroke-width="1.3"/>
 
   <!-- bars -->
-  <rect x="105" y="200" width="46" height="51.5" fill="#787878"/>
-  <rect x="222" y="148" width="47" height="103.5" fill="#787878"/>
-  <rect x="339" y="121" width="46" height="130.5" fill="#787878"/>
-  <rect x="456" y="69"  width="46" height="182.5" fill="#787878"/>
-  <rect x="574" y="95"  width="46" height="156.5" fill="#787878"/>
+  <rect x="104.23" y="199.47" width="47.5" height="52.66" fill="#787878"/>
+  <rect x="221.82" y="146.24" width="47.36" height="105.89" fill="#787878"/>
+  <rect x="338.05" y="120.63" width="47.38" height="131.50" fill="#787878"/>
+  <rect x="455.37" y="67.39" width="47.54" height="184.74" fill="#787878"/>
+  <rect x="573.02" y="94.19" width="47.46" height="157.94" fill="#787878"/>
 
   <!-- outer border box -->
-  <rect x="10" y="10" width="676" height="417" fill="none" stroke="#808080" stroke-width="1.4"/>
+  <rect x="11.3" y="11.3" width="674.28" height="415.28" fill="none" stroke="#808080" stroke-width="2.5"/>
 
-  <!-- value labels above bars -->
-  <text x="128"   y="180" font-family="Helvetica,Arial,sans-serif" font-size="16" text-anchor="middle">2</text>
-  <text x="245.5" y="126" font-family="Helvetica,Arial,sans-serif" font-size="16" text-anchor="middle">4</text>
-  <text x="362"   y="99"  font-family="Helvetica,Arial,sans-serif" font-size="16" text-anchor="middle">5</text>
-  <text x="479"   y="47"  font-family="Helvetica,Arial,sans-serif" font-size="16" text-anchor="middle">7</text>
-  <text x="597"   y="74"  font-family="Helvetica,Arial,sans-serif" font-size="16" text-anchor="middle">6</text>
+  <!-- value labels above bars. x is the glyph's left edge, not its centre:
+       text-anchor is unreliable in MuPDF, so every label is left-anchored at a
+       measured x (digit advance 0.556em) -->
+  <text x="120.85" y="181" font-family="Helvetica,Arial,sans-serif" font-size="25">2</text>
+  <text x="238.55" y="128" font-family="Helvetica,Arial,sans-serif" font-size="25">4</text>
+  <text x="355.65" y="101" font-family="Helvetica,Arial,sans-serif" font-size="25">5</text>
+  <text x="472.05" y="49" font-family="Helvetica,Arial,sans-serif" font-size="25">7</text>
+  <text x="589.55" y="76" font-family="Helvetica,Arial,sans-serif" font-size="25">6</text>
 
   <!-- y-axis tick labels -->
-  <text x="45" y="260" font-family="Helvetica,Arial,sans-serif" font-size="16" text-anchor="end">0</text>
-  <text x="45" y="234" font-family="Helvetica,Arial,sans-serif" font-size="16" text-anchor="end">1</text>
-  <text x="45" y="208" font-family="Helvetica,Arial,sans-serif" font-size="16" text-anchor="end">2</text>
-  <text x="45" y="181" font-family="Helvetica,Arial,sans-serif" font-size="16" text-anchor="end">3</text>
-  <text x="45" y="154" font-family="Helvetica,Arial,sans-serif" font-size="16" text-anchor="end">4</text>
-  <text x="45" y="128" font-family="Helvetica,Arial,sans-serif" font-size="16" text-anchor="end">5</text>
-  <text x="45" y="102" font-family="Helvetica,Arial,sans-serif" font-size="16" text-anchor="end">6</text>
-  <text x="45" y="75"  font-family="Helvetica,Arial,sans-serif" font-size="16" text-anchor="end">7</text>
-  <text x="45" y="49"  font-family="Helvetica,Arial,sans-serif" font-size="16" text-anchor="end">8</text>
+  <text x="30.30" y="261" font-family="Helvetica,Arial,sans-serif" font-size="25">0</text>
+  <text x="30.30" y="235" font-family="Helvetica,Arial,sans-serif" font-size="25">1</text>
+  <text x="30.30" y="209" font-family="Helvetica,Arial,sans-serif" font-size="25">2</text>
+  <text x="30.30" y="182" font-family="Helvetica,Arial,sans-serif" font-size="25">3</text>
+  <text x="30.30" y="156" font-family="Helvetica,Arial,sans-serif" font-size="25">4</text>
+  <text x="30.30" y="129" font-family="Helvetica,Arial,sans-serif" font-size="25">5</text>
+  <text x="30.30" y="104" font-family="Helvetica,Arial,sans-serif" font-size="25">6</text>
+  <text x="30.30" y="77" font-family="Helvetica,Arial,sans-serif" font-size="25">7</text>
+  <text x="30.30" y="50" font-family="Helvetica,Arial,sans-serif" font-size="25">8</text>
 
-  <!-- rotated category labels (~45deg) -->
-  <g font-family="Helvetica,Arial,sans-serif" font-size="15" text-anchor="start">
-    <text x="0" y="0" transform="translate(63,262) rotate(45)">celujące</text>
-    <text x="0" y="0" transform="translate(181,262) rotate(45)">bardzo dobre</text>
-    <text x="0" y="0" transform="translate(298,262) rotate(45)">dobre</text>
-    <text x="0" y="0" transform="translate(414,262) rotate(45)">dostateczne</text>
-    <text x="0" y="0" transform="translate(532,262) rotate(45)">dopuszczające</text>
+  <!-- category labels. The scan sets them at 45 deg reading up-to-the-right, each
+       label's diagonal passing through (bar centre, y=296) so the end of the label
+       lines up with the centre of its bar. rotate(-45) about the text origin; every
+       translate() was solved by measuring the *rendered* ink. Helvetica is narrower
+       per em than the scan's face, so 28.5 is what it takes to match the scan's word
+       lengths, against 25 for the digits (matched on cap height instead). -->
+  <g font-family="Helvetica,Arial,sans-serif" font-size="28.5">
+    <text x="0" y="0" transform="translate(68.50,355.50) rotate(-45)">celujące</text>
+    <text x="0" y="0" transform="translate(141.50,399.50) rotate(-45)">bardzo dobre</text>
+    <text x="0" y="0" transform="translate(318.50,339.50) rotate(-45)">dobre</text>
+    <text x="0" y="0" transform="translate(391.50,383.50) rotate(-45)">dostateczne</text>
+    <text x="0" y="0" transform="translate(487.50,405.50) rotate(-45)">dopuszczające</text>
   </g>
 </svg>

@@ -1,38 +1,50 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="540" height="275" viewBox="0 0 540 275">
 <rect width="540" height="275" fill="#fff"/>
-<!-- box front outline -->
-<path d="M 29,62 L 336,62 L 336,221 L 29,221 Z" fill="none" stroke="#000" stroke-width="1.8"/>
-<!-- rim back edge + diagonals -->
-<line x1="29" y1="62" x2="61" y2="30" stroke="#000" stroke-width="1.8"/>
-<line x1="336" y1="62" x2="368" y2="30" stroke="#000" stroke-width="1.8"/>
-<line x1="61" y1="30" x2="368" y2="30" stroke="#000" stroke-width="1.8"/>
-<!-- water top surface -->
-<path d="M 30,111 L 332,111 L 364,82 L 62,82 Z" fill="#DEDEDE" stroke="#000" stroke-width="1.6"/>
-<!-- water front face -->
-<path d="M 30,114 L 335,114 L 335,206 L 30,206 Z" fill="#D5D5D5" stroke="#000" stroke-width="1.6"/>
-<!-- water right side face -->
-<path d="M 335,114 L 367,82 L 367,175 L 335,206 Z" fill="#AAAAAA" stroke="#000" stroke-width="1.6"/>
-<!-- hidden bottom-right box edge -->
-<line x1="336" y1="221" x2="368" y2="189" stroke="#000" stroke-width="1.4" stroke-dasharray="4,3"/>
-<!-- 90 cm dimension -->
-<g stroke="#000" stroke-width="1.3" fill="none">
-<line x1="29" y1="224" x2="336" y2="224"/>
-<path d="M 29,224 l 8,-4 M 29,224 l 8,4"/>
-<path d="M 336,224 l -8,-4 M 336,224 l -8,4"/>
+<!-- open cuboid tank, oblique projection: depth vector d = (+31.5,-31.5) for every receding edge.
+     Front face 29.5,62.5 - 335,62.5 - 335,208 - 29.5,208; water surface at y=113.5 in front. -->
+<!-- water: front face, right face, top surface -->
+<path d="M 29.5,113.5 L 335,113.5 L 335,208 L 29.5,208 Z" fill="#D5D5D5" stroke="#000" stroke-width="2.9"/>
+<path d="M 335,113.5 L 366.5,82 L 366.5,176.5 L 335,208 Z" fill="#AAAAAA" stroke="#000" stroke-width="2.9"/>
+<path d="M 29.5,113.5 L 335,113.5 L 366.5,82 L 61,82 Z" fill="#DEDEDE" stroke="#000" stroke-width="2.9"/>
+<!-- tank front face -->
+<path d="M 29.5,62.5 L 335,62.5 L 335,208 L 29.5,208 Z" fill="none" stroke="#000" stroke-width="2.9"/>
+<!-- open rim: the two receding top edges; the back top edge runs a little past the right corner (as in the scan) -->
+<g stroke="#000" stroke-width="2.9" fill="none">
+<line x1="29.5" y1="62.5" x2="61" y2="31"/>
+<line x1="335" y1="62.5" x2="366.5" y2="31"/>
+<line x1="61" y1="31" x2="374" y2="31"/>
+<!-- far vertical edges, seen through the open top; the left one stops at the water surface -->
+<line x1="61" y1="31" x2="61" y2="82"/>
+<line x1="366.5" y1="31" x2="366.5" y2="176.5"/>
 </g>
-<text x="150" y="248" font-family="Times New Roman,serif" font-size="19" fill="#000">90 cm</text>
-<!-- 80 cm dimension -->
-<g stroke="#000" stroke-width="1.3" fill="none">
-<line x1="366" y1="32" x2="366" y2="178"/>
-<path d="M 366,32 l -4,8 M 366,32 l 4,8"/>
-<path d="M 366,178 l -4,-8 M 366,178 l 4,-8"/>
+<!-- 90 cm: width, along the front bottom edge -->
+<g stroke="#000" stroke-width="1.9" fill="none">
+<line x1="29.5" y1="208" x2="29.5" y2="229"/>
+<line x1="335" y1="208" x2="335" y2="229"/>
+<line x1="29.5" y1="221.5" x2="335" y2="221.5"/>
+<path d="M 29.5,221.5 l 11,-4 M 29.5,221.5 l 11,4"/>
+<path d="M 335,221.5 l -11,-4 M 335,221.5 l -11,4"/>
 </g>
-<text x="392" y="116" font-family="Times New Roman,serif" font-size="19" fill="#000">80 cm</text>
-<!-- 60 cm dimension -->
-<g stroke="#000" stroke-width="1.3" fill="none">
-<line x1="368" y1="190" x2="390" y2="169"/>
-<path d="M 368,190 l 1,-9 M 368,190 l 9,1"/>
-<path d="M 390,169 l -1,9 M 390,169 l -9,-1"/>
+<text x="151" y="249" font-family="Times New Roman,serif" font-size="31" fill="#000">90 cm</text>
+<!-- 80 cm: height, offset to the right of the far vertical edge so it never touches it -->
+<g stroke="#000" stroke-width="1.9" fill="none">
+<line x1="378" y1="31" x2="401" y2="31"/>
+<line x1="364" y1="176" x2="374" y2="176"/>
+<line x1="378" y1="176" x2="401" y2="176"/>
+<line x1="384" y1="31" x2="384" y2="176"/>
+<path d="M 384,32 l -4,11 M 384,32 l 4,11"/>
+<path d="M 384,175 l -4,-11 M 384,175 l 4,-11"/>
 </g>
-<text x="390" y="204" font-family="Times New Roman,serif" font-size="19" fill="#000">60 cm</text>
+<text x="390" y="116" font-family="Times New Roman,serif" font-size="31" fill="#000">80 cm</text>
+<!-- 60 cm: depth, so the dimension line is parallel to d, offset 19px out from the bottom-right edge.
+     Its extension line off the front bottom-right corner is dashed; drawn as two segments because
+     MuPDF renders stroke-dasharray solid. -->
+<g stroke="#000" stroke-width="1.9" fill="none">
+<line x1="347.5" y1="208" x2="355.5" y2="208"/>
+<line x1="360" y1="208" x2="370.5" y2="208"/>
+<line x1="366" y1="204" x2="392" y2="178"/>
+<path d="M 392,178 l -4.9,10.6 M 392,178 l -10.6,4.9"/>
+<path d="M 366,204 l 10.6,-4.9 M 366,204 l 4.9,-10.6"/>
+</g>
+<text x="388" y="206" font-family="Times New Roman,serif" font-size="31" fill="#000">60 cm</text>
 </svg>

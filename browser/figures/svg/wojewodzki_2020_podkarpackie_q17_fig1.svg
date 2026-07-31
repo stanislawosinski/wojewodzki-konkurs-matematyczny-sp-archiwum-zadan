@@ -1,12 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="650" height="788" viewBox="0 0 650 788">
 <rect width="650" height="788" fill="#fff"/>
 
-<!-- solid edges: S-A, S-B, S-C, C-A, A-B, and the solid stub of C-B up to elbow P -->
+<!-- outer outline S-B-A-C, one closed path so all four corners miter cleanly -->
+<path d="M 51 44 L 601.5 350 L 321.7 748 L 51 510.4 Z" fill="none" stroke="#000" stroke-width="7" stroke-linejoin="miter" stroke-miterlimit="10"/>
+
+<!-- interior edge S-A, and the solid stub of C-B up to elbow P; both start on a vertex of the outline -->
 <line x1="51" y1="44" x2="321.7" y2="748" stroke="#000" stroke-width="7"/>
-<line x1="51" y1="44" x2="601.5" y2="350" stroke="#000" stroke-width="7"/>
-<line x1="51" y1="44" x2="51" y2="510.4" stroke="#000" stroke-width="7"/>
-<line x1="51" y1="510.4" x2="321.7" y2="748" stroke="#000" stroke-width="7"/>
-<line x1="321.7" y1="748" x2="601.5" y2="350" stroke="#000" stroke-width="7"/>
 <line x1="51" y1="510.4" x2="166.2" y2="476.8" stroke="#000" stroke-width="7"/>
 
 <!-- dashed remainder of C-B (hidden edge) -->

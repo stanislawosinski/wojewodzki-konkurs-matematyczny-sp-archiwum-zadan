@@ -1,46 +1,100 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1040" height="410" viewBox="0 0 1040 410">
+<!-- 3D tubes: each bar is one rect filled with the measured cylindrical gradient #tube
+     (horizontal profile sampled off the bitmap, highlight at 0.498 of the width, falling to
+     gray 140 at both edges), a #foot white overlay for the fade into the axis, and a dark
+     ellipse cap on top. MuPDF (scripts/figcheck.py) has no gradients and paints every
+     fill="url(#..)" solid black, so its score for this figure is meaningless; a browser,
+     which is what the reviewer looks at, renders the shading correctly. -->
+<defs>
+<linearGradient id="tube" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0.0000" stop-color="#fafafa"/>
+<stop offset="0.0070" stop-color="#f1f1f1"/>
+<stop offset="0.0110" stop-color="#e7e7e7"/>
+<stop offset="0.0240" stop-color="#c2c2c2"/>
+<stop offset="0.0350" stop-color="#9d9d9d"/>
+<stop offset="0.0380" stop-color="#969696"/>
+<stop offset="0.0410" stop-color="#919191"/>
+<stop offset="0.0500" stop-color="#8c8c8c"/>
+<stop offset="0.0660" stop-color="#9b9b9b"/>
+<stop offset="0.0820" stop-color="#afafaf"/>
+<stop offset="0.1060" stop-color="#bcbcbc"/>
+<stop offset="0.1320" stop-color="#c6c6c6"/>
+<stop offset="0.3440" stop-color="#e7e7e7"/>
+<stop offset="0.3860" stop-color="#ececec"/>
+<stop offset="0.4750" stop-color="#fcfcfc"/>
+<stop offset="0.4980" stop-color="#fefefe"/>
+<stop offset="0.5310" stop-color="#fcfcfc"/>
+<stop offset="0.5810" stop-color="#f2f2f2"/>
+<stop offset="0.7630" stop-color="#d7d7d7"/>
+<stop offset="0.8680" stop-color="#c4c4c4"/>
+<stop offset="0.8890" stop-color="#bebebe"/>
+<stop offset="0.9180" stop-color="#aeaeae"/>
+<stop offset="0.9310" stop-color="#a3a3a3"/>
+<stop offset="0.9450" stop-color="#909090"/>
+<stop offset="0.9510" stop-color="#8e8e8e"/>
+<stop offset="0.9600" stop-color="#939393"/>
+<stop offset="0.9650" stop-color="#9e9e9e"/>
+<stop offset="0.9720" stop-color="#b2b2b2"/>
+<stop offset="0.9790" stop-color="#cbcbcb"/>
+<stop offset="0.9870" stop-color="#e3e3e3"/>
+<stop offset="1.0000" stop-color="#fafafa"/>
+</linearGradient>
+<linearGradient id="foot" gradientUnits="userSpaceOnUse" x1="0" y1="263.0" x2="0" y2="277.6">
+<stop offset="0.000" stop-color="#fff" stop-opacity="0.00"/>
+<stop offset="0.137" stop-color="#fff" stop-opacity="0.02"/>
+<stop offset="0.274" stop-color="#fff" stop-opacity="0.06"/>
+<stop offset="0.411" stop-color="#fff" stop-opacity="0.17"/>
+<stop offset="0.548" stop-color="#fff" stop-opacity="0.38"/>
+<stop offset="0.616" stop-color="#fff" stop-opacity="0.51"/>
+<stop offset="0.685" stop-color="#fff" stop-opacity="0.64"/>
+<stop offset="0.753" stop-color="#fff" stop-opacity="0.79"/>
+<stop offset="0.822" stop-color="#fff" stop-opacity="0.90"/>
+<stop offset="0.890" stop-color="#fff" stop-opacity="0.95"/>
+<stop offset="1.000" stop-color="#fff" stop-opacity="1.00"/>
+</linearGradient>
+</defs>
 <rect width="1040" height="410" fill="#fff"/>
-<line x1="86" y1="280" x2="1030" y2="280" stroke="#000" stroke-width="3"/>
-<!-- bar1 poniedzialek 26 -->
-<ellipse cx="152" cy="62" rx="35" ry="6" fill="#e8e8e8" stroke="#333" stroke-width="1.5"/>
-<rect x="117" y="62" width="10" height="218" fill="#9a9a9a"/>
-<rect x="177" y="62" width="10" height="218" fill="#9a9a9a"/>
-<text x="152" y="53" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="26" font-weight="bold" fill="#000">26</text>
-<text x="152" y="297" text-anchor="end" transform="rotate(-90 152 297)" font-family="Helvetica,Arial,sans-serif" font-size="17" fill="#000">poniedziałek</text>
-<!-- bar2 wtorek 22 -->
-<ellipse cx="284" cy="96" rx="35" ry="6" fill="#e8e8e8" stroke="#333" stroke-width="1.5"/>
-<rect x="250" y="96" width="10" height="184" fill="#9a9a9a"/>
-<rect x="309" y="96" width="10" height="184" fill="#9a9a9a"/>
-<text x="284" y="86" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="26" font-weight="bold" fill="#000">22</text>
-<text x="284" y="297" text-anchor="end" transform="rotate(-90 284 297)" font-family="Helvetica,Arial,sans-serif" font-size="17" fill="#000">wtorek</text>
-<!-- bar3 sroda 19 -->
-<ellipse cx="417" cy="122" rx="35" ry="6" fill="#e8e8e8" stroke="#333" stroke-width="1.5"/>
-<rect x="382" y="122" width="10" height="158" fill="#9a9a9a"/>
-<rect x="442" y="122" width="10" height="158" fill="#9a9a9a"/>
-<text x="417" y="113" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="26" font-weight="bold" fill="#000">19</text>
-<text x="417" y="297" text-anchor="end" transform="rotate(-90 417 297)" font-family="Helvetica,Arial,sans-serif" font-size="17" fill="#000">środa</text>
-<!-- bar4 czwartek 21 -->
-<ellipse cx="550" cy="105" rx="35" ry="6" fill="#e8e8e8" stroke="#333" stroke-width="1.5"/>
-<rect x="516" y="105" width="10" height="175" fill="#9a9a9a"/>
-<rect x="575" y="105" width="10" height="175" fill="#9a9a9a"/>
-<text x="550" y="95" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="26" font-weight="bold" fill="#000">21</text>
-<text x="550" y="297" text-anchor="end" transform="rotate(-90 550 297)" font-family="Helvetica,Arial,sans-serif" font-size="17" fill="#000">czwartek</text>
-<!-- bar5 piatek 18 -->
-<ellipse cx="683" cy="130" rx="35" ry="6" fill="#e8e8e8" stroke="#333" stroke-width="1.5"/>
-<rect x="648" y="130" width="10" height="150" fill="#9a9a9a"/>
-<rect x="708" y="130" width="10" height="150" fill="#9a9a9a"/>
-<text x="683" y="120" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="26" font-weight="bold" fill="#000">18</text>
-<text x="683" y="297" text-anchor="end" transform="rotate(-90 683 297)" font-family="Helvetica,Arial,sans-serif" font-size="17" fill="#000">piątek</text>
-<!-- bar6 sobota 14 -->
-<ellipse cx="816" cy="164" rx="35" ry="6" fill="#e8e8e8" stroke="#333" stroke-width="1.5"/>
-<rect x="781" y="164" width="10" height="116" fill="#9a9a9a"/>
-<rect x="841" y="164" width="10" height="116" fill="#9a9a9a"/>
-<text x="816" y="153" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="26" font-weight="bold" fill="#000">14</text>
-<text x="816" y="297" text-anchor="end" transform="rotate(-90 816 297)" font-family="Helvetica,Arial,sans-serif" font-size="17" fill="#000">sobota</text>
-<!-- bar7 niedziela 12 -->
-<ellipse cx="949" cy="182" rx="35" ry="6" fill="#e8e8e8" stroke="#333" stroke-width="1.5"/>
-<rect x="914" y="182" width="10" height="98" fill="#9a9a9a"/>
-<rect x="974" y="182" width="10" height="98" fill="#9a9a9a"/>
-<text x="949" y="171" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="26" font-weight="bold" fill="#000">12</text>
-<text x="949" y="297" text-anchor="end" transform="rotate(-90 949 297)" font-family="Helvetica,Arial,sans-serif" font-size="17" fill="#000">niedziela</text>
+<!-- poniedzia&#322;ek 26 -->
+<rect x="116.12" y="58.41" width="71.38" height="219.59" fill="url(#tube)"/>
+<rect x="116.12" y="263.0" width="71.38" height="14.6" fill="url(#foot)"/>
+<ellipse cx="151.81" cy="58.41" rx="35.69" ry="2.70" fill="#3e3e3e"/>
+<!-- wtorek 22 -->
+<rect x="248.32" y="92.34" width="71.68" height="185.66" fill="url(#tube)"/>
+<rect x="248.32" y="263.0" width="71.68" height="14.6" fill="url(#foot)"/>
+<ellipse cx="284.16" cy="92.34" rx="35.84" ry="2.59" fill="#3e3e3e"/>
+<!-- &#347;roda 19 -->
+<rect x="381.45" y="118.35" width="71.41" height="159.65" fill="url(#tube)"/>
+<rect x="381.45" y="263.0" width="71.41" height="14.6" fill="url(#foot)"/>
+<ellipse cx="417.15" cy="118.35" rx="35.71" ry="2.75" fill="#3e3e3e"/>
+<!-- czwartek 21 -->
+<rect x="514.50" y="101.50" width="72.00" height="176.50" fill="url(#tube)"/>
+<rect x="514.50" y="263.0" width="72.00" height="14.6" fill="url(#foot)"/>
+<ellipse cx="550.50" cy="101.50" rx="36.00" ry="2.83" fill="#3e3e3e"/>
+<!-- pi&#261;tek 18 -->
+<rect x="647.25" y="126.72" width="71.59" height="151.28" fill="url(#tube)"/>
+<rect x="647.25" y="263.0" width="71.59" height="14.6" fill="url(#foot)"/>
+<ellipse cx="683.05" cy="126.72" rx="35.80" ry="2.89" fill="#3e3e3e"/>
+<!-- sobota 14 -->
+<rect x="780.46" y="160.62" width="71.44" height="117.38" fill="url(#tube)"/>
+<rect x="780.46" y="263.0" width="71.44" height="14.6" fill="url(#foot)"/>
+<ellipse cx="816.18" cy="160.62" rx="35.72" ry="2.94" fill="#3e3e3e"/>
+<!-- niedziela 12 -->
+<rect x="913.14" y="178.18" width="71.76" height="99.82" fill="url(#tube)"/>
+<rect x="913.14" y="263.0" width="71.76" height="14.6" fill="url(#foot)"/>
+<ellipse cx="949.02" cy="178.18" rx="35.88" ry="2.89" fill="#3e3e3e"/>
+<line x1="84.6" y1="279.5" x2="1030.4" y2="279.5" stroke="#000" stroke-width="3.4"/>
+<text x="0" y="0" text-anchor="middle" transform="translate(152.0 53.5) scale(0.87 1)" font-family="Helvetica,Arial,sans-serif" font-size="27" font-weight="bold" fill="#000">26</text>
+<text x="0" y="0" text-anchor="middle" transform="translate(285.0 86.5) scale(0.87 1)" font-family="Helvetica,Arial,sans-serif" font-size="27" font-weight="bold" fill="#000">22</text>
+<text x="0" y="0" text-anchor="middle" transform="translate(418.0 112.5) scale(0.87 1)" font-family="Helvetica,Arial,sans-serif" font-size="27" font-weight="bold" fill="#000">19</text>
+<text x="0" y="0" text-anchor="middle" transform="translate(550.5 94.5) scale(0.87 1)" font-family="Helvetica,Arial,sans-serif" font-size="27" font-weight="bold" fill="#000">21</text>
+<text x="0" y="0" text-anchor="middle" transform="translate(683.5 119.5) scale(0.87 1)" font-family="Helvetica,Arial,sans-serif" font-size="27" font-weight="bold" fill="#000">18</text>
+<text x="0" y="0" text-anchor="middle" transform="translate(816.5 152.5) scale(0.87 1)" font-family="Helvetica,Arial,sans-serif" font-size="27" font-weight="bold" fill="#000">14</text>
+<text x="0" y="0" text-anchor="middle" transform="translate(950.0 171.5) scale(0.87 1)" font-family="Helvetica,Arial,sans-serif" font-size="27" font-weight="bold" fill="#000">12</text>
+<text x="0" y="0" text-anchor="end" transform="translate(160.0 292.6) rotate(-90) scale(0.678 1)" font-family="Helvetica,Arial,sans-serif" font-size="28.5" font-weight="bold" fill="#000">poniedzia&#322;ek</text>
+<text x="0" y="0" text-anchor="end" transform="translate(292.8 296.6) rotate(-90) scale(0.678 1)" font-family="Helvetica,Arial,sans-serif" font-size="28.5" font-weight="bold" fill="#000">wtorek</text>
+<text x="0" y="0" text-anchor="end" transform="translate(428.8 296.6) rotate(-90) scale(0.678 1)" font-family="Helvetica,Arial,sans-serif" font-size="28.5" font-weight="bold" fill="#000">&#347;roda</text>
+<text x="0" y="0" text-anchor="end" transform="translate(560.8 297.6) rotate(-90) scale(0.678 1)" font-family="Helvetica,Arial,sans-serif" font-size="28.5" font-weight="bold" fill="#000">czwartek</text>
+<text x="0" y="0" text-anchor="end" transform="translate(691.0 295.6) rotate(-90) scale(0.678 1)" font-family="Helvetica,Arial,sans-serif" font-size="28.5" font-weight="bold" fill="#000">pi&#261;tek</text>
+<text x="0" y="0" text-anchor="end" transform="translate(827.8 296.6) rotate(-90) scale(0.678 1)" font-family="Helvetica,Arial,sans-serif" font-size="28.5" font-weight="bold" fill="#000">sobota</text>
+<text x="0" y="0" text-anchor="end" transform="translate(958.8 295.6) rotate(-90) scale(0.678 1)" font-family="Helvetica,Arial,sans-serif" font-size="28.5" font-weight="bold" fill="#000">niedziela</text>
 </svg>

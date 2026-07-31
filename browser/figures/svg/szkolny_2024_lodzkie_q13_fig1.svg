@@ -1,53 +1,56 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="730" height="520" viewBox="0 0 730 520">
 <rect x="0" y="0" width="730" height="520" fill="#fff"/>
+<!-- grid from a least-squares fit of all 11+9 scanned rulings: x=102.11+52.066k, y=58.24+51.963j (rms 0.10/0.15px); rulings overhang the outer nodes as in the scan -->
 <g stroke="#8c8c8c" stroke-width="2">
-<line x1="102.0" y1="58.0" x2="102.0" y2="473.5"/>
-<line x1="154.0" y1="58.0" x2="154.0" y2="473.5"/>
-<line x1="206.5" y1="58.0" x2="206.5" y2="473.5"/>
-<line x1="258.5" y1="58.0" x2="258.5" y2="473.5"/>
-<line x1="310.5" y1="58.0" x2="310.5" y2="473.5"/>
-<line x1="362.5" y1="58.0" x2="362.5" y2="473.5"/>
-<line x1="414.5" y1="58.0" x2="414.5" y2="473.5"/>
-<line x1="466.5" y1="58.0" x2="466.5" y2="473.5"/>
-<line x1="518.5" y1="58.0" x2="518.5" y2="473.5"/>
-<line x1="570.5" y1="58.0" x2="570.5" y2="473.5"/>
-<line x1="622.5" y1="58.0" x2="622.5" y2="473.5"/>
-<line x1="102.0" y1="58.0" x2="622.5" y2="58.0"/>
-<line x1="102.0" y1="110.5" x2="622.5" y2="110.5"/>
-<line x1="102.0" y1="162.5" x2="622.5" y2="162.5"/>
-<line x1="102.0" y1="214.5" x2="622.5" y2="214.5"/>
-<line x1="102.0" y1="266.5" x2="622.5" y2="266.5"/>
-<line x1="102.0" y1="318.5" x2="622.5" y2="318.5"/>
-<line x1="102.0" y1="370.5" x2="622.5" y2="370.5"/>
-<line x1="102.0" y1="422.0" x2="622.5" y2="422.0"/>
-<line x1="102.0" y1="473.5" x2="622.5" y2="473.5"/>
+<line x1="102.11" y1="30" x2="102.11" y2="475.5"/>
+<line x1="154.17" y1="30" x2="154.17" y2="475.5"/>
+<line x1="206.24" y1="30" x2="206.24" y2="475.5"/>
+<line x1="258.31" y1="30" x2="258.31" y2="475.5"/>
+<line x1="310.37" y1="30" x2="310.37" y2="475.5"/>
+<line x1="362.44" y1="30" x2="362.44" y2="475.5"/>
+<line x1="414.51" y1="30" x2="414.51" y2="475.5"/>
+<line x1="466.57" y1="30" x2="466.57" y2="475.5"/>
+<line x1="518.64" y1="30" x2="518.64" y2="475.5"/>
+<line x1="570.70" y1="30" x2="570.70" y2="475.5"/>
+<line x1="622.77" y1="30" x2="622.77" y2="475.5"/>
+<line x1="78.5" y1="58.24" x2="630.5" y2="58.24"/>
+<line x1="78.5" y1="110.20" x2="630.5" y2="110.20"/>
+<line x1="78.5" y1="162.17" x2="630.5" y2="162.17"/>
+<line x1="78.5" y1="214.13" x2="630.5" y2="214.13"/>
+<line x1="78.5" y1="266.09" x2="630.5" y2="266.09"/>
+<line x1="78.5" y1="318.06" x2="630.5" y2="318.06"/>
+<line x1="78.5" y1="370.02" x2="630.5" y2="370.02"/>
+<line x1="78.5" y1="421.98" x2="630.5" y2="421.98"/>
+<line x1="78.5" y1="473.95" x2="630.5" y2="473.95"/>
 </g>
-<g stroke="#000" stroke-width="5" fill="none" stroke-linejoin="round">
-<line x1="100" y1="109" x2="159" y2="109"/>
-<path d="M303,108 L476,103 L421,258 L574,372 L367,379 L357,265 L410,165 L305,168 L303,108"/>
+<!-- every vertex sits on a lattice node in the scan (worst free-fit offset 0.14 cell); snapped to the fitted grid -->
+<g stroke="#000" stroke-width="11" fill="none" stroke-linejoin="round" stroke-linecap="round">
+<line x1="102.11" y1="110.20" x2="154.17" y2="110.20"/>
+<path d="M310.37,110.20 L466.57,110.20 L414.51,266.09 L570.70,370.02 L362.44,370.02 L362.44,266.09 L414.51,162.17 L310.37,162.17 Z"/>
 </g>
 <g fill="#000">
-<circle cx="100" cy="109" r="6"/>
-<circle cx="159" cy="109" r="6"/>
-<circle cx="303" cy="108" r="6"/>
-<circle cx="476" cy="103" r="6"/>
-<circle cx="421" cy="258" r="6"/>
-<circle cx="574" cy="372" r="6"/>
-<circle cx="367" cy="379" r="6"/>
-<circle cx="357" cy="265" r="6"/>
-<circle cx="410" cy="165" r="6"/>
-<circle cx="305" cy="168" r="6"/>
+<circle cx="102.11" cy="110.20" r="7"/>
+<circle cx="154.17" cy="110.20" r="7"/>
+<circle cx="310.37" cy="110.20" r="7"/>
+<circle cx="466.57" cy="110.20" r="7"/>
+<circle cx="414.51" cy="266.09" r="7"/>
+<circle cx="570.70" cy="370.02" r="7"/>
+<circle cx="362.44" cy="370.02" r="7"/>
+<circle cx="362.44" cy="266.09" r="7"/>
+<circle cx="414.51" cy="162.17" r="7"/>
+<circle cx="310.37" cy="162.17" r="7"/>
 </g>
-<g font-family="Helvetica,Arial,sans-serif" font-size="26" fill="#000">
-<text x="93" y="78">A</text>
-<text x="152" y="76">B</text>
-<text x="295" y="80">C</text>
-<text x="466" y="80">D</text>
-<text x="453" y="270">E</text>
-<text x="562" y="422">F</text>
-<text x="356" y="422">G</text>
-<text x="318" y="255">H</text>
-<text x="420" y="150">I</text>
-<text x="295" y="210">J</text>
+<!-- size 40 puts MuPDF's cap height at the scan's 27.5px; x/y are the measured ink box left edge and baseline (MuPDF left-anchors) -->
+<g font-family="Helvetica,Arial,sans-serif" font-size="40" fill="#000">
+<text x="91" y="82">A</text>
+<text x="150" y="82">B</text>
+<text x="296" y="84">C</text>
+<text x="466" y="84">D</text>
+<text x="451" y="274">E</text>
+<text x="562" y="428">F</text>
+<text x="356" y="428">G</text>
+<text x="308" y="274">H</text>
+<text x="427" y="159">I</text>
+<text x="296" y="209">J</text>
 </g>
 </svg>
