@@ -37,16 +37,23 @@ h1{font-size:1.4rem;margin-top:0}
   background:#fafafa;border:1px solid #e2e2e2;border-radius:5px;box-shadow:0 2px 8px rgba(0,0,0,.1);
   padding:.7rem .85rem;color:#333;white-space:normal}
 .settings-pop[hidden]{display:none}
-.settings-pop section{flex:1 0 11.5rem}
+.settings-pop section{flex:1 0 11rem} /* Lista zadań; Wydruk (section+section) is wider — see below */
 .settings-pop::before{content:'';position:absolute;top:-5px;right:.55rem;width:8px;height:8px;
   background:#fafafa;border-left:1px solid #e2e2e2;border-top:1px solid #e2e2e2;transform:rotate(45deg)}
-.settings-pop section + section{margin-left:1.2rem;padding-left:1.2rem;border-left:1px solid #ddd}
-.settings-pop .optgroup{margin-bottom:.75rem} /* separate each radio group */
-.settings-pop h4{margin:0 0 .3rem;font-size:.68rem;text-transform:uppercase;letter-spacing:.04em;color:#999}
-.settings-pop label{display:flex;align-items:center;gap:.4rem;padding:.12rem 0;cursor:pointer;color:#333}
+.settings-pop section + section{flex-basis:17.5rem;margin-left:1.2rem;padding-left:1.2rem;border-left:1px solid #ddd} /* Wydruk: wider than Lista */
+.settings-pop .optgroup{margin-bottom:1.25rem} /* group gap: clearly larger than the entry gap (label padding) so groups read as units */
+.settings-pop .optgroup:last-child{margin-bottom:0} /* no trailing gap before the popup padding */
+.settings-pop h4{margin:0 0 .5rem;font-size:.68rem;text-transform:uppercase;letter-spacing:.04em;color:#999}
+.settings-pop label{display:flex;align-items:center;gap:.4rem;padding:.16rem 0;cursor:pointer;color:#333} /* entry gap: small, even rhythm within a group */
 .settings-pop input{width:auto;margin:0}
-.settings-pop .hint{margin:.15rem 0 0 1.4rem;font-size:.7rem;color:#999;line-height:1.3}
-.settings-pop .sublabel{margin:.05rem 0 .25rem;font-size:.75rem;color:#666}
+
+.settings-pop .hint {
+  margin: 0 0 0.25rem 1.2rem;
+  font-size: .7rem;
+  color: #999;
+  line-height: 1.3
+} /* 1.2rem ≈ radio+gap, so hint aligns with the label text */
+.settings-pop .sublabel{margin:.05rem 0 .25rem;font-size:.75rem;color:#666;font-weight:bold}
 /* left column: filters (sticky); right column: questions get the full width */
 .sidebar{flex:0 0 250px;position:sticky;top:2.6rem;align-self:flex-start;
   font-family:system-ui,-apple-system,'Segoe UI',sans-serif;
