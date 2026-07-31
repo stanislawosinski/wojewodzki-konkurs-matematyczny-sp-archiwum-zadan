@@ -560,6 +560,23 @@ loadData().then(data => {
   $('clearSel').onclick = () => { inc.value = ''; writeUrl(false); refilter(); };
   clearFilters.onclick = e => { e.preventDefault(); clearAllFilters(); };
   clearFacets.onclick = e => { e.preventDefault(); clearFacetSelections(); writeUrl(true); refilter(); };
+  // persist every settings-popup control (checkboxes by id, radios by name) in localStorage.
+  // ponytail: one generic pass over #settingsPop inputs, not per-control save/load wiring.
+  const SETTINGS_KEY = 'zadania-settings';
+  const saveSettings = () => {
+    const s = {};
+    for (const i of settingsPop.querySelectorAll('input'))
+      if (i.type === 'radio') { if (i.checked) s[i.name] = i.value; } else s[i.id] = i.checked;
+    try { localStorage.setItem(SETTINGS_KEY, JSON.stringify(s)); } catch {}
+  };
+  (() => { // restore BEFORE the apply* handlers below, so the body classes reflect saved state
+    let s; try { s = JSON.parse(localStorage.getItem(SETTINGS_KEY) || 'null'); } catch {}
+    if (!s) return;
+    for (const i of settingsPop.querySelectorAll('input'))
+      if (i.type === 'radio') { if (i.value === s[i.name]) i.checked = true; }
+      else if (typeof s[i.id] === 'boolean') i.checked = s[i.id];
+  })();
+  settingsPop.addEventListener('change', saveSettings);
   // print page-break mode (radio): one/two questions per page, or none. Only affects print.
   const applyPageMode = () => {
     const mode = document.querySelector('input[name="pageMode"]:checked').value;
