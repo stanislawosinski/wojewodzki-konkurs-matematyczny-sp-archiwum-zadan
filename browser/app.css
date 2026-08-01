@@ -62,6 +62,11 @@ h1{font-size:1.4rem;margin-top:0}
   display:flex;flex-direction:column;gap:1.5em;
   padding-right:1rem}
 .content{flex:1;min-width:0;max-width:820px;margin-inline:auto;padding-left:1.8rem}
+/* sheet title header (id #sheetTitle): click to edit inline; shown/hidden by the "Tytuł arkusza"
+   toggles (hide-title screen, print-hide-title print — see @media print, independent like .qmeta). */
+.sheet-title{cursor:pointer;margin-bottom:1.6rem}
+.sheet-title[contenteditable="true"]{cursor:text;outline:1px dashed #bbb;outline-offset:2px} /* edit-mode affordance */
+.hide-title .sheet-title{display:none}
 button{font:inherit;padding:.4rem .6rem;cursor:pointer}
 select{font:inherit;padding:.35rem}
 .pager{color:#666;font-size:.9rem;margin:0 0 1rem;padding:.5rem .7rem;background:#f6f6f6;border-radius:4px;
@@ -216,7 +221,7 @@ body.brudnopis-off .brudtoggle{display:none} /* global brudnopis wyłączony →
 @media print{
   .sidebar{display:none}        /* 1. hide UI */
   .topbar{display:none}         /* hide the toolbar */
-  h1{display:none}              /* drop the "Wszystkie zadania" title */
+  h1{display:none}              /* drop stray h1s; the .sheet-title header is governed separately below */
   .layout{display:block;padding:0}
   .content{max-width:none;padding-left:0}
   .selectbox{display:none}      /* checkboxes never print */
@@ -232,6 +237,11 @@ body.brudnopis-off .brudtoggle{display:none} /* global brudnopis wyłączony →
   .qmeta .tag.ctx{background:none;color:#bbb} /* override the faint on-screen #aaa/#fbfbfb for print */
   .hide-woj .qmeta .woj,.hide-rok .qmeta .rok,.hide-etap .qmeta .etap,.hide-topics .qmeta .topic{display:inline-block}
   .print-hide-woj .qmeta .woj,.print-hide-rok .qmeta .rok,.print-hide-etap .qmeta .etap,.print-hide-topics .qmeta .topic{display:none}
+  /* sheet title: same independent screen/print toggle as the meta tags; the class rules override the
+     blanket h1{display:none} above. Centered as a worksheet header. */
+  .sheet-title{display:block;text-align:center}
+  .hide-title .sheet-title{display:block}        /* un-hide a screen-hidden title for print */
+  .print-hide-title .sheet-title{display:none}   /* Wydruk "Tytuł arkusza" off → no title in print */
   .reveal>summary{display:none} /* hide the reveal button (opened answers still print) */
   .print-key .reveal{display:none}                    /* key sheet on → keep the question pages clean */
   .print-key #answerkey:not(:empty){display:block;break-before:page} /* the answer key starts on its own sheet after the questions */

@@ -102,7 +102,7 @@ const search = $('search'), inc = $('include'), exc = $('exclude'),
   setsummary = $('setsummary'),
   qlist = $('qlist'), answerkey = $('answerkey'), facetsEl = $('facets'),
   clearFilters = $('clearFilters'), clearFacets = $('clearFacets'), clearSearch = $('clearSearch'),
-  clearSelBar = $('clearSelBar'), printBtn = $('printBtn'),
+  clearSelBar = $('clearSelBar'), printBtn = $('printBtn'), sheetTitle = $('sheetTitle'),
   settingsBtn = $('settingsBtn'), settingsPop = $('settingsPop');
 const pagers = [...document.querySelectorAll('.pager')];
 
@@ -117,6 +117,28 @@ const brudMode = () => document.querySelector('input[name="pageMode"]:checked').
 const brudTitle = (override, auto) => 'Brudnopis dla tego zadania: ' + (
   override === 'half' ? 'pół strony (wymuszone)' : override === 'full' ? 'cała strona (wymuszone)'
   : 'domyślny — ' + (auto === 'half' ? 'pół strony' : 'cała strona'));
+// Sheet title (the .sheet-title header + document.title). titleOverride = a user-typed title
+// (sticky, wins over auto); null = derive it. lastMatched/lastUseInc cache update()'s result so a
+// title edit can refresh without a re-render. See computeTitle / setTitle.
+let titleOverride = null, lastMatched = [], lastUseInc = false;
+const DEFAULT_TITLE = 'Wszystkie zadania';
+const capitalize = s => s ? s[0].toUpperCase() + s.slice(1) : s;
+// most frequent topic leaf across the questions; ties → shortest name; capitalized. null if none tagged.
+function autoTitle(qs) {
+  const freq = new Map();
+  for (const q of qs) for (const t of q.topics || []) freq.set(t, (freq.get(t) || 0) + 1);
+  let best = null, bestN = 0;
+  for (const [t, n] of freq) if (n > bestN || (n === bestN && t.length < best.length)) { best = t; bestN = n; }
+  return best ? capitalize(best) : null;
+}
+// override wins; else with a pasted id list → the dominant topic; else the plain default
+const computeTitle = (matched, useInc) =>
+  titleOverride != null ? titleOverride : useInc ? (autoTitle(matched) || 'Zadania') : DEFAULT_TITLE;
+// reflect the computed title into the header + tab; skipped mid-edit so typing isn't clobbered
+function setTitle() {
+  if (sheetTitle.isContentEditable) return;
+  document.title = sheetTitle.textContent = computeTitle(lastMatched, lastUseInc);
+}
 const selections = {}, EMPTY_SELECTIONS = {}; // facetKey -> Set<value>
 for (const f of FACETS) { selections[f.key] = new Set(); EMPTY_SELECTIONS[f.key] = new Set(); }
 const countSpans = {}; // facetKey -> { value: <span> }
@@ -410,6 +432,7 @@ function update() {
   clearSelBar.hidden = !selectedSet.size; // "Wyczyść zaznaczenie": only with a print selection
   shownCount = matched.length;
   renderSummary();
+  lastMatched = matched; lastUseInc = useInc; setTitle();
 }
 
 // summary: "<n> zadanie/zadania/zadań [(<k> zaznaczone/zaznaczonych)]". shownCount is cached so
@@ -444,10 +467,22 @@ function serialize() {
   for (const [h, v] of scratchOverrides) (v === 'half' ? bh : bf).push(h);
   if (bh.length) o.bh = bh;
   if (bf.length) o.bf = bf;
+  if (titleOverride != null) o.title = [titleOverride]; // only the edited title; auto/default aren't stored
   return o;
 }
 
+// Keep the per-question brudnopis overrides in step with the "Pokaż tylko id" worksheet: when an
+// explicit id list is active, an override for a question no longer on the list is dropped, so bh/bf
+// never outlive the sheet (Map stays == hash). No list → overrides apply globally, nothing to prune.
+function pruneScratchToInclude() {
+  const incIds = idList(inc.value);
+  if (!incIds.length) return;
+  const keep = new Set(incIds);
+  for (const h of [...scratchOverrides.keys()]) if (!keep.has(h)) scratchOverrides.delete(h);
+}
+
 function writeUrl(push) {
+  pruneScratchToInclude();
   const h = Facets.encodeHash(serialize());
   if (h === location.hash.slice(1)) return; // unchanged: don't spawn a dup history entry
   history[push ? 'pushState' : 'replaceState'](null, '', h ? '#' + h : location.pathname + location.search);
@@ -468,6 +503,7 @@ function applyState() {
   scratchOverrides.clear();
   for (const h of o.bh || []) if (byHash[h]) scratchOverrides.set(h, 'half');
   for (const h of o.bf || []) if (byHash[h]) scratchOverrides.set(h, 'full');
+  titleOverride = o.title && o.title[0] != null ? o.title[0] : null; // update() below reflects it via setTitle
   page = 1; update();
 }
 
@@ -646,8 +682,8 @@ loadData().then(data => {
   applyKratka();
   // meta type toggles: each checkbox hides its tag type via a body class (default checked = shown).
   // screen uses hide-*; print uses print-* (independent — see app.css @media print), same generic wiring.
-  for (const [id, cls] of [['metaWoj', 'hide-woj'], ['metaRok', 'hide-rok'], ['metaEtap', 'hide-etap'], ['metaTopics', 'hide-topics'],
-    ['printWoj', 'print-hide-woj'], ['printRok', 'print-hide-rok'], ['printEtap', 'print-hide-etap'], ['printTopics', 'print-hide-topics']]) {
+  for (const [id, cls] of [['metaTitle', 'hide-title'], ['metaWoj', 'hide-woj'], ['metaRok', 'hide-rok'], ['metaEtap', 'hide-etap'], ['metaTopics', 'hide-topics'],
+    ['printTitle', 'print-hide-title'], ['printWoj', 'print-hide-woj'], ['printRok', 'print-hide-rok'], ['printEtap', 'print-hide-etap'], ['printTopics', 'print-hide-topics']]) {
     const cb = $(id), apply = () => document.body.classList.toggle(cls, !cb.checked);
     cb.onchange = apply; apply();
   }
@@ -669,6 +705,26 @@ loadData().then(data => {
   setsummary.addEventListener('click', e => {
     const sc = e.target.closest('.selcopy');
     if (sc) { copyText(selectedHashes().join(', ')); flashCopied(sc); }
+  });
+
+  // Sheet title: click to edit inline (contentEditable). Enter/blur commits, Escape cancels.
+  // An edited (non-empty) title becomes the sticky override; clearing it reverts to auto.
+  sheetTitle.addEventListener('click', () => {
+    if (sheetTitle.isContentEditable) return;
+    sheetTitle.contentEditable = 'true';
+    sheetTitle.focus();
+    getSelection().selectAllChildren(sheetTitle);
+  });
+  sheetTitle.addEventListener('keydown', e => {
+    if (e.key === 'Enter') { e.preventDefault(); sheetTitle.blur(); }
+    else if (e.key === 'Escape') { e.preventDefault(); sheetTitle.dataset.cancel = '1'; sheetTitle.blur(); }
+  });
+  sheetTitle.addEventListener('blur', () => {
+    sheetTitle.contentEditable = 'false';
+    if (sheetTitle.dataset.cancel) { delete sheetTitle.dataset.cancel; setTitle(); return; } // discard edits
+    titleOverride = sheetTitle.textContent.trim() || null; // textContent → HTML stripped; empty → back to auto
+    writeUrl(false);
+    setTitle(); // reflect the committed/auto title (no re-render needed — title depends only on lastMatched)
   });
 
   applyState(); // restore filters from the URL hash (empty hash => same as a bare update())

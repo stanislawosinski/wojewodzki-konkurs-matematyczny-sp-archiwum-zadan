@@ -28,6 +28,7 @@
 <div class="settings-pop" id="settingsPop" hidden>
 <section><h4>Lista zadań</h4>
 <p class="sublabel">Pokaż dodatkowo:</p>
+<label><input type="checkbox" id="metaTitle"> Tytuł arkusza</label>
 <label><input type="checkbox" id="metaWoj" checked> Województwo</label>
 <label><input type="checkbox" id="metaRok" checked> Rok</label>
 <label><input type="checkbox" id="metaEtap" checked> Etap</label>
@@ -36,6 +37,7 @@
 <section><h4>Wydruk</h4>
 <div class="optgroup">
 <p class="sublabel">Pokaż dodatkowo:</p>
+<label><input type="checkbox" id="printTitle"> Tytuł arkusza</label>
 <label><input type="checkbox" id="printWoj" checked> Województwo</label>
 <label><input type="checkbox" id="printRok" checked> Rok</label>
 <label><input type="checkbox" id="printEtap" checked> Etap</label>
@@ -72,7 +74,7 @@
 <aside class="sidebar">
 <div class="idbox">
 <label>Pokaż tylko id:
-<textarea id="include" rows="2" placeholder="hash, hash, …"></textarea>
+<textarea id="include" rows="2" placeholder="hash, hash, …" autofocus></textarea>
 </label>
 <div class="selrow">
 <button type="button" id="useSel" title="Wstaw id zaznaczonych zadań">Zaznaczone ↑</button>
@@ -90,6 +92,7 @@
 <label>Pomiń id: <input type="text" id="exclude" placeholder="hash, hash, …"></label>
 </aside>
 <main class="content">
+<h1 class="sheet-title" id="sheetTitle" title="Kliknij, aby zmienić tytuł" tabindex="0">Wszystkie zadania</h1>
 <div id="qlist"></div>
 <section id="answerkey"></section>
 <nav class="pager" hidden>
