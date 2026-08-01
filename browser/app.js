@@ -111,7 +111,12 @@ let page = 1;
 const selectedSet = new Set(); // hashes; lives outside the DOM — articles are destroyed on re-render
 const scratchOverrides = new Map(); // hash -> 'half' | 'full'; per-question brudnopis override (default not stored)
 const brudGlyph = s => (s === 'half' ? '½' : s === 'full' ? '1' : '–');
-const brudTitle = s => 'Brudnopis dla tego zadania: ' + (s === 'half' ? 'pół strony' : s === 'full' ? 'cała strona' : 'domyślny');
+// what the global brudnopis mode gives one question: short-closed (phalf) → half, else full; half/full force it
+const autoBrud = (phalf, mode) => (mode === 'half' ? 'half' : mode === 'full' ? 'full' : phalf ? 'half' : 'full');
+const brudMode = () => document.querySelector('input[name="pageMode"]:checked').value;
+const brudTitle = (override, auto) => 'Brudnopis dla tego zadania: ' + (
+  override === 'half' ? 'pół strony (wymuszone)' : override === 'full' ? 'cała strona (wymuszone)'
+  : 'domyślny — ' + (auto === 'half' ? 'pół strony' : 'cała strona'));
 const selections = {}, EMPTY_SELECTIONS = {}; // facetKey -> Set<value>
 for (const f of FACETS) { selections[f.key] = new Set(); EMPTY_SELECTIONS[f.key] = new Set(); }
 const countSpans = {}; // facetKey -> { value: <span> }
@@ -276,8 +281,10 @@ function renderQuestion(q, seq) {
       + `<button type="button" class="reorder up" title="Przesuń w górę" aria-label="w górę"><span>▾</span></button>`
       + `<button type="button" class="reorder down" title="Przesuń w dół" aria-label="w dół">▾</button>`;
   parts.push(`<div class="gutter">${reorder}<label class="selectbox" title="zaznacz do wydruku"><input type="checkbox"${selectedSet.has(q.hash) ? ' checked' : ''}></label></div>`);
-  // per-question brudnopis override (–/½/1), left of the eye; hidden in print & when global brudnopis is off
-  parts.push(`<button type="button" class="brudtoggle${bo ? ' on' : ''}" title="${brudTitle(bo)}" aria-label="brudnopis zadania" data-brud="${bo}">${brudGlyph(bo)}</button>`);
+  // per-question brudnopis override, left of the eye; hidden in print & when global brudnopis is off.
+  // grey glyph = the size "auto" resolves to under the current global mode; green (.on) = a pinned override.
+  const autoBo = autoBrud(half, brudMode());
+  parts.push(`<button type="button" class="brudtoggle${bo ? ' on' : ''}" title="${brudTitle(bo, autoBo)}" aria-label="brudnopis zadania" data-brud="${bo}">${brudGlyph(bo || autoBo)}</button>`);
   if ((q.figsvg || []).length) parts.push( // only for questions whose figures have a vector redraw
     `<button type="button" class="svgtoggle" title="Pokaż rysunek wektorowy (SVG)" aria-label="wersja wektorowa">△</button>`);
   // meta tags inline in the header, right-aligned; each type toggled from the settings popup
@@ -552,12 +559,15 @@ loadData().then(data => {
     }
     const brudBtn = e.target.closest('.brudtoggle'); // –/½/1: per-question brudnopis override (print reserved space)
     if (brudBtn) {
-      const s = { '': 'half', half: 'full', full: '' }[brudBtn.dataset.brud || ''];
-      brudBtn.dataset.brud = s;
-      brudBtn.textContent = brudGlyph(s);
-      brudBtn.title = brudTitle(s);
-      brudBtn.classList.toggle('on', !!s);
       const q = brudBtn.closest('.q'), h = q.dataset.hash;
+      const auto = autoBrud(q.classList.contains('phalf'), brudMode());
+      // 2-state toggle: default (grey = auto) ↔ the only override that changes the size (the value ≠ auto).
+      // Pinning the value equal to auto is dropped — it wouldn't change the print, just grey→green.
+      const s = brudBtn.dataset.brud ? '' : (auto === 'half' ? 'full' : 'half');
+      brudBtn.dataset.brud = s;
+      brudBtn.textContent = brudGlyph(s || auto); // grey shows the auto size, green the pinned size
+      brudBtn.title = brudTitle(s, auto);
+      brudBtn.classList.toggle('on', !!s);
       q.classList.toggle('brud-half', s === 'half');
       q.classList.toggle('brud-full', s === 'full');
       if (s) scratchOverrides.set(h, s); else scratchOverrides.delete(h); // scratchOverrides is the truth; render + hash read it
@@ -613,6 +623,13 @@ loadData().then(data => {
     document.body.classList.toggle('brudnopis-full', mode === 'full');
     document.body.classList.toggle('brudnopis-off', mode === 'off'); // hides the per-question override buttons
     // 'off' → no brudnopis-auto/half/full class → continuous print
+    // default (unpinned) buttons show what "auto" now resolves to; pinned ones keep their own size
+    for (const btn of qlist.querySelectorAll('.brudtoggle')) {
+      if (btn.dataset.brud) continue;
+      const auto = autoBrud(btn.closest('.q').classList.contains('phalf'), mode);
+      btn.textContent = brudGlyph(auto);
+      btn.title = brudTitle('', auto);
+    }
   };
   for (const r of document.querySelectorAll('input[name="pageMode"]')) r.onchange = applyPageMode;
   applyPageMode();
