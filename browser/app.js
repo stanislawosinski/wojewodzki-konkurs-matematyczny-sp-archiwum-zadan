@@ -645,8 +645,10 @@ loadData().then(data => {
   };
   for (const r of document.querySelectorAll('input[name="kratka"]')) r.onchange = applyKratka;
   applyKratka();
-  // meta type toggles: each checkbox hides its tag type via a body class (default checked = shown)
-  for (const [id, cls] of [['metaWoj', 'hide-woj'], ['metaRok', 'hide-rok'], ['metaEtap', 'hide-etap'], ['metaTopics', 'hide-topics']]) {
+  // meta type toggles: each checkbox hides its tag type via a body class (default checked = shown).
+  // screen uses hide-*; print uses print-* (independent — see app.css @media print), same generic wiring.
+  for (const [id, cls] of [['metaWoj', 'hide-woj'], ['metaRok', 'hide-rok'], ['metaEtap', 'hide-etap'], ['metaTopics', 'hide-topics'],
+    ['printWoj', 'print-hide-woj'], ['printRok', 'print-hide-rok'], ['printEtap', 'print-hide-etap'], ['printTopics', 'print-hide-topics']]) {
     const cb = $(id), apply = () => document.body.classList.toggle(cls, !cb.checked);
     cb.onchange = apply; apply();
   }

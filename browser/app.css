@@ -223,7 +223,13 @@ body.brudnopis-off .brudtoggle{display:none} /* global brudnopis wyłączony →
   .brudtoggle{display:none}     /* the brudnopis override control never prints (its effect does) */
   .pager{display:none}
   .q{break-inside:avoid;border-bottom:none}  /* 2. keep each question on one page; no divider line */
-  .qmeta{display:none}          /* 3. hide source + tags when printing */
+  /* 3. meta tags in print are governed by the Wydruk "Pokaż dodatkowo" toggles (print-hide-*),
+     independently of the on-screen ones (hide-*): un-hide any screen-hidden type (same specificity,
+     later source wins), then apply the print hides. Rendered as plain small text, not grey pills. */
+  .qmeta .tag{padding:0;background:none;color:#555}
+  .qmeta .tag.ctx{background:none;color:#555} /* override the faint on-screen #aaa/#fbfbfb for print */
+  .hide-woj .qmeta .woj,.hide-rok .qmeta .rok,.hide-etap .qmeta .etap,.hide-topics .qmeta .topic{display:inline-block}
+  .print-hide-woj .qmeta .woj,.print-hide-rok .qmeta .rok,.print-hide-etap .qmeta .etap,.print-hide-topics .qmeta .topic{display:none}
   .reveal>summary{display:none} /* hide the reveal button (opened answers still print) */
   .print-key .reveal{display:none}                    /* key sheet on → keep the question pages clean */
   .print-key #answerkey:not(:empty){display:block;break-before:page} /* the answer key starts on its own sheet after the questions */
