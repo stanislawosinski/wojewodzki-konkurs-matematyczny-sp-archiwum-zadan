@@ -87,8 +87,10 @@ select{font:inherit;padding:.35rem}
 .q{position:relative;margin:1.6rem 0;padding-bottom:1rem;border-bottom:1px solid #eee}
 .q:first-child{margin-top:0} /* align the first question's top with the sidebar's top */
 .qhead{display:flex;gap:.8rem;align-items:baseline;flex-wrap:wrap}
-.qnum{font-weight:bold;cursor:pointer;user-select:none} /* click to flip the print checkbox */ .pts{color:#a33;font-size:.85rem}
+.qnum{font-weight:bold;cursor:pointer;user-select:none} /* click to flip the print checkbox */
+.qid{color:#aaa} /* (points, hash) — same font/size as "Zadanie N.", normal weight, light grey */
 .hash{color:#aaa;font-size:.72rem;font-family:monospace;cursor:pointer;user-select:none}
+.qid .hash{font:inherit;color:inherit} /* the id link matches the surrounding (points, hash) text, not the mono answer-key style */
 /* per-question meta tags, inline in the header and right-aligned: woj, rok, etap | topics; toggled by "Meta" */
 .qmeta{margin-left:auto;display:flex;flex-wrap:wrap;gap:.3rem;align-items:baseline;justify-content:flex-end}
 .qmeta .tag{font-size:.68rem;color:#555;background:#f4f4f4;border-radius:3px;padding:.05rem .4rem;
@@ -226,8 +228,8 @@ body.brudnopis-off .brudtoggle{display:none} /* global brudnopis wyłączony →
   /* 3. meta tags in print are governed by the Wydruk "Pokaż dodatkowo" toggles (print-hide-*),
      independently of the on-screen ones (hide-*): un-hide any screen-hidden type (same specificity,
      later source wins), then apply the print hides. Rendered as plain small text, not grey pills. */
-  .qmeta .tag{padding:0;background:none;color:#555}
-  .qmeta .tag.ctx{background:none;color:#555} /* override the faint on-screen #aaa/#fbfbfb for print */
+  .qmeta .tag{padding:0;background:none;color:#bbb}
+  .qmeta .tag.ctx{background:none;color:#bbb} /* override the faint on-screen #aaa/#fbfbfb for print */
   .hide-woj .qmeta .woj,.hide-rok .qmeta .rok,.hide-etap .qmeta .etap,.hide-topics .qmeta .topic{display:inline-block}
   .print-hide-woj .qmeta .woj,.print-hide-rok .qmeta .rok,.print-hide-etap .qmeta .etap,.print-hide-topics .qmeta .topic{display:none}
   .reveal>summary{display:none} /* hide the reveal button (opened answers still print) */

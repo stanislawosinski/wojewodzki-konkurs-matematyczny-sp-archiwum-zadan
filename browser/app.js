@@ -296,8 +296,7 @@ function renderQuestion(q, seq) {
   ].filter(Boolean).join('');
   parts.push('<div class="qbody">'); // wraps the content so the print brudnopis .scratch below can flex-fill the rest of the page
   parts.push(`<div class="qhead"><span class="qnum">Zadanie ${seq ?? q.number}.</span>`
-    + `<span class="pts">${q.points}p</span>`
-    + `<span class="hash" title="kliknij, aby skopiować id">(${q.hash})</span>`
+    + `<span class="qid">(${q.points}p, <span class="hash" title="kliknij, aby skopiować id">${q.hash}</span>)</span>`
     + `<span class="qmeta">${metaHtml}</span></div>`);
   parts.push(`<div class="prompt">${q.prompt_html}</div>`);
   const hasSvg = new Set(q.figsvg || []);
