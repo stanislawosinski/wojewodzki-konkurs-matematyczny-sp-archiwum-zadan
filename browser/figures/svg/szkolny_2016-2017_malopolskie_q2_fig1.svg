@@ -5,6 +5,10 @@
   <!-- the source bitmap draws its angle marks as ELLIPTIC arcs centred on the
        vertex (axis ratio ~1.16 on all three, rms fit residual <1.1px); a
        vertex-centred circle is not what is drawn. See notes in the arcs below. -->
+  <!-- ONLY TWO wedges are shaded, and that is what the scan shows: measured
+       interior grey is 236-238 at A and C but 254-255 (paper white) inside the
+       134 deg wedge at B, which the scan draws as a bare arc. The third fill is
+       not missing; do not add one. -->
   <path d="M 76.40 273.10 L 124.55 203.63 A 94.6 80.7 0 0 1 171.00 273.10 Z" fill="#ededed"/>
   <path d="M 217.10 70.10 L 176.45 128.75 A 79.3 68.3 0 0 0 284.21 106.49 Z" fill="#ededed"/>
 
@@ -19,12 +23,12 @@
   <path d="M 76.4 273.1 L 217.1 70.1 L 591.5 273.1" fill="none" stroke="#555" stroke-width="4.5" stroke-linejoin="miter"/>
 
   <!-- labels -->
-  <g font-family="Helvetica,Arial,sans-serif" font-weight="bold" font-size="25" fill="#4a4a4a">
-    <text x="215.5" y="52.5" text-anchor="middle">C</text>
-    <text x="75.0" y="313.5" text-anchor="middle">A</text>
-    <text x="595.5" y="313.5" text-anchor="middle">B</text>
-    <text x="225.5" y="118.5" text-anchor="middle">?</text>
-    <text x="115.5" y="253.5">34&#176;</text>
-    <text x="584.0" y="243.5">134&#176;</text>
+  <g fill="#4a4a4a">
+    <text x="216.50" y="53.50" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="bold" font-size="26">C</text>
+    <text x="75.50" y="314.50" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="bold" font-size="26">A</text>
+    <text x="595.50" y="314.50" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="bold" font-size="26">B</text>
+    <text x="226.00" y="119.50" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-weight="bold" font-size="26">?</text>
+    <text x="116.50" y="253.50" font-family="Helvetica,Arial,sans-serif" font-weight="bold" font-size="26">34&#176;</text>
+    <text x="585.50" y="243.50" font-family="Helvetica,Arial,sans-serif" font-weight="bold" font-size="26">134&#176;</text>
   </g>
 </svg>

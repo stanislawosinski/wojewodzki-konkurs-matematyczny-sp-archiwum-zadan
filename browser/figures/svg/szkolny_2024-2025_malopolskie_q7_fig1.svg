@@ -1,23 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="720" height="500" viewBox="0 0 720 500">
 <rect width="720" height="500" fill="#fff"/>
 <path d="M 220 231 L 362 315 L 439 270 L 296 186 Z" fill="#e3e3e3" stroke="none"/>
-<path d="M 133.5 184 L 362 315 L 592 184.5 L 362 51.5 Z" fill="none" stroke="#000" stroke-width="2"/>
-<path d="M 67 316.5 L 297 449.5 L 526 317.5 L 296 186 Z" fill="none" stroke="#000" stroke-width="2"/>
+<!-- stroke: measured off the scan, not black. Grey 124 = #7c7c7c from two independent
+     fits (box*gaussian profile fit over 349 perpendicular profiles -> 123.7; darkest
+     core at the 8 rhombus vertices, where the two edges overlap and the ink saturates
+     -> median 123). Geometric width 2.26px from the same fit, so 2.3 here: that keeps
+     the ink mass W*(255-c) at 301 against the scan's measured 296. -->
+<path d="M 133.5 184 L 362 315 L 592 184.5 L 362 51.5 Z" fill="none" stroke="#7c7c7c" stroke-width="2.3"/>
+<path d="M 67 316.5 L 297 449.5 L 526 317.5 L 296 186 Z" fill="none" stroke="#7c7c7c" stroke-width="2.3"/>
 <!-- label x/y are solved so the rendered glyph ink centroid lands on the scan's
      ink centroid for that label; they are not the scan's baseline origins. -->
-<g font-family="Times New Roman,serif" font-size="32" font-style="italic" fill="#000">
-<text x="354.8" y="40.9">H</text>
-<text x="604" y="192.2">G</text>
-<text x="104.8" y="194.8">E</text>
-<text x="287.2" y="176.5">D</text>
-<text x="212.3" y="221.4">J</text>
-<text x="435.6" y="256">K</text>
-<text x="360.9" y="300.5">F</text>
-<text x="39.7" y="330.1">A</text>
-<text x="535.4" y="326.7">C</text>
-<text x="288.8" y="477.1">B</text>
-<text x="472.4" y="103.9">3x + 2</text>
-<text x="226.3" y="299.4">7 - x</text>
-<text x="385.5" y="326.6">x + 1</text>
+<!-- font-family and font-style sit on every <text>: MuPDF does not inherit either from
+     the <g> (font-size and fill it does), so grouping them rendered the whole scan's
+     italic lettering as upright Times-Roman. -->
+<g font-size="32" fill="#000">
+<text font-family="Times New Roman,serif" font-style="italic" x="354.8" y="40.9">H</text>
+<text font-family="Times New Roman,serif" font-style="italic" x="604" y="192.2">G</text>
+<text font-family="Times New Roman,serif" font-style="italic" x="104.8" y="194.8">E</text>
+<text font-family="Times New Roman,serif" font-style="italic" x="287.2" y="176.5">D</text>
+<text font-family="Times New Roman,serif" font-style="italic" x="212.3" y="221.4">J</text>
+<text font-family="Times New Roman,serif" font-style="italic" x="435.6" y="256">K</text>
+<text font-family="Times New Roman,serif" font-style="italic" x="360.9" y="300.5">F</text>
+<text font-family="Times New Roman,serif" font-style="italic" x="39.7" y="330.1">A</text>
+<text font-family="Times New Roman,serif" font-style="italic" x="535.4" y="326.7">C</text>
+<text font-family="Times New Roman,serif" font-style="italic" x="288.8" y="477.1">B</text>
+<text font-family="Times New Roman,serif" font-style="italic" x="472.4" y="103.9">3x + 2</text>
+<text font-family="Times New Roman,serif" font-style="italic" x="226.3" y="299.4">7 - x</text>
+<text font-family="Times New Roman,serif" font-style="italic" x="385.5" y="326.6">x + 1</text>
 </g>
 </svg>
