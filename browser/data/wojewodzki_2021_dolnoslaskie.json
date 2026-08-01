@@ -40,6 +40,7 @@
       "points": 4,
       "topics": [
         "graniastosłupy",
+        "liczba krawędzi, ścian i wierzchołków",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Średnia arytmetyczna długości wszystkich krawędzi pewnego graniastosłupa prawidłowego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>-kątnego (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>≥</mo><mn>3</mn></mrow></math>) jest równa długości krawędzi podstawy tej bryły. Uzasadnij, że wszystkie jej ściany boczne są kwadratami.</p>",
@@ -62,7 +63,9 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "wzory skróconego mnożenia"
+        "wzory skróconego mnożenia",
+        "wyrażenia algebraiczne",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Dane są wyrażenia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>K</mi><mo>=</mo><mfrac><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow><msup><mrow><mo>(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mo>)</mo></mrow><mn>2</mn></msup></mfrac></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>M</mi><mo>=</mo><mfrac><msup><mi>a</mi><mn>4</mn></msup><msup><mrow><mo>(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mo>)</mo></mrow><mn>2</mn></msup></mfrac></mrow></math>. Dla pewnej liczby rzeczywistej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>8</mn></mfrac></math>. Ile jest równa wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi></math> dla tej samej liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>? Odpowiedź uzasadnij, zapisując odpowiednie obliczenia.</p>",
       "choices": [],
@@ -108,7 +111,7 @@
       "type": "open",
       "points": 6,
       "topics": [
-        "nierówności",
+        "wyrażenia algebraiczne",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Dla liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi></math> takich, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0</mn><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mi>y</mi><mo>&lt;</mo><mi>z</mi></mrow></math> określamy wyrażenia:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>p</mi><mo>=</mo><mfrac><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow><mn>2</mn></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>q</mi><mo>=</mo><mfrac><mrow><mi>x</mi><mo>+</mo><mi>z</mi></mrow><mn>2</mn></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>r</mi><mo>=</mo><mfrac><mrow><mi>y</mi><mo>+</mo><mi>z</mi></mrow><mn>2</mn></mfrac></mrow></math>.</p><p>Uzasadnij, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mfrac><mrow><mi>p</mi><mo>+</mo><mi>q</mi></mrow><mn>2</mn></mfrac><mo>−</mo><mi>r</mi><mo>)</mo><mo>(</mo><mfrac><mrow><mi>q</mi><mo>+</mo><mi>r</mi></mrow><mn>2</mn></mfrac><mo>−</mo><mi>p</mi><mo>)</mo><mo>&lt;</mo><mn>0</mn></mrow></math>.</p>",
@@ -131,8 +134,9 @@
       "type": "open",
       "points": 6,
       "topics": [
-        "trójkąty",
+        "wielokąty",
         "czworokąty",
+        "trójkąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>Dwunastokąt foremny podzielono tak, jak na rysunku, na 12 jednakowych rombów ‒ każdy o polu równym 1 ‒ i na 12 jednakowych trójkątów. Oblicz pole tego dwunastokąta.</p>",

@@ -44,7 +44,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Pierwszego dnia wycieczki Oliwia wydała 40% kieszonkowego. Drugiego dnia wydała 50% pozostałej kwoty. Ile procent kieszonkowego pozostało Oliwii?</p>",
       "choices": [
@@ -98,7 +98,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "stężenie procentowe / mieszaniny"
       ],
       "prompt_html": "<p>Ile soli trzeba wsypać do 1,8 kg wody, aby otrzymać roztwór dziesięcioprocentowy?</p>",
       "choices": [
@@ -155,7 +155,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Iloraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mo>−</mo><mn>50</mn><mo>)</mo></mrow><mn>30</mn></msup><mo>:</mo><msup><mn>25</mn><mn>30</mn></msup></math> jest równy:</p>",
       "choices": [
@@ -209,8 +209,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "reszta z dzielenia",
-        "zagadki logiczne"
+        "kalendarz i czas",
+        "reszta z dzielenia"
       ],
       "prompt_html": "<p>W marcu pewnego roku było 5 poniedziałków. Które dwa dni tygodnia na pewno nie mogły w tym miesiącu wystąpić 5 razy?</p>",
       "choices": [
@@ -237,7 +237,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "działania na pierwiastkach",
         "szacowanie (zamiast obliczania)"
       ],
       "prompt_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msqrt><mn>4</mn></msqrt><mo>+</mo><msqrt><mn>9</mn></msqrt><mo>+</mo><msqrt><mrow><mn>4</mn><mo>+</mo><mn>9</mn></mrow></msqrt></math> spełnia warunek:</p>",
@@ -265,7 +265,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "ułamki"
+        "ułamki okresowe / rozwinięcia dziesiętne"
       ],
       "prompt_html": "<p>Zaokrąglenie do części setnych rozwinięcia dziesiętnego ułamka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>25</mn><mn>33</mn></mfrac></math> wynosi:</p>",
       "choices": [
@@ -292,7 +292,9 @@
       "type": "open",
       "points": 10,
       "topics": [
-        "inne"
+        "geometria",
+        "ułamki",
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>Udziel odpowiedzi:</p><p>a) Czy wśród liczb dwucyfrowych jest więcej liczb parzystych czy nieparzystych?</p><p>b) Ile to jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>19</mn><mo>−</mo><mfrac><mn>1</mn><mn>19</mn></mfrac></math>?</p><p>c) Dodano dwie potęgi liczby 10 i otrzymano 1100. Jakie potęgi dodano?</p><p>d) Jeden z kątów trójkąta równoramiennego ma miarę 100°. Jaką miarę mają pozostałe kąty tego trójkąta?</p><p>e) Które pole jest większe: 50 mm² czy 5 cm²?</p><p>f) Ile stopni ma kąt między bokiem a przekątną kwadratu?</p><p>g) Kilogram bananów kosztuje 3,20 zł. Ile kosztuje 3,5 kg bananów?</p><p>h) Jeden bok rombu ma 13 cm. Jaką długość mają w sumie trzy pozostałe boki tego rombu?</p><p>i) Jakie liczby spełniają warunek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>x</mi><mo>−</mo><mn>12</mn><mo>|</mo><mo>=</mo><mn>15</mn></math>?</p><p>j) Czy środek okręgu należy do okręgu?</p>",
       "choices": [],
@@ -314,7 +316,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "wyłączanie jednomianu przed nawias"
+        "wyrażenia algebraiczne",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mo>+</mo><mn>3</mn><mi>b</mi></mrow><mrow><mn>2</mn><mi>c</mi></mrow></mfrac></math> dla pewnych liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>,</mo><mi>b</mi><mo>,</mo><mi>c</mi></math> wynosi 10. Oblicz dla tych samych liczb wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mi>a</mi><mo>+</mo><mn>6</mn><mi>b</mi></mrow><mi>c</mi></mfrac></math>.</p><p>Przedstaw swoje rozwiązanie i zapisz odpowiedź.</p>",
       "choices": [],
@@ -358,8 +361,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "trójkąty",
-        "potęgi i pierwiastki"
+        "trójkąty"
       ],
       "prompt_html": "<p>Sprawdź, czy trójkąt o bokach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>10</mn></msqrt></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn></math> cm jest prostokątny.</p><p>Przedstaw swoje rozwiązanie i zapisz odpowiedź.</p>",
       "choices": [],

@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty",
+        "podobieństwo i skala",
         "pole i obwód"
       ],
       "prompt_html": "<p>Trójkąt prostokątny o przyprostokątnych długości 14 cm i 21 cm rysujemy w skali 1 : 7. Jak zmieni się pole tego trójkąta?</p>",
@@ -57,7 +57,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "ułamki"
       ],
       "prompt_html": "<p>Z którego równania możemy obliczyć liczbę odwrotną do liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mfrac><mrow><mo>−</mo><mn>2</mn></mrow><mn>3</mn></mfrac><mo>)</mo></math>?</p>",
       "choices": [
@@ -96,7 +97,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "wartość bezwzględna"
       ],
       "prompt_html": "<p>Wartością bezwzględną trzeciej potęgi liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>−</mo><mn>20</mn><mo>)</mo><mo>:</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo><mo>·</mo><mo>(</mo><mo>−</mo><mn>3</mn><mo>)</mo><mo>+</mo><mn>29</mn></math> jest liczba:</p>",
       "choices": [
@@ -135,7 +136,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "prędkość / droga / czas"
+        "prędkość / droga / czas",
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Pociąg jadący z prędkością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mfrac><mtext>km</mtext><mtext>min</mtext></mfrac></math> w ciągu godziny pokona odległość:</p>",
       "choices": [
@@ -174,7 +176,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "procenty",
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Do sklepu przewożono z fermy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> jajek. Podczas transportu stłukło się 15% jajek. Które z wyrażeń opisuje, ile jajek dowieziono do sklepu w stanie nienaruszonym?</p>",
       "choices": [
@@ -214,7 +217,7 @@
       "points": 2,
       "topics": [
         "podzielność",
-        "potęgi i pierwiastki"
+        "ostatnia cyfra / cykliczność potęg"
       ],
       "prompt_html": "<p>Liczby całkowitej nie przedstawia ułamek:</p>",
       "choices": [
@@ -253,8 +256,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "graniastosłupy",
-        "sześciokąty foremne"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Suma długości wszystkich krawędzi graniastosłupa prawidłowego sześciokątnego jest równa 90 cm, a długość krawędzi podstawy wynosi 4 cm. Długość krawędzi bocznej jest równa:</p>",
       "choices": [
@@ -332,8 +334,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "zliczanie / metody zliczania",
-        "kombinatoryka"
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Dany jest prostokąt o wymiarach 3 x 2.</p><p>Z lewego górnego rogu należy przejść do prawego dolnego po liniach kratki, ale poruszać się można tylko w prawo lub w dół. Ile jest możliwych takich dróg?</p>",
       "choices": [
@@ -374,8 +375,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "podzielność",
-        "liczby rzymskie"
+        "liczby rzymskie",
+        "podzielność"
       ],
       "prompt_html": "<p>Liczba doskonała to taka liczba naturalna, która jest równa sumie wszystkich swoich podzielników, mniejszych od tej liczby, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>=</mo><mn>1</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>3</mn></math> (liczby 1, 2 i 3 to dzielniki liczby 6 mniejsze od 6). Która z podanych liczb jest liczbą doskonałą?</p>",
       "choices": [
@@ -483,7 +484,6 @@
       "points": 3,
       "topics": [
         "czworokąty",
-        "układy równań",
         "pole i obwód"
       ],
       "prompt_html": "<p>Pole rombu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> jest równe 24 cm². Boki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> przedłużono o 2 cm i otrzymano równoległobok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AEFD</mi></math> o polu równym 32 cm². O ile centymetrów mniejszy jest obwód równoległoboku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BEFC</mi></math> od obwodu rombu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>?</p>",
@@ -554,8 +554,10 @@
       "type": "open",
       "points": 4,
       "topics": [
+        "liczby pierwsze",
         "podzielność",
-        "dowodzenie / dowody"
+        "dowodzenie / dowody",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Liczbę 123 można zapisać w postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>123</mn><mo>=</mo><mn>111</mn><mo>+</mo><mn>11</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>100</mn><mo>·</mo><mn>1</mn><mo>+</mo><mn>10</mn><mo>·</mo><mn>1</mn><mo>+</mo><mn>1</mn><mo>+</mo><mn>10</mn><mo>·</mo><mn>1</mn><mo>+</mo><mn>1</mn><mo>+</mo><mn>1</mn></math>.</p><ul><li>a) Wypisz wszystkie liczby naturalne trzycyfrowe dające się zapisać przy pomocy sumy liczby trzycyfrowej, dwucyfrowej i jednocyfrowej z użyciem tej samej jednej cyfry.</li><li>b) Przez jaką największą liczbę pierwszą jest podzielna liczba 999+99+9?</li><li>c) Nie rozpatrując wszystkich możliwych przypadków uzasadnij, że liczba postaci AAA+AA+A jest podzielna przez 123, gdzie A oznacza dowolną cyfrę.</li></ul>",
       "choices": [],
@@ -577,7 +579,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "procenty",
+        "stężenie procentowe / mieszaniny",
         "graniastosłupy"
       ],
       "prompt_html": "<p>Do zbiornika w kształcie prostopadłościanu o wymiarach: 10 dm, 40 dm, 5 m wlano 15000 dm³ solanki o zawartości soli 4,2%, resztę dopełniono solanką o zawartości soli 3,4%. Ile procent soli zawiera roztwór soli znajdujący się w tym zbiorniku?</p>",

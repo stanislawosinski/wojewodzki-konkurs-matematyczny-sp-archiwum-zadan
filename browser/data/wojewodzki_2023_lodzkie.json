@@ -17,7 +17,8 @@
       "type": "closed_single",
       "points": 4,
       "topics": [
-        "podzielność"
+        "podzielność",
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Dokończ zdanie tak aby było fałszywe.</p><p><em>Iloczyn wszystkich liczb pierwszych mniejszych niż 100 jest</em></p>",
       "choices": [
@@ -103,7 +104,8 @@
       "type": "closed_single",
       "points": 4,
       "topics": [
-        "procenty"
+        "zmiany procentowe",
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Egzamin, który rozpoczyna się o godzinie 9:00 składa się z dwóch części. Na rozwiązanie pierwszej części egzaminu zdający mają <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mi>h</mi><mspace width=\"0.2em\"></mspace><mn>20</mn><mspace width=\"0.2em\"></mspace><mi>min</mi></math>, po 10 minutach przerwy rozpoczyna się druga część, która trwa półtorej godziny. Z powodu problemów technicznych czas pierwszej części wydłużono zdającym o 15%. W wyniku zamieszania przerwa wydłużyła się w stosunku do planu o 250%. Krzysiek wyszedł z egzaminu po wykorzystaniu 80% czasu przeznaczonego na drugą część egzaminu. O której godzinie Krzysiek wyszedł z egzaminu?</p>",
       "choices": [
@@ -189,8 +191,9 @@
       "type": "closed_single",
       "points": 4,
       "topics": [
-        "potęgi i pierwiastki",
-        "wzory skróconego mnożenia"
+        "wzory skróconego mnożenia",
+        "wyłączanie czynnika przed znak pierwiastka",
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><msqrt><mn>27</mn></msqrt><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup></math> można zapisać jako:</p>",
       "choices": [
@@ -280,7 +283,7 @@
       "points": 4,
       "topics": [
         "trójkąty",
-        "potęgi i pierwiastki"
+        "szacowanie (zamiast obliczania)"
       ],
       "prompt_html": "<p>Samochód pokonał trasę długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>50</mn></msqrt></math> km w kierunku północno-wschodnim (pod kątem 45° od kierunku wschodniego) a następnie 15 km na południe. Z miejsca, do którego dotarł wrócił najkrótszą możliwą drogą do punktu startu. Ten ostatni fragment drogi miał długość</p>",
       "choices": [
@@ -324,7 +327,7 @@
       "points": 4,
       "topics": [
         "równania z jedną zmienną",
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Rozwiązaniem równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>2</mn><mo>−</mo><msqrt><mn>8</mn></msqrt><mo>=</mo><msqrt><mn>2</mn></msqrt><mi>x</mi></math> jest</p>",
       "choices": [
@@ -367,10 +370,9 @@
       "type": "closed_single",
       "points": 4,
       "topics": [
-        "trójkąty",
         "układ współrzędnych",
-        "pole i obwód",
-        "potęgi i pierwiastki"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Oblicz pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> trójkąta, którego wierzchołkami są punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>(</mo><mn>0</mn><mo>,</mo><msqrt><mn>75</mn></msqrt><mo>−</mo><mn>2</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>(</mo><mn>0</mn><mo>,</mo><mn>5</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>6</mn><mo>)</mo></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>(</mo><msqrt><mn>23</mn></msqrt><mo>,</mo><msqrt><mn>19</mn></msqrt><mo>)</mo></math></p>",
       "choices": [
@@ -459,7 +461,7 @@
       "type": "closed_single",
       "points": 4,
       "topics": [
-        "bryły",
+        "bryły obrotowe",
         "okrąg wpisany i opisany",
         "sześciokąty foremne"
       ],
@@ -509,7 +511,8 @@
       "type": "open",
       "points": 12,
       "topics": [
-        "koła / okręgi"
+        "koła / okręgi",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Pizzeria sprzedaje pizzę w trzech rozmiarach:</p><ul><li>Mała (średnica 24 cm) za 28,4 zł</li><li>Średnia (średnica 32 cm) za 41 zł</li><li>Duża (średnica 42 cm) za 48,30 zł</li></ul><p>Finaliści Wojewódzkiego Konkursu Przedmiotowego z matematyki wyliczyli, że potrzebują minimum <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2000</mn><mi>π</mi></math> cm² pizzy. Jaka jest minimalna kwota jaką muszą zapłacić, by kupić potrzebną ilość pizzy? Odpowiedź uzasadnij.</p>",
       "choices": [],
@@ -577,8 +580,8 @@
       "points": 5,
       "topics": [
         "trójkąty",
-        "pole i obwód",
-        "potęgi i pierwiastki"
+        "wzrost wykładniczy",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Trójkąt Sierpińskiego to zbiór, który powstaje poprzez stopniowe usuwanie z trójkątów równobocznych odpowiednich trójkątów równobocznych. Nie da się narysować trójkąta Sierpińskiego a jedynie kolejne jego przybliżenia jak na poniższym rysunku:</p><p>a) Oblicz pole trzeciego przybliżenia trójkąta Sierpińskiego, jeśli trójkąt będący pierwszym przybliżeniem ma bok długości 5 cm</p><p>b) Wyznacz pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>-tego przybliżenia trójkąta Sierpińskiego, jeśli trójkąt będący pierwszym przybliżeniem ma pole równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math></p>",
       "choices": [],
@@ -603,7 +606,7 @@
       "points": 12,
       "topics": [
         "graniastosłupy",
-        "bryły",
+        "bryły obrotowe",
         "nierówności"
       ],
       "prompt_html": "<p>Podstawą trzech różnych graniastosłupów prostych trójkątnych jest trójkąt prostokątny o przyprostokątnych równych 5 dm i 12 dm. Każdy z graniastosłupów ma jedną ścianę boczną, która jest kwadratem. Wyznacz najmniejszą liczbę naturalną <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi></math>, dla której objętość stożka o promieniu 6 dm i wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi></math> jest większa niż suma objętości rozważanych graniastosłupów.</p>",

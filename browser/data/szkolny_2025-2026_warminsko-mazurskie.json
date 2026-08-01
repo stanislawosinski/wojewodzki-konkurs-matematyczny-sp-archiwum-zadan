@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność",
+        "liczby pierwsze",
         "statystyka opisowa"
       ],
       "prompt_html": "<p>Średnia arytmetyczna 4 najmniejszych liczb pierwszych i 4 najmniejszych liczb złożonych jest równa</p>",
@@ -57,7 +57,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "kąty"
       ],
       "prompt_html": "<p>W trójkącie równoramiennym miara jednego z kątów wewnętrznych jest równa 48°. Różnica miar dwóch pozostałych kątów wewnętrznych tego trójkąta wynosi</p>",
       "choices": [
@@ -96,6 +97,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "ułamki okresowe / rozwinięcia dziesiętne",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Sto pięćdziesiątą szóstą cyfrą po przecinku w rozwinięciu dziesiętnym liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>11</mn></mfrac></math> jest</p>",
@@ -135,6 +137,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "wartość bezwzględna",
         "nierówności"
       ],
       "prompt_html": "<p>Ile jest liczb całkowitych spełniających nierówność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>x</mi><mo>|</mo><mo>&lt;</mo><mn>6</mn></mrow></math>?</p>",
@@ -174,7 +177,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy"
+        "liczba krawędzi, ścian i wierzchołków"
       ],
       "prompt_html": "<p>Graniastosłup pięciokątny ma</p>",
       "choices": [
@@ -213,6 +216,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "podobieństwo i skala",
         "graniastosłupy"
       ],
       "prompt_html": "<p>Do pomalowania wszystkich ścian pewnego sześcianu zużyto 1 litr farby. Jeśli każdą krawędź tego sześcianu zwiększymy dwukrotnie, to do pomalowania otrzymanej bryły taką samą farbą potrzeba</p>",
@@ -291,7 +295,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Połowa szóstej potęgi liczby 8 to</p>",
       "choices": [
@@ -435,8 +439,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "procenty",
-        "równania z jedną zmienną"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Cenę nart obniżono dwukrotnie, za każdym razem o 10%. Po drugiej obniżce narty kosztowały 1 944 zł. Oblicz początkową cenę tych nart.</p>",
       "choices": [],
@@ -482,8 +485,8 @@
       "points": 3,
       "topics": [
         "czworokąty",
-        "pole i obwód",
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Dany jest trapez równoramienny o podstawach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>2</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn></mrow></math>. Ramiona tego trapezu mają długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>x</mi><mo>+</mo><mn>3</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>7</mn></mrow></math>. Wykonaj rysunek zgodny z podanymi warunkami i oblicz obwód tego trapezu. Długość obwodu wyraź liczbą naturalną. Zapisz obliczenia.</p>",
       "choices": [],
@@ -505,7 +508,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "ułamki"
       ],
       "prompt_html": "<p>Podaj liczbę odwrotną do wartości wyrażenia.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,02</mn><mo>·</mo><mn>10</mn><mo>−</mo><mfrac><mrow><mo>−</mo><msup><mn>3</mn><mn>2</mn></msup><mo>+</mo><msqrt><mrow><mn>16</mn><mo>+</mo><mn>9</mn></mrow></msqrt></mrow><msup><mrow><mo>(</mo><mn>1</mn><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup></mfrac><mo>+</mo><msup><mrow><mo>(</mo><mn>2,034</mn><mo>−</mo><mn>305,2</mn><mo>)</mo></mrow><mn>0</mn></msup><mo>−</mo><msup><mrow><mo>(</mo><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>17</mn></msup></mrow></math></p>",
       "choices": [],

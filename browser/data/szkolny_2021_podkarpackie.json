@@ -45,7 +45,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "nierówności",
+        "wartość bezwzględna",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Ile jest liczb całkowitych spełniających warunek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>x</mi><mo>|</mo><mo>&lt;</mo><mn>100</mn></math>?</p>",
@@ -74,6 +74,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "liczby pierwsze",
         "podzielność"
       ],
       "prompt_html": "<p>Symbol <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>!</mo></math> oznacza iloczyn liczb naturalnych od 1 do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> tzn. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>!</mo><mo>=</mo><mn>1</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><mo>…</mo><mo>·</mo><mi>n</mi></math> (np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>!</mo><mo>=</mo><mn>1</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>4</mn></math>). Która z poniższych liczb <u>nie jest</u> liczbą całkowitą?</p>",
@@ -102,7 +103,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kąty"
+        "kąty",
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Jaki kąt wklęsły tworzą wskazówki zegara o godzinie 16:40?</p>",
       "choices": [
@@ -130,6 +132,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "ułamki okresowe / rozwinięcia dziesiętne",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Sześćdziesiąta cyfra po przecinku rozwinięcia dziesiętnego ułamka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>1111</mn></mfrac></math> to:</p>",
@@ -158,7 +161,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Ceny towarów X i Y są jednakowe. Cenę towaru X obniżono o 20%, a cenę towaru Y podniesiono o 30%. O ile procent cena towaru Y jest wyższa od ceny towaru X?</p>",
       "choices": [
@@ -187,6 +190,7 @@
       "points": 1,
       "topics": [
         "czworokąty",
+        "wyrażenia algebraiczne",
         "pole i obwód"
       ],
       "prompt_html": "<p>O ile zwiększy się pole prostokąta o bokach długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>b</mi></math>, jeżeli bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> zwiększymy o 4, a drugi bok zwiększymy dwukrotnie?</p>",
@@ -215,7 +219,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "notacja wykładnicza"
       ],
       "prompt_html": "<p>Średnia arytmetyczna liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6,8</mn><mo>·</mo><msup><mn>10</mn><mn>4020</mn></msup></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,52</mn><mo>·</mo><msup><mn>10</mn><mn>4021</mn></msup></math> jest równa:</p>",
       "choices": [
@@ -243,7 +247,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Rozkład liczby 1080 na czynniki pierwsze to:</p>",
       "choices": [
@@ -271,7 +275,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Połowa liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>58</mn></msup></math> jest równa:</p>",
       "choices": [
@@ -356,7 +360,6 @@
       "points": 1,
       "topics": [
         "czworokąty",
-        "trójkąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>Czworokąt o obwodzie 111 cm, przekątna podzieliła na dwa trójkąty o obwodach 37 cm i 96 cm. Jaką długość ma ta przekątna?</p>",
@@ -472,11 +475,10 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "trójkąty",
+        "wielokąty",
         "układ współrzędnych",
-        "czworokąty",
-        "kąty",
-        "pole i obwód"
+        "pole i obwód",
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -503,7 +505,7 @@
       "points": 2,
       "topics": [
         "zliczanie / metody zliczania",
-        "inne"
+        "szacowanie (zamiast obliczania)"
       ],
       "prompt_html": "<p>Liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mn>9888</mn></math> zaokrąglono do dziesiątek.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -528,6 +530,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
+        "wyrażenia algebraiczne",
         "nierówności"
       ],
       "prompt_html": "<p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>",
@@ -554,7 +557,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "równania z jedną zmienną",
+        "ułamki",
         "proporcjonalność odwrotna"
       ],
       "prompt_html": "<p>Zosia, Agnieszka i Marcin wykonywali ozdoby choinkowe. Zosi wykonanie jednej ozdoby zajmowało 2 minuty, Agnieszce 3 minuty, a Marcinowi 4 minuty. Wspólnie mieli do wykonania 104 ozdoby choinkowe. Pracę rozpoczęli o godzinie 14:00.</p><p><strong>Uzupełnij:</strong></p><p>20.1. Zosia, Agnieszka i Marcin zakończyli pracę o godzinie: ………</p><p>20.2. Zosia wykonała ……… ozdób choinkowych, Agnieszka ……… Marcin ………</p>",
@@ -604,6 +607,7 @@
       "topics": [
         "czworokąty",
         "trójkąty",
+        "wyrażenia algebraiczne",
         "pole i obwód"
       ],
       "prompt_html": "<p>Uzupełnij lukę tak, aby zdanie było prawdziwe.</p><p>Narysowana gwiazda jest zbudowana z kwadratu i czterech przystających trójkątów równoramiennych.</p><p>Pole tej gwiazdy jest równe: ……………………</p>",

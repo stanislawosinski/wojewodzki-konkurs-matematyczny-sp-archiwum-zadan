@@ -17,7 +17,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "notacja wykładnicza"
       ],
       "prompt_html": "<p>Większa od 1 jest liczba:</p>",
       "choices": [
@@ -99,7 +100,7 @@
       "points": 1,
       "topics": [
         "wzory skróconego mnożenia",
-        "potęgi i pierwiastki"
+        "wyłączanie czynnika przed znak pierwiastka"
       ],
       "prompt_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>72</mn><mn>2</mn></msup><mo>−</mo><msup><mn>63</mn><mn>2</mn></msup></mrow></msqrt></math> wynosi:</p>",
       "choices": [
@@ -127,7 +128,7 @@
       "points": 1,
       "topics": [
         "usuwanie niewymierności z mianownika",
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Odwrotnością liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mfrac><mn>1</mn><mrow><mn>3</mn><msqrt><mn>6</mn></msqrt></mrow></mfrac><mo>+</mo><mfrac><msqrt><mn>6</mn></msqrt><mn>2</mn></mfrac></math> jest:</p>",
       "choices": [
@@ -154,7 +155,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty",
+        "wielokąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>W pięciokącie wypukłym przekątne wychodzące z jednego z wierzchołków mają długości 8 cm i 9 cm. Dzielą one wielokąt na trzy trójkąty o obwodzie 22 cm każdy. Ile wynosi obwód pięciokąta?</p>",
@@ -183,6 +184,7 @@
       "points": 1,
       "topics": [
         "trójkąty",
+        "czworokąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>Powyższy rysunek przedstawia sześciokąt zbudowany z dwóch prostokątów i dwóch trójkątów prostokątnych z wartościami ich pól. Pole zamalowanego trójkąta wynosi:</p>",
@@ -294,6 +296,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "wyrażenia algebraiczne",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Jeżeli odwrócimy kolejność cyfr w liczbie naturalnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>, to otrzymamy liczbę o 36 większą. Ile jest liczb dwucyfrowych o tej własności?</p>",
@@ -322,6 +325,7 @@
       "points": 1,
       "topics": [
         "dwusieczna kąta / symetralna odcinka",
+        "kąty",
         "czworokąty"
       ],
       "prompt_html": "<p>Na poniższym rysunku pomocniczym przedstawiono trapez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>, w którym kąty przy jednej z podstaw mają miary: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>=</mo><mn>70</mn><mo>°</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi><mo>=</mo><mn>30</mn><mo>°</mo></math>. Miara kąta ostrego „x”, pod którym przecinają się dwusieczne dwóch pozostałych kątów tego trapezu wynosi:</p>",
@@ -410,6 +414,7 @@
       "points": 3,
       "topics": [
         "układ współrzędnych",
+        "czworokąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>W układzie współrzędnych zaznaczono punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>(</mo><mn>2</mn><mo>,</mo><mn>2</mn><mo>)</mo></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mo>(</mo><mn>9</mn><mo>,</mo><mn>3</mn><mo>)</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>=</mo><mo>(</mo><mn>11</mn><mo>,</mo><mn>8</mn><mo>)</mo></math> będące kolejnymi wierzchołkami równoległoboku.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli zdanie jest fałszywe.</p>",
@@ -462,7 +467,9 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki",
+        "działania na potęgach",
+        "liczby pierwsze",
+        "wyłączanie wspólnego czynnika przed nawias",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Uzasadnij, że wynik wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><msup><mn>12</mn><mn>7</mn></msup><mo>+</mo><msup><mn>3</mn><mn>8</mn></msup><mo>·</mo><msup><mn>2</mn><mn>9</mn></msup><mo>−</mo><msup><mn>3</mn><mn>10</mn></msup><mo>·</mo><msup><mn>4</mn><mn>4</mn></msup><mo>)</mo><mo>:</mo><mo>(</mo><mn>4</mn><mo>·</mo><msup><mn>3</mn><mn>4</mn></msup><mo>·</mo><msup><mn>12</mn><mn>3</mn></msup><mo>)</mo></math> jest liczbą pierwszą. Zapisz obliczenia i podaj uzasadnienie.</p>",
@@ -485,7 +492,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "procenty",
+        "zmiany procentowe",
         "układy równań"
       ],
       "prompt_html": "<p>Cena butów była o 60 zł niższa niż cena spodni. Gdy spodnie potaniały o 20%, a buty podrożały o 10%, to za buty i spodnie łącznie zapłacimy o 8% mniej niż początkowo. Jaka była początkowa cena butów i spodni? Zapisz wszystkie obliczenia.</p>",

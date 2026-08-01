@@ -17,8 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty",
-        "czworokąty",
+        "zmiany procentowe",
         "pole i obwód"
       ],
       "prompt_html": "<p>Powierzchnia kwadratu powiększyła się o 96%, gdy wszystkie jego boki powiększono w tym samym stosunku procentowym. Jaki to procent?</p>",
@@ -73,8 +72,9 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "pierścień kołowy",
         "koła / okręgi",
-        "pierścień kołowy"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Dane są dwa współśrodkowe koła. Pole wewnętrznego koła jest równe polu pierścienia utworzonego między kołami. Promień większego koła jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math>. Promień wewnętrznego koła jest równy</p>",
       "choices": [
@@ -129,8 +129,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną",
-        "układy równań"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Dane są dwa równania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>p</mi><mo>−</mo><mn>1</mn><mo>)</mo><mi>x</mi><mo>=</mo><mn>1</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo><mi>p</mi><mo>=</mo><mn>2</mn><mo>−</mo><mi>p</mi></math> o niewiadomej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>. Równania te mają dokładnie jedno wspólne rozwiązanie dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math> równego</p>",
       "choices": [
@@ -157,7 +156,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "podzielność"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi></math> są różnymi liczbami pierwszymi. Zatem</p>",
       "choices": [
@@ -211,7 +210,9 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach",
+        "działania na potęgach",
+        "ułamki"
       ],
       "prompt_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>−</mo><mo>(</mo><mo>(</mo><mfrac><mn>0,4</mn><msup><mn>2</mn><mn>2</mn></msup></mfrac><mo>−</mo><mn>1,3</mn><mo>·</mo><mfrac><mn>6</mn><mn>13</mn></mfrac><mo>)</mo><mo>:</mo><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>)</mo></math> jest</p>",
       "choices": [
@@ -239,7 +240,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Jeżeli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>⊕</mo><mi>b</mi><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><mi>b</mi><mo>+</mo><mn>2</mn><mi>a</mi><mo>+</mo><mi>b</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>⊕</mo><mn>7</mn><mo>=</mo><mn>2</mn><mo>⊕</mo><mi>x</mi></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> jest równy</p>",
       "choices": [
@@ -268,7 +270,7 @@
       "points": 2,
       "topics": [
         "czworokąty",
-        "potęgi i pierwiastki"
+        "proporcjonalność prosta"
       ],
       "prompt_html": "<p>Popularny format papieru A4 jest prostokątem, w którym stosunek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi><mo>=</mo><mfrac><mtext>długość</mtext><mtext>szerokość</mtext></mfrac></math> jest tak wybrany, że zginając kartkę na dwoje przez środek długości, otrzymujemy nowy prostokąt o bokach w tym samym stosunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi><mo>=</mo><mfrac><mtext>długość</mtext><mtext>szerokość</mtext></mfrac></math>. Stosunek ten spełnia warunek</p>",
       "choices": [
@@ -296,7 +298,9 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki"
+        "pierwiastki zagnieżdżone",
+        "działania na pierwiastkach",
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><mn>2</mn><mroot><msqrt><mn>64</mn></msqrt><mn>3</mn></mroot></mrow></msqrt></math> jest równa</p>",
       "choices": [
@@ -324,7 +328,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "ostrosłupy"
+        "ostrosłupy",
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Objętość ostrosłupa prawidłowego czworokątnego o wysokości 60 mm oraz krawędzi podstawy równej 0,02 m jest równa</p>",
       "choices": [
@@ -423,7 +428,9 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "ułamki",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Oblicz, ile razy liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest mniejsza od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, jeżeli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mfrac><mrow><mo>(</mo><msup><mn>2</mn><mn>7</mn></msup><mo>−</mo><mn>5</mn><mo>·</mo><msup><mn>2</mn><mn>4</mn></msup><mo>)</mo><mo>:</mo><mn>1</mn><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow><mrow><mn>3</mn><mo>·</mo><msup><mn>2</mn><mn>5</mn></msup><mo>−</mo><msup><mn>2</mn><mn>4</mn></msup></mrow></mfrac></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mfrac><mrow><mo>(</mo><msup><mn>3</mn><mn>33</mn></msup><mo>−</mo><mn>2</mn><mo>·</mo><msup><mn>3</mn><mn>31</mn></msup><mo>)</mo><mo>:</mo><mn>2</mn><mfrac><mn>4</mn><mn>5</mn></mfrac></mrow><mrow><msup><mn>9</mn><mn>15</mn></msup><mo>·</mo><mn>1,25</mn></mrow></mfrac></math>.</p>",
       "choices": [],

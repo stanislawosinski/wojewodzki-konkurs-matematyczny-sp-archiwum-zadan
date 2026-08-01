@@ -17,8 +17,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "równania z jedną zmienną",
-        "zagadki logiczne"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Na dwóch gałęziach drzewa siedzi razem 16 wróbli. Jeśli z pierwszej gałęzi przeniosłoby się na drugą gałąź tyle wróbli, że liczba wróbli na drugiej gałęzi podwoiłaby się, a następnie z drugiej gałęzi przeniosłoby się na pierwszą tyle wróbli, że liczba wróbli na pierwszej gałęzi podwoiłaby się, to na każdej z tych gałęzi byłoby po tyle samo wróbli. Ile wróbli siedzi na każdej z gałęzi? Zapisz obliczenia.</p>",
       "choices": [],
@@ -64,7 +63,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Zapisz poniższe wyrażenie w postaci jednej potęgi tak, aby podstawa i wykładnik były liczbami naturalnymi.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>27</mn><mn>40</mn></msup><mo>+</mo><msup><mn>81</mn><mn>30</mn></msup><mo>+</mo><msup><mn>729</mn><mn>20</mn></msup><mo>=</mo></mrow></math></p>",
       "choices": [],
@@ -86,7 +86,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "równania z jedną zmienną"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Wiadomo, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mfrac><mrow><mn>5</mn><mi>b</mi></mrow><mn>6</mn></mfrac></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>≠</mo><mn>0</mn></mrow></math>. Oblicz wartość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mi>a</mi></mrow><mrow><mn>7</mn><mi>b</mi></mrow></mfrac></math>.</p>",
       "choices": [],
@@ -108,7 +108,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "procenty",
+        "zmiany procentowe",
         "czworokąty",
         "pole i obwód"
       ],
@@ -156,8 +156,8 @@
       "type": "open",
       "points": 2,
       "topics": [
+        "ostatnia cyfra / cykliczność potęg",
         "podzielność",
-        "potęgi i pierwiastki",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Wykaż, że liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2023</mn><mn>2024</mn></msup><mo>+</mo><msup><mn>2024</mn><mn>2023</mn></msup></mrow></math> jest podzielna przez 5.</p>",
@@ -203,12 +203,10 @@
       "type": "closed_single",
       "points": 7,
       "topics": [
-        "potęgi i pierwiastki",
         "trójkąty",
-        "podzielność",
         "czworokąty",
-        "kąty",
-        "pole i obwód"
+        "pole i obwód",
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>W zadaniach zamkniętych dokładnie jedna odpowiedź jest poprawna. Wskaż tę odpowiedź otaczając ją kółkiem.</p><p><strong>9.1</strong> Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>1,2</mn><mo>:</mo><mn>4,8</mn><mo>−</mo><msup><mn>1,5</mn><mn>2</mn></msup></mrow><mrow><mfrac><mn>1</mn><mn>7</mn></mfrac><mo>·</mo><mn>2</mn><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></mfrac></math> jest równa:</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mfrac><mn>2</mn><mn>3</mn></mfrac></mrow></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math></li><li>C. −6</li><li>D. 6</li></ul><p><strong>9.2</strong> Wiadomo, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>0,2023</mn></msup><mo>=</mo><mn>5</mn></mrow></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>0,8092</mn></msup></math> jest równe:</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>4</mn></mfrac></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>5</mn></msqrt></math></li><li>C. 125</li><li>D. 625</li></ul><p><strong>9.3</strong> W trójkącie prostokątnym o przyprostokątnych 6 i 8 wysokość poprowadzona z wierzchołka kąta prostego ma długość:</p><ul><li>A. 4,8</li><li>B. 6</li><li>C. 8</li><li>D. 9,6</li></ul><p><strong>9.4</strong> W trójkącie równoramiennym kąt przy podstawie ma miarę cztery razy mniejszą od miary kąta między ramionami. Miara kąta między ramionami jest równa:</p><ul><li>A. 120°</li><li>B. 30°</li><li>C. 60°</li><li>D. 150°</li></ul><p><strong>9.5</strong> Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>23754678</mn><mi>X</mi></mrow></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>X</mi></math> jest cyfrą jedności, jest podzielna przez 4. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>X</mi></math> może być równe:</p><ul><li>A. 0</li><li>B. 2</li><li>C. 6</li><li>D. 7</li></ul><p><strong>9.6</strong> Pole kwadratu o boku długości 400 m jest równe:</p><ul><li>A. 1600 m²</li><li>B. 1600 a</li><li>C. 160 ha</li><li>D. 1,6 km²</li></ul><p><strong>9.7</strong> Dany jest równoległobok o bokach długości 10 cm i 6 cm. Jego dłuższa wysokość ma 5 cm. Pole tego równoległoboku jest równe:</p><ul><li>A. 50 cm²</li><li>B. 30 cm²</li><li>C. 25 cm²</li><li>D. 15 cm²</li></ul>",
       "choices": [],

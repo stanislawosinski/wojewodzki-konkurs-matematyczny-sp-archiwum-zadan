@@ -71,7 +71,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "proporcjonalność prosta"
+        "podobieństwo i skala"
       ],
       "prompt_html": "<p>Odległość między dwoma miastami wynosi w linii prostej 150 km. Na pewnej mapie odległość ta jest równa 30 cm. Mapa jest narysowana w skali</p>",
       "choices": [
@@ -98,7 +98,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kąty"
+        "kąty",
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>O godzinie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>12</mn><mn>30</mn></msup></math> wskazówki zegara, minutowa z godzinową, tworzą kąt</p>",
       "choices": [
@@ -510,7 +511,7 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "inne"
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Oceń, czy podane odpowiedzi są prawdziwe, czy fałszywe.</p><p>Chłopcy przez 6000 sekund grali w piłkę nożną. Oznacza to, że:</p>",
       "choices": [
@@ -586,8 +587,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "przyroda",
-        "statystyka opisowa"
+        "statystyka opisowa",
+        "przyroda"
       ],
       "prompt_html": "<p>Na podstawie danych klimatycznych zawartych w tabeli wykonaj poniższe polecenia.</p><table><thead><tr><th>Miesiąc</th><th>I</th><th>II</th><th>III</th><th>IV</th><th>V</th><th>VI</th><th>VII</th><th>VIII</th><th>IX</th><th>X</th><th>XI</th><th>XII</th></tr></thead><tbody><tr><td>Średnia temp. (°C)</td><td>−8,3</td><td>−7,5</td><td>−2,2</td><td>5,8</td><td>13,3</td><td>16,6</td><td>18,2</td><td>16,4</td><td>11,0</td><td>5,3</td><td>−1,2</td><td>−6,2</td></tr><tr><td>Średni opad (mm)</td><td>43</td><td>36</td><td>34</td><td>44</td><td>51</td><td>73</td><td>94</td><td>77</td><td>65</td><td>59</td><td>58</td><td>55</td></tr></tbody></table><p>a) Oblicz roczną amplitudę temperatury powietrza.</p><p>b) Oblicz średnią miesięczną sumę opadów w II kwartale roku.</p><p>c) Oblicz średnią temperaturę w IV kwartale tego roku.</p>",
       "choices": [],

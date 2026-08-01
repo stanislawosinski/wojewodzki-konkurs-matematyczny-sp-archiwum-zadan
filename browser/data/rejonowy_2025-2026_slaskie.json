@@ -17,6 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "liczby pierwsze",
         "zagadki logiczne"
       ],
       "prompt_html": "<p>W pewnej liczbie trzycyfrowej suma wszystkich cyfr wynosi 10, cyfra setek jest liczbą pierwszą, a cyfra dziesiątek jest dwa razy większa niż cyfra jedności. Te warunki spełnia liczba</p>",
@@ -44,6 +45,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "wartość bezwzględna",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><mo>|</mo><mn>5</mn><mo>−</mo><mi>a</mi><mo>|</mo><mo>−</mo><mo>|</mo><mn>12</mn><mo>−</mo><mn>6</mn><mo>|</mo><mo>)</mo></mrow><mrow><mo>(</mo><mo>|</mo><mo>−</mo><mn>9</mn><mo>+</mo><mn>5</mn><mo>|</mo><mo>−</mo><mn>8</mn><mo>)</mo></mrow></mfrac></math> jest równa 1 dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> równego</p>",
@@ -98,7 +100,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "działania na pierwiastkach",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Wszystkich liczb naturalnych, dodatnich <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> takich, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest liczbą mniejszą od 500 i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mi>n</mi></msqrt></math> jest liczbą naturalną, jest</p>",
@@ -153,7 +155,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Sumę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>9</mn><mn>30</mn></msup><mo>+</mo><msup><mn>27</mn><mn>20</mn></msup></mrow></math> można zapisać jako</p>",
       "choices": [
@@ -181,7 +184,7 @@
       "points": 1,
       "topics": [
         "czworokąty",
-        "trójkąty"
+        "kąty"
       ],
       "prompt_html": "<p>Dany jest czworokąt wypukły <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>, w którym boki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DC</mi></math> są tej samej długości, zaś przekątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> dzieli kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DAB</mi></math> na dwa równe kąty. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math> jest punktem przecięcia się przekątnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DB</mi></math>. Wskaż zdanie prawdziwe.</p>",
       "choices": [
@@ -236,7 +239,7 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "zliczanie / metody zliczania"
+        "zbiory / zasada włączeń i wyłączeń"
       ],
       "prompt_html": "<p>W pewnej klasie jest 24 uczniów. Na dodatkowe zajęcia tylko z języka francuskiego uczęszcza 8 uczniów. 4 uczniów uczęszcza na dodatkowe zajęcia z języka francuskiego i dodatkowe zajęcia z języka hiszpańskiego. 7 uczniów nie uczęszcza na żadne zajęcia dodatkowe, zaś pozostali uczniowie biorą udział tylko w zajęciach z języka hiszpańskiego.</p>",
       "choices": [
@@ -290,7 +293,8 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "trójkąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>Dane są figury: prostokąt o wymiarach 0,33 dm i 2 cm, trójkąt równoboczny o boku 0,04 m, równoległobok o bokach 0,4 dm i 3 cm oraz wysokościach 0,02 m i 1,5 cm.</p>",
@@ -318,8 +322,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "równania z jedną zmienną",
-        "podzielność"
+        "podzielność",
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>W skład pewnego pociągu wchodzą wyłącznie wagony pierwszej i drugiej klasy. W każdym wagonie drugiej klasy jest 10 przedziałów po 6 miejsc, a w każdym wagonie pierwszej klasy jest 9 przedziałów po 6 miejsc. Pasażerowie zajęli 560 miejsc w tym pociągu, przy czym w wagonach drugiej klasy zostało 20 miejsc wolnych, natomiast w wagonach pierwszej klasy zostało 8 miejsc wolnych. Oblicz, z ilu wagonów pierwszej klasy oraz z ilu wagonów drugiej klasy składa się ten pociąg?</p>",
       "choices": [],
@@ -363,8 +367,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "kąty",
-        "dowodzenie / dowody"
+        "kąty"
       ],
       "prompt_html": "<p>Na rysunku zaznaczono kąt o mierze <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>83</mn><mo>°</mo></mrow></math>, dwa kąty o mierze <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> oraz kąt o mierze <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math>. Oblicz miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math>. Odpowiedź uzasadnij.</p>",
       "choices": [],
@@ -388,7 +391,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "kąty"
       ],
       "prompt_html": "<p>Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest prostokątny i równoramienny. Na przeciwprostokątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> zbudowano trójkąt równoboczny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACD</mi></math>. Oblicz miarę kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABD</mi></math>. Rozważ wszystkie możliwości, przedstawiając je na rysunku.</p>",
       "choices": [],
@@ -410,6 +414,7 @@
       "type": "open",
       "points": 3,
       "topics": [
+        "zmiany procentowe",
         "procenty"
       ],
       "prompt_html": "<p>W sklepie A koszyk zawierający 2 kg truskawek kosztuje 30 zł. W sklepie B za koszyk zawierający o 25% truskawek więcej trzeba zapłacić o 15% więcej niż za koszyk truskawek w sklepie A.</p><p><strong>a)</strong> Oblicz, ile kosztuje 1 kg truskawek w sklepie A, a ile w sklepie B.</p><p><strong>b)</strong> Oblicz, o ile procent cena 1 kg truskawek jest niższa w sklepie B niż w sklepie A?</p>",

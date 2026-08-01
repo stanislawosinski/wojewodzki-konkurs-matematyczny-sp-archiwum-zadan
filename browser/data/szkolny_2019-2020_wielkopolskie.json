@@ -56,7 +56,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach",
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Wskaż równość prawdziwą.</p>",
       "choices": [
@@ -134,6 +135,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "ułamki okresowe / rozwinięcia dziesiętne",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Jaka cyfra znajduje się na 40 miejscu po przecinku liczby 213,2356785678… = 213,23(5678)?</p>",
@@ -173,7 +175,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "wartość bezwzględna"
       ],
       "prompt_html": "<p>Wartość bezwzględna trzeciej potęgi liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>30</mn><mo>:</mo><mo>(</mo><mo>−</mo><mn>6</mn><mo>+</mo><mn>9</mn><mo>)</mo><mo>−</mo><mo>(</mo><mo>−</mo><mn>8</mn><mo>)</mo></math> wynosi:</p>",
       "choices": [
@@ -290,7 +292,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Buty po 30% obniżce kosztują 105 zł. O jaką kwotę zostały przecenione buty?</p>",
       "choices": [
@@ -368,7 +370,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty",
+        "zmiany procentowe",
         "pole i obwód"
       ],
       "prompt_html": "<p>Zmniejszając długość prostokąta o 20% i zwiększając szerokość prostokąta o 20% otrzymamy prostokąt, którego pole:</p>",
@@ -447,7 +449,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Jak zmieni się iloraz dwóch liczb dodatnich, jeśli dzielną zwiększymy dwukrotnie, a dzielnik zmniejszymy dwukrotnie?</p>",
       "choices": [
@@ -486,7 +488,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "wyrażenia algebraiczne",
+        "ułamki"
       ],
       "prompt_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><msup><mi>x</mi><mn>6</mn></msup><mo>−</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn></math> dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mo>−</mo><mn>1</mn></math> wynosi:</p>",
       "choices": [
@@ -565,7 +568,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy"
+        "liczba krawędzi, ścian i wierzchołków"
       ],
       "prompt_html": "<p>Pewien graniastosłup ma 60 wierzchołków. Liczba krawędzi tego graniastosłupa wynosi:</p>",
       "choices": [
@@ -675,7 +678,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "porównywanie potęg i pierwiastków",
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Dane są cztery liczby: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msup><mrow><mo>(</mo><msup><mn>2</mn><mn>3</mn></msup><mo>)</mo></mrow><mn>17</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><msup><mn>4</mn><mn>24</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><msup><mn>10</mn><mn>49</mn></msup><mo>·</mo><msup><mrow><mo>(</mo><mn>0,2</mn><mo>)</mo></mrow><mn>49</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><msup><mn>8</mn><mn>50</mn></msup><mo>:</mo><msup><mn>4</mn><mn>50</mn></msup></math>. Która z nich jest najmniejsza?</p>",
       "choices": [
@@ -714,7 +718,7 @@
       "type": "true_false",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -745,7 +749,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zagadki logiczne"
+        "zasada szufladkowa"
       ],
       "prompt_html": "<p>W szufladzie znajduje się 12 białych i 10 czarnych identycznych skarpetek. Z zamkniętymi oczami wyciągamy z szuflady pewną ilość skarpetek. Ile co najmniej skarpetek należy wyciągnąć z szuflady, aby po otworzeniu oczu otrzymać parę skarpetek tego samego koloru?</p>",
       "choices": [
@@ -784,7 +788,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Działkę o powierzchni 20 ha należy podzielić na działki, każda o powierzchni 500 m². Ile otrzymamy takich działek?</p>",
       "choices": [
@@ -901,7 +905,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><mn>36</mn><mo>·</mo><msup><mn>4</mn><mn>2</mn></msup><mo>+</mo><mn>36</mn><mo>·</mo><msup><mn>3</mn><mn>2</mn></msup></mrow></msqrt></math> wynosi:</p>",
       "choices": [
@@ -979,6 +984,7 @@
       "type": "true_false",
       "points": 4,
       "topics": [
+        "liczby pierwsze",
         "podzielność"
       ],
       "prompt_html": "<p>Zacieniuj prawidłową odpowiedź w tabeli.</p><p>O liczbie 208 można powiedzieć, że:</p>",
@@ -1041,7 +1047,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "równania z jedną zmienną"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Dwa lata temu Kasia była 3 razy starsza od Ani. Ile lat będą mieć w sumie dziewczynki za 3 lata, jeśli przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznaczymy wiek Ani obecnie? Zapisz odpowiedź w postaci sumy algebraicznej.</p>",
       "choices": [],
@@ -1154,6 +1160,7 @@
       "type": "open",
       "points": 3,
       "topics": [
+        "kąty",
         "trójkąty",
         "dowodzenie / dowody"
       ],

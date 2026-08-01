@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Kwadrat liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mn>125</mn><mn>3</mn></mroot><mo>·</mo><msqrt><mn>0,09</mn></msqrt><mo>+</mo><mroot><mrow><mo>−</mo><mn>27</mn></mrow><mn>3</mn></mroot></math> jest równy:</p>",
       "choices": [
@@ -57,7 +57,7 @@
       "points": 1,
       "topics": [
         "wzory skróconego mnożenia",
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Dwie trzecie wartości wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>3</mn><mo>)</mo><mo>·</mo><mo>(</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>3</mn><mo>)</mo></math> zwiększone o 3 jest liczbą równą:</p>",
       "choices": [
@@ -136,6 +136,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "podobieństwo i skala",
         "czworokąty",
         "pole i obwód"
       ],
@@ -176,7 +177,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Która z poniższych liczb jest równa liczbie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mn>3</mn><mn>2020</mn></msup><mo>+</mo><msup><mn>3</mn><mn>2021</mn></msup><mo>+</mo><msup><mn>3</mn><mn>2022</mn></msup><mo>+</mo><msup><mn>3</mn><mn>2023</mn></msup></mrow><mn>40</mn></mfrac></math> ?</p>",
       "choices": [
@@ -373,7 +375,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zliczanie / metody zliczania"
+        "zbiory / zasada włączeń i wyłączeń"
       ],
       "prompt_html": "<p>W pewnej 30-osobowej klasie 16 uczniów jeździ na nartach, a 10 – gra w hokeja. Ilu uczniów z tej klasy nie uprawia żadnego z wymienionych sportów, jeśli połowa uczniów grających w hokeja jeździ także na nartach?</p>",
       "choices": [
@@ -491,6 +493,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "wyrażenia algebraiczne",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Alicja kupiła <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> kg gruszek i 4 kg jabłek. Za owoce zapłaciła 26 zł. Wiadomo, że 1 kg gruszek był o 2 zł droższy od 1 kg jabłek. Wybierz spośród podanych odpowiedzi wyrażenie algebraiczne, które opisuje cenę zakupu 1 kilograma gruszek.</p>",
@@ -530,8 +533,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "czworokąty",
-        "kąty"
+        "kąty",
+        "czworokąty"
       ],
       "prompt_html": "<p>Czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> przedstawiony na rysunku jest trapezem, zatem miara kąta zaznaczonego na rysunku wynosi:</p>",
       "choices": [
@@ -611,7 +614,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "proporcjonalność prosta"
+        "proporcjonalność prosta",
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Zbiornik o pojemności 4800 l napełniono wodą, wlewając 0,6 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>m</mi><mn>3</mn></msup></math> wody w czasie 5 minut. Ile czasu trwało napełnianie tego zbiornika?</p>",
       "choices": [

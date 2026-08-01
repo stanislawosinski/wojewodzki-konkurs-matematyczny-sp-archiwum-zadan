@@ -95,7 +95,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "wzrost wykładniczy",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Wojtek o godzinie 14:00 zauważył w restauracji znanego piłkarza. W ciągu 10 minut powiadomił o tym trzech swoich znajomych, a każdy z nich w ciągu kolejnych 10 minut powiadomił kolejne 3 osoby itd. Ile osób wiedziało o zdarzeniu o godzinie 14:50?</p>",
@@ -135,6 +135,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "kalendarz i czas",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Finał EURO 2008 odbył się 29.06.2008 roku, a początek EURO 2012 – 08.06.2012 roku. Od finału EURO 2008 do początku EURO 2012 pełnych tygodni upłynęło:</p>",
@@ -294,7 +295,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "wzrost wykładniczy"
       ],
       "prompt_html": "<p>Piłka, odbijając się od ziemi, osiągała za każdym razem wysokość wynoszącą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>5</mn></mfrac></math> poprzedniej. Po czwartym uderzeniu piłka wzniosła się na wysokość 32 cm. Po pierwszym uderzeniu piłka wzniosła się na wysokość:</p>",
       "choices": [
@@ -374,7 +375,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "inne"
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Pomiar temperatury można wykonać w różnych skalach. Korzystając z informacji umieszczonej w ramce oblicz, jaka była temperatura powietrza w skali Fahrenheita podczas finału EURO 2012 w Kijowie, jeśli termometr w skali Celsjusza wskazywał 25°C.</p><p><em>Aby przeliczyć temperaturę podaną w skali Celsjusza na temperaturę w skali Fahrenheita, należy liczbę stopni Celsjusza pomnożyć przez 9, otrzymany iloczyn podzielić przez 5, a następnie wynik powiększyć o 32.</em></p>",
       "choices": [
@@ -531,7 +532,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "układy równań"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Zestaw kibica wraz z koszulką kosztuje 90 złotych. Zestaw jest droższy od koszulki o 40 zł. Zestaw kibica kosztuje:</p>",
       "choices": [
@@ -570,7 +571,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "kąty"
+        "kąty",
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Druga połowa meczu zakończyła się o godzinie 22.35. Wtedy kąt rozwarty, jaki tworzyły wskazówki zegara - godzinowa i minutowa miał miarę:</p>",
       "choices": [
@@ -609,9 +611,9 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
+        "podobieństwo i skala",
         "czworokąty",
-        "pole i obwód",
-        "proporcjonalność prosta"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Boisko na Stadionie Narodowym w Warszawie ma kształt prostokąta o wymiarach 105 m na 68 m. Pole powierzchni tego boiska na planie w skali 1:1000 wynosi:</p>",
       "choices": [
@@ -712,9 +714,10 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "geometria",
-        "pole i obwód",
-        "proporcjonalność prosta"
+        "trójkąty",
+        "czworokąty",
+        "liczby pierwsze",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W mieście A strefa kibica miała kształt trójkąta o podstawie 80 m i wysokości wyrażonej w metrach, będącej najmniejszą trzycyfrową liczbą pierwszą. W mieście B strefa kibica miała kształt trapezu, którego krótsza podstawa o długości 40 m, wysokość oraz dłuższa podstawa trapezu, wyrażone w metrach, w podanej kolejności są kolejnymi wielokrotnościami długości krótszej podstawy. W strefie kibica w mieście B mogło jednocześnie przebywać najwyżej 12800 osób. Oblicz ile najwyżej osób mogło przebywać w strefie kibica w mieście A, zakładając, że w obu strefach „zagęszczenie” kibiców na jeden metr kwadratowy było jednakowe.</p>",
       "choices": [],

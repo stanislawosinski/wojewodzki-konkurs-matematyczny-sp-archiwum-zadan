@@ -58,6 +58,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "kalendarz i czas",
         "kąty"
       ],
       "prompt_html": "<p>Wskazówki zegara tworzą kąt prosty o godzinie:</p>",
@@ -267,7 +268,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "kąty"
       ],
       "prompt_html": "<p>Trójkąt równoramienny taki, że miara kąta między ramionami jest o 20° mniejsza od sumy miar kątów przy podstawie ma kąty o miarach:</p>",
       "choices": [
@@ -434,8 +436,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną",
-        "zagadki logiczne"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Cegła waży kilo i pół cegły. Ile waży cegła?</p>",
       "choices": [
@@ -476,8 +477,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "koła / okręgi",
-        "trójkąty"
+        "czworokąty",
+        "koła / okręgi"
       ],
       "prompt_html": "<p>Ile wynosi długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>?</p>",
       "choices": [
@@ -520,7 +521,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Jaka jest suma cyfr najmniejszej liczby naturalnej większej niż 1, która jest jednocześnie kwadratem liczby naturalnej i sześcianem liczby naturalnej?</p>",
       "choices": [
@@ -645,7 +646,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Trójkąt o obwodzie 50 cm podzielono za pomocą wysokości na dwa trójkąty o obwodach 30 cm i 36 cm. Jaka jest wysokość trójkąta?</p>",
       "choices": [],
@@ -693,8 +695,9 @@
       "type": "open",
       "points": 3,
       "topics": [
+        "NWW / NWD",
         "liczby rzymskie",
-        "NWW / NWD"
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>Szyfr do sejfu składa się z ośmiu cyfr:</p><ul><li>pierwsza i druga cyfra tworzą liczbę dwucyfrową, która jest sumą liczb pierwszych większych od 20, ale mniejszych od 31;</li><li>trzecia cyfra jest liczbą odwrotną do 0,125;</li><li>czwarta i piąta jest różnicą liczb MXLVII i CMLXIV;</li><li>szósta cyfra jest równa NWD liczb 28 i 35;</li><li>siódma i ósma tworzą liczbę dwucyfrową, która jest równa NWW liczb 6 i 21.</li></ul><p>Podaj szyfr do sejfu.</p>",
       "choices": [],
@@ -718,8 +721,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "reszta z dzielenia",
-        "potęgi i pierwiastki"
+        "ostatnia cyfra / cykliczność potęg",
+        "reszta z dzielenia"
       ],
       "prompt_html": "<p>Jaka jest ostatnia cyfra sumy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2305</mn><mn>223</mn></msup><mo>+</mo><msup><mn>2953</mn><mn>323</mn></msup></math>?</p>",
       "choices": [],

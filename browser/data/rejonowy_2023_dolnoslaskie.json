@@ -17,8 +17,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zliczanie / metody zliczania",
-        "podzielność"
+        "liczby pierwsze",
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Wypisano wszystkie liczby pierwsze dwucyfrowe, a następnie podkreślono na czerwono wszystkie te, których cyfrą jedności jest 1, na zielono wszystkie z cyfrą jedności 3, na niebiesko wszystkie te, których cyfrą jedności jest 7, a na czarno wszystkie z cyfrą jedności 9. Najwięcej liczb podkreślono kolorem</p>",
       "choices": [
@@ -57,7 +57,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "statystyka opisowa"
+        "statystyka opisowa",
+        "nierówności"
       ],
       "prompt_html": "<p>Ile najmniej zer należy dopisać do zestawu liczb 1, 2, 3, 4, 5, aby otrzymać zestaw, którego średnia arytmetyczna wszystkich elementów jest mniejsza od 1?</p>",
       "choices": [
@@ -96,7 +97,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Wskaż wyrażenie, którego wartość w zapisie dziesiętnym ma najwięcej cyfr.</p>",
       "choices": [
@@ -135,7 +136,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach",
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Kwadrat wartości wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mn>4</mn><mn>6</mn></msup><msqrt><msup><mn>0,5</mn><mn>7</mn></msup></msqrt></mfrac></math> jest równy</p>",
       "choices": [
@@ -174,8 +176,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "czworokąty",
-        "zliczanie / metody zliczania"
+        "zliczanie / metody zliczania",
+        "czworokąty"
       ],
       "prompt_html": "<p>Dany jest prostokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> o wymiarach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>×</mo><mn>16</mn></math>. Ile jest punktów leżących na bokach tego prostokąta, których odległość od wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> jest dodatnią liczbą naturalną?</p>",
       "choices": [
@@ -292,7 +294,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "zmiany procentowe",
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Pan Wojciech w drugim tygodniu pracy zarobił o 30% więcej niż w pierwszym, a w trzecim tygodniu – o 30% więcej niż w drugim. Jego średni zarobek w ciągu tych trzech tygodni, to 1330 zł na tydzień. W trzecim tygodniu swojej pracy pan Wojciech zarobił</p>",
       "choices": [
@@ -442,7 +445,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "wyłączanie jednomianu przed nawias"
+        "wyrażenia algebraiczne",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msup><mi>x</mi><mn>5</mn></msup><mo>−</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup></math> przyjmuje dla pewnej liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> wartość równą 12. Wyznacz wartość, jaką przyjmuje dla tej samej liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> wyrażenie</p><ul><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,8</mn><msup><mi>x</mi><mn>5</mn></msup><mo>−</mo><mn>0,6</mn><msup><mi>x</mi><mn>2</mn></msup></math>, wartość: ……</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>21</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>28</mn><msup><mi>x</mi><mn>5</mn></msup></math>, wartość: ……</li></ul>",
       "choices": [],
@@ -465,7 +469,6 @@
       "points": 3,
       "topics": [
         "trójkąty",
-        "czworokąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> leży w kwadracie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> o boku długości 20 cm, w odległości 15 cm od boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i 17 cm od wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>. Podaj pola trójkątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCE</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACE</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BDE</mi></math>.</p><ul><li>trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCE</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>BCE</mi></msub></math> = …… cm<sup>2</sup></li><li>trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACE</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>ACE</mi></msub></math> = …… cm<sup>2</sup></li><li>trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BDE</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>BDE</mi></msub></math> = …… cm<sup>2</sup></li></ul>",
@@ -490,6 +493,7 @@
       "type": "open",
       "points": 3,
       "topics": [
+        "wartość bezwzględna",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>|</mo><mi>x</mi><mo>−</mo><mn>7</mn><mo>|</mo><mo>−</mo><mn>4</mn><mo>)</mo><mo>(</mo><mo>|</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>|</mo><mo>−</mo><mn>4</mn><mo>)</mo><mo>=</mo><mn>0</mn></math> spełniają trzy liczby. Są to:</p>",
@@ -513,6 +517,7 @@
       "points": 4,
       "topics": [
         "graniastosłupy",
+        "siatki brył",
         "sześciokąty foremne"
       ],
       "prompt_html": "<p>Z kwadratowej kartki o boku długości 30 cm wycięto siatkę graniastosłupa prawidłowego sześciokątnego w sposób przedstawiony na rysunku. Oblicz objętość tego graniastosłupa.</p>",

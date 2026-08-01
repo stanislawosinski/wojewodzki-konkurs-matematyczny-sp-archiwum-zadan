@@ -71,7 +71,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "układ współrzędnych"
+        "układ współrzędnych",
+        "ułamki"
       ],
       "prompt_html": "<p>Położenie punktów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi></math> na osi określają współrzędne:</p>",
       "choices": [
@@ -130,8 +131,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną",
-        "zagadki logiczne"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Magda i Jacek są rodzeństwem. Magda ma tyle samo braci, co sióstr, a Jacek ma dwa razy więcej sióstr niż braci. Ile dzieci liczy rodzina Magdy i Jacka?</p>",
       "choices": [
@@ -158,6 +158,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "zamiana jednostek",
         "szacowanie (zamiast obliczania)"
       ],
       "prompt_html": "<p>Powierzchnia 999 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>m</mi><mn>2</mn></msup></math> to około:</p>",
@@ -434,8 +435,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "proporcjonalność prosta",
-        "czworokąty",
+        "podobieństwo i skala",
         "pole i obwód"
       ],
       "prompt_html": "<p>Na planie miasta wykonanym w skali <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>:</mo><mn>12&#8239;000</mn></math> zaznaczono park jako prostokąt o wymiarach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2,5</mn><mtext> cm</mtext><mo>×</mo><mn>4,2</mn><mtext> cm</mtext></math>. Ile metrów siatki potrzeba na ogrodzenie tego parku?</p>",
@@ -486,7 +486,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "statystyka opisowa"
+        "statystyka opisowa",
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Asia, Basia, Jasia i Kasia rozwiązywały trudne zadanie matematyczne. W tabeli podano czasy, w jakich dziewczynki uporały się z zadaniem.</p><table><tbody><tr><td>Asia</td><td>7 min. 5 s</td></tr><tr><td>Basia</td><td>552 s</td></tr><tr><td>Jasia</td><td>8 min. 52 s</td></tr><tr><td>Kasia</td><td>443 s</td></tr></tbody></table><p>a) Która dziewczynka najdłużej rozwiązywała zadanie?<br>b) Jaki był średni czas rozwiązywania zadania przez dziewczynki?</p>",
       "choices": [],
@@ -530,7 +531,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "trójkąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>Na rysunku podano wymiary trójkąta prostokątnego, równoległoboku, trapezu prostokątnego i rombu.</p><p>Równe pola mają:</p>",
@@ -578,8 +580,8 @@
       "points": 3,
       "topics": [
         "czworokąty",
-        "pole i obwód",
-        "wyrażenia algebraiczne"
+        "wyrażenia algebraiczne",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Przed szkołą jest klomb w kształcie kwadratu o boku długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. Kwiaty są posadzone tylko w części zamalowanej na rysunku. Zapisz działanie pozwalające na obliczenie pola powierzchni zajmowanego przez kwiaty i doprowadź je do najprostszej postaci.</p>",
       "choices": [],

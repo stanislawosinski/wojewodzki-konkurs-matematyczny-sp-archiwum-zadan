@@ -40,8 +40,9 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki",
         "wzory skróconego mnożenia",
+        "działania na pierwiastkach",
+        "układy równań",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Suma pewnych dwóch liczb jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>24</mn></msqrt></math>, a ich różnica <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>8</mn></msqrt></math>. Wykaż, że iloczyn tych liczb jest równy 4.</p>",
@@ -65,7 +66,7 @@
       "points": 2,
       "topics": [
         "proporcjonalność odwrotna",
-        "równania z jedną zmienną"
+        "ułamki"
       ],
       "prompt_html": "<p>Trzy pompy mają opróżnić basen. Pierwsza pompa samodzielnie opróżniłaby basen w ciągu 15 godzin, druga w ciągu 10 godzin, a trzecia w ciągu 9 godzin. Oblicz, czy trzy pompy pracując jednocześnie zdążą opróżnić ten basen w ciągu 3 godzin.</p>",
       "choices": [],
@@ -87,8 +88,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "graniastosłupy",
-        "potęgi i pierwiastki"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Przekątna sześcianu ma długość 15 cm. Uzupełnij luki:</p><ul><li>A. Krawędź podstawy danego sześcianu ma długość …</li><li>B. Pole powierzchni całkowitej danego sześcianu jest równe …</li><li>C. Objętość danego sześcianu jest równa …</li></ul>",
       "choices": [],
@@ -158,8 +158,9 @@
       "type": "open",
       "points": 1,
       "topics": [
+        "działania na potęgach",
         "podzielność",
-        "potęgi i pierwiastki",
+        "wyłączanie wspólnego czynnika przed nawias",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Wykaż, że liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>8</mn><mo>+</mo><msup><mn>8</mn><mn>2</mn></msup><mo>+</mo><msup><mn>8</mn><mn>3</mn></msup><mo>+</mo><msup><mn>8</mn><mn>4</mn></msup><mo>+</mo><mo>…</mo><mo>+</mo><msup><mn>8</mn><mn>300</mn></msup></mrow><mn>73</mn></mfrac></math> jest liczbą naturalną. Zapisz obliczenia.</p>",
@@ -182,12 +183,9 @@
       "type": "closed_single",
       "points": 4,
       "topics": [
-        "potęgi i pierwiastki",
-        "wzory skróconego mnożenia",
-        "trójkąty",
-        "graniastosłupy",
-        "podzielność",
-        "ułamki"
+        "działania na pierwiastkach",
+        "ułamki",
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>W poniższych zadaniach zamkniętych dokładnie jedna odpowiedź jest poprawna. Wskaż tę odpowiedź otaczając ją kółkiem.</p><p><strong>8.1</strong> Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>2</mn><mo>−</mo><msqrt><mn>5</mn></msqrt><mo>)</mo><mo>·</mo><mo>|</mo><mn>2</mn><mo>−</mo><msqrt><mn>5</mn></msqrt><mo>|</mo></mrow></math> jest równa:</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>1</mn></mrow></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><msqrt><mn>5</mn></msqrt><mo>−</mo><mn>9</mn></mrow></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mo>−</mo><mn>4</mn><msqrt><mn>5</mn></msqrt></mrow></math></li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math></li></ul><p><strong>8.2</strong> Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>A</mi><mn>1</mn></msub></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>B</mi><mn>1</mn></msub></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>C</mi><mn>1</mn></msub></math> o polu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>128</mn><msup><mtext> cm</mtext><mn>2</mn></msup></mrow></math> jest podobny do trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> o polu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>54</mn><msup><mtext> cm</mtext><mn>2</mn></msup></mrow></math>. Skala podobieństwa trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>A</mi><mn>1</mn></msub></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>B</mi><mn>1</mn></msub></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>C</mi><mn>1</mn></msub></math> do trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest równa:</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>8</mn><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow></mfrac></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>16</mn><mn>9</mn></mfrac></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>3</mn></mfrac></math></li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>64</mn><mn>27</mn></mfrac></math></li></ul><p><strong>8.3</strong> Odwrotność liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></mfrac></mrow></mfrac></math> jest równa:</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>5</mn></mfrac></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>8</mn><mn>5</mn></mfrac></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>3</mn></mfrac></math></li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>8</mn></mfrac></math></li></ul><p><strong>8.4</strong> Ile cyfr posiada liczba będąca wynikiem działania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>999</mn></mfrac><mo>·</mo><mo>(</mo><msup><mn>10</mn><mn>2025</mn></msup><mo>−</mo><mn>1</mn><mo>)</mo></mrow></math>?</p><ul><li>A. 675</li><li>B. 2022</li><li>C. 2023</li><li>D. 2024</li></ul><p><strong>8.5</strong> Pewien prostopadłościan, którego długości wszystkich krawędzi wyrażają się liczbami naturalnymi, ma objętość równą 48. Obwód jego podstawy jest równy 22. Najkrótsza krawędź tego prostopadłościanu ma długość:</p><ul><li>A. 1</li><li>B. 2</li><li>C. 3</li><li>D. 4</li></ul>",
       "choices": [],

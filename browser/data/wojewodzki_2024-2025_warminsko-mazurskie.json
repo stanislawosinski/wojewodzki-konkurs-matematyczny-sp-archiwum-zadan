@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Liczba sfeniczna to liczba naturalna, która jest iloczynem trzech różnych liczb pierwszych. Ile jest liczb sfenicznych wśród liczb: 20, 30, 42, 45, 60?</p>",
       "choices": [
@@ -71,8 +71,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "układ współrzędnych",
-        "potęgi i pierwiastki"
+        "układ współrzędnych"
       ],
       "prompt_html": "<p>W układzie współrzędnych dane są punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mo>=</mo><mo>(</mo><mn>2</mn><mo>,</mo><mo>−</mo><mn>4</mn><mo>)</mo></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>B</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>3</mn><mo>,</mo><mn>7</mn><mo>)</mo></mrow></math>. Odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> ma długość:</p>",
       "choices": [
@@ -126,8 +125,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "ułamki",
-        "układ współrzędnych"
+        "ułamki"
       ],
       "prompt_html": "<p>Liczba równa wartości wyrażenia arytmetycznego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>1</mn><mo>−</mo><mfrac><mn>5</mn><mn>6</mn></mfrac><mo>)</mo><mo>−</mo><mn>0,5</mn></mrow></math> znajduje się na osi liczbowej między:</p>",
       "choices": [
@@ -154,7 +152,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "porównywanie potęg i pierwiastków"
       ],
       "prompt_html": "<p>W którym zapisie liczby zapisane są w porządku malejącym?</p>",
       "choices": [
@@ -181,7 +179,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Sumę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>9</mn><mn>30</mn></msup><mo>+</mo><msup><mn>27</mn><mn>20</mn></msup></mrow></math> można zapisać w postaci:</p>",
       "choices": [
@@ -236,7 +235,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest dodatnia, zaś liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest ujemna. Ile spośród liczb: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mi>b</mi><mo>,</mo><mo> </mo><mi>a</mi><mo>−</mo><mi>b</mi><mo>,</mo><mo> </mo><mi>a</mi><mo>:</mo><mi>b</mi><mo>,</mo><mo> </mo><msup><mrow><mo>(</mo><mi>b</mi><mo>−</mo><mi>a</mi><mo>)</mo></mrow><mn>2</mn></msup></mrow></math> jest dodatnich?</p>",
       "choices": [
@@ -290,7 +289,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy"
+        "graniastosłupy",
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Ile litrów wody zmieści się w sześcianie o krawędzi długości 7 cm?</p>",
       "choices": [
@@ -317,7 +317,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy"
+        "siatki brył"
       ],
       "prompt_html": "<p>Piotrek narysował cztery figury składające się z kwadratów i trójkątów równobocznych (rys. poniżej).</p><p>Aby otrzymać z nich siatki graniastosłupa, zamierza dorysować do każdej figury jeden kwadrat albo jeden trójkąt. Z której figury nie da się otrzymać w ten sposób siatki graniastosłupa?</p>",
       "choices": [
@@ -346,9 +346,9 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "kąty",
         "czworokąty",
-        "trójkąty",
-        "kąty"
+        "trójkąty"
       ],
       "prompt_html": "<p>Na rysunku przedstawiono równoległobok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> i trójkąt równoramienny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AED</mi></math>, w którym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>DE</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>AE</mi><mo>|</mo></mrow></math>. Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCE</mi></math> jest równa 106°.</p><p>Jaką miarę ma kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AEC</mi></math>?</p>",
       "choices": [
@@ -377,6 +377,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "ułamki okresowe / rozwinięcia dziesiętne",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Dana jest liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>37,5(123)</mn></math>. Sześcian dwudziestej czwartej cyfry po przecinku tej liczby to:</p>",
@@ -404,8 +405,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "liczby rzymskie",
-        "potęgi i pierwiastki"
+        "liczby rzymskie"
       ],
       "prompt_html": "<p>Jeśli liczbę XLVI podniesiemy do potęgi drugiej to otrzymamy:</p>",
       "choices": [
@@ -432,7 +432,8 @@
       "type": "true_false",
       "points": 5,
       "topics": [
-        "ostrosłupy"
+        "ostrosłupy",
+        "liczba krawędzi, ścian i wierzchołków"
       ],
       "prompt_html": "<p>Przeanalizuj poniższy tekst i na jego podstawie oceń prawdziwość zdań (P – prawda, F – fałsz):</p><p>W ostrosłupie prawidłowym sześciokątnym długość krawędzi podstawy jest równa 2. Pole podstawy tego ostrosłupa jest 12 razy mniejsze od jego pola powierzchni bocznej.</p>",
       "choices": [
@@ -460,8 +461,8 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "trójkąty",
-        "kąty"
+        "kąty",
+        "trójkąty"
       ],
       "prompt_html": "<p>Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest prostokątny i równoramienny. Na przeciwprostokątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> tego trójkąta zbudowano trójkąt równoboczny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACD</mi></math>. Oblicz miary kątów trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABD</mi></math>. Rozważ wszystkie możliwości.</p>",
       "choices": [],
@@ -505,7 +506,8 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "potęgi i pierwiastki",
+        "pierwiastki zagnieżdżone",
+        "wzory skróconego mnożenia",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Na podstawie definicji pierwiastka arytmetycznego sprawdź, czy prawdziwa jest równość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mrow><mn>13</mn><mo>+</mo><mn>4</mn><msqrt><mn>3</mn></msqrt></mrow></msqrt><mo>=</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>1</mn></mrow></math>? Zapisz obliczenia.</p>",

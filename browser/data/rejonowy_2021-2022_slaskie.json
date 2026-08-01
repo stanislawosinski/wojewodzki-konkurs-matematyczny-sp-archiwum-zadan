@@ -17,20 +17,9 @@
       "type": "open",
       "points": 22,
       "topics": [
-        "potęgi i pierwiastki",
-        "NWW / NWD",
-        "podzielność",
-        "liczby rzymskie",
-        "równania z jedną zmienną",
-        "graniastosłupy",
-        "czworokąty",
-        "pole i obwód",
-        "trójkąty",
         "kąty",
-        "procenty",
-        "prędkość / droga / czas",
-        "statystyka opisowa",
-        "inne"
+        "zamiana jednostek",
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>Rozwiąż krzyżówkę, wpisując cyfry w odpowiednie pola. Hasło stanowi ciąg cyfr utworzony z kolejno zapisanych 13 pierwszych wyrazów ciągu Fibonacciego. Hasło nie jest oceniane.</p><p><strong>1)</strong> Iloczyn 5 najmniejszych liczb pierwszych.</p><p><strong>2)</strong> Liczba arów w hektarze.</p><p><strong>3)</strong> Liczba krawędzi graniastosłupa ośmiokątnego.</p><p><strong>4)</strong> Najmniejsza liczba naturalna będąca rozwiązaniem równania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>5</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>3</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>5</mn><mo>)</mo><mo>=</mo><mn>0</mn></mrow></math>.</p><p><strong>5)</strong> Liczba odwrotna do 0,008.</p><p><strong>6)</strong> Wartość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> w równaniu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2</mn><mi>x</mi></msup><mo>=</mo><mn>256</mn></mrow></math>.</p><p><strong>7)</strong> Najmniejsza dwucyfrowa liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, dla której spełniony jest warunek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>NWD</mtext><mo>(</mo><mi>x</mi><mo>,</mo><mn>21</mn><mo>)</mo><mo>=</mo><mn>7</mn></mrow></math>.</p><p><strong>8)</strong> Długość krawędzi sześcianu o przekątnej równej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow></math>.</p><p><strong>9)</strong> Pierwszy rok trzeciego tysiąclecia.</p><p><strong>10)</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>NWW</mtext><mo>(</mo><mn>15</mn><mo>,</mo><mn>42</mn><mo>)</mo></mrow></math>.</p><p><strong>11)</strong> Różnica liczby dni w pierwszym i drugim półroczu roku nieprzestępnego.</p><p><strong>12)</strong> Pole rombu o przekątnych długości 7 i 14.</p><p><strong>13)</strong> Suma kwadratów 5 największych ujemnych liczb całkowitych.</p><p><strong>14)</strong> Średnia arytmetyczna liczb jednocyfrowych, dodatnich.</p><p><strong>15)</strong> Liczba, której 15% wynosi 120.</p><p><strong>16)</strong> Wynik działania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>+</mo><mn>30</mn><mo>−</mo><mn>24</mn><mo>:</mo><mn>3</mn><mo>·</mo><mn>2</mn></mrow></math>.</p><p><strong>17)</strong> Najmniejsza liczba trzycyfrowa podzielna przez 6.</p><p><strong>18)</strong> Przybliżenie do całości liczby 144,99.</p><p><strong>19)</strong> Miara kąta przy podstawie trójkąta równoramiennego, którego ramiona tworzą kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mo>°</mo></mrow></math>.</p><p><strong>20)</strong> Prędkość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>20</mn><mfrac><mtext>m</mtext><mtext>s</mtext></mfrac></mrow></math> wyrażona w <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac></math>.</p><p><strong>21)</strong> Liczba DXXXI zapisana cyframi arabskimi.</p><p><strong>22)</strong> Miara kąta przyległego do kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>147</mn><mo>°</mo></mrow></math>.</p>",
       "choices": [],
@@ -93,7 +82,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Ceny dwóch pralek A i B były jednakowe. Cenę pralki A obniżono o 20%, a cenę pralki B podwyższono o 10%. Po zmianach cena pralki B jest wyższa od ceny pralki A o</p>",
       "choices": [
@@ -132,7 +121,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Jedna czwarta liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>8</mn><mn>16</mn></msup></math> jest równa</p>",
       "choices": [
@@ -171,6 +160,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "ułamki okresowe / rozwinięcia dziesiętne",
         "ułamki"
       ],
       "prompt_html": "<p>Najmniejszą liczbę odwrotną spośród liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>,</mo><mo>(</mo><mn>2</mn><mo>)</mo></mrow></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>18</mn><mn>17</mn></mfrac></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2,1</mn></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mfrac><mn>3</mn><mn>7</mn></mfrac></mrow></math> ma</p>",
@@ -250,7 +240,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "ostatnia cyfra / cykliczność potęg",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Ostatnią cyfrą liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2022</mn><mn>2021</mn></msup></math> jest</p>",
@@ -290,7 +280,7 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "potęgi i pierwiastki"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>W poniższych zdaniach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> jest liczbą ujemną.</p><p>Oceń, czy podane zdania są prawdziwe, czy fałszywe.</p>",
       "choices": [
@@ -329,8 +319,8 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "nierówności",
-        "potęgi i pierwiastki"
+        "porównywanie potęg i pierwiastków",
+        "nierówności"
       ],
       "prompt_html": "<p>Dane są liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>.</p><p>Oceń, czy podane zdania są prawdziwe, czy fałszywe.</p>",
       "choices": [
@@ -450,8 +440,9 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "potęgi i pierwiastki",
-        "usuwanie niewymierności z mianownika"
+        "działania na pierwiastkach",
+        "usuwanie niewymierności z mianownika",
+        "szacowanie (zamiast obliczania)"
       ],
       "prompt_html": "<p>Oceń, czy podane zdania są prawdziwe, czy fałszywe.</p>",
       "choices": [
@@ -513,8 +504,8 @@
       "points": 3,
       "topics": [
         "czworokąty",
-        "pole i obwód",
-        "usuwanie niewymierności z mianownika"
+        "usuwanie niewymierności z mianownika",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Oblicz pole kwadratu, w którym przekątna jest o 2 dm dłuższa od boku.</p>",
       "choices": [],
@@ -558,7 +549,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "graniastosłupy"
+        "graniastosłupy",
+        "siatki brył"
       ],
       "prompt_html": "<p>Wykonano cztery jednakowe modele sześcianu. Siatka każdego z nich ma obwód 28 cm. Następnie sklejono te sześciany tak, że utworzyły prostopadłościan. Oblicz pole powierzchni tego prostopadłościanu. Rozważ dwa przypadki.</p>",
       "choices": [],

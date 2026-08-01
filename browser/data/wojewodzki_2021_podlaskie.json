@@ -56,8 +56,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty",
-        "kąty"
+        "kąty",
+        "trójkąty"
       ],
       "prompt_html": "<p>Geodeta próbował zmierzyć w terenie kąt δ (rysunek obok). Ze względu na warunki terenowe nie było to możliwe, więc zmierzył kąty oznaczone na rysunku przez α, β, γ i otrzymał: α = 22°, β = 37°, γ = 46°. Kąt δ ma miarę</p>",
       "choices": [
@@ -177,7 +177,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Iloczyn trzech liczb jest równy 54. Pierwszą liczbę zwiększono dwa razy, drugą zmniejszono dziewięć razy, a trzecią zwiększono pięć razy. Nowy iloczyn jest równy</p>",
       "choices": [
@@ -216,6 +216,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "podobieństwo i skala",
         "trójkąty"
       ],
       "prompt_html": "<p>Czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> jest kwadratem. Trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDG</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EBF</mi></math> są podobne. Skala podobieństwa większego z nich do mniejszego jest równa</p>",
@@ -257,8 +258,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty",
-        "dwusieczna kąta / symetralna odcinka"
+        "kąty",
+        "trójkąty"
       ],
       "prompt_html": "<p>W trójkącie o kątach 30°, 60°, 90° poprowadzono dwusieczną jednego kąta, która podzieliła ten trójkąt na dwa trójkąty. Jeżeli jeden z powstałych trójkątów jest trójkątem równoramiennym, to miary kątów drugiego z nich są równe:</p>",
       "choices": [
@@ -297,7 +298,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "bryły obrotowe"
       ],
       "prompt_html": "<p>Jeżeli stożek ma średnicę podstawy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> i wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi></math>, to jego objętość jest równa</p>",
       "choices": [
@@ -337,8 +338,7 @@
       "points": 1,
       "topics": [
         "koła / okręgi",
-        "procenty",
-        "pole i obwód"
+        "procenty"
       ],
       "prompt_html": "<p>Jaki procent powierzchni koła zamalowano (rysunek obok)?</p>",
       "choices": [
@@ -457,7 +457,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "notacja wykładnicza",
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Ile razy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>3</mn></msup></math> cm jest większe od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mrow><mo>−</mo><mn>3</mn></mrow></msup></math> km?</p>",
       "choices": [
@@ -535,8 +536,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "układ współrzędnych",
-        "czworokąty"
+        "układ współrzędnych"
       ],
       "prompt_html": "<p>Marysia narysowała w układzie współrzędnych równoległobok nr 1. Kolejne przystające do niego równoległoboki rysowała według zasady (rysunek): <em>środek górnego boku ostatnio narysowanego równoległoboku to dolny lewy wierzchołek następnego równoległoboku</em>. W ten sposób Marysia narysowała <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> równoległoboków. Współrzędna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> prawego górnego wierzchołka równoległoboku o numerze <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest równa</p>",
       "choices": [
@@ -577,7 +577,6 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kombinatoryka",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Na ile sposobów spośród 8 dziewcząt i 10 chłopców można losowo wybrać czteroosobową delegację do sztafety mieszanej 4 × 100 m, w skład której wejdą trzy dziewczynki i jeden chłopiec rozpoczynający sztafetę?</p>",
@@ -619,8 +618,7 @@
       "topics": [
         "czworokąty",
         "układ współrzędnych",
-        "pole i obwód",
-        "potęgi i pierwiastki"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Ile wynoszą pole i obwód kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>, którego środkiem symetrii jest punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>O</mi><mo>=</mo><mo>(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo>)</mo></mrow></math>, a wierzchołek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> ma współrzędne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>0</mn><mo>,</mo><mo>−</mo><mn>8</mn><mo>)</mo></mrow></math>?</p>",
       "choices": [
@@ -699,7 +697,7 @@
       "points": 1,
       "topics": [
         "usuwanie niewymierności z mianownika",
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Jeżeli usuniemy niewymierność z mianownika ułamka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msqrt><mn>8</mn></msqrt><mo>+</mo><msqrt><mn>6</mn></msqrt></mrow><msqrt><mn>2</mn></msqrt></mfrac></math>, to otrzymamy liczbę równą</p>",
       "choices": [
@@ -738,7 +736,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy"
+        "liczba krawędzi, ścian i wierzchołków"
       ],
       "prompt_html": "<p>Suma liczby ścian, krawędzi i wierzchołków pewnego graniastosłupa jest równa 44. Podstawą tego graniastosłupa jest</p>",
       "choices": [
@@ -778,7 +776,8 @@
       "points": 2,
       "topics": [
         "pierścień kołowy",
-        "koła / okręgi"
+        "koła / okręgi",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Rysunek przedstawia trzy współśrodkowe okręgi, z których dwa o promieniach 4 cm i 8 cm wyznaczają szary pierścień. Oblicz promień okręgu zaznaczonego przerywaną linią, który dzieli szary pierścień na dwa pierścienie o równych polach.</p>",
       "choices": [],
@@ -803,6 +802,7 @@
       "points": 2,
       "topics": [
         "równania z jedną zmienną",
+        "wyłączanie wspólnego czynnika przed nawias",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Korzystając ze wzoru <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>=</mo><mfrac><mrow><mi>n</mi><mi>p</mi></mrow><mrow><mi>n</mi><mi>r</mi><mo>−</mo><mi>s</mi></mrow></mfrac></mrow></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mi>r</mi><mo>≠</mo><mi>s</mi></mrow></math>, wykaż, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mi>s</mi></mrow><mrow><mn>2</mn><mi>r</mi><mo>−</mo><mi>p</mi></mrow></mfrac></mrow></math> dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>r</mi><mo>≠</mo><mi>p</mi></mrow></math>.</p>",
@@ -825,7 +825,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "bryły"
+        "bryły obrotowe"
       ],
       "prompt_html": "<p>Ołowianą półkulę o promieniu 6 cm przetopiono i z otrzymanego materiału odlano stożek o promieniu podstawy 4 cm. Wyznacz wysokość tego stożka.</p>",
       "choices": [],

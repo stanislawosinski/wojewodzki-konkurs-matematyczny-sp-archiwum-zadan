@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Najmniejszą liczbą naturalną, którą można przedstawić na dwa sposoby w postaci sumy dwóch różnych liczb pierwszych jest:</p>",
       "choices": [
@@ -44,7 +44,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Kwadratem pewnej liczby naturalnej jest liczba:</p>",
       "choices": [
@@ -181,6 +181,7 @@
       "points": 1,
       "topics": [
         "symetrie",
+        "układ współrzędnych",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> są symetryczne względem osi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> prostokątnego układu współrzędnych. Punkty te mają współrzędne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>(</mo><mn>3</mn><mo>,</mo><mn>2</mn><mi>m</mi><mo>+</mo><mn>3</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mo>(</mo><mn>4</mn><mi>k</mi><mo>−</mo><mn>1</mn><mo>,</mo><mn>7</mn><mo>−</mo><mn>2</mn><mi>m</mi><mo>)</mo></math>. Stąd:</p>",
@@ -264,7 +265,8 @@
       "points": 1,
       "topics": [
         "trójkąty",
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach",
+        "wzory skróconego mnożenia"
       ],
       "prompt_html": "<p>W trójkącie prostokątnym przyprostokątne mają długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>+</mo><msqrt><mn>7</mn></msqrt></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>−</mo><msqrt><mn>7</mn></msqrt></math>. Przeciwprostokątna tego trójkąta ma długość:</p>",
       "choices": [
@@ -319,7 +321,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "kąty"
       ],
       "prompt_html": "<p>Stosunek miar kątów wewnętrznych pewnego trójkąta jest równy 2:7:9. Jest to trójkąt:</p>",
       "choices": [
@@ -458,7 +461,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Julia miała za zadanie powiększyć pewną liczbę o 20%, ale przez pomyłkę zmniejszyła tę liczbę o 20%. O ile procent musi teraz powiększyć otrzymaną liczbę, aby uzyskać początkowo oczekiwany wynik?</p>",
       "choices": [
@@ -485,8 +488,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy",
-        "proporcjonalność prosta"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Stosunek długości trzech krawędzi prostopadłościanu o wspólnym wierzchołku wynosi 2 : 3 : 5. Jakie jest pole powierzchni tego prostopadłościanu, jeśli jego objętość wynosi 810?</p>",
       "choices": [
@@ -540,8 +542,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty",
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "procenty"
       ],
       "prompt_html": "<p>25% grupy sportowców to bruneci. Blondynów jest o dwóch więcej niż brunetów, a 14 osób to szatyni. Ilu sportowców jest w tej grupie?</p>",
       "choices": [
@@ -596,7 +598,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "notacja wykładnicza",
         "szacowanie (zamiast obliczania)"
       ],
       "prompt_html": "<p>Która liczba po zaokrągleniu równa jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7,6</mn><mo>·</mo><msup><mn>10</mn><mn>6</mn></msup></math>?</p>",
@@ -624,8 +626,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "równania z jedną zmienną",
-        "procenty"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Hodowca kur przyniósł na targ 100 jajek, które chciał sprzedać za 64 złote. Gdy sprzedał dwie piąte wszystkich jajek spostrzegł, że część pozostałych jajek jest popękanych. Nie mógł ich sprzedać i odłożył je na bok. Jednak, aby zarobić zamierzone 64 złote, pozostałe nieuszkodzone jajka sprzedał po 80 groszy za sztukę. Ile było popękanych jajek?</p>",
       "choices": [],
@@ -648,8 +649,7 @@
       "points": 4,
       "topics": [
         "trójkąty",
-        "nierówności",
-        "potęgi i pierwiastki"
+        "nierówności"
       ],
       "prompt_html": "<p>Dwaj podróżni wyruszają jednocześnie z miasta. Jeden na wschód, drugi na północ. Każdy z nich przebywa dziennie po 40 km. Po ilu maksymalnie dniach odległość między nimi będzie mniejsza niż 600 km?</p>",
       "choices": [],
@@ -671,7 +671,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "graniastosłupy",
+        "podobieństwo i skala",
         "proporcjonalność prosta"
       ],
       "prompt_html": "<p>Kostka mydła ma kształt prostopadłościanu. Piotr zauważył, że po 19 dniach wszystkie wymiary mydła zmniejszyły się o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> swych początkowych wartości. Na ile jeszcze dni wystarczy tego mydła Piotrowi, jeżeli będzie je zużywać w takim samym tempie jak dotychczas? Zapisz obliczenia.</p>",
@@ -695,8 +695,9 @@
       "points": 2,
       "topics": [
         "podzielność",
-        "dowodzenie / dowody",
-        "wzory skróconego mnożenia"
+        "wzory skróconego mnożenia",
+        "wyłączanie wspólnego czynnika przed nawias",
+        "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Uzasadnij, że suma kwadratów dwóch kolejnych liczb parzystych zwiększona o 4 jest zawsze podzielna przez 8.</p>",
       "choices": [],
@@ -718,8 +719,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "układy równań",
-        "równania z jedną zmienną"
+        "podzielność",
+        "układy równań"
       ],
       "prompt_html": "<p>W skład pociągu wchodzą wagony pierwszej i drugiej klasy. W wagonie drugiej klasy znajduje się 12 przedziałów po 8 miejsc, w wagonie pierwszej klasy znajduje się 10 przedziałów po 6 miejsc. W pociągu znajduje się 624 pasażerów przy czym w wagonach drugiej klasy zostało 20 miejsc wolnych, natomiast w wagonach pierwszej klasy zostało 16 miejsc wolnych. Z ilu wagonów pierwszej klasy oraz z ilu wagonów drugiej klasy składał się pociąg?</p>",
       "choices": [],

@@ -102,7 +102,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "ostrosłupy"
+        "liczba krawędzi, ścian i wierzchołków"
       ],
       "prompt_html": "<p>Wszystkie krawędzie ostrosłupa są równej długości i ich długość jest całkowitą liczbą centymetrów. Suma długości tych krawędzi jest równa 6. Wówczas podstawą ostrosłupa jest:</p>",
       "choices": [
@@ -186,7 +186,7 @@
       "points": 1,
       "topics": [
         "wzory skróconego mnożenia",
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>6</mn><mi>x</mi><mo>+</mo><mn>9</mn></math> dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>3</mn></math> jest równa:</p>",
       "choices": [
@@ -241,6 +241,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "wartość bezwzględna",
         "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Wiadomo, że liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> spełnia warunek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>&lt;</mo><mi>a</mi><mo>&lt;</mo><mn>10</mn></math>. Wówczas wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>a</mi><mo>−</mo><mn>10</mn><mo>|</mo><mo>−</mo><mo>|</mo><mi>a</mi><mo>+</mo><mn>10</mn><mo>|</mo></math> przyjmuje wartość:</p>",
@@ -319,8 +320,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "procenty",
-        "układy równań"
+        "układy równań",
+        "procenty"
       ],
       "prompt_html": "<p>Jacek i Wacek porównali swoje oszczędności, po czym Jacek powiedział: razem mamy 504 złote. Gdybym dał Tobie 20% moich oszczędności, to miałbyś wówczas o 10% większą kwotę niż ja. Oblicz, jaki procent oszczędności Jacka stanowią oszczędności Wacka.</p>",
       "choices": [],
@@ -388,7 +389,7 @@
       "points": 4,
       "topics": [
         "podzielność",
-        "procenty"
+        "ułamki"
       ],
       "prompt_html": "<p>Podczas szkolnych zawodów sportowych, w których uczestniczyło więcej niż 100, ale mniej niż 150 dzieci zorganizowano przerwę na posiłek. Wszystkie dzieci usiadły przy 27 stolikach, przy każdym po tyle samo osób. Oblicz, ile dziewczynek uczestniczyło w zawodach, jeżeli chłopcy stanowili <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>12</mn></mfrac></math> liczby wszystkich zawodników.</p>",
       "choices": [],
@@ -410,8 +411,8 @@
       "type": "open",
       "points": 6,
       "topics": [
+        "podobieństwo i skala",
         "trójkąty",
-        "proporcjonalność prosta",
         "pole i obwód"
       ],
       "prompt_html": "<p>Państwo Nowakowie przeznaczyli 26000 zł na zakup działki. Do jednej z ofert dołączono rysunek dwóch przylegających do siebie działek w skali 1:1000. Jeden metr kwadratowy gruntu w tej ofercie kosztuje 35 zł. Oblicz, czy przeznaczona przez państwa Nowaków kwota wystarczy na zakup działki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>2</mn></msub></math>.</p><p>Dane: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>AE</mi><mo>|</mo><mo>=</mo><mn>5</mn></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>EC</mi><mo>|</mo><mo>=</mo><mn>13</mn></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>BC</mi><mo>|</mo><mo>=</mo><mn>6,5</mn></math> cm.</p>",
@@ -436,8 +437,9 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki",
-        "równania z jedną zmienną"
+        "działania na potęgach",
+        "równania z jedną zmienną",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Rozwiąż równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>23</mn></msup><mi>x</mi><mo>−</mo><msup><mn>32</mn><mn>9</mn></msup><mi>x</mi><mo>=</mo><msup><mn>16</mn><mn>4</mn></msup><mo>·</mo><msup><mrow><mo>(</mo><msup><mn>4</mn><mn>4</mn></msup><mo>)</mo></mrow><mn>4</mn></msup></math></p>",
       "choices": [],

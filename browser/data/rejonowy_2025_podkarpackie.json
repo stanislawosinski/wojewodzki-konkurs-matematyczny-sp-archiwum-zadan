@@ -17,8 +17,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "trójkąty",
-        "potęgi i pierwiastki"
+        "trójkąty"
       ],
       "prompt_html": "<p>Na płaszczyźnie znajdują się punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>. Oblicz długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math>, wiedząc, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>2</mn></mrow></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>BC</mi><mo>|</mo><mo>=</mo><mn>5</mn></mrow></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>BD</mi><mo>|</mo><mo>=</mo><mn>12</mn></mrow></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>CD</mi><mo>|</mo><mo>=</mo><mn>13</mn></mrow></math> cm oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AD</mi><mo>|</mo><mo>=</mo><mn>14</mn></mrow></math> cm.</p>",
       "choices": [],
@@ -63,7 +62,8 @@
       "points": 2,
       "topics": [
         "symetrie",
-        "dwusieczna kąta / symetralna odcinka"
+        "dwusieczna kąta / symetralna odcinka",
+        "układ współrzędnych"
       ],
       "prompt_html": "<p>W układzie współrzędnych znajdują się punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mo>=</mo><mo>(</mo><mn>2</mn><mo>,</mo><mn>1</mn><mo>)</mo></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>B</mi><mo>=</mo><mo>(</mo><mn>4</mn><mo>,</mo><mn>3</mn><mo>)</mo></mrow></math>. Wyznacz wszystkie punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> leżące na osi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>OY</mi></math> i mające następującą własność: figura złożona z trzech punktów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> ma oś symetrii.</p>",
       "choices": [],
@@ -132,8 +132,9 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki",
-        "podzielność"
+        "działania na potęgach",
+        "podzielność",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Dane są pewne liczby naturalne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math>, dla których <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>3</mn><mi>n</mi></msup><mo>−</mo><mn>2</mn><mo>·</mo><msup><mn>3</mn><mi>m</mi></msup><mo>=</mo><mn>2025</mn></mrow></math>. Wyznacz wartość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>.</p>",
       "choices": [],
@@ -155,7 +156,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "potęgi i pierwiastki",
+        "pierwiastki zagnieżdżone",
         "wzory skróconego mnożenia",
         "dowodzenie / dowody"
       ],
@@ -201,9 +202,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "ostrosłupy",
-        "trójkąty",
-        "potęgi i pierwiastki"
+        "ostrosłupy"
       ],
       "prompt_html": "<p>Oblicz objętość ostrosłupa, którego siatka, złożona z kwadratu i czterech trójkątów prostokątnych, jest przedstawiona na rysunku. Przyjmij, że bok kwadratu ma długość 6cm, a najdłuższa krawędź ostrosłupa ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msqrt><mn>34</mn></msqrt></mrow></math> cm.</p>",
       "choices": [],

@@ -17,8 +17,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "równania z jedną zmienną",
-        "wzory skróconego mnożenia"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Wyznacz wartość parametru <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> wiedząc, że liczba 2 jest rozwiązaniem równania:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>(</mo><mi>a</mi><mo>+</mo><mn>3</mn><mi>x</mi><mo>)</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>−</mo><mn>4</mn><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><mn>2</mn><mi>x</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>80</mn></mrow></math></p>",
       "choices": [],
@@ -62,8 +61,8 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "podzielność",
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "podzielność"
       ],
       "prompt_html": "<p>Wyznacz wszystkie pary liczb całkowitych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, dla których funkcje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>2</mn><mi>x</mi><mo>+</mo><mi>b</mi></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mi>a</mi><mi>x</mi><mo>+</mo><mn>3</mn></mrow></math> mają takie samo miejsce zerowe?</p>",
       "choices": [],
@@ -85,7 +84,9 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki",
+        "pierwiastki zagnieżdżone",
+        "działania na pierwiastkach",
+        "wzory skróconego mnożenia",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Uzasadnij, że liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><msqrt><mrow><mn>4</mn><mo>−</mo><msqrt><mn>15</mn></msqrt></mrow></msqrt></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><msqrt><mrow><mn>4</mn><mo>+</mo><msqrt><mn>15</mn></msqrt></mrow></msqrt></mrow></math> są wzajemnie odwrotne.</p>",
@@ -131,7 +132,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki",
+        "ujemny wykładnik",
+        "działania na potęgach",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Rozwiąż równanie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>)</mo></mrow><mrow><mn>3</mn><mi>x</mi><mo>−</mo><mn>5</mn></mrow></msup><mo>=</mo><msup><mrow><mo>(</mo><mfrac><mn>5</mn><mn>2</mn></mfrac><mo>)</mo></mrow><mrow><mn>5</mn><mi>x</mi><mo>−</mo><mn>3</mn></mrow></msup></mrow></math></p>",
@@ -155,9 +157,8 @@
       "points": 3,
       "topics": [
         "czworokąty",
-        "trójkąty",
-        "pole i obwód",
-        "usuwanie niewymierności z mianownika"
+        "usuwanie niewymierności z mianownika",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Jedna z przekątnych oraz bok rombu mają taką samą długość. Pole tego rombu jest równe 2 cm<sup>2</sup>. Oblicz długość boku rombu.</p>",
       "choices": [],
@@ -179,7 +180,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Wewnątrz trójkąta równobocznego o boku długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><msqrt><mn>3</mn></msqrt></mrow></math> obrano punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math>. Oblicz sumę odległości punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> od wszystkich boków tego trójkąta.</p>",
       "choices": [],

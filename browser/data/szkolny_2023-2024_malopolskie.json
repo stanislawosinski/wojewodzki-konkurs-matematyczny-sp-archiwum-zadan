@@ -17,8 +17,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "podzielność",
-        "zliczanie / metody zliczania"
+        "zliczanie / metody zliczania",
+        "podzielność"
       ],
       "prompt_html": "<p>Ile jest liczb naturalnych dwucyfrowych, których iloczyn cyfr jest liczbą podzielną przez 3?</p>",
       "choices": [
@@ -57,8 +57,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "podzielność",
-        "ułamki"
+        "ułamki okresowe / rozwinięcia dziesiętne"
       ],
       "prompt_html": "<p>Dana jest liczba wymierna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi><mo>=</mo><mn>0</mn><mo>,</mo><mi>x</mi><mo>(</mo><mn>35</mn><mo>)</mo></math>, w której <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> jest pewną cyfrą. W rozwinięciu dziesiętnym iloczynu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>110</mn><mo>·</mo><mi>z</mi></math> dodano do siebie cyfry występujące przed przecinkiem i cyfrę, z której składa się okres. Otrzymana suma jest wielokrotnością liczby 11. Ile jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>?</p>",
       "choices": [
@@ -97,7 +96,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "procenty"
+        "stężenie procentowe / mieszaniny"
       ],
       "prompt_html": "<p>Aby zaparzyć herbatkę malinową, do filiżanki wsypano susz z malin, dolano wrzącą wodę i dosypano cukier. Masa suszu z malin stanowiła 2,5% masy dolanej wody, a masa cukru stanowiła 5% masy dolanej wody. Po pewnym czasie z herbatki malinowej odparowało 7,5% masy dolanej wody. Ile procent masy herbatki, po tym odparowaniu wody, stanowi teraz masa suszu z malin?</p>",
       "choices": [
@@ -136,7 +135,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "procenty",
+        "zmiany procentowe",
+        "wyrażenia algebraiczne",
         "statystyka opisowa"
       ],
       "prompt_html": "<p>Dane są trzy liczby naturalne dodatnie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>. Dwie spośród tych liczb zwiększono o 10%, a jedną z nich zmniejszono o 10% i średnia arytmetyczna utworzonych w ten sposób nowych liczb jest taka sama, jak średnia liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>. Wybierz zdanie prawdziwe.</p>",
@@ -215,8 +215,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "zagadki logiczne",
-        "zliczanie / metody zliczania"
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Ile razy w lutym 2023 roku wskazówki minutowa i godzinowa pokryły się na prawidłowo chodzącym zegarze?</p>",
       "choices": [
@@ -259,7 +258,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "kąty"
+        "wielokąty"
       ],
       "prompt_html": "<p>Suma miar kątów wewnętrznych pewnego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>-kąta foremnego jest największą możliwą liczbą naturalną, mniejszą niż 2023. Ile jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>?</p>",
       "choices": [
@@ -302,7 +301,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki",
+        "działania na potęgach",
         "pole i obwód"
       ],
       "prompt_html": "<p>Odcinek o długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> podzielono na pięć równych odcinków. Z czterech odcinków powstałych w wyniku tego podziału zbudowano pierwszy kwadrat o boku długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mn>5</mn></mfrac></math>, a piąty odcinek ponownie podzielono na pięć równych odcinków. Z uzyskanych w ten sposób czterech odcinków zbudowano drugi kwadrat, a piąty, niewykorzystany odcinek ponownie podzielono na pięć równych odcinków. Zbudowano w ten sposób 64 kwadraty. Ile jest równe pole ostatniego kwadratu?</p>",
@@ -346,8 +345,9 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "wyłączanie jednomianu przed nawias",
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "wyrażenia algebraiczne",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>3</mn></msup><msup><mi>y</mi><mn>4</mn></msup><msup><mi>z</mi><mn>5</mn></msup><mo>+</mo><msup><mi>x</mi><mn>4</mn></msup><msup><mi>y</mi><mn>5</mn></msup><msup><mi>z</mi><mn>3</mn></msup><mo>+</mo><msup><mi>x</mi><mn>5</mn></msup><msup><mi>y</mi><mn>3</mn></msup><msup><mi>z</mi><mn>4</mn></msup></math> jest równe</p>",
       "choices": [
@@ -522,7 +522,8 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>W dwóch hurtowniach było po tyle samo sztuk dyń. Kiedy w pierwszej hurtowni sprzedano najpierw 150 sztuk dyń, a potem jeszcze dwie trzecie pozostałych, a w drugiej sprzedano tyle sztuk dyń, ile wynosi dwukrotność największej liczby pierwszej mniejszej od 100, to okazało się, że w obu hurtowniach pozostało nadal tyle samo sztuk dyń. Ile sztuk dyń po tej sprzedaży pozostało łącznie w obu hurtowniach?</p>",
       "choices": [
@@ -608,8 +609,9 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "podzielność",
-        "reszta z dzielenia"
+        "liczby pierwsze",
+        "reszta z dzielenia",
+        "podzielność"
       ],
       "prompt_html": "<p>Dane są cztery kolejne liczby naturalne, wśród których tylko jedna liczba dzieli się przez 3. Skreślamy tę liczbę. Suma pozostałych trzech liczb jest równa 38. Ile jest liczb pierwszych wśród tych pozostałych, nieskreślonych trzech liczb?</p>",
       "choices": [

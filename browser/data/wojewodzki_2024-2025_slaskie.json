@@ -17,7 +17,8 @@
       "type": "open",
       "points": 20,
       "topics": [
-        "inne"
+        "geometria",
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>Rozwiąż krzyżówkę, wpisując litery w odpowiednie pola. Hasło to nazwa dziedziny matematyki, z którą stykasz się podczas lekcji tego przedmiotu w szkole. Hasło nie jest oceniane.</p><ol><li>Zbiór wszystkich punktów płaszczyzny równoodległych od określonego punktu tej płaszczyzny.</li><li>10 razy więcej niż promil.</li><li>Punkt wspólny kilku krawędzi graniastosłupa.</li><li>Równoległobok, który nie jest prostokątem, a jego przekątne przecinają się pod kątem prostym.</li><li>Jej interpretacją geometryczną jest odległość punktu na osi liczbowej od punktu o współrzędnej zero.</li><li>Czworokąt, który ma dokładnie jedną parę boków równoległych.</li><li>Dwa kąty wypukłe, które mają jedno ramię wspólne, a pozostałe ramiona tworzą prostą.</li><li>Prosta, która jest geometryczną interpretacją zbioru liczb rzeczywistych.</li><li>Jednostka pola równa 100 arom.</li><li>Jest nią licznik ułamka rozumianego jako zapis dzielenia.</li><li>Bryła, której przykładem jest czworościan.</li><li>Wielokąt, w którym suma miar kątów wewnętrznych wynosi 180°.</li><li>Prosta prostopadła do odcinka i przechodząca przez jego środek.</li><li>Liczba 8 w zapisie potęgi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>8</mn></msup></math>.</li><li>Np. bok wielokąta albo krawędź graniastosłupa.</li><li>Liczba, która jest jednocześnie zapisem dzielenia.</li><li>Wyrażenie typu: 5 + 8 lub x + 2y.</li><li>Kąt utworzony przez przekątne kwadratu.</li><li>Liczba w ułamku zwykłym zawsze różna od zera.</li><li>Wielkość, której długość we wzorze na długość okręgu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>S</mi><mo>=</mo><mi>π</mi><mi>d</mi></mrow></math> oznaczona jest literą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math>.</li></ol>",
       "choices": [],
@@ -39,7 +40,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "ułamki"
+        "ułamki okresowe / rozwinięcia dziesiętne",
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Ile spośród odwrotności kolejnych pięciu liczb pierwszych, począwszy od 3, ma w zapisie dziesiętnym, w rzędzie części dziesiątych cyfrę parzystą?</p>",
       "choices": [
@@ -78,7 +80,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy"
+        "liczba krawędzi, ścian i wierzchołków"
       ],
       "prompt_html": "<p>Pewien graniastosłup prosty ma o 16 więcej krawędzi niż ścian. Graniastosłup ten ma</p>",
       "choices": [
@@ -117,7 +119,6 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kombinatoryka",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Ile różnych liczb czterocyfrowych można utworzyć z cyfr użytych do zapisu bieżącego roku (w każdej liczbie muszą wystąpić: dwie cyfry „2”, jedna cyfra „0” i jedna cyfra „5”)?</p>",
@@ -236,7 +237,7 @@
       "points": 1,
       "topics": [
         "sześciokąty foremne",
-        "potęgi i pierwiastki"
+        "czworokąty"
       ],
       "prompt_html": "<p>Sześciokąt foremny o boku długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> podzielono na trzy jednakowe romby. Suma długości przekątnych w każdym rombie jest równa</p>",
       "choices": [
@@ -275,8 +276,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty",
-        "równania z jedną zmienną"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Cena bluzki wzrosła o 10%, a następnie spadła o 20%. Po tych dwóch zmianach cena bluzki była o 6 złotych mniejsza niż cena początkowa. Na początku bluzka kosztowała</p>",
       "choices": [
@@ -315,7 +315,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "ostrosłupy"
+        "ostrosłupy",
+        "podobieństwo i skala"
       ],
       "prompt_html": "<p>Ostrosłupy prawidłowe sześciokątne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>O</mi><mn>1</mn></msub></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>O</mi><mn>2</mn></msub></math> mają takie same wysokości. Krawędź podstawy ostrosłupa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>O</mi><mn>1</mn></msub></math> jest dwa razy dłuższa od krawędzi podstawy ostrosłupa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>O</mi><mn>2</mn></msub></math>. Stosunek objętości ostrosłupa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>O</mi><mn>1</mn></msub></math> do objętości ostrosłupa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>O</mi><mn>2</mn></msub></math> jest równy</p>",
       "choices": [
@@ -354,8 +355,10 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "potęgi i pierwiastki",
-        "podzielność"
+        "działania na potęgach",
+        "wyłączanie czynnika przed znak pierwiastka",
+        "podzielność",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Dana jest liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><msup><mn>2</mn><mn>7</mn></msup><mo>+</mo><msup><mn>2</mn><mn>8</mn></msup><mo>+</mo><msup><mn>2</mn><mn>10</mn></msup></mrow></math>.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F, jeśli jest fałszywe.</p>",
       "choices": [
@@ -394,6 +397,7 @@
       "type": "true_false",
       "points": 4,
       "topics": [
+        "czworokąty",
         "układ współrzędnych",
         "pole i obwód"
       ],
@@ -540,6 +544,7 @@
       "points": 3,
       "topics": [
         "czworokąty",
+        "kąty",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>W trapezie równoramiennym przekątna jest prostopadła do ramienia i dzieli kąt ostry tego trapezu na dwa kąty o równej mierze. Uzasadnij, że jedna podstawa tego trapezu jest dwa razy dłuższa od drugiej podstawy. Zapisz obliczenia.</p>",
@@ -563,7 +568,7 @@
       "points": 3,
       "topics": [
         "proporcjonalność odwrotna",
-        "równania z jedną zmienną"
+        "ułamki"
       ],
       "prompt_html": "<p>Basen napełniany jest przez dwa niezależne krany. Pierwszy z nich napełnia pusty basen wodą w ciągu 2 godzin, a drugi napełnia pusty basen w ciągu 3 godzin. Oblicz, ile czasu potrzeba na napełnienie pustego basenu, jeśli odkręcimy obydwa krany jednocześnie. Zapisz obliczenia.</p>",
       "choices": [],
@@ -611,8 +616,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "ostrosłupy",
-        "potęgi i pierwiastki"
+        "ostrosłupy"
       ],
       "prompt_html": "<p>Figura na zamieszczonym rysunku jest siatką ostrosłupa prawidłowego czworokątnego. Wiedząc, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>2</mn></mrow></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>EF</mi><mo>|</mo><mo>=</mo><mn>4</mn><msqrt><mn>2</mn></msqrt></mrow></math> cm, oblicz pole powierzchni bocznej tego ostrosłupa. Zapisz obliczenia.</p>",
       "choices": [],

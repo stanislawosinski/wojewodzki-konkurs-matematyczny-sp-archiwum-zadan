@@ -95,7 +95,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Wskaż liczbę, której pierwiastek kwadratowy jest większy od niej samej.</p>",
       "choices": [
@@ -134,7 +134,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "zagadki logiczne"
       ],
       "prompt_html": "<p>Różnica między największą i najmniejszą liczbą trzycyfrową, z których każda jest zbudowana z różnych cyfr, jest równa:</p>",
       "choices": [
@@ -213,7 +213,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Różnica liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>1001</mn></msup><mo>−</mo><msup><mn>2</mn><mn>1000</mn></msup></math> jest równa:</p>",
       "choices": [
@@ -252,7 +253,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność"
+        "inne"
       ],
       "prompt_html": "<p>W wyniku którego działania występuje najwięcej zer?</p>",
       "choices": [
@@ -372,7 +373,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "proporcjonalność prosta"
+        "podobieństwo i skala"
       ],
       "prompt_html": "<p>Odległość dwóch punktów na mapie w skali <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>:</mo><mn>150</mn></math> wynosi 10 cm. Na mapie w skali <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>:</mo><mn>75</mn></math> odległość tych samych punktów wynosić będzie:</p>",
       "choices": [
@@ -412,7 +413,6 @@
       "points": 1,
       "topics": [
         "procenty",
-        "geometria",
         "pole i obwód"
       ],
       "prompt_html": "<p>Figura przedstawiona na rysunku jest zbudowana z przystających kwadratów i trójkątów równoramiennych. Jaki procent całej figury stanowi część zacieniowana?</p>",
@@ -454,7 +454,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Jeżeli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>27</mn><mn>8</mn></msup><mo>=</mo><msup><mn>81</mn><mi>n</mi></msup></math>, to wartość liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest równa:</p>",
       "choices": [
@@ -493,7 +493,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy"
+        "liczba krawędzi, ścian i wierzchołków"
       ],
       "prompt_html": "<p>Mamy sześcian. Dodajemy liczbę ścian do liczby wierzchołków i odejmujemy liczbę krawędzi. Otrzymana liczba to:</p>",
       "choices": [
@@ -855,8 +855,7 @@
       "topics": [
         "czworokąty",
         "pole i obwód",
-        "proporcjonalność prosta",
-        "procenty"
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>Kwadratową działkę podzielono na pięć jednakowych działek prostokątnych. Linie podziałowe były równoległe do jednego boku kwadratu tak jak na rysunku. Ogrodzono wszystkie działki (pomiędzy działkami jest jedno ogrodzenie). Łączna długość ogrodzenia to 400 m.</p><ol type=\"A\"><li>Pole dużej działki jest równe ……… m².</li><li>Długość ogrodzenia jednej małej działki wynosi ……… m.</li><li>Krótszy bok małej działki na planie w skali 1 : 200 ma długość ……… cm.</li><li>Jeżeli koszt jednego metra ogrodzenia wynosi 27 zł, to za całe ogrodzenie trzeba zapłacić ……… zł.</li><li>Wiadomo, że 1 kg trawy wystarcza na obsianie 50 m² powierzchni. Aby obsiać 30% powierzchni dużej działki należy kupić ……… kg trawy.</li></ol>",
       "choices": [],

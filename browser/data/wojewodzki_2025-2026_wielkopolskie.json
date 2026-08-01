@@ -17,7 +17,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "liczby wymierne i niewymierne",
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Dany jest zbiór liczb: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>2,06</mn></mrow></math> ; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>3,4</mn><mo>(</mo><mn>09</mn><mo>)</mo></mrow></math> ; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>7</mn></msqrt><mo>−</mo><mo>(</mo><mn>4</mn><mo>+</mo><msqrt><mn>7</mn></msqrt><mo>)</mo></mrow></math> ; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>12</mn></msqrt><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow></mfrac></math> ; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>5</mn></msqrt><mo>−</mo><msqrt><mn>3</mn></msqrt></mrow></math> ; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><mn>9</mn><mo>+</mo><mn>4</mn></mrow></msqrt></math></p><p>Ile wśród nich to liczby niewymierne?</p>",
       "choices": [
@@ -183,6 +184,7 @@
       "points": 1,
       "topics": [
         "NWW / NWD",
+        "liczby pierwsze",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Ile jest nieuporządkowanych par (kolejność nie ma znaczenia) liczb naturalnych, których największy wspólny dzielnik wynosi 14, a najmniejsza wspólna wielokrotność jest równa 420?</p>",
@@ -210,7 +212,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Marek kupił <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> kg pomidorów i 6 kg ogórków za 54 zł. 1 kg pomidorów był o 4 zł droższy od 1 kg ogórków. Cena 1 kg pomidorów wyrażona w złotych jest równa:</p>",
       "choices": [
@@ -379,8 +382,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "prawdopodobieństwo",
-        "podzielność"
+        "prawdopodobieństwo"
       ],
       "prompt_html": "<p>Ze zbioru liczb naturalnych dwucyfrowych nie większych niż 43 losujemy jedną liczbę. Jakie jest prawdopodobieństwo, że wylosowana liczba będzie podzielna przez 6?</p>",
       "choices": [
@@ -407,8 +409,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty",
         "koła / okręgi",
+        "trójkąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>Oblicz pole zacieniowanego obszaru trójkąta równobocznego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> o boku 12 (patrz – rysunek pomocniczy poniżej). Średnicami okręgów o środkach w punktach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> są odpowiednio boki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> trójkąta.</p>",
@@ -469,8 +471,7 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "układy równań",
-        "zagadki logiczne"
+        "układy równań"
       ],
       "prompt_html": "<p>Monika i Daria mają razem 18 lat. Ania i Krysia mają 23 lata, a Monika i Krysia 19 lat. Krysia jest o rok starsza od Ani.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli zdanie jest fałszywe.</p>",
       "choices": [
@@ -498,7 +499,7 @@
       "points": 2,
       "topics": [
         "równania z jedną zmienną",
-        "reszta z dzielenia"
+        "podzielność"
       ],
       "prompt_html": "<p>Tomek dodał sześć kolejnych liczb naturalnych. Najmniejsza z nich jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest liczbą naturalną większą od zera. Zapomniał, czy otrzymana suma jest równa 332, 123, czy 235. Sprawdź, dla której z tych sum warunki zadania są spełnione – zapisz obliczenia (wykonując je tylko na oznaczeniach ogólnych), znajdź te liczby oraz podaj ich sumę.</p>",
       "choices": [],
@@ -543,8 +544,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "graniastosłupy",
-        "trójkąty"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Podstawą graniastosłupa prostego jest romb. Dłuższa przekątna rombu o długości 12 cm, tworzy z krawędzią podstawy kąt o mierze 30°. Dłuższa przekątna graniastosłupa tworzy z dłuższą przekątną rombu kąt o mierze 60°. Oblicz objętość tego graniastosłupa. Zapisz wszystkie obliczenia.</p>",
       "choices": [],

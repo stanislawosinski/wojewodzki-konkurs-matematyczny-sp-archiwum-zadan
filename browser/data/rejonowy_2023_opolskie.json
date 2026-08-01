@@ -17,8 +17,7 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "NWW / NWD",
-        "podzielność"
+        "NWW / NWD"
       ],
       "prompt_html": "<p>Iloczyn dwóch liczb naturalnych wynosi 648, a największy wspólny dzielnik tych liczb jest równy 6.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
       "choices": [
@@ -53,7 +52,8 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "wartość bezwzględna"
       ],
       "prompt_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest dodatnia.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
       "choices": [
@@ -89,6 +89,7 @@
       "points": 2,
       "topics": [
         "czworokąty",
+        "podobieństwo i skala",
         "pole i obwód"
       ],
       "prompt_html": "<p>Stosunek pól dwóch kwadratów wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>:</mo><mn>1</mn></math>. Długość boku jednego kwadratu jest o 3 cm dłuższa od długości boku drugiego kwadratu.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
@@ -125,7 +126,6 @@
       "points": 2,
       "topics": [
         "czworokąty",
-        "trójkąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>Przy każdym zdaniu wpisz TAK lub NIE.</p><p>Trapez ma podstawy długości 10 cm i 15 cm. Przekątna dzieli ten trapez na dwa trójkąty, z których jeden ma pole 30 cm². Pole trapezu może wynosić:</p>",
@@ -161,8 +161,9 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki",
-        "szacowanie (zamiast obliczania)"
+        "porównywanie potęg i pierwiastków",
+        "liczby wymierne i niewymierne",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Przy każdym zdaniu wpisz TAK lub NIE.</p><p>Czy prawdą jest, że:</p>",
       "choices": [
@@ -197,7 +198,7 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Drukarka wraz z 23% podatkiem VAT kosztowała 799,50 zł. Ile zapłacilibyśmy za tę drukarkę, gdyby podatek VAT wynosił 8%?</p>",
       "choices": [],
@@ -243,7 +244,7 @@
       "points": 5,
       "topics": [
         "czworokąty",
-        "potęgi i pierwiastki"
+        "trójkąty"
       ],
       "prompt_html": "<p>Boki równoległoboku mają długości 15 cm i 6 cm, a kąt rozwarty ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>120</mn><mo>°</mo></math>. Oblicz długości przekątnych tego równoległoboku.</p>",
       "choices": [],
@@ -265,8 +266,8 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "bryły",
-        "potęgi i pierwiastki"
+        "ostrosłupy",
+        "bryły"
       ],
       "prompt_html": "<p>Długość krawędzi sześcianu wynosi 12 cm. Środki sąsiednich ścian tego sześcianu (punkty przecięcia przekątnych ścian) połączono odcinkami w taki sposób, że otrzymaliśmy krawędzie ośmiościanu wpisanego w sześcian. Oblicz objętość tak wyznaczonego ośmiościanu i sumę długości wszystkich jego krawędzi.</p>",
       "choices": [],
@@ -290,6 +291,7 @@
       "topics": [
         "reszta z dzielenia",
         "podzielność",
+        "wzory skróconego mnożenia",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> przy dzieleniu przez 5 daje resztę 2. Wykaż, że kwadrat liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> powiększony o 1 jest podzielny przez 5.</p>",

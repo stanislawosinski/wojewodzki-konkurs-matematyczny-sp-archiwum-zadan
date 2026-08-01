@@ -17,8 +17,8 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "zagadki logiczne",
-        "proporcjonalność odwrotna"
+        "proporcjonalność odwrotna",
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>a) Ciasto piernikowe powinno leżakować trzy miesiące. Ile czasu powinny leżakować zrobione jednocześnie trzy porcje ciasta?</p><p>b) Paczka masła kosztuje 9,12 zł. Ile paczek masła można kupić za 100 zł?</p><p>c) Zosia wyliczyła, że jeśli wraz z bratem i siostrą będą codziennie zjadać dokładnie po jednym pierniczku, to starczy im pierniczków na dwa tygodnie. Zanim zaczęli jeść, przyjechali na ferie trzej kuzyni Zosi. Po ilu dniach wyczerpią się pierniczki, jeśli każde dziecko będzie zjadać dokładnie jeden pierniczek dziennie?</p><p>d) Zosia wyliczyła, że jeśli wraz z bratem i siostrą będą codziennie zjadać dokładnie po jednym pierniczku, to starczy im pierniczków na dwa tygodnie. Zanim zaczęli jeść, przyjechała na ferie kuzynka Zosi. Przez ile dni wszystkie dzieci będą mogły zjeść po całym pierniczku dziennie?</p>",
       "choices": [],
@@ -40,7 +40,7 @@
       "type": "open",
       "points": 8,
       "topics": [
-        "kombinatoryka",
+        "zliczanie / metody zliczania",
         "układy równań"
       ],
       "prompt_html": "<p>W pewnej lidze gra 15 drużyn. W jednym sezonie każde dwie drużyny grają ze sobą dwa mecze.</p><p>a) Ile meczów zostanie rozegranych w jednym sezonie?</p><p>A) 210 &nbsp; B) 105 &nbsp; C) 420 &nbsp; D) 28 &nbsp; E) 56</p><p>b) Za zwycięstwo przyznawane są trzy punkty, za remis jeden punkt. Porażka nie zmienia dorobku punktowego. Pewna drużyna na zakończenie sezonu miała 39 punktów. Wiadomo, że wygrała o jeden mecz więcej niż przegrała. Zapisz i rozwiąż układ równań pozwalający obliczyć liczbę meczów wygranych, zremisowanych i przegranych.</p>",
@@ -63,9 +63,10 @@
       "type": "open",
       "points": 9,
       "topics": [
-        "potęgi i pierwiastki",
+        "działania na potęgach",
+        "wzory skróconego mnożenia",
         "usuwanie niewymierności z mianownika",
-        "wzory skróconego mnożenia"
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Zapisz liczbę</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>3</mn><mrow><mo>(</mo><msqrt><mn>14</mn></msqrt><mo>−</mo><mn>2</mn><mo>)</mo><mo>(</mo><msqrt><mn>14</mn></msqrt><mo>+</mo><mn>2</mn><mo>)</mo></mrow></msup><mo>+</mo><msup><mrow><mo>(</mo><msup><mrow><mo>(</mo><mn>2</mn><mo>+</mo><msqrt><mn>5</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>−</mo><mn>4</mn><msqrt><mn>5</mn></msqrt><mo>)</mo></mrow><mn>5</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mn>0,5</mn></mfrac><mo>+</mo><msup><mn>3</mn><mrow><mo>−</mo><msqrt><mn>3</mn></msqrt><mo>+</mo><mfrac><mn>1</mn><mrow><msqrt><mn>2</mn></msqrt><mo>+</mo><msqrt><mn>3</mn></msqrt></mrow></mfrac><mo>+</mo><msqrt><mn>2</mn></msqrt></mrow></msup><mo>)</mo></mrow><mrow><msup><mn>0,1</mn><mrow><mo>−</mo><mn>1</mn></mrow></msup></mrow></msup></mrow></math></p><p>w postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mi>n</mi></msup></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest liczbą naturalną.</p>",
       "choices": [],
@@ -132,9 +133,9 @@
       "type": "open",
       "points": 12,
       "topics": [
-        "zliczanie / metody zliczania",
+        "liczby pierwsze",
         "prawdopodobieństwo",
-        "podzielność"
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>W pewnej książce wszystkie strony są ponumerowane w systemie arabskim kolejnymi liczbami naturalnymi, zaczynając od 1. Do ponumerowania tych stron użyto 306 cyfr. Oblicz prawdopodobieństwo, że wybierając losową stronę z tej książki wylosujemy stronę ponumerowaną trzycyfrową liczbą pierwszą. Wypisz te trzycyfrowe liczby pierwsze.</p>",
       "choices": [],
@@ -179,6 +180,7 @@
       "type": "open",
       "points": 9,
       "topics": [
+        "okrąg wpisany i opisany",
         "koła / okręgi",
         "czworokąty",
         "pole i obwód"
@@ -203,8 +205,7 @@
       "type": "open",
       "points": 10,
       "topics": [
-        "ostrosłupy",
-        "zliczanie / metody zliczania"
+        "ostrosłupy"
       ],
       "prompt_html": "<p>Ile różnych szkieletów ostrosłupów prawidłowych czworokątnych możemy zbudować, mając do dyspozycji cztery listewki długości 4 dm i cztery listewki długości 3,5 dm? Oblicz i porównaj objętości tych ostrosłupów.</p>",
       "choices": [],
@@ -226,7 +227,7 @@
       "type": "open",
       "points": 8,
       "topics": [
-        "bryły"
+        "bryły obrotowe"
       ],
       "prompt_html": "<p>Okrąg o średnicy 6 cm jest jednocześnie podstawą stożka i górną podstawą walca (porównaj rysunek). Wysokość powstałej w ten sposób bryły jest równa 10 cm. Stosunek objętości walca do stożka wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>:</mo><mn>1</mn></mrow></math>. Oblicz pole powierzchni całkowitej narysowanej poniżej bryły.</p>",
       "choices": [],

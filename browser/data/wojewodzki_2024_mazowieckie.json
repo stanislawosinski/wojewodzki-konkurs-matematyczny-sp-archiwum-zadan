@@ -17,7 +17,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "porównywanie potęg i pierwiastków",
+        "liczby wymierne i niewymierne",
         "czworokąty",
         "pole i obwód"
       ],
@@ -135,7 +136,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "stężenie procentowe / mieszaniny",
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>W wodnym roztworze cukru, którego masa wynosi 1,2 kg, stosunek masy cukru do masy wody jest równy 15:25.</p><p>Wybierz poprawną odpowiedź spośród oznaczonych literami A i B oraz C i D.</p><p>Cukier stanowi (A albo B) masy tego roztworu:</p><p>Jeśli do tego roztworu dodamy 300 g cukru, to stężenie roztworu wzrośnie o (C albo D):</p>",
       "choices": [
@@ -177,7 +179,8 @@
       "topics": [
         "koła / okręgi",
         "pole i obwód",
-        "dowodzenie / dowody"
+        "dowodzenie / dowody",
+        "szacowanie (zamiast obliczania)"
       ],
       "prompt_html": "<p>Wewnątrz kwadratu zacieniowano pole, którego brzegi są odcinkami lub częściami okręgu. Wykaż, że zacieniowane pole stanowi mniej niż <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>8</mn></mfrac></math> pola kwadratu. W uzasadnieniu możesz przyjąć, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>π</mi><mo>&gt;</mo><mn>3</mn></mrow></math>.</p>",
       "choices": [],
@@ -248,8 +251,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "zliczanie / metody zliczania",
-        "kombinatoryka"
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Do zaszyfrowania załączników wysyłanych pocztą elektroniczną pewna firma stosuje kody składające się z 3 liter i 3 cyfr, które powstają według zasady: w kodzie występują tylko litery C, L, Z i dowolne cyfry, przy czym litery i cyfry nie mogą się powtarzać oraz litery C i L „stoją” obok siebie. Oblicz, ile takich kodów można utworzyć.</p>",
       "choices": [],
@@ -295,8 +297,7 @@
       "points": 3,
       "topics": [
         "układ współrzędnych",
-        "pole i obwód",
-        "potęgi i pierwiastki"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Oblicz pole pięciokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDE</mi></math>, którego wierzchołki leżą w punktach:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mo>=</mo><mo>(</mo><mi>k</mi><mo>+</mo><mn>5</mn><mo>,</mo><mfrac><mi>k</mi><mn>2</mn></mfrac><mo>)</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>B</mi><mo>=</mo><mo>(</mo><mfrac><mrow><mo>−</mo><mi>k</mi></mrow><mn>3</mn></mfrac><mo>+</mo><mn>2</mn><mo>,</mo><mi>k</mi><mo>+</mo><mn>6</mn><mo>)</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>C</mi><mo>=</mo><mo>(</mo><mfrac><msup><mi>k</mi><mn>2</mn></msup><mrow><mn>2</mn><mo>·</mo><msup><mn>3</mn><mn>2</mn></msup></mrow></mfrac><mo>,</mo><mo>−</mo><mi>k</mi><mo>−</mo><mn>2</mn><mo>)</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>D</mi><mo>=</mo><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>k</mi><mo>+</mo><mn>3</mn><mo>,</mo><msup><mi>k</mi><mn>0</mn></msup><mo>)</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>E</mi><mo>=</mo><mo>(</mo><mi>k</mi><mo>+</mo><mn>1</mn><mo>,</mo><mfrac><mrow><mo>−</mo><mn>12</mn></mrow><mi>k</mi></mfrac><mo>)</mo></mrow></math>, wiedząc, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>6</mn></mrow></math>.</p>",
       "choices": [],
@@ -319,7 +320,7 @@
       "points": 3,
       "topics": [
         "ostrosłupy",
-        "potęgi i pierwiastki"
+        "siatki brył"
       ],
       "prompt_html": "<p>Janek i Julka projektowali siatki ostrosłupów. Najpierw każde z nich narysowało identyczny kwadrat. Następnie Janek podzielił ten kwadrat na trójkąty, a Julka dorysowała trójkąt równoboczny na zewnątrz jednego boku kwadratu i usunęła jeden wielokąt. W ten sposób otrzymali siatki, jak na poniższych rysunkach, z których skleili bryły. Różnica pól największej ściany bryły Janka i najmniejszej ściany bryły Julki wynosi 2. Oblicz pola powierzchni całkowitych tych brył oraz ich objętości.</p>",
       "choices": [],

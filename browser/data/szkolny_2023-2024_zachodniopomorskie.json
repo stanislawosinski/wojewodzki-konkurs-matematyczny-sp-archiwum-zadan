@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Które działanie należy wstawić między liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>8</mn></msqrt></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>2</mn></msqrt></math> aby wynikiem tego działania była liczba 48?</p>",
       "choices": [
@@ -134,7 +134,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Po wykonaniu działań <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mn>3</mn><mn>9</mn></msup><mo>·</mo><msup><mn>4</mn><mn>3</mn></msup></mrow><mrow><msup><mn>12</mn><mn>2</mn></msup><mo>·</mo><msup><mn>9</mn><mn>4</mn></msup></mrow></mfrac></math> otrzymamy:</p>",
       "choices": [
@@ -173,7 +173,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "proporcjonalność prosta"
+        "podobieństwo i skala"
       ],
       "prompt_html": "<p>Długość trasy na mapie w skali 1 : 10 000 000 jest równa 7,7 cm. W rzeczywistości trasa ma długość:</p>",
       "choices": [
@@ -212,7 +212,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "stężenie procentowe / mieszaniny"
       ],
       "prompt_html": "<p>Ile 100% kwasu należy dodać do 60 g 65-procentowego roztworu tego kwasu, aby otrzymać roztwór 75%?</p>",
       "choices": [
@@ -371,7 +371,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Wyznaczając <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math> ze wzoru <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mfrac><mrow><mi>a</mi><mo>−</mo><mi>k</mi><mi>r</mi></mrow><mrow><mn>1</mn><mo>−</mo><mi>r</mi></mrow></mfrac></math> otrzymamy:</p>",
       "choices": [
@@ -410,8 +411,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "czworokąty",
-        "kąty"
+        "kąty",
+        "trójkąty"
       ],
       "prompt_html": "<p>Miary niektórych kątów w czworokącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> zostały zaznaczone na rysunku obok. Wyznacz miarę kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>, wiedząc, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>CD</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>AB</mi><mo>|</mo></math>.</p>",
       "choices": [
@@ -491,7 +492,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "porównywanie potęg i pierwiastków",
+        "wyłączanie czynnika przed znak pierwiastka"
       ],
       "prompt_html": "<p>Liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>2</mn><msqrt><mn>3</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><msqrt><mn>48</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mroot><mn>24</mn><mn>3</mn></mroot></math> uporządkowano od największej do najmniejszej. Prawdą jest, że:</p>",
       "choices": [
@@ -569,8 +571,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zagadki logiczne",
-        "kombinatoryka"
+        "zasada szufladkowa"
       ],
       "prompt_html": "<p>W koszyku są 4 gruszki, 5 jabłek i 10 śliwek. Wojtek musi wyjąć:</p><ul><li>I. co najmniej 9 owoców, żeby mieć pewność, że będzie miał dwa owoce tego samego rodzaju,</li><li>II. co najmniej 15 owoców, żeby mieć pewność, że trafi na jabłko,</li><li>III. co najmniej 7 owoców, żeby mieć pewność, że trafi na trzy owoce tego samego rodzaju.</li></ul><p>Prawdziwe stwierdzenia to:</p>",
       "choices": [
@@ -609,8 +610,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "równania z jedną zmienną",
-        "ułamki"
+        "ułamki",
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Janek pojechał na wycieczkę. Pierwszego dnia wydał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>8</mn></mfrac></math> pieniędzy, które dostał od taty. Drugiego dnia wydał 70 zł, czyli o 10 zł więcej niż pierwszego dnia, a trzeciego dnia wydał resztę. Ile pieniędzy Janek wydał trzeciego dnia?</p>",
       "choices": [],

@@ -135,7 +135,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "procenty",
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Jeden procent jednego metra kwadratowego to</p>",
       "choices": [
@@ -292,7 +293,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Pewna dodatnia liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest mniejsza od 1, zaś liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest większa od 1. Największą wartość ma wyrażenie</p>",
       "choices": [
@@ -331,7 +332,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "proporcjonalność prosta"
+        "podobieństwo i skala"
       ],
       "prompt_html": "<p>Odległość pomiędzy dwoma miastami wynosi 150 km. Na pewnej mapie odległość ta jest równa 30 cm. Mapę wykonano w skali</p>",
       "choices": [
@@ -715,6 +716,7 @@
       "points": 4,
       "topics": [
         "czworokąty",
+        "zamiana jednostek",
         "pole i obwód"
       ],
       "prompt_html": "<p>Obwód prostokąta wynosi 0,24 m. Jeden z jego boków ma długość równą 0,3 dm. Wynika z tego, że</p>",
@@ -939,7 +941,8 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "ułamki"
       ],
       "prompt_html": "<p>Oszczędności Czarka stanowią <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>8</mn></mfrac></math> oszczędności Dawida. Dawid ma o 60 złotych więcej niż Czarek.</p><p>a) Ile wynoszą łączne oszczędności Czarka i Dawida?</p><p>b) Jaką część łącznych oszczędności chłopców stanowi kwota, którą posiada Dawid? Podaj odpowiedź w postaci dziesiętnej z dokładnością do części setnych.</p><p>Zapisz wszystkie obliczenia.</p>",
       "choices": [],

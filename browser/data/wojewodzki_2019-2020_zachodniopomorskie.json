@@ -72,8 +72,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "prawdopodobieństwo",
-        "podzielność"
+        "zbiory / zasada włączeń i wyłączeń",
+        "prawdopodobieństwo"
       ],
       "prompt_html": "<p>Prawdopodobieństwo wylosowania liczby podzielnej przez 7 lub 11 ze zbioru liczb naturalnych dwucyfrowych wynosi:</p>",
       "choices": [
@@ -100,6 +100,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "ułamki okresowe / rozwinięcia dziesiętne",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Wskaż 313 cyfrę po przecinku w rozwinięciu dziesiętnym liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>13</mn></mfrac></math>.</p>",
@@ -184,7 +185,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Jeśli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mi>a</mi></msqrt><mo>=</mo><msqrt><mn>24</mn></msqrt></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><msqrt><mn>24</mn></msqrt><mo>=</mo><msqrt><mn>2</mn></msqrt></math>, to:</p>",
       "choices": [
@@ -212,8 +213,8 @@
       "points": 5,
       "topics": [
         "czworokąty",
-        "pole i obwód",
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Kwadrat podzielono na dwa prostokąty, których stosunek obwodów wynosi 5 : 4. Oblicz stosunek pól tych prostokątów.</p>",
       "choices": [],
@@ -258,7 +259,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "procenty",
+        "zmiany procentowe",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>W poniedziałek cenę pewnego towaru zwiększono o 10%, w środę zmniejszono o 20%, a w piątek zmniejszono jeszcze o 30%. Oblicz początkową cenę towaru, jeśli ostatecznie po zmianach wynosiła 1232 zł.</p>",
@@ -281,7 +282,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki",
+        "pierwiastki zagnieżdżone",
+        "wzory skróconego mnożenia",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Wykaż, że:</p><p style=\"text-align:center\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><mn>2</mn><mo>+</mo><msqrt><mn>3</mn></msqrt></mrow></msqrt><mo>−</mo><msqrt><mrow><mn>2</mn><mo>−</mo><msqrt><mn>3</mn></msqrt></mrow></msqrt><mo>=</mo><msqrt><mn>2</mn></msqrt></math></p>",
@@ -304,8 +306,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "procenty",
-        "nierówności"
+        "nierówności",
+        "procenty"
       ],
       "prompt_html": "<p>W partii 40 000 żarówek 3% stanowią żarówki uszkodzone. Ile uszkodzonych żarówek należy usunąć, aby w pozostałych żarówkach było mniej niż 2% żarówek uszkodzonych?</p>",
       "choices": [],
@@ -350,7 +352,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "procenty",
+        "stężenie procentowe / mieszaniny",
         "graniastosłupy"
       ],
       "prompt_html": "<p>Do zbiornika w kształcie prostopadłościanu o wymiarach 20 dm, 10 dm, 10 m wlano 5000 dm³ mleka o zawartości 3,4% tłuszczu, resztę dopełniono mlekiem o zawartości 4,2% tłuszczu. Ile procent tłuszczu zawiera mleko w zbiorniku?</p>",
@@ -373,8 +375,9 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "graniastosłupy",
-        "procenty"
+        "zmiany procentowe",
+        "podobieństwo i skala",
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Długość krawędzi sześcianu zwiększono tak, że jego pole powierzchni całkowitej wzrosło o 69%. O ile procent wzrosła objętość tego sześcianu?</p>",
       "choices": [],

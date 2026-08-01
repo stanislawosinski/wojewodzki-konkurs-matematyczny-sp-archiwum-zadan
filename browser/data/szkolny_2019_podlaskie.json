@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "wartość bezwzględna"
       ],
       "prompt_html": "<p>Wartość bezwzględna trzeciej potęgi liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mo>−</mo><mn>20</mn><mo>:</mo><mo>(</mo><mo>−</mo><mn>4</mn><mo>+</mo><mn>6</mn><mo>)</mo><mo>−</mo><mo>(</mo><mo>−</mo><mn>5</mn><mo>)</mo></math> jest równa</p>",
       "choices": [
@@ -98,7 +98,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Suma wszystkich jednocyfrowych liczb pierwszych jest równa</p>",
       "choices": [
@@ -125,6 +125,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "zamiana jednostek",
         "ułamki"
       ],
       "prompt_html": "<p>Dziesiątego października licznik wodomierza wskazywał 3 126,205 m³. Jakie będzie wskazanie tego wodomierza po zużyciu kolejnych 10 litrów wody?</p>",
@@ -287,7 +288,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "wielokąty"
       ],
       "prompt_html": "<p>Który wielokąt ma tyle samo przekątnych, co boków?</p>",
       "choices": [
@@ -341,7 +342,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "kąty"
       ],
       "prompt_html": "<p>W trójkącie równoramiennym kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> zawarty między ramionami jest o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>21</mn><mo>°</mo></math> większy od kąta przy podstawie trójkąta. Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> ma miarę</p>",
       "choices": [
@@ -453,7 +455,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "proporcjonalność prosta",
+        "podobieństwo i skala",
         "pole i obwód"
       ],
       "prompt_html": "<p>Pokój Tomka na planie w skali <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>:</mo><mn>25</mn></math> jest kwadratem o polu 256 cm². Rzeczywisty obwód tego pokoju wynosi</p>",
@@ -481,8 +483,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy",
-        "potęgi i pierwiastki"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Krawędź jednego sześcianu ma długość 4 cm, a drugiego 3 cm. Długość krawędzi trzeciego sześcianu, którego pole powierzchni jest równe sumie pól danych sześcianów jest równa</p>",
       "choices": [
@@ -553,7 +554,6 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "czworokąty",
         "trójkąty",
         "pole i obwód"
       ],
@@ -577,7 +577,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "graniastosłupy"
+        "graniastosłupy",
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Z każdego narożnika prostokątnego arkusza blachy o wymiarach 0,8 m i 70 cm wycięto kwadraty o bokach 1 dm. Następnie zgięto wystające prostokąty tak, aby powstał otwarty pojemnik. Oblicz, ile litrów wody maksymalnie zmieści się w tym pojemniku, po uszczelnieniu krawędzi pionowych.</p>",
       "choices": [],

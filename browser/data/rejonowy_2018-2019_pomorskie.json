@@ -17,6 +17,7 @@
       "type": "open",
       "points": 2,
       "topics": [
+        "ostatnia cyfra / cykliczność potęg",
         "podzielność",
         "dowodzenie / dowody"
       ],
@@ -40,6 +41,7 @@
       "type": "open",
       "points": 3,
       "topics": [
+        "zmiany procentowe",
         "procenty"
       ],
       "prompt_html": "<p>Beduini, podr&#243;&#380;uj&#261;c przez pustyni&#281;, ka&#380;dego dnia wypijali tak&#261; sam&#261; ilo&#347;&#263; wody. Po dziewi&#281;ciu dniach zorientowali si&#281;, &#380;e wypili ju&#380; 60% zapas&#243;w wody i zosta&#322;o im 48 buk&#322;ak&#243;w z wod&#261;. Oblicz, o ile procent Beduini powinni zmniejszy&#263; dzienn&#261; racj&#281; wody, aby wystarczy&#322;o jej na kolejne 8 dni (po tyle samo wody na ka&#380;dy dzie&#324;).</p>",
@@ -62,7 +64,8 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "kąty"
+        "kąty",
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Oblicz miar&#281; k&#261;ta wypuk&#322;ego, kt&#243;ry tworz&#261; wskaz&#243;wki zegara o godzinie 23:45.</p>",
       "choices": [],
@@ -84,6 +87,7 @@
       "type": "open",
       "points": 2,
       "topics": [
+        "kąty",
         "trójkąty"
       ],
       "prompt_html": "<p>Na przed&#322;u&#380;eniach przeciwprostok&#261;tnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> tr&#243;jk&#261;ta prostok&#261;tnego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> zaznaczono punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math>, takie &#380;e <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AD</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>AC</mi><mo>|</mo></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>BE</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>BC</mi><mo>|</mo></mrow></math>. Oblicz miar&#281; k&#261;ta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DCE</mi></math>.</p>",
@@ -106,7 +110,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "ułamki"
       ],
       "prompt_html": "<p>Nauczycielka matematyki napisa&#322;a swoj&#261; interpretacj&#281; bajki o Kopciuszku. Oto jej fragment:</p><p><em>Z&#322;a macocha wsypa&#322;a dwie miski ziaren soczewicy do wiadra z popio&#322;em i kaza&#322;a Kopciuszkowi w ci&#261;gu godziny wybra&#263; wszystkie ziarna. Ziarna stanowi&#322;y <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> masy tej mieszanki. Najpierw przylecia&#322;y go&#322;&#281;bie i wydzioba&#322;y z popio&#322;u <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac></math> wszystkich ziaren, potem przylecia&#322;y turkawki i wydzioba&#322;y 0,7 pozosta&#322;ych ziaren. Na koniec przylecia&#322;y wr&#243;ble i wydzioba&#322;y z popio&#322;u ostatnie 18 dag ziaren.</em></p><p>Oblicz, ile kilogram&#243;w wa&#380;y&#322;y ziarna soczewicy i ile kilogram&#243;w wa&#380;y&#322; popi&#243;&#322;.</p>",
       "choices": [],
@@ -129,8 +134,8 @@
       "points": 1,
       "topics": [
         "trójkąty",
-        "dowodzenie / dowody",
-        "pole i obwód"
+        "pole i obwód",
+        "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Udowodnij, &#380;e suma p&#243;l tr&#243;jk&#261;t&#243;w r&#243;wnobocznych zbudowanych na przyprostok&#261;tnych tr&#243;jk&#261;ta prostok&#261;tnego jest r&#243;wna polu tr&#243;jk&#261;ta r&#243;wnobocznego zbudowanego na przeciwprostok&#261;tnej tego tr&#243;jk&#261;ta.</p>",
       "choices": [],
@@ -175,8 +180,9 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
-        "usuwanie niewymierności z mianownika"
+        "wyłączanie czynnika przed znak pierwiastka",
+        "usuwanie niewymierności z mianownika",
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Oblicz warto&#347;&#263; wyra&#380;enia. Wynik przedstaw w postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><msqrt><mn>3</mn></msqrt></mrow></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> s&#261; liczbami wymiernymi.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><msqrt><mrow><msup><mn>10</mn><mn>2</mn></msup><mo>&#8722;</mo><msup><mn>6</mn><mn>2</mn></msup></mrow></msqrt><mn>3</mn></mfrac><mo>&#8722;</mo><mfrac><mrow><msqrt><mn>27</mn></msqrt><mo>&#8722;</mo><mn>3</mn></mrow><mrow><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow></mfrac><mo>&#8722;</mo><mfrac><mrow><msup><mn>4</mn><mn>6</mn></msup><mo>&#183;</mo><msup><mn>22</mn><mn>3</mn></msup></mrow><mrow><msup><mn>11</mn><mn>2</mn></msup><mo>&#183;</mo><msup><mn>2</mn><mn>16</mn></msup></mrow></mfrac></mrow></math></p>",
       "choices": [],
@@ -199,6 +205,7 @@
       "points": 2,
       "topics": [
         "podzielność",
+        "wyłączanie wspólnego czynnika przed nawias",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Wyka&#380;, &#380;e liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>+</mo><msup><mn>2</mn><mn>2</mn></msup><mo>+</mo><msup><mn>2</mn><mn>3</mn></msup><mo>+</mo><msup><mn>2</mn><mn>4</mn></msup><mo>+</mo><mo>&#8943;</mo><mo>+</mo><msup><mn>2</mn><mn>50</mn></msup></mrow></math> jest podzielna przez 3.</p>",
@@ -221,8 +228,9 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki",
-        "ułamki"
+        "działania na potęgach",
+        "zamiana jednostek",
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>W zadaniach zamkni&#281;tych dok&#322;adnie jedna odpowied&#378; jest poprawna. Zaznacz j&#261;.</p><p><strong>1.</strong> Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mrow><mo>(</mo><msup><mn>7</mn><mn>4</mn></msup><mo>)</mo></mrow><mrow><mo>&#8722;</mo><mn>5</mn></mrow></msup><mrow><msup><mrow><mo>(</mo><mo>&#8722;</mo><mn>7</mn><mo>)</mo></mrow><mn>4</mn></msup><mo>&#183;</mo><msup><mn>7</mn><mrow><mo>&#8722;</mo><mn>5</mn></mrow></msup></mrow></mfrac></math> jest r&#243;wna:</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>7</mn><mrow><mo>&#8722;</mo><mn>21</mn></mrow></msup></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>7</mn><mrow><mo>&#8722;</mo><mn>19</mn></mrow></msup></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math></li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>7</mn><mn>19</mn></msup></math></li></ul><p><strong>2.</strong> 500 mm to:</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>&#183;</mo><msup><mn>10</mn><mrow><mo>&#8722;</mo><mn>8</mn></mrow></msup></mrow></math> km</li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>&#183;</mo><msup><mn>10</mn><mrow><mo>&#8722;</mo><mn>6</mn></mrow></msup></mrow></math> km</li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>&#183;</mo><msup><mn>10</mn><mrow><mo>&#8722;</mo><mn>4</mn></mrow></msup></mrow></math> km</li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>&#183;</mo><msup><mn>10</mn><mn>8</mn></msup></mrow></math> km</li></ul><p><strong>3.</strong> Siedem litr&#243;w wody zmie&#347;ci si&#281; w pojemniku o obj&#281;to&#347;ci:</p><ul><li>A. 5000 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mtext>cm</mtext></mrow><mn>3</mn></msup></math></li><li>B. 0,01 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mtext>m</mtext></mrow><mn>3</mn></msup></math></li><li>C. 0,8 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mtext>dm</mtext></mrow><mn>3</mn></msup></math></li><li>D. 0,01 hl</li></ul><p><strong>4.</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mrow><mn>10</mn><mo>&#183;</mo><mn>11</mn></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>11</mn><mo>&#183;</mo><mn>12</mn></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>12</mn><mo>&#183;</mo><mn>13</mn></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>13</mn><mo>&#183;</mo><mn>14</mn></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>14</mn><mo>&#183;</mo><mn>15</mn></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>15</mn><mo>&#183;</mo><mn>16</mn></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>16</mn><mo>&#183;</mo><mn>17</mn></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>17</mn><mo>&#183;</mo><mn>18</mn></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>18</mn><mo>&#183;</mo><mn>19</mn></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>19</mn><mo>&#183;</mo><mn>20</mn></mrow></mfrac><mo>=</mo></mrow></math></p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>10</mn></mfrac></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>14</mn></mfrac></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>15</mn></mfrac></math></li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>20</mn></mfrac></math></li></ul>",
       "choices": [],

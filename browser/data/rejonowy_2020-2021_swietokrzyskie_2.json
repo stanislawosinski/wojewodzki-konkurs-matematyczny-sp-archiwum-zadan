@@ -17,6 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "kalendarz i czas",
         "statystyka opisowa"
       ],
       "prompt_html": "<p>Średni czas trwania jednego miesiąca w roku nieprzestępnym jest równy:</p>",
@@ -57,7 +58,7 @@
       "points": 1,
       "topics": [
         "NWW / NWD",
-        "podzielność"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Wskaż parę liczb, których największym wspólnym dzielnikiem jest liczba pierwsza:</p>",
       "choices": [
@@ -96,7 +97,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "notacja wykładnicza"
       ],
       "prompt_html": "<p>Promień Ziemi jest równy w przybliżeniu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6,4</mn><mo>·</mo><msup><mn>10</mn><mn>6</mn></msup></math> m, a promień Saturna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><msup><mn>10</mn><mn>7</mn></msup></math> m. O ile metrów promień Saturna jest większy od promienia Ziemi?</p>",
       "choices": [
@@ -136,7 +137,7 @@
       "points": 1,
       "topics": [
         "graniastosłupy",
-        "potęgi i pierwiastki"
+        "procenty"
       ],
       "prompt_html": "<p>Mamy dwie kostki sześcienne: pierwsza o przekątnej długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>3</mn></msqrt></math> cm i druga o krawędzi długości 50 mm. Porównując ich objętości, możemy stwierdzić (wskaż zdanie, które jest prawdziwe):</p>",
       "choices": [
@@ -175,7 +176,7 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "potęgi i pierwiastki",
+        "działania na potęgach",
         "podzielność"
       ],
       "prompt_html": "<p>Jeśli liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest wynikiem działania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>20</mn></msup><mo>·</mo><msup><mn>20</mn><mn>10</mn></msup></math>, to:</p>",
@@ -216,7 +217,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach",
+        "ułamki"
       ],
       "prompt_html": "<p>Dane są liczby: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msqrt><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>:</mo><mn>12,5</mn></mrow></msqrt></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><msqrt><mn>0,64</mn></msqrt></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mroot><mn>27</mn><mn>3</mn></mroot></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><mroot><mrow><mn>4</mn><mfrac><mn>17</mn><mn>27</mn></mfrac></mrow><mn>3</mn></mroot></math>. Po usunięciu jednej z nich suma pozostałych trzech liczb jest równa 4. Którą z liczb należy usunąć:</p>",
       "choices": [
@@ -287,7 +289,8 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki",
+        "pierwiastki zagnieżdżone",
+        "działania na pierwiastkach",
         "wzory skróconego mnożenia"
       ],
       "prompt_html": "<p>Dane są liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msqrt><mrow><mn>16</mn><msqrt><mn>8</mn></msqrt><mo>·</mo><mn>8</mn><msqrt><mn>4</mn></msqrt><mo>·</mo><mn>4</mn><msqrt><mn>2</mn></msqrt></mrow></msqrt></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><msup><mrow><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>−</mo><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><mn>2</mn><msqrt><mn>6</mn></msqrt></math>. Oceń prawdziwość zdań:</p>",
@@ -323,7 +326,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kąty"
+        "kąty",
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Jaka jest miara kąta ostrego między wskazówką minutową i wskazówka godzinową o godzinie 2:15?</p>",
       "choices": [
@@ -363,8 +367,9 @@
       "points": 2,
       "topics": [
         "czworokąty",
-        "pole i obwód",
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach",
+        "wzory skróconego mnożenia",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Bok kwadratu ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>+</mo><mn>3</mn><msqrt><mn>2</mn></msqrt></math>. Oceń prawdziwość zdań:</p>",
       "choices": [
@@ -395,7 +400,7 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "graniastosłupy",
+        "liczba krawędzi, ścian i wierzchołków",
         "statystyka opisowa"
       ],
       "prompt_html": "<p>Średnia arytmetyczna wszystkich długości krawędzi graniastosłupa prawidłowego pięciokątnego jest równa 8 cm.</p><p>Oceń prawdziwość zdań:</p>",

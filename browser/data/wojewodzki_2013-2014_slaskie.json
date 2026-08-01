@@ -17,7 +17,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "zagadki logiczne"
+        "zagadki logiczne",
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>W puste białe pola „liczbowej krzyżówki” wstaw liczby tak, aby wszystkie działania były poprawne.</p>",
       "choices": [],
@@ -180,7 +181,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "kąty"
       ],
       "prompt_html": "<p>Jeśli w trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest większa niż 90° oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi><mo>=</mo><mi>BC</mi></math>, to kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACB</mi></math> może mieć miarę</p>",
       "choices": [
@@ -219,7 +221,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "koła / okręgi"
+        "koła / okręgi",
+        "trójkąty"
       ],
       "prompt_html": "<p>Okrąg o środku w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math> przechodzi przez punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math>, zaś okrąg o środku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> przechodzi przez punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math>. Okręgi te przecinają się w punktach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>. Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AOB</mi></math> ma miarę</p>",
       "choices": [
@@ -258,7 +261,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><msup><mrow><mo>(</mo><mo>−</mo><mn>0,1</mn><mo>)</mo></mrow><mn>2</mn></msup></math> jest równa</p>",
       "choices": [
@@ -336,7 +339,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy"
+        "graniastosłupy",
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Sześcian o krawędzi 5 cm pomalowano na czerwono. Następnie rozcięto go na 125 sześcianów o krawędzi 1 cm każdy. Ile z otrzymanych sześcianów nie ma pomalowanej żadnej ściany?</p>",
       "choices": [
@@ -415,7 +419,7 @@
       "points": 1,
       "topics": [
         "graniastosłupy",
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Objętość wody jest o 10% mniejsza od objętości lodu, z którego powstała. Kostkę lodu w kształcie sześcianu o krawędzi długości 3 cm wrzucono do pustej szklanki. Woda powstała z tej kostki ma objętość</p>",
       "choices": [
@@ -648,7 +652,8 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "podzielność"
+        "podzielność",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>W poniższym zadaniu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> oznacza dowolną liczbę naturalną.</p><p>Oceń, czy podane zdania są prawdziwe czy fałszywe. Zaznacz właściwą odpowiedź.</p>",
       "choices": [
@@ -683,6 +688,7 @@
       "type": "open",
       "points": 3,
       "topics": [
+        "zamiana jednostek",
         "proporcjonalność prosta"
       ],
       "prompt_html": "<p>Pan Jan zamierza kupić działkę rekreacyjną. Bierze pod uwagę dwie oferty:</p><table><thead><tr><th>Oferta</th><th>Powierzchnia działki</th><th>Cena całkowita [tys. zł]</th></tr></thead><tbody><tr><td>działka nr I</td><td>0,14 ha</td><td>126</td></tr><tr><td>działka nr II</td><td>6,5 a</td><td>67,6</td></tr></tbody></table><p>Korzystając z danych w tabeli, oblicz, która oferta zawiera niższą cenę 1 m² powierzchni działki. Podaj tę cenę. Zapisz wszystkie obliczenia.</p>",

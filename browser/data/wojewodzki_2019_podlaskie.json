@@ -56,8 +56,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "statystyka opisowa",
-        "równania z jedną zmienną"
+        "statystyka opisowa"
       ],
       "prompt_html": "<p>Średnia wieku członków pewnego sześcioosobowego zespołu muzycznego była równa 36 lat. Kiedy najstarsza osoba odeszła z zespołu, średnia wieku zmalała do 34 lat. Osoba, która opuściła zespół miała</p>",
       "choices": [
@@ -96,7 +95,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "wyłączanie czynnika przed znak pierwiastka",
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Suma liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>48</mn></msqrt></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>27</mn></msqrt></math> jest równa</p>",
       "choices": [
@@ -135,7 +135,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Liczba, którą otrzymamy po wykonaniu działań <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2</mn><mn>12</mn></msup><mo>·</mo><msup><mn>5</mn><mn>8</mn></msup></mrow></math> będzie miała</p>",
       "choices": [
@@ -213,7 +213,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest o 20% większa od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>. Stosunek liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> do liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest równy</p>",
       "choices": [
@@ -331,7 +331,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "liczby wymierne i niewymierne",
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Ile jest liczb wymiernych wśród liczb: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>24</mn></msqrt></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>36</mn></msqrt></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0</mn><mo>,</mo><mo>(</mo><mn>73</mn><mo>)</mo></mrow></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mrow><mn>3</mn><mfrac><mn>3</mn><mn>8</mn></mfrac></mrow><mn>3</mn></mroot></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>5</mn></msqrt><mn>4</mn></mfrac></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>25</mn></msqrt><mn>2</mn></mfrac></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>1</mn><mfrac><mn>3</mn><mn>4</mn></mfrac></mrow></math>?</p>",
       "choices": [
@@ -370,9 +371,9 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "okrąg wpisany i opisany",
         "koła / okręgi",
-        "pole i obwód",
-        "potęgi i pierwiastki"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Z kartki w kształcie kwadratu o przekątnej równej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>14</mn><msqrt><mn>2</mn></msqrt></mrow></math> cm wycięto możliwie największe koło. Obwód wyciętego koła jest równy</p>",
       "choices": [
@@ -411,6 +412,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "kąty",
         "trójkąty"
       ],
       "prompt_html": "<p>Stosunek miar kątów wewnętrznych pewnego trójkąta jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>:</mo><mn>7</mn><mo>:</mo><mn>9</mn></mrow></math>. Jest to trójkąt</p>",
@@ -451,8 +453,7 @@
       "points": 1,
       "topics": [
         "trójkąty",
-        "pole i obwód",
-        "potęgi i pierwiastki"
+        "pole i obwód"
       ],
       "prompt_html": "<p>W trójkącie prostokątnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> (patrz rysunek) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>8</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AC</mi><mo>|</mo><mo>=</mo><mn>6</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AD</mi><mo>|</mo><mo>=</mo><mn>4</mn></mrow></math>. Obwód trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest większy od obwodu trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABD</mi></math> o</p>",
       "choices": [
@@ -493,6 +494,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "podobieństwo i skala",
         "czworokąty",
         "pole i obwód"
       ],
@@ -575,7 +577,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "proporcjonalność prosta"
+        "podobieństwo i skala"
       ],
       "prompt_html": "<p>Okrąg o średnicy 8 cm narysowano w pewnej skali, uzyskując okrąg o promieniu 12 cm. Rysunek wykonano w skali</p>",
       "choices": [
@@ -614,8 +616,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty",
-        "potęgi i pierwiastki"
+        "trójkąty"
       ],
       "prompt_html": "<p>W trójkącie prostokątnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> przyprostokątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>4</mn></mrow></math> cm, przeciwprostokątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>CB</mi><mo>|</mo><mo>=</mo><mn>5</mn></mrow></math> cm. Wysokość tego trójkąta opuszczona z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> na przeciwprostokątną jest równa</p>",
       "choices": [
@@ -755,8 +756,9 @@
       "points": 3,
       "topics": [
         "podzielność",
-        "dowodzenie / dowody",
-        "wzory skróconego mnożenia"
+        "wzory skróconego mnożenia",
+        "wyłączanie wspólnego czynnika przed nawias",
+        "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Uzasadnij, że suma kwadratów dwóch kolejnych liczb parzystych zwiększona o 4 jest zawsze podzielna przez 8.</p>",
       "choices": [],
@@ -778,8 +780,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "trójkąty",
-        "geometria"
+        "podobieństwo i skala",
+        "trójkąty"
       ],
       "prompt_html": "<p>Odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> ma długość 12 cm. Przez oba końce tego odcinka prowadzimy proste <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi></math> do niego prostopadłe (patrz rysunek). W jakiej odległości od punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> należy zaznaczyć punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>, aby prosta przechodząca przez ten punkt przecinała proste <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi></math> w punktach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>N</mi></math> tak, aby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>MA</mi><mo>|</mo><mo>=</mo><mn>2</mn></mrow></math> cm i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>BN</mi><mo>|</mo><mo>=</mo><mn>3</mn></mrow></math> cm.</p>",
       "choices": [],
@@ -803,8 +805,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "ostrosłupy",
-        "potęgi i pierwiastki"
+        "ostrosłupy"
       ],
       "prompt_html": "<p>Figura na rysunku jest siatką ostrosłupa prawidłowego czworokątnego. Wiedząc, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>4</mn></mrow></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>BC</mi><mo>|</mo><mo>=</mo><mn>2</mn><msqrt><mn>5</mn></msqrt></mrow></math> cm, oblicz objętość tego ostrosłupa.</p>",
       "choices": [],

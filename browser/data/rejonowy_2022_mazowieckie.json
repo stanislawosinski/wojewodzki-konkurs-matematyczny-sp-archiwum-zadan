@@ -17,7 +17,9 @@
       "type": "true_false",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "wyłączanie czynnika przed znak pierwiastka",
+        "wyłączanie wspólnego czynnika przed nawias",
+        "szacowanie (zamiast obliczania)"
       ],
       "prompt_html": "<p>Dana jest liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><msqrt><mn>45</mn></msqrt><mo>−</mo><mn>3</mn><msqrt><mn>27</mn></msqrt></mrow></math>. Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F, jeśli jest fałszywe.</p>",
       "choices": [
@@ -90,7 +92,7 @@
       "points": 1,
       "topics": [
         "prawdopodobieństwo",
-        "kombinatoryka"
+        "zasada szufladkowa"
       ],
       "prompt_html": "<p>W urnie są kule jednakowej wielkości: 15 białych, 7 zielonych, 26 czerwonych, 10 niebieskich i 12 czarnych.</p><p>Zaznacz poprawną odpowiedź spośród oznaczonych literami A i B oraz C i D.</p><p>Podczas jednokrotnego losowania kuli z urny, prawdopodobieństwo wylosowania zielonej kuli wynosi</p><p>Aby mieć pewność, że wśród wylosowanych kul jest co najmniej sześć kul jednego koloru, wystarczy wylosować</p>",
       "choices": [
@@ -153,7 +155,8 @@
       "points": 3,
       "topics": [
         "graniastosłupy",
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> są środkami dwóch sąsiednich ścian sześcianu o krawędzi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> jest jednym ze wspólnych wierzchołków tych ścian sześcianu, na których leżą punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>. Zapisz obwód trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> za pomocą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>.</p>",
       "choices": [],

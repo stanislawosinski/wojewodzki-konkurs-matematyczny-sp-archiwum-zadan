@@ -56,7 +56,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty",
+        "zmiany procentowe",
         "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>W marcu płaszcz kosztował <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math> złotych. W kwietniu jego cenę obniżono o 150 zł. W maju cenę tego płaszcza obniżono o 30%, a w czerwcu, w trakcie kolejnej obniżki, o 40%. Które z wyrażeń opisuje cenę płaszcza po wszystkich trzech obniżkach? Wybierz odpowiedź spośród podanych.</p>",
@@ -96,8 +96,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
-        "szacowanie (zamiast obliczania)"
+        "porównywanie potęg i pierwiastków"
       ],
       "prompt_html": "<p>Dane są liczby:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msqrt><mn>190</mn></msqrt><mo>−</mo><mn>9</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><msqrt><mn>170</mn></msqrt><mo>−</mo><mn>8</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><msqrt><mn>150</mn></msqrt><mo>−</mo><mn>7</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><msqrt><mn>130</mn></msqrt><mo>−</mo><mn>6</mn></math>.</p><p>Która spośród nich jest mniejsza od 5? Wybierz odpowiedź spośród podanych.</p>",
       "choices": [
@@ -215,7 +214,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "kąty"
       ],
       "prompt_html": "<p>W trójkącie ostrokątnym jeden z kątów ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>°</mo></math>. Jaką miarę może mieć jeden z dwóch pozostałych kątów? Wybierz odpowiedź spośród podanych.</p>",
       "choices": [
@@ -254,8 +254,10 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "potęgi i pierwiastki",
-        "ułamki"
+        "działania na pierwiastkach",
+        "wartość bezwzględna",
+        "ułamki",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p><p>Dane są liczby:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msqrt><mfrac><mn>4</mn><mn>25</mn></mfrac></msqrt><mo>+</mo><mroot><mrow><mn>3</mn><mfrac><mn>3</mn><mn>8</mn></mfrac></mrow><mn>3</mn></mroot></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mfrac><mn>3</mn><mn>7</mn></mfrac><mo>·</mo><mn>0,12</mn><mo>+</mo><mfrac><mn>2</mn><mn>7</mn></mfrac><mo>·</mo><mn>0,12</mn><mo>+</mo><mn>1</mn><mfrac><mn>1</mn><mn>7</mn></mfrac><mo>·</mo><mn>0,12</mn><mo>−</mo><mfrac><mn>6</mn><mn>7</mn></mfrac><mo>·</mo><mn>0,12</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mo>|</mo><mn>1</mn><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>−</mo><mn>1,5</mn><mo>|</mo></math></p>",
       "choices": [
@@ -294,8 +296,8 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "reszta z dzielenia",
-        "zagadki logiczne"
+        "kalendarz i czas",
+        "reszta z dzielenia"
       ],
       "prompt_html": "<p>Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p><p>14 listopada 2023 roku wypada we wtorek.</p>",
       "choices": [
@@ -407,8 +409,8 @@
       "points": 5,
       "topics": [
         "podzielność",
-        "potęgi i pierwiastki",
-        "dowodzenie / dowody"
+        "dowodzenie / dowody",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Uzasadnij, że liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2023</mn><mo>·</mo><msup><mn>3</mn><mn>2024</mn></msup><mo>−</mo><mn>2024</mn><mo>·</mo><msup><mn>3</mn><mn>2023</mn></msup></math> jest wielokrotnością liczby 15.</p>",
       "choices": [],
@@ -431,7 +433,7 @@
       "points": 5,
       "topics": [
         "prędkość / droga / czas",
-        "proporcjonalność prosta"
+        "podobieństwo i skala"
       ],
       "prompt_html": "<p>Na mapie w skali <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>:</mo><mn>240 000</mn></math> trasa między Klonowem a Jeżowem ma długość 7,5 cm. Rowerzysta wyjechał z Klonowa do Jeżowa o godzinie 9:50. Jechał ze średnią prędkością 15 km/h. W Jeżowie spędził trzy kwadranse, po czym wrócił do Klonowa, jadąc tą samą trasą ze średnią prędkością 20 km/h. O której godzinie rowerzysta wrócił do Klonowa? Zapisz obliczenia i odpowiedź.</p>",
       "choices": [],
@@ -453,7 +455,7 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "procenty",
+        "stężenie procentowe / mieszaniny",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Ile gramów 23-procentowego roztworu i ile gramów 15-procentowego roztworu należy zmieszać, aby otrzymać 400 gramów roztworu 20-procentowego? Zapisz obliczenia i odpowiedź.</p>",
@@ -476,8 +478,7 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "graniastosłupy",
-        "równania z jedną zmienną"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Styropianowy blok w kształcie prostopadłościanu o podstawie kwadratu i polu powierzchni równym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>198</mn><msup><mtext> cm</mtext><mn>2</mn></msup></math> podzielono na pięć jednakowych sześciennych bloczków. Oblicz pole powierzchni i objętość jednego sześciennego bloczka. Zapisz obliczenia i odpowiedź.</p>",
       "choices": [],

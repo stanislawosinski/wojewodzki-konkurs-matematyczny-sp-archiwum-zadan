@@ -56,6 +56,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "ułamki okresowe / rozwinięcia dziesiętne",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Jaka jest 135-ta cyfra po przecinku rozwinięcia dziesiętnego ułamka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>8</mn><mn>111</mn></mfrac></math>?</p>",
@@ -95,7 +96,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty",
+        "zmiany procentowe",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Pani Maria sprzedawała gofry: w drugim tygodniu zarobiła o 20% więcej niż w pierwszym, a w trzecim o 25% więcej niż w drugim. Łącznie zarobiła 3700 zł. Ile zarobiła pani Maria w trzecim tygodniu pracy?</p>",
@@ -135,7 +136,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>4</mn><mn>30</mn></msup><mo>+</mo><msup><mn>8</mn><mn>20</mn></msup></mrow></math> można zapisać jako</p>",
       "choices": [
@@ -174,7 +176,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "działania na pierwiastkach",
         "wzory skróconego mnożenia"
       ],
       "prompt_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mfrac><mrow><mn>3</mn><mo>+</mo><msqrt><mn>3</mn></msqrt></mrow><msqrt><mn>3</mn></msqrt></mfrac><mo>)</mo></mrow><mn>2</mn></msup></math> jest równa</p>",
@@ -253,8 +255,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "koła / okręgi",
-        "zliczanie / metody zliczania"
+        "zliczanie / metody zliczania",
+        "koła / okręgi"
       ],
       "prompt_html": "<p>Dwa okręgi mogą rozciąć całą płaszczyznę na co najwyżej 4 obszary. Na ile co najwyżej obszarów mogą rozciąć płaszczyznę trzy okręgi?</p>",
       "choices": [
@@ -293,8 +295,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
-        "równania z jedną zmienną"
+        "wielokąty"
       ],
       "prompt_html": "<p>Zaznacz wielokąt, który ma dokładnie dwa razy więcej przekątnych niż boków.</p>",
       "choices": [
@@ -451,7 +452,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "koła / okręgi"
+        "koła / okręgi",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Średnica koła ciągnika ma 1,5 m. Ile pełnych obrotów wykona koło na drodze 18 m?</p>",
       "choices": [
@@ -532,7 +534,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "bryły obrotowe"
       ],
       "prompt_html": "<p>Wysokość walca ma długość 10 cm i jest równa średnicy jego podstawy. Wyznacz pole powierzchni całkowitej tego walca.</p>",
       "choices": [
@@ -681,7 +683,7 @@
       "points": 1,
       "topics": [
         "koła / okręgi",
-        "procenty"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Narysowano dwa koła o wspólnym środku. Promień większego z kół wynosi 5. Pole mniejszego koła stanowi 50% pola większego koła. Wyznacz długość promienia mniejszego koła.</p>",
       "choices": [
@@ -745,7 +747,7 @@
       "points": 2,
       "topics": [
         "kąty",
-        "procenty"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Wyznacz miarę kąta, który stanowi 25% miary kąta do niego przyległego. Zapisz obliczenia i odpowiedź.</p>",
       "choices": [],
@@ -767,8 +769,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "graniastosłupy",
-        "trójkąty"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Do zbudowania graniastosłupa prawidłowego użyto tylko dwóch rodzajów figur - trójkątów równobocznych oraz kwadratów. Pole jednego trójkąta równobocznego jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm². Oblicz pole powierzchni bocznej tego graniastosłupa. Zapisz obliczenia i odpowiedź.</p>",
       "choices": [],

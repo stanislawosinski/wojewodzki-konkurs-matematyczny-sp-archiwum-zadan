@@ -17,7 +17,9 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "notacja wykładnicza",
+        "działania na pierwiastkach",
+        "ułamki"
       ],
       "prompt_html": "<p>Liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>−</mo><mn>1,2</mn><mo>)</mo></math> <u>nie można</u> zapisać w postaci:</p>",
       "choices": [
@@ -96,8 +98,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "reszta z dzielenia",
-        "zagadki logiczne"
+        "kalendarz i czas",
+        "reszta z dzielenia"
       ],
       "prompt_html": "<p>Maciek znalazł stary notes z zapisanymi datami ważnych dla niego wydarzeń w 2016 roku. W której dacie popełnił błąd, jeśli wiadomo, że 11 luty 2016 r. wypadał w czwartek?</p>",
       "choices": [
@@ -175,7 +177,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy"
+        "liczba krawędzi, ścian i wierzchołków"
       ],
       "prompt_html": "<p>Dany jest graniastosłup, który ma 366 krawędzi i 244 wierzchołki. Jaki wielokąt jest w podstawie tego graniastosłupa?</p>",
       "choices": [
@@ -214,7 +216,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Tata Marty z zaoszczędzonych pieniędzy założył w banku lokatę na jeden rok. Po roku bank naliczył mu odsetki od lokaty, a następnie od tych odsetek odprowadził podatek w wysokości 18%. Ile podatku odprowadził bank od odsetek, jeśli zysk taty Marty z lokaty wyniósł 164 zł?</p>",
       "choices": [
@@ -253,7 +255,8 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "wzory skróconego mnożenia"
+        "wzory skróconego mnożenia",
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Dane jest wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>w</mi><mo>=</mo><msup><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>−</mo><mn>3</mn><mi>x</mi><mo>(</mo><mi>x</mi><mo>−</mo><mn>3</mn><mo>)</mo><mo>+</mo><mo>(</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>3</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo></math>.</p><p>Oceń prawdziwość zdań:</p>",
       "choices": [
@@ -284,7 +287,8 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Dane są liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msup><mrow><mo>(</mo><msup><mrow><mo>(</mo><mn>2</mn><mo>−</mo><mn>3</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>·</mo><mn>4</mn><mo>−</mo><mn>5</mn><mo>)</mo></mrow><mn>3</mn></msup><mo>·</mo><mn>6</mn><mo>:</mo><mn>2</mn><mo>−</mo><mn>3</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><msqrt><mrow><mn>8</mn><mo>:</mo><mn>2</mn><mo>−</mo><mn>5</mn><mo>(</mo><mn>6</mn><mo>−</mo><mn>7</mn><mo>)</mo></mrow></msqrt></math>.</p><p>Oceń prawdziwość zdań:</p>",
       "choices": [
@@ -426,8 +430,7 @@
       "points": 2,
       "topics": [
         "trójkąty",
-        "pole i obwód",
-        "potęgi i pierwiastki"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Na bokach trójkąta prostokątnego zbudowano kwadraty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>K</mi><mn>1</mn></msub></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>K</mi><mn>2</mn></msub></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>K</mi><mn>3</mn></msub></math>. Pole kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>K</mi><mn>2</mn></msub></math> wynosi 64 cm², natomiast pole kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>K</mi><mn>3</mn></msub></math> wynosi 144 cm².</p><p>Oceń prawdziwość zdań:</p>",
       "choices": [
@@ -533,8 +536,7 @@
       "points": 3,
       "topics": [
         "ostrosłupy",
-        "graniastosłupy",
-        "potęgi i pierwiastki"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Ostrosłup prawidłowy czworokątny oraz sześcian mają takie same objętości równe 216 cm³. Krawędź podstawy ostrosłupa ma 6 cm.</p><p>Oceń prawdziwość zdań:</p>",
       "choices": [

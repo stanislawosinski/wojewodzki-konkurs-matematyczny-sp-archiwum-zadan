@@ -53,6 +53,7 @@
       "points": 2,
       "topics": [
         "czworokąty",
+        "trójkąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>W kwadracie połączono środki dwóch sąsiednich boków. Powstał trójkąt i pięciokąt.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
@@ -123,7 +124,8 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "czworokąty"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Przy każdym zdaniu wpisz TAK lub NIE.</p><p>W równoległoboku wysokości mają długości 0,75 dm i 0,8 dm. Boki tego równoległoboku mogą mieć długości:</p>",
       "choices": [
@@ -194,7 +196,7 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Bluza kosztowała 480 zł. Po kilku obniżkach cena spadła o 70%. Najniższa cena w ciągu ostatnich 30 dni przed ostatnią obniżką wynosiła 200 zł. O ile procent aktualna cena jest niższa od poprzedniej?</p>",
       "choices": [],
@@ -262,8 +264,7 @@
       "points": 5,
       "topics": [
         "trójkąty",
-        "dowodzenie / dowody",
-        "szacowanie (zamiast obliczania)"
+        "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Czy prostokątną taflę szkła o wymiarach 2,5 m na 2,1 m można wnieść do łazienki przez drzwi o wymiarach 2 m na 0,9 m? Odpowiedź uzasadnij (nie bierzemy pod uwagę grubości szkła).</p>",
       "choices": [],
@@ -285,6 +286,7 @@
       "type": "open",
       "points": 5,
       "topics": [
+        "stężenie procentowe / mieszaniny",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Siostry Ania i Kasia mają tylko jedną butelkę syropu malinowego. Codziennie każda z nich wypija po szklance rozcieńczonego syropu wodą w stosunku 1 : 7. Jeżeli rozcieńczałyby syrop wodą w stosunku 1 : 9, to ta butelka syropu wystarczyłaby na 3 dni dłużej. W szklance mieści się 200 ml napoju. Ile syropu zawiera butelka?</p>",

@@ -56,7 +56,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "zmiany procentowe",
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Fabryka produkuje tygodniowo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> rowerów. Ile rowerów tygodniowo będzie produkować fabryka, jeśli jej produkcja wzrośnie o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>p</mi><mo>%</mo></mrow></math>?</p>",
       "choices": [
@@ -95,7 +96,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "wyłączanie czynnika przed znak pierwiastka",
         "czworokąty",
         "pole i obwód"
       ],
@@ -216,7 +217,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach",
+        "wyłączanie czynnika przed znak pierwiastka"
       ],
       "prompt_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>−</mo><mo>(</mo><msqrt><mn>32</mn></msqrt><mo>−</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><msqrt><mn>64</mn></msqrt><mo>)</mo><mo>:</mo><msqrt><mn>8</mn></msqrt><mo>+</mo><mn>1</mn></mrow></math> jest równa</p>",
       "choices": [
@@ -255,7 +257,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Jeżeli dzielną zmniejszymy o dzielnik, to iloraz zmniejszy się o</p>",
       "choices": [
@@ -295,7 +297,7 @@
       "points": 1,
       "topics": [
         "trójkąty",
-        "potęgi i pierwiastki",
+        "działania na pierwiastkach",
         "pole i obwód"
       ],
       "prompt_html": "<p>Pola kwadratów zbudowanych na przyprostokątnej i przeciwprostokątnej trójkąta prostokątnego są odpowiednio równe 7 i 15. Pole tego trójkąta jest równe</p>",
@@ -335,7 +337,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy"
+        "liczba krawędzi, ścian i wierzchołków"
       ],
       "prompt_html": "<p>Łączna liczba wierzchołków, ścian i krawędzi pewnego graniastosłupa jest równa 110. Ile wierzchołków ma wielokąt będący podstawą tego graniastosłupa?</p>",
       "choices": [
@@ -374,7 +376,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "proporcjonalność prosta",
+        "podobieństwo i skala",
         "pole i obwód"
       ],
       "prompt_html": "<p>Sad zajmuje prostokątną powierzchnię o wymiarach 400 m × 500 m. Na planie jego powierzchnia wynosi 2 000 cm². Plan sporządzono w skali</p>",
@@ -534,7 +536,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty",
+        "zmiany procentowe",
         "graniastosłupy"
       ],
       "prompt_html": "<p>Każdą krawędź sześcianu wydłużono o 10%. O ile procent wzrosła objętość tego sześcianu?</p>",
@@ -574,7 +576,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "ostatnia cyfra / cykliczność potęg",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>3</mn><mn>3</mn></msup><mo>+</mo><msup><mn>4</mn><mn>3</mn></msup><mo>+</mo><msup><mn>5</mn><mn>3</mn></msup></mrow></math> ma w rzędzie jedności cyfrę</p>",
@@ -614,7 +616,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "notacja wykładnicza"
       ],
       "prompt_html": "<p>Liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4,2</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>6</mn></mrow></msup></mrow></math> można zapisać w postaci</p>",
       "choices": [
@@ -653,8 +655,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "statystyka opisowa",
-        "równania z jedną zmienną"
+        "statystyka opisowa"
       ],
       "prompt_html": "<p>Jeżeli średnia arytmetyczna sześciu liczb: 3, 1, 1, 0, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, 2 jest równa 2, to liczbą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> jest</p>",
       "choices": [
@@ -732,9 +733,9 @@
       "type": "open",
       "points": 2,
       "topics": [
+        "kąty",
         "czworokąty",
-        "trójkąty",
-        "kąty"
+        "trójkąty"
       ],
       "prompt_html": "<p>W równoległoboku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> długość boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> jest dwa razy większa od długości boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> dzielący bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> na połowy połączono z punktami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>. Oblicz miarę kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CKD</mi></math>.</p>",
       "choices": [],
@@ -756,8 +757,9 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki",
-        "podzielność",
+        "działania na potęgach",
+        "liczby pierwsze",
+        "wyłączanie wspólnego czynnika przed nawias",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Uzasadnij, czy wynik wyrażenia jest liczbą pierwszą.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><msup><mn>10</mn><mn>12</mn></msup><mo>+</mo><msup><mn>5</mn><mn>11</mn></msup><mo>·</mo><msup><mn>2</mn><mn>9</mn></msup><mo>−</mo><msup><mn>5</mn><mn>13</mn></msup><mo>·</mo><msup><mn>2</mn><mn>8</mn></msup><mo>)</mo><mo>:</mo><mo>(</mo><mn>4</mn><mo>·</mo><msup><mn>5</mn><mn>5</mn></msup><mo>·</mo><msup><mn>10</mn><mn>6</mn></msup><mo>)</mo></mrow></math></p>",
@@ -802,7 +804,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "procenty",
+        "stężenie procentowe / mieszaniny",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Świeżo zerwany arbuz, zawierający 99% wody ma masę 6 kg. Po leżakowaniu zawartość wody w arbuzie spadła do 98%. Jaką masę ma arbuz po leżakowaniu?</p>",
@@ -826,7 +828,6 @@
       "points": 3,
       "topics": [
         "trójkąty",
-        "potęgi i pierwiastki",
         "pole i obwód"
       ],
       "prompt_html": "<p>Na zewnątrz trzech boków trójkąta prostokątnego równoramiennego o przyprostokątnej długości 6 cm zbudowano kwadraty. Środki tych kwadratów połączono odcinkami. Wyznacz pole otrzymanego trójkąta.</p>",

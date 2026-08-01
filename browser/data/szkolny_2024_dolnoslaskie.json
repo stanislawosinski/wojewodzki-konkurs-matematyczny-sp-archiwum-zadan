@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><mn>88</mn><mo>+</mo><mn>11</mn><mo>)</mo><mo>·</mo><mo>(</mo><mn>777</mn><mo>+</mo><mn>222</mn><mo>)</mo><mo>·</mo><mo>(</mo><mn>6666</mn><mo>+</mo><mn>3333</mn><mo>)</mo><mo>·</mo><mo>(</mo><mn>55555</mn><mo>+</mo><mn>44444</mn><mo>)</mo></mrow><mrow><mo>(</mo><mn>99</mn><mo>−</mo><mn>66</mn><mo>)</mo><mo>·</mo><mo>(</mo><mn>888</mn><mo>−</mo><mn>555</mn><mo>)</mo><mo>·</mo><mo>(</mo><mn>7777</mn><mo>−</mo><mn>4444</mn><mo>)</mo><mo>·</mo><mo>(</mo><mn>66666</mn><mo>−</mo><mn>33333</mn><mo>)</mo></mrow></mfrac></math> jest równa</p>",
       "choices": [
@@ -44,7 +44,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kombinatoryka",
+        "zagadki logiczne",
         "szacowanie (zamiast obliczania)"
       ],
       "prompt_html": "<p>Ile najmniej liczb dwucyfrowych, z których każda jest inna, można wybrać tak, aby ich suma była równa 888?</p>",
@@ -72,7 +72,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "układ współrzędnych"
+        "układ współrzędnych",
+        "ułamki"
       ],
       "prompt_html": "<p>Suma liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> zaznaczonych na osiach liczbowych jest równa</p>",
       "choices": [
@@ -377,8 +378,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "trójkąty",
-        "układy równań"
+        "układy równań",
+        "trójkąty"
       ],
       "prompt_html": "<p>Dane są trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>1</mn></msub></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>2</mn></msub></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>3</mn></msub></math> o następujących miarach kątów:</p><ul><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>1</mn></msub></math>: 5°, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math>,</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>2</mn></msub></math>: 10°, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi></math>,</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>3</mn></msub></math>: 25°, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi></math>.</li></ul><p>Miary kątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi></math> spełniają równość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>+</mo><mi>β</mi><mo>+</mo><mi>γ</mi><mo>=</mo><mn>250</mn><mo>°</mo></mrow></math>. Określ rodzaj każdego z tych trójkątów ze względu na kąty za pomocą określeń: ostrokątny, prostokątny, rozwartokątny (określenia te mogą się powtarzać).</p><p>Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>1</mn></msub></math> jest _____ .</p><p>Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>2</mn></msub></math> jest _____ .</p><p>Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>3</mn></msub></math> jest _____ .</p>",
       "choices": [],
@@ -400,7 +401,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "graniastosłupy"
+        "graniastosłupy",
+        "siatki brył"
       ],
       "prompt_html": "<p>Na rysunku przedstawiono siatkę pewnego sześcianu. Suma długości pogrubionych odcinków jest o 26 cm większa od sumy długości wszystkich krawędzi tej bryły. A zatem</p><ul><li>suma długości wszystkich krawędzi tego sześcianu jest równa _____ cm,</li><li>pole powierzchni całkowitej tego sześcianu jest równe _____ cm²,</li><li>objętość tego sześcianu jest równa _____ cm³.</li></ul>",
       "choices": [],

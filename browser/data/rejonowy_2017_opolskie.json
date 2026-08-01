@@ -52,8 +52,7 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "kąty",
-        "geometria"
+        "wielokąty"
       ],
       "prompt_html": "<p>Wielokąt ma 5 przekątnych.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
       "choices": [
@@ -88,8 +87,7 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "zliczanie / metody zliczania",
-        "podzielność"
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Zosia wypisała wszystkie liczby trzycyfrowe, których suma cyfr wynosi 4. Natomiast Filip wypisał wszystkie liczby trzycyfrowe, których suma cyfr wynosi co najwyżej 3.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
       "choices": [
@@ -161,6 +159,7 @@
       "type": "true_false",
       "points": 2,
       "topics": [
+        "liczby pierwsze",
         "podzielność"
       ],
       "prompt_html": "<p>Przy każdym zdaniu wpisz TAK lub NIE.</p><p>Iloczyn trzech różnych liczb pierwszych może być:</p>",
@@ -196,8 +195,8 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "podzielność",
-        "zliczanie / metody zliczania"
+        "zbiory / zasada włączeń i wyłączeń",
+        "podzielność"
       ],
       "prompt_html": "<p>Janek wypisał na tablicy wszystkie liczby naturalne od 1 do 300. Następnie skreślił liczby podzielne przez 3, potem skreślił liczby podzielne przez 5. Chciał policzyć, ile pozostało liczb, ale gdy wrócił po przerwie, tablica była zmazana. Pomóż Jankowi obliczyć, ile liczb pozostało na tablicy nieskreślonych, bez ich ponownego wypisywania i skreślania.</p>",
       "choices": [],
@@ -242,8 +241,7 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "podzielność",
-        "zliczanie / metody zliczania"
+        "podzielność"
       ],
       "prompt_html": "<p>Ania postanowiła ułożyć zdjęcia w albumie. Zdjęcia są w dwóch rozmiarach, większe mieszczą się po trzy na jednej stronie albumu, a mniejsze po osiem. Udało jej się ułożyć 80 zdjęć, wśród nich były zdjęcia mniejsze i większe. Nie było strony zapełnionej częściowo. Każda strona zawierała zdjęcia jednej wielkości. Ile Ania mogła mieć większych, a ile mniejszych zdjęć? Podaj wszystkie możliwości.</p>",
       "choices": [],
@@ -288,8 +286,7 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "procenty",
-        "równania z jedną zmienną"
+        "procenty"
       ],
       "prompt_html": "<p>Przed świętami na bazar przywieziono choinki na sprzedaż. Pierwszego dnia sprzedano 20% z nich i w efekcie zostało o 90 sztuk więcej niż sprzedano. Ile choinek przywieziono na bazar?</p>",
       "choices": [],

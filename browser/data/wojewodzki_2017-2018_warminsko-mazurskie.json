@@ -17,8 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zliczanie / metody zliczania",
-        "podzielność"
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Ile najwięcej lat przestępnych może wystąpić w ciągu kolejnych 9 lat?</p>",
       "choices": [
@@ -57,7 +56,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Różnica sześcianu i kwadratu liczby (−2) jest równa:</p>",
       "choices": [
@@ -96,8 +95,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność",
-        "zliczanie / metody zliczania"
+        "zbiory / zasada włączeń i wyłączeń",
+        "podzielność"
       ],
       "prompt_html": "<p>Ile jest liczb podzielnych przez 5 lub 2 wśród 100 kolejnych liczb naturalnych?</p>",
       "choices": [
@@ -136,7 +135,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zagadki logiczne"
+        "kalendarz i czas",
+        "symetrie"
       ],
       "prompt_html": "<p>Na dworcu naprzeciw wyświetlacza zegara cyfrowego znajduje się ściana z lustra. O 21:15 podróżny zauważył, że obraz na wyświetlaczu i jego odbicie w lustrze wyglądają tak samo. Ile razy zdarzy się to w ciągu następnych trzech godzin (godziny 21:15 nie liczymy)?</p>",
       "choices": [
@@ -177,7 +177,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Iloraz największej liczby dwucyfrowej parzystej i najmniejszej liczby pierwszej wynosi:</p>",
       "choices": [
@@ -216,7 +216,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "NWW / NWD"
+        "NWW / NWD",
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Ela chodzi na aerobik co cztery dni, a Zosia co trzy dni. Dziś (sobota) były na ćwiczeniach obie. W jaki najbliższy dzień tygodnia znów będą ćwiczyć razem?</p>",
       "choices": [
@@ -294,6 +295,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "ułamki okresowe / rozwinięcia dziesiętne",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Dwusetną cyfrą po przecinku w zapisie liczby 709,4(90732) jest:</p>",
@@ -333,7 +335,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Na odcinku długości 8 cm zaznaczono cztery punkty tak, że podzieliły one ten odcinek na równe części. Każda z otrzymanych części ma długość:</p>",
       "choices": [
@@ -372,7 +374,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy"
+        "graniastosłupy",
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Objętość sześcianu wynosi 64 litry. Po zwiększeniu krawędzi tego sześcianu o jedną dziesiątą metra jego pole wzrośnie o:</p>",
       "choices": [
@@ -451,6 +454,7 @@
       "points": 1,
       "topics": [
         "trójkąty",
+        "podobieństwo i skala",
         "pole i obwód"
       ],
       "prompt_html": "<p>W trójkącie równobocznym ABC o polu 20 cm² połączono środki dwóch boków. Pole otrzymanego w ten sposób trójkąta wynosi:</p>",
@@ -529,8 +533,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "koła / okręgi",
-        "proporcjonalność prosta"
+        "podobieństwo i skala",
+        "koła / okręgi"
       ],
       "prompt_html": "<p>Koło o średnicy 3,5 dm narysowano w skali 1:5. Promień tego koła na rysunku ma długość:</p>",
       "choices": [
@@ -608,7 +612,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "graniastosłupy"
+        "graniastosłupy",
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Dany jest prostopadłościan o krawędziach długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>. O ile zwiększy się jego objętość, jeśli długość krawędzi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> zwiększymy o 1?</p>",
       "choices": [],
@@ -630,7 +635,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Wanna napełnia się zimną wodą w czasie 20 minut, zaś gorącą wodą, płynącą z drugiego kranu, w ciągu 30 minut. Ile czasu potrzeba na napełnienie tej wanny, gdy woda leci równocześnie z obu kranów?</p>",
       "choices": [],
@@ -652,8 +657,8 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "podzielność",
-        "potęgi i pierwiastki"
+        "liczby pierwsze",
+        "podzielność"
       ],
       "prompt_html": "<p>Obliczono iloczyn kolejnych liczb naturalnych od 1 do 10. Oceń prawdziwość zdań (wpisz „tak” lub „nie”):</p>",
       "choices": [
@@ -689,7 +694,8 @@
       "points": 4,
       "topics": [
         "procenty",
-        "zagadki logiczne"
+        "nierówności",
+        "podzielność"
       ],
       "prompt_html": "<p>Po świętach babcia Rozalia wyniosła na strych ozdoby choinkowe. Bombki przechowuje w czterech małych pudełkach i jednym dużym. W dużym pudełku jest o 10% mniej bombek niż w małych pudełkach razem. Ile bombek ma babcia Rozalia, jeśli w sumie jest ich nie więcej niż 80, a w małych pudełkach jest ich w sumie więcej niż 30?</p>",
       "choices": [],
@@ -712,6 +718,7 @@
       "points": 4,
       "topics": [
         "trójkąty",
+        "kąty",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Narysuj dowolny trójkąt prostokątny ABC. Przedłuż przeciwprostokątną AB. Na zewnątrz trójkąta, na przedłużeniu przeciwprostokątnej, otrzymasz odcinki AD i BE. Wiedząc, że odcinki AD i AC są równe oraz równe są odcinki BE i BC, uzasadnij, że kąt DCE ma 135°.</p>",

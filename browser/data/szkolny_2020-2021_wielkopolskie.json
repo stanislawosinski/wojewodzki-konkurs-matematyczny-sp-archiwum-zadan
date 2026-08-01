@@ -56,7 +56,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "notacja wykładnicza",
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Dane są liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>7,5</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>10</mn></mrow></msup></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>1,5</mn><mo>·</mo><msup><mn>10</mn><mn>4</mn></msup></math>. Zatem iloraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>x</mi><mi>y</mi></mfrac></math> jest równy:</p>",
       "choices": [
@@ -95,7 +96,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zagadki logiczne"
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Z niedzieli na poniedziałek w nocy szkolny zegar równo o północy zaczął spieszyć się o 10 minut w ciągu każdej godziny. W poniedziałek rano, gdy uczniowie przyszli do szkoły o ósmej byli bardzo zdumieni bo na szkolnym zegarze zobaczyli godzinę:</p>",
       "choices": [
@@ -173,7 +174,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mn>2</mn><mn>8</mn></msup><mo>−</mo><msup><mn>2</mn><mn>7</mn></msup></mrow><msup><mn>16</mn><mn>2</mn></msup></mfrac></math> jest równa:</p>",
       "choices": [
@@ -329,7 +331,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kombinatoryka"
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Grupa przyjaciół spotkała się ze sobą po wakacjach. Każdy przywitał się z każdym i zamienił chociaż parę słów. Wszystkich powitań było 15, zatem liczba przyjaciół na spotkaniu była</p>",
       "choices": [
@@ -407,7 +409,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Po dwóch kolejnych obniżkach cen, za pierwszym razem o 20% i za drugim razem o 10% koszula kosztuje 90 zł. Wynika z tego, że koszula przed obniżkami kosztowała:</p>",
       "choices": [
@@ -485,7 +487,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "ostrosłupy"
+        "liczba krawędzi, ścian i wierzchołków"
       ],
       "prompt_html": "<p>Pewien ostrosłup ma 50 wierzchołków. Liczba krawędzi tego ostrosłupa wynosi:</p>",
       "choices": [
@@ -524,7 +526,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wartość bezwzględna"
       ],
       "prompt_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mo>−</mo><mn>1</mn><mo>−</mo><mo>|</mo><mn>2</mn><mo>−</mo><mn>3</mn><mo>|</mo><mo>|</mo><mo>+</mo><mo>|</mo><mo>−</mo><mn>3</mn><mo>|</mo></math> jest równa:</p>",
       "choices": [
@@ -563,7 +565,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "zamiana jednostek",
+        "notacja wykładnicza"
       ],
       "prompt_html": "<p>19,2 km <strong>nie jest równe</strong></p>",
       "choices": [
@@ -602,7 +605,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "wyłączanie czynnika przed znak pierwiastka",
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>2</mn><msqrt><mn>32</mn></msqrt><mo>+</mo><mn>4</mn><msqrt><mn>8</mn></msqrt><mo>−</mo><mn>3</mn><msqrt><mn>50</mn></msqrt><mo>)</mo><mo>:</mo><msqrt><mn>2</mn></msqrt></math> jest równa:</p>",
       "choices": [
@@ -797,8 +801,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "równania z jedną zmienną",
-        "zagadki logiczne"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Kasia i Janek są rodzeństwem. Ich tata ma 2 razy więcej lat niż razem mają jego córka Kasia i syn Janek. Kasia jest trzy razy starsza od brata Janka i o 30 lat młodsza od taty.</p><p>Określ prawdziwość zdań, zaznaczając P, jeśli zdanie jest prawdziwe, lub zaznaczając F, jeśli zdanie jest fałszywe.</p>",
       "choices": [
@@ -907,7 +910,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Laptop kosztował 3000 zł. Jego cenę podwyższono o 10%. Z powodu małego zainteresowania cenę obniżono o 20% i przy zakupie płatnym bezgotówkowo udzielono jeszcze bonifikaty w postaci 5% ceny. Ile zapłaci klient kupując ten laptop i płacąc bezgotówkowo? Zapisz obliczenia.</p>",
       "choices": [],
@@ -930,7 +933,8 @@
       "points": 3,
       "topics": [
         "podzielność",
-        "dowodzenie / dowody"
+        "dowodzenie / dowody",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Wykaż, że suma liczb trzycyfrowych postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mover><mi>XYZ</mi><mo>―</mo></mover><mo>+</mo><mover><mi>ZXY</mi><mo>―</mo></mover><mo>+</mo><mover><mi>YZX</mi><mo>―</mo></mover></math>, jest podzielna przez 111, wiedząc, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>X</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Z</mi></math> oznaczają dowolne cyfry i są różne od zera.</p>",
       "choices": [],
@@ -952,7 +956,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "kąty"
       ],
       "prompt_html": "<p>W trójkącie równoramiennym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>, w którym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi><mo>=</mo><mi>BC</mi></math>, na ramieniu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> zaznaczono punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> i poprowadzono odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math>. W ten sposób rozcięto trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> na dwa trójkąty równoramienne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CAD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BDA</mi></math> tak, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi><mo>=</mo><mi>AD</mi><mo>=</mo><mi>CD</mi></math>. Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACB</mi></math> oznacz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>. Wyznacz miarę kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>.</p>",
       "choices": [],

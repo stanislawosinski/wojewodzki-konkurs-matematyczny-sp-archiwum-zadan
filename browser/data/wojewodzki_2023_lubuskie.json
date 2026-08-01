@@ -44,7 +44,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "zmiany procentowe",
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Fabryka produkuje miesięcznie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> hulajnóg. Ile hulajnóg miesięcznie będzie produkować ta fabryka, jeżeli jej produkcja wzrośnie o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math>%?</p>",
       "choices": [
@@ -71,7 +72,9 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "liczby wymierne i niewymierne",
+        "działania na pierwiastkach",
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Ile spośród podanych w ramce liczb to liczby wymierne dodatnie?</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><mn>100</mn><mo>+</mo><mn>64</mn></mrow></msqrt></math>, &nbsp; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mo>−</mo><mn>11</mn><mo>)</mo></mrow><mn>0</mn></msup></math>, &nbsp; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>125</mn></msqrt></math>, &nbsp; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>)</mo></mrow><mn>6</mn></msup><mn>3</mn></mroot></math>, &nbsp; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><msup><mn>3</mn><mn>2</mn></msup></math>, &nbsp; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo></mrow><mn>3</mn></msup><mo>+</mo><msqrt><mn>49</mn></msqrt></math>, &nbsp; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mo>−</mo><mn>1</mn><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>)</mo></mrow><mn>3</mn></msup></math>, &nbsp; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mo>−</mo><mn>1,5</mn><mo>)</mo></mrow><msup><mn>2</mn><mn>3</mn></msup></msup></math>, &nbsp; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mo>−</mo><mn>3</mn><mo>|</mo><mo>+</mo><mo>|</mo><mo>−</mo><mn>2</mn><mo>|</mo></math></p>",
       "choices": [
@@ -98,7 +101,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "podobieństwo i skala",
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Kargul ma pole o powierzchni 10 ha. Jaką powierzchnię w cm² ma jego pole na mapie w skali 1 : 10 000?</p>",
       "choices": [
@@ -152,7 +156,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "symetrie"
+        "symetrie",
+        "czworokąty"
       ],
       "prompt_html": "<p>Przekątne są jedynymi osiami symetrii</p>",
       "choices": [
@@ -206,7 +211,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kombinatoryka"
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Pani Eugenia ma w torebce 5 kieszeni. Na ile sposobów może schować w kieszeniach tej torebki portfel i telefon w taki sposób, by znalazły się w różnych kieszeniach?</p>",
       "choices": [
@@ -399,7 +404,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Do liczby dwucyfrowej Rafał dopisał tę samą liczbę, otrzymując liczbę czterocyfrową, która jest większa od liczby początkowej</p>",
       "choices": [
@@ -426,7 +431,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy"
+        "graniastosłupy",
+        "trójkąty"
       ],
       "prompt_html": "<p>Mrówka siedzi w punkcie S na środku górnej podstawy sześciennego pudełka o krawędzi 2. Najkrótsza długość drogi, jaką mrówka chce przejść po powierzchni pudełka z punktu S do wierzchołka M leżącego na dolnej podstawie, wynosi</p>",
       "choices": [
@@ -455,7 +461,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "notacja wykładnicza"
       ],
       "prompt_html": "<p>Ile potrzeba monet 5-groszowych, aby wypłacić nimi milion złotych?</p>",
       "choices": [
@@ -482,7 +488,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Wyznaczając <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> ze wzoru <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>c</mi><mo>+</mo><mi>d</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mi>x</mi><mo>−</mo><mi>a</mi></mrow><mrow><mn>2</mn><mi>b</mi></mrow></mfrac></math> otrzymamy</p>",
       "choices": [
@@ -565,7 +572,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "reszta z dzielenia",
+        "ułamki okresowe / rozwinięcia dziesiętne",
         "ułamki"
       ],
       "prompt_html": "<p>Oceń, czy informacje dotyczące ułamka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>11</mn></mfrac></math> są prawdziwe.</p>",
@@ -620,8 +627,8 @@
       "topics": [
         "trójkąty",
         "sześciokąty foremne",
-        "podzielność",
-        "pole i obwód"
+        "pole i obwód",
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>Oceń informacje dotyczące wielokątów.</p>",
       "choices": [
@@ -674,7 +681,8 @@
       "points": 2,
       "topics": [
         "statystyka opisowa",
-        "prawdopodobieństwo"
+        "prawdopodobieństwo",
+        "procenty"
       ],
       "prompt_html": "<p>Diagram przedstawia wyniki klasówki z matematyki uczniów pewnej klasy ósmej. Dokonaj analizy tych wyników i uzupełnij poniższe zdania.</p><p>a) Prawdopodobieństwo, że wybrany losowo uczeń tej klasy osiągnął wynik wyższy niż 20 punktów wynosi ………… .</p><p>b) Uczniowie, którzy otrzymali mniej niż 10 punktów, stanowią ………… procent klasy.</p>",
       "choices": [],
@@ -698,8 +706,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "NWW / NWD",
-        "podzielność"
+        "NWW / NWD"
       ],
       "prompt_html": "<p>Sebastian zapisał dwie liczby naturalne, których suma jest równa 70, a ich największy wspólny dzielnik wynosi 14. Julia zapisała dwie inne liczby spełniające te same warunki.</p><p>Jakie pary liczb mogły zapisać te dwie osoby? …………</p>",
       "choices": [],
@@ -721,8 +728,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "reszta z dzielenia",
-        "zagadki logiczne"
+        "reszta z dzielenia"
       ],
       "prompt_html": "<p>Pewien bogacz „dziwak” pozostawił swoim dzieciom taki oto testament: <em>W moim ogrodzie rosną kolejno posadzone drzewa: 1 – czereśnia, 2 – grusza, 3 – śliwa, 4 – jabłoń. Pod jednym z nich zakopałem skarb. Żeby go znaleźć, musicie zrywać po jednym liściu z drzewa w następującej kolejności: 12343212343…. Pod drzewem, z którego zerwiecie 3003 liść, znajduje się skarb.</em> Jak nazywa się drzewo, pod którym bogacz ukrył skarb?</p>",
       "choices": [],

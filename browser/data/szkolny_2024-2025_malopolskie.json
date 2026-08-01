@@ -56,8 +56,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "reszta z dzielenia",
-        "zagadki logiczne"
+        "kalendarz i czas",
+        "reszta z dzielenia"
       ],
       "prompt_html": "<p>21 października 2027 roku to czwartek. Dzień Liczby Pi, 14 marca 2028 roku, wypadnie</p>",
       "choices": [
@@ -136,8 +136,9 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki",
-        "układ współrzędnych"
+        "wyłączanie czynnika przed znak pierwiastka",
+        "działania na pierwiastkach",
+        "wartość bezwzględna"
       ],
       "prompt_html": "<p>Odległość na osi liczbowej pomiędzy liczbą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>−</mo><msqrt><mn>12</mn></msqrt><mo>)</mo></mrow></math> oraz liczbą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><msqrt><mn>27</mn></msqrt><mo>−</mo><msqrt><mn>36</mn></msqrt><mo>)</mo></mrow></math> jest równa</p>",
       "choices": [
@@ -217,6 +218,7 @@
       "points": 2,
       "topics": [
         "trójkąty",
+        "kąty",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Na rysunku obok przedstawiono trójkąt równoramienny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>, w którym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>AC</mi><mo>|</mo></mrow></math>. Miary kątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BAC</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CBA</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACB</mi></math> przedstawiono wyrażeniami odpowiednio równymi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>6</mn><mi>y</mi><mo>−</mo><mn>6</mn><mo>)</mo><mo>°</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>3</mn><mi>x</mi><mo>−</mo><mn>12</mn><mo>)</mo><mo>°</mo></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>10</mn><mo>)</mo><mo>°</mo></mrow></math>. Jaka jest różnica pomiędzy wartością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> a wartością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>?</p>",
@@ -259,8 +261,8 @@
       "points": 2,
       "topics": [
         "czworokąty",
-        "pole i obwód",
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Dwa przystające romby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EFGH</mi></math> o boku długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>2</mn></mrow></math> zostały ułożone tak, by ich powierzchnia wspólna była równoległobokiem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>JFKD</mi></math> o bokach długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>1</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7</mn><mo>−</mo><mi>x</mi></mrow></math>. Obwód figury <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCKGHEJ</mi></math> jest równy 48. Ile wynosi wartość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>?</p>",
       "choices": [
@@ -301,7 +303,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki"
+        "notacja wykładnicza"
       ],
       "prompt_html": "<p>Koń mechaniczny (KM) jest jednostką mocy stosowaną do określania mocy silników spalinowych. Jednostką mocy w układzie SI jest wat (W), gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mtext> KM</mtext><mo>≈</mo><mn>735,5</mn><mtext> W</mtext></mrow></math>. Łączna moc silników samolotu Boeing 777 to około 100 tysięcy koni mechanicznych. Ile to gigawatów, jeśli 1 gigawat to miliard watów?</p>",
       "choices": [
@@ -340,7 +342,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "procenty",
+        "zmiany procentowe",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Cena biletu wzrosła o 5%, a następnie spadła o 20%. Po tych dwóch zmianach cena biletu była o 8 złotych mniejsza niż cena początkowa. Ile kosztował bilet na początku?</p>",
@@ -385,7 +387,7 @@
       "points": 3,
       "topics": [
         "nierówności",
-        "zagadki logiczne"
+        "liczby wymierne i niewymierne"
       ],
       "prompt_html": "<p>Dwie liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, takie że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>&lt;</mo><mi>b</mi></mrow></math>, są większe od 0 i jednocześnie mniejsze od 2. Rozważ poniższe zdania:</p><ul><li>I. Średnia arytmetyczna liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> po przybliżeniu jej do najbliższej liczby całkowitej jest zawsze równa 1 bez względu na wartości liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>.</li><li>II. Różnica <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>−</mo><mi>b</mi></mrow></math> jest zawsze większa od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>2</mn></mrow></math> i mniejsza od 0.</li><li>III. Ilorazy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mi>b</mi></mfrac></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>b</mi><mi>a</mi></mfrac></math> są zawsze dodatnimi liczbami wymiernymi.</li></ul><p>Które ze zdań I, II i III są prawdziwe?</p>",
       "choices": [
@@ -428,7 +430,8 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "ułamki"
       ],
       "prompt_html": "<p>Dane są trzy liczby:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>p</mi><mo>=</mo><mfrac><mn>27</mn><mn>16</mn></mfrac><mo>:</mo><mfrac><mn>4</mn><mn>9</mn></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>q</mi><mo>=</mo><mfrac><mrow><msup><mn>6</mn><mn>3</mn></msup><mo>·</mo><msup><mn>2</mn><mn>2</mn></msup></mrow><msup><mn>18</mn><mn>2</mn></msup></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>r</mi><mo>=</mo><mfrac><msup><mn>36</mn><mn>2</mn></msup><mrow><msup><mn>12</mn><mn>5</mn></msup><mo>:</mo><msup><mn>3</mn><mn>2</mn></msup></mrow></mfrac></mrow></math>.</p><p>Wybierz odpowiedź, w której liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>q</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math> są ustawione w kolejności od najmniejszej do największej.</p>",
       "choices": [
@@ -471,7 +474,6 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "kombinatoryka",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Na ile różnych sposobów możemy podzielić 4 osoby na dwa zespoły dwuosobowe?</p>",
@@ -515,8 +517,8 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "wyłączanie jednomianu przed nawias",
-        "wyrażenia algebraiczne"
+        "wyrażenia algebraiczne",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Wyrażenie algebraiczne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><mn>2</mn><mi>x</mi><mi>y</mi><mo>+</mo><mn>4</mn><mi>x</mi><mo>)</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mi>x</mi><mi>y</mi><mo>)</mo></mrow><mrow><mn>8</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></mfrac></math> po uproszczeniu jest równe wyrażeniu</p>",
       "choices": [
@@ -560,8 +562,8 @@
       "points": 3,
       "topics": [
         "trójkąty",
-        "pole i obwód",
-        "procenty"
+        "procenty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Rysunek obok przedstawia trzy trójkąty prostokątne równoramienne o przyprostokątnej długości odpowiednio 7 cm, 4 cm oraz 1 cm. Ile procent pola największego z trójkątów stanowi pole zacieniowanej figury?</p>",
       "choices": [

@@ -58,6 +58,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "ułamki okresowe / rozwinięcia dziesiętne",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Jaka cyfra stoi na 55 miejscu po przecinku w ułamku dziesiętnym powstałym z podzielenia 6 przez 7?</p>",
@@ -99,6 +100,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "NWW / NWD",
         "podzielność"
       ],
       "prompt_html": "<p>Liczba podzielna przez 14 i przez 4 dzieli się przez 56:</p>",
@@ -132,7 +134,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kąty"
+        "wielokąty"
       ],
       "prompt_html": "<p>Suma miar kątów wewnętrznych siedmiokąta wypukłego wynosi:</p>",
       "choices": [
@@ -255,7 +257,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy"
+        "liczba krawędzi, ścian i wierzchołków"
       ],
       "prompt_html": "<p>Suma liczby krawędzi i wierzchołków pewnego graniastosłupa wynosi 35. Liczba ścian tego graniastosłupa wynosi:</p>",
       "choices": [
@@ -420,7 +422,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zagadki logiczne"
+        "wzrost wykładniczy"
       ],
       "prompt_html": "<p>Rzęsa wodna w pewnych warunkach temperatury podwaja swoją powierzchnię w ciągu 72 godzin. Po 20 dobach zarosła cały staw. Po ilu dobach zajmowała <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> powierzchni stawu?</p>",
       "choices": [
@@ -586,7 +588,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "stężenie procentowe / mieszaniny"
       ],
       "prompt_html": "<p>200 kg marchwi zawiera 95% wody. Po pewnym czasie przechowywania woda stanowiła 90% całej masy. Ile wtedy ważyła marchew?</p>",
       "choices": [
@@ -627,7 +629,8 @@
       "type": "open",
       "points": 6,
       "topics": [
-        "potęgi i pierwiastki",
+        "notacja wykładnicza",
+        "wyłączanie czynnika przed znak pierwiastka",
         "procenty"
       ],
       "prompt_html": "<p>Dane są liczby:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>5</mn><mo>·</mo><msup><mn>10</mn><mn>20</mn></msup><mo>+</mo><mn>4,07</mn><mo>·</mo><msup><mn>10</mn><mn>21</mn></msup><mo>+</mo><mn>8,5</mn><mo>·</mo><msup><mn>10</mn><mn>19</mn></msup></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>4</mn><mo>·</mo><msup><mn>10</mn><mn>20</mn></msup><mo>−</mo><mn>5</mn><mo>·</mo><msup><mn>10</mn><mn>19</mn></msup></mrow></math>,</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><mroot><mn>2000</mn><mn>3</mn></mroot><mo>−</mo><mroot><mn>54</mn><mn>3</mn></mroot></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>d</mi><mo>=</mo><mroot><mn>250</mn><mn>3</mn></mroot><mo>−</mo><mroot><mn>128</mn><mn>3</mn></mroot></mrow></math></p><p>Jakim procentem ilorazu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>c</mi><mi>d</mi></mfrac></math> jest iloraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mi>b</mi></mfrac></math>?</p>",
@@ -652,7 +655,6 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "podzielność",
         "reszta z dzielenia",
         "dowodzenie / dowody"
       ],

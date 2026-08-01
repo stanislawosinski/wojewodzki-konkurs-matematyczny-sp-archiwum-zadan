@@ -17,7 +17,8 @@
       "type": "open",
       "points": 6,
       "topics": [
-        "zagadki logiczne"
+        "zagadki logiczne",
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>W puste, białe pola „liczbowej krzyżówki” wstaw liczby tak, aby wszystkie działania były poprawne.</p>",
       "choices": [],
@@ -63,6 +64,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "zamiana jednostek",
         "ułamki"
       ],
       "prompt_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> doby i 15 minut to</p>",
@@ -219,7 +221,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy"
+        "siatki brył"
       ],
       "prompt_html": "<p>Jeśli z przedstawionej na rysunku siatki skleisz sześcian, to jaka litera znajdzie się na ścianie przeciwległej do ściany z literą <em>f</em>?</p>",
       "choices": [
@@ -377,8 +379,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną",
-        "podzielność"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>W pewnej grupie uczniów rozdzielono 24 jabłka, 36 batonów i 48 bananów. Liczba otrzymanych przez każdego ucznia batonów była o 1 większa, a liczba bananów o 2 większa od liczby otrzymanych jabłek. Ilu było uczniów?</p>",
       "choices": [
@@ -758,7 +759,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "czworokąty",
+        "podobieństwo i skala",
+        "zamiana jednostek",
         "pole i obwód"
       ],
       "prompt_html": "<p>Dom państwa Prostych stoi na działce o powierzchni 18,4 ara. Na planie w skali 1 : 100 dom zaznaczony jest jako prostokąt o wymiarach 12 cm × 14 cm. Chodniki, razem z wjazdem do domu, zajmują <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>40</mn></mfrac></math> powierzchni całej działki. Ile metrów kwadratowych pozostaje państwu Prostym na ogród?</p>",

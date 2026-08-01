@@ -42,7 +42,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "kąty"
+        "kąty",
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Oblicz miarę kąta wypukłego utworzonego przez wskazówki zegara o godzinie 20:25.</p>",
       "choices": [],
@@ -90,6 +91,7 @@
       "type": "open",
       "points": 2,
       "topics": [
+        "liczby pierwsze",
         "podzielność"
       ],
       "prompt_html": "<p>Liczbę naturalną nazywamy doskonałą, gdy jest ona sumą wszystkich swoich dzielników właściwych, czyli dzielników mniejszych od tej liczby. Znajdź liczbę doskonałą podzielną przez 4, która posiada dokładnie pięć dzielników właściwych.</p>",
@@ -138,10 +140,10 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "czworokąty",
-        "pole i obwód",
         "wzory skróconego mnożenia",
-        "procenty"
+        "czworokąty",
+        "zmiany procentowe",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Każda z dziewczynek: Ania, Zosia i Marysia wycięła z kartonu jeden kwadrat. Kwadrat Zosi ma bok o 10 cm dłuższy od boku kwadratu Ani, a kwadrat Marysi ma bok o 1 cm krótszy od boku kwadratu Ani. Okazało się, że pole kwadratu Zosi jest o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>600</mn><mtext>&#160;</mtext><msup><mi>cm</mi><mn>2</mn></msup></mrow></math> większe od pola kwadratu Ani. Oblicz, o ile procent pole kwadratu Marysi jest mniejsze od pola kwadratu Ani.</p>",
       "choices": [],
@@ -165,12 +167,9 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "trójkąty",
-        "kąty",
         "wyrażenia algebraiczne",
-        "wyłączanie jednomianu przed nawias",
-        "potęgi i pierwiastki",
-        "procenty"
+        "wyłączanie wspólnego czynnika przed nawias",
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>Oceń prawdziwość zdań. Otocz kółkiem P, jeśli zdanie jest prawdziwe lub F, jeśli zdanie jest fałszywe.</p>",
       "choices": [
@@ -219,7 +218,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "ułamki"
       ],
       "prompt_html": "<p>Różnica dwóch ułamków dziesiętnych jest równa 19,35. Jeżeli w dziesiętnym zapisie jednego z tych ułamków przesuniemy przecinek o jedno miejsce w prawo, to otrzymamy dziesiętny zapis drugiego ułamka. Wyznacz te ułamki.</p>",
       "choices": [],

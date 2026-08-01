@@ -17,8 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność",
-        "zagadki logiczne"
+        "podzielność"
       ],
       "prompt_html": "<p>Na tablicy przedstawionej niżej Julka zakreśliła kółkiem cztery liczby, a następnie Janek zaznaczył krzyżykiem cztery z pozostałych pięciu liczb. Okazało się, że suma liczb zaznaczonych przez Julkę jest cztery razy mniejsza od sumy liczb zaznaczonych przez Janka.</p><table style=\"border-collapse:collapse;margin:6px 0\"><tr><td style=\"border:1px solid #000;padding:2px 10px;text-align:center\">6</td><td style=\"border:1px solid #000;padding:2px 10px;text-align:center\">28</td><td style=\"border:1px solid #000;padding:2px 10px;text-align:center\">7</td></tr><tr><td style=\"border:1px solid #000;padding:2px 10px;text-align:center\">27</td><td style=\"border:1px solid #000;padding:2px 10px;text-align:center\">16</td><td style=\"border:1px solid #000;padding:2px 10px;text-align:center\">33</td></tr><tr><td style=\"border:1px solid #000;padding:2px 10px;text-align:center\">8</td><td style=\"border:1px solid #000;padding:2px 10px;text-align:center\">5</td><td style=\"border:1px solid #000;padding:2px 10px;text-align:center\">24</td></tr></table><p>Jakiej liczby nie zaznaczono? Wybierz poprawną odpowiedź spośród podanych.</p>",
       "choices": [
@@ -57,8 +56,8 @@
       "type": "true_false",
       "points": 1,
       "topics": [
-        "układy równań",
-        "wzory skróconego mnożenia"
+        "wzory skróconego mnożenia",
+        "układy równań"
       ],
       "prompt_html": "<p>Dany jest układ równań <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>{</mo><mtable columnalign=\"left\"><mtr><mtd><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mn>80</mn><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup></mrow></mtd></mtr><mtr><mtd><mrow><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>20</mn></mrow></mtd></mtr></mtable></mrow></math></p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -89,7 +88,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "kąty"
       ],
       "prompt_html": "<p>W trójkącie prostokątnym kąt zewnętrzny przyległy do mniejszego z kątów ostrych jest od niego pięć razy większy.</p><p>Uzupełnij poniższe zdania. Wybierz odpowiedź spośród oznaczonych literami A i B oraz odpowiedź spośród oznaczonych literami C i D.</p><p>Różnica miar kątów ostrych tego trójkąta wynosi:</p><p>Stosunek długości przeciwprostokątnej do długości jednej z przyprostokątnych jest równy:</p>",
       "choices": [
@@ -130,7 +130,7 @@
       "points": 1,
       "topics": [
         "podzielność",
-        "potęgi i pierwiastki"
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Która z podanych niżej liczb jest dzielnikiem wartości wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2</mn><mn>2020</mn></msup><mo>+</mo><msup><mn>2</mn><mn>2021</mn></msup><mo>+</mo><msup><mn>2</mn><mn>2022</mn></msup><mo>+</mo><msup><mn>2</mn><mn>2023</mn></msup></mrow></math>? Zaznacz wszystkie poprawne odpowiedzi.</p>",
       "choices": [
@@ -196,8 +196,8 @@
       "points": 3,
       "topics": [
         "równania z jedną zmienną",
-        "procenty",
-        "statystyka opisowa"
+        "statystyka opisowa",
+        "procenty"
       ],
       "prompt_html": "<p>Agnieszka zapisała pięć liczb w kolejności rosnącej. Różnica między pierwszą a ostatnią liczbą wynosi 10, środkowa liczba jest o 200% większa od pierwszej. Druga liczba to 4, a przedostatnia liczba jest o 2 mniejsza od ostatniej. Średnia arytmetyczna tych liczb wynosi 8. Jakie to liczby? Uzasadnij odpowiedź.</p>",
       "choices": [],

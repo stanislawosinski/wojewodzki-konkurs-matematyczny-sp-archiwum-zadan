@@ -17,7 +17,8 @@
       "type": "open",
       "points": 6,
       "topics": [
-        "zagadki logiczne"
+        "zagadki logiczne",
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>W puste białe pola „liczbowej krzyżówki” wstaw liczby tak, aby wszystkie działania były poprawne.</p>",
       "choices": [],
@@ -142,7 +143,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "prędkość / droga / czas"
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Pociąg wyjeżdża ze Szczecina o godzinie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>15</mn><mn>15</mn></msup></math>, a do Zakopanego przyjeżdża o godzinie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>7</mn><mn>34</mn></msup></math>. Podróż tym pociągiem trwa</p>",
       "choices": [
@@ -417,7 +418,6 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty",
         "kąty"
       ],
       "prompt_html": "<p>Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> wynosi</p>",
@@ -459,7 +459,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "przyroda"
+        "podobieństwo i skala"
       ],
       "prompt_html": "<p>Wśród podanych skal największą jest</p>",
       "choices": [
@@ -561,7 +561,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "przyroda"
+        "podobieństwo i skala",
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Uzupełnij tabelkę:</p><table><tr><th>Skala liczbowa</th><th>Skala mianowana</th></tr><tr><td>1 : 25 000</td><td>……………</td></tr><tr><td>……………</td><td>1 cm – 5 km</td></tr></table>",
       "choices": [],
@@ -754,8 +755,7 @@
       "points": 4,
       "topics": [
         "NWW / NWD",
-        "reszta z dzielenia",
-        "dowodzenie / dowody"
+        "reszta z dzielenia"
       ],
       "prompt_html": "<p>Wszyscy uczniowie szkoły mogli ustawić się pełnymi trójkami, czwórkami, piątkami albo szóstkami. Gdyby ustawili się siódemkami, to zostałby jeden uczeń. Ilu uczniów uczyło się w tej szkole, jeżeli wiadomo, że było ich więcej niż 400, ale mniej niż 600? Odpowiedź uzasadnij.</p>",
       "choices": [],
@@ -777,7 +777,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "procenty"
+        "ułamki"
       ],
       "prompt_html": "<p>Woda stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> masy surowego drewna sosnowego. Drewno o masie 0,75 tony pozostawiono na czas jednego roku. W tym czasie drewno straciło 0,8 początkowej ilości zawartej w nim wody. Oblicz masę drewna po roku przechowywania. Wynik podaj w kilogramach.</p>",
       "choices": [],

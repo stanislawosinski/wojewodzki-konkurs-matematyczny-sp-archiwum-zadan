@@ -17,6 +17,7 @@
       "type": "true_false",
       "points": 2,
       "topics": [
+        "liczby pierwsze",
         "podzielność"
       ],
       "prompt_html": "<p>Przy każdym zdaniu wpisz TAK lub NIE.</p><p>Iloczyn trzech różnych liczb pierwszych może być liczbą:</p>",
@@ -52,7 +53,9 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "wyłączanie czynnika przed znak pierwiastka",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Przy każdym zdaniu wpisz TAK lub NIE.</p><p>Równość jest prawdziwa:</p>",
       "choices": [
@@ -87,8 +90,9 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "ułamki",
-        "potęgi i pierwiastki"
+        "ułamki okresowe / rozwinięcia dziesiętne",
+        "działania na potęgach",
+        "ułamki"
       ],
       "prompt_html": "<p>Czy w danym wierszu liczby są ustawione w kolejności rosnącej?</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
       "choices": [
@@ -159,7 +163,8 @@
       "points": 2,
       "topics": [
         "trójkąty",
-        "czworokąty"
+        "czworokąty",
+        "usuwanie niewymierności z mianownika"
       ],
       "prompt_html": "<p>Przy każdym zdaniu wpisz TAK lub NIE.</p><p>Prawdą jest, że:</p>",
       "choices": [
@@ -195,6 +200,7 @@
       "points": 5,
       "topics": [
         "koła / okręgi",
+        "czworokąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>Pole kwadratu wynosi 64 cm². Oblicz pole powierzchni części wspólnej kwadratu i koła, którego środek znajduje się w jednym z wierzchołków kwadratu, a środek symetrii kwadratu leży na brzegu koła.</p>",

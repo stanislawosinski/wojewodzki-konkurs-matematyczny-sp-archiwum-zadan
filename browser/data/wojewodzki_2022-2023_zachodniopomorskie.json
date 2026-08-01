@@ -44,7 +44,6 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kombinatoryka",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Wiktor ustawił czterocyfrowy szyfr swojej kłódki rowerowej wykorzystując wszystkie cyfry swojej daty urodzenia 1988. Jaka jest największa liczba prób, które musiałby wykonać, gdyby zapomniał prawidłowego ustawienia cyfr w swojej kłódce?</p>",
@@ -72,7 +71,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kąty"
+        "kąty",
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Kąt między małą i dużą wskazówką zegara o godzinie 12.30 wynosi:</p>",
       "choices": [
@@ -100,8 +100,8 @@
       "points": 1,
       "topics": [
         "czworokąty",
-        "pole i obwód",
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Długość boku pewnego kwadratu została zmniejszona o 1 cm. Wówczas jego pole zmniejszyło się o 39 cm². Pole mniejszego z kwadratów wynosi:</p>",
       "choices": [
@@ -129,8 +129,8 @@
       "points": 1,
       "topics": [
         "trójkąty",
-        "pole i obwód",
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W trójkącie prostokątnym równoramiennym przyprostokątna ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>+</mo><msqrt><mn>5</mn></msqrt></math>. Obwód tego trójkąta wynosi:</p>",
       "choices": [
@@ -184,8 +184,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność",
-        "zliczanie / metody zliczania"
+        "zbiory / zasada włączeń i wyłączeń",
+        "podzielność"
       ],
       "prompt_html": "<p>Ile jest liczb podzielnych przez 2 lub 5 wśród 100 kolejnych liczb naturalnych?</p>",
       "choices": [
@@ -266,7 +266,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "ostatnia cyfra / cykliczność potęg",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Jaka jest cyfra jedności liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>5</mn><mn>12</mn></msup><mo>+</mo><msup><mn>10</mn><mn>5</mn></msup><mo>+</mo><msup><mn>9</mn><mn>11</mn></msup></math>?</p>",
@@ -294,8 +294,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "statystyka opisowa",
-        "równania z jedną zmienną"
+        "statystyka opisowa"
       ],
       "prompt_html": "<p>Średni wiek w pewnej sześcioosobowej drużynie wynosił 49 lat. Najmłodszy uczestnik zrezygnował i wówczas średnia wieku wzrosła do 53 lat. Ile lat miał najmłodszy zawodnik?</p>",
       "choices": [],
@@ -339,9 +338,10 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "potęgi i pierwiastki",
+        "działania na potęgach",
         "wzory skróconego mnożenia",
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Rozwiąż równanie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mn>2</mn><mn>32</mn></msup><mo>−</mo><msup><mn>32</mn><mn>2</mn></msup></mrow><mrow><msup><mn>2</mn><mn>16</mn></msup><mo>+</mo><mn>32</mn></mrow></mfrac><mi>x</mi><mo>=</mo><msup><mn>2</mn><mn>10</mn></msup><mo>−</mo><msup><mn>2</mn><mn>21</mn></msup></math>. Wynik podaj w najprostszej postaci.</p>",
       "choices": [],
@@ -363,7 +363,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "zliczanie / metody zliczania",
+        "zbiory / zasada włączeń i wyłączeń",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Każda spośród 154 osób pracujących w pewnej firmie drogę do pracy pokonuje korzystając z tramwaju, autobusu lub metra. Z tramwaju korzysta 80 osób, z autobusu 110, a z metra 60 osób. Wśród nich są osoby korzystające z wszystkich trzech środków lokomocji i nie ma osób, które korzystałyby tylko z dwóch. Ile osób korzysta wyłącznie z metra?</p>",
@@ -386,7 +386,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "proporcjonalność prosta",
+        "stężenie procentowe / mieszaniny",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Złotnik miał dwa stopy złota ze srebrem. W pierwszym stopie stosunek masy złota do srebra wynosił 2:3, a w drugim 3:7. Ile musi wziąć każdego z tych stopów, aby otrzymać 10 kg nowego stopu, w którym stosunek masy złota do srebra wynosiłby 5:11?</p>",
@@ -456,9 +456,7 @@
       "points": 4,
       "topics": [
         "trójkąty",
-        "czworokąty",
-        "pole i obwód",
-        "potęgi i pierwiastki"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Dany jest prostokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> o bokach długości 8 cm i 6 cm. Na boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> prostokąta zbudowano trójkąt równoboczny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABM</mi></math>, którego ramiona przecinają bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> prostokąta w punktach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi></math>. Oblicz obwód trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KLM</mi></math>.</p>",
       "choices": [],

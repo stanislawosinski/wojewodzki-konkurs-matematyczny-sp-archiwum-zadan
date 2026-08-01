@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "wielokąty"
       ],
       "prompt_html": "<p>Jaki wielokąt ma tyle samo przekątnych co boków?</p>",
       "choices": [
@@ -56,7 +56,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zagadki logiczne"
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>W ciągu jednego miesiąca trzykrotnie wypadła niedziela w dniu parzystym. Dwudziesty dzień tego miesiąca to:</p>",
       "choices": [
@@ -95,8 +95,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty",
-        "kąty"
+        "procenty"
       ],
       "prompt_html": "<p>Jaki procent miary kąta półpełnego stanowi kąt o mierze <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>45</mn><mo>°</mo></math>?</p>",
       "choices": [
@@ -135,7 +134,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "kąty"
       ],
       "prompt_html": "<p>Trójkąt, w którym miara jednego kąta jest równa sumie miar dwóch pozostałych kątów, jest:</p>",
       "choices": [
@@ -213,7 +213,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kąty"
+        "kąty",
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Jaki kąt ostry tworzą wskazówki zegara (godzinowa i minutowa) o godzinie 18:30?</p>",
       "choices": [
@@ -252,7 +253,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "wartość bezwzględna"
       ],
       "prompt_html": "<p>Wartością bezwzględną trzeciej potęgi liczby: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>20</mn><mo>:</mo><mo>(</mo><mo>−</mo><mn>4</mn><mo>+</mo><mn>6</mn><mo>)</mo><mo>−</mo><mo>(</mo><mo>−</mo><mn>5</mn><mo>)</mo></math> jest:</p>",
       "choices": [
@@ -291,7 +292,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki okresowe / rozwinięcia dziesiętne"
       ],
       "prompt_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>709,4</mn><mo>(</mo><mn>90732</mn><mo>)</mo></math> po zaokrągleniu do części milionowych ma postać:</p>",
       "choices": [
@@ -330,7 +331,6 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
         "zagadki logiczne"
       ],
       "prompt_html": "<p>Pewne dwie liczby dwucyfrowe mniejsze od 20 mają tę własność, że kwadrat pierwszej z nich otrzymujemy przez zamianę miejscami cyfry jedności z cyfrą dziesiątek w kwadracie drugiej liczby. Jaka jest suma cyfr kwadratu każdej z tych liczb?</p>",
@@ -370,7 +370,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Wskaż zdanie, które nie jest prawdziwe:</p>",
       "choices": [
@@ -432,7 +432,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki"
+        "wzrost wykładniczy"
       ],
       "prompt_html": "<p>Jaś ma 15 zł kieszonkowego tygodniowo. Zaproponował rodzicom inny sposób wypłacania kieszonkowego: w poniedziałek dostaje 20 groszy, a każdego następnego dnia dwa razy więcej niż poprzedniego i tak do niedzieli. Którym sposobem Jaś otrzyma większe kieszonkowe i o ile?</p>",
       "choices": [],
@@ -477,6 +477,7 @@
       "points": 4,
       "topics": [
         "czworokąty",
+        "zamiana jednostek",
         "pole i obwód"
       ],
       "prompt_html": "<p>Dane są następujące figury:</p><ul><li>kwadrat o polu 225 cm<sup>2</sup>;</li><li>prostokąt, którego długości boków różnią się o 12 cm, a jeden z boków ma długość 0,2 m;</li><li>trapez równoramienny o ramionach długości 1,2 dm i sumie długości podstaw 40 cm.</li></ul><p>Oblicz obwód każdej figury i wskaż tę, której obwód jest największy. Pamiętaj o zapisie jednostek w całym rozwiązaniu.</p>",

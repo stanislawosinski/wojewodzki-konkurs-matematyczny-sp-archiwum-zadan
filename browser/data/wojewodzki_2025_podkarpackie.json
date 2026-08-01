@@ -17,8 +17,9 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "podzielność",
-        "potęgi i pierwiastki"
+        "liczby pierwsze",
+        "działania na potęgach",
+        "podzielność"
       ],
       "prompt_html": "<p>Wyznacz największą liczbę naturalną <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>, dla której liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2025</mn><mn>25</mn></msup></math> jest podzielna przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>n</mi><mi>n</mi></msup></math>.</p>",
       "choices": [],
@@ -112,7 +113,7 @@
       "points": 2,
       "topics": [
         "podzielność",
-        "reszta z dzielenia"
+        "wzory skróconego mnożenia"
       ],
       "prompt_html": "<p>Wyznacz wszystkie liczby całkowite dodatnie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, dla których wartość ułamka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>2</mn><mi>a</mi><mo>+</mo><mn>11</mn></mrow><mrow><mi>a</mi><mo>+</mo><mn>1</mn></mrow></mfrac></math> jest liczbą całkowitą.</p>",
       "choices": [],
@@ -135,7 +136,8 @@
       "points": 2,
       "topics": [
         "reszta z dzielenia",
-        "zagadki logiczne"
+        "podzielność",
+        "szacowanie (zamiast obliczania)"
       ],
       "prompt_html": "<p>Zygfryd bawi się w następującą zabawę: na żółtej kartce zapisuje pewną liczbę naturalną, na zielonej kartce zapisuje sumę cyfr liczby z żółtej kartki, a na niebieskiej kartce zapisuje sumę cyfr liczby z zielonej kartki. Okazało się, że suma liczb z żółtej, zielonej i niebieskiej kartki jest równa 2025. Jaka liczba mogła być zapisana na żółtej kartce? Podaj wszystkie możliwości.</p>",
       "choices": [],
@@ -182,7 +184,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "potęgi i pierwiastki",
+        "działania na pierwiastkach",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Ile jest liczb naturalnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> mniejszych od 500 o następującej własności: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mi>n</mi></msqrt></math> po zaokrągleniu do całości ma cyfrę jedności równą 3?</p>",
@@ -206,8 +208,7 @@
       "points": 4,
       "topics": [
         "graniastosłupy",
-        "dowodzenie / dowody",
-        "potęgi i pierwiastki"
+        "dowodzenie / dowody"
       ],
       "prompt_html": "<p>W pewnym graniastosłupie prostym podstawa jest trójkątem prostokątnym, a ściana boczna o największym polu jest kwadratem. Pozostałe dwie ściany boczne mają pola odpowiednio <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Q</mi></math>. Udowodnij, że pole podstawy tego graniastosłupa jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>P</mi><mo>·</mo><mi>Q</mi></mrow><mrow><mn>2</mn><msqrt><mrow><msup><mi>P</mi><mn>2</mn></msup><mo>+</mo><msup><mi>Q</mi><mn>2</mn></msup></mrow></msqrt></mrow></mfrac></math>.</p>",
       "choices": [],

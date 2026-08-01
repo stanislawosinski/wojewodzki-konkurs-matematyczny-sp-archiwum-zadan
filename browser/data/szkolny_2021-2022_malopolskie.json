@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Cenę pewnego towaru obniżono najpierw o 30%, a później nową cenę obniżono o kolejne 40%. Łącznie początkową cenę obniżono o</p>",
       "choices": [
@@ -56,7 +56,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "inne"
+        "liczby pierwsze",
+        "ułamki"
       ],
       "prompt_html": "<p>Wybierz zdanie fałszywe:</p>",
       "choices": [
@@ -95,8 +96,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "równania z jedną zmienną",
-        "geometria"
+        "wielokąty",
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Ada narysowała (10 − x) prostokątów oraz (2x − 1) sześciokątów, które łącznie miały 58 wierzchołków. Ile miały łącznie przekątnych?</p>",
       "choices": [
@@ -135,7 +136,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "inne"
+        "liczby wymierne i niewymierne"
       ],
       "prompt_html": "<p>Adam zapisał trzy różne liczby:</p><ul><li>liczbę całkowitą, która nie jest naturalna,</li><li>liczbę wymierną, która nie jest całkowita,</li><li>liczbę rzeczywistą, która nie jest wymierna.</li></ul><p>Następnie Adam dodał wszystkie zapisane liczby. Którą z poniższych sum mógł otrzymać?</p>",
       "choices": [
@@ -174,8 +175,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "graniastosłupy",
-        "potęgi i pierwiastki"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Oblicz objętość V sześcianu o polu powierzchni całkowitej równym 72.</p>",
       "choices": [
@@ -293,7 +293,7 @@
       "points": 2,
       "topics": [
         "graniastosłupy",
-        "podzielność"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Wszystkie krawędzie graniastosłupa prawidłowego mają tę samą długość, będącą liczbą pierwszą. Pole powierzchni bocznej tego graniastosłupa wynosi 36. Ile istnieje różnych graniastosłupów spełniających te warunki?</p>",
       "choices": [
@@ -333,8 +333,8 @@
       "points": 2,
       "topics": [
         "czworokąty",
-        "pole i obwód",
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Pole rombu o przekątnych długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>+</mo><msqrt><mn>2</mn></msqrt></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>−</mo><msqrt><mn>2</mn></msqrt></mrow></math> wynosi</p>",
       "choices": [
@@ -412,8 +412,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "NWW / NWD",
-        "zagadki logiczne"
+        "NWW / NWD"
       ],
       "prompt_html": "<p>Dokończ zdanie: Nie można odmierzyć wody o objętości 300 ml, mając do dyspozycji kran z nieograniczoną ilością wody oraz wyłącznie dwa naczynia o pojemności</p>",
       "choices": [
@@ -496,7 +495,8 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "kąty"
+        "kąty",
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Jaką miarę ma kąt ostry utworzony przez wskazówki godzinową i minutową o godzinie 1:15?</p>",
       "choices": [
@@ -540,7 +540,7 @@
       "points": 3,
       "topics": [
         "NWW / NWD",
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mo>=</mo><msup><mn>2</mn><mn>9</mn></msup><mo>·</mo><msup><mn>5</mn><mn>6</mn></msup></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>B</mi><mo>=</mo><msup><mn>2</mn><mn>7</mn></msup><mo>·</mo><msup><mn>5</mn><mn>14</mn></msup></mrow></math>. Wartość ilorazu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mtext>NWW</mtext><mo>(</mo><mi>A</mi><mo>,</mo><mi>B</mi><mo>)</mo></mrow><mrow><mtext>NWD</mtext><mo>(</mo><mi>A</mi><mo>,</mo><mi>B</mi><mo>)</mo></mrow></mfrac></math> wynosi</p>",
       "choices": [
@@ -583,7 +583,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "zagadki logiczne",
+        "kalendarz i czas",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Jaki dzień tygodnia był 1 stycznia 2000 roku, jeżeli 1 stycznia 2001 roku to poniedziałek?</p>",
@@ -627,7 +627,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki",
+        "notacja wykładnicza",
         "prędkość / droga / czas"
       ],
       "prompt_html": "<p>Włos człowieka rośnie z szybkością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>9</mn></mrow></msup></mrow></math> m/s. W ciągu 10 godzin włos urośnie o:</p>",
@@ -671,9 +671,9 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "czworokąty",
+        "kąty",
         "trójkąty",
-        "kąty"
+        "czworokąty"
       ],
       "prompt_html": "<p>Przekątna AC dzieli trapez ABCD na dwa trójkąty równoramienne, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>AC</mi><mo>|</mo></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>CD</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>AD</mi><mo>|</mo></mrow></math> tak, jak przedstawiono na rysunku obok. Punkt E leży na podstawie AB trapezu ABCD oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AE</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>AD</mi><mo>|</mo></mrow></math>, a miara kąta BAC wynosi 40°.</p><p>Ile wynosi różnica pomiędzy miarą największego a miarą najmniejszego kąta trapezu EBCD?</p>",
       "choices": [

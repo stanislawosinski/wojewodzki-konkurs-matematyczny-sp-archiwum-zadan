@@ -17,7 +17,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "zagadki logiczne"
+        "zagadki logiczne",
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>W puste białe pola „liczbowej krzyżówki” wstaw liczby tak, aby wszystkie działania były poprawne.</p>",
       "choices": [],
@@ -63,7 +64,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "ułamki"
       ],
       "prompt_html": "<p>Rozwiązując test, Wojtek odpowiedział poprawnie na <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>5</mn></mfrac></math> pytań, a na pozostałe 5 pytań nie udzielił odpowiedzi. Ile pytań było w teście?</p>",
       "choices": [
@@ -102,7 +104,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy"
+        "liczba krawędzi, ścian i wierzchołków"
       ],
       "prompt_html": "<p>Jeśli od sumy liczby wierzchołków sześcianu i liczby jego ścian odejmiemy liczbę jego krawędzi, to otrzymamy liczbę</p>",
       "choices": [
@@ -180,7 +182,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zagadki logiczne"
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Tomek kupił 30-dniowy bilet komunikacji miejskiej. Pierwszym dniem ważności biletu był 21 października. Który dzień był ostatnim dniem ważności tego biletu?</p>",
       "choices": [
@@ -336,6 +338,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "liczby pierwsze",
         "podzielność"
       ],
       "prompt_html": "<p>Trzycyfrowa liczba ma tę własność, że wszystkie jej cyfry są różnymi liczbami pierwszymi, a ponadto liczba ta jest podzielna przez każdą z nich. Liczbą tą może być</p>",
@@ -633,8 +636,7 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "podzielność",
-        "potęgi i pierwiastki"
+        "podzielność"
       ],
       "prompt_html": "<p>Oceń, czy podane zdania są prawdziwe czy fałszywe. Zaznacz właściwą odpowiedź.</p><p>Przez 3 podzielna jest liczba:</p>",
       "choices": [
@@ -674,6 +676,7 @@
       "points": 4,
       "topics": [
         "czworokąty",
+        "zamiana jednostek",
         "pole i obwód"
       ],
       "prompt_html": "<p>Prostokątny trawnik ma wymiary 10 m na 6 m.</p><p>Oceń, czy podane zdania są prawdziwe czy fałszywe. Zaznacz właściwą odpowiedź.</p>",

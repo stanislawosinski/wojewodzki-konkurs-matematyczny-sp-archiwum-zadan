@@ -252,7 +252,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "porównywanie potęg i pierwiastków",
+        "wyłączanie czynnika przed znak pierwiastka"
       ],
       "prompt_html": "<p>Dane są liczby: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>2</mn><msqrt><mn>3</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><msqrt><mn>48</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mn>2</mn><mroot><mn>3</mn><mn>3</mn></mroot></math>. Wybierz właściwą odpowiedź spośród podanych.</p>",
       "choices": [
@@ -291,6 +292,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
+        "ułamki okresowe / rozwinięcia dziesiętne",
         "ułamki"
       ],
       "prompt_html": "<p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
@@ -396,7 +398,7 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -436,6 +438,7 @@
       "points": 4,
       "topics": [
         "wzory skróconego mnożenia",
+        "czworokąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>Jeśli długość każdego boku kwadratu zwiększymy o 5 cm, to jego pole powiększy się o 225 cm². Oblicz o ile zmniejszy się pole tego kwadratu, gdy wszystkie jego boki skrócimy o 2 cm. Zapisz obliczenia.</p>",
@@ -480,6 +483,7 @@
       "type": "open",
       "points": 4,
       "topics": [
+        "kąty",
         "trójkąty"
       ],
       "prompt_html": "<p>Jeden z kątów w trójkącie jest dwa razy większy od drugiego i o 40° większy od trzeciego. Oblicz miary kątów tego trójkąta. Zapisz obliczenia.</p>",
@@ -527,7 +531,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "procenty",
+        "zmiany procentowe",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Cenę telewizora obniżono najpierw o 20%, a następnie podwyższono o 10%. Po tych zmianach telewizor kosztuje 2112 zł. Ile początkowo kosztował telewizor? Zapisz obliczenia.</p>",

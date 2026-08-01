@@ -71,7 +71,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "notacja wykładnicza"
       ],
       "prompt_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,00126</mn></math> zapisana w notacji wykładniczej ma postać</p>",
       "choices": [
@@ -152,9 +152,9 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "geometria",
         "pole i obwód",
-        "procenty"
+        "procenty",
+        "geometria"
       ],
       "prompt_html": "<p>Na rysunku przedstawione są trzy wielokąty: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>W</mi><mn>1</mn></msub></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>W</mi><mn>2</mn></msub></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>W</mi><mn>3</mn></msub></math>.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -252,6 +252,7 @@
       "type": "open",
       "points": 1,
       "topics": [
+        "kąty",
         "trójkąty"
       ],
       "prompt_html": "<p>Miara jednego z kątów ostrych trójkąta prostokątnego stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>4</mn></mfrac></math> miary drugiego kąta ostrego. Jaką miarę ma najmniejszy kąt tego trójkąta?</p>",
@@ -319,7 +320,9 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "działania na pierwiastkach",
+        "ułamki"
       ],
       "prompt_html": "<p>Dane są liczby:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msup><mn>3</mn><mn>4</mn></msup><mo>·</mo><msup><mrow><mo>(</mo><mfrac><mn>2</mn><mn>9</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup></math>, &nbsp; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><msqrt><mn>18</mn></msqrt><mo>·</mo><msqrt><mn>50</mn></msqrt></math>, &nbsp; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mo>−</mo><mn>2</mn><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>+</mo><mn>4</mn><mo>·</mo><mo>(</mo><mo>−</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>)</mo></math>.</p><p>Zapisz liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> w najprostszej postaci oraz oblicz wartość liczbową wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>b</mi><mo>−</mo><mn>2</mn><mi>c</mi></mrow><mi>a</mi></mfrac></math>.</p>",
       "choices": [],
@@ -412,7 +415,6 @@
       "points": 5,
       "topics": [
         "czworokąty",
-        "trójkąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>Podstawy trapezu prostokątnego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> (rysunek) mają długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>13</mn></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>CD</mi><mo>|</mo><mo>=</mo><mn>7</mn></math> cm. Dłuższe ramię tego trapezu ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn></math> cm.</p><p>Oblicz pole powierzchni i obwód trapezu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> oraz długość jego krótszej przekątnej.</p>",

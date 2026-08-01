@@ -56,8 +56,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty",
-        "pole i obwód"
+        "trójkąty"
       ],
       "prompt_html": "<p>Z którego zestawu odcinków (o długościach wyrażonych w jednakowych jednostkach) można zbudować trójkąt o obwodzie 20?</p>",
       "choices": [
@@ -96,7 +95,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wartość bezwzględna"
       ],
       "prompt_html": "<p>Wartość bezwzględna z różnicy liczb 5 i 11 powiększona o wartość bezwzględną z różnicy liczb 11 i (−5) wynosi</p>",
       "choices": [
@@ -135,7 +134,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Firma przesyłkowa Rakieta korzysta z paczkomatów do samodzielnego nadawania i odbierania przesyłek przez klientów. Maksymalne wymiary prostopadłościennej paczki, którą można nadać za pośrednictwem tej firmy, wynoszą 38 cm x 41 cm x 64 cm, a masa przesyłki nie może być większa niż 25 kg. Niżej zapisano wymiary i masę czterech paczek:</p><table><thead><tr><th>Nr paczki</th><th>Wymiary</th><th>Masa</th></tr></thead><tbody><tr><td>1</td><td>37 cm x 41 cm x 66 cm</td><td>23 dag</td></tr><tr><td>2</td><td>40 cm x 38 cm x 59 cm</td><td>2500 dag</td></tr><tr><td>3</td><td>35 cm x 40 cm x 64 cm</td><td>26000 g</td></tr><tr><td>4</td><td>26 cm x 39 cm x 63 cm</td><td>22 kg</td></tr></tbody></table><p>Które z tych czterech paczek mogą być nadane przez paczkomat tej firmy?</p>",
       "choices": [
@@ -174,7 +173,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>22</mn></msup><mo>−</mo><mn>9</mn><mo>·</mo><msup><mn>2</mn><mn>19</mn></msup></math> jest równa</p>",
       "choices": [
@@ -252,7 +252,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "proporcjonalność prosta"
+        "podobieństwo i skala"
       ],
       "prompt_html": "<p>Odcinkowi długości 3 cm narysowanemu na mapie w skali 1 : 500 000 odpowiada w terenie odcinek długości</p>",
       "choices": [
@@ -291,8 +291,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "ostrosłupy",
-        "potęgi i pierwiastki"
+        "ostrosłupy"
       ],
       "prompt_html": "<p>Pole powierzchni całkowitej czworościanu foremnego o krawędzi 5 jest równe</p>",
       "choices": [
@@ -331,7 +330,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy"
+        "siatki brył"
       ],
       "prompt_html": "<p>Na kartonowej siatce sześcianu Ania nakleił 6 figur tak, jak pokazano na rysunku. Następnie z tej siatki skleiła sześcian.</p><p>Który rysunek przedstawia sześcian sklejony przez Anię?</p>",
       "choices": [
@@ -451,8 +450,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy",
-        "podzielność"
+        "podzielność",
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Długości krawędzi prostopadłościanu, wyrażone w centymetrach, są liczbami naturalnymi. Jedna ze ścian ma pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>45</mn><mspace width=\"0.2em\"/><msup><mtext>cm</mtext><mn>2</mn></msup></math>, a druga <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>36</mn><mspace width=\"0.2em\"/><msup><mtext>cm</mtext><mn>2</mn></msup></math>. Prostopadłościanów spełniających powyższe warunki jest dokładnie</p>",
       "choices": [
@@ -491,7 +490,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "procenty",
+        "proporcjonalność prosta"
       ],
       "prompt_html": "<p>W turnieju szachowym wzięło udział 48 uczniów pewnej szkoły. Liczby uczestników turnieju z klas szóstych, siódmych i ósmych są do siebie w proporcji 3 : 8 : 5. Jaki procent uczestników turnieju stanowili siódmoklasiści?</p>",
       "choices": [
@@ -613,11 +613,9 @@
       "type": "true_false",
       "points": 5,
       "topics": [
-        "czworokąty",
+        "ostatnia cyfra / cykliczność potęg",
         "kąty",
-        "potęgi i pierwiastki",
-        "reszta z dzielenia",
-        "ułamki"
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>Oceń prawdziwość zdań (P-prawda, F-fałsz).</p>",
       "choices": [
@@ -660,8 +658,8 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "graniastosłupy",
-        "potęgi i pierwiastki"
+        "siatki brył",
+        "trójkąty"
       ],
       "prompt_html": "<p>Mrówka przeszła po powierzchni sześcianu z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> do wierzchołka będącego drugim końcem przekątnej sześcianu wychodzącej z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>, przy czym była to droga najkrótsza. Narysuj siatkę sześcianu, zaznacz początek i koniec drogi mrówki i oblicz odległość, jaką pokonała mrówka, jeżeli krawędź sześcianu ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>5</mn></msqrt></math>.</p>",
       "choices": [],
@@ -683,7 +681,8 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "prędkość / droga / czas"
+        "prędkość / droga / czas",
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Rowerzysta przejechał pewną trasę w ciągu 5 godzin. Gdyby jechał z prędkością o 10 km/h większą, to tę samą trasę przejechałby w ciągu 3 godzin. Ile kilometrów przejechał rowerzysta? Pamiętaj o zapisywaniu jednostek podczas wykonywania działań.</p>",
       "choices": [],
@@ -705,8 +704,7 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "zagadki logiczne",
-        "potęgi i pierwiastki"
+        "zagadki logiczne"
       ],
       "prompt_html": "<p>Na tablicy rejestracyjnej auta pana Henryka widnieją litery NO oraz liczba pięciocyfrowa mniejsza od 20 000 o następujących własnościach:</p><ol><li>Suma pięciu cyfr tablicy rejestracyjnej to sześcian liczby 3.</li><li>Druga cyfra to pierwiastek sześcienny z sumy wszystkich cyfr.</li><li>Cyfra dziesiątek jest dwukrotnością drugiej cyfry.</li><li>Ostatnia cyfra jest sumą drugiej i czwartej.</li><li>Różnica trzeciej i czwartej jest taka sama jak drugiej i pierwszej.</li><li>Żadna cyfra w tablicy nie powtarza się.</li></ol><p>Przeanalizuj liczby, które spełniają powyższe warunki, a następnie zapisz wszystkie symbole widniejące na tej tablicy.</p>",
       "choices": [],
@@ -729,7 +727,6 @@
       "points": 5,
       "topics": [
         "trójkąty",
-        "czworokąty",
         "kąty"
       ],
       "prompt_html": "<p>Na boku kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> o długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> zbudowano trójkąt równoboczny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDL</mi></math> tak, że częścią wspólną kwadratu i trójkąta jest tylko bok kwadratu. Oblicz miarę kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BLC</mi></math> oraz długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BL</mi></math>.</p>",

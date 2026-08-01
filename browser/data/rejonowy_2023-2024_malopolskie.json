@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki",
+        "ostatnia cyfra / cykliczność potęg",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Jaka jest ostatnia cyfra liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>9</mn><mn>9</mn></msup><mo>+</mo><msup><mn>8</mn><mn>8</mn></msup><mo>+</mo><msup><mn>7</mn><mn>7</mn></msup></math>?</p>",
@@ -45,8 +45,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "proporcjonalność prosta",
-        "geometria"
+        "proporcjonalność prosta"
       ],
       "prompt_html": "<p>Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> dzieli odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> w stosunku 2:3. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> dzieli odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CB</mi></math> w stosunku 2:3. W jakim stosunku punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> dzielą odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>?</p>",
       "choices": [
@@ -73,8 +72,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki",
-        "zliczanie / metody zliczania"
+        "liczby wymierne i niewymierne"
       ],
       "prompt_html": "<p>Ile jest liczb niewymiernych wśród pierwiastków kolejnych liczb naturalnych od 1 do 360: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>1</mn></msqrt><mo>,</mo><msqrt><mn>2</mn></msqrt><mo>,</mo><msqrt><mn>3</mn></msqrt><mo>,</mo><msqrt><mn>4</mn></msqrt><mo>,</mo><mo>…</mo><mo>,</mo><msqrt><mn>360</mn></msqrt></math>?</p>",
       "choices": [
@@ -129,7 +127,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki"
+        "notacja wykładnicza"
       ],
       "prompt_html": "<p>Wynik dodawania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3,195</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>4</mn></mrow></msup><mo>+</mo><mn>991,99</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>5</mn></mrow></msup><mo>+</mo><mn>781,6</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>6</mn></mrow></msup></math> jest równy</p>",
       "choices": [
@@ -156,8 +154,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "graniastosłupy",
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach",
+        "graniastosłupy"
       ],
       "prompt_html": "<p>W pewnym sześcianie różnica między długością przekątnej sześcianu a długością jego krawędzi jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>6</mn></msqrt><mo>−</mo><msqrt><mn>2</mn></msqrt></math>. Ile jest równa objętość tego sześcianu?</p>",
       "choices": [
@@ -213,7 +211,8 @@
       "points": 2,
       "topics": [
         "układ współrzędnych",
-        "czworokąty"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo>)</mo></math> jest punktem przecięcia przekątnych równoległoboku, a punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>(</mo><mn>2</mn><mo>,</mo><mn>6</mn><mo>)</mo></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>(</mo><mo>−</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>)</mo></math> są dwoma kolejnymi wierzchołkami tego równoległoboku. Ile jest równa długość wysokości poprowadzonej z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> na bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>?</p>",
       "choices": [
@@ -241,7 +240,7 @@
       "points": 3,
       "topics": [
         "trójkąty",
-        "potęgi i pierwiastki"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Dany jest trójkąt o bokach długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>,</mo><mi>b</mi><mo>,</mo><mi>c</mi></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>&gt;</mo><mi>b</mi><mo>&gt;</mo><mi>c</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>5</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mn>2</mn></math>. Iloczyn długości dwóch boków trójkąta jest równy iloczynowi długości trzeciego, najdłuższego z boków i wysokości opuszczonej na ten bok. Dokończ poniższe zdanie tak, aby otrzymać zdanie prawdziwe.</p><p>Długość boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest liczbą</p>",
       "choices": [
@@ -298,7 +297,8 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "wyłączanie jednomianu przed nawias"
+        "wyrażenia algebraiczne",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mi>a</mi><mn>5</mn></msup><mo>+</mo><msup><mi>a</mi><mn>3</mn></msup><mo>+</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>1</mn></mrow></mfrac></math> jest równe</p>",
       "choices": [
@@ -356,8 +356,9 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "graniastosłupy",
-        "proporcjonalność prosta"
+        "podobieństwo i skala",
+        "zamiana jednostek",
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Prostopadłościan ma wymiary <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> km, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> m, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> dm. Sporządzono siatkę tego prostopadłościanu w skali 1:500. Jaka jest objętość prostopadłościanu sklejonego z tej siatki?</p>",
       "choices": [
@@ -385,8 +386,8 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
+        "liczby pierwsze",
         "równania z jedną zmienną",
-        "zagadki logiczne",
         "podzielność"
       ],
       "prompt_html": "<p>Ojciec i jego trzej synowie mają razem 78 lat. Wiek najmłodszego syna jest liczbą pierwszą mniejszą niż 10, wiek średniego syna jest liczbą pierwszą większą niż 10, najstarszy syn jest trzy razy młodszy od ojca, a ojciec ma nieparzystą liczbę lat. Po ilu latach wiek ojca będzie równy sumie lat jego trzech synów?</p>",
@@ -445,7 +446,7 @@
       "points": 3,
       "topics": [
         "czworokąty",
-        "podzielność"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Przekątne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math> prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> przecinają się w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math>, zaś jego boki mają długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi><mo>=</mo><mn>3</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi><mo>=</mo><mn>4</mn></math>. Na płaszczyźnie wybrano punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> różny od wierzchołków tego prostokąta i taki, że długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>PO</mi></math> jest równa połowie długości przekątnej tego prostokąta. Ile różnych dzielników będących liczbami naturalnymi ma liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>PA</mi><mn>2</mn></msup><mo>+</mo><msup><mi>PB</mi><mn>2</mn></msup><mo>+</mo><msup><mi>PC</mi><mn>2</mn></msup><mo>+</mo><msup><mi>PD</mi><mn>2</mn></msup></math>?</p>",
       "choices": [

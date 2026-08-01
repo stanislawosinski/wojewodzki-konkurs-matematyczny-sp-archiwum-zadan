@@ -56,6 +56,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "kalendarz i czas",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>W 2005 roku zajęcia w szkołach zakończyły się w piątek 24 czerwca. Którego dnia tygodnia uczniowie po wakacjach wrócili do szkoły 1 września tamtego roku?</p>",
@@ -95,7 +96,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>12 500 sztuk jabłek waży 3 t. Ile średnio waży jedno takie jabłko?</p>",
       "choices": [
@@ -134,7 +135,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "kąty",
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Jeden z kątów trójkąta ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>α</mi></math>, a drugi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>+</mo><mn>40</mn><mo>°</mo></math>. Miara trzeciego kąta tego trójkąta to</p>",
       "choices": [
@@ -173,8 +175,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zliczanie / metody zliczania",
-        "geometria"
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Ania, Beata, Celina i Dorota miały za zadanie narysować cztery odcinki i policzyć wszystkie punkty przecięcia tych odcinków. Po wykonaniu zadania Ania powiedziała, że otrzymała 3 punkty przecięcia, Beata – 5 punktów przecięcia, Celina – 6 punktów przecięcia, a Dorota – 7 punktów przecięcia. Która z nich na pewno błędnie ustaliła liczbę punktów przecięcia?</p>",
       "choices": [
@@ -213,8 +214,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "proporcjonalność prosta",
-        "czworokąty",
+        "podobieństwo i skala",
         "pole i obwód"
       ],
       "prompt_html": "<p>Sala lekcyjna na planie sporządzonym w skali 1:200 ma kształt prostokąta o wymiarach 3 cm × 4 cm. Powierzchnia podłogi w tej sali w rzeczywistości jest równa</p>",
@@ -254,7 +254,7 @@
       "type": "true_false",
       "points": 1,
       "topics": [
-        "zagadki logiczne"
+        "ułamki"
       ],
       "prompt_html": "<p>Basia napisała trzy liczby, których suma jest równa 1, a Grześ napisał trzy liczby, których iloczyn jest równy −1.</p><p>Zaznacz, które z poniższych zdań są prawdziwe, a które fałszywe, wpisując przy każdej informacji znak „X” we właściwej kolumnie tabeli (Prawda/Fałsz).</p>",
       "choices": [
@@ -285,7 +285,7 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "inne"
+        "wartość bezwzględna"
       ],
       "prompt_html": "<p>Oblicz wartość wyrażenia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>−</mo><mo>(</mo><mn>2</mn><mo>−</mo><mo>|</mo><mo>−</mo><mn>3</mn><mo>|</mo><mo>)</mo><mo>⋅</mo><mn>6</mn></math>.</p>",
       "choices": [],
@@ -419,8 +419,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "statystyka opisowa",
-        "równania z jedną zmienną"
+        "statystyka opisowa"
       ],
       "prompt_html": "<p>Średnia wieku członków zespołu muzycznego składającego się z 4 muzyków wynosi 20 lat. Po dołączeniu wokalisty do zespołu średnia wieku zmalała do 19 lat. Ile lat ma wokalista? Zapisz obliczenia.</p>",
       "choices": [],
@@ -442,8 +441,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "NWW / NWD",
-        "podzielność"
+        "NWW / NWD"
       ],
       "prompt_html": "<p>Pan Jan chce wyłożyć jednakowymi kwadratowymi płytkami dywanowymi prostokątną podłogę o wymiarach 264 cm × 840 cm. Wyznacz największy rozmiar takiej płytki, jeżeli wiadomo, że płytki nie mogą być rozcinane. Zapisz obliczenia.</p>",
       "choices": [],
@@ -466,8 +464,7 @@
       "points": 2,
       "topics": [
         "graniastosłupy",
-        "układy równań",
-        "potęgi i pierwiastki"
+        "układy równań"
       ],
       "prompt_html": "<p>Suma objętości dwóch różnych sześcianów jest równa 189. Objętość drugiego sześcianu jest o 61 większa od objętości pierwszego sześcianu. Oblicz długości krawędzi każdego z tych sześcianów. Zapisz obliczenia.</p>",
       "choices": [],
@@ -490,7 +487,6 @@
       "points": 2,
       "topics": [
         "trójkąty",
-        "proporcjonalność prosta",
         "pole i obwód"
       ],
       "prompt_html": "<p>Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> należy do boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>EA</mi><mo>|</mo><mo>=</mo><mn>4</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>EB</mi><mo>|</mo><mo>=</mo><mn>12</mn></math>. Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EAC</mi></math> jest równe 7. Oblicz pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EBC</mi></math>. Zapisz obliczenia.</p>",
@@ -513,8 +509,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "układy równań",
-        "równania z jedną zmienną"
+        "układy równań"
       ],
       "prompt_html": "<p>Dzieci jeżdżą po parku na rowerkach 2-kołowych lub 3-kołowych. Łącznie jest 11 rowerków, które razem mają 26 kółek. Ile dzieci jeździ na rowerkach 2-kołowych? Zapisz obliczenia.</p>",
       "choices": [],
@@ -605,7 +600,6 @@
       "points": 3,
       "topics": [
         "czworokąty",
-        "proporcjonalność prosta",
         "pole i obwód"
       ],
       "prompt_html": "<p>Pani Karolina założyła ogródek warzywny w kształcie prostokąta o wymiarach 6 m × 4 m. Wzdłuż jego krótszego boku wydzieliła ścieżkę o szerokości 1 m. Pozostałą część postanowiła ogrodzić płotkiem z czterech stron. Ile pani Karolina zapłaci za ogrodzenie warzywniaka (bez ścieżki), jeśli wiadomo, że 3 m bieżące takiego płotka kosztują 50 zł? Zapisz obliczenia.</p>",
@@ -628,7 +622,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "zliczanie / metody zliczania"
+        "zbiory / zasada włączeń i wyłączeń"
       ],
       "prompt_html": "<p>Ustalonego dnia dzieci przyniosły do przedszkola swoje ulubione pluszowe maskotki: jednego misia lub jednego słonika. Każde dziecko mogło przynieść maksymalnie dwie różne maskotki: misia i słonika. Spośród 80 przedszkolaków 42 przyniosło słonika, 35 przyniosło misia, a 20 przedszkolaków przyszło bez żadnej pluszowej maskotki. Ilu przedszkolaków przyniosło dokładnie dwie maskotki: misia i słonika? Ilu przedszkolaków przyniosło tylko misia? Zapisz obliczenia.</p>",
       "choices": [],

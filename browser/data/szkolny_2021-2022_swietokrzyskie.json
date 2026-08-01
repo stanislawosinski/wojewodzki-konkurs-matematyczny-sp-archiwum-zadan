@@ -95,7 +95,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Wyznaczając <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> ze wzoru <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>(</mo><mn>5</mn><mo>−</mo><mi>x</mi><mo>)</mo><mo>+</mo><mi>d</mi><mo>=</mo><mi>c</mi></mrow></math>, otrzymujemy:</p>",
       "choices": [
@@ -134,7 +135,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>W kwietniu kurtka kosztowała 560 zł. W maju jej cenę obniżono o 15%, a w czerwcu ponownie obniżono o 20%. Za pomocą którego wyrażenia można obliczyć cenę kurtki po obu obniżkach? Wybierz odpowiedź spośród podanych.</p>",
       "choices": [
@@ -173,8 +174,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "zmiany procentowe",
         "trójkąty",
-        "procenty",
         "pole i obwód"
       ],
       "prompt_html": "<p>Podstawa trójkąta wzrosła o 20%, a jego wysokość zmalała o 20%. Pole tego trójkąta:</p>",
@@ -214,7 +215,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "porównywanie potęg i pierwiastków",
         "szacowanie (zamiast obliczania)"
       ],
       "prompt_html": "<p>Ile liczb naturalnych jest jednocześnie większych od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>5</mn></msqrt></math> i mniejszych od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>55</mn></msqrt></math>? Wybierz odpowiedź spośród podanych.</p>",
@@ -289,9 +290,9 @@
       "type": "true_false",
       "points": 3,
       "topics": [
+        "kąty",
         "czworokąty",
-        "trójkąty",
-        "kąty"
+        "trójkąty"
       ],
       "prompt_html": "<p>W czworokącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> ma miarę 140°, a kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCD</mi></math> ma miarę 58°. Przekątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math> czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> jest prostopadła do boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> i ma długość równą długości boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -327,8 +328,8 @@
       "points": 3,
       "topics": [
         "czworokąty",
-        "pole i obwód",
-        "potęgi i pierwiastki"
+        "zamiana jednostek",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Dany jest prostokąt, w którym różnica długości dwóch kolejnych boków jest równa 12 cm a stosunek długości tych boków wynosi 7:3.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -364,7 +365,6 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "potęgi i pierwiastki",
         "ułamki",
         "procenty"
       ],
@@ -411,8 +411,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "procenty",
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "procenty"
       ],
       "prompt_html": "<p>Do teatru miało pojechać 90% uczniów klasy ósmej. W dniu wyjazdu okazało się, że dwie osoby zachorowały i liczba uczniów, którzy zostaną jest pięć razy mniejsza niż tych, którzy pojadą. Ilu uczniów pojedzie na wycieczkę?</p><p>Zapisz odpowiednie obliczenia i odpowiedź.</p>",
       "choices": [],
@@ -434,8 +434,8 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "procenty",
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "procenty"
       ],
       "prompt_html": "<p>Na zabawę szkolną przywieziono soki w dwóch rodzajach butelek. Duże butelki miały pojemność 2,5 litra, a małe o 26% mniejszą. Łącznie było 39 butelek, w których było 78 litrów soku. Ile dużych i ile małych butelek przywieziono na zabawę szkolną?</p><p>Zapisz odpowiednie obliczenia i odpowiedź.</p>",
       "choices": [],

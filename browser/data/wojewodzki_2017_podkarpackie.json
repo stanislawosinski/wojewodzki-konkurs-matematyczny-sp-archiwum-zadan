@@ -134,7 +134,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Bilet do kina, który kosztuje 15 zł można kupić w przedsprzedaży internetowej za 12 zł. O ile procent tańszy jest ten bilet w przedsprzedaży internetowej?</p>",
       "choices": [
@@ -290,7 +290,6 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "koła / okręgi",
         "czworokąty",
         "pole i obwód"
       ],
@@ -369,8 +368,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "trójkąty",
-        "kąty"
+        "kąty",
+        "trójkąty"
       ],
       "prompt_html": "<p>Na rysunku figura <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> jest kwadratem, zaś <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABE</mi></math> jest trójkątem równobocznym. Jaka jest miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DEC</mi></math> w trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DCE</mi></math>?</p>",
       "choices": [
@@ -451,7 +450,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Dwie płyty CD mają tę samą cenę. Z pewnych przyczyn cenę jednej z nich obniżono o 5%, a cenę drugiej podwyższono o 15%. Po tej zmianie, ceny tych dwóch płyt różnią się o 12 zł.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli zdanie jest fałszywe.</p>",
       "choices": [
@@ -572,7 +571,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "zliczanie / metody zliczania"
+        "zliczanie / metody zliczania",
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Wyobraź sobie, że układasz rzędami guziki żółte (ż) i białe (b) według reguły przedstawionej na schemacie:</p><ul><li>1. rząd: ż</li><li>2. rząd: b ż b</li><li>3. rząd: ż b ż b ż</li><li>4. rząd: b ż b ż b ż b</li><li>5. rząd: ż b ż b ż b ż b ż</li><li>6. rząd: b ż b ż b ż b ż b ż b</li><li>7. rząd: ……</li></ul><p>W kolejnym rzędzie najpierw układasz guziki tak, jak w poprzednim rzędzie, a potem dokładasz na obu końcach po jednym guziku, dbając o to, by sąsiednie guziki w rzędzie różniły się kolorami.</p><p>Uzupełnij podane zdania według wzoru.</p><ul><li>A. W 6. rzędzie jest 11 guzików, w tym 6 białych i 5 żółtych.</li><li>B. W 7. rzędzie będzie …… guzików, w tym …… białych i …… żółtych.</li><li>C. W 100. rzędzie będzie …… białych i …… żółtych guzików.</li><li>D. W 101. rzędzie będzie …… białych i …… żółtych guzików.</li><li>E. Jeśli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest liczbą parzystą, to w rzędzie o numerze <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> będzie …… białych i …… żółtych guzików.</li></ul>",
       "choices": [],
@@ -595,8 +595,8 @@
       "points": 3,
       "topics": [
         "czworokąty",
-        "pole i obwód",
-        "proporcjonalność prosta"
+        "podobieństwo i skala",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Powierzchnia działki w kształcie kwadratu wynosi 9 arów. Działkę postanowiono obsiać trawą i z trzech stron ogrodzić.</p><p>Nasiona trawy można kupić w półkilogramowych opakowaniach. Według instrukcji na opakowaniu potrzeba 0,5 kg trawy na każde 25 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>m</mtext><mn>2</mn></msup></math> powierzchni. Aby ogrodzić działkę należy wbić słupki w odstępach co 2 metry.</p><p>Uzupełnij zdania wpisując w wykropkowane miejsca odpowiednie liczby.</p><p>I. Trzeba zakupić …… opakowań trawy.</p><p>II. W celu ogrodzenia działki z trzech stron wbito …… słupków.</p><p>III. Na planie w skali 1 : 200 bok działki ma …… cm długości.</p>",
       "choices": [],
@@ -619,7 +619,6 @@
       "points": 2,
       "topics": [
         "trójkąty",
-        "nierówności",
         "pole i obwód"
       ],
       "prompt_html": "<p>Długości boków trójkąta równoramiennego to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>+</mo><mn>1</mn></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&gt;</mo><mn>0</mn></math>. Oblicz obwód tego trójkąta. Zapisz wszystkie obliczenia i odpowiedź.</p>",
@@ -642,8 +641,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "procenty",
-        "równania z jedną zmienną"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Cena batoników „Smakuś” w hurtowni zależy od liczby zakupionych sztuk. Przy zakupie ponad 50 sztuk tych batoników, na każdy następny zakupiony batonik otrzymuje się stały procentowy rabat (obniżka ceny). Batonik kupiony z rabatem kosztuje 1,20 zł. Właściciel sklepu za 120 zakupionych batoników zapłacił 164 zł. Ile procent wynosi rabat? Zapisz wszystkie obliczenia i odpowiedź.</p>",
       "choices": [],
@@ -665,7 +663,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "graniastosłupy"
+        "graniastosłupy",
+        "ułamki"
       ],
       "prompt_html": "<p>Do prostopadłościennego zbiornika o wymiarach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mfrac><mn>1</mn><mn>2</mn></mfrac></math> m × 2 m × <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mfrac><mn>2</mn><mn>5</mn></mfrac></math> m prowadzą dwie rury. Pierwsza rura napełnia zbiornik wodą w ciągu 6 godzin, a druga w ciągu 4 godzin.</p><p>W ciągu ilu godzin zostanie napełniony zbiornik przez obie rury?</p><p>Ile litrów wody mieści się w tym zbiorniku?</p><p>Zapisz wszystkie obliczenia i odpowiedź.</p>",
       "choices": [],
@@ -687,9 +686,8 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "trójkąty",
         "kąty",
-        "dowodzenie / dowody"
+        "trójkąty"
       ],
       "prompt_html": "<p>W trójkącie prostokątnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> przedłużono przeciwprostokątną <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i na tym przedłużeniu odłożono odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> równy bokowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> oraz odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BE</mi></math> równy bokowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>. Jaką miarę ma powstały kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DCE</mi></math>? Zapisz wszystkie obliczenia i odpowiedź.</p>",
       "choices": [],

@@ -17,6 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "ułamki okresowe / rozwinięcia dziesiętne",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Siedemnastą cyfrą rozwinięcia dziesiętnego ułamka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>7</mn></mfrac></math> jest</p>",
@@ -44,7 +45,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "wzory skróconego mnożenia"
+        "wzory skróconego mnożenia",
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Wyrażenie „kwadrat sumy liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> pomniejszony o iloczyn różnicy liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> przez ich sumę” po uproszczeniu ma postać</p>",
       "choices": [
@@ -71,7 +73,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "ostatnia cyfra / cykliczność potęg",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Cyfrą jedności liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>5</mn><mn>14</mn></msup><mo>+</mo><msup><mn>7</mn><mn>11</mn></msup><mo>+</mo><msup><mn>10</mn><mn>12</mn></msup></math> jest</p>",
@@ -127,7 +129,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "kąty"
       ],
       "prompt_html": "<p>W trójkącie równoramiennym wysokości poprowadzone do ramion tego trójkąta tworzą kąt o mierze 100°. Miara kąta przy podstawie tego trójkąta wynosi</p>",
       "choices": [
@@ -154,7 +157,9 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "porównywanie potęg i pierwiastków",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Dane są liczby: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msup><mn>3</mn><mn>200</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><msup><mn>9</mn><mn>75</mn></msup><mo>·</mo><msup><mn>3</mn><mn>50</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><msup><mn>27</mn><mn>80</mn></msup><mo>:</mo><msup><mn>9</mn><mn>20</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><msup><mn>3</mn><mn>198</mn></msup><mo>+</mo><msup><mn>3</mn><mn>198</mn></msup><mo>+</mo><msup><mn>3</mn><mn>198</mn></msup></math>.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -210,7 +215,7 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "zagadki logiczne"
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Przyjaciółki spotkały się w domu Pauliny. Hania przyszła 4 minuty wcześniej niż Ola, ale 2 minuty później niż Kasia. Ze spotkania pierwsza wyszła Hania. Opuściła przyjaciółki 3 minuty wcześniej niż Ola i 9 minut wcześniej niż Kasia. O ile minut krócej w spotkaniu uczestniczyła Ola niż Kasia?</p>",
       "choices": [],
@@ -255,6 +260,7 @@
       "points": 1,
       "topics": [
         "kąty",
+        "czworokąty",
         "procenty"
       ],
       "prompt_html": "<p>W prostokącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> przekątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> tworzy z bokiem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> kąt, którego miara jest o 20% mniejsza od miary kąta, jaki przekątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> tworzy z bokiem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>. Ile wynosi miara kąta rozwartego między przekątnymi prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>?</p>",
@@ -323,7 +329,8 @@
       "points": 4,
       "topics": [
         "czworokąty",
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Obwód trapezu równoramiennego wynosi 68 cm, a jego ramię ma długość 13 cm. Przez środki obu podstaw trapezu poprowadzono prostą, która podzieliła trapez na dwa czworokąty. Obwód każdego z tych czworokątów wynosi 46 cm.</p><p>Uzupełnij luki w poniższych zdaniach – wpisz w puste miejsca odpowiednie liczby.</p><ul><li>a) Wysokość trapezu ma długość …… cm.</li><li>b) Różnica długości podstaw trapezu wynosi …… cm.</li><li>c) Krótsza podstawa trapezu ma długość …… cm.</li><li>d) Przekątna trapezu ma długość …… cm.</li></ul>",
       "choices": [],
@@ -370,8 +377,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "procenty",
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "procenty"
       ],
       "prompt_html": "<p>We wrześniu w klasie VIII było siedem razy więcej uczniów uczęszczających na zajęcia sportowe, niż uczniów nieuczęszczających na te zajęcia. W październiku jedna osoba zrezygnowała z udziału w zajęciach sportowych i wtedy osoby, które nie uczęszczały na te zajęcia stanowiły 20% uczniów uczęszczających na zajęcia sportowe. Liczba wszystkich uczniów w klasie VIII się nie zmieniła.</p><ul><li>a) Ilu uczniów było w klasie VIII?</li><li>b) O ile procent liczba uczniów uczestniczących w zajęciach sportowych we wrześniu była większa od liczby uczniów uczęszczających na te zajęcia w październiku?</li></ul>",
       "choices": [],

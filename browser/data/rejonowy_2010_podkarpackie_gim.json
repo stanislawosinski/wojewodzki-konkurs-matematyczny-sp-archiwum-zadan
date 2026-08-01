@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>W zbiorze liczb całkowitych określono następujące operacje (patrz rysunek): liczba umieszczona w ramce oznacza jej czwartą potęgę, a działanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>|</mo><mi>y</mi></mrow></math> jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow></math>. Oblicz wartość wyrażenia przedstawionego na rysunku:</p>",
       "choices": [
@@ -58,8 +58,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
-        "wzory skróconego mnożenia"
+        "wzory skróconego mnożenia",
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mfrac><mrow><msqrt><mn>5</mn></msqrt><mo>+</mo><mn>1</mn></mrow><mn>2</mn></mfrac><mo>)</mo></mrow><mn>2000</mn></msup><mo>·</mo><msup><mrow><mo>(</mo><mfrac><mrow><msqrt><mn>5</mn></msqrt><mo>−</mo><mn>1</mn></mrow><mn>2</mn></mfrac><mo>)</mo></mrow><mn>2000</mn></msup></mrow></math> równa jest:</p>",
       "choices": [
@@ -140,8 +140,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "czworokąty",
-        "kąty"
+        "kąty",
+        "czworokąty"
       ],
       "prompt_html": "<p>Miary niektórych kątów w czworokącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> zostały zaznaczone na rysunku. Wyznacz miarę kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> wiedząc, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>CD</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>AB</mi><mo>|</mo></mrow></math>.</p>",
       "choices": [
@@ -262,7 +262,9 @@
       "points": 1,
       "topics": [
         "okrąg wpisany i opisany",
-        "trójkąty"
+        "koła / okręgi",
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest równoboczny. Okrąg wpisany w ten trójkąt jest styczny do dwóch jego boków odpowiednio w punktach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math>. Długość łuku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EF</mi></math> tego okręgu wynosi 1. Jaki jest obwód trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>?</p>",
       "choices": [
@@ -303,7 +305,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kombinatoryka"
+        "wielokąty"
       ],
       "prompt_html": "<p>Pewien wielokąt wypukły ma 119 różnych przekątnych. Ile boków ma ten wielokąt?</p>",
       "choices": [
@@ -381,6 +383,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "układ współrzędnych",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Jakim wzorem określona jest funkcja liniowa, której wykres przecina oś rzędnych w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>0</mn><mo>,</mo><mn>7</mn><mo>)</mo></mrow></math> i której miejscem zerowym jest liczba 7?</p>",
@@ -459,8 +462,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy",
-        "procenty"
+        "podobieństwo i skala",
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Mydło ma kształt prostopadłościanu. Piotr, zużywając je równomiernie, zauważył, że po 19 dniach wszystkie wymiary mydła zmniejszyły się o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> swoich początkowych wartości. Na ile jeszcze dni wystarczy tego mydła Piotrowi, jeżeli będzie zużywał je w takim samym tempie jak dotychczas?</p>",
       "choices": [
@@ -499,6 +502,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "wartość bezwzględna",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Suma liczb spełniających równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo>|</mo><mo>+</mo><mn>2</mn><mo>=</mo><mn>5</mn></mrow></math> wynosi:</p>",
@@ -578,8 +582,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "czworokąty",
-        "dwusieczna kąta / symetralna odcinka"
+        "kąty",
+        "czworokąty"
       ],
       "prompt_html": "<p>Czworokąt na rysunku obok jest trapezem o podstawach 2 cm i 1 cm. Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DAB</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>, a przekątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math> połowi kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>. Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> jest więc równy:</p>",
       "choices": [
@@ -620,7 +624,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "inne"
+        "ułamki",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Stosując uproszczenia rachunkowe, oblicz:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>985</mn><mo>·</mo><mn>654654</mn></mrow><mrow><mn>327</mn><mo>·</mo><mn>137137</mn><mo>+</mo><mn>137</mn><mo>·</mo><mn>327327</mn></mrow></mfrac></math></p>",
       "choices": [],
@@ -642,7 +647,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki"
+        "ujemny wykładnik"
       ],
       "prompt_html": "<p>Oblicz: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>3</mn><msup><mrow><mo>(</mo><msup><mn>12</mn><mn>2</mn></msup><mo>−</mo><msup><mn>3</mn><mn>3</mn></msup><mo>)</mo></mrow><mrow><mo>−</mo><mn>1</mn></mrow></msup></mrow></math></p>",
       "choices": [],
@@ -688,8 +693,9 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "graniastosłupy",
-        "procenty"
+        "zmiany procentowe",
+        "podobieństwo i skala",
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Długość krawędzi sześcianu zwiększono tak, że jego pole powierzchni całkowitej wzrosło o 69%. O ile procent wzrosła objętość tego sześcianu?</p>",
       "choices": [],
@@ -755,8 +761,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "nierówności",
-        "potęgi i pierwiastki"
+        "nierówności"
       ],
       "prompt_html": "<p>Podaj największą liczbę całkowitą, dla której wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><mn>56</mn><mo>−</mo><mn>7</mn><mi>x</mi></mrow></msqrt></math> ma sens liczbowy.</p>",
       "choices": [],

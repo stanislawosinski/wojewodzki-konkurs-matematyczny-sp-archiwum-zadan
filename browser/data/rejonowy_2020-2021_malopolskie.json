@@ -57,7 +57,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Jubiler, pracując od poniedziałku do piątku, sprzedaje ozdobne zakładki do książek w cenie 50 zł za sztukę. Koszt materiałów potrzebnych do wykonania jednej zakładki wynosi 12,50 zł, ale dodatkowo jubiler ponosi miesięcznie 2250 zł kosztów stałych. Ile zakładek musi średnio produkować i sprzedawać dziennie, aby w lutym 2021 roku zanotować 3000 zł zysku?</p>",
       "choices": [
@@ -96,7 +97,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "procenty"
+        "stężenie procentowe / mieszaniny"
       ],
       "prompt_html": "<p>Po wysuszeniu śliwki powinny mieć 22% zawartości wody. Aby uzyskać 1 kg suszonych śliwek, należy zużyć 3 kg śliwek świeżych. Jaka jest procentowa zawartość wody w świeżych śliwkach?</p>",
       "choices": [
@@ -174,7 +175,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki"
+        "notacja wykładnicza"
       ],
       "prompt_html": "<p>Łańcuch bakterii pewnego paciorkowca składa się z trzech stykających się kul o średnicach równych odpowiednio <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9,8</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>7</mn></mrow></msup></math> m, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,1</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>6</mn></mrow></msup></math> m oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9,9</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>7</mn></mrow></msup></math> m. Na rysunku obok przedstawiono schemat tego łańcucha. Jaka jest całkowita długość tego paciorkowca zapisana w notacji wykładniczej?</p>",
       "choices": [
@@ -215,8 +216,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "zliczanie / metody zliczania",
-        "kombinatoryka"
+        "zasada szufladkowa"
       ],
       "prompt_html": "<p>Wojtek rzuca jednocześnie trzema identycznymi sześciennymi kostkami do gry i sumuje liczbę wyrzuconych oczek. Jaka jest najmniejsza liczba rzutów, które Wojtek musi wykonać, aby mieć pewność, że jedna z sum się powtórzy?</p>",
       "choices": [
@@ -336,8 +336,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "zliczanie / metody zliczania",
-        "kombinatoryka"
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Kod PIN do karty bankomatowej pewnego banku składa się z czterech cyfr. Pani Stasia chciała wybrać taki kod, aby jak najmniej liczb czterocyfrowych miało taki sam iloczyn cyfr jak jej kod. Która z poniższych liczb najlepiej spełnia jej wymagania?</p>",
       "choices": [
@@ -467,7 +466,7 @@
       "points": 3,
       "topics": [
         "NWW / NWD",
-        "podzielność"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Rozważmy parę różnych, dodatnich liczb całkowitych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>. Liczby te są względnie pierwsze, co oznacza, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>NWD</mtext><mo>(</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo>)</mo><mo>=</mo><mn>1</mn></math>. Wskaż zdanie fałszywe.</p>",
       "choices": [
@@ -511,7 +510,8 @@
       "points": 3,
       "topics": [
         "trójkąty",
-        "układ współrzędnych"
+        "układ współrzędnych",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Dany jest trójkąt o wierzchołkach w punktach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>(</mo><mo>−</mo><mn>4</mn><mo>,</mo><mo>−</mo><mn>1</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>(</mo><mn>6</mn><mo>,</mo><mn>1</mn><mo>)</mo></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>(</mo><mo>−</mo><mn>1</mn><mo>,</mo><mn>3</mn><mo>)</mo></math>. Jaką długość ma wysokość trójkąta wychodząca z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>?</p>",
       "choices": [
@@ -598,6 +598,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
+        "wielokąty",
         "kąty"
       ],
       "prompt_html": "<p>Ile wynosi miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACD</mi></math> pomiędzy najkrótszą z przekątnych a bokiem ośmiokąta foremnego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDEFGH</mi></math>?</p>",
@@ -672,7 +673,6 @@
         "czworokąty",
         "trójkąty",
         "pole i obwód",
-        "procenty",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Dany jest trapez równoramienny o podstawach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>&gt;</mo><mo>|</mo><mi>CD</mi><mo>|</mo></mrow></math>) widoczny na rysunku obok.</p><p>Wewnątrz trapezu na podstawach skonstruowano dwa trójkąty równoboczne tak, że wierzchołek większego trójkąta leży na podstawie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math>. Częścią wspólną skonstruowanych trójkątów jest zacieniowany romb.</p><p>a) (3p) Wykaż, że jeśli czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AECF</mi></math> jest równoległobokiem, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>1,5</mn><mo>·</mo><mo>|</mo><mi>CD</mi><mo>|</mo></mrow></math>.</p><p>b) (4p) Jaki procent pola trapezu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> stanowi pole zacieniowanego rombu, jeśli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>6</mn></mrow></math> cm oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>CD</mi><mo>|</mo><mo>=</mo><mn>4</mn></mrow></math> cm? Zapisz obliczenia.</p>",

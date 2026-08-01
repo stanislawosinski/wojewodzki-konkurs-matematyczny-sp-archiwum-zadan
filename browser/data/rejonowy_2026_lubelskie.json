@@ -17,8 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "wyrażenia algebraiczne",
-        "szacowanie (zamiast obliczania)"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Wiadomo, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mi>x</mi><mo>+</mo><mn>11</mn><mi>y</mi></mrow><mi>y</mi></mfrac><mo>=</mo><mn>18</mn></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>≠</mo><mn>0</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>≠</mo><mn>0</mn></math>. Jaką wartość ma wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>12</mn><mi>x</mi><mo>−</mo><mn>14</mn><mi>y</mi></mrow><mrow><mn>6</mn><mi>y</mi></mrow></mfrac></math>?</p>",
       "choices": [
@@ -126,7 +125,9 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach",
+        "ułamki",
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>Poniżej podane są zdania dotyczące liczb i działań na liczbach.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -154,7 +155,7 @@
       "points": 3,
       "topics": [
         "wzory skróconego mnożenia",
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Poniżej podane są zdania dotyczące wyrażeń algebraicznych.</p><p>Oceń prawdziwość podanych zdań dla dowolnych wartości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -180,7 +181,9 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "potęgi i pierwiastki",
+        "działania na potęgach",
+        "działania na pierwiastkach",
+        "wyłączanie wspólnego czynnika przed nawias",
         "szacowanie (zamiast obliczania)"
       ],
       "prompt_html": "<p>Poniżej podane są zdania dotyczące potęg i pierwiastków oraz porównywania liczb.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>",
@@ -254,7 +257,7 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "graniastosłupy"
+        "liczba krawędzi, ścian i wierzchołków"
       ],
       "prompt_html": "<p>W pewnym graniastosłupie liczba krawędzi jest o 4048 większa od liczby jego ścian. Ile wierzchołków ma ten graniastosłup?</p><p>Wpisz tylko odpowiedź.</p>",
       "choices": [],
@@ -276,7 +279,8 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "kąty"
+        "kąty",
+        "trójkąty"
       ],
       "prompt_html": "<p>Uzupełnij zdanie, wpisując w puste miejsce tylko liczbę (nie musisz zapisywać wykonanych obliczeń).</p><p>Suma miar wszystkich zaznaczonych łukami kątów (patrz rysunek powyżej) wynosi ……………………… stopni.</p>",
       "choices": [],
@@ -322,8 +326,8 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "procenty",
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "procenty"
       ],
       "prompt_html": "<p>Zosia Oszczędna przez dwa lata odkładała otrzymywane od rodziców kieszonkowe. Po tym okresie postanowiła mądrze wydać zaoszczędzoną kwotę. Trzecią część tej kwoty wydała na nowy rower. Następnie opłaciła półroczny karnet na basen, na który wydała 400 zł. Na dojazdy na basen przeznaczyła ćwierć pozostałej kwoty. Po kilku dniach zapłaciła jeszcze 900 zł za wyjazd na szkolny obóz zimowy. Po podliczeniu wszystkich wydatków okazało się, że ma jeszcze do dyspozycji 10% całej zaoszczędzonej kwoty. Oblicz, jaką kwotę zaoszczędziła przez dwa lata Zosia Oszczędna. Zapisz wszystkie obliczenia.</p>",
       "choices": [],
@@ -345,8 +349,7 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "układy równań",
-        "zagadki logiczne"
+        "układy równań"
       ],
       "prompt_html": "<p>Staś, „nudząc się”, na lekcji matematyki w pewnej chwili zauważył, że zapisana przez nauczyciela na tablicy liczba jest 21 razy większa od różnicy pomiędzy cyfrą jej dziesiątek a cyfrą jedności. Pomyślał, że jeżeli przestawić cyfry tej liczby i od nowo utworzonej liczby odjąć 12, to różnica ta będzie trzy razy większa od sumy cyfr zapisanej na tablicy liczby. Jaka liczba, zapisana na tablicy przez nauczyciela, tak zaciekawiła Stasia? Zapisz wszystkie obliczenia.</p>",
       "choices": [],
@@ -368,7 +371,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "kąty"
       ],
       "prompt_html": "<p>Na boku kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> o długości 4 cm zbudowano trójkąt równoboczny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDE</mi></math> tak, że częścią wspólną kwadratu i trójkąta jest tylko odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math>. Oblicz miarę kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BEC</mi></math> oraz długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BE</mi></math>. Zapisz wszystkie obliczenia.</p>",
       "choices": [],
@@ -390,7 +394,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "procenty",
+        "stężenie procentowe / mieszaniny",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Świeżo zerwany melon gigant <em>Casaba</em>, zawierający 99,5% wody, ważył 20 kg. Podczas kilkudniowego transportu, w mało sprzyjających warunkach, zawartość wody w melonie spadła do 98%. Ile teraz waży ten melon? Zapisz wszystkie obliczenia.</p>",

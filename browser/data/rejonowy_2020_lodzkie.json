@@ -58,7 +58,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki",
+        "ostatnia cyfra / cykliczność potęg",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Cyfrą jedności liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>2019</mn></msup></math> jest</p>",
@@ -100,7 +100,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki"
+        "porównywanie potęg i pierwiastków"
       ],
       "prompt_html": "<p>Największą liczbą utworzoną z trzech dziewiątek jest</p>",
       "choices": [
@@ -141,9 +141,9 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki",
-        "wzory skróconego mnożenia",
-        "usuwanie niewymierności z mianownika"
+        "liczby wymierne i niewymierne",
+        "wyłączanie czynnika przed znak pierwiastka",
+        "wzory skróconego mnożenia"
       ],
       "prompt_html": "<p>Wśród liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msqrt><mn>54</mn></msqrt><mo>+</mo><msqrt><mn>24</mn></msqrt><mo>+</mo><msqrt><mn>50</mn></msqrt><mo>−</mo><msqrt><mn>150</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mfrac><mrow><msqrt><mn>300</mn></msqrt><mo>−</mo><msqrt><mn>3</mn></msqrt></mrow><msqrt><mn>27</mn></msqrt></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><msqrt><mrow><mo>(</mo><mn>5</mn><mo>−</mo><msqrt><mn>2</mn></msqrt><mo>)</mo><mo>(</mo><mn>5</mn><mo>+</mo><msqrt><mn>2</mn></msqrt><mo>)</mo><mo>+</mo><msup><mrow><mo>(</mo><msqrt><mn>8</mn></msqrt><mo>−</mo><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup></mrow></msqrt></math> niewymierne są</p>",
       "choices": [
@@ -184,7 +184,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Pan Tomasz, chcąc oszczędzać energię, dokonał w swoim domu trzech usprawnień, które obniżyły wydatki na ogrzewanie kolejno o 20%, o 25% i o 35%. O ile procent łącznie obniżyły się początkowe wydatki pana Tomasza na ogrzewanie?</p>",
       "choices": [
@@ -225,7 +225,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "proporcjonalność prosta",
+        "podobieństwo i skala",
         "pole i obwód"
       ],
       "prompt_html": "<p>Sad zajmuje powierzchnię prostokąta o wymiarach 400m x 500m. Na planie jego powierzchnia wynosi 2000cm². Plan sporządzono w skali</p>",
@@ -351,7 +351,9 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "czworokąty"
+        "czworokąty",
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W trapezie równoramiennym kąt ostry ma miarę 60º, a jedna podstawa jest trzy razy dłuższa od drugiej. Obwód tego trapezu wynosi 20cm. Jego ramię ma długość</p>",
       "choices": [
@@ -393,8 +395,7 @@
       "points": 2,
       "topics": [
         "trójkąty",
-        "pole i obwód",
-        "potęgi i pierwiastki"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Pola kwadratów zbudowanych na przyprostokątnej i przeciwprostokątnej trójkąta prostokątnego są odpowiednio równe 7 i 15. Pole tego trójkąta jest równe</p>",
       "choices": [
@@ -568,8 +569,7 @@
       "type": "open",
       "points": 6,
       "topics": [
-        "ostrosłupy",
-        "trójkąty"
+        "ostrosłupy"
       ],
       "prompt_html": "<p>Podstawą ostrosłupa jest trójkąt równoboczny o polu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt></math> dm². Jedna z krawędzi bocznych o długości 15cm jest prostopadła do podstawy. Oblicz pole powierzchni bocznej tej bryły.</p>",
       "choices": [],

@@ -17,8 +17,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność",
-        "wyłączanie jednomianu przed nawias"
+        "wyrażenia algebraiczne",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Iloczyn trzech kolejnych liczb naturalnych podzielnych przez 3 po uproszczeniu można zapisać jako:</p>",
       "choices": [
@@ -45,7 +45,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Ile cyfr w zapisie dziesiętnym ma liczba: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>5</mn></msup><mo>·</mo><msup><mn>5</mn><mn>13</mn></msup></math></p>",
       "choices": [
@@ -72,6 +72,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "wartość bezwzględna",
         "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mo>−</mo><mn>4</mn><mi>x</mi><mo>−</mo><mn>1</mn><mo>|</mo><mo>−</mo><mo>|</mo><mn>10</mn><mo>−</mo><mn>2</mn><mi>x</mi><mo>|</mo></math> dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>∈</mo><mo>⟨</mo><mo>−</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>,</mo><mn>5</mn><mo>)</mo></math> wynosi:</p>",
@@ -99,8 +100,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "czworokąty",
-        "potęgi i pierwiastki"
+        "podobieństwo i skala",
+        "czworokąty"
       ],
       "prompt_html": "<p>Jaka jest skala podobieństwa kwadratu, którego bok ma długość równą połowie przekątnej kwadratu ABCD do kwadratu ABCD:</p>",
       "choices": [
@@ -156,7 +157,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "zamiana jednostek",
+        "graniastosłupy"
       ],
       "prompt_html": "<p>W trakcie ulewy spadło 28 litrów wody na metr kwadratowy. Wysokość słupa wody w naczyniu sześciennym o krawędzi 80 cm (pustym przed ulewą) wynosiła po ulewie:</p>",
       "choices": [
@@ -183,8 +185,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność",
-        "potęgi i pierwiastki"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Dla pewnej liczby naturalnej n zachodzi równość:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><mo>...</mo><mo>·</mo><mo>(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo>)</mo><mo>·</mo><mi>n</mi><mo>=</mo><msup><mn>2</mn><mn>15</mn></msup><mo>·</mo><msup><mn>3</mn><mn>6</mn></msup><mo>·</mo><msup><mn>5</mn><mn>3</mn></msup><mo>·</mo><msup><mn>7</mn><mn>2</mn></msup><mo>·</mo><mn>11</mn><mo>·</mo><mn>13</mn></math></p><p>Jaką liczbą jest n?</p>",
       "choices": [
@@ -211,8 +212,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy",
-        "ostrosłupy"
+        "ostrosłupy",
+        "graniastosłupy"
       ],
       "prompt_html": "<p>W sześcianie połączono odcinkami kilka wierzchołków tak, że powstał czworościan foremny. Jaką część objętości sześcianu stanowi objętość czworościanu?</p>",
       "choices": [
@@ -239,8 +240,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
-        "wyłączanie jednomianu przed nawias"
+        "działania na potęgach",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Kod dostępu do komputera Bartka złożony jest z trzech kolejnych wykładników potęg liczby 4 ułożonych w kolejności od najmniejszej do największej. Suma tych potęg wynosi 5376. Kod dostępu jest równy:</p>",
       "choices": [
@@ -267,8 +268,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
-        "wzory skróconego mnożenia"
+        "wzory skróconego mnożenia",
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mfrac><mrow><msqrt><mn>5</mn></msqrt><mo>+</mo><mn>1</mn></mrow><mn>2</mn></mfrac><mo>)</mo></mrow><mn>2000</mn></msup><mo>·</mo><msup><mrow><mo>(</mo><mfrac><mrow><msqrt><mn>5</mn></msqrt><mo>−</mo><mn>1</mn></mrow><mn>2</mn></mfrac><mo>)</mo></mrow><mn>2000</mn></msup></math> jest równa:</p>",
       "choices": [
@@ -318,8 +319,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "reszta z dzielenia",
-        "potęgi i pierwiastki"
+        "ostatnia cyfra / cykliczność potęg",
+        "reszta z dzielenia"
       ],
       "prompt_html": "<p>Wyznacz cyfrę jedności liczby, która jest wartością wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>7</mn><mn>2023</mn></msup><mo>+</mo><msup><mn>7</mn><mn>2024</mn></msup></math>.</p>",
       "choices": [],
@@ -387,7 +388,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Długopis kosztuje o 60% mniej niż piórnik. Piórnik kosztuje o 60% mniej niż plecak. O ile procent plecak jest droższy od długopisu?</p>",
       "choices": [],
@@ -410,7 +411,7 @@
       "points": 3,
       "topics": [
         "równania z jedną zmienną",
-        "podzielność"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Znajdź liczbę dwucyfrową, która jest równa potrojonemu iloczynowi swoich cyfr.</p>",
       "choices": [],
@@ -458,7 +459,7 @@
         "czworokąty",
         "pole i obwód",
         "dowodzenie / dowody",
-        "potęgi i pierwiastki"
+        "szacowanie (zamiast obliczania)"
       ],
       "prompt_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>K</mi><mn>1</mn></msub></math> jest kwadratem o boku długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>K</mi><mn>2</mn></msub></math> jest kwadratem, którego każdy wierzchołek leży na innym boku kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>K</mi><mn>1</mn></msub></math> i dzieli ten bok w stosunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>:</mo><mn>3</mn></math>. Wykaż, że suma długości obwodów tych kwadratów jest większa od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mi>a</mi></math>.</p>",
       "choices": [],

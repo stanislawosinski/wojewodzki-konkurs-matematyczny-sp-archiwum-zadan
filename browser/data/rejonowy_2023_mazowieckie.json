@@ -17,6 +17,7 @@
       "type": "true_false",
       "points": 1,
       "topics": [
+        "kąty",
         "trójkąty",
         "czworokąty"
       ],
@@ -49,8 +50,9 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
-        "reszta z dzielenia"
+        "ostatnia cyfra / cykliczność potęg",
+        "reszta z dzielenia",
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Jaką cyfrę jedności ma liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>49</mn></msqrt><mo>+</mo><msup><mn>10</mn><mn>23</mn></msup><mo>+</mo><msup><mn>5</mn><mn>19</mn></msup><mo>+</mo><msup><mn>9</mn><mn>18</mn></msup><mo>−</mo><mroot><mn>64</mn><mn>3</mn></mroot></mrow></math>? Wybierz wszystkie poprawne odpowiedzi spośród danych.</p>",
       "choices": [
@@ -90,7 +92,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "proporcjonalność prosta"
+        "proporcjonalność prosta",
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Do pracy przy zrywaniu czereśni zgłosiły się dwie czteroosobowe grupy licealistów. Pierwsza grupa w ciągu godziny zbiera średnio o 20 kg czereśni więcej niż druga. W ciągu kilku godzin pierwsza grupa zerwała 600 kg czereśni, a druga w tym samym czasie 480 kg.</p><p>Wybierz poprawną odpowiedź spośród oznaczonych literami A i B oraz C i D.</p><p>Uczestnik pierwszej grupy w ciągu godziny zrywa średnio (A albo B) czereśni więcej niż uczestnik drugiej grupy.</p><p>Aby zerwać 720 kg czereśni druga grupa, musi pracować z tą samą wydajnością (C albo D).</p>",
       "choices": [
@@ -174,8 +177,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "równania z jedną zmienną",
-        "podzielność"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Wśród czterech kolejnych liczb naturalnych, z których najmniejsza jest parzysta, iloczyn dwóch liczb nieparzystych jest o 35 większy od iloczynu dwóch liczb parzystych. Oblicz średnią arytmetyczną tych czterech liczb.</p>",
       "choices": [],
@@ -219,8 +221,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "trójkąty",
-        "potęgi i pierwiastki"
+        "trójkąty"
       ],
       "prompt_html": "<p>Dana jest prosta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> leży w odległości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>6</mn></msqrt></math> od prostej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>, w odległości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msqrt><mn>6</mn></msqrt></mrow></math> od punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> oraz w odległości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow></math> od punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>. Wyznacz miarę kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACB</mi></math>. Rozważ wszystkie możliwości.</p>",
       "choices": [],
@@ -243,7 +244,8 @@
       "points": 3,
       "topics": [
         "czworokąty",
-        "dowodzenie / dowody"
+        "dowodzenie / dowody",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W czworokącie wypukłym przekątne przecinają się pod kątem 120° i dzielą go na cztery trójkąty o polach równych 15. Uzasadnij, że czworokąt jest równoległobokiem. Wykaż, że stosunek długości tych przekątnych wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>3</mn></msqrt><mn>5</mn></mfrac></math>, jeżeli krótsza przekątna ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><msqrt><mn>3</mn></msqrt></mrow></math>.</p>",
       "choices": [],
@@ -288,7 +290,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "graniastosłupy"
+        "graniastosłupy",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Klocek w kształcie graniastosłupa prawidłowego czworokątnego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDEFGH</mi></math> rozcięto na cztery klocki, każdy w kształcie graniastosłupa prostego trójkątnego. Podstawą jednego z nich jest trójkąt, którego dwa wierzchołki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi></math> są środkami krawędzi podstawy graniastosłupa czworokątnego, trzeci wierzchołek jest jednym z wierzchołków tej podstawy, a ponadto żadna ze ścian bocznych tego graniastosłupa trójkątnego nie zawiera się w żadnej ścianie graniastosłupa czworokątnego. Oblicz, ile procent objętości największego z otrzymanych po rozcięciu klocków stanowi objętość najmniejszego klocka. Wynik podaj z dokładnością do 1%.</p>",
       "choices": [],

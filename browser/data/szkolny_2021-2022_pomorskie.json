@@ -111,7 +111,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki",
+        "działania na potęgach",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Rozwiąż równanie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2022</mn><mn>2021</mn></msup><mi>x</mi><mo>+</mo><msup><mn>2022</mn><mn>2022</mn></msup><mo>=</mo><msup><mn>2022</mn><mn>2023</mn></msup></mrow></math>.</p>",
@@ -135,7 +135,8 @@
       "points": 3,
       "topics": [
         "graniastosłupy",
-        "procenty"
+        "podobieństwo i skala",
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Dane są dwa sześciany. Pierwszy sześcian ma pole powierzchni całkowitej o 69% większe od pola powierzchni całkowitej drugiego. Krawędź drugiego sześcianu ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. O ile procent objętość pierwszego sześcianu jest większa od objętości drugiego sześcianu? Zapisz obliczenia.</p><p><em>Uwaga!</em> W rozwiązaniu zadania <strong>nie</strong> można przyjąć konkretnej długości boku sześcianu, np.: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>5</mn></mrow></math>.</p>",
       "choices": [],
@@ -157,7 +158,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Oblicz:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>27</mn><mo>·</mo><msup><mn>2</mn><mn>52</mn></msup><mo>·</mo><msup><mn>15</mn><mn>50</mn></msup></mrow><mrow><mn>5</mn><mo>·</mo><msup><mn>6</mn><mn>52</mn></msup><mo>·</mo><msup><mn>25</mn><mn>25</mn></msup><mo>−</mo><mn>2</mn><mo>·</mo><msup><mn>27</mn><mn>18</mn></msup><mo>·</mo><msup><mn>10</mn><mn>50</mn></msup></mrow></mfrac></math></p>",
       "choices": [],
@@ -179,11 +181,9 @@
       "type": "closed_single",
       "points": 4,
       "topics": [
-        "czworokąty",
-        "pole i obwód",
-        "procenty",
+        "wartość bezwzględna",
         "podzielność",
-        "potęgi i pierwiastki"
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>W zadaniach zamkniętych dokładnie jedna odpowiedź jest poprawna. Wskaż tę odpowiedź, otaczając ją kółkiem.</p><p><strong>8.1</strong> Każdą z dwóch identycznych prostokątnych kartek papieru rozcięto na dwie części. Z pierwszej kartki otrzymano dwa prostokąty o obwodach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>40</mn><mtext> cm</mtext></mrow></math> każdy. Z drugiej kartki również powstały dwa prostokąty, ale o obwodach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>50</mn><mtext> cm</mtext></mrow></math> każdy. Obwód jednej początkowej prostokątnej kartki to:</p><ul><li>A. 40 cm</li><li>B. 50 cm</li><li>C. 60 cm</li><li>D. 80 cm</li><li>E. 90 cm</li></ul><p><strong>8.2</strong> Ala, Ola i Ela zbierały pieniądze na zakup prezentu dla ich mamy. Ala dała 60% potrzebnej kwoty, Ola dała 40% pozostałej części, a Ela dołożyła brakujące 30 zł. Ile kosztował prezent?</p><ul><li>A. 50 zł</li><li>B. 60 zł</li><li>C. 125 zł</li><li>D. 150 zł</li><li>E. 200 zł</li></ul><p><strong>8.3</strong> Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>23754678</mn><mi>X</mi></mrow></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>X</mi></math> jest cyfrą jedności, jest podzielna przez 12. Zatem:</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>X</mi><mo>=</mo><mn>0</mn></mrow></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>X</mi><mo>=</mo><mn>2</mn></mrow></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>X</mi><mo>=</mo><mn>4</mn></mrow></math></li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>X</mi><mo>=</mo><mn>6</mn></mrow></math></li><li>E. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>X</mi><mo>=</mo><mn>8</mn></mrow></math></li></ul><p><strong>8.4</strong> Wartość wyrażenia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>|</mo><mn>1</mn><mo>−</mo><msqrt><mn>2</mn></msqrt><mo>|</mo><mo>−</mo><mo>|</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>−</mo><mn>2</mn><mo>|</mo><mo>+</mo><mo>|</mo><mo>−</mo><mn>4</mn><mo>|</mo><mo>·</mo><mo>|</mo><mn>2</mn><mo>|</mo></mrow></math> jest równa:</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>12</mn><mo>−</mo><mn>4</mn><msqrt><mn>2</mn></msqrt></mrow></math></li><li>B. 8</li><li>C. 4</li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>4</mn><msqrt><mn>2</mn></msqrt><mo>−</mo><mn>4</mn></mrow></math></li><li>E. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>4</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>8</mn></mrow></math></li></ul>",
       "choices": [],

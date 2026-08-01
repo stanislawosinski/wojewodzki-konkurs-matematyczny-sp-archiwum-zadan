@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "zagadki logiczne"
       ],
       "prompt_html": "<p>Jurek wypisał wszystkie liczby trzycyfrowe o sumie cyfr 25. Różnica między największą i najmniejszą z wypisanych przez Jurka liczb jest równa</p>",
       "choices": [
@@ -152,7 +152,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach",
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Wskaż liczbę, którą trzeba dodać do pierwiastka sześciennego z kwadratu liczby milion, aby otrzymać wartość równą pierwiastkowi kwadratowemu z sześcianu liczby milion.</p>",
       "choices": [
@@ -179,7 +180,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "pierwiastki zagnieżdżone",
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Wskaż liczbę równą liczbie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><msqrt><msqrt><msup><mn>2</mn><mn>48</mn></msup></msqrt></msqrt></msqrt></math>.</p>",
       "choices": [
@@ -233,8 +235,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "układ współrzędnych",
-        "zliczanie / metody zliczania"
+        "zliczanie / metody zliczania",
+        "geometria"
       ],
       "prompt_html": "<p>Na papierze w kratkę zaznaczono 16 punktów, tak jak na rysunku, i dwa z nich połączono odcinkiem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. Ile jest odcinków prostopadłych do odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, których końcami są zaznaczone punkty?</p>",
       "choices": [
@@ -263,8 +265,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty",
-        "kąty"
+        "kąty",
+        "trójkąty"
       ],
       "prompt_html": "<p>W kwadracie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> umieszczono trójkąt równoboczny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CEF</mi></math>, którego wierzchołek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math> leży na przekątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math> kwadratu (patrz rysunek). Wskaż trójkąt, w którym różnica miar największego i najmniejszego kąta jest równa 30°.</p>",
       "choices": [
@@ -321,8 +323,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty",
-        "kąty"
+        "kąty",
+        "trójkąty"
       ],
       "prompt_html": "<p>W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> poprowadzono odcinki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AE</mi></math> oraz zaznaczono miary niektórych kątów (patrz rysunek). Suma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>β</mi><mo>+</mo><mi>γ</mi></mrow></math> jest równa</p>",
       "choices": [
@@ -351,8 +353,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty",
-        "kąty"
+        "kąty",
+        "trójkąty"
       ],
       "prompt_html": "<p>Trzy spośród czterech podanych niżej związków zachodzą dla każdego trójkąta równoramiennego, w którym miarę kąta między ramionami oznaczono przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>, a miarę kąta przy podstawie przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math>. Wskaż związek, który <u>nie zachodzi</u>.</p>",
       "choices": [
@@ -379,8 +381,9 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "procenty",
         "trójkąty",
-        "procenty"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Dane są trójkąty równoramienne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>1</mn></msub></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>2</mn></msub></math>. W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>1</mn></msub></math>, którego obwód jest równy 50 cm, ramię ma długość 15 cm. W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>2</mn></msub></math>, o obwodzie 30 cm, podstawa stanowi taki sam procent obwodu, jak w trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>1</mn></msub></math>. W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>2</mn></msub></math> ramię jest</p>",
       "choices": [
@@ -434,7 +437,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "zagadki logiczne",
+        "kalendarz i czas",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>W lipcu pewnego roku było 5 niedziel. W puste pola wpisz właściwe nazwy dni tygodnia. W tym lipcu nie mogło być pięciu ............, ani pięciu ............ .</p>",
@@ -501,7 +504,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach",
+        "działania na potęgach"
       ],
       "prompt_html": "<p>W puste pola wpisz właściwe liczby.</p><ul><li>Do liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>0,000004</mn></msqrt></math> należy dodać ............, aby otrzymać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mn>0,000008</mn><mn>3</mn></mroot></math>.</li><li>Liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>0,00002</mn><mn>2</mn></msup></math> należy pomnożyć przez ............, aby otrzymać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>0,004</mn><mn>3</mn></msup></math>.</li></ul>",
       "choices": [],
@@ -523,9 +527,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "graniastosłupy",
-        "wyrażenia algebraiczne",
-        "zliczanie / metody zliczania"
+        "liczba krawędzi, ścian i wierzchołków",
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Dany jest graniastosłup, którego podstawa jest wielokątem foremnym o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> bokach. Uzupełnij puste pola.</p><ul><li>Wybrano jedną ścianę boczną tego graniastosłupa. Za pomocą wyrażenia algebraicznego zapisz w pustym miejscu, ile jest wszystkich ścian, które nie mają żadnego punktu wspólnego z wybraną ścianą. Takich ścian jest ............ .</li><li>Wybrano jedną krawędź podstawy tego graniastosłupa. Za pomocą wyrażenia algebraicznego zapisz w pustym miejscu, ile jest wszystkich krawędzi, które nie mają żadnego punktu wspólnego z wybraną krawędzią. Takich krawędzi jest ............ .</li></ul>",
       "choices": [],

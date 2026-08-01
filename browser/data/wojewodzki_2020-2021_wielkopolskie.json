@@ -45,8 +45,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną",
-        "potęgi i pierwiastki"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Rozwiązaniem równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><mo>)</mo></mrow><mn>3</mn></msup><mo>=</mo><mo>−</mo><mn>8</mn></math> jest liczba:</p>",
       "choices": [
@@ -73,7 +72,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "proporcjonalność prosta",
+        "podobieństwo i skala",
         "pole i obwód"
       ],
       "prompt_html": "<p>Na planie miasta, narysowanym w skali 1:50000, las jest prostokątem o bokach 4 cm i 5 cm. Wynika stąd, że ten las ma powierzchnię:</p>",
@@ -299,7 +298,6 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kombinatoryka",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Flagę pokazaną na rysunku, należy zszyć z trzech jednakowej szerokości pasów kolorowej tkaniny. Oba zewnętrzne pasy mają być tego samego koloru, a pas znajdujący się między nimi ma być innego koloru. Liczba różnych flag, które można uszyć, mając do dyspozycji tkaniny w 20 kolorach, jest równa:</p>",
@@ -438,7 +436,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Czwarta część sumy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>8</mn><mn>10</mn></msup><mo>+</mo><msup><mn>8</mn><mn>10</mn></msup></math> jest równa:</p>",
       "choices": [
@@ -492,7 +491,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Jeśli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mfrac><mi>a</mi><mrow><mi>y</mi><mo>−</mo><mi>a</mi></mrow></mfrac></math> to:</p>",
       "choices": [
@@ -519,7 +519,6 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "układy równań",
         "zagadki logiczne"
       ],
       "prompt_html": "<p>Czwórka przyjaciół ważyła się parami – każdy z każdym. Ania, jedna z grupy zapisywała wszystkie wyniki i na koniec odczytała następujące liczby: 156 kg, 120 kg, 135 kg, 143 kg, 147 kg, 139 kg.</p><p>Określ prawdziwość zdań, zaznaczając P, jeśli zdanie jest prawdziwe, lub zaznaczając F, jeśli zdanie jest fałszywe.</p>",
@@ -546,8 +545,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "podzielność",
-        "zagadki logiczne"
+        "ułamki"
       ],
       "prompt_html": "<p>Wynikiem działania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>)</mo><mo>(</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>)</mo><mo>(</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>)</mo><mo>(</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>)</mo><mo>·</mo><mo>…</mo><mo>·</mo><mo>(</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>2010</mn></mfrac><mo>)</mo><mo>(</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>2011</mn></mfrac><mo>)</mo></math> jest pewna liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>. Określ prawdziwość zdań, zaznaczając P, jeśli zdanie jest prawdziwe, lub zaznaczając F, jeśli zdanie jest fałszywe.</p>",
       "choices": [
@@ -622,8 +620,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "układy równań",
-        "zagadki logiczne"
+        "układy równań"
       ],
       "prompt_html": "<p>Ogon wielkiej ryby waży 3 kg. Głowa tej ryby waży tyle, ile ogon i trzecia część tułowia, a tułów tyle, ile głowa i ogon. Ile waży ryba?</p>",
       "choices": [],

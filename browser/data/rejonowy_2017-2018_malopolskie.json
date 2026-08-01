@@ -95,8 +95,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty",
-        "kąty"
+        "kąty",
+        "trójkąty"
       ],
       "prompt_html": "<p>Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> zaznaczony na rysunku ma miarę:</p>",
       "choices": [
@@ -215,8 +215,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "reszta z dzielenia",
-        "potęgi i pierwiastki"
+        "ostatnia cyfra / cykliczność potęg",
+        "reszta z dzielenia"
       ],
       "prompt_html": "<p>Suma reszt z dzielenia liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>100</mn></msup></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>99</mn></msup></math> przez 3 jest równa:</p>",
       "choices": [
@@ -295,7 +295,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki"
+        "notacja wykładnicza"
       ],
       "prompt_html": "<p>Rok świetlny (jednostka odległości używana w astronomii) jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9,5</mn><mo>·</mo><msup><mn>10</mn><mn>15</mn></msup></math> m, czyli odległości, jaką pokonuje światło w próżni w ciągu roku ziemskiego. Odległość z Ziemi do gwiazdy Proxima Centauri jest równa 4 latom świetlnym, czyli wynosi:</p>",
       "choices": [
@@ -374,7 +374,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "proporcjonalność prosta",
+        "podobieństwo i skala",
         "pole i obwód"
       ],
       "prompt_html": "<p>Ile hektarów zajmuje w rzeczywistości prostokątna działka, która na planie w skali <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>:</mo><mn>2000</mn></math> ma wymiary 75 mm i 50 mm?</p>",
@@ -414,6 +414,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
+        "liczba krawędzi, ścian i wierzchołków",
         "graniastosłupy"
       ],
       "prompt_html": "<p>Z drutu o długości 42 cm zbudowano szkielet graniastosłupa prawidłowego o krawędzi podstawy 1,5 cm i krawędzi bocznej 4 cm. Podstawą tego graniastosłupa jest:</p>",
@@ -454,7 +455,7 @@
       "points": 2,
       "topics": [
         "trójkąty",
-        "kombinatoryka"
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Wybierając dowolne trzy spośród sześciu danych odcinków o długościach 1 cm, 2 cm, 3 cm, 2015 cm, 2016 cm i 2017 cm, można z nich zbudować najwyżej:</p>",
       "choices": [
@@ -532,8 +533,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "równania z jedną zmienną",
-        "podzielność"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Dzielna jest 5 razy większa od dzielnika, a dzielnik jest 8 razy większy od ilorazu. Zatem dzielna jest liczbą:</p>",
       "choices": [
@@ -572,7 +572,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach",
+        "wyłączanie czynnika przed znak pierwiastka"
       ],
       "prompt_html": "<p>Trójkąty w przedstawionym na rysunku sześciokącie foremnym należy wypełnić liczbami tak, aby iloczyn wszystkich tych liczb był liczbą całkowitą.</p><p>Zatem w puste pole należy wpisać liczbę:</p>",
       "choices": [
@@ -614,8 +615,8 @@
       "points": 5,
       "topics": [
         "czworokąty",
-        "pole i obwód",
-        "procenty"
+        "procenty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W trapezie równoramiennym przekątna dzieli kąt ostry na połowy. Dłuższa podstawa trapezu ma długość 11 cm, jego obwód wynosi 26 cm, a pole 32 cm². Jakim procentem obwodu tego trapezu jest długość jego wysokości? Zapisz obliczenia.</p>",
       "choices": [],
@@ -661,7 +662,7 @@
       "points": 5,
       "topics": [
         "równania z jedną zmienną",
-        "zagadki logiczne"
+        "ułamki"
       ],
       "prompt_html": "<p>Troje dzieci chciało udekorować cukierkami choinki w swoich pokojach. Mama postawiła na stole papierową torbę z cukierkami dla tych trojga dzieci. Podeszło do stołu pierwsze dziecko i wzięło z torby trzecią część wszystkich cukierków. Następnie drugie dziecko wzięło trzecią część cukierków, które zostały w torbie. W końcu trzecie dziecko również wzięło trzecią część reszty pozostałych cukierków. W efekcie w torbie zostały 24 cukierki. Jak mama powinna podzielić pozostałe w torbie cukierki, aby każde dziecko otrzymało sprawiedliwie po jednej trzeciej wszystkich cukierków? Zapisz obliczenia.</p>",
       "choices": [],

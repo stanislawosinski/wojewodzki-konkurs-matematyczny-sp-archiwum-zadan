@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "ostatnia cyfra / cykliczność potęg",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p><p>Cyfrą jedności liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>2020</mn></msup><mo>+</mo><msup><mn>4</mn><mn>2020</mn></msup><mo>+</mo><msup><mn>5</mn><mn>2020</mn></msup></math> jest</p>",
@@ -105,7 +105,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Ile jest równa wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mn>9</mn><mn>6</mn></msup><mo>+</mo><msup><mn>81</mn><mn>2</mn></msup><mo>·</mo><msup><mn>9</mn><mn>3</mn></msup></mrow><mrow><msup><mn>3</mn><mn>10</mn></msup><mo>−</mo><msup><mn>9</mn><mn>9</mn></msup><mo>+</mo><msup><mn>27</mn><mn>6</mn></msup></mrow></mfrac></math>? Wybierz właściwą odpowiedź spośród podanych.</p>",
       "choices": [
@@ -134,8 +135,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zliczanie / metody zliczania",
-        "zagadki logiczne"
+        "zbiory / zasada włączeń i wyłączeń"
       ],
       "prompt_html": "<p>Mama dostała na urodziny bukiet złożony z 20 kwiatów, wśród których były tylko róże i goździki w dwóch kolorach: białym i czerwonym. W bukiecie było 14 goździków i 11 kwiatów w kolorze czerwonym. Jaka może być najmniejsza liczba białych goździków w tym bukiecie? Wybierz właściwą odpowiedź spośród podanych.</p>",
       "choices": [
@@ -285,8 +285,7 @@
       "points": 1,
       "topics": [
         "czworokąty",
-        "kąty",
-        "zagadki logiczne"
+        "kąty"
       ],
       "prompt_html": "<p>Każda przekątna czworokąta wypukłego wyznacza z jego bokami cztery kąty. Ile kątów prostych może być wśród tak wyznaczonych kątów? Wybierz właściwą odpowiedź spośród podanych.</p>",
       "choices": [
@@ -366,7 +365,8 @@
       "points": 4,
       "topics": [
         "podzielność",
-        "dowodzenie / dowody"
+        "dowodzenie / dowody",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Liczby lustrzane to takie dwie liczby, które są utworzone z tych samych cyfr zapisanych odwrotnej kolejności, np.: 124 i 421, 67 i 76, 3241 i 1423. Uzasadnij, że liczba czterocyfrowa utworzona przez dopisanie do liczby dwucyfrowej jej lustrzanego odbicia jest podzielna przez 11.</p>",
       "choices": [],
@@ -390,8 +390,9 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "równania z jedną zmienną",
-        "wzory skróconego mnożenia"
+        "wzory skróconego mnożenia",
+        "działania na potęgach",
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Rozwiąż równanie:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mi>x</mi><mo>+</mo><msup><mn>2</mn><mn>2019</mn></msup><mo>)</mo></mrow><mn>2</mn></msup><mo>−</mo><msup><mrow><mo>(</mo><mi>x</mi><mo>−</mo><msup><mn>2</mn><mn>2019</mn></msup><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mn>2</mn><mn>2020</mn></msup></math></p>",
       "choices": [],
@@ -494,7 +495,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "bryły"
+        "bryły obrotowe"
       ],
       "prompt_html": "<p>Z niedokręconego kranu w ciągu minuty wycieka 20 kropel wody. Oblicz, w ciągu jakiego czasu, cieknąca z kranu woda, zapełni naczynie w kształcie walca o średnicy 6 cm i wysokości 10 cm. Przyjmij, że każda kropla ma kształt kuli o średnicy 6 mm.</p>",
       "choices": [],

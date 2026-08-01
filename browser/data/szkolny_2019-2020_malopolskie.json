@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "podzielność"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>W trzech pudełkach: białym, zielonym i brązowym jest pewna liczba kulek. Z zielonego przełożono do brązowego 2 kulki. Następnie z brązowego przełożono do białego 6 kulek. Okazało się wówczas, że w każdym pudełku jest 25 kulek. Wynika z tego, że liczba kulek znajdujących się na początku w pudełku białym jest liczbą:</p>",
       "choices": [
@@ -96,8 +96,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "podzielność",
-        "zliczanie / metody zliczania"
+        "podzielność"
       ],
       "prompt_html": "<p>Do liczby 16 dopisz jedną cyfrę na końcu lub na początku, lub w środku, tak aby otrzymana liczba trzycyfrowa była podzielna przez 12. Na ile sposobów można to wykonać? Rozważ wszystkie możliwości.</p>",
       "choices": [
@@ -136,7 +135,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki"
+        "notacja wykładnicza",
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Przeciętna kostka lodu ma objętość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2,5</mn><mtext> </mtext><msup><mtext>cm</mtext><mn>3</mn></msup></math>. Ile takich kostek ma łączną objętość równą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><msup><mn>10</mn><mn>6</mn></msup><mtext> </mtext><msup><mtext>m</mtext><mn>3</mn></msup></math>?</p>",
       "choices": [
@@ -175,7 +175,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "zliczanie / metody zliczania"
+        "zagadki logiczne"
       ],
       "prompt_html": "<p>Sznurek o długości 15 dm został podzielony na możliwie największą liczbę różnych kawałków, z których każdy ma długość wyrażoną całkowitą liczbą decymetrów. Ilu cięć sznurka dokonano?</p>",
       "choices": [
@@ -254,7 +254,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki"
+        "porównywanie potęg i pierwiastków",
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Dane są liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>48</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>9</mn><mn>24</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>8</mn><mn>16</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn><mo>·</mo><msup><mn>16</mn><mn>11</mn></msup></math>. Wskaż zdanie prawdziwe.</p>",
       "choices": [
@@ -293,6 +294,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
+        "liczby pierwsze",
         "podzielność"
       ],
       "prompt_html": "<p>Dwie liczby pierwsze, których różnica wynosi 2 nazywamy liczbami bliźniaczymi. Ostatnimi cyframi co najmniej dwucyfrowych liczb bliźniaczych nie mogą być:</p>",
@@ -332,7 +334,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "równania z jedną zmienną"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Jeżeli zachodzą równości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi><mo>−</mo><mn>1</mn><mo>=</mo><mi>n</mi><mo>+</mo><mn>2</mn><mo>=</mo><mi>p</mi><mo>−</mo><mn>5</mn><mo>=</mo><mi>r</mi><mo>+</mo><mn>4</mn><mo>=</mo><mi>s</mi><mo>−</mo><mn>3</mn></math>, to największą liczbą spośród <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi></math> jest:</p>",
       "choices": [
@@ -411,8 +413,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "zagadki logiczne",
-        "zliczanie / metody zliczania"
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Zegarek elektroniczny wskazuje godziny, minuty i sekundy. Jest właśnie 19:58:47. W zapisie tej godziny wszystkie cyfry są różne. Po ilu sekundach po raz pierwszy powtórzy się podobna sytuacja, tzn. wszystkie cyfry będą różne?</p>",
       "choices": [
@@ -451,7 +452,8 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "ułamki"
+        "ułamki",
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mfrac><mn>2</mn><mn>119</mn></mfrac><mo>·</mo><mn>2</mn><mfrac><mn>109</mn><mn>110</mn></mfrac><mo>−</mo><mn>3</mn><mfrac><mn>1</mn><mn>119</mn></mfrac><mo>·</mo><mn>1</mn><mfrac><mn>109</mn><mn>110</mn></mfrac><mo>−</mo><mn>2</mn><mfrac><mn>1</mn><mn>119</mn></mfrac><mo>·</mo><mn>3</mn><mfrac><mn>109</mn><mn>110</mn></mfrac></math> jest równa:</p>",
       "choices": [
@@ -629,7 +631,8 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki"
+        "wyłączanie czynnika przed znak pierwiastka",
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>W zbiorze liczb rzeczywistych definiujemy działanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>◊</mo><mi>b</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mi>a</mi><mo>−</mo><mi>b</mi></mrow><mn>2</mn></mfrac></math>. Wartość bezwzględna różnicy liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt><mo>◊</mo><msqrt><mn>48</mn></msqrt></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>)</mo><mo>◊</mo><msqrt><mn>12</mn></msqrt></math> jest równa:</p>",
       "choices": [
@@ -672,8 +675,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "proporcjonalność odwrotna",
-        "równania z jedną zmienną"
+        "proporcjonalność odwrotna"
       ],
       "prompt_html": "<p>Jedna ekipa budowlana może wykonać pewną pracę w ciągu 20 dni, a druga – w ciągu 25 dni. Do pracy oddelegowano <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> pierwszej ekipy i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>8</mn></mfrac></math> drugiej. W ciągu ilu dni będzie wykonana cała praca?</p>",
       "choices": [

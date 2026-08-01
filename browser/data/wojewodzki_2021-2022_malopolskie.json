@@ -44,7 +44,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "procenty",
+        "stężenie procentowe / mieszaniny",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>W celu otrzymania 6 kilogramów 6-procentowej solanki laborant zmieszał solankę 4-procentową i solankę 20-procentową. Ilu kilogramów solanki 20-procentowej użył, by otrzymać szukany roztwór?</p>",
@@ -99,7 +99,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "notacja wykładnicza"
       ],
       "prompt_html": "<p>Ile cyfr ma iloczyn otrzymany po wykonaniu działania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>40</mn><mn>5</mn></msup><mo>·</mo><msup><mn>50</mn><mn>8</mn></msup></math>?</p>",
       "choices": [
@@ -210,8 +211,8 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "trójkąty",
         "dwusieczna kąta / symetralna odcinka",
+        "trójkąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>Dany jest trójkąt prostokątny ABC, w którym kąt ABC ma miarę 60°. Dwusieczna kąta ABC przecina bok AC w punkcie P. Jaki jest stosunek pola trójkąta ABP do pola trójkąta PBC?</p>",
@@ -240,8 +241,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "ostrosłupy",
-        "potęgi i pierwiastki"
+        "ostrosłupy"
       ],
       "prompt_html": "<p>Jaka jest objętość ostrosłupa prawidłowego czworokątnego o wszystkich krawędziach długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2</mn></msqrt></math> cm?</p>",
       "choices": [
@@ -269,8 +269,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "prawdopodobieństwo",
-        "zliczanie / metody zliczania"
+        "prawdopodobieństwo"
       ],
       "prompt_html": "<p>Uczeń rzuca dwiema różnymi sześciennymi kostkami do gry, których ściany ponumerowane są liczbami od 1 do 6, i mnoży wylosowane liczby oczek. Jakie jest prawdopodobieństwo, że otrzymany iloczyn jest kwadratem liczby naturalnej?</p>",
       "choices": [
@@ -326,8 +325,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "graniastosłupy",
-        "potęgi i pierwiastki"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Suma długości wszystkich krawędzi graniastosłupa prostego o podstawie będącej trójkątem prostokątnym równoramiennym wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>+</mo><mn>10</mn><msqrt><mn>2</mn></msqrt></math>. Jaka jest objętość tego graniastosłupa, jeżeli wiadomo, że dokładnie jedna z jego ścian jest kwadratem?</p>",
       "choices": [
@@ -356,7 +354,6 @@
       "points": 3,
       "topics": [
         "dwusieczna kąta / symetralna odcinka",
-        "geometria",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Na płaszczyźnie dane są trzy niewspółliniowe punkty A, B i C. Przeczytaj stwierdzenia podane poniżej.</p><ol type=\"I\"><li>Wysokość trójkąta ABC wychodząca z wierzchołka C jest równoległa do symetralnej odcinka AB.</li><li>Jeżeli D jest punktem przecięcia symetralnej odcinka AB i symetralnej odcinka AC, to długości odcinków AD, BD i CD są równe.</li><li>Każdy punkt nieleżący na symetralnej odcinka AB jest albo bliżej punktu A niż punktu B albo bliżej punktu B niż punktu A.</li></ol><p>Które z powyższych stwierdzeń są prawdziwe?</p>",
@@ -386,8 +383,9 @@
       "points": 8,
       "topics": [
         "podzielność",
+        "równania z jedną zmienną",
         "dowodzenie / dowody",
-        "zliczanie / metody zliczania"
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>W tym zadaniu wyrażenie „liczby p, q i r” należy rozumieć jako trzy kolejne liczby całkowite p, q i r, wśród których najmniejsza jest liczba p i jest ona liczbą parzystą.</p><p><strong>a)</strong> (3p) Odpowiedz na pytania I, II i III. Wpisz odpowiedzi w miejsce wyznaczone pod pytaniami.</p><ol type=\"I\"><li>Ile jest liczb trzycyfrowych, których cyfrą setek, cyfrą dziesiątek i cyfrą jedności są odpowiednio liczby p, q i r?</li><li>Jaka jest najmniejsza wartość liczby p, dla której liczby p, q i r są złożone?</li><li>Jaka jest najmniejsza liczba naturalna d, dla której istnieją takie liczby p, q i r, że każda z nich daje resztę różną od 0 przy dzieleniu przez d?</li></ol><p><strong>b)</strong> (2p) Uzasadnij, dlaczego nie może istnieć trójkąt prostokątny, w którym liczby p, q i r są odpowiednio długościami jego boków.</p><p><strong>c)</strong> (3p) Znajdź takie liczby p, q i r, aby kwadrat liczby q był równy iloczynowi liczb p i r powiększonemu o liczbę q. Zapisz obliczenia.</p>",
       "choices": [],
@@ -410,7 +408,6 @@
       "points": 10,
       "topics": [
         "sześciokąty foremne",
-        "graniastosłupy",
         "wyrażenia algebraiczne",
         "dowodzenie / dowody"
       ],
@@ -440,7 +437,6 @@
         "trójkąty",
         "ostrosłupy",
         "wyrażenia algebraiczne",
-        "potęgi i pierwiastki",
         "pole i obwód"
       ],
       "prompt_html": "<p>Wzór Herona pozwala obliczyć pole powierzchni <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mo>△</mo></msub></math> trójkąta o bokach długości a, b oraz c. Niech p oznacza połowę obwodu trójkąta. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mo>△</mo></msub><mo>=</mo><msqrt><mrow><mi>p</mi><mo>(</mo><mi>p</mi><mo>−</mo><mi>a</mi><mo>)</mo><mo>(</mo><mi>p</mi><mo>−</mo><mi>b</mi><mo>)</mo><mo>(</mo><mi>p</mi><mo>−</mo><mi>c</mi><mo>)</mo></mrow></msqrt></math>.</p><p><strong>a)</strong> (2p) Użyj wzoru Herona, by obliczyć pole trójkąta o bokach długości 5, 7 i 8. Zapisz obliczenia.</p><p><strong>b)</strong> (5p) Dany jest ostrosłup czworokątny ABCDE, pokazany na rysunku poniżej. Podstawę stanowi trapez równoramienny ABCD, w którym AB ∥ CD, |AB| = 6, |CD| = 4, |BC| = |AD| = 8. Ściana ABE oraz ściana CDE to trójkąty równoboczne. Oblicz pole powierzchni całkowitej ostrosłupa ABCDE. Zapisz obliczenia.</p><p><strong>c)</strong> (3p) Zapisz wyrażenie algebraiczne opisujące długość boku trójkąta równobocznego o obwodzie równym 2p. Następnie wyznacz wzór na pole trójkąta równobocznego o obwodzie równym 2p.</p>",

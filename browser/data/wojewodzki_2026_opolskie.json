@@ -87,7 +87,9 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki"
+        "pierwiastki zagnieżdżone",
+        "wzory skróconego mnożenia",
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Prawdą jest, że zachodzi równość:</p>",
       "choices": [
@@ -122,9 +124,8 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "zliczanie / metody zliczania",
-        "kombinatoryka",
-        "podzielność"
+        "zbiory / zasada włączeń i wyłączeń",
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Oceń, czy zdanie jest prawdziwe.</p>",
       "choices": [
@@ -159,7 +160,8 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "ostrosłupy"
+        "ostrosłupy",
+        "siatki brył"
       ],
       "prompt_html": "<p>Siatka ostrosłupa jest trójkątem równobocznym o boku długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>24</mn><mspace width=\"0.15em\"></mspace><mi>cm</mi></mrow></math>.</p>",
       "choices": [
@@ -194,7 +196,7 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "procenty"
+        "stężenie procentowe / mieszaniny"
       ],
       "prompt_html": "<p>Jabłka zawierają przeciętnie 86% wody. Po wstępnym suszeniu odparowała połowa wody. Jaki procent stanowi woda w tak podsuszonych jabłkach?</p>",
       "choices": [],
@@ -309,8 +311,8 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "równania z jedną zmienną",
-        "graniastosłupy"
+        "graniastosłupy",
+        "proporcjonalność prosta"
       ],
       "prompt_html": "<p>Basen ma wymiary 4 m długości, 2,5 m szerokości i 1,5 m głębokości. Całkowite napełnienie pustego basenu trwa 10 godzin, a opróżnienie pełnego – 8 godzin. Obecnie basen jest napełniony do połowy. Zaczęto basen dopełniać wodą, ale przypadkowo otwarto również wylot. Po jakim czasie basen został opróżniony z wody? Zamknięto wylot i ponownie zaczęto napełniać basen. Ile potrzeba czasu, aby poziom wody podniósł się o 1 cm? Gdy basen został napełniony do połowy, podłączono dodatkowy wąż (napełnia cały basen w 15 godz.). O ile czasu to przyspieszy napełnienie basenu?</p>",
       "choices": [],

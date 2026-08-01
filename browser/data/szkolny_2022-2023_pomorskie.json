@@ -41,7 +41,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "proporcjonalność prosta"
+        "podobieństwo i skala"
       ],
       "prompt_html": "<p>Ala brała udział w projekcie z matematyki, w którym wykonała dwa plany swojego prostokątnego pokoju. Pierwszy plan wykonała w skali <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>:</mo><mn>20</mn></mrow></math>, a drugi w skali <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>:</mo><mn>50</mn></mrow></math>. Na planie w skali <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>:</mo><mn>20</mn></mrow></math> krótszy bok prostokąta ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mtext>&#160;cm</mtext></mrow></math>. Oblicz, jaką długość ma ten bok na planie w skali <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>:</mo><mn>50</mn></mrow></math>.</p>",
       "choices": [],
@@ -85,8 +85,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "czworokąty",
         "wyrażenia algebraiczne",
+        "czworokąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>Dany jest prostokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> o obwodzie równym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>6</mn><mi>y</mi></mrow></math> oraz boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>3</mn><mi>y</mi><mo>−</mo><mi>x</mi></mrow></math>. Wyznacz pole prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> za pomocą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>. Wynik zapisz w postaci sumy algebraicznej.</p>",
@@ -109,13 +109,9 @@
       "type": "true_false",
       "points": 5,
       "topics": [
-        "potęgi i pierwiastki",
-        "procenty",
-        "prędkość / droga / czas",
-        "trójkąty",
-        "czworokąty",
-        "pole i obwód",
-        "ułamki"
+        "zmiany procentowe",
+        "ułamki",
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>Oceń prawdziwość poniższych zdań. Otocz kółkiem P, jeśli zdanie jest prawdziwe lub F, jeśli zdanie jest fałszywe.</p>",
       "choices": [
@@ -158,7 +154,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "zagadki logiczne"
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Zegar elektroniczny wskazuje godzinę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>03</mn><mo>:</mo><mn>05</mn></mrow></math>. Oblicz, ile czasu upłynie, zanim po raz pierwszy na tym zegarze pojawią się te same cztery cyfry, czyli cyfry <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0</mn><mo>,</mo><mn>0</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>5</mn></mrow></math>.</p>",
       "choices": [],
@@ -180,8 +176,9 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "trójkąty",
-        "dwusieczna kąta / symetralna odcinka"
+        "dwusieczna kąta / symetralna odcinka",
+        "kąty",
+        "trójkąty"
       ],
       "prompt_html": "<p>W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> dwusieczne kątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACB</mi></math> przecinają się w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>. Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BDC</mi></math> jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mo>°</mo></mrow></math>. Oblicz miarę kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BAC</mi></math>.</p>",
       "choices": [],
@@ -203,7 +200,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Połącz w pary napisy mówiące o obniżce o tę samą liczbę procent.</p><ul><li><strong>I.</strong> Obniżka o 10%, a następnie o 40%</li><li><strong>II.</strong> Obniżka o 20%, a następnie o 30%</li></ul><ul><li><strong>A.</strong> łączna obniżka o 44%</li><li><strong>B.</strong> łączna obniżka o 46%</li><li><strong>C.</strong> łączna obniżka o 50%</li><li><strong>D.</strong> łączna obniżka o 54%</li><li><strong>E.</strong> łączna obniżka o 56%</li></ul><p>Pary to: I i …, II i …</p>",
       "choices": [],
@@ -226,11 +223,10 @@
       "type": "closed_single",
       "points": 4,
       "topics": [
-        "potęgi i pierwiastki",
-        "równania z jedną zmienną",
-        "zliczanie / metody zliczania",
-        "trójkąty",
-        "pole i obwód"
+        "ostatnia cyfra / cykliczność potęg",
+        "działania na potęgach",
+        "wyłączanie wspólnego czynnika przed nawias",
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>W zadaniach zamkniętych dokładnie jedna odpowiedź jest poprawna. Wskaż tę odpowiedź, otaczając ją kółkiem.</p><p><strong>9.1</strong> Rozwiązaniem równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2</mn><mn>2023</mn></msup><mo>·</mo><mi>x</mi><mo>=</mo><msup><mn>2</mn><mn>2023</mn></msup><mo>−</mo><msup><mn>2</mn><mn>2022</mn></msup></mrow></math> jest:</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math></li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><msup><mn>2</mn><mn>2022</mn></msup></mrow></math></li></ul><p><strong>9.2</strong> Suma cyfr liczby sześciocyfrowej jest równa 2. Ile jest takich liczb?</p><ul><li>A. 2</li><li>B. 4</li><li>C. 6</li><li>D. 12</li></ul><p><strong>9.3</strong> Cyfrą jedności liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>7</mn><mn>87</mn></msup><mo>−</mo><mn>2</mn></mrow></math> jest:</p><ul><li>A. 1</li><li>B. 5</li><li>C. 7</li><li>D. 9</li></ul><p><strong>9.4</strong> Ile trójkątów równoramiennych o polu równym 1 ma bok długości 2?</p><ul><li>A. 1</li><li>B. 2</li><li>C. 3</li><li>D. 4</li></ul>",
       "choices": [],

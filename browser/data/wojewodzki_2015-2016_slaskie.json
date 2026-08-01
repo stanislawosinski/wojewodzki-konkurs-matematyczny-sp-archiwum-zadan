@@ -17,7 +17,8 @@
       "type": "open",
       "points": 6,
       "topics": [
-        "zagadki logiczne"
+        "ułamki",
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>W puste, białe pola „liczbowej krzyżówki” wstaw liczby tak, aby wszystkie działania były poprawne.</p>",
       "choices": [],
@@ -41,7 +42,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Niedźwiedź, który na początku lata ważył 312 kg przed zimą zgromadził pod skórą zapas tłuszczu, powiększając aż o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>33</mn><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>%</mo></math> masę swego ciała. Ile kilogramów waży teraz niedźwiedź?</p>",
       "choices": [
@@ -231,7 +232,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Do pewnej liczby trzycyfrowej dopisano w niezmienionej kolejności te same cyfry, tworząc liczbę sześciocyfrową. Ile razy liczba ta jest większa od liczby początkowej?</p>",
       "choices": [
@@ -285,7 +286,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "proporcjonalność prosta"
+        "proporcjonalność prosta",
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Stary zegar spóźnia się 8 minut na dobę. Aby rano o godzinie 7.00 wskazywał dokładną godzinę, trzeba wieczorem o godzinie 22.00 ustawić go tak, aby wskazywał czas późniejszy o</p>",
       "choices": [
@@ -339,7 +341,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "stężenie procentowe / mieszaniny"
       ],
       "prompt_html": "<p>Paweł kupił napój, który powstaje przez dodanie do soku wody. Dodanej wody jest w napoju cztery razy więcej niż soku. Jaki procent napoju stanowi dodana woda?</p>",
       "choices": [
@@ -366,7 +368,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Garnitur, który kosztował 800 zł, przeceniono najpierw o 10 %, a następnie jeszcze o 5 %. Cena garnituru po obu tych obniżkach wynosi</p>",
       "choices": [
@@ -393,7 +395,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy"
+        "liczba krawędzi, ścian i wierzchołków"
       ],
       "prompt_html": "<p>Suma liczby ścian, krawędzi i wierzchołków pewnego graniastosłupa jest równa 44. Podstawą tego graniastosłupa jest</p>",
       "choices": [
@@ -420,7 +422,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> jest o 20% większa od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>. Wynika z tego, że</p>",
       "choices": [
@@ -476,8 +478,8 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "graniastosłupy",
-        "ułamki"
+        "ułamki",
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Do zbiornika w kształcie prostopadłościanu wlewano wodę. Najpierw napełniono <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>5</mn></mfrac></math> zbiornika, potem dolano jeszcze <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> pozostałej objętości tego zbiornika. W sumie wlano 700 litrów wody.</p><p>Oceń, czy podane zdania są prawdziwe czy fałszywe. Zaznacz właściwą odpowiedź.</p>",
       "choices": [
@@ -598,8 +600,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "trójkąty",
-        "kąty"
+        "kąty",
+        "trójkąty"
       ],
       "prompt_html": "<p>W trójkącie równobocznym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> przez wierzchołek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> poprowadzono prostą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math>, przecinającą bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>, a przez wierzchołek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> – prostą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi></math>, równoległą do boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math>. Proste <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi></math> przecinają się w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math>. Wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BF</mi></math> trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABE</mi></math> poprowadzona z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> wynosi 3 cm, a miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BAD</mi></math> jest równa 15°. Wykonaj odpowiedni rysunek. Oblicz miarę kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BED</mi></math> oraz długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EF</mi></math>.</p>",
       "choices": [],

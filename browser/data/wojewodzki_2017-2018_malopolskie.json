@@ -56,8 +56,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
-        "szacowanie (zamiast obliczania)"
+        "porównywanie potęg i pierwiastków"
       ],
       "prompt_html": "<p>Ile spośród liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>5</mn></msqrt><mo>,</mo><msqrt><mn>27</mn></msqrt><mo>,</mo><mroot><mn>33</mn><mn>3</mn></mroot><mo>,</mo><mroot><mn>64</mn><mn>3</mn></mroot></math> jest nie mniejszych niż 3,(9)?</p>",
       "choices": [
@@ -96,8 +95,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "proporcjonalność prosta",
-        "pole i obwód"
+        "podobieństwo i skala",
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Na mapie w skali <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>:</mo><mn>2500</mn></math> las zajmuje obszar o polu równym 20 cm². Jakie jest pole obszaru, który zajmuje ten las w rzeczywistości?</p>",
       "choices": [
@@ -136,7 +135,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mn>12</mn><mn>20</mn></msup><mo>·</mo><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>)</mo></mrow><mn>20</mn></msup><mo>·</mo><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>)</mo></mrow><mn>8</mn></msup></mrow><mrow><msup><mrow><mo>(</mo><mo>−</mo><mn>7,5</mn><mo>)</mo></mrow><mn>4</mn></msup><mo>:</mo><msup><mrow><mo>(</mo><mo>−</mo><mn>2,5</mn><mo>)</mo></mrow><mn>4</mn></msup><mo>·</mo><msup><mn>9</mn><mn>3</mn></msup></mrow></mfrac></math> jest równe:</p>",
       "choices": [
@@ -214,6 +213,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "kalendarz i czas",
         "proporcjonalność prosta"
       ],
       "prompt_html": "<p>Stary zegar spóźnia się 9 minut na dobę. Aby następnego ranka o godzinie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>6</mn><mn>00</mn></msup></math> wskazał dokładną godzinę, trzeba go o godzinie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>22</mn><mn>00</mn></msup></math> ustawić punktualnie, a następnie przestawić wskazówkę minutową do przodu o:</p>",
@@ -333,7 +333,7 @@
       "points": 2,
       "topics": [
         "trójkąty",
-        "geometria"
+        "kąty"
       ],
       "prompt_html": "<p>W trójkącie ABC kąt BAC ma miarę 90°, a kąt ACB 60°. Punkt D jest takim punktem leżącym na przeciwprostokątnej tego trójkąta, że odcinki AD i AC są tej samej długości. Wynika z tego, że trójkąt ABD jest:</p>",
       "choices": [
@@ -372,7 +372,6 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "zagadki logiczne",
         "układy równań"
       ],
       "prompt_html": "<p>Chłopiec mówi: <em>„Mam dwa razy więcej sióstr niż braci”</em>. Jego siostra powiada: <em>„Mam tyle samo sióstr co braci”</em>. Zatem w tej rodzinie:</p>",
@@ -451,8 +450,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "zliczanie / metody zliczania",
-        "geometria"
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>O ile mniej kwadratów niż trójkątów znajduje się na rysunku?</p>",
       "choices": [
@@ -493,7 +491,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "zagadki logiczne"
+        "układ współrzędnych"
       ],
       "prompt_html": "<p>Punkty Z, I, M, A leżą na prostej w pewnym porządku. Wiadomo, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>ZI</mi><mo>|</mo><mo>=</mo><mn>13</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>IM</mi><mo>|</mo><mo>=</mo><mn>11</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>MA</mi><mo>|</mo><mo>=</mo><mn>14</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>AZ</mi><mo>|</mo><mo>=</mo><mn>12</mn></math>. Jaka jest odległość pomiędzy skrajnie położonymi punktami?</p>",
       "choices": [
@@ -640,7 +638,6 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "proporcjonalność odwrotna",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Trzeba pomalować 600 pisanek wielkanocnych. Pierwszy pracownik może samodzielnie wykonać całą pracę w ciągu 20 godzin, drugi w ciągu 24 godzin, a trzeci w ciągu 30 godzin. Po czterech godzinach wspólnej pracy drugi pracownik opuścił stanowisko pracy z powodu choroby. Ile godzin musieli jeszcze razem pracować pozostali dwaj pracownicy, aby dokończyć pracę? <u>Zapisz tok swojego rozumowania</u>.</p>",

@@ -17,7 +17,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> są dodatnie. Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest o 200% większa od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> jest o 100% większa od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> jest o 100% większa od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>. Oblicz, o ile procent liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest mniejsza od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math>.</p>",
       "choices": [],
@@ -39,7 +39,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "zagadki logiczne"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Dwie beczki zawierają razem 240 litrów wody. Gdyby z pierwszej beczki przelać do drugiej tyle wody, żeby zawartość drugiej beczki podwoiła się, a następnie z drugiej beczki przelać do pierwszej tyle wody, żeby zawartość pierwszej beczki podwoiła się, to w obu beczkach byłoby tyle samo wody. Oblicz, ile litrów wody jest w każdej z tych beczek.</p>",
       "choices": [],
@@ -62,7 +62,7 @@
       "points": 3,
       "topics": [
         "trójkąty",
-        "geometria"
+        "pole i obwód"
       ],
       "prompt_html": "<p>W trójkącie ostrokątnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> poprowadzono dwie wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AE</mi></math>. Wiadomo, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>DB</mi><mo>|</mo><mo>=</mo><mn>2,5</mn></mrow></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>CD</mi><mo>|</mo><mo>=</mo><mn>5</mn></mrow></math> cm oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AE</mi><mo>|</mo><mo>=</mo><mn>4</mn></mrow></math> cm. Oblicz długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EB</mi></math>.</p>",
       "choices": [],
@@ -84,6 +84,7 @@
       "type": "open",
       "points": 1,
       "topics": [
+        "kąty",
         "trójkąty",
         "dowodzenie / dowody"
       ],
@@ -107,8 +108,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "układy równań",
-        "reszta z dzielenia"
+        "układy równań"
       ],
       "prompt_html": "<p>Suma dwóch liczb naturalnych wynosi 64. Przy dzieleniu większej przez mniejszą otrzymujemy iloraz 3 i resztę 4. Znajdź te liczby.</p>",
       "choices": [],
@@ -130,11 +130,9 @@
       "type": "closed_single",
       "points": 4,
       "topics": [
-        "trójkąty",
-        "pole i obwód",
-        "równania z jedną zmienną",
+        "ułamki",
         "reszta z dzielenia",
-        "ułamki"
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>W zadaniach zamkniętych dokładnie jedna odpowiedź jest poprawna. Zaznacz ją.</p><p><strong>6.1</strong> Długości dwóch boków trójkąta wynoszą 4 oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math>, a obwód tego trójkąta jest liczbą naturalną. Trzeci bok tego trójkąta może mieć maksymalnie długość równą:</p><ul><li>A. 9</li><li>B. 8,5</li><li>C. 7,5</li><li>D. 9,5</li></ul><p><strong>6.2</strong> Kwadrat liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> jest o 1 większy od kwadratu liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> pomniejszonej o 1. Zatem</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>0</mn></mrow></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0</mn><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mn>1</mn></mrow></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>1</mn></mrow></math></li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>&gt;</mo><mn>1</mn></mrow></math></li></ul><p><strong>6.3</strong> Jeżeli w wyniku podzielenia liczby całkowitej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> przez liczbę 5 otrzymamy resztę 3, to dzieląc liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>a</mi></mrow></math> przez 10 otrzymamy resztę:</p><ul><li>A. 2</li><li>B. 3</li><li>C. 4</li><li>D. 6</li></ul><p><strong>6.4</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mrow><mn>2</mn><mo>·</mo><mn>4</mn></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>4</mn><mo>·</mo><mn>6</mn></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>6</mn><mo>·</mo><mn>8</mn></mrow></mfrac><mo>+</mo><mo>⋯</mo><mo>+</mo><mfrac><mn>1</mn><mrow><mn>48</mn><mo>·</mo><mn>50</mn></mrow></mfrac><mo>=</mo></mrow></math></p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>48</mn><mn>100</mn></mfrac></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>26</mn><mn>100</mn></mfrac></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>13</mn><mn>100</mn></mfrac></math></li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>24</mn><mn>100</mn></mfrac></math></li></ul>",
       "choices": [],
@@ -157,11 +155,9 @@
       "type": "true_false",
       "points": 5,
       "topics": [
-        "NWW / NWD",
         "trójkąty",
-        "pole i obwód",
         "podzielność",
-        "zliczanie / metody zliczania"
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>Oceń prawdziwość poniższych zdań. Otocz kółkiem P, jeśli zdanie jest prawdziwe lub F, jeśli zdanie jest fałszywe.</p>",
       "choices": [

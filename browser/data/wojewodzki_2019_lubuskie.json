@@ -44,7 +44,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "ostatnia cyfra / cykliczność potęg",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Ostatnią cyfrą liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>2019</mn></msup></math> jest</p>",
@@ -99,7 +99,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "notacja wykładnicza",
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Tysiąc miliardów po tysiąc ziarenek piasku – ile to ziarenek?</p>",
       "choices": [
@@ -211,7 +212,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Sprzedawca podniósł cenę kurtki o 10%, a następnie jeszcze o 5%. Stwierdziwszy jednak, że sprzedaż maleje, obniżył cenę najpierw o 5%, a potem o 10%. Co możesz powiedzieć o końcowej cenie towaru w stosunku do ceny wyjściowej?</p>",
       "choices": [
@@ -265,7 +266,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach",
+        "działania na potęgach"
       ],
       "prompt_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><msup><mn>2</mn><mn>100</mn></msup></msqrt></math> to</p>",
       "choices": [
@@ -319,7 +321,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kombinatoryka",
+        "zliczanie / metody zliczania",
         "kąty"
       ],
       "prompt_html": "<p>Z jednego punktu na płaszczyźnie Zosia poprowadziła 20 półprostych. Ile jest najwięcej kątów prostych utworzonych przez te półproste?</p>",
@@ -374,8 +376,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty",
-        "geometria"
+        "trójkąty"
       ],
       "prompt_html": "<p>Igor narysował w trójkącie prostokątnym równoramiennym ABC odcinek DE prostopadły do boku AB (jak na rysunku obok). Jeżeli BD = 2, to odcinek DE ma długość</p>",
       "choices": [
@@ -404,7 +405,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "zamiana jednostek",
+        "notacja wykładnicza"
       ],
       "prompt_html": "<p>Objętość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3,2</mn><mo>·</mo><msup><mn>10</mn><mn>7</mn></msup></math> cm³ to</p>",
       "choices": [
@@ -431,7 +433,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "notacja wykładnicza",
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Ile cyfr ma liczba będąca wartością wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>8,44</mn><mo>·</mo><msup><mn>10</mn><mn>7</mn></msup></mrow><mrow><mn>4,22</mn><mo>·</mo><msup><mn>10</mn><mn>3</mn></msup></mrow></mfrac></math>?</p>",
       "choices": [
@@ -458,8 +461,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "układ współrzędnych",
-        "zagadki logiczne"
+        "układ współrzędnych"
       ],
       "prompt_html": "<p>Z początku układu współrzędnych startuje punkt. Porusza się on następująco: w pierwszym kroku przemieszcza się jedną jednostkę w prawo, w drugim kroku dwie jednostki w górę, w trzecim kroku trzy jednostki w lewo, w czwartym kroku cztery jednostki w dół, w piątym kroku pięć jednostek w prawo itd. Które współrzędne określają położenie tego punktu po 10 krokach?</p>",
       "choices": [
@@ -515,8 +517,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty",
-        "geometria"
+        "trójkąty"
       ],
       "prompt_html": "<p>Prosty metalowy pręt o długości 4 m oparty jest o mur, co przedstawia rysunek. Jaką długość ma ta część pręta, która wystaje ponad wysokość muru?</p>",
       "choices": [
@@ -545,7 +546,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "proporcjonalność prosta"
+        "proporcjonalność prosta",
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Złota sztabka o objętości 8 cm³ waży 15,44 dag. Objętość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> złotej sztabki o masie 19,3 g można obliczyć, rozwiązując równanie</p>",
       "choices": [
@@ -572,8 +574,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "kombinatoryka",
-        "geometria"
+        "wielokąty"
       ],
       "prompt_html": "<p>Poniższe zdania dotyczą przekątnych wielokąta wypukłego. Oceń, czy są prawdziwe.</p>",
       "choices": [
@@ -600,6 +601,7 @@
       "points": 2,
       "topics": [
         "trójkąty",
+        "podobieństwo i skala",
         "pole i obwód"
       ],
       "prompt_html": "<p>Dany jest trójkąt prostokątny ABC, w którym AB = 8, AC = 6, AD = 4, co przedstawia rysunek obok. Czy podane poniżej informacje są prawdziwe?</p>",
@@ -627,7 +629,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "procenty"
+        "stężenie procentowe / mieszaniny"
       ],
       "prompt_html": "<p>W stadninie zgromadzono 1 tonę trawy, aby ją podsuszyć i uzyskać siano. Wilgotność skoszonej trawy wynosi 60%, a wilgotność siana jest równa 15%. Na podstawie tych danych oceń poniższe informacje.</p>",
       "choices": [
@@ -676,7 +678,6 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "układy równań",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Bibliotekarka ustawiła na półkach książki o jednakowych wymiarach. Gdyby na każdej półce ustawiła po 10 książek, to zabrakłoby 4 półek. Jeśli natomiast na każdej półce ustawiłaby po 12 książek, to dwie półki byłyby wolne.</p><p>Liczba półek: ……… . Liczba książek: ……… .</p>",
@@ -724,6 +725,7 @@
       "points": 2,
       "topics": [
         "trójkąty",
+        "dwusieczna kąta / symetralna odcinka",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Trójkąt ABC przedstawiony na rysunku obok jest równoramienny (AC = BC). Z wierzchołków A i B zostały poprowadzone dwusieczne kątów, które przecinają ramiona trójkąta w punktach K i L. Uzasadnij, że długości odcinków AK i BL są takie same.</p>",

@@ -17,7 +17,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Dodatnia liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oraz różna od zera liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> spełniają warunek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mfrac><mn>1</mn><msqrt><mi>x</mi></msqrt></mfrac><mo>−</mo><mn>5</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mroot><mi>y</mi><mn>3</mn></mroot></mfrac><mo>+</mo><mn>5</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>0</mn></mrow></math>. Oblicz wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><mo>|</mo><mfrac><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow><mn>5</mn></mfrac><mo>|</mo></mrow></msqrt></math>.</p>",
       "choices": [],
@@ -62,8 +62,9 @@
       "type": "open",
       "points": 5,
       "topics": [
+        "porównywanie potęg i pierwiastków",
+        "usuwanie niewymierności z mianownika",
         "układy równań",
-        "potęgi i pierwiastki",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Liczby rzeczywiste <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> spełniają jednocześnie dwa następujące warunki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>−</mo><mi>y</mi><mo>=</mo><mn>2</mn></mrow></math>. Wykaż, że te liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> spełniają także nierówność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><msup><mi>y</mi><mn>2</mn></msup><mo>&lt;</mo><mfrac><mi>x</mi><mi>y</mi></mfrac></mrow></math>.</p>",
@@ -108,6 +109,7 @@
       "type": "open",
       "points": 6,
       "topics": [
+        "wielokąty",
         "kąty",
         "trójkąty"
       ],

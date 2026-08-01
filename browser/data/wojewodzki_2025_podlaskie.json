@@ -17,9 +17,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "czworokąty",
-        "pole i obwód",
-        "statystyka opisowa"
+        "statystyka opisowa",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Średnia arytmetyczna długości wszystkich boków pewnego czworokąta jest równa 40 cm. Jaką długość ma obwód tego czworokąta?</p>",
       "choices": [
@@ -73,8 +72,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną",
-        "zagadki logiczne"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>W kolejce do sklepiku szkolnego ze zdrową żywnością stoi 28 dzieci, a wśród nich Franek. Franek mówi: „Za mną stoi 2 razy więcej dzieci niż przede mną”. Który w kolejce jest Franek?</p>",
       "choices": [
@@ -160,6 +158,7 @@
       "points": 1,
       "topics": [
         "trójkąty",
+        "kąty",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Miara jednego z kątów trójkąta jest równa różnicy miar dwóch pozostałych kątów. Które z poniższych stwierdzeń poprawnie uzasadnia, że trójkąt o tej własności jest prostokątny?</p>",
@@ -243,8 +242,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty",
-        "kąty"
+        "kąty",
+        "trójkąty"
       ],
       "prompt_html": "<p>Z wierzchołków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> poprowadzono dwa odcinki do punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math>. Jeżeli kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADE</mi></math> ma 22°, a kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCE</mi></math> ma 46°, to trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DEC</mi></math> jest</p>",
       "choices": [
@@ -273,8 +272,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "zliczanie / metody zliczania",
-        "zagadki logiczne"
+        "układy równań"
       ],
       "prompt_html": "<p>W biegach terenowych uczestniczyły dzieci z czterech klas piątych: A, B, C, D. Zawody zorganizowano systemem „każda klasa z każdą”. Tabela przedstawia liczbę uczestników poszczególnych biegów. Ile łącznie osób brało udział w tych biegach oraz ilu biegło uczniów z klasy VA?</p><table><thead><tr><th></th><th>VA</th><th>VB</th><th>VC</th><th>VD</th></tr></thead><tbody><tr><th>VA</th><td>—</td><td>23</td><td>25</td><td>26</td></tr><tr><th>VB</th><td></td><td>—</td><td>28</td><td>29</td></tr><tr><th>VC</th><td></td><td></td><td>—</td><td>31</td></tr><tr><th>VD</th><td></td><td></td><td></td><td>—</td></tr></tbody></table>",
       "choices": [],
@@ -296,7 +294,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "wzory skróconego mnożenia"
+        "wzory skróconego mnożenia",
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Zapisz w najprostszej postaci wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mn>3</mn><mi>x</mi><mo>−</mo><mn>5</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>−</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo>)</mo></mrow></math>.</p>",
       "choices": [],
@@ -319,6 +318,7 @@
       "points": 2,
       "topics": [
         "prawdopodobieństwo",
+        "liczby pierwsze",
         "potęgi i pierwiastki"
       ],
       "prompt_html": "<p>Spośród liczb: 1, 3, 8, 17, 27, 49, 64, 72, 81, 83 losujemy jedną. Dokończ zdania, wpisując prawdopodobieństwo opisanych zdarzeń.</p><p>Prawdopodobieństwo wylosowania <u>liczby pierwszej</u> jest równe ____ .</p><p>Prawdopodobieństwo wylosowania liczby będącej <u>potęgą liczby naturalnej</u> jest równe ____ .</p>",
@@ -341,8 +341,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "zliczanie / metody zliczania",
-        "kombinatoryka"
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Pizzeria oferuje 15 rodzajów pizzy, do której można dobrać jeden z dwóch spodów i dodatkowy sos spośród pięciu proponowanych. Składając zamówienie, należy wskazać rodzaj pizzy i spodu oraz ewentualnie zdecydować się na jeden sos lub pizzę bez dodatkowego sosu. Oblicz, na ile sposobów w tej pizzerii można wybrać pizzę bez dodatkowego sosu, a na ile sposobów można wybrać pizzę z jednym dodatkowym sosem.</p>",
       "choices": [],
@@ -412,7 +411,9 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "koła / okręgi"
+        "koła / okręgi",
+        "kalendarz i czas",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Wskazówki minutowa i godzinowa zegara mają długości odpowiednio 4 cm i 3 cm. Oblicz różnicę długości dróg pokonanych przez końce tych wskazówek w ciągu 4 godzin.</p>",
       "choices": [],
@@ -526,7 +527,8 @@
       "points": 4,
       "topics": [
         "pierścień kołowy",
-        "koła / okręgi"
+        "koła / okręgi",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Rysunek przedstawia pierścień kołowy. Jaką część pola dużego koła stanowi pole pierścienia kołowego?</p>",
       "choices": [],
@@ -550,8 +552,7 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "zagadki logiczne",
-        "kombinatoryka"
+        "zagadki logiczne"
       ],
       "prompt_html": "<p>Pan Jan ma łąkę, na środku której znajduje się mały staw. Na terenie wokół stawu zorganizował pole namiotowe, dzieląc je na 6 sektorów (zob. rysunek). Pewnej soboty nad staw przyjechało sześciu wędkarzy, którzy chcieli zamieszkać na polu namiotowym, każdy w innym sektorze, ale zgłosili dziwne wymagania:</p><ul><li>pan A nie chce sąsiadować z panem F ani z panem B,</li><li>pan B nie chce sąsiadować z panem A ani z panem C,</li><li>pan C nie chce sąsiadować z panem B ani z panem D,</li><li>pan D nie chce sąsiadować z panem C ani z panem E,</li><li>pan E nie chce sąsiadować z panem D ani z panem F,</li><li>pan F nie chce sąsiadować z panem E ani z panem A.</li></ul><p>Jak pan Jan powinien rozmieścić gości, aby spełnić ich życzenia? Swoją odpowiedź wpisz do schematu powyżej.</p>",
       "choices": [],

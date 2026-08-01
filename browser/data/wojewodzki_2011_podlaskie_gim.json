@@ -140,6 +140,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "wielokąty",
         "kąty"
       ],
       "prompt_html": "<p>Przekątne pięciokąta foremnego wychodzące z jednego wierzchołka tworzą kąt o mierze:</p>",
@@ -181,7 +182,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Która z wymienionych liczb jest średnią arytmetyczną dwóch kolejnych liczb pierwszych?</p>",
       "choices": [
@@ -222,7 +223,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "bryły obrotowe"
       ],
       "prompt_html": "<p>Przekrój osiowy stożka jest trójkątem prostokątnym. Objętość tego stożka jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mi>π</mi></math>. Tworząca stożka ma długość:</p>",
       "choices": [
@@ -263,7 +264,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "bryły obrotowe"
       ],
       "prompt_html": "<p>Kula ma objętość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>36</mn><mi>π</mi></math> cm³, więc:</p>",
       "choices": [
@@ -429,7 +430,7 @@
       "points": 1,
       "topics": [
         "prawdopodobieństwo",
-        "kombinatoryka"
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Uczeń zapomniał dwie ostatnie cyfry sześciocyfrowego numeru telefonu kolegi. Wykręca 4 dokładnie zapamiętane cyfry, a następnie dwie ostatnie na chybił trafił. Jakie jest prawdopodobieństwo, że za pierwszym razem dodzwoni się do kolegi?</p>",
       "choices": [
@@ -470,7 +471,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Funkcja określona w zbiorze liczb rzeczywistych wzorem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mo>−</mo><mfrac><mrow><mi>m</mi><mi>x</mi><mo>−</mo><mn>4</mn></mrow><mn>2</mn></mfrac></math> jest:</p>",
       "choices": [
@@ -511,8 +512,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "reszta z dzielenia",
-        "zagadki logiczne"
+        "reszta z dzielenia"
       ],
       "prompt_html": "<p>Pewien miliarder dziwak pozostawił swoim synom następujący testament: <em>W moim ogrodzie rosną kolejno posadzone drzewa: 1 – czereśnia, 2 – grusza, 3 – jabłoń, 4 – śliwa. Pod jednym z nich zakopałem skarb. Żeby go znaleźć musicie zrywać po jednym liściu z każdego drzewa w następującej kolejności: 12343212343… Pod drzewem, z którego zerwiecie 3003 liść, znajdziecie zakopany skarb.</em> Jak nazywa się drzewo, pod którym znajduje się skarb?</p>",
       "choices": [
@@ -665,6 +665,7 @@
       "type": "open",
       "points": 4,
       "topics": [
+        "siatki brył",
         "graniastosłupy"
       ],
       "prompt_html": "<p>Po sześcianie przedstawionym na rysunku z wierzchołka A do wierzchołka A′ wędruje mrówka, przechodząc przez wszystkie ściany boczne. Narysuj najkrótszą drogę mrówki oraz oblicz jej długość. Długość krawędzi sześcianu jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> cm.</p>",
@@ -717,7 +718,7 @@
       "points": 6,
       "topics": [
         "wzory skróconego mnożenia",
-        "podzielność"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Różnica kwadratów dwóch liczb całkowitych jest równa 29. Znajdź wszystkie pary liczb, które spełniają ten warunek.</p>",
       "choices": [],

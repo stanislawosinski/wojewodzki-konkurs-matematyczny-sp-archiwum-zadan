@@ -95,7 +95,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "liczby rzymskie"
+        "liczby rzymskie",
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Ile lat upłynęło od roku CDXLVI p.n.e. do roku CMXCIX n.e.?</p>",
       "choices": [
@@ -174,7 +175,8 @@
       "points": 1,
       "topics": [
         "procenty",
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Która jest godzina, jeśli wiesz, że pozostała część doby stanowi 25% tej części, która już minęła?</p>",
       "choices": [
@@ -213,8 +215,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "statystyka opisowa",
-        "podzielność"
+        "liczby pierwsze",
+        "statystyka opisowa"
       ],
       "prompt_html": "<p>Średnia arytmetyczna wszystkich liczb pierwszych nie mniejszych niż 37 i nie większych niż 67 jest równa:</p>",
       "choices": [
@@ -253,7 +255,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "NWW / NWD"
+        "NWW / NWD",
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Marek i Darek spotkali się na treningu 1 kwietnia. Okazało się, że Marek na trening chodzi w każdy piątek, a Darek co 6 dni (treningi odbywają się również w soboty i niedziele). Ile razy do końca września spotkają się jeszcze wspólnie na treningu?</p>",
       "choices": [
@@ -331,8 +334,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "NWW / NWD",
-        "podzielność"
+        "NWW / NWD"
       ],
       "prompt_html": "<p>Suma dwóch liczb naturalnych wynosi 63, a ich największym wspólnym dzielnikiem jest 7. Ile jest par takich liczb? Uwaga: Pary (<em>x</em>, <em>y</em>) i (<em>y</em>, <em>x</em>) uważamy za identyczne.</p>",
       "choices": [
@@ -414,7 +416,7 @@
       "topics": [
         "trójkąty",
         "czworokąty",
-        "potęgi i pierwiastki"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Bok kwadratu ma taką samą długość jak bok trójkąta równobocznego. Suma pól kwadratu i trójkąta wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>12</mn><mo>+</mo><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac></math> cm². Oblicz różnicę długości przekątnych kwadratu i wszystkich wysokości trójkąta równobocznego.</p>",
       "choices": [
@@ -453,7 +455,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "ostrosłupy"
+        "liczba krawędzi, ścian i wierzchołków"
       ],
       "prompt_html": "<p>Ostrosłup o podstawie dziesięciokąta ma:</p>",
       "choices": [
@@ -492,7 +494,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zliczanie / metody zliczania"
+        "zasada szufladkowa"
       ],
       "prompt_html": "<p>Na szkolnym modelu do symulacji misji kosmicznych znajduje się 15 planet skalistych i 12 gazowych olbrzymów. Ile obiektów z tego modelu trzeba wylosować do symulacji misji badawczej, by mieć gwarancję, że trafią się co najmniej dwa gazowe olbrzymy?</p>",
       "choices": [
@@ -531,7 +533,10 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki"
+        "pierwiastki zagnieżdżone",
+        "działania na pierwiastkach",
+        "działania na potęgach",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli zdanie jest fałszywe.</p>",
       "choices": [
@@ -602,8 +607,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "ostrosłupy",
-        "potęgi i pierwiastki"
+        "ostrosłupy"
       ],
       "prompt_html": "<p>Ostrosłup prawidłowy czworokątny ma objętość równą 128 cm³. Wiadomo, że stosunek wysokości ostrosłupa do długości krawędzi podstawy wynosi 3 : 4.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli zdanie jest fałszywe.</p>",
       "choices": [
@@ -638,7 +642,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki",
+        "działania na potęgach",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Wykaż, że wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mfrac><mn>8</mn><mn>9</mn></mfrac><mo>)</mo></mrow><mn>4</mn></msup><mo>·</mo><msup><mrow><mo>(</mo><mfrac><mn>12</mn><mn>5</mn></mfrac><mo>)</mo></mrow><mn>6</mn></msup><mo>·</mo><msup><mrow><mo>(</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>)</mo></mrow><mn>8</mn></msup><mo>·</mo><msup><mrow><mo>(</mo><mfrac><mn>5</mn><mn>6</mn></mfrac><mo>)</mo></mrow><mn>6</mn></msup></math> jest liczbą naturalną. Zapisz wszystkie obliczenia.</p>",
@@ -684,7 +688,6 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "geometria",
         "trójkąty",
         "pole i obwód"
       ],

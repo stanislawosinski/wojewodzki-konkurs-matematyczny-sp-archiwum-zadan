@@ -19,8 +19,7 @@
       "topics": [
         "trójkąty",
         "koła / okręgi",
-        "pole i obwód",
-        "potęgi i pierwiastki"
+        "pole i obwód"
       ],
       "prompt_html": "<p>W okrąg o promieniu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>r</mi><mo>=</mo><mn>2</mn></mrow></math> wpisano trójkąt równoramienny, którego podstawa też ma długość 2. Oblicz pole tego trójkąta. Rozpatrz dwa przypadki.</p>",
       "choices": [],
@@ -42,7 +41,7 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "zliczanie / metody zliczania",
+        "zbiory / zasada włączeń i wyłączeń",
         "prawdopodobieństwo"
       ],
       "prompt_html": "<p>Spośród 30 uczniów pewnej klasy ósmej 14 bierze udział w konkursie matematycznym, 12 uczniów w konkursie fizycznym, 10 uczniów w konkursie chemicznym. W tym 5 uczniów w konkursie matematycznym i w konkursie fizycznym, 4 uczniów w konkursie matematycznym i w konkursie chemicznym, 3 uczniów w konkursie fizycznym i w konkursie chemicznym, 2 uczniów w konkursach matematycznym, chemicznym i fizycznym.</p><ul><li>a) Ilu uczniów bierze udział tylko w jednym z podanych konkursów?</li><li>b) Ilu uczniów nie bierze udziału w żadnym z podanych konkursów?</li><li>c) Jakie jest prawdopodobieństwo, że wybrany losowo uczeń klasy ósmej bierze udział dokładnie w dwóch konkursach?</li></ul>",
@@ -88,8 +87,7 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "ostrosłupy",
-        "potęgi i pierwiastki"
+        "ostrosłupy"
       ],
       "prompt_html": "<p>Figura na zamieszczonym rysunku to siatka ostrosłupa prawidłowego czworokątnego. Wiedząc, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>2</mn></mrow></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>CD</mi><mo>|</mo><mo>=</mo><mn>3</mn><msqrt><mn>2</mn></msqrt></mrow></math> cm, oblicz objętość tego ostrosłupa.</p>",
       "choices": [],
@@ -136,9 +134,8 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "czworokąty",
-        "pole i obwód",
-        "proporcjonalność prosta"
+        "podobieństwo i skala",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Ile metrów kwadratowych zajmuje w rzeczywistości prostokątny dywanik, który na planie w skali 1 : 20 ma wymiary 75 mm i 50 mm?</p>",
       "choices": [],
@@ -161,7 +158,6 @@
       "points": 1,
       "topics": [
         "czworokąty",
-        "trójkąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>W prostokącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> jest środkiem boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>, zaś <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math> jest środkiem boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math>. Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AEF</mi></math> ma pole 15 cm². Jakie pole ma prostokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>?</p>",
@@ -186,8 +182,7 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "procenty",
-        "proporcjonalność prosta"
+        "procenty"
       ],
       "prompt_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest o 20% większa od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>. Jaki jest stosunek liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> do liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>?</p>",
       "choices": [],
@@ -209,6 +204,7 @@
       "type": "open",
       "points": 1,
       "topics": [
+        "wielokąty",
         "kąty"
       ],
       "prompt_html": "<p>Ile wynosi kąt między przekątnymi pięciokąta foremnego wychodzącymi z tego samego wierzchołka?</p>",
@@ -232,7 +228,8 @@
       "points": 1,
       "topics": [
         "prawdopodobieństwo",
-        "kombinatoryka"
+        "liczby pierwsze",
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Z cyfr 1, 2, 3, 4 układamy liczby dwucyfrowe o różnych cyfrach. Jakie jest prawdopodobieństwo, że wybrana losowo liczba dwucyfrowa jest liczbą pierwszą?</p>",
       "choices": [],
@@ -256,7 +253,7 @@
       "topics": [
         "pierścień kołowy",
         "koła / okręgi",
-        "potęgi i pierwiastki"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> jest równoległy do średnic kół współśrodkowych (rysunek) i styczny do mniejszego z nich. Oblicz pole zacieniowanego pierścienia wiedząc, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>24</mn></mrow></math> cm.</p>",
       "choices": [],
@@ -302,8 +299,8 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną",
-        "wzory skróconego mnożenia"
+        "wzory skróconego mnożenia",
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Kwadrat liczby naturalnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> i kwadrat liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>−</mo><mn>1</mn></mrow></math> różnią się od siebie o 2019. Oblicz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>.</p>",
       "choices": [],
@@ -326,7 +323,7 @@
       "points": 1,
       "topics": [
         "koła / okręgi",
-        "trójkąty"
+        "kąty"
       ],
       "prompt_html": "<p>Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest wpisany w okrąg o środku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> jest średnicą tego okręgu. Prosta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest styczną do okręgu w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>. Podaj miarę kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>.</p>",
       "choices": [],

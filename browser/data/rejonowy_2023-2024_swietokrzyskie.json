@@ -17,8 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność",
-        "zliczanie / metody zliczania"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Michał wypisywał na kartce kolejne liczby naturalne. Zaczął od liczby 30, a skończył, gdy po raz czwarty napisał liczbę pierwszą. Ile liczb zapisał Michał?</p><p><strong>Wybierz odpowiedź spośród podanych.</strong></p>",
       "choices": [
@@ -57,8 +56,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "czworokąty",
         "trójkąty",
+        "czworokąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>Na bokach kwadratu o obwodzie równym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi></math> zbudowano trójkąty równoboczne. Pole powierzchni <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> otrzymanego w ten sposób ośmiokąta jest równe:</p>",
@@ -98,6 +97,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "ułamki okresowe / rozwinięcia dziesiętne",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Rozwinięcie dziesiętne ułamka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>15</mn><mn>123</mn></mfrac></math> można zapisać w postaci 0,(12195). Jaka cyfra znajduje się na sto czwartym miejscu po przecinku w rozwinięciu dziesiętnym tego ułamka?</p><p><strong>Wybierz odpowiedź spośród podanych.</strong></p>",
@@ -137,7 +137,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "ostatnia cyfra / cykliczność potęg",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p><strong>Dokończ zdanie. Wybierz odpowiedź spośród podanych.</strong></p><p>W rzędzie jedności liczby będącej wynikiem działania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>6</mn><mn>2024</mn></msup><mo>+</mo><msup><mn>9</mn><mn>2024</mn></msup></math> jest cyfra:</p>",
@@ -332,8 +332,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "wyrażenia algebraiczne",
-        "zliczanie / metody zliczania"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>W pewnej liczbie trzycyfrowej cyfra w rzędzie dziesiątek jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. Cyfra w rzędzie setek jest o 5 mniejsza od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> oraz cyfra w rzędzie jedności jest o 2 większa od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>.</p><p><strong>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</strong></p>",
       "choices": [
@@ -368,7 +367,8 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki",
+        "działania na pierwiastkach",
+        "działania na potęgach",
         "podzielność"
       ],
       "prompt_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> jest sumą kwadratów liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>3</mn></msqrt></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msqrt><mn>6</mn></msqrt></math>.</p><p><strong>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</strong></p>",
@@ -478,7 +478,6 @@
       "points": 3,
       "topics": [
         "trójkąty",
-        "potęgi i pierwiastki",
         "pole i obwód"
       ],
       "prompt_html": "<p>Środkowa trójkąta to odcinek łączący wierzchołek trójkąta ze środkiem przeciwległego boku. Każdy trójkąt ma trzy środkowe, które przecinają się w jednym punkcie. Dzieli on każdą z nich w stosunku 2:1 licząc od wierzchołka.</p><p>W trójkącie równobocznym odległość punktu przecięcia się środkowych od jego boków jest równa 2 cm.</p><p><strong>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</strong></p>",
@@ -514,7 +513,8 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki"
+        "wyłączanie czynnika przed znak pierwiastka",
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Dane są liczby: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msqrt><mn>50</mn></msqrt><mo>−</mo><msqrt><mn>18</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><msqrt><mn>98</mn></msqrt><mo>−</mo><msqrt><mn>8</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><msqrt><mn>72</mn></msqrt><mo>−</mo><msqrt><mn>32</mn></msqrt></math>.</p><p><strong>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</strong></p>",
       "choices": [

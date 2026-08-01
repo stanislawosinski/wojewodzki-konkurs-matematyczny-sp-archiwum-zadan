@@ -17,6 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "ułamki okresowe / rozwinięcia dziesiętne",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>2019 cyfrą po przecinku w liczbie 3,1253(0123) jest</p>",
@@ -56,8 +57,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "statystyka opisowa",
-        "równania z jedną zmienną"
+        "statystyka opisowa"
       ],
       "prompt_html": "<p>Na przyjęciu było 18 osób, których średnia wieku wynosiła 26 lat. W pewnym momencie do gości dołączyła dwójka bliźniaków i wtedy średnia wieku zmalała do 25 lat. Ile lat ma każdy z bliźniaków?</p>",
       "choices": [
@@ -135,7 +135,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest 125 razy większa od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>5</mn><mn>2019</mn></msup></math>. Zatem liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest równa liczbie:</p>",
       "choices": [
@@ -213,7 +213,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Cenę towaru podwyższono o 30%. Następnie podwyższoną cenę obniżono do poziomu sprzed podwyżki. Około ile procent wynosiła ta obniżka?</p>",
       "choices": [
@@ -330,7 +330,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "wartość bezwzględna",
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Ile wynosi wartość wyrażenia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>5</mn><mo>|</mo><mo>+</mo><mo>|</mo><mn>4</mn><mo>−</mo><msqrt><mn>3</mn></msqrt><mo>|</mo><mo>−</mo><mo>|</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>9</mn><mo>|</mo></math></p>",
       "choices": [
@@ -448,8 +449,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
-        "proporcjonalność odwrotna"
+        "notacja wykładnicza"
       ],
       "prompt_html": "<p>W Chinach mieszka około 1,4 miliarda mieszkańców, zaś gęstość zaludnienia wynosi 140 mieszkańców na 1 km². Jaka jest powierzchnia Chin wyrażona w km²?</p>",
       "choices": [
@@ -527,7 +527,6 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kombinatoryka",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>W pewnej szkole są trzy klasy ósme. Z każdej klasy wybrano dwóch uczniów. Następnie wybrano spośród nich trzyosobową grupę reprezentującą klasy ósme, w której nie będzie dwóch uczniów z tej samej klasy. Na ile sposobów można dokonać takiego wyboru?</p>",
@@ -654,8 +653,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "trójkąty",
-        "potęgi i pierwiastki"
+        "trójkąty"
       ],
       "prompt_html": "<p>Dany jest trójkąt równoramienny, którego ramię ma długość 4, a podstawa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>3</mn></msqrt></math>. Oblicz odległość środka podstawy od ramienia trójkąta.</p>",
       "choices": [],

@@ -56,6 +56,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "ułamki okresowe / rozwinięcia dziesiętne",
         "ułamki"
       ],
       "prompt_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mfrac><mn>2</mn><mn>11</mn></mfrac></mrow></math> jest mniejsza od liczby:</p>",
@@ -95,7 +96,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Która z podanych powierzchni jest największa?</p>",
       "choices": [
@@ -134,7 +135,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Najniższą temperaturę na Ziemi (−89,2°C) odnotowano na Antarktydzie w stacji badawczej Wostok. W pomieszczeniach dla pracowników stacji panowała wówczas temperatura +8,6°C. Różnica temperatur powietrza wewnątrz i na zewnątrz stacji była równa:</p>",
       "choices": [
@@ -173,7 +174,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Kopa to 60 sztuk, a mendel to 15 sztuk. Kopa jest większa od mendla o:</p>",
       "choices": [
@@ -251,7 +252,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Właściciel sklepu kupił w hurtowni 40 kg sera w cenie 15,60 zł za jeden kilogram. Ile powinna wynosić cena 1 kg sprzedawanego sera w sklepie, jeżeli właściciel sklepu zamierza na jego sprzedaży zarobić dwieście złotych?</p>",
       "choices": [
@@ -407,7 +408,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "proporcjonalność odwrotna"
+        "podobieństwo i skala"
       ],
       "prompt_html": "<p>Mikołaj ma dwa plany tego samego pokoju: jeden w skali 1 : 20, drugi w skali 1 : 50. Na planie w skali 1 : 20 długość jednej ze ścian pokoju jest równa 30 cm. Jaką długość ma ta ściana na planie w skali 1 : 50?</p>",
       "choices": [
@@ -446,7 +447,6 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "podzielność",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Dziewięciocyfrowy numer telefonu Mikołaja składa się z trzech kolejnych trzycyfrowych wielokrotności liczby 12, ustawionych od najmniejszej do największej. Suma tych wielokrotności wynosi 1728. Znajdź numer telefonu do Mikołaja.</p>",
@@ -536,7 +536,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>W kartonie było dotychczas 1000 ml soku PYSZNY i kosztował on 2,40 zł. Producent przygotował dwie wersje promocji tego soku:</p><ul><li>Pierwsza wersja: za tę samą cenę otrzymasz o 20% więcej soku.</li><li>Druga wersja: za tę samą ilość soku zapłacisz o 20% mniej.</li></ul><p>Która z tych promocji jest bardziej opłacalna dla klienta? Przedstaw tok swojego rozumowania zapisując obliczenia.</p>",
       "choices": [],

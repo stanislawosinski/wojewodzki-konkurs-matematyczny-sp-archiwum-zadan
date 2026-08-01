@@ -100,8 +100,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
-        "zliczanie / metody zliczania"
+        "wielokąty"
       ],
       "prompt_html": "<p>Który z wielokątów ma 14 przekątnych?</p>",
       "choices": [
@@ -128,7 +127,6 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Ile jest trójkątów o wierzchołkach w zaznaczonych na rysunku punktach, jeżeli wszystkie boki trójkąta są nierównoległe do linii siatki?</p>",
@@ -158,8 +156,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty",
-        "kąty"
+        "kąty",
+        "czworokąty"
       ],
       "prompt_html": "<p>Czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> na rysunku obok jest kwadratem. Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>FSC</mi></math> ma miarę 30°. Jaką miarę ma kąt ostry <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SEB</mi></math>?</p>",
       "choices": [
@@ -216,8 +214,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy",
-        "proporcjonalność prosta"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Uczniowie włożyli dwukilogramowy kamień do akwarium o podstawie prostokąta o wymiarach 70 cm x 30 cm. Ustalili, że poziom wody wzniósł się wówczas o 0,4 cm. Wykorzystując wyniki tych pomiarów, wyznacz przybliżoną masę 1 cm³ kamienia.</p>",
       "choices": [
@@ -244,7 +241,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "ujemny wykładnik"
       ],
       "prompt_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mrow><mo>(</mo><mi>x</mi><msup><mi>y</mi><mn>2</mn></msup><mo>)</mo></mrow><mn>3</mn></msup><mo>·</mo><msup><mrow><mo>(</mo><msup><mi>x</mi><mn>2</mn></msup><mi>y</mi><mo>)</mo></mrow><mrow><mo>−</mo><mn>2</mn></mrow></msup></mrow><mrow><msup><mrow><mo>(</mo><msup><mi>x</mi><mn>5</mn></msup><mo>)</mo></mrow><mrow><mo>−</mo><mn>4</mn></mrow></msup><mo>:</mo><msup><mrow><mo>(</mo><msup><mi>x</mi><mn>10</mn></msup><mi>y</mi><mo>)</mo></mrow><mrow><mo>−</mo><mn>2</mn></mrow></msup></mrow></mfrac></math> dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mo>−</mo><mfrac><mn>1</mn><mn>4</mn></mfrac></mrow></math> jest równa</p>",
       "choices": [
@@ -355,8 +353,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "układ współrzędnych",
-        "potęgi i pierwiastki"
+        "układ współrzędnych"
       ],
       "prompt_html": "<p>Odległość między punktami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>5</mn><mo>,</mo><mo>−</mo><mn>5</mn><mo>)</mo></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>B</mi><mo>=</mo><mo>(</mo><mn>4</mn><mo>,</mo><mo>−</mo><mn>2</mn><mo>)</mo></mrow></math> jest równa</p>",
       "choices": [
@@ -383,7 +380,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "ostatnia cyfra / cykliczność potęg",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>3</mn><mn>6</mn></msup><mo>+</mo><msup><mn>3</mn><mn>15</mn></msup><mo>+</mo><msup><mn>3</mn><mn>21</mn></msup></mrow></math> ma w rzędzie jedności cyfrę</p>",
@@ -550,7 +547,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "pierwiastki zagnieżdżone",
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mrow><mn>19</mn><mfrac><mn>3</mn><mn>5</mn></mfrac><mo>:</mo><msqrt><mrow><mn>0,064</mn><mo>:</mo><msqrt><mn>0,16</mn></msqrt></mrow></msqrt></mrow></msqrt><mo>·</mo><mroot><mrow><mn>20</mn><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>:</mo><mroot><mrow><mn>108</mn><mo>:</mo><mroot><mn>0,125</mn><mn>3</mn></mroot></mrow><mn>3</mn></mroot></mrow><mn>3</mn></mroot></mrow></math> jest równa</p>",
       "choices": [
@@ -577,8 +575,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty",
-        "proporcjonalność prosta"
+        "stężenie procentowe / mieszaniny"
       ],
       "prompt_html": "<p>Zmieszano ze sobą roztwór X o stężeniu 5% z roztworem Y o stężeniu 8% i otrzymano sześcioprocentową mieszaninę. Stosunek masy roztworu X do masy roztworu Y w mieszaninie wynosi</p>",
       "choices": [
@@ -605,7 +602,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "ostrosłupy"
+        "ostrosłupy",
+        "siatki brył"
       ],
       "prompt_html": "<p>Kwadrat na rysunku przedstawia siatkę ostrosłupa. Oblicz objętość tego ostrosłupa.</p>",
       "choices": [],
@@ -629,8 +627,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "procenty",
-        "równania z jedną zmienną"
+        "procenty"
       ],
       "prompt_html": "<p>Cysterna przewożąca benzynę zawiera o 6400 litrów benzyny więcej, gdy jest w 30% pusta, niż gdy jest w 30% napełniona. Oblicz objętość tej cysterny.</p>",
       "choices": [],
@@ -676,7 +673,7 @@
       "points": 3,
       "topics": [
         "trójkąty",
-        "potęgi i pierwiastki"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Przyprostokątne trójkąta prostokątnego są równe 5 cm i 10 cm. Oblicz długość wysokości tego trójkąta opuszczonej na przeciwprostokątną z wierzchołka kąta prostego. Wynik zapisz w najprostszej postaci.</p>",
       "choices": [],

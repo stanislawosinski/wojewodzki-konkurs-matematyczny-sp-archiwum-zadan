@@ -17,8 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zliczanie / metody zliczania",
-        "podzielność"
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Ile jest wszystkich trzycyfrowych, nieparzystych liczb naturalnych, z których żadna <u>nie jest</u> podzielna przez 5? <strong>Wybierz właściwą odpowiedź spośród podanych.</strong></p>",
       "choices": [
@@ -57,8 +56,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zliczanie / metody zliczania",
-        "kombinatoryka"
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Liczba symetryczna, to taka liczba naturalna, której cyfry stojące na miejscach pierwszym i ostatnim, drugim i przedostatnim itd. są parami równe. Na przykład liczby 51715, 2442, 353 są symetryczne. Jeśli liczba cyfr jest nieparzysta, środkowa cyfra w takiej liczbie jest jedna i nie ma „swojej pary”.</p><p>Ile jest wszystkich liczb symetrycznych trzycyfrowych? <strong>Wybierz właściwą odpowiedź spośród podanych.</strong></p>",
       "choices": [
@@ -136,6 +134,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "wyrażenia algebraiczne",
         "ułamki"
       ],
       "prompt_html": "<p><strong>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</strong></p><p>Wartość ułamka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2020</mn><mo>·</mo><mn>4039</mn><mo>−</mo><mn>2019</mn></mrow><mrow><mn>2019</mn><mo>·</mo><mn>4039</mn><mo>+</mo><mn>2020</mn></mrow></mfrac></math> jest równa</p>",
@@ -214,7 +213,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "notacja wykładnicza"
       ],
       "prompt_html": "<p><strong>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</strong></p><p>Po wykonaniu działań w wyrażeniu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>3</mn><mo>·</mo><msup><mn>4</mn><mn>6</mn></msup><mo>·</mo><msup><mn>10</mn><mn>6</mn></msup><mo>·</mo><msup><mn>5</mn><mn>12</mn></msup><mo>)</mo></mrow><mn>3</mn></msup></math> otrzymamy liczbę</p>",
       "choices": [
@@ -370,7 +370,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "czworokąty"
+        "czworokąty",
+        "kąty"
       ],
       "prompt_html": "<p>Przekątne rombu tworzą przy jednym z boków tego rombu kąty, których miary różnią się o 12°. Jaką miarę ma kąt rozwarty tego rombu? <strong>Wybierz właściwą odpowiedź spośród podanych.</strong></p>",
       "choices": [
@@ -409,7 +410,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy"
+        "graniastosłupy",
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Sześcian pomalowano niebieską farbą, a następnie rozcięto go na 125 jednakowych sześcianików. Ile z tych sześcianików nie ma żadnej ściany niebieskiej? <strong>Wybierz właściwą odpowiedź spośród podanych.</strong></p>",
       "choices": [
@@ -568,6 +570,7 @@
       "points": 4,
       "topics": [
         "sześciokąty foremne",
+        "czworokąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>Sześciokąt foremny o boku długości 6 cm został podzielony na osiem przystających trapezów równoramiennych w sposób pokazany na rysunku.</p><p><strong>Uzupełnij luki tak, by zdania dotyczące każdego z ośmiu przystających trapezów były prawdziwe.</strong></p><p>15.1. Kąt rozwarty trapezu ma miarę ……… .</p><p>15.2. Ramię trapezu ma długość ……… cm.</p><p>15.3. Obwód trapezu jest równy ……… cm.</p><p>15.4. Pole trapezu jest równe ……… cm².</p>",
@@ -614,7 +617,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "kąty"
       ],
       "prompt_html": "<p>W trójkącie równobocznym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> poprowadzono wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math> i na półprostej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math> wybrano punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> taki, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>BK</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>AC</mi><mo>|</mo></math>. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> połączono z punktami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>.</p><p><strong>Uzupełnij luki</strong></p><p>17.1. Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABK</mi></math> jest ……… . <strong>Wybierz odpowiedź spośród A/B/C.</strong> A. równoramienny; B. równoboczny; C. prostokątny.</p><p>17.2. Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AKC</mi></math> jest równa ……… .</p>",
       "choices": [],

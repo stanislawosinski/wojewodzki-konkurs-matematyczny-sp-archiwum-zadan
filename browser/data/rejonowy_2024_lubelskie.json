@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "działania na pierwiastkach",
         "szacowanie (zamiast obliczania)"
       ],
       "prompt_html": "<p>Którą z podanych liczb należy wstawić w miejsce <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, aby spełniony był warunek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>≤</mo><msqrt><mrow><msup><mn>19</mn><mn>2</mn></msup><mo>−</mo><msup><mn>9</mn><mn>2</mn></msup></mrow></msqrt><mo>&lt;</mo><mi>a</mi><mo>+</mo><mn>1</mn></math>?</p>",
@@ -72,7 +72,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Śliwki są o 20% droższe od jabłek, a gruszki są o 20% tańsze od jabłek. O ile procent śliwki są droższe od gruszek?</p>",
       "choices": [
@@ -99,7 +99,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy"
+        "liczba krawędzi, ścian i wierzchołków"
       ],
       "prompt_html": "<p>W pewnym graniastosłupie suma liczby krawędzi, ścian i wierzchołków jest równa 32. Jaki wielokąt jest podstawą tego graniastosłupa?</p>",
       "choices": [
@@ -154,8 +154,8 @@
       "points": 1,
       "topics": [
         "trójkąty",
-        "pole i obwód",
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Boki pewnego trójkąta mają długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>30</mn></msqrt></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>3</mn></msqrt></math> cm i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>2</mn></msqrt></math> cm. Ile wynosi pole tego trójkąta?</p>",
       "choices": [
@@ -182,7 +182,8 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "inne"
+        "działania na potęgach",
+        "ułamki"
       ],
       "prompt_html": "<p>Poniżej podane są zdania dotyczące liczb.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -210,7 +211,7 @@
       "points": 3,
       "topics": [
         "wzory skróconego mnożenia",
-        "usuwanie niewymierności z mianownika"
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Poniżej podane są zdania dotyczące przekształcania wyrażeń algebraicznych.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -236,6 +237,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
+        "trójkąty",
         "czworokąty",
         "pole i obwód"
       ],
@@ -360,8 +362,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "czworokąty",
-        "trójkąty"
+        "trójkąty",
+        "czworokąty"
       ],
       "prompt_html": "<p>Wewnątrz kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> o boku długości 12 zaznaczono punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math>, którego odległość od dwóch sąsiednich wierzchołków tego kwadratu wynosi 10. Oblicz odległość punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> od każdego z dwóch pozostałych wierzchołków kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>.</p>",
       "choices": [],
@@ -383,8 +385,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "graniastosłupy",
-        "potęgi i pierwiastki"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Dane są dwie bryły - prostopadłościan i sześcian. Podstawą prostopadłościanu, którego wysokość ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><msqrt><mn>3</mn></msqrt></math> cm, jest kwadrat o boku długości 4 cm. Długość krawędzi sześcianu jest równa długości przekątnej podstawy prostopadłościanu. Która z tych brył ma większe pole powierzchni całkowitej? Zapisz obliczenia.</p>",
       "choices": [],
@@ -406,8 +407,7 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "równania z jedną zmienną",
-        "zagadki logiczne"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Wczoraj, 30 listopada 2023 roku, babcia i jej wnuczka obchodziły urodziny. Obliczyły, że teraz mają razem 105 lat. Oblicz, ile lat ma babcia, a ile wnuczka, jeżeli wiadomo, że dwie ostatnie cyfry roku urodzenia wnuczki tworzą liczbę dwa razy większą od liczby utworzonej z ostatnich dwóch cyfr roku urodzenia babci i obie urodziły się w XX wieku.</p>",
       "choices": [],

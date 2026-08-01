@@ -17,6 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "wartość bezwzględna",
         "ułamki"
       ],
       "prompt_html": "<p>Liczba równa wartości bezwzględnej wyrażenia arytmetycznego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>1</mn><mo>−</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>)</mo><mo>−</mo><mn>0,8</mn></mrow></math> znajduje się na osi liczbowej pomiędzy liczbami:</p><p>Jedna z podanych odpowiedzi jest poprawna. Zaznacz kółkiem właściwą odpowiedź.</p>",
@@ -56,7 +57,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Liczba <em>sfeniczna</em> to liczba naturalna, która jest iloczynem trzech różnych liczb pierwszych. Ile jest liczb <em>sfenicznych</em> wśród liczb: 20, 30, 42, 45, 60?</p><p>Jedna z podanych odpowiedzi jest poprawna. Zaznacz kółkiem właściwą odpowiedź.</p>",
       "choices": [
@@ -95,7 +96,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Do pewnej liczby dwucyfrowej Janek dopisał dwukrotnie tę samą liczbę, otrzymując w ten sposób liczbę sześciocyfrową. Ile razy otrzymana liczba jest większa od liczby początkowej?</p><p>Jedna z podanych odpowiedzi jest poprawna. Zaznacz kółkiem właściwą odpowiedź.</p>",
       "choices": [
@@ -173,8 +175,8 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "trójkąty",
         "układ współrzędnych",
+        "trójkąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>W prostokątnym układzie współrzędnych dany jest trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>MAK</mi></math> o wierzchołkach w punktach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>M</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>4</mn><mo>,</mo><mn>4</mn><mo>)</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mo>=</mo><mo>(</mo><mn>4</mn><mo>,</mo><mo>−</mo><mn>2</mn><mo>)</mo></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>K</mi><mo>=</mo><mo>(</mo><mn>7</mn><mo>,</mo><mn>2</mn><mo>)</mo></mrow></math>.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe. Wybraną odpowiedź zaznacz kółkiem.</p>",
@@ -215,7 +217,8 @@
       "points": 3,
       "topics": [
         "nierówności",
-        "wzory skróconego mnożenia"
+        "wzory skróconego mnożenia",
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Dana jest nierówność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>2</mn><mo>+</mo><mi>x</mi><msqrt><mn>3</mn></msqrt><mo>)</mo><mo>(</mo><mn>2</mn><mo>−</mo><mi>x</mi><msqrt><mn>3</mn></msqrt><mo>)</mo><mo>−</mo><msup><mrow><mo>(</mo><mn>3</mn><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>≤</mo><mn>6</mn><mi>x</mi><mo>+</mo><mo>(</mo><mn>2</mn><mo>−</mo><mi>x</mi><mo>)</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>−</mo><msup><mrow><mo>(</mo><mi>x</mi><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup></mrow></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza niewiadomą.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe. Wybraną odpowiedź zaznacz kółkiem.</p>",
       "choices": [
@@ -250,8 +253,9 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki",
-        "reszta z dzielenia"
+        "ostatnia cyfra / cykliczność potęg",
+        "pierwiastki zagnieżdżone",
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>Poniżej podane są zdania dotyczące potęg i pierwiastków.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe. Wybraną odpowiedź zaznacz kółkiem.</p>",
       "choices": [
@@ -308,7 +312,8 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "bryły"
+        "podobieństwo i skala",
+        "bryły obrotowe"
       ],
       "prompt_html": "<p>Janek kupił mydło w kształcie dużej kuli. W ciągu 26 dni mydło zużyło się tak, że została z niego kula o promieniu trzy razy mniejszym niż początkowo. Na ile dni, przy takim samym dziennym zużyciu, wystarczy Jankowi tego mydła?</p><p>Wpisz tylko odpowiedź.</p>",
       "choices": [],
@@ -354,7 +359,7 @@
       "points": 2,
       "topics": [
         "graniastosłupy",
-        "potęgi i pierwiastki"
+        "notacja wykładnicza"
       ],
       "prompt_html": "<p>Pole powierzchni całkowitej pewnego sześcianu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,5</mn><mo>·</mo><msup><mn>10</mn><mn>8</mn></msup></mrow></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>cm</mi><mn>2</mn></msup></math>.</p><p>Uzupełnij zdania, wpisując w puste miejsca tylko liczby (nie musisz zapisywać wykonanych obliczeń).</p><ul><li>a) Długość krawędzi tego sześcianu zapisana w notacji wykładniczej wynosi …</li><li>b) Objętość tego sześcianu zapisana w notacji wykładniczej wynosi …</li></ul>",
       "choices": [],
@@ -377,7 +382,8 @@
       "points": 5,
       "topics": [
         "graniastosłupy",
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Podczas lekcji matematyki Janek rozciął kwadratową kartkę papieru na dwa przystające prostokąty. Następnie każdy prostokąt złożył w ten sposób, że otrzymał powierzchnie boczne dwóch różnych graniastosłupów prawidłowych czworokątnych. Antek, jego kolega, obliczył, że suma objętości tych graniastosłupów wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>192</mn></mrow></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>cm</mi><mn>3</mn></msup></math>. Oblicz pole powierzchni kartki, którą rozciął Janek. Zapisz wszystkie obliczenia.</p>",
       "choices": [],
@@ -446,8 +452,8 @@
       "points": 5,
       "topics": [
         "czworokąty",
-        "pole i obwód",
-        "wzory skróconego mnożenia"
+        "wzory skróconego mnożenia",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ROMB</mi></math> i romb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AMOR</mi></math> położone są tak, jak na rysunku. Różnica długości przekątnych rombu jest równa 20 cm. Oblicz różnicę pól kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ROMB</mi></math> i rombu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AMOR</mi></math>. Zapisz wszystkie obliczenia.</p>",
       "choices": [],

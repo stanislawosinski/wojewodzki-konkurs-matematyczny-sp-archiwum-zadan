@@ -40,8 +40,9 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki",
-        "reszta z dzielenia"
+        "ostatnia cyfra / cykliczność potęg",
+        "reszta z dzielenia",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Wyznacz cyfrę jedności liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>7</mn><mn>2021</mn></msup><mo>+</mo><msup><mn>7</mn><mn>2023</mn></msup></mrow></math>.</p>",
       "choices": [],
@@ -85,8 +86,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "równania z jedną zmienną",
-        "zagadki logiczne"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>W trzech szufladach są schowane 72 długopisy. Połowę długopisów z trzeciej szuflady przełożono do drugiej szuflady, a następnie z pierwszej przełożono do trzeciej 20 długopisów. Teraz w pierwszych dwóch szufladach jest po tyle samo długopisów, a w trzeciej jest ich tyle, ile w dwóch pierwszych razem. Ile długopisów znajdowało się na początku w trzeciej szufladzie?</p>",
       "choices": [],
@@ -155,7 +155,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "podzielność"
+        "podzielność",
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Znajdź wszystkie dodatnie liczby całkowite <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math>, dla których liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>91</mn><mrow><mi>k</mi><mo>+</mo><mn>5</mn></mrow></mfrac></math> jest liczbą całkowitą.</p>",
       "choices": [],
@@ -201,6 +202,7 @@
       "points": 4,
       "topics": [
         "koła / okręgi",
+        "kąty",
         "trójkąty",
         "pole i obwód"
       ],

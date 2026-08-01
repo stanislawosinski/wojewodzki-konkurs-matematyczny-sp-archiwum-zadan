@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zagadki logiczne"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Dana jest liczba trzycyfrowa, której suma cyfr wynosi 15. Cyfra dziesiątek tej liczby jest możliwie największą wśród cyfr liczbą pierwszą, zaś cyfra jedności stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> cyfry setek.</p><p><strong>Wskaż tę liczbę wśród poniższych.</strong></p>",
       "choices": [
@@ -190,8 +190,7 @@
       "points": 3,
       "topics": [
         "czworokąty",
-        "pole i obwód",
-        "zagadki logiczne"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Poniższy rysunek składa się z samych prostokątów. Wiadomo, że szary prostokąt jest kwadratem. Liczby umieszczone wewnątrz poszczególnych prostokątów wyrażają ich pola.</p><p><strong>Oblicz pole prostokąta</strong> oznaczonego znakiem zapytania.</p><p>Zapisz obliczenia.</p>",
       "choices": [],
@@ -259,7 +258,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "zliczanie / metody zliczania"
+        "zbiory / zasada włączeń i wyłączeń"
       ],
       "prompt_html": "<p>W pewnej klasie jest 28 uczniów. Wielu z nich uczęszcza na dodatkowe zajęcia z języków obcych. 12 uczniów uczęszcza na dodatkowe zajęcia tylko z języka francuskiego. 7 uczniów uczęszcza na zajęcia dodatkowe zarówno z języka francuskiego, jak i włoskiego. 4 uczniów nie bierze udziału w żadnych zajęciach dodatkowych. Pozostali uczęszczają tylko na dodatkowe zajęcia języka włoskiego.</p><p><strong>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe lub F jeśli zdanie jest fałszywe.</strong></p>",
       "choices": [
@@ -285,7 +284,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach",
+        "działania na potęgach"
       ],
       "prompt_html": "<p><strong>Oblicz wartość wyrażenia.</strong></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msqrt><mn>256</mn></msqrt><mo>−</mo><mfrac><mn>1</mn><msqrt><mn>25</mn></msqrt></mfrac><mo>:</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>·</mo><msqrt><mfrac><mn>49</mn><mn>64</mn></mfrac></msqrt><mo>·</mo><mn>1</mn><mfrac><mn>1</mn><mn>7</mn></mfrac></mrow><mrow><msup><mn>2</mn><mn>7</mn></msup><mo>:</mo><msup><mn>2</mn><mn>6</mn></msup><mo>+</mo><msqrt><mrow><mn>1</mn><mfrac><mn>9</mn><mn>16</mn></mfrac><mo>·</mo><mroot><mn>64</mn><mn>3</mn></mroot><mo>·</mo><msup><mn>5</mn><mn>2</mn></msup><mo>·</mo><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>)</mo></mrow><mn>3</mn></msup></mrow></msqrt></mrow></mfrac></math></p>",
       "choices": [],
@@ -307,7 +307,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>W dwóch hurtowniach było po tyle samo główek kapusty. W pierwszej hurtowni sprzedano najpierw 120 główek kapusty, a potem jeszcze dwie piąte z pozostałych. W drugiej hurtowni sprzedano tyle główek kapusty, ile wynosi dwukrotność największej liczby pierwszej mniejszej od 100. Wtedy okazało się, że w każdej hurtowni znowu jest tyle samo główek kapusty.</p><p><strong>Ile główek kapusty pozostało łącznie w dwóch hurtowniach?</strong> Zapisz obliczenia.</p>",
       "choices": [],
@@ -330,7 +331,6 @@
       "points": 4,
       "topics": [
         "czworokąty",
-        "trójkąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>Dany jest trapez równoramienny. Krótsza podstawa i ramiona trapezu mają po 10 cm długości. Ramię trapezu jest nachylone do dłuższej podstawy pod kątem 60°. <strong>Oblicz pole i obwód tego trapezu.</strong> Zapisz obliczenia.</p>",

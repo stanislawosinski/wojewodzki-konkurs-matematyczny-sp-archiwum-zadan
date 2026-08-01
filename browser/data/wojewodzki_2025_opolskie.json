@@ -52,7 +52,9 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki"
+        "liczby wymierne i niewymierne",
+        "wzory skróconego mnożenia",
+        "wartość bezwzględna"
       ],
       "prompt_html": "<p>Liczbą wymierną nieujemną jest:</p>",
       "choices": [
@@ -88,8 +90,7 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "reszta z dzielenia",
-        "podzielność"
+        "reszta z dzielenia"
       ],
       "prompt_html": "<p>Liczbę dwucyfrową dzielimy przez sumę jej cyfr. Możemy otrzymać resztę:</p>",
       "choices": [
@@ -125,8 +126,8 @@
       "points": 2,
       "topics": [
         "czworokąty",
-        "pole i obwód",
-        "procenty"
+        "procenty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Janek, Franek i Staszek otrzymali jednakowe prostokątne kartki papieru i mieli zadanie wyciąć z tej kartki jak największy romb. Staszek wykonał zadanie najlepiej. Jego romb miał przekątne długości 30 cm i 40 cm. Większego nie można było wyciąć.</p>",
       "choices": [
@@ -162,7 +163,8 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "ostrosłupy"
+        "ostrosłupy",
+        "siatki brył"
       ],
       "prompt_html": "<p>Można zbudować ostrosłup, którego siatka składa się tylko:</p>",
       "choices": [
@@ -197,7 +199,7 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "procenty",
+        "stężenie procentowe / mieszaniny",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>W naczyniu był 10% roztwór kwasu octowego (można taki kupić w sklepie spożywczym). Dolano do niego 450 g wody i wówczas otrzymano roztwór 6%. Ile gramów roztworu było w naczyniu przed dolaniem wody?</p>",
@@ -220,8 +222,8 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "podzielność",
         "wzory skróconego mnożenia",
+        "podzielność",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Udowodnij, że różnica kwadratów dwóch kolejnych liczb nieparzystych jest podzielna przez 8.</p>",
@@ -244,8 +246,8 @@
       "type": "open",
       "points": 5,
       "topics": [
+        "wielokąty",
         "trójkąty",
-        "kąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>W pewnym pięciokącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDE</mi></math> dwa sąsiednie kąty (przy wierzchołkach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>) są proste, a trzy pozostałe tej samej miary. Bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><msqrt><mn>3</mn></msqrt></math> cm, pozostałe są równej długości. Oblicz pole tego pięciokąta.</p>",
@@ -268,8 +270,8 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "bryły",
-        "potęgi i pierwiastki"
+        "graniastosłupy",
+        "porównywanie potęg i pierwiastków"
       ],
       "prompt_html": "<p>Czy prostopadłościan o wymiarach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn></math> cm zmieści się w kuli o promieniu długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>3</mn></msqrt></math> cm? Odpowiedź uzasadnij.</p>",
       "choices": [],
@@ -291,8 +293,7 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "ostrosłupy",
-        "potęgi i pierwiastki"
+        "ostrosłupy"
       ],
       "prompt_html": "<p>Objętość ostrosłupa prawidłowego czworokątnego o krawędzi podstawy długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>10</mn></msqrt></math> cm wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>480</mn></math> cm³. Oblicz pole powierzchni całkowitej tego ostrosłupa.</p>",
       "choices": [],

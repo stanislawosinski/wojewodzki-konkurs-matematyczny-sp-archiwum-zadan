@@ -17,8 +17,7 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "reszta z dzielenia",
-        "zagadki logiczne"
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>W pewnym miesiącu trzy soboty przypadały w parzyste dni.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
       "choices": [
@@ -53,6 +52,7 @@
       "type": "true_false",
       "points": 2,
       "topics": [
+        "zmiany procentowe",
         "procenty"
       ],
       "prompt_html": "<p>Drukarz wydrukował w poniedziałek 3300 plakatów przekraczając dzienny plan o 20%.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
@@ -89,7 +89,7 @@
       "points": 2,
       "topics": [
         "NWW / NWD",
-        "podzielność"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Mamy dwie liczby: 330 i liczbę o rozkładzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>5</mn><mo>·</mo><mn>7</mn><mo>·</mo><mn>11</mn></math>.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
       "choices": [
@@ -125,8 +125,7 @@
       "points": 2,
       "topics": [
         "czworokąty",
-        "pole i obwód",
-        "potęgi i pierwiastki"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Boki równoległoboku mają długości 9 cm i 5 cm, a pole jest równe 36 cm².</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
       "choices": [
@@ -162,7 +161,7 @@
       "points": 2,
       "topics": [
         "podzielność",
-        "potęgi i pierwiastki"
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Przy każdym zdaniu wpisz TAK lub NIE.</p><p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>8</mn></msup><mo>+</mo><msup><mn>3</mn><mn>8</mn></msup><mo>+</mo><msup><mn>3</mn><mn>8</mn></msup><mo>+</mo><msup><mn>3</mn><mn>8</mn></msup></math> jest:</p>",
       "choices": [
@@ -220,8 +219,8 @@
       "points": 5,
       "topics": [
         "czworokąty",
-        "pole i obwód",
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Oblicz pole rombu, którego obwód wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>80</mn></msqrt></math>, a jeden z kątów ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>120</mn><mo>°</mo></math>.</p>",
       "choices": [],
@@ -243,8 +242,7 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "równania z jedną zmienną",
-        "zagadki logiczne"
+        "układy równań"
       ],
       "prompt_html": "<p>Suma cyfr liczby dwucyfrowej wynosi 11. Jeżeli przestawimy cyfry tej liczby, to otrzymamy liczbę o 9 większą od danej. Znajdź tę liczbę.</p>",
       "choices": [],
@@ -288,8 +286,7 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "procenty",
-        "równania z jedną zmienną"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Cenę towaru podwyższono o 30%, a następnie obniżono o 20% i obecnie wynosi 364 zł. Czy cena końcowa jest wyższa, czy niższa od początkowej? O ile procent zmieniła się? Jaka była cena początkowa tego towaru?</p>",
       "choices": [],
@@ -311,9 +308,7 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "graniastosłupy",
-        "trójkąty",
-        "potęgi i pierwiastki"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Pole powierzchni drewnianej kostki sześciennej było równe 24 cm². Ścięto jeden narożnik tego sześcianu płaszczyzną przechodzącą przez środki trzech krawędzi wychodzących z jednego wierzchołka. Oblicz pole powierzchni tak otrzymanej bryły.</p>",
       "choices": [],

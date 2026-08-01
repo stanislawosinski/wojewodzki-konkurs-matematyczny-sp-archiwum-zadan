@@ -125,7 +125,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "stężenie procentowe / mieszaniny"
       ],
       "prompt_html": "<p>8 kg roztworu soli o stężeniu 4% zmieszano z 4 kg roztworu soli o stężeniu 7%. Otrzymano roztwór o stężeniu:</p>",
       "choices": [
@@ -152,7 +152,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "wzrost wykładniczy"
       ],
       "prompt_html": "<p>Piłka upuszczona swobodnie z wysokości 10 m, odbija się od podłogi za każdym razem na wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>10</mn></mfrac></math> wysokości poprzedniej. Jaką wysokość osiągnie piłka po 5 odbiciu?</p>",
       "choices": [
@@ -206,7 +206,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mn>2</mn><mn>50</mn></msup><mo>·</mo><msup><mn>3</mn><mn>40</mn></msup></mrow><msup><mn>36</mn><mn>10</mn></msup></mfrac></math> jest równa:</p>",
       "choices": [
@@ -289,7 +289,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "zliczanie / metody zliczania",
+        "szacowanie (zamiast obliczania)"
       ],
       "prompt_html": "<p>Ile jest liczb naturalnych, które mają zaokrąglenie do setek równe 3400?</p>",
       "choices": [
@@ -316,7 +317,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Pociąg wyjeżdża ze Szczecina o godzinie 15:15, a do Zakopanego przyjeżdża o godzinie 7:34. Podróż tym pociągiem trwa:</p>",
       "choices": [
@@ -398,7 +399,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "pierwiastki zagnieżdżone",
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Wartością wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><mn>27</mn><mroot><mrow><mn>3</mn><msqrt><mn>81</mn></msqrt></mrow><mn>3</mn></mroot></mrow></msqrt></math> jest liczba:</p>",
       "choices": [
@@ -425,7 +427,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "nierówności"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest dodatnia, a liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest ujemna. Zatem wartość dodatnią zawsze przyjmuje wyrażenie:</p>",
       "choices": [
@@ -452,7 +454,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "proporcjonalność prosta"
+        "podobieństwo i skala"
       ],
       "prompt_html": "<p>Mapa obszaru o powierzchni 450 km² ma wymiary 1 m × 50 cm. Jaka jest skala mapy?</p>",
       "choices": [
@@ -479,7 +481,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Cenę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> pewnego towaru obniżono o 20% i otrzymano cenę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>. Aby przywrócić cenę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, nową cenę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> należy podnieść o</p>",
       "choices": [
@@ -534,8 +536,8 @@
       "points": 1,
       "topics": [
         "czworokąty",
-        "pole i obwód",
-        "podzielność"
+        "podzielność",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Z 24 kwadratów o boku długości 1 zbudowano prostokąt. Która z podanych liczb nie może być obwodem otrzymanego prostokąta?</p>",
       "choices": [
@@ -562,8 +564,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty",
-        "kąty"
+        "kąty",
+        "czworokąty"
       ],
       "prompt_html": "<p>Kąty wewnętrzne przy wierzchołkach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> trapezu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> są równe odpowiednio 70° i 120°. Wówczas przedłużenia ramion trapezu tworzą kąt:</p>",
       "choices": [
@@ -590,7 +592,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zagadki logiczne"
+        "reszta z dzielenia"
       ],
       "prompt_html": "<p>Marysia mieszka w wieżowcu w mieszkaniu nr 17. Parter domu zajmują sklepy. Na każdym piętrze znajdują się 3 mieszkania. Na którym piętrze mieszka Marysia?</p>",
       "choices": [
@@ -618,6 +620,7 @@
       "points": 1,
       "topics": [
         "trójkąty",
+        "czworokąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>Z trzech trójkątów prostokątnych równoramiennych zbudowano trapez równoramienny. Pole jednego trójkąta wynosi 25 cm². Wynika z tego, że:</p>",
@@ -646,7 +649,8 @@
       "points": 1,
       "topics": [
         "trójkąty",
-        "pole i obwód"
+        "pole i obwód",
+        "szacowanie (zamiast obliczania)"
       ],
       "prompt_html": "<p>Z drutu zbudowano model trójkąta prostokątnego o przyprostokątnych długości 5 cm i 6 cm. Które zdanie jest nieprawdziwe?</p>",
       "choices": [

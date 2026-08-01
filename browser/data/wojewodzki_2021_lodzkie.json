@@ -153,7 +153,8 @@
       "type": "closed_single",
       "points": 5,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "ujemny wykładnik"
       ],
       "prompt_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>[</mo><msup><mrow><mo>(</mo><mfrac><mn>5</mn><mn>7</mn></mfrac><mo>)</mo></mrow><mrow><mo>−</mo><mn>2</mn></mrow></msup><mo>·</mo><msup><mrow><mo>(</mo><mn>1</mn><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>)</mo></mrow><mn>4</mn></msup><mo>]</mo><mo>·</mo><mo>(</mo><msup><mn>7</mn><mrow><mo>−</mo><mn>6</mn></mrow></msup><mo>:</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>6</mn></mrow></msup><mo>)</mo></mrow></math> jest równa:</p>",
       "choices": [
@@ -199,7 +200,7 @@
       "points": 5,
       "topics": [
         "prawdopodobieństwo",
-        "kombinatoryka"
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Prawdopodobieństwo wylosowania spośród wszystkich liczb trzycyfrowych liczby, której suma cyfr jest równa 3, wynosi:</p>",
       "choices": [
@@ -244,7 +245,7 @@
       "type": "closed_single",
       "points": 5,
       "topics": [
-        "wyrażenia algebraiczne"
+        "wartość bezwzględna"
       ],
       "prompt_html": "<p>Wiadomo, że liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> spełnia warunek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>&lt;</mo><mi>a</mi><mo>&lt;</mo><mn>5</mn></math>. Wówczas wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>a</mi><mo>−</mo><mn>5</mn><mo>|</mo><mo>−</mo><mo>|</mo><mn>6</mn><mo>−</mo><mi>a</mi><mo>|</mo></mrow></math> przyjmuje wartość:</p>",
       "choices": [
@@ -289,6 +290,7 @@
       "type": "closed_single",
       "points": 5,
       "topics": [
+        "liczby pierwsze",
         "podzielność"
       ],
       "prompt_html": "<p>Symbol <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>!</mo></math> (czytamy <em>n silnia</em>) oznacza iloczyn liczb naturalnych od 1 do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>!</mo><mo>=</mo><mn>1</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>4</mn><mo>·</mo><mn>5</mn></math>. Która z poniższych liczb <strong>nie</strong> jest liczbą naturalną?</p>",
@@ -334,8 +336,9 @@
       "type": "closed_single",
       "points": 5,
       "topics": [
+        "dwusieczna kąta / symetralna odcinka",
         "trójkąty",
-        "dwusieczna kąta / symetralna odcinka"
+        "kąty"
       ],
       "prompt_html": "<p>W pewnym trójkącie równoramiennym dwusieczne kątów przy podstawie przecinają się pod kątem 110º. Ile wynosi miara kąta między ramionami w tym trójkącie?</p>",
       "choices": [
@@ -429,9 +432,8 @@
       "type": "true_false",
       "points": 10,
       "topics": [
-        "trójkąty",
         "okrąg wpisany i opisany",
-        "koła / okręgi",
+        "trójkąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>Przedstawione na rysunku trójkąty są równoboczne. Promień okręgu jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>3</mn></msqrt></math>.</p><p>Oceń prawdziwość zdań.</p>",
@@ -516,7 +518,7 @@
       "type": "open",
       "points": 8,
       "topics": [
-        "bryły",
+        "bryły obrotowe",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Wykaż, że jeżeli trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> obraca się wokół boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> o długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, to objętość bryły otrzymanej w ten sposób jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>3</mn></mfrac><mi>π</mi><mfrac><msup><mi>S</mi><mn>2</mn></msup><mi>a</mi></mfrac></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> jest polem trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>.</p>",
@@ -565,7 +567,8 @@
       "type": "open",
       "points": 7,
       "topics": [
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "ułamki"
       ],
       "prompt_html": "<p>Uporządkuj rosnąco liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>,</mo><mi>y</mi><mo>,</mo><mi>z</mi></math> jeśli:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><mi>x</mi><mo>+</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></mfrac></mrow></mfrac></mrow></mfrac><mo>=</mo><mn>2</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mrow><mi>y</mi><mo>+</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></mfrac></mrow></mfrac></mrow></mfrac><mo>=</mo><mn>2</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mrow><mi>z</mi><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></mfrac></mrow></mfrac></mrow></mfrac><mo>=</mo><mn>2</mn></math></p>",
       "choices": [],
@@ -590,8 +593,9 @@
       "type": "open",
       "points": 6,
       "topics": [
-        "potęgi i pierwiastki",
-        "wzory skróconego mnożenia"
+        "pierwiastki zagnieżdżone",
+        "wzory skróconego mnożenia",
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Oblicz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>2020</mn><mn>2</mn></msup><mo>+</mo><mn>4041</mn></mrow></msqrt><mo>−</mo><msqrt><mrow><mn>2020</mn><mo>·</mo><msqrt><mrow><mn>1</mn><mo>+</mo><mn>2019</mn><mo>·</mo><mn>2021</mn></mrow></msqrt></mrow></msqrt></math>.</p>",
       "choices": [],

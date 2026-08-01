@@ -17,6 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "kąty",
         "trójkąty"
       ],
       "prompt_html": "<p>W trójkącie stosunek miar kątów jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>:</mo><mn>5</mn><mo>:</mo><mn>7</mn></mrow></math>. Najmniejszy kąt tego trójkąta ma miarę:</p>",
@@ -99,7 +100,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "notacja wykładnicza",
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Księżyc ma powierzchnię około <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3,79</mn><mo>·</mo><msup><mn>10</mn><mn>13</mn></msup></mrow></math> m². Ile to kilometrów kwadratowych? Wybierz właściwą odpowiedź spośród podanych.</p>",
       "choices": [
@@ -126,8 +128,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną",
-        "podzielność"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Dzielimy bez reszty dwie liczby naturalne. Dzielna jest 6 razy większa od dzielnika, a dzielnik jest 5 razy większy od ilorazu. Zatem dzielna jest liczbą:</p>",
       "choices": [
@@ -154,7 +155,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "ostrosłupy"
+        "liczba krawędzi, ścian i wierzchołków"
       ],
       "prompt_html": "<p>Ile wierzchołków ma ostrosłup, w którym suma liczby wszystkich ścian i liczby wszystkich krawędzi wynosi 25.</p>",
       "choices": [
@@ -181,7 +182,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "wyłączanie czynnika przed znak pierwiastka",
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Suma liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>48</mn></msqrt></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>75</mn></msqrt></math> jest równa:</p>",
       "choices": [
@@ -208,6 +210,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "ułamki okresowe / rozwinięcia dziesiętne",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>2026 cyfrą po przecinku rozwinięcia dziesiętnego liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>1025</mn></mfrac></math> jest:</p>",
@@ -263,7 +266,7 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Ile składników <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>6</mn><mn>6</mn></msup></math> trzeba dodać, aby otrzymać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>12</mn><mn>6</mn></msup></math>?</p>",
       "choices": [],
@@ -285,8 +288,9 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "trójkąty",
-        "dwusieczna kąta / symetralna odcinka"
+        "dwusieczna kąta / symetralna odcinka",
+        "kąty",
+        "trójkąty"
       ],
       "prompt_html": "<p>Dany jest trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> o kącie 100° przy wierzchołku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>. Kąt między dwusieczną tego kąta, a wysokością poprowadzoną z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> ma miarę 20°. Oblicz miarę kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CAB</mi></math>. Zapisz wszystkie obliczenia.</p>",
       "choices": [],
@@ -335,8 +339,8 @@
       "type": "open",
       "points": 2,
       "topics": [
+        "zmiany procentowe",
         "koła / okręgi",
-        "procenty",
         "pole i obwód"
       ],
       "prompt_html": "<p>Dane są dwa koła. Promień pierwszego koła jest większy od promienia drugiego koła o 40%. O ile procent pole pierwszego koła jest większe od pola drugiego koła? Zapisz wszystkie obliczenia.</p>",
@@ -360,6 +364,7 @@
       "points": 2,
       "topics": [
         "podzielność",
+        "wyłączanie wspólnego czynnika przed nawias",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Uzasadnij, że jeśli w liczbie trzycyfrowej, cyfra jedności jest o 2 większa od cyfry dziesiątek, a cyfra setek o 2 większa od cyfry jedności, to liczba ta jest podzielna przez 3. Zapisz wszystkie obliczenia.</p>",
@@ -405,8 +410,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "graniastosłupy",
-        "potęgi i pierwiastki"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Krawędź podstawy graniastosłupa prawidłowego czworokątnego ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><msqrt><mn>6</mn></msqrt></mrow></math>. Przekątna tego graniastosłupa tworzy z płaszczyzną podstawy kąt o mierze 60°. Jaka jest wysokość tego graniastosłupa? Zapisz wszystkie obliczenia.</p>",
       "choices": [],
@@ -452,8 +456,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "prawdopodobieństwo",
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "prawdopodobieństwo"
       ],
       "prompt_html": "<p>W zestawie pytań konkursowych znajduje się 45 zadań z trzech różnych działów matematyki. Zadań z geometrii jest o 5 mniej niż zadań z algebry, a zadań z arytmetyki jest dwa razy więcej niż zadań z geometrii. Oblicz prawdopodobieństwo wylosowania, przez uczestnika konkursu, zadania innego niż zadanie z geometrii. Zapisz obliczenia.</p>",
       "choices": [],
@@ -476,7 +480,6 @@
       "points": 3,
       "topics": [
         "pierścień kołowy",
-        "koła / okręgi",
         "pole i obwód"
       ],
       "prompt_html": "<p>Basen ma kształt koła o średnicy 12 m. Wokół basenu ma powstać trawnik o szerokości 1,5 m przylegający ściśle do jego brzegu (patrz rysunek). Ile opakowań nasion trawy należy kupić, aby obsiać tę powierzchnię. Wiemy, że 1 opakowanie wystarcza na 10 m² trawnika. W obliczeniach przyjmij, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>π</mi><mo>=</mo><mn>3</mn></mrow></math>. Zapisz obliczenia.</p>",
@@ -501,7 +504,6 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "kombinatoryka",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Rozważamy wszystkie liczby czterocyfrowe zbudowane z cyfr 7, 0, 2, 9. Cyfry w tych liczbach nie powtarzają się. Znajdź sumę cyfr wszystkich tych liczb. Zapisz obliczenia.</p>",
@@ -524,7 +526,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "ostrosłupy"
+        "ostrosłupy",
+        "siatki brył"
       ],
       "prompt_html": "<p>Na rysunku obok przedstawiono kwadrat, który jest siatką pewnego ostrosłupa. Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math> są środkami odcinków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math>. Korzystając z zaznaczonego wymiaru oblicz objętość i pole powierzchni całkowitej tej bryły. Zapisz obliczenia.</p>",
       "choices": [],

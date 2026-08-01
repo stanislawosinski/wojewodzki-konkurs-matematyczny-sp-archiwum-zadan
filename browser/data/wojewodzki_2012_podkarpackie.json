@@ -143,7 +143,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "wzrost wykładniczy",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Piłka, która spadła z półki regału odbija się od podłogi, za każdym razem na wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac></math> poprzedniej wysokości. Z jakiej wysokości spadła piłka, skoro po trzecim odbiciu znajduje się na wysokości 6,4 cm?</p>",
@@ -185,6 +185,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "NWW / NWD",
         "podzielność"
       ],
       "prompt_html": "<p>Wskaż zdanie <u>fałszywe</u>.</p>",
@@ -311,8 +312,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "proporcjonalność prosta",
-        "zagadki logiczne"
+        "proporcjonalność prosta"
       ],
       "prompt_html": "<p>Trzej koledzy: Adam, Tomek i Paweł podczas ferii zimowych byli 15 razy na basenie. Adam 8 razy wykupił bilety dla całej trójki, a Tomek uczynił to 7 razy. Paweł oddał kolegom 30 zł, które jak obliczył był im winien za bilety na basen. Jak Adam i Tomek powinni podzielić te 30 zł między sobą, aby każdy z chłopców poniósł ten sam koszt?</p>",
       "choices": [
@@ -354,8 +354,8 @@
       "points": 2,
       "topics": [
         "czworokąty",
-        "pole i obwód",
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Obwód kwadratu jest o 24 cm większy od długości jego boku. Pole tego kwadratu wynosi:</p>",
       "choices": [
@@ -478,8 +478,9 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "procenty",
-        "zliczanie / metody zliczania"
+        "zbiory / zasada włączeń i wyłączeń",
+        "czworokąty",
+        "procenty"
       ],
       "prompt_html": "<p>Nauczyciel matematyki przygotował na lekcję 80 kartoników w kształcie rombów i prostokątów. Wśród nich 0,6 kartoników to romby, zaś 55% kartoników to prostokąty. Ile kartoników ma kształt kwadratu?</p>",
       "choices": [
@@ -613,8 +614,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "kąty",
-        "trójkąty"
+        "trójkąty",
+        "kąty"
       ],
       "prompt_html": "<p>W pięciokącie foremnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDE</mi></math> miara kąta wewnętrznego wynosi 108°. W pięciokącie tym zaznaczono punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> tak, że trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABK</mi></math> jest równoboczny. Jaką miarę ma zaznaczony kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AKE</mi></math>?</p>",
       "choices": [],
@@ -691,7 +692,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "bryły",
+        "czworokąty",
+        "graniastosłupy",
         "pole i obwód"
       ],
       "prompt_html": "<p>Plac zabaw zagospodarowano w sposób przedstawiony na rysunku. Do pokrycia asfaltem wyznaczonego terenu użyto 19,6 ton asfaltu. Oblicz, ile centymetrów grubości ma warstwa asfaltu na wyznaczonym terenie. Przyjmij, że metr sześcienny asfaltu waży 1,4 tony, a asfalt pokryto równą warstwą na całej powierzchni.</p>",
@@ -719,7 +721,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "procenty"
+        "stężenie procentowe / mieszaniny"
       ],
       "prompt_html": "<p>Świeżo zerwany arbuz zawiera 92% wody. Pan Maciej w swoim ogródku wyhodował dorodnego arbuza, który zaraz po zerwaniu ważył 8 kg. Po dwóch tygodniach arbuz stracił część zawartej w nim wody i teraz zawartość wody w arbuzie wynosi 91%. Ile waży arbuz po dwóch tygodniach od zerwania?</p>",
       "choices": [],
@@ -744,8 +746,7 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "równania z jedną zmienną",
-        "zagadki logiczne"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Robotnik kopał dół. Na pytanie przechodnia, jak głęboki będzie dół, odpowiedział: „Mam drewnianą listewkę długości 180 cm. Gdy wykopię dół do końca, moja listewka postawiona pionowo na dnie dołu, będzie o tyle centymetrów poniżej powierzchni ziemi, o ile teraz, gdy już wykopałem połowę głębokości dołu, jest powyżej niej.” Jaka będzie głębokość dołu?</p>",
       "choices": [],

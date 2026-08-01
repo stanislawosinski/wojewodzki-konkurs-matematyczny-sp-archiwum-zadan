@@ -17,8 +17,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
-        "wzory skróconego mnożenia"
+        "wzory skróconego mnożenia",
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>89</mn><mn>2</mn></msup><mo>−</mo><msup><mn>80</mn><mn>2</mn></msup></mrow></msqrt><mo>+</mo><msqrt><mrow><msup><mn>5</mn><mn>2</mn></msup><mo>+</mo><msup><mn>12</mn><mn>2</mn></msup></mrow></msqrt></math> wynosi:</p>",
       "choices": [
@@ -57,7 +57,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "reszta z dzielenia"
+        "ostatnia cyfra / cykliczność potęg",
+        "podzielność"
       ],
       "prompt_html": "<p>Iloczyn wszystkich liczb naturalnych nieparzystych od 1 do 99 jest liczbą, której cyfra jedności wynosi:</p>",
       "choices": [
@@ -214,7 +215,7 @@
       "points": 1,
       "topics": [
         "usuwanie niewymierności z mianownika",
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Odwrotnością liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><msqrt><mn>2</mn></msqrt></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow></mfrac></math> jest:</p>",
       "choices": [
@@ -253,7 +254,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Do liczby dwucyfrowej dopisujemy tą samą liczbę, w wyniku czego otrzymujemy liczbę czterocyfrową. Ile razy powstała liczba jest większa od wyjściowej?</p>",
       "choices": [
@@ -292,7 +293,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Ćwiartką liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>16</mn><mn>40</mn></msup></math> jest liczba:</p>",
       "choices": [
@@ -331,7 +332,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Cenę pewnego towaru obniżono najpierw o 20%, a potem jeszcze o 10%. Rzeczywista obniżka w procentach wyniosła:</p>",
       "choices": [
@@ -370,7 +371,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "proporcjonalność prosta"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Wiemy, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>x</mi><mo>−</mo><mi>y</mi></mrow><mi>y</mi></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>7</mn></mfrac></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>≠</mo><mn>0</mn></mrow></math>. Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>x</mi><mrow><mi>x</mi><mo>−</mo><mi>y</mi></mrow></mfrac></math> wynosi:</p>",
       "choices": [
@@ -527,8 +528,7 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "równania z jedną zmienną",
-        "zagadki logiczne"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Siostry Asia i Basia 2 lata temu miały w sumie tyle lat ile ma obecnie ich kuzynka Zosia. Za 3 lata suma wieku sióstr wyniesie tyle co podwojony dzisiejszy wiek Zosi.</p><p>Oceń prawdziwość zdań:</p>",
       "choices": [
@@ -567,7 +567,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki",
+        "notacja wykładnicza",
         "procenty"
       ],
       "prompt_html": "<p>Masa Ziemi to w przybliżeniu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>·</mo><msup><mn>10</mn><mn>24</mn></msup></mrow></math> kg, zaś masa Marsa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6,4</mn><mo>·</mo><msup><mn>10</mn><mn>23</mn></msup></mrow></math> kg.</p><p>Oceń prawdziwość poniższych zdań:</p>",
@@ -604,6 +604,7 @@
       "points": 4,
       "topics": [
         "czworokąty",
+        "wyrażenia algebraiczne",
         "pole i obwód"
       ],
       "prompt_html": "<p>Jeśli obwód prostokąta wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>16</mn><mi>x</mi><mo>−</mo><mn>4</mn></mrow></math>, a jeden z jego boków ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>x</mi><mo>−</mo><mn>4</mn></mrow></math>, to pole tego prostokąta jest równe:</p>",
@@ -684,6 +685,7 @@
       "points": 5,
       "topics": [
         "koła / okręgi",
+        "czworokąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>Dane są 2 okręgi o promieniu 6 cm każdy, położone na płaszczyźnie tak, że odległość pomiędzy ich środkami wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><msqrt><mn>3</mn></msqrt></mrow></math> cm.</p><p>Oceń prawdziwość zdań:</p>",
@@ -775,7 +777,9 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki"
+        "notacja wykładnicza",
+        "działania na potęgach",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Zapisz w notacji wykładniczej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><msup><mn>10</mn><mn>103</mn></msup><mo>−</mo><mn>9</mn><mo>·</mo><msup><mn>100</mn><mn>51</mn></msup><mo>−</mo><mn>80</mn><mo>·</mo><msup><mn>2</mn><mn>100</mn></msup><mo>·</mo><msup><mn>25</mn><mn>50</mn></msup><mo>−</mo><mn>3</mn><mo>·</mo><msup><mn>4</mn><mn>50</mn></msup><mo>·</mo><msup><mn>5</mn><mn>100</mn></msup></mrow></math></p>",
       "choices": [],
@@ -820,7 +824,8 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "proporcjonalność prosta"
+        "wyrażenia algebraiczne",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Dla liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>,</mo><mi>b</mi><mo>,</mo><mi>c</mi></mrow></math> różnych od zera zachodzi równość ilorazów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mi>c</mi></mfrac><mo>=</mo><mfrac><mrow><mi>b</mi><mo>+</mo><mi>c</mi></mrow><mi>a</mi></mfrac><mo>=</mo><mfrac><mrow><mi>c</mi><mo>+</mo><mi>a</mi></mrow><mi>b</mi></mfrac></mrow></math>. Wyznacz wartość tego ilorazu.</p>",
       "choices": [],

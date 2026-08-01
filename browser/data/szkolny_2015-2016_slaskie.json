@@ -18,7 +18,7 @@
       "points": 7,
       "topics": [
         "liczby rzymskie",
-        "zagadki logiczne"
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>W puste białe pola „liczbowej krzyżówki” wstaw liczby zapisane w <u>systemie rzymskim</u> tak, aby wszystkie działania i równości były poprawne. (Jeżeli zapiszesz liczby tylko cyframi arabskimi otrzymasz mniej punktów).</p>",
       "choices": [],
@@ -142,8 +142,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
-        "reszta z dzielenia"
+        "ostatnia cyfra / cykliczność potęg"
       ],
       "prompt_html": "<p>Cyfrą jedności liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>99993</mn><mn>3</mn></msup></math> jest</p>",
       "choices": [
@@ -222,8 +221,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "ułamki",
-        "równania z jedną zmienną"
+        "ułamki"
       ],
       "prompt_html": "<p>Wiktoria przeczytała 378 stron książki, co stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>9</mn></mfrac></math> wszystkich jej stron. Ile stron ma ta książka?</p>",
       "choices": [
@@ -302,7 +300,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty",
+        "kąty",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>W trójkącie o kątach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi></math>, kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> jest dwa razy większy od kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>, a kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math> kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math>. Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> ma miarę</p>",
@@ -381,7 +379,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "kąty"
       ],
       "prompt_html": "<p>Wskaż poprawne dokończenie zdania. W trójkącie rozwartokątnym dwa kąty <u>nie mogą</u> mieć miar równych</p>",
       "choices": [
@@ -420,7 +419,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zagadki logiczne"
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Ola wyjechała na obóz letni 26 lipca i wróciła 16 sierpnia. Ile nocy spędziła poza domem?</p>",
       "choices": [
@@ -459,8 +458,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kombinatoryka",
-        "koła / okręgi"
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Na okręgu zaznaczono 5 punktów. Ile jest wszystkich cięciw, których końcami są dane punkty?</p>",
       "choices": [
@@ -538,7 +536,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kąty"
+        "kąty",
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Wskazówki zegara – minutowa i godzinowa – o godzinie 16:12 tworzą kąt o mierze</p>",
       "choices": [
@@ -577,8 +576,8 @@
       "type": "true_false",
       "points": 6,
       "topics": [
-        "podzielność",
-        "dowodzenie / dowody"
+        "liczby pierwsze",
+        "podzielność"
       ],
       "prompt_html": "<p>Oceń prawdziwość następujących zdań. Zaznacz PRAWDA, jeśli zdanie jest prawdziwe, lub FAŁSZ, jeśli jest fałszywe.</p>",
       "choices": [
@@ -661,7 +660,6 @@
       "points": 4,
       "topics": [
         "czworokąty",
-        "trójkąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>W trapezie prostokątnym wysokość poprowadzona z wierzchołka kąta rozwartego ma długość 6 cm i dzieli ten trapez na kwadrat i trójkąt prostokątny równoramienny.</p><p>Oceń prawdziwość poniższych zdań. Zaznacz PRAWDA, jeśli zdanie jest prawdziwe, lub FAŁSZ, jeśli jest fałszywe.</p>",
@@ -747,8 +745,7 @@
       "points": 4,
       "topics": [
         "czworokąty",
-        "pole i obwód",
-        "równania z jedną zmienną"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Boki prostokąta mają długości 30 cm i 50 cm. Długość jednej pary boków równoległych zwiększono w taki sposób, że obwód powstałego prostokąta równa się obwodowi kwadratu o boku długości 62 cm. O ile cm zwiększono długość boku? Jakie wymiary może mieć tak otrzymany prostokąt? Przedstaw wszystkie rozwiązania.</p>",
       "choices": [],
@@ -770,7 +767,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "proporcjonalność prosta",
+        "podobieństwo i skala",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Wyścig kolarski składał się z 4 etapów. Cała trasa miała długość 360 km. Każdy kolejny etap był o 20 km dłuższy od poprzedniego. Na planie trasa pierwszego etapu ma długość 1,5 dm. W jakiej skali wykonano ten plan? Jaką długość na planie mają poszczególne odcinki trasy?</p>",

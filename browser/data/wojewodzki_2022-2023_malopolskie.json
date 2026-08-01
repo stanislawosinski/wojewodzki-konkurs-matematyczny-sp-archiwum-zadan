@@ -44,8 +44,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "trójkąty",
-        "proporcjonalność prosta"
+        "podobieństwo i skala",
+        "trójkąty"
       ],
       "prompt_html": "<p>Mężczyzna o wzroście 1,7 m rzuca cień o długości 4,25 m stojąc w linii prostej w odległości 15,75 m od podstawy zapalonej latarni (patrz rysunek poniżej). Jaka jest wysokość latarni?</p>",
       "choices": [
@@ -102,8 +102,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "reszta z dzielenia",
-        "podzielność"
+        "reszta z dzielenia"
       ],
       "prompt_html": "<p>Liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> są naturalne dodatnie, liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest podzielna przez 5. Przy dzieleniu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> otrzymano iloraz 25 i resztę 15. Ile jest równy iloraz i reszta z dzielenia liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mn>5</mn></mfrac></math> przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>b</mi><mn>5</mn></mfrac></math>?</p>",
       "choices": [
@@ -131,7 +130,7 @@
       "points": 2,
       "topics": [
         "graniastosłupy",
-        "podzielność"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Długości trzech krawędzi pierwszego prostopadłościanu są równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>,</mo><mi>n</mi><mo>+</mo><mn>2</mn><mo>,</mo><mi>n</mi><mo>+</mo><mn>4</mn></math>, a długości krawędzi drugiego prostopadłościanu są równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>+</mo><mn>2</mn><mo>,</mo><mi>n</mi><mo>+</mo><mn>4</mn><mo>,</mo><mi>n</mi><mo>+</mo><mn>6</mn></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest pewną dodatnią liczbą naturalną. Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>V</mi><mn>1</mn></msub></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>V</mi><mn>2</mn></msub></math> oznaczają odpowiednio objętość pierwszego i drugiego prostopadłościanu. Wówczas równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>V</mi><mn>2</mn></msub><mo>=</mo><mi>a</mi><mo>·</mo><msub><mi>V</mi><mn>1</mn></msub></math> ma rozwiązanie dla</p>",
       "choices": [
@@ -216,8 +215,8 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "reszta z dzielenia",
-        "zagadki logiczne"
+        "kalendarz i czas",
+        "reszta z dzielenia"
       ],
       "prompt_html": "<p>Jakim dniem tygodnia będzie 1 maja 3000 roku, jeśli w roku 3000 będzie mniej niedziel niż śród?</p>",
       "choices": [
@@ -274,8 +273,8 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "bryły",
-        "potęgi i pierwiastki"
+        "graniastosłupy",
+        "ostrosłupy"
       ],
       "prompt_html": "<p>Szklanka ma kształt graniastosłupa prawidłowego sześciokątnego, którego wszystkie krawędzie mają taką samą długość. Kieliszek ma kształt ostrosłupa prawidłowego trójkątnego, którego wszystkie krawędzie mają taką samą długość, co krawędź szklanki. Napełniamy szklankę wodą za pomocą kieliszka. Ile najwięcej pełnych kieliszków wody pomieści ta szklanka?</p>",
       "choices": [
@@ -360,7 +359,6 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "kombinatoryka",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Miasta A i B łączą dwie drogi dwukierunkowe, ponadto z miasta B do miasta A prowadzi jedna droga jednokierunkowa. Miasta B i C łączy jedna droga dwukierunkowa, a z miasta B do C prowadzi jedna droga jednokierunkowa. Miasta C i A są połączone jedną drogą dwukierunkową. Dodatkowo z miasta C do A prowadzi jedna droga jednokierunkowa, a z miasta A do C prowadzą dwie drogi jednokierunkowe. Wszystkie powyższe drogi są drogami bezpośrednimi, tzn. łączą dwa wskazane miasta bez przebiegania przez trzecie miasto. Ile jest różnych tras objazdowych tymi drogami, pozwalających odwiedzić miasta B i C dokładnie jeden raz, a miasto A dokładnie dwa razy: na początku i na końcu każdej trasy?</p>",
@@ -391,7 +389,8 @@
       "topics": [
         "układy równań",
         "podzielność",
-        "prawdopodobieństwo"
+        "prawdopodobieństwo",
+        "szacowanie (zamiast obliczania)"
       ],
       "prompt_html": "<p><strong>a)</strong> (4p) W pewnej liczbie dwucyfrowej potrojona cyfra jedności jest o 1 większa od podwojonej cyfry dziesiątek, natomiast potrojona cyfra dziesiątek jest o 11 większa od podwojonej cyfry jedności. Znajdź tę liczbę dwucyfrową. Zapisz obliczenia, które uzasadniają Twoją odpowiedź.</p><p><strong>b)</strong> (4p) Przed liczbą dwucyfrową otrzymaną w podpunkcie a) dopisano <strong>zaokrągle</strong>nie do pełnych jedności liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mn>250</mn><mn>3</mn></mroot></math>. Następnie na końcu tak otrzymanej nowej liczby trzycyfrowej dopisano dwie cyfry w sposób losowy. Oblicz, jakie jest prawdopodobieństwo, że w wyniku tych wszystkich operacji otrzymano liczbę podzielną przez 18. Zapisz obliczenia i uzasadnij odpowiedź.</p>",
       "choices": [],
@@ -440,9 +439,9 @@
       "type": "open",
       "points": 9,
       "topics": [
-        "kombinatoryka",
-        "prawdopodobieństwo",
-        "ostrosłupy"
+        "siatki brył",
+        "zliczanie / metody zliczania",
+        "prawdopodobieństwo"
       ],
       "prompt_html": "<p>Adam, Bartek, Czesiek i Darek mieli po dwa ostrosłupy trójkątne, których wszystkie ściany były przystającymi trójkątami równobocznymi. W każdym ostrosłupie ściany były z zewnątrz pomalowane na kolor biały, zielony, niebieski lub czerwony i każda ściana była w innym kolorze. Następnie każdy z chłopców skleił swoje dwa ostrosłupy białymi podstawami tak, że wierzchołki ścian pomalowanych na biało się pokryły.</p><p>W dalszej części zadania <strong><em>parą zgodną</em></strong> nazywamy takie dwie ściany, po jednej z każdego z dwóch sklejonych czworościanów, które mają wspólną krawędź i są pomalowane tym samym kolorem.</p><p><strong>a)</strong> (2p) Poniżej przedstawiono siatki dwóch ostrosłupów, których wszystkie ściany są przystającymi trójkątami równobocznymi. Wpisz w wyznaczone miejsca wewnątrz ścian każdej z siatek ostrosłupów symbole kolorów: <strong>b (biały), c (czerwony), n (niebieski), z (zielony)</strong> tak, aby <strong>każdy kolor wystąpił jeden raz</strong> oraz aby można było z ostrosłupów otrzymanych z poniższych siatek, po sklejeniu tych ostrosłupów białymi podstawami tak, aby wierzchołki białych ścian się pokryły, uzyskać wielościan o <strong>dokładnie</strong> jednej parze zgodnej.</p><p>UWAGA: Zakładamy, że wszystkie ściany siatek malujemy tylko z jednej, wspólnej strony płaszczyzny, na której obie siatki się znajdują.</p><p><strong>b)</strong> (1p) Czy z ostrosłupów powstałych z siatek otrzymanych w podpunkcie a) można, poprzez sklejenie ich białymi podstawami tak, aby wierzchołki białych ścian się pokryły, otrzymać wielościan, który nie ma pary zgodnej? Wpisz odpowiedź w miejsce wskazane poniżej.</p><p><strong>c)</strong> (4p) Gdy każdy z chłopców skleił swoje dwa ostrosłupy, okazało się, że Adam, Bartek, Czesiek i Darek otrzymali <u>cztery <strong>różne wielościany</strong></u>, które spełniały łącznie następujące trzy warunki:</p><ol type=\"i\"><li>przynajmniej jeden wielościan miał co najmniej dwie pary zgodne,</li><li>co najmniej dwa wielościany miały <strong>dokładnie jedną</strong> parę zgodną,</li><li>co najwyżej dwa wielościany miały <strong>dokładnie tę samą liczbę</strong> par zgodnych.</li></ol><p>Odpowiedz na pytania dotyczące wielościanów uzyskanych przez chłopców.</p><ol type=\"I\"><li>Ile chłopcy otrzymali wielościanów posiadających <strong>dokładnie trzy</strong> pary zgodne?</li><li>Ile chłopcy otrzymali wielościanów posiadających <strong>dokładnie dwie</strong> pary zgodne?</li><li>Ile chłopcy otrzymali wielościanów posiadających <strong>dokładnie jedną</strong> parę zgodną?</li><li>Ile chłopcy otrzymali wielościanów nieposiadających ani jednej pary zgodnej?</li></ol><p><strong>d)</strong> (2p) Wśród wielościanów otrzymanych przez Adama, Bartka, Czesia i Darka ile jest takich wielościanów, w których liczba par zgodnych jest nieparzysta i jakie jest prawdopodobieństwo wylosowania takiego wielościanu spośród tych otrzymanych przez chłopców? W rozwiązaniu podaj obie wartości liczbowe, których dotyczy pytanie.</p>",
       "choices": [],

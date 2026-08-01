@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Każdą cyfrę liczby pięciocyfrowej będącej wynikiem działania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>960</mn><mo>·</mo><mn>100</mn><mo>+</mo><mn>8</mn><mo>·</mo><mn>111</mn><mo>−</mo><mn>1</mn><mo>:</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></math> zmniejszono o 4. O ile zmniejszyła się ta liczba?</p>",
       "choices": [
@@ -56,7 +56,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "wielokąty"
       ],
       "prompt_html": "<p>Ile przekątnych wychodzi z jednego wierzchołka dwudziestoośmiokąta?</p>",
       "choices": [
@@ -215,7 +215,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "proporcjonalność prosta"
+        "podobieństwo i skala"
       ],
       "prompt_html": "<p>Na mapie w skali <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>:</mo><mn>1000000</mn></math> odległość z Krakowa do Warszawy jest równa 25 cm. Jaka jest odległość między tymi miastami na mapie o skali <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>:</mo><mn>400000</mn></math>?</p>",
       "choices": [
@@ -254,7 +254,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "zliczanie / metody zliczania"
+        "zbiory / zasada włączeń i wyłączeń"
       ],
       "prompt_html": "<p>Na wycieczce klasowej nauczycielka zorganizowała zabawę w odgadywanie kalamburów językowych w języku angielskim lub niemieckim. Z przeprowadzonej przez nią ankiety wynikało, że 17 uczniów znało język angielski, 11 język niemiecki, a 5 władało obydwoma językami. Ilu uczestników 30 osobowej wycieczki nie znało żadnego z wymienionych języków i nie wzięło udziału w zabawie?</p>",
       "choices": [
@@ -332,8 +332,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "zliczanie / metody zliczania",
-        "kombinatoryka"
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Wojtek lubi strzelać do tarczy przedstawionej na rysunku. Ma do dyspozycji 3 strzałki i wszystkie wykorzystuje. Na ile sposobów może otrzymać 20 punktów, jeśli nie rozróżniamy kolejności rzutów?</p>",
       "choices": [
@@ -530,7 +529,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "graniastosłupy"
+        "siatki brył"
       ],
       "prompt_html": "<p>Małgosia grając z koleżankami w „klasy” zauważyła, że część schematu zabawy stanowi siatkę pewnego sześcianu. Który punkt po sklejeniu siatki sześcianu w bryłę nałoży się na punkt X?</p>",
       "choices": [
@@ -572,6 +571,7 @@
       "points": 3,
       "topics": [
         "równania z jedną zmienną",
+        "liczby pierwsze",
         "podzielność"
       ],
       "prompt_html": "<p>Z trzech liczb naturalnych największa jest 7 razy większa od najmniejszej liczby, a środkowa jest 4 razy większa od najmniejszej z nich. Jeśli od największej liczby odejmiemy 260, a od najmniejszej odejmiemy 2, to otrzymamy równe wyniki. Znajdź te liczby, a następnie oceń prawdziwość podanych zdań.</p><p>Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli zdanie jest fałszywe.</p>",
@@ -607,7 +607,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "geometria",
+        "wielokąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>Dla przygotowujących się do egzaminu na kartę rowerową uruchomiono małe miasteczko komunikacyjne o kształcie i wymiarach podanych na rysunku. Na jego powierzchnię położono równomiernie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>126</mn><msup><mtext> m</mtext><mn>3</mn></msup></math> asfaltu.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli zdanie jest fałszywe.</p>",
@@ -646,7 +646,7 @@
       "points": 4,
       "topics": [
         "układy równań",
-        "równania z jedną zmienną"
+        "ułamki"
       ],
       "prompt_html": "<p>Po turnieju sudoku 150 jego uczestników z siódmej klasy szkoły podstawowej zostało zaproszonych na podwieczorek – galaretkę z całymi truskawkami. Kucharka przygotowała w tym celu 494 truskawki. Do niektórych salaterek włożyła 3 owoce, a do pozostałych 4.</p><ul><li>a) Ile było deserów z czterema truskawkami?</li><li>b) Ile złotych kosztował 1 kg truskawek, jeśli za ich 15 kg zapłacono <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mfrac><mn>87</mn><mn>99</mn></mfrac></math> razy więcej, niż za 50 galaretek po 99 groszy każda?</li></ul>",
       "choices": [],
@@ -668,7 +668,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "ułamki"
       ],
       "prompt_html": "<p>Dotychczasowy miesięczny koszt ogrzewania domu to 240 zł. Położenie dodatkowej izolacji cieplnej to inwestycja, która kosztowała 4200 zł.</p><ul><li>a) Po ilu miesiącach poniesione nakłady zwrócą się, jeśli ta izolacja daje oszczędności w wydatkach na ciepło w wielkości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>20</mn></mfrac></math> kosztów ogrzewania?</li><li>b) Ile miesięcy krócej należałoby czekać na zwrot kosztów inwestycji, gdyby miesięczne wydatki na ogrzewanie domu jeszcze zmalały po dwóch latach o 20 zł w wyniku zmiany dostawcy energii cieplnej?</li></ul>",
       "choices": [],

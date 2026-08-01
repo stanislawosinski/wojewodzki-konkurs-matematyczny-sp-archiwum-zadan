@@ -40,8 +40,9 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "trójkąty",
-        "dwusieczna kąta / symetralna odcinka"
+        "dwusieczna kąta / symetralna odcinka",
+        "kąty",
+        "trójkąty"
       ],
       "prompt_html": "<p>Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest równoramienny, przy czym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>AC</mi><mo>|</mo></mrow></math>. Dwusieczne kątów przy wierzchołkach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> przecinają się w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math>. Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BSC</mi></math> jest o 17° większy od kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BAC</mi></math>. Wyznacz miarę kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BAC</mi></math>.</p><p><em>Uwaga: wymienione w zadaniu kąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BSC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BAC</mi></math> są kątami wewnętrznymi trójkątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BSC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BAC</mi></math>.</em></p>",
       "choices": [],
@@ -63,7 +64,6 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "wzory skróconego mnożenia",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Liczby naturalne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> spełniają warunek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>b</mi><mn>2</mn></msup><mo>−</mo><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>11109</mn></mrow></math> oraz ułamki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mi>b</mi></mfrac></math> są równe. Oblicz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>.</p>",
@@ -110,7 +110,7 @@
       "points": 2,
       "topics": [
         "układ współrzędnych",
-        "proporcjonalność prosta"
+        "ułamki"
       ],
       "prompt_html": "<p>Na osi liczbowej punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math> leżą w tej właśnie kolejności, a odcinki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DE</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EF</mi></math> są tej samej długości. Jaka wartość odpowiada punktowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>, jeśli punktowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> odpowiada <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math>, a punktowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math> odpowiada <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>5</mn></mfrac></math>?</p>",
       "choices": [],
@@ -132,6 +132,7 @@
       "type": "open",
       "points": 2,
       "topics": [
+        "liczby pierwsze",
         "podzielność",
         "szacowanie (zamiast obliczania)"
       ],
@@ -155,10 +156,9 @@
       "type": "open",
       "points": 4,
       "topics": [
+        "wielokąty",
         "trójkąty",
-        "geometria",
-        "pole i obwód",
-        "potęgi i pierwiastki"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Pięciokąt wypukły ma wszystkie boki równe 10 cm oraz dwa kąty proste. Oblicz pole tego pięciokąta. Rozważ wszystkie możliwe przypadki.</p><p><em>Uwaga: pięciokąt wypukły to taki, którego wszystkie kąty wewnętrzne mają mniej niż 180°.</em></p>",
       "choices": [],
@@ -180,6 +180,7 @@
       "type": "open",
       "points": 4,
       "topics": [
+        "liczby pierwsze",
         "podzielność",
         "dowodzenie / dowody"
       ],
@@ -203,7 +204,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "procenty",
+        "zmiany procentowe",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Pewna firma sprzedaje cztery zestawy klocków: „Autobus”, „Boisko”, „Cukiernia” i „Dinopark”. Wiadomo, że „Boisko” jest o 25% droższe niż „Autobus”, a „Dinopark” jest o 10% tańszy niż „Cukiernia”. Ponadto „Boisko” jest o 85 zł droższe od „Cukierni”, a „Dinopark” jest o 4 zł droższy od „Autobusu”.</p><p>Jaka jest cena zestawu „Autobus”?</p>",

@@ -56,7 +56,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "ostatnia cyfra / cykliczność potęg",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Po wykonaniu potęgowania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>2015</mn></msup></math> ostatnia cyfra wyniku jest równa</p>",
@@ -96,7 +96,6 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kombinatoryka",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Cztery osoby siedzą na czterech krzesłach. W pewnym momencie wszystkie wstają z krzeseł, zaś po jakimś czasie siadają ponownie każda na jednym krześle. Na ile maksymalnie sposobów mogą usiąść, aby żadna z nich nie usiadła na początkowo zajmowanym krześle?</p>",
@@ -136,7 +135,6 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kombinatoryka",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>W turnieju piłki nożnej gra 7 drużyn systemem każdy z każdym, przy czym każda drużyna gra z drugą tylko raz. Ile wszystkich meczów zostanie rozegranych w tym turnieju?</p>",
@@ -293,8 +291,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "prawdopodobieństwo",
-        "podzielność"
+        "prawdopodobieństwo"
       ],
       "prompt_html": "<p>Z liczb 2, 3, 4, 5, 6, 8 losujemy jedną. Prawdopodobieństwo wylosowania liczby podzielnej przez 2 lub 3 jest równe</p>",
       "choices": [
@@ -333,7 +330,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "koła / okręgi"
+        "koła / okręgi",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Wskazówka minutowa zegara ściennego ma 12 cm długości. Koniec tej wskazówki w ciągu 5 minut przebędzie drogę, której długość jest równa</p>",
       "choices": [
@@ -372,7 +370,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "zmiany procentowe",
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Fabryka produkowała tygodniowo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> rowerów. Produkcja w tej fabryce wzrosła o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math>%. Ile rowerów obecnie produkuje fabryka w ciągu tygodnia?</p>",
       "choices": [
@@ -411,7 +410,6 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zagadki logiczne",
         "układy równań"
       ],
       "prompt_html": "<p>Michał i Kamila są rodzeństwem. Kamila ma trzy razy więcej braci niż sióstr, a Michał ma tyle samo braci co sióstr. Ile dzieci jest w tej rodzinie?</p>",
@@ -491,8 +489,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "czworokąty",
-        "pole i obwód"
+        "podobieństwo i skala"
       ],
       "prompt_html": "<p>Dwa prostokąty są podobne w skali <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>:</mo><mn>5</mn></math>. Stosunek ich pól jest równy</p>",
       "choices": [
@@ -609,7 +606,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "bryły obrotowe"
       ],
       "prompt_html": "<p>Stosunek objętości kuli do jej powierzchni całkowitej jest równy</p>",
       "choices": [
@@ -648,8 +645,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "ostrosłupy",
-        "potęgi i pierwiastki"
+        "podobieństwo i skala",
+        "ostrosłupy"
       ],
       "prompt_html": "<p>Objętości dwóch czworościanów foremnych są odpowiednio równe 64 cm³ i 125 cm³. Skala podobieństwa czworościanu o mniejszej objętości do czworościanu o większej objętości jest równa</p>",
       "choices": [
@@ -688,7 +685,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "bryły obrotowe"
       ],
       "prompt_html": "<p>Do puszki w kształcie walca o średnicy dna 20 cm wrzucono kamień. Poziom wody podniósł się o 1 cm. Objętość kamienia jest równa</p>",
       "choices": [
@@ -728,7 +725,7 @@
       "points": 1,
       "topics": [
         "graniastosłupy",
-        "potęgi i pierwiastki"
+        "proporcjonalność prosta"
       ],
       "prompt_html": "<p>Sześcienna kostka z metalu o długości krawędzi 10 cm ma masę 8 kg. Długość krawędzi sześciennej kostki o masie 1 kg, wykonanej z tego samego metalu, jest równa</p>",
       "choices": [
@@ -767,7 +764,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "bryły obrotowe"
       ],
       "prompt_html": "<p>Powierzchnia boczna puszki w kształcie walca oklejona jest kwadratową etykietą o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. Brzegi tej etykiety stykają się. Objętość puszki jest równa</p>",
       "choices": [
@@ -807,6 +804,7 @@
       "points": 3,
       "topics": [
         "czworokąty",
+        "kąty",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Uzasadnij, że kąt ostry zawarty między przekątnymi prostokąta jest dwa razy większy od kąta, który przekątna tego prostokąta tworzy z dłuższym jego bokiem.</p><p><em>Zapisz obliczenia i podaj odpowiedź.</em></p>",
@@ -852,7 +850,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "bryły",
+        "bryły obrotowe",
         "trójkąty"
       ],
       "prompt_html": "<p>Przekrój osiowy walca jest prostokątem, którego przekątna o długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><msqrt><mn>3</mn></msqrt></math> cm tworzy z płaszczyzną podstawy tego walca kąt dwa razy mniejszy niż z jego wysokością. Oblicz pole powierzchni całkowitej tego walca.</p><p><em>Zapisz obliczenia i podaj odpowiedź.</em></p>",

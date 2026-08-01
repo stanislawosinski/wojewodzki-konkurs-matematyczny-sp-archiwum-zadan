@@ -56,6 +56,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "ułamki okresowe / rozwinięcia dziesiętne",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Jaka jest 137 cyfra po przecinku w rozwinięciu dziesiętnym liczby 1,2345623456…?</p><p>Jedna z podanych odpowiedzi jest poprawna. Zaznacz kółkiem właściwą odpowiedź.</p>",
@@ -95,7 +96,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wartość bezwzględna"
       ],
       "prompt_html": "<p>Ile wynosi wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>|</mo><mo>−</mo><mn>13</mn><mo>−</mo><mn>1</mn><mo>|</mo><mo>−</mo><mo>|</mo><mn>16</mn><mo>−</mo><mn>8</mn><mo>|</mo></mrow><mrow><mo>−</mo><mo>|</mo><mo>−</mo><mn>9</mn><mo>+</mo><mn>5</mn><mo>|</mo><mo>+</mo><mn>2</mn></mrow></mfrac></math>?</p><p>Jedna z podanych odpowiedzi jest poprawna. Zaznacz kółkiem właściwą odpowiedź.</p>",
       "choices": [
@@ -212,7 +213,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>W pewnym sklepie cenę kurtki najpierw podniesiono o 20%, a następnie dwukrotnie obniżono o 10% za każdym razem.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe. Wybraną odpowiedź zaznacz kółkiem.</p>",
       "choices": [
@@ -287,7 +288,8 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Poniżej podane są cztery zdania dotyczące działań na potęgach i pierwiastkach.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe. Wybraną odpowiedź zaznacz kółkiem.</p>",
       "choices": [
@@ -365,8 +367,9 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "geometria",
-        "bryły"
+        "liczba krawędzi, ścian i wierzchołków",
+        "czworokąty",
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>Poniżej podane są cztery zdania dotyczące własności figur geometrycznych.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe. Wybraną odpowiedź zaznacz kółkiem.</p>",
       "choices": [
@@ -405,6 +408,7 @@
       "type": "open",
       "points": 3,
       "topics": [
+        "zamiana jednostek",
         "ułamki"
       ],
       "prompt_html": "<p>Poniższe zdania dotyczą zamiany jednostek czasu.</p><p>Uzupełnij luki tak, aby otrzymane zdania były prawdziwe.</p><ul><li>a) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>11</mn><mn>42</mn></mfrac></math> tygodnia, to …………………. godziny.</li><li>b) 10 kwadransów, to …………….. godziny.</li><li>c) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>15</mn></mfrac></math> minuty, to ……………………. sekund.</li></ul>",
@@ -427,7 +431,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Dane są dwie liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>)</mo></mrow><mn>9</mn></msup></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>)</mo></mrow><mn>11</mn></msup></math>.</p><p>Uzupełnij zdanie dotyczące danych liczb, tak aby było ono prawdziwe.</p><p>Liczba ……. jest ……. razy większa od liczby …….</p>",
       "choices": [],
@@ -495,7 +499,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "inne"
+        "ułamki",
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>Poniższe zdania dotyczą działań na liczbach.</p><p>Uzupełnij luki tak, aby otrzymane zdania były prawdziwe.</p><ul><li>a) Suma liczby −7 i jej odwrotności wynosi …………………………...</li><li>b) Suma liczby 5 i liczby do niej przeciwnej wynosi ………………</li><li>c) Różnica liczby −2 i jej sześcianu wynosi …………………………...</li></ul>",
       "choices": [],

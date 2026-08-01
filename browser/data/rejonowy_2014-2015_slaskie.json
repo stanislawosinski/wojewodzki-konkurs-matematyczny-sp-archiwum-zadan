@@ -17,7 +17,8 @@
       "type": "open",
       "points": 6,
       "topics": [
-        "zagadki logiczne"
+        "zagadki logiczne",
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>W puste białe pola „liczbowej krzyżówki” wstaw liczby tak, aby wszystkie działania i równości były poprawne.</p>",
       "choices": [],
@@ -173,7 +174,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Platforma służąca do przewozu konstrukcji stalowych ma masę 15 ton, czyli</p>",
       "choices": [
@@ -281,7 +282,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "proporcjonalność prosta"
+        "podobieństwo i skala"
       ],
       "prompt_html": "<p>Ulica w pewnym mieście ma długość 0,3 km. Na planie miasta w skali 1:15000 ulica ta ma długość:</p>",
       "choices": [
@@ -336,6 +337,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "liczby pierwsze",
         "podzielność"
       ],
       "prompt_html": "<p>Która z poniższych liczb <u>nie</u> jest liczbą złożoną?</p>",
@@ -417,8 +419,9 @@
       "type": "true_false",
       "points": 5,
       "topics": [
-        "potęgi i pierwiastki",
-        "podzielność"
+        "ułamki",
+        "podzielność",
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>Oceń, czy podane zdania są prawdziwe czy fałszywe. Zaznacz właściwą odpowiedź.</p>",
       "choices": [
@@ -446,6 +449,7 @@
       "type": "true_false",
       "points": 5,
       "topics": [
+        "zamiana jednostek",
         "proporcjonalność prosta"
       ],
       "prompt_html": "<p>Długość 10 metrów to 33 stopy angielskie.</p><p>Oceń, czy podane zdania są prawdziwe czy fałszywe. Zaznacz właściwą odpowiedź.</p>",
@@ -546,7 +550,6 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "prędkość / droga / czas",
         "proporcjonalność prosta"
       ],
       "prompt_html": "<p>Basia w ciągu 4 dni przeczytała książkę, która ma 240 stron. W każdym dniu czytała 1,5 godziny. Ile wyrazów na minutę czytała Basia, jeżeli założymy, że na każdej stronie jest ich 300?</p>",
@@ -570,6 +573,7 @@
       "points": 3,
       "topics": [
         "czworokąty",
+        "zamiana jednostek",
         "pole i obwód"
       ],
       "prompt_html": "<p>Działka ma kształt prostokąta o wymiarach 60 m × 500 m. Część tej działki o powierzchni 0,8 ha przeznaczono pod uprawę truskawek. Pozostałą część zajmuje warzywniak. Jaką powierzchnię zajmuje warzywniak? Wynik podaj w arach.</p>",

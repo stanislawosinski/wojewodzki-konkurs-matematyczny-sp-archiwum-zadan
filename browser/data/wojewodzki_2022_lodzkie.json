@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki"
+        "porównywanie potęg i pierwiastków"
       ],
       "prompt_html": "<p>Największą z podanych poniżej liczb jest:</p>",
       "choices": [
@@ -60,7 +60,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki"
+        "notacja wykładnicza"
       ],
       "prompt_html": "<p>Średnia arytmetyczna liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5,3</mn><mo>·</mo><msup><mn>10</mn><mn>2021</mn></msup></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,47</mn><mo>·</mo><msup><mn>10</mn><mn>2022</mn></msup></math> jest równa:</p>",
       "choices": [
@@ -190,7 +190,8 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>30</mn></msup><mo>+</mo><msup><mn>8</mn><mn>20</mn></msup></math> można zapisać jako:</p>",
       "choices": [
@@ -277,8 +278,7 @@
       "points": 3,
       "topics": [
         "koła / okręgi",
-        "pole i obwód",
-        "równania z jedną zmienną"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Średnica koła, dla którego liczba wyrażająca jego pole jest dwa razy większa od liczby wyrażającej jego obwód wynosi:</p>",
       "choices": [
@@ -408,7 +408,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "procenty"
+        "stężenie procentowe / mieszaniny"
       ],
       "prompt_html": "<p>Do 10 kg 2% roztworu soli dosypano 100 dag soli i dolano 19 kg wody. Stężenie nowego roztworu jest równe:</p>",
       "choices": [
@@ -451,7 +451,8 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "graniastosłupy"
+        "graniastosłupy",
+        "podobieństwo i skala"
       ],
       "prompt_html": "<p>Z 27 jednakowych małych sześcianików o polu powierzchni 12 cm² każdy zbudowano duży sześcian. Pole powierzchni dużego sześcianu jest równe:</p>",
       "choices": [
@@ -494,7 +495,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "bryły"
+        "bryły obrotowe"
       ],
       "prompt_html": "<p>Przekrój osiowy walca jest kwadratem o boku 10 cm. Pole powierzchni tego walca wynosi:</p>",
       "choices": [
@@ -537,8 +538,9 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki",
-        "usuwanie niewymierności z mianownika"
+        "działania na pierwiastkach",
+        "usuwanie niewymierności z mianownika",
+        "wzory skróconego mnożenia"
       ],
       "prompt_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mfrac><mrow><mn>3</mn><mo>+</mo><msqrt><mn>3</mn></msqrt></mrow><msqrt><mn>3</mn></msqrt></mfrac><mo>)</mo></mrow><mn>2</mn></msup></math> jest równa:</p>",
       "choices": [
@@ -581,8 +583,8 @@
       "type": "true_false",
       "points": 6,
       "topics": [
-        "trójkąty",
         "układ współrzędnych",
+        "trójkąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>W prostokątnym układzie współrzędnych dany jest trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> o wierzchołkach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>,</mo><mn>4</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mo>(</mo><mn>6</mn><mo>,</mo><mo>−</mo><mn>2</mn><mo>)</mo></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>=</mo><mo>(</mo><mn>9</mn><mo>,</mo><mn>2</mn><mo>)</mo></math>.</p><p>Oceń, czy poniższe zdania dotyczące tego trójkąta są prawdziwe.</p>",
@@ -660,8 +662,8 @@
       "type": "open",
       "points": 7,
       "topics": [
-        "reszta z dzielenia",
-        "układy równań"
+        "układy równań",
+        "reszta z dzielenia"
       ],
       "prompt_html": "<p>Dana jest liczba dwucyfrowa, w której cyfra jedności jest większa od cyfry dziesiątek. Liczba ta przy dzieleniu przez sumę swoich cyfr daje iloraz 4 i resztę 3. Przy dzieleniu przez różnicę cyfr daje iloraz 15 i resztę 2. Jaka to liczba?</p>",
       "choices": [],

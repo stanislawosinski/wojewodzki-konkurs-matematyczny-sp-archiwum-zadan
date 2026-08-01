@@ -99,7 +99,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wartość bezwzględna"
       ],
       "prompt_html": "<p>Wynik działania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mn>3</mn><mo>|</mo><mo>+</mo><mo>|</mo><mo>−</mo><mn>4</mn><mo>|</mo></mrow></math> jest równy</p>",
       "choices": [
@@ -304,7 +304,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Ile jest liczb pierwszych większych od 20, a mniejszych od 50?</p>",
       "choices": [
@@ -386,7 +386,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "ułamki"
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>4,75 godziny to</p>",
       "choices": [
@@ -554,7 +554,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kąty"
+        "kąty",
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Wskazówka minutowa zegara obróci się w ciągu kwadransa o kąt</p>",
       "choices": [
@@ -636,8 +637,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty",
-        "kąty"
+        "kąty",
+        "trójkąty"
       ],
       "prompt_html": "<p>Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KML</mi></math> jest równa</p>",
       "choices": [
@@ -680,6 +681,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "ułamki okresowe / rozwinięcia dziesiętne",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Trzydziesta trzecia cyfra po przecinku rozwinięcia dziesiętnego ułamka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mfrac><mn>3</mn><mn>11</mn></mfrac></mrow></math> to</p>",
@@ -803,7 +805,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Wojtek ma trzynaście złotówek, dziewięć dwuzłotówek, dwanaście dwudziestogroszówek, i czternaście pięciogroszówek. Ile pieniędzy ma Wojtek?</p>",
       "choices": [
@@ -893,7 +895,8 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "graniastosłupy"
+        "graniastosłupy",
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Pusty basen w kształcie prostopadłościanu ma 0,0625 km długości i 500 dm szerokości. Do tego basenu wlano 25 sześciennych pojemników wody o krawędzi długości 150 cm każdy. Jak wysoki jest poziom wody w basenie?</p><p>(zapisz obliczenia i odpowiedź)</p>",
       "choices": [],

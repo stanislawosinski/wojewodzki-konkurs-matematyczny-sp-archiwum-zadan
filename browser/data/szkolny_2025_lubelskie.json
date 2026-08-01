@@ -17,7 +17,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "wartość bezwzględna"
       ],
       "prompt_html": "<p>Która z podanych liczb jest równa wartości bezwzględnej trzeciej potęgi liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mo>−</mo><msup><mn>4</mn><mn>2</mn></msup><mo>:</mo><mo>(</mo><mo>−</mo><msup><mn>3</mn><mn>2</mn></msup><mo>+</mo><mn>11</mn><mo>)</mo><mo>−</mo><mfrac><msup><mn>2</mn><mn>3</mn></msup><mrow><mo>−</mo><mn>4</mn></mrow></mfrac></math>?</p><p>Jedna z podanych odpowiedzi jest poprawna. Zaznacz kółkiem właściwą odpowiedź.</p>",
       "choices": [
@@ -173,8 +174,7 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "podzielność",
-        "zagadki logiczne"
+        "podzielność"
       ],
       "prompt_html": "<p>Poniżej podane są dwa zdania dotyczące liczb naturalnych.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe. Wybraną odpowiedź zaznacz kółkiem.</p>",
       "choices": [
@@ -244,7 +244,9 @@
       "type": "true_false",
       "points": 5,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach",
+        "działania na potęgach",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Poniżej podane zdania dotyczą potęg i pierwiastków.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe. Wybraną odpowiedź zaznacz kółkiem.</p>",
       "choices": [
@@ -288,8 +290,8 @@
       "points": 3,
       "topics": [
         "czworokąty",
-        "pole i obwód",
-        "wzory skróconego mnożenia"
+        "podobieństwo i skala",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Pole powierzchni kwadratowej działki wynosi 81 arów. Druga działka, w kształcie prostokąta, jest od niej dłuższa o 30 m, ale jednocześnie o 30 m węższa.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe. Wybraną odpowiedź zaznacz kółkiem.</p>",
       "choices": [
@@ -324,7 +326,8 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "symetrie"
       ],
       "prompt_html": "<p>Poniżej podane zdania dotyczą wysokości trójkąta.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe. Wybraną odpowiedź zaznacz kółkiem.</p>",
       "choices": [
@@ -402,7 +405,9 @@
       "type": "true_false",
       "points": 6,
       "topics": [
-        "bryły"
+        "graniastosłupy",
+        "ostrosłupy",
+        "liczba krawędzi, ścian i wierzchołków"
       ],
       "prompt_html": "<p>Poniższe stwierdzenia dotyczą graniastosłupów i ostrosłupów.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe. Wybraną odpowiedź zaznacz kółkiem.</p>",
       "choices": [
@@ -471,7 +476,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "procenty"
+        "stężenie procentowe / mieszaniny"
       ],
       "prompt_html": "<p>Woda z Morza Martwego zawiera wagowo 5% soli. W zbiorniku znajduje się 40 kg tej wody.</p><ul><li>a) Ile procent soli będzie zawierała woda znajdująca się w tym zbiorniku, gdy dolejemy do niej 10 kg wody słodkiej?</li><li>b) Ile kilogramów wody słodkiej należy dolać do 40 kg wody z Morza Martwego, aby zawartość soli w otrzymanej mieszaninie wynosiła 2%?</li></ul>",
       "choices": [],
@@ -493,7 +498,8 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W trójkącie równoramiennym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KOS</mi></math> (gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>KO</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>OS</mi><mo>|</mo></math>) o obwodzie długości 50 cm, poprowadzono wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>OH</mi></math>. Jaka jest długość tej wysokości, jeżeli wiadomo, że obwód trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KOH</mi></math> ma długość 35 cm?</p>",
       "choices": [],
@@ -515,8 +521,8 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "czworokąty",
-        "kąty"
+        "kąty",
+        "czworokąty"
       ],
       "prompt_html": "<p>Dany jest równoległobok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> (patrz rysunek).</p><p>Uzupełnij zdanie, wpisując tylko liczbę.</p><p>Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> ma miarę …………………………………………… stopni.</p>",
       "choices": [],

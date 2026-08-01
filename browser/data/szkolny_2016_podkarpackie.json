@@ -95,8 +95,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "reszta z dzielenia",
-        "zagadki logiczne"
+        "kalendarz i czas",
+        "reszta z dzielenia"
       ],
       "prompt_html": "<p>Jeśli w pewnym roku 1 maja wypadł w niedzielę, to który z miesięcy tego samego roku zaczął się w poniedziałek?</p>",
       "choices": [
@@ -283,7 +283,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "wielokąty"
       ],
       "prompt_html": "<p>Pewien wielokąt wypukły ma dokładnie tyle samo boków co przekątnych. Wielokąt o którym mowa, to:</p>",
       "choices": [
@@ -362,7 +362,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "kąty"
       ],
       "prompt_html": "<p>Miary dwóch kątów wewnętrznych trójkąta są równe 66° i 34°. Miara kąta przyległego do trzeciego kąta tego trójkąta wynosi:</p>",
       "choices": [
@@ -549,8 +549,8 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "reszta z dzielenia",
-        "podzielność"
+        "ułamki okresowe / rozwinięcia dziesiętne",
+        "reszta z dzielenia"
       ],
       "prompt_html": "<p>Na podstawie informacji oceń prawdziwość zdań.</p><p>Kasia bawiła się w rozwinięcia dziesiętne ułamków zwykłych. Znalazła sto pierwszą cyfrę po przecinku w rozwinięciu dziesiętnym liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>37</mn></mfrac></math>. Ta sto pierwsza cyfra tworzy liczbę jednocyfrową.</p>",
       "choices": [
@@ -581,8 +581,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "proporcjonalność prosta",
-        "procenty"
+        "proporcjonalność prosta"
       ],
       "prompt_html": "<p>W jednym plasterku cytryny jest około 2,4 miligrama witaminy C. W jagodach witamina C stanowi 0,002 masy jagód. Przeciętna jagoda waży 0,4 grama. Ile sztuk jagód zawiera tyle witaminy C, co jeden plasterek cytryny? (1 miligram = 0,001 grama).</p>",
       "choices": [
@@ -810,6 +809,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
+        "ułamki",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Do wiaderka nalano wody do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> pojemności, a potem dolano jeszcze wody w ilości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>8</mn></mfrac></math> pojemności wiadra i wtedy w wiadrze było 4,5 litra wody. Ile wody jeszcze trzeba dolać aby wiadro było pełne?</p>",
@@ -928,7 +928,6 @@
       "points": 4,
       "topics": [
         "czworokąty",
-        "trójkąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>Kwadrat o obwodzie 32 cm podzielono odcinkiem na trójkąt i trapez. Obwód trójkąta wynosi 24 cm, a krótsza podstawa trapezu jest 4 razy krótsza od dłuższej. Oblicz obwód tego trapezu. Zapisz obliczenia.</p>",

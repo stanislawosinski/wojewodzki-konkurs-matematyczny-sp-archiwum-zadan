@@ -17,7 +17,6 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "prędkość / droga / czas",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Gdy Nikola jedzie do szkoły autobusem, a wraca pieszo – zajmuje jej to razem 2 godziny. Gdy Nikola jedzie do szkoły i wraca autobusem, zajmuje jej to razem godzinę. Ile czasu zajmuje Nikoli droga do szkoły i z powrotem pieszo?</p>",
@@ -57,8 +56,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "statystyka opisowa",
-        "podzielność"
+        "liczby pierwsze",
+        "statystyka opisowa"
       ],
       "prompt_html": "<p>Średnia arytmetyczna pięciu najmniejszych liczb pierwszych jest równa:</p>",
       "choices": [
@@ -136,7 +135,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kąty"
+        "kąty",
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Jest godzina 9:00. Jaką miarę będzie miał kąt, który utworzą wskazówki zegara za 3,25 godziny?</p>",
       "choices": [
@@ -175,7 +175,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Która z podanych liczb jest różna od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>21</mn></msup></math>?</p>",
       "choices": [
@@ -253,7 +254,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "proporcjonalność prosta"
+        "podobieństwo i skala"
       ],
       "prompt_html": "<p>Odległość między dwiema miejscowościami jest równa 200 km, a na mapie odległość ta wynosi 8 cm. Mapa została wykonana w skali</p>",
       "choices": [
@@ -292,7 +293,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "liczby wymierne i niewymierne",
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Wskaż liczbę, która nie jest liczbą wymierną:</p>",
       "choices": [
@@ -331,8 +333,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zagadki logiczne",
-        "podzielność"
+        "zagadki logiczne"
       ],
       "prompt_html": "<p>Iza napisała na kartce liczbę 56 492 i dała tę kartkę siostrze Łucji. Łucja natomiast zmodyfikowała liczbę w taki sposób, że jedną cyfrę zwiększyła o jeden, a inną zmniejszyła o 1. Z nudów robiła tak kilka godzin, aż do przyjścia siostry. Nigdy nie zmniejszała 0 ani nie zwiększała 9. Jaką liczbę z poniższych mogła otrzymać Łucja?</p>",
       "choices": [
@@ -412,7 +413,7 @@
       "topics": [
         "czworokąty",
         "graniastosłupy",
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Oceń prawdziwość zdań wpisując <strong>P</strong> – prawdziwe lub <strong>F</strong> – fałszywe.</p>",
       "choices": [
@@ -470,8 +471,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "NWW / NWD",
-        "podzielność"
+        "równania z jedną zmienną",
+        "ułamki"
       ],
       "prompt_html": "<p>W dwóch klasach czwartych jest mniej niż 50 uczniów. Z pracy klasowej siódma część uczniów otrzymała oceny bardzo dobre, trzecia część uczniów – oceny dobre, połowa uczniów – dostateczne, a jeden uczeń otrzymał ocenę niedostateczną. Nie było ocen dopuszczających. Ilu dokładnie uczniów było łącznie w tych klasach?</p>",
       "choices": [],
@@ -493,6 +494,7 @@
       "type": "open",
       "points": 4,
       "topics": [
+        "kąty",
         "czworokąty",
         "trójkąty"
       ],

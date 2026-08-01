@@ -17,8 +17,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "procenty",
-        "nierówności"
+        "nierówności",
+        "procenty"
       ],
       "prompt_html": "<p>Liczba 4 jest większa niż 9% pewnej liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, a liczba 7 jest mniejsza niż 18% liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>. Ile jest różnych liczb całkowitych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> spełniających oba te warunki?</p>",
       "choices": [
@@ -45,8 +45,9 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki",
-        "wzory skróconego mnożenia"
+        "pierwiastki zagnieżdżone",
+        "wzory skróconego mnożenia",
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><msqrt><mrow><mn>4</mn><mo>+</mo><msqrt><mn>7</mn></msqrt></mrow></msqrt><mo>−</mo><msqrt><mrow><mn>4</mn><mo>−</mo><msqrt><mn>7</mn></msqrt></mrow></msqrt><mo>)</mo></mrow><mn>2</mn></msup></math> jest równa:</p>",
       "choices": [
@@ -73,8 +74,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki",
-        "szacowanie (zamiast obliczania)"
+        "porównywanie potęg i pierwiastków",
+        "nierówności"
       ],
       "prompt_html": "<p>Na osi liczbowej zaznaczono wszystkie liczby postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mi>N</mi></msqrt></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>N</mi></math> jest liczbą naturalną. Ile jest liczb, spośród zaznaczonych, których odległość od 10 jest mniejsza od 0,5?</p>",
       "choices": [
@@ -101,7 +102,6 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "kombinatoryka",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Ile jest różnych liczb czterocyfrowych, w których żadna cyfra się nie powtarza, a cyfry 6 i 7 sąsiadują ze sobą?</p>",
@@ -129,7 +129,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "zagadki logiczne",
+        "wyrażenia algebraiczne",
         "podzielność"
       ],
       "prompt_html": "<p>Wprowadźmy działanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>a</mi><mo>⊖</mo><mi>b</mi><mo>)</mo><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup><msup><mi>b</mi><mn>2</mn></msup><mo>−</mo><mi>a</mi><mi>b</mi></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> są dowolnymi liczbami rzeczywistymi. Rozważ zdania I, II i III.</p><ul><li>I. Dla każdej liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> różnej od 0, wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>a</mi><mo>⊖</mo><mfrac><mn>1</mn><mi>a</mi></mfrac><mo>)</mo></math> jest równa 0.</li><li>II. Jeśli liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> są ujemne, to wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>a</mi><mo>⊖</mo><mi>b</mi><mo>)</mo></math> jest zawsze dodatnia.</li><li>III. Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>a</mi><mo>⊖</mo><mi>a</mi><mo>)</mo></math> jest zawsze parzysta dla każdej liczby całkowitej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>.</li></ul><p>Ile spośród powyższych zdań jest prawdziwych?</p>",
@@ -158,7 +158,7 @@
       "points": 2,
       "topics": [
         "równania z jedną zmienną",
-        "inne"
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>MET to jednostka określająca intensywność wysiłku fizycznego poprzez zużycie tlenu w przeliczeniu na masę ciała. 1 MET definiuje się jako zużycie tlenu podczas spoczynku wynoszące 3,5 ml tlenu na każdy kilogram masy ciała na każdą minutę. Liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> spalonych kilokalorii podczas aktywności oblicza się ze wzoru <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi><mo>=</mo><mi>I</mi><mo>·</mo><mi>m</mi><mo>·</mo><mi>t</mi></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>I</mi></math> jest intensywnością wysiłku wyrażoną w MET, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> to masa ciała w kilogramach, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math> to czas wykonywania aktywności w godzinach. Maja, ważąca 50 kilogramów, przez 30 minut szła szybkim marszem. Po tym czasie jej smartwatch wyświetlił, że w czasie marszu spaliła 100 kilokalorii. Ile tlenu zużyła w czasie tego marszu?</p>",
       "choices": [
@@ -186,6 +186,7 @@
       "points": 3,
       "topics": [
         "dwusieczna kąta / symetralna odcinka",
+        "kąty",
         "trójkąty"
       ],
       "prompt_html": "<p>Miary kątów ostrych w trójkącie są równe 20° oraz 40°. Kąt ostry pomiędzy dwusieczną największego kąta trójkąta a symetralną najdłuższego boku jest równy:</p>",
@@ -243,6 +244,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
+        "podobieństwo i skala",
         "trójkąty"
       ],
       "prompt_html": "<p>Dany jest trójkąt prostokątny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>. Na przeciwprostokątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> zaznaczono punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math>, a na boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> zaznaczono punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> tak, że powstały dwa trójkąty prostokątne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABD</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ECF</mi></math>. Długości niektórych odcinków są równe: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>AD</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>FC</mi><mo>|</mo><mo>=</mo><mi>x</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>BD</mi><mo>|</mo><mo>=</mo><mn>8</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>EF</mi><mo>|</mo><mo>=</mo><mn>4</mn></math> (zobacz rysunek obok). Długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> jest równa:</p>",
@@ -302,8 +304,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "graniastosłupy",
-        "trójkąty"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Podstawa graniastosłupa prostego jest trójkątem równoramiennym o obwodzie równym 19 cm. Wysokość graniastosłupa jest równa długości jednej z krawędzi podstawy, a suma długości wszystkich krawędzi graniastosłupa jest równa 59 cm. Istnieją dwa różne graniastosłupy spełniające powyższe warunki. Różnica pomiędzy ich polami powierzchni bocznej jest równa:</p>",
       "choices": [
@@ -361,7 +362,8 @@
       "points": 9,
       "topics": [
         "NWW / NWD",
-        "podzielność",
+        "liczby pierwsze",
+        "działania na potęgach",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p><strong>a)</strong> (2p) Dane są dwie liczby pierwsze <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> takie, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>&lt;</mo><mi>b</mi></math>. Zapisz wyrażenia równe podanym poniżej:</p><p>I. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>NWW</mi><mo>(</mo><msup><mn>2</mn><mi>a</mi></msup><mo>·</mo><msup><mn>3</mn><mi>b</mi></msup><mo>,</mo><msup><mn>2</mn><mi>b</mi></msup><mo>·</mo><msup><mn>3</mn><mi>a</mi></msup><mo>)</mo><mo>=</mo></math> …</p><p>II. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>NWD</mi><mo>(</mo><msup><mn>2</mn><mi>a</mi></msup><mo>·</mo><msup><mn>3</mn><mi>b</mi></msup><mo>,</mo><msup><mn>2</mn><mi>b</mi></msup><mo>·</mo><msup><mn>3</mn><mi>a</mi></msup><mo>)</mo><mo>=</mo></math> …</p><p><strong>b)</strong> (4p) Wykaż, że dla liczb naturalnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> takich, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>d</mi><mo>&lt;</mo><mi>c</mi><mo>&lt;</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mi>d</mi></math> prawdziwe jest równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>NWW</mi><mo>(</mo><msup><mn>12</mn><mi>c</mi></msup><mo>,</mo><mi>NWD</mi><mo>(</mo><msup><mn>12</mn><mi>c</mi></msup><mo>,</mo><msup><mn>18</mn><mi>d</mi></msup><mo>)</mo><mo>)</mo><mo>=</mo><mi>NWD</mi><mo>(</mo><msup><mn>12</mn><mi>c</mi></msup><mo>,</mo><mi>NWW</mi><mo>(</mo><msup><mn>12</mn><mi>c</mi></msup><mo>,</mo><msup><mn>18</mn><mi>d</mi></msup><mo>)</mo><mo>)</mo></math>.</p><p><strong>c)</strong> (3p) O liczbach całkowitych dodatnich <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> wiadomo, że iloczyn <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi><mi>n</mi></math> jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>12</mn><mn>5</mn></msup></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>NWD</mi><mo>(</mo><mi>m</mi><mo>,</mo><mi>n</mi><mo>)</mo></math> jest równy 36. Wyznacz wszystkie pary liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>. W odpowiedzi wartość liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> zapisz jako iloczyn potęg liczb 2 i 3.</p>",
@@ -412,9 +414,7 @@
       "type": "open",
       "points": 11,
       "topics": [
-        "ostrosłupy",
-        "trójkąty",
-        "czworokąty"
+        "ostrosłupy"
       ],
       "prompt_html": "<p>Dany jest ostrosłup czworokątny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDE</mi></math>, w którym podstawa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> jest trapezem równoramiennym o prostopadłych przekątnych (zobacz rysunek poniżej). Krótsza podstawa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> trapezu ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><msqrt><mn>2</mn></msqrt></math>, a punkt przecięcia jego przekątnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> dzieli wysokość trapezu w stosunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>:</mo><mn>12</mn></math>. Wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ES</mi></math> ostrosłupa jest równa 12.</p><p><strong>a)</strong> (4p) Oblicz objętość ostrosłupa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDE</mi></math>. Zapisz obliczenia.</p><p><strong>b)</strong> (2p) Podaj sumę długości wszystkich krawędzi ostrosłupa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDE</mi></math>. Odpowiedź podaj w postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><msqrt><mn>2</mn></msqrt></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> są liczbami naturalnymi.</p><p><strong>c)</strong> (5p) Ustal, która ściana boczna ostrosłupa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDE</mi></math> ma największe pole, a następnie oblicz pole tej ściany. Odpowiedź uzasadnij. Zapisz obliczenia.</p>",
       "choices": [],

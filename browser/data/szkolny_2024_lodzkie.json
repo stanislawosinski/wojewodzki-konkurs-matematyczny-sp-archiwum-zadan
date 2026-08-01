@@ -17,8 +17,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "zagadki logiczne",
-        "podzielność"
+        "liczby pierwsze",
+        "zagadki logiczne"
       ],
       "prompt_html": "<p>Ania, Bartek, Cecylia, Darek i Ewa poznali tajemną liczbę. Każdy wskazał pewną własność tej liczby. Ania powiedziała, że jest to liczba pierwsza, Bartek, że jest to liczba parzysta, Cecylia powiedziała, że jest to liczba nie większa niż 128, Darek powiedział, że jest to liczba nie mniejsza niż 128 a Ewa, że jest to liczba, którą można przedstawić w postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mi>n</mi></msup></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> nie jest liczbą pierwszą. Wiedząc, że dokładnie jedna z powyższych informacji jest fałszywa wskaż która?</p>",
       "choices": [
@@ -104,7 +104,8 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach",
+        "wyłączanie czynnika przed znak pierwiastka"
       ],
       "prompt_html": "<p>Która z powyższych równości jest prawdziwa?</p>",
       "choices": [
@@ -147,7 +148,9 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach",
+        "działania na potęgach",
+        "ujemny wykładnik"
       ],
       "prompt_html": "<p>Która z poniższych liczb jest równa 5?</p>",
       "choices": [
@@ -279,8 +282,7 @@
       "points": 3,
       "topics": [
         "trójkąty",
-        "pole i obwód",
-        "potęgi i pierwiastki"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Każdy z boków trójkąta prostokątnego jest też bokiem kwadratu (por. rysunek).</p><p>Korzystając z danych przedstawionych na rysunku oblicz sumę pól <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mn>1</mn></msub><mo>+</mo><msub><mi>P</mi><mn>2</mn></msub><mo>+</mo><msub><mi>P</mi><mn>3</mn></msub><mo>+</mo><msub><mi>P</mi><mn>4</mn></msub></mrow></math>.</p>",
       "choices": [
@@ -413,8 +415,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "prawdopodobieństwo",
-        "potęgi i pierwiastki"
+        "prawdopodobieństwo"
       ],
       "prompt_html": "<p>Jakie jest prawdopodobieństwo, że losując liczbę ze zbioru liczb 1, …, 100 włącznie wylosujemy liczbę, której pierwiastek sześcienny jest liczbą naturalną.</p>",
       "choices": [
@@ -493,8 +494,8 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "równania z jedną zmienną",
-        "wzory skróconego mnożenia"
+        "wzory skróconego mnożenia",
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Rozwiąż równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mi>x</mi><mo>−</mo><mi>y</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>7</mn><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn><mo>+</mo><mn>3</mn><mi>y</mi><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup></mrow></math> względem zmiennej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, gdy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>2</mn></mrow></math>.</p>",
       "choices": [],
@@ -516,9 +517,10 @@
       "type": "open",
       "points": 10,
       "topics": [
-        "geometria",
+        "działania na pierwiastkach",
+        "trójkąty",
         "pole i obwód",
-        "potęgi i pierwiastki"
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>G</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>I</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>J</mi></math> leżą na punktach przecięcia kratek (są to tzw. punkty kratowe). Przyjmijmy, że długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt></math>.</p><ol type=\"a\"><li>Oblicz obwód ośmiokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDEFGHIJ</mi></math>. Podając ostateczny wynik wyłącz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt></math> przed nawias.</li><li>Czy pole tego ośmiokąta jest większe, mniejsze czy równe 30? Odpowiedź uzasadnij.</li></ol>",
       "choices": [],
@@ -543,8 +545,7 @@
       "points": 10,
       "topics": [
         "ostrosłupy",
-        "graniastosłupy",
-        "potęgi i pierwiastki"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Objętość ostrosłupa prostego jest 8 razy mniejsza niż <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>4</mn><mn>3</mn></msup><mo>·</mo><msup><mn>3</mn><mn>2</mn></msup></mrow></math> cm³. Podstawą tego ostrosłupa jest prostokąt, w którym stosunek długości boków jest jak <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>:</mo><mn>2</mn></mrow></math>, a jego wysokość jest 2 razy mniejsza niż obwód podstawy. Oblicz objętość sześcianu, którego bok ma długość równą dłuższej krawędzi podstawy rozważanego ostrosłupa.</p>",
       "choices": [],

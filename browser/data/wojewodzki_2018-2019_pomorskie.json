@@ -17,7 +17,7 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Wiedząc, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mi>a</mi><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow></mfrac><mo>=</mo><mn>2019</mn></mrow></math>, oblicz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>b</mi><mi>a</mi></mfrac></math>.</p>",
       "choices": [],
@@ -62,7 +62,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "procenty"
+        "procenty",
+        "statystyka opisowa"
       ],
       "prompt_html": "<p>Średnia arytmetyczna dwóch liczb jest o 30% mniejsza od większej z tych liczb. Oblicz, o ile procent średnia ta jest większa od mniejszej z tych liczb.</p>",
       "choices": [],
@@ -84,7 +85,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Oblicz wartość wyrażenia:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mo>−</mo><msup><mn>32</mn><mn>4</mn></msup><mo>·</mo><msup><mrow><mo>(</mo><mo>−</mo><mn>4</mn><mo>)</mo></mrow><mn>0</mn></msup><mo>·</mo><msup><mn>5</mn><mn>5</mn></msup></mrow><mrow><msup><mn>4</mn><mn>8</mn></msup><mo>·</mo><msup><mn>10</mn><mn>4</mn></msup></mrow></mfrac><mo>+</mo><msup><mrow><mo>[</mo><msup><mrow><mo>(</mo><mo>−</mo><mfrac><mn>1</mn><mn>6</mn></mfrac><mo>)</mo></mrow><mn>5</mn></msup><mo>·</mo><msup><mn>6</mn><mn>6</mn></msup><mo>]</mo></mrow><mn>3</mn></msup></mrow></math>.</p>",
       "choices": [],
@@ -106,6 +107,7 @@
       "type": "open",
       "points": 2,
       "topics": [
+        "liczby pierwsze",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Ile razy w ciągu doby na zegarku elektronicznym, mierzącym czas w skali 24-godzinnej, pojawia się taki czas, że liczba wskazująca godziny i liczba wskazująca minuty są jednocześnie liczbami pierwszymi?</p><p><strong>Uwaga:</strong> Gdy na zegarze pojawia się wskazanie, na przykład 01, to traktujemy je jako liczbę 1.</p>",
@@ -128,8 +130,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "trójkąty",
         "czworokąty",
+        "trójkąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>Wyznacz stosunek pola trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>MNC</mi></math> do pola kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi></math> jest środkiem boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math>, punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>N</mi></math> leży na przekątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> i odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>MN</mi></math> jest prostopadły do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math>.</p>",
@@ -152,8 +154,8 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "reszta z dzielenia",
-        "potęgi i pierwiastki"
+        "ostatnia cyfra / cykliczność potęg",
+        "reszta z dzielenia"
       ],
       "prompt_html": "<p>Znajdź ostatnią cyfrę liczby: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>1</mn><mn>3</mn></msup><mo>+</mo><msup><mn>2</mn><mn>3</mn></msup><mo>+</mo><msup><mn>3</mn><mn>3</mn></msup><mo>+</mo><mo>⋯</mo><mo>+</mo><msup><mn>999</mn><mn>3</mn></msup></mrow></math>.</p>",
       "choices": [],
@@ -175,10 +177,9 @@
       "type": "closed_single",
       "points": 4,
       "topics": [
-        "procenty",
-        "potęgi i pierwiastki",
+        "zmiany procentowe",
         "ostrosłupy",
-        "zliczanie / metody zliczania"
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>W poniższych zadaniach zamkniętych dokładnie jedna odpowiedź jest poprawna. Wskaż tę odpowiedź otaczając ją kółkiem.</p><p><strong>8.1</strong> W pewnych zawodach liczba wszystkich uczestników zwiększyła się w stosunku do roku ubiegłego o 32%. W roku ubiegłym liczba dziewcząt uczestniczących w tych zawodach stanowiła 55% liczby wszystkich zawodników, a w tym roku liczba dziewcząt stanowiła 50% wszystkich zawodników. W porównaniu z rokiem ubiegłym liczba dziewcząt</p><ul><li>A. zmniejszyła się o 5%</li><li>B. zwiększyła się o 32%</li><li>C. zwiększyła się o 11%</li><li>D. zwiększyła się o 20%</li></ul><p><strong>8.2</strong> Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mn>1</mn><mo>−</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>|</mo><mo>−</mo><mo>|</mo><mo>−</mo><mn>3</mn><mo>−</mo><msqrt><mn>8</mn></msqrt><mo>|</mo></mrow></math> jest równa</p><ul><li>A. 4</li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>4</mn></mrow></math></li><li>C. 2</li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>2</mn></mrow></math></li></ul><p><strong>8.3</strong> Objętość czworościanu foremnego o powierzchni całkowitej równej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt></math> jest równa</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>3</mn></msqrt><mn>4</mn></mfrac></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>12</mn></mfrac><msqrt><mn>2</mn></msqrt></mrow></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>11</mn></msqrt><mn>24</mn></mfrac></math></li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>6</mn></mfrac></math></li></ul><p><strong>8.4</strong> Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>−</mo><mn>2</mn><mo>+</mo><mn>3</mn><mo>−</mo><mn>4</mn><mo>+</mo><mn>5</mn><mo>−</mo><mn>6</mn><mo>+</mo><mo>⋯</mo><mo>+</mo><mn>2017</mn><mo>−</mo><mn>2018</mn><mo>+</mo><mn>2019</mn></mrow></math> jest równa</p><ul><li>A. 0</li><li>B. 1009</li><li>C. 1010</li><li>D. 2019</li></ul>",
       "choices": [],
@@ -201,12 +202,10 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "prędkość / droga / czas",
-        "trójkąty",
         "czworokąty",
-        "kąty",
-        "potęgi i pierwiastki",
-        "pole i obwód"
+        "trójkąty",
+        "pole i obwód",
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>Oceń prawdziwość zdań. Otocz kółkiem P, jeśli zdanie jest prawdziwe lub F, jeśli zdanie jest fałszywe.</p>",
       "choices": [

@@ -44,7 +44,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kąty"
+        "wielokąty"
       ],
       "prompt_html": "<p>Miara kąta wewnętrznego dziesięciokąta foremnego jest równa:</p>",
       "choices": [
@@ -101,8 +101,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zliczanie / metody zliczania",
-        "kombinatoryka"
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Ile liczb trzycyfrowych o różnych cyfrach można utworzyć z cyfr należących do zbioru <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>{</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>4</mn><mo>}</mo></math>?</p>",
       "choices": [
@@ -183,7 +182,6 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty",
         "układ współrzędnych"
       ],
       "prompt_html": "<p>Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>)</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mo>(</mo><mn>1</mn><mo>,</mo><mo>−</mo><mn>1</mn><mo>)</mo></math> są wierzchołkami trójkąta równobocznego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>. Długość boku tego trójkąta wynosi:</p>",
@@ -348,7 +346,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "proporcjonalność prosta"
+        "podobieństwo i skala"
       ],
       "prompt_html": "<p>Droga z Rzeszowa do Radomia zaznaczona na mapie wykonanej w skali 1:250000 ma długość 80 <em>cm</em>. Długość tej trasy w rzeczywistości wynosi:</p>",
       "choices": [
@@ -429,7 +427,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki",
+        "wyłączanie czynnika przed znak pierwiastka",
         "szacowanie (zamiast obliczania)"
       ],
       "prompt_html": "<p>Dane jest przybliżenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>600</mn></msqrt><mo>≈</mo><mn>24,5</mn></math>. Wykorzystując podane przybliżenie wyznacz przybliżone wartości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>54</mn></msqrt></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>150</mn></msqrt></math> z dokładnością do dwóch miejsc po przecinku.</p>",
@@ -452,8 +450,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki",
-        "reszta z dzielenia"
+        "ostatnia cyfra / cykliczność potęg",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Dana jest liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><msup><mn>999</mn><mn>101</mn></msup><mo>+</mo><msup><mn>999</mn><mn>100</mn></msup></math>. Wyznacz cyfrę jedności liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>.</p>",
       "choices": [],
@@ -520,8 +518,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "graniastosłupy",
-        "zliczanie / metody zliczania"
+        "zliczanie / metody zliczania",
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Drewnianą sześcienną kostkę o długości krawędzi 4 <em>cm</em> pomalowano na zielono i następnie rozcięto na 64 sześciany o długości krawędzi równej 1 <em>cm</em>.</p><p>Uzupełnij poniższe zdania wstawiając liczby tak, aby uzyskać zdania prawdziwe:</p><ol><li>Liczba sześcianów z trzema ścianami pomalowanymi na zielono jest równa: ……</li><li>Liczba sześcianów z dwoma ścianami pomalowanymi na zielono jest równa: ……</li><li>Liczba sześcianów, których jedna lub dwie ściany są pomalowane na zielono jest równa: ……</li><li>Liczba sześcianów, których żadna ściana nie jest pomalowana na zielono jest równa: ……</li></ol>",
       "choices": [],
@@ -545,7 +543,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "procenty"
+        "stężenie procentowe / mieszaniny"
       ],
       "prompt_html": "<p>W naczyniu było 200 <em>g</em> roztworu cukru o stężeniu 25%. Do roztworu dosypano taką samą ilość cukru, jaka była na początku w roztworze. Oblicz, jakie stężenie procentowe ma otrzymany roztwór.</p>",
       "choices": [],
@@ -567,8 +565,9 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "czworokąty",
+        "kąty",
         "trójkąty",
+        "czworokąty",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>W prostokącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> przedstawionym na rysunku bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> jest dwa razy dłuższy niż bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> jest takim punktem, że trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DCE</mi></math> jest równoboczny, zaś punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> jest środkiem boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CE</mi></math> tego trójkąta. Wykaż, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∢</mo><mi>BKC</mi><mo>=</mo><mn>75</mn><mo>°</mo></math>.</p>",
@@ -639,6 +638,7 @@
       "type": "open",
       "points": 4,
       "topics": [
+        "stężenie procentowe / mieszaniny",
         "układy równań"
       ],
       "prompt_html": "<p>W sklepie są wafle po 8 <em>zł</em> i po 12 <em>zł</em> za kilogram. Sprzedawca chce zrobić mieszankę tych wafli po 11 <em>zł</em> za kilogram. Ile wafli każdego rodzaju powinien zmieszać, aby otrzymać 20 <em>kg</em> mieszanki?</p>",

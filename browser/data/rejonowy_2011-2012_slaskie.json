@@ -95,6 +95,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "ułamki okresowe / rozwinięcia dziesiętne",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Na 19 miejscu po przecinku w liczbie 3,7(406) jest cyfra</p>",
@@ -134,7 +135,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "ułamki"
+        "ułamki okresowe / rozwinięcia dziesiętne"
       ],
       "prompt_html": "<p>Nieprawdą jest, że</p>",
       "choices": [
@@ -173,7 +174,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność"
+        "podzielność",
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Do pewnej liczby dwucyfrowej dodano liczbę powstałą przez zamianę kolejności cyfr. Otrzymana suma</p>",
       "choices": [
@@ -212,6 +214,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "kąty",
         "trójkąty"
       ],
       "prompt_html": "<p>W trójkącie prostokątnym miara jednego z kątów ostrych jest 5 razy większa od miary drugiego kąta ostrego. Miary tych kątów ostrych to</p>",
@@ -251,7 +254,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kąty"
+        "kąty",
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Kąt między początkowym położeniem wskazówki minutowej zegara a położeniem końcowym będzie wynosił 240° po upływie</p>",
       "choices": [
@@ -369,7 +373,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
+        "wielokąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>W pięciokącie jedna z przekątnych ma długość 7 cm, a druga – wychodząca z tego samego wierzchołka – 8 cm. Przekątne te podzieliły cały pięciokąt na trzy trójkąty – każdy o obwodzie 20 cm. Obwód pięciokąta jest równy</p>",
@@ -603,7 +607,7 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Oceń, czy podane odpowiedzi są prawdziwe, czy fałszywe.</p><p>Jeśli do liczby dwucyfrowej na końcu dopisze się zero, to liczba ta:</p>",
       "choices": [
@@ -635,6 +639,7 @@
       "points": 4,
       "topics": [
         "trójkąty",
+        "liczby pierwsze",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Długości boków trójkąta wyrażają się liczbami pierwszymi. Jeden z boków ma długość 3 cm, a drugi 5 cm.</p><p>Oceń, czy podane odpowiedzi są prawdziwe, czy fałszywe.</p>",
@@ -860,8 +865,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "proporcjonalność prosta",
-        "ułamki"
+        "ułamki",
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Podczas wycieczki uczniowie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>12</mn></mfrac></math> czasu spędzili w autokarze, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>5</mn></mfrac></math> czasu poświęcili na zwiedzanie muzeum przyrodniczego. Od godziny 14:46 do godziny 16:30 oglądali zwierzęta w ogrodzie zoologicznym. Oblicz, jak długo trwała wycieczka? Zapisz wszystkie obliczenia.</p>",
       "choices": [],
@@ -883,7 +888,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Cenę towaru obniżono o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>5</mn></mfrac></math>. O jaką część należy podnieść nową cenę, aby była znowu równa początkowej?</p>",
       "choices": [],

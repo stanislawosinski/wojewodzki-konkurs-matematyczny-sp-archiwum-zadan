@@ -17,8 +17,7 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "zliczanie / metody zliczania",
-        "kombinatoryka"
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>W ligowych rozgrywkach piłkarskich brało udział 15 drużyn. Każda drużyna rozegrała z każdą z pozostałych dwa spotkania.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
       "choices": [
@@ -53,7 +52,7 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "kombinatoryka"
+        "zasada szufladkowa"
       ],
       "prompt_html": "<p>W urnie znajduje się łącznie 100 kul w kolorach: czerwonym, zielonym, żółtym i niebieskim. Nie wiemy ile jakich jest. Jaką najmniejszą liczbę kul należy wyjąć, aby zawsze mieć pewność, że wśród wylosowanych kul będzie co najmniej 10 w jednym kolorze.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
       "choices": [
@@ -89,8 +88,9 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki",
-        "nierówności"
+        "porównywanie potęg i pierwiastków",
+        "wyłączanie czynnika przed znak pierwiastka",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Przy każdym zdaniu wpisz TAK lub NIE.</p><p>Prawdziwa jest nierówność:</p>",
       "choices": [
@@ -125,8 +125,7 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "trójkąty",
-        "nierówności"
+        "trójkąty"
       ],
       "prompt_html": "<p>Zbudowano trójkąt z odcinków o długościach: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>k</mi><mo>+</mo><mn>3</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>k</mi><mo>+</mo><mn>2</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>k</mi><mo>+</mo><mn>1</mn></mrow></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> jest liczbą naturalną.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
       "choices": [
@@ -161,7 +160,6 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "kombinatoryka",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Ania ma trzy kartki z różnymi cyframi. Wśród tych cyfr nie było 0. Układała z nich różne liczby trzycyfrowe i zapisywała. Następnie obliczyła sumę wszystkich takich liczb. Suma wyniosła 1776.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
@@ -198,8 +196,9 @@
       "points": 5,
       "topics": [
         "czworokąty",
-        "pole i obwód",
-        "równania z jedną zmienną"
+        "zamiana jednostek",
+        "równania z jedną zmienną",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Jeden bok prostokąta ma trzy razy tyle centymetrów długości ile drugi bok decymetrów. Pole tego prostokąta wynosi 120 dm². Oblicz jego obwód.</p>",
       "choices": [],
@@ -244,8 +243,8 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "równania z jedną zmienną",
-        "proporcjonalność prosta"
+        "stężenie procentowe / mieszaniny",
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Zmieszano cukierki kawowe z orzechowymi. Cukierki kawowe były w cenie 24 zł za kilogram, a orzechowe – 20 zł za kilogram. Cena 1 kg tak uzyskanej mieszanki wyniosła 21,50 zł. W jakim stosunku zmieszano cukierki kawowe z orzechowymi?</p>",
       "choices": [],
@@ -315,8 +314,8 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "dowodzenie / dowody",
-        "podzielność"
+        "podzielność",
+        "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Dane są trzy kolejne liczby naturalne, z których pierwsza jest parzysta. Wykaż, że iloczyn tych liczb jest wielokrotnością liczby 24.</p>",
       "choices": [],

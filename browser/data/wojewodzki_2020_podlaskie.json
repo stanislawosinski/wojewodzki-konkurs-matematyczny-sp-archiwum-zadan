@@ -17,7 +17,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "czworokąty"
+        "czworokąty",
+        "trójkąty"
       ],
       "prompt_html": "<p>Rysunek przedstawia trapez prostokątny. Dłuższa podstawa tego trapezu ma</p>",
       "choices": [
@@ -58,7 +59,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "ułamki"
       ],
       "prompt_html": "<p>Zaznacz liczbę, której <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mfrac><mn>1</mn><mn>3</mn></mfrac></math> jest równe 70.</p>",
       "choices": [
@@ -97,8 +99,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty",
-        "proporcjonalność prosta"
+        "podobieństwo i skala",
+        "procenty"
       ],
       "prompt_html": "<p>Na planie działka budowlana ma kształt prostokąta, którego dłuższy bok stanowi 4% rzeczywistej długości działki. W jakiej skali sporządzono ten plan?</p>",
       "choices": [
@@ -137,7 +139,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Na początku tygodnia w cukierni sprzedawano napoleonki po 2,50 zł za ciastko. W czwartek obniżono cenę ciastka o 20%, a w piątek cenę z poprzedniego dnia zmniejszono jeszcze o 10%. Jakim procentem początkowej ceny była cena końcowa?</p>",
       "choices": [
@@ -176,7 +178,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "ostatnia cyfra / cykliczność potęg",
+        "działania na potęgach",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Wiedząc, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>15</mn></msup><mo>=</mo><mn>14348907</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>8</mn><mn>15</mn></msup><mo>=</mo><mn>35184372088832</mn></math>, wskaż cyfrę jedności liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>24</mn><mn>16</mn></msup></math>.</p>",
@@ -216,8 +219,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty",
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "procenty"
       ],
       "prompt_html": "<p>Pewna liczba jest sumą dwóch składników takich, że 62,5% jednego z nich jest równe 75% drugiego i jeden składnik jest większy od drugiego o 24. Jaka to liczba?</p>",
       "choices": [
@@ -257,7 +260,8 @@
       "points": 1,
       "topics": [
         "czworokąty",
-        "równania z jedną zmienną"
+        "wyrażenia algebraiczne",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Długość jednego z boków równoległoboku przedstawia wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mi>x</mi><mo>+</mo><mn>10</mn></mrow></math>, dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>&gt;</mo><mn>0</mn></mrow></math>, natomiast obwód tego równoległoboku opisuje wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>14</mn><mi>x</mi><mo>+</mo><mn>24</mn></mrow></math>. Długość drugiego boku tej figury można zapisać jako</p>",
       "choices": [
@@ -296,7 +300,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Wskaż niepoprawnie wyznaczoną wielkość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> ze wzoru <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mi>t</mi><mo>·</mo><mo>(</mo><mi>m</mi><mo>−</mo><mn>2</mn><mi>k</mi><mo>)</mo></mrow></math></p>",
       "choices": [
@@ -335,8 +340,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty",
-        "kąty"
+        "kąty",
+        "trójkąty"
       ],
       "prompt_html": "<p>Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>, przedstawionego na rysunku obok, jest równa</p>",
       "choices": [
@@ -377,7 +382,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "prawdopodobieństwo"
+        "prawdopodobieństwo",
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Jakie jest prawdopodobieństwo wyrzucenia liczby pierwszej przy jednokrotnym rzucie dwunastościenną kostką do gry, której ściany oznaczono liczbami od 1 do 12?</p>",
       "choices": [
@@ -538,7 +544,7 @@
       "points": 1,
       "topics": [
         "usuwanie niewymierności z mianownika",
-        "potęgi i pierwiastki"
+        "wyłączanie czynnika przed znak pierwiastka"
       ],
       "prompt_html": "<p>Wskaż liczbę, którą otrzymamy po usunięciu niewymierności z mianownika ułamka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msqrt><mn>18</mn></msqrt><mo>−</mo><msqrt><mn>2</mn></msqrt></mrow><msqrt><mn>12</mn></msqrt></mfrac></math>.</p>",
       "choices": [
@@ -577,7 +583,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "notacja wykładnicza",
+        "działania na potęgach",
         "pole i obwód"
       ],
       "prompt_html": "<p>Pole prostokąta o bokach długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>·</mo><msup><mn>10</mn><mn>5</mn></msup></mrow></math> cm i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mo>·</mo><msup><mn>10</mn><mn>4</mn></msup></mrow></math> cm zapisane w notacji wykładniczej jest równe</p>",
@@ -617,7 +624,9 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "podobieństwo i skala",
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Przyprostokątne trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> mają długość 10 cm i 24 cm. Przeciwprostokątna podobnego do niego trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KLM</mi></math> ma długość 13 cm. Obwód trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KLM</mi></math> jest równy</p>",
       "choices": [
@@ -815,6 +824,7 @@
       "points": 2,
       "topics": [
         "koła / okręgi",
+        "trójkąty",
         "pole i obwód",
         "dowodzenie / dowody"
       ],
@@ -840,7 +850,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "procenty",
+        "stężenie procentowe / mieszaniny",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>W jednym naczyniu rozpuszczono pewną ilość soli i otrzymano 3 kg solanki. Do drugiego naczynia wsypano o 20 g soli więcej i wlano pewną ilość wody, tak aby otrzymać 2 kg solanki. Następnie zmieszano oba roztwory i powstała solanka 4-procentowa. Jakie stężenie miały solanki przed zmieszaniem?</p>",
@@ -889,7 +899,8 @@
       "points": 3,
       "topics": [
         "pierścień kołowy",
-        "procenty"
+        "procenty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Zaplanowano powiększyć w parku klomb w kształcie koła, sadząc wokół niego lawendę. Szerokość pasa z dosadzonymi roślinami miała stanowić 12,5% średnicy nowego klombu, równej 28 m. Oblicz, na jakiej powierzchni zostanie posadzona lawenda. W obliczeniach za <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>π</mi></math> przyjmij <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mfrac><mn>1</mn><mn>7</mn></mfrac></mrow></math>.</p>",
       "choices": [],
@@ -936,8 +947,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "graniastosłupy",
-        "potęgi i pierwiastki"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Sześcian o krawędzi 6 cm przecięto płaszczyzną przechodzącą przez przekątną jego podstawy i środek krawędzi bocznej (rysunek obok). Oblicz pole powierzchni całkowitej uzyskanego w ten sposób wielościanu o 7 ścianach.</p>",
       "choices": [],

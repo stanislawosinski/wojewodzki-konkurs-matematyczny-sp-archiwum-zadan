@@ -71,8 +71,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "proporcjonalność prosta",
-        "proporcjonalność odwrotna"
+        "proporcjonalność odwrotna",
+        "proporcjonalność prosta"
       ],
       "prompt_html": "<p>Jeżeli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> ludziom zbudowanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi></math> domów zajmuje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> dni, to ile dni potrzebowałoby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>q</mi></math> ludzi, żeby zbudować <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi></math> domów?</p>",
       "choices": [
@@ -99,7 +99,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "stężenie procentowe / mieszaniny"
       ],
       "prompt_html": "<p>Ile litrów wody trzeba dodać do 40 litrów 40% roztworu, aby obniżyć jego stężenie do 30%?</p>",
       "choices": [
@@ -154,7 +154,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność"
+        "ułamki okresowe / rozwinięcia dziesiętne"
       ],
       "prompt_html": "<p>Który z ułamków ma rozwinięcie dziesiętne nieskończone okresowe?</p>",
       "choices": [
@@ -181,8 +181,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "czworokąty",
-        "trójkąty"
+        "trójkąty",
+        "czworokąty"
       ],
       "prompt_html": "<p>Liczby 2, 1, 5, 2,8 i 7,5 są długościami czterech boków i jednej przekątnej czworokąta, podanymi w przypadkowej kolejności. Która z nich jest długością przekątnej?</p>",
       "choices": [
@@ -236,8 +236,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zagadki logiczne",
-        "równania z jedną zmienną"
+        "zagadki logiczne"
       ],
       "prompt_html": "<p>31 książek ustawiono od lewej do prawej według rosnącej ceny. Każda książka kosztuje o 4 zł więcej lub mniej niż sąsiednie. Najdroższa książka kosztuje tyle samo co środkowa i jedna ze stojących obok niej. Które ze zdań jest prawdziwe?</p>",
       "choices": [
@@ -264,7 +263,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "ostatnia cyfra / cykliczność potęg",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Jaką cyfrę w rzędzie jedności ma liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>96</mn></msup><mo>+</mo><msup><mn>4</mn><mn>34</mn></msup><mo>+</mo><msup><mn>10</mn><mn>8</mn></msup></math>?</p>",
@@ -377,8 +376,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność",
-        "zliczanie / metody zliczania"
+        "zliczanie / metody zliczania",
+        "podzielność"
       ],
       "prompt_html": "<p>Ania zapisała w zeszycie wszystkie kolejne liczby parzyste od 2 do 2010, a następnie wykreśliła wszystkie wielokrotności liczby 3. Ile liczb pozostało?</p>",
       "choices": [
@@ -405,6 +404,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "podobieństwo i skala",
         "graniastosłupy",
         "proporcjonalność prosta"
       ],
@@ -456,7 +456,7 @@
       "points": 4,
       "topics": [
         "czworokąty",
-        "trójkąty"
+        "kąty"
       ],
       "prompt_html": "<p>W trapezie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>, w którym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi><mo>∥</mo><mi>BC</mi></math>, zachodzą równości: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo></mrow><mo>=</mo><mrow><mo>|</mo><mi>BC</mi><mo>|</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AC</mi><mo>|</mo></mrow><mo>=</mo><mrow><mo>|</mo><mi>CD</mi><mo>|</mo></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>BC</mi><mo>|</mo></mrow><mo>+</mo><mrow><mo>|</mo><mi>CD</mi><mo>|</mo></mrow><mo>=</mo><mrow><mo>|</mo><mi>AD</mi><mo>|</mo></mrow></math>. Wyznacz kąty tego trapezu.</p>",
       "choices": [],
@@ -503,6 +503,7 @@
       "type": "open",
       "points": 4,
       "topics": [
+        "czworokąty",
         "koła / okręgi",
         "pole i obwód"
       ],
@@ -551,6 +552,7 @@
       "points": 5,
       "topics": [
         "graniastosłupy",
+        "trójkąty",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>W graniastosłupie prawidłowym czworokątnym suma długości wszystkich krawędzi obu podstaw jest równa sumie długości wszystkich krawędzi bocznych. Czy trójkąt o wierzchołkach w środkach trzech krawędzi parami skośnych jest prostokątny? Odpowiedź uzasadnij.</p>",

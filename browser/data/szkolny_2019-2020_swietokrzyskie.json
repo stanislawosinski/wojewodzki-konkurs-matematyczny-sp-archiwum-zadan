@@ -173,7 +173,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "ostatnia cyfra / cykliczność potęg"
       ],
       "prompt_html": "<p>Która z poniższych cyfr jest cyfrą w rzędzie jedności liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>3</mn></msup><mo>+</mo><msup><mn>4</mn><mn>4</mn></msup><mo>+</mo><msup><mn>5</mn><mn>5</mn></msup><mo>+</mo><msup><mn>6</mn><mn>6</mn></msup></math>? Wybierz odpowiedź spośród podanych.</p>",
       "choices": [
@@ -212,6 +212,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "wyrażenia algebraiczne",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Który z poniższych wzorów otrzymamy po przekształceniu wzoru <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi><mo>=</mo><mfrac><mrow><mn>5</mn><mi>c</mi></mrow><mrow><mi>a</mi><mo>−</mo><mi>b</mi></mrow></mfrac></math> tak, aby wyznaczyć <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>? Wybierz odpowiedź spośród podanych.</p>",
@@ -291,8 +292,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "układy równań",
-        "zagadki logiczne"
+        "układy równań"
       ],
       "prompt_html": "<p>Do dyspozycji mamy 15 banknotów o nominale 20 zł i 15 banknotów o nominale 50 zł. Nie mamy banknotów o innych nominałach oraz nie mamy żadnych monet.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -327,7 +327,6 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki",
         "ułamki"
       ],
       "prompt_html": "<p>Dane są liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>0,875</mn><mo>−</mo><mn>2</mn><mfrac><mn>2</mn><mn>15</mn></mfrac><mo>:</mo><mn>5</mn><mfrac><mn>1</mn><mn>3</mn></mfrac></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><msup><mrow><mo>(</mo><mo>−</mo><mn>1</mn><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>)</mo></mrow><mn>3</mn></msup><mo>+</mo><mn>0,9</mn></math>.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
@@ -363,7 +362,8 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "proporcjonalność prosta",
+        "podobieństwo i skala",
+        "zamiana jednostek",
         "czworokąty",
         "pole i obwód"
       ],
@@ -400,8 +400,8 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "trójkąty",
-        "kąty"
+        "kąty",
+        "trójkąty"
       ],
       "prompt_html": "<p>W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>, kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> ma miarę 3 razy większą niż kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CAB</mi></math>, a kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCA</mi></math> ma miarę o 72° mniejszą niż kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
       "choices": [

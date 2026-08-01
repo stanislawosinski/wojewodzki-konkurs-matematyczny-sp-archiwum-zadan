@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Ile jest liczb pierwszych wśród liczb: 0, 7, 17, 27, 37, 47, 57, 67?</p>",
       "choices": [
@@ -56,8 +56,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną",
-        "zagadki logiczne"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Bartek pomyślał pewną liczbę. Do pomyślanej liczby dodał 5, następnie otrzymaną sumę podzielił przez 3, a otrzymany iloraz pomnożył przez 4. Od trzymanego wyniku odjął 6, różnicę podzielił przez 7 i otrzymał liczbę 2. Liczbą pomyślaną przez Bartka była liczba:</p>",
       "choices": [
@@ -254,7 +253,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "procenty",
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> jest o 10% większa od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>. Wynika z tego, że:</p>",
       "choices": [
@@ -293,7 +293,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "kąty"
       ],
       "prompt_html": "<p>W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>, w którym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>AC</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>BC</mi><mo>|</mo></math>, kąt przy podstawie ma miarę 30°. Z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> tego trójkąta poprowadzono wysokość. Jaki kąt tworzy ta wysokość z ramieniem trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>?</p>",
       "choices": [
@@ -332,7 +333,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kąty"
+        "wielokąty"
       ],
       "prompt_html": "<p>Suma kątów wewnętrznych pewnego wielokąta wynosi 1620°. Wynika stąd, że jest to:</p>",
       "choices": [
@@ -371,6 +372,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "ułamki okresowe / rozwinięcia dziesiętne",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Na sto czterdziestym drugim miejscu po przecinku, w rozwinięciu dziesiętnym liczby 2,(42687) znajduje się cyfra:</p>",
@@ -410,7 +412,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Które z liczb: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>112</mn><mo>−</mo><mn>1098</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mfrac><mrow><mn>9</mn><mo>−</mo><mn>15</mn></mrow><mrow><mo>−</mo><mn>3</mn></mrow></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mo>−</mo><mo>(</mo><mo>−</mo><mo>(</mo><mo>−</mo><mo>(</mo><mn>32</mn><mo>−</mo><mn>9</mn><mo>)</mo><mo>)</mo><mo>)</mo></math> są ujemne?</p>",
       "choices": [
@@ -551,7 +553,7 @@
       "points": 3,
       "topics": [
         "podzielność",
-        "zagadki logiczne"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>W liczbie trzycyfrowej suma cyfr jest wielokrotnością cyfry jedności. Cyfra jedności jest największą cyfrą podzielną przez trzy, cyfra setek stanowi 50% cyfry dziesiątek. Co to za liczba? Ile jest takich liczb? Zapisz obliczenia.</p>",
       "choices": [],
@@ -573,7 +575,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Bilet lotniczy z Warszawy do Tokio kosztuje 2400 zł. W sierpniu jego cenę obniżono o 12%, a we wrześniu nastąpiła kolejna obniżka, tym razem o 10%. Oblicz cenę biletu po obu obniżkach. Ile kosztowałby bilet gdyby jego cenę obniżono tylko raz o 22%? Która z obniżek byłaby korzystniejsza dla klienta, który we wrześniu wybiera się do Tokio? Zapisz obliczenia.</p>",
       "choices": [],
@@ -618,7 +620,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki"
+        "wzrost wykładniczy"
       ],
       "prompt_html": "<p>Niektóre bakterie mogą rozmnażać się w sprzyjających warunkach życiowych co 15 minut. Z każdej bakterii powstają dwie nowe. Ile bakterii powstanie z trzech bakterii po 2 godzinach? Zapisz obliczenia.</p>",
       "choices": [],
@@ -640,8 +642,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "prędkość / droga / czas",
-        "proporcjonalność prosta"
+        "proporcjonalność prosta",
+        "prędkość / droga / czas"
       ],
       "prompt_html": "<p>Wilk goni zająca, który znajduje się w odległości 60 swoich skoków od niego. Gdy zając robi 9 skoków, w tym czasie wilk zrobi 6 kroków. Wielkość 3 wilczych kroków jest równa 7 skokom zająca. Ile kroków musi zrobić wilk, aby dogonić zająca? Zapisz obliczenia.</p>",
       "choices": [],
@@ -663,8 +665,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "równania z jedną zmienną",
-        "zagadki logiczne"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Na swoje urodziny Ola zaprosiła koleżanki. Mama Oli upiekła pizzę, którą podzieliła na jednakowe kawałki. Jeśli każdemu dziecku dałaby po trzy kawałki, to zostanie jeszcze jeden, a jeżeli chciałaby dać po cztery kawałki, to dwa zabraknie. Na ile części została podzielona pizza? Ile koleżanek zaprosiła Ola? Zapisz obliczenia.</p>",
       "choices": [],
@@ -686,8 +687,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "graniastosłupy",
-        "zliczanie / metody zliczania"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Tekturowe pudełko pozbawione wieczka, wypełniono klockami w kształcie prostopadłościanu o wymiarach 10 cm × 8 cm × 12 cm. Ile maksymalnie klocków uda się umieścić w pudełku. Rozważ różne możliwości. Zapisz obliczenia.</p>",
       "choices": [],

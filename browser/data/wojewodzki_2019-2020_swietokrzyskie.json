@@ -57,7 +57,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>[</mo><msup><mrow><mo>(</mo><msup><mi>a</mi><mn>18</mn></msup><mo>·</mo><msup><mi>a</mi><mn>7</mn></msup><mo>)</mo></mrow><mn>4</mn></msup><mo>:</mo><msup><mrow><mo>(</mo><msup><mi>a</mi><mn>22</mn></msup><mo>:</mo><msup><mi>a</mi><mn>7</mn></msup><mo>)</mo></mrow><mn>5</mn></msup><mo>]</mo></mrow><mn>6</mn></msup><mo>:</mo><msup><mrow><mo>(</mo><msup><mi>a</mi><mn>27</mn></msup><mo>:</mo><msup><mi>a</mi><mn>12</mn></msup><mo>·</mo><msup><mi>a</mi><mn>5</mn></msup><mo>)</mo></mrow><mn>7</mn></msup></math> jest równa:</p>",
       "choices": [
@@ -96,8 +96,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
-        "szacowanie (zamiast obliczania)"
+        "porównywanie potęg i pierwiastków",
+        "wyłączanie czynnika przed znak pierwiastka"
       ],
       "prompt_html": "<p>Która z liczb: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>3</mn><msqrt><mn>33</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>4</mn><mroot><mn>44</mn><mn>3</mn></mroot></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mn>5</mn><msqrt><mn>5</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><mn>7</mn><mroot><mn>7</mn><mn>3</mn></mroot></math> jest największa? Wybierz odpowiedź spośród podanych.</p>",
       "choices": [
@@ -136,7 +136,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "ostrosłupy"
+        "liczba krawędzi, ścian i wierzchołków"
       ],
       "prompt_html": "<p>Liczba wszystkich ścian pewnego ostrosłupa jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math>. Liczba krawędzi tego ostrosłupa jest równa:</p>",
       "choices": [
@@ -176,7 +176,7 @@
       "points": 1,
       "topics": [
         "prawdopodobieństwo",
-        "kombinatoryka"
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Z woreczka, w którym jest 11 kul ponumerowanych liczbami od 11 do 21 losujemy bez zwracania dwie kule. Jakie jest prawdopodobieństwo tego, że iloczyn liczb na wylosowanych kulach będzie liczbą nieparzystą? Wybierz odpowiedź spośród podanych.</p>",
       "choices": [
@@ -215,7 +215,7 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki",
+        "porównywanie potęg i pierwiastków",
         "szacowanie (zamiast obliczania)"
       ],
       "prompt_html": "<p>Na osi liczbowej zaznaczono trzy liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>70</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>105</mn></msqrt></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>140</mn></msqrt></math>.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
@@ -247,7 +247,6 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki",
         "podzielność"
       ],
       "prompt_html": "<p>Wiadomo, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mo>=</mo><mfrac><mn>1</mn><mn>99</mn></mfrac><mo>(</mo><msup><mn>10</mn><mn>2020</mn></msup><mo>−</mo><mn>1</mn><mo>)</mo></math>.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
@@ -279,9 +278,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "geometria",
-        "kąty",
-        "zliczanie / metody zliczania",
+        "wielokąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>Przekątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> dwunastokąta foremnego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDEFGHIJKL</mi></math> ma długość 2 dm.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
@@ -317,7 +314,7 @@
       "type": "open",
       "points": 7,
       "topics": [
-        "procenty",
+        "stężenie procentowe / mieszaniny",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>W naczyniu jest 7 kilogramów solanki o stężeniu 6%.</p><ol type=\"a\"><li>Ile dekagramów soli jest w tej solance? Zapisz obliczenia i odpowiedź.</li><li>Ile kilogramów wody należy odparować z 7 kilogramów solanki o stężeniu 6%, aby otrzymać roztwór o stężeniu 8%? Zapisz obliczenia i odpowiedź.</li><li>Ile kilogramów solanki o stężeniu 18% należy dolać do 7 kg solanki o stężeniu 6%, aby otrzymać roztwór o stężeniu 8%? Zapisz obliczenia i odpowiedź.</li></ol>",
@@ -386,7 +383,8 @@
       "type": "open",
       "points": 8,
       "topics": [
-        "graniastosłupy"
+        "graniastosłupy",
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Czarek wykonał z kartonu 7 modeli graniastosłupów o podstawie trójkąta równobocznego. Krawędź podstawy każdego modelu graniastosłupa była równa 2 cm. Gdy te modele były ułożone od najmniejszego do największego, to wysokości każdych dwóch sąsiednich modeli różniły się o 4 cm. Suma wysokości trzech najmniejszych modeli była równa wysokości największego modelu. Czarek ze wszystkich modeli zrobił jedną bryłę, kładąc jeden model graniastosłupa na drugim i sklejając stykające się podstawy. Jaka jest objętość i pole powierzchni tej bryły? Zapisz obliczenia i odpowiedź.</p>",
       "choices": [],

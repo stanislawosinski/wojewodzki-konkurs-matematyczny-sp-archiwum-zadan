@@ -17,6 +17,7 @@
       "type": "open",
       "points": 2,
       "topics": [
+        "zamiana jednostek",
         "proporcjonalność prosta"
       ],
       "prompt_html": "<p>Z nieszczelnego kranu co 3 sekundy spada jedna kropla wody. Każda kropla ma objętość 200 mm³. Ile litrów wody wycieknie z tego kranu w ciągu doby? Zapisz obliczenia.</p>",
@@ -132,8 +133,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "procenty",
-        "równania z jedną zmienną"
+        "ułamki"
       ],
       "prompt_html": "<p>Woda stanowi 0,9 masy świeżych grzybów. Ususzono 2,5 kg takich grzybów. W procesie ich suszenia wyparowało tylko <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>8</mn><mn>9</mn></mfrac></math> wody w nich zawartej. Oblicz, ile ważyły te grzyby po ususzeniu.</p>",
       "choices": [],
@@ -155,8 +155,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "procenty",
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "procenty"
       ],
       "prompt_html": "<p>Dwa obszary leśne o łącznej powierzchni 120 ha zostały powiększone przez zalesienie przylegających do nich nieużytków rolnych. Po zalesieniu łączna powierzchnia tych obszarów jest równa 130 ha. Powierzchnia pierwszego obszaru leśnego wzrosła o 5%, a drugiego obszaru o 10%. Jaką powierzchnię miał każdy z tych obszarów przed zalesieniem nieużytków? Zapisz obliczenia.</p>",
       "choices": [],
@@ -178,8 +178,9 @@
       "type": "true_false",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "działania na potęgach",
         "trójkąty",
+        "wyłączanie wspólnego czynnika przed nawias",
         "pole i obwód"
       ],
       "prompt_html": "<p>Oceń prawdziwość poniższych zdań. Otocz kółkiem P, jeśli zdanie jest prawdziwe lub F, jeśli zdanie jest fałszywe.</p>",
@@ -211,10 +212,9 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "równania z jedną zmienną",
-        "procenty",
-        "czworokąty",
-        "pole i obwód"
+        "zmiany procentowe",
+        "zamiana jednostek",
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>W zadaniach zamkniętych dokładnie jedna odpowiedź jest poprawna. Zaznacz ją.</p><p><strong>1.</strong> Kamil wydał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> swoich pieniędzy i jeszcze złotówkę. Po tych zakupach zostało mu 1 zł 25 gr. Ile pieniędzy Kamil miał na początku?</p><ul><li>A. 1 zł 85 gr</li><li>B. 3 zł</li><li>C. 1 zł</li><li>D. 4 zł 50 gr</li></ul><p><strong>2.</strong> Pole kwadratowej działki o boku długości 700 m jest równe:</p><ul><li>A. 0,049 km²</li><li>B. 4900 m²</li><li>C. 490 ha</li><li>D. 4900 a</li></ul><p><strong>3.</strong> Cenę biletu do kina obniżono o 20%. O ile procent trzeba podwyższyć tę nową cenę, aby cena biletu była taka jak na początku?</p><ul><li>A. o 10%</li><li>B. o 20%</li><li>C. o 25%</li><li>D. Nie wiadomo, bo nie znamy ceny początkowej.</li></ul>",
       "choices": [],
@@ -260,6 +260,7 @@
       "type": "open",
       "points": 1,
       "topics": [
+        "kalendarz i czas",
         "proporcjonalność prosta"
       ],
       "prompt_html": "<p>Stary zegar spóźnia się 8 minut na dobę. Jest 22:00 i zegar ten wskazuje poprawną godzinę. Oblicz, o ile minut i w którą stronę (w przód czy w tył) trzeba przesunąć minutową wskazówkę zegara, aby następnego ranka o godzinie 7:00 zegar ten wskazał poprawną godzinę.</p>",
@@ -282,7 +283,8 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "działania na potęgach",
+        "działania na pierwiastkach",
         "ułamki"
       ],
       "prompt_html": "<p>Oblicz:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mfrac><mn>1</mn><mn>16</mn></mfrac><mo>−</mo><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>·</mo><mo>(</mo><mn>0,5</mn><mo>)</mo></mrow><mrow><msup><mrow><mo>(</mo><mo>−</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>)</mo></mrow><mn>3</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mo>−</mo><mn>0,75</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>·</mo><mo>(</mo><mn>1,7</mn><mo>−</mo><mn>3,2</mn><mo>)</mo></mrow></mfrac><mo>·</mo><mn>31</mn><mo>+</mo><msqrt><mrow><mn>1</mn><mfrac><mn>9</mn><mn>16</mn></mfrac></mrow></msqrt></math></p>",

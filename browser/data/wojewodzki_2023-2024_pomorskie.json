@@ -17,12 +17,9 @@
       "type": "true_false",
       "points": 5,
       "topics": [
-        "podzielność",
         "reszta z dzielenia",
-        "potęgi i pierwiastki",
-        "ułamki",
-        "zliczanie / metody zliczania",
-        "trójkąty"
+        "podzielność",
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>Oceń prawdziwość poniższych zdań. Jeśli zdanie jest prawdziwe – zamaluj kratkę pod literą P, a jeśli fałszywe – zamaluj kratkę pod literą F.</p>",
       "choices": [
@@ -65,7 +62,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Cenę spodni najpierw podwyższono o 20%, a następnie nową cenę obniżono o 20%. Po tych zmianach spodnie kosztują 240 zł. Ile kosztowały te spodnie przed obiema zmianami? Zapisz obliczenia.</p>",
       "choices": [],
@@ -87,7 +84,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "procenty",
+        "stężenie procentowe / mieszaniny",
         "proporcjonalność prosta"
       ],
       "prompt_html": "<p>W pewnym zakładzie stopiono trzy różne stopy złota: stop I, stop II oraz stop III i otrzymano 700 gramów stopu, w którym czyste złoto stanowi 75% jego masy. Stosunek mas użytych stopów jest równy odpowiednio <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>:</mo><mn>12</mn><mo>:</mo><mn>15</mn></mrow></math>. Stosunek mas czystego złota zawartego w tych stopach jest równy odpowiednio <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7</mn><mo>:</mo><mn>8</mn><mo>:</mo><mn>10</mn></mrow></math>. Oblicz, w którym stopie zawartość procentowa złota była największa.</p>",
@@ -110,8 +107,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "graniastosłupy",
-        "trójkąty"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>W pewnym graniastosłupie czworokątnym prostym wszystkie ściany boczne są kwadratami. Przekątne podstawy tego graniastosłupa mają długości 10 i 24. Oblicz pole powierzchni całkowitej tego graniastosłupa.</p>",
       "choices": [],
@@ -133,6 +129,7 @@
       "type": "open",
       "points": 2,
       "topics": [
+        "podobieństwo i skala",
         "trójkąty"
       ],
       "prompt_html": "<p>Oblicz długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EA</mi></math> wiedząc, że odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> jest równoległy do odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>6</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AC</mi><mo>|</mo><mo>=</mo><mn>4</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>CD</mi><mo>|</mo><mo>=</mo><mn>8</mn></mrow></math>.</p>",
@@ -157,12 +154,9 @@
       "type": "closed_single",
       "points": 6,
       "topics": [
-        "prędkość / droga / czas",
+        "działania na pierwiastkach",
         "proporcjonalność odwrotna",
-        "równania z jedną zmienną",
-        "graniastosłupy",
-        "potęgi i pierwiastki",
-        "reszta z dzielenia"
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>W zadaniach zamkniętych dokładnie jedna odpowiedź jest poprawna. Wskaż tę odpowiedź otaczając ją kółkiem.</p><p><strong>6.1</strong> Piechur porusza się z prędkością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac></mrow></math>. Każdy jego krok ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,8</mn><mtext> m</mtext></mrow></math>. Ile kroków wykona piechur w czasie 12 minut?</p><ul><li>A. 1000</li><li>B. 800</li><li>C. 640</li><li>D. 100</li></ul><p><strong>6.2</strong> Cztery pompy o jednakowej wydajności, pracując jednocześnie, wypompowały wodę zgromadzoną w zbiorniku w czasie 12 godzin. Ile takich pomp należałoby użyć, aby taką samą ilość wody wypompować w ciągu 6 godzin?</p><ul><li>A. 2</li><li>B. 3</li><li>C. 6</li><li>D. 8</li></ul><p><strong>6.3</strong> Marta ma 20 lat. Jej siostra Amelia za cztery lata będzie dwa razy młodsza od Marty. Ile lat temu Marta była trzy razy starsza od Amelii?</p><ul><li>A. 2 lata temu</li><li>B. 4 lata temu</li><li>C. 6 lat temu</li><li>D. 8 lat temu</li></ul><p><strong>6.4</strong> Drewnianą sześcienną kostkę o krawędzi 4 cm rozcięto na 64 jednakowe sześcienne kostki. Następnie 27 z tych kostek pomalowano na czerwono a pozostałe na niebiesko. Ze wszystkich niebieskich kostek ułożono prostopadłościan. Objętość otrzymanego prostopadłościanu jest równa:</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>27</mn><msup><mtext> cm</mtext><mn>3</mn></msup></mrow></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>37</mn><msup><mtext> cm</mtext><mn>3</mn></msup></mrow></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>60</mn><msup><mtext> cm</mtext><mn>3</mn></msup></mrow></math></li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>148</mn><msup><mtext> cm</mtext><mn>3</mn></msup></mrow></math></li></ul><p><strong>6.5</strong> Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>−</mo><msup><mrow><mo>(</mo><msqrt><mn>32</mn></msqrt><mo>−</mo><msqrt><mn>8</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup></mrow></math> jest równa:</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>37</mn></mrow></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>21</mn></mrow></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>6</mn></mrow></math></li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>5</mn></mrow></math></li></ul><p><strong>6.6</strong> Wiadomo, że dzień 23 lutego 2025 roku to będzie niedziela. Zatem w 2025 roku w lutym</p><ul><li>A. będzie 5 sobót.</li><li>B. będzie 5 niedziel.</li><li>C. będą 4 niedziele.</li><li>D. będzie 5 poniedziałków.</li></ul>",
       "choices": [],

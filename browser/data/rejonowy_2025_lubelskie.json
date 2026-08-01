@@ -17,8 +17,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty",
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "procenty"
       ],
       "prompt_html": "<p>Która z podanych liczb jest równa jednemu procentowi liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>7</mn></msup></math>?</p>",
       "choices": [
@@ -72,7 +72,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "ostrosłupy"
+        "liczba krawędzi, ścian i wierzchołków"
       ],
       "prompt_html": "<p>Ile najmniej krawędzi może mieć ostrosłup?</p>",
       "choices": [
@@ -178,7 +178,8 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "wzory skróconego mnożenia"
       ],
       "prompt_html": "<p>Poniżej podane są zdania dotyczące rozwiązywania równań.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -206,7 +207,7 @@
       "points": 3,
       "topics": [
         "wzory skróconego mnożenia",
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Poniżej podane są zdania dotyczące przekształcania wyrażeń algebraicznych.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -232,8 +233,10 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "potęgi i pierwiastki",
-        "wzory skróconego mnożenia"
+        "działania na potęgach",
+        "działania na pierwiastkach",
+        "wzory skróconego mnożenia",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Poniżej podane są zdania dotyczące potęg i pierwiastków.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -328,6 +331,7 @@
       "points": 4,
       "topics": [
         "czworokąty",
+        "kąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>Przekątne trapezu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>AD</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>BC</mi><mo>|</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi><mo>∥</mo><mi>DC</mi></math>, dzielą kąty przy dłuższej podstawie na połowy i przecinają się pod kątem 120°. Oblicz obwód tego trapezu wiedząc, że jego dłuższa podstawa ma długość 14 cm. <strong>Zapisz wszystkie obliczenia.</strong></p>",
@@ -396,8 +400,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "równania z jedną zmienną",
-        "wyrażenia algebraiczne"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Michał zapisał w zeszycie cztery liczby naturalne takie, że różnica pomiędzy kolejnymi liczbami wynosiła 4. Następnie obliczył iloczyn dwóch pierwszych liczb i zauważył, że jest on o 224 mniejszy od iloczynu dwóch ostatnich. Oblicz, jakie liczby zapisał Michał. <strong>Zapisz wszystkie obliczenia.</strong></p>",
       "choices": [],

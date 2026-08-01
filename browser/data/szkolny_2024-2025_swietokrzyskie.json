@@ -56,7 +56,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "działania na pierwiastkach",
         "szacowanie (zamiast obliczania)"
       ],
       "prompt_html": "<p>Ile jest wszystkich liczb całkowitych takich, które są większe od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>31</mn></msqrt><mo>−</mo><mn>13</mn></mrow></math> i jednocześnie są mniejsze od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>31</mn><mo>−</mo><msqrt><mn>13</mn></msqrt></mrow></math>? Wybierz odpowiedź spośród podanych.</p>",
@@ -100,7 +100,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>W pewnym sklepie ze sprzętem elektronicznym, cenę sprzętu RTV najpierw podniesiono o 5%, a następnie podniesiono o 10%.</p><p>Dokończ zdanie.</p><p>Cena sprzętu RTV po obu podwyżkach wzrosła o:</p>",
       "choices": [
@@ -139,7 +139,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "kąty"
       ],
       "prompt_html": "<p>W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>46</mn><mo>°</mo></mrow></math>. Na boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> tego trójkąta zaznaczono punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> taki, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AP</mi><mo>=</mo><mi>PC</mi></mrow></math> i kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>APB</mi></math> ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mo>°</mo></mrow></math>. Jaką miarę ma kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CAB</mi></math>? Wybierz odpowiedź spośród podanych.</p>",
       "choices": [
@@ -178,6 +179,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
+        "liczby pierwsze",
         "podzielność",
         "reszta z dzielenia"
       ],
@@ -250,7 +252,8 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Dane są liczby:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mfrac><mrow><msup><mn>4</mn><mn>8</mn></msup><mo>+</mo><msup><mn>4</mn><mn>8</mn></msup><mo>+</mo><msup><mn>4</mn><mn>8</mn></msup><mo>+</mo><msup><mn>4</mn><mn>8</mn></msup></mrow><msup><mn>8</mn><mn>4</mn></msup></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mfrac><msup><mn>3</mn><msup><mn>3</mn><mn>3</mn></msup></msup><msup><mn>27</mn><mn>9</mn></msup></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><mfrac><mrow><msup><mn>5</mn><mn>4</mn></msup><mo>−</mo><msup><mn>5</mn><mn>3</mn></msup></mrow><msup><mn>25</mn><mn>2</mn></msup></mfrac></mrow></math>.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -403,7 +406,8 @@
       "points": 3,
       "topics": [
         "podzielność",
-        "dowodzenie / dowody"
+        "dowodzenie / dowody",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Wykaż, że suma pięciu kolejnych naturalnych liczb parzystych jest podzielna przez 10.</p>",
       "choices": [],
@@ -471,8 +475,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "równania z jedną zmienną",
-        "zagadki logiczne"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Suma cyfr pewnej liczby dwucyfrowej wynosi 9. Jeżeli cyfry tej liczby przestawimy, to otrzymamy liczbę mniejszą o 9 od tej liczby. Wyznacz tę liczbę i liczbę powstałą z przestawienia jej cyfr.</p><p>Zapisz obliczenia i odpowiedź.</p>",
       "choices": [],

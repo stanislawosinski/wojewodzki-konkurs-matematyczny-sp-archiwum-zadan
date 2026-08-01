@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "proporcjonalność prosta"
+        "podobieństwo i skala"
       ],
       "prompt_html": "<p>Długość pewnego odcinka w skali 3:1 wynosi 6 km. Jaka jest długość tego odcinka w skali 1:25000?</p>",
       "choices": [
@@ -44,7 +44,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Które z wyrażeń <u>nie</u> jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>9</mn></msup></math>?</p>",
       "choices": [
@@ -71,7 +72,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "notacja wykładnicza"
       ],
       "prompt_html": "<p>3200 kg zamieniono na gramy i otrzymaną liczbę zapisano w notacji wykładniczej. Który zapis jest poprawny?</p>",
       "choices": [
@@ -125,6 +126,7 @@
       "type": "true_false",
       "points": 4,
       "topics": [
+        "liczba krawędzi, ścian i wierzchołków",
         "graniastosłupy"
       ],
       "prompt_html": "<p>Poniżej podane są cztery zdania dotyczące własności graniastosłupów.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>",
@@ -152,7 +154,6 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "potęgi i pierwiastki",
         "ułamki"
       ],
       "prompt_html": "<p>Dane są dwie liczby, liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msup><mrow><mo>(</mo><mfrac><mn>1</mn><msup><mn>2</mn><mn>2</mn></msup></mfrac><mo>−</mo><mn>1</mn><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup></math> i liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mfrac><mrow><mo>−</mo><msup><mn>4</mn><mn>2</mn></msup></mrow><msqrt><mrow><mn>25</mn><mo>−</mo><mn>9</mn></mrow></msqrt></mfrac><mo>·</mo><msup><mrow><mo>(</mo><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>3</mn></msup></math>.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>",
@@ -225,7 +226,8 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "notacja wykładnicza"
       ],
       "prompt_html": "<p>Ile cyfr ma liczba, którą otrzymamy, obliczając wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>3</mn><mo>·</mo><msup><mn>4</mn><mn>4</mn></msup><mo>·</mo><msup><mn>10</mn><mn>4</mn></msup><mo>·</mo><msup><mn>5</mn><mn>8</mn></msup><mo>)</mo></mrow><mn>4</mn></msup></math>?</p><p>Wpisz tylko odpowiedź (nie musisz zapisywać wykonanych obliczeń).</p>",
       "choices": [],
@@ -295,7 +297,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "procenty",
+        "zmiany procentowe",
         "proporcjonalność prosta"
       ],
       "prompt_html": "<p>Janek kupił 40 dag cukierków, za które zapłacił 14 zł.</p><p>Odpowiedz na pytania, wpisując w puste miejsca tylko liczby (nie musisz zapisywać wykonanych obliczeń).</p><ul><li>a) Jaka była cena 1 kg tych cukierków? Odpowiedź: ………………………….. zł</li><li>b) Ile Janek zapłaciłby za 2,5 kg takich samych cukierków, gdyby ich cenę obniżono o 30%? Odpowiedź: …………………………. zł</li></ul>",
@@ -364,7 +366,7 @@
       "points": 4,
       "topics": [
         "trójkąty",
-        "potęgi i pierwiastki",
+        "wyłączanie czynnika przed znak pierwiastka",
         "pole i obwód"
       ],
       "prompt_html": "<p>Antek, przygotowując się do konkursu matematycznego, znalazł w Internecie informację dotyczącą jednej z wysokości trójkąta prostokątnego:</p><p><em>W trójkącie prostokątnym kwadrat długości wysokości, poprowadzonej z wierzchołka kąta prostego, równa się iloczynowi długości odcinków, na jakie ta wysokość dzieli przeciwprostokątną.</em></p><p>Korzystając z powyższej informacji, rozwiąż zadanie.</p><p>W trójkącie prostokątnym wysokość poprowadzona z wierzchołka kąta prostego podzieliła przeciwprostokątną na odcinki o długościach 1 cm i 9 cm. Oblicz i zapisz w najprostszej postaci obwód tego trójkąta.</p>",

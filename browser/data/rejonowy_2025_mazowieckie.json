@@ -17,6 +17,7 @@
       "type": "true_false",
       "points": 1,
       "topics": [
+        "kalendarz i czas",
         "proporcjonalność prosta"
       ],
       "prompt_html": "<p>Zegar ścienny spóźnia się 9 minut na dobę.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F, jeśli jest fałszywe.</p>",
@@ -48,6 +49,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "podobieństwo i skala",
         "trójkąty"
       ],
       "prompt_html": "<p>W trójkącie prostokątnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> na przyprostokątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> zaznaczono punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math>, a na przyprostokątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CB</mi></math> punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi></math> oraz punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>N</mi></math> na przeciwprostokątnej trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> tak, że odcinki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KM</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>LN</mi></math> są prostopadłe do przeciwprostokątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>.</p><p>Wybierz wszystkie poprawne odpowiedzi spośród podanych.</p>",
@@ -152,8 +154,7 @@
       "points": 2,
       "topics": [
         "trójkąty",
-        "pole i obwód",
-        "potęgi i pierwiastki"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Wewnątrz trójkąta równoramiennego prostokątnego o przyprostokątnej równej 12 cm narysowano trójkąt równoramienny prostokątny, którego długość przyprostokątnej jest równa wysokości wyjściowego trójkąta poprowadzonej na przeciwprostokątną. Tę czynność powtórzono i narysowano analogicznie trzeci trójkąt, jak na rysunku. Oblicz całkowity obwód zacieniowanej figury.</p>",
       "choices": [],
@@ -177,8 +178,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "NWW / NWD",
-        "podzielność"
+        "NWW / NWD"
       ],
       "prompt_html": "<p>Z prostopadłościennych klocków o wymiarach 16,8 cm × 9 cm × 9 cm Szymek ułożył najniższe możliwe dwie wieże o jednakowych wysokościach. Sposób układania wież przedstawiono na rysunku. Oblicz, ile klocków wykorzystał łącznie Szymek.</p>",
       "choices": [],
@@ -224,9 +224,9 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "podzielność",
         "czworokąty",
-        "pole i obwód"
+        "pole i obwód",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Długości boków prostokąta są liczbami naturalnymi. Liczba wyrażająca obwód tego prostokąta jest o 4 mniejsza od liczby wyrażającej jego pole. Oblicz, jakie wymiary ma ten prostokąt. Rozważ wszystkie przypadki.</p>",
       "choices": [],
@@ -248,7 +248,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "procenty",
+        "zmiany procentowe",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>W sierpniu bilet na spływ kajakowy kosztował 100 zł. We wrześniu obniżono cenę biletu. Wówczas liczba uczestników spływu wzrosła o 25%, a kwota uzyskana ze sprzedaży biletów zwiększyła się o 20%. Oblicz, o ile procent obniżono cenę biletu.</p>",
@@ -271,8 +271,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "graniastosłupy",
-        "potęgi i pierwiastki"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Do wazonu w kształcie graniastosłupa prawidłowego sześciokątnego wlano wodę do wysokości 10 cm, którą następnie przelano do wazonu w kształcie graniastosłupa prawidłowego trójkątnego. Stosunek długości krawędzi podstawy wazonu w kształcie graniastosłupa prawidłowego trójkątnego do długości krawędzi podstawy wazonu w kształcie graniastosłupa prawidłowego sześciokątnego wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>3</mn></mfrac></math>. Oblicz, jaką minimalną wysokość powinien mieć wazon o większej krawędzi podstawy, aby woda się z niego nie wylała.</p>",
       "choices": [],

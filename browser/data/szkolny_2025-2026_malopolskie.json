@@ -17,6 +17,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
+        "ułamki",
         "statystyka opisowa"
       ],
       "prompt_html": "<p>Średnia arytmetyczna liczb: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mo>−</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>)</mo><mo>,</mo><mo>(</mo><mo>−</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><mo>)</mo><mo>,</mo><mfrac><mn>5</mn><mn>4</mn></mfrac><mo>,</mo><mfrac><mn>6</mn><mn>5</mn></mfrac></mrow></math> jest równa:</p>",
@@ -56,7 +57,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "zliczanie / metody zliczania"
+        "zbiory / zasada włączeń i wyłączeń"
       ],
       "prompt_html": "<p>W miejscowym domu kultury w różnych zajęciach uczestniczy 46 osób. Na zajęciach plastycznych jest 21 uczestników, z czego 14 bierze udział też w warsztatach teatralnych. Osób, które chodzą na warsztaty teatralne, ale nie na zajęcia plastyczne, jest 8. Ile osób uczestniczących w zajęciach domu kultury nie chodzi ani na zajęcia plastyczne ani na warsztaty teatralne?</p>",
       "choices": [
@@ -95,7 +96,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "podzielność"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Rozważ wszystkie nieparzyste liczby złożone dwucyfrowe. Jaka jest różnica między największą a najmniejszą z nich?</p>",
       "choices": [
@@ -134,7 +135,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki",
+        "notacja wykładnicza",
         "procenty"
       ],
       "prompt_html": "<p>Jeden promil wartości wyrażenia arytmetycznego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><msup><mn>10</mn><mn>8</mn></msup><mo>+</mo><mn>7</mn><mo>·</mo><msup><mn>10</mn><mn>7</mn></msup></mrow></math> jest równy:</p>",
@@ -174,7 +175,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "procenty",
+        "zmiany procentowe",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>W biurze turystycznym pewną wycieczkę można było w marcu kupić w ofercie „Early Bird\". W maju jej cena wzrosła o 20%. W sierpniu, w ofercie „Last minute\" jej cena spadła o 15% i była wtedy o 90 złotych wyższa niż w marcu w ofercie „Early Bird\". Jaki był koszt zakupu tej wycieczki w marcu w ofercie „Early Bird\"?</p>",
@@ -422,7 +423,8 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki"
+        "wartość bezwzględna",
+        "wyłączanie czynnika przed znak pierwiastka"
       ],
       "prompt_html": "<p>Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><msqrt><mn>2</mn></msqrt></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><msqrt><mn>8</mn></msqrt></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>z</mi><mo>=</mo><msqrt><mn>18</mn></msqrt></mrow></math> wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>−</mo><mo>|</mo><mi>y</mi><mo>−</mo><mo>|</mo><mi>z</mi><mo>|</mo><mo>|</mo></mrow></math> jest równa:</p>",
       "choices": [
@@ -508,8 +510,8 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "reszta z dzielenia",
-        "potęgi i pierwiastki"
+        "ostatnia cyfra / cykliczność potęg",
+        "reszta z dzielenia"
       ],
       "prompt_html": "<p>Dla wybranej liczby naturalnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> wykonujemy następujące działania:</p><p>Krok 1: Liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> podnosimy do kwadratu i zapisujemy liczbę będącą cyfrą jedności otrzymanej wartości.</p><p>Krok 2: Liczbę zapisaną w poprzednim kroku podnosimy do kwadratu i zapisujemy liczbę będącą cyfrą jedności otrzymanej wartości.</p><p>Krok 2. powtarzamy jeszcze trzykrotnie. Ile różnych liczb może być wynikiem otrzymanym w piątym kroku?</p>",
       "choices": [
@@ -552,8 +554,8 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "koła / okręgi",
-        "układ współrzędnych"
+        "układ współrzędnych",
+        "koła / okręgi"
       ],
       "prompt_html": "<p>W układzie współrzędnych dane są punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>K</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>3</mn><mo>,</mo><mn>2</mn><mo>)</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>L</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>)</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>M</mi><mo>=</mo><mo>(</mo><mn>4</mn><mo>,</mo><mo>−</mo><mn>5</mn><mo>)</mo></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>N</mi><mo>=</mo><mo>(</mo><mn>5</mn><mo>,</mo><mo>−</mo><mn>4</mn><mo>)</mo></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mo>(</mo><mn>6</mn><mo>,</mo><mo>−</mo><mn>2</mn><mo>)</mo></mrow></math> oraz okrąg <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math>, dla którego cztery z pięciu danych punktów są końcami dwóch jego średnic. Do okręgu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math> nie należy punkt:</p>",
       "choices": [
@@ -596,8 +598,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "graniastosłupy",
-        "trójkąty"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Wysokość graniastosłupa prawidłowego trójkątnego jest o 4 mniejsza niż obwód jednej z jego podstaw. Suma długości wszystkich krawędzi tego graniastosłupa jest równa 48. Pole powierzchni całkowitej tej bryły jest równe:</p>",
       "choices": [
@@ -641,7 +642,8 @@
       "points": 3,
       "topics": [
         "ostrosłupy",
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach",
+        "wzory skróconego mnożenia"
       ],
       "prompt_html": "<p>Pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> pięciokąta foremnego o boku długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> obliczymy ze wzoru <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mfrac><msqrt><mrow><mn>25</mn><mo>+</mo><mn>10</mn><msqrt><mn>5</mn></msqrt></mrow></msqrt><mn>4</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup></mrow></math>. Dany jest ostrosłup prawidłowy pięciokątny, którego krawędź podstawy ma długość 6, a wysokość jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><mn>25</mn><mo>−</mo><mn>10</mn><msqrt><mn>5</mn></msqrt></mrow></msqrt></math>. Objętość tego ostrosłupa jest równa:</p>",
       "choices": [

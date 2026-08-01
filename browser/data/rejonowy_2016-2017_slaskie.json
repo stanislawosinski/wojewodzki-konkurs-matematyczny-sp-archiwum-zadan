@@ -17,7 +17,8 @@
       "type": "open",
       "points": 7,
       "topics": [
-        "inne"
+        "ułamki",
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>Rozwiąż krzyżówkę:</p><p><strong>POZIOMO:</strong></p><ul><li>B. najmniejsza liczba trzycyfrowa</li><li>C. liczba o 5 mniejsza od 50</li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>27</mn><mo>:</mo><mn>3</mn><mo>·</mo><mo>(</mo><mn>21</mn><mo>:</mo><mn>3</mn><mo>)</mo><mo>−</mo><mo>(</mo><mn>4</mn><mo>·</mo><mn>9</mn><mo>−</mo><mn>6</mn><mo>·</mo><mn>6</mn><mo>)</mo></math></li><li>G. o 9 więcej od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>2</mn></msup><mo>·</mo><msup><mn>10</mn><mn>2</mn></msup></math></li><li>J. liczba, której 0,25 wynosi 16</li><li>K. 54 jest dwukrotnością tej liczby</li><li>L. połowa z połowy liczby 1000</li></ul><p><strong>PIONOWO:</strong></p><ul><li>A. 5 tuzinów (1 tuzin = 12)</li><li>C. podwojona liczba 22</li><li>E. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>5</mn><mo>−</mo><mn>12</mn><mo>)</mo><mo>·</mo><mo>(</mo><mn>11</mn><mo>−</mo><mn>16</mn><mo>)</mo></math></li><li>F. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>2</mn></msup><mo>+</mo><mn>1</mn></math></li><li>H. liczba, której jedna czwarta wynosi 4</li><li>I. liczba o 33 mniejsza od 100</li><li>M. dziesiąta część 500</li></ul>",
       "choices": [],
@@ -41,7 +42,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "inne"
+        "zagadki logiczne"
       ],
       "prompt_html": "<p>W poniższych wyrażeniach arytmetycznych wstaw nawiasy tak, aby wynik był:</p><ul><li>A) możliwie najmniejszy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>·</mo><mn>2</mn><mo>−</mo><mn>40</mn><mo>·</mo><mn>3</mn><mo>+</mo><mn>2</mn></math></li><li>B) możliwie największy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>·</mo><mn>40</mn><mo>:</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>+</mo><mn>2</mn></math></li><li>C) równy 100: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>200</mn><mo>·</mo><mn>2</mn><mo>:</mo><mn>100</mn><mo>·</mo><mn>4</mn><mo>:</mo><mn>20</mn><mo>:</mo><mn>5</mn></math></li></ul>",
       "choices": [],
@@ -117,7 +118,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "prędkość / droga / czas"
+        "prędkość / droga / czas",
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Jadąc na rowerze z prędkością 18 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mtext>km</mtext><mtext>godz</mtext></mfrac></math>, w ciągu sekundy przejedziemy</p>",
       "choices": [
@@ -144,8 +146,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "czworokąty",
-        "pole i obwód"
+        "podobieństwo i skala"
       ],
       "prompt_html": "<p>Ogródek w kształcie kwadratu o polu 81 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>m</mtext><mn>2</mn></msup></math> na planie ma pole równe 81 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>cm</mtext><mn>2</mn></msup></math>. Skala tego planu jest równa</p>",
       "choices": [
@@ -172,8 +173,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kombinatoryka",
-        "zagadki logiczne"
+        "zasada szufladkowa"
       ],
       "prompt_html": "<p>W pudełku jest 10 kul białych, 10 zielonych, 10 żółtych i 10 czerwonych. Ile co najmniej musimy wyjąć kul, aby mieć pewność, że wśród wyjętych kul będą co najmniej 3 kule tego samego koloru?</p>",
       "choices": [
@@ -200,8 +200,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kąty",
-        "zagadki logiczne"
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Ile razy między godziną 12:00 i godziną 18:00 wskazówka minutowa i wskazówka godzinowa utworzą na zegarze kąt prosty?</p>",
       "choices": [
@@ -228,8 +227,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "koła / okręgi",
-        "kombinatoryka"
+        "zliczanie / metody zliczania",
+        "koła / okręgi"
       ],
       "prompt_html": "<p>Na okręgu zaznaczono 10 różnych punktów. Następnie narysowano wszystkie cięciwy, których końcami są zaznaczone punkty. Liczba wszystkich cięciw, które się nie przecinają to</p>",
       "choices": [
@@ -365,7 +364,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zliczanie / metody zliczania"
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Rok 2012 był rokiem przestępnym. Którym kolejnym dniem roku był dzień 10 kwietnia 2012 roku?</p>",
       "choices": [
@@ -419,8 +418,8 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "nierówności",
-        "podzielność"
+        "liczby pierwsze",
+        "ułamki"
       ],
       "prompt_html": "<p>Klasa szósta liczy mniej niż 40 uczniów. Liczba dziewcząt jest większa niż <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math> i mniejsza niż <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>6</mn></mfrac></math> liczby uczniów tej klasy. Liczba chłopców jest liczbą pierwszą.</p><p>Oceń, czy podane zdania są prawdziwe czy fałszywe. Zaznacz właściwą odpowiedź.</p>",
       "choices": [
@@ -475,7 +474,6 @@
       "points": 4,
       "topics": [
         "czworokąty",
-        "trójkąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>Bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> jest dwa razy dłuższy od boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>. Na boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> zaznaczono punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> taki, że długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DE</mi></math> stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> długości boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math>. Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AED</mi></math> wynosi 16 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>cm</mtext><mn>2</mn></msup></math>.</p><p>Oceń, czy podane zdania są prawdziwe czy fałszywe. Zaznacz właściwą odpowiedź.</p>",
@@ -547,7 +545,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "graniastosłupy"
+        "graniastosłupy",
+        "podzielność"
       ],
       "prompt_html": "<p>Z 27 małych sześcianów o krawędzi długości 2 cm zbudowano sześcian. Następnie ze zbudowanego sześcianu usunięto 3 małe sześciany, a z pozostałych zbudowano prostopadłościan. Ile <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mtext>cm</mtext><mn>3</mn></msup></math> ma objętość powstałego prostopadłościanu? Jakie wymiary ma powstały prostopadłościan, jeżeli długość każdej jego krawędzi jest większa od 2 cm? Podaj wszystkie możliwe odpowiedzi.</p>",
       "choices": [],
@@ -570,7 +569,7 @@
       "points": 4,
       "topics": [
         "trójkąty",
-        "dwusieczna kąta / symetralna odcinka"
+        "kąty"
       ],
       "prompt_html": "<p>W trójkącie równoramiennym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>, w którym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi><mo>=</mo><mi>BC</mi></math>, miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACB</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>40</mn><mo>°</mo></math>. Z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> poprowadzono wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> oraz przez wierzchołek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> poprowadzono prostą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math>, która podzieliła kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BAC</mi></math> na dwa kąty o równych miarach. Prosta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> przecina bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math>. Wykonaj rysunek i oblicz miarę kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DAE</mi></math>.</p>",
       "choices": [],

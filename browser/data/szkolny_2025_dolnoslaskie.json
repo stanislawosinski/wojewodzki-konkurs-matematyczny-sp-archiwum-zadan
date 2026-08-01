@@ -17,8 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną",
-        "potęgi i pierwiastki"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Liczba naturalna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest o 110 mniejsza od jej kwadratu. Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest zatem mniejsza od jej sześcianu o</p>",
       "choices": [
@@ -137,6 +136,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "liczby pierwsze",
         "podzielność"
       ],
       "prompt_html": "<p>W ramce obok umieszczono 6 liczb naturalnych: 1, 12, 123, 1234, 12345, 123456. Ile wśród nich jest liczb pierwszych?</p>",
@@ -215,8 +215,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną",
-        "zagadki logiczne"
+        "kalendarz i czas",
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Od południa w pewien poniedziałek do chwili obecnej wskazówka minutowa zegara wykonała o 66 pełnych obrotów więcej, niż wskazówka godzinowa, a zatem obecnie jest</p>",
       "choices": [
@@ -255,8 +255,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty",
-        "zliczanie / metody zliczania"
+        "trójkąty"
       ],
       "prompt_html": "<p>Jeden bok trójkąta ma długość 4 cm, drugi 10 cm, a trzeci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> cm, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest liczbą naturalną. Ile jest wszystkich wartości, jakie może przyjmować liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>?</p>",
       "choices": [
@@ -341,8 +340,7 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "układy równań",
-        "geometria"
+        "układy równań"
       ],
       "prompt_html": "<p>Z figur takich, jak na rysunku nr 1, o wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> centymetrów, zbudowano figurę taką, jak na rysunku nr 2, o wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>39</mn></mrow></math> cm i figurę taką, jak na rysunku nr 3, o wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>z</mi><mo>=</mo><mn>21</mn></mrow></math> cm.</p><p>Wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> figury na rysunku 1. jest równa __________ centymetrów.</p>",
       "choices": [],
@@ -366,7 +364,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "podzielność"
+        "podzielność",
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Są cztery liczby naturalne, będące jednocześnie wielokrotnością liczby 10 i dzielnikiem liczby 1110. Dwie z nich, to 10 i 1110.</p><p>Dwie pozostałe, to __________ i __________ .</p>",
       "choices": [],
@@ -388,8 +387,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "czworokąty",
-        "kąty"
+        "kąty",
+        "czworokąty"
       ],
       "prompt_html": "<p>Z kwadratów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>K</mi><mn>1</mn></msub></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>K</mi><mn>2</mn></msub></math> oraz z rombów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mn>1</mn></msub></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>R</mi><mn>2</mn></msub></math> zbudowano figurę przedstawioną na rysunku poniżej. Literami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi></math> oznaczono na rysunku niektóre kąty. Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>20</mn><mo>°</mo></mrow></math>.</p><p>Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> jest równa __________ stopni.</p><p>Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi></math> jest równa __________ stopni.</p>",
       "choices": [],
@@ -413,7 +412,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "graniastosłupy"
+        "graniastosłupy",
+        "podobieństwo i skala"
       ],
       "prompt_html": "<p>Suma długości wszystkich krawędzi małego sześcianu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi></math> jest równa obwodowi jednej ściany dużego sześcianu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>.</p><p>Pole jednej ściany sześcianu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> stanowi __________ pola powierzchni całkowitej sześcianu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi></math>.</p><p>Objętość sześcianu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> jest __________ razy większa od objętości sześcianu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi></math>.</p>",
       "choices": [],
@@ -484,7 +484,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "graniastosłupy",
+        "liczba krawędzi, ścian i wierzchołków",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>G</mi><mn>1</mn></msub></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>G</mi><mn>2</mn></msub></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>G</mi><mn>3</mn></msub></math> — to trzy graniastosłupy takie, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>G</mi><mn>2</mn></msub></math> ma tyle krawędzi, co <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>G</mi><mn>1</mn></msub></math> wierzchołków, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>G</mi><mn>3</mn></msub></math> ma tyle ścian, co <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>G</mi><mn>2</mn></msub></math> krawędzi. Te trzy graniastosłupy mają łącznie 84 wierzchołki.</p><p>Liczba wierzchołków graniastosłupa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>G</mi><mn>1</mn></msub></math>, to __________ .</p><p>Liczba ścian graniastosłupa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>G</mi><mn>2</mn></msub></math>, to __________ .</p><p>Liczba krawędzi graniastosłupa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>G</mi><mn>3</mn></msub></math>, to __________ .</p>",

@@ -44,7 +44,6 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kombinatoryka",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Pięciu przyjaciół planuje wspólną wycieczkę do Poznania. Trzech z nich ma zwiedzać Centrum Szyfrów Enigma, a pozostali dwaj będą zwiedzać Muzeum Narodowe w Poznaniu. Na ile sposobów mogą podzielić się na takie dwie grupy?</p>",
@@ -99,7 +98,9 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "porównywanie potęg i pierwiastków",
+        "ujemny wykładnik",
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Dane są liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msup><mn>8</mn><mn>3</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>128</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>)</mo></mrow><mrow><mo>−</mo><mn>12</mn></mrow></msup></math>. Jaki związek zachodzi między liczbami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>,</mo><mi>b</mi><mo>,</mo><mi>c</mi></math>?</p>",
       "choices": [
@@ -127,7 +128,8 @@
       "points": 1,
       "topics": [
         "wzory skróconego mnożenia",
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>x</mi><mi>y</mi><mo>+</mo><mn>2</mn><msup><mi>y</mi><mn>2</mn></msup></math> dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>1</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><msqrt><mn>2</mn></msqrt><mo>−</mo><mn>1</mn></math> wynosi:</p>",
       "choices": [
@@ -154,8 +156,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną",
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach",
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msqrt><mn>9</mn></msqrt><mi>x</mi><mo>+</mo><msup><mn>3</mn><mn>2</mn></msup></mrow><msqrt><mn>0,09</mn></msqrt></mfrac><mo>=</mo><mfrac><mrow><mn>2</mn><mo>−</mo><msqrt><mn>49</mn></msqrt><mi>x</mi></mrow><mroot><mn>0,027</mn><mn>3</mn></mroot></mfrac></math> spełnia liczba:</p>",
       "choices": [
@@ -264,7 +266,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "ostrosłupy"
+        "ostrosłupy",
+        "procenty"
       ],
       "prompt_html": "<p>Dane są dwa ostrosłupy prawidłowe trójkątne. Objętość pierwszego z nich jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi></math>. Krawędź podstawy drugiego ostrosłupa jest 6 razy większa od krawędzi podstawy pierwszego ostrosłupa, a wysokość drugiego ostrosłupa jest o 75% mniejsza od wysokości pierwszego ostrosłupa? Ile razy drugi ostrosłup ma większą objętość niż pierwszy?</p>",
       "choices": [
@@ -319,7 +322,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kąty"
+        "wielokąty"
       ],
       "prompt_html": "<p>Liczba przekątnych pewnego wielokąta wypukłego jest 3 razy większa od liczby jego boków. Wynika stąd, że suma kątów wewnętrznych tego wielokąta wynosi:</p>",
       "choices": [
@@ -346,7 +349,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność"
+        "ułamki"
       ],
       "prompt_html": "<p>Dane jest działanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>)</mo><mo>·</mo><mo>(</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>)</mo><mo>·</mo><mo>(</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>)</mo><mo>·</mo><mo>(</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>)</mo><mo>·</mo><mo>…</mo><mo>·</mo><mo>(</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>2010</mn></mfrac><mo>)</mo><mo>·</mo><mo>(</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>2011</mn></mfrac><mo>)</mo></math>. Wynikiem tego działania:</p>",
       "choices": [
@@ -374,7 +377,8 @@
       "points": 1,
       "topics": [
         "pierścień kołowy",
-        "okrąg wpisany i opisany"
+        "okrąg wpisany i opisany",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Pole pierścienia kołowego przedstawionego na rysunku poniżej, ograniczonego okręgiem opisanym i wpisanym w kwadrat jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mi>π</mi></math>. Pole tego kwadratu jest równe:</p>",
       "choices": [
@@ -403,7 +407,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Po dwukrotnej obniżce ceny za każdym razem o ten sam procent jego cena końcowa stanowi 64% ceny początkowej. O ile procent dokonywano każdorazowo obniżki towaru?</p>",
       "choices": [
@@ -458,7 +462,7 @@
       "points": 3,
       "topics": [
         "trójkąty",
-        "nierówności"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Zbudowano trójkąt z odcinków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mi>k</mi><mo>+</mo><mn>4</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>k</mi><mo>+</mo><mn>1</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mo>+</mo><mn>6</mn></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> jest liczbą naturalną, dla której ten trójkąt istnieje.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli zdanie jest fałszywe.</p>",
       "choices": [
@@ -484,8 +488,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "podzielność",
-        "zagadki logiczne"
+        "podzielność"
       ],
       "prompt_html": "<p>Marcin ma w skarbonce 111 zł. W skarbonce są tylko monety 2 zł i 5 zł.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli zdanie jest fałszywe.</p>",
       "choices": [
@@ -536,6 +539,7 @@
       "points": 2,
       "topics": [
         "podzielność",
+        "wyłączanie wspólnego czynnika przed nawias",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Wykaż, że suma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>8</mn><mn>70</mn></msup><mo>+</mo><msup><mn>8</mn><mn>69</mn></msup><mo>+</mo><msup><mn>8</mn><mn>50</mn></msup><mo>+</mo><msup><mn>8</mn><mn>49</mn></msup><mo>+</mo><msup><mn>8</mn><mn>30</mn></msup><mo>+</mo><msup><mn>8</mn><mn>29</mn></msup></math> jest podzielna przez 9. Zapisz rozwiązanie i podaj uzasadnienie.</p>",

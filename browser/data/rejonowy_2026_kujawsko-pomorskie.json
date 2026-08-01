@@ -18,7 +18,8 @@
       "points": 1,
       "topics": [
         "podzielność",
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Ania, Kasia i Zosia miały za zadanie wskazać po trzy liczby, które będą dzielnikami liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><msup><mn>16</mn><mn>8</mn></msup><mo>+</mo><msup><mn>2</mn><mn>27</mn></msup></mrow></math>. Ania wypisała: 2, 3, 8, Kasia: 4, 8, 11, natomiast Zosia: 2, 4, 8. Wskaż zdanie prawdziwe:</p>",
       "choices": [
@@ -57,8 +58,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "reszta z dzielenia",
-        "potęgi i pierwiastki"
+        "ostatnia cyfra / cykliczność potęg",
+        "reszta z dzielenia"
       ],
       "prompt_html": "<p>Jaka jest cyfra jedności sumy liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>225</mn><mn>12</mn></msup><mo>+</mo><msup><mn>12</mn><mn>225</mn></msup></mrow></math>?</p>",
       "choices": [
@@ -97,8 +98,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "reszta z dzielenia",
-        "zagadki logiczne"
+        "kalendarz i czas",
+        "reszta z dzielenia"
       ],
       "prompt_html": "<p>Nowy Rok w 2026 roku przypadł w czwartek. W jaki dzień tygodnia wypadł Sylwester w 2023 roku:</p>",
       "choices": [
@@ -176,7 +177,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "ułamki",
         "procenty"
       ],
       "prompt_html": "<p>60% wartości wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo></mrow><mn>3</mn></msup><mo>·</mo><mo>[</mo><mo>(</mo><mo>−</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>)</mo><mo>·</mo><mfrac><msup><mn>3</mn><mn>2</mn></msup><msqrt><mn>64</mn></msqrt></mfrac><mo>−</mo><mn>1</mn><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mo>(</mo><mo>−</mo><mfrac><mn>3</mn><mn>8</mn></mfrac><mo>)</mo><mo>]</mo></mrow></math> wynosi:</p>",
@@ -216,7 +217,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy"
+        "liczba krawędzi, ścian i wierzchołków"
       ],
       "prompt_html": "<p>Liczba wierzchołków graniastosłupa wynosi 18. Zatem liczba wszystkich krawędzi tego graniastosłupa wynosi:</p>",
       "choices": [
@@ -374,7 +375,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "notacja wykładnicza",
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Ile potrzeba monet 2-groszowych, aby wypłacić nimi 10 milionów złotych?</p>",
       "choices": [
@@ -413,7 +415,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kąty"
+        "wielokąty"
       ],
       "prompt_html": "<p>W pewnym wielokącie foremnym kąt wewnętrzny ma miarę 150°, to liczba boków w tym wielokącie jest równa:</p>",
       "choices": [
@@ -452,7 +454,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Wskaż błędną zamianę:</p>",
       "choices": [
@@ -531,7 +533,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "kąty"
       ],
       "prompt_html": "<p>Jeden z kątów wewnętrznych trójkąta ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>, drugi jest od niego o 20° mniejszy, a trzeci trzy razy większy. Trójkąt ten jest:</p>",
       "choices": [
@@ -609,8 +612,8 @@
       "type": "true_false",
       "points": 2,
       "topics": [
+        "podobieństwo i skala",
         "czworokąty",
-        "proporcjonalność prosta",
         "pole i obwód"
       ],
       "prompt_html": "<p>Działka budowlana pana Jana ma kształt prostokąta. Na mapie w skali 1 : 2500 jeden z boków tego prostokąta ma długość 4 cm, a długość przekątnej wynosi 5 cm.</p><p>Oceń prawdziwość poniższych zdań. Zaznacz P, jeśli zdanie jest prawdziwe lub F, jeśli zdanie jest fałszywe.</p>",

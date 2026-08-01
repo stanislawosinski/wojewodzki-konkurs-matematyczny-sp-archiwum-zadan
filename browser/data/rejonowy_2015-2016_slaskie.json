@@ -17,7 +17,8 @@
       "type": "open",
       "points": 6,
       "topics": [
-        "zagadki logiczne"
+        "równania z jedną zmienną",
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>W puste, białe pola „liczbowej krzyżówki” wstaw liczby tak, aby wszystkie działania były poprawne.</p>",
       "choices": [],
@@ -119,7 +120,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Patryk ma 15 złotówek, 9 dwuzłotówek, 12 dwudziestogroszówek i 14 pięciogroszówek. Ile pieniędzy ma Patryk?</p>",
       "choices": [
@@ -158,7 +159,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Ile razy liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>24</mn><mn>2</mn></msup></math> jest większa od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>12</mn><mn>2</mn></msup></math>?</p>",
       "choices": [
@@ -236,8 +237,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "liczby pierwsze",
         "trójkąty",
-        "podzielność",
         "pole i obwód"
       ],
       "prompt_html": "<p>Jaki jest najmniejszy możliwy obwód trójkąta, który jest nierównoramienny, a długości jego boków są liczbami pierwszymi?</p>",
@@ -277,7 +278,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Pierwszego stycznia panował czterostopniowy mróz, a każdego kolejnego dnia temperatura powietrza spadała o pół stopnia. Jaka była temperatura 9 stycznia?</p>",
       "choices": [
@@ -395,6 +396,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "ułamki okresowe / rozwinięcia dziesiętne",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Dziesiątą cyfrą po przecinku w rozwinięciu dziesiętnym ułamka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mfrac><mn>5</mn><mn>37</mn></mfrac></math> jest</p>",
@@ -552,7 +554,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zliczanie / metody zliczania"
+        "zbiory / zasada włączeń i wyłączeń"
       ],
       "prompt_html": "<p>Każdy uczeń klasy VI należy do koła matematycznego lub polonistycznego. 16 uczniów należy do koła matematycznego, 16 uczniów do polonistycznego, a do jednego i drugiego koła należy 6 uczniów. Ilu uczniów jest w tej klasie?</p>",
       "choices": [
@@ -591,7 +593,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "potęgi i pierwiastki",
+        "ułamki"
       ],
       "prompt_html": "<p>Wynikiem działania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><msup><mn>2</mn><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>·</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>+</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>−</mo><mn>1</mn></math> jest liczba</p>",
       "choices": [
@@ -630,7 +633,7 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "inne"
+        "ułamki"
       ],
       "prompt_html": "<p>Oceń, czy podane zdania są prawdziwe czy fałszywe. Zaznacz właściwą odpowiedź.</p>",
       "choices": [
@@ -748,7 +751,8 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "graniastosłupy"
+        "graniastosłupy",
+        "podobieństwo i skala"
       ],
       "prompt_html": "<p>Oceń, czy podane zdania są prawdziwe czy fałszywe. Zaznacz właściwą odpowiedź.</p><p>Suma długości krawędzi wychodzących z jednego wierzchołka sześcianu wynosi 12 cm.</p>",
       "choices": [
@@ -783,8 +787,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "układy równań",
-        "równania z jedną zmienną"
+        "układy równań"
       ],
       "prompt_html": "<p>Ania, Adrian, Basia i Tomek mają razem 1022 zł. Ania i Basia mają w sumie tyle samo pieniędzy, co Adrian i Tomek razem. Ania ma o 11 zł więcej niż Basia, a Tomek – o 113 zł mniej niż Adrian. Ile pieniędzy ma każde z nich? Zapisz obliczenia.</p>",
       "choices": [],
@@ -807,8 +810,8 @@
       "points": 4,
       "topics": [
         "czworokąty",
-        "pole i obwód",
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Obwód trapezu równoramiennego wynosi 36 cm. Krótsza podstawa jest dwa razy dłuższa od ramienia, a wysokość stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> dłuższej podstawy. Różnica długości podstaw jest równa 6 cm. Oblicz pole trapezu.</p>",
       "choices": [],
@@ -852,7 +855,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "prędkość / droga / czas"
+        "prędkość / droga / czas",
+        "ułamki"
       ],
       "prompt_html": "<p>Janek wybrał się na pieszą wycieczkę. Gdy przeszedł <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> drogi, była godzina 9:50. W połowie trasy, o godzinie 10:15, zatrzymał się na odpoczynek, który trwał do godziny 10:40. Przyjmując, że przez całą drogę Janek szedł z taką samą prędkością, oblicz o której godzinie wyruszył na trasę i o której godzinie doszedł do celu.</p>",
       "choices": [],

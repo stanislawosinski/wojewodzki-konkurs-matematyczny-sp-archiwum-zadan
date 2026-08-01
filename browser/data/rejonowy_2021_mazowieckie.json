@@ -58,7 +58,7 @@
       "points": 1,
       "topics": [
         "usuwanie niewymierności z mianownika",
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Spośród podanych liczb wybierz wszystkie, które są równe liczbie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>3</mn><mrow><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>2</mn></mrow></mfrac><mo>−</mo><msqrt><mn>3</mn></msqrt></mrow></math>.</p>",
       "choices": [
@@ -129,7 +129,9 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki",
+        "działania na potęgach",
+        "podzielność",
+        "wyłączanie wspólnego czynnika przed nawias",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Uzasadnij, że wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mo>+</mo><msup><mn>3</mn><mn>2</mn></msup><mo>−</mo><msup><mn>3</mn><mn>3</mn></msup><mo>−</mo><msup><mn>3</mn><mn>4</mn></msup><mo>+</mo><msup><mn>3</mn><mn>5</mn></msup><mo>+</mo><msup><mn>3</mn><mn>6</mn></msup><mo>−</mo><msup><mn>3</mn><mn>7</mn></msup><mo>−</mo><msup><mn>3</mn><mn>8</mn></msup><mo>+</mo><msup><mn>3</mn><mn>9</mn></msup><mo>+</mo><msup><mn>3</mn><mn>10</mn></msup></mrow><mn>4</mn></mfrac></math> jest liczbą naturalną.</p>",
@@ -153,6 +155,7 @@
       "points": 3,
       "topics": [
         "trójkąty",
+        "kąty",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Na bokach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> zaznaczono punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi></math> tak, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AK</mi><mo>|</mo><mo>+</mo><mo>|</mo><mi>AL</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>CD</mi><mo>|</mo></mrow></math>. Następnie połączono punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> z wierzchołkami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> kwadratu, a punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi></math> z wierzchołkami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> (patrz rysunek). Uzasadnij, że suma kątów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi></math> jest równa 90°.</p>",
@@ -177,7 +180,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>W listopadzie baton czekoladowy był dwa razy droższy od batona truskawkowego. W grudniu baton czekoladowy staniał o 18%, a baton truskawkowy zdrożał o 9%. Paulina kupiła w grudniu dwa batony truskawkowe i jeden baton czekoladowy. Oblicz, czy zapłaciła więcej, czy mniej, niż gdyby je kupiła w listopadzie oraz o ile procent? Odpowiedź uzasadnij.</p>",
       "choices": [],
@@ -222,8 +225,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "graniastosłupy",
-        "potęgi i pierwiastki"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Prostokątną kartkę o polu 648 cm<sup>2</sup> Marysia przecięła na pół i otrzymała dwa kwadraty. Następnie jeden z tych kwadratów przecięła na dwa, a drugi na trzy przystające prostokąty i wreszcie jeden z mniejszych prostokątów przecięła na dwa przystające prostokąty (patrz rysunek). Z otrzymanych kawałków złożyła siatkę prostopadłościanu. Czy w naczyniu o pojemności równej objętości tego prostopadłościanu zmieści się 1 litr mleka? Odpowiedź uzasadnij.</p>",
       "choices": [],
@@ -248,7 +250,8 @@
       "points": 3,
       "topics": [
         "trójkąty",
-        "potęgi i pierwiastki",
+        "czworokąty",
+        "pole i obwód",
         "szacowanie (zamiast obliczania)"
       ],
       "prompt_html": "<p>Witrażowe okno jest wykonane m.in. z elementu w kształcie trapezu równoramiennego składającego się z czterech trójkątów prostokątnych, połączonych ołowianą taśmą tak, jak na rysunku. Brzeg elementu również wykończony jest tą taśmą. Stosunek długości przyprostokątnych w trójkątach przystających wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math>. Oblicz, czy na wykonanie elementu witraża wystarczy 0,5 m taśmy ołowianej, jeśli odległość między podstawami trapezu wynosi 7 cm.</p>",

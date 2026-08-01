@@ -17,12 +17,9 @@
       "type": "open",
       "points": 18,
       "topics": [
-        "potęgi i pierwiastki",
-        "procenty",
-        "NWW / NWD",
         "graniastosłupy",
-        "liczby rzymskie",
-        "ułamki"
+        "działania na potęgach",
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>Rozwiąż krzyżówkę, wpisując cyfry w odpowiednie pola. Hasło w zacieniowanych okienkach, to kolejne cyfry rozwinięcia dziesiętnego liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>5</mn></msqrt></math>. Hasło nie jest oceniane.</p><ol type=\"a\"><li>Liczba, której zapis w systemie rzymskim ma postać: MCDLXXII.</li><li>Liczba pierwsza, której kwadrat jest liczbą większą od 900 a mniejszą od 1225.</li><li>Największy wspólny dzielnik liczb: 150 i 294.</li><li>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>19</mn><mn>198</mn></mfrac></math> w postaci dziesiętnej zaokrąglona do części setnych.</li><li>Obwód trapezu prostokątnego o podstawach 2 i 5 oraz wysokości 4.</li><li>Mianownik liczby odwrotnej do 7,77 zapisanej w postaci ułamka nieskracalnego.</li><li>9% z 99% liczby 100 000.</li><li>Najmniejsza wspólna wielokrotność liczb: 13, 83 i 91.</li><li>Wynik działania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mroot><mn>27000000</mn><mn>3</mn></mroot><mo>−</mo><mroot><mrow><mn>8</mn><mo>·</mo><mn>27</mn></mrow><mn>3</mn></mroot><mo>)</mo><mo>−</mo><mo>(</mo><mn>5</mn><mo>·</mo><mn>99</mn><mo>−</mo><mn>9</mn><mo>·</mo><mn>31</mn><mo>)</mo></mrow></math></li><li>Długość krawędzi sześcianu o polu powierzchni całkowitej 9600 cm².</li><li>Spośród liczb: 760, 774, 788, 792 liczba podzielna przez 9 i przez 4.</li><li>Długość przekątnej sześcianu o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><msqrt><mn>3</mn></msqrt></mrow></math>.</li><li>Wysokość prostopadłościanu o podstawie kwadratu o boku 4 cm i objętości 112 cm³.</li><li>Objętość sześcianu o krawędzi 12 cm.</li><li>Liczba, której 45% wynosi 405.</li><li>Sześcian najmniejszej parzystej liczby złożonej.</li><li>Średnia arytmetyczna liczb: 996, 998, 1000, 1002.</li><li>Czwarta potęga odwrotności liczby 0,25.</li></ol>",
       "choices": [],
@@ -46,7 +43,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Suma liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>9</mn><mn>10</mn></msup><mo>+</mo><msup><mn>81</mn><mn>5</mn></msup><mo>+</mo><msup><mn>3</mn><mn>20</mn></msup></mrow></math> jest równa</p>",
       "choices": [
@@ -124,8 +122,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
-        "nierówności"
+        "działania na pierwiastkach",
+        "wartość bezwzględna"
       ],
       "prompt_html": "<p>Ile jest liczb naturalnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>, których odległość na osi liczbowej między <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mi>n</mi></msqrt></math> i 8 jest mniejsza lub równa 1?</p>",
       "choices": [
@@ -320,7 +318,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Cena łóżka w sklepie meblowym wynosiła 1200 zł. Po obniżce ceny okazało się, że w ciągu tygodnia sprzedano o 50% więcej łóżek, a łączna kwota uzyskana z ich sprzedaży wzrosła o 25%. Cena łóżka po obniżce wynosiła</p>",
       "choices": [
@@ -439,7 +437,9 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach",
+        "liczby wymierne i niewymierne",
+        "szacowanie (zamiast obliczania)"
       ],
       "prompt_html": "<p>Oceń, czy podane zdania są prawdziwe, czy fałszywe. Zaznacz właściwą odpowiedź.</p><p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mroot><mn>130</mn><mn>3</mn></mroot><mn>2</mn></mfrac><mo>−</mo><mn>2,4</mn></mrow></math> jest:</p>",
       "choices": [
@@ -478,8 +478,9 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "trójkąty",
-        "dwusieczna kąta / symetralna odcinka"
+        "dwusieczna kąta / symetralna odcinka",
+        "kąty",
+        "trójkąty"
       ],
       "prompt_html": "<p>W trójkącie równoramiennym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>, w którym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AC</mi><mo>=</mo><mi>BC</mi></mrow></math>, dwusieczne kątów przy podstawie przecinają się w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math>, pod kątem o mierze 110°.</p><p>Oceń, czy podane zdania są prawdziwe, czy fałszywe. Zaznacz właściwą odpowiedź.</p>",
       "choices": [
@@ -558,8 +559,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "procenty",
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "procenty"
       ],
       "prompt_html": "<p>Zegarek wskazuje godzinę między 10:00, a 10:45. Liczba minut, które upłynęły po godzinie 10:00 jest o 25% większa od liczby minut, które upłyną do godziny 10:45. Oblicz którą godzinę wskazuje zegarek.</p>",
       "choices": [],

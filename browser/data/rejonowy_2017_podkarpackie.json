@@ -56,7 +56,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "procenty",
+        "ułamki"
       ],
       "prompt_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>%</mo></math> - jaka to część całości?</p>",
       "choices": [
@@ -95,6 +96,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "stężenie procentowe / mieszaniny",
         "ułamki"
       ],
       "prompt_html": "<p>W dzbanku jest 500 cm<sup>3</sup> wody. Ile soku należy wlać do dzbanka, żeby mieszanka zawierała <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>5</mn></mfrac></math> soku?</p>",
@@ -134,7 +136,7 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "zagadki logiczne"
+        "wzrost wykładniczy"
       ],
       "prompt_html": "<p>Zaczarowana piłka odbija się zawsze do połowy wysokości z jakiej spadła. Zrzucamy piłkę z wysokości 16 m.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli zdanie jest fałszywe.</p>",
       "choices": [
@@ -212,7 +214,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "czworokąty",
+        "podobieństwo i skala",
         "pole i obwód"
       ],
       "prompt_html": "<p>Boki prostokąta o polu 40 cm<sup>2</sup> zmniejszono 2 razy. Pole tego prostokąta wynosi teraz:</p>",
@@ -252,7 +254,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Cenę komputera obniżono w lipcu o 20%, a następnie we wrześniu podniesiono o 20%. Po tych zmianach cena komputera:</p>",
       "choices": [
@@ -291,7 +293,6 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kombinatoryka",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Sześciu chłopców przywitało się, podając rękę każdy każdemu. Ile było uścisków dłoni?</p>",
@@ -406,7 +407,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "nierówności"
+        "wartość bezwzględna"
       ],
       "prompt_html": "<p>Która z podanych liczb <strong>nie spełnia</strong> podanego warunku: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>x</mi><mo>|</mo><mo>&gt;</mo><mn>4</mn></math> ?</p>",
       "choices": [
@@ -445,7 +446,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "graniastosłupy"
+        "liczba krawędzi, ścian i wierzchołków"
       ],
       "prompt_html": "<p>Graniastosłup prosty ma 24 krawędzie.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli zdanie jest fałszywe.</p>",
       "choices": [
@@ -480,6 +481,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "czworokąty",
         "trójkąty",
         "pole i obwód"
       ],
@@ -522,6 +524,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
+        "zbiory / zasada włączeń i wyłączeń",
         "ułamki"
       ],
       "prompt_html": "<p>Do sprawdzianu po szkole podstawowej przystąpiło 150 uczniów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>5</mn></mfrac></math> zdało gorzej niż Asia, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math> zdało lepiej niż Jurek. Ilu uczniów zdało lepiej niż Jurek, ale gorzej niż Asia?</p>",
@@ -561,6 +564,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
+        "zbiory / zasada włączeń i wyłączeń",
         "procenty"
       ],
       "prompt_html": "<p>W pewnej szkole 14% uczniów uczy się języka angielskiego, 78% uczniów nie uczy się ani języka angielskiego ani języka niemieckiego, 2% uczniów uczy się obydwu języków. Jaki procent uczniów uczy się języka niemieckiego?</p>",
@@ -710,6 +714,7 @@
       "points": 2,
       "topics": [
         "czworokąty",
+        "trójkąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>Dany jest kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> o boku długości 20 cm. Odległość między punktami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>N</mi></math> jest równa 12 cm. Niepokolorowana część kwadratu składa się z czterech identycznych równoramiennych trójkątów prostokątnych i czterech identycznych kwadratów.</p><p>Ile wynosi pole zamalowanej części kwadratu?</p>",
@@ -796,7 +801,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "kąty"
+        "kąty",
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Janek pasjonuje się matematyką. W poniedziałki aktywnie uczestniczy w zajęciach Koła Matematyków, które trwają do godziny 16:45. Oblicz miary kątów, jakie utworzyły wskazówki zegara w chwili zakończenia zajęć. <strong>Zapisz obliczenia i odpowiedź.</strong></p>",
       "choices": [],

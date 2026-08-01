@@ -58,7 +58,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> są liczbami przeciwnymi. Która zależność jest prawdziwa?</p>",
       "choices": [
@@ -99,6 +99,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "kąty",
         "geometria"
       ],
       "prompt_html": "<p>Wskaż zdanie fałszywe:</p>",
@@ -181,7 +182,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "wyrażenia algebraiczne"
+        "wyrażenia algebraiczne",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Działka ma kształt prostokąta o bokach długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> metrów i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> metrów. Cena jednego metra bieżącego ogrodzenia jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> złotych. Wskaż wyrażenie opisujące koszt ogrodzenia działki.</p>",
       "choices": [
@@ -222,7 +224,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "ułamki"
       ],
       "prompt_html": "<p>Z naczynia wyparowało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac></math> wody. Ile wody było początkowo w naczyniu, jeśli pozostało w nim 36 litrów?</p>",
       "choices": [
@@ -263,7 +266,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "kąty"
       ],
       "prompt_html": "<p>W trójkącie jeden bok ma długość 5 cm. Kąty leżące przy tym boku mają po 50°. Trójkąt ten jest:</p>",
       "choices": [
@@ -304,7 +308,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy"
+        "graniastosłupy",
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Ile litrów wody zmieści się w sześciennym naczyniu o krawędzi 10 cm.</p>",
       "choices": [
@@ -345,7 +350,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy"
+        "liczba krawędzi, ścian i wierzchołków"
       ],
       "prompt_html": "<p>Która z liczb określa liczbę wszystkich krawędzi pewnego graniastosłupa?</p>",
       "choices": [
@@ -386,6 +391,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "ułamki",
         "szacowanie (zamiast obliczania)"
       ],
       "prompt_html": "<p>Wskaż błędne przybliżenie liczby z dokładnością do części dziesiątych</p>",
@@ -427,7 +433,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Która z poniższych liczb jest dodatnia?</p>",
       "choices": [
@@ -468,8 +474,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną",
-        "zagadki logiczne"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>W klasie jest 28 uczniów. Ustawiono ich w rzędzie według wzrostu malejąco. Na którym miejscu stoi Basia, jeśli liczba uczniów wyższych od niej jest 2 razy mniejsza od liczby osób niższych.</p>",
       "choices": [
@@ -510,7 +515,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "proporcjonalność prosta"
+        "podobieństwo i skala"
       ],
       "prompt_html": "<p>Odcinek w skali <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>:</mo><mn>1</mn></mrow></math> ma długość 18 cm. Jaką długość ma ten odcinek w skali <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>:</mo><mn>3</mn></mrow></math>?</p>",
       "choices": [],
@@ -534,8 +539,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "procenty",
-        "ułamki"
+        "ułamki",
+        "procenty"
       ],
       "prompt_html": "<p>Oblicz 60% wartości wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8,6</mn><mo>−</mo><mn>1</mn><mfrac><mn>3</mn><mn>5</mn></mfrac><mo>:</mo><mn>0,2</mn></mrow></math>.</p>",
       "choices": [],
@@ -655,7 +660,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "kąty"
       ],
       "prompt_html": "<p>W trójkącie prostokątnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> przedłużono przeciwprostokątną <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i odłożono odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> o długości równej przyprostokątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> oraz odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BE</mi></math> o długości równej przyprostokątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>. Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CAB</mi></math> jest równa 40°. Wykonaj rysunek. Oblicz, jaką miarę ma kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DCE</mi></math>?</p>",
       "choices": [],

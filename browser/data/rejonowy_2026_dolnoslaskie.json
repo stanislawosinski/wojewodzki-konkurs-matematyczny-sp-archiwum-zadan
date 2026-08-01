@@ -57,8 +57,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty",
-        "kąty"
+        "kąty",
+        "trójkąty"
       ],
       "prompt_html": "<p>Papierowy trójkąt równoboczny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> zagięto wzdłuż odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DE</mi></math> (zobacz rysunek) tak, że jego wierzchołek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> znalazł się na boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>C</mi><mo>′</mo></msup></math> takim, że odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><msup><mi>C</mi><mo>′</mo></msup></math> jest prostopadły do tego boku.</p><p>Największy kąt wewnętrzny czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><msup><mi>C</mi><mo>′</mo></msup><mi>DE</mi></math> ma miarę</p>",
       "choices": [
@@ -99,7 +99,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "pierwiastki zagnieżdżone"
       ],
       "prompt_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><mn>1</mn><mo>+</mo><mfrac><mn>12</mn><mrow><mn>1</mn><mo>+</mo><msqrt><mrow><mn>1</mn><mo>+</mo><mfrac><mn>24</mn><mrow><mn>1</mn><mo>+</mo><msqrt><mrow><mn>1</mn><mo>+</mo><mfrac><mn>12</mn><mrow><mn>1</mn><mo>+</mo><msqrt><mn>9</mn></msqrt></mrow></mfrac></mrow></msqrt></mrow></mfrac></mrow></msqrt></mrow></mfrac></mrow></msqrt></math> jest równa</p>",
       "choices": [
@@ -138,8 +138,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty",
-        "równania z jedną zmienną"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Baca ma w stadzie więcej owiec białych niż czarnych. Gdyby liczba białych wzrosła o 20%, a liczba czarnych wzrosła o 26%, to liczby białych i czarnych byłyby równe. O ile procent większa jest liczba owiec białych od liczby owiec czarnych w tym stadzie?</p>",
       "choices": [
@@ -179,7 +178,7 @@
       "points": 1,
       "topics": [
         "statystyka opisowa",
-        "równania z jedną zmienną"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Dane są dwa zestawy liczb:</p><p><em>Zestaw</em> 1: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>,</mo><mn>1</mn><mo>,</mo><mi>x</mi></math>,</p><p><em>Zestaw</em> 2: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>2</mn><mo>,</mo><mn>2</mn><mo>,</mo><mi>y</mi></math>.</p><p>Średnie arytmetyczne tych zestawów są równe. Wskaż związek, jaki zachodzi między liczbami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>.</p>",
       "choices": [
@@ -218,8 +217,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "NWW / NWD",
-        "podzielność"
+        "NWW / NWD"
       ],
       "prompt_html": "<p>Jednym z rozwiązań równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>NWW</mtext><mo>(</mo><mi>x</mi><mo>,</mo><mn>24</mn><mo>)</mo><mo>=</mo><mtext>NWD</mtext><mo>(</mo><mn>96</mn><mo>,</mo><mn>144</mn><mo>)</mo></math> jest liczba</p>",
       "choices": [
@@ -258,8 +256,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną",
-        "zagadki logiczne"
+        "wartość bezwzględna",
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Rozwiązaniem każdego z czterech równań</p><p>I. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo>|</mo><mo>=</mo><mn>3</mn></math>, &nbsp; II. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>x</mi><mo>−</mo><mn>3</mn><mo>|</mo><mo>=</mo><mn>2</mn></math>, &nbsp; III. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo>|</mo><mo>=</mo><mn>3</mn></math>, &nbsp; IV. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo>|</mo><mo>=</mo><mn>2</mn></math></p><p>są dwie różne liczby, ale tylko jedno z tych równań spełniają dwie różne liczby dodatnie. Tym równaniem jest</p>",
       "choices": [
@@ -298,8 +296,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kąty",
-        "zliczanie / metody zliczania"
+        "wielokąty"
       ],
       "prompt_html": "<p>Suma miar wszystkich kątów wewnętrznych wielokąta foremnego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>W</mi></math> jest równa 9000°. W tym wielokącie połączono co drugi wierzchołek i otrzymano wielokąt foremny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi></math>. Suma miar wszystkich kątów wewnętrznych wielokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi></math> jest równa</p>",
       "choices": [
@@ -338,7 +335,7 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Dane są trzy liczby:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msup><mrow><mo>(</mo><msqrt><mn>20</mn></msqrt><mo>·</mo><msqrt><mn>5</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup></math>, &nbsp; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><msup><mrow><mo>(</mo><msqrt><mn>30</mn></msqrt><mo>·</mo><msqrt><mn>6</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup></math>, &nbsp; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><msup><mrow><mo>(</mo><msqrt><mn>40</mn></msqrt><mo>·</mo><msqrt><mn>9</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup></math>.</p><p>Wartość jednej z nich jest kwadratem pewnej liczby naturalnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>. Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest równa …… .</p>",
       "choices": [],
@@ -360,7 +357,7 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Liczby naturalne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> spełniają warunek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mi>k</mi></msup><mo>=</mo><msup><mn>4</mn><mi>m</mi></msup><mo>=</mo><msup><mn>8</mn><mi>n</mi></msup><mo>=</mo><mn>64</mn></math>. Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>90</mn><mi>k</mi></mfrac><mo>+</mo><mfrac><mn>60</mn><mi>m</mi></mfrac><mo>+</mo><mfrac><mn>30</mn><mi>n</mi></mfrac></math> jest równa …… .</p>",
       "choices": [],
@@ -382,8 +379,8 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "ostrosłupy",
-        "zliczanie / metody zliczania"
+        "liczba krawędzi, ścian i wierzchołków",
+        "wielokąty"
       ],
       "prompt_html": "<p>Podstawa ostrosłupa prawidłowego ma tyle przekątnych, ile wszystkich krawędzi ma ten ostrosłup.</p><p>Liczba wszystkich ścian tego ostrosłupa (łącznie z podstawą) jest równa …… .</p>",
       "choices": [],
@@ -406,7 +403,7 @@
       "points": 2,
       "topics": [
         "nierówności",
-        "potęgi i pierwiastki",
+        "porównywanie potęg i pierwiastków",
         "szacowanie (zamiast obliczania)"
       ],
       "prompt_html": "<p>Liczby naturalne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> spełniają nierówność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>k</mi><mn>3</mn></mfrac><mo>&lt;</mo><msqrt><mn>13</mn></msqrt><mo>&lt;</mo><mfrac><mi>n</mi><mn>2</mn></mfrac></math>.</p><p>A. Największą wartością, jaką może przyjąć liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> jest …… .</p><p>B. Najmniejszą wartością, jaką może przyjąć liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest …… .</p>",
@@ -429,9 +426,9 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "geometria",
-        "pole i obwód",
-        "równania z jedną zmienną"
+        "czworokąty",
+        "równania z jedną zmienną",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W sześciokącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDEF</mi></math> każde dwa boki mające wspólny koniec są prostopadłe. Długości niektórych boków są wartościami wyrażeń algebraicznych podanych na rysunku, wyliczonymi dla tej samej liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>.</p><p>A. Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> jest równa …… .</p><p>B. Pole sześciokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDEF</mi></math> jest równe …… .</p>",
       "choices": [],
@@ -455,8 +452,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "układ współrzędnych",
-        "potęgi i pierwiastki"
+        "układ współrzędnych"
       ],
       "prompt_html": "<p>W układzie współrzędnych poprowadzono prostą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> prostopadłą do osi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>X</mi></math> i przecinającą ją w punkcie o pierwszej współrzędnej równej 6 oraz prostą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> prostopadłą do osi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi></math> i przecinającą ją w punkcie o drugiej współrzędnej równej 8. Na prostych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> są trzy różne punkty, których odległość od punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi><mo>=</mo><mo>(</mo><mn>0</mn><mo>,</mo><mn>0</mn><mo>)</mo></math> jest równa 10.</p><p>Wpisz współrzędne tych punktów.</p><p>(…… , ……) &nbsp; (…… , ……) &nbsp; (…… , ……)</p>",
       "choices": [],
@@ -478,8 +474,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "graniastosłupy",
-        "potęgi i pierwiastki"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Krawędź prostopadłościanu mająca długość 12 cm jest wspólna dla dwóch ścian, z których jedna ma przekątną długości 13 cm, a druga ma przekątną długości 15 cm.</p><p>A. Suma długości wszystkich krawędzi tego prostopadłościanu jest równa …… cm.</p><p>B. Objętość tego prostopadłościanu jest równa …… cm<sup>3</sup>.</p><p>C. Najkrótsza przekątna ściany tego prostopadłościanu ma długość …… cm.</p>",
       "choices": [],

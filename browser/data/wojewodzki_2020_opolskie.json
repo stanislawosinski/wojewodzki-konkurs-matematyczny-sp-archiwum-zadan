@@ -17,8 +17,10 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki",
-        "wzory skróconego mnożenia"
+        "działania na potęgach",
+        "działania na pierwiastkach",
+        "wzory skróconego mnożenia",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Poniższe zdania są prawdziwe.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
       "choices": [
@@ -53,6 +55,7 @@
       "type": "true_false",
       "points": 2,
       "topics": [
+        "liczby pierwsze",
         "podzielność"
       ],
       "prompt_html": "<p>Iloczyn kolejnych liczb naturalnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>4</mn><mo>·</mo><mo>…</mo><mo>·</mo><mn>24</mn><mo>·</mo><mn>25</mn></math>:</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
@@ -88,8 +91,7 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "procenty",
-        "czworokąty",
+        "zmiany procentowe",
         "pole i obwód"
       ],
       "prompt_html": "<p>Jeden bok prostokąta zwiększono o 25%, a drugi zmniejszono tak, że w rezultacie pole prostokąta nie zmieniło się.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
@@ -125,7 +127,6 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "kombinatoryka",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Janek przygotowuje kwadratowe plansze podzielone na 9 ponumerowanych pól. Poszczególne pola tej planszy mogą być białe lub czarne.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
@@ -161,8 +162,7 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "ostrosłupy",
-        "potęgi i pierwiastki"
+        "ostrosłupy"
       ],
       "prompt_html": "<p>Wysokość ostrosłupa prawidłowego czworokątnego, którego pole podstawy wynosi 144 cm², tworzy z krawędzią boczną kąt 60°.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
       "choices": [
@@ -200,7 +200,7 @@
       "points": 5,
       "topics": [
         "procenty",
-        "równania z jedną zmienną"
+        "podzielność"
       ],
       "prompt_html": "<p>Na wycieczkę pojechało mniej niż 60 uczniów. Dziewcząt było dokładnie o 15% mniej niż chłopców. Ile w tej grupie było dziewcząt?</p>",
       "choices": [],
@@ -245,8 +245,8 @@
       "type": "open",
       "points": 5,
       "topics": [
+        "działania na pierwiastkach",
         "wzory skróconego mnożenia",
-        "potęgi i pierwiastki",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Uzasadnij, że prawdziwa jest równość</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>3</mn></msqrt><mo>−</mo><mfrac><msqrt><mn>48</mn></msqrt><mrow><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>2</mn><mo>)</mo><mo>(</mo><mn>3</mn><mo>+</mo><msqrt><mn>5</mn></msqrt><mo>)</mo><mo>(</mo><mn>2</mn><mo>+</mo><msqrt><mn>3</mn></msqrt><mo>)</mo><mo>(</mo><msqrt><mn>5</mn></msqrt><mo>−</mo><mn>3</mn><mo>)</mo></mrow></mfrac><mo>=</mo><mn>0</mn></mrow></math>.</p>",
@@ -316,7 +316,7 @@
       "points": 5,
       "topics": [
         "graniastosłupy",
-        "potęgi i pierwiastki"
+        "siatki brył"
       ],
       "prompt_html": "<p>Dany jest sześcian <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mi>B</mi><mi>C</mi><mi>D</mi><msup><mi>A</mi><mo>′</mo></msup><msup><mi>B</mi><mo>′</mo></msup><msup><mi>C</mi><mo>′</mo></msup><msup><mi>D</mi><mo>′</mo></msup></mrow></math>, którego pole powierzchni całkowitej wynosi 24 cm². Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi></math> są odpowiednio środkami boków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mi>B</mi></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>B</mi><mo>′</mo></msup><msup><mi>C</mi><mo>′</mo></msup></mrow></math>. Jaka jest długość najkrótszej drogi od punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math> do punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi></math> po powierzchni sześcianu?</p>",
       "choices": [],

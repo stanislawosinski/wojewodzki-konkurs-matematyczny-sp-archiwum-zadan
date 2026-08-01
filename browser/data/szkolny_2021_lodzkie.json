@@ -152,8 +152,8 @@
       "type": "closed_single",
       "points": 5,
       "topics": [
-        "potęgi i pierwiastki",
-        "nierówności"
+        "porównywanie potęg i pierwiastków",
+        "szacowanie (zamiast obliczania)"
       ],
       "prompt_html": "<p>Ile jest liczb naturalnych większych od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>10</mn></msqrt></math> i jednocześnie mniejszych od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>90</mn></msqrt></math> ?</p>",
       "choices": [
@@ -198,7 +198,8 @@
       "type": "closed_single",
       "points": 5,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Z których odcinków można zbudować trójkąt?</p>",
       "choices": [
@@ -336,8 +337,8 @@
       "type": "closed_single",
       "points": 5,
       "topics": [
-        "graniastosłupy",
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach",
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Objętość sześcianu o krawędzi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mroot><mn>2</mn><mn>3</mn></mroot></math> wynosi:</p>",
       "choices": [
@@ -382,7 +383,9 @@
       "type": "closed_single",
       "points": 5,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach",
+        "działania na potęgach",
+        "ułamki"
       ],
       "prompt_html": "<p>Wartość którego z poniższych wyrażeń jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math> ?</p>",
       "choices": [
@@ -427,7 +430,8 @@
       "type": "closed_single",
       "points": 5,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Po wykonaniu działań w wyrażeniu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mn>3</mn><mn>2</mn></msup><mo>·</mo><msqrt><msup><mn>9</mn><mn>2</mn></msup></msqrt><mo>·</mo><msup><mn>27</mn><mn>2</mn></msup></mrow><mrow><msup><mn>3</mn><mn>6</mn></msup><mo>:</mo><msup><mn>3</mn><mn>4</mn></msup></mrow></mfrac></math> otrzymamy:</p>",
       "choices": [
@@ -472,7 +476,7 @@
       "type": "closed_single",
       "points": 5,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Jabłka są o 20% tańsze od śliwek, a gruszki są o 40% droższe od śliwek. O ile procent gruszki są droższe od jabłek?</p>",
       "choices": [
@@ -518,6 +522,8 @@
       "points": 15,
       "topics": [
         "czworokąty",
+        "podobieństwo i skala",
+        "zamiana jednostek",
         "pole i obwód"
       ],
       "prompt_html": "<p>Pole powierzchni kwadratowej działki wynosi 64 a. Druga działka, w kształcie prostokąta, jest o 40 m dłuższa, ale o 40 m węższa od kwadratowej.</p>",
@@ -555,7 +561,6 @@
       "type": "open",
       "points": 10,
       "topics": [
-        "układy równań",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Ojciec i jego dwaj synowie mają razem 120 lat. Przed pięcioma laty starszy syn miał dwa razy więcej lat niż brat młodszy, a połowę tego co ojciec. Ile lat ma obecnie każdy z nich? Zapisz rozwiązanie.</p>",
@@ -604,7 +609,7 @@
       "type": "open",
       "points": 10,
       "topics": [
-        "procenty"
+        "stężenie procentowe / mieszaniny"
       ],
       "prompt_html": "<p>W naczyniu A znajduje się pięć litrów 20-procentowej solanki, a w naczyniu B – dziewięć litrów 10-procentowej solanki. Z naczynia A przelano do naczynia B jeden litr roztworu, dokładnie wymieszano, a następnie z naczynia B przelano do naczynia A jeden litr roztworu. Jakie było stężenie procentowe solanki w naczyniu A, a jakie w naczyniu B po tych zmianach? Zapisz rozwiązanie.</p>",
       "choices": [],

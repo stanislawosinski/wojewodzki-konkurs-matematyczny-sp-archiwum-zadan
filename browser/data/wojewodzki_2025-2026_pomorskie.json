@@ -43,7 +43,8 @@
       "points": 2,
       "topics": [
         "podzielność",
-        "potęgi i pierwiastki",
+        "działania na potęgach",
+        "wyłączanie wspólnego czynnika przed nawias",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Uzasadnij, że dla każdej dodatniej liczby całkowitej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> liczba: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>5</mn><mrow><mi>n</mi><mo>+</mo><mn>2</mn></mrow></msup><mo>+</mo><mn>3</mn><mo>·</mo><msup><mn>5</mn><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msup><mo>+</mo><msup><mn>5</mn><mi>n</mi></msup></mrow></math> jest wielokrotnością liczby 41. Zapisz wszystkie etapy uzasadnienia.</p>",
@@ -135,7 +136,8 @@
       "points": 1,
       "topics": [
         "równania z jedną zmienną",
-        "wzory skróconego mnożenia"
+        "wzory skróconego mnożenia",
+        "wyłączanie czynnika przed znak pierwiastka"
       ],
       "prompt_html": "<p>Uzupełnij zdanie. Wpisz odpowiednią liczbę w wykropkowanym miejscu, aby zdanie było prawdziwe.</p><p>Rozwiązaniem równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><msqrt><mn>2</mn></msqrt><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><mn>8</mn><mo>=</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>3</mn><msqrt><mn>8</mn></msqrt><mi>x</mi><mo>+</mo><mn>13</mn></mrow></math> jest liczba ………</p>",
       "choices": [],
@@ -157,10 +159,9 @@
       "type": "closed_single",
       "points": 5,
       "topics": [
+        "podobieństwo i skala",
         "procenty",
-        "usuwanie niewymierności z mianownika",
-        "trójkąty",
-        "zagadki logiczne"
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>W zadaniach zamkniętych dokładnie jedna odpowiedź jest poprawna. Wskaż tę odpowiedź otaczając ją kółkiem.</p><p><strong>7.1</strong> Do dyspozycji mamy 4 litry soku. Sok nalewamy do szklanek o pojemności <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>5</mn></mfrac></math> litra, przy czym każdą szklankę napełniamy tylko do 0,8 jej pojemności. Ile maksymalnie szklanek można w ten sposób napełnić?</p><ul><li>A. 10</li><li>B. 15</li><li>C. 20</li><li>D. 25</li></ul><p><strong>7.2</strong> Trzy osoby wspólnie opłacały koszt wynajmu domku na weekend. Pierwsza z nich pokryła 60% całej kwoty, druga zapłaciła 40% z pozostałej części, a trzecia dopłaciła brakującą kwotę w wysokości 30 zł. Ile wynosił całkowity koszt wynajmu domku?</p><ul><li>A. 60 zł</li><li>B. 125 zł</li><li>C. 150 zł</li><li>D. 200 zł</li></ul><p><strong>7.3</strong> Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mfrac><mrow><mn>6</mn><mo>−</mo><msqrt><mn>6</mn></msqrt></mrow><msqrt><mn>6</mn></msqrt></mfrac><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup></math> jest równa</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>6</mn></mfrac></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>6</mn></msqrt><mn>6</mn></mfrac></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>6</mn></msqrt></math></li><li>D. 6</li></ul><p><strong>7.4</strong> Wiadomo, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AB</mi><mo>∥</mo><mi>CD</mi></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>OA</mi><mo>|</mo><mo>=</mo><mn>4</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>4</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>CD</mi><mo>|</mo><mo>=</mo><mn>5</mn></mrow></math> (patrz rysunek). Długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> wynosi:</p><ul><li>A. 4,5</li><li>B. 5</li><li>C. 1</li><li>D. 4</li></ul><p><strong>7.5</strong> Tomasz, Monika i Iga są rodzeństwem. Ich wiek podany w pewnej kolejności to: 12, 13 i 14 lat. Wiadomo, że wiek Moniki jest liczbą parzystą, natomiast wiek Igi stanowi dwukrotność liczby liter w imieniu jednego z jej rodzeństwa. Ile lat ma każde z dzieci?</p><ul><li>A. Tomasz – 12; Monika – 13; Iga – 14</li><li>B. Tomasz – 14; Monika – 12; Iga – 13</li><li>C. Tomasz – 13; Monika – 14; Iga – 12</li><li>D. Tomasz – 13; Monika – 12; Iga – 14</li></ul>",
       "choices": [],
@@ -185,7 +186,7 @@
       "type": "true_false",
       "points": 1,
       "topics": [
-        "zliczanie / metody zliczania"
+        "zbiory / zasada włączeń i wyłączeń"
       ],
       "prompt_html": "<p>W pewnej klasie jest 30 uczniów. Wśród nich jest pięcioro takich, którzy mają zarówno brata jak i siostrę oraz siedmioro takich, którzy nie mają ani brata ani siostry. Ponadto wiadomo, że 13 uczniów tej klasy ma siostrę.</p><p>Oceń prawdziwość poniższych stwierdzeń. Otocz kółkiem P, jeśli stwierdzenie jest prawdziwe, albo F jeśli stwierdzenie jest fałszywe.</p>",
       "choices": [

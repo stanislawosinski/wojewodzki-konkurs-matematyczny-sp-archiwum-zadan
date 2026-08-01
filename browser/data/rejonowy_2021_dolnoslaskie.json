@@ -95,7 +95,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zliczanie / metody zliczania",
+        "zagadki logiczne",
         "szacowanie (zamiast obliczania)"
       ],
       "prompt_html": "<p>Ile najmniej liczb dwucyfrowych, z których każda jest inna, można wybrać tak, aby ich suma była równa 888?</p>",
@@ -175,7 +175,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Wskaż liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>, która ma trzy następujące własności:</p><ul><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mi>n</mi></msqrt><mo>&lt;</mo><mn>4</mn></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mi>n</mi><mn>3</mn></mroot><mo>&gt;</mo><mn>2</mn></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><mn>3</mn><mi>n</mi></mrow></msqrt></math> jest liczbą naturalną.</li></ul>",
       "choices": [
@@ -254,7 +254,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "procenty",
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> są różne i dodatnie oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>%</mo></math> liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>q</mi><mo>%</mo></math> liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. Wskaż związek, jaki zachodzi między liczbami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>q</mi></math>.</p>",
       "choices": [
@@ -293,7 +294,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kąty"
+        "wielokąty"
       ],
       "prompt_html": "<p>Kwadrat rozcięto wzdłuż pewnego odcinka na dwa wielokąty. Suma miar wszystkich kątów wewnętrznych w jednym z tych wielokątów jest równa 540°. Ile jest równa suma miar wszystkich kątów wewnętrznych drugiego z tych wielokątów?</p>",
       "choices": [
@@ -414,7 +415,7 @@
       "points": 2,
       "topics": [
         "podzielność",
-        "NWW / NWD"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Wśród dzielników liczby 2100 mniejszych od tej liczby</p><p>A. największą wielokrotnością liczby 20 jest …… .</p><p>B. największą wielokrotnością liczby 84 jest …… .</p>",
       "choices": [],
@@ -436,7 +437,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "wyrażenia algebraiczne"
+        "wartość bezwzględna"
       ],
       "prompt_html": "<p>Dane jest wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>k</mi><mo>−</mo><mn>6</mn><mo>|</mo><mo>+</mo><mo>|</mo><mi>k</mi><mo>−</mo><mn>7</mn><mo>|</mo><mo>+</mo><mo>|</mo><mi>k</mi><mo>−</mo><mn>8</mn><mo>|</mo></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> jest liczbą całkowitą.</p><p>Wyrażenie to osiąga najmniejszą wartość, równą …… dla liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> równej …… .</p>",
       "choices": [],
@@ -458,7 +459,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "podzielność"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Liczbę 64 można przedstawić jako sumę dwóch dwucyfrowych liczb pierwszych na trzy sposoby. Są to:</p><p>I sposób: 64 = …… ,</p><p>II sposób: 64 = …… ,</p><p>III sposób: 64 = …… .</p>",
       "choices": [],
@@ -480,8 +481,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "trójkąty",
-        "potęgi i pierwiastki"
+        "trójkąty"
       ],
       "prompt_html": "<p>Z dziewięciu kwadratów o boku długości 1 zbudowano kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>, a w nim umieszczono łamaną <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACGEFA</mi></math> złożoną z pięciu odcinków (patrz rysunek). Z każdych trzech odcinków, będących bokami tej łamanej, można zbudować trójkąt. Z tak powstałych trójkątów, tylko trzy są prostokątne i różnoboczne. Podaj długości boków każdego z tych trzech trójkątów.</p><p>Pierwszy trójkąt: ……</p><p>Drugi trójkąt: ……</p><p>Trzeci trójkąt: ……</p>",
       "choices": [],
@@ -506,7 +506,8 @@
       "points": 4,
       "topics": [
         "graniastosłupy",
-        "trójkąty"
+        "siatki brył",
+        "podobieństwo i skala"
       ],
       "prompt_html": "<p>Na siatce sześcianu o krawędzi długości 10 cm poprowadzono odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>A</mi><mn>1</mn></msub><msub><mi>E</mi><mn>2</mn></msub></math>, który przeciął odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BF</mi></math> w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>X</mi></math> i odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DH</mi></math> w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi></math>. Z siatki zbudowano sześcian. Oblicz odległość między punktami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>X</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi></math> leżącymi na krawędziach tego sześcianu.</p>",
       "choices": [],

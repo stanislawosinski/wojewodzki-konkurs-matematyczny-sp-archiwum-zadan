@@ -97,8 +97,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "nierówności",
-        "zliczanie / metody zliczania"
+        "wartość bezwzględna",
+        "nierówności"
       ],
       "prompt_html": "<p>Ile różnych liczb całkowitych można wstawić w miejsce <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, aby nierówność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>x</mi><mo>|</mo><mo>&lt;</mo><mn>5</mn></mrow></math> była prawdziwa?</p>",
       "choices": [
@@ -317,8 +317,7 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "geometria",
-        "dowodzenie / dowody"
+        "geometria"
       ],
       "prompt_html": "<p>W pewnym mieście są ulice: Lecha, Czech, Rusa i Popiela. Ulica Rusa jest równoległa do ulicy Czecha. Ulica Czecha jest prostopadła do ulicy Popiela, a ulica Popiela jest prostopadła do ulicy Lecha. Jakie jest wzajemne położenie ulicy Rusa i ulicy Lecha?</p>",
       "choices": [],
@@ -340,6 +339,7 @@
       "type": "open",
       "points": 1,
       "topics": [
+        "liczby pierwsze",
         "podzielność"
       ],
       "prompt_html": "<p>Przedstaw liczbę 100 w postaci iloczynu trzech różnych liczb naturalnych większych od 1.</p>",
@@ -362,12 +362,9 @@
       "type": "open",
       "points": 7,
       "topics": [
-        "liczby rzymskie",
         "ułamki",
-        "potęgi i pierwiastki",
-        "prędkość / droga / czas",
-        "kąty",
-        "czworokąty"
+        "zamiana jednostek",
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>Udziel odpowiedzi:</p><ol type=\"a\"><li>Która liczba jest większa: XL czy LX?</li><li>Podaj jeden przykład ułamka większego od 0,8, ale mniejszego od 0,9.</li><li>Ile razy liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>3</mn></msup></math> jest większa od liczby 10?</li><li>Sokół może osiągnąć prędkość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>120</mn><mfrac><mrow><mi>km</mi></mrow><mi>h</mi></mfrac></mrow></math>. Gdyby mógł lecieć stale z taką prędkością, to jaką odległość pokonałby w ciągu kwadransa?</li><li>Jeden z kątów przyległych ma miarę 50°. Jaką miarę ma drugi z nich?</li><li>Pewien odcinek ma długość 1000 mm. Ile to decymetrów?</li><li>Jak nazywa się romb, w którym wysokość jest równa długości boku?</li></ol>",
       "choices": [],
@@ -422,7 +419,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "kąty"
+        "kąty",
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Jaką miarę ma kąt rozwarty, który tworzą wskazówki zegara o godz. 12:30? Przedstaw swoje rozwiązanie i zapisz odpowiedź.</p>",
       "choices": [],
@@ -444,7 +442,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "inne"
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Babcia urodziła się 31 lipca 1932 roku, a dziadek 16 października 1929 roku. O ile dni dziadek jest starszy od babci? Przedstaw swoje rozwiązanie i zapisz odpowiedź.</p>",
       "choices": [],
@@ -489,8 +487,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "trójkąty",
-        "geometria"
+        "kąty",
+        "trójkąty"
       ],
       "prompt_html": "<p>Oblicz miarę kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math>. Przedstaw swoje rozwiązanie i zapisz odpowiedź.</p>",
       "choices": [],
@@ -644,8 +642,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "graniastosłupy",
-        "potęgi i pierwiastki"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Wojtek przygotowując prezent dla Asi, włożył go do małego pudełka. To pudełko włożył do większego, a to do jeszcze większego, przy czym każde następne pudełko całkowicie mieściło się w poprzednim. Ustal w jakiej kolejności brał pudełka, jeśli wiadomo, że:</p><ul><li>pudełko żółte jest prostopadłościanem o wymiarach 4 cm × 5 cm × 6 cm,</li><li>pudełko zielone jest sześcianem o objętości 27 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>cm</mi><mn>3</mn></msup></math>,</li><li>pudełko różowe jest sześcianem o sumie długości wszystkich krawędzi równej 84 cm.</li></ul><p>Przedstaw swoje rozwiązanie i zapisz odpowiedź.</p>",
       "choices": [],

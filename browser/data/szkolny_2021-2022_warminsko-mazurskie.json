@@ -57,8 +57,7 @@
       "points": 1,
       "topics": [
         "czworokąty",
-        "pole i obwód",
-        "potęgi i pierwiastki"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Kwadrat o przekątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><msqrt><mn>2</mn></msqrt></math> ma pole równe:</p>",
       "choices": [
@@ -97,8 +96,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność",
-        "potęgi i pierwiastki"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Kwadrat sumy wszystkich jednocyfrowych liczb pierwszych ma wartość:</p>",
       "choices": [
@@ -137,7 +135,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Liczby sfeniczne to liczby naturalne, które są iloczynem trzech różnych liczb pierwszych, np. 78 jest liczbą sfeniczną, gdyż <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>78</mn><mo>=</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>13</mn></math>. Która z poniższych liczb nie jest liczbą sfeniczną?</p>",
       "choices": [
@@ -176,6 +174,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "ułamki okresowe / rozwinięcia dziesiętne",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Sto dwudziestą siódmą cyfrą po przecinku w liczbie 0,5(0357) jest:</p>",
@@ -215,7 +214,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "ułamki"
+        "ułamki okresowe / rozwinięcia dziesiętne"
       ],
       "prompt_html": "<p>Wskaż największą spośród liczb:</p>",
       "choices": [
@@ -332,7 +331,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "wartość bezwzględna"
       ],
       "prompt_html": "<p>Wartość bezwzględna sumy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><msup><mn>5</mn><mn>2</mn></msup><mo>+</mo><msup><mn>2</mn><mn>3</mn></msup><mo>−</mo><msup><mrow><mo>(</mo><mo>−</mo><mn>10</mn><mo>)</mo></mrow><mn>2</mn></msup></mrow></math> jest równa:</p>",
       "choices": [
@@ -433,8 +433,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "podzielność",
-        "zliczanie / metody zliczania"
+        "podzielność"
       ],
       "prompt_html": "<p>Pan Jabłoński zapomniał, jakie są dwie ostatnie cyfry dziewięciocyfrowego kodu do sejfu. Pamięta tylko siedem pierwszych cyfr: 2020001**. Pamięta także, że cały numer był liczbą podzielną przez 15. Jakie mogły być dwie ostatnie cyfry tego numeru? Podaj wszystkie możliwości.</p>",
       "choices": [],
@@ -456,8 +455,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "prędkość / droga / czas",
-        "proporcjonalność prosta"
+        "podobieństwo i skala",
+        "prędkość / droga / czas"
       ],
       "prompt_html": "<p>Miejscowości A i B łączy droga zbudowana wzdłuż linii prostej. Odległość między nimi na mapie w skali 1 : 400 000 wynosi 5 cm. Oblicz rzeczywistą odległość między miejscowościami A i B oraz średnią prędkość w km/h, z jaką jechał kierowca, który drogę z A do B pokonał w 12 minut. Pamiętaj o jednostkach.</p>",
       "choices": [],
@@ -480,8 +479,7 @@
       "points": 3,
       "topics": [
         "czworokąty",
-        "pole i obwód",
-        "proporcjonalność prosta"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Boisko szkolne w kształcie prostokąta o wymiarach 46 m i 30 m postanowiono zasiać trawą. Do obsiania 50 m² powierzchni jest potrzebny jeden kilogram nasion trawy. Nasiona trawy są sprzedawane tylko w 10-kilogramowych workach, po 175 zł za jeden worek. Oblicz koszt zakupu nasion trawy potrzebnych do obsiania tego boiska.</p>",
       "choices": [],
@@ -503,7 +501,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "procenty",
+        "zmiany procentowe",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Pani Marysia sprzedawała gofry: w drugim tygodniu zarobiła o 20% więcej niż w pierwszym, a w trzecim o 25% więcej niż w drugim. Łącznie zarobiła 5550 zł. Ile zarobiła pani Marysia w trzecim tygodniu pracy?</p>",

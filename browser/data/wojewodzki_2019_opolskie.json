@@ -17,6 +17,7 @@
       "type": "true_false",
       "points": 2,
       "topics": [
+        "zliczanie / metody zliczania",
         "podzielność"
       ],
       "prompt_html": "<p>Przy każdym zdaniu wpisz TAK lub NIE.</p><p>Suma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>−</mo><mn>2</mn><mo>+</mo><mn>3</mn><mo>−</mo><mn>4</mn><mo>+</mo><mo>⋯</mo><mo>−</mo><mn>2018</mn><mo>+</mo><mn>2019</mn></mrow></math> jest liczbą:</p>",
@@ -52,7 +53,9 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "porównywanie potęg i pierwiastków",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Dane są liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>600</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>300</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>8</mn><mn>150</mn></msup></math>.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
       "choices": [
@@ -87,8 +90,7 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "zliczanie / metody zliczania",
-        "geometria"
+        "wielokąty"
       ],
       "prompt_html": "<p>Liczba przekątnych w pięciokącie jest</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
       "choices": [
@@ -217,8 +219,9 @@
       "type": "open",
       "points": 5,
       "topics": [
+        "podzielność",
         "dowodzenie / dowody",
-        "podzielność"
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Udowodnij, że jeżeli w liczbie dwucyfrowej wstawimy po środku cyfrę 3 i od otrzymanej liczby trzycyfrowej odejmiemy daną liczbę dwucyfrową, to otrzymamy liczbę podzielną przez 6.</p>",
       "choices": [],
@@ -240,7 +243,7 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "procenty",
+        "stężenie procentowe / mieszaniny",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>W 150 kg solanki znajduje się 3% soli. Ile trzeba odparować wody, aby sól stanowiła 5% roztworu?</p>",

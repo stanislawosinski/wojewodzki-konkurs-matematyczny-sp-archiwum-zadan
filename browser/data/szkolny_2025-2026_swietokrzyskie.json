@@ -95,7 +95,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "działania na pierwiastkach",
         "nierówności"
       ],
       "prompt_html": "<p>Ile liczb naturalnych spełnia warunek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mo>&lt;</mo><msqrt><mi>n</mi></msqrt><mo>&lt;</mo><mn>10</mn></math>? Wybierz odpowiedź spośród podanych.</p>",
@@ -175,8 +175,8 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "reszta z dzielenia",
-        "zagadki logiczne"
+        "kalendarz i czas",
+        "reszta z dzielenia"
       ],
       "prompt_html": "<p>Setny dzień pewnego roku wypadł w niedzielę 9 kwietnia.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -215,7 +215,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "podzielność"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest dwucyfrową liczbą pierwszą i liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest trzycyfrową liczbą pierwszą.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe lub F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -251,7 +251,7 @@
       "points": 4,
       "topics": [
         "podzielność",
-        "potęgi i pierwiastki"
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Dana jest liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi><mo>=</mo><msup><mn>10</mn><mn>2025</mn></msup><mo>−</mo><mn>10</mn></math>.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -290,6 +290,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
+        "wartość bezwzględna",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>x</mi><mo>+</mo><mn>3</mn><mo>|</mo><mo>=</mo><mn>7</mn></math> ma dwa rozwiązania.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
@@ -325,8 +326,8 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "trójkąty",
-        "kąty"
+        "kąty",
+        "trójkąty"
       ],
       "prompt_html": "<p>Proste <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>, przecinają się w punktach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> tak, jak na rysunku poniżej.</p><p>Wiadomo, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>+</mo><mi>β</mi><mo>+</mo><mi>γ</mi><mo>=</mo><mn>260</mn><mo>°</mo></math> oraz że odcinki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> mają tę samą długość.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -403,7 +404,7 @@
       "points": 3,
       "topics": [
         "podzielność",
-        "reszta z dzielenia",
+        "wyłączanie wspólnego czynnika przed nawias",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Uzasadnij, że suma trzech kolejnych liczb naturalnych nie może być równa 2026.</p>",
@@ -448,7 +449,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Cenę kurtki obniżono o 5%, potem o 10%, a następnie o 44 zł. Po tych trzech obniżkach kurtka kosztuje 640 zł. O ile procent łącznie obniżono cenę kurtki?</p><p>Zapisz obliczenia i odpowiedź.</p>",
       "choices": [],
@@ -471,8 +472,8 @@
       "points": 4,
       "topics": [
         "czworokąty",
-        "pole i obwód",
-        "procenty"
+        "procenty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W równoległoboku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> przez punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> poprowadzono prostą, która przecięła bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>, w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math>, takim, że stosunek długości odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AE</mi></math> do długości odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EB</mi></math> jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>:</mo><mn>1</mn></math>. Jaki procent pola trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AED</mi></math> stanowi pole czworokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EBCD</mi></math>?</p><p>Sporządź rysunek i zapisz obliczenia.</p>",
       "choices": [],

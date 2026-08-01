@@ -52,6 +52,7 @@
       "type": "true_false",
       "points": 2,
       "topics": [
+        "liczby pierwsze",
         "podzielność"
       ],
       "prompt_html": "<p>Suma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>3</mn><mo>+</mo><mo>⋯</mo><mo>+</mo><mn>2020</mn><mo>+</mo><mn>2021</mn></math> jest liczbą:</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
@@ -87,7 +88,9 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "działania na pierwiastkach",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mn>5</mn><mn>30</mn></msup><mo>+</mo><msup><mn>5</mn><mn>29</mn></msup></mrow><mrow><msup><mn>5</mn><mn>29</mn></msup><mo>+</mo><msup><mn>5</mn><mn>28</mn></msup></mrow></mfrac></math> jest równa wartości wyrażenia:</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
       "choices": [
@@ -195,7 +198,6 @@
       "points": 5,
       "topics": [
         "reszta z dzielenia",
-        "podzielność",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Wykaż, że jeżeli liczba naturalna nie jest podzielna przez 3, to jej kwadrat daje przy dzieleniu przez 3 resztę 1.</p>",
@@ -218,7 +220,7 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "procenty"
+        "stężenie procentowe / mieszaniny"
       ],
       "prompt_html": "<p>Świeże pomidory zawierają około 95% wody. Po wstępnym suszeniu połowa wody wyparowała z pomidorów. Oblicz, jaki procent podsuszonych pomidorów teraz stanowi woda.</p>",
       "choices": [],
@@ -241,8 +243,8 @@
       "points": 5,
       "topics": [
         "czworokąty",
-        "potęgi i pierwiastki",
-        "pole i obwód"
+        "pole i obwód",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Oblicz pole kwadratu, którego przekątna jest o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>−</mo><mn>2</mn></math> dłuższa od boku. Liczbę wyrażającą obliczone pole podaj w jak najprostszej postaci.</p>",
       "choices": [],
@@ -264,8 +266,9 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "potęgi i pierwiastki",
-        "usuwanie niewymierności z mianownika"
+        "porównywanie potęg i pierwiastków",
+        "działania na pierwiastkach",
+        "wyłączanie czynnika przed znak pierwiastka"
       ],
       "prompt_html": "<p>Sprawdź, która liczba jest większa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>5</mn></msqrt><mn>3</mn></mfrac><mo>+</mo><mfrac><mn>3</mn><msqrt><mn>5</mn></msqrt></mfrac></math> czy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>10</mn></msqrt><mn>2</mn></mfrac><mo>+</mo><mfrac><mn>2</mn><msqrt><mn>10</mn></msqrt></mfrac></math>.</p>",
       "choices": [],
@@ -312,8 +315,7 @@
       "points": 5,
       "topics": [
         "graniastosłupy",
-        "trójkąty",
-        "potęgi i pierwiastki"
+        "trójkąty"
       ],
       "prompt_html": "<p>Dany jest prostopadłościan <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>B</mi><mi>C</mi><mi>D</mi><mi>E</mi><mi>F</mi><mi>G</mi><mi>H</mi></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>3</mn></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>4</mn></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mn>12</mn></math> cm (patrz rysunek).</p><p>Oblicz odległość wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> od przekątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mi>H</mi></math>.</p>",
       "choices": [],

@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Ile różnych dzielników, będących liczbami pierwszymi, ma liczba 350?</p>",
       "choices": [
@@ -72,7 +72,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "ostrosłupy"
+        "ostrosłupy",
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Pewien ostrosłup, którego podstawą jest prostokąt, ma objętość równą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi></math>. Jaka będzie jego objętość, jeżeli długość jednej krawędzi podstawy zwiększymy o 200%, drugą pozostawimy bez zmiany, a długość jego wysokości zmniejszymy trzykrotnie?</p>",
       "choices": [
@@ -207,7 +208,8 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "notacja wykładnicza",
+        "działania na potęgach",
         "procenty"
       ],
       "prompt_html": "<p>Liczba Googol, to jedynka i sto zer. W zapisie można ją przedstawić jako <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mspace width=\"0.2em\"/><mi>googol</mi><mo>=</mo><msup><mn>10</mn><mn>100</mn></msup></mrow></math>. Nazwa liczby została stworzona w 1938 roku przez dziewięcioletniego Miltona Sirotta, siostrzeńca matematyka Edwarda Kasnera.</p><p>Uzupełnij zdanie, wpisując w puste miejsce tylko liczbę (nie musisz zapisywać wykonanych obliczeń).</p><p>13% z googol googoli zapisane w notacji wykładniczej, to …</p>",
@@ -230,7 +232,9 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "działania na pierwiastkach",
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>Poniżej podane są zdania dotyczące potęg i pierwiastków.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -258,7 +262,8 @@
       "points": 3,
       "topics": [
         "układy równań",
-        "potęgi i pierwiastki"
+        "wyłączanie czynnika przed znak pierwiastka",
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Suma liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>20</mn></msqrt></math>, a ich różnica <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>12</mn></msqrt></math>.</p><p>Uzupełnij zdania, wpisując w puste miejsca tylko liczby (nie musisz zapisywać wykonanych obliczeń).</p><ul><li>a) Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> jest równa …</li><li>b) Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> jest równa …</li><li>c) Iloczyn liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> jest równy liczbie …</li></ul>",
       "choices": [],
@@ -325,7 +330,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "bryły",
+        "bryły obrotowe",
+        "graniastosłupy",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Antek i Janek, przygotowując się do konkursu matematycznego, rozwiązali równanie:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mi>x</mi><mo>+</mo><mn>2</mn></mrow><mn>2</mn></mfrac><mo>+</mo><mn>1</mn><mo>=</mo><mi>x</mi></mrow></math></p><p>Następnie wybrali sobie bryły – Antek walec, a Janek sześcian. Używając tej samej jednostki długości obliczyli objętości wybranych przez siebie brył. Obaj przyjęli, że długość każdego z potrzebnych do obliczeń odcinków jest równa liczbie będącej rozwiązaniem równania. Która bryła ma większą objętość i ile razy większą? Zapisz wszystkie obliczenia.</p>",
@@ -370,6 +376,7 @@
       "type": "open",
       "points": 5,
       "topics": [
+        "okrąg wpisany i opisany",
         "koła / okręgi",
         "pole i obwód"
       ],

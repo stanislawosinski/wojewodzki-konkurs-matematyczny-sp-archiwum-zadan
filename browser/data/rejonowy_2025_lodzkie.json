@@ -67,7 +67,8 @@
       "type": "true_false",
       "points": 9,
       "topics": [
-        "potęgi i pierwiastki",
+        "wzory skróconego mnożenia",
+        "działania na pierwiastkach",
         "trójkąty",
         "dowodzenie / dowody"
       ],
@@ -179,7 +180,7 @@
       "points": 5,
       "topics": [
         "trójkąty",
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Rozważmy pięć trójkątów:</p><ol><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>1</mn></msub></math> o bokach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>3</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>2</mn></msub></math> – trójkąt prostokątny, w którym najdłuższy bok ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>6</mn></msqrt></math>, a jeden z krótszych boków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>27</mn></msqrt></math>.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>3</mn></msub></math> o bokach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>6</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>8</mn></msqrt></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>4</mn></msub></math> o bokach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>3</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>29</mn></msqrt></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>T</mi><mn>5</mn></msub></math> o bokach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>6</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>3</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>2</mn></msqrt></math></li></ol><p>Uzupełnij tekst.</p><p>W trójkącie …………… kąty mają miary 30°, 60° i 90°, natomiast w trójkącie …………… kąty mają miary 45°, 45° i 90°. Oprócz nich trójkątem prostokątnym jest trójkąt …………… .</p>",
       "choices": [],
@@ -201,8 +202,7 @@
       "type": "open",
       "points": 8,
       "topics": [
-        "nierówności",
-        "potęgi i pierwiastki"
+        "nierówności"
       ],
       "prompt_html": "<p>Rozważmy nierówność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>−</mo><mn>3</mn><mo>&gt;</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>1</mn></math>.</p><p>A) Podaj największą liczbę całkowitą ujemną, która spełnia tę nierówność.</p><p>B) Podaj przykład trzech liczb całkowitych niedodatnich, które nie spełniają tej nierówności.</p><p>C) Czy zbiór rozwiązań nierówności z poniższej tabeli jest taki sam jak zbiór rozwiązań rozważanej nierówności? Wpisz „TAK” lub „NIE” obok każdej z nich.</p><ul><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>x</mi><mo>−</mo><mn>1</mn><mo>&gt;</mo><mn>5</mn><mi>x</mi><mo>+</mo><mn>1</mn><mo>−</mo><mn>3</mn><mi>x</mi></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mi>x</mi><mo>+</mo><msqrt><msup><mn>2</mn><mn>2</mn></msup></msqrt><mo>&gt;</mo><mi>x</mi><mo>−</mo><mn>2</mn></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mn>125</mn><mn>3</mn></mroot><mo>·</mo><mi>x</mi><mo>−</mo><mn>4</mn><mo>&gt;</mo><mn>3</mn><mi>x</mi><mo>−</mo><mn>8</mn></math></li></ul>",
       "choices": [],
@@ -248,7 +248,7 @@
       "topics": [
         "graniastosłupy",
         "ostrosłupy",
-        "potęgi i pierwiastki"
+        "liczba krawędzi, ścian i wierzchołków"
       ],
       "prompt_html": "<p>W pewnym graniastosłupie prawidłowym sześć krawędzi ma długość 7, a trzy krawędzie mają długość 4. Graniastosłup nie ma więcej krawędzi. Ostrosłup prawidłowy o tej samej objętości ma cztery krawędzie długości 3,5 i cztery krawędzie długości 4. Oblicz wysokość ostrosłupa. Rozważ wszystkie przypadki.</p>",
       "choices": [],
@@ -293,8 +293,9 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "podzielność",
-        "statystyka opisowa"
+        "liczby pierwsze",
+        "statystyka opisowa",
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>Rozważmy liczby: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>3</mn><mo>+</mo><mn>3</mn><mo>·</mo><mn>3</mn><mo>−</mo><mn>3</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mo>(</mo><mn>3</mn><mo>+</mo><mn>3</mn><mo>)</mo><mo>·</mo><mn>3</mn><mo>−</mo><mn>3</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mn>3</mn><mo>+</mo><mn>3</mn><mo>·</mo><mo>(</mo><mn>3</mn><mo>−</mo><mn>3</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><mn>3</mn><mo>−</mo><mn>3</mn><mo>·</mo><mn>3</mn><mo>+</mo><mn>3</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>e</mi><mo>=</mo><mo>(</mo><mn>3</mn><mo>−</mo><mn>3</mn><mo>)</mo><mo>·</mo><mo>(</mo><mn>3</mn><mo>+</mo><mn>3</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>=</mo><mn>3</mn><mo>−</mo><mn>3</mn><mo>·</mo><mo>(</mo><mn>3</mn><mo>+</mo><mn>3</mn><mo>)</mo></math>. Spośród nich:</p><p>A) liczby pierwsze to:</p><p>B) liczby ujemne to:</p><p>C) liczby, które mają dokładnie 3 dzielniki dodatnie, to:</p><p>D) pary liczb przeciwnych to:</p><p>E) Średnia arytmetyczna tych liczb jest równa:</p>",
       "choices": [],

@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "liczby wymierne i niewymierne"
       ],
       "prompt_html": "<p>Ile jest liczb wymiernych wśród liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>24</mn></msqrt><mo>;</mo><msqrt><mn>36</mn></msqrt><mo>;</mo><mn>0,(73)</mn><mo>;</mo><mroot><mrow><mn>3</mn><mfrac><mn>3</mn><mn>8</mn></mfrac></mrow><mn>3</mn></mroot><mo>;</mo><mfrac><msqrt><mn>5</mn></msqrt><mn>4</mn></mfrac><mo>;</mo><mfrac><msqrt><mn>25</mn></msqrt><mn>2</mn></mfrac><mo>;</mo><mn>0,66666…</mn><mo>;</mo><mn>0</mn><mo>;</mo><mo>−</mo><mn>1</mn><mfrac><mn>3</mn><mn>4</mn></mfrac></math>?</p>",
       "choices": [
@@ -95,7 +95,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "dwusieczna kąta / symetralna odcinka"
+        "dwusieczna kąta / symetralna odcinka",
+        "kąty"
       ],
       "prompt_html": "<p>Kąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> są kątami przyległymi. Kąt wyznaczony przez dwusieczne kątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> ma miarę</p>",
       "choices": [
@@ -134,7 +135,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "wartość bezwzględna"
       ],
       "prompt_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mn>1</mn><mo>−</mo><msqrt><mn>3</mn></msqrt><mo>|</mo></math> jest równa</p>",
       "choices": [
@@ -173,7 +174,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kąty"
+        "wielokąty"
       ],
       "prompt_html": "<p>Miara kąta wewnętrznego wielokąta foremnego jest równa 150°. Ile boków ma ten wielokąt?</p>",
       "choices": [
@@ -212,7 +213,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Powierzchnia działki rekreacyjnej jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3,8</mn><mo>·</mo><msup><mn>10</mn><mn>3</mn></msup></math> m². Ile to arów?</p>",
       "choices": [
@@ -407,7 +408,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Cena akcji zmalała w ciągu dnia o 60%. Cena na początku dnia to</p>",
       "choices": [
@@ -446,7 +447,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "koła / okręgi"
+        "koła / okręgi",
+        "kąty"
       ],
       "prompt_html": "<p>Prosta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> jest styczną do okręgu w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>, a kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>=</mo><mn>110</mn><mo>°</mo></math>. Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> zaznaczonego na rysunku jest równa</p>",
       "choices": [
@@ -488,7 +490,7 @@
       "points": 1,
       "topics": [
         "równania z jedną zmienną",
-        "wyłączanie jednomianu przed nawias"
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Przekształcając wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mi>a</mi><mi>x</mi><mo>−</mo><mi>b</mi><mi>x</mi></math> i wyznaczając <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, otrzymasz</p>",
       "choices": [
@@ -527,8 +529,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "czworokąty",
-        "symetrie"
+        "symetrie",
+        "czworokąty"
       ],
       "prompt_html": "<p>Każdy równoległobok nie będący rombem ani prostokątem</p>",
       "choices": [
@@ -645,7 +647,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy"
+        "liczba krawędzi, ścian i wierzchołków"
       ],
       "prompt_html": "<p>Ile wierzchołków ma graniastosłup o 54 krawędziach?</p>",
       "choices": [
@@ -726,8 +728,10 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "potęgi i pierwiastki",
-        "układ współrzędnych"
+        "działania na potęgach",
+        "liczby pierwsze",
+        "układ współrzędnych",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Dane są liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mfrac><mrow><msup><mn>11</mn><mn>2016</mn></msup><mo>−</mo><msup><mn>11</mn><mn>2015</mn></msup></mrow><msup><mn>11</mn><mn>2015</mn></msup></mfrac></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> – najmniejsza dwucyfrowa liczba pierwsza. Oblicz odległość na osi liczbowej między liczbą odwrotną do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i liczbą przeciwną do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>. Wynik przedstaw w najprostszej postaci.</p>",
       "choices": [],

@@ -57,7 +57,7 @@
       "type": "true_false",
       "points": 1,
       "topics": [
-        "proporcjonalność prosta",
+        "równania z jedną zmienną",
         "procenty"
       ],
       "prompt_html": "<p>W pewnej piekarni 24 bochenki chleba ważą tyle kilogramów, ile sztuk bochenków chleba waży 6 kg.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F, jeśli jest fałszywe.</p>",
@@ -90,6 +90,7 @@
       "points": 2,
       "topics": [
         "graniastosłupy",
+        "wyrażenia algebraiczne",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Asia zapakowała prezenty dla rodziców do dwóch jednakowych prostopadłościennych pudełek o wymiarach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>×</mo><mi>b</mi><mo>×</mo><mi>c</mi></mrow></math>, przy czym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>&gt;</mo><mn>2</mn><mi>c</mi></mrow></math>. Następnie paczkę dla mamy obwiązała różową wstążką, prezent dla taty niebieską wstążką tak, jak na rysunku. Której wstążki użyła więcej? Odpowiedź uzasadnij.</p>",
@@ -114,7 +115,9 @@
       "type": "open",
       "points": 2,
       "topics": [
+        "liczby pierwsze",
         "podzielność",
+        "wyłączanie wspólnego czynnika przed nawias",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Beata utworzyła naturalną liczbę sześciocyfrową w ten sposób, że najpierw zapisała pewną liczbę trzycyfrową, a następnie dopisała do niej tę samą liczbę. Uzasadnij, że każda liczba utworzona w ten sposób jest podzielna przez pewne trzy kolejne liczby pierwsze.</p>",
@@ -137,7 +140,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "dwusieczna kąta / symetralna odcinka",
+        "czworokąty",
+        "kąty",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>W czworokącie wypukłym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> długości boków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DC</mi></math> są równe. Przekątne przecinają się w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math>, a przekątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> dzieli kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BAD</mi></math> na połowy. Uzasadnij, że pola trójkątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AOD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BOC</mi></math> są równe.</p>",
@@ -184,7 +188,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Pan Henryk prowadzi sklep warzywniczy. W hurtowni kupował ziemniaki przez trzy kolejne miesiące w cenie o 20% poniżej ceny rynkowej za kilogram. W pierwszym miesiącu pan Henryk sprzedał ziemniaki o 5% taniej od ceny rynkowej. W drugim miesiącu sprzedał je o 10% poniżej ceny rynkowej, ale liczba sprzedanych kilogramów była dwa razy większa niż w pierwszym miesiącu. W trzecim miesiącu zdecydował się sprzedawać ziemniaki tylko o 5% drożej od ceny hurtowej, dzięki czemu udało mu się sprzedać trzy razy więcej kilogramów ziemniaków niż w pierwszym miesiącu. W którym miesiącu zarobek pana Henryka ze sprzedaży ziemniaków był największy, zakładając, że cena rynkowa w tym okresie była stała? Odpowiedź uzasadnij.</p>",
       "choices": [],
@@ -206,6 +210,7 @@
       "type": "open",
       "points": 3,
       "topics": [
+        "podobieństwo i skala",
         "trójkąty",
         "pole i obwód"
       ],
@@ -230,7 +235,6 @@
       "points": 4,
       "topics": [
         "ostrosłupy",
-        "potęgi i pierwiastki",
         "szacowanie (zamiast obliczania)"
       ],
       "prompt_html": "<p>Ostrosłup spełnia następujące warunki:</p><ul><li>Podstawą ostrosłupa jest trójkąt prostokątny równoramienny o przeciwprostokątnej równej 12 dm.</li><li>Dwie przystające ściany boczne są trójkątami prostokątnymi, w których jeden z kątów ostrych ma miarę 30°.</li><li>Wspólna krawędź przystających ścian bocznych jest prostopadła do płaszczyzny podstawy ostrosłupa.</li></ul><p>Oblicz sumę długości wszystkich krawędzi tego ostrosłupa. Czy zawsze jest mniejsza niż 6 m? Rozważ wszystkie przypadki.</p>",

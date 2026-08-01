@@ -17,8 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "ułamki",
-        "zliczanie / metody zliczania"
+        "ułamki"
       ],
       "prompt_html": "<p>Kasia zaznaczyła kropkami na osi liczbowej wszystkie ułamki, których licznik jest jedną z liczb: 1, 2, 4, a mianownik jest jedną z liczb 2, 4, 8. W ilu różnych miejscach na osi liczbowej Kasia zaznaczyła kropki?</p>",
       "choices": [
@@ -57,8 +56,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną",
-        "zagadki logiczne"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Na każdym z siedmiu kartoników napisano liczbę całkowitą. Suma wszystkich tych siedmiu liczb jest równa 7. Kartoniki te można ułożyć jeden za drugim tak, że liczba na każdym następnym kartoniku będzie o 3 większa od liczby na poprzednim. Na rysunku kartoniki są położone tak, że dwie liczby są widoczne. Ile jest równa suma największej i najmniejszej z wszystkich siedmiu liczb zapisanych na tych kartonikach?</p>",
       "choices": [
@@ -99,8 +97,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty",
-        "kąty"
+        "kąty",
+        "trójkąty"
       ],
       "prompt_html": "<p>W trapezie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> przedstawionym na rysunku obok jest taki punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math>, że trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABE</mi></math> jest prostokątny równoramienny, a trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AED</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCE</mi></math> są równoboczne. Ile razy kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest większy od kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDE</mi></math>?</p>",
       "choices": [
@@ -141,7 +139,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mfrac><mrow><msup><mn>8</mn><mn>100</mn></msup><mo>−</mo><msup><mn>8</mn><mn>99</mn></msup></mrow><mrow><msup><mn>4</mn><mn>100</mn></msup><mo>−</mo><msup><mn>4</mn><mn>99</mn></msup></mrow></mfrac></mrow><mrow><msup><mn>2</mn><mn>100</mn></msup><mo>−</mo><msup><mn>2</mn><mn>99</mn></msup></mrow></mfrac></math> jest równa</p>",
       "choices": [
@@ -180,7 +179,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "pierwiastki zagnieżdżone",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Rozwiązaniem równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mfrac><mn>80</mn><msqrt><mfrac><mn>50</mn><msqrt><mfrac><mn>12</mn><msqrt><mi>x</mi></msqrt></mfrac></msqrt></mfrac></msqrt></mfrac></msqrt><mo>=</mo><mn>4</mn></math> jest liczba</p>",
@@ -220,7 +219,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "ułamki"
       ],
       "prompt_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> różna od −4 spełnia warunek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><mi>x</mi><mo>+</mo><mn>4</mn></mrow></mfrac><mo>=</mo><mn>4</mn></math>, a liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> różna od −6 spełnia warunek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><mi>y</mi><mo>+</mo><mn>6</mn></mrow></mfrac><mo>=</mo><mn>6</mn></math>. Suma tych liczb jest różna od −10. Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><mi>x</mi><mo>+</mo><mn>4</mn><mo>+</mo><mi>y</mi><mo>+</mo><mn>6</mn></mrow></mfrac></math> dla tych liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> jest równa</p>",
       "choices": [
@@ -259,8 +259,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
-        "zliczanie / metody zliczania"
+        "wielokąty"
       ],
       "prompt_html": "<p>W wielokącie foremnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>W</mi></math> poprowadzono trzy przekątne wychodzące z jednego wierzchołka. Podzieliły one cały wielokąt na trójkąt, czworokąt, pięciokąt i sześciokąt. Ile wierzchołków ma wielokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>W</mi></math>?</p>",
       "choices": [
@@ -343,8 +342,7 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "podzielność",
-        "zliczanie / metody zliczania"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Układając w różnej kolejności kartoniki z cyframi przedstawione na rysunku można otrzymać zapis sześciu różnych liczb trzycyfrowych. Dwie z nich są liczbami pierwszymi. Suma tych dwóch liczb pierwszych jest równa …… .</p>",
       "choices": [],
@@ -369,7 +367,7 @@
       "points": 1,
       "topics": [
         "równania z jedną zmienną",
-        "zagadki logiczne"
+        "ułamki"
       ],
       "prompt_html": "<p>W zapisie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mo>∗</mo><mn>2</mn></mfrac><mo>+</mo><mfrac><mn>3</mn><mo>∗</mo></mfrac><mo>+</mo><mfrac><mo>∗</mo><mn>4</mn></mfrac><mo>=</mo><mn>5</mn></math> zastąpiono gwiazdką tę samą liczbę jednocyfrową. Liczba zastąpiona gwiazdką, to …… .</p>",
       "choices": [],
@@ -416,8 +414,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "zagadki logiczne",
-        "równania z jedną zmienną"
+        "zagadki logiczne"
       ],
       "prompt_html": "<p>Liczba naturalna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> jest czterocyfrowa, a liczba naturalna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest trzycyfrowa. Cyfrą jedności sumy tych liczb jest 7, a różnica między większą i mniejszą z tych liczb jest także równa 7. Liczbami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> są …… i …… .</p>",
       "choices": [],
@@ -461,8 +458,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "zagadki logiczne",
-        "równania z jedną zmienną"
+        "zagadki logiczne"
       ],
       "prompt_html": "<p>W puste kratki diagramu wpisano cyfry tak, że trzycyfrowa liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest o 414 większa od trzycyfrowej liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i o 414 mniejsza od trzycyfrowej liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>. Liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> są równe: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> = …… , <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> = …… , <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> = …… .</p>",
       "choices": [],
@@ -487,7 +483,7 @@
       "points": 3,
       "topics": [
         "proporcjonalność prosta",
-        "układy równań"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Liczby dodatnie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi></math> spełniają jednocześnie następujące warunki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mi>x</mi></mfrac><mo>=</mo><mfrac><mn>3</mn><mi>y</mi></mfrac><mo>=</mo><mfrac><mn>4</mn><mi>z</mi></mfrac></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mi>y</mi><mo>+</mo><mi>z</mi><mo>=</mo><mn>1</mn></math>. Tymi liczbami są: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> = …… , <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> = …… , <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi></math> = …… .</p>",
       "choices": [],

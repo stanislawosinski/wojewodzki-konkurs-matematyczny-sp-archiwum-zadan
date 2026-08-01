@@ -44,7 +44,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kąty"
+        "wielokąty"
       ],
       "prompt_html": "<p>Miara kąta wewnętrznego pięciokąta foremnego jest równa:</p>",
       "choices": [
@@ -71,6 +71,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "ułamki okresowe / rozwinięcia dziesiętne",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Sto pięćdziesiątą cyfrą po przecinku w rozwinięciu dziesiętnym liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2,4</mn><mo>(</mo><mn>308</mn><mo>)</mo></mrow></math> jest</p>",
@@ -98,7 +99,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kąty"
+        "kąty",
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>O godzinie 9:20 wskazówki zegara tworzą kąt</p>",
       "choices": [
@@ -125,7 +127,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Pani Grażyna kupiła dwie działki rekreacyjne o powierzchniach 800 metrów kwadratowych i 5 arów. Łączna powierzchnia tych działek wynosi</p>",
       "choices": [
@@ -152,7 +154,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy"
+        "graniastosłupy",
+        "statystyka opisowa"
       ],
       "prompt_html": "<p>Średnia arytmetyczna długości, szerokości i wysokości pewnego prostopadłościanu wynosi 1,4 dm. Suma długości wszystkich jego krawędzi jest równa:</p>",
       "choices": [
@@ -206,8 +209,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
-        "szacowanie (zamiast obliczania)"
+        "porównywanie potęg i pierwiastków"
       ],
       "prompt_html": "<p>Liczby uporządkowane rosnąco to:</p>",
       "choices": [
@@ -234,7 +236,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Podczas gry strategicznej uczestnik kupił nieruchomość za 40 tys. zł, a po pewnym czasie sprzedał ją za 200 tys. zł. Wartość nieruchomości od momentu jej zakupienia do momentu sprzedaży wzrosła o</p>",
       "choices": [
@@ -261,6 +263,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "liczby pierwsze",
         "podzielność"
       ],
       "prompt_html": "<p>Dwucyfrowa liczba pierwsza <u>nie może</u> mieć sumy cyfr</p>",
@@ -288,7 +291,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "procenty",
+        "zmiany procentowe",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Cenę kanapy obniżono dwukrotnie: najpierw o 20% ceny początkowej, a następnie o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> ceny obowiązującej po pierwszej obniżce. Po drugiej obniżce kanapa kosztowała 1 260 zł. Oblicz cenę kanapy przed pierwszą obniżką.</p>",

@@ -71,8 +71,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kombinatoryka",
-        "zagadki logiczne"
+        "zasada szufladkowa"
       ],
       "prompt_html": "<p>Pan Karol jest wychowawcą klasy ósmej, w której jest 20 uczniów, w tym 8 dziewcząt. Wychowawca wybiera losowo uczniów z tej klasy do grupy organizującej Szkolny Dzień Matematyki. Ile osób musi wylosować pan Karol, aby mieć pewność, że w tej grupie znajdzie się co najmniej dwóch chłopców?</p>",
       "choices": [
@@ -182,7 +181,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W trójkącie prostokątnym jeden z kątów ma miarę 60°. Stosunek długości obwodu tego trójkąta do długości jego przeciwprostokątnej wynosi</p>",
       "choices": [
@@ -209,7 +209,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "notacja wykładnicza"
       ],
       "prompt_html": "<p>Objętość Oceanu Spokojnego jest równa około <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7,1</mn><mo>·</mo><msup><mn>10</mn><mn>8</mn></msup></math> km³, Oceanu Indyjskiego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,28</mn><mo>·</mo><msup><mn>10</mn><mn>9</mn></msup></math> km³, a Oceanu Atlantyckiego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>350</mn><mo>·</mo><msup><mn>10</mn><mn>8</mn></msup></math> km³. Łączna objętość tych trzech oceanów, zapisana w notacji wykładniczej, to</p>",
       "choices": [
@@ -236,7 +236,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "stężenie procentowe / mieszaniny"
       ],
       "prompt_html": "<p>Woda morska zawiera 6,5% soli. Ile słodkiej wody należy dolać do 60 litrów wody morskiej, żeby zawartość soli zmalała do 3%?</p>",
       "choices": [
@@ -263,7 +263,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "ostrosłupy",
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Pokazaną na rysunku bryłę Paweł otrzymał w następujący sposób: do każdej ściany prostopadłościanu o wymiarach 3 cm x 6 cm x 4 cm dokleił ostrosłup czworokątny o wysokości 8 cm. Objętość tej bryły jest równa</p>",
       "choices": [
@@ -292,7 +293,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Na zajęciach koła matematycznego uczniowie przedstawili liczbę 3795 w postaci iloczynu dwóch liczb dwucyfrowych. Jaka jest suma liczb dwucyfrowych w tym iloczynie?</p>",
       "choices": [
@@ -346,7 +347,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "stężenie procentowe / mieszaniny"
       ],
       "prompt_html": "<p>Blog kulinarny U Marty podaje informację, że aby uzyskać 1 kg suszonych moreli, należy zużyć 3 kg moreli świeżych. Po wysuszeniu morele powinny mieć 22% zawartości wody. Jaka jest procentowa zawartość wody w świeżych morelach?</p>",
       "choices": [
@@ -401,7 +402,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "wzrost wykładniczy"
       ],
       "prompt_html": "<p>Każdego roku na gałązce świerku wyrastają z jednego pąka 3 nowe pędy zakończone pąkiem. Ile pąków będzie miała po siedmiu latach świerkowa gałązka, która wyrosła z jednego pąka?</p>",
       "choices": [
@@ -484,7 +485,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Dane są trzy liczby: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2022</mn><msup><mn>3</mn><mn>3</mn></msup></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2022</mn><mn>33</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><msup><mn>2022</mn><mn>3</mn></msup><mo>)</mo></mrow><mn>3</mn></msup></math>. Jeśli największą z nich podzielisz przez najmniejszą z nich, to iloraz będzie równy</p>",
       "choices": [
@@ -539,7 +540,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy"
+        "graniastosłupy",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Natalia narysowała trzy graniastosłupy: I. i II. o podstawie prostokąta, III. o podstawie trapezu. Bryły te mają równe pola podstaw oraz jednakowe objętości. Natalia oznaczyła pola powierzchni bocznych odpowiednio: P<sub>I</sub>, P<sub>II</sub>, P<sub>III</sub>. Które uporządkowanie pól powierzchni bocznych tych brył w kolejności rosnącej jest właściwe?</p>",
       "choices": [
@@ -568,9 +570,9 @@
       "type": "true_false",
       "points": 2,
       "topics": [
+        "wyrażenia algebraiczne",
         "czworokąty",
-        "pole i obwód",
-        "wyłączanie jednomianu przed nawias"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Prostokąt o bokach: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>+</mo><mn>3</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>9</mn></math> został podzielony odcinkami na cztery mniejsze prostokąty tak, jak pokazano na rysunku. W oparciu o te dane oceń, czy informacje dotyczące zacieniowanego prostokąta są prawdziwe.</p>",
       "choices": [
@@ -598,8 +600,8 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "czworokąty",
-        "symetrie"
+        "symetrie",
+        "czworokąty"
       ],
       "prompt_html": "<p>Antek narysował kwadrat i wykreślił jego przekątne (co pokazuje rysunek). Czy poniższe zdania są prawdziwe?</p>",
       "choices": [
@@ -653,8 +655,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "układy równań",
-        "równania z jedną zmienną"
+        "układy równań"
       ],
       "prompt_html": "<p>Rybacy z trzech kutrów o nazwach Brygida, Marianna i Felicja złowili razem 113 ryb. Każdy rybak z kutra Brygida złowił 13 ryb, każdy rybak z kutra Marianna złowił 5 ryb, a każdy rybak z kutra Felicja złowił 4 ryby. Wiedząc, że razem było 16 rybaków, oblicz, ilu było rybaków na każdym z trzech kutrów. Wpisz wyniki do poniższej tabeli.</p><table><tr><th>Nazwa kutra rybackiego</th><th>Liczba rybaków</th></tr><tr><td>Brygida</td><td>…………</td></tr><tr><td>Marianna</td><td>…………</td></tr><tr><td>Felicja</td><td>…………</td></tr></table>",
       "choices": [],
@@ -676,8 +677,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "kombinatoryka",
-        "geometria"
+        "wielokąty"
       ],
       "prompt_html": "<p>Do narysowania pewnego wielokąta wypukłego z jego wszystkimi przekątnymi Wiktoria potrzebowała 45 odcinków.</p><p>Wielokąt ten ma ………… boków. Wielokąt ten ma ………… przekątnych.</p>",
       "choices": [],
@@ -723,7 +723,8 @@
       "points": 3,
       "topics": [
         "podzielność",
-        "dowodzenie / dowody"
+        "dowodzenie / dowody",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Z dwucyfrowej liczby a Mateusz utworzył dwie liczby. Pierwszą liczbę otrzymał przez dopisanie do liczby a cyfry 1 na początku, drugą przez dopisanie do liczby a cyfry 1 na końcu. Czy iloczyn otrzymanych przez niego liczb pomniejszony o liczbę a jest podzielny przez 10? Odpowiedź uzasadnij.</p>",
       "choices": [],

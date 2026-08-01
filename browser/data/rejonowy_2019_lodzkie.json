@@ -17,6 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "wartość bezwzględna",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>x</mi><mo>+</mo><mn>7</mn><mo>|</mo><mo>=</mo><mn>3</mn></mrow></math></p>",
@@ -54,6 +55,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "wielokąty",
         "kąty"
       ],
       "prompt_html": "<p>Kąt zewnętrzny pięciokąta foremnego wynosi:</p>",
@@ -136,7 +138,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Aby otrzymać liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>125</mn><mn>12</mn></msup></math> należy podnieść <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>25</mn><mn>3</mn></msup></math> do potęgi:</p>",
       "choices": [
@@ -177,8 +179,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
-        "szacowanie (zamiast obliczania)"
+        "wzrost wykładniczy"
       ],
       "prompt_html": "<p>Karton o grubości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> mm składamy kilka razy na pół. Jaka jest minimalna liczba wykonania składania kartonu, aby uzyskana grubość przekroczyła 1 dm?</p>",
       "choices": [
@@ -262,8 +263,7 @@
       "points": 1,
       "topics": [
         "czworokąty",
-        "kąty",
-        "równania z jedną zmienną"
+        "kąty"
       ],
       "prompt_html": "<p>W rombie suma miar trzech kolejnych kątów jest 4 razy większa od miary czwartego z nich. Większy z kątów rombu wynosi:</p>",
       "choices": [
@@ -304,7 +304,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "działania na potęgach",
         "procenty"
       ],
       "prompt_html": "<p>20% liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>25</mn><mn>17</mn></msup></math> wynosi:</p>",
@@ -387,9 +387,9 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "zmiany procentowe",
         "czworokąty",
-        "pole i obwód",
-        "procenty"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Jeden bok kwadratu zmniejszamy o 20% długości, a drugi zwiększamy o 20% długości. Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>L</mi><mn>2</mn></msub></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>2</mn></msub></math> oznaczają odpowiednio obwód i pole powstałego prostokąta, zaś <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>L</mi><mn>1</mn></msub></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>1</mn></msub></math> obwód i pole kwadratu. Wówczas prawdą jest, że:</p>",
       "choices": [
@@ -431,7 +431,7 @@
       "points": 1,
       "topics": [
         "podzielność",
-        "potęgi i pierwiastki"
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2</mn><mn>7</mn></msup><mo>+</mo><msup><mn>2</mn><mn>8</mn></msup><mo>+</mo><msup><mn>2</mn><mn>10</mn></msup></mrow></math> jest podzielna przez:</p>",
       "choices": [
@@ -472,7 +472,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "wzory skróconego mnożenia"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Tylko dodatnie wartości przyjmuje dla każdego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> wyrażenie:</p>",
       "choices": [
@@ -603,7 +603,9 @@
       "points": 3,
       "topics": [
         "pierścień kołowy",
-        "koła / okręgi"
+        "wzory skróconego mnożenia",
+        "koła / okręgi",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Oblicz obwód i pole połowy pierścienia kołowego (rysunek na dole), jeśli pole całego pierścienia wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>32</mn><mi>π</mi></mrow></math>, a różnica długości promieni 2.</p>",
       "choices": [],

@@ -96,7 +96,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Kwadrat pewnej liczby naturalnej pomnożono przez jej sześcian i otrzymano 243. Która z liczb naturalnych została poddana powyższym działaniom?</p>",
       "choices": [
@@ -135,7 +135,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>[</mo><msup><mrow><mo>(</mo><msup><mi>x</mi><mn>4</mn></msup><mo>·</mo><msup><mi>x</mi><mn>3</mn></msup><mo>)</mo></mrow><mn>2</mn></msup><mo>:</mo><mo>(</mo><msup><mi>x</mi><mn>2</mn></msup><mo>·</mo><msup><mi>x</mi><mn>3</mn></msup><mo>)</mo><mo>]</mo></mrow><mn>2</mn></msup><mo>·</mo><msup><mrow><mo>(</mo><msup><mi>x</mi><mn>3</mn></msup><mo>)</mo></mrow><mn>3</mn></msup></math> jest równa</p>",
       "choices": [
@@ -174,7 +174,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy"
+        "liczba krawędzi, ścian i wierzchołków"
       ],
       "prompt_html": "<p>Łączna liczba wszystkich ścian, wierzchołków i krawędzi pewnego graniastosłupa jest równa 110. Ile wierzchołków ma wielokąt, będący podstawą tego graniastosłupa?</p>",
       "choices": [
@@ -213,7 +213,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "ostrosłupy"
+        "liczba krawędzi, ścian i wierzchołków"
       ],
       "prompt_html": "<p>Podstawą ostrosłupa, który ma 14 wierzchołków jest</p>",
       "choices": [
@@ -252,7 +252,6 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty",
         "kąty"
       ],
       "prompt_html": "<p>Suma miar kątów α i β zaznaczonych na rysunku wynosi</p>",
@@ -333,7 +332,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kąty"
+        "kąty",
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>W czasie, gdy wskazówka minutowa zegara obraca się o 90°, wskazówka godzinowa obraca się o</p>",
       "choices": [
@@ -372,7 +372,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "ułamki"
+        "ułamki okresowe / rozwinięcia dziesiętne"
       ],
       "prompt_html": "<p>Największa spośród liczb to</p>",
       "choices": [
@@ -451,6 +451,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "podobieństwo i skala",
         "graniastosłupy"
       ],
       "prompt_html": "<p>Sześcienna kostka o krawędzi 1 cm waży 16 g. Kostka wykonana z tego samego materiału o krawędzi 2 cm waży</p>",
@@ -615,12 +616,9 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki",
-        "wzory skróconego mnożenia",
-        "procenty",
-        "graniastosłupy",
-        "ostrosłupy",
-        "geometria"
+        "działania na potęgach",
+        "liczba krawędzi, ścian i wierzchołków",
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>Oceń prawdziwość zdań, wpisując <strong>P</strong>-prawda lub <strong>F</strong>-fałsz:</p>",
       "choices": [
@@ -672,7 +670,8 @@
       "points": 4,
       "topics": [
         "podzielność",
-        "dowodzenie / dowody"
+        "dowodzenie / dowody",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Uzasadnij, że suma pięciu kolejnych liczb nieparzystych jest podzielna przez 5. Zapisz swoje uzasadnienie.</p>",
       "choices": [],
@@ -694,7 +693,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "procenty"
+        "stężenie procentowe / mieszaniny",
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Do 8 kg solanki o stężeniu 5% dodano soli i otrzymano solankę o stężeniu 24%. Ile soli dosypano? Zapisz swoje obliczenia.</p>",
       "choices": [],
@@ -716,8 +716,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "trójkąty",
-        "potęgi i pierwiastki"
+        "trójkąty"
       ],
       "prompt_html": "<p>Wojtek i Tomek stali dokładnie naprzeciw siebie po dwóch stronach rzeki o szerokości 12 m. Wojtek chciał popłynąć wprost do Tomka, ale prąd rzeki zniósł go 15 m dalej. Ile metrów przepłynął Wojtek? Zapisz swoje obliczenia.</p>",
       "choices": [],
@@ -739,8 +738,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "czworokąty",
         "trójkąty",
+        "czworokąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>Przekątne rombu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> mają długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi><mo>=</mo><mn>8</mn></math> dm i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi><mo>=</mo><mn>10</mn></math> dm. Przekątną <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math> rombu przedłużono do punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> w taki sposób, że odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BE</mi></math> jest dwa razy dłuższy od tej przekątnej. Oblicz pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDE</mi></math>. Rozważ wszystkie możliwości. Swoje obliczenia i rozważania zapisz.</p>",

@@ -1,5 +1,5 @@
 {
-  "revision": "2026-07-26",
+  "revision": "2026-08-01",
   "note": "Canonical topic catalog. Tag every question with LEAF names (the `name` field), most-specific first. Categories are for browsing/filtering only — derive them from the leaf, never store a category on a question. A `cross_cutting` leaf combines with a content leaf (e.g. [\"trójkąty\", \"dowodzenie / dowody\"]).",
   "categories": [
     {
@@ -9,17 +9,33 @@
         { "name": "reszta z dzielenia", "desc": "reszty z dzielenia, proste rozumowania modularne" },
         { "name": "NWW / NWD", "desc": "najmniejsza wspólna wielokrotność i największy wspólny dzielnik" },
         { "name": "liczby rzymskie", "desc": "zapis i odczyt liczb w systemie rzymskim" },
-        { "name": "procenty", "desc": "obliczenia procentowe, podwyżki i obniżki, punkty procentowe" },
-        { "name": "ułamki", "desc": "arytmetyka ułamków zwykłych i dziesiętnych: zamiana, porównywanie, działania", "new": true }
+        { "name": "liczby pierwsze", "desc": "liczby pierwsze i złożone, rozkład na czynniki pierwsze, liczba dzielników", "new": true },
+        { "name": "procenty", "desc": "obliczenia procentowe, procent liczby, punkty procentowe" },
+        { "name": "zmiany procentowe", "desc": "podwyżki i obniżki, kolejne zmiany procentowe, powrót do ceny wyjściowej", "new": true },
+        { "name": "stężenie procentowe / mieszaniny", "desc": "roztwory, stężenie procentowe, mieszanie składników o różnych cenach lub stężeniach", "new": true },
+        { "name": "ułamki", "desc": "arytmetyka ułamków zwykłych i dziesiętnych: zamiana, porównywanie, działania", "new": true },
+        { "name": "ułamki okresowe / rozwinięcia dziesiętne", "desc": "rozwinięcia dziesiętne okresowe, okres ułamka, n-ta cyfra po przecinku, zamiana ułamka okresowego na zwykły", "new": true },
+        { "name": "wartość bezwzględna", "desc": "wartość bezwzględna liczby, odległość na osi liczbowej, wyrażenia z modułem", "new": true },
+        { "name": "kalendarz i czas", "desc": "dni tygodnia, daty, lata przestępne, rachuby czasu i zegar", "new": true }
       ]
     },
     {
       "name": "Wyrażenia: potęgi, pierwiastki, przekształcenia",
       "leaves": [
-        { "name": "potęgi i pierwiastki", "desc": "potęgi o wykładniku całkowitym, pierwiastki, notacja wykładnicza a·10ⁿ" },
+        { "name": "potęgi i pierwiastki", "desc": "ogólne zadania z potęg i pierwiastków" },
+        { "name": "działania na potęgach", "desc": "mnożenie i dzielenie potęg o tej samej podstawie, potęga potęgi, potęga iloczynu i ilorazu", "new": true },
+        { "name": "działania na pierwiastkach", "desc": "pierwiastek kwadratowy i sześcienny, działania na pierwiastkach, pierwiastek z potęgi i potęga pierwiastka", "new": true },
+        { "name": "wyłączanie czynnika przed znak pierwiastka", "desc": "zapis pierwiastka w postaci k√m i wciąganie czynnika pod pierwiastek", "new": true },
+        { "name": "porównywanie potęg i pierwiastków", "desc": "porównywanie bez obliczania wartości: wspólna podstawa, wspólny wykładnik, podnoszenie do kwadratu", "new": true },
+        { "name": "pierwiastki zagnieżdżone", "desc": "wyrażenia z pierwiastkiem pod pierwiastkiem", "new": true },
+        { "name": "ostatnia cyfra / cykliczność potęg", "desc": "cyfra jedności potęgi lub sumy potęg, okresowość reszt", "new": true },
+        { "name": "notacja wykładnicza", "desc": "zapis a·10ⁿ, duże i małe liczby, zamiana jednostek", "new": true },
+        { "name": "ujemny wykładnik", "desc": "potęgi o ujemnym wykładniku całkowitym, a⁻ⁿ = 1/aⁿ", "new": true },
+        { "name": "wzrost wykładniczy", "desc": "zadania tekstowe o podwajaniu, połowieniu i wzroście geometrycznym", "new": true },
+        { "name": "liczby wymierne i niewymierne", "desc": "rozpoznawanie liczb wymiernych i niewymiernych, działania na nich", "new": true },
         { "name": "usuwanie niewymierności z mianownika", "desc": "usuwanie niewymierności z mianownika ułamka" },
         { "name": "wzory skróconego mnożenia", "desc": "różnica kwadratów, kwadrat sumy i kwadrat różnicy" },
-        { "name": "wyłączanie jednomianu przed nawias", "desc": "wyłączanie wspólnego czynnika, zapis wyrażenia w postaci iloczynu" },
+        { "name": "wyłączanie wspólnego czynnika przed nawias", "desc": "wyłączanie wspólnego czynnika, zapis sumy w postaci iloczynu", "cross_cutting": true },
         { "name": "wyrażenia algebraiczne", "desc": "budowanie i przekształcanie wyrażeń algebraicznych, redukcja wyrazów podobnych", "new": true }
       ]
     },
@@ -37,18 +53,20 @@
     {
       "name": "Geometria płaska",
       "leaves": [
-        { "name": "geometria", "desc": "ogólne zadania z geometrii płaskiej, gdy nic bardziej szczegółowego nie pasuje" },
+        { "name": "geometria", "desc": "ogólne zadania z geometrii płaskiej" },
         { "name": "trójkąty", "desc": "własności trójkątów, twierdzenie Pitagorasa, trójkąty 30-60-90 i 45-45-90" },
         { "name": "czworokąty", "desc": "kwadrat, prostokąt, romb, trapez, równoległobok, deltoid", "new": true },
         { "name": "kąty", "desc": "miary kątów, kąty wierzchołkowe/przyległe, suma kątów, kąt zewnętrzny trójkąta", "new": true },
+        { "name": "wielokąty", "desc": "suma kątów wielokąta, liczba przekątnych, wielokąty foremne", "new": true },
         { "name": "sześciokąty foremne", "desc": "pole, przekątne i bok sześciokąta foremnego" },
         { "name": "koła / okręgi", "desc": "długość okręgu, pole koła, cięciwy i kąty w okręgu" },
         { "name": "pierścień kołowy", "desc": "pole pierścienia kołowego" },
         { "name": "okrąg wpisany i opisany", "desc": "promień okręgu wpisanego/opisanego w kwadrat, trójkąt równoboczny lub sześciokąt foremny" },
         { "name": "dwusieczna kąta / symetralna odcinka", "desc": "własności dwusiecznej kąta i symetralnej odcinka, dowody geometryczne" },
         { "name": "symetrie", "desc": "symetria osiowa i środkowa, oś i środek symetrii figury", "new": true },
+        { "name": "podobieństwo i skala", "desc": "figury podobne, skala planu i mapy, wpływ skali na pole i objętość", "new": true },
         { "name": "układ współrzędnych", "desc": "oś liczbowa, punkty i odległości w układzie współrzędnych", "new": true },
-        { "name": "pole i obwód", "desc": "obliczanie pola i obwodu figur płaskich — łącz z leafem kształtu (np. [\"czworokąty\", \"pole i obwód\"])", "new": true, "cross_cutting": true }
+        { "name": "pole i obwód", "desc": "obliczanie pola i obwodu figur płaskich", "new": true, "cross_cutting": true }
       ]
     },
     {
@@ -56,14 +74,17 @@
       "leaves": [
         { "name": "graniastosłupy", "desc": "sześcian, prostopadłościan, graniastosłup prosty/prawidłowy; objętość, pole powierzchni, przekątne", "new": true },
         { "name": "ostrosłupy", "desc": "ostrosłup prawidłowy/czworokątny/trójkątny; objętość i pole powierzchni", "new": true },
-        { "name": "bryły", "desc": "bryły obrotowe (walec, stożek, kula) oraz ogólne/mieszane zadania o bryłach" }
+        { "name": "bryły obrotowe", "desc": "walec, stożek i kula: objętość i pole powierzchni", "new": true },
+        { "name": "siatki brył", "desc": "siatki brył, rozpoznawanie i uzupełnianie siatek, sklejanie modelu", "new": true },
+        { "name": "liczba krawędzi, ścian i wierzchołków", "desc": "zliczanie krawędzi, ścian i wierzchołków bryły oraz zależności między nimi", "new": true },
+        { "name": "bryły", "desc": "ogólne i mieszane zadania o bryłach" }
       ]
     },
     {
       "name": "Kombinatoryka i prawdopodobieństwo",
       "leaves": [
-        { "name": "zliczanie / metody zliczania", "desc": "systematyczne zliczanie, reguła mnożenia i dodawania" },
-        { "name": "kombinatoryka", "desc": "permutacje, kombinacje, zaawansowane metody zliczania" },
+        { "name": "zliczanie / metody zliczania", "desc": "systematyczne zliczanie, reguła mnożenia i dodawania, permutacje i kombinacje" },
+        { "name": "zbiory / zasada włączeń i wyłączeń", "desc": "zliczanie elementów w przecinających się zbiorach, diagramy Venna", "new": true },
         { "name": "prawdopodobieństwo", "desc": "prawdopodobieństwo zdarzeń losowych" }
       ]
     },
@@ -76,22 +97,26 @@
     {
       "name": "Metody i rozumowanie (przekrojowe)",
       "leaves": [
-        { "name": "dowodzenie / dowody", "desc": "dowody algebraiczne i geometryczne — łącz z leafem treściowym", "cross_cutting": true },
+        { "name": "dowodzenie / dowody", "desc": "dowody algebraiczne i geometryczne", "cross_cutting": true },
         { "name": "szacowanie (zamiast obliczania)", "desc": "szacowanie i przybliżanie zamiast dokładnych obliczeń", "cross_cutting": true },
+        { "name": "zasada szufladkowa", "desc": "zasada szufladkowa Dirichleta: ile najmniej trzeba wylosować, aby mieć pewność", "new": true },
         { "name": "zagadki logiczne", "desc": "łamigłówki i rozumowania logiczne" }
       ]
     },
     {
       "name": "Inne",
       "leaves": [
-        { "name": "inne", "desc": "zadania niepasujące do żadnej kategorii treściowej (mieszane zadania tekstowe)" },
-        { "name": "przyroda", "desc": "zadania przyrodnicze / przyrodniczo-matematyczne, zwłaszcza śląskie 'z Elementami Przyrody'" }
+        { "name": "zamiana jednostek", "desc": "zamiana jednostek długości, pola, objętości, masy i czasu; ary i hektary, jednostki spoza układu SI", "new": true },
+        { "name": "zadania wieloczęściowe", "desc": "krzyżówki i zadania złożone z wielu niezależnych podpunktów", "new": true, "cross_cutting": true },
+        { "name": "inne", "desc": "mieszane zadania tekstowe bez wyraźnej kategorii treściowej" },
+        { "name": "przyroda", "desc": "zadania przyrodnicze i przyrodniczo-matematyczne" }
       ]
     }
   ],
   "migration": {
-    "instructions": "This revision carves new leaves out of the old catch-alls (`geometria`, `bryły`, `inne`). When re-tagging existing questions, decide tags from the question CONTENT against this catalog — do NOT mechanically copy the old coarse tags. Keep multi-tagging: a content leaf plus any cross_cutting leaf (e.g. `pole i obwód`, `dowodzenie / dowody`).",
-    "new_leaves": ["czworokąty", "kąty", "symetrie", "pole i obwód", "graniastosłupy", "ostrosłupy", "ułamki", "układ współrzędnych", "wyrażenia algebraiczne"],
+    "instructions": "This revision carves new leaves out of the old catch-alls (`geometria`, `bryły`, `inne`, `potęgi i pierwiastki`, `procenty`, `zagadki logiczne`) and merges `kombinatoryka` into `zliczanie / metody zliczania`. When re-tagging existing questions, decide tags from the question CONTENT against this catalog — do NOT mechanically copy the old coarse tags. Every leaf must name a concept REQUIRED TO SOLVE the question, never one merely mentioned or displayed. Keep multi-tagging: a content leaf plus any cross_cutting leaf (e.g. `pole i obwód`, `dowodzenie / dowody`).",
+    "new_leaves": ["czworokąty", "kąty", "symetrie", "pole i obwód", "graniastosłupy", "ostrosłupy", "ułamki", "układ współrzędnych", "wyrażenia algebraiczne", "działania na potęgach", "działania na pierwiastkach", "wyłączanie czynnika przed znak pierwiastka", "porównywanie potęg i pierwiastków", "pierwiastki zagnieżdżone", "ostatnia cyfra / cykliczność potęg", "notacja wykładnicza", "ujemny wykładnik", "wzrost wykładniczy", "liczby wymierne i niewymierne", "liczby pierwsze", "zmiany procentowe", "stężenie procentowe / mieszaniny", "wartość bezwzględna", "kalendarz i czas", "wielokąty", "podobieństwo i skala", "bryły obrotowe", "siatki brył", "liczba krawędzi, ścian i wierzchołków", "zbiory / zasada włączeń i wyłączeń", "zasada szufladkowa", "zamiana jednostek", "zadania wieloczęściowe", "ułamki okresowe / rozwinięcia dziesiętne"],
+    "removed_leaves": ["kombinatoryka"],
     "rules": [
       "Old `geometria`: reclassify to `czworokąty` / `kąty` / `symetrie` / `układ współrzędnych` (or `trójkąty` / `koła / okręgi`) as content dictates; keep `geometria` only when genuinely general. Add cross-cutting `pole i obwód` whenever the task is computing area or perimeter.",
       "Old `bryły`: assign `graniastosłupy` (sześcian, prostopadłościan, graniastosłup) or `ostrosłupy`; keep `bryły` only for round solids (walec/stożek/kula) or mixed/general.",
@@ -99,7 +124,37 @@
       "Fraction-arithmetic items previously in `inne` or untagged → `ułamki`.",
       "Number-line / coordinate items previously in `inne` or `geometria` → `układ współrzędnych`.",
       "General algebraic-expression building or simplifying → `wyrażenia algebraiczne`.",
-      "Do not split `trójkąty`; `trójkąty`↔`geometria` co-tagging is fine. Leave already well-tagged questions alone."
+      "Do not split `trójkąty`; `trójkąty`↔`geometria` co-tagging is fine. Leave already well-tagged questions alone.",
+      "Old `potęgi i pierwiastki`: split into the new leaves below. Decide by the TECHNIQUE THE SOLUTION REQUIRES, not by notation visible in the prompt. Keep `potęgi i pierwiastki` only when genuinely general.",
+      "CRITICAL — if a power or root appears only as incidental arithmetic on the way to an answer (√3 in an equilateral-triangle area, √256 for a square's side, 10²³ as merely a large number), assign NO leaf from the powers/roots group: leave only the content leaf (`trójkąty`, `pole i obwód`, `ostrosłupy`, `podzielność`…). In a 60-question sample this applied to ~28% of currently tagged questions.",
+      "`wyłączanie wspólnego czynnika przed nawias` (now cross_cutting, renamed from `wyłączanie jednomianu przed nawias`): assign whenever the solution requires rewriting a sum as a product, EVEN IF the paper never says 'wyłącz'. Canonical cases: sums of powers with the same base (2¹⁰+2¹⁰+2¹⁰ < 2¹², 2019¹¹+2019¹² , 2023·3²⁰²⁴−2024·3²⁰²³, 9³⁰+27²⁰+81¹⁵ = 3⁶¹), divisibility proofs of such sums, and cancelling fractions like (11²⁰¹⁶−11²⁰¹⁵)/11²⁰¹⁵. Combine with the content leaf (`podzielność`, `dowodzenie / dowody`).",
+      "`wyłączanie czynnika przed znak pierwiastka`: both directions — √48 = 4√3 and the reverse 2√3 = √12. Assign when simplifying or combining roots is the point (√80−2√20+3√45), not when a root is merely carried through a geometry answer.",
+      "`porównywanie potęg i pierwiastków`: exact comparison techniques — common base or common exponent (2³⁰⁰ vs 3¹⁵⁰), squaring both sides (4√14 vs 7√5). Combine with `szacowanie (zamiast obliczania)` only when the task genuinely estimates.",
+      "`ostatnia cyfra / cykliczność potęg`: units digit of a power or a sum of powers, periodicity of remainders. Combine with `reszta z dzielenia`, do not replace it.",
+      "`ujemny wykładnik`: only for bases ≠ 10. Powers of 10 with a negative exponent → `notacja wykładnicza`.",
+      "`wzrost wykładniczy`: word problems about doubling/halving/geometric growth (bacteria, bouncing ball, compound interest), as opposed to formal power manipulation.",
+      "`pierwiastki zagnieżdżone`: a root under a root, e.g. √(2+√3) — typically co-tagged `wzory skróconego mnożenia`.",
+      "Rational (fractional) exponents do not occur at this level — there is no leaf for them. Root-of-a-power and power-of-a-root tasks → `działania na pierwiastkach` (plus `działania na potęgach` when power laws are also needed).",
+      "GENERAL — the CRITICAL rule above is not specific to powers and roots. A leaf belongs on a question only when its concept is REQUIRED TO SOLVE it, never because the notation, a keyword, or an incidental intermediate value appears. The four leaves below over-fire this way today and must be re-decided from scratch, not copied.",
+      "`nierówności`: only when the solution sets up or solves an inequality with an unknown. NOT for merely comparing two given numbers or ordering a list — that is `porównywanie potęg i pierwiastków`, `szacowanie (zamiast obliczania)`, or just the content leaf. The triangle inequality → `trójkąty`, not `nierówności`.",
+      "`zagadki logiczne` (currently 425 questions, heavily over-applied): only when the solution is a reasoning/deduction argument with no standard computational route — seating orders, truth-tellers, weighings, invariants, extremal arguments. A word problem that is solved by writing and solving one equation is `równania z jedną zmienną` ALONE, even if it is dressed up as a riddle about ages, sweets or coins. 73 of the current 425 are co-tagged `równania z jedną zmienną`; most of those should drop `zagadki logiczne`.",
+      "`podzielność`: only when a divisibility argument drives the solution (cechy podzielności, dowód podzielności, dzielniki). NOT when the question merely says a number is divisible by something as part of the setup, and NOT for arithmetic that happens to divide evenly.",
+      "`potęgi i pierwiastki` incidental firing is worst in solid geometry: √2, √3 and √6 in edge/diagonal/volume answers are almost never the point. In the Geometria przestrzenna sample 5 of 32 carried the leaf for this reason alone.",
+      "`liczby pierwsze`: primality, prime factorisation, counting divisors. Carve out of `podzielność`; keep `podzielność` too when both are genuinely needed.",
+      "Old `procenty` (697 questions) splits three ways. `zmiany procentowe`: successive or compound increases/decreases, 'o ile procent wróci do ceny wyjściowej', percentage change of an area after scaling sides. `stężenie procentowe / mieszaniny`: solutions, mixtures, alloys, blended prices. `procenty` keeps the plain 'percent of a number' cases.",
+      "`ułamki okresowe / rozwinięcia dziesiętne` (~91 questions): two shapes, one leaf. (a) 'która cyfra stoi na 102. miejscu po przecinku w rozwinięciu 5/37' — the period length plus position mod period; keep `reszta z dzielenia` co-tagged, it is the mechanism. (b) recognising, ordering or converting periodic decimals — 0,(21) = 7/33, 2,(5) vs 2,5, −1,(1) vs −1,1 — carve these out of `ułamki`. Also covers which fractions have a terminating expansion. Do NOT assign when a periodic decimal only shows up in the ANSWER of an unrelated problem (83,(3)% as the result of a percentage task).",
+      "`wartość bezwzględna`: expressions or comparisons with |…|, distance on the number line. Small leaf (~20 questions) — do not force it.",
+      "`kalendarz i czas`: days of the week, dates, leap years, clock arithmetic. Usually co-tagged `reszta z dzielenia` when the solution is genuinely modular; assign `kalendarz i czas` in place of `zagadki logiczne`, not in addition to it.",
+      "`zamiana jednostek`: unit conversion is the task itself (ary/hektary, dag, cale/stopy, mm³→litry, km²→ha). This is the largest single family now sitting in `inne`. When the conversion is only a final step of a geometry or speed problem, do NOT assign it.",
+      "`wielokąty`: sum of interior angles, number of diagonals, regular n-gons. Carve out of `geometria`, `kąty` and `zliczanie / metody zliczania` (a 'ile przekątnych ma 28-kąt' question is `wielokąty`, not counting).",
+      "`podobieństwo i skala`: similar figures, map/plan scale, and the k²/k³ effect of scaling on area and volume. Carve out of `proporcjonalność prosta` and `geometria`.",
+      "Old `bryły` splits: `bryły obrotowe` for walec/stożek/kula, `bryły` only for genuinely mixed or general solid-geometry items.",
+      "`siatki brył`: nets — recognising, completing, or folding one. The question is about the net, not about volume or surface area.",
+      "`liczba krawędzi, ścian i wierzchołków`: counting or relating E/F/V of prisms and pyramids ('graniastosłup ma 28 wierzchołków, ile krawędzi ma ostrosłup o tej samej liczbie krawędzi'). These are combinatorial, not metric — assign this INSTEAD OF `graniastosłupy`/`ostrosłupy`, which are for volume, surface area and diagonals.",
+      "`kombinatoryka` is MERGED INTO `zliczanie / metody zliczania` — the two were used interchangeably. Retag every `kombinatoryka` question as `zliczanie / metody zliczania`; the leaf no longer exists.",
+      "`zbiory / zasada włączeń i wyłączeń`: 'ilu uczniów ma psa i kota / ani psa ani kota' — two or three overlapping sets. Carve out of `zliczanie / metody zliczania`.",
+      "`zasada szufladkowa`: 'ile najmniej trzeba wyjąć, aby mieć pewność, że…'. A named technique, distinct from general logic puzzles.",
+      "`zadania wieloczęściowe` (cross_cutting): krzyżówki and multi-part blocks (7.1–7.8, a)–e)) whose parts are unrelated. ~139 questions fit; 29 currently carry 6 or more tags, one carries 17, which makes every affected leaf's browse list unusable. Assign this leaf plus AT MOST TWO dominant content leaves — do not enumerate every subtopic."
     ]
   }
 }

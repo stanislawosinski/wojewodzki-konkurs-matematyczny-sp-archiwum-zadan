@@ -18,7 +18,7 @@
       "points": 5,
       "topics": [
         "liczby rzymskie",
-        "zagadki logiczne"
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>W puste białe pola „liczbowej krzyżówki” wstaw liczby zapisane w systemie rzymskim tak, aby wszystkie działania i równości były poprawne. (Jeżeli zapiszesz liczby cyframi arabskimi otrzymasz mniej punktów).</p>",
       "choices": [],
@@ -142,6 +142,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "liczby pierwsze",
         "podzielność"
       ],
       "prompt_html": "<p>Liczba 213</p>",
@@ -181,7 +182,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "ułamki"
       ],
       "prompt_html": "<p>Cena laptopa po obniżce wynosiła 1960 zł, co stanowiło <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>5</mn></mfrac></math> początkowej ceny. Przed obniżką cena laptopa wynosiła</p>",
       "choices": [
@@ -220,7 +221,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kąty"
+        "kąty",
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Jaką miarę ma mniejszy z kątów, jaki tworzą wskazówki zegara o godzinie 9.30?</p>",
       "choices": [
@@ -299,8 +301,7 @@
       "points": 1,
       "topics": [
         "trójkąty",
-        "pole i obwód",
-        "zliczanie / metody zliczania"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Ile trójkątów prostokątnych o przyprostokątnych 1 cm i 3 cm potrzebujemy do całkowitego pokrycia prostokąta o wymiarach 8 cm i 12 cm?</p>",
       "choices": [
@@ -418,8 +419,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność",
-        "NWW / NWD"
+        "NWW / NWD",
+        "podzielność"
       ],
       "prompt_html": "<p>Ula w swojej biblioteczce ma więcej niż 40, ale mniej niż 50 książek. Spośród wszystkich książek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> to podręczniki, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> to lektury, a pozostałe to słowniki. Ile słowników ma Ula w biblioteczce?</p>",
       "choices": [
@@ -660,7 +661,6 @@
       "points": 4,
       "topics": [
         "czworokąty",
-        "trójkąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>Z dwóch wierzchołków trapezu równoramiennego o kącie ostrym: 45° poprowadzono wysokości, które podzieliły trapez na kwadrat i dwa trójkąty.</p><p>Oceń, czy podane zdania są prawdziwe czy fałszywe.</p>",
@@ -700,8 +700,9 @@
       "type": "open",
       "points": 4,
       "topics": [
+        "ułamki okresowe / rozwinięcia dziesiętne",
         "kąty",
-        "układ współrzędnych"
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>Wpisz poprawne wyniki.</p><p>a) Zaokrągleniem liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5,2</mn><mo>(</mo><mn>94</mn><mo>)</mo></math> do części tysięcznych jest liczba ……….</p><p>b) Zaokrągleniem liczby 20169502 do tysięcy jest liczba ……….</p><p>c) W równej odległości pomiędzy punktami <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> o współrzędnych 1 i 5 na osi liczbowej znajduje się punkt o współrzędnej ……….</p><p>d) W czworokącie miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> jest o 20° większa od miary kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>, miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> jest o 20° większa od miary kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> i miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> jest o 20° większa od miary kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>. Miara największego kąta w tym czworokącie wynosi: ……….</p>",
       "choices": [],
@@ -745,8 +746,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "trójkąty",
-        "czworokąty"
+        "kąty",
+        "trójkąty"
       ],
       "prompt_html": "<p>Na bokach kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> zbudowano na zewnątrz trójkąty równoboczne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABE</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCF</mi></math>. Wykonaj rysunek i oblicz miary kątów powstałego trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EFB</mi></math>.</p>",
       "choices": [],
@@ -768,7 +769,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "inne"
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Ania wstawiła ciasto do piekarnika na półtorej godziny. Po upieczeniu ciasto stygło jeszcze <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>6</mn></mfrac></math> godziny i dopiero po tym czasie było gotowe do jedzenia. O której godzinie wstawiła ciasto do piekarnika, jeśli ciasto było gotowe do jedzenia o 16:40?</p>",
       "choices": [],
@@ -790,6 +791,7 @@
       "type": "open",
       "points": 4,
       "topics": [
+        "podobieństwo i skala",
         "proporcjonalność prosta"
       ],
       "prompt_html": "<p>Na planie wykonanym w skali 1:4 000 długość drogi z domu Janka i Ali do szkoły wynosi 15 cm. Na każde 5 m drogi Ala wykonuje 10 kroków. Pokonując drogę do szkoły Ala robi o 200 kroków więcej niż Janek. Oblicz długość drogi z domu do szkoły oraz jakiej długości są kroki Janka.</p>",

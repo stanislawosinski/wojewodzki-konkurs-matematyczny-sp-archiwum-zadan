@@ -57,6 +57,7 @@
       "points": 1,
       "topics": [
         "czworokąty",
+        "podobieństwo i skala",
         "pole i obwód"
       ],
       "prompt_html": "<p>Pan Kowalski potrzebuje 12 minut, aby obejść kwadratowy plac dookoła. Ile minut zajmie mu obejście w tym samym tempie kwadratowego placu o czterokrotnie większej powierzchni?</p>",
@@ -96,7 +97,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "ostatnia cyfra / cykliczność potęg",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Jaka jest cyfra jedności liczby, która jest wynikiem działania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>5</mn><mn>153</mn></msup><mo>+</mo><msup><mn>10</mn><mn>27</mn></msup><mo>+</mo><msup><mn>9</mn><mn>33</mn></msup></math>?</p>",
@@ -292,9 +293,9 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
+        "zmiany procentowe",
         "czworokąty",
-        "pole i obwód",
-        "procenty"
+        "pole i obwód"
       ],
       "prompt_html": "<p>O ile procent zwiększy się pole kwadratu, jeśli obwód kwadratu zwiększymy o 80%?</p>",
       "choices": [
@@ -333,7 +334,8 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "podzielność"
+        "podzielność",
+        "NWW / NWD"
       ],
       "prompt_html": "<p>Oceń prawdziwość podanych zdań. Wybierz P – jeśli zdanie jest prawdziwe lub F – jeśli zdanie jest fałszywe.</p>",
       "choices": [
@@ -451,7 +453,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "procenty"
+        "stężenie procentowe / mieszaniny"
       ],
       "prompt_html": "<p>Co waży więcej i o ile gramów więcej: sól w 43 % solance o wadze 320 g, czy cukier w 360 g syropu o stężeniu 48 %?</p>",
       "choices": [
@@ -530,8 +532,8 @@
       "points": 2,
       "topics": [
         "trójkąty",
-        "pole i obwód",
-        "procenty"
+        "procenty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Z trójkąta równobocznego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> został wycięty trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DEF</mi></math>, którego bokami były odcinki łączące środki boków trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>. Jaki procent powierzchni trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> stanowi powierzchnia otrzymanej w ten sposób figury?</p>",
       "choices": [
@@ -571,8 +573,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "równania z jedną zmienną",
-        "zagadki logiczne"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Grupa uczniów z klasy Ani uczestniczyła w biegu na orientację. Liczba uczniów, którzy dobiegli do mety przed Anią, była siedem razy mniejsza od liczby uczniów, którzy dobiegli do mety po niej. Która na mecie była Ania, jeżeli cała grupa liczyła 41 osób?</p>",
       "choices": [
@@ -611,8 +612,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "równania z jedną zmienną",
-        "zagadki logiczne"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Robotnik kopał dół. Na zapytanie przechodnia, jak głęboki będzie dół odpowiedział: „Mam wzrostu 1m 80cm. Gdy wykopię dół do końca, moja głowa będzie o tyle poniżej powierzchni ziemi, o ile teraz, gdy już wykopałem połowę głębokości dołu, jest powyżej niej”. Głębokość dołu wynosiła:</p>",
       "choices": [
@@ -651,7 +651,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Bogacz posiadający 100 000 złotych, aby wesprzeć biedaka mającego tylko złotówkę, dał mu 100 złotych. O ile procent wzbogacił się biedak?</p>",
       "choices": [
@@ -729,8 +729,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "równania z jedną zmienną",
-        "zagadki logiczne"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Ogon ryby waży 2 kilogramy. Głowa waży tyle, ile ogon i pół tułowia, a tułów tyle, ile głowa i ogon. Ile waży cała ryba?</p>",
       "choices": [
@@ -770,8 +769,7 @@
       "points": 2,
       "topics": [
         "czworokąty",
-        "pole i obwód",
-        "procenty"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Pan Kowalski ma do sprzedania trzy działki. Pierwsza z nich ma kształt kwadratu, a druga i trzecia są prostokątami. Wszystkie trzy działki mają jednakowe obwody, wynoszące 120 metrów. Długość pierwszej działki prostokątnej stanowi 150% jej szerokości, szerokość drugiej działki prostokątnej stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>7</mn></mfrac></math> jej długości. Która z nich ma największe pole?</p>",
       "choices": [
@@ -879,7 +877,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "proporcjonalność prosta"
+        "podobieństwo i skala"
       ],
       "prompt_html": "<p>Architekt ma dwa plany tego samego budynku: jeden w skali 1:20, drugi w skali 1:50. Jaka jest długość ściany tego budynku na planie w skali 1:50, jeżeli na planie budynku w skali 1:20 jest ona równa 20 cm?</p>",
       "choices": [],

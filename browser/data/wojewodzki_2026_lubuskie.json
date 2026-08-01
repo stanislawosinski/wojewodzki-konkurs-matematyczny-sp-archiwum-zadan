@@ -56,8 +56,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną",
-        "zagadki logiczne"
+        "liczby pierwsze",
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Ojciec i jego trzej synowie mają razem 78 lat. Wiek najmłodszego syna wyrażony jest liczbą pierwszą mniejszą niż 10, wiek średniego syna jest wyrażony liczbą pierwszą większą niż 10, najstarszy syn jest trzy razy młodszy od ojca, a ojciec ma nieparzystą liczbę lat. Po ilu latach wiek ojca będzie równy sumie lat jego trzech synów?</p>",
       "choices": [
@@ -96,6 +96,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "kalendarz i czas",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Rok 2028 będzie rokiem przestępnym. W którym dniu tygodnia w 2028 roku przypadnie ostatni dzień lutego?</p>",
@@ -213,8 +214,7 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "podzielność",
-        "zagadki logiczne"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Iloczyn trzech różnych liczb naturalnych jest równy 176, a ich suma wynosi 21.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F, jeśli jest fałszywe.</p>",
       "choices": [
@@ -277,8 +277,8 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "graniastosłupy",
-        "sześciokąty foremne"
+        "sześciokąty foremne",
+        "graniastosłupy"
       ],
       "prompt_html": "<p>W graniastosłupie prawidłowym sześciokątnym każda krawędź ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F, jeśli jest fałszywe.</p>",
       "choices": [
@@ -309,7 +309,9 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "proporcjonalność prosta"
+        "proporcjonalność prosta",
+        "wyrażenia algebraiczne",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Przed Tobą pięć zadań zamkniętych wielokrotnego wyboru (9–13). Oznacza to, że każda z zaproponowanych odpowiedzi może być poprawna. Za wskazanie wszystkich poprawnych odpowiedzi otrzymasz 2 punkty. Jeśli popełnisz jeden błąd, otrzymasz 1 punkt. W pozostałych przypadkach otrzymasz 0 punktów.</p><p>Danych jest pięć, różnych od zera, liczb rzeczywistych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>,</mo><mi>b</mi><mo>,</mo><mi>c</mi><mo>,</mo><mi>d</mi><mo>,</mo><mi>e</mi></math> spełniających warunek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>b</mi><mi>a</mi></mfrac><mo>=</mo><mfrac><mi>c</mi><mi>b</mi></mfrac><mo>=</mo><mfrac><mi>d</mi><mi>c</mi></mfrac><mo>=</mo><mfrac><mi>e</mi><mi>d</mi></mfrac><mo>&gt;</mo><mn>0</mn></math>. Zatem</p>",
       "choices": [
@@ -392,7 +394,9 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki"
+        "pierwiastki zagnieżdżone",
+        "działania na pierwiastkach",
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Jeżeli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><mn>2</mn><msqrt><mrow><mn>8</mn><msqrt><mi>x</mi></msqrt></mrow></msqrt></mrow></msqrt><mo>=</mo><mn>16</mn></math>, to</p>",
       "choices": [
@@ -472,7 +476,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "podzielność"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Suma dwóch liczb pierwszych</p>",
       "choices": [
@@ -556,7 +560,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "procenty"
+        "stężenie procentowe / mieszaniny",
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Do wodnego roztworu pewnej soli o stężeniu 20% dolano wody, wskutek czego masa roztworu wzrosła o 20%. Z tak otrzymanego roztworu odparowano część wody i jego masa zmalała o 20%. Jakie stężenie ma obecnie ten roztwór?</p>",
       "choices": [],

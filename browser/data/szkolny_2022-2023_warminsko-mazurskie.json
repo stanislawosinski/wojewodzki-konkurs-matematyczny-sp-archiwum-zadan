@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Suma wszystkich liczb pierwszych mniejszych od 17 jest równa:</p>",
       "choices": [
@@ -152,7 +152,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "porównywanie potęg i pierwiastków",
+        "wyłączanie czynnika przed znak pierwiastka"
       ],
       "prompt_html": "<p>Liczby zapisane w porządku rosnącym, to:</p>",
       "choices": [
@@ -180,8 +181,7 @@
       "points": 1,
       "topics": [
         "czworokąty",
-        "pole i obwód",
-        "potęgi i pierwiastki"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Przekątna jednego kwadratu ma długość 12 cm, a pole drugiego kwadratu wynosi 36 cm². Suma długości obwodów tych kwadratów wynosi:</p>",
       "choices": [
@@ -235,7 +235,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "ostatnia cyfra / cykliczność potęg",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Cyfrą jedności liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msup><mn>305</mn><mn>305</mn></msup><mo>+</mo><msup><mn>207</mn><mn>207</mn></msup></math> jest:</p>",
@@ -263,6 +263,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "czworokąty",
         "geometria"
       ],
       "prompt_html": "<p>Wskaż zdanie prawdziwe:</p>",
@@ -291,8 +292,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "ułamki",
-        "potęgi i pierwiastki"
+        "ułamki"
       ],
       "prompt_html": "<p>Podaj liczbę przeciwną do sumy liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>, jeśli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>2</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>3</mn><mn>4</mn></mfrac></mrow></mfrac></mrow></mfrac></math> a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mo>−</mo><msup><mn>4</mn><mn>2</mn></msup><mo>−</mo><mn>5</mn><mo>(</mo><mn>3,79</mn><mo>−</mo><mn>5,1</mn><mo>)</mo></math>. Zapisz wszystkie obliczenia.</p>",
       "choices": [],
@@ -314,7 +314,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "procenty",
+        "zmiany procentowe",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Cenę kurtki podwyższono o 18%, a po miesiącu obniżono o 10% i dodatkowo uwzględniono rabat w wysokości 5 zł. Teraz kurtka kosztuje 568,48 zł. Ile kosztowała kurtka przed podwyżką?</p>",
@@ -337,6 +337,7 @@
       "type": "open",
       "points": 2,
       "topics": [
+        "zamiana jednostek",
         "proporcjonalność prosta"
       ],
       "prompt_html": "<p>Z nieszczelnego kranu co 4 sekundy spada jedna kropla wody. Każda kropla ma objętość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>200</mn><msup><mtext> mm</mtext><mn>3</mn></msup></math>. Ile litrów wody wycieknie z tego kranu w ciągu doby? Zapisz obliczenia.</p>",

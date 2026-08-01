@@ -62,8 +62,8 @@
       "type": "closed_single",
       "points": 5,
       "topics": [
-        "podzielność",
-        "potęgi i pierwiastki"
+        "liczby pierwsze",
+        "podzielność"
       ],
       "prompt_html": "<p>Wskaż liczbę, która jest wielokrotnością liczby 252.</p>",
       "choices": [
@@ -108,8 +108,9 @@
       "type": "closed_single",
       "points": 5,
       "topics": [
+        "działania na potęgach",
         "podzielność",
-        "potęgi i pierwiastki"
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Suma liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>12</mn></msup><mo>+</mo><msup><mn>4</mn><mn>13</mn></msup><mo>+</mo><msup><mn>4</mn><mn>14</mn></msup></math> jest podzielna przez:</p>",
       "choices": [
@@ -246,8 +247,8 @@
       "type": "closed_single",
       "points": 5,
       "topics": [
-        "równania z jedną zmienną",
-        "statystyka opisowa"
+        "statystyka opisowa",
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Średnia arytmetyczna liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mi>b</mi></mrow><mn>4</mn></mfrac></math>. O liczbie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> możemy powiedzieć, że:</p>",
       "choices": [
@@ -293,8 +294,7 @@
       "points": 5,
       "topics": [
         "czworokąty",
-        "pole i obwód",
-        "potęgi i pierwiastki"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Pole powierzchni rombu o obwodzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><msqrt><mn>3</mn></msqrt></math> i kącie ostrym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>°</mo></math> jest równe:</p>",
       "choices": [
@@ -340,7 +340,6 @@
       "points": 5,
       "topics": [
         "czworokąty",
-        "trójkąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>W prostokącie ABCD punkt E jest środkiem boku BC, a punkt F jest środkiem boku CD. Trójkąt AEF ma pole równe 15 cm².</p><p>Pole prostokąta ABCD jest równe:</p>",
@@ -482,7 +481,8 @@
       "type": "closed_single",
       "points": 5,
       "topics": [
-        "potęgi i pierwiastki",
+        "działania na pierwiastkach",
+        "wyłączanie czynnika przed znak pierwiastka",
         "wzory skróconego mnożenia"
       ],
       "prompt_html": "<p>Po doprowadzeniu liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><msqrt><mn>2</mn></msqrt><mo>−</mo><msqrt><mn>6</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><mn>4</mn><msqrt><mn>3</mn></msqrt></math> do najprostszej postaci otrzymamy:</p>",
@@ -528,7 +528,7 @@
       "type": "true_false",
       "points": 10,
       "topics": [
-        "procenty"
+        "stężenie procentowe / mieszaniny"
       ],
       "prompt_html": "<p>W stadninie zgromadzono jedną tonę trawy, aby ją wysuszyć i uzyskać siano. Świeżo skoszona trawa zawiera 60% wody, a wysuszone siano zawiera 15% wody. Na podstawie tych danych oceń poniższe zdania.</p>",
       "choices": [

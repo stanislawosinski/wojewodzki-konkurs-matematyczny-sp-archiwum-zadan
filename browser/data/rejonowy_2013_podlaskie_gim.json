@@ -58,7 +58,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zagadki logiczne"
+        "zasada szufladkowa"
       ],
       "prompt_html": "<p>Ada ma w pudełku 7 kul szarych, 4 białe i 3 czarne. Ile co najmniej kul musi wyciągnąć, mając zawiązane oczy, aby mieć pewność, że będzie wśród nich co najmniej jedna kula w każdym kolorze?</p>",
       "choices": [
@@ -140,7 +140,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Wartością wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>5</mn><mn>11</mn></msup><mo>+</mo><msup><mn>5</mn><mn>10</mn></msup></math> jest</p>",
       "choices": [
@@ -181,8 +182,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "statystyka opisowa",
-        "równania z jedną zmienną"
+        "statystyka opisowa"
       ],
       "prompt_html": "<p>Michał uzyskał średnią z czterech sprawdzianów równą 25 punktów. Ile punktów musi on uzyskać w kolejnym sprawdzianie, aby średnia z pięciu sprawdzianów była równa 26?</p>",
       "choices": [
@@ -264,7 +264,6 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną",
         "zagadki logiczne"
       ],
       "prompt_html": "<p>Kasia ma 8 monet pięciozłotowych, a Janek 9 monet dwuzłotowych. Jaką najmniejszą liczbę monet muszą oni sobie przekazać łącznie, żeby mieć równe kwoty?</p>",
@@ -306,7 +305,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Międzyszkolne koło miłośników matematyki liczy 32 osoby. Ile osób będzie liczyło to koło za trzy lata, jeśli rocznie liczba jego członków będzie wzrastać o 50%?</p>",
       "choices": [
@@ -389,8 +388,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "układy równań",
-        "zagadki logiczne"
+        "układy równań"
       ],
       "prompt_html": "<p>Kosz jabłek kosztuje 20 zł, kosz gruszek 30 zł, a kosz owoców kiwi kosztuje 40 zł. Kupiono osiem koszy z wszystkimi rodzajami wymienionych owoców za łączną kwotę 230 zł. Ile co najwyżej koszy kiwi kupiono?</p>",
       "choices": [
@@ -472,8 +470,9 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty",
-        "dwusieczna kąta / symetralna odcinka"
+        "dwusieczna kąta / symetralna odcinka",
+        "kąty",
+        "trójkąty"
       ],
       "prompt_html": "<p>W pewnym trójkącie równoramiennym kąt rozwarty pomiędzy dwusiecznymi jednakowych kątów przy podstawie jest trzy razy większy niż kąt przy wierzchołku. Miary kątów tego trójkąta są równe</p>",
       "choices": [
@@ -601,7 +600,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria"
+        "wielokąty"
       ],
       "prompt_html": "<p>Ile boków ma wielokąt wypukły, w którym liczba przekątnych jest sześć razy większa od liczby boków?</p>",
       "choices": [
@@ -749,9 +748,8 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "równania z jedną zmienną",
         "podzielność",
-        "zagadki logiczne"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Uczestników konkursu matematycznego postanowiono umieścić w salach tak, aby w każdej sali była ta sama liczba osób, ale nie więcej niż 26 uczniów. Kiedy początkowo w każdej sali umieszczono po 22 osoby, to dla jednego ucznia zabrakło miejsca. Wówczas zrezygnowano z jednej sali i wtedy miejsc w pozostałych salach wystarczyło dla wszystkich uczestników konkursu. Ilu uczniów wzięło udział w tym konkursie? W ilu salach zamierzano początkowo umieścić uczestników konkursu?</p>",
       "choices": [],
@@ -775,7 +773,8 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "bryły"
+        "liczba krawędzi, ścian i wierzchołków",
+        "graniastosłupy"
       ],
       "prompt_html": "<p>W sześcianie o boku długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> odcięto osiem naroży, tnąc w połowie krawędzi. Oblicz objętość oraz liczbę krawędzi powstałej bryły.</p>",
       "choices": [],

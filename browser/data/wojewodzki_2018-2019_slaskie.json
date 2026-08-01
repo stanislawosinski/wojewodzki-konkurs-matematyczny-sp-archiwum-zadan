@@ -17,17 +17,9 @@
       "type": "open",
       "points": 20,
       "topics": [
-        "potęgi i pierwiastki",
-        "procenty",
-        "liczby rzymskie",
-        "NWW / NWD",
-        "podzielność",
-        "trójkąty",
-        "pole i obwód",
-        "pierścień kołowy",
-        "prędkość / droga / czas",
-        "graniastosłupy",
-        "statystyka opisowa"
+        "działania na potęgach",
+        "działania na pierwiastkach",
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>Rozwiąż krzyżówkę wpisując w kratki odpowiednie cyfry. Hasło w zacieniowanych okienkach, to przybliżona wartość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2019</mn></msqrt></math>. Hasło nie jest oceniane.</p><ul><li>a) Kwadrat największej dwucyfrowej liczby pierwszej.</li><li>b) Liczba, której 2% to 88.</li><li>c) Liczba MCMLIX zapisana cyframi arabskimi.</li><li>d) Długość wysokości trójkąta równobocznego o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>22</mn><msqrt><mn>3</mn></msqrt></math>.</li><li>e) Długość boku trójkąta równobocznego o polu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>225</mn><msqrt><mn>3</mn></msqrt></math>.</li><li>f) Największy wspólny dzielnik liczb 63 i 105.</li><li>g) Wartość wyrażenia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mn>8000</mn><mn>3</mn></mroot><mo>−</mo><mroot><mrow><mo>−</mo><mn>125</mn><mo>·</mo><mn>27</mn></mrow><mn>3</mn></mroot><mo>−</mo><mo>(</mo><mn>7</mn><mo>·</mo><mn>9</mn><mo>−</mo><mn>6</mn><mo>·</mo><mn>11</mn><mo>)</mo></math></li><li>h) Największa liczba całkowita mniejsza od 123,75.</li><li>i) Wartość wyrażenia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mn>2</mn><msup><mn>2</mn><mn>3</mn></msup></msup><mo>−</mo><msup><mrow><mo>(</mo><msup><mn>2</mn><mn>2</mn></msup><mo>)</mo></mrow><mn>3</mn></msup></mrow><msup><mn>2</mn><mn>2</mn></msup></mfrac></math>.</li><li>j) 37% liczby 10100.</li><li>k) Pole pierścienia kołowego ograniczonego okręgami o średnicach 20 i 6. Przyjmij <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>π</mi><mo>=</mo><mn>3</mn></math>.</li><li>l) Przybliżenie liczby 72999,99 do setek.</li><li>m) Czas w godzinach w jakim rowerzysta pokona drogę 24 km, gdyby jego średnia prędkość jazdy na tej trasie była równa 200 metrów na minutę.</li><li>n) Długość przyprostokątnych w trójkącie prostokątnym równoramiennym o polu 72 j².</li><li>o) Wartość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> w wyrażeniu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mn>13</mn><mn>5</mn></msup><mo>·</mo><msup><mn>13</mn><mn>8</mn></msup><mo>·</mo><msup><mn>13</mn><mn>6</mn></msup></mrow><msup><mn>13</mn><mn>10</mn></msup></mfrac><mo>=</mo><msup><mn>13</mn><mi>x</mi></msup></math></li><li>p) Sześcian największej jednocyfrowej liczby pierwszej.</li><li>q) Liczba która nie jest ani dodatnia, ani ujemna.</li><li>r) Objętość sześcianu o krawędzi 9.</li><li>s) Średnia arytmetyczna liczb: 40; 32,04; 36,6; 44,06; 12,3.</li><li>t) Cyfra X dziesiątek pięciocyfrowej liczby 523X6, o której wiadomo, że jest podzielna przez 3 i 4.</li></ul>",
       "choices": [],
@@ -51,7 +43,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zagadki logiczne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> spełniają warunki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mi>b</mi><mi>c</mi><mo>=</mo><mo>−</mo><mn>10</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>0</mn></math>.</p>",
       "choices": [
@@ -78,8 +70,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "reszta z dzielenia",
-        "zagadki logiczne"
+        "kalendarz i czas",
+        "reszta z dzielenia"
       ],
       "prompt_html": "<p>1 stycznia 2018 roku był poniedziałek.</p>",
       "choices": [
@@ -107,7 +99,7 @@
       "points": 1,
       "topics": [
         "układy równań",
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Za 5 kg cytryn i 7 kg mandarynek zapłacimy tyle samo, co za 6 kg cytryn i 5 kg mandarynek. Gdyby cena cytryn została obniżona o 25%, a cena mandarynek wzrosła o 25%, to koszt zakupu 10 kg cytryn i 10 kg mandarynek byłby równy 110 zł. Jakie były ceny tych owoców przed zmianą?</p>",
       "choices": [
@@ -188,8 +180,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną",
-        "zagadki logiczne"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Basia za dwa lata będzie dwa razy starsza niż była dwa lata temu, a Asia za trzy lata będzie cztery razy starsza niż przed trzema laty.</p>",
       "choices": [
@@ -217,7 +208,7 @@
       "points": 1,
       "topics": [
         "prawdopodobieństwo",
-        "podzielność"
+        "zbiory / zasada włączeń i wyłączeń"
       ],
       "prompt_html": "<p>Na loterię przygotowano 50 losów o numerach od 1 do 50. Losy z numerami podzielnymi przez 5 lub podzielnymi przez 3 uprawniają do odbioru nagrody. Jakie jest prawdopodobieństwo zdarzenia, że pierwsza osoba biorąca udział w loterii wygra nagrodę?</p>",
       "choices": [
@@ -244,8 +235,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zagadki logiczne",
-        "potęgi i pierwiastki"
+        "wzrost wykładniczy",
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Olek w kolejnych wierszach zapisuje kolejne liczby naturalne. Zaczyna od 1 i kieruje się następującą regułą: w każdym wierszu zapisuje tyle liczb, ile jest równa pierwsza liczba w tym wierszu, czyli:</p><ul><li>pierwszy wiersz: 1</li><li>drugi wiersz: 2, 3</li><li>trzeci wiersz: 4, 5, 6, 7</li><li>czwarty wiersz: 8, 9, 10, 11, 12, 13, 14, 15</li></ul><p>Liczba 125 zostanie zapisana w</p>",
       "choices": [
@@ -384,8 +375,7 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "ostrosłupy",
-        "potęgi i pierwiastki"
+        "ostrosłupy"
       ],
       "prompt_html": "<p>Objętość ostrosłupa prawidłowego czworokątnego wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>9</mn><msqrt><mn>14</mn></msqrt></mrow><mn>2</mn></mfrac></math> cm³. Krawędź boczna jest dwa razy dłuższa od podstawy.</p><p>Oceń, czy podane zdania są prawdziwe czy fałszywe. Zaznacz właściwą odpowiedź.</p>",
       "choices": [
@@ -436,8 +426,7 @@
       "points": 4,
       "topics": [
         "czworokąty",
-        "trójkąty",
-        "potęgi i pierwiastki"
+        "trójkąty"
       ],
       "prompt_html": "<p>W prostokącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> jest trzy razy krótszy od boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>. Na bokach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> zbudowano na zewnątrz prostokąta kwadraty o bokach długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>. Następnie poprowadzono odcinek łączący najbardziej odległe od siebie wierzchołki powstałych kwadratów. Długość tego odcinka jest równa 28 cm. Oblicz długości boków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>.</p>",
       "choices": [],

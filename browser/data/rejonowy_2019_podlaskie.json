@@ -56,7 +56,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "ułamki"
+        "ułamki okresowe / rozwinięcia dziesiętne"
       ],
       "prompt_html": "<p>Rozwinięcie dziesiętne nieskończone ma ułamek</p>",
       "choices": [
@@ -95,8 +95,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność",
-        "zliczanie / metody zliczania"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Ile różnych dzielników większych od 1 ma liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>3</mn><mo>·</mo><mn>5</mn><mo>·</mo><mn>7</mn></mrow></math>?</p>",
       "choices": [
@@ -213,7 +212,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Cenę abonamentu telefonicznego podniesiono z 20 zł na 27 zł. Abonament zdrożał o</p>",
       "choices": [
@@ -292,6 +291,7 @@
       "points": 1,
       "topics": [
         "NWW / NWD",
+        "kalendarz i czas",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Ela chodzi na aerobik co cztery dni, a Zosia co trzy dni. Dziś (środa) były na ćwiczeniach obie. W jaki najbliższy dzień tygodnia znów będą ćwiczyć razem?</p>",
@@ -331,7 +331,6 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kombinatoryka",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Ośmiu chłopców witało się, podając rękę każdy każdemu. Ile było uścisków dłoni?</p>",
@@ -371,7 +370,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "kąty"
       ],
       "prompt_html": "<p>Dany jest trójkąt równoramienny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>, w którym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>AC</mi><mo>|</mo></mrow></math> oraz miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest równa 38°. Na podstawie trójkąta zaznaczono punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math>, taki że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AD</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>BD</mi><mo>|</mo></mrow></math>. Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CAD</mi></math> jest równa</p>",
       "choices": [
@@ -412,8 +412,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty",
-        "potęgi i pierwiastki"
+        "trójkąty"
       ],
       "prompt_html": "<p>Trójkąt prostokątny można utworzyć z odcinków o długościach</p>",
       "choices": [
@@ -452,7 +451,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "kąty"
       ],
       "prompt_html": "<p>O kątach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>,</mo><mi>β</mi><mo>,</mo><mi>γ</mi></mrow></math> trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> wiadomo, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>β</mi><mo>=</mo><mn>2</mn><mi>α</mi></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>γ</mi><mo>=</mo><mn>3</mn><mi>α</mi></mrow></math>. Wynika stąd, że trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> jest</p>",
       "choices": [
@@ -611,7 +611,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Jeśli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>2</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mn>2</mn><mo>+</mo><msqrt><mn>3</mn></msqrt></mrow></math>, to wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mrow><mi>a</mi><mo>−</mo><mi>b</mi></mrow></mfrac></math> jest równa</p>",
       "choices": [
@@ -650,7 +650,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "ostrosłupy",
+        "liczba krawędzi, ścian i wierzchołków",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Ile wierzchołków ma podstawa ostrosłupa, jeżeli suma liczby wszystkich wierzchołków i wszystkich krawędzi ostrosłupa jest równa 100?</p>",
@@ -729,7 +729,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki",
+        "działania na potęgach",
         "układ współrzędnych"
       ],
       "prompt_html": "<p>Oblicz odległość na osi liczbowej między liczbą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i liczbą przeciwną do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, jeżeli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><msup><mn>27</mn><mn>10</mn></msup><mo>·</mo><mn>81</mn><mo>:</mo><msup><mn>9</mn><mn>16</mn></msup></mrow></math>, natomiast <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest najmniejszą liczbą pierwszą. Wynik przedstaw w najprostszej postaci.</p>",
@@ -752,6 +752,7 @@
       "type": "open",
       "points": 3,
       "topics": [
+        "ułamki",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Jedna czwarta uczestników wycieczki mieszka w pokojach trzyosobowych, dwie trzecie mieszka w pokojach dwuosobowych, a pięć pozostałych osób zajmuje pokój pięcioosobowy. Ile pokoi zajmują uczestnicy tej wycieczki?</p>",

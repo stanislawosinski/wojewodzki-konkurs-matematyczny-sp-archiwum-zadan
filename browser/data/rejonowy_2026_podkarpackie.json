@@ -17,8 +17,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "ułamki",
-        "zagadki logiczne"
+        "ułamki"
       ],
       "prompt_html": "<p>Na karteczkach znajdują się ułamki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>22</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>22</mn><mn>7</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>17</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>17</mn><mn>21</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>21</mn><mn>20</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>20</mn><mn>9</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>9</mn><mn>16</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>16</mn><mn>11</mn></mfrac></math>. Adaś wybrał niektóre z karteczek, a następnie pomnożył ułamki, które się na nich znajdują. Jaki największy wynik mógł w ten sposób otrzymać Adaś?</p>",
       "choices": [],
@@ -41,6 +40,7 @@
       "points": 2,
       "topics": [
         "reszta z dzielenia",
+        "liczby pierwsze",
         "podzielność"
       ],
       "prompt_html": "<p>Karol wykonał dzielenie z resztą liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2026</mn></math> przez swoją ulubioną liczbę. Otrzymał pewien iloraz i resztę, zauważył też, że otrzymana reszta z dzielenia jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>11</mn></math> razy mniejsza od otrzymanego ilorazu. Jaka jest ulubiona liczba Karola?</p>",
@@ -64,8 +64,7 @@
       "points": 2,
       "topics": [
         "kąty",
-        "sześciokąty foremne",
-        "trójkąty"
+        "wielokąty"
       ],
       "prompt_html": "<p>Na bokach kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>, na zewnątrz tego kwadratu, zbudowano pięciokąt foremny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADKLM</mi></math> i sześciokąt foremny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BPQRSC</mi></math>, jak na rysunku. Wyznacz miarę kąta ostrego między prostymi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CK</mi></math>.</p>",
       "choices": [],
@@ -89,7 +88,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki",
+        "działania na pierwiastkach",
         "szacowanie (zamiast obliczania)"
       ],
       "prompt_html": "<p>Wojtek bawił się w obliczanie pierwiastków za pomocą kalkulatora. W pewnym momencie zauważył, że liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>33461909529129</mn></msqrt></math> jest liczbą całkowitą. Jaka jest pierwsza cyfra tej liczby?</p>",
@@ -158,8 +157,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "koła / okręgi",
         "czworokąty",
+        "koła / okręgi",
         "trójkąty",
         "pole i obwód"
       ],
@@ -183,9 +182,9 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "procenty",
         "równania z jedną zmienną",
-        "proporcjonalność odwrotna"
+        "proporcjonalność odwrotna",
+        "procenty"
       ],
       "prompt_html": "<p>Krzyś ma do pomalowania płot. Sprawdził, jaką część płotu jest w stanie pomalować w ciągu jednego dnia i uznał, że pracując w tym tempie będzie malował płot zbyt długo. Postanowił więc, że każdego dnia pomaluje o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>20</mn><mo>%</mo></mrow></math> więcej niż pierwotnie zakładał. Okazało się, że dzięki temu pomalował płot o 4 dni szybciej, niż gdyby malował płot w pierwotnie założonym tempie. Ile czasu zajęło Krzysiowi malowanie płotu?</p>",
       "choices": [],
@@ -208,6 +207,7 @@
       "points": 4,
       "topics": [
         "graniastosłupy",
+        "ostrosłupy",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Kasia wykonała model graniastosłupa prawidłowego trójkątnego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>ABC</mi><msup><mi>A</mi><mo>′</mo></msup><msup><mi>B</mi><mo>′</mo></msup><msup><mi>C</mi><mo>′</mo></msup></mrow></math> i nalała do niego wody. Następnie ustawiła go na krawędzi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> w taki sposób, że powierzchnia wody przechodziła przez wierzchołki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>A</mi><mo>′</mo></msup></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>B</mi><mo>′</mo></msup></math>, jak na rysunku. Udowodnij, że objętość nalanej wody stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math> objętości graniastosłupa.</p>",

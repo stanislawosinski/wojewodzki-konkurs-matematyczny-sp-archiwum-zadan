@@ -95,8 +95,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "reszta z dzielenia",
-        "zliczanie / metody zliczania"
+        "reszta z dzielenia"
       ],
       "prompt_html": "<p>Wszystkich liczb naturalnych dwucyfrowych, które przy dzielniu przez 6 dają resztę 5 jest:</p>",
       "choices": [
@@ -135,7 +134,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Serwer w centrum danych pracował nieprzerwanie przez dokładnie 81 godzin i 15 minut - od momentu uruchomienia do awarii, która wystąpiła 16 kwietnia o godzinie 16:27. Kiedy dokładnie został włączony serwer?</p>",
       "choices": [
@@ -174,7 +173,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "proporcjonalność odwrotna"
+        "podobieństwo i skala"
       ],
       "prompt_html": "<p>Na mapie w skali 1:12500000 odległość z A do B wynosi 6 cm. Jaka będzie ta odległość na mapie w skali 1:5000000?</p>",
       "choices": [
@@ -213,8 +212,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "ułamki",
-        "układ współrzędnych"
+        "ułamki"
       ],
       "prompt_html": "<p>Wskaż wyrażenie, którego wartość leży najbliżej zera na osi liczbowej.</p>",
       "choices": [
@@ -533,7 +531,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Objętość 670000 mm³ to</p>",
       "choices": [
@@ -572,8 +570,9 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki",
-        "podzielność"
+        "działania na potęgach",
+        "podzielność",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli zdanie jest fałszywe.</p>",
       "choices": [
@@ -643,7 +642,7 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Początkowa cena gry komputerowej była równa cenie tabletu. Cenę gry komputerowej najpierw podniesiono o 5%, a następnie nową cenę obniżono o 15%. Z kolei cenę tabletu najpierw obniżono o 15%, a następnie nową cenę podniesiono o 5%.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli zdanie jest fałszywe.</p><p>Po tych zmianach:</p>",
       "choices": [
@@ -674,8 +673,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki",
         "trójkąty",
+        "ułamki",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Uzasadnij, że istnieje trójkąt o bokach długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi></math>, jeśli:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><msqrt><mfrac><mn>1</mn><mn>4</mn></mfrac></msqrt><mo>+</mo><mfrac><mn>1</mn><mn>6</mn></mfrac></math>; &nbsp; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><msup><mrow><mo>(</mo><mfrac><mn>1</mn><msqrt><mn>4</mn></msqrt></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><mfrac><mn>1</mn><mn>4</mn></mfrac></math>; &nbsp; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>)</mo></math>. Zapisz wszystkie obliczenia i uzasadnienie.</p>",

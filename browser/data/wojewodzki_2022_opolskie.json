@@ -17,8 +17,8 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "podzielność",
-        "zliczanie / metody zliczania"
+        "zbiory / zasada włączeń i wyłączeń",
+        "podzielność"
       ],
       "prompt_html": "<p>Oceń, czy zdanie jest prawdziwe.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
       "choices": [
@@ -88,7 +88,8 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Wartość sumy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>10</mn></msup><mo>+</mo><msup><mn>2</mn><mn>10</mn></msup><mo>+</mo><msup><mn>2</mn><mn>10</mn></msup><mo>+</mo><msup><mn>2</mn><mn>10</mn></msup></math> wynosi:</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
       "choices": [
@@ -123,9 +124,9 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "podzielność",
         "usuwanie niewymierności z mianownika",
-        "potęgi i pierwiastki"
+        "podzielność",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Czy wartość wyrażenia jest liczbą naturalną?</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
       "choices": [
@@ -160,7 +161,7 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "bryły"
+        "liczba krawędzi, ścian i wierzchołków"
       ],
       "prompt_html": "<p>Wielościan zbudowany tylko z trójkątów równobocznych może mieć:</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
       "choices": [
@@ -195,7 +196,7 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "procenty",
+        "zmiany procentowe",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Cena bluzki była o 40 zł niższa niż cena spódnicy. Gdy droższa rzecz potaniała o 10%, a tańsza podrożała o 10%, to za bluzkę i spódnicę łącznie płacimy o 2% mniej niż początkowo. Jakie były początkowe ceny bluzki i spódnicy?</p>",
@@ -220,8 +221,7 @@
       "topics": [
         "czworokąty",
         "trójkąty",
-        "pole i obwód",
-        "potęgi i pierwiastki"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Przekątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>C</mi></math> prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mi>B</mi><mi>C</mi><mi>D</mi></math> ma długość 12 cm i dzieli ten prostokąt na dwa trójkąty. Wysokości tych trójkątów poprowadzone z wierzchołków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> podzieliły przekątną na 3 równe części. Oblicz pole tego prostokąta.</p>",
       "choices": [],
@@ -313,8 +313,7 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "ostrosłupy",
-        "potęgi i pierwiastki"
+        "ostrosłupy"
       ],
       "prompt_html": "<p>W ostrosłupie prawidłowym czworokątnym suma długości wszystkich krawędzi jest równa 60 cm. Stosunek długości przekątnej podstawy do długości krawędzi bocznej wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow><mn>3</mn></mfrac></math>. Oblicz objętość tego ostrosłupa.</p>",
       "choices": [],

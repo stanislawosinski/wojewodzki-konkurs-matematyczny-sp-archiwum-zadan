@@ -56,7 +56,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Ile cyfr w zapisie dziesiętnym posiada liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2</mn><mn>12</mn></msup><mo>·</mo><msup><mn>5</mn><mn>8</mn></msup></mrow></math>?</p>",
       "choices": [
@@ -95,7 +95,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Czy sześcian połowy trzykrotności liczby jest równy trzykrotności połowy sześcianu tej liczby?</p>",
       "choices": [
@@ -174,7 +175,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "proporcjonalność prosta"
+        "podobieństwo i skala"
       ],
       "prompt_html": "<p>Architekt ma dwa plany tego samego budynku. Jeden w skali 1 : 20, drugi w skali 1 : 50. Jaka jest na planie w skali 1 : 50 szerokość fasady tego budynku, jeżeli jest ona równa 20 cm na planie w skali 1 : 20?</p>",
       "choices": [
@@ -291,6 +292,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "stężenie procentowe / mieszaniny",
         "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Zmieszano 2 kg jabłek po <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> zł za 1 kg i 3 kg jabłek po <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> zł za 1 kg. Cenę 1 kg mieszanki przedstawia wyrażenie:</p>",
@@ -488,7 +490,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "statystyka opisowa"
+        "statystyka opisowa",
+        "ułamki"
       ],
       "prompt_html": "<p>Średnia arytmetyczna liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7</mn><mfrac><mn>1</mn><mn>7</mn></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mfrac><mn>1</mn><mn>4</mn></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mfrac><mn>1</mn><mn>28</mn></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mfrac><mn>1</mn><mn>14</mn></mfrac></mrow></math> wynosi:</p>",
       "choices": [
@@ -606,7 +609,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "prędkość / droga / czas"
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Wiatr wieje z prędkością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>18</mn><mfrac><mi>km</mi><mi>h</mi></mfrac></mrow></math>, to znaczy:</p>",
       "choices": [
@@ -645,6 +648,7 @@
       "type": "open",
       "points": 4,
       "topics": [
+        "ułamki",
         "procenty"
       ],
       "prompt_html": "<p>W populacji pewnego gatunku żółwi, tylko <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>10</mn></mfrac></math> młodych żółwików przeżywa pierwszy rok życia. Drugi rok życia przeżywa tylko <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math> pozostałych młodych żółwi. Jaki procent żółwi przeżywa co najmniej dwa lata?</p>",
@@ -690,7 +694,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki"
+        "notacja wykładnicza"
       ],
       "prompt_html": "<p>Gwiazda znajduje się w odległości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5,5</mn><mo>·</mo><msup><mn>10</mn><mn>16</mn></msup></mrow></math> km od Ziemi. W ciągu roku światło przebywa drogę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>94,6</mn><mo>·</mo><msup><mn>10</mn><mn>11</mn></msup></mrow></math> km. W odległości ilu lat świetlnych od Ziemi znajduje się ta gwiazda? Wynik zaokrąglij do pełnych lat świetlnych a następnie podaj w notacji wykładniczej.</p>",
       "choices": [],

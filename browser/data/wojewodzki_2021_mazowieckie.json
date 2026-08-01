@@ -17,8 +17,7 @@
       "type": "true_false",
       "points": 1,
       "topics": [
-        "podzielność",
-        "zagadki logiczne"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Iloczyn trzech różnych liczb naturalnych jest równy 176, a ich suma wynosi 21.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe albo F, jeśli jest fałszywe.</p>",
       "choices": [
@@ -50,7 +49,8 @@
       "points": 1,
       "topics": [
         "sześciokąty foremne",
-        "symetrie"
+        "symetrie",
+        "układ współrzędnych"
       ],
       "prompt_html": "<p>Długość boku sześciokąta foremnego na rysunku wynosi 8.</p><p>Jakie współrzędne ma punkt symetryczny do punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>W</mi></math> względem osi symetrii tego sześciokąta równoległej do osi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>? Wybierz poprawną odpowiedź spośród podanych.</p>",
       "choices": [
@@ -136,6 +136,7 @@
       "points": 1,
       "topics": [
         "koła / okręgi",
+        "podobieństwo i skala",
         "pole i obwód"
       ],
       "prompt_html": "<p>Gosia wykonała „pawie oczko” z kolorowych kółek, sklejając je według szablonu przedstawionego na rysunku. Promień kolejnego kółka jest dwukrotnie mniejszy od poprzedniego.</p><p>Uzupełnij poniższe zdania. Wybierz odpowiedź spośród oznaczonych literami A i B oraz odpowiedź spośród oznaczonych literami C i D.</p><p>Obwód kółka „5” jest ⬚ razy mniejszy niż obwód kółka „3”.</p><p>Pole kółka „1” jest ⬚ razy większe od pola kółka „4”.</p>",
@@ -178,8 +179,9 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "nierówności",
         "wzory skróconego mnożenia",
+        "nierówności",
+        "liczby pierwsze",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Uzasadnij, że dokładnie 8 liczb pierwszych spełnia nierówność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><mo>(</mo><mi>x</mi><mo>−</mo><msqrt><mn>7</mn></msqrt><mo>)</mo><mo>(</mo><msqrt><mn>7</mn></msqrt><mo>+</mo><mi>x</mi><mo>)</mo><mo>≥</mo><mo>(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>10</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>5</mn><mo>)</mo></mrow></math>.</p>",
@@ -202,8 +204,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki",
-        "nierówności",
+        "ujemny wykładnik",
+        "działania na pierwiastkach",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Uzasadnij, że jeśli wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mrow><mo>−</mo><mn>1</mn></mrow></msup><mo>+</mo><msup><mrow><mo>(</mo><msqrt><mi>a</mi></msqrt><mo>)</mo></mrow><mrow><mo>−</mo><mn>1</mn></mrow></msup><mo>−</mo><msup><mrow><mo>(</mo><mfrac><mi>a</mi><mn>2</mn></mfrac><mo>)</mo></mrow><mrow><mo>−</mo><mn>1</mn></mrow></msup></mrow></math> jest liczbą ujemną, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>&lt;</mo><mn>1</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>&gt;</mo><mn>0</mn></mrow></math>.</p>",
@@ -251,7 +253,9 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "ostrosłupy"
+        "ostrosłupy",
+        "siatki brył",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Dany jest sześcian <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDEFGH</mi></math> o krawędzi 5. Przyjmij za jednostkę długość boku kratki i narysuj siatkę ostrosłupa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDE</mi></math>. Oblicz pole powierzchni bocznej ostrosłupa i przedstaw je w postaci iloczynu.</p>",
       "choices": [],
@@ -275,7 +279,6 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "kombinatoryka",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Julka zapisuje liczby sześciocyfrowe, które można utworzyć przy użyciu wszystkich spośród cyfr 3, 4 i 5 tak, aby każde dwie sąsiednie cyfry w ich zapisach były liczbami różniącymi się o jeden. Oblicz, ile najwięcej różnych liczb spełniających te warunki może zapisać Julka.</p>",

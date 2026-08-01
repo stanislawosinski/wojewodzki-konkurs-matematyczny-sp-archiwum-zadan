@@ -18,8 +18,8 @@
       "points": 3,
       "topics": [
         "trójkąty",
-        "pole i obwód",
-        "usuwanie niewymierności z mianownika"
+        "usuwanie niewymierności z mianownika",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> kąty przy wierzchołkach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> mają odpowiednio miary <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>30</mn><mo>°</mo></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>45</mn><mo>°</mo></mrow></math>. Oblicz pole tego trójkąta wiedząc, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>24</mn></mrow></math>.</p>",
       "choices": [],
@@ -85,7 +85,7 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "działania na potęgach",
         "szacowanie (zamiast obliczania)",
         "dowodzenie / dowody"
       ],
@@ -154,7 +154,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "kąty"
+        "kąty",
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Oblicz miarę kąta wypukłego utworzonego przez wskazówki zegara o godzinie 20:25.</p>",
       "choices": [],
@@ -177,7 +178,8 @@
       "points": 4,
       "topics": [
         "czworokąty",
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Paweł zamówił szybę w kształcie rombu o przekątnych długości 40 dm i 30 dm. Zaproponował szklarzowi, by wyciął ten romb z prostokątnego kawałka szyby, tak jak na rysunku. Jakie wymiary powinien mieć ten prostokątny kawałek szyby? Wykonaj obliczenia.</p>",
       "choices": [],
@@ -201,11 +203,9 @@
       "type": "closed_single",
       "points": 6,
       "topics": [
-        "potęgi i pierwiastki",
-        "reszta z dzielenia",
-        "wzory skróconego mnożenia",
-        "ułamki",
-        "geometria"
+        "ułamki okresowe / rozwinięcia dziesiętne",
+        "działania na potęgach",
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>W poniższych zadaniach zamkniętych dokładnie jedna odpowiedź jest poprawna. Wskaż tę odpowiedź otaczając ją kółkiem.</p><p><strong>9.1</strong> Która z poniższych odpowiedzi przedstawia liczby: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>8</mn></mfrac></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,87</mn><mo>(</mo><mn>4</mn><mo>)</mo></mrow></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>11</mn><mn>15</mn></mfrac></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,87</mn><mo>(</mo><mn>49</mn><mo>)</mo></mrow></math> uporządkowane rosnąco?</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>7</mn><mn>8</mn></mfrac><mo>&lt;</mo><mn>0,87</mn><mo>(</mo><mn>4</mn><mo>)</mo><mo>&lt;</mo><mfrac><mn>11</mn><mn>15</mn></mfrac><mo>&lt;</mo><mn>0,87</mn><mo>(</mo><mn>49</mn><mo>)</mo></mrow></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,87</mn><mo>(</mo><mn>4</mn><mo>)</mo><mo>&lt;</mo><mfrac><mn>11</mn><mn>15</mn></mfrac><mo>&lt;</mo><mfrac><mn>7</mn><mn>8</mn></mfrac><mo>&lt;</mo><mn>0,87</mn><mo>(</mo><mn>49</mn><mo>)</mo></mrow></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>11</mn><mn>15</mn></mfrac><mo>&lt;</mo><mn>0,87</mn><mo>(</mo><mn>4</mn><mo>)</mo><mo>&lt;</mo><mn>0,87</mn><mo>(</mo><mn>49</mn><mo>)</mo><mo>&lt;</mo><mfrac><mn>7</mn><mn>8</mn></mfrac></mrow></math></li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>11</mn><mn>15</mn></mfrac><mo>&lt;</mo><mn>0,87</mn><mo>(</mo><mn>4</mn><mo>)</mo><mo>&lt;</mo><mfrac><mn>7</mn><mn>8</mn></mfrac><mo>&lt;</mo><mn>0,87</mn><mo>(</mo><mn>49</mn><mo>)</mo></mrow></math></li></ul><p><strong>9.2</strong> Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mn>1</mn><mo>−</mo><msqrt><mn>3</mn></msqrt><mo>|</mo></mrow></math> jest równa:</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>−</mo><msqrt><mn>3</mn></msqrt></mrow></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>1</mn></mrow></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>1</mn></mrow></math></li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>1</mn><mo>−</mo><msqrt><mn>3</mn></msqrt></mrow></math></li></ul><p><strong>9.3</strong> Spośród podanych liczb największą liczbą naturalną, dla której iloraz i reszta z dzielenia jej przez 11 są równe, jest:</p><ul><li>A. 44</li><li>B. 72</li><li>C. 96</li><li>D. 121</li></ul><p><strong>9.4</strong> Cyfrą jedności liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>7</mn><mn>43</mn></msup><mo>−</mo><mn>8</mn></mrow></math> jest:</p><ul><li>A. 1</li><li>B. 3</li><li>C. 5</li><li>D. 6</li></ul><p><strong>9.5</strong> Która z podanych liczb nie może być liczbą przekątnych wielokąta wypukłego?</p><ul><li>A. 5</li><li>B. 2</li><li>C. 9</li><li>D. 16</li></ul><p><strong>9.6</strong> Połowa liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>98</mn></msup></math> jest równa:</p><ul><li>A. 1</li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>97</mn></msup></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>49</mn></msup></math></li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>59</mn></msup></math></li></ul><p><strong>9.7</strong> Wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mi>y</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>−</mo><msup><mrow><mo>(</mo><mi>y</mi><mo>−</mo><mn>2</mn><mi>x</mi><mo>)</mo></mrow><mn>2</mn></msup></mrow></math> po wykonaniu działań przyjmuje postać:</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><msup><mi>y</mi><mn>2</mn></msup></mrow></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>3</mn><msup><mi>y</mi><mn>2</mn></msup></mrow></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>8</mn><mi>x</mi><mi>y</mi><mo>+</mo><mn>3</mn><msup><mi>y</mi><mn>2</mn></msup></mrow></math></li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>3</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>8</mn><mi>x</mi><mi>y</mi><mo>+</mo><mn>3</mn><msup><mi>y</mi><mn>2</mn></msup></mrow></math></li></ul>",
       "choices": [],

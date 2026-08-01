@@ -17,8 +17,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "reszta z dzielenia",
-        "potęgi i pierwiastki"
+        "ułamki okresowe / rozwinięcia dziesiętne",
+        "reszta z dzielenia"
       ],
       "prompt_html": "<p>Dana jest liczba 76,5123123… Która z podanych liczb jest równa sześcianowi dwudziestej czwartej cyfry po przecinku tej liczby?</p>",
       "choices": [
@@ -57,7 +57,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "pierwiastki zagnieżdżone",
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Która z podanych liczb jest równa wartości wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mrow><mn>9</mn><mo>·</mo><msqrt><mrow><mn>3</mn><mo>·</mo><mroot><mrow><mn>9</mn><mo>·</mo><msqrt><mrow><mn>3</mn><mo>·</mo><mroot><mn>27</mn><mn>3</mn></mroot></mrow></msqrt></mrow><mn>3</mn></mroot></mrow></msqrt></mrow><mn>3</mn></mroot></math>?</p>",
       "choices": [
@@ -136,7 +137,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy"
+        "liczba krawędzi, ścian i wierzchołków"
       ],
       "prompt_html": "<p>Pewien graniastosłup prawidłowy ma tyle samo ścian będących kwadratami, co sześcian. Jaki wielokąt może być podstawą tego graniastosłupa?</p>",
       "choices": [
@@ -175,8 +176,9 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "podzielność",
-        "reszta z dzielenia"
+        "liczby pierwsze",
+        "reszta z dzielenia",
+        "podzielność"
       ],
       "prompt_html": "<p>Poniżej podane są cztery zdania dotyczące liczb.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe. Wybraną odpowiedź zaznacz kółkiem.</p>",
       "choices": [
@@ -215,6 +217,7 @@
       "type": "true_false",
       "points": 2,
       "topics": [
+        "zmiany procentowe",
         "procenty"
       ],
       "prompt_html": "<p>W jednej z lubelskich szkół podstawowych jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> uczniów. Uczniowie klas siódmych stanowią 15% liczby wszystkich uczniów, a uczniowie klas ósmych 18% liczby wszystkich uczniów.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe. Wybraną odpowiedź zaznacz kółkiem.</p>",
@@ -246,7 +249,8 @@
       "type": "true_false",
       "points": 5,
       "topics": [
-        "potęgi i pierwiastki",
+        "wartość bezwzględna",
+        "ułamki",
         "podzielność"
       ],
       "prompt_html": "<p>Poniżej podane zdania dotyczą działań na liczbach.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe. Wybraną odpowiedź zaznacz kółkiem.</p>",
@@ -290,6 +294,7 @@
       "type": "true_false",
       "points": 2,
       "topics": [
+        "kąty",
         "trójkąty",
         "czworokąty"
       ],
@@ -432,8 +437,8 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "trójkąty",
-        "czworokąty"
+        "czworokąty",
+        "trójkąty"
       ],
       "prompt_html": "<p>Poniżej podane są cztery zdania dotyczące figur płaskich.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe. Wybraną odpowiedź zaznacz kółkiem.</p>",
       "choices": [
@@ -474,6 +479,8 @@
       "type": "open",
       "points": 4,
       "topics": [
+        "kalendarz i czas",
+        "zamiana jednostek",
         "ułamki"
       ],
       "prompt_html": "<p>Uzupełnij poniższy zapis.</p><p>4 h &nbsp;&nbsp; …… min &nbsp;&nbsp; 17 s<br>+ &nbsp;&nbsp; …… h &nbsp;&nbsp; 37 min &nbsp;&nbsp; …… s<br>= 7 h &nbsp;&nbsp; 12 min &nbsp;&nbsp; 0 s</p><p>Jaką częścią doby jest 7 godzin i 12 minut?</p><p>Wpisz tylko odpowiedź.</p>",
@@ -496,8 +503,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki",
-        "inne"
+        "notacja wykładnicza",
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Syn pewnego miliardera narzekał, że ojciec na wymarzoną podróż dookoła świata chce dać mu zbyt mało pieniędzy. Ojciec, który nie był pozbawiony humoru, postanowił zrobić synowi „niespodziankę” i przekazał mu milion złotych w monetach dwugroszowych.</p><p>a) Ile sztuk monet otrzymał syn? Liczbę monet podaj w notacji wykładniczej.</p><p>b) Moneta dwugroszowa waży <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2,13</mn><mtext>&#xA0;g</mtext></mrow></math>. Ile kilogramów ważyły otrzymane przez syna monety?</p>",
       "choices": [],
@@ -519,8 +526,8 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "trójkąty",
-        "kąty"
+        "kąty",
+        "trójkąty"
       ],
       "prompt_html": "<p>Suma miar czterech kątów zaznaczonych na rysunku tylko łukami (<em>patrz poniżej</em>) jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>290</mn><mo>°</mo></mrow></math>.</p><p>Uzupełnij zdanie, wpisując tylko liczbę.</p><p>Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> ma miarę …………… stopni.</p>",
       "choices": [],

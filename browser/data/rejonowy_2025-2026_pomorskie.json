@@ -17,7 +17,9 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "czworokąty"
+        "czworokąty",
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Marek przygotowuje dekorację na szkolne przedstawienie i potrzebuje wyciąć z kartonu element w kształcie rombu, którego przekątne mają długości 30 dm i 40 dm. Aby nie marnować materiału, chce wykorzystać prostokątny arkusz kartonu i umieścić w nim romb tak, jak pokazano na rysunku. Jakie wymiary powinien mieć prostokątny arkusz kartonu, aby dało się z niego wyciąć romb w taki sposób, jak pokazano na rysunku? Zapisz obliczenia.</p>",
       "choices": [],
@@ -64,8 +66,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "proporcjonalność odwrotna",
-        "równania z jedną zmienną"
+        "proporcjonalność odwrotna"
       ],
       "prompt_html": "<p>W pewnym mieście rozpoczęto budowę nowego placu zabaw. Do pracy oddelegowano 28 pracowników, którzy zbudowaliby ten plac zabaw w ciągu 26 dni. Jednakże po 6 dniach ich pracy okazało się, że plac zabaw ma zostać otwarty o 4 dni wcześniej. Kierownik budowy zwiększył więc liczbę pracowników i dzięki temu plac zabaw został ukończony zgodnie z nowym terminem. Oblicz, ilu dodatkowych pracowników zatrudnił kierownik.</p><p><strong>Uwaga:</strong> Zakładamy, że wszyscy pracownicy pracują z tą samą wydajnością.</p>",
       "choices": [],
@@ -87,7 +88,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Na terenie szkoły znaleziono tajemniczą szkatułkę pełną kolorowych żetonów, które postanowiono wykorzystać przy organizacji szkolnego festynu. Cztery osoby z komitetu organizacyjnego rozdzieliły te żetony między różne stanowiska. Najpierw Ania zabrała 25% wszystkich żetonów na swoje stoisko z zagadkami. Z pozostałej puli Bartek otrzymał 20% na stanowisko z grami zręcznościowymi. Następnie Celina wzięła 50% tego, co jeszcze zostało na konkurs plastyczny. Na końcu Daniel otrzymał resztę żetonów z przeznaczeniem na loterię fantową. Jaki procent wszystkich żetonów otrzymał Daniel?</p>",
       "choices": [],
@@ -109,7 +110,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Uzupełnij zdania. Wpisz odpowiednie liczby w wykropkowanych miejscach tak, aby zdania były prawdziwe.</p><ol><li>Pierwiastek kwadratowy z liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>8</mn><mn>3</mn></mfrac></math>, więc pierwiastek kwadratowy z liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mi>a</mi></mrow></math> jest równy …</li><li>Pierwiastek sześcienny z liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest równy 12, więc pierwiastek sześcienny z liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mi>b</mi></mrow></math> jest równy …</li></ol>",
       "choices": [],
@@ -153,13 +154,9 @@
       "type": "closed_single",
       "points": 7,
       "topics": [
-        "potęgi i pierwiastki",
-        "trójkąty",
-        "pole i obwód",
-        "zliczanie / metody zliczania",
-        "reszta z dzielenia",
-        "statystyka opisowa",
-        "ułamki"
+        "działania na potęgach",
+        "ułamki",
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>W zadaniach zamkniętych dokładnie jedna odpowiedź jest poprawna. Wskaż tę odpowiedź otaczając ją kółkiem.</p><p><strong>7.1</strong> Ile jest liczb naturalnych czterocyfrowych, których iloczyn cyfr jest równy 5?</p><ul><li>A. 1</li><li>B. 2</li><li>C. 3</li><li>D. 4</li></ul><p><strong>7.2</strong> Jaka cyfra znajduje się na 2025 miejscu po przecinku liczby 20,25(1205)?</p><ul><li>A. 0</li><li>B. 1</li><li>C. 2</li><li>D. 5</li></ul><p><strong>7.3</strong> Średnia arytmetyczna liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>3</mn><mi>b</mi></mrow><mn>4</mn></mfrac></math>. Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><mi>b</mi></mfrac></math> jest równa:</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math></li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math></li></ul><p><strong>7.4</strong> Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mo>−</mo><mo>|</mo><mo>−</mo><mn>1</mn><mo>|</mo><mo>−</mo><mo>(</mo><mo>−</mo><mn>1</mn><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>)</mo><mo>:</mo><mn>0,25</mn><mo>·</mo><mo>|</mo><mo>−</mo><mn>4,2</mn><mo>+</mo><mn>2</mn><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>|</mo><mo>)</mo></mrow></math> jest równa:</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>2</mn></mfrac></math></li><li>B. 2</li><li>C. 9</li><li>D. 11</li></ul><p><strong>7.5</strong> Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>·</mo><msup><mn>4</mn><mn>10</mn></msup><mo>+</mo><mn>12</mn><mo>·</mo><msup><mn>4</mn><mn>11</mn></msup><mo>+</mo><msup><mn>2</mn><mn>5</mn></msup><mo>·</mo><msup><mn>4</mn><mn>9</mn></msup></mrow></math> jest równa:</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>14</mn></msup></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>12</mn><mn>34</mn></msup></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>13</mn></msup></math></li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>25</mn></msup></math></li></ul><p><strong>7.6</strong> Podczas zajęć z geometrii Zosia z kolorowych patyczków zbudowała trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> o bokach długości 10 cm, 14 cm i 16 cm. Na kolejnych zajęciach nauczyciel poprosił, aby Zosia wykonała model trójkąta podobnego do trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>. Zosia zbudowała więc trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>A</mi><mn>1</mn></msub><msub><mi>B</mi><mn>1</mn></msub><msub><mi>C</mi><mn>1</mn></msub></mrow></math> podobny do trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>, przy czym najdłuższy bok trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>A</mi><mn>1</mn></msub><msub><mi>B</mi><mn>1</mn></msub><msub><mi>C</mi><mn>1</mn></msub></mrow></math> ma długość 8 cm. Ile jest równy obwód trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>A</mi><mn>1</mn></msub><msub><mi>B</mi><mn>1</mn></msub><msub><mi>C</mi><mn>1</mn></msub></mrow></math>?</p><ul><li>A. 14 cm</li><li>B. 20 cm</li><li>C. 22 cm</li><li>D. 28 cm</li></ul><p><strong>7.7</strong> Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mo>−</mo><mn>0,2</mn><mo>)</mo></mrow><mrow><mo>−</mo><mn>3</mn></mrow></msup></math> jest równa:</p><ul><li>A. −125</li><li>B. −8</li><li>C. 8</li><li>D. 125</li></ul>",
       "choices": [],

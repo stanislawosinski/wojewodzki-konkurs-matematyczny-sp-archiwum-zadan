@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> jest czwartą częścią liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>24</mn></msup></math>. Połowa liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> jest równa</p>",
       "choices": [
@@ -100,7 +100,6 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
         "ułamki"
       ],
       "prompt_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mo>{</mo><msup><mrow><mo>(</mo><mn>6</mn><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>−</mo><mn>5,94</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>−</mo><mo>[</mo><msup><mrow><mo>(</mo><mn>0,1</mn><mo>)</mo></mrow><mn>3</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>]</mo><mo>}</mo></math> jest równa</p>",
@@ -142,7 +141,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy"
+        "graniastosłupy",
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Prostopadłościan ma wymiary 1 dm, 0,2 m i 400 mm. Pole powierzchni całkowitej sześcianu o objętości takiej samej, jak objętość tego prostopadłościanu jest równe</p>",
       "choices": [
@@ -226,8 +226,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "kombinatoryka",
-        "zagadki logiczne"
+        "zasada szufladkowa"
       ],
       "prompt_html": "<p>W pudełku są kule w trzech kolorach: 4 czerwone, 5 żółtych i 10 niebieskich.</p><p>Oceń prawdziwość zdań. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p><p>Hania musi wyjąć z pudełka:</p>",
       "choices": [
@@ -264,8 +263,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "zliczanie / metody zliczania",
-        "zagadki logiczne"
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Do ponumerowania stron książki użyto 255 cyfr.</p><p>Oceń prawdziwość zdań. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -302,7 +300,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mn>3</mn><mn>7</mn></msup><mo>·</mo><msup><mn>7</mn><mn>4</mn></msup><mo>·</mo><msup><mrow><mo>(</mo><mo>−</mo><mn>8</mn><mo>)</mo></mrow><mn>2</mn></msup></mrow><mrow><mn>8</mn><mo>·</mo><msup><mrow><mo>(</mo><mo>−</mo><mn>7</mn><mo>)</mo></mrow><mn>5</mn></msup><mo>·</mo><msup><mn>3</mn><mn>4</mn></msup></mrow></mfrac></math> jest</p>",
       "choices": [
@@ -343,7 +341,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Jeżeli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>⊗</mo><mi>b</mi><mo>=</mo><mi>a</mi><mi>b</mi><mo>+</mo><mi>a</mi><mo>+</mo><mi>b</mi></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>⊗</mo><mn>5</mn><mo>=</mo><mn>2</mn><mo>⊗</mo><mi>y</mi></mrow></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> jest równe</p>",
       "choices": [
@@ -384,7 +383,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "procenty",
+        "zmiany procentowe",
         "statystyka opisowa"
       ],
       "prompt_html": "<p>Średnia płaca w zakładzie zatrudniającym 19 osób jest równa 3600 zł. Po wypłaceniu pensji nowo zatrudnionemu pracownikowi średnia płaca wszystkich zatrudnionych osób wzrosła o 4%. Nowy pracownik otrzymał pensję</p>",
@@ -535,6 +534,7 @@
       "points": 3,
       "topics": [
         "koła / okręgi",
+        "kąty",
         "trójkąty"
       ],
       "prompt_html": "<p>Na okrągłej tarczy zegara połączono odcinkami punkty leżące na jej brzegu, odpowiadające godzinom 4, 9 i 12. Oblicz miary kątów otrzymanego trójkąta.</p>",
@@ -561,8 +561,7 @@
       "topics": [
         "czworokąty",
         "kąty",
-        "pole i obwód",
-        "procenty"
+        "pole i obwód"
       ],
       "prompt_html": "<p>W równoległoboku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> jest dwa razy dłuższy od boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math>, a kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BAD</mi></math> ma miarę 40°. Środek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> połączono z wierzchołkiem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>. Ile stopni ma kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ECD</mi></math>? Jakim procentem pola równoległoboku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> jest pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EBC</mi></math>?</p>",
       "choices": [],
@@ -611,8 +610,7 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "ostrosłupy",
-        "trójkąty"
+        "ostrosłupy"
       ],
       "prompt_html": "<p>Wzór Herona pozwala obliczyć pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mo>△</mo></msub></math> trójkąta o bokach długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>. Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math> oznacza połowę obwodu trójkąta. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mo>△</mo></msub><mo>=</mo><msqrt><mrow><mi>p</mi><mo>(</mo><mi>p</mi><mo>−</mo><mi>a</mi><mo>)</mo><mo>(</mo><mi>p</mi><mo>−</mo><mi>b</mi><mo>)</mo><mo>(</mo><mi>p</mi><mo>−</mo><mi>c</mi><mo>)</mo></mrow></msqrt></mrow></math>.</p><p>Korzystając z powyższej informacji, oblicz pole powierzchni całkowitej ostrosłupa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCDE</mi></math>, którego podstawą jest trapez równoramienny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>, w którym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> ∥ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>6</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>CD</mi><mo>|</mo><mo>=</mo><mn>4</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>BC</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>AD</mi><mo>|</mo><mo>=</mo><mn>8</mn></mrow></math>, ściana <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABE</mi></math> oraz ściana <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDE</mi></math> to trójkąty równoboczne.</p>",
       "choices": [],

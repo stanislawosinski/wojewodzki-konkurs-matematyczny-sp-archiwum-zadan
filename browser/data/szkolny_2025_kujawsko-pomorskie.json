@@ -17,8 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zliczanie / metody zliczania",
-        "zagadki logiczne"
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Ile jest liczb trzycyfrowych mniejszych od 500, spełniających warunki: cyfra dziesiątek jest trzykrotnością cyfry jedności, a cyfra jedności jest dwa razy mniejsza od cyfry setek?</p>",
       "choices": [
@@ -57,9 +56,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
-        "nierówności",
-        "zliczanie / metody zliczania"
+        "porównywanie potęg i pierwiastków",
+        "szacowanie (zamiast obliczania)"
       ],
       "prompt_html": "<p>Ile jest liczb całkowitych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math>, spełniających warunek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><msqrt><mn>5</mn></msqrt><mo>&lt;</mo><mi>k</mi><mo>&lt;</mo><msqrt><mn>50</mn></msqrt></math>?</p>",
       "choices": [
@@ -139,8 +137,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty",
-        "równania z jedną zmienną"
+        "procenty"
       ],
       "prompt_html": "<p>Michał chce kupić laptop. Ma już 500 zł. Mama dołożyła mu 20% tej kwoty i okazało się, że Michał ma już 25% ceny laptopa. Dziadkowie zadeklarowali, że podarują mu kwotę, będącą połową ceny laptopa. Ile pieniędzy musi jeszcze uzbierać Michał, aby zakupić laptop?</p>",
       "choices": [
@@ -179,8 +176,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność",
-        "potęgi i pierwiastki"
+        "ostatnia cyfra / cykliczność potęg",
+        "podzielność"
       ],
       "prompt_html": "<p>Wskaż cyfrę jedności sześcianu liczby będącej różnicą największej liczby czterocyfrowej podzielnej przez 4 i najmniejszej liczby czterocyfrowej podzielnej przez 9.</p>",
       "choices": [
@@ -301,8 +298,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "układy równań",
-        "równania z jedną zmienną"
+        "układy równań"
       ],
       "prompt_html": "<p>W sklepie dla działkowców <em>Mój ogród</em> jest 28 worków ziemi ogrodowej sprzedawanej w workach po 2 kg i po 5 kg. Sprzedawca zauważył, że razem we wszystkich workach dwukilogramowych jest tyle samo ziemi, co razem we wszystkich workach pięciokilogramowych. Wskaż, ile jest worków dwukilogramowych.</p>",
       "choices": [
@@ -380,8 +376,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty",
         "czworokąty",
+        "procenty",
         "pole i obwód"
       ],
       "prompt_html": "<p>Prostokątną działkę podzielono na dwie części. Pierwsza część jest kwadratem, a druga jest prostokątem o polu 1350 m² i stanowi 40% całej działki. Która z poniższych liczb jest obwodem kwadratowej części działki wyrażonym w metrach?</p>",
@@ -421,7 +417,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "czworokąty"
+        "czworokąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Dany jest romb o boku 5 cm oraz przekątnych długości 8 cm i 6 cm. Wskaż, która z poniższych liczb jest długością wysokości tego rombu wyrażoną w centymetrach.</p>",
       "choices": [
@@ -538,6 +535,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "ułamki okresowe / rozwinięcia dziesiętne",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Jaka cyfra znajduje się na piętnastym miejscu po przecinku w rozwinięciu dziesiętnym ułamka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>55</mn></mfrac></math>?</p>",
@@ -618,7 +616,7 @@
       "points": 3,
       "topics": [
         "prędkość / droga / czas",
-        "podzielność"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Mikołaj wyruszył z domu na górski szlak o godzinie 7:40. Przeszedł 17 km ze średnią prędkością 3 km/h. Po dotarciu na szczyt spędził tam 25 minut i wyruszył w drogę powrotną (tym samym szlakiem). Do domu dotarł o godzinie 18:00.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe lub F – jeśli zdanie jest fałszywe.</p>",
       "choices": [

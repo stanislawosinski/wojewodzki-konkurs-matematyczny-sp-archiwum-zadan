@@ -71,7 +71,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Które wyrażenie ma najmniejszą wartość?</p>",
       "choices": [
@@ -98,7 +98,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Dane są cztery liczby. Które z nich, to liczby naturalne?</p><ol style=\"list-style-type: upper-roman\"><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mn>6</mn><mn>33</mn></msup><msup><mn>3</mn><mn>66</mn></msup></mfrac></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mn>3</mn><mn>66</mn></msup><mo>·</mo><msup><mn>2</mn><mn>33</mn></msup></mrow><msup><mn>6</mn><mn>22</mn></msup></mfrac></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mn>3</mn><mn>33</mn></msup><mo>·</mo><msup><mn>2</mn><mn>33</mn></msup></mrow><msup><mn>6</mn><mn>33</mn></msup></mfrac></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mn>6</mn><mn>22</mn></msup><msup><mn>2</mn><mn>66</mn></msup></mfrac></math></li></ol>",
       "choices": [
@@ -262,7 +262,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Pani Grażyna kupiła dwie działki rekreacyjne o powierzchni 800 metrów kwadratowych i 5 arów. Łączna powierzchnia tych działek wynosi:</p>",
       "choices": [
@@ -397,7 +397,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "prędkość / droga / czas"
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>W radiu podano, że wiatr wieje z prędkością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mfrac><mtext>m</mtext><mtext>s</mtext></mfrac></math>. Ile to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac></math>?</p>",
       "choices": [
@@ -451,7 +451,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy"
+        "graniastosłupy",
+        "statystyka opisowa"
       ],
       "prompt_html": "<p>Średnia arytmetyczna długości, szerokości i wysokości pewnego prostopadłościanu wynosi 1,4 dm. Suma długości wszystkich jego krawędzi jest równa:</p>",
       "choices": [
@@ -616,8 +617,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną",
-        "zagadki logiczne"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Na szkolnym podwórku na drzewach siedziała pewna liczba wróbli. Gdyby na każdym drzewie siedział tylko jeden wróbel, to dla jednego wróbla zabrakłoby drzewa. Natomiast gdy na drzewach siądą po dwa wróble to jedno drzewo zostanie wolne. Ile drzew rośnie na podwórku szkolnym?</p>",
       "choices": [
@@ -672,7 +672,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "wartość bezwzględna",
+        "porównywanie potęg i pierwiastków"
       ],
       "prompt_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mn>1</mn><mo>,</mo><mo>(</mo><mn>41</mn><mo>)</mo><mo>−</mo><msqrt><mn>3</mn></msqrt><mo>|</mo></math> jest równa</p>",
       "choices": [
@@ -700,7 +701,6 @@
       "points": 1,
       "topics": [
         "czworokąty",
-        "potęgi i pierwiastki",
         "pole i obwód"
       ],
       "prompt_html": "<p>Jeżeli kwadrat o polu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> cm² podzielimy na cztery kwadraty, to obwód każdego z nich będzie równy:</p>",
@@ -755,7 +755,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "działania na pierwiastkach",
         "wzory skróconego mnożenia"
       ],
       "prompt_html": "<p>Wynikiem działania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><msqrt><mn>15</mn></msqrt><mo>+</mo><msqrt><mn>60</mn></msqrt><mo>)</mo><mo>(</mo><msqrt><mn>15</mn></msqrt><mo>+</mo><msqrt><mn>60</mn></msqrt><mo>)</mo></math> jest liczba:</p>",
@@ -837,7 +837,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Wartość wyrażenia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><msup><mn>2</mn><mn>6</mn></msup><mo>−</mo><msup><mrow><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo></mrow><mn>6</mn></msup></math> wynosi:</p>",
       "choices": [
@@ -891,7 +891,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zagadki logiczne"
+        "proporcjonalność prosta"
       ],
       "prompt_html": "<p>Dziesięć pająków łapie dziesięć much w ciągu 10 godzin. Zakładając, że każdy pająk łapie tyle samo much w ciągu godziny, sto pająków złapie sto much w ciągu:</p>",
       "choices": [
@@ -918,7 +918,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "stężenie procentowe / mieszaniny"
       ],
       "prompt_html": "<p>Jeden litr roztworu soli zawiera 30% soli. Do roztworu dolewamy 1 litr wody. Jakim procentem nowego roztworu jest sól?</p>",
       "choices": [
@@ -999,7 +999,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>W roku 2022 cena wycieczki oferowanej przez Biuro Podróży w pewnym miesiącu spadła o 20%, a w następnym miesiącu wzrosła o 250‰. W rezultacie cena wycieczki w porównaniu do stanu przed zmianami:</p>",
       "choices": [
@@ -1053,7 +1053,9 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "kąty",
+        "dwusieczna kąta / symetralna odcinka"
       ],
       "prompt_html": "<p>W trójkącie prostokątnym zawsze:</p><ol style=\"list-style-type: upper-roman\"><li>suma miar kątów ostrych wynosi 90°.</li><li>Kąt między dwusiecznymi kątów ostrych ma miarę 135°.</li><li>Dwusieczna kąta prostego jest zawsze prostopadła do przeciwprostokątnej.</li></ol><p>Prawdziwe stwierdzenia to:</p>",
       "choices": [

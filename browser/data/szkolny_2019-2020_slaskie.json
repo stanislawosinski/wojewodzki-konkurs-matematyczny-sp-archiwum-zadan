@@ -17,6 +17,7 @@
       "type": "open",
       "points": 13,
       "topics": [
+        "zadania wieloczęściowe",
         "inne"
       ],
       "prompt_html": "<p><strong>Rozwiąż krzyżówkę, wpisując cyfry w odpowiednie pola. Hasło w zacieniowanych okienkach, to trzynastocyfrowa liczba pierwsza. Hasło nie jest oceniane.</strong></p><ul><li>a) Liczba, której zapis w systemie rzymskim ma postać CMXCIX.</li><li>b) Największa liczba trzycyfrowa, która przy dzieleniu przez 7 daje resztę 3.</li><li>c) Pole sześcianu o objętości 512 cm³ wyrażone w cm².</li><li>d) Średnia wieku za rok grona przyjaciół, których średnia wieku wynosi obecnie 15 lat.</li><li>e) Suma wszystkich dzielników liczby 24.</li><li>f) Najmniejszy wspólny mianownik dla ułamków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>13</mn></mfrac><mo>,</mo><mfrac><mn>2</mn><mn>17</mn></mfrac><mo>,</mo><mfrac><mn>5</mn><mn>91</mn></mfrac></math>.</li><li>g) Liczba, której 36% wynosi 306.</li><li>h) Czas, jaki zajmie przecięcie pręta długości 3,6 m na kawałki długości 40 cm, jeżeli jedno cięcie trwa 3 minuty.</li><li>i) Najmniejsza liczba trzycyfrowa, która jest sześcianem liczby naturalnej.</li><li>j) Przybliżenie liczby 1095,12 do dziesiątek.</li><li>k) Sześcian liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mroot><mn>19</mn><mn>3</mn></mroot></math>.</li><li>l) Liczba naturalna, po podstawieniu której w miejsce <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>x</mi><mo>−</mo><mn>1328</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>1329</mn><mo>)</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>1330</mn><mo>)</mo></math> osiąga wartość dodatnią najmniejszą z możliwych.</li><li>m) Połowa z czwartej części liczby 8888.</li></ul>",
@@ -80,7 +81,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty",
+        "zmiany procentowe",
         "czworokąty",
         "pole i obwód"
       ],
@@ -121,7 +122,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "ostatnia cyfra / cykliczność potęg",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Ostatnią cyfrą liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>2019</mn></msup></math> jest</p>",
@@ -161,6 +162,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "ułamki okresowe / rozwinięcia dziesiętne",
         "ułamki"
       ],
       "prompt_html": "<p>Wskaż poprawne porównanie.</p>",
@@ -200,8 +202,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zliczanie / metody zliczania",
-        "kombinatoryka"
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Liczb trzycyfrowych o iloczynie cyfr równym 6 jest</p>",
       "choices": [
@@ -279,8 +280,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kąty",
-        "równania z jedną zmienną"
+        "kąty"
       ],
       "prompt_html": "<p>Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> jest 4 razy większy od kąta do niego przyległego. Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> ma miarę</p>",
       "choices": [
@@ -319,6 +319,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "kalendarz i czas",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>1 stycznia 2016 roku był piątek. Dzień 1 sierpnia 2016 roku to</p>",
@@ -398,7 +399,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "trójkąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>Na rysunku przedstawiono proste równoległe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>l</mi></math> oraz cztery wielokąty: trapez (A), równoległobok (B), trójkąt (C) i romb (D). Wielokątami o jednakowych polach są</p>",
@@ -479,7 +481,8 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "kąty"
+        "kąty",
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Oceń, czy poniższe zdania dotyczące zegara tradycyjnego są prawdziwe, czy fałszywe.</p>",
       "choices": [
@@ -583,7 +586,6 @@
       "points": 4,
       "topics": [
         "podzielność",
-        "czworokąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>Mamy do dyspozycji 50 prostokątnych, tekturowych kartoników o wymiarach 1 cm × 3 cm. Układamy z nich mozaiki w kształcie różnych figur geometrycznych tak, że nie można dzielić kartoników na części, ani układać ich tak, aby zachodziły na siebie. Do ułożenia mozaiki nie musimy wykorzystać wszystkich kartoników.</p><p>Oceń, czy poniższe zdania są prawdziwe, czy fałszywe.</p>",
@@ -664,6 +666,7 @@
       "points": 3,
       "topics": [
         "równania z jedną zmienną",
+        "ułamki",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Czy istnieje taka liczba naturalna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, że wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mi>x</mi></mfrac><mo>)</mo><mo>·</mo><mo>(</mo><mfrac><mn>1</mn><mrow><mn>3</mn><mo>·</mo><mn>5</mn></mrow></mfrac><mo>−</mo><mfrac><mn>1</mn><mrow><mn>5</mn><mo>·</mo><mn>7</mn></mrow></mfrac><mo>−</mo><mfrac><mn>1</mn><mrow><mn>7</mn><mo>·</mo><mn>9</mn></mrow></mfrac><mo>)</mo></mrow></math> jest równa zero? Odpowiedź uzasadnij.</p>",

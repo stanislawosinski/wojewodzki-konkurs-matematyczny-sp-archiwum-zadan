@@ -18,7 +18,6 @@
       "points": 1,
       "topics": [
         "czworokąty",
-        "trójkąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>Na krótszym boku pewnego prostokąta zbudowano kwadrat o polu 36 cm², a na dłuższym zbudowano trójkąt równoboczny, którego obwód jest równy 36 cm. Pole tego prostokąta jest równe</p>",
@@ -101,7 +100,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Ile szóstek trzeba dodać, aby otrzymać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>6</mn><mn>3</mn></msup></math>?</p>",
       "choices": [
@@ -128,7 +127,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "ułamki"
+        "ułamki",
+        "kalendarz i czas"
       ],
       "prompt_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math> kwadransa po godzinie 15:00, to godzina</p>",
       "choices": [
@@ -156,7 +156,7 @@
       "points": 1,
       "topics": [
         "graniastosłupy",
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Ile razy krawędź sześcianu o objętości 54 jest większa od krawędzi sześcianu o objętości 2?</p>",
       "choices": [
@@ -210,6 +210,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "ułamki okresowe / rozwinięcia dziesiętne",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Sto druga cyfra po przecinku w rozwinięciu dziesiętnym ułamka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>37</mn></mfrac></math> jest równa</p>",
@@ -237,7 +238,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wartość bezwzględna"
       ],
       "prompt_html": "<p>Która z liczb jest najmniejsza?</p>",
       "choices": [
@@ -264,7 +265,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Ósma część liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>8</mn><mn>6</mn></msup></math> jest równa</p>",
       "choices": [
@@ -291,8 +292,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "reszta z dzielenia",
-        "potęgi i pierwiastki"
+        "ostatnia cyfra / cykliczność potęg",
+        "reszta z dzielenia"
       ],
       "prompt_html": "<p>Jaka jest ostatnia cyfra liczby, która jest wynikiem działania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>7</mn><mn>43</mn></msup><mo>+</mo><mn>8</mn></math>?</p>",
       "choices": [
@@ -348,6 +349,7 @@
       "points": 1,
       "topics": [
         "czworokąty",
+        "zmiany procentowe",
         "pole i obwód"
       ],
       "prompt_html": "<p>Jeżeli sumę podstaw trapezu zwiększymy dwukrotnie, zaś jego wysokość zmniejszymy o 50%, to pole trapezu</p>",
@@ -375,7 +377,6 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty",
         "kąty"
       ],
       "prompt_html": "<p>Trzy proste przecinają się tak jak na rysunku. Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> jest równa</p>",
@@ -432,8 +433,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "proporcjonalność prosta",
-        "czworokąty",
+        "podobieństwo i skala",
+        "zamiana jednostek",
         "pole i obwód"
       ],
       "prompt_html": "<p>Wymiary prostokątnego boiska sportowego na planie w skali 1:100 są równe 10 cm × 24 cm. Ile arów ma to boisko w rzeczywistości?</p>",
@@ -461,8 +462,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
-        "zliczanie / metody zliczania"
+        "wielokąty"
       ],
       "prompt_html": "<p>Liczba przekątnych ośmiokąta wypukłego jest równa</p>",
       "choices": [
@@ -517,8 +517,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "czworokąty",
-        "potęgi i pierwiastki"
+        "czworokąty"
       ],
       "prompt_html": "<p>Suma długości przekątnych kwadratu o boku 10 cm jest równa</p>",
       "choices": [
@@ -615,8 +614,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "graniastosłupy",
-        "potęgi i pierwiastki"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Przekątna sześcianu ma długość 12 cm. Oblicz sumę długości wszystkich krawędzi tego sześcianu.</p>",
       "choices": [],

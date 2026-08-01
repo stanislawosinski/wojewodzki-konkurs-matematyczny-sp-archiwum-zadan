@@ -17,8 +17,7 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "podzielność",
-        "szacowanie (zamiast obliczania)"
+        "podzielność"
       ],
       "prompt_html": "<p>Przy każdym zdaniu wpisz TAK lub NIE.</p><p>Suma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>3</mn><mo>+</mo><mo>⋯</mo><mo>+</mo><mn>2018</mn></math> jest liczbą:</p>",
       "choices": [
@@ -160,6 +159,7 @@
       "type": "true_false",
       "points": 2,
       "topics": [
+        "ułamki okresowe / rozwinięcia dziesiętne",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Przy każdym zdaniu wpisz TAK lub NIE.</p><p>W rozwinięciu dziesiętnym liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>7</mn></mfrac></math>:</p>",
@@ -219,8 +219,7 @@
       "points": 5,
       "topics": [
         "czworokąty",
-        "pole i obwód",
-        "potęgi i pierwiastki"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Z prostokątnego kawałka wykładziny, w którym stosunek długości boków wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>:</mo><mn>5</mn></math>, odcięto możliwie największy kwadrat. Powierzchnia tego kwadratowego kawałka wyniosła 576 dm². Oblicz, ile pozostało decymetrów kwadratowych wykładziny.</p>",
       "choices": [],
@@ -242,8 +241,8 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "procenty",
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "procenty"
       ],
       "prompt_html": "<p>Pan Nowak wpłacił do banku pewną kwotę pieniędzy na lokatę roczną z oprocentowaniem 3%. Pan Kowalski wpłacił o 5 000 zł więcej na lokatę roczną z oprocentowaniem 2,5% i po roku dostał o 25 zł mniej odsetek niż pan Nowak. Ile pieniędzy wpłacił każdy z nich?</p>",
       "choices": [],
@@ -292,8 +291,7 @@
       "topics": [
         "czworokąty",
         "trójkąty",
-        "pole i obwód",
-        "potęgi i pierwiastki"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Krótsza przekątna dzieli trapez prostokątny na dwa trójkąty prostokątne równoramienne. Przekątna ta ma długość 8 cm. Oblicz pole trapezu oraz długość drugiej przekątnej.</p>",
       "choices": [],

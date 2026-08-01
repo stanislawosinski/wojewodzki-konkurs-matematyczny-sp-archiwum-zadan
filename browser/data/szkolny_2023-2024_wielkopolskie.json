@@ -173,6 +173,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "kalendarz i czas",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Pewna sztuczna inteligencja rozpoczęła pracę 26 lipca o godzinie 9:00 rano i ma pracować 1000 godzin. Kiedy zakończy tę pracę?</p>",
@@ -291,7 +292,7 @@
       "points": 1,
       "topics": [
         "równania z jedną zmienną",
-        "podzielność"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Ile jest liczb pierwszych jednocyfrowych mniejszych od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, które spełniają równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>5</mn></mfrac><mi>x</mi><mo>+</mo><mn>2</mn><mo>=</mo><mo>−</mo><mn>7</mn><mo>(</mo><mi>x</mi><mo>−</mo><mn>3</mn><mo>)</mo><mo>+</mo><mn>17</mn></mrow></math>?</p>",
       "choices": [
@@ -330,7 +331,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
+        "wielokąty",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Ile boków ma wielokąt wypukły, w którym liczba przekątnych jest cztery razy większa od liczby boków?</p>",
@@ -370,7 +371,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "kąty"
       ],
       "prompt_html": "<p>Na poniższym rysunku zaznaczono kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>X</mi></math>. Oblicz miarę tego kąta, jeśli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>KN</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>PN</mi><mo>|</mo></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>LN</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>RN</mi><mo>|</mo></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>KN</mi><mo>|</mo><mo>≠</mo><mo>|</mo><mi>LN</mi><mo>|</mo></mrow></math>.</p>",
       "choices": [
@@ -411,7 +413,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy"
+        "liczba krawędzi, ścian i wierzchołków"
       ],
       "prompt_html": "<p>Łączna liczba wszystkich ścian, krawędzi i wierzchołków pewnego graniastosłupa jest równa 140. Ile wierzchołów ma wielokąt będący podstawą tego graniastosłupa?</p>",
       "choices": [
@@ -528,7 +530,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "proporcjonalność prosta"
+        "proporcjonalność prosta",
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Ulubione cukierki czekoladowe Agaty można kupić na wagę po 36 zł za 1 kg lub w pudełkach zawierających 200 g cukierków po 9 zł za jedno pudełko. Agata kupuje cukierki w pudełkach, gdyż będzie z tych opakowań robiła origami na cele charytatywne. Uzbierała ich już pewną liczbę i obliczyła, że gdyby kupowała te cukierki na wagę, a nie w pudełkach – zaoszczędziłaby pieniądze na dodatkowy kilogram cukierków. Ile pudełek po cukierkach ma Agata?</p>",
       "choices": [
@@ -567,7 +570,8 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "potęgi i pierwiastki",
+        "ostatnia cyfra / cykliczność potęg",
+        "działania na potęgach",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli zdanie jest fałszywe.</p>",
@@ -607,8 +611,7 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "zliczanie / metody zliczania",
-        "zagadki logiczne"
+        "zbiory / zasada włączeń i wyłączeń"
       ],
       "prompt_html": "<p>W pewnej klasie jest 30 uczniów. Wśród nich jest 5 takich, którzy mają brata i siostrę, oraz 7 takich, którzy nie mają brata ani siostry i wiadomo, że 13 ma siostrę.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli zdanie jest fałszywe.</p>",
       "choices": [
@@ -640,6 +643,7 @@
       "points": 2,
       "topics": [
         "czworokąty",
+        "trójkąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>W prostokącie jeden bok stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>8</mn></mfrac></math> drugiego. Z wierzchołka prostokąta do środka dłuższego boku poprowadzono odcinek. Dzieli on prostokąt na dwie figury: trójkąt o obwodzie 24 cm i trapez o obwodzie równym 40 cm.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli zdanie jest fałszywe.</p>",
@@ -671,7 +675,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki",
+        "działania na pierwiastkach",
+        "wyłączanie czynnika przed znak pierwiastka",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Wykaż, że wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msqrt><mn>192</mn></msqrt><mo>−</mo><msqrt><mn>147</mn></msqrt><mo>+</mo><msqrt><mn>75</mn></msqrt></mrow><msqrt><mn>3</mn></msqrt></mfrac></math> jest liczbą naturalną.</p>",
@@ -694,8 +699,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "procenty",
-        "równania z jedną zmienną"
+        "procenty"
       ],
       "prompt_html": "<p>Do sklepu z drobiazgami przywieziono 200 ceramicznych skarbonek. Ustalono cenę sprzedaży 35 zł za sztukę. Po sprzedaniu 30% skarbonek zauważono, że część z nich ma ślady pęknięć. Uszkodzone skarbonki odłożono. Żeby uzyskać jednak zaplanowany przychód pozostałe sprzedano po 50 zł za sztukę. Ile było uszkodzonych skarbonek? Zapisz wszystkie obliczenia.</p>",
       "choices": [],

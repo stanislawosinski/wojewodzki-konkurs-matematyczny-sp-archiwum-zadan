@@ -140,7 +140,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Jeden tuzin to:</p>",
       "choices": [
@@ -181,7 +181,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Ile jest liczb naturalnych między liczbami 3,14 a 10,1?</p>",
       "choices": [
@@ -222,7 +222,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Trzeci kwartał to są miesiące:</p>",
       "choices": [
@@ -263,7 +263,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "ułamki"
+        "ułamki",
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Osiem kilogramów miodu rozlano po równo do 20 słoików. Ile miodu jest w jednym słoiku?</p>",
       "choices": [
@@ -345,7 +346,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Magda wstaje za kwadrans siódma. W niedzielę spała o 90 minut dłużej. Magda w niedzielę wstała o:</p>",
       "choices": [
@@ -427,8 +428,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "reszta z dzielenia",
-        "zagadki logiczne"
+        "kalendarz i czas",
+        "reszta z dzielenia"
       ],
       "prompt_html": "<p>Piotr jest o 50 dni starszy od Pawła. W tym roku Piotr obchodził urodziny w piątek. W jakim dniu tygodnia będzie obchodził urodziny Paweł?</p>",
       "choices": [
@@ -634,6 +635,7 @@
       "type": "open",
       "points": 3,
       "topics": [
+        "ułamki",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Janek ma w skarbonce monety dwu i pięciozłotowe. Wartość monet dwuzłotowych stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> jego oszczędności. Oblicz, ile dwuzłotówek ma Janek, jeśli pięciozłotówek ma 18 sztuk.</p>",

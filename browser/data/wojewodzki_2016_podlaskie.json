@@ -56,7 +56,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>1</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>3</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>4</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>5</mn></msup></math> jest równa</p>",
       "choices": [
@@ -95,7 +95,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "kąty"
       ],
       "prompt_html": "<p>Odcinki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BE</mi></math> są dwiema wysokościami trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>. Boki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> są równej długości. Miary kątów trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> są równe</p>",
       "choices": [
@@ -254,7 +255,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Pewien zegar działał 80 godzin od chwili uruchomienia i zatrzymał się 18 października o godzinie 15:09. Dokładna data i godzina uruchomienia tego zegara to</p>",
       "choices": [
@@ -333,7 +334,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "proporcjonalność prosta",
+        "podobieństwo i skala",
         "pole i obwód"
       ],
       "prompt_html": "<p>Pole kwadratu narysowanego w skali 1:50 jest równe 100 cm². Obwód tego kwadratu w skali 1:1 jest równy</p>",
@@ -373,7 +374,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność",
+        "liczby pierwsze",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Ile jest liczb pierwszych mniejszych od 10000, których suma cyfr jest równa 2?</p>",
@@ -452,7 +453,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Ile dzielników naturalnych ma liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>15</mn><mn>2</mn></msup></math>?</p>",
       "choices": [
@@ -531,7 +532,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "NWW / NWD"
+        "NWW / NWD",
+        "ułamki"
       ],
       "prompt_html": "<p>Ułamek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1665</mn><mn>3285</mn></mfrac></math> w postaci nieskracalnej jest równy</p>",
       "choices": [
@@ -570,7 +572,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kombinatoryka"
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Maciej, Tomek, Janek, Mateusz i Adam wybierają się do lasu. Chcą podzielić się na zespoły: trzy- i dwuosobowy. Na ile sposobów mogą podzielić się na takie zespoły?</p>",
       "choices": [
@@ -609,8 +611,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły",
-        "zliczanie / metody zliczania"
+        "liczba krawędzi, ścian i wierzchołków"
       ],
       "prompt_html": "<p>Z siedmiu sześcianów, których krawędzie mają równe długości, jednego niebieskiego i sześciu czerwonych, sklejono bryłę w ten sposób, że do każdej ściany niebieskiego sześcianu doklejono sześcian czerwony, otrzymując czerwoną bryłę. Ile ścian ma ta bryła?</p>",
       "choices": [
@@ -688,8 +689,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "statystyka opisowa",
-        "procenty"
+        "zbiory / zasada włączeń i wyłączeń",
+        "statystyka opisowa"
       ],
       "prompt_html": "<p>Ankietowano klientów lodziarni. Każdy z nich udzielił odpowiedzi na pytanie:</p><p>Z jakimi dodatkami lubisz lody?</p><ul><li>lubię lody z bitą śmietaną</li><li>lubię lody z owocami</li><li>nie lubię ani lodów z bitą śmietaną, ani z owocami</li></ul><p>Możesz zaznaczyć jedną albo dwie odpowiedzi, ale jeżeli nie lubisz żadnego z wymienionych rodzajów lodów, możesz zaznaczyć tylko odpowiedź: „nie lubię ani lodów z bitą śmietaną, ani z owocami”.</p><p>Wyniki ankiety przedstawia diagram.</p><p>Ile procent ankietowanych lubi zarówno lody z bitą śmietaną, jak i lody z owocami?</p>",
       "choices": [
@@ -730,7 +731,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kąty"
+        "wielokąty"
       ],
       "prompt_html": "<p>Suma miar wszystkich kątów dziesięciokąta jest równa</p>",
       "choices": [
@@ -814,8 +815,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "procenty",
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "procenty"
       ],
       "prompt_html": "<p>25% grupy sportowców to bruneci. Blondynów jest o dwóch więcej niż brunetów, a 14 osób to szatyni. Ilu sportowców jest w tej grupie?</p>",
       "choices": [],

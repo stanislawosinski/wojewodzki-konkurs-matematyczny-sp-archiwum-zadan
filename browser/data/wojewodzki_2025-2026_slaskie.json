@@ -44,7 +44,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "działania na potęgach",
         "wzory skróconego mnożenia"
       ],
       "prompt_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mfrac><mrow><msqrt><mn>7</mn></msqrt><mo>−</mo><mn>1</mn></mrow><msqrt><mn>3</mn></msqrt></mfrac><mo>)</mo></mrow><mn>200</mn></msup><mo>·</mo><msup><mrow><mo>(</mo><mfrac><mrow><msqrt><mn>7</mn></msqrt><mo>+</mo><mn>1</mn></mrow><msqrt><mn>3</mn></msqrt></mfrac><mo>)</mo></mrow><mn>200</mn></msup></mrow></math> jest równa</p>",
@@ -127,8 +127,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "prędkość / droga / czas",
-        "proporcjonalność prosta"
+        "prędkość / droga / czas"
       ],
       "prompt_html": "<p>Karol przebył <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math> drogi z domu do szkoły w ciągu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math> planowanego czasu jazdy. Średnia prędkość jazdy na pozostałej części drogi była taka, że Karol dojechał do szkoły w zaplanowanym czasie. Stosunek średniej prędkości w pierwszej części drogi do średniej prędkości w drugiej części drogi jest równy</p>",
       "choices": [
@@ -155,7 +154,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "notacja wykładnicza"
       ],
       "prompt_html": "<p>W zapisie dziesiętnym wynik działania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>8</mn><mn>3</mn></msup><mo>·</mo><msup><mn>25</mn><mn>6</mn></msup></mrow></math> jest liczbą</p>",
       "choices": [
@@ -238,7 +238,9 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "czworokąty"
+        "czworokąty",
+        "dwusieczna kąta / symetralna odcinka",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W równoległoboku o bokach długości 12 cm i 10 cm symetralna dłuższego boku przechodzi przez wierzchołek. Wysokości tego równoległoboku są równe</p>",
       "choices": [
@@ -322,8 +324,8 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "równania z jedną zmienną",
-        "układy równań"
+        "układy równań",
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>W auli ustawiono ławeczki dla uczniów – widzów szkolnego przedstawienia. Zaplanowano, że obecni będą wszyscy uczniowie szkoły, na każdej ławeczce usiądzie dokładnie taka sama liczba uczniów i na żadnej ławeczce nie pozostanie wolne miejsce. Jeżeli na każdej ławeczce usiądzie po 6 uczniów, to zabraknie 7 ławeczek, natomiast gdy na każdej ławeczce usiądzie po 7 uczniów, to 3 ławeczki będą puste.</p><p>Oceń, czy poniższe zdania są prawdziwe.</p>",
       "choices": [
@@ -379,7 +381,7 @@
       "points": 4,
       "topics": [
         "podzielność",
-        "zliczanie / metody zliczania"
+        "NWW / NWD"
       ],
       "prompt_html": "<p>Oceń, czy poniższe zdania są prawdziwe.</p>",
       "choices": [
@@ -407,6 +409,8 @@
       "points": 2,
       "topics": [
         "podzielność",
+        "liczby pierwsze",
+        "wyłączanie wspólnego czynnika przed nawias",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Dana jest naturalna liczba czterocyfrowa, w której cyfra jedności jest taka sama jak cyfra setek oraz cyfra dziesiątek jest taka sama jak cyfra tysięcy. Uzasadnij, że każda taka liczba jest podzielna przez najmniejszą trzycyfrową liczbę pierwszą.</p>",

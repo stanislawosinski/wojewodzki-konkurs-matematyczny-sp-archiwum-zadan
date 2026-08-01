@@ -17,6 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "czworokąty",
         "trójkąty"
       ],
       "prompt_html": "<p>Prostokątną kartkę papieru o przekątnej długości 280 cm zginamy na cztery równe części wzdłuż jednej krawędzi oraz na trzy równe części wzdłuż drugiej krawędzi. Otrzymujemy kwadrat. Jaką długość ma krótszy bok kartki?</p>",
@@ -44,7 +45,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty",
+        "czworokąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>Wiktor narysował dwa kwadraty różnej wielkości. Długość boku większego kwadratu jest przekątną mniejszego kwadratu. Stosunek pola powierzchni kwadratu mniejszego do pola powierzchni kwadratu większego jest równy:</p>",
@@ -100,8 +101,9 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty",
-        "potęgi i pierwiastki"
+        "zmiany procentowe",
+        "wzrost wykładniczy",
+        "szacowanie (zamiast obliczania)"
       ],
       "prompt_html": "<p>W przeciągu 4 lat cena roweru podwoiła się. Jaki był średni roczny wzrost ceny?</p>",
       "choices": [
@@ -128,8 +130,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
-        "usuwanie niewymierności z mianownika"
+        "usuwanie niewymierności z mianownika",
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Jeżeli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><msqrt><mn>2</mn></msqrt><mo>−</mo><mn>1</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>1</mn><mo>+</mo><msqrt><mn>2</mn></msqrt></math>, to wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>x</mi><mo>−</mo><mi>y</mi></mrow><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow></mfrac></math> jest równe:</p>",
       "choices": [
@@ -156,8 +158,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "wyłączanie jednomianu przed nawias",
-        "zagadki logiczne"
+        "wyrażenia algebraiczne",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Dane są liczby: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>3</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>1</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi><mo>=</mo><mn>2</mn></math> czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mi>y</mi><mo>+</mo><mi>z</mi></math>. Na którym etapie poniższego rachunku popełniono błąd:</p>",
       "choices": [
@@ -314,8 +316,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "koła / okręgi",
-        "równania z jedną zmienną"
+        "koła / okręgi"
       ],
       "prompt_html": "<p>Kolejka w parku rozrywki jeździ w kółko po szynach, które tworzą dwa współśrodkowe okręgi. Każde koło wagonika ma promień długości 20 cm. Zewnętrzne koło podczas pełnego okrążenia wykonuje o 4 pełne obroty więcej niż wewnętrzne koło. Jaki jest rozstaw szyn kolejki.</p>",
       "choices": [],
@@ -359,7 +360,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "procenty",
+        "zmiany procentowe",
         "statystyka opisowa"
       ],
       "prompt_html": "<p>W firmie zatrudniającej łącznie z szefem 25 osób, do niedawna średnia płaca wynosiła 3300 zł. Ostatnio wszyscy oprócz szefa otrzymali 10-procentową podwyżkę i średnia płaca wzrosła do 3600 zł. Ile zarabia szef?</p>",
@@ -382,8 +383,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "proporcjonalność prosta",
-        "równania z jedną zmienną"
+        "stężenie procentowe / mieszaniny",
+        "proporcjonalność prosta"
       ],
       "prompt_html": "<p>W dwóch stopach miedzi i cynku stosunki mas tych metali wynoszą odpowiednio: 4 : 1 i 1 : 3. Po stopieniu 10 kilogramów pierwszego stopu, 16 kilogramów drugiego i pewnej ilości czystej miedzi otrzymano stop, w którym masy miedzi i cynku pozostają w stosunku 3 : 2. Oblicz ciężar nowego stopu.</p>",
       "choices": [],
@@ -428,8 +429,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki",
-        "wyłączanie jednomianu przed nawias"
+        "działania na potęgach",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Oblicz korzystając z własności działań na potęgach: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mn>2</mn><mn>124</mn></msup><mo>−</mo><msup><mn>8</mn><mn>40</mn></msup></mrow><mrow><msup><mn>4</mn><mn>59</mn></msup><mo>−</mo><msup><mn>16</mn><mn>29</mn></msup></mrow></mfrac></math></p>",
       "choices": [],

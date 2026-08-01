@@ -17,8 +17,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "reszta z dzielenia",
-        "zagadki logiczne"
+        "kalendarz i czas",
+        "reszta z dzielenia"
       ],
       "prompt_html": "<p>Szymon skończył 13 lat w piątek 26 X 2012 roku. W jakim dniu tygodnia Szymon ukończył 18 lat?</p>",
       "choices": [
@@ -45,7 +45,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mn>2</mn><mn>20</mn></msup><mo>+</mo><msup><mn>2</mn><mn>20</mn></msup><mo>+</mo><msup><mn>2</mn><mn>20</mn></msup><mo>+</mo><msup><mn>2</mn><mn>20</mn></msup></mrow><mrow><msup><mn>4</mn><mn>10</mn></msup><mo>+</mo><msup><mn>4</mn><mn>10</mn></msup><mo>+</mo><msup><mn>4</mn><mn>10</mn></msup><mo>+</mo><msup><mn>4</mn><mn>10</mn></msup></mrow></mfrac></math> wynosi</p>",
       "choices": [
@@ -155,7 +156,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Która liczba jest ujemna?</p>",
       "choices": [
@@ -266,7 +267,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "notacja wykładnicza"
       ],
       "prompt_html": "<p>Długość odcinka milion razy krótszego niż 15 cm, zapisana w notacji wykładniczej, to</p>",
       "choices": [
@@ -293,7 +294,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
+        "czworokąty",
+        "trójkąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>Poniżej zostały przedstawione następujące wielokąty: trójkąt, równoległobok, trapez i romb. Który z nich ma największe pole?</p>",
@@ -323,7 +325,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zagadki logiczne"
+        "wzrost wykładniczy"
       ],
       "prompt_html": "<p>Staw zarasta rzęsą. Obszar rzęsy podwaja się co dwa dni. Cały staw zarósł w ciągu 64 dni. Po ilu dniach zarośnięte było 25% powierzchni stawu?</p>",
       "choices": [
@@ -350,7 +352,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Długopis kosztuje o 60% mniej niż piórnik. Piórnik kosztuje o 60% mniej niż tornister. O ile procent tornister jest droższy od długopisu?</p>",
       "choices": [
@@ -377,7 +379,6 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "liczby rzymskie",
         "symetrie"
       ],
       "prompt_html": "<p>Które z liczb napisanych poniżej w systemie rzymskim mają środek symetrii?</p><p>I, X, XX, XXX</p>",
@@ -432,7 +433,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach",
+        "wyłączanie czynnika przed znak pierwiastka"
       ],
       "prompt_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>18</mn></msqrt></math> jest mniejsza od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>72</mn></msqrt></math></p>",
       "choices": [
@@ -515,6 +517,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "podobieństwo i skala",
         "koła / okręgi",
         "proporcjonalność prosta"
       ],
@@ -543,7 +546,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "reszta z dzielenia"
+        "reszta z dzielenia",
+        "NWW / NWD"
       ],
       "prompt_html": "<p>Ewa podzieliła pewną liczbę naturalną przez 7 i otrzymała resztę 4. Maja, dzieląc tę samą liczbę przez 11, także otrzymała resztę 4. Jaka jest reszta z dzielenia tej liczby przez 77?</p>",
       "choices": [
@@ -683,7 +687,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy"
+        "siatki brył"
       ],
       "prompt_html": "<p>Z której siatki Julka może złożyć narysowany sześcian?</p>",
       "choices": [
@@ -713,7 +717,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "zamiana jednostek",
+        "notacja wykładnicza"
       ],
       "prompt_html": "<p>Lasy zajmują w przybliżeniu 29% terytorium Polski, czyli 9 milionów hektarów. Ile to kilometrów kwadratowych?</p>",
       "choices": [
@@ -741,6 +746,7 @@
       "points": 1,
       "topics": [
         "dwusieczna kąta / symetralna odcinka",
+        "kąty",
         "trójkąty"
       ],
       "prompt_html": "<p>Na lekcji geometrii Emilia zastanawiała się, w jakim trójkącie dwusieczne dwóch kątów wewnętrznych są do siebie prostopadłe. Pomóż jej wybrać właściwą odpowiedź.</p>",
@@ -768,7 +774,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "czworokąty",
+        "podobieństwo i skala",
         "pole i obwód"
       ],
       "prompt_html": "<p>Na planie miasta w skali 1:10 000 park jest prostokątem o bokach 3 cm i 4,5 cm. W rzeczywistości powierzchnia tego parku wynosi</p>",
@@ -823,7 +829,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Słoń waży 3 tony, wrona 30 dag, a mrówka 0,3 g. Która informacja jest prawdziwa?</p>",
       "choices": [
@@ -851,7 +857,7 @@
       "points": 4,
       "topics": [
         "podzielność",
-        "potęgi i pierwiastki"
+        "porównywanie potęg i pierwiastków"
       ],
       "prompt_html": "<p>Poniższe informacje dotyczą własności liczb naturalnych. Oceń ich poprawność.</p>",
       "choices": [
@@ -878,7 +884,7 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "kombinatoryka",
+        "zliczanie / metody zliczania",
         "prawdopodobieństwo"
       ],
       "prompt_html": "<p>Za pomocą cyfr 1, 2, 3, 4 Kacper zapisuje liczby trzycyfrowe w taki sposób, że cyfry w liczbie nie powtarzają się. Oceń poniższe sytuacje.</p>",
@@ -904,8 +910,7 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "geometria",
-        "zliczanie / metody zliczania"
+        "wielokąty"
       ],
       "prompt_html": "<p>Poniższe zdania dotyczą przekątnych wielokąta wypukłego. Oceń ich prawdziwość.</p>",
       "choices": [

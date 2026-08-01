@@ -17,7 +17,6 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "procenty",
         "statystyka opisowa"
       ],
       "prompt_html": "<p>W dwóch klasach ósmych przeprowadzono próbny egzamin z matematyki. W klasie 8A napisało go 28 uczniów, a w klasie 8B 22 uczniów. Średni wynik na tym próbnym egzaminie wyniósł 50% w klasie 8A oraz 60% w klasie 8B. Oblicz średni wynik wszystkich uczniów obu klas ósmych na tym egzaminie.</p>",
@@ -195,8 +194,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "podzielność",
-        "zagadki logiczne"
+        "podzielność"
       ],
       "prompt_html": "<p>W trakcie meczu koszykówki zawodnik wykonał 44 rzuty za dwa lub trzy punkty. Celnie trafił co trzeci rzut za dwa punkty i co czwarty rzut za trzy punkty, za które w sumie zdobył nieparzystą liczbę punktów. Ile wykonał celnych rzutów?</p>",
       "choices": [
@@ -239,8 +237,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "ostrosłupy",
-        "potęgi i pierwiastki"
+        "ostrosłupy"
       ],
       "prompt_html": "<p>Do ścian czworościanu foremnego o krawędzi a doklejono cztery identyczne ostrosłupy prawidłowe trójkątne o krawędzi podstawy a i ścianach bocznych będących trójkątami prostokątnymi równoramiennymi. Cztery ostrosłupy są przyklejone do czworościanu ścianami przystającymi, w sposób pokazany na rysunku poniżej. Otrzymano bryłę o polu całkowitym wynoszącym 900 cm². Oblicz długość krawędzi a.</p><p>Uwaga: Czworościanem foremnym nazywamy ostrosłup prawidłowy trójkątny o wszystkich krawędziach tej samej długości.</p>",
       "choices": [
@@ -285,8 +282,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "trójkąty",
-        "potęgi i pierwiastki"
+        "trójkąty"
       ],
       "prompt_html": "<p>W trójkącie prostokątnym wysokość wychodząca z kąta prostego ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>2</mn></msqrt></math> cm i dzieli przeciwprostokątną na dwa odcinki, z których jeden jest dwa razy krótszy od drugiego. Ile wynosi długość przeciwprostokątnej tego trójkąta?</p>",
       "choices": [
@@ -372,7 +368,8 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki",
+        "działania na potęgach",
+        "działania na pierwiastkach",
         "układy równań"
       ],
       "prompt_html": "<p>Dane są <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mo>(</mo><msqrt><mn>8</mn></msqrt><mo>−</mo><msqrt><mn>6</mn></msqrt><mo>)</mo><mo>(</mo><msqrt><mn>6</mn></msqrt><mo>+</mo><msqrt><mn>8</mn></msqrt><mo>)</mo></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mfrac><msup><mrow><mo>(</mo><msup><mn>32</mn><mn>2</mn></msup><mo>)</mo></mrow><mn>4</mn></msup><msup><mrow><mo>(</mo><mo>−</mo><mn>16</mn><mo>)</mo></mrow><msup><mn>3</mn><mn>2</mn></msup></msup></mfrac></math>. Wskaż układ równań, którego rozwiązaniem jest para liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>)</mo></math>.</p>",
@@ -505,8 +502,8 @@
       "type": "open",
       "points": 8,
       "topics": [
-        "trójkąty",
-        "kąty"
+        "kąty",
+        "trójkąty"
       ],
       "prompt_html": "<p>W nawigacji namiarem nazywana jest wartość kąta pomiędzy kierunkiem północnym (N) a kierunkiem od obserwatora do wybranego obiektu. Podaje się go jako wartość pomiędzy 0° a 360°, licząc od północy zgodnie z kierunkiem ruchu wskazówek zegara.</p><p>Namiary, które wykonano z jachtu na port i na latarnię morską, wyniosły odpowiednio 110° i 160° (rysunek poniżej). Namiar z portu na latarnię wynosi 250°. W chwili wykonania namiaru jacht znajdował się w odległości 12 km od portu i 7,7 km od latarni, gdzie odległości podano w zaokrągleniu do 0,1 km.</p><p>a) (2p) Ile wyniósłby namiar wykonany z latarni na jacht?</p><p>b) (5p) Jaka jest odległość pomiędzy latarnią a portem podana w zaokrągleniu do 1 km? Zapisz obliczenia.</p><p>c) (1p) Jacht płynie w kierunku portu. Czy wraz z przybliżaniem się jachtu do portu wartość namiaru z jachtu na latarnię rośnie, maleje czy nie zmienia się?</p>",
       "choices": [],
@@ -533,7 +530,6 @@
         "graniastosłupy",
         "ostrosłupy",
         "układy równań",
-        "potęgi i pierwiastki",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Objętość graniastosłupa prawidłowego trójkątnego wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>72</mn><msqrt><mn>3</mn></msqrt></math>, a pole powierzchni bocznej wynosi 144.</p><p>a) (6p) Oblicz sumę długości krawędzi graniastosłupa.</p><p>Na każdej krawędzi dolnej podstawy tego graniastosłupa zaznaczono dwa punkty, które dzielą tę krawędź na trzy równe części, a połączone tworzą sześciokąt (rysunek obok). Wierzchołki sześciokąta połączono ze środkiem jednej z krawędzi bocznych, tworząc ostrosłup sześciokątny.</p><p>b) (1p) Czy otrzymany ostrosłup jest prawidłowy? Odpowiedź uzasadnij.</p><p>c) (3p) Jaką objętość ma ten ostrosłup? Zapisz obliczenia.</p>",
@@ -558,9 +554,9 @@
       "type": "open",
       "points": 9,
       "topics": [
-        "procenty",
         "równania z jedną zmienną",
-        "proporcjonalność prosta"
+        "procenty",
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p><strong>I.</strong> (5p) Julce przyznano stypendium naukowe wysokości 5000 złotych, które podzieliła na dwie kwoty. Następnie z większej kwoty wydała 1000 złotych, a z mniejszej 600 złotych, ale stosunek między kwotami nie zmienił się po tych wydatkach. Oblicz stosunek większej kwoty do mniejszej i zapisz go w postaci ułamka nieskracalnego.</p><p><strong>II.</strong> (4p) Zuzi przyznano stypendium sportowe. Ćwierć całej sumy wydała na zakup nowego sprzętu do ćwiczeń. Następnie zapłaciła 1200 złotych zaliczki na obóz treningowy. 40 procent kwoty, która jej została, przeznaczyła na opłaty związane z zawodami, a później wydała jeszcze 780 złotych na opłacenie drugiej zaliczki na obóz. Po podliczeniu wszystkich wydatków Zuzia obliczyła, że zostało jej 15 procent z początkowej wysokości stypendium. Oblicz wartość stypendium Zuzi.</p>",
       "choices": [],

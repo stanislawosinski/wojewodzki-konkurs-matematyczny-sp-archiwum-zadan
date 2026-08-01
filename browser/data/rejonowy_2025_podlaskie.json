@@ -17,7 +17,6 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>3</mn></msup></math> zapisano jako sumę, której każdy składnik to 10. Ile znaków „+” występuje w pełnym zapisie równości: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>3</mn></msup><mo>=</mo><mn>10</mn><mo>+</mo><mn>10</mn><mo>+</mo><mn>10</mn><mo>+</mo><mo>…</mo><mo>+</mo><mn>10</mn><mo>+</mo><mn>10</mn></math>?</p>",
@@ -72,7 +71,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Ile różnych dzielników ma liczba o następującym rozkładzie na czynniki pierwsze: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>23</mn><mo>·</mo><mn>7</mn></math>?</p>",
       "choices": [
@@ -128,8 +127,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
-        "pole i obwód"
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Które pole jest największe?</p>",
       "choices": [
@@ -185,7 +183,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy"
+        "liczba krawędzi, ścian i wierzchołków"
       ],
       "prompt_html": "<p>Graniastosłup, który ma 12 ścian ma również</p>",
       "choices": [
@@ -212,7 +210,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "kąty"
       ],
       "prompt_html": "<p>W trójkącie stosunek miar kątów jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>:</mo><mn>3</mn><mo>:</mo><mn>5</mn></math>. Trójkąt o podanych własnościach jest</p>",
       "choices": [
@@ -239,7 +238,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "notacja wykładnicza"
       ],
       "prompt_html": "<p>Światło w diamencie porusza się z prędkością około stu dwudziestu pięciu tysięcy kilometrów na sekundę, czyli</p>",
       "choices": [
@@ -266,7 +265,7 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "kąty"
+        "wielokąty"
       ],
       "prompt_html": "<p>Ile co najwyżej kątów prostych może mieć pięciokąt?</p>",
       "choices": [],
@@ -288,7 +287,7 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "zagadki logiczne",
+        "kalendarz i czas",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>— <em>Ojej, nie dość, że trzynasty, to w dodatku piątek</em> — powiedziała Agnieszka, patrząc na kalendarz.</p><p>— <em>Nie martw się, w przyszłym miesiącu trzynasty wypada w sobotę</em> — pocieszała Ula.</p><p>W którym miesiącu rozmawiały dziewczynki?</p>",
@@ -311,8 +310,8 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
-        "nierówności"
+        "porównywanie potęg i pierwiastków",
+        "szacowanie (zamiast obliczania)"
       ],
       "prompt_html": "<p>Ile jest liczb naturalnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> spełniających warunek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>111</mn></msqrt><mo>&lt;</mo><mi>n</mi><mo>&lt;</mo><msqrt><mn>230</mn></msqrt></math>?</p>",
       "choices": [],
@@ -424,7 +423,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "proporcjonalność odwrotna"
+        "proporcjonalność odwrotna",
+        "ułamki"
       ],
       "prompt_html": "<p>Uczniowie z klasy V zjadają worek prażonej kukurydzy w ciągu 6 minut, a uczniowie z klasy VI taki sam worek prażonej kukurydzy zjadają w ciągu 3 minut. W ciągu ilu minut zjadłyby taki worek prażonej kukurydzy obie klasy razem?</p>",
       "choices": [],
@@ -446,7 +446,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Pierwszego dnia wycieczki Oliwia wydała 30% kieszonkowego. Drugiego dnia wydała 40% pozostałej kwoty. Oblicz, ile procent kieszonkowego pozostało Oliwii.</p>",
       "choices": [],
@@ -512,7 +512,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Wyznacz iloraz liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, wiedząc, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mfrac><mrow><msup><mn>4</mn><mn>2</mn></msup><mo>·</mo><msup><mn>4</mn><mn>4</mn></msup></mrow><msup><mn>4</mn><mn>5</mn></msup></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><msqrt><mrow><mn>1</mn><mo>+</mo><mfrac><mn>25</mn><mn>144</mn></mfrac></mrow></msqrt></math>.</p>",
       "choices": [],
@@ -534,8 +535,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "reszta z dzielenia",
-        "zagadki logiczne"
+        "reszta z dzielenia"
       ],
       "prompt_html": "<p>Liczbę 11 podzielono przez 9 różnych liczb naturalnych nie większych od 11 i otrzymano reszty, których suma jest równa 13. Przez jakie liczby dzielono?</p>",
       "choices": [],

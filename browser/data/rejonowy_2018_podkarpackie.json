@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zagadki logiczne"
+        "inne"
       ],
       "prompt_html": "<p>Na stole stało 10 torebek, każda zawierała inną liczbę cukierków, od 1 do 10. Każda z pięciu dziewczynek wzięła po dwie torebki. Ania znalazła w swoich torebkach łącznie 5 cukierków, Ola – 7, Kasia – 9, Maja – 19. Ile cukierków otrzymała Zuzia?</p>",
       "choices": [
@@ -58,7 +58,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zagadki logiczne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>W liczbie trzycyfrowej cyfra jedności jest o 3 mniejsza od cyfry setek, a cyfra dziesiątek wynosi 5. Jeżeli cyfrę setek zamienimy z cyfrą jedności, a cyfrę dziesiątek pozostawimy bez zmiany, to różnica między daną liczbą, a liczbą powstałą po przestawieniu cyfr będzie:</p>",
       "choices": [
@@ -141,7 +141,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "procenty",
+        "podzielność"
       ],
       "prompt_html": "<p>W pewnej klasie 24% wszystkich uczniów stanowią dziewczynki. Ilu uczniów jest w tej klasie?</p>",
       "choices": [
@@ -182,7 +183,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy"
+        "liczba krawędzi, ścian i wierzchołków"
       ],
       "prompt_html": "<p>Graniastosłup ma 52 wierzchołki. Suma liczby wszystkich jego ścian i liczby krawędzi wynosi:</p>",
       "choices": [
@@ -223,6 +224,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
+        "ułamki okresowe / rozwinięcia dziesiętne",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Greckim przybliżeniem liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>π</mi></math> jest ułamek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>22</mn><mn>7</mn></mfrac></math>. Sto dwudziestą szóstą cyfrą po przecinku w rozwinięciu dziesiętnym tego ułamka jest:</p>",
@@ -264,6 +266,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
+        "podobieństwo i skala",
         "graniastosłupy"
       ],
       "prompt_html": "<p>Do wykonania sześciennej kostki o długości krawędzi 2 cm zużyto 8 gramów plasteliny. Ile gramów plasteliny zużyjemy do wykonania sześciennej kostki o krawędzi 4 cm?</p>",
@@ -346,7 +349,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "zagadki logiczne"
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Marysia, Agata i Janek zaznaczają w swoich kalendarzach wybrane dni. Marysia zaznacza tylko soboty i niedziele, Agata nieparzyste dni każdego miesiąca, a Janek pierwszy i ostatni dzień miesiąca. Wynika stąd, że:</p>",
       "choices": [
@@ -428,7 +431,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "proporcjonalność prosta"
+        "podobieństwo i skala"
       ],
       "prompt_html": "<p>Geodeta ma dwa plany tej samej działki: jeden w skali 1 : 20, a drugi w skali 1 : 50. Jaka jest na planie w skali 1 : 20 szerokość drogi wjazdowej, jeśli jest ona równa 6 cm na planie w skali 1 : 50?</p>",
       "choices": [
@@ -469,7 +472,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Jedna akcja na giełdzie warta była 135 zł. Pewnego dnia wartość akcji najpierw wzrosła o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>%</mo></mrow></math>, a następnie zmalała o 0,5%. Wartość akcji po obu zmianach jest równa:</p>",
       "choices": [
@@ -510,6 +513,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
+        "ułamki okresowe / rozwinięcia dziesiętne",
         "ułamki"
       ],
       "prompt_html": "<p>Liczby: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mo>-</mo><mn>1</mn><mfrac><mn>11</mn><mn>111</mn></mfrac></mrow></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mo>-</mo><mn>1,1</mn></mrow></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><mo>-</mo><mn>1</mn><mo>,</mo><mo>(</mo><mn>1</mn><mo>)</mo></mrow></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>d</mi><mo>=</mo><mo>-</mo><mn>1</mn><mfrac><mn>1</mn><mn>11</mn></mfrac></mrow></math> uporządkowane rosnąco to:</p>",
@@ -551,7 +555,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "procenty",
+        "zmiany procentowe",
         "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Komputer przed podwyżką kosztował 4000 zł, a po podwyżce <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> zł. O ile procent podwyższono cenę komputera?</p>",
@@ -617,8 +621,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "układy równań",
-        "zagadki logiczne"
+        "układy równań"
       ],
       "prompt_html": "<p>Maciek, Tomek, Daniel i Paweł będąc w parku postanowili kupić lody. Opróżnili swoje kieszenie i … Jeżeli nie uwzględniali zasobów Maćka, to mieli 9 zł, jeśli nie liczyli pieniędzy Tomka – mieli 8,50 zł, jeśli nie liczyli pieniędzy Daniela – mieli 8 zł, a bez pieniędzy Pawła – mieli 7,50 zł.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli zdanie jest fałszywe.</p>",
       "choices": [
@@ -656,7 +659,7 @@
       "points": 2,
       "topics": [
         "kąty",
-        "trójkąty"
+        "wielokąty"
       ],
       "prompt_html": "<p>Na pięciokąt foremny nałożono trójkąt równoboczny, tak jak pokazuje poniższy rysunek. Miara kąta zaznaczonego na rysunku jest równa:</p>",
       "choices": [
@@ -699,8 +702,7 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "równania z jedną zmienną",
-        "zagadki logiczne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Adam ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> lat i jest o rok starszy od Jakuba i dwa razy młodszy od Kasi.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli zdanie jest fałszywe.</p>",
       "choices": [
@@ -781,7 +783,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki"
+        "ułamki"
       ],
       "prompt_html": "<p>Poniżej zapisano trzy wyrażenia. Oblicz wartości tych wyrażeń, a następnie wpisz otrzymane wyniki w odpowiednie miejsca.</p><ol><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mo>-</mo><mn>12,5</mn><mo>)</mo><mo>·</mo><mo>(</mo><mo>-</mo><mn>32</mn><mo>)</mo><mo>:</mo><mo>(</mo><mo>-</mo><mn>100</mn><mo>)</mo><mo>·</mo><mn>2</mn></mrow></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mo>-</mo><mn>200</mn><mo>)</mo><mo>:</mo><mn>2</mn><mo>-</mo><mo>(</mo><mo>-</mo><mn>300</mn><mo>)</mo><mo>:</mo><mo>(</mo><mo>-</mo><mn>50</mn><mo>)</mo><mo>·</mo><mo>(</mo><mo>-</mo><mn>2</mn><mo>)</mo><mo>-</mo><mo>[</mo><mn>11</mn><mo>-</mo><mn>1</mn><mo>·</mo><mo>(</mo><mo>-</mo><mn>5</mn><mo>)</mo><mo>-</mo><mo>(</mo><mo>-</mo><mn>2</mn><mo>)</mo><mo>]</mo></mrow></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>(</mo><mn>2</mn><mo>-</mo><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>·</mo><msup><mn>5</mn><mn>2</mn></msup><mo>-</mo><msup><mrow><mo>(</mo><mo>-</mo><mn>7</mn><mo>)</mo></mrow><mn>2</mn></msup></mrow></math></li></ol><p>Wyrażenie:</p><p>1. ma wartość równą……</p><p>2. ma wartość równą……</p><p>3. ma wartość równą……</p>",
       "choices": [],

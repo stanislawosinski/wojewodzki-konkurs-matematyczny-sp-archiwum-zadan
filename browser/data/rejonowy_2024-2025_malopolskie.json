@@ -44,8 +44,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "proporcjonalność prosta",
-        "zagadki logiczne"
+        "stężenie procentowe / mieszaniny",
+        "proporcjonalność prosta"
       ],
       "prompt_html": "<p>Uczeń szkoły plastycznej otrzymał tabelę informującą o farbach koloru A i B, jakie należy zmieszać w stosunku ilości 1:1, aby otrzymać farbę w wybranym kolorze C. Fragment tabeli znajduje się poniżej.</p><table><thead><tr><th>Kolor A</th><th>Kolor B</th><th>Otrzymany kolor C</th></tr></thead><tbody><tr><td>czerwony</td><td>niebieski</td><td>fioletowy</td></tr><tr><td>czerwony</td><td>żółty</td><td>pomarańczowy</td></tr><tr><td>żółty</td><td>niebieski</td><td>zielony</td></tr><tr><td>pomarańczowy</td><td>fioletowy</td><td>brązowy</td></tr><tr><td>pomarańczowy</td><td>zielony</td><td>oliwkowy</td></tr><tr><td>brązowy</td><td>oliwkowy</td><td>kawowy</td></tr></tbody></table><p>Uczeń ma do dyspozycji farby koloru czerwonego, niebieskiego i żółtego. Ile farby koloru czerwonego potrzebuje uczeń, jeśli chce otrzymać 24 ml farby koloru kawowego?</p>",
       "choices": [
@@ -129,7 +129,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Dane jest wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>W</mi><mo>=</mo><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> jest dowolną liczbą rzeczywistą. Które z poniższych zdań jest prawdziwe?</p>",
       "choices": [
@@ -244,7 +245,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "graniastosłupy"
+        "liczba krawędzi, ścian i wierzchołków"
       ],
       "prompt_html": "<p>Pewien graniastosłup prosty ma o 12 więcej krawędzi niż ścian. Ile wierzchołków ma ten graniastosłup?</p>",
       "choices": [
@@ -327,8 +328,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "podzielność",
-        "zliczanie / metody zliczania"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Ile jest wszystkich naturalnych dzielników liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2024</mn></math>?</p>",
       "choices": [
@@ -384,8 +384,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki",
-        "zliczanie / metody zliczania"
+        "wzrost wykładniczy"
       ],
       "prompt_html": "<p>W pewnym turnieju tenisa bierze udział <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> zawodników. W pierwszej rundzie zawodników dzieli się na <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>n</mi><mn>2</mn></mfrac></math> par, z których każda rozgrywa jeden mecz. Przegrani odpadają, a zwycięzcy przechodzą do kolejnej rundy. W kolejnych rundach zawodnicy ponownie dzieleni są na pary, rozgrywają mecze, a przegrani odpadają. W ostatniej finałowej rundzie dwóch zawodników walczy o tytuł mistrza. Ilu zawodników wzięło udział w turnieju, jeśli mistrz wygrał w jego trakcie 6 meczów?</p>",
       "choices": [
@@ -474,8 +473,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "trójkąty",
-        "potęgi i pierwiastki"
+        "trójkąty"
       ],
       "prompt_html": "<p>W trójkącie rozwartokątnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> długość boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>14</mn></math>, długość boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>13</mn></math>, a najdłuższa wysokość trójkąta wychodząca z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn></math>. Ile wynosi długość boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math>?</p>",
       "choices": [
@@ -561,8 +559,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "graniastosłupy",
-        "czworokąty"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Podstawą graniastosłupa prostego czworokątnego jest deltoid, w którym dokładnie jeden kąt jest prosty, a miara kąta ostrego jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn><mo>°</mo></math>. Krótsza przekątna deltoidu ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn></math> i jest równa wysokości graniastosłupa (zobacz rysunek). Ile jest równa objętość graniastosłupa?</p>",
       "choices": [

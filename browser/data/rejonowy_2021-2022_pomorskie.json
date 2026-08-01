@@ -39,8 +39,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "graniastosłupy",
         "ostrosłupy",
+        "graniastosłupy",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Dany jest graniastosłup prawidłowy czworokątny o krawędzi podstawy 5 i wysokości 10. Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>N</mi></math> są środkami krawędzi jednej z podstaw, a punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> jest punktem przecięcia przekątnych drugiej podstawy tego graniastosłupa (patrz rysunek). Uzasadnij, że objętość ostrosłupa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KLMNS</mi></math> stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>6</mn></mfrac></math> objętości graniastosłupa.</p>",
@@ -92,7 +92,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>W sadzie pana Marcina rosną jabłonie odmian: <em>lobo, gloster i szara reneta</em>. W wyniku utrzymujących się niskich temperatur w kwitnieniu 2021 roku zbiory wszystkich jabłek w tym roku zmalały o 20% w stosunku do roku 2020. W roku 2020 zebrane jabłka odmiany <em>lobo</em> stanowiły 50% wszystkich zebranych w tamtym roku jabłek, natomiast w 2021 roku jabłka odmiany <em>lobo</em> stanowiły 60% wszystkich zebranych w 2021 roku jabłek.</p><p>Oblicz, o ile procent zbiory jabłek odmiany <em>lobo</em> w roku 2021 zmniejszyły się w stosunku do zbiorów jabłek tej odmiany w roku 2020.</p>",
       "choices": [],
@@ -136,7 +136,8 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "ostatnia cyfra / cykliczność potęg",
+        "działania na potęgach",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Podaj cyfrę jedności liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>28</mn><mn>16</mn></msup></math>, wiedząc, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>7</mn><mn>15</mn></msup><mo>=</mo><mn>4747561509943</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>4</mn><mn>15</mn></msup><mo>=</mo><mn>1073741824</mn></mrow></math>. Odpowiedź uzasadnij.</p>",
@@ -159,11 +160,9 @@
       "type": "closed_single",
       "points": 5,
       "topics": [
-        "zagadki logiczne",
         "zliczanie / metody zliczania",
-        "kombinatoryka",
-        "wzory skróconego mnożenia",
-        "graniastosłupy"
+        "zagadki logiczne",
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>W zadaniach zamkniętych dokładnie jedna odpowiedź jest poprawna. Wskaż tę odpowiedź, otaczając ją kółkiem.</p><p><strong>7.1.</strong> Wyspę zamieszkują tylko prawdomówni i kłamcy, łącznie 25 osób. Prawdomówni zawsze mówią prawdę, a kłamcy zawsze kłamią. Wszyscy mieszkańcy tej wyspy ustawili się w kolejkę. Każda osoba z kolejki, z wyjątkiem pierwszej, powiedziała: „Osoba stojąca bezpośrednio przede mną to kłamca.” Natomiast osoba stojąca pierwsza w kolejce powiedziała: „Wszyscy stojący za mną to kłamcy.” Ilu kłamców stało w tej kolejce?</p><ul><li>A. 24</li><li>B. 13</li><li>C. 12</li><li>D. 0</li></ul><p><strong>7.2.</strong> Na dwóch równoległych bokach prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> obrano 6 punktów: 4 punkty na boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i 2 punkty na boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math>. Z tych punktów wybieramy trzy tak, aby utworzyły trójkąt. Ile jest takich trójkątów?</p><ul><li>A. 6</li><li>B. 8</li><li>C. 12</li><li>D. 16</li></ul><p><strong>7.3.</strong> We wszystkich szkołach podstawowych w miejscowości Zajączkowo przeprowadzono ankietę dotyczącą wyboru drugiego języka obcego (język niemiecki lub język rosyjski). W ankiecie wzięło udział 2021 uczniów. Spośród nich 1300 uczniów zaznaczyło, że uczęszcza na lekcje z języka niemieckiego, a 1100 z języka rosyjskiego. Ilu uczniów wypełniających ankietę wybrało oba języki, jeżeli wiadomo, że 21 ankietowanych nie wybrało żadnego języka?</p><ul><li>A. 300</li><li>B. 400</li><li>C. 500</li><li>D. 600</li></ul><p><strong>7.4.</strong> Ile jest różnych punktów, które są środkami odcinków o końcach będących wierzchołkami sześcianu?</p><ul><li>A. 8</li><li>B. 12</li><li>C. 16</li><li>D. 19</li></ul><p><strong>7.5.</strong> Wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>2</mn><mi>a</mi><mo>+</mo><mn>3</mn><mi>b</mi><mo>)</mo><mo>(</mo><mn>3</mn><mi>b</mi><mo>−</mo><mn>2</mn><mi>a</mi><mo>)</mo></mrow></math> jest równe:</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><msup><mi>b</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn><msup><mi>a</mi><mn>2</mn></msup></mrow></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mn>9</mn><msup><mi>b</mi><mn>2</mn></msup></mrow></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><msup><mi>b</mi><mn>2</mn></msup><mo>−</mo><mn>12</mn><mi>a</mi><mi>b</mi><mo>+</mo><mn>4</mn><msup><mi>a</mi><mn>2</mn></msup></mrow></math></li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>12</mn><mi>a</mi><mi>b</mi><mo>+</mo><mn>9</mn><msup><mi>b</mi><mn>2</mn></msup></mrow></math></li></ul>",
       "choices": [],

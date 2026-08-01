@@ -173,6 +173,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "kalendarz i czas",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>W 2018 roku 1 września wypadł w sobotę. Jaki dzień tygodnia będzie 1 września 2029 roku? Wybierz właściwą odpowiedź spośród podanych.</p>",
@@ -212,7 +213,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną"
+        "ułamki"
       ],
       "prompt_html": "<p>W pudełku były 32 czekoladki. Ala zjadła <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> wszystkich czekoladek i jeszcze 2 czekoladki. Beata zjadła połowę pozostałych czekoladek i jeszcze jedną czekoladkę, a resztę czekoladek zjadła Ewa. Ile czekoladek zjadła Ewa? Wybierz właściwą odpowiedź spośród podanych.</p>",
       "choices": [
@@ -329,7 +330,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "wyłączanie czynnika przed znak pierwiastka",
+        "działania na pierwiastkach",
         "szacowanie (zamiast obliczania)"
       ],
       "prompt_html": "<p>Wiemy, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>&lt;</mo><msqrt><mn>11</mn></msqrt><mo>&lt;</mo><mn>4</mn></math>. Wskaż poprawne oszacowanie wartości wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>44</mn></msqrt><mo>+</mo><msqrt><mn>99</mn></msqrt></math>. Wybierz właściwą odpowiedź spośród podanych.</p>",
@@ -411,7 +413,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p><p>Pół hektara to</p>",
       "choices": [
@@ -450,9 +452,9 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "podobieństwo i skala",
         "czworokąty",
-        "pole i obwód",
-        "proporcjonalność prosta"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Dokończ zdanie. Wybierz właściwą odpowiedź spośród podanych.</p><p>Prostokąt o wymiarach 3 cm i 7 mm narysowany w skali 200 : 1 ma pole równe</p>",
       "choices": [
@@ -491,8 +493,7 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "równania z jedną zmienną",
-        "zagadki logiczne"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Każdy z uczniów klasy 8a uprawia dokładnie jedną dyscyplinę sportową: kolarstwo, lekkoatletykę lub piłkę nożną. Co drugi uczeń trenuje piłkę nożną, co trzeci uczeń lekkoatletykę, a pozostali czterej uczniowie trenują kolarstwo.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli zdanie jest fałszywe.</p>",
       "choices": [
@@ -531,6 +532,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
+        "zmiany procentowe",
         "procenty"
       ],
       "prompt_html": "<p>W pewnej szkole jest tyle samo dziewcząt, co chłopców.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe.</p>",
@@ -603,8 +605,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "zliczanie / metody zliczania",
-        "wyrażenia algebraiczne"
+        "wyrażenia algebraiczne",
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Z zapałek budujemy figury w sposób pokazany na rysunku.</p><p>Uzupełnij luki.</p><p>16.1. Do ułożenia figury 4. potrzeba …….. zapałek.</p><p>16.2. Do ułożenia figury 6. potrzeba …….. zapałek.</p><p>16.3. Do ułożenia figury ……. potrzeba 31 zapałek.</p><p>16.4. Do ułożenia figury <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest liczbą naturalną dodatnią) potrzeba ……………… zapałek.</p>",
       "choices": [],
@@ -630,8 +632,7 @@
       "topics": [
         "układ współrzędnych",
         "czworokąty",
-        "pole i obwód",
-        "potęgi i pierwiastki"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>3</mn><mo>,</mo><mo>−</mo><mn>2</mn><mo>)</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mo>(</mo><mn>2</mn><mo>,</mo><mn>1</mn><mo>)</mo></math> są wierzchołkami kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>,</mo><mn>2</mn><mo>)</mo></math> jest środkiem przekątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math>.</p><p>Uzupełnij luki.</p><p>17.1. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> ma współrzędne …………… .</p><p>17.2. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> ma współrzędne …………… .</p><p>17.3. Przekątna tego kwadratu ma długość …………….. .</p><p>17.4. Pole tego kwadratu jest równe …………… .</p>",
       "choices": [],

@@ -49,7 +49,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "pierwiastki zagnieżdżone",
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Jeżeli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><msqrt><mroot><mi>x</mi><mn>3</mn></mroot></msqrt></msqrt><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math>, to jaką liczbą jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>? Wybierz wszystkie poprawne odpowiedzi spośród podanych.</p>",
       "choices": [
@@ -177,8 +178,8 @@
       "points": 3,
       "topics": [
         "koła / okręgi",
-        "potęgi i pierwiastki",
-        "szacowanie (zamiast obliczania)"
+        "porównywanie potęg i pierwiastków",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Pan Norbert na kwadracie o polu równym 64 dm<sup>2</sup> wykonał projekt numeru pawilonu wulkanizacji opon (patrz rysunek). Brzeg zaprojektowanego numeru 96 jest zbudowany z odcinków i części okręgów. Następnie wyciął z kwadratu ten numer i umieścił go na tle koła, w którym zajmuje on 25% powierzchni. Czy długość promienia tego koła jest większa niż 66 cm? Odpowiedź uzasadnij.</p>",
       "choices": [],
@@ -247,6 +248,7 @@
       "type": "open",
       "points": 2,
       "topics": [
+        "siatki brył",
         "ostrosłupy"
       ],
       "prompt_html": "<p>Na rysunkach 1. i 2. są przystające pięciokąty foremne. Uzupełnij te rysunki tak, aby otrzymać dwie siatki różnych czworościanów.</p>",
@@ -296,7 +298,6 @@
       "points": 3,
       "topics": [
         "czworokąty",
-        "trójkąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>W trapezie prostokątnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> narysowano odcinek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CE</mi></math> równoległy do odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math>, a następnie odcinki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ED</mi></math> przecinające się w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>O</mi></math>, jak na rysunku. Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCE</mi></math> jest równe 3 i stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math> pola trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ECO</mi></math>. Oblicz pole trapezu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>.</p>",

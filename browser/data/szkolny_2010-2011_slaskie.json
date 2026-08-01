@@ -173,7 +173,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną"
+        "ułamki"
       ],
       "prompt_html": "<p>Po obniżce koszt zakupu mikroskopu wynosi 284 zł, co stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>5</mn></mfrac></math> dotychczasowej ceny. Przed obniżką mikroskop kosztował</p>",
       "choices": [
@@ -329,6 +329,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "kąty",
         "trójkąty"
       ],
       "prompt_html": "<p>Jeżeli dwa kąty wewnętrzne trójkąta mają miary 72° i 36°, to jest to trójkąt</p>",
@@ -408,8 +409,7 @@
       "points": 1,
       "topics": [
         "czworokąty",
-        "pole i obwód",
-        "proporcjonalność odwrotna"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Pole prostokąta, którego jeden bok zwiększymy czterokrotnie, a drugi zmniejszymy czterokrotnie</p>",
       "choices": [
@@ -487,7 +487,6 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zagadki logiczne",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Butelka z korkiem kosztuje 1,10 zł. Butelka jest droższa od korka o złotówkę. Korek kosztuje</p>",
@@ -527,7 +526,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "prędkość / droga / czas"
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Pociąg miał przyjechać na stację Warszawa Wschodnia o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>9</mn><mn>35</mn></msup></math>, spóźnił się 105 minut. Czy Tomek, który jechał tym pociągiem, zdąży na pociąg do Olsztyna odjeżdżający o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>11</mn><mn>30</mn></msup></math>, jeśli na zmianę peronu potrzebuje 3 minuty?</p>",
       "choices": [
@@ -566,8 +565,9 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "kąty",
         "trójkąty",
-        "kąty"
+        "czworokąty"
       ],
       "prompt_html": "<p>W kwadracie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KLMN</mi></math> poprowadzono przekątną <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KM</mi></math>, która przecina bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>NT</mi></math> trójkąta równobocznego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>MNT</mi></math> w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> (jak na rysunku). Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>NSK</mi></math> ma miarę</p>",
       "choices": [
@@ -727,6 +727,7 @@
       "type": "true_false",
       "points": 4,
       "topics": [
+        "liczby pierwsze",
         "podzielność"
       ],
       "prompt_html": "<p>O liczbie 112 można powiedzieć, że:</p><p>Oceń, czy podane odpowiedzi są prawdziwe, czy fałszywe.</p>",
@@ -873,7 +874,6 @@
       "points": 4,
       "topics": [
         "czworokąty",
-        "trójkąty",
         "pole i obwód",
         "dowodzenie / dowody"
       ],
@@ -897,8 +897,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "zliczanie / metody zliczania",
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "ułamki"
       ],
       "prompt_html": "<p>W wojnie na śnieżki każde z dziesięciorga dzieci przygotowało sobie taką samą liczbę śnieżek. Następnie każdy w każdego z pozostałych uczestników „śnieżnej bitwy” rzucił dwukrotnie śnieżką. Po tej wymianie ognia została <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> wszystkich śnieżek. Oblicz, ile śnieżek przygotowało każde z dzieci. Zapisz wszystkie obliczenia.</p>",
       "choices": [],

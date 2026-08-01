@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Ile cyfr ma dziesiętny zapis liczby, która jest wartością potęgi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>100</mn><mn>10</mn></msup></math>?</p>",
       "choices": [
@@ -44,7 +44,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>1</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>5</mn><mo>+</mo><mo>⋯</mo><mo>+</mo><mn>99</mn></msqrt></math> jest równa</p>",
       "choices": [
@@ -71,7 +71,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kombinatoryka"
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Na miejskim basenie jest 10 torów. Na ile sposobów można przydzielić te tory dwóm pływakom?</p>",
       "choices": [
@@ -98,7 +98,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "notacja wykładnicza",
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Według danych Wikipedii powierzchnia województwa lubuskiego wynosi około 14 000 km². Powierzchnię tę zapisaną w notacji wykładniczej przedstawia zapis</p>",
       "choices": [
@@ -125,8 +126,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
-        "zliczanie / metody zliczania"
+        "zliczanie / metody zliczania",
+        "geometria"
       ],
       "prompt_html": "<p>Trzy proste parami przecinające się rozcinają płaszczyznę na</p>",
       "choices": [
@@ -153,8 +154,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność",
-        "zagadki logiczne"
+        "podzielność"
       ],
       "prompt_html": "<p>Pewne liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> są trzycyfrowe. O liczbie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> wiadomo, że jest zbudowana z cyfr 1, 2, 3, a jej druga cyfra to 2. Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> składa się z cyfr 4, 5, 6. Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi></math> jest parzysta. Na podstawie tych informacji określ cyfrę jedności iloczynu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>·</mo><mi>b</mi></math>.</p>",
       "choices": [
@@ -211,8 +211,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "proporcjonalność prosta",
-        "zagadki logiczne"
+        "proporcjonalność prosta"
       ],
       "prompt_html": "<p>Za przecięcie belki na 8 równych części stolarz pobiera opłatę w wysokości 56 zł. Ile kosztowałoby u tego stolarza pocięcie belki na 15 jednakowych części przy założeniu, że pojedyncze cięcie będzie kosztowało tyle samo co wcześniej?</p>",
       "choices": [
@@ -239,6 +238,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "ułamki okresowe / rozwinięcia dziesiętne",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Jaka jest 135 cyfra po przecinku w rozwinięciu dziesiętnym ułamka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>7</mn></mfrac></math>?</p>",
@@ -374,8 +374,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
-        "zagadki logiczne"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>W zbiorze liczb całkowitych Marcin określił następującą operację matematyczną:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><menclose notation=\"box\"><mi>x</mi></menclose><mo>=</mo><msup><mi>x</mi><mn>4</mn></msup><mo>,</mo><mspace width=\"0.6em\"/><mi>x</mi><mo>|</mo><mi>y</mi><mo>=</mo><mi>x</mi><mo>+</mo><mi>y</mi></math></p><p>Wynikiem zapisanego przez niego działania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><menclose notation=\"box\"><menclose notation=\"box\"><mn>2</mn></menclose><mo>|</mo><menclose notation=\"box\"><mn>2</mn></menclose></menclose></math> jest liczba</p>",
       "choices": [
@@ -459,7 +458,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "ostrosłupy",
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Stosunek pola powierzchni czworościanu foremnego o krawędzi 1 do pola powierzchni sześcianu o krawędzi 1 wynosi</p>",
       "choices": [
@@ -486,8 +486,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
-        "zliczanie / metody zliczania"
+        "wielokąty"
       ],
       "prompt_html": "<p>Pewien wielokąt wypukły ma 119 różnych przekątnych. Ile boków posiada ten wielokąt?</p>",
       "choices": [
@@ -541,7 +540,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "koła / okręgi"
+        "koła / okręgi",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Starożytni Egipcjanie wyznaczali pole koła w następujący sposób: <em>od średnicy odejmij <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>9</mn></mfrac></math> średnicy i podnieś wynik do kwadratu</em>. Jaką przybliżoną wartość liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>π</mi></math> daje opisana wyżej metoda?</p>",
       "choices": [
@@ -568,7 +568,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty",
+        "czworokąty",
         "szacowanie (zamiast obliczania)"
       ],
       "prompt_html": "<p>W siedzibie pewnej firmy na kwadratowej ścianie o boku długości 4 m został namalowany szlaczek wzdłuż przekątnej, przedstawiający logo firmy. Długość szlaczka wynosi około</p>",
@@ -596,7 +596,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wartość bezwzględna"
       ],
       "prompt_html": "<p>Wynikiem działania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>−</mo><mn>10</mn><mo>−</mo><mo>|</mo><mo>−</mo><mn>5</mn><mo>|</mo><mo>)</mo><mo>·</mo><mo>|</mo><mo>−</mo><mn>2</mn><mo>|</mo></math> jest liczba</p>",
       "choices": [
@@ -653,7 +653,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "wzory skróconego mnożenia"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Czwartą część kwadratu różnicy liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> przedstawia wyrażenie</p>",
       "choices": [
@@ -680,7 +680,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kąty"
+        "wielokąty"
       ],
       "prompt_html": "<p>Jeżeli w pewnym wielokącie foremnym kąt wewnętrzny ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>170</mn><mo>°</mo></math>, to liczba boków w tym wielokącie jest równa</p>",
       "choices": [
@@ -734,8 +734,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy",
-        "zliczanie / metody zliczania"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Troje rodzeństwa, Tosia, Antek i Sebastian, zbudowali prostopadłościan z jednakowych klocków sześciennych. Antek zdemontował najwyższą warstwę składającą się z 77 klocków. Następnie Sebastian zdemontował warstwę z boku zawierającą 55 klocków. Na końcu Tosia zdemontowała warstwę klocków z przodu. Ile klocków zostało w tak zmniejszonym prostopadłościanie?</p>",
       "choices": [
@@ -789,7 +788,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "podzielność"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Oceń, czy podane niżej informacje o liczbach są prawdziwe. Zaznacz PRAWDA, jeśli zdanie jest prawdziwe, lub FAŁSZ – jeśli jest fałszywe.</p>",
       "choices": [
@@ -815,7 +814,8 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "NWW / NWD"
+        "NWW / NWD",
+        "porównywanie potęg i pierwiastków"
       ],
       "prompt_html": "<p>Symbolem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>!</mo></math> oznaczamy iloczyn wszystkich liczb całkowitych od 1 do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>, to znaczy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>!</mo><mo>=</mo><mn>1</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><mo>…</mo><mo>·</mo><mo>(</mo><mi>n</mi><mo>−</mo><mn>1</mn><mo>)</mo><mo>·</mo><mi>n</mi></math>; na przykład <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>!</mo><mo>=</mo><mn>1</mn><mo>·</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>24</mn></math>. Wykorzystując te informacje, oceń prawdziwość poniższych zapisów.</p>",
       "choices": [
@@ -842,7 +842,9 @@
       "points": 3,
       "topics": [
         "koła / okręgi",
-        "zliczanie / metody zliczania"
+        "zliczanie / metody zliczania",
+        "pole i obwód",
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>Oceń, czy podane niżej informacje dotyczące sytuacji codziennych są prawdziwe. Zaznacz PRAWDA, jeśli zdanie jest prawdziwe, lub FAŁSZ – jeśli jest fałszywe.</p>",
       "choices": [
@@ -868,7 +870,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Oceń poprawność poniższych obliczeń procentowych. Zaznacz PRAWDA, jeśli zdanie jest prawdziwe, lub FAŁSZ – jeśli jest fałszywe.</p>",
       "choices": [

@@ -257,6 +257,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "zamiana jednostek",
         "ułamki"
       ],
       "prompt_html": "<p>Wskaż błędną zamianę jednostek:</p>",
@@ -296,7 +297,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kąty"
+        "kąty",
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Na którym rysunku jest najwięcej par odcinków prostopadłych?</p>",
       "choices": [
@@ -380,7 +382,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy"
+        "liczba krawędzi, ścian i wierzchołków"
       ],
       "prompt_html": "<p>Ile krawędzi, ścian i wierzchołków ma graniastosłup prosty o podstawie pięciokąta?</p>",
       "choices": [
@@ -508,8 +510,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "równania z jedną zmienną",
-        "kąty"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Kąt o mierze 360° podzielono na cztery kąty w taki sposób, że miara każdego następnego jest o 40° większa od miary poprzedniego. Wyznacz miary tych kątów. Zapisz obliczenia i odpowiedź.</p>",
       "choices": [],
@@ -554,6 +555,7 @@
       "type": "open",
       "points": 2,
       "topics": [
+        "podobieństwo i skala",
         "graniastosłupy"
       ],
       "prompt_html": "<p>Do pomalowania wszystkich ścian sześcianu zużyto 1 litr farby. Ile litrów farby potrzeba do pomalowania wszystkich ścian sześcianu o krawędziach 2 razy dłuższych? Zapisz obliczenia i odpowiedź.</p>",
@@ -620,8 +622,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "zliczanie / metody zliczania",
-        "zagadki logiczne"
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Na wycieczkę pojechało 48 chłopców z wielu klas. Sześciu uczniów było z dokładnie jednym kolegą ze swojej klasy, dziewięciu z dokładnie dwoma kolegami ze swojej klasy i czterech z dokładnie trzema kolegami ze swojej klasy. Żaden z pozostałych chłopców nie miał na wycieczce kolegi ze swojej klasy. Z ilu klas było tych 48 chłopców? Zapisz obliczenia i odpowiedź.</p>",
       "choices": [],
@@ -643,8 +644,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "NWW / NWD",
-        "podzielność"
+        "NWW / NWD"
       ],
       "prompt_html": "<p>Z 2310 batonów i 1290 jabłek Kasia chce przygotować jak najwięcej jednakowych paczek, wykorzystując wszystkie batony i jabłka. Ile będzie tych paczek? Zapisz obliczenia i odpowiedź.</p>",
       "choices": [],
@@ -712,7 +712,7 @@
       "points": 3,
       "topics": [
         "ułamki",
-        "pole i obwód"
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Na prostokątnej działce posadzono 9600 sadzonek drzew iglastych, umieszczając na 1 m² osiem sadzonek. Sadzonki sosny stanowiły <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac></math> wszystkich sadzonek, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac></math> reszty to sadzonki jodły, a pozostałe sadzonki to świerki. Ile sadzonek świerku posadzono na tej działce? Ile arów zajmuje powierzchnia tej działki? Zapisz obliczenia i odpowiedź.</p>",
       "choices": [],

@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Liczby bliźniacze to dwie liczby pierwsze różniące się o 2. Ile spośród dwucyfrowych liczb pierwszych o cyfrze dziesiątek 3 ma swojego bliźniaka?</p>",
       "choices": [
@@ -95,7 +95,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Ile jest takich nieujemnych liczb jednocyfrowych, których kwadrat ma dokładnie trzy (dodatnie) dzielniki?</p>",
       "choices": [
@@ -134,7 +134,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "ułamki"
+        "ułamki okresowe / rozwinięcia dziesiętne"
       ],
       "prompt_html": "<p>Dane są liczby: I. 0,1(47), II. 0,1552, III. 0,1(5).</p><p>Dla których z tych liczb zaokrąglenie do części setnych jest równe 0,15?</p>",
       "choices": [
@@ -173,7 +173,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Marta przygotowała dwa żetony takie, że suma liczb zapisanych na obu stronach każdego żetonu jest równa zero. Widok jednej ze stron tych żetonów przedstawiono poniżej.</p><p>Jakie liczby znajdują się na niewidocznych stronach tych żetonów?</p>",
       "choices": [
@@ -214,7 +214,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "wyłączanie czynnika przed znak pierwiastka",
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Dane są cztery liczby: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt><mo>,</mo><msqrt><mn>12</mn></msqrt><mo>,</mo><mo>−</mo><msqrt><mn>15</mn></msqrt><mo>,</mo><mo>−</mo><msqrt><mn>27</mn></msqrt></math>. Którą z tych liczb należy odrzucić, aby suma trzech pozostałych była równa 0?</p>",
       "choices": [
@@ -253,7 +254,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Magda wydała na książkę połowę kwoty otrzymanej od mamy, a za 40% tego, co jej zostało, kupiła bilet do kina. Ile procent kwoty otrzymanej od mamy pozostało Magdzie?</p>",
       "choices": [
@@ -413,7 +414,8 @@
       "points": 1,
       "topics": [
         "prędkość / droga / czas",
-        "proporcjonalność prosta"
+        "proporcjonalność prosta",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Sad owocowy ma kształt prostokąta, którego długości boków są w stosunku 2:7. Krótszy bok ma długość 240 m. W ciągu ilu dni obejdzie ten sad dookoła ślimak poruszający się ze średnią prędkością 4 m/h?</p>",
       "choices": [
@@ -452,7 +454,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy"
+        "liczba krawędzi, ścian i wierzchołków"
       ],
       "prompt_html": "<p>Jakim wielokątem może być podstawa graniastosłupa prawidłowego, który ma tyle samo kwadratowych ścian co sześcian?</p>",
       "choices": [
@@ -612,9 +614,7 @@
       "topics": [
         "graniastosłupy",
         "ostrosłupy",
-        "podzielność",
-        "statystyka opisowa",
-        "koła / okręgi"
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>Oceń prawdziwość zdań, wstawiając P-prawda, F-fałsz.</p>",
       "choices": [
@@ -679,7 +679,8 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "potęgi i pierwiastki",
+        "działania na potęgach",
+        "wartość bezwzględna",
         "statystyka opisowa"
       ],
       "prompt_html": "<p>Wiek Kasi jest równy wartości wyrażenia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>7</mn><mn>2</mn></msup><mo>−</mo><mo>|</mo><mn>5</mn><mo>−</mo><msup><mn>5</mn><mn>2</mn></msup><mo>|</mo><mo>+</mo><msup><mrow><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo></mrow><mn>3</mn></msup><mo>−</mo><msup><mn>5</mn><mn>0</mn></msup></math>. Wiek Eli różni się od wieku Kasi o 4 lata, zaś Piotr jest dwukrotnie starszy od Eli. Oblicz średnią arytmetyczną wieku tych trzech osób.</p>",
@@ -703,8 +704,7 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "graniastosłupy",
-        "potęgi i pierwiastki"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Na rysunku przedstawiono fragment siatki graniastosłupa prawidłowego trójkątnego. Pole narysowanego trójkąta jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><msqrt><mn>3</mn></msqrt><mspace width=\"0.2em\"/><msup><mtext>cm</mtext><mn>2</mn></msup></math>, a pole prostokąta jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><msqrt><mn>3</mn></msqrt><mspace width=\"0.2em\"/><msup><mtext>cm</mtext><mn>2</mn></msup></math>. Oblicz objętość tego graniastosłupa.</p>",
       "choices": [],

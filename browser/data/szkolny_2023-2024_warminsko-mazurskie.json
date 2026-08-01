@@ -175,8 +175,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność",
-        "potęgi i pierwiastki"
+        "podzielność"
       ],
       "prompt_html": "<p>Dane są trzy liczby: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msup><mn>10</mn><mn>23</mn></msup><mo>+</mo><mn>1</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><msup><mn>10</mn><mn>23</mn></msup><mo>−</mo><mn>1</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><msup><mn>10</mn><mn>23</mn></msup><mo>+</mo><mn>2</mn></math>. Które z tych liczb są podzielne przez 3?</p>",
       "choices": [
@@ -254,7 +253,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "kąty"
       ],
       "prompt_html": "<p>Kąt przy podstawie pewnego trójkąta równoramiennego ma miarę cztery razy mniejszą od kąta przy wierzchołku. Jaka jest miara najmniejszego kąta tego trójkąta?</p>",
       "choices": [
@@ -293,7 +293,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "liczby wymierne i niewymierne",
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Wskaż liczbę, która jest liczbą wymierną:</p>",
       "choices": [
@@ -332,8 +333,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "układy równań",
-        "zagadki logiczne"
+        "układy równań"
       ],
       "prompt_html": "<p>Grejpfrut i jabłko ważą tyle co ananas. Dwa grejpfruty ważą tyle co ananas i jabłko. Ile jabłek waży tyle co jeden ananas?</p>",
       "choices": [
@@ -372,6 +372,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "wartość bezwzględna",
         "nierówności"
       ],
       "prompt_html": "<p>Dana jest nierówność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>a</mi><mo>|</mo><mo>&lt;</mo><mn>5</mn></math>. Ile liczb całkowitych można wstawić w miejsce <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, aby nierówność była prawdziwa?</p>",
@@ -412,7 +413,8 @@
       "points": 3,
       "topics": [
         "podzielność",
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Oceń prawdziwość zdań, wpisując P – prawdziwe lub F – fałszywe.</p>",
       "choices": [
@@ -492,9 +494,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "podzielność",
-        "NWW / NWD",
-        "zagadki logiczne"
+        "liczby pierwsze",
+        "NWW / NWD"
       ],
       "prompt_html": "<p>Pierwsze dwie cyfry czterocyfrowej tablicy rejestracyjnej tworzą liczbę pierwszą. Cyfra jedności czterocyfrowej liczby tablicy jest najmniejszą dodatnią liczbą parzystą, zaś trzecia cyfra tablicy to sześcian ostatniej cyfry. Suma wszystkich cyfr tablicy to najmniejsza wspólna wielokrotność liczb 4 i 5. Podaj liczby czterocyfrowe, które mogą widnieć na tej tablicy, wiedząc, że cyfry w danym numerze rejestracyjnym nie powtarzają się.</p>",
       "choices": [],

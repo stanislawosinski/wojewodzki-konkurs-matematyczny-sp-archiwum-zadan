@@ -17,7 +17,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "wyrażenia algebraiczne"
+        "wyrażenia algebraiczne",
+        "ułamki"
       ],
       "prompt_html": "<p>Dana jest liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> różna od zera. <strong>Dokończ zdanie.</strong></p><p>Wartość wyrażenia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><mfrac><mn>1</mn><mrow><mn>2</mn><mi>k</mi></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>3</mn><mi>k</mi></mrow></mfrac><mo>+</mo><mfrac><mn>1</mn><mrow><mn>4</mn><mi>k</mi></mrow></mfrac></mrow></mfrac></math> jest równa:</p>",
       "choices": [
@@ -56,7 +57,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "ostatnia cyfra / cykliczność potęg",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p><strong>Dokończ zdanie.</strong></p><p>W rzędzie jedności liczby będącej wartością wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>7</mn><mn>2026</mn></msup></math> jest cyfra</p>",
@@ -96,8 +97,9 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "potęgi i pierwiastki",
-        "podzielność"
+        "działania na potęgach",
+        "podzielność",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Dane są liczby: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msup><mn>3</mn><msup><mn>2</mn><msup><mn>3</mn><mn>2</mn></msup></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><msup><mrow><mo>(</mo><msup><mn>3</mn><msup><mn>2</mn><mn>3</mn></msup></msup><mo>)</mo></mrow><mn>2</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><msup><mrow><mo>(</mo><msup><mn>3</mn><mn>2</mn></msup><mo>)</mo></mrow><msup><mn>3</mn><mn>2</mn></msup></msup></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><msup><mrow><mo>(</mo><msup><mrow><mo>(</mo><msup><mn>3</mn><mn>2</mn></msup><mo>)</mo></mrow><mn>3</mn></msup><mo>)</mo></mrow><mn>2</mn></msup></math>.</p><p><strong>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</strong></p>",
       "choices": [
@@ -136,7 +138,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "stężenie procentowe / mieszaniny"
       ],
       "prompt_html": "<p>Ile kilogramów wody należy odparować z 30 kg roztworu o stężeniu 4%, aby otrzymać roztwór o stężeniu 4,8%? <strong>Wybierz odpowiedź spośród podanych.</strong></p>",
       "choices": [
@@ -175,7 +177,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Natalia wpłaciła do banku kwotę 20 000 na lokatę dwuletnią. Po każdym rocznym okresie oszczędzania bank nalicza odsetki w wysokości 5% od kwoty obecnie znajdującej się na lokacie i dopisuje je do tej kwoty. Jaką kwotę będzie miała Natalia po dwóch latach oszczędzania? Pomijamy podatek od zysków kapitałowych.</p><p><strong>Wybierz odpowiedź spośród podanych.</strong></p>",
       "choices": [
@@ -214,7 +216,8 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "proporcjonalność prosta"
       ],
       "prompt_html": "<p>Paweł ma listewkę o długości 120 cm. Chce ją pociąć na trzy części i zrobić z nich trójkątną ramkę.</p><p><strong>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</strong></p>",
       "choices": [
@@ -249,6 +252,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
+        "podobieństwo i skala",
         "trójkąty",
         "pole i obwód"
       ],
@@ -285,8 +289,8 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "czworokąty",
         "układ współrzędnych",
+        "czworokąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>3</mn><mo>,</mo><mn>5</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>1</mn><mo>,</mo><mo>−</mo><mn>1</mn><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>=</mo><mo>(</mo><mn>8</mn><mo>,</mo><mn>2</mn><mo>)</mo></math> są trzema kolejnymi wierzchołkami równoległoboku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>.</p><p><strong>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</strong></p>",
@@ -326,7 +330,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy"
+        "liczba krawędzi, ścian i wierzchołków"
       ],
       "prompt_html": "<p><strong>Dokończ zdanie.</strong></p><p>Graniastosłup, którego siatka zbudowana jest z 22 wielokątów:</p>",
       "choices": [
@@ -365,7 +369,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> są dwiema liczbami ujemnymi, spełniającymi warunek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mo>&lt;</mo><mi>m</mi></math>.</p><p><strong>Dokończ zdanie.</strong></p><p>Najmniejszą wartość ma wyrażenie:</p>",
       "choices": [
@@ -404,7 +408,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "wyłączanie czynnika przed znak pierwiastka",
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Która z podanych liczb nie jest równa liczbie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>3</mn></msqrt></math>? <strong>Wybierz odpowiedź spośród podanych.</strong></p>",
       "choices": [
@@ -444,7 +449,7 @@
       "points": 3,
       "topics": [
         "czworokąty",
-        "trójkąty"
+        "kąty"
       ],
       "prompt_html": "<p>W trapezie równoramiennym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>, w którym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi><mo>∥</mo><mi>CD</mi></math>, kąt rozwarty jest dwa razy większy od kąta ostrego i przekątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> tworzy z ramieniem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> kąt prosty.</p><p><strong>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</strong></p>",
       "choices": [
@@ -515,7 +520,8 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki"
+        "pierwiastki zagnieżdżone",
+        "ułamki"
       ],
       "prompt_html": "<p>Na tablicy napisano wyrażenie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><msqrt><mrow><mi>a</mi><mo>+</mo><msqrt><mrow><mi>a</mi><mo>+</mo><msqrt><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow></msqrt></mrow></msqrt></mrow></msqrt></mfrac></math>.</p><p><strong>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</strong></p>",
       "choices": [

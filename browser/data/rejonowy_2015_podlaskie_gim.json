@@ -44,7 +44,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "pierwiastki zagnieżdżone",
         "wzory skróconego mnożenia"
       ],
       "prompt_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><msqrt><mrow><mn>3</mn><mo>−</mo><msqrt><mn>5</mn></msqrt></mrow></msqrt><mo>+</mo><msqrt><mrow><mn>3</mn><mo>+</mo><msqrt><mn>5</mn></msqrt></mrow></msqrt><mo>)</mo></mrow><mn>2</mn></msup></math> jest równa</p>",
@@ -72,6 +72,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "wartość bezwzględna",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Iloczyn liczb spełniających równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>x</mi><mo>−</mo><mn>1</mn><mo>|</mo><mo>+</mo><mn>2</mn><mo>=</mo><mn>5</mn></math> jest równy</p>",
@@ -99,7 +100,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Ile razy liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>2,5</mn><mo>)</mo></mrow><mn>4</mn></msup></math> jest mniejsza od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>25</mn><mo>)</mo></mrow><mn>4</mn></msup></math>?</p>",
       "choices": [
@@ -126,7 +127,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "układ współrzędnych"
       ],
       "prompt_html": "<p>Funkcję liniową, której wykres jest równoległy do wykresu funkcji <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mo>−</mo><msqrt><mn>3</mn></msqrt><mi>x</mi><mo>+</mo><mn>1</mn></math> i przechodzi przez punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>0</mn><mo>,</mo><mo>−</mo><mn>5</mn><mo>)</mo></math> określa wzór</p>",
       "choices": [
@@ -154,7 +155,7 @@
       "points": 1,
       "topics": [
         "wzory skróconego mnożenia",
-        "zliczanie / metody zliczania"
+        "podzielność"
       ],
       "prompt_html": "<p>Ile jest par <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo>)</mo></math> takich liczb naturalnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn><msup><mi>b</mi><mn>2</mn></msup><mo>=</mo><mn>45</mn></math>?</p>",
       "choices": [
@@ -181,7 +182,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "notacja wykładnicza"
       ],
       "prompt_html": "<p>Suma cyfr liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msup><mn>10</mn><mn>12</mn></msup><mo>−</mo><mn>12</mn></math> jest równa</p>",
       "choices": [
@@ -236,9 +237,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty",
-        "pole i obwód",
-        "procenty"
+        "zmiany procentowe",
+        "podobieństwo i skala"
       ],
       "prompt_html": "<p>Długość każdego boku trójkąta równobocznego zwiększono o 30%. Wynika stąd, że pole tego trójkąta wzrosło o</p>",
       "choices": [
@@ -265,8 +265,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
-        "pole i obwód"
+        "podobieństwo i skala",
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Pola figur podobnych wynoszą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mspace width=\"0.2em\"/><msup><mtext>cm</mtext><mn>2</mn></msup></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>18</mn><mspace width=\"0.2em\"/><msup><mtext>dm</mtext><mn>2</mn></msup></math>. Jaka jest skala podobieństwa figury o większej powierzchni do figury o mniejszej powierzchni?</p>",
       "choices": [
@@ -376,8 +376,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "okrąg wpisany i opisany",
         "koła / okręgi",
-        "czworokąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>Na prostokącie o bokach 8 cm i 6 cm opisano koło. Pole powierzchni tego koła jest równe</p>",
@@ -432,7 +432,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "wyłączanie czynnika przed znak pierwiastka",
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>O ile liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>48</mn></msqrt></math> jest większa od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt></math>?</p>",
       "choices": [
@@ -459,8 +460,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne",
-        "potęgi i pierwiastki"
+        "inne"
       ],
       "prompt_html": "<p>Funkcja <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi></math> określona jest wzorem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><mrow><mo>{</mo><mtable columnalign=\"left left\"><mtr><mtd><mfrac><mn>1</mn><mi>x</mi></mfrac></mtd><mtd><mtext>dla&#160;</mtext><mn>0</mn><mo>&lt;</mo><mi>x</mi><mo>≤</mo><mn>3</mn></mtd></mtr><mtr><mtd><msqrt><mi>x</mi></msqrt><mo>−</mo><mn>3</mn></mtd><mtd><mtext>dla&#160;</mtext><mn>3</mn><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mn>10</mn></mtd></mtr></mtable></mrow></math>. Funkcja <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi></math> ma</p>",
       "choices": [
@@ -488,8 +488,8 @@
       "points": 1,
       "topics": [
         "czworokąty",
-        "pole i obwód",
-        "równania z jedną zmienną"
+        "układy równań",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Na rysunku przedstawiony jest równoległobok i podane są długości jego boków za pomocą wyrażeń algebraicznych. Ile jest równy obwód tego równoległoboku?</p>",
       "choices": [
@@ -518,7 +518,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "procenty",
+        "zmiany procentowe",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Bilet na mecz pierwszoligowego zespołu kosztował 15 zł. Na kolejny mecz cenę biletu obniżono i okazało się, że na mecz przyszło o 80% widzów więcej niż przed obniżką, a dochód ze sprzedaży biletów wzrósł o połowę. Ile kosztuje bilet po obniżce i o ile procent obniżono cenę biletu?</p>",
@@ -541,8 +541,9 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "trójkąty",
         "okrąg wpisany i opisany",
+        "podobieństwo i skala",
+        "trójkąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>W trójkąt równoramienny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> o ramionach długości 15 i podstawie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> długości 20 wpisano okrąg. Oblicz pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DEC</mi></math>, jeśli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> to punkty styczności ramion trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> do okręgu. (patrz rysunek)</p>",

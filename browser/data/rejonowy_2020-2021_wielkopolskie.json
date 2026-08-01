@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Iloraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mroot><mrow><mn>27</mn><mo>+</mo><mn>5</mn></mrow><mn>3</mn></mroot><mroot><mrow><mn>8</mn><mo>−</mo><mn>12</mn></mrow><mn>3</mn></mroot></mfrac></math> jest równy:</p>",
       "choices": [
@@ -56,6 +56,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "kąty",
         "trójkąty"
       ],
       "prompt_html": "<p>W trójkącie równoramiennym kąt przy podstawie ma miarę o 15° większą niż kąt między ramionami. Kąt między ramionami wynosi:</p>",
@@ -212,7 +213,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>30</mn></msup><mo>+</mo><msup><mn>2</mn><mn>30</mn></msup><mo>+</mo><msup><mn>2</mn><mn>32</mn></msup><mo>+</mo><msup><mn>2</mn><mn>31</mn></msup></math> jest równa:</p>",
       "choices": [
@@ -251,9 +253,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty",
-        "procenty",
-        "pole i obwód"
+        "zmiany procentowe",
+        "podobieństwo i skala"
       ],
       "prompt_html": "<p>Długości boków trójkąta równobocznego powiększono o 30%. Pole trójkąta zwiększyło się o:</p>",
       "choices": [
@@ -293,6 +294,7 @@
       "points": 1,
       "topics": [
         "graniastosłupy",
+        "zamiana jednostek",
         "procenty"
       ],
       "prompt_html": "<p>Akwarium w kształcie prostopadłościanu ma wymiary 20 cm x 3 dm x 0,4 m i jest w 80% wypełnione wodą. Ile litrów wody jest w tym akwarium?</p>",
@@ -489,6 +491,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "podobieństwo i skala",
         "proporcjonalność prosta"
       ],
       "prompt_html": "<p>Samochód pana Michała spala średnio 4 litry na 100 km. Między miejscem zamieszkania pana Michała a miejscowością jego wypoczynku nad morzem na mapie w skali 1:500000 jest odcinek długości 24 cm. Pan Michał potrzebuje więc na przejazd nad morze i z powrotem:</p>",
@@ -645,8 +648,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zagadki logiczne",
-        "zliczanie / metody zliczania"
+        "zbiory / zasada włączeń i wyłączeń"
       ],
       "prompt_html": "<p>Na parkingu mającym 30 miejsc, wszystkie miejsca są zajęte przez Fordy lub przez czarne samochody. Jest tam 17 Fordów i 18 czarnych samochodów. Nieprawdą jest, że liczba czarnych Fordów jest:</p>",
       "choices": [
@@ -796,7 +798,6 @@
       "points": 3,
       "topics": [
         "reszta z dzielenia",
-        "podzielność",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Wykaż, że suma czterech kolejnych liczb naturalnych parzystych przy dzieleniu przez 8 daje resztę 4.</p>",
@@ -820,8 +821,7 @@
       "points": 4,
       "topics": [
         "czworokąty",
-        "pole i obwód",
-        "układy równań"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Stosunek obwodów dwóch kwadratów jest równy 3:4. Oblicz długość boku każdego z kwadratów, jeżeli wiadomo, że suma pól tych kwadratów jest równa 100 cm².</p>",
       "choices": [],
@@ -843,7 +843,7 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "procenty",
+        "stężenie procentowe / mieszaniny",
         "układy równań"
       ],
       "prompt_html": "<p>Zmieszano 10-procentowy roztwór soli z 2-procentowym roztworem soli i otrzymano 30 kg roztworu soli. Oblicz stężenie otrzymanego roztworu, wiedząc, że gdyby roztworu 10-procentowego było o 20% więcej, a roztworu 2-procentowego o 20% mniej, to końcowy roztwór miałby stężenie 8%.</p>",
@@ -867,7 +867,6 @@
       "points": 4,
       "topics": [
         "trójkąty",
-        "czworokąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>Oblicz pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>EFG</mi></math>, wiedząc, że czworokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> jest prostokątem, w którym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>30</mn></mrow></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>BC</mi><mo>|</mo><mo>=</mo><mn>15</mn></mrow></math> cm i trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABE</mi></math> jest równoboczny. Wynik doprowadź do najprostszej postaci.</p>",

@@ -60,6 +60,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
+        "ułamki okresowe / rozwinięcia dziesiętne",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>2021 cyfra rozwinięcia dziesiętnego ułamka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>11</mn></mfrac></math> to:</p>",
@@ -191,7 +192,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Do której potęgi należy podnieść liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>8</mn><mn>3</mn></msup></math>, aby otrzymać liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>16</mn><mn>9</mn></msup></math>?</p>",
       "choices": [
@@ -235,8 +236,8 @@
       "points": 3,
       "topics": [
         "czworokąty",
-        "pole i obwód",
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Boki prostokąta różnią się o 2 cm. Jeżeli oba boki wydłużymy o 1 cm, to pole tego prostokąta zwiększy się o 11 cm². O ile zmniejszy się pole tego prostokąta, jeżeli oba boki skrócimy o 1 cm?</p>",
       "choices": [
@@ -279,7 +280,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "graniastosłupy"
+        "liczba krawędzi, ścian i wierzchołków"
       ],
       "prompt_html": "<p>Łączna liczba wierzchołków, krawędzi i ścian pewnego graniastosłupa jest równa 224. Ile wierzchołków ma wielokąt, który jest w podstawie tego graniastosłupa?</p>",
       "choices": [
@@ -322,8 +323,8 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki",
-        "usuwanie niewymierności z mianownika"
+        "usuwanie niewymierności z mianownika",
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Jeśli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>1</mn><mo>+</mo><msqrt><mn>5</mn></msqrt></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><msqrt><mn>5</mn></msqrt><mo>−</mo><mn>1</mn></mrow></math>, to wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mo>−</mo><mi>b</mi></mrow><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow></mfrac></math> jest równa:</p>",
       "choices": [
@@ -366,7 +367,8 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "proporcjonalność odwrotna"
+        "proporcjonalność odwrotna",
+        "ułamki"
       ],
       "prompt_html": "<p>Kasia i Tomek postanowili zrobić mamie niespodziankę i posprzątać mieszkanie. Gdyby Kasia sprzątała sama, to zajęłoby jej to 3 godziny. Gdyby Tomek sprzątał sam, potrzebowałby 5 godzin. Ile czasu zajmie im sprzątanie, jeżeli będą pracować razem?</p>",
       "choices": [
@@ -452,7 +454,7 @@
       "type": "true_false",
       "points": 6,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>W pewnej szkole jest tyle samo dziewcząt, co chłopców. Oceń, czy poniższe zdania są prawdziwe.</p>",
       "choices": [
@@ -505,8 +507,8 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "trójkąty",
         "proporcjonalność prosta",
+        "trójkąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>Stosunek długości boków trójkąta jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>13</mn><mo>:</mo><mn>12</mn><mo>:</mo><mn>5</mn></mrow></math>. Średni bok jest o 3,5 cm dłuższy od najkrótszego. Oblicz obwód tego trójkąta.</p>",
@@ -531,8 +533,7 @@
       "topics": [
         "czworokąty",
         "trójkąty",
-        "pole i obwód",
-        "potęgi i pierwiastki"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Krótsza przekątna trapezu prostokątnego ma długość 8 i dzieli trapez na dwa trójkąty prostokątne równoramienne. Oblicz obwód i pole tego trapezu.</p>",
       "choices": [],

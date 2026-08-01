@@ -18,7 +18,7 @@
       "points": 1,
       "topics": [
         "układy równań",
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Liczba o 10% mniejsza od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest o 4 większa od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, natomiast liczba o 10% większa od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest o 5 mniejsza od liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>.</p><p>Wybierz układ równań, który opisuje treść zadania.</p>",
       "choices": [
@@ -58,7 +58,7 @@
       "points": 1,
       "topics": [
         "usuwanie niewymierności z mianownika",
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Wybierz poprawną odpowiedź spośród podanych.</p><p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mfrac><mrow><mn>6</mn><mo>−</mo><msqrt><mn>6</mn></msqrt></mrow><msqrt><mn>6</mn></msqrt></mfrac><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>2</mn></msup></math> jest równa:</p>",
       "choices": [
@@ -129,8 +129,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "sześciokąty foremne",
-        "potęgi i pierwiastki"
+        "sześciokąty foremne"
       ],
       "prompt_html": "<p>Jaką długość może mieć przekątna sześciokąta foremnego o boku równym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msqrt><mn>3</mn></msqrt></mrow></math>? Zaznacz wszystkie poprawne odpowiedzi spośród podanych.</p>",
       "choices": [
@@ -170,7 +169,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki",
+        "porównywanie potęg i pierwiastków",
+        "działania na potęgach",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Uzasadnij, że jeśli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><msup><mn>3</mn><mn>15</mn></msup></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><msup><mn>8</mn><mn>10</mn></msup></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><msup><mn>2</mn><mn>32</mn></msup></mrow></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>&lt;</mo><mi>b</mi><mo>&lt;</mo><mi>c</mi></mrow></math>.</p>",
@@ -216,8 +216,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "trójkąty",
         "kąty",
+        "trójkąty",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Wojtek zmierzył w każdym z dwóch trójkątów trzy kąty zewnętrzne (po jednym przy każdym wierzchołku). Wyniki pomiarów zapisał na kartce (w dowolnej kolejności), a potem tak nieszczęśliwie oddarł część kartki, że zgubił dwa z nich. Kasia spojrzała na pozostałe cztery wyniki i stwierdziła, że jeden z trójkątów musiał być równoramienny. Odtwórz (Podaj) brakujące wyniki pomiarów Wojtka i uzasadnij, że jeden z tych trójkątów był równoramienny lub prostokątny.</p><p>Na kartce pozostały cztery wyniki: 70°, 110°, 140°, 160°.</p>",
@@ -285,8 +285,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "graniastosłupy",
-        "potęgi i pierwiastki"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>W graniastosłupie prawidłowym czworokątnym przekątna podstawy jest pięć razy krótsza od przekątnej ściany bocznej. Objętość tego graniastosłupa wynosi 7. Jaką długość ma krawędź podstawy? Odpowiedź uzasadnij.</p>",
       "choices": [],

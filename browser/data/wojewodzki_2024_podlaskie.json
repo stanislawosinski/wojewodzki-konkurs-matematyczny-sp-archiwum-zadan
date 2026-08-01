@@ -142,6 +142,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "działania na potęgach",
         "wzory skróconego mnożenia"
       ],
       "prompt_html": "<p>Wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msup><mrow><mo>(</mo><mi>m</mi><mo>−</mo><mn>3</mn><mi>n</mi><mo>)</mo></mrow><mn>2</mn></msup></math> jest równe wyrażeniu:</p>",
@@ -259,7 +260,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "porównywanie potęg i pierwiastków",
         "szacowanie (zamiast obliczania)"
       ],
       "prompt_html": "<p>Ile liczb mniejszych od π zapisano w zbiorze <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>{</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>;</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>;</mo><mfrac><mn>25</mn><mn>8</mn></mfrac><mo>;</mo><mfrac><mn>16</mn><mn>5</mn></mfrac><mo>;</mo><mn>3,14</mn><mo>}</mo></math>?</p>",
@@ -422,7 +423,7 @@
       "points": 1,
       "topics": [
         "trójkąty",
-        "dwusieczna kąta / symetralna odcinka"
+        "kąty"
       ],
       "prompt_html": "<p>Dwusieczne kątów przy podstawie trójkąta równoramiennego <em>ABC</em> przecinają się pod kątem 130°. Kąt <em>α</em> ma miarę</p>",
       "choices": [
@@ -463,7 +464,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "wyłączanie czynnika przed znak pierwiastka",
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Która z podanych liczb jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>3</mn></msqrt></math>?</p>",
       "choices": [
@@ -502,7 +504,7 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "zagadki logiczne"
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>W pewnym miesiącu było 5 sobót, 5 niedziel, ale 4 piątki i 4 poniedziałki. Które dni tygodnia w następnym miesiącu wystąpią 5 razy?</p>",
       "choices": [],
@@ -568,7 +570,7 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Doprowadź wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><msup><mn>8</mn><mn>5</mn></msup><mo>·</mo><msup><mn>4</mn><mn>3</mn></msup><mo>)</mo><mo>·</mo><msup><mn>25</mn><mn>2</mn></msup></mrow><mrow><msup><mn>10</mn><mn>4</mn></msup><mo>·</mo><msup><mn>2</mn><mn>10</mn></msup></mrow></mfrac></math> do najprostszej postaci.</p>",
       "choices": [],
@@ -612,8 +614,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "procenty",
-        "równania z jedną zmienną"
+        "procenty"
       ],
       "prompt_html": "<p>Wszyscy członkowie klubu sportowego uczestniczyli w zawodach, każdy wyłącznie w jednej dyscyplinie. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> z nich skakała w dal, 15% - rzucało oszczepem, a 35% - reprezentowało klub w biegach przełajowych. Pozostałe 5 osób skakało wzwyż. Oblicz, ilu członków należy do tego klubu. Zapisz obliczenia i odpowiedź.</p>",
       "choices": [],
@@ -683,7 +684,6 @@
       "points": 3,
       "topics": [
         "pierścień kołowy",
-        "koła / okręgi",
         "pole i obwód"
       ],
       "prompt_html": "<p>Klomb ma kształt koła o średnicy 8 m. Wokół klombu biegnie chodnik o szerokości 2 m. Jaką powierzchnię ma chodnik? Zapisz obliczenia i odpowiedź.</p>",
@@ -706,8 +706,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "prędkość / droga / czas",
-        "równania z jedną zmienną"
+        "prędkość / droga / czas"
       ],
       "prompt_html": "<p>Agatka i Jacek mieszkają w tym samym domu. Agatka wyszła z domu do szkoły o godzinie 7:00. Średnia prędkość marszu dziewczynki na całej trasie była równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac></math>. Jacek pojechał do szkoły rowerem i jego średnia prędkość na tej trasie była równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn></math><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac></math>. Oboje dotarli do szkoły o 7:50. O której godzinie Jacek wyjechał z domu? Zapisz obliczenia i odpowiedź.</p>",
       "choices": [],
@@ -730,7 +729,8 @@
       "points": 3,
       "topics": [
         "graniastosłupy",
-        "proporcjonalność prosta"
+        "proporcjonalność prosta",
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>W czasie ulewnego deszczu prostopadłościenny zbiornik o podstawie 16 dm x 25 cm i wysokości 10 cm został wypełniony do 0,4 wysokości. Oblicz ile litrów wody spadło na obszar 1 ara podczas tego deszczu. Zapisz obliczenia i odpowiedź.</p>",
       "choices": [],
@@ -753,8 +753,7 @@
       "points": 4,
       "topics": [
         "zliczanie / metody zliczania",
-        "szacowanie (zamiast obliczania)",
-        "zagadki logiczne"
+        "szacowanie (zamiast obliczania)"
       ],
       "prompt_html": "<p>Z pnia jabłoni, która rośnie w sadzie pana Antoniego, wyrastają 3 konary. Z każdego konara wyrastają 4 gałęzie, a z każdej gałęzi wyrasta 5 gałązek. Na każdej gałązce rosło 6 lub 7 jabłek, niestety zawsze wśród nich jedno lub dwa były robaczywe. Pan Antoni postanowił zerwać jabłka z jabłoni, ale obiecał pani Zosi, że zostawi na drzewie co najmniej połowę zdrowych owoców. Zerwał już 301. jabłko. Czy ma szansę dotrzymać obietnicy? Zapisz obliczenia i odpowiedź.</p>",
       "choices": [],

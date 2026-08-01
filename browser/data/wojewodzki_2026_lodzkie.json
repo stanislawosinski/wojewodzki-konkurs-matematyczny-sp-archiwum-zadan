@@ -18,8 +18,7 @@
       "points": 3,
       "topics": [
         "okrąg wpisany i opisany",
-        "sześciokąty foremne",
-        "trójkąty"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Trójkąt równoboczny i sześciokąt foremny mają boki równej długości. Ile razy pole koła wpisanego w sześciokąt foremny jest większe od pola koła wpisanego w trójkąt równoboczny?</p><p>Zaznacz odpowiedź spośród podanych.</p>",
       "choices": [
@@ -46,7 +45,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "kombinatoryka",
+        "zliczanie / metody zliczania",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Na płaszczyźnie zaznaczono <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> punktów, wśród których żadne trzy nie są współliniowe. Każde dwa punkty połączono odcinkiem. Gdyby punktów było o 2 mniej, to poprowadzono by o 21 mniej odcinków. Ile punktów zaznaczono na płaszczyźnie?</p><p>Zaznacz odpowiedź spośród podanych.</p>",
@@ -74,8 +73,8 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
+        "okrąg wpisany i opisany",
         "układ współrzędnych",
-        "koła / okręgi",
         "pole i obwód"
       ],
       "prompt_html": "<p>W układzie współrzędnych poprowadzono okrąg, którego średnicą jest odcinek o końcach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>3</mn><mo>,</mo><mn>7</mn><mo>)</mo></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>Q</mi><mo>=</mo><mo>(</mo><mn>5</mn><mo>,</mo><mn>3</mn><mo>)</mo></mrow></math>. Ile wynosi pole kwadratu opisanego na tym okręgu?</p><p>Zaznacz odpowiedź spośród podanych.</p>",
@@ -131,7 +130,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "bryły"
+        "bryły obrotowe"
       ],
       "prompt_html": "<p>Dane są bryły obrotowe: walec i stożek. Wysokość stożka jest trzykrotnie dłuższa od promienia podstawy walca, a wysokość walca jest trzykrotnie dłuższa od promienia podstawy stożka. Ponadto objętość stożka jest trzykrotnie większa od objętości walca. Wskaż zdanie prawdziwe.</p><p>Zaznacz odpowiedź spośród podanych.</p>",
       "choices": [
@@ -158,8 +157,9 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "potęgi i pierwiastki",
-        "wzory skróconego mnożenia"
+        "wzory skróconego mnożenia",
+        "działania na potęgach",
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Oblicz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>40</mn><mn>2</mn></msup><mo>·</mo><msup><mn>50</mn><mn>2</mn></msup><mo>+</mo><msup><mn>2</mn><mn>2</mn></msup><mo>·</mo><mn>2000</mn><mo>·</mo><mn>13</mn><mo>+</mo><mfrac><msup><mn>52</mn><mn>2</mn></msup><msup><mn>2</mn><mn>2</mn></msup></mfrac></mrow></msqrt></math>. Zapisz obliczenia.</p>",
       "choices": [],
@@ -203,7 +203,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "wzory skróconego mnożenia"
+        "wzory skróconego mnożenia",
+        "podzielność"
       ],
       "prompt_html": "<p>Wyznacz wszystkie możliwe pary liczb całkowitych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>x</mi><mo>,</mo><mi>y</mi><mo>)</mo></mrow></math>, które spełniają równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><msup><mi>y</mi><mn>2</mn></msup><mo>=</mo><mn>4</mn></mrow></math>. Zapisz obliczenia.</p>",
       "choices": [],
@@ -225,7 +226,7 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "zagadki logiczne",
+        "liczby pierwsze",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Na urodzinach babci Teresy w 2026 roku wnuczek zapytał: „Babciu, w którym roku się urodziłaś?”. Babcia odpowiedziała: „Dawno wnusiu, w pierwszej połowie XX wieku. Gdyby w liczbie oznaczającej rok mojego urodzenia zamienić miejscami cyfrę jedności i dziesiątek, byłabym o 36 lat młodsza niż jestem. Suma cyfr roku mojego urodzenia jest równa iloczynowi najmniejszej jednocyfrowej liczby pierwszej i najmniejszej dwucyfrowej liczby pierwszej”. Które urodziny obchodzi w 2026 roku babcia Teresa? Zapisz obliczenia.</p>",
@@ -249,8 +250,7 @@
       "points": 6,
       "topics": [
         "czworokąty",
-        "kąty",
-        "proporcjonalność prosta"
+        "kąty"
       ],
       "prompt_html": "<p>Suma długości ramion trapezu równoramiennego stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>11</mn></mfrac></math> jego obwodu, a stosunek długości podstaw jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>:</mo><mn>5</mn></mrow></math>. Wyznacz miary kątów tego trapezu. Zapisz obliczenia.</p>",
       "choices": [],
@@ -272,8 +272,7 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "reszta z dzielenia",
-        "zagadki logiczne"
+        "reszta z dzielenia"
       ],
       "prompt_html": "<p>Dziadek Kazimierz ma mniej niż 10 wnuków. Dla każdego z nich przygotował po 8 cukierków. Gdyby dziadek miał o jednego wnuka więcej i rozdałby wszystkim cukierki po równo, wówczas zostałoby mu jeszcze 6 cukierków. Natomiast gdyby miał o jednego wnuka mniej i rozdałby wszystkim cukierki po równo, to zostałyby mu jeszcze 3 cukierki. Ile wnuków ma dziadek, jeśli wiadomo, że liczba przygotowanych cukierków była nie mniejsza niż 30 i nie większa niż 60? Zapisz obliczenia.</p>",
       "choices": [],
@@ -321,7 +320,8 @@
       "type": "open",
       "points": 6,
       "topics": [
-        "graniastosłupy"
+        "graniastosłupy",
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Suma długości wszystkich krawędzi prostopadłościanu wynosi 32 cm. Jeśli długość każdej krawędzi zwiększymy o 1 cm, to objętość tego prostopadłościanu wzrośnie o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>30</mn><mfrac><mn>2</mn><mn>9</mn></mfrac></mrow></math> cm³. Oblicz pole powierzchni całkowitej tego prostopadłościanu. Zapisz obliczenia.</p>",
       "choices": [],

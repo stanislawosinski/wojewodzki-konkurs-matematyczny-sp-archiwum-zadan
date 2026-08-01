@@ -45,7 +45,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zliczanie / metody zliczania"
+        "zbiory / zasada włączeń i wyłączeń"
       ],
       "prompt_html": "<p>W grupie 32 osób każda osoba uczy się co najmniej jednego z dwóch języków: angielskiego lub niemieckiego. Spośród nich 20 osób uczy się języka angielskiego, a 18 uczy się języka niemieckiego. Ile osób w tej grupie uczy się języka niemieckiego i nie uczy się języka angielskiego?</p>",
       "choices": [
@@ -234,7 +234,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Dziewiąta część liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>27</mn><mn>12</mn></msup><mo>−</mo><mn>9</mn></math> jest równa</p>",
       "choices": [
@@ -261,8 +262,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
-        "usuwanie niewymierności z mianownika"
+        "usuwanie niewymierności z mianownika",
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Jeśli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><msqrt><mn>2</mn></msqrt><mo>−</mo><mn>1</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>1</mn><mo>+</mo><msqrt><mn>2</mn></msqrt></math>, to wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>x</mi><mo>−</mo><mi>y</mi></mrow><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow></mfrac></math> jest równa</p>",
       "choices": [
@@ -289,8 +290,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty",
-        "kąty"
+        "kąty",
+        "trójkąty"
       ],
       "prompt_html": "<p>Na zewnątrz kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> zbudowano trójkąt równoboczny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDK</mi></math> (tak jak na rysunku). Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AKC</mi></math> jest równa</p>",
       "choices": [
@@ -346,8 +347,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
-        "zliczanie / metody zliczania"
+        "wielokąty"
       ],
       "prompt_html": "<p>Ile przekątnych ma czternastokąt wypukły?</p>",
       "choices": [
@@ -374,8 +374,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty",
-        "dwusieczna kąta / symetralna odcinka"
+        "podobieństwo i skala",
+        "trójkąty"
       ],
       "prompt_html": "<p>W trójkącie prostokątnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> wykreślono symetralną przeciwprostokątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>. Wskaż równanie poprawnie opisujące odcinki proporcjonalne.</p>",
       "choices": [
@@ -404,7 +404,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "bryły obrotowe"
       ],
       "prompt_html": "<p>Jak zmieni się objętość walca, gdy jego wysokość zwiększymy dwa razy, a równocześnie jego promień podstawy zmniejszymy dwa razy?</p>",
       "choices": [
@@ -431,7 +431,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "bryły obrotowe"
       ],
       "prompt_html": "<p>Ile jest równe pole powierzchni całkowitej bryły powstałej w wyniku obrotu kwadratu wokół swojej przekątnej o długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>2</mn></msqrt></math> cm?</p>",
       "choices": [
@@ -458,7 +458,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "bryły"
+        "liczba krawędzi, ścian i wierzchołków"
       ],
       "prompt_html": "<p>Dwudziestościan foremny ma dwadzieścia ścian w kształcie trójkątów równobocznych. Ile ma krawędzi?</p>",
       "choices": [
@@ -486,7 +486,8 @@
       "points": 1,
       "topics": [
         "pierścień kołowy",
-        "koła / okręgi"
+        "koła / okręgi",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Dane są dwa okręgi współśrodkowe. Cięciwa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> większego okręgu ma długość 20 i jest styczna do mniejszego okręgu. Pierścień utworzony między tymi okręgami ma powierzchnię</p>",
       "choices": [
@@ -515,8 +516,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "podzielność",
         "reszta z dzielenia",
+        "podzielność",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Przy dzieleniu liczby naturalnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> przez 5 otrzymujemy resztę 1, a przy dzieleniu liczby naturalnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> przez 5 resztę 2. Wykaż, że suma kwadratów liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest podzielna przez pięć.</p>",
@@ -539,7 +540,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "bryły"
+        "bryły obrotowe",
+        "okrąg wpisany i opisany"
       ],
       "prompt_html": "<p>W stożek, którego przekrojem osiowym jest trójkąt równoboczny, wpisano kulę o objętości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>288</mn><mi>π</mi></math> cm³. Oblicz objętość stożka.</p>",
       "choices": [],

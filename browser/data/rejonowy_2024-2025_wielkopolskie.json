@@ -44,6 +44,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "ułamki okresowe / rozwinięcia dziesiętne",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Na sto czterdziestym dziewiątym miejscu po przecinku w rozwinięciu dziesiętnym liczby 4,205(3687) znajduje się cyfra:</p>",
@@ -125,7 +126,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Siódmą liczbą pierwszą jest?</p>",
       "choices": [
@@ -179,7 +180,9 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "wyrażenia algebraiczne",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Z podanego wzoru <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>=</mo><mfrac><mrow><mi>k</mi><mo>·</mo><mi>x</mi></mrow><mrow><mi>k</mi><mo>·</mo><mi>y</mi><mo>−</mo><mi>z</mi></mrow></mfrac></math> wyznacz „<em>k</em>”. Załóż, że wszystkie pozostałe niewiadome są liczbami dodatnimi.</p>",
       "choices": [
@@ -314,7 +317,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "czworokąty",
+        "trójkąty",
         "kąty"
       ],
       "prompt_html": "<p>Na poniższym rysunku pomocniczym przedstawiono czworokąt <em>PRST</em>, gdzie |<em>PR</em>| = |<em>RS</em>| = |<em>ST</em>|, kąt <em>PRS</em> = 100°, a kąt <em>RST</em> = 60°. Oblicz miarę kąta <em>PTS</em>.</p>",
@@ -373,7 +376,8 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki",
+        "działania na pierwiastkach",
+        "działania na potęgach",
         "usuwanie niewymierności z mianownika"
       ],
       "prompt_html": "<p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli zdanie jest fałszywe.</p>",
@@ -456,8 +460,9 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "podzielność",
         "graniastosłupy",
+        "liczby wymierne i niewymierne",
+        "podzielność",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Uzasadnij, że wśród dzielników liczby 12 są takie liczby: <em>x</em>, <em>y</em>, <em>z</em>, które należą do liczb naturalnych, że długość przekątnej „<em>d</em>” prostopadłościanu o krawędziach długości <em>x</em>, <em>y</em>, <em>z</em>, jest liczbą wymierną. Zapisz obliczenia i podaj uzasadnienie dla jednej trójki liczb, dla których przekątna „<em>d</em>” spełnia warunki zadania.</p>",

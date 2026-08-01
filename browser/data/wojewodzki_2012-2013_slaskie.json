@@ -17,7 +17,8 @@
       "type": "open",
       "points": 6,
       "topics": [
-        "zagadki logiczne"
+        "równania z jedną zmienną",
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>W puste białe pola „liczbowej krzyżówki” wstaw liczby tak, aby wszystkie działania były poprawne.</p>",
       "choices": [],
@@ -317,7 +318,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
+        "trójkąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>Obwód figury o kształcie i wymiarach przedstawionych na rysunku jest równy</p>",
@@ -398,7 +399,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "ułamki"
       ],
       "prompt_html": "<p>Która z poniższych liczb jest największa?</p>",
       "choices": [
@@ -437,7 +439,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Na wiosnę cenę nart równą 820 zł, obniżono o 10%, a następnie przed Bożym Narodzeniem te same narty kosztowały o 10% drożej. Po tych dwóch zmianach cen narty kosztowały</p>",
       "choices": [
@@ -660,7 +662,9 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "geometria"
+        "czworokąty",
+        "trójkąty",
+        "kąty"
       ],
       "prompt_html": "<p>Oceń, czy podane zdania są prawdziwe, czy fałszywe. Zaznacz właściwą odpowiedź.</p>",
       "choices": [
@@ -699,8 +703,8 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "podzielność",
-        "NWW / NWD"
+        "NWW / NWD",
+        "podzielność"
       ],
       "prompt_html": "<p>W szkole zorganizowano spotkanie, na którym obecni byli uczniowie oraz ich goście. W spotkaniu uczestniczyło mniej niż 400 osób. Wszyscy siedzieli na 51 ławkach – po tyle samo osób na każdej. Goście stanowili <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>12</mn></mfrac></math> liczby wszystkich uczestników.</p><p>Oceń, czy podane zdania są prawdziwe, czy fałszywe. Zaznacz właściwą odpowiedź.</p>",
       "choices": [

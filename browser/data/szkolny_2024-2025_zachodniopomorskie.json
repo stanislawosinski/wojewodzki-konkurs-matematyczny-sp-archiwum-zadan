@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "proporcjonalność prosta"
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Zegar w południe wskazywał dokładny czas. Zegar ten spóźnia się 20 sekund w ciągu godziny. Po upływie doby zegar będzie wskazywał godzinę</p>",
       "choices": [
@@ -56,8 +56,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zliczanie / metody zliczania",
-        "geometria"
+        "wielokąty"
       ],
       "prompt_html": "<p>Wielokąt, w którym suma liczby boków i przekątnych jest równa 15, to</p>",
       "choices": [
@@ -296,7 +295,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "proporcjonalność prosta"
+        "podobieństwo i skala"
       ],
       "prompt_html": "<p>Dwa miasta dzieli odległość 300 km. Na mapie w skali <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>:</mo><mn>7500000</mn></mrow></math> będzie to odcinek o długości:</p>",
       "choices": [
@@ -494,7 +493,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "ostatnia cyfra / cykliczność potęg",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Jaką cyfrę w rzędzie jedności ma liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>3</mn><mn>4</mn></msup><mo>+</mo><msup><mn>4</mn><mn>4</mn></msup><mo>+</mo><msup><mn>5</mn><mn>3</mn></msup></mrow></math>?</p>",
@@ -534,7 +533,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "wartość bezwzględna"
       ],
       "prompt_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mn>1</mn><mo>−</mo><msqrt><mn>3</mn></msqrt><mo>|</mo></mrow></math> jest równa:</p>",
       "choices": [
@@ -573,6 +572,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "ułamki",
         "nierówności"
       ],
       "prompt_html": "<p>Którą z liczb należy wpisać w miejsce <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>□</mo></math>, aby zależność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>5</mn><mn>8</mn></mfrac><mo>&lt;</mo><mfrac><mo>□</mo><mn>6</mn></mfrac><mo>&lt;</mo><mfrac><mn>7</mn><mn>8</mn></mfrac></mrow></math> była prawdziwa?</p>",
@@ -612,7 +612,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Pan Jan płacił za połączenie z Internetem 73 zł 20 gr miesięcznie. Kwota ta zawierała 22% podatku VAT. O ile zł obniży się opłata miesięczna, jeżeli opodatkowanie VAT połączeń internetowych spadnie do 7%?</p>",
       "choices": [],
@@ -701,8 +701,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "czworokąty",
         "trójkąty",
+        "czworokąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>Kwadrat ma obwód 32 dm. Środki dwóch kolejnych boków tego kwadratu połączono ze sobą i z wierzchołkiem, który nie należy do tych boków. Jakie jest pole otrzymanego w ten sposób trójkąta? Wykonaj rysunek. Zapisz obliczenia.</p>",

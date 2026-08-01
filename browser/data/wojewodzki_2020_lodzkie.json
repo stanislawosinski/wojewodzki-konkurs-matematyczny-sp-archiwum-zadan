@@ -99,7 +99,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki"
+        "notacja wykładnicza"
       ],
       "prompt_html": "<p>Średnia arytmetyczna liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4,8</mn><mo>·</mo><msup><mn>10</mn><mn>2019</mn></msup></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,32</mn><mo>·</mo><msup><mn>10</mn><mn>2020</mn></msup></math> jest równa:</p>",
       "choices": [
@@ -140,6 +140,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
+        "ułamki okresowe / rozwinięcia dziesiętne",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Setna cyfra rozwinięcia dziesiętnego ułamka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>111</mn></mfrac></math> to:</p>",
@@ -181,7 +182,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "procenty",
+        "zmiany procentowe",
         "statystyka opisowa"
       ],
       "prompt_html": "<p>W ciągu dwóch lat wiek czterech członków pewnej rodziny wzrósł odpowiednio o 4%, 5%, 10% i 20%. O ile procent wzrosła w tym czasie średnia wieku tych czterech osób?</p>",
@@ -223,7 +224,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "bryły"
+        "bryły obrotowe"
       ],
       "prompt_html": "<p>Promień kuli i promień podstawy stożka są równe i mają długość 4. Pole powierzchni kuli jest równe polu powierzchni całkowitej stożka. Tworząca tego stożka jest równa:</p>",
       "choices": [
@@ -306,8 +307,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "układ współrzędnych",
-        "symetrie"
+        "symetrie",
+        "układ współrzędnych"
       ],
       "prompt_html": "<p>Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi><mo>=</mo><mo>(</mo><mn>2</mn><mo>,</mo><mo>−</mo><mn>8</mn><mo>)</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>4</mn><mo>,</mo><mn>3</mn><mo>)</mo></math> są symetryczne względem punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>. Współrzędne punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> są równe:</p>",
       "choices": [
@@ -474,7 +475,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "bryły",
+        "bryły obrotowe",
+        "siatki brył",
         "trójkąty"
       ],
       "prompt_html": "<p>Mrówka zamierza wspiąć się na szczyt puszki w kształcie walca o wysokości 10 cm i średnicy podstawy 5 cm. Chce się jednak upewnić, czy w pobliżu nie czyha na nią mrówkojad, musi więc w drodze na szczyt obejść także puszkę dookoła. Najkrótsza droga, którą mrówka musi przebyć ma długość około: <em>(w obliczeniach przyjmij <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>π</mi><mo>≈</mo><mn>3</mn></math>)</em></p>",
@@ -517,7 +519,8 @@
       "points": 2,
       "topics": [
         "wzory skróconego mnożenia",
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach",
+        "wyłączanie czynnika przed znak pierwiastka"
       ],
       "prompt_html": "<p>Suma pewnych dwóch liczb wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>20</mn></msqrt></math>, a ich różnica <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>18</mn></msqrt></math>. Różnica kwadratów tych liczb jest równa:</p>",
       "choices": [
@@ -558,8 +561,7 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "układy równań",
-        "reszta z dzielenia"
+        "układy równań"
       ],
       "prompt_html": "<p>Liczba dwucyfrowa przy dzieleniu przez sumę swoich cyfr daje iloraz 4 i resztę 3. Jeśli jej cyfry przestawić, to uzyskana liczba jest o 5 większa od sześciokrotności sumy cyfr. Jaka to liczba?</p>",
       "choices": [],
@@ -607,8 +609,8 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "koła / okręgi",
-        "czworokąty"
+        "okrąg wpisany i opisany",
+        "koła / okręgi"
       ],
       "prompt_html": "<p>W koło o promieniu długości 10 wpisano kwadrat. Przez środki sąsiednich boków tego kwadratu poprowadzono cięciwę. Oblicz długość tej cięciwy oraz jej odległość od środka koła.</p>",
       "choices": [],
@@ -632,7 +634,7 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "procenty",
+        "zmiany procentowe",
         "prędkość / droga / czas"
       ],
       "prompt_html": "<p>Karol i Michał wyszli jednocześnie z tego samego domu do szkoły. Długość kroku Karola jest o 20% mniejsza od długości kroku Michała. Który z chłopców wcześniej dotrze do szkoły, jeśli wiadomo, że Karol robi w tym samym czasie o 20% więcej kroków niż Michał?</p>",

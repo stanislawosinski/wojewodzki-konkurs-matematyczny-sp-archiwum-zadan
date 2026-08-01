@@ -17,7 +17,7 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "podzielność"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Liczbę 2023 można przedstawić jako iloczyn trzech liczb naturalnych większych od 1. Prawdą jest, że:</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
       "choices": [
@@ -52,7 +52,7 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "kombinatoryka",
+        "zasada szufladkowa",
         "prawdopodobieństwo"
       ],
       "prompt_html": "<p>W szufladzie są 4 skarpetki czerwone, 4 zielone i 4 żółte. Wyciągamy skarpetki nie zaglądając do szuflady.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
@@ -89,7 +89,8 @@
       "points": 2,
       "topics": [
         "podzielność",
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>+</mo><msup><mn>3</mn><mn>2</mn></msup><mo>+</mo><msup><mn>3</mn><mn>3</mn></msup><mo>+</mo><mo>⋯</mo><mo>+</mo><msup><mn>3</mn><mn>60</mn></msup></math> jest podzielna przez:</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
       "choices": [
@@ -124,8 +125,9 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki",
-        "wzory skróconego mnożenia"
+        "pierwiastki zagnieżdżone",
+        "wzory skróconego mnożenia",
+        "wartość bezwzględna"
       ],
       "prompt_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><mn>9</mn><mo>+</mo><mn>4</mn><msqrt><mn>5</mn></msqrt></mrow></msqrt><mo>+</mo><msqrt><mrow><mn>9</mn><mo>−</mo><mn>4</mn><msqrt><mn>5</mn></msqrt></mrow></msqrt></math> jest:</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
       "choices": [
@@ -161,7 +163,7 @@
       "points": 2,
       "topics": [
         "ostrosłupy",
-        "potęgi i pierwiastki"
+        "siatki brył"
       ],
       "prompt_html": "<p>Siatka ostrosłupa tworzy kwadrat o boku długości 12 cm.</p><p>Przy każdym zdaniu wpisz TAK lub NIE.</p>",
       "choices": [
@@ -244,6 +246,7 @@
       "points": 5,
       "topics": [
         "podzielność",
+        "wzory skróconego mnożenia",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Udowodnij, że dla każdej liczby naturalnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> co najmniej jedna z liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>n</mi><mn>2</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>n</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></math> jest podzielna przez 4.</p>",
@@ -267,9 +270,8 @@
       "points": 5,
       "topics": [
         "czworokąty",
-        "pole i obwód",
-        "potęgi i pierwiastki",
-        "usuwanie niewymierności z mianownika"
+        "usuwanie niewymierności z mianownika",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Stosunek pól dwóch kwadratów wynosi 3, długość boku jednego jest o 2 cm dłuższa od długości boku drugiego kwadratu. Oblicz obwód większego kwadratu (wynik przedstaw w postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><msqrt><mi>c</mi></msqrt><mo>)</mo></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> są liczbami naturalnymi).</p>",
       "choices": [],
@@ -292,7 +294,7 @@
       "points": 5,
       "topics": [
         "ostrosłupy",
-        "potęgi i pierwiastki"
+        "siatki brył"
       ],
       "prompt_html": "<p>Sześcian rozcięto na trzy jednakowe ostrosłupy czworokątne. Narysuj siatkę i oblicz pole powierzchni całkowitej takiego jednego ostrosłupa. Krawędź sześcianu ma długość 4.</p>",
       "choices": [],
@@ -314,7 +316,7 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "procenty",
+        "stężenie procentowe / mieszaniny",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>W naczyniu był 3,5% roztwór soli kuchennej. Po odparowaniu 0,5 kg wody otrzymano roztwór 4%. Ile kilogramów roztworu było w naczyniu przed odparowaniem części wody?</p>",

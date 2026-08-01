@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Ile będzie równe wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mi>x</mi><mo>+</mo><mn>12</mn></mrow></math> gdy w miejsce <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> wstawimy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2</mn></msqrt></math>?</p>",
       "choices": [
@@ -60,7 +60,8 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach",
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Oblicz korzystając m.in. z faktu, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mroot><mi>a</mi><mi>n</mi></mroot><mo>=</mo><msup><mi>a</mi><mfrac><mn>1</mn><mi>n</mi></mfrac></msup></mrow></math> wartość wyrażenia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>8</mn></msqrt><mo>·</mo><mroot><mn>16</mn><mn>3</mn></mroot><mo>·</mo><mroot><mn>2</mn><mn>6</mn></mroot></mrow></math>. Wskaż otrzymany wynik:</p>",
       "choices": [
@@ -232,6 +233,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
+        "układ współrzędnych",
         "zagadki logiczne"
       ],
       "prompt_html": "<p>Konik polny porusza się po kartezjańskim układzie współrzędnych. Startuje z punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>3</mn><mo>,</mo><mn>2</mn><mo>)</mo></mrow></math> i w jednym ruchu idzie dwa kroki w lewo lub w prawo oraz jeden krok w górę lub w dół. Krok ma długość jednej jednostki. Na jakim polu nie może się znaleźć po 5 krokach?</p>",
@@ -319,8 +321,8 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "reszta z dzielenia",
-        "zagadki logiczne"
+        "kalendarz i czas",
+        "reszta z dzielenia"
       ],
       "prompt_html": "<p>Stefan Banach, najbardziej znany polski matematyk, urodził się 30.03.1892. Jaki to był dzień tygodnia? Pamiętaj, że rok 1900 nie był rokiem przestępnym.</p>",
       "choices": [
@@ -371,7 +373,7 @@
       "type": "closed_single",
       "points": 3,
       "topics": [
-        "bryły"
+        "bryły obrotowe"
       ],
       "prompt_html": "<p>Promień podstawy stożka jest 3 razy większy niż promień podstawy walca. Wysokość obu brył jest taka sama. Wskaż zdanie prawdziwe.</p>",
       "choices": [
@@ -457,8 +459,9 @@
       "type": "open",
       "points": 4,
       "topics": [
+        "działania na potęgach",
         "podzielność",
-        "potęgi i pierwiastki",
+        "wyłączanie wspólnego czynnika przed nawias",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Wykaż, że liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>3</mn><mn>15</mn></msup><mo>+</mo><msup><mn>9</mn><mn>7</mn></msup><mo>+</mo><msup><mn>27</mn><mn>4</mn></msup></mrow></math> jest podzielna przez 37.</p>",
@@ -528,10 +531,10 @@
       "type": "open",
       "points": 12,
       "topics": [
+        "działania na pierwiastkach",
         "usuwanie niewymierności z mianownika",
-        "potęgi i pierwiastki",
-        "układ współrzędnych",
-        "statystyka opisowa"
+        "zadania wieloczęściowe",
+        "szacowanie (zamiast obliczania)"
       ],
       "prompt_html": "<p>Rozważmy liczby:</p><ul><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mfrac><mn>10</mn><mrow><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>2</mn></mrow></mfrac></mrow></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><msqrt><mn>363</mn></msqrt></mrow></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><mo>|</mo><mi>AB</mi><mo>|</mo></mrow></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>A</mi><mo>=</mo><mo>(</mo><mn>0,(3)</mn><mo>;</mo><msqrt><mn>2</mn></msqrt><mo>−</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>)</mo></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>B</mi><mo>=</mo><mo>(</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><mo>;</mo><mo>−</mo><mn>0,(6)</mn><mo>)</mo></mrow></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> to objętość sześcianu o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mroot><mn>2</mn><mn>3</mn></mroot></mrow></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>e</mi></math> to obwód trójkąta prostokątnego, w którym najdłuższy bok ma długość 8, a jeden z boków jest o połowę krótszy</li></ul><p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mover><mi>x</mi><mo>¯</mo></mover></math> oznacza średnią arytmetyczną liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>,</mo><mi>b</mi><mo>,</mo><mi>c</mi><mo>,</mo><mi>d</mi><mo>,</mo><mi>e</mi></mrow></math>. Dla jakiej liczby naturalnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> spełniony jest warunek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>≤</mo><mover><mi>x</mi><mo>¯</mo></mover><mo>&lt;</mo><mi>n</mi><mo>+</mo><mn>1</mn></mrow></math>?</p>",
       "choices": [],
@@ -553,10 +556,10 @@
       "type": "open",
       "points": 11,
       "topics": [
-        "koła / okręgi",
         "pierścień kołowy",
-        "pole i obwód",
-        "układ współrzędnych"
+        "koła / okręgi",
+        "układ współrzędnych",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Oblicz obwód zacieniowanej figury. Czy pole części figury, która znajduje się w pierwszej ćwiartce układu współrzędnych stanowi ponad połowę pola całej figury?</p>",
       "choices": [],

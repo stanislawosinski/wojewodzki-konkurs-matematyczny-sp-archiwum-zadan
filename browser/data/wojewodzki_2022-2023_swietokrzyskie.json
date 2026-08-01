@@ -17,8 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną",
-        "NWW / NWD"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Dana jest liczba <strong>dwucyfrowa, której suma cyfr wynosi 6. Jeśli w tej liczbie przestawimy cyfry, to stosunek otrzymanej liczby do liczby przed przestawieniem cyfr będzie wynosił</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mfrac><mn>3</mn><mn>4</mn></mfrac></math>.</p><p><strong>Które zdanie <u>nie jest prawdziwe</u>? Wybierz odpowiedź spośród podanych.</strong></p>",
       "choices": [
@@ -57,8 +56,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kombinatoryka",
-        "zliczanie / metody zliczania"
+        "zliczanie / metody zliczania",
+        "liczby pierwsze"
       ],
       "prompt_html": "<p><strong>Ile niewłaściwych ułamków można utworzyć, jeśli liczniki i mianowniki wybieramy spośród liczb pierwszych nie większych niż 41?</strong></p><p><strong>Wybierz odpowiedź spośród podanych.</strong></p>",
       "choices": [
@@ -97,8 +96,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "reszta z dzielenia",
-        "podzielność"
+        "reszta z dzielenia"
       ],
       "prompt_html": "<p>Reszta z dzielenia liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> <strong>przez 4 jest równa 1. Reszta z dzielenia kwadratu liczby</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> przez 4 <strong>jest równa:</strong></p>",
       "choices": [
@@ -173,8 +171,8 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "potęgi i pierwiastki",
-        "podzielność"
+        "działania na potęgach",
+        "ostatnia cyfra / cykliczność potęg"
       ],
       "prompt_html": "<p><strong>Dane są trzy liczby</strong> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msup><mn>2</mn><mn>2023</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><msup><mn>4</mn><mn>2023</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><msup><mn>8</mn><mn>2023</mn></msup></math>.</p><p><strong>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</strong></p>",
       "choices": [
@@ -253,7 +251,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "stężenie procentowe / mieszaniny"
       ],
       "prompt_html": "<p><strong>Ile kilogramów wody należy odparować z 6 kg solanki o stężeniu 19</strong>-procentowym, aby <strong>otrzymać solankę o stężeniu 20 –</strong> procentowym?</p><p><strong>Wybierz odpowiedź spośród podanych.</strong></p>",
       "choices": [
@@ -446,7 +444,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kąty"
+        "wielokąty"
       ],
       "prompt_html": "<p><strong>O ile stopni jest mniejsza suma wszystkich miar kątów wewnętrznych wielokąta foremnego o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> bokach od sumy wszystkich miar kątów wewnętrznych wielokąta foremnego, którego liczba boków jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>n</mi></math>?</strong></p><p><strong>Wybierz odpowiedź spośród podanych.</strong></p>",
       "choices": [
@@ -527,7 +525,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy"
+        "liczba krawędzi, ścian i wierzchołków"
       ],
       "prompt_html": "<p><strong>Pewien graniastosłup ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> krawędzi, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi></math> ścian i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>w</mi></math> wierzchołków. Jeśli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mo>+</mo><mi>s</mi><mo>+</mo><mi>w</mi><mo>=</mo><mn>110</mn></math>,</strong> to <strong>podstawą tego graniastosłupa jest:</strong></p>",
       "choices": [
@@ -609,7 +607,8 @@
       "points": 3,
       "topics": [
         "prawdopodobieństwo",
-        "trójkąty"
+        "trójkąty",
+        "pole i obwód"
       ],
       "prompt_html": "<p><strong>W woreczku są kartki z liczbami: 1, 2, 3, 4, 5, 6,</strong> 7, 8, 9. <strong>Michał chce wylosować z tego</strong> woreczka kolejno dwie kartki bez zwracania (tzn. p<strong>o wylosowaniu pierwszej kartki Michał</strong> nie wrzuci jej z powrotem do woreczka, tylko <strong>odłoży ją na bok</strong>) i <strong>narysować</strong> taki <strong>trójkąt równoramienny, że podstawa tego trójkąta będzie miała długość równą liczbie zapisanej na pierwszej wylosowanej kartce i wysokość trójkąta opuszczona na tę podstawę będzie równa</strong> liczbie zapisanej na drugiej wylosowanej kartce.</p><p><strong>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe,</strong> lub F – <strong>jeśli jest fałszywe.</strong></p>",
       "choices": [

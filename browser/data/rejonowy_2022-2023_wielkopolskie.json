@@ -17,8 +17,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "wyłączanie jednomianu przed nawias",
-        "ułamki"
+        "ułamki",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Dana jest liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>3001</mn><mo>+</mo><mfrac><mn>3001</mn><mn>3000</mn></mfrac><mo>−</mo><mn>3001</mn><mo>·</mo><mfrac><mn>3001</mn><mn>3000</mn></mfrac></math>. Wskaż zdanie fałszywe.</p>",
       "choices": [
@@ -136,7 +136,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Wynik działania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><msup><mn>7</mn><mn>2</mn></msup><mo>·</mo><msup><mn>8</mn><mn>38</mn></msup><mo>−</mo><mn>3</mn><mo>·</mo><msup><mn>2</mn><mn>120</mn></msup></math> zapisany w postaci potęgi liczby 2 wynosi:</p>",
       "choices": [
@@ -175,6 +176,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "podobieństwo i skala",
         "graniastosłupy"
       ],
       "prompt_html": "<p>Do pomalowania pewnej sześciennej kostki potrzeba 2,5 litra farby. Ile litrów tej samej farby będziemy potrzebować, jeśli zechcemy pomalować sześcienną kostkę o krawędzi 2 razy dłuższej niż dana?</p>",
@@ -215,7 +217,7 @@
       "points": 1,
       "topics": [
         "procenty",
-        "równania z jedną zmienną"
+        "ułamki"
       ],
       "prompt_html": "<p>Janek zaplanował dwudniową wycieczkę rowerową. Pierwszego dnia przejechał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>8</mn></mfrac></math> całej trasy. Drugiego dnia zepsuł mu się rower i przejechał tylko 20% z pozostałej części trasy. Zostało mu jeszcze 35 km do przejechania. Długość całej trasy wycieczki Janka wynosiła:</p>",
       "choices": [
@@ -254,7 +256,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Po podwyżce o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math>% chleb kosztuje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> zł, przed podwyżką chleb kosztował:</p>",
       "choices": [
@@ -294,7 +296,7 @@
       "points": 1,
       "topics": [
         "prawdopodobieństwo",
-        "podzielność"
+        "zbiory / zasada włączeń i wyłączeń"
       ],
       "prompt_html": "<p>Ze zbioru liczb naturalnych dwucyfrowych mniejszych od 30 wylosowano jedną liczbę. Prawdopodobieństwo tego, że wylosowana liczba jest podzielna przez 2 lub 3 wynosi:</p>",
       "choices": [
@@ -413,7 +415,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mrow><mo>(</mo><mo>−</mo><mn>142</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>·</mo><msup><mn>6</mn><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mo>−</mo><mn>142</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>·</mo><msup><mn>8</mn><mn>2</mn></msup></mrow></msqrt></math> jest równa:</p>",
       "choices": [
@@ -530,7 +533,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kąty"
+        "kąty",
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>O godzinie 19:20 kąt wypukły między wskazówkami minutową i godzinową zegara analogowego jest:</p>",
       "choices": [
@@ -766,7 +770,8 @@
       "points": 2,
       "topics": [
         "podzielność",
-        "dowodzenie / dowody"
+        "dowodzenie / dowody",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Udowodnij, że dla każdej liczby dwucyfrowej dodatniej spełniona jest własność, jeśli wstawimy w liczbie dwucyfrowej pomiędzy cyfrę dziesiątek i jedności cyfrę 6 i od otrzymanej liczby trzycyfrowej odejmiemy początkową liczbę dwucyfrową, to otrzymamy liczbę podzielną przez 30. Zapisz wszystkie obliczenia.</p>",
       "choices": [],

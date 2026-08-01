@@ -17,7 +17,8 @@
       "type": "open",
       "points": 20,
       "topics": [
-        "inne"
+        "geometria",
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>Rozwiąż krzyżówkę, wpisując litery w odpowiednie pola. Hasło to nazwa figury pokazanej na rysunku obok, konstrukcji polskiego matematyka Wacława Sierpińskiego. Hasło nie jest oceniane.</p><ol><li>Oś symetrii odcinka do niego prostopadła.</li><li>Czworokąt utworzony z dwóch trójkątów równobocznych o wspólnym boku.</li><li>Figura, która jest ścianą boczną ostrosłupa.</li><li>Wartość, od której odejmuje się daną liczbę.</li><li>Zbiór wszystkich punktów płaszczyzny równo oddalonych od danego punktu.</li><li>Część płaszczyzny ograniczona dwoma półprostymi o wspólnym początku.</li><li>Odcinek, który łączy dwa wierzchołki wielokąta nieleżące na tym samym boku.</li><li>Nazwa bryły, której szczególnym przypadkiem jest czworościan.</li><li>Wartość środkowa w uporządkowanym zbiorze liczb, który zawiera nieparzystą liczbę elementów.</li><li>Mianownik ułamka traktowanego jako zapis dzielenia.</li><li>Jedna setna danej wielkości.</li><li>Figura utworzona przez zaznaczenie wszystkich liczb nieujemnych na osi liczbowej.</li><li>Część płaszczyzny ograniczona przez dwa okręgi o wspólnym środku i różnych promieniach.</li><li>Jednostka miary kąta, w której miara kąta prostego wynosi 90.</li><li>Określenie wzajemnego położenia wysokości trójkąta i jego podstawy (lub jej przedłużenia), których długości są użyte do obliczenia pola powierzchni tego trójkąta.</li><li>Figura geometryczna, którą jest np.: promień koła, krawędź ostrosłupa, bok wielokąta.</li><li>Połowa średnicy okręgu.</li><li>Punkt wspólny krawędzi bocznych ostrosłupa.</li><li>Wyrażenie postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2023</mn><mn>2024</mn></msup></math>.</li><li>Figura będąca podstawą walca.</li></ol>",
       "choices": [],
@@ -124,8 +125,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
-        "wzory skróconego mnożenia"
+        "wzory skróconego mnożenia",
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><msqrt><mn>5</mn></msqrt><mo>−</mo><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow><mrow><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>−</mo><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow></mfrac><mo>·</mo><mfrac><mrow><mo>(</mo><msqrt><mn>5</mn></msqrt><mo>+</mo><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow><mrow><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>+</mo><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow></mfrac></math> jest równe</p>",
       "choices": [
@@ -152,8 +153,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty",
-        "procenty",
+        "zmiany procentowe",
         "pole i obwód"
       ],
       "prompt_html": "<p>Długość podstawy pewnego trójkąta zmniejszono o 30%, a jego wysokość zwiększono o 40%. W wyniku opisanych zmian pole tego trójkąta</p>",
@@ -264,7 +264,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy"
+        "liczba krawędzi, ścian i wierzchołków"
       ],
       "prompt_html": "<p>Liczba wszystkich krawędzi graniastosłupa jest o 14 większa od liczby wszystkich jego ścian. Podstawą tego graniastosłupa jest</p>",
       "choices": [
@@ -372,8 +372,7 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "podzielność",
-        "wzory skróconego mnożenia"
+        "podzielność"
       ],
       "prompt_html": "<p>Dane jest wyrażenie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>W</mi><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>4</mn><mi>x</mi><mo>−</mo><mn>5</mn></math>. Oceń prawdziwość poniższych zdań, jeżeli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><msup><mn>10</mn><mn>23</mn></msup></math>.</p>",
       "choices": [
@@ -400,9 +399,8 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "graniastosłupy",
         "ostrosłupy",
-        "potęgi i pierwiastki"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Na stole postawiono sześcian, a na nim drugi taki sam sześcian, tak że ściany, którymi bryły się stykały, pokryły się. Wyobraź sobie ostrosłup o podstawie będącej dolną podstawą pierwszego sześcianu i mający swój wierzchołek w punkcie, w którym przecinają się przekątne górnej podstawy drugiego sześcianu.</p>",
       "choices": [
@@ -458,7 +456,6 @@
       "topics": [
         "czworokąty",
         "trójkąty",
-        "potęgi i pierwiastki",
         "pole i obwód"
       ],
       "prompt_html": "<p>Trapez prostokątny zbudowano w następujący sposób: na jednym boku kwadratu o przekątnej długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msqrt><mn>3</mn></msqrt></math> dorysowano trójkąt prostokątny, taki że kąt ostry trapezu ma miarę 60°.</p>",
@@ -508,9 +505,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "trójkąty",
-        "koła / okręgi",
-        "potęgi i pierwiastki"
+        "trójkąty"
       ],
       "prompt_html": "<p>Dany jest trójkąt prostokątny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>, w którym przyprostokątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> ma długość 10, a przyprostokątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> ma długość 20. Wykreślono okrąg, którego średnicą jest dłuższa przyprostokątna tego trójkąta. Okrąg ten przecina przeciwprostokątną w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> (rys.). Wiedząc, że kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADB</mi></math> jest prosty, oblicz długości odcinków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DC</mi></math>.</p>",
       "choices": [],
@@ -534,8 +529,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "procenty",
-        "proporcjonalność prosta"
+        "procenty"
       ],
       "prompt_html": "<p>W fabryce realizowane jest zamówienie na wyprodukowanie pewnej liczby żarówek. W ciągu pierwszych 30 dni wyprodukowano 120 000 żarówek, co stanowi 30% zamówienia. Oblicz, o ile procent musi wzrosnąć produkcja dzienna w następnych dniach, jeżeli pozostałą część zamówienia fabryka powinna zrealizować w ciągu następnych 56 dni.</p>",
       "choices": [],

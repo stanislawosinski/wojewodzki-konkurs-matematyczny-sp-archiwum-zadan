@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Jaka jest suma dzielników liczby 170, będących liczbami pierwszymi?</p>",
       "choices": [
@@ -56,7 +56,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "ostrosłupy"
+        "siatki brył"
       ],
       "prompt_html": "<p>Który rysunek nie przedstawia siatki ostrosłupa?</p>",
       "choices": [
@@ -97,8 +97,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność",
-        "reszta z dzielenia"
+        "reszta z dzielenia",
+        "podzielność"
       ],
       "prompt_html": "<p>Agata i Paweł kolekcjonują kartki pocztowe. Mają ich więcej niż 40, ale mniej niż 80. Agata zauważyła, że jeśli liczbę kartek zmniejszyć o 3, to pozostała liczba kartek jest wielokrotnością liczby 8. Paweł zaś zauważył, że jeśli zmniejszyć liczbę kartek o 1, to pozostała ich liczba jest wielokrotnością liczby 5. Ile kartek jest w kolekcji Agaty i Pawła?</p>",
       "choices": [
@@ -137,7 +137,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy"
+        "liczba krawędzi, ścian i wierzchołków"
       ],
       "prompt_html": "<p>Suma liczby ścian, krawędzi i wierzchołków pewnego graniastosłupa jest równa 44. Podstawą tego graniastosłupa jest:</p>",
       "choices": [
@@ -340,6 +340,7 @@
       "points": 2,
       "topics": [
         "trójkąty",
+        "czworokąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>Jaką częścią kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> przedstawionego na rysunku jest zamalowany trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>APQ</mi></math>? Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> jest środkiem boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math>, punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Q</mi></math> jest środkiem boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math>.</p>",
@@ -501,8 +502,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "reszta z dzielenia",
-        "zagadki logiczne"
+        "kalendarz i czas",
+        "reszta z dzielenia"
       ],
       "prompt_html": "<p>Wiedząc, że pierwszy dzień roku 2010 był piątkiem, podaj najbliższy rok (w przyszłości), którego pierwszym dniem będzie poniedziałek.</p>",
       "choices": [
@@ -619,7 +620,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "kąty"
       ],
       "prompt_html": "<p>Dany jest trójkąt równoramienny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AC</mi><mo>=</mo><mi>CB</mi></mrow></math>. Na boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> zaznaczono punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> tak, że odcinki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DB</mi></math> są równe (rys. obok). Jaka jest miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACD</mi></math>?</p>",
       "choices": [
@@ -721,7 +723,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "wzory skróconego mnożenia"
+        "wzory skróconego mnożenia",
+        "ułamki"
       ],
       "prompt_html": "<p>Oblicz wartość wyrażenia arytmetycznego:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>1</mn><mo>−</mo><mfrac><mn>1</mn><mn>10</mn></mfrac><mo>)</mo><mo>·</mo><mo>(</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>10</mn></mfrac><mo>)</mo><mo>·</mo><mo>(</mo><mn>1</mn><mo>−</mo><mfrac><mn>1</mn><mn>11</mn></mfrac><mo>)</mo><mo>·</mo><mo>(</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>11</mn></mfrac><mo>)</mo><mo>·</mo><mo>(</mo><mn>1</mn><mo>−</mo><mfrac><mn>1</mn><mn>12</mn></mfrac><mo>)</mo><mo>·</mo><mo>(</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>12</mn></mfrac><mo>)</mo><mo>·</mo><mo>⋯</mo><mo>·</mo><mo>(</mo><mn>1</mn><mo>−</mo><mfrac><mn>1</mn><mn>99</mn></mfrac><mo>)</mo><mo>·</mo><mo>(</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>99</mn></mfrac><mo>)</mo><mo>·</mo><mo>(</mo><mn>1</mn><mo>−</mo><mfrac><mn>1</mn><mn>100</mn></mfrac><mo>)</mo><mo>·</mo><mo>(</mo><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mn>100</mn></mfrac><mo>)</mo><mo>=</mo></mrow></math></p>",
       "choices": [],
@@ -744,8 +747,8 @@
       "points": 4,
       "topics": [
         "czworokąty",
-        "pole i obwód",
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Dany jest prostokąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> o obwodzie 52 cm. Z wierzchołka prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> poprowadzono półprostą, która podzieliła kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DAB</mi></math> na połowę, a obwód prostokąta na dwie części oznaczone na rysunku linią ciągłą i przerywaną. Oblicz pole prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> wiedząc, że długość linii ciągłej jest o 20 cm większa od długości linii przerywanej.</p>",
       "choices": [],
@@ -794,7 +797,8 @@
       "type": "open",
       "points": 5,
       "topics": [
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "ułamki"
       ],
       "prompt_html": "<p>Trzy beczki mają różną pojemność. Jeżeli napełnimy pustą drugą beczkę z pełnej pierwszej beczki, to w pierwszej zostanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>5</mn></mfrac></math> zawartości. Jeżeli napełnimy pustą trzecią beczkę z pełnej drugiej beczki, to w drugiej pozostanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>6</mn></mfrac></math> zawartości. Jeżeli napełnimy pustą drugą i trzecią beczkę z pełnej pierwszej, to w pierwszej zostanie 160 litrów. Oblicz pojemność każdej z tych beczek.</p>",
       "choices": [],

@@ -17,12 +17,9 @@
       "type": "open",
       "points": 20,
       "topics": [
-        "potęgi i pierwiastki",
-        "NWW / NWD",
-        "liczby rzymskie",
+        "działania na pierwiastkach",
         "podzielność",
-        "graniastosłupy",
-        "inne"
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>Rozwiąż krzyżówkę, wpisując cyfry w odpowiednie pola. Hasło w zacieniowanych okienkach, to kolejne cyfry rozwinięcia dziesiętnego liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2</mn></msqrt></math>. Hasło nie jest oceniane.</p><ul><li>a) Najmniejsza wspólna wielokrotność liczb: 1111 i 40.</li><li>b) Pierwiastek kwadratowy liczby 121.</li><li>c) Największy wspólny dzielnik liczb 42 i 70.</li><li>d) Liczba, której zapis w systemie rzymskim ma postać: CXXIX.</li><li>e) Iloraz liczb 333 i 3.</li><li>f) Wynik działania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>75</mn><mn>2</mn></msup><mo>−</mo><msup><mn>2</mn><mn>3</mn></msup><mo>·</mo><mn>45</mn><mo>·</mo><mn>15</mn><mo>−</mo><mn>132</mn></math></li><li>g) Spośród liczb 1578, 1574, 1572, 1570 podzielna przez 4.</li><li>h) Iloczyn drugiej potęgi liczby 2 i drugiej potęgi liczby 3.</li><li>i) Wynik działania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><mn>81</mn><mo>+</mo><mn>144</mn></mrow></msqrt><mo>+</mo><msqrt><mn>400</mn></msqrt><mo>−</mo><mroot><mn>729</mn><mn>3</mn></mroot></math></li><li>j) Długość boku kwadratu o polu 961 cm².</li><li>k) 4,6 godziny po zamianie na minuty.</li><li>l) Jedna trzecia największej liczby dwucyfrowej.</li><li>m) Wartość wyrażenia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>999</mn><mo>−</mo><mn>888</mn><mo>:</mo><mn>8</mn><mo>)</mo><mo>:</mo><mn>8</mn><mo>−</mo><mn>111</mn></math>.</li><li>n) Pole kwadratu o boku 23 cm.</li><li>o) Zaokrąglenie liczby 451 z dokładnością do setek.</li><li>p) Najmniejsza liczba trzycyfrowa podzielna przez 3.</li><li>q) Objętość prostopadłościanu o krawędziach 2 cm, 6 cm i 37 cm.</li><li>r) Odległość 0,998 km wyrażona w metrach.</li><li>s) Odjemna, gdy różnica jest równa (−2), a odjemnik jest równy 10.</li><li>t) Liczba krawędzi graniastosłupa prostego o podstawie dziesięciokąta.</li></ul>",
       "choices": [],
@@ -163,8 +160,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność",
-        "potęgi i pierwiastki"
+        "podzielność"
       ],
       "prompt_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>1</mn></msup><mo>+</mo><msup><mn>2</mn><mn>2</mn></msup><mo>+</mo><msup><mn>2</mn><mn>3</mn></msup><mo>+</mo><msup><mn>2</mn><mn>4</mn></msup><mo>+</mo><msup><mn>2</mn><mn>5</mn></msup><mo>+</mo><msup><mn>2</mn><mn>6</mn></msup></math> dzieli się przez</p>",
       "choices": [
@@ -242,7 +238,6 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kombinatoryka",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Na każdej z czterech kwadratowych kartek jest napisana jedna z czterech liter: K, O, R, A. Na każdej kartce jest inna litera. Ile najwięcej różnych, trzyliterowych wyrazów o podanych literach (mających lub niemających sensu) można ułożyć, układając kartki obok siebie?</p>",
@@ -321,7 +316,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zagadki logiczne"
+        "zasada szufladkowa"
       ],
       "prompt_html": "<p>W pudełku znajdują się kule: 5 białych, 8 żółtych i 10 czerwonych. Ile co najmniej należy wyjąć kul z pudełka, aby mieć pewność, że wśród wylosowanych kul znajdują się dokładnie dwie kule koloru białego?</p>",
       "choices": [
@@ -360,7 +355,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Wartość wyrażenia arytmetycznego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mo>−</mo><mn>1</mn><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mn>1</mn><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mo>−</mo><mn>1</mn><mo>)</mo></mrow><mn>2017</mn></msup><mo>−</mo><msup><mn>1</mn><mn>2018</mn></msup><mo>+</mo><msup><mn>2018</mn><mn>0</mn></msup></math> jest równa</p>",
       "choices": [
@@ -440,6 +435,7 @@
       "type": "true_false",
       "points": 4,
       "topics": [
+        "liczby pierwsze",
         "podzielność"
       ],
       "prompt_html": "<p>Oceń, czy podane zdania są prawdziwe czy fałszywe. Zaznacz właściwą odpowiedź.</p>",
@@ -559,8 +555,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "procenty",
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "procenty"
       ],
       "prompt_html": "<p>W trzech skrzynkach ułożono 560 jabłek. W pierwszej skrzynce jest o 20% więcej jabłek niż w drugiej i 2 razy więcej niż w trzeciej. Po ile jabłek znajduje się w każdej skrzynce?</p>",
       "choices": [],

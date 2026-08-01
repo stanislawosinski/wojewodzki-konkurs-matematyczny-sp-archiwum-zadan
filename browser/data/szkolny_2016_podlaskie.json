@@ -56,7 +56,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "proporcjonalność prosta"
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Zegar w południe wskazywał dokładny czas. Zegar ten spóźnia się 20 sekund w ciągu godziny. Po upływie doby zegar będzie wskazywał godzinę</p>",
       "choices": [
@@ -95,8 +95,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty",
         "czworokąty",
+        "trójkąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>Trójkąt równoboczny i prostokąt, z których zbudowana jest figura, mają takie same obwody. Bok trójkąta ma długość 12 cm. Jaka jest długość krótszego boku prostokąta?</p>",
@@ -177,7 +177,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zliczanie / metody zliczania"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Na tablicy narysowano rozłączne figury w kształcie kwadratów oraz trójkątów. Łączna liczba wierzchołków wszystkich figur jest równa 17. Ile trójkątów narysowano na tablicy?</p>",
       "choices": [
@@ -296,7 +296,6 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "nierówności",
         "ułamki"
       ],
       "prompt_html": "<p>Którą z liczb {1, 2, 3, 5} należy wpisać w miejsce kratki, aby zależność była prawdziwa?</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>8</mn></mfrac><mo>&lt;</mo><mfrac><mrow><mo>□</mo></mrow><mn>6</mn></mfrac><mo>&lt;</mo><mfrac><mn>7</mn><mn>8</mn></mfrac></math></p>",
@@ -415,6 +414,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "liczby pierwsze",
         "podzielność"
       ],
       "prompt_html": "<p>Ile zer ma na końcu liczba równa iloczynowi kolejnych dziesięciu liczb pierwszych?</p>",
@@ -454,8 +454,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
-        "zliczanie / metody zliczania"
+        "wielokąty"
       ],
       "prompt_html": "<p>Wielokąt, w którym suma liczby boków i przekątnych jest równa 15, to</p>",
       "choices": [
@@ -495,8 +494,7 @@
       "points": 1,
       "topics": [
         "czworokąty",
-        "pole i obwód",
-        "równania z jedną zmienną"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Długość prostokąta o polu 48 cm² jest trzy razy większa od jego szerokości. Krótszy bok prostokąta jest równy</p>",
       "choices": [
@@ -574,8 +572,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "ułamki",
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "ułamki"
       ],
       "prompt_html": "<p>Suma dwóch ułamków jest równa 1, a ich różnica 0,1. Mniejszy z nich to</p>",
       "choices": [
@@ -760,9 +758,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "czworokąty",
         "kąty",
-        "trójkąty"
+        "czworokąty"
       ],
       "prompt_html": "<p>Dany jest trapez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>. Kąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CBA</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CAB</mi></math> są równe oraz kąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DAC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DCA</mi></math> są równe. Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> ma 32°. Oblicz miarę kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADC</mi></math>.</p>",
       "choices": [],

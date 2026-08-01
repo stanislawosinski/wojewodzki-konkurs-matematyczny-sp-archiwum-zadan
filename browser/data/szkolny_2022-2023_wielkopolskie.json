@@ -56,7 +56,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "wyrażenia algebraiczne",
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Wartość liczbowa wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mo>(</mo><mi>x</mi><mi>y</mi><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup><mo>)</mo></math> dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mo>−</mo><mn>3</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mroot><mrow><mo>−</mo><mn>27</mn></mrow><mn>3</mn></mroot></math> jest równa:</p>",
       "choices": [
@@ -95,7 +96,6 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kombinatoryka",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Danych jest sześć różnych punktów, z których żadne trzy nie są współliniowe. Ile prostych wyznaczają te punkty?</p>",
@@ -135,7 +135,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "stężenie procentowe / mieszaniny"
       ],
       "prompt_html": "<p>Kasia dysponuje octem 10%. Ile wody należy dolać do octu 10%, aby otrzymać 3 kg octu 6%?</p>",
       "choices": [
@@ -214,7 +214,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Kropla wody ma objętość 0,1 cm³. Ile takich kropel wody potrzeba aby napełnić dzbanek o pojemności 1,5 litra?</p>",
       "choices": [
@@ -292,8 +292,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność",
-        "zliczanie / metody zliczania"
+        "podzielność"
       ],
       "prompt_html": "<p>Ile jest wszystkich liczb siedmiocyfrowych naturalnych postaci: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>63274</mn><mi>x</mi><mi>y</mi></math>, jeśli wiadomo, że są one podzielne przez 15?</p>",
       "choices": [
@@ -332,6 +331,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "kalendarz i czas",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Pewnego roku 5 kwietnia wypadł w piątek. Jakim dniem tygodnia był 2 marca tego roku?</p>",
@@ -371,7 +371,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>10</mn></msup><mo>+</mo><msup><mn>2</mn><mn>10</mn></msup><mo>+</mo><msup><mn>2</mn><mn>10</mn></msup><mo>+</mo><msup><mn>2</mn><mn>10</mn></msup></math> jest równa:</p>",
       "choices": [
@@ -449,7 +450,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "ostrosłupy"
+        "liczba krawędzi, ścian i wierzchołków"
       ],
       "prompt_html": "<p>Liczba wszystkich krawędzi ostrosłupa jest o 9 większa od liczby jego wierzchołków. Stąd wynika, że podstawą tego ostrosłupa jest:</p>",
       "choices": [
@@ -645,7 +646,7 @@
       "points": 3,
       "topics": [
         "czworokąty",
-        "trójkąty",
+        "kąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>W równoległoboku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> jest dwa razy dłuższy niż bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math>, a kąt ostry równoległoboku ma 40°. Punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> będący środkiem odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> połączono z wierzchołkiem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli zdanie jest fałszywe.</p>",
@@ -681,8 +682,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "zagadki logiczne",
-        "równania z jedną zmienną"
+        "układy równań"
       ],
       "prompt_html": "<p>Jasio zapytany o liczbę rodzeństwa odpowiedział: „Mam tyle samo sióstr co braci.”, jego siostra Ania na to samo pytanie odpowiedziała: „Mam dwa razy więcej braci niż sióstr.”</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli zdanie jest fałszywe.</p>",
       "choices": [
@@ -775,7 +775,8 @@
       "points": 2,
       "topics": [
         "podzielność",
-        "dowodzenie / dowody"
+        "dowodzenie / dowody",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Uzasadnij, że suma czterech kolejnych liczb naturalnych nieparzystych jest podzielna przez 8. Zapisz obliczenia.</p>",
       "choices": [],

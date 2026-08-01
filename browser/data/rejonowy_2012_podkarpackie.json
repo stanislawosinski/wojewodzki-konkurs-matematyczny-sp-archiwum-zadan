@@ -140,8 +140,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność",
-        "potęgi i pierwiastki"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Ile jest liczb pierwszych wśród następujących pięciu liczb:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>;</mo><mspace width=\"1em\"></mspace><mn>3</mn><mo>−</mo><mn>1</mn><mo>;</mo><mspace width=\"1em\"></mspace><msup><mn>3</mn><mn>2</mn></msup><mo>−</mo><mn>3</mn><mo>+</mo><mn>1</mn><mo>;</mo><mspace width=\"1em\"></mspace><msup><mn>3</mn><mn>3</mn></msup><mo>−</mo><msup><mn>3</mn><mn>2</mn></msup><mo>+</mo><mn>3</mn><mo>−</mo><mn>1</mn><mo>;</mo><mspace width=\"1em\"></mspace><msup><mn>3</mn><mn>4</mn></msup><mo>−</mo><msup><mn>3</mn><mn>3</mn></msup><mo>+</mo><msup><mn>3</mn><mn>2</mn></msup><mo>−</mo><mn>3</mn><mo>+</mo><mn>1</mn></math></p>",
       "choices": [
@@ -387,7 +386,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "zagadki logiczne"
+        "kalendarz i czas",
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Zegar na wieży pałacowej wybija pełne godziny. O godzinie 6:00 wybija sześć uderzeń w ciągu 8 sekund (jest to czas liczony od pierwszego do ostatniego uderzenia). Jedno uderzenie zegara trwa 0,5 sekundy. Jak długo zegar pałacowy wybija godzinę 8:00?</p>",
       "choices": [
@@ -469,7 +469,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Na wiosnę rower kosztował 1100 zł. We wrześniu właściciel sklepu dwukrotnie obniżył jego cenę za każdym razem o 10%. Ile kosztuje rower po obniżce?</p>",
       "choices": [
@@ -510,8 +510,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "układy równań",
-        "równania z jedną zmienną"
+        "układy równań"
       ],
       "prompt_html": "<p>Widoczna na rysunku waga znajduje się w równowadze. Marcin umieścił na szalkach wagi odważnik 20 g oraz bryły: sześciany i walce. Wszystkie bryły (sześciany i walce) ważą razem 500 g. Ile waży jeden walec?</p>",
       "choices": [
@@ -554,6 +553,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
+        "ułamki",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Państwo Kowalscy kupili mieszkanie składające się z dwóch pokoi, kuchni, łazienki i przedpokoju. Duży pokój jest trzy razy większy od małego i zajmuje połowę powierzchni mieszkania. Powierzchnia kuchni stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>7</mn></mfrac></math>, a łazienki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>12</mn></mfrac></math> powierzchni tego mieszkania. Jaką powierzchnię ma mieszkanie, jeśli przedpokój ma wymiary 1,5 m × 3 m?</p>",
@@ -595,7 +595,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "geometria",
+        "wielokąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>W pięciokącie wypukłym jedna z przekątnych ma 7 cm, a druga – wychodząca z tego samego wierzchołka – ma 8 cm. Przekątne te podzieliły cały pięciokąt na trzy trójkąty – każdy o obwodzie 20 cm. Obwód pięciokąta jest równy:</p>",
@@ -637,8 +637,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "trójkąty",
-        "kąty"
+        "kąty",
+        "trójkąty"
       ],
       "prompt_html": "<p>Na bokach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> trójkąta równobocznego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> zbudowano kwadraty, jak na rysunku. Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CNK</mi></math> jest równa:</p>",
       "choices": [
@@ -722,7 +722,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "graniastosłupy"
+        "siatki brył"
       ],
       "prompt_html": "<p>Na trzech ściankach sześcianu poprowadzono przekątne (rysunek obok). Taki sześcian można skleić z siatki przedstawionej na rysunku (siatki A, B, C, D przedstawiono poniżej):</p>",
       "choices": [
@@ -790,7 +790,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "NWW / NWD"
+        "NWW / NWD",
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Z pewnego portu wypływają w rejs trzy statki wycieczkowe. Pierwszy wypływa co 2 dni, drugi w każdy poniedziałek, a trzeci co 8 dni. Co ile dni wypływają wszystkie statki jednocześnie? W których dniach pierwszej połowy 2012 roku wszystkie statki będą wypływały razem, jeżeli po raz pierwszy wypłyną 2 stycznia 2012 roku? Podaj dokładne daty.</p>",
       "choices": [],
@@ -838,7 +839,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "proporcjonalność prosta"
+        "podobieństwo i skala"
       ],
       "prompt_html": "<p>Kuba porównywał dwa plany swojej miejscowości. Jeden z nich był sporządzony w skali <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>:</mo><mn>5000</mn></math>, a drugi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>:</mo><mn>20000</mn></math>. Na pierwszym odległość mierzona w linii prostej między domem Kuby a szkołą jest o 4,5 cm większa niż na drugim planie. Jaka jest rzeczywista odległość między domem Kuby a szkołą?</p>",
       "choices": [],
@@ -863,7 +864,7 @@
       "points": 5,
       "topics": [
         "równania z jedną zmienną",
-        "zagadki logiczne"
+        "ułamki"
       ],
       "prompt_html": "<p>Mama kupiła swoim trzem córkom Kasi, Oli i Ani czekoladki. Ponieważ dziewczynki nie przyszły jeszcze ze szkoły położyła czekoladki na stole w kuchni. Napisała karteczkę, aby podzieliły czekoladki równo między siebie i wyszła. Gdy przyszła ze szkoły Kasia zobaczyła na stole czekoladki, zgodnie z prośbą mamy przeliczyła je, wzięła jedną trzecią i poszła do koleżanki. Następnie przyszła ze szkoły Ola, zobaczyła na stole czekoladki, przeliczyła je, wzięła jedną trzecią i poszła do koleżanki. Przyszła ze szkoła Ania i postąpiła tak samo jak jej siostry. Wówczas na stole pozostało 8 czekoladek. Oblicz ile czekoladek kupiła mama. Kto i w jakiej ilości ma prawo do pozostałych czekoladek, jeśli podział miał być sprawiedliwy?</p>",
       "choices": [],

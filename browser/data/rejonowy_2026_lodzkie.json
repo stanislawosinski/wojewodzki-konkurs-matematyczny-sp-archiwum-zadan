@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "proporcjonalność prosta"
+        "podobieństwo i skala"
       ],
       "prompt_html": "<p>Na planie pewnego miasta wykonanego w skali 1:24 000 ulica Krótka ma długość 2,4 cm. Pewien turysta wykonał kserokopię tego planu w powiększeniu. Na otrzymanym wydruku ulica Krótka ma długość 3,6 cm. W jakiej skali jest wykonana przez turystę kopia planu tego miasta?</p>",
       "choices": [
@@ -56,8 +56,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "równania z jedną zmienną",
-        "wyrażenia algebraiczne"
+        "wyrażenia algebraiczne",
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Które z poniższych wyrażeń należy wpisać w miejsce wykropkowane w równaniu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>5</mn><mo>)</mo><mo>(</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>4</mn><mo>)</mo><mo>−</mo><mn>6</mn><mi>x</mi><mo>(</mo><mi>x</mi><mo>−</mo><mn>5</mn><mo>)</mo><mo>=</mo><mo>…</mo></math>, aby otrzymać równanie sprzeczne?</p>",
       "choices": [
@@ -97,7 +97,7 @@
       "points": 2,
       "topics": [
         "wzory skróconego mnożenia",
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Ile wynosi wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>5</mn><msqrt><mn>2</mn></msqrt><mo>−</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>−</mo><mo>(</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>5</mn><msqrt><mn>2</mn></msqrt><mo>)</mo><mo>(</mo><mn>5</mn><msqrt><mn>2</mn></msqrt><mo>−</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></math>?</p>",
       "choices": [
@@ -136,7 +136,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Cenę pewnego towaru podniesiono o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>%</mo></math>, a następnie obniżono o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>%</mo></math>. W wyniku obu tych zmian cena towaru zmalała o 4% względem ceny sprzed zmian. Ile wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math>?</p>",
       "choices": [
@@ -214,7 +214,8 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "ułamki"
+        "ułamki",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Oblicz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>156</mn><mn>963</mn></mfrac><mo>·</mo><mfrac><mn>369</mn><mn>321</mn></mfrac><mo>−</mo><mfrac><mn>246</mn><mn>651</mn></mfrac><mo>·</mo><mfrac><mn>325</mn><mn>642</mn></mfrac><mo>+</mo><mfrac><mn>369</mn><mn>321</mn></mfrac><mo>·</mo><mfrac><mn>165</mn><mn>963</mn></mfrac><mo>−</mo><mfrac><mn>246</mn><mn>651</mn></mfrac><mo>·</mo><mfrac><mn>326</mn><mn>642</mn></mfrac></math>. Zapisz obliczenia.</p>",
       "choices": [],
@@ -375,7 +376,7 @@
       "points": 12,
       "topics": [
         "układ współrzędnych",
-        "podzielność",
+        "liczby pierwsze",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>W układzie współrzędnych zaznaczono punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mo>(</mo><mi>a</mi><mo>,</mo><mi>b</mi><mo>)</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi><mo>=</mo><mo>(</mo><mi>c</mi><mo>,</mo><mi>d</mi><mo>)</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mo>(</mo><mi>e</mi><mo>,</mo><mi>f</mi><mo>)</mo></math>. Wiadomo, że:</p><ul><li>liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>,</mo><mi>b</mi><mo>,</mo><mi>c</mi><mo>,</mo><mi>d</mi><mo>,</mo><mi>e</mi><mo>,</mo><mi>f</mi></math> są nieujemne,</li><li>liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> są pierwsze oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest o 5 większe od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>,</li><li>punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math> leży na osi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi></math>, punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> leży na osi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>X</mi></math>,</li><li>liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> jest dzielnikiem każdej liczby naturalnej,</li><li>liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>e</mi></math> jest resztą z dzielenia liczby 2025 przez 6.</li></ul><p>Oblicz odległość punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>R</mi></math> od odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>PS</mi></math>. Zapisz obliczenia.</p>",

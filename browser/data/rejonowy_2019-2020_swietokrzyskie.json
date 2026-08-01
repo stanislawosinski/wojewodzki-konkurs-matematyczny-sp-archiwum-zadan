@@ -56,7 +56,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>W którym z poniższych przykładów cena towaru po obu zmianach będzie taka sama, jak cena towaru przed zmianami? Wybierz odpowiedź spośród podanych.</p>",
       "choices": [
@@ -95,7 +95,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "wartość bezwzględna"
       ],
       "prompt_html": "<p>Ile jest równa wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mo>−</mo><mn>6</mn><mo>−</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo><mo>|</mo><mo>−</mo><mo>|</mo><mo>−</mo><mn>13</mn><mo>+</mo><mn>7</mn><mo>|</mo></math>? Wybierz odpowiedź spośród podanych.</p>",
       "choices": [
@@ -134,7 +134,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "ułamki"
       ],
       "prompt_html": "<p>Jaką liczbę należy odjąć od ilorazu liczb 0,729 i (−0,3), aby otrzymać (−0,25)? Wybierz odpowiedź spośród podanych.</p>",
       "choices": [
@@ -173,7 +174,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "wyłączanie czynnika przed znak pierwiastka",
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Ile jest równa suma liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>96</mn></msqrt></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>54</mn></msqrt></math>? Wybierz odpowiedź spośród podanych.</p>",
       "choices": [
@@ -212,7 +214,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "ostatnia cyfra / cykliczność potęg",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Jaka cyfra będzie w rzędzie jedności liczby, którą otrzymamy po wykonaniu potęgowania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>2020</mn></msup></math>? Wybierz odpowiedź spośród podanych.</p>",
@@ -252,7 +254,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Ilucyfrową liczbę naturalną otrzymamy po wykonaniu wszystkich działań w wyrażeniu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>6</mn><mn>3</mn></msup><mo>·</mo><msup><mn>8</mn><mn>13</mn></msup><mo>·</mo><msup><mn>15</mn><mn>2</mn></msup><mo>·</mo><msup><mn>25</mn><mn>20</mn></msup></math>? Wybierz odpowiedź spośród podanych.</p>",
       "choices": [
@@ -291,8 +293,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "wyrażenia algebraiczne",
-        "potęgi i pierwiastki"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Wyrażenie „sześcian sumy kwadratu liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i potrojonej liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>” zapisane za pomocą symboli matematycznych, to:</p>",
       "choices": [
@@ -331,8 +332,7 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "reszta z dzielenia",
-        "zagadki logiczne"
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>1 stycznia 1990 roku Kamila zaczęła pisać pamiętniki. Na każdej kartce zapisywała wydarzenia z sześciu dni. Kamila przestała pisać pamiętniki, gdy napisała pięć 100-kartkowych pamiętników.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -399,7 +399,7 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki"
+        "notacja wykładnicza"
       ],
       "prompt_html": "<p>Dane są liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>0,0000025</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>0,00006</mn></math>.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -461,7 +461,8 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "wyrażenia algebraiczne"
+        "wyrażenia algebraiczne",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Dane jest wyrażenie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>y</mi><mo>(</mo><mn>3</mn><mi>x</mi><mo>−</mo><mi>y</mi><mo>)</mo><mo>−</mo><mo>(</mo><mn>4</mn><mi>x</mi><mo>−</mo><mi>y</mi><mo>)</mo><mo>·</mo><mo>(</mo><mo>−</mo><mi>x</mi><mo>+</mo><mn>3</mn><mi>y</mi><mo>)</mo></math>.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -497,6 +498,7 @@
       "points": 2,
       "topics": [
         "trójkąty",
+        "wyłączanie czynnika przed znak pierwiastka",
         "pole i obwód"
       ],
       "prompt_html": "<p>W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> długości boków <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> są odpowiednio równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>42</mn></msqrt></math> cm i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><msqrt><mn>6</mn></msqrt></math> cm, a wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> opuszczona z wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> na bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> ma długość 12 cm.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",

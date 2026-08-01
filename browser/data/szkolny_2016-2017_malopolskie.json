@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "proporcjonalność prosta"
+        "podobieństwo i skala"
       ],
       "prompt_html": "<p>Odległość w linii prostej między Suchą Beskidzką a Proszowicami wynosi 70 km.</p><p>Na mapie podano odległości między miejscowościami Sucha Beskidzka, Proszowice i Gorlice. Wynika z tego, że odległość w linii prostej między Proszowicami a Gorlicami wynosi:</p>",
       "choices": [
@@ -58,7 +58,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "kąty"
       ],
       "prompt_html": "<p>Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACB</mi></math> jest równa:</p>",
       "choices": [
@@ -99,7 +99,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zagadki logiczne"
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>W ciągu jednego miesiąca trzykrotnie wypadła niedziela w dniu parzystym. Dwudziesty dzień tego miesiąca wypadł w:</p>",
       "choices": [
@@ -255,7 +255,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy"
+        "graniastosłupy",
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Sześcian o krawędzi długości 1 m rozcięto na sześcianiki o krawędzi długości 1 decymetra. Gdyby je ustawić jeden na drugim, to wysokość tej budowli byłaby równa:</p>",
       "choices": [
@@ -294,8 +295,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zliczanie / metody zliczania",
-        "trójkąty"
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Ile wszystkich trójkątów zaznaczono na poniższym rysunku?</p>",
       "choices": [
@@ -376,7 +376,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "geometria"
+        "wielokąty"
       ],
       "prompt_html": "<p>Jaki wielokąt ma tyle samo przekątnych co boków?</p>",
       "choices": [
@@ -494,7 +494,7 @@
       "points": 2,
       "topics": [
         "symetrie",
-        "inne"
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Uchwałą Sejmiku Województwa Małopolskiego i Rady Miasta Krakowa w 2000 roku powołano Muzeum Armii Krajowej imienia gen. Emila Fieldorfa „Nila”. Logo tego muzeum nawiązuje do herbu województwa małopolskiego, którym jest ukoronowany orzeł w czerwonym polu.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli zdanie jest fałszywe.</p>",
       "choices": [
@@ -529,7 +529,7 @@
       "points": 2,
       "topics": [
         "równania z jedną zmienną",
-        "zagadki logiczne"
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Na krakowskim rynku o każdej pełnej godzinie rozbrzmiewa hejnał z Wieży Mariackiej. Strażak - hejnalista musi pokonać 239 stopni, aby dostać się na wieżę. Basia stoi na rynku w Krakowie w momencie, kiedy do końca doby pozostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>5</mn></mfrac></math> czasu, jaki minął od początku doby.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli zdanie jest fałszywe.</p>",
       "choices": [
@@ -583,8 +583,7 @@
       "points": 3,
       "topics": [
         "czworokąty",
-        "pole i obwód",
-        "procenty"
+        "pole i obwód"
       ],
       "prompt_html": "<p>W sezonie zimowym na rynku w Nowym Sączu ustawiono lodowisko w kształcie prostokąta o wymiarach 15 m × 20 m. Pewnego razu na lodowisku chciały pojeździć jednocześnie dwie grupy uczniów. Podzielono więc to lodowisko ścieżką (wyłączoną z jazdy i przeznaczoną dla opiekunów) prostopadłą do dłuższego boku lodowiska na dwie części tak, że jedna była dwa razy większa od drugiej. Oblicz pole powierzchni większej części lodowiska, przeznaczonej dla jeżdżących uczniów, wiedząc, że pole ścieżki stanowi 0,03 pola całego lodowiska.</p>",
       "choices": [],
@@ -606,8 +605,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "potęgi i pierwiastki",
-        "równania z jedną zmienną"
+        "wzrost wykładniczy"
       ],
       "prompt_html": "<p>Góral z okolic Nowego Targu zajmuje się hodowlą owiec oraz produkowaniem i sprzedażą twardych wędzonych serów zwanych oscypkami. W czwartym roku od rozpoczęcia hodowli, ze sprzedaży oscypków uzyskał 2000 zł. Po kilku latach gospodarz zorientował się, że w każdym kolejnym roku od rozpoczęcia hodowli kwota uzyskiwana ze sprzedaży serów podwajała się w stosunku do kwoty otrzymanej w poprzednim roku. Oszacował, że jeśli ta reguła nie zmieni się, to za dwa lata uzyska ze sprzedaży oscypków w ciągu roku 64000 zł. Odpowiedz na pytania:</p><ul><li>a) Który rok gospodarz hoduje owce i sprzedaje oscypki?</li><li>b) Jaką łączną kwotę (w złotych) uzyska on ze sprzedaży tych serów od roku, w którym rozpoczął ich produkcję do końca obecnego roku?</li></ul>",
       "choices": [],

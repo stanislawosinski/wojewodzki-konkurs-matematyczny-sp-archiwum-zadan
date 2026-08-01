@@ -17,7 +17,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kąty"
+        "kąty",
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Na miejsce zakwaterowania uczestnicy wycieczki przyjechali o 12:30. Jaki kąt tworzą wskazówki minutowa z godzinową na zegarze wskazującym tę godzinę?</p>",
       "choices": [
@@ -56,7 +57,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "reszta z dzielenia"
       ],
       "prompt_html": "<p>Dla uczestników wycieczki przeznaczono na zakwaterowanie siedem jednakowych domków. W każdym z nich znajdowały się cztery czteroosobowe pokoje. Ile miejsc pozostało wolnych w ostatnim z wynajętych domków, jeśli na wycieczkę razem z opiekunami pojechało 100 osób, a pozostałe domki miały maksymalną liczbę lokatorów?</p>",
       "choices": [
@@ -254,7 +255,7 @@
       "points": 1,
       "topics": [
         "czworokąty",
-        "potęgi i pierwiastki"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Dawid kupił kwadratową ramkę na zdjęcie z wycieczki. Ile wynosi szerokość ramki, jeżeli pole powierzchni kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> wynosi 256 cm², a bok kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KLMN</mi></math> ma długość 13 cm.</p>",
       "choices": [
@@ -451,8 +452,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "czworokąty",
-        "proporcjonalność prosta",
+        "podobieństwo i skala",
         "pole i obwód"
       ],
       "prompt_html": "<p>Na terenie ośrodka jest boisko wielofunkcyjne w kształcie prostokąta o wymiarach 16 m na 32 m. Pole powierzchni tego boiska na planie w skali 1:250 wynosi:</p>",
@@ -571,7 +571,6 @@
       "points": 2,
       "topics": [
         "czworokąty",
-        "trójkąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>Podczas wycieczki uczniowie mieli przypięte identyfikatory w kształcie trapezu równoramiennego, w którym ramiona miały długość 5 cm, a wysokość wynosiła 4 cm. Jaki obwód miał identyfikator, jeżeli jego pole wynosiło 24 cm²?</p>",
@@ -594,7 +593,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "zagadki logiczne"
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Zegar na wieży w pobliżu obserwatorium astronomicznego oznajmia każdą z pełnych godzin liczbą uderzeń równą liczbie wskazywanej przez małą wskazówkę na tarczy zegara (np. godzinę 2:00 i 14:00 – dwoma uderzeniami, godzinę 11:00 i 23:00 – jedenastoma uderzeniami), a 30 minut po każdej pełnej godzinie uderza raz. Uczestnicy wycieczki weszli do obserwatorium astronomicznego kwadrans po pewnej pełnej godzinie i wyszli z niego po upływie 3 godzin 20 minut. W czasie ich pobytu w obserwatorium zegar uderzył 37 razy. O której godzinie uczniowie weszli do obserwatorium? Podaj wszystkie możliwe odpowiedzi.</p>",
       "choices": [],

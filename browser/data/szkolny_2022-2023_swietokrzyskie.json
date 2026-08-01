@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Cena roweru wzrosła o 25%. O ile procent należy ją teraz zmniejszyć, aby rower kosztował tyle samo, co przedtem? Wybierz odpowiedź spośród podanych.</p>",
       "choices": [
@@ -95,7 +95,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Która z podanych liczb jest kwadratem liczby naturalnej? Wybierz odpowiedź spośród podanych.</p>",
       "choices": [
@@ -134,7 +134,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "ostatnia cyfra / cykliczność potęg",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Jaka jest cyfra jedności w zapisie dziesiętnym liczby będącej wynikiem działania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>30</mn></msup><mo>+</mo><msup><mn>4</mn><mn>40</mn></msup><mo>+</mo><msup><mn>5</mn><mn>50</mn></msup><mo>+</mo><msup><mn>6</mn><mn>60</mn></msup></math>? Wybierz odpowiedź spośród podanych.</p>",
@@ -174,7 +174,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "pierwiastki zagnieżdżone",
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mrow><mn>9</mn><mo>·</mo><msqrt><mrow><mn>3</mn><mo>·</mo><mroot><mrow><mn>9</mn><mo>·</mo><msqrt><mrow><mn>3</mn><mo>·</mo><mroot><mn>27</mn><mn>3</mn></mroot></mrow></msqrt></mrow><mn>3</mn></mroot></mrow></msqrt></mrow><mn>3</mn></mroot></math> jest równa:</p>",
       "choices": [
@@ -292,8 +293,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "podzielność",
-        "reszta z dzielenia"
+        "podzielność"
       ],
       "prompt_html": "<p>Suma stu jedenastu kolejnych liczb naturalnych jest liczbą parzystą.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -328,7 +328,9 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "działania na pierwiastkach",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Dane są liczby: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msup><mn>9</mn><mn>4</mn></msup><mo>+</mo><msup><mn>9</mn><mn>4</mn></msup><mo>+</mo><msup><mn>9</mn><mn>4</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><msup><mrow><mo>(</mo><msqrt><msup><mn>3</mn><mn>8</mn></msup></msqrt><mo>)</mo></mrow><mn>3</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mfrac><mrow><msup><mn>3</mn><mn>14</mn></msup><mo>−</mo><msup><mn>3</mn><mn>12</mn></msup></mrow><mn>6</mn></mfrac></math>.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -363,9 +365,9 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "trójkąty",
-        "pole i obwód",
-        "procenty"
+        "zmiany procentowe",
+        "podobieństwo i skala",
+        "pole i obwód"
       ],
       "prompt_html": "<p>W trójkącie prostokątnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> każdą z przyprostokątnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> zmniejszono o 60% i otrzymano trójkąt prostokątny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADE</mi></math>. Następnie każdą z przyprostokątnych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AE</mi></math> trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADE</mi></math> zwiększono o 40% i otrzymano trójkąt prostokątny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AFG</mi></math>. Punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>F</mi></math> leżą na prostej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>, a punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>G</mi></math> leżą na prostej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> (zob. rysunek).</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -461,7 +463,7 @@
       "type": "open",
       "points": 6,
       "topics": [
-        "potęgi i pierwiastki",
+        "działania na pierwiastkach",
         "ułamki",
         "procenty"
       ],
@@ -532,6 +534,7 @@
       "points": 4,
       "topics": [
         "podzielność",
+        "wyrażenia algebraiczne",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Wyznacz wszystkie liczby całkowite <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, dla których wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mo>−</mo><mn>7</mn></mrow><mrow><mi>a</mi><mo>+</mo><mn>2</mn></mrow></mfrac></math> jest liczbą całkowitą. Uzasadnij, że nie ma ich więcej.</p>",

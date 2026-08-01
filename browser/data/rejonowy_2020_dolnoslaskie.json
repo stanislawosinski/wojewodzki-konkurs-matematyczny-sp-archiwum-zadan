@@ -175,7 +175,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "kąty"
       ],
       "prompt_html": "<p>Trapez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACDG</mi></math> podzielono na 5 trójkątów równobocznych. Wskaż zdanie prawdziwe.</p>",
       "choices": [
@@ -216,6 +217,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "wartość bezwzględna",
         "układ współrzędnych"
       ],
       "prompt_html": "<p>Pewna liczba różna od 0 i od 1 leży na osi liczbowej cztery razy dalej od swojej odwrotności niż od swojej wartości bezwzględnej. Tą liczbą jest</p>",
@@ -255,7 +257,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Ile jest równa wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msqrt><mn>10</mn></msqrt><mo>·</mo><msqrt><mn>100</mn></msqrt><mo>·</mo><msqrt><mn>1000</mn></msqrt></mrow><mrow><mroot><mn>10</mn><mn>3</mn></mroot><mo>·</mo><mroot><mn>100</mn><mn>3</mn></mroot><mo>·</mo><mroot><mn>1000</mn><mn>3</mn></mroot></mrow></mfrac></math>?</p>",
       "choices": [
@@ -294,7 +296,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "koła / okręgi"
+        "koła / okręgi",
+        "trójkąty"
       ],
       "prompt_html": "<p>W kwadracie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> o boku długości 8 cm wyznaczono punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math> – środek boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> i poprowadzono okrąg przechodzący przez punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi></math>. Ile jest równy promień tego okręgu?</p>",
       "choices": [
@@ -418,8 +421,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "reszta z dzielenia",
-        "zagadki logiczne"
+        "kalendarz i czas",
+        "reszta z dzielenia"
       ],
       "prompt_html": "<p>W lutym pewnego roku przestępnego było 5 niedziel.</p><p>A. Trzecia środa w tym miesiącu przypadała …… lutego.</p><p>B. Liczba wtorków w następnym miesiącu była równa …… .</p>",
       "choices": [],
@@ -487,8 +490,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "czworokąty",
-        "kąty"
+        "kąty",
+        "czworokąty"
       ],
       "prompt_html": "<p>W równoległobokach przedstawionych na rysunku oznaczono przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>δ</mi></math> miary niektórych ich kątów. Zachodzą równości: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>−</mo><mi>β</mi><mo>=</mo><mn>44</mn><mo>°</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>−</mo><mi>γ</mi><mo>=</mo><mn>11</mn><mo>°</mo></math>. Stąd wynika, że</p><p>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>−</mo><mi>δ</mi></math> = …… stopni;</p><p>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi><mo>−</mo><mi>β</mi></math> = …… stopni;</p><p>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi><mo>−</mo><mi>δ</mi></math> = …… stopni.</p>",
       "choices": [],
@@ -512,8 +515,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "graniastosłupy",
-        "ostrosłupy"
+        "liczba krawędzi, ścian i wierzchołków"
       ],
       "prompt_html": "<p>Liczba wierzchołków pewnego graniastosłupa jest o 22 większa niż liczba jego ścian. Graniastosłup ten ma tyle samo krawędzi, co pewien ostrosłup.</p><p>Zatem ten ostrosłup ma:</p><p>A. …… krawędzi.</p><p>B. …… ścian.</p>",
       "choices": [],
@@ -559,8 +561,8 @@
       "points": 4,
       "topics": [
         "czworokąty",
-        "pole i obwód",
-        "wzory skróconego mnożenia"
+        "wzory skróconego mnożenia",
+        "pole i obwód"
       ],
       "prompt_html": "<p>Kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABEF</mi></math> i romb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCDE</mi></math> położone są tak, jak na rysunku. Różnica długości przekątnych rombu jest równa 10 cm. Ile jest równa różnica pól kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABEF</mi></math> i rombu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCDE</mi></math>?</p>",
       "choices": [],

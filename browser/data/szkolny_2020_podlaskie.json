@@ -179,7 +179,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "statystyka opisowa"
+        "statystyka opisowa",
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Oszczepnik oddał w rozgrywce finałowej trzy rzuty. Jego wyniki przedstawia tabela.</p><table><thead><tr><th>Pierwszy rzut</th><th>Drugi rzut</th><th>Trzeci rzut</th></tr></thead><tbody><tr><td>5900 cm</td><td>725 dm</td><td>0,083 km</td></tr></tbody></table><p>Średni wynik rzutów finałowych tego zawodnika to:</p>",
       "choices": [
@@ -206,8 +207,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
-        "podzielność"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Kwadrat iloczynu wszystkich jednocyfrowych liczb pierwszych jest równy</p>",
       "choices": [
@@ -234,6 +234,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "ułamki okresowe / rozwinięcia dziesiętne",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Jaka jest dziewięćdziesiąta siódma cyfra po przecinku w liczbie 0,2(4571)?</p>",
@@ -261,7 +262,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zagadki logiczne"
+        "wartość bezwzględna"
       ],
       "prompt_html": "<p>W poniższej piramidzie liczba w każdym pustym polu jest sumą dwóch liczb wpisanych w polach pod nią. Ile wynosi wartość bezwzględna liczby w najwyżej położonym polu?</p>",
       "choices": [
@@ -290,7 +291,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kąty"
+        "kąty",
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Ile stopni ma kąt, który zakreśli godzinowa wskazówka zegara w ciągu 120 minut?</p>",
       "choices": [
@@ -344,7 +346,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
+        "wyrażenia algebraiczne",
         "pole i obwód"
       ],
       "prompt_html": "<p>Wyrażenie algebraiczne przedstawiające obwód narysowanej figury to</p>",
@@ -401,8 +403,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kąty",
-        "zliczanie / metody zliczania"
+        "zliczanie / metody zliczania",
+        "geometria"
       ],
       "prompt_html": "<p>Ile par odcinków prostopadłych znajduje się na rysunku?</p>",
       "choices": [
@@ -431,7 +433,6 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
         "ułamki"
       ],
       "prompt_html": "<p>Iloczyn <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>1</mn><mo>·</mo><mn>3</mn></mrow><msup><mn>2</mn><mn>2</mn></msup></mfrac><mo>·</mo><mfrac><mrow><mn>2</mn><mo>·</mo><mn>4</mn></mrow><msup><mn>3</mn><mn>2</mn></msup></mfrac><mo>·</mo><mfrac><mrow><mn>3</mn><mo>·</mo><mn>5</mn></mrow><msup><mn>4</mn><mn>2</mn></msup></mfrac><mo>·</mo><mfrac><mrow><mn>4</mn><mo>·</mo><mn>6</mn></mrow><msup><mn>5</mn><mn>2</mn></msup></mfrac><mo>·</mo><mfrac><mrow><mn>5</mn><mo>·</mo><mn>7</mn></mrow><msup><mn>6</mn><mn>2</mn></msup></mfrac><mo>·</mo><mfrac><mrow><mn>6</mn><mo>·</mo><mn>8</mn></mrow><msup><mn>7</mn><mn>2</mn></msup></mfrac><mo>·</mo><mfrac><mrow><mn>7</mn><mo>·</mo><mn>9</mn></mrow><msup><mn>8</mn><mn>2</mn></msup></mfrac><mo>·</mo><mfrac><mrow><mn>8</mn><mo>·</mo><mn>10</mn></mrow><msup><mn>9</mn><mn>2</mn></msup></mfrac></math> jest równy</p>",
@@ -459,7 +460,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "ostrosłupy"
+        "liczba krawędzi, ścian i wierzchołków"
       ],
       "prompt_html": "<p>W każdym ostrosłupie</p>",
       "choices": [
@@ -515,7 +516,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "proporcjonalność prosta"
+        "podobieństwo i skala"
       ],
       "prompt_html": "<p>Odległość między dwiema miejscowościami na mapie jest równa 4 cm, a w terenie odległość ta wynosi 100 km. Mapa została wykonana w skali</p>",
       "choices": [

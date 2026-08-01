@@ -73,7 +73,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "wartość bezwzględna",
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><msqrt><mn>7</mn></msqrt><mo>−</mo><mn>2</mn><mo>|</mo><mo>−</mo><mo>|</mo><mn>2</mn><msqrt><mn>7</mn></msqrt><mo>−</mo><mn>9</mn><mo>|</mo></mrow></math> jest równa:</p>",
       "choices": [
@@ -101,7 +102,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Ile cyfr posiada liczba będąca wynikiem działania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>999</mn></mfrac><mo>·</mo><mo>(</mo><msup><mn>10</mn><mn>1998</mn></msup><mo>−</mo><mn>1</mn><mo>)</mo></mrow></math>?</p>",
       "choices": [
@@ -242,7 +243,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "ostrosłupy"
+        "ostrosłupy",
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Podstawą ostrosłupa o objętości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi></math> jest prostokąt. Wymiary tego ostrosłupa zmieniono w następujący sposób: jeden bok prostokąta zmniejszono trzykrotnie, drugi zwiększono o 200%, natomiast wysokość ostrosłupa zwiększono dwukrotnie. Objętość nowego ostrosłupa jest równa:</p>",
       "choices": [
@@ -298,8 +300,9 @@
       "type": "open",
       "points": 3,
       "topics": [
+        "działania na potęgach",
         "podzielność",
-        "potęgi i pierwiastki",
+        "wyłączanie wspólnego czynnika przed nawias",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Wykaż, że liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>3</mn><mn>79</mn></msup><mo>+</mo><msup><mn>9</mn><mn>40</mn></msup><mo>+</mo><msup><mn>27</mn><mn>27</mn></msup><mo>−</mo><msup><mn>81</mn><mn>20</mn></msup></mrow></math> jest podzielna przez 30.</p><p>Zapisz obliczenia.</p>",
@@ -322,8 +325,9 @@
       "type": "open",
       "points": 3,
       "topics": [
+        "działania na potęgach",
         "podzielność",
-        "potęgi i pierwiastki",
+        "wyłączanie wspólnego czynnika przed nawias",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Wykaż, że liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>8</mn><mo>+</mo><msup><mn>8</mn><mn>2</mn></msup><mo>+</mo><msup><mn>8</mn><mn>3</mn></msup><mo>+</mo><mo>…</mo><mo>+</mo><msup><mn>8</mn><mn>300</mn></msup></mrow><mn>73</mn></mfrac></math> jest liczbą naturalną.</p><p>Zapisz obliczenia.</p>",
@@ -346,8 +350,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "równania z jedną zmienną",
-        "reszta z dzielenia"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Sprzedawca w sklepie sportowym posiada pewną ilość piłek do tenisa ziemnego. Może je zapakować do pojemników po 4 piłki lub po 6 piłek. W każdym przypadku zostanie mu 3 piłki. Wybierając tylko większe pojemniki, zużyje o 10 pojemników mniej, niż gdyby użył tylko mniejszych pojemników. Ile piłek do tenisa ziemnego było w sklepie sportowym?</p><p>Zapisz obliczenia i odpowiedź.</p>",
       "choices": [],
@@ -439,8 +442,7 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "proporcjonalność odwrotna",
-        "równania z jedną zmienną"
+        "proporcjonalność odwrotna"
       ],
       "prompt_html": "<p>Dwadzieścia cztery zatrudnione osoby miało wykonać pewną pracę w ciągu 30 dni. Po sześciu dniach zatrudniono dodatkowo 8 pracowników. O ile dni skróci się czas wykonania tej pracy. (zakładamy stałą i równą wydajność pracy wszystkich zatrudnionych).</p><p>Zapisz obliczenia i odpowiedź.</p>",
       "choices": [],

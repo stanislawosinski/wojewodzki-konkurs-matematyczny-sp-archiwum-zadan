@@ -44,8 +44,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność",
-        "potęgi i pierwiastki"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Kwadrat sumy wszystkich jednocyfrowych liczb pierwszych ma wartość</p>",
       "choices": [
@@ -99,7 +98,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "ułamki"
       ],
       "prompt_html": "<p>Zaznacz wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><msup><mn>2,5</mn><mn>2</mn></msup><mo>−</mo><msup><mn>0,4</mn><mn>3</mn></msup><mo>·</mo><msup><mn>10</mn><mn>2</mn></msup></math>.</p>",
       "choices": [
@@ -126,7 +126,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "kąty"
+        "wielokąty"
       ],
       "prompt_html": "<p>Kąt wewnętrzny dziewięciokąta foremnego ma miarę</p>",
       "choices": [
@@ -153,8 +153,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "geometria",
-        "zagadki logiczne"
+        "wielokąty"
       ],
       "prompt_html": "<p>Rozcinając pewien wielokąt wzdłuż przekątnej, otrzymano dwa stukąty. Ile wierzchołków miał ten wielokąt przed rozcięciem?</p>",
       "choices": [
@@ -236,7 +235,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "proporcjonalność prosta",
+        "podobieństwo i skala",
         "pole i obwód"
       ],
       "prompt_html": "<p>Na planie w skali 1 : 15 000 pastwisko jest kwadratem o polu 9 cm². Zaznacz rzeczywistą powierzchnię tego pastwiska.</p>",
@@ -264,7 +263,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach",
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Do której potęgi należy podnieść liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt></math>, aby otrzymać liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>10</mn></msup></math>?</p>",
       "choices": [
@@ -347,8 +347,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
-        "szacowanie (zamiast obliczania)"
+        "porównywanie potęg i pierwiastków",
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Dane są liczby: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msup><mrow><mo>(</mo><msup><mn>4</mn><mn>2</mn></msup><mo>)</mo></mrow><mn>125</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><msup><mn>225</mn><mn>20</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><msup><mn>3</mn><mn>128</mn></msup><mo>·</mo><msup><mn>5</mn><mn>128</mn></msup></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><msup><mn>15</mn><mn>125</mn></msup></math>. Zaznacz prawdziwą nierówność.</p>",
       "choices": [
@@ -375,7 +375,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "stężenie procentowe / mieszaniny"
       ],
       "prompt_html": "<p>Do 4 kg dziesięcioprocentowego roztworu kwasu octowego dolano 1 kg wody. Zaznacz stężenie otrzymanej mieszaniny.</p>",
       "choices": [
@@ -402,6 +402,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "wyrażenia algebraiczne",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Uczniowie klasy VIIIa: Ania, Basia, Celina i Darek wyznaczali zmienną <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> ze wzoru <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mn>2</mn></mfrac><mo>·</mo><mi>h</mi></math>. W poniższej tabeli przedstawiono rezultaty ich pracy. Który z uczniów poprawnie wykonał to zadanie?</p><table><tr><td>Uczeń</td><td>Ania</td><td>Basia</td><td>Celina</td><td>Darek</td></tr><tr><td>Rezultat</td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mfrac><mrow><mi>h</mi><mi>P</mi><mo>−</mo><mi>a</mi></mrow><mn>2</mn></mfrac></math></td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mi>P</mi></mrow><mi>h</mi></mfrac><mo>−</mo><mi>a</mi></math></td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mfrac><mrow><mi>h</mi><mi>P</mi></mrow><mn>2</mn></mfrac><mo>−</mo><mi>a</mi></math></td><td><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mi>P</mi><mo>−</mo><mi>a</mi></mrow><mi>h</mi></mfrac></math></td></tr></table>",
@@ -429,7 +430,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "podobieństwo i skala"
       ],
       "prompt_html": "<p>Trójkąty prostokątne ABC i DEF są podobne. Przyprostokątne trójkąta ABC mają długości 5 cm i 12 cm, a przeciwprostokątna trójkąta DEF ma długość 26 cm. Jaką długość ma krótsza przyprostokątna trójkąta DEF?</p>",
       "choices": [
@@ -456,8 +458,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "reszta z dzielenia",
-        "potęgi i pierwiastki"
+        "ostatnia cyfra / cykliczność potęg",
+        "reszta z dzielenia"
       ],
       "prompt_html": "<p>Która cyfra znajduje się w rzędzie jedności liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><msup><mrow><mo>(</mo><mn>1</mn><mo>+</mo><msup><mn>2</mn><mn>2022</mn></msup><mo>)</mo></mrow><mn>2022</mn></msup></math>?</p>",
       "choices": [
@@ -484,7 +486,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "działania na pierwiastkach",
         "szacowanie (zamiast obliczania)"
       ],
       "prompt_html": "<p>Liczba całkowita <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> spełniająca warunek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>&lt;</mo><msqrt><mrow><msup><mn>11</mn><mn>2</mn></msup><mo>−</mo><msup><mn>7</mn><mn>2</mn></msup></mrow></msqrt><mo>&lt;</mo><mi>a</mi><mo>+</mo><mn>1</mn></math> jest równa</p>",
@@ -539,8 +541,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy",
-        "ostrosłupy"
+        "liczba krawędzi, ścian i wierzchołków"
       ],
       "prompt_html": "<p>Graniastosłup prawidłowy i ostrosłup prawidłowy mają po tyle samo krawędzi. Graniastosłup ma 10 ścian. Wskaż zdanie prawdziwe.</p>",
       "choices": [
@@ -589,8 +590,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "procenty",
-        "równania z jedną zmienną"
+        "procenty"
       ],
       "prompt_html": "<p>Stolarz wykonał w ciągu jednego dnia 230 listewek. Okazało się, że przekroczył plan o 15%. Ile listewek zaplanował wykonać w ciągu tego dnia? Zapisz obliczenia i odpowiedź.</p>",
       "choices": [],
@@ -612,8 +612,9 @@
       "type": "open",
       "points": 2,
       "topics": [
+        "kąty",
         "trójkąty",
-        "kąty"
+        "czworokąty"
       ],
       "prompt_html": "<p>Na bokach AB i BC trójkąta równobocznego ABC zbudowano kwadraty (patrz rysunek). Wyznacz miarę kąta wypukłego CFE. Zapisz obliczenia i odpowiedź.</p>",
       "choices": [],

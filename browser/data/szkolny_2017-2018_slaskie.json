@@ -17,7 +17,9 @@
       "type": "open",
       "points": 20,
       "topics": [
-        "inne"
+        "zadania wieloczęściowe",
+        "liczby pierwsze",
+        "podzielność"
       ],
       "prompt_html": "<p>Rozwiąż krzyżówkę, wpisując cyfry w odpowiednie pola. Hasło w zacieniowanych okienkach to kolejne cyfry rozwinięcia dziesiętnego liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>π</mi></math>. Hasło nie jest oceniane.</p><ul><li>a) Najmniejsza liczba pięciocyfrowa o jednakowych cyfrach.</li><li>b) Największa liczba dwucyfrowa, której suma cyfr wynosi 8, a różnica cyfr to 0.</li><li>c) Najmniejsza dwucyfrowa liczba pierwsza.</li><li>d) Odjemnik w różnicy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>907</mn><mo>−</mo><mn>755</mn></math>.</li><li>e) Największa trzycyfrowa liczba podzielna przez 3.</li><li>f) Wynik działania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>130</mn><mo>−</mo><mn>8</mn><mo>·</mo><mn>5</mn><mo>−</mo><mn>136</mn><mo>:</mo><mn>2</mn></math>.</li><li>g) Spośród liczb 1646, 1647, 1648, 1649 podzielna przez 9.</li><li>h) Druga potęga liczby 5.</li><li>i) Wynik działania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>50</mn><mo>−</mo><mn>8</mn><mo>·</mo><mn>5</mn><mo>+</mo><mn>24</mn></math>.</li><li>j) Długość boku kwadratu o polu 25 cm².</li><li>k) Liczba, której zapis w systemie rzymskim ma postać: CLXXXVII.</li><li>l) Największa dwucyfrowa liczba pierwsza.</li><li>m) Wartość wyrażenia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>99</mn><mo>−</mo><mn>88</mn><mo>:</mo><mn>8</mn><mo>)</mo><mo>:</mo><mn>8</mn><mo>−</mo><mn>4</mn></math>.</li><li>n) Pole kwadratu o boku 13 cm.</li><li>o) Zaokrąglenie liczby 346 z dokładnością do setek.</li><li>p) Największy wspólny dzielnik liczb 48 i 72.</li><li>q) Obwód trójkąta równobocznego o boku 111.</li><li>r) Odległość 1288,2 km wyrażona w metrach.</li><li>s) Najmniejsza liczba złożona.</li><li>t) Najmniejsza wspólna wielokrotność liczb: 2, 3, 4, 5, 6.</li></ul>",
       "choices": [],
@@ -63,8 +65,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "reszta z dzielenia",
-        "zagadki logiczne"
+        "kalendarz i czas",
+        "reszta z dzielenia"
       ],
       "prompt_html": "<p>W pewnym roku dzień 7 września przypadał w środę. Ile niedziel było od 7 września do końca listopada tego samego roku?</p>",
       "choices": [
@@ -103,7 +105,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Ile różnych dzielników, które są liczbami pierwszymi, ma liczba 1430?</p>",
       "choices": [
@@ -221,7 +223,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Tyle samo co 36 610 sekund to</p>",
       "choices": [
@@ -260,7 +262,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "nierówności"
+        "ułamki okresowe / rozwinięcia dziesiętne",
+        "ułamki"
       ],
       "prompt_html": "<p>Nierównością fałszywą jest</p>",
       "choices": [
@@ -455,8 +458,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "równania z jedną zmienną",
-        "zagadki logiczne"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Michaś i Staś mieli razem 30 monet w swoich skarbonkach. Staś przełożył ze swojej skarbonki 5 monet do skarbonki Michasia, a następnie Michaś przełożył 7 monet ze swojej skarbonki do skarbonki Stasia. Teraz Staś ma 2 razy mniej monet niż Michaś. Na początku Staś miał w skarbonce</p>",
       "choices": [
@@ -574,7 +576,7 @@
       "points": 4,
       "topics": [
         "równania z jedną zmienną",
-        "proporcjonalność prosta"
+        "ułamki"
       ],
       "prompt_html": "<p>Cena 1 litra soku firmy A stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>3</mn></mfrac></math> ceny 1 litra soku firmy B. Za 5 litrów soku firmy B zapłacono o 7 zł więcej niż za 5 litrów soku firmy A.</p><p>Oceń, czy podane zdania są prawdziwe, czy fałszywe.</p>",
       "choices": [
@@ -614,8 +616,7 @@
       "points": 4,
       "topics": [
         "NWW / NWD",
-        "podzielność",
-        "potęgi i pierwiastki"
+        "podzielność"
       ],
       "prompt_html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> w rozkładzie na czynniki pierwsze jest iloczynem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>3</mn></msup><mo>·</mo><msup><mn>3</mn><mn>2</mn></msup><mo>·</mo><mn>5</mn></math>, liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> w rozkładzie na czynniki pierwsze to iloczyn <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>2</mn></msup><mo>·</mo><msup><mn>3</mn><mn>3</mn></msup><mo>·</mo><msup><mn>5</mn><mn>2</mn></msup></math>.</p><p>Oceń, czy podane zdania są prawdziwe, czy fałszywe.</p>",
       "choices": [
@@ -654,7 +655,7 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Pan Jan za pobyt w pensjonacie zapłacił 30% kwoty, jaką przeznaczył na wakacje. Z pozostałej kwoty zapłacił 40% za wyżywienie. Na wydatki związane ze zwiedzaniem ciekawych miejsc wydał 30% pozostałej kwoty.</p><p>Oceń, czy podane zdania są prawdziwe, czy fałszywe.</p>",
       "choices": [
@@ -693,8 +694,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "trójkąty",
-        "kąty"
+        "kąty",
+        "trójkąty"
       ],
       "prompt_html": "<p>Kwadrat <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math> i trójkąt równoboczny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABE</mi></math> mają wspólny bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>. Wierzchołek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> znajduje się wewnątrz kwadratu. Przekątna <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> kwadratu i bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BE</mi></math> trójkąta przecinają się w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math>. Wykonaj odpowiedni rysunek i oblicz miarę kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ESC</mi></math>.</p>",
       "choices": [],
@@ -717,8 +718,7 @@
       "points": 3,
       "topics": [
         "czworokąty",
-        "pole i obwód",
-        "wzory skróconego mnożenia"
+        "pole i obwód"
       ],
       "prompt_html": "<p>W kwadracie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KLMN</mi></math> boki są o 5 cm dłuższe niż w kwadracie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>. Różnica pól tych kwadratów wynosi 175 cm². Oblicz długość boku kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>.</p>",
       "choices": [],
@@ -740,8 +740,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "nierówności",
-        "zagadki logiczne"
+        "nierówności"
       ],
       "prompt_html": "<p>Trzej bracia chcieli kupić grę komputerową. Gdy każdy z nich porównał swoje oszczędności z ceną gry, to okazało się, że Antkowi brakowało 5 zł, Bartkowi 25 zł, a Cyryl miał za mało o 27 zł. Suma ich oszczędności także nie wystarczyła, aby kupić grę. Oblicz, ile mogła kosztować gra, jeżeli jej cena była wyrażona w pełnych złotówkach?</p>",
       "choices": [],

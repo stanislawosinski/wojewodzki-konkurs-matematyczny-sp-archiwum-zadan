@@ -17,7 +17,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach",
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Która z podanych liczb <u>nie jest</u> równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>4</mn></msup></math>?</p><p>Jedna z podanych odpowiedzi jest poprawna. Zaznacz kółkiem właściwą odpowiedź.</p>",
       "choices": [
@@ -56,7 +57,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Która z podanych liczb jest ujemna?</p><p>Jedna z podanych odpowiedzi jest poprawna. Zaznacz kółkiem właściwą odpowiedź.</p>",
       "choices": [
@@ -95,6 +96,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "wartość bezwzględna",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Którą z podanych liczb należy zastąpić <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> w wyrażeniu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>|</mo><mo>−</mo><mn>13</mn><mo>+</mo><mn>7</mn><mo>|</mo><mo>−</mo><mo>|</mo><mn>18</mn><mo>−</mo><mi>x</mi><mo>|</mo></mrow><mrow><mo>−</mo><mo>|</mo><mo>−</mo><mn>9</mn><mo>+</mo><mn>5</mn><mo>|</mo><mo>+</mo><mn>1</mn></mrow></mfrac></math>, aby otrzymane wyrażenie arytmetyczne miało wartość 1?</p><p>Jedna z podanych odpowiedzi jest poprawna. Zaznacz kółkiem właściwą odpowiedź.</p>",
@@ -134,7 +136,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "notacja wykładnicza"
       ],
       "prompt_html": "<p>Która z podanych liczb jest trzykrotnością liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,25</mn><mo>·</mo><msup><mn>10</mn><mn>13</mn></msup></math>?</p><p>Jedna z podanych odpowiedzi jest poprawna. Zaznacz kółkiem właściwą odpowiedź.</p>",
       "choices": [
@@ -204,6 +206,7 @@
       "type": "true_false",
       "points": 4,
       "topics": [
+        "zmiany procentowe",
         "procenty"
       ],
       "prompt_html": "<p>25% liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest równe 20% liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe. Wybraną odpowiedź zaznacz kółkiem.</p>",
@@ -287,8 +290,8 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "równania z jedną zmienną",
-        "potęgi i pierwiastki"
+        "wyłączanie czynnika przed znak pierwiastka",
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Dane są dwie liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> jest rozwiązaniem równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>[</mo><mo>(</mo><mn>13</mn><mo>−</mo><mi>x</mi><mo>)</mo><mo>:</mo><mn>2</mn><mo>−</mo><mn>1</mn><mo>]</mo><mo>·</mo><mn>5</mn><mo>=</mo><mn>15</mn></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>2</mn><msqrt><mn>3</mn></msqrt></math>.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe. Wybraną odpowiedź zaznacz kółkiem.</p>",
       "choices": [
@@ -320,7 +323,7 @@
       "points": 5,
       "topics": [
         "NWW / NWD",
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Dane są dwie liczby, liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msup><mn>2</mn><mn>4</mn></msup><mo>·</mo><mn>3</mn><mo>·</mo><msup><mn>5</mn><mn>3</mn></msup></math> i liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><msup><mn>2</mn><mn>3</mn></msup><mo>·</mo><msup><mn>3</mn><mn>2</mn></msup><mo>·</mo><msup><mn>5</mn><mn>2</mn></msup></math>.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe. Wybraną odpowiedź zaznacz kółkiem.</p>",
       "choices": [
@@ -363,8 +366,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "równania z jedną zmienną",
-        "zagadki logiczne"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Odjemna jest o 50 większa od odjemnika, a odjemnik jest dwa razy mniejszy od różnicy.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe. Wybraną odpowiedź zaznacz kółkiem.</p>",
       "choices": [
@@ -399,8 +401,9 @@
       "type": "true_false",
       "points": 5,
       "topics": [
-        "ułamki",
-        "potęgi i pierwiastki"
+        "ułamki okresowe / rozwinięcia dziesiętne",
+        "porównywanie potęg i pierwiastków",
+        "ułamki"
       ],
       "prompt_html": "<p>Poniższe stwierdzenia dotyczą porównywania liczb.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli jest fałszywe. Wybraną odpowiedź zaznacz kółkiem.</p>",
       "choices": [
@@ -466,7 +469,7 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "podzielność"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Suma wszystkich naturalnych dzielników pewnej liczby pierwszej wynosi 102. Jaka liczba spełnia te warunki?</p><p>Wpisz tylko odpowiedź.</p><p>Odpowiedź: ……………………………………………………………..</p>",
       "choices": [],
@@ -532,6 +535,7 @@
       "type": "open",
       "points": 1,
       "topics": [
+        "trójkąty",
         "czworokąty",
         "pole i obwód"
       ],
@@ -557,6 +561,7 @@
       "type": "open",
       "points": 1,
       "topics": [
+        "kąty",
         "trójkąty"
       ],
       "prompt_html": "<p>Uzupełnij zdanie, wpisując tylko liczbę.</p><p>Miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> zaznaczonego na rysunku (powyżej) wynosi …………………………stopni.</p>",
@@ -581,8 +586,8 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "reszta z dzielenia",
-        "potęgi i pierwiastki"
+        "ostatnia cyfra / cykliczność potęg",
+        "reszta z dzielenia"
       ],
       "prompt_html": "<p>Uzupełnij zdanie, wpisując tylko cyfrę.</p><p>Ostatnią cyfrą liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2023</mn><mn>2024</mn></msup></math> jest ……………………………………………………..</p>",
       "choices": [],
@@ -605,7 +610,7 @@
       "points": 2,
       "topics": [
         "czworokąty",
-        "trójkąty"
+        "kąty"
       ],
       "prompt_html": "<p>Dany jest trapez równoramienny o podstawach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>&gt;</mo><mi>b</mi></math>, w którym jego przekątna i jedna z podstaw mają jednakowe długości. Przekątna trapezu dzieli kąt przy tej podstawie na połowy.</p><p>Uzupełnij zdania, wpisując tylko liczby.</p><ul><li>a) Kąt ostry tego trapezu ma miarę ……………………………………… stopni.</li><li>b) Kąt rozwarty tego trapezu ma miarę ……………………………… stopni.</li></ul>",
       "choices": [],

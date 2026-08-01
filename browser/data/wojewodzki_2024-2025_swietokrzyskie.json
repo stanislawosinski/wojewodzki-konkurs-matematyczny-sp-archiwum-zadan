@@ -44,7 +44,7 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "procenty",
+        "zmiany procentowe",
         "podzielność"
       ],
       "prompt_html": "<p>Dodatnią liczbę naturalną <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> zmniejszono o 20% i otrzymano liczbę naturalną <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>. Następnie liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> powiększono o 80% i otrzymano liczbę naturalną <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
@@ -70,7 +70,7 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "podzielność",
+        "liczby pierwsze",
         "statystyka opisowa"
       ],
       "prompt_html": "<p>Na tablicy napisano wszystkie liczby naturalne większe od 20 i jednocześnie mniejsze od 80.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
@@ -125,7 +125,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "ostatnia cyfra / cykliczność potęg",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Dokończ zdanie.</p><p>W zapisie dziesiętnym cyfrą jedności liczby, będącej wynikiem działania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>3</mn><mn>2025</mn></msup><mo>+</mo><msup><mn>4</mn><mn>2025</mn></msup><mo>+</mo><msup><mn>5</mn><mn>2025</mn></msup></mrow></math> jest cyfra</p>",
@@ -154,8 +154,7 @@
       "points": 3,
       "topics": [
         "trójkąty",
-        "pole i obwód",
-        "potęgi i pierwiastki"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Trójkąt równoramienny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>, w którym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AC</mi><mo>=</mo><mi>BC</mi></mrow></math>, i trójkąt równoramienny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABD</mi></math>, w którym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AD</mi><mo>=</mo><mi>BD</mi></mrow></math> mają wspólną podstawę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>. W trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> poprowadzono na tę podstawę wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CE</mi></math>, a w trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABD</mi></math> poprowadzono na tę podstawę wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DE</mi></math>. Wiadomo, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>AB</mi><mo>=</mo><mi>CE</mi><mo>=</mo><mn>10</mn></mrow></math> cm i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>DE</mi><mo>=</mo><mn>3</mn><mo>·</mo><mi>CE</mi></mrow></math>.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
       "choices": [
@@ -181,7 +180,9 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "geometria",
+        "trójkąty",
+        "czworokąty",
+        "zamiana jednostek",
         "pole i obwód"
       ],
       "prompt_html": "<p>Dane są trzy wielokąty:</p><ul><li>prostokąt o bokach długościach 1,1 dm i 2 cm,</li><li>trójkąt równoboczny, którego bok ma długość 0,8 dm,</li><li>równoległobok, którego boki mają długości 1 dm i 4 cm oraz którego wysokości mają długości 0,05 m i 20 mm.</li></ul><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
@@ -291,8 +292,8 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "układ współrzędnych",
         "symetrie",
+        "układ współrzędnych",
         "czworokąty",
         "pole i obwód"
       ],
@@ -320,7 +321,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "graniastosłupy"
+        "liczba krawędzi, ścian i wierzchołków"
       ],
       "prompt_html": "<p>Dokończ zdanie.</p><p>Graniastosłup może mieć najmniej:</p>",
       "choices": [
@@ -347,8 +348,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "graniastosłupy",
-        "potęgi i pierwiastki"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Stosunek długości krawędzi prostopadłościanu, wychodzących z jednego wierzchołka, jest równy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>:</mo><mn>3</mn><mo>:</mo><mn>5</mn></mrow></math>. Objętość tego prostopadłościanu jest równa 3750 cm³.</p><p>Oceń, czy poniższe zdania są prawdziwe. Zaznacz P, jeśli zdanie jest prawdziwe, lub F – jeśli jest fałszywe.</p>",
       "choices": [

@@ -44,7 +44,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "wyłączanie czynnika przed znak pierwiastka",
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Wartością wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msqrt><mn>98</mn></msqrt><mo>−</mo><msqrt><mn>50</mn></msqrt></mrow><msqrt><mn>2</mn></msqrt></mfrac></math> jest liczba:</p>",
       "choices": [
@@ -71,7 +72,6 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "zagadki logiczne",
         "układy równań"
       ],
       "prompt_html": "<p>Kasia i Tomek są rodzeństwem. Tomek ma trzy razy więcej sióstr niż braci, a Kasia ma tyle samo sióstr co braci. Ile dzieci jest w tej rodzinie?</p>",
@@ -262,7 +262,8 @@
       "points": 1,
       "topics": [
         "czworokąty",
-        "pole i obwód"
+        "pole i obwód",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Trapez o podstawach długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> ma pole równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mi>y</mi><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup></math>. Wysokość tego trapezu ma długość:</p>",
       "choices": [
@@ -289,7 +290,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "stężenie procentowe / mieszaniny"
       ],
       "prompt_html": "<p>Zmieszano 100 litrów mleka o zawartości 3,5% tłuszczu i 50 litrów mleka o zawartości 5% tłuszczu. Otrzymano mleko o zawartości tłuszczu:</p>",
       "choices": [
@@ -317,7 +318,7 @@
       "points": 1,
       "topics": [
         "podzielność",
-        "zagadki logiczne"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>630 uczniów szkoły ustawiło się w rzędy do szkolnej fotografii. W każdym rzędzie jest o trzech uczniów mniej, niż w rzędzie przed nim. Jaka liczba rzędów <u>nie jest</u> możliwa?</p>",
       "choices": [
@@ -344,7 +345,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność"
+        "podzielność",
+        "ułamki"
       ],
       "prompt_html": "<p>Suma odwrotności wszystkich dzielników liczby 24 to:</p>",
       "choices": [
@@ -398,8 +400,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
-        "wyłączanie jednomianu przed nawias"
+        "działania na potęgach",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Którą z poniższych liczb można zapisać w postaci naturalnej potęgi liczby 2:</p>",
       "choices": [
@@ -509,7 +511,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "pierwiastki zagnieżdżone",
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Liczbą odwrotną do liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><mn>4</mn><msqrt><mn>16</mn></msqrt></mrow></msqrt></math> jest:</p>",
       "choices": [
@@ -536,6 +539,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "podobieństwo i skala",
         "graniastosłupy"
       ],
       "prompt_html": "<p>Sześcienny klocek z metalu o krawędzi 10 cm waży 8 kg. Jaką długość ma krawędź sześciennego klocka ważącego 1 kg wykonanego z tego samego materiału?</p>",
@@ -563,7 +567,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "zmiany procentowe",
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Fabryka produkuje tygodniowo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi></math> samochodów. Ile samochodów tygodniowo będzie produkować fabryka, jeżeli jej produkcja wzrośnie o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math>%?</p>",
       "choices": [
@@ -644,7 +649,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty"
+        "trójkąty",
+        "kąty"
       ],
       "prompt_html": "<p>Trójkąt ABC jest równoramienny. Miara kąta A jest równa 18°. Jaką miarę może mieć kąt B?</p>",
       "choices": [
@@ -671,7 +677,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Potrojony sześcian pewnej liczby jest równy 0,003. Jaka to liczba?</p>",
       "choices": [
@@ -725,7 +731,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "notacja wykładnicza"
       ],
       "prompt_html": "<p>Ile potrzeba monet 50-groszowych aby wypłacić nimi milion złotych?</p>",
       "choices": [
@@ -807,7 +813,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Dwie liczby pierwsze nazywamy <em>bliźniakami</em>, jeżeli różnica między nimi jest równa 2. Która z poniższych liczb pierwszych <u>nie ma</u> bliźniaka?</p>",
       "choices": [
@@ -834,8 +840,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "nierówności",
-        "wzory skróconego mnożenia"
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Które z wyrażeń ma wartość dodatnią dla każdej liczby rzeczywistej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>?</p>",
       "choices": [
@@ -862,7 +867,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Gęstość wody wynosi około 1000 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mtext>kg</mtext><msup><mtext>m</mtext><mn>3</mn></msup></mfrac></math>. Można ją wyrazić również w innej jednostce i wtedy wynosi:</p>",
       "choices": [
@@ -970,7 +975,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "wartość bezwzględna",
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Po uproszczeniu wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mn>1</mn><mo>−</mo><msqrt><mn>2</mn></msqrt><mo>|</mo><mo>−</mo><mn>1</mn><mo>+</mo><msqrt><mn>2</mn></msqrt></math> wynosi:</p>",
       "choices": [
@@ -1025,7 +1031,8 @@
       "points": 1,
       "topics": [
         "trójkąty",
-        "pole i obwód"
+        "pole i obwód",
+        "szacowanie (zamiast obliczania)"
       ],
       "prompt_html": "<p>Adam zbudował model trójkąta prostokątnego z kawałka drutu. Przyprostokątne tego trójkąta mają 5 cm i 6 cm. Które zdanie jest nieprawdziwe?</p>",
       "choices": [
@@ -1081,7 +1088,6 @@
       "points": 1,
       "topics": [
         "czworokąty",
-        "trójkąty",
         "pole i obwód"
       ],
       "prompt_html": "<p>Przekątna czworokąta, której długość wynosi 12, dzieli czworokąt na dwa trójkąty o obwodach 26 i 27. Jaki obwód ma czworokąt?</p>",

@@ -17,8 +17,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "nierówności",
-        "potęgi i pierwiastki"
+        "wartość bezwzględna",
+        "nierówności"
       ],
       "prompt_html": "<p>Wskaż wszystkie nierówności, które spełnia liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt></math>.</p>",
       "choices": [
@@ -58,7 +58,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "proporcjonalność odwrotna"
+        "proporcjonalność odwrotna",
+        "ułamki"
       ],
       "prompt_html": "<p>Zuza sprząta łazienkę w ciągu pół godziny, Agata potrzebuje na to trzy kwadranse. Ile czasu zajmie im posprzątanie łazienki, jeśli będą pracować razem?</p><p>Zaznacz poprawną odpowiedź.</p>",
       "choices": [
@@ -184,7 +185,7 @@
       "points": 2,
       "topics": [
         "trójkąty",
-        "procenty"
+        "pole i obwód"
       ],
       "prompt_html": "<p>W trójkącie różnobocznym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> środek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi></math> najdłuższego boku połączono z przeciwległym wierzchołkiem trójkąta. Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> został podzielony na dwa trójkąty, z których jeden jest równoboczny. Oblicz, ile procent pola trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> stanowi pole powstałego trójkąta równobocznego.</p>",
       "choices": [],
@@ -230,7 +231,6 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "kombinatoryka",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Pewna firma otrzymała zamówienie na dwa typy kodów dla uczestników internetowej grupy dyskusyjnej.</p><p>Kody typu I mają mieć dwie litery na początku i jedną na końcu, a między nimi trzy cyfry. Mogą w nich występować tylko litery S, B i K oraz cyfry 4, 6, 8, przy czym litery i cyfry mogą się powtarzać.</p><p>Kody typu II mają mieć na początku dwie litery spośród: W, Y i Z, a następnie pięć cyfr spośród: 1, 3, 5, 7, 9, przy czym litery i cyfry nie mogą się powtarzać.</p><p>Ilu maksymalnie uczestników może liczyć ta grupa, jeśli każdy uczestnik musi mieć inny kod? Odpowiedź uzasadnij.</p>",
@@ -277,7 +277,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "bryły",
+        "graniastosłupy",
+        "ostrosłupy",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Filip z drewnianego klocka sześciennego odciął wszystkie „rogi” i w ten sposób otrzymał nowe klocki. Na rysunku pokazano sposób odcięcia jednego „rogu”, a zaznaczone punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> są środkami krawędzi sześcianu. Klocki w kształcie „rogów” Filip pomalował na czerwono, a pozostały klocek na zielono. Czy łączna powierzchnia wszystkich klocków czerwonych jest większa od powierzchni klocka zielonego? Odpowiedź uzasadnij.</p>",

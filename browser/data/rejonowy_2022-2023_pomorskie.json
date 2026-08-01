@@ -17,7 +17,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "trójkąty",
+        "kąty",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Jeden z kątów wewnętrznych trójkąta jest 1,5 razy większy od mniejszego z dwóch pozostałych kątów wewnętrznych, których miary różnią się o 26°. Oblicz miary kątów wewnętrznych tego trójkąta.</p>",
@@ -40,7 +40,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "trójkąty",
+        "podobieństwo i skala",
         "czworokąty",
         "pole i obwód"
       ],
@@ -134,7 +134,8 @@
       "type": "open",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Oblicz wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><msup><mn>10</mn><mn>12</mn></msup><mo>+</mo><msup><mn>5</mn><mn>11</mn></msup><mo>·</mo><msup><mn>2</mn><mn>9</mn></msup><mo>−</mo><msup><mn>5</mn><mn>13</mn></msup><mo>·</mo><msup><mn>2</mn><mn>8</mn></msup><mo>)</mo><mo>:</mo><mo>(</mo><mn>4</mn><mo>·</mo><msup><mn>5</mn><mn>5</mn></msup><mo>·</mo><msup><mn>10</mn><mn>6</mn></msup><mo>)</mo></mrow></math>.</p>",
       "choices": [],
@@ -156,7 +157,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "wyrażenia algebraiczne"
       ],
       "prompt_html": "<p>Za 5 lat tata Kasi będzie od niej trzy razy starszy. Obecnie mama Kasi jest od niej trzy razy starsza. Jaka jest różnica wieku (w latach) pomiędzy rodzicami Kasi? Zapisz obliczenia.</p>",
       "choices": [],
@@ -178,8 +180,9 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "trójkąty",
-        "inne"
+        "zamiana jednostek",
+        "kąty",
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>Oceń prawdziwość zdań. Otocz kółkiem P, jeśli zdanie jest prawdziwe lub F, jeśli zdanie jest fałszywe.</p>",
       "choices": [
@@ -214,10 +217,9 @@
       "type": "closed_single",
       "points": 5,
       "topics": [
-        "potęgi i pierwiastki",
-        "procenty",
-        "proporcjonalność prosta",
-        "graniastosłupy"
+        "działania na pierwiastkach",
+        "działania na potęgach",
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>W zadaniach zamkniętych dokładnie jedna odpowiedź jest poprawna. Wskaż tę odpowiedź otaczając ją kółkiem.</p><p><strong>9.1.</strong> Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>−</mo><mo>(</mo><msqrt><mn>32</mn></msqrt><mo>−</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>+</mo><msqrt><mn>64</mn></msqrt><mo>)</mo><mo>:</mo><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>1</mn></mrow></math> jest równa:</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>−</mo><mn>1</mn></mrow></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>−</mo><mn>2</mn></mrow></math></li><li>C. 1</li><li>D. 2</li></ul><p><strong>9.2.</strong> Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>4</mn><mn>100</mn></msup><mo>+</mo><msup><mn>4</mn><mn>100</mn></msup><mo>+</mo><msup><mn>4</mn><mn>100</mn></msup><mo>+</mo><msup><mn>4</mn><mn>100</mn></msup></mrow></math> jest równa:</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>400</mn></msup></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mn>101</mn></msup></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>16</mn><mn>100</mn></msup></math></li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>16</mn><mn>400</mn></msup></math></li></ul><p><strong>9.3.</strong> Liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> są dodatnie. Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> stanowi 48% liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> oraz 32% liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math>. Wynika stąd, że:</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><mn>1,5</mn><mi>a</mi></mrow></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><mn>1,6</mn><mi>a</mi></mrow></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><mn>0,8</mn><mi>a</mi></mrow></math></li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><mn>0,16</mn><mi>a</mi></mrow></math></li></ul><p><strong>9.4.</strong> W pewnej kawiarni klientom podaje się średnio 70 filiżanek kawy dziennie. Ze 100 g ziarnistej kawy można przygotować 22 filiżanki tego napoju. Co najmniej ile półkilogramowych paczek kawy ziarnistej musi kupić właściciel, aby kawy wystarczyło na 7 dni?</p><ul><li>A. 3</li><li>B. 4</li><li>C. 5</li><li>D. 6</li></ul><p><strong>9.5.</strong> Łączna liczba wierzchołków, ścian i krawędzi pewnego graniastosłupa jest równa 110. Ile wierzchołków ma wielokąt będący podstawą tego graniastosłupa?</p><ul><li>A. 18</li><li>B. 20</li><li>C. 22</li><li>D. 27</li></ul>",
       "choices": [],

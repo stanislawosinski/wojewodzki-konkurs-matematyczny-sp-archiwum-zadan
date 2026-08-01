@@ -17,7 +17,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "porównywanie potęg i pierwiastków"
       ],
       "prompt_html": "<p>Która z poniższych liczb jest mniejsza od 5:</p>",
       "choices": [
@@ -62,7 +62,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "ostatnia cyfra / cykliczność potęg",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Dwie ostatnie cyfry liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>7</mn><mn>1999</mn></msup></math> to:</p>",
@@ -108,7 +108,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "inne"
+        "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1011</mn><mo>−</mo><mn>1009</mn><mo>+</mo><mn>1007</mn><mo>−</mo><mn>1005</mn><mo>+</mo><mo>…</mo><mo>+</mo><mn>7</mn><mo>−</mo><mn>5</mn><mo>+</mo><mn>3</mn><mo>−</mo><mn>1</mn></math> jest równa:</p>",
       "choices": [
@@ -153,7 +153,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "działania na pierwiastkach",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Jeżeli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>6</mn><msqrt><mn>3</mn></msqrt></mrow><mrow><mn>2</mn><mi>x</mi></mrow></mfrac><mo>=</mo><mfrac><mn>4</mn><mrow><mn>2</mn><msqrt><mn>12</mn></msqrt></mrow></mfrac></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> jest równe:</p>",
@@ -245,8 +245,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "trójkąty",
-        "równania z jedną zmienną"
+        "kąty",
+        "trójkąty"
       ],
       "prompt_html": "<p>W trójkącie równoramiennym miara kąta przy podstawie jest o 22,5° mniejsza od kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> zawartego między ramionami. Kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> jest równy:</p>",
       "choices": [
@@ -291,7 +291,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność",
+        "liczby pierwsze",
         "zliczanie / metody zliczania"
       ],
       "prompt_html": "<p>Liczb złożonych większych od 9, ale mniejszych lub równych 40 jest:</p>",
@@ -337,7 +337,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "stężenie procentowe / mieszaniny"
       ],
       "prompt_html": "<p>Do 4 kg roztworu soli o stężeniu 20% dosypano 1 kg soli. Stężenie procentowe nowego roztworu wynosi:</p>",
       "choices": [
@@ -428,8 +428,7 @@
       "points": 1,
       "topics": [
         "trójkąty",
-        "pole i obwód",
-        "potęgi i pierwiastki"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Dane są dwa trójkąty równoboczne o bokach równych 3 cm oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>7</mn></msqrt></math> cm. Ile wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> sumy pól tych trójkątów?</p>",
       "choices": [
@@ -474,8 +473,8 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "czworokąty",
-        "równania z jedną zmienną"
+        "kąty",
+        "czworokąty"
       ],
       "prompt_html": "<p>W równoległoboku różnica miar kątów leżących przy tym samym boku jest równa 68°. Miara kąta rozwartego tego równoległoboku jest równa:</p>",
       "choices": [
@@ -520,6 +519,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
+        "zamiana jednostek",
         "prędkość / droga / czas"
       ],
       "prompt_html": "<p>Samochód F porusza się z prędkością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>49</mn><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac></math>, samochód G z prędkością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn><mfrac><mtext>m</mtext><mtext>s</mtext></mfrac></math>, H z prędkością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>5</mn></msup><mfrac><mtext>dm</mtext><mtext>min</mtext></mfrac></math>, I z prędkością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>820</mn><mfrac><mtext>m</mtext><mtext>min</mtext></mfrac></math>, natomiast pojazd J z prędkością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,9</mn><mfrac><mtext>km</mtext><mtext>min</mtext></mfrac></math>. Najwolniej porusza się pojazd:</p>",
@@ -608,7 +608,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "sześciokąty foremne",
+        "wielokąty",
         "kąty"
       ],
       "prompt_html": "<p>Uzupełnij:</p><p>14.1. Miara kąta wewnętrznego sześciokąta foremnego wynosi: …</p><p>14.2. Miara kąta wewnętrznego osiemnastokąta foremnego wynosi: …</p>",
@@ -633,7 +633,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach",
+        "wyłączanie wspólnego czynnika przed nawias"
       ],
       "prompt_html": "<p>Ile wynosi wartość wyrażenia:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><msup><mn>32</mn><mn>7</mn></msup><mo>+</mo><msup><mn>4</mn><mn>18</mn></msup><mo>+</mo><msup><mn>32</mn><mn>7</mn></msup><mo>)</mo><mo>:</mo><mo>(</mo><msup><mn>4</mn><mn>16</mn></msup><mo>+</mo><msup><mn>2</mn><mn>16</mn></msup><mo>·</mo><msup><mn>2</mn><mn>16</mn></msup><mo>)</mo></mrow></math></p><p>Zapisz obliczenia i odpowiedź.</p>",
       "choices": [],
@@ -681,8 +682,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "podzielność",
-        "potęgi i pierwiastki"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Dana jest liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> = 2 097 152. Znajdź największą liczbę pierwszą, przez którą dzieli się liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>.</p><p>Zapisz obliczenia i odpowiedź.</p>",
       "choices": [],
@@ -706,8 +706,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "równania z jedną zmienną",
-        "wzory skróconego mnożenia"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Dla jakiej wartości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> rozwiązaniem poniższego równania jest liczba 2?</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>(</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>3</mn><mo>)</mo><mo>−</mo><mi>a</mi><mi>x</mi><mo>−</mo><msup><mrow><mo>(</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>3</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>−</mo><mn>6</mn><mo>=</mo><mn>22</mn><mi>x</mi><mo>−</mo><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup></mrow></math></p><p>Zapisz obliczenia i odpowiedź.</p>",
       "choices": [],
@@ -731,7 +730,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Mariusz ma o 40% więcej pieniędzy niż Adam. O ile procent mniej pieniędzy ma Adam od Mariusza?</p><p>Zapisz obliczenia i odpowiedź.</p>",
       "choices": [],
@@ -756,8 +755,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "graniastosłupy",
-        "potęgi i pierwiastki"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Pole powierzchni całkowitej sześcianu jest równe 60 cm². Jaką długość ma przekątna jego podstawy?</p><p>Zapisz obliczenia i odpowiedź.</p>",
       "choices": [],

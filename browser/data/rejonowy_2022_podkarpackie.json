@@ -17,8 +17,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
-        "szacowanie (zamiast obliczania)"
+        "porównywanie potęg i pierwiastków",
+        "wyłączanie czynnika przed znak pierwiastka"
       ],
       "prompt_html": "<p>Dane są liczby: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>5</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><msqrt><mn>2</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>11</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>6</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mrow><msup><mn>4</mn><mn>2</mn></msup><mo>−</mo><msup><mn>2</mn><mn>2</mn></msup></mrow></msqrt></math>. Która z tych liczb jest największa:</p>",
       "choices": [
@@ -61,7 +61,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
+        "działania na pierwiastkach",
         "szacowanie (zamiast obliczania)"
       ],
       "prompt_html": "<p>Liczba całkowita <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> spełniająca warunek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>≤</mo><msqrt><mrow><msup><mn>17</mn><mn>2</mn></msup><mo>−</mo><msup><mn>7</mn><mn>2</mn></msup></mrow></msqrt><mo>≤</mo><mi>a</mi><mo>+</mo><mn>1</mn></mrow></math> jest równa:</p>",
@@ -105,7 +105,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki"
+        "działania na potęgach"
       ],
       "prompt_html": "<p>Wartość którego z poniższych wyrażeń <u>nie wynosi</u> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mfrac><mn>3</mn><mn>8</mn></mfrac><mo>)</mo></mrow><mn>10</mn></msup></math> :</p>",
       "choices": [
@@ -191,8 +191,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "proporcjonalność prosta",
-        "czworokąty",
+        "podobieństwo i skala",
         "pole i obwód"
       ],
       "prompt_html": "<p>Boisko sportowe w kształcie prostokąta w skali 1:300 ma wymiary 0,6 cm x 1,2 cm. Pole tego boiska w rzeczywistości jest równe:</p>",
@@ -279,8 +278,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "podzielność",
-        "zliczanie / metody zliczania"
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Liczb złożonych większych od 9, ale mniejszych lub równych 40 jest:</p>",
       "choices": [
@@ -323,7 +321,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Jabłka są o 20% tańsze od gruszek, a banany są o 20% droższe od gruszek. O ile procent banany są droższe od jabłek.</p>",
       "choices": [
@@ -366,8 +364,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "czworokąty",
-        "proporcjonalność prosta"
+        "podobieństwo i skala",
+        "czworokąty"
       ],
       "prompt_html": "<p>Każdy bok prostokąta został zwiększony 5 razy. Przekątna wówczas zwiększy się:</p>",
       "choices": [
@@ -410,6 +408,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "wartość bezwzględna",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Ile wynosi suma liczb spełniających równanie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><msqrt><mn>9</mn></msqrt><mo>−</mo><mi>x</mi><mo>|</mo><mo>−</mo><mn>2</mn><mo>=</mo><mn>10</mn></mrow></math></p>",
@@ -454,8 +453,7 @@
       "points": 2,
       "topics": [
         "trójkąty",
-        "pole i obwód",
-        "potęgi i pierwiastki"
+        "pole i obwód"
       ],
       "prompt_html": "<p>W pewnym trójkącie długości boków są równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>5</mn></msqrt></math> dm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>3</mn></msqrt></math> dm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>7</mn></msqrt></math> dm. Pole tego trójkąta wynosi:</p>",
       "choices": [
@@ -541,7 +539,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "symetrie"
+        "symetrie",
+        "wielokąty"
       ],
       "prompt_html": "<p>Uzupełnij tabelę tak, aby informacje w niej zawarte były prawdziwe.</p><table><thead><tr><th>Wielokąt foremny</th><th>Liczba osi symetrii</th><th>Środek symetrii</th></tr></thead><tbody><tr><td>trójkąt</td><td></td><td>nie ma / ma*</td></tr><tr><td>pięciokąt</td><td></td><td>nie ma / ma*</td></tr></tbody></table><p>* skreśl niepotrzebne słowo</p>",
       "choices": [],
@@ -563,11 +562,9 @@
       "type": "open",
       "points": 4,
       "topics": [
-        "procenty",
-        "symetrie",
-        "czworokąty",
-        "pole i obwód",
-        "potęgi i pierwiastki"
+        "zadania wieloczęściowe",
+        "zmiany procentowe",
+        "działania na pierwiastkach"
       ],
       "prompt_html": "<p>Uzupełnij:</p><p>14.1. Cenę pewnego towaru podwyższono o 20%. O ile procent należy obniżyć podwyższoną cenę tego towaru, aby otrzymać cenę początkową?: …</p><p>14.2. Ile osi symetrii ma prosta?: …</p><p>14.3. Pole kwadratu o przekątnej równej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>13</mn></msqrt></math> wynosi: …</p><p>14.4. Ile jest równa szósta potęga pierwiastka kwadratowego z liczby 11: …</p>",
       "choices": [],
@@ -611,7 +608,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "potęgi i pierwiastki",
+        "ostatnia cyfra / cykliczność potęg",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Jaką cyfrą jest cyfra jedności liczby: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>16</mn><mn>100</mn></msup><mo>+</mo><msup><mn>25</mn><mn>100</mn></msup><mo>+</mo><msup><mn>100</mn><mn>100</mn></msup><mo>−</mo><msup><mn>777</mn><mn>100</mn></msup></mrow></math></p><p>Zapisz obliczenia (uzasadnienie) i odpowiedź.</p>",
@@ -634,8 +631,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "trójkąty",
-        "nierówności"
+        "trójkąty"
       ],
       "prompt_html": "<p>Dany jest trójkąt różnoboczny o bokach równych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> takich, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>&lt;</mo><mi>b</mi><mo>&lt;</mo><mi>c</mi></mrow></math>. Obwód tego trójkąta jest równy 4007 cm. Długości boków tego trójkąta są liczbami całkowitymi. Ile co najmniej i ile co najwyżej centymetrów może mieć średni bok tego trójkąta?</p><p>Zapisz obliczenia (uzasadnienie) i odpowiedź.</p>",
       "choices": [],
@@ -658,7 +654,7 @@
       "points": 3,
       "topics": [
         "podzielność",
-        "wyłączanie jednomianu przed nawias",
+        "wyłączanie wspólnego czynnika przed nawias",
         "dowodzenie / dowody"
       ],
       "prompt_html": "<p>Uzasadnij, że liczba: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>8</mn><mn>10</mn></msup><mo>+</mo><mn>3</mn><mo>·</mo><msup><mn>8</mn><mn>9</mn></msup><mo>−</mo><mn>38</mn><mo>·</mo><msup><mn>8</mn><mn>8</mn></msup></mrow></math> jest wielokrotnością liczby 100.</p><p>Zapisz obliczenia (uzasadnienie) i odpowiedź.</p>",
@@ -681,8 +677,8 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "podzielność",
-        "zagadki logiczne"
+        "liczby pierwsze",
+        "podzielność"
       ],
       "prompt_html": "<p>Dane są dwie dwucyfrowe liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>&gt;</mo><mi>b</mi></mrow></math>). Iloczyn ich jest równy 2250. Liczby te zaokrąglono do dziesiątek. Suma ich zaokrągleń jest równa 110. Ile są równe liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>?</p><p>Zapisz obliczenia i odpowiedź.</p>",
       "choices": [],
@@ -729,7 +725,7 @@
       "points": 4,
       "topics": [
         "koła / okręgi",
-        "trójkąty",
+        "układ współrzędnych",
         "pole i obwód"
       ],
       "prompt_html": "<p>Oblicz obwód oraz pole figury przedstawionej na rysunku (półkole).</p><p>Zapisz obliczenia i odpowiedź.</p>",

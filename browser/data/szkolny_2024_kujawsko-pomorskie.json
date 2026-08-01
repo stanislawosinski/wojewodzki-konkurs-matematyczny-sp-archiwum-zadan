@@ -44,8 +44,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "potęgi i pierwiastki",
-        "zliczanie / metody zliczania"
+        "porównywanie potęg i pierwiastków",
+        "szacowanie (zamiast obliczania)"
       ],
       "prompt_html": "<p>Ile jest liczb naturalnych, które są większe od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>7</mn></msqrt></math> i jednocześnie mniejsze od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>77</mn></msqrt></math>?</p>",
       "choices": [
@@ -72,8 +72,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "czworokąty",
-        "zliczanie / metody zliczania"
+        "zbiory / zasada włączeń i wyłączeń",
+        "czworokąty"
       ],
       "prompt_html": "<p>Kasia pocięła prostokątną kartkę papieru na 20 czworokątów. Wśród nich było 9 rombów, 8 prostokątów i 6 czworokątów, które nie były ani rombami, ani prostokątami. Ile kwadratów wycięła?</p>",
       "choices": [
@@ -128,8 +128,8 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "reszta z dzielenia",
-        "potęgi i pierwiastki"
+        "ostatnia cyfra / cykliczność potęg",
+        "reszta z dzielenia"
       ],
       "prompt_html": "<p>Jaka jest reszta z dzielenia liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>6</mn><mn>20</mn></msup><mo>+</mo><msup><mn>2</mn><mn>23</mn></msup></math> przez 5?</p>",
       "choices": [
@@ -184,7 +184,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "proporcjonalność prosta"
+        "podobieństwo i skala"
       ],
       "prompt_html": "<p>Rzeczywista odległość między dwoma miastami w linii prostej wynosi 120 km, a na mapie to 6 cm. W jakiej skali wykonana jest ta mapa?</p>",
       "choices": [
@@ -266,6 +266,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "podobieństwo i skala",
         "czworokąty",
         "pole i obwód"
       ],
@@ -321,7 +322,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Cena bluzki wzrosła dwukrotnie. Najpierw o 20%, a następnie o 10%. Zatem końcowa cena wzrosła w stosunku do początkowej ceny o:</p>",
       "choices": [
@@ -430,8 +431,8 @@
       "type": "true_false",
       "points": 3,
       "topics": [
-        "podzielność",
-        "inne"
+        "liczby wymierne i niewymierne",
+        "liczby pierwsze"
       ],
       "prompt_html": "<p>Oceń prawdziwość poniższych zdań. Zaznacz P, jeśli zdanie jest prawdziwe, lub F, jeśli zdanie jest fałszywe.</p>",
       "choices": [

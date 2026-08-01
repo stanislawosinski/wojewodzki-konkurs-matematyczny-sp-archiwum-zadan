@@ -17,7 +17,7 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "inne"
+        "zamiana jednostek"
       ],
       "prompt_html": "<p>Z nieszczelnego kranu co 3 sekundy spada jedna kropla wody. Każda kropla ma objętość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><msup><mtext>&#160;mm</mtext><mn>3</mn></msup></mrow></math>. Ile litrów wody wycieknie z tego kranu w ciągu doby? Zapisz obliczenia.</p>",
       "choices": [],
@@ -39,7 +39,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "równania z jedną zmienną"
+        "równania z jedną zmienną",
+        "ułamki"
       ],
       "prompt_html": "<p>Zła macocha wsypała dwie miski ziaren soczewicy do wiadra z popiołem i kazała Kopciuszkowi w ciągu godziny wybrać wszystkie ziarna. Ziarna stanowiły <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> masy tej mieszanki. Zadanie to, za Kopciuszka, wykonały ptaki. Najpierw przyleciały gołębie i wydziobały z popiołu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac></math> wszystkich ziaren, potem przyleciały turkawki i wydziobały <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,7</mn></math> pozostałych ziaren. Na koniec przyleciały wróble i wydziobały z popiołu ostatnie 27 dag ziaren.</p><p>Oblicz, ile kilogramów ważyły ziarna soczewicy i ile kilogramów ważył popiół.</p>",
       "choices": [],
@@ -61,8 +62,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "trójkąty",
-        "geometria"
+        "podobieństwo i skala",
+        "trójkąty"
       ],
       "prompt_html": "<p>W trójkącie ostrokątnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> poprowadzono dwie wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AE</mi></math>. Wiadomo, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>DB</mi><mo>|</mo><mo>=</mo><mn>5</mn><mtext>&#160;cm</mtext></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>CD</mi><mo>|</mo><mo>=</mo><mn>10</mn><mtext>&#160;cm</mtext></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AE</mi><mo>|</mo><mo>=</mo><mn>8</mn><mtext>&#160;cm</mtext></mrow></math>. Oblicz długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BE</mi></math>.</p>",
       "choices": [],
@@ -106,7 +107,8 @@
       "type": "open",
       "points": 2,
       "topics": [
-        "układ współrzędnych"
+        "układ współrzędnych",
+        "ułamki"
       ],
       "prompt_html": "<p>Podaj współrzędne punktów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>A</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math> zaznaczonych na osi liczbowej, wiedząc, że odległości pomiędzy sąsiednimi punktami zaznaczonymi na tej osi są jednakowe.</p>",
       "choices": [],
@@ -152,15 +154,9 @@
       "type": "closed_single",
       "points": 8,
       "topics": [
-        "procenty",
-        "układy równań",
-        "potęgi i pierwiastki",
-        "trójkąty",
-        "graniastosłupy",
-        "prędkość / droga / czas",
-        "koła / okręgi",
-        "pole i obwód",
-        "zliczanie / metody zliczania"
+        "działania na potęgach",
+        "liczba krawędzi, ścian i wierzchołków",
+        "zadania wieloczęściowe"
       ],
       "prompt_html": "<p>W zadaniach zamkniętych dokładnie jedna odpowiedź jest poprawna. Wskaż tę odpowiedź otaczając ją kółkiem.</p><p><strong>7.1</strong> Do dzbanka wlano dwie jednakowe butelki soku. Ile takich samych butelek wody należy dolać do dzbanka, aby sok stanowił 25% napoju?</p><ul><li>A. 2</li><li>B. 4</li><li>C. 6</li><li>D. 8</li></ul><p><strong>7.2</strong> Ala ma w skarbonce 99 zł w monetach o nominałach 2 zł i 5 zł. Monet dwuzłotowych jest 2 razy więcej niż pięciozłotowych. Jeżeli przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznaczymy liczbę monet pięciozłotowych, a przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> – liczbę monet dwuzłotowych, to podane zależności opisuje układ równań:</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>{</mo><mtable columnalign=\"left\"><mtr><mtd><mrow><mi>y</mi><mo>=</mo><mn>2</mn><mi>x</mi></mrow></mtd></mtr><mtr><mtd><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>5</mn><mi>y</mi><mo>=</mo><mn>99</mn></mrow></mtd></mtr></mtable></mrow></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>{</mo><mtable columnalign=\"left\"><mtr><mtd><mrow><mi>y</mi><mo>=</mo><mn>2</mn><mi>x</mi></mrow></mtd></mtr><mtr><mtd><mrow><mn>5</mn><mi>x</mi><mo>+</mo><mn>2</mn><mi>y</mi><mo>=</mo><mn>99</mn></mrow></mtd></mtr></mtable></mrow></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>{</mo><mtable columnalign=\"left\"><mtr><mtd><mrow><mi>x</mi><mo>=</mo><mn>2</mn><mi>y</mi></mrow></mtd></mtr><mtr><mtd><mrow><mn>5</mn><mi>x</mi><mo>+</mo><mn>2</mn><mi>y</mi><mo>=</mo><mn>99</mn></mrow></mtd></mtr></mtable></mrow></math></li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>{</mo><mtable columnalign=\"left\"><mtr><mtd><mrow><mi>x</mi><mo>=</mo><mn>2</mn><mi>y</mi></mrow></mtd></mtr><mtr><mtd><mrow><mn>2</mn><mi>x</mi><mo>+</mo><mn>5</mn><mi>y</mi><mo>=</mo><mn>99</mn></mrow></mtd></mtr></mtable></mrow></math></li></ul><p><strong>7.3</strong> Połowa sumy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>4</mn><mn>28</mn></msup><mo>+</mo><msup><mn>4</mn><mn>28</mn></msup><mo>+</mo><msup><mn>4</mn><mn>28</mn></msup><mo>+</mo><msup><mn>4</mn><mn>28</mn></msup></mrow></math> jest równa:</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>30</mn></msup></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>57</mn></msup></math></li><li>C. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>63</mn></msup></math></li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>112</mn></msup></math></li></ul><p><strong>7.4</strong> Przedstawione na rysunku trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>PQR</mi></math> są podobne. Bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> ma długość:</p><ul><li>A. 8</li><li>B. 8,5</li><li>C. 9,5</li><li>D. 10</li></ul><p><strong>7.5</strong> Liczba wszystkich krawędzi graniastosłupa jest o 10 większa od liczby wszystkich jego ścian bocznych. Stąd wynika, że podstawą tego graniastosłupa jest:</p><ul><li>A. czworokąt</li><li>B. pięciokąt</li><li>C. sześciokąt</li><li>D. dziesięciokąt</li></ul><p><strong>7.6</strong> Piechur porusza się z prędkością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac></mrow></math>. Każdy jego krok ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,8</mn><mtext>&#160;m</mtext></mrow></math>. Ile kroków wykona piechur w czasie 12 minut?</p><ul><li>A. 1000</li><li>B. 800</li><li>C. 640</li><li>D. 100</li></ul><p><strong>7.7</strong> Obwód kwadratu jest równy obwodowi koła. Stosunek pola tego kwadratu do pola tego koła wynosi:</p><ul><li>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>π</mi><mn>4</mn></mfrac></math></li><li>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mi>π</mi></mfrac></math></li><li>C. 1</li><li>D. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math></li></ul><p><strong>7.8</strong> Ile jest różnych liczb trzycyfrowych dodatnich takich, że iloczyn ich cyfr jest równy 0?</p><ul><li>A. 81</li><li>B. 90</li><li>C. 162</li><li>D. 171</li></ul>",
       "choices": [],

@@ -274,8 +274,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "graniastosłupy",
-        "proporcjonalność prosta"
+        "graniastosłupy"
       ],
       "prompt_html": "<p>Napełnianie wodą prostopadłościennego akwarium o wymiarach 20 cm, 40 cm, 25 cm trwało 1,5 minuty. Ile będzie trwało napełnianie w takim samym tempie akwarium o wymiarach 50 cm, 10 cm, 40 cm?</p>",
       "choices": [
@@ -314,7 +313,7 @@
       "type": "true_false",
       "points": 2,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>W pewnym sklepie spodnie i bluzy podrożały o 10%.</p><p>Oceń, czy podane zdania są prawdziwe.</p>",
       "choices": [
@@ -345,6 +344,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
+        "ułamki okresowe / rozwinięcia dziesiętne",
         "reszta z dzielenia"
       ],
       "prompt_html": "<p>Wskaż ułamek, który w rozwinięciu dziesiętnym na piątym i pięćdziesiątym miejscu po przecinku ma tę samą cyfrę.</p>",
@@ -384,7 +384,7 @@
       "type": "true_false",
       "points": 4,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Firma Matmex przeżywająca kłopoty finansowe, postanowiła obniżać ceny swoich produktów kolejno o 20%, o 30% i o 50%. Jaki był tego efekt końcowy? Określ prawdziwość zdań.</p>",
       "choices": [
@@ -462,7 +462,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "procenty"
+        "zmiany procentowe"
       ],
       "prompt_html": "<p>Cenę telefonu komórkowego obniżono o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>10</mn></mfrac></math> początkowej ceny, a następnie podwyższono o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>10</mn></mfrac></math> ceny. Jaka jest końcowa cena tego telefonu, jeżeli początkowo kosztował 300 zł?</p>",
       "choices": [
@@ -540,7 +540,7 @@
       "type": "closed_single",
       "points": 2,
       "topics": [
-        "zagadki logiczne"
+        "kalendarz i czas"
       ],
       "prompt_html": "<p>Mirka i Zosia umówiły się do kina. Mają spotkać się pół godziny wcześniej niż w zeszły czwartek, kiedy spotkały się 2 godziny wcześniej niż w poniedziałek. Z kolei spotkanie poniedziałkowe odbyło się 3 godziny później niż w przedostatnią sobotę, kiedy umówili się o 17.00. O której dziewczyny umówiły się do kina?</p>",
       "choices": [
@@ -640,8 +640,7 @@
       "type": "open",
       "points": 3,
       "topics": [
-        "równania z jedną zmienną",
-        "proporcjonalność prosta"
+        "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Suma dwóch liczb stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>8</mn></mfrac></math> liczby 24,8. Znajdź te liczby, jeśli jedna z nich jest 4 razy większa od drugiej.</p>",
       "choices": [],
@@ -685,9 +684,9 @@
       "type": "open",
       "points": 4,
       "topics": [
+        "podobieństwo i skala",
         "czworokąty",
-        "pole i obwód",
-        "proporcjonalność prosta"
+        "pole i obwód"
       ],
       "prompt_html": "<p>Plan działki ma kształt trapezu, którego podstawy mają długość 45 mm i 35 mm, a wysokość 20 mm. Mniejsza podstawa trapezu ma w terenie długość 42 m. Oblicz:</p><p>a) skalę planu,</p><p>b) pole powierzchni działki w naturalnej wielkości.</p>",
       "choices": [],
