@@ -108,8 +108,13 @@ const pagers = [...document.querySelectorAll('.pager')];
 
 let DATA = [], byHash = {}, INDEX = {}, universe = new Set();
 let page = 1;
+// Eksperymenty toggles (settings popup, localStorage-persisted). showAI: reveal the AI verification
+// (Weryfikacja facet + AI answers/key status), off by default. vectorPriority: figures default to the
+// SVG redraw (△ then switches to PNG) instead of the reverse. Read by renderQuestion/renderKeyEntry.
+let showAI = false, vectorPriority = false;
 const selectedSet = new Set(); // hashes; lives outside the DOM — articles are destroyed on re-render
 const scratchOverrides = new Map(); // hash -> 'half' | 'full'; per-question brudnopis override (default not stored)
+const svgOverrides = new Map(); // hash -> 'png' | 'svg'; per-question figure format pin (default follows vectorPriority; cleared when the setting changes). Serialized to the hash so it survives reload/sharing.
 const brudGlyph = s => (s === 'half' ? '½' : s === 'full' ? '1' : '–');
 // what the global brudnopis mode gives one question: short-closed (phalf) → half, else full; half/full force it
 const autoBrud = (phalf, mode) => (mode === 'half' ? 'half' : mode === 'full' ? 'full' : phalf ? 'half' : 'full');
@@ -279,7 +284,8 @@ const aiLine = x => `Odpowiedź AI${x.label && x.label !== 'AI' ? ` (${esc(x.lab
 // Compact answer-key entry for the print-only key sheet: number + answer + AI verification
 // (status, justification, differing AI answers). No derivations — it's a quick reference.
 function renderKeyEntry(q, seq) {
-  const correct = q.answer && q.answer.correct, ai = aiAnswers(q), badge = verifBadge(q, ai.length);
+  const correct = q.answer && q.answer.correct;
+  const ai = showAI ? aiAnswers(q) : [], badge = showAI ? verifBadge(q, ai.length) : null; // no AI content unless enabled
   const p = [`<div class="kq"><span class="kn">Zadanie ${seq ?? q.number}.</span> <span class="hash">(${q.hash})</span>`];
   if (correct) p.push(` <span class="ka">Odpowiedź: <b>${correct}</b></span>`);
   if (badge) {
@@ -307,8 +313,11 @@ function renderQuestion(q, seq) {
   // grey glyph = the size "auto" resolves to under the current global mode; green (.on) = a pinned override.
   const autoBo = autoBrud(half, brudMode());
   parts.push(`<button type="button" class="brudtoggle${bo ? ' on' : ''}" title="${brudTitle(bo, autoBo)}" aria-label="brudnopis zadania" data-brud="${bo}">${brudGlyph(bo || autoBo)}</button>`);
+  // figure format shown for this question: a per-question pin (svgOverrides) or the global default (vectorPriority).
+  const figDefault = vectorPriority ? 'svg' : 'png', figFmt = svgOverrides.get(q.hash) || figDefault;
   if ((q.figsvg || []).length) parts.push( // only for questions whose figures have a vector redraw
-    `<button type="button" class="svgtoggle" title="Pokaż rysunek wektorowy (SVG)" aria-label="wersja wektorowa">△</button>`);
+    // glyph = current format (⊞ raster / △ vector); green (.on) = pinned away from the current default (see the click handler)
+    `<button type="button" class="svgtoggle${figFmt !== figDefault ? ' on' : ''}" title="${figFmt === 'svg' ? 'Pokaż rysunek rastrowy (PNG)' : 'Pokaż rysunek wektorowy (SVG)'}" aria-label="przełącz format rysunku">${figFmt === 'svg' ? '△' : '⊞'}</button>`);
   // meta tags inline in the header, right-aligned; each type toggled from the settings popup
   const metaHtml = [
     q.wojewodztwo && `<span class="tag ctx woj">${esc(q.wojewodztwo)}</span>`,
@@ -329,8 +338,9 @@ function renderQuestion(q, seq) {
     const d = (q.figdim || {})[fig];
     const dim = d ? ` width="${d[0]}" height="${d[1]}"` : '';
     // the gutter △ swaps src between these two; the SVG shares the bitmap's viewBox, so dim still holds
-    const alt = hasSvg.has(fig) ? ` data-png="figures/${esc(fig)}" data-svg="figures/svg/${esc(fig.replace(/\.png$/, '.svg'))}"` : '';
-    parts.push(`<img class="fig" src="figures/${esc(fig)}"${dim}${alt} loading="lazy" alt="rysunek do zadania ${q.number}">`);
+    const hasVec = hasSvg.has(fig), png = `figures/${esc(fig)}`, svg = `figures/svg/${esc(fig.replace(/\.png$/, '.svg'))}`;
+    const alt = hasVec ? ` data-png="${png}" data-svg="${svg}"` : '';
+    parts.push(`<img class="fig" src="${hasVec && figFmt === 'svg' ? svg : png}"${dim}${alt} loading="lazy" alt="rysunek do zadania ${q.number}">`);
   }
   const correct = q.answer && q.answer.correct;
   if (q.choices && q.choices.length) {
@@ -340,7 +350,7 @@ function renderQuestion(q, seq) {
     parts.push('</ol>');
   }
   const sol = q.answer && q.answer.solution_html;
-  const ai = aiAnswers(q), badge = verifBadge(q, ai.length);
+  const ai = showAI ? aiAnswers(q) : [], badge = showAI ? verifBadge(q, ai.length) : null; // no AI content unless enabled
   if (correct || sol || ai.length || badge) {
     parts.push('<details class="reveal"><summary title="Pokaż odpowiedź"><span class="eye">👁</span></summary>');
     if (correct) parts.push(`<div class="answer">Odpowiedź: <b>${correct}</b></div>`);
@@ -467,18 +477,24 @@ function serialize() {
   for (const [h, v] of scratchOverrides) (v === 'half' ? bh : bf).push(h);
   if (bh.length) o.bh = bh;
   if (bf.length) o.bf = bf;
+  // per-question figure format pins, split by target format (default follows the vectorPriority setting, not stored)
+  const fr = [], fv = [];
+  for (const [h, v] of svgOverrides) (v === 'svg' ? fv : fr).push(h);
+  if (fr.length) o.fr = fr;
+  if (fv.length) o.fv = fv;
   if (titleOverride != null) o.title = [titleOverride]; // only the edited title; auto/default aren't stored
   return o;
 }
 
-// Keep the per-question brudnopis overrides in step with the "Pokaż tylko id" worksheet: when an
-// explicit id list is active, an override for a question no longer on the list is dropped, so bh/bf
-// never outlive the sheet (Map stays == hash). No list → overrides apply globally, nothing to prune.
+// Keep the per-question overrides in step with the "Pokaż tylko id" worksheet: when an explicit id
+// list is active, an override for a question no longer on the list is dropped, so bh/bf/fr/fv never
+// outlive the sheet (Maps stay == hash). No list → overrides apply globally, nothing to prune.
 function pruneScratchToInclude() {
   const incIds = idList(inc.value);
   if (!incIds.length) return;
   const keep = new Set(incIds);
-  for (const h of [...scratchOverrides.keys()]) if (!keep.has(h)) scratchOverrides.delete(h);
+  for (const m of [scratchOverrides, svgOverrides])
+    for (const h of [...m.keys()]) if (!keep.has(h)) m.delete(h);
 }
 
 function writeUrl(push) {
@@ -491,7 +507,8 @@ function writeUrl(push) {
 function applyState() {
   const o = Facets.decodeHash(location.hash.slice(1));
   for (const f of FACETS) // drop unknown/stale values so state matches the checkboxes that exist
-    selections[f.key] = new Set((o[f.key] || []).filter(v => INDEX[f.key] && INDEX[f.key][v]));
+    selections[f.key] = new Set(f.key === 'weryf' && !showAI ? [] // AI off → the hidden Weryfikacja facet never filters
+      : (o[f.key] || []).filter(v => INDEX[f.key] && INDEX[f.key][v]));
   facetsEl.querySelectorAll('.facet-opt input').forEach(inp => {
     inp.checked = selections[inp.closest('.facet').dataset.facet].has(inp.value);
   });
@@ -503,6 +520,9 @@ function applyState() {
   scratchOverrides.clear();
   for (const h of o.bh || []) if (byHash[h]) scratchOverrides.set(h, 'half');
   for (const h of o.bf || []) if (byHash[h]) scratchOverrides.set(h, 'full');
+  svgOverrides.clear();
+  for (const h of o.fr || []) if (byHash[h]) svgOverrides.set(h, 'png');
+  for (const h of o.fv || []) if (byHash[h]) svgOverrides.set(h, 'svg');
   titleOverride = o.title && o.title[0] != null ? o.title[0] : null; // update() below reflects it via setTitle
   page = 1; update();
 }
@@ -585,11 +605,17 @@ loadData().then(data => {
     }
     const hashEl = e.target.closest('.hash'); // click the id to copy it to the clipboard
     if (hashEl) { copyText(hashEl.closest('.q').dataset.hash); flashCopied(hashEl); return; }
-    const svgBtn = e.target.closest('.svgtoggle'); // △: show the vector redraw instead of the bitmap
+    const svgBtn = e.target.closest('.svgtoggle'); // △: swap this question between bitmap and vector redraw
     if (svgBtn) {
-      const on = svgBtn.classList.toggle('on'); // ponytail: state lives on the DOM, so a re-render resets it
-      for (const img of svgBtn.closest('.q').querySelectorAll('.fig[data-svg]'))
-        img.src = on ? img.dataset.svg : img.dataset.png;
+      const q = svgBtn.closest('.q'), h = q.dataset.hash, def = vectorPriority ? 'svg' : 'png';
+      const next = (svgOverrides.get(h) || def) === 'svg' ? 'png' : 'svg';
+      if (next === def) svgOverrides.delete(h); else svgOverrides.set(h, next); // only the pin ≠ default is stored
+      const showSvg = next === 'svg';
+      for (const img of q.querySelectorAll('.fig[data-svg]')) img.src = showSvg ? img.dataset.svg : img.dataset.png;
+      svgBtn.classList.toggle('on', next !== def);
+      svgBtn.textContent = showSvg ? '△' : '⊞'; // glyph reflects the now-current format
+      svgBtn.title = showSvg ? 'Pokaż rysunek rastrowy (PNG)' : 'Pokaż rysunek wektorowy (SVG)';
+      writeUrl(false); // persist the pin in the URL hash
       return;
     }
     const brudBtn = e.target.closest('.brudtoggle'); // –/½/1: per-question brudnopis override (print reserved space)
@@ -687,6 +713,28 @@ loadData().then(data => {
     const cb = $(id), apply = () => document.body.classList.toggle(cls, !cb.checked);
     cb.onchange = apply; apply();
   }
+  // Eksperymenty — "Pokaż weryfikację AI" (default off): body.hide-ai hides the Weryfikacja facet;
+  // showAI gates the AI content in renderQuestion/renderKeyEntry. Off also clears any weryf selection
+  // so the hidden facet can't filter (and it drops from the hash on the next write). Runs before the
+  // init applyState() below, so its weryf guard sees the right showAI.
+  const aiCb = $('showAI'), applyAI = rerender => {
+    showAI = aiCb.checked;
+    document.body.classList.toggle('hide-ai', !showAI);
+    if (!showAI && selections.weryf.size) {
+      selections.weryf.clear();
+      facetsEl.querySelectorAll('.facet[data-facet="weryf"] .facet-opt input').forEach(i => i.checked = false);
+    }
+    if (rerender) { writeUrl(false); refilter(); }
+  };
+  aiCb.onchange = () => applyAI(true); applyAI(false);
+  // "Rysunki wektorowe" (radio, default bitmap): vectorPriority sets the default figure format. Changing
+  // it clears every per-question pin so all figures snap back to the new default (discarding overrides).
+  const applyVector = rerender => {
+    vectorPriority = document.querySelector('input[name="figFormat"]:checked').value === 'vector';
+    if (rerender) { svgOverrides.clear(); writeUrl(false); update(); } // setup call skips this: applyState restores the pins
+  };
+  for (const r of document.querySelectorAll('input[name="figFormat"]')) r.onchange = () => applyVector(true);
+  applyVector(false);
   // settings popup: toggle on the gear, close on outside click or Escape
   settingsBtn.onclick = e => { e.stopPropagation(); settingsPop.hidden = !settingsPop.hidden; };
   document.addEventListener('click', e => {

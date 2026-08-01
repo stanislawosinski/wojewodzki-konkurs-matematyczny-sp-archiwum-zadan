@@ -37,7 +37,7 @@ h1{font-size:1.4rem;margin-top:0}
   background:#fafafa;border:1px solid #e2e2e2;border-radius:5px;box-shadow:0 2px 8px rgba(0,0,0,.1);
   padding:.7rem .85rem;color:#333;white-space:normal}
 .settings-pop[hidden]{display:none}
-.settings-pop section{flex:1 0 11rem} /* Lista zadań; Wydruk (section+section) is wider — see below */
+.settings-pop section{flex:1 0 14rem} /* Lista zadań + Eksperymenty; Wydruk (section+section) is wider — see below */
 .settings-pop::before{content:'';position:absolute;top:-5px;right:.55rem;width:8px;height:8px;
   background:#fafafa;border-left:1px solid #e2e2e2;border-top:1px solid #e2e2e2;transform:rotate(45deg)}
 .settings-pop section + section{flex-basis:17.5rem;margin-left:1.2rem;padding-left:1.2rem;border-left:1px solid #ddd} /* Wydruk: wider than Lista */
@@ -102,6 +102,7 @@ select{font:inherit;padding:.35rem}
   font-family:system-ui,-apple-system,'Segoe UI',sans-serif}
 .qmeta .tag.ctx{color:#aaa;background:#fbfbfb} /* woj/rok/etap: lighter text + fainter bg than topic tags */
 .hide-woj .qmeta .woj,.hide-rok .qmeta .rok,.hide-etap .qmeta .etap,.hide-topics .qmeta .topic{display:none}
+.hide-ai .facet[data-facet="weryf"]{display:none} /* "Pokaż weryfikację AI" off → the Weryfikacja facet is hidden (its selection is also cleared) */
 /* left-gutter controls (screen order, left→right): × remove · ▾ up · ▾ down · checkbox · question.
    Every position derives from these gaps — tune them here. */
 .q{--btn:1.1rem;--cb:1.3rem;--qgap:2.7rem;--grp:.4rem;--pair:.15rem;--brudnopis-half:11.5cm;--brudnopis-full:21cm}

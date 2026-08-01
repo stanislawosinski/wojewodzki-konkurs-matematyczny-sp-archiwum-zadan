@@ -27,12 +27,26 @@
 <button type="button" id="settingsBtn" title="Ustawienia" aria-label="Ustawienia">⚙</button>
 <div class="settings-pop" id="settingsPop" hidden>
 <section><h4>Lista zadań</h4>
+<div class="optgroup">
 <p class="sublabel">Pokaż dodatkowo:</p>
 <label><input type="checkbox" id="metaTitle"> Tytuł arkusza</label>
 <label><input type="checkbox" id="metaWoj" checked> Województwo</label>
 <label><input type="checkbox" id="metaRok" checked> Rok</label>
 <label><input type="checkbox" id="metaEtap" checked> Etap</label>
 <label><input type="checkbox" id="metaTopics" checked> Tematy</label>
+</div>
+<h4>Eksperymenty</h4>
+<div class="optgroup">
+<label><input type="checkbox" id="showAI"> Pokaż weryfikację AI</label>
+<p class="hint">ocena odpowiedzi przez AI i status klucza; dodaje filtr „Weryfikacja”</p>
+</div>
+<div class="optgroup">
+<p class="sublabel">Rysunki wektorowe:</p>
+<label><input type="radio" name="figFormat" value="bitmap" checked> Priorytet rastrowy (PNG)</label>
+<p class="hint">Rysunki wycięte z oryginalnych arkuszy zadań</p>
+<label><input type="radio" name="figFormat" value="vector"> Priorytet wektorowy (SVG)</label>
+<p class="hint">Rysunki narysowane przez AI na podstawie rysunków w arkuszach zadań, mogą zawierać błędy</p>
+</div>
 </section>
 <section><h4>Wydruk</h4>
 <div class="optgroup">
