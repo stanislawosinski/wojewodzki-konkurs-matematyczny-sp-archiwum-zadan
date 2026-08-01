@@ -1,5 +1,5 @@
 {
-  "revision": "2026-08-01",
+  "revision": "2026-08-02",
   "note": "Canonical topic catalog. Tag every question with LEAF names (the `name` field), most-specific first. Categories are for browsing/filtering only — derive them from the leaf, never store a category on a question. A `cross_cutting` leaf combines with a content leaf (e.g. [\"trójkąty\", \"dowodzenie / dowody\"]).",
   "categories": [
     {
@@ -42,7 +42,8 @@
     {
       "name": "Równania, nierówności, proporcje",
       "leaves": [
-        { "name": "równania z jedną zmienną", "desc": "równania pierwszego stopnia z jedną niewiadomą, zadania tekstowe na równania" },
+        { "name": "równania z jedną zmienną", "desc": "równania pierwszego stopnia z jedną niewiadomą: przekształcanie i rozwiązywanie" },
+        { "name": "zadania tekstowe na równania", "desc": "przełożenie treści zadania na równanie: wybór niewiadomej i zapisanie zależności", "new": true, "cross_cutting": true },
         { "name": "układy równań", "desc": "układy równań pierwszego stopnia z dwiema niewiadomymi" },
         { "name": "nierówności", "desc": "nierówności pierwszego stopnia z jedną niewiadomą" },
         { "name": "proporcjonalność prosta", "desc": "wielkości wprost proporcjonalne, proporcje" },
@@ -54,9 +55,12 @@
       "name": "Geometria płaska",
       "leaves": [
         { "name": "geometria", "desc": "ogólne zadania z geometrii płaskiej" },
-        { "name": "trójkąty", "desc": "własności trójkątów, twierdzenie Pitagorasa, trójkąty 30-60-90 i 45-45-90" },
+        { "name": "trójkąty", "desc": "własności trójkątów: rodzaje, nierówność trójkąta, przystawanie" },
+        { "name": "twierdzenie Pitagorasa", "desc": "twierdzenie Pitagorasa i twierdzenie odwrotne, trójki pitagorejskie", "new": true },
+        { "name": "trójkąty o kątach 30-60-90 i 45-45-90", "desc": "zależności między bokami w trójkącie o kątach 30-60-90 i 45-45-90, wysokość trójkąta równobocznego, przekątna kwadratu", "new": true },
         { "name": "czworokąty", "desc": "kwadrat, prostokąt, romb, trapez, równoległobok, deltoid", "new": true },
         { "name": "kąty", "desc": "miary kątów, kąty wierzchołkowe/przyległe, suma kątów, kąt zewnętrzny trójkąta", "new": true },
+        { "name": "wędrówka kąta", "desc": "miara kąta wyznaczana przez przeprowadzenie niewiadomej przez figurę: trójkąt równoramienny, kąt przyległy, kąt zewnętrzny, suma kątów — łańcuch kilku zależności, bez gotowego wzoru", "new": true },
         { "name": "wielokąty", "desc": "suma kątów wielokąta, liczba przekątnych, wielokąty foremne", "new": true },
         { "name": "sześciokąty foremne", "desc": "pole, przekątne i bok sześciokąta foremnego" },
         { "name": "koła / okręgi", "desc": "długość okręgu, pole koła, cięciwy i kąty w okręgu" },
@@ -91,7 +95,8 @@
     {
       "name": "Statystyka",
       "leaves": [
-        { "name": "statystyka opisowa", "desc": "średnia, mediana, dominanta, odczyt danych z tabel i wykresów" }
+        { "name": "statystyka opisowa", "desc": "średnia, mediana, dominanta, odczyt danych z tabel i wykresów" },
+        { "name": "mediana i dominanta", "desc": "mediana, dominanta i wartość środkowa zestawu danych", "new": true }
       ]
     },
     {
@@ -114,8 +119,8 @@
     }
   ],
   "migration": {
-    "instructions": "This revision carves new leaves out of the old catch-alls (`geometria`, `bryły`, `inne`, `potęgi i pierwiastki`, `procenty`, `zagadki logiczne`) and merges `kombinatoryka` into `zliczanie / metody zliczania`. When re-tagging existing questions, decide tags from the question CONTENT against this catalog — do NOT mechanically copy the old coarse tags. Every leaf must name a concept REQUIRED TO SOLVE the question, never one merely mentioned or displayed. Keep multi-tagging: a content leaf plus any cross_cutting leaf (e.g. `pole i obwód`, `dowodzenie / dowody`).",
-    "new_leaves": ["czworokąty", "kąty", "symetrie", "pole i obwód", "graniastosłupy", "ostrosłupy", "ułamki", "układ współrzędnych", "wyrażenia algebraiczne", "działania na potęgach", "działania na pierwiastkach", "wyłączanie czynnika przed znak pierwiastka", "porównywanie potęg i pierwiastków", "pierwiastki zagnieżdżone", "ostatnia cyfra / cykliczność potęg", "notacja wykładnicza", "ujemny wykładnik", "wzrost wykładniczy", "liczby wymierne i niewymierne", "liczby pierwsze", "zmiany procentowe", "stężenie procentowe / mieszaniny", "wartość bezwzględna", "kalendarz i czas", "wielokąty", "podobieństwo i skala", "bryły obrotowe", "siatki brył", "liczba krawędzi, ścian i wierzchołków", "zbiory / zasada włączeń i wyłączeń", "zasada szufladkowa", "zamiana jednostek", "zadania wieloczęściowe", "ułamki okresowe / rozwinięcia dziesiętne"],
+    "instructions": "REVISION 2026-08-02 adds five leaves carved out of `kąty`, `trójkąty`, `równania z jedną zmienną` and `statystyka opisowa`, driven by what a training plan needs to select on: `wędrówka kąta`, `twierdzenie Pitagorasa`, `trójkąty o kątach 30-60-90 i 45-45-90`, `zadania tekstowe na równania` (cross_cutting) and `mediana i dominanta`. It also fixes the `liczba krawędzi, ścian i wierzchołków` rule from 'instead of' to 'alongside' the solid leaf. These are applied by a CARVE pass (candidate questions selected by their current tag, judged one leaf at a time) rather than by re-tagging whole papers — the 2026-08-01 full retag below is already applied and must not be redone. All rules in this block remain in force. --- REVISION 2026-08-01 (applied): This revision carves new leaves out of the old catch-alls (`geometria`, `bryły`, `inne`, `potęgi i pierwiastki`, `procenty`, `zagadki logiczne`) and merges `kombinatoryka` into `zliczanie / metody zliczania`. When re-tagging existing questions, decide tags from the question CONTENT against this catalog — do NOT mechanically copy the old coarse tags. Every leaf must name a concept REQUIRED TO SOLVE the question, never one merely mentioned or displayed. Keep multi-tagging: a content leaf plus any cross_cutting leaf (e.g. `pole i obwód`, `dowodzenie / dowody`).",
+    "new_leaves": ["czworokąty", "kąty", "symetrie", "pole i obwód", "graniastosłupy", "ostrosłupy", "ułamki", "układ współrzędnych", "wyrażenia algebraiczne", "działania na potęgach", "działania na pierwiastkach", "wyłączanie czynnika przed znak pierwiastka", "porównywanie potęg i pierwiastków", "pierwiastki zagnieżdżone", "ostatnia cyfra / cykliczność potęg", "notacja wykładnicza", "ujemny wykładnik", "wzrost wykładniczy", "liczby wymierne i niewymierne", "liczby pierwsze", "zmiany procentowe", "stężenie procentowe / mieszaniny", "wartość bezwzględna", "kalendarz i czas", "wielokąty", "podobieństwo i skala", "bryły obrotowe", "siatki brył", "liczba krawędzi, ścian i wierzchołków", "zbiory / zasada włączeń i wyłączeń", "zasada szufladkowa", "zamiana jednostek", "zadania wieloczęściowe", "ułamki okresowe / rozwinięcia dziesiętne", "wędrówka kąta", "twierdzenie Pitagorasa", "trójkąty o kątach 30-60-90 i 45-45-90", "zadania tekstowe na równania", "mediana i dominanta"],
     "removed_leaves": ["kombinatoryka"],
     "rules": [
       "Old `geometria`: reclassify to `czworokąty` / `kąty` / `symetrie` / `układ współrzędnych` (or `trójkąty` / `koła / okręgi`) as content dictates; keep `geometria` only when genuinely general. Add cross-cutting `pole i obwód` whenever the task is computing area or perimeter.",
@@ -150,11 +155,16 @@
       "`podobieństwo i skala`: similar figures, map/plan scale, and the k²/k³ effect of scaling on area and volume. Carve out of `proporcjonalność prosta` and `geometria`.",
       "Old `bryły` splits: `bryły obrotowe` for walec/stożek/kula, `bryły` only for genuinely mixed or general solid-geometry items.",
       "`siatki brył`: nets — recognising, completing, or folding one. The question is about the net, not about volume or surface area.",
-      "`liczba krawędzi, ścian i wierzchołków`: counting or relating E/F/V of prisms and pyramids ('graniastosłup ma 28 wierzchołków, ile krawędzi ma ostrosłup o tej samej liczbie krawędzi'). These are combinatorial, not metric — assign this INSTEAD OF `graniastosłupy`/`ostrosłupy`, which are for volume, surface area and diagonals.",
+      "`liczba krawędzi, ścian i wierzchołków`: counting or relating E/F/V of prisms and pyramids ('graniastosłup ma 28 wierzchołków, ile krawędzi ma ostrosłup o tej samej liczbie krawędzi'). These are combinatorial rather than metric, but assign this leaf ALONGSIDE `graniastosłupy`/`ostrosłupy` whenever the question names a specific solid — NOT instead of them. (Revised 2026-08-02: the earlier 'instead of' wording left 94 of 106 such questions with no solid leaf at all, making them invisible to any pool built from `graniastosłupy`/`ostrosłupy`.)",
       "`kombinatoryka` is MERGED INTO `zliczanie / metody zliczania` — the two were used interchangeably. Retag every `kombinatoryka` question as `zliczanie / metody zliczania`; the leaf no longer exists.",
       "`zbiory / zasada włączeń i wyłączeń`: 'ilu uczniów ma psa i kota / ani psa ani kota' — two or three overlapping sets. Carve out of `zliczanie / metody zliczania`.",
       "`zasada szufladkowa`: 'ile najmniej trzeba wyjąć, aby mieć pewność, że…'. A named technique, distinct from general logic puzzles.",
-      "`zadania wieloczęściowe` (cross_cutting): krzyżówki and multi-part blocks (7.1–7.8, a)–e)) whose parts are unrelated. ~139 questions fit; 29 currently carry 6 or more tags, one carries 17, which makes every affected leaf's browse list unusable. Assign this leaf plus AT MOST TWO dominant content leaves — do not enumerate every subtopic."
+      "`zadania wieloczęściowe` (cross_cutting): krzyżówki and multi-part blocks (7.1–7.8, a)–e)) whose parts are unrelated. ~139 questions fit; 29 currently carry 6 or more tags, one carries 17, which makes every affected leaf's browse list unusable. Assign this leaf plus AT MOST TWO dominant content leaves — do not enumerate every subtopic.",
+      "2026-08-02 — `wędrówka kąta`: assign when the solution walks the unknown through SEVERAL angle relations in sequence (isosceles base angles → exterior angle → angle sum, and so on). A single application of the angle sum or of an adjacent/vertical angle stays at `kąty` alone. Do NOT assign when an angle merely turns up on the way through an area problem. Keep `kąty` alongside; keep `trójkąty` too when the chain runs through a triangle.",
+      "2026-08-02 — `twierdzenie Pitagorasa`: assign when the solution needs a²+b²=c², INCLUDING the many papers that never name the theorem — they never do, so the words 'Pitagoras'/'pitagorejski' appear in none of the 834 `trójkąty` questions and cannot be used as a signal. Judge from the solution: a right angle plus a missing side length. Do NOT assign when a right angle is merely part of the figure's background. Keep `trójkąty` alongside. This leaf exists to filter by stage window (Pitagoras is out of scope before the szkolny stage in some regions), so a false positive costs more than a miss.",
+      "2026-08-02 — `trójkąty o kątach 30-60-90 i 45-45-90`: assign when the solution uses the a√3 or a√2 side relations for these triangles — height of an equilateral triangle, diagonal of a square, the short/long leg ratios. Distinct technique from Pitagoras, and a distinct stage window, so assign each on its own merits; both may apply. Do NOT assign merely because an equilateral triangle or a square appears.",
+      "2026-08-02 — `zadania tekstowe na równania` (cross_cutting): assign when the WORK is translating a word problem into an equation — choosing the unknown and writing the relation. Do NOT assign when the equation is already given and only needs solving. Keep `równania z jedną zmienną` or `układy równań` alongside. Guard against this becoming the next catch-all: it should land on well under half of the 938-question `równania` pool, so if a question's story is trivial scaffolding around an equation that is essentially handed to you, leave it off.",
+      "2026-08-02 — `mediana i dominanta`: assign when the solution must find or use a median, mode or middle value. Plain averages and reading values off a table stay at `statystyka opisowa` alone. ADDITIVE — keep `statystyka opisowa` on every question that gains this leaf; this leaf narrows browsing, it does not carve the pool. Small and precise (~14 questions bank-wide) — do not force it."
     ]
   }
 }

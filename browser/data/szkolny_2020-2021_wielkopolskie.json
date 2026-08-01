@@ -487,6 +487,7 @@
       "type": "closed_single",
       "points": 1,
       "topics": [
+        "ostrosłupy",
         "liczba krawędzi, ścian i wierzchołków"
       ],
       "prompt_html": "<p>Pewien ostrosłup ma 50 wierzchołków. Liczba krawędzi tego ostrosłupa wynosi:</p>",
@@ -801,6 +802,7 @@
       "type": "true_false",
       "points": 3,
       "topics": [
+        "zadania tekstowe na równania",
         "równania z jedną zmienną"
       ],
       "prompt_html": "<p>Kasia i Janek są rodzeństwem. Ich tata ma 2 razy więcej lat niż razem mają jego córka Kasia i syn Janek. Kasia jest trzy razy starsza od brata Janka i o 30 lat młodsza od taty.</p><p>Określ prawdziwość zdań, zaznaczając P, jeśli zdanie jest prawdziwe, lub zaznaczając F, jeśli zdanie jest fałszywe.</p>",
@@ -936,7 +938,7 @@
         "dowodzenie / dowody",
         "wyłączanie wspólnego czynnika przed nawias"
       ],
-      "prompt_html": "<p>Wykaż, że suma liczb trzycyfrowych postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mover><mi>XYZ</mi><mo>―</mo></mover><mo>+</mo><mover><mi>ZXY</mi><mo>―</mo></mover><mo>+</mo><mover><mi>YZX</mi><mo>―</mo></mover></math>, jest podzielna przez 111, wiedząc, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>X</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Z</mi></math> oznaczają dowolne cyfry i są różne od zera.</p>",
+      "prompt_html": "<p>Wykaż, że suma liczb trzycyfrowych postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>XYZ</mi><mo>+</mo><mi>ZXY</mi><mo>+</mo><mi>YZX</mi></math>, jest podzielna przez 111, wiedząc, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>X</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Z</mi></math> oznaczają dowolne cyfry i są różne od zera.</p>",
       "choices": [],
       "figures": [],
       "answer": {
@@ -956,6 +958,7 @@
       "type": "open",
       "points": 4,
       "topics": [
+        "wędrówka kąta",
         "trójkąty",
         "kąty"
       ],
