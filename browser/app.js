@@ -190,6 +190,7 @@ function wireQlist() {
     renderSummary();
     writeUrl(false);
   });
+  // one delegate for the per-question controls; each action has its own handler below
   qlist.addEventListener("click", e => {
     const qnum = e.target.closest(".qnum"); // click "Zadanie N" to flip its print checkbox
     if (qnum) {
@@ -206,46 +207,12 @@ function wireQlist() {
     }
     const svgBtn = e.target.closest(".svgtoggle"); // △: swap this question between bitmap and vector redraw
     if (svgBtn) {
-      const q = svgBtn.closest(".q"),
-        h = q.dataset.hash,
-        def = vectorPriority ? "svg" : "png";
-      const next = (svgOverrides.get(h) || def) === "svg" ? "png" : "svg";
-      if (next === def) {
-        svgOverrides.delete(h);
-      } else {
-        svgOverrides.set(h, next); // only the pin ≠ default is stored
-      }
-      const showSvg = next === "svg";
-      for (const img of q.querySelectorAll(".fig[data-svg]")) {
-        img.src = showSvg ? img.dataset.svg : img.dataset.png;
-      }
-      svgBtn.classList.toggle("on", next !== def);
-      svgBtn.textContent = showSvg ? "△" : "⊞"; // glyph reflects the now-current format
-      svgBtn.title = showSvg ? "Pokaż rysunek rastrowy (PNG)" : "Pokaż rysunek wektorowy (SVG)";
-      writeUrl(false); // persist the pin in the URL hash
+      toggleFigureFormat(svgBtn);
       return;
     }
     const scratchBtn = e.target.closest(".scratch-toggle"); // –/½/1: per-question brudnopis override (print reserved space)
     if (scratchBtn) {
-      const q = scratchBtn.closest(".q"),
-        h = q.dataset.hash;
-      const auto = autoScratch(q.classList.contains("phalf"), scratchMode());
-
-      // 2-state toggle: default (grey = auto) ↔ the only override that changes the size (the value ≠ auto).
-      // Pinning the value equal to auto is dropped — it wouldn't change the print, just grey→green.
-      const s = scratchBtn.dataset.scratch ? "" : auto === "half" ? "full" : "half";
-      scratchBtn.dataset.scratch = s;
-      scratchBtn.textContent = scratchGlyph(s || auto); // grey shows the auto size, green the pinned size
-      scratchBtn.title = scratchTitle(s, auto);
-      scratchBtn.classList.toggle("on", !!s);
-      q.classList.toggle("scratch-pin-half", s === "half");
-      q.classList.toggle("scratch-pin-full", s === "full");
-      if (s) {
-        scratchOverrides.set(h, s);
-      } else {
-        scratchOverrides.delete(h); // scratchOverrides is the truth; render + hash read it
-      }
-      writeUrl(false);
+      toggleScratchPin(scratchBtn);
       return;
     }
     const rm = e.target.closest(".reorder.remove"); // × : drop this question's hash from the id box
@@ -258,20 +225,65 @@ function wireQlist() {
       return;
     }
     const btn = e.target.closest(".reorder"); // reorder arrows: swap adjacent hashes in the id box
-    if (!btn) {
-      return;
+    if (btn) {
+      reorderIdList(btn);
     }
-    const ids = idList(inc.value);
-    const i = ids.indexOf(btn.closest(".q").dataset.hash);
-    const j = i + (btn.classList.contains("up") ? -1 : 1);
-    if (i < 0 || j < 0 || j >= ids.length) {
-      return;
-    }
-    [ids[i], ids[j]] = [ids[j], ids[i]];
-    inc.value = ids.join(", ");
-    writeUrl(false);
-    update(); // keep current page & scroll, just re-render in the new order
   });
+}
+
+function toggleFigureFormat(svgBtn) {
+  const q = svgBtn.closest(".q"),
+    h = q.dataset.hash,
+    def = vectorPriority ? "svg" : "png";
+  const next = (svgOverrides.get(h) || def) === "svg" ? "png" : "svg";
+  if (next === def) {
+    svgOverrides.delete(h);
+  } else {
+    svgOverrides.set(h, next); // only the pin ≠ default is stored
+  }
+  const showSvg = next === "svg";
+  for (const img of q.querySelectorAll(".fig[data-svg]")) {
+    img.src = showSvg ? img.dataset.svg : img.dataset.png;
+  }
+  svgBtn.classList.toggle("on", next !== def);
+  svgBtn.textContent = showSvg ? "△" : "⊞"; // glyph reflects the now-current format
+  svgBtn.title = showSvg ? "Pokaż rysunek rastrowy (PNG)" : "Pokaż rysunek wektorowy (SVG)";
+  writeUrl(false); // persist the pin in the URL hash
+}
+
+function toggleScratchPin(scratchBtn) {
+  const q = scratchBtn.closest(".q"),
+    h = q.dataset.hash;
+  const auto = autoScratch(q.classList.contains("phalf"), scratchMode());
+
+  // 2-state toggle: default (grey = auto) ↔ the only override that changes the size (the value ≠ auto).
+  // Pinning the value equal to auto is dropped — it wouldn't change the print, just grey→green.
+  const s = scratchBtn.dataset.scratch ? "" : auto === "half" ? "full" : "half";
+  scratchBtn.dataset.scratch = s;
+  scratchBtn.textContent = scratchGlyph(s || auto); // grey shows the auto size, green the pinned size
+  scratchBtn.title = scratchTitle(s, auto);
+  scratchBtn.classList.toggle("on", !!s);
+  q.classList.toggle("scratch-pin-half", s === "half");
+  q.classList.toggle("scratch-pin-full", s === "full");
+  if (s) {
+    scratchOverrides.set(h, s);
+  } else {
+    scratchOverrides.delete(h); // scratchOverrides is the truth; render + hash read it
+  }
+  writeUrl(false);
+}
+
+function reorderIdList(btn) {
+  const ids = idList(inc.value);
+  const i = ids.indexOf(btn.closest(".q").dataset.hash);
+  const j = i + (btn.classList.contains("up") ? -1 : 1);
+  if (i < 0 || j < 0 || j >= ids.length) {
+    return;
+  }
+  [ids[i], ids[j]] = [ids[j], ids[i]];
+  inc.value = ids.join(", ");
+  writeUrl(false);
+  update(); // keep current page & scroll, just re-render in the new order
 }
 
 function wireToolbar() {
@@ -329,44 +341,48 @@ function wireToolbar() {
   });
 }
 
+// Settings persistence: every settings-popup control (checkboxes by id, radios by name) in
+// localStorage. ponytail: one generic pass over #settingsPop inputs, not per-control wiring.
+// The key and the stored id/name strings are wire format — do not rename.
+const SETTINGS_KEY = "zadania-settings";
+
+function saveSettings() {
+  const s = {};
+  for (const i of settingsPop.querySelectorAll("input")) {
+    if (i.type === "radio") {
+      if (i.checked) {
+        s[i.name] = i.value;
+      }
+    } else {
+      s[i.id] = i.checked;
+    }
+  }
+  try {
+    localStorage.setItem(SETTINGS_KEY, JSON.stringify(s));
+  } catch {}
+}
+
+function restoreSettings() {
+  let s;
+  try {
+    s = JSON.parse(localStorage.getItem(SETTINGS_KEY) || "null");
+  } catch {}
+  if (!s) {
+    return;
+  }
+  for (const i of settingsPop.querySelectorAll("input")) {
+    if (i.type === "radio") {
+      if (i.value === s[i.name]) {
+        i.checked = true;
+      }
+    } else if (typeof s[i.id] === "boolean") {
+      i.checked = s[i.id];
+    }
+  }
+}
+
 function wireSettings() {
-  // persist every settings-popup control (checkboxes by id, radios by name) in localStorage.
-  // ponytail: one generic pass over #settingsPop inputs, not per-control save/load wiring.
-  const SETTINGS_KEY = "zadania-settings";
-  const saveSettings = () => {
-    const s = {};
-    for (const i of settingsPop.querySelectorAll("input")) {
-      if (i.type === "radio") {
-        if (i.checked) {
-          s[i.name] = i.value;
-        }
-      } else {
-        s[i.id] = i.checked;
-      }
-    }
-    try {
-      localStorage.setItem(SETTINGS_KEY, JSON.stringify(s));
-    } catch {}
-  };
-  (() => {
-    // restore BEFORE the apply* handlers below, so the body classes reflect saved state
-    let s;
-    try {
-      s = JSON.parse(localStorage.getItem(SETTINGS_KEY) || "null");
-    } catch {}
-    if (!s) {
-      return;
-    }
-    for (const i of settingsPop.querySelectorAll("input")) {
-      if (i.type === "radio") {
-        if (i.value === s[i.name]) {
-          i.checked = true;
-        }
-      } else if (typeof s[i.id] === "boolean") {
-        i.checked = s[i.id];
-      }
-    }
-  })();
+  restoreSettings(); // BEFORE the apply* handlers below, so the body classes reflect saved state
   settingsPop.addEventListener("change", saveSettings);
 
   // print page-break mode (radio): one/two questions per page, or none. Only affects print.

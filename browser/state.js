@@ -139,6 +139,26 @@ const selectedHashes = () => DATA.filter(q => selectedSet.has(q.hash)).map(q => 
 // serialization. Written on every change (facet toggles push a history entry, everything
 // else replaces — see writeUrl). Read on load and on Back/Forward (popstate). page is not
 // stored. pushState/replaceState are silent (no popstate/hashchange), so writes never loop.
+
+// split an override Map's hashes into [value === val, the rest]
+function partitionByValue(map, val) {
+  const yes = [],
+    no = [];
+  for (const [h, v] of map) {
+    (v === val ? yes : no).push(h);
+  }
+  return [yes, no];
+}
+
+// re-add only the hashes that still exist in the data (stale ids in a shared URL are dropped)
+function restoreOverrides(map, hashes, val) {
+  for (const h of hashes || []) {
+    if (byHash[h]) {
+      map.set(h, val);
+    }
+  }
+}
+
 function serialize() {
   const o = {};
   for (const f of FACETS) {
@@ -162,11 +182,7 @@ function serialize() {
   }
 
   // brudnopis overrides split by target height; defaults aren't stored (absent = follow the global setting)
-  const bh = [],
-    bf = [];
-  for (const [h, v] of scratchOverrides) {
-    (v === "half" ? bh : bf).push(h);
-  }
+  const [bh, bf] = partitionByValue(scratchOverrides, "half");
   if (bh.length) {
     o.bh = bh;
   }
@@ -175,11 +191,7 @@ function serialize() {
   }
 
   // per-question figure format pins, split by target format (default follows the vectorPriority setting, not stored)
-  const fr = [],
-    fv = [];
-  for (const [h, v] of svgOverrides) {
-    (v === "svg" ? fv : fr).push(h);
-  }
+  const [fv, fr] = partitionByValue(svgOverrides, "svg");
   if (fr.length) {
     o.fr = fr;
   }
@@ -246,27 +258,11 @@ function applyState() {
     }
   }
   scratchOverrides.clear();
-  for (const h of o.bh || []) {
-    if (byHash[h]) {
-      scratchOverrides.set(h, "half");
-    }
-  }
-  for (const h of o.bf || []) {
-    if (byHash[h]) {
-      scratchOverrides.set(h, "full");
-    }
-  }
+  restoreOverrides(scratchOverrides, o.bh, "half");
+  restoreOverrides(scratchOverrides, o.bf, "full");
   svgOverrides.clear();
-  for (const h of o.fr || []) {
-    if (byHash[h]) {
-      svgOverrides.set(h, "png");
-    }
-  }
-  for (const h of o.fv || []) {
-    if (byHash[h]) {
-      svgOverrides.set(h, "svg");
-    }
-  }
+  restoreOverrides(svgOverrides, o.fr, "png");
+  restoreOverrides(svgOverrides, o.fv, "svg");
   titleOverride = o.title && o.title[0] != null ? o.title[0] : null; // update() below reflects it via setTitle
   page = 1;
   update();

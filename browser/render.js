@@ -90,31 +90,37 @@ const showInfotip = (icon, text) => {
   infotip.style.top = `${r.bottom + 6}px`;
 };
 
+// topic facet: leaves grouped under their catalog categories in catalog order;
+// leaves missing from the catalog trail under "(poza katalogiem)"
+function topicEntries(present) {
+  const has = new Set(present),
+    seen = new Set(),
+    out = [];
+  for (const [cat, leaves] of CATALOG) {
+    const hit = leaves.filter(l => has.has(l));
+    if (!hit.length) {
+      continue;
+    }
+    out.push({ header: cat });
+    for (const l of hit) {
+      out.push({ value: l });
+      seen.add(l);
+    }
+  }
+  const extra = present.filter(l => !seen.has(l)).sort();
+  if (extra.length) {
+    out.push({ header: "(poza katalogiem)" });
+    for (const l of extra) {
+      out.push({ value: l });
+    }
+  }
+  return out;
+}
+
 // ordered checkbox entries for a facet: {header} rows (topic categories) or {value} rows
 function facetEntries(f, present) {
   if (f.key === "topic") {
-    const has = new Set(present),
-      seen = new Set(),
-      out = [];
-    for (const [cat, leaves] of CATALOG) {
-      const hit = leaves.filter(l => has.has(l));
-      if (!hit.length) {
-        continue;
-      }
-      out.push({ header: cat });
-      for (const l of hit) {
-        out.push({ value: l });
-        seen.add(l);
-      }
-    }
-    const extra = present.filter(l => !seen.has(l)).sort();
-    if (extra.length) {
-      out.push({ header: "(poza katalogiem)" });
-      for (const l of extra) {
-        out.push({ value: l });
-      }
-    }
-    return out;
+    return topicEntries(present);
   }
   let vals;
   if (f.order) {
@@ -251,16 +257,9 @@ function renderKeyEntry(q, seq) {
   return `${p.join("")}</div>`;
 }
 
-function renderQuestion(q, seq) {
-  // print "Brudnopis: auto" sizing: short closed (a–d) questions get half a page (two per sheet);
-  // open, true/false series and anything with a figure get a whole page.
-  const half = q.type === "closed_single" && !(q.figures || []).length;
-  const geom = (q.topics || []).some(t => GEOM_LEAVES.has(t)) ? " geometry" : ""; // kratka "tylko w geometrii" target
-  const override = scratchOverrides.get(q.hash) || ""; // '' | 'half' | 'full' — per-question brudnopis override
-  const parts = [
-    `<article class="q ${half ? "phalf" : "pfull"}${geom}${override ? ` scratch-pin-${override}` : ""}" id="${esc(q.id)}" data-hash="${q.hash}">`
-  ];
-
+// the left-gutter block (select box + optional reorder arrows) and the two per-question
+// pin buttons (brudnopis size, figure format) that sit beside the question body
+function questionControlsHtml(q, seq, half, override, figFmt, figDefault) {
   // left-gutter controls wrapped in one .gutter group so they dim together and hover as a unit
   const reorder =
     seq == null
@@ -268,9 +267,9 @@ function renderQuestion(q, seq) {
       : `<button type="button" class="reorder remove" title="Usuń z listy id" aria-label="usuń">×</button>` +
         `<button type="button" class="reorder up" title="Przesuń w górę" aria-label="w górę"><span>▾</span></button>` +
         `<button type="button" class="reorder down" title="Przesuń w dół" aria-label="w dół">▾</button>`;
-  parts.push(
+  const parts = [
     `<div class="gutter">${reorder}<label class="selectbox" title="zaznacz do wydruku"><input type="checkbox"${selectedSet.has(q.hash) ? " checked" : ""}></label></div>`
-  );
+  ];
 
   // per-question brudnopis override, left of the eye; hidden in print & when global brudnopis is off.
   // grey glyph = the size "auto" resolves to under the current global mode; green (.on) = a pinned override.
@@ -278,10 +277,6 @@ function renderQuestion(q, seq) {
   parts.push(
     `<button type="button" class="scratch-toggle${override ? " on" : ""}" title="${scratchTitle(override, autoSize)}" aria-label="brudnopis zadania" data-scratch="${override}">${scratchGlyph(override || autoSize)}</button>`
   );
-
-  // figure format shown for this question: a per-question pin (svgOverrides) or the global default (vectorPriority).
-  const figDefault = vectorPriority ? "svg" : "png",
-    figFmt = svgOverrides.get(q.hash) || figDefault;
   if ((q.figsvg || []).length) {
     parts.push(
       // only for questions whose figures have a vector redraw
@@ -289,24 +284,13 @@ function renderQuestion(q, seq) {
       `<button type="button" class="svgtoggle${figFmt !== figDefault ? " on" : ""}" title="${figFmt === "svg" ? "Pokaż rysunek rastrowy (PNG)" : "Pokaż rysunek wektorowy (SVG)"}" aria-label="przełącz format rysunku">${figFmt === "svg" ? "△" : "⊞"}</button>`
     );
   }
+  return parts.join("\n");
+}
 
-  // meta tags inline in the header, right-aligned; each type toggled from the settings popup
-  const metaHtml = [
-    q.wojewodztwo && `<span class="tag ctx region">${esc(q.wojewodztwo)}</span>`,
-    q.school_year && `<span class="tag ctx year">${esc(q.school_year)}</span>`,
-    q.stage && `<span class="tag ctx stage">${esc(q.stage)}</span>`,
-    ...(q.topics || []).map(t => `<span class="tag topic">${esc(t)}</span>`)
-  ]
-    .filter(Boolean)
-    .join("");
-  parts.push('<div class="qbody">'); // wraps the content so the print brudnopis .scratch below can flex-fill the rest of the page
-  parts.push(
-    `<div class="qhead"><span class="qnum">Zadanie ${seq ?? q.number}.</span>` +
-      `<span class="qid">(${q.points}p, <span class="hash" title="kliknij, aby skopiować id">${q.hash}</span>)</span>` +
-      `<span class="qmeta">${metaHtml}</span></div>`
-  );
-  parts.push(`<div class="prompt">${q.prompt_html}</div>`);
+// the lazy <img> tags for a question's figures, honouring the current format pin
+function figuresHtml(q, figFmt) {
   const hasSvg = new Set(q.figsvg || []);
+  const parts = [];
   for (const fig of q.figures || []) {
     // A 400 dpi figure is laid out at its 200 dpi size, so the extra pixels go to
     // sharpness rather than to a picture twice as large. (srcset "2x" does NOT do this:
@@ -323,24 +307,36 @@ function renderQuestion(q, seq) {
       `<img class="fig" src="${hasVec && figFmt === "svg" ? svg : png}"${dim}${alt} loading="lazy" alt="rysunek do zadania ${q.number}">`
     );
   }
-  const correct = q.answer?.correct;
-  if (q.choices?.length) {
-    parts.push('<ol class="choices">');
-    for (const c of q.choices) {
-      parts.push(
-        `<li class="choice${c.label === correct ? " correct" : ""}" value="${esc(c.label)}"><span class="lbl">${esc(c.label)}.</span> ${c.html}</li>`
-      );
-    }
-    parts.push("</ol>");
+  return parts.join("\n");
+}
+
+// the A–D choice list; the correct one is tagged for the reveal styling
+function choicesHtml(q, correct) {
+  if (!q.choices?.length) {
+    return "";
   }
+  const parts = ['<ol class="choices">'];
+  for (const c of q.choices) {
+    parts.push(
+      `<li class="choice${c.label === correct ? " correct" : ""}" value="${esc(c.label)}"><span class="lbl">${esc(c.label)}.</span> ${c.html}</li>`
+    );
+  }
+  parts.push("</ol>");
+  return parts.join("\n");
+}
+
+// the collapsed answer reveal: official key (answer + derivation), the "Brak klucza"
+// note, and — when the AI experiment is on — the verification badge and AI answers
+function revealHtml(q) {
+  const correct = q.answer?.correct;
   const sol = q.answer?.solution_html;
   const ai = showAI ? aiAnswers(q) : [],
     badge = showAI ? verifBadge(q, ai.length) : null; // no AI content unless enabled
 
   // the eye is always shown; no-key questions state "Brak klucza" (AI answers, if enabled, still appear below)
-  parts.push(
+  const parts = [
     '<details class="reveal"><summary title="Pokaż odpowiedź"><span class="eye">👁</span></summary>'
-  );
+  ];
   if (correct) {
     parts.push(`<div class="answer">Odpowiedź: <b>${correct}</b></div>`);
   }
@@ -366,10 +362,46 @@ function renderQuestion(q, seq) {
     parts.push(`<div class="answer solution ai-sol">${ai[0].sol}</div>`); // sole AI answer → show its reasoning
   }
   parts.push("</details>");
-  parts.push("</div>"); // /.qbody
-  parts.push(`<div class="scratch" aria-hidden="true">${GRID_SVG}</div>`); // print brudnopis filler (grows to fill the reserved page space; carries the 5 mm kratka)
-  parts.push("</article>");
   return parts.join("\n");
+}
+
+function renderQuestion(q, seq) {
+  // print "Brudnopis: auto" sizing: short closed (a–d) questions get half a page (two per sheet);
+  // open, true/false series and anything with a figure get a whole page.
+  const half = q.type === "closed_single" && !(q.figures || []).length;
+  const geom = (q.topics || []).some(t => GEOM_LEAVES.has(t)) ? " geometry" : ""; // kratka "tylko w geometrii" target
+  const override = scratchOverrides.get(q.hash) || ""; // '' | 'half' | 'full' — per-question brudnopis override
+
+  // figure format shown for this question: a per-question pin (svgOverrides) or the global default (vectorPriority).
+  const figDefault = vectorPriority ? "svg" : "png",
+    figFmt = svgOverrides.get(q.hash) || figDefault;
+
+  // meta tags inline in the header, right-aligned; each type toggled from the settings popup
+  const metaHtml = [
+    q.wojewodztwo && `<span class="tag ctx region">${esc(q.wojewodztwo)}</span>`,
+    q.school_year && `<span class="tag ctx year">${esc(q.school_year)}</span>`,
+    q.stage && `<span class="tag ctx stage">${esc(q.stage)}</span>`,
+    ...(q.topics || []).map(t => `<span class="tag topic">${esc(t)}</span>`)
+  ]
+    .filter(Boolean)
+    .join("");
+  return [
+    `<article class="q ${half ? "phalf" : "pfull"}${geom}${override ? ` scratch-pin-${override}` : ""}" id="${esc(q.id)}" data-hash="${q.hash}">`,
+    questionControlsHtml(q, seq, half, override, figFmt, figDefault),
+    '<div class="qbody">', // wraps the content so the print brudnopis .scratch below can flex-fill the rest of the page
+    `<div class="qhead"><span class="qnum">Zadanie ${seq ?? q.number}.</span>` +
+      `<span class="qid">(${q.points}p, <span class="hash" title="kliknij, aby skopiować id">${q.hash}</span>)</span>` +
+      `<span class="qmeta">${metaHtml}</span></div>`,
+    `<div class="prompt">${q.prompt_html}</div>`,
+    figuresHtml(q, figFmt),
+    choicesHtml(q, q.answer?.correct),
+    revealHtml(q),
+    "</div>", // /.qbody
+    `<div class="scratch" aria-hidden="true">${GRID_SVG}</div>`, // print brudnopis filler (grows to fill the reserved page space; carries the 5 mm kratka)
+    "</article>"
+  ]
+    .filter(Boolean)
+    .join("\n");
 }
 
 // Short A–D choices read better as one row than as four lines. But "short" is a rendered

@@ -49,38 +49,35 @@
     return acc;
   }
 
-  // hashes matching all facet selections (OR within, AND across) that also pass the gate
-  function matchedHashes(index, selections, gate, universe) {
-    let base = intersectAll(selectedKeys(selections).map(k => facetUnion(index, k, selections[k])));
-    if (base === null) {
-      base = universe;
-    }
-    const out = [];
-    for (const h of base) {
-      if (gate(h)) {
-        out.push(h);
-      }
-    }
-    return out;
-  }
-
-  // drill-down counts for one facet: every OTHER selected facet + gate applied, then
-  // tally |base ∩ index[key][value]| per value — so a facet never constrains its own counts.
-  function facetCounts(index, selections, gate, key, universe) {
+  // hashes passing every selected facet except excludeKey (AND across, OR within) and the
+  // gate; the whole universe when nothing narrows. Shared core of matchedHashes/facetCounts.
+  function gatedBase(index, selections, gate, universe, excludeKey) {
     let base = intersectAll(
       selectedKeys(selections)
-        .filter(k => k !== key)
+        .filter(k => k !== excludeKey)
         .map(k => facetUnion(index, k, selections[k]))
     );
     if (base === null) {
       base = universe;
     }
-    const gated = new Set();
+    const out = new Set();
     for (const h of base) {
       if (gate(h)) {
-        gated.add(h);
+        out.add(h);
       }
     }
+    return out;
+  }
+
+  // hashes matching all facet selections (OR within, AND across) that also pass the gate
+  function matchedHashes(index, selections, gate, universe) {
+    return [...gatedBase(index, selections, gate, universe, null)];
+  }
+
+  // drill-down counts for one facet: every OTHER selected facet + gate applied, then
+  // tally |base ∩ index[key][value]| per value — so a facet never constrains its own counts.
+  function facetCounts(index, selections, gate, key, universe) {
+    const gated = gatedBase(index, selections, gate, universe, key);
     const counts = {},
       facet = index[key] || {};
     for (const v of Object.keys(facet)) {
