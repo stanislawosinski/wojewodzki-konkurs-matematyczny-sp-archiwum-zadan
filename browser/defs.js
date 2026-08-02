@@ -143,12 +143,12 @@ const esc = s =>
 
 const idList = s => (s.match(/[0-9a-f]{8}/gi) || []).map(x => x.toLowerCase());
 
-const brudGlyph = s => (s === "half" ? "½" : s === "full" ? "1" : "–");
+const scratchGlyph = s => (s === "half" ? "½" : s === "full" ? "1" : "–");
 
 // what the global brudnopis mode gives one question: short-closed (phalf) → half, else full; half/full force it
-const autoBrud = (phalf, mode) =>
+const autoScratch = (phalf, mode) =>
   mode === "half" ? "half" : mode === "full" ? "full" : phalf ? "half" : "full";
-const brudTitle = (override, auto) =>
+const scratchTitle = (override, auto) =>
   "Brudnopis dla tego zadania: " +
   (override === "half"
     ? "pół strony (wymuszone)"
@@ -158,10 +158,10 @@ const brudTitle = (override, auto) =>
 
 const capitalize = s => (s ? s[0].toUpperCase() + s.slice(1) : s);
 
-// Polish plurals — pl2_4 = the 2/3/4 branch (not 12–14); the "one" form covers 1 (and 2–4 too here)
-const pl2_4 = n => n % 10 >= 2 && n % 10 <= 4 && !(n % 100 >= 12 && n % 100 <= 14);
-const plZadania = n => (n === 1 ? "zadanie" : pl2_4(n) ? "zadania" : "zadań");
-const plZaznaczone = n => (n === 1 || pl2_4(n) ? "zaznaczone" : "zaznaczonych");
+// Polish plurals — isPolishFew = the 2/3/4 branch (not 12–14); the "one" form covers 1 (and 2–4 too here)
+const isPolishFew = n => n % 10 >= 2 && n % 10 <= 4 && !(n % 100 >= 12 && n % 100 <= 14);
+const pluralQuestions = n => (n === 1 ? "zadanie" : isPolishFew(n) ? "zadania" : "zadań");
+const pluralSelected = n => (n === 1 || isPolishFew(n) ? "zaznaczone" : "zaznaczonych");
 
 const debounce = (fn, ms) => {
   let t;

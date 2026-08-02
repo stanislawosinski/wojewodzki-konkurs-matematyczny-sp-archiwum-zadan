@@ -12,7 +12,7 @@
 // vector (and, being foreground, prints without the "Background graphics" toggle). Defined once as a
 // <defs> path in absolute px (1 CSS px = 1/96 in, so 5 mm prints true); each .scratch <use>s it and
 // its own 100%-sized viewport clips the grid to the (variable) scratch height. MAX ≥ any A4 scratch.
-const [KRATKA_DEF, KRATKA_SVG] = (() => {
+const [GRID_DEF, GRID_SVG] = (() => {
   const PXMM = 96 / 25.4,
     MAX = 300,
     px = mm => +(mm * PXMM).toFixed(2),
@@ -23,14 +23,14 @@ const [KRATKA_DEF, KRATKA_SVG] = (() => {
   }
   const def =
     `<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>` +
-    `<path id="kratka5" d="${d}" fill="none" stroke="#d6d6d6" stroke-width="${sw}"/></defs></svg>`;
+    `<path id="grid5mm" d="${d}" fill="none" stroke="#d6d6d6" stroke-width="${sw}"/></defs></svg>`;
 
-  // Just the interior grid; the frame/edges are a CSS border on the box (see app.css .kratka rule),
+  // Just the interior grid; the frame/edges are a CSS border on the box (see app.css .grid rule),
   // which round()-snaps to whole 5 mm cells so the border sits one cell past the last line, no sliver.
-  const svg = `<svg class="kratka" width="100%" height="100%" aria-hidden="true"><use href="#kratka5"/></svg>`;
+  const svg = `<svg class="grid" width="100%" height="100%" aria-hidden="true"><use href="#grid5mm"/></svg>`;
   return [def, svg];
 })();
-document.body.insertAdjacentHTML("afterbegin", KRATKA_DEF); // deferred script → body exists
+document.body.insertAdjacentHTML("afterbegin", GRID_DEF); // deferred script → body exists
 
 // copy to clipboard via a throwaway textarea + execCommand — works off file:// too,
 // where navigator.clipboard (secure-context only) is unavailable
@@ -255,10 +255,10 @@ function renderQuestion(q, seq) {
   // print "Brudnopis: auto" sizing: short closed (a–d) questions get half a page (two per sheet);
   // open, true/false series and anything with a figure get a whole page.
   const half = q.type === "closed_single" && !(q.figures || []).length;
-  const geom = (q.topics || []).some(t => GEOM_LEAVES.has(t)) ? " geom" : ""; // kratka "tylko w geometrii" target
-  const bo = scratchOverrides.get(q.hash) || ""; // '' | 'half' | 'full' — per-question brudnopis override
+  const geom = (q.topics || []).some(t => GEOM_LEAVES.has(t)) ? " geometry" : ""; // kratka "tylko w geometrii" target
+  const override = scratchOverrides.get(q.hash) || ""; // '' | 'half' | 'full' — per-question brudnopis override
   const parts = [
-    `<article class="q ${half ? "phalf" : "pfull"}${geom}${bo ? ` brud-${bo}` : ""}" id="${esc(q.id)}" data-hash="${q.hash}">`
+    `<article class="q ${half ? "phalf" : "pfull"}${geom}${override ? ` scratch-pin-${override}` : ""}" id="${esc(q.id)}" data-hash="${q.hash}">`
   ];
 
   // left-gutter controls wrapped in one .gutter group so they dim together and hover as a unit
@@ -274,9 +274,9 @@ function renderQuestion(q, seq) {
 
   // per-question brudnopis override, left of the eye; hidden in print & when global brudnopis is off.
   // grey glyph = the size "auto" resolves to under the current global mode; green (.on) = a pinned override.
-  const autoBo = autoBrud(half, brudMode());
+  const autoSize = autoScratch(half, scratchMode());
   parts.push(
-    `<button type="button" class="brudtoggle${bo ? " on" : ""}" title="${brudTitle(bo, autoBo)}" aria-label="brudnopis zadania" data-brud="${bo}">${brudGlyph(bo || autoBo)}</button>`
+    `<button type="button" class="scratch-toggle${override ? " on" : ""}" title="${scratchTitle(override, autoSize)}" aria-label="brudnopis zadania" data-scratch="${override}">${scratchGlyph(override || autoSize)}</button>`
   );
 
   // figure format shown for this question: a per-question pin (svgOverrides) or the global default (vectorPriority).
@@ -292,9 +292,9 @@ function renderQuestion(q, seq) {
 
   // meta tags inline in the header, right-aligned; each type toggled from the settings popup
   const metaHtml = [
-    q.wojewodztwo && `<span class="tag ctx woj">${esc(q.wojewodztwo)}</span>`,
-    q.school_year && `<span class="tag ctx rok">${esc(q.school_year)}</span>`,
-    q.stage && `<span class="tag ctx etap">${esc(q.stage)}</span>`,
+    q.wojewodztwo && `<span class="tag ctx region">${esc(q.wojewodztwo)}</span>`,
+    q.school_year && `<span class="tag ctx year">${esc(q.school_year)}</span>`,
+    q.stage && `<span class="tag ctx stage">${esc(q.stage)}</span>`,
     ...(q.topics || []).map(t => `<span class="tag topic">${esc(t)}</span>`)
   ]
     .filter(Boolean)
@@ -367,7 +367,7 @@ function renderQuestion(q, seq) {
   }
   parts.push("</details>");
   parts.push("</div>"); // /.qbody
-  parts.push(`<div class="scratch" aria-hidden="true">${KRATKA_SVG}</div>`); // print brudnopis filler (grows to fill the reserved page space; carries the 5 mm kratka)
+  parts.push(`<div class="scratch" aria-hidden="true">${GRID_SVG}</div>`); // print brudnopis filler (grows to fill the reserved page space; carries the 5 mm kratka)
   parts.push("</article>");
   return parts.join("\n");
 }

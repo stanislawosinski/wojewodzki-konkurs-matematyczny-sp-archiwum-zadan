@@ -367,7 +367,7 @@ select {
   font: inherit;
   color: inherit;
 } /* the id link matches the surrounding (points, hash) text, not the mono answer-key style */
-/* per-question meta tags, inline in the header and right-aligned: woj, rok, etap | topics; toggled by "Meta" */
+/* per-question meta tags, inline in the header and right-aligned: region, year, stage | topics; toggled by "Meta" */
 .qmeta {
   margin-left: auto;
   display: flex;
@@ -387,10 +387,10 @@ select {
 .qmeta .tag.ctx {
   color: #aaa;
   background: #fbfbfb;
-} /* woj/rok/etap: lighter text + fainter bg than topic tags */
-.hide-woj .qmeta .woj,
-.hide-rok .qmeta .rok,
-.hide-etap .qmeta .etap,
+} /* region/year/stage: lighter text + fainter bg than topic tags */
+.hide-region .qmeta .region,
+.hide-year .qmeta .year,
+.hide-stage .qmeta .stage,
 .hide-topics .qmeta .topic {
   display: none;
 }
@@ -405,8 +405,8 @@ select {
   --qgap: 2.7rem;
   --grp: 0.4rem;
   --pair: 0.15rem;
-  --brudnopis-half: 11.5cm;
-  --brudnopis-full: 21cm;
+  --scratch-half: 11.5cm;
+  --scratch-full: 21cm;
 }
 /* the gutter controls sit dimmed; hovering any of them lights the whole group (:hover propagates
    to the .gutter ancestor even though the buttons are absolutely positioned) */
@@ -751,8 +751,8 @@ math {
   top: 0.1em;
 }
 /* per-question brudnopis override (–/½/1): centered under the ▾ down button, left of the eye. Green
-   when it overrides (½/1). Hidden in print and when global brudnopis = off (no brudnopis-* class). */
-.brudtoggle {
+   when it overrides (½/1). Hidden in print and when global brudnopis = off (no scratch-* class). */
+.scratch-toggle {
   position: absolute;
   left: calc(-1 * (var(--qgap) + var(--cb) + var(--grp) + var(--btn)) - 0.048rem);
   top: 2.6rem;
@@ -774,18 +774,18 @@ math {
   opacity: 0.7;
   transition: opacity 0.12s;
 }
-.brudtoggle:hover {
+.scratch-toggle:hover {
   opacity: 1;
   border-color: #888;
   color: #222;
 }
-.brudtoggle.on {
+.scratch-toggle.on {
   opacity: 1;
   border-color: #8c8;
   background: #eef8ee;
   color: #161;
 } /* overriding the global setting */
-body.brudnopis-off .brudtoggle {
+body.scratch-off .scratch-toggle {
   display: none;
 } /* global brudnopis wyłączony → nothing to override */
 /* vector-redraw toggle: same box as the eye, centered under the ▾ up button (one slot left of brudnopis) */
@@ -904,9 +904,9 @@ body.brudnopis-off .brudtoggle {
 .scratch {
   display: none;
 } /* brudnopis filler: print-only (see @media print) */
-.scratch > .kratka {
+.scratch > .grid {
   display: none;
-} /* the grid shows only in print + body.kratka (see @media print) */
+} /* the grid shows only in print + body.grid (see @media print) */
 @media print {
   .sidebar {
     display: none;
@@ -934,7 +934,7 @@ body.brudnopis-off .brudtoggle {
   .svgtoggle {
     display: none;
   } /* the SVG toggle never prints (the chosen src does) */
-  .brudtoggle {
+  .scratch-toggle {
     display: none;
   } /* the brudnopis override control never prints (its effect does) */
   .pager {
@@ -956,15 +956,15 @@ body.brudnopis-off .brudtoggle {
     background: none;
     color: #bbb;
   } /* override the faint on-screen #aaa/#fbfbfb for print */
-  .hide-woj .qmeta .woj,
-  .hide-rok .qmeta .rok,
-  .hide-etap .qmeta .etap,
+  .hide-region .qmeta .region,
+  .hide-year .qmeta .year,
+  .hide-stage .qmeta .stage,
   .hide-topics .qmeta .topic {
     display: inline-block;
   }
-  .print-hide-woj .qmeta .woj,
-  .print-hide-rok .qmeta .rok,
-  .print-hide-etap .qmeta .etap,
+  .print-hide-region .qmeta .region,
+  .print-hide-year .qmeta .year,
+  .print-hide-stage .qmeta .stage,
   .print-hide-topics .qmeta .topic {
     display: none;
   }
@@ -1001,48 +1001,48 @@ body.brudnopis-off .brudtoggle {
      the page edge; 2-per-page is unaffected either way.
      auto = half for short closed (a–d) questions, full for open / true-false / figure ones
      (.phalf / .pfull); half = half for all; full = full for all; off = no block. */
-  .brudnopis-auto .q,
-  .brudnopis-half .q,
-  .brudnopis-full .q {
+  .scratch-auto .q,
+  .scratch-half .q,
+  .scratch-full .q {
     display: flex;
     flex-direction: column;
   }
-  .brudnopis-auto .q > .scratch,
-  .brudnopis-half .q > .scratch,
-  .brudnopis-full .q > .scratch {
+  .scratch-auto .q > .scratch,
+  .scratch-half .q > .scratch,
+  .scratch-full .q > .scratch {
     display: block;
     flex: 1 1 auto;
     position: relative;
   }
-  .brudnopis-auto .q.phalf,
-  .brudnopis-half .q {
-    min-height: var(--brudnopis-half);
+  .scratch-auto .q.phalf,
+  .scratch-half .q {
+    min-height: var(--scratch-half);
   }
-  .brudnopis-auto .q.pfull,
-  .brudnopis-full .q {
-    min-height: var(--brudnopis-full);
+  .scratch-auto .q.pfull,
+  .scratch-full .q {
+    min-height: var(--scratch-full);
   }
   /* per-question override (gutter ½/1 button): force this question's reserved height, winning over the
      global auto/half/full above. Display/scratch/kratka still come from the body mode (the button is
-     hidden when global brudnopis is off, so a brudnopis-* mode class is always present here). */
-  .q.brud-half {
+     hidden when global brudnopis is off, so a scratch-* mode class is always present here). */
+  .q.scratch-pin-half {
     /* biome-ignore lint/complexity/noImportantStyles: must beat the higher-specificity mode rules above */
-    min-height: var(--brudnopis-half) !important;
+    min-height: var(--scratch-half) !important;
   }
-  .q.brud-full {
+  .q.scratch-pin-full {
     /* biome-ignore lint/complexity/noImportantStyles: must beat the higher-specificity mode rules above */
-    min-height: var(--brudnopis-full) !important;
+    min-height: var(--scratch-full) !important;
   }
-  /* optional 5 mm kratka (opt-in): inline-SVG grid (a <use> of #kratka5) — prints crisp because Chrome
+  /* optional 5 mm kratka (opt-in): inline-SVG grid (a <use> of #grid5mm) — prints crisp because Chrome
      keeps inline SVG as vector in the PDF (a CSS background gradient is rasterized ~screen-DPI, and is
      in fact dropped entirely by the print path here). height="100%" needs a definite box, so the box
      is positioned absolute against the scratch; its own svg viewport clips the 300 mm grid to the box.
      round(down,100%,5mm) snaps the box to a whole number of cells so the CSS border lands exactly one
      cell past the last gridline — no thin partial-column sliver doubling the frame on the right/bottom.
      The frame is that CSS border (renders reliably); an SVG-drawn frame lands sub-px off the print clip. */
-  body.kratka.brudnopis-auto .q > .scratch > .kratka,
-  body.kratka.brudnopis-half .q > .scratch > .kratka,
-  body.kratka.brudnopis-full .q > .scratch > .kratka {
+  body.grid.scratch-auto .q > .scratch > .grid,
+  body.grid.scratch-half .q > .scratch > .grid,
+  body.grid.scratch-full .q > .scratch > .grid {
     display: block;
     position: absolute;
     left: 0;
@@ -1053,7 +1053,7 @@ body.brudnopis-off .brudtoggle {
     border: 0.125mm solid #d6d6d6;
     overflow: hidden;
   }
-  body.kratka-geomonly .q:not(.geom) > .scratch > .kratka {
+  body.grid-geometry-only .q:not(.geometry) > .scratch > .grid {
     display: none;
   } /* "tylko w geometrii": drop the grid on non-geometry questions */
 }

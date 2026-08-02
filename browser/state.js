@@ -40,7 +40,7 @@ let showAI = false,
 const selectedSet = new Set(); // hashes; lives outside the DOM — articles are destroyed on re-render
 const scratchOverrides = new Map(); // hash -> 'half' | 'full'; per-question brudnopis override (default not stored)
 const svgOverrides = new Map(); // hash -> 'png' | 'svg'; per-question figure format pin (default follows vectorPriority; cleared when the setting changes). Serialized to the hash so it survives reload/sharing.
-const brudMode = () => document.querySelector('input[name="pageMode"]:checked').value;
+const scratchMode = () => document.querySelector('input[name="pageMode"]:checked').value;
 
 // Sheet title (the .sheet-title header + document.title). titleOverride = a user-typed title
 // (sticky, wins over auto); null = derive it. lastMatched/lastUseInc cache update()'s result so a

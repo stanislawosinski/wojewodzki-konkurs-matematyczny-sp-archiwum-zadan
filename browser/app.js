@@ -84,9 +84,9 @@ let shownCount = 0;
 const renderSummary = () => {
   const k = selectedSet.size; // content is numbers + fixed words, so innerHTML is safe here
   setsummary.innerHTML =
-    `${shownCount} ${plZadania(shownCount)}` +
+    `${shownCount} ${pluralQuestions(shownCount)}` +
     (k
-      ? ` (<span class="selcopy" title="kliknij, aby skopiować listę id">${k} ${plZaznaczone(k)}</span>)`
+      ? ` (<span class="selcopy" title="kliknij, aby skopiować listę id">${k} ${pluralSelected(k)}</span>)`
       : "");
 };
 
@@ -225,21 +225,21 @@ function wireQlist() {
       writeUrl(false); // persist the pin in the URL hash
       return;
     }
-    const brudBtn = e.target.closest(".brudtoggle"); // –/½/1: per-question brudnopis override (print reserved space)
-    if (brudBtn) {
-      const q = brudBtn.closest(".q"),
+    const scratchBtn = e.target.closest(".scratch-toggle"); // –/½/1: per-question brudnopis override (print reserved space)
+    if (scratchBtn) {
+      const q = scratchBtn.closest(".q"),
         h = q.dataset.hash;
-      const auto = autoBrud(q.classList.contains("phalf"), brudMode());
+      const auto = autoScratch(q.classList.contains("phalf"), scratchMode());
 
       // 2-state toggle: default (grey = auto) ↔ the only override that changes the size (the value ≠ auto).
       // Pinning the value equal to auto is dropped — it wouldn't change the print, just grey→green.
-      const s = brudBtn.dataset.brud ? "" : auto === "half" ? "full" : "half";
-      brudBtn.dataset.brud = s;
-      brudBtn.textContent = brudGlyph(s || auto); // grey shows the auto size, green the pinned size
-      brudBtn.title = brudTitle(s, auto);
-      brudBtn.classList.toggle("on", !!s);
-      q.classList.toggle("brud-half", s === "half");
-      q.classList.toggle("brud-full", s === "full");
+      const s = scratchBtn.dataset.scratch ? "" : auto === "half" ? "full" : "half";
+      scratchBtn.dataset.scratch = s;
+      scratchBtn.textContent = scratchGlyph(s || auto); // grey shows the auto size, green the pinned size
+      scratchBtn.title = scratchTitle(s, auto);
+      scratchBtn.classList.toggle("on", !!s);
+      q.classList.toggle("scratch-pin-half", s === "half");
+      q.classList.toggle("scratch-pin-full", s === "full");
       if (s) {
         scratchOverrides.set(h, s);
       } else {
@@ -372,20 +372,20 @@ function wireSettings() {
   // print page-break mode (radio): one/two questions per page, or none. Only affects print.
   const applyPageMode = () => {
     const mode = document.querySelector('input[name="pageMode"]:checked').value;
-    document.body.classList.toggle("brudnopis-auto", mode === "auto");
-    document.body.classList.toggle("brudnopis-half", mode === "half");
-    document.body.classList.toggle("brudnopis-full", mode === "full");
-    document.body.classList.toggle("brudnopis-off", mode === "off"); // hides the per-question override buttons
+    document.body.classList.toggle("scratch-auto", mode === "auto");
+    document.body.classList.toggle("scratch-half", mode === "half");
+    document.body.classList.toggle("scratch-full", mode === "full");
+    document.body.classList.toggle("scratch-off", mode === "off"); // hides the per-question override buttons
 
-    // 'off' → no brudnopis-auto/half/full class → continuous print
+    // 'off' → no scratch-auto/half/full class → continuous print
     // default (unpinned) buttons show what "auto" now resolves to; pinned ones keep their own size
-    for (const btn of qlist.querySelectorAll(".brudtoggle")) {
-      if (btn.dataset.brud) {
+    for (const btn of qlist.querySelectorAll(".scratch-toggle")) {
+      if (btn.dataset.scratch) {
         continue;
       }
-      const auto = autoBrud(btn.closest(".q").classList.contains("phalf"), mode);
-      btn.textContent = brudGlyph(auto);
-      btn.title = brudTitle("", auto);
+      const auto = autoScratch(btn.closest(".q").classList.contains("phalf"), mode);
+      btn.textContent = scratchGlyph(auto);
+      btn.title = scratchTitle("", auto);
     }
   };
   for (const r of document.querySelectorAll('input[name="pageMode"]')) {
@@ -399,30 +399,33 @@ function wireSettings() {
   keyCb.onchange = applyKey;
   applyKey();
 
-  // "Brudnopis w kratkę" (default nigdy): body.kratka draws the print-only grid; body.kratka-geomonly
-  // (see app.css) then hides it on non-.geom questions so it shows only under geometry ones.
-  const applyKratka = () => {
+  // "Brudnopis w kratkę" (default nigdy): body.grid draws the print-only grid; body.grid-geometry-only
+  // (see app.css) then hides it on non-.geometry questions so it shows only under geometry ones.
+  // The radio name "kratka" is wire format (localStorage settings key) — do not rename.
+  const applyGrid = () => {
     const mode = document.querySelector('input[name="kratka"]:checked').value;
-    document.body.classList.toggle("kratka", mode !== "never");
-    document.body.classList.toggle("kratka-geomonly", mode === "geom");
+    document.body.classList.toggle("grid", mode !== "never");
+    document.body.classList.toggle("grid-geometry-only", mode === "geom");
   };
   for (const r of document.querySelectorAll('input[name="kratka"]')) {
-    r.onchange = applyKratka;
+    r.onchange = applyGrid;
   }
-  applyKratka();
+  applyGrid();
 
   // meta type toggles: each checkbox hides its tag type via a body class (default checked = shown).
   // screen uses hide-*; print uses print-* (independent — see app.css @media print), same generic wiring.
+  // The Polish ids (metaWoj, ...) are wire format — localStorage settings are keyed by them — while
+  // the classes are internal and English; hence the mixed-language pairs.
   for (const [id, cls] of [
     ["metaTitle", "hide-title"],
-    ["metaWoj", "hide-woj"],
-    ["metaRok", "hide-rok"],
-    ["metaEtap", "hide-etap"],
+    ["metaWoj", "hide-region"],
+    ["metaRok", "hide-year"],
+    ["metaEtap", "hide-stage"],
     ["metaTopics", "hide-topics"],
     ["printTitle", "print-hide-title"],
-    ["printWoj", "print-hide-woj"],
-    ["printRok", "print-hide-rok"],
-    ["printEtap", "print-hide-etap"],
+    ["printWoj", "print-hide-region"],
+    ["printRok", "print-hide-year"],
+    ["printEtap", "print-hide-stage"],
     ["printTopics", "print-hide-topics"]
   ]) {
     const cb = $(id),
