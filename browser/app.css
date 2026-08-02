@@ -1,252 +1,995 @@
-:root{color-scheme:light}
-body{font-family:ui-serif,'New York','Iowan Old Style',Georgia,'Times New Roman',serif;margin:0;
-  line-height:1.5;background:#fff;color:#000}
-.layout{display:flex;gap:2rem;align-items:flex-start;padding:2rem 1.5rem}
-h1{font-size:1.4rem;margin-top:0}
+:root {
+  color-scheme: light;
+}
+body {
+  font-family: ui-serif, "New York", "Iowan Old Style", Georgia, "Times New Roman", serif;
+  margin: 0;
+  line-height: 1.5;
+  background: #fff;
+  color: #000;
+}
+.layout {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  padding: 2rem 1.5rem;
+}
+h1 {
+  font-size: 1.4rem;
+  margin-top: 0;
+}
 /* persistent top toolbar; mirrors the sidebar|content split so its groups line up with them */
-.topbar{position:sticky;top:0;z-index:5;background:#f7f7f7;border-bottom:1px solid #ddd;
-  font-family:system-ui,-apple-system,'Segoe UI',sans-serif;font-size:.8rem;color:#555;
-  display:flex;gap:2rem;padding:.4rem 1.5rem;align-items:center}
-.tb-side{flex:0 0 250px;padding-right:1rem;display:flex;gap:.8rem;align-items:center} /* +1rem matches the sidebar's padding-right so tb-main starts exactly where .content does */
-.tb-main{flex:1;min-width:0;max-width:820px;margin-inline:auto;position:relative;padding-left:1.8rem;display:flex;gap:1rem;align-items:center} /* padding-left mirrors .content, so the pager lines up with the question text */
-.tb-right{margin-left:auto;display:flex;gap:.8rem;align-items:center;white-space:nowrap}
-.clearbtn,.pager button{color:#444;background:#fff;border:1px solid #ccc;border-radius:4px;
-  padding:.12rem .45rem;line-height:1.4} /* subtle button; shorter than #printBtn so the bar keeps its height */
-.clearbtn:hover,.pager button:hover:not(:disabled){background:#f0f0f0;border-color:#aaa}
-.clearbtn[hidden]{display:none}
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background: #f7f7f7;
+  border-bottom: 1px solid #ddd;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 0.8rem;
+  color: #555;
+  display: flex;
+  gap: 2rem;
+  padding: 0.4rem 1.5rem;
+  align-items: center;
+}
+.tb-side {
+  flex: 0 0 250px;
+  padding-right: 1rem;
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+} /* +1rem matches the sidebar's padding-right so tb-main starts exactly where .content does */
+.tb-main {
+  flex: 1;
+  min-width: 0;
+  max-width: 820px;
+  margin-inline: auto;
+  position: relative;
+  padding-left: 1.8rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+} /* padding-left mirrors .content, so the pager lines up with the question text */
+.tb-right {
+  margin-left: auto;
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+  white-space: nowrap;
+}
+.clearbtn,
+.pager button {
+  color: #444;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0.12rem 0.45rem;
+  line-height: 1.4;
+} /* subtle button; shorter than #printBtn so the bar keeps its height */
+.clearbtn:hover,
+.pager button:hover:not(:disabled) {
+  background: #f0f0f0;
+  border-color: #aaa;
+}
+.clearbtn[hidden] {
+  display: none;
+}
 /* clear-selection link lives in the gutter, right edge on the checkbox edge (= tb-main's left);
    absolute so showing/hiding it never shifts the pager & co. to its right */
-#clearSelBar{position:absolute;right:100%;top:50%;transform:translateY(-50%);white-space:nowrap}
-.topbar .pager{background:none;padding:0;margin:0;border-radius:0;color:#555;font-size:inherit}
-.topbar #setsummary{color:#666;white-space:nowrap}
-.selcopy{cursor:pointer;user-select:none} /* click to copy the selected ids */
+#clearSelBar {
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  white-space: nowrap;
+}
+.topbar .pager {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  color: #555;
+  font-size: inherit;
+}
+.topbar #setsummary {
+  color: #666;
+  white-space: nowrap;
+}
+.selcopy {
+  cursor: pointer;
+  user-select: none;
+} /* click to copy the selected ids */
 /* "copied" popover: sits below the clicked element, 45deg arrow = a rotated square poking out the top */
-.copytip{position:fixed;z-index:20;transform:translate(-50%,8px);pointer-events:none;
-  background:#333;color:#fff;font-size:.72rem;white-space:nowrap;padding:.25rem .5rem;border-radius:4px;
-  font-family:system-ui,-apple-system,'Segoe UI',sans-serif}
-.copytip[hidden]{display:none}
-.copytip::after{content:'';position:absolute;left:50%;top:-4px;width:8px;height:8px;
-  background:inherit;transform:translateX(-50%) rotate(45deg)}
-#printBtn{font:inherit;padding:.2rem .5rem;cursor:pointer} /* always present + tallest control, so the bar keeps its height when the pager hides */
-#settingsBtn{border:none;background:none;font-size:1.5rem;line-height:1;padding:0 .2rem;cursor:pointer;color:#666;
-  transform:translateY(-.06em)} /* the ⚙ glyph sits optically low in its box; nudge up to center */
-#settingsBtn:hover{color:#222}
+.copytip {
+  position: fixed;
+  z-index: 20;
+  transform: translate(-50%, 8px);
+  pointer-events: none;
+  background: #333;
+  color: #fff;
+  font-size: 0.72rem;
+  white-space: nowrap;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+.copytip[hidden] {
+  display: none;
+}
+.copytip::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: -4px;
+  width: 8px;
+  height: 8px;
+  background: inherit;
+  transform: translateX(-50%) rotate(45deg);
+}
+#printBtn {
+  font: inherit;
+  padding: 0.2rem 0.5rem;
+  cursor: pointer;
+} /* always present + tallest control, so the bar keeps its height when the pager hides */
+#settingsBtn {
+  border: none;
+  background: none;
+  font-size: 1.5rem;
+  line-height: 1;
+  padding: 0 0.2rem;
+  cursor: pointer;
+  color: #666;
+  transform: translateY(-0.06em);
+} /* the ⚙ glyph sits optically low in its box; nudge up to center */
+#settingsBtn:hover {
+  color: #222;
+}
 /* settings popup: light-grey panel with a subtle border + 45deg arrow (rotated square), like the copy tip */
-.settings{position:relative;display:inline-flex}
-.settings-pop{position:absolute;top:calc(100% + 8px);right:0;z-index:20;display:flex;
-  background:#fafafa;border:1px solid #e2e2e2;border-radius:5px;box-shadow:0 2px 8px rgba(0,0,0,.1);
-  padding:.7rem .85rem;color:#333;white-space:normal}
-.settings-pop[hidden]{display:none}
-.settings-pop section{flex:1 0 14rem} /* Lista zadań + Eksperymenty; Wydruk (section+section) is wider — see below */
-.settings-pop::before{content:'';position:absolute;top:-5px;right:.55rem;width:8px;height:8px;
-  background:#fafafa;border-left:1px solid #e2e2e2;border-top:1px solid #e2e2e2;transform:rotate(45deg)}
-.settings-pop section + section{flex-basis:17.5rem;margin-left:1.2rem;padding-left:1.2rem;border-left:1px solid #ddd} /* Wydruk: wider than Lista */
-.settings-pop .optgroup{margin-bottom:1.25rem} /* group gap: clearly larger than the entry gap (label padding) so groups read as units */
-.settings-pop .optgroup:last-child{margin-bottom:0} /* no trailing gap before the popup padding */
-.settings-pop h4{margin:0 0 .5rem;font-size:.68rem;text-transform:uppercase;letter-spacing:.04em;color:#999}
-.settings-pop label{display:flex;align-items:center;gap:.4rem;padding:.16rem 0;cursor:pointer;color:#333} /* entry gap: small, even rhythm within a group */
-.settings-pop input{width:auto;margin:0}
+.settings {
+  position: relative;
+  display: inline-flex;
+}
+.settings-pop {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  z-index: 20;
+  display: flex;
+  background: #fafafa;
+  border: 1px solid #e2e2e2;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 0.7rem 0.85rem;
+  color: #333;
+  white-space: normal;
+}
+.settings-pop[hidden] {
+  display: none;
+}
+.settings-pop section {
+  flex: 1 0 14rem;
+} /* Lista zadań + Eksperymenty; Wydruk (section+section) is wider — see below */
+.settings-pop::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  right: 0.55rem;
+  width: 8px;
+  height: 8px;
+  background: #fafafa;
+  border-left: 1px solid #e2e2e2;
+  border-top: 1px solid #e2e2e2;
+  transform: rotate(45deg);
+}
+.settings-pop section + section {
+  flex-basis: 17.5rem;
+  margin-left: 1.2rem;
+  padding-left: 1.2rem;
+  border-left: 1px solid #ddd;
+} /* Wydruk: wider than Lista */
+.settings-pop .optgroup {
+  margin-bottom: 1.25rem;
+} /* group gap: clearly larger than the entry gap (label padding) so groups read as units */
+.settings-pop .optgroup:last-child {
+  margin-bottom: 0;
+} /* no trailing gap before the popup padding */
+.settings-pop h4 {
+  margin: 0 0 0.5rem;
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #999;
+}
+.settings-pop label {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.16rem 0;
+  cursor: pointer;
+  color: #333;
+} /* entry gap: small, even rhythm within a group */
+.settings-pop input {
+  width: auto;
+  margin: 0;
+}
 
 .settings-pop .hint {
   margin: 0 0 0.25rem 1.2rem;
-  font-size: .7rem;
+  font-size: 0.7rem;
   color: #999;
-  line-height: 1.3
+  line-height: 1.3;
 } /* 1.2rem ≈ radio+gap, so hint aligns with the label text */
-.settings-pop .sublabel{margin:.05rem 0 .25rem;font-size:.75rem;color:#666;font-weight:bold}
+.settings-pop .sublabel {
+  margin: 0.05rem 0 0.25rem;
+  font-size: 0.75rem;
+  color: #666;
+  font-weight: bold;
+}
 /* left column: filters (sticky); right column: questions get the full width */
-.sidebar{flex:0 0 250px;position:sticky;top:2.6rem;align-self:flex-start;
-  font-family:system-ui,-apple-system,'Segoe UI',sans-serif;
-  max-height:calc(100vh - 3.6rem);overflow:auto;
-  scrollbar-width:thin;scrollbar-color:#ccc transparent;
-  display:flex;flex-direction:column;gap:1.5em;
-  padding-right:1rem}
-.content{flex:1;min-width:0;max-width:820px;margin-inline:auto;padding-left:1.8rem}
+.sidebar {
+  flex: 0 0 250px;
+  position: sticky;
+  top: 2.6rem;
+  align-self: flex-start;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  max-height: calc(100vh - 3.6rem);
+  overflow: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #ccc transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  padding-right: 1rem;
+}
+.content {
+  flex: 1;
+  min-width: 0;
+  max-width: 820px;
+  margin-inline: auto;
+  padding-left: 1.8rem;
+}
 /* sheet title header (id #sheetTitle): click to edit inline; shown/hidden by the "Tytuł arkusza"
    toggles (hide-title screen, print-hide-title print — see @media print, independent like .qmeta). */
-.sheet-title{cursor:pointer;margin-bottom:1.6rem}
-.sheet-title[contenteditable="true"]{cursor:text;outline:1px dashed #bbb;outline-offset:2px} /* edit-mode affordance */
-.hide-title .sheet-title{display:none}
-button{font:inherit;padding:.4rem .6rem;cursor:pointer}
-select{font:inherit;padding:.35rem}
-.pager{color:#666;font-size:.9rem;margin:0 0 1rem;padding:.5rem .7rem;background:#f6f6f6;border-radius:4px;
-  display:flex;gap:1rem;align-items:center}
-.pager[hidden]{display:none}
-.pager button:disabled{cursor:default;opacity:.4}
-@media(max-width:820px){          /* narrow: stack filters above questions */
-  .layout{display:block}
-  .topbar{flex-wrap:wrap;gap:.4rem .8rem}
-  .tb-side,.tb-main{flex-basis:auto;max-width:none}
-  .tb-main{padding-left:0}
-  #clearSelBar{position:static}  /* flow inline when the bar wraps */
-  .sidebar{flex-basis:auto;position:static;max-height:none;overflow:visible;
-    border-right:none;border-bottom:1px solid #ccc;padding:0 0 .6rem;margin-bottom:1rem}
-  .content{max-width:none}
+.sheet-title {
+  cursor: pointer;
+  margin-bottom: 1.6rem;
+}
+.sheet-title[contenteditable="true"] {
+  cursor: text;
+  outline: 1px dashed #bbb;
+  outline-offset: 2px;
+} /* edit-mode affordance */
+.hide-title .sheet-title {
+  display: none;
+}
+button {
+  font: inherit;
+  padding: 0.4rem 0.6rem;
+  cursor: pointer;
+}
+select {
+  font: inherit;
+  padding: 0.35rem;
+}
+.pager {
+  color: #666;
+  font-size: 0.9rem;
+  margin: 0 0 1rem;
+  padding: 0.5rem 0.7rem;
+  background: #f6f6f6;
+  border-radius: 4px;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.pager[hidden] {
+  display: none;
+}
+.pager button:disabled {
+  cursor: default;
+  opacity: 0.4;
+}
+@media (max-width: 820px) {
+  /* narrow: stack filters above questions */
+  .layout {
+    display: block;
+  }
+  .topbar {
+    flex-wrap: wrap;
+    gap: 0.4rem 0.8rem;
+  }
+  .tb-side,
+  .tb-main {
+    flex-basis: auto;
+    max-width: none;
+  }
+  .tb-main {
+    padding-left: 0;
+  }
+  #clearSelBar {
+    position: static;
+  } /* flow inline when the bar wraps */
+  .sidebar {
+    flex-basis: auto;
+    position: static;
+    max-height: none;
+    overflow: visible;
+    border-right: none;
+    border-bottom: 1px solid #ccc;
+    padding: 0 0 0.6rem;
+    margin-bottom: 1rem;
+  }
+  .content {
+    max-width: none;
+  }
 }
 /* mid widths: the left-gutter controls (checkbox, reorder ▾/▾, × remove, eye) would collide with
    the sidebar. Reserve a fixed left gutter so they always clear it; the question column shrinks to
    fit here (its max width is unchanged — it just can't always reach 820px at these widths). */
-@media(min-width:821px) and (max-width:1350px){
-  .content,.tb-main{margin-left:6rem} /* margin-right stays auto, so slack still goes to the right */
+@media (min-width: 821px) and (max-width: 1350px) {
+  .content,
+  .tb-main {
+    margin-left: 6rem;
+  } /* margin-right stays auto, so slack still goes to the right */
 }
-.q{position:relative;margin:1.6rem 0;padding-bottom:1rem;border-bottom:1px solid #eee}
-.q:first-child{margin-top:0} /* align the first question's top with the sidebar's top */
-.qhead{display:flex;gap:.8rem;align-items:baseline;flex-wrap:wrap}
-.qnum{font-weight:bold;cursor:pointer;user-select:none} /* click to flip the print checkbox */
-.qid{color:#aaa} /* (points, hash) — same font/size as "Zadanie N.", normal weight, light grey */
-.hash{color:#aaa;font-size:.72rem;font-family:monospace;cursor:pointer;user-select:none}
-.qid .hash{font:inherit;color:inherit} /* the id link matches the surrounding (points, hash) text, not the mono answer-key style */
+.q {
+  position: relative;
+  margin: 1.6rem 0;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+}
+.q:first-child {
+  margin-top: 0;
+} /* align the first question's top with the sidebar's top */
+.qhead {
+  display: flex;
+  gap: 0.8rem;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+.qnum {
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+} /* click to flip the print checkbox */
+.qid {
+  color: #aaa;
+} /* (points, hash) — same font/size as "Zadanie N.", normal weight, light grey */
+.hash {
+  color: #aaa;
+  font-size: 0.72rem;
+  font-family: monospace;
+  cursor: pointer;
+  user-select: none;
+}
+.qid .hash {
+  font: inherit;
+  color: inherit;
+} /* the id link matches the surrounding (points, hash) text, not the mono answer-key style */
 /* per-question meta tags, inline in the header and right-aligned: woj, rok, etap | topics; toggled by "Meta" */
-.qmeta{margin-left:auto;display:flex;flex-wrap:wrap;gap:.3rem;align-items:baseline;justify-content:flex-end}
-.qmeta .tag{font-size:.68rem;color:#555;background:#f4f4f4;border-radius:3px;padding:.05rem .4rem;
-  font-family:system-ui,-apple-system,'Segoe UI',sans-serif}
-.qmeta .tag.ctx{color:#aaa;background:#fbfbfb} /* woj/rok/etap: lighter text + fainter bg than topic tags */
-.hide-woj .qmeta .woj,.hide-rok .qmeta .rok,.hide-etap .qmeta .etap,.hide-topics .qmeta .topic{display:none}
-.hide-ai .facet[data-facet="weryf"]{display:none} /* "Pokaż weryfikację AI" off → the Weryfikacja facet is hidden (its selection is also cleared) */
+.qmeta {
+  margin-left: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  align-items: baseline;
+  justify-content: flex-end;
+}
+.qmeta .tag {
+  font-size: 0.68rem;
+  color: #555;
+  background: #f4f4f4;
+  border-radius: 3px;
+  padding: 0.05rem 0.4rem;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+.qmeta .tag.ctx {
+  color: #aaa;
+  background: #fbfbfb;
+} /* woj/rok/etap: lighter text + fainter bg than topic tags */
+.hide-woj .qmeta .woj,
+.hide-rok .qmeta .rok,
+.hide-etap .qmeta .etap,
+.hide-topics .qmeta .topic {
+  display: none;
+}
+.hide-ai .facet[data-facet="weryf"] {
+  display: none;
+} /* "Pokaż weryfikację AI" off → the Weryfikacja facet is hidden (its selection is also cleared) */
 /* left-gutter controls (screen order, left→right): × remove · ▾ up · ▾ down · checkbox · question.
    Every position derives from these gaps — tune them here. */
-.q{--btn:1.1rem;--cb:1.3rem;--qgap:2.7rem;--grp:.4rem;--pair:.15rem;--brudnopis-half:11.5cm;--brudnopis-full:21cm}
+.q {
+  --btn: 1.1rem;
+  --cb: 1.3rem;
+  --qgap: 2.7rem;
+  --grp: 0.4rem;
+  --pair: 0.15rem;
+  --brudnopis-half: 11.5cm;
+  --brudnopis-full: 21cm;
+}
 /* the gutter controls sit dimmed; hovering any of them lights the whole group (:hover propagates
    to the .gutter ancestor even though the buttons are absolutely positioned) */
-.gutter{opacity:.7;transition:opacity .12s}
-.gutter:hover{opacity:1}
-.selectbox{position:absolute;left:calc(-1 * (var(--qgap) + var(--cb)));top:.1rem;
-  width:1.3rem;height:1.3rem;display:flex;align-items:center;justify-content:center;cursor:pointer}
-.selectbox input{width:1.1rem;height:1.1rem;margin:0;cursor:pointer}
+.gutter {
+  opacity: 0.7;
+  transition: opacity 0.12s;
+}
+.gutter:hover {
+  opacity: 1;
+}
+.selectbox {
+  position: absolute;
+  left: calc(-1 * (var(--qgap) + var(--cb)));
+  top: 0.1rem;
+  width: 1.3rem;
+  height: 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.selectbox input {
+  width: 1.1rem;
+  height: 1.1rem;
+  margin: 0;
+  cursor: pointer;
+}
 /* reorder arrows: same box as the reveal button, on the checkbox's line, to its left */
-.reorder{position:absolute;top:.2rem;box-sizing:border-box;
-  width:1.1rem;height:1.1rem;display:flex;align-items:center;justify-content:center;
-  font-size:.8rem;line-height:1;border:1px solid #bbb;border-radius:3px;background:#fff;color:#555;
-  cursor:pointer;padding:0;user-select:none}
-.reorder.up span{display:inline-block;transform:translateY(1px) rotate(180deg)} /* rotate only the glyph (equal width), nudged down to sit level with ▾; button box stays put */
-.reorder:hover{border-color:#888;color:#222}
-.reorder.down{left:calc(-1 * (var(--qgap) + var(--cb) + var(--grp) + var(--btn)))}
-.reorder.up{left:calc(-1 * (var(--qgap) + var(--cb) + var(--grp) + var(--btn) + var(--pair) + var(--btn)))}
-.reorder.remove{left:calc(-1 * (var(--qgap) + var(--cb) + var(--grp) + var(--btn) + var(--pair) + var(--btn) + var(--grp) + var(--btn)))}
-.reorder.remove:hover{border-color:#c66;color:#a1160a} /* remove reads as a delete on hover */
+.reorder {
+  position: absolute;
+  top: 0.2rem;
+  box-sizing: border-box;
+  width: 1.1rem;
+  height: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  line-height: 1;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  background: #fff;
+  color: #555;
+  cursor: pointer;
+  padding: 0;
+  user-select: none;
+}
+.reorder.up span {
+  display: inline-block;
+  transform: translateY(1px) rotate(180deg);
+} /* rotate only the glyph (equal width), nudged down to sit level with ▾; button box stays put */
+.reorder:hover {
+  border-color: #888;
+  color: #222;
+}
+.reorder.down {
+  left: calc(-1 * (var(--qgap) + var(--cb) + var(--grp) + var(--btn)));
+}
+.reorder.up {
+  left: calc(-1 * (var(--qgap) + var(--cb) + var(--grp) + var(--btn) + var(--pair) + var(--btn)));
+}
+.reorder.remove {
+  left: calc(
+    -1 *
+    (
+      var(--qgap) +
+      var(--cb) +
+      var(--grp) +
+      var(--btn) +
+      var(--pair) +
+      var(--btn) +
+      var(--grp) +
+      var(--btn)
+    )
+  );
+}
+.reorder.remove:hover {
+  border-color: #c66;
+  color: #a1160a;
+} /* remove reads as a delete on hover */
 /* filter/selection controls in the sidebar (stacked) */
-.sidebar label{display:block;font-size:.85rem;color:#444}
-.sidebar select,.sidebar input[type=text]{width:100%;box-sizing:border-box;margin-top:.15rem}
-.sidebar input[type=text]{font:inherit;padding:.3rem}
+.sidebar label {
+  display: block;
+  font-size: 0.85rem;
+  color: #444;
+}
+.sidebar select,
+.sidebar input[type="text"] {
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 0.15rem;
+}
+.sidebar input[type="text"] {
+  font: inherit;
+  padding: 0.3rem;
+}
 /* clear-"×" tucked inside the search box, shown only when it has text */
-.searchwrap{position:relative;display:block;margin-top:.15rem}
-.searchwrap #search{margin-top:0;padding-right:1.6rem}
-#clearSearch{position:absolute;right:.15rem;top:50%;transform:translateY(-50%);
-  border:none;background:none;color:#999;font-size:1.15rem;line-height:1;cursor:pointer;padding:.1rem .3rem}
-#clearSearch:hover{color:#333}
-#clearSearch[hidden]{display:none}
+.searchwrap {
+  position: relative;
+  display: block;
+  margin-top: 0.15rem;
+}
+.searchwrap #search {
+  margin-top: 0;
+  padding-right: 1.6rem;
+}
+#clearSearch {
+  position: absolute;
+  right: 0.15rem;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: none;
+  color: #999;
+  font-size: 1.15rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0.1rem 0.3rem;
+}
+#clearSearch:hover {
+  color: #333;
+}
+#clearSearch[hidden] {
+  display: none;
+}
 /* faceted filters: heading + scrollable checkbox list with live counts */
-#facets{display:flex;flex-direction:column;gap:1.5em}
-.facet-h{font-size:.85rem;font-weight:bold;color:#333;margin:0 0 .25rem}
-.facet-list{list-style:none;margin:0;padding:0 .4rem 0 0;max-height:11rem;overflow:auto;
-  scrollbar-gutter:stable;scrollbar-width:thin;scrollbar-color:#ccc transparent}
-.facet-list::-webkit-scrollbar,.sidebar::-webkit-scrollbar{width:12px}
-.facet-list::-webkit-scrollbar-track,.sidebar::-webkit-scrollbar-track{background:transparent}
-.facet-list::-webkit-scrollbar-thumb,.sidebar::-webkit-scrollbar-thumb{background:#ccc;border-radius:6px}
-.facet-cat{font-size:.72rem;color:#888;font-weight:bold;padding:.3rem 0 .05rem}
-.facet-opt{margin:0;display:flex;align-items:baseline;gap:.15rem}
-.facet-opt label{flex:1 1 auto;min-width:0;display:flex;align-items:baseline;gap:.35rem;padding:.1rem 0;
-  font-size:.8rem;color:#222;cursor:pointer;margin:0}
+#facets {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+.facet-h {
+  font-size: 0.85rem;
+  font-weight: bold;
+  color: #333;
+  margin: 0 0 0.25rem;
+}
+.facet-list {
+  list-style: none;
+  margin: 0;
+  padding: 0 0.4rem 0 0;
+  max-height: 11rem;
+  overflow: auto;
+  scrollbar-gutter: stable;
+  scrollbar-width: thin;
+  scrollbar-color: #ccc transparent;
+}
+.facet-list::-webkit-scrollbar,
+.sidebar::-webkit-scrollbar {
+  width: 12px;
+}
+.facet-list::-webkit-scrollbar-track,
+.sidebar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.facet-list::-webkit-scrollbar-thumb,
+.sidebar::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 6px;
+}
+.facet-cat {
+  font-size: 0.72rem;
+  color: #888;
+  font-weight: bold;
+  padding: 0.3rem 0 0.05rem;
+}
+.facet-opt {
+  margin: 0;
+  display: flex;
+  align-items: baseline;
+  gap: 0.15rem;
+}
+.facet-opt label {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  align-items: baseline;
+  gap: 0.35rem;
+  padding: 0.1rem 0;
+  font-size: 0.8rem;
+  color: #222;
+  cursor: pointer;
+  margin: 0;
+}
 /* clickable ⓘ next to a facet header / option: shows an explanation popover */
-.facet-h{display:flex;align-items:baseline;gap:.25rem}
-.info-i{flex:0 0 auto;border:none;background:none;padding:0;margin:0;line-height:1;
-  font-size:.78rem;color:#bbb;cursor:pointer;font-family:system-ui,-apple-system,sans-serif}
-.info-i:hover{color:#555}
-.infotip{position:fixed;z-index:25;max-width:16rem;font-size:.75rem;line-height:1.4;color:#333;
-  background:#fafafa;border:1px solid #e2e2e2;border-radius:5px;box-shadow:0 2px 8px rgba(0,0,0,.12);
-  padding:.5rem .6rem;font-family:system-ui,-apple-system,'Segoe UI',sans-serif}
-.infotip[hidden]{display:none}
-.facet-opt input{width:auto;margin:0;flex:0 0 auto;position:relative;top:.15em}
-.facet-opt .opt-l{flex:1 1 auto;min-width:0;overflow-wrap:anywhere}
-.facet-opt .opt-c{flex:0 0 auto;color:#888;font-size:.75rem;font-variant-numeric:tabular-nums}
-.facet-opt.dim{opacity:.4}
-.facet-opt.dim label{cursor:default}
-.selrow{display:flex;gap:.4rem;margin-top:.4rem} /* three small buttons in one line under the id box */
-.selrow button{flex:1;font-size:.75rem;padding:.3rem .2rem;white-space:nowrap} /* no min-width:0, so each button never shrinks below its one-line text */
-#include{font-family:monospace;font-size:.8rem;width:100%;height:8em;box-sizing:border-box;margin-top:.15rem;padding:.3rem;resize:vertical}
-.prompt{margin:.5rem 0} .fig{max-width:100%;height:auto;margin:.4rem 0}
-ul,ol.choices{margin:.4rem 0} .choices{list-style:none;padding-left:0}
-.choice{margin:.25rem 0;padding:.15rem .4rem;border-radius:4px}
+.facet-h {
+  display: flex;
+  align-items: baseline;
+  gap: 0.25rem;
+}
+.info-i {
+  flex: 0 0 auto;
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  font-size: 0.78rem;
+  color: #bbb;
+  cursor: pointer;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+.info-i:hover {
+  color: #555;
+}
+.infotip {
+  position: fixed;
+  z-index: 25;
+  max-width: 16rem;
+  font-size: 0.75rem;
+  line-height: 1.4;
+  color: #333;
+  background: #fafafa;
+  border: 1px solid #e2e2e2;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  padding: 0.5rem 0.6rem;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+.infotip[hidden] {
+  display: none;
+}
+.facet-opt input {
+  width: auto;
+  margin: 0;
+  flex: 0 0 auto;
+  position: relative;
+  top: 0.15em;
+}
+.facet-opt .opt-l {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.facet-opt .opt-c {
+  flex: 0 0 auto;
+  color: #888;
+  font-size: 0.75rem;
+  font-variant-numeric: tabular-nums;
+}
+.facet-opt.dim {
+  opacity: 0.4;
+}
+.facet-opt.dim label {
+  cursor: default;
+}
+.selrow {
+  display: flex;
+  gap: 0.4rem;
+  margin-top: 0.4rem;
+} /* three small buttons in one line under the id box */
+.selrow button {
+  flex: 1;
+  font-size: 0.75rem;
+  padding: 0.3rem 0.2rem;
+  white-space: nowrap;
+} /* no min-width:0, so each button never shrinks below its one-line text */
+#include {
+  font-family: monospace;
+  font-size: 0.8rem;
+  width: 100%;
+  height: 8em;
+  box-sizing: border-box;
+  margin-top: 0.15rem;
+  padding: 0.3rem;
+  resize: vertical;
+}
+.prompt {
+  margin: 0.5rem 0;
+}
+.fig {
+  max-width: 100%;
+  height: auto;
+  margin: 0.4rem 0;
+}
+ul,
+ol.choices {
+  margin: 0.4rem 0;
+}
+.choices {
+  list-style: none;
+  padding-left: 0;
+}
+.choice {
+  margin: 0.25rem 0;
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+}
 /* One row instead of four lines. The class is put on by layoutChoices(), and only where the
    row was measured to fit. wrap stays on: the print column can be narrower than the screen
    one, and there the row should break rather than run past the margin. */
-.choices.inline{display:flex;flex-wrap:wrap;column-gap:1.2rem}
-.lbl{font-weight:bold;margin-right:.3rem}
-math{font-size:1.05em}
+.choices.inline {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 1.2rem;
+}
+.lbl {
+  font-weight: bold;
+  margin-right: 0.3rem;
+}
+math {
+  font-size: 1.05em;
+}
 /* per-question reveal: native <details>; toggle sits in the gutter, 1em below the checkbox */
-.reveal{margin:0}
-.reveal>summary{position:absolute;left:calc(-1 * (var(--qgap) + var(--cb)) + .052rem);top:2.6rem;box-sizing:border-box;
-  width:1.196rem;height:1.196rem;display:flex;align-items:center;justify-content:center;
-  font-size:.8rem;border:1px solid #bbb;border-radius:3px;background:#fff;color:#555;
-  cursor:pointer;list-style:none;user-select:none;opacity:.7;transition:opacity .12s}
-.reveal>summary::-webkit-details-marker{display:none}
-.reveal>summary:hover,.reveal[open]>summary{opacity:1} /* full once hovered or opened */
-.reveal[open]>summary{border-color:#8c8;background:#eef8ee}
-.reveal .eye{position:relative;top:.1em}
+.reveal {
+  margin: 0;
+}
+.reveal > summary {
+  position: absolute;
+  left: calc(-1 * (var(--qgap) + var(--cb)) + 0.052rem);
+  top: 2.6rem;
+  box-sizing: border-box;
+  width: 1.196rem;
+  height: 1.196rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  background: #fff;
+  color: #555;
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+  opacity: 0.7;
+  transition: opacity 0.12s;
+}
+.reveal > summary::-webkit-details-marker {
+  display: none;
+}
+.reveal > summary:hover,
+.reveal[open] > summary {
+  opacity: 1;
+} /* full once hovered or opened */
+.reveal[open] > summary {
+  border-color: #8c8;
+  background: #eef8ee;
+}
+.reveal .eye {
+  position: relative;
+  top: 0.1em;
+}
 /* per-question brudnopis override (–/½/1): centered under the ▾ down button, left of the eye. Green
    when it overrides (½/1). Hidden in print and when global brudnopis = off (no brudnopis-* class). */
-.brudtoggle{position:absolute;left:calc(-1 * (var(--qgap) + var(--cb) + var(--grp) + var(--btn)) - .048rem);top:2.6rem;box-sizing:border-box;
-  width:1.196rem;height:1.196rem;display:flex;align-items:center;justify-content:center;
-  font-size:.8rem;line-height:1;border:1px solid #bbb;border-radius:3px;background:#fff;color:#555;
-  cursor:pointer;padding:0;user-select:none;opacity:.7;transition:opacity .12s}
-.brudtoggle:hover{opacity:1;border-color:#888;color:#222}
-.brudtoggle.on{opacity:1;border-color:#8c8;background:#eef8ee;color:#161} /* overriding the global setting */
-body.brudnopis-off .brudtoggle{display:none} /* global brudnopis wyłączony → nothing to override */
+.brudtoggle {
+  position: absolute;
+  left: calc(-1 * (var(--qgap) + var(--cb) + var(--grp) + var(--btn)) - 0.048rem);
+  top: 2.6rem;
+  box-sizing: border-box;
+  width: 1.196rem;
+  height: 1.196rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  line-height: 1;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  background: #fff;
+  color: #555;
+  cursor: pointer;
+  padding: 0;
+  user-select: none;
+  opacity: 0.7;
+  transition: opacity 0.12s;
+}
+.brudtoggle:hover {
+  opacity: 1;
+  border-color: #888;
+  color: #222;
+}
+.brudtoggle.on {
+  opacity: 1;
+  border-color: #8c8;
+  background: #eef8ee;
+  color: #161;
+} /* overriding the global setting */
+body.brudnopis-off .brudtoggle {
+  display: none;
+} /* global brudnopis wyłączony → nothing to override */
 /* vector-redraw toggle: same box as the eye, centered under the ▾ up button (one slot left of brudnopis) */
-.svgtoggle{position:absolute;left:calc(-1 * (var(--qgap) + var(--cb) + var(--grp) + var(--btn) + var(--pair) + var(--btn)) - .048rem);top:2.6rem;box-sizing:border-box;
-  width:1.196rem;height:1.196rem;display:flex;align-items:center;justify-content:center;
-  font-size:.8rem;line-height:1;border:1px solid #bbb;border-radius:3px;background:#fff;color:#555;
-  cursor:pointer;padding:0;user-select:none}
-.svgtoggle:hover{border-color:#888;color:#222}
-.svgtoggle.on{border-color:#8c8;background:#eef8ee;color:#161}
-.answer{margin-top:.5rem;color:#161}
-.answer.nokey{color:#888;font-style:italic} /* "Brak klucza" — a status note, not an answer */
-.answer.ai{margin-top:1rem;font-size:.85rem;color:#333} /* AI's blind-solve answer — smaller grey, set off from the verdict above */
-.answer.solution.ai-sol{font-size:.85rem;color:#333} /* AI's reasoning (sole AI answer) — same smaller grey */
+.svgtoggle {
+  position: absolute;
+  left: calc(
+    -1 *
+    (var(--qgap) + var(--cb) + var(--grp) + var(--btn) + var(--pair) + var(--btn)) -
+    0.048rem
+  );
+  top: 2.6rem;
+  box-sizing: border-box;
+  width: 1.196rem;
+  height: 1.196rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  line-height: 1;
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  background: #fff;
+  color: #555;
+  cursor: pointer;
+  padding: 0;
+  user-select: none;
+}
+.svgtoggle:hover {
+  border-color: #888;
+  color: #222;
+}
+.svgtoggle.on {
+  border-color: #8c8;
+  background: #eef8ee;
+  color: #161;
+}
+.answer {
+  margin-top: 0.5rem;
+  color: #161;
+}
+.answer.nokey {
+  color: #888;
+  font-style: italic;
+} /* "Brak klucza" — a status note, not an answer */
+.answer.ai {
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  color: #333;
+} /* AI's blind-solve answer — smaller grey, set off from the verdict above */
+.answer.solution.ai-sol {
+  font-size: 0.85rem;
+  color: #333;
+} /* AI's reasoning (sole AI answer) — same smaller grey */
 /* AI section: opens with a 2rem gap that divides it from the key content above */
-.verif{margin-top:2rem;font-size:.85rem;color:#333}
-.verif .ok,.kverif .ok{color:#1b5e20} /* verdict stays colour-coded; the rest of the AI block is grey */
-.verif .warn,.kverif .warn{color:#8a5a00}
-.verif .suspect,.kverif .suspect{color:#a1160a}
-.verif-reason{margin:.3rem 0 0;max-width:62ch;font-size:.85rem;color:#333}
+.verif {
+  margin-top: 2rem;
+  font-size: 0.85rem;
+  color: #333;
+}
+.verif .ok,
+.kverif .ok {
+  color: #1b5e20;
+} /* verdict stays colour-coded; the rest of the AI block is grey */
+.verif .warn,
+.kverif .warn {
+  color: #8a5a00;
+}
+.verif .suspect,
+.kverif .suspect {
+  color: #a1160a;
+}
+.verif-reason {
+  margin: 0.3rem 0 0;
+  max-width: 62ch;
+  font-size: 0.85rem;
+  color: #333;
+}
 /* answer key: a print-only sheet compiled after the questions; never shown on screen (see @media print) */
-#answerkey{display:none}
-#answerkey h2{font-size:1.15rem;margin:0 0 .7rem}
-.kq{break-inside:avoid;margin:0 0 .5rem;padding-bottom:.4rem;border-bottom:1px solid #eee;font-size:.9rem}
-.kq .kn{font-weight:bold} .kq .hash{color:#888;font-size:.8rem}
-.kverif,.kreason,.kai{margin-top:.15rem;color:#333}
-.kreason{max-width:62ch}
-.choice.correct{background:transparent}
-.q:has(.reveal[open]) .choice.correct{background:#d8f5d8;font-weight:600}
-.scratch{display:none} /* brudnopis filler: print-only (see @media print) */
-.scratch>.kratka{display:none} /* the grid shows only in print + body.kratka (see @media print) */
-@media print{
-  .sidebar{display:none}        /* 1. hide UI */
-  .topbar{display:none}         /* hide the toolbar */
-  h1{display:none}              /* drop stray h1s; the .sheet-title header is governed separately below */
-  .layout{display:block;padding:0}
-  .content{max-width:none;padding-left:0}
-  .selectbox{display:none}      /* checkboxes never print */
-  .reorder{display:none}        /* reorder arrows never print */
-  .svgtoggle{display:none}      /* the SVG toggle never prints (the chosen src does) */
-  .brudtoggle{display:none}     /* the brudnopis override control never prints (its effect does) */
-  .pager{display:none}
-  .q{break-inside:avoid;border-bottom:none}  /* 2. keep each question on one page; no divider line */
+#answerkey {
+  display: none;
+}
+#answerkey h2 {
+  font-size: 1.15rem;
+  margin: 0 0 0.7rem;
+}
+.kq {
+  break-inside: avoid;
+  margin: 0 0 0.5rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid #eee;
+  font-size: 0.9rem;
+}
+.kq .kn {
+  font-weight: bold;
+}
+.kq .hash {
+  color: #888;
+  font-size: 0.8rem;
+}
+.kverif,
+.kreason,
+.kai {
+  margin-top: 0.15rem;
+  color: #333;
+}
+.kreason {
+  max-width: 62ch;
+}
+.choice.correct {
+  background: transparent;
+}
+.q:has(.reveal[open]) .choice.correct {
+  background: #d8f5d8;
+  font-weight: 600;
+}
+.scratch {
+  display: none;
+} /* brudnopis filler: print-only (see @media print) */
+.scratch > .kratka {
+  display: none;
+} /* the grid shows only in print + body.kratka (see @media print) */
+@media print {
+  .sidebar {
+    display: none;
+  } /* 1. hide UI */
+  .topbar {
+    display: none;
+  } /* hide the toolbar */
+  h1 {
+    display: none;
+  } /* drop stray h1s; the .sheet-title header is governed separately below */
+  .layout {
+    display: block;
+    padding: 0;
+  }
+  .content {
+    max-width: none;
+    padding-left: 0;
+  }
+  .selectbox {
+    display: none;
+  } /* checkboxes never print */
+  .reorder {
+    display: none;
+  } /* reorder arrows never print */
+  .svgtoggle {
+    display: none;
+  } /* the SVG toggle never prints (the chosen src does) */
+  .brudtoggle {
+    display: none;
+  } /* the brudnopis override control never prints (its effect does) */
+  .pager {
+    display: none;
+  }
+  .q {
+    break-inside: avoid;
+    border-bottom: none;
+  } /* 2. keep each question on one page; no divider line */
   /* 3. meta tags in print are governed by the Wydruk "Pokaż dodatkowo" toggles (print-hide-*),
      independently of the on-screen ones (hide-*): un-hide any screen-hidden type (same specificity,
      later source wins), then apply the print hides. Rendered as plain small text, not grey pills. */
-  .qmeta .tag{padding:0;background:none;color:#bbb}
-  .qmeta .tag.ctx{background:none;color:#bbb} /* override the faint on-screen #aaa/#fbfbfb for print */
-  .hide-woj .qmeta .woj,.hide-rok .qmeta .rok,.hide-etap .qmeta .etap,.hide-topics .qmeta .topic{display:inline-block}
-  .print-hide-woj .qmeta .woj,.print-hide-rok .qmeta .rok,.print-hide-etap .qmeta .etap,.print-hide-topics .qmeta .topic{display:none}
+  .qmeta .tag {
+    padding: 0;
+    background: none;
+    color: #bbb;
+  }
+  .qmeta .tag.ctx {
+    background: none;
+    color: #bbb;
+  } /* override the faint on-screen #aaa/#fbfbfb for print */
+  .hide-woj .qmeta .woj,
+  .hide-rok .qmeta .rok,
+  .hide-etap .qmeta .etap,
+  .hide-topics .qmeta .topic {
+    display: inline-block;
+  }
+  .print-hide-woj .qmeta .woj,
+  .print-hide-rok .qmeta .rok,
+  .print-hide-etap .qmeta .etap,
+  .print-hide-topics .qmeta .topic {
+    display: none;
+  }
   /* sheet title: same independent screen/print toggle as the meta tags; the class rules override the
      blanket h1{display:none} above. Centered as a worksheet header. */
-  .sheet-title{display:block;text-align:center}
-  .hide-title .sheet-title{display:block}        /* un-hide a screen-hidden title for print */
-  .print-hide-title .sheet-title{display:none}   /* Wydruk "Tytuł arkusza" off → no title in print */
-  .reveal>summary{display:none} /* hide the reveal button (opened answers still print) */
-  .print-key .reveal{display:none}                    /* key sheet on → keep the question pages clean */
-  .print-key #answerkey:not(:empty){display:block;break-before:page} /* the answer key starts on its own sheet after the questions */
+  .sheet-title {
+    display: block;
+    text-align: center;
+  }
+  .hide-title .sheet-title {
+    display: block;
+  } /* un-hide a screen-hidden title for print */
+  .print-hide-title .sheet-title {
+    display: none;
+  } /* Wydruk "Tytuł arkusza" off → no title in print */
+  .reveal > summary {
+    display: none;
+  } /* hide the reveal button (opened answers still print) */
+  .print-key .reveal {
+    display: none;
+  } /* key sheet on → keep the question pages clean */
+  .print-key #answerkey:not(:empty) {
+    display: block;
+    break-before: page;
+  } /* the answer key starts on its own sheet after the questions */
   /* Brudnopis (scratch space) modes. Each question reserves a fixed TOTAL height via min-height
      (content at top, the trailing .scratch flex-fills the rest) — so packing is content-independent:
      .q{break-inside:avoid} packs halves ~two-per-page and keeps fulls alone, and a longer question
@@ -258,15 +1001,38 @@ body.brudnopis-off .brudtoggle{display:none} /* global brudnopis wyłączony →
      the page edge; 2-per-page is unaffected either way.
      auto = half for short closed (a–d) questions, full for open / true-false / figure ones
      (.phalf / .pfull); half = half for all; full = full for all; off = no block. */
-  .brudnopis-auto .q,.brudnopis-half .q,.brudnopis-full .q{display:flex;flex-direction:column}
-  .brudnopis-auto .q>.scratch,.brudnopis-half .q>.scratch,.brudnopis-full .q>.scratch{display:block;flex:1 1 auto;position:relative}
-  .brudnopis-auto .q.phalf,.brudnopis-half .q{min-height:var(--brudnopis-half)}
-  .brudnopis-auto .q.pfull,.brudnopis-full .q{min-height:var(--brudnopis-full)}
+  .brudnopis-auto .q,
+  .brudnopis-half .q,
+  .brudnopis-full .q {
+    display: flex;
+    flex-direction: column;
+  }
+  .brudnopis-auto .q > .scratch,
+  .brudnopis-half .q > .scratch,
+  .brudnopis-full .q > .scratch {
+    display: block;
+    flex: 1 1 auto;
+    position: relative;
+  }
+  .brudnopis-auto .q.phalf,
+  .brudnopis-half .q {
+    min-height: var(--brudnopis-half);
+  }
+  .brudnopis-auto .q.pfull,
+  .brudnopis-full .q {
+    min-height: var(--brudnopis-full);
+  }
   /* per-question override (gutter ½/1 button): force this question's reserved height, winning over the
      global auto/half/full above. Display/scratch/kratka still come from the body mode (the button is
      hidden when global brudnopis is off, so a brudnopis-* mode class is always present here). */
-  .q.brud-half{min-height:var(--brudnopis-half)!important}
-  .q.brud-full{min-height:var(--brudnopis-full)!important}
+  .q.brud-half {
+    /* biome-ignore lint/complexity/noImportantStyles: must beat the higher-specificity mode rules above */
+    min-height: var(--brudnopis-half) !important;
+  }
+  .q.brud-full {
+    /* biome-ignore lint/complexity/noImportantStyles: must beat the higher-specificity mode rules above */
+    min-height: var(--brudnopis-full) !important;
+  }
   /* optional 5 mm kratka (opt-in): inline-SVG grid (a <use> of #kratka5) — prints crisp because Chrome
      keeps inline SVG as vector in the PDF (a CSS background gradient is rasterized ~screen-DPI, and is
      in fact dropped entirely by the print path here). height="100%" needs a definite box, so the box
@@ -274,6 +1040,20 @@ body.brudnopis-off .brudtoggle{display:none} /* global brudnopis wyłączony →
      round(down,100%,5mm) snaps the box to a whole number of cells so the CSS border lands exactly one
      cell past the last gridline — no thin partial-column sliver doubling the frame on the right/bottom.
      The frame is that CSS border (renders reliably); an SVG-drawn frame lands sub-px off the print clip. */
-  body.kratka.brudnopis-auto .q>.scratch>.kratka,body.kratka.brudnopis-half .q>.scratch>.kratka,body.kratka.brudnopis-full .q>.scratch>.kratka{display:block;position:absolute;left:0;top:0;width:round(down,100%,5mm);height:round(down,100%,5mm);box-sizing:border-box;border:.125mm solid #d6d6d6;overflow:hidden}
-  body.kratka-geomonly .q:not(.geom)>.scratch>.kratka{display:none} /* "tylko w geometrii": drop the grid on non-geometry questions */
+  body.kratka.brudnopis-auto .q > .scratch > .kratka,
+  body.kratka.brudnopis-half .q > .scratch > .kratka,
+  body.kratka.brudnopis-full .q > .scratch > .kratka {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: round(down, 100%, 5mm);
+    height: round(down, 100%, 5mm);
+    box-sizing: border-box;
+    border: 0.125mm solid #d6d6d6;
+    overflow: hidden;
+  }
+  body.kratka-geomonly .q:not(.geom) > .scratch > .kratka {
+    display: none;
+  } /* "tylko w geometrii": drop the grid on non-geometry questions */
 }

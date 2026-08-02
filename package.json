@@ -1,0 +1,12 @@
+{
+  "name": "konkurs-mat",
+  "private": true,
+  "scripts": {
+    "check": "biome check .",
+    "check:fix": "biome check --write .",
+    "test": "node browser/facets.test.cjs"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.5.3"
+  }
+}

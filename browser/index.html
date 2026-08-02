@@ -88,6 +88,7 @@
 <aside class="sidebar">
 <div class="idbox">
 <label>Pokaż tylko id:
+<!-- biome-ignore lint/a11y/noAutofocus: deliberate — the id box is the primary worksheet-building input -->
 <textarea id="include" rows="2" placeholder="hash, hash, …" autofocus></textarea>
 </label>
 <div class="selrow">
@@ -106,6 +107,7 @@
 <label>Pomiń id: <input type="text" id="exclude" placeholder="hash, hash, …"></label>
 </aside>
 <main class="content">
+<!-- biome-ignore lint/a11y/noNoninteractiveTabindex: the title is click/keyboard-editable (contentEditable on activation) -->
 <h1 class="sheet-title" id="sheetTitle" title="Kliknij, aby zmienić tytuł" tabindex="0">Wszystkie zadania</h1>
 <div id="qlist"></div>
 <section id="answerkey"></section>
