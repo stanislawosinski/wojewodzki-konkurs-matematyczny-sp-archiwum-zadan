@@ -67,11 +67,32 @@ something MuPDF cannot draw.
 2. **Do not silently regularise a sloppy original.** A line 1° off stays 1° off;
    an arc not centred on its vertex stays off-centre. Snap to exact geometry
    only when the original is within ~1px of it anyway.
+
+   *Exception, decided 2026-08-01 on `wojewodzki_2025-2026_wielkopolskie_q15`:*
+   where the prompt asserts the property and only the scan's draughtsmanship
+   fails it — an "equilateral" triangle drawn 356/341/339 — **idealise**.
+   Rebuild at the measured mean (s = 345.500) and accept the score drop as the
+   deliberate departure, 0.990 → 0.973. Note what tipped it: the scan's own two
+   circles were already equal-radius (fits 173.02 and 172.68), so only the
+   triangle was distorted. Rule 1 still governs — idealise the *drawing's*
+   imprecision, never redraw a figure that genuinely disagrees with its text.
 3. **Measure, don't eyeball.** Load the PNG with cv2/numpy and *fit* the
    geometry — least-squares circle fits, total-least-squares / Hough line fits,
    pixel-run endpoints, connected components to count dots, `approxPolyDP` on
    contours. Then emit exact coordinates. That is the whole reason the redraw
    beats the blur. (There is no potrace/autotrace/inkscape on this box.)
+
+   Two ways the fitting itself goes wrong, both found on q15:
+   - **Fit the pose to the ink, not to the vertices.** Least squares over three
+     vertices gives a tidy symmetric 6.29px residual each, but buys it by sliding
+     base AB down 3.5px — moving 356px of heavily-inked line perpendicular to
+     itself, exactly what a 4px chamfer punishes. Fitting all 9362 black pixels
+     instead keeps AB where it is drawn and lifts the apex: vertex residuals get
+     *worse* (6.94 / 3.92 / 9.30) while stroke coverage@4px goes 0.745 → 0.843.
+   - **Do not score-hunt.** A local search on `match@4px` reached 0.9746 at
+     s = 347.0, but the score is flat to ±0.0025 across s = 344–348 and 347
+     contradicts both independent measurements of the side. The
+     measurement-backed 345.5 was kept.
 4. `width`/`height`/`viewBox` = the PNG's exact pixel size:
    `python3 -c "import cv2;print(cv2.imread('browser/figures/<name>.png',0).shape)"` → `(h, w)`.
 5. Same layout, proportions, position, stroke weight, fills and label positions
@@ -134,6 +155,16 @@ fitz.open(svg)[0].get_text('rawdict')   # blocks > lines > spans > chars, each w
 Coordinates come back in viewBox units, which for every figure here is the PNG
 pixel grid. This settles label placement, `text-anchor` drift and glyph widths
 in one call, and it is how the square-root bars below were positioned.
+
+**But `rawdict` char bboxes are font boxes, not ink** — every glyph in a span
+reports the same ascender-to-descender height, so sizing a label off that height
+undershoots badly (it produced `font-size` 17.5 where 31.6 was right). Horizontally
+it is still trustworthy; advance widths are real. To size a label, fit against the
+*rendered ink*: emit the label alone, rasterize it through the same MuPDF path
+`figcheck.py` uses, measure its ink bbox, correct `font-size` by target_h/ink_h and
+x/y by the bbox delta, then iterate. Long labels also drift — `3√3 cm` is 102px wide
+in the scan and Helvetica's advances do not match the original font across that span,
+so it was emitted as four `<text>` pieces each pinned to its own measured column.
 - Allowed elements: `rect line path polyline circle ellipse text g` +
   presentation attributes, `transform`, `fill`, `stroke`, `stroke-width`,
   `stroke-dasharray`.
@@ -330,6 +361,35 @@ gap is glyph weight or a gradient, leave it.
 | 0.849 | `szkolny_2024-2025_malopolskie_q6_fig1` | `ad68ccb5` |
 
 Regenerate the list any time with `python3 scripts/figcheck.py --all`.
+
+## Solve-through-SVG sweep (2026-08-02) — done, low yield
+
+All 252 never-signed-off redraws were rendered through Chrome and solved blind
+(figure + prompt, no key), then differenced against **both** the key and the
+stored PNG-derived `answer.model` baseline. Only *wrong-from-SVG ∧
+right-from-PNG* implicates a drawing; wrong-from-both just means a hard
+question. Answer equivalence needs a judge, not a regex — a numeric-multiset
+comparison produced 51 false positives (`FPP` vs `1-F, 2-P, 3-P`, `12,5π cm²`
+vs `25π/2 cm²`, keys with working shown).
+
+Yield: **one genuine redraw defect in 252** (`wojewodzki_2012_podkarpackie_q3`
+— the 3♣'s bottom pip is inverted in the scan, playing-card convention, and the
+redraw drew all three upright; an axis-of-symmetry question turns on exactly
+that). Plus three answers worth a second look, all with the redraw exonerated:
+`wojewodzki_2021_lodzkie_q9` (baseline A, correct C=160°),
+`wojewodzki_2012_podlaskie_sp_q8` (baseline 15°, correct 75°), and
+`wojewodzki_2025-2026_wielkopolskie_q15` (SVG and PNG both B, key says C).
+
+Don't run this again over the same set, and don't read the pass as a sign-off:
+recall is ~26% by construction. The known defect classes are ~2/3 cosmetic —
+label nudges, miters, font, arc radii — and a solver cannot see any of them.
+Eyeballing in `debug/figure-redraw-review.html` remains the only real check.
+
+**Also dead: pixel score as triage.** `figcheck.score()` over the 128 reviewed
+figures runs *anti*-correlated with defects — signed off (n=93) median 0.943,
+reviewer-flagged (n=35) median 0.973, and 19 of the 20 worst-scoring reviewed
+figures were signed off as fine. The score tracks ink volume and text density,
+not correctness. Worst-first ordering is no help in finding bad redraws.
 
 ## What was deliberately not redrawn
 
