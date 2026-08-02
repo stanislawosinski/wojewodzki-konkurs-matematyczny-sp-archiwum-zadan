@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1150" height="420" viewBox="0 0 1150 420">
+  <rect width="1150" height="420" fill="#fff"/>
+
+  <!-- triangle A C D -->
+  <path d="M 110.22 366 L 957.68 366 L 533.95 128.89 Z" fill="none" stroke="#000" stroke-width="4.35" stroke-linejoin="miter" stroke-miterlimit="10"/>
+
+  <!-- cevian D-B -->
+  <line x1="409.39" y1="366" x2="533.95" y2="128.89" stroke="#000" stroke-width="2.9"/>
+
+  <!-- angle mark at A: bulging arc, centre (240.97,330.70) r 63.54 -->
+  <path d="M 272.24 275.35 A 63.54 63.54 0 0 1 293.80 366" fill="none" stroke="#000" stroke-width="2.85"/>
+
+  <!-- angle mark at D between DC and DB, centred on D -->
+  <path d="M 615.11 174.30 A 93 93 0 0 1 490.70 211.21" fill="none" stroke="#000" stroke-width="2.9"/>
+
+  <text x="539.5" y="119" font-family="Times New Roman,serif" font-size="49" text-anchor="middle" fill="#000">D</text>
+  <text x="971" y="406" font-family="Times New Roman,serif" font-size="49" text-anchor="middle" fill="#000">C</text>
+  <text x="99.5" y="412.5" font-family="Times New Roman,serif" font-size="49" text-anchor="middle" fill="#000">A</text>
+  <text x="408" y="415" font-family="Times New Roman,serif" font-size="49" text-anchor="middle" fill="#000">B</text>
+</svg>

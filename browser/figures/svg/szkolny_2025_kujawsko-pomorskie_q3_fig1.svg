@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="320" viewBox="0 0 360 320">
+<rect width="360" height="320" fill="#fff"/>
+
+<!-- row 2: left up-triangle, black -->
+<path d="M 108.75 85.7 L 67.47 157.5 L 149.94 157.5 Z" fill="#000"/>
+
+<!-- row 2: middle down-triangle and right up-triangle, grey -->
+<path d="M 108.75 85.7 L 191.19 85.7 L 149.94 157.5 Z" fill="#bbb"/>
+<path d="M 191.19 85.7 L 149.94 157.5 L 232.41 157.5 Z" fill="#bbb"/>
+
+<!-- row 3: leftmost up-triangle grey, the two down-triangles black -->
+<path d="M 67.47 157.5 L 25.20 231 L 108.34 231 Z" fill="#bbb"/>
+<path d="M 67.47 157.5 L 149.94 157.5 L 108.34 231 Z" fill="#000"/>
+<path d="M 149.94 157.5 L 232.41 157.5 L 191.47 231 Z" fill="#000"/>
+
+<path d="M 150.00 13.9 L 25.20 231 L 274.61 231 Z" fill="none" stroke="#000" stroke-width="2.6"/>
+<path d="M 108.75 85.7 L 191.19 85.7" fill="none" stroke="#000" stroke-width="2.4"/>
+<path d="M 191.19 85.7 L 149.94 157.5" fill="none" stroke="#000" stroke-width="2.4"/>
+</svg>

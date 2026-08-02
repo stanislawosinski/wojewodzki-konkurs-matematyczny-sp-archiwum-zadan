@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="555" viewBox="0 0 500 555">
+  <rect width="500" height="555" fill="#fff"/>
+
+  <!-- shaded angle sector at C -->
+  <path d="M 213.59 43.37 L 225.51 78.93 A 37.5 37.5 0 0 1 202.29 79.13 Z" fill="#e2e2e2"/>
+  <path d="M 225.51 78.93 A 37.5 37.5 0 0 1 202.29 79.13" fill="none" stroke="#666" stroke-width="2.2"/>
+
+  <!-- triangle ABC -->
+  <path d="M 62.05 522.65 L 371.84 515.42 L 213.59 43.37 Z" fill="none" stroke="#444" stroke-width="3"/>
+
+  <!-- cevian AD -->
+  <line x1="62.05" y1="522.65" x2="304.32" y2="314.02" stroke="#888" stroke-width="3"/>
+
+  <text x="226.5" y="41" font-family="Helvetica,Arial,sans-serif" font-size="19" text-anchor="middle" fill="#000">C</text>
+  <text x="317" y="311" font-family="Helvetica,Arial,sans-serif" font-size="19" text-anchor="middle" fill="#000">D</text>
+  <text x="384.5" y="513" font-family="Helvetica,Arial,sans-serif" font-size="19" text-anchor="middle" fill="#000">B</text>
+  <text x="74.5" y="520" font-family="Helvetica,Arial,sans-serif" font-size="19" text-anchor="middle" fill="#000">A</text>
+</svg>

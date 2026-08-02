@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="530" height="259" viewBox="0 0 530 259">
+  <rect width="530" height="259" fill="#fff"/>
+  <g stroke="#4d4d4d" fill="none" stroke-width="2.4">
+
+    <!-- rectangle ABCD -->
+    <path d="M 23.30 26.99 L 505.88 26.99 L 505.88 220.03 L 23.30 220.03 Z"/>
+
+    <!-- fan from S on DC to A, K, L, M, N, B on AB (feet evenly spaced 96.45 apart) -->
+    <path d="M 382.29 27.01 L 23.30 220.03"/>
+    <path d="M 382.29 27.01 L 119.96 220.03"/>
+    <path d="M 382.29 27.01 L 216.40 220.03"/>
+    <path d="M 382.29 27.01 L 312.85 220.03"/>
+    <path d="M 382.29 27.01 L 409.39 220.03"/>
+    <path d="M 382.29 27.01 L 505.88 220.03"/>
+  </g>
+  <g fill="#000">
+    <circle cx="23.30" cy="26.99" r="2.2"/>
+    <circle cx="382.29" cy="27.01" r="2.2"/>
+    <circle cx="505.88" cy="26.99" r="2.2"/>
+    <circle cx="23.30" cy="220.03" r="2.2"/>
+    <circle cx="119.96" cy="220.03" r="2.2"/>
+    <circle cx="216.40" cy="220.03" r="2.2"/>
+    <circle cx="312.85" cy="220.03" r="2.2"/>
+    <circle cx="409.39" cy="220.03" r="2.2"/>
+    <circle cx="505.88" cy="220.03" r="2.2"/>
+    <text x="15" y="22" font-family="Helvetica,Arial,sans-serif" font-size="16" text-anchor="middle">D</text>
+    <text x="391" y="22" font-family="Helvetica,Arial,sans-serif" font-size="16" text-anchor="middle">S</text>
+    <text x="515" y="22" font-family="Helvetica,Arial,sans-serif" font-size="16" text-anchor="middle">C</text>
+    <text x="15.5" y="247" font-family="Helvetica,Arial,sans-serif" font-size="16" text-anchor="middle">A</text>
+    <text x="109.5" y="246" font-family="Helvetica,Arial,sans-serif" font-size="16" text-anchor="middle">K</text>
+    <text x="212.5" y="247" font-family="Helvetica,Arial,sans-serif" font-size="16" text-anchor="middle">L</text>
+    <text x="311.5" y="248" font-family="Helvetica,Arial,sans-serif" font-size="16" text-anchor="middle">M</text>
+    <text x="409.5" y="247" font-family="Helvetica,Arial,sans-serif" font-size="16" text-anchor="middle">N</text>
+    <text x="510" y="249" font-family="Helvetica,Arial,sans-serif" font-size="16" text-anchor="middle">B</text>
+  </g>
+</svg>

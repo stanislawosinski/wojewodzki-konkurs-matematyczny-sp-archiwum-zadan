@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="520" viewBox="0 0 520 520">
+  <rect width="520" height="520" fill="#fff"/>
+  <g stroke="#000" fill="none" stroke-width="1">
+
+    <!-- 4x4 grid: outer border is drawn heavier top and bottom -->
+    <line x1="84" y1="38" x2="463" y2="38" stroke-width="2"/>
+    <line x1="84" y1="147.5" x2="463" y2="147.5"/>
+    <line x1="84" y1="257.5" x2="463" y2="257.5"/>
+    <line x1="84" y1="367.5" x2="463" y2="367.5"/>
+    <line x1="84" y1="477" x2="463" y2="477" stroke-width="2"/>
+    <line x1="84.5" y1="37" x2="84.5" y2="478"/>
+    <line x1="179.5" y1="37" x2="179.5" y2="478"/>
+    <line x1="273.5" y1="37" x2="273.5" y2="478"/>
+    <line x1="368.5" y1="37" x2="368.5" y2="478"/>
+    <line x1="462.5" y1="37" x2="462.5" y2="478"/>
+  </g>
+  <g fill="#000">
+    <text x="132.5" y="116" font-family="Helvetica,Arial,sans-serif" font-size="57.4" font-weight="bold" text-anchor="middle">0</text>
+    <text x="321.5" y="116" font-family="Helvetica,Arial,sans-serif" font-size="57.4" font-weight="bold" text-anchor="middle">0</text>
+    <text x="321.5" y="224" font-family="Helvetica,Arial,sans-serif" font-size="57.4" font-weight="bold" text-anchor="middle">0</text>
+    <text x="227" y="335" font-family="Helvetica,Arial,sans-serif" font-size="58.2" font-weight="bold" text-anchor="middle">x</text>
+    <text x="227" y="444" font-family="Helvetica,Arial,sans-serif" font-size="57.4" font-weight="bold" text-anchor="middle">y</text>
+    <text x="415" y="335" font-family="Helvetica,Arial,sans-serif" font-size="58.5" font-weight="bold" text-anchor="middle">1</text>
+
+    <!-- the scan's 1 has a footed base bar Helvetica-Bold lacks -->
+    <rect x="403" y="328" width="26" height="7"/>
+  </g>
+</svg>

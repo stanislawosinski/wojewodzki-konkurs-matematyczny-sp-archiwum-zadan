@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="990" height="710" viewBox="0 0 990 710">
+  <rect width="990" height="710" fill="#fff"/>
+
+  <!-- shaded right faces of both blocks, as one region -->
+  <path d="M 490.35 136.80 L 552.39 72.50 L 552.39 556.53 L 490.35 619.20 Z" fill="#cdcdcd"/>
+
+  <g stroke="#000" stroke-width="4.3" fill="none">
+    <path d="M 156.78 281.08 L 156.78 619.20 L 490.35 619.20"/>
+    <path d="M 156.78 281.08 L 490.35 281.08"/>
+    <path d="M 156.78 281.08 L 218.89 218.35 L 343.33 218.35"/>
+    <path d="M 343.33 281.08 L 343.33 136.80 L 490.35 136.80"/>
+    <path d="M 343.33 136.80 L 407.12 72.50 L 552.39 72.50"/>
+    <path d="M 490.35 136.80 L 552.39 72.50"/>
+    <path d="M 490.35 136.80 L 490.35 619.20"/>
+    <path d="M 552.39 72.50 L 552.39 556.53"/>
+    <path d="M 490.35 619.20 L 552.39 556.53"/>
+  </g>
+
+  <!-- step between the two blocks, drawn heavier in the original -->
+  <path d="M 490.35 281.08 L 552.39 218.35" fill="none" stroke="#000" stroke-width="5.6"/>
+
+  <text x="19" y="456.5" font-family="Times New Roman,serif" font-size="68" fill="#000">2 cm</text>
+  <text x="277" y="681.5" font-family="Times New Roman,serif" font-size="68" fill="#000">2 cm</text>
+  <text x="524" y="640.5" font-family="Times New Roman,serif" font-size="68" fill="#000">1</text>
+  <text x="572" y="640.5" font-family="Times New Roman,serif" font-size="68" fill="#000">cm</text>
+</svg>

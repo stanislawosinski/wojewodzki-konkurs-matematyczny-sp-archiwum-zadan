@@ -15,6 +15,7 @@ and can be handed over verbatim.
 | `scripts/figangles.py` | angle-mark linter, reads the vector source (see **Angle marks**) |
 | `debug/figure-redraw-review.html` | side-by-side review, worst score first; each heading links its question hash into the local browser |
 | `debug/figure-angles-review.html` | zoomed original-vs-redraw crops of every flagged vertex |
+| `redraw-queue.tsv` | the 473 figures triaged as redrawable but not yet drawn, ordered low → high effort |
 
 The browser shows the bitmap by default. A `△` button in the question's left
 gutter (only for questions whose figures have a redraw) swaps every figure in
@@ -393,7 +394,7 @@ not correctness. Worst-first ordering is no help in finding bad redraws.
 
 ## What was deliberately not redrawn
 
-All *przyroda* figures, plus 12 rejected in triage: photographs, clip-art,
+All *przyroda* figures, plus 17 rejected in triage: photographs, clip-art,
 shaded/textured illustrations, maps with organic coastlines, heraldic art, and
 figures that are a paragraph of prose set as an image. The triage rule: redraw
 anything built from primitives an agent can compute — segments, circles/arcs,
@@ -416,7 +417,24 @@ rejonowy_2024_mazowieckie_q6_fig1        grey frame with callout and prose
 wojewodzki_2021_lubuskie_q14_fig1        photograph of a wall clock
 szkolny_2015-2016_malopolskie_q16_fig1   clip-art matchstick houses, yellow/red stylisation
 rejonowy_2012_podkarpackie_q13_fig1      balance scale with organic shaded beaker of liquid
+rejonowy_2020_kujawsko-pomorskie_q9_fig1 clip-art digital clock, gradient mirror reflection
+rejonowy_2020_lubuskie_q23_fig1          pictogram table of photographic clip-art fish
+rejonowy_2025-2026_pomorskie_q8_fig1     photographs of Banach and Krygowska
+szkolny_2021_podkarpackie_q16_fig1       gradient-shaded 3D cuboids
+szkolny_2023_lodzkie_q12_fig1            3D pie chart + phone screenshot + handwritten note
 ```
+
+The 2026-08-02 triage pass classified every one of the 478 figures that had
+never been looked at, against the rule above. It found only those last 5
+rejects — **473 are redrawable**, so the pool is not the constraint, drawing
+time is. `redraw-queue.tsv` is the queue, ordered low → high effort (269 low,
+163 med, 41 high). The `high` tail is almost entirely the śląskie
+arithmetic-crossword grids, which are dense but mechanical.
+
+Resolution is *not* a selection criterion: the SVG's value is being vector, so
+a crisp 300-dpi scan deserves a redraw as much as a soft 90-dpi one. Source
+DPI was tried as a triage signal and fails — it selects clip-art, because
+clip-art is what the source PDFs embed at low resolution.
 
 ---
 

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="645" height="250" viewBox="0 0 645 250">
+  <rect width="645" height="250" fill="#fff"/>
+
+  <!-- rectangle ABCD, light fill -->
+  <rect x="26.3" y="23.5" width="546.6" height="183" fill="#f5ebe6"/>
+
+  <!-- the two shaded triangles ADK and BCL -->
+  <path d="M 26.3 23.5 L 253.84 115 L 26.3 206.5 Z" fill="#ecd9cf"/>
+  <path d="M 572.9 23.5 L 344.73 115 L 572.9 206.5 Z" fill="#ecd9cf"/>
+
+  <rect x="26.3" y="23.5" width="546.6" height="183" fill="none" stroke="#a24415" stroke-width="1.2"/>
+  <path d="M 26.3 23.5 L 253.84 115 L 26.3 206.5" fill="none" stroke="#a24415" stroke-width="1.2"/>
+  <path d="M 572.9 23.5 L 344.73 115 L 572.9 206.5" fill="none" stroke="#a24415" stroke-width="1.2"/>
+
+  <!-- marked point A -->
+  <circle cx="26.3" cy="206.8" r="2.1" fill="#444" stroke="#000" stroke-width="0.9"/>
+
+  <text x="21.5" y="19" font-family="Times New Roman,serif" font-size="16" text-anchor="middle" fill="#000">D</text>
+  <text x="570" y="15" font-family="Times New Roman,serif" font-size="16" text-anchor="middle" fill="#000">C</text>
+  <text x="27" y="228" font-family="Times New Roman,serif" font-size="16" text-anchor="middle" fill="#000">A</text>
+  <text x="567.5" y="223" font-family="Times New Roman,serif" font-size="16" text-anchor="middle" fill="#000">B</text>
+  <text x="263" y="130" font-family="Times New Roman,serif" font-size="16" text-anchor="middle" fill="#000">K</text>
+  <text x="335" y="128" font-family="Times New Roman,serif" font-size="16" text-anchor="middle" fill="#000">L</text>
+</svg>

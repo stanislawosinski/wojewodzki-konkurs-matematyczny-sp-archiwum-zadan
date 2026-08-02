@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="470" height="270" viewBox="0 0 470 270">
+  <rect width="470" height="270" fill="#fff"/>
+  <g fill="none" stroke="#000">
+    <path d="M 140.70 16 L 140.70 230.3" stroke-width="1.4"/>
+    <path d="M 88.4 184.32 L 422.5 184.32" stroke-width="1.4"/>
+    <path d="M 83.8 42.74 L 420.4 220.5" stroke-width="1.85"/>
+
+    <!-- arcs are hairlines in the scan: ~0.4px of black-equivalent ink -->
+    <path d="M 173.67 87.76 A 31.01 31.01 0 0 0 144.98 38.79" stroke-width="0.45"/>
+    <path d="M 181.24 178.98 A 40.07 40.07 0 0 0 144.98 142.20" stroke-width="0.45"/>
+    <path d="M 402.52 179.02 A 44.65 44.65 0 0 0 317.09 163.04" stroke-width="0.45"/>
+  </g>
+  <circle cx="156.30" cy="168.29" r="1.6" fill="#000"/>
+
+  <!-- the degree mark is a thin-stroked superscript ring, not a bold glyph -->
+  <ellipse cx="391" cy="155.5" rx="7.9" ry="6.4" fill="none" stroke="#000" stroke-width="0.6"/>
+  <g fill="#000">
+    <text x="151" y="67.5" font-family="Times New Roman,serif" font-size="33" font-style="italic" font-weight="bold">&#945;</text>
+    <text x="340" y="175" font-family="Times New Roman,serif" font-size="26.6" font-weight="bold">140</text>
+  </g>
+</svg>

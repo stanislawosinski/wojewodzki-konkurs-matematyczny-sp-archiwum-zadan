@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="378" viewBox="0 0 660 378">
+  <rect width="660" height="378" fill="#fff"/>
+
+  <!-- the three lines: a near-horizontal base, a steep one and a slanted transversal -->
+  <g fill="none" stroke="#000" stroke-width="5.2">
+    <line x1="25" y1="269.96" x2="608" y2="268.94"/>
+    <line x1="183.19" y1="13.5" x2="114.55" y2="349.5" stroke-width="6"/>
+    <line x1="46.5" y1="46.34" x2="598.5" y2="322.85" stroke-width="5.5"/>
+  </g>
+
+  <!-- angle arcs; each is drawn off-centre from its vertex, as measured -->
+  <g fill="none" stroke="#000" stroke-width="5.5">
+    <path d="M 67.11 269.66 A 57.18 57.18 0 0 1 141.83 215.99"/>
+    <path d="M 139.83 225.77 A 36.33 36.33 0 0 1 184.31 269.68"/>
+    <path d="M 98.42 72.34 A 63.53 63.53 0 0 1 177.71 40.37"/>
+    <path d="M 217.40 131.95 A 43.86 43.86 0 0 1 154.03 156.23"/>
+    <path d="M 390.00 268.96 A 101.30 101.30 0 0 1 400.73 223.77"/>
+    <path d="M 559.67 269.02 A 70.31 70.31 0 0 0 431.75 239.31"/>
+  </g>
+
+  <!-- angle labels; the degree marks are drawn as capital O, as in the scan -->
+  <text x="113" y="78" font-family="Times New Roman,serif" font-size="32.9" font-weight="bold" fill="#000">80</text>
+  <text x="148" y="68" font-family="Times New Roman,serif" font-size="23.3" font-weight="bold" fill="#000">O</text>
+  <text x="171" y="145" font-family="Times New Roman,serif" font-size="40.1" font-weight="bold" font-style="italic" fill="#000">&#945;</text>
+  <text x="96" y="254" font-family="Times New Roman,serif" font-size="30.9" font-weight="bold" font-style="italic" fill="#000">x</text>
+  <text x="148" y="257" font-family="Times New Roman,serif" font-size="36.4" font-weight="bold" font-style="italic" fill="#000">&#947;</text>
+  <text x="411" y="258" font-family="Times New Roman,serif" font-size="31.3" font-weight="bold" font-style="italic" fill="#000">&#946;</text>
+  <text x="460" y="251" font-family="Times New Roman,serif" font-size="33.4" font-weight="bold" fill="#000">150</text>
+  <text x="512" y="240" font-family="Times New Roman,serif" font-size="21.7" font-weight="bold" fill="#000">O</text>
+</svg>

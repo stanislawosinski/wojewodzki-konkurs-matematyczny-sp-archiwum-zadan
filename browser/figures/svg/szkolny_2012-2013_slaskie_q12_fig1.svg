@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="699" height="273" viewBox="0 0 699 273">
+  <rect width="699" height="273" fill="#fff"/>
+
+  <!-- the straight line and the zigzag transversal crossing it -->
+  <g fill="none" stroke="#000" stroke-width="2">
+    <line x1="10" y1="146.5" x2="689" y2="146.5"/>
+    <path d="M 70.47 146.5 L 188.78 10.37 L 295.73 259.3 L 585.5 22.75 L 585.5 146.5"/>
+  </g>
+
+  <!-- angle arcs: every one is r~43 and, except at the right angle, drawn off-centre from its vertex -->
+  <g fill="none" stroke="#000" stroke-width="1">
+    <path d="M 111.12 99.72 A 42.24 42.24 0 0 1 133.16 146.50"/>
+    <path d="M 145.83 59.80 A 43.97 43.97 0 0 0 213.42 67.72"/>
+    <path d="M 272.36 204.91 A 44.38 44.38 0 0 1 342.75 220.91"/>
+    <path d="M 526.85 70.62 A 43.24 43.24 0 0 0 585.50 90.37"/>
+    <path d="M 585.43 103.86 A 43.45 43.45 0 0 0 541.98 147.31"/>
+  </g>
+  <circle cx="567.5" cy="131" r="2.75" fill="#000"/>
+
+  <!-- angle labels -->
+  <text x="175.5" y="66.5" font-family="Helvetica,Arial,sans-serif" font-weight="bold" font-size="32" text-anchor="middle" fill="#000">60</text>
+  <text x="196" y="50" font-family="Helvetica,Arial,sans-serif" font-weight="bold" font-size="16.7" text-anchor="middle" fill="#000">o</text>
+  <text x="304.5" y="236" font-family="Helvetica,Arial,sans-serif" font-weight="bold" font-size="32" text-anchor="middle" fill="#000">70</text>
+  <text x="325.5" y="219" font-family="Helvetica,Arial,sans-serif" font-weight="bold" font-size="16.7" text-anchor="middle" fill="#000">o</text>
+  <text x="556.5" y="82" font-family="Helvetica,Arial,sans-serif" font-weight="bold" font-size="32" text-anchor="middle" fill="#000">50</text>
+  <text x="577.5" y="66" font-family="Helvetica,Arial,sans-serif" font-weight="bold" font-size="16.7" text-anchor="middle" fill="#000">o</text>
+  <text x="106" y="142.5" font-family="Times New Roman,serif" font-style="italic" font-weight="bold" font-size="45" text-anchor="middle" fill="#000">&#945;</text>
+</svg>

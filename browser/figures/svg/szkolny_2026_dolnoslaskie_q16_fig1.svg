@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="440" viewBox="0 0 640 440">
+<rect width="640" height="440" fill="#fff"/>
+
+<!-- right-hand face, the only shaded one -->
+<path d="M 529.50 112.50 L 596.05 58.24 L 596.13 353.64 L 529.50 411.49 Z" fill="#d9d9d9" stroke="#000" stroke-width="4"/>
+<g fill="none" stroke="#000" stroke-width="4">
+
+<!-- top face -->
+<path d="M 26.50 112.49 L 93.07 58.23 L 596.05 58.24 L 529.50 112.50"/>
+
+<!-- front face and the two cuts splitting it into three slabs -->
+<path d="M 26.50 112.49 L 529.50 112.50 L 529.50 411.49 L 26.50 411.49 Z"/>
+<path d="M 193.72 112.49 L 194.08 411.49"/>
+<path d="M 361.50 112.49 L 361.50 411.49"/>
+<path d="M 193.72 112.49 L 260.70 58.23"/>
+<path d="M 361.50 112.49 L 428.36 58.23"/>
+</g>
+</svg>
