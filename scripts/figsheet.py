@@ -60,9 +60,9 @@ for svg in sorted(glob.glob(os.path.join(SVGS, '*.svg'))):
 items.sort()
 SCALE = .75
 rows = [f'''<section data-name="{name}" data-hash="{qhash.get(name, '')}" data-w={w} data-h={h}>
-<h2>{i}. {html.escape(name)} <a class=h href="../browser/index.html#inc={qhash.get(name, '')}" target=_blank>{qhash.get(name, '?')}</a> <span class=s>match@4px {s:.2f}</span> <label class=ok><input type=checkbox> ok</label> <button class=cp hidden>copy JSON</button> <span class=n></span></h2>
+<h2>{i}. {html.escape(name)} <a class=h href="../browser/index.html#inc={qhash.get(name, '')}" target=_blank>{qhash.get(name, '?')}</a> <span class=s>match@4px {s:.2f}</span> <label class=ok><input type=checkbox> ok</label> <label class=xl><input type=checkbox> overlay</label> <button class=cp hidden>copy JSON</button> <span class=n></span></h2>
 <div class=p><figure><figcaption>original {w}&times;{h}</figcaption><div class=ov><img src="../browser/figures/{name}.png" width={round(w * SCALE)}></div></figure>
-<figure><figcaption>redraw</figcaption><div class=ov><img src="../browser/figures/svg/{name}.svg" width={round(w * SCALE)}></div></figure></div></section>'''
+<figure><figcaption>redraw</figcaption><div class=ov><img src="../browser/figures/svg/{name}.svg" width={round(w * SCALE)}><img class=x src="../browser/figures/{name}.png" width={round(w * SCALE)}></div></figure></div></section>'''
         for i, (s, name, w, h) in enumerate(items, 1)]
 
 CSS = '''<style>
@@ -80,6 +80,10 @@ img{background:#fff;display:block}
 .b>i{position:absolute;top:0;left:0;background:#e33;color:#fff;font:10px/1 system-ui;padding:2px 3px;font-style:normal}
 .n{color:#e33;font-weight:400} button{font:11px system-ui;cursor:pointer}
 .ok{color:#2a2;font-weight:400;cursor:pointer;user-select:none} .ok input{vertical-align:-1px}
+/* blink comparator: the scan sits exactly on the redraw, so toggling it makes
+   a mismatch jump. Opaque on purpose — a blend is harder to read than a flip. */
+.xl{color:#66c;font-weight:400;cursor:pointer;user-select:none} .xl input{vertical-align:-1px}
+.x{position:absolute;left:0;top:0;display:none} section.xray .x{display:block}
 section.done{opacity:.4}          /* still there to re-check, just out of the way */
 #bar{position:fixed;right:1rem;bottom:1rem;background:#fff;border:1px solid #ccc;border-radius:4px;padding:.5rem;box-shadow:0 1px 6px #0002}
 #bar button{display:block;width:100%;margin-top:.3rem}
@@ -144,6 +148,10 @@ for (const sec of all()) {
     sec.classList.toggle('done', cb.checked)
     saveok()
   }
+
+  // view-only, so not persisted — it is meant to be flipped, not left on
+  const xb = sec.querySelector('.xl input')
+  xb.onchange = () => sec.classList.toggle('xray', xb.checked)
   for (const ov of sec.querySelectorAll('.ov')) ov.onmousedown = e => {
     if (e.button) return
     e.preventDefault()                            // kills the browser's native image drag

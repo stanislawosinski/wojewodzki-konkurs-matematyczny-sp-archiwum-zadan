@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="248" height="300" viewBox="0 0 248 300">
+  <rect width="248" height="300" fill="#fff"/>
+
+  <!-- cube net: six 61px cells, cols at x=38/99/160/221, rows at y=23/84/145/206/267 -->
+  <g fill="#f5eae5">
+    <rect x="160" y="23" width="61" height="61"/>
+    <rect x="38" y="84" width="183" height="61"/>
+    <rect x="99" y="145" width="61" height="122"/>
+  </g>
+  <g fill="none" stroke="#993300" stroke-width="2">
+    <path d="M 38 84 L 38 145"/>
+    <path d="M 99 84 L 99 267"/>
+    <path d="M 160 23 L 160 267"/>
+    <path d="M 221 23 L 221 145"/>
+    <path d="M 160 23 L 221 23"/>
+    <path d="M 38 84 L 221 84"/>
+    <path d="M 38 145 L 221 145"/>
+    <path d="M 99 206 L 160 206"/>
+    <path d="M 99 267 L 160 267"/>
+  </g>
+
+  <g fill="#000" font-family="Helvetica,Arial,sans-serif">
+    <text x="183" y="64" font-family="Helvetica,Arial,sans-serif" font-size="28.41">d</text>
+    <text x="61.5" y="124" font-family="Helvetica,Arial,sans-serif" font-size="29.61">a</text>
+    <text x="123.5" y="122" font-family="Helvetica,Arial,sans-serif" font-size="27.06">b</text>
+    <text x="183" y="122" font-family="Helvetica,Arial,sans-serif" font-size="26.58">c</text>
+    <text x="124.5" y="184" font-family="Helvetica,Arial,sans-serif" font-size="29.7">f</text>
+    <text x="120" y="245" font-family="Helvetica,Arial,sans-serif" font-size="26.58">e</text>
+  </g>
+
+  <!-- page rule caught by the crop, at the right edge of the scan -->
+  <rect x="236" y="0" width="2" height="300" fill="#000"/>
+</svg>
