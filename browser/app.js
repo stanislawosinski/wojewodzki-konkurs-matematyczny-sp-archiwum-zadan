@@ -259,9 +259,8 @@ function verifBadge(q, aiCount) {
     }[q.suspect_verdict] || { cls: 'suspect', text: 'Klucz podejrzany — możliwy błąd w kluczu' };
     return { ...b, reason: q.suspect_reason };
   }
-  if (!hasKey) return m.answer == null ? null
-    : aiCount > 1 ? { cls: 'warn', text: 'Modele AI niezgodne (brak klucza)' }
-    : { cls: 'ok', text: 'Potwierdzone przez AI (brak klucza)' };
+  // no key → the reveal's "Brak klucza" note states the status; no green "confirmed" badge (nothing to confirm against), only flag genuine AI disagreement
+  if (!hasKey) return aiCount > 1 ? { cls: 'warn', text: 'Modele AI niezgodne' } : null;
   if (aiCount > 1) return { cls: 'warn', text: 'Modele AI niezgodne' };      // key + ≥2 differing AI answers
   if (aiCount === 1) return { cls: 'warn', text: 'niezgodne z kluczem' };    // one AI answer differs from key
   if (m.agrees === true) return { cls: 'ok', text: 'zgodne z kluczem' };     // AI matched key, nothing to show
@@ -351,18 +350,18 @@ function renderQuestion(q, seq) {
   }
   const sol = q.answer && q.answer.solution_html;
   const ai = showAI ? aiAnswers(q) : [], badge = showAI ? verifBadge(q, ai.length) : null; // no AI content unless enabled
-  if (correct || sol || ai.length || badge) {
-    parts.push('<details class="reveal"><summary title="Pokaż odpowiedź"><span class="eye">👁</span></summary>');
-    if (correct) parts.push(`<div class="answer">Odpowiedź: <b>${correct}</b></div>`);
-    if (sol) parts.push(`<div class="answer solution">${sol}</div>`);                     // key's derivation kept with its answer
-    if (badge) {                                                                          // AI section: 2rem gap divides it from the key content above
-      parts.push(`<p class="verif">Weryfikacja AI: <b class="${badge.cls}">${esc(badge.text)}</b></p>`);
-      if (badge.reason) parts.push(`<p class="verif-reason">${esc(badge.reason)}</p>`);   // AI's justification for questioning/confirming the key
-    }
-    for (const x of ai) parts.push(`<div class="answer ai">${aiLine(x)}</div>`);
-    if (ai.length === 1 && ai[0].sol) parts.push(`<div class="answer solution ai-sol">${ai[0].sol}</div>`); // sole AI answer → show its reasoning
-    parts.push('</details>');
+  // the eye is always shown; no-key questions state "Brak klucza" (AI answers, if enabled, still appear below)
+  parts.push('<details class="reveal"><summary title="Pokaż odpowiedź"><span class="eye">👁</span></summary>');
+  if (correct) parts.push(`<div class="answer">Odpowiedź: <b>${correct}</b></div>`);
+  if (sol) parts.push(`<div class="answer solution">${sol}</div>`);                       // key's derivation kept with its answer
+  if (!correct && !sol) parts.push('<div class="answer nokey">Brak klucza</div>');       // no official key → always state it
+  if (badge) {                                                                            // AI section: 2rem gap divides it from the key content above
+    parts.push(`<p class="verif">Weryfikacja AI: <b class="${badge.cls}">${esc(badge.text)}</b></p>`);
+    if (badge.reason) parts.push(`<p class="verif-reason">${esc(badge.reason)}</p>`);     // AI's justification for questioning/confirming the key
   }
+  for (const x of ai) parts.push(`<div class="answer ai">${aiLine(x)}</div>`);
+  if (ai.length === 1 && ai[0].sol) parts.push(`<div class="answer solution ai-sol">${ai[0].sol}</div>`); // sole AI answer → show its reasoning
+  parts.push('</details>');
   parts.push('</div>'); // /.qbody
   parts.push(`<div class="scratch" aria-hidden="true">${KRATKA_SVG}</div>`); // print brudnopis filler (grows to fill the reserved page space; carries the 5 mm kratka)
   parts.push('</article>');

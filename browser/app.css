@@ -200,6 +200,7 @@ body.brudnopis-off .brudtoggle{display:none} /* global brudnopis wyłączony →
 .svgtoggle:hover{border-color:#888;color:#222}
 .svgtoggle.on{border-color:#8c8;background:#eef8ee;color:#161}
 .answer{margin-top:.5rem;color:#161}
+.answer.nokey{color:#888;font-style:italic} /* "Brak klucza" — a status note, not an answer */
 .answer.ai{margin-top:1rem;font-size:.85rem;color:#333} /* AI's blind-solve answer — smaller grey, set off from the verdict above */
 .answer.solution.ai-sol{font-size:.85rem;color:#333} /* AI's reasoning (sole AI answer) — same smaller grey */
 /* AI section: opens with a 2rem gap that divides it from the key content above */
