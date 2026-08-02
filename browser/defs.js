@@ -141,6 +141,10 @@ const esc = s =>
     .replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;");
 
+// answer.correct is either plain text (escape it — answers like "a < b" would otherwise
+// eat the rest of the line as a bogus tag) or, by schema, raw MathML (pass through)
+const answerHtml = v => (String(v).startsWith("<math") ? v : esc(v));
+
 const idList = s => (s.match(/[0-9a-f]{8}/gi) || []).map(x => x.toLowerCase());
 
 const scratchGlyph = s => (s === "half" ? "½" : s === "full" ? "1" : "–");

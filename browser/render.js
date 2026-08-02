@@ -241,7 +241,7 @@ function renderKeyEntry(q, seq) {
     `<div class="kq"><span class="kn">Zadanie ${seq ?? q.number}.</span> <span class="hash">(${q.hash})</span>`
   ];
   if (correct) {
-    p.push(` <span class="ka">Odpowiedź: <b>${correct}</b></span>`);
+    p.push(` <span class="ka">Odpowiedź: <b>${answerHtml(correct)}</b></span>`);
   }
   if (badge) {
     p.push(
@@ -318,7 +318,7 @@ function choicesHtml(q, correct) {
   const parts = ['<ol class="choices">'];
   for (const c of q.choices) {
     parts.push(
-      `<li class="choice${c.label === correct ? " correct" : ""}" value="${esc(c.label)}"><span class="lbl">${esc(c.label)}.</span> ${c.html}</li>`
+      `<li class="choice${c.label === correct ? " correct" : ""}"><span class="lbl">${esc(c.label)}.</span> ${c.html}</li>`
     );
   }
   parts.push("</ol>");
@@ -338,7 +338,7 @@ function revealHtml(q) {
     '<details class="reveal"><summary title="Pokaż odpowiedź"><span class="eye">👁</span></summary>'
   ];
   if (correct) {
-    parts.push(`<div class="answer">Odpowiedź: <b>${correct}</b></div>`);
+    parts.push(`<div class="answer">Odpowiedź: <b>${answerHtml(correct)}</b></div>`);
   }
   if (sol) {
     parts.push(`<div class="answer solution">${sol}</div>`); // key's derivation kept with its answer
