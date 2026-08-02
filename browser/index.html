@@ -1,124 +1,162 @@
 <!doctype html>
-<html lang="pl"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Wszystkie zadania</title>
-<link rel="stylesheet" href="app.css">
-<script defer src="facets.js"></script>
-<script defer src="catalog.js"></script>
-<script defer src="defs.js"></script>
-<script defer src="render.js"></script>
-<script defer src="state.js"></script>
-<script defer src="app.js"></script>
-</head>
-<body>
-<div class="topbar">
-<div class="tb-side">
-<button type="button" class="clearbtn" id="clearFacets" hidden>Wyczyść filtry</button>
-<button type="button" class="clearbtn" id="clearFilters" hidden>Wyczyść wszystko</button>
-</div>
-<div class="tb-main">
-<button type="button" class="clearbtn" id="clearSelBar" hidden>Wyczyść zaznaczenie</button>
-<nav class="pager" hidden>
-<button type="button" class="prev">‹ Poprzednia</button>
-<span class="pageinfo"></span>
-<button type="button" class="next">Następna ›</button>
-</nav>
-<span id="setsummary">Wczytywanie…</span>
-<span class="tb-right">
-<button type="button" id="printBtn" title="Drukuj">🖨 Drukuj</button>
-<span class="settings">
-<button type="button" id="settingsBtn" title="Ustawienia" aria-label="Ustawienia">⚙</button>
-<div class="settings-pop" id="settingsPop" hidden>
-<section><h4>Lista zadań</h4>
-<div class="optgroup">
-<p class="sublabel">Pokaż dodatkowo:</p>
-<label><input type="checkbox" id="metaTitle"> Tytuł arkusza</label>
-<label><input type="checkbox" id="metaWoj" checked> Województwo</label>
-<label><input type="checkbox" id="metaRok" checked> Rok</label>
-<label><input type="checkbox" id="metaEtap" checked> Etap</label>
-<label><input type="checkbox" id="metaTopics" checked> Tematy</label>
-</div>
-<h4>Eksperymenty</h4>
-<div class="optgroup">
-<label><input type="checkbox" id="showAI"> Pokaż weryfikację AI</label>
-<p class="hint">ocena odpowiedzi przez AI i status klucza; dodaje filtr „Weryfikacja”</p>
-</div>
-<div class="optgroup">
-<p class="sublabel">Rysunki wektorowe:</p>
-<label><input type="radio" name="figFormat" value="bitmap" checked> Priorytet rastrowy (PNG)</label>
-<p class="hint">Rysunki wycięte z oryginalnych arkuszy zadań</p>
-<label><input type="radio" name="figFormat" value="vector"> Priorytet wektorowy (SVG)</label>
-<p class="hint">Rysunki narysowane przez AI na podstawie rysunków w arkuszach zadań, mogą zawierać błędy</p>
-</div>
-</section>
-<section><h4>Wydruk</h4>
-<div class="optgroup">
-<p class="sublabel">Pokaż dodatkowo:</p>
-<label><input type="checkbox" id="printTitle"> Tytuł arkusza</label>
-<label><input type="checkbox" id="printWoj" checked> Województwo</label>
-<label><input type="checkbox" id="printRok" checked> Rok</label>
-<label><input type="checkbox" id="printEtap" checked> Etap</label>
-<label><input type="checkbox" id="printTopics"> Tematy</label>
-</div>
-<div class="optgroup">
-<p class="sublabel">Brudnopis:</p>
-<label><input type="radio" name="pageMode" value="auto" checked> Automatyczny</label>
-<p class="hint">pół strony na zadania zamknięte, cała strona na pozostałe</p>
-<label><input type="radio" name="pageMode" value="half"> Pół strony</label>
-<p class="hint">pół strony na każde zadanie</p>
-<label><input type="radio" name="pageMode" value="full"> Cała strona</label>
-<p class="hint">jedno zadanie na stronę</p>
-<label><input type="radio" name="pageMode" value="off"> Wyłączony</label>
-<p class="hint">druk ciągły</p>
-</div>
-<div class="optgroup">
-<p class="sublabel">Brudnopis w kratkę:</p>
-<label><input type="radio" name="kratka" value="always"> Zawsze</label>
-<label><input type="radio" name="kratka" value="geom"> Tylko w geometrii</label>
-<label><input type="radio" name="kratka" value="never" checked> Nigdy</label>
-</div>
-<div class="optgroup">
-<label><input type="checkbox" id="answerKey" checked> Klucz odpowiedzi na końcu</label>
-<p class="hint">na osobnej kartce</p>
-</div>
-</section>
-</div>
-</span>
-</span>
-</div>
-</div>
-<div class="layout">
-<aside class="sidebar">
-<div class="idbox">
-<label>Pokaż tylko id:
-<!-- biome-ignore lint/a11y/noAutofocus: deliberate — the id box is the primary worksheet-building input -->
-<textarea id="include" rows="2" placeholder="hash, hash, …" autofocus></textarea>
-</label>
-<div class="selrow">
-<button type="button" id="useSel" title="Wstaw id zaznaczonych zadań">Zaznaczone ↑</button>
-<button type="button" id="copySel" title="Kopiuj zawartość">Skopiuj</button>
-<button type="button" id="clearSel" title="Wyczyść pole id">Wyczyść</button>
-</div>
-</div>
-<div id="facets"></div>
-<label>Szukaj:
-<span class="searchwrap">
-<input type="text" id="search" placeholder="słowo w treści…">
-<button type="button" id="clearSearch" title="Wyczyść wyszukiwanie" aria-label="Wyczyść wyszukiwanie" hidden>×</button>
-</span>
-</label>
-<label>Pomiń id: <input type="text" id="exclude" placeholder="hash, hash, …"></label>
-</aside>
-<main class="content">
-<!-- biome-ignore lint/a11y/noNoninteractiveTabindex: the title is click/keyboard-editable (contentEditable on activation) -->
-<h1 class="sheet-title" id="sheetTitle" title="Kliknij, aby zmienić tytuł" tabindex="0">Wszystkie zadania</h1>
-<div id="qlist"></div>
-<section id="answerkey"></section>
-<nav class="pager" hidden>
-<button type="button" class="prev">‹ Poprzednia</button>
-<span class="pageinfo"></span>
-<button type="button" class="next">Następna ›</button>
-</nav>
-</main>
-</div>
-</body></html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Wszystkie zadania</title>
+    <link rel="stylesheet" href="app.css">
+    <script defer src="facets.js"></script>
+    <script defer src="catalog.js"></script>
+    <script defer src="defs.js"></script>
+    <script defer src="render.js"></script>
+    <script defer src="state.js"></script>
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <div class="topbar">
+      <div class="tb-side">
+        <button type="button" class="clearbtn" id="clearFacets" hidden>Wyczyść filtry</button>
+        <button type="button" class="clearbtn" id="clearFilters" hidden>Wyczyść wszystko</button>
+      </div>
+      <div class="tb-main">
+        <button type="button" class="clearbtn" id="clearSelBar" hidden>Wyczyść zaznaczenie</button>
+        <nav class="pager" hidden>
+          <button type="button" class="prev">‹ Poprzednia</button>
+          <span class="pageinfo"></span>
+          <button type="button" class="next">Następna ›</button>
+        </nav>
+        <span id="setsummary">Wczytywanie…</span>
+        <span class="tb-right">
+          <button type="button" id="printBtn" title="Drukuj">🖨 Drukuj</button>
+          <span class="settings">
+            <button type="button" id="settingsBtn" title="Ustawienia" aria-label="Ustawienia">
+              ⚙
+            </button>
+            <div class="settings-pop" id="settingsPop" hidden>
+              <section>
+                <h4>Lista zadań</h4>
+                <div class="optgroup">
+                  <p class="sublabel">Pokaż dodatkowo:</p>
+                  <label><input type="checkbox" id="metaTitle"> Tytuł arkusza</label>
+                  <label><input type="checkbox" id="metaWoj" checked> Województwo</label>
+                  <label><input type="checkbox" id="metaRok" checked> Rok</label>
+                  <label><input type="checkbox" id="metaEtap" checked> Etap</label>
+                  <label><input type="checkbox" id="metaTopics" checked> Tematy</label>
+                </div>
+                <h4>Eksperymenty</h4>
+                <div class="optgroup">
+                  <label><input type="checkbox" id="showAI"> Pokaż weryfikację AI</label>
+                  <p class="hint">
+                    ocena odpowiedzi przez AI i status klucza; dodaje filtr „Weryfikacja”
+                  </p>
+                </div>
+                <div class="optgroup">
+                  <p class="sublabel">Rysunki wektorowe:</p>
+                  <label
+                    ><input type="radio" name="figFormat" value="bitmap" checked>
+                    Priorytet rastrowy (PNG)</label
+                  >
+                  <p class="hint">Rysunki wycięte z oryginalnych arkuszy zadań</p>
+                  <label
+                    ><input type="radio" name="figFormat" value="vector">
+                    Priorytet wektorowy (SVG)</label
+                  >
+                  <p class="hint">
+                    Rysunki narysowane przez AI na podstawie rysunków w arkuszach zadań, mogą
+                    zawierać błędy
+                  </p>
+                </div>
+              </section>
+              <section>
+                <h4>Wydruk</h4>
+                <div class="optgroup">
+                  <p class="sublabel">Pokaż dodatkowo:</p>
+                  <label><input type="checkbox" id="printTitle"> Tytuł arkusza</label>
+                  <label><input type="checkbox" id="printWoj" checked> Województwo</label>
+                  <label><input type="checkbox" id="printRok" checked> Rok</label>
+                  <label><input type="checkbox" id="printEtap" checked> Etap</label>
+                  <label><input type="checkbox" id="printTopics"> Tematy</label>
+                </div>
+                <div class="optgroup">
+                  <p class="sublabel">Brudnopis:</p>
+                  <label
+                    ><input type="radio" name="pageMode" value="auto" checked>
+                    Automatyczny</label
+                  >
+                  <p class="hint">pół strony na zadania zamknięte, cała strona na pozostałe</p>
+                  <label><input type="radio" name="pageMode" value="half"> Pół strony</label>
+                  <p class="hint">pół strony na każde zadanie</p>
+                  <label><input type="radio" name="pageMode" value="full"> Cała strona</label>
+                  <p class="hint">jedno zadanie na stronę</p>
+                  <label><input type="radio" name="pageMode" value="off"> Wyłączony</label>
+                  <p class="hint">druk ciągły</p>
+                </div>
+                <div class="optgroup">
+                  <p class="sublabel">Brudnopis w kratkę:</p>
+                  <label><input type="radio" name="kratka" value="always"> Zawsze</label>
+                  <label><input type="radio" name="kratka" value="geom"> Tylko w geometrii</label>
+                  <label><input type="radio" name="kratka" value="never" checked> Nigdy</label>
+                </div>
+                <div class="optgroup">
+                  <label
+                    ><input type="checkbox" id="answerKey" checked>
+                    Klucz odpowiedzi na końcu</label
+                  >
+                  <p class="hint">na osobnej kartce</p>
+                </div>
+              </section>
+            </div>
+          </span>
+        </span>
+      </div>
+    </div>
+    <div class="layout">
+      <aside class="sidebar">
+        <div class="idbox">
+          <label
+            >Pokaż tylko id:
+            <!-- biome-ignore lint/a11y/noAutofocus: deliberate — the id box is the primary worksheet-building input -->
+            <textarea id="include" rows="2" placeholder="hash, hash, …" autofocus></textarea>
+          </label>
+          <div class="selrow">
+            <button type="button" id="useSel" title="Wstaw id zaznaczonych zadań">
+              Zaznaczone ↑
+            </button>
+            <button type="button" id="copySel" title="Kopiuj zawartość">Skopiuj</button>
+            <button type="button" id="clearSel" title="Wyczyść pole id">Wyczyść</button>
+          </div>
+        </div>
+        <div id="facets"></div>
+        <label
+          >Szukaj:
+          <span class="searchwrap">
+            <input type="text" id="search" placeholder="słowo w treści…">
+            <button
+              type="button"
+              id="clearSearch"
+              title="Wyczyść wyszukiwanie"
+              aria-label="Wyczyść wyszukiwanie"
+              hidden
+            >
+              ×
+            </button>
+          </span>
+        </label>
+        <label>Pomiń id: <input type="text" id="exclude" placeholder="hash, hash, …"></label>
+      </aside>
+      <main class="content">
+        <!-- biome-ignore lint/a11y/noNoninteractiveTabindex: the title is click/keyboard-editable (contentEditable on activation) -->
+        <h1 class="sheet-title" id="sheetTitle" title="Kliknij, aby zmienić tytuł" tabindex="0">
+          Wszystkie zadania
+        </h1>
+        <div id="qlist"></div>
+        <section id="answerkey"></section>
+        <nav class="pager" hidden>
+          <button type="button" class="prev">‹ Poprzednia</button>
+          <span class="pageinfo"></span>
+          <button type="button" class="next">Następna ›</button>
+        </nav>
+      </main>
+    </div>
+  </body>
+</html>
