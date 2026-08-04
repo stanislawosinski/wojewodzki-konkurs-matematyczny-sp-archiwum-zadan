@@ -4,6 +4,13 @@
 <path d="M179,28 L49,172 L179,172 Z" fill="rgb(62,62,62)"/>
 <path d="M577,174 L705,32 L704,225 L576,367 Z" fill="rgb(179,179,179)"/>
 <path d="M48,172 L575,174 L575,367 L48,367 Z" fill="rgb(165,165,165)"/>
+
+<!-- box edges, drawn last so the fills cannot swallow them -->
+<g fill="none" stroke="#000" stroke-width="2">
+<path d="M179,28 L48,172 L48,367 L575,367 L704,225 L705,32 Z"/>
+<path d="M48,172 L575,174 L705,32"/>
+<path d="M575,174 L575,367"/>
+</g>
 <text x="30" y="266" font-family="Helvetica,Arial,sans-serif" font-size="24" text-anchor="middle" transform="rotate(-90,30,266)">108 cm</text>
 <text x="326" y="406" font-family="Helvetica,Arial,sans-serif" font-size="28" text-anchor="middle">420 cm</text>
 <text x="672" y="308" font-family="Helvetica,Arial,sans-serif" font-size="24" text-anchor="middle" transform="rotate(-47.7,672,308)">120 cm</text>

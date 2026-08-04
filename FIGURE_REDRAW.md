@@ -202,6 +202,27 @@ Ordered by how often they actually bit:
    advances differ from the scan's, so a bitmap-measured bar lands beside the
    radical it belongs to — it scores slightly *better* and is plainly wrong.
 
+   **And the bar must start *on* the radical's tip, not near it.** Four figures
+   shipped with theirs 3.4–4.1px to the right, which reads as a dash floating
+   above the radicand. Every one of them had the `√` inside a multi-glyph run
+   (`>5√3<`, `>2√5 cm<`), where the tip's x depends on the advance widths of
+   the glyphs before it — guessing that is what put the bar 4px out. Two fixes,
+   either works: give the `√` its own `<text>` at a known x, or compute the tip
+   as `x + Σ advance(preceding glyphs)·fs + xMax(√)·fs` from the font file.
+   Overlap the bar onto the tip by ~0.5px so they fuse.
+
+   **Measure it in the real font, not in MuPDF.** MuPDF substitutes its base-14
+   Times/Helvetica, whose `√` outline is *not* the outline the browser draws;
+   across eleven bars the two tips disagreed by −3.4 to +6.8px. The redraws are
+   looked at in a browser (the review sheet is `<img src=…svg>`, as is the app),
+   so the browser's font is the one that matters. Take the tip from
+   `/System/Library/Fonts/Supplemental/Times New Roman*.ttf` (or `Helvetica.ttc`)
+   for whatever `font-family`/`font-weight` that `<text>` actually uses.
+
+   match@4px cannot see any of this — the four figures scored 0.87–1.00 with
+   the bar detached and moved by ≤0.001 when it was fixed. Check it by eye in a
+   zoomed render, never by score.
+
 8. **Charts and tables**: gridlines present but tick labels missing, or axis
    numbers pulled from the question text instead of read off the picture.
 
