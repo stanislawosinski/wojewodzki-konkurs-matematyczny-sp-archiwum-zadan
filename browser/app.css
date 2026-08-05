@@ -1,5 +1,23 @@
 :root {
   color-scheme: light;
+
+  /* One place to retune every grey in the chrome. --tint-h/--tint-s are the two knobs: set
+     --tint-s to 0% for neutral greys, or rotate --tint-h to recolor the whole UI. Each token is
+     that shared hue+saturation at its own lightness (listed light → dark). */
+  --tint-h: 210;
+  --tint-s: 55%;
+  --surface: hsl(var(--tint-h) var(--tint-s) 97.5%); /* popups, facet fills, tag pills */
+  --surface-panel: hsl(var(--tint-h) var(--tint-s) 98.5%); /* sidebar (lighter than --surface) */
+  --surface-dim: hsl(var(--tint-h) var(--tint-s) 96.5%); /* topbar */
+  --btn: hsl(var(--tint-h) var(--tint-s) 94.5%); /* button resting bg */
+  --line-faint: hsl(var(--tint-h) var(--tint-s) 92%); /* light dividers */
+  --btn-hover: hsl(var(--tint-h) var(--tint-s) 91%); /* button hover bg */
+  --hairline: hsl(var(--tint-h) var(--tint-s) 90.5%); /* sidebar right hairline */
+  --border: hsl(var(--tint-h) var(--tint-s) 86.5%); /* section / topbar borders */
+  --border-mid: hsl(var(--tint-h) var(--tint-s) 81.5%); /* input borders */
+  --scrollbar: hsl(var(--tint-h) calc(var(--tint-s) - 20%) 81.5%); /* scrollbar thumb (less blue) */
+  --border-strong: hsl(var(--tint-h) var(--tint-s) 75%); /* input / select borders, edit outline */
+  --border-strong-hover: hsl(var(--tint-h) var(--tint-s) 73%); /* button hover border */
 }
 body {
   font-family: ui-serif, "New York", "Iowan Old Style", Georgia, "Times New Roman", serif;
@@ -23,8 +41,8 @@ h1 {
   position: sticky;
   top: 0;
   z-index: 5;
-  background: #f7f7f7;
-  border-bottom: 1px solid #ddd;
+  background: var(--surface-dim);
+  border-bottom: 1px solid var(--border);
   font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
   font-size: 0.8rem;
   color: #555;
@@ -59,18 +77,22 @@ h1 {
   white-space: nowrap;
 }
 .clearbtn,
-.pager button {
+.pager button,
+.selrow button,
+#printBtn {
   color: #444;
   background: #fff;
-  border: 1px solid #ccc;
+  border: 1px solid var(--border-mid);
   border-radius: 4px;
   padding: 0.12rem 0.45rem;
   line-height: 1.4;
-} /* subtle button; shorter than #printBtn so the bar keeps its height */
+} /* white button on the tinted chrome; .clearbtn/.pager stay shorter than #printBtn (its own padding wins) so the bar keeps its height */
 .clearbtn:hover,
-.pager button:hover:not(:disabled) {
-  background: #f0f0f0;
-  border-color: #aaa;
+.pager button:hover:not(:disabled),
+.selrow button:hover,
+#printBtn:hover {
+  background: var(--btn);
+  border-color: var(--border-strong-hover);
 }
 .clearbtn[hidden] {
   display: none;
@@ -156,7 +178,7 @@ h1 {
   right: 0;
   z-index: 20;
   display: flex;
-  background: #fafafa;
+  background: var(--surface);
   border: 1px solid #e2e2e2;
   border-radius: 5px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -177,7 +199,7 @@ h1 {
   right: 0.55rem;
   width: 8px;
   height: 8px;
-  background: #fafafa;
+  background: var(--surface);
   border-left: 1px solid #e2e2e2;
   border-top: 1px solid #e2e2e2;
   transform: rotate(45deg);
@@ -186,7 +208,7 @@ h1 {
   flex-basis: 17.5rem;
   margin-left: 1.2rem;
   padding-left: 1.2rem;
-  border-left: 1px solid #ddd;
+  border-left: 1px solid var(--border);
 } /* Wydruk: wider than Lista */
 .settings-pop .optgroup {
   margin-bottom: 1.25rem;
@@ -233,14 +255,29 @@ h1 {
   top: 2.6rem;
   align-self: flex-start;
   font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
-  max-height: calc(100vh - 3.6rem);
+
+  /* fill from top:2.6rem down to the viewport's bottom edge and scroll internally, so the bottom
+     inputs stay reachable independently of the (much taller) question list. content-box, so the
+     content height also subtracts the 1rem+1.25rem vertical padding: 2.6 + 2.25 = 4.85rem */
+  height: calc(100vh - 4.85rem);
   overflow: auto;
   scrollbar-width: thin;
-  scrollbar-color: #ccc transparent;
+  scrollbar-color: var(--scrollbar) transparent;
   display: flex;
   flex-direction: column;
   gap: 1.5em;
-  padding-right: 1rem;
+  background: var(--surface-panel);
+
+  /* pull the panel up 2rem (the .layout top padding) so the grey meets the topbar's bottom border,
+     and left to the page edge (cancel .layout's 1.5rem left padding, re-add it inside so the labels
+     don't move); the small top padding leaves only a modest gap above the first control */
+  margin: -2rem 0 0 -1.5rem;
+  padding: 1rem 0.85rem 1.25rem 1.25rem;
+  border-right: 8px solid var(--surface-panel);
+
+  /* faint hairline at the panel's right edge (box-shadow so it sits just past the grey margin) */
+  box-shadow: 1px 0 0 var(--hairline);
+  border-radius: 0 0 6px 0;
 }
 .content {
   flex: 1;
@@ -257,7 +294,7 @@ h1 {
 }
 .sheet-title[contenteditable="true"] {
   cursor: text;
-  outline: 1px dashed #bbb;
+  outline: 1px dashed var(--border-strong);
   outline-offset: 2px;
 } /* edit-mode affordance */
 .hide-title .sheet-title {
@@ -313,12 +350,12 @@ select {
   .sidebar {
     flex-basis: auto;
     position: static;
-    max-height: none;
+    height: auto;
     overflow: visible;
     border-right: none;
-    border-bottom: 1px solid #ccc;
-    padding: 0 0 0.6rem;
-    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--border-mid);
+    padding: 0.6rem;
+    margin: 0 0 1rem;
   }
   .content {
     max-width: none;
@@ -337,7 +374,7 @@ select {
   position: relative;
   margin: 1.6rem 0;
   padding-bottom: 1rem;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid var(--line-faint);
 }
 .q:first-child {
   margin-top: 0;
@@ -386,7 +423,7 @@ select {
 }
 .qmeta .tag.ctx {
   color: #aaa;
-  background: #fbfbfb;
+  background: var(--surface);
 } /* region/year/stage: lighter text + fainter bg than topic tags */
 .hide-region .qmeta .region,
 .hide-year .qmeta .year,
@@ -446,7 +483,7 @@ select {
   justify-content: center;
   font-size: 0.8rem;
   line-height: 1;
-  border: 1px solid #bbb;
+  border: 1px solid var(--border-strong);
   border-radius: 3px;
   background: #fff;
   color: #555;
@@ -552,7 +589,7 @@ select {
   overflow: auto;
   scrollbar-gutter: stable;
   scrollbar-width: thin;
-  scrollbar-color: #ccc transparent;
+  scrollbar-color: var(--scrollbar) transparent;
 }
 .facet-list::-webkit-scrollbar,
 .sidebar::-webkit-scrollbar {
@@ -564,7 +601,7 @@ select {
 }
 .facet-list::-webkit-scrollbar-thumb,
 .sidebar::-webkit-scrollbar-thumb {
-  background: #ccc;
+  background: var(--scrollbar);
   border-radius: 6px;
 }
 .facet-cat {
@@ -616,7 +653,7 @@ select {
   font-size: 0.75rem;
   line-height: 1.4;
   color: #333;
-  background: #fafafa;
+  background: var(--surface);
   border: 1px solid #e2e2e2;
   border-radius: 5px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
@@ -634,7 +671,7 @@ select {
   left: 50%;
   width: 8px;
   height: 8px;
-  background: #fafafa;
+  background: var(--surface);
   border-left: 1px solid #e2e2e2;
   border-top: 1px solid #e2e2e2;
   transform: translateX(-50%) rotate(45deg);
@@ -727,7 +764,7 @@ select {
   margin: 0 0 0.35rem;
   padding: 0.2rem 0.4rem;
   font-size: 0.8rem;
-  border: 1px solid #ccc;
+  border: 1px solid var(--border-mid);
   border-radius: 4px;
 }
 /* search match: yellow ground + orange underline, weight unchanged so the row width doesn't jump */
@@ -814,7 +851,7 @@ math {
   align-items: center;
   justify-content: center;
   font-size: 0.8rem;
-  border: 1px solid #bbb;
+  border: 1px solid var(--border-strong);
   border-radius: 3px;
   background: #fff;
   color: #555;
@@ -853,7 +890,7 @@ math {
   justify-content: center;
   font-size: 0.8rem;
   line-height: 1;
-  border: 1px solid #bbb;
+  border: 1px solid var(--border-strong);
   border-radius: 3px;
   background: #fff;
   color: #555;
@@ -894,7 +931,7 @@ body.scratch-off .scratch-toggle {
   justify-content: center;
   font-size: 0.8rem;
   line-height: 1;
-  border: 1px solid #bbb;
+  border: 1px solid var(--border-strong);
   border-radius: 3px;
   background: #fff;
   color: #555;
@@ -964,7 +1001,7 @@ body.scratch-off .scratch-toggle {
   break-inside: avoid;
   margin: 0 0 0.5rem;
   padding-bottom: 0.4rem;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid var(--line-faint);
   font-size: 0.9rem;
 }
 .kq .kn {
@@ -1044,7 +1081,7 @@ body.scratch-off .scratch-toggle {
   .qmeta .tag.ctx {
     background: none;
     color: #bbb;
-  } /* override the faint on-screen #aaa/#fbfbfb for print */
+  } /* override the faint on-screen #aaa/var(--surface) for print */
   .hide-region .qmeta .region,
   .hide-year .qmeta .year,
   .hide-stage .qmeta .stage,
