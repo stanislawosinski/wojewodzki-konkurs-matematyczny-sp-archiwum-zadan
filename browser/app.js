@@ -70,7 +70,9 @@ function update() {
 
   // topic selected-count (independent of the tree's own search box, which only hides rows)
   const kTopics = selections.topic.size;
-  topicCountEl.textContent = kTopics ? `Zaznaczono ${kTopics} ${pluralTopics(kTopics)}` : "";
+  topicCountEl.innerHTML = kTopics
+    ? `Zaznaczono ${kTopics} ${pluralTopics(kTopics)} <button type="button" class="topic-clear">(wyczyść)</button>`
+    : "";
 
   const anyFacet = FACETS.some(f => selections[f.key].size);
   const active = useInc || excSet.size > 0 || terms.length > 0 || anyFacet;
@@ -112,6 +114,17 @@ function clearFacetSelections() {
     i.checked = false;
   });
   syncTopicParents(); // clear the derived parent checkboxes (checked/indeterminate) too
+}
+
+// Temat "(wyczyść)": drop just the topic selection (state + its checkboxes), push + refilter
+function clearTopicSelection() {
+  selections.topic.clear();
+  facetsEl.querySelectorAll('.facet[data-facet="topic"] .facet-opt input').forEach(i => {
+    i.checked = false;
+  });
+  syncTopicParents(); // clear the derived parent checkboxes too
+  writeUrl(true);
+  refilter(); // push, so Back restores the cleared topics
 }
 
 // reset every filter (facets + search + include/exclude); leaves the print selection alone
@@ -163,6 +176,12 @@ function wireFacets() {
       e.preventDefault();
       e.stopPropagation();
       showInfotip(icon, icon.dataset.info);
+      return;
+    }
+
+    // "(wyczyść)" next to the topic selected-count
+    if (e.target.closest(".topic-clear")) {
+      clearTopicSelection();
     }
   });
 

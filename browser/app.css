@@ -122,6 +122,9 @@ h1 {
   cursor: pointer;
   user-select: none;
 } /* click to copy the selected ids */
+.selcopy:hover {
+  text-decoration: underline;
+}
 /* "copied" popover: sits below the clicked element, 45deg arrow = a rotated square poking out the top */
 .copytip {
   position: fixed;
@@ -404,6 +407,9 @@ select {
   font: inherit;
   color: inherit;
 } /* the id link matches the surrounding (points, hash) text, not the mono answer-key style */
+.qid .hash:hover {
+  text-decoration: underline;
+}
 /* per-question meta tags, inline in the header and right-aligned: region, year, stage | topics; toggled by "Meta" */
 .qmeta {
   margin-left: auto;
@@ -778,6 +784,20 @@ select {
   margin-top: 0.35rem;
   font-size: 0.72rem;
   color: #888;
+}
+
+/* grey link-styled button; underline only on hover (matches the .hash/.selcopy copy links) */
+.topic-clear {
+  margin-left: 0.1rem;
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  color: #777;
+  cursor: pointer;
+}
+.topic-clear:hover {
+  text-decoration: underline;
 }
 .selrow {
   display: flex;
