@@ -61,21 +61,7 @@ const FACET_INFO = {
 };
 const FACETS = [
   { key: "topic", label: "Temat", values: q => q.topics || [] },
-  {
-    key: "form",
-    label: "Forma",
-    values: q => [q.type],
-    order: Object.keys(TYPE_LABELS),
-    labelFor: v => TYPE_LABELS[v] || v
-  },
   { key: "etap", label: "Etap", values: q => [q.stage], order: STAGES },
-  {
-    key: "school",
-    label: "Typ szkoły",
-    values: q => [q.school_type],
-    order: Object.keys(SCHOOL_LABELS),
-    labelFor: v => SCHOOL_LABELS[v] || v
-  },
   { key: "woj", label: "Województwo", values: q => [q.wojewodztwo] },
   { key: "year", label: "Rok", values: q => [q.school_year] },
   {
@@ -86,11 +72,18 @@ const FACETS = [
     labelFor: v => `${v}p`
   },
   {
-    key: "annul",
-    label: "Anulowane",
-    values: q => [q.annulled ? "tak" : "nie"],
-    order: ["nie", "tak"],
-    labelFor: v => (v === "tak" ? "Anulowane" : "Nie anulowane")
+    key: "form",
+    label: "Forma",
+    values: q => [q.type],
+    order: Object.keys(TYPE_LABELS),
+    labelFor: v => TYPE_LABELS[v] || v
+  },
+  {
+    key: "fig",
+    label: "Rysunek",
+    values: q => [q.figures?.length ? "z" : "bez"],
+    order: ["z", "bez"],
+    labelFor: v => (v === "z" ? "Z rysunkiem" : "Bez rysunku")
   },
   {
     key: "sol",
@@ -100,11 +93,18 @@ const FACETS = [
     labelFor: v => (v === "z" ? "Z rozwiązaniem" : "Bez rozwiązania")
   },
   {
-    key: "fig",
-    label: "Rysunek",
-    values: q => [q.figures?.length ? "z" : "bez"],
-    order: ["z", "bez"],
-    labelFor: v => (v === "z" ? "Z rysunkiem" : "Bez rysunku")
+    key: "annul",
+    label: "Anulowane",
+    values: q => [q.annulled ? "tak" : "nie"],
+    order: ["nie", "tak"],
+    labelFor: v => (v === "tak" ? "Anulowane" : "Nie anulowane")
+  },
+  {
+    key: "school",
+    label: "Typ szkoły",
+    values: q => [q.school_type],
+    order: Object.keys(SCHOOL_LABELS),
+    labelFor: v => SCHOOL_LABELS[v] || v
   },
 
   // verification status from the blind-solve pass (answer.model.agrees / corroborated + suspect flag) — last filter
