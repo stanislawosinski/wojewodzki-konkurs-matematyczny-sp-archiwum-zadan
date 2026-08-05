@@ -24,6 +24,10 @@ const search = $("search"),
   settingsPop = $("settingsPop");
 const pagers = [...document.querySelectorAll(".pager")];
 
+// built by buildTopicFacet (render.js) inside #facets, so they don't exist until init runs;
+// assigned in app.js init() after buildFacetUI — cross-file globals (no initializer → not useConst)
+let topicSearchEl, topicCountEl;
+
 // biome-ignore lint/style/useConst: DATA/INDEX/universe are reassigned by app.js init() — cross-file globals
 let DATA = [],
   byHash = {},
@@ -37,6 +41,10 @@ let page = 1;
 // biome-ignore lint/style/useConst: reassigned by app.js wireSettings() — cross-file globals
 let showAI = false,
   vectorPriority = false;
+// Temat facet match mode: false = OR (any selected topic), true = AND (all selected topics).
+// Shareable view state, so it round-trips through the URL hash (key "tmode"; absent = OR).
+// reassigned by app.js (mode toggle) and restoreTopicMode below — kept let, cross-file global
+let topicAnd = false;
 const selectedSet = new Set(); // hashes; lives outside the DOM — articles are destroyed on re-render
 const scratchOverrides = new Map(); // hash -> 'half' | 'full'; per-question brudnopis override (default not stored)
 const svgOverrides = new Map(); // hash -> 'png' | 'svg'; per-question figure format pin (default follows vectorPriority; cleared when the setting changes). Serialized to the hash so it survives reload/sharing.
@@ -201,6 +209,9 @@ function serialize() {
   if (titleOverride != null) {
     o.title = [titleOverride]; // only the edited title; auto/default aren't stored
   }
+  if (topicAnd) {
+    o.tmode = ["and"]; // OR is the default and isn't stored, so old URLs load as OR
+  }
   return o;
 }
 
@@ -235,6 +246,15 @@ function writeUrl(push) {
   );
 }
 
+// Temat AND/OR mode from the hash (absent = OR), reflected into the toggle, then the
+// parent checkboxes rederived from the leaves applyState just synced.
+function restoreTopicMode(o) {
+  topicAnd = (o.tmode || [])[0] === "and";
+  const val = topicAnd ? "and" : "or";
+  facetsEl.querySelector(`input[name="topicMode"][value="${val}"]`).checked = true;
+  syncTopicParents();
+}
+
 function applyState() {
   const o = Facets.decodeHash(location.hash.slice(1));
   for (const f of FACETS) {
@@ -248,6 +268,7 @@ function applyState() {
   facetsEl.querySelectorAll(".facet-opt input").forEach(inp => {
     inp.checked = selections[inp.closest(".facet").dataset.facet].has(inp.value);
   });
+  restoreTopicMode(o);
   search.value = (o.q || []).join(" ");
   inc.value = (o.inc || []).join(", ");
   exc.value = (o.exc || []).join(", ");

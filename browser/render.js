@@ -90,9 +90,9 @@ const showInfotip = (icon, text) => {
   infotip.style.top = `${r.bottom + 6}px`;
 };
 
-// topic facet: leaves grouped under their catalog categories in catalog order;
-// leaves missing from the catalog trail under "(poza katalogiem)"
-function topicEntries(present) {
+// topic tree: present leaves grouped under their catalog categories in catalog order;
+// leaves missing from the catalog trail under "(poza katalogiem)". [{cat, leaves:[...]}, ...]
+function topicGroups(present) {
   const has = new Set(present),
     seen = new Set(),
     out = [];
@@ -101,27 +101,21 @@ function topicEntries(present) {
     if (!hit.length) {
       continue;
     }
-    out.push({ header: cat });
+    out.push({ cat, leaves: hit });
     for (const l of hit) {
-      out.push({ value: l });
       seen.add(l);
     }
   }
   const extra = present.filter(l => !seen.has(l)).sort();
   if (extra.length) {
-    out.push({ header: "(poza katalogiem)" });
-    for (const l of extra) {
-      out.push({ value: l });
-    }
+    out.push({ cat: "(poza katalogiem)", leaves: extra });
   }
   return out;
 }
 
-// ordered checkbox entries for a facet: {header} rows (topic categories) or {value} rows
+// ordered checkbox entries for a non-topic facet ({value} rows). The topic facet builds its
+// own tree in buildTopicFacet, so it never reaches here.
 function facetEntries(f, present) {
-  if (f.key === "topic") {
-    return topicEntries(present);
-  }
   let vals;
   if (f.order) {
     vals = [
@@ -138,40 +132,135 @@ function facetEntries(f, present) {
 
 const countSpans = {}; // facetKey -> { value: <span> }
 
+// the ⓘ explanation button; empty string when there's no note for this row
+const infoIcon = t =>
+  t
+    ? ` <button type="button" class="info-i" aria-label="Wyjaśnienie" data-info="${esc(t)}">ⓘ</button>`
+    : "";
+
 function buildFacetUI() {
   for (const f of FACETS) {
     countSpans[f.key] = {};
-    const info = FACET_INFO[f.key] || {};
-    const iconFor = t =>
-      t
-        ? ` <button type="button" class="info-i" aria-label="Wyjaśnienie" data-info="${esc(t)}">ⓘ</button>`
-        : "";
     const box = document.createElement("div");
     box.className = "facet";
     box.dataset.facet = f.key;
-    box.innerHTML = `<div class="facet-h">${esc(f.label)}${iconFor(info._)}</div>`;
+    if (f.key === "topic") {
+      buildTopicFacet(box);
+      facetsEl.append(box);
+      continue;
+    }
+    const info = FACET_INFO[f.key] || {};
+    box.innerHTML = `<div class="facet-h">${esc(f.label)}${infoIcon(info._)}</div>`;
     const ul = document.createElement("ul");
     ul.className = "facet-list";
     for (const entry of facetEntries(f, Object.keys(INDEX[f.key] || {}))) {
-      const li = document.createElement("li");
-      if (entry.header) {
-        li.className = "facet-cat";
-        li.textContent = entry.header;
-        ul.append(li);
-        continue;
-      }
       const v = entry.value,
-        label = f.labelFor ? f.labelFor(v) : v;
+        label = f.labelFor ? f.labelFor(v) : v,
+        li = document.createElement("li");
       li.className = "facet-opt";
       li.innerHTML =
         `<label><input type="checkbox" value="${esc(v)}">` +
         `<span class="opt-l">${esc(label)}</span><span class="opt-c"></span></label>` +
-        iconFor(info[v]); // ⓘ sits outside the label so clicking it never toggles the checkbox
+        infoIcon(info[v]); // ⓘ sits outside the label so clicking it never toggles the checkbox
       countSpans[f.key][v] = li.querySelector(".opt-c");
       ul.append(li);
     }
     box.append(ul);
     facetsEl.append(box);
+  }
+}
+
+// The Temat facet is a tree: each present category is a parent checkbox (toggles all its
+// leaves) with its leaves nested under it, plus an OR/AND mode toggle, an in-tree search box,
+// and a live selected-count. Leaves stay .facet-opt so the generic selection/count/URL code
+// (which targets ".facet-opt input") reaches them; the parent's .cat-check is deliberately not
+// a ".facet-opt input" so it never round-trips into the URL — it's pure UI derived from leaves.
+function buildTopicFacet(box) {
+  box.innerHTML =
+    `<div class="facet-h">Temat` +
+    `<span class="topic-mode" role="radiogroup" aria-label="Dopasowanie tematów">` +
+    `<span class="mode-opt"><label><input type="radio" name="topicMode" value="or" checked> dowolny</label>` +
+    infoIcon("Zadanie pasuje, jeśli ma choć jeden z zaznaczonych tematów.") +
+    `</span><span class="mode-opt"><label><input type="radio" name="topicMode" value="and"> każdy</label>` +
+    infoIcon("Zadanie pasuje tylko wtedy, gdy ma wszystkie zaznaczone tematy naraz.") +
+    `</span></span></div>` +
+    `<input type="text" class="topic-search" placeholder="szukaj tematu…" aria-label="Szukaj tematu">`;
+  const ul = document.createElement("ul");
+  ul.className = "facet-list";
+  for (const { cat, leaves } of topicGroups(Object.keys(INDEX.topic || {}))) {
+    const catLi = document.createElement("li");
+    catLi.className = "facet-cat";
+
+    // parent checkbox + category label; data-label keeps the plain text for search highlighting
+    catLi.innerHTML =
+      `<label><input type="checkbox" class="cat-check">` +
+      `<span class="cat-l" data-label="${esc(cat)}">${esc(cat)}</span></label>`;
+    const kids = document.createElement("ul");
+    kids.className = "topic-leaves";
+    for (const v of leaves) {
+      const li = document.createElement("li");
+      li.className = "facet-opt";
+      li.innerHTML =
+        `<label><input type="checkbox" value="${esc(v)}">` +
+        `<span class="opt-l" data-label="${esc(v)}">${esc(v)}</span><span class="opt-c"></span></label>` +
+        infoIcon(TOPIC_DESC[v]);
+      countSpans.topic[v] = li.querySelector(".opt-c");
+      kids.append(li);
+    }
+    catLi.append(kids);
+    ul.append(catLi);
+  }
+  box.append(ul);
+  box.insertAdjacentHTML("beforeend", `<div class="topic-count"></div>`);
+}
+
+// reflect each topic parent checkbox from its leaves: all on = checked, some on = indeterminate
+function syncTopicParents() {
+  for (const catLi of facetsEl.querySelectorAll('.facet[data-facet="topic"] .facet-cat')) {
+    const cb = catLi.querySelector(".cat-check");
+    const kids = [...catLi.querySelectorAll(".facet-opt input")];
+    const on = kids.filter(k => k.checked).length;
+    cb.checked = on > 0 && on === kids.length;
+    cb.indeterminate = on > 0 && on < kids.length;
+  }
+}
+
+// wrap every case-insensitive occurrence of q (non-empty, lowercased) in <mark>; text is escaped
+function highlightMatch(text, q) {
+  const low = text.toLowerCase();
+  let out = "",
+    i = 0;
+  for (;;) {
+    const j = low.indexOf(q, i);
+    if (j < 0) {
+      return out + esc(text.slice(i));
+    }
+    out += `${esc(text.slice(i, j))}<mark class="thl">${esc(text.slice(j, j + q.length))}</mark>`;
+    i = j + q.length;
+  }
+}
+
+// live topic-tree search: show leaves whose name contains the query (a whole category shows
+// when ITS name matches), hide the rest, and highlight the match. Empty query restores everything.
+// Selection is untouched — this only changes what's visible.
+function filterTopicTree(query) {
+  const q = query.toLowerCase();
+  for (const catLi of facetsEl.querySelectorAll('.facet[data-facet="topic"] .facet-cat')) {
+    const catL = catLi.querySelector(".cat-l"),
+      catText = catL.dataset.label,
+      catMatch = !!q && catText.toLowerCase().includes(q);
+    catL.innerHTML = catMatch ? highlightMatch(catText, q) : esc(catText);
+    let anyLeaf = false;
+    for (const leafLi of catLi.querySelectorAll(".facet-opt")) {
+      const opt = leafLi.querySelector(".opt-l"),
+        text = opt.dataset.label,
+        leafMatch = !!q && text.toLowerCase().includes(q),
+        show = !q || catMatch || leafMatch;
+      leafLi.hidden = !show;
+      anyLeaf = anyLeaf || show;
+      opt.innerHTML = leafMatch ? highlightMatch(text, q) : esc(text);
+    }
+    catLi.hidden = !(!q || catMatch || anyLeaf);
   }
 }
 

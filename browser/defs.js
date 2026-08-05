@@ -11,6 +11,10 @@
 // truth) by build.mjs into catalog.js, loaded via <script> before this file — no hand-copy to drift.
 const CATALOG = window.CATALOG || []; // ponytail: [] if catalog.js is missing/unbuilt → empty topic facet, not a crash
 
+// leaf topic -> description, for the ⓘ info popovers in the Temat tree. Same source as CATALOG
+// (categories.json → build.mjs), so it can't drift. {} when unbuilt → topics just get no icon.
+const TOPIC_DESC = window.TOPIC_DESC || {};
+
 // leaves under the two Geometria categories — drives the "Brudnopis w kratkę: tylko w geometrii" option
 const GEOM_LEAVES = new Set(
   CATALOG.filter(([c]) => c.startsWith("Geometria")).flatMap(([, ls]) => ls)
@@ -166,6 +170,7 @@ const capitalize = s => (s ? s[0].toUpperCase() + s.slice(1) : s);
 const isPolishFew = n => n % 10 >= 2 && n % 10 <= 4 && !(n % 100 >= 12 && n % 100 <= 14);
 const pluralQuestions = n => (n === 1 ? "zadanie" : isPolishFew(n) ? "zadania" : "zadań");
 const pluralSelected = n => (n === 1 || isPolishFew(n) ? "zaznaczone" : "zaznaczonych");
+const pluralTopics = n => (n === 1 ? "temat" : isPolishFew(n) ? "tematy" : "tematów");
 
 const debounce = (fn, ms) => {
   let t;

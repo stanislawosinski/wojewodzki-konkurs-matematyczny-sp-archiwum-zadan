@@ -568,9 +568,6 @@ select {
   border-radius: 6px;
 }
 .facet-cat {
-  font-size: 0.72rem;
-  color: #888;
-  font-weight: bold;
   padding: 0.3rem 0 0.05rem;
 }
 .facet-opt {
@@ -629,6 +626,19 @@ select {
 .infotip[hidden] {
   display: none;
 }
+/* up-arrow poking at the icon: a rotated square with two borders, like the copy tip / settings pop */
+.infotip::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  background: #fafafa;
+  border-left: 1px solid #e2e2e2;
+  border-top: 1px solid #e2e2e2;
+  transform: translateX(-50%) rotate(45deg);
+}
 .facet-opt input {
   width: auto;
   margin: 0;
@@ -652,6 +662,85 @@ select {
 }
 .facet-opt.dim label {
   cursor: default;
+}
+/* Temat tree: taller list, category parents with a checkbox, leaves nested one level under them */
+.facet[data-facet="topic"] .facet-list {
+  max-height: 16.5rem; /* 1.5x the shared 11rem */
+}
+.facet [hidden] {
+  display: none; /* the topic search hides rows via [hidden]; beats .facet-opt's display:flex */
+}
+.facet-cat > label {
+  display: flex;
+  align-items: baseline;
+  gap: 0.35rem;
+  margin: 0;
+  cursor: pointer;
+}
+.facet-cat .cat-check {
+  width: auto;
+  margin: 0;
+  flex: 0 0 auto;
+  position: relative;
+  top: 0.15em;
+}
+.facet-cat .cat-l {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow-wrap: anywhere;
+  font-size: 0.72rem;
+  font-weight: bold;
+  color: #888;
+}
+.topic-leaves {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 1.1rem; /* indent leaves under their parent */
+}
+.topic-mode {
+  margin-left: auto;
+  display: inline-flex;
+  gap: 0.5rem;
+  font-size: 0.7rem;
+  font-weight: normal;
+  color: #666;
+}
+.topic-mode .mode-opt {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.15rem; /* label hugs its own ⓘ; the wider .topic-mode gap separates the two options */
+}
+.topic-mode label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  cursor: pointer;
+}
+.topic-mode input {
+  width: auto;
+  margin: 0;
+}
+/* specificity beats .sidebar input[type="text"] (font: inherit → 16px) so the small size sticks */
+.sidebar input[type="text"].topic-search {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 0 0.35rem;
+  padding: 0.2rem 0.4rem;
+  font-size: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+/* search match: yellow ground + orange underline, weight unchanged so the row width doesn't jump */
+.thl {
+  background: #ff0;
+  border-bottom: 1px solid orange;
+  font-weight: normal;
+  color: inherit;
+}
+.topic-count {
+  margin-top: 0.35rem;
+  font-size: 0.72rem;
+  color: #888;
 }
 .selrow {
   display: flex;

@@ -66,6 +66,38 @@ assert.deepStrictEqual(facetCounts(index, sel({}), notH1, "topic", universe), {
   pierwiastki: 2
 });
 
+// --- AND within a facet (andKeys). Separate fixture whose topic buckets OVERLAP:
+// h1 carries both potęgi & dowody, h3 carries both pierwiastki & dowody.
+const andIndex = {
+  topic: { potęgi: ["h1", "h2"], pierwiastki: ["h3", "h4"], dowody: ["h1", "h3"] }
+};
+const andUni = new Set(["h1", "h2", "h3", "h4"]);
+const andSel = o => {
+  const s = { topic: new Set() };
+  for (const k in o) {
+    s[k] = new Set(o[k]);
+  }
+  return s;
+};
+const TOPIC_AND = new Set(["topic"]);
+
+// default (no andKeys) still ORs → union; andKeys intersects → only the shared question
+assert.deepStrictEqual(
+  sorted(matchedHashes(andIndex, andSel({ topic: ["potęgi", "dowody"] }), yes, andUni)),
+  ["h1", "h2", "h3"]
+);
+assert.deepStrictEqual(
+  sorted(matchedHashes(andIndex, andSel({ topic: ["potęgi", "dowody"] }), yes, andUni, TOPIC_AND)),
+  ["h1"]
+);
+
+// AND drill-down KEEPS the facet's own selection: with potęgi selected (matches h1,h2), each
+// value's count is how many of those also carry it — dowody→1 (h1), pierwiastki→0, potęgi→2.
+assert.deepStrictEqual(
+  facetCounts(andIndex, andSel({ topic: ["potęgi"] }), yes, "topic", andUni, TOPIC_AND),
+  { potęgi: 2, pierwiastki: 0, dowody: 1 }
+);
+
 // encode/decode round-trips: multi-value facets + special chars (diacritics, '/', spaces) + scalars
 const hashObj = {
   topic: ["NWW / NWD", "potęgi i pierwiastki"],

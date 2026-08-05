@@ -137,7 +137,21 @@ const catalog = CATEGORIES.map(c => [
   c.name.replace(/\s*\([^)]*\)$/, ""),
   c.leaves.map(l => l.name)
 ]);
-writeFileSync(`${here}catalog.js`, `window.CATALOG = ${JSON.stringify(catalog)};\n`);
+
+// leaf -> desc, feeding the ⓘ info popovers on the topic sidebar (only leaves that have a desc)
+const topicDesc = {};
+for (const c of CATEGORIES) {
+  for (const l of c.leaves) {
+    if (l.desc) {
+      topicDesc[l.name] = l.desc;
+    }
+  }
+}
+writeFileSync(
+  `${here}catalog.js`,
+  `window.CATALOG = ${JSON.stringify(catalog)};\n` +
+    `window.TOPIC_DESC = ${JSON.stringify(topicDesc)};\n`
+);
 
 let total = 0;
 for (const s of STAGES) {

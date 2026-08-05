@@ -16,6 +16,9 @@ function update() {
   const excSet = new Set(idList(exc.value));
   const terms = search.value.toLowerCase().split(/\s+/).filter(Boolean);
 
+  // topic AND mode: a question must carry ALL selected topics (default OR = any of them)
+  const andKeys = topicAnd ? new Set(["topic"]) : new Set();
+
   let matched, countSel, countGate;
   if (useInc) {
     // "Pokaż tylko id" is an override: exactly those ids, in pasted order, deduped
@@ -26,7 +29,7 @@ function update() {
     countGate = h => shown.has(h);
   } else {
     const gate = h => !excSet.has(h) && terms.every(t => byHash[h]._search.includes(t));
-    const hits = new Set(Facets.matchedHashes(INDEX, selections, gate, universe));
+    const hits = new Set(Facets.matchedHashes(INDEX, selections, gate, universe, andKeys));
     matched = DATA.filter(q => hits.has(q.hash)); // DATA order = original document order
     countSel = selections;
     countGate = gate;
@@ -56,7 +59,7 @@ function update() {
 
   // facet counts (drill-down); ponytail: O(facets × universe) per change, fine at ~3k rows
   for (const f of FACETS) {
-    const counts = Facets.facetCounts(INDEX, countSel, countGate, f.key, universe);
+    const counts = Facets.facetCounts(INDEX, countSel, countGate, f.key, universe, andKeys);
     const spans = countSpans[f.key];
     for (const v in spans) {
       const n = counts[v] || 0;
@@ -64,6 +67,10 @@ function update() {
       spans[v].closest(".facet-opt").classList.toggle("dim", n === 0 && !selections[f.key].has(v));
     }
   }
+
+  // topic selected-count (independent of the tree's own search box, which only hides rows)
+  const kTopics = selections.topic.size;
+  topicCountEl.textContent = kTopics ? `Zaznaczono ${kTopics} ${pluralTopics(kTopics)}` : "";
 
   const anyFacet = FACETS.some(f => selections[f.key].size);
   const active = useInc || excSet.size > 0 || terms.length > 0 || anyFacet;
@@ -104,6 +111,7 @@ function clearFacetSelections() {
   facetsEl.querySelectorAll(".facet-opt input").forEach(i => {
     i.checked = false;
   });
+  syncTopicParents(); // clear the derived parent checkboxes (checked/indeterminate) too
 }
 
 // reset every filter (facets + search + include/exclude); leaves the print selection alone
@@ -114,17 +122,40 @@ function clearAllFilters() {
   refilter(); // push, so Back restores the filters you cleared
 }
 
-function wireFacets() {
-  facetsEl.addEventListener("change", e => {
-    if (!e.target.matches(".facet-opt input")) {
-      return;
+// Temat parent checkbox: select/deselect every present leaf under this category
+function toggleTopicCategory(catCheck) {
+  const on = catCheck.checked;
+  for (const leaf of catCheck.closest(".facet-cat").querySelectorAll(".facet-opt input")) {
+    leaf.checked = on;
+    on ? selections.topic.add(leaf.value) : selections.topic.delete(leaf.value);
+  }
+  catCheck.indeterminate = false;
+}
+
+// delegated facet change: mode toggle, parent checkbox, or a leaf toggle — all push + refilter
+function onFacetChange(e) {
+  const t = e.target;
+
+  // Temat AND/OR mode: reshapes the whole result set, so re-filter like a facet toggle
+  if (t.matches('input[name="topicMode"]')) {
+    topicAnd = t.value === "and";
+  } else if (t.matches(".cat-check")) {
+    toggleTopicCategory(t);
+  } else if (t.matches(".facet-opt input")) {
+    const key = t.closest(".facet").dataset.facet;
+    t.checked ? selections[key].add(t.value) : selections[key].delete(t.value);
+    if (key === "topic") {
+      syncTopicParents(); // keep the parent checkbox/indeterminate in step with its leaves
     }
-    const key = e.target.closest(".facet").dataset.facet,
-      v = e.target.value;
-    e.target.checked ? selections[key].add(v) : selections[key].delete(v);
-    writeUrl(true);
-    refilter(); // facet toggle: push, so Back undoes it
-  });
+  } else {
+    return;
+  }
+  writeUrl(true);
+  refilter(); // push, so Back undoes it
+}
+
+function wireFacets() {
+  facetsEl.addEventListener("change", onFacetChange);
   facetsEl.addEventListener("click", e => {
     // ⓘ info icons: show the explanation popover
     const icon = e.target.closest(".info-i");
@@ -134,6 +165,9 @@ function wireFacets() {
       showInfotip(icon, icon.dataset.info);
     }
   });
+
+  // in-tree topic search: purely visual (hide/highlight rows); never touches the filter or URL
+  topicSearchEl.oninput = () => filterTopicTree(topicSearchEl.value.trim());
 }
 
 function wireSearch() {
@@ -562,6 +596,8 @@ function init(data) {
   INDEX = buildIndexFromData();
   universe = new Set(Object.keys(byHash));
   buildFacetUI();
+  topicSearchEl = facetsEl.querySelector(".topic-search");
+  topicCountEl = facetsEl.querySelector(".topic-count");
 
   wireFacets();
   wireSearch();

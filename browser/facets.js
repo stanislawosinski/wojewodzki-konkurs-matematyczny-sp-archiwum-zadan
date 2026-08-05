@@ -29,6 +29,30 @@
     return out;
   }
 
+  // intersection of the id-sets for the chosen values of one facet (AND within a facet)
+  function facetIntersect(index, key, values) {
+    let acc = null;
+    for (const v of values) {
+      const set = new Set(index[key]?.[v] || []);
+      if (acc === null) {
+        acc = set;
+        continue;
+      }
+      const next = new Set();
+      for (const h of acc) {
+        if (set.has(h)) {
+          next.add(h);
+        }
+      }
+      acc = next;
+    }
+    return acc || new Set();
+  }
+
+  // one facet's contribution: AND within it when key ∈ andKeys, else OR (the default)
+  const facetCombine = (index, key, values, andKeys) =>
+    andKeys?.has(key) ? facetIntersect(index, key, values) : facetUnion(index, key, values);
+
   // intersect Sets, smallest first (AND across facets); [] -> null = "no constraint"
   function intersectAll(sets) {
     if (!sets.length) {
@@ -49,13 +73,14 @@
     return acc;
   }
 
-  // hashes passing every selected facet except excludeKey (AND across, OR within) and the
-  // gate; the whole universe when nothing narrows. Shared core of matchedHashes/facetCounts.
-  function gatedBase(index, selections, gate, universe, excludeKey) {
+  // hashes passing every selected facet except excludeKey (AND across; within a facet OR,
+  // or AND when its key ∈ andKeys) and the gate; the whole universe when nothing narrows.
+  // Shared core of matchedHashes/facetCounts.
+  function gatedBase(index, selections, gate, universe, excludeKey, andKeys) {
     let base = intersectAll(
       selectedKeys(selections)
         .filter(k => k !== excludeKey)
-        .map(k => facetUnion(index, k, selections[k]))
+        .map(k => facetCombine(index, k, selections[k], andKeys))
     );
     if (base === null) {
       base = universe;
@@ -69,15 +94,25 @@
     return out;
   }
 
-  // hashes matching all facet selections (OR within, AND across) that also pass the gate
-  function matchedHashes(index, selections, gate, universe) {
-    return [...gatedBase(index, selections, gate, universe, null)];
+  // hashes matching all facet selections (AND across; within a facet OR, or AND per andKeys)
+  // that also pass the gate. andKeys defaults to no AND facets (all-OR, the historical behaviour).
+  function matchedHashes(index, selections, gate, universe, andKeys) {
+    return [...gatedBase(index, selections, gate, universe, null, andKeys)];
   }
 
   // drill-down counts for one facet: every OTHER selected facet + gate applied, then
-  // tally |base ∩ index[key][value]| per value — so a facet never constrains its own counts.
-  function facetCounts(index, selections, gate, key, universe) {
-    const gated = gatedBase(index, selections, gate, universe, key);
+  // tally |base ∩ index[key][value]| per value — so an OR facet never constrains its own
+  // counts. An AND facet is the exception: it KEEPS its own selection in the base (excludeKey
+  // = null) so each value's count shows how far adding it would narrow the current matches.
+  function facetCounts(index, selections, gate, key, universe, andKeys) {
+    const gated = gatedBase(
+      index,
+      selections,
+      gate,
+      universe,
+      andKeys?.has(key) ? null : key,
+      andKeys
+    );
     const counts = {},
       facet = index[key] || {};
     for (const v of Object.keys(facet)) {
