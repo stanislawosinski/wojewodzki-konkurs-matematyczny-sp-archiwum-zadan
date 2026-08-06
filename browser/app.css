@@ -1513,14 +1513,17 @@ body.scratch-off .scratch-toggle {
      pager is its own snap stop so the page end stays reachable. */
   html.snap {
     scroll-snap-type: y mandatory;
-    scroll-padding-top: var(--tbh);
+
+    /* + the .q top margin: snapping aligns the card's border box, which would otherwise
+       tuck the margin under the bar and leave the question header touching it */
+    scroll-padding-top: calc(var(--tbh) + 1.6rem);
   }
   html.snap .q {
     scroll-snap-align: start;
     box-sizing: border-box;
-    min-height: calc(100vh - var(--tbh));
+    min-height: calc(100vh - var(--tbh) - 1.6rem);
     /* biome-ignore lint/suspicious/noDuplicateProperties: deliberate vh→dvh fallback — dvh tracks the collapsing mobile URL bar where supported */
-    min-height: calc(100dvh - var(--tbh));
+    min-height: calc(100dvh - var(--tbh) - 1.6rem);
   }
   html.snap .content > .pager {
     scroll-snap-align: end;
