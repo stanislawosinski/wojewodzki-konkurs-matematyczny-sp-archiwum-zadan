@@ -6,6 +6,16 @@
     <title>Wszystkie zadania</title>
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="app.css">
+    <script>
+    // Apply the saved dark theme before first paint, so returning users don't see a light flash.
+    try {
+      if (localStorage.getItem("theme") === "dark") {
+        document.documentElement.classList.add("dark");
+      }
+    } catch (_e) {
+      // localStorage blocked → default light
+    }
+    </script>
     <script defer src="facets.js"></script>
     <script defer src="catalog.js"></script>
     <script defer src="defs.js"></script>
@@ -108,6 +118,14 @@
               </section>
             </div>
           </span>
+          <button
+            type="button"
+            id="themeBtn"
+            title="Zmień motyw"
+            aria-label="Zmień motyw jasny/ciemny"
+          >
+            🌙
+          </button>
         </span>
       </div>
     </div>

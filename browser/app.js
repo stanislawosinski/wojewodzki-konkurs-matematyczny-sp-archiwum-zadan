@@ -373,6 +373,22 @@ function wireToolbar() {
     refilter();
   };
   printBtn.onclick = () => window.print();
+
+  // Dark-mode toggle: a device setting with its own localStorage key (separate from the settings
+  // blob). The initial class is set pre-paint by the inline <head> script; here we sync the glyph.
+  const syncThemeGlyph = () => {
+    themeBtn.textContent = document.documentElement.classList.contains("dark") ? "☀" : "🌙";
+  };
+  syncThemeGlyph();
+  themeBtn.onclick = () => {
+    const dark = document.documentElement.classList.toggle("dark");
+    try {
+      localStorage.setItem("theme", dark ? "dark" : "light");
+    } catch (_e) {
+      // localStorage blocked → theme just won't persist
+    }
+    syncThemeGlyph();
+  };
   clearSelBar.onclick = e => {
     // "Wyczyść zaznaczenie": clear the print selection only
     e.preventDefault();

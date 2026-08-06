@@ -21,7 +21,8 @@ const search = $("search"),
   printBtn = $("printBtn"),
   sheetTitle = $("sheetTitle"),
   settingsBtn = $("settingsBtn"),
-  settingsPop = $("settingsPop");
+  settingsPop = $("settingsPop"),
+  themeBtn = $("themeBtn");
 const pagers = [...document.querySelectorAll(".pager")];
 
 // built by buildTopicFacet (render.js) inside #facets, so they don't exist until init runs;

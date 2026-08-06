@@ -170,6 +170,18 @@ h1 {
 #settingsBtn:hover {
   color: #222;
 }
+#themeBtn {
+  border: none;
+  background: none;
+  font-size: 1.05rem;
+  line-height: 1;
+  padding: 0 0.15rem;
+  cursor: pointer;
+  color: #666;
+} /* jasny/ciemny switcher, right of the ⚙ */
+#themeBtn:hover {
+  color: #222;
+}
 /* settings popup: light-grey panel with a subtle border + 45deg arrow (rotated square), like the copy tip */
 .settings {
   position: relative;
@@ -1202,4 +1214,181 @@ body.scratch-off .scratch-toggle {
   body.grid-geometry-only .q:not(.geometry) > .scratch > .grid {
     display: none;
   } /* "tylko w geometrii": drop the grid on non-geometry questions */
+}
+
+/* Dark theme. Screen-only (wrapped in @media screen) so print always renders light on paper,
+   whatever the on-screen theme. The chrome re-themes for free: overriding the --tint-* ramp below
+   recolors the topbar/sidebar/buttons/borders/scrollbars that already read those tokens (same
+   --tint-h knob, just a dark lightness ramp at low saturation). Everything after the token block is
+   an explicit override for the content colours that are still literals. color-scheme:dark flips the
+   native form controls (inputs, checkboxes, radios, scrollbars) with no extra CSS. */
+@media screen {
+  html.dark {
+    color-scheme: dark;
+    --surface: hsl(var(--tint-h) 14% 20%); /* popups, facet fills, tag pills */
+    --surface-panel: hsl(var(--tint-h) 16% 13.5%); /* sidebar */
+    --surface-dim: hsl(var(--tint-h) 15% 15.5%); /* topbar */
+    --btn: hsl(var(--tint-h) 13% 27%); /* button hover bg */
+    --line-faint: hsl(var(--tint-h) 12% 22%); /* light dividers */
+    --btn-hover: hsl(var(--tint-h) 13% 30%);
+    --hairline: hsl(var(--tint-h) 11% 24%);
+    --border: hsl(var(--tint-h) 12% 28%);
+    --border-mid: hsl(var(--tint-h) 13% 34%);
+    --scrollbar: hsl(var(--tint-h) 8% 33%);
+    --border-strong: hsl(var(--tint-h) 12% 40%);
+    --border-strong-hover: hsl(var(--tint-h) 12% 47%);
+  }
+  html.dark body {
+    background: hsl(var(--tint-h) 16% 11%);
+    color: hsl(var(--tint-h) 15% 88%);
+  }
+
+  /* text ramp: primary → secondary → faint (was #222/#333/#444 → #555/#666/#777 → #888…#bbb) */
+  html.dark .facet-opt label {
+    color: hsl(var(--tint-h) 13% 84%);
+  }
+  html.dark .facet-h,
+  html.dark .settings-pop,
+  html.dark .settings-pop label,
+  html.dark .answer.ai,
+  html.dark .answer.solution.ai-sol,
+  html.dark .verif,
+  html.dark .verif-reason {
+    color: hsl(var(--tint-h) 12% 80%);
+  }
+  html.dark .clearbtn,
+  html.dark .pager button,
+  html.dark .selrow button,
+  html.dark #printBtn,
+  html.dark .sidebar label {
+    color: hsl(var(--tint-h) 11% 72%);
+  }
+  html.dark .topbar,
+  html.dark .topbar .pager,
+  html.dark .topbar #setsummary,
+  html.dark .pager,
+  html.dark .qmeta .tag,
+  html.dark .reorder,
+  html.dark .reveal > summary,
+  html.dark .scratch-toggle,
+  html.dark .svgtoggle,
+  html.dark .settings-pop .sublabel,
+  html.dark .topic-mode,
+  html.dark #settingsBtn,
+  html.dark #themeBtn {
+    color: hsl(var(--tint-h) 10% 62%);
+  }
+  html.dark .facet-opt .opt-c,
+  html.dark .cat-l,
+  html.dark .topic-count,
+  html.dark .topic-clear,
+  html.dark .answer.nokey,
+  html.dark .settings-pop h4,
+  html.dark .settings-pop .hint,
+  html.dark #clearSearch,
+  html.dark .qid,
+  html.dark .hash,
+  html.dark .qmeta .tag.ctx,
+  html.dark .info-i {
+    color: hsl(var(--tint-h) 9% 52%);
+  }
+
+  /* hover states brighten the muted glyphs/links back up */
+  html.dark #settingsBtn:hover,
+  html.dark #themeBtn:hover,
+  html.dark #clearSearch:hover,
+  html.dark .info-i:hover,
+  html.dark .reorder:hover,
+  html.dark .scratch-toggle:hover,
+  html.dark .svgtoggle:hover {
+    color: hsl(var(--tint-h) 14% 84%);
+    border-color: hsl(var(--tint-h) 12% 50%);
+  }
+
+  /* custom surfaces that were hard-coded #fff */
+  html.dark .clearbtn,
+  html.dark .pager button,
+  html.dark .selrow button,
+  html.dark #printBtn,
+  html.dark .reorder,
+  html.dark .reveal > summary,
+  html.dark .scratch-toggle,
+  html.dark .svgtoggle {
+    background: hsl(var(--tint-h) 13% 19%);
+  }
+  html.dark .clearbtn:hover,
+  html.dark .pager button:hover:not(:disabled),
+  html.dark .selrow button:hover,
+  html.dark #printBtn:hover {
+    background: var(--btn);
+  }
+  html.dark .qmeta .tag {
+    background: hsl(var(--tint-h) 13% 20%);
+  }
+  html.dark .pager {
+    background: hsl(var(--tint-h) 14% 15%);
+  }
+
+  /* text fields: a recessed, tinted well + tinted border instead of the flat UA dark-grey */
+  html.dark .sidebar input[type="text"],
+  html.dark #include {
+    background: hsl(var(--tint-h) 24% 10.5%);
+    border: 1px solid hsl(var(--tint-h) 20% 30%);
+    color: hsl(var(--tint-h) 14% 85%);
+  }
+  html.dark .sidebar input[type="text"]::placeholder,
+  html.dark #include::placeholder {
+    color: hsl(var(--tint-h) 10% 46%);
+  }
+
+  /* the light #e2e2e2 hairlines on the popovers + their arrows */
+  html.dark .settings-pop,
+  html.dark .settings-pop::before,
+  html.dark .infotip,
+  html.dark .infotip::before {
+    border-color: hsl(var(--tint-h) 12% 28%);
+  }
+
+  /* semantic colours, lightened so they carry on the dark ground */
+  html.dark .answer {
+    color: hsl(130 35% 58%);
+  }
+  html.dark .verif .ok,
+  html.dark .kverif .ok {
+    color: hsl(130 42% 62%);
+  }
+  html.dark .verif .warn,
+  html.dark .kverif .warn {
+    color: hsl(38 58% 58%);
+  }
+  html.dark .verif .suspect,
+  html.dark .kverif .suspect {
+    color: hsl(6 72% 66%);
+  }
+  html.dark .reveal[open] > summary,
+  html.dark .scratch-toggle.on,
+  html.dark .svgtoggle.on {
+    border-color: hsl(130 26% 38%);
+    background: hsl(130 24% 15%);
+    color: hsl(130 40% 64%);
+  }
+  html.dark .reorder.remove:hover {
+    border-color: hsl(6 45% 46%);
+    color: hsl(6 72% 66%);
+  }
+  html.dark .q:has(.reveal[open]) .choice.correct {
+    background: hsl(130 25% 17%);
+  }
+
+  /* search highlight: translucent amber so the light match text stays readable */
+  html.dark .thl {
+    background: hsl(48 90% 55% / 0.24);
+    border-bottom-color: hsl(40 85% 62%);
+  }
+
+  /* figures are paper scans / black-stroke redraws — a white plate keeps them legible on dark */
+  html.dark .fig {
+    background: #fff;
+    border-radius: 3px;
+  }
 }
