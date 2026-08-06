@@ -97,6 +97,24 @@ h1 {
 .clearbtn[hidden] {
   display: none;
 }
+/* the clear buttons' row at the top of the sidebar; JS hides the whole row when both are
+   hidden, so an empty row never leaves a stray flex-gap slot in the sidebar column.
+   0.8rem = the topbar size the buttons had before moving here, so they fit on one line. */
+.clearrow {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+}
+.clearrow[hidden] {
+  display: none;
+}
+
+/* wraps the drawer × + the clear buttons. display:contents = no box on desktop, so the
+   children sit in the sidebar column exactly as before; the phone block turns it into a
+   sticky one-line header row. */
+.drawer-top {
+  display: contents;
+}
 /* clear-selection link lives in the gutter, right edge on the checkbox edge (= tb-main's left);
    absolute so showing/hiding it never shifts the pager & co. to its right */
 #clearSelBar {
@@ -1258,6 +1276,9 @@ body.scratch-off .scratch-toggle {
   .content {
     padding-left: 0;
   }
+  .topbar {
+    padding: 0.4rem 0.75rem;
+  } /* match .layout's inline padding, so the ☰ lines up with the question text */
 
   /* Worksheet-curation UI off entirely — CSS-hide ONLY. The inputs and state must stay in the
      DOM: saveSettings() serializes all popup inputs (frozen localStorage shape) and shared URLs
@@ -1271,9 +1292,52 @@ body.scratch-off .scratch-toggle {
   .settings-pop section + section {
     display: none;
   }
-  #filtersBtn,
+  /* ☰ opens the drawer; styled like the other topbar glyphs. The negative margin cancels
+     the glyph padding, putting ☰ flush on the text edge. */
+  #filtersBtn {
+    display: inline-block;
+    position: relative;
+    border: none;
+    background: none;
+    font-size: 1.4rem;
+    line-height: 1;
+    padding: 0.15rem 0.3rem;
+    margin-left: -0.3rem;
+    color: #666;
+    cursor: pointer;
+  }
+
+  /* active-filter count as an iPhone-style bubble on the ☰ corner (red in both themes) */
+  .fbadge {
+    position: absolute;
+    top: -0.3rem;
+    right: -0.35rem;
+    min-width: 1.6em;
+    padding: 0.25em 0.3em;
+    box-sizing: border-box;
+    border-radius: 999px;
+    background: #d33;
+    color: #fff;
+    font-size: 0.62rem;
+    font-weight: 600;
+    line-height: 1;
+    text-align: center;
+  }
   #snapBtn {
     display: inline-block;
+  }
+
+  /* finger-sized topbar icons */
+  #settingsBtn {
+    font-size: 1.9rem;
+  }
+  #themeBtn,
+  #snapBtn {
+    font-size: 1.4rem;
+    padding: 0 0.3rem;
+  }
+  .tb-right {
+    gap: 1.1rem;
   }
 
   /* the full-word pager buttons overflow a phone-width topbar and would force a second row;
@@ -1292,7 +1356,11 @@ body.scratch-off .scratch-toggle {
     width: min(85vw, 20rem);
     height: auto;
     margin: 0;
-    padding: 0.6rem 1rem 1.5rem 1.25rem;
+
+    /* no top padding: the sticky header row must start at y=0 like the topbar (a negative
+       margin can't do it — sticky top:0 clamps it back down); left = the × glyph offset,
+       so the controls below left-align with it */
+    padding: 0 1rem 1.5rem 0.75rem;
     overflow-y: auto;
     overscroll-behavior: contain;
     border-right: none;
@@ -1322,17 +1390,30 @@ body.scratch-off .scratch-toggle {
     background: rgba(0, 0, 0, 0.45); /* deliberate in both themes */
   }
 
-  /* × in the drawer's top-right corner; sticky so it survives the drawer's internal scroll.
-     The negative bottom margin cancels the sidebar's 1.5em flex gap below it. */
-  #drawerClose {
-    display: block;
+  /* the drawer's header: × on the left (parked where the ☰ was, so closing is the same tap
+     as opening) and the clear buttons on the right, all on one line; sticky with the panel
+     background so it stays put over the drawer's internal scroll. The negative margins bleed
+     it to the drawer edges; the left padding re-lands × on the ☰ position (0.45 + 0.3 glyph
+     padding = the topbar's 0.75rem). */
+  .drawer-top {
+    display: flex;
     position: sticky;
     top: 0;
-    align-self: flex-end;
+    z-index: 1;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--surface-panel);
+    margin: 0 -1rem -0.9em -0.75rem;
+
+    /* same vertical construction as the topbar (0.4rem paddings, centered items, × padded
+       to the ⚙-driven row height), so the × center lands on the ☰ center with no measuring */
+    padding: 0.4rem 1rem 0.4rem 0.45rem;
+  }
+  #drawerClose {
+    display: block;
     border: none;
     background: none;
-    padding: 0.1rem 0.3rem;
-    margin: 0 -0.3rem -1.2em 0;
+    padding: 0.15rem 0.3rem;
     font-size: 1.6rem;
     line-height: 1;
     color: #777;
@@ -1367,18 +1448,30 @@ body.scratch-off .scratch-toggle {
     overflow-x: auto;
   }
 
-  /* settings: the ~570px two-column popup becomes a fixed near-full-width bottom sheet */
+  /* settings: the ~570px two-column popup becomes a right-hand drawer, mirroring the filter
+     drawer on the left. The hidden attribute still drives visibility; the animation replays
+     each time the element re-renders, giving the slide-in without a class-toggle mechanism. */
   .settings-pop {
     position: fixed;
-    left: 0.6rem;
-    right: 0.6rem;
-    bottom: 0.6rem;
-    top: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: auto;
+    width: min(85vw, 20rem);
+    box-sizing: border-box;
     flex-direction: column;
     overflow-y: auto;
-    max-height: 80vh;
-    /* biome-ignore lint/suspicious/noDuplicateProperties: deliberate vh→dvh fallback — dvh tracks the collapsing mobile URL bar where supported */
-    max-height: 80dvh;
+    overscroll-behavior: contain;
+    padding: 1rem 1rem 1.5rem;
+    border: none;
+    border-radius: 0;
+    box-shadow: -2px 0 12px rgba(0, 0, 0, 0.25); /* theme-neutral by design */
+    animation: settings-in 0.2s ease;
+  }
+  @keyframes settings-in {
+    from {
+      transform: translateX(100%);
+    }
   }
   .settings-pop section {
     flex: 0 1 auto;
@@ -1467,7 +1560,8 @@ body.scratch-off .scratch-toggle {
   html.dark .topic-mode,
   html.dark #settingsBtn,
   html.dark #themeBtn,
-  html.dark #snapBtn {
+  html.dark #snapBtn,
+  html.dark #filtersBtn {
     color: hsl(var(--tint-h) 10% 62%);
   }
   html.dark .facet-opt .opt-c,
@@ -1490,6 +1584,7 @@ body.scratch-off .scratch-toggle {
   html.dark #settingsBtn:hover,
   html.dark #themeBtn:hover,
   html.dark #snapBtn:hover,
+  html.dark #filtersBtn:hover,
   html.dark #clearSearch:hover,
   html.dark #drawerClose:hover,
   html.dark .info-i:hover,

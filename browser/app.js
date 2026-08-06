@@ -82,13 +82,17 @@ function update() {
   const active = useInc || excSet.size > 0 || terms.length > 0 || anyFacet;
   clearFilters.hidden = !active; // "Wyczyść wszystko": any filtering at all
   clearFacets.hidden = !anyFacet; // "Wyczyść filtry": facet checkboxes only
+  clearRow.hidden = !active; // their sidebar row collapses with them (kills its flex-gap slot)
 
-  // phone drawer button badge; runs at all widths (harmless while the button is display:none)
+  // phone hamburger badge (iPhone-style count bubble on the ☰ corner); runs at all widths
+  // (harmless while the button is display:none)
   const nSel = FACETS.reduce((n, f) => n + selections[f.key].size, 0);
-  filtersBtn.textContent = nSel ? `Filtry (${nSel})` : "Filtry";
+  filtersBadge.textContent = nSel || "";
+  filtersBadge.hidden = !nSel;
 
-  // keep the snap-mode offset in step with the real topbar height: the clear buttons toggled
-  // above can wrap it to a second row, and the CSS --tbh fallback only covers the one-row case
+  // keep --tbh (the snap-mode scroll offsets) in step with the real topbar height, which the
+  // button toggles above can change. Not re-measured on resize — a rotation while in snap mode
+  // shows stale offsets until the next filter change, accepted.
   document.documentElement.style.setProperty(
     "--tbh",
     `${document.querySelector(".topbar").offsetHeight}px`

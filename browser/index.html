@@ -26,9 +26,9 @@
   <body>
     <div class="topbar">
       <div class="tb-side">
-        <button type="button" class="clearbtn" id="filtersBtn">Filtry</button>
-        <button type="button" class="clearbtn" id="clearFacets" hidden>Wyczyść filtry</button>
-        <button type="button" class="clearbtn" id="clearFilters" hidden>Wyczyść wszystko</button>
+        <button type="button" id="filtersBtn" title="Filtry" aria-label="Filtry">
+          ☰<span id="filtersBadge" class="fbadge" hidden></span>
+        </button>
       </div>
       <div class="tb-main">
         <button type="button" class="clearbtn" id="clearSelBar" hidden>Wyczyść zaznaczenie</button>
@@ -140,7 +140,15 @@
     </div>
     <div class="layout">
       <aside class="sidebar">
-        <button type="button" id="drawerClose" aria-label="Zamknij filtry">×</button>
+        <div class="drawer-top">
+          <button type="button" id="drawerClose" aria-label="Zamknij filtry">×</button>
+          <div class="clearrow" id="clearRow" hidden>
+            <button type="button" class="clearbtn" id="clearFacets" hidden>Wyczyść filtry</button>
+            <button type="button" class="clearbtn" id="clearFilters" hidden>
+              Wyczyść wszystko
+            </button>
+          </div>
+        </div>
         <div class="idbox">
           <label
             >Pokaż tylko id:
