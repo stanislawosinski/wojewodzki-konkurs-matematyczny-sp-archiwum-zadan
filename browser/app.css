@@ -197,16 +197,17 @@ h1 {
   padding: 0 0.15rem;
   cursor: pointer;
   color: #666;
-} /* jasny/ciemny switcher, right of the ⚙; snap = tryb kartkowy, phone-only */
+} /* jasny/ciemny switcher, left of the ⚙; snap = tryb kartkowy, phone-only */
 #themeBtn:hover,
 #snapBtn:hover {
   color: #222;
 }
 
-/* the three mobile-only controls; the phone block at the bottom re-shows them */
+/* the mobile-only controls; the phone block at the bottom re-shows them */
 #filtersBtn,
 #snapBtn,
-#drawerClose {
+#drawerClose,
+#settingsClose {
   display: none;
 }
 /* settings popup: light-grey panel with a subtle border + 45deg arrow (rotated square), like the copy tip */
@@ -1462,7 +1463,10 @@ body.scratch-off .scratch-toggle {
     flex-direction: column;
     overflow-y: auto;
     overscroll-behavior: contain;
-    padding: 1rem 1rem 1.5rem;
+
+    /* small top padding puts the sticky × ink as far from the top edge as from the right
+       (a negative sticky margin gets clamped — see the drawer header note) */
+    padding: 0.45rem 1rem 1.5rem;
     border: none;
     border-radius: 0;
     box-shadow: -2px 0 12px rgba(0, 0, 0, 0.25); /* theme-neutral by design */
@@ -1479,6 +1483,24 @@ body.scratch-off .scratch-toggle {
   .settings-pop::before {
     display: none;
   } /* the anchor arrow points at nothing once the pop is fixed */
+
+  /* × in the settings drawer's top-right corner; sticky over the internal scroll, panel
+     background so content slides under it cleanly. The negative bottom margin lets the
+     first section's heading stay at its natural height beside it. */
+  #settingsClose {
+    display: block;
+    position: sticky;
+    top: 0;
+    align-self: flex-end;
+    border: none;
+    background: var(--surface);
+    padding: 0.15rem 0.3rem;
+    margin: 0 -0.4rem -1.3rem 0;
+    font-size: 1.6rem;
+    line-height: 1;
+    color: #777;
+    cursor: pointer;
+  }
 
   /* tryb kartkowy: snap on the root scroller — one swipe advances one question, snapped just
      under the sticky topbar. mandatory (proximity often doesn't fire on full-screen cards);
@@ -1573,6 +1595,7 @@ body.scratch-off .scratch-toggle {
   html.dark .settings-pop .hint,
   html.dark #clearSearch,
   html.dark #drawerClose,
+  html.dark #settingsClose,
   html.dark .qid,
   html.dark .hash,
   html.dark .qmeta .tag.ctx,
@@ -1587,6 +1610,7 @@ body.scratch-off .scratch-toggle {
   html.dark #filtersBtn:hover,
   html.dark #clearSearch:hover,
   html.dark #drawerClose:hover,
+  html.dark #settingsClose:hover,
   html.dark .info-i:hover,
   html.dark .reorder:hover,
   html.dark .scratch-toggle:hover,

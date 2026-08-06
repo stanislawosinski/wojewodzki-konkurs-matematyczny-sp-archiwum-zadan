@@ -27,7 +27,8 @@ const search = $("search"),
   filtersBtn = $("filtersBtn"),
   filtersBadge = $("filtersBadge"),
   snapBtn = $("snapBtn"),
-  drawerClose = $("drawerClose");
+  drawerClose = $("drawerClose"),
+  settingsClose = $("settingsClose");
 const pagers = [...document.querySelectorAll(".pager")];
 
 // built by buildTopicFacet (render.js) inside #facets, so they don't exist until init runs;

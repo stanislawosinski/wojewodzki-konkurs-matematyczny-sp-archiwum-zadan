@@ -618,6 +618,9 @@ function wireSettings() {
     e.stopPropagation();
     settingsPop.hidden = !settingsPop.hidden;
   };
+  settingsClose.onclick = () => {
+    settingsPop.hidden = true;
+  };
   document.addEventListener("click", e => {
     if (!settingsPop.hidden && !e.target.closest(".settings")) {
       settingsPop.hidden = true;

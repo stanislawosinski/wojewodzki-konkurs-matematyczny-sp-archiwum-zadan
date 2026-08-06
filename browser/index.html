@@ -40,11 +40,28 @@
         <span id="setsummary">Wczytywanie…</span>
         <span class="tb-right">
           <button type="button" id="printBtn" title="Drukuj">🖨 Drukuj</button>
+          <button
+            type="button"
+            id="snapBtn"
+            title="Tryb kartkowy: jedno zadanie na ekran"
+            aria-label="Tryb kartkowy"
+          >
+            □
+          </button>
+          <button
+            type="button"
+            id="themeBtn"
+            title="Włącz ciemny motyw"
+            aria-label="Zmień motyw jasny/ciemny"
+          >
+            🌙
+          </button>
           <span class="settings">
             <button type="button" id="settingsBtn" title="Ustawienia" aria-label="Ustawienia">
               ⚙
             </button>
             <div class="settings-pop" id="settingsPop" hidden>
+              <button type="button" id="settingsClose" aria-label="Zamknij ustawienia">×</button>
               <section>
                 <h4>Lista zadań</h4>
                 <div class="optgroup">
@@ -119,22 +136,6 @@
               </section>
             </div>
           </span>
-          <button
-            type="button"
-            id="themeBtn"
-            title="Włącz ciemny motyw"
-            aria-label="Zmień motyw jasny/ciemny"
-          >
-            🌙
-          </button>
-          <button
-            type="button"
-            id="snapBtn"
-            title="Tryb kartkowy: jedno zadanie na ekran"
-            aria-label="Tryb kartkowy"
-          >
-            □
-          </button>
         </span>
       </div>
     </div>
