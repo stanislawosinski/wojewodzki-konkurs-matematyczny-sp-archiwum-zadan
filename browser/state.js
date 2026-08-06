@@ -22,7 +22,10 @@ const search = $("search"),
   sheetTitle = $("sheetTitle"),
   settingsBtn = $("settingsBtn"),
   settingsPop = $("settingsPop"),
-  themeBtn = $("themeBtn");
+  themeBtn = $("themeBtn"),
+  filtersBtn = $("filtersBtn"),
+  snapBtn = $("snapBtn"),
+  drawerClose = $("drawerClose");
 const pagers = [...document.querySelectorAll(".pager")];
 
 // built by buildTopicFacet (render.js) inside #facets, so they don't exist until init runs;

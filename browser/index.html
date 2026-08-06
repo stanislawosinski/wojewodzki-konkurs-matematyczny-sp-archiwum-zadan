@@ -26,6 +26,7 @@
   <body>
     <div class="topbar">
       <div class="tb-side">
+        <button type="button" class="clearbtn" id="filtersBtn">Filtry</button>
         <button type="button" class="clearbtn" id="clearFacets" hidden>Wyczyść filtry</button>
         <button type="button" class="clearbtn" id="clearFilters" hidden>Wyczyść wszystko</button>
       </div>
@@ -126,11 +127,20 @@
           >
             🌙
           </button>
+          <button
+            type="button"
+            id="snapBtn"
+            title="Tryb kartkowy: jedno zadanie na ekran"
+            aria-label="Tryb kartkowy"
+          >
+            □
+          </button>
         </span>
       </div>
     </div>
     <div class="layout">
       <aside class="sidebar">
+        <button type="button" id="drawerClose" aria-label="Zamknij filtry">×</button>
         <div class="idbox">
           <label
             >Pokaż tylko id:

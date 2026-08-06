@@ -10,6 +10,10 @@
 // serialization in state.js — classic deferred scripts sharing the global scope,
 // loaded in that order (see index.html).
 
+// phone layout active? Mirrors the app.css phone block — the 600 must stay in sync with it.
+// Checked at event time, so crossing the breakpoint needs no resize listeners.
+const isPhone = () => matchMedia("(max-width: 600px)").matches;
+
 function update() {
   const incIds = idList(inc.value),
     useInc = incIds.length > 0;
@@ -78,6 +82,17 @@ function update() {
   const active = useInc || excSet.size > 0 || terms.length > 0 || anyFacet;
   clearFilters.hidden = !active; // "Wyczyść wszystko": any filtering at all
   clearFacets.hidden = !anyFacet; // "Wyczyść filtry": facet checkboxes only
+
+  // phone drawer button badge; runs at all widths (harmless while the button is display:none)
+  const nSel = FACETS.reduce((n, f) => n + selections[f.key].size, 0);
+  filtersBtn.textContent = nSel ? `Filtry (${nSel})` : "Filtry";
+
+  // keep the snap-mode offset in step with the real topbar height: the clear buttons toggled
+  // above can wrap it to a second row, and the CSS --tbh fallback only covers the one-row case
+  document.documentElement.style.setProperty(
+    "--tbh",
+    `${document.querySelector(".topbar").offsetHeight}px`
+  );
   clearSearch.hidden = !search.value; // the "×" inside the search box
   clearSelBar.hidden = !selectedSet.size; // "Wyczyść zaznaczenie": only with a print selection
   shownCount = matched.length;
@@ -247,6 +262,9 @@ function wireQlist() {
   qlist.addEventListener("click", e => {
     const qnum = e.target.closest(".qnum"); // click "Zadanie N" to flip its print checkbox
     if (qnum) {
+      if (isPhone()) {
+        return; // the checkbox is hidden on phones — don't silently edit the selection
+      }
       const cb = qnum.closest(".q").querySelector(".selectbox input");
       cb.checked = !cb.checked;
       cb.dispatchEvent(new Event("change", { bubbles: true })); // reuse the selection handler
@@ -390,6 +408,39 @@ function wireToolbar() {
       // localStorage blocked → theme just won't persist
     }
     syncThemeButton();
+  };
+  // phone filter drawer: body class only (all mechanics in the app.css phone block); the
+  // outside-click and Escape closers live with the settings ones in wireSettings()
+  filtersBtn.onclick = e => {
+    e.stopPropagation();
+    document.body.classList.toggle("drawer-open");
+  };
+  drawerClose.onclick = () => document.body.classList.remove("drawer-open");
+
+  // Tryb kartkowy (phone-only button): one question per swipe via scroll-snap. Same shape as
+  // the theme toggle above — html class + own localStorage key, not URL state. Class applied
+  // here, before the first render, so there's no snap-in jump.
+  const syncSnapButton = () => {
+    const snap = document.documentElement.classList.contains("snap");
+    snapBtn.textContent = snap ? "▤" : "□";
+    snapBtn.title = snap ? "Wyłącz tryb kartkowy" : "Tryb kartkowy: jedno zadanie na ekran";
+  };
+  try {
+    if (localStorage.getItem("snap") === "on") {
+      document.documentElement.classList.add("snap");
+    }
+  } catch (_e) {
+    // localStorage blocked → snap just won't persist
+  }
+  syncSnapButton();
+  snapBtn.onclick = () => {
+    const snap = document.documentElement.classList.toggle("snap");
+    try {
+      localStorage.setItem("snap", snap ? "on" : "off");
+    } catch (_e) {
+      // localStorage blocked → snap just won't persist
+    }
+    syncSnapButton();
   };
   clearSelBar.onclick = e => {
     // "Wyczyść zaznaczenie": clear the print selection only
@@ -570,11 +621,18 @@ function wireSettings() {
     if (!infotip.hidden && !e.target.closest(".info-i") && !e.target.closest(".infotip")) {
       hideInfotip();
     }
+
+    // phone drawer: backdrop clicks target <body> = outside the sidebar → close
+    // (the Filtry toggle itself never lands here — its handler stops propagation)
+    if (!e.target.closest(".sidebar")) {
+      document.body.classList.remove("drawer-open");
+    }
   });
   addEventListener("keydown", e => {
     if (e.key === "Escape") {
       settingsPop.hidden = true;
       hideInfotip();
+      document.body.classList.remove("drawer-open");
     }
   });
 }
@@ -583,7 +641,8 @@ function wireTitle() {
   // Sheet title: click to edit inline (contentEditable). Enter/blur commits, Escape cancels.
   // An edited (non-empty) title becomes the sticky override; clearing it reverts to auto.
   sheetTitle.addEventListener("click", () => {
-    if (sheetTitle.isContentEditable) {
+    // no editing on phones: the only cancel path is Escape, which mobile keyboards don't have
+    if (sheetTitle.isContentEditable || isPhone()) {
       return;
     }
     sheetTitle.contentEditable = "true";
