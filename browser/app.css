@@ -1356,6 +1356,11 @@ body.scratch-off .scratch-toggle {
     z-index: 30;
     width: min(85vw, 20rem);
     height: auto;
+
+    /* the desktop align-self:flex-start also applies to abspos boxes (CSS Box Alignment)
+       and would size the drawer to its content instead of stretching top..bottom — which
+       kills the internal scroll. stretch restores the inset-based height. */
+    align-self: stretch;
     margin: 0;
 
     /* no top padding: the sticky header row must start at y=0 like the topbar (a negative
