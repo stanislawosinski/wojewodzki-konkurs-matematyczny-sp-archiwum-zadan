@@ -43,6 +43,77 @@ const VERIF_LABELS = {
 // which model(s) produced an answer, for labelling AI answers in the reveal
 const MODEL_LABELS = { sonnet: "Sonnet", "opus+sonnet": "Sonnet + Opus", opus: "Opus" };
 
+// Signals the "W pamięci" presets below are built from. Derived from the question text at index
+// time — nothing is stored in the data, so retuning a threshold is an edit here plus a reload.
+const plainText = html => String(html || "").replace(/<[^>]*>/g, " ");
+const promptLen = q => plainText(q.prompt_html).replace(/\s+/g, " ").trim().length;
+const demandsWork = q =>
+  /uzasadnij|wykaż|udowodnij|zapisz oblicz|opisz sposób|przedstaw oblicz|zapisz rozwiąz/i.test(
+    plainText(q.prompt_html)
+  );
+
+// biggest number anywhere in the question; 0 when it has no digits at all (a purely verbal task)
+function biggestNumber(q) {
+  const text = plainText(q.prompt_html) + (q.choices || []).map(c => plainText(c.html)).join(" ");
+  let max = 0;
+  for (const n of text.match(/\d+(?:[.,]\d+)?/g) || []) {
+    max = Math.max(max, Number.parseFloat(n.replace(",", ".")));
+  }
+  return max;
+}
+
+// Ready-made "can I do this in my head?" heuristics — one click each, and a question may match
+// several. `desc` is the ⓘ note on that row, so the thresholds are always visible in the UI.
+// Keys are wire format (URL hash) — do not rename. blysk ⊂ std by construction.
+const MENTAL_PRESETS = [
+  {
+    key: "blysk",
+    label: "Błyskawiczne",
+    desc: "Zadanie zamknięte za 1 punkt, treść do 120 znaków, żadna liczba nie przekracza 20, bez rysunku.",
+    test: q =>
+      q.type !== "open" &&
+      q.points <= 1 &&
+      !q.figures?.length &&
+      promptLen(q) <= 120 &&
+      biggestNumber(q) <= 20
+  },
+  {
+    key: "std",
+    label: "Standardowe",
+    desc: "Zamknięte albo prawda/fałsz najwyżej za 2 punkty, treść do 250 znaków, liczby do 100, bez rysunku.",
+    test: q =>
+      q.type !== "open" &&
+      q.points <= 2 &&
+      !q.figures?.length &&
+      promptLen(q) <= 250 &&
+      biggestNumber(q) <= 100
+  },
+  {
+    key: "rys",
+    label: "Z rysunkiem",
+    desc: "Zadanie ma rysunek — geometria, którą ogarniasz wzrokiem, bez dorysowywania czegokolwiek.",
+    test: q =>
+      q.type !== "open" &&
+      q.points <= 2 &&
+      q.figures?.length &&
+      promptLen(q) <= 250 &&
+      biggestNumber(q) <= 100
+  },
+  {
+    key: "otw",
+    label: "Bez podpowiedzi",
+    desc: "Zadania otwarte: wynik podajesz sam, nie ma czego zgadywać z podanych odpowiedzi. Treść do 200 znaków, liczby do 100, bez żądania uzasadnienia.",
+    test: q =>
+      q.type === "open" &&
+      q.points <= 2 &&
+      !q.figures?.length &&
+      promptLen(q) <= 200 &&
+      biggestNumber(q) <= 100 &&
+      !demandsWork(q)
+  }
+];
+const MENTAL_LABELS = Object.fromEntries(MENTAL_PRESETS.map(p => [p.key, p.label]));
+
 // explanations behind the ⓘ info icons; `_` is the facet-header note. Only facets/values listed here get an icon.
 const FACET_INFO = {
   weryf: {
@@ -57,6 +128,10 @@ const FACET_INFO = {
     niepewne:
       "Zadanie bez klucza, w którym modele AI nie były ze sobą zgodne — odpowiedź AI traktuj ostrożnie.",
     nieroz: "Weryfikacji nie udało się jednoznacznie rozstrzygnąć."
+  },
+  pamiec: {
+    _: "Gotowe zestawy warunków do liczenia bez kartki, przydatne przy przeglądaniu na telefonie. Zadanie może pasować do kilku naraz.",
+    ...Object.fromEntries(MENTAL_PRESETS.map(p => [p.key, p.desc]))
   }
 };
 const FACETS = [
@@ -84,6 +159,13 @@ const FACETS = [
     values: q => [q.figures?.length ? "z" : "bez"],
     order: ["z", "bez"],
     labelFor: v => (v === "z" ? "Z rysunkiem" : "Bez rysunku")
+  },
+  {
+    key: "pamiec",
+    label: "W pamięci",
+    values: q => MENTAL_PRESETS.filter(p => p.test(q)).map(p => p.key),
+    order: MENTAL_PRESETS.map(p => p.key),
+    labelFor: v => MENTAL_LABELS[v] || v
   },
   {
     key: "sol",
