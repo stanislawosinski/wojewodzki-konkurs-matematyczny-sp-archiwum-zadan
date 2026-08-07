@@ -1729,12 +1729,15 @@ body.scratch-off .scratch-toggle {
     border-radius: 3px;
   }
 
-  /* vector redraws are near-all black-on-white line art: invert flips them to light-on-dark
-     and the hue-rotate flips colors back to their identity (only lightness ends up inverted).
-     0.92 instead of 1 → a soft near-black card, not harsh #000. The white .fig background
-     above inverts along, which also covers the odd redraw with no background rect of its
-     own. PNG crops (scanned paper) keep the white card — inverted raster looks bad. */
+  /* vector redraws are near-all black-on-white line art: invert flips them light-on-dark
+     (hue-rotate restores the colors' hue, brightness lands the lines at text brightness)
+     and mix-blend-mode:screen composites the now-black background away entirely — the page
+     background shows through, so the figures need no card and track any future palette.
+     PNG crops (scanned paper) keep the white card above — inverted raster looks bad. */
   html.dark .fig[src$=".svg"] {
-    filter: invert(0.92) hue-rotate(180deg);
+    filter: invert(1) hue-rotate(180deg) brightness(0.88);
+    mix-blend-mode: screen;
+    background: none;
+    border-radius: 0;
   }
 }
