@@ -482,8 +482,7 @@ function saveSettings() {
       if (i.checked) {
         s[i.name] = i.value;
       }
-    } else if (i.type === "checkbox") {
-      // only checkboxes; the Marker text input is URL-hash state, not a device setting
+    } else {
       s[i.id] = i.checked;
     }
   }
@@ -513,7 +512,10 @@ function restoreSettings() {
 
 function wireSettings() {
   restoreSettings(); // BEFORE the apply* handlers below, so the body classes reflect saved state
-  settingsPop.addEventListener("change", saveSettings);
+  settingsPop.addEventListener("change", () => {
+    saveSettings();
+    applyMarker(); // the mark depends on two settings checkboxes (showMarker, metaTitle)
+  });
 
   // print page-break mode (radio): one/two questions per page, or none. Only affects print.
   const applyPageMode = () => {
@@ -627,17 +629,6 @@ function wireSettings() {
   przCb.onchange = () => applyPrzyroda(true);
   applyPrzyroda(false);
 
-  // "Marker": one character badged onto the favicon (hash state — see state.js). Trimmed to
-  // the first code point, so a pasted emoji (two UTF-16 units) still counts as one char.
-  markerInput.oninput = () => {
-    marker = [...markerInput.value.trim()][0] || "";
-    if (markerInput.value !== marker) {
-      markerInput.value = marker;
-    }
-    applyMarker();
-    writeUrl(false);
-  };
-
   // "Rysunki wektorowe" (radio, default bitmap): vectorPriority sets the default figure format. Changing
   // it clears every per-question pin so all figures snap back to the new default (discarding overrides).
   const applyVector = rerender => {
@@ -684,10 +675,17 @@ function wireSettings() {
   });
 }
 
-// reflect the marker into the favicon: badge the inlined icon, or restore the plain file
+// Favicon mark: derived from the current sheet title (markFromTitle) when the "Marker"
+// setting is on AND the title is shown on screen (the metaTitle toggle) — a hidden title
+// gives no visual anchor for what the mark means. Called from setTitle() and on settings
+// changes; falls back to the plain favicon file when off or markless.
 function applyMarker() {
-  document.querySelector('link[rel="icon"]').href = marker
-    ? `data:image/svg+xml,${encodeURIComponent(faviconWithMarker(marker))}`
+  const mark =
+    $("showMarker").checked && $("metaTitle").checked
+      ? markFromTitle(computeTitle(lastMatched, lastUseInc))
+      : "";
+  document.querySelector('link[rel="icon"]').href = mark
+    ? `data:image/svg+xml,${encodeURIComponent(faviconWithMarker(mark))}`
     : "favicon.svg";
 }
 

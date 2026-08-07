@@ -28,8 +28,7 @@ const search = $("search"),
   filtersBadge = $("filtersBadge"),
   snapBtn = $("snapBtn"),
   drawerClose = $("drawerClose"),
-  settingsClose = $("settingsClose"),
-  markerInput = $("markerInput");
+  settingsClose = $("settingsClose");
 const pagers = [...document.querySelectorAll(".pager")];
 
 // built by buildTopicFacet (render.js) inside #facets, so they don't exist until init runs;
@@ -52,11 +51,6 @@ let page = 1;
 let showAI = false,
   vectorPriority = false,
   showPrzyroda = false;
-// Tab marker: one character badged onto the favicon, to tell tabs with different sets apart.
-// Shareable view state — round-trips through the URL hash (key "marker"; absent = none),
-// deliberately NOT in localStorage so each tab keeps its own. Reassigned by app.js.
-let marker = "";
-
 // Temat facet match mode: false = OR (any selected topic), true = AND (all selected topics).
 // Shareable view state, so it round-trips through the URL hash (key "tmode"; absent = OR).
 // reassigned by app.js (mode toggle) and restoreTopicMode below — kept let, cross-file global
@@ -97,12 +91,14 @@ function autoTitle(qs) {
 const computeTitle = (matched, useInc) =>
   titleOverride != null ? titleOverride : useInc ? autoTitle(matched) || "Zadania" : DEFAULT_TITLE;
 
-// reflect the computed title into the header + tab; skipped mid-edit so typing isn't clobbered
+// reflect the computed title into the header + tab (and the favicon mark derived from it);
+// skipped mid-edit so typing isn't clobbered
 function setTitle() {
   if (sheetTitle.isContentEditable) {
     return;
   }
   document.title = sheetTitle.textContent = computeTitle(lastMatched, lastUseInc);
+  applyMarker();
 }
 const selections = {},
   EMPTY_SELECTIONS = {}; // facetKey -> Set<value>
@@ -225,9 +221,6 @@ function serialize() {
   if (titleOverride != null) {
     o.title = [titleOverride]; // only the edited title; auto/default aren't stored
   }
-  if (marker) {
-    o.marker = [marker]; // the favicon tab marker; empty = default icon, not stored
-  }
   if (topicAnd) {
     o.tmode = ["and"]; // OR is the default and isn't stored, so old URLs load as OR
   }
@@ -312,9 +305,6 @@ function applyState() {
   restoreOverrides(svgOverrides, o.fr, "png");
   restoreOverrides(svgOverrides, o.fv, "svg");
   titleOverride = o.title && o.title[0] != null ? o.title[0] : null; // update() below reflects it via setTitle
-  marker = (o.marker || [])[0] || "";
-  markerInput.value = marker;
-  applyMarker();
   page = 1;
   update();
 }
