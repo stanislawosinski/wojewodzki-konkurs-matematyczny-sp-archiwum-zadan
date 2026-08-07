@@ -274,21 +274,23 @@ function restoreTopicMode(o) {
   syncTopicParents();
 }
 
+// may this hash value be restored into a selection? Unknown/stale values are dropped so
+// state matches the checkboxes that exist, and hidden facets never filter (pasted URLs
+// included): Weryfikacja with AI off, the przyroda Temat leaf with przyroda off.
+function restorableFacetValue(key, v) {
+  if (key === "weryf" && !showAI) {
+    return false;
+  }
+  if (key === "topic" && v === "przyroda" && !showPrzyroda) {
+    return false;
+  }
+  return Boolean(INDEX[key]?.[v]);
+}
+
 function applyState() {
   const o = Facets.decodeHash(location.hash.slice(1));
   for (const f of FACETS) {
-    // drop unknown/stale values so state matches the checkboxes that exist
-    selections[f.key] = new Set(
-      f.key === "weryf" && !showAI
-        ? [] // AI off → the hidden Weryfikacja facet never filters
-        : (o[f.key] || []).filter(
-            v =>
-              INDEX[f.key] &&
-              INDEX[f.key][v] &&
-              // przyroda off → its hidden Temat leaf never filters (pasted URLs included)
-              !(f.key === "topic" && v === "przyroda" && !showPrzyroda)
-          )
-    );
+    selections[f.key] = new Set((o[f.key] || []).filter(v => restorableFacetValue(f.key, v)));
   }
   facetsEl.querySelectorAll(".facet-opt input").forEach(inp => {
     inp.checked = selections[inp.closest(".facet").dataset.facet].has(inp.value);

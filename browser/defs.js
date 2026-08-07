@@ -239,19 +239,21 @@ const esc = s =>
     .replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;");
 
-// favicon.svg with a corner badge (the tab "Marker" setting). The base markup duplicates
-// browser/favicon.svg — keep them in sync. Inlined instead of drawn on a canvas because a
-// file://-loaded image taints the canvas and toDataURL throws.
+// favicon.svg with the "Marker" character as the radicand: the radical's tick is squeezed
+// left and drawn thinner than in browser/favicon.svg (whose rect/grid this duplicates —
+// keep in sync) so the character can fill the space under the bar; the text's alphabetic
+// baseline sits on the tick's bottom vertex (y=24), like real radical typesetting. Inlined
+// instead of drawn on a canvas because a file://-loaded image taints the canvas and
+// toDataURL throws.
 const faviconWithMarker = ch =>
   `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">` +
   `<rect width="32" height="32" rx="6.5" fill="#34406e"/>` +
   `<g stroke="#4d5b93" stroke-width="1">` +
   `<path d="M4 10H28 M4 16H28 M4 22H28 M10 4V28 M16 4V28 M22 4V28"/></g>` +
-  `<path d="M6 18 L11 24 L16.5 8.5 L27 8.5" fill="none" stroke="#f0f2fa"` +
-  ` stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>` +
-  `<circle cx="23.5" cy="8.5" r="8" fill="#d33"/>` +
-  `<text x="23.5" y="9" font-family="system-ui, sans-serif" font-size="11" font-weight="600"` +
-  ` fill="#fff" text-anchor="middle" dominant-baseline="central">${esc(ch)}</text>` +
+  `<path d="M2.5 16.5 L5.5 25.5 L8.5 6 L29.5 6" fill="none" stroke="#f0f2fa"` +
+  ` stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>` +
+  `<text x="19.5" y="25.5" font-family="system-ui, sans-serif" font-size="20" font-weight="600"` +
+  ` fill="#f0f2fa" text-anchor="middle">${esc(ch)}</text>` +
   `</svg>`;
 
 // answer.correct is either plain text (escape it — answers like "a < b" would otherwise
