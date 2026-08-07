@@ -32,7 +32,10 @@ function update() {
     countSel = EMPTY_SELECTIONS;
     countGate = h => shown.has(h);
   } else {
-    const gate = h => !excSet.has(h) && terms.every(t => byHash[h]._search.includes(t));
+    const gate = h =>
+      !excSet.has(h) &&
+      (showPrzyroda || !byHash[h].topics?.includes("przyroda")) &&
+      terms.every(t => byHash[h]._search.includes(t));
     const hits = new Set(Facets.matchedHashes(INDEX, selections, gate, universe, andKeys));
     matched = DATA.filter(q => hits.has(q.hash)); // DATA order = original document order
     countSel = selections;
@@ -479,7 +482,8 @@ function saveSettings() {
       if (i.checked) {
         s[i.name] = i.value;
       }
-    } else {
+    } else if (i.type === "checkbox") {
+      // only checkboxes; the Marker text input is URL-hash state, not a device setting
       s[i.id] = i.checked;
     }
   }
@@ -598,6 +602,42 @@ function wireSettings() {
   aiCb.onchange = () => applyAI(true);
   applyAI(false);
 
+  // "Pokaż zadania przyrodnicze" (default off): the update() gate drops przyroda-tagged
+  // questions, body.hide-przyroda hides their leaf in the Temat tree. Off also clears a
+  // przyroda topic selection, so the hidden leaf can't keep filtering from the hash.
+  const przCb = $("showPrzyroda"),
+    applyPrzyroda = rerender => {
+      showPrzyroda = przCb.checked;
+      document.body.classList.toggle("hide-przyroda", !showPrzyroda);
+      if (!showPrzyroda && selections.topic.has("przyroda")) {
+        selections.topic.delete("przyroda");
+        const inp = facetsEl.querySelector(
+          '.facet[data-facet="topic"] .facet-opt input[value="przyroda"]'
+        );
+        if (inp) {
+          inp.checked = false;
+        }
+        syncTopicParents();
+      }
+      if (rerender) {
+        writeUrl(false);
+        refilter();
+      }
+    };
+  przCb.onchange = () => applyPrzyroda(true);
+  applyPrzyroda(false);
+
+  // "Marker": one character badged onto the favicon (hash state — see state.js). Trimmed to
+  // the first code point, so a pasted emoji (two UTF-16 units) still counts as one char.
+  markerInput.oninput = () => {
+    marker = [...markerInput.value.trim()][0] || "";
+    if (markerInput.value !== marker) {
+      markerInput.value = marker;
+    }
+    applyMarker();
+    writeUrl(false);
+  };
+
   // "Rysunki wektorowe" (radio, default bitmap): vectorPriority sets the default figure format. Changing
   // it clears every per-question pin so all figures snap back to the new default (discarding overrides).
   const applyVector = rerender => {
@@ -642,6 +682,13 @@ function wireSettings() {
       document.body.classList.remove("drawer-open");
     }
   });
+}
+
+// reflect the marker into the favicon: badge the inlined icon, or restore the plain file
+function applyMarker() {
+  document.querySelector('link[rel="icon"]').href = marker
+    ? `data:image/svg+xml,${encodeURIComponent(faviconWithMarker(marker))}`
+    : "favicon.svg";
 }
 
 function wireTitle() {

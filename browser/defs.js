@@ -129,6 +129,9 @@ const FACET_INFO = {
       "Zadanie bez klucza, w którym modele AI nie były ze sobą zgodne — odpowiedź AI traktuj ostrożnie.",
     nieroz: "Weryfikacji nie udało się jednoznacznie rozstrzygnąć."
   },
+  fig: {
+    bezsvg: "Zadania z rysunkiem bitmapowym, który nie ma jeszcze wektorowej przerysówki (SVG)."
+  },
   pamiec: {
     _: "Gotowe zestawy warunków do liczenia bez kartki, przydatne przy przeglądaniu na telefonie. Zadanie może pasować do kilku naraz.",
     ...Object.fromEntries(MENTAL_PRESETS.map(p => [p.key, p.desc]))
@@ -156,9 +159,18 @@ const FACETS = [
   {
     key: "fig",
     label: "Rysunek",
-    values: q => [q.figures?.length ? "z" : "bez"],
-    order: ["z", "bez"],
-    labelFor: v => (v === "z" ? "Z rysunkiem" : "Bez rysunku")
+    values: q => {
+      const o = [q.figures?.length ? "z" : "bez"];
+
+      // figsvg ⊆ figures, so a length mismatch means some bitmap still lacks an SVG redraw
+      if (q.figures?.length && (q.figsvg?.length || 0) < q.figures.length) {
+        o.push("bezsvg");
+      }
+      return o;
+    },
+    order: ["z", "bezsvg", "bez"],
+    labelFor: v =>
+      v === "z" ? "Z rysunkiem" : v === "bezsvg" ? "Bez wersji wektorowej" : "Bez rysunku"
   },
   {
     key: "pamiec",
@@ -226,6 +238,21 @@ const esc = s =>
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;");
+
+// favicon.svg with a corner badge (the tab "Marker" setting). The base markup duplicates
+// browser/favicon.svg — keep them in sync. Inlined instead of drawn on a canvas because a
+// file://-loaded image taints the canvas and toDataURL throws.
+const faviconWithMarker = ch =>
+  `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">` +
+  `<rect width="32" height="32" rx="6.5" fill="#34406e"/>` +
+  `<g stroke="#4d5b93" stroke-width="1">` +
+  `<path d="M4 10H28 M4 16H28 M4 22H28 M10 4V28 M16 4V28 M22 4V28"/></g>` +
+  `<path d="M6 18 L11 24 L16.5 8.5 L27 8.5" fill="none" stroke="#f0f2fa"` +
+  ` stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>` +
+  `<circle cx="23.5" cy="8.5" r="8" fill="#d33"/>` +
+  `<text x="23.5" y="9" font-family="system-ui, sans-serif" font-size="11" font-weight="600"` +
+  ` fill="#fff" text-anchor="middle" dominant-baseline="central">${esc(ch)}</text>` +
+  `</svg>`;
 
 // answer.correct is either plain text (escape it — answers like "a < b" would otherwise
 // eat the rest of the line as a bogus tag) or, by schema, raw MathML (pass through)

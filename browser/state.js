@@ -28,7 +28,8 @@ const search = $("search"),
   filtersBadge = $("filtersBadge"),
   snapBtn = $("snapBtn"),
   drawerClose = $("drawerClose"),
-  settingsClose = $("settingsClose");
+  settingsClose = $("settingsClose"),
+  markerInput = $("markerInput");
 const pagers = [...document.querySelectorAll(".pager")];
 
 // built by buildTopicFacet (render.js) inside #facets, so they don't exist until init runs;
@@ -45,9 +46,17 @@ let page = 1;
 // Eksperymenty toggles (settings popup, localStorage-persisted). showAI: reveal the AI verification
 // (Weryfikacja facet + AI answers/key status), off by default. vectorPriority: figures default to the
 // SVG redraw (△ then switches to PNG) instead of the reverse. Read by renderQuestion/renderKeyEntry.
+// showPrzyroda: include the przyroda-tagged questions (old śląskie format), off by default —
+// update()'s gate drops them, so an explicit id list still shows them.
 // biome-ignore lint/style/useConst: reassigned by app.js wireSettings() — cross-file globals
 let showAI = false,
-  vectorPriority = false;
+  vectorPriority = false,
+  showPrzyroda = false;
+// Tab marker: one character badged onto the favicon, to tell tabs with different sets apart.
+// Shareable view state — round-trips through the URL hash (key "marker"; absent = none),
+// deliberately NOT in localStorage so each tab keeps its own. Reassigned by app.js.
+let marker = "";
+
 // Temat facet match mode: false = OR (any selected topic), true = AND (all selected topics).
 // Shareable view state, so it round-trips through the URL hash (key "tmode"; absent = OR).
 // reassigned by app.js (mode toggle) and restoreTopicMode below — kept let, cross-file global
@@ -216,6 +225,9 @@ function serialize() {
   if (titleOverride != null) {
     o.title = [titleOverride]; // only the edited title; auto/default aren't stored
   }
+  if (marker) {
+    o.marker = [marker]; // the favicon tab marker; empty = default icon, not stored
+  }
   if (topicAnd) {
     o.tmode = ["and"]; // OR is the default and isn't stored, so old URLs load as OR
   }
@@ -269,7 +281,13 @@ function applyState() {
     selections[f.key] = new Set(
       f.key === "weryf" && !showAI
         ? [] // AI off → the hidden Weryfikacja facet never filters
-        : (o[f.key] || []).filter(v => INDEX[f.key] && INDEX[f.key][v])
+        : (o[f.key] || []).filter(
+            v =>
+              INDEX[f.key] &&
+              INDEX[f.key][v] &&
+              // przyroda off → its hidden Temat leaf never filters (pasted URLs included)
+              !(f.key === "topic" && v === "przyroda" && !showPrzyroda)
+          )
     );
   }
   facetsEl.querySelectorAll(".facet-opt input").forEach(inp => {
@@ -292,6 +310,9 @@ function applyState() {
   restoreOverrides(svgOverrides, o.fr, "png");
   restoreOverrides(svgOverrides, o.fv, "svg");
   titleOverride = o.title && o.title[0] != null ? o.title[0] : null; // update() below reflects it via setTitle
+  marker = (o.marker || [])[0] || "";
+  markerInput.value = marker;
+  applyMarker();
   page = 1;
   update();
 }

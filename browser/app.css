@@ -490,6 +490,9 @@ select {
 .hide-ai .facet[data-facet="weryf"] {
   display: none;
 } /* "Pokaż weryfikację AI" off → the Weryfikacja facet is hidden (its selection is also cleared) */
+.hide-przyroda .facet[data-facet="topic"] .facet-opt:has(input[value="przyroda"]) {
+  display: none;
+} /* "Pokaż zadania przyrodnicze" off → its Temat leaf is hidden (selection also cleared) */
 /* left-gutter controls (screen order, left→right): × remove · ▾ up · ▾ down · checkbox · question.
    Every position derives from these gaps — tune them here. */
 .q {
@@ -1293,25 +1296,28 @@ body.scratch-off .scratch-toggle {
   .settings-pop section + section {
     display: none;
   }
-  /* ☰ opens the drawer; styled like the other topbar glyphs. The negative margin cancels
-     the glyph padding, putting ☰ flush on the text edge. */
+  /* ☰ opens the drawer; sized like the ⚙ across the bar. The negative margin cancels the
+     glyph padding, putting ☰ flush on the text edge; the translate lifts the ink onto the
+     summary text's optical center (the glyph sits low in its em box, like the ⚙). */
   #filtersBtn {
     display: inline-block;
     position: relative;
     border: none;
     background: none;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     line-height: 1;
     padding: 0.15rem 0.3rem;
     margin-left: -0.3rem;
+    transform: translateY(-0.11em);
     color: #666;
     cursor: pointer;
   }
 
-  /* active-filter count as an iPhone-style bubble on the ☰ corner (red in both themes) */
+  /* active-filter count as an iPhone-style bubble on the ☰ corner (red in both themes);
+     sits low enough to overlap the glyph a little — deliberate, keeps it inside the bar */
   .fbadge {
     position: absolute;
-    top: -0.3rem;
+    top: -0.05rem;
     right: -0.35rem;
     min-width: 1.6em;
     padding: 0.25em 0.3em;
@@ -1422,12 +1428,21 @@ body.scratch-off .scratch-toggle {
     padding: 0.15rem 0.3rem;
     font-size: 1.6rem;
     line-height: 1;
+    transform: translateY(
+      -0.08em
+    ); /* × ink sits low in its em box; lift onto the row's optical center */
     color: #777;
     cursor: pointer;
   }
   .infotip {
     z-index: 35;
   } /* ⓘ popovers open from inside the drawer (z 30); the base 25 would bury them */
+
+  /* the "W pamięci" presets are the phone's main use case — float them to the top of the
+     drawer (visual order only; #facets is a flex column, DOM/tab order unchanged) */
+  .facet[data-facet="pamiec"] {
+    order: -1;
+  }
 
   /* answer reveal: the gutter eye becomes a static, full-width tappable bar in the card */
   .reveal > summary {
