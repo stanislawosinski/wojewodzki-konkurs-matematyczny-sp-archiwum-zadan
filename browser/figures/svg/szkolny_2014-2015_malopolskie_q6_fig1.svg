@@ -18,13 +18,16 @@
     <path d="M 559.67 269.02 A 70.31 70.31 0 0 0 431.75 239.31"/>
   </g>
 
-  <!-- angle labels; the degree marks are drawn as capital O, as in the scan -->
+  <!-- angle labels; the scan's degree marks are capital O, redrawn as a degree sign.
+       Each degree sign is set at its number's own font-size, so it renders as a small
+       raised ring (a degree) rather than the O-sized one the scan prints; x/y put the
+       ring's top-left where the scan's O starts, measured off a browser render. -->
   <text x="113" y="78" font-family="Times New Roman,serif" font-size="32.9" font-weight="bold" fill="#000">80</text>
-  <text x="148" y="68" font-family="Times New Roman,serif" font-size="23.3" font-weight="bold" fill="#000">O</text>
+  <text x="148.5" y="75.33" font-family="Times New Roman,serif" font-size="32.9" font-weight="bold" fill="#000">&#176;</text>
   <text x="171" y="145" font-family="Times New Roman,serif" font-size="40.1" font-weight="bold" font-style="italic" fill="#000">&#945;</text>
   <text x="96" y="254" font-family="Times New Roman,serif" font-size="30.9" font-weight="bold" font-style="italic" fill="#000">x</text>
   <text x="148" y="257" font-family="Times New Roman,serif" font-size="36.4" font-weight="bold" font-style="italic" fill="#000">&#947;</text>
   <text x="411" y="258" font-family="Times New Roman,serif" font-size="31.3" font-weight="bold" font-style="italic" fill="#000">&#946;</text>
   <text x="460" y="251" font-family="Times New Roman,serif" font-size="33.4" font-weight="bold" fill="#000">150</text>
-  <text x="512" y="240" font-family="Times New Roman,serif" font-size="21.7" font-weight="bold" fill="#000">O</text>
+  <text x="509.5" y="247.1" font-family="Times New Roman,serif" font-size="33.4" font-weight="bold" fill="#000">&#176;</text>
 </svg>

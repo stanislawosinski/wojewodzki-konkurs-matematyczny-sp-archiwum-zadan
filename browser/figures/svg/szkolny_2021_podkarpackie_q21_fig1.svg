@@ -16,5 +16,9 @@
     <line x1="60" y1="892" x2="1008" y2="892"/>
     <line x1="60" y1="1052" x2="1008" y2="1052"/>
   </g>
-  <path d="M 533.6 252.8 L 216.5 728.5 L 846.6 895.4 Z" fill="none" stroke="#000" stroke-width="11"/>
+
+  <!-- vertices snapped to the grid crossings they belong to (the scan draws them 2-4px
+       off); bevel joins because a miter on an 11px stroke shoots ~11px past the corner,
+       while the scan's corners stop at the crossing -->
+  <path d="M 534.5 250.5 L 219 731.5 L 849 892 Z" fill="none" stroke="#000" stroke-width="11" stroke-linejoin="bevel"/>
 </svg>

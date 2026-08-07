@@ -5,8 +5,8 @@
   <line x1="165" y1="34" x2="51" y2="288.5" stroke="#000" stroke-width="1.4"/>
   <line x1="165" y1="34" x2="276" y2="288.5" stroke="#000" stroke-width="1.4"/>
 
-  <!-- top ellipse: thin back (upper) arc -->
-  <path d="M 51 288.5 A 112.5 29.5 0 0 0 276 288.5" fill="none" stroke="#000" stroke-width="1.3"/>
+  <!-- top ellipse: bold front (lower) arc, shared circle emphasised -->
+  <path d="M 51 288.5 A 112.5 29.5 0 0 0 276 288.5" fill="none" stroke="#000" stroke-width="5.5"/>
 
   <!-- cylinder sides -->
   <line x1="51" y1="288.5" x2="51" y2="544" stroke="#000" stroke-width="1.4"/>
@@ -15,8 +15,8 @@
   <!-- bottom ellipse (all thin) -->
   <ellipse cx="163.5" cy="544" rx="112.5" ry="28" fill="none" stroke="#000" stroke-width="1.3"/>
 
-  <!-- top ellipse: bold front (lower) arc, shared circle emphasised -->
-  <path d="M 51 288.5 A 112.5 29.5 0 0 1 276 288.5" fill="none" stroke="#000" stroke-width="5.5"/>
+  <!-- top ellipse: thin back (upper) arc -->
+  <path d="M 51 288.5 A 112.5 29.5 0 0 1 276 288.5" fill="none" stroke="#000" stroke-width="1.3"/>
 
   <!-- dashed radius lines + center dots -->
   <line x1="51" y1="288" x2="163.5" y2="288" stroke="#888" stroke-width="1.2" stroke-dasharray="3,2.5"/>
@@ -31,14 +31,14 @@
   <text x="37" y="434" font-family="Times New Roman,serif" font-style="italic" font-size="24" fill="#000" text-anchor="middle">H</text>
 
   <!-- vertical bracket: 10 cm -->
-  <line x1="404.5" y1="22" x2="404.5" y2="555" stroke="#000" stroke-width="8"/>
-  <circle cx="404.5" cy="22" r="17" fill="#000"/>
-  <circle cx="404.5" cy="555" r="17" fill="#000"/>
+  <line x1="404.5" y1="11" x2="404.5" y2="564.5" stroke="#000" stroke-width="8"/>
+  <line x1="388.5" y1="11" x2="420.5" y2="11" stroke="#000" stroke-width="8"/>
+  <line x1="388.5" y1="564.5" x2="420.5" y2="564.5" stroke="#000" stroke-width="8"/>
   <text x="484" y="212" font-family="Helvetica,Arial,sans-serif" font-size="26" fill="#000" text-anchor="middle">10 cm</text>
 
   <!-- horizontal bracket: 6 cm -->
-  <line x1="49.5" y1="649" x2="280.5" y2="649" stroke="#000" stroke-width="8"/>
-  <circle cx="49.5" cy="649" r="15.5" fill="#000"/>
-  <circle cx="280.5" cy="649" r="15.5" fill="#000"/>
+  <line x1="41.5" y1="649" x2="287.5" y2="649" stroke="#000" stroke-width="8"/>
+  <line x1="41.5" y1="635" x2="41.5" y2="663" stroke="#000" stroke-width="8"/>
+  <line x1="287.5" y1="633" x2="287.5" y2="661" stroke="#000" stroke-width="8"/>
   <text x="119" y="684" font-family="Helvetica,Arial,sans-serif" font-size="26" fill="#000" text-anchor="middle">6 cm</text>
 </svg>

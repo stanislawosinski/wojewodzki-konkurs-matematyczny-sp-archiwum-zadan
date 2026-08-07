@@ -1,6 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="285" height="258" viewBox="0 0 285 258">
 <rect width="285" height="258" fill="#fff"/>
-<circle cx="170.57" cy="36.43" r="33.42" fill="none" stroke="#000" stroke-width="2.8"/>
-<circle cx="90.94" cy="58.44" r="47.66" fill="none" stroke="#000" stroke-width="2.8"/>
-<circle cx="174.37" cy="136.71" r="68.86" fill="none" stroke="#000" stroke-width="2.8"/>
+<!-- the three circles are pairwise externally tangent (the prompt says so; the scan
+     draws two of the pairs crossing by ~2px), so this is the best fit to the ink
+     under that constraint: every centre distance equals the sum of the two radii -->
+<circle cx="169.81" cy="36.34" r="33.593" fill="none" stroke="#000" stroke-width="2.8"/>
+<circle cx="91.57" cy="58.06" r="47.606" fill="none" stroke="#000" stroke-width="2.8"/>
+<circle cx="175.42" cy="138.07" r="68.292" fill="none" stroke="#000" stroke-width="2.8"/>
 </svg>

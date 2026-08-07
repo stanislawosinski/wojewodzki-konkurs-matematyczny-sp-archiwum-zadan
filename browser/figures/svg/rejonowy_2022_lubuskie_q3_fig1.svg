@@ -8,8 +8,8 @@
     <path d="M 36 39 L 197 39 L 197 201 L 36 201 Z"/>
     <!-- solid diagonal, corner to apex point "1" -->
     <line x1="36" y1="201" x2="164" y2="40"/>
-    <!-- dashed diagonal, apex to bottom-right corner -->
-    <line x1="164" y1="40" x2="197" y2="201" stroke-dasharray="6,4"/>
+    <!-- diagonal, apex to bottom-right corner (the scan's breaks are raster noise) -->
+    <line x1="164" y1="40" x2="197" y2="201"/>
     <!-- right square -->
     <path d="M 248 39 L 410 39 L 410 201 L 248 201 Z"/>
     <!-- diagonal, top point (under "2") to bottom point (under "1") -->
