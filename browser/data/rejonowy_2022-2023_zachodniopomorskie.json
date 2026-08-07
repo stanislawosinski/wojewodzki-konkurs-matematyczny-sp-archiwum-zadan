@@ -846,7 +846,7 @@
       ],
       "prompt_html": "<p>Które z wyrażeń ma wartość dodatnią dla każdej liczby rzeczywistej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>?</p>",
       "choices": [
-        { "label": "A", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>x</mi><mo>|</mo></math>" },
+        { "label": "A", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>x</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math>" },
         { "label": "B", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mi>x</mi><mo>−</mo><mn>7</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><mn>1</mn></math>" },
         { "label": "C", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo>)</mo></mrow><mn>2</mn></msup></math>" },
         { "label": "D", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>x</mi><mo>+</mo><mn>6</mn><mo>)</mo><mo>+</mo><mn>1</mn></math>" }
@@ -980,7 +980,7 @@
         "wartość bezwzględna",
         "działania na pierwiastkach"
       ],
-      "prompt_html": "<p>Po uproszczeniu wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mn>1</mn><mo>−</mo><msqrt><mn>2</mn></msqrt><mo>|</mo><mo>−</mo><mn>1</mn><mo>+</mo><msqrt><mn>2</mn></msqrt></math> wynosi:</p>",
+      "prompt_html": "<p>Po uproszczeniu wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mn>1</mn><mo>−</mo><msqrt><mn>2</mn></msqrt><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>−</mo><mn>1</mn><mo>+</mo><msqrt><mn>2</mn></msqrt></math> wynosi:</p>",
       "choices": [
         { "label": "A", "html": "2" },
         { "label": "B", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>−</mo><mn>2</mn></math>" },

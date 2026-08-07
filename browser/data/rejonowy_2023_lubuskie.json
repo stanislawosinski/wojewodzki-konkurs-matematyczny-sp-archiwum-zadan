@@ -377,7 +377,7 @@
       "topics": [
         "działania na potęgach"
       ],
-      "prompt_html": "<p>W zbiorze liczb całkowitych Marcin określił następującą operację matematyczną:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><menclose notation=\"box\"><mi>x</mi></menclose><mo>=</mo><msup><mi>x</mi><mn>4</mn></msup><mo>,</mo><mspace width=\"0.6em\"/><mi>x</mi><mo>|</mo><mi>y</mi><mo>=</mo><mi>x</mi><mo>+</mo><mi>y</mi></math></p><p>Wynikiem zapisanego przez niego działania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><menclose notation=\"box\"><menclose notation=\"box\"><mn>2</mn></menclose><mo>|</mo><menclose notation=\"box\"><mn>2</mn></menclose></menclose></math> jest liczba</p>",
+      "prompt_html": "<p>W zbiorze liczb całkowitych Marcin określił następującą operację matematyczną:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><menclose notation=\"box\"><mi>x</mi></menclose><mo>=</mo><msup><mi>x</mi><mn>4</mn></msup><mo>,</mo><mspace width=\"0.6em\"/><mi>x</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>y</mi><mo>=</mo><mi>x</mi><mo>+</mo><mi>y</mi></math></p><p>Wynikiem zapisanego przez niego działania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><menclose notation=\"box\"><menclose notation=\"box\"><mn>2</mn></menclose><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><menclose notation=\"box\"><mn>2</mn></menclose></menclose></math> jest liczba</p>",
       "choices": [
         { "label": "A", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>20</mn></msup></math>" },
         { "label": "B", "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>12</mn></msup></math>" },
@@ -600,7 +600,7 @@
       "topics": [
         "wartość bezwzględna"
       ],
-      "prompt_html": "<p>Wynikiem działania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>−</mo><mn>10</mn><mo>−</mo><mo>|</mo><mo>−</mo><mn>5</mn><mo>|</mo><mo>)</mo><mo>·</mo><mo>|</mo><mo>−</mo><mn>2</mn><mo>|</mo></math> jest liczba</p>",
+      "prompt_html": "<p>Wynikiem działania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>−</mo><mn>10</mn><mo>−</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>−</mo><mn>5</mn><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>)</mo><mo>·</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>−</mo><mn>2</mn><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math> jest liczba</p>",
       "choices": [
         { "label": "A", "html": "−30" },
         { "label": "B", "html": "−10" },

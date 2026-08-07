@@ -157,7 +157,7 @@
       "topics": [
         "układ współrzędnych"
       ],
-      "prompt_html": "<p>Na prostej obrano kolejno pięć punktów: A, B, C, D, E. Wiadomo, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mn>19</mn></mrow></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>CE</mi><mo>|</mo><mo>=</mo><mn>97</mn></mrow></math> cm oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AC</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>BD</mi><mo>|</mo></mrow></math>.</p><p>Długość odcinka DE jest równa:</p>",
+      "prompt_html": "<p>Na prostej obrano kolejno pięć punktów: A, B, C, D, E. Wiadomo, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>19</mn></mrow></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>97</mn></mrow></math> cm oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>.</p><p>Długość odcinka DE jest równa:</p>",
       "choices": [
         {
           "label": "A",
@@ -191,7 +191,7 @@
           "by": "opus+sonnet",
           "agrees": null,
           "corroborated": true,
-          "solution_html": "<p>Kolejno A,B,C,D,E. Niech A=0, B=19, C=c. Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>AC</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>BD</mi><mo>|</mo></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mi>d</mi><mo>−</mo><mn>19</mn></math>, więc D=c+19.</p><p>Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>CE</mi><mo>|</mo><mo>=</mo><mn>97</mn></math>: E=c+97. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>DE</mi><mo>|</mo><mo>=</mo><mn>97</mn><mo>−</mo><mn>19</mn><mo>=</mo><mn>78</mn></math> cm.</p>"
+          "solution_html": "<p>Kolejno A,B,C,D,E. Niech A=0, B=19, C=c. Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mi>d</mi><mo>−</mo><mn>19</mn></math>, więc D=c+19.</p><p>Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>97</mn></math>: E=c+97. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>97</mn><mo>−</mo><mn>19</mn><mo>=</mo><mn>78</mn></math> cm.</p>"
         }
       }
     },
@@ -377,7 +377,7 @@
           "by": "opus+sonnet",
           "agrees": null,
           "corroborated": true,
-          "solution_html": "<p>A=(0,0), B=(a,0), C=(a,b), D=(0,b); E=(a,b/2), F=(a/2,b).</p><p>Pole AEF = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>|</mo><mi>ab</mi><mo>−</mo><mfrac><mrow><mi>ab</mi></mrow><mn>4</mn></mfrac><mo>|</mo><mo>=</mo><mfrac><mrow><mn>3</mn><mi>ab</mi></mrow><mn>8</mn></mfrac><mo>=</mo><mn>15</mn></math> ⇒ ab = 40 cm².</p>"
+          "solution_html": "<p>A=(0,0), B=(a,0), C=(a,b), D=(0,b); E=(a,b/2), F=(a/2,b).</p><p>Pole AEF = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>ab</mi><mo>−</mo><mfrac><mrow><mi>ab</mi></mrow><mn>4</mn></mfrac><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mfrac><mrow><mn>3</mn><mi>ab</mi></mrow><mn>8</mn></mfrac><mo>=</mo><mn>15</mn></math> ⇒ ab = 40 cm².</p>"
         }
       }
     },
