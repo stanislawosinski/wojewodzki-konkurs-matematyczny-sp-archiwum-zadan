@@ -254,6 +254,13 @@ function wirePagers() {
   }
 }
 
+// per-question pin buttons: CSS selector → handler. △ format, –/½/1 brudnopis, –/+ figure size.
+const PIN_BUTTONS = [
+  [".svgtoggle", toggleFigureFormat],
+  [".scratch-toggle", toggleScratchPin],
+  [".figsize", adjustFigureSize]
+];
+
 function wireQlist() {
   qlist.addEventListener("change", e => {
     if (!e.target.matches(".selectbox input")) {
@@ -283,30 +290,33 @@ function wireQlist() {
       flashCopied(hashEl);
       return;
     }
-    const svgBtn = e.target.closest(".svgtoggle"); // △: swap this question between bitmap and vector redraw
-    if (svgBtn) {
-      toggleFigureFormat(svgBtn);
-      return;
+    // the per-question pin buttons all share the shape "find, dispatch, done"
+    for (const [sel, fn] of PIN_BUTTONS) {
+      const b = e.target.closest(sel);
+      if (b) {
+        fn(b);
+        return;
+      }
     }
-    const scratchBtn = e.target.closest(".scratch-toggle"); // –/½/1: per-question brudnopis override (print reserved space)
-    if (scratchBtn) {
-      toggleScratchPin(scratchBtn);
-      return;
-    }
-    const rm = e.target.closest(".reorder.remove"); // × : drop this question's hash from the id box
-    if (rm) {
-      inc.value = idList(inc.value)
-        .filter(h => h !== rm.closest(".q").dataset.hash)
-        .join(", ");
-      writeUrl(false);
-      refilter();
-      return;
-    }
-    const btn = e.target.closest(".reorder"); // reorder arrows: swap adjacent hashes in the id box
-    if (btn) {
-      reorderIdList(btn);
-    }
+    handleReorderClick(e); // × remove / ▴▾ reorder, "Pokaż tylko id" mode only
   });
+}
+
+// reorder-arrow gutter clicks (id-list mode): × drops the hash, ▴/▾ swap it with its neighbour
+function handleReorderClick(e) {
+  const rm = e.target.closest(".reorder.remove");
+  if (rm) {
+    inc.value = idList(inc.value)
+      .filter(h => h !== rm.closest(".q").dataset.hash)
+      .join(", ");
+    writeUrl(false);
+    refilter();
+    return;
+  }
+  const btn = e.target.closest(".reorder");
+  if (btn) {
+    reorderIdList(btn);
+  }
 }
 
 function toggleFigureFormat(svgBtn) {
@@ -327,6 +337,27 @@ function toggleFigureFormat(svgBtn) {
   svgBtn.textContent = showSvg ? "△" : "⊞"; // glyph reflects the now-current format
   svgBtn.title = showSvg ? "Pokaż rysunek rastrowy (PNG)" : "Pokaż rysunek wektorowy (SVG)";
   writeUrl(false); // persist the pin in the URL hash
+}
+
+function adjustFigureSize(btn) {
+  const q = btn.closest(".q"),
+    h = q.dataset.hash;
+  const step = clampFigStep((figSizeOverrides.get(h) || 0) + Number(btn.dataset.dir));
+  step ? figSizeOverrides.set(h, step) : figSizeOverrides.delete(h); // 0 = default, not stored
+  const zoom = figZoom(step);
+  for (const img of q.querySelectorAll(".fig")) {
+    if (step) {
+      img.style.zoom = zoom;
+      img.style.maxWidth = "none"; // see figuresHtml: percentage max-width would cancel the zoom
+    } else {
+      img.style.removeProperty("zoom");
+      img.style.removeProperty("max-width");
+    }
+  }
+  for (const b of q.querySelectorAll(".figsize")) {
+    b.classList.toggle("on", step !== 0); // both –/+ light green while a size is pinned
+  }
+  writeUrl(false); // persist the pin in the URL hash (replace state)
 }
 
 function toggleScratchPin(scratchBtn) {

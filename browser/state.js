@@ -58,6 +58,7 @@ let topicAnd = false;
 const selectedSet = new Set(); // hashes; lives outside the DOM — articles are destroyed on re-render
 const scratchOverrides = new Map(); // hash -> 'half' | 'full'; per-question brudnopis override (default not stored)
 const svgOverrides = new Map(); // hash -> 'png' | 'svg'; per-question figure format pin (default follows vectorPriority; cleared when the setting changes). Serialized to the hash so it survives reload/sharing.
+const figSizeOverrides = new Map(); // hash -> nonzero int step; per-question figure size (CSS zoom = figZoom(step)). Default 0 not stored. Serialized to the hash (key "fs") so it survives reload/sharing.
 const scratchMode = () => document.querySelector('input[name="pageMode"]:checked').value;
 
 // Sheet title (the .sheet-title header + document.title). titleOverride = a user-typed title
@@ -179,6 +180,18 @@ function restoreOverrides(map, hashes, val) {
   }
 }
 
+// figure-size entries are "<hash>.<step>"; drop stale hashes and out-of-range/zero steps
+function restoreFigSizes(entries) {
+  for (const s of entries || []) {
+    const dot = s.indexOf(".");
+    const h = s.slice(0, dot),
+      step = clampFigStep(parseInt(s.slice(dot + 1), 10));
+    if (dot > 0 && byHash[h] && step) {
+      figSizeOverrides.set(h, step);
+    }
+  }
+}
+
 function serialize() {
   const o = {};
   for (const f of FACETS) {
@@ -218,6 +231,15 @@ function serialize() {
   if (fv.length) {
     o.fv = fv;
   }
+
+  // per-question figure size steps: each entry is "<hash>.<step>" (hash is hex, so the dot is unambiguous)
+  const fs = [];
+  for (const [h, step] of figSizeOverrides) {
+    fs.push(`${h}.${step}`);
+  }
+  if (fs.length) {
+    o.fs = fs;
+  }
   if (titleOverride != null) {
     o.title = [titleOverride]; // only the edited title; auto/default aren't stored
   }
@@ -236,7 +258,7 @@ function pruneScratchToInclude() {
     return;
   }
   const keep = new Set(incIds);
-  for (const m of [scratchOverrides, svgOverrides]) {
+  for (const m of [scratchOverrides, svgOverrides, figSizeOverrides]) {
     for (const h of [...m.keys()]) {
       if (!keep.has(h)) {
         m.delete(h);
@@ -304,6 +326,8 @@ function applyState() {
   svgOverrides.clear();
   restoreOverrides(svgOverrides, o.fr, "png");
   restoreOverrides(svgOverrides, o.fv, "svg");
+  figSizeOverrides.clear();
+  restoreFigSizes(o.fs);
   titleOverride = o.title && o.title[0] != null ? o.title[0] : null; // update() below reflects it via setTitle
   page = 1;
   update();

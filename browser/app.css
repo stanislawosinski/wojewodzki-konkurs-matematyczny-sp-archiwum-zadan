@@ -876,6 +876,11 @@ select {
 .prompt {
   margin: 0.5rem 0;
 }
+.figs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} /* centers each figure — and keeps an enlarged one centered when it overflows the column */
 .fig {
   max-width: 100%;
   height: auto;
@@ -987,15 +992,11 @@ math {
 body.scratch-off .scratch-toggle {
   display: none;
 } /* global brudnopis wyłączony → nothing to override */
-/* vector-redraw toggle: same box as the eye, centered under the ▾ up button (one slot left of brudnopis) */
+/* vector-redraw toggle: same box as the eye, in the figure-controls row (top: 5rem), centered under the eye */
 .svgtoggle {
   position: absolute;
-  left: calc(
-    -1 *
-    (var(--qgap) + var(--cb) + var(--grp) + var(--btn) + var(--pair) + var(--btn)) -
-    0.048rem
-  );
-  top: 2.6rem;
+  left: calc(-1 * (var(--qgap) + var(--cb)) + 0.052rem);
+  top: 5rem;
   box-sizing: border-box;
   width: 1.196rem;
   height: 1.196rem;
@@ -1020,6 +1021,50 @@ body.scratch-off .scratch-toggle {
   border-color: #8c8;
   background: #eef8ee;
   color: #161;
+}
+/* per-question figure size –/+ : the figure-controls row (top: 5rem), under the ▾ down / ▴ up buttons.
+   Both light green (.on) while a size is pinned. */
+.figsize {
+  position: absolute;
+  top: 5rem;
+  box-sizing: border-box;
+  width: 1.196rem;
+  height: 1.196rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.95rem;
+  line-height: 1;
+  border: 1px solid var(--border-strong);
+  border-radius: 3px;
+  background: #fff;
+  color: #555;
+  cursor: pointer;
+  padding: 0;
+  user-select: none;
+  opacity: 0.7;
+  transition: opacity 0.12s;
+}
+.figsize:hover {
+  opacity: 1;
+  border-color: #888;
+  color: #222;
+}
+.figsize.on {
+  opacity: 1;
+  border-color: #8c8;
+  background: #eef8ee;
+  color: #161;
+}
+.figsize.dec {
+  left: calc(-1 * (var(--qgap) + var(--cb) + var(--grp) + var(--btn)) - 0.048rem);
+}
+.figsize.inc {
+  left: calc(
+    -1 *
+    (var(--qgap) + var(--cb) + var(--grp) + var(--btn) + var(--pair) + var(--btn)) -
+    0.048rem
+  );
 }
 .answer {
   margin-top: 0.5rem;
@@ -1136,6 +1181,9 @@ body.scratch-off .scratch-toggle {
   .scratch-toggle {
     display: none;
   } /* the brudnopis override control never prints (its effect does) */
+  .figsize {
+    display: none;
+  } /* the figure-size buttons never print (their zoom effect does) */
   .pager {
     display: none;
   }
@@ -1291,6 +1339,7 @@ body.scratch-off .scratch-toggle {
   .gutter,
   .scratch-toggle,
   .svgtoggle,
+  .figsize,
   #clearSelBar,
   #printBtn,
   .settings-pop section + section {

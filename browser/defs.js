@@ -285,6 +285,14 @@ const idList = s => (s.match(/[0-9a-f]{8}/gi) || []).map(x => x.toLowerCase());
 
 const scratchGlyph = s => (s === "half" ? "½" : s === "full" ? "1" : "–");
 
+// per-question figure size: the –/+ buttons nudge an integer step, each ~15%, clamped so a
+// figure can't shrink away or blow up. 0 = default (never stored/serialized). Applied as CSS
+// zoom, which scales any figure (width attr or not) and reflows — unlike transform: scale.
+const FIG_STEP_MIN = -6,
+  FIG_STEP_MAX = 10;
+const clampFigStep = n => Math.max(FIG_STEP_MIN, Math.min(FIG_STEP_MAX, n));
+const figZoom = step => (1.15 ** step).toFixed(3);
+
 // what the global brudnopis mode gives one question: short-closed (phalf) → half, else full; half/full force it
 const autoScratch = (phalf, mode) =>
   mode === "half" ? "half" : mode === "full" ? "full" : phalf ? "half" : "full";

@@ -373,12 +373,33 @@ function questionControlsHtml(q, seq, half, override, figFmt, figDefault) {
       `<button type="button" class="svgtoggle${figFmt !== figDefault ? " on" : ""}" title="${figFmt === "svg" ? "Pokaż rysunek rastrowy (PNG)" : "Pokaż rysunek wektorowy (SVG)"}" aria-label="przełącz format rysunku">${figFmt === "svg" ? "△" : "⊞"}</button>`
     );
   }
-  return parts.join("\n");
+
+  parts.push(figSizeButtonsHtml(q)); // –/+ figure-size row; "" when the question has no figure
+  return parts.filter(Boolean).join("\n");
+}
+
+// the –/+ figure-size buttons (figure-controls row); "" when there's nothing to resize.
+// Both light green (.on) while a size is pinned for this question.
+function figSizeButtonsHtml(q) {
+  if (!(q.figures || []).length) {
+    return "";
+  }
+  const on = figSizeOverrides.get(q.hash) ? " on" : "";
+  return (
+    `<button type="button" class="figsize dec${on}" title="Zmniejsz rysunek" aria-label="zmniejsz rysunek" data-dir="-1">−</button>` +
+    `<button type="button" class="figsize inc${on}" title="Powiększ rysunek" aria-label="powiększ rysunek" data-dir="1">+</button>`
+  );
 }
 
 // the lazy <img> tags for a question's figures, honouring the current format pin
 function figuresHtml(q, figFmt) {
   const hasSvg = new Set(q.figsvg || []);
+  const step = figSizeOverrides.get(q.hash) || 0;
+
+  // per-question size pin (CSS zoom; prints too). max-width:none is load-bearing: a
+  // percentage max-width re-resolves in the zoomed coordinate space and would cancel the
+  // zoom out entirely — the .figs flex parent re-centers whatever overflows the column.
+  const zoom = step ? ` style="zoom:${figZoom(step)};max-width:none"` : "";
   const parts = [];
   for (const fig of q.figures || []) {
     // A 400 dpi figure is laid out at its 200 dpi size, so the extra pixels go to
@@ -393,10 +414,13 @@ function figuresHtml(q, figFmt) {
       svg = `figures/svg/${esc(fig.replace(/\.png$/, ".svg"))}`;
     const alt = hasVec ? ` data-png="${png}" data-svg="${svg}"` : "";
     parts.push(
-      `<img class="fig" src="${hasVec && figFmt === "svg" ? svg : png}"${dim}${alt} loading="lazy" alt="rysunek do zadania ${q.number}">`
+      `<img class="fig" src="${hasVec && figFmt === "svg" ? svg : png}"${dim}${zoom}${alt} loading="lazy" alt="rysunek do zadania ${q.number}">`
     );
   }
-  return parts.join("\n");
+  if (!parts.length) {
+    return "";
+  }
+  return `<div class="figs">\n${parts.join("\n")}\n</div>`;
 }
 
 // the A–D choice list; the correct one is tagged for the reveal styling
