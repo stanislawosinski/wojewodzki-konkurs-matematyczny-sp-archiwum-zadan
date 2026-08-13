@@ -83,9 +83,10 @@ function update() {
 
   const anyFacet = FACETS.some(f => selections[f.key].size);
   const active = useInc || excSet.size > 0 || terms.length > 0 || anyFacet;
-  clearFilters.hidden = !active; // "Wyczyść wszystko": any filtering at all
-  clearFacets.hidden = !anyFacet; // "Wyczyść filtry": facet checkboxes only
-  clearRow.hidden = !active; // their sidebar row collapses with them (kills its flex-gap slot)
+
+  // "Wyczyść filtry" clears everything; its row keeps its reserved slot and the button just
+  // blanks (visibility) when there's nothing to clear, so the sidebar never reflows on desktop.
+  clearFacets.classList.toggle("blank", !active);
 
   // phone hamburger badge (iPhone-style count bubble on the ☰ corner); runs at all widths
   // (harmless while the button is display:none)
@@ -418,15 +419,9 @@ function wireToolbar() {
     writeUrl(false);
     refilter();
   };
-  clearFilters.onclick = e => {
-    e.preventDefault();
-    clearAllFilters();
-  };
   clearFacets.onclick = e => {
     e.preventDefault();
-    clearFacetSelections();
-    writeUrl(true);
-    refilter();
+    clearAllFilters();
   };
   printBtn.onclick = () => window.print();
 

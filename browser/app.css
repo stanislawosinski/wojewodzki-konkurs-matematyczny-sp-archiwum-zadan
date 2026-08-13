@@ -97,17 +97,25 @@ h1 {
 .clearbtn[hidden] {
   display: none;
 }
-/* the clear buttons' row at the top of the sidebar; JS hides the whole row when both are
-   hidden, so an empty row never leaves a stray flex-gap slot in the sidebar column.
-   0.8rem = the topbar size the buttons had before moving here, so they fit on one line. */
+/* the clear button's row at the top of the sidebar. Its slot stays reserved and the button
+   only blanks (visibility, below) when there's nothing to clear, so the sidebar column never
+   reflows on desktop. 0.8rem = the topbar size the button had before moving here. */
 .clearrow {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   gap: 0.5rem;
   font-size: 0.8rem;
+  margin-bottom: -0.8rem; /* trim the sidebar column's 1.5em gap below this row */
 }
-.clearrow[hidden] {
-  display: none;
-}
+.clearrow-h {
+  font-size: 0.85rem;
+  font-weight: bold;
+  color: #333;
+} /* "Filtry": a section header matching the facet groups' .facet-h */
+.clearbtn.blank {
+  visibility: hidden;
+} /* nothing to clear: keep the box, hide the ink */
 
 /* wraps the drawer × + the clear buttons. display:contents = no box on desktop, so the
    children sit in the sidebar column exactly as before; the phone block turns it into a
@@ -835,6 +843,7 @@ select {
 }
 .topic-count {
   margin-top: 0.35rem;
+  min-height: 1lh; /* reserve one line so selecting/clearing a topic doesn't shift the facets below */
   font-size: 0.72rem;
   color: #888;
 }
@@ -1470,6 +1479,15 @@ body.scratch-off .scratch-toggle {
        to the ⚙-driven row height), so the × center lands on the ☰ center with no measuring */
     padding: 0.4rem 1rem 0.4rem 0.45rem;
   }
+
+  /* the × already labels the drawer here; the "Filtry" header is desktop-only, and the row
+     is a centered flex child now (not the sidebar column) so its negative margin must go */
+  .clearrow-h {
+    display: none;
+  }
+  .clearrow {
+    margin-bottom: 0;
+  }
   #drawerClose {
     display: block;
     border: none;
@@ -1626,6 +1644,7 @@ body.scratch-off .scratch-toggle {
     color: hsl(var(--tint-h) 13% 84%);
   }
   html.dark .facet-h,
+  html.dark .clearrow-h,
   html.dark .settings-pop,
   html.dark .settings-pop label,
   html.dark .answer.ai,
@@ -1733,6 +1752,10 @@ body.scratch-off .scratch-toggle {
   html.dark .infotip,
   html.dark .infotip::before {
     border-color: hsl(var(--tint-h) 12% 28%);
+  }
+  /* .infotip hardcodes color:#333 (dark on dark surface = invisible); lift it to the body's light text */
+  html.dark .infotip {
+    color: hsl(var(--tint-h) 15% 88%);
   }
 
   /* semantic colours, lightened so they carry on the dark ground */
