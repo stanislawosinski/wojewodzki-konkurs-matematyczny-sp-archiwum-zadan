@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2520" height="830" viewBox="0 0 2520 830">
+  <rect width="2520" height="830" fill="#fff"/>
+
+  <!-- base slab: back-top-left run, left face oblique, front face, right face -->
+  <g fill="none" stroke="#000" stroke-width="4.05">
+    <path d="M 825.00 331.95 L 425.00 331.95 L 175.03 431.90 L 175.03 681.87 L 1875.08 681.87 L 1875.08 431.90 L 2125.05 331.95 L 1425.00 331.95"/>
+    <path d="M 175.03 431.90 L 825.00 431.90"/>
+    <path d="M 1175.01 431.90 L 1875.08 431.90"/>
+    <path d="M 2125.05 331.95 L 2125.05 581.70 L 1875.08 681.87"/>
+
+    <!-- upper block: front face, top face, right face -->
+    <path d="M 825.00 431.90 L 825.00 181.98 L 1175.01 181.98 L 1175.01 431.90"/>
+    <path d="M 825.00 181.98 L 1074.99 82.68 L 1425.00 82.68 L 1175.01 181.98"/>
+    <path d="M 1425.00 82.68 L 1425.00 331.95 L 1175.01 431.90"/>
+  </g>
+
+  <!-- leader arrow for the 20 cm label -->
+  <path d="M 1526.90 179.30 L 1454.00 216.75" fill="none" stroke="#000" stroke-width="5.70"/>
+  <path d="M 1427.00 231.50 L 1446.50 202.00 L 1461.50 231.50 Z" fill="#000"/>
+
+  <text x="1165.0" y="57.5" font-family="Times New Roman,serif" font-size="62.0" fill="#000">30 cm</text>
+  <text x="1565.0" y="207.5" font-family="Times New Roman,serif" font-size="62.0" fill="#000">20 cm</text>
+  <text x="78.5" y="357.5" font-family="Times New Roman,serif" font-size="62.0" fill="#000">0,5 m</text>
+  <text x="2215.0" y="457.5" font-family="Times New Roman,serif" font-size="62.0" fill="#000">2 dm</text>
+  <text x="965.0" y="806.5" font-family="Times New Roman,serif" font-size="62.0" fill="#000">1,1 m</text>
+</svg>

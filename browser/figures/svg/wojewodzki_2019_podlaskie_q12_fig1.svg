@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="305" viewBox="0 0 300 305">
+<rect width="300" height="305" fill="#fff"/>
+
+<!-- right triangle CAB, right angle at A -->
+<path d="M 32.66 259 L 211.96 259 L 212.00 38.30 Z" fill="none" stroke="#000" stroke-width="6"/>
+
+<!-- cevian DB, drawn thinner in the scan -->
+<path d="M 90.04 259 L 212.00 40.20" fill="none" stroke="#000" stroke-width="4.5"/>
+
+<!-- right-angle mark at A: arc + dot -->
+<path d="M 212.00 208.60 A 50.4 50.4 0 0 0 161.56 259" fill="none" stroke="#000" stroke-width="2.1"/>
+<circle cx="189.5" cy="236.9" r="4.15" fill="#000"/>
+
+<text x="13.5" y="281.5" font-family="Times New Roman,serif" font-style="italic" font-size="32" text-anchor="middle" fill="#000">C</text>
+<text x="225" y="281.5" font-family="Times New Roman,serif" font-style="italic" font-size="32" text-anchor="middle" fill="#000">A</text>
+<text x="91.5" y="291" font-family="Times New Roman,serif" font-style="italic" font-size="32" text-anchor="middle" fill="#000">D</text>
+<text x="214.5" y="31" font-family="Times New Roman,serif" font-style="italic" font-size="32" text-anchor="middle" fill="#000">B</text>
+</svg>

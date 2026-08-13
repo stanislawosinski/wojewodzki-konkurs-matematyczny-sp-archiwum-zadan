@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="390" viewBox="0 0 380 390">
+<rect width="380" height="390" fill="#fff"/>
+<!-- the scan's grid is not square: vertical lines are 38.2px apart, horizontal ones 40.75px.
+     Three verticals (243, 281, 319) and two horizontals (149, 271) are rendered 2px wide in the
+     bitmap, the rest 1px - kept as measured rather than regularised. -->
+<g stroke="#808080" fill="none">
+<path stroke-width="1" d="M 13.5 0 V 390 M 51.5 0 V 390 M 90.5 0 V 390 M 128.5 0 V 390 M 166.5 0 V 390 M 204.5 0 V 390 M 357.5 0 V 390"/>
+<path stroke-width="2" d="M 243 0 V 390 M 281 0 V 390 M 319 0 V 390"/>
+<path stroke-width="1" d="M 0 26.5 H 380 M 0 67.5 H 380 M 0 108.5 H 380 M 0 189.5 H 380 M 0 230.5 H 380 M 0 311.5 H 380 M 0 352.5 H 380"/>
+<path stroke-width="2" d="M 0 149 H 380 M 0 271 H 380"/>
+</g>
+<rect x="130" y="106" width="111" height="202" fill="none" stroke="#000" stroke-width="4"/>
+<!-- dashes drawn as explicit segments (MuPDF renders stroke-dasharray solid).  The horizontal
+     axis is slightly off level in the scan - it drops 3.7px across the width - so it is drawn
+     slanted, not horizontal. -->
+<path stroke="#000" stroke-width="4" fill="none" d="M 183 54 V 68 M 183 78 V 92 M 183 102 V 116 M 183 127 V 141 M 183 151 V 165 M 183 175 V 189 M 183 200 V 214 M 183 224 V 238 M 183 248 V 262 M 183 272 V 286 M 183 297 V 311 M 183 321 V 335 M 183 345 V 359"/>
+<path stroke="#000" stroke-width="3.6" fill="none" d="M 18 214.04 L 32 213.88 M 43 213.76 L 57 213.60 M 67 213.49 L 81 213.33 M 91 213.22 L 105 213.06 M 116 212.94 L 130 212.78 M 140 212.67 L 154 212.51 M 164 212.40 L 178 212.24 M 188 212.13 L 202 211.97 M 213 211.85 L 227 211.69 M 237 211.58 L 251 211.42 M 261 211.31 L 275 211.15 M 286 211.03 L 300 210.87 M 310 210.76 L 324 210.60 M 334 210.49 L 348 210.33"/>
+</svg>

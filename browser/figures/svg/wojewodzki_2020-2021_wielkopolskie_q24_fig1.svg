@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="630" viewBox="0 0 640 630">
+  <g fill="none" stroke="#1a1a1a" stroke-width="3">
+
+    <!-- lateral edges and base outline -->
+    <path d="M39.9 567.6 L193.8 29.3 L424.6 567.6" />
+    <path d="M193.8 29.3 L578.3 413.9" />
+    <path d="M39.9 567.6 L424.6 567.6" />
+    <path d="M424.6 567.6 L578.3 413.9" />
+
+    <!-- base diagonals -->
+    <path d="M39.9 567.6 L578.3 413.9" />
+    <path d="M193.8 413.9 L424.6 567.6" />
+
+    <!-- hidden edges: height DW and base edges DC, DA -->
+    <path d="M193.8 29.3 L193.8 413.9" stroke-dasharray="15.6 11.1" stroke-dashoffset="4" />
+    <path d="M193.8 413.9 L578.3 413.9" stroke-dasharray="15.6 11.1" stroke-dashoffset="4.5" />
+    <path d="M193.8 413.9 L39.9 567.6" stroke-dasharray="15.6 11.1" stroke-dashoffset="1" />
+
+    <!-- right-angle marks at D -->
+    <path d="M190 342 A128.2 128.2 0 0 0 162.5 446" />
+    <path d="M193.8 356.4 A46.4 46.4 0 0 1 238.8 413.9" />
+  </g>
+
+  <g fill="#1a1a1a" stroke="none">
+    <ellipse cx="178.2" cy="399.9" rx="3.0" ry="6.6" transform="rotate(10.5 178.2 399.9)" />
+    <ellipse cx="218.1" cy="388.0" rx="3.5" ry="5.7" transform="rotate(7.2 218.1 388)" />
+  </g>
+
+  <g fill="#1a1a1a">
+    <text x="198.6" y="28" font-family="Helvetica, Arial, sans-serif" font-size="25">W</text>
+
+    <!-- A and B moved below the base: at the scan's positions the edges converging on those
+         two vertices run straight through the glyphs -->
+    <text x="45.7" y="590" font-family="Helvetica, Arial, sans-serif" font-size="25">A</text>
+    <text x="430.2" y="590" font-family="Helvetica, Arial, sans-serif" font-size="25">B</text>
+    <text x="583.9" y="411" font-family="Helvetica, Arial, sans-serif" font-size="25">C</text>
+    <text x="199.0" y="411" font-family="Helvetica, Arial, sans-serif" font-size="25">D</text>
+  </g>
+</svg>

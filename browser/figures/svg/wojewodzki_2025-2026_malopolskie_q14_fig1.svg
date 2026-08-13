@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="463" height="426" viewBox="0 0 463 426">
+  <rect width="463" height="426" fill="#fff"/>
+
+  <!-- figure F: three width-1 rectangles on the sides of ABC + radius-1 arcs at the vertices -->
+  <path d="M 99.71,413.44 L 362.97,413.44 A 87.4 87.4 0 0 0 438.62,282.26 L 306.96,54.78 A 87.4 87.4 0 0 0 155.66,54.79 L 24.06,282.27 A 87.4 87.4 0 0 0 99.71,413.44 Z" fill="#c3c3c3" stroke="#000" stroke-width="3.5"/>
+
+  <!-- triangle ABC and the rectangles' short sides -->
+  <g stroke="#4d4d4d" stroke-width="2.5" fill="none">
+    <path d="M 99.71,326.04 L 362.97,326.04 L 231.31,98.56 Z"/>
+    <line x1="99.71" y1="326.04" x2="99.71" y2="413.44"/>
+    <line x1="362.97" y1="326.04" x2="362.97" y2="413.44"/>
+    <line x1="362.97" y1="326.04" x2="438.62" y2="282.26"/>
+    <line x1="231.31" y1="98.56" x2="306.96" y2="54.78"/>
+    <line x1="231.31" y1="98.56" x2="155.66" y2="54.79"/>
+    <line x1="99.71" y1="326.04" x2="24.06" y2="282.27"/>
+  </g>
+
+  <text x="230.5" y="77.3" font-family="Times New Roman,serif" font-style="italic" font-size="33" text-anchor="middle" fill="#000">C</text>
+  <text x="283.5" y="107.0" font-family="Times New Roman,serif" font-size="33" text-anchor="middle" fill="#000">1</text>
+  <text x="226.5" y="311.5" font-family="Times New Roman,serif" font-size="33" text-anchor="middle" fill="#000">3</text>
+  <text x="118.5" y="358.0" font-family="Times New Roman,serif" font-style="italic" font-size="33" text-anchor="middle" fill="#000">A</text>
+  <text x="373.5" y="358.0" font-family="Times New Roman,serif" font-style="italic" font-size="33" text-anchor="middle" fill="#000">B</text>
+</svg>

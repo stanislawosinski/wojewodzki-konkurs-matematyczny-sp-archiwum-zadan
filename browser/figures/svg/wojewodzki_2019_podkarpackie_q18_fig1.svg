@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="569" height="572" viewBox="0 0 569 572">
+<rect width="569" height="572" fill="#fff"/>
+<g stroke="#000" stroke-width="2" fill="none">
+<!-- base parallelogram ABCD -->
+<path d="M 40 533 L 340 533 L 540 433 L 240 433 Z"/>
+<!-- lateral edges from apex S -->
+<path d="M 240 33 L 40 533 M 240 33 L 340 533 M 240 33 L 540 433"/>
+<!-- height SD -->
+<line x1="240" y1="33" x2="240" y2="433"/>
+<!-- right-angle arc at D, from ray DA round to ray DC -->
+<path d="M 185.80 460.10 A 60.6 60.6 0 1 1 300.60 433" stroke-width="2"/>
+</g>
+<circle cx="265.8" cy="409" r="1.7" fill="#000"/>
+<circle cx="206.4" cy="412.3" r="1.7" fill="#000"/>
+<text x="229" y="33" font-family="Times New Roman,serif" font-size="34">S</text>
+<text x="215" y="268" font-family="Times New Roman,serif" font-size="34">4</text>
+<text x="232.5" y="464" font-family="Times New Roman,serif" font-size="34">D</text>
+<text x="9" y="550" font-family="Times New Roman,serif" font-size="34">A</text>
+<text x="193" y="561" font-family="Times New Roman,serif" font-size="34">3</text>
+<text x="322" y="561" font-family="Times New Roman,serif" font-size="34">B</text>
+<text x="538" y="448" font-family="Times New Roman,serif" font-size="34">C</text>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="494" height="460" viewBox="0 0 494 460">
+  <!-- shaded lune: between the circle's minor arc BDC and the semicircle BEC on BC -->
+  <path d="M311,59.1 A198.8,198.8 0 0 1 311,404.0 A172.45,172.45 0 0 0 311,59.1 Z" fill="#c3c3c3" stroke="none"/>
+
+  <g fill="none" stroke="#1a1a1a" stroke-width="1.8">
+    <circle cx="212.11" cy="231.56" r="198.8"/>
+    <path d="M311,59.1 A172.45,172.45 0 0 1 311,404.0"/>
+    <path d="M311,59.1 L311,404.0"/>
+    <path d="M212.8,231.5 L311,59.1"/>
+    <path d="M212.8,231.5 L311,404.0"/>
+  </g>
+
+  <!-- 120 degree mark, struck about a centre ~14px right of A (as in the scan) -->
+  <path d="M245.8,179.3 A54,54 0 0 1 243.1,281.4" fill="none" stroke="#1a1a1a" stroke-width="1.3"/>
+
+  <g fill="#000" stroke="none">
+    <circle cx="212.8" cy="231.5" r="4.8"/>
+    <circle cx="311" cy="59.1" r="4.8"/>
+    <circle cx="311" cy="404.0" r="4.8"/>
+    <circle cx="371.15" cy="350.87" r="4.8"/>
+    <circle cx="435.65" cy="350.14" r="4.8"/>
+  </g>
+
+  <text x="299.5" y="47.5" font-family="Times New Roman,Times,serif" font-style="italic" font-size="48" fill="#000">C</text>
+  <text x="171" y="244.5" font-family="Times New Roman,Times,serif" font-style="italic" font-size="48" fill="#000">A</text>
+  <text x="295.5" y="446.5" font-family="Times New Roman,Times,serif" font-style="italic" font-size="48" fill="#000">B</text>
+  <text x="342" y="341.5" font-family="Times New Roman,Times,serif" font-style="italic" font-size="48" fill="#000">D</text>
+  <text x="442" y="341.5" font-family="Times New Roman,Times,serif" font-style="italic" font-size="48" fill="#000">E</text>
+  <text x="237" y="140.5" font-family="Times New Roman,Times,serif" font-size="37" fill="#000">6</text>
+  <text x="222" y="239.5" font-family="Times New Roman,Times,serif" font-size="28" fill="#000">120&#176;</text>
+
+  <!-- stray rule bleeding in from the page, right of E -->
+  <path d="M449,344.5 L493,344.5" fill="none" stroke="#bfbfbf" stroke-width="1"/>
+</svg>

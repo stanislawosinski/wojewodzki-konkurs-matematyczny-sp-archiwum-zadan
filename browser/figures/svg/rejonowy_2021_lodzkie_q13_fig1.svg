@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="700" viewBox="0 0 780 700">
+<rect width="780" height="700" fill="#fff"/>
+
+<!-- the five segments of the star -->
+<g stroke="#000" stroke-width="1.3" fill="none">
+<line x1="445.71" y1="53.89" x2="495.43" y2="558.88"/>
+<line x1="445.71" y1="53.89" x2="62.70" y2="456.81"/>
+<line x1="707.97" y1="240.38" x2="62.70" y2="456.81"/>
+<line x1="113.35" y1="240.37" x2="707.97" y2="240.38"/>
+<line x1="113.35" y1="240.37" x2="495.43" y2="558.88"/>
+</g>
+
+<!-- angle marks: vertex-centred circular arcs, ends on the legs -->
+<g stroke="#000" stroke-width="1.3" fill="none">
+<path d="M 451.78 115.59 A 62 62 0 0 1 402.99 98.83"/>
+<path d="M 172.25 240.37 A 58.9 58.9 0 0 1 158.59 278.08"/>
+<path d="M 602.07 275.90 A 111.7 111.7 0 0 1 596.27 240.38"/>
+<path d="M 130.49 385.49 A 98.4 98.4 0 0 1 155.99 425.52"/>
+<path d="M 439.74 512.46 A 72.5 72.5 0 0 1 488.33 486.73"/>
+</g>
+
+<g fill="#000" font-size="32">
+<text x="430" y="99.5" font-family="Times New Roman,serif">1</text>
+<text x="608" y="264.5" font-family="Times New Roman,serif">2</text>
+<text x="465" y="523" font-family="Times New Roman,serif">3</text>
+<text x="123" y="423.5" font-family="Times New Roman,serif">4</text>
+<text x="149" y="266.5" font-family="Times New Roman,serif">5</text>
+</g>
+</svg>

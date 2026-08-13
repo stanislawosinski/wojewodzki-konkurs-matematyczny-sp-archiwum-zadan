@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="455" height="418" viewBox="0 0 455 418">
+<rect width="455" height="418" fill="#fff"/>
+<!-- Drawn compass-true rather than as scanned, because the prompt fully specifies the
+     construction. In the scan no arc is circular (perpendicular ellipse fits bulge up to 6 px
+     outside one) and the legs differ, 312.60 vs 319.23, so no circle centred on A can pass
+     through both B and C. Both legs are set to R=316 about A=(71.70, 368.73) — the value the
+     scan's own crossing dot implies, its x of 229.7 being A.x + R/2. The two semicircles then
+     meet at (229.70, 210.73), on the hypotenuse, and F1 and F2 come out equal. -->
+<!-- F1: inside the BC arc, outside both semicircles -->
+<path d="M 71.70 52.73 A 316 316 0 0 1 387.70 368.73 A 158 158 0 0 0 229.70 210.73 A 158 158 0 0 0 71.70 52.73 Z" fill="#dbdbdb"/>
+<!-- F2: the lens where the two semicircles overlap -->
+<path d="M 71.70 368.73 A 158 158 0 0 0 229.70 210.73 A 158 158 0 0 0 71.70 368.73 Z" fill="#dbdbdb"/>
+<g fill="none" stroke="#000" stroke-width="4.5">
+<path d="M 71.70 52.73 A 316 316 0 0 1 387.70 368.73"/>
+<path d="M 71.70 52.73 A 158 158 0 0 1 71.70 368.73"/>
+<path d="M 71.70 368.73 A 158 158 0 0 1 387.70 368.73"/>
+<path d="M 71.70 52.73 L 71.70 368.73 L 387.70 368.73" stroke-linecap="square" stroke-linejoin="miter"/>
+</g>
+<text x="41.3" y="55" font-family="Times New Roman,serif" font-style="italic" font-size="29" fill="#000">C</text>
+<text x="35.5" y="386" font-family="Times New Roman,serif" font-style="italic" font-size="29" fill="#000">A</text>
+<text x="394" y="390" font-family="Times New Roman,serif" font-style="italic" font-size="29" fill="#000">B</text>
+<text x="260.5" y="185" font-family="Times New Roman,serif" font-style="italic" font-size="29" fill="#000">F</text>
+<text x="276.2" y="191" font-family="Times New Roman,serif" font-size="19.5" fill="#000">1</text>
+<text x="128.5" y="298" font-family="Times New Roman,serif" font-style="italic" font-size="29" fill="#000">F</text>
+<text x="143.6" y="303" font-family="Times New Roman,serif" font-size="19.5" fill="#000">2</text>
+</svg>

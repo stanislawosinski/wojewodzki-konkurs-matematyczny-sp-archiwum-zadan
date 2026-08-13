@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1380" height="830" viewBox="0 0 1380 830">
+<rect width="1380" height="830" fill="#fff"/>
+<!-- plot-area border -->
+<rect x="28" y="4" width="1264" height="760" fill="none" stroke="#d9d9d9" stroke-width="4"/>
+<!-- horizontal gridlines, values 22 down to 2 (drawn under the bars) -->
+<g stroke="#d9d9d9" stroke-width="4">
+<line x1="161" y1="189" x2="1231" y2="189"/>
+<line x1="161" y1="232" x2="1231" y2="232"/>
+<line x1="161" y1="274" x2="1231" y2="274"/>
+<line x1="161" y1="317" x2="1231" y2="317"/>
+<line x1="161" y1="359" x2="1231" y2="359"/>
+<line x1="161" y1="401" x2="1231" y2="401"/>
+<line x1="161" y1="444" x2="1231" y2="444"/>
+<line x1="161" y1="486" x2="1231" y2="486"/>
+<line x1="161" y1="529" x2="1231" y2="529"/>
+<line x1="161" y1="571" x2="1231" y2="571"/>
+<line x1="161" y1="613" x2="1231" y2="613"/>
+</g>
+<!-- bars: Poniedzialek 20, Wtorek 12, Sroda 8, Czwartek 0 (no bar), Piatek 14 -->
+<g fill="#787878">
+<rect x="234.64" y="232" width="67.49" height="423"/>
+<rect x="448.64" y="401" width="66.71" height="254"/>
+<rect x="662.64" y="486" width="66.71" height="169"/>
+<rect x="1090.64" y="359" width="66.71" height="296"/>
+</g>
+<!-- value axis, drawn over the bar feet -->
+<line x1="161" y1="655" x2="1231" y2="655" stroke="#d9d9d9" stroke-width="4"/>
+<!-- title; Helvetica's advances do not match the scan's Calibri, so each
+     syllable is pinned to its own measured column -->
+<text x="271" y="102" font-family="Helvetica,Arial,sans-serif" font-size="56" fill="#595959" textLength="141" lengthAdjust="spacingAndGlyphs">Liczba</text>
+  <text x="431" y="102" font-family="Helvetica,Arial,sans-serif" font-size="56" fill="#595959" textLength="469" lengthAdjust="spacingAndGlyphs">wyprodukowanych</text>
+  <text x="919" y="102" font-family="Helvetica,Arial,sans-serif" font-size="56" fill="#595959" textLength="130" lengthAdjust="spacingAndGlyphs">okien</text>
+
+
+
+
+
+
+
+
+
+<!-- value labels -->
+<text x="65" y="203" font-family="Helvetica,Arial,sans-serif" font-size="44" fill="#595959">22</text>
+<text x="66" y="246" font-family="Helvetica,Arial,sans-serif" font-size="44" fill="#595959">20</text>
+<text x="65" y="288" font-family="Helvetica,Arial,sans-serif" font-size="44" fill="#595959">18</text>
+<text x="66" y="330" font-family="Helvetica,Arial,sans-serif" font-size="44" fill="#595959">16</text>
+<text x="65" y="373" font-family="Helvetica,Arial,sans-serif" font-size="44" fill="#595959">14</text>
+<text x="65" y="415" font-family="Helvetica,Arial,sans-serif" font-size="44" fill="#595959">12</text>
+<text x="66" y="457" font-family="Helvetica,Arial,sans-serif" font-size="44" fill="#595959">10</text>
+<text x="89" y="500" font-family="Helvetica,Arial,sans-serif" font-size="44" fill="#595959">8</text>
+<text x="90" y="542" font-family="Helvetica,Arial,sans-serif" font-size="44" fill="#595959">6</text>
+<text x="90" y="585" font-family="Helvetica,Arial,sans-serif" font-size="44" fill="#595959">4</text>
+<text x="89" y="627" font-family="Helvetica,Arial,sans-serif" font-size="44" fill="#595959">2</text>
+<text x="90" y="669" font-family="Helvetica,Arial,sans-serif" font-size="44" fill="#595959">0</text>
+<!-- category labels -->
+<text x="169" y="717" font-family="Helvetica,Arial,sans-serif" font-size="34.8" fill="#595959" textLength="196" lengthAdjust="spacingAndGlyphs">Poniedzia&#322;ek</text>
+<text x="424" y="717" font-family="Helvetica,Arial,sans-serif" font-size="34.8" fill="#595959" textLength="117" lengthAdjust="spacingAndGlyphs">Wtorek</text>
+<text x="651" y="717" font-family="Helvetica,Arial,sans-serif" font-size="34.8" fill="#595959" textLength="88" lengthAdjust="spacingAndGlyphs">&#346;roda</text>
+<text x="839" y="717" font-family="Helvetica,Arial,sans-serif" font-size="34.8" fill="#595959" textLength="143" lengthAdjust="spacingAndGlyphs">Czwartek</text>
+<text x="1078" y="717" font-family="Helvetica,Arial,sans-serif" font-size="34.8" fill="#595959" textLength="94" lengthAdjust="spacingAndGlyphs">Pi&#261;tek</text>
+</svg>

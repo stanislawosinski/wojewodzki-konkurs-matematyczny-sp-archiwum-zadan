@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="894" height="596" viewBox="0 0 894 596">
+  <rect width="894" height="596" fill="#fff"/>
+
+  <!-- the 2 m path across the plot, grey fill with a black outline -->
+  <path d="M 467.34 138.00 L 517.33 138.00 L 136.26 461.00 L 84.68 461.00 Z" fill="#808080" stroke="#000" stroke-width="4.25"/>
+
+  <!-- the plot: right trapezoid, vertical side on the left -->
+  <path d="M 80.90 138.00 L 521.58 138.00 L 877.35 461.00 L 83.41 461.00 Z" fill="none" stroke="#000" stroke-width="4.25"/>
+
+  <!-- extension lines for the two 2 m dimensions -->
+  <path d="M 466.0 85.5 L 466.0 138.0" fill="none" stroke="#000" stroke-width="2.0"/>
+  <path d="M 519.5 86.5 L 519.5 138.0" fill="none" stroke="#000" stroke-width="1.0"/>
+  <path d="M 84.5 461.0 L 84.5 508.5" fill="none" stroke="#000" stroke-width="1.0"/>
+  <path d="M 137.5 461.0 L 137.5 509.5" fill="none" stroke="#000" stroke-width="1.0"/>
+
+  <!-- the four dimension arrows -->
+  <g fill="none" stroke="#000" stroke-width="6.0">
+    <path d="M 401.0 100.5 L 443.0 100.5"/>
+    <path d="M 583.0 97.5 L 541.0 97.5"/>
+    <path d="M 20.0 495.5 L 62.0 495.5"/>
+    <path d="M 201.0 495.5 L 159.0 495.5"/>
+  </g>
+  <g fill="#000">
+    <path d="M 443.0 89.5 L 465.5 100.5 L 443.0 111.5 Z"/>
+    <path d="M 541.0 86.5 L 518.5 97.5 L 541.0 108.5 Z"/>
+    <path d="M 62.0 484.5 L 84.5 495.5 L 62.0 506.5 Z"/>
+    <path d="M 159.0 485.0 L 136.5 496.0 L 159.0 507.0 Z"/>
+  </g>
+
+  <text x="427.0" y="66.8" font-family="Times New Roman,serif" font-size="67.4" fill="#000">2 m</text>
+  <text x="62.0" y="564.8" font-family="Times New Roman,serif" font-size="67.4" fill="#000">2 m</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="524" height="302" viewBox="0 0 524 302">
+  <rect width="524" height="302" fill="#fff"/>
+  <g fill="none" stroke="#000" stroke-width="4">
+    <!-- Reproportioned to 479 x 276.55 (aspect exactly sqrt(3)) so the marked angle
+         really is the 120 deg it is labelled with; the scan's 479 x 256 gives 123.7.
+         Centre kept at (261.5, 151) so the label and degree box do not move. -->
+    <path d="M 22 12.72 L 501 12.72 L 501 289.28 L 22 289.28 Z"/>
+    <line x1="22" y1="12.72" x2="501" y2="289.28"/>
+    <line x1="22" y1="289.28" x2="501" y2="12.72"/>
+
+    <!-- the marked angle: centred on the diagonals' crossing, both ends on a diagonal.
+         r=115 is the smallest radius that still clears the degree box; the scan's own
+         arc turns about a point 46px away and marks nothing. -->
+    <path d="M 161.91 93.5 A 115 115 0 0 1 361.09 93.5"/>
+  </g>
+
+  <!-- moved up and left into the wedge between the diagonals: the reproportioning above
+       steepened them, so at the scan's own label position they now cut through the digits -->
+  <text x="214" y="119" font-family="Times New Roman,serif" font-size="61.09" fill="#000">120</text>
+
+  <!-- the source PDF fails to embed the degree sign and prints a .notdef box in its place;
+       drawn as the glyph the box stands for -->
+  <text x="311" y="119" font-family="Times New Roman,serif" font-size="61.09" fill="#000">&#176;</text>
+</svg>

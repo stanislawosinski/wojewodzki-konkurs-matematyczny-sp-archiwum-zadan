@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="450" viewBox="0 0 540 450">
+  <rect width="540" height="450" fill="#fff"/>
+  <g stroke="#000" stroke-width="1" fill="none">
+    <line x1="23.5" y1="14" x2="23.5" y2="422"/>
+    <line x1="102.5" y1="14" x2="102.5" y2="422"/>
+    <line x1="181.5" y1="14" x2="181.5" y2="422"/>
+    <line x1="260.5" y1="14" x2="260.5" y2="422"/>
+    <line x1="338.5" y1="14" x2="338.5" y2="422"/>
+    <line x1="417.5" y1="14" x2="417.5" y2="422"/>
+    <line x1="496.5" y1="14" x2="496.5" y2="422"/>
+    <line x1="23" y1="14.5" x2="497" y2="14.5"/>
+    <line x1="23" y1="95.5" x2="497" y2="95.5"/>
+    <line x1="23" y1="257.5" x2="497" y2="257.5"/>
+    <line x1="23" y1="421.5" x2="497" y2="421.5"/>
+  </g>
+
+  <!-- the two rule lines of the cryptarithm are drawn heavier in the scan -->
+  <line x1="23" y1="176.5" x2="497" y2="176.5" stroke="#000" stroke-width="3"/>
+  <line x1="23" y1="339" x2="497" y2="339" stroke="#000" stroke-width="4"/>
+
+  <!-- plus sign, drawn as two bars: the scan's is 4px thick both ways -->
+  <line x1="63" y1="291" x2="63" y2="311" stroke="#000" stroke-width="4"/>
+  <line x1="52" y1="301" x2="73" y2="301" stroke="#000" stroke-width="4"/>
+
+  <!-- multiplication mark: a filled 7x7 square in the scan, not a round dot -->
+  <rect x="217" y="130" width="7" height="7" fill="#000"/>
+
+  <g font-size="39" fill="#000">
+    <text x="286" y="69" font-family="Helvetica,Arial,sans-serif">K</text>
+    <text x="363" y="69" font-family="Helvetica,Arial,sans-serif">O</text>
+    <text x="443" y="69" font-family="Helvetica,Arial,sans-serif">K</text>
+
+    <text x="288" y="149" font-family="Helvetica,Arial,sans-serif">L</text>
+    <text x="363" y="149" font-family="Helvetica,Arial,sans-serif">O</text>
+    <text x="443" y="149" font-family="Helvetica,Arial,sans-serif">K</text>
+
+    <text x="288" y="232" font-family="Helvetica,Arial,sans-serif">L</text>
+    <text x="363" y="232" font-family="Helvetica,Arial,sans-serif">O</text>
+    <text x="445" y="232" font-family="Helvetica,Arial,sans-serif">L</text>
+
+    <text x="128" y="312" font-family="Helvetica,Arial,sans-serif">P</text>
+    <text x="205" y="312" font-family="Helvetica,Arial,sans-serif">O</text>
+    <text x="286" y="312" font-family="Helvetica,Arial,sans-serif">P</text>
+
+    <text x="128" y="395" font-family="Helvetica,Arial,sans-serif">P</text>
+    <text x="206" y="395" font-family="Helvetica,Arial,sans-serif">A</text>
+    <text x="286" y="395" font-family="Helvetica,Arial,sans-serif">K</text>
+    <text x="363" y="395" font-family="Helvetica,Arial,sans-serif">O</text>
+    <text x="445" y="395" font-family="Helvetica,Arial,sans-serif">L</text>
+  </g>
+</svg>

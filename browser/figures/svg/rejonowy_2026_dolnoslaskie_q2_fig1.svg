@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2500" height="570" viewBox="0 0 2500 570">
+  <rect width="2500" height="570" fill="#fff"/>
+
+  <!-- middle panel: the folded-down flap ED C' is shaded -->
+  <path d="M 997.25 326.10 L 1250.05 258.70 L 1249.70 471.80 Z" fill="#cdcdcd"/>
+
+  <g fill="none" stroke="#000" stroke-width="4" stroke-linejoin="miter">
+    <!-- left panel: the unfolded equilateral triangle -->
+    <path d="M 111.99 475.35 L 574.68 475.35 L 343.33 75.33 Z"/>
+    <!-- middle panel -->
+    <path d="M 911.95 472.07 L 997.25 326.10 L 1250.05 258.70 L 1374.49 471.68 Z"/>
+    <path d="M 997.25 326.10 L 1249.70 471.80 L 1250.05 258.70"/>
+    <!-- right panel -->
+    <path d="M 1714.00 472.05 L 2176.53 471.78 L 1945.33 72.01 Z"/>
+    <path d="M 1799.40 324.00 L 2052.90 258.00"/>
+  </g>
+
+  <!-- right panel: the folded position of C is only indicated, hence dashed -->
+  <path d="M 2052.90 258.00 L 2052.50 471.85" fill="none" stroke="#000" stroke-width="4" stroke-dasharray="16 12" stroke-dashoffset="13.1"/>
+  <path d="M 1799.40 324.00 L 2052.50 471.85" fill="none" stroke="#000" stroke-width="4" stroke-dasharray="16 12"/>
+
+  <!-- right-angle marks at C' -->
+  <g fill="none" stroke="#000" stroke-width="1.6">
+    <path d="M 1249.70 439.50 A 32.3 32.3 0 0 1 1282.00 471.80"/>
+    <path d="M 2052.50 439.55 A 32.3 32.3 0 0 1 2084.80 471.85"/>
+  </g>
+  <circle cx="1263.24" cy="456.71" r="4.54" fill="#000"/>
+  <circle cx="2066.43" cy="456.65" r="4.6" fill="#000"/>
+
+  <g fill="#000">
+    <text x="78.50" y="518.50" font-family="Helvetica,Arial,sans-serif" font-style="italic" font-size="48">A</text>
+    <text x="318.00" y="60.50" font-family="Helvetica,Arial,sans-serif" font-style="italic" font-size="48">C</text>
+    <text x="566.00" y="518.50" font-family="Helvetica,Arial,sans-serif" font-style="italic" font-size="48">B</text>
+    <text x="880.50" y="518.50" font-family="Helvetica,Arial,sans-serif" font-style="italic" font-size="48">A</text>
+    <text x="959.00" y="330.50" font-family="Helvetica,Arial,sans-serif" font-style="italic" font-size="48">E</text>
+    <text x="1226.00" y="517.00" font-family="Helvetica,Arial,sans-serif" font-style="italic" font-size="48">C</text>
+    <text x="1260.00" y="514.00" font-family="Helvetica,Arial,sans-serif" font-style="italic" font-size="52">&#8242;</text>
+    <text x="1231.50" y="246.50" font-family="Helvetica,Arial,sans-serif" font-style="italic" font-size="48">D</text>
+    <text x="1368.00" y="518.50" font-family="Helvetica,Arial,sans-serif" font-style="italic" font-size="48">B</text>
+    <text x="1683.50" y="518.50" font-family="Helvetica,Arial,sans-serif" font-style="italic" font-size="48">A</text>
+    <text x="1762.00" y="330.50" font-family="Helvetica,Arial,sans-serif" font-style="italic" font-size="48">E</text>
+    <text x="1928.00" y="59.50" font-family="Helvetica,Arial,sans-serif" font-style="italic" font-size="48">C</text>
+    <text x="2029.00" y="517.00" font-family="Helvetica,Arial,sans-serif" font-style="italic" font-size="48">C</text>
+    <text x="2062.00" y="514.00" font-family="Helvetica,Arial,sans-serif" font-style="italic" font-size="52">&#8242;</text>
+    <text x="2052.50" y="252.50" font-family="Helvetica,Arial,sans-serif" font-style="italic" font-size="48">D</text>
+    <text x="2171.00" y="518.50" font-family="Helvetica,Arial,sans-serif" font-style="italic" font-size="48">B</text>
+  </g>
+</svg>

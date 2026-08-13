@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="780" viewBox="0 0 1800 780">
+
+  <!-- horizontal gridlines, 150 down to 25 -->
+  <g stroke="#868686" stroke-width="4" fill="none">
+    <path d="M367 107H1649" />
+    <path d="M367 182H1649" />
+    <path d="M367 257H1649" />
+    <path d="M367 333H1649" />
+    <path d="M367 407H1649" />
+    <path d="M367 483H1649" />
+  </g>
+
+  <!-- bars: Pon 50, Wt 75, Sr 125, Czw 100, Piat 150, Sob 25 -->
+  <g fill="#787878">
+    <rect x="448" y="407.3" width="84.7" height="150.7" />
+    <rect x="658.6" y="332.6" width="84.7" height="225.4" />
+    <rect x="869.3" y="181.9" width="84.7" height="376.1" />
+    <rect x="1079.9" y="257.3" width="84.8" height="300.7" />
+    <rect x="1291.3" y="106.6" width="84" height="451.4" />
+    <rect x="1502" y="482.6" width="84" height="75.4" />
+  </g>
+
+  <!-- axis lines drawn over the bars, with the outward tick marks -->
+  <g stroke="#868686" stroke-width="4" fill="none">
+    <path d="M367 558H1649" />
+    <path d="M385 107V576" />
+    <path d="M595 558V576" />
+    <path d="M807 558V576" />
+    <path d="M1017 558V576" />
+    <path d="M1228 558V576" />
+    <path d="M1439 558V576" />
+    <path d="M1649 558V576" />
+  </g>
+
+  <!-- outer frame -->
+  <path d="M81.5 45 L81.5 697.5 L1710.5 697.5 L1710.5 45" fill="none" stroke="#000" stroke-width="3" />
+  <path d="M80 45 H1712" fill="none" stroke="#000" stroke-width="2" />
+
+  <!-- value-axis labels -->
+  <g fill="#000">
+    <text x="334" y="122" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-weight="bold" font-size="49">150</text>
+    <text x="334" y="197" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-weight="bold" font-size="49">125</text>
+    <text x="334" y="272" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-weight="bold" font-size="49">100</text>
+    <text x="334" y="348" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-weight="bold" font-size="49">75</text>
+    <text x="334" y="423" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-weight="bold" font-size="49">50</text>
+    <text x="334" y="498" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-weight="bold" font-size="49">25</text>
+    <text x="334" y="574" text-anchor="end" font-family="Helvetica,Arial,sans-serif" font-weight="bold" font-size="49">0</text>
+  </g>
+
+  <!-- category labels -->
+  <g fill="#000">
+    <text x="490" y="646" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="49">Pon.</text>
+    <text x="701" y="646" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="49">Wt.</text>
+    <text x="912" y="646" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="49">Śr.</text>
+    <text x="1122.5" y="646" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="49">Czw.</text>
+    <text x="1333.5" y="646" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="49">Piąt.</text>
+    <text x="1544" y="646" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="49">Sob.</text>
+  </g>
+
+  <!-- rotated value-axis title -->
+  <text transform="translate(214.3 591.9) rotate(-90)" fill="#000" font-family="Helvetica,Arial,sans-serif" font-weight="bold" font-size="58.5">Masa aronii w kg</text>
+</svg>

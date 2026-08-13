@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="476" height="300" viewBox="0 0 476 300">
+  <rect width="476" height="300" fill="#fff"/>
+
+  <!-- 16px wider than the scan: the bottom-right vertex falls outside the crop there, so the
+       canvas is extended rather than the pentagon squeezed — every line stays where it is drawn -->
+  <path d="M 24.16 275.44 L 173 17.85 L 248.4 146.64 L 397.53 146.64 L 471.95 275.44 Z" fill="none" stroke="#000" stroke-width="1.6"/>
+
+  <g fill="#000">
+    <text x="152" y="74" font-family="Times New Roman,serif" font-size="30.13" font-weight="bold">60&#176;</text>
+    <text x="42" y="268" font-family="Times New Roman,serif" font-size="30.13" font-weight="bold">60&#176;</text>
+    <text x="409" y="269" font-family="Times New Roman,serif" font-size="30.13" font-weight="bold">60&#176;</text>
+    <text x="69" y="151" font-family="Times New Roman,serif" font-size="37.1" font-weight="bold">8</text>
+    <text x="317" y="138" font-family="Times New Roman,serif" font-size="37.1" font-weight="bold">4</text>
+  </g>
+</svg>

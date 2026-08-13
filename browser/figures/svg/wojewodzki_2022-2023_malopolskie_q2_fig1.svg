@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="290" viewBox="0 0 720 290">
+  <rect width="720" height="290" fill="#fff"/>
+
+  <!-- ground, lamp-top level, light ray, lamp post, dimension lines -->
+  <g stroke="#000" fill="none" stroke-linecap="butt">
+    <line x1="46.5" y1="200.69" x2="627.5" y2="199.17" stroke-width="2.5"/>
+    <line x1="554.5" y1="35.94" x2="627.4" y2="36.21" stroke-width="2.85"/>
+    <line x1="46.8" y1="201.40" x2="558.3" y2="36.30" stroke-width="3"/>
+    <line x1="558.4" y1="36.2" x2="558.4" y2="237.5" stroke-width="2.6"/>
+    <line x1="47.7" y1="200.7" x2="47.7" y2="234.7" stroke-width="2.85"/>
+    <line x1="200.3" y1="199.5" x2="200.3" y2="236.5" stroke-width="2.3"/>
+    <line x1="606.6" y1="36.2" x2="606.6" y2="199.5" stroke-width="2.6"/>
+    <line x1="47.0" y1="234.4" x2="200.2" y2="235.5" stroke-width="2.4"/>
+    <line x1="201.6" y1="236.45" x2="316.8" y2="236.45" stroke-width="2.2"/>
+    <line x1="466.0" y1="236.53" x2="559.4" y2="236.53" stroke-width="2.2"/>
+  </g>
+
+  <!-- starburst around the lamp -->
+  <g stroke="#000" stroke-width="2.6" fill="none">
+    <line x1="557.9" y1="13.9" x2="558.1" y2="23.1"/>
+    <line x1="579.3" y1="16.3" x2="573.3" y2="24.2"/>
+    <line x1="546.6" y1="24.4" x2="541.0" y2="20.1"/>
+    <line x1="590.2" y1="27.7" x2="581.8" y2="30.3"/>
+    <line x1="538.0" y1="35.2" x2="530.8" y2="34.0"/>
+    <line x1="592.1" y1="43.6" x2="583.9" y2="42.5"/>
+    <line x1="538.0" y1="51.2" x2="532.4" y2="56.3"/>
+    <line x1="588.6" y1="56.5" x2="580.5" y2="52.1"/>
+    <line x1="545.1" y1="56.7" x2="541.8" y2="65.3"/>
+    <line x1="569.9" y1="58.2" x2="575.6" y2="65.3"/>
+  </g>
+
+  <!-- lamp foot -->
+  <ellipse cx="560.5" cy="198.75" rx="15.5" ry="2.75" fill="#000"/>
+
+  <!-- arrowheads -->
+  <g fill="#000">
+    <path d="M 557.5,36.2 L 548.5,47.2 L 567.2,47.2 Z"/>
+    <path d="M 606.6,36.5 L 600.6,50.3 L 613.2,50.3 Z"/>
+    <path d="M 606.6,199.5 L 598.6,186.8 L 612.8,186.8 Z"/>
+    <path d="M 46.8,235.4 L 60.8,228.3 L 60.8,242.5 Z"/>
+    <path d="M 200.2,235.9 L 184.2,228.8 L 184.2,243.2 Z"/>
+    <path d="M 201.6,236.6 L 217.2,229.4 L 217.2,245.2 Z"/>
+    <path d="M 559.6,236.4 L 541.4,228.7 L 541.4,245.0 Z"/>
+  </g>
+
+  <!-- man, traced from the scan's silhouette -->
+  <path d="M 199.5,154.5 L 197.5,155.5 L 197.5,162.5 L 188.5,181.5 L 189.5,182.5 L 191.5,182.5 L 193.5,180.5 L 196.5,181.5 L 195.5,198.5 L 207.5,198.5 L 205.5,197.5 L 205.5,182.5 L 206.5,181.5 L 211.5,181.5 L 211.5,178.5 L 208.5,175.5 L 206.5,165.5 L 202.5,163.5 L 201.5,155.5 Z" fill="#000" stroke="#000" stroke-width="1"/>
+
+  <text x="220.0" y="179.0" font-family="Times New Roman,serif" font-size="36">1,7 m</text>
+  <text x="69.5" y="268.0" font-family="Times New Roman,serif" font-size="36">4,25 m</text>
+  <text x="321.0" y="247.0" font-family="Times New Roman,serif" font-size="36">15,75 m</text>
+</svg>

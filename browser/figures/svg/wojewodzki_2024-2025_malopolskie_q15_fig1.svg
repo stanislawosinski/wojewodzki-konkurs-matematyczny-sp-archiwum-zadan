@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="450" height="420" viewBox="0 0 450 420">
+  <rect width="450" height="420" fill="#fff"/>
+
+  <!-- thin base AC of the equilateral triangle ACD -->
+  <line x1="24.0" y1="363.38" x2="388.0" y2="363.38" stroke="#4c4c4c" stroke-width="2.13"/>
+
+  <!-- arrowhead quadrilateral A D C B; the joins at A and C exceed miterlimit 4 and bevel, as in the scan -->
+  <path d="M 24.0 363.4 L 205.86 50.89 L 388.0 363.4 L 205.94 181.74 Z" fill="#e6e6e6" stroke="#000" stroke-width="4.1"/>
+
+  <!-- right angle at B: arc + dot -->
+  <path d="M 162.58 225.10 A 61.32 61.32 0 0 0 249.30 225.10" fill="none" stroke="#808080" stroke-width="3"/>
+  <circle cx="204.8" cy="218.1" r="4.2" fill="#000"/>
+
+  <text x="209" y="39" font-family="Times New Roman,serif" font-style="italic" font-size="37" text-anchor="middle" fill="#000">D</text>
+  <text x="208" y="171" font-family="Times New Roman,serif" font-style="italic" font-size="37" text-anchor="middle" fill="#000">B</text>
+  <text x="25" y="402" font-family="Times New Roman,serif" font-style="italic" font-size="37" text-anchor="middle" fill="#000">A</text>
+  <text x="386" y="402" font-family="Times New Roman,serif" font-style="italic" font-size="37" text-anchor="middle" fill="#000">C</text>
+</svg>

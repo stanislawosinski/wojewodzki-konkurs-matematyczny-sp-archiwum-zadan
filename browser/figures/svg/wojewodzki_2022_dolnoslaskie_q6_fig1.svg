@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="680" viewBox="0 0 1440 680">
+  <!-- Seated on the parallels rather than drawn as scanned: the prompt puts ABCD on
+       a6,a5,a1,a2 and EFGH on a7,a5,a1,a3, and that is the whole construction. The scan has
+       neither quadrilateral touching its lines (gaps 3.2-7.8 px) and draws ABCD as a 298.6 x
+       331.0 rectangle, not the square the prompt calls it. Both are refitted as true squares
+       with their vertices on the prescribed lines, least squares over the measured line
+       positions, so no vertex sits more than 0.18 px off. Sides come out 330.59 and 358.42,
+       i.e. 17 and 20 line-spacings squared - the intended difference of 3. -->
+  <g fill="none" stroke="#000000" stroke-width="4.3">
+    <path d="M66.6 106 H1297"/>
+    <path d="M66.6 186.1 H1297"/>
+    <path d="M66.6 266.9 H1297"/>
+    <path d="M66.6 346.9 H1297"/>
+    <path d="M66.6 426.8 H1297"/>
+    <path d="M66.6 506.8 H1297"/>
+    <path d="M66.6 587 H1297"/>
+    <path d="M272.3 506.8 L593.05 426.8 L513 106 L192.25 186.1 Z"/>
+    <path d="M856 587.18 L1176.45 426.63 L1015.9 106.18 L695.45 266.73 Z"/>
+  </g>
+  <g fill="#000000">
+    <text x="265.5" y="552.7" font-family="Times" font-size="56" text-anchor="middle">A</text>
+    <text x="585.55" y="479" font-family="Times" font-size="56" text-anchor="middle">B</text>
+    <text x="522.5" y="79.3" font-family="Times" font-size="56" text-anchor="middle">C</text>
+    <text x="185.95" y="164.2" font-family="Times" font-size="56" text-anchor="middle">D</text>
+    <text x="842.8" y="637.2" font-family="Times" font-size="56" text-anchor="middle">E</text>
+    <text x="1174.35" y="482" font-family="Times" font-size="56" text-anchor="middle">F</text>
+    <text x="1030.2" y="75.9" font-family="Times" font-size="56" text-anchor="middle">G</text>
+    <text x="691.15" y="247.5" font-family="Times" font-size="56" text-anchor="middle">H</text>
+
+    <text x="1318" y="107.5" font-family="Times" font-size="56">a</text>
+    <text x="1354.5" y="116.5" font-family="Times" font-size="35" text-anchor="middle">1</text>
+    <text x="1324" y="189.5" font-family="Times" font-size="56">a</text>
+    <text x="1359.5" y="198.5" font-family="Times" font-size="35" text-anchor="middle">2</text>
+    <text x="1322" y="270.5" font-family="Times" font-size="56">a</text>
+    <text x="1357.5" y="279.5" font-family="Times" font-size="35" text-anchor="middle">3</text>
+    <text x="1324" y="350.5" font-family="Times" font-size="56">a</text>
+    <text x="1359" y="359.5" font-family="Times" font-size="35" text-anchor="middle">4</text>
+    <text x="1322" y="430.5" font-family="Times" font-size="56">a</text>
+    <text x="1356.5" y="438.5" font-family="Times" font-size="35" text-anchor="middle">5</text>
+    <text x="1322" y="512.5" font-family="Times" font-size="56">a</text>
+    <text x="1357.5" y="520.5" font-family="Times" font-size="35" text-anchor="middle">6</text>
+    <text x="1322" y="590.5" font-family="Times" font-size="56">a</text>
+    <text x="1357" y="598.5" font-family="Times" font-size="35" text-anchor="middle">7</text>
+  </g>
+</svg>

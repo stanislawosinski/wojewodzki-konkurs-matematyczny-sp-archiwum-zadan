@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="720" viewBox="0 0 840 720">
+  <rect width="840" height="720" fill="#fff"/>
+  <g fill="none" stroke="#000" stroke-width="4" stroke-linejoin="miter" stroke-miterlimit="10">
+
+    <!-- vertical beam: front face and top face, above the horizontal beam -->
+    <path d="M 417 425.4 L 417 125 L 467 125 L 467 425.4"/>
+    <path d="M 417 125 L 441.7 98.9 L 492 98.9 L 492 425.4"/>
+    <path d="M 467 125 L 492 98.9"/>
+
+    <!-- vertical beam: below the horizontal beam -->
+    <path d="M 417 499.5 L 417 625 L 467 625 L 467 499.5"/>
+    <path d="M 467 625 L 492 598.9 L 492 499.5"/>
+
+    <!-- horizontal beam -->
+    <path d="M 142 425.4 L 117 450 L 117 499.5"/>
+    <path d="M 142 425.4 L 315.8 425.4"/>
+    <path d="M 415.9 425.4 L 642 425.4"/>
+    <path d="M 117 450 L 291.2 450"/>
+    <path d="M 391.3 450 L 617 450"/>
+    <path d="M 117 499.5 L 241.7 499.5"/>
+    <path d="M 341.8 499.5 L 617 499.5"/>
+    <path d="M 617 450 L 642 425.4 L 642 474.9 L 617 499.5 Z"/>
+
+    <!-- diagonal beam: near end face, long edges, far end -->
+    <path d="M 217 524.6 L 266.8 524.6 L 266.8 574.5 L 217 574.5 Z"/>
+    <path d="M 217 524.6 L 417 324.2"/>
+    <path d="M 266.8 524.6 L 417 374.2"/>
+    <path d="M 266.8 574.5 L 417 424.3"/>
+    <path d="M 492 249.2 L 516.4 224.8"/>
+    <path d="M 492 299.2 L 566.6 224.8"/>
+    <path d="M 492 346.4 L 566.6 274.7"/>
+    <path d="M 516.4 224.8 L 566.6 224.8 L 566.6 274.7"/>
+  </g>
+</svg>

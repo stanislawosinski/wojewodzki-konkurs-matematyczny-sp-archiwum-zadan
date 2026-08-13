@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="600" viewBox="0 0 660 600">
+  <rect width="660" height="600" fill="#fff"/>
+
+  <!-- axial section: apex (306.02,60.79), base y=436.7, apex angle 60.06 deg as drawn -->
+  <path d="M 306.02 60.79 L 522.93 436.70 L 88.37 436.70 Z" fill="none" stroke="#000" stroke-width="8.55"/>
+
+  <!-- inscribed sphere -->
+  <path d="M 179.50 312.67 A 124.40 124.40 0 0 1 428.30 312.67 A 124.40 124.40 0 0 1 179.50 312.67 Z" fill="none" stroke="#000" stroke-width="8.55"/>
+
+  <!-- cone base circle: far half dashed, near half solid and heavier -->
+  <path d="M 85.05 438.75 A 219.92 49.26 0 0 1 524.89 438.75" fill="none" stroke="#000" stroke-width="1.3" stroke-dasharray="5.5 4.1"/>
+  <path d="M 85.05 438.75 A 219.92 49.26 0 0 0 524.89 438.75" fill="none" stroke="#000" stroke-width="4"/>
+
+  <!-- sphere equator -->
+  <path d="M 185.01 313.99 A 121.78 23.13 0 0 1 428.57 313.99" fill="none" stroke="#000" stroke-width="1.5" stroke-dasharray="5.5 4.1"/>
+  <path d="M 185.01 313.99 A 121.78 23.13 0 0 0 428.57 313.99" fill="none" stroke="#000" stroke-width="4.4"/>
+
+  <!-- angle mark: arc centre (302.67,98.52) sits below the apex, as drawn -->
+  <path d="M 259.52 141.10 A 60.62 60.62 0 0 0 349.80 136.65" fill="none" stroke="#000" stroke-width="4.4"/>
+  <text x="275" y="144" font-family="Helvetica,Arial,sans-serif" font-weight="bold" font-size="37.6" fill="#000">60&#176;</text>
+</svg>

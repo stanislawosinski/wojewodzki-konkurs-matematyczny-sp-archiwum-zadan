@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="335" height="312" viewBox="0 0 335 312">
+  <rect width="335" height="312" fill="#fff"/>
+
+  <!-- triangle interior, same yellow as the semicircles -->
+  <path d="M 95.6 64.7 L 95.6 204.4 L 280.4 204.4 Z" fill="#fff200"/>
+
+  <!-- semicircle on the shorter leg AC -->
+  <path d="M 95.6 64.7 A 69.85 69.85 0 0 0 95.6 204.4 Z" fill="#fff200" stroke="#4d4d4d" stroke-width="1.5"/>
+
+  <!-- semicircle on the longer leg AB -->
+  <path d="M 95.6 204.4 A 92.4 92.4 0 0 0 280.4 204.4 Z" fill="#fff200" stroke="#4d4d4d" stroke-width="1.5"/>
+
+  <!-- semicircle on the hypotenuse CB -->
+  <path d="M 95.6 64.7 A 115.75 115.75 0 0 1 280.4 204.4 Z" fill="#fff200" stroke="#4d4d4d" stroke-width="1.5"/>
+
+  <!-- right-angle mark at A: arc + dot -->
+  <path d="M 123.5 204.4 A 27.9 27.9 0 0 0 95.6 176.5" fill="none" stroke="#4d4d4d" stroke-width="1.5"/>
+  <circle cx="107.5" cy="192.9" r="2.6" fill="#4d4d4d"/>
+</svg>

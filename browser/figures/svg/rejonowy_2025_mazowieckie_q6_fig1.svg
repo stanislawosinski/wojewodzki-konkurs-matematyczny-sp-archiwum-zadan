@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="520" viewBox="0 0 320 520">
+  <rect width="320" height="520" fill="#fff"/>
+
+  <!-- 45 degree axonometric, depth vector (+12.4, -12.4); faces are a dithered
+       light grey in the scan, flattened here to its mean -->
+  <g fill="#e3e3e3" stroke="#000" stroke-width="2" stroke-linejoin="miter">
+    <!-- single flat brick, top left -->
+    <path d="M 59.0 56.0 L 135.1 56.0 L 147.5 43.6 L 71.4 43.6 Z"/>
+    <path d="M 135.1 56.0 L 147.5 43.6 L 147.5 72.0 L 135.1 84.4 Z"/>
+    <path d="M 59.0 56.0 L 135.1 56.0 L 135.1 84.4 L 59.0 84.4 Z"/>
+
+    <!-- single upright brick, top right -->
+    <path d="M 192.75 56.0 L 221.0 56.0 L 233.4 43.6 L 205.2 43.6 Z"/>
+    <path d="M 221.0 56.0 L 233.4 43.6 L 233.4 119.6 L 221.0 132.0 Z"/>
+    <path d="M 192.75 56.0 L 221.0 56.0 L 221.0 132.0 L 192.75 132.0 Z"/>
+
+    <!-- stack of four flat bricks -->
+    <path d="M 59.0 358.0 L 135.1 358.0 L 147.5 345.6 L 71.4 345.6 Z"/>
+    <path d="M 135.1 358.0 L 147.5 345.6 L 147.5 374.6 L 135.1 387.0 Z"/>
+    <path d="M 59.0 358.0 L 135.1 358.0 L 135.1 387.0 L 59.0 387.0 Z"/>
+    <path d="M 135.1 387.0 L 147.5 374.6 L 147.5 403.4 L 135.1 415.8 Z"/>
+    <path d="M 59.0 387.0 L 135.1 387.0 L 135.1 415.8 L 59.0 415.8 Z"/>
+    <path d="M 135.1 415.8 L 147.5 403.4 L 147.5 431.6 L 135.1 444.0 Z"/>
+    <path d="M 59.0 415.8 L 135.1 415.8 L 135.1 444.0 L 59.0 444.0 Z"/>
+    <path d="M 135.1 444.0 L 147.5 431.6 L 147.5 459.8 L 135.1 472.2 Z"/>
+    <path d="M 59.0 444.0 L 135.1 444.0 L 135.1 472.2 L 59.0 472.2 Z"/>
+
+    <!-- stack of three upright bricks -->
+    <path d="M 192.75 243.1 L 221.0 243.1 L 233.4 230.7 L 205.2 230.7 Z"/>
+    <path d="M 221.0 243.1 L 233.4 230.7 L 233.4 307.2 L 221.0 319.6 Z"/>
+    <path d="M 192.75 243.1 L 221.0 243.1 L 221.0 319.6 L 192.75 319.6 Z"/>
+    <path d="M 221.0 319.6 L 233.4 307.2 L 233.4 383.8 L 221.0 396.2 Z"/>
+    <path d="M 192.75 319.6 L 221.0 319.6 L 221.0 396.2 L 192.75 396.2 Z"/>
+    <path d="M 221.0 396.2 L 233.4 383.8 L 233.4 459.8 L 221.0 472.2 Z"/>
+    <path d="M 192.75 396.2 L 221.0 396.2 L 221.0 472.2 L 192.75 472.2 Z"/>
+  </g>
+
+  <!-- vertical ellipses standing for the omitted middle of each tower -->
+  <g fill="#000">
+    <circle cx="97.0" cy="126.4" r="4.26"/>
+    <circle cx="97.1" cy="186.8" r="4.18"/>
+    <circle cx="97.0" cy="247.4" r="4.29"/>
+    <circle cx="97.1" cy="308.1" r="4.03"/>
+    <circle cx="209.7" cy="151.3" r="3.83"/>
+    <circle cx="209.8" cy="211.6" r="3.83"/>
+  </g>
+</svg>

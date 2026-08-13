@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="375" height="345" viewBox="0 0 375 345">
+  <rect width="375" height="345" fill="#fff"/>
+
+  <!-- cube with the corner tetrahedron removed: top and front faces -->
+  <path d="M 17.4 91.4 L 92.4 16.1 L 318.5 16.8 Z" fill="#99D9EA" stroke="#000" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M 17.4 91.4 L 17.4 317.4 L 243.1 317.4 Z" fill="#99D9EA" stroke="#000" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- right face: filled only, its cut edge is hidden behind the tetrahedron.
+       The fill stops on the tetrahedron's near edge — past it the scan leaves the
+       exposed cut plane white, so the face's bottom tip must not be painted. -->
+  <path d="M 318.5 16.8 L 318.5 242.0 L 253.8 306.7 L 247.4 300.3 Z" fill="#99D9EA"/>
+  <path d="M 318.5 16.8 L 318.5 242.0 L 243.1 317.4" fill="none" stroke="#000" stroke-width="2" stroke-linejoin="round"/>
+
+  <!-- the cut-off tetrahedron, drawn slid out of the cube -->
+  <path d="M 42.1 95.4 L 342.5 20.4 L 267.0 95.9 Z" fill="#99D9EA" stroke="#000" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M 267.0 95.9 L 342.5 20.4 L 268.1 320.9 Z" fill="#99D9EA" stroke="#000" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M 42.1 95.4 L 267.0 95.9 L 268.1 320.9 Z" fill="#99D9EA" stroke="#000" stroke-width="2" stroke-linejoin="round"/>
+</svg>

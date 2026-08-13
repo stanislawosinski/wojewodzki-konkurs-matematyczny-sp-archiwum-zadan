@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="480" viewBox="0 0 500 480">
+  <rect width="500" height="480" fill="#fff"/>
+
+  <!-- shaded 11-gon: Q H I J K L M N C D E -->
+  <path d="M 242.99,233.89 L 382.74,91.83 L 292.98,40.99 L 189.84,41.84 L 100.93,94.14 L 50.09,183.90 L 50.94,287.04 L 103.24,375.95 L 193.00,426.79 L 296.14,425.94 L 385.05,373.64 Z" fill="#f5ebe6"/>
+
+  <!-- the wedge cut out of the dodecagon: E F G H drawn black -->
+  <path d="M 385.05,373.64 L 435.89,283.88 L 435.04,180.74 L 382.74,91.83" fill="none" stroke="#171717" stroke-width="3.5"/>
+
+  <!-- outline of the shaded figure: brown rim + grey QH -->
+  <path d="M 382.74,91.83 L 292.98,40.99 L 189.84,41.84 L 100.93,94.14 L 50.09,183.90 L 50.94,287.04 L 103.24,375.95 L 193.00,426.79 L 296.14,425.94 L 385.05,373.64 L 242.99,233.89" fill="none" stroke="#722b07" stroke-width="3.5"/>
+  <line x1="242.99" y1="233.89" x2="382.74" y2="91.83" stroke="#464646" stroke-width="3.4"/>
+
+  <!-- vertex dots -->
+  <circle cx="193.00" cy="426.79" r="6.6" fill="#000"/>
+  <circle cx="296.14" cy="425.94" r="6.6" fill="#000"/>
+  <circle cx="385.05" cy="373.64" r="5.75" fill="#444" stroke="#000" stroke-width="1.5"/>
+  <circle cx="435.89" cy="283.88" r="5.75" fill="#444" stroke="#000" stroke-width="1.5"/>
+  <circle cx="435.04" cy="180.74" r="5.75" fill="#444" stroke="#000" stroke-width="1.5"/>
+  <circle cx="382.74" cy="91.83" r="5.75" fill="#444" stroke="#000" stroke-width="1.5"/>
+  <circle cx="292.98" cy="40.99" r="5.75" fill="#444" stroke="#000" stroke-width="1.5"/>
+  <circle cx="189.84" cy="41.84" r="5.75" fill="#444" stroke="#000" stroke-width="1.5"/>
+  <circle cx="100.93" cy="94.14" r="5.75" fill="#444" stroke="#000" stroke-width="1.5"/>
+  <circle cx="50.09" cy="183.90" r="5.75" fill="#444" stroke="#000" stroke-width="1.5"/>
+  <circle cx="50.94" cy="287.04" r="5.75" fill="#444" stroke="#000" stroke-width="1.5"/>
+  <circle cx="103.24" cy="375.95" r="5.75" fill="#444" stroke="#000" stroke-width="1.5"/>
+  <circle cx="242.99" cy="233.89" r="3.9" fill="#444" stroke="#000" stroke-width="1.4"/>
+
+  <!-- labels. L, E, D and the centre one sat on a side; the scan breaks the line behind each
+       glyph to keep it legible, and they are nudged off the line instead. The dodecagon is
+       CDEFGHIJKLMN, so the centre point is a 13th letter: the scan draws it Q, not O. -->
+  <g fill="#444">
+    <text x="205.5" y="413.8" font-family="Helvetica,Arial,sans-serif" font-size="19.5" text-anchor="middle">C</text>
+    <text x="307.0" y="410.7" font-family="Helvetica,Arial,sans-serif" font-size="19.5" text-anchor="middle">D</text>
+    <text x="385.0" y="355.0" font-family="Helvetica,Arial,sans-serif" font-size="19.5" text-anchor="middle">E</text>
+    <text x="447.0" y="273.0" font-family="Helvetica,Arial,sans-serif" font-size="19.5" text-anchor="middle">F</text>
+    <text x="448.5" y="167.8" font-family="Helvetica,Arial,sans-serif" font-size="19.5" text-anchor="middle">G</text>
+    <text x="395.5" y="80.0" font-family="Helvetica,Arial,sans-serif" font-size="19.5" text-anchor="middle">H</text>
+    <text x="301.5" y="29.0" font-family="Helvetica,Arial,sans-serif" font-size="19.5" text-anchor="middle">I</text>
+    <text x="200.5" y="29.5" font-family="Helvetica,Arial,sans-serif" font-size="19.5" text-anchor="middle">J</text>
+    <text x="114.0" y="81.0" font-family="Helvetica,Arial,sans-serif" font-size="19.5" text-anchor="middle">K</text>
+    <text x="51.5" y="166.0" font-family="Helvetica,Arial,sans-serif" font-size="19.5" text-anchor="middle">L</text>
+    <text x="65.0" y="275.0" font-family="Helvetica,Arial,sans-serif" font-size="19.5" text-anchor="middle">M</text>
+    <text x="117.0" y="364.0" font-family="Helvetica,Arial,sans-serif" font-size="19.5" text-anchor="middle">N</text>
+    <text x="247.5" y="215.8" font-family="Helvetica,Arial,sans-serif" font-size="19.5" text-anchor="middle">Q</text>
+  </g>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="690" height="368" viewBox="0 0 690 368">
+  <rect width="690" height="368" fill="#fff"/>
+
+  <!-- squared-paper grid: dotted, 31.37 x 31.48 px cells -->
+  <g fill="none" stroke="#000" stroke-width="1.8" stroke-dasharray="2 2.5">
+    <path d="M49.22 4V340M80.59 4V340M111.97 4V340M143.34 4V340M174.72 4V340M206.09 4V340M237.46 4V340M268.84 4V340M300.21 4V340M331.58 4V340M362.96 4V340M394.33 4V340M425.71 4V340M457.08 4V340M488.46 4V340M519.83 4V340M551.2 4V340M582.58 4V340M613.96 4V340"/>
+    <path d="M45 18.37H621M45 49.85H621M45 81.33H621M45 112.82H621M45 144.3H621M45 175.78H621M45 207.26H621M45 238.74H621M45 270.23H621M45 301.71H621M45 333.19H621"/>
+  </g>
+
+  <g fill="none" stroke="#000" stroke-width="4" stroke-linejoin="miter">
+
+    <!-- top-left: staircase hexadecagon -->
+    <path d="M49.22 18.37H111.97V49.85H237.46V112.82H143.34V207.26H80.59V81.33H49.22Z"/>
+
+    <!-- top-right: rectangle with a square bump up and a square bump down -->
+    <path d="M488.46 18.37H519.83V49.85H582.58V112.82H457.08V144.3H425.71V112.82H362.96V49.85H488.46Z"/>
+
+    <!-- centre: pinwheel, 4-fold rotational symmetry, no axis of symmetry -->
+    <path d="M268.84 112.82V144.3H300.21V175.78H331.58L300.21 207.26H268.84V270.23H206.09V301.71L174.72 333.19V301.71H143.34V270.23H111.97L143.34 238.74H174.72V175.78H237.46V144.3Z"/>
+
+    <!-- bottom-right: centrally symmetric zig-zag band -->
+    <path d="M394.33 175.78H551.2L519.83 207.26H582.58L613.96 238.74L582.58 270.23H488.46L551.2 301.71H394.33L425.71 270.23H362.96L331.58 238.74L362.96 207.26H457.08Z"/>
+  </g>
+</svg>

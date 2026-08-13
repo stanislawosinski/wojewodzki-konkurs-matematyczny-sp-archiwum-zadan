@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2220" height="980" viewBox="0 0 2220 980">
+  <rect width="2220" height="980" fill="#fff"/>
+
+  <!-- pojemnik nr 1: open cuboid with the water surface -->
+  <g fill="none" stroke="#000" stroke-width="4">
+    <path d="M 325.5 303.5 L 912.5 303.5 M 325.5 303.5 L 325.5 640.5 M 912.5 303.5 L 912.5 640.5 M 325.5 640.5 L 912.5 640.5"/>
+    <path d="M 325.5 303.5 L 437.5 191.5 M 435 191.5 L 1027 191.5 M 912.5 303.5 L 1024.5 191.5 M 1024.5 191.5 L 1024.5 528.5 M 912.5 640.5 L 1024.5 528.5"/>
+
+    <!-- the back-left vertical edge; the original draws it 12px left of the corner -->
+    <path d="M 437.5 191.5 L 437.5 361"/>
+
+    <!-- water surface: a parallelogram on the box's depth vector (+112.5,-112.5); the
+         original leaves its right edge detached and overshooting the front-right edge -->
+    <path d="M 325 473.5 L 912.5 470.5 M 325 473.5 L 437.5 361 M 437.5 361 L 1025 358 M 912.5 470.5 L 1025 358"/>
+  </g>
+
+  <!-- pojemnik nr 2 -->
+  <g fill="none" stroke="#000" stroke-width="4">
+    <path d="M 1225 316 L 1600.5 316 L 1600.5 541 L 1225 541 Z"/>
+    <path d="M 1225 316 L 1300 241 M 1298 241 L 1675.5 241 M 1600.5 316 L 1675.5 241 M 1675.5 241 L 1675.5 465.5 M 1600.5 541 L 1675.5 465.5"/>
+
+    <!-- stray pen stroke inside the top face, present in the scan -->
+    <path d="M 1302 309 L 1305.5 381"/>
+  </g>
+
+  <!-- curved arrow -->
+  <path d="M 1199 50 L 1216 44 L 1240 43 L 1264 49 L 1281 58 L 1299 74 L 1311 91 L 1320 113 L 1323 127 L 1323 138 L 1322 139 L 1252 139 L 1247 110 L 1237 87 L 1228 74 L 1213 59 Z" fill="#CCCCCC"/>
+  <path d="M 1028 117 L 1030 119 L 1098 143 L 1176 118 L 1175 114 L 1144 114 L 1143 112 L 1153 89 L 1163 75 L 1183 57 L 1194 52 L 1210 62 L 1225 77 L 1235 92 L 1241 105 L 1245 119 L 1247 131 L 1247 143 L 1327 143 L 1327 127 L 1321 103 L 1313 86 L 1302 71 L 1293 62 L 1276 50 L 1256 42 L 1240 39 L 1146 39 L 1124 44 L 1107 52 L 1087 68 L 1074 85 L 1066 101 L 1063 112 L 1061 114 L 1029 114 Z M 1199 50 L 1216 44 L 1240 43 L 1264 49 L 1281 58 L 1299 74 L 1311 91 L 1320 113 L 1323 127 L 1323 138 L 1322 139 L 1252 139 L 1247 110 L 1237 87 L 1228 74 L 1213 59 Z M 1201 44 L 1189 49 L 1170 62 L 1161 71 L 1149 88 L 1142 103 L 1138 118 L 1158 118 L 1159 119 L 1099 139 L 1044 119 L 1045 118 L 1065 118 L 1071 99 L 1078 86 L 1087 74 L 1105 58 L 1122 49 L 1144 43 L 1200 43 Z" fill="#000" fill-rule="evenodd"/>
+
+  <!-- dimension arrows -->
+  <path d="M 242.5 480.0 L 242.5 630.0 M 224.0 518.0 L 242.5 480.0 L 261.0 518.0 M 224.0 592.0 L 242.5 630.0 L 261.0 592.0" fill="none" stroke="#000" stroke-width="2"/>
+  <path d="M 1825.5 242.0 L 1825.5 490.0 M 1807.5 278.0 L 1825.5 242.0 L 1843.5 278.0 M 1807.5 454.0 L 1825.5 490.0 L 1843.5 454.0" fill="none" stroke="#000" stroke-width="2"/>
+
+  <!-- labels -->
+  <text x="14" y="546" font-family="Helvetica,Arial,sans-serif" font-size="62" fill="#000">0,5dm</text>
+  <text x="1916" y="361" font-family="Helvetica,Arial,sans-serif" font-size="61" fill="#000">7 cm</text>
+  <text x="485" y="889" font-family="Times New Roman,serif" font-size="62" fill="#000">Pojemnik nr 1</text>
+  <text x="1272" y="889" font-family="Times New Roman,serif" font-size="62" fill="#000">Pojemnik nr 2</text>
+</svg>
