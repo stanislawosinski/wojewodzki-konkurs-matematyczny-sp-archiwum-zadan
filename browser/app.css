@@ -234,6 +234,90 @@ h1 {
 #snapBtn:hover {
   color: #222;
 }
+/* GH repo link: an icon-only <a> that sits inline with the glyph buttons; the SVG inherits `color` */
+#repoLink {
+  display: inline-flex;
+  align-items: center;
+  color: #666;
+}
+#repoLink:hover {
+  color: #222;
+}
+#aboutBtn {
+  border: none;
+  background: none;
+  font-size: 1.1rem;
+  line-height: 1;
+  padding: 0 0.15rem;
+  cursor: pointer;
+  color: #666;
+} /* the ⓘ "O serwisie" trigger, styled like the other topbar glyphs */
+#aboutBtn:hover {
+  color: #222;
+}
+/* "O tym serwisie" panel: a native [popover], centered in the viewport by the UA. Wide,
+   scrollable reading card; the close × floats top-right (text wraps under it). */
+.about-pop {
+  max-width: min(42rem, calc(100vw - 2rem));
+  max-height: 82vh;
+  overflow: auto;
+  padding: 1.4rem 1.6rem;
+  border: 1px solid #e2e2e2;
+  border-radius: 8px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
+  background: var(--surface);
+  color: #333;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif; /* sans, like the app chrome (body default is serif) */
+}
+.about-pop::backdrop {
+  background: rgba(0, 0, 0, 0.4);
+}
+.about-close {
+  float: right;
+  border: none;
+  background: none;
+  font-size: 1.4rem;
+  line-height: 1;
+  color: #999;
+  cursor: pointer;
+  padding: 0;
+  margin: -0.3rem -0.4rem 0 0.5rem;
+}
+.about-close:hover {
+  color: #333;
+}
+.about-body h2 {
+  margin: 0 0 0.6rem;
+  font-size: 1.2rem;
+}
+.about-body h3 {
+  margin: 1.1rem 0 0.3rem;
+  font-size: 0.92rem;
+}
+.about-body p {
+  margin: 0 0 0.5rem;
+}
+.about-body ul,
+.about-body ol {
+  margin: 0 0 0.5rem;
+  padding-left: 1.3rem;
+}
+.about-body p,
+.about-body li {
+  font-size: 0.86rem;
+  line-height: 1.55;
+  color: #444;
+}
+.about-body li {
+  margin: 0.15rem 0;
+}
+.about-note {
+  margin-top: 1.2rem;
+  padding-top: 0.7rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.78rem;
+  color: #888;
+}
 
 /* the mobile-only controls; the phone block at the bottom re-shows them */
 #filtersBtn,
@@ -1701,6 +1785,8 @@ body.scratch-off .scratch-toggle {
   html.dark #settingsBtn,
   html.dark #themeBtn,
   html.dark #snapBtn,
+  html.dark #repoLink,
+  html.dark #aboutBtn,
   html.dark #filtersBtn {
     color: hsl(var(--tint-h) 10% 62%);
   }
@@ -1734,6 +1820,8 @@ body.scratch-off .scratch-toggle {
   html.dark #settingsBtn:hover,
   html.dark #themeBtn:hover,
   html.dark #snapBtn:hover,
+  html.dark #repoLink:hover,
+  html.dark #aboutBtn:hover,
   html.dark #filtersBtn:hover,
   html.dark #clearSearch:hover,
   html.dark #drawerClose:hover,
@@ -1786,8 +1874,15 @@ body.scratch-off .scratch-toggle {
   html.dark .settings-pop,
   html.dark .settings-pop::before,
   html.dark .infotip,
-  html.dark .infotip::before {
+  html.dark .infotip::before,
+  html.dark .about-pop {
     border-color: hsl(var(--tint-h) 12% 28%);
+  }
+  /* .about-pop hard-codes #333/#444 body ink (dark on dark = invisible); lift to the body text */
+  html.dark .about-pop,
+  html.dark .about-body p,
+  html.dark .about-body li {
+    color: hsl(var(--tint-h) 13% 82%);
   }
   /* .infotip hardcodes color:#333 (dark on dark surface = invisible); lift it to the body's light text */
   html.dark .infotip {
