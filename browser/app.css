@@ -58,6 +58,30 @@ h1 {
   gap: 0.8rem;
   align-items: center;
 } /* +1rem matches the sidebar's padding-right so tb-main starts exactly where .content does */
+
+/* desktop brand lockup: the favicon tile + two-tone wordmark. Shares the left slot with the ☰,
+   which only appears ≤600px; the whole lockup hides ≤820px (the phone/tablet block below). */
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: -4px; /* the topbar's 1.5rem inset is 4px wider than the sidebar's 20px; pull
+                        the mark left so it aligns with the filter-panel content edge */
+}
+.brand-mark {
+  display: block;
+  border-radius: 6px;
+}
+.brand-wm {
+  font-size: 0.98rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1;
+  color: #2c3550;
+}
+.brand-accent {
+  color: #3a4a86;
+}
 .tb-main {
   flex: 1;
   min-width: 0;
@@ -383,6 +407,9 @@ select {
   .layout {
     display: block;
   }
+  .brand {
+    display: none;
+  } /* desktop-only brand mark */
   .topbar {
     flex-wrap: wrap;
     gap: 0.4rem 0.8rem;
@@ -1676,6 +1703,15 @@ body.scratch-off .scratch-toggle {
   html.dark #snapBtn,
   html.dark #filtersBtn {
     color: hsl(var(--tint-h) 10% 62%);
+  }
+
+  /* wordmark: light ink + a soft-blue accent that carries on the dark topbar (the #2c3550/#3a4a86
+     light-mode navies would sink into it) */
+  html.dark .brand-wm {
+    color: hsl(var(--tint-h) 15% 85%);
+  }
+  html.dark .brand-accent {
+    color: hsl(221 52% 74%);
   }
   html.dark .facet-opt .opt-c,
   html.dark .cat-l,
