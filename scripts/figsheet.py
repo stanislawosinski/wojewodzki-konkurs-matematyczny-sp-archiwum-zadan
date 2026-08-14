@@ -85,6 +85,8 @@ img{background:#fff;display:block}
 .xl{color:#66c;font-weight:400;cursor:pointer;user-select:none} .xl input{vertical-align:-1px}
 .x{position:absolute;left:0;top:0;display:none} section.xray .x{display:block}
 section.done{opacity:.4}          /* still there to re-check, just out of the way */
+/* offset so the ring sits clear of the panels' own outlines */
+section.cur{outline:2px solid #48f;outline-offset:8px}
 #bar{position:fixed;right:1rem;bottom:1rem;background:#fff;border:1px solid #ccc;border-radius:4px;padding:.5rem;box-shadow:0 1px 6px #0002}
 #bar button{display:block;width:100%;margin-top:.3rem}
 </style><div id=bar><span id=tot>(js off)</span>
@@ -188,6 +190,34 @@ document.getElementById('okc').onclick = e => copy(
     .map(s => JSON.stringify({figure: s.dataset.name, hash: s.dataset.hash, ok: true}))
     .join('\\n') + '\\n', e.target)
 document.getElementById('okc').dataset.t = 'copy OK list'
+// j/k walk the sheet; v and o act on whatever j/k last landed on
+let sel = -1
+const focus = i => {
+  const secs = [...all()]
+  if (!secs.length) return
+  sel = (i + secs.length) % secs.length
+  secs.forEach((s, n) => s.classList.toggle('cur', n === sel))
+  secs[sel].scrollIntoView({block: 'start', behavior: 'smooth'})
+}
+const hit = cls => {
+  if (sel < 0) return false
+  const cb = [...all()][sel].querySelector(cls + ' input')
+  cb.checked = !cb.checked
+  cb.onchange()                                   // same path as clicking it
+  return cb.checked
+}
+addEventListener('keydown', e => {
+  if (e.metaKey || e.ctrlKey || e.altKey) return
+  if (e.key === ' ') { focus(e.shiftKey ? (sel < 0 ? -1 : sel - 1) : sel + 1) }
+  else if (e.key === 'j') { focus(sel + 1) }
+  else if (e.key === 'k') { focus(sel < 0 ? -1 : sel - 1) }
+  else if (e.key === 'v') { hit('.xl') }
+
+  // signing off is the end of a figure, so move on — but un-ticking isn't, stay put
+  else if (e.key === 'o') { if (hit('.ok')) { focus(sel + 1) } }
+  else { return }
+  e.preventDefault()
+})
 document.getElementById('clr').onclick = () => {
   if (!confirm('delete every note and ok mark?')) return
   for (const k in store) delete store[k]
@@ -201,7 +231,8 @@ lo = sum(1 for s, *_ in items if s < 0.75)
 os.makedirs(os.path.dirname(OUT), exist_ok=True)
 open(OUT, 'w').write(f'''<!doctype html><meta charset=utf-8>
 <title>figure redraw review</title>{CSS}
-<p>{len(items)} figures, worst first. {lo} below 0.75. Drag on a panel to box a problem, click a box to edit or delete it.</p>
+<p>{len(items)} figures, worst first. {lo} below 0.75. Drag on a panel to box a problem, click a box to edit or delete it.
+Keys: <b>space</b>/<b>j</b> next figure, <b>shift-space</b>/<b>k</b> prev, <b>v</b> overlay, <b>o</b> ok.</p>
 {''.join(rows)}{JS}''')
 print(f'{len(items)} figures ({lo} below 0.75'
       + ('' if only else f', {len(done)} signed off and skipped') + f') -> {OUT}')
