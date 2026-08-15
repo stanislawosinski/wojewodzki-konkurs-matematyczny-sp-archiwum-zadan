@@ -1,34 +1,40 @@
 # konkurs-mat
 
 A searchable practice bank of past **Polish regional math-competition papers** —
-*Wojewódzki Konkurs Przedmiotowy z Matematyki* / *Konkurs Matematyczny* for primary schools
-(szkoły podstawowe; plus one older gimnazjum set), spanning many voivodeships and years
-(~2010–2026) across the three contest stages **szkolny** (school) → **rejonowy** (regional) →
-**wojewódzki** (provincial).
+*Wojewódzki Konkurs Przedmiotowy z Matematyki* / *Konkurs Matematyczny* for primary schools, 
+spanning all voivodeships and years (~2010–2026) across the three contest stages **szkolny**
+(school) → **rejonowy** (regional) → **wojewódzki** (provincial).
 
-The pipeline turns the official question-paper PDFs + answer keys into **per-question structured
+This project turns the official question-paper PDFs + answer keys into **per-question structured
 JSON** (question text as HTML + inline MathML, cropped figures, topic tags, answers), then
 assembles that JSON into a single **filterable HTML question browser** for contest prep — filter
 by topic, year, voivodeship, points, question type, and school type.
 
 **▶ Try it live: [the question browser](https://stanislawosinski.github.io/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/)** — search and filter the whole bank in your browser, nothing to install.
 
-## Mostly the work of an LLM agent
+## Heads up: this is mostly the work of an LLM agent
 
 This archive is **largely the product of an autonomous LLM agent** (Claude / Opus, driven via
-[Claude Code](https://claude.com/claude-code)). Agents did the heavy lifting:
+[Claude Code](https://claude.com/claude-code)) working under human supervision. Agents did the
+heavy lifting, in this order:
 
-- **Downloading** the papers — one agent per voivodeship, each education-authority site laid out
-  differently.
-- **Extraction** — one agent per PDF, reading the *rendered page images* (the PDF text layer drops
-  exponents, roots and figures), transcribing the exact Polish wording, converting every formula to
-  [MathML](https://developer.mozilla.org/en-US/docs/Web/MathML), cropping diagrams with `pdftoppm`,
-  and mapping the answer keys.
-- **Categorization** — tagging each question against a fixed topic catalog (see
-  [`SCHEMA.md`](SCHEMA.md)).
+1. **Downloading** the papers — one agent per voivodeship, each education-authority site laid out
+   differently.
+2. **Extraction** — one agent per PDF, reading the *rendered page images* (the PDF text layer drops
+   exponents, roots and figures), transcribing the exact Polish wording, converting every formula to
+   [MathML](https://developer.mozilla.org/en-US/docs/Web/MathML), and pulling the metadata (number,
+   points, stage, …) and the answer keys into one consistent JSON shape.
+3. **Figure cropping** — 855 diagrams cut straight out of the PDF renders with `pdftoppm`.
+4. **Categorization** — tagging each question against a fixed topic catalog (see
+   [`SCHEMA.md`](SCHEMA.md)).
+5. **Blind verification** — every question re-solved from scratch without sight of the key, and the
+   disagreements adjudicated across model tiers.
+6. **Figure redraw** — 823 of those 855 crops redrawn as clean vector SVGs, switchable in the
+   browser under ⚙ → *Rysunki wektorowe*.
 
-Humans set the conventions, spot-checked output, and made the structural decisions. The full
-reproducible procedure is preserved in [`EXTRACTION_PLAYBOOK.md`](dev/docs/EXTRACTION_PLAYBOOK.md).
+Humans set the conventions, reviewed the redrawn figures, spot-checked questions, and made the
+structural decisions. The full reproducible procedure is preserved in
+[`EXTRACTION_PLAYBOOK.md`](dev/docs/EXTRACTION_PLAYBOOK.md).
 
 **Honest limitations** (please read before relying on answers):
 
@@ -41,6 +47,55 @@ reproducible procedure is preserved in [`EXTRACTION_PLAYBOOK.md`](dev/docs/EXTRA
   1 wrong official solution, the rest confirmed correct).
 - The **original download URLs were not recorded and are lost** — see
   [`SOURCES.md`](dev/docs/SOURCES.md) for provenance and per-voivodeship re-derivation seeds.
+
+## Two ways to use it
+
+### 1. Build and print a worksheet in the browser
+
+[The browser](https://stanislawosinski.github.io/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/)
+is the short path from "I need twenty questions on the Pythagorean theorem" to a printed sheet:
+
+- **Filter** in the sidebar — topic (matching *any* or *every* selected topic), stage, year,
+  voivodeship, points, question type, school type — plus full-text search over the question text.
+- **Curate** — tick the questions you want and press **Zaznaczone ↑** to collect their ids in the
+  *Pokaż tylko id* box; that box *is* your worksheet. **Skopiuj** saves the id list and pasting it
+  back restores the set; *Pomiń id* drops individual questions.
+- **Share** — the filters, the id set and the (editable) sheet title all live in the URL hash, so a
+  worksheet is just a link.
+- **Print** — **Drukuj** (questions only), **Drukuj z odpowiedziami** (key on the last page) or
+  **Drukuj sam klucz**. Under ⚙ → *Wydruk*: which metadata to print, how much scratch space
+  (*brudnopis*: automatic / half page / full page / none) and whether it is squared paper
+  (*kratka*: always / geometry only / never).
+
+### 2. Mine the JSON with an LLM agent and `jq`
+
+For the questions the UI cannot express — "percentages combined with geometry", "tasks whose
+solution needs a proof", "everything a given voivodeship asked twice" — point an agent (Claude Code
+or similar) at `browser/data/*.json` and let it query with `jq`. One JSON per test, schema in
+[`SCHEMA.md`](SCHEMA.md):
+
+```sh
+# 3+ point Pythagoras questions from the provincial stage
+jq -r 'select(.stage=="wojewodzki") | .wojewodztwo as $w | .school_year as $y | .questions[]
+       | select(.topics|index("twierdzenie Pitagorasa")) | select(.points>=3)
+       | "\(.id)\t\(.points)p\t\($w) \($y)"' browser/data/*.json
+
+# which topics come up most often?
+jq -r '.questions[].topics[]' browser/data/*.json | sort | uniq -c | sort -rn | head
+
+# open questions that ship a worked solution
+jq -r '.questions[] | select(.type=="open" and .answer.solution_html != null) | .id' browser/data/*.json
+```
+
+The two halves meet at the id: the browser's short id is `sha1(question.id)[:8]`, so an agent can
+hand its results straight over for printing —
+
+```sh
+jq -r '.questions[] | select(.topics|index("twierdzenie Pitagorasa")) | .id' browser/data/*.json |
+  while read -r id; do printf '%s' "$id" | shasum | cut -c1-8; done | paste -sd, -
+```
+
+Paste that comma-separated list into *Pokaż tylko id*, then print.
 
 ## Layout
 
