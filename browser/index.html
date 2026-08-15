@@ -260,58 +260,57 @@
         <p>
           To przeszukiwalny zbiór zadań z
           <strong>wojewódzkich konkursów przedmiotowych z matematyki dla szkół podstawowych</strong>
-          ze wszystkich województw i lat (ok. 2010–2026) na etapach
-          szkolnym, rejonowym i wojewódzkim.
+          ze wszystkich województw, z lat ok. 2010–2026, na etapach szkolnym, rejonowym i
+          wojewódzkim.
         </p>
 
         <h3>Jak powstał ten serwis</h3>
         <p>
-          Podczas tworzenia tego serwisu, autonomiczny agent LLM (Claude / Opus /
-          Claude Code) <strong>pod nadzorem człowieka</strong> wykonał kolejno:
+          Podczas tworzenia serwisu autonomiczny agent LLM (Claude / Opus / Claude Code)
+          <strong>pod nadzorem człowieka</strong>
+          wykonał kolejno:
         </p>
         <ol>
-          <li>pobranie dostępnych arkuszy (PDF) ze stron kuratoriów oświaty,</li>
+          <li>pobranie dostępnych arkuszy (PDF) ze stron Kuratoriów Oświaty,</li>
           <li>
-            wyodrębnienie treści zadań, wzorów, metadanych (numer, punkty, etap itp.) i
-            kluczy odpowiedzi do spójnego i łatwego do przetwarzania formatu (JSON).
+            wyodrębnienie treści zadań, wzorów, metadanych (numer, punkty, etap itp.) i kluczy
+            odpowiedzi oraz zapisanie ich w spójnym, łatwym do przetwarzania formacie (JSON),
           </li>
           <li>wycięcie rysunków z arkuszy,</li>
           <li>automatyczną kategoryzację zadań (przypisanie tematów),</li>
           <li>weryfikację kluczy i niezależne rozwiązanie zadań przez agentów LLM,</li>
-          <li>narysowanie większości rysunków na nowo jako grafika wektorowa (SVG).</li>
+          <li>narysowanie większości rysunków na nowo w formie grafiki wektorowej (SVG).</li>
         </ol>
 
         <h3>Dbałość o poprawność</h3>
         <p>Aby ograniczyć liczbę błędów, zastosowano m.in.:</p>
         <ul>
           <li>
-            odczyt treści z <em>obrazu strony</em>, a nie z zawodnej warstwy tekstowej PDF, która gubi
-            potęgi, pierwiastki i symbole,
+            odczyt treści z <em>obrazu strony</em>, a nie z zawodnej warstwy tekstowej PDF, która
+            gubi potęgi, pierwiastki i symbole,
           </li>
           <li>
-            niezależne rozwiązanie zadań przez agenta LLM i porównanie z oficjalnym kluczem; rozbieżności
-            zostały oznaczane i sprawdzane,
+            niezależne rozwiązanie zadań przez agentów LLM i porównanie z oficjalnym kluczem;
+            rozbieżności były oznaczane i sprawdzane,
           </li>
           <li>przegląd przerysowanych rysunków (SVG) przez człowieka,</li>
           <li>wyrywkowy przegląd zadań przez człowieka.</li>
         </ul>
-        <p>
-          Proces był w dużej mierze automatyczny, więc błędy wciąż mogą się zdarzyć.
-        </p>
+        <p>Proces był w dużej mierze automatyczny, więc błędy wciąż mogą się zdarzyć.</p>
 
         <h3>Prawa autorskie</h3>
         <p>
           Zadania, ich treść i odpowiedzi pozostają
-          <strong>własnością intelektualną odpowiednich Kuratoriów Oświaty</strong>
-          i są tu udostępnione wyłącznie w celach
-          <strong>edukacyjnych i archiwalnych, niekomercyjnie</strong>. Oryginalny wkład tego
-          projektu (struktura danych, kategoryzacja, kod przeglądarki, dokumentacja) jest na
-          licencji CC BY 4.0.
+          <strong>własnością intelektualną właściwych Kuratoriów Oświaty</strong>
+          i są tu udostępnione wyłącznie
+          <strong>niekomercyjnie, w celach edukacyjnych i archiwalnych</strong>. Oryginalny wkład
+          tego projektu (struktura danych, kategoryzacja, kod przeglądarki, dokumentacja) jest
+          objęty licencją CC BY 4.0.
         </p>
 
         <h3>Zgłaszanie problemów i usuwanie danych</h3>
         <p>
-          Błędy oraz prośby o usunięcie materiałów zgłaszaj przez
+          Do zgłaszania błędów i próśb o usunięcie materiałów służą
           <a
             href="https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/issues"
             target="_blank"
@@ -321,8 +320,8 @@
         </p>
 
         <p class="about-note">
-          Cały kod tej aplikacji został wygenerowany przez LLM, z minimalnym przeglądem przez
-          człowieka.
+          Cały kod tej aplikacji został wygenerowany przez agenta LLM i tylko w minimalnym stopniu
+          przejrzany przez człowieka.
         </p>
       </div>
     </div>

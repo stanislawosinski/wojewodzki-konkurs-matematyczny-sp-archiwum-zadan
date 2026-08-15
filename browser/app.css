@@ -267,7 +267,8 @@ h1 {
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
   background: var(--surface);
   color: #333;
-  font-family: system-ui, -apple-system, "Segoe UI", sans-serif; /* sans, like the app chrome (body default is serif) */
+  font-family:
+    system-ui, -apple-system, "Segoe UI", sans-serif; /* sans, like the app chrome (body default is serif) */
 }
 .about-pop::backdrop {
   background: rgba(0, 0, 0, 0.4);
