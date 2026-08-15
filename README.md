@@ -28,7 +28,7 @@ This archive is **largely the product of an autonomous LLM agent** (Claude / Opu
   [`SCHEMA.md`](SCHEMA.md)).
 
 Humans set the conventions, spot-checked output, and made the structural decisions. The full
-reproducible procedure is preserved in [`EXTRACTION_PLAYBOOK.md`](EXTRACTION_PLAYBOOK.md).
+reproducible procedure is preserved in [`EXTRACTION_PLAYBOOK.md`](dev/docs/EXTRACTION_PLAYBOOK.md).
 
 **Honest limitations** (please read before relying on answers):
 
@@ -36,8 +36,8 @@ reproducible procedure is preserved in [`EXTRACTION_PLAYBOOK.md`](EXTRACTION_PLA
   **not** independently re-solved. A blind-verification pass is planned but not yet run.
 - A handful of **suspected answer-key errors** are logged in
   [`suspected_key_errors.tsv`](suspected_key_errors.tsv).
-- The **original download URLs were not recorded and are lost** — see [`SOURCES.md`](SOURCES.md)
-  for provenance and per-voivodeship re-derivation seeds.
+- The **original download URLs were not recorded and are lost** — see
+  [`SOURCES.md`](dev/docs/SOURCES.md) for provenance and per-voivodeship re-derivation seeds.
 
 ## Layout
 
@@ -45,10 +45,12 @@ reproducible procedure is preserved in [`EXTRACTION_PLAYBOOK.md`](EXTRACTION_PLA
 konkurs-mat/
   README.md  LICENSE
   SCHEMA.md               # JSON spec + extraction procedure + topic catalog
-  EXTRACTION_PLAYBOOK.md  # how to process new papers (agent prompt + batch workflow + scripts)
-  PROGRESS.md             # status, coverage, gotchas
-  SOURCES.md              # provenance & rights
   suspected_key_errors.tsv
+  dev/
+    docs/                 # EXTRACTION_PLAYBOOK.md (how to process new papers), SOURCES.md (provenance & rights)
+    scripts/              # one-off pipeline & verification tools
+    reports/              # PROGRESS.md (status, coverage, gotchas) + verification reports
+    figures/              # figure redraw/contradiction campaign artifacts + review sheets
   pdfs/
     szkolny/  rejonowy/  wojewodzki/   # source PDFs: <year>_<wojewodztwo>[_sp|_gim][_answers].pdf
   browser/
@@ -81,7 +83,7 @@ these are **relative to `pdfs/`** (prepend `pdfs/` to open the file).
 
 Known gaps: **lubuskie** and **opolskie** are absent from the archive; szkolny W-M 2012/13–2016/17
 were never web-archived; some podlaskie years shipped without an answer key. Details in
-[`SOURCES.md`](SOURCES.md) and [`PROGRESS.md`](PROGRESS.md).
+[`SOURCES.md`](dev/docs/SOURCES.md) and [`PROGRESS.md`](dev/reports/PROGRESS.md).
 
 ## Building the browser
 
@@ -104,7 +106,7 @@ filter in the UI (no build-time `--topic` needed).
 ## Sources & rights
 
 The source papers are official *konkursy przedmiotowe* run by each voivodeship's **Kuratorium
-Oświaty**. See [`SOURCES.md`](SOURCES.md) for the per-voivodeship attribution table.
+Oświaty**. See [`SOURCES.md`](dev/docs/SOURCES.md) for the per-voivodeship attribution table.
 
 The **PDFs under `pdfs/` and the competition questions/answers** remain © their respective
 Kuratoria Oświaty and are included here for **non-commercial educational and archival use only**.

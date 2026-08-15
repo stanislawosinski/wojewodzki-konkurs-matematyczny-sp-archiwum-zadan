@@ -1,0 +1,213 @@
+<!doctype html><meta charset=utf-8>
+<title>figure redraw review</title><style>
+body{font:13px/1.4 system-ui;margin:2rem;background:#fafafa}
+section{margin:0 0 2.5rem;border-top:1px solid #ddd;padding-top:.6rem}
+h2{font-size:13px;font-weight:600;margin:0 0 .5rem} .s{color:#888;font-weight:400}
+.h{color:#88a;font-weight:400;font-family:ui-monospace,monospace;text-decoration:none} .h:hover{text-decoration:underline}
+.p{display:flex;gap:1.5rem;align-items:flex-start;flex-wrap:wrap}
+figure{margin:0} figcaption{color:#999;font-size:11px;margin-bottom:.3rem}
+img{background:#fff;display:block}
+/* outline, not border: it draws outside the box, so .ov's content box stays
+   exactly the image rect and box coords need no offset */
+.ov{position:relative;display:inline-block;cursor:crosshair;outline:1px solid #eee}
+.b{position:absolute;border:2px solid #e33;background:#e3333312;box-sizing:border-box;cursor:pointer}
+.b>i{position:absolute;top:0;left:0;background:#e33;color:#fff;font:10px/1 system-ui;padding:2px 3px;font-style:normal}
+.n{color:#e33;font-weight:400} button{font:11px system-ui;cursor:pointer}
+.ok{color:#2a2;font-weight:400;cursor:pointer;user-select:none} .ok input{vertical-align:-1px}
+/* blink comparator: the scan sits exactly on the redraw, so toggling it makes
+   a mismatch jump. Opaque on purpose — a blend is harder to read than a flip. */
+.xl{color:#66c;font-weight:400;cursor:pointer;user-select:none} .xl input{vertical-align:-1px}
+.x{position:absolute;left:0;top:0;display:none} section.xray .x{display:block}
+section.done{opacity:.4}          /* still there to re-check, just out of the way */
+#bar{position:fixed;right:1rem;bottom:1rem;background:#fff;border:1px solid #ccc;border-radius:4px;padding:.5rem;box-shadow:0 1px 6px #0002}
+#bar button{display:block;width:100%;margin-top:.3rem}
+</style><div id=bar><span id=tot>(js off)</span>
+<button id=all>copy JSONL</button><button id=okc>copy OK list</button><button id=clr>clear all</button></div>
+<p>27 figures, worst first. 2 below 0.75. Drag on a panel to box a problem, click a box to edit or delete it.</p>
+<section data-name="rejonowy_2019_podkarpackie_q12_fig1" data-hash="d2f3b893" data-w=375 data-h=345>
+<h2>1. rejonowy_2019_podkarpackie_q12_fig1 <a class=h href="../../browser/index.html#inc=d2f3b893" target=_blank>d2f3b893</a> <span class=s>match@4px 0.33</span> <label class=ok><input type=checkbox> ok</label> <label class=xl><input type=checkbox> overlay</label> <button class=cp hidden>copy JSON</button> <span class=n></span></h2>
+<div class=p><figure><figcaption>original 375&times;345</figcaption><div class=ov><img src="../../browser/figures/rejonowy_2019_podkarpackie_q12_fig1.png" width=281></div></figure>
+<figure><figcaption>redraw</figcaption><div class=ov><img src="../../browser/figures/svg/rejonowy_2019_podkarpackie_q12_fig1.svg" width=281><img class=x src="../../browser/figures/rejonowy_2019_podkarpackie_q12_fig1.png" width=281></div></figure></div></section><section data-name="wojewodzki_2013_podlaskie_gim_q13_fig1" data-hash="b22f3b2d" data-w=524 data-h=302>
+<h2>2. wojewodzki_2013_podlaskie_gim_q13_fig1 <a class=h href="../../browser/index.html#inc=b22f3b2d" target=_blank>b22f3b2d</a> <span class=s>match@4px 0.54</span> <label class=ok><input type=checkbox> ok</label> <label class=xl><input type=checkbox> overlay</label> <button class=cp hidden>copy JSON</button> <span class=n></span></h2>
+<div class=p><figure><figcaption>original 524&times;302</figcaption><div class=ov><img src="../../browser/figures/wojewodzki_2013_podlaskie_gim_q13_fig1.png" width=393></div></figure>
+<figure><figcaption>redraw</figcaption><div class=ov><img src="../../browser/figures/svg/wojewodzki_2013_podlaskie_gim_q13_fig1.svg" width=393><img class=x src="../../browser/figures/wojewodzki_2013_podlaskie_gim_q13_fig1.png" width=393></div></figure></div></section><section data-name="wojewodzki_2012-2013_slaskie_q9_fig1" data-hash="ca61d51c" data-w=460 data-h=300>
+<h2>3. wojewodzki_2012-2013_slaskie_q9_fig1 <a class=h href="../../browser/index.html#inc=ca61d51c" target=_blank>ca61d51c</a> <span class=s>match@4px 0.80</span> <label class=ok><input type=checkbox> ok</label> <label class=xl><input type=checkbox> overlay</label> <button class=cp hidden>copy JSON</button> <span class=n></span></h2>
+<div class=p><figure><figcaption>original 460&times;300</figcaption><div class=ov><img src="../../browser/figures/wojewodzki_2012-2013_slaskie_q9_fig1.png" width=345></div></figure>
+<figure><figcaption>redraw</figcaption><div class=ov><img src="../../browser/figures/svg/wojewodzki_2012-2013_slaskie_q9_fig1.svg" width=345><img class=x src="../../browser/figures/wojewodzki_2012-2013_slaskie_q9_fig1.png" width=345></div></figure></div></section><section data-name="rejonowy_2020_podlaskie_q19_fig1" data-hash="dafd3a3b" data-w=382 data-h=317>
+<h2>4. rejonowy_2020_podlaskie_q19_fig1 <a class=h href="../../browser/index.html#inc=dafd3a3b" target=_blank>dafd3a3b</a> <span class=s>match@4px 0.91</span> <label class=ok><input type=checkbox> ok</label> <label class=xl><input type=checkbox> overlay</label> <button class=cp hidden>copy JSON</button> <span class=n></span></h2>
+<div class=p><figure><figcaption>original 382&times;317</figcaption><div class=ov><img src="../../browser/figures/rejonowy_2020_podlaskie_q19_fig1.png" width=286></div></figure>
+<figure><figcaption>redraw</figcaption><div class=ov><img src="../../browser/figures/svg/rejonowy_2020_podlaskie_q19_fig1.svg" width=286><img class=x src="../../browser/figures/rejonowy_2020_podlaskie_q19_fig1.png" width=286></div></figure></div></section><section data-name="wojewodzki_2020-2021_wielkopolskie_q21_fig1" data-hash="7d7c6444" data-w=580 data-h=450>
+<h2>5. wojewodzki_2020-2021_wielkopolskie_q21_fig1 <a class=h href="../../browser/index.html#inc=7d7c6444" target=_blank>7d7c6444</a> <span class=s>match@4px 0.92</span> <label class=ok><input type=checkbox> ok</label> <label class=xl><input type=checkbox> overlay</label> <button class=cp hidden>copy JSON</button> <span class=n></span></h2>
+<div class=p><figure><figcaption>original 580&times;450</figcaption><div class=ov><img src="../../browser/figures/wojewodzki_2020-2021_wielkopolskie_q21_fig1.png" width=435></div></figure>
+<figure><figcaption>redraw</figcaption><div class=ov><img src="../../browser/figures/svg/wojewodzki_2020-2021_wielkopolskie_q21_fig1.svg" width=435><img class=x src="../../browser/figures/wojewodzki_2020-2021_wielkopolskie_q21_fig1.png" width=435></div></figure></div></section><section data-name="rejonowy_2021_lodzkie_q13_fig1" data-hash="22707e4b" data-w=780 data-h=700>
+<h2>6. rejonowy_2021_lodzkie_q13_fig1 <a class=h href="../../browser/index.html#inc=22707e4b" target=_blank>22707e4b</a> <span class=s>match@4px 0.97</span> <label class=ok><input type=checkbox> ok</label> <label class=xl><input type=checkbox> overlay</label> <button class=cp hidden>copy JSON</button> <span class=n></span></h2>
+<div class=p><figure><figcaption>original 780&times;700</figcaption><div class=ov><img src="../../browser/figures/rejonowy_2021_lodzkie_q13_fig1.png" width=585></div></figure>
+<figure><figcaption>redraw</figcaption><div class=ov><img src="../../browser/figures/svg/rejonowy_2021_lodzkie_q13_fig1.svg" width=585><img class=x src="../../browser/figures/rejonowy_2021_lodzkie_q13_fig1.png" width=585></div></figure></div></section><section data-name="wojewodzki_2013_podlaskie_gim_q20_fig1" data-hash="c5533a24" data-w=720 data-h=556>
+<h2>7. wojewodzki_2013_podlaskie_gim_q20_fig1 <a class=h href="../../browser/index.html#inc=c5533a24" target=_blank>c5533a24</a> <span class=s>match@4px 0.98</span> <label class=ok><input type=checkbox> ok</label> <label class=xl><input type=checkbox> overlay</label> <button class=cp hidden>copy JSON</button> <span class=n></span></h2>
+<div class=p><figure><figcaption>original 720&times;556</figcaption><div class=ov><img src="../../browser/figures/wojewodzki_2013_podlaskie_gim_q20_fig1.png" width=540></div></figure>
+<figure><figcaption>redraw</figcaption><div class=ov><img src="../../browser/figures/svg/wojewodzki_2013_podlaskie_gim_q20_fig1.svg" width=540><img class=x src="../../browser/figures/wojewodzki_2013_podlaskie_gim_q20_fig1.png" width=540></div></figure></div></section><section data-name="rejonowy_2020-2021_pomorskie_q6_fig1" data-hash="2878c143" data-w=2220 data-h=980>
+<h2>8. rejonowy_2020-2021_pomorskie_q6_fig1 <a class=h href="../../browser/index.html#inc=2878c143" target=_blank>2878c143</a> <span class=s>match@4px 0.98</span> <label class=ok><input type=checkbox> ok</label> <label class=xl><input type=checkbox> overlay</label> <button class=cp hidden>copy JSON</button> <span class=n></span></h2>
+<div class=p><figure><figcaption>original 2220&times;980</figcaption><div class=ov><img src="../../browser/figures/rejonowy_2020-2021_pomorskie_q6_fig1.png" width=1665></div></figure>
+<figure><figcaption>redraw</figcaption><div class=ov><img src="../../browser/figures/svg/rejonowy_2020-2021_pomorskie_q6_fig1.svg" width=1665><img class=x src="../../browser/figures/rejonowy_2020-2021_pomorskie_q6_fig1.png" width=1665></div></figure></div></section><section data-name="wojewodzki_2024_podlaskie_q19_fig1" data-hash="51a9a6a3" data-w=540 data-h=320>
+<h2>9. wojewodzki_2024_podlaskie_q19_fig1 <a class=h href="../../browser/index.html#inc=51a9a6a3" target=_blank>51a9a6a3</a> <span class=s>match@4px 0.99</span> <label class=ok><input type=checkbox> ok</label> <label class=xl><input type=checkbox> overlay</label> <button class=cp hidden>copy JSON</button> <span class=n></span></h2>
+<div class=p><figure><figcaption>original 540&times;320</figcaption><div class=ov><img src="../../browser/figures/wojewodzki_2024_podlaskie_q19_fig1.png" width=405></div></figure>
+<figure><figcaption>redraw</figcaption><div class=ov><img src="../../browser/figures/svg/wojewodzki_2024_podlaskie_q19_fig1.svg" width=405><img class=x src="../../browser/figures/wojewodzki_2024_podlaskie_q19_fig1.png" width=405></div></figure></div></section><section data-name="rejonowy_2025_dolnoslaskie_q13_fig1" data-hash="bbc94875" data-w=1040 data-h=780>
+<h2>10. rejonowy_2025_dolnoslaskie_q13_fig1 <a class=h href="../../browser/index.html#inc=bbc94875" target=_blank>bbc94875</a> <span class=s>match@4px 0.99</span> <label class=ok><input type=checkbox> ok</label> <label class=xl><input type=checkbox> overlay</label> <button class=cp hidden>copy JSON</button> <span class=n></span></h2>
+<div class=p><figure><figcaption>original 1040&times;780</figcaption><div class=ov><img src="../../browser/figures/rejonowy_2025_dolnoslaskie_q13_fig1.png" width=780></div></figure>
+<figure><figcaption>redraw</figcaption><div class=ov><img src="../../browser/figures/svg/rejonowy_2025_dolnoslaskie_q13_fig1.svg" width=780><img class=x src="../../browser/figures/rejonowy_2025_dolnoslaskie_q13_fig1.png" width=780></div></figure></div></section><section data-name="wojewodzki_2020_podlaskie_q9_fig1" data-hash="ce44b5a7" data-w=515 data-h=460>
+<h2>11. wojewodzki_2020_podlaskie_q9_fig1 <a class=h href="../../browser/index.html#inc=ce44b5a7" target=_blank>ce44b5a7</a> <span class=s>match@4px 0.99</span> <label class=ok><input type=checkbox> ok</label> <label class=xl><input type=checkbox> overlay</label> <button class=cp hidden>copy JSON</button> <span class=n></span></h2>
+<div class=p><figure><figcaption>original 515&times;460</figcaption><div class=ov><img src="../../browser/figures/wojewodzki_2020_podlaskie_q9_fig1.png" width=386></div></figure>
+<figure><figcaption>redraw</figcaption><div class=ov><img src="../../browser/figures/svg/wojewodzki_2020_podlaskie_q9_fig1.svg" width=386><img class=x src="../../browser/figures/wojewodzki_2020_podlaskie_q9_fig1.png" width=386></div></figure></div></section><section data-name="wojewodzki_2021-2022_warminsko-mazurskie_q18_fig1" data-hash="c1f91831" data-w=360 data-h=258>
+<h2>12. wojewodzki_2021-2022_warminsko-mazurskie_q18_fig1 <a class=h href="../../browser/index.html#inc=c1f91831" target=_blank>c1f91831</a> <span class=s>match@4px 1.00</span> <label class=ok><input type=checkbox> ok</label> <label class=xl><input type=checkbox> overlay</label> <button class=cp hidden>copy JSON</button> <span class=n></span></h2>
+<div class=p><figure><figcaption>original 360&times;258</figcaption><div class=ov><img src="../../browser/figures/wojewodzki_2021-2022_warminsko-mazurskie_q18_fig1.png" width=270></div></figure>
+<figure><figcaption>redraw</figcaption><div class=ov><img src="../../browser/figures/svg/wojewodzki_2021-2022_warminsko-mazurskie_q18_fig1.svg" width=270><img class=x src="../../browser/figures/wojewodzki_2021-2022_warminsko-mazurskie_q18_fig1.png" width=270></div></figure></div></section><section data-name="wojewodzki_2025_kujawsko-pomorskie_q9_fig1" data-hash="95b5102a" data-w=786 data-h=276>
+<h2>13. wojewodzki_2025_kujawsko-pomorskie_q9_fig1 <a class=h href="../../browser/index.html#inc=95b5102a" target=_blank>95b5102a</a> <span class=s>match@4px 1.00</span> <label class=ok><input type=checkbox> ok</label> <label class=xl><input type=checkbox> overlay</label> <button class=cp hidden>copy JSON</button> <span class=n></span></h2>
+<div class=p><figure><figcaption>original 786&times;276</figcaption><div class=ov><img src="../../browser/figures/wojewodzki_2025_kujawsko-pomorskie_q9_fig1.png" width=590></div></figure>
+<figure><figcaption>redraw</figcaption><div class=ov><img src="../../browser/figures/svg/wojewodzki_2025_kujawsko-pomorskie_q9_fig1.svg" width=590><img class=x src="../../browser/figures/wojewodzki_2025_kujawsko-pomorskie_q9_fig1.png" width=590></div></figure></div></section><section data-name="rejonowy_2020_dolnoslaskie_q9_fig1" data-hash="bf602843" data-w=760 data-h=504>
+<h2>14. rejonowy_2020_dolnoslaskie_q9_fig1 <a class=h href="../../browser/index.html#inc=bf602843" target=_blank>bf602843</a> <span class=s>match@4px 1.00</span> <label class=ok><input type=checkbox> ok</label> <label class=xl><input type=checkbox> overlay</label> <button class=cp hidden>copy JSON</button> <span class=n></span></h2>
+<div class=p><figure><figcaption>original 760&times;504</figcaption><div class=ov><img src="../../browser/figures/rejonowy_2020_dolnoslaskie_q9_fig1.png" width=570></div></figure>
+<figure><figcaption>redraw</figcaption><div class=ov><img src="../../browser/figures/svg/rejonowy_2020_dolnoslaskie_q9_fig1.svg" width=570><img class=x src="../../browser/figures/rejonowy_2020_dolnoslaskie_q9_fig1.png" width=570></div></figure></div></section><section data-name="wojewodzki_2020-2021_wielkopolskie_q9_fig1" data-hash="4979be8c" data-w=650 data-h=360>
+<h2>15. wojewodzki_2020-2021_wielkopolskie_q9_fig1 <a class=h href="../../browser/index.html#inc=4979be8c" target=_blank>4979be8c</a> <span class=s>match@4px 1.00</span> <label class=ok><input type=checkbox> ok</label> <label class=xl><input type=checkbox> overlay</label> <button class=cp hidden>copy JSON</button> <span class=n></span></h2>
+<div class=p><figure><figcaption>original 650&times;360</figcaption><div class=ov><img src="../../browser/figures/wojewodzki_2020-2021_wielkopolskie_q9_fig1.png" width=488></div></figure>
+<figure><figcaption>redraw</figcaption><div class=ov><img src="../../browser/figures/svg/wojewodzki_2020-2021_wielkopolskie_q9_fig1.svg" width=488><img class=x src="../../browser/figures/wojewodzki_2020-2021_wielkopolskie_q9_fig1.png" width=488></div></figure></div></section><section data-name="rejonowy_2025-2026_slaskie_q14_fig1" data-hash="ecaf8cc2" data-w=575 data-h=418>
+<h2>16. rejonowy_2025-2026_slaskie_q14_fig1 <a class=h href="../../browser/index.html#inc=ecaf8cc2" target=_blank>ecaf8cc2</a> <span class=s>match@4px 1.00</span> <label class=ok><input type=checkbox> ok</label> <label class=xl><input type=checkbox> overlay</label> <button class=cp hidden>copy JSON</button> <span class=n></span></h2>
+<div class=p><figure><figcaption>original 575&times;418</figcaption><div class=ov><img src="../../browser/figures/rejonowy_2025-2026_slaskie_q14_fig1.png" width=431></div></figure>
+<figure><figcaption>redraw</figcaption><div class=ov><img src="../../browser/figures/svg/rejonowy_2025-2026_slaskie_q14_fig1.svg" width=431><img class=x src="../../browser/figures/rejonowy_2025-2026_slaskie_q14_fig1.png" width=431></div></figure></div></section><section data-name="rejonowy_2020-2021_swietokrzyskie_1_q12_fig1" data-hash="acf02f25" data-w=680 data-h=490>
+<h2>17. rejonowy_2020-2021_swietokrzyskie_1_q12_fig1 <a class=h href="../../browser/index.html#inc=acf02f25" target=_blank>acf02f25</a> <span class=s>match@4px 1.00</span> <label class=ok><input type=checkbox> ok</label> <label class=xl><input type=checkbox> overlay</label> <button class=cp hidden>copy JSON</button> <span class=n></span></h2>
+<div class=p><figure><figcaption>original 680&times;490</figcaption><div class=ov><img src="../../browser/figures/rejonowy_2020-2021_swietokrzyskie_1_q12_fig1.png" width=510></div></figure>
+<figure><figcaption>redraw</figcaption><div class=ov><img src="../../browser/figures/svg/rejonowy_2020-2021_swietokrzyskie_1_q12_fig1.svg" width=510><img class=x src="../../browser/figures/rejonowy_2020-2021_swietokrzyskie_1_q12_fig1.png" width=510></div></figure></div></section><section data-name="rejonowy_2025_lodzkie_q3_fig2" data-hash="0643d095" data-w=230 data-h=213>
+<h2>18. rejonowy_2025_lodzkie_q3_fig2 <a class=h href="../../browser/index.html#inc=0643d095" target=_blank>0643d095</a> <span class=s>match@4px 1.00</span> <label class=ok><input type=checkbox> ok</label> <label class=xl><input type=checkbox> overlay</label> <button class=cp hidden>copy JSON</button> <span class=n></span></h2>
+<div class=p><figure><figcaption>original 230&times;213</figcaption><div class=ov><img src="../../browser/figures/rejonowy_2025_lodzkie_q3_fig2.png" width=172></div></figure>
+<figure><figcaption>redraw</figcaption><div class=ov><img src="../../browser/figures/svg/rejonowy_2025_lodzkie_q3_fig2.svg" width=172><img class=x src="../../browser/figures/rejonowy_2025_lodzkie_q3_fig2.png" width=172></div></figure></div></section><section data-name="rejonowy_2025_lodzkie_q3_fig1" data-hash="0643d095" data-w=241 data-h=222>
+<h2>19. rejonowy_2025_lodzkie_q3_fig1 <a class=h href="../../browser/index.html#inc=0643d095" target=_blank>0643d095</a> <span class=s>match@4px 1.00</span> <label class=ok><input type=checkbox> ok</label> <label class=xl><input type=checkbox> overlay</label> <button class=cp hidden>copy JSON</button> <span class=n></span></h2>
+<div class=p><figure><figcaption>original 241&times;222</figcaption><div class=ov><img src="../../browser/figures/rejonowy_2025_lodzkie_q3_fig1.png" width=181></div></figure>
+<figure><figcaption>redraw</figcaption><div class=ov><img src="../../browser/figures/svg/rejonowy_2025_lodzkie_q3_fig1.svg" width=181><img class=x src="../../browser/figures/rejonowy_2025_lodzkie_q3_fig1.png" width=181></div></figure></div></section><section data-name="rejonowy_2025_lodzkie_q3_fig3" data-hash="0643d095" data-w=226 data-h=207>
+<h2>20. rejonowy_2025_lodzkie_q3_fig3 <a class=h href="../../browser/index.html#inc=0643d095" target=_blank>0643d095</a> <span class=s>match@4px 1.00</span> <label class=ok><input type=checkbox> ok</label> <label class=xl><input type=checkbox> overlay</label> <button class=cp hidden>copy JSON</button> <span class=n></span></h2>
+<div class=p><figure><figcaption>original 226&times;207</figcaption><div class=ov><img src="../../browser/figures/rejonowy_2025_lodzkie_q3_fig3.png" width=170></div></figure>
+<figure><figcaption>redraw</figcaption><div class=ov><img src="../../browser/figures/svg/rejonowy_2025_lodzkie_q3_fig3.svg" width=170><img class=x src="../../browser/figures/rejonowy_2025_lodzkie_q3_fig3.png" width=170></div></figure></div></section><section data-name="wojewodzki_2021-2022_swietokrzyskie_q9_fig1" data-hash="87bb9b22" data-w=520 data-h=470>
+<h2>21. wojewodzki_2021-2022_swietokrzyskie_q9_fig1 <a class=h href="../../browser/index.html#inc=87bb9b22" target=_blank>87bb9b22</a> <span class=s>match@4px 1.00</span> <label class=ok><input type=checkbox> ok</label> <label class=xl><input type=checkbox> overlay</label> <button class=cp hidden>copy JSON</button> <span class=n></span></h2>
+<div class=p><figure><figcaption>original 520&times;470</figcaption><div class=ov><img src="../../browser/figures/wojewodzki_2021-2022_swietokrzyskie_q9_fig1.png" width=390></div></figure>
+<figure><figcaption>redraw</figcaption><div class=ov><img src="../../browser/figures/svg/wojewodzki_2021-2022_swietokrzyskie_q9_fig1.svg" width=390><img class=x src="../../browser/figures/wojewodzki_2021-2022_swietokrzyskie_q9_fig1.png" width=390></div></figure></div></section><section data-name="rejonowy_2017-2018_malopolskie_q3_fig1" data-hash="3318d7a4" data-w=545 data-h=496>
+<h2>22. rejonowy_2017-2018_malopolskie_q3_fig1 <a class=h href="../../browser/index.html#inc=3318d7a4" target=_blank>3318d7a4</a> <span class=s>match@4px 1.00</span> <label class=ok><input type=checkbox> ok</label> <label class=xl><input type=checkbox> overlay</label> <button class=cp hidden>copy JSON</button> <span class=n></span></h2>
+<div class=p><figure><figcaption>original 545&times;496</figcaption><div class=ov><img src="../../browser/figures/rejonowy_2017-2018_malopolskie_q3_fig1.png" width=409></div></figure>
+<figure><figcaption>redraw</figcaption><div class=ov><img src="../../browser/figures/svg/rejonowy_2017-2018_malopolskie_q3_fig1.svg" width=409><img class=x src="../../browser/figures/rejonowy_2017-2018_malopolskie_q3_fig1.png" width=409></div></figure></div></section><section data-name="wojewodzki_2010-2011_slaskie_q6_fig1" data-hash="4a204b37" data-w=480 data-h=356>
+<h2>23. wojewodzki_2010-2011_slaskie_q6_fig1 <a class=h href="../../browser/index.html#inc=4a204b37" target=_blank>4a204b37</a> <span class=s>match@4px 1.00</span> <label class=ok><input type=checkbox> ok</label> <label class=xl><input type=checkbox> overlay</label> <button class=cp hidden>copy JSON</button> <span class=n></span></h2>
+<div class=p><figure><figcaption>original 480&times;356</figcaption><div class=ov><img src="../../browser/figures/wojewodzki_2010-2011_slaskie_q6_fig1.png" width=360></div></figure>
+<figure><figcaption>redraw</figcaption><div class=ov><img src="../../browser/figures/svg/wojewodzki_2010-2011_slaskie_q6_fig1.svg" width=360><img class=x src="../../browser/figures/wojewodzki_2010-2011_slaskie_q6_fig1.png" width=360></div></figure></div></section><section data-name="wojewodzki_2015_podlaskie_sp_q19_fig1" data-hash="1c24a2f6" data-w=435 data-h=255>
+<h2>24. wojewodzki_2015_podlaskie_sp_q19_fig1 <a class=h href="../../browser/index.html#inc=1c24a2f6" target=_blank>1c24a2f6</a> <span class=s>match@4px 1.00</span> <label class=ok><input type=checkbox> ok</label> <label class=xl><input type=checkbox> overlay</label> <button class=cp hidden>copy JSON</button> <span class=n></span></h2>
+<div class=p><figure><figcaption>original 435&times;255</figcaption><div class=ov><img src="../../browser/figures/wojewodzki_2015_podlaskie_sp_q19_fig1.png" width=326></div></figure>
+<figure><figcaption>redraw</figcaption><div class=ov><img src="../../browser/figures/svg/wojewodzki_2015_podlaskie_sp_q19_fig1.svg" width=326><img class=x src="../../browser/figures/wojewodzki_2015_podlaskie_sp_q19_fig1.png" width=326></div></figure></div></section><section data-name="wojewodzki_2020-2021_slaskie_q13_fig1" data-hash="65ed19d7" data-w=440 data-h=410>
+<h2>25. wojewodzki_2020-2021_slaskie_q13_fig1 <a class=h href="../../browser/index.html#inc=65ed19d7" target=_blank>65ed19d7</a> <span class=s>match@4px 1.00</span> <label class=ok><input type=checkbox> ok</label> <label class=xl><input type=checkbox> overlay</label> <button class=cp hidden>copy JSON</button> <span class=n></span></h2>
+<div class=p><figure><figcaption>original 440&times;410</figcaption><div class=ov><img src="../../browser/figures/wojewodzki_2020-2021_slaskie_q13_fig1.png" width=330></div></figure>
+<figure><figcaption>redraw</figcaption><div class=ov><img src="../../browser/figures/svg/wojewodzki_2020-2021_slaskie_q13_fig1.svg" width=330><img class=x src="../../browser/figures/wojewodzki_2020-2021_slaskie_q13_fig1.png" width=330></div></figure></div></section><section data-name="wojewodzki_2020_podlaskie_q23_fig1" data-hash="b3c3387d" data-w=468 data-h=192>
+<h2>26. wojewodzki_2020_podlaskie_q23_fig1 <a class=h href="../../browser/index.html#inc=b3c3387d" target=_blank>b3c3387d</a> <span class=s>match@4px 1.00</span> <label class=ok><input type=checkbox> ok</label> <label class=xl><input type=checkbox> overlay</label> <button class=cp hidden>copy JSON</button> <span class=n></span></h2>
+<div class=p><figure><figcaption>original 468&times;192</figcaption><div class=ov><img src="../../browser/figures/wojewodzki_2020_podlaskie_q23_fig1.png" width=351></div></figure>
+<figure><figcaption>redraw</figcaption><div class=ov><img src="../../browser/figures/svg/wojewodzki_2020_podlaskie_q23_fig1.svg" width=351><img class=x src="../../browser/figures/wojewodzki_2020_podlaskie_q23_fig1.png" width=351></div></figure></div></section><section data-name="wojewodzki_2021_mazowieckie_q4_fig1" data-hash="67864ce4" data-w=460 data-h=452>
+<h2>27. wojewodzki_2021_mazowieckie_q4_fig1 <a class=h href="../../browser/index.html#inc=67864ce4" target=_blank>67864ce4</a> <span class=s>match@4px 1.00</span> <label class=ok><input type=checkbox> ok</label> <label class=xl><input type=checkbox> overlay</label> <button class=cp hidden>copy JSON</button> <span class=n></span></h2>
+<div class=p><figure><figcaption>original 460&times;452</figcaption><div class=ov><img src="../../browser/figures/wojewodzki_2021_mazowieckie_q4_fig1.png" width=345></div></figure>
+<figure><figcaption>redraw</figcaption><div class=ov><img src="../../browser/figures/svg/wojewodzki_2021_mazowieckie_q4_fig1.svg" width=345><img class=x src="../../browser/figures/wojewodzki_2021_mazowieckie_q4_fig1.png" width=345></div></figure></div></section><script>
+// notes are kept in viewBox/pixel units; both panels render on that same grid
+const KEY = 'figfeedback', store = JSON.parse(localStorage.getItem(KEY) || '{}')
+const save = () => { localStorage.setItem(KEY, JSON.stringify(store)); tot() }
+// "ok" is orthogonal to notes — a figure can be signed off with its old notes
+// still attached, so keep it in its own key rather than as a flag on store
+const OK = 'figok', okset = new Set(JSON.parse(localStorage.getItem(OK) || '[]'))
+const saveok = () => { localStorage.setItem(OK, JSON.stringify([...okset])); tot() }
+const rec = sec => ({figure: sec.dataset.name, hash: sec.dataset.hash,
+  w: +sec.dataset.w, h: +sec.dataset.h, notes: store[sec.dataset.name] || []})
+const copy = (t, el) => navigator.clipboard.writeText(t)
+  .then(() => { el.textContent = 'copied'; setTimeout(() => el.textContent = el.dataset.t, 900) },
+        () => prompt('copy this:', t))
+
+function tot() {
+  const n = Object.keys(store).length
+  document.getElementById('tot').textContent =
+    (n ? n + ' annotated' : 'no notes') + (okset.size ? ', ' + okset.size + ' ok' : '')
+}
+function draw(sec) {
+  const list = store[sec.dataset.name] || []
+  for (const ov of sec.querySelectorAll('.ov')) {
+    ov.querySelectorAll('.b').forEach(b => b.remove())
+    const s = ov.clientWidth / sec.dataset.w
+    list.forEach((n, i) => {
+      const b = document.createElement('div')
+      b.className = 'b'
+      b.style.cssText = `left:${n.box[0]*s}px;top:${n.box[1]*s}px;width:${n.box[2]*s}px;height:${n.box[3]*s}px`
+      b.innerHTML = '<i></i>'
+      b.firstChild.textContent = i + 1
+      b.title = n.comment
+      b.onmousedown = e => e.stopPropagation()   // ponytail: so you can't start a new box inside one
+      b.onclick = () => {
+        const v = prompt('comment (empty deletes this box)', n.comment)
+        if (v === null) return
+        v.trim() ? n.comment = v.trim() : list.splice(i, 1)
+        if (!list.length) delete store[sec.dataset.name]
+        save(); draw(sec)
+      }
+      ov.append(b)
+    })
+  }
+  sec.querySelector('.n').textContent = list.length ? list.length + ' note(s)' : ''
+  sec.querySelector('.cp').hidden = !list.length
+}
+const all = () => document.querySelectorAll('section')
+for (const sec of all()) {
+  const btn = sec.querySelector('.cp')
+  btn.dataset.t = btn.textContent
+  btn.onclick = () => copy(JSON.stringify(rec(sec)), btn)
+  const cb = sec.querySelector('.ok input')
+  cb.checked = okset.has(sec.dataset.name)
+  sec.classList.toggle('done', cb.checked)
+  cb.onchange = () => {
+    cb.checked ? okset.add(sec.dataset.name) : okset.delete(sec.dataset.name)
+    sec.classList.toggle('done', cb.checked)
+    saveok()
+  }
+
+  // view-only, so not persisted — it is meant to be flipped, not left on
+  const xb = sec.querySelector('.xl input')
+  xb.onchange = () => sec.classList.toggle('xray', xb.checked)
+  for (const ov of sec.querySelectorAll('.ov')) ov.onmousedown = e => {
+    if (e.button) return
+    e.preventDefault()                            // kills the browser's native image drag
+    const r = ov.getBoundingClientRect(), s = ov.clientWidth / sec.dataset.w
+    const x0 = e.clientX - r.left, y0 = e.clientY - r.top
+    const box = document.createElement('div')
+    box.className = 'b'; ov.append(box)
+    let cur = [x0, y0, 0, 0]
+    const move = e2 => {
+      const x = e2.clientX - r.left, y = e2.clientY - r.top
+      cur = [Math.min(x, x0), Math.min(y, y0), Math.abs(x - x0), Math.abs(y - y0)]
+      box.style.cssText = `left:${cur[0]}px;top:${cur[1]}px;width:${cur[2]}px;height:${cur[3]}px`
+    }
+    const up = () => {
+      removeEventListener('mousemove', move); removeEventListener('mouseup', up)
+      box.remove()
+      if (cur[2] < 6 || cur[3] < 6) return
+      const c = prompt("what's wrong here?")
+      if (!c || !c.trim()) return
+      ;(store[sec.dataset.name] ||= []).push({box: cur.map(v => Math.round(v / s)), comment: c.trim()})
+      save(); draw(sec)
+    }
+    addEventListener('mousemove', move); addEventListener('mouseup', up)
+  }
+}
+const redraw = () => { for (const sec of all()) draw(sec) }
+addEventListener('load', redraw)                  // boxes need the images' final width
+redraw(); tot()
+document.getElementById('all').onclick = e => copy(
+  [...all()].filter(s => store[s.dataset.name]).map(s => JSON.stringify(rec(s))).join('\n') + '\n', e.target)
+document.getElementById('all').dataset.t = 'copy JSONL'
+document.getElementById('okc').onclick = e => copy(
+  [...all()].filter(s => okset.has(s.dataset.name))
+    .map(s => JSON.stringify({figure: s.dataset.name, hash: s.dataset.hash, ok: true}))
+    .join('\n') + '\n', e.target)
+document.getElementById('okc').dataset.t = 'copy OK list'
+document.getElementById('clr').onclick = () => {
+  if (!confirm('delete every note and ok mark?')) return
+  for (const k in store) delete store[k]
+  okset.clear()
+  save(); saveok(); redraw()
+  for (const sec of all()) { sec.classList.remove('done'); sec.querySelector('.ok input').checked = false }
+}
+</script>

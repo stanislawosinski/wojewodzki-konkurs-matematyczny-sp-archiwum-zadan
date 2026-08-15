@@ -10,11 +10,11 @@ and can be handed over verbatim.
 |---|---|
 | `browser/figures/*.png` | 855 figure crops, all low-resolution bitmaps pasted into the source PDFs |
 | `browser/figures/svg/*.svg` | 344 vector redraws. Same basename as the PNG they replace |
-| `scripts/figcheck.py` | scorer: `match@4px` + a visual diff sheet |
-| `scripts/figsheet.py` | regenerates `debug/figure-redraw-review.html`; with figure names as arguments, writes just those to `debug/figure-subset-review.html` |
-| `scripts/figangles.py` | angle-mark linter, reads the vector source (see **Angle marks**) |
-| `debug/figure-redraw-review.html` | side-by-side review, worst score first; each heading links its question hash into the local browser |
-| `debug/figure-angles-review.html` | zoomed original-vs-redraw crops of every flagged vertex |
+| `dev/scripts/figcheck.py` | scorer: `match@4px` + a visual diff sheet |
+| `dev/scripts/figsheet.py` | regenerates `dev/figures/figure-redraw-review.html`; with figure names as arguments, writes just those to `dev/figures/figure-subset-review.html` |
+| `dev/scripts/figangles.py` | angle-mark linter, reads the vector source (see **Angle marks**) |
+| `dev/figures/figure-redraw-review.html` | side-by-side review, worst score first; each heading links its question hash into the local browser |
+| `dev/figures/figure-angles-review.html` | zoomed original-vs-redraw crops of every flagged vertex |
 | `redraw-queue.tsv` | the 473 figures triaged as redrawable but not yet drawn, ordered low → high effort |
 
 The browser shows the bitmap by default. A `△` button in the question's left
@@ -28,8 +28,8 @@ Never rename an SVG: the PNG basename *is* the link.
 ## Scoring
 
 ```
-python3 scripts/figcheck.py <name> --sheet    # one figure, writes the diff sheet
-python3 scripts/figcheck.py --all             # every figure, worst first
+python3 dev/scripts/figcheck.py <name> --sheet    # one figure, writes the diff sheet
+python3 dev/scripts/figcheck.py --all             # every figure, worst first
 ```
 
 `match@4px` is a symmetric chamfer: the fraction of each side's ink lying
@@ -233,9 +233,9 @@ Chamfer score is blind to these: a figure with two backwards arcs still scores
 linter, which reads the vector source instead of the pixels:
 
 ```
-python3 scripts/figangles.py                # whole corpus, TSV to stdout
-python3 scripts/figangles.py <name> ...     # one or more figures
-python3 scripts/figangles.py --crops        # + debug/figure-angles-review.html
+python3 dev/scripts/figangles.py                # whole corpus, TSV to stdout
+python3 dev/scripts/figangles.py <name> ...     # one or more figures
+python3 dev/scripts/figangles.py --crops        # + dev/figures/figure-angles-review.html
 ```
 
 `--crops` writes a 3× zoom of `original | redraw` around every flagged vertex.
@@ -382,7 +382,7 @@ gap is glyph weight or a gradient, leave it.
 | 0.846 | `wojewodzki_2025_mazowieckie_q6_fig1` | `fb5cbdda` |
 | 0.849 | `szkolny_2024-2025_malopolskie_q6_fig1` | `ad68ccb5` |
 
-Regenerate the list any time with `python3 scripts/figcheck.py --all`.
+Regenerate the list any time with `python3 dev/scripts/figcheck.py --all`.
 
 ## Solve-through-SVG sweep (2026-08-02) — done, low yield
 
@@ -405,7 +405,7 @@ that). Plus three answers worth a second look, all with the redraw exonerated:
 Don't run this again over the same set, and don't read the pass as a sign-off:
 recall is ~26% by construction. The known defect classes are ~2/3 cosmetic —
 label nudges, miters, font, arc radii — and a solver cannot see any of them.
-Eyeballing in `debug/figure-redraw-review.html` remains the only real check.
+Eyeballing in `dev/figures/figure-redraw-review.html` remains the only real check.
 
 **Also dead: pixel score as triage.** `figcheck.score()` over the 128 reviewed
 figures runs *anti*-correlated with defects — signed off (n=93) median 0.943,
@@ -475,7 +475,7 @@ clip-art is what the source PDFs embed at low resolution.
 > 1. `Read` the PNG. It is the ground truth for what is drawn — the question
 >    text only helps you interpret blur. Reproduce the figure as drawn, sloppy
 >    angles included.
-> 2. `python3 scripts/figcheck.py <NAME> --sheet`, then `Read` the printed
+> 2. `python3 dev/scripts/figcheck.py <NAME> --sheet`, then `Read` the printed
 >    `.cmp.png`. Red = you are missing it, blue = you invented it.
 > 3. Measure with cv2/numpy and fit the geometry; do not eyeball coordinates.
 > 4. Edit the SVG, re-score, iterate. Target `match@4px` ≥ 0.75, stop at 8
@@ -499,8 +499,8 @@ Same brief, but replace steps 2 and 4 with the linter, and add:
 > ```
 > <PASTE the figangles.py lines for this figure>
 > ```
-> Gate: `python3 scripts/figangles.py <NAME>` reports no FAIL, **and**
-> `python3 scripts/figcheck.py <NAME>` is not below its current `match@4px`.
+> Gate: `python3 dev/scripts/figangles.py <NAME>` reports no FAIL, **and**
+> `python3 dev/scripts/figcheck.py <NAME>` is not below its current `match@4px`.
 > Touch only the angle marks and their labels — the rest of the figure is
 > already accepted.
 >

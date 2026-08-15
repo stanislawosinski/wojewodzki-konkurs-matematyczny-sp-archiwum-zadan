@@ -23,7 +23,7 @@ every command works on both.
 import argparse, glob, hashlib, html, json, os, re, shutil, subprocess, sys
 import cv2, numpy as np
 
-REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+REPO = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 FIGS = os.path.join(REPO, 'browser', 'figures')
 WORK = os.environ.get('FIGWORK', '/private/tmp/konkurs-figwork')
 DPI = 200          # crop boxes are always expressed at this page-render scale

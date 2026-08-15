@@ -18,7 +18,7 @@ score is for. See FIGURE_REDRAW.md.
 import sys, os, glob, tempfile
 import numpy as np, cv2, fitz
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 FIGS = os.path.join(ROOT, 'browser', 'figures')
 SVGS = os.path.join(FIGS, 'svg')
 CMP = os.path.join(tempfile.gettempdir(), 'figcheck')

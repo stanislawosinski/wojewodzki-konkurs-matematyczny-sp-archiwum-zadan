@@ -11,7 +11,7 @@
 import { readdirSync, readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 
-const root = fileURLToPath(new URL('..', import.meta.url));
+const root = fileURLToPath(new URL('../..', import.meta.url));
 const dataDir = root + 'browser/data/';
 const pngDir = root + 'browser/figures/';
 const svgDir = root + 'browser/figures/svg/';

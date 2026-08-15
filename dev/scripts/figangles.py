@@ -21,7 +21,7 @@ Checks, per angle arc (explicit `A` command or a polyline that fits a circle):
                           angle (square / arc / arc+dot) — conventions differ
                           per source, so this needs an eyeball, not a rule
 
-`--crops` also writes debug/figure-angles-review.html: for every flagged mark, a
+`--crops` also writes dev/figures/figure-angles-review.html: for every flagged mark, a
 3x zoom of original | redraw around the vertex. That covers the one thing the
 linter cannot know — whether the original marks that angle at all.
 
@@ -33,7 +33,7 @@ from figcheck import render, ROOT, FIGS, SVGS
 
 import xml.etree.ElementTree as ET
 
-OUT = os.path.join(ROOT, 'debug', 'figure-angles-review.html')
+OUT = os.path.join(ROOT, 'dev', 'figures', 'figure-angles-review.html')
 NS = '{http://www.w3.org/2000/svg}'
 
 # ---------------------------------------------------------------- geometry

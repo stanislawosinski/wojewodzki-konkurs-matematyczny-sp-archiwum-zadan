@@ -9,7 +9,7 @@ papers (see `README.md`). Two halves:
 
 - **The data pipeline** — official PDFs under `pdfs/` turned into per-question JSON in
   `browser/data/` (the **source of truth**), largely by LLM agents. Procedures live in
-  `SCHEMA.md` and `EXTRACTION_PLAYBOOK.md`; one-off pipeline tools in `scripts/`.
+  `SCHEMA.md` and `dev/docs/EXTRACTION_PLAYBOOK.md`; one-off pipeline tools in `dev/scripts/`.
 - **The browser app** — a static, no-build question browser (`browser/`). `build.mjs`
   generates the data shards (`data.*.js` / `data.*.json`) and `catalog.js` from the JSON;
   generated files are not committed.
@@ -83,7 +83,7 @@ settings, in-memory Maps keyed by hash = per-question overrides.
 
 ### Formatting (Biome 2.5.x)
 Biome owns mechanical formatting — don't hand-format, let `npm run check:fix` do it.
-Generated files, `browser/data/`, `pdfs/`, `debug/` and `scripts/` are excluded (see
+Generated files, `browser/data/`, `pdfs/` and `dev/` are excluded (see
 `biome.json`). Conventions Biome **doesn't** enforce, do by hand:
 - The blank line before `//` comment blocks (above).
 - Always use `{ }`, even for single-statement bodies — Biome flags this

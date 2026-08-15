@@ -5,7 +5,7 @@
 import { readdirSync, readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 
-const root = fileURLToPath(new URL('..', import.meta.url));
+const root = fileURLToPath(new URL('../..', import.meta.url));
 const data = root + 'browser/data/';
 const figs = root + 'browser/figures/';
 const out = process.argv[2];

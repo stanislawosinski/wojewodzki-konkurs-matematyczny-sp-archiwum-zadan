@@ -5,7 +5,7 @@
 import { readdirSync, readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 
-const root = fileURLToPath(new URL('..', import.meta.url));
+const root = fileURLToPath(new URL('../..', import.meta.url));
 const dataDir = root + 'browser/data/';
 const tagsDir = process.argv[2];
 if (!tagsDir) { console.error('usage: node apply-tags.mjs <tagsDir> [basename ...]'); process.exit(1); }

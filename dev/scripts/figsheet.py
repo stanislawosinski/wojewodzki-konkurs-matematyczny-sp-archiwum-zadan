@@ -1,5 +1,71 @@
-<!doctype html><meta charset=utf-8>
-<title>figure redraw review</title><style>
+#!/usr/bin/env python3
+"""figsheet.py [name ...] -> dev/figures/figure-redraw-review.html
+
+Side-by-side review of every vector redraw: left the shipped bitmap, right the
+SVG at the same CSS size. Worst match@4px first, so review can stop when the
+scores get boring.
+
+Both panels are <img src>, so the redraws are read off disk on every reload —
+edit an SVG and refresh, no regeneration. That also matches how browser/app.js
+shows them (img.src swap), which inline SVG would not. Only the scores and the
+ordering are baked in; rerun to refresh those. Each heading links its question hash into the local
+browser (#inc=<hash> is the "Pokaż tylko id" filter).
+
+Annotation: drag on either panel to box a problem area, type a comment. Boxes
+are stored in viewBox/pixel units (both panels share that grid) so they point
+at the same place in the SVG source and in the scan. Notes live in
+localStorage; "copy JSONL" puts one line per annotated figure on the
+clipboard, to be pasted into dev/figures/redraw-feedback.jsonl. The "ok" checkbox
+signs a figure off (it fades but stays, so it can be unchecked); "copy OK list"
+exports those as their own JSONL, for dropping them from the next review round.
+
+With figure names on the command line, only those are included and the sheet
+goes to dev/figures/figure-subset-review.html instead — for reviewing one batch of
+revisions without regenerating (and reloading) all 344.
+
+Needs browser/data.*.json — run `node browser/build.mjs` first.
+"""
+import os, sys, glob, html, json
+import cv2
+from figcheck import score, ROOT, FIGS, SVGS
+
+only = set(sys.argv[1:])
+OUT = os.path.join(ROOT, 'dev', 'figures',
+                   'figure-subset-review.html' if only else 'figure-redraw-review.html')
+
+qhash = {}
+for s in ('szkolny', 'rejonowy', 'wojewodzki'):
+    for q in json.load(open(os.path.join(ROOT, 'browser', f'data.{s}.json'))):
+        for f in q.get('figures') or []:
+            qhash[f[:-4]] = q['hash']
+
+# figures signed off via the sheet's "ok" checkbox; dropped from the full sheet,
+# but still shown if you name one on the command line
+OKFILE = os.path.join(ROOT, 'dev', 'figures', 'redraw-ok.jsonl')
+done = ({json.loads(l)['figure'] for l in open(OKFILE) if l.strip()}
+        if os.path.exists(OKFILE) else set())
+
+items = []
+for svg in sorted(glob.glob(os.path.join(SVGS, '*.svg'))):
+    name = os.path.basename(svg)[:-4]
+    if only and name not in only:
+        continue
+    if not only and name in done:
+        continue
+    png = os.path.join(FIGS, name + '.png')
+    h, w = cv2.imread(png, cv2.IMREAD_GRAYSCALE).shape
+    s, _, _ = score(svg, png)
+    items.append((s, name, w, h))
+
+items.sort()
+SCALE = .75
+rows = [f'''<section data-name="{name}" data-hash="{qhash.get(name, '')}" data-w={w} data-h={h}>
+<h2>{i}. {html.escape(name)} <a class=h href="../../browser/index.html#inc={qhash.get(name, '')}" target=_blank>{qhash.get(name, '?')}</a> <span class=s>match@4px {s:.2f}</span> <label class=ok><input type=checkbox> ok</label> <label class=xl><input type=checkbox> overlay</label> <button class=cp hidden>copy JSON</button> <span class=n></span></h2>
+<div class=p><figure><figcaption>original {w}&times;{h}</figcaption><div class=ov><img src="../../browser/figures/{name}.png" width={round(w * SCALE)}></div></figure>
+<figure><figcaption>redraw</figcaption><div class=ov><img src="../../browser/figures/svg/{name}.svg" width={round(w * SCALE)}><img class=x src="../../browser/figures/{name}.png" width={round(w * SCALE)}></div></figure></div></section>'''
+        for i, (s, name, w, h) in enumerate(items, 1)]
+
+CSS = '''<style>
 body{font:13px/1.4 system-ui;margin:2rem;background:#fafafa}
 section{margin:0 0 2.5rem;border-top:1px solid #ddd;padding-top:.6rem}
 h2{font-size:13px;font-weight:600;margin:0 0 .5rem} .s{color:#888;font-weight:400}
@@ -24,25 +90,9 @@ section.cur{outline:2px solid #48f;outline-offset:8px}
 #bar{position:fixed;right:1rem;bottom:1rem;background:#fff;border:1px solid #ccc;border-radius:4px;padding:.5rem;box-shadow:0 1px 6px #0002}
 #bar button{display:block;width:100%;margin-top:.3rem}
 </style><div id=bar><span id=tot>(js off)</span>
-<button id=all>copy JSONL</button><button id=okc>copy OK list</button><button id=clr>clear all</button></div>
-<p>5 figures, worst first. 0 below 0.75. Drag on a panel to box a problem, click a box to edit or delete it.
-Keys: <b>space</b>/<b>j</b> next figure, <b>shift-space</b>/<b>k</b> prev, <b>v</b> overlay, <b>o</b> ok.</p>
-<section data-name="wojewodzki_2023-2024_pomorskie_q1_fig1" data-hash="" data-w=435 data-h=200>
-<h2>1. wojewodzki_2023-2024_pomorskie_q1_fig1 <a class=h href="../browser/index.html#inc=" target=_blank>?</a> <span class=s>match@4px 1.00</span> <label class=ok><input type=checkbox> ok</label> <label class=xl><input type=checkbox> overlay</label> <button class=cp hidden>copy JSON</button> <span class=n></span></h2>
-<div class=p><figure><figcaption>original 435&times;200</figcaption><div class=ov><img src="../browser/figures/wojewodzki_2023-2024_pomorskie_q1_fig1.png" width=326></div></figure>
-<figure><figcaption>redraw</figcaption><div class=ov><img src="../browser/figures/svg/wojewodzki_2023-2024_pomorskie_q1_fig1.svg" width=326><img class=x src="../browser/figures/wojewodzki_2023-2024_pomorskie_q1_fig1.png" width=326></div></figure></div></section><section data-name="rejonowy_2020_lubuskie_q25_fig2" data-hash="" data-w=455 data-h=515>
-<h2>2. rejonowy_2020_lubuskie_q25_fig2 <a class=h href="../browser/index.html#inc=" target=_blank>?</a> <span class=s>match@4px 1.00</span> <label class=ok><input type=checkbox> ok</label> <label class=xl><input type=checkbox> overlay</label> <button class=cp hidden>copy JSON</button> <span class=n></span></h2>
-<div class=p><figure><figcaption>original 455&times;515</figcaption><div class=ov><img src="../browser/figures/rejonowy_2020_lubuskie_q25_fig2.png" width=341></div></figure>
-<figure><figcaption>redraw</figcaption><div class=ov><img src="../browser/figures/svg/rejonowy_2020_lubuskie_q25_fig2.svg" width=341><img class=x src="../browser/figures/rejonowy_2020_lubuskie_q25_fig2.png" width=341></div></figure></div></section><section data-name="rejonowy_2020_lubuskie_q25_fig3" data-hash="" data-w=460 data-h=512>
-<h2>3. rejonowy_2020_lubuskie_q25_fig3 <a class=h href="../browser/index.html#inc=" target=_blank>?</a> <span class=s>match@4px 1.00</span> <label class=ok><input type=checkbox> ok</label> <label class=xl><input type=checkbox> overlay</label> <button class=cp hidden>copy JSON</button> <span class=n></span></h2>
-<div class=p><figure><figcaption>original 460&times;512</figcaption><div class=ov><img src="../browser/figures/rejonowy_2020_lubuskie_q25_fig3.png" width=345></div></figure>
-<figure><figcaption>redraw</figcaption><div class=ov><img src="../browser/figures/svg/rejonowy_2020_lubuskie_q25_fig3.svg" width=345><img class=x src="../browser/figures/rejonowy_2020_lubuskie_q25_fig3.png" width=345></div></figure></div></section><section data-name="rejonowy_2020_lubuskie_q25_fig4" data-hash="" data-w=520 data-h=424>
-<h2>4. rejonowy_2020_lubuskie_q25_fig4 <a class=h href="../browser/index.html#inc=" target=_blank>?</a> <span class=s>match@4px 1.00</span> <label class=ok><input type=checkbox> ok</label> <label class=xl><input type=checkbox> overlay</label> <button class=cp hidden>copy JSON</button> <span class=n></span></h2>
-<div class=p><figure><figcaption>original 520&times;424</figcaption><div class=ov><img src="../browser/figures/rejonowy_2020_lubuskie_q25_fig4.png" width=390></div></figure>
-<figure><figcaption>redraw</figcaption><div class=ov><img src="../browser/figures/svg/rejonowy_2020_lubuskie_q25_fig4.svg" width=390><img class=x src="../browser/figures/rejonowy_2020_lubuskie_q25_fig4.png" width=390></div></figure></div></section><section data-name="rejonowy_2020_lubuskie_q25_fig5" data-hash="" data-w=530 data-h=420>
-<h2>5. rejonowy_2020_lubuskie_q25_fig5 <a class=h href="../browser/index.html#inc=" target=_blank>?</a> <span class=s>match@4px 1.00</span> <label class=ok><input type=checkbox> ok</label> <label class=xl><input type=checkbox> overlay</label> <button class=cp hidden>copy JSON</button> <span class=n></span></h2>
-<div class=p><figure><figcaption>original 530&times;420</figcaption><div class=ov><img src="../browser/figures/rejonowy_2020_lubuskie_q25_fig5.png" width=398></div></figure>
-<figure><figcaption>redraw</figcaption><div class=ov><img src="../browser/figures/svg/rejonowy_2020_lubuskie_q25_fig5.svg" width=398><img class=x src="../browser/figures/rejonowy_2020_lubuskie_q25_fig5.png" width=398></div></figure></div></section><script>
+<button id=all>copy JSONL</button><button id=okc>copy OK list</button><button id=clr>clear all</button></div>'''
+
+JS = '''<script>
 // notes are kept in viewBox/pixel units; both panels render on that same grid
 const KEY = 'figfeedback', store = JSON.parse(localStorage.getItem(KEY) || '{}')
 const save = () => { localStorage.setItem(KEY, JSON.stringify(store)); tot() }
@@ -133,12 +183,12 @@ const redraw = () => { for (const sec of all()) draw(sec) }
 addEventListener('load', redraw)                  // boxes need the images' final width
 redraw(); tot()
 document.getElementById('all').onclick = e => copy(
-  [...all()].filter(s => store[s.dataset.name]).map(s => JSON.stringify(rec(s))).join('\n') + '\n', e.target)
+  [...all()].filter(s => store[s.dataset.name]).map(s => JSON.stringify(rec(s))).join('\\n') + '\\n', e.target)
 document.getElementById('all').dataset.t = 'copy JSONL'
 document.getElementById('okc').onclick = e => copy(
   [...all()].filter(s => okset.has(s.dataset.name))
     .map(s => JSON.stringify({figure: s.dataset.name, hash: s.dataset.hash, ok: true}))
-    .join('\n') + '\n', e.target)
+    .join('\\n') + '\\n', e.target)
 document.getElementById('okc').dataset.t = 'copy OK list'
 // j/k walk the sheet; v and o act on whatever j/k last landed on
 let sel = -1
@@ -175,4 +225,14 @@ document.getElementById('clr').onclick = () => {
   save(); saveok(); redraw()
   for (const sec of all()) { sec.classList.remove('done'); sec.querySelector('.ok input').checked = false }
 }
-</script>
+</script>'''
+
+lo = sum(1 for s, *_ in items if s < 0.75)
+os.makedirs(os.path.dirname(OUT), exist_ok=True)
+open(OUT, 'w').write(f'''<!doctype html><meta charset=utf-8>
+<title>figure redraw review</title>{CSS}
+<p>{len(items)} figures, worst first. {lo} below 0.75. Drag on a panel to box a problem, click a box to edit or delete it.
+Keys: <b>space</b>/<b>j</b> next figure, <b>shift-space</b>/<b>k</b> prev, <b>v</b> overlay, <b>o</b> ok.</p>
+{''.join(rows)}{JS}''')
+print(f'{len(items)} figures ({lo} below 0.75'
+      + ('' if only else f', {len(done)} signed off and skipped') + f') -> {OUT}')

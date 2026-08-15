@@ -42,7 +42,7 @@ const suspects = new Map(
     .map(c => [c[0], { reason: c[4], verdict: c[5] }])
 );
 
-// figures/hidpi.json maps each figure re-rendered at 400 dpi (scripts/figcrop.py hidpi)
+// figures/hidpi.json maps each figure re-rendered at 400 dpi (dev/scripts/figcrop.py hidpi)
 // to its [w, h] in CSS px. The app puts those on the <img> so a 400 dpi figure lays out at
 // the same size as a 200 dpi one instead of at its natural, doubled size.
 let hidpi = {};

@@ -17,13 +17,13 @@ the old crop box started at x1100.
 Severity is the worklist: **high means "solve this question and check"**, med is
 noise-adjacent. Needs a current $FIGWORK/audit.tsv -- run `figcrop.py audit` first.
 
-    python3 scripts/figtext.py    # -> crop-flags.tsv + summary
+    python3 dev/scripts/figtext.py    # -> crop-flags.tsv + summary
 """
 import os, re, sys, json, glob, math, html, collections
 
-REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+REPO = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 os.environ.setdefault('FIGWORK', '/private/tmp/konkurs-figwork')
-sys.path.insert(0, os.path.join(REPO, 'scripts'))
+sys.path.insert(0, os.path.join(REPO, 'dev', 'scripts'))
 import figcrop as fc                                             # noqa: E402
 import fitz                                                      # noqa: E402
 import numpy as np                                               # noqa: E402
@@ -33,7 +33,7 @@ MARGIN = 100           # px: how far outside the box a label still counts as str
 PROSE_WORDS = 4        # a figure label is never this many words
 EDGE_SLACK = 8         # px an image block may poke out of the box before it counts
 LOST_INK = 200         # px of the embedded image's own ink outside the box to matter
-OUT = os.path.join(REPO, 'crop-flags.tsv')   # $FIGWORK is reaped nightly, the repo is not
+OUT = os.path.join(REPO, 'dev', 'figures', 'crop-flags.tsv')   # $FIGWORK is reaped nightly, the repo is not
 
 TAG = re.compile(r'<[^>]+>')
 DIGIT = re.compile(r'\d')
