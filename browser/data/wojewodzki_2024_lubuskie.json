@@ -452,12 +452,11 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "dissent": {"by":"opus","answer":"C","solution_html":"<p>Boki naturalne, obwód 7 i nierówność trójkąta dają tylko (1,3,3) oraz (2,2,3). Oba mają bok długości 3 → C prawdziwe zawsze. Oba są też równoramienne, więc B również zawsze prawdziwe (błąd arkusza); (2,2,3) rozwartokątny, ale (1,3,3) ostrokątny, więc A nie zawsze; D fałszywe (brak boku 2 w (1,3,3)). Wybieram C.</p>"},
-          "answer": "B",
-          "by": "sonnet",
+          "answer": "B i C — zadanie ma dwie poprawne odpowiedzi",
+          "by": "opus+sonnet+fable",
           "agrees": null,
-          "corroborated": false,
-          "solution_html": "<p>Jedyne trójkąty o bokach naturalnych i obwodzie 7 spełniające nierówność trójkąta to (1,3,3) i (2,2,3) — oba równoramienne.</p><p>Uwaga: oba zawierają też bok 3 cm (odpowiedź C jest równie prawdziwa); wybrano B jako główną cechę.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Boki są liczbami naturalnymi, a obwód wynosi 7 cm, więc nierówność trójkąta zostawia tylko dwa trójkąty: (1, 3, 3) i (2, 2, 3).</p><p>Oba są równoramienne, więc <b>B</b> jest prawdziwe zawsze. Oba mają też bok długości 3 cm, więc <b>C</b> jest prawdziwe zawsze — zadanie ma dwie poprawne odpowiedzi.</p><p><b>A</b> odpada, bo rozwartokątny jest tylko trójkąt (2, 2, 3): 3² = 9 > 2² + 2² = 8, podczas gdy (1, 3, 3) jest ostrokątny (3² = 9 < 1² + 3² = 10). <b>D</b> odpada, bo w trójkącie (1, 3, 3) nie ma boku długości 2 cm.</p>"
         }
       }
     },
@@ -621,11 +620,10 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "dissent": {"by":"opus","answer":"15√7 + 13√3 + 6√15 cm² ≈ 85,4 cm²","solution_html":"<p>Podstawa (trapez 6,4,ramiona 8): h = √(8²−1²) = 3√7, pole = ½(6+4)·3√7 = 15√7. Ściany równoboczne: ABE (bok 6) = 9√3, CDE (bok 4) = 4√3. Ściany BCE i ADE mają boki 8,6,4; Heron p=9: pole = √(9·1·3·5) = 3√15 każda, razem 6√15. Suma = 15√7 + 13√3 + 6√15 ≈ 85,4 cm².</p>"},
           "answer": "15√7 + 13√3 + 6√15 ≈ 85,44",
-          "by": "sonnet",
+          "by": "opus+sonnet+fable",
           "agrees": null,
-          "corroborated": false,
+          "corroborated": true,
           "solution_html": "<p>Trapez ABCD: wysokość h=√(8²−1²)=3√7 (przesunięcie 1=(6−4)/2), pole = ½(6+4)·3√7 = 15√7.</p><p>Trójkąty równoboczne ABE (bok 6): pole 9√3; CDE (bok 4): pole 4√3.</p><p>Ściany BCE i ADE mają boki 8,4,6 (Heron: p=9, pole=√(9·1·5·3)=3√15 każda).</p><p>Suma: 15√7+9√3+4√3+3√15+3√15 = 15√7+13√3+6√15 ≈ 85,44.</p>"
         }
       }

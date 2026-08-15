@@ -673,12 +673,11 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "dissent": {"by":"opus","answer":"135°","solution_html":"<p>Kąt prosty przy C. Trójkąt ACD (AC=AD) ma kąt przy A = 180°−40° = 140°, więc ∠ACD = 20°. Trójkąt BCE (BC=BE): kąt przy B = 180°−50° = 130°, więc ∠BCE = 25°. ∠DCE = 20° + 90° + 25° = 135°.</p>"},
-          "answer": "125°",
-          "by": "sonnet",
+          "answer": "135°",
+          "by": "opus+fable",
           "agrees": null,
-          "corroborated": false,
-          "solution_html": "<p>Kąt C = 90°, kąt A = 40°, więc kąt B = 50°. Trójkąt ACD (AD=AC) jest równoramienny, kąt DAC = 180°−40°=140°, więc kąt ACD = (180°−140°)/2 = 10°. Trójkąt BCE (BE=BC) jest równoramienny, kąt CBE = 180°−50°=130°, więc kąt BCE = (180°−130°)/2 = 25°. Kąt DCE = kąt DCA + kąt ACB + kąt BCE = 10°+90°+25° = 125°.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Kąt prosty przy C. Trójkąt ACD (AC=AD) ma kąt przy A = 180°−40° = 140°, więc ∠ACD = 20°. Trójkąt BCE (BC=BE): kąt przy B = 180°−50° = 130°, więc ∠BCE = 25°. ∠DCE = 20° + 90° + 25° = 135°.</p>"
         }
       }
     }

@@ -127,12 +127,11 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "dissent": {"by":"opus","answer":"B","solution_html":"<p>Uwzględniamy cyfry/litery w rogach kart. Litera A jest symetryczna względem osi pionowej, cyfry 2 i 3 nie są. As trefl (♣, 1 oś pionowa) ma dokładnie jedną oś. As karo (♦) ma 2 osie (romb). Karty 2♥ i 3♣ nie mają osi (cyfry 2,3 psują symetrię). Zatem tylko A♣.</p>"},
-          "answer": "C",
-          "by": "sonnet",
+          "answer": "D",
+          "by": "fable",
           "agrees": null,
-          "corroborated": false,
-          "solution_html": "<p>Patrząc na sam symbol (bez indeksu w rogu): A♣ - kier trefl ma tylko oś pionową (1 oś). A♦ - romb ma 2 osie symetrii (pionową i poziomą) - odpada. 2♥ - dwa serca ułożone symetrycznie względem pionowej osi środkowej - 1 oś. 3♣ - trzy trefle na osi pionowej - 1 oś. Zatem dokładnie jedną oś symetrii mają: A♣, 2♥, 3♣.</p>"
+          "corroborated": true,
+          "solution_html": "<p>As karo ma dwie osie symetrii (pionową i poziomą — romb jest symetryczny względem obu). Dwójka kier też ma dwie osie: pionową (serca są symetryczne) i poziomą, bo górne serce jest zwrócone w górę, a dolne w dół, więc odbijają się na siebie.</p><p>As trefl ma dokładnie jedną oś — pionową (odbicie poziome odwróciłoby środkowy trefl „do góry nogami”). Trójka trefl również ma tylko oś pionową — środkowy trefl skierowany w górę psuje symetrię względem osi poziomej.</p><p>Dokładnie jedną oś symetrii mają więc A♣ i 3♣ — odpowiedź D.</p>"
         }
       }
     },
@@ -255,11 +254,10 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "dissent": {"by":"opus","answer":"D","solution_html":"<p>Cztery spirale są skręcone w tę samą stronę, jedna jest odbiciem lustrzanym (przeciwny kierunek skrętu). Ta niepasująca to spirala nr 5.</p>"},
           "answer": "A",
-          "by": "sonnet",
+          "by": "sonnet+fable",
           "agrees": null,
-          "corroborated": false,
+          "corroborated": true,
           "solution_html": "<p>Analiza pikselowa 5 spiral (3 współśrodkowe łuki każda) pokazała kąt środka przerwy każdego pierścienia. W figurach 1,2,3,5 kolejność skrętu (kierunek narastania przerwy między pierścieniami) jest zgodna, a figura 4 ma odwrócony (lustrzany) kierunek skrętu względem pozostałych.</p>"
         }
       }
@@ -709,12 +707,11 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "dissent": {"by":"opus","answer":"3,5 cm","solution_html":"<p>Objętość asfaltu = 19,6 : 1,4 = 14 m³. Pole trapezu (asfalt): podstawy 27 m i 27−8−6 = 13 m, wysokość 20 m → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>13</mn><mo>+</mo><mn>27</mn></mrow><mn>2</mn></mfrac><mo>·</mo><mn>20</mn><mo>=</mo><mn>400</mn></math> m². Grubość = 14 : 400 = 0,035 m = 3,5 cm.</p>"},
-          "answer": "≈5,19 cm (140/27 cm)",
-          "by": "sonnet",
+          "answer": "3,5 cm",
+          "by": "opus+fable",
           "agrees": null,
-          "corroborated": false,
-          "solution_html": "<p>Pole 'asfaltu' to trójkąt o podstawie = prawy bok (27 m) i wysokości = 20 m (odległość pozioma do punktu podziału lewego boku): pole = ½·27·20 = 270 m². Objętość asfaltu = 19,6 t / 1,4 t/m³ = 14 m³. Grubość = 14/270 m = 140/27 cm ≈ 5,19 cm.</p>"
+          "corroborated": true,
+          "solution_html": "<p>Objętość asfaltu = 19,6 : 1,4 = 14 m³. Pole trapezu (asfalt): podstawy 27 m i 27−8−6 = 13 m, wysokość 20 m → <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>13</mn><mo>+</mo><mn>27</mn></mrow><mn>2</mn></mfrac><mo>·</mo><mn>20</mn><mo>=</mo><mn>400</mn></math> m². Grubość = 14 : 400 = 0,035 m = 3,5 cm.</p>"
         }
       }
     },
@@ -734,11 +731,10 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "dissent": {"by":"opus","answer":"7 1/9 kg (≈ 7,11 kg)","solution_html":"<p>Sucha masa = 8% z 8 kg = 0,64 kg i się nie zmienia. Po dwóch tygodniach stanowi 9% masy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi><mo>=</mo><mfrac><mn>0,64</mn><mn>0,09</mn></mfrac><mo>=</mo><mfrac><mn>64</mn><mn>9</mn></mfrac></math> ≈ 7,11 kg.</p>"},
           "answer": "64/9 kg ≈ 7,11 kg",
-          "by": "sonnet",
+          "by": "opus+sonnet+fable",
           "agrees": null,
-          "corroborated": false,
+          "corroborated": true,
           "solution_html": "<p>Sucha masa arbuza (bez wody) jest stała: 8 kg·8% = 0,64 kg. Po dwóch tygodniach ta masa stanowi 9% wagi arbuza (bo woda to 91%). Nowa waga = 0,64/0,09 = 64/9 ≈ 7,11 kg.</p>"
         }
       }

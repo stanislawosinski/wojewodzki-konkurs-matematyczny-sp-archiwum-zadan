@@ -758,11 +758,10 @@
         "correct": null,
         "solution_html": null,
         "model": {
-          "dissent": {"by":"opus","answer":"Tak, lis zdąży uciec","solution_html":"<p>Lis dobiega do nory w 1000/6 ≈ 166,7 s. Pies zmniejsza dystans 2 m/s, dogoniłby po 360/2 = 180 s. 166,7 s &lt; 180 s, więc lis ucieka (z zapasem ok. 27 m).</p>"},
           "answer": "Tak, lis zdąży uciec do nory.",
-          "by": "sonnet",
+          "by": "opus+sonnet+fable",
           "agrees": null,
-          "corroborated": false,
+          "corroborated": true,
           "solution_html": "<p>Prędkość zbliżania psa do lisa: 8−6=2 m/s, więc pies dogoniłby lisa po 360:2=180 s. Lis dobiega do nory (1000 m) w czasie 1000:6≈166,7 s, czyli wcześniej niż zostałby dogoniony — lis zdąży uciec.</p>"
         }
       }
