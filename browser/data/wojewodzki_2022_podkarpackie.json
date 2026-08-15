@@ -486,9 +486,9 @@
         "correct": "Pole figury A = 7 + π, pole figury B = 4 + 2π",
         "solution_html": "<p>Figurę A można podzielić na dwa równoległoboki, trzy kwadraty oraz koło o promieniu 1, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>A</mi></msub><mo>=</mo><mn>2</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>3</mn><mo>+</mo><mi>π</mi><mo>=</mo><mn>7</mn><mo>+</mo><mi>π</mi></mrow></math>. Figura B składa się z dwóch trójkątów oraz połowy koła o promieniu 2, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>B</mi></msub><mo>=</mo><mn>2</mn><mo>+</mo><mn>2</mn><mo>+</mo><mfrac><mrow><mi>π</mi><mo>·</mo><msup><mn>2</mn><mn>2</mn></msup></mrow><mn>2</mn></mfrac><mo>=</mo><mn>4</mn><mo>+</mo><mn>2</mn><mi>π</mi></mrow></math>.</p>",
         "model": {
-          "answer": "Pole A = 6 + 1,5π ≈ 10,71; Pole B = 4 + 2π ≈ 10,28",
-          "by": "sonnet",
-          "agrees": false
+          "answer": "P_A = 7 + π ≈ 10,14; P_B = 4 + 2π ≈ 10,28",
+          "by": "opus",
+          "agrees": true
         }
       }
     },

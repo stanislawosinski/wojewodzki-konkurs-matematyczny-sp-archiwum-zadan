@@ -331,9 +331,9 @@
         "correct": "P(liczba pierwsza) = 3/10; P(potęga liczby naturalnej) = 3/5 (czyli 6/10)",
         "solution_html": "<p>Wśród 10 liczb pierwsze są trzy: 3, 17, 83, więc prawdopodobieństwo wylosowania liczby pierwszej wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>10</mn></mfrac></math>. Potęgami liczby naturalnej (o wykładniku większym od 1) są liczby: 1, 8, 27, 49, 64, 81 — sześć liczb, więc prawdopodobieństwo wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>6</mn><mn>10</mn></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>5</mn></mfrac></mrow></math>.</p>",
         "model": {
-          "answer": "P(liczba pierwsza) = 3/10; P(potęga liczby naturalnej) = 5/10 (=1/2)",
-          "by": "sonnet",
-          "agrees": false
+          "answer": "a) 3/10 (0,3); b) 6/10 = 3/5 (0,6)",
+          "by": "opus",
+          "agrees": true
         }
       }
     },

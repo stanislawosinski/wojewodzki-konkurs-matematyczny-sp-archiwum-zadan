@@ -141,9 +141,9 @@
         "correct": "R = 6",
         "solution_html": "<p>Ostatnią cyfrą iloczynu jest litera K, więc iloczyn <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi><mo>·</mo><mn>9</mn></math> musi kończyć się cyfrą K. Jedyną cyfrą różną od zera, która pomnożona przez 9 daje wynik o tej samej cyfrze jedności, jest 5, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi><mo>=</mo><mn>5</mn></math>. Iloczyn ma więc postać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>555555555</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>RACHUNEK</mtext><mo>=</mo><mn>555555555</mn><mo>:</mo><mn>9</mn><mo>=</mo><mn>61728395</mn></math>. Zatem literze R odpowiada cyfra 6.</p>",
         "model": {
-          "answer": "5",
-          "by": "sonnet",
-          "agrees": false
+          "answer": "6",
+          "by": "opus",
+          "agrees": true
         }
       }
     },

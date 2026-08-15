@@ -297,9 +297,9 @@
         "correct": "1/4 (0,25)",
         "solution_html": "<p>Licznik: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>16</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mn>16</mn></mfrac><mo>·</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>32</mn></mfrac></math>. Mianownik: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mo>+</mo><mfrac><mn>9</mn><mn>16</mn></mfrac><mo>·</mo><mo>(</mo><mo>−</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>)</mo><mo>=</mo><mo>−</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mo>−</mo><mfrac><mn>27</mn><mn>32</mn></mfrac><mo>=</mo><mo>−</mo><mfrac><mn>31</mn><mn>32</mn></mfrac></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mfrac><mn>1</mn><mn>32</mn></mfrac><mrow><mo>−</mo><mfrac><mn>31</mn><mn>32</mn></mfrac></mrow></mfrac><mo>·</mo><mn>31</mn><mo>+</mo><msqrt><mrow><mn>1</mn><mfrac><mn>9</mn><mn>16</mn></mfrac></mrow></msqrt><mo>=</mo><mo>−</mo><mfrac><mn>1</mn><mn>31</mn></mfrac><mo>·</mo><mn>31</mn><mo>+</mo><mfrac><mn>5</mn><mn>4</mn></mfrac><mo>=</mo><mo>−</mo><mn>1</mn><mo>+</mo><mfrac><mn>5</mn><mn>4</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac></math>.</p>",
         "model": {
-          "answer": "5/4 (1 1/4)",
-          "by": "sonnet",
-          "agrees": false
+          "answer": "0,25",
+          "by": "opus",
+          "agrees": true
         }
       }
     }

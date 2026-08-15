@@ -21,7 +21,7 @@ const prompt = (f) => `Solve a Polish primary/lower-secondary math-competition p
 INPUT: ${blindDir}/${f} — a JSON array of questions {id, type, points, prompt_html, choices, figures}. Read it in full. For any question whose "figures" array is non-empty, Read each listed PNG path (they carry essential diagram/data) before answering.
 
 For EACH question, work out the answer from the content (the prompt_html holds prose + inline MathML; read the math carefully — Polish decimals use a comma). Then record the answer in the EXACT format for its type:
-- closed_single: ONLY the choice LABEL letter (A/B/C/D/E) of the correct option — never the numeric/text value. Compute the result, then output the label of the choice equal to it.
+- closed_single: ONLY the choice LABEL letter (A/B/C/D/E) of the correct option — never the numeric/text value. Compute the result, then output the label of the choice equal to it. Two variants ask for more than one letter: if the prompt asks to indicate ALL true statements, list every correct label ("A, C"); if it asks for an answer plus a numbered/lettered justification stated in the prompt, give both parts joined ("B3", "TC").
 - true_false: one char per statement IN ORDER, P=prawda (true) / F=fałsz (false), e.g. "PFPF". Length must equal the number of choices.
 - open: the final result as concise text with units, the way an answer key would state it (e.g. "18" or "a) 26,5°C; b) 56 mm"). No working, just the result.
 Also give a confidence: "high" (certain), "med" (likely), or "low" (guess/ambiguous/unreadable figure). And a brief solution_html: 1-4 short steps of reasoning as HTML (inline MathML ok), enough to justify/adjudicate the answer.

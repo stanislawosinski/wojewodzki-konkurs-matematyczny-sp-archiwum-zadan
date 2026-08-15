@@ -62,10 +62,9 @@
         "correct": "A",
         "solution_html": null,
         "model": {
-          "answer": "D",
-          "by": "sonnet",
-          "agrees": false,
-          "solution_html": "<p>Jedyny niezdegenerowany sposób, by trapezoid miał trzy równe boki (bez zamiany go w równoległobok), to gdy równe są oba ramiona i krótsza podstawa.</p><p>Trapez o równych ramionach jest zawsze trapezem równoramiennym (dowód przez współrzędne / przystawanie trójkątów), a w trapezie równoramiennym kąty przy dłuższej podstawie są równe.</p><p>Stąd α = β.</p>"
+          "answer": "A",
+          "by": "opus",
+          "agrees": true
         }
       }
     },
@@ -430,9 +429,10 @@
         "correct": "Nie, kwota nie wystarczy — działka P₂ kosztuje 26250 zł",
         "solution_html": "<p>Trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACE</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCD</mi></math> są podobne, a skala podobieństwa wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mo>=</mo><mfrac><mn>13</mn><mn>6,5</mn></mfrac><mo>=</mo><mn>2</mn></math>. Z twierdzenia Pitagorasa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><msqrt><mrow><msup><mn>13</mn><mn>2</mn></msup><mo>−</mo><msup><mn>5</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>12</mn></math> cm. Z podobieństwa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>2,5</mn></math> cm i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>6</mn></math> cm. Pole działki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>2</mn></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>2,5</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>7,5</mn></math> cm². W skali 1:1000 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7,5</mn></math> cm² odpowiada 750 m². Cena działki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>750</mn><mo>·</mo><mn>35</mn><mo>=</mo><mn>26250</mn></math> zł. Ponieważ 26250 zł &gt; 26000 zł, przeznaczona kwota nie wystarczy na zakup działki.</p>",
         "model": {
-          "answer": "Nie wystarczy — koszt działki P2 to ok. 30 807 zł, a państwo Nowakowie mają 26 000 zł (brakuje ok. 4807 zł).",
-          "by": "sonnet",
-          "agrees": false
+          "answer": "Nie wystarczy — działka P₂ kosztuje 26 250 zł (750 m²), brakuje 250 zł",
+          "by": "opus",
+          "agrees": true,
+          "solution_html": "<p>W trójkącie AEC: |AC| = √(13² − 5²) = 12 cm.</p><p>Trójkąt DBC (kąt prosty w D) jest podobny do AEC (wspólny kąt C), skala |BC|:|EC| = 6,5:13 = 1:2, więc P₂ = 30 : 4 = 7,5 cm² na planie (pole AEC = 5·12/2 = 30 cm²).</p><p>Skala 1:1000 → 1 cm² planu = 100 m², czyli P₂ = 750 m².</p><p>Koszt = 750 · 35 zł = 26 250 zł &gt; 26 000 zł — kwota nie wystarczy (brakuje 250 zł).</p>"
         }
       }
     },

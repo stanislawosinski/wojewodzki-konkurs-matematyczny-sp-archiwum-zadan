@@ -417,9 +417,9 @@
         "correct": "rower: 20 km/h, samochód: 80 km/h",
         "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza prędkość roweru, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> prędkość samochodu (w km/h). Do pierwszego spotkania Janek jechał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>6</mn></mfrac></mrow></math> godziny, a Staś <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>6</mn></mfrac></math> godziny; przebyte drogi są równe: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>6</mn></mfrac><mo>)</mo><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>6</mn></mfrac><mi>y</mi></mrow></math>. Do drugiego spotkania (w drodze powrotnej) suma dróg Janka i Stasia wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>55</mn></mrow></math> km: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>+</mo><mn>1</mn><mo>)</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>2</mn><mo>·</mo><mn>55</mn></mrow></math>. Z układu tych równań otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>20</mn></mrow></math> km/h oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>80</mn></mrow></math> km/h.</p>",
         "model": {
-          "answer": "Janek: 110/3 km/h ≈ 36,67 km/h; Staś: 440/3 km/h ≈ 146,67 km/h",
-          "by": "sonnet",
-          "agrees": false
+          "answer": "Janek: 20 km/h, Staś: 80 km/h",
+          "by": "opus",
+          "agrees": true
         }
       }
     },

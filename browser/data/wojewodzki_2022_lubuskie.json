@@ -590,10 +590,9 @@
         "correct": "PP",
         "solution_html": null,
         "model": {
-          "answer": "FF",
-          "by": "sonnet",
-          "agrees": false,
-          "solution_html": "<p>Shaded (top-left) width = (8x²+9)−(6x²+3)=2x²+6; height = (5x²+x+3)−(1−x²)=6x²+x+2 (sums check out exactly against the given totals). Perimeter = 2(2x²+6+6x²+x+2)=16x²+2x+16 ≠ 8x²+2x+16 (stmt 1 false). Area = (2x²+6)(6x²+x+2)=12x⁴+2x³+40x²+6x+12 ≠ 4x⁴+2x³+16x²+6x+12 (stmt 2 false).</p>"
+          "answer": "PP",
+          "by": "opus",
+          "agrees": true
         }
       }
     },

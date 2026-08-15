@@ -76,10 +76,9 @@
         "correct": "FPF",
         "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>−</mo><msqrt><mn>196</mn></msqrt><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo>−</mo><mn>14</mn></math> — wymierna, ale ujemna, więc <strong>NIE</strong>. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5,1</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>3</mn></mrow></msup><mo>=</mo><mn>0,0051</mn></math> — wymierna i nieujemna, <strong>TAK</strong>. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>1</mn><mo>−</mo><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mn>3</mn><mo>−</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></math> — liczba niewymierna, więc <strong>NIE</strong>.</p>",
         "model": {
-          "answer": "FTF",
-          "by": "sonnet",
-          "agrees": false,
-          "solution_html": "<p>1) −|−√196| = −|−14| = −14 — liczba ujemna, więc F.</p><p>2) 5,1·10⁻³ = 0,0051 — liczba wymierna, dodatnia (nieujemna) — T.</p><p>3) (1−√2)² = 1−2√2+2 = 3−2√2 — liczba niewymierna (choć dodatnia) — F.</p>"
+          "answer": "FPF",
+          "by": "opus",
+          "agrees": true
         }
       }
     },
@@ -151,8 +150,7 @@
         "model": {
           "answer": "PFF",
           "by": "sonnet",
-          "agrees": false,
-          "solution_html": "<p>Największy romb wpisany w prostokąt a×b ma przekątne równe bokom prostokąta (wierzchołki w środkach boków), więc a=30, b=40 cm.</p><p>1) Pole rombu = (30·40)/2 = 600 = połowa pola prostokąta (1200) → odpady = 50% — P.</p><p>2) Boki prostokąta to 30 cm i 40 cm — jeden bok NIE jest mniejszy niż 40 cm (jest równy 40) — F.</p><p>3) Obwód = 2·(30+40) = 140 cm ≠ 112 cm — F.</p>"
+          "agrees": false
         }
       }
     },

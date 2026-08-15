@@ -227,10 +227,9 @@
         "correct": "A, B",
         "solution_html": null,
         "model": {
-          "answer": "A",
-          "by": "sonnet",
-          "agrees": false,
-          "solution_html": "<p>2 − ((0,4/2² − 1,3·6/13):(1/2)²) = 2 − ((0,1−0,6):0,25) = 2−(−2) = 4. Opcja A: √2(√50−√18)=√100−√36=10−6=4 — zgadza się. (Uwaga: opcja B po przeliczeniu −(−2)⁴+∛√64+1/0,1=−4 też daje „liczbę przeciwną”=4, co jest matematycznym zbiegiem okoliczności w tym zestawie odpowiedzi; A jest najbardziej bezpośrednim dopasowaniem.)</p>"
+          "answer": "A, B",
+          "by": "opus",
+          "agrees": true
         }
       }
     },
@@ -256,10 +255,9 @@
         "correct": "A, C",
         "solution_html": null,
         "model": {
-          "answer": "A",
-          "by": "sonnet",
-          "agrees": false,
-          "solution_html": "<p>3⊕7 = 3²·7+2·3+7 = 76. 2⊕x = 4x+4+x = 5x+4. 5x+4=76 ⇒ x=72/5=14,4. Odpowiada opcji A (forma ułamkowa jest bezpośrednim wynikiem rozwiązania równania; opcja C to ta sama liczba w postaci dziesiętnej).</p>"
+          "answer": "C",
+          "by": "opus",
+          "agrees": null
         }
       }
     },
@@ -286,9 +284,8 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
-          "agrees": false,
-          "solution_html": "<p>Składanie na pół: nowy prostokąt ma boki W i L/2, przy zachowaniu tej samej proporcji: L/W = W/(L/2) ⇒ L²=2W² ⇒ v=L/W=√2. To klasyczny format ISO 216 (A4).</p>"
+          "by": "opus",
+          "agrees": null
         }
       }
     },
@@ -315,10 +312,9 @@
         "correct": "B, C, D",
         "solution_html": null,
         "model": {
-          "answer": "C",
-          "by": "sonnet",
-          "agrees": false,
-          "solution_html": "<p>∛√64 = 64^(1/6) = 2 (bo 64=2⁶). Wewnątrz pierwiastka: 2·2=4, więc √4=2. W zestawie odpowiedzi B, C i D redukują się również do 2 (2⁰·2=2; 2⁴/2³=2; 1:½=2), a jedynie A daje 4 — wybrano C jako typowy przykład prawa działań na potęgach, ale odpowiedź jest niepewna z powodu wielokrotnego dopasowania w zestawie.</p>"
+          "answer": "A",
+          "by": "opus",
+          "agrees": false
         }
       }
     },
@@ -345,9 +341,8 @@
         "solution_html": null,
         "model": {
           "answer": "A",
-          "by": "sonnet",
-          "agrees": false,
-          "solution_html": "<p>V = (1/3)·a²·h = (1/3)·(2 cm)²·6 cm = 8 cm³ = 8 ml. (Opcja C: 0,008 l to ta sama objętość w innej jednostce — wybrano A jako najbardziej bezpośrednie dopasowanie jednostek cm³=ml.)</p>"
+          "by": "opus",
+          "agrees": null
         }
       }
     },
