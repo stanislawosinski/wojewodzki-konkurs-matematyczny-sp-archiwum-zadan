@@ -1259,6 +1259,24 @@ body.scratch-off .scratch-toggle {
 .kreason {
   max-width: 62ch;
 }
+
+/* uzasadnienie under the answer — compact paragraphs, same quiet grey as the AI lines */
+.ksol {
+  margin-top: 0.15rem;
+  max-width: 70ch;
+  font-size: 0.85rem;
+  color: #333;
+}
+.ksol p {
+  margin: 0.2rem 0;
+}
+
+/* provenance note closing the sheet whenever AI content printed on it */
+.klegend {
+  margin-top: 0.7rem;
+  font-size: 0.8rem;
+  color: #555;
+}
 .choice.correct {
   background: transparent;
 }

@@ -320,18 +320,46 @@ function aiAnswers(q) {
 const aiLine = x =>
   `Odpowiedź AI${x.label && x.label !== "AI" ? ` (${esc(x.label)})` : ""}: <b>${esc(x.answer)}</b>`;
 
-// Compact answer-key entry for the print-only key sheet: number + answer + AI verification
-// (status, justification, differing AI answers). No derivations — it's a quick reference.
-function renderKeyEntry(q, seq) {
-  const correct = q.answer?.correct;
-  const ai = showAI ? aiAnswers(q) : [],
-    badge = showAI ? verifBadge(q, ai.length) : null; // no AI content unless enabled
-  const p = [
-    `<div class="kq"><span class="kn">Zadanie ${seq ?? q.number}.</span> <span class="hash">(${q.hash})</span>`
-  ];
-  if (correct) {
-    p.push(` <span class="ka">Odpowiedź: <b>${answerHtml(correct)}</b></span>`);
+// Compact answer-key entry for the print-only key sheet: number + answer + official derivation
+// + AI verification. Three things print regardless of the showAI toggle, because without them
+// the sheet misleads: the AI answer where no key exists (it is the only answer there is), a
+// wrong-key warning, and the annulment note. The rest of the AI commentary stays behind showAI.
+// the headline answer: the official key, the annulment note, or the AI stand-in for a missing key
+function keyAnswerLine(q, hasKey, cancelled) {
+  const m = q.answer?.model || {};
+  if (hasKey) {
+    return ` <span class="ka">Odpowiedź: <b>${answerHtml(q.answer.correct)}</b></span>`;
   }
+  if (cancelled) {
+    return ` <span class="ka">Zadanie anulowane — bez poprawnej odpowiedzi</span>`;
+  }
+  if (m.answer != null) {
+    return `<div class="kai">${aiLine({ label: MODEL_LABELS[m.by] || "AI", answer: m.answer })}</div>`;
+  }
+  return "";
+}
+
+// AI verification lines for the key sheet: the wrong-key warning always, the rest behind showAI
+function keyVerifLines(q, hasKey) {
+  const m = q.answer?.model || {},
+    p = [];
+  if (q.suspect_verdict === "KEY_WRONG") {
+    // a wrong key without a warning is worse than no key at all
+    const aiAns = m.answer != null ? ` — odpowiedź AI: <b>${esc(m.answer)}</b>` : "";
+    p.push(
+      `<div class="kverif">Weryfikacja AI: <b class="suspect">Klucz prawdopodobnie błędny</b>${aiAns}</div>`
+    );
+    if (q.suspect_reason) {
+      p.push(`<div class="kreason">${esc(q.suspect_reason)}</div>`);
+    }
+    return p;
+  }
+  if (!showAI) {
+    return p;
+  }
+  const all = aiAnswers(q),
+    extra = hasKey ? all : all.slice(1); // the keyless primary answer already printed above
+  const badge = verifBadge(q, all.length);
   if (badge) {
     p.push(
       `<div class="kverif">Weryfikacja AI: <b class="${badge.cls}">${esc(badge.text)}</b></div>`
@@ -340,8 +368,27 @@ function renderKeyEntry(q, seq) {
       p.push(`<div class="kreason">${esc(badge.reason)}</div>`);
     }
   }
-  for (const x of ai) {
+  for (const x of extra) {
     p.push(`<div class="kai">${aiLine(x)}</div>`);
+  }
+  return p;
+}
+
+function renderKeyEntry(q, seq) {
+  const a = q.answer || {},
+    hasKey = a.correct != null && a.correct !== "";
+  const cancelled = !hasKey && /anulowan/i.test(q.prompt_html);
+  const p = [
+    `<div class="kq"><span class="kn">Zadanie ${seq ?? q.number}.</span> <span class="hash">(${q.hash})</span>`,
+    keyAnswerLine(q, hasKey, cancelled),
+    ...keyVerifLines(q, hasKey)
+  ];
+
+  // the derivation: the official one whenever the organiser published it, the AI's where its
+  // answer stands in for a missing key. *_html fields are trusted HTML by design.
+  const sol = hasKey || cancelled ? a.solution_html : a.model?.solution_html;
+  if (sol) {
+    p.push(`<div class="ksol">${sol}</div>`);
   }
   return `${p.join("")}</div>`;
 }
