@@ -11,6 +11,9 @@
   --surface-dim: hsl(var(--tint-h) var(--tint-s) 96.5%); /* topbar */
   --btn: hsl(var(--tint-h) var(--tint-s) 94.5%); /* button resting bg */
   --line-faint: hsl(var(--tint-h) var(--tint-s) 92%); /* light dividers */
+  --border-faint: hsl(
+    var(--tint-h) var(--tint-s) 90%
+  ); /* quiet standalone dividers (toolbar groups) */
   --btn-hover: hsl(var(--tint-h) var(--tint-s) 91%); /* button hover bg */
   --hairline: hsl(var(--tint-h) var(--tint-s) 90.5%); /* sidebar right hairline */
   --border: hsl(var(--tint-h) var(--tint-s) 86.5%); /* section / topbar borders */
@@ -99,6 +102,13 @@ h1 {
   gap: 0.8rem;
   align-items: center;
   white-space: nowrap;
+}
+
+/* thin dividers splitting the bar's right side into three groups: print · links/info · view */
+.tb-sep {
+  width: 1px;
+  height: 1.15em;
+  background: var(--border-faint);
 }
 .clearbtn,
 .pager button,
@@ -1547,6 +1557,7 @@ body.scratch-off .scratch-toggle {
   .figsize,
   #clearSelBar,
   .splitbtn,
+  .tb-sep,
   .settings-pop section + section {
     display: none;
   }
@@ -1822,6 +1833,7 @@ body.scratch-off .scratch-toggle {
     --surface-dim: hsl(var(--tint-h) 15% 15.5%); /* topbar */
     --btn: hsl(var(--tint-h) 13% 27%); /* button hover bg */
     --line-faint: hsl(var(--tint-h) 12% 22%); /* light dividers */
+    --border-faint: hsl(var(--tint-h) 12% 28%); /* quiet standalone dividers (toolbar groups) */
     --btn-hover: hsl(var(--tint-h) 13% 30%);
     --hairline: hsl(var(--tint-h) 11% 24%);
     --border: hsl(var(--tint-h) 12% 28%);
