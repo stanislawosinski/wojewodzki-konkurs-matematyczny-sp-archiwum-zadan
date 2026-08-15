@@ -1452,6 +1452,15 @@ body.scratch-off .scratch-toggle {
     display: block;
     break-before: page;
   } /* the answer key starts on its own sheet after the questions */
+
+  /* "Drukuj sam klucz": the key sheet alone, e.g. printed after the fact for a worksheet
+     already handed out. Rides on .print-key (set together) for the rules above. */
+  .print-key-only #qlist {
+    display: none;
+  }
+  .print-key-only #answerkey:not(:empty) {
+    break-before: auto;
+  } /* no question pages before it, so no page break either */
   /* Brudnopis (scratch space) modes. Each question reserves a fixed TOTAL height via min-height
      (content at top, the trailing .scratch flex-fills the rest) — so packing is content-independent:
      .q{break-inside:avoid} packs halves ~two-per-page and keeps fulls alone, and a longer question

@@ -432,18 +432,20 @@ function wireToolbar() {
     clearAllFilters();
   };
   // Drukuj split button (Salt anatomy): the main segment prints the questions alone; the
-  // chevron opens a menu whose item prints with the key sheet appended as the last page(s).
-  // body.print-key only matters inside @media print; afterprint clears it so Cmd+P always
-  // means a plain questions printout.
-  const printWith = withKey => {
-    document.body.classList.toggle("print-key", withKey);
+  // chevron opens a menu with the key variants — questions + key sheet, or the key sheet
+  // alone (an after-the-fact print for a worksheet already handed out). The body classes
+  // only matter inside @media print; afterprint clears them so Cmd+P always means a plain
+  // questions printout.
+  const printWith = mode => {
+    document.body.classList.toggle("print-key", mode !== "plain");
+    document.body.classList.toggle("print-key-only", mode === "keyonly");
     window.print();
   };
   const closePrintMenu = () => {
     printMenu.hidden = true;
     printMenuBtn.setAttribute("aria-expanded", "false");
   };
-  printBtn.onclick = () => printWith(false);
+  printBtn.onclick = () => printWith("plain");
   printMenuBtn.onclick = () => {
     const open = printMenu.hidden;
     printMenu.hidden = !open;
@@ -451,7 +453,11 @@ function wireToolbar() {
   };
   printKeyBtn.onclick = () => {
     closePrintMenu();
-    printWith(true);
+    printWith("key");
+  };
+  printOnlyKeyBtn.onclick = () => {
+    closePrintMenu();
+    printWith("keyonly");
   };
   document.addEventListener("click", e => {
     if (!e.target.closest(".splitbtn")) {
@@ -463,7 +469,9 @@ function wireToolbar() {
       closePrintMenu();
     }
   });
-  window.addEventListener("afterprint", () => document.body.classList.remove("print-key"));
+  window.addEventListener("afterprint", () =>
+    document.body.classList.remove("print-key", "print-key-only")
+  );
 
   // Dark-mode toggle: a device setting with its own localStorage key (separate from the settings
   // blob). The initial class is set pre-paint by the inline <head> script; here we sync the glyph.
