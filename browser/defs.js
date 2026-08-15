@@ -121,7 +121,7 @@ const FACET_INFO = {
     _: "Każde zadanie zostało rozwiązane niezależnie przez AI, bez podglądania klucza („na ślepo”). Ten filtr pokazuje, jak odpowiedź AI ma się do oficjalnego klucza — pomaga wyłapać możliwe błędy w kluczu.",
     zgodne: "Odpowiedź AI zgadza się z oficjalnym kluczem odpowiedzi.",
     rozbiezne:
-      "Odpowiedź AI różni się od klucza i spór nie został jeszcze rozstrzygnięty — potwierdzone pomyłki AI są w „Klucz sprawdzony”.",
+      "Odpowiedź AI różni się od klucza i spór nie został jeszcze rozstrzygnięty — rozstrzygnięte trafiają do „Klucz podejrzany” albo „Klucz sprawdzony”.",
     podejrzany:
       "Zadania, w których błąd wygląda na leżący po stronie klucza, a nie AI — sprawdzone dodatkowo z kluczem na widoku. Przy zadaniu jest wyjaśnienie, na czym polega problem.",
     sprawdzony:
@@ -214,7 +214,7 @@ const FACETS = [
         hasKey = a.correct != null && a.correct !== "",
         o = [];
       // a key checked and confirmed is no longer suspect: those rows keep their badge and
-      // explanation, but belong in `rozbiezne` (the AI erred), not under "Klucz podejrzany"
+      // explanation, but belong in `sprawdzony` (the AI erred), not under "Klucz podejrzany"
       if (q.suspect) {
         o.push(q.suspect_verdict === "KEY_CORRECT" ? "sprawdzony" : "podejrzany");
       }
@@ -226,9 +226,10 @@ const FACETS = [
       } else if (m.agrees === true) {
         o.push("zgodne");
       } else if (m.agrees === false) {
-        // a disagreement adjudicated as the AI's own error is settled: it lives in `sprawdzony`
-        // with its explanation, so this bucket keeps only the disputes that still stand
-        if (q.suspect_verdict !== "KEY_CORRECT") {
+        // an adjudicated dissent is settled and lives in its verdict's bucket (`podejrzany` /
+        // `sprawdzony`) with an explanation; this one keeps only disputes nobody has ruled on,
+        // so it is empty today and stays as the landing spot for the next blind-solve pass
+        if (!q.suspect_verdict) {
           o.push("rozbiezne");
         }
       } else {
