@@ -38,11 +38,20 @@ const VERIF_LABELS = {
   sprawdzony: "Klucz sprawdzony",
   bezklucza: "Bez klucza",
   niepewne: "Niepewna odpowiedź AI",
-  nieroz: "Nierozstrzygnięte"
+  nieroz: "Nierozstrzygnięte",
+  anulowane: "Zadanie anulowane"
 };
 
 // which model(s) produced an answer, for labelling AI answers in the reveal
-const MODEL_LABELS = { sonnet: "Sonnet", "opus+sonnet": "Sonnet + Opus", opus: "Opus" };
+const MODEL_LABELS = {
+  sonnet: "Sonnet",
+  "opus+sonnet": "Sonnet + Opus",
+  opus: "Opus",
+  fable: "Fable",
+  "sonnet+fable": "Sonnet + Fable",
+  "opus+fable": "Opus + Fable",
+  "opus+sonnet+fable": "Sonnet + Opus + Fable"
+};
 
 // Signals the "W pamięci" presets below are built from. Derived from the question text at index
 // time — nothing is stored in the data, so retuning a threshold is an edit here plus a reload.
@@ -130,7 +139,9 @@ const FACET_INFO = {
       "Zadanie nie ma oficjalnego klucza odpowiedzi (np. arkusz opublikowany bez odpowiedzi).",
     niepewne:
       "Zadanie bez klucza, w którym modele AI nie były ze sobą zgodne — odpowiedź AI traktuj ostrożnie.",
-    nieroz: "Weryfikacji nie udało się jednoznacznie rozstrzygnąć."
+    nieroz: "Weryfikacji nie udało się jednoznacznie rozstrzygnąć.",
+    anulowane:
+      "Zadanie anulowane przez organizatora (zwykle błąd w treści) — nie ma poprawnej odpowiedzi, a odpowiedź AI nic tu nie znaczy."
   },
   fig: {
     bezsvg: "Zadania z rysunkiem bitmapowym, który nie ma jeszcze wektorowej przerysówki (SVG)."
@@ -139,6 +150,17 @@ const FACET_INFO = {
     _: "Gotowe zestawy warunków do liczenia bez kartki, przydatne przy przeglądaniu na telefonie. Zadanie może pasować do kilku naraz.",
     ...Object.fromEntries(MENTAL_PRESETS.map(p => [p.key, p.desc]))
   }
+};
+
+// `weryf` values for a question with no official key — its own function only to keep the
+// facet below under Biome's complexity limit
+const keylessVerif = (q, m) => {
+  // an annulled question has no key because there is nothing to answer — a different gap than
+  // a paper published without answers, and the AI answers on it mean nothing
+  if (/anulowan/i.test(q.prompt_html)) {
+    return ["anulowane"];
+  }
+  return m.corroborated === false ? ["bezklucza", "niepewne"] : ["bezklucza"];
 };
 const FACETS = [
   { key: "topic", label: "Temat", values: q => q.topics || [] },
@@ -219,10 +241,7 @@ const FACETS = [
         o.push(q.suspect_verdict === "KEY_CORRECT" ? "sprawdzony" : "podejrzany");
       }
       if (!hasKey) {
-        o.push("bezklucza");
-        if (m.corroborated === false) {
-          o.push("niepewne");
-        }
+        o.push(...keylessVerif(q, m));
       } else if (m.agrees === true) {
         o.push("zgodne");
       } else if (m.agrees === false) {
@@ -237,7 +256,16 @@ const FACETS = [
       }
       return o;
     },
-    order: ["zgodne", "rozbiezne", "podejrzany", "sprawdzony", "bezklucza", "niepewne", "nieroz"],
+    order: [
+      "zgodne",
+      "rozbiezne",
+      "podejrzany",
+      "sprawdzony",
+      "bezklucza",
+      "niepewne",
+      "nieroz",
+      "anulowane"
+    ],
     labelFor: v => VERIF_LABELS[v] || v
   }
 ];
