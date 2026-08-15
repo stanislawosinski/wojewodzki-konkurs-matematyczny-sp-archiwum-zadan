@@ -431,7 +431,16 @@ function wireToolbar() {
     e.preventDefault();
     clearAllFilters();
   };
-  printBtn.onclick = () => window.print();
+  // Drukuj split button: the main segment prints the questions alone, "+ klucz" adds the key
+  // sheet as the last page(s). body.print-key only matters inside @media print; afterprint
+  // clears it so Cmd+P always means a plain questions printout.
+  const printWith = withKey => {
+    document.body.classList.toggle("print-key", withKey);
+    window.print();
+  };
+  printBtn.onclick = () => printWith(false);
+  printKeyBtn.onclick = () => printWith(true);
+  window.addEventListener("afterprint", () => document.body.classList.remove("print-key"));
 
   // Dark-mode toggle: a device setting with its own localStorage key (separate from the settings
   // blob). The initial class is set pre-paint by the inline <head> script; here we sync the glyph.
@@ -574,12 +583,6 @@ function wireSettings() {
     r.onchange = applyPageMode;
   }
   applyPageMode();
-
-  // "Klucz odpowiedzi" (default on): body.print-key shows the print-only key sheet, hides inline reveals
-  const keyCb = $("answerKey"),
-    applyKey = () => document.body.classList.toggle("print-key", keyCb.checked);
-  keyCb.onchange = applyKey;
-  applyKey();
 
   // "Brudnopis w kratkę" (default nigdy): body.grid draws the print-only grid; body.grid-geometry-only
   // (see app.css) then hides it on non-.geometry questions so it shows only under geometry ones.

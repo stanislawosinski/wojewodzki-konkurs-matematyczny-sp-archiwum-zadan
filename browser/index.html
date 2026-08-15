@@ -43,7 +43,18 @@
         </nav>
         <span id="setsummary">Wczytywanie…</span>
         <span class="tb-right">
-          <button type="button" id="printBtn" title="Drukuj">🖨 Drukuj</button>
+          <span class="splitbtn">
+            <button type="button" id="printBtn" title="Drukuj zadania (bez klucza odpowiedzi)">
+              🖨 Drukuj
+            </button>
+            <button
+              type="button"
+              id="printKeyBtn"
+              title="Drukuj z kluczem odpowiedzi na osobnej kartce na końcu"
+            >
+              + klucz
+            </button>
+          </span>
           <a
             id="repoLink"
             href="https://github.com/stanislawosinski/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan"
@@ -173,13 +184,6 @@
                   <label><input type="radio" name="kratka" value="always"> Zawsze</label>
                   <label><input type="radio" name="kratka" value="geom"> Tylko w geometrii</label>
                   <label><input type="radio" name="kratka" value="never" checked> Nigdy</label>
-                </div>
-                <div class="optgroup">
-                  <label
-                    ><input type="checkbox" id="answerKey" checked>
-                    Klucz odpowiedzi na końcu</label
-                  >
-                  <p class="hint">na osobnej kartce</p>
                 </div>
               </section>
             </div>

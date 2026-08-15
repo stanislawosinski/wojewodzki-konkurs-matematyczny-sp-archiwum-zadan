@@ -103,7 +103,8 @@ h1 {
 .clearbtn,
 .pager button,
 .selrow button,
-#printBtn {
+#printBtn,
+#printKeyBtn {
   color: #444;
   background: #fff;
   border: 1px solid var(--border-mid);
@@ -114,7 +115,8 @@ h1 {
 .clearbtn:hover,
 .pager button:hover:not(:disabled),
 .selrow button:hover,
-#printBtn:hover {
+#printBtn:hover,
+#printKeyBtn:hover {
   background: var(--btn);
   border-color: var(--border-strong-hover);
 }
@@ -202,11 +204,30 @@ h1 {
   background: inherit;
   transform: translateX(-50%) rotate(45deg);
 }
-#printBtn {
+#printBtn,
+#printKeyBtn {
   font: inherit;
   padding: 0.2rem 0.5rem;
   cursor: pointer;
 } /* always present + tallest control, so the bar keeps its height when the pager hides */
+
+/* Drukuj split button: two segments joined into one control. The main segment prints the
+   questions alone; the quieter "+ klucz" tail prints with the key sheet appended. */
+.splitbtn {
+  display: inline-flex;
+}
+.splitbtn #printBtn {
+  border-radius: 4px 0 0 4px;
+}
+#printKeyBtn {
+  border-radius: 0 4px 4px 0;
+  margin-left: -1px; /* the segments share one divider border */
+  color: #767676;
+}
+.splitbtn button:hover {
+  position: relative;
+  z-index: 1; /* the hovered segment's border wins over its neighbour's */
+}
 #settingsBtn {
   border: none;
   background: none;
@@ -1480,7 +1501,7 @@ body.scratch-off .scratch-toggle {
   .svgtoggle,
   .figsize,
   #clearSelBar,
-  #printBtn,
+  .splitbtn,
   .settings-pop section + section {
     display: none;
   }
@@ -1790,6 +1811,9 @@ body.scratch-off .scratch-toggle {
   html.dark .sidebar label {
     color: hsl(var(--tint-h) 11% 72%);
   }
+  html.dark #printKeyBtn {
+    color: hsl(var(--tint-h) 11% 60%);
+  } /* the quieter split-button tail keeps its lower contrast in dark mode too */
   html.dark .topbar,
   html.dark .topbar .pager,
   html.dark .topbar #setsummary,
@@ -1858,6 +1882,7 @@ body.scratch-off .scratch-toggle {
   html.dark .pager button,
   html.dark .selrow button,
   html.dark #printBtn,
+  html.dark #printKeyBtn,
   html.dark .reorder,
   html.dark .reveal > summary,
   html.dark .scratch-toggle,
@@ -1867,7 +1892,8 @@ body.scratch-off .scratch-toggle {
   html.dark .clearbtn:hover,
   html.dark .pager button:hover:not(:disabled),
   html.dark .selrow button:hover,
-  html.dark #printBtn:hover {
+  html.dark #printBtn:hover,
+  html.dark #printKeyBtn:hover {
     background: var(--btn);
   }
   html.dark .qmeta .tag {
