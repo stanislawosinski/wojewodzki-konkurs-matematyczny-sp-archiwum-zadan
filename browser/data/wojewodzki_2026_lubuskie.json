@@ -342,7 +342,7 @@
         "model": {
           "answer": "ABD",
           "by": "sonnet",
-          "agrees": null,
+          "agrees": true,
           "solution_html": "<p>b/a=c/b=d/c=e/d=k&gt;0 ⇒ ciąg geometryczny: b=ak, c=ak², d=ak³, e=ak⁴.</p><p>A) d/a=k³=e/b — zawsze prawda.</p><p>B) ae=a²k⁴=c² — zawsze prawda.</p><p>C) cd/(ae)=k — prawda tylko gdy k&gt;1, nie zawsze — fałsz jako ogólne stwierdzenie.</p><p>D) (a−b+c)/(c−d+e)=1/k² &gt;0 zawsze (a(1−k+k²) w liczniku i mianowniku upraszcza się) — zawsze prawda.</p><p>To zadanie wielokrotnego wyboru (9–13) — poprawne: A, B, D.</p>"
         }
       }
@@ -385,7 +385,7 @@
         "model": {
           "answer": "BC",
           "by": "sonnet",
-          "agrees": null,
+          "agrees": true,
           "solution_html": "<p>Niech w1,w2,w3 — szerokości kolumn, h1,h2,h3 — wysokości wierszy (od góry). Z rysunku: 2(w2+h1)=14, 2(w1+h2)=16, 2(w3+h3)=16 ⇒ w2+h1=7, w1+h2=8, w3+h3=8.</p><p>Sumując: (w1+w2+w3)+(h1+h2+h3)=23, więc obwód ABCD = 2·23=46 — zawsze, niezależnie od pozostałych wymiarów.</p><p>Zatem prawdziwe: \"równy 46\" i (jako konsekwencja) \"większy niż 23\".</p>"
         }
       }
@@ -427,7 +427,7 @@
         "model": {
           "answer": "ABC",
           "by": "sonnet",
-          "agrees": null,
+          "agrees": true,
           "solution_html": "<p>√(2√(8√x))=16. Podnosząc do kwadratu: 2√(8√x)=256 ⇒ √(8√x)=128 ⇒ 8√x=16384 ⇒ √x=2048=2¹¹ ⇒ x=2²².</p><p>A) x&gt;2²⁰ — prawda. B) x=2²² — prawda. C) x&lt;2²⁴ — prawda. D) x=2²⁶ — fałsz.</p>"
         }
       }
@@ -467,7 +467,7 @@
         "model": {
           "answer": "BCD",
           "by": "sonnet",
-          "agrees": null,
+          "agrees": true,
           "solution_html": "<p>Wśród m kolejnych liczb całkowitych zawsze znajdzie się liczba podzielna przez d, jeśli d≤m (bo m kolejnych liczb zawiera pełny cykl reszt mod d). Dla m=5: działa dla d=5,4,3 (zawsze prawda), natomiast dla d=6 nie (kontrprzykład: 7,8,9,10,11 — żadna nie dzieli się przez 6).</p>"
         }
       }
@@ -507,7 +507,7 @@
         "model": {
           "answer": "AD",
           "by": "sonnet",
-          "agrees": null,
+          "agrees": true,
           "solution_html": "<p>A) może być pierwsza: 2+3=5 — prawda.</p><p>B) zawsze parzysta: 2+3=5 (nieparzysta) — fałsz.</p><p>C) musi być pierwsza: 2+2=4 (nie pierwsza) — fałsz.</p><p>D) może dzielić się przez 21: 2+19=21 — prawda.</p>"
         }
       }

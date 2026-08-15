@@ -23,6 +23,8 @@ for (const f of readdirSync(SP + '/solved-opus').filter(f => f.endsWith('.json')
 const canon = s => String(s).trim().toUpperCase().replace(/\s+/g, '');
 const flat = h => String(h).replace(/<[^>]+>/g, '').replace(/\s+/g, '').toLowerCase();
 const normTF = s => String(s).toUpperCase().replace(/[^PF]/g, '');
+const NUMBERED = /^\s*\d+(\.\d+)?\s*[–—-]\s*[A-Z]\s*(,\s*\d+(\.\d+)?\s*[–—-]\s*[A-Z]\s*)+$/;
+const letters = s => String(s).toUpperCase().replace(/[^A-Z]/g, '');
 const resolveClosed = (a, q) => {
   const up = canon(a), labels = new Set((q.choices || []).map(c => c.label.toUpperCase()));
   if (labels.has(up)) return up;
@@ -64,6 +66,11 @@ function compare(key, ans, q) {
 
     // naming SOME of the correct labels is an incomplete answer, not a contradicting one
     return aset.every(a => kset.includes(a)) ? null : false;
+  }
+  // "7.1 – D, 7.2 – A, …": one label per sub-item; the numbering is the key's, not the answer's
+  if (NUMBERED.test(String(key))) {
+    const kl = letters(key), al = letters(ans);
+    return kl.length === al.length ? kl === al : null;                // fewer letters = unanswered sub-items
   }
   if (!labels.has(k)) return k === canon(ans);                       // "B3"/"TC" — answer+justification, compare verbatim
 

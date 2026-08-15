@@ -50,7 +50,7 @@
         "model": {
           "answer": "TC",
           "by": "sonnet",
-          "agrees": null,
+          "agrees": true,
           "solution_html": "<p>Suma wszystkich ułamków k/97 dla k=1,...,96 wynosi (1+2+...+96)/97 = (96·97/2)/97 = 4656/97 = 48 — liczba całkowita, więc odpowiedź T.</p><p>Uzasadnienie: 1+2+...+96 = 4656 = 48·97, czyli jest wielokrotnością 97 (opcja C). Wtedy dzielenie przez 97 daje liczbę całkowitą.</p>"
         }
       }
@@ -131,7 +131,7 @@
         "model": {
           "answer": "BD",
           "by": "sonnet",
-          "agrees": null,
+          "agrees": true,
           "solution_html": "<p>Niech b = liczba zawodników lepszych od Maćka, wtedy gorszych jest 3b. Wszystkich uczestników: 4b+1.</p><p>4b+1=25 daje b=6 (liczba całkowita) — więc liczba uczestników to 25 (B). Dla 27: 4b+1=27 → b=6,5 (niecałkowite, odrzucamy).</p><p>Miejsce Maćka = b+1 = 7 (siódme) — odpowiedź D.</p>"
         }
       }

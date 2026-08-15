@@ -79,7 +79,7 @@
         "model": {
           "answer": "AC",
           "by": "sonnet",
-          "agrees": null,
+          "agrees": true,
           "solution_html": "<p>√(√(∛x)) = x^(1/12) = 1/2, więc x = (1/2)^12 = 1/4096.</p><p>A: (−1/8)^4 = 1/8^4 = 1/4096 ✓. B: (1/2)^7 = 1/128 ✗. C: (1/16)^3 = 1/16^3 = 1/4096 ✓ (bo 8^4=16^3=4096). D: (−1/16)^3 = −1/4096 ✗ (ujemna).</p><p>Poprawne są A i C (pytanie dopuszcza wybór więcej niż jednej odpowiedzi).</p>"
         }
       }
@@ -124,7 +124,7 @@
         "model": {
           "answer": "TC",
           "by": "sonnet",
-          "agrees": null,
+          "agrees": true,
           "solution_html": "<p>AB jest pionowe, |AB|=8. Trójkąt prostokątny równoramienny ABC — rozważamy trzy położenia kąta prostego:</p><p>• Kąt prosty w A: C=(5,3) lub (−11,3).</p><p>• Kąt prosty w B: C=(5,−5) lub (−11,−5).</p><p>• Kąt prosty w C (na symetralnej AB, w odległości |AB|/2 od środka (−3,−1)): C=(1,−1) lub (−7,−1).</p><p>Łącznie 6 punktów &gt; 4, więc odpowiedź T (tak), uzasadnienie C — lista dokładnie tych sześciu punktów.</p>"
         }
       }
@@ -166,7 +166,7 @@
         "model": {
           "answer": "BD",
           "by": "sonnet",
-          "agrees": null,
+          "agrees": true,
           "solution_html": "<p>Z wykresu: liczba pracowników razy czas = stała = 20 (1·20=2·10=4·5=5·4=10·2=20·1).</p><p>Dla 3 pracowników: t=20/3 h = 6 h 40 min → odpowiedź B.</p><p>Dla t=1h15min=1,25h: liczba pracowników = 20/1,25 = 16 → odpowiedź D.</p>"
         }
       }
