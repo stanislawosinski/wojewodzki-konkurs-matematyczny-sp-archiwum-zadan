@@ -59,7 +59,7 @@ for (const d of differ) {
   md.push(`- **Q:** ${d.prompt}`);
   md.push('');
 }
-writeFileSync(root + '/open-key-report.md', md.join('\n'));
+writeFileSync(root + '/dev/reports/open-key-report.md', md.join('\n'));
 writeFileSync(SP + '/open-key-mismatches.tsv',
   'hash\tconf\tfile\tid\tkey\tmodel\n' + differ.map(d => [d.hash, d.conf, d.f, d.id, txt(d.key), txt(d.ma)].join('\t')).join('\n') + '\n');
 console.log(`open-with-key: ${matched + differ.length} | match ${matched} | differ ${differ.length} (high-conf ${hi})`);

@@ -32,10 +32,13 @@ reproducible procedure is preserved in [`EXTRACTION_PLAYBOOK.md`](dev/docs/EXTRA
 
 **Honest limitations** (please read before relying on answers):
 
-- Stored answers are the **official keys** plus a non-blind agent sanity check — questions were
-  **not** independently re-solved. A blind-verification pass is planned but not yet run.
-- A handful of **suspected answer-key errors** are logged in
-  [`suspected_key_errors.tsv`](suspected_key_errors.tsv).
+- Stored answers are the **official keys**, additionally **blind-verified by AI**: every question
+  was independently re-solved without sight of the key, disagreements adjudicated across model
+  tiers (see [`dev/docs/VERIFICATION.md`](dev/docs/VERIFICATION.md)). Keyless questions carry a
+  corroborated AI answer instead, clearly marked as such in the browser.
+- **Suspected answer-key errors** are logged in
+  [`suspected_key_errors.tsv`](suspected_key_errors.tsv) (38 reviewed: 6 wrong keys,
+  1 wrong official solution, the rest confirmed correct).
 - The **original download URLs were not recorded and are lost** — see
   [`SOURCES.md`](dev/docs/SOURCES.md) for provenance and per-voivodeship re-derivation seeds.
 
@@ -47,9 +50,9 @@ konkurs-mat/
   SCHEMA.md               # JSON spec + extraction procedure + topic catalog
   suspected_key_errors.tsv
   dev/
-    docs/                 # EXTRACTION_PLAYBOOK.md (how to process new papers), SOURCES.md (provenance & rights)
+    docs/                 # playbooks: EXTRACTION_PLAYBOOK.md, VERIFICATION.md, FIGURE_REDRAW.md + SOURCES.md
     scripts/              # one-off pipeline & verification tools
-    reports/              # PROGRESS.md (status, coverage, gotchas) + verification reports
+    reports/              # point-in-time reviews (full verification reports live in git history)
     figures/              # figure redraw/contradiction campaign artifacts + review sheets
   pdfs/
     szkolny/  rejonowy/  wojewodzki/   # source PDFs: <year>_<wojewodztwo>[_sp|_gim][_answers].pdf
@@ -77,13 +80,13 @@ these are **relative to `pdfs/`** (prepend `pdfs/` to open the file).
 
 | Stage | Extracted |
 |-------|-----------|
-| szkolny (school) | **complete — 126 / 126** (2210 questions; validates clean) |
-| rejonowy (regional) | 0 / 147 — PDFs present, not yet extracted |
-| wojewódzki (provincial) | 0 / 165 — PDFs present, not yet extracted |
+| szkolny (school) | **complete — 126 / 126** (2210 questions) |
+| rejonowy (regional) | **complete — 147 / 147** (2706 questions) |
+| wojewódzki (provincial) | **complete — 160 / 160** (2716 questions) |
 
-Known gaps: **lubuskie** and **opolskie** are absent from the archive; szkolny W-M 2012/13–2016/17
-were never web-archived; some podlaskie years shipped without an answer key. Details in
-[`SOURCES.md`](dev/docs/SOURCES.md) and [`PROGRESS.md`](dev/reports/PROGRESS.md).
+Known gaps: szkolny W-M 2012/13–2016/17 were never web-archived; 38 papers (641 questions)
+shipped without any answer key — those carry corroborated blind-AI answers instead. Details in
+[`SOURCES.md`](dev/docs/SOURCES.md).
 
 ## Building the browser
 

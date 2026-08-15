@@ -135,7 +135,7 @@ for (const v of order) {
     md.push('');
   }
 }
-writeFileSync(root + '/tier2-report.md', md.join('\n'));
+writeFileSync(root + '/dev/reports/tier2-report.md', md.join('\n'));
 writeFileSync(SP + '/tier2-verdicts.tsv',
   'verdict\thash\tfile\tid\ttype\tkey\tsonnet\topus\tsconf\toconf\n' +
   rows.map(r => [r.verdict, r.hash, r.file, r.id, r.type, r.key ?? '', r.sonnet ?? '', r.opus ?? '', r.sconf ?? '', r.oconf ?? ''].join('\t')).join('\n') + '\n');

@@ -100,7 +100,7 @@ The contradictions recorded for these two above are untouched.
 
 ## See also
 
-- `FIGURE_REDRAW.md` § *Solve-through-SVG sweep* — the one genuine **redraw** defect
+- `dev/docs/FIGURE_REDRAW.md` § *Solve-through-SVG sweep* — the one genuine **redraw** defect
   found in 252 (`wojewodzki_2012_podkarpackie_q3`, inverted 3♣ pip), plus three answers
   worth a second look. Different category: redraw vs scan, not scan vs prompt.
 - `suspected_key_errors.tsv` — answer-key disputes, unrelated to figures.

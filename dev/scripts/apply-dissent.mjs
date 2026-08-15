@@ -22,7 +22,7 @@ addDir(SP + '/open-verify/solve-out');
 
 // --- keyed ids that need the Opus dissenter (three-way + new-dispute) ---
 const keyed = new Set();
-for (const sec of readFileSync(root + '/tier2-report.md', 'utf8').split(/^## /m))
+for (const sec of readFileSync(root + '/dev/reports/tier2-report.md', 'utf8').split(/^## /m))
   if (/^THREE-WAY SPLIT|^NEW DISPUTE/.test(sec))
     for (const m of sec.matchAll(/^### `[0-9a-f]+` · (\S+) ·/gm)) keyed.add(m[1]);
 const adj = JSON.parse(readFileSync(SP + '/open-verify/adjudicated.json', 'utf8'));

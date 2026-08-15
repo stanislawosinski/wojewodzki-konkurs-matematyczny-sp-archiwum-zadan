@@ -9,13 +9,13 @@ and can be handed over verbatim.
 | | |
 |---|---|
 | `browser/figures/*.png` | 855 figure crops, all low-resolution bitmaps pasted into the source PDFs |
-| `browser/figures/svg/*.svg` | 344 vector redraws. Same basename as the PNG they replace |
+| `browser/figures/svg/*.svg` | 823 vector redraws (2026-08-15; the 32 PNGs without one are photos/infographics/przyroda — deliberate). Same basename as the PNG they replace |
 | `dev/scripts/figcheck.py` | scorer: `match@4px` + a visual diff sheet |
 | `dev/scripts/figsheet.py` | regenerates `dev/figures/figure-redraw-review.html`; with figure names as arguments, writes just those to `dev/figures/figure-subset-review.html` |
 | `dev/scripts/figangles.py` | angle-mark linter, reads the vector source (see **Angle marks**) |
 | `dev/figures/figure-redraw-review.html` | side-by-side review, worst score first; each heading links its question hash into the local browser |
 | `dev/figures/figure-angles-review.html` | zoomed original-vs-redraw crops of every flagged vertex |
-| `redraw-queue.tsv` | the 473 figures triaged as redrawable but not yet drawn, ordered low → high effort |
+| `dev/figures/redraw-queue.tsv` | the campaign queue (now fully drawn — kept as the triage record), ordered low → high effort |
 
 The browser shows the bitmap by default. A `△` button in the question's left
 gutter (only for questions whose figures have a redraw) swaps every figure in
@@ -41,7 +41,7 @@ stroke offset scores ~0 on otherwise perfect geometry.
 invented it**. Read that image; the number alone does not say *what* is wrong.
 
 Target ≥ 0.75. Current state: n=344, mean 0.9725, 9 below 0.85. Eight are signed
-off in `redraw-ok.jsonl`, i.e. looked at and accepted; the ninth is
+off in `dev/figures/redraw-ok.jsonl`, i.e. looked at and accepted; the ninth is
 `rejonowy_2019_lubuskie_q17` at 0.647, a gradient figure MuPDF cannot render at
 all (see below) — in Chrome it scores 1.000.
 
@@ -325,7 +325,7 @@ Draw dots as `<circle>`, never `<rect>`. A rect is loaded as four segments
 whose corners become vertices, and the linter will anchor a nearby arc to one
 of them and report an offset that isn't there.
 
-### Current state — 344 svg, 18 FAIL in 12 figures
+### Linter state (2026-08-02 snapshot, 344 svg then) — 18 FAIL in 12 figures
 
 14 `centre-off-vertex`, 4 `label-outside-arc`, 4 `arc-small-for-label` (WARN),
 52 right-angle-mark INFOs (12 square tick, 38 arc+dot, 2 arc without a dot),
@@ -364,7 +364,7 @@ labels rendered at half size because `text-anchor` was carrying the position
 ## Worth revising first
 
 Nothing, on this evidence. The 9 below 0.85 are all explained: eight are
-**already signed off in `redraw-ok.jsonl`**, i.e. checked by eye in the browser
+**already signed off in `dev/figures/redraw-ok.jsonl`**, i.e. checked by eye in the browser
 and accepted — text-heavy charts where the ceiling is ink volume, not geometry
 — and the ninth is the gradient figure MuPDF can't draw. Do not "fix" any of
 them on the strength of the number; check the overlay first, and if the only
@@ -448,7 +448,7 @@ szkolny_2023_lodzkie_q12_fig1            3D pie chart + phone screenshot + handw
 The 2026-08-02 triage pass classified every one of the 478 figures that had
 never been looked at, against the rule above. It found only those last 5
 rejects — **473 are redrawable**, so the pool is not the constraint, drawing
-time is. `redraw-queue.tsv` is the queue, ordered low → high effort (269 low,
+time is. `dev/figures/redraw-queue.tsv` is the queue, ordered low → high effort (269 low,
 163 med, 41 high). The `high` tail is almost entirely the śląskie
 arithmetic-crossword grids, which are dense but mechanical.
 

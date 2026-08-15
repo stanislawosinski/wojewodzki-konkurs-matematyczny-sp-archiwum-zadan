@@ -1,10 +1,12 @@
 # Extraction playbook (how to run a batch)
 
-Detailed how-to for the PDF→JSON fan-out. Companion to **PROGRESS.md** (status +
-gotchas) and **SCHEMA.md** (the JSON spec). Read all three before resuming.
+Detailed how-to for the PDF→JSON fan-out. Companion to **SCHEMA.md** (the JSON spec);
+after extraction, two separate passes run on the JSON output: **VERIFICATION.md**
+(blind AI answer layer) and **FIGURE_REDRAW.md** (bitmap→SVG redraws).
 
-Stages, all same layout & recipe — just swap the prefix everywhere:
-`pdfs/szkolny/` (DONE 126/126) · `pdfs/rejonowy/` (0/147) · `pdfs/wojewodzki/` (0/165).
+All three stages are extracted (433 files / 7632 questions, 2026-07); this recipe is
+for future papers. Stages share layout — just swap the prefix everywhere:
+`pdfs/szkolny/` · `pdfs/rejonowy/` · `pdfs/wojewodzki/`.
 Each `pdfs/<stage>/` holds `<name>.pdf` question papers + optional `<name>_answers.pdf`
 keys. Outputs: `browser/data/<stage>_<name>.json` + `browser/figures/<stage>_<name>_q<n>_figN.png`.
 
@@ -36,10 +38,11 @@ keys. Outputs: `browser/data/<stage>_<name>.json` + `browser/figures/<stage>_<na
    missing/orphan figures, missing school_type.
 5. **Dup-scan the batch's PDFs** (md5) — catches mislabeled duplicates.
 6. **Grep new JSONs for `anulowano`** — confirm the right annulled sub-case was applied.
-7. **Update PROGRESS.md** status line + any new gotchas/flagged key errors.
-8. **Rebuild HTML** only when asked (`cd browser && for f in data/<stage>_*.json; do python3
-   build.py "$f"; done && python3 build.py data/*.json -o wszystkie-zadania.html`).
-   Agents must NOT run build.py themselves (a resumed one once left a stray per-test HTML).
+7. **Update the coverage table in README.md**; record new gotchas in the per-file
+   notes below; flag key errors for the VERIFICATION.md pipeline.
+8. **Rebuild the data shards**: `cd browser && node build.mjs` — it also validates
+   topic tags against `categories.json` and folds `suspected_key_errors.tsv` into the
+   `suspect` flags. Agents must NOT run it themselves.
 
 ## The agent prompt template
 
@@ -116,6 +119,8 @@ Report: #questions, #figures, whether a key was found, points-sum vs max, and an
   - **lodzkie 2019/2020/2021** genuinely have NO key anywhere → answers_file null, all correct null.
     (2022+ lodzkie DO have a separate key.) lodzkie are docx-converted (layout differs) and often
     use a 100-pt scale with A–E choices.
+  - **pomorskie 2017-2018 & 2025-2026** also have NO key anywhere (embedded checked too) →
+    answers_file null, all correct null.
 - **pomorskie** bundles a multi-part "Zadanie N" (sub-items N.1–N.k, each single-choice) into ONE
   `closed_single`: sub-items in prompt_html, `choices: []`, combined `answer.correct` (e.g.
   "9.1 – C, 9.2 – D, …"). Match browser/data/szkolny_2024-2025_pomorskie.json. Do NOT split into
@@ -159,29 +164,24 @@ print("missing school_type:",notype or "none")
 PY
 ```
 
-**Question hash** (= what build.py shows in the HTML, `sha1(id)[:8]`):
+**Question hash** (= the browser's question hash, `sha1(id)[:8]`):
 ```sh
 python3 -c "import hashlib,sys;print(hashlib.sha1(sys.argv[1].encode()).hexdigest()[:8])" <id>
 ```
 
 **Anulowano scan:** `grep -l anulowan browser/data/<stage>_*.json`
 
-## build.py conventions (the generator)
+## The generator (browser/build.mjs)
 
-- `python3 build.py <one.json>` → writes `browser/<stem>.html` (per-test). Multiple json + `-o
-  file` → the master. No on-load `applyFilters()` call — the initial view is exactly the shipped
-  HTML, so the generator MATERIALIZES it: first `CAP=100` matching questions visible, the rest
-  get inline `style="display:none"`; a `#capnote` banner ("Pokaż wszystkie") lifts the cap
-  (`showAll`). Any filter change re-applies the cap from the top (`refilter`).
-- Per-question filter attrs on each `<article class="q">`: data-topics/year/woj/etap/points/
-  type/school/search/hash. `school_type` filter = "Typ szkoły" dropdown. hash = sha1(id)[:8].
-- `school_type` is DERIVED from the `competition` string on every JSON (gimnazjum if it contains
-  "gimnaz", else podstawowa) — a stored convenience copy. The re-add script (used once) rewrites
-  it from the string; if a manual override ever contradicts the title, guard that file.
+`cd browser && node build.mjs` regenerates the data shards (`data.*.js` /
+`data.*.json`) + `catalog.js` from `browser/data/*.json`. It fails on unknown topic
+tags (vs `categories.json`) and derives the `suspect` fields from
+`suspected_key_errors.tsv`. `school_type` is a stored convenience copy derived from
+the `competition` string (gimnazjum if it contains "gimnaz", else podstawowa).
 
-## Open work (not done)
+## Follow-up passes (each run once over the whole corpus; re-run for new papers)
 
-- **rejonowy 0/147, wojewodzki 0/165** — not started. Same recipe.
-- **Blind verification pass** — never run. Fan out agents that SOLVE each question without seeing
-  answer.correct, diff vs stored. Ground-truth candidates: suspected_key_errors.tsv (4 rows)
-  + szkolny_2023-2024_pomorskie_q9 (agent-DERIVED answers, no official letters). See PROGRESS.md.
+- **Blind AI verification** — two-tier blind solve + adjudication → `answer.model`,
+  `suspected_key_errors.tsv`. Recipe: **VERIFICATION.md**.
+- **Figure redraws** — bitmap→SVG, review sheets, angle-mark linter. Recipe:
+  **FIGURE_REDRAW.md**; campaign registries stay in `dev/figures/`.

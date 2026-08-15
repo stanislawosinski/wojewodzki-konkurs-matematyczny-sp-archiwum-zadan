@@ -8,17 +8,18 @@ Creative Commons Attribution 4.0 International License (CC BY 4.0),
 reproduced in full below. Those contributions are:
 
   - the per-question JSON structure and topic categorization (browser/data/),
-  - the cropped figure images (browser/figures/),
-  - the generator script (browser/build.py), and
-  - the documentation (README.md and the *.md docs).
+  - the cropped figure images and their SVG redraws (browser/figures/),
+  - the browser app and its generator (the rest of browser/),
+  - the pipeline scripts (dev/scripts/), and
+  - the documentation (README.md, SCHEMA.md, dev/docs/, dev/reports/).
 
 NOT COVERED BY THIS LICENSE: the source competition papers under pdfs/,
 and the text of the competition questions and answer keys transcribed
 into the JSON, are the property of their respective Kuratoria Oświaty
 (the regional education authorities in Poland that run these contests).
 They are reproduced here for non-commercial educational and archival use
-only; all rights remain with the original authors. See SOURCES.md for
-provenance. To request removal of any material, open an issue on this
+only; all rights remain with the original authors. See dev/docs/SOURCES.md
+for provenance. To request removal of any material, open an issue on this
 repository.
 
 Full license text also at: https://creativecommons.org/licenses/by/4.0/legalcode
