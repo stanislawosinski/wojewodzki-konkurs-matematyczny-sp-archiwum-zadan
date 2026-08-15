@@ -104,7 +104,7 @@ h1 {
 .pager button,
 .selrow button,
 #printBtn,
-#printKeyBtn {
+#printMenuBtn {
   color: #444;
   background: #fff;
   border: 1px solid var(--border-mid);
@@ -116,7 +116,7 @@ h1 {
 .pager button:hover:not(:disabled),
 .selrow button:hover,
 #printBtn:hover,
-#printKeyBtn:hover {
+#printMenuBtn:hover {
   background: var(--btn);
   border-color: var(--border-strong-hover);
 }
@@ -205,28 +205,73 @@ h1 {
   transform: translateX(-50%) rotate(45deg);
 }
 #printBtn,
-#printKeyBtn {
+#printMenuBtn {
   font: inherit;
   padding: 0.2rem 0.5rem;
   cursor: pointer;
 } /* always present + tallest control, so the bar keeps its height when the pager hides */
 
-/* Drukuj split button: two segments joined into one control. The main segment prints the
-   questions alone; the quieter "+ klucz" tail prints with the key sheet appended. */
+/* Drukuj split button (Salt anatomy): the main segment prints the questions alone; the narrow
+   chevron segment opens a menu with the print-with-key variant. */
 .splitbtn {
+  position: relative;
   display: inline-flex;
 }
 .splitbtn #printBtn {
   border-radius: 4px 0 0 4px;
 }
-#printKeyBtn {
+#printMenuBtn {
   border-radius: 0 4px 4px 0;
   margin-left: -1px; /* the segments share one divider border */
+  padding-inline: 0.35rem;
   color: #767676;
 }
-.splitbtn button:hover {
+/* the open menu docks flush under the control: the adjoining bottom corners square off so
+   button and menu read as one connected surface */
+#printMenuBtn[aria-expanded="true"] {
+  background: var(--btn);
+  border-bottom-right-radius: 0;
+}
+.splitbtn:has(#printMenu:not([hidden])) #printBtn {
+  border-bottom-left-radius: 0;
+}
+.splitbtn > button:hover {
   position: relative;
   z-index: 1; /* the hovered segment's border wins over its neighbour's */
+}
+#printMenu {
+  position: absolute;
+  top: calc(100% - 1px); /* overlap the buttons' bottom border — one shared line, no gap */
+  right: 0; /* the button sits at the bar's right edge — grow leftward, never off-screen */
+  z-index: 20; /* same layer as the settings popover */
+  background: var(--surface);
+  border: 1px solid var(--border-mid);
+  border-radius: 5px 0 5px 5px; /* square where it meets the chevron segment above */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 0.25rem;
+  white-space: nowrap;
+}
+#printMenu button {
+  display: block;
+  width: 100%;
+  font: inherit;
+  text-align: left;
+  color: #444;
+  background: none;
+  border: 0;
+  border-radius: 4px;
+  padding: 0.2rem 0.3rem;
+  cursor: pointer;
+}
+#printMenu button:hover {
+  background: var(--btn);
+}
+#printMenu .hint {
+  display: block;
+  margin: 0.1rem 0 0 1.05rem; /* flush with the label TEXT, i.e. past the printer glyph */
+  font-size: 0.7rem;
+  color: #999;
+  line-height: 1.3;
 }
 #settingsBtn {
   border: none;
@@ -1811,9 +1856,12 @@ body.scratch-off .scratch-toggle {
   html.dark .sidebar label {
     color: hsl(var(--tint-h) 11% 72%);
   }
-  html.dark #printKeyBtn {
+  html.dark #printMenuBtn {
     color: hsl(var(--tint-h) 11% 60%);
-  } /* the quieter split-button tail keeps its lower contrast in dark mode too */
+  } /* the quieter chevron segment keeps its lower contrast in dark mode too */
+  html.dark #printMenu button {
+    color: hsl(var(--tint-h) 11% 72%);
+  }
   html.dark .topbar,
   html.dark .topbar .pager,
   html.dark .topbar #setsummary,
@@ -1849,6 +1897,7 @@ body.scratch-off .scratch-toggle {
   html.dark .answer.nokey,
   html.dark .settings-pop h4,
   html.dark .settings-pop .hint,
+  html.dark #printMenu .hint,
   html.dark #clearSearch,
   html.dark #drawerClose,
   html.dark #settingsClose,
@@ -1882,7 +1931,7 @@ body.scratch-off .scratch-toggle {
   html.dark .pager button,
   html.dark .selrow button,
   html.dark #printBtn,
-  html.dark #printKeyBtn,
+  html.dark #printMenuBtn,
   html.dark .reorder,
   html.dark .reveal > summary,
   html.dark .scratch-toggle,
@@ -1893,7 +1942,7 @@ body.scratch-off .scratch-toggle {
   html.dark .pager button:hover:not(:disabled),
   html.dark .selrow button:hover,
   html.dark #printBtn:hover,
-  html.dark #printKeyBtn:hover {
+  html.dark #printMenuBtn:hover {
     background: var(--btn);
   }
   html.dark .qmeta .tag {

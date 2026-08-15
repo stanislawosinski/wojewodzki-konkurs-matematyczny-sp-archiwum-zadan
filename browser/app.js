@@ -431,15 +431,38 @@ function wireToolbar() {
     e.preventDefault();
     clearAllFilters();
   };
-  // Drukuj split button: the main segment prints the questions alone, "+ klucz" adds the key
-  // sheet as the last page(s). body.print-key only matters inside @media print; afterprint
-  // clears it so Cmd+P always means a plain questions printout.
+  // Drukuj split button (Salt anatomy): the main segment prints the questions alone; the
+  // chevron opens a menu whose item prints with the key sheet appended as the last page(s).
+  // body.print-key only matters inside @media print; afterprint clears it so Cmd+P always
+  // means a plain questions printout.
   const printWith = withKey => {
     document.body.classList.toggle("print-key", withKey);
     window.print();
   };
+  const closePrintMenu = () => {
+    printMenu.hidden = true;
+    printMenuBtn.setAttribute("aria-expanded", "false");
+  };
   printBtn.onclick = () => printWith(false);
-  printKeyBtn.onclick = () => printWith(true);
+  printMenuBtn.onclick = () => {
+    const open = printMenu.hidden;
+    printMenu.hidden = !open;
+    printMenuBtn.setAttribute("aria-expanded", String(open));
+  };
+  printKeyBtn.onclick = () => {
+    closePrintMenu();
+    printWith(true);
+  };
+  document.addEventListener("click", e => {
+    if (!e.target.closest(".splitbtn")) {
+      closePrintMenu();
+    }
+  });
+  document.addEventListener("keydown", e => {
+    if (e.key === "Escape") {
+      closePrintMenu();
+    }
+  });
   window.addEventListener("afterprint", () => document.body.classList.remove("print-key"));
 
   // Dark-mode toggle: a device setting with its own localStorage key (separate from the settings

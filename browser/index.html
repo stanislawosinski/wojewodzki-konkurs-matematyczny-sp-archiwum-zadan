@@ -49,11 +49,20 @@
             </button>
             <button
               type="button"
-              id="printKeyBtn"
-              title="Drukuj z kluczem odpowiedzi na osobnej kartce na końcu"
+              id="printMenuBtn"
+              aria-haspopup="menu"
+              aria-expanded="false"
+              aria-label="Więcej opcji wydruku"
+              title="Więcej opcji wydruku"
             >
-              + klucz
+              ▾
             </button>
+            <div id="printMenu" role="menu" hidden>
+              <button type="button" role="menuitem" id="printKeyBtn">
+                🖨 Drukuj z odpowiedziami
+                <span class="hint">klucz na ostatniej stronie</span>
+              </button>
+            </div>
           </span>
           <a
             id="repoLink"
