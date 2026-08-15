@@ -34,8 +34,8 @@ const STAGES = ["szkolny", "rejonowy", "wojewodzki"];
 const VERIF_LABELS = {
   zgodne: "AI zgodne z kluczem",
   rozbiezne: "AI niezgodne z kluczem",
-  podejrzany: "Klucz podejrzany",
-  sprawdzony: "Klucz sprawdzony",
+  podejrzany: "Klucz prawdopodobnie błędny",
+  sprawdzony: "Poprawność klucza potwierdzona",
   bezklucza: "Bez klucza",
   niepewne: "Niepewna odpowiedź AI",
   nieroz: "Nierozstrzygnięte",
@@ -127,21 +127,18 @@ const MENTAL_LABELS = Object.fromEntries(MENTAL_PRESETS.map(p => [p.key, p.label
 // explanations behind the ⓘ info icons; `_` is the facet-header note. Only facets/values listed here get an icon.
 const FACET_INFO = {
   weryf: {
-    _: "Każde zadanie zostało rozwiązane niezależnie przez AI, bez podglądania klucza („na ślepo”). Ten filtr pokazuje, jak odpowiedź AI ma się do oficjalnego klucza — pomaga wyłapać możliwe błędy w kluczu.",
-    zgodne: "Odpowiedź AI zgadza się z oficjalnym kluczem odpowiedzi.",
-    rozbiezne:
-      "Odpowiedź AI różni się od klucza i spór nie został jeszcze rozstrzygnięty — rozstrzygnięte trafiają do „Klucz podejrzany” albo „Klucz sprawdzony”.",
+    _: "Każde zadanie zostało niezależnie rozwiązane przez AI i porównane z oficjalnym kluczem odpowiedzi. Filtr pokazuje wynik tej weryfikacji, m.in. prawdopodobne błędy w kluczach.",
+    zgodne: "Odpowiedź AI, uzyskana bez podglądania klucza, zgadza się z oficjalnym kluczem.",
     podejrzany:
-      "Zadania, w których błąd wygląda na leżący po stronie klucza, a nie AI — sprawdzone dodatkowo z kluczem na widoku. Przy zadaniu jest wyjaśnienie, na czym polega problem.",
+      "AI podało inną odpowiedź niż klucz, a analiza AI z kluczem na widoku wskazuje na błąd po stronie organizatora — w samym kluczu albo w jego uzasadnieniu. Przy zadaniu jest wyjaśnienie.",
     sprawdzony:
-      "Sporne zadania sprawdzone dodatkowo z kluczem na widoku — klucz okazał się poprawny, pomyliło się AI. Przy zadaniu jest wyjaśnienie.",
+      "AI początkowo podało inną odpowiedź niż klucz; analiza AI z kluczem na widoku potwierdziła, że klucz jest poprawny, a pomyliło się AI. Przy zadaniu jest wyjaśnienie pomyłki.",
     bezklucza:
-      "Zadanie nie ma oficjalnego klucza odpowiedzi (np. arkusz opublikowany bez odpowiedzi).",
-    niepewne:
-      "Zadanie bez klucza, w którym modele AI nie były ze sobą zgodne — odpowiedź AI traktuj ostrożnie.",
-    nieroz: "Weryfikacji nie udało się jednoznacznie rozstrzygnąć.",
+      "Organizator nie opublikował klucza. Pokazywana odpowiedź pochodzi od AI — zwykle od dwóch modeli, które rozwiązały zadanie niezależnie i doszły do tego samego wyniku.",
+    nieroz:
+      "Odpowiedzi AI nie dało się porównać z kluczem — np. klucz jest rysunkiem, którego nie ma w danych.",
     anulowane:
-      "Zadanie anulowane przez organizatora (zwykle błąd w treści) — nie ma poprawnej odpowiedzi, a odpowiedź AI nic tu nie znaczy."
+      "Zadanie anulowane przez organizatora (zwykle błąd w treści), zadanie nie ma poprawnej odpowiedzi. Weryfikacja AI nie została przeprowadzona."
   },
   fig: {
     bezsvg: "Zadania z rysunkiem bitmapowym, który nie ma jeszcze wektorowej przerysówki (SVG)."
@@ -229,14 +226,14 @@ const FACETS = [
   // verification status from the blind-solve pass (answer.model.agrees / corroborated + suspect flag) — last filter
   {
     key: "weryf",
-    label: "Weryfikacja",
+    label: "Weryfikacja AI",
     values: q => {
       const a = q.answer || {},
         m = a.model || {},
         hasKey = a.correct != null && a.correct !== "",
         o = [];
       // a key checked and confirmed is no longer suspect: those rows keep their badge and
-      // explanation, but belong in `sprawdzony` (the AI erred), not under "Klucz podejrzany"
+      // explanation, but belong in `sprawdzony` (the AI erred), not among the likely-wrong keys
       if (q.suspect) {
         o.push(q.suspect_verdict === "KEY_CORRECT" ? "sprawdzony" : "podejrzany");
       }
@@ -258,9 +255,9 @@ const FACETS = [
     },
     order: [
       "zgodne",
-      "rozbiezne",
-      "podejrzany",
       "sprawdzony",
+      "podejrzany",
+      "rozbiezne",
       "bezklucza",
       "niepewne",
       "nieroz",

@@ -275,7 +275,7 @@ function verifBadge(q, aiCount) {
     const b = {
       // badge label & colour by Opus verdict; blank verdict → generic suspect flag
       KEY_WRONG: { cls: "suspect", text: "Klucz prawdopodobnie błędny" },
-      KEY_CORRECT: { cls: "ok", text: "Klucz zweryfikowany — poprawny" },
+      KEY_CORRECT: { cls: "ok", text: "Poprawność klucza potwierdzona" },
       SOLUTION_WRONG: { cls: "warn", text: "Klucz poprawny, ale rozwiązanie błędne" }
     }[q.suspect_verdict] || { cls: "suspect", text: "Klucz podejrzany — możliwy błąd w kluczu" };
     return { ...b, reason: q.suspect_reason };
