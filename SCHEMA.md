@@ -27,6 +27,7 @@ Source PDFs live under `pdfs/<stage>/`; `source_file` is that path relative to `
 | `source_file` | path to the questions PDF/docx, relative to `pdfs/` (`<stage>/<name>.pdf`) |
 | `answers_file` | path to the key file, or `null` if none exists |
 | `competition` | full name as printed |
+| `school_type` | `podstawowa` \| `gimnazjum` (13 old gimnazjum sheets) |
 | `stage` | `szkolny` \| `rejonowy` \| `wojewodzki` |
 | `wojewodztwo` | slug: `malopolskie`, `slaskie`, … |
 | `school_year` | `"2021/2022"` |
@@ -46,10 +47,11 @@ Source PDFs live under `pdfs/<stage>/`; `source_file` is that path relative to `
 | `annulled` | `true` only for an annulled task (`answer.correct` null, points retained, `prompt_html` carries the "Zadanie anulowano…" note); **omit the field entirely otherwise** — its absence means "not annulled" |
 | `topics` | 1+ **leaf** topics from the catalog below, most-specific first; category is derived, not stored |
 | `prompt_html` | question body, HTML + inline MathML |
-| `choices` | `[{label,html}]` for closed/true_false; `[]` for open |
-| `figures` | filenames in `browser/figures/`; `[]` if none |
+| `choices` | `[{label,html}]` for closed/true_false; `[]` for open. True/false carries one entry per statement (may exceed 4); a multi-part closed item may keep its sub-choices inside `prompt_html` and leave `choices` empty |
+| `figures` | filenames in `browser/figures/`; `[]` if none. A figure can also be embedded inline as `<img src="figures/…">` in `prompt_html`/`choices[].html` (e.g. pick-the-net questions) — such files don't appear in `figures` |
 | `answer.correct` | choice label (`"C"`) or short text; `null` if unknown |
 | `answer.solution_html` | worked solution HTML, or `null` if the key gives only a letter |
+| `answer.model` | blind-AI verification block (`answer`, `by`, `agrees`, `corroborated`, `solution_html`), written only by the verification passes — spec in [`dev/docs/VERIFICATION.md`](dev/docs/VERIFICATION.md); never hand-edit |
 
 ### Topic catalog
 

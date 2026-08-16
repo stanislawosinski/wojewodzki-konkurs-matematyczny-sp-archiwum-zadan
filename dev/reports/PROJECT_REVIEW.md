@@ -1,3 +1,93 @@
+# Przegląd projektu — 2026-08-16
+
+Stan po: kampanii „W pamięci" (433/433 sidecarów, scalone 3 ręczne oceny z partii 1),
+popoverze „Wskazówki" z cross-linkami do „O tym serwisie". Skan integralności całego
+korpusu przeprowadzony na nowo (skrypt jednorazowy, wyniki niżej).
+
+## 0. Migawka korpusu
+
+433 pliki (szkolny 126 · rejonowy 147 · wojewódzki 160), **7632 zadania**
+(closed_single 4633 · open 2282 · true_false 717). Figury: 855 PNG (831 zadań),
+823 SVG, 191 hidpi. Mental: **5897 zadań oflagowanych** (wprost 4966 · pomysl 931),
+0 podpowiedzi ponad limit 110 znaków, 0 wpisów-sierot. `answer.model` przy 7626/7632 —
+6 braków to dokładnie 5 anulowanych + 1 `nieroz`, spójne.
+
+## 1. Dane — wynik skanu integralności
+
+- **Zero twardych błędów**: brak duplikatów id, brak brakujących PNG na dysku, brak
+  artefaktów fontowych (`Ŝ`), `total_questions` == liczba zadań we wszystkich 433 plikach.
+- **Suma punktów ≠ `max_points` w 2 plikach — do sprawdzenia z PDF-em** (jedyne 2 na 433):
+  - `rejonowy_2012_podlaskie_sp` — suma 31 vs `max_points` 30;
+  - `wojewodzki_2011_podlaskie_gim` — suma 42 vs `max_points` 45.
+  Albo błąd ekstrakcji (`points` lub `max_points`), albo tak drukował arkusz.
+- **„5 osieroconych PNG" — FAŁSZYWY ALARM (sprawdzone 2026-08-16, nic nie kasować).**
+  `rejonowy_2020_lubuskie_q25_fig{2..5}.png` i `wojewodzki_2023-2024_pomorskie_q1_fig1.png`
+  są referencjonowane inline jako `<img src="figures/…">` w `choices[].html` (siatki
+  sześcianu do wyboru, ilustracje wariantów P/F) — skan patrzył tylko na `q.figures`.
+  Konwencja dopisana do SCHEMA.md.
+- **`choices` poza szablonem — sprawdzone, to konwencja, nie błąd**: ~14 zadań
+  `closed_single` z `choices: []` (wieloczęściowe pomorskie — podpunkty z wyborami
+  siedzą w `prompt_html`) i true_false z 6–9 wpisami (jeden wpis na stwierdzenie).
+  Nieopisane w SCHEMA.md — patrz §2.
+- Przeniesione z 2026-08-15, bez zmian: `bezklucza` 641 (kryte przez corroborated AI),
+  hidpi tylko 191/855, rubryki punktowania z 16 plików (wartość marginalna).
+
+## 2. Opisy — luki w SCHEMA.md
+
+README jest aktualne (mental pass, przykłady `jq` — obie wczorajsze pozycje domknięte).
+SCHEMA.md nie dogonił danych:
+
+- **`school_type`** (`podstawowa` 420 · `gimnazjum` 13) — pole jest w każdym pliku,
+  w tabeli obiektu testu go nie ma.
+- **`answer.model`** — cały blok weryfikacji (by/agrees/corroborated/solution_html)
+  opisuje tylko `dev/docs/VERIFICATION.md`; SCHEMA powinien mieć chociaż jedną linię
+  z odsyłaczem, bo to pole siedzi w źródle prawdy.
+- **Konwencje `choices`** z §1: `closed_single` z pustymi choices (wieloczęściowe)
+  i true_false jeden-wpis-na-stwierdzenie.
+- Sidecary `dev/mental/` — celowo poza SCHEMA (opisane w swoim README), OK.
+
+## 3. Co agenci mogą jeszcze wyekstrahować
+
+Posortowane wg wartość/koszt:
+
+1. **Rozwiązania AI dla zadań bez żadnego rozwiązania — 4850 zadań (64%).**
+   Największa luka treściowa korpusu: oficjalne `solution_html` ma 2080 zadań,
+   `model.solution_html` — 744 (keyless + adjudykowane). Infrastruktura już istnieje:
+   pole, render na arkuszu klucza, oznaczenie proweniencji AI. Kampania w stylu
+   mental (jeden agent na arkusz, ~433 przebiegi), wynik do `model.solution_html`
+   lub osobnego sidecara. Naturalny kandydat na następną kampanię.
+2. **Klastry duplikatów — zadania powtarzają się między arkuszami.** Dzisiejszy skan
+   (znormalizowany tekst promptu >60 znaków, dokładne dopasowanie) znajduje
+   **106 klastrów / 257 zadań** — te same zadania wracają między latami, etapami
+   i województwami (np. `rejonowy_2013-2014_slaskie_q1` w 5 arkuszach). Dwa poziomy:
+   - *za darmo, bez LLM*: dokładne klastry liczone w `build.mjs`, w przeglądarce
+     znacznik „to zadanie wystąpiło też w …" + odfiltrowanie powtórek z zestawu;
+   - *opcjonalnie, LLM*: near-duplikaty (zmienione liczby, przeredagowania) — dopiero
+     gdy dokładne klastry okażą się użyteczne.
+3. **Tagi metody rozwiązania** (równanie, rozbiór przypadków, niezmiennik, zasada
+   szufladkowa, …) jako nowy facet — wartość średnia, `topics` częściowo to kryje.
+   Nie robić na zapas.
+4. Rubryki punktowania z 16 plików (przeniesione z 2026-08-15) — niski priorytet.
+
+## 4. UI — sensowne ulepszenia
+
+- **Szukaj bez ogonków** (~5 linii): search nie zwija diakrytyków — „trojkat" nie
+  znajdzie „trójkąt". Złożyć NFD + mapka `ł→l` po obu stronach (`q._search` i termy).
+  Tanie, realna wygoda przy szybkim pisaniu.
+- **„Wylosuj N zadań"** z aktualnych filtrów — jednoprzyciskowy generator kartkówki;
+  średni koszt, wysoka wartość dla trenowania. Do decyzji.
+- Znacznik duplikatów — razem z §3.2, nie osobno.
+
+Poza tym bez wymyślania na siłę — wskazówki, wydruk, mental i facety są spójne.
+
+## 5. Kubełki weryfikacji (bez zmian od 2026-08-15)
+
+`zgodne 6950 · bezklucza 641 · sprawdzony 31 · podejrzany 7 · anulowane 5 ·
+nieroz 1 · rozbiezne 0 · niepewne 0`. `agrees:false` przy 35 zadaniach — to
+adjudykowane przypadki, spójne z `suspected_key_errors.tsv` (38 werdyktów).
+
+---
+
 # Przegląd projektu — 2026-08-15
 
 Stan po: dwustopniowej weryfikacji AI (blind solve + adjudykacja), rozstrzygnięciu
