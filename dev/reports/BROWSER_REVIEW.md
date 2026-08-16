@@ -120,6 +120,10 @@ default makes some screen content disagree with the facets and the printed key**
 
 ## Performance
 
+> Items 16–18 **FIXED 2026-08-17** (id boxes debounced 200 ms; `allFacetCounts` in
+> facets.js shares one gated base across unselected facets, equality-tested against
+> `facetCounts`; key sheet built on `beforeprint`). Verified live in Chrome.
+
 16. **`inc`/`exc` inputs are un-debounced** (`app.js:294`): every keystroke in the id
     boxes runs a full filter + render + `replaceState`. Hand-typing a hash is 8 full
     updates, and Chrome rate-limits history writes (~100/30s). Debounce them like

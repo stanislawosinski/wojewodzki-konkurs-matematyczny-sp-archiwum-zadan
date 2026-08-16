@@ -100,19 +100,8 @@
     return [...gatedBase(index, selections, gate, universe, null, andKeys)];
   }
 
-  // drill-down counts for one facet: every OTHER selected facet + gate applied, then
-  // tally |base ∩ index[key][value]| per value — so an OR facet never constrains its own
-  // counts. An AND facet is the exception: it KEEPS its own selection in the base (excludeKey
-  // = null) so each value's count shows how far adding it would narrow the current matches.
-  function facetCounts(index, selections, gate, key, universe, andKeys) {
-    const gated = gatedBase(
-      index,
-      selections,
-      gate,
-      universe,
-      andKeys?.has(key) ? null : key,
-      andKeys
-    );
+  // tally |gated ∩ index[key][value]| for every value of one facet
+  function tallyCounts(index, key, gated) {
     const counts = {},
       facet = index[key] || {};
     for (const v of Object.keys(facet)) {
@@ -125,6 +114,38 @@
       counts[v] = n;
     }
     return counts;
+  }
+
+  // drill-down counts for one facet: every OTHER selected facet + gate applied, then
+  // tally |base ∩ index[key][value]| per value — so an OR facet never constrains its own
+  // counts. An AND facet is the exception: it KEEPS its own selection in the base (excludeKey
+  // = null) so each value's count shows how far adding it would narrow the current matches.
+  function facetCounts(index, selections, gate, key, universe, andKeys) {
+    return tallyCounts(
+      index,
+      key,
+      gatedBase(index, selections, gate, universe, andKeys?.has(key) ? null : key, andKeys)
+    );
+  }
+
+  // counts for many facets in one pass, same results as facetCounts per key. The drill-down
+  // base is identical for every facet WITHOUT its own OR selection (excluding an unselected
+  // key excludes nothing, and an AND facet keeps its selection anyway), so that shared base
+  // is computed once; only selected OR facets pay for a base of their own.
+  function allFacetCounts(index, selections, gate, keys, universe, andKeys) {
+    let shared = null;
+    const out = {};
+    for (const key of keys) {
+      let gated;
+      if (selections[key]?.size && !andKeys?.has(key)) {
+        gated = gatedBase(index, selections, gate, universe, key, andKeys);
+      } else {
+        shared ||= gatedBase(index, selections, gate, universe, null, andKeys);
+        gated = shared;
+      }
+      out[key] = tallyCounts(index, key, gated);
+    }
+    return out;
   }
 
   // Progress status of one question ("Postęp" facet value): its own ✓/✗ mark wins; else a
@@ -167,5 +188,5 @@
     return o;
   }
 
-  return { matchedHashes, facetCounts, progressStatus, encodeHash, decodeHash };
+  return { matchedHashes, facetCounts, allFacetCounts, progressStatus, encodeHash, decodeHash };
 });

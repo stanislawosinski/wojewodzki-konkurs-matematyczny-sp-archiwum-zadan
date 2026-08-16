@@ -88,15 +88,6 @@ function update() {
     .map((q, i) => renderQuestion(q, useInc ? start + i + 1 : null))
     .join("\n");
   reopenReveals(openReveals);
-
-  // print-only key sheet mirrors the questions on the page, in the same order (see @media print)
-  const keyEntries = shownPage
-    .map((q, i) => renderKeyEntry(q, useInc ? start + i + 1 : null))
-    .join("");
-
-  answerkey.innerHTML = shownPage.length
-    ? `<h2>Klucz odpowiedzi</h2>${keyEntries}${keyLegendHtml(keyEntries)}`
-    : "";
   layoutChoices(qlist);
   for (const p of pagers) {
     p.hidden = pages === 1;
@@ -105,9 +96,17 @@ function update() {
     p.querySelector(".next").disabled = page === pages;
   }
 
-  // facet counts (drill-down); ponytail: O(facets × universe) per change, fine at ~3k rows
+  // facet counts (drill-down): one gated pass shared by every facet without its own selection
+  const allCounts = Facets.allFacetCounts(
+    INDEX,
+    countSel,
+    countGate,
+    FACETS.map(f => f.key),
+    universe,
+    andKeys
+  );
   for (const f of FACETS) {
-    const counts = Facets.facetCounts(INDEX, countSel, countGate, f.key, universe, andKeys);
+    const counts = allCounts[f.key];
     const spans = countSpans[f.key];
     for (const v in spans) {
       const n = counts[v] || 0;
@@ -149,6 +148,20 @@ function update() {
   lastMatched = matched;
   lastUseInc = useInc;
   setTitle();
+}
+
+// The print-only key sheet mirrors the questions on the current page, in the same order
+// (see @media print). Built on beforeprint, not on every update — on screen it sits in a
+// display:none section, so rebuilding it per keystroke was pure waste.
+function buildAnswerKey() {
+  const start = (page - 1) * PAGE_SIZE;
+  const shownPage = lastMatched.slice(start, start + PAGE_SIZE);
+  const keyEntries = shownPage
+    .map((q, i) => renderKeyEntry(q, lastUseInc ? start + i + 1 : null))
+    .join("");
+  answerkey.innerHTML = shownPage.length
+    ? `<h2>Klucz odpowiedzi</h2>${keyEntries}${keyLegendHtml(keyEntries)}`
+    : "";
 }
 
 // summary: "<n> zadanie/zadania/zadań [(<k> zaznaczone/zaznaczonych)]". shownCount is cached so
@@ -308,7 +321,7 @@ function wireSearch() {
     writeUrl(had ? false : !!search.value.trim());
     refilter();
   }, 200);
-  inc.oninput = exc.oninput = replace;
+  inc.oninput = exc.oninput = debounce(replace, 200); // id boxes re-filter after the typing burst, like search
   search.addEventListener("input", () => {
     clearSearch.hidden = !search.value;
   }); // instant, not debounced
@@ -650,6 +663,7 @@ function wireToolbar() {
       closePrintMenu();
     }
   });
+  window.addEventListener("beforeprint", buildAnswerKey); // fires for the menu AND Cmd+P
   window.addEventListener("afterprint", () =>
     document.body.classList.remove("print-key", "print-key-only")
   );

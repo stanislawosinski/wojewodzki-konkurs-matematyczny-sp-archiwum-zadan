@@ -5,6 +5,7 @@ const assert = require("node:assert");
 const {
   matchedHashes,
   facetCounts,
+  allFacetCounts,
   progressStatus,
   encodeHash,
   decodeHash
@@ -103,6 +104,20 @@ assert.deepStrictEqual(
   facetCounts(andIndex, andSel({ topic: ["potęgi"] }), yes, "topic", andUni, TOPIC_AND),
   { potęgi: 2, pierwiastki: 0, dowody: 1 }
 );
+
+// allFacetCounts (shared-base fast path) must agree with per-key facetCounts — with a
+// selection (own-base path for topic, shared base for woj), with a gate, and in AND mode
+{
+  const s = sel({ topic: ["potęgi"] });
+  const all = allFacetCounts(index, s, notH1, ["topic", "woj"], universe);
+  assert.deepStrictEqual(all.topic, facetCounts(index, s, notH1, "topic", universe));
+  assert.deepStrictEqual(all.woj, facetCounts(index, s, notH1, "woj", universe));
+  const sAnd = andSel({ topic: ["potęgi"] });
+  assert.deepStrictEqual(
+    allFacetCounts(andIndex, sAnd, yes, ["topic"], andUni, TOPIC_AND).topic,
+    facetCounts(andIndex, sAnd, yes, "topic", andUni, TOPIC_AND)
+  );
+}
 
 // encode/decode round-trips: multi-value facets + special chars (diacritics, '/', spaces) + scalars
 const hashObj = {
