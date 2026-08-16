@@ -319,7 +319,8 @@ h1 {
 #repoLink:hover {
   color: #222;
 }
-#aboutBtn {
+#aboutBtn,
+#tipsBtn {
   border: none;
   background: none;
   font-size: 1.1rem;
@@ -327,9 +328,16 @@ h1 {
   padding: 0 0.15rem;
   cursor: pointer;
   color: #666;
-} /* the ⓘ "O serwisie" trigger, styled like the other topbar glyphs */
-#aboutBtn:hover {
+} /* the ⓘ "O serwisie" / 💡 "Wskazówki" triggers, styled like the other topbar glyphs */
+#aboutBtn:hover,
+#tipsBtn:hover {
   color: #222;
+}
+
+/* the bulb is an inline SVG (currentColor); flex kills the stray baseline gap under it */
+#tipsBtn {
+  display: inline-flex;
+  align-items: center;
 }
 /* "O tym serwisie" panel: a native [popover], centered in the viewport by the UA. Wide,
    scrollable reading card; the close × floats top-right (text wraps under it). */
@@ -1970,6 +1978,7 @@ body.hide-mental .mental-toggle {
   html.dark #snapBtn,
   html.dark #repoLink,
   html.dark #aboutBtn,
+  html.dark #tipsBtn,
   html.dark #filtersBtn {
     color: hsl(var(--tint-h) 10% 62%);
   }
@@ -2006,6 +2015,7 @@ body.hide-mental .mental-toggle {
   html.dark #snapBtn:hover,
   html.dark #repoLink:hover,
   html.dark #aboutBtn:hover,
+  html.dark #tipsBtn:hover,
   html.dark #filtersBtn:hover,
   html.dark #clearSearch:hover,
   html.dark #drawerClose:hover,

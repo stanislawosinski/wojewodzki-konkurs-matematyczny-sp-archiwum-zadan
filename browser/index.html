@@ -93,6 +93,21 @@
           >
             ⓘ
           </button>
+          <button
+            type="button"
+            id="tipsBtn"
+            popovertarget="tipsPop"
+            title="Wskazówki: jak korzystać z serwisu"
+            aria-label="Wskazówki: jak korzystać z serwisu"
+          >
+            <!-- Octicon light-bulb (MIT); currentColor keeps it in sync with the topbar ink -->
+            <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
+              <path
+                fill="currentColor"
+                d="M8 1.5c-2.363 0-4 1.69-4 3.75 0 .984.424 1.625.984 2.304l.214.253c.223.264.47.556.673.848.284.411.537.896.621 1.49a.75.75 0 0 1-1.484.211c-.04-.282-.163-.547-.37-.847a8.456 8.456 0 0 0-.542-.68c-.084-.1-.173-.205-.268-.32C3.201 7.75 2.5 6.766 2.5 5.25 2.5 2.31 4.863 0 8 0s5.5 2.31 5.5 5.25c0 1.516-.701 2.5-1.328 3.259-.095.115-.184.22-.268.319-.207.245-.383.453-.541.681-.208.3-.33.565-.37.847a.751.751 0 0 1-1.485-.212c.084-.593.337-1.078.621-1.489.203-.292.45-.584.673-.848.075-.088.147-.173.213-.253.561-.679.985-1.32.985-2.304 0-2.06-1.637-3.75-4-3.75ZM5.75 12h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM6 15.25a.75.75 0 0 1 .75-.75h2.5a.75.75 0 0 1 0 1.5h-2.5a.75.75 0 0 1-.75-.75Z"
+              />
+            </svg>
+          </button>
           <span class="tb-sep" aria-hidden="true"></span>
           <button
             type="button"
@@ -271,6 +286,82 @@
         </nav>
       </main>
     </div>
+    <!-- "Wskazówki": same native-[popover] pattern as #aboutPop below; shares the about-* styles. -->
+    <div id="tipsPop" popover class="about-pop">
+      <button
+        type="button"
+        class="about-close"
+        popovertarget="tipsPop"
+        popovertargetaction="hide"
+        aria-label="Zamknij"
+        title="Zamknij"
+      >
+        ×
+      </button>
+      <div class="about-body">
+        <h2>Jak korzystać z serwisu</h2>
+
+        <h3>Budowanie własnego zestawu</h3>
+        <ul>
+          <li>
+            <strong>Filtry</strong>
+            po lewej zawężają listę: województwo, etap, rok, tematy, zadania z rysunkiem, z kluczem
+            odpowiedzi itd.
+          </li>
+          <li>
+            Zaznacz ciekawe zadania checkboxem przy zadaniu, a potem kliknij
+            <em>Zaznaczone ↑</em>
+            — lista ograniczy się do wybranych zadań.
+          </li>
+          <li>
+            Kolejność zadań zmienisz strzałkami ▾ przy zadaniu, a tytuł zestawu — klikając go nad
+            listą.
+          </li>
+        </ul>
+
+        <h3>Wydruk</h3>
+        <ul>
+          <li>
+            Trzy warianty: <em>Drukuj</em> (bez klucza), <em>Drukuj z odpowiedziami</em> i
+            <em>Drukuj sam klucz</em>.
+          </li>
+          <li>
+            W ustawieniach ⚙ wybierzesz, co drukować przy zadaniach, oraz brudnopis: automatyczny,
+            pół strony, cała strona lub druk ciągły; opcjonalnie w kratkę.
+          </li>
+          <li>
+            Ustawienia można nadpisać dla pojedynczego zadania — przyciski przy zadaniu zmieniają
+            wielkość rysunku (− / +), format rysunku (PNG/SVG), brudnopis tego zadania i znacznik „w
+            pamięci”.
+          </li>
+        </ul>
+
+        <h3>Linki do udostępniania</h3>
+        <p>
+          Adres strony (URL) zawiera cały stan widoku: filtry, wybrane zadania, ich kolejność i
+          tytuł zestawu. Wystarczy dodać go do zakładek albo wysłać komuś — odbiorca zobaczy
+          dokładnie ten sam zestaw.
+        </p>
+
+        <h3>Trening liczenia w pamięci</h3>
+        <p>
+          Filtr <em>W pamięci</em> i znaczniki 🧠 (policzysz od ręki) / 💡 (wystarczy jeden pomysł)
+          wskazują zadania, które da się rozwiązać bez notowania — premiują spryt i spostrzeżenia
+          zamiast długich rachunków. Kliknięcie znacznika pokazuje podpowiedź, od czego zacząć, bez
+          zdradzania wyniku.
+        </p>
+
+        <h3>Praca na ekranie</h3>
+        <ul>
+          <li>
+            Na telefonie tryb kartkowy □ pokazuje jedno zadanie na ekran — wygodny do rozwiązywania
+            po kolei.
+          </li>
+          <li>Odpowiedź do zadania odsłonisz ikoną 👁 — dopiero gdy chcesz ją zobaczyć.</li>
+          <li>Kliknięcie id zadania kopiuje je do schowka — np. do pola „Pokaż tylko id”.</li>
+        </ul>
+      </div>
+    </div>
     <!-- "O tym serwisie": native [popover], centered by the UA. Light-dismiss + Escape are
          built in, so no JS. Static trusted HTML (no data interpolation → no esc()). -->
     <div id="aboutPop" popover class="about-pop">
@@ -312,7 +403,8 @@
           <li>
             ocenę, które zadania da się rozwiązać w pamięci — agent rozwiązywał każde zadanie i
             rozstrzygał, czy uczeń poradzi sobie bez zapisywania czegokolwiek &ndash; zobacz filtr
-            <em>W pamięci</em> i znaczniki 🧠 / 💡 przy zadaniach.
+            <em>W pamięci</em>
+            i znaczniki 🧠 / 💡 przy zadaniach.
           </li>
         </ol>
 
