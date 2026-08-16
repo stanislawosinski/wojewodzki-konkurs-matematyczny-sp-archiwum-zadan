@@ -16,10 +16,17 @@ korpusu przeprowadzony na nowo (skrypt jednorazowy, wyniki niżej).
 
 - **Zero twardych błędów**: brak duplikatów id, brak brakujących PNG na dysku, brak
   artefaktów fontowych (`Ŝ`), `total_questions` == liczba zadań we wszystkich 433 plikach.
-- **Suma punktów ≠ `max_points` w 2 plikach — do sprawdzenia z PDF-em** (jedyne 2 na 433):
-  - `rejonowy_2012_podlaskie_sp` — suma 31 vs `max_points` 30;
-  - `wojewodzki_2011_podlaskie_gim` — suma 42 vs `max_points` 45.
-  Albo błąd ekstrakcji (`points` lub `max_points`), albo tak drukował arkusz.
+- **Suma punktów ≠ `max_points` w 2 plikach — SPRAWDZONE Z PDF-AMI (2026-08-16),
+  ekstrakcja poprawna, nic nie zmieniać** (jedyne 2 na 433; oba bez klucza):
+  - `rejonowy_2012_podlaskie_sp` — suma 31 vs 30: drukowane punkty zgadzają się
+    z ekstrakcją (13–15 „po 2 punkty", 17: 0–4, 18: 0–3, 19: 0–4). Drukowane „Razem
+    30 punktów" jest wewnętrznie niemożliwe — zad. 16 jest otwarte bez przypisanej
+    wartości, a własna reguła arkusza mówi „otwarte 2, 3 lub 4 punkty", więc suma
+    ≥ 31. Błąd druku arkusza.
+  - `wojewodzki_2011_podlaskie_gim` — suma 42 vs 45: wszystkie drukowane wartości
+    (14–16: 0–3, 17–18: 0–4, 19–20: 0–6) zgadzają się; zadania zamknięte 1–13
+    (wielokrotnego wyboru) nie mają drukowanej punktacji nigdzie w arkuszu.
+    Przyjęte po 1 pkt daje 42; skąd 45 — nie da się ustalić ze źródła.
 - **„5 osieroconych PNG" — FAŁSZYWY ALARM (sprawdzone 2026-08-16, nic nie kasować).**
   `rejonowy_2020_lubuskie_q25_fig{2..5}.png` i `wojewodzki_2023-2024_pomorskie_q1_fig1.png`
   są referencjonowane inline jako `<img src="figures/…">` w `choices[].html` (siatki
@@ -35,7 +42,8 @@ korpusu przeprowadzony na nowo (skrypt jednorazowy, wyniki niżej).
 ## 2. Opisy — luki w SCHEMA.md
 
 README jest aktualne (mental pass, przykłady `jq` — obie wczorajsze pozycje domknięte).
-SCHEMA.md nie dogonił danych:
+SCHEMA.md nie dogonił danych — **wszystkie trzy luki domknięte (2026-08-16)**, plus
+odświeżone drzewo plików i nazewnictwo po konsolidacji `data/`:
 
 - **`school_type`** (`podstawowa` 420 · `gimnazjum` 13) — pole jest w każdym pliku,
   w tabeli obiektu testu go nie ma.
@@ -91,9 +99,11 @@ Posortowane wg wartość/koszt:
 
 - **Szukaj bez ogonków** (~5 linii): search nie zwija diakrytyków — „trojkat" nie
   znajdzie „trójkąt". Złożyć NFD + mapka `ł→l` po obu stronach (`q._search` i termy).
-  Tanie, realna wygoda przy szybkim pisaniu.
+  Tanie, realna wygoda przy szybkim pisaniu. **ZROBIONE** (2026-08-16,
+  `foldDiacritics` w `app.js`).
 - **„Wylosuj N zadań"** z aktualnych filtrów — jednoprzyciskowy generator kartkówki;
-  średni koszt, wysoka wartość dla trenowania. Do decyzji.
+  średni koszt, wysoka wartość dla trenowania. **ZROBIONE** (2026-08-16, „🎲 Wylosuj";
+  razem z późniejszym facetem „Postęp" składa się w „wylosuj N nierozwiązanych").
 - Znacznik duplikatów — razem z §3.2, nie osobno. **ZROBIONE** — chip ×N, dla wariantów
   liczbowych osobny chip ~N, plus facet „Powtórki" (Z duplikatem / Z wariantem;
   klucz URL `powt`) (2026-08-16).
