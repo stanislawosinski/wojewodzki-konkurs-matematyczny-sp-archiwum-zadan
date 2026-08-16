@@ -2,7 +2,13 @@
 
 // Run: node browser/facets.test.cjs   (exits 0 on success)
 const assert = require("node:assert");
-const { matchedHashes, facetCounts, encodeHash, decodeHash } = require("./facets.js");
+const {
+  matchedHashes,
+  facetCounts,
+  progressStatus,
+  encodeHash,
+  decodeHash
+} = require("./facets.js");
 
 // 4 questions across two facets (2 topics x 2 województwa)
 const index = {
@@ -113,5 +119,18 @@ assert.deepStrictEqual(decodeHash(encodeHash({ bogus: ["x"] })), { bogus: ["x"] 
 // empty object -> empty string -> empty object
 assert.strictEqual(encodeHash({}), "");
 assert.deepStrictEqual(decodeHash(""), {});
+
+// --- progressStatus: own mark > duplicate's mark ('blad' outranking 'zrob') > 'nie'.
+// q.dup carries the full cluster, self included — self is skipped (no own mark = checked first).
+const marks = new Map([
+  ["h1", { s: "zrob" }],
+  ["h2", { s: "blad" }]
+]);
+assert.strictEqual(progressStatus("h1", null, marks), "zrob"); // own mark, no cluster
+assert.strictEqual(progressStatus("h9", null, marks), "nie"); // unmarked, no cluster
+assert.strictEqual(progressStatus("h2", ["h2", "h1"], marks), "blad"); // own mark beats the duplicate's
+assert.strictEqual(progressStatus("h9", ["h9", "h1"], marks), "zrob"); // inherited from the duplicate
+assert.strictEqual(progressStatus("h9", ["h9", "h1", "h2"], marks), "blad"); // 'blad' outranks 'zrob'
+assert.strictEqual(progressStatus("h9", ["h9", "h8"], marks), "nie"); // cluster wholly unmarked
 
 console.log("facets.test.cjs: all assertions passed");

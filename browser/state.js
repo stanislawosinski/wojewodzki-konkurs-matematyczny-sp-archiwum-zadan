@@ -60,6 +60,31 @@ const figSizeOverrides = new Map(); // hash -> nonzero int step; per-question fi
 const mentalOverrides = new Map(); // hash -> 'on' | 'off'; per-question "W pamięci" marker override, display only (the data and the pamiec facet are untouched). Serialized to the hash (keys "pt"/"pn").
 const scratchMode = () => document.querySelector('input[name="pageMode"]:checked').value;
 
+// ✓/✗ progress marks: hash -> { s: 'zrob' | 'blad', d: 'YYYY-MM-DD' }. Device data with its
+// own localStorage key — deliberately outside 'zadania-settings' (so tinkering with settings
+// can never wipe training history) and outside the URL (sharing a sheet must not carry
+// anyone's progress). Marks for hashes absent from this build are kept: they may come back
+// with a data update, and an import from another device must round-trip losslessly.
+const PROGRESS_KEY = "zadania-progress";
+const progressMarks = new Map();
+try {
+  const stored = JSON.parse(localStorage.getItem(PROGRESS_KEY) || "{}");
+  for (const h of Object.keys(stored)) {
+    if (stored[h] && (stored[h].s === "zrob" || stored[h].s === "blad")) {
+      progressMarks.set(h, { s: stored[h].s, d: stored[h].d });
+    }
+  }
+} catch (_e) {
+  // localStorage blocked or corrupt → start unmarked
+}
+function saveProgress() {
+  try {
+    localStorage.setItem(PROGRESS_KEY, JSON.stringify(Object.fromEntries(progressMarks)));
+  } catch (_e) {
+    // localStorage blocked → marks won't survive a reload
+  }
+}
+
 // Sheet title (the .sheet-title header + document.title). titleOverride = a user-typed title
 // (sticky, wins over auto); null = derive it. lastMatched/lastUseInc cache update()'s result so a
 // title edit can refresh without a re-render. See computeTitle / setTitle.
@@ -150,6 +175,17 @@ function buildIndexFromData() {
     }
   }
   return idx;
+}
+
+// The Postęp facet indexes device state (progressMarks), not the data, so its INDEX slice
+// is recomputed after every mark change — the rest of INDEX stays static per session.
+// Seeding all three buckets (even empty) keeps every checkbox present from the first render.
+function rebuildProgressIndex() {
+  const f = FACETS.find(x => x.key === "post");
+  INDEX.post = { zrob: [], blad: [], nie: [] };
+  for (const q of DATA) {
+    INDEX.post[f.values(q)[0]].push(q.hash);
+  }
 }
 
 // the hashes of the print-selected questions, in original document order

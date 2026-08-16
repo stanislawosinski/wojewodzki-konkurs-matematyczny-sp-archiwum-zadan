@@ -308,6 +308,25 @@
         </nav>
       </main>
     </div>
+    <!-- Postęp import/eksport: a small native [popover] card opened by the ⇄ button in the
+         Postęp facet header (built in render.js). Light-dismiss + Escape are built in, so no JS. -->
+    <div id="progPop" popover class="prog-pop">
+      <h4>Oznaczenia postępu</h4>
+      <p class="hint">
+        oznaczenia ✓/✗ są zapisywane w tej przeglądarce; skopiuj je stąd i wklej na innym
+        urządzeniu, aby je przenieść
+      </p>
+      <textarea
+        id="progressIO"
+        rows="3"
+        aria-label="Oznaczenia postępu do przeniesienia"
+      ></textarea>
+      <div class="selrow">
+        <button type="button" id="progExport">Eksportuj</button>
+        <button type="button" id="progImport">Importuj</button>
+      </div>
+      <p class="hint" id="progIOStatus"></p>
+    </div>
     <!-- "Wskazówki": same native-[popover] pattern as #aboutPop below; shares the about-* styles. -->
     <div id="tipsPop" popover class="about-pop">
       <button
@@ -361,6 +380,24 @@
             Ustawienia można nadpisać dla pojedynczego zadania — przyciski przy zadaniu zmieniają
             wielkość rysunku (− / +), format rysunku (PNG/SVG), brudnopis tego zadania i znacznik „w
             pamięci”.
+          </li>
+        </ul>
+
+        <h3>Śledzenie postępu</h3>
+        <ul>
+          <li>
+            Przycisk ✓ przy zadaniu oznacza je jako zrobione; drugie kliknięcie zmienia oznaczenie
+            na ✗ (do poprawy — warte ponownego podejścia), trzecie je zdejmuje. Filtr
+            <em>Postęp</em>
+            pokaże np. tylko zadania jeszcze nie ruszone.
+          </li>
+          <li>
+            Link <em>✓ widoczne</em> obok filtra Postęp oznacza cały aktualny zestaw naraz — np. po
+            sprawdzeniu wydrukowanej kartkówki.
+          </li>
+          <li>
+            Oznaczenia są zapisywane w przeglądarce (nie w linku); linkiem ⇄ obok filtra Postęp
+            przeniesiesz je na inne urządzenie.
           </li>
         </ul>
 

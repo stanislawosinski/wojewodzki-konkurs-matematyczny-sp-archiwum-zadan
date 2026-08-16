@@ -127,6 +127,26 @@
     return counts;
   }
 
+  // Progress status of one question ("Postęp" facet value): its own ✓/✗ mark wins; else a
+  // mark inherited from an exact duplicate (dup = the full cluster's hashes, self included —
+  // the same question reprinted elsewhere is not new work). Among duplicates 'blad' outranks
+  // 'zrob', so an error anywhere in the cluster keeps the question in the redo pile.
+  //   marks = Map<hash, {s: 'zrob'|'blad'}>  ->  'zrob' | 'blad' | 'nie'
+  function progressStatus(hash, dup, marks) {
+    const own = marks.get(hash);
+    if (own) {
+      return own.s;
+    }
+    let s = "nie";
+    for (const h of dup || []) {
+      const m = marks.get(h);
+      if (m && (s === "nie" || m.s === "blad")) {
+        s = m.s;
+      }
+    }
+    return s;
+  }
+
   // URL-fragment (de)serialization. Generic: no facet knowledge, so it stays pure/testable.
   //   obj = { key: [value, ...] }  <->  "key=value&key=value2&..." (URLSearchParams-encoded)
   function encodeHash(obj) {
@@ -147,5 +167,5 @@
     return o;
   }
 
-  return { matchedHashes, facetCounts, encodeHash, decodeHash };
+  return { matchedHashes, facetCounts, progressStatus, encodeHash, decodeHash };
 });

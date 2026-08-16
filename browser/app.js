@@ -229,11 +229,54 @@ function wireFacets() {
     // "(wyczyść)" next to the topic selected-count
     if (e.target.closest(".topic-clear")) {
       clearTopicSelection();
+      return;
+    }
+
+    // "✓ widoczne" in the Postęp header (its ⇄ neighbour is pure popovertarget, no JS)
+    if (e.target.closest(".prog-markall")) {
+      markAllDone();
     }
   });
 
   // in-tree topic search: purely visual (hide/highlight rows); never touches the filter or URL
   topicSearchEl.oninput = () => filterTopicTree(topicSearchEl.value.trim());
+
+  // Postęp export/import (the ⇄ popover): the ✓/✗ marks as JSON in a textarea — the
+  // lifeboat for moving progress between devices (localStorage is per-browser). Import
+  // merges: pasted marks win per question, everything else is kept; malformed entries are
+  // dropped, not imported.
+  $("progExport").onclick = e => {
+    const ta = $("progressIO");
+    ta.value = JSON.stringify(Object.fromEntries(progressMarks));
+    ta.select();
+    copyText(ta.value);
+    flashCopied(e.currentTarget);
+    const n = progressMarks.size;
+    $("progIOStatus").textContent = `Skopiowano ${n} ${pluralMarks(n)} do schowka.`;
+  };
+  $("progImport").onclick = () => {
+    let o = null;
+    try {
+      o = JSON.parse($("progressIO").value);
+    } catch (_e) {
+      // fall through to the format complaint below
+    }
+    if (!o || typeof o !== "object" || Array.isArray(o)) {
+      $("progIOStatus").textContent = "Nieprawidłowy format — wklej tu wynik „Eksportuj”.";
+      return;
+    }
+    let n = 0;
+    for (const h of Object.keys(o)) {
+      if (o[h] && (o[h].s === "zrob" || o[h].s === "blad")) {
+        progressMarks.set(h, { s: o[h].s, d: o[h].d });
+        n++;
+      }
+    }
+    $("progIOStatus").textContent = `Wczytano ${n} ${pluralMarks(n)}.`;
+    saveProgress();
+    rebuildProgressIndex();
+    update();
+  };
 }
 
 function wireSearch() {
@@ -287,7 +330,8 @@ const PIN_BUTTONS = [
   [".mental-toggle", toggleMentalMark],
   [".figsize", adjustFigureSize],
   [".dupmark", b => showCluster(b, "dup")], // not pins, but dispatched the same way
-  [".simmark", b => showCluster(b, "sim")]
+  [".simmark", b => showCluster(b, "sim")],
+  [".progmark", toggleProgressMark] // the ✓/✗ header chip — also not a pin
 ];
 
 // ×N duplicate / ~N variant chip: show the whole cluster as an explicit id list;
@@ -473,6 +517,40 @@ function toggleMentalMark(btn) {
   btn.title = mentalBtnTitle(data);
   btn.classList.toggle("on", mentalOverrides.has(h));
   writeUrl(false);
+}
+
+// ✓/✗ progress chip: 3-state cycle none → zrobione → do poprawy → none. Device data
+// (saveProgress), never the URL. The Postęp INDEX slice is derived from the marks, so
+// refresh it and re-run update() — with the Postęp facet filtering, the marked question
+// drops out of view right away (mark-as-you-go through the "Do zrobienia" pile).
+function toggleProgressMark(btn) {
+  const h = btn.closest(".q").dataset.hash;
+  const next = PROG_NEXT[progressMarks.get(h)?.s || ""];
+  if (next) {
+    progressMarks.set(h, { s: next, d: todayISO() });
+  } else {
+    progressMarks.delete(h);
+  }
+  saveProgress();
+  rebuildProgressIndex();
+  update();
+}
+
+// "✓ widoczne" (the Postęp facet header): stamp every question of the current sheet (all
+// pages) as zrobione. Unmarked ones only — an existing ✗ must survive a blanket "we did
+// this sheet". No confirmation: nothing is overwritten and a slip is undone per question.
+function markAllDone() {
+  const fresh = lastMatched.filter(q => !progressMarks.has(q.hash));
+  if (!fresh.length) {
+    return;
+  }
+  const d = todayISO();
+  for (const q of fresh) {
+    progressMarks.set(q.hash, { s: "zrob", d });
+  }
+  saveProgress();
+  rebuildProgressIndex();
+  update();
 }
 
 function reorderIdList(btn) {
@@ -912,6 +990,7 @@ function init(data) {
     byHash[q.hash] = q;
   }
   INDEX = buildIndexFromData();
+  rebuildProgressIndex(); // re-derive the Postęp slice with all three buckets seeded
   universe = new Set(Object.keys(byHash));
   buildFacetUI();
   topicSearchEl = facetsEl.querySelector(".topic-search");

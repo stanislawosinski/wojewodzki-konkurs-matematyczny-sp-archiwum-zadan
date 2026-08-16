@@ -357,6 +357,37 @@ h1 {
 .about-pop::backdrop {
   background: rgba(0, 0, 0, 0.4);
 }
+/* Postęp import/eksport: a small native [popover] card, UA-centered — the same construction
+   as .about-pop, sized down to one textarea. Opened by the ⇄ button in the Postęp facet header. */
+.prog-pop {
+  width: min(24rem, calc(100vw - 2rem));
+  padding: 1rem 1.2rem;
+  border: 1px solid #e2e2e2;
+  border-radius: 8px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
+  background: var(--surface);
+  color: #333;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+.prog-pop::backdrop {
+  background: rgba(0, 0, 0, 0.4);
+}
+.prog-pop h4 {
+  margin: 0 0 0.5rem;
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #999;
+}
+.prog-pop .hint {
+  margin: 0 0 0.5rem;
+  font-size: 0.7rem;
+  color: #999;
+  line-height: 1.3;
+}
+#progIOStatus {
+  margin: 0.4rem 0 0;
+}
 .about-close {
   float: right;
   border: none;
@@ -735,7 +766,8 @@ select {
    same problem with different numbers) on other sheets; hover lists them, click swaps the
    view to the whole cluster (screen-only, hidden in print) */
 .dupmark,
-.simmark {
+.simmark,
+.progmark {
   border: 1px solid var(--border);
   border-radius: 8px;
   background: none;
@@ -745,9 +777,23 @@ select {
   color: #888;
 }
 .dupmark:hover,
-.simmark:hover {
+.simmark:hover,
+.progmark:hover {
   color: #333;
   border-color: var(--border-strong);
+}
+
+/* the ✓/✗ progress chip: grey ✓ = unmarked (click to mark), green ✓ = zrobione,
+   red ✗ = do poprawy (zrobione z błędem) */
+.progmark.zrob {
+  color: #161;
+  border-color: #8c8;
+  background: #eef8ee;
+}
+.progmark.blad {
+  color: #a1160a;
+  border-color: #c66;
+  background: #fdeeee;
 }
 .hide-ai .facet[data-facet="weryf"] {
   display: none;
@@ -1078,6 +1124,28 @@ select {
   width: auto;
   margin: 0;
 }
+
+/* Postęp header actions ("✓ widoczne", ⇄): right-aligned like .topic-mode, link-styled
+   like .topic-clear (underline only on hover) */
+.prog-actions {
+  margin-left: auto;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  font-size: 0.72rem;
+  font-weight: normal;
+}
+.prog-actions button {
+  border: none;
+  background: none;
+  padding: 0;
+  font: inherit;
+  color: #777;
+  cursor: pointer;
+}
+.prog-actions button:hover {
+  text-decoration: underline;
+}
 /* specificity beats .sidebar input[type="text"] (font: inherit → 16px) so the small size sticks */
 .sidebar input[type="text"].topic-search {
   width: 100%;
@@ -1138,6 +1206,16 @@ select {
   height: 8em;
   box-sizing: border-box;
   margin-top: 0.15rem;
+  padding: 0.3rem;
+  resize: vertical;
+}
+
+/* the Postęp export/import textarea in the settings popup — same construction as #include */
+#progressIO {
+  font-family: monospace;
+  font-size: 0.7rem;
+  width: 100%;
+  box-sizing: border-box;
   padding: 0.3rem;
   resize: vertical;
 }
@@ -1517,9 +1595,10 @@ body.hide-mental .mental-toggle {
     display: none;
   } /* the marker override control never prints (its effect does) */
   .dupmark,
-  .simmark {
+  .simmark,
+  .progmark {
     display: none;
-  } /* the duplicate/variant chips are navigation, not sheet content */
+  } /* the duplicate/variant/progress chips are navigation, not sheet content */
   .infotip {
     display: none;
   } /* an open popover (marker hint, facet ⓘ) would overlay the printed text */
@@ -2054,6 +2133,9 @@ body.hide-mental .mental-toggle {
   html.dark .cat-l,
   html.dark .topic-count,
   html.dark .topic-clear,
+  html.dark .prog-actions button,
+  html.dark .prog-pop h4,
+  html.dark .prog-pop .hint,
   html.dark .answer.nokey,
   html.dark .settings-pop h4,
   html.dark .settings-pop .hint,
@@ -2065,6 +2147,7 @@ body.hide-mental .mental-toggle {
   html.dark .hash,
   html.dark .dupmark,
   html.dark .simmark,
+  html.dark .progmark,
   html.dark .qmeta .tag.ctx,
   html.dark .info-i {
     color: hsl(var(--tint-h) 9% 52%);
@@ -2086,7 +2169,8 @@ body.hide-mental .mental-toggle {
   html.dark .scratch-toggle:hover,
   html.dark .svgtoggle:hover,
   html.dark .dupmark:hover,
-  html.dark .simmark:hover {
+  html.dark .simmark:hover,
+  html.dark .progmark:hover {
     color: hsl(var(--tint-h) 14% 84%);
     border-color: hsl(var(--tint-h) 12% 50%);
   }
@@ -2120,7 +2204,8 @@ body.hide-mental .mental-toggle {
   /* text fields: a recessed, tinted well + tinted border instead of the flat UA dark-grey */
   html.dark .sidebar input[type="text"],
   html.dark .sidebar input[type="number"],
-  html.dark #include {
+  html.dark #include,
+  html.dark #progressIO {
     background: hsl(var(--tint-h) 24% 10.5%);
     border: 1px solid hsl(var(--tint-h) 20% 30%);
     color: hsl(var(--tint-h) 14% 85%);
@@ -2135,11 +2220,13 @@ body.hide-mental .mental-toggle {
   html.dark .settings-pop::before,
   html.dark .infotip,
   html.dark .infotip::before,
-  html.dark .about-pop {
+  html.dark .about-pop,
+  html.dark .prog-pop {
     border-color: hsl(var(--tint-h) 12% 28%);
   }
   /* .about-pop hard-codes #333/#444 body ink (dark on dark = invisible); lift to the body text */
   html.dark .about-pop,
+  html.dark .prog-pop,
   html.dark .about-body p,
   html.dark .about-body li,
   html.dark .about-xlink button {
@@ -2172,10 +2259,16 @@ body.hide-mental .mental-toggle {
   html.dark .reveal[open] > summary,
   html.dark .scratch-toggle.on,
   html.dark .mental-toggle.on,
-  html.dark .svgtoggle.on {
+  html.dark .svgtoggle.on,
+  html.dark .progmark.zrob {
     border-color: hsl(130 26% 38%);
     background: hsl(130 24% 15%);
     color: hsl(130 40% 64%);
+  }
+  html.dark .progmark.blad {
+    border-color: hsl(6 45% 46%);
+    background: hsl(6 30% 15%);
+    color: hsl(6 72% 66%);
   }
   html.dark .reorder.remove:hover {
     border-color: hsl(6 45% 46%);

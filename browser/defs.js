@@ -64,6 +64,25 @@ const MENTAL_TITLE = {
   pomysl: "W pamięci — jedno spostrzeżenie i zadanie się zwija"
 };
 
+// "Postęp": the user's own ✓/✗ marks. Facet values are wire format (URL hash key "post");
+// the marks themselves live in localStorage (progressMarks, state.js), never in the URL.
+// The chip cycles none → zrob → blad → none.
+const PROG_LABELS = { zrob: "Zrobione", blad: "Do poprawy", nie: "Do zrobienia" };
+const PROG_GLYPH = { zrob: "✓", blad: "✗", "": "✓" };
+const PROG_NEXT = { "": "zrob", zrob: "blad", blad: "" };
+const progTitle = m =>
+  m
+    ? m.s === "zrob"
+      ? `Zrobione${m.d ? ` ${m.d}` : ""} — kliknij: ✗ do poprawy`
+      : `Do poprawy — zrobione z błędem${m.d ? ` ${m.d}` : ""} — kliknij, aby zdjąć oznaczenie`
+    : "Oznacz jako zrobione (drugi klik: ✗ do poprawy)";
+
+// local calendar date, stamped on progress marks (toISOString would flip to the UTC date around midnight)
+const todayISO = () => {
+  const t = new Date();
+  return `${t.getFullYear()}-${String(t.getMonth() + 1).padStart(2, "0")}-${String(t.getDate()).padStart(2, "0")}`;
+};
+
 // explanations behind the ⓘ info icons; `_` is the facet-header note. Only facets/values listed here get an icon.
 const FACET_INFO = {
   weryf: {
@@ -90,6 +109,12 @@ const FACET_INFO = {
     wariant:
       "Ten sam schemat zadania z innymi liczbami (lub w innym ujęciu) na innym arkuszu — rozwiązanie go to nadal świeży trening — chip ~N."
   },
+  post: {
+    _: "Twój postęp: oznaczaj zadania przyciskiem ✓ przy zadaniu (drugi klik: ✗ do poprawy), a „✓ widoczne” oznacza cały aktualny zestaw naraz. Oznaczenia są zapisywane w tej przeglądarce, nie w linku; przeniesiesz je na inne urządzenie linkiem ⇄ obok.",
+    zrob: "Zadania oznaczone ✓. Dokładny duplikat zrobionego zadania (chip ×N) też liczy się jako zrobiony.",
+    blad: "Zadania oznaczone ✗ — zrobione z błędem, warte ponownego podejścia.",
+    nie: "Zadania bez oznaczenia ✓/✗."
+  },
   pamiec: {
     _: "Zadania do policzenia bez kartki. Każde zadanie zostało w tym celu rozwiązane przez AI, która oceniła, czy da się je zrobić w głowie — nie decyduje o tym ani długość treści, ani wielkość liczb. Przy zadaniu jest 🧠/💡 i podpowiedź, od czego zacząć.",
     wprost:
@@ -110,6 +135,18 @@ const keylessVerif = (q, m) => {
   return m.corroborated === false ? ["bezklucza", "niepewne"] : ["bezklucza"];
 };
 const FACETS = [
+  // first, right under the "Pokaż tylko id" box — the daily-driver during training
+  {
+    key: "post",
+    label: "Postęp",
+
+    // the user's own ✓/✗ marks (progressMarks — device state, not the data; this facet's
+    // INDEX slice is rebuilt on every change, see rebuildProgressIndex); a mark on an
+    // exact duplicate counts too — the same question reprinted is not new work
+    values: q => [Facets.progressStatus(q.hash, q.dup, progressMarks)],
+    order: ["zrob", "blad", "nie"],
+    labelFor: v => PROG_LABELS[v] || v
+  },
   { key: "topic", label: "Temat", values: q => q.topics || [] },
   { key: "etap", label: "Etap", values: q => [q.stage], order: STAGES },
   { key: "woj", label: "Województwo", values: q => [q.wojewodztwo] },
@@ -319,6 +356,7 @@ const isPolishFew = n => n % 10 >= 2 && n % 10 <= 4 && !(n % 100 >= 12 && n % 10
 const pluralQuestions = n => (n === 1 ? "zadanie" : isPolishFew(n) ? "zadania" : "zadań");
 const pluralSelected = n => (n === 1 || isPolishFew(n) ? "zaznaczone" : "zaznaczonych");
 const pluralTopics = n => (n === 1 ? "temat" : isPolishFew(n) ? "tematy" : "tematów");
+const pluralMarks = n => (n === 1 ? "oznaczenie" : isPolishFew(n) ? "oznaczenia" : "oznaczeń");
 
 const debounce = (fn, ms) => {
   let t;

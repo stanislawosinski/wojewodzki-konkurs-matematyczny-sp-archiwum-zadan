@@ -150,7 +150,19 @@ function buildFacetUI() {
       continue;
     }
     const info = FACET_INFO[f.key] || {};
-    box.innerHTML = `<div class="facet-h">${esc(f.label)}${infoIcon(info._)}</div>`;
+
+    // the Postęp header carries its two actions, right-aligned like the Temat mode toggle:
+    // "✓ widoczne" stamps the whole current sheet (wired in app.js, no confirmation — only
+    // unmarked questions change, so a slip is cheap to undo per question); ⇄ opens the
+    // native import/export popover (#progPop, index.html) — no JS, popovertarget does it
+    const actions =
+      f.key === "post"
+        ? `<span class="prog-actions">` +
+          `<button type="button" class="prog-markall" title="Oznacz wszystkie zadania z aktualnej listy jako zrobione (✓); nadane już oznaczenia ✓/✗ zostają">✓ widoczne</button>` +
+          `<button type="button" class="prog-xfer" popovertarget="progPop" title="Przenieś oznaczenia na inne urządzenie (eksport / import)">⇄</button>` +
+          `</span>`
+        : "";
+    box.innerHTML = `<div class="facet-h">${esc(f.label)}${infoIcon(info._)}${actions}</div>`;
     const ul = document.createElement("ul");
     ul.className = "facet-list";
     for (const entry of facetEntries(f, Object.keys(INDEX[f.key] || {}))) {
@@ -470,6 +482,17 @@ function simMarkHtml(q) {
   return `<button type="button" class="simmark" title="${esc(title)}" aria-label="pokaż wszystkie warianty zadania">~${q.sim.length}</button>`;
 }
 
+// The ✓/✗ progress chip, after the dup/sim chips: click cycles none → ✓ zrobione →
+// ✗ do poprawy → none (persisted in progressMarks). A header chip, not a gutter pin, so it
+// stays tappable on phones, where the whole gutter is hidden. Shows the question's OWN mark
+// only; a mark inherited from a duplicate affects the Postęp facet (progressStatus), not
+// this chip — the facet ⓘ explains that rule.
+function progMarkHtml(q) {
+  const m = progressMarks.get(q.hash),
+    s = m ? m.s : "";
+  return `<button type="button" class="progmark${s ? ` ${s}` : ""}" title="${esc(progTitle(m))}" aria-label="oznacz postęp zadania">${PROG_GLYPH[s]}</button>`;
+}
+
 // the left-gutter block (select box + optional reorder arrows) and the three per-question
 // pin buttons ("w pamięci" marker, brudnopis size, figure format) that sit beside the question body
 function questionControlsHtml(q, seq, half, override, figFmt, figDefault) {
@@ -644,6 +667,7 @@ function renderQuestion(q, seq) {
       mentalMarkHtml(q) +
       dupMarkHtml(q) +
       simMarkHtml(q) +
+      progMarkHtml(q) +
       `<span class="qmeta">${metaHtml}</span></div>`,
     `<div class="prompt">${q.prompt_html}</div>`,
     figuresHtml(q, figFmt),
