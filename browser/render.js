@@ -429,21 +429,32 @@ const mentalBtnTitle = q =>
     ? "Znacznik „w pamięci” włączony — kliknij, aby zdjąć go z tego zadania"
     : "Znacznik „w pamięci” wyłączony — kliknij, aby oznaczyć to zadanie";
 
-// The ×N duplicate chip: this exact question (same text and choices) appears on other sheets
-// too — build.mjs stamps the whole cluster's hashes into q.dup. Hover lists the other sheets;
-// click shows the cluster via "Pokaż tylko id" (wired in app.js).
-function dupMarkHtml(q) {
-  if (!q.dup) {
-    return "";
-  }
-  const others = q.dup
+// The ×N duplicate chip (the same question on other sheets) and the ~N variant chip (the
+// same problem with different numbers) — build.mjs stamps the cluster's hashes into
+// q.dup / q.sim. Hover lists the other sheets; click shows the cluster via "Pokaż tylko id"
+// (wired in app.js).
+const clusterSheets = (q, hashes) =>
+  hashes
     .filter(h => h !== q.hash)
     .map(h => byHash[h])
     .filter(Boolean)
     .map(s => `${s.wojewodztwo} ${s.school_year} (${s.stage})`)
     .join(", ");
-  const title = `To samo zadanie występuje też w: ${others} — kliknij, aby zobaczyć wszystkie wystąpienia`;
+
+function dupMarkHtml(q) {
+  if (!q.dup) {
+    return "";
+  }
+  const title = `To samo zadanie występuje też w: ${clusterSheets(q, q.dup)} — kliknij, aby zobaczyć wszystkie wystąpienia`;
   return `<button type="button" class="dupmark" title="${esc(title)}" aria-label="pokaż wszystkie wystąpienia zadania">×${q.dup.length}</button>`;
+}
+
+function simMarkHtml(q) {
+  if (!q.sim) {
+    return "";
+  }
+  const title = `Wariant tego zadania (inne liczby lub inne ujęcie) występuje w: ${clusterSheets(q, q.sim)} — kliknij, aby zobaczyć wszystkie warianty`;
+  return `<button type="button" class="simmark" title="${esc(title)}" aria-label="pokaż wszystkie warianty zadania">~${q.sim.length}</button>`;
 }
 
 // the left-gutter block (select box + optional reorder arrows) and the three per-question
@@ -613,6 +624,7 @@ function renderQuestion(q, seq) {
       `<span class="qid">(${q.points}p, <span class="hash" title="kliknij, aby skopiować id">${q.hash}</span>)</span>` +
       mentalMarkHtml(q) +
       dupMarkHtml(q) +
+      simMarkHtml(q) +
       `<span class="qmeta">${metaHtml}</span></div>`,
     `<div class="prompt">${q.prompt_html}</div>`,
     figuresHtml(q, figFmt),

@@ -731,9 +731,11 @@ select {
   display: none;
 }
 
-/* the ×N duplicate chip, next to the mental marker: the same question on other sheets;
-   hover lists them, click swaps the view to the whole cluster (screen-only, hidden in print) */
-.dupmark {
+/* the ×N duplicate / ~N variant chips, next to the mental marker: the same question (or the
+   same problem with different numbers) on other sheets; hover lists them, click swaps the
+   view to the whole cluster (screen-only, hidden in print) */
+.dupmark,
+.simmark {
   border: 1px solid var(--border);
   border-radius: 8px;
   background: none;
@@ -742,7 +744,8 @@ select {
   padding: 0.05rem 0.35rem;
   color: #888;
 }
-.dupmark:hover {
+.dupmark:hover,
+.simmark:hover {
   color: #333;
   border-color: var(--border-strong);
 }
@@ -1508,9 +1511,10 @@ body.hide-mental .mental-toggle {
   .mental-toggle {
     display: none;
   } /* the marker override control never prints (its effect does) */
-  .dupmark {
+  .dupmark,
+  .simmark {
     display: none;
-  } /* the duplicate chip is navigation, not sheet content */
+  } /* the duplicate/variant chips are navigation, not sheet content */
   .infotip {
     display: none;
   } /* an open popover (marker hint, facet ⓘ) would overlay the printed text */
@@ -2048,6 +2052,7 @@ body.hide-mental .mental-toggle {
   html.dark .qid,
   html.dark .hash,
   html.dark .dupmark,
+  html.dark .simmark,
   html.dark .qmeta .tag.ctx,
   html.dark .info-i {
     color: hsl(var(--tint-h) 9% 52%);
@@ -2068,7 +2073,8 @@ body.hide-mental .mental-toggle {
   html.dark .reorder:hover,
   html.dark .scratch-toggle:hover,
   html.dark .svgtoggle:hover,
-  html.dark .dupmark:hover {
+  html.dark .dupmark:hover,
+  html.dark .simmark:hover {
     color: hsl(var(--tint-h) 14% 84%);
     border-color: hsl(var(--tint-h) 12% 50%);
   }

@@ -36,6 +36,11 @@ heavy lifting, in this order:
    one-line hint naming the move to start with. Drives the *W pamięci* filter and the 🧠 / 💡
    markers; judgements live in `dev/mental/` and are merged into the shards at build time (see
    [`dev/mental/README.md`](dev/mental/README.md)).
+8. **Duplicate pass** — the same questions resurface across years and voivodeships. Exact reprints
+   and number-swapped variants are caught by deterministic text keys at build time; lexically
+   similar leftovers (including figure pairs, compared picture against picture) were judged by a
+   model and reviewed (see [`dev/dups/README.md`](dev/dups/README.md)). Drives the ×N / ~N chips
+   next to affected questions.
 
 Humans set the conventions, reviewed the redrawn figures, spot-checked questions, and made the
 structural decisions. The full reproducible procedure is preserved in
@@ -69,6 +74,10 @@ is the short path from "I need twenty questions on the Pythagorean theorem" to a
 - **Practise in your head** — head-solvable questions carry a 🧠 / 💡 marker; click it for a hint
   on where to start that never gives the result away. The marker is a display flag: the box-button
   in the left gutter turns it off (or on) per question, and that override travels in the URL.
+- **Spot the repeats** — questions that recur across years and voivodeships carry a ×N chip
+  (exact reprint) or a ~N chip (same problem, different numbers); hover lists the other sheets,
+  a click shows the whole cluster, and the *Powtórki* filter selects questions that have a
+  duplicate or a variant.
 - **Curate** — tick the questions you want and press **Zaznaczone ↑** to collect their ids in the
   *Pokaż tylko id* box; that box *is* your worksheet. **Skopiuj** saves the id list and pasting it
   back restores the set; *Pomiń id* drops individual questions.

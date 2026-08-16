@@ -83,6 +83,13 @@ const FACET_INFO = {
   fig: {
     bezsvg: "Zadania z rysunkiem bitmapowym, który nie ma jeszcze wektorowej przerysówki (SVG)."
   },
+  powt: {
+    _: "Zadania, które pojawiają się w archiwum więcej niż raz. Klik w chip ×N/~N przy zadaniu pokazuje wszystkie wystąpienia.",
+    duplikat:
+      "To samo zadanie wydrukowane także na innym arkuszu, czasem z przetasowanymi odpowiedziami lub drobnie przeredagowane — chip ×N.",
+    wariant:
+      "Ten sam schemat zadania z innymi liczbami (lub w innym ujęciu) na innym arkuszu — rozwiązanie go to nadal świeży trening — chip ~N."
+  },
   pamiec: {
     _: "Zadania do policzenia bez kartki. Każde zadanie zostało w tym celu rozwiązane przez AI, która oceniła, czy da się je zrobić w głowie — nie decyduje o tym ani długość treści, ani wielkość liczb. Przy zadaniu jest 🧠/💡 i podpowiedź, od czego zacząć.",
     wprost:
@@ -153,6 +160,24 @@ const FACETS = [
     values: q => [q.answer?.model?.solution_html || q.answer?.solution_html ? "z" : "bez"],
     order: ["z", "bez"],
     labelFor: v => (v === "z" ? "Z rozwiązaniem" : "Bez rozwiązania")
+  },
+  {
+    key: "powt",
+    label: "Powtórki",
+
+    // build.mjs stamps the clusters into q.dup / q.sim; a question can be in both
+    values: q => {
+      const o = [];
+      if (q.dup) {
+        o.push("duplikat");
+      }
+      if (q.sim) {
+        o.push("wariant");
+      }
+      return o;
+    },
+    order: ["duplikat", "wariant"],
+    labelFor: v => (v === "duplikat" ? "Z duplikatem" : "Z wariantem")
   },
   {
     key: "annul",

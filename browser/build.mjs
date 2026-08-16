@@ -161,11 +161,15 @@ if (badTopics.length) {
 
 // Cross-corpus duplicate detection: the same question returns across years, stages and
 // voivodeships, so clusters are computed over all stages at once (the browser loads all
-// three shards, cross-stage hashes resolve). Key = normalized prompt+choices text; choices
-// are sorted, so a reshuffled answer list (same options under different letters) still
-// matches. Prompts ≤60 chars are skipped — short boilerplate ("Oblicz:") would cluster
-// unrelated questions.
-// Every member gets the full cluster (self included, corpus order) in `dup`; singletons none.
+// three shards, cross-stage hashes resolve). Two deterministic keys over normalized
+// prompt+choices text (choices sorted, so a reshuffled answer list still matches; prompts
+// ≤60 chars skipped — short boilerplate would cluster unrelated questions):
+//   exact key       → `dup`, the ×N chip (the same question reprinted)
+//   digit-blind key → `sim`, the ~N chip (the same problem with different numbers)
+// Figure-bearing questions (incl. inline <img> in prompt/choices) are excluded from both:
+// the text can match while the figure differs (the śląskie grid puzzles). Precision over
+// recall — verified figure pairs and rewordings come in via dev/dups/near-dups.tsv below.
+// Every member gets the full cluster (self included, corpus order); singletons get nothing.
 const dupText = h =>
   (h || "")
     .replace(/<[^>]+>/g, " ")
@@ -174,24 +178,34 @@ const dupText = h =>
     .replace(/[^a-ząćęłńóśźż0-9,.]+/g, " ")
     .replace(/\s+/g, " ")
     .trim();
-// Figure-bearing members of a text cluster verified by eye (PNG crops; SVG redraws are
-// independent drawings, so no automated compare): these figures ARE the same picture.
-// The śląskie grid puzzles and the lubelskie angle pair failed the same check — same text,
-// different figure — which is why figure questions are otherwise excluded below.
-const DUP_FIGURE_OK = new Set([
-  "wojewodzki_2011-2012_warminsko-mazurskie_q5",
-  "wojewodzki_2014_podlaskie_sp_q6",
-  "szkolny_2016_podlaskie_q3",
-  "szkolny_2024-2025_zachodniopomorskie_q3"
-]);
+const allQ = STAGES.flatMap(s => byStage[s]);
+const qById = new Map(allQ.map(q => [q.id, q]));
+
+// dev/dups/near-dups.tsv: eyeballed/LLM-judged verdicts for similar pairs the text keys
+// can't decide — figure pairs and rewordings (see dev/dups/README.md). SAME pairs merge
+// into `dup`, VARIANT into `sim`; DIFFERENT rows just record that the pair was checked.
+const verdictPairs = { SAME: [], VARIANT: [], DIFFERENT: [] };
+for (const l of readFileSync(
+  fileURLToPath(new URL("../dev/dups/near-dups.tsv", import.meta.url)),
+  "utf8"
+)
+  .trim()
+  .split("\n")
+  .slice(1)) {
+  const [a, b, verdict] = l.split("\t");
+  if (!verdictPairs[verdict] || !qById.has(a) || !qById.has(b)) {
+    console.error(`near-dups.tsv: bad row "${a}\t${b}\t${verdict}"`);
+    process.exit(1);
+  }
+  verdictPairs[verdict].push([a, b]);
+}
+
 const dupClusters = new Map();
-for (const q of STAGES.flatMap(s => byStage[s])) {
-  // figure-bearing questions (incl. inline <img> in prompt/choices) are excluded unless
-  // verified above: the text can match while the figure differs. Precision over recall.
+const simClusters = new Map();
+for (const q of allQ) {
   if (
-    !DUP_FIGURE_OK.has(q.id) &&
-    ((q.figures || []).length ||
-      `${q.prompt_html}|${JSON.stringify(q.choices)}`.includes("figures/"))
+    (q.figures || []).length ||
+    `${q.prompt_html}|${JSON.stringify(q.choices)}`.includes("figures/")
   ) {
     continue;
   }
@@ -207,20 +221,77 @@ for (const q of STAGES.flatMap(s => byStage[s])) {
     dupClusters.set(k, []);
   }
   dupClusters.get(k).push(q);
-}
-let dupC = 0,
-  dupQ = 0;
-for (const members of dupClusters.values()) {
-  if (members.length < 2) {
-    continue;
+  const sk = k.replace(/[0-9]+/g, "#");
+  if (!simClusters.has(sk)) {
+    simClusters.set(sk, []);
   }
-  dupC++;
-  dupQ += members.length;
-  for (const q of members) {
-    q.dup = members.map(m => m.hash);
-  }
+  simClusters.get(sk).push({ q, k });
 }
-console.log(`duplicates: ${dupC} clusters / ${dupQ} questions`);
+
+// Key clusters and verdict pairs merge via union-find: one SAME pair can attach a figure
+// question to an existing text cluster, and every member must carry the full merged cluster.
+const markClusters = (groups, pairs, field) => {
+  const parent = new Map();
+  const find = x => {
+    while (parent.get(x) !== x) {
+      parent.set(x, parent.get(parent.get(x)));
+      x = parent.get(x);
+    }
+    return x;
+  };
+  const join = (a, b) => {
+    if (!parent.has(a)) {
+      parent.set(a, a);
+    }
+    if (!parent.has(b)) {
+      parent.set(b, b);
+    }
+    parent.set(find(a), find(b));
+  };
+  for (const g of groups) {
+    for (let i = 1; i < g.length; i++) {
+      join(g[0].id, g[i].id);
+    }
+  }
+  for (const [a, b] of pairs) {
+    join(a, b);
+  }
+
+  // allQ is corpus order, so cluster members land in corpus order
+  const comps = new Map();
+  for (const q of allQ) {
+    if (!parent.has(q.id)) {
+      continue;
+    }
+    const r = find(q.id);
+    if (!comps.has(r)) {
+      comps.set(r, []);
+    }
+    comps.get(r).push(q);
+  }
+  let c = 0;
+  let n = 0;
+  for (const members of comps.values()) {
+    if (members.length < 2) {
+      continue;
+    }
+    c++;
+    n += members.length;
+    for (const q of members) {
+      q[field] = members.map(m => m.hash);
+    }
+  }
+  return `${c} clusters / ${n} questions`;
+};
+
+console.log(`duplicates: ${markClusters([...dupClusters.values()], verdictPairs.SAME, "dup")}`);
+
+// a digit-blind cluster whose members all share one exact key is just the duplicate cluster
+// again — only clusters mixing at least two exact keys are genuine variants
+const simGroups = [...simClusters.values()]
+  .filter(g => new Set(g.map(m => m.k)).size > 1)
+  .map(g => g.map(m => m.q));
+console.log(`variants: ${markClusters(simGroups, verdictPairs.VARIANT, "sim")}`);
 
 // catalog.js: category -> ordered leaves for the browser's topic sidebar. A <script>, not fetch(), so
 // it works under file:// too. Strip a trailing "(przekrojowe)"-style note so it doesn't clutter the header.

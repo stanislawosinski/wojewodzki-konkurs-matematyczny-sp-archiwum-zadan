@@ -66,8 +66,13 @@ Posortowane wg wartość/koszt:
    poza 2 parami zweryfikowanymi wizualnie (`DUP_FIGURE_OK`) — 4 kandydackie klastry
    figurowe (śląskie gridy, lubelskie kąty) to ten sam tekst z INNYM rysunkiem; redrawy
    SVG są niezależne, więc automatyczne porównanie figur nie istnieje.
-   Poziom 2, *opcjonalnie, LLM*: near-duplikaty (zmienione liczby, przeredagowania,
-   te 4 fałszywe klastry figurowe) — dopiero gdy dokładne klastry okażą się użyteczne.
+   ~~Poziom 2, *opcjonalnie, LLM*~~ — **ZROBIONE (2026-08-16)**: warianty liczbowe łapie
+   deterministyczny klucz ślepy na cyfry (`sim` → chip ~N), a 249 par-kandydatek
+   (Jaccard ≥ 0.5, w tym pary figurowe porównywane wizyjnie z PNG) osądziła kampania
+   Sonnet (`dev/scripts/neardup.workflow.mjs`) → `dev/dups/near-dups.tsv`. Po scaleniu:
+   **163 klastry duplikatów / 339 zadań** i **49 klastrów wariantów / 112 zadań**.
+   Werdykty krzyżówek śląskich obniżone do DIFFERENT (sprzeczne między partiami);
+   szczegóły i przepis wznowienia w `dev/dups/README.md`.
 3. **Tagi metody rozwiązania** (równanie, rozbiór przypadków, niezmiennik, zasada
    szufladkowa, …) jako nowy facet — wartość średnia, `topics` częściowo to kryje.
    Nie robić na zapas.
@@ -80,7 +85,9 @@ Posortowane wg wartość/koszt:
   Tanie, realna wygoda przy szybkim pisaniu.
 - **„Wylosuj N zadań"** z aktualnych filtrów — jednoprzyciskowy generator kartkówki;
   średni koszt, wysoka wartość dla trenowania. Do decyzji.
-- Znacznik duplikatów — razem z §3.2, nie osobno.
+- Znacznik duplikatów — razem z §3.2, nie osobno. **ZROBIONE** — chip ×N, dla wariantów
+  liczbowych osobny chip ~N, plus facet „Powtórki" (Z duplikatem / Z wariantem;
+  klucz URL `powt`) (2026-08-16).
 
 Poza tym bez wymyślania na siłę — wskazówki, wydruk, mental i facety są spójne.
 
