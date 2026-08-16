@@ -301,10 +301,10 @@ function verifBadge(q, aiCount) {
     return { cls: "warn", text: "Modele AI niezgodne" }; // key + ≥2 differing AI answers
   }
   if (aiCount === 1) {
-    return { cls: "warn", text: "niezgodne z kluczem" }; // one AI answer differs from key
+    return { cls: "warn", text: "Niezgodne z kluczem" }; // one AI answer differs from key
   }
   if (m.agrees === true) {
-    return { cls: "ok", text: "zgodne z kluczem" }; // AI matched key, nothing to show
+    return { cls: "ok", text: "Zgodne z kluczem" }; // AI matched key, nothing to show
   }
   return null;
 }

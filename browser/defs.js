@@ -110,7 +110,7 @@ const FACET_INFO = {
       "Ten sam schemat zadania z innymi liczbami (lub w innym ujęciu) na innym arkuszu — rozwiązanie go to nadal świeży trening — chip ~N."
   },
   post: {
-    _: "Twój postęp: oznaczaj zadania przyciskiem ✓ przy zadaniu (drugi klik: ✗ do poprawy), a „✓ widoczne” oznacza cały aktualny zestaw naraz. Oznaczenia są zapisywane w tej przeglądarce, nie w linku; przeniesiesz je na inne urządzenie linkiem ⇄ obok.",
+    _: "Twój postęp: oznaczaj zadania przyciskiem ✓ przy zadaniu (drugi klik: ✗ do poprawy), a „✓ widoczne” oznacza cały aktualny zestaw naraz. Oznaczenia są zapisywane w tej przeglądarce, nie w linku; przeniesiesz je na inne urządzenie przyciskiem ⇄ obok.",
     zrob: "Zadania oznaczone ✓. Dokładny duplikat zrobionego zadania (chip ×N) też liczy się jako zrobiony.",
     blad: "Zadania oznaczone ✗ — zrobione z błędem, warte ponownego podejścia.",
     nie: "Zadania bez oznaczenia ✓/✗."

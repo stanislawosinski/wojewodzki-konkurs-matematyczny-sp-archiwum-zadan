@@ -102,6 +102,9 @@ default makes some screen content disagree with the facets and the printed key**
 
 ## Labels & language
 
+> Items 12–15 **FIXED 2026-08-17** ("z rozwiązaniem" in tips; "linkiem"/"Link" →
+> "przyciskiem"/"Przycisk"; "strzałki ▴/▾"; badge texts capitalized to match).
+
 12. The tips popover (`index.html:349`) lists a filter "z kluczem odpowiedzi" — no
     such facet exists by default (Weryfikacja AI is hidden, and "Rozwiązanie" is
     about solutions, not keys).
