@@ -397,11 +397,35 @@ h1 {
   margin: 0.15rem 0;
 }
 .about-note {
-  margin-top: 1.2rem;
-  padding-top: 0.7rem;
+  margin-top: 1.8rem;
+  padding-top: 0.9rem;
   border-top: 1px solid var(--border);
   font-size: 0.78rem;
   color: #888;
+}
+
+/* foot-of-popover cross-links: each info popover offers the other; auto [popover]s swap natively.
+   Underline only the <span>-wrapped label, so the leading icon stays clean. Separated from the
+   body by the same hairline as .about-note. */
+.about-xlink {
+  margin: 1.8rem 0 0;
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.86rem;
+}
+.about-xlink button {
+  border: none;
+  background: none;
+  padding: 0;
+  font: inherit;
+  color: #444;
+  cursor: pointer;
+}
+.about-xlink button span {
+  text-decoration: underline;
+}
+.about-xlink button:hover {
+  color: #111;
 }
 
 /* the mobile-only controls; the phone block at the bottom re-shows them */
@@ -2077,8 +2101,12 @@ body.hide-mental .mental-toggle {
   /* .about-pop hard-codes #333/#444 body ink (dark on dark = invisible); lift to the body text */
   html.dark .about-pop,
   html.dark .about-body p,
-  html.dark .about-body li {
+  html.dark .about-body li,
+  html.dark .about-xlink button {
     color: hsl(var(--tint-h) 13% 82%);
+  }
+  html.dark .about-xlink button:hover {
+    color: hsl(var(--tint-h) 14% 95%);
   }
   /* .infotip hardcodes color:#333 (dark on dark surface = invisible); lift it to the body's light text */
   html.dark .infotip {

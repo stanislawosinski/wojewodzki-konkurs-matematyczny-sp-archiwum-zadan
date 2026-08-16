@@ -306,16 +306,22 @@
           <li>
             <strong>Filtry</strong>
             po lewej zawężają listę: województwo, etap, rok, tematy, zadania z rysunkiem, z kluczem
-            odpowiedzi itd.
+            odpowiedzi itd. Przy kilku tematach tryb <em>dowolny / każdy</em> decyduje, czy zadanie
+            ma pasować do któregokolwiek z nich, czy do wszystkich naraz.
+          </li>
+          <li>
+            Pole <em>Szukaj</em> znajduje zadania po słowie w treści — np. „cyfra jedności”,
+            „przekątna”.
           </li>
           <li>
             Zaznacz ciekawe zadania checkboxem przy zadaniu, a potem kliknij
             <em>Zaznaczone ↑</em>
-            — lista ograniczy się do wybranych zadań.
+            — ich id trafią do pola <em>Pokaż tylko id</em> i lista ograniczy się do wybranych
+            zadań.
           </li>
           <li>
-            Kolejność zadań zmienisz strzałkami ▾ przy zadaniu, a tytuł zestawu — klikając go nad
-            listą.
+            Gdy aktywna jest lista id, przy zadaniach pojawiają się strzałki ▾ do zmiany kolejności
+            i × do usunięcia z listy. Tytuł zestawu zmienisz, klikając go nad listą.
           </li>
         </ul>
 
@@ -338,9 +344,10 @@
 
         <h3>Linki do udostępniania</h3>
         <p>
-          Adres strony (URL) zawiera cały stan widoku: filtry, wybrane zadania, ich kolejność i
-          tytuł zestawu. Wystarczy dodać go do zakładek albo wysłać komuś — odbiorca zobaczy
-          dokładnie ten sam zestaw.
+          Adres strony (URL) zawiera cały stan widoku: filtry, wyszukiwanie, wybrane zadania, ich
+          kolejność, tytuł zestawu, a nawet nadpisania przy zadaniach (wielkość i format rysunków,
+          brudnopis, znaczniki „w pamięci”). Wystarczy dodać go do zakładek albo wysłać komuś —
+          odbiorca zobaczy dokładnie ten sam zestaw.
         </p>
 
         <h3>Trening liczenia w pamięci</h3>
@@ -360,6 +367,12 @@
           <li>Odpowiedź do zadania odsłonisz ikoną 👁 — dopiero gdy chcesz ją zobaczyć.</li>
           <li>Kliknięcie id zadania kopiuje je do schowka — np. do pola „Pokaż tylko id”.</li>
         </ul>
+
+        <p class="about-xlink">
+          <button type="button" popovertarget="aboutPop">
+            ⓘ <span>O tym serwisie: skąd pochodzą zadania i jak powstał ten zbiór</span>
+          </button>
+        </p>
       </div>
     </div>
     <!-- "O tym serwisie": native [popover], centered by the UA. Light-dismiss + Escape are
@@ -448,6 +461,12 @@
         <p class="about-note">
           Cały kod tej aplikacji został wygenerowany przez agenta LLM i tylko w minimalnym stopniu
           przejrzany przez człowieka.
+        </p>
+
+        <p class="about-xlink">
+          <button type="button" popovertarget="tipsPop">
+            💡 <span>Wskazówki: jak efektywnie korzystać z serwisu</span>
+          </button>
         </p>
       </div>
     </div>
