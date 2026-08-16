@@ -57,6 +57,7 @@ const selectedSet = new Set(); // hashes; lives outside the DOM — articles are
 const scratchOverrides = new Map(); // hash -> 'half' | 'full'; per-question brudnopis override (default not stored)
 const svgOverrides = new Map(); // hash -> 'png' | 'svg'; per-question figure format pin (default follows vectorPriority; cleared when the setting changes). Serialized to the hash so it survives reload/sharing.
 const figSizeOverrides = new Map(); // hash -> nonzero int step; per-question figure size (CSS zoom = figZoom(step)). Default 0 not stored. Serialized to the hash (key "fs") so it survives reload/sharing.
+const mentalOverrides = new Map(); // hash -> 'on' | 'off'; per-question "W pamięci" marker override, display only (the data and the pamiec facet are untouched). Serialized to the hash (keys "pt"/"pn").
 const scratchMode = () => document.querySelector('input[name="pageMode"]:checked').value;
 
 // Sheet title (the .sheet-title header + document.title). titleOverride = a user-typed title
@@ -169,6 +170,13 @@ function partitionByValue(map, val) {
   return [yes, no];
 }
 
+// store a hash list under `key` only when it has entries — an empty key would just bloat the URL
+function putList(o, key, list) {
+  if (list.length) {
+    o[key] = list;
+  }
+}
+
 // re-add only the hashes that still exist in the data (stale ids in a shared URL are dropped)
 function restoreOverrides(map, hashes, val) {
   for (const h of hashes || []) {
@@ -214,21 +222,18 @@ function serialize() {
 
   // brudnopis overrides split by target height; defaults aren't stored (absent = follow the global setting)
   const [bh, bf] = partitionByValue(scratchOverrides, "half");
-  if (bh.length) {
-    o.bh = bh;
-  }
-  if (bf.length) {
-    o.bf = bf;
-  }
+  putList(o, "bh", bh);
+  putList(o, "bf", bf);
 
   // per-question figure format pins, split by target format (default follows the vectorPriority setting, not stored)
   const [fv, fr] = partitionByValue(svgOverrides, "svg");
-  if (fr.length) {
-    o.fr = fr;
-  }
-  if (fv.length) {
-    o.fv = fv;
-  }
+  putList(o, "fr", fr);
+  putList(o, "fv", fv);
+
+  // per-question "W pamięci" marker overrides, split by direction (pt = pokaż, pn = nie pokazuj)
+  const [pt, pn] = partitionByValue(mentalOverrides, "on");
+  putList(o, "pt", pt);
+  putList(o, "pn", pn);
 
   // per-question figure size steps: each entry is "<hash>.<step>" (hash is hex, so the dot is unambiguous)
   const fs = [];
@@ -256,7 +261,7 @@ function pruneScratchToInclude() {
     return;
   }
   const keep = new Set(incIds);
-  for (const m of [scratchOverrides, svgOverrides, figSizeOverrides]) {
+  for (const m of [scratchOverrides, svgOverrides, figSizeOverrides, mentalOverrides]) {
     for (const h of [...m.keys()]) {
       if (!keep.has(h)) {
         m.delete(h);
@@ -326,6 +331,9 @@ function applyState() {
   restoreOverrides(svgOverrides, o.fv, "svg");
   figSizeOverrides.clear();
   restoreFigSizes(o.fs);
+  mentalOverrides.clear();
+  restoreOverrides(mentalOverrides, o.pt, "on");
+  restoreOverrides(mentalOverrides, o.pn, "off");
   titleOverride = o.title && o.title[0] != null ? o.title[0] : null; // update() below reflects it via setTitle
   page = 1;
   update();

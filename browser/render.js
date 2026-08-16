@@ -393,8 +393,44 @@ function renderKeyEntry(q, seq) {
   return `${p.join("")}</div>`;
 }
 
-// the left-gutter block (select box + optional reorder arrows) and the two per-question
-// pin buttons (brudnopis size, figure format) that sit beside the question body
+// The marker actually shown for a question: the data's own judgement (q.mental), unless the
+// gutter button overrode it for this view. Display only — the "W pamięci" facet keeps filtering
+// on q.mental, so an override never changes which questions a shared filter returns.
+function mentalLevel(q) {
+  const o = mentalOverrides.get(q.hash);
+  if (o === "off") {
+    return "";
+  }
+  if (o === "on") {
+    return q.mental || "wprost"; // forced onto a question the pass didn't flag → the plain 🧠
+  }
+  return q.mental || "";
+}
+
+// The 🧠/💡 marker in the question header. Where the judgement came with a hint the marker is a
+// clicking the glyph opens the hint in the shared ⓘ popover (data-info carries it, same as the
+// facet icons). The hint is a "start here" nudge that never names the result, so it deliberately
+// sits OUTSIDE .reveal — you can read it without spoiling the answer.
+function mentalMarkHtml(q) {
+  const lvl = mentalLevel(q);
+  if (!lvl) {
+    return "";
+  }
+
+  // the hint belongs to the data's own judgement; a marker forced on from the gutter has none
+  const hint = lvl === q.mental ? q.mental_hint : "";
+  const title = hint ? `${MENTAL_TITLE[lvl]} — kliknij po podpowiedź` : MENTAL_TITLE[lvl];
+  const info = hint ? ` data-info="${esc(hint)}"` : "";
+  return `<span class="mmark" title="${esc(title)}"${info}>${MENTAL_GLYPH[lvl]}</span>`;
+}
+
+const mentalBtnTitle = q =>
+  mentalLevel(q)
+    ? "Znacznik „w pamięci” włączony — kliknij, aby zdjąć go z tego zadania"
+    : "Znacznik „w pamięci” wyłączony — kliknij, aby oznaczyć to zadanie";
+
+// the left-gutter block (select box + optional reorder arrows) and the three per-question
+// pin buttons ("w pamięci" marker, brudnopis size, figure format) that sit beside the question body
 function questionControlsHtml(q, seq, half, override, figFmt, figDefault) {
   // left-gutter controls wrapped in one .gutter group so they dim together and hover as a unit
   const reorder =
@@ -412,6 +448,13 @@ function questionControlsHtml(q, seq, half, override, figFmt, figDefault) {
   const autoSize = autoScratch(half, scratchMode());
   parts.push(
     `<button type="button" class="scratch-toggle${override ? " on" : ""}" title="${scratchTitle(override, autoSize)}" aria-label="brudnopis zadania" data-scratch="${override}">${scratchGlyph(override || autoSize)}</button>`
+  );
+
+  // "W pamięci" marker override, left of the brudnopis control. Display-only: it flips the 🧠/💡
+  // in the header (screen + print), never the data. Green (.on) = this view disagrees with the pass.
+  const lvl = mentalLevel(q);
+  parts.push(
+    `<button type="button" class="mental-toggle${mentalOverrides.has(q.hash) ? " on" : ""}" title="${esc(mentalBtnTitle(q))}" aria-label="znacznik w pamięci">${lvl ? MENTAL_GLYPH[lvl] : "–"}</button>`
   );
   if ((q.figsvg || []).length) {
     parts.push(
@@ -551,6 +594,7 @@ function renderQuestion(q, seq) {
     '<div class="qbody">', // wraps the content so the print brudnopis .scratch below can flex-fill the rest of the page
     `<div class="qhead"><span class="qnum">Zadanie ${seq ?? q.number}.</span>` +
       `<span class="qid">(${q.points}p, <span class="hash" title="kliknij, aby skopiować id">${q.hash}</span>)</span>` +
+      mentalMarkHtml(q) +
       `<span class="qmeta">${metaHtml}</span></div>`,
     `<div class="prompt">${q.prompt_html}</div>`,
     figuresHtml(q, figFmt),

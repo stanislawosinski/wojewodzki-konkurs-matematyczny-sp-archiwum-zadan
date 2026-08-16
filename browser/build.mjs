@@ -42,6 +42,33 @@ const suspects = new Map(
     .map(c => [c[0], { reason: c[4], verdict: c[5] }])
 );
 
+// dev/mental/<data file>.json: the "W pamięci" campaign's sidecars, {id: {level, hint}} for the
+// questions an Opus pass judged solvable without pencil and paper — one sidecar per data file,
+// flagged questions only. Merged here into `mental`/`mental_hint` per question; the browser's
+// pamiec facet and the 🧠/💡 marker read them. Missing dir → the facet is simply empty.
+const mental = {};
+const badMental = [];
+try {
+  const mentalDir = fileURLToPath(new URL("../dev/mental/", import.meta.url));
+  for (const f of readdirSync(mentalDir).filter(f => f.endsWith(".json"))) {
+    for (const [id, v] of Object.entries(JSON.parse(readFileSync(mentalDir + f, "utf8")))) {
+      if (v.level !== "wprost" && v.level !== "pomysl") {
+        badMental.push(`${f} ${id}: "${v.level}"`);
+        continue;
+      }
+      mental[id] = v;
+    }
+  }
+} catch {
+  /* no mental sidecars yet */
+}
+if (badMental.length) {
+  console.error(
+    `unknown "W pamięci" level(s) — expected wprost/pomysl:\n  ${badMental.join("\n  ")}`
+  );
+  process.exit(1);
+}
+
 // figures/hidpi.json maps each figure re-rendered at 400 dpi (dev/scripts/figcrop.py hidpi)
 // to its [w, h] in CSS px. The app puts those on the <img> so a 400 dpi figure lays out at
 // the same size as a 200 dpi one instead of at its natural, doubled size.
@@ -105,6 +132,7 @@ for (const f of readdirSync(dataDir)
             ...(suspects.get(hash).verdict && { suspect_verdict: suspects.get(hash).verdict })
           }
         : {}), // flagged in suspected_key_errors.tsv
+      ...(mental[q.id] ? { mental: mental[q.id].level, mental_hint: mental[q.id].hint } : {}), // judged solvable in your head (dev/mental sidecars)
       topics: q.topics,
       prompt_html: q.prompt_html,
       choices: q.choices,

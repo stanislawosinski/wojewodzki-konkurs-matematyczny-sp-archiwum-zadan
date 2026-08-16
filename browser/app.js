@@ -263,10 +263,12 @@ function wirePagers() {
   }
 }
 
-// per-question pin buttons: CSS selector → handler. △ format, –/½/1 brudnopis, –/+ figure size.
+// per-question pin buttons: CSS selector → handler. △ format, –/½/1 brudnopis, –/+ figure size,
+// 🧠/– "w pamięci" marker.
 const PIN_BUTTONS = [
   [".svgtoggle", toggleFigureFormat],
   [".scratch-toggle", toggleScratchPin],
+  [".mental-toggle", toggleMentalMark],
   [".figsize", adjustFigureSize]
 ];
 
@@ -291,6 +293,12 @@ function wireQlist() {
       const cb = qnum.closest(".q").querySelector(".selectbox input");
       cb.checked = !cb.checked;
       cb.dispatchEvent(new Event("change", { bubbles: true })); // reuse the selection handler
+      return;
+    }
+    // "W pamięci" marker: click the glyph for its hint, in the same popover as the facet ⓘ icons
+    const mark = e.target.closest(".mmark[data-info]");
+    if (mark) {
+      showInfotip(mark, mark.dataset.info);
       return;
     }
     const hashEl = e.target.closest(".hash"); // click the id to copy it to the clipboard
@@ -388,6 +396,34 @@ function toggleScratchPin(scratchBtn) {
   } else {
     scratchOverrides.delete(h); // scratchOverrides is the truth; render + hash read it
   }
+  writeUrl(false);
+}
+
+// "W pamięci" marker override: a display-only 2-state toggle, so flipping back to what the data
+// says drops the entry rather than storing a redundant one (same rule as the pins above — only a
+// view that disagrees with the data is worth carrying in the URL).
+function toggleMentalMark(btn) {
+  const q = btn.closest(".q"),
+    h = q.dataset.hash,
+    data = byHash[h],
+    want = !mentalLevel(data); // the state we want after this click
+  if (want === Boolean(data.mental)) {
+    mentalOverrides.delete(h);
+  } else {
+    mentalOverrides.set(h, want ? "on" : "off");
+  }
+
+  // swap the header marker in place, then the button itself
+  hideInfotip(); // its anchor may be the marker we are about to drop
+  q.querySelector(".mmark")?.remove();
+  const mark = mentalMarkHtml(data);
+  if (mark) {
+    q.querySelector(".qid").insertAdjacentHTML("afterend", mark);
+  }
+  const lvl = mentalLevel(data);
+  btn.textContent = lvl ? MENTAL_GLYPH[lvl] : "–";
+  btn.title = mentalBtnTitle(data);
+  btn.classList.toggle("on", mentalOverrides.has(h));
   writeUrl(false);
 }
 
@@ -638,11 +674,13 @@ function wireSettings() {
     ["metaRok", "hide-year"],
     ["metaEtap", "hide-stage"],
     ["metaTopics", "hide-topics"],
+    ["metaMental", "hide-mental"],
     ["printTitle", "print-hide-title"],
     ["printWoj", "print-hide-region"],
     ["printRok", "print-hide-year"],
     ["printEtap", "print-hide-stage"],
-    ["printTopics", "print-hide-topics"]
+    ["printTopics", "print-hide-topics"],
+    ["printMental", "print-hide-mental"]
   ]) {
     const cb = $(id),
       apply = () => document.body.classList.toggle(cls, !cb.checked);
@@ -724,7 +762,7 @@ function wireSettings() {
     if (!settingsPop.hidden && !e.target.closest(".settings")) {
       settingsPop.hidden = true;
     }
-    if (!infotip.hidden && !e.target.closest(".info-i") && !e.target.closest(".infotip")) {
+    if (!infotip.hidden && !e.target.closest(".info-i, .mmark") && !e.target.closest(".infotip")) {
       hideInfotip();
     }
 

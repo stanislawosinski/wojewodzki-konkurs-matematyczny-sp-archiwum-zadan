@@ -53,76 +53,16 @@ const MODEL_LABELS = {
   "opus+sonnet+fable": "Sonnet + Opus + Fable"
 };
 
-// Signals the "W pamięci" presets below are built from. Derived from the question text at index
-// time — nothing is stored in the data, so retuning a threshold is an edit here plus a reload.
-const plainText = html => String(html || "").replace(/<[^>]*>/g, " ");
-const promptLen = q => plainText(q.prompt_html).replace(/\s+/g, " ").trim().length;
-const demandsWork = q =>
-  /uzasadnij|wykaż|udowodnij|zapisz oblicz|opisz sposób|przedstaw oblicz|zapisz rozwiąz/i.test(
-    plainText(q.prompt_html)
-  );
-
-// biggest number anywhere in the question; 0 when it has no digits at all (a purely verbal task)
-function biggestNumber(q) {
-  const text = plainText(q.prompt_html) + (q.choices || []).map(c => plainText(c.html)).join(" ");
-  let max = 0;
-  for (const n of text.match(/\d+(?:[.,]\d+)?/g) || []) {
-    max = Math.max(max, Number.parseFloat(n.replace(",", ".")));
-  }
-  return max;
-}
-
-// Ready-made "can I do this in my head?" heuristics — one click each, and a question may match
-// several. `desc` is the ⓘ note on that row, so the thresholds are always visible in the UI.
-// Keys are wire format (URL hash) — do not rename. blysk ⊂ std by construction.
-const MENTAL_PRESETS = [
-  {
-    key: "blysk",
-    label: "Błyskawiczne",
-    desc: "Zadanie zamknięte za 1 punkt, treść do 120 znaków, żadna liczba nie przekracza 20, bez rysunku.",
-    test: q =>
-      q.type !== "open" &&
-      q.points <= 1 &&
-      !q.figures?.length &&
-      promptLen(q) <= 120 &&
-      biggestNumber(q) <= 20
-  },
-  {
-    key: "std",
-    label: "Standardowe",
-    desc: "Zamknięte albo prawda/fałsz najwyżej za 2 punkty, treść do 250 znaków, liczby do 100, bez rysunku.",
-    test: q =>
-      q.type !== "open" &&
-      q.points <= 2 &&
-      !q.figures?.length &&
-      promptLen(q) <= 250 &&
-      biggestNumber(q) <= 100
-  },
-  {
-    key: "rys",
-    label: "Z rysunkiem",
-    desc: "Zadanie ma rysunek — geometria, którą ogarniasz wzrokiem, bez dorysowywania czegokolwiek.",
-    test: q =>
-      q.type !== "open" &&
-      q.points <= 2 &&
-      q.figures?.length &&
-      promptLen(q) <= 250 &&
-      biggestNumber(q) <= 100
-  },
-  {
-    key: "otw",
-    label: "Bez podpowiedzi",
-    desc: "Zadania otwarte: wynik podajesz sam, nie ma czego zgadywać z podanych odpowiedzi. Treść do 200 znaków, liczby do 100, bez żądania uzasadnienia.",
-    test: q =>
-      q.type === "open" &&
-      q.points <= 2 &&
-      !q.figures?.length &&
-      promptLen(q) <= 200 &&
-      biggestNumber(q) <= 100 &&
-      !demandsWork(q)
-  }
-];
-const MENTAL_LABELS = Object.fromEntries(MENTAL_PRESETS.map(p => [p.key, p.label]));
+// "W pamięci": per-question judgements (q.mental / q.mental_hint), not a text heuristic — every
+// question was solved by an Opus pass that then ruled whether a pupil could do it with nothing
+// written down. Two levels only; absent = not a head task. Values are wire format (URL hash).
+// The glyph doubles as the per-question marker: 🧠 you just compute it, 💡 you need the idea.
+const MENTAL_LABELS = { wprost: "Od ręki", pomysl: "Z pomysłem" };
+const MENTAL_GLYPH = { wprost: "🧠", pomysl: "💡" };
+const MENTAL_TITLE = {
+  wprost: "W pamięci — liczysz od ręki",
+  pomysl: "W pamięci — jedno spostrzeżenie i zadanie się zwija"
+};
 
 // explanations behind the ⓘ info icons; `_` is the facet-header note. Only facets/values listed here get an icon.
 const FACET_INFO = {
@@ -144,8 +84,11 @@ const FACET_INFO = {
     bezsvg: "Zadania z rysunkiem bitmapowym, który nie ma jeszcze wektorowej przerysówki (SVG)."
   },
   pamiec: {
-    _: "Gotowe zestawy warunków do liczenia bez kartki, przydatne przy przeglądaniu na telefonie. Zadanie może pasować do kilku naraz.",
-    ...Object.fromEntries(MENTAL_PRESETS.map(p => [p.key, p.desc]))
+    _: "Zadania do policzenia bez kartki. Każde zadanie zostało w tym celu rozwiązane przez AI, która oceniła, czy da się je zrobić w głowie — nie decyduje o tym ani długość treści, ani wielkość liczb. Przy zadaniu jest 🧠/💡 i podpowiedź, od czego zacząć.",
+    wprost:
+      "Liczysz wprost: krótki rachunek, odczyt z rysunku albo kilka prostych kroków. Bez triku, ale i bez kartki.",
+    pomysl:
+      "Na kartce byłaby dłuższa robota, ale jedno spostrzeżenie zwija zadanie do kilkunastu sekund. To sedno zasady „najpierw uprość, potem licz”."
   }
 };
 
@@ -197,8 +140,11 @@ const FACETS = [
   {
     key: "pamiec",
     label: "W pamięci",
-    values: q => MENTAL_PRESETS.filter(p => p.test(q)).map(p => p.key),
-    order: MENTAL_PRESETS.map(p => p.key),
+
+    // the data's own judgement — the per-question display override (mentalOverrides) deliberately
+    // does not filter: it only turns the marker on/off on screen and in print
+    values: q => (q.mental ? [q.mental] : []),
+    order: ["wprost", "pomysl"],
     labelFor: v => MENTAL_LABELS[v] || v
   },
   {

@@ -683,6 +683,21 @@ select {
 .hide-topics .qmeta .topic {
   display: none;
 }
+/* "W pamięci" marker (🧠 od ręki / 💡 z pomysłem), in the question header after the id. Where the
+   judgement carries a hint the glyph opens it in the shared .infotip popover — outside .reveal on
+   purpose, so reading the nudge never spoils the answer. Toggled by "Znacznik „w pamięci”"
+   (screen: hide-mental, print: print-hide-mental — see @media print). */
+.mmark {
+  font-size: 0.8rem;
+  line-height: 1;
+  user-select: none;
+}
+.mmark[data-info] {
+  cursor: pointer;
+}
+.hide-mental .mmark {
+  display: none;
+}
 .hide-ai .facet[data-facet="weryf"] {
   display: none;
 } /* "Pokaż weryfikację AI" off → the Weryfikacja facet is hidden (its selection is also cleared) */
@@ -1189,6 +1204,49 @@ math {
 body.scratch-off .scratch-toggle {
   display: none;
 } /* global brudnopis wyłączony → nothing to override */
+/* per-question "W pamięci" marker override: same box, one slot left of the brudnopis control.
+   Glyph = the marker as it currently stands (🧠/💡, or – for none); green (.on) = this view
+   disagrees with the data. Hidden when the marker isn't shown on screen — nothing to override then. */
+.mental-toggle {
+  position: absolute;
+  left: calc(
+    -1 *
+    (var(--qgap) + var(--cb) + var(--grp) + var(--btn) + var(--pair) + var(--btn)) -
+    0.048rem
+  );
+  top: 2.6rem;
+  box-sizing: border-box;
+  width: 1.196rem;
+  height: 1.196rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.72rem;
+  line-height: 1;
+  border: 1px solid var(--border-strong);
+  border-radius: 3px;
+  background: #fff;
+  color: #555;
+  cursor: pointer;
+  padding: 0;
+  user-select: none;
+  opacity: 0.7;
+  transition: opacity 0.12s;
+}
+.mental-toggle:hover {
+  opacity: 1;
+  border-color: #888;
+  color: #222;
+}
+.mental-toggle.on {
+  opacity: 1;
+  border-color: #8c8;
+  background: #eef8ee;
+  color: #161;
+}
+body.hide-mental .mental-toggle {
+  display: none;
+}
 /* vector-redraw toggle: same box as the eye, in the figure-controls row (top: 5rem), centered under the eye */
 .svgtoggle {
   position: absolute;
@@ -1399,6 +1457,12 @@ body.scratch-off .scratch-toggle {
   .figsize {
     display: none;
   } /* the figure-size buttons never print (their zoom effect does) */
+  .mental-toggle {
+    display: none;
+  } /* the marker override control never prints (its effect does) */
+  .infotip {
+    display: none;
+  } /* an open popover (marker hint, facet ⓘ) would overlay the printed text */
   .pager {
     display: none;
   }
@@ -1428,6 +1492,13 @@ body.scratch-off .scratch-toggle {
   .print-hide-year .qmeta .year,
   .print-hide-stage .qmeta .stage,
   .print-hide-topics .qmeta .topic {
+    display: none;
+  }
+  /* the "W pamięci" marker follows the same independent screen/print pair */
+  .hide-mental .mmark {
+    display: inline-block;
+  }
+  .print-hide-mental .mmark {
     display: none;
   }
   /* sheet title: same independent screen/print toggle as the meta tags; the class rules override the
@@ -2022,6 +2093,7 @@ body.scratch-off .scratch-toggle {
   }
   html.dark .reveal[open] > summary,
   html.dark .scratch-toggle.on,
+  html.dark .mental-toggle.on,
   html.dark .svgtoggle.on {
     border-color: hsl(130 26% 38%);
     background: hsl(130 24% 15%);

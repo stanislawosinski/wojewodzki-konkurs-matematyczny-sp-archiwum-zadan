@@ -125,6 +125,14 @@
                   <label><input type="checkbox" id="metaRok" checked> Rok</label>
                   <label><input type="checkbox" id="metaEtap" checked> Etap</label>
                   <label><input type="checkbox" id="metaTopics" checked> Tematy</label>
+                  <label
+                    ><input type="checkbox" id="metaMental" checked>
+                    Znacznik „w pamięci”</label
+                  >
+                  <p class="hint">
+                    🧠 policzysz od ręki, 💡 wystarczy jeden pomysł; kliknięcie znacznika pokazuje
+                    podpowiedź, od czego zacząć (bez zdradzania wyniku)
+                  </p>
                 </div>
                 <div class="optgroup">
                   <label
@@ -179,6 +187,8 @@
                   <label><input type="checkbox" id="printRok" checked> Rok</label>
                   <label><input type="checkbox" id="printEtap" checked> Etap</label>
                   <label><input type="checkbox" id="printTopics"> Tematy</label>
+                  <label><input type="checkbox" id="printMental"> Znacznik „w pamięci”</label>
+                  <p class="hint">🧠 / 💡 przy zadaniu; sama podpowiedź nigdy się nie drukuje</p>
                 </div>
                 <div class="optgroup">
                   <p class="sublabel">Brudnopis:</p>
@@ -298,7 +308,12 @@
           <li>wycięcie rysunków z arkuszy,</li>
           <li>automatyczną kategoryzację zadań (przypisanie tematów),</li>
           <li>weryfikację kluczy i niezależne rozwiązanie zadań przez agentów LLM,</li>
-          <li>narysowanie większości rysunków na nowo w formie grafiki wektorowej (SVG).</li>
+          <li>narysowanie większości rysunków na nowo w formie grafiki wektorowej (SVG),</li>
+          <li>
+            ocenę, które zadania da się rozwiązać w pamięci — agent rozwiązywał każde zadanie i
+            rozstrzygał, czy uczeń poradzi sobie bez zapisywania czegokolwiek &ndash; zobacz filtr
+            <em>W pamięci</em> i znaczniki 🧠 / 💡 przy zadaniach.
+          </li>
         </ol>
 
         <h3>Dbałość o poprawność</h3>
