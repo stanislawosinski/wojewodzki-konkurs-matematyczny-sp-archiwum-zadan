@@ -1199,6 +1199,12 @@ select {
   box-sizing: border-box;
   font-size: 0.75rem;
 } /* the "Wylosuj" count; fixed width, the button takes the rest of the row */
+
+/* the draw row lives outside .idbox (phones hide the id box but keep the 🎲) yet must hug
+   it on desktop: pull the sidebar's 1.5em column gap back down to the .selrow 0.4rem */
+.drawrow {
+  margin-top: calc(0.4rem - 1.5em);
+}
 #include {
   font-family: monospace;
   font-size: 0.8rem;
@@ -1751,7 +1757,9 @@ body.hide-mental .mental-toggle {
 @media screen and (hover: none) {
   .gutter,
   .reveal > summary,
-  .scratch-toggle {
+  .scratch-toggle,
+  .mental-toggle,
+  .figsize {
     opacity: 1;
   }
 }
@@ -1779,6 +1787,7 @@ body.hide-mental .mental-toggle {
   .idbox,
   .gutter,
   .scratch-toggle,
+  .mental-toggle,
   .svgtoggle,
   .figsize,
   #clearSelBar,
@@ -1786,6 +1795,11 @@ body.hide-mental .mental-toggle {
   .tb-sep,
   .settings-pop section + section {
     display: none;
+  }
+
+  /* the id box the draw row hugs on desktop is hidden here — no gap to cancel */
+  .drawrow {
+    margin-top: 0;
   }
   /* ☰ opens the drawer; sized like the ⚙ across the bar. The negative margin cancels the
      glyph padding, putting ☰ flush on the text edge; the translate lifts the ink onto the
@@ -2108,7 +2122,9 @@ body.hide-mental .mental-toggle {
   html.dark .reorder,
   html.dark .reveal > summary,
   html.dark .scratch-toggle,
+  html.dark .mental-toggle,
   html.dark .svgtoggle,
+  html.dark .figsize,
   html.dark .settings-pop .sublabel,
   html.dark .topic-mode,
   html.dark #settingsBtn,
@@ -2167,7 +2183,9 @@ body.hide-mental .mental-toggle {
   html.dark .info-i:hover,
   html.dark .reorder:hover,
   html.dark .scratch-toggle:hover,
+  html.dark .mental-toggle:hover,
   html.dark .svgtoggle:hover,
+  html.dark .figsize:hover,
   html.dark .dupmark:hover,
   html.dark .simmark:hover,
   html.dark .progmark:hover {
@@ -2184,7 +2202,9 @@ body.hide-mental .mental-toggle {
   html.dark .reorder,
   html.dark .reveal > summary,
   html.dark .scratch-toggle,
-  html.dark .svgtoggle {
+  html.dark .mental-toggle,
+  html.dark .svgtoggle,
+  html.dark .figsize {
     background: hsl(var(--tint-h) 13% 19%);
   }
   html.dark .clearbtn:hover,
@@ -2260,6 +2280,7 @@ body.hide-mental .mental-toggle {
   html.dark .scratch-toggle.on,
   html.dark .mental-toggle.on,
   html.dark .svgtoggle.on,
+  html.dark .figsize.on,
   html.dark .progmark.zrob {
     border-color: hsl(130 26% 38%);
     background: hsl(130 24% 15%);

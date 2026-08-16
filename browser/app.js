@@ -41,6 +41,21 @@ function facetMatched() {
   return { matched: DATA.filter(q => hits.has(q.hash)), gate, excSet, terms, andKeys };
 }
 
+// carry open reveals over to a freshly rendered qlist — re-rendering must not snap open
+// answers shut (marking ✓ right after checking the answer is the normal flow)
+const openRevealHashes = () =>
+  new Set([...qlist.querySelectorAll(".reveal[open]")].map(d => d.closest(".q").dataset.hash));
+function reopenReveals(hashes) {
+  if (!hashes.size) {
+    return;
+  }
+  for (const el of qlist.querySelectorAll(".q")) {
+    if (hashes.has(el.dataset.hash)) {
+      el.querySelector(".reveal").open = true;
+    }
+  }
+}
+
 function update() {
   const incIds = idList(inc.value),
     useInc = incIds.length > 0;
@@ -68,9 +83,11 @@ function update() {
   page = Math.min(Math.max(1, page), pages);
   const start = (page - 1) * PAGE_SIZE;
   const shownPage = matched.slice(start, start + PAGE_SIZE);
+  const openReveals = openRevealHashes();
   qlist.innerHTML = shownPage
     .map((q, i) => renderQuestion(q, useInc ? start + i + 1 : null))
     .join("\n");
+  reopenReveals(openReveals);
 
   // print-only key sheet mirrors the questions on the page, in the same order (see @media print)
   const keyEntries = shownPage

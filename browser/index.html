@@ -257,24 +257,25 @@
             <button type="button" id="copySel" title="Kopiuj zawartość">Skopiuj</button>
             <button type="button" id="clearSel" title="Wyczyść pole id">Wyczyść</button>
           </div>
-          <div class="selrow">
-            <button
-              type="button"
-              id="drawBtn"
-              title="Wylosuj zadania spośród pasujących do filtrów — ich id trafią do pola wyżej"
-            >
-              🎲 Wylosuj
-            </button>
-            <input
-              type="number"
-              id="drawN"
-              min="1"
-              step="1"
-              value="10"
-              title="Ile zadań wylosować"
-              aria-label="Liczba zadań do wylosowania"
-            >
-          </div>
+        </div>
+        <!-- outside .idbox, which phones hide — drawing a quiz works there too -->
+        <div class="selrow drawrow">
+          <button
+            type="button"
+            id="drawBtn"
+            title="Wylosuj zadania spośród pasujących do filtrów — ich id trafią do pola wyżej"
+          >
+            🎲 Wylosuj
+          </button>
+          <input
+            type="number"
+            id="drawN"
+            min="1"
+            step="1"
+            value="10"
+            title="Ile zadań wylosować"
+            aria-label="Liczba zadań do wylosowania"
+          >
         </div>
         <div id="facets"></div>
         <label
