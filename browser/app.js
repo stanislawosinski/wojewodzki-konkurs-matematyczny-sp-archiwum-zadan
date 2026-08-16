@@ -278,8 +278,18 @@ const PIN_BUTTONS = [
   [".svgtoggle", toggleFigureFormat],
   [".scratch-toggle", toggleScratchPin],
   [".mental-toggle", toggleMentalMark],
-  [".figsize", adjustFigureSize]
+  [".figsize", adjustFigureSize],
+  [".dupmark", showDupCluster] // not a pin, but dispatched the same way
 ];
+
+// ×N duplicate chip: show every occurrence of the question as an explicit id list;
+// pushed into history, so Wstecz returns to the previous sheet
+function showDupCluster(btn) {
+  const q = byHash[btn.closest(".q").dataset.hash];
+  inc.value = (q.dup || []).join(", ");
+  writeUrl(true);
+  refilter();
+}
 
 function wireQlist() {
   qlist.addEventListener("change", e => {

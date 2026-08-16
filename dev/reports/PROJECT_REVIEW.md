@@ -50,20 +50,24 @@ SCHEMA.md nie dogonił danych:
 
 Posortowane wg wartość/koszt:
 
-1. **Rozwiązania AI dla zadań bez żadnego rozwiązania — 4850 zadań (64%).**
-   Największa luka treściowa korpusu: oficjalne `solution_html` ma 2080 zadań,
-   `model.solution_html` — 744 (keyless + adjudykowane). Infrastruktura już istnieje:
+1. **Rozwiązania AI dla 4850 zadań (64%), które mają klucz, ale bez drogi dojścia.**
+   Klucz podaje tylko literkę/krótką odpowiedź; oficjalne `solution_html` ma 2080 zadań,
+   `model.solution_html` — 744 (wszystkie 641 bezkluczowych + 103 z adjudykacji, 42
+   nakładają się z oficjalnymi). Znany wynik z klucza działa jako walidacja
+   wygenerowanego rozwiązania. Infrastruktura już istnieje:
    pole, render na arkuszu klucza, oznaczenie proweniencji AI. Kampania w stylu
    mental (jeden agent na arkusz, ~433 przebiegi), wynik do `model.solution_html`
    lub osobnego sidecara. Naturalny kandydat na następną kampanię.
-2. **Klastry duplikatów — zadania powtarzają się między arkuszami.** Dzisiejszy skan
-   (znormalizowany tekst promptu >60 znaków, dokładne dopasowanie) znajduje
-   **106 klastrów / 257 zadań** — te same zadania wracają między latami, etapami
-   i województwami (np. `rejonowy_2013-2014_slaskie_q1` w 5 arkuszach). Dwa poziomy:
-   - *za darmo, bez LLM*: dokładne klastry liczone w `build.mjs`, w przeglądarce
-     znacznik „to zadanie wystąpiło też w …" + odfiltrowanie powtórek z zestawu;
-   - *opcjonalnie, LLM*: near-duplikaty (zmienione liczby, przeredagowania) — dopiero
-     gdy dokładne klastry okażą się użyteczne.
+2. ~~**Klastry duplikatów**~~ — **ZROBIONE (2026-08-16)**: dokładne klastry
+   (znormalizowany prompt+choices, prompt >60 znaków; choices sortowane, więc
+   przetasowane odpowiedzi pod innymi literami też łapią) liczone w `build.mjs` → pole
+   `dup` w shardach, chip ×N przy zadaniu z infotipem, klik pokazuje cały klaster przez
+   „Pokaż tylko id". Wynik: **73 klastry / 149 zadań**. Zadania z figurami wykluczone
+   poza 2 parami zweryfikowanymi wizualnie (`DUP_FIGURE_OK`) — 4 kandydackie klastry
+   figurowe (śląskie gridy, lubelskie kąty) to ten sam tekst z INNYM rysunkiem; redrawy
+   SVG są niezależne, więc automatyczne porównanie figur nie istnieje.
+   Poziom 2, *opcjonalnie, LLM*: near-duplikaty (zmienione liczby, przeredagowania,
+   te 4 fałszywe klastry figurowe) — dopiero gdy dokładne klastry okażą się użyteczne.
 3. **Tagi metody rozwiązania** (równanie, rozbiór przypadków, niezmiennik, zasada
    szufladkowa, …) jako nowy facet — wartość średnia, `topics` częściowo to kryje.
    Nie robić na zapas.

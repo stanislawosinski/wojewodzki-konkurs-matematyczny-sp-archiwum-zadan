@@ -730,6 +730,22 @@ select {
 .hide-mental .mmark {
   display: none;
 }
+
+/* the ×N duplicate chip, next to the mental marker: the same question on other sheets;
+   hover lists them, click swaps the view to the whole cluster (screen-only, hidden in print) */
+.dupmark {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: none;
+  font-size: 0.72rem;
+  line-height: 1.1;
+  padding: 0.05rem 0.35rem;
+  color: #888;
+}
+.dupmark:hover {
+  color: #333;
+  border-color: var(--border-strong);
+}
 .hide-ai .facet[data-facet="weryf"] {
   display: none;
 } /* "Pokaż weryfikację AI" off → the Weryfikacja facet is hidden (its selection is also cleared) */
@@ -1492,6 +1508,9 @@ body.hide-mental .mental-toggle {
   .mental-toggle {
     display: none;
   } /* the marker override control never prints (its effect does) */
+  .dupmark {
+    display: none;
+  } /* the duplicate chip is navigation, not sheet content */
   .infotip {
     display: none;
   } /* an open popover (marker hint, facet ⓘ) would overlay the printed text */
@@ -2028,6 +2047,7 @@ body.hide-mental .mental-toggle {
   html.dark #settingsClose,
   html.dark .qid,
   html.dark .hash,
+  html.dark .dupmark,
   html.dark .qmeta .tag.ctx,
   html.dark .info-i {
     color: hsl(var(--tint-h) 9% 52%);
@@ -2047,7 +2067,8 @@ body.hide-mental .mental-toggle {
   html.dark .info-i:hover,
   html.dark .reorder:hover,
   html.dark .scratch-toggle:hover,
-  html.dark .svgtoggle:hover {
+  html.dark .svgtoggle:hover,
+  html.dark .dupmark:hover {
     color: hsl(var(--tint-h) 14% 84%);
     border-color: hsl(var(--tint-h) 12% 50%);
   }

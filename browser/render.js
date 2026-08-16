@@ -429,6 +429,23 @@ const mentalBtnTitle = q =>
     ? "Znacznik „w pamięci” włączony — kliknij, aby zdjąć go z tego zadania"
     : "Znacznik „w pamięci” wyłączony — kliknij, aby oznaczyć to zadanie";
 
+// The ×N duplicate chip: this exact question (same text and choices) appears on other sheets
+// too — build.mjs stamps the whole cluster's hashes into q.dup. Hover lists the other sheets;
+// click shows the cluster via "Pokaż tylko id" (wired in app.js).
+function dupMarkHtml(q) {
+  if (!q.dup) {
+    return "";
+  }
+  const others = q.dup
+    .filter(h => h !== q.hash)
+    .map(h => byHash[h])
+    .filter(Boolean)
+    .map(s => `${s.wojewodztwo} ${s.school_year} (${s.stage})`)
+    .join(", ");
+  const title = `To samo zadanie występuje też w: ${others} — kliknij, aby zobaczyć wszystkie wystąpienia`;
+  return `<button type="button" class="dupmark" title="${esc(title)}" aria-label="pokaż wszystkie wystąpienia zadania">×${q.dup.length}</button>`;
+}
+
 // the left-gutter block (select box + optional reorder arrows) and the three per-question
 // pin buttons ("w pamięci" marker, brudnopis size, figure format) that sit beside the question body
 function questionControlsHtml(q, seq, half, override, figFmt, figDefault) {
@@ -595,6 +612,7 @@ function renderQuestion(q, seq) {
     `<div class="qhead"><span class="qnum">Zadanie ${seq ?? q.number}.</span>` +
       `<span class="qid">(${q.points}p, <span class="hash" title="kliknij, aby skopiować id">${q.hash}</span>)</span>` +
       mentalMarkHtml(q) +
+      dupMarkHtml(q) +
       `<span class="qmeta">${metaHtml}</span></div>`,
     `<div class="prompt">${q.prompt_html}</div>`,
     figuresHtml(q, figFmt),

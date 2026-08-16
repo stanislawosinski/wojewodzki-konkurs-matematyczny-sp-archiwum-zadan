@@ -159,6 +159,69 @@ if (badTopics.length) {
   process.exit(1);
 }
 
+// Cross-corpus duplicate detection: the same question returns across years, stages and
+// voivodeships, so clusters are computed over all stages at once (the browser loads all
+// three shards, cross-stage hashes resolve). Key = normalized prompt+choices text; choices
+// are sorted, so a reshuffled answer list (same options under different letters) still
+// matches. Prompts ≤60 chars are skipped — short boilerplate ("Oblicz:") would cluster
+// unrelated questions.
+// Every member gets the full cluster (self included, corpus order) in `dup`; singletons none.
+const dupText = h =>
+  (h || "")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&[a-zA-Z#0-9]+;/g, " ")
+    .toLowerCase()
+    .replace(/[^a-ząćęłńóśźż0-9,.]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+// Figure-bearing members of a text cluster verified by eye (PNG crops; SVG redraws are
+// independent drawings, so no automated compare): these figures ARE the same picture.
+// The śląskie grid puzzles and the lubelskie angle pair failed the same check — same text,
+// different figure — which is why figure questions are otherwise excluded below.
+const DUP_FIGURE_OK = new Set([
+  "wojewodzki_2011-2012_warminsko-mazurskie_q5",
+  "wojewodzki_2014_podlaskie_sp_q6",
+  "szkolny_2016_podlaskie_q3",
+  "szkolny_2024-2025_zachodniopomorskie_q3"
+]);
+const dupClusters = new Map();
+for (const q of STAGES.flatMap(s => byStage[s])) {
+  // figure-bearing questions (incl. inline <img> in prompt/choices) are excluded unless
+  // verified above: the text can match while the figure differs. Precision over recall.
+  if (
+    !DUP_FIGURE_OK.has(q.id) &&
+    ((q.figures || []).length ||
+      `${q.prompt_html}|${JSON.stringify(q.choices)}`.includes("figures/"))
+  ) {
+    continue;
+  }
+  const p = dupText(q.prompt_html);
+  if (p.length <= 60) {
+    continue;
+  }
+  const k = `${p}|${(q.choices || [])
+    .map(c => dupText(c.html))
+    .sort()
+    .join("|")}`;
+  if (!dupClusters.has(k)) {
+    dupClusters.set(k, []);
+  }
+  dupClusters.get(k).push(q);
+}
+let dupC = 0,
+  dupQ = 0;
+for (const members of dupClusters.values()) {
+  if (members.length < 2) {
+    continue;
+  }
+  dupC++;
+  dupQ += members.length;
+  for (const q of members) {
+    q.dup = members.map(m => m.hash);
+  }
+}
+console.log(`duplicates: ${dupC} clusters / ${dupQ} questions`);
+
 // catalog.js: category -> ordered leaves for the browser's topic sidebar. A <script>, not fetch(), so
 // it works under file:// too. Strip a trailing "(przekrojowe)"-style note so it doesn't clutter the header.
 const catalog = CATEGORIES.map(c => [
