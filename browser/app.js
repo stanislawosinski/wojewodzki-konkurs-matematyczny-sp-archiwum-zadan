@@ -524,6 +524,15 @@ function wireToolbar() {
     document.body.classList.remove("print-key", "print-key-only")
   );
 
+  // "O serwisie" <-> "Wskazówki" cross-links: a popovertarget button *inside* a popover nests the
+  // new one under the old, so closing it would fall back to the opener. Close the opener first.
+  document.addEventListener("click", e => {
+    const link = e.target.closest(".about-xlink button");
+    if (link) {
+      link.closest("[popover]").hidePopover();
+    }
+  });
+
   // Dark-mode toggle: a device setting with its own localStorage key (separate from the settings
   // blob). The initial class is set pre-paint by the inline <head> script; here we sync the glyph.
   const syncThemeButton = () => {
