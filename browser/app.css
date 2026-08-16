@@ -1126,6 +1126,11 @@ select {
   padding: 0.3rem 0.2rem;
   white-space: nowrap;
 } /* no min-width:0, so each button never shrinks below its one-line text */
+.selrow input[type="number"] {
+  width: 3.6em;
+  box-sizing: border-box;
+  font-size: 0.75rem;
+} /* the "Wylosuj" count; fixed width, the button takes the rest of the row */
 #include {
   font-family: monospace;
   font-size: 0.8rem;
@@ -2114,6 +2119,7 @@ body.hide-mental .mental-toggle {
 
   /* text fields: a recessed, tinted well + tinted border instead of the flat UA dark-grey */
   html.dark .sidebar input[type="text"],
+  html.dark .sidebar input[type="number"],
   html.dark #include {
     background: hsl(var(--tint-h) 24% 10.5%);
     border: 1px solid hsl(var(--tint-h) 20% 30%);

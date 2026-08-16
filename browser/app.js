@@ -23,14 +23,31 @@ const foldDiacritics = s =>
     .replace(/[\u0300-\u036f]/g, "")
     .replace(/ł/g, "l");
 
-function update() {
-  const incIds = idList(inc.value),
-    useInc = incIds.length > 0;
+// The facet-filtered sheet (facets + search + exclusions), ignoring the "Pokaż tylko id"
+// override — update()'s default branch, and the pool "🎲 Wylosuj" samples from
+function facetMatched() {
   const excSet = new Set(idList(exc.value));
   const terms = foldDiacritics(search.value.toLowerCase()).split(/\s+/).filter(Boolean);
 
   // topic AND mode: a question must carry ALL selected topics (default OR = any of them)
   const andKeys = topicAnd ? new Set(["topic"]) : new Set();
+  const gate = h =>
+    !excSet.has(h) &&
+    (showPrzyroda || !byHash[h].topics?.includes("przyroda")) &&
+    terms.every(t => byHash[h]._search.includes(t));
+  const hits = new Set(Facets.matchedHashes(INDEX, selections, gate, universe, andKeys));
+
+  // DATA order = original document order
+  return { matched: DATA.filter(q => hits.has(q.hash)), gate, excSet, terms, andKeys };
+}
+
+function update() {
+  const incIds = idList(inc.value),
+    useInc = incIds.length > 0;
+
+  // computed in both branches so the draw + default view share one query; ~7k Set ops, cheap
+  const facet = facetMatched();
+  const { excSet, terms, andKeys } = facet;
 
   let matched, countSel, countGate;
   if (useInc) {
@@ -41,14 +58,9 @@ function update() {
     countSel = EMPTY_SELECTIONS;
     countGate = h => shown.has(h);
   } else {
-    const gate = h =>
-      !excSet.has(h) &&
-      (showPrzyroda || !byHash[h].topics?.includes("przyroda")) &&
-      terms.every(t => byHash[h]._search.includes(t));
-    const hits = new Set(Facets.matchedHashes(INDEX, selections, gate, universe, andKeys));
-    matched = DATA.filter(q => hits.has(q.hash)); // DATA order = original document order
+    matched = facet.matched;
     countSel = selections;
-    countGate = gate;
+    countGate = facet.gate;
   }
 
   // page + render
@@ -287,6 +299,27 @@ function showCluster(btn, field) {
   refilter();
 }
 
+// "🎲 Wylosuj": replace the sheet with N questions sampled from the current facet filters.
+// The id box's current content is ignored, so a second click rerolls from the same pool;
+// pushed into history, so Wstecz returns to the previous sheet.
+function drawRandom() {
+  const pool = facetMatched().matched.map(q => q.hash);
+  if (!pool.length) {
+    return;
+  }
+  const n = Math.min(Math.max(1, Math.floor($("drawN").valueAsNumber) || 10), pool.length);
+
+  // partial Fisher–Yates: only the n slots we keep need shuffling
+  for (let i = 0; i < n; i++) {
+    const j = i + Math.floor(Math.random() * (pool.length - i));
+    [pool[i], pool[j]] = [pool[j], pool[i]];
+  }
+  inc.value = pool.slice(0, n).join(", ");
+  document.body.classList.remove("drawer-open"); // phone: close the drawer to show the result
+  writeUrl(true);
+  refilter();
+}
+
 function wireQlist() {
   qlist.addEventListener("change", e => {
     if (!e.target.matches(".selectbox input")) {
@@ -478,6 +511,8 @@ function wireToolbar() {
     writeUrl(false);
     refilter();
   };
+  $("drawBtn").onclick = drawRandom;
+  $("drawN").onchange = saveSettings; // persist the count with the other device settings
   clearFacets.onclick = e => {
     e.preventDefault();
     clearAllFilters();
@@ -620,6 +655,7 @@ function saveSettings() {
       s[i.id] = i.checked;
     }
   }
+  s.drawN = $("drawN").value; // the one persisted control outside the popup ("Wylosuj" count)
   try {
     localStorage.setItem(SETTINGS_KEY, JSON.stringify(s));
   } catch {}
@@ -641,6 +677,9 @@ function restoreSettings() {
     } else if (typeof s[i.id] === "boolean") {
       i.checked = s[i.id];
     }
+  }
+  if (s.drawN) {
+    $("drawN").value = s.drawN; // garbage-safe: drawRandom() falls back to 10 and clamps
   }
 }
 
