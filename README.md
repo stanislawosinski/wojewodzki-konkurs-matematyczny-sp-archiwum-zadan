@@ -31,6 +31,11 @@ heavy lifting, in this order:
    disagreements adjudicated across model tiers.
 6. **Figure redraw** — 823 of those 855 crops redrawn as clean vector SVGs, switchable in the
    browser under ⚙ → *Rysunki wektorowe*.
+7. **Mental-math pass** — every question re-solved once more, this time to rule whether a pupil
+   could finish it with nothing written down, in two tiers (*od ręki* / *z pomysłem*) plus a Polish
+   one-line hint naming the move to start with. Drives the *W pamięci* filter and the 🧠 / 💡
+   markers; judgements live in `dev/mental/` and are merged into the shards at build time (see
+   [`dev/mental/README.md`](dev/mental/README.md)).
 
 Humans set the conventions, reviewed the redrawn figures, spot-checked questions, and made the
 structural decisions. The full reproducible procedure is preserved in
@@ -45,6 +50,9 @@ structural decisions. The full reproducible procedure is preserved in
 - **Suspected answer-key errors** are logged in
   [`suspected_key_errors.tsv`](suspected_key_errors.tsv) (38 reviewed: 6 wrong keys,
   1 wrong official solution, the rest confirmed correct).
+- The **🧠 / 💡 markers are one model's opinion**, not a property of the question — a judgement
+  about what a pupil can carry in their head. Disagree and the gutter button flips it for your
+  sheet; the data stays as judged.
 - The **original download URLs were not recorded and are lost** — see
   [`SOURCES.md`](dev/docs/SOURCES.md) for provenance and per-voivodeship re-derivation seeds.
 
@@ -56,7 +64,11 @@ structural decisions. The full reproducible procedure is preserved in
 is the short path from "I need twenty questions on the Pythagorean theorem" to a printed sheet:
 
 - **Filter** in the sidebar — topic (matching *any* or *every* selected topic), stage, year,
-  voivodeship, points, question type, school type — plus full-text search over the question text.
+  voivodeship, points, question type, school type, *W pamięci* (head-solvable: *od ręki* /
+  *z pomysłem*) — plus full-text search over the question text.
+- **Practise in your head** — head-solvable questions carry a 🧠 / 💡 marker; click it for a hint
+  on where to start that never gives the result away. The marker is a display flag: the box-button
+  in the left gutter turns it off (or on) per question, and that override travels in the URL.
 - **Curate** — tick the questions you want and press **Zaznaczone ↑** to collect their ids in the
   *Pokaż tylko id* box; that box *is* your worksheet. **Skopiuj** saves the id list and pasting it
   back restores the set; *Pomiń id* drops individual questions.
@@ -109,14 +121,16 @@ konkurs-mat/
     scripts/              # one-off pipeline & verification tools
     reports/              # point-in-time reviews (full verification reports live in git history)
     figures/              # figure redraw/contradiction campaign artifacts + review sheets
+    mental/   *.json      # "W pamięci" judgements, one sidecar per test; merged by build.mjs
   pdfs/
     szkolny/  rejonowy/  wojewodzki/   # source PDFs: <year>_<wojewodztwo>[_sp|_gim][_answers].pdf
   browser/
     data/     *.json      # source of truth — one structured JSON per test
     figures/  *.png       # cropped question figures
-    index.html app.css app.js   # the browser app (static, committed)
+    index.html app.css    # the browser app (static, committed)
+    facets.js defs.js render.js state.js app.js   # classic scripts, loaded in that order
     build.mjs             # JSON -> data shard preprocessor (Node, no dependencies)
-    # data.*.js data.*.json     # generated data shards — NOT committed; rebuild with build.mjs
+    # catalog.js data.*.js data.*.json   # generated — NOT committed; rebuild with build.mjs
 ```
 
 ## The data
@@ -145,7 +159,7 @@ shipped without any answer key — those carry corroborated blind-AI answers ins
 
 ## Building the browser
 
-The browser is a static page (`browser/index.html` + `app.css` + `app.js`) that renders questions
+The browser is a static page (`browser/index.html` + `app.css` + the five scripts) that renders questions
 client-side from generated per-stage data shards (not committed). It is auto-deployed to
 [GitHub Pages](https://stanislawosinski.github.io/wojewodzki-konkurs-matematyczny-sp-archiwum-zadan/)
 on every push to `main` (see [`.github/workflows/pages.yml`](.github/workflows/pages.yml)). To run

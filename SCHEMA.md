@@ -12,7 +12,8 @@ the browser UI.
 browser/
   data/<stage>_<year>_<wojewodztwo>.json      # source of truth, one per test
   figures/<question_id>_figN.png              # cropped bitmaps
-  index.html app.css app.js                    # the browser app (static, committed)
+  index.html app.css                           # the browser app (static, committed)
+  facets.js defs.js render.js state.js app.js  # classic scripts, loaded in that order
   build.mjs                                    # JSON -> data.<stage>.js/.json shards
 ```
 

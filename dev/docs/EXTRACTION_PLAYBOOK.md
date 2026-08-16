@@ -175,8 +175,9 @@ python3 -c "import hashlib,sys;print(hashlib.sha1(sys.argv[1].encode()).hexdiges
 
 `cd browser && node build.mjs` regenerates the data shards (`data.*.js` /
 `data.*.json`) + `catalog.js` from `browser/data/*.json`. It fails on unknown topic
-tags (vs `categories.json`) and derives the `suspect` fields from
-`suspected_key_errors.tsv`. `school_type` is a stored convenience copy derived from
+tags (vs `categories.json`), derives the `suspect` fields from
+`suspected_key_errors.tsv` and the `mental`/`mental_hint` fields from the
+`dev/mental/` sidecars. `school_type` is a stored convenience copy derived from
 the `competition` string (gimnazjum if it contains "gimnaz", else podstawowa).
 
 ## Follow-up passes (each run once over the whole corpus; re-run for new papers)
@@ -185,3 +186,7 @@ the `competition` string (gimnazjum if it contains "gimnaz", else podstawowa).
   `suspected_key_errors.tsv`. Recipe: **VERIFICATION.md**.
 - **Figure redraws** — bitmap→SVG, review sheets, angle-mark linter. Recipe:
   **FIGURE_REDRAW.md**; campaign registries stay in `dev/figures/`.
+- **"W pamięci" judgements** — one Opus agent per test solves every question and rules
+  whether it is head-solvable (`wprost` / `pomysl`) with a Polish hint → sidecars in
+  `dev/mental/`, merged into `mental`/`mental_hint`. Recipe + resume: `dev/mental/README.md`;
+  workflow: `dev/scripts/mental.workflow.mjs`.
