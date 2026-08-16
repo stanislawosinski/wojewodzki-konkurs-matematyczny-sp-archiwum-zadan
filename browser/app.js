@@ -14,11 +14,20 @@
 // Checked at event time, so crossing the breakpoint needs no resize listeners.
 const isPhone = () => matchMedia("(max-width: 600px)").matches;
 
+// diacritic fold for the free-text search, applied to both the index and the query so
+// "trojkat" finds "trójkąt". NFD strips the combining marks; ł has no decomposition
+// and needs its own mapping. Input is already lowercased.
+const foldDiacritics = s =>
+  s
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/ł/g, "l");
+
 function update() {
   const incIds = idList(inc.value),
     useInc = incIds.length > 0;
   const excSet = new Set(idList(exc.value));
-  const terms = search.value.toLowerCase().split(/\s+/).filter(Boolean);
+  const terms = foldDiacritics(search.value.toLowerCase()).split(/\s+/).filter(Boolean);
 
   // topic AND mode: a question must carry ALL selected topics (default OR = any of them)
   const andKeys = topicAnd ? new Set(["topic"]) : new Set();
@@ -844,7 +853,7 @@ function init(data) {
       " " +
       (q.choices || []).map(c => c.html).join(" ")
     ).replace(/<[^>]+>/g, " ");
-    q._search = scratch.value.replace(/\s+/g, " ").trim().toLowerCase();
+    q._search = foldDiacritics(scratch.value.replace(/\s+/g, " ").trim().toLowerCase());
     byHash[q.hash] = q;
   }
   INDEX = buildIndexFromData();
