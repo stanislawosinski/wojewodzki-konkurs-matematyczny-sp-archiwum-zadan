@@ -1,0 +1,22 @@
+{
+ "rejonowy_2015_opolskie_q1": {
+  "html": "<p>a: licznik −3+3·(−2)=−9, mianownik −3·(−1)=3, więc a=−9:3=−3.</p><p>b: licznik 5−3:(−3)=5+1=6, mianownik 5−3=2, więc b=6:2=3.</p><ul><li>−3 &gt; 3 — fałsz — <b>NIE</b>.</li><li>Odwrotność 3 to 1/3, a nie −3 — <b>NIE</b>.</li><li>−3 + 3 = 0 — <b>TAK</b>.</li></ul>",
+  "check": "FFP"
+ },
+ "rejonowy_2015_opolskie_q2": {
+  "html": "<p>Suma trzech kolejnych liczb naturalnych n, n+1, n+2 wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>n</mi><mo>+</mo><mn>3</mn><mo>=</mo><mn>3</mn><mo>(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo></math> — zawsze wielokrotność 3.</p><ul><li>Zawsze podzielna przez 3 — <b>TAK</b>.</li><li>1+2+3=6 (parzysta), ale 2+3+4=9 (nieparzysta) — nie zawsze parzysta — <b>NIE</b>.</li><li>Jak wyżej, 9 jest nieparzyste — <b>TAK</b>.</li></ul>",
+  "check": "PFP"
+ },
+ "rejonowy_2015_opolskie_q3": {
+  "html": "<p>Majka: 250 pierogów, Asia: 200.</p><ul><li>(250−200):200 = 25% — Majka zrobiła o 25% więcej — <b>TAK</b>.</li><li>(250−200):250 = 20%, a nie 25% — <b>NIE</b>.</li><li>Asia +25%: 200·1,25 = 250; razem 250+250 = 500 — <b>TAK</b>.</li></ul>",
+  "check": "PFP"
+ },
+ "rejonowy_2015_opolskie_q4": {
+  "html": "<ul><li>Kąty ostre: 180°−90° = 90° — <b>TAK</b>.</li><li>Dwusieczne kątów ostrych α, β tworzą kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>180</mn><mo>°</mo><mo>−</mo><mfrac><mrow><mi>α</mi><mo>+</mo><mi>β</mi></mrow><mn>2</mn></mfrac><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>45</mn><mo>°</mo><mo>=</mo><mn>135</mn><mo>°</mo></math> — <b>TAK</b>.</li><li>Dwusieczna kąta prostego jest prostopadła do przeciwprostokątnej tylko w trójkącie równoramiennym, nie zawsze — <b>NIE</b>.</li></ul>",
+  "check": "PPF"
+ },
+ "rejonowy_2015_opolskie_q5": {
+  "html": "<p>Liczby z cyfr 3, 4, 5 bez powtórzeń: 345, 354, 435, 453, 534, 543.</p><ul><li>Kończą się na 5: 345, 435 — dokładnie dwie — <b>TAK</b>.</li><li>Kończą się na 4 (parzyste): 354, 534 — dokładnie dwie — <b>TAK</b>.</li><li>Suma cyfr 3+4+5=12 dzieli się przez 3, więc wszystkie 6 liczb jest podzielnych przez 3, a nie dokładnie dwie — <b>NIE</b>.</li></ul>",
+  "check": "PPF"
+ }
+}

@@ -1,0 +1,70 @@
+{
+  "szkolny_2025_kujawsko-pomorskie_q1": {
+    "html": "<p>Niech j oznacza cyfrę jedności. Cyfra dziesiątek to 3j, a cyfra setek to 2j (bo jedności jest o połowę mniejsze). Musi być 3j ≤ 9, czyli j ≤ 3, oraz 2j ≤ 4 (bo liczba jest mniejsza od 500), czyli j ≤ 2. Dla j=1 mamy 231, dla j=2 – 462: razem 2 liczby.</p>",
+    "check": "B"
+  },
+  "szkolny_2025_kujawsko-pomorskie_q2": {
+    "html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>5</mn></msqrt><mo>≈</mo><mn>2,24</mn></math>, więc najmniejsze całkowite k to −2. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>50</mn></msqrt><mo>≈</mo><mn>7,07</mn></math>, więc największe całkowite k to 7. Liczb całkowitych od −2 do 7 jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mo>−</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo><mo>+</mo><mn>1</mn><mo>=</mo><mn>10</mn></math>.</p>",
+    "check": "C"
+  },
+  "szkolny_2025_kujawsko-pomorskie_q3": {
+    "html": "<p>Na rysunku środkowy i prawy trójkąt w drugim rzędzie stykają się bokiem i oba są szare, a lewy trójkąt drugiego rzędu styka się bokiem z trójkątem poniżej w trzecim rzędzie – oba są czarne. To dwie osobne pary jednakowych sąsiadów (żaden trójkąt nie należy do obu par), więc trzeba przemalować co najmniej 2 trójkąty. Przemalowanie lewego i prawego trójkąta z drugiego rzędu usuwa obie niezgodności bez tworzenia nowych.</p>",
+    "check": "B"
+  },
+  "szkolny_2025_kujawsko-pomorskie_q4": {
+    "html": "<p>20% z 500 zł to 100 zł, więc Michał ma 600 zł, co stanowi 25% ceny laptopa. Cena laptopa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>600</mn><mo>:</mo><mn>0,25</mn><mo>=</mo><mn>2400</mn></math> zł. Dziadkowie dają połowę ceny: 1200 zł. Michał ma już <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>600</mn><mo>+</mo><mn>1200</mn><mo>=</mo><mn>1800</mn></math> zł, więc brakuje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2400</mn><mo>−</mo><mn>1800</mn><mo>=</mo><mn>600</mn></math> zł.</p>",
+    "check": "A"
+  },
+  "szkolny_2025_kujawsko-pomorskie_q5": {
+    "html": "<p>Największa liczba czterocyfrowa podzielna przez 4 to 9996, a najmniejsza podzielna przez 9 to 1008. Różnica: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9996</mn><mo>−</mo><mn>1008</mn><mo>=</mo><mn>8988</mn></math>. Cyfra jedności sześcianu zależy tylko od cyfry jedności liczby (8): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>8</mn><mn>3</mn></msup><mo>=</mo><mn>512</mn></math>, więc cyfra jedności to 2.</p>",
+    "check": "B"
+  },
+  "szkolny_2025_kujawsko-pomorskie_q6": {
+    "html": "<p>Dwuzłotówek jest x−4, a pięciozłotówek x+1. Łączna wartość monet: 1·x+2·(x−4)+5·(x+1)=8x−3, czyli 8x−3=53.</p>",
+    "check": "C"
+  },
+  "szkolny_2025_kujawsko-pomorskie_q7": {
+    "html": "<p>Bok podstawy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>36</mn></msqrt><mo>=</mo><mn>6</mn></math> cm. Wysokość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>180</mn><mo>:</mo><mn>36</mn><mo>=</mo><mn>5</mn></math> cm. Pole całkowite: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>36</mn><mo>+</mo><mn>4</mn><mo>·</mo><mn>6</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>72</mn><mo>+</mo><mn>120</mn><mo>=</mo><mn>192</mn></math> cm².</p>",
+    "check": "D"
+  },
+  "szkolny_2025_kujawsko-pomorskie_q8": {
+    "html": "<p>Niech x to liczba worków 2 kg, a y – worków 5 kg. x+y=28 oraz 2x=5y, stąd x=2,5y. Podstawiając: 3,5y=28, więc y=8 i x=20.</p>",
+    "check": "D"
+  },
+  "szkolny_2025_kujawsko-pomorskie_q9": {
+    "html": "<p>Odwrotność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>9</mn></mfrac></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>9</mn><mn>5</mn></mfrac></math>. Szukana liczba: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>9</mn><mn>5</mn></mfrac><mo>−</mo><mfrac><mn>5</mn><mn>9</mn></mfrac><mo>=</mo><mfrac><mn>81</mn><mn>45</mn></mfrac><mo>−</mo><mfrac><mn>25</mn><mn>45</mn></mfrac><mo>=</mo><mfrac><mn>56</mn><mn>45</mn></mfrac></math>.</p>",
+    "check": "C"
+  },
+  "szkolny_2025_kujawsko-pomorskie_q10": {
+    "html": "<p>Cała działka: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1350</mn><mo>:</mo><mn>0,4</mn><mo>=</mo><mn>3375</mn></math> m². Kwadrat to 60% działki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3375</mn><mo>·</mo><mn>0,6</mn><mo>=</mo><mn>2025</mn></math> m² <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><msup><mi>a</mi><mn>2</mn></msup></math>, więc a=45 m. Obwód kwadratu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>45</mn><mo>=</mo><mn>180</mn></math> m.</p>",
+    "check": "C"
+  },
+  "szkolny_2025_kujawsko-pomorskie_q11": {
+    "html": "<p>Pole rombu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>8</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>24</mn></math> cm². Wysokość to pole podzielone przez bok: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mo>:</mo><mn>5</mn><mo>=</mo><mn>4,8</mn></math> cm.</p>",
+    "check": "B"
+  },
+  "szkolny_2025_kujawsko-pomorskie_q12": {
+    "html": "<p>Suma sześciu wyników: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>+</mo><mn>5</mn><mo>+</mo><mn>7</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>8</mn><mo>+</mo><mn>3</mn><mo>=</mo><mn>30</mn></math>. Suma siedmiu wyników przy średniej 5: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>35</mn></math>. Siódmy wynik: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>35</mn><mo>−</mo><mn>30</mn><mo>=</mo><mn>5</mn></math>.</p>",
+    "check": "C"
+  },
+  "szkolny_2025_kujawsko-pomorskie_q13": {
+    "html": "<p>Niech k oznacza liczbę krów, a g – gęsi. k+g=18 oraz 4k+2g=50, czyli 2k+g=25. Odejmując pierwsze równanie: k=25−18=7.</p>",
+    "check": "D"
+  },
+  "szkolny_2025_kujawsko-pomorskie_q14": {
+    "html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>55</mn></mfrac><mo>=</mo><mn>0,0363636…</mn></math> – od drugiej cyfry po przecinku powtarza się blok „36”. Na miejscach parzystych (2., 4., …) jest 3, a na nieparzystych od trzeciego (3., 5., …) jest 6. Piętnaste miejsce jest nieparzyste, więc cyfra to 6.</p>",
+    "check": "A"
+  },
+  "szkolny_2025_kujawsko-pomorskie_q15": {
+    "html": "<p>Białych kul jest 4, a łącznie po dołożeniu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> niebieskich jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mo>+</mo><mi>x</mi></math> kul. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mrow><mn>9</mn><mo>+</mo><mi>x</mi></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>5</mn></mfrac></math> wynika <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mo>+</mo><mi>x</mi><mo>=</mo><mn>20</mn></math>, czyli x=11.</p>",
+    "check": "C"
+  },
+  "szkolny_2025_kujawsko-pomorskie_q16": {
+    "html": "<p>Czas wejścia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>17</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>5</mn></math> h 40 min, więc na szczyt dotarł o 13:20. Po 25 min postoju wyruszył o 13:45, a do domu dotarł o 18:00 – powrót trwał 4 h 15 min, prędkość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>17</mn><mo>:</mo><mn>4,25</mn><mo>=</mo><mn>4</mn></math> km/h.</p><ul><li>szczyt osiągnął o 13:20, nie o 13:45 – <b>F</b>.</li><li>prędkość powrotna to 4 km/h – <b>P</b>.</li><li>łącznie przeszedł 34 km, a 34=2·17 nie jest liczbą pierwszą – <b>F</b>.</li></ul>",
+    "check": "FPF"
+  },
+  "szkolny_2025_kujawsko-pomorskie_q17": {
+    "html": "<p>Oś symetrii trójkąta równoramiennego zamienia miejscami oba ramiona, więc wysokości poprowadzone do tych ramion są równej długości.</p><ul><li>to zawsze prawda – <b>P</b>.</li><li>kwadrat ma wszystkie boki równe i wszystkie kąty proste, więc jest szczególnym rombem – <b>P</b>.</li></ul>",
+    "check": "PP"
+  }
+}

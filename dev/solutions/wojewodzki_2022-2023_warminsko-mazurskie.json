@@ -1,0 +1,82 @@
+{
+  "wojewodzki_2022-2023_warminsko-mazurskie_q1": {
+    "html": "<p>Liczba podzielna przez 6 musi być parzysta i mieć sumę cyfr podzielną przez 3. Suma znanych cyfr liczby wynosi 22. Najmniejsza cyfra parzysta, dla której 22+* dzieli się przez 3, to 2 (22+2=24).</p>",
+    "check": "C"
+  },
+  "wojewodzki_2022-2023_warminsko-mazurskie_q2": {
+    "html": "<p>Trzy odcinki tworzą trójkąt, gdy każdy z nich jest krótszy od sumy dwóch pozostałych. Przy sumie długości równej 20 warunek ten spełniają tylko długości 6, 7 i 7, bo 6&lt;7+7 oraz 7&lt;6+7.</p>",
+    "check": "D"
+  },
+  "wojewodzki_2022-2023_warminsko-mazurskie_q3": {
+    "html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mn>5</mn><mo>−</mo><mn>11</mn><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mn>11</mn><mo>−</mo><mo>(</mo><mo>−</mo><mn>5</mn><mo>)</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>−</mo><mn>6</mn><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mn>16</mn><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>6</mn><mo>+</mo><mn>16</mn><mo>=</mo><mn>22</mn></math></p>",
+    "check": "A"
+  },
+  "wojewodzki_2022-2023_warminsko-mazurskie_q4": {
+    "html": "<p>Paczka mieści się w paczkomacie, gdy jej wymiary nie przekraczają 38×41×64 cm, a masa 25 kg. Paczka 1 ma bok 66 cm — za długa. Paczka 3 waży 26 kg — za ciężka. Paczka 2 (59×40×38 cm, 25 kg) i paczka 4 (63×39×26 cm, 22 kg) spełniają oba warunki.</p>",
+    "check": "B"
+  },
+  "wojewodzki_2022-2023_warminsko-mazurskie_q5": {
+    "html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>22</mn></msup><mo>−</mo><mn>9</mn><mo>·</mo><msup><mn>2</mn><mn>19</mn></msup><mo>=</mo><msup><mn>2</mn><mn>19</mn></msup><mo>·</mo><mo>(</mo><msup><mn>2</mn><mn>3</mn></msup><mo>−</mo><mn>9</mn><mo>)</mo><mo>=</mo><msup><mn>2</mn><mn>19</mn></msup><mo>·</mo><mo>(</mo><mn>8</mn><mo>−</mo><mn>9</mn><mo>)</mo><mo>=</mo><mo>−</mo><msup><mn>2</mn><mn>19</mn></msup></math></p>",
+    "check": "B"
+  },
+  "wojewodzki_2022-2023_warminsko-mazurskie_q6": {
+    "html": "<p>Do 800 zaokrąglają się liczby, których cyfra dziesiątek to 5–9 (w górę z siedmiuset kilkudziesięciu) lub 0–4 (w dół z ośmiuset kilkudziesięciu) — czyli liczby od 750 do 849. Jest ich 849−750+1=100.</p>",
+    "check": "D"
+  },
+  "wojewodzki_2022-2023_warminsko-mazurskie_q7": {
+    "html": "<p>Skala 1 : 500 000 oznacza, że 1 cm na mapie to 500 000 cm, czyli 5 km w terenie. Odcinek 3 cm odpowiada więc 3·5 km=15 km.</p>",
+    "check": "C"
+  },
+  "wojewodzki_2022-2023_warminsko-mazurskie_q8": {
+    "html": "<p>Pole powierzchni całkowitej czworościanu foremnego o krawędzi a to poczwórne pole trójkąta równobocznego o boku a: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>4</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><msqrt><mn>3</mn></msqrt><msup><mi>a</mi><mn>2</mn></msup></math>. Dla a=5: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>25</mn><msqrt><mn>3</mn></msqrt></math>.</p>",
+    "check": "D"
+  },
+  "wojewodzki_2022-2023_warminsko-mazurskie_q9": {
+    "html": "<p>Z siatki widać, które ściany sześcianu leżą naprzeciw siebie: szary kwadrat naprzeciw szarego trójkąta, szare koło naprzeciw białego trójkąta, białe koło naprzeciw białego kwadratu. Dwóch ścian przeciwległych nie widać nigdy razem na jednym rysunku sześcianu — ten warunek spełnia tylko rysunek C.</p>",
+    "check": "C"
+  },
+  "wojewodzki_2022-2023_warminsko-mazurskie_q10": {
+    "html": "<p>Suma czterech ocen wynosi 4·4=16. Gdyby trzy testy miały ocenę 3 (razem 9), czwarty test musiałby dać ocenę 16−9=7, a to niemożliwe, bo najwyższa ocena to 6.</p>",
+    "check": "D"
+  },
+  "wojewodzki_2022-2023_warminsko-mazurskie_q11": {
+    "html": "<p>Cofając się od 50: liczbę parzystą dzielimy przez 2 (cofnięcie podwojenia), nieparzystą pomniejszamy o 1: 50→25→24→12→6→3→2→1→0. To 8 kroków, więc automat wykonał minimalnie 8 operacji.</p>",
+    "check": "B"
+  },
+  "wojewodzki_2022-2023_warminsko-mazurskie_q12": {
+    "html": "<p>Wspólna krawędź dwóch ścian musi dzielić zarówno 45, jak i 36 — możliwe długości to 1, 3 lub 9 cm. Dają one krawędzie 45×1×36, 15×3×12 oraz 5×9×4 — trzy różne prostopadłościany.</p>",
+    "check": "C"
+  },
+  "wojewodzki_2022-2023_warminsko-mazurskie_q13": {
+    "html": "<p>48 uczniów podzielono w stosunku 3:8:5, czyli na 3+8+5=16 części, każda po 48:16=3 uczniów. Siódmoklasistów było 8·3=24, co stanowi 24:48=50% wszystkich uczestników.</p>",
+    "check": "D"
+  },
+  "wojewodzki_2022-2023_warminsko-mazurskie_q14": {
+    "html": "<p>Łuk ciągły i łuk przerywany razem tworzą pełny okrąg (360°). Jeśli łuk ciągły jest 4 razy krótszy od przerywanego, to stanowi 1 z 5 równych części okręgu: 360°:5=72°.</p>",
+    "check": "B"
+  },
+  "wojewodzki_2022-2023_warminsko-mazurskie_q15": {
+    "html": "<p>Łączna masa zbiorów: 50+75+125+100+150+25=525 kg. 5% z 525 kg to 26,25 kg. W sobotę zebrano 25 kg, czyli mniej niż 26,25 kg — mniej niż 5% całego zbioru.</p>",
+    "check": "D"
+  },
+  "wojewodzki_2022-2023_warminsko-mazurskie_q16": {
+    "html": "<ul><li>Równoległobok o bokach równej długości to romb, który nie musi mieć kątów prostych.</li><li>Równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mn>121</mn></math> ma dwa rozwiązania całkowite: 11 i −11.</li><li>Kąt środkowy między 12 a 9, po stronie bez 4, to 3·30°=90°. Kąt wpisany oparty na tym łuku, czyli kąt trójkąta przy wierzchołku 4, to połowa: 45°.</li><li>Cyfry jedności potęg 7 powtarzają się co 4: 7,9,3,1,…; 1325=4·331+1, więc cyfra jedności to taka sama jak dla 7¹, czyli 7.</li><li>Skracanie ułamka nie zmienia jego wartości.</li></ul>",
+    "check": "FFPPF"
+  },
+  "wojewodzki_2022-2023_warminsko-mazurskie_q17": {
+    "html": "<p>Po rozłożeniu na płasko dwóch sąsiadujących ścian sześcianu powstaje prostokąt o bokach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>a</mi></math>. Najkrótsza droga mrówki to przekątna tego prostokąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><msqrt><mn>5</mn></msqrt></math>. Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><msqrt><mn>5</mn></msqrt></math> wynosi ona <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>5</mn></msqrt><mo>·</mo><msqrt><mn>5</mn></msqrt><mo>=</mo><mn>5</mn></math>.</p>",
+    "check": "5"
+  },
+  "wojewodzki_2022-2023_warminsko-mazurskie_q18": {
+    "html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi></math> oznacza prędkość rowerzysty w km/h. Ta sama trasa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mi>v</mi><mo>=</mo><mn>3</mn><mo>(</mo><mi>v</mi><mo>+</mo><mn>10</mn><mo>)</mo></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>v</mi><mo>=</mo><mn>30</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>v</mi><mo>=</mo><mn>15</mn></math> km/h. Trasa to 5·15 km=75 km.</p>",
+    "check": "75 km"
+  },
+  "wojewodzki_2022-2023_warminsko-mazurskie_q19": {
+    "html": "<p>Liczba pięciocyfrowa mniejsza od 20 000 zaczyna się cyfrą 1. Suma cyfr to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>3</mn></msup><mo>=</mo><mn>27</mn></math>, więc druga cyfra (pierwiastek sześcienny z sumy) to 3. Cyfra dziesiątek to 2·3=6, ostatnia to 3+6=9. Z sumy: pierwsza+trzecia=27−3−6−9=9, więc trzecia cyfra to 9−1=8. Liczba: 13869.</p>",
+    "check": "NO 13869"
+  },
+  "wojewodzki_2022-2023_warminsko-mazurskie_q20": {
+    "html": "<p>W trójkącie BCL boki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi><mo>=</mo><mi>CL</mi><mo>=</mo><mi>a</mi></math>, a kąt BCL = kąt kwadratu + kąt trójkąta równobocznego = 90°+60°=150°. Trójkąt jest równoramienny, więc kąt BLC=(180°−150°):2=15°. Z twierdzenia cosinusów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BL</mi><mo>=</mo><msqrt><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><mn>2</mn><msup><mi>a</mi><mn>2</mn></msup><mi>cos</mi><mn>150</mn><mo>°</mo></mrow></msqrt><mo>=</mo><mi>a</mi><msqrt><mrow><mn>2</mn><mo>+</mo><msqrt><mn>3</mn></msqrt></mrow></msqrt></math>.</p>",
+    "check": "kąt BLC = 15°, BL = a√(2+√3)"
+  }
+}

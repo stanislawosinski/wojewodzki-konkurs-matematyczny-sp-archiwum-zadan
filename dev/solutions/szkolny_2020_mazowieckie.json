@@ -1,0 +1,10 @@
+{
+ "szkolny_2020_mazowieckie_q1": {
+  "html": "<p>Kwadraty liczb od 0 do 9 to: 0, 1, 4, 9, 16, 25, 36, 49, 64, 81 — ich cyframi jedności są 0, 1, 4, 9, 6, 5, 6, 9, 4, 1.</p><p>Cyfrą jedności kwadratu liczby całkowitej może więc być tylko 0, 1, 4, 5, 6 lub 9 — nigdy 2, 3, 7, 8.</p>",
+  "check": "C"
+ },
+ "szkolny_2020_mazowieckie_q3": {
+  "html": "<p>Ramiona mają długość 12, podstawa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> jest całkowita. Z nierówności trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>&lt;</mo><mn>12</mn><mo>+</mo><mn>12</mn><mo>=</mo><mn>24</mn></math>, więc największa całkowita podstawa to 23, a największy możliwy obwód to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>+</mo><mn>12</mn><mo>+</mo><mn>23</mn><mo>=</mo><mn>47</mn></math> — nie może być większy lub równy 49.</p><p>Trójkąt równoboczny o boku 12 (12, 12, 12) jest szczególnym przypadkiem równoramiennego i ma wszystkie kąty równe, po 60°.</p>",
+  "check": "FP"
+ }
+}

@@ -41,6 +41,12 @@ heavy lifting, in this order:
    similar leftovers (including figure pairs, compared picture against picture) were judged by a
    model and reviewed (see [`dev/dups/README.md`](dev/dups/README.md)). Drives the ×N / ~N chips
    next to affected questions.
+9. **Solution pass** — two thirds of the keyed questions come with a bare letter and nothing else:
+   the organisers published a derivation for only 2080 of them. Every such question was solved once
+   more, this time to write the path down in Polish, with the printed key acting as the check on
+   the result. 4847 derivations live in `dev/solutions/` and are merged into the shards at build
+   time (see [`dev/solutions/README.md`](dev/solutions/README.md)); they are labelled *Rozwiązanie
+   AI* wherever they appear.
 
 Humans set the conventions, reviewed the redrawn figures, spot-checked questions, and made the
 structural decisions. The full reproducible procedure is preserved in
@@ -55,6 +61,10 @@ structural decisions. The full reproducible procedure is preserved in
 - **Suspected answer-key errors** are logged in
   [`suspected_key_errors.tsv`](suspected_key_errors.tsv) (38 reviewed: 6 wrong keys,
   1 wrong official solution, the rest confirmed correct).
+- The derivations marked ***Rozwiązanie AI* were written by a model**, not by the organisers. Each
+  one had to land on the printed key to be kept — and none of the 4847 disagrees with it — but the
+  path itself is unreviewed: a right answer reached by a clumsy or wrong argument is possible.
+  Where the model could not find an honest path it wrote nothing rather than fake one.
 - The **🧠 / 💡 markers are one model's opinion**, not a property of the question — a judgement
   about what a pupil can carry in their head. Disagree and the gutter button flips it for your
   sheet; the data stays as judged.
@@ -78,6 +88,10 @@ is the short path from "I need twenty questions on the Pythagorean theorem" to a
   (exact reprint) or a ~N chip (same problem, different numbers); hover lists the other sheets,
   a click shows the whole cluster, and the *Powtórki* filter selects questions that have a
   duplicate or a variant.
+- **See how it is done** — the 👁 reveal shows the official derivation where the organiser
+  published one, and an AI-written one (labelled *Rozwiązanie AI*) where nobody did; the
+  *Rozwiązanie* filter separates questions that have one from those that don't. On the printed key
+  the AI derivations are off by default — ⚙ → *Wydruk* → *Rozwiązania AI w kluczu*.
 - **Curate** — tick the questions you want and press **Zaznaczone ↑** to collect their ids in the
   *Pokaż tylko id* box; that box *is* your worksheet. **Skopiuj** saves the id list and pasting it
   back restores the set; *Pomiń id* drops individual questions.
@@ -131,6 +145,7 @@ konkurs-mat/
     reports/              # point-in-time reviews (full verification reports live in git history)
     figures/              # figure redraw/contradiction campaign artifacts + review sheets
     mental/   *.json      # "W pamięci" judgements, one sidecar per test; merged by build.mjs
+    solutions/ *.json     # AI-written derivations, one sidecar per test; merged by build.mjs
   pdfs/
     szkolny/  rejonowy/  wojewodzki/   # source PDFs: <year>_<wojewodztwo>[_sp|_gim][_answers].pdf
   browser/

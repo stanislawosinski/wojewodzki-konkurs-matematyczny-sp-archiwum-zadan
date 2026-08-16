@@ -69,6 +69,22 @@ if (badMental.length) {
   process.exit(1);
 }
 
+// dev/solutions/<data file>.json: the AI-solutions campaign's sidecars, {id: {html, check}} for
+// keyed questions the organiser left without a derivation — one sidecar per data file. Merged here
+// into `sol_ai`; `check` is the campaign's own validation (dev/scripts/check-solutions.mjs) and
+// stays out of the shards. An entry that would shadow a real derivation is dropped, not printed.
+const solutions = {};
+try {
+  const solDir = fileURLToPath(new URL("../dev/solutions/", import.meta.url));
+  for (const f of readdirSync(solDir).filter(f => f.endsWith(".json"))) {
+    for (const [id, v] of Object.entries(JSON.parse(readFileSync(solDir + f, "utf8")))) {
+      solutions[id] = v.html;
+    }
+  }
+} catch {
+  /* no solution sidecars yet */
+}
+
 // figures/hidpi.json maps each figure re-rendered at 400 dpi (dev/scripts/figcrop.py hidpi)
 // to its [w, h] in CSS px. The app puts those on the <img> so a 400 dpi figure lays out at
 // the same size as a 200 dpi one instead of at its natural, doubled size.
@@ -133,6 +149,9 @@ for (const f of readdirSync(dataDir)
           }
         : {}), // flagged in suspected_key_errors.tsv
       ...(mental[q.id] ? { mental: mental[q.id].level, mental_hint: mental[q.id].hint } : {}), // judged solvable in your head (dev/mental sidecars)
+      ...(solutions[q.id] && !q.answer?.solution_html && !q.answer?.model?.solution_html
+        ? { sol_ai: solutions[q.id] }
+        : {}), // AI-written derivation where no other one exists (dev/solutions sidecars)
       topics: q.topics,
       prompt_html: q.prompt_html,
       choices: q.choices,

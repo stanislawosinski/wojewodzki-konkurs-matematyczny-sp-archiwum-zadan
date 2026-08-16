@@ -1,0 +1,30 @@
+{
+  "wojewodzki_2019-2020_zachodniopomorskie_q1": {
+    "html": "<p>W liczbach pięciocyfrowych (10000–99999) o sumie cyfr 2 jedna cyfra wynosi 2, a pozostałe 0, albo dwie cyfry wynoszą 1, a pozostałe 0 (pierwsza cyfra musi być różna od zera).</p><p>Wariant z cyfrą 2: 20000 — 1 liczba. Wariant z dwiema jedynkami: 11000, 10100, 10010, 10001 — 4 liczby.</p><p>Razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>5</mn></math> liczb.</p>",
+    "check": "B"
+  },
+  "wojewodzki_2019-2020_zachodniopomorskie_q2": {
+    "html": "<p>Przekątna kwadratu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><msqrt><mrow><msup><mn>7</mn><mn>2</mn></msup><mo>+</mo><msup><mn>1</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>50</mn></msqrt><mo>=</mo><mn>5</mn><msqrt><mn>2</mn></msqrt></math>.</p><p>Bok kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> spełnia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>5</mn><msqrt><mn>2</mn></msqrt></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>5</mn></math>.</p><p>Promień okręgu wpisanego to połowa boku: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mn>2,5</mn></math>.</p>",
+    "check": "D"
+  },
+  "wojewodzki_2019-2020_zachodniopomorskie_q3": {
+    "html": "<p>Wśród liczb dwucyfrowych (10–99, 90 liczb) podzielnych przez 7 jest 13 (14, 21, …, 98), podzielnych przez 11 jest 9 (11, 22, …, 99), a podzielnych przez oba naraz (przez 77) tylko 1 (77).</p><p>Z zasady włączeń i wyłączeń: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>13</mn><mo>+</mo><mn>9</mn><mo>−</mo><mn>1</mn><mo>=</mo><mn>21</mn></math>, więc szukane prawdopodobieństwo wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>21</mn><mn>90</mn></mfrac></math>.</p>",
+    "check": "C"
+  },
+  "wojewodzki_2019-2020_zachodniopomorskie_q4": {
+    "html": "<p>Rozwinięcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>13</mn></mfrac><mo>=</mo><mn>0</mn><mo>,</mo><mo>(</mo><mn>230769</mn><mo>)</mo></math> ma okres długości 6.</p><p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>313</mn><mo>=</mo><mn>6</mn><mo>·</mo><mn>52</mn><mo>+</mo><mn>1</mn></math>, cyfra na 313. miejscu odpowiada pierwszej cyfrze okresu, czyli 2.</p>",
+    "check": "A"
+  },
+  "wojewodzki_2019-2020_zachodniopomorskie_q5": {
+    "html": "<p>Kąt przy dłuższej podstawie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>180</mn><mo>°</mo><mo>−</mo><mn>150</mn><mo>°</mo><mo>=</mo><mn>30</mn><mo>°</mo></math>. Opuszczając wysokość z wierzchołka ramienia, otrzymujemy trójkąt 30-60-90 o przeciwprostokątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt></math>: wysokość trapezu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac></math>, rzut ramienia na podstawę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>3</mn><mn>2</mn></mfrac></math>.</p><p>Dłuższa podstawa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>2</mn><mo>·</mo><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>=</mo><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>3</mn></math>. Obwód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><msqrt><mn>3</mn></msqrt><mo>+</mo><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>3</mn><mo>)</mo><mo>=</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>3</mn></math>.</p>",
+    "check": "A"
+  },
+  "wojewodzki_2019-2020_zachodniopomorskie_q6": {
+    "html": "<p>Wśród odcinków łączących wierzchołki sześcianu przekątne każdej ściany przecinają się w jej środku, co daje 6 czerwonych punktów.</p><p>Ponadto wszystkie 4 przekątne przestrzenne sześcianu przecinają się w jednym punkcie – środku sześcianu – co daje 1 kolejny czerwony punkt.</p><p>Razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>7</mn></math> czerwonych punktów.</p>",
+    "check": "C"
+  },
+  "wojewodzki_2019-2020_zachodniopomorskie_q7": {
+    "html": "<p>Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mi>a</mi></msqrt><mo>=</mo><msqrt><mn>24</mn></msqrt></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mi>a</mi></msqrt><mo>=</mo><msqrt><mn>6</mn></msqrt></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>6</mn></math>.</p><p>Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><msqrt><mn>24</mn></msqrt><mo>=</mo><msqrt><mn>2</mn></msqrt></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>6</mn></mfrac></math>.</p><p>Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>3</mn></msqrt><mi>c</mi></mfrac><mo>=</mo><mn>6</mn><mo>=</mo><mi>a</mi></math>.</p>",
+    "check": "B"
+  }
+}

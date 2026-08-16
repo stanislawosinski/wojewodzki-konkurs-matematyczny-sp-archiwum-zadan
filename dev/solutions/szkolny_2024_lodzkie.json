@@ -1,0 +1,46 @@
+{
+  "szkolny_2024_lodzkie_q1": {
+    "html": "<p>Zdania Cecylii i Darka są sprzeczne (≤128 i ≥128), więc gdy liczba nie jest równa 128, jedno z nich jest już fałszywe – to wyczerpuje jedyny dopuszczalny fałsz. Zatem zdania Ani, Bartka i Ewy są prawdziwe: liczba jest pierwsza, parzysta i równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mi>n</mi></msup></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> nie jest liczbą pierwszą. Jedyna parzysta liczba pierwsza to 2, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>=</mo><msup><mn>2</mn><mn>1</mn></msup></mrow></math> (wykładnik 1 nie jest pierwszy) – pasuje. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>&lt;</mo><mn>128</mn></mrow></math>, fałszywe okazuje się zdanie Darka.</p>",
+    "check": "D"
+  },
+  "szkolny_2024_lodzkie_q2": {
+    "html": "<p>Liczymy od środka dla A: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>+</mo><mfrac><mn>1</mn><mrow><mn>1</mn><mo>+</mo><mfrac><mn>1</mn><mrow><mn>2</mn><mo>+</mo><mfrac><mn>1</mn><mn>1</mn></mfrac></mrow></mfrac></mrow></mfrac><mo>=</mo><mn>2</mn><mo>+</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>=</mo><mn>2,75</mn></mrow></math>. Analogicznie pozostałe dają: B=1,375; C=2,4; D=2,6; E≈1,43. Największa jest wartość odpowiadająca A.</p>",
+    "check": "A"
+  },
+  "szkolny_2024_lodzkie_q3": {
+    "html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>81</mn><mo>=</mo><msup><mn>3</mn><mn>4</mn></msup><mo>=</mo><msup><mn>3</mn><mn>3</mn></msup><mo>·</mo><mn>3</mn></mrow></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mroot><mn>81</mn><mn>3</mn></mroot><mo>=</mo><mn>3</mn><mroot><mn>3</mn><mn>3</mn></mroot></mrow></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mroot><msup><mn>10</mn><mn>6</mn></msup><mn>3</mn></mroot><mo>=</mo><msup><mn>10</mn><mn>2</mn></msup></mrow></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mroot><mrow><mn>81</mn><mo>·</mo><msup><mn>10</mn><mn>6</mn></msup></mrow><mn>3</mn></mroot><mo>=</mo><mn>3</mn><mroot><mn>3</mn><mn>3</mn></mroot><mo>·</mo><msup><mn>10</mn><mn>2</mn></msup></mrow></math>.</p>",
+    "check": "E"
+  },
+  "szkolny_2024_lodzkie_q4": {
+    "html": "<p>Sprawdzamy wariant D: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>4</mn></msqrt><mo>+</mo><mroot><mn>8</mn><mn>3</mn></mroot><mo>+</mo><mfrac><mn>1</mn><msqrt><mn>4</mn></msqrt></mfrac><mo>+</mo><mfrac><mn>1</mn><mroot><mn>8</mn><mn>3</mn></mroot></mfrac><mo>=</mo><mn>2</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>0,5</mn><mo>+</mo><mn>0,5</mn><mo>=</mo><mn>5</mn></mrow></math>.</p>",
+    "check": "D"
+  },
+  "szkolny_2024_lodzkie_q5": {
+    "html": "<p>Kwoty w kolejnych miesiącach to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>,</mo><mi>x</mi><mo>+</mo><mn>10</mn><mo>,</mo><mo>…</mo><mo>,</mo><mi>x</mi><mo>+</mo><mn>50</mn></mrow></math>, ich suma wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mi>x</mi><mo>+</mo><mn>150</mn></mrow></math>. Skoro brakuje 37% ceny, to odłożono <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>63</mn><mo>%</mo></mrow></math> ceny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mi>x</mi><mo>+</mo><mn>150</mn><mo>=</mo><mn>0,63</mn><mi>C</mi></mrow></math>.</p>",
+    "check": "E"
+  },
+  "szkolny_2024_lodzkie_q6": {
+    "html": "<p>Zwykły (różnoboczny) trapez nie ma osi symetrii – zdanie 1 prawdziwe. Kwadrat, jako szczególny trapez, ma 4 osie – zdanie 2 prawdziwe. Prostokąt (też trapez) ma dokładnie 2 osie – zdanie 3 prawdziwe. Trapez równoramienny, który nie jest prostokątem ani kwadratem, ma dokładnie 1 oś – zdanie 4 prawdziwe. Żaden czworokąt nie może mieć dokładnie 3 osi symetrii (liczba osi to 0, 1, 2 lub 4) – zdanie 5 fałszywe. Prawdziwe są więc zdania 1, 2, 3, 4.</p>",
+    "check": "B"
+  },
+  "szkolny_2024_lodzkie_q7": {
+    "html": "<p>Bok kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mn>1</mn></msub></math> to 2 cm, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mn>1</mn></msub><mo>=</mo><mn>4</mn></mrow></math> cm². Skoro <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mn>3</mn></msub><mo>=</mo><mn>49</mn></mrow></math> cm² (przeciwprostokątna = 7 cm), z twierdzenia Pitagorasa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>+</mo><msub><mi>P</mi><mn>2</mn></msub><mo>=</mo><mn>49</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mn>2</mn></msub><mo>=</mo><mn>45</mn></mrow></math> cm² (bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><msqrt><mn>5</mn></msqrt></mrow></math> cm). Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mn>4</mn></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>2</mn><mo>·</mo><mn>3</mn><msqrt><mn>5</mn></msqrt><mo>=</mo><mn>3</mn><msqrt><mn>5</mn></msqrt></mrow></math> cm². Suma: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>+</mo><mn>45</mn><mo>+</mo><mn>49</mn><mo>+</mo><mn>3</mn><msqrt><mn>5</mn></msqrt><mo>=</mo><mo>(</mo><mn>98</mn><mo>+</mo><mn>3</mn><msqrt><mn>5</mn></msqrt><mo>)</mo></mrow></math> cm².</p>",
+    "check": "B"
+  },
+  "szkolny_2024_lodzkie_q8": {
+    "html": "<p>Sprawdzamy parę C: dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mo>−</mo><mn>1</mn><mo>,</mo><mn>4</mn><mo>)</mo></mrow></math> kwadrat odległości od <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mo>−</mo><mn>2</mn><mo>,</mo><mn>1</mn><mo>)</mo></mrow></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>1</mn><mn>2</mn></msup><mo>+</mo><msup><mn>3</mn><mn>2</mn></msup><mo>=</mo><mn>10</mn></mrow></math>, a dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>1</mn><mo>,</mo><mn>0</mn><mo>)</mo></mrow></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>3</mn><mn>2</mn></msup><mo>+</mo><msup><mn>1</mn><mn>2</mn></msup><mo>=</mo><mn>10</mn></mrow></math>. Odległości są równe (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>10</mn></msqrt></math>), więc to para C.</p>",
+    "check": "C"
+  },
+  "szkolny_2024_lodzkie_q9": {
+    "html": "<p>Podstawy trapezu mają 5 cm i 7 cm, bok ukośny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msqrt><mn>5</mn></msqrt></mrow></math> cm. Z Pitagorasa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>h</mi><mn>2</mn></msup><mo>+</mo><msup><mn>2</mn><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mn>2</mn><msqrt><mn>5</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>h</mi><mo>=</mo><mn>4</mn></mrow></math> cm. Pole podstawy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>5</mn><mo>+</mo><mn>7</mn></mrow><mn>2</mn></mfrac><mo>·</mo><mn>4</mn><mo>=</mo><mn>24</mn></mrow></math> cm². Ściana boczna jest kwadratem, gdy wysokość graniastosłupa równa się bokowi podstawy – najmniejszy bok to 4 cm, co daje najmniejszą objętość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>24</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>96</mn></mrow></math> cm³.</p>",
+    "check": "A"
+  },
+  "szkolny_2024_lodzkie_q10": {
+    "html": "<p>Liczby ze zbioru 1–100 o naturalnym pierwiastku sześciennym to sześciany liczb naturalnych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>1</mn><mn>3</mn></msup><mo>=</mo><mn>1</mn><mo>,</mo><msup><mn>2</mn><mn>3</mn></msup><mo>=</mo><mn>8</mn><mo>,</mo><msup><mn>3</mn><mn>3</mn></msup><mo>=</mo><mn>27</mn><mo>,</mo><msup><mn>4</mn><mn>3</mn></msup><mo>=</mo><mn>64</mn></mrow></math> (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>5</mn><mn>3</mn></msup><mo>=</mo><mn>125</mn></mrow></math> już za dużo). To 4 liczby na 100, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>4</mn><mn>100</mn></mfrac><mo>=</mo><mn>4</mn><mo>%</mo></mrow></math>.</p>",
+    "check": "D"
+  },
+  "szkolny_2024_lodzkie_q11": {
+    "html": "<p>Pani Zofia (dochód 100000 zł): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,12</mn><mo>·</mo><mo>(</mo><mn>100000</mn><mo>−</mo><mn>30000</mn><mo>)</mo><mo>=</mo><mn>8400</mn></mrow></math> zł podatku. Pan Mateusz (dochód 150000 zł): do 120000 zł podatek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,12</mn><mo>·</mo><mn>90000</mn><mo>=</mo><mn>10800</mn></mrow></math> zł, plus <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,32</mn><mo>·</mo><mn>30000</mn><mo>=</mo><mn>9600</mn></mrow></math> zł, razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20400</mn></math> zł. Różnica <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>R</mi><mo>=</mo><mn>20400</mn><mo>−</mo><mn>8400</mn><mo>=</mo><mn>12000</mn></mrow></math> zł jest większa niż podatek pani Zofii (8400 zł).</p>",
+    "check": "A1"
+  }
+}

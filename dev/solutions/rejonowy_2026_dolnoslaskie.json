@@ -1,0 +1,62 @@
+{
+  "rejonowy_2026_dolnoslaskie_q1": {
+    "html": "<p>Z pierwszego warunku: p/100 · x = 60. Drugi warunek to (p/100)·(p/100 · x) = 3, czyli (p/100)·60 = 3. Stąd p/100 = 1/20, więc p = 5.</p>",
+    "check": "A"
+  },
+  "rejonowy_2026_dolnoslaskie_q2": {
+    "html": "<p>Kąt A trójkąta równobocznego ma 60°. Ponieważ DC′⊥AB, kąt AC′D = 90°, a zagięcie zachowuje kąt DC′E = kąt C = 60°. W trójkącie BDC′ (kąt B=60°, kąt C′=90°) kąt BDC′=30°; B, D, C są współliniowe, więc kąt CDC′=150°, a oś zagięcia DE dzieli go na połowy: kąt EDC′=75°. Suma kątów czworokąta: kąt E = 360°−60°−90°−75°=135°.</p>",
+    "check": "C"
+  },
+  "rejonowy_2026_dolnoslaskie_q3": {
+    "html": "<p>Liczymy od środka: √9=3, 1+3=4, 12/4=3, 1+3=4, √4=2 — tyle wynosi wewnętrzny człon √(1+12/(1+√9)). Ten sam człon powtarza się wyżej: 1+24/(1+2)=9, √9=3, a na zewnątrz 1+12/(1+3)=4, √4=2.</p>",
+    "check": "A"
+  },
+  "rejonowy_2026_dolnoslaskie_q4": {
+    "html": "<p>Niech B — liczba owiec białych, C — czarnych. Z treści: 1,2B = 1,26C, czyli B = 1,05C. Owiec białych jest więc o 5% więcej niż czarnych.</p>",
+    "check": "A"
+  },
+  "rejonowy_2026_dolnoslaskie_q5": {
+    "html": "<p>Suma zestawu 1: 9+x, liczb 10, średnia = (9+x)/10. Suma zestawu 2: 8+y, liczb 5, średnia = (8+y)/5. Z równości średnich: 9+x = 2(8+y) = 16+2y, czyli x−2y=7.</p>",
+    "check": "A"
+  },
+  "rejonowy_2026_dolnoslaskie_q6": {
+    "html": "<p>NWD(96,144) = 48. Skoro 24 = 2³·3, a 48 = 2⁴·3, to NWW(x,24)=48 wymaga, by x dostarczało czynnik 2⁴, czyli x=16. Sprawdzenie: NWW(16,24)=48.</p>",
+    "check": "C"
+  },
+  "rejonowy_2026_dolnoslaskie_q7": {
+    "html": "<p>Rozwiązania równań: I. x=5 lub x=−1; II. x=1 lub x=5; III. x=1 lub x=−5; IV. x=−1 lub x=−5. Dwie różne liczby dodatnie dają tylko rozwiązania równania II.</p>",
+    "check": "B"
+  },
+  "rejonowy_2026_dolnoslaskie_q8": {
+    "html": "<p>Z (n−2)·180°=9000° wynika n=52. Łącząc co drugi wierzchołek 52-kąta, otrzymujemy wielokąt T o 26 bokach. Suma kątów T = (26−2)·180° = 4320°.</p>",
+    "check": "B"
+  },
+  "rejonowy_2026_dolnoslaskie_q9": {
+    "html": "<p>Dla dowolnych p, q: (√p·√q)² = p·q. Stąd a=20·5=100=10², b=30·6=180, c=40·9=360 — tylko a jest kwadratem liczby naturalnej, więc n=10.</p>",
+    "check": "10"
+  },
+  "rejonowy_2026_dolnoslaskie_q10": {
+    "html": "<p>64=2⁶, więc 2^k=2⁶ daje k=6; 4^m=2^(2m)=2⁶ daje m=3; 8^n=2^(3n)=2⁶ daje n=2. Wtedy 90/6+60/3+30/2 = 15+20+15 = 50.</p>",
+    "check": "50"
+  },
+  "rejonowy_2026_dolnoslaskie_q11": {
+    "html": "<p>Podstawa n-kąta ma n(n−3)/2 przekątnych, a ostrosłup ma 2n krawędzi (n podstawy + n bocznych). Z równości n(n−3)/2 = 2n wynika n=7. Liczba ścian (podstawa + n bocznych) = 1+7=8.</p>",
+    "check": "8"
+  },
+  "rejonowy_2026_dolnoslaskie_q12": {
+    "html": "<p>k/3 &lt; √13 ⟺ k² &lt; 9·13 = 117: k=10 spełnia (100&lt;117), k=11 nie (121&gt;117) — więc k=10. n/2 &gt; √13 ⟺ n² &gt; 4·13 = 52: n=8 spełnia (64&gt;52), n=7 nie (49&lt;52) — więc n=8.</p>",
+    "check": "A. 10, B. 8"
+  },
+  "rejonowy_2026_dolnoslaskie_q13": {
+    "html": "<p>Krawędź BC (prawa strona) = DE + FA (rozkład pionowy): 8x+18 = (4x+8)+(6x+12) = 10x+20, stąd x=−1. Wtedy AB=CD+EF=(x²−2x)+(x²+4)=8, BC=10, a wycięty narożnik ma boki EF=5 i DE=4. Pole = AB·BC − EF·DE = 80−20 = 60.</p>",
+    "check": "A. x = −1, B. 60"
+  },
+  "rejonowy_2026_dolnoslaskie_q14": {
+    "html": "<p>Prosta k: x=6. Na niej x²+y²=100 daje y²=64, y=±8 — punkty (6,8) i (6,−8). Prosta m: y=8. Wtedy x²+64=100 daje x²=36, x=±6 — punkty (6,8) i (−6,8). Łącznie (bez powtórzeń) trzy punkty: (−6,8), (6,8), (6,−8).</p>",
+    "check": "(−6, 8), (6, 8), (6, −8)"
+  },
+  "rejonowy_2026_dolnoslaskie_q15": {
+    "html": "<p>Krawędzie przy wspólnej krawędzi 12: √(13²−12²)=5 i √(15²−12²)=9. A. Suma krawędzi = 4(12+5+9)=104 cm. B. Objętość = 12·5·9=540 cm³. C. Przekątne ścian: √(12²+5²)=13, √(12²+9²)=15, √(5²+9²)=√106 — to najkrótsza.</p>",
+    "check": "A. 104, B. 540, C. √106"
+  }
+}

@@ -204,6 +204,10 @@
                   <label><input type="checkbox" id="printTopics"> Tematy</label>
                   <label><input type="checkbox" id="printMental"> Znacznik „w pamięci”</label>
                   <p class="hint">🧠 / 💡 przy zadaniu; sama podpowiedź nigdy się nie drukuje</p>
+                  <label><input type="checkbox" id="printSolAi"> Rozwiązania AI w kluczu</label>
+                  <p class="hint">
+                    wywody napisane przez AI tam, gdzie organizator nie opublikował rozwiązania
+                  </p>
                 </div>
                 <div class="optgroup">
                   <p class="sublabel">Brudnopis:</p>
@@ -421,7 +425,12 @@
           </li>
           <li>
             wykrycie zadań powtarzających się w różnych latach i województwach: dokładnych
-            duplikatów oraz wariantów z innymi liczbami.
+            duplikatów oraz wariantów z innymi liczbami,
+          </li>
+          <li>
+            napisanie rozwiązań do zadań, przy których organizator podał sam wynik &ndash; agent
+            rozwiązywał zadanie jeszcze raz i zapisywał drogę dojścia, a oficjalny klucz służył za
+            sprawdzian wyniku; takie rozwiązania są podpisane <em>Rozwiązanie AI</em>.
           </li>
         </ol>
 
@@ -435,6 +444,11 @@
           <li>
             niezależne rozwiązanie zadań przez agentów LLM i porównanie z oficjalnym kluczem;
             rozbieżności były oznaczane i sprawdzane,
+          </li>
+          <li>
+            wymóg, by każde <em>Rozwiązanie AI</em> kończyło się dokładnie na odpowiedzi z klucza
+            &ndash; gdy agent nie znalazł uczciwej drogi, zostawiał zadanie bez rozwiązania; sama
+            droga nie była jednak przez nikogo sprawdzana,
           </li>
           <li>przegląd przerysowanych rysunków (SVG) przez człowieka,</li>
           <li>wyrywkowy przegląd zadań przez człowieka.</li>

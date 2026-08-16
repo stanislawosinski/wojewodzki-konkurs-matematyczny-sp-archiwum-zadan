@@ -1,0 +1,62 @@
+{
+  "szkolny_2021_dolnoslaskie_q1": {
+    "html": "<p>Kwadrat liczby naturalnej jest trzycyfrowy, gdy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>≤</mo><msup><mi>n</mi><mn>2</mn></msup><mo>≤</mo><mn>999</mn></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>2</mn></msup><mo>=</mo><mn>100</mn></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>31</mn><mn>2</mn></msup><mo>=</mo><mn>961</mn><mo>,</mo><msup><mn>32</mn><mn>2</mn></msup><mo>=</mo><mn>1024</mn></math>, n przyjmuje wartości od 10 do 31, co daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>31</mn><mo>−</mo><mn>10</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>22</mn></math> liczby.</p>",
+    "check": "C"
+  },
+  "szkolny_2021_dolnoslaskie_q2": {
+    "html": "<p>Odsłonięte kartoniki tworzą zapis C C C _ L V I. Ukryty znak musi dawać poprawny zapis rzymski: jeśli to X, powstaje CCCXLVI = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>300</mn><mo>+</mo><mn>40</mn><mo>+</mo><mn>6</mn><mo>=</mo><mn>346</mn></math>. Każda inna cyfra łamałaby zasady zapisu (np. czwarte C z rzędu albo powtórzone L), więc jest to jedyna możliwość.</p>",
+    "check": "A"
+  },
+  "szkolny_2021_dolnoslaskie_q3": {
+    "html": "<p>Najmniejsza z liczb to k = 123, największa m = 321. Liczby nieparzyste większe od 123 i mniejsze od 321 to kolejne liczby nieparzyste od 125 do 319 — jest ich <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>319</mn><mo>−</mo><mn>125</mn><mo>)</mo><mo>:</mo><mn>2</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>98</mn></math>.</p>",
+    "check": "D"
+  },
+  "szkolny_2021_dolnoslaskie_q4": {
+    "html": "<p>1 stycznia to poniedziałek, więc 13 stycznia (12 dni później, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mtext> mod </mtext><mn>7</mn><mo>=</mo><mn>5</mn></math>) wypada w sobotę. Każdy kolejny miesiąc przesuwa dzień tygodnia 13. dnia o resztę z dzielenia liczby dni tego miesiąca przez 7. Licząc kolejno wszystkie miesiące, piątek 13. wypada wyłącznie 13 kwietnia i 13 lipca — czyli 2 razy.</p>",
+    "check": "A"
+  },
+  "szkolny_2021_dolnoslaskie_q5": {
+    "html": "<p>Rozkładamy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5544</mn><mo>=</mo><msup><mn>2</mn><mn>3</mn></msup><mo>·</mo><msup><mn>3</mn><mn>2</mn></msup><mo>·</mo><mn>7</mn><mo>·</mo><mn>11</mn></math>. Wśród cyfr 1–9 liczba 5544 dzieli się przez 1, 2, 3, 4, 6, 7, 8, 9 (nie dzieli się przez 5, bo nie kończy się na 0 ani 5) — to 8 dzielników.</p>",
+    "check": "D"
+  },
+  "szkolny_2021_dolnoslaskie_q6": {
+    "html": "<p>Porównajmy każdy ułamek z 2/3 przez mnożenie na krzyż: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>23</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>69</mn><mo>&lt;</mo><mn>45</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>90</mn></math>; podobnie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>234</mn><mo>·</mo><mn>3</mn><mo>&lt;</mo><mn>567</mn><mo>·</mo><mn>2</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2345</mn><mo>·</mo><mn>3</mn><mo>&lt;</mo><mn>6789</mn><mo>·</mo><mn>2</mn></math>. Każdy z pozostałych ułamków jest więc mniejszy od 2/3 — to on jest największy.</p>",
+    "check": "A"
+  },
+  "szkolny_2021_dolnoslaskie_q7": {
+    "html": "<p>Sprawdźmy równość D: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mn>64</mn><mn>3</mn></mroot><mo>·</mo><msqrt><mfrac><mn>1</mn><mn>64</mn></mfrac></msqrt><mo>=</mo><mn>4</mn><mo>·</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>64</mn></msqrt><mo>·</mo><mroot><mfrac><mn>1</mn><mn>64</mn></mfrac><mn>3</mn></mroot><mo>=</mo><mn>8</mn><mo>·</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>=</mo><mn>2</mn></math>. Strony są różne, więc to równość fałszywa.</p>",
+    "check": "D"
+  },
+  "szkolny_2021_dolnoslaskie_q8": {
+    "html": "<p>Asia zjadła <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>45</mn><mo>·</mo><mfrac><mn>1</mn><mn>9</mn></mfrac><mo>=</mo><mn>5</mn></math>, zostało 40. Kasia zjadła <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>40</mn><mo>·</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mo>=</mo><mn>5</mn></math>, zostało 35. Jurek zjadł <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>35</mn><mo>·</mo><mfrac><mn>1</mn><mn>7</mn></mfrac><mo>=</mo><mn>5</mn></math>, zostało 30. Wojtek zjadł <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>·</mo><mfrac><mn>1</mn><mn>6</mn></mfrac><mo>=</mo><mn>5</mn></math>. Każda z czterech osób zjadła po 5 śliwek.</p>",
+    "check": "D"
+  },
+  "szkolny_2021_dolnoslaskie_q9": {
+    "html": "<p>Obwód wielokąta to dwa dłuższe boki plus wszystkie stopnie: suma poziomych odcinków schodów równa się długości dłuższego boku i tak samo suma pionowych, więc obwód = 4 razy dłuższy bok = 28, stąd dłuższy bok ma 7. Schody mają 7 stopni, więc każdy stopień ma długość 7 : 7 = 1. Dwa takie wielokąty (jeden obrócony o 180°) układają się w prostokąt o bokach 7 i 7 + 1 = 8, więc jego obwód wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mo>(</mo><mn>7</mn><mo>+</mo><mn>8</mn><mo>)</mo><mo>=</mo><mn>30</mn></math>.</p>",
+    "check": "A"
+  },
+  "szkolny_2021_dolnoslaskie_q10": {
+    "html": "<p>Szukamy liczb naturalnych x, y spełniających <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mi>x</mi><mo>+</mo><mn>11</mn><mi>y</mi><mo>=</mo><mn>100</mn></math>. Sprawdzając kolejne wartości y, jedynym rozwiązaniem w liczbach naturalnych jest y = 4, x = 8 (bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mo>·</mo><mn>8</mn><mo>+</mo><mn>11</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>100</mn></math>). Suma wpisanych liczb to 8 + 4 = 12.</p>",
+    "check": "B"
+  },
+  "szkolny_2021_dolnoslaskie_q11": {
+    "html": "<p>Odcinek AB ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>46</mn><mo>−</mo><mo>(</mo><mo>−</mo><mn>19</mn><mo>)</mo><mo>=</mo><mn>65</mn></math>, więc każda z pięciu części ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>65</mn><mo>:</mo><mn>5</mn><mo>=</mo><mn>13</mn></math>. Punkty podziału to −19, −6, 7, 20, 33, 46. Wśród podanych liczb jest to 20.</p>",
+    "check": "C"
+  },
+  "szkolny_2021_dolnoslaskie_q12": {
+    "html": "<p>Niech kąt BAD = kąt ABC = α (kąty przy dłuższej podstawie), wtedy kąt ADC = kąt BCD = 180° − α. Ponieważ BA = BD, kąt ADB = α, więc kąt BDC = 180° − 2α. Ponieważ CB = CD, kąt DBC = kąt BDC. Z sumy kątów trójkąta BCD: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>180°</mn><mo>−</mo><mi>α</mi><mo>)</mo><mo>+</mo><mn>2</mn><mo>(</mo><mn>180°</mn><mo>−</mo><mn>2</mn><mi>α</mi><mo>)</mo><mo>=</mo><mn>180°</mn></math>, stąd α = 72°. Zatem kąt BAD = 72°, a kąt BCD = 108° ≠ 2 · 72° = 144°, więc zdanie C jest fałszywe.</p>",
+    "check": "C"
+  },
+  "szkolny_2021_dolnoslaskie_q13": {
+    "html": "<p>Trzy kolejne liczby parzyste zapisane łącznie 8 cyframi to 98, 100, 102 (2+3+3 cyfr przy przejściu z liczby dwucyfrowej na trzycyfrowe). Liczba dzielników: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>98</mn><mo>=</mo><msup><mn>2</mn><mn>1</mn></msup><mo>·</mo><msup><mn>7</mn><mn>2</mn></msup></math> ma 6, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup><mo>·</mo><msup><mn>5</mn><mn>2</mn></msup></math> ma 9, a 102 = 2 · 3 · 17 ma 8. Najwięcej dzielników ma środkowa liczba, nie największa — zdanie D jest fałszywe.</p>",
+    "check": "D"
+  },
+  "szkolny_2021_dolnoslaskie_q14": {
+    "html": "<p>Bok trójkąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>54</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>18</mn></math>. Niech AE = x. Zgięcie wzdłuż DE⊥AB przenosi A na A′, więc EA′ = x i A′B = 18 − 2x. Ponieważ A′ jest środkiem EB, x = 18 − 2x, skąd x = 6. W trójkącie ADE (kąt 60°) AD = 2x = 12, więc DC = 6 i DA′ = DA = 12. Obwód A′BCD = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>+</mo><mn>18</mn><mo>+</mo><mn>6</mn><mo>+</mo><mn>12</mn><mo>=</mo><mn>42</mn></math> cm.</p>",
+    "check": "B"
+  },
+  "szkolny_2021_dolnoslaskie_q15": {
+    "html": "<p>Masa skrzynki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>·</mo><mn>0,15</mn><mo>=</mo><mn>1,8</mn></math> kg, mandarynek początkowo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>−</mo><mn>1,8</mn><mo>=</mo><mn>10,2</mn></math> kg. Gdy skrzynka stanowi 20% całości, całość waży <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,8</mn><mo>:</mo><mn>0,2</mn><mo>=</mo><mn>9</mn></math> kg, więc mandarynek zostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mo>−</mo><mn>1,8</mn><mo>=</mo><mn>7,2</mn></math> kg. Sprzedano <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10,2</mn><mo>−</mo><mn>7,2</mn><mo>=</mo><mn>3</mn></math> kg.</p>",
+    "check": "B"
+  }
+}

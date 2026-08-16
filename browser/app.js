@@ -65,13 +65,8 @@ function update() {
     .map((q, i) => renderKeyEntry(q, useInc ? start + i + 1 : null))
     .join("");
 
-  // one-line provenance note whenever any AI content made it onto the sheet
-  const keyLegend =
-    keyEntries.includes('class="kai"') || keyEntries.includes('class="kverif"')
-      ? '<div class="klegend">Odpowiedzi i adnotacje „AI” pochodzą z niezależnej weryfikacji zadań modelami AI — nie są częścią oficjalnego klucza.</div>'
-      : "";
   answerkey.innerHTML = shownPage.length
-    ? `<h2>Klucz odpowiedzi</h2>${keyEntries}${keyLegend}`
+    ? `<h2>Klucz odpowiedzi</h2>${keyEntries}${keyLegendHtml(keyEntries)}`
     : "";
   layoutChoices(qlist);
   for (const p of pagers) {
@@ -700,7 +695,8 @@ function wireSettings() {
     ["printRok", "print-hide-year"],
     ["printEtap", "print-hide-stage"],
     ["printTopics", "print-hide-topics"],
-    ["printMental", "print-hide-mental"]
+    ["printMental", "print-hide-mental"],
+    ["printSolAi", "print-hide-solai"]
   ]) {
     const cb = $(id),
       apply = () => document.body.classList.toggle(cls, !cb.checked);

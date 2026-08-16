@@ -1,0 +1,42 @@
+{
+  "wojewodzki_2024_lodzkie_q1": {
+    "html": "<p>Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><msqrt><mn>2</mn></msqrt></mrow></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>3</mn></msup><mo>=</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>=</mo><mn>2</mn></mrow></math>. Wartość wyrażenia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>−</mo><mn>2</mn><mo>−</mo><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>12</mn><mo>=</mo><msqrt><mn>2</mn></msqrt><mo>+</mo><mn>10</mn></mrow></math>.</p>",
+    "check": "C"
+  },
+  "wojewodzki_2024_lodzkie_q2": {
+    "html": "<p>Zapisujemy pierwiastki jako potęgi dwójki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>8</mn></msqrt><mo>=</mo><msup><mn>2</mn><mfrac><mn>3</mn><mn>2</mn></mfrac></msup></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mroot><mn>16</mn><mn>3</mn></mroot><mo>=</mo><msup><mn>2</mn><mfrac><mn>4</mn><mn>3</mn></mfrac></msup></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mroot><mn>2</mn><mn>6</mn></mroot><mo>=</mo><msup><mn>2</mn><mfrac><mn>1</mn><mn>6</mn></mfrac></msup></mrow></math>. Suma wykładników: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>3</mn><mn>2</mn></mfrac><mo>+</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>6</mn></mfrac><mo>=</mo><mn>3</mn></mrow></math>, więc wynik to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2</mn><mn>3</mn></msup><mo>=</mo><mn>8</mn></mrow></math>.</p>",
+    "check": "B"
+  },
+  "wojewodzki_2024_lodzkie_q3": {
+    "html": "<p>Odsetki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>5</mn><mo>%</mo><mo>·</mo><mn>2000</mn><mo>=</mo><mn>100</mn></mrow></math> zł. Podatek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>20</mn><mo>%</mo><mo>·</mo><mn>100</mn><mo>=</mo><mn>20</mn></mrow></math> zł. Odsetki po opodatkowaniu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mo>−</mo><mn>20</mn><mo>=</mo><mn>80</mn></mrow></math> zł. Stan lokaty: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2000</mn><mo>+</mo><mn>80</mn><mo>=</mo><mn>2080</mn></mrow></math> zł.</p>",
+    "check": "D"
+  },
+  "wojewodzki_2024_lodzkie_q4": {
+    "html": "<p>Z nierówności <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mi>a</mi><mo>&lt;</mo><mi>a</mi></mrow></math> wynika <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>&gt;</mo><mn>0</mn></mrow></math>. Skoro <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>&lt;</mo><mfrac><mn>1</mn><mi>a</mi></mfrac></mrow></math> i a jest dodatnie, mnożąc obie strony przez a: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>&lt;</mo><mn>1</mn></mrow></math>, czyli a&lt;1. Łącznie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0</mn><mo>&lt;</mo><mi>a</mi><mo>&lt;</mo><mn>1</mn></mrow></math>.</p>",
+    "check": "D"
+  },
+  "wojewodzki_2024_lodzkie_q5": {
+    "html": "<p>Skoro w każdych czterech kolejnych domach mieszka łącznie 24 osoby, to domy oddalone o 4 mają tyle samo mieszkańców (dom n = dom n+4), więc liczba mieszkańców zależy tylko od reszty z dzielenia numeru domu przez 4. Wśród 23 domów jest 5 domów o numerach podzielnych przez 4 (4,8,12,16,20) i po 6 domów w pozostałych trzech grupach. Niech d oznacza liczbę mieszkańców domu z tej mniejszej grupy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>+</mo><mi>d</mi><mo>=</mo><mn>24</mn></mrow></math> (domy 1–4), a suma wszystkich mieszkańców <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mi>c</mi><mo>+</mo><mi>d</mi><mo>)</mo><mo>−</mo><mi>d</mi><mo>=</mo><mn>144</mn><mo>−</mo><mi>d</mi><mo>=</mo><mn>139</mn></mrow></math>, skąd d=5. Dom 12 należy do tej grupy — mieszka w nim 5 osób.</p>",
+    "check": "B"
+  },
+  "wojewodzki_2024_lodzkie_q6": {
+    "html": "<p>Każdy ruch zmienia współrzędną x o ±2, więc po 5 ruchach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>−</mo><mn>3</mn><mo>=</mo><mn>2</mn><mi>k</mi></mrow></math>, gdzie k to różnica liczby ruchów w prawo i w lewo. Ponieważ tych ruchów jest 5 (liczba nieparzysta), k musi być nieparzyste. Dla punktu (7,7): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7</mn><mo>−</mo><mn>3</mn><mo>=</mo><mn>4</mn><mo>=</mo><mn>2</mn><mi>k</mi></mrow></math>, czyli k=2 — liczba parzysta, więc konik nie może znaleźć się w tym punkcie.</p>",
+    "check": "E"
+  },
+  "wojewodzki_2024_lodzkie_q7": {
+    "html": "<p>Średnica koła: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>28</mn><mo>·</mo><mn>2,54</mn><mo>=</mo><mn>71,12</mn></mrow></math> cm. Obwód koła: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>π</mi><mo>·</mo><mn>71,12</mn><mo>≈</mo><mn>223,4</mn></mrow></math> cm. Liczba obrotów na dystansie 1 km (100000 cm): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100000</mn><mo>:</mo><mn>223,4</mn><mo>≈</mo><mn>447,5</mn></mrow></math>. Pełnych obrotów jest więc 447.</p>",
+    "check": "A"
+  },
+  "wojewodzki_2024_lodzkie_q8": {
+    "html": "<p>Wiadomo, że 1 stycznia 2000 roku wypadło w sobotę. Od 1892 do 2000 mija 108 lat, w tym 26 przestępnych (rok 1900 wyjątkowo nie jest przestępny), więc przesunięcie dnia tygodnia to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>108</mn><mo>+</mo><mn>26</mn><mo>=</mo><mn>134</mn></mrow></math>, co przy dzieleniu przez 7 daje resztę 1 — zatem 1 stycznia 1892 roku był to piątek. Rok 1892 jest przestępny, więc do 30 marca mija 89 dni od 1 stycznia; reszta z dzielenia 89 przez 7 to 5, a piątek plus 5 dni to środa.</p>",
+    "check": "C"
+  },
+  "wojewodzki_2024_lodzkie_q9": {
+    "html": "<p>Niech promień walca to r, a promień stożka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>r</mi></mrow></math>, przy tej samej wysokości h. Objętość walca: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>π</mi><msup><mi>r</mi><mn>2</mn></msup><mi>h</mi></mrow></math>. Objętość stożka: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>π</mi><msup><mrow><mo>(</mo><mn>3</mn><mi>r</mi><mo>)</mo></mrow><mn>2</mn></msup><mi>h</mi><mo>=</mo><mn>3</mn><mi>π</mi><msup><mi>r</mi><mn>2</mn></msup><mi>h</mi></mrow></math>. Objętość stożka jest więc 3 razy większa niż objętość walca.</p>",
+    "check": "B"
+  },
+  "wojewodzki_2024_lodzkie_q10": {
+    "html": "<p>Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><msup><mn>10</mn><mn>4</mn></msup><mo>+</mo><mn>7</mn><mo>·</mo><msup><mn>10</mn><mn>3</mn></msup><mo>+</mo><mn>7</mn><mo>·</mo><msup><mn>10</mn><mn>2</mn></msup><mo>=</mo><mn>47700</mn></mrow></math> jest już podzielna przez 60 (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>47700</mn><mo>=</mo><mn>60</mn><mo>·</mo><mn>795</mn></mrow></math>), więc 10x+y też musi być wielokrotnością 60. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0</mn><mo>≤</mo><mn>10</mn><mi>x</mi><mo>+</mo><mi>y</mi><mo>≤</mo><mn>99</mn></mrow></math>, jedyna niezerowa taka wartość to 60, czyli x=6, y=0. Stąd x−y=6.</p>",
+    "check": "B"
+  }
+}

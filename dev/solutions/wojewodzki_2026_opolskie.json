@@ -1,0 +1,22 @@
+{
+ "wojewodzki_2026_opolskie_q1": {
+  "html": "<p>45=9·5: liczba dzieli się przez 45, gdy dzieli się przez 9 i przez 5 (kończy się na 0 lub 5); wszystkie trzy liczby kończą się na 0.</p><ul><li>103040: suma cyfr 1+0+3+0+4+0=8, nie dzieli się przez 9 — <b>F</b>.</li><li>1030405060: suma cyfr =19, nie dzieli się przez 9 — <b>F</b>.</li><li>203040506070: suma cyfr =27=9·3, dzieli się przez 9 — <b>P</b>.</li></ul>",
+  "check": "FFP"
+ },
+ "wojewodzki_2026_opolskie_q2": {
+  "html": "<ul><li>Wśród trzech kolejnych liczb n+1, n+2, n+3 zawsze jedna dzieli się przez 3, więc A dzieli się przez 3 — <b>P</b>.</li><li>Dla n=4: A=5·6·7=210, a 210 nie dzieli się przez 4 — <b>F</b>.</li><li>Wśród trzech kolejnych liczb jest jedna podzielna przez 2 i jedna przez 3, więc iloczyn zawsze dzieli się przez 6 — <b>P</b>.</li></ul>",
+  "check": "PFP"
+ },
+ "wojewodzki_2026_opolskie_q3": {
+  "html": "<ul><li>Dla a=b=1: √(a²+b²)=√2, a a+b=2 — różne liczby — <b>F</b>.</li><li>√2≈1,41 jest mniejsze od 2, więc √2−2 jest ujemne; pierwiastek z kwadratu to wartość bezwzględna, czyli wynik to 2−√2, a nie √2−2 — <b>F</b>.</li><li>Niech x=√(2+√3), y=√(2−√3); x²+y²=4, xy=√((2+√3)(2−√3))=√1=1, więc (x−y)²=4−2=2, a nie 2√3 — <b>F</b>.</li></ul>",
+  "check": "FFF"
+ },
+ "wojewodzki_2026_opolskie_q4": {
+  "html": "<ul><li>Liczby trzycyfrowe o różnych cyfrach: 9·9·8=648 — <b>P</b>.</li><li>Nieparzyste o różnych cyfrach: cyfra jedności — 5 możliwości, setek — 8, dziesiątek — 8: 5·8·8=320 — <b>P</b>.</li><li>W [0,1000]: podzielnych przez 2 jest 501, przez 3 — 334, przez 6 — 167; przez 2 lub 3: 501+334−167=668, a nie 667 — <b>F</b>.</li></ul>",
+  "check": "PPF"
+ },
+ "wojewodzki_2026_opolskie_q5": {
+  "html": "<p>Siatka to trójkąt o boku 24 podzielony na 4 mniejsze trójkąty — czworościan foremny o krawędzi 24:2=12 cm.</p><ul><li>Suma krawędzi: 6·12=72 cm, a nie 108 cm — <b>F</b>.</li><li>Pole całkowite to pole siatki: (√3/4)·24²=144√3 cm² — <b>P</b>.</li><li>Objętość czworościanu o krawędzi a to a³/(6√2); dla a=12: 1728/(6√2)=144√2 cm³ — <b>P</b>.</li></ul>",
+  "check": "FPP"
+ }
+}

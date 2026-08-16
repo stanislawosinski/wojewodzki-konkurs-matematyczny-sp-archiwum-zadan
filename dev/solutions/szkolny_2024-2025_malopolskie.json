@@ -1,0 +1,66 @@
+{
+ "szkolny_2024-2025_malopolskie_q1": {
+  "html": "<p>Za t lat mama ma być trzy razy starsza: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>27</mn><mo>+</mo><mi>t</mi><mo>=</mo><mn>3</mn><mo>(</mo><mn>3</mn><mo>+</mo><mi>t</mi><mo>)</mo></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>27</mn><mo>+</mo><mi>t</mi><mo>=</mo><mn>9</mn><mo>+</mo><mn>3</mn><mi>t</mi></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>t</mi><mo>=</mo><mn>18</mn></math>, więc t=9.</p>",
+  "check": "C"
+ },
+ "szkolny_2024-2025_malopolskie_q2": {
+  "html": "<p>Od 21 października 2027 do 14 marca 2028 mija <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>+</mo><mn>30</mn><mo>+</mo><mn>31</mn><mo>+</mo><mn>31</mn><mo>+</mo><mn>29</mn><mo>+</mo><mn>14</mn><mo>=</mo><mn>145</mn></math> dni (2028 to rok przestępny, luty ma 29 dni). Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>145</mn><mo>=</mo><mn>20</mn><mo>·</mo><mn>7</mn><mo>+</mo><mn>5</mn></math>, licząc od czwartku 5 dni dalej wypada wtorek.</p>",
+  "check": "B"
+ },
+ "szkolny_2024-2025_malopolskie_q3": {
+  "html": "<p>Sprawdzamy liczby 10–20: przy cyfrze 0 iloczyn cyfr wynosi 0, więc 10 i 20 odpadają. Z pozostałych warunek spełniają 11 (11:1), 12 (12:2=6) i 15 (15:5=3); dla 13, 14, 16, 17, 18, 19 dzielenie nie wychodzi całkowite. Takich liczb jest 3.</p>",
+  "check": "B"
+ },
+ "szkolny_2024-2025_malopolskie_q4": {
+  "html": "<p>Upraszczamy pierwiastki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt><mo>−</mo><msqrt><mn>12</mn></msqrt><mo>=</mo><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><mo>−</mo><msqrt><mn>3</mn></msqrt></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>27</mn></msqrt><mo>−</mo><msqrt><mn>36</mn></msqrt><mo>=</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>6</mn></math>. Odległość to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mo>−</mo><msqrt><mn>3</mn></msqrt><mo>−</mo><mo>(</mo><mn>3</mn><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>6</mn><mo>)</mo><mo>|</mo><mo>=</mo><mo>|</mo><mn>6</mn><mo>−</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>|</mo></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>&gt;</mo><mn>6</mn></math>, wynosi to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>6</mn></math>.</p>",
+  "check": "C"
+ },
+ "szkolny_2024-2025_malopolskie_q5": {
+  "html": "<p>Środek sześciokąta łączy się z wierzchołkami, dzieląc go na 6 trójkątów równobocznych o boku a; każdy romb powstaje z dwóch sąsiednich takich trójkątów. Wspólny bok tych trójkątów jest krótszą przekątną rombu i ma długość a.</p>",
+  "check": "B"
+ },
+ "szkolny_2024-2025_malopolskie_q6": {
+  "html": "<p>Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>AC</mi><mo>|</mo></mrow></math> wynika, że kąty przy podstawie są równe: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>x</mi><mo>−</mo><mn>12</mn><mo>=</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>10</mn></math>, skąd x=22, a każdy z tych kątów ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>22</mn><mo>+</mo><mn>10</mn><mo>=</mo><mn>54</mn></math>°. Z sumy kątów trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>y</mi><mo>−</mo><mn>6</mn><mo>+</mo><mn>54</mn><mo>+</mo><mn>54</mn><mo>=</mo><mn>180</mn></math>, więc y=13. Różnica x−y=22−13=9°.</p>",
+  "check": "A"
+ },
+ "szkolny_2024-2025_malopolskie_q7": {
+  "html": "<p>Bok równoległoboku JFKD wspólny z bokiem rombu odejmuje się od boku rombu, więc obwód ośmiokąta ABCKGHEJ to suma obwodów obu rombów pomniejszona o obwód JFKD: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>(</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>−</mo><mn>2</mn><mo>(</mo><mi>x</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>−</mo><mn>2</mn><mo>(</mo><mn>7</mn><mo>−</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>48</mn></math>. Wyrazy z x w odjętej części się znoszą, a stałe dają −16, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mi>x</mi><mo>+</mo><mn>16</mn><mo>−</mo><mn>16</mn><mo>=</mo><mn>48</mn></math>, skąd x=2.</p>",
+  "check": "B"
+ },
+ "szkolny_2024-2025_malopolskie_q8": {
+  "html": "<p>Moc to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100000</mn><mo>·</mo><mn>735,5</mn><mo>=</mo><mn>73550000</mn></math> W. W gigawatach (dzielimy przez miliard): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>73550000</mn><mo>:</mo><mn>1000000000</mn><mo>=</mo><mn>7,355</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>2</mn></mrow></msup></math> GW.</p>",
+  "check": "A"
+ },
+ "szkolny_2024-2025_malopolskie_q9": {
+  "html": "<p>Po zmianach cena to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,05</mn><mo>·</mo><mn>0,8</mn><mo>=</mo><mn>0,84</mn></math> ceny początkowej x. Ubytek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>−</mo><mn>0,84</mn><mi>x</mi><mo>=</mo><mn>0,16</mn><mi>x</mi></math> to 8 zł, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>8</mn><mo>:</mo><mn>0,16</mn><mo>=</mo><mn>50</mn></math> zł.</p>",
+  "check": "D"
+ },
+ "szkolny_2024-2025_malopolskie_q10": {
+  "html": "<p>I fałszywe: dla a=1,9 i b=1,95 średnia 1,925 zaokrągla się do 2. II prawdziwe: skoro a&lt;b, to a−b&lt;0, a ponieważ a&gt;0 i b&lt;2, to a−b&gt;0−2=−2. III fałszywe: a, b nie muszą być wymierne (np. a=√2), więc iloraz nie zawsze jest liczbą wymierną. Prawdziwe jest tylko II.</p>",
+  "check": "E"
+ },
+ "szkolny_2024-2025_malopolskie_q11": {
+  "html": "<p>Liczymy każdą z liczb: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>=</mo><mfrac><mn>27</mn><mn>16</mn></mfrac><mo>·</mo><mfrac><mn>9</mn><mn>4</mn></mfrac><mo>=</mo><mfrac><mn>243</mn><mn>64</mn></mfrac></math> ≈ 3,80; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>q</mi><mo>=</mo><mfrac><mrow><mn>216</mn><mo>·</mo><mn>4</mn></mrow><mn>324</mn></mfrac><mo>=</mo><mfrac><mn>8</mn><mn>3</mn></mfrac></math> ≈ 2,67; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mfrac><mn>1296</mn><mn>27648</mn></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>64</mn></mfrac></math> ≈ 0,05. Zatem r&lt;q&lt;p.</p>",
+  "check": "A"
+ },
+ "szkolny_2024-2025_malopolskie_q12": {
+  "html": "<p>Wybór dwóch osób do pierwszego zespołu daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>4</mn><mo>·</mo><mn>3</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>6</mn></math> możliwości, ale każdy podział liczony jest dwukrotnie (zespoły nie są ponumerowane), więc podziałów jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>3</mn></math>.</p>",
+  "check": "C"
+ },
+ "szkolny_2024-2025_malopolskie_q13": {
+  "html": "<p>Wyłączamy wspólne czynniki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mi>y</mi><mo>+</mo><mn>4</mn><mi>x</mi><mo>=</mo><mn>2</mn><mi>x</mi><mo>(</mo><mi>y</mi><mo>+</mo><mn>2</mn><mo>)</mo></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>2</mn><mi>x</mi><mi>y</mi><mo>=</mo><mi>x</mi><mo>(</mo><mn>1</mn><mo>+</mo><mn>2</mn><mi>y</mi><mo>)</mo></math>. Po skróceniu x² w liczniku i mianowniku zostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><mi>y</mi><mo>+</mo><mn>2</mn><mo>)</mo><mo>(</mo><mn>2</mn><mi>y</mi><mo>+</mo><mn>1</mn><mo>)</mo></mrow><mn>4</mn></mfrac></math>, czyli po wymnożeniu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><msup><mi>y</mi><mn>2</mn></msup><mo>+</mo><mfrac><mn>5</mn><mn>4</mn></mfrac><mi>y</mi><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></math>.</p>",
+  "check": "A"
+ },
+ "szkolny_2024-2025_malopolskie_q14": {
+  "html": "<p>Bok największego trójkąta to 7 cm, więc jego pole to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>7</mn><mo>·</mo><mn>7</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>24,5</mn></math> cm². Pole zacieniowanej figury to różnica pól trójkąta o boku 4 cm i trójkąta o boku 1 cm: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>4</mn><mo>·</mo><mn>4</mn></mrow><mn>2</mn></mfrac><mo>−</mo><mfrac><mrow><mn>1</mn><mo>·</mo><mn>1</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>8</mn><mo>−</mo><mn>0,5</mn><mo>=</mo><mn>7,5</mn></math> cm². Stosunek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7,5</mn><mo>:</mo><mn>24,5</mn><mo>≈</mo><mn>30,6</mn><mtext>%</mtext></math> mieści się między 30% a 32%.</p>",
+  "check": "C"
+ },
+ "szkolny_2024-2025_malopolskie_q15": {
+  "html": "<p>Z pola powierzchni <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn></math> dm² wynika bok dużego sześcianu 1 dm=10 cm, a z pola <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn></math> cm² bok małego sześcianu 2 cm. Powierzchnia rośnie najbardziej, gdy do środka wchodzi tylko jedna ściana małego sześcianu: znika wtedy 1 jego ściana (2×2=4 cm²) z powierzchni, a odsłaniają się pozostałe 5 ścian wgłębienia (5×4=20 cm²). Zysk to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mo>−</mo><mn>4</mn><mo>=</mo><mn>16</mn></math> cm²=0,16 dm², więc powierzchnia bryły to 6+0,16=6,16 dm².</p>",
+  "check": "D"
+ },
+ "szkolny_2024-2025_malopolskie_q16": {
+  "html": "<p>Pierwszy etap: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>72</mn><mo>·</mo><mfrac><mn>35</mn><mn>60</mn></mfrac><mo>=</mo><mn>42</mn></math> km. Cała droga to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>42</mn><mo>+</mo><mn>38</mn><mo>=</mo><mn>80</mn></math> km, a cały czas to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>35</mn><mo>+</mo><mn>40</mn><mo>=</mo><mn>75</mn></math> min <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>1,25</mn></math> h. Średnia prędkość to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>80</mn><mo>:</mo><mn>1,25</mn><mo>=</mo><mn>64</mn></math> km/h.</p>",
+  "check": "B"
+ }
+}

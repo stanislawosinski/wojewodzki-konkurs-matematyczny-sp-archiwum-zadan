@@ -1,0 +1,130 @@
+{
+ "rejonowy_2023_lubuskie_q1": {
+  "html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>=</mo><msup><mn>10</mn><mn>2</mn></msup></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>100</mn><mn>10</mn></msup><mo>=</mo><msup><mn>10</mn><mn>20</mn></msup></math> — to 1 i dwadzieścia zer, czyli 21 cyfr.</p>",
+  "check": "B"
+ },
+ "rejonowy_2023_lubuskie_q2": {
+  "html": "<p>Suma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>5</mn><mo>+</mo><mo>⋯</mo><mo>+</mo><mn>99</mn></math> to suma 50 kolejnych liczb nieparzystych, a taka suma zawsze wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>50</mn><mn>2</mn></msup><mo>=</mo><mn>2500</mn></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2500</mn></msqrt><mo>=</mo><mn>50</mn></math>.</p>",
+  "check": "D"
+ },
+ "rejonowy_2023_lubuskie_q3": {
+  "html": "<p>Pierwszemu pływakowi można przydzielić dowolny z 10 torów, a drugiemu jeden z pozostałych 9, więc liczba sposobów to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>·</mo><mn>9</mn><mo>=</mo><mn>90</mn></math>.</p>",
+  "check": "B"
+ },
+ "rejonowy_2023_lubuskie_q4": {
+  "html": "<p>1 km² to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>6</mn></msup></math> m², więc 14 000 km² to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>14000</mn><mo>·</mo><msup><mn>10</mn><mn>6</mn></msup><mo>=</mo><mn>1,4</mn><mo>·</mo><msup><mn>10</mn><mn>10</mn></msup></math> m².</p>",
+  "check": "D"
+ },
+ "rejonowy_2023_lubuskie_q5": {
+  "html": "<p>Kolejna prosta w położeniu ogólnym przecina wszystkie poprzednie i za każdym przecięciem dodaje jeden nowy obszar: 1 prosta daje 2 obszary, 2. dodaje 2 (razem 4), a 3. dodaje 3 nowe (bo przecina obie poprzednie) — razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>+</mo><mn>3</mn><mo>=</mo><mn>7</mn></math> obszarów.</p>",
+  "check": "D"
+ },
+ "rejonowy_2023_lubuskie_q6": {
+  "html": "<p>Liczba a zbudowana z cyfr 1, 2, 3 z cyfrą dziesiątek 2 to 123 lub 321 — w obu przypadkach kończy się cyfrą nieparzystą, więc a jest nieparzyste.</p><p>Skoro a+b jest parzyste, b też musi być nieparzyste, a jedyną nieparzystą cyfrą wśród 4, 5, 6 jest 5 — więc b kończy się na 5.</p><p>Iloczyn nieparzystej cyfry jedności (1 lub 3) i 5 zawsze daje cyfrę jedności 5 (np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>15</mn></math>).</p>",
+  "check": "C"
+ },
+ "rejonowy_2023_lubuskie_q7": {
+  "html": "<p>Sprawdzamy oś i środek symetrii każdej z czterech figur.</p><p>Schodkowa figura w lewym górnym rogu ma oś symetrii wzdłuż przekątnej łączącej jej narożniki, ale obrót o 180° nie nakłada jej na samą siebie — ma oś, a nie ma środka.</p><p>Krzyżyk z ząbkami (prawa góra) i podwójna strzałka (prawy dół) nakładają się na siebie po obrocie o 180°, ale nie mają żadnej osi — mają środek, a nie oś. Łamana gwiazda (lewy dół) ma i oś, i środek symetrii.</p><p>Warunek „oś, a nie środek” spełnia więc dokładnie jedna figura.</p>",
+  "check": "A"
+ },
+ "rejonowy_2023_lubuskie_q8": {
+  "html": "<p>Podział belki na 8 części wymaga 7 cięć, więc jedno cięcie kosztuje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>56</mn><mo>:</mo><mn>7</mn><mo>=</mo><mn>8</mn></math> zł. Podział na 15 części wymaga 14 cięć, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>14</mn><mo>·</mo><mn>8</mn><mo>=</mo><mn>112</mn></math> zł.</p>",
+  "check": "C"
+ },
+ "rejonowy_2023_lubuskie_q9": {
+  "html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>7</mn></mfrac><mo>=</mo><mn>0</mn><mo>,</mo><mo>(</mo><mn>285714</mn><mo>)</mo></math> — okres ma długość 6. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>135</mn><mo>:</mo><mn>6</mn><mo>=</mo><mn>22</mn></math> reszty 3, szukana cyfra jest trzecią cyfrą okresu „285714”, czyli 5.</p>",
+  "check": "B"
+ },
+ "rejonowy_2023_lubuskie_q10": {
+  "html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>x</mi><mo>+</mo><mi>y</mi></mrow><mn>2</mn></mfrac><mo>=</mo><mfrac><mrow><mn>3</mn><mi>y</mi></mrow><mn>4</mn></mfrac></math> daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>+</mo><mn>2</mn><mi>y</mi><mo>=</mo><mn>3</mn><mi>y</mi></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>=</mo><mi>y</mi></math>, a stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>y</mi><mi>x</mi></mfrac><mo>=</mo><mn>2</mn></math>.</p>",
+  "check": "C"
+ },
+ "rejonowy_2023_lubuskie_q11": {
+  "html": "<p>Kąt ostry przy podstawie spełnia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>cos</mi><mi>θ</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></math> (przyprostokątna 1 do przeciwprostokątnej 2), a taki kąt to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn><mo>°</mo></math>.</p>",
+  "check": "D"
+ },
+ "rejonowy_2023_lubuskie_q12": {
+  "html": "<p>Suma cyfr liczby 4 049 076 wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>+</mo><mn>0</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>9</mn><mo>+</mo><mn>0</mn><mo>+</mo><mn>7</mn><mo>+</mo><mn>6</mn><mo>=</mo><mn>30</mn></math>, a 30 nie dzieli się przez 9 — mimo że liczba jest parzysta, nie dzieli się przez 18.</p>",
+  "check": "B"
+ },
+ "rejonowy_2023_lubuskie_q13": {
+  "html": "<p>Łączna droga: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>9</mn></math> km. Łączny czas: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,5</mn><mo>+</mo><mn>0,25</mn><mo>=</mo><mn>0,75</mn></math> h. Prędkość średnia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mo>:</mo><mn>0,75</mn><mo>=</mo><mn>12</mn></math> km/h.</p>",
+  "check": "C"
+ },
+ "rejonowy_2023_lubuskie_q14": {
+  "html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><menclose notation=\"box\"><mn>2</mn></menclose><mo>=</mo><msup><mn>2</mn><mn>4</mn></msup><mo>=</mo><mn>16</mn></math>, więc druga część działania to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mo>+</mo><mn>16</mn><mo>=</mo><mn>32</mn></math>.</p><p>Na koniec <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>32</mn><mn>4</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><msup><mn>2</mn><mn>5</mn></msup><mo>)</mo></mrow><mn>4</mn></msup><mo>=</mo><msup><mn>2</mn><mn>20</mn></msup></math>.</p>",
+  "check": "A"
+ },
+ "rejonowy_2023_lubuskie_q15": {
+  "html": "<p>Bok leżący na osi x biegnie od (0,0) do (2,0), więc jego środek to (1,0).</p><p>Środek sześciokąta leży nad tym środkiem na wysokości apotemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>3</mn></msqrt><mn>2</mn></mfrac><mo>·</mo><mn>2</mn><mo>=</mo><msqrt><mn>3</mn></msqrt></math>, czyli w punkcie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>1</mn><mo>,</mo><msqrt><mn>3</mn></msqrt><mo>)</mo></math>.</p><p>K to wierzchołek leżący dokładnie naprzeciw, w odległości równej bokowi (2) od środka: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>1</mn><mo>+</mo><mn>2</mn><mo>,</mo><msqrt><mn>3</mn></msqrt><mo>)</mo><mo>=</mo><mo>(</mo><mn>3</mn><mo>,</mo><msqrt><mn>3</mn></msqrt><mo>)</mo></math>.</p>",
+  "check": "B"
+ },
+ "rejonowy_2023_lubuskie_q16": {
+  "html": "<p>Niech V będzie objętością beczki. Napełnienie w 0,4 to 0,4V wody, a „pusta w 0,4” to napełnienie w 0,6V.</p><p>Różnica: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,6</mn><mi>V</mi><mo>−</mo><mn>0,4</mn><mi>V</mi><mo>=</mo><mn>0,2</mn><mi>V</mi><mo>=</mo><mn>40</mn></math> l, więc V = 200 l.</p>",
+  "check": "C"
+ },
+ "rejonowy_2023_lubuskie_q17": {
+  "html": "<p>Pole czworościanu foremnego o krawędzi 1: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mfrac><msqrt><mn>3</mn></msqrt><mn>4</mn></mfrac><mo>=</mo><msqrt><mn>3</mn></msqrt></math>. Pole sześcianu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><mn>1</mn><mo>=</mo><mn>6</mn></math>. Stosunek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt><mo>:</mo><mn>6</mn></math>.</p>",
+  "check": "D"
+ },
+ "rejonowy_2023_lubuskie_q18": {
+  "html": "<p>Liczba przekątnych wielokąta wypukłego: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>n</mi><mo>(</mo><mi>n</mi><mo>−</mo><mn>3</mn><mo>)</mo></mrow><mn>2</mn></mfrac><mo>=</mo><mn>119</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>n</mi><mn>2</mn></msup><mo>−</mo><mn>3</mn><mi>n</mi><mo>−</mo><mn>238</mn><mo>=</mo><mn>0</mn></math>. Rozkład <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>n</mi><mo>−</mo><mn>17</mn><mo>)</mo><mo>(</mo><mi>n</mi><mo>+</mo><mn>14</mn><mo>)</mo><mo>=</mo><mn>0</mn></math> daje n = 17.</p>",
+  "check": "B"
+ },
+ "rejonowy_2023_lubuskie_q19": {
+  "html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mtext>MMDCCCXCV</mtext><mo>=</mo><mn>2895</mn></math>, XV = 15, CXC = 190, XII = 12. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>2895</mn><mo>:</mo><mn>15</mn><mo>−</mo><mn>190</mn><mo>)</mo><mo>·</mo><mn>12</mn><mo>=</mo><mo>(</mo><mn>193</mn><mo>−</mo><mn>190</mn><mo>)</mo><mo>·</mo><mn>12</mn><mo>=</mo><mn>36</mn></math>.</p>",
+  "check": "A"
+ },
+ "rejonowy_2023_lubuskie_q20": {
+  "html": "<p>Egipskie pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mi>d</mi><mo>−</mo><mfrac><mi>d</mi><mn>9</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mfrac><mrow><mn>8</mn><mi>d</mi></mrow><mn>9</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup></math>, a prawdziwe pole to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>π</mi><msup><mrow><mo>(</mo><mfrac><mi>d</mi><mn>2</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup></math>.</p><p>Przyrównując: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>π</mi><mo>=</mo><mfrac><mn>64</mn><mn>81</mn></mfrac><mo>·</mo><mn>4</mn><mo>=</mo><mfrac><mn>256</mn><mn>81</mn></mfrac><mo>=</mo><mn>3</mn><mfrac><mn>13</mn><mn>81</mn></mfrac></math>.</p>",
+  "check": "B"
+ },
+ "rejonowy_2023_lubuskie_q21": {
+  "html": "<p>Przekątna kwadratu o boku 4 m to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>2</mn></msqrt><mo>≈</mo><mn>5,66</mn></math> m, czyli około 56,6 dm ≈ 57 dm.</p>",
+  "check": "C"
+ },
+ "rejonowy_2023_lubuskie_q22": {
+  "html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mo>−</mo><mn>5</mn><mo>|</mo><mo>=</mo><mn>5</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mo>−</mo><mn>10</mn><mo>−</mo><mn>5</mn><mo>)</mo><mo>·</mo><mo>|</mo><mo>−</mo><mn>2</mn><mo>|</mo><mo>=</mo><mo>(</mo><mo>−</mo><mn>15</mn><mo>)</mo><mo>·</mo><mn>2</mn><mo>=</mo><mo>−</mo><mn>30</mn></math>.</p>",
+  "check": "A"
+ },
+ "rejonowy_2023_lubuskie_q23": {
+  "html": "<p>Boki obu trójkątów dzielimy na 3 równe części — każdy trójkąt rozpada się wtedy na 9 przystających małych trójkącików, każdy o polu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>:</mo><mn>9</mn><mo>=</mo><mfrac><mn>10</mn><mn>3</mn></mfrac></math> cm².</p><p>Sześć środkowych trójkącików należy do obu dużych trójkątów naraz (to wspólny sześciokąt), a cała gwiazda składa się z tych 6 wspólnych i po 3 w każdym z sześciu ramion, czyli z 12 trójkącików: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>·</mo><mfrac><mn>10</mn><mn>3</mn></mfrac><mo>=</mo><mn>40</mn></math> cm².</p>",
+  "check": "A"
+ },
+ "rejonowy_2023_lubuskie_q24": {
+  "html": "<p>Kwadrat różnicy liczb x i y to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mi>x</mi><mo>−</mo><mi>y</mi><mo>)</mo></mrow><mn>2</mn></msup></math>, a jego czwarta część to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mi>x</mi><mo>−</mo><mi>y</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>:</mo><mn>4</mn></math>.</p>",
+  "check": "D"
+ },
+ "rejonowy_2023_lubuskie_q25": {
+  "html": "<p>Kąt wewnętrzny wielokąta foremnego: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><mi>n</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>·</mo><mn>180</mn><mo>°</mo></mrow><mi>n</mi></mfrac><mo>=</mo><mn>170</mn><mo>°</mo></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>180</mn><mi>n</mi><mo>−</mo><mn>360</mn><mo>=</mo><mn>170</mn><mi>n</mi></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mi>n</mi><mo>=</mo><mn>360</mn></math>, więc n = 36.</p>",
+  "check": "B"
+ },
+ "rejonowy_2023_lubuskie_q26": {
+  "html": "<p>W parze C pierwsze równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>=</mo><mi>x</mi><mo>−</mo><mn>8</mn></math> daje x = 8, a drugie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>=</mo><mn>3</mn><mi>x</mi><mo>−</mo><mn>1</mn></math> daje x = 1. Różne rozwiązania (8 ≠ 1) oznaczają, że ta para równań nie jest równoważna.</p>",
+  "check": "C"
+ },
+ "rejonowy_2023_lubuskie_q27": {
+  "html": "<p>Górna warstwa liczy 77 klocków, czyli tyle wynosi pole podstawy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mo>·</mo><mn>11</mn><mo>=</mo><mn>77</mn></math> (jedyny sensowny rozkład). Boczna warstwa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>55</mn><mo>=</mo><mn>11</mn><mo>·</mo><mn>5</mn><mo>)</mo></math> pokazuje, że po zdjęciu góry wysokość wynosi 5 (pierwotnie 6), a usunięta ściana zmniejsza długość z 7 na 6.</p><p>Zostaje prostopadłościan <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><mn>11</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>330</mn></math> klocków. Warstwa z przodu zabiera <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>30</mn></math>, więc zostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>330</mn><mo>−</mo><mn>30</mn><mo>=</mo><mn>300</mn></math>.</p>",
+  "check": "D"
+ },
+ "rejonowy_2023_lubuskie_q28": {
+  "html": "<p>Ponieważ m∥BC, kąt między m i AB jest równy kątowi ABC = 39° (kąty odpowiadające). Prosta n⊥AB, więc kąt między n i AB wynosi 90°.</p><p>Kąt ostry między m i n: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>90</mn><mo>°</mo><mo>−</mo><mn>39</mn><mo>°</mo><mo>=</mo><mn>51</mn><mo>°</mo></math>, co mieści się między 49° a 55°.</p>",
+  "check": "C"
+ },
+ "rejonowy_2023_lubuskie_q29": {
+  "html": "<ul><li>Iloczyn czterech różnych liczb pierwszych ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>4</mn></msup><mo>=</mo><mn>16</mn></math> dzielników (każdy czynnik występuje w potędze 1) — <b>P</b>.</li><li>Kwadrat liczby pierwszej p ma dzielniki 1, p, p² — dokładnie trzy — <b>P</b>.</li><li>Liczby pierwsze między 10 a 20 to 11, 13, 17, 19 — jest ich cztery, nie trzy — <b>F</b>.</li></ul>",
+  "check": "PPF"
+ },
+ "rejonowy_2023_lubuskie_q30": {
+  "html": "<ul><li>Prawie wszystkie z 1000 czynników iloczynu 1000! są mniejsze od 1000, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1000</mn><mo>!</mo><mo>&lt;</mo><msup><mn>1000</mn><mn>1000</mn></msup></math> — <b>F</b>.</li><li>11! dzieli 110! (bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>110</mn><mo>!</mo><mo>:</mo><mn>11</mn><mo>!</mo></math> jest liczbą całkowitą), więc NWW(110!, 11!) = 110! — <b>P</b>.</li><li>Z tego samego powodu NWD(110!, 11!) = 11! — <b>P</b>.</li></ul>",
+  "check": "FPP"
+ },
+ "rejonowy_2023_lubuskie_q31": {
+  "html": "<ul><li>Przy średnicy 18 cm pole wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>π</mi><mo>·</mo><msup><mn>9</mn><mn>2</mn></msup><mo>≈</mo><mn>254,5</mn></math> cm², a nie 450 cm² (dla 450 cm² promień to ok. 12 cm, czyli d ≈ 24 cm) — <b>F</b>.</li><li>20 różnych kwot (nawet licząc od 0) to co najmniej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0</mn><mo>+</mo><mn>1</mn><mo>+</mo><mo>⋯</mo><mo>+</mo><mn>19</mn><mo>=</mo><mn>190</mn></math> monet, a jest ich tylko 188 — niemożliwe — <b>F</b>.</li><li>Cztery koła o średnicy 10 cm (po 2 w rzędzie w kwadracie 20 × 20) mają łączny obwód <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mi>π</mi><mo>·</mo><mn>10</mn><mo>≈</mo><mn>125,7</mn></math> cm > 120 cm — <b>P</b>.</li></ul>",
+  "check": "FFP"
+ },
+ "rejonowy_2023_lubuskie_q32": {
+  "html": "<ul><li>Po kolejnych obniżkach zostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,8</mn><mo>·</mo><mn>0,75</mn><mo>·</mo><mn>0,45</mn><mo>=</mo><mn>0,27</mn></math> ceny, czyli 27%, co daje obniżkę o 73% — <b>P</b>.</li><li>Po podwyżce i obniżce zostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,3</mn><mo>·</mo><mn>0,7</mn><mo>=</mo><mn>0,91</mn></math> ceny początkowej, czyli o 9% mniej — <b>P</b>.</li><li>12 rat po 250 zł to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>·</mo><mn>250</mn><mo>=</mo><mn>3000</mn></math> zł, czyli 500 zł więcej niż 2500 zł, co stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>500</mn><mo>:</mo><mn>2500</mn><mo>=</mo><mn>20</mn><mo>%</mo></math>, nie 15% — <b>F</b>.</li></ul>",
+  "check": "PPF"
+ }
+}

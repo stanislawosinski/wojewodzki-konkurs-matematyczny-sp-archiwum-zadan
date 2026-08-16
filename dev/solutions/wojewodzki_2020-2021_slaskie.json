@@ -1,0 +1,42 @@
+{
+  "wojewodzki_2020-2021_slaskie_q2": {
+    "html": "<p>Iloczyn wszystkich liczb nieparzystych mniejszych od 100 zawiera czynnik 5, a wszystkie czynniki są nieparzyste, więc iloczyn jest nieparzystą wielokrotnością liczby 5. Taka liczba ma cyfrę jedności równą 5.</p>",
+    "check": "B"
+  },
+  "wojewodzki_2020-2021_slaskie_q3": {
+    "html": "<p>Wszystkie krawędzie mają 5 cm, więc każda ściana boczna to trójkąt równoboczny o boku 5. Jego pole to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mn>5</mn><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mfrac><mrow><mn>25</mn><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac></math> cm². Pole powierzchni bocznej (4 ściany) wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mfrac><mrow><mn>25</mn><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>=</mo><mn>25</mn><msqrt><mn>3</mn></msqrt></math> cm².</p>",
+    "check": "C"
+  },
+  "wojewodzki_2020-2021_slaskie_q4": {
+    "html": "<p>Rozdzielamy licznik: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mo>−</mo><msqrt><mn>2</mn></msqrt></mrow><msqrt><mn>2</mn></msqrt></mfrac><mo>=</mo><mfrac><mn>2</mn><msqrt><mn>2</mn></msqrt></mfrac><mo>−</mo><mn>1</mn></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><msqrt><mn>2</mn></msqrt></mfrac><mo>=</mo><msqrt><mn>2</mn></msqrt></math>, całość jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2</mn></msqrt><mo>−</mo><mn>1</mn></math>.</p>",
+    "check": "A"
+  },
+  "wojewodzki_2020-2021_slaskie_q5": {
+    "html": "<p>Niech mniejsza liczba to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>18</mn><mo>)</mo><mo>=</mo><mn>56</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>=</mo><mn>38</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>19</mn></math>. Druga liczba to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>19</mn><mo>+</mo><mn>18</mn><mo>=</mo><mn>37</mn></math>. Szukane liczby: 37 i 19.</p>",
+    "check": "B"
+  },
+  "wojewodzki_2020-2021_slaskie_q6": {
+    "html": "<p>Pole kwadratu wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>18</mn><mo>+</mo><mn>63</mn><mo>=</mo><mn>81</mn></math> cm², więc jego bok to 9 cm. Odcięty trójkąt ma jedną przyprostokątną równą bokowi kwadratu, a pole 18 cm², więc druga przyprostokątna wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mo>·</mo><mn>18</mn></mrow><mn>9</mn></mfrac><mo>=</mo><mn>4</mn></math> cm. Krótsza podstawa trapezu to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mo>−</mo><mn>4</mn><mo>=</mo><mn>5</mn></math> cm.</p>",
+    "check": "C"
+  },
+  "wojewodzki_2020-2021_slaskie_q7": {
+    "html": "<p>Zestawy banknotów: dla 15 zł – 5+5+5 lub 10+5; dla 30 zł – 20+10, 20+5+5, 10+10+10, 10+10+5+5, 10+5·4, 5·6; dla 45 zł – licząc według liczby użytych dwudziestek (0, 1 lub 2) wychodzi łącznie 9 zestawów.</p><ul><li>na 15 zł są 2 sposoby, nie 3 – <b>F</b>.</li><li>na 30 zł jest 6 sposobów – <b>P</b>.</li><li>na 45 zł jest 9 sposobów – <b>P</b>.</li></ul>",
+    "check": "FPP"
+  },
+  "wojewodzki_2020-2021_slaskie_q8": {
+    "html": "<p>Trasa ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>90</mn><mo>·</mo><mn>3</mn><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>=</mo><mn>300</mn></math> km.</p><ul><li>przy 100 km/h czas to 3 h, czyli 20 min krócej – <b>P</b>.</li><li>przy 4 h prędkość to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>300</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>75</mn></math> km/h – <b>P</b>.</li><li>dla 330 km przy 90 km/h czas to 3 h 40 min, czyli o 20 min dłużej, nie pół godziny – <b>F</b>.</li></ul>",
+    "check": "PPF"
+  },
+  "wojewodzki_2020-2021_slaskie_q9": {
+    "html": "<p>Rok ma kwartały po 90, 91, 92, 92 dni.</p><ul><li>II kwartał ma 91 dni, III – 92, więc prawdopodobieństwa różne – <b>F</b>.</li><li>miesiące nieparzyste mają łącznie 184 dni, parzyste – 181, a 184 &gt; 181 – <b>P</b>.</li><li>I i II kwartał razem to 181 dni, III i IV razem – 184, więc różne – <b>F</b>.</li></ul>",
+    "check": "FPF"
+  },
+  "wojewodzki_2020-2021_slaskie_q10": {
+    "html": "<p>n-ta przeciwprostokątna ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><mi>n</mi><mo>+</mo><mn>1</mn></mrow></msqrt></math> (kolejno <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2</mn></msqrt><mo>,</mo><msqrt><mn>3</mn></msqrt><mo>,</mo><mn>2</mn><mo>,</mo><msqrt><mn>5</mn></msqrt><mo>,</mo><mo>…</mo></math>).</p><ul><li>liczbą całkowitą jest dla n = 3, 8, 15, 24, … – odstępy między nimi rosną, to nie co drugi trójkąt – <b>F</b>.</li><li>trzeci trójkąt ma przyprostokątne <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>3</mn></msqrt></math> i 1, przeciwprostokątną 2 – to połowa trójkąta równobocznego – <b>P</b>.</li><li>pierwszy trójkąt ma obie przyprostokątne równe 1 – to połowa kwadratu – <b>P</b>.</li></ul>",
+    "check": "FPP"
+  },
+  "wojewodzki_2020-2021_slaskie_q11": {
+    "html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>n</mi><mn>2</mn></msup><mo>(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo></math> – n i n+1 to kolejne liczby (jedna parzysta), a n² ma tę samą parzystość co n.</p><ul><li>iloczyn ten jest zawsze parzysty, więc po odjęciu 1 wyrażenie jest zawsze nieparzyste – <b>P</b>.</li><li>dla n = 1: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mn>1</mn><mo>−</mo><mn>1</mn><mo>=</mo><mn>1</mn></math>, niepodzielne przez 3 – <b>F</b>.</li><li>dla n = 3: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>27</mn><mo>+</mo><mn>9</mn><mo>−</mo><mn>1</mn><mo>=</mo><mn>35</mn></math>, reszta z dzielenia przez 5 to 0, nie 1 – <b>F</b>.</li></ul>",
+    "check": "PFF"
+  }
+}

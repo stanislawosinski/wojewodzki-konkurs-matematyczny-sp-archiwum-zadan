@@ -1,0 +1,54 @@
+{
+  "wojewodzki_2025-2026_swietokrzyskie_q1": {
+    "html": "<p>Szukane liczby mają postać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mi>k</mi><mo>+</mo><mn>3</mn></math> dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mo>=</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo>,</mo><mo>…</mo><mo>,</mo><mn>13</mn></math>, bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mo>·</mo><mn>13</mn><mo>+</mo><mn>3</mn><mo>=</mo><mn>94</mn></math>, a kolejna to już 101. Takich liczb jest 14.</p>",
+    "check": "C"
+  },
+  "wojewodzki_2025-2026_swietokrzyskie_q2": {
+    "html": "<p>Skoro <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>0,3</mn><mi>b</mi></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mfrac><mrow><mn>10</mn><mi>a</mi></mrow><mn>3</mn></mfrac></math>.</p><ul><li>Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>b</mi><mi>a</mi></mfrac><mo>=</mo><mfrac><mn>10</mn><mn>3</mn></mfrac></math>, czyli 333,3%, a nie 33,3%.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mi>a</mi></mfrac><mo>=</mo><mn>1</mn><mo>+</mo><mfrac><mn>10</mn><mn>3</mn></mfrac><mo>=</mo><mfrac><mn>13</mn><mn>3</mn></mfrac></math>.</li></ul>",
+    "check": "FP"
+  },
+  "wojewodzki_2025-2026_swietokrzyskie_q3": {
+    "html": "<ul><li>Liczb czterocyfrowych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9999</mn><mo>−</mo><mn>999</mn><mo>=</mo><mn>9000</mn></math>.</li><li>Z różnymi cyframi: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mo>·</mo><mn>9</mn><mo>·</mo><mn>8</mn><mo>·</mo><mn>7</mn><mo>=</mo><mn>4536</mn></math>.</li><li>Podzielnych przez 100: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>9900</mn><mo>−</mo><mn>1000</mn><mo>)</mo><mo>:</mo><mn>100</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>90</mn></math>, nie 100.</li><li>Iloczyn cyfr 4 tylko z cyfr 1, 2, 4: (4,1,1,1) i (2,2,1,1) dają <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>+</mo><mn>6</mn><mo>=</mo><mn>10</mn></math> liczb.</li></ul>",
+    "check": "PPFP"
+  },
+  "wojewodzki_2025-2026_swietokrzyskie_q4": {
+    "html": "<p>Liczba 2026 jest parzysta, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2026</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><msup><mi>a</mi><mn>1013</mn></msup><mo>)</mo></mrow><mn>2</mn></msup></math> jest kwadratem liczby całkowitej. Kwadraty liczb całkowitych kończą się tylko na 0, 1, 4, 5, 6 lub 9 – cyfry 8 być nie może.</p>",
+    "check": "C"
+  },
+  "wojewodzki_2025-2026_swietokrzyskie_q5": {
+    "html": "<p>Różnica wieku Ani i Kasi jest stała: 15 lat. W 2026 r. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi><mo>+</mo><mn>15</mn><mo>=</mo><mn>2</mn><mi>K</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>K</mi><mo>=</mo><mn>15</mn></math>, a Ania ma 30 lat – razem 45. Do 65 brakuje 20 lat, a suma ich wieku rośnie o 2 co rok, więc trzeba czekać 10 lat: rok 2036.</p>",
+    "check": "A"
+  },
+  "wojewodzki_2025-2026_swietokrzyskie_q6": {
+    "html": "<ul><li>Żółtych jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,4</mn><mo>·</mo><mn>160</mn><mo>=</mo><mn>64</mn></math>, więc zielonych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,25</mn><mo>·</mo><mn>64</mn><mo>=</mo><mn>16</mn></math>, nie 40.</li><li>Czerwonych jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>160</mn><mo>−</mo><mn>64</mn><mo>−</mo><mn>16</mn><mo>=</mo><mn>80</mn></math>, czyli połowa wszystkich.</li><li>Prawdopodobieństwo niezielonej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>144</mn><mn>160</mn></mfrac><mo>=</mo><mn>0,9</mn></math>.</li></ul>",
+    "check": "FPP"
+  },
+  "wojewodzki_2025-2026_swietokrzyskie_q7": {
+    "html": "<ul><li>Suma szóstki liczb: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><mn>9</mn><mo>=</mo><mn>54</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>54</mn><mo>−</mo><mn>44</mn><mo>=</mo><mn>10</mn></math>, nie 9.</li><li>Po uporządkowaniu: 3, 4, 6, 10, 12, 19 – mediana <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mrow><mn>6</mn><mo>+</mo><mn>10</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>8</mn></math>, nie 11.</li><li>Po dopisaniu 13: 3, 4, 6, 10, 12, 13, 19 – środkowa liczba to 10, więc mediana wzrosła o 2.</li></ul>",
+    "check": "FFP"
+  },
+  "wojewodzki_2025-2026_swietokrzyskie_q8": {
+    "html": "<p>Wysokość i krótsza podstawa dają trójkąt prostokątny równoramienny: krótsza podstawa = 5 cm, przekątna = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><msqrt><mn>2</mn></msqrt></math> cm. To przyprostokątna drugiego takiego trójkąta, więc dłuższa podstawa = 10 cm.</p><ul><li>Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>5</mn><mo>+</mo><mn>10</mn></mrow><mn>2</mn></mfrac><mo>·</mo><mn>5</mn><mo>=</mo><mn>37,5</mn></math> cm².</li><li>Dłuższa przekątna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><msup><mn>10</mn><mn>2</mn></msup><mo>+</mo><msup><mn>5</mn><mn>2</mn></msup></msqrt><mo>=</mo><mn>5</mn><msqrt><mn>5</mn></msqrt></math> cm.</li><li>Suma obwodów obu trójkątów to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mo>+</mo><mn>15</mn><msqrt><mn>2</mn></msqrt><mo>≈</mo><mn>41,2</mn></math> cm – więcej niż 35.</li><li>Kąt ostry trapezu (przy dłuższej podstawie) ma 45°.</li></ul>",
+    "check": "PPFP"
+  },
+  "wojewodzki_2025-2026_swietokrzyskie_q9": {
+    "html": "<ul><li>Długość okręgu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>10</mn><mo>·</mo><mi>π</mi><mo>=</mo><mn>20</mn><mi>π</mi></math> cm, nie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mi>π</mi></math>.</li><li>Połowa cięciwy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><msup><mn>10</mn><mn>2</mn></msup><mo>−</mo><msup><mn>6</mn><mn>2</mn></msup></msqrt><mo>=</mo><mn>8</mn></math>, więc AB=16 cm, nie 8.</li><li>Pole trójkąta AOB: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>16</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>48</mn></math> cm².</li></ul>",
+    "check": "FFP"
+  },
+  "wojewodzki_2025-2026_swietokrzyskie_q10": {
+    "html": "<p>Wektor AS = (3, 3) ma równe współrzędne, więc boki kwadratu są równoległe do osi; bok = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>2</mn></msqrt><mo>·</mo><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>6</mn></math>. Wierzchołki: (−2±3, 1±3), czyli (−5,−2), (−5,4), (1,−2), (1,4).</p><ul><li>Nie ma wśród nich (4, −5).</li><li>Obwód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>24</mn></math>.</li><li>Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>6</mn><mn>2</mn></msup><mo>=</mo><mn>36</mn></math>.</li></ul>",
+    "check": "FPP"
+  },
+  "wojewodzki_2025-2026_swietokrzyskie_q11": {
+    "html": "<p>Graniastosłup: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>n</mi><mo>=</mo><mn>28</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>14</mn></math>, a krawędzi ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>14</mn><mo>=</mo><mn>42</mn></math>. Ostrosłup o tylu samo krawędziach: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>m</mi><mo>=</mo><mn>42</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>m</mi><mo>=</mo><mn>21</mn></math>, a wierzchołków ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>21</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>22</mn></math>.</p>",
+    "check": "D"
+  },
+  "wojewodzki_2025-2026_swietokrzyskie_q12": {
+    "html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>n</mi><mo>=</mo><mn>6</mn></math> krawędzi daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>3</mn></math> – podstawa trójkątna, a skoro wszystkie krawędzie mają 6 cm, ściany boczne to trójkąty równoboczne o boku 6. Jedna ściana: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>3</mn></msqrt><mn>4</mn></mfrac><mo>·</mo><msup><mn>6</mn><mn>2</mn></msup><mo>=</mo><mn>9</mn><msqrt><mn>3</mn></msqrt></math> cm². Pole boczne: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>9</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>27</mn><msqrt><mn>3</mn></msqrt></math> cm².</p>",
+    "check": "B"
+  },
+  "wojewodzki_2025-2026_swietokrzyskie_q13": {
+    "html": "<ul><li>To dokładnie definicja funkcji: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></math>.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo><mo>=</mo><msup><mrow><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>−</mo><mn>1</mn><mo>=</mo><mn>3</mn></math>, nie −5.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>f</mi><mo>(</mo><mo>−</mo><mi>x</mi><mo>)</mo><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn><mo>=</mo><mi>f</mi><mo>(</mo><mi>x</mi><mo>)</mo></math>, więc wartości dla liczb przeciwnych są równe.</li></ul>",
+    "check": "PFP"
+  }
+}

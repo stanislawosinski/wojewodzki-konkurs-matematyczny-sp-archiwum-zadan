@@ -1,0 +1,62 @@
+{
+  "szkolny_2023_dolnoslaskie_q1": {
+    "html": "<p>Największa liczba ma cyfrę setek 9, a resztę sumy 25 rozkładamy tak, by dziesiątki były jak największe: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mo>+</mo><mn>9</mn><mo>+</mo><mn>7</mn><mo>=</mo><mn>25</mn></mrow></math>, czyli 997. Najmniejsza: dwie ostatnie cyfry dają sumę co najwyżej 18, więc cyfra setek to 7, a pozostałe cyfry to 9 i 9, czyli 799. Różnica: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>997</mn><mo>−</mo><mn>799</mn><mo>=</mo><mn>198</mn></mrow></math>.</p>",
+    "check": "C"
+  },
+  "szkolny_2023_dolnoslaskie_q2": {
+    "html": "<p>Liczb zaczynających się od cyfry 1 jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>9</mn></mrow></math>, i wszystkie poprzedzają liczby zaczynające się od 2. W kolejności rosnącej to: 100, 101, 102, 110, 111, 112, 120, 121, 122 - liczba 122 jest wśród nich ostatnia, czyli dziewiąta w całym zestawie.</p>",
+    "check": "B"
+  },
+  "szkolny_2023_dolnoslaskie_q3": {
+    "html": "<p>Skoro <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> jest trzycyfrowa, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>k</mi><mo>≥</mo><mn>100</mn></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>=</mo><mi>k</mi><mo>+</mo><mn>345</mn><mo>≥</mo><mn>445</mn></mrow></math>. Trzycyfrowość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> daje górne ograniczenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>n</mi><mo>≤</mo><mn>999</mn></mrow></math>. Liczba par: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>999</mn><mo>−</mo><mn>445</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>555</mn></mrow></math>.</p>",
+    "check": "B"
+  },
+  "szkolny_2023_dolnoslaskie_q4": {
+    "html": "<p>Przyjmijmy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>d</mi><mo>=</mo><mn>1</mn></mrow></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mfrac><mn>3</mn><mn>5</mn></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>·</mo><mi>a</mi><mo>=</mo><mfrac><mn>2</mn><mn>5</mn></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>c</mi><mo>=</mo><mfrac><mn>7</mn><mn>8</mn></mfrac><mo>·</mo><mi>b</mi><mo>=</mo><mfrac><mn>7</mn><mn>20</mn></mfrac></mrow></math>. Po sprowadzeniu do dwudziestych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mfrac><mn>12</mn><mn>20</mn></mfrac></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mfrac><mn>8</mn><mn>20</mn></mfrac></mrow></math>, więc najmniejsza jest c (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>20</mn></mfrac></math>).</p>",
+    "check": "C"
+  },
+  "szkolny_2023_dolnoslaskie_q5": {
+    "html": "<p>Iloczyn ułamków skraca się teleskopowo: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>·</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>·</mo><mfrac><mn>4</mn><mn>5</mn></mfrac><mo>·</mo><mfrac><mn>5</mn><mn>6</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>6</mn></mfrac></mrow></math>. Suma, sprowadzona do sześćdziesiątych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>30</mn><mo>+</mo><mn>40</mn><mo>+</mo><mn>45</mn><mo>+</mo><mn>48</mn><mo>+</mo><mn>50</mn><mo>=</mo><mn>213</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>213</mn><mn>60</mn></mfrac></math>. Dzieląc: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>213</mn><mn>60</mn></mfrac><mo>:</mo><mfrac><mn>1</mn><mn>6</mn></mfrac><mo>=</mo><mfrac><mn>213</mn><mn>10</mn></mfrac><mo>=</mo><mn>21,3</mn></mrow></math>.</p>",
+    "check": "A"
+  },
+  "szkolny_2023_dolnoslaskie_q6": {
+    "html": "<p>Pierwiastek sześcienny z kwadratu miliona: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mroot><msup><mn>1000000</mn><mn>2</mn></msup><mn>3</mn></mroot><mo>=</mo><mn>10000</mn></mrow></math>. Pierwiastek kwadratowy z sześcianu miliona: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><msup><mn>1000000</mn><mn>3</mn></msup></msqrt><mo>=</mo><mn>1000000000</mn></mrow></math>. Różnica: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1000000000</mn><mo>−</mo><mn>10000</mn><mo>=</mo><mn>999990000</mn></mrow></math>.</p>",
+    "check": "B"
+  },
+  "szkolny_2023_dolnoslaskie_q7": {
+    "html": "<p>Trzy kolejne pierwiastki kwadratowe dzielą wykładnik przez 8: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><msqrt><msqrt><msup><mn>2</mn><mn>48</mn></msup></msqrt></msqrt></msqrt><mo>=</mo><msup><mn>2</mn><mn>6</mn></msup></mrow></math>. W odpowiedzi A dwa pierwiastki sześcienne dzielą wykładnik przez 9: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mroot><mroot><msup><mn>2</mn><mn>54</mn></msup><mn>3</mn></mroot><mn>3</mn></mroot><mo>=</mo><msup><mn>2</mn><mn>6</mn></msup></mrow></math> - ta sama liczba.</p>",
+    "check": "A"
+  },
+  "szkolny_2023_dolnoslaskie_q8": {
+    "html": "<p>Szukane liczby są bliskie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>290</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>72,5</mn></mrow></math>. Liczby 72, 73, 74, 75 zaokrąglają się do 70, 70, 70, 80 (75 w górę), a suma zaokrągleń wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>70</mn><mo>+</mo><mn>70</mn><mo>+</mo><mn>70</mn><mo>+</mo><mn>80</mn><mo>=</mo><mn>290</mn></mrow></math> - zgadza się. Najmniejsza stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>72</mn><mo>:</mo><mn>75</mn><mo>=</mo><mn>96</mn><mo>%</mo></mrow></math> największej.</p>",
+    "check": "B"
+  },
+  "szkolny_2023_dolnoslaskie_q9": {
+    "html": "<p>Odcinek a łączy punkty przesunięte o jedną kratkę w bok i jedną w górę - to przekątna oczka kratki. Prostopadłe do niego są odcinki o przeciwnym kierunku nachylenia, łączące punkty leżące na tej samej \"antyprzekątnej\" siatki 4×4. Liczba punktów na kolejnych antyprzekątnych to 1, 2, 3, 4, 3, 2, 1, a par punktów (czyli odcinków) na każdej: 0, 1, 3, 6, 3, 1, 0. Suma: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>6</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>14</mn></mrow></math>.</p>",
+    "check": "C"
+  },
+  "szkolny_2023_dolnoslaskie_q10": {
+    "html": "<p>Przekątna BD dzieli kąty kwadratu na połowy, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∠</mo><mi>FDC</mi><mo>=</mo><mn>45</mn><mo>°</mo></mrow></math>. Ponieważ E leży na boku DC, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>∠</mo><mi>DCF</mi><mo>=</mo><mo>∠</mo><mi>ECF</mi><mo>=</mo><mn>60</mn><mo>°</mo></mrow></math> (kąt trójkąta równobocznego CEF). Trzeci kąt trójkąta CDF: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>180</mn><mo>°</mo><mo>−</mo><mn>45</mn><mo>°</mo><mo>−</mo><mn>60</mn><mo>°</mo><mo>=</mo><mn>75</mn><mo>°</mo></mrow></math>. Różnica: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>75</mn><mo>°</mo><mo>−</mo><mn>45</mn><mo>°</mo><mo>=</mo><mn>30</mn><mo>°</mo></mrow></math>.</p>",
+    "check": "C"
+  },
+  "szkolny_2023_dolnoslaskie_q11": {
+    "html": "<p>Trzeci bok x musi spełniać nierówność trójkąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>&lt;</mo><mi>x</mi><mo>&lt;</mo><mn>14</mn></mrow></math> (bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>−</mo><mn>6</mn><mo>=</mo><mn>2</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mo>+</mo><mn>6</mn><mo>=</mo><mn>14</mn></mrow></math>). Liczba 15 nie spełnia tego warunku, więc trójkąt o bokach 6 cm, 8 cm i 15 cm nie istnieje.</p>",
+    "check": "D"
+  },
+  "szkolny_2023_dolnoslaskie_q12": {
+    "html": "<p>W trójkącie ACE suma kątów daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>α</mi><mo>+</mo><mn>3</mn><mi>α</mi><mo>+</mo><mn>4</mn><mi>α</mi><mo>=</mo><mn>180</mn><mo>°</mo></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mi>α</mi><mo>=</mo><mn>180</mn><mo>°</mo></mrow></math>. W trójkącie ABC kąt przy A to 3α, przy C to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>α</mi><mo>+</mo><mi>β</mi></mrow></math>, przy B to γ, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mi>α</mi><mo>+</mo><mi>β</mi><mo>+</mo><mi>γ</mi><mo>=</mo><mn>180</mn><mo>°</mo></mrow></math>. Odejmując stronami: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>β</mi><mo>+</mo><mi>γ</mi><mo>=</mo><mn>9</mn><mi>α</mi><mo>−</mo><mn>6</mn><mi>α</mi><mo>=</mo><mn>3</mn><mi>α</mi></mrow></math>.</p>",
+    "check": "B"
+  },
+  "szkolny_2023_dolnoslaskie_q13": {
+    "html": "<p>Suma kątów trójkąta równoramiennego: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>+</mo><mn>2</mn><mi>β</mi><mo>=</mo><mn>180</mn><mo>°</mo></mrow></math>. Podstawiając to do związków A i D, oba sprowadzają się dokładnie do tej równości, a w B: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mi>β</mi><mo>−</mo><mi>α</mi></mrow><mn>3</mn></mfrac><mo>=</mo><mi>β</mi><mo>−</mo><mn>60</mn><mo>°</mo></mrow></math> też się zgadza. Związek C wymaga <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>+</mo><mn>2</mn><mi>β</mi><mo>=</mo><mn>270</mn><mo>°</mo></mrow></math>, co jest sprzeczne z sumą kątów - ten związek nie zachodzi.</p>",
+    "check": "C"
+  },
+  "szkolny_2023_dolnoslaskie_q14": {
+    "html": "<p>W T1 podstawa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>50</mn><mo>−</mo><mn>2</mn><mo>·</mo><mn>15</mn><mo>=</mo><mn>20</mn></mrow></math> cm, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>20</mn><mo>:</mo><mn>50</mn><mo>=</mo><mn>40</mn><mo>%</mo></mrow></math> obwodu. W T2 podstawa to 40% z 30 cm: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,4</mn><mo>·</mo><mn>30</mn><mo>=</mo><mn>12</mn></mrow></math> cm, więc ramiona razem mają <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>30</mn><mo>−</mo><mn>12</mn><mo>=</mo><mn>18</mn></mrow></math> cm, jedno ramię: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>18</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>9</mn></mrow></math> cm. Ramię jest krótsze od podstawy o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>12</mn><mo>−</mo><mn>9</mn><mo>=</mo><mn>3</mn></mrow></math> cm.</p>",
+    "check": "D"
+  },
+  "szkolny_2023_dolnoslaskie_q15": {
+    "html": "<p>Niech a - krawędź podstawy, h - krawędź boczna. Pole boczne to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>a</mi><mi>h</mi></mrow></math>, pole całkowite to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>a</mi><mi>h</mi></mrow></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mi>a</mi><mi>h</mi><mo>:</mo><mo>(</mo><mn>2</mn><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>a</mi><mi>h</mi><mo>)</mo><mo>=</mo><mfrac><mn>2</mn><mn>5</mn></mfrac></mrow></math> po przekształceniu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>12</mn><mi>a</mi><mi>h</mi><mo>=</mo><mn>4</mn><msup><mi>a</mi><mn>2</mn></msup></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>3</mn><mi>h</mi></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>:</mo><mi>h</mi><mo>=</mo><mn>3</mn></mrow></math>.</p>",
+    "check": "A"
+  }
+}

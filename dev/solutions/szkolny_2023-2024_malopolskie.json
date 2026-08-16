@@ -1,0 +1,62 @@
+{
+ "szkolny_2023-2024_malopolskie_q1": {
+  "html": "<p>Iloczyn cyfr NIE dzieli się przez 3, gdy żadna cyfra nie jest podzielna przez 3: takich cyfr dziesiątek jest 6 (1,2,4,5,7,8), jedności też 6, co daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>36</mn></math> takich liczb. Liczb dwucyfrowych jest 90, więc szukanych jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>90</mn><mo>−</mo><mn>36</mn><mo>=</mo><mn>54</mn></math>.</p>",
+  "check": "B"
+ },
+ "szkolny_2023-2024_malopolskie_q2": {
+  "html": "<p>Po cyfrze x od razu zaczyna się okres, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mi>z</mi><mo>=</mo><mi>x</mi><mo>+</mo><mfrac><mn>35</mn><mn>99</mn></mfrac></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>110</mn><mi>z</mi><mo>=</mo><mn>11</mn><mi>x</mi><mo>+</mo><mfrac><mn>35</mn><mn>9</mn></mfrac></math>. Ponieważ 35:9=3,(8), po przecinku zawsze powtarza się cyfra 8, a przed przecinkiem jest liczba 11x+3. Dla x=0 to 3, a suma cyfr 3+8=11 jest wielokrotnością 11.</p>",
+  "check": "D"
+ },
+ "szkolny_2023-2024_malopolskie_q3": {
+  "html": "<p>Niech masa dolanej wody to w; susz waży 0,025w, cukier 0,05w, cały napój 1,075w. Odparowuje 0,075w wody, więc nowa masa to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,075</mn><mi>w</mi><mo>−</mo><mn>0,075</mn><mi>w</mi><mo>=</mo><mi>w</mi></math>. Susz nadal waży 0,025w, czyli 2,5% nowej masy.</p>",
+  "check": "D"
+ },
+ "szkolny_2023-2024_malopolskie_q4": {
+  "html": "<p>Niech x, y rosną o 10%, a z maleje o 10%. Równość średnich daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,1</mn><mi>x</mi><mo>+</mo><mn>1,1</mn><mi>y</mi><mo>+</mo><mn>0,9</mn><mi>z</mi><mo>=</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>+</mo><mi>z</mi></math>, czyli x+y=z. Ponieważ x, y są dodatnie, z jest największą z trójki, a iloczyn największej liczby i sumy dwóch pozostałych to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi><mo>·</mo><mo>(</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>)</mo><mo>=</mo><msup><mi>z</mi><mn>2</mn></msup></math> — kwadrat liczby naturalnej.</p>",
+  "check": "C"
+ },
+ "szkolny_2023-2024_malopolskie_q5": {
+  "html": "<p>Loże to 20 miejsc, poza lożami 80. Przed spektaklem sprzedano 5 miejsc w lożach po 100 zł i 60 poza lożami po 80 zł; w dniu spektaklu pozostałe 35 miejsc po 90 zł. Dochód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>·</mo><mn>100</mn><mo>+</mo><mn>60</mn><mo>·</mo><mn>80</mn><mo>+</mo><mn>35</mn><mo>·</mo><mn>90</mn><mo>=</mo><mn>8450</mn></math> zł, wartość po cenach wyjściowych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mo>·</mo><mn>100</mn><mo>+</mo><mn>80</mn><mo>·</mo><mn>80</mn><mo>=</mo><mn>8400</mn></math> zł. Różnica wynosi 50 zł.</p>",
+  "check": "A"
+ },
+ "szkolny_2023-2024_malopolskie_q6": {
+  "html": "<p>Wskazówki pokrywają się co <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>12</mn><mn>11</mn></mfrac></math> godziny, czyli 22 razy na dobę. Luty 2023 (nie przestępny) ma 28 dni, więc pokryć jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>28</mn><mo>·</mo><mn>22</mn><mo>=</mo><mn>616</mn></math>.</p>",
+  "check": "D"
+ },
+ "szkolny_2023-2024_malopolskie_q7": {
+  "html": "<p>Suma kątów wewnętrznych n-kąta to (n−2)·180°. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>11</mn><mo>·</mo><mn>180</mn><mo>=</mo><mn>1980</mn></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>·</mo><mn>180</mn><mo>=</mo><mn>2160</mn></math> jest już za duże, największa wielokrotność 180 mniejsza niż 2023 to 1980, czyli n−2=11, n=13.</p>",
+  "check": "B"
+ },
+ "szkolny_2023-2024_malopolskie_q8": {
+  "html": "<p>Po k-tym podziale niewykorzystany odcinek — a więc i bok k-tego kwadratu — ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><msup><mn>5</mn><mi>k</mi></msup></mfrac></math>. Ostatni, 64. kwadrat ma bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>a</mi><msup><mn>5</mn><mn>64</mn></msup></mfrac></math>, a jego pole to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mi>a</mi><mn>2</mn></msup><msup><mn>5</mn><mn>128</mn></msup></mfrac><mo>=</mo><mfrac><msup><mi>a</mi><mn>2</mn></msup><msup><mn>25</mn><mn>64</mn></msup></mfrac></math>.</p>",
+  "check": "D"
+ },
+ "szkolny_2023-2024_malopolskie_q9": {
+  "html": "<p>Wspólny czynnik to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>3</mn></msup><msup><mi>y</mi><mn>3</mn></msup><msup><mi>z</mi><mn>3</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mi>x</mi><mi>y</mi><mi>z</mi><mo>)</mo></mrow><mn>3</mn></msup></math>. Po podzieleniu przezeń dają kolejno <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><msup><mi>z</mi><mn>2</mn></msup><mo>,</mo><mi>x</mi><msup><mi>y</mi><mn>2</mn></msup><mo>,</mo><msup><mi>x</mi><mn>2</mn></msup><mi>z</mi></math>, więc wyrażenie to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mi>x</mi><mi>y</mi><mi>z</mi><mo>)</mo></mrow><mn>3</mn></msup><mo>(</mo><mi>y</mi><msup><mi>z</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><msup><mi>y</mi><mn>2</mn></msup><mo>+</mo><msup><mi>x</mi><mn>2</mn></msup><mi>z</mi><mo>)</mo></math>.</p>",
+  "check": "A"
+ },
+ "szkolny_2023-2024_malopolskie_q10": {
+  "html": "<p>Niech b to masa pełnej baryłki miodu, w to masa pełnego worka marchewek. Zapasy są równe: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mi>b</mi><mo>+</mo><mn>2</mn><mi>w</mi><mo>=</mo><mi>b</mi><mo>+</mo><mn>10</mn><mi>w</mi></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>b</mi><mo>=</mo><mn>8</mn><mi>w</mi></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>2</mn><mi>w</mi></math>. Worek marchewek waży więc dwa razy mniej niż baryłka miodu.</p>",
+  "check": "B"
+ },
+ "szkolny_2023-2024_malopolskie_q11": {
+  "html": "<p>Bok trapezu prostopadły do podstaw (długość h) jest przyprostokątną w trójkącie, którego przeciwprostokątną jest przekątna. Przyprostokątna jest krótsza, więc równoległe boki c, d spełniają <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>&lt;</mo><mn>6</mn><mo>,</mo><mi>d</mi><mo>&lt;</mo><mn>10</mn></math>. Pole trapezu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>c</mi><mo>+</mo><mi>d</mi><mo>)</mo><mi>h</mi><mo>:</mo><mn>2</mn><mo>&lt;</mo><mo>(</mo><mn>6</mn><mo>+</mo><mn>10</mn><mo>)</mo><mi>h</mi><mo>:</mo><mn>2</mn><mo>=</mo><mn>8</mn><mi>h</mi></math> jest więc zawsze mniejsze niż 8h — żadna z odpowiedzi A–D, wymagających pola większego niż 8h, nie jest poprawna.</p>",
+  "check": "E"
+ },
+ "szkolny_2023-2024_malopolskie_q12": {
+  "html": "<p>Wymiary zabawki po zamianie na cm to 20, 15, 10. Objętość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mo>·</mo><mn>15</mn><mo>·</mo><mn>10</mn><mo>=</mo><mn>3000</mn></math> cm³, cieczy jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,2</mn><mo>·</mo><mn>3000</mn><mo>=</mo><mn>600</mn></math> cm³. Postawiona na ściance 20×10 cm ma podstawę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mo>·</mo><mn>10</mn><mo>=</mo><mn>200</mn></math> cm², więc poziom cieczy sięga <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>600</mn><mo>:</mo><mn>200</mn><mo>=</mo><mn>3</mn></math> cm.</p>",
+  "check": "C"
+ },
+ "szkolny_2023-2024_malopolskie_q13": {
+  "html": "<p>Niech n to liczba dyń, jaką miała każda hurtownia. Pierwszej zostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>(</mo><mi>n</mi><mo>−</mo><mn>150</mn><mo>)</mo></math> (sprzedała 150, potem 2/3 reszty). Druga sprzedała <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>97</mn><mo>=</mo><mn>194</mn></math> (dwukrotność 97, największej liczby pierwszej poniżej 100), więc zostało jej n−194. Z równości: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>(</mo><mi>n</mi><mo>−</mo><mn>150</mn><mo>)</mo><mo>=</mo><mi>n</mi><mo>−</mo><mn>194</mn></math>, skąd n=216. W każdej zostało 216−194=22, łącznie 44.</p>",
+  "check": "B"
+ },
+ "szkolny_2023-2024_malopolskie_q14": {
+  "html": "<p>Piesza część trwała 60 min (4 km/h). Postój i jazda hulajnogą zajęły 2+18=20 min, przyjazd po 60+20=80 min, czyli 40 min przed odjazdem. Idąc dalej pieszo, spóźniłby się o 30 min, więc dotarłby po 80+40+30=150 min, czyli po dodatkowych 150−60=90 min marszu — to 6 km pozostałej trasy. Cała droga to 4+6=10 km w 80 min, więc średnia prędkość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>:</mo><mfrac><mn>80</mn><mn>60</mn></mfrac><mo>=</mo><mn>7,5</mn></math> km/h.</p>",
+  "check": "D"
+ },
+ "szkolny_2023-2024_malopolskie_q15": {
+  "html": "<p>Niech liczby to n, n+1, n+2, n+3; dokładnie jedna dzieli się przez 3, więc n nie dzieli się przez 3. Gdy dzieli się n+2, suma pozostałych to 3n+4=38 — brak rozwiązania naturalnego. Gdy dzieli się n+1, suma pozostałych to 3n+5=38, skąd n=11. Liczby to 11, 12, 13, 14; skreślamy 12. Wśród 11, 13, 14 liczbami pierwszymi są 11 i 13 — dwie liczby pierwsze.</p>",
+  "check": "C"
+ }
+}

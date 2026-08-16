@@ -1,0 +1,58 @@
+{
+  "wojewodzki_2024-2025_swietokrzyskie_q1": {
+    "html": "<p>Suma ośmiu kolejnych liczb naturalnych to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mi>n</mi><mo>+</mo><mn>28</mn><mo>=</mo><mn>4</mn><mo>(</mo><mn>2</mn><mi>n</mi><mo>+</mo><mn>7</mn><mo>)</mo></math>, więc zawsze dzieli się przez 4. Liczba 8462 nie dzieli się przez 4 (8462 : 4 = 2115,5), więc to ona nie może być taką sumą.</p>",
+    "check": "A"
+  },
+  "wojewodzki_2024-2025_swietokrzyskie_q2": {
+    "html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>0,8</mn><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mn>1,8</mn><mi>b</mi><mo>=</mo><mn>1,44</mn><mi>a</mi><mo>=</mo><mfrac><mrow><mn>36</mn><mi>a</mi></mrow><mn>25</mn></mfrac></math>. Żeby c było naturalne, a musi dzielić się przez 25, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mn>36</mn><mi>k</mi></math>. 1) c zawsze dzieli się przez 6 – prawda. 2) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mn>1,44</mn><mi>a</mi></math>, czyli o 44% więcej niż a – prawda.</p>",
+    "check": "PP"
+  },
+  "wojewodzki_2024-2025_swietokrzyskie_q3": {
+    "html": "<p>Liczb od 21 do 79 jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>79</mn><mo>−</mo><mn>21</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>59</mn></math>. 1) 59, nie 60 – fałsz. 2) liczby pierwsze w tym przedziale: 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79 – jest ich 14, nie 16 – fałsz. 3) średnia skrajnych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>21</mn><mo>+</mo><mn>79</mn><mo>)</mo><mo>:</mo><mn>2</mn><mo>=</mo><mn>50</mn></math> – prawda. 4) suma: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>59</mn><mo>·</mo><mn>50</mn><mo>=</mo><mn>2950</mn></math>, mniej niż 3000 – fałsz.</p>",
+    "check": "FFPF"
+  },
+  "wojewodzki_2024-2025_swietokrzyskie_q4": {
+    "html": "<p>Licznik: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2025</mn><mn>2</mn></msup><mo>−</mo><mn>2026</mn><mo>=</mo><mn>2025</mn><mo>·</mo><mn>2024</mn><mo>−</mo><mn>1</mn></math>. Mianownik: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2024</mn><mn>2</mn></msup><mo>+</mo><mn>2023</mn><mo>=</mo><mn>2024</mn><mo>·</mo><mn>2025</mn><mo>−</mo><mn>1</mn></math>. Obie strony są równe, więc wartość wyrażenia to 1.</p>",
+    "check": "A"
+  },
+  "wojewodzki_2024-2025_swietokrzyskie_q5": {
+    "html": "<p>Cyfra jedności <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mi>n</mi></msup></math> ma okres 4: 3, 9, 7, 1; 2025 daje resztę 1 z dzielenia przez 4, więc kończy się na 3. Cyfra jedności <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>4</mn><mi>n</mi></msup></math> ma okres 2: 4, 6; dla nieparzystego n kończy się na 4. Potęgi liczby 5 zawsze kończą się na 5. Suma cyfr jedności: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>12</mn></math>, więc cały wynik kończy się na 2.</p>",
+    "check": "B"
+  },
+  "wojewodzki_2024-2025_swietokrzyskie_q6": {
+    "html": "<p>E to środek AB (oba trójkąty równoramienne), AE = 5 cm. Pole ABC = 0,5 · 10 · 10 = 50 cm²; DE = 30 cm, pole ABD = 0,5 · 10 · 30 = 150 cm² — różnica 100 cm² (1: prawda). AC = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>5</mn><mn>2</mn></msup><mo>+</mo><msup><mn>10</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>5</mn><msqrt><mn>5</mn></msqrt></math>, obwód ABC = 10 + <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><msqrt><mn>5</mn></msqrt></math> (2: prawda). AD = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>5</mn><mn>2</mn></msup><mo>+</mo><msup><mn>30</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>5</mn><msqrt><mn>37</mn></msqrt></math>; ponieważ 925 jest mniejsze niż 1000, to AD jest mniejsze niż 10 · <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>10</mn></msqrt></math> (3: prawda).</p>",
+    "check": "PPP"
+  },
+  "wojewodzki_2024-2025_swietokrzyskie_q7": {
+    "html": "<p>Prostokąt: 11 cm razy 2 cm = 22 cm². Trójkąt: bok 8 cm, pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>3</mn></msqrt><mn>4</mn></mfrac><mo>·</mo><msup><mn>8</mn><mn>2</mn></msup><mo>=</mo><mn>16</mn><msqrt><mn>3</mn></msqrt></math> ≈ 27,7 cm². Równoległobok: 10 cm razy 2 cm = 4 cm razy 5 cm = 20 cm². 1) równoległobok ma dokładnie 20 cm², nie więcej – fałsz. 2) 22 − 20 = 2 cm² – prawda. 3) trójkąt (≈27,7 cm²) ma największe pole z tej trójki – prawda.</p>",
+    "check": "FPP"
+  },
+  "wojewodzki_2024-2025_swietokrzyskie_q8": {
+    "html": "<p>Ramię prostopadłe do podstaw jest wysokością trapezu i musi być krótsze od ramienia ukośnego, więc przy stosunku 1:2 wysokość = a, ramię ukośne = 2a. W powstałym trójkącie prostokątnym przyprostokątna a jest połową przeciwprostokątnej 2a — to własność trójkąta o kątach 30°-60°-90°, więc kąt naprzeciw tej przyprostokątnej (kąt ostry trapezu) ma miarę 30°.</p>",
+    "check": "B"
+  },
+  "wojewodzki_2024-2025_swietokrzyskie_q9": {
+    "html": "<p>1) średnica = 2 · 13 = 26 cm, nie 20 – fałsz. 2) obwód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>π</mi><mo>·</mo><mn>13</mn><mo>=</mo><mn>26</mn><mi>π</mi><mo>≈</mo><mn>81,7</mn></math> cm, więcej niż 80 – prawda. 3) odległość od środka: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>13</mn><mn>2</mn></msup><mo>−</mo><msup><mn>5</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>144</mn></msqrt><mo>=</mo><mn>12</mn></math> cm – prawda.</p>",
+    "check": "FPP"
+  },
+  "wojewodzki_2024-2025_swietokrzyskie_q10": {
+    "html": "<p>Bok kwadratu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2</mn></msqrt></math> m, przekątna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2</mn></msqrt><mo>·</mo><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>2</mn></math> m – to minimalna średnica koła, które zakryje cały blat. 1) promień 11 dm = 1,1 m, średnica 2,2 m jest większa niż 2 m – wystarcza, prawda. 2) średnica 180 cm = 1,8 m jest mniejsza niż 2 m – za mała, fałsz. 3) obwód 6 m daje średnicę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>:</mo><mi>π</mi><mo>≈</mo><mn>1,91</mn></math> m – mniejszą niż 2 m, za mała, fałsz.</p>",
+    "check": "PFF"
+  },
+  "wojewodzki_2024-2025_swietokrzyskie_q11": {
+    "html": "<p>S jest środkiem symetrii ABCD, więc jest to równoległobok (1: prawda). Wierzchołki przeciwległe: C = 2S − A = (6, 4), D = 2S − B = (−6, −1) — nie ma wśród nich (−1, −6) (2: fałsz). |AB| = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>12</mn><mn>2</mn></msup><mo>+</mo><msup><mn>5</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>13</mn></math>, |BC| = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>3</mn><mn>2</mn></msup><mo>+</mo><msup><mn>4</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>5</mn></math>, obwód = 2 · (13 + 5) = 36 (3: prawda).</p>",
+    "check": "PFP"
+  },
+  "wojewodzki_2024-2025_swietokrzyskie_q12": {
+    "html": "<p>Najmniejszy graniastosłup ma podstawę trójkątną: 2 podstawy po 3 krawędzie oraz 3 krawędzie boczne, razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>3</mn><mo>+</mo><mn>3</mn><mo>=</mo><mn>9</mn></math> krawędzi.</p>",
+    "check": "C"
+  },
+  "wojewodzki_2024-2025_swietokrzyskie_q13": {
+    "html": "<p>Krawędzie: 2k, 3k, 5k; objętość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><msup><mi>k</mi><mn>3</mn></msup><mo>=</mo><mn>3750</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>k</mi><mn>3</mn></msup><mo>=</mo><mn>125</mn></math>, k = 5 – krawędzie 10, 15, 25 cm. 1) 25 − 10 = 15 cm, nie 20 – fałsz. 2) pole powierzchni: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>(</mo><mn>10</mn><mo>·</mo><mn>15</mn><mo>+</mo><mn>15</mn><mo>·</mo><mn>25</mn><mo>+</mo><mn>10</mn><mo>·</mo><mn>25</mn><mo>)</mo><mo>=</mo><mn>1550</mn></math> cm² – prawda. 3) przekątna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>10</mn><mn>2</mn></msup><mo>+</mo><msup><mn>15</mn><mn>2</mn></msup><mo>+</mo><msup><mn>25</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>950</mn></msqrt><mo>≈</mo><mn>30,8</mn></math> cm, więcej niż 30 cm – fałsz.</p>",
+    "check": "FPF"
+  },
+  "wojewodzki_2024-2025_swietokrzyskie_q14": {
+    "html": "<p>Losów przegrywających jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>210</mn><mo>−</mo><mn>24</mn><mo>=</mo><mn>186</mn></math>. Po 10 kupionych przegrywających zostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>186</mn><mo>−</mo><mn>10</mn><mo>=</mo><mn>176</mn></math> przegrywających wśród <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>210</mn><mo>−</mo><mn>10</mn><mo>=</mo><mn>200</mn></math> pozostałych losów. Prawdopodobieństwo: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>176</mn><mo>:</mo><mn>200</mn><mo>=</mo><mn>0,88</mn></math>.</p>",
+    "check": "D"
+  }
+}

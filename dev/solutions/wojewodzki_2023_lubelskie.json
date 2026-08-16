@@ -1,0 +1,58 @@
+{
+  "wojewodzki_2023_lubelskie_q1": {
+    "html": "<p>Liczba 10 przy dzieleniu przez 6 daje resztę 4, a każda kolejna potęga 10 też daje resztę 4 (bo 4·10=40, znów reszta 4). Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>5555</mn></msup><mo>+</mo><mn>5</mn></math> ma resztę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>9</mn></math>, czyli 3 — nie dzieli się przez 6. Wyrażenie z odpowiedzi D nie jest więc liczbą naturalną.</p>",
+    "check": "D"
+  },
+  "wojewodzki_2023_lubelskie_q2": {
+    "html": "<p>Ze wzoru <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><msup><mi>b</mi><mn>2</mn></msup><mo>=</mo><mo>(</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo>)</mo><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo></math> dla a = 49998, b = 50002 mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>−</mo><mi>b</mi><mo>=</mo><mo>−</mo><mn>4</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>100000</mn></math>. Iloczyn: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>4</mn><mo>·</mo><mn>100000</mn><mo>=</mo><mo>−</mo><mn>400000</mn></math>.</p>",
+    "check": "A"
+  },
+  "wojewodzki_2023_lubelskie_q3": {
+    "html": "<p>Punkt F dzieli pięciokąt na trójkąty FAB, FBC, FCD, FDE, FEA. Z nierówności trójkąta każdy bok pięciokąta jest krótszy od sumy sąsiednich odcinków z F, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>AB</mi><mo>|</mo><mo>&lt;</mo><mo>|</mo><mi>FA</mi><mo>|</mo><mo>+</mo><mo>|</mo><mi>FB</mi><mo>|</mo></math>. Sumując pięć takich nierówności, obwód <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>&lt;</mo><mn>2</mn><mo>·</mo><mo>(</mo><mn>1</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>5</mn><mo>)</mo><mo>=</mo><mn>30</mn></math>.</p>",
+    "check": "A"
+  },
+  "wojewodzki_2023_lubelskie_q4": {
+    "html": "<p>Mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>AB</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>EF</mi><mo>|</mo><mo>=</mo><mn>5</mn></math> oraz równe kąty przy A i F (po 20°). Jeśli dodatkowo kąt przy C jest równy kątowi przy G (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>=</mo><mi>γ</mi></math>), to i trzeci kąt (przy B i przy E) musi być równy, bo suma kątów w trójkącie wynosi 180°. Dwa równe kąty i leżący między odpowiadającymi wierzchołkami równy bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi><mo>=</mo><mi>EF</mi></math> dają przystawanie trójkątów.</p>",
+    "check": "C"
+  },
+  "wojewodzki_2023_lubelskie_q5": {
+    "html": "<p>Rozwinięcie powierzchni bocznej walca ma bok równy obwodowi podstawy i jednocześnie wysokości walca, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>π</mi><mi>r</mi><mo>=</mo><mi>a</mi></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>r</mi><mo>=</mo><mfrac><mi>a</mi><mrow><mn>2</mn><mi>π</mi></mrow></mfrac></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mi>a</mi></math>. Objętość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mi>π</mi><msup><mi>r</mi><mn>2</mn></msup><mi>h</mi><mo>=</mo><mfrac><msup><mi>a</mi><mn>3</mn></msup><mrow><mn>4</mn><mi>π</mi></mrow></mfrac></math>.</p>",
+    "check": "A"
+  },
+  "wojewodzki_2023_lubelskie_q6": {
+    "html": "<p>Przekątne poprowadzone z jednego wierzchołka n-kąta dzielą go na <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>−</mo><mn>2</mn></math> trójkątów. Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>−</mo><mn>2</mn><mo>=</mo><mn>2023</mn></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>=</mo><mn>2025</mn></math>.</p>",
+    "check": "2025"
+  },
+  "wojewodzki_2023_lubelskie_q7": {
+    "html": "<p>Nierówność upraszcza się do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn><mo>≤</mo><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><mi>x</mi><mo>−</mo><mn>5</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>≥</mo><mn>1</mn></math>.</p><p>1) Cztery kolejne potęgi liczby −1 (parzysta, nieparzysta, parzysta, nieparzysta) sumują się do 0 — to największa liczba całkowita spoza rozwiązania: P. 2) Liczba 1 nie jest liczbą pierwszą: F. 3) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mn>111</mn><mn>3</mn></mroot><mo>&lt;</mo><mn>5</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mo>=</mo><mn>6</mn><mo>−</mo><mroot><mn>111</mn><mn>3</mn></mroot><mo>&gt;</mo><mn>1</mn></math>: P. 4) Druga nierówność to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&gt;</mo><mn>1</mn></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>1</mn></math> jej nie spełnia: F.</p>",
+    "check": "PFPF"
+  },
+  "wojewodzki_2023_lubelskie_q8": {
+    "html": "<p>Trójkąt BFD ma kąt prosty przy F, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∠</mo><mi>DBF</mi></math> to połowa kąta ABC (BD — dwusieczna): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>∠</mo><mi>ABC</mi><mo>+</mo><mn>46</mn><mo>+</mo><mn>90</mn><mo>=</mo><mn>180</mn></math>, więc kąt ABC = 88°.</p><p>W trójkącie BEC (kąt prosty przy E) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∠</mo><mi>EBC</mi><mo>=</mo><mn>90</mn><mo>°</mo><mo>−</mo><mo>∠</mo><mi>ACB</mi></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∠</mo><mi>DBC</mi><mo>=</mo><mn>44</mn><mo>°</mo></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∠</mo><mi>DBE</mi><mo>=</mo><mn>44</mn><mo>°</mo><mo>−</mo><mn>90</mn><mo>°</mo><mo>+</mo><mo>∠</mo><mi>ACB</mi><mo>=</mo><mn>24</mn><mo>°</mo></math>, skąd kąt ACB = 70°.</p>",
+    "check": "a) 88°, b) 70°"
+  },
+  "wojewodzki_2023_lubelskie_q9": {
+    "html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>J</mi></math> oznacza wiek Janka, wtedy Zosia ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>J</mi><mo>−</mo><mn>2</mn></math> lat, a Janek jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>J</mi><mrow><mi>J</mi><mo>−</mo><mn>2</mn></mrow></mfrac></math> razy starszy. Po zmianie Zosia miałaby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>J</mi><mo>−</mo><mn>2</mn></mrow><mn>2</mn></mfrac></math> lat, a Janek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>J</mi><mo>−</mo><mn>6</mn></math> lat, przy tej samej wielokrotności, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>J</mi><mo>=</mo><mn>2</mn><mo>(</mo><mi>J</mi><mo>−</mo><mn>6</mn><mo>)</mo></math> (mnożąc równe ilorazy przez wspólny mianownik). Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>J</mi><mo>=</mo><mn>12</mn></math>, a Zosia ma 10 lat.</p>",
+    "check": "Janek ma 12 lat, a jego siostra Zosia ma 10 lat"
+  },
+  "wojewodzki_2023_lubelskie_q10": {
+    "html": "<p>W najgorszym razie najpierw wyjmiemy wszystkie kule dwóch liczniejszych kolorów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>+</mo><mn>10</mn><mo>=</mo><mn>22</mn></math> (czerwone i zielone), a białej wciąż może brakować. Kolejna, 23. kula, musi już być biała, bo innych nie zostało.</p>",
+    "check": "23"
+  },
+  "wojewodzki_2023_lubelskie_q11": {
+    "html": "<p>K jest środkiem AM, więc trójkąty AKL i KLM (wspólny wierzchołek L, równe podstawy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>AK</mi><mo>|</mo><mo>=</mo><mo>|</mo><mi>KM</mi><mo>|</mo></math>) mają równe pola: pole AKL = 2. L jest środkiem BK, więc podobnie pole ABL = pole AKL = 2, skąd pole ABK = 4. Analogicznie, ponieważ M jest środkiem CL, pole BCL = 4 i pole CAM = 4. Trójkąt ABC składa się z ABK, BCL, CAM i KLM, więc jego pole wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>14</mn></math>.</p>",
+    "check": "14"
+  },
+  "wojewodzki_2023_lubelskie_q12": {
+    "html": "<p>Stożek ma promień 3 i wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>12</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>π</mi><mo>·</mo><mn>9</mn><mo>·</mo><mn>12</mn><mo>=</mo><mn>36</mn><mi>π</mi></math>. Z równości objętości kuli i stożka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>3</mn></mfrac><mi>π</mi><msup><mi>R</mi><mn>3</mn></msup><mo>=</mo><mn>36</mn><mi>π</mi></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>R</mi><mn>3</mn></msup><mo>=</mo><mn>27</mn><mo>,</mo><mi>R</mi><mo>=</mo><mn>3</mn></math>. Pole powierzchni kuli: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>π</mi><msup><mi>R</mi><mn>2</mn></msup><mo>=</mo><mn>36</mn><mi>π</mi></math>.</p>",
+    "check": "a) 3, b) 36π"
+  },
+  "wojewodzki_2023_lubelskie_q13": {
+    "html": "<p>S jest środkiem AB, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi><mo>=</mo><mn>2</mn><mi>S</mi><mo>−</mo><mi>A</mi><mo>=</mo><mo>(</mo><mn>8</mn><mo>,</mo><mn>2</mn><mo>)</mo></math>, a C jest symetryczne do B względem osi x: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi><mo>=</mo><mo>(</mo><mn>8</mn><mo>,</mo><mo>−</mo><mn>2</mn><mo>)</mo></math>. AB jest poziomy, ma długość 12, a wysokość z C wynosi 4, więc pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>12</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>24</mn></math>. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>BC</mi><mo>|</mo><mo>=</mo><mn>4</mn></math>, a z tw. Pitagorasa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>AC</mi><mo>|</mo><mo>=</mo><msqrt><mrow><msup><mn>12</mn><mn>2</mn></msup><mo>+</mo><msup><mn>4</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>4</mn><msqrt><mn>10</mn></msqrt></math>. Obwód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>4</mn><msqrt><mn>10</mn></msqrt><mo>=</mo><mn>16</mn><mo>+</mo><mn>4</mn><msqrt><mn>10</mn></msqrt></math>.</p>",
+    "check": "c) B=(8,2), d) 24, e) 16+4√10"
+  },
+  "wojewodzki_2023_lubelskie_q14": {
+    "html": "<p>Strony 1–9 to 9 cyfr, strony 10–99 to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>90</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>180</mn></math>, a strony 100–999 to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>900</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>2700</mn></math> cyfr — razem 2889. Zostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2993</mn><mo>−</mo><mn>2889</mn><mo>=</mo><mn>104</mn></math> cyfry na strony czterocyfrowe, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>104</mn><mn>4</mn></mfrac><mo>=</mo><mn>26</mn></math> stron. Łącznie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>999</mn><mo>+</mo><mn>26</mn><mo>=</mo><mn>1025</mn></math> stron.</p>",
+    "check": "1025"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "szkolny_2021_mazowieckie_q2": {
+    "html": "<p>8 nie może sąsiadować z liczbą pierwszą (5 lub 7) ani stać na skraju, więc sąsiadują z nią 1 i 4 – jedyne takie miejsce (przez warunek „1 dalej niż 7”) to 4. pozycja. Wtedy 5, 7 zajmują pozycje 1–2 (7 nie może być pierwsza), a skoro 4 nie jest ostatnia: kod to <b>5 7 4 8 1</b>.</p><p>1. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>57481</mn></math>: końcówka 81 nie dzieli się przez 4 — fałsz.</p><p>2. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>57481</mn><mo>+</mo><mn>2519</mn><mo>=</mo><mn>60000</mn><mo>=</mo><mn>12</mn><mo>·</mo><mn>5000</mn></math> — prawda.</p>",
+    "check": "FP"
+  },
+  "szkolny_2021_mazowieckie_q3": {
+    "html": "<p>Trójkąt ACD (AD = CD) jest równoramienny: kąt DAC = kąt DCA = x. Z CD∥AB: kąt CAB = x, więc ostry kąt trapezu przy A wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi></math>.</p><p>Trójkąt ABC (AC = AB, bo przekątna = dłuższa podstawa) też jest równoramienny: kąt ACB = kąt ABC = 2x. Suma kątów: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>4</mn><mi>x</mi><mo>=</mo><mn>180</mn><mo>°</mo></math>, więc x = 36°.</p><p>Kąt rozwarty: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>180</mn><mo>°</mo><mo>−</mo><mn>72</mn><mo>°</mo><mo>=</mo><mn>108</mn><mo>°</mo></math>.</p>",
+    "check": "A"
+  }
+}

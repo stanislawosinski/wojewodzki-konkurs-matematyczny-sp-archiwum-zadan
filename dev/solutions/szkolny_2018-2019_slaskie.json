@@ -1,0 +1,54 @@
+{
+  "szkolny_2018-2019_slaskie_q2": {
+    "html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę pomarańczy: gruszek jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi></math>, jabłek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>+</mo><mn>2</mn></math>, bananów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>x</mi></math>. Z sumy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mi>x</mi><mo>+</mo><mn>2</mn><mo>=</mo><mn>34</mn></math> mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>4</mn></math>, więc gruszek jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>8</mn></math>.</p>",
+    "check": "C"
+  },
+  "szkolny_2018-2019_slaskie_q3": {
+    "html": "<p>Szukamy najmniejszej liczby trzycyfrowej powstałej z zachowaniem kolejności cyfr, zaczynającej się od cyfry różnej od zera: najpierw najmniejsza możliwa pierwsza cyfra to 1, potem najmniejsza kolejna to 0, na końcu zostaje 6 — otrzymujemy 106. Skreślamy pozostałe cyfry: 3, 2, 4, 7.</p>",
+    "check": "D"
+  },
+  "szkolny_2018-2019_slaskie_q4": {
+    "html": "<p>Liczby od 0 do 26 dające resztę 4 z dzielenia przez 5 to: 4, 9, 14, 19, 24. Ich suma: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>+</mo><mn>9</mn><mo>+</mo><mn>14</mn><mo>+</mo><mn>19</mn><mo>+</mo><mn>24</mn><mo>=</mo><mn>70</mn></math>.</p>",
+    "check": "C"
+  },
+  "szkolny_2018-2019_slaskie_q5": {
+    "html": "<p>Od 31 sierpnia do 30 listopada mija <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>+</mo><mn>31</mn><mo>+</mo><mn>30</mn><mo>=</mo><mn>91</mn></math> dni (wrzesień, październik, listopad), a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>91</mn><mo>=</mo><mn>13</mn><mo>·</mo><mn>7</mn></math>, czyli dokładnie 13 tygodni — te dni wypadają więc w ten sam dzień tygodnia. Ostatni dzień sierpnia to więc również środa.</p>",
+    "check": "A"
+  },
+  "szkolny_2018-2019_slaskie_q6": {
+    "html": "<p>Rozkładamy iloczyn na czynniki pierwsze: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>17</mn><mo>·</mo><mn>18</mn><mo>·</mo><mn>19</mn><mo>·</mo><mn>20</mn><mo>·</mo><mn>21</mn><mo>=</mo><msup><mn>2</mn><mn>3</mn></msup><mo>·</mo><msup><mn>3</mn><mn>3</mn></msup><mo>·</mo><mn>5</mn><mo>·</mo><mn>7</mn><mo>·</mo><mn>17</mn><mo>·</mo><mn>19</mn></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>280</mn><mo>=</mo><msup><mn>2</mn><mn>3</mn></msup><mo>·</mo><mn>5</mn><mo>·</mo><mn>7</mn></math>, wszystkie te czynniki występują w rozkładzie, więc iloczyn dzieli się przez 280 (do 80, 81 i 240 brakuje odpowiednio czynników 2 lub 3).</p>",
+    "check": "C"
+  },
+  "szkolny_2018-2019_slaskie_q7": {
+    "html": "<p>Uderzenia liczone są w formacie 12-godzinnym: o pełnej godzinie h zegar bije h razy, w połowie godziny — 2 razy. Sprawdzamy start o 10:00: 10 (10:00), 2 (10:30), 11 (11:00), 2 (11:30), 12 (12:00), 2 (12:30), 1 (13:00), 2 (13:30) — razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>11</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>12</mn><mo>+</mo><mn>2</mn><mo>+</mo><mn>1</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>42</mn></math> uderzeń.</p>",
+    "check": "B"
+  },
+  "szkolny_2018-2019_slaskie_q8": {
+    "html": "<p>Pierwsza cyfra jest co najmniej 1. Dla pierwszej cyfry 1 suma pozostałych trzech cyfr może wynosić 0, 1 lub 2, co daje odpowiednio 1, 3 i 6 liczb, razem 10. Dla pierwszej cyfry 2 suma pozostałych może wynosić 0 lub 1, czyli 1+3=4 liczby. Dla pierwszej cyfry 3 suma pozostałych musi wynosić 0, czyli 1 liczba. Razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>15</mn></math>.</p>",
+    "check": "D"
+  },
+  "szkolny_2018-2019_slaskie_q9": {
+    "html": "<p>Ostatnie cyfry kolejnych potęg liczby 8 powtarzają się w cyklu długości 4: 8, 4, 2, 6. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2019</mn><mo>=</mo><mn>4</mn><mo>·</mo><mn>504</mn><mo>+</mo><mn>3</mn></math>, wykładnik daje resztę 3 z dzielenia przez 4, więc ostatnią cyfrą jest trzeci wyraz cyklu, czyli 2.</p>",
+    "check": "A"
+  },
+  "szkolny_2018-2019_slaskie_q10": {
+    "html": "<ul><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>24</mn><mo>:</mo><mi>x</mi></mrow></math> jest całkowite, gdy x dzieli 24 — dzielników 24 jest 8 (1, 2, 3, 4, 6, 8, 12, 24) — P.</li><li>Dzielenie przez zero jest nieokreślone, więc dla x=0 wyrażenie nie ma wartości — F.</li><li>Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>1</mn></mrow></math> wartość to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>24</mn><mo>−</mo><mn>10</mn><mo>−</mo><mn>1</mn><mo>=</mo><mn>13</mn></mrow></math> — to największa naturalna wartość — P.</li><li>Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mo>−</mo><mn>12</mn></mrow></math> wartość to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>24</mn><mo>:</mo><mo>(</mo><mo>−</mo><mn>12</mn><mo>)</mo><mo>−</mo><mn>10</mn><mo>−</mo><mo>(</mo><mo>−</mo><mn>12</mn><mo>)</mo><mo>=</mo><mn>0</mn></mrow></math>, najmniejsza nieujemna liczba całkowita — P.</li></ul>",
+    "check": "PFPP"
+  },
+  "szkolny_2018-2019_slaskie_q11": {
+    "html": "<ul><li>Iloczyn nie musi być pierwszy, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>6</mn></math> — F.</li><li>Suma może być pierwsza, np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>+</mo><mn>3</mn><mo>=</mo><mn>5</mn></math> — P.</li><li>Iloraz dwóch różnych liczb pierwszych nigdy nie jest naturalny, bo liczba pierwsza dzieli się tylko przez 1 i przez siebie — F.</li><li>Dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mo>=</mo><mn>2</mn></math> i liczby złożonej 9: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>+</mo><mn>9</mn><mo>=</mo><mn>11</mn></math>, liczba pierwsza — F.</li></ul>",
+    "check": "FPFF"
+  },
+  "szkolny_2018-2019_slaskie_q12": {
+    "html": "<p>W nawiasie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>0,4</mn><msup><mn>2</mn><mn>2</mn></msup></mfrac><mo>−</mo><mn>1,3</mn><mo>·</mo><mfrac><mn>6</mn><mn>13</mn></mfrac><mo>=</mo><mo>−</mo><mn>0,5</mn><mo>,</mo><mo>−</mo><mn>0,5</mn><mo>:</mo><msup><mrow><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><mo>−</mo><mn>2</mn><mo>,</mo><mn>2</mn><mo>−</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>4</mn></mrow></math> — wartość wyrażenia to 4.</p><ul><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>2</mn></msqrt><mo>(</mo><mn>5</mn><msqrt><mn>2</mn></msqrt><mo>−</mo><mn>3</mn><msqrt><mn>2</mn></msqrt><mo>)</mo><mo>=</mo><msqrt><mn>2</mn></msqrt><mo>·</mo><mn>2</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mn>4</mn></mrow></math> — P.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><msup><mrow><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo></mrow><mn>4</mn></msup><mo>+</mo><mroot><msqrt><mn>64</mn></msqrt><mn>3</mn></mroot><mo>+</mo><mfrac><mn>1</mn><mn>0,1</mn></mfrac><mo>=</mo><mo>−</mo><mn>4</mn></mrow></math>, przeciwna do −4 to 4 — P.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mn>20</mn></msqrt><mo>−</mo><mn>1</mn><mo>≈</mo><mn>3,47</mn></mrow></math>, a 4 jest większe — F.</li><li>4 nie dzieli się przez 3 — F.</li></ul>",
+    "check": "PPFF"
+  },
+  "szkolny_2018-2019_slaskie_q13": {
+    "html": "<p>Dłuższy bok: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mfrac><mn>5</mn><mn>4</mn></mfrac><mi>a</mi><mo>=</mo><mn>1,25</mn><mi>a</mi></mrow></math>.</p><ul><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mfrac><mn>1</mn><mn>5</mn></mfrac><mi>a</mi><mo>=</mo><mn>1,2</mn><mi>a</mi><mo>≠</mo><mn>1,25</mn><mi>a</mi></mrow></math> — F.</li><li>Obwód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>(</mo><mi>a</mi><mo>+</mo><mn>1,25</mn><mi>a</mi><mo>)</mo><mo>=</mo><mn>4,5</mn><mi>a</mi></mrow></math> — P.</li><li>Przekątna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>1,5625</mn><msup><mi>a</mi><mn>2</mn></msup></mrow></msqrt><mo>≈</mo><mn>1,6</mn><mi>a</mi></mrow></math>, obwód trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>≈</mo><mn>3,85</mn><mi>a</mi><mo>&gt;</mo><mn>3</mn><mfrac><mn>3</mn><mn>4</mn></mfrac><mi>a</mi></mrow></math> — F.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>b</mi><mn>2</mn></msup><mo>−</mo><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>0,5625</mn><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mi>a</mi><mo>)</mo></mrow><mn>2</mn></msup></mrow></math> — P.</li></ul>",
+    "check": "FPFP"
+  },
+  "szkolny_2018-2019_slaskie_q14": {
+    "html": "<p>Cena początkowa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>·</mo><mn>1,1</mn><mo>·</mo><mn>0,9</mn><mo>=</mo><mn>831,60</mn><mo>,</mo><mi>P</mi><mo>=</mo><mn>840</mn></mrow></math> zł.</p><ul><li>Kolejność mnożenia nie ma znaczenia (0,9·1,1=1,1·0,9), więc cena też wyniesie 831,60 zł — F.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>840</mn><mo>·</mo><mn>0,6</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>1008</mn></mrow></math> zł, nie mniej niż 1000 zł — F.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>·</mo><mn>840</mn><mo>=</mo><mn>5040</mn></mrow></math> zł, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mo>·</mo><mn>840</mn><mo>·</mo><mn>0,4</mn><mo>=</mo><mn>3360</mn></mrow></math> zł — F.</li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>840</mn><mo>·</mo><mn>0,8</mn><mo>·</mo><mn>1,25</mn><mo>=</mo><mn>840</mn></mrow></math> zł, ta sama cena — P.</li></ul>",
+    "check": "FFFP"
+  }
+}

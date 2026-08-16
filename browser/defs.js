@@ -157,7 +157,9 @@ const FACETS = [
   {
     key: "sol",
     label: "Rozwiązanie",
-    values: q => [q.answer?.model?.solution_html || q.answer?.solution_html ? "z" : "bez"],
+    values: q => [
+      q.sol_ai || q.answer?.model?.solution_html || q.answer?.solution_html ? "z" : "bez"
+    ],
     order: ["z", "bez"],
     labelFor: v => (v === "z" ? "Z rozwiązaniem" : "Bez rozwiązania")
   },

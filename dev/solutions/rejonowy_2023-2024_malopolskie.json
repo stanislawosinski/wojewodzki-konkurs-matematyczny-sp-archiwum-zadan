@@ -1,0 +1,66 @@
+{
+  "rejonowy_2023-2024_malopolskie_q1": {
+    "html": "<p>Cyfry jedności potęg 9 mają okres 2: 9, 1, 9, 1, … — przy nieparzystym wykładniku wychodzi 9. Cyfry jedności potęg 8 mają okres 4: 8, 4, 2, 6, 8, 4, 2, 6 — ósma z kolei to 6. Cyfry jedności potęg 7 mają okres 4: 7, 9, 3, 1, 7, 9, 3, 1 — siódma z kolei to 3. Suma cyfr jedności: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>9</mn><mo>+</mo><mn>6</mn><mo>+</mo><mn>3</mn><mo>=</mo><mn>18</mn></math>, więc cała suma kończy się cyfrą 8.</p>",
+    "check": "B"
+  },
+  "rejonowy_2023-2024_malopolskie_q2": {
+    "html": "<p>Niech AB = 25. Wtedy AC = 10, CB = 15 (podział C w stosunku 2:3). D dzieli CB = 15 w stosunku 2:3, więc CD = 6, DB = 9. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi><mo>:</mo><mi>CD</mi><mo>:</mo><mi>DB</mi><mo>=</mo><mn>10</mn><mo>:</mo><mn>6</mn><mo>:</mo><mn>9</mn></math>.</p>",
+    "check": "A"
+  },
+  "rejonowy_2023-2024_malopolskie_q3": {
+    "html": "<p>Kwadratami liczb naturalnych wśród 1–360 są kolejno 1, 4, 9, …, 324, czyli 18² = 324 (19² = 361 to już za dużo) — dla nich pierwiastek jest wymierny, to 18 liczb. Pierwiastków niewymiernych jest więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>360</mn><mo>−</mo><mn>18</mn><mo>=</mo><mn>342</mn></math>.</p>",
+    "check": "D"
+  },
+  "rejonowy_2023-2024_malopolskie_q4": {
+    "html": "<p>Trzy proste — dwie równoległe i jedna do nich prostopadła — nie tworzą żadnego kąta ostrego. Czwarta prosta, nierównoległa i nieprostopadła do żadnej z pozostałych trzech, przecina każdą z nich pod kątem ostrym: to 3 przecięcia, a każde daje po 2 kąty ostre (wierzchołkowe) — mniej się nie da uzyskać, bo dowolna prosta „skośna” względem układu innych kierunków rodzi kąt ostry z każdą z nich. Najmniej kątów ostrych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>6</mn></math>.</p>",
+    "check": "C"
+  },
+  "rejonowy_2023-2024_malopolskie_q5": {
+    "html": "<p>Sprowadzamy składniki do potęgi 10⁻⁴: 991,99·10⁻⁵ = 99,199·10⁻⁴, 781,6·10⁻⁶ = 7,816·10⁻⁴. Suma: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>3,195</mn><mo>+</mo><mn>99,199</mn><mo>+</mo><mn>7,816</mn><mo>)</mo><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>4</mn></mrow></msup><mo>=</mo><mn>110,21</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>4</mn></mrow></msup><mo>=</mo><mn>1,1021</mn><mo>·</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>2</mn></mrow></msup></math>.</p>",
+    "check": "D"
+  },
+  "rejonowy_2023-2024_malopolskie_q6": {
+    "html": "<p>Przekątna sześcianu o krawędzi a to a√3. Z treści zadania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><msqrt><mn>3</mn></msqrt><mo>−</mo><mi>a</mi><mo>=</mo><msqrt><mn>6</mn></msqrt><mo>−</mo><msqrt><mn>2</mn></msqrt><mo>=</mo><msqrt><mn>2</mn></msqrt><mo>(</mo><msqrt><mn>3</mn></msqrt><mo>−</mo><mn>1</mn><mo>)</mo></math>, a lewa strona to a(√3−1), więc a = √2. Objętość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>3</mn></msup><mo>=</mo><mn>2</mn><msqrt><mn>2</mn></msqrt></math>.</p>",
+    "check": "C"
+  },
+  "rejonowy_2023-2024_malopolskie_q7": {
+    "html": "<p>DE∥CB i CD∥EB, więc BCDE jest równoległobokiem i EB = CD = 8. Trójkąt AED oraz BCDE mają tę samą wysokość h (odległość między AB i CD). Z równości pól: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mi>AE</mi><mo>·</mo><mi>h</mi><mo>=</mo><mn>8</mn><mo>·</mo><mi>h</mi></math>, skąd AE = 16, czyli AE : EB = 16 : 8 = 2 : 1.</p>",
+    "check": "C"
+  },
+  "rejonowy_2023-2024_malopolskie_q8": {
+    "html": "<p>O(0,0) jest środkiem przekątnych, więc C = (−2,−6), D = (2,−3) (punkty przeciwne do A, B). AB = √(4²+3²) = 5. Pole trójkąta ABD ze wzoru na pole z współrzędnych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>|</mo><mn>2</mn><mo>·</mo><mn>6</mn><mo>+</mo><mo>(</mo><mo>−</mo><mn>2</mn><mo>)</mo><mo>·</mo><mo>(</mo><mo>−</mo><mn>9</mn><mo>)</mo><mo>+</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>|</mo><mo>=</mo><mn>18</mn></math>. Wysokość z D na AB: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mo>·</mo><mn>18</mn></mrow><mn>5</mn></mfrac><mo>=</mo><mn>7,2</mn></math>.</p>",
+    "check": "A"
+  },
+  "rejonowy_2023-2024_malopolskie_q9": {
+    "html": "<p>Pole trójkąta to (1/2)·a·h (a — najdłuższy bok, h — wysokość na niego), a zarazem (1/2)·b·c·sinα, gdzie α to kąt między bokami b, c, czyli naprzeciw a. Warunek b·c = a·h daje więc sinα = 1, czyli α = 90°: trójkąt jest prostokątny z przeciwprostokątną a = 5. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><msqrt><msup><mn>5</mn><mn>2</mn></msup><mo>−</mo><msup><mn>2</mn><mn>2</mn></msup></msqrt><mo>=</mo><msqrt><mn>21</mn></msqrt></math>, liczba między √20 a √22.</p>",
+    "check": "E"
+  },
+  "rejonowy_2023-2024_malopolskie_q10": {
+    "html": "<p>Niech n — liczba przewodów; na każdym jest w wróbli i 2 kawki, więc w + 2 = n. Ptaków łącznie jest n², a 20 &lt; n² &lt; 60 daje n ∈ {5, 6, 7}. Kawek jest łącznie 2n i ma dzielić się przez 3 — pasuje tylko n = 6 (2·6 = 12). Wróbli na przewodzie: 6 − 2 = 4, łącznie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>24</mn></math>.</p>",
+    "check": "C"
+  },
+  "rejonowy_2023-2024_malopolskie_q11": {
+    "html": "<p>W liczniku: a⁵+a³+a²+1 = a³(a²+1) + (a²+1) = (a²+1)(a³+1). Po podzieleniu przez a²+1 zostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>3</mn></msup><mo>+</mo><mn>1</mn></math>.</p>",
+    "check": "E"
+  },
+  "rejonowy_2023-2024_malopolskie_q12": {
+    "html": "<p>Niech n — liczba wszystkich strzałów. Za 1 pkt: 0,3n, za 2 pkt: 0,4n, za 3 pkt: 8, za 4 pkt: 0,3n − 8. Ze średniej: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>0,3</mn><mi>n</mi><mo>+</mo><mn>0,8</mn><mi>n</mi><mo>+</mo><mn>24</mn><mo>+</mo><mn>4</mn><mo>(</mo><mn>0,3</mn><mi>n</mi><mo>−</mo><mn>8</mn><mo>)</mo></mrow><mi>n</mi></mfrac><mo>=</mo><mn>2,2</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2,3</mn><mi>n</mi><mo>−</mo><mn>8</mn><mo>=</mo><mn>2,2</mn><mi>n</mi></math>, skąd n = 80. Strzałów za 4 punkty: 0,3·80 − 8 = 16.</p>",
+    "check": "D"
+  },
+  "rejonowy_2023-2024_malopolskie_q13": {
+    "html": "<p>W metrach: a km = 1000a m, b m, c dm = 0,1c m. Krawędzie modelu w skali 1:500 (w m): 2a, b/500, c/5000. Objętość modelu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>a</mi><mo>·</mo><mfrac><mi>b</mi><mn>500</mn></mfrac><mo>·</mo><mfrac><mi>c</mi><mn>5000</mn></mfrac><mo>=</mo><mfrac><mrow><mi>a</mi><mi>b</mi><mi>c</mi></mrow><mn>1250000</mn></mfrac></math> m³ = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>a</mi><mi>b</mi><mi>c</mi></mrow><mn>1250</mn></mfrac></math> l (1 m³ = 1000 l).</p>",
+    "check": "A"
+  },
+  "rejonowy_2023-2024_malopolskie_q14": {
+    "html": "<p>Niech x — wiek najstarszego syna; ojciec ma wtedy 3x lat, więc 4x + młodszy + średni = 78. Dobierając liczby pierwsze (młodszy &lt; 10, średni &gt; 10) tak, by 4x wyszło całkowite, a 3x nieparzyste, pasuje młodszy = 7, średni = 11: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>x</mi><mo>=</mo><mn>78</mn><mo>−</mo><mn>7</mn><mo>−</mo><mn>11</mn><mo>=</mo><mn>60</mn></math>, więc x = 15, a ojciec ma 3·15 = 45 lat (nieparzyste — zgadza się). Synowie razem: 78 − 45 = 33 lat. Po t latach: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>45</mn><mo>+</mo><mi>t</mi><mo>=</mo><mn>33</mn><mo>+</mo><mn>3</mn><mi>t</mi></math>, skąd t = 6.</p>",
+    "check": "B"
+  },
+  "rejonowy_2023-2024_malopolskie_q15": {
+    "html": "<p>Obwód pięciokąta to 3·AC. Sumując obwody trójkątów ABC, ACE i ECD (26+28+30=84), każdy bok pięciokąta liczy się raz, a AC oraz CE (= AC) po dwa razy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>84</mn><mo>=</mo><mn>3</mn><mi>AC</mi><mo>+</mo><mn>2</mn><mi>AC</mi><mo>+</mo><mn>2</mn><mi>AC</mi><mo>=</mo><mn>7</mn><mi>AC</mi></math>, skąd AC = 12.</p>",
+    "check": "D"
+  },
+  "rejonowy_2023-2024_malopolskie_q16": {
+    "html": "<p>O jest środkiem prostokąta: OA = OB = OC = OD = R, gdzie R to połowa przekątnej: √(3²+4²)/2 = 5/2, a z treści PO = R. Dla punktów symetrycznych względem O (np. A, C) zachodzi PA²+PC² = 2PO²+2OA² (i podobnie dla B, D), więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>PA</mi><mn>2</mn></msup><mo>+</mo><msup><mi>PB</mi><mn>2</mn></msup><mo>+</mo><msup><mi>PC</mi><mn>2</mn></msup><mo>+</mo><msup><mi>PD</mi><mn>2</mn></msup><mo>=</mo><mn>4</mn><msup><mi>R</mi><mn>2</mn></msup><mo>+</mo><mn>4</mn><msup><mi>R</mi><mn>2</mn></msup><mo>=</mo><mn>8</mn><msup><mi>R</mi><mn>2</mn></msup><mo>=</mo><mn>50</mn></math>. Liczba 50 = 2·5² ma sześć dzielników naturalnych: 1, 2, 5, 10, 25, 50.</p>",
+    "check": "E"
+  }
+}

@@ -1556,6 +1556,13 @@ body.hide-mental .mental-toggle {
   .print-hide-mental .mmark {
     display: none;
   }
+
+  /* AI derivations on the key sheet, off by default — with the provenance note that only they
+     triggered (a note about AI content that isn't printing would be a lie) */
+  .print-hide-solai .kai-sol,
+  .print-hide-solai .klegend-solai {
+    display: none;
+  }
   /* sheet title: same independent screen/print toggle as the meta tags; the class rules override the
      blanket h1{display:none} above. Centered as a worksheet header. */
   .sheet-title {

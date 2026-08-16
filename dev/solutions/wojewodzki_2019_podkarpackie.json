@@ -1,0 +1,42 @@
+{
+  "wojewodzki_2019_podkarpackie_q1": {
+    "html": "<p>Wśród liczb nieparzystych od 1 do 2019 jest liczba 5, a iloczyn liczby kończącej się na 5 przez dowolną liczbę nieparzystą zawsze kończy się na 5. Zatem cyfra jedności całego iloczynu to 5.</p>",
+    "check": "C"
+  },
+  "wojewodzki_2019_podkarpackie_q2": {
+    "html": "<p>Liczniki i mianowniki kolejnych wyrażeń to sąsiednie liczby Fibonacciego: I = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>2</mn></mfrac></math>, II = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>3</mn></mfrac></math>, …, V = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>21</mn><mn>13</mn></mfrac></math>.</p><p>Stąd VI = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>+</mo><mfrac><mn>13</mn><mn>21</mn></mfrac><mo>=</mo><mfrac><mn>34</mn><mn>21</mn></mfrac></mrow></math>.</p>",
+    "check": "A"
+  },
+  "wojewodzki_2019_podkarpackie_q3": {
+    "html": "<p>Za pięć lat cztery osoby mają razem 60 lat. Do chwili „za piętnaście lat” upływa jeszcze 10 lat, w czasie których każda z 4 osób starzeje się o 10 lat, więc suma wieku rośnie o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><mn>10</mn><mo>=</mo><mn>40</mn></mrow></math> lat. Łącznie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>60</mn><mo>+</mo><mn>40</mn><mo>=</mo><mn>100</mn></mrow></math> lat.</p>",
+    "check": "A"
+  },
+  "wojewodzki_2019_podkarpackie_q4": {
+    "html": "<p>Wyłączamy czynnik: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>2019</mn><mn>11</mn></msup><mo>+</mo><msup><mn>2019</mn><mn>12</mn></msup><mo>=</mo><msup><mn>2019</mn><mn>11</mn></msup><mo>·</mo><mn>2020</mn></mrow></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2020</mn><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup><mo>·</mo><mn>5</mn><mo>·</mo><mn>101</mn></mrow></math>. Ponieważ 2019 nie dzieli się przez 5, cały iloczyn ma tylko jeden czynnik 5 — nie dzieli się więc przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>50</mn><mo>=</mo><mn>2</mn><mo>·</mo><msup><mn>5</mn><mn>2</mn></msup></mrow></math>.</p>",
+    "check": "A"
+  },
+  "wojewodzki_2019_podkarpackie_q5": {
+    "html": "<p>Uczniów mających psa lub kota jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>30</mn><mo>−</mo><mn>10</mn><mo>=</mo><mn>20</mn></mrow></math>. Z zasady włączeń i wyłączeń liczba mających psa to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>20</mn><mo>−</mo><mn>15</mn><mo>+</mo><mn>6</mn><mo>=</mo><mn>11</mn></mrow></math>. Psa ma więc 11 uczniów, a kota 15 — psa jest mniej niż kota, więc to zdanie jest fałszywe.</p>",
+    "check": "D"
+  },
+  "wojewodzki_2019_podkarpackie_q6": {
+    "html": "<p>W pudełku I jest 5 kul czarnych na 8, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mfrac><mn>5</mn><mn>8</mn></mfrac></mrow></math>. W pudełku II są 2 czarne na 5, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mfrac><mn>2</mn><mn>5</mn></mfrac></mrow></math>. Prawdopodobieństwo dwóch czarnych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>5</mn><mn>8</mn></mfrac><mo>·</mo><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac></mrow></math>.</p>",
+    "check": "B"
+  },
+  "wojewodzki_2019_podkarpackie_q7": {
+    "html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> to cała droga. Adam jedzie kolejno <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>d</mi><mn>2</mn></mfrac></math> km z prędkością 12, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>d</mi><mn>6</mn></mfrac></math> km (jedna trzecia reszty) z prędkością 8, i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>d</mi><mn>3</mn></mfrac></math> km z prędkością 16 km/h. Czas jazdy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mi>d</mi><mn>24</mn></mfrac><mo>+</mo><mfrac><mi>d</mi><mn>48</mn></mfrac><mo>+</mo><mfrac><mi>d</mi><mn>48</mn></mfrac><mo>=</mo><mfrac><mi>d</mi><mn>12</mn></mfrac></mrow></math>. Ponieważ 20 min to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> h, mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mi>d</mi><mn>12</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>d</mi><mo>=</mo><mn>4</mn></mrow></math> km.</p>",
+    "check": "B"
+  },
+  "wojewodzki_2019_podkarpackie_q8": {
+    "html": "<p>Suma obwodów obu trójkątów to obwód czworokąta powiększony o dwukrotność przekątnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> (liczy się ona w każdym trójkącie): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>24</mn><mo>+</mo><mn>23</mn><mo>=</mo><mn>27</mn><mo>+</mo><mn>2</mn><mi>d</mi></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>d</mi><mo>=</mo><mn>20</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>d</mi><mo>=</mo><mn>10</mn></mrow></math> cm.</p>",
+    "check": "C"
+  },
+  "wojewodzki_2019_podkarpackie_q9": {
+    "html": "<p>S jest środkiem AB, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>SA</mi><mo>=</mo><mi>SB</mi></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>SB</mi><mo>=</mo><mi>SD</mi></mrow></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>SA</mi><mo>=</mo><mi>SB</mi><mo>=</mo><mi>SD</mi></mrow></math> — punkty A, B, D leżą na okręgu o środku S, a AB (złożone z odcinków SA i SB) jest jego średnicą. Kąt ADB, wpisany i oparty na średnicy, ma miarę 90° (tw. Talesa).</p>",
+    "check": "C"
+  },
+  "wojewodzki_2019_podkarpackie_q10": {
+    "html": "<p>Cięcie prowadzi od wierzchołka podstawy do środka przeciwległego boku (mediana), więc dzieli trójkąt podstawy na dwie części o tej samej podstawie (4 cm) i tej samej wysokości — ich pola są równe. Wysokość obu graniastosłupów to niezmieniona wysokość wyjściowej bryły — też równa, więc równe są i objętości (pole podstawy razy wysokość). Jednak boki podstaw dochodzące do cięcia mają 8 cm i 6 cm — różne, więc pola powierzchni bocznych (zależne od obwodu podstawy) nie są sobie równe.</p>",
+    "check": "D"
+  }
+}

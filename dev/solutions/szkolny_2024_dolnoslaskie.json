@@ -1,0 +1,30 @@
+{
+  "szkolny_2024_dolnoslaskie_q1": {
+    "html": "<p>88+11=99, 777+222=999, 6666+3333=9999, 55555+44444=99999, a 99−66=33, 888−555=333, 7777−4444=3333, 66666−33333=33333. Każda para daje iloraz 3 (np. 99:33=3), więc wyrażenie jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>3</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>81</mn></mrow></math>.</p>",
+    "check": "C"
+  },
+  "szkolny_2024_dolnoslaskie_q2": {
+    "html": "<p>Suma dziewięciu największych liczb dwucyfrowych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>91</mn><mo>+</mo><mn>92</mn><mo>+</mo><mo>…</mo><mo>+</mo><mn>99</mn><mo>=</mo><mn>855</mn></mrow></math>, czyli mniej niż 888 — dziewięć liczb nie wystarczy. Suma dziesięciu największych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>90</mn><mo>+</mo><mn>91</mn><mo>+</mo><mo>…</mo><mo>+</mo><mn>99</mn><mo>=</mo><mn>945</mn></mrow></math>, czyli więcej niż 888, więc wśród dziesięciu różnych liczb dwucyfrowych da się dobrać taki zestaw, by suma wyniosła dokładnie 888. Najmniej takich liczb to 10.</p>",
+    "check": "A"
+  },
+  "szkolny_2024_dolnoslaskie_q3": {
+    "html": "<p>Na górnej osi odcinek od 0 do 4 jest podzielony na 3 równe części, więc jedna część to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>3</mn></mfrac></math>; x leży jedną część na lewo od 0: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mo>−</mo><mfrac><mn>4</mn><mn>3</mn></mfrac></mrow></math>. Na dolnej osi odcinek od −5 do 0 jest podzielony na 6 równych części, więc jedna część to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>6</mn></mfrac></math>; y leży jedną część na prawo od 0: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mfrac><mn>5</mn><mn>6</mn></mfrac></mrow></math>. Suma: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mfrac><mn>4</mn><mn>3</mn></mfrac><mo>+</mo><mfrac><mn>5</mn><mn>6</mn></mfrac><mo>=</mo><mo>−</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math>.</p>",
+    "check": "B"
+  },
+  "szkolny_2024_dolnoslaskie_q4": {
+    "html": "<p>Pierwszy ułamek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mi>a</mi><mrow><mi>a</mi><mo>+</mo><mi>a</mi></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math>, więc cały licznik ułamka to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mfrac><mn>1</mn><mn>2</mn></mfrac><mrow><mn>3</mn><mi>a</mi></mrow></mfrac><mo>=</mo><mfrac><mn>1</mn><mrow><mn>6</mn><mi>a</mi></mrow></mfrac></mrow></math>. Drugi ułamek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mi>a</mi><mo>+</mo><mi>a</mi></mrow><mrow><mi>a</mi><mo>+</mo><mi>a</mi><mo>+</mo><mi>a</mi></mrow></mfrac><mo>=</mo><mfrac><mn>2</mn><mn>3</mn></mfrac></mrow></math>, więc cały drugi ułamek to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>:</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>=</mo><mfrac><mrow><mn>3</mn><mi>a</mi></mrow><mn>2</mn></mfrac></mrow></math>. Iloczyn obu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mrow><mn>6</mn><mi>a</mi></mrow></mfrac><mo>·</mo><mfrac><mrow><mn>3</mn><mi>a</mi></mrow><mn>2</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac></mrow></math>.</p>",
+    "check": "D"
+  },
+  "szkolny_2024_dolnoslaskie_q5": {
+    "html": "<p>Bok dużego kwadratu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>44</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>11</mn></mrow></math> cm, bok małego: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>12</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>3</mn></mrow></math> cm. Prowadząc linię przez środek rysunku, w poziomie przechodzimy przez trzy kwadraty: duży, mały, duży, więc szerokość całej figury to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>11</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>11</mn><mo>=</mo><mn>25</mn></mrow></math> cm; tak samo w pionie wysokość wynosi 25 cm. Brzeg figury nigdzie się nie cofa (same schodki w jedną stronę), więc jej obwód jest taki jak obwód kwadratu 25 cm × 25 cm: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><mn>25</mn><mo>=</mo><mn>100</mn></mrow></math> cm.</p>",
+    "check": "D"
+  },
+  "szkolny_2024_dolnoslaskie_q6": {
+    "html": "<p>Najkrótszy bok: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>24</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>6</mn></mrow></math> cm. Jest on o 4 cm krótszy od jednego z pozostałych boków, więc ten bok ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>10</mn></mrow></math> cm. Trzeci bok: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>24</mn><mo>−</mo><mn>6</mn><mo>−</mo><mn>10</mn><mo>=</mo><mn>8</mn></mrow></math> cm. Boki 6, 8, 10 spełniają <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>6</mn><mn>2</mn></msup><mo>+</mo><msup><mn>8</mn><mn>2</mn></msup><mo>=</mo><msup><mn>10</mn><mn>2</mn></msup></mrow></math>, więc przyprostokątne mają długość 6 cm i 8 cm. Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>6</mn><mo>·</mo><mn>8</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>24</mn></mrow></math> cm².</p>",
+    "check": "C"
+  },
+  "szkolny_2024_dolnoslaskie_q7": {
+    "html": "<p>Objętość pudełka: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>20</mn><mo>·</mo><msup><mn>6</mn><mn>3</mn></msup><mo>=</mo><mn>4320</mn></mrow></math> cm³. Kostek niebieskich potrzeba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4320</mn><mo>:</mo><msup><mn>3</mn><mn>3</mn></msup><mo>=</mo><mn>160</mn></mrow></math>, a czerwonych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4320</mn><mo>:</mo><msup><mn>2</mn><mn>3</mn></msup><mo>=</mo><mn>540</mn></mrow></math>. Różnica: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>540</mn><mo>−</mo><mn>160</mn><mo>=</mo><mn>380</mn></mrow></math>.</p>",
+    "check": "A"
+  }
+}

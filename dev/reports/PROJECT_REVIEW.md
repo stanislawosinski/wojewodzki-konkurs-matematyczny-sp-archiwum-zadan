@@ -50,7 +50,16 @@ SCHEMA.md nie dogonił danych:
 
 Posortowane wg wartość/koszt:
 
-1. **Rozwiązania AI dla 4850 zadań (64%), które mają klucz, ale bez drogi dojścia.**
+1. ~~**Rozwiązania AI dla 4850 zadań (64%), które mają klucz, ale bez drogi dojścia.**~~
+   — **ZROBIONE (2026-08-16)**: 4847 zadań w zakresie, komplet rozwiązań, zero luk. Sidecary
+   w `dev/solutions/` (`{id: {html, check}}`) scalane w `build.mjs` do `sol_ai`, nie do źródła
+   prawdy; `check` (odpowiedź w formacie klucza) porównywany maszynowo przez
+   `dev/scripts/check-solutions.mjs` — **zero rozjazdów z kluczem**. Kampania sonnetem, jeden agent
+   na arkusz (`solution.workflow.mjs`), 11 zgłoszonych luk domknął przebieg opusem po zadaniu
+   (`solution-gaps.workflow.mjs`) — wszystkie okazały się błędami odczytu rysunku, żaden klucz nie
+   podważony. UI: „Rozwiązanie AI" w reveal i w arkuszu klucza (druk domyślnie off, ⚙ → Wydruk),
+   facet „Rozwiązanie" liczy nowe pole. Szczegóły w `dev/solutions/README.md`.
+   Oryginalny opis:
    Klucz podaje tylko literkę/krótką odpowiedź; oficjalne `solution_html` ma 2080 zadań,
    `model.solution_html` — 744 (wszystkie 641 bezkluczowych + 103 z adjudykacji, 42
    nakładają się z oficjalnymi). Znany wynik z klucza działa jako walidacja

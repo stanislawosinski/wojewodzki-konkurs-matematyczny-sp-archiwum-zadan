@@ -1,0 +1,70 @@
+{
+  "szkolny_2023_lubelskie_q1": {
+    "html": "<p>Żadna cyfra nie może być zerem, bo iloczyn to 4. Trójki cyfr dające iloczyn 4 to {1,1,4} i {1,2,2} — każda ma 3 różne ustawienia, razem 3+3=6 liczb.</p>",
+    "check": "C"
+  },
+  "szkolny_2023_lubelskie_q2": {
+    "html": "<p>Cyfry po przecinku powtarzają się w bloku 23456 (5 cyfr). 137:5 daje resztę 2, więc szukana cyfra to druga cyfra bloku — 3.</p>",
+    "check": "B"
+  },
+  "szkolny_2023_lubelskie_q3": {
+    "html": "<p>Licznik: |−13−1| − |16−8| = 14 − 8 = 6. Mianownik: −|−9+5| + 2 = −4 + 2 = −2. Iloraz: 6 : (−2) = −3.</p>",
+    "check": "A"
+  },
+  "szkolny_2023_lubelskie_q4": {
+    "html": "<p>NWD(8, 24) = 8, NWD(18, 111) = 3, NWD(6, 85) = 1, NWD(10, 202) = 2. Jedynie 6 i 85 są względnie pierwsze.</p>",
+    "check": "C"
+  },
+  "szkolny_2023_lubelskie_q5": {
+    "html": "<ul><li>Parzysta razy nieparzysta daje liczbę parzystą — P.</li><li>Nieparzysta + nieparzysta = parzysta, nie nieparzysta — F.</li><li>1914 = 4·478 + 2, niepodzielna przez 4 — F.</li><li>2022 = 3·674, więc 3 jest jej dzielnikiem — P.</li></ul>",
+    "check": "PFFP"
+  },
+  "szkolny_2023_lubelskie_q6": {
+    "html": "<p>Cena: 100 → 120 (+20%) → 108 (−10%) → 97,2 (−10%).</p><ul><li>97,2 ≠ 100 — F.</li><li>97,2 &lt; 100 — F.</li><li>97,2 to 97,2% ceny początkowej — P.</li></ul>",
+    "check": "FFP"
+  },
+  "szkolny_2023_lubelskie_q7": {
+    "html": "<p>Warunek trójkąta: ramię x musi spełniać 2x &gt; 11, czyli x &gt; 5,5 cm.</p><ul><li>Ramię 5,5 cm jest niemożliwe — zdanie prawdziwe — P.</li><li>Ramię 11−6=5 cm &lt; 5,5 — niemożliwe — F.</li><li>Obwód = 11+2x &gt; 22 zawsze — P.</li><li>Obwód 33 daje x=11 &gt; 5,5 — możliwe — P.</li></ul>",
+    "check": "PFPP"
+  },
+  "szkolny_2023_lubelskie_q8": {
+    "html": "<ul><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>100</mn><mo>−</mo><mn>64</mn></msqrt></math> = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>36</mn></msqrt></math> = 6, nie 2 — F.</li><li>135 = 27·5, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mn>135</mn><mn>3</mn></mroot></math> = 3·<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mroot><mn>5</mn><mn>3</mn></mroot></math> — P.</li><li>(3<sup>8</sup>)<sup>2</sup>:3 = 3<sup>15</sup>, a 27<sup>3</sup>·9·3<sup>5</sup> = 3<sup>16</sup> — różne, F.</li><li>125·5<sup>13</sup> = 5<sup>16</sup>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mn>5</mn><mn>17</mn></msup><mn>25</mn></mfrac></math> = 5<sup>15</sup>; 5<sup>16</sup> jest większa, nie mniejsza — F.</li></ul>",
+    "check": "FPFF"
+  },
+  "szkolny_2023_lubelskie_q9": {
+    "html": "<ul><li>Dla x=−3: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mn>3</mn></msup><mo>+</mo><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup></math> = −27+36 = 9, a 3−2·(−3) = 9 — zgadza się, P.</li><li>Z pierwszego równania x=−10, ale nie spełnia drugiego (4:x=x²/16 daje x=4) — F.</li><li>3x=x ma rozwiązanie x=0, więc zdanie jest fałszywe — F.</li><li>2(x−1)=2x−2 to tożsamość — nieskończenie wiele rozwiązań — P.</li></ul>",
+    "check": "PFFP"
+  },
+  "szkolny_2023_lubelskie_q10": {
+    "html": "<ul><li>Kąt między ramionami może być też prosty lub rozwarty — F.</li><li>Istnieje trapez równoramienny o prostopadłych przekątnych — P.</li><li>Ostrosłup ma n+1 wierzchołków; 7 wierzchołków → n=6, podstawa to sześciokąt, nie siedmiokąt — F.</li><li>Graniastosłup ma n+2 ściany; 18 ścian → n=16, podstawa to szesnastokąt, nie dziewięciokąt — F.</li></ul>",
+    "check": "FPFF"
+  },
+  "szkolny_2023_lubelskie_q11": {
+    "html": "<p>a) Tydzień ma 168 h, więc 11/42 · 168 = 44 godziny.</p><p>b) Kwadrans to 0,25 h, więc 10 · 0,25 = 2,5 godziny.</p><p>c) Minuta ma 60 s, więc 4/15 · 60 = 16 sekund.</p>",
+    "check": "a) 44, b) 2,5, c) 16"
+  },
+  "szkolny_2023_lubelskie_q12": {
+    "html": "<p>a:b = (1/2)<sup>9</sup> : (1/2)<sup>11</sup> = (1/2)<sup>−2</sup> = 4. Liczba a jest 4 razy większa od liczby b.</p>",
+    "check": "Liczba a jest 4 razy większa od liczby b"
+  },
+  "szkolny_2023_lubelskie_q13": {
+    "html": "<p>Trójkąt 5-12-13 jest prostokątny (5²+12²=13²), pole = 5·12:2 = 30 cm². Wysokości do przyprostokątnych to same przyprostokątne: najdłuższa = 12 cm. Wysokość do przeciwprostokątnej: 2·30:13 = 60/13 = 4 8/13 cm — najkrótsza.</p>",
+    "check": "a) 12 cm, b) 4 8/13 cm"
+  },
+  "szkolny_2023_lubelskie_q14": {
+    "html": "<p>Pole = bok · wysokość, więc krótszy bok ma dłuższą wysokość: 6·10 = 60 cm². Druga wysokość (do boku 11 cm): 60:11 = 5 5/11 cm.</p>",
+    "check": "5 5/11 cm"
+  },
+  "szkolny_2023_lubelskie_q15": {
+    "html": "<p>a) −7 + (−1/7) = −7 1/7.</p><p>b) 5 + (−5) = 0.</p><p>c) −2 − (−2)<sup>3</sup> = −2 − (−8) = 6.</p>",
+    "check": "a) −7 1/7, b) 0, c) 6"
+  },
+  "szkolny_2023_lubelskie_q16": {
+    "html": "<p>Pole trapezu = (a+b):2 · h, więc 27 = (18:2) · h = 9h, skąd h = 3 dm.</p>",
+    "check": "3 dm"
+  },
+  "szkolny_2023_lubelskie_q17": {
+    "html": "<p>Wartości w złotych: jednozłotówki n, dwudziestogroszówki 4·0,20n (jest ich 4n), dziesięciogroszówki (n−2)·0,10, dwuzłotówki 3·2, jednogroszówki 2·0,01. Suma równa się 21,02 zł: n + 4·0,20n + (n−2)·0,10 + 3·2 + 2·0,01 = 21,02 [zł].</p>",
+    "check": "n + 4·0,20n + (n−2)·0,10 + 3·2 + 2·0,01 = 21,02 [zł]"
+  }
+}

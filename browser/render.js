@@ -374,6 +374,17 @@ function keyVerifLines(q, hasKey) {
   return p;
 }
 
+// One-line provenance note closing the key sheet, whenever any AI content printed on it. When the
+// AI derivations are the only such content the note carries their class too, so the "Rozwiązania AI
+// w kluczu" print toggle hides both — a note about AI content that isn't printing would be a lie.
+function keyLegendHtml(keyEntries) {
+  const verif = keyEntries.includes('class="kai"') || keyEntries.includes('class="kverif"');
+  if (!verif && !keyEntries.includes("kai-sol")) {
+    return "";
+  }
+  return `<div class="klegend${verif ? "" : " klegend-solai"}">Odpowiedzi, rozwiązania i adnotacje „AI” pochodzą od modeli AI — nie są częścią oficjalnego klucza.</div>`;
+}
+
 function renderKeyEntry(q, seq) {
   const a = q.answer || {},
     hasKey = a.correct != null && a.correct !== "";
@@ -389,6 +400,8 @@ function renderKeyEntry(q, seq) {
   const sol = hasKey || cancelled ? a.solution_html : a.model?.solution_html;
   if (sol) {
     p.push(`<div class="ksol">${sol}</div>`);
+  } else if (q.sol_ai) {
+    p.push(`<div class="ksol kai-sol"><em>Rozwiązanie AI:</em> ${q.sol_ai}</div>`);
   }
   return `${p.join("")}</div>`;
 }
@@ -573,6 +586,12 @@ function revealHtml(q) {
   }
   if (sol) {
     parts.push(`<div class="answer solution">${sol}</div>`); // key's derivation kept with its answer
+  }
+
+  // the AI-written derivation stands in wherever no published one exists — for those questions it is
+  // the only path there is, so it shows regardless of the showAI toggle, labelled as AI
+  if (!sol && q.sol_ai) {
+    parts.push(`<div class="answer solution ai-sol"><em>Rozwiązanie AI:</em> ${q.sol_ai}</div>`);
   }
   if (!correct && !sol) {
     parts.push('<div class="answer nokey">Brak klucza</div>'); // no official key → always state it

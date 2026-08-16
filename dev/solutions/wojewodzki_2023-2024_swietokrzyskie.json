@@ -1,0 +1,54 @@
+{
+  "wojewodzki_2023-2024_swietokrzyskie_q1": {
+    "html": "<p>Droga: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>120</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>360</mn></math> km. Czas pana Piotra: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>360</mn><mo>:</mo><mn>100</mn><mo>=</mo><mn>3,6</mn></math> h, czyli 3 godziny 36 minut.</p>",
+    "check": "C"
+  },
+  "wojewodzki_2023-2024_swietokrzyskie_q2": {
+    "html": "<p>Setki=2, jedności (parzyste, różne od 2): 0, 4, 6, 8.</p><p>Jedności=0: tysiące (bez 0 i 2) — 8 możliwości, dziesiątki — 7: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>·</mo><mn>7</mn><mo>=</mo><mn>56</mn></math>. Jedności∈{4,6,8}: tysiące — 7, dziesiątki — 7: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>7</mn><mo>·</mo><mn>7</mn><mo>=</mo><mn>147</mn></math>. Razem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>56</mn><mo>+</mo><mn>147</mn><mo>=</mo><mn>203</mn></math>.</p>",
+    "check": "A"
+  },
+  "wojewodzki_2023-2024_swietokrzyskie_q3": {
+    "html": "<p>Przekątna sześcianu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><mi>a</mi><msqrt><mn>3</mn></msqrt></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><msqrt><mn>3</mn></msqrt><mo>=</mo><msqrt><mn>6</mn></msqrt></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>2</mn></math>. Pole całkowite: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>6</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>12</mn></math> cm².</p>",
+    "check": "C"
+  },
+  "wojewodzki_2023-2024_swietokrzyskie_q4": {
+    "html": "<p>Kąt wewnętrzny n-kąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><mi>n</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>·</mo><mn>180</mn><mo>°</mo></mrow><mi>n</mi></mfrac></math>. Dla 15-kąta: 156°, dla 20-kąta: 162°, różnica 6° — P.</p><p>Osi symetrii tyle, ile boków: 20 i 15, różnica 5, nie 10 — F.</p><p>Piętnastokąt (n nieparzyste) nie ma środka symetrii, więc nieprawda, że oba wielokąty go mają — F.</p>",
+    "check": "PFF"
+  },
+  "wojewodzki_2023-2024_swietokrzyskie_q5": {
+    "html": "<p>Przeciwprostokątna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>6</mn><mn>2</mn></msup><mo>+</mo><msup><mn>8</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>10</mn></math>. Pole półkola o średnicy a: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>π</mi><msup><mi>a</mi><mn>2</mn></msup></mrow><mn>8</mn></mfrac></math>.</p><p>Na 6 cm: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4,5</mn><mi>π</mi></math> ≠ 18π — F. Na 10 cm: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12,5</mn><mi>π</mi><mo>≈</mo><mn>39,3</mn></math> cm² &lt; 40 — P. Suma na przyprostokątnych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4,5</mn><mi>π</mi><mo>+</mo><mn>8</mn><mi>π</mi><mo>=</mo><mn>12,5</mn><mi>π</mi></math> = pole na przeciwprostokątnej — P.</p>",
+    "check": "FPP"
+  },
+  "wojewodzki_2023-2024_swietokrzyskie_q6": {
+    "html": "<p>Wygrywających: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>45</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>15</mn></math>, przegrywających: 30. Po 5 losowaniach zostało 40 losów, w tym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>−</mo><mn>5</mn><mo>=</mo><mn>25</mn></math> przegrywających. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><mn>25</mn><mn>40</mn></mfrac><mo>=</mo><mfrac><mn>5</mn><mn>8</mn></mfrac></math>.</p>",
+    "check": "A"
+  },
+  "wojewodzki_2023-2024_swietokrzyskie_q7": {
+    "html": "<p>Liczba ma postać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mn>5</mn><mi>t</mi><mi>j</mi></math> z sumą cyfr 15 i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mi>j</mi><mo>+</mo><mn>3</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>+</mo><mn>2</mn><mi>j</mi><mo>=</mo><mn>7</mn></math>. Dla j=0,1,2,3 mamy d=7,5,3,1: liczby 7530, 5541, 3552, 1563.</p><p>Cztery liczby — P. Cyfry tysięcy 7,5,3,1 — wszystkie nieparzyste — P. Suma = 18186, liczba parzysta — F.</p>",
+    "check": "PPF"
+  },
+  "wojewodzki_2023-2024_swietokrzyskie_q8": {
+    "html": "<p>Ostrosłup o podstawie n-kąta ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>+</mo><mn>1</mn></math> wierzchołków i 2n krawędzi. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi><mo>+</mo><mn>1</mn><mo>=</mo><mn>2024</mn></math> → n=2023. Krawędzi: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>2023</mn><mo>=</mo><mn>4046</mn></math>.</p>",
+    "check": "B"
+  },
+  "wojewodzki_2023-2024_swietokrzyskie_q9": {
+    "html": "<p>Cena 1 kg: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>37,50</mn><mo>:</mo><mn>2,5</mn><mo>=</mo><mn>15</mn></math> zł.</p><p>Po podwyżce o 30%: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn><mo>·</mo><mn>1,3</mn><mo>=</mo><mn>19,50</mn></math> zł — dokładnie tyle, nie ponad — F. Po obniżce o 30%: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn><mo>·</mo><mn>0,7</mn><mo>=</mo><mn>10,50</mn></math> zł/kg, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3,5</mn><mo>·</mo><mn>10,50</mn><mo>=</mo><mn>36,75</mn></math> zł — P. Spadek z 15 do 10 zł to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>15</mn></mfrac><mo>=</mo><mn>33</mn><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>%</mo></math> — P.</p>",
+    "check": "FPP"
+  },
+  "wojewodzki_2023-2024_swietokrzyskie_q10": {
+    "html": "<p>2024≡−1 (mod 5), więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2024</mn><mn>2023</mn></msup><mo>≡</mo><mn>4</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2024</mn><mn>2025</mn></msup><mo>≡</mo><mn>4</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>c</mi><mo>≡</mo><mn>0</mn></math> (mod 5) — P.</p><p>2024=8·11·23, więc c zawiera czynnik <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>11</mn><mn>2025</mn></msup><mo>·</mo><msup><mn>23</mn><mn>2025</mn></msup></math>, a to starcza na podzielność abc przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>253</mn><mn>2024</mn></msup></math> — P.</p><p>Ostatnia cyfra potęgi 2024 to 4 przy nieparzystym wykładniku, 6 przy parzystym: a kończy się na 6, b na 7, c na 4; suma jedności 6+7+4=17 — cyfra jedności 7 — P.</p>",
+    "check": "PPP"
+  },
+  "wojewodzki_2023-2024_swietokrzyskie_q12": {
+    "html": "<p>Dwa dłuższe boki: 12k i 13k (13k to przeciwprostokątna). Trzeci bok: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mrow><mo>(</mo><mn>13</mn><mi>k</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>−</mo><msup><mrow><mo>(</mo><mn>12</mn><mi>k</mi><mo>)</mo></mrow><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>5</mn><mi>k</mi></math>.</p><p>Obwód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mi>k</mi><mo>+</mo><mn>12</mn><mi>k</mi><mo>+</mo><mn>13</mn><mi>k</mi><mo>=</mo><mn>30</mn><mi>k</mi><mo>=</mo><mn>150</mn></math>, więc k=5, a trzeci bok = 5·5=25.</p>",
+    "check": "D"
+  },
+  "wojewodzki_2023-2024_swietokrzyskie_q13": {
+    "html": "<p>Kąt przyległy do 135° wynosi 45°. Skoro przekątna dzieli równoległobok na trójkąty prostokątne, powstaje trójkąt 45°-45°-90°: krótszy bok = przekątna = 4√3, dłuższy bok (przeciwprostokątna) = 4√3·√2 = 4√6.</p><p>Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><msqrt><mn>6</mn></msqrt><mo>·</mo><mn>4</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><mi>sin</mi><mn>45</mn><mo>°</mo><mo>=</mo><mn>48</mn></math>, nie 24√8 — F. Obwód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><msqrt><mn>6</mn></msqrt><mo>+</mo><mn>8</mn><msqrt><mn>3</mn></msqrt></math> — P. Wysokość do dłuższego boku: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>48</mn><mo>:</mo><mn>4</mn><msqrt><mn>6</mn></msqrt><mo>=</mo><mn>2</mn><msqrt><mn>6</mn></msqrt></math> — P.</p>",
+    "check": "FPP"
+  },
+  "wojewodzki_2023-2024_swietokrzyskie_q14": {
+    "html": "<p>Pole podstawy 64 cm² → bok a=8, przekątna podstawy=8√2, jej połowa=4√2. Krawędź boczna=a=8.</p><p>Wysokość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><msqrt><mrow><msup><mn>8</mn><mn>2</mn></msup><mo>−</mo><msup><mrow><mo>(</mo><mn>4</mn><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>4</mn><msqrt><mn>2</mn></msqrt></math> = połowa przekątnej — P. Ściana boczna to trójkąt równoboczny o boku 8: pole=16√3, razem 4 ściany=64√3 — P. Objętość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mn>64</mn><mo>·</mo><mn>4</mn><msqrt><mn>2</mn></msqrt><mo>=</mo><mfrac><mrow><mn>256</mn><msqrt><mn>2</mn></msqrt></mrow><mn>3</mn></mfrac></math> ≠ 348√2 — F.</p>",
+    "check": "PPF"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "szkolny_2020_dolnoslaskie_q1": {
+    "html": "<p>Suma kasztanów w obu koszykach zawsze wynosi 64+16=80. Po kolejnych przełożeniach połowy z koszyka, w którym jest więcej:</p><ul><li>64, 16 → 32, 48</li><li>32, 48 → 56, 24</li><li>56, 24 → 28, 52</li><li>28, 52 → 54, 26</li><li>54, 26 → 27, 53</li></ul><p>Po piątym przełożeniu w pierwszym koszyku jest 27 kasztanów, a w drugim 53, czyli o 26 więcej.</p>",
+    "check": "A"
+  },
+  "szkolny_2020_dolnoslaskie_q2": {
+    "html": "<p>Suma dzielników liczby będącej iloczynem dwóch różnych liczb pierwszych <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi><mo>·</mo><mi>q</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>1</mn><mo>+</mo><mi>p</mi><mo>)</mo><mo>·</mo><mo>(</mo><mn>1</mn><mo>+</mo><mi>q</mi><mo>)</mo></math>.</p><p>46=2·23: 3·24=72. 51=3·17: 4·18=72. 55=5·11: 6·12=72. 71 jest pierwsza: 1+71=72.</p><p>Wszystkie cztery liczby mają sumę dzielników równą 72.</p>",
+    "check": "D"
+  },
+  "szkolny_2020_dolnoslaskie_q3": {
+    "html": "<p>4-cyfrowa wielokrotność 5 kończy się na 0 lub 5. Gdyby kończyła się na 5, trzy pozostałe cyfry musiałyby dać sumę 3−5, czyli liczbę ujemną – niemożliwe. Zostaje końcówka 0: cyfry tysięcy, setek i dziesiątek (pierwsza ≥1) sumują się do 3.</p><p>Takie trójki to: 1,0,2; 1,1,1; 1,2,0; 2,0,1; 2,1,0; 3,0,0 – dają liczby 1020, 1110, 1200, 2010, 2100, 3000, czyli 6 liczb.</p>",
+    "check": "A"
+  },
+  "szkolny_2020_dolnoslaskie_q4": {
+    "html": "<p>Rozkładamy na czynniki pierwsze: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>=</mo><msup><mn>2</mn><mn>2</mn></msup><mo>·</mo><msup><mn>5</mn><mn>2</mn></msup></math> (2 liczby pierwsze), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>150</mn><mo>=</mo><mn>2</mn><mo>·</mo><mn>3</mn><mo>·</mo><msup><mn>5</mn><mn>2</mn></msup></math> (3 liczby pierwsze), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>200</mn><mo>=</mo><msup><mn>2</mn><mn>3</mn></msup><mo>·</mo><msup><mn>5</mn><mn>2</mn></msup></math> (2), <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>250</mn><mo>=</mo><mn>2</mn><mo>·</mo><msup><mn>5</mn><mn>3</mn></msup></math> (2).</p><p>Tylko 150 dzieli się przez trzy różne liczby pierwsze: 2, 3 i 5.</p>",
+    "check": "B"
+  },
+  "szkolny_2020_dolnoslaskie_q5": {
+    "html": "<p>Jeśli iloraz jest równy reszcie r, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn><mo>=</mo><mi>n</mi><mo>·</mo><mi>r</mi><mo>+</mo><mi>r</mi><mo>=</mo><mi>r</mi><mo>·</mo><mo>(</mo><mi>n</mi><mo>+</mo><mn>1</mn><mo>)</mo></math>, przy czym reszta musi być mniejsza od dzielnika: r&lt;n. Więc r musi być dzielnikiem 60.</p><p>Kolejne dzielniki 60: r=1→n=59, r=2→n=29, r=3→n=19, r=4→n=14, r=5→n=11, r=6→n=9 – wszystkie spełniają r&lt;n. Dla r=10 wychodzi już n=5&lt;r, więc dalej warunek się nie spełnia.</p><p>Takich liczb n jest 6.</p>",
+    "check": "A"
+  },
+  "szkolny_2020_dolnoslaskie_q6": {
+    "html": "<p>Zauważmy, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>2</mn></msup><mo>−</mo><mn>2</mn><mo>=</mo><mn>2</mn></math>, więc każde kolejne podniesienie do kwadratu i odjęcie 2 znowu daje 2 – stąd x=2. Podobnie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mn>3</mn></msup><mo>−</mo><mn>6</mn><mo>=</mo><mn>2</mn></math>, więc y=2. Natomiast <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>2</mn></msup><mo>−</mo><mn>6</mn><mo>=</mo><mn>3</mn></math>, więc z=3.</p><p>Skoro x=y=2, fałszywa jest wypowiedź x&gt;y.</p>",
+    "check": "D"
+  },
+  "szkolny_2020_dolnoslaskie_q7": {
+    "html": "<p>Rozszerzenie przez k daje licznik 19k i mianownik 40k – oba mają być trzycyfrowe.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>≤</mo><mn>19</mn><mi>k</mi><mo>≤</mo><mn>999</mn></math> daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>≤</mo><mi>k</mi><mo>≤</mo><mn>52</mn></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>≤</mo><mn>40</mn><mi>k</mi><mo>≤</mo><mn>999</mn></math> daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>≤</mo><mi>k</mi><mo>≤</mo><mn>24</mn></math>.</p><p>Oba warunki spełniają k od 6 do 24, czyli 19 liczb.</p>",
+    "check": "B"
+  },
+  "szkolny_2020_dolnoslaskie_q8": {
+    "html": "<p>Po pierwszym zamalowaniu zostaje 90% kwadratu. Drugie zamalowanie to 10% z tych 90%, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,1</mn><mo>·</mo><mn>90</mn><mo>%</mo><mo>=</mo><mn>9</mn><mo>%</mo></math>.</p><p>Razem zamalowano <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>%</mo><mo>+</mo><mn>9</mn><mo>%</mo><mo>=</mo><mn>19</mn><mo>%</mo></math> powierzchni kwadratu.</p>",
+    "check": "B"
+  },
+  "szkolny_2020_dolnoslaskie_q9": {
+    "html": "<p>Punkt dwukrotnie dalej od a=4 niż od b=−11 spełnia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mi>t</mi><mo>−</mo><mn>4</mn><mo>|</mo><mo>=</mo><mn>2</mn><mo>|</mo><mi>t</mi><mo>+</mo><mn>11</mn><mo>|</mo></math>.</p><p>Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>−</mo><mn>4</mn><mo>=</mo><mn>2</mn><mo>(</mo><mi>t</mi><mo>+</mo><mn>11</mn><mo>)</mo></math> wychodzi t=−26. Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>−</mo><mn>4</mn><mo>=</mo><mo>−</mo><mn>2</mn><mo>(</mo><mi>t</mi><mo>+</mo><mn>11</mn><mo>)</mo></math> wychodzi t=−6. To x i y.</p><p>Odległość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>|</mo><mo>−</mo><mn>6</mn><mo>−</mo><mo>(</mo><mo>−</mo><mn>26</mn><mo>)</mo><mo>|</mo><mo>=</mo><mn>20</mn></math>.</p>",
+    "check": "D"
+  },
+  "szkolny_2020_dolnoslaskie_q10": {
+    "html": "<p>Między 0 a 1 mieści się jedna dodatkowa kreska, więc odstęp między sąsiednimi kreskami wynosi 0,5. Odczytujemy: x=1,5, y=3, z=4,5.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi><mo>:</mo><mi>y</mi><mo>=</mo><mn>4,5</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>1,5</mn></math>, natomiast <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>:</mo><mi>x</mi><mo>=</mo><mn>3</mn><mo>:</mo><mn>1,5</mn><mo>=</mo><mn>2</mn></math> – ilorazy są różne, więc ta równość jest fałszywa.</p>",
+    "check": "C"
+  },
+  "szkolny_2020_dolnoslaskie_q11": {
+    "html": "<p>Sprowadzamy oba składniki każdego ilorazu do tej samej jednostki:</p><ul><li>A: 0,1 km : 10 dm = 100 m : 1 m = 100</li><li>B: 0,01 t : 10 dag = 10000 g : 100 g = 100</li><li>C: 10 l : 100 ml = 10000 ml : 100 ml = 100</li><li>D: 10 ha : 100 a = 1000 a : 100 a = 10</li></ul><p>Najmniejszy jest iloraz D.</p>",
+    "check": "D"
+  },
+  "szkolny_2020_dolnoslaskie_q12": {
+    "html": "<p>Dopłaty do 10 zł: Jurek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>−</mo><mn>8,50</mn><mo>=</mo><mn>1,50</mn></math>, Wojtek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>−</mo><mn>7,20</mn><mo>=</mo><mn>2,80</mn></math>, Henryk <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>−</mo><mn>6,90</mn><mo>=</mo><mn>3,10</mn></math> zł.</p><p>Cena piłki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,50</mn><mo>+</mo><mn>2,80</mn><mo>+</mo><mn>3,10</mn><mo>=</mo><mn>7,40</mn></math> zł. Tylko Jurek miał na starcie co najmniej tyle (8,50 zł), więc mógłby kupić piłkę sam – jedna osoba.</p>",
+    "check": "C"
+  },
+  "szkolny_2020_dolnoslaskie_q13": {
+    "html": "<p>Czas podróży to 15 h. Joanna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>3,75</mn></math> h, do godziny 10:45. Zostaje 11,25 h; Katarzyna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>11,25</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>3,75</mn></math> h, do 14:30.</p><p>Zostaje 7,5 h; Wojciech: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7,5</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>3,75</mn></math> h, do 18:15. O tej godzinie za kierownicą zasiadł Jerzy.</p>",
+    "check": "B"
+  },
+  "szkolny_2020_dolnoslaskie_q14": {
+    "html": "<p>Rzeczywista długość fragmentu z pierwszego planu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7,5</mn><mo>·</mo><mn>1000</mn><mo>=</mo><mn>7500</mn></math> cm = 75 m. Po dobudowaniu 50 m całość ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>75</mn><mo>+</mo><mn>50</mn><mo>=</mo><mn>125</mn></math> m = 12500 cm.</p><p>Na nowym planie ta długość to 2,5 cm, więc skala wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12500</mn><mo>:</mo><mn>2,5</mn><mo>=</mo><mn>5000</mn></math>, czyli 1 : 5000.</p>",
+    "check": "B"
+  },
+  "szkolny_2020_dolnoslaskie_q15": {
+    "html": "<p>Przekątne AD, BE, CF dzielą sześciokąt na 6 trójkątów, a w P powstają trzy pary kątów wierzchołkowych, więc ich sumy dają 180°.</p><p>W trójkącie AFP: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>50</mn><mo>°</mo><mo>+</mo><mn>60</mn><mo>°</mo><mo>+</mo><mo>∠</mo><mi>APF</mi><mo>=</mo><mn>180</mn><mo>°</mo></math>, więc ∠APF=70°. W trójkącie BCP: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>70</mn><mo>°</mo><mo>+</mo><mn>60</mn><mo>°</mo><mo>+</mo><mo>∠</mo><mi>BPC</mi><mo>=</mo><mn>180</mn><mo>°</mo></math>, więc ∠BPC=50°.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>70</mn><mo>°</mo><mo>−</mo><mn>50</mn><mo>°</mo><mo>=</mo><mn>60</mn><mo>°</mo></math>.</p>",
+    "check": "B"
+  },
+  "szkolny_2020_dolnoslaskie_q16": {
+    "html": "<p>CD jest wysokością trójkątów ADC i BCD (bo CD⊥AE), a D leży między A i B, więc pole ABC = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>40</mn><mo>+</mo><mn>10</mn><mo>=</mo><mn>50</mn></math> cm².</p><p>Skoro pole ABC = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mi>AB</mi><mo>·</mo><mi>CD</mi></math>, a AB=DE=CD (bok kwadratu), to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>CD</mi><mn>2</mn></msup><mo>=</mo><mn>100</mn></math>, więc pole kwadratu CDEF wynosi 100 cm².</p><p>BEFC to kwadrat bez trójkąta BCD: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>−</mo><mn>10</mn><mo>=</mo><mn>90</mn></math> cm².</p>",
+    "check": "B"
+  },
+  "szkolny_2020_dolnoslaskie_q18": {
+    "html": "<p>Zamieniamy na metry: 1 mm = 0,001 m, 1 dm = 0,1 m, 1 km = 1000 m.</p><p>Objętość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,001</mn><mo>·</mo><mn>0,1</mn><mo>·</mo><mn>1000</mn><mo>=</mo><mn>0,1</mn></math> m³.</p>",
+    "check": "C"
+  },
+  "szkolny_2020_dolnoslaskie_q19": {
+    "html": "<p>Graniastosłup o podstawie 10-kąta ma <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>10</mn><mo>+</mo><mn>10</mn><mo>=</mo><mn>30</mn></math> krawędzi, wszystkie o długości a. Z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mi>a</mi><mo>=</mo><mn>450</mn></math> wynika a=15 cm.</p><p>Ściana boczna to kwadrat o boku a, więc jej obwód wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>15</mn><mo>=</mo><mn>60</mn></math> cm.</p>",
+    "check": "C"
+  },
+  "szkolny_2020_dolnoslaskie_q21": {
+    "html": "<p>Z cyfr 3, 5, 6 można ułożyć: 356, 365, 536, 563, 635, 653. Liczby parzyste (356, 536) i kończące się na 5 (365, 635) dzielą się przez 2 lub 5, więc nie są pierwsze.</p><p>Zostają 563 i 653 – żadna z nich nie dzieli się przez 7, 11, 13, 17, 19 ani 23 (więcej sprawdzać nie trzeba, bo √653&lt;26), więc obie są pierwsze.</p>",
+    "check": "653 i 563"
+  },
+  "szkolny_2020_dolnoslaskie_q22": {
+    "html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>231</mn><mo>=</mo><mn>3</mn><mo>·</mo><mn>7</mn><mo>·</mo><mn>11</mn></math>, więc dzielnikami są też iloczyny par tych czynników: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>7</mn><mo>=</mo><mn>21</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mo>·</mo><mn>11</mn><mo>=</mo><mn>77</mn></math> (obok już wymienionego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>11</mn><mo>=</mo><mn>33</mn></math>).</p><p>Brakujące dzielniki to 21 i 77.</p>",
+    "check": "21 i 77"
+  },
+  "szkolny_2020_dolnoslaskie_q23": {
+    "html": "<p>Kąty α, β, γ leżą na prostej AD, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>+</mo><mi>β</mi><mo>+</mo><mi>γ</mi><mo>=</mo><mn>180</mn><mo>°</mo></math>. Dodając <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∠</mo><mi>AOC</mi><mo>=</mo><mi>α</mi><mo>+</mo><mi>β</mi><mo>=</mo><mn>122</mn><mo>°</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∠</mo><mi>BOD</mi><mo>=</mo><mi>β</mi><mo>+</mo><mi>γ</mi><mo>=</mo><mn>121</mn><mo>°</mo></math>, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>180</mn><mo>°</mo><mo>+</mo><mi>β</mi><mo>=</mo><mn>243</mn><mo>°</mo></math>, czyli β=63°.</p><p>Stąd α=122°−63°=59°, a γ=121°−63°=58°. Najmniejszy kąt to γ=58°, największy to β=63°.</p>",
+    "check": "najmniejszy kąt: 58, największy kąt: 63"
+  },
+  "szkolny_2020_dolnoslaskie_q24": {
+    "html": "<p>Pole BCP = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>4</mn><mo>·</mo><mn>9</mn><mo>=</mo><mn>18</mn></math> cm², pole APD = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>16</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>24</mn></math> cm² – różnica to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mo>−</mo><mn>18</mn><mo>=</mo><mn>6</mn></math> cm².</p><p>Pole ABP = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>16</mn><mo>·</mo><mn>9</mn><mo>=</mo><mn>72</mn></math> cm², pole CDP = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>4</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>6</mn></math> cm². Pole ABCD = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>18</mn><mo>+</mo><mn>24</mn><mo>+</mo><mn>72</mn><mo>+</mo><mn>6</mn><mo>=</mo><mn>120</mn></math> cm².</p><p>Udział ABP: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>72</mn><mo>:</mo><mn>120</mn><mo>=</mo><mn>60</mn><mo>%</mo></math>.</p>",
+    "check": "pole trójkąta BCP jest o 6 (cm²) mniejsze od pola APD; pole trójkąta ABP stanowi 60 procent pola ABCD"
+  },
+  "szkolny_2020_dolnoslaskie_q25": {
+    "html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>177</mn><mo>:</mo><mn>7</mn><mo>=</mo><mn>25</mn></math> reszty 2, więc powstaje 25 sześcianów, a zostaje kawałek o wymiarach 7 cm × 7 cm × 2 cm.</p><p>Pole powierzchni: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>7</mn><mo>·</mo><mn>7</mn><mo>+</mo><mn>4</mn><mo>·</mo><mn>7</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>98</mn><mo>+</mo><mn>56</mn><mo>=</mo><mn>154</mn></math> cm². Objętość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn><mo>·</mo><mn>7</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>98</mn></math> cm³.</p>",
+    "check": "pole powierzchni: 154 (cm²), objętość: 98 (cm³)"
+  }
+}
