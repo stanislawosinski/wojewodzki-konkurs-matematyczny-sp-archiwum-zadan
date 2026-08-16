@@ -9,15 +9,21 @@ the browser UI.
 ## Files & naming
 
 ```
+pdfs/<stage>/<name>.pdf                        # source papers (+ optional <name>_answers.pdf)
+data/
+  questions/<stage>_<name>.json                # source of truth, one per test
+  categories.json                              # topic catalog
+  solutions/ mental/ dups/ suspected_key_errors.tsv  # campaign sidecars (see dev/docs/)
 browser/
-  data/<stage>_<year>_<wojewodztwo>.json      # source of truth, one per test
-  figures/<question_id>_figN.png              # cropped bitmaps
+  figures/<question_id>_figN.png               # cropped bitmaps
   index.html app.css                           # the browser app (static, committed)
   facets.js defs.js render.js state.js app.js  # classic scripts, loaded in that order
-  build.mjs                                    # JSON -> data.<stage>.js/.json shards
+                                               # (generated catalog.js goes after facets.js)
+  build.mjs                                    # data/questions/*.json -> data.<stage>.js/.json shards
 ```
 
-`question_id = <stage>_<year>_<wojewodztwo>_q<number>` (globally unique).
+`question_id = <stage>_<name>_q<number>` (globally unique; `<name>` = the PDF basename,
+usually `<year>_<wojewodztwo>`).
 Source PDFs live under `pdfs/<stage>/`; `source_file` is that path relative to `pdfs/` — i.e. `<stage>/<name>.pdf`.
 
 ## Test object
@@ -87,9 +93,10 @@ Difficulty is **not** a field — `points` carries it (2p basic, 3p advanced her
 5. **Answer key** — read the paired `answers_file`. Keys are usually a table
    with an `X` under the correct column (A–E); map row→letter into
    `answer.correct`. If the key shows full solutions, put them in
-   `solution_html`; otherwise leave it `null`.
-6. **Verify** a few answers against the math before trusting the key mapping
-   (column alignment in `pdftotext` tables is easy to misread).
+   `solution_html`; otherwise leave it `null`. Verify a few answers against the
+   math before trusting the mapping (column alignment in `pdftotext` tables is
+   easy to misread). Key-reading pitfalls (corrupt image layers, per-file
+   quirks) and the batch recipe: `dev/docs/EXTRACTION_PLAYBOOK.md`.
 
 ## Build
 
