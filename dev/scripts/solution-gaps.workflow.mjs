@@ -1,12 +1,12 @@
 export const meta = {
   name: 'ai-solutions-gaps',
   description: 'Second pass over the questions the main solution campaign left unsolved (one agent per question, stronger model)',
-  phases: [{ title: 'Retry', detail: 'one agent per gap → dev/solutions/_gaps/<id>.json' }],
+  phases: [{ title: 'Retry', detail: 'one agent per gap → data/solutions/_gaps/<id>.json' }],
 }
 
 // args: { gaps:[{id, file, why}], dataDir, figDir, outDir, model }
 // Each agent writes its own one-entry file, so nothing can clobber the campaign's sidecars; the
-// merge back into dev/solutions/<file>.json is a separate deliberate step.
+// merge back into data/solutions/<file>.json is a separate deliberate step.
 const A = typeof args === 'string' ? JSON.parse(args) : (args || {})
 const { dataDir, figDir, outDir, model = 'opus' } = A
 if (!Array.isArray(A.gaps) || !A.gaps.length) throw new Error('args.gaps must be a non-empty array')

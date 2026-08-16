@@ -6,7 +6,7 @@ import { readdirSync, readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 
 const root = fileURLToPath(new URL('../..', import.meta.url));
-const data = root + 'browser/data/';
+const data = root + 'data/questions/';
 const figs = root + 'browser/figures/';
 const out = process.argv[2];
 if (!out) { console.error('usage: node make-blind.mjs <outDir> [basename ...]'); process.exit(1); }

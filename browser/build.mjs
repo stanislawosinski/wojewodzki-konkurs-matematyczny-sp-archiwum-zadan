@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import { createHash } from "node:crypto";
 
-// Preprocess data/*.json into per-stage shards for the browser app:
+// Preprocess ../data/questions/*.json into per-stage shards for the browser app:
 //   data.<stage>.js    - script-tag loadable (file:// protocol)
 //   data.<stage>.json  - fetch()-able (http/https)
 // Usage: node build.mjs   (cwd doesn't matter)
@@ -14,17 +14,17 @@ const gz = s =>
   `${(s.length / 1024).toFixed(0)} KB (${(gzipSync(s).length / 1024).toFixed(0)} KB gzip)`;
 
 const here = fileURLToPath(new URL(".", import.meta.url));
-const dataDir = fileURLToPath(new URL("data/", import.meta.url));
+const dataDir = fileURLToPath(new URL("../data/questions/", import.meta.url));
 const STAGES = ["szkolny", "rejonowy", "wojewodzki"];
 
 const byStage = Object.fromEntries(STAGES.map(s => [s, []]));
 const seenId = new Map(),
   seenHash = new Map();
 
-// The repo-root categories.json is the single source of truth: it validates every question's tags
+// data/categories.json is the single source of truth: it validates every question's tags
 // (below) AND drives the browser's topic sidebar via the emitted catalog.js (near the shard writes).
 const CATEGORIES = JSON.parse(
-  readFileSync(fileURLToPath(new URL("../categories.json", import.meta.url)), "utf8")
+  readFileSync(fileURLToPath(new URL("../data/categories.json", import.meta.url)), "utf8")
 ).categories;
 const LEAVES = new Set(CATEGORIES.flatMap(c => c.leaves.map(l => l.name))); // catches typos in exact-match tags
 const badTopics = [];
@@ -32,9 +32,9 @@ const badTopics = [];
 // questions flagged in suspected_key_errors.tsv get `suspect: true` + `suspect_reason` + `suspect_verdict`.
 // col 0 = sha1(id)[:8] hash; col 3 = English maintainer note; col 4 = reason_pl (Polish text the browser
 // shows; blank → generic badge); col 5 = verdict (KEY_WRONG / KEY_CORRECT / SOLUTION_WRONG) driving the
-// badge label & colour. File lives at repo root.
+// badge label & colour. File lives in data/.
 const suspects = new Map(
-  readFileSync(fileURLToPath(new URL("../suspected_key_errors.tsv", import.meta.url)), "utf8")
+  readFileSync(fileURLToPath(new URL("../data/suspected_key_errors.tsv", import.meta.url)), "utf8")
     .trim()
     .split("\n")
     .slice(1)
@@ -42,14 +42,14 @@ const suspects = new Map(
     .map(c => [c[0], { reason: c[4], verdict: c[5] }])
 );
 
-// dev/mental/<data file>.json: the "W pamięci" campaign's sidecars, {id: {level, hint}} for the
+// data/mental/<data file>.json: the "W pamięci" campaign's sidecars, {id: {level, hint}} for the
 // questions an Opus pass judged solvable without pencil and paper — one sidecar per data file,
 // flagged questions only. Merged here into `mental`/`mental_hint` per question; the browser's
 // pamiec facet and the 🧠/💡 marker read them. Missing dir → the facet is simply empty.
 const mental = {};
 const badMental = [];
 try {
-  const mentalDir = fileURLToPath(new URL("../dev/mental/", import.meta.url));
+  const mentalDir = fileURLToPath(new URL("../data/mental/", import.meta.url));
   for (const f of readdirSync(mentalDir).filter(f => f.endsWith(".json"))) {
     for (const [id, v] of Object.entries(JSON.parse(readFileSync(mentalDir + f, "utf8")))) {
       if (v.level !== "wprost" && v.level !== "pomysl") {
@@ -69,13 +69,13 @@ if (badMental.length) {
   process.exit(1);
 }
 
-// dev/solutions/<data file>.json: the AI-solutions campaign's sidecars, {id: {html, check}} for
+// data/solutions/<data file>.json: the AI-solutions campaign's sidecars, {id: {html, check}} for
 // keyed questions the organiser left without a derivation — one sidecar per data file. Merged here
 // into `sol_ai`; `check` is the campaign's own validation (dev/scripts/check-solutions.mjs) and
 // stays out of the shards. An entry that would shadow a real derivation is dropped, not printed.
 const solutions = {};
 try {
-  const solDir = fileURLToPath(new URL("../dev/solutions/", import.meta.url));
+  const solDir = fileURLToPath(new URL("../data/solutions/", import.meta.url));
   for (const f of readdirSync(solDir).filter(f => f.endsWith(".json"))) {
     for (const [id, v] of Object.entries(JSON.parse(readFileSync(solDir + f, "utf8")))) {
       solutions[id] = v.html;
@@ -148,10 +148,10 @@ for (const f of readdirSync(dataDir)
             ...(suspects.get(hash).verdict && { suspect_verdict: suspects.get(hash).verdict })
           }
         : {}), // flagged in suspected_key_errors.tsv
-      ...(mental[q.id] ? { mental: mental[q.id].level, mental_hint: mental[q.id].hint } : {}), // judged solvable in your head (dev/mental sidecars)
+      ...(mental[q.id] ? { mental: mental[q.id].level, mental_hint: mental[q.id].hint } : {}), // judged solvable in your head (data/mental sidecars)
       ...(solutions[q.id] && !q.answer?.solution_html && !q.answer?.model?.solution_html
         ? { sol_ai: solutions[q.id] }
-        : {}), // AI-written derivation where no other one exists (dev/solutions sidecars)
+        : {}), // AI-written derivation where no other one exists (data/solutions sidecars)
       topics: q.topics,
       prompt_html: q.prompt_html,
       choices: q.choices,
@@ -187,7 +187,7 @@ if (badTopics.length) {
 //   digit-blind key → `sim`, the ~N chip (the same problem with different numbers)
 // Figure-bearing questions (incl. inline <img> in prompt/choices) are excluded from both:
 // the text can match while the figure differs (the śląskie grid puzzles). Precision over
-// recall — verified figure pairs and rewordings come in via dev/dups/near-dups.tsv below.
+// recall — verified figure pairs and rewordings come in via data/dups/near-dups.tsv below.
 // Every member gets the full cluster (self included, corpus order); singletons get nothing.
 const dupText = h =>
   (h || "")
@@ -200,12 +200,12 @@ const dupText = h =>
 const allQ = STAGES.flatMap(s => byStage[s]);
 const qById = new Map(allQ.map(q => [q.id, q]));
 
-// dev/dups/near-dups.tsv: eyeballed/LLM-judged verdicts for similar pairs the text keys
-// can't decide — figure pairs and rewordings (see dev/dups/README.md). SAME pairs merge
+// data/dups/near-dups.tsv: eyeballed/LLM-judged verdicts for similar pairs the text keys
+// can't decide — figure pairs and rewordings (see data/dups/README.md). SAME pairs merge
 // into `dup`, VARIANT into `sim`; DIFFERENT rows just record that the pair was checked.
 const verdictPairs = { SAME: [], VARIANT: [], DIFFERENT: [] };
 for (const l of readFileSync(
-  fileURLToPath(new URL("../dev/dups/near-dups.tsv", import.meta.url)),
+  fileURLToPath(new URL("../data/dups/near-dups.tsv", import.meta.url)),
   "utf8"
 )
   .trim()

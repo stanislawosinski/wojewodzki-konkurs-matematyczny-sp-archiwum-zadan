@@ -1,17 +1,17 @@
 #!/usr/bin/env node
-// Apply retag sidecars ({id:[leaves]}) onto browser/data/*.json, patching ONLY each
+// Apply retag sidecars ({id:[leaves]}) onto data/questions/*.json, patching ONLY each
 // question's "topics" array in place (clean diffs). Validates every leaf against
 // categories.json. Usage: node apply-tags.mjs <tagsDir> [basename ...]   (no basenames = every sidecar present)
 import { readdirSync, readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 
 const root = fileURLToPath(new URL('../..', import.meta.url));
-const dataDir = root + 'browser/data/';
+const dataDir = root + 'data/questions/';
 const tagsDir = process.argv[2];
 if (!tagsDir) { console.error('usage: node apply-tags.mjs <tagsDir> [basename ...]'); process.exit(1); }
 
 const LEAVES = new Set(
-  JSON.parse(readFileSync(root + 'categories.json', 'utf8')).categories.flatMap(c => c.leaves.map(l => l.name)),
+  JSON.parse(readFileSync(root + 'data/categories.json', 'utf8')).categories.flatMap(c => c.leaves.map(l => l.name)),
 );
 const GENERIC = new Set(['inne', 'geometria', 'bryły']);
 

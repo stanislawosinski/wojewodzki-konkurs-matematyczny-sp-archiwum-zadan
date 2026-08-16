@@ -1,13 +1,13 @@
 // Tier-2 adjudication: 3-way compare key vs sonnet vs opus over the contested subset.
 // Opus solved blind (never saw key or sonnet) -> independent third vote.
-// Reads: browser/data (key,type,sonnet=model.answer,prompt), solved/ (sonnet conf/why),
+// Reads: data/questions (key,type,sonnet=model.answer,prompt), solved/ (sonnet conf/why),
 //        solved-opus/ (opus answer/conf/why), contested.json.
 // Emits: tier2-report.md + tier2-verdicts.tsv. Mutates NO data (human decides key changes).
 import { readdirSync, readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 
 const SP = process.argv[2], root = process.argv[3];
-const dataDir = root + '/browser/data/', sonDir = SP + '/solved/', opDir = SP + '/solved-opus/';
+const dataDir = root + '/data/questions/', sonDir = SP + '/solved/', opDir = SP + '/solved-opus/';
 const contested = JSON.parse(readFileSync(SP + '/contested.json', 'utf8'));
 
 const hash = id => createHash('sha1').update(id).digest('hex').slice(0, 8);

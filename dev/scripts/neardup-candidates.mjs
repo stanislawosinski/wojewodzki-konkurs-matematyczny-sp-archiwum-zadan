@@ -2,12 +2,12 @@
 // Emit near-duplicate candidate pairs as NDJSON on stdout (count on stderr) for the
 // neardup campaign: token-Jaccard ≥ 0.5 over normalized prompt+choices text, minus pairs
 // browser/build.mjs already clusters deterministically (exact or digit-blind key,
-// non-figure pairs only) and minus pairs already judged in dev/dups/near-dups.tsv
-// (any verdict) — so a re-run emits only the unjudged remainder. See dev/dups/README.md.
+// non-figure pairs only) and minus pairs already judged in data/dups/near-dups.tsv
+// (any verdict) — so a re-run emits only the unjudged remainder. See data/dups/README.md.
 import { readdirSync, readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 
-const dataDir = fileURLToPath(new URL("../../browser/data/", import.meta.url));
+const dataDir = fileURLToPath(new URL("../../data/questions/", import.meta.url));
 
 // keep in sync with dupText in browser/build.mjs
 const dupText = h =>
@@ -47,7 +47,7 @@ for (const f of readdirSync(dataDir).filter(f => f.endsWith(".json")).sort()) {
 
 const judged = new Set();
 try {
-  const tsv = readFileSync(fileURLToPath(new URL("../dups/near-dups.tsv", import.meta.url)), "utf8");
+  const tsv = readFileSync(fileURLToPath(new URL("../../data/dups/near-dups.tsv", import.meta.url)), "utf8");
   for (const l of tsv.trim().split("\n").slice(1)) {
     const [a, b] = l.split("\t");
     judged.add(`${a}|${b}`);

@@ -8,10 +8,10 @@ All three stages are extracted (433 files / 7632 questions, 2026-07); this recip
 for future papers. Stages share layout — just swap the prefix everywhere:
 `pdfs/szkolny/` · `pdfs/rejonowy/` · `pdfs/wojewodzki/`.
 Each `pdfs/<stage>/` holds `<name>.pdf` question papers + optional `<name>_answers.pdf`
-keys. Outputs: `browser/data/<stage>_<name>.json` + `browser/figures/<stage>_<name>_q<n>_figN.png`.
+keys. Outputs: `data/questions/<stage>_<name>.json` + `browser/figures/<stage>_<name>_q<n>_figN.png`.
 
 > **Layout (restructured for GitHub 2026-07-23):** source PDFs live under `pdfs/<stage>/`;
-> extraction outputs under `browser/data/` + `browser/figures/`; generator `browser/build.py`.
+> extraction outputs under `data/questions/` + `browser/figures/`; generator `browser/build.py`.
 > JSON `source_file`/`answers_file` stay `<stage>/<name>.pdf` (read as relative to `pdfs/`).
 
 ## Per-batch loop (what the orchestrator does)
@@ -24,7 +24,7 @@ keys. Outputs: `browser/data/<stage>_<name>.json` + `browser/figures/<stage>_<na
        [ -e "pdfs/<stage>/${yr}_slaskie.pdf" ] && \
          [ "$(md5 -q pdfs/<stage>/$b.pdf)" = "$(md5 -q pdfs/<stage>/${yr}_slaskie.pdf)" ] && continue;;
      esac
-     [ -e "browser/data/<stage>_${b}.json" ] || echo "$b"; done | head -12 | while read b; do
+     [ -e "data/questions/<stage>_${b}.json" ] || echo "$b"; done | head -12 | while read b; do
        [ -e "pdfs/<stage>/${b}_answers.pdf" ] && echo "$b -> has answers" || echo "$b -> NO ANSWERS PDF"; done
    ```
 2. **Launch one Opus agent per file** (Agent tool, `subagent_type: general-purpose`,
@@ -32,7 +32,7 @@ keys. Outputs: `browser/data/<stage>_<name>.json` + `browser/figures/<stage>_<na
    Use the template below. Inject the per-file special-case notes that apply.
 3. **Collect reports.** If an agent dies mid-run (API "Connection closed"), its transcript
    is usually already gone → **relaunch fresh** (SendMessage resume fails with "No transcript
-   found"). Check `browser/data/<stage>_<name>.json` exists first; agents often die right
+   found"). Check `data/questions/<stage>_<name>.json` exists first; agents often die right
    before the Write.
 4. **Validate the whole corpus** (script below): dup ids, invalid JSON, points!=max,
    missing/orphan figures, missing school_type.
@@ -58,7 +58,7 @@ FILE TO PROCESS:
 - Source question PDF (read here): pdfs/<STAGE>/<filebase>.pdf
 - Answers PDF (read here): pdfs/<STAGE>/<filebase>_answers.pdf   (or: NONE — see per-file note)
 - In the JSON, write source_file/answers_file WITHOUT the pdfs/ prefix (e.g. "<STAGE>/<filebase>.pdf") — SCHEMA.md's pdfs/-relative convention.
-- Output JSON path: browser/data/<NAME>.json
+- Output JSON path: data/questions/<NAME>.json
 - id prefix for each question: <NAME>_q<n>
 
 STEPS:
@@ -66,8 +66,8 @@ STEPS:
    field goes right after `competition` ("podstawowa" unless the printed title says
    "gimnazjalnych" -> "gimnazjum").
 2. Read two example JSONs to match shape/style:
-   - browser/data/szkolny_2026_podkarpackie.json (open + figures + solutions)
-   - browser/data/szkolny_2025-2026_swietokrzyskie.json (closed + true/false + open)
+   - data/questions/szkolny_2026_podkarpackie.json (open + figures + solutions)
+   - data/questions/szkolny_2025-2026_swietokrzyskie.json (closed + true/false + open)
 3. Read the SOURCE PDF PAGE IMAGES for every question — the text layer drops
    exponents/roots/superscripts, so read the rendered pages for anything mathematical:
    pdftoppm -png -r 200 <SRC> <SCRATCH>/<NAME>_pg   then Read the PNGs.
@@ -93,11 +93,11 @@ STEPS:
    `"annulled": true` to the question object (SCHEMA.md; omit the field on all other questions).
    Two cases: (a) the paper still PRINTS the question -> keep the real question text + an italic
    annulment note; (b) the paper REPLACED the question with only the notice -> keep just the notice.
-9. Validate: python3 -c "import json;json.load(open('browser/data/<NAME>.json'));print('ok')"
+9. Validate: python3 -c "import json;json.load(open('data/questions/<NAME>.json'));print('ok')"
    and confirm per-question points sum to the stated max where the PDF states one.
 
 CONSTRAINTS:
-- Write ONLY browser/data/<NAME>.json and browser/figures/<NAME>_*.png. Do NOT build HTML (do NOT
+- Write ONLY data/questions/<NAME>.json and browser/figures/<NAME>_*.png. Do NOT build HTML (do NOT
   run build.py). Do NOT touch any other file.
 - All scratch/intermediate files go under <SCRATCH>, prefixed <NAME>.
 - If the answers PDF is missing/unreadable, set answers_file accordingly and answer.correct null.
@@ -123,7 +123,7 @@ Report: #questions, #figures, whether a key was found, points-sum vs max, and an
     answers_file null, all correct null.
 - **pomorskie** bundles a multi-part "Zadanie N" (sub-items N.1–N.k, each single-choice) into ONE
   `closed_single`: sub-items in prompt_html, `choices: []`, combined `answer.correct` (e.g.
-  "9.1 – C, 9.2 – D, …"). Match browser/data/szkolny_2024-2025_pomorskie.json. Do NOT split into
+  "9.1 – C, 9.2 – D, …"). Match data/questions/szkolny_2024-2025_pomorskie.json. Do NOT split into
   separate questions. (One legacy outlier, szkolny_2020-2021_pomorskie, WAS split — leave it.)
 - **mazowieckie** uses "combined-choice" items: "T/N + uzasadnienie A/B/C", or "A-or-B plus
   C-or-D", or "wybierz wszystkie". Model each as ONE `closed_single` with all sub-choices and
@@ -141,7 +141,7 @@ Report: #questions, #figures, whether a key was found, points-sum vs max, and an
 python3 - <<'PY'
 import json, glob, os, collections
 ids=collections.Counter(); missing=[]; bad=[]; ptsbad=[]; refd=set(); notype=[]
-for fp in sorted(glob.glob('browser/data/*.json')):
+for fp in sorted(glob.glob('data/questions/*.json')):
     try: d=json.load(open(fp))
     except Exception as e: bad.append((fp,str(e))); continue
     if 'school_type' not in d: notype.append(os.path.basename(fp))
@@ -156,7 +156,7 @@ for fp in sorted(glob.glob('browser/data/*.json')):
             if not any(os.path.exists(x) for x in [os.path.join('browser/figures',b), os.path.join('output',p), p]):
                 missing.append((os.path.basename(fp),b))
 ondisk=set(os.path.basename(x) for x in glob.glob('browser/figures/*.png'))
-print("files",len([1 for _ in glob.glob('browser/data/*.json')]),"| questions",sum(ids.values()))
+print("files",len([1 for _ in glob.glob('data/questions/*.json')]),"| questions",sum(ids.values()))
 print("dup ids:",[i for i,c in ids.items() if c>1 and i] or "none")
 print("invalid:",bad or "none"); print("points!=max:",ptsbad or "none")
 print("missing figs:",missing or "none"); print("orphan figs:",sorted(ondisk-refd) or "none")
@@ -169,15 +169,15 @@ PY
 python3 -c "import hashlib,sys;print(hashlib.sha1(sys.argv[1].encode()).hexdigest()[:8])" <id>
 ```
 
-**Anulowano scan:** `grep -l anulowan browser/data/<stage>_*.json`
+**Anulowano scan:** `grep -l anulowan data/questions/<stage>_*.json`
 
 ## The generator (browser/build.mjs)
 
 `cd browser && node build.mjs` regenerates the data shards (`data.*.js` /
-`data.*.json`) + `catalog.js` from `browser/data/*.json`. It fails on unknown topic
+`data.*.json`) + `catalog.js` from `data/questions/*.json`. It fails on unknown topic
 tags (vs `categories.json`), derives the `suspect` fields from
 `suspected_key_errors.tsv` and the `mental`/`mental_hint` fields from the
-`dev/mental/` sidecars. `school_type` is a stored convenience copy derived from
+`data/mental/` sidecars. `school_type` is a stored convenience copy derived from
 the `competition` string (gimnazjum if it contains "gimnaz", else podstawowa).
 
 ## Follow-up passes (each run once over the whole corpus; re-run for new papers)
@@ -188,5 +188,5 @@ the `competition` string (gimnazjum if it contains "gimnaz", else podstawowa).
   **FIGURE_REDRAW.md**; campaign registries stay in `dev/figures/`.
 - **"W pamięci" judgements** — one Opus agent per test solves every question and rules
   whether it is head-solvable (`wprost` / `pomysl`) with a Polish hint → sidecars in
-  `dev/mental/`, merged into `mental`/`mental_hint`. Recipe + resume: `dev/mental/README.md`;
+  `data/mental/`, merged into `mental`/`mental_hint`. Recipe + resume: `data/mental/README.md`;
   workflow: `dev/scripts/mental.workflow.mjs`.

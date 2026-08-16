@@ -1,13 +1,13 @@
 #!/usr/bin/env node
-// Validate the AI-solution sidecars in dev/solutions/ against browser/data/ before they are
+// Validate the AI-solution sidecars in data/solutions/ against data/questions/ before they are
 // merged by build.mjs: scope, key agreement (the campaign's whole safety net), HTML hygiene,
-// coverage. Read-only. Writes dev/solutions/_check.tsv and exits 1 on any ERROR row.
+// coverage. Read-only. Writes data/solutions/_check.tsv and exits 1 on any ERROR row.
 // Usage: node check-solutions.mjs [basename ...]   (default: every sidecar present)
 import { readdirSync, readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 
 const root = fileURLToPath(new URL('../..', import.meta.url));
-const dataDir = root + 'browser/data/', sideDir = root + 'dev/solutions/';
+const dataDir = root + 'data/questions/', sideDir = root + 'data/solutions/';
 const only = process.argv.slice(2).map(f => f.endsWith('.json') ? f : f + '.json');
 const files = only.length ? only : readdirSync(sideDir).filter(f => f.endsWith('.json'));
 

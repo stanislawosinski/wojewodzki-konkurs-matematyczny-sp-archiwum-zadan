@@ -6,7 +6,7 @@
 // Usage: node scripts/apply-corroboration.mjs <scratchpad> <repo-root>
 import { readFileSync, writeFileSync } from 'node:fs';
 const SP = process.argv[2], root = process.argv[3];
-const dataDir = root + '/browser/data/', opDir = SP + '/solved-opus/';
+const dataDir = root + '/data/questions/', opDir = SP + '/solved-opus/';
 
 const byFile = {};                                   // file -> Map(id -> verdict)
 for (const line of readFileSync(SP + '/tier2-verdicts.tsv', 'utf8').trim().split('\n').slice(1)) {

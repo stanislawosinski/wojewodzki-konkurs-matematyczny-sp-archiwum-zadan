@@ -13,7 +13,7 @@ import { fileURLToPath } from 'node:url';
 
 const SP = process.argv[2], write = process.argv.includes('--write');
 if (!SP) { console.error('usage: node apply-opus-recheck.mjs <scratchpad-dir> [--write]'); process.exit(1); }
-const dataDir = fileURLToPath(new URL('../../browser/data/', import.meta.url));
+const dataDir = fileURLToPath(new URL('../../data/questions/', import.meta.url));
 
 const targets = new Map(JSON.parse(readFileSync(SP + '/targets.json', 'utf8')).map(t => [t.id, t.why]));
 const opus = {};

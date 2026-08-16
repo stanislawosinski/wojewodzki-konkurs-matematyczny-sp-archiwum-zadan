@@ -10,7 +10,7 @@
 import { readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 
-const dataDir = fileURLToPath(new URL('../../browser/data/', import.meta.url));
+const dataDir = fileURLToPath(new URL('../../data/questions/', import.meta.url));
 const write = process.argv.includes('--write');
 
 // -> true | null (new agrees value) | undefined (leave alone: a genuine disagreement)

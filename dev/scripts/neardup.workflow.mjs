@@ -1,11 +1,11 @@
 export const meta = {
   name: 'neardup',
-  description: 'Judge near-duplicate candidate pairs (SAME / VARIANT / DIFFERENT) → rows for dev/dups/near-dups.tsv (judge only; writes nothing)',
+  description: 'Judge near-duplicate candidate pairs (SAME / VARIANT / DIFFERENT) → rows for data/dups/near-dups.tsv (judge only; writes nothing)',
   phases: [{ title: 'Judge', detail: 'one agent per batch of candidate pairs' }],
 }
 
 // args: { batches:[{file,n}], repoRoot, model }  — batch files come from
-// dev/scripts/neardup-candidates.mjs output split into JSON arrays (see dev/dups/README.md).
+// dev/scripts/neardup-candidates.mjs output split into JSON arrays (see data/dups/README.md).
 // Resumable for free: candidates already in near-dups.tsv are not emitted again.
 const A = typeof args === 'string' ? JSON.parse(args) : (args || {})
 const { batches, repoRoot, model = 'sonnet' } = A

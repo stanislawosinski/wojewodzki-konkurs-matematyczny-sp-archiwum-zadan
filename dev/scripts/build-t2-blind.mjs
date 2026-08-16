@@ -3,7 +3,7 @@
 import { readdirSync, readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 const SP = process.argv[2], root = process.argv[3];
 const contested = JSON.parse(readFileSync(SP + '/contested.json', 'utf8'));
-const data = root + '/browser/data/', figs = root + '/browser/figures/';
+const data = root + '/data/questions/', figs = root + '/browser/figures/';
 const out = SP + '/blind-t2'; mkdirSync(out, { recursive: true });
 let papers = 0, q = 0;
 for (const [f, ids] of Object.entries(contested)) {

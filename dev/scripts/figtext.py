@@ -55,7 +55,7 @@ def qindex():
     easily mistaken for figure labels.
     """
     out, corpus = {}, collections.defaultdict(list)
-    for fp in sorted(glob.glob(os.path.join(REPO, 'browser/data/*.json'))):
+    for fp in sorted(glob.glob(os.path.join(REPO, 'data/questions/*.json'))):
         d = json.load(open(fp))
         for q in d['questions']:
             for f in (q.get('figures') or []):

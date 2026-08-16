@@ -23,7 +23,7 @@ With figure names on the command line, only those are included and the sheet
 goes to dev/figures/figure-subset-review.html instead — for reviewing one batch of
 revisions without regenerating (and reloading) all 344.
 
-Needs browser/data.*.json — run `node browser/build.mjs` first.
+Needs data/questions.*.json — run `node browser/build.mjs` first.
 """
 import os, sys, glob, html, json
 import cv2

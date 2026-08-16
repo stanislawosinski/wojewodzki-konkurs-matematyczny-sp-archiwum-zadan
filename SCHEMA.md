@@ -1,6 +1,6 @@
 # Konkurs Matematyczny — extraction schema & procedure
 
-One agent parses **one test file** into one JSON under `browser/data/`. The browser
+One agent parses **one test file** into one JSON under `data/questions/`. The browser
 (`browser/index.html`, a static app) renders client-side from data shards generated
 by `browser/build.mjs` — never hand-edit the shards. Extraction (hard, agent) and
 assembly (trivial, `node build.mjs`) are kept separate; topic sets are a filter in
@@ -55,7 +55,7 @@ Source PDFs live under `pdfs/<stage>/`; `source_file` is that path relative to `
 
 ### Topic catalog
 
-The catalog is the machine-readable **[`categories.json`](categories.json)** at repo root —
+The catalog is the machine-readable **[`categories.json`](data/categories.json)** in `data/` —
 categories → leaves, each leaf with a one-line `desc`. Tag questions with the exact leaf
 `name` strings (most-specific first); category headings are for filtering only, derive them
 from the leaf and never store them. A `cross_cutting` leaf combines with a content leaf,

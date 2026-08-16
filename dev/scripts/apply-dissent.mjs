@@ -9,7 +9,7 @@
 // Surgical: inserts one "dissent" field as the first key of each target model block. Idempotent.
 // Usage: node apply-dissent.mjs <scratchpad-dir> <repo-root>
 import { readdirSync, readFileSync, writeFileSync, existsSync } from 'node:fs';
-const SP = process.argv[2], root = process.argv[3], dataDir = root + '/browser/data/';
+const SP = process.argv[2], root = process.argv[3], dataDir = root + '/data/questions/';
 
 // --- Opus answers (+ reasoning), id -> {answer, solution_html}, from both solve output dirs ---
 const opus = {};

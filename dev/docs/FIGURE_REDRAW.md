@@ -463,7 +463,7 @@ clip-art is what the source PDFs embed at low resolution.
 
 > Revise the vector redraw `browser/figures/svg/<NAME>.svg` of the bitmap
 > `browser/figures/<NAME>.png`. Question text: <PASTE, or look it up by hash in
-> `browser/data/*.json`>. Reported problem: <WHAT TO FIX>.
+> `data/questions/*.json`>. Reported problem: <WHAT TO FIX>.
 >
 > Read `FIGURE_REDRAW.md` first — the MuPDF quirks and the "common errors"
 > section are why most redraws are wrong.

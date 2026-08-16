@@ -34,18 +34,18 @@ heavy lifting, in this order:
 7. **Mental-math pass** — every question re-solved once more, this time to rule whether a pupil
    could finish it with nothing written down, in two tiers (*od ręki* / *z pomysłem*) plus a Polish
    one-line hint naming the move to start with. Drives the *W pamięci* filter and the 🧠 / 💡
-   markers; judgements live in `dev/mental/` and are merged into the shards at build time (see
-   [`dev/mental/README.md`](dev/mental/README.md)).
+   markers; judgements live in `data/mental/` and are merged into the shards at build time (see
+   [`data/mental/README.md`](data/mental/README.md)).
 8. **Duplicate pass** — the same questions resurface across years and voivodeships. Exact reprints
    and number-swapped variants are caught by deterministic text keys at build time; lexically
    similar leftovers (including figure pairs, compared picture against picture) were judged by a
-   model and reviewed (see [`dev/dups/README.md`](dev/dups/README.md)). Drives the ×N / ~N chips
+   model and reviewed (see [`data/dups/README.md`](data/dups/README.md)). Drives the ×N / ~N chips
    next to affected questions.
 9. **Solution pass** — two thirds of the keyed questions come with a bare letter and nothing else:
    the organisers published a derivation for only 2080 of them. Every such question was solved once
    more, this time to write the path down in Polish, with the printed key acting as the check on
-   the result. 4847 derivations live in `dev/solutions/` and are merged into the shards at build
-   time (see [`dev/solutions/README.md`](dev/solutions/README.md)); they are labelled *Rozwiązanie
+   the result. 4847 derivations live in `data/solutions/` and are merged into the shards at build
+   time (see [`data/solutions/README.md`](data/solutions/README.md)); they are labelled *Rozwiązanie
    AI* wherever they appear.
 
 Humans set the conventions, reviewed the redrawn figures, spot-checked questions, and made the
@@ -59,7 +59,7 @@ structural decisions. The full reproducible procedure is preserved in
   tiers (see [`dev/docs/VERIFICATION.md`](dev/docs/VERIFICATION.md)). Keyless questions carry a
   corroborated AI answer instead, clearly marked as such in the browser.
 - **Suspected answer-key errors** are logged in
-  [`suspected_key_errors.tsv`](suspected_key_errors.tsv) (38 reviewed: 6 wrong keys,
+  [`suspected_key_errors.tsv`](data/suspected_key_errors.tsv) (38 reviewed: 6 wrong keys,
   1 wrong official solution, the rest confirmed correct).
 - The derivations marked ***Rozwiązanie AI* were written by a model**, not by the organisers. Each
   one had to land on the printed key to be kept — and none of the 4847 disagrees with it — but the
@@ -106,27 +106,27 @@ is the short path from "I need twenty questions on the Pythagorean theorem" to a
 
 For the questions the UI cannot express — "percentages combined with geometry", "tasks whose
 solution needs a proof", "everything a given voivodeship asked twice" — point an agent (Claude Code
-or similar) at `browser/data/*.json` and let it query with `jq`. One JSON per test, schema in
+or similar) at `data/questions/*.json` and let it query with `jq`. One JSON per test, schema in
 [`SCHEMA.md`](SCHEMA.md):
 
 ```sh
 # 3+ point Pythagoras questions from the provincial stage
 jq -r 'select(.stage=="wojewodzki") | .wojewodztwo as $w | .school_year as $y | .questions[]
        | select(.topics|index("twierdzenie Pitagorasa")) | select(.points>=3)
-       | "\(.id)\t\(.points)p\t\($w) \($y)"' browser/data/*.json
+       | "\(.id)\t\(.points)p\t\($w) \($y)"' data/questions/*.json
 
 # which topics come up most often?
-jq -r '.questions[].topics[]' browser/data/*.json | sort | uniq -c | sort -rn | head
+jq -r '.questions[].topics[]' data/questions/*.json | sort | uniq -c | sort -rn | head
 
 # open questions that ship a worked solution
-jq -r '.questions[] | select(.type=="open" and .answer.solution_html != null) | .id' browser/data/*.json
+jq -r '.questions[] | select(.type=="open" and .answer.solution_html != null) | .id' data/questions/*.json
 ```
 
 The two halves meet at the id: the browser's short id is `sha1(question.id)[:8]`, so an agent can
 hand its results straight over for printing —
 
 ```sh
-jq -r '.questions[] | select(.topics|index("twierdzenie Pitagorasa")) | .id' browser/data/*.json |
+jq -r '.questions[] | select(.topics|index("twierdzenie Pitagorasa")) | .id' data/questions/*.json |
   while read -r id; do printf '%s' "$id" | shasum | cut -c1-8; done | paste -sd, -
 ```
 
@@ -138,18 +138,21 @@ Paste that comma-separated list into *Pokaż tylko id*, then print.
 konkurs-mat/
   README.md  LICENSE
   SCHEMA.md               # JSON spec + extraction procedure + topic catalog
-  suspected_key_errors.tsv
+  data/
+    questions/ *.json     # source of truth — one structured JSON per test
+    categories.json       # topic catalog: categories → leaves
+    suspected_key_errors.tsv
+    mental/    *.json     # "W pamięci" judgements, one sidecar per test; merged by build.mjs
+    solutions/ *.json     # AI-written derivations, one sidecar per test; merged by build.mjs
+    dups/                 # near-duplicate verdicts (near-dups.tsv); merged by build.mjs
   dev/
     docs/                 # playbooks: EXTRACTION_PLAYBOOK.md, VERIFICATION.md, FIGURE_REDRAW.md + SOURCES.md
     scripts/              # one-off pipeline & verification tools
     reports/              # point-in-time reviews (full verification reports live in git history)
     figures/              # figure redraw/contradiction campaign artifacts + review sheets
-    mental/   *.json      # "W pamięci" judgements, one sidecar per test; merged by build.mjs
-    solutions/ *.json     # AI-written derivations, one sidecar per test; merged by build.mjs
   pdfs/
     szkolny/  rejonowy/  wojewodzki/   # source PDFs: <year>_<wojewodztwo>[_sp|_gim][_answers].pdf
   browser/
-    data/     *.json      # source of truth — one structured JSON per test
     figures/  *.png       # cropped question figures
     index.html app.css    # the browser app (static, committed)
     facets.js defs.js render.js state.js app.js   # classic scripts, loaded in that order
@@ -159,7 +162,7 @@ konkurs-mat/
 
 ## The data
 
-Everything of value is in `browser/data/` — one JSON per test, the **source of truth**. Full spec
+Everything of value is in `data/questions/` — one JSON per test, the **source of truth**. Full spec
 in [`SCHEMA.md`](SCHEMA.md); in brief, each question object carries:
 
 `id`, `number`, `page`, `type` (`closed_single` | `open` | `true_false`), `points`, `topics`

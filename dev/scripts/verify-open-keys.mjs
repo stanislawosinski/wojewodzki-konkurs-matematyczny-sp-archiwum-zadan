@@ -6,7 +6,7 @@
 import { readdirSync, readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 const SP = process.argv[2], root = process.argv[3];
-const dataDir = root + '/browser/data/', sonDir = SP + '/solved/';
+const dataDir = root + '/data/questions/', sonDir = SP + '/solved/';
 const hash = id => createHash('sha1').update(id).digest('hex').slice(0, 8);
 
 // --- text/number equivalence (copied from adjudicate-t2.mjs) ---

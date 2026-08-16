@@ -12,12 +12,12 @@ import { readdirSync, readFileSync, writeFileSync, mkdirSync, existsSync } from 
 import { fileURLToPath } from 'node:url';
 
 const root = fileURLToPath(new URL('../..', import.meta.url));
-const dataDir = root + 'browser/data/';
+const dataDir = root + 'data/questions/';
 const pngDir = root + 'browser/figures/';
 const svgDir = root + 'browser/figures/svg/';
 const BATCH = 35;
 
-const CAT = JSON.parse(readFileSync(root + 'categories.json', 'utf8'));
+const CAT = JSON.parse(readFileSync(root + 'data/categories.json', 'utf8'));
 const LEAVES = new Set(CAT.categories.flatMap(c => c.leaves.map(l => l.name)));
 const has = (q, t) => (q.topics || []).includes(t);
 

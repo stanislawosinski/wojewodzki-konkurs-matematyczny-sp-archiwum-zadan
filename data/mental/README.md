@@ -1,6 +1,6 @@
 # Kampania "W pamięci" — sidecary
 
-Jeden plik na arkusz, tak samo nazwany jak `browser/data/<plik>.json`. Zawartość: tylko
+Jeden plik na arkusz, tak samo nazwany jak `data/questions/<plik>.json`. Zawartość: tylko
 zadania oflagowane jako możliwe do rozwiązania w pamięci.
 
 ```json
@@ -35,11 +35,11 @@ pliku — bez stanu w pamięci sesji. Policz brakujące i podaj je jako `args.fi
 ```sh
 python3 -c "
 import os,glob,json
-todo = {os.path.basename(f)[:-5] for f in glob.glob('browser/data/*.json')} \
-     - {os.path.basename(f)[:-5] for f in glob.glob('dev/mental/*.json')}
+todo = {os.path.basename(f)[:-5] for f in glob.glob('data/questions/*.json')} \
+     - {os.path.basename(f)[:-5] for f in glob.glob('data/mental/*.json')}
 print(len(todo)); print(json.dumps(sorted(todo)[:90]))"
 ```
 
 Puszczaj partiami po ~90 (14 agentów równolegle, ~45 min na partię). Pozostałe pola args:
-`dataDir` = `browser/data`, `figDir` = `browser/figures`, `outDir` = `dev/mental`,
+`dataDir` = `data/questions`, `figDir` = `browser/figures`, `outDir` = `data/mental`,
 `model` = `opus` — wszystkie jako ścieżki bezwzględne.

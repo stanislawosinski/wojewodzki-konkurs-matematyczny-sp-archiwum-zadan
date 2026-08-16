@@ -9,7 +9,7 @@ import { readdirSync, readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 
 const root = fileURLToPath(new URL('../..', import.meta.url));
-const dataDir = root + 'browser/data/';
+const dataDir = root + 'data/questions/';
 const sideDir = process.argv[2], by = process.argv[3];
 if (!sideDir || !by) { console.error('usage: node apply-solutions.mjs <sideDir> <by> [basename ...]'); process.exit(1); }
 const only = process.argv.slice(4);

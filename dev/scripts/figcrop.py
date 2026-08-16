@@ -39,7 +39,7 @@ BLOB_T = 10        # largest blob of ink a re-render may add to the shipped figu
 def index():
     """-> {fig_filename: (hash, qid, page, source_file)}, {hash: (qid, page, src, figs)}"""
     figs, byhash = {}, {}
-    for fp in sorted(glob.glob(os.path.join(REPO, 'browser/data/*.json'))):
+    for fp in sorted(glob.glob(os.path.join(REPO, 'data/questions/*.json'))):
         d = json.load(open(fp))
         for q in d['questions']:
             h = hashlib.sha1(q['id'].encode()).hexdigest()[:8]

@@ -20,7 +20,7 @@ import json
 import re
 import sys
 
-DATA = "browser/data/*.json"
+DATA = "data/questions/*.json"
 BAR = "<mo>|</mo>"
 # quotes are escaped: this string is spliced into a JSON string literal by the
 # raw-text --fix path, so the attribute quotes must survive as \" in the file.
