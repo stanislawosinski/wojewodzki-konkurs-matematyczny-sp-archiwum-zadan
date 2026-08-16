@@ -804,7 +804,7 @@ select {
 /* left-gutter controls (screen order, left→right): × remove · ▾ up · ▾ down · checkbox · question.
    Every position derives from these gaps — tune them here. */
 .q {
-  --btn: 1.1rem;
+  --gbtn: 1.1rem; /* gutter-button width; NOT the :root --btn colour token */
   --cb: 1.3rem;
   --qgap: 2.7rem;
   --grp: 0.4rem;
@@ -867,10 +867,10 @@ select {
   color: #222;
 }
 .reorder.down {
-  left: calc(-1 * (var(--qgap) + var(--cb) + var(--grp) + var(--btn)));
+  left: calc(-1 * (var(--qgap) + var(--cb) + var(--grp) + var(--gbtn)));
 }
 .reorder.up {
-  left: calc(-1 * (var(--qgap) + var(--cb) + var(--grp) + var(--btn) + var(--pair) + var(--btn)));
+  left: calc(-1 * (var(--qgap) + var(--cb) + var(--grp) + var(--gbtn) + var(--pair) + var(--gbtn)));
 }
 .reorder.remove {
   left: calc(
@@ -879,11 +879,11 @@ select {
       var(--qgap) +
       var(--cb) +
       var(--grp) +
-      var(--btn) +
+      var(--gbtn) +
       var(--pair) +
-      var(--btn) +
+      var(--gbtn) +
       var(--grp) +
-      var(--btn)
+      var(--gbtn)
     )
   );
 }
@@ -1310,7 +1310,7 @@ math {
    when it overrides (½/1). Hidden in print and when global brudnopis = off (no scratch-* class). */
 .scratch-toggle {
   position: absolute;
-  left: calc(-1 * (var(--qgap) + var(--cb) + var(--grp) + var(--btn)) - 0.048rem);
+  left: calc(-1 * (var(--qgap) + var(--cb) + var(--grp) + var(--gbtn)) - 0.048rem);
   top: 2.6rem;
   box-sizing: border-box;
   width: 1.196rem;
@@ -1351,7 +1351,7 @@ body.scratch-off .scratch-toggle {
   position: absolute;
   left: calc(
     -1 *
-    (var(--qgap) + var(--cb) + var(--grp) + var(--btn) + var(--pair) + var(--btn)) -
+    (var(--qgap) + var(--cb) + var(--grp) + var(--gbtn) + var(--pair) + var(--gbtn)) -
     0.048rem
   );
   top: 2.6rem;
@@ -1452,12 +1452,12 @@ body.hide-mental .mental-toggle {
   color: #161;
 }
 .figsize.dec {
-  left: calc(-1 * (var(--qgap) + var(--cb) + var(--grp) + var(--btn)) - 0.048rem);
+  left: calc(-1 * (var(--qgap) + var(--cb) + var(--grp) + var(--gbtn)) - 0.048rem);
 }
 .figsize.inc {
   left: calc(
     -1 *
-    (var(--qgap) + var(--cb) + var(--grp) + var(--btn) + var(--pair) + var(--btn)) -
+    (var(--qgap) + var(--cb) + var(--grp) + var(--gbtn) + var(--pair) + var(--gbtn)) -
     0.048rem
   );
 }

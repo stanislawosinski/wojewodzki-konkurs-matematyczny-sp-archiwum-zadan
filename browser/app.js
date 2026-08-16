@@ -129,8 +129,13 @@ function update() {
   clearFacets.classList.toggle("blank", !active);
 
   // phone hamburger badge (iPhone-style count bubble on the ☰ corner); runs at all widths
-  // (harmless while the button is display:none)
-  const nSel = FACETS.reduce((n, f) => n + selections[f.key].size, 0);
+  // (harmless while the button is display:none). Facet selections + one per active id list /
+  // search / exclusion, so a chip-tapped id filter shows on phones, where the id box is hidden.
+  const nSel =
+    FACETS.reduce((n, f) => n + selections[f.key].size, 0) +
+    (useInc ? 1 : 0) +
+    (terms.length ? 1 : 0) +
+    (excSet.size ? 1 : 0);
   filtersBadge.textContent = nSel || "";
   filtersBadge.hidden = !nSel;
 

@@ -82,6 +82,11 @@ default makes some screen content disagree with the facets and the printed key**
    partially cover it, but the derivation itself is indistinguishable from an
    official one.
 
+> Items 10–11 **FIXED 2026-08-17** (`q.annulled` replaces the regex — flag and regex
+> verified to mark the same 5 questions; gutter length token renamed `--gbtn`;
+> print-menu elements declared in state.js; ☰ badge counts id list / search /
+> exclusions; `alt` → `swap`). Verified live in Chrome.
+
 10. **Annulment detected by regex despite the data flag.** `keylessVerif`
     (`defs.js:132`) and `renderKeyEntry` (`render.js:403`) test `/anulowan/i` on
     `prompt_html`, while build.mjs ships an authoritative `q.annulled` and the

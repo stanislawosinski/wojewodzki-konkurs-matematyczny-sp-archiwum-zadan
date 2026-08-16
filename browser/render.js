@@ -400,7 +400,7 @@ function keyLegendHtml(keyEntries) {
 function renderKeyEntry(q, seq) {
   const a = q.answer || {},
     hasKey = a.correct != null && a.correct !== "";
-  const cancelled = !hasKey && /anulowan/i.test(q.prompt_html);
+  const cancelled = !hasKey && !!q.annulled;
   const p = [
     `<div class="kq"><span class="kn">Zadanie ${seq ?? q.number}.</span> <span class="hash">(${q.hash})</span>`,
     keyAnswerLine(q, hasKey, cancelled),
@@ -566,9 +566,9 @@ function figuresHtml(q, figFmt) {
     const hasVec = hasSvg.has(fig),
       png = `figures/${esc(fig)}`,
       svg = `figures/svg/${esc(fig.replace(/\.png$/, ".svg"))}`;
-    const alt = hasVec ? ` data-png="${png}" data-svg="${svg}"` : "";
+    const swap = hasVec ? ` data-png="${png}" data-svg="${svg}"` : "";
     parts.push(
-      `<img class="fig" src="${hasVec && figFmt === "svg" ? svg : png}"${dim}${zoom}${alt} loading="lazy" alt="rysunek do zadania ${q.number}">`
+      `<img class="fig" src="${hasVec && figFmt === "svg" ? svg : png}"${dim}${zoom}${swap} loading="lazy" alt="rysunek do zadania ${q.number}">`
     );
   }
   if (!parts.length) {

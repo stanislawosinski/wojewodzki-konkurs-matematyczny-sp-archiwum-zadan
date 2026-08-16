@@ -129,7 +129,7 @@ const FACET_INFO = {
 const keylessVerif = (q, m) => {
   // an annulled question has no key because there is nothing to answer — a different gap than
   // a paper published without answers, and the AI answers on it mean nothing
-  if (/anulowan/i.test(q.prompt_html)) {
+  if (q.annulled) {
     return ["anulowane"];
   }
   return m.corroborated === false ? ["bezklucza", "niepewne"] : ["bezklucza"];
