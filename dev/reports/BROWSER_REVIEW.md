@@ -55,6 +55,11 @@ default makes some screen content disagree with the facets and the printed key**
    Enter on a focused, non-editing title just blurs it. Keyboard users can never
    start editing.
 
+> Item 7 **FIXED 2026-08-17** (annulment branch in `revealHtml`: "Zadanie anulowane —
+> bez poprawnej odpowiedzi", the key sheet's wording, shown for all 5 annulled
+> questions — the 2 with an official derivation show it above the derivation).
+> Verified live in Chrome off file://.
+
 7. **Annulled questions' reveal says "Brak klucza".** `revealHtml` (`render.js:619`)
    has no annulment branch, so the 5 annulled questions show the same note as papers
    published without keys — misleading (there's no key because there's nothing to

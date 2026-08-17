@@ -616,6 +616,10 @@ function revealHtml(q) {
   ];
   if (correct) {
     parts.push(`<div class="answer">Odpowiedź: <b>${answerHtml(correct)}</b></div>`);
+  } else if (q.annulled) {
+    // no key because there is nothing to answer — a different gap than a paper published
+    // without keys; the key sheet's wording
+    parts.push('<div class="answer nokey">Zadanie anulowane — bez poprawnej odpowiedzi</div>');
   }
   if (sol) {
     parts.push(`<div class="answer solution">${sol}</div>`); // key's derivation kept with its answer
@@ -626,7 +630,7 @@ function revealHtml(q) {
   if (!sol && q.sol_ai) {
     parts.push(`<div class="answer solution ai-sol"><em>Rozwiązanie AI:</em> ${q.sol_ai}</div>`);
   }
-  if (!correct && !sol) {
+  if (!correct && !sol && !q.annulled) {
     parts.push('<div class="answer nokey">Brak klucza</div>'); // no official key → always state it
   }
   if (badge) {
