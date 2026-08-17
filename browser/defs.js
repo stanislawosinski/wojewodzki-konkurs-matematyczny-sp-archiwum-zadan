@@ -117,8 +117,8 @@ const FACET_INFO = {
   sol: {
     _: "Skąd pochodzi pokazywane rozwiązanie: z oficjalnego klucza organizatora czy od AI.",
     klucz: "Pełne rozwiązanie z oficjalnego klucza organizatora.",
-    ai: "Rozwiązanie napisał model AI — tam, gdzie klucz podał samą odpowiedź bez rozwiązania, albo gdzie klucza w ogóle nie ma (wtedy od AI pochodzi też odpowiedź).",
-    bez: "Ani klucz, ani AI nie dostarczyły rozwiązania — jest sama odpowiedź z klucza albo zadanie anulowane."
+    ai: "Rozwiązanie napisał model AI — tam, gdzie klucz podał samą odpowiedź bez rozwiązania, gdzie klucza w ogóle nie ma (wtedy od AI pochodzi też odpowiedź), albo gdzie weryfikacja wskazała błąd w kluczu (wtedy wywód AI kwestionuje klucz).",
+    bez: "Żadne rozwiązanie nie jest pokazywane — jest sama odpowiedź z klucza albo zadanie anulowane."
   },
   powt: {
     _: "Zadania, które pojawiają się w archiwum więcej niż raz. Klik w chip ×N/~N przy zadaniu pokazuje wszystkie wystąpienia.",
@@ -223,15 +223,20 @@ const FACETS = [
     label: "Rozwiązanie",
 
     // the derivation's source: the key's own, or the AI's — the sol_ai campaign on keyed
-    // questions, the verification model's stand-in on keyless ones. A keyed question whose
-    // only derivation is the verification model's dissent counts as "bez": no solution is
-    // shown for it by default or in print.
+    // questions, the verification model's stand-in on keyless ones, and the KEY_WRONG
+    // dissent: with the key adjudicated wrong, the AI's derivation is the only trustworthy
+    // one and the reveal shows it by default. Other dissent-only questions stay "bez" —
+    // for KEY_CORRECT the AI erred, and a derivation known to be wrong is not a solution.
     values: q => {
       if (q.answer?.solution_html) {
         return ["z", "klucz"];
       }
       const hasKey = q.answer?.correct != null && q.answer.correct !== "";
-      if (q.sol_ai || (!hasKey && q.answer?.model?.solution_html)) {
+      if (
+        q.sol_ai ||
+        (!hasKey && q.answer?.model?.solution_html) ||
+        (q.suspect_verdict === "KEY_WRONG" && q.answer?.model?.solution_html)
+      ) {
         return ["z", "ai"];
       }
       return ["bez"];

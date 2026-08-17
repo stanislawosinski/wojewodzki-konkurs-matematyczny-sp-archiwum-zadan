@@ -90,6 +90,14 @@ payload shardów .js == .json.
    (ustawienia to ustawienia) albo jednorazowa migracja (np. wersjonowany klucz lub
    zapisywanie wyłącznie odstępstw od domyślnych).
 
+> Punkt 5 **NAPRAWIONE 2026-08-17** — trzeci warunek w `values()` facetu sol:
+> zadanie z werdyktem KEY_WRONG i wywodem dissenta liczy się `["z","ai"]` (klucz
+> jest błędny, więc wywód AI to jedyne wiarygodne rozwiązanie i reveal pokazuje
+> je domyślnie); dissent przy KEY_CORRECT zostaje `bez` — wywód uznany za błędny
+> to nie rozwiązanie. Liczby: ai 5488→5493, bez 64→59 (przeniesione dokładnie te
+> 5 hashy). Noty ⓘ ai/bez przepisane, 2 nowe przypadki w defs.test.cjs,
+> członkostwo INDEX zweryfikowane na żywo w Chrome.
+
 5. **`sol=bez` kłamie dla 5 zadań KEY_WRONG.** Zadanie z kluczem, którego jedynym
    wywodem jest dissent modelu weryfikującego, liczy się jako `bez` z komentarzem
    „no solution is shown for it by default or in print" (`defs.js:224`) — ale po

@@ -37,7 +37,23 @@ assert.deepStrictEqual(
 );
 assert.deepStrictEqual(
   values("sol", { answer: { correct: "B", model: { agrees: false, solution_html: "s" } } }),
-  ["bez"] // dissent-only derivation
+  ["bez"] // dissent-only derivation, no verdict yet
+);
+assert.deepStrictEqual(
+  values("sol", {
+    suspect: true,
+    suspect_verdict: "KEY_WRONG",
+    answer: { correct: "B", model: { agrees: false, solution_html: "s" } }
+  }),
+  ["z", "ai"] // adjudicated wrong key: the dissent derivation is the shown solution
+);
+assert.deepStrictEqual(
+  values("sol", {
+    suspect: true,
+    suspect_verdict: "KEY_CORRECT",
+    answer: { correct: "B", model: { agrees: false, solution_html: "s" } }
+  }),
+  ["bez"] // the AI erred here — a derivation known to be wrong is not a solution
 );
 assert.deepStrictEqual(values("sol", { annulled: true, answer: {} }), ["bez"]);
 assert.deepStrictEqual(
