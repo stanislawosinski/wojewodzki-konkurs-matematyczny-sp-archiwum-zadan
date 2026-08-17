@@ -4,7 +4,7 @@
   "scripts": {
     "check": "biome check .",
     "check:fix": "biome check --write .",
-    "test": "node browser/facets.test.cjs"
+    "test": "node browser/facets.test.cjs && node browser/defs.test.cjs"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.5.3"

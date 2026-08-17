@@ -222,6 +222,11 @@ payload shardów .js == .json.
 
 ## Dokumentacja (dryf po kampanii czasowej)
 
+> Punkty 20–21 **NAPRAWIONE 2026-08-17** — `time/` w drzewach SCHEMA.md i README;
+> sekcja time README w czasie teraźniejszym; dups README „111 SAME (109 + 2
+> ex-DUP_FIGURE_OK) … 251 rows"; README „37 papers (640 questions) … and one more
+> question's key is missing from its paper's answers-PDF — all 641 …".
+
 20. **`data/time/` nie istnieje w dokumentach:** drzewo plików SCHEMA.md:16 i drzewo
     Layout README.md:144–167 wymieniają `solutions/ mental/ dups/`, bez `time/`
     (w README jedynie wzmianka w kroku 10); `data/time/README.md:42` wciąż każe
@@ -233,6 +238,14 @@ payload shardów .js == .json.
     którego arkusz answers *ma* (rozstrzygnięty przypadek bez linii „Odp:").
 
 ## Testy
+
+> Punkt 22 **NAPRAWIONE 2026-08-17** — nowy `browser/defs.test.cjs`: ładuje
+> facets.js + defs.js jednym skryptem w sandboxie vm (odpowiednik globalnego
+> zakresu klasycznych skryptów; catalog.js niepotrzebny dzięki fallbackowi
+> `window.CATALOG || []`) i testuje routing sol/weryf/czas/fig/powt, `fmtMin`
+> i `answerHtml` (w tym wyspy MathML). W facets.test.cjs doszła asercja
+> `allFacetCounts` z kilkoma naraz zaznaczonymi facetami OR. `npm test`
+> uruchamia oba pliki (package.json + notka w CLAUDE.md).
 
 22. **Cała logika `values()` w defs.js jest poza harnessem.** Świeży split sol
     (najbardziej misterna nowa logika — znaleziska 5 i 7 mieszkają dokładnie tam),

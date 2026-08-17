@@ -102,7 +102,7 @@ Run from the repo root and make sure each passes:
 
 ```sh
 npm run check      # biome lint + format check (use check:fix to auto-fix)
-npm test           # node browser/facets.test.cjs
+npm test           # node tests: facets.test.cjs + defs.test.cjs
 cd browser && node build.mjs   # rebuild the data shards
 ```
 

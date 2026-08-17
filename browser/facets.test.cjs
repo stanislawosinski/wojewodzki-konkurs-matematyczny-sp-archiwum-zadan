@@ -124,6 +124,12 @@ assert.deepStrictEqual(
     allFacetCounts(index, s, notH1, ["topic", "woj"], universe, undefined, base),
     all
   );
+
+  // several simultaneously-selected OR facets: each takes its own-base path, still ≡ facetCounts
+  const s2 = sel({ topic: ["potęgi"], woj: ["slaskie"] });
+  const all2 = allFacetCounts(index, s2, yes, ["topic", "woj"], universe);
+  assert.deepStrictEqual(all2.topic, facetCounts(index, s2, yes, "topic", universe));
+  assert.deepStrictEqual(all2.woj, facetCounts(index, s2, yes, "woj", universe));
 }
 
 // encode/decode round-trips: multi-value facets + special chars (diacritics, '/', spaces) + scalars
