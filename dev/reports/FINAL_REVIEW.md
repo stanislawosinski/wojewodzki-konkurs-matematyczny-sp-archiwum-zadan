@@ -192,6 +192,15 @@ payload shardów .js == .json.
 
 ## Wydajność i przypadki brzegowe
 
+> Punkty 17–18 **NAPRAWIONE 2026-08-17**. `allFacetCounts` przyjmuje opcjonalne
+> `sharedBase` (asercja w facets.test.cjs), a `update()` podaje tam zbiór trafień,
+> który i tak już policzył (w trybie id — zbiór pokazanych) — jeden przebieg
+> zamiast dwóch. `toggleProgressMark` bez aktywnego filtra Postęp podmienia chip
+> w miejscu (ten sam przycisk, fokus klawiatury zachowany) i odświeża wyłącznie
+> liczniki ze stashowanych wejść; z filtrem — pełny update jak dotąd (zadanie
+> znika z widoku). Zweryfikowane na żywo w Chrome: tożsamość węzłów DOM, fokus,
+> liczniki 0→1→0, znikanie przy „Do zrobienia", czysta konsola.
+
 17. **Baza drill-down liczona 2× na update.** `facetMatched()` i `allFacetCounts`
     wołają `gatedBase` z identycznymi wejściami (`app.js:64` + `facets.js:143`) —
     jeden zbędny pełny przebieg po 7,6k zadań na każdy klik/keystroke-burst.

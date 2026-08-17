@@ -131,9 +131,11 @@
   // counts for many facets in one pass, same results as facetCounts per key. The drill-down
   // base is identical for every facet WITHOUT its own OR selection (excluding an unselected
   // key excludes nothing, and an AND facet keeps its selection anyway), so that shared base
-  // is computed once; only selected OR facets pay for a base of their own.
-  function allFacetCounts(index, selections, gate, keys, universe, andKeys) {
-    let shared = null;
+  // is computed once; only selected OR facets pay for a base of their own. A caller that
+  // already holds that base — it equals matchedHashes' result as a Set — can pass it as
+  // sharedBase and skip the recompute.
+  function allFacetCounts(index, selections, gate, keys, universe, andKeys, sharedBase) {
+    let shared = sharedBase || null;
     const out = {};
     for (const key of keys) {
       let gated;

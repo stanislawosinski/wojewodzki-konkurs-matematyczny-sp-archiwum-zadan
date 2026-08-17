@@ -38,7 +38,7 @@ function facetMatched() {
   const hits = new Set(Facets.matchedHashes(INDEX, selections, gate, universe, andKeys));
 
   // DATA order = original document order
-  return { matched: DATA.filter(q => hits.has(q.hash)), gate, excSet, terms, andKeys };
+  return { matched: DATA.filter(q => hits.has(q.hash)), hits, gate, excSet, terms, andKeys };
 }
 
 // carry open reveals over to a freshly rendered qlist — re-rendering must not snap open
@@ -56,6 +56,33 @@ function reopenReveals(hashes) {
   }
 }
 
+// facet counts (drill-down) + per-value dimming. countBase = the shared gated pass that
+// allFacetCounts would otherwise recompute (it equals the current matched set's hashes).
+// Inputs are stashed so a ✓/✗ chip toggle can refresh counts without a full re-render;
+// every filter change goes through update(), which re-stashes them.
+let lastCountArgs = null;
+function refreshFacetCounts(countSel, countGate, andKeys, countBase) {
+  lastCountArgs = { countSel, countGate, andKeys, countBase };
+  const allCounts = Facets.allFacetCounts(
+    INDEX,
+    countSel,
+    countGate,
+    FACETS.map(f => f.key),
+    universe,
+    andKeys,
+    countBase
+  );
+  for (const f of FACETS) {
+    const counts = allCounts[f.key];
+    const spans = countSpans[f.key];
+    for (const v in spans) {
+      const n = counts[v] || 0;
+      spans[v].textContent = n;
+      spans[v].closest(".facet-opt").classList.toggle("dim", n === 0 && !selections[f.key].has(v));
+    }
+  }
+}
+
 function update() {
   const incIds = idList(inc.value),
     useInc = incIds.length > 0;
@@ -64,7 +91,7 @@ function update() {
   const facet = facetMatched();
   const { excSet, terms, andKeys } = facet;
 
-  let matched, countSel, countGate;
+  let matched, countSel, countGate, countBase;
   if (useInc) {
     // "Pokaż tylko id" is an override: exactly those ids, in pasted order, deduped
     const seen = new Set();
@@ -72,10 +99,12 @@ function update() {
     const shown = new Set(matched.map(q => q.hash)); // facets inert; counts describe the shown set
     countSel = EMPTY_SELECTIONS;
     countGate = h => shown.has(h);
+    countBase = shown; // with no selections the shared count base is exactly the shown set
   } else {
     matched = facet.matched;
     countSel = selections;
     countGate = facet.gate;
+    countBase = facet.hits; // the matched-set pass doubles as the shared count base
   }
 
   // page + render
@@ -96,24 +125,7 @@ function update() {
     p.querySelector(".next").disabled = page === pages;
   }
 
-  // facet counts (drill-down): one gated pass shared by every facet without its own selection
-  const allCounts = Facets.allFacetCounts(
-    INDEX,
-    countSel,
-    countGate,
-    FACETS.map(f => f.key),
-    universe,
-    andKeys
-  );
-  for (const f of FACETS) {
-    const counts = allCounts[f.key];
-    const spans = countSpans[f.key];
-    for (const v in spans) {
-      const n = counts[v] || 0;
-      spans[v].textContent = n;
-      spans[v].closest(".facet-opt").classList.toggle("dim", n === 0 && !selections[f.key].has(v));
-    }
-  }
+  refreshFacetCounts(countSel, countGate, andKeys, countBase);
 
   // topic selected-count (independent of the tree's own search box, which only hides rows)
   const kTopics = selections.topic.size;
@@ -563,8 +575,10 @@ function toggleMentalMark(btn) {
 
 // ✓/✗ progress chip: 3-state cycle none → zrobione → do poprawy → none. Device data
 // (saveProgress), never the URL. The Postęp INDEX slice is derived from the marks, so
-// refresh it and re-run update() — with the Postęp facet filtering, the marked question
-// drops out of view right away (mark-as-you-go through the "Do zrobienia" pile).
+// refresh it — then, with a Postęp filter active, re-run update(): the marked question
+// drops out of view right away (mark-as-you-go through the "Do zrobienia" pile). Without
+// one, membership can't change, so the chip is swapped in place (the clicked button — and
+// keyboard focus — survives) and only the facet counts refresh, off the stashed inputs.
 function toggleProgressMark(btn) {
   const h = btn.closest(".q").dataset.hash;
   const next = PROG_NEXT[progressMarks.get(h)?.s || ""];
@@ -575,7 +589,17 @@ function toggleProgressMark(btn) {
   }
   saveProgress();
   rebuildProgressIndex();
-  update();
+  if (selections.post.size) {
+    update();
+    return;
+  }
+  const m = progressMarks.get(h),
+    s = m ? m.s : "";
+  btn.className = `progmark${s ? ` ${s}` : ""}`;
+  btn.textContent = PROG_GLYPH[s];
+  btn.title = progTitle(m);
+  const c = lastCountArgs;
+  refreshFacetCounts(c.countSel, c.countGate, c.andKeys, c.countBase);
 }
 
 // "✓ widoczne" (the Postęp facet header): stamp every question of the current sheet (all

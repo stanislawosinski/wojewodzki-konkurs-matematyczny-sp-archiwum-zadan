@@ -117,6 +117,13 @@ assert.deepStrictEqual(
     allFacetCounts(andIndex, sAnd, yes, ["topic"], andUni, TOPIC_AND).topic,
     facetCounts(andIndex, sAnd, yes, "topic", andUni, TOPIC_AND)
   );
+
+  // a precomputed sharedBase (= matchedHashes as a Set) must change nothing
+  const base = new Set(matchedHashes(index, s, notH1, universe));
+  assert.deepStrictEqual(
+    allFacetCounts(index, s, notH1, ["topic", "woj"], universe, undefined, base),
+    all
+  );
 }
 
 // encode/decode round-trips: multi-value facets + special chars (diacritics, '/', spaces) + scalars
