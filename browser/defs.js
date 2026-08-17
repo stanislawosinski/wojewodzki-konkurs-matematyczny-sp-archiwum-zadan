@@ -358,9 +358,15 @@ function faviconWithMarker(ch) {
   );
 }
 
-// answer.correct is either plain text (escape it — answers like "a < b" would otherwise
-// eat the rest of the line as a bogus tag) or, by schema, raw MathML (pass through)
-const answerHtml = v => (String(v).startsWith("<math") ? v : esc(v));
+// answer.correct is plain text (escape it — answers like "a < b" would otherwise eat the
+// rest of the line as a bogus tag), optionally with raw MathML islands anywhere in the
+// string ("a) 12 cm, b) <math…"): pass the islands through, escape the text between them.
+// The capturing group makes split() interleave text (even indices) with islands (odd).
+const answerHtml = v =>
+  String(v)
+    .split(/(<math[\s\S]*?<\/math>)/)
+    .map((s, i) => (i % 2 ? s : esc(s)))
+    .join("");
 
 const idList = s => (s.match(/[0-9a-f]{8}/gi) || []).map(x => x.toLowerCase());
 
