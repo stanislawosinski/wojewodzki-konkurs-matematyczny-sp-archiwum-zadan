@@ -15,13 +15,29 @@
     } catch (_e) {
       // localStorage blocked → default light
     }
+
+    // Failsafe: only init() removes the splash, so a core script that 404s (stale
+    // GH Pages deploy) or throws during boot would leave the page covered by a
+    // spinner forever — swap the spinner line for a hard-refresh hint instead.
+    // A plain (non-capture) window error listener sees only uncaught exceptions,
+    // never resource errors, so the silently-skipped data-shard 404s on file://
+    // (see loadData) don't trip it; core-script 404s come in via onerror below.
+    function splashFail() {
+      const load = document.querySelector("#splash:not(.hide) .splash-load");
+      if (load) {
+        load.textContent =
+          "Nie udało się wczytać aplikacji — spróbuj odświeżyć stronę " +
+          "(Ctrl+Shift+R lub Cmd+Shift+R).";
+      }
+    }
+    addEventListener("error", splashFail);
     </script>
-    <script defer src="facets.js"></script>
-    <script defer src="catalog.js"></script>
-    <script defer src="defs.js"></script>
-    <script defer src="render.js"></script>
-    <script defer src="state.js"></script>
-    <script defer src="app.js"></script>
+    <script defer src="facets.js" onerror="splashFail()"></script>
+    <script defer src="catalog.js" onerror="splashFail()"></script>
+    <script defer src="defs.js" onerror="splashFail()"></script>
+    <script defer src="render.js" onerror="splashFail()"></script>
+    <script defer src="state.js" onerror="splashFail()"></script>
+    <script defer src="app.js" onerror="splashFail()"></script>
   </head>
   <body>
     <!-- Splash: static markup paints before the deferred scripts run; init() fades it out

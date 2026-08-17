@@ -56,6 +56,14 @@ payload shardów .js == .json.
    `answerHtml` o wykrywanie `<math` w środku. (12 wartości czysto-MathML-owych
    przechodzi poprawnie.)
 
+> Punkty 2–3 **NAPRAWIONE 2026-08-17**. `.about-close` dopisany do obu ciemnych
+> list (muted + hover, `app.css`); kolor spoczynkowy w dark przełącza się na token
+> 52% — zweryfikowane w Chrome. Splash: `splashFail()` w inline'owym skrypcie +
+> `onerror` na sześciu kluczowych `<script>` + nasłuch niezłapanych wyjątków
+> (non-capture, więc ciche 404 shardów na file:// go nie dotykają) — spinner
+> zamienia się w podpowiedź twardego odświeżenia. Zweryfikowane end-to-end na
+> kopii aplikacji bez `app.js` po http; zdrowa aplikacja startuje bez zmian.
+
 2. **Ciemny motyw: × zamykający „O serwisie"/„Wskazówki" znika na hoverze.**
    `.about-close:hover` ustawia `color: #333` (`app.css:402`) na ciemnej karcie
    (`--surface` ≈ 20% jasności, kontrast ≈1.4:1); klasa nie występuje w bloku
