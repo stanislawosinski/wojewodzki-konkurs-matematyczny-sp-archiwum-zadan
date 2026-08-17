@@ -13,7 +13,7 @@ pdfs/<stage>/<name>.pdf                        # source papers (+ optional <name
 data/
   questions/<stage>_<name>.json                # source of truth, one per test
   categories.json                              # topic catalog
-  solutions/ mental/ dups/ suspected_key_errors.tsv  # campaign sidecars (see dev/docs/)
+  solutions/ mental/ dups/ time/ suspected_key_errors.tsv  # campaign sidecars (see dev/docs/)
 browser/
   figures/<question_id>_figN.png               # cropped bitmaps
   index.html app.css                           # the browser app (static, committed)

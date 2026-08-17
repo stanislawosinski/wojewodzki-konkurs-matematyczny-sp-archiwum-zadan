@@ -33,5 +33,6 @@ zero transitivity conflicts in the SAME graph; answer values compared for every 
 (47 flags, all but 4 were normalization noise; the 4 re-judged by hand). Two downgrades
 applied: the śląskie crossword-family VARIANTs → DIFFERENT (21 rows — batch verdicts on
 those grids contradicted each other, so none is trusted), and one SAME → VARIANT (turysta
-fill-in vs P/F formats). Final: 109 SAME / 50 VARIANT / 90 DIFFERENT, merged clusters
+fill-in vs P/F formats). Final: 111 SAME (109 judged + the 2 ex-`DUP_FIGURE_OK` figure
+pairs migrated into the TSV) / 50 VARIANT / 90 DIFFERENT — 251 rows, merged clusters
 163 dup / 49 sim.

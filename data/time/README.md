@@ -39,11 +39,11 @@ Generuje `dev/scripts/time.workflow.mjs` (Sonnet, jeden agent na arkusz).
 Rozkład: 1 min → 1381, 2 → 3839, 5 → 1805, 10 → 547, 20 → 60; sumy per arkusz
 30–82 min (mediana 56). Średnio: szkolny 3,0 min/zadanie, rejonowy 3,1, wojewódzki 3,6.
 
-## Docelowe miejsce w aplikacji
+## Miejsce w aplikacji
 
-`build.mjs` scala sidecary do pola `est_min` w shardach (scalenie dopisać przy pierwszej
-partii, wzorem `data/mental/`). W przeglądarce: chip "≈N min" przy zadaniu i suma czasu
-dla widoku/przypiętych obok istniejącej sumy punktów.
+`build.mjs` scala sidecary do pola `est_min` w shardach. W przeglądarce: chip „≈N min"
+przy zadaniu, facet „Czas", sumy czasu w podsumowaniu widoku i zaznaczenia oraz
+przełączniki ekran/druk w ⚙.
 
 ## Wznowienie przerwanego przebiegu
 

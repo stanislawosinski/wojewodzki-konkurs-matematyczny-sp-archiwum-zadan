@@ -150,6 +150,7 @@ konkurs-mat/
     suspected_key_errors.tsv
     mental/    *.json     # "W pamięci" judgements, one sidecar per test; merged by build.mjs
     solutions/ *.json     # AI-written derivations, one sidecar per test; merged by build.mjs
+    time/      *.json     # solving-time estimates (est_min), one sidecar per test; merged by build.mjs
     dups/                 # near-duplicate verdicts (near-dups.tsv); merged by build.mjs
   dev/
     docs/                 # playbooks: EXTRACTION_PLAYBOOK.md, VERIFICATION.md, FIGURE_REDRAW.md + SOURCES.md
@@ -186,8 +187,9 @@ these are **relative to `pdfs/`** (prepend `pdfs/` to open the file).
 | rejonowy (regional) | **complete — 147 / 147** (2706 questions) |
 | wojewódzki (provincial) | **complete — 160 / 160** (2716 questions) |
 
-Known gaps: szkolny W-M 2012/13–2016/17 were never web-archived; 38 papers (641 questions)
-shipped without any answer key — those carry corroborated blind-AI answers instead. Details in
+Known gaps: szkolny W-M 2012/13–2016/17 were never web-archived; 37 papers (640 questions)
+shipped without any answer key, and one more question's key is missing from its paper's
+answers-PDF — all 641 carry corroborated blind-AI answers instead. Details in
 [`SOURCES.md`](dev/docs/SOURCES.md).
 
 ## Building the browser
