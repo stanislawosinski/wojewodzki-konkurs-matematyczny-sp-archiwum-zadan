@@ -996,7 +996,14 @@ function wireTitle() {
   sheetTitle.addEventListener("keydown", e => {
     if (e.key === "Enter") {
       e.preventDefault();
-      sheetTitle.blur();
+
+      // Enter on a focused, not-yet-editing title starts the edit (the keyboard path into
+      // click-to-edit, phone guard included); during an edit it commits
+      if (sheetTitle.isContentEditable) {
+        sheetTitle.blur();
+      } else {
+        sheetTitle.click();
+      }
     } else if (e.key === "Escape") {
       e.preventDefault();
       sheetTitle.dataset.cancel = "1";

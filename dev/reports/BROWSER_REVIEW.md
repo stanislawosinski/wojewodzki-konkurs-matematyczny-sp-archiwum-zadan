@@ -49,6 +49,11 @@ default makes some screen content disagree with the facets and the printed key**
    only needed when a Postęp filter is active; otherwise the chip and facet counts
    could update in place.
 
+> Item 6 **FIXED 2026-08-17** (Enter on a focused, not-yet-editing title now enters
+> editing via `sheetTitle.click()` — same path as the mouse, phone guard included;
+> during an edit it still commits). Full keyboard cycle verified in Chrome:
+> Enter→edit→Enter commits, Escape cancels, empty commit reverts to auto.
+
 6. **The sheet title isn't actually keyboard-editable.** It has `tabindex="0"` and
    the Biome suppression claims "click/keyboard-editable" (`index.html:298`), but the
    keydown handler (`app.js:952`) only commits/cancels an edit in progress — pressing
