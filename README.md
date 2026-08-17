@@ -47,6 +47,9 @@ heavy lifting, in this order:
    the result. 4847 derivations live in `data/solutions/` and are merged into the shards at build
    time (see [`data/solutions/README.md`](data/solutions/README.md)); they are labelled *Rozwiązanie
    AI* wherever they appear.
+10. **Time pass** — every question bucketed by how long a well-prepared pupil needs to finish it
+    (≈1/2/5/10/20 focused minutes, judged from the worked solution against fixed anchors);
+    buckets live in `data/time/` (see [`data/time/README.md`](data/time/README.md)).
 
 Humans set the conventions, reviewed the redrawn figures, spot-checked questions, and made the
 structural decisions. The full reproducible procedure is preserved in
@@ -68,6 +71,9 @@ structural decisions. The full reproducible procedure is preserved in
 - The **🧠 / 💡 markers are one model's opinion**, not a property of the question — a judgement
   about what a pupil can carry in their head. Disagree and the gutter button flips it for your
   sheet; the data stays as judged.
+- The **≈min estimates are one model's buckets**, not measurements. The relative scale is the
+  reliable part; read the sums as focused working time (full papers add up to about half their
+  printed sitting time) and calibrate the absolute labels on your own pupil.
 - The **original download URLs were not recorded and are lost** — see
   [`SOURCES.md`](dev/docs/SOURCES.md) for provenance and per-voivodeship re-derivation seeds.
 
