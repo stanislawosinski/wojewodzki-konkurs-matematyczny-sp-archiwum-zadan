@@ -598,17 +598,31 @@ function choicesHtml(q, correct) {
 
 // the AI answers shown in the reveal: everything when the toggle is on; with it off, still the
 // keyless stand-in — where no key exists the AI answer and its derivation are the only path
-// there is (the printed key's reasoning). The badge and any dissent stay behind the toggle.
-const revealAi = q =>
-  showAI ? aiAnswers(q) : q.answer?.correct || q.annulled ? [] : aiAnswers(q).slice(0, 1);
+// there is (the printed key's reasoning) — and, like the printed key, the AI answer next to a
+// wrong-key warning (in the key sheet's compact form: no derivation). The rest of the AI
+// commentary stays behind the toggle.
+const revealAi = q => {
+  if (showAI) {
+    return aiAnswers(q);
+  }
+  if (q.suspect_verdict === "KEY_WRONG") {
+    return aiAnswers(q)
+      .slice(0, 1)
+      .map(x => ({ label: x.label, answer: x.answer }));
+  }
+  return q.answer?.correct || q.annulled ? [] : aiAnswers(q).slice(0, 1);
+};
 
 // the collapsed answer reveal: official key (answer + derivation), the "Brak klucza"
 // note, and — when the AI experiment is on — the verification badge and AI answers
 function revealHtml(q) {
   const correct = q.answer?.correct;
   const sol = q.answer?.solution_html;
+
+  // the wrong-key warning shows regardless of showAI — same rule as the printed key
+  // (a wrong key without a warning is worse than no key at all)
   const ai = revealAi(q),
-    badge = showAI ? verifBadge(q, ai.length) : null; // no badge unless AI is enabled
+    badge = showAI || q.suspect_verdict === "KEY_WRONG" ? verifBadge(q, ai.length) : null;
 
   // the eye is always shown; no-key questions state "Brak klucza" (the AI stand-in follows below)
   const parts = [

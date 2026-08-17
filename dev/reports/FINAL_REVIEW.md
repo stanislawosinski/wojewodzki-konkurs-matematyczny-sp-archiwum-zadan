@@ -98,6 +98,11 @@ payload shardów .js == .json.
    dostarczyły rozwiązania" (`defs.js:118`) jest dla nich fałszywa (a dla pozostałych
    56 z 61 — myląca: AI dostarczyło, tylko jest tłumione).
 
+> Punkt 6 **NAPRAWIONE 2026-08-17** — reveal pokazuje ostrzeżenie KEY_WRONG
+> bezwarunkowo, tą samą regułą co drukowany klucz i w jego kompaktowej formie
+> (badge + uzasadnienie + linia „Odpowiedź AI", bez wywodu); z showAI zachowanie
+> bez zmian. Zweryfikowane na żywo na aff9ae09 w obu stanach przełącznika.
+
 6. **Ostrzeżenie o błędnym kluczu: druk zawsze, ekran tylko z showAI.** Arkusz klucza
    drukuje ostrzeżenie KEY_WRONG bezwarunkowo (`render.js:611`, „klucz bez ostrzeżenia
    jest gorszy niż brak klucza"), ale badge w reveal jest `showAI ? … : null`
