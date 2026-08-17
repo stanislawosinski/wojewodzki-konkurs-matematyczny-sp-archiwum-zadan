@@ -550,7 +550,7 @@ function figSizeButtonsHtml(q) {
 }
 
 // the lazy <img> tags for a question's figures, honouring the current format pin
-function figuresHtml(q, figFmt) {
+function figuresHtml(q, figFmt, seq) {
   const hasSvg = new Set(q.figsvg || []);
   const step = figSizeOverrides.get(q.hash) || 0;
 
@@ -572,7 +572,7 @@ function figuresHtml(q, figFmt) {
       svg = `figures/svg/${esc(fig.replace(/\.png$/, ".svg"))}`;
     const swap = hasVec ? ` data-png="${png}" data-svg="${svg}"` : "";
     parts.push(
-      `<img class="fig" src="${hasVec && figFmt === "svg" ? svg : png}"${dim}${zoom}${swap} loading="lazy" alt="rysunek do zadania ${q.number}">`
+      `<img class="fig" src="${hasVec && figFmt === "svg" ? svg : png}"${dim}${zoom}${swap} loading="lazy" alt="rysunek do zadania ${seq ?? q.number}">`
     );
   }
   if (!parts.length) {
@@ -684,7 +684,7 @@ function renderQuestion(q, seq) {
       progMarkHtml(q) +
       `<span class="qmeta">${metaHtml}</span></div>`,
     `<div class="prompt">${q.prompt_html}</div>`,
-    figuresHtml(q, figFmt),
+    figuresHtml(q, figFmt, seq),
     choicesHtml(q, q.answer?.correct),
     revealHtml(q),
     "</div>", // /.qbody

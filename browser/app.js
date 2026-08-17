@@ -303,7 +303,8 @@ function wireFacets() {
       // fall through to the format complaint below
     }
     if (!o || typeof o !== "object" || Array.isArray(o)) {
-      $("progIOStatus").textContent = "Nieprawidłowy format — wklej tu wynik „Eksportuj”.";
+      $("progIOStatus").textContent =
+        "Nieprawidłowy format — wklej tu to, co skopiował przycisk „Eksportuj”.";
       return;
     }
     let n = 0;

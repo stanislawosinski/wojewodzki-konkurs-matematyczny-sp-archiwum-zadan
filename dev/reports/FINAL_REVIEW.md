@@ -133,6 +133,17 @@ payload shardów .js == .json.
 
 ## Język i etykiety
 
+> Punkty 11–15 **NAPRAWIONE 2026-08-17** — cała paczka: hint weryfikacji
+> („wyłączenie ukrywa filtr «Weryfikacja AI»"), nagłówek ⓘ weryfikacji i klauzula
+> o Rozwiązaniach AI w „O serwisie" z zastrzeżeniem „tam, gdzie istnieje klucz";
+> „Tytuł zestawu" w ustawieniach + hincie markera, dopisek o włączeniu tytułu w
+> tips; hint brudnopisu „Automatyczny" opisuje realną regułę (wielokrotny wybór
+> bez rysunku); `fmtMin` kończy na „min" („≈2h 30min"); trzy `&ndash;` → —, oba
+> comma splice'y, hinty rysunków małą literą, placeholdery „id, id, …",
+> „rastrowym"/„wersji wektorowej", komunikat importu postępu, `alt` figur używa
+> numeracji sekwencyjnej (`seq ?? q.number`), facet „Czas" dostał notę ⓘ o
+> proweniencji. Zweryfikowane na żywo w Chrome off file://.
+
 11. **Opisy pisane pod stary default:** hint ustawień „dodaje filtr «Weryfikacja»"
     (`index.html:179`) — filtr jest domyślnie, a nazywa się „Weryfikacja AI";
     nagłówek ⓘ weryfikacji „Każde zadanie … porównane z oficjalnym kluczem"

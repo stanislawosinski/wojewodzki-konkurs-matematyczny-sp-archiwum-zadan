@@ -95,7 +95,7 @@ const todayISO = () => {
 // explanations behind the ⓘ info icons; `_` is the facet-header note. Only facets/values listed here get an icon.
 const FACET_INFO = {
   weryf: {
-    _: "Każde zadanie zostało niezależnie rozwiązane przez AI i porównane z oficjalnym kluczem odpowiedzi. Filtr pokazuje wynik tej weryfikacji, m.in. prawdopodobne błędy w kluczach.",
+    _: "Każde zadanie zostało niezależnie rozwiązane przez AI i — tam, gdzie istnieje klucz — porównane z nim. Filtr pokazuje wynik tej weryfikacji, m.in. prawdopodobne błędy w kluczach.",
     zgodne: "Odpowiedź AI, uzyskana bez podglądania klucza, zgadza się z oficjalnym kluczem.",
     podejrzany:
       "AI podało inną odpowiedź niż klucz, a analiza AI z kluczem na widoku wskazuje na błąd po stronie organizatora — w samym kluczu albo w jego uzasadnieniu. Przy zadaniu jest wyjaśnienie.",
@@ -106,10 +106,13 @@ const FACET_INFO = {
     nieroz:
       "Odpowiedzi AI nie dało się porównać z kluczem — np. klucz jest rysunkiem, którego nie ma w danych.",
     anulowane:
-      "Zadanie anulowane przez organizatora (zwykle błąd w treści), zadanie nie ma poprawnej odpowiedzi. Weryfikacja AI nie została przeprowadzona."
+      "Zadanie anulowane przez organizatora (zwykle z powodu błędu w treści) — nie ma poprawnej odpowiedzi. Weryfikacja AI nie została przeprowadzona."
   },
   fig: {
-    bezsvg: "Zadania z rysunkiem bitmapowym, który nie ma jeszcze wektorowej przerysówki (SVG)."
+    bezsvg: "Zadania z rysunkiem rastrowym (PNG), który nie ma jeszcze wersji wektorowej (SVG)."
+  },
+  czas: {
+    _: "Szacowany czas skupionej pracy nad zadaniem (≈1, 2, 5, 10 lub 20 minut), oceniony przez AI na podstawie rozwiązania."
   },
   sol: {
     _: "Skąd pochodzi pokazywane rozwiązanie: z oficjalnego klucza organizatora czy od AI.",
@@ -400,7 +403,7 @@ const pluralSelected = n => (n === 1 || isPolishFew(n) ? "zaznaczone" : "zaznacz
 const pluralTopics = n => (n === 1 ? "temat" : isPolishFew(n) ? "tematy" : "tematów");
 const pluralMarks = n => (n === 1 ? "oznaczenie" : isPolishFew(n) ? "oznaczenia" : "oznaczeń");
 
-// est_min sums for the summary line: minutes under an hour, then "2h 3m" / "1d 2h 49m"
+// est_min sums for the summary line: minutes under an hour, then "2h 3min" / "1d 2h 49min"
 // (zero components dropped: 120 → "2h")
 const fmtMin = m => {
   if (m < 60) {
@@ -409,7 +412,7 @@ const fmtMin = m => {
   const d = Math.floor(m / 1440),
     h = Math.floor((m % 1440) / 60),
     min = m % 60;
-  return [d ? `${d}d` : "", h ? `${h}h` : "", min ? `${min}m` : ""].filter(Boolean).join(" ");
+  return [d ? `${d}d` : "", h ? `${h}h` : "", min ? `${min}min` : ""].filter(Boolean).join(" ");
 };
 
 const debounce = (fn, ms) => {

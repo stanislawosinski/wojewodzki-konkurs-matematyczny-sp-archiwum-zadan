@@ -163,7 +163,7 @@
                 <h4>Lista zadań</h4>
                 <div class="optgroup">
                   <p class="sublabel">Pokaż dodatkowo:</p>
-                  <label><input type="checkbox" id="metaTitle"> Tytuł arkusza</label>
+                  <label><input type="checkbox" id="metaTitle"> Tytuł zestawu</label>
                   <label><input type="checkbox" id="metaWoj" checked> Województwo</label>
                   <label><input type="checkbox" id="metaRok" checked> Rok</label>
                   <label><input type="checkbox" id="metaEtap" checked> Etap</label>
@@ -192,7 +192,8 @@
                 <div class="optgroup">
                   <label><input type="checkbox" id="showAI" checked> Pokaż weryfikację AI</label>
                   <p class="hint">
-                    ocena odpowiedzi przez AI i status klucza; dodaje filtr „Weryfikacja”
+                    ocena odpowiedzi przez AI i status klucza; wyłączenie ukrywa filtr „Weryfikacja
+                    AI”
                   </p>
                 </div>
                 <div class="optgroup">
@@ -202,14 +203,14 @@
                     Priorytet wektorowy (SVG)</label
                   >
                   <p class="hint">
-                    Rysunki narysowane przez AI na podstawie rysunków w arkuszach zadań, mogą
-                    zawierać błędy
+                    rysunki narysowane przez AI na podstawie oryginalnych arkuszy — mogą zawierać
+                    błędy
                   </p>
                   <label
                     ><input type="radio" name="figFormat" value="bitmap">
                     Priorytet rastrowy (PNG)</label
                   >
-                  <p class="hint">Rysunki wycięte z oryginalnych arkuszy zadań</p>
+                  <p class="hint">rysunki wycięte z oryginalnych arkuszy zadań</p>
                 </div>
                 <div class="optgroup">
                   <label
@@ -217,8 +218,8 @@
                     Marker na ikonce karty</label
                   >
                   <p class="hint">
-                    znak z tytułu arkusza pod pierwiastkiem ikonki — pomaga odróżnić karty; działa,
-                    gdy tytuł arkusza jest widoczny
+                    znak z tytułu zestawu pod pierwiastkiem ikonki — pomaga odróżnić karty; działa,
+                    gdy tytuł zestawu jest widoczny
                   </p>
                 </div>
               </section>
@@ -226,7 +227,7 @@
                 <h4>Wydruk</h4>
                 <div class="optgroup">
                   <p class="sublabel">Pokaż dodatkowo:</p>
-                  <label><input type="checkbox" id="printTitle"> Tytuł arkusza</label>
+                  <label><input type="checkbox" id="printTitle"> Tytuł zestawu</label>
                   <label><input type="checkbox" id="printWoj" checked> Województwo</label>
                   <label><input type="checkbox" id="printRok" checked> Rok</label>
                   <label><input type="checkbox" id="printEtap" checked> Etap</label>
@@ -250,7 +251,10 @@
                     ><input type="radio" name="pageMode" value="auto" checked>
                     Automatyczny</label
                   >
-                  <p class="hint">pół strony na zadania zamknięte, cała strona na pozostałe</p>
+                  <p class="hint">
+                    pół strony na krótkie zadania wielokrotnego wyboru (bez rysunku), cała strona na
+                    pozostałe
+                  </p>
                   <label><input type="radio" name="pageMode" value="half"> Pół strony</label>
                   <p class="hint">pół strony na każde zadanie</p>
                   <label><input type="radio" name="pageMode" value="full"> Cała strona</label>
@@ -283,7 +287,7 @@
           <label
             >Pokaż tylko id:
             <!-- biome-ignore lint/a11y/noAutofocus: deliberate — the id box is the primary worksheet-building input -->
-            <textarea id="include" rows="2" placeholder="hash, hash, …" autofocus></textarea>
+            <textarea id="include" rows="2" placeholder="id, id, …" autofocus></textarea>
           </label>
           <div class="selrow">
             <button type="button" id="useSel" title="Wstaw id zaznaczonych zadań">
@@ -328,7 +332,7 @@
             </button>
           </span>
         </label>
-        <label>Pomiń id: <input type="text" id="exclude" placeholder="hash, hash, …"></label>
+        <label>Pomiń id: <input type="text" id="exclude" placeholder="id, id, …"></label>
       </aside>
       <main class="content">
         <!-- biome-ignore lint/a11y/noNoninteractiveTabindex: the title is click/keyboard-editable (contentEditable on activation) -->
@@ -398,7 +402,8 @@
           </li>
           <li>
             Gdy aktywna jest lista id, przy zadaniach pojawiają się strzałki ▴/▾ do zmiany
-            kolejności i × do usunięcia z listy. Tytuł zestawu zmienisz, klikając go nad listą.
+            kolejności i × do usunięcia z listy. Tytuł zestawu zmienisz, klikając go nad listą (gdy
+            tytuł jest włączony w ustawieniach ⚙).
           </li>
         </ul>
 
@@ -510,7 +515,7 @@
           <li>narysowanie większości rysunków na nowo w formie grafiki wektorowej (SVG),</li>
           <li>
             ocenę, które zadania da się rozwiązać w pamięci — agent rozwiązywał każde zadanie i
-            rozstrzygał, czy uczeń poradzi sobie bez zapisywania czegokolwiek &ndash; zobacz filtr
+            rozstrzygał, czy uczeń poradzi sobie bez zapisywania czegokolwiek — zobacz filtr
             <em>W pamięci</em>
             i znaczniki 🧠 / 💡 przy zadaniach,
           </li>
@@ -519,7 +524,7 @@
             duplikatów oraz wariantów z innymi liczbami,
           </li>
           <li>
-            napisanie rozwiązań do zadań, przy których organizator podał sam wynik &ndash; agent
+            napisanie rozwiązań do zadań, przy których organizator podał sam wynik — agent
             rozwiązywał zadanie jeszcze raz i zapisywał drogę dojścia, a oficjalny klucz służył za
             sprawdzian wyniku; takie rozwiązania są podpisane <em>Rozwiązanie AI</em>,
           </li>
@@ -541,9 +546,9 @@
             rozbieżności były oznaczane i sprawdzane,
           </li>
           <li>
-            wymóg, by każde <em>Rozwiązanie AI</em> kończyło się dokładnie na odpowiedzi z klucza
-            &ndash; gdy agent nie znalazł uczciwej drogi, zostawiał zadanie bez rozwiązania; sama
-            droga nie była jednak przez nikogo sprawdzana,
+            wymóg, by tam, gdzie klucz istnieje, każde <em>Rozwiązanie AI</em> kończyło się
+            dokładnie na odpowiedzi z klucza — gdy agent nie znalazł uczciwej drogi, zostawiał
+            zadanie bez rozwiązania; sama droga nie była jednak przez nikogo sprawdzana,
           </li>
           <li>przegląd przerysowanych rysunków (SVG) przez człowieka,</li>
           <li>wyrywkowy przegląd zadań przez człowieka.</li>
