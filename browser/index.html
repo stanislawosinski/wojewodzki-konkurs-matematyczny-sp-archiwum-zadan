@@ -162,7 +162,7 @@
                 </div>
                 <h4>Eksperymenty</h4>
                 <div class="optgroup">
-                  <label><input type="checkbox" id="showAI"> Pokaż weryfikację AI</label>
+                  <label><input type="checkbox" id="showAI" checked> Pokaż weryfikację AI</label>
                   <p class="hint">
                     ocena odpowiedzi przez AI i status klucza; dodaje filtr „Weryfikacja”
                   </p>
@@ -170,18 +170,18 @@
                 <div class="optgroup">
                   <p class="sublabel">Rysunki wektorowe:</p>
                   <label
-                    ><input type="radio" name="figFormat" value="bitmap" checked>
-                    Priorytet rastrowy (PNG)</label
-                  >
-                  <p class="hint">Rysunki wycięte z oryginalnych arkuszy zadań</p>
-                  <label
-                    ><input type="radio" name="figFormat" value="vector">
+                    ><input type="radio" name="figFormat" value="vector" checked>
                     Priorytet wektorowy (SVG)</label
                   >
                   <p class="hint">
                     Rysunki narysowane przez AI na podstawie rysunków w arkuszach zadań, mogą
                     zawierać błędy
                   </p>
+                  <label
+                    ><input type="radio" name="figFormat" value="bitmap">
+                    Priorytet rastrowy (PNG)</label
+                  >
+                  <p class="hint">Rysunki wycięte z oryginalnych arkuszy zadań</p>
                 </div>
                 <div class="optgroup">
                   <label
@@ -208,7 +208,10 @@
                   <p class="hint">🧠 / 💡 przy zadaniu; sama podpowiedź nigdy się nie drukuje</p>
                 </div>
                 <div class="optgroup">
-                  <label><input type="checkbox" id="printSolAi"> Rozwiązania AI w kluczu</label>
+                  <label
+                    ><input type="checkbox" id="printSolAi">
+                    Rozwiązania AI w drukowanym kluczu</label
+                  >
                   <p class="hint">
                     wywody napisane przez AI tam, gdzie organizator nie opublikował rozwiązania
                   </p>

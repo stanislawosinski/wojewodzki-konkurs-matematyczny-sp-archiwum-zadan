@@ -45,8 +45,10 @@ let DATA = [],
 let page = 1;
 
 // Eksperymenty toggles (settings popup, localStorage-persisted). showAI: reveal the AI verification
-// (Weryfikacja facet + AI answers/key status), off by default. vectorPriority: figures default to the
-// SVG redraw (△ then switches to PNG) instead of the reverse. Read by renderQuestion/renderKeyEntry.
+// (Weryfikacja facet + AI answers/key status), on by default. vectorPriority: figures default to the
+// SVG redraw (△ then switches to PNG) instead of the reverse, on by default. The false inits here are
+// placeholders — wireSettings() reads the actual defaults from the checked attributes in index.html.
+// Read by renderQuestion/renderKeyEntry.
 // showPrzyroda: include the przyroda-tagged questions (old śląskie format), off by default —
 // update()'s gate drops them, so an explicit id list still shows them.
 // biome-ignore lint/style/useConst: reassigned by app.js wireSettings() — cross-file globals

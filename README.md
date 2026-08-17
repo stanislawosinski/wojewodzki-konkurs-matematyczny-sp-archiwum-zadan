@@ -97,7 +97,7 @@ is the short path from "I need twenty questions on the Pythagorean theorem" to a
 - **See how it is done** — the 👁 reveal shows the official derivation where the organiser
   published one, and an AI-written one (labelled *Rozwiązanie AI*) where nobody did; the
   *Rozwiązanie* filter separates questions that have one from those that don't. On the printed key
-  the AI derivations are off by default — ⚙ → *Wydruk* → *Rozwiązania AI w kluczu*.
+  the AI derivations are off by default — ⚙ → *Wydruk* → *Rozwiązania AI w drukowanym kluczu*.
 - **Curate** — tick the questions you want and press **Zaznaczone ↑** to collect their ids in the
   *Pokaż tylko id* box; that box *is* your worksheet. **Skopiuj** saves the id list and pasting it
   back restores the set; *Pomiń id* drops individual questions.

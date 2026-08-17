@@ -874,7 +874,7 @@ function wireSettings() {
     apply();
   }
 
-  // Eksperymenty — "Pokaż weryfikację AI" (default off): body.hide-ai hides the Weryfikacja facet;
+  // Eksperymenty — "Pokaż weryfikację AI" (default on): body.hide-ai hides the Weryfikacja facet;
   // showAI gates the AI content in renderQuestion/renderKeyEntry. Off also clears any weryf selection
   // so the hidden facet can't filter (and it drops from the hash on the next write). Runs before the
   // init applyState() below, so its weryf guard sees the right showAI.
@@ -921,7 +921,7 @@ function wireSettings() {
   przCb.onchange = () => applyPrzyroda(true);
   applyPrzyroda(false);
 
-  // "Rysunki wektorowe" (radio, default bitmap): vectorPriority sets the default figure format. Changing
+  // "Rysunki wektorowe" (radio, default vector): vectorPriority sets the default figure format. Changing
   // it clears every per-question pin so all figures snap back to the new default (discarding overrides).
   const applyVector = rerender => {
     vectorPriority = document.querySelector('input[name="figFormat"]:checked').value === "vector";
