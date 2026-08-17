@@ -596,15 +596,21 @@ function choicesHtml(q, correct) {
   return parts.join("\n");
 }
 
+// the AI answers shown in the reveal: everything when the toggle is on; with it off, still the
+// keyless stand-in — where no key exists the AI answer and its derivation are the only path
+// there is (the printed key's reasoning). The badge and any dissent stay behind the toggle.
+const revealAi = q =>
+  showAI ? aiAnswers(q) : q.answer?.correct || q.annulled ? [] : aiAnswers(q).slice(0, 1);
+
 // the collapsed answer reveal: official key (answer + derivation), the "Brak klucza"
 // note, and — when the AI experiment is on — the verification badge and AI answers
 function revealHtml(q) {
   const correct = q.answer?.correct;
   const sol = q.answer?.solution_html;
-  const ai = showAI ? aiAnswers(q) : [],
-    badge = showAI ? verifBadge(q, ai.length) : null; // no AI content unless enabled
+  const ai = revealAi(q),
+    badge = showAI ? verifBadge(q, ai.length) : null; // no badge unless AI is enabled
 
-  // the eye is always shown; no-key questions state "Brak klucza" (AI answers, if enabled, still appear below)
+  // the eye is always shown; no-key questions state "Brak klucza" (the AI stand-in follows below)
   const parts = [
     '<details class="reveal"><summary title="Pokaż odpowiedź"><span class="eye">👁</span></summary>'
   ];

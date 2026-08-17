@@ -64,6 +64,14 @@ default makes some screen content disagree with the facets and the printed key**
 
 ## Inconsistencies
 
+> Item 8 **FIXED 2026-08-17**, both halves. The facet now splits by the derivation's
+> source — "z" stays as the umbrella value (old `sol=z` links verified working) with
+> new sub-values `klucz` (2080) / `ai` (5488), plus `bez` (64: 61 keyed questions
+> with no derivation anywhere + 3 annulled), all with `FACET_INFO` ⓘ notes. And the
+> reveal now always shows the keyless AI stand-in (answer + derivation, labeled)
+> regardless of showAI — `revealAi` in render.js — so screen, print and facet agree.
+> Verified live in Chrome off file://, both showAI states.
+
 8. **The "Rozwiązanie" facet overcounts under default settings.** Its values
    (`defs.js:197`) count `answer.model.solution_html` — measured **702 questions**
    whose only derivation is that field. With "Pokaż weryfikację AI" off (the

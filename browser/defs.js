@@ -53,6 +53,15 @@ const MODEL_LABELS = {
   "opus+sonnet+fable": "Sonnet + Opus + Fable"
 };
 
+// "Rozwiązanie": the derivation's source. "z" doubles as the umbrella value (the facet was a
+// plain z/bez pair once) so old sol=z links keep filtering; values are wire format (URL hash).
+const SOL_LABELS = {
+  z: "Z rozwiązaniem",
+  klucz: "Z klucza",
+  ai: "Rozwiązanie AI",
+  bez: "Bez rozwiązania"
+};
+
 // "W pamięci": per-question judgements (q.mental / q.mental_hint), not a text heuristic — every
 // question was solved by an Opus pass that then ruled whether a pupil could do it with nothing
 // written down. Two levels only; absent = not a head task. Values are wire format (URL hash).
@@ -101,6 +110,12 @@ const FACET_INFO = {
   },
   fig: {
     bezsvg: "Zadania z rysunkiem bitmapowym, który nie ma jeszcze wektorowej przerysówki (SVG)."
+  },
+  sol: {
+    _: "Skąd pochodzi pokazywane rozwiązanie: z oficjalnego klucza organizatora czy od AI.",
+    klucz: "Pełne rozwiązanie z oficjalnego klucza organizatora.",
+    ai: "Rozwiązanie napisał model AI — tam, gdzie klucz podał samą odpowiedź bez rozwiązania, albo gdzie klucza w ogóle nie ma (wtedy od AI pochodzi też odpowiedź).",
+    bez: "Ani klucz, ani AI nie dostarczyły rozwiązania — jest sama odpowiedź z klucza albo zadanie anulowane."
   },
   powt: {
     _: "Zadania, które pojawiają się w archiwum więcej niż raz. Klik w chip ×N/~N przy zadaniu pokazuje wszystkie wystąpienia.",
@@ -203,11 +218,23 @@ const FACETS = [
   {
     key: "sol",
     label: "Rozwiązanie",
-    values: q => [
-      q.sol_ai || q.answer?.model?.solution_html || q.answer?.solution_html ? "z" : "bez"
-    ],
-    order: ["z", "bez"],
-    labelFor: v => (v === "z" ? "Z rozwiązaniem" : "Bez rozwiązania")
+
+    // the derivation's source: the key's own, or the AI's — the sol_ai campaign on keyed
+    // questions, the verification model's stand-in on keyless ones. A keyed question whose
+    // only derivation is the verification model's dissent counts as "bez": no solution is
+    // shown for it by default or in print.
+    values: q => {
+      if (q.answer?.solution_html) {
+        return ["z", "klucz"];
+      }
+      const hasKey = q.answer?.correct != null && q.answer.correct !== "";
+      if (q.sol_ai || (!hasKey && q.answer?.model?.solution_html)) {
+        return ["z", "ai"];
+      }
+      return ["bez"];
+    },
+    order: ["z", "klucz", "ai", "bez"],
+    labelFor: v => SOL_LABELS[v] || v
   },
   {
     key: "powt",
