@@ -663,7 +663,7 @@ function renderQuestion(q, seq) {
     questionControlsHtml(q, seq, half, override, figFmt, figDefault),
     '<div class="qbody">', // wraps the content so the print brudnopis .scratch below can flex-fill the rest of the page
     `<div class="qhead"><span class="qnum">Zadanie ${seq ?? q.number}.</span>` +
-      `<span class="qid">(${q.points}p, <span class="hash" title="kliknij, aby skopiować id">${q.hash}</span>)</span>` +
+      `<span class="qid">(${q.points}p, ${q.est_min ? `<span class="estmin">≈${q.est_min} min, </span>` : ""}<span class="hash" title="kliknij, aby skopiować id">${q.hash}</span>)</span>` +
       mentalMarkHtml(q) +
       dupMarkHtml(q) +
       simMarkHtml(q) +

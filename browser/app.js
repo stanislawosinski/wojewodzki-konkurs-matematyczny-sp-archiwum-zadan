@@ -149,6 +149,7 @@ function update() {
   clearSearch.hidden = !search.value; // the "×" inside the search box
   clearSelBar.hidden = !selectedSet.size; // "Wyczyść zaznaczenie": only with a print selection
   shownCount = matched.length;
+  shownMin = matched.reduce((s, q) => s + (q.est_min || 0), 0);
   renderSummary();
   lastMatched = matched;
   lastUseInc = useInc;
@@ -169,15 +170,20 @@ function buildAnswerKey() {
     : "";
 }
 
-// summary: "<n> zadanie/zadania/zadań [(<k> zaznaczone/zaznaczonych)]". shownCount is cached so
-// ticking a print checkbox can refresh just this line (no full re-render).
+// summary: "<n> zadanie/zadania/zadań [· ≈X min] [(<k> zaznaczone/zaznaczonych [· ≈Y min])]".
+// The ≈min sums add est_min (the time-bucket campaign, data/time/) over the filtered set and
+// the print selection — the session-planning number. shownCount/shownMin are cached so ticking
+// a print checkbox can refresh just this line (no full re-render).
 let shownCount = 0;
+let shownMin = 0;
 const renderSummary = () => {
   const k = selectedSet.size; // content is numbers + fixed words, so innerHTML is safe here
+  const selMin = k ? [...selectedSet].reduce((s, h) => s + (byHash[h]?.est_min || 0), 0) : 0;
   setsummary.innerHTML =
     `${shownCount} ${pluralQuestions(shownCount)}` +
+    (shownMin ? ` · ≈${fmtMin(shownMin)}` : "") +
     (k
-      ? ` (<span class="selcopy" title="kliknij, aby skopiować listę id">${k} ${pluralSelected(k)}</span>)`
+      ? ` (<span class="selcopy" title="kliknij, aby skopiować listę id">${k} ${pluralSelected(k)}</span>${selMin ? ` · ≈${fmtMin(selMin)}` : ""})`
       : "");
 };
 
@@ -851,12 +857,14 @@ function wireSettings() {
     ["metaRok", "hide-year"],
     ["metaEtap", "hide-stage"],
     ["metaTopics", "hide-topics"],
+    ["metaCzas", "hide-estmin"],
     ["metaMental", "hide-mental"],
     ["printTitle", "print-hide-title"],
     ["printWoj", "print-hide-region"],
     ["printRok", "print-hide-year"],
     ["printEtap", "print-hide-stage"],
     ["printTopics", "print-hide-topics"],
+    ["printCzas", "print-hide-estmin"],
     ["printMental", "print-hide-mental"],
     ["printSolAi", "print-hide-solai"]
   ]) {

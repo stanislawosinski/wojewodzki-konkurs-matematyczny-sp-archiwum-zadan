@@ -762,6 +762,12 @@ select {
   display: none;
 }
 
+/* the "≈N min" estimate inside the header id parens, toggled by "Szacowany czas"
+   (screen: hide-estmin, print: print-hide-estmin — see @media print) */
+.hide-estmin .estmin {
+  display: none;
+}
+
 /* the ×N duplicate / ~N variant chips, next to the mental marker: the same question (or the
    same problem with different numbers) on other sheets; hover lists them, click swaps the
    view to the whole cluster (screen-only, hidden in print) */
@@ -1644,6 +1650,13 @@ body.hide-mental .mental-toggle {
     display: inline-block;
   }
   .print-hide-mental .mmark {
+    display: none;
+  }
+  /* the "≈N min" estimate: same independent screen/print pair */
+  .hide-estmin .estmin {
+    display: inline;
+  }
+  .print-hide-estmin .estmin {
     display: none;
   }
 

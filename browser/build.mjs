@@ -69,6 +69,31 @@ if (badMental.length) {
   process.exit(1);
 }
 
+// data/time/<data file>.json: the time-estimate campaign's sidecars, {id: {min}} — a coarse
+// focused-work bucket (1/2/5/10/20 minutes) per question, every question judged (see
+// data/time/README.md). Merged here into `est_min`; the browser shows a "≈N min" chip and
+// sums the estimate over the current view. Missing dir → the field is simply absent.
+const estMin = {};
+const badTime = [];
+try {
+  const timeDir = fileURLToPath(new URL("../data/time/", import.meta.url));
+  for (const f of readdirSync(timeDir).filter(f => f.endsWith(".json"))) {
+    for (const [id, v] of Object.entries(JSON.parse(readFileSync(timeDir + f, "utf8")))) {
+      if (![1, 2, 5, 10, 20].includes(v.min)) {
+        badTime.push(`${f} ${id}: ${JSON.stringify(v.min)}`);
+        continue;
+      }
+      estMin[id] = v.min;
+    }
+  }
+} catch {
+  /* no time sidecars yet */
+}
+if (badTime.length) {
+  console.error(`bad "min" bucket(s) — expected 1/2/5/10/20:\n  ${badTime.join("\n  ")}`);
+  process.exit(1);
+}
+
 // data/solutions/<data file>.json: the AI-solutions campaign's sidecars, {id: {html, check}} for
 // keyed questions the organiser left without a derivation — one sidecar per data file. Merged here
 // into `sol_ai`; `check` is the campaign's own validation (dev/scripts/check-solutions.mjs) and
@@ -149,6 +174,7 @@ for (const f of readdirSync(dataDir)
           }
         : {}), // flagged in suspected_key_errors.tsv
       ...(mental[q.id] ? { mental: mental[q.id].level, mental_hint: mental[q.id].hint } : {}), // judged solvable in your head (data/mental sidecars)
+      ...(estMin[q.id] ? { est_min: estMin[q.id] } : {}), // focused-work time bucket (data/time sidecars)
       ...(solutions[q.id] && !q.answer?.solution_html && !q.answer?.model?.solution_html
         ? { sol_ai: solutions[q.id] }
         : {}), // AI-written derivation where no other one exists (data/solutions sidecars)

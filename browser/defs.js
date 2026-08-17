@@ -159,6 +159,15 @@ const FACETS = [
     labelFor: v => `${v}p`
   },
   {
+    key: "czas",
+    label: "Czas",
+
+    // est_min: the time-bucket campaign's estimate (data/time/ sidecars, merged by build.mjs)
+    values: q => (q.est_min ? [String(q.est_min)] : []),
+    numeric: true,
+    labelFor: v => `≈${v} min`
+  },
+  {
     key: "form",
     label: "Forma",
     values: q => [q.type],
@@ -357,6 +366,18 @@ const pluralQuestions = n => (n === 1 ? "zadanie" : isPolishFew(n) ? "zadania" :
 const pluralSelected = n => (n === 1 || isPolishFew(n) ? "zaznaczone" : "zaznaczonych");
 const pluralTopics = n => (n === 1 ? "temat" : isPolishFew(n) ? "tematy" : "tematów");
 const pluralMarks = n => (n === 1 ? "oznaczenie" : isPolishFew(n) ? "oznaczenia" : "oznaczeń");
+
+// est_min sums for the summary line: minutes under an hour, then "2h 3m" / "1d 2h 49m"
+// (zero components dropped: 120 → "2h")
+const fmtMin = m => {
+  if (m < 60) {
+    return `${m} min`;
+  }
+  const d = Math.floor(m / 1440),
+    h = Math.floor((m % 1440) / 60),
+    min = m % 60;
+  return [d ? `${d}d` : "", h ? `${h}h` : "", min ? `${min}m` : ""].filter(Boolean).join(" ");
+};
 
 const debounce = (fn, ms) => {
   let t;
