@@ -24,6 +24,18 @@
     <script defer src="app.js"></script>
   </head>
   <body>
+    <!-- Splash: static markup paints before the deferred scripts run; init() fades it out
+         once the data shards are loaded. -->
+    <div id="splash">
+      <img class="splash-mark" src="favicon.svg" alt="" width="72" height="72">
+      <div class="brand-wm splash-wm">konkurs<span class="brand-accent">·mat</span></div>
+      <p class="splash-tag">
+        Zadania wojewódzkich konkursów matematycznych, <br>z całej Polski, w jednym miejscu.
+      </p>
+      <p class="splash-load">
+        <span class="splash-spin" aria-hidden="true"></span>Wczytywanie zadań…
+      </p>
+    </div>
     <div class="topbar">
       <div class="tb-side">
         <span class="brand">

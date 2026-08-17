@@ -2336,3 +2336,83 @@ body.hide-mental .mental-toggle {
     border-radius: 0;
   }
 }
+
+/* Splash: full-viewport cover above everything (.topbar is z-index 5); static HTML in
+   index.html so it paints before any script runs, init() fades it out (.hide) and removes it. */
+#splash {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  padding: 1rem;
+  background: #fff;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  text-align: center;
+  transition: opacity 0.35s;
+}
+#splash.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+.splash-mark {
+  border-radius: 14px;
+  margin-bottom: 0.6rem;
+}
+
+/* the topbar wordmark classes carry the colors (incl. their dark overrides); only upsize here */
+#splash .brand-wm {
+  font-size: 1.7rem;
+}
+.splash-tag {
+  margin: 0;
+  color: #555;
+  font-size: 0.95rem;
+  max-width: 30rem;
+}
+.splash-load {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 2.2rem 0 0;
+  color: #888;
+  font-size: 0.85rem;
+}
+.splash-spin {
+  width: 14px;
+  height: 14px;
+  border: 2px solid var(--border);
+  border-top-color: #3a4a86;
+  border-radius: 50%;
+  animation: splash-spin 0.8s linear infinite;
+}
+@keyframes splash-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .splash-spin {
+    animation: none;
+  }
+}
+
+/* dark variants live outside the main html.dark block: the splash is self-contained and
+   its rules read best in one place; @media screen matches that block's print-stays-light rule */
+@media screen {
+  html.dark #splash {
+    background: hsl(var(--tint-h) 16% 11%);
+  }
+  html.dark .splash-tag {
+    color: hsl(var(--tint-h) 13% 70%);
+  }
+  html.dark .splash-load {
+    color: hsl(var(--tint-h) 10% 55%);
+  }
+  html.dark .splash-spin {
+    border-top-color: hsl(221 52% 74%);
+  }
+}

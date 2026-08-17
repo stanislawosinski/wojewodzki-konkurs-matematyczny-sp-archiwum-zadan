@@ -1025,6 +1025,12 @@ function wireTitle() {
 
 function init(data) {
   DATA = data;
+
+  // init() runs synchronously through applyState(), so the browser first paints after the
+  // whole UI is ready — the fade starts from a fully built page (or the error message below)
+  const splash = $("splash");
+  splash.classList.add("hide");
+  setTimeout(() => splash.remove(), 400);
   if (!DATA.length) {
     setsummary.textContent = "Brak danych — uruchom: node build.mjs";
     return;
