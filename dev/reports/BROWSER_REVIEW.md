@@ -75,6 +75,12 @@ default makes some screen content disagree with the facets and the printed key**
    reveal should show the corroborated AI answer for keyless questions even with AI
    off, by the key sheet's own reasoning.
 
+> Item 9 **FIXED 2026-08-17** (the keyless model derivation now gets the
+> *"Rozwiązanie AI:"* prefix + `kai-sol` class, so the existing "Rozwiązania AI w
+> kluczu" toggle and legend cover it; deliberate behavior change: unchecking the
+> toggle now hides the derivation — the AI answer line still always prints).
+> Verified via `renderKeyEntry` in Chrome off file://.
+
 9. **Keyless AI derivations print unlabeled and untogglable.** For keyless questions
    `renderKeyEntry` (`render.js:412`) prints `model.solution_html` as plain `.ksol` —
    no *"Rozwiązanie AI:"* prefix, not covered by the "Rozwiązania AI w kluczu" print

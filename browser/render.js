@@ -411,7 +411,11 @@ function renderKeyEntry(q, seq) {
   // answer stands in for a missing key. *_html fields are trusted HTML by design.
   const sol = hasKey || cancelled ? a.solution_html : a.model?.solution_html;
   if (sol) {
-    p.push(`<div class="ksol">${sol}</div>`);
+    p.push(
+      hasKey || cancelled
+        ? `<div class="ksol">${sol}</div>`
+        : `<div class="ksol kai-sol"><em>Rozwiązanie AI:</em> ${sol}</div>`
+    );
   } else if (q.sol_ai) {
     p.push(`<div class="ksol kai-sol"><em>Rozwiązanie AI:</em> ${q.sol_ai}</div>`);
   }
