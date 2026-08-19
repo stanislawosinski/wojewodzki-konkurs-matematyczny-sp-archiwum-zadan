@@ -631,9 +631,10 @@ select {
   .layout {
     display: block;
   }
-  .brand {
+  .brand,
+  .tb-side .tb-sep {
     display: none;
-  } /* desktop-only brand mark */
+  } /* desktop-only brand mark; its separator hides with it */
   .topbar {
     flex-wrap: wrap;
     gap: 0.4rem 0.8rem;
