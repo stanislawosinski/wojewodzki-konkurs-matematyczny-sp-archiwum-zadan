@@ -59,6 +59,17 @@ let showAI = false,
 // Shareable view state, so it round-trips through the URL hash (key "tmode"; absent = OR).
 // reassigned by app.js (mode toggle) and restoreTopicMode below — kept let, cross-file global
 let topicAnd = false;
+// Temat facet presentation: "tree" (grouped by category, the default) or "flat" (a single
+// list sorted by question count, descending). Device setting, own localStorage key (like
+// "theme"/"snap"), read here so buildTopicFacet's first build already matches — no flash.
+let topicView = "tree";
+try {
+  if (localStorage.getItem("topicView") === "flat") {
+    topicView = "flat";
+  }
+} catch (_e) {
+  // localStorage blocked → default tree
+}
 const selectedSet = new Set(); // hashes; lives outside the DOM — articles are destroyed on re-render
 const scratchOverrides = new Map(); // hash -> 'half' | 'full'; per-question brudnopis override (default not stored)
 const svgOverrides = new Map(); // hash -> 'png' | 'svg'; per-question figure format pin (default follows vectorPriority; cleared when the setting changes). Serialized to the hash so it survives reload/sharing.

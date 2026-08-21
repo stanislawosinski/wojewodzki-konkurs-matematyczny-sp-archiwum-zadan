@@ -1108,11 +1108,27 @@ select {
   margin: 0;
   padding: 0 0 0 1.1rem; /* indent leaves under their parent */
 }
+/* tree/list view toggle, at the header's right edge, after the dowolny/każdy toggle; the
+   inline SVGs (see TOPIC_VIEW_BTN) share one size, so toggling never shifts the radios */
+.topic-view-toggle {
+  flex: 0 0 auto;
+  align-self: center;
+  display: inline-flex;
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  color: #bbb;
+  cursor: pointer;
+}
+.topic-view-toggle:hover {
+  color: #555;
+}
 .topic-mode {
   margin-left: auto;
   display: inline-flex;
   gap: 0.5rem;
-  font-size: 0.7rem;
+  font-size: 0.65rem;
   font-weight: normal;
   color: #666;
 }
@@ -2180,7 +2196,8 @@ body.hide-mental .mental-toggle {
   html.dark .simmark,
   html.dark .progmark,
   html.dark .qmeta .tag.ctx,
-  html.dark .info-i {
+  html.dark .info-i,
+  html.dark .topic-view-toggle {
     color: hsl(var(--tint-h) 9% 52%);
   }
 
@@ -2197,6 +2214,7 @@ body.hide-mental .mental-toggle {
   html.dark #settingsClose:hover,
   html.dark .about-close:hover,
   html.dark .info-i:hover,
+  html.dark .topic-view-toggle:hover,
   html.dark .reorder:hover,
   html.dark .scratch-toggle:hover,
   html.dark .mental-toggle:hover,

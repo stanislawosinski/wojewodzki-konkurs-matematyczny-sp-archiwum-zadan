@@ -81,6 +81,9 @@ function refreshFacetCounts(countSel, countGate, andKeys, countBase) {
       spans[v].closest(".facet-opt").classList.toggle("dim", n === 0 && !selections[f.key].has(v));
     }
   }
+  if (topicView === "flat") {
+    sortTopicFlatList(allCounts.topic);
+  }
 }
 
 function update() {
@@ -235,6 +238,32 @@ function clearAllFilters() {
   refilter(); // push, so Back restores the filters you cleared
 }
 
+// Temat tree/list toggle: swap the presentation, keep selections/search/counts intact.
+// Rebuilds only the <ul>, so topicSearchEl/topicCountEl (cached once at init) stay valid.
+function toggleTopicView() {
+  topicView = topicView === "tree" ? "flat" : "tree";
+  try {
+    localStorage.setItem("topicView", topicView);
+  } catch (_e) {
+    // localStorage blocked → view choice just won't persist
+  }
+  const box = facetsEl.querySelector('.facet[data-facet="topic"]');
+  const toggleBtn = box.querySelector(".topic-view-toggle");
+  toggleBtn.innerHTML = TOPIC_VIEW_BTN[topicView].icon;
+  toggleBtn.title = TOPIC_VIEW_BTN[topicView].title;
+  box.querySelector(".facet-list").replaceWith(buildTopicList());
+  facetsEl.querySelectorAll('.facet[data-facet="topic"] .facet-opt input').forEach(inp => {
+    inp.checked = selections.topic.has(inp.value);
+  });
+  syncTopicParents();
+  const q = topicSearchEl.value.trim();
+  if (q) {
+    (topicView === "flat" ? filterTopicFlat : filterTopicTree)(q);
+  }
+  const c = lastCountArgs;
+  refreshFacetCounts(c.countSel, c.countGate, c.andKeys, c.countBase);
+}
+
 // Temat parent checkbox: select/deselect every present leaf under this category
 function toggleTopicCategory(catCheck) {
   const on = catCheck.checked;
@@ -285,14 +314,21 @@ function wireFacets() {
       return;
     }
 
+    // Temat tree/list view toggle
+    if (e.target.closest(".topic-view-toggle")) {
+      toggleTopicView();
+      return;
+    }
+
     // "✓ widoczne" in the Postęp header (its ⇄ neighbour is pure popovertarget, no JS)
     if (e.target.closest(".prog-markall")) {
       markAllDone();
     }
   });
 
-  // in-tree topic search: purely visual (hide/highlight rows); never touches the filter or URL
-  topicSearchEl.oninput = () => filterTopicTree(topicSearchEl.value.trim());
+  // topic search: purely visual (hide/highlight rows); never touches the filter or URL
+  topicSearchEl.oninput = () =>
+    (topicView === "flat" ? filterTopicFlat : filterTopicTree)(topicSearchEl.value.trim());
 
   // Postęp export/import (the ⇄ popover): the ✓/✗ marks as JSON in a textarea — the
   // lifeboat for moving progress between devices (localStorage is per-browser). Import

@@ -182,21 +182,20 @@ function buildFacetUI() {
   }
 }
 
-// The Temat facet is a tree: each present category is a parent checkbox (toggles all its
-// leaves) with its leaves nested under it, plus an OR/AND mode toggle, an in-tree search box,
-// and a live selected-count. Leaves stay .facet-opt so the generic selection/count/URL code
-// (which targets ".facet-opt input") reaches them; the parent's .cat-check is deliberately not
-// a ".facet-opt input" so it never round-trips into the URL — it's pure UI derived from leaves.
-function buildTopicFacet(box) {
-  box.innerHTML =
-    `<div class="facet-h">Temat` +
-    `<span class="topic-mode" role="radiogroup" aria-label="Dopasowanie tematów">` +
-    `<span class="mode-opt"><label><input type="radio" name="topicMode" value="or" checked> dowolny</label>` +
-    infoIcon("Zadanie pasuje, jeśli ma choć jeden z zaznaczonych tematów.") +
-    `</span><span class="mode-opt"><label><input type="radio" name="topicMode" value="and"> każdy</label>` +
-    infoIcon("Zadanie pasuje tylko wtedy, gdy ma wszystkie zaznaczone tematy naraz.") +
-    `</span></span></div>` +
-    `<input type="text" class="topic-search" placeholder="szukaj tematu…" aria-label="Szukaj tematu">`;
+// one leaf <li> — shared by the tree and flat list builders below
+function topicLeafLi(v) {
+  const li = document.createElement("li");
+  li.className = "facet-opt";
+  li.innerHTML =
+    `<label><input type="checkbox" value="${esc(v)}">` +
+    `<span class="opt-l" data-label="${esc(v)}">${esc(v)}</span><span class="opt-c"></span></label>` +
+    infoIcon(TOPIC_DESC[v]);
+  countSpans.topic[v] = li.querySelector(".opt-c");
+  return li;
+}
+
+// grouped by catalog category, leaves nested under a parent checkbox that toggles them all
+function buildTopicListTree() {
   const ul = document.createElement("ul");
   ul.className = "facet-list";
   for (const { cat, leaves } of topicGroups(Object.keys(INDEX.topic || {}))) {
@@ -210,19 +209,82 @@ function buildTopicFacet(box) {
     const kids = document.createElement("ul");
     kids.className = "topic-leaves";
     for (const v of leaves) {
-      const li = document.createElement("li");
-      li.className = "facet-opt";
-      li.innerHTML =
-        `<label><input type="checkbox" value="${esc(v)}">` +
-        `<span class="opt-l" data-label="${esc(v)}">${esc(v)}</span><span class="opt-c"></span></label>` +
-        infoIcon(TOPIC_DESC[v]);
-      countSpans.topic[v] = li.querySelector(".opt-c");
-      kids.append(li);
+      kids.append(topicLeafLi(v));
     }
     catLi.append(kids);
     ul.append(catLi);
   }
-  box.append(ul);
+  return ul;
+}
+
+// single flat list, sorted by question count descending (ties broken alphabetically). Built
+// in whole-corpus order; refreshFacetCounts re-sorts it live (sortTopicFlatList below) so the
+// ranking tracks the current drill-down counts as other filters come and go
+function buildTopicListFlat() {
+  const ul = document.createElement("ul");
+  ul.className = "facet-list";
+  const present = Object.keys(INDEX.topic || {});
+  present.sort((a, b) => INDEX.topic[b].length - INDEX.topic[a].length || a.localeCompare(b, "pl"));
+  for (const v of present) {
+    ul.append(topicLeafLi(v));
+  }
+  return ul;
+}
+
+// reorder the flat list by the live drill-down counts, descending; the tree keeps catalog order
+function sortTopicFlatList(counts) {
+  const ul = facetsEl.querySelector('.facet[data-facet="topic"] .facet-list');
+  const lis = [...ul.children];
+  lis.sort((a, b) => {
+    const va = a.querySelector("input").value,
+      vb = b.querySelector("input").value;
+    return (counts[vb] || 0) - (counts[va] || 0) || va.localeCompare(vb, "pl");
+  });
+  ul.append(...lis); // appending existing nodes moves them; checkbox state survives
+}
+
+const buildTopicList = () => (topicView === "flat" ? buildTopicListFlat() : buildTopicListTree());
+
+// The view toggle advertises the view it switches TO: list bars in tree view, an indent-guide
+// tree in flat view. Both are same-size inline SVGs (currentColor, like the topbar bulb), so
+// toggling never shifts the radios and the icon follows the theme ink (emoji wouldn't).
+const TOPIC_VIEW_BTN = {
+  tree: {
+    title: "Pokaż jako listę",
+    icon:
+      `<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true">` +
+      `<rect fill="currentColor" x="1" y="2.4" width="14" height="2.2" rx="1.1"/>` +
+      `<rect fill="currentColor" x="1" y="6.9" width="14" height="2.2" rx="1.1"/>` +
+      `<rect fill="currentColor" x="1" y="11.4" width="14" height="2.2" rx="1.1"/></svg>`
+  },
+  flat: {
+    title: "Pokaż jako drzewo",
+    icon:
+      `<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true">` +
+      `<path fill="none" stroke="currentColor" stroke-width="1.5" d="M3 2v9a2 2 0 0 0 2 2h2M3 6.5h4"/>` +
+      `<rect fill="currentColor" x="9" y="1" width="6" height="3.2" rx="1"/>` +
+      `<rect fill="currentColor" x="9" y="6" width="6" height="3.2" rx="1"/>` +
+      `<rect fill="currentColor" x="9" y="11" width="6" height="3.2" rx="1"/></svg>`
+  }
+};
+
+// The Temat facet: a tree/flat toggle (right of the label), an OR/AND mode toggle, an
+// in-tree search box, and a live selected-count. Leaves stay .facet-opt so the generic
+// selection/count/URL code (which targets ".facet-opt input") reaches them; the tree's
+// .cat-check is deliberately not a ".facet-opt input" so it never round-trips into the URL —
+// it's pure UI derived from leaves.
+function buildTopicFacet(box) {
+  box.innerHTML =
+    `<div class="facet-h">Temat` +
+    `<span class="topic-mode" role="radiogroup" aria-label="Dopasowanie tematów">` +
+    `<span class="mode-opt"><label><input type="radio" name="topicMode" value="or" checked> dowolny</label>` +
+    infoIcon("Zadanie pasuje, jeśli ma choć jeden z zaznaczonych tematów.") +
+    `</span><span class="mode-opt"><label><input type="radio" name="topicMode" value="and"> każdy</label>` +
+    infoIcon("Zadanie pasuje tylko wtedy, gdy ma wszystkie zaznaczone tematy naraz.") +
+    `</span></span>` +
+    `<button type="button" class="topic-view-toggle" title="${TOPIC_VIEW_BTN[topicView].title}" aria-label="Przełącz widok tematów: drzewo / lista">${TOPIC_VIEW_BTN[topicView].icon}</button></div>` +
+    `<input type="text" class="topic-search" placeholder="szukaj tematu…" aria-label="Szukaj tematu">`;
+  box.append(buildTopicList());
   box.insertAdjacentHTML("beforeend", `<div class="topic-count"></div>`);
 }
 
@@ -273,6 +335,21 @@ function filterTopicTree(query) {
       opt.innerHTML = leafMatch ? highlightMatch(text, q) : esc(text);
     }
     catLi.hidden = !(!q || catMatch || anyLeaf);
+  }
+}
+
+// live topic-list search, the flat-view counterpart of filterTopicTree: no category layer,
+// so each leaf just matches or hides on its own name.
+function filterTopicFlat(query) {
+  const q = query.toLowerCase();
+  for (const leafLi of facetsEl.querySelectorAll(
+    '.facet[data-facet="topic"] .facet-list > .facet-opt'
+  )) {
+    const opt = leafLi.querySelector(".opt-l"),
+      text = opt.dataset.label,
+      match = !!q && text.toLowerCase().includes(q);
+    leafLi.hidden = !(!q || match);
+    opt.innerHTML = match ? highlightMatch(text, q) : esc(text);
   }
 }
 
