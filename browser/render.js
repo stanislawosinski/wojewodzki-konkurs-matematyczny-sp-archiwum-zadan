@@ -496,6 +496,11 @@ function renderKeyEntry(q, seq) {
   } else if (q.sol_ai) {
     p.push(`<div class="ksol kai-sol"><em>Rozwiązanie AI:</em> ${q.sol_ai}</div>`);
   }
+
+  // the organiser's scoring scheme, where the key printed one
+  if (a.rubric_html) {
+    p.push(`<div class="ksol krubric">${a.rubric_html}</div>`);
+  }
   return `${p.join("")}</div>`;
 }
 
@@ -690,11 +695,21 @@ const revealAi = q => {
   return q.answer?.correct || q.annulled ? [] : aiAnswers(q).slice(0, 1);
 };
 
+// what follows the answer line: the key's own derivation and, where the key printed one,
+// its scoring scheme — either may be absent
+function solutionBlocks(sol, rubric) {
+  return [
+    sol && `<div class="answer solution">${sol}</div>`,
+    rubric && `<div class="answer rubric">${rubric}</div>`
+  ].filter(Boolean);
+}
+
 // the collapsed answer reveal: official key (answer + derivation), the "Brak klucza"
 // note, and — when the AI experiment is on — the verification badge and AI answers
 function revealHtml(q) {
   const correct = q.answer?.correct;
   const sol = q.answer?.solution_html;
+  const rubric = q.answer?.rubric_html;
 
   // the wrong-key warning shows regardless of showAI — same rule as the printed key
   // (a wrong key without a warning is worse than no key at all)
@@ -712,9 +727,7 @@ function revealHtml(q) {
     // without keys; the key sheet's wording
     parts.push('<div class="answer nokey">Zadanie anulowane — bez poprawnej odpowiedzi</div>');
   }
-  if (sol) {
-    parts.push(`<div class="answer solution">${sol}</div>`); // key's derivation kept with its answer
-  }
+  parts.push(...solutionBlocks(sol, rubric));
 
   // the AI-written derivation stands in wherever no published one exists — for those questions it is
   // the only path there is, so it shows regardless of the showAI toggle, labelled as AI

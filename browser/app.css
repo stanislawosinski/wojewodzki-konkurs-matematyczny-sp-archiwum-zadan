@@ -1501,6 +1501,16 @@ body.hide-mental .mental-toggle {
   font-size: 0.85rem;
   color: #333;
 } /* AI's reasoning (sole AI answer) — same smaller grey */
+.answer.rubric,
+.ksol.krubric {
+  font-size: 0.85rem;
+  color: #555;
+} /* the key's scoring scheme — quieter than the derivation above it */
+.answer.rubric ul,
+.ksol.krubric ul {
+  margin: 0.2rem 0;
+  padding-left: 1.2rem;
+} /* keys that print the scheme as a step list keep it as one */
 /* AI section: opens with a 2rem gap that divides it from the key content above */
 .verif {
   margin-top: 2rem;
@@ -2127,6 +2137,7 @@ body.hide-mental .mental-toggle {
   html.dark .settings-pop label,
   html.dark .answer.ai,
   html.dark .answer.solution.ai-sol,
+  html.dark .answer.rubric,
   html.dark .verif,
   html.dark .verif-reason {
     color: hsl(var(--tint-h) 12% 80%);

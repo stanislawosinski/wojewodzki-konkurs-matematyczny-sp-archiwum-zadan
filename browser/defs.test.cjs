@@ -127,4 +127,9 @@ assert.strictEqual(
   "x &lt; 1: <math>A</math> &amp; <math>B</math>"
 );
 
+// --- pkt: the key's scoring scheme, present or not
+assert.deepStrictEqual(values("pkt", { answer: { rubric_html: "<p>1 pkt za…</p>" } }), ["z"]);
+assert.deepStrictEqual(values("pkt", { answer: { solution_html: "s" } }), ["bez"]);
+assert.deepStrictEqual(values("pkt", {}), ["bez"]);
+
 console.log("defs.test.cjs: all assertions passed");

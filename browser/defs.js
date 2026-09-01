@@ -120,6 +120,9 @@ const FACET_INFO = {
     ai: "Rozwiązanie napisał model AI — tam, gdzie klucz podał samą odpowiedź bez rozwiązania, gdzie klucza w ogóle nie ma (wtedy od AI pochodzi też odpowiedź), albo gdzie weryfikacja wskazała błąd w kluczu (wtedy wywód AI kwestionuje klucz).",
     bez: "Żadne rozwiązanie nie jest pokazywane — jest sama odpowiedź z klucza albo zadanie anulowane."
   },
+  pkt: {
+    _: "Schemat punktowania z klucza — za co organizator przyznawał kolejne punkty. Pokazywany razem z odpowiedzią, jest tylko tam, gdzie klucz go wydrukował."
+  },
   powt: {
     _: "Zadania, które pojawiają się w archiwum więcej niż raz. Klik w chip ×N/~N przy zadaniu pokazuje wszystkie wystąpienia.",
     duplikat:
@@ -243,6 +246,15 @@ const FACETS = [
     },
     order: ["z", "klucz", "ai", "bez"],
     labelFor: v => SOL_LABELS[v] || v
+  },
+  {
+    key: "pkt",
+    label: "Punktacja",
+
+    // the key's own scoring scheme (answer.rubric_html) — many keys print none
+    values: q => [q.answer?.rubric_html ? "z" : "bez"],
+    order: ["z", "bez"],
+    labelFor: v => (v === "z" ? "Ze schematem" : "Bez schematu")
   },
   {
     key: "powt",

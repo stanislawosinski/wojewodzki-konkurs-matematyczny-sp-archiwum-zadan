@@ -59,7 +59,7 @@ http(s). That means:
 
 ### Escaping
 Every interpolated data value goes through `esc()`. The named exceptions, trusted HTML by
-design: `*_html` fields (`prompt_html`, `choices[].html`, `solution_html`) and
+design: `*_html` fields (`prompt_html`, `choices[].html`, `solution_html`, `rubric_html`) and
 `answer.correct` via `answerHtml()` (plain text escaped, `<math...` passed through).
 Don't widen this surface.
 
