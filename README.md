@@ -50,6 +50,12 @@ heavy lifting, in this order:
 10. **Time pass** — every question bucketed by how long a well-prepared pupil needs to finish it
     (≈1/2/5/10/20 focused minutes, judged from the worked solution against fixed anchors);
     buckets live in `data/time/` (see [`data/time/README.md`](data/time/README.md)).
+11. **Scoring-scheme pass** — many keys print a rubric next to the answer ("1 pkt za ułożenie
+    równania, 1 pkt za rozwiązanie…"); 1571 of them were transcribed verbatim into
+    `answer.rubric_html`, again off the rendered pages. No sidecar for this one — the schemes sit
+    in `data/questions/` beside the answers they score. Only what a key actually prints is
+    recorded, so a bare answer table yields no rubric. Drives the *Punktacja* filter and shows
+    under the answer in the reveal and on the printed key.
 
 Humans set the conventions, reviewed the redrawn figures, spot-checked questions, and made the
 structural decisions. The full reproducible procedure is preserved in
@@ -174,7 +180,7 @@ in [`SCHEMA.md`](SCHEMA.md); in brief, each question object carries:
 
 `id`, `number`, `page`, `type` (`closed_single` | `open` | `true_false`), `points`, `topics`
 (leaf tags), `prompt_html` (HTML + inline MathML), `choices`, `figures` (filenames in
-`browser/figures/`), and `answer` (`correct` + optional `solution_html`).
+`browser/figures/`), and `answer` (`correct` + optional `solution_html` and `rubric_html`).
 
 Each test also records `source_file` / `answers_file`, e.g. `szkolny/2016_podkarpackie.pdf` —
 these are **relative to `pdfs/`** (prepend `pdfs/` to open the file).
