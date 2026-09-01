@@ -57,6 +57,7 @@ Source PDFs live under `pdfs/<stage>/`; `source_file` is that path relative to `
 | `figures` | filenames in `browser/figures/`; `[]` if none. A figure can also be embedded inline as `<img src="figures/…">` in `prompt_html`/`choices[].html` (e.g. pick-the-net questions) — such files don't appear in `figures` |
 | `answer.correct` | choice label (`"C"`) or short text; `null` if unknown |
 | `answer.solution_html` | worked solution HTML, or `null` if the key gives only a letter |
+| `answer.rubric_html` | the key's scoring scheme for the task ("1 pkt za ułożenie równania…"), verbatim HTML; omit where the key prints none |
 | `answer.model` | blind-AI verification block (`answer`, `by`, `agrees`, `corroborated`, `solution_html`), written only by the verification passes — spec in [`dev/docs/VERIFICATION.md`](dev/docs/VERIFICATION.md); never hand-edit |
 
 ### Topic catalog

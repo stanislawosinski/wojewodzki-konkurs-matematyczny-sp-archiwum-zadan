@@ -501,6 +501,7 @@
       "answer": {
         "correct": "3 cm, 4 cm, 5 cm",
         "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> oznacza długość boku kwadratu; boki prostokąta to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mn>3</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>−</mo><mn>2</mn></mrow></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mn>3</mn><mo>)</mo><mo>(</mo><mi>a</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>&lt;</mo><msup><mi>a</mi><mn>2</mn></msup></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>&lt;</mo><mn>6</mn></mrow></math>. Uwzględniając, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>−</mo><mn>2</mn><mo>&gt;</mo><mn>0</mn></mrow></math> oraz że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest liczbą naturalną, mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>∈</mo><mo>{</mo><mn>3</mn><mo>,</mo><mn>4</mn><mo>,</mo><mn>5</mn><mo>}</mo></mrow></math>, czyli bok kwadratu ma długość 3 cm, 4 cm lub 5 cm.</p>",
+        "rubric_html": "<ul><li>1 pkt – Wprowadzenie zmiennej i poprawne zapisanie długości boków prostokąta.</li><li>2 pkt – Poprawne zapisanie nierówności z jedną niewiadomą wynikającej z treści zadania.</li><li>3 pkt – Poprawne rozwiązanie nierówności.</li><li>4 pkt – Poprawne podanie długości wszystkich odcinków spełniających warunki zadania.</li></ul>",
         "model": {
           "answer": "a = 3, 4 lub 5 cm",
           "by": "sonnet",
@@ -525,6 +526,7 @@
       "answer": {
         "correct": "2000",
         "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> to liczba produkowanych miesięcznie pudełek, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi></math> — cena czerwonego pudełka, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,5</mn><mi>c</mi></mrow></math> — cena zielonego. Przychód rzeczywisty: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,9</mn><mi>x</mi><mi>c</mi><mo>+</mo><mn>0,1</mn><mi>x</mi><mo>·</mo><mn>0,5</mn><mi>c</mi></mrow></math>, a hipotetyczny: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mi>x</mi><mo>−</mo><mn>100</mn><mo>)</mo><mi>c</mi></mrow></math>. Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,9</mn><mi>x</mi><mi>c</mi><mo>+</mo><mn>0,1</mn><mi>x</mi><mo>·</mo><mn>0,5</mn><mi>c</mi><mo>=</mo><mo>(</mo><mi>x</mi><mo>−</mo><mn>100</mn><mo>)</mo><mi>c</mi></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,9</mn><mi>x</mi><mo>+</mo><mn>0,05</mn><mi>x</mi><mo>=</mo><mi>x</mi><mo>−</mo><mn>100</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,05</mn><mi>x</mi><mo>=</mo><mn>100</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>2000</mn></mrow></math>. Fabryka produkuje 2000 pudełek miesięcznie.</p>",
+        "rubric_html": "<ul><li>1 pkt – Wprowadzenie oznaczeń i zapisanie cen pudełek.</li><li>2 pkt – Poprawne zapisanie przychodu ze sprzedaży pudełek.</li><li>3 pkt – Poprawne zapisanie równania zgodnie z warunkami zadania.</li><li>4 pkt – Poprawne przekształcenie równania do postaci równania z jedną niewiadomą.</li><li>5 pkt – Poprawne obliczenie liczby pudełek produkowanych w ciągu miesiąca.</li></ul>",
         "model": {
           "answer": "2000 pudełek",
           "by": "sonnet",
@@ -547,6 +549,7 @@
       "answer": {
         "correct": "27 cm",
         "solution_html": "<p>Objętość kuli: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>4</mn><mn>3</mn></mfrac><mi>π</mi><mo>·</mo><msup><mn>6</mn><mn>3</mn></msup><mo>=</mo><mn>288</mn><mi>π</mi></mrow></math> cm³. Połowa objętości: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>144</mn><mi>π</mi></mrow></math> cm³. Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>π</mi><mo>·</mo><msup><mn>4</mn><mn>2</mn></msup><mo>·</mo><mi>H</mi><mo>=</mo><mn>144</mn><mi>π</mi></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>H</mi><mo>=</mo><mn>27</mn></mrow></math> cm.</p>",
+        "rubric_html": "<ul><li>1 pkt – Poprawne obliczenie objętości kuli.</li><li>2 pkt – Poprawne obliczenie objętości stożka (połowy objętości kuli).</li><li>3 pkt – Poprawne zapisanie równania z jedną niewiadomą wyrażającego zależność objętości stożka od długości jego promienia i długości jego wysokości.</li><li>4 pkt – Poprawne obliczenie długości wysokości stożka.</li></ul>",
         "model": {
           "answer": "27 cm",
           "by": "sonnet",
@@ -570,6 +573,7 @@
       "answer": {
         "correct": "9 1/11 %",
         "solution_html": "<p>Liczba miejsc w rzędzie równa się liczbie rzędów, więc łączna liczba widzów to kwadrat liczby pierwszej. Jedyna liczba pierwsza <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math>, dla której <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mo>&lt;</mo><msup><mi>p</mi><mn>2</mn></msup><mo>&lt;</mo><mn>150</mn></mrow></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>p</mi><mo>=</mo><mn>11</mn></mrow></math> (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>11</mn><mn>2</mn></msup><mo>=</mo><mn>121</mn></mrow></math>). Rzędów jest 11, w każdym jedna dziewczynka, więc dziewcząt jest 11. Procent: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>11</mn><mn>121</mn></mfrac><mo>·</mo><mn>100</mn><mo>%</mo><mo>=</mo><mn>9</mn><mfrac><mn>1</mn><mn>11</mn></mfrac><mo>%</mo></mrow></math>.</p>",
+        "rubric_html": "<ul><li>1 pkt – Poprawne podanie liczby rzędów (liczby miejsc w rzędzie).</li><li>2 pkt – Poprawne obliczenie liczby dziewcząt.</li><li>3 pkt – Poprawne obliczenie jaki procent wszystkich widzów stanowiły dziewczęta.</li></ul>",
         "model": {
           "answer": "9 1/11% (≈9,09%)",
           "by": "sonnet",

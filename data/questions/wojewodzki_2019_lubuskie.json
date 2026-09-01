@@ -588,6 +588,7 @@
       "answer": {
         "correct": "FPF",
         "solution_html": null,
+        "rubric_html": "<p>Po 1 punkcie za poprawną ocenę każdego z trzech zdań. Razem: 3 punkty.</p>",
         "model": {
           "answer": "FPF",
           "by": "sonnet",
@@ -618,6 +619,7 @@
       "answer": {
         "correct": "PP",
         "solution_html": null,
+        "rubric_html": "<p>Po 1 punkcie za poprawną ocenę każdego z dwóch zdań. Razem: 2 punkty.</p>",
         "model": {
           "answer": "PP",
           "by": "sonnet",
@@ -644,6 +646,7 @@
       "answer": {
         "correct": "PFF",
         "solution_html": null,
+        "rubric_html": "<p>Po 1 punkcie za poprawną ocenę każdego z trzech zdań. Razem: 3 punkty.</p>",
         "model": {
           "answer": "PFF",
           "by": "sonnet",
@@ -668,6 +671,7 @@
       "answer": {
         "correct": "166 i 14",
         "solution_html": null,
+        "rubric_html": "<p>Po 1 punkcie za podanie każdej liczby. Razem: 2 punkty.</p>",
         "model": {
           "answer": "166, 14",
           "by": "sonnet",
@@ -691,6 +695,7 @@
       "answer": {
         "correct": "Liczba półek: 32, Liczba książek: 360",
         "solution_html": null,
+        "rubric_html": "<p>Po 1 punkcie za uzupełnienie każdej luki. Razem: 2 punkty.</p>",
         "model": {
           "answer": "Liczba półek: 32; liczba książek: 360",
           "by": "sonnet",
@@ -715,6 +720,7 @@
       "answer": {
         "correct": "t = 4√5, w = 6√2, z = 4",
         "solution_html": null,
+        "rubric_html": "<p>Po 1 punkcie za podanie długości każdego odcinka. Razem: 3 punkty.</p>",
         "model": {
           "answer": "t = 6√2, w = 4√5, z = 4",
           "by": "sonnet",
@@ -741,6 +747,7 @@
       "answer": {
         "correct": "AK = BL (trójkąty ABK i ABL są przystające na podstawie cechy kąt-bok-kąt)",
         "solution_html": "<p>W trójkącie równoramiennym kąty przy podstawie są równe, więc ∡BAC = ∡ABC. Dwusieczne tych kątów dają ∡BAK = ∡ABL (każdy z nich jest połową odpowiednio kąta ∡BAC i ∡ABC), a także ∡ABK = ∡BAL. Trójkąty ABK i ABL mają wspólny bok AB oraz dwa przylegające do niego kąty równych miar. Na podstawie cechy przystawania trójkątów kąt-bok-kąt trójkąty ABK i ABL są przystające, skąd wynika, że wszystkie ich odpowiednie boki są równe, a w szczególności AK = BL, co należało uzasadnić.</p>",
+        "rubric_html": "<ul><li>1 – wykazanie przystawania trójkątów ABK i ABL (podanie cechy przystawania k, b, k),</li><li>1 – zapisanie komentarza o równości odcinków AK i BL.</li></ul><p>Razem: 2 punkty.</p><p>Uwaga! Maksymalną liczbę punktów otrzymuje uczeń za rozwiązanie z pełnym uzasadnieniem.</p>",
         "model": {
           "answer": "AK = BL (trójkąty ABK i BAL są przystające, cecha kbk)",
           "by": "sonnet",
@@ -764,6 +771,7 @@
       "answer": {
         "correct": "15",
         "solution_html": "<p>Hodowca sprzedał czwartą część jajek, czyli 25 sztuk, uzyskując <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>·</mo><mn>32</mn></math> zł = 8 zł. Pozostało 75 jajek. Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę jajek popękanych; wtedy niepopękanych jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>75</mn><mo>−</mo><mi>x</mi></math> i sprzedano je po 0,40 zł, aby dołożyć brakujące 32 − 8 = 24 zł. Otrzymujemy równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>75</mn><mo>−</mo><mi>x</mi><mo>)</mo><mo>·</mo><mn>0,4</mn><mo>=</mo><mn>24</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>−</mo><mn>0,4</mn><mi>x</mi><mo>=</mo><mn>24</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,4</mn><mi>x</mi><mo>=</mo><mn>6</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>15</mn></math>. Popękanych było 15 jajek.</p>",
+        "rubric_html": "<ul><li>1 – obliczenie liczby sprzedanych jajek (25 sztuk),</li><li>1 – poprawna metoda obliczenia liczby jajek popękanych (ułożenie równania),</li><li>1 – obliczenie liczby jajek popękanych (15 sztuk) i zapisanie odpowiedzi.</li></ul><p>Razem: 3 punkty.</p>",
         "model": {
           "answer": "15",
           "by": "sonnet",

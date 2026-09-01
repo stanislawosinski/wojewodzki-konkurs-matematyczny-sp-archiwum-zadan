@@ -299,7 +299,8 @@
       "figures": [],
       "answer": {
         "correct": null,
-        "solution_html": "<p>Zadanie zostało anulowane ze względu na nieścisłość w jego treści. Za to zadanie każdy uczeń otrzymuje 2 punkty.</p>"
+        "solution_html": "<p>Zadanie zostało anulowane ze względu na nieścisłość w jego treści.</p>",
+        "rubric_html": "<p>Za to zadanie każdy uczeń otrzymuje 2 punkty.</p>"
       }
     },
     {
@@ -681,7 +682,8 @@
       "figures": [],
       "answer": {
         "correct": "np. 2/7 = 1/21 + 1/14 + 1/6 oraz 2/7 = 1/56 + 1/8 + 1/7",
-        "solution_html": "<p>Przykładowe poprawne rozkłady (wystarczą dwa różne):</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>2</mn><mn>7</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>21</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>14</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>6</mn></mfrac></mrow></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>2</mn><mn>7</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>42</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>84</mn></mfrac></mrow></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>2</mn><mn>7</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>14</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>70</mn></mfrac></mrow></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>2</mn><mn>7</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>56</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>7</mn></mfrac></mrow></math></p><p><em>lub każdy inny poprawny sposób. Za poprawne wyznaczenie każdego z dwóch sposobów przyznaje się po 2 punkty.</em></p>",
+        "solution_html": "<p>Przykładowe poprawne rozkłady (wystarczą dwa różne):</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>2</mn><mn>7</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>21</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>14</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>6</mn></mfrac></mrow></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>2</mn><mn>7</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>42</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>84</mn></mfrac></mrow></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>2</mn><mn>7</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>14</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>70</mn></mfrac></mrow></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>2</mn><mn>7</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>56</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>8</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>7</mn></mfrac></mrow></math></p><p><em>lub każdy inny poprawny sposób.</em></p>",
+        "rubric_html": "<p>Za poprawne wyznaczenie każdego z dwóch sposobów przyznaje się po 2 punkty.</p>",
         "model": {
           "answer": "2/7 = 1/4 + 1/42 + 1/84 oraz 2/7 = 1/4 + 1/35 + 1/140",
           "by": "sonnet",

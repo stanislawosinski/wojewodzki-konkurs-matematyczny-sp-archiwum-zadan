@@ -879,7 +879,8 @@
       "figures": [],
       "answer": {
         "correct": "Sahara – Afryka; Alpy – Europa; Himalaje – Azja; Karpaty – Europa; Kotlina Kongo – Afryka; Kordyliery – Ameryka Północna; Wyżyna Brazylijska – Ameryka Południowa; Nizina Chińska – Azja",
-        "solution_html": "<table><thead><tr><th>KRAINA</th><th>KONTYNENT</th></tr></thead><tbody><tr><td>Sahara</td><td>Afryka</td></tr><tr><td>Alpy</td><td>Europa</td></tr><tr><td>Himalaje</td><td>Azja</td></tr><tr><td>Karpaty</td><td>Europa</td></tr><tr><td>Kotlina Kongo</td><td>Afryka</td></tr><tr><td>Kordyliery</td><td>Ameryka Północna</td></tr><tr><td>Wyżyna Brazylijska</td><td>Ameryka Południowa</td></tr><tr><td>Nizina Chińska</td><td>Azja</td></tr></tbody></table><p><em>Punktacja: poprawne uzupełnienie 7 lub 8 pól – 3 p.; 5 lub 6 pól – 2 p.; 3 lub 4 pola – 1 p.</em></p>",
+        "solution_html": "<table><thead><tr><th>KRAINA</th><th>KONTYNENT</th></tr></thead><tbody><tr><td>Sahara</td><td>Afryka</td></tr><tr><td>Alpy</td><td>Europa</td></tr><tr><td>Himalaje</td><td>Azja</td></tr><tr><td>Karpaty</td><td>Europa</td></tr><tr><td>Kotlina Kongo</td><td>Afryka</td></tr><tr><td>Kordyliery</td><td>Ameryka Północna</td></tr><tr><td>Wyżyna Brazylijska</td><td>Ameryka Południowa</td></tr><tr><td>Nizina Chińska</td><td>Azja</td></tr></tbody></table>",
+        "rubric_html": "<p>Punktacja: poprawne uzupełnienie 7 lub 8 pól – 3 p.; 5 lub 6 pól – 2 p.; 3 lub 4 pola – 1 p.</p>",
         "model": {
           "answer": "Sahara – Afryka; Alpy – Europa; Himalaje – Azja; Karpaty – Europa; Kotlina Kongo – Afryka; Kordyliery – Ameryka Północna; Wyżyna Brazylijska – Ameryka Południowa; Nizina Chińska – Azja",
           "by": "sonnet",
@@ -905,6 +906,7 @@
       "answer": {
         "correct": "−4 °C",
         "solution_html": "<p>Podnóże góry leży na wysokości 800 m n.p.m., a jej szczyt na wysokości 2000 m n.p.m., więc różnica wysokości wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2000</mn><mo>−</mo><mn>800</mn><mo>=</mo><mn>1200</mn></math> m. Na każde 100 m temperatura spada o 0,5 °C, zatem na 1200 m spadnie o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1200</mn><mo>:</mo><mn>100</mn><mo>·</mo><mn>0,5</mn><mo>=</mo><mn>6</mn></math> °C. Temperatura na szczycie wynosi więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>−</mo><mn>6</mn><mo>=</mo><mo>−</mo><mn>4</mn></math> °C.</p>",
+        "rubric_html": "<ul><li>Wybór metody (uczeń odejmuje po 0,5 °C) – 1 p.</li><li>Poprawne obliczenie temperatury na szczycie góry (– 4 °C) – 1 p.</li></ul><p>Uwaga</p><ul><li>a) Jeśli uczeń nie zapisuje obliczeń, ale wpisuje poprawną odpowiedź, to otrzymuje 2 p.</li><li>b) Jeśli uczeń właściwie wybiera metodę (z zapisów wynika, że odejmuje po 0,5 °C), ale popełnia błąd w rachunkach, to przyznajemy 1 p.</li></ul>",
         "model": {
           "answer": "-4°C",
           "by": "sonnet",
@@ -928,6 +930,7 @@
       "answer": {
         "correct": "4,8 cm",
         "solution_html": "<p>Przyprostokątne trójkąta prostokątnego mają długości 6 cm i 8 cm, a przeciwprostokątna (najdłuższy bok) 10 cm. Pole trójkąta obliczamy z przyprostokątnych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>6</mn><mo>·</mo><mn>8</mn><mo>=</mo><mn>24</mn></math> cm². To samo pole można zapisać, korzystając z najdłuższego boku i szukanej wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>10</mn><mo>·</mo><mi>h</mi><mo>=</mo><mn>24</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mfrac><mn>48</mn><mn>10</mn></mfrac><mo>=</mo><mn>4,8</mn></math> cm.</p>",
+        "rubric_html": "<ul><li>1. Obliczenie pola trójkąta z wykorzystaniem długości przyprostokątnych.<ul><li>a) Metoda (wykorzystanie wzoru na pole trójkąta i przyprostokątnych) – 1 p.</li><li>b) Poprawny wynik z jednostką – 24 cm² – 1 p.</li></ul></li><li>2. Obliczenie szukanej wysokości.<ul><li>a) Metoda (wykorzystanie wzoru na pole) – 1 p.</li><li>b) Poprawny wynik z jednostką – 4,8 cm – 1 p.</li></ul></li></ul><p>Uwaga: Za każde inne poprawne rozwiązanie zadania, uczeń otrzymuje 4 p.</p>",
         "model": {
           "answer": "4,8 cm",
           "by": "sonnet",
@@ -952,6 +955,7 @@
       "answer": {
         "correct": "a) 260 zł; b) 0,62",
         "solution_html": "<p>a) Oszczędności Czarka to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>8</mn></mfrac></math> oszczędności Dawida, więc różnica między nimi to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>−</mo><mfrac><mn>5</mn><mn>8</mn></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>8</mn></mfrac></math> oszczędności Dawida. Ta różnica wynosi 60 zł, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>8</mn></mfrac></math> Dawida to 60 zł, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>8</mn></mfrac></math> to 20 zł, a całość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>8</mn><mn>8</mn></mfrac></math> to 160 zł. Dawid ma 160 zł, a Czarek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>160</mn><mo>−</mo><mn>60</mn><mo>=</mo><mn>100</mn></math> zł. Łączne oszczędności wynoszą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>160</mn><mo>+</mo><mn>100</mn><mo>=</mo><mn>260</mn></math> zł.</p><p>b) Kwota Dawida stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>160</mn><mn>260</mn></mfrac><mo>=</mo><mfrac><mn>8</mn><mn>13</mn></mfrac><mo>=</mo><mn>0,6153</mn><mo>…</mo><mo>≈</mo><mn>0,62</mn></math> łącznych oszczędności obu chłopców.</p>",
+        "rubric_html": "<p>a)</p><ul><li>1. Zauważenie, że 60 zł to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>8</mn></mfrac></math> oszczędności Dawida – 1 p.</li><li>2. Obliczenie oszczędności Dawida – 1 p.</li><li>3. Obliczenie łącznych oszczędności Czarka i Dawida – 1 p.</li></ul><p>b)</p><ul><li>4. Obliczenie, jaką część łącznych oszczędności stanowi kwota, którą posiada Dawid – 1 p.</li><li>Podanie wyniku we wskazanej postaci i udzielenie odpowiedzi – 1 p.</li></ul><p>Uwaga: Za każde inne poprawne rozwiązanie zadania, uczeń otrzymuje 5 p.</p>",
         "model": {
           "answer": "a) 260 zł; b) 0,62",
           "by": "sonnet",
@@ -974,6 +978,7 @@
       "answer": {
         "correct": "22 cm",
         "solution_html": "<p>Graniastosłup ma dwie podstawy będące rombami, a każdy romb ma 4 boki po 4 cm, więc suma długości krawędzi obu podstaw wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>4</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>32</mn></math> cm. Na krawędzie boczne (jest ich 4, każda równa wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math>) przypada <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>120</mn><mo>−</mo><mn>32</mn><mo>=</mo><mn>88</mn></math> cm. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mn>88</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>22</mn></math> cm.</p>",
+        "rubric_html": "<ul><li>1. Obliczenie sumy długości krawędzi podstaw – 1 p.</li><li>2. Obliczenie sumy długości krawędzi bocznych – 1 p.</li><li>3. Obliczenie wysokości graniastosłupa – 1 p.</li></ul><p>Uwaga: Za każde inne poprawne rozwiązanie zadania uczeń otrzymuje 3 p.</p>",
         "model": {
           "answer": "22 cm",
           "by": "sonnet",

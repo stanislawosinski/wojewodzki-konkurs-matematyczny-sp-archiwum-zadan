@@ -589,6 +589,7 @@
       "answer": {
         "correct": "PP",
         "solution_html": null,
+        "rubric_html": "<p>Po 1 punkcie za każdą poprawną odpowiedź. Razem: 2 punkty.</p>",
         "model": {
           "answer": "PP",
           "by": "opus",
@@ -618,6 +619,7 @@
       "answer": {
         "correct": "FPF",
         "solution_html": null,
+        "rubric_html": "<p>Po 1 punkcie za każdą poprawną odpowiedź. Razem: 3 punkty.</p>",
         "model": {
           "answer": "FPF",
           "by": "sonnet",
@@ -644,6 +646,7 @@
       "answer": {
         "correct": "FP",
         "solution_html": null,
+        "rubric_html": "<p>Po 1 punkcie za każdą poprawną odpowiedź. Razem: 2 punkty.</p>",
         "model": {
           "answer": "FP",
           "by": "sonnet",
@@ -666,6 +669,7 @@
       "answer": {
         "correct": "Brygida – 5, Marianna – 4, Felicja – 7",
         "solution_html": null,
+        "rubric_html": "<p>Po 1 punkcie za uzupełnienie każdego wiersza tabeli. Razem: 3 punkty.</p>",
         "model": {
           "answer": "Brygida: 5, Marianna: 4, Felicja: 7",
           "by": "sonnet",
@@ -688,6 +692,7 @@
       "answer": {
         "correct": "10 boków; 35 przekątnych",
         "solution_html": null,
+        "rubric_html": "<p>Po 1 punkcie za uzupełnienie każdej luki. Razem: 2 punkty.</p>",
         "model": {
           "answer": "10 boków, 35 przekątnych",
           "by": "sonnet",
@@ -711,6 +716,7 @@
       "answer": {
         "correct": "a) 1/2 (50%; 0,5); b) 1/5 (20%; 0,2)",
         "solution_html": null,
+        "rubric_html": "<p>Po 1 punkcie za podanie każdego poprawnego wyniku. Razem: 2 punkty.</p>",
         "model": {
           "answer": "a) 1/2; b) 1/5",
           "by": "sonnet",
@@ -735,6 +741,7 @@
       "answer": {
         "correct": "Tak, iloczyn pomniejszony o liczbę a jest podzielny przez 10.",
         "solution_html": "<p>Pierwsza liczba ma postać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>+</mo><mi>a</mi></math>, a druga <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mi>a</mi><mo>+</mo><mn>1</mn></math>. Iloczyn tych liczb pomniejszony o liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> wynosi:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>100</mn><mo>+</mo><mi>a</mi><mo>)</mo><mo>(</mo><mn>10</mn><mi>a</mi><mo>+</mo><mn>1</mn><mo>)</mo><mo>−</mo><mi>a</mi><mo>=</mo><mn>1000</mn><mi>a</mi><mo>+</mo><mn>100</mn><mo>+</mo><mn>10</mn><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mi>a</mi><mo>−</mo><mi>a</mi><mo>=</mo><mn>1000</mn><mi>a</mi><mo>+</mo><mn>100</mn><mo>+</mo><mn>10</mn><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>10</mn><mo>(</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><mn>100</mn><mi>a</mi><mo>+</mo><mn>10</mn><mo>)</mo></math>.</p><p>Otrzymane wyrażenie jest iloczynem liczby 10 i liczby naturalnej, a więc iloczyn otrzymanych liczb pomniejszony o liczbę a jest podzielny przez 10.</p>",
+        "rubric_html": "<ul><li>1 pkt – zapisanie obu liczb w postaci wyrażeń algebraicznych</li><li>1 pkt – zapisanie iloczynu liczb pomniejszonego o liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> oraz doprowadzenie zapisu do najprostszej postaci</li><li>1 pkt – uzasadnienie podzielności przez 10 (wyłączenie wspólnego czynnika przed nawias)</li></ul><p>Razem: 3 punkty.</p><p>Uwaga! Za sprawdzenie warunków zadania tylko dla konkretnej liczby dwucyfrowej „a” i wyciągnięcie na tej podstawie wniosku dotyczącego podzielności przez 10, uczeń może otrzymać maksymalnie 1 punkt.</p>",
         "model": {
           "answer": "Tak, zawsze jest podzielny przez 10.",
           "by": "sonnet",
@@ -758,6 +765,7 @@
       "answer": {
         "correct": "40 lat",
         "solution_html": "<p>Oznaczmy obecny wiek pani Karoliny przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>; wtedy siostra ma teraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>70</mn><mo>−</mo><mi>x</mi></math> lat. Gdy siostra była dwa razy młodsza od pani Karoliny, pani Karolina miała <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>x</mi><mn>2</mn></mfrac></math> lat, a siostra <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>x</mi><mn>4</mn></mfrac></math> lat. Ponieważ od tamtej chwili upłynęło tyle samo czasu dla obu osób, otrzymujemy równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>−</mo><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>=</mo><mn>70</mn><mo>−</mo><mi>x</mi><mo>−</mo><mfrac><mi>x</mi><mn>4</mn></mfrac></math>. Rozwiązując je, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>40</mn></math>. Odp.: Pani Karolina ma 40 lat.</p>",
+        "rubric_html": "<ul><li>1 pkt – metoda rozwiązania (np. ułożenie równania z wymaganym opisem niewiadomej)</li><li>1 pkt – poprawność rachunkowa</li><li>1 pkt – zapisanie odpowiedzi</li></ul><p>Razem: 3 punkty.</p><p>Uwaga! W rozwiązaniu metodą „prób i błędów” uczeń powinien sprawdzić warunki zadania na co najmniej dwóch próbach.</p>",
         "model": {
           "answer": "40 lat",
           "by": "sonnet",

@@ -140,6 +140,7 @@
       "answer": {
         "correct": "PFF",
         "solution_html": null,
+        "rubric_html": "<p>Po 1 punkcie za każdą poprawną odpowiedź (razem 3 punkty).</p>",
         "model": {
           "answer": "PFF",
           "by": "sonnet",
@@ -169,6 +170,7 @@
       "answer": {
         "correct": "PFP",
         "solution_html": null,
+        "rubric_html": "<p>Po 1 punkcie za każdą poprawną odpowiedź (razem 3 punkty).</p>",
         "model": {
           "answer": "PFP",
           "by": "sonnet",
@@ -307,6 +309,7 @@
       "answer": {
         "correct": "a) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>22</mn><mn>25</mn></mfrac></math>, b) 20%, c) 2",
         "solution_html": null,
+        "rubric_html": "<p>Po 1 punkcie za każdą poprawnie uzupełnioną lukę (razem 3 punkty).</p>",
         "model": {
           "answer": "a) 22/25 (88%); b) 20%; c) 2",
           "by": "sonnet",
@@ -331,6 +334,7 @@
       "answer": {
         "correct": "a) (7; 5), b) 60, c) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>10</mn></msqrt><mo>+</mo><msqrt><mn>130</mn></msqrt></math>",
         "solution_html": null,
+        "rubric_html": "<p>Po 1 punkcie za każdą poprawnie uzupełnioną lukę (razem 3 punkty).</p>",
         "model": {
           "answer": "a) C = (7, 5); b) 60 j.²; c) (2√10+√130) j. ≈ 17,73 j.",
           "by": "sonnet",
@@ -355,6 +359,7 @@
       "answer": {
         "correct": "a) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>12</mn><mo>+</mo><mn>4</mn><msqrt><mn>2</mn></msqrt></math>, b) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>37</mn></msqrt></math>, c) 16,5",
         "solution_html": null,
+        "rubric_html": "<p>Po 1 punkcie za każdą poprawnie uzupełnioną lukę (razem 3 punkty).</p>",
         "model": {
           "answer": "a) (12+4√2) cm ≈ 17,66 cm; b) √37 cm ≈ 6,08 cm; c) 16,5 cm²",
           "by": "sonnet",
@@ -377,6 +382,7 @@
       "answer": {
         "correct": "a = 868 lub a = 979",
         "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza cyfrę jedności (równą cyfrze setek). Cyfra dziesiątek jest o 2 mniejsza, więc wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>−</mo><mn>2</mn></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>100</mn><mi>x</mi><mo>+</mo><mn>10</mn><mo>(</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>+</mo><mi>x</mi></math>, a suma jej cyfr to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>x</mi><mo>−</mo><mn>2</mn></math>. Warunek zadania daje nierówność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mi>x</mi><mo>+</mo><mn>10</mn><mo>(</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>+</mo><mi>x</mi><mo>−</mo><mo>(</mo><mn>3</mn><mi>x</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>&gt;</mo><mn>740</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>108</mn><mi>x</mi><mo>−</mo><mn>18</mn><mo>&gt;</mo><mn>740</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>&gt;</mo><mn>7</mn><mfrac><mn>1</mn><mn>54</mn></mfrac></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> jest cyfrą setek, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>8</mn></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>9</mn></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>868</mn></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>979</mn></math>.</p>",
+        "rubric_html": "<ul><li>1 pkt – wprowadzenie oznaczenia niewiadomej i zapisanie nierówności</li><li>2 pkt – rozwiązanie nierówności</li><li>3 pkt – wyznaczenie liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math></li></ul>",
         "model": {
           "answer": "108d − 18 > 740, gdzie d = cyfra setek = cyfra jedności (d∈{2,…,9}), cyfra dziesiątek = d−2; rozwiązanie: d ∈ {8, 9} ⇒ a = 868 lub a = 979",
           "by": "sonnet",
@@ -401,6 +407,7 @@
       "answer": {
         "correct": "Planowana kwota: 1200 zł; najwięcej odłożyła w styczniu – 416 zł",
         "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza zaplanowaną kwotę. Kwoty zaoszczędzone w kolejnych miesiącach: marzec <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,2</mn><mi>x</mi><mo>+</mo><mn>80</mn></math>, styczeń <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,3</mn><mo>(</mo><mn>0,2</mn><mi>x</mi><mo>+</mo><mn>80</mn><mo>)</mo></math>, luty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>(</mo><mn>0,46</mn><mi>x</mi><mo>+</mo><mn>184</mn><mo>)</mo></math>. Łącznie odłożono o 96 zł mniej niż planowano, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,3</mn><mo>(</mo><mn>0,2</mn><mi>x</mi><mo>+</mo><mn>80</mn><mo>)</mo><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>(</mo><mn>0,46</mn><mi>x</mi><mo>+</mo><mn>184</mn><mo>)</mo><mo>+</mo><mn>0,2</mn><mi>x</mi><mo>+</mo><mn>80</mn><mo>+</mo><mn>96</mn><mo>=</mo><mi>x</mi></math>. Rozwiązując, otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>1200</mn></math> zł. Wtedy marzec = 320 zł, styczeń = 416 zł, luty = 368 zł. Najwięcej pani Ania odłożyła w styczniu – 416 zł.</p>",
+        "rubric_html": "<ul><li>1 pkt – wprowadzenie oznaczenia niewiadomej i zapisanie w postaci wyrażeń algebraicznych kwot zaoszczędzonych w poszczególnych miesiącach</li><li>2 pkt – zapisanie równania</li><li>3 pkt – rozwiązanie równania</li><li>4 pkt – wskazanie miesiąca i obliczenie największej zaoszczędzonej w miesiącu kwoty</li></ul>",
         "model": {
           "answer": "Planowana kwota: 1200 zł; najwięcej odłożyła w styczniu – 416 zł",
           "by": "sonnet",
@@ -424,6 +431,7 @@
       "answer": {
         "correct": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><msqrt><mn>5</mn></msqrt></math> cm",
         "solution_html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>E</mi></math> jest środkiem przeciwprostokątnej, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>2</mn><mo>·</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>30</mn></math> cm. Z twierdzenia Pitagorasa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><msqrt><mrow><msup><mn>30</mn><mn>2</mn></msup><mo>−</mo><msup><mrow><mo>(</mo><mn>6</mn><msqrt><mn>5</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>720</mn></msqrt><mo>=</mo><mn>12</mn><msqrt><mn>5</mn></msqrt></math> cm. Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>6</mn><msqrt><mn>5</mn></msqrt><mo>·</mo><mn>12</mn><msqrt><mn>5</mn></msqrt><mo>=</mo><mn>180</mn></math> cm², więc pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCE</mi></math> (o połowie podstawy) to 90 cm². Szukana wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mfrac><mrow><mn>2</mn><mo>·</mo><mn>90</mn></mrow><mrow><mn>12</mn><msqrt><mn>5</mn></msqrt></mrow></mfrac><mo>=</mo><mn>3</mn><msqrt><mn>5</mn></msqrt></math> cm.</p>",
+        "rubric_html": "<ul><li>1 pkt – obliczenie długości odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DE</mi></math></li><li>2 pkt – obliczenie długości odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math></li><li>3 pkt – obliczenie długości boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math></li><li>4 pkt – obliczenie szukanej długości wysokości</li></ul>",
         "model": {
           "answer": "3√5 cm ≈ 6,71 cm",
           "by": "sonnet",
@@ -447,6 +455,7 @@
       "answer": {
         "correct": "a) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>18</mn><msqrt><mn>5</mn></msqrt></math> cm³, b) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>108</mn><mo>+</mo><mn>9</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>27</mn><msqrt><mn>7</mn></msqrt><mo>)</mo></math> cm²",
         "solution_html": "<p>Podstawą jest trójkąt równoboczny o boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, a wszystkie krawędzie graniastosłupa są równe, więc jego wysokość też wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>. Z objętości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mi>a</mi><mn>2</mn></msup><msqrt><mn>3</mn></msqrt></mrow><mn>4</mn></mfrac><mo>·</mo><mi>a</mi><mo>=</mo><mn>54</mn><msqrt><mn>3</mn></msqrt></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>3</mn></msup><mo>=</mo><mn>216</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>6</mn></math> cm. Ściana boczna graniastosłupa to kwadrat o boku 6, więc krawędź boczna ostrosłupa (przekątna tej ściany) ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msqrt><mn>2</mn></msqrt></math> cm. Promień okręgu opisanego na podstawie to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msqrt><mn>3</mn></msqrt></math>, więc wysokość ostrosłupa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi><mo>=</mo><msqrt><mrow><msup><mrow><mo>(</mo><mn>6</mn><msqrt><mn>2</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup><mo>−</mo><msup><mrow><mo>(</mo><mn>2</mn><msqrt><mn>3</mn></msqrt><mo>)</mo></mrow><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>2</mn><msqrt><mn>15</mn></msqrt></math> cm. Objętość ostrosłupa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mn>9</mn><msqrt><mn>3</mn></msqrt><mo>·</mo><mn>2</mn><msqrt><mn>15</mn></msqrt><mo>=</mo><mn>18</mn><msqrt><mn>5</mn></msqrt></math> cm³. Wysokość ściany bocznej ostrosłupa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>=</mo><mn>3</mn><msqrt><mn>7</mn></msqrt></math> cm. Po sklejeniu brył podstawami wspólny trójkąt jest ukryty; pole powierzchni to trzy kwadraty graniastosłupa, jedna podstawa graniastosłupa i trzy ściany boczne ostrosłupa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>36</mn><mo>+</mo><mn>9</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>3</mn><mo>·</mo><mn>9</mn><msqrt><mn>7</mn></msqrt><mo>=</mo><mn>108</mn><mo>+</mo><mn>9</mn><msqrt><mn>3</mn></msqrt><mo>+</mo><mn>27</mn><msqrt><mn>7</mn></msqrt></math> cm².</p>",
+        "rubric_html": "<ul><li>1 pkt – obliczenie długości krawędzi graniastosłupa</li><li>2 pkt – obliczenie długości wysokości ostrosłupa</li><li>3 pkt – obliczenie objętości ostrosłupa</li><li>4 pkt – obliczenie długości wysokości ściany bocznej ostrosłupa</li><li>5 pkt – obliczenie pola powierzchni całkowitej powstałego wielościanu</li></ul>",
         "model": {
           "answer": "a) 18√5 cm³ ≈ 40,25 cm³; b) (108 + 9√3 + 27√7) cm² ≈ 195,02 cm²",
           "by": "sonnet",

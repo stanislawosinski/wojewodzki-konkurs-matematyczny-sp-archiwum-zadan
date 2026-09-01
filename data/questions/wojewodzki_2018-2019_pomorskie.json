@@ -25,6 +25,7 @@
       "answer": {
         "correct": "−2018/2019",
         "solution_html": "<p>Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mi>a</mi><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow></mfrac><mo>=</mo><mn>2019</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>2019</mn><mi>a</mi><mo>+</mo><mn>2019</mn><mi>b</mi></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mo>−</mo><mfrac><mn>2018</mn><mn>2019</mn></mfrac><mi>a</mi></mrow></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mi>b</mi><mi>a</mi></mfrac><mo>=</mo><mo>−</mo><mfrac><mn>2018</mn><mn>2019</mn></mfrac></mrow></math>.</p>",
+        "rubric_html": "<ul><li>Uczeń otrzymuje 1 punkt, gdy poprawnie obliczy wartość wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>b</mi><mi>a</mi></mfrac><mo>=</mo><mo>−</mo><mfrac><mn>2018</mn><mn>2019</mn></mfrac></math>.</li></ul>",
         "model": {
           "answer": "-2018/2019",
           "by": "sonnet",
@@ -49,6 +50,7 @@
       "answer": {
         "correct": "3/8 a²",
         "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> będzie dłuższą przyprostokątną, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>+</mo><mi>x</mi></mrow></math> — przeciwprostokątną, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>−</mo><mi>x</mi></mrow></math> — krótszą przyprostokątną. Z twierdzenia Pitagorasa: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mrow><mo>(</mo><mi>a</mi><mo>−</mo><mi>x</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mi>x</mi><mo>)</mo></mrow><mn>2</mn></msup></mrow></math>, co po uproszczeniu daje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>4</mn><mi>a</mi><mi>x</mi></mrow></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><mi>a</mi></mrow></math>. Krótsza przyprostokątna ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>−</mo><mi>x</mi><mo>=</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mi>a</mi></mrow></math>, zatem pole trójkąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mi>a</mi><mo>·</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mi>a</mi><mo>=</mo><mfrac><mn>3</mn><mn>8</mn></mfrac><msup><mi>a</mi><mn>2</mn></msup></mrow></math>.</p>",
+        "rubric_html": "<ul><li>Uczeń otrzymuje 1 punkt, gdy poprawnie wyznaczy zależność pomiędzy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math>, tzn. zależność pomiędzy różnicą długości przeciwprostokątnej i dłuższej przyprostokątnej a dłuższą przyprostokątną.</li><li>Uczeń otrzymuje 2 punkty, gdy poprawnie wyznaczy pole trójkąta.</li></ul>",
         "model": {
           "answer": "3a²/8",
           "by": "sonnet",
@@ -72,6 +74,7 @@
       "answer": {
         "correct": "o 75%",
         "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> oznacza mniejszą liczbę, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> większą. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mn>2</mn></mfrac><mo>=</mo><mn>0,7</mn><mi>b</mi></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>a</mi><mo>=</mo><mn>0,4</mn><mi>b</mi></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>b</mi><mo>=</mo><mfrac><mn>5</mn><mn>2</mn></mfrac><mi>a</mi></mrow></math>. Zatem średnia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mi>a</mi><mo>+</mo><mi>b</mi></mrow><mn>2</mn></mfrac><mo>=</mo><mn>0,7</mn><mi>b</mi><mo>=</mo><mfrac><mn>7</mn><mn>10</mn></mfrac><mo>·</mo><mfrac><mn>5</mn><mn>2</mn></mfrac><mi>a</mi><mo>=</mo><mfrac><mn>7</mn><mn>4</mn></mfrac><mi>a</mi><mo>=</mo><mn>175</mn><mo>%</mo><mi>a</mi></mrow></math>. Średnia arytmetyczna jest więc o 75% większa od mniejszej z tych liczb.</p>",
+        "rubric_html": "<ul><li>Uczeń otrzymuje 1 punkt, gdy zapisze jedną liczbę w zależności od drugiej.</li><li>Uczeń otrzymuje 2 punkty, gdy poprawnie obliczy, o ile procent średnia arytmetyczna jest większa od mniejszej liczby.</li></ul>",
         "model": {
           "answer": "75%",
           "by": "sonnet",
@@ -94,6 +97,7 @@
       "answer": {
         "correct": "−221",
         "solution_html": "<p>Przekształcamy potęgi na wspólne podstawy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mo>−</mo><msup><mn>32</mn><mn>4</mn></msup><mo>·</mo><msup><mrow><mo>(</mo><mo>−</mo><mn>4</mn><mo>)</mo></mrow><mn>0</mn></msup><mo>·</mo><msup><mn>5</mn><mn>5</mn></msup></mrow><mrow><msup><mn>4</mn><mn>8</mn></msup><mo>·</mo><msup><mn>10</mn><mn>4</mn></msup></mrow></mfrac><mo>=</mo><mfrac><mrow><mo>−</mo><msup><mrow><mo>(</mo><msup><mn>2</mn><mn>5</mn></msup><mo>)</mo></mrow><mn>4</mn></msup><mo>·</mo><mn>1</mn><mo>·</mo><msup><mn>5</mn><mn>5</mn></msup></mrow><mrow><msup><mrow><mo>(</mo><msup><mn>2</mn><mn>2</mn></msup><mo>)</mo></mrow><mn>8</mn></msup><mo>·</mo><msup><mrow><mo>(</mo><mn>2</mn><mo>·</mo><mn>5</mn><mo>)</mo></mrow><mn>4</mn></msup></mrow></mfrac><mo>=</mo><mo>−</mo><mfrac><mrow><msup><mn>2</mn><mn>20</mn></msup><mo>·</mo><msup><mn>5</mn><mn>5</mn></msup></mrow><mrow><msup><mn>2</mn><mn>20</mn></msup><mo>·</mo><msup><mn>5</mn><mn>4</mn></msup></mrow></mfrac><mo>=</mo><mo>−</mo><mn>5</mn></mrow></math>. Ponadto <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mrow><mo>[</mo><msup><mrow><mo>(</mo><mo>−</mo><mfrac><mn>1</mn><mn>6</mn></mfrac><mo>)</mo></mrow><mn>5</mn></msup><mo>·</mo><msup><mn>6</mn><mn>6</mn></msup><mo>]</mo></mrow><mn>3</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mo>−</mo><msup><mn>6</mn><mrow><mn>6</mn><mo>−</mo><mn>5</mn></mrow></msup><mo>)</mo></mrow><mn>3</mn></msup><mo>=</mo><msup><mrow><mo>(</mo><mo>−</mo><mn>6</mn><mo>)</mo></mrow><mn>3</mn></msup><mo>=</mo><mo>−</mo><mn>216</mn></mrow></math>. Suma wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>−</mo><mn>5</mn><mo>+</mo><mo>(</mo><mo>−</mo><mn>216</mn><mo>)</mo><mo>=</mo><mo>−</mo><mn>221</mn></mrow></math>.</p>",
+        "rubric_html": "<ul><li>Uczeń otrzymuje 1 punkt, gdy zastosuje poprawną metodę obliczenia wartości wyrażenia (poprawnie obliczy wartości wszystkich potęg, zastosuje prawidłową kolejność i metodę wykonywania działań), ale popełni jeden błąd rachunkowy.</li><li>Uczeń otrzymuje 2 punkty, gdy poprawnie obliczy wartość wyrażenia.</li></ul>",
         "model": {
           "answer": "-221",
           "by": "sonnet",
@@ -117,6 +121,7 @@
       "answer": {
         "correct": "153",
         "solution_html": "<p>Wśród liczb od 0 do 59 (minuty) jest 17 liczb pierwszych: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53 i 59. Wśród liczb od 0 do 23 (godziny) jest 9 liczb pierwszych: 2, 3, 5, 7, 11, 13, 17, 19, 23. Dla każdej z tych 9 godzin będących liczbą pierwszą istnieje 17 wskazań minut będących liczbą pierwszą, więc łącznie mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mo>·</mo><mn>17</mn><mo>=</mo><mn>153</mn></mrow></math> wskazania zegara.</p>",
+        "rubric_html": "<ul><li>Uczeń otrzymuje 1 punkt, gdy poprawnie poda, ile jest liczb pierwszych od 0 do 59 i od 0 do 23.</li><li>Uczeń otrzymuje 2 punkty, gdy poda poprawną liczbę wszystkich wskazań zegara.</li></ul>",
         "model": {
           "answer": "153",
           "by": "sonnet",
@@ -141,6 +146,7 @@
       "answer": {
         "correct": "3/16",
         "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> będzie środkiem odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>N</mi></math> jest środkiem odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AS</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>NC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mrow><mi>MNC</mi></mrow></msub><mo>=</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><msub><mi>P</mi><mrow><mi>MAC</mi></mrow></msub></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>MA</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DA</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mrow><mi>MAC</mi></mrow></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msub><mi>P</mi><mrow><mi>DAC</mi></mrow></msub><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><msub><mi>P</mi><mrow><mi>ABCD</mi></mrow></msub></mrow></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mrow><mi>MNC</mi></mrow></msub><mo>=</mo><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>·</mo><mfrac><mn>1</mn><mn>4</mn></mfrac><msub><mi>P</mi><mrow><mi>ABCD</mi></mrow></msub><mo>=</mo><mfrac><mn>3</mn><mn>16</mn></mfrac><msub><mi>P</mi><mrow><mi>ABCD</mi></mrow></msub></mrow></math>. Szukany stosunek pól wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>16</mn></mfrac></math>.</p>",
+        "rubric_html": "<ul><li>Uczeń otrzymuje 1 punkt, gdy zauważy, że pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>MNC</mi></math> jest równe 0,75 pola trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>MAC</mi></math>.</li><li>Uczeń otrzymuje 2 punkty, gdy poprawnie wyznaczy stosunek pola trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>MNC</mi></math> do pola kwadratu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>.</li></ul>",
         "model": {
           "answer": "3/16",
           "by": "sonnet",
@@ -164,6 +170,7 @@
       "answer": {
         "correct": "0",
         "solution_html": "<p>Składniki <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>10</mn><mn>3</mn></msup><mo>,</mo><msup><mn>20</mn><mn>3</mn></msup><mo>,</mo><mo>…</mo><mo>,</mo><msup><mn>990</mn><mn>3</mn></msup></mrow></math> nie mają wpływu na ostatnią cyfrę. Ostatnia cyfra sumy w każdej kolejnej dziesiątce sześcianów jest taka sama jak ostatnia cyfra liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>1</mn><mn>3</mn></msup><mo>+</mo><msup><mn>2</mn><mn>3</mn></msup><mo>+</mo><mo>⋯</mo><mo>+</mo><msup><mn>9</mn><mn>3</mn></msup></mrow></math>. Zatem cała suma ma ostatnią cyfrę taką jak <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mo>·</mo><mo>(</mo><msup><mn>1</mn><mn>3</mn></msup><mo>+</mo><msup><mn>2</mn><mn>3</mn></msup><mo>+</mo><mo>⋯</mo><mo>+</mo><msup><mn>9</mn><mn>3</mn></msup><mo>)</mo></mrow></math>, czyli 0.</p>",
+        "rubric_html": "<ul><li>Uczeń otrzymuje 1 punkt, gdy poprawnie wyznaczy ostatnią cyfrę liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>1</mn><mn>3</mn></msup><mo>+</mo><msup><mn>2</mn><mn>3</mn></msup><mo>+</mo><msup><mn>3</mn><mn>3</mn></msup><mo>+</mo><mo>⋯</mo><mo>+</mo><msup><mn>999</mn><mn>3</mn></msup></math>.</li></ul>",
         "model": {
           "answer": "0",
           "by": "sonnet",
@@ -235,6 +242,7 @@
       "answer": {
         "correct": "PFPFP",
         "solution_html": null,
+        "rubric_html": "<ul><li>Uczeń otrzymuje 1 punkt, gdy udzieli dwóch poprawnych odpowiedzi.</li><li>Uczeń otrzymuje 2 punkty, gdy udzieli trzech poprawnych odpowiedzi.</li><li>Uczeń otrzymuje 3 punkty, gdy udzieli czterech poprawnych odpowiedzi.</li><li>Uczeń otrzymuje 4 punkty, gdy udzieli pięciu poprawnych odpowiedzi.</li></ul>",
         "model": {
           "answer": "PFPFP",
           "by": "sonnet",

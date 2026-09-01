@@ -27,7 +27,8 @@
       ],
       "answer": {
         "correct": "Do białych pól wpisujemy kolejno: 3; 2 i 13; 4, 8, 2.",
-        "solution_html": "<p>Uzupełniona krzyżówka poziomo: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>2</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>10</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mo>+</mo><mn>6</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>13</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>+</mo><mn>8</mn><mo>−</mo><mn>2</mn><mo>=</mo><mn>10</mn></mrow></math>; pionowo: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>+</mo><mn>10</mn><mo>−</mo><mn>4</mn><mo>=</mo><mn>9</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>6</mn><mo>−</mo><mn>8</mn><mo>=</mo><mn>4</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>−</mo><mn>2</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>4</mn></mrow></math>. Za każdą poprawnie wpisaną liczbę przyznaje się 1 punkt (łącznie 6 punktów).</p>",
+        "solution_html": "<p>Uzupełniona krzyżówka poziomo: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>·</mo><mn>2</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>10</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mo>+</mo><mn>6</mn><mo>:</mo><mn>2</mn><mo>=</mo><mn>13</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>+</mo><mn>8</mn><mo>−</mo><mn>2</mn><mo>=</mo><mn>10</mn></mrow></math>; pionowo: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>+</mo><mn>10</mn><mo>−</mo><mn>4</mn><mo>=</mo><mn>9</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mo>·</mo><mn>6</mn><mo>−</mo><mn>8</mn><mo>=</mo><mn>4</mn></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>−</mo><mn>2</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>4</mn></mrow></math>.</p>",
+        "rubric_html": "<p>Za każdą poprawnie wpisaną liczbę przyznaje się 1 punkt (łącznie 6 punktów).</p>",
         "model": {
           "answer": "Puste pola: wiersz1 kol1=3; wiersz3 kol5=2, kol7(wynik)=13; wiersz5 kol1=4, kol3=8, kol5=2. Działania: 3·2+4=10; 10+6:2=13; 4+8−2=10; kolumny: 3+10−4=9; 2·6−8=4; 4−2+2=4.",
           "by": "sonnet",
@@ -49,7 +50,8 @@
       "figures": [],
       "answer": {
         "correct": "A: [(2+2)·5+16]:6+3=9;  B: [30:2+3·(5−2)]:8+6=9",
-        "solution_html": "<p>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>[</mo><mo>(</mo><mn>2</mn><mo>+</mo><mn>2</mn><mo>)</mo><mo>·</mo><mn>5</mn><mo>+</mo><mn>16</mn><mo>]</mo><mo>:</mo><mn>6</mn><mo>+</mo><mn>3</mn><mo>=</mo><mn>9</mn></mrow></math></p><p>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>[</mo><mn>30</mn><mo>:</mo><mn>2</mn><mo>+</mo><mn>3</mn><mo>·</mo><mo>(</mo><mn>5</mn><mo>−</mo><mn>2</mn><mo>)</mo><mo>]</mo><mo>:</mo><mn>8</mn><mo>+</mo><mn>6</mn><mo>=</mo><mn>9</mn></mrow></math></p><p><em>Za poprawne wstawienie nawiasów w obu wyrażeniach — 2 punkty; w jednym z wyrażeń — 1 punkt.</em></p>",
+        "solution_html": "<p>A. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>[</mo><mo>(</mo><mn>2</mn><mo>+</mo><mn>2</mn><mo>)</mo><mo>·</mo><mn>5</mn><mo>+</mo><mn>16</mn><mo>]</mo><mo>:</mo><mn>6</mn><mo>+</mo><mn>3</mn><mo>=</mo><mn>9</mn></mrow></math></p><p>B. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>[</mo><mn>30</mn><mo>:</mo><mn>2</mn><mo>+</mo><mn>3</mn><mo>·</mo><mo>(</mo><mn>5</mn><mo>−</mo><mn>2</mn><mo>)</mo><mo>]</mo><mo>:</mo><mn>8</mn><mo>+</mo><mn>6</mn><mo>=</mo><mn>9</mn></mrow></math></p>",
+        "rubric_html": "<p>Za poprawne wstawienie nawiasów w obu wyrażeniach — 2 punkty; w jednym z wyrażeń — 1 punkt.</p>",
         "model": {
           "answer": "A. ((2+2)·5+16):6+3 = 9;  B. (30:2+3·(5−2)):8+6 = 9",
           "by": "sonnet",
@@ -548,6 +550,7 @@
       "answer": {
         "correct": "Lewa strzałka – wiatr północno-wschodni; prawa strzałka – wiatr południowo-wschodni.",
         "solution_html": null,
+        "rubric_html": "<p>Za podanie dwóch poprawnych odpowiedzi – 1 punkt.</p>",
         "model": {
           "answer": "wiatr północno-wschodni; wiatr południowo-wschodni",
           "by": "opus",
@@ -572,6 +575,7 @@
       "answer": {
         "correct": "1 : 25 000 → 1 cm – 250 m;  1 cm – 5 km → 1 : 500 000",
         "solution_html": null,
+        "rubric_html": "<p>Za każdą dobrą zamianę 1 punkt.</p>",
         "model": {
           "answer": "1:25 000 → 1 cm – 250 m; 1:500 000 → 1 cm – 5 km",
           "by": "sonnet",
@@ -596,6 +600,7 @@
       "answer": {
         "correct": "a) 780 m n.p.m.;  b) 150 m",
         "solution_html": null,
+        "rubric_html": "<ul><li>1 punkt za prawidłowe odczytanie wysokości bezwzględnej</li><li>1 punkt za poprawne obliczenie wysokości względnej</li></ul>",
         "model": {
           "answer": "a) 780 m n.p.m.; b) 150 m",
           "by": "opus",
@@ -618,6 +623,7 @@
       "answer": {
         "correct": "a) wiatromierz;  b) deszczomierz;  c) barometr",
         "solution_html": null,
+        "rubric_html": "<ul><li>2 punkty za 3 poprawne odpowiedzi</li><li>1 punkt za 2 poprawne odpowiedzi</li></ul>",
         "model": {
           "answer": "a) wiatromierz (anemometr); b) deszczomierz (pluwiometr); c) barometr",
           "by": "sonnet",
@@ -640,6 +646,7 @@
       "answer": {
         "correct": "a) runo – borowiki, borówki, zawilce;  b) podszyt – leszczyny, głóg, jarzębina;  c) korony drzew – buki, dęby",
         "solution_html": null,
+        "rubric_html": "<ul><li>3 punkty za prawidłowe uzupełnienie 8 nazw</li><li>2 punkty za 6-7 nazw</li><li>1 punkt za 4-5 nazw</li></ul>",
         "model": {
           "answer": "a) runo: zawilce, borowiki, borówki; b) podszyt: leszczyny, głóg, jarzębina; c) korony drzew: buki, dęby",
           "by": "sonnet",
@@ -662,6 +669,7 @@
       "answer": {
         "correct": "a) zima i jesień;  b) wiosna i jesień;  c) zima;  d) lato;  e) wiosna;  f) lato",
         "solution_html": null,
+        "rubric_html": "<ul><li>4 punkty za prawidłowe uzupełnienie 8 pór roku</li><li>3 punkty za 6-7 pór roku</li><li>2 punkty za 5-4 pór roku</li><li>1 punkt za 3-2 pór roku</li></ul>",
         "model": {
           "answer": "a) jesień i zima; b) wiosna i jesień; c) zima; d) lato; e) wiosna; f) lato",
           "by": "sonnet",
@@ -703,6 +711,7 @@
       "answer": {
         "correct": "PFFP",
         "solution_html": null,
+        "rubric_html": "<p>Za każdą poprawną odpowiedź przyznajemy 1 punkt, czyli w sumie 8 punktów (za zadania 21.–22.).</p>",
         "model": {
           "answer": "PFFP",
           "by": "sonnet",
@@ -742,6 +751,7 @@
       "answer": {
         "correct": "PFFP",
         "solution_html": null,
+        "rubric_html": "<p>Za każdą poprawną odpowiedź przyznajemy 1 punkt, czyli w sumie 8 punktów (za zadania 21.–22.).</p>",
         "model": {
           "answer": "PFFP",
           "by": "sonnet",
@@ -765,6 +775,7 @@
       "answer": {
         "correct": "540",
         "solution_html": "<p>Szukana liczba jest podzielna przez 3, 4, 5 i 6, czyli jest wielokrotnością liczby 60 (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>NWW</mtext><mo>(</mo><mn>3</mn><mo>,</mo><mn>4</mn><mo>,</mo><mn>5</mn><mo>,</mo><mn>6</mn><mo>)</mo><mo>=</mo><mn>60</mn></mrow></math>). Spośród liczb większych od 400 i mniejszych od 600 wielokrotnościami 60 są: 420, 480 i 540. Szukana liczba przy dzieleniu przez 7 daje resztę 1 — ten warunek spełnia tylko <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>540</mn><mo>=</mo><mn>7</mn><mo>·</mo><mn>77</mn><mo>+</mo><mn>1</mn></mrow></math>. W szkole uczyło się 540 uczniów.</p>",
+        "rubric_html": "<ul><li>1 punkt otrzymuje uczeń, jeżeli: a) podał warunek podzielności szukanej liczby przez 3, 4, 5 i 6 jednocześnie lub przez 60 (wielokrotność 3, 4, 5 i 6 lub 60), lub b) odgadł 540 bez uzasadnienia, lub c) wypisał bez uzasadnienia 420, 480 i 540, lub d) wypisał liczby z przedziału liczb (400, 600) podzielne przez 7 z resztą 1.</li><li>2 punkty otrzymuje uczeń, jeżeli: a) wypisał warunek podzielności przez 3, 4, 5 i 6 jednocześnie lub przez 60 i podał liczby 420, 480 i 540, lub b) wypisał liczby z (400, 600) podzielne przez 7 z resztą 1 i podał warunek podzielności szukanej liczby przez 3, 4, 5 i 6 lub przez 60, lub c) podał warunek wielokrotność 60 i przy dzieleniu przez 7 dają resztę 1.</li><li>3 punkty otrzymuje uczeń za rozwiązanie z usterkami, np. brak jednego pełnego uzasadnienia lub wybór liczb spełniających warunki 540 i 600 z poprawnymi uzasadnieniami.</li><li>4 punkty za rozwiązanie całkowicie poprawne z uzasadnieniami.</li></ul><p>Uwaga: uczeń powinien wykonywać obliczenia na pracy. Z wykonanych obliczeń można wywnioskować, czy sprawdza podane w zadaniu własności. Zapisy muszą być wyczerpujące i jednoznaczne.</p>",
         "model": {
           "answer": "540",
           "by": "sonnet",
@@ -787,6 +798,7 @@
       "answer": {
         "correct": "600 kg",
         "solution_html": "<p>Masa drewna: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,75</mn><mtext> t</mtext><mo>=</mo><mn>750</mn><mtext> kg</mtext></mrow></math>. Woda w drewnie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>·</mo><mn>750</mn><mtext> kg</mtext><mo>=</mo><mn>187,5</mn><mtext> kg</mtext></mrow></math>. Woda, która wyparowała: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,8</mn><mo>·</mo><mn>187,5</mn><mtext> kg</mtext><mo>=</mo><mn>150</mn><mtext> kg</mtext></mrow></math>. Masa drewna po roku: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>750</mn><mtext> kg</mtext><mo>−</mo><mn>150</mn><mtext> kg</mtext><mo>=</mo><mn>600</mn><mtext> kg</mtext></mrow></math>.</p>",
+        "rubric_html": "<ul><li>1 punkt otrzymuje uczeń za: a) poprawną zamianę jednostek, lub b) obliczenie ilości wody w drewnie w tonach.</li><li>2 punkty otrzymuje uczeń, jeżeli: a) obliczył wodę wyparowaną w tonach, lub b) obliczył wodę w drewnie w kilogramach, lub c) obliczył wodę wyparowaną w kilogramach i popełnił błąd rachunkowy.</li><li>3 punkty otrzymuje uczeń, jeżeli: a) obliczył poprawną metodą wagę drewna po roku w kilogramach i popełnił błąd rachunkowy, lub b) obliczył bez błędu wagę drewna po roku w tonach.</li><li>4 punkty za rozwiązanie całkowicie poprawne.</li></ul>",
         "model": {
           "answer": "600 kg",
           "by": "sonnet",

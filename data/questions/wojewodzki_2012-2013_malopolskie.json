@@ -302,6 +302,7 @@
       "answer": {
         "correct": "a) 4 razy;  b) o 10 cm",
         "solution_html": null,
+        "rubric_html": "<ul><li>2p – prawidłowe podanie obu odpowiedzi,</li><li>1p – prawidłowe podanie jednej odpowiedzi.</li></ul>",
         "model": {
           "answer": "a) 4 razy; b) 10 cm",
           "by": "sonnet",
@@ -324,6 +325,7 @@
       "answer": {
         "correct": "a) 22 l;  b) 8,75 m²",
         "solution_html": null,
+        "rubric_html": "<ul><li>2p – prawidłowe podanie dwóch odpowiedzi,</li><li>1p – prawidłowe podanie jednej odpowiedzi.</li></ul>",
         "model": {
           "answer": "a) 22 l; b) 8 m² 75 dm²",
           "by": "sonnet",
@@ -347,6 +349,7 @@
       "answer": {
         "correct": "5 dziewczynek",
         "solution_html": null,
+        "rubric_html": "<ul><li>2p – prawidłowe podanie odpowiedzi,</li><li>0p – błędne podanie odpowiedzi.</li></ul>",
         "model": {
           "answer": "5",
           "by": "sonnet",
@@ -370,6 +373,7 @@
       "answer": {
         "correct": "44 uczestników",
         "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę uczniów przypadającą na jednego z trzech nauczycieli, więc wszystkich uczniów jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mi>x</mi></math>. Po dołączeniu 4 uczniów i 1 nauczyciela na jednego z czterech nauczycieli przypada <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo>)</mo></math> uczniów, zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>(</mo><mi>x</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>=</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>4</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>12</mn></math>. Uczniów jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>12</mn><mo>=</mo><mn>36</mn></math>, a po dołączeniu 40. Wszystkich uczestników wycieczki (uczniowie i nauczyciele): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>40</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>44</mn></math>.</p>",
+        "rubric_html": "<ul><li>3p – poprawne rozumowanie oraz bezbłędne obliczenia prowadzące do podania w odpowiedzi liczby wszystkich uczestników wycieczki,</li><li>2p – poprawne rozumowanie oraz bezbłędne obliczenia liczby uczniów, jednak bez uwzględnienia w odpowiedzi nauczycieli (40 uczestników) lub poprawny wynik odgadnięty metodą prób i błędów i sprawdzony z treścią zadania,</li><li>1p – poprawne zapisanie równania lub tylko zapisana poprawna odpowiedź.</li></ul><p>Uwaga: Gdy metoda jest poprawna, zadanie rozwiązano do końca, ale w trakcie rozwiązywania uczeń popełnił błąd rachunkowy, a otrzymany wynik nie daje sprzeczności z treścią zadania uczeń otrzymuje 2p.</p>",
         "model": {
           "answer": "44",
           "by": "sonnet",
@@ -395,6 +399,7 @@
       "answer": {
         "correct": "a) 37,5%;  b) 8000 zł;  c) 8 pracowników",
         "solution_html": "<p>a) Największa pensja pracowników to 3200 zł, a najmniejsza 1200 zł. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1200</mn><mn>3200</mn></mfrac><mo>·</mo><mn>100</mn><mo>%</mo><mo>=</mo><mn>37,5</mn><mo>%</mo></math>.</p><p>b) Najniższa pensja (1200 zł) stanowi 15% zarobków dyrektora, więc 1% to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1200</mn><mo>:</mo><mn>15</mn><mo>=</mo><mn>80</mn></math> zł, a 100% to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>80</mn><mo>·</mo><mn>100</mn><mo>=</mo><mn>8000</mn></math> zł. Dyrektor zarabia 8000 zł.</p><p>c) Pensja o 75% mniejsza od pensji dyrektora to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>25</mn><mn>100</mn></mfrac><mo>·</mo><mn>8000</mn><mo>=</mo><mn>2000</mn></math> zł. Z diagramu wynika, że taką pensję (2000 zł) otrzymuje 8 pracowników.</p>",
+        "rubric_html": "<ul><li>3p – poprawne rozumowanie oraz bezbłędne obliczenia we wszystkich trzech podpunktach,</li><li>2p – prawidłowa metoda i odpowiedź w dwóch podpunktach,</li><li>1p – prawidłowa metoda i odpowiedź w jednym podpunkcie.</li></ul><p>Uwaga: Jeżeli uczeń błędnie obliczył pensję dyrektora w podpunkcie b) i dla tej średniej stosuje właściwą metodę i poprawnie wykonuje obliczenia w podpunkcie c), to za podpunkt b) otrzymuje 0p, a za podpunkt c) otrzymuje 1p.</p>",
         "model": {
           "answer": "a) 37,5%; b) 8000 zł; c) 8",
           "by": "sonnet",
@@ -420,6 +425,7 @@
       "answer": {
         "correct": "6,6 litra",
         "solution_html": "<p>Budynek ma kształt graniastosłupa pięciokątnego. W skali 1:50 jeden centymetr modelu odpowiada 50 cm = 5 dm w rzeczywistości, więc podstawa modelu składa się z prostokąta o wymiarach <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mtext> dm</mtext><mo>×</mo><mn>0,8</mn><mtext> dm</mtext></math> i trójkąta o podstawie 2 dm i wysokości 0,6 dm, a wysokość graniastosłupa to 3 dm. Objętość modelu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mo>(</mo><mn>2</mn><mo>·</mo><mn>0,8</mn><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>2</mn><mo>·</mo><mn>0,6</mn><mo>)</mo><mo>·</mo><mn>3</mn><mo>=</mo><mn>6,6</mn><msup><mtext> dm</mtext><mn>3</mn></msup></math>, czyli 6,6 litra.</p>",
+        "rubric_html": "<ul><li>4p – poprawne rozumowanie oraz bezbłędne obliczenia prowadzące do podania objętości powietrza wewnątrz modelu: 6,6 litra (może być odpowiedź 6,6 dm³),</li><li>3p – poprawna zamiana jednostek w skali oraz bezbłędne podstawienie do wzoru na objętość, jednak nie doprowadzono zadania do końca, np. wynik podano w innych jednostkach niż litry,</li><li>2p – poprawne obliczenie wymiarów modelu Miłosza i obliczenie jego pola podstawy,</li><li>1p – poprawne obliczenie wymiarów modelu Miłosza lub obliczenie objętości narysowanego budynku.</li></ul><p>Uwaga: Gdy metoda jest poprawna, zadanie rozwiązano do końca, ale w trakcie rozwiązywania uczeń popełnił błąd rachunkowy, a otrzymany wynik nie daje sprzeczności z treścią zadania uczeń otrzymuje 3p.</p>",
         "model": {
           "answer": "6,6 l",
           "by": "sonnet",

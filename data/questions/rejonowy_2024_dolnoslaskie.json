@@ -423,6 +423,7 @@
       "answer": {
         "correct": "k = 1002, n = 995",
         "solution_html": null,
+        "rubric_html": "<p>2 punkty – po 1 punkcie za każdy poprawny element w zadaniu.</p>",
         "model": {
           "answer": "k = 1002, n = 995",
           "by": "sonnet",
@@ -445,6 +446,7 @@
       "answer": {
         "correct": "A. x = 2, B. y = 5",
         "solution_html": null,
+        "rubric_html": "<p>2 punkty – po 1 punkcie za każdy poprawny element w zadaniu.</p>",
         "model": {
           "answer": "a) x = 2; b) y = 5",
           "by": "sonnet",
@@ -469,6 +471,7 @@
       "answer": {
         "correct": "a = 115, b = 529, c = 943",
         "solution_html": null,
+        "rubric_html": "<p>3 punkty – po 1 punkcie za każdy poprawny element w zadaniu.</p>",
         "model": {
           "answer": "a = 115, b = 529, c = 943",
           "by": "sonnet",
@@ -492,6 +495,7 @@
       "answer": {
         "correct": "x = 2/9, y = 1/3, z = 4/9",
         "solution_html": null,
+        "rubric_html": "<p>3 punkty – po 1 punkcie za każdy poprawny element w zadaniu.</p>",
         "model": {
           "answer": "x = 2/9, y = 1/3, z = 4/9",
           "by": "sonnet",
@@ -516,6 +520,7 @@
       "answer": {
         "correct": "Liczba w stanowi 104% liczby x.",
         "solution_html": "<p>Zmniejszenie cyfry tysięcy o 1 to odjęcie 1000, a zwiększenie cyfry dziesiątek o 1 to dodanie 10, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi><mo>=</mo><mi>x</mi><mo>−</mo><mn>1000</mn><mo>+</mo><mn>10</mn><mo>=</mo><mi>x</mi><mo>−</mo><mn>990</mn></math>.</p><p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> stanowi 96% liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>−</mo><mn>990</mn><mo>=</mo><mn>0,96</mn><mi>x</mi></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,04</mn><mi>x</mi><mo>=</mo><mn>990</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>24750</mn></math>.</p><p>Wojtek zwiększył cyfrę tysięcy o 1 i zmniejszył cyfrę dziesiątek o 1, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>w</mi><mo>=</mo><mi>x</mi><mo>+</mo><mn>990</mn><mo>=</mo><mn>25740</mn></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>w</mi><mi>x</mi></mfrac><mo>·</mo><mn>100</mn><mo>%</mo><mo>=</mo><mfrac><mn>25740</mn><mn>24750</mn></mfrac><mo>·</mo><mn>100</mn><mo>%</mo><mo>=</mo><mn>104</mn><mo>%</mo></math>. Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>w</mi></math> stanowi 104% liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>.</p>",
+        "rubric_html": "<ul><li>1 punkt – poprawna metoda wyrażenia liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> za pomocą liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, z wykorzystaniem informacji o zmianie cyfr przez Kasię;</li><li>1 punkt – poprawna metoda utworzenia równania z jedną niewiadomą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, z wykorzystaniem informacji, że liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math> stanowi 96% liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>;</li><li>1 punkt – poprawna metoda wyznaczenia liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> i liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>w</mi></math>;</li><li>1 punkt – poprawna metoda obliczenia, jakim procentem liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> jest liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>w</mi></math> i podanie poprawnej odpowiedzi: Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>w</mi></math> stanowi 104% liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>.</li></ul>",
         "model": {
           "answer": "104%",
           "by": "sonnet",

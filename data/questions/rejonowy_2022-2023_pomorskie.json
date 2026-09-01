@@ -27,6 +27,7 @@
       "answer": {
         "correct": "44°, 66°, 70°",
         "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> oznacza miarę najmniejszego kąta trójkąta. Pozostałe dwa kąty mają miary <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,5</mn><mi>α</mi></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>+</mo><mn>26</mn><mo>°</mo></mrow></math>.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>+</mo><mn>1,5</mn><mi>α</mi><mo>+</mo><mi>α</mi><mo>+</mo><mn>26</mn><mo>°</mo><mo>=</mo><mn>180</mn><mo>°</mo></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3,5</mn><mi>α</mi><mo>=</mo><mn>154</mn><mo>°</mo></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>=</mo><mn>44</mn><mo>°</mo></mrow></math>. Zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,5</mn><mi>α</mi><mo>=</mo><mn>66</mn><mo>°</mo></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>+</mo><mn>26</mn><mo>°</mo><mo>=</mo><mn>70</mn><mo>°</mo></mrow></math>.</p><p>Odpowiedź: miary kątów tego trójkąta to 44°, 66° i 70°.</p>",
+        "rubric_html": "<ul><li>Uczeń otrzymuje 1 punkt, gdy zapisze poprawne równanie z jedną niewiadomą pozwalające obliczyć miarę jednego kąta w danym trójkącie.</li><li>Uczeń otrzymuje 2 punkty, gdy poprawnie obliczy miary wszystkich kątów wewnętrznych trójkąta.</li></ul><p>Uwaga!</p><ol><li>Jeżeli uczeń tylko poda miary kątów tego trójkąta, to za całe rozwiązanie otrzymuje 0 punktów.</li><li>Jeżeli uczeń tylko poda miary kątów tego trójkąta i sprawdzi warunki zadania, to za całe zadanie otrzymuje 1 punkt.</li></ol>",
         "model": {
           "answer": "44°, 66°, 70°",
           "by": "sonnet",
@@ -53,6 +54,7 @@
       "answer": {
         "correct": "6",
         "solution_html": "<p>Trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDS</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BAS</mi></math> są podobne (mają wspólny kąt przy wierzchołku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math>, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DC</mi></math> jest równoległe do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math>). Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CS</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mi>x</mi></mrow></math>, wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BS</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mi>x</mi><mo>+</mo><mn>4</mn></mrow></math> i z podobieństwa:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mi>x</mi><mn>4</mn></mfrac><mo>=</mo><mfrac><mrow><mi>x</mi><mo>+</mo><mn>4</mn></mrow><mrow><mn>9</mn><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></mfrac></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>9</mn><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>x</mi><mo>=</mo><mn>4</mn><mo>(</mo><mi>x</mi><mo>+</mo><mn>4</mn><mo>)</mo></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>3</mn></mrow></math>.</p><p>Kąt przy wierzchołku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>C</mi></math> jest prosty, więc pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDS</mi></math> wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mfrac><mrow><mn>4</mn><mo>·</mo><mn>3</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>6</mn></mrow></math>.</p><p>Odpowiedź: pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDS</mi></math> jest równe 6.</p>",
+        "rubric_html": "<ul><li>Uczeń otrzymuje 1 punkt, gdy zapisze poprawne równanie pozwalające obliczyć długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CS</mi></math>.</li><li>Uczeń otrzymuje 2 punkty, gdy prawidłowo obliczy pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDS</mi></math>.</li></ul>",
         "model": {
           "answer": "6",
           "by": "sonnet",
@@ -75,6 +77,7 @@
       "answer": {
         "correct": "526",
         "solution_html": "<p>Numeracja obejmuje strony od 3. do 212.</p><ul><li>strony 3–9 (7 stron jednocyfrowych): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7</mn></math> cyfr,</li><li>strony 10–99 (90 stron dwucyfrowych): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>90</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>180</mn></mrow></math> cyfr,</li><li>strony 100–212 (113 stron trzycyfrowych): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>212</mn><mo>−</mo><mn>99</mn><mo>)</mo><mo>·</mo><mn>3</mn><mo>=</mo><mn>339</mn></mrow></math> cyfr.</li></ul><p>Łącznie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>7</mn><mo>+</mo><mn>180</mn><mo>+</mo><mn>339</mn><mo>=</mo><mn>526</mn></mrow></math> cyfr.</p><p>Odpowiedź: podczas numerowania stron tej książki zapisano 526 cyfr.</p>",
+        "rubric_html": "<ul><li>Uczeń otrzymuje 1 punkt, gdy poprawnie obliczy liczbę cyfr napisanych podczas numerowania pierwszych 99 stron.</li><li>Uczeń otrzymuje 2 punkty, gdy poprawnie obliczy liczbę cyfr napisanych podczas numerowania stron całej książki.</li></ul>",
         "model": {
           "answer": "526",
           "by": "sonnet",
@@ -97,6 +100,7 @@
       "answer": {
         "correct": "11 godzin",
         "solution_html": "<p>Zamieniamy czas na godziny: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mtext>&#160;h</mtext><mn>15</mn><mtext>&#160;min</mtext><mo>=</mo><mn>8,25</mn><mtext>&#160;h</mtext></mrow></math>. Liczba pracowników i czas malowania są odwrotnie proporcjonalne, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>16</mn><mo>·</mo><mn>8,25</mn><mo>=</mo><mn>12</mn><mi>x</mi></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mfrac><mn>132</mn><mn>12</mn></mfrac><mo>=</mo><mn>11</mn></mrow></math>.</p><p>Odpowiedź: dwunastu pracowników pomalowałoby halę w ciągu 11 godzin.</p>",
+        "rubric_html": "<ul><li>Uczeń otrzymuje 1 punkt, gdy zapisze prawidłowe równanie pozwalające obliczyć, w ciągu ilu godzin 12 pracowników pomaluje halę.</li><li>Uczeń otrzymuje 2 punkty, gdy obliczy, w ciągu ilu godzin 12 pracowników pomaluje halę.</li></ul>",
         "model": {
           "answer": "11 godzin",
           "by": "sonnet",
@@ -122,6 +126,7 @@
       "answer": {
         "correct": "78°",
         "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>PBC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>18</mn><mo>°</mo></mrow></math> (kąt wierzchołkowy z kątem 18°). Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest równoległe do <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math>, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>BCP</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>60</mn><mo>°</mo></mrow></math>. Wówczas <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>∢</mo><mi>CPB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>18</mn><mo>°</mo><mo>−</mo><mn>60</mn><mo>°</mo><mo>=</mo><mn>102</mn><mo>°</mo></mrow></math>, a kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> jest do niego przyległy, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>102</mn><mo>°</mo><mo>=</mo><mn>78</mn><mo>°</mo></mrow></math>.</p><p>Odpowiedź: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>α</mi><mo>=</mo><mn>78</mn><mo>°</mo></mrow></math>.</p>",
+        "rubric_html": "<ul><li>Uczeń otrzymuje 1 punkt, gdy poprawnie obliczy miarę kąta przyległego do kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> albo zapisze poprawne wyrażenie arytmetyczne pozwalające obliczyć miarę kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>.</li><li>Uczeń otrzymuje 2 punkty, gdy poprawnie obliczy miarę kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>.</li></ul>",
         "model": {
           "answer": "78°",
           "by": "sonnet",
@@ -145,6 +150,7 @@
       "answer": {
         "correct": "57",
         "solution_html": "<p>Zapisujemy iloczyny za pomocą potęg liczby 10: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>5</mn><mn>11</mn></msup><mo>·</mo><msup><mn>2</mn><mn>9</mn></msup><mo>=</mo><msup><mn>10</mn><mn>9</mn></msup><mo>·</mo><msup><mn>5</mn><mn>2</mn></msup></mrow></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>5</mn><mn>13</mn></msup><mo>·</mo><msup><mn>2</mn><mn>8</mn></msup><mo>=</mo><msup><mn>10</mn><mn>8</mn></msup><mo>·</mo><msup><mn>5</mn><mn>5</mn></msup></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><mo>·</mo><msup><mn>5</mn><mn>5</mn></msup><mo>·</mo><msup><mn>10</mn><mn>6</mn></msup><mo>=</mo><msup><mn>10</mn><mn>8</mn></msup><mo>·</mo><msup><mn>5</mn><mn>3</mn></msup></mrow></math>.</p><p>Zatem wyrażenie jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>10</mn><mn>8</mn></msup><mo>(</mo><msup><mn>10</mn><mn>4</mn></msup><mo>+</mo><mn>10</mn><mo>·</mo><msup><mn>5</mn><mn>2</mn></msup><mo>−</mo><msup><mn>5</mn><mn>5</mn></msup><mo>)</mo><mo>:</mo><mo>(</mo><msup><mn>10</mn><mn>8</mn></msup><mo>·</mo><msup><mn>5</mn><mn>3</mn></msup><mo>)</mo><mo>=</mo><mo>(</mo><msup><mn>2</mn><mn>4</mn></msup><mo>·</mo><msup><mn>5</mn><mn>4</mn></msup><mo>+</mo><mn>2</mn><mo>·</mo><msup><mn>5</mn><mn>3</mn></msup><mo>−</mo><msup><mn>5</mn><mn>5</mn></msup><mo>)</mo><mo>:</mo><msup><mn>5</mn><mn>3</mn></msup></mrow></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>=</mo><mn>16</mn><mo>·</mo><mn>5</mn><mo>+</mo><mn>2</mn><mo>−</mo><mn>25</mn><mo>=</mo><mn>57</mn></mrow></math>.</p><p>Odpowiedź: wartość wyrażenia jest równa 57.</p>",
+        "rubric_html": "<p>Uczeń otrzymuje 1 punkt, gdy poprawnie obliczy wartość wyrażenia (57).</p>",
         "model": {
           "answer": "57",
           "by": "sonnet",
@@ -169,6 +175,7 @@
       "answer": {
         "correct": "10 lat",
         "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza obecny wiek Kasi. Wtedy obecny wiek taty to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>(</mo><mi>x</mi><mo>+</mo><mn>5</mn><mo>)</mo><mo>−</mo><mn>5</mn><mo>=</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>10</mn></mrow></math>, a obecny wiek mamy to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mi>x</mi></mrow></math>.</p><p>Różnica wieku rodziców: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>3</mn><mi>x</mi><mo>+</mo><mn>10</mn><mo>)</mo><mo>−</mo><mn>3</mn><mi>x</mi><mo>=</mo><mn>10</mn></mrow></math>.</p><p>Odpowiedź: różnica wieku między rodzicami Kasi jest równa 10 lat.</p>",
+        "rubric_html": "<ul><li>Uczeń otrzymuje 1 punkt, gdy prawidłowo uzależni wiek Kasi oraz jej rodziców od jednej zmiennej.</li><li>Uczeń otrzymuje 2 punkty, gdy prawidłowo obliczy różnicę wieku między rodzicami Kasi.</li></ul>",
         "model": {
           "answer": "10 lat",
           "by": "sonnet",
@@ -206,6 +213,7 @@
       "answer": {
         "correct": "FPP",
         "solution_html": null,
+        "rubric_html": "<ul><li>Uczeń otrzymuje 1 punkt, gdy zaznaczy jedną poprawną odpowiedź.</li><li>Uczeń otrzymuje 2 punkty, gdy zaznaczy dwie lub trzy poprawne odpowiedzi.</li></ul>",
         "model": {
           "answer": "FPP",
           "by": "sonnet",

@@ -649,6 +649,7 @@
       "answer": {
         "correct": "4,34 i 17,36",
         "solution_html": "<p>Suma szukanych liczb wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>7</mn><mn>8</mn></mfrac><mo>·</mo><mn>24,8</mn><mo>=</mo><mn>0,875</mn><mo>·</mo><mn>24,8</mn><mo>=</mo><mn>21,7</mn></mrow></math>. Ponieważ jedna liczba jest 4 razy większa od drugiej, sumę dzielimy na <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>+</mo><mn>4</mn><mo>=</mo><mn>5</mn></mrow></math> części: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>21,7</mn><mo>:</mo><mn>5</mn><mo>=</mo><mn>4,34</mn></mrow></math> (mniejsza liczba) oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4,34</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>17,36</mn></mrow></math> (większa liczba). Szukane liczby to 4,34 i 17,36.</p>",
+        "rubric_html": "<ul><li>3 pkt – pełne i wykonane poprawną metodą rozwiązanie zadania.</li><li>2 pkt – rozwiązanie poprawną metodą ale z błędami rachunkowymi lub policzenie tylko pierwszej liczby – 4,34.</li><li>1 pkt – poprawne policzenie tylko iloczynu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>7</mn><mn>8</mn></mfrac><mo>·</mo><mn>24,8</mn><mo>=</mo><mn>21,7</mn></mrow></math>.</li></ul>",
         "model": {
           "answer": "4,34 i 17,36",
           "by": "sonnet",
@@ -671,6 +672,7 @@
       "answer": {
         "correct": "a) dwa razy: w 2021 i 2042 r.; b) raz: w 2042 r.",
         "solution_html": "<p>a) Turniej siatkówki odbywa się co 3 lata, a piłki nożnej co 7 lat, więc wspólnie co <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>NWW</mtext><mo>(</mo><mn>3</mn><mo>,</mo><mn>7</mn><mo>)</mo><mo>=</mo><mn>21</mn></mrow></math> lat. Licząc od 2000 r., przed upływem 2050 r. wypadną razem w latach 2021 i 2042 — dwa razy.</p><p>b) Wszystkie trzy imprezy naraz odbędą się co <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>NWW</mtext><mo>(</mo><mn>2</mn><mo>,</mo><mn>3</mn><mo>,</mo><mn>7</mn><mo>)</mo><mo>=</mo><mn>42</mn></mrow></math> lat, czyli przed upływem 2050 r. tylko raz — w 2042 r.</p><p><em>Uwaga z klucza: jeśli uczeń doliczy również rok 2000, otrzymuje maksymalną liczbę punktów.</em></p>",
+        "rubric_html": "<ul><li>4 pkt – pełne rozwiązanie poprawną metodą.</li><li>3 pkt – poprawne rozwiązanie, ale w przypadku a) podanie tylko jednej z możliwości.</li><li>2 pkt – poprawne rozwiązanie tylko a) lub poprawne rozwiązanie tylko b).</li><li>1 pkt – podanie tylko odpowiedzi nie popartej żadnym rozwiązaniem lub uzasadnieniem.</li></ul><p>UWAGA! Jeżeli uczeń doliczy rok 2000 – otrzymuje maksymalną liczbę punktów.</p>",
         "model": {
           "answer": "a) 2 razy: w 2021 i 2042 roku; b) 1 raz: w 2042 roku",
           "by": "sonnet",
@@ -695,6 +697,7 @@
       "answer": {
         "correct": "a) skala 1 : 1200; b) 1152 m²",
         "solution_html": "<p>a) Mniejsza podstawa 35 mm odpowiada w terenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>42</mn><mo> </mo><mtext>m</mtext><mo>=</mo><mn>42000</mn><mo> </mo><mtext>mm</mtext></mrow></math>, więc skala planu to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>42000</mn><mo>:</mo><mn>35</mn><mo>=</mo><mn>1200</mn></mrow></math>, czyli 1 : 1200.</p><p>b) Większa podstawa w terenie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>45</mn><mo> </mo><mtext>mm</mtext><mo>·</mo><mn>1200</mn><mo>=</mo><mn>54000</mn><mo> </mo><mtext>mm</mtext><mo>=</mo><mn>54</mn><mo> </mo><mtext>m</mtext></mrow></math>; wysokość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>20</mn><mo> </mo><mtext>mm</mtext><mo>·</mo><mn>1200</mn><mo>=</mo><mn>24000</mn><mo> </mo><mtext>mm</mtext><mo>=</mo><mn>24</mn><mo> </mo><mtext>m</mtext></mrow></math>. Pole działki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mo>(</mo><mn>54</mn><mo>+</mo><mn>42</mn><mo>)</mo><mo>·</mo><mn>24</mn><mo>=</mo><mn>1152</mn></mrow></math> m².</p>",
+        "rubric_html": "<ul><li>4 pkt – pełne rozwiązanie poprawną metodą.</li><li>3 pkt – poprawny sposób obliczenia skali i pola, ale z błędami rachunkowymi; jeżeli uczeń popełni błąd w skali i dalej liczy dobrze – traktujemy jako błąd rachunkowy.</li><li>2 pkt – poprawny sposób obliczenia skali i poprawne obliczenie długości brakujących boków bez obliczenia pola.</li><li>1 pkt – poprawne obliczenie tylko skali lub poprawne obliczenie pola trapezu na planie.</li></ul>",
         "model": {
           "answer": "a) skala 1:1200; b) 1152 m²",
           "by": "sonnet",
@@ -717,6 +720,7 @@
       "answer": {
         "correct": "80 uczestników; stosunek harcerzy do harcerek 9 : 11",
         "solution_html": "<p>Harcerki stanowią 55% uczestników, więc harcerze <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>100</mn><mo>%</mo><mo>−</mo><mn>55</mn><mo>%</mo><mo>=</mo><mn>45</mn><mo>%</mo></mrow></math>. Różnica <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>55</mn><mo>%</mo><mo>−</mo><mn>45</mn><mo>%</mo><mo>=</mo><mn>10</mn><mo>%</mo></mrow></math> odpowiada 8 osobom, zatem 100% to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mo>·</mo><mn>8</mn><mo>=</mo><mn>80</mn></mrow></math> uczestników. Harcerzy jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>45</mn><mo>%</mo><mo> </mo><mtext>z</mtext><mo> </mo><mn>80</mn><mo>=</mo><mn>36</mn></mrow></math>, harcerek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>55</mn><mo>%</mo><mo> </mo><mtext>z</mtext><mo> </mo><mn>80</mn><mo>=</mo><mn>44</mn></mrow></math>. Stosunek liczby harcerzy do harcerek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>36</mn><mn>44</mn></mfrac><mo>=</mo><mfrac><mn>9</mn><mn>11</mn></mfrac></mrow></math>.</p>",
+        "rubric_html": "<ul><li>4 pkt – pełne rozwiązanie poprawną metodą.</li><li>3 pkt – poprawna metoda obliczenia, ale z błędami rachunkowymi lub obliczenie tylko liczby uczestników obozu.</li><li>2 pkt – zapisanie, że 10% uczestników to 8 harcerzy, bez obliczenia liczby wszystkich uczestników.</li><li>1 pkt – podanie, że 45% liczby uczestników stanowią harcerze lub podanie stosunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>45</mn><mo>%</mo></mrow><mrow><mn>55</mn><mo>%</mo></mrow></mfrac><mo>=</mo><mfrac><mn>9</mn><mn>11</mn></mfrac></mrow></math>.</li></ul>",
         "model": {
           "answer": "80 uczestników; stosunek harcerzy do harcerek 9:11",
           "by": "sonnet",
@@ -739,6 +743,7 @@
       "answer": {
         "correct": "8800 m²",
         "solution_html": "<p>Wysokość wieżowca to 30 pięter po 2,5 m oraz parter i strych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>30</mn><mo>·</mo><mn>2,5</mn><mo> </mo><mtext>m</mtext><mo>+</mo><mn>4</mn><mo> </mo><mtext>m</mtext><mo>+</mo><mn>3</mn><mo> </mo><mtext>m</mtext><mo>=</mo><mn>75</mn><mo>+</mo><mn>7</mn><mo>=</mo><mn>82</mn><mo> </mo><mtext>m</mtext></mrow></math>. Pole powierzchni bez dolnej podstawy to pole górnej podstawy powiększone o pola czterech ścian bocznych: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>P</mi><mo>=</mo><mn>30</mn><mo>·</mo><mn>20</mn><mo>+</mo><mn>2</mn><mo>·</mo><mn>30</mn><mo>·</mo><mn>82</mn><mo>+</mo><mn>2</mn><mo>·</mo><mn>20</mn><mo>·</mo><mn>82</mn><mo>=</mo><mn>600</mn><mo>+</mo><mn>4920</mn><mo>+</mo><mn>3280</mn><mo>=</mo><mn>8800</mn></mrow></math> m².</p>",
+        "rubric_html": "<ul><li>4 pkt – pełne rozwiązanie poprawną metodą.</li><li>3 pkt – poprawna metoda obliczenia, ale z błędami rachunkowymi lub obliczenie pola powierzchni z obydwoma podstawami.</li><li>2 pkt – obliczenie wysokości prostopadłościanu dowolną metodą (np. graficzną).</li><li>1 pkt – obliczenie tylko pola podstawy.</li></ul>",
         "model": {
           "answer": "8800 m²",
           "by": "sonnet",

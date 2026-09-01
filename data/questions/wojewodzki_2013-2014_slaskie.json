@@ -28,6 +28,7 @@
       "answer": {
         "correct": "Uzupełnione pola: 6 (1. wiersz), 20 i 4 (2. wiersz liczbowy), 5 i 2 (3. wiersz liczbowy) oraz −14 (dolny wiersz).",
         "solution_html": "<p>Uzupełniona krzyżówka spełnia wszystkie działania. Wiersze: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mo>:</mo><mn>6</mn><mo>·</mo><mn>2</mn><mo>=</mo><mn>8</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mo>·</mo><mn>4</mn><mo>:</mo><mn>10</mn><mo>=</mo><mn>8</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>+</mo><mn>5</mn><mo>−</mo><mn>2</mn><mo>=</mo><mn>8</mn></math>. Kolumny: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mo>−</mo><mn>20</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>9</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>−</mo><mn>4</mn><mo>·</mo><mn>5</mn><mo>=</mo><mo>−</mo><mn>14</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>−</mo><mn>10</mn><mo>·</mo><mn>2</mn><mo>=</mo><mo>−</mo><mn>18</mn></math>. Do pustych pól należy wpisać kolejno: 6, 20, 4, 5, 2 oraz −14.</p>",
+        "rubric_html": "<ul><li>Za każdą poprawnie rozwiązaną krzyżówkę – 3 punkty.</li><li>Jeżeli 1 błąd – 2 punkty, a jeżeli 2 błędy – 1 punkt.</li></ul>",
         "model": {
           "answer": "Wiersz1: 24:6·2=8; Wiersz3: 20·4:10=8; Wiersz5: 5+5−2=8; Kolumna1: 24−20+5=9; Kolumna3: 6−4·5=−14; Kolumna5: 2−10·2=−18 (brakujące pola: w.1k.3=6, w.3k.1=20, w.3k.3=4, w.5k.3=5, w.5k.5=2, w.7k.3=−14)",
           "by": "sonnet",
@@ -50,6 +51,7 @@
       "answer": {
         "correct": "A) (16 + 32) : 4 · (15 + 5) = 240;  B) (25 + 75) : (5 + 15) − 25 : 5 = 0",
         "solution_html": "<p>A) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>16</mn><mo>+</mo><mn>32</mn><mo>)</mo><mo>:</mo><mn>4</mn><mo>·</mo><mo>(</mo><mn>15</mn><mo>+</mo><mn>5</mn><mo>)</mo><mo>=</mo><mn>48</mn><mo>:</mo><mn>4</mn><mo>·</mo><mn>20</mn><mo>=</mo><mn>240</mn></math>. B) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>25</mn><mo>+</mo><mn>75</mn><mo>)</mo><mo>:</mo><mo>(</mo><mn>5</mn><mo>+</mo><mn>15</mn><mo>)</mo><mo>−</mo><mn>25</mn><mo>:</mo><mn>5</mn><mo>=</mo><mn>100</mn><mo>:</mo><mn>20</mn><mo>−</mo><mn>5</mn><mo>=</mo><mn>5</mn><mo>−</mo><mn>5</mn><mo>=</mo><mn>0</mn></math>.</p>",
+        "rubric_html": "<ul><li>2 punkty za wstawienie poprawnie nawiasów w wyrażeniach.</li><li>1 punkt za wstawienie poprawnie nawiasów w jednym z wyrażeń.</li></ul>",
         "model": {
           "answer": "A) (16+32):4·(15+5)=240; B) (25+75):(5+15)−25:5=0",
           "by": "sonnet",
@@ -467,6 +469,7 @@
       "answer": {
         "correct": "A. 24 godziny; B. zaćmienie Słońca",
         "solution_html": null,
+        "rubric_html": "<ul><li>2 pkt. za wszystkie poprawne odpowiedzi</li><li>Po 1 pkt za każdą poprawną odpowiedź</li></ul>",
         "model": {
           "answer": "A – 24 godziny; B – zaćmienie Słońca",
           "by": "sonnet",
@@ -489,6 +492,7 @@
       "answer": {
         "correct": "A. tundra; B. wilgotne lasy równikowe; C. roślinność śródziemnomorska",
         "solution_html": null,
+        "rubric_html": "<ul><li>3 pkt. za wszystkie poprawne odpowiedzi</li><li>Po 1 pkt za każdą poprawną odpowiedź</li></ul>",
         "model": {
           "answer": "A – tundra; B – wilgotne lasy równikowe; C – roślinność śródziemnomorska",
           "by": "sonnet",
@@ -511,6 +515,7 @@
       "answer": {
         "correct": "Arktyka: 3, 5, 6; Antarktyda: 1, 2, 4",
         "solution_html": null,
+        "rubric_html": "<ul><li>3 pkt. za wszystkie poprawne odpowiedzi</li><li>2 pkt. za 4-5 poprawnych odpowiedzi</li><li>1 pkt za 2-3 poprawne odpowiedzi</li></ul>",
         "model": {
           "answer": "Arktyka: 3, 5, 6; Antarktyda: 1, 2, 4",
           "by": "sonnet",
@@ -533,6 +538,7 @@
       "answer": {
         "correct": "siła ciężkości – skutek 3, przyczyna C; siła tarcia – skutek 4, przyczyna A; siła sprężystości – skutek 2, przyczyna D; siła oddziaływania magnetycznego – skutek 1, przyczyna B",
         "solution_html": null,
+        "rubric_html": "<ul><li>4 pkt. za wszystkie poprawne odpowiedzi</li><li>1 pkt za każdą poprawną odpowiedź w wierszu,</li><li>1 pkt jeżeli uczeń, pomimo błędnych odpowiedzi, uzupełnił jedną kolumnę poprawnie</li></ul>",
         "model": {
           "answer": "siła ciężkości: skutek 3, przyczyna C; siła tarcia: skutek 4, przyczyna A; siła sprężystości: skutek 2, przyczyna D; siła oddziaływania magnetycznego: skutek 1, przyczyna B",
           "by": "sonnet",
@@ -568,6 +574,7 @@
       "answer": {
         "correct": "PFP",
         "solution_html": null,
+        "rubric_html": "<p>Za każdą poprawną odpowiedź przyznajemy 1 punkt.</p>",
         "model": {
           "answer": "PFP",
           "by": "sonnet",
@@ -603,6 +610,7 @@
       "answer": {
         "correct": "PPF",
         "solution_html": null,
+        "rubric_html": "<p>Za każdą poprawną odpowiedź przyznajemy 1 punkt.</p>",
         "model": {
           "answer": "PPF",
           "by": "sonnet",
@@ -639,6 +647,7 @@
       "answer": {
         "correct": "FPF",
         "solution_html": null,
+        "rubric_html": "<p>Za każdą poprawną odpowiedź przyznajemy 1 punkt.</p>",
         "model": {
           "answer": "FPF",
           "by": "sonnet",
@@ -675,6 +684,7 @@
       "answer": {
         "correct": "PFP",
         "solution_html": null,
+        "rubric_html": "<p>Za każdą poprawną odpowiedź przyznajemy 1 punkt.</p>",
         "model": {
           "answer": "PFP",
           "by": "sonnet",
@@ -698,6 +708,7 @@
       "answer": {
         "correct": "Niższą cenę 1 m² zawiera oferta działki nr I – 90 zł/m² (działka nr II – 104 zł/m²).",
         "solution_html": "<p>Działka nr I: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,14</mn><mtext> ha</mtext><mo>=</mo><mn>1400</mn><msup><mtext> m</mtext><mn>2</mn></msup></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>126000</mn><mo>:</mo><mn>1400</mn><mo>=</mo><mn>90</mn></math> zł/m². Działka nr II: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6,5</mn><mtext> a</mtext><mo>=</mo><mn>650</mn><msup><mtext> m</mtext><mn>2</mn></msup></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>67600</mn><mo>:</mo><mn>650</mn><mo>=</mo><mn>104</mn></math> zł/m². Niższą cenę 1 m² zawiera oferta działki nr I (90 zł/m²).</p>",
+        "rubric_html": "<ul><li>1 punkt otrzymuje uczeń, jeżeli dobrze zamienia jednostki pola działek na m²</li><li>2 punkty otrzymuje uczeń, jeżeli stosuje poprawną metodę obliczenia ceny jednego m².</li><li>3 punkty otrzymuje uczeń za pełne rozwiązanie, czyli porównanie cen za jeden m²</li></ul><p>UWAGA: Jeżeli uczeń stosuje poprawną metodę, ale popełnia błędy rachunkowe, traci 1 pkt.</p>",
         "model": {
           "answer": "Działka nr I; cena 90 zł/m²",
           "by": "sonnet",
@@ -720,6 +731,7 @@
       "answer": {
         "correct": "Objętość: 504 cm³; pole powierzchni całkowitej: 384 cm².",
         "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mn>0,512</mn><msup><mtext> dm</mtext><mn>3</mn></msup><mo>=</mo><mn>512</mn><msup><mtext> cm</mtext><mn>3</mn></msup></math>, więc krawędź sześcianu ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn></math> cm (bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>·</mo><mn>8</mn><mo>·</mo><mn>8</mn><mo>=</mo><mn>512</mn></math>). Usunięto 8 naroży, każde o objętości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>1</mn><mn>3</mn></msup><mo>=</mo><mn>1</mn></math> cm³, więc objętość powstałej bryły to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>512</mn><mo>−</mo><mn>8</mn><mo>·</mo><mn>1</mn><mo>=</mo><mn>504</mn></math> cm³. Usunięcie naroży nie zmienia pola powierzchni – w miejsce każdych trzech odsłoniętych kwadratów pojawiają się trzy takie same – więc pole powierzchni całkowitej pozostaje równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><msup><mn>8</mn><mn>2</mn></msup><mo>=</mo><mn>384</mn></math> cm².</p>",
+        "rubric_html": "<ul><li>1 punkt otrzymuje uczeń, jeżeli stosuje poprawną metodę obliczenia krawędzi sześcianu (np. sprawdza, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>·</mo><mn>8</mn><mo>·</mo><mn>8</mn><mo>=</mo><mn>512</mn></math>)</li><li>2 punkty otrzymuje uczeń, jeżeli obliczy objętość bryły po odcięciu narożników (jeżeli nie obliczy długości krawędzi sześcianu, również przyznajemy 2 punkty)</li><li>3 punkty otrzymuje uczeń, jeżeli obliczy pole powierzchni sześciu ścian sześcianu po odcięciu narożników lub obliczy pole powierzchni powstałej po usunięciu ośmiu narożników</li></ul><p>UWAGA: Jeżeli uczeń zastosował złą metodę obliczenia długości krawędzi sześcianu, nie przyznajemy punktów za obliczenie pola. Może uzyskać najwyżej 2 punkty za poprawne obliczenie objętości.</p><ul><li>4 punkty otrzymuje uczeń, jeżeli obliczy pole powierzchni całkowitej i objętość bryły po odcięciu narożników</li></ul><p>UWAGA: Jeżeli uczeń poprawnie obliczy pole powierzchni całkowitej otrzymanej bryły i nie obliczy objętości, otrzymuje 3 punkty.</p><p>UWAGA: Jeżeli uczeń stosuje poprawną metodę, ale popełnia błędy rachunkowe, traci 1 pkt.</p>",
         "model": {
           "answer": "Pole powierzchni całkowitej = 384 cm²; objętość = 504 cm³",
           "by": "sonnet",
@@ -742,6 +754,7 @@
       "answer": {
         "correct": "22,3 km/h",
         "solution_html": "<p>Do spotkania pierwszy rowerzysta przejechał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15,2</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>60,8</mn></math> km. Drugi rowerzysta przejechał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>150</mn><mo>−</mo><mn>60,8</mn><mo>=</mo><mn>89,2</mn></math> km w ciągu 4 godzin, więc jego średnia prędkość to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>89,2</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>22,3</mn></math> km/h.</p>",
+        "rubric_html": "<ul><li>1 punkt otrzymuje uczeń za poprawną metodę obliczenia drogi I rowerzysty do spotkania.</li><li>2 punkty otrzymuje uczeń za poprawną metodę obliczenia drogi II rowerzysty do spotkania lub za ułożenie równania</li><li>3 punkty otrzymuje uczeń za poprawną metodę obliczenia prędkości II rowerzysty</li><li>4 punkty otrzymuje uczeń za poprawne obliczenia i stosowanie poprawnych jednostek.</li></ul><p>UWAGA: Jeżeli uczeń stosuje poprawną metodę, ale popełnia błędy rachunkowe, traci 1 pkt.</p>",
         "model": {
           "answer": "22,3 km/h",
           "by": "sonnet",

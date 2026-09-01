@@ -421,6 +421,7 @@
       "answer": {
         "correct": "20 cm",
         "solution_html": null,
+        "rubric_html": "<ul><li>2p – prawidłowe podanie odpowiedzi,</li><li>1p – podanie poprawnej odpowiedzi w innej jednostce niż cm wraz z tą jednostką.</li></ul>",
         "model": {
           "answer": "20 cm",
           "by": "sonnet",
@@ -443,6 +444,7 @@
       "answer": {
         "correct": "17 11/17 %",
         "solution_html": null,
+        "rubric_html": "<ul><li>2p – prawidłowe podanie odpowiedzi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>17</mn><mfrac><mn>11</mn><mn>17</mn></mfrac><mo>%</mo></math> lub podanie innej równoważnej liczby np.: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>300</mn><mn>17</mn></mfrac><mo>%</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1500</mn><mn>85</mn></mfrac><mo>%</mo></math>,</li><li>1p – podanie wyniku w przybliżeniu np.: 18%, 17,6%, 17,65%, 17,647% lub zapisanie metody obliczenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>15</mn><mn>0,85</mn></mfrac><mo>%</mo></math>.</li></ul><p>Uwaga: Przy liczbie nie jest wymagany symbol %.</p>",
         "model": {
           "answer": "17 11/17% (≈17,65%)",
           "by": "sonnet",
@@ -466,6 +468,7 @@
       "answer": {
         "correct": "45°; 135°",
         "solution_html": null,
+        "rubric_html": "<ul><li>2p – prawidłowe podanie obu miar kątów,</li><li>1p – prawidłowe podanie miary tylko jednego z szukanych kątów,</li><li>0p – brak odpowiedzi lub podanie jednego z szukanych kątów poprawnie, a drugiego błędnie.</li></ul>",
         "model": {
           "answer": "45° i 135°",
           "by": "sonnet",
@@ -489,6 +492,7 @@
       "answer": {
         "correct": "3/8",
         "solution_html": null,
+        "rubric_html": "<ul><li>2p – prawidłowe podanie odpowiedzi,</li><li>1p – prawidłowe podanie liczby, ale nie w postaci nieskracalnego ułamka zwykłego np.: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>24</mn><mn>64</mn></mfrac></math>; 0,375; 37,5%.</li></ul>",
         "model": {
           "answer": "3/8",
           "by": "sonnet",
@@ -512,6 +516,7 @@
       "answer": {
         "correct": "x = 0, y = 2",
         "solution_html": "<p>Suma wszystkich ośmiu liczb jest równa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mo>·</mo><mn>2</mn><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>=</mo><mn>22</mn></math>. Suma znanych liczb to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>0</mn><mo>+</mo><mn>1</mn><mo>+</mo><mn>4</mn><mo>+</mo><mn>5</mn><mo>=</mo><mn>20</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mi>y</mi><mo>=</mo><mn>2</mn></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>&gt;</mo><mi>x</mi></math> i obie liczby są naturalne, jedyna możliwość to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>0</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>2</mn></math>.</p>",
+        "rubric_html": "<ul><li>4p – poprawne rozumowanie oraz bezbłędne obliczenia prowadzące do podania w odpowiedzi szukanych liczb, również metodą prób i błędów,</li><li>3p – poprawne rozumowanie pozwalające na wyznaczenie szukanych liczb, jednak w rozwiązaniu zadania uczeń popełnił błędy rachunkowe lub nie uwzględnił warunków zadania, w wyniku czego otrzymał np. <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>2</mn></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>0</mn></math> lub podał, że obie liczby są równe 1,</li><li>2p – poprawne metody prowadzące do obliczenia sumy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mi>y</mi></math>,</li><li>1p – poprawna metoda ustalenia sumy wszystkich 8 liczb.</li></ul>",
         "model": {
           "answer": "x = 0, y = 2",
           "by": "sonnet",
@@ -536,6 +541,7 @@
       "answer": {
         "correct": "a) 13; b) 39; c) 2x−1; d) y−1",
         "solution_html": "<p>W rzędzie o numerze <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math> jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>n</mi><mo>−</mo><mn>1</mn></math> guzików. Stąd w rzędzie 7. jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>7</mn><mo>−</mo><mn>1</mn><mo>=</mo><mn>13</mn></math> guzików (a), a w rzędzie 20. jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>20</mn><mo>−</mo><mn>1</mn><mo>=</mo><mn>39</mn></math> guzików (b). Liczba guzików w rzędzie o numerze <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>−</mo><mn>1</mn></math> (c). W rzędzie parzystym skrajne guziki są czarne, więc białych jest o jeden mniej niż czarnych; dla parzystego <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> liczba białych guzików wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>−</mo><mn>1</mn></math> (d).</p>",
+        "rubric_html": "<ul><li><strong>a)</strong> 1p – podanie poprawnej liczby guzików: 13.</li><li><strong>b)</strong> 1p – podanie poprawnej liczby guzików: 39.</li><li><strong>c)</strong> 2p – zapisanie wyrażenia algebraicznego: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>−</mo><mn>1</mn></math>; 1p – poprawne słowne zapisanie rozumowania, np.: „liczba punktów jest o jeden mniejsza od podwojonego numeru rzędu”.</li><li><strong>d)</strong> 2p – zapisanie wyrażenia algebraicznego: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>−</mo><mn>1</mn></math>; 1p – słowne zapisanie, np.: „liczba białych guzików jest o jeden mniejsza od numeru rzędu parzystego”.</li></ul>",
         "model": {
           "answer": "a) 13; b) 39; c) 2x−1; d) y−1",
           "by": "sonnet",
@@ -560,6 +566,7 @@
       "answer": {
         "correct": "14,4 km",
         "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza odległość między schroniskami B i C (w km); wtedy odległość A–B to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi></math>. Droga A→B→C: pod górę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi></math> z szybkością 2, w dół <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> z szybkością 3. Droga powrotna C→B→A: pod górę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> z szybkością 2, w dół <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi></math> z szybkością 3. Z warunku (24 min = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>24</mn><mn>60</mn></mfrac></math> h) otrzymujemy równanie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mn>2</mn><mi>x</mi></mrow><mn>2</mn></mfrac><mo>+</mo><mfrac><mi>x</mi><mn>3</mn></mfrac><mo>=</mo><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>+</mo><mfrac><mrow><mn>2</mn><mi>x</mi></mrow><mn>3</mn></mfrac><mo>+</mo><mfrac><mn>24</mn><mn>60</mn></mfrac></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>2,4</mn></math>. Turysta pokonał całą trasę dwukrotnie, więc przeszedł <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mo>(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>6</mn><mi>x</mi><mo>=</mo><mn>6</mn><mo>·</mo><mn>2,4</mn><mo>=</mo><mn>14,4</mn></math> km.</p>",
+        "rubric_html": "<ul><li>5p – poprawne rozumowanie oraz bezbłędne obliczenia prowadzące do podania drogi przebytej przez turystę – 14,4 km,</li><li>4p – poprawne rozumowanie, dobre metody z błędami rachunkowymi lub poprawne rozumowanie, dobre metody, obliczenie drogi w innej jednostce niż km,</li><li>3p – zapisanie równania pozwalającego obliczyć odległość między schroniskami A i B lub B i C i nierozwiązanie go lub popełnienie błędów rzeczowych przy jego rozwiązywaniu,</li><li>2p – poprawna metoda obliczenia czasu potrzebnego na pokonanie poszczególnych odcinków,</li><li>1p – ustalenie szybkości na poszczególnych odcinkach, może to być podpisane na rysunku (do przyznania punktu nie wystarczy samo zaznaczenie kierunku przemieszczania się, muszą być wpisane szybkości) lub zamiana minut na godziny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mtext> min</mtext><mo>=</mo><mfrac><mn>24</mn><mn>60</mn></mfrac><mtext> h</mtext></math> lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac><mo>=</mo><mfrac><mn>2</mn><mn>60</mn></mfrac><mfrac><mtext>km</mtext><mtext>min</mtext></mfrac></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac><mo>=</mo><mfrac><mn>3</mn><mn>60</mn></mfrac><mfrac><mtext>km</mtext><mtext>min</mtext></mfrac></math>.</li></ul>",
         "model": {
           "answer": "14,4 km",
           "by": "sonnet",
@@ -582,6 +589,7 @@
       "answer": {
         "correct": "12,5 cm",
         "solution_html": "<p>Objętość metalowej kostki to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>10</mn><mn>3</mn></msup><mo>=</mo><mn>1000</mn></math> cm³, a 4 litry wody to 4000 cm³. Łączna objętość wody i kostki wypełnia akwarium do wysokości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>20</mn><mo>·</mo><mn>20</mn><mo>·</mo><mi>h</mi><mo>=</mo><mn>1000</mn><mo>+</mo><mn>4000</mn><mo>=</mo><mn>5000</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mn>12,5</mn></math> cm (kostka o wysokości 10 cm jest całkowicie zanurzona).</p>",
+        "rubric_html": "<ul><li>4p – poprawne rozumowanie oraz bezbłędne obliczenia,</li><li>3p – zastosowanie poprawnych metod, ale rozwiązanie zawiera błędy rachunkowe, do których nie zaliczamy zamiany litrów na jednostki, w których uczeń prowadzi obliczenia,</li><li>2p – poprawne metody prowadzące do obliczenia objętości wody z kostką lub poprawna metoda obliczenia, ile wody potrzeba do zrównania jej poziomu z wysokością kostki,</li><li>1p – poprawna zamiana litrów na jednostki, w których uczeń prowadzi obliczenia: 4 l = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4000</mn><mtext> </mtext><msup><mtext>cm</mtext><mn>3</mn></msup></math> lub 4 l = <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mtext> </mtext><msup><mtext>dm</mtext><mn>3</mn></msup></math>, lub sprawdzenie, że sześcian jest całkowicie zanurzony w wodzie, uczeń może zapisać, np.: „po wlaniu 4 l wody do pustego akwarium, będzie ona sięgała do wysokości 1 dm, sześcian będzie w niej całkowicie zanurzony”.</li></ul>",
         "model": {
           "answer": "12,5 cm",
           "by": "sonnet",
@@ -604,6 +612,7 @@
       "answer": {
         "correct": "Nie wystarczy (potrzeba 15,20 zł)",
         "solution_html": "<p>Ponieważ Kuba i Wojtek zapłacili tyle samo, mamy układ równań <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mi>t</mi><mo>+</mo><mn>8</mn><mi>ż</mi><mo>=</mo><mn>16</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mi>t</mi><mo>+</mo><mn>12</mn><mi>ż</mi><mo>=</mo><mn>16</mn></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi></math> to cena tulipana, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ż</mi></math> cena żonkila. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mn>1,60</mn></math> zł i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ż</mi><mo>=</mo><mn>0,80</mn></math> zł. Janek za 5 tulipanów i 9 żonkili zapłaciłby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>·</mo><mn>1,60</mn><mo>+</mo><mn>9</mn><mo>·</mo><mn>0,80</mn><mo>=</mo><mn>15,20</mn></math> zł, czyli więcej niż 15 zł — <strong>nie wystarczy</strong>.</p>",
+        "rubric_html": "<ul><li>4p – poprawne rozumowanie zakończone zapisaniem właściwego wniosku,</li><li>3p – poprawne ustalenie sposobu obliczenia ceny, którą musi zapłacić Janek,</li><li>2p – zapisanie, że za 16 zł można kupić 20 żonkili i za 16 zł można kupić 10 tulipanów lub ułożenie poprawnego równania z jedną niewiadomą lub w metodzie z dwiema niewiadomymi obliczenie ceny obu kwiatków,</li><li>1p – stwierdzenie, że dwa tulipany kosztują tyle samo co 4 żonkile lub ułożenie poprawnego układu równań,</li><li>0p – rozwiązanie błędne, brak rozwiązania lub zapisanie tylko poprawnej odpowiedzi bez uzasadnienia.</li></ul>",
         "model": {
           "answer": "Nie, nie wystarczy (koszt 15,20 zł, brakuje 0,20 zł)",
           "by": "sonnet",

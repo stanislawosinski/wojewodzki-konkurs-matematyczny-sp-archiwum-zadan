@@ -807,6 +807,7 @@
       "answer": {
         "correct": "komórka → tkanka → narząd → układ narządów → organizm",
         "solution_html": "<p>Porządkując określenia od najprostszego do najbardziej złożonego elementu budowy organizmu, otrzymujemy: komórka → tkanka → narząd → układ narządów → organizm.</p>",
+        "rubric_html": "<p>Przyznajemy punkt, gdy wszystkie pola są poprawnie uzupełnione</p>",
         "model": {
           "answer": "komórka, tkanka, narząd, układ narządów, organizm",
           "by": "sonnet",
@@ -829,6 +830,7 @@
       "answer": {
         "correct": "Wyżyna Lubelska; Góry Świętokrzyskie; Nizina Śląska; Wyżyna Krakowsko-Częstochowska",
         "solution_html": "<p>Kolejnym opisom odpowiadają krainy:</p><ul><li>„Kraina rolnicza, słynąca z chmielników, czarnoziemów i wąwozów lessowych\" — <strong>Wyżyna Lubelska</strong>,</li><li>„Występują tu gołoborza, Łysogóry, Puszcza Jodłowa i Jaskinia Raj\" — <strong>Góry Świętokrzyskie</strong>,</li><li>„Najcieplejszy rejon Polski, z najdłuższym okresem wegetacji\" — <strong>Nizina Śląska</strong>,</li><li>„Słynie z krajobrazu krasowego w malowniczych skałach wapiennych oraz Szlaku Orlich Gniazd\" — <strong>Wyżyna Krakowsko-Częstochowska</strong>.</li></ul>",
+        "rubric_html": "<ul><li>Poprawne uzupełnienie 4 pól – 2 p.</li><li>Poprawne uzupełnienie 2 lub 3 pól – 1 p.</li></ul>",
         "model": {
           "answer": "1. Wyżyna Lubelska; 2. Góry Świętokrzyskie; 3. Nizina Śląska; 4. Wyżyna Krakowsko-Częstochowska",
           "by": "sonnet",
@@ -853,6 +855,7 @@
       "answer": {
         "correct": "leszczyna (dopuszczalne: orzech laskowy), klon, kasztanowiec, dąb",
         "solution_html": "<p>Kolejne rysunki przedstawiają liście (i owoce) drzew: <strong>leszczyna</strong> (dopuszczalna odpowiedź: orzech laskowy), <strong>klon</strong>, <strong>kasztanowiec</strong>, <strong>dąb</strong>.</p>",
+        "rubric_html": "<ul><li>Poprawne uzupełnienie 4 pól – 2 p.</li><li>Poprawne uzupełnienie 2 lub 3 pól – 1 p.</li></ul>",
         "model": {
           "answer": "1. leszczyna; 2. klon; 3. kasztanowiec; 4. dąb",
           "by": "sonnet",
@@ -876,6 +879,7 @@
       "answer": {
         "correct": "8 godzin",
         "solution_html": "<p>Część czasu przeznaczona na przejazd i zwiedzanie muzeum: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>7</mn><mn>12</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>=</mo><mfrac><mn>35</mn><mn>60</mn></mfrac><mo>+</mo><mfrac><mn>12</mn><mn>60</mn></mfrac><mo>=</mo><mfrac><mn>47</mn><mn>60</mn></mfrac></mrow></math>. Na pobyt w ZOO przypada więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>−</mo><mfrac><mn>47</mn><mn>60</mn></mfrac><mo>=</mo><mfrac><mn>13</mn><mn>60</mn></mfrac></mrow></math> całego czasu. Czas pobytu w ZOO: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>16</mn><mo>:</mo><mn>30</mn><mo>−</mo><mn>14</mn><mo>:</mo><mn>46</mn><mo>=</mo><mn>1</mn></mrow></math> h 44 min = 104 min. Skoro <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>13</mn><mn>60</mn></mfrac></math> to 104 minuty, to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>60</mn></mfrac></math> to 8 minut, a cała wycieczka (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>60</mn><mn>60</mn></mfrac></math>) trwała <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>60</mn><mo>·</mo><mn>8</mn><mo>=</mo><mn>480</mn></mrow></math> minut = 8 godzin.</p>",
+        "rubric_html": "<ul><li>Obliczenie, jaką część całego czasu trwał przejazd i zwiedzanie muzeum – 1 p.</li><li>Obliczenie, jaką część całego czasu trwał pobyt w ZOO – 1 p.</li><li>Obliczenie czasu pobytu w ZOO – 1 p.</li><li>Obliczenie łącznego czasu wycieczki – 1 p.</li></ul><p>Uwaga: Za każde inne poprawne rozwiązanie zadania, uczeń otrzymuje 4 p.</p>",
         "model": {
           "answer": "8 godzin (480 minut)",
           "by": "sonnet",
@@ -898,6 +902,7 @@
       "answer": {
         "correct": "o 1/4",
         "solution_html": "<p>Nowa cena stanowi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>−</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>=</mo><mfrac><mn>4</mn><mn>5</mn></mfrac></mrow></math> ceny pierwotnej. Aby wrócić do ceny początkowej, trzeba dodać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>5</mn></mfrac></math> ceny pierwotnej, co w stosunku do nowej ceny wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>:</mo><mfrac><mn>4</mn><mn>5</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>·</mo><mfrac><mn>5</mn><mn>4</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac></mrow></math>. Nową cenę należy więc podnieść o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math>.</p>",
+        "rubric_html": "<ul><li>Obliczenie, jaką część pierwotnej ceny stanowi nowa cena – 1 p.</li><li>Ustalenie, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>5</mn></mfrac></math> to czwarta część z nowej ceny, czyli z <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>5</mn></mfrac></math> – 1 p.</li></ul><p>Uwaga: Za każde inne poprawne rozwiązanie zadania uczeń otrzymuje 2 p. Uczeń może również posłużyć się rysunkiem, opisując na nim zaobserwowane zależności.</p>",
         "model": {
           "answer": "o 1/4 (25%)",
           "by": "sonnet",
@@ -920,6 +925,7 @@
       "answer": {
         "correct": "Tak, sad ma długość większą niż 30 m (co najmniej 31,36 m)",
         "solution_html": "<p>Kreski chłopców pokrywają się na długościach, które są wspólnymi wielokrotnościami długości ich stóp. Najmniejsza taka długość to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>NWW</mtext><mo>(</mo><mn>32</mn><mo>,</mo><mn>28</mn><mo>)</mo><mo>=</mo><mn>224</mn></mrow></math> cm. Skoro kreski pokryły się 14 razy, najmniejsza możliwa długość sadu to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>224</mn><mo>·</mo><mn>14</mn><mo>=</mo><mn>3136</mn></mrow></math> cm = 31,36 m. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>31,36</mn><mtext> m</mtext><mo>&gt;</mo><mn>30</mn><mtext> m</mtext></mrow></math>, sad dziadka ma długość większą niż 30 m.</p>",
+        "rubric_html": "<ul><li>Wyjaśnienie, że kreski rysowane przez chłopców znajdują się na długościach wyrażonych liczbami, które są wspólnymi wielokrotnościami długości ich stóp – 1 p.</li><li>Obliczenie NWW (32;28) – 1 p.</li><li>Obliczenie najmniejszej długości, jaką mógł mieć sad – 1 p.</li><li>Porównanie i udzielenie odpowiedzi – 1 p.</li></ul><p>Uwaga: Za każde inne poprawne rozwiązanie zadania uczeń otrzymuje 4 p.</p>",
         "model": {
           "answer": "Tak, sad ma długość większą niż 30 m (co najmniej 31,36 m)",
           "by": "sonnet",

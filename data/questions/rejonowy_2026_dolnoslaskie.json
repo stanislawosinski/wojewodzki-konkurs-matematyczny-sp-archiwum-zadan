@@ -414,6 +414,7 @@
       "answer": {
         "correct": "A. 10, B. 8",
         "solution_html": null,
+        "rubric_html": "<p>Po 1 punkcie za każdy poprawny element w zadaniu.</p>",
         "model": {
           "answer": "a) 10; b) 8",
           "by": "sonnet",
@@ -440,6 +441,7 @@
       "answer": {
         "correct": "A. x = −1, B. 60",
         "solution_html": null,
+        "rubric_html": "<p>Po 1 punkcie za każdy poprawny element w zadaniu.</p>",
         "model": {
           "answer": "a) x = -1; b) 60",
           "by": "sonnet",
@@ -462,6 +464,7 @@
       "answer": {
         "correct": "(−6, 8), (6, 8), (6, −8)",
         "solution_html": null,
+        "rubric_html": "<p>Po 1 punkcie za każdy poprawny element w zadaniu.</p>",
         "model": {
           "answer": "(6, 8); (6, -8); (-6, 8)",
           "by": "sonnet",
@@ -484,6 +487,7 @@
       "answer": {
         "correct": "A. 104, B. 540, C. √106",
         "solution_html": null,
+        "rubric_html": "<p>Po 1 punkcie za każdy poprawny element w zadaniu.</p>",
         "model": {
           "answer": "a) 104 cm; b) 540 cm3; c) pierwiastek ze 106 cm (≈10,3 cm)",
           "by": "sonnet",
@@ -506,6 +510,7 @@
       "answer": {
         "correct": "x + y + z = 1,25",
         "solution_html": "<p>Oznaczmy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mi>x</mi><mo>+</mo><mi>y</mi><mo>+</mo><mi>z</mi></math>. Wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mi>y</mi><mo>+</mo><mn>3</mn><mo>=</mo><mn>2</mn><mi>S</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>+</mo><mi>z</mi><mo>+</mo><mn>5</mn><mo>=</mo><mn>3</mn><mi>S</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi><mo>+</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo>=</mo><mn>5</mn><mi>S</mi></math>.</p><p>Dodając stronami: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>+</mo><mn>2</mn><mi>y</mi><mo>+</mo><mn>2</mn><mi>z</mi><mo>+</mo><mn>10</mn><mo>=</mo><mn>10</mn><mi>S</mi></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>S</mi><mo>+</mo><mn>10</mn><mo>=</mo><mn>10</mn><mi>S</mi></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mi>S</mi><mo>=</mo><mn>10</mn></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi><mo>=</mo><mfrac><mn>5</mn><mn>4</mn></mfrac><mo>=</mo><mn>1,25</mn></math>.</p>",
+        "rubric_html": "<p>Zasady oceniania (punktacja narastająco):</p><ul><li>1 punkt – oznaczenie szukanej sumy np. przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> i zapisanie za pomocą <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> jednego z wyrażeń: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mi>y</mi><mo>+</mo><mn>3</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>+</mo><mi>z</mi><mo>+</mo><mn>5</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi><mo>+</mo><mi>x</mi><mo>+</mo><mn>2</mn></math> (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mi>y</mi><mo>+</mo><mn>3</mn><mo>=</mo><mn>2</mn><mi>S</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>+</mo><mi>z</mi><mo>+</mo><mn>5</mn><mo>=</mo><mn>3</mn><mi>S</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi><mo>+</mo><mi>x</mi><mo>+</mo><mn>2</mn><mo>=</mo><mn>5</mn><mi>S</mi></math>)</li><li>2 punkty – zapisanie zależności <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>+</mo><mn>2</mn><mi>y</mi><mo>+</mo><mn>2</mn><mi>z</mi><mo>+</mo><mn>10</mn><mo>=</mo><mn>10</mn><mi>S</mi></math></li><li>3 punkty – zapisanie równania o jednej niewiadomej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math></li><li>4 punkty – poprawne rozwiązanie równania o jednej niewiadomej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> i poprawne obliczenie wartości sumy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mi>y</mi><mo>+</mo><mi>z</mi></math> (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mi>y</mi><mo>+</mo><mi>z</mi><mo>=</mo><mn>1,25</mn></math>)</li></ul>",
         "model": {
           "answer": "5/4 (1,25)",
           "by": "sonnet",

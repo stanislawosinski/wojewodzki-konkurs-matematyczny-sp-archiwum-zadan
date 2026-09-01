@@ -141,6 +141,7 @@
       "answer": {
         "correct": "FFPP",
         "solution_html": null,
+        "rubric_html": "<p>Po 1 punkcie za każdą poprawnie ocenioną odpowiedź – razem 4 punkty.</p>",
         "model": {
           "answer": "FFPP",
           "by": "sonnet",
@@ -168,6 +169,7 @@
       "answer": {
         "correct": "FFPF",
         "solution_html": null,
+        "rubric_html": "<p>Po 1 punkcie za każdą poprawnie ocenioną odpowiedź – razem 4 punkty.</p>",
         "model": {
           "answer": "FFPF",
           "by": "sonnet",
@@ -259,6 +261,7 @@
       "answer": {
         "correct": "a) 262,5 km, b) 144 minut",
         "solution_html": null,
+        "rubric_html": "<p>Po 1 punkcie za każdy poprawny element odpowiedzi – razem 2 punkty.</p>",
         "model": {
           "answer": "a) 262,5 km; b) 144 minut",
           "by": "sonnet",
@@ -285,6 +288,7 @@
       "answer": {
         "correct": "a) 6, b) 90",
         "solution_html": null,
+        "rubric_html": "<p>Po 1 punkcie za każdy poprawny element odpowiedzi – razem 2 punkty.</p>",
         "model": {
           "answer": "a) 6; b) 90",
           "by": "sonnet",
@@ -308,6 +312,7 @@
       "answer": {
         "correct": "a) 35 zł, b) 61,25 zł",
         "solution_html": null,
+        "rubric_html": "<p>Po 1 punkcie za każdy poprawny element odpowiedzi – razem 2 punkty.</p>",
         "model": {
           "answer": "a) 35 zł; b) 61,25 zł",
           "by": "sonnet",
@@ -330,6 +335,7 @@
       "answer": {
         "correct": "12 prawdziwków i 30 podgrzybków",
         "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę prawdziwków, a <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> liczbę podgrzybków. Wszystkich grzybów jest 49, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mi>y</mi><mo>+</mo><mn>7</mn><mo>=</mo><mn>49</mn></math>. Do wyrzucenia nadaje się <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>4</mn></mfrac></math> prawdziwków i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> podgrzybków, więc do zjedzenia zostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>3</mn><mn>4</mn></mfrac><mi>x</mi><mo>+</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mi>y</mi><mo>+</mo><mn>7</mn><mo>=</mo><mn>36</mn></math>. Rozwiązując układ równań otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>12</mn></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>=</mo><mn>30</mn></math>. Dzieci znalazły 12 prawdziwków i 30 podgrzybków.</p>",
+        "rubric_html": "<p>Etap rozwiązania – liczba punktów:</p><ul><li>Wprowadzenie oznaczeń i zapisanie jednego równania – 1 p.</li><li>Zapisanie poprawnego układu równań – 2 p.</li><li>Obliczenie jednej z niewiadomych – 3 p.</li><li>Obliczenie drugiej z niewiadomych – 4 p.</li></ul>",
         "model": {
           "answer": "12 prawdziwków i 30 podgrzybków",
           "by": "sonnet",
@@ -354,6 +360,7 @@
       "answer": {
         "correct": "60 cm²",
         "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza długość ramienia, wtedy wysokość ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>−</mo><mn>8</mn></math>. Wysokość opuszczona na podstawę dzieli ją na połowy po 12 cm, więc z twierdzenia Pitagorasa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mi>x</mi><mo>−</mo><mn>8</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>+</mo><msup><mn>12</mn><mn>2</mn></msup><mo>=</mo><msup><mi>x</mi><mn>2</mn></msup></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>144</mn><mo>+</mo><mn>64</mn><mo>=</mo><mn>16</mn><mi>x</mi></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>13</mn></math>, a wysokość wynosi 5 cm. Pole trójkąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>24</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>60</mn></math> cm².</p>",
+        "rubric_html": "<p>Etap rozwiązania – liczba punktów:</p><ul><li>Wprowadzenie oznaczeń – 1 p.</li><li>Zapisanie równania – 2 p.</li><li>Obliczenie długości wysokości trójkąta – 3 p.</li><li>Obliczenie pola trójkąta – 4 p.</li></ul>",
         "model": {
           "answer": "60 cm²",
           "by": "sonnet",
@@ -379,6 +386,7 @@
       "answer": {
         "correct": "(10 + 4√10) cm",
         "solution_html": "<p>Z podanej informacji <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>h</mi><mn>2</mn></msup><mo>=</mo><mn>1</mn><mo>·</mo><mn>9</mn><mo>=</mo><mn>9</mn></math>, więc wysokość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mn>3</mn></math> cm. Przeciwprostokątna ma długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><mn>9</mn><mo>=</mo><mn>10</mn></math> cm. Krótsza przyprostokątna to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><mn>1</mn><mo>·</mo><mn>10</mn></mrow></msqrt><mo>=</mo><msqrt><mn>10</mn></msqrt></math> cm, a dłuższa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><mn>9</mn><mo>·</mo><mn>10</mn></mrow></msqrt><mo>=</mo><mn>3</mn><msqrt><mn>10</mn></msqrt></math> cm. Obwód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>+</mo><msqrt><mn>10</mn></msqrt><mo>+</mo><mn>3</mn><msqrt><mn>10</mn></msqrt><mo>=</mo><mo>(</mo><mn>10</mn><mo>+</mo><mn>4</mn><msqrt><mn>10</mn></msqrt><mo>)</mo></math> cm.</p>",
+        "rubric_html": "<p>Etap rozwiązania – liczba punktów:</p><ul><li>Zapisanie zależności pomiędzy długością wysokości a długością odcinków, na które została podzielona przeciwprostokątna, i obliczenie długości wysokości – 1 p.</li><li>Obliczenie długości krótszej przyprostokątnej trójkąta – 2 p.</li><li>Obliczenie długości dłuższej przyprostokątnej trójkąta – 3 p.</li><li>Obliczenie i zapisanie w najprostszej postaci obwodu trójkąta prostokątnego – 4 p.</li></ul>",
         "model": {
           "answer": "(10 + 4√10) cm",
           "by": "sonnet",
@@ -401,6 +409,7 @@
       "answer": {
         "correct": "13 cm",
         "solution_html": "<p>Pole powierzchni całkowitej sześcianu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><msup><mn>8</mn><mn>2</mn></msup><mo>=</mo><mn>384</mn></math> cm². Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi></math> oznacza wysokość prostopadłościanu. Pole jego powierzchni całkowitej wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><msup><mn>6</mn><mn>2</mn></msup><mo>+</mo><mn>4</mn><mo>·</mo><mn>6</mn><mo>·</mo><mi>H</mi></math>. Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>72</mn><mo>+</mo><mn>24</mn><mi>H</mi><mo>=</mo><mn>384</mn></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>24</mn><mi>H</mi><mo>=</mo><mn>312</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi><mo>=</mo><mn>13</mn></math> cm.</p>",
+        "rubric_html": "<p>Etap rozwiązania – liczba punktów:</p><ul><li>Poprawne obliczenie pola powierzchni całkowitej sześcianu – 1 p.</li><li>Wprowadzenie oznaczenia długości wysokości i zapisanie poprawnego, zgodnego z warunkami zadania, równania – 2 p.</li><li>Poprawne obliczenie długości wysokości prostopadłościanu – 3 p.</li></ul>",
         "model": {
           "answer": "13 cm",
           "by": "sonnet",
@@ -424,6 +433,7 @@
       "answer": {
         "correct": "kieszonkowe 40 zł, prezent 22 zł",
         "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza wysokość kieszonkowego. Pierwszego dnia Ania wydała <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>x</mi><mo>+</mo><mn>2</mn></math> zł, więc pozostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>x</mi><mo>−</mo><mn>2</mn></math> zł. Drugiego dnia wydała <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>x</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>+</mo><mn>1</mn></math> zł. Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>x</mi><mo>+</mo><mn>2</mn><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>(</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>x</mi><mo>−</mo><mn>2</mn><mo>)</mo><mo>+</mo><mn>1</mn><mo>+</mo><mn>8</mn><mo>=</mo><mi>x</mi></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>40</mn></math> zł. Prezent kosztował <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>40</mn><mo>+</mo><mn>2</mn><mo>=</mo><mn>22</mn></math> zł.</p>",
+        "rubric_html": "<p>Etap rozwiązania – liczba punktów:</p><ul><li>Wprowadzenie oznaczeń i poprawne zapisanie wysokości wydatków pierwszego i drugiego dnia – 1 p.</li><li>Zapisanie poprawnego, zgodnego z warunkami zadania, równania – 2 p.</li><li>Obliczenie wysokości kieszonkowego – 3 p.</li><li>Obliczenie wartości prezentu – 4 p.</li></ul>",
         "model": {
           "answer": "Kieszonkowe: 40 zł; prezent: 22 zł",
           "by": "sonnet",

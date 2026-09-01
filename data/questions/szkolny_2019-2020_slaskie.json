@@ -28,6 +28,7 @@
       "answer": {
         "correct": "a) 999, b) 997, c) 384, d) 16, e) 60, f) 1547, g) 850, h) 24, i) 125, j) 1100, k) 152, l) 1331, m) 1111",
         "solution_html": null,
+        "rubric_html": "<p>Za każde poprawnie uzupełnione pole przyznajemy 1 punkt, czyli w sumie 13 punktów.</p>",
         "model": {
           "answer": "a) 999; b) 997; c) 384; d) 16; e) 60; f) 1547; g) 850; h) 24; i) 125; j) 1100; k) 152; l) 1331; m) 1111",
           "by": "sonnet",
@@ -467,6 +468,7 @@
       "answer": {
         "correct": "FPPF",
         "solution_html": null,
+        "rubric_html": "<p>Za każdą poprawną odpowiedź przyznajemy 1 punkt.</p>",
         "model": {
           "answer": "FPPF",
           "by": "sonnet",
@@ -507,6 +509,7 @@
       "answer": {
         "correct": "FPPP",
         "solution_html": null,
+        "rubric_html": "<p>Za każdą poprawną odpowiedź przyznajemy 1 punkt.</p>",
         "model": {
           "dissent": {"by":"opus","answer":"FTFT","solution_html":"<p><strong>1)</strong> 14:25: wsk. godz. <math><mrow><mn>2</mn><mo>&#183;</mo><mn>30</mn><mo>+</mo><mn>25</mn><mo>&#183;</mo><mn>0,5</mn><mo>=</mo><mn>72,5</mn></mrow></math>&#176;, wsk. min. <math><mrow><mn>25</mn><mo>&#183;</mo><mn>6</mn><mo>=</mo><mn>150</mn></mrow></math>&#176;, r&oacute;&#380;nica <math><mn>77,5</mn></math>&#176; &ne; 90&#176; &rarr; <strong>F</strong>.</p><p><strong>2)</strong> 04:40: godz. <math><mrow><mn>4</mn><mo>&#183;</mo><mn>30</mn><mo>+</mo><mn>40</mn><mo>&#183;</mo><mn>0,5</mn><mo>=</mo><mn>140</mn></mrow></math>&#176;, min. <math><mrow><mn>40</mn><mo>&#183;</mo><mn>6</mn><mo>=</mo><mn>240</mn></mrow></math>&#176;, r&oacute;&#380;nica 100&#176; &rarr; <strong>P</strong>.</p><p><strong>3)</strong> K&#261;t p&oacute;&#322;pe&#322;ny (180&#176;) wskaz&oacute;wki tworz&#261; 11 razy na 12 godzin, a w godzinie 5:00&ndash;6:00 ani razu (zdarza si&#281; dok&#322;adnie o 6:00), wi&#281;c nie zawsze raz na godzin&#281; &rarr; <strong>F</strong>.</p><p><strong>4)</strong> W przedziale 14:59&ndash;15:59 k&#261;t prosty powstaje o 15:00:00 oraz o ~15:32:44 &ndash; dwa razy &rarr; <strong>P</strong>.</p>"},
           "answer": "FPFP",
@@ -539,6 +542,7 @@
       "answer": {
         "correct": "FF",
         "solution_html": null,
+        "rubric_html": "<p>Za każdą poprawną odpowiedź przyznajemy 1 punkt.</p>",
         "model": {
           "answer": "FF",
           "by": "sonnet",
@@ -570,6 +574,7 @@
       "answer": {
         "correct": "FP",
         "solution_html": null,
+        "rubric_html": "<p>Za każdą poprawną odpowiedź przyznajemy 1 punkt.</p>",
         "model": {
           "answer": "FP",
           "by": "sonnet",
@@ -610,6 +615,7 @@
       "answer": {
         "correct": "PPFP",
         "solution_html": null,
+        "rubric_html": "<p>Za każdą poprawną odpowiedź przyznajemy 1 punkt.</p>",
         "model": {
           "answer": "PPFP",
           "by": "sonnet",
@@ -651,6 +657,7 @@
       "answer": {
         "correct": "FFPP",
         "solution_html": null,
+        "rubric_html": "<p>Za każdą poprawną odpowiedź przyznajemy 1 punkt.</p>",
         "model": {
           "answer": "FFPP",
           "by": "sonnet",
@@ -675,6 +682,7 @@
       "answer": {
         "correct": "Nie istnieje taka liczba naturalna x.",
         "solution_html": "<p>Iloczyn jest równy zero wtedy i tylko wtedy, gdy jeden z czynników w nawiasach jest równy zero.</p><p>Czynnik pierwszy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mi>x</mi></mfrac><mo>=</mo><mn>0</mn></mrow></math>, gdy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mi>x</mi></mfrac><mo>=</mo><mfrac><mn>2</mn><mn>15</mn></mfrac></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>7,5</mn></mrow></math> — nie jest to liczba naturalna.</p><p>Czynnik drugi: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mrow><mn>3</mn><mo>·</mo><mn>5</mn></mrow></mfrac><mo>−</mo><mfrac><mn>1</mn><mrow><mn>5</mn><mo>·</mo><mn>7</mn></mrow></mfrac><mo>−</mo><mfrac><mn>1</mn><mrow><mn>7</mn><mo>·</mo><mn>9</mn></mrow></mfrac><mo>&gt;</mo><mn>0</mn></mrow></math>, więc nie jest równy zero.</p><p>Skoro pierwszy czynnik nie zeruje się dla żadnej liczby naturalnej, a drugi jest zawsze dodatni, to nie istnieje liczba naturalna spełniająca warunki zadania.</p>",
+        "rubric_html": "<ul><li>1 p. za poprawne uzasadnienie, że wyrażenie (2) ma wartość różną od zera.</li><li>2 p za poprawne uzasadnienie, że wyrażenie (1) nie zeruje się dla żadnej wartości naturalnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>.</li><li>3 p. za poprawne uzasadnienie, że nie istnieje liczba naturalna spełniająca warunki zadania.</li></ul><p>Uwaga: Jeśli uczeń oblicza <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>7,5</mn></math> lub stwierdza, że istnieje taka liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>7,5</mn></math>, która spełnia warunek zadania, to otrzymuje 1p.</p>",
         "model": {
           "answer": "Nie, taka liczba nie istnieje.",
           "by": "sonnet",
@@ -700,6 +708,7 @@
       "answer": {
         "correct": "Podstawa AB = 12 cm, ramiona AC = BC = 20 cm.",
         "solution_html": "<p>Oznaczmy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mi>x</mi></mrow></math>. Trójkąty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADC</mi></math> mają dwie pary boków tej samej długości: wspólny bok <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AD</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>. Zatem różnica obwodów wynika z różnicy trzeciej pary boków: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>−</mo><mn>8</mn><mo>=</mo><mi>x</mi><mo>−</mo><mn>8</mn></mrow></math>. Z warunku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>+</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>52</mn></mrow></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>−</mo><mn>8</mn><mo>+</mo><mi>x</mi><mo>+</mo><mi>x</mi><mo>=</mo><mn>52</mn></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>20</mn></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>20</mn></mrow></math> cm oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>20</mn><mo>−</mo><mn>8</mn><mo>=</mo><mn>12</mn></mrow></math> cm. Odpowiedź: podstawa ma długość 12 cm, a ramiona 20 cm.</p>",
+        "rubric_html": "<ul><li>1 p. – za podanie (z uzasadnieniem) zależności pomiędzy długościami podstawy i ramion trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>.</li><li>2 p. – za poprawną metodę obliczenia długości boków trójkąta.</li><li>3 p. – za poprawne obliczenie długości boków trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>.</li></ul>",
         "model": {
           "answer": "AB = 12 cm, AC = BC = 20 cm",
           "by": "sonnet",
@@ -722,6 +731,7 @@
       "answer": {
         "correct": "a) 100 °C = 212 °F; b) 50 °F = 10 °C",
         "solution_html": "<p>a) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>y</mi><mo>=</mo><mn>100</mn><mo>·</mo><mn>1,8</mn><mo>+</mo><mn>32</mn><mo>=</mo><mn>212</mn></mrow></math>, więc 100 °C odpowiada 212 °F.</p><p>b) <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>50</mn><mo>=</mo><mo>(</mo><mi>x</mi><mo>·</mo><mn>1,8</mn><mo>+</mo><mn>32</mn><mo>)</mo></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,8</mn><mi>x</mi><mo>=</mo><mn>18</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>10</mn></mrow></math>, więc 50 °F odpowiada 10 °C.</p>",
+        "rubric_html": "<ul><li>a) 1 p. za prawidłowe obliczenie liczby stopni</li><li>b)<ul><li>1 p. za prawidłowe podstawienie liczby stopni F</li><li>2 p. za prawidłowe obliczenie liczby stopni C</li></ul></li></ul>",
         "model": {
           "answer": "a) 212°F; b) 10°C",
           "by": "sonnet",
@@ -747,6 +757,7 @@
       "answer": {
         "correct": "Prostokąt ma wymiary 5 i 2,4.",
         "solution_html": "<p>Przekątna prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABCD</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><msqrt><mrow><msup><mn>3</mn><mn>2</mn></msup><mo>+</mo><msup><mn>4</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>5</mn></mrow></math>. Pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACD</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>ACD</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>4</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>6</mn></mrow></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>ACD</mi></msub><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><msub><mi>P</mi><mi>ACEF</mi></msub></mrow></math>, mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>·</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>DC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>·</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>3</mn><mo>·</mo><mn>4</mn><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>·</mo><mn>5</mn><mo>·</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CE</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mn>2,4</mn></mrow></math>. Odpowiedź: powstały prostokąt ma wymiary 5 i 2,4.</p>",
+        "rubric_html": "<ul><li>1 p. za prawidłowe wykonanie rysunku pomocniczego</li><li>2 p. za prawidłowe obliczenie długości boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math></li><li>3 p. za poprawną metodę obliczenia długości boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CE</mi></math> (np. wykorzystanie zależności pomiędzy polem trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACD</mi></math> a polem prostokąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ACEF</mi></math>).</li><li>4 p. za prawidłowe obliczenie długości boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CE</mi></math></li></ul>",
         "model": {
           "answer": "AC = 5 cm, AF = CE = 2,4 cm",
           "by": "sonnet",
@@ -771,6 +782,7 @@
       "answer": {
         "correct": "60 km/h (z Y) i 72 km/h (z X)",
         "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza prędkość samochodu wyjeżdżającego z miasta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi></math>, wtedy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>12</mn></mrow></math> to prędkość samochodu z miasta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>X</mi></math>. Czas jazdy do spotkania wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mfrac><mn>1</mn><mn>4</mn></mfrac></mrow></math> godziny. Suma dróg równa się 165 km: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>·</mo><mn>1</mn><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>+</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>12</mn><mo>)</mo><mo>·</mo><mn>1</mn><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>=</mo><mn>165</mn></mrow></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>60</mn></mrow></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>+</mo><mn>12</mn><mo>=</mo><mn>72</mn></mrow></math>. Odpowiedź: samochody jechały z prędkościami 60 km/h i 72 km/h.</p>",
+        "rubric_html": "<ul><li>1 p. za poprawne zapisanie wyrażenia określającego długość drogi jednego z samochodów</li><li>2 p. za poprawne zapisanie wyrażeń określających długości dróg obu samochodów</li><li>3 p. za poprawną metodę obliczenia prędkości jednego z samochodów (np. zapisanie równania).</li><li>4 p. za poprawne obliczenie prędkości obu samochodów</li></ul>",
         "model": {
           "answer": "72 km/h (z X) i 60 km/h (z Y)",
           "by": "sonnet",

@@ -28,6 +28,7 @@
       "answer": {
         "correct": "Brakujące liczby: 6 (górny wiersz), 10 i 5 (środkowy wiersz), 5 i 2 (dolny wiersz).",
         "solution_html": "<p>Uzupełniona krzyżówka spełnia wszystkie działania w wierszach i kolumnach. Wiersze: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>6</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>8</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mo>:</mo><mn>5</mn><mo>·</mo><mn>4</mn><mo>=</mo><mn>8</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn><mo>+</mo><mn>5</mn><mo>−</mo><mn>2</mn><mo>=</mo><mn>8</mn></math>. Kolumny: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>+</mo><mn>10</mn><mo>−</mo><mn>5</mn><mo>=</mo><mn>9</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><mn>5</mn><mo>−</mo><mn>5</mn><mo>=</mo><mn>25</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>−</mo><mn>4</mn><mo>·</mo><mn>2</mn><mo>=</mo><mo>−</mo><mn>5</mn></math>. Do pustych pól należy wpisać kolejno: 6, 10, 5, 5 i 2.</p>",
+        "rubric_html": "<ul><li>Za każdą poprawnie rozwiązaną krzyżówkę – 3 punkty.</li><li>Jeżeli 1 błąd – 2 punkty, a jeżeli 2 błędy – 1 punkt.</li></ul>",
         "model": {
           "answer": "Brakujące liczby: 6, 10, 5, 5, 2 — wiersz 1: 4·6:3=8; wiersz 3: 10:5·4=8; wiersz 5: 5+5−2=8 (sprawdzenie pionowe: 4+10−5=9; 6·5−5=25; 3−4·2=−5)",
           "by": "sonnet",
@@ -50,6 +51,7 @@
       "answer": {
         "correct": "A) 100 − (10 − 9) + 8 = 107;  B) 100 − 10 − (9 + 8) = 73",
         "solution_html": "<p>A) największy wynik: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>−</mo><mo>(</mo><mn>10</mn><mo>−</mo><mn>9</mn><mo>)</mo><mo>+</mo><mn>8</mn><mo>=</mo><mn>107</mn></math> (lub <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>−</mo><mo>[</mo><mn>10</mn><mo>−</mo><mo>(</mo><mn>9</mn><mo>+</mo><mn>8</mn><mo>)</mo><mo>]</mo><mo>=</mo><mn>107</mn></math>). B) najmniejszy wynik: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>100</mn><mo>−</mo><mn>10</mn><mo>−</mo><mo>(</mo><mn>9</mn><mo>+</mo><mn>8</mn><mo>)</mo><mo>=</mo><mn>73</mn></math>.</p>",
+        "rubric_html": "<ul><li>2 punkty za wstawienie poprawnie nawiasów w wyrażeniach.</li><li>1 punkt za wstawienie poprawnie nawiasów w jednym z wyrażeń.</li></ul>",
         "model": {
           "answer": "A) 100 − (10 − 9) + 8 = 107; B) 100 − 10 − (9 + 8) = 73",
           "by": "sonnet",
@@ -505,6 +507,7 @@
       "answer": {
         "correct": "A. Niemcami; B. Bratysława; C. Litwa",
         "solution_html": null,
+        "rubric_html": "<ul><li>3 pkt. za wszystkie poprawne odpowiedzi.</li><li>Po 1 pkt. za każdą poprawną odpowiedź.</li></ul>",
         "model": {
           "answer": "A) Niemcy; B) Bratysława; C) Litwa",
           "by": "sonnet",
@@ -527,6 +530,7 @@
       "answer": {
         "correct": "A. Wrocław; B. Białystok; C. Warszawa",
         "solution_html": null,
+        "rubric_html": "<ul><li>3 pkt. za wszystkie poprawne odpowiedzi.</li><li>Po 1 pkt. za każdą poprawną odpowiedź.</li></ul>",
         "model": {
           "answer": "A) Wrocław; B) Białystok; C) Warszawa",
           "by": "sonnet",
@@ -549,6 +553,7 @@
       "answer": {
         "correct": "A. ospa wietrzna; B. świnka; C. różyczka; D. grypa",
         "solution_html": null,
+        "rubric_html": "<ul><li>4 pkt. za wszystkie poprawne odpowiedzi.</li><li>Po 1 pkt. za każdą poprawną odpowiedź.</li></ul>",
         "model": {
           "answer": "A) ospa wietrzna; B) świnka; C) różyczka; D) grypa",
           "by": "sonnet",
@@ -588,6 +593,7 @@
       "answer": {
         "correct": "PFFF",
         "solution_html": null,
+        "rubric_html": "<p>Za każdą poprawną odpowiedź przyznajemy 1 punkt (czyli w sumie 15 punktów za zadania 17.–20.).</p>",
         "model": {
           "answer": "PFFF",
           "by": "sonnet",
@@ -623,6 +629,7 @@
       "answer": {
         "correct": "FPP",
         "solution_html": null,
+        "rubric_html": "<p>Za każdą poprawną odpowiedź przyznajemy 1 punkt (czyli w sumie 15 punktów za zadania 17.–20.).</p>",
         "model": {
           "answer": "FPP",
           "by": "sonnet",
@@ -662,6 +669,7 @@
       "answer": {
         "correct": "PPFP",
         "solution_html": null,
+        "rubric_html": "<p>Za każdą poprawną odpowiedź przyznajemy 1 punkt (czyli w sumie 15 punktów za zadania 17.–20.).</p>",
         "model": {
           "answer": "PPFP",
           "by": "sonnet",
@@ -703,6 +711,7 @@
       "answer": {
         "correct": "PFFF",
         "solution_html": null,
+        "rubric_html": "<p>Za każdą poprawną odpowiedź przyznajemy 1 punkt (czyli w sumie 15 punktów za zadania 17.–20.).</p>",
         "model": {
           "answer": "PFFF",
           "by": "sonnet",
@@ -725,6 +734,7 @@
       "answer": {
         "correct": "10,6 m",
         "solution_html": "<p>Długość całej liny: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3,375</mn><mo>:</mo><mn>0,225</mn><mo>=</mo><mn>15</mn></math> m. Odcięto <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>=</mo><mn>4,4</mn></math> m, więc pozostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>15</mn><mo>−</mo><mn>4,4</mn><mo>=</mo><mn>10,6</mn></math> m.</p><p><em>Inny sposób: masa odciętej części <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4,4</mn><mo>·</mo><mn>0,225</mn><mo>=</mo><mn>0,99</mn></math> kg; masa pozostałej części <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3,375</mn><mo>−</mo><mn>0,99</mn><mo>=</mo><mn>2,385</mn></math> kg; długość <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2,385</mn><mo>:</mo><mn>0,225</mn><mo>=</mo><mn>10,6</mn></math> m.</em></p>",
+        "rubric_html": "<ul><li>1 punkt otrzymuje uczeń, jeżeli obliczy masę odciętej części liny.</li><li>2 punkty otrzymuje uczeń, jeżeli obliczy masę pozostałej części liny.</li><li>3 punkty otrzymuje uczeń za pełne rozwiązanie, czyli poprawne obliczenie długości pozostałej części liny.</li><li>Inne rozwiązanie: 2 punkty otrzymuje uczeń, jeżeli obliczy długość liny; 3 punkty otrzymuje uczeń za poprawne obliczenie długości pozostałej części liny.</li></ul><p>UWAGA: Jeżeli uczeń stosuje poprawną metodę, ale popełnia błędy rachunkowe, traci 1 pkt.</p>",
         "model": {
           "answer": "10,6 m",
           "by": "sonnet",
@@ -747,6 +757,7 @@
       "answer": {
         "correct": "19 cm",
         "solution_html": "<p>Na krawędzie podstaw przypada <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>·</mo><mn>10</mn><mo>+</mo><mn>4</mn><mo>·</mo><mn>16</mn><mo>=</mo><mn>104</mn></math> cm. Na cztery wysokości pozostaje <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>180</mn><mo>−</mo><mn>104</mn><mo>=</mo><mn>76</mn></math> cm, więc wysokość wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>76</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>19</mn></math> cm.</p>",
+        "rubric_html": "<ul><li>1 punkt otrzymuje uczeń, jeżeli obliczy sumę danych krawędzi lub ułoży równanie.</li><li>2 punkty otrzymuje uczeń, jeżeli obliczy wysokość prostopadłościanu.</li></ul><p>UWAGA: Jeżeli uczeń stosuje poprawną metodę, ale popełnia błędy rachunkowe, traci 1 pkt.</p>",
         "model": {
           "answer": "19 cm",
           "by": "sonnet",
@@ -771,6 +782,7 @@
       "answer": {
         "correct": "∡ABC = 86°, ∡BCD = 94°, ∡ADC = 133°",
         "solution_html": "<p>W trójkącie prostokątnym <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABD</mi></math> (kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ADB</mi></math> prosty, bo <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BD</mi><mo>⊥</mo><mi>AD</mi></math>) mamy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∢</mo><mi>ABD</mi><mo>=</mo><mn>180</mn><mo>°</mo><mo>−</mo><mn>90</mn><mo>°</mo><mo>−</mo><mn>47</mn><mo>°</mo><mo>=</mo><mn>43</mn><mo>°</mo></math>. Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AB</mi></math> ∥ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CD</mi></math>, kąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDB</mi></math> jest naprzemianległy z kątem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABD</mi></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∢</mo><mi>CDB</mi><mo>=</mo><mn>43</mn><mo>°</mo></math>. Trójkąt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BCD</mi></math> jest równoramienny (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>CD</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></math>), zatem <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∢</mo><mi>DBC</mi><mo>=</mo><mo>∢</mo><mi>CDB</mi><mo>=</mo><mn>43</mn><mo>°</mo></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∢</mo><mi>BCD</mi><mo>=</mo><mn>94</mn><mo>°</mo></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∢</mo><mi>ABC</mi><mo>=</mo><mn>43</mn><mo>°</mo><mo>+</mo><mn>43</mn><mo>°</mo><mo>=</mo><mn>86</mn><mo>°</mo></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∢</mo><mi>ADC</mi><mo>=</mo><mn>90</mn><mo>°</mo><mo>+</mo><mn>43</mn><mo>°</mo><mo>=</mo><mn>133</mn><mo>°</mo></math>. Pozostałe kąty wewnętrzne trapezu mają miary: 86°, 94° i 133°.</p>",
+        "rubric_html": "<ul><li>1 punkt otrzymuje uczeń, jeżeli wykona poprawnie rysunek i obliczy miarę kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABD</mi></math>.</li><li>2 punkty otrzymuje uczeń, jeżeli obliczy miarę kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>CDB</mi></math>.</li><li>3 punkty otrzymuje uczeń, jeżeli obliczy miary kątów w trójkącie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>DBC</mi></math>.</li><li>4 punkty otrzymuje uczeń, jeżeli obliczy miary kątów wewnętrznych w trapezie.</li></ul><p>UWAGA: Jeżeli uczeń stosuje poprawną metodę, ale popełnia błędy rachunkowe, traci 1 pkt.</p>",
         "model": {
           "answer": "kąt ABC = 86°, kąt BCD = 94°, kąt CDA = 133°",
           "by": "sonnet",

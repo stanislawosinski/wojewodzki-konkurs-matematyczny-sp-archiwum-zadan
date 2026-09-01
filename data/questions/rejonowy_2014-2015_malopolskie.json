@@ -467,6 +467,7 @@
       "answer": {
         "correct": "15",
         "solution_html": null,
+        "rubric_html": "<ul><li>2p – zapisanie liczby 15</li><li>0p – wpisanie innej liczby lub brak odpowiedzi</li></ul>",
         "model": {
           "answer": "15 czapeczek",
           "by": "sonnet",
@@ -492,6 +493,7 @@
       "answer": {
         "correct": "21 cm²",
         "solution_html": null,
+        "rubric_html": "<ul><li>2p – wpisanie liczby 21</li><li>1p – poprawne wpisanie odpowiedzi w innej jednostce niż cm² wraz z jednostką</li><li>0p – brak odpowiedzi lub błędna odpowiedź</li></ul>",
         "model": {
           "answer": "21 cm²",
           "by": "sonnet",
@@ -517,6 +519,7 @@
       "answer": {
         "correct": "a) 0, 1, 3, 6, 10; b) 435; c) n(n−1)/2",
         "solution_html": null,
+        "rubric_html": "<ul><li>a) 1p – poprawne wpisanie liczby odcinków dla każdej z podanych liczby punktów</li><li>b) 1p – poprawne podanie liczby otrzymanych odcinków przy 30 zaznaczonych punktach na okręgu</li><li>c) 2p – poprawne zapisanie spostrzeżenia. Uczeń może zapisać liczbę otrzymanych odcinków w postaci innych równoważnych wyrażeń np.: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>n</mi><mo>·</mo><mo>(</mo><mi>n</mi><mo>−</mo><mn>3</mn><mo>)</mo></mrow><mn>2</mn></mfrac><mo>+</mo><mi>n</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>−</mo><mi>n</mi></mrow><mn>2</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mi>n</mi><mn>2</mn></msup><mo>−</mo><mn>3</mn><mi>n</mi><mo>+</mo><mn>2</mn><mi>n</mi></mrow><mn>2</mn></mfrac></math> i też otrzymuje 2 punkty</li></ul>",
         "model": {
           "answer": "a) 0, 1, 3, 6, 10; b) 435; c) n(n−1)/2",
           "by": "sonnet",
@@ -540,6 +543,7 @@
       "answer": {
         "correct": "38926",
         "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza szukaną liczbę. Po skreśleniu cyfry jedności (równej 6) otrzymujemy liczbę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>x</mi><mo>−</mo><mn>6</mn></mrow><mn>10</mn></mfrac></math>. Z warunku zadania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>x</mi><mo>−</mo><mn>6</mn></mrow><mn>10</mn></mfrac><mo>=</mo><mi>x</mi><mo>−</mo><mn>35034</mn></math>. Rozwiązując równanie metodą równań równoważnych otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>38926</mn></math>. Szukana liczba to 38926.</p>",
+        "rubric_html": "<ul><li>3p – poprawne metody oraz bezbłędne obliczenia prowadzące do podania w odpowiedzi szukanej liczby (uczeń może rozwiązać zadanie metodą prób i błędów)</li><li>2p – zapisanie równania pozwalającego wyznaczyć szukaną liczbę bez podania rozwiązania lub rozwiązanie równania z błędem rachunkowym</li><li>1p – zapisanie w postaci wyrażenia algebraicznego lub słownie, że szukana liczba po skreśleniu cyfry 6 w rzędzie jedności zmniejszy się 10 razy lub rozpoczęcie poszukiwań liczby spełniającej warunki zadania (co najmniej dla trzech przypadków) od liczby co najmniej pięciocyfrowej, w której cyfrą jedności jest 6 (uczeń zapisze np.: 98886-9888 i stwierdzi, że różnica nie wynosi 35034 lub od wybranej liczby, która ma w rzędzie jedności cyfrę 6 odejmuje 35034 i sprawdzi czy otrzymana liczba ma w swoim zapisie te same cyfry co dana bez „ostatniej” - 6). Uczeń nie musi zapisać dlaczego prowadzi kolejne poszukiwania, ale z zapisu wynika, że rozumie do czego zmierza. Kończy poszukiwania po co najmniej trzech przypadkach i nie znajduje szukanej liczby. lub podanie szukanej liczby bez zapisu toku rozumowania, pod warunkiem sprawdzenia poprawności otrzymanego wyniku z warunkami zadania</li><li>0p – błędne rozwiązanie lub podanie poprawnej odpowiedzi bez zapisu toku rozumowania i braku sprawdzenia z warunkami zadania</li></ul><p>Uwaga: za poprawne rozwiązanie zadania inną metodą niż przedstawione, przyznajemy 3 punkty.</p>",
         "model": {
           "answer": "38926",
           "by": "sonnet",
@@ -562,6 +566,7 @@
       "answer": {
         "correct": "10 km/h",
         "solution_html": "<p>Szybkość przy czasie 2 godz. 24 min (czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mfrac><mn>24</mn><mn>60</mn></mfrac></math> h): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>192</mn><mrow><mn>2</mn><mfrac><mn>24</mn><mn>60</mn></mfrac></mrow></mfrac><mo>=</mo><mn>80</mn></math> km/h. Czas 128 min to 2 godz. 8 min (czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mfrac><mn>8</mn><mn>60</mn></mfrac></math> h): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>192</mn><mrow><mn>2</mn><mfrac><mn>8</mn><mn>60</mn></mfrac></mrow></mfrac><mo>=</mo><mn>90</mn></math> km/h. Różnica: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>90</mn><mo>−</mo><mn>80</mn><mo>=</mo><mn>10</mn></math> km/h. Szybkość samochodu musi się zwiększyć o 10 km/h.</p>",
+        "rubric_html": "<ul><li>4p – zastosowanie poprawnych metod oraz bezbłędne obliczenia prowadzące do podania w odpowiedzi, że szybkość musi wzrosnąć o 10 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mtext>km</mtext><mtext>h</mtext></mfrac></math></li><li>3p – zastosowanie poprawnych metod oraz bezbłędne obliczenia, podanie odpowiedzi w innej jednostce niż w pytaniu lub zastosowanie poprawnych metod wyrażenia szybkości w km/h z jednym błędem rachunkowym, który nie przekreśla poprawności rozumowania, np.: uczeń nie może otrzymać dla czasu 2 godzin i 8 minut mniejszej szybkości niż w rachunkach dla czasu 2 godziny 24 minuty, co doprowadziłoby go do błędnego wniosku, że szybkość musi zmaleć</li><li>2p – zastosowanie poprawnych metod oraz bezbłędne obliczenie szybkości dla obu czasów podane w dowolnych jednostkach i na tym poprzestanie lub błędne dalsze rozumowanie np.: obliczanie różnicy przy różnych jednostkach, zapisanie innej różnicy niż wynika z treści zadania lub obliczenie różnicy szybkości w innych jednostkach niż km/h z jednym błędem rachunkowym na dowolnym etapie, pod warunkiem, że dla krótszego czasu otrzymana szybkość jest większą liczbą niż dla większego z podanych czasów</li><li>1p – poprawne obliczenie jednej z szukanych szybkości w dowolnej jednostce lub zastosowanie poprawnej metody obliczenia szybkości (zapisanie ilorazu drogi przez czas w obu przypadkach) i na tym zakończenie zadania lub obliczenie długości drogi przebytej przez samochód w czasie np. 1 sekundy lub 1 minuty lub 1 godziny oraz obliczenie długości drogi, jaką powinien przejechać samochód w czasie np. 1 sekundy lub 1 minuty lub 1 godziny bez interpretacji otrzymanego wyniku w obu przypadkach, np.: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mfrac><mn>1</mn><mn>3</mn></mfrac></math> m - 1 minuta lub 80 km - 1h, 1,5 m – 1minuta, 90 km - 1h i na tym zakończy lub dalsze obliczenia są błędne.</li></ul><p>Uwaga: za poprawne rozwiązanie zadania inną metodą niż przedstawione, przyznajemy 4 punkty. Uczeń zamiast słowa „szybkość” może użyć słowa „prędkość”.</p>",
         "model": {
           "answer": "10 km/h",
           "by": "sonnet",

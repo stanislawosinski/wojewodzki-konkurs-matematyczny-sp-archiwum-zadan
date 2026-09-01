@@ -426,6 +426,7 @@
       "answer": {
         "correct": "x = 15, y = 6",
         "solution_html": null,
+        "rubric_html": "<p>Po 1 punkcie za każdy poprawny element w zadaniu.</p>",
         "model": {
           "answer": "x = 15, y = 6",
           "by": "sonnet",
@@ -452,6 +453,7 @@
       "answer": {
         "correct": "A. 80, B. 5√3",
         "solution_html": null,
+        "rubric_html": "<p>Po 1 punkcie za każdy poprawny element w zadaniu.</p>",
         "model": {
           "answer": "A) 80°; B) 5√3 cm (≈8,66 cm)",
           "by": "sonnet",
@@ -475,6 +477,7 @@
       "answer": {
         "correct": "A. 2, B. 4√2, C. 0",
         "solution_html": null,
+        "rubric_html": "<p>Po 1 punkcie za każdy poprawny element w zadaniu.</p>",
         "model": {
           "answer": "A) 2; B) 4√2; C) 0",
           "by": "sonnet",
@@ -502,6 +505,7 @@
       "answer": {
         "correct": "A. 52, B. 20, C. 10",
         "solution_html": null,
+        "rubric_html": "<p>Po 1 punkcie za każdy poprawny element w zadaniu.</p>",
         "model": {
           "answer": "A) 52%; B) 20 cm; C) 10 cm",
           "by": "sonnet",
@@ -525,6 +529,7 @@
       "answer": {
         "correct": "x = 1",
         "solution_html": "<p>Ponieważ <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>=</mo><mfrac><mn>92</mn><mn>23</mn></mfrac></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>=</mo><mfrac><mn>72</mn><mn>24</mn></mfrac></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>=</mo><mfrac><mn>50</mn><mn>25</mn></mfrac></math>, każdy składnik łączymy z sąsiednią liczbą: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>x</mi><mo>−</mo><mn>92</mn></mrow><mn>23</mn></mfrac><mo>+</mo><mfrac><mn>92</mn><mn>23</mn></mfrac><mo>=</mo><mfrac><mi>x</mi><mn>23</mn></mfrac></math> i analogicznie dla pozostałych ułamków.</p><p>Równanie przyjmuje postać <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>x</mi><mn>23</mn></mfrac><mo>+</mo><mfrac><mi>x</mi><mn>24</mn></mfrac><mo>+</mo><mfrac><mi>x</mi><mn>25</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>23</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>24</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>25</mn></mfrac></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>·</mo><mo>(</mo><mfrac><mn>1</mn><mn>23</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>24</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>25</mn></mfrac><mo>)</mo><mo>=</mo><mfrac><mn>1</mn><mn>23</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>24</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>25</mn></mfrac></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>1</mn></math>.</p>",
+        "rubric_html": "<p>Punktacja narastająco:</p><ul><li>1 punkt — przekształcenie równania do postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mi>x</mi><mo>−</mo><mn>92</mn></mrow><mn>23</mn></mfrac><mo>+</mo><mfrac><mrow><mn>4</mn><mo>·</mo><mn>23</mn></mrow><mn>23</mn></mfrac><mo>+</mo><mfrac><mrow><mi>x</mi><mo>−</mo><mn>72</mn></mrow><mn>24</mn></mfrac><mo>+</mo><mfrac><mrow><mn>3</mn><mo>·</mo><mn>24</mn></mrow><mn>24</mn></mfrac><mo>+</mo><mfrac><mrow><mi>x</mi><mo>−</mo><mn>50</mn></mrow><mn>25</mn></mfrac><mo>+</mo><mfrac><mrow><mn>2</mn><mo>·</mo><mn>25</mn></mrow><mn>25</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>23</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>24</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>25</mn></mfrac></math>.</li><li>2 punkty — przekształcenie równania do postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>x</mi><mn>23</mn></mfrac><mo>+</mo><mfrac><mi>x</mi><mn>24</mn></mfrac><mo>+</mo><mfrac><mi>x</mi><mn>25</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>23</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>24</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>25</mn></mfrac></math>.</li><li>3 punkty — przekształcenie równania do postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>·</mo><mo>(</mo><mfrac><mn>1</mn><mn>23</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>24</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>25</mn></mfrac><mo>)</mo><mo>=</mo><mfrac><mn>1</mn><mn>23</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>24</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>25</mn></mfrac></math>.</li><li>4 punkty — wyznaczenie poprawnego rozwiązania z równania postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>·</mo><mo>(</mo><mfrac><mn>1</mn><mn>23</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>24</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>25</mn></mfrac><mo>)</mo><mo>=</mo><mfrac><mn>1</mn><mn>23</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>24</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>25</mn></mfrac></math> (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>1</mn></math>).</li></ul>",
         "model": {
           "answer": "x = 1",
           "by": "sonnet",

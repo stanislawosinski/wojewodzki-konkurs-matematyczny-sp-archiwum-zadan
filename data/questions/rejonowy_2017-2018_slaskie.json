@@ -28,7 +28,8 @@
       ],
       "answer": {
         "correct": "a) 44440, b) 11, c) 14, d) 129, e) 111, f) 93, g) 1572, h) 36, i) 26, j) 31, k) 276, l) 33, m) 0, n) 529, o) 500, p) 102, q) 444, r) 998, s) 8, t) 30",
-        "solution_html": "<p>Kolejne rozwiązania wpisywane w wiersze: a) 44440, b) 11, c) 14, d) 129, e) 111, f) 93, g) 1572, h) 36, i) 26, j) 31, k) 276, l) 33, m) 0, n) 529, o) 500, p) 102, q) 444, r) 998, s) 8, t) 30. Cyfry z zacieniowanych okienek, czytane z góry na dół, tworzą kolejne cyfry rozwinięcia dziesiętnego liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2</mn></msqrt><mo>≈</mo><mn>1,41421356</mn><mo>…</mo></math> (hasło nie jest oceniane).</p><p><em>Za każde poprawnie uzupełnione pole – 1 punkt, w sumie 20 punktów.</em></p>",
+        "solution_html": "<p>Kolejne rozwiązania wpisywane w wiersze: a) 44440, b) 11, c) 14, d) 129, e) 111, f) 93, g) 1572, h) 36, i) 26, j) 31, k) 276, l) 33, m) 0, n) 529, o) 500, p) 102, q) 444, r) 998, s) 8, t) 30. Cyfry z zacieniowanych okienek, czytane z góry na dół, tworzą kolejne cyfry rozwinięcia dziesiętnego liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mn>2</mn></msqrt><mo>≈</mo><mn>1,41421356</mn><mo>…</mo></math> (hasło nie jest oceniane).</p>",
+        "rubric_html": "<p>Za każde poprawnie uzupełnione pole – 1 punkt, w sumie 20 punktów.</p>",
         "model": {
           "answer": "a) 44440; b) 11; c) 14; d) 129; e) 111; f) 93; g) 1572; h) 36; i) 26; j) 31; k) 276; l) 33; m) 0; n) 529; o) 500; p) 102; q) 444; r) 998; s) 8; t) 30",
           "by": "sonnet",
@@ -421,6 +422,7 @@
       "answer": {
         "correct": "PFPP",
         "solution_html": null,
+        "rubric_html": "<p>Za każdą poprawną odpowiedź przyznajemy 1 punkt, czyli w sumie 16 punktów (za zadania 11.–14.).</p>",
         "model": {
           "answer": "PFPP",
           "by": "sonnet",
@@ -461,6 +463,7 @@
       "answer": {
         "correct": "FPFF",
         "solution_html": null,
+        "rubric_html": "<p>Za każdą poprawną odpowiedź przyznajemy 1 punkt, czyli w sumie 16 punktów (za zadania 11.–14.).</p>",
         "model": {
           "answer": "FPFF",
           "by": "sonnet",
@@ -500,6 +503,7 @@
       "answer": {
         "correct": "FPFF",
         "solution_html": null,
+        "rubric_html": "<p>Za każdą poprawną odpowiedź przyznajemy 1 punkt, czyli w sumie 16 punktów (za zadania 11.–14.).</p>",
         "model": {
           "answer": "FPFF",
           "by": "sonnet",
@@ -541,6 +545,7 @@
       "answer": {
         "correct": "FFPF",
         "solution_html": null,
+        "rubric_html": "<p>Za każdą poprawną odpowiedź przyznajemy 1 punkt, czyli w sumie 16 punktów (za zadania 11.–14.).</p>",
         "model": {
           "answer": "FFPF",
           "by": "opus",
@@ -565,6 +570,7 @@
       "answer": {
         "correct": "I skrzynka: 240, II skrzynka: 200, III skrzynka: 120",
         "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza liczbę jabłek w drugiej skrzynce. Wtedy w pierwszej jest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,2</mn><mi>x</mi></math>, a w trzeciej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,6</mn><mi>x</mi></math> (pierwsza ma 2 razy więcej niż trzecia). Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1,2</mn><mi>x</mi><mo>+</mo><mi>x</mi><mo>+</mo><mn>0,6</mn><mi>x</mi><mo>=</mo><mn>560</mn></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2,8</mn><mi>x</mi><mo>=</mo><mn>560</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>200</mn></math>. Zatem w pierwszej skrzynce jest 240 jabłek, w drugiej 200, a w trzeciej 120.</p>",
+        "rubric_html": "<ul><li>1 p. za zapisanie poprawnych zależności między liczbami jabłek w poszczególnych skrzynkach</li><li>2 p. za zapisanie poprawnego równania</li><li>3 p. za poprawną metodę rozwiązania równania</li><li>4 p. za poprawne obliczenie liczby jabłek w każdej skrzynce</li></ul><p>W każdym zadaniu otwartym od 15. do 18. za błędy rachunkowe odejmujemy 1 punkt.</p>",
         "model": {
           "answer": "I skrzynka: 240 jabłek; II skrzynka: 200 jabłek; III skrzynka: 120 jabłek",
           "by": "sonnet",
@@ -588,6 +594,7 @@
       "answer": {
         "correct": "Obwód trapezu 34 cm; podstawy 15 cm i 9 cm",
         "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi></math> (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>&gt;</mo><mi>b</mi></math>) oznaczają długości podstaw. Z pola trapezu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo><mo>·</mo><mn>4</mn></mrow><mn>2</mn></mfrac><mo>=</mo><mn>48</mn></math> wynika <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>=</mo><mn>24</mn></math>. Rzut ramienia na podstawę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi></math> spełnia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>d</mi><mn>2</mn></msup><mo>+</mo><msup><mn>4</mn><mn>2</mn></msup><mo>=</mo><msup><mn>5</mn><mn>2</mn></msup></math>, więc <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>d</mi><mo>=</mo><mn>3</mn></math> cm oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,5</mn><mo>(</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo>)</mo><mo>=</mo><mn>3</mn></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>−</mo><mi>b</mi><mo>=</mo><mn>6</mn></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>15</mn></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>9</mn></math> cm, a obwód wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>+</mo><mi>b</mi><mo>+</mo><mn>2</mn><mo>·</mo><mn>5</mn><mo>=</mo><mn>34</mn></math> cm.</p>",
+        "rubric_html": "<ul><li>1 p. za poprawną metodę obliczenia sumy podstaw (24 cm) lub za poprawną metodę zastosowania tw. Pitagorasa do obliczenia długości odcinków (3 cm) na podstawie długości a</li><li>2 p. za poprawne obliczenia obwodu lub za poprawną metodę obliczenia długości podstaw pod warunkiem, że zastosowana metoda obliczenia długości odcinka d była poprawna, lub za poprawną metodę obliczenia sumy podstaw i poprawną metodę obliczenia długości odcinka d</li><li>3 p. za poprawne obliczenie obwodu i poprawne obliczenie długości jednej z podstaw lub za poprawne obliczenie obwodu i poprawne obliczenie długości odcinka d</li><li>4 p. za poprawne obliczenie obwodu i poprawne obliczenie długości każdej z podstaw</li></ul><p>W każdym zadaniu otwartym od 15. do 18. za błędy rachunkowe odejmujemy 1 punkt.</p>",
         "model": {
           "answer": "Obwód: 34 cm; podstawy: 15 cm i 9 cm",
           "by": "sonnet",
@@ -611,6 +618,7 @@
       "answer": {
         "correct": "5 cm",
         "solution_html": "<p>Oznaczmy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AB</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mi>a</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>BC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mi>b</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>KL</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mi>x</mi></math>. Suma obwodów czworokątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AKLD</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KBCL</mi></math> jest równa obwodowi prostokąta powiększonemu o <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>14</mn><mo>+</mo><mn>24</mn><mo>=</mo><mn>28</mn><mo>+</mo><mn>2</mn><mi>x</mi></math>. Stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>=</mo><mn>10</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>5</mn></math>. Długość odcinka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>KL</mi></math> wynosi 5 cm.</p>",
+        "rubric_html": "<ul><li>1 p. za wykonanie odpowiedniego rysunku z oznaczeniami lub za zapisanie co najmniej dwóch obwodów algebraicznie</li><li>2 p. za poprawną metodę obliczenia niewiadomego odcinka, czyli np. zauważenie, że suma obwodów powstałych czworokątów jest równa sumie obwodu prostokąta i długości podwojonego odcinka KL, lub zapisanie połowy różnicy sumy obwodów obu czworokątów i obwodu danego prostokąta</li><li>3 p. za poprawne obliczenie długości odcinka KL</li></ul><p>W każdym zadaniu otwartym od 15. do 18. za błędy rachunkowe odejmujemy 1 punkt.</p>",
         "model": {
           "answer": "KL = 5 cm",
           "by": "sonnet",
@@ -634,6 +642,7 @@
       "answer": {
         "correct": "Najstarszy wnuk: 1400 zł, średni wnuk: 1000 zł",
         "solution_html": "<p>Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznacza całą kwotę. Najstarszy wnuk dostał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>x</mi><mo>+</mo><mn>400</mn></math>, średni <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,5</mn><mo>[</mo><mi>x</mi><mo>−</mo><mo>(</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>x</mi><mo>+</mo><mn>400</mn><mo>)</mo><mo>]</mo><mo>+</mo><mn>200</mn></math>, a najmłodszy 600 zł. Z równania <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>x</mi><mo>+</mo><mn>400</mn><mo>+</mo><mn>0,5</mn><mo>[</mo><mi>x</mi><mo>−</mo><mo>(</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mi>x</mi><mo>+</mo><mn>400</mn><mo>)</mo><mo>]</mo><mo>+</mo><mn>200</mn><mo>+</mo><mn>600</mn><mo>=</mo><mi>x</mi></math> otrzymujemy <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>3000</mn></math>. Najstarszy wnuk otrzymał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mn>3000</mn><mo>+</mo><mn>400</mn><mo>=</mo><mn>1400</mn></math> zł, a średni 1000 zł.</p>",
+        "rubric_html": "<ul><li>1 p. za poprawne zapisanie wyrażeń określających kwoty, które otrzymali wnukowie</li><li>2 p. za zapisanie poprawnego równania</li><li>3 p. za poprawną metodę rozwiązania równania</li><li>4 p. za poprawne obliczenie kwot darowanych poszczególnym wnukom</li></ul><p>W każdym zadaniu otwartym od 15. do 18. za błędy rachunkowe odejmujemy 1 punkt.</p>",
         "model": {
           "answer": "Najstarszy wnuk: 1400 zł; średni wnuk: 1000 zł",
           "by": "sonnet",

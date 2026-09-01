@@ -52,6 +52,7 @@
       "answer": {
         "correct": "10,5 szklanki",
         "solution_html": "<p>Liczba części: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>+</mo><mn>3</mn><mo>+</mo><mn>7</mn><mo>=</mo><mn>12</mn></math>. Na wodę przypada 7 części, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>12</mn></mfrac><mo>·</mo><mn>18</mn><mo>=</mo><mn>10,5</mn></math>.</p><p>Magda wlała 10,5 szklanki wody.</p>",
+        "rubric_html": "<ul><li>1 pkt – Zapisanie poprawnej metody prowadzącej do obliczenia liczby szklanek poszczególnych składników napoju.</li><li>1 pkt – Poprawne obliczenie liczby szklanek wody użytej do sporządzenia napoju oraz zapisanie poprawnej odpowiedzi.</li></ul>",
         "model": {
           "answer": "10,5 szklanki",
           "by": "sonnet",
@@ -102,6 +103,7 @@
       "answer": {
         "correct": "192 cm³",
         "solution_html": "<p>Przekątna podstawy: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mrow><msup><mn>6</mn><mn>2</mn></msup><mo>+</mo><msup><mn>8</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>10</mn></math> cm, połowa przekątnej = 5 cm. Wysokość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>H</mi><mo>=</mo><msqrt><mrow><msup><mn>13</mn><mn>2</mn></msup><mo>−</mo><msup><mn>5</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><msqrt><mn>144</mn></msqrt><mo>=</mo><mn>12</mn></math> cm.</p><p>Objętość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>V</mi><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mo>(</mo><mn>6</mn><mo>·</mo><mn>8</mn><mo>)</mo><mo>·</mo><mn>12</mn><mo>=</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>·</mo><mn>48</mn><mo>·</mo><mn>12</mn><mo>=</mo><mn>192</mn></math> cm³.</p>",
+        "rubric_html": "<ul><li>1 pkt – Obliczenie pola podstawy ostrosłupa (prostokąta).</li><li>1 pkt – Zastosowanie poprawnej metody obliczenia przekątnej podstawy – zastosowanie twierdzenia Pitagorasa lub poprawnie wykorzystanie informacji, że trójkąt o bokach długości 6, 8, 10 jest pitagorejski, w dalszych obliczeniach.</li><li>1 pkt – Zastosowanie poprawnej metody obliczenia wysokości ostrosłupa – zastosowanie twierdzenia Pitagorasa lub poprawnie wykorzystanie informacji, że trójkąt o bokach długości 5, 12, 13 jest pitagorejski w dalszych obliczeniach.</li><li>1 pkt – Obliczenie objętości ostrosłupa.</li></ul>",
         "model": {
           "answer": "192 cm³",
           "by": "sonnet",
@@ -152,6 +154,7 @@
       "answer": {
         "correct": "1/4",
         "solution_html": "<p>Wszystkich wyników: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><mn>6</mn><mo>=</mo><mn>36</mn></math>. Zdarzeń sprzyjających (parzysta i parzysta): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>3</mn><mo>=</mo><mn>9</mn></math>. Prawdopodobieństwo: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>9</mn><mn>36</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>4</mn></mfrac></math>.</p>",
+        "rubric_html": "<ul><li>1 pkt – Wypisanie wszystkich par liczb zdarzeń sprzyjających lub zaznaczenie wszystkich par liczb zdarzeń sprzyjających, lub zapisanie poprawnej liczby zdarzeń sprzyjających: 9, lub poprawne podanie liczby wszystkich zdarzeń elementarnych.</li><li>1 pkt – Poprawne podanie liczby wszystkich zdarzeń elementarnych oraz obliczenie prawdopodobieństwa.</li></ul>",
         "model": {
           "answer": "1/4",
           "by": "sonnet",
@@ -176,6 +179,7 @@
       "answer": {
         "correct": "42 cm²",
         "solution_html": "<p>Z warunku dla <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>2</mn></msub></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><msup><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mn>6</mn><mo>)</mo></mrow><mn>2</mn></msup><mo>−</mo><mn>6</mn><msup><mi>a</mi><mn>2</mn></msup><mo>=</mo><mn>504</mn></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>72</mn><mi>a</mi><mo>+</mo><mn>216</mn><mo>=</mo><mn>504</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>4</mn></math> cm.</p><p>Pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>1</mn></msub></math>: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><msup><mn>4</mn><mn>2</mn></msup><mo>=</mo><mn>96</mn></math> cm². Pole <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>S</mi><mn>3</mn></msub></math> (krawędź 3 cm): <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><msup><mn>3</mn><mn>2</mn></msup><mo>=</mo><mn>54</mn></math> cm². Różnica: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>96</mn><mo>−</mo><mn>54</mn><mo>=</mo><mn>42</mn></math> cm².</p>",
+        "rubric_html": "<ul><li>1 pkt – Zastosowanie poprawnej metody obliczenia długości krawędzi sześcianu, np. zapisanie poprawnego równania.</li><li>1 pkt – Obliczenie długości krawędzi sześcianu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>S</mi><mn>1</mn></msub></mrow></math> – rozwiązanie równania.</li><li>1 pkt – Obliczenie pola powierzchni całkowitej sześcianu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>S</mi><mn>1</mn></msub></mrow></math> o krawędzi długości 4 cm.</li><li>1 pkt – Obliczenie pola powierzchni całkowitej sześcianu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>S</mi><mn>3</mn></msub></mrow></math> o krawędzi długości 3 cm oraz różnicy pól tych sześcianów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>S</mi><mn>1</mn></msub><mo>−</mo><msub><mi>S</mi><mn>3</mn></msub></mrow></math>.</li></ul>",
         "model": {
           "answer": "42 cm²",
           "by": "sonnet",
@@ -199,6 +203,7 @@
       "answer": {
         "correct": "24 cm²",
         "solution_html": "<p>Szary kwadrat ma pole 169, więc jego bok wynosi 13. Kolejno wyznaczamy wymiary sąsiednich prostokątów z podanych pól, korzystając ze wspólnych boków. Prostokąt oznaczony znakiem zapytania ma boki 3 i 8, zatem jego pole wynosi <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn><mo>·</mo><mn>8</mn><mo>=</mo><mn>24</mn></math> cm².</p>",
+        "rubric_html": "<ul><li>1 pkt – Obliczenie długości boku szarego kwadratu: 13 cm.</li><li>1 pkt – Wyznaczenie długości jednego z boków prostokąta oznaczonego znakiem zapytania.</li><li>1 pkt – Wyznaczenie długości obu boków prostokąta oznaczonego znakiem zapytania oraz obliczenie pola prostokąta oznaczonego znakiem zapytania.</li></ul>",
         "model": {
           "answer": "24",
           "by": "sonnet",
@@ -223,6 +228,7 @@
       "answer": {
         "correct": "58°",
         "solution_html": "<p>Kąt przyległy do 58° ma miarę <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>180</mn><mo>∘</mo></msup><mo>−</mo><msup><mn>58</mn><mo>∘</mo></msup><mo>=</mo><msup><mn>122</mn><mo>∘</mo></msup></math>. Suma miar kątów czworokąta: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><msup><mn>180</mn><mo>∘</mo></msup><mo>−</mo><mi>α</mi><mo>)</mo><mo>+</mo><mi>β</mi><mo>+</mo><mi>α</mi><mo>+</mo><msup><mn>122</mn><mo>∘</mo></msup><mo>=</mo><msup><mn>360</mn><mo>∘</mo></msup></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi><mo>=</mo><msup><mn>58</mn><mo>∘</mo></msup></math>.</p>",
+        "rubric_html": "<ul><li>1 pkt – Zapisanie poprawnego równania opisującego sumę miar wszystkich kątów czworokąta z wykorzystaniem własności kątów przyległych lub zapisanie poprawnego równania opisującego sumę miar wszystkich kątów dużego trójkąta, lub zauważenie i zapisanie informacji, że dwa kąty w małym i dużym trójkącie mają jednakowe miary.</li><li>1 pkt – Obliczenie miary kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>β</mi></mrow></math> w trójkącie lub zapisanie miary kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>β</mi></mrow></math>.</li></ul>",
         "model": {
           "answer": "β = 58°",
           "by": "opus",
@@ -246,6 +252,7 @@
       "answer": {
         "correct": "37,5",
         "solution_html": "<p>Równanie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,07</mn><mi>x</mi><mo>=</mo><mn>0,23</mn><mi>x</mi><mo>−</mo><mn>6</mn></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>−</mo><mn>0,16</mn><mi>x</mi><mo>=</mo><mo>−</mo><mn>6</mn></math>, czyli <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>37,5</mn></math>.</p>",
+        "rubric_html": "<ul><li>1 pkt – Zastosowanie poprawnej metody wyznaczenia liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi></mrow></math>, np. zapisanie poprawnego równania lub proporcji.</li><li>1 pkt – Obliczenie liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi></mrow></math>.</li></ul>",
         "model": {
           "answer": "x = 37,5",
           "by": "sonnet",
@@ -295,6 +302,7 @@
       "answer": {
         "correct": "5",
         "solution_html": "<p>Licznik: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>16</mn><mo>−</mo><mfrac><mn>1</mn><mn>5</mn></mfrac><mo>·</mo><mn>5</mn><mo>·</mo><mfrac><mn>7</mn><mn>8</mn></mfrac><mo>·</mo><mfrac><mn>8</mn><mn>7</mn></mfrac><mo>=</mo><mn>16</mn><mo>−</mo><mn>1</mn><mo>=</mo><mn>15</mn></math>.</p><p>Mianownik: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>+</mo><msqrt><mrow><mfrac><mn>25</mn><mn>16</mn></mfrac><mo>·</mo><mn>4</mn><mo>·</mo><mn>25</mn><mo>·</mo><mfrac><mn>1</mn><mn>125</mn></mfrac></mrow></msqrt><mo>=</mo><mn>2</mn><mo>+</mo><mn>1</mn><mo>=</mo><mn>3</mn></math>.</p><p>Wartość wyrażenia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>15</mn><mn>3</mn></mfrac><mo>=</mo><mn>5</mn></math>.</p>",
+        "rubric_html": "<ul><li>1 pkt – Zastosowanie poprawnej metody obliczenia wartości licznika wyrażenia z uwzględnieniem kolejności wykonywania działań.</li><li>2 pkt – Zastosowanie poprawnej metody obliczenia wartości mianownika wyrażenia z uwzględnieniem kolejności wykonywania działań oraz podanie wyniku końcowego. Jeśli uczeń popełni na tym etapie jeden błąd, to otrzymuje 1 punkt.</li></ul>",
         "model": {
           "answer": "10/3",
           "by": "sonnet",
@@ -319,6 +327,7 @@
       "answer": {
         "correct": "222",
         "solution_html": "<p>Największa liczba pierwsza mniejsza od 100 to 97, więc w drugiej hurtowni sprzedano <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>97</mn><mo>=</mo><mn>194</mn></math>. Niech <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> — początkowa liczba główek w każdej hurtowni.</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>−</mo><mn>120</mn><mo>−</mo><mfrac><mn>2</mn><mn>5</mn></mfrac><mo>(</mo><mi>x</mi><mo>−</mo><mn>120</mn><mo>)</mo><mo>=</mo><mi>x</mi><mo>−</mo><mn>194</mn></math>, stąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>305</mn></math>.</p><p>W każdej hurtowni pozostało <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>305</mn><mo>−</mo><mn>194</mn><mo>=</mo><mn>111</mn></math>, łącznie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>·</mo><mn>111</mn><mo>=</mo><mn>222</mn></math>.</p>",
+        "rubric_html": "<ul><li>1 pkt – Wprowadzenie oznaczeń i ustalenie zależności wynikających z treści zadania.</li><li>1 pkt – Zastosowanie poprawnej metody rozwiązania zadania – np. ułożenie równania.</li><li>1 pkt – Obliczenie początkowej liczby główek w każdej z hurtowni.</li><li>1 pkt – Obliczenie liczby pozostałych główek kapusty w obu hurtowniach razem.</li></ul><p>Jeśli uczeń nie zrozumie treści zadania i niepoprawnie ułoży równanie opisujące jego treść, to może otrzymać za rozwiązanie całego zadania 13. maksymalnie 1 punkt.</p>",
         "model": {
           "answer": "222 główki",
           "by": "sonnet",
@@ -342,6 +351,7 @@
       "answer": {
         "correct": "Pole 75√3 cm², obwód 50 cm",
         "solution_html": "<p>Z trójkąta prostokątnego o kątach 30°, 60°, 90° wysokość trapezu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>h</mi><mo>=</mo><mn>5</mn><msqrt><mn>3</mn></msqrt></math> cm, a rzut ramienia na podstawę = 5 cm, więc dłuższa podstawa <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mn>20</mn></math> cm.</p><p>Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mo>(</mo><mn>20</mn><mo>+</mo><mn>10</mn><mo>)</mo><mo>·</mo><mn>5</mn><msqrt><mn>3</mn></msqrt><mo>=</mo><mn>75</mn><msqrt><mn>3</mn></msqrt></math> cm². Obwód: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>L</mi><mo>=</mo><mn>3</mn><mo>·</mo><mn>10</mn><mo>+</mo><mn>20</mn><mo>=</mo><mn>50</mn></math> cm.</p>",
+        "rubric_html": "<ul><li>1 pkt – I sposób: poprawne obliczenie wysokości trapezu równoramiennego z wykorzystaniem własności trójkąta prostokątnego o kątach 30°, 60°, 90°; II sposób: zauważenie i zapisanie, że trapez można podzielić na trzy przystające trójkąty równoboczne. Jeśli uczeń popełni na tym etapie błąd rzeczowy tzn. odwrotnie opisze długości boków w trójkącie 45°, 60°, 90°, to otrzymuje 0 punktów za całe zadanie 14.</li><li>1 pkt – I sposób: poprawne obliczenie długości dłuższej podstawy trapezu równoramiennego; II sposób: obliczenie pole trójkąta równobocznego.</li><li>1 pkt – Poprawne obliczenie pola trapezu.</li><li>1 pkt – Poprawne obliczenie obwodu trapezu.</li></ul>",
         "model": {
           "answer": "Pole = 75√3 cm² (≈129,9 cm²); Obwód = 50 cm",
           "by": "sonnet",
@@ -366,6 +376,7 @@
       "answer": {
         "correct": "D = (−1, 5), pole = 45",
         "solution_html": "<p>Współrzędne punktu <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>D</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>1</mn><mo>,</mo><mn>5</mn><mo>)</mo></math>.</p><p>Przekątne rombu: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>A</mi><mi>C</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><msqrt><mrow><msup><mn>9</mn><mn>2</mn></msup><mo>+</mo><msup><mn>9</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>9</mn><msqrt><mn>2</mn></msqrt></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>B</mi><mi>D</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><msqrt><mrow><msup><mn>5</mn><mn>2</mn></msup><mo>+</mo><msup><mn>5</mn><mn>2</mn></msup></mrow></msqrt><mo>=</mo><mn>5</mn><msqrt><mn>2</mn></msqrt></math>.</p><p>Pole: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><mfrac><mrow><mn>9</mn><msqrt><mn>2</mn></msqrt><mo>·</mo><mn>5</mn><msqrt><mn>2</mn></msqrt></mrow><mn>2</mn></mfrac><mo>=</mo><mn>45</mn></math>.</p>",
+        "rubric_html": "<ul><li>1 pkt – Wyznaczenie i zapisanie współrzędnych wierzchołka <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>D</mi><mo>=</mo><mo>(</mo><mo>−</mo><mn>1</mn><mo>,</mo><mn>5</mn><mo>)</mo></mrow></math>.</li><li>1 pkt – I sposób: zastosowanie poprawnej metody obliczenia przekątnych rombu; II sposób: zbudowanie na bokach rombu czterech przystających trójkątów, które razem z rombem tworzą kwadrat <em>AECF</em>.</li><li>1 pkt – I sposób: poprawne obliczenie długości przekątnych rombu; II sposób: poprawne obliczenie pola kwadratu oraz pola jednego z przystających trójkątów.</li><li>1 pkt – Poprawne obliczenie pola rombu.</li></ul>",
         "model": {
           "answer": "D = (-1, 5); pole = 45",
           "by": "sonnet",

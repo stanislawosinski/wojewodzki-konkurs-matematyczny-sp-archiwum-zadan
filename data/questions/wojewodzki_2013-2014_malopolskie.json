@@ -424,6 +424,7 @@
       "answer": {
         "correct": "1331 dm³",
         "solution_html": null,
+        "rubric_html": "<ul><li>2p – prawidłowe podanie odpowiedzi,</li><li>0p – błędne podanie odpowiedzi.</li></ul>",
         "model": {
           "answer": "1331 dm³",
           "by": "sonnet",
@@ -447,6 +448,7 @@
       "answer": {
         "correct": "25",
         "solution_html": null,
+        "rubric_html": "<ul><li>2p – prawidłowe podanie odpowiedzi,</li><li>0p – błędne podanie odpowiedzi.</li></ul>",
         "model": {
           "answer": "25",
           "by": "sonnet",
@@ -472,6 +474,7 @@
       "answer": {
         "correct": "7",
         "solution_html": null,
+        "rubric_html": "<ul><li>2p – prawidłowe podanie odpowiedzi,</li><li>0p – błędne podanie odpowiedzi.</li></ul>",
         "model": {
           "answer": "7",
           "by": "sonnet",
@@ -496,6 +499,7 @@
       "answer": {
         "correct": "122",
         "solution_html": "<p>Dodatnia liczba parzysta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> mająca dokładnie cztery dzielniki ma dzielniki: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>x</mi><mn>2</mn></mfrac></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>. Z warunku zadania: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1</mn><mo>+</mo><mn>2</mn><mo>+</mo><mfrac><mi>x</mi><mn>2</mn></mfrac><mo>+</mo><mi>x</mi><mo>=</mo><mn>186</mn></mrow></math>, skąd <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mo>+</mo><mfrac><mrow><mn>3</mn><mi>x</mi></mrow><mn>2</mn></mfrac><mo>=</mo><mn>186</mn></mrow></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>122</mn></mrow></math>. Sprawdzenie: dzielnikami liczby 122 są 1, 2, 61, 122, a ich suma wynosi 186.</p>",
+        "rubric_html": "<ul><li>4p – poprawne rozumowanie oraz bezbłędne obliczenia prowadzące do podania w odpowiedzi szukanej liczby lub rozwiązanie metodą prób i błędów, pod warunkiem, że uczeń nie uwzględnia w poszukiwaniu liczb nieparzystych, lub rozwiązanie metodą prób i błędów, w której uczeń otrzymuje szukaną liczbę wypisując również dzielniki liczb nieparzystych, w komentarzu mimo wykonania tych czynności uzasadnia odrzucenie liczby argumentując jest nieparzysta (samo uzasadnienie, że nie jest spełniony warunek sumy lub ilości dzielników – nie jest wystarczający do przyznania 4 punktów),</li><li>3p – poprawne rozumowanie i ułożenie równania pozwalającego na wyznaczenie szukanej liczby, jednak w jego rozwiązaniu uczeń popełnił błędy rachunkowe,</li><li>2p – poprawne ustalenie przynajmniej trzech dzielników lub rozwiązanie metodą prób i błędów, w której uczeń otrzymuje szukaną liczbę, ale w poszukiwaniu nie odrzuca liczb nieparzystych, kryterium wyboru jest ilość dzielników lub/i ich suma, lub odgadnięcie szukanej liczby i sprawdzenie z warunkami zadania,</li><li>1p – poprawne ustalenie tylko dwóch dzielników,</li><li>0p – podanie (odgadnięcie) właściwej liczby bez sprawdzenia z warunkami zadania.</li></ul><p>Uwaga: jeżeli uczeń ustalając dzielniki wypisze spełniające warunek zadania i inne, to przyznajemy 1 lub 2 punkty analizując argumenty, jeżeli brak jest uzasadnienia; jeżeli uczeń napisze np., że szukana liczba dzieli się przez 1, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, 5 lub 1, 2, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math>, 4, to przyznajemy <strong>0 punktów</strong>.</p>",
         "model": {
           "answer": "122",
           "by": "sonnet",
@@ -518,6 +522,7 @@
       "answer": {
         "correct": "19,5 l",
         "solution_html": "<p>Aby wszystkie kostki znalazły się pod wodą, poziom wody musi sięgać do wysokości najwyższej kostki, czyli 15 cm. Objętość wody to objętość prostopadłościanu o wymiarach 40 cm × 40 cm × 15 cm pomniejszona o objętości trzech kostek: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>40</mn><mo>·</mo><mn>40</mn><mo>·</mo><mn>15</mn><mo>−</mo><msup><mn>5</mn><mn>3</mn></msup><mo>−</mo><msup><mn>10</mn><mn>3</mn></msup><mo>−</mo><msup><mn>15</mn><mn>3</mn></msup><mo>=</mo><mn>24000</mn><mo>−</mo><mn>125</mn><mo>−</mo><mn>1000</mn><mo>−</mo><mn>3375</mn><mo>=</mo><mn>19500</mn></mrow></math> cm³. Zatem należy wlać co najmniej 19,5 l wody.</p>",
+        "rubric_html": "<ul><li>3p – Poprawne rozumowanie oraz bezbłędne obliczenia, podanie odpowiedzi w litrach,</li><li>2p – poprawne rozumowanie z błędami rachunkowymi lub podanie objętości w innej jednostce niż w litrach,</li><li>1p – ustalenie, że poziom wody w akwarium musi sięgać do wysokości 15 cm lub zapisanie/ obliczenie objętości prostopadłościanu o wymiarach: 40 cm x 40 cm x 15 cm.</li></ul><p>Uwaga: Jeżeli uczeń rozpatruje ustawienie metalowych sześcianów np. jeden na drugim, to rozwiązuje inne zadanie i przyznajemy 0p, jeżeli te przypadki rozpatruje dodatkowo i w odpowiedzi wskazuje, że uwzględnia przypadek z treści zadania, to punktujemy zgodnie z kluczem.</p>",
         "model": {
           "answer": "19,5 l",
           "by": "sonnet",
@@ -540,6 +545,7 @@
       "answer": {
         "correct": "24 km/h",
         "solution_html": "<p>Planowany czas przejazdu 18 km to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>18</mn><mn>20</mn></mfrac></mrow></math> h. Na przebycie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math> drogi (6 km) z szybkością 20 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>km</mi><mi>h</mi></mfrac></math> rowerzysta zużył <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>6</mn><mn>20</mn></mfrac></mrow></math> h, a naprawa zajęła <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>6</mn><mtext> min</mtext><mo>=</mo><mfrac><mn>1</mn><mn>10</mn></mfrac><mtext> h</mtext></mrow></math>. Maksymalny czas na przejechanie pozostałej części drogi: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>18</mn><mn>20</mn></mfrac><mo>−</mo><mfrac><mn>6</mn><mn>20</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mn>10</mn></mfrac><mo>=</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></math> h. Pozostała droga to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>·</mo><mn>18</mn><mo>=</mo><mn>12</mn></mrow></math> km. Minimalna szybkość: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>v</mi><mo>=</mo><mfrac><mn>12</mn><mn>0,5</mn></mfrac><mo>=</mo><mn>24</mn></mrow></math> <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>km</mi><mi>h</mi></mfrac></math>.</p>",
+        "rubric_html": "<ul><li>4p – poprawne rozumowanie oraz bezbłędne obliczenia prowadzące do podania szybkości 24 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>km</mi><mi>h</mi></mfrac></math> lub wyrażonej w innych jednostkach np.: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>20</mn><mn>3</mn></mfrac><mfrac><mi>m</mi><mi>s</mi></mfrac></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>400</mn><mfrac><mi>m</mi><mi>min</mi></mfrac></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,4</mn><mfrac><mi>km</mi><mi>min</mi></mfrac></math>…,</li><li>3p - poprawne rozumowanie, dobre metody prowadzące do obliczenia minimalnej szybkości, jednak uczeń popełnił jeden błąd rachunkowy lub uczeń wyznaczył tylko maksymalny czas potrzebny do przejechania odcinka drogi po dokonaniu naprawy roweru i wyraził go w dowolnej jednostce,</li><li>2p - poprawne rozumowanie, dobre metody prowadzące do obliczenia minimalnej szybkości, jednak uczeń popełnił kilka błędów rachunkowych, które nie przekreślają poprawności rozwiązania i nie są sprzeczne z danymi (np.: czas przejazdu na poszczególnych odcinkach nie jest większy od czasu przejazdu całej trasy z planowaną szybkością, nie otrzymał w rozwiązaniu szybkości mniejszej niż 20 <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>km</mi><mi>h</mi></mfrac></math>) lub zapisał równanie pozwalające obliczyć szukaną szybkość i nie rozwiązał go lub przy rozwiązaniu popełnił błędy rzeczowe, czyli nie zastosował poprawnie twierdzeń dotyczących rozwiązywania równań, lub uczeń poprawnie obliczył planowany czas przejazdu i czas jazdy do momentu awarii roweru,</li><li>1p - uczeń bezbłędnie wyznaczył planowany czas przejazdu drogi 18 km z planowaną szybkością.</li></ul>",
         "model": {
           "answer": "24 km/h",
           "by": "sonnet",
