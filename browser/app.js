@@ -335,6 +335,7 @@ function wireFacets() {
   // merges: pasted marks win per question, everything else is kept; malformed entries are
   // dropped, not imported.
   $("progExport").onclick = e => {
+    syncProgressFromStorage(); // export the freshest union, other tabs' marks included
     const ta = $("progressIO");
     ta.value = JSON.stringify(Object.fromEntries(progressMarks));
     ta.select();
@@ -355,6 +356,7 @@ function wireFacets() {
         "Nieprawidłowy format — wklej tu to, co skopiował przycisk „Eksportuj”.";
       return;
     }
+    syncProgressFromStorage(); // merge into the freshest state, not this tab's stale copy
     let n = 0;
     for (const h of Object.keys(o)) {
       if (o[h] && (o[h].s === "zrob" || o[h].s === "blad")) {
@@ -367,6 +369,17 @@ function wireFacets() {
     rebuildProgressIndex();
     update();
   };
+
+  // another tab saved its marks (storage fires only in OTHER tabs): adopt them and refresh
+  // everything derived — the Postęp INDEX slice, the chips, the counts. update() re-renders
+  // the current page; open reveals survive (openRevealHashes).
+  addEventListener("storage", e => {
+    if (e.key === PROGRESS_KEY) {
+      syncProgressFromStorage();
+      rebuildProgressIndex();
+      update();
+    }
+  });
 }
 
 function wireSearch() {
@@ -616,6 +629,7 @@ function toggleMentalMark(btn) {
 // one, membership can't change, so the chip is swapped in place (the clicked button — and
 // keyboard focus — survives) and only the facet counts refresh, off the stashed inputs.
 function toggleProgressMark(btn) {
+  syncProgressFromStorage(); // adopt other tabs' marks so the full-map save can't wipe them
   const h = btn.closest(".q").dataset.hash;
   const next = PROG_NEXT[progressMarks.get(h)?.s || ""];
   if (next) {
@@ -642,6 +656,7 @@ function toggleProgressMark(btn) {
 // pages) as zrobione. Unmarked ones only — an existing ✗ must survive a blanket "we did
 // this sheet". No confirmation: nothing is overwritten and a slip is undone per question.
 function markAllDone() {
+  syncProgressFromStorage(); // adopt other tabs' marks so the full-map save can't wipe them
   const fresh = lastMatched.filter(q => !progressMarks.has(q.hash));
   if (!fresh.length) {
     return;

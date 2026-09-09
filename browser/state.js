@@ -84,16 +84,26 @@ const scratchMode = () => document.querySelector('input[name="pageMode"]:checked
 // with a data update, and an import from another device must round-trip losslessly.
 const PROGRESS_KEY = "zadania-progress";
 const progressMarks = new Map();
-try {
-  const stored = JSON.parse(localStorage.getItem(PROGRESS_KEY) || "{}");
-  for (const h of Object.keys(stored)) {
-    if (stored[h] && (stored[h].s === "zrob" || stored[h].s === "blad")) {
-      progressMarks.set(h, { s: stored[h].s, d: stored[h].d });
+
+// (Re-)read the stored marks into memory. saveProgress writes the WHOLE map, so mutating a
+// stale in-memory copy would wipe whatever another tab saved since this tab loaded — every
+// mutation (and the export) therefore re-syncs first, and the storage listener in app.js
+// re-syncs when another tab writes. Parse before clear: a blocked/corrupt store must not
+// wipe the marks this tab already holds.
+function syncProgressFromStorage() {
+  try {
+    const stored = JSON.parse(localStorage.getItem(PROGRESS_KEY) || "{}");
+    progressMarks.clear();
+    for (const h of Object.keys(stored)) {
+      if (stored[h] && (stored[h].s === "zrob" || stored[h].s === "blad")) {
+        progressMarks.set(h, { s: stored[h].s, d: stored[h].d });
+      }
     }
+  } catch (_e) {
+    // localStorage blocked or corrupt → keep the current map (empty at startup)
   }
-} catch (_e) {
-  // localStorage blocked or corrupt → start unmarked
 }
+syncProgressFromStorage();
 function saveProgress() {
   try {
     localStorage.setItem(PROGRESS_KEY, JSON.stringify(Object.fromEntries(progressMarks)));
