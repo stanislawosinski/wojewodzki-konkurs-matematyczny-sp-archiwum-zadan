@@ -286,7 +286,13 @@
         </div>
         <div class="idbox">
           <label
-            >Pokaż tylko id:
+            >Pokaż id:
+            <span
+              id="incWarn"
+              class="inc-warn"
+              title="Część wklejonych id nie pasuje do aktywnych filtrów i nie jest pokazywana — wyczyść filtry, aby zobaczyć wszystkie"
+              hidden
+            ></span>
             <!-- biome-ignore lint/a11y/noAutofocus: deliberate — the id box is the primary worksheet-building input -->
             <textarea id="include" rows="2" placeholder="id, id, …" autofocus></textarea>
           </label>
@@ -409,8 +415,7 @@
           <li>
             Zaznacz ciekawe zadania checkboxem przy zadaniu, a potem kliknij
             <em>Zaznaczone ↑</em>
-            — ich id trafią do pola <em>Pokaż tylko id</em> i lista ograniczy się do wybranych
-            zadań.
+            — ich id trafią do pola <em>Pokaż id</em> i lista ograniczy się do wybranych zadań.
           </li>
           <li>
             Gdy aktywna jest lista id, przy zadaniach pojawiają się strzałki ▴/▾ do zmiany
@@ -477,7 +482,7 @@
             po kolei.
           </li>
           <li>Odpowiedź do zadania odsłonisz ikoną 👁 — dopiero gdy chcesz ją zobaczyć.</li>
-          <li>Kliknięcie id zadania kopiuje je do schowka — np. do pola „Pokaż tylko id”.</li>
+          <li>Kliknięcie id zadania kopiuje je do schowka — np. do pola „Pokaż id”.</li>
         </ul>
 
         <p class="about-xlink">

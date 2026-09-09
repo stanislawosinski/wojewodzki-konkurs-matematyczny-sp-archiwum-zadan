@@ -9,6 +9,7 @@
 const $ = id => document.getElementById(id);
 const search = $("search"),
   inc = $("include"),
+  incWarn = $("incWarn"),
   exc = $("exclude"),
   setsummary = $("setsummary"),
   qlist = $("qlist"),
@@ -50,7 +51,8 @@ let page = 1;
 // placeholders — wireSettings() reads the actual defaults from the checked attributes in index.html.
 // Read by renderQuestion/renderKeyEntry.
 // showPrzyroda: include the przyroda-tagged questions (old śląskie format), off by default —
-// update()'s gate drops them, so an explicit id list still shows them.
+// update()'s gate drops them everywhere, a pasted id list included (the ⚠ idbox warning
+// surfaces that).
 // biome-ignore lint/style/useConst: reassigned by app.js wireSettings() — cross-file globals
 let showAI = false,
   vectorPriority = false,
@@ -155,11 +157,9 @@ function setTitle() {
   document.title = sheetTitle.textContent = computeTitle(lastMatched, lastUseInc);
   applyMarker();
 }
-const selections = {},
-  EMPTY_SELECTIONS = {}; // facetKey -> Set<value>
+const selections = {}; // facetKey -> Set<value>
 for (const f of FACETS) {
   selections[f.key] = new Set();
-  EMPTY_SELECTIONS[f.key] = new Set();
 }
 
 // file:// blocks fetch(), so load JS-wrapped shards via <script>; http(s) fetches plain JSON
@@ -318,7 +318,7 @@ function serialize() {
   return o;
 }
 
-// Keep the per-question overrides in step with the "Pokaż tylko id" worksheet: when an explicit id
+// Keep the per-question overrides in step with the "Pokaż id" worksheet: when an explicit id
 // list is active, an override for a question no longer on the list is dropped, so bh/bf/fr/fv never
 // outlive the sheet (Maps stay == hash). No list → overrides apply globally, nothing to prune.
 function pruneScratchToInclude() {

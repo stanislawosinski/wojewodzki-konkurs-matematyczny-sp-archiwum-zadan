@@ -171,7 +171,7 @@ const keylessVerif = (q, m) => {
   return m.corroborated === false ? ["bezklucza", "niepewne"] : ["bezklucza"];
 };
 const FACETS = [
-  // first, right under the "Pokaż tylko id" box — the daily-driver during training
+  // first, right under the "Pokaż id" box — the daily-driver during training
   {
     key: "post",
     label: "Postęp",

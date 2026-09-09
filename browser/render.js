@@ -542,7 +542,7 @@ const mentalBtnTitle = q =>
 
 // The ×N duplicate chip (the same question on other sheets) and the ~N variant chip (the
 // same problem with different numbers) — build.mjs stamps the cluster's hashes into
-// q.dup / q.sim. Hover lists the other sheets; click shows the cluster via "Pokaż tylko id"
+// q.dup / q.sim. Hover lists the other sheets; click shows the cluster via "Pokaż id"
 // (wired in app.js).
 const clusterSheets = (q, hashes) =>
   hashes
@@ -596,7 +596,7 @@ function questionControlsHtml(q, seq, half, override, figFmt, figDefault) {
   // left-gutter controls wrapped in one .gutter group so they dim together and hover as a unit
   const reorder =
     seq == null
-      ? "" // ordered "Pokaż tylko id" mode: arrows reorder the id list, × drops it
+      ? "" // ordered "Pokaż id" mode: arrows reorder the id list, × drops it
       : `<button type="button" class="reorder remove" title="Usuń z listy id" aria-label="usuń">×</button>` +
         `<button type="button" class="reorder up" title="Przesuń w górę" aria-label="w górę"><span>▾</span></button>` +
         `<button type="button" class="reorder down" title="Przesuń w dół" aria-label="w dół">▾</button>`;

@@ -946,6 +946,14 @@ select {
   font-size: 0.85rem;
   color: #444;
 }
+
+/* ⚠ on the "Pokaż id" header line, pushed to the right edge: the regular filters hide some
+   of the pasted ids; its "(wyczyść)" borrows the .topic-clear link look */
+.inc-warn {
+  float: right;
+  font-size: 0.72rem;
+  color: #9a6700;
+}
 .sidebar select,
 .sidebar input[type="text"] {
   width: 100%;
@@ -2389,6 +2397,9 @@ body.hide-mental .mental-toggle {
   html.dark .prognote.has {
     border-color: hsl(41 45% 42%);
     background: hsl(41 30% 15%);
+    color: hsl(41 70% 62%);
+  }
+  html.dark .inc-warn {
     color: hsl(41 70% 62%);
   }
   html.dark .reorder.remove:hover {

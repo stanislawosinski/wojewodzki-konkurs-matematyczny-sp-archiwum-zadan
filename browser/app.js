@@ -23,8 +23,8 @@ const foldDiacritics = s =>
     .replace(/[\u0300-\u036f]/g, "")
     .replace(/ł/g, "l");
 
-// The facet-filtered sheet (facets + search + exclusions), ignoring the "Pokaż tylko id"
-// override — update()'s default branch, and the pool "🎲 Wylosuj" samples from
+// The facet-filtered sheet (facets + search + exclusions) — update()'s default branch, the
+// narrowing applied to a pasted "Pokaż id" list, and the pool "🎲 Wylosuj" samples from
 function facetMatched() {
   const excSet = new Set(idList(exc.value));
   const terms = foldDiacritics(search.value.toLowerCase()).split(/\s+/).filter(Boolean);
@@ -95,14 +95,20 @@ function update() {
   const { excSet, terms, andKeys } = facet;
 
   let matched, countSel, countGate, countBase;
+  let incDropped = 0; // pasted ids the regular filters hide (drives the ⚠ idbox warning)
   if (useInc) {
-    // "Pokaż tylko id" is an override: exactly those ids, in pasted order, deduped
+    // "Pokaż id": the pasted ids, in pasted order, deduped — narrowed by the regular
+    // filters (facets + search + exclusions + gate) like any other view. Facet counts
+    // stay live, scoped to the pasted set, so drilling down within a worksheet works.
     const seen = new Set();
-    matched = incIds.filter(h => byHash[h] && !seen.has(h) && seen.add(h)).map(h => byHash[h]);
-    const shown = new Set(matched.map(q => q.hash)); // facets inert; counts describe the shown set
-    countSel = EMPTY_SELECTIONS;
-    countGate = h => shown.has(h);
-    countBase = shown; // with no selections the shared count base is exactly the shown set
+    const pasted = incIds.filter(h => byHash[h] && !seen.has(h) && seen.add(h));
+    const kept = pasted.filter(h => facet.hits.has(h));
+    incDropped = pasted.length - kept.length;
+    matched = kept.map(h => byHash[h]);
+    const incSet = new Set(pasted);
+    countSel = selections;
+    countGate = h => incSet.has(h) && facet.gate(h);
+    countBase = new Set(kept);
   } else {
     matched = facet.matched;
     countSel = selections;
@@ -161,6 +167,15 @@ function update() {
     "--tbh",
     `${document.querySelector(".topbar").offsetHeight}px`
   );
+  // ⚠ next to the "Pokaż id" header whenever the regular filters hide some pasted ids;
+  // the link's own label names the culprit, so no prose is needed (tooltip has the rest)
+  incWarn.hidden = !incDropped;
+  if (incDropped) {
+    incWarn.innerHTML =
+      `⚠ ${incDropped} z ${incDropped + matched.length} ` +
+      `<button type="button" class="inc-clear topic-clear">(wyczyść filtry)</button>`; // topic-clear = the shared link look
+  }
+
   clearSearch.hidden = !search.value; // the "×" inside the search box
   clearSelBar.hidden = !selectedSet.size; // "Wyczyść zaznaczenie": only with a print selection
   shownCount = matched.length;
@@ -236,6 +251,15 @@ function clearAllFilters() {
   search.value = inc.value = exc.value = "";
   writeUrl(true);
   refilter(); // push, so Back restores the filters you cleared
+}
+
+// "(wyczyść)" inside the ⚠ idbox warning: drop everything that narrows the pasted ids
+// (facets + search + exclusions) but keep the id list itself
+function clearFiltersKeepIds() {
+  clearFacetSelections();
+  search.value = exc.value = "";
+  writeUrl(true);
+  refilter(); // push, so Back restores the cleared filters
 }
 
 // Temat tree/list toggle: swap the presentation, keep selections/search/counts intact.
@@ -512,7 +536,7 @@ function wireQlist() {
         return;
       }
     }
-    handleReorderClick(e); // × remove / ▴▾ reorder, "Pokaż tylko id" mode only
+    handleReorderClick(e); // × remove / ▴▾ reorder, "Pokaż id" mode only
   });
 }
 
@@ -746,7 +770,7 @@ function reorderIdList(btn) {
 }
 
 function wireToolbar() {
-  // "Zaznaczone ↑": drop the print-selected question ids into the "Pokaż tylko id" box
+  // "Zaznaczone ↑": drop the print-selected question ids into the "Pokaż id" box
   $("useSel").onclick = () => {
     inc.value = selectedHashes().join(", ");
     writeUrl(false);
@@ -762,7 +786,7 @@ function wireToolbar() {
     flashCopied(e.currentTarget);
   };
 
-  // "Wyczyść": clear only the "Pokaż tylko id" textarea (selection has its own link in the bar)
+  // "Wyczyść": clear only the "Pokaż id" textarea (selection has its own link in the bar)
   $("clearSel").onclick = () => {
     inc.value = "";
     writeUrl(false);
@@ -773,6 +797,15 @@ function wireToolbar() {
   clearFacets.onclick = e => {
     e.preventDefault();
     clearAllFilters();
+  };
+
+  // the "(wyczyść)" link inside the ⚠ warning (re-created on every update, so delegate);
+  // stop propagation — the span sits inside the idbox <label>, a plain click focuses the textarea
+  incWarn.onclick = e => {
+    if (e.target.closest(".inc-clear")) {
+      e.preventDefault();
+      clearFiltersKeepIds();
+    }
   };
   // Drukuj split button (Salt anatomy): the main segment prints the questions alone; the
   // chevron opens a menu with the key variants — questions + key sheet, or the key sheet
