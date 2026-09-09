@@ -77,11 +77,13 @@ const figSizeOverrides = new Map(); // hash -> nonzero int step; per-question fi
 const mentalOverrides = new Map(); // hash -> 'on' | 'off'; per-question "W pamięci" marker override, display only (the data and the pamiec facet are untouched). Serialized to the hash (keys "pt"/"pn").
 const scratchMode = () => document.querySelector('input[name="pageMode"]:checked').value;
 
-// ✓/✗ progress marks: hash -> { s: 'zrob' | 'blad', d: 'YYYY-MM-DD' }. Device data with its
-// own localStorage key — deliberately outside 'zadania-settings' (so tinkering with settings
-// can never wipe training history) and outside the URL (sharing a sheet must not carry
-// anyone's progress). Marks for hashes absent from this build are kept: they may come back
-// with a data update, and an import from another device must round-trip losslessly.
+// ✓/✗ progress marks: hash -> { s: 'zrob' | 'blad', d: 'YYYY-MM-DD', n: note }. s+d and n
+// are each optional (a note may outlive its mark); a record with neither is deleted. Device
+// data with its own localStorage key — deliberately outside 'zadania-settings' (so tinkering
+// with settings can never wipe training history) and outside the URL (sharing a sheet must
+// not carry anyone's progress or notes). Marks for hashes absent from this build are kept:
+// they may come back with a data update, and an import from another device must round-trip
+// losslessly.
 const PROGRESS_KEY = "zadania-progress";
 const progressMarks = new Map();
 
@@ -95,8 +97,9 @@ function syncProgressFromStorage() {
     const stored = JSON.parse(localStorage.getItem(PROGRESS_KEY) || "{}");
     progressMarks.clear();
     for (const h of Object.keys(stored)) {
-      if (stored[h] && (stored[h].s === "zrob" || stored[h].s === "blad")) {
-        progressMarks.set(h, { s: stored[h].s, d: stored[h].d });
+      const r = progressRecord(stored[h]);
+      if (r) {
+        progressMarks.set(h, r);
       }
     }
   } catch (_e) {

@@ -774,7 +774,8 @@ select {
    view to the whole cluster (screen-only, hidden in print) */
 .dupmark,
 .simmark,
-.progmark {
+.progmark,
+.prognote {
   border: 1px solid var(--border);
   border-radius: 8px;
   background: none;
@@ -785,13 +786,19 @@ select {
 }
 .dupmark:hover,
 .simmark:hover,
-.progmark:hover {
+.progmark:hover,
+.prognote:hover {
   color: #333;
   border-color: var(--border-strong);
 }
 
 /* the ✓/✗ progress chip: grey ✓ = unmarked (click to mark), green ✓ = zrobione,
    red ✗ = do poprawy (zrobione z błędem) */
+.progmark {
+  width: 1.3em; /* ✓ and ✗ differ in width; a fixed slot keeps the ✎ chip from shifting */
+  box-sizing: content-box; /* the slot is for the glyph; padding/border stay on top of it */
+  text-align: center;
+}
 .progmark.zrob {
   color: #161;
   border-color: #8c8;
@@ -801,6 +808,41 @@ select {
   color: #a1160a;
   border-color: #c66;
   background: #fdeeee;
+}
+
+/* the ✎ note chip: grey outline = no note yet, amber = a note is stored (hover shows it) */
+.prognote.has {
+  color: #9a6700;
+  border-color: #d4a72c;
+  background: #fff8e5;
+}
+
+/* the shared note editor, anchored under the clicked ✎ by openNotePop (fixed, like .infotip) */
+#notePop {
+  position: fixed;
+  z-index: 25;
+  width: 18rem;
+  padding: 0.5rem 0.6rem;
+  border: 1px solid #e2e2e2;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  background: var(--surface);
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+#notePop textarea {
+  width: 100%;
+  box-sizing: border-box;
+  resize: vertical;
+  font: inherit;
+  font-size: 0.8rem;
+}
+#notePop .hint {
+  margin: 0.3rem 0 0;
+  font-size: 0.7rem;
+  color: #888;
+}
+#notePop[hidden] {
+  display: none;
 }
 .hide-ai .facet[data-facet="weryf"] {
   display: none;
@@ -1635,9 +1677,11 @@ body.hide-mental .mental-toggle {
   } /* the marker override control never prints (its effect does) */
   .dupmark,
   .simmark,
-  .progmark {
+  .progmark,
+  .prognote,
+  #notePop {
     display: none;
-  } /* the duplicate/variant/progress chips are navigation, not sheet content */
+  } /* the duplicate/variant/progress/note chips are navigation, not sheet content */
   .infotip {
     display: none;
   } /* an open popover (marker hint, facet ⓘ) would overlay the printed text */
@@ -2206,6 +2250,7 @@ body.hide-mental .mental-toggle {
   html.dark .dupmark,
   html.dark .simmark,
   html.dark .progmark,
+  html.dark .prognote,
   html.dark .qmeta .tag.ctx,
   html.dark .info-i,
   html.dark .topic-view-toggle {
@@ -2233,7 +2278,8 @@ body.hide-mental .mental-toggle {
   html.dark .figsize:hover,
   html.dark .dupmark:hover,
   html.dark .simmark:hover,
-  html.dark .progmark:hover {
+  html.dark .progmark:hover,
+  html.dark .prognote:hover {
     color: hsl(var(--tint-h) 14% 84%);
     border-color: hsl(var(--tint-h) 12% 50%);
   }
@@ -2286,8 +2332,12 @@ body.hide-mental .mental-toggle {
   html.dark .infotip,
   html.dark .infotip::before,
   html.dark .about-pop,
-  html.dark .prog-pop {
+  html.dark .prog-pop,
+  html.dark #notePop {
     border-color: hsl(var(--tint-h) 12% 28%);
+  }
+  html.dark #notePop .hint {
+    color: hsl(var(--tint-h) 10% 60%);
   }
   /* .about-pop hard-codes #333/#444 body ink (dark on dark = invisible); lift to the body text */
   html.dark .about-pop,
@@ -2335,6 +2385,11 @@ body.hide-mental .mental-toggle {
     border-color: hsl(6 45% 46%);
     background: hsl(6 30% 15%);
     color: hsl(6 72% 66%);
+  }
+  html.dark .prognote.has {
+    border-color: hsl(41 45% 42%);
+    background: hsl(41 30% 15%);
+    color: hsl(41 70% 62%);
   }
   html.dark .reorder.remove:hover {
     border-color: hsl(6 45% 46%);

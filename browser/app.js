@@ -359,8 +359,9 @@ function wireFacets() {
     syncProgressFromStorage(); // merge into the freshest state, not this tab's stale copy
     let n = 0;
     for (const h of Object.keys(o)) {
-      if (o[h] && (o[h].s === "zrob" || o[h].s === "blad")) {
-        progressMarks.set(h, { s: o[h].s, d: o[h].d });
+      const r = progressRecord(o[h]);
+      if (r) {
+        progressMarks.set(h, r);
         n++;
       }
     }
@@ -434,7 +435,8 @@ const PIN_BUTTONS = [
   [".figsize", adjustFigureSize],
   [".dupmark", b => showCluster(b, "dup")], // not pins, but dispatched the same way
   [".simmark", b => showCluster(b, "sim")],
-  [".progmark", toggleProgressMark] // the ✓/✗ header chip — also not a pin
+  [".progmark", toggleProgressMark], // the ✓/✗ header chip — also not a pin
+  [".prognote", openNotePop] // the ✎ note chip next to it
 ];
 
 // ×N duplicate / ~N variant chip: show the whole cluster as an explicit id list;
@@ -631,9 +633,12 @@ function toggleMentalMark(btn) {
 function toggleProgressMark(btn) {
   syncProgressFromStorage(); // adopt other tabs' marks so the full-map save can't wipe them
   const h = btn.closest(".q").dataset.hash;
-  const next = PROG_NEXT[progressMarks.get(h)?.s || ""];
+  const prev = progressMarks.get(h) || {};
+  const next = PROG_NEXT[prev.s || ""];
   if (next) {
-    progressMarks.set(h, { s: next, d: todayISO() });
+    progressMarks.set(h, { ...prev, s: next, d: todayISO() });
+  } else if (prev.n) {
+    progressMarks.set(h, { n: prev.n }); // unmark, but the note keeps the record alive
   } else {
     progressMarks.delete(h);
   }
@@ -644,12 +649,69 @@ function toggleProgressMark(btn) {
     return;
   }
   const m = progressMarks.get(h),
-    s = m ? m.s : "";
+    s = m?.s || "";
   btn.className = `progmark${s ? ` ${s}` : ""}`;
   btn.textContent = PROG_GLYPH[s];
   btn.title = progTitle(m);
+  btn.nextElementSibling.hidden = !m; // the ✎ note chip appears with the first mark
   const c = lastCountArgs;
   refreshFacetCounts(c.countSel, c.countGate, c.andKeys, c.countBase);
+}
+
+// Per-question note (the record's `n` field, mainly "what went wrong" on ✗ questions): one
+// shared #notePop box anchored under the clicked ✎ chip. Saved on close (outside click,
+// Escape, or re-clicking the chip) through the same sync-then-write path as the marks, so
+// notes survive concurrent tabs too. Clearing the text deletes the note; a record left
+// with neither mark nor note is dropped.
+let noteFor = null; // hash whose note is being edited; null = editor closed
+
+function closeNotePop() {
+  if (noteFor === null) {
+    return;
+  }
+  const h = noteFor,
+    n = $("noteText").value.trim();
+  noteFor = null;
+  $("notePop").hidden = true;
+  syncProgressFromStorage();
+  const m = progressMarks.get(h) || {};
+  if (n) {
+    m.n = n;
+  } else {
+    delete m.n;
+  }
+  if (m.s || m.n) {
+    progressMarks.set(h, m);
+  } else {
+    progressMarks.delete(h);
+  }
+  saveProgress();
+
+  // patch the ✎ chip in place; a re-render may have replaced or dropped it — re-query, guard
+  const btn = qlist.querySelector(`.q[data-hash="${h}"] .prognote`);
+  if (btn) {
+    btn.classList.toggle("has", !!n);
+    btn.hidden = !progressMarks.has(h);
+    btn.title = n || "Dodaj notatkę (np. rodzaj błędu)";
+  }
+}
+
+function openNotePop(btn) {
+  const h = btn.closest(".q").dataset.hash;
+  if (noteFor === h) {
+    return closeNotePop(); // same chip again = close (and save)
+  }
+  closeNotePop(); // switching questions: commit the previous edit first
+  syncProgressFromStorage();
+  noteFor = h;
+  const pop = $("notePop");
+  $("noteText").value = progressMarks.get(h)?.n || "";
+  pop.hidden = false;
+  const r = btn.getBoundingClientRect(),
+    w = pop.offsetWidth;
+  pop.style.left = `${Math.max(8, Math.min(r.left, innerWidth - w - 8))}px`;
+  pop.style.top = `${r.bottom + 6}px`;
+  $("noteText").focus();
 }
 
 // "✓ widoczne" (the Postęp facet header): stamp every question of the current sheet (all
@@ -657,13 +719,13 @@ function toggleProgressMark(btn) {
 // this sheet". No confirmation: nothing is overwritten and a slip is undone per question.
 function markAllDone() {
   syncProgressFromStorage(); // adopt other tabs' marks so the full-map save can't wipe them
-  const fresh = lastMatched.filter(q => !progressMarks.has(q.hash));
+  const fresh = lastMatched.filter(q => !progressMarks.get(q.hash)?.s); // note-only = unmarked
   if (!fresh.length) {
     return;
   }
   const d = todayISO();
   for (const q of fresh) {
-    progressMarks.set(q.hash, { s: "zrob", d });
+    progressMarks.set(q.hash, { ...progressMarks.get(q.hash), s: "zrob", d });
   }
   saveProgress();
   rebuildProgressIndex();
@@ -1027,6 +1089,9 @@ function wireSettings() {
     if (!infotip.hidden && !e.target.closest(".info-i, .mmark") && !e.target.closest(".infotip")) {
       hideInfotip();
     }
+    if (noteFor !== null && !e.target.closest("#notePop, .prognote")) {
+      closeNotePop(); // outside click = save + close (chip clicks are handled in openNotePop)
+    }
 
     // phone drawer: backdrop clicks target <body> = outside the sidebar → close
     // (the Filtry toggle itself never lands here — its handler stops propagation)
@@ -1038,6 +1103,7 @@ function wireSettings() {
     if (e.key === "Escape") {
       settingsPop.hidden = true;
       hideInfotip();
+      closeNotePop(); // save + close, same as an outside click
       document.body.classList.remove("drawer-open");
     }
   });

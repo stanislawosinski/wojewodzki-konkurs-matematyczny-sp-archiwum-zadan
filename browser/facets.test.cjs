@@ -152,7 +152,8 @@ assert.deepStrictEqual(decodeHash(""), {});
 // q.dup carries the full cluster, self included — self is skipped (no own mark = checked first).
 const marks = new Map([
   ["h1", { s: "zrob" }],
-  ["h2", { s: "blad" }]
+  ["h2", { s: "blad" }],
+  ["h7", { n: "notatka bez oznaczenia" }]
 ]);
 assert.strictEqual(progressStatus("h1", null, marks), "zrob"); // own mark, no cluster
 assert.strictEqual(progressStatus("h9", null, marks), "nie"); // unmarked, no cluster
@@ -160,5 +161,7 @@ assert.strictEqual(progressStatus("h2", ["h2", "h1"], marks), "blad"); // own ma
 assert.strictEqual(progressStatus("h9", ["h9", "h1"], marks), "zrob"); // inherited from the duplicate
 assert.strictEqual(progressStatus("h9", ["h9", "h1", "h2"], marks), "blad"); // 'blad' outranks 'zrob'
 assert.strictEqual(progressStatus("h9", ["h9", "h8"], marks), "nie"); // cluster wholly unmarked
+assert.strictEqual(progressStatus("h7", null, marks), "nie"); // a note alone is not a mark
+assert.strictEqual(progressStatus("h9", ["h9", "h7", "h1"], marks), "zrob"); // note-only dup skipped
 
 console.log("facets.test.cjs: all assertions passed");

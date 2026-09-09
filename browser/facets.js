@@ -156,14 +156,15 @@
   // 'zrob', so an error anywhere in the cluster keeps the question in the redo pile.
   //   marks = Map<hash, {s: 'zrob'|'blad'}>  ->  'zrob' | 'blad' | 'nie'
   function progressStatus(hash, dup, marks) {
+    // records may carry a note without a mark (no .s) — those count as unmarked here
     const own = marks.get(hash);
-    if (own) {
+    if (own?.s) {
       return own.s;
     }
     let s = "nie";
     for (const h of dup || []) {
       const m = marks.get(h);
-      if (m && (s === "nie" || m.s === "blad")) {
+      if (m?.s && (s === "nie" || m.s === "blad")) {
         s = m.s;
       }
     }

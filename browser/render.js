@@ -575,8 +575,19 @@ function simMarkHtml(q) {
 // this chip — the facet ⓘ explains that rule.
 function progMarkHtml(q) {
   const m = progressMarks.get(q.hash),
-    s = m ? m.s : "";
+    s = m?.s || ""; // a note-only record renders as unmarked
   return `<button type="button" class="progmark${s ? ` ${s}` : ""}" title="${esc(progTitle(m))}" aria-label="oznacz postęp zadania">${PROG_GLYPH[s]}</button>`;
+}
+
+// ✎ note chip, after the ✓/✗ chip: opens the shared per-question note editor (#notePop).
+// Rendered for every question but hidden until the question has a mark or a note — no
+// clutter on untouched questions, and toggleProgressMark can reveal it in place.
+function progNoteHtml(q) {
+  const m = progressMarks.get(q.hash);
+  return (
+    `<button type="button" class="prognote${m?.n ? " has" : ""}"${m ? "" : " hidden"}` +
+    ` title="${esc(m?.n || "Dodaj notatkę (np. rodzaj błędu)")}" aria-label="notatka do zadania">✎</button>`
+  );
 }
 
 // the left-gutter block (select box + optional reorder arrows) and the three per-question
@@ -786,6 +797,7 @@ function renderQuestion(q, seq) {
       dupMarkHtml(q) +
       simMarkHtml(q) +
       progMarkHtml(q) +
+      progNoteHtml(q) +
       `<span class="qmeta">${metaHtml}</span></div>`,
     `<div class="prompt">${q.prompt_html}</div>`,
     figuresHtml(q, figFmt, seq),

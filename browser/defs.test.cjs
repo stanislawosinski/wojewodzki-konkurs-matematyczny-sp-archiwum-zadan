@@ -14,8 +14,8 @@ const path = require("node:path");
 const vm = require("node:vm");
 
 const read = f => fs.readFileSync(path.join(__dirname, f), "utf8");
-const { FACETS, fmtMin, answerHtml } = vm.runInNewContext(
-  `${read("facets.js")}\n${read("defs.js")}\n;({ FACETS, fmtMin, answerHtml })`,
+const { FACETS, fmtMin, answerHtml, progressRecord } = vm.runInNewContext(
+  `${read("facets.js")}\n${read("defs.js")}\n;({ FACETS, fmtMin, answerHtml, progressRecord })`,
   { window: {} }
 );
 // spread into a host-realm array — vm-created arrays have a foreign Array.prototype,
@@ -131,5 +131,26 @@ assert.strictEqual(
 assert.deepStrictEqual(values("pkt", { answer: { rubric_html: "<p>1 pkt za…</p>" } }), ["z"]);
 assert.deepStrictEqual(values("pkt", { answer: { solution_html: "s" } }), ["bez"]);
 assert.deepStrictEqual(values("pkt", {}), ["bez"]);
+
+// --- progressRecord: mark and/or note survive normalization; anything else is dropped
+assert.deepStrictEqual(
+  { ...progressRecord({ s: "zrob", d: "2026-09-09" }) },
+  {
+    s: "zrob",
+    d: "2026-09-09"
+  }
+);
+assert.deepStrictEqual(
+  { ...progressRecord({ s: "blad", d: "x", n: " ułamki " }) },
+  {
+    s: "blad",
+    d: "x",
+    n: "ułamki"
+  }
+);
+assert.deepStrictEqual({ ...progressRecord({ n: "sama notatka" }) }, { n: "sama notatka" });
+assert.strictEqual(progressRecord({ s: "bogus" }), null);
+assert.strictEqual(progressRecord({ n: "   " }), null);
+assert.strictEqual(progressRecord(null), null);
 
 console.log("defs.test.cjs: all assertions passed");

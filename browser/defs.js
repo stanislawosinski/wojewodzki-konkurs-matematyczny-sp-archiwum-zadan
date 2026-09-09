@@ -80,11 +80,26 @@ const PROG_LABELS = { zrob: "Zrobione", blad: "Do poprawy", nie: "Do zrobienia" 
 const PROG_GLYPH = { zrob: "✓", blad: "✗", "": "✓" };
 const PROG_NEXT = { "": "zrob", zrob: "blad", blad: "" };
 const progTitle = m =>
-  m
+  m?.s
     ? m.s === "zrob"
       ? `Zrobione${m.d ? ` ${m.d}` : ""} — kliknij: ✗ do poprawy`
       : `Do poprawy — zrobione z błędem${m.d ? ` ${m.d}` : ""} — kliknij, aby zdjąć oznaczenie`
     : "Oznacz jako zrobione (drugi klik: ✗ do poprawy)";
+
+// A stored/imported progress record, normalized: a valid mark (s + its date) and/or a
+// non-empty note survive; null when neither does. Shared by the localStorage loader
+// (syncProgressFromStorage) and the ⇄ import, so both accept the same shapes.
+function progressRecord(o) {
+  const r = {};
+  if (o && (o.s === "zrob" || o.s === "blad")) {
+    r.s = o.s;
+    r.d = o.d;
+  }
+  if (o && typeof o.n === "string" && o.n.trim()) {
+    r.n = o.n.trim();
+  }
+  return r.s || r.n ? r : null;
+}
 
 // local calendar date, stamped on progress marks (toISOString would flip to the UTC date around midnight)
 const todayISO = () => {

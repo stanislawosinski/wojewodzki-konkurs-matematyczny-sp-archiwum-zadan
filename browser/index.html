@@ -368,6 +368,17 @@
       </div>
       <p class="hint" id="progIOStatus"></p>
     </div>
+    <!-- Per-question note editor: one shared box, JS-anchored under the clicked ✎ chip
+         (openNotePop, app.js). The note is the `n` field of the zadania-progress record. -->
+    <div id="notePop" hidden>
+      <textarea
+        id="noteText"
+        rows="3"
+        placeholder="np. rodzaj błędu, co powtórzyć"
+        aria-label="Notatka do zadania"
+      ></textarea>
+      <p class="hint">zapis przy zamknięciu; wyczyść tekst, aby usunąć notatkę</p>
+    </div>
     <!-- "Wskazówki": same native-[popover] pattern as #aboutPop below; shares the about-* styles. -->
     <div id="tipsPop" popover class="about-pop">
       <button
