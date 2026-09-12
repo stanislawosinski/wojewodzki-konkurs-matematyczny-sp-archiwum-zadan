@@ -4,30 +4,30 @@
 <!-- circle -->
 <circle cx="155" cy="154" r="126" fill="none" stroke="#000" stroke-width="3"/>
 
-<!-- rectangle 2x2 grid -->
-<rect x="83.5" y="54.5" width="143.5" height="199" fill="none" stroke="#000" stroke-width="3"/>
-<line x1="155.5" y1="54.5" x2="155.5" y2="253.5" stroke="#000" stroke-width="3"/>
-<line x1="83.5" y1="152.5" x2="227" y2="152.5" stroke="#000" stroke-width="3"/>
+<!-- rectangle 2x2 grid; corners exactly on the circle: 73.7^2 + 102.2^2 = 126^2 -->
+<rect x="81.3" y="51.8" width="147.4" height="204.4" fill="none" stroke="#000" stroke-width="3"/>
+<line x1="155.5" y1="51.8" x2="155.5" y2="256.2" stroke="#000" stroke-width="3"/>
+<line x1="81.3" y1="152.5" x2="228.7" y2="152.5" stroke="#000" stroke-width="3"/>
 
 <!-- diagonal in top-left cell -->
-<line x1="83.5" y1="152.5" x2="155.5" y2="54.5" stroke="#000" stroke-width="3"/>
+<line x1="81.3" y1="152.5" x2="155.5" y2="51.8" stroke="#000" stroke-width="3"/>
 
 <!-- label x -->
 <text x="106" y="94" font-family="Times New Roman,serif" font-size="36" font-style="italic" font-weight="bold" fill="#000">x</text>
 
 <!-- dimension line -->
-<line x1="83.5" y1="253.5" x2="83.5" y2="320" stroke="#000" stroke-width="1.5"/>
-<line x1="227" y1="253.5" x2="227" y2="320" stroke="#000" stroke-width="1.5"/>
+<line x1="81.3" y1="256.2" x2="81.3" y2="320" stroke="#000" stroke-width="1.5"/>
+<line x1="228.7" y1="256.2" x2="228.7" y2="320" stroke="#000" stroke-width="1.5"/>
 <line x1="29" y1="154" x2="29" y2="320" stroke="#000" stroke-width="1.5"/>
 <line x1="281" y1="154" x2="281" y2="320" stroke="#000" stroke-width="1.5"/>
 <line x1="25" y1="318" x2="284" y2="318" stroke="#000" stroke-width="1.5"/>
 
 <!-- arrowheads -->
 <path d="M25,318 L33,314 L33,322 Z" fill="#000"/>
-<path d="M83.5,318 L75.5,314 L75.5,322 Z" fill="#000"/>
-<path d="M83.5,318 L91.5,314 L91.5,322 Z" fill="#000"/>
-<path d="M227,318 L219,314 L219,322 Z" fill="#000"/>
-<path d="M227,318 L235,314 L235,322 Z" fill="#000"/>
+<path d="M81.3,318 L73.3,314 L73.3,322 Z" fill="#000"/>
+<path d="M81.3,318 L89.3,314 L89.3,322 Z" fill="#000"/>
+<path d="M228.7,318 L220.7,314 L220.7,322 Z" fill="#000"/>
+<path d="M228.7,318 L236.7,314 L236.7,322 Z" fill="#000"/>
 <path d="M284,318 L276,314 L276,322 Z" fill="#000"/>
 
 <!-- labels -->
