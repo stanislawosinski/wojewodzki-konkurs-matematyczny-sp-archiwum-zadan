@@ -407,6 +407,93 @@ function wireFacets() {
   });
 }
 
+// "Pokaż id" autocomplete: a 3–7 char hex fragment under the caret lists the matching
+// hashes below the box (not at the caret — positioning inside a textarea buys nothing).
+// No shortcut to open it: Ctrl+Space is the macOS input-source switch.
+// ponytail: linear scan of byHash per keystroke — fine at ~8k questions
+function wireIdSuggest() {
+  const box = $("incSuggest");
+  let tok = null, // { start, end } of the fragment being completed
+    pick = 0;
+  const close = () => {
+    box.hidden = true;
+    tok = null;
+  };
+  const mark = () => {
+    for (const [i, li] of [...box.children].entries()) {
+      li.classList.toggle("on", i === pick);
+    }
+  };
+  const show = () => {
+    const v = inc.value,
+      pos = inc.selectionStart;
+    const start = pos - v.slice(0, pos).match(/[0-9a-f]*$/i)[0].length;
+    const end = pos + v.slice(pos).match(/^[0-9a-f]*/i)[0].length;
+    const frag = v.slice(start, end).toLowerCase();
+    const hits =
+      frag.length >= 3 && frag.length < 8 && inc.selectionEnd === pos
+        ? Object.keys(byHash)
+            .filter(h => h.startsWith(frag))
+            .slice(0, 10)
+        : [];
+    if (!hits.length) {
+      close();
+      return;
+    }
+    tok = { start, end };
+    pick = 0;
+    box.innerHTML = hits
+      .map(h => {
+        const q = byHash[h];
+        return `<li data-hash="${h}"><code>${h}</code> ${esc(`${q.wojewodztwo} ${q.school_year} ${q.stage} · zad. ${q.number}`)}</li>`;
+      })
+      .join("");
+    box.hidden = false;
+    mark();
+  };
+
+  // swap the fragment for the full hash + ", " (swallowing any separator already there),
+  // then re-filter + write the URL exactly as typing would
+  const accept = h => {
+    const head = `${inc.value.slice(0, tok.start)}${h}, `;
+    inc.value = head + inc.value.slice(tok.end).replace(/^[\s,]*/, "");
+    inc.setSelectionRange(head.length, head.length);
+    close();
+    inc.dispatchEvent(new Event("input"));
+  };
+  inc.addEventListener("input", show);
+  inc.addEventListener("blur", close);
+  inc.addEventListener("mousedown", close); // a click moves the caret off the fragment
+  inc.addEventListener("keydown", e => {
+    if (box.hidden) {
+      return;
+    }
+    const n = box.children.length;
+    if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+      pick = (pick + (e.key === "ArrowDown" ? 1 : n - 1)) % n;
+      mark();
+    } else if (e.key === "Enter" || e.key === "Tab") {
+      accept(box.children[pick].dataset.hash);
+    } else if (e.key === "Escape") {
+      close();
+      e.stopPropagation(); // only the list, not the global Escape closers
+    } else {
+      close(); // caret moves / edits: the input event reopens it if a fragment is still there
+      return;
+    }
+    e.preventDefault();
+  });
+
+  // mousedown, not click: preventDefault keeps focus in the box, so blur doesn't close it first
+  box.addEventListener("mousedown", e => {
+    e.preventDefault();
+    const li = e.target.closest("li");
+    if (li) {
+      accept(li.dataset.hash);
+    }
+  });
+}
+
 function wireSearch() {
   const replace = () => {
     writeUrl(false);
@@ -1230,6 +1317,7 @@ function init(data) {
 
   wireFacets();
   wireSearch();
+  wireIdSuggest();
   addEventListener("popstate", applyState);
   wirePagers();
   wireQlist();

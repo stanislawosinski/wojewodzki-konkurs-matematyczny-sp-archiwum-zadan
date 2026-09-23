@@ -1289,6 +1289,36 @@ select {
   resize: vertical;
 }
 
+/* "Pokaż id" autocomplete, floating under the box over the filters (see wireIdSuggest).
+   No top/left: an absolute box without offsets keeps its static spot, right under the textarea. */
+.idbox {
+  position: relative;
+}
+.id-suggest {
+  position: absolute;
+  z-index: 5;
+  width: 100%;
+  box-sizing: border-box;
+  background: var(--surface);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  list-style: none;
+  margin: 0.15rem 0 0;
+  padding: 0.15rem 0;
+  font-size: 0.75rem;
+  border: 1px solid #e2e2e2;
+  border-radius: 4px;
+}
+.id-suggest li {
+  padding: 0.15rem 0.4rem;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.id-suggest li.on {
+  background: hsl(var(--tint-h) 70% 92%);
+}
+
 /* the Postęp export/import textarea in the settings popup — same construction as #include */
 #progressIO {
   font-family: monospace;
@@ -2361,6 +2391,12 @@ body.hide-mental .mental-toggle {
   /* .infotip hardcodes color:#333 (dark on dark surface = invisible); lift it to the body's light text */
   html.dark .infotip {
     color: hsl(var(--tint-h) 15% 88%);
+  }
+  html.dark .id-suggest {
+    border-color: hsl(var(--tint-h) 20% 30%);
+  }
+  html.dark .id-suggest li.on {
+    background: hsl(var(--tint-h) 30% 25%);
   }
 
   /* semantic colours, lightened so they carry on the dark ground */
