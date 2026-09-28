@@ -111,6 +111,13 @@ function update() {
     countBase = new Set(kept);
   } else {
     matched = facet.matched;
+
+    // reviewing your own work: newest-marked first. d is day-granular, so same-day marks
+    // keep corpus order (stable sort); unmarked ones (a "nie" also ticked) have no d and sink.
+    if (selections.post.has("zrob") || selections.post.has("blad")) {
+      const d = new Map(matched.map(q => [q, Facets.progressDate(q.hash, q.dup, progressMarks)]));
+      matched.sort((a, b) => d.get(b).localeCompare(d.get(a)));
+    }
     countSel = selections;
     countGate = facet.gate;
     countBase = facet.hits; // the matched-set pass doubles as the shared count base

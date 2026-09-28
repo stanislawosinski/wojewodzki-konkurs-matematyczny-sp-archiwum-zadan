@@ -171,6 +171,24 @@
     return s;
   }
 
+  // Date ('YYYY-MM-DD') behind that status, for the newest-first Postęp sort: the own mark's
+  // date, else the newest among the marked duplicates (so a twin sorts beside the original);
+  // '' when unmarked.
+  function progressDate(hash, dup, marks) {
+    const own = marks.get(hash);
+    if (own?.s) {
+      return own.d || "";
+    }
+    let d = "";
+    for (const h of dup || []) {
+      const m = marks.get(h);
+      if (m?.s && m.d > d) {
+        d = m.d;
+      }
+    }
+    return d;
+  }
+
   // URL-fragment (de)serialization. Generic: no facet knowledge, so it stays pure/testable.
   //   obj = { key: [value, ...] }  <->  "key=value&key=value2&..." (URLSearchParams-encoded)
   function encodeHash(obj) {
@@ -191,5 +209,13 @@
     return o;
   }
 
-  return { matchedHashes, facetCounts, allFacetCounts, progressStatus, encodeHash, decodeHash };
+  return {
+    matchedHashes,
+    facetCounts,
+    allFacetCounts,
+    progressStatus,
+    progressDate,
+    encodeHash,
+    decodeHash
+  };
 });

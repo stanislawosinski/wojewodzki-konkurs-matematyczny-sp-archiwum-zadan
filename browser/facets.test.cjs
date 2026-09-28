@@ -7,6 +7,7 @@ const {
   facetCounts,
   allFacetCounts,
   progressStatus,
+  progressDate,
   encodeHash,
   decodeHash
 } = require("./facets.js");
@@ -163,5 +164,16 @@ assert.strictEqual(progressStatus("h9", ["h9", "h1", "h2"], marks), "blad"); // 
 assert.strictEqual(progressStatus("h9", ["h9", "h8"], marks), "nie"); // cluster wholly unmarked
 assert.strictEqual(progressStatus("h7", null, marks), "nie"); // a note alone is not a mark
 assert.strictEqual(progressStatus("h9", ["h9", "h7", "h1"], marks), "zrob"); // note-only dup skipped
+
+// --- progressDate: own mark's date > newest marked duplicate's date > ''.
+const dated = new Map([
+  ["d1", { s: "zrob", d: "2026-09-01" }],
+  ["d2", { s: "blad", d: "2026-09-20" }],
+  ["d3", { n: "notatka", d: "2026-09-30" }]
+]);
+assert.strictEqual(progressDate("d1", ["d1", "d2"], dated), "2026-09-01"); // own mark wins even if older
+assert.strictEqual(progressDate("d9", ["d9", "d1", "d2"], dated), "2026-09-20"); // newest duplicate
+assert.strictEqual(progressDate("d9", ["d9", "d3"], dated), ""); // note-only dup is not a mark
+assert.strictEqual(progressDate("d9", null, dated), ""); // unmarked, no cluster
 
 console.log("facets.test.cjs: all assertions passed");
