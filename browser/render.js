@@ -153,12 +153,13 @@ function buildFacetUI() {
 
     // the Postęp header carries its two actions, right-aligned like the Temat mode toggle:
     // "✓ widoczne" stamps the whole current sheet (wired in app.js, no confirmation — only
-    // unmarked questions change, so a slip is cheap to undo per question); ⇄ opens the
+    // unmarked questions change, so a slip is cheap to undo per question; enabled only in
+    // "Pokaż id" mode, see update(), so it can't stamp the whole bank); ⇄ opens the
     // native import/export popover (#progPop, index.html) — no JS, popovertarget does it
     const actions =
       f.key === "post"
         ? `<span class="prog-actions">` +
-          `<button type="button" class="prog-markall" title="Oznacz wszystkie zadania z aktualnej listy jako zrobione (✓); nadane już oznaczenia ✓/✗ zostają">✓ widoczne</button>` +
+          `<button type="button" class="prog-markall" disabled>✓ widoczne</button>` +
           `<button type="button" class="prog-xfer" popovertarget="progPop" title="Przenieś oznaczenia na inne urządzenie (eksport / import)">⇄</button>` +
           `</span>`
         : "";

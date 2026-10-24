@@ -1219,6 +1219,11 @@ select {
 .prog-actions button:hover {
   text-decoration: underline;
 }
+.prog-actions button:disabled {
+  opacity: 0.45;
+  cursor: default;
+  text-decoration: none;
+}
 /* specificity beats .sidebar input[type="text"] (font: inherit → 16px) so the small size sticks */
 .sidebar input[type="text"].topic-search {
   width: 100%;

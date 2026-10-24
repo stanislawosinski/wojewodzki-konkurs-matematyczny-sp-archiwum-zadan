@@ -183,6 +183,14 @@ function update() {
       `<button type="button" class="inc-clear topic-clear">(wyczyść filtry)</button>`; // topic-clear = the shared link look
   }
 
+  // "✓ widoczne" only over a "Pokaż id" worksheet: on a facet view one click could stamp
+  // thousands of questions
+  const markAll = document.querySelector(".prog-markall");
+  markAll.disabled = !useInc;
+  markAll.title = useInc
+    ? "Oznacz wszystkie zadania z aktualnej listy jako zrobione (✓); nadane już oznaczenia ✓/✗ zostają"
+    : "Dostępne tylko dla listy z „Pokaż id” — żeby nie oznaczyć przypadkiem całego zbioru";
+
   clearSearch.hidden = !search.value; // the "×" inside the search box
   clearSelBar.hidden = !selectedSet.size; // "Wyczyść zaznaczenie": only with a print selection
   shownCount = matched.length;
