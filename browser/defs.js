@@ -104,6 +104,7 @@ const TRAP_TYPE_LABELS = {
   rysunek: "Rysunek",
   "szczegol-bryly": "Szczegół bryły",
   zaokraglenie: "Zaokrąglenie",
+  "podwojne-liczenie": "Podwójne liczenie",
   inne: "Inne"
 };
 
@@ -213,6 +214,7 @@ const FACET_INFO = {
     rysunek: "Rysunek nie w skali albo łatwy do źle odczytania.",
     "szczegol-bryly": "Bryła bez pokrywy, grubość ścianek, wymiary zewnętrzne i wewnętrzne.",
     zaokraglenie: "„Z dokładnością do”, wartość dokładna a przybliżona.",
+    "podwojne-liczenie": "Coś policzone dwa razy: pary, część wspólna dwóch grup.",
     inne: "Haczyki spoza listy."
   },
   pamiec: {

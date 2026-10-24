@@ -1,0 +1,55 @@
+{
+ "rejonowy_2016_podkarpackie_q11": {
+  "sila": 2,
+  "types": [
+   "procent-podstawa",
+   "pozorna-wlasnosc"
+  ],
+  "note": "Kolejne obniżki o 20%, 30% i 50% się nie sumują, bo każda liczy się od nowej ceny"
+ },
+ "rejonowy_2016_podkarpackie_q13": {
+  "sila": 2,
+  "types": [
+   "procent-podstawa",
+   "pozorna-wlasnosc"
+  ],
+  "note": "Podwyżka o 1/10 liczy się od ceny już obniżonej, a nie od ceny początkowej"
+ },
+ "rejonowy_2016_podkarpackie_q9": {
+  "sila": 2,
+  "types": [
+   "procent-podstawa"
+  ],
+  "note": "Żeby odtworzyć cenę sprzed podwyżki, trzeba podzielić przez 1,1, a nie odjąć 10% nowej ceny"
+ },
+ "rejonowy_2016_podkarpackie_q16": {
+  "sila": 2,
+  "types": [
+   "plot-i-slupki"
+  ],
+  "note": "Łatwo pomylić się o jeden przy ustalaniu, którą z kolei liczbą dwucyfrową jest 100. cyfra"
+ },
+ "rejonowy_2016_podkarpackie_q19": {
+  "sila": 2,
+  "types": [
+   "plot-i-slupki",
+   "inne:rok-poczatkowy"
+  ],
+  "note": "Rok 2000, czyli pierwsze wspólne zawody, nie jest liczony do kolejnych spotkań"
+ },
+ "rejonowy_2016_podkarpackie_q20": {
+  "sila": 2,
+  "types": [
+   "pozorna-wlasnosc"
+  ],
+  "note": "Pole w skali 1:k zmienia się k² razy, a nie k razy"
+ },
+ "rejonowy_2016_podkarpackie_q17": {
+  "sila": 2,
+  "types": [
+   "znak",
+   "konwencja"
+  ],
+  "note": "Ujemna liczba mieszana −1 3/7 oznacza −(1+3/7), a nie −1+3/7"
+ }
+}

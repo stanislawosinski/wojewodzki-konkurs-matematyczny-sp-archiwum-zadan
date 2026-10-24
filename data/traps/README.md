@@ -22,7 +22,8 @@ potrzeba pomysłu, długi rachunek czy możliwość pomyłki rachunkowej to nie 
 Typy (zamknięty słownik; zadanie może mieć kilka; `inne:<nazwa>` dla przypadków spoza listy):
 `jednostki`, `o-co-pytaja`, `kierunek-relacji`, `procent-podstawa`, `zbior-liczb`,
 `wszystkie-przypadki`, `warunek-istnienia`, `kalendarz-czas`, `znak`, `pozorna-wlasnosc`,
-`konwencja`, `plot-i-slupki`, `rysunek`, `kwantyfikator`, `szczegol-bryly`, `zaokraglenie`.
+`konwencja`, `plot-i-slupki`, `rysunek`, `kwantyfikator`, `szczegol-bryly`, `zaokraglenie`,
+`podwojne-liczenie` (dodany po przebiegu rejonowym i wojewódzkim, gdzie powtarzał się jako `inne:`).
 Pełne opisy typów i przykłady kotwiczące są w promptach `dev/scripts/traps.workflow.mjs`.
 
 Generuje `dev/scripts/traps.workflow.mjs`: Opus klasyfikuje arkusz (z dowodem — błędna droga
@@ -31,8 +32,10 @@ wątpliwości niżej; zapisywana jest siła z weryfikacji.
 
 ## Stan (2026-10-24)
 
-- Pokryte: wszystkie 126 arkuszy szkolnych (2210 zadań): 119 × siła 3, 651 × siła 2.
-  Rejonowe i wojewódzkie — jeszcze nie.
+- Pokryte: wszystkie 433 arkusze (7632 zadania).
+  - szkolne (126 arkuszy, 2210 zadań): 119 × siła 3, 651 × siła 2,
+  - rejonowe (147 arkuszy, 2706 zadań): 110 × siła 3, 813 × siła 2,
+  - wojewódzkie (160 arkuszy, 2716 zadań): 114 × siła 3, 836 × siła 2.
 - Walidacja na pilocie (11 arkuszy): 8 z 8 znanych haczyków z dziennika ucznia oznaczonych,
   kontrola negatywna (błąd umiejętności) bez flagi.
 - Znana luka: w `szkolny_2018-2019_slaskie` trzy zgłoszenia w blokach P/F (q10, q11, q14)

@@ -56,6 +56,16 @@ heavy lifting, in this order:
     in `data/questions/` beside the answers they score. Only what a key actually prints is
     recorded, so a bare answer table yields no rubric. Drives the *Punktacja* filter and shows
     under the answer in the reveal and on the printed key.
+12. **Trap pass** — every question read once more for a *haczyk*: a feature of the wording or the
+    answer choices on which a pupil who knows the required maths still loses the point (an
+    overlooked condition, the wrong reference quantity, units in the choices, a misleading-looking
+    property, an off-by-one). One Opus agent per paper flags candidates, each with evidence — the
+    wrong path and the distractor it leads to — and a second Opus rates every flag on its own,
+    keeping only strength 3 (catches a careful pupil) and 2 (typical pitfall, avoidable with care);
+    plain slips are dropped. Each flag carries types from a closed 17-type vocabulary and a Polish
+    note naming the trap. Validated on a pupil's error log before the full run. Judgements live in
+    `data/traps/` and are merged at build time (see [`data/traps/README.md`](data/traps/README.md));
+    they drive the *Haczyk* / *Rodzaj haczyka* filters and the 🪤 / ⚠️ markers, never printed.
 
 Humans set the conventions, reviewed the redrawn figures, spot-checked questions, and made the
 structural decisions. The full reproducible procedure is preserved in

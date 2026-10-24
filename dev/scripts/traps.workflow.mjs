@@ -28,6 +28,7 @@ const TYPES = `
 - kwantyfikator — "co najmniej", "dokładnie", "zawsze" vs "może", gwarancja/pewność.
 - szczegol-bryly — bryła bez pokrywy, grubość ścianek, wymiary zewnętrzne vs wewnętrzne.
 - zaokraglenie — "z dokładnością do", wartość dokładna vs przybliżona (7/3 vs 2,33).
+- podwojne-liczenie — coś policzone dwa razy: pary (A–B i B–A), część wspólna dwóch grup (włączenia i wyłączenia).
 - inne:<krótka-nazwa> — haczyk spoza listy; nie wciskaj na siłę, nazwij nowy.`
 
 const SCALE = `HACZYK to cecha treści lub odpowiedzi, na której uczeń, który ZNA matematykę potrzebną w zadaniu, traci punkt przez czytanie, przeoczony warunek albo znaną pułapkę. Trudność, potrzeba pomysłu, długi rachunek czy możliwość pomyłki rachunkowej to NIE są haczyki.
@@ -92,6 +93,7 @@ ${TYPES}
 
 Zasady:
 - Rozwiąż każde zadanie przed oceną. Bloki prawda/fałsz oceniaj zdanie po zdaniu (numer zdania w wrong_answer).
+- id = dokładnie pole id zadania z pliku, bez żadnych dopisków (numer zdania P/F idzie do wrong_answer, nie do id). Jedno zgłoszenie na zadanie.
 - Każda flaga musi mieć dowód: wrong_path i wrong_answer (w zamkniętym — litera wariantu, do którego prowadzi błąd).
 - Zanim zgłosisz, zapytaj się: czy uważny uczeń znający metodę realnie by tu wpadł? Jeśli to tylko nieuwaga rachunkowa — siła 1, nie zgłaszaj.
 - note: po polsku, ≤110 znaków, nazywa haczyk, nie podaje wyniku.
