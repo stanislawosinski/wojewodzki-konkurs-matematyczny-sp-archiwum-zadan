@@ -762,6 +762,18 @@ select {
 .hide-mental .mmark {
   display: none;
 }
+/* "Haczyk" marker (🪤 podstępny / ⚠️ typowy), next to the mental one; the glyph opens the trap
+   note in the .infotip popover. Screen-only, toggled by "Znacznik haczyka" (hide-trap) and never
+   printed — on a worksheet it would give the trap away (see @media print). */
+.tmark {
+  font-size: 0.8rem;
+  line-height: 1;
+  user-select: none;
+  cursor: pointer;
+}
+.hide-trap .tmark {
+  display: none;
+}
 
 /* the "≈N min" estimate inside the header id parens, toggled by "Szacowany czas"
    (screen: hide-estmin, print: print-hide-estmin — see @media print) */
@@ -1764,6 +1776,10 @@ body.hide-mental .mental-toggle {
     display: inline-block;
   }
   .print-hide-mental .mmark {
+    display: none;
+  }
+  /* the "Haczyk" marker never prints, whatever the screen toggle says */
+  .tmark {
     display: none;
   }
   /* the "≈N min" estimate: same independent screen/print pair */

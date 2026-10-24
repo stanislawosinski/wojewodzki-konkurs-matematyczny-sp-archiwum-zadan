@@ -92,10 +92,15 @@ is the short path from "I need twenty questions on the Pythagorean theorem" to a
 
 - **Filter** in the sidebar — topic (matching *any* or *every* selected topic), stage, year,
   voivodeship, points, question type, school type, *W pamięci* (head-solvable: *od ręki* /
-  *z pomysłem*) — plus full-text search over the question text.
+  *z pomysłem*), *Haczyk* (trap strength) and *Rodzaj haczyka* (trap type) — plus full-text
+  search over the question text.
 - **Practise in your head** — head-solvable questions carry a 🧠 / 💡 marker; click it for a hint
   on where to start that never gives the result away. The marker is a display flag: the box-button
   in the left gutter turns it off (or on) per question, and that override travels in the URL.
+- **Mind the traps** — questions with a reading/condition trap carry a 🪤 (catches a careful
+  pupil) or ⚠️ (typical pitfall) marker; click it for a note naming the trap, never the result.
+  Screen-only, so a printed sheet doesn't give it away. School stage only so far (see
+  [`data/traps/README.md`](data/traps/README.md)).
 - **Spot the repeats** — questions that recur across years and voivodeships carry a ×N chip
   (exact reprint) or a ~N chip (same problem, different numbers); hover lists the other sheets,
   a click shows the whole cluster, and the *Powtórki* filter selects questions that have a

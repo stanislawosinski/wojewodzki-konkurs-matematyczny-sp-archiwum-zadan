@@ -635,8 +635,9 @@ function wireQlist() {
       cb.dispatchEvent(new Event("change", { bubbles: true })); // reuse the selection handler
       return;
     }
-    // "W pamięci" marker: click the glyph for its hint, in the same popover as the facet ⓘ icons
-    const mark = e.target.closest(".mmark[data-info]");
+    // "W pamięci" / "Haczyk" marker: click the glyph for its hint or trap note, in the same
+    // popover as the facet ⓘ icons
+    const mark = e.target.closest(".mmark[data-info], .tmark");
     if (mark) {
       showInfotip(mark, mark.dataset.info);
       return;
@@ -1149,6 +1150,7 @@ function wireSettings() {
     ["metaTopics", "hide-topics"],
     ["metaCzas", "hide-estmin"],
     ["metaMental", "hide-mental"],
+    ["metaTrap", "hide-trap"],
     ["printTitle", "print-hide-title"],
     ["printWoj", "print-hide-region"],
     ["printRok", "print-hide-year"],
@@ -1238,7 +1240,11 @@ function wireSettings() {
     if (!settingsPop.hidden && !e.target.closest(".settings")) {
       settingsPop.hidden = true;
     }
-    if (!infotip.hidden && !e.target.closest(".info-i, .mmark") && !e.target.closest(".infotip")) {
+    if (
+      !infotip.hidden &&
+      !e.target.closest(".info-i, .mmark, .tmark") &&
+      !e.target.closest(".infotip")
+    ) {
       hideInfotip();
     }
     if (noteFor !== null && !e.target.closest("#notePop, .prognote")) {

@@ -73,6 +73,40 @@ const MENTAL_TITLE = {
   pomysl: "W pamięci — jedno spostrzeżenie i zadanie się zwija"
 };
 
+// "Haczyk": per-question trap judgements (q.trap_sila / q.trap_types / q.trap_note, from the
+// data/traps sidecars). Strength 3 catches a pupil who knows the method and computes carefully,
+// 2 is the question's typical pitfall; trap_sila 0 = paper judged, no trap, and absent = paper not
+// judged yet (regional/voivodeship so far), so "bez" never vouches for an unjudged question.
+// Values are wire format (URL hash keys "haczyk" / "htyp"). The glyph is the screen-only marker.
+const TRAP_LABELS = { 3: "Podstępny", 2: "Typowy", bez: "Bez haczyka" };
+const TRAP_GLYPH = { 3: "🪤", 2: "⚠️" };
+const TRAP_TITLE = {
+  3: "Haczyk — łapie nawet ucznia, który zna metodę i liczy uważnie",
+  2: "Typowa pułapka — do uniknięcia zwykłą starannością"
+};
+
+// the campaign's closed type vocabulary, most frequent first (also the facet order); anything
+// else (the "inne:<name>" escapes and stray off-list names) is lumped into "inne"
+const TRAP_TYPE_LABELS = {
+  "o-co-pytaja": "O co pytają",
+  "pozorna-wlasnosc": "Pozorna własność",
+  "procent-podstawa": "Podstawa procentu",
+  jednostki: "Jednostki",
+  "plot-i-slupki": "Płot i słupki",
+  "warunek-istnienia": "Warunek istnienia",
+  konwencja: "Konwencja zapisu",
+  "zbior-liczb": "Rodzaj liczb",
+  "kierunek-relacji": "Kierunek relacji",
+  "wszystkie-przypadki": "Wszystkie przypadki",
+  znak: "Znak",
+  kwantyfikator: "Kwantyfikator",
+  "kalendarz-czas": "Kalendarz i czas",
+  rysunek: "Rysunek",
+  "szczegol-bryly": "Szczegół bryły",
+  zaokraglenie: "Zaokrąglenie",
+  inne: "Inne"
+};
+
 // "Postęp": the user's own ✓/✗ marks. Facet values are wire format (URL hash key "post");
 // the marks themselves live in localStorage (progressMarks, state.js), never in the URL.
 // The chip cycles none → zrob → blad → none.
@@ -150,6 +184,36 @@ const FACET_INFO = {
     zrob: "Zadania oznaczone ✓. Dokładny duplikat zrobionego zadania (chip ×N) też liczy się jako zrobiony.",
     blad: "Zadania oznaczone ✗ — zrobione z błędem, warte ponownego podejścia.",
     nie: "Zadania bez oznaczenia ✓/✗."
+  },
+  haczyk: {
+    _: "Zadania z haczykiem: cechą treści lub odpowiedzi, na której traci punkt nawet uczeń, który zna potrzebną matematykę — przez czytanie, przeoczony warunek albo znaną pułapkę. Ocenę wydała AI. Przy zadaniu jest 🪤/⚠️; kliknięcie pokazuje, na czym polega haczyk (bez wyniku). Na razie tylko etap szkolny.",
+    3: "Łapie nawet ucznia, który zna metodę i liczy uważnie — pułapka siedzi w treści, warunku albo pojęciu.",
+    2: "Typowa pułapka tego zadania, do uniknięcia zwykłą starannością.",
+    bez: "Zadania ocenione, w których AI nie znalazła haczyka. Nie obejmuje etapów jeszcze nieocenionych."
+  },
+  htyp: {
+    _: "Na czym polega haczyk; zadanie może mieć kilka rodzajów.",
+    "o-co-pytaja":
+      "Pytanie dotyczy innej osoby, chwili lub wielkości niż ta, którą naturalnie się liczy.",
+    "pozorna-wlasnosc":
+      "Coś wygląda na prawdziwe, a nie jest — np. liczba „wyglądająca na pierwszą”.",
+    "procent-podstawa":
+      "Od czego liczy się procent: punkty procentowe, „o” czy „do”, stara czy nowa wartość.",
+    jednostki: "Odpowiedź w innych jednostkach niż dane albo naturalny wynik.",
+    "plot-i-slupki": "Pomyłka o jeden: odcinki a punkty, liczenie „włącznie”.",
+    "warunek-istnienia":
+      "Kandydat na wynik nie spełnia warunku zadania — np. nierówności trójkąta.",
+    konwencja: "Konkretna konwencja zapisu lub liczenia — np. liczba cyfr k·10ⁿ, cyfry okresu.",
+    "zbior-liczb": "Rodzaj liczb zmienia odpowiedź: całkowite, naturalne, różne, cyfry.",
+    "kierunek-relacji": "Łatwo odwrócić relację: „razy krótszy”, „o ile starszy”, kto od kogo.",
+    "wszystkie-przypadki": "Kilka rozwiązań lub konfiguracji — łatwo podać tylko jedno.",
+    znak: "Minus przed nawiasem, potęga liczby ujemnej.",
+    kwantyfikator: "„Co najmniej”, „dokładnie”, „zawsze” czy „może”.",
+    "kalendarz-czas": "Rok przestępny, długości miesięcy, zmiana czasu.",
+    rysunek: "Rysunek nie w skali albo łatwy do źle odczytania.",
+    "szczegol-bryly": "Bryła bez pokrywy, grubość ścianek, wymiary zewnętrzne i wewnętrzne.",
+    zaokraglenie: "„Z dokładnością do”, wartość dokładna a przybliżona.",
+    inne: "Haczyki spoza listy."
   },
   pamiec: {
     _: "Zadania do policzenia bez kartki. Każde zadanie zostało w tym celu rozwiązane przez AI, która oceniła, czy da się je zrobić w głowie — nie decyduje o tym ani długość treści, ani wielkość liczb. Przy zadaniu jest 🧠/💡 i podpowiedź, od czego zacząć.",
@@ -235,6 +299,20 @@ const FACETS = [
     values: q => (q.mental ? [q.mental] : []),
     order: ["wprost", "pomysl"],
     labelFor: v => MENTAL_LABELS[v] || v
+  },
+  {
+    key: "haczyk",
+    label: "Haczyk",
+    values: q => (q.trap_sila == null ? [] : [q.trap_sila ? String(q.trap_sila) : "bez"]),
+    order: ["3", "2", "bez"],
+    labelFor: v => TRAP_LABELS[v] || v
+  },
+  {
+    key: "htyp",
+    label: "Rodzaj haczyka",
+    values: q => [...new Set((q.trap_types || []).map(t => (TRAP_TYPE_LABELS[t] ? t : "inne")))],
+    order: Object.keys(TRAP_TYPE_LABELS),
+    labelFor: v => TRAP_TYPE_LABELS[v] || v
   },
   {
     key: "sol",

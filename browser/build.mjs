@@ -66,10 +66,12 @@ try {
 // questions with a reading/condition trap of strength 2 or 3 (see data/traps/README.md). Merged
 // here into `trap_sila`/`trap_types`/`trap_note`. Missing dir → no trap fields.
 const traps = {};
+const trapFiles = new Set(); // judged papers: their unflagged questions get trap_sila 0
 const badTraps = [];
 try {
   const trapsDir = fileURLToPath(new URL("../data/traps/", import.meta.url));
   for (const f of readdirSync(trapsDir).filter(f => f.endsWith(".json"))) {
+    trapFiles.add(f);
     for (const [id, v] of Object.entries(JSON.parse(readFileSync(trapsDir + f, "utf8")))) {
       if (v.sila !== 2 && v.sila !== 3) {
         badTraps.push(`${f} ${id}: sila ${v.sila}`);
@@ -203,7 +205,9 @@ for (const f of readdirSync(dataDir)
             trap_types: traps[q.id].types,
             trap_note: traps[q.id].note
           }
-        : {}), // reading/condition trap (data/traps sidecars)
+        : trapFiles.has(f)
+          ? { trap_sila: 0 }
+          : {}), // reading/condition trap (data/traps sidecars); 0 = judged, no trap
       ...(estMin[q.id] ? { est_min: estMin[q.id] } : {}), // focused-work time bucket (data/time sidecars)
       ...(solutions[q.id] && !q.answer?.solution_html && !q.answer?.model?.solution_html
         ? { sol_ai: solutions[q.id] }

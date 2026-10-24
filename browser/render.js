@@ -536,6 +536,17 @@ function mentalMarkHtml(q) {
   return `<span class="mmark" title="${esc(title)}"${info}>${MENTAL_GLYPH[lvl]}</span>`;
 }
 
+// The 🪤/⚠️ trap marker in the question header; clicking it opens the note in the shared ⓘ
+// popover, like the 💡 hint. The note names the trap (never the result), so it is click-only, and
+// the marker is screen-only (app.css @media print) — on a printed sheet it would give it away.
+function trapMarkHtml(q) {
+  if (!q.trap_sila) {
+    return "";
+  }
+  const title = `${TRAP_TITLE[q.trap_sila]} — kliknij, aby zobaczyć, na czym polega`;
+  return `<span class="tmark" title="${esc(title)}" data-info="${esc(q.trap_note)}">${TRAP_GLYPH[q.trap_sila]}</span>`;
+}
+
 const mentalBtnTitle = q =>
   mentalLevel(q)
     ? "Znacznik „w pamięci” włączony — kliknij, aby zdjąć go z tego zadania"
@@ -795,6 +806,7 @@ function renderQuestion(q, seq) {
     `<div class="qhead"><span class="qnum">Zadanie ${seq ?? q.number}.</span>` +
       `<span class="qid">(${q.points}p, ${q.est_min ? `<span class="estmin">≈${q.est_min} min, </span>` : ""}<span class="hash" title="kliknij, aby skopiować id">${q.hash}</span>)</span>` +
       mentalMarkHtml(q) +
+      trapMarkHtml(q) +
       dupMarkHtml(q) +
       simMarkHtml(q) +
       progMarkHtml(q) +
