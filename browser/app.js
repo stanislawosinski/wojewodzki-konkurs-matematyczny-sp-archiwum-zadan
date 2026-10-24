@@ -364,7 +364,8 @@ function wireFacets() {
   // Postęp export/import (the ⇄ popover): the ✓/✗ marks as JSON in a textarea — the
   // lifeboat for moving progress between devices (localStorage is per-browser). Import
   // merges: pasted marks win per question, everything else is kept; malformed entries are
-  // dropped, not imported.
+  // dropped, not imported. Ctrl/⌘+click replaces instead (after a confirm), the only way
+  // to drop marks the other device no longer has.
   $("progExport").onclick = e => {
     syncProgressFromStorage(); // export the freshest union, other tabs' marks included
     const ta = $("progressIO");
@@ -375,19 +376,34 @@ function wireFacets() {
     const n = progressMarks.size;
     $("progIOStatus").textContent = `Skopiowano ${n} ${pluralMarks(n)} do schowka.`;
   };
-  $("progImport").onclick = () => {
-    let o = null;
+  const parsePasted = () => {
     try {
-      o = JSON.parse($("progressIO").value);
+      const o = JSON.parse($("progressIO").value);
+      return o && typeof o === "object" && !Array.isArray(o) ? o : null;
     } catch (_e) {
-      // fall through to the format complaint below
+      return null;
     }
-    if (!o || typeof o !== "object" || Array.isArray(o)) {
+  };
+  $("progImport").onclick = e => {
+    const replace = e.ctrlKey || e.metaKey;
+    const o = parsePasted();
+    if (!o) {
       $("progIOStatus").textContent =
         "Nieprawidłowy format — wklej tu to, co skopiował przycisk „Eksportuj”.";
       return;
     }
     syncProgressFromStorage(); // merge into the freshest state, not this tab's stale copy
+    if (replace) {
+      const k = progressMarks.size;
+      if (
+        !confirm(
+          `Zastąpić wszystkie obecne oznaczenia (${k}) wklejonymi? Tej operacji nie można cofnąć.`
+        )
+      ) {
+        return;
+      }
+      progressMarks.clear();
+    }
     let n = 0;
     for (const h of Object.keys(o)) {
       const r = progressRecord(o[h]);
@@ -396,7 +412,8 @@ function wireFacets() {
         n++;
       }
     }
-    $("progIOStatus").textContent = `Wczytano ${n} ${pluralMarks(n)}.`;
+    $("progIOStatus").textContent =
+      `${replace ? "Zastąpiono — wczytano" : "Wczytano"} ${n} ${pluralMarks(n)}.`;
     saveProgress();
     rebuildProgressIndex();
     update();
