@@ -155,6 +155,7 @@ konkurs-mat/
     categories.json       # topic catalog: categories → leaves
     suspected_key_errors.tsv
     mental/    *.json     # "W pamięci" judgements, one sidecar per test; merged by build.mjs
+    traps/     *.json     # "Haczyki" trap judgements (strength 2–3), one sidecar per test; merged by build.mjs
     solutions/ *.json     # AI-written derivations, one sidecar per test; merged by build.mjs
     time/      *.json     # solving-time estimates (est_min), one sidecar per test; merged by build.mjs
     dups/                 # near-duplicate verdicts (near-dups.tsv); merged by build.mjs

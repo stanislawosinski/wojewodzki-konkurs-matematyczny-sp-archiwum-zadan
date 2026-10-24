@@ -62,6 +62,29 @@ try {
 } catch {
   /* no mental sidecars yet */
 }
+// data/traps/<data file>.json: the "Haczyki" campaign's sidecars, {id: {sila, types, note}} for
+// questions with a reading/condition trap of strength 2 or 3 (see data/traps/README.md). Merged
+// here into `trap_sila`/`trap_types`/`trap_note`. Missing dir → no trap fields.
+const traps = {};
+const badTraps = [];
+try {
+  const trapsDir = fileURLToPath(new URL("../data/traps/", import.meta.url));
+  for (const f of readdirSync(trapsDir).filter(f => f.endsWith(".json"))) {
+    for (const [id, v] of Object.entries(JSON.parse(readFileSync(trapsDir + f, "utf8")))) {
+      if (v.sila !== 2 && v.sila !== 3) {
+        badTraps.push(`${f} ${id}: sila ${v.sila}`);
+        continue;
+      }
+      traps[id] = v;
+    }
+  }
+} catch {
+  /* no trap sidecars yet */
+}
+if (badTraps.length) {
+  console.error(`invalid "Haczyki" strength(s) — expected 2/3:\n  ${badTraps.join("\n  ")}`);
+  process.exit(1);
+}
 if (badMental.length) {
   console.error(
     `unknown "W pamięci" level(s) — expected wprost/pomysl:\n  ${badMental.join("\n  ")}`
@@ -174,6 +197,13 @@ for (const f of readdirSync(dataDir)
           }
         : {}), // flagged in suspected_key_errors.tsv
       ...(mental[q.id] ? { mental: mental[q.id].level, mental_hint: mental[q.id].hint } : {}), // judged solvable in your head (data/mental sidecars)
+      ...(traps[q.id]
+        ? {
+            trap_sila: traps[q.id].sila,
+            trap_types: traps[q.id].types,
+            trap_note: traps[q.id].note
+          }
+        : {}), // reading/condition trap (data/traps sidecars)
       ...(estMin[q.id] ? { est_min: estMin[q.id] } : {}), // focused-work time bucket (data/time sidecars)
       ...(solutions[q.id] && !q.answer?.solution_html && !q.answer?.model?.solution_html
         ? { sol_ai: solutions[q.id] }
