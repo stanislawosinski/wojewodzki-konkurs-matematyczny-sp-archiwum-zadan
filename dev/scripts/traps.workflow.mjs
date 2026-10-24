@@ -106,7 +106,7 @@ ${SCALE}
 Zgłoszenia:
 ${JSON.stringify(claims, null, 1)}
 
-Dla każdego zgłoszenia przeczytaj zadanie i sam zdecyduj o sile, porównując z przykładami wzorcowymi. Pytanie kluczowe: czy pułapka siedzi w treści/warunku/pojęciu (3), jest typową pułapką tego zadania do uniknięcia starannością (2), czy to zwykła pomyłka rachunkowa możliwa wszędzie (1)? Gdy masz wątpliwość między dwiema siłami, wybierz niższą. Popraw typy, jeśli trzeba. Zwróć dokładnie jeden werdykt na każde zgłoszone id (bez przyrostków w id).`
+Dla każdego zgłoszenia przeczytaj zadanie i sam zdecyduj o sile, porównując z przykładami wzorcowymi. Pytanie kluczowe: czy pułapka siedzi w treści/warunku/pojęciu (3), jest typową pułapką tego zadania do uniknięcia starannością (2), czy to zwykła pomyłka rachunkowa możliwa wszędzie (1)? Gdy masz wątpliwość między dwiema siłami, wybierz niższą. Popraw typy, jeśli trzeba — wyłącznie ze słownika powyżej; typ spoza słownika zapisuj tylko jako inne:<nazwa>, nigdy jako gołą nazwę. Zwróć dokładnie jeden werdykt na każde zgłoszone id (bez przyrostków w id).`
 
 const results = await pipeline(
   args,
