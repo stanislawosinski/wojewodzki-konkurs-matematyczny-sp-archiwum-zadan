@@ -39,9 +39,10 @@ blisko „przeciętnego zadania w banku”. Odchylenie składu panelu od banku p
 o ok. 0,04 logitu (zaokrąglenia przy 36 warstwach). Zadania panelu służą też jako
 kotwice w kolejnych przebiegach.
 
-`pct` i `pct_etap` liczone są względem **ocenionej puli**. Dla etapu rejonowego to cały etap;
-dla szkolnego i wojewódzkiego — Wielkopolska i zadania panelu, więc tam percentyle nie są
-jeszcze reprezentatywne dla całego banku.
+`pct` i `pct_etap` liczone są względem **ocenionej puli** — od przebiegów z 2026-11-21 to cały
+bank (wszystkie nieanulowane zadania z kluczem lub potwierdzoną odpowiedzią). Kontrola panelu:
+średnia całego ocenionego banku wyszła +0,14 przy zerze w średniej panelu, czyli w granicach
+błędu losowania 150 zadań (±0,3).
 
 ## Znane skrzywienia
 
@@ -105,8 +106,9 @@ repo). Shardy muszą być zbudowane (`cd browser && node build.mjs`), bo przygot
 
 **Koszt** (Opus, 2026-11-21): ~110 tys. tokenów na sędziego (50 piątek), czyli ~4,5 tys. na
 zadanie przy 8 wystąpieniach; 16 sędziów naraz, ~2,5 min na sędziego — 99 sędziów (2463
-zadania) zajęło 13 minut i 11,1 mln tokenów. Do oceny zostały szkolne i wojewódzkie spoza
-Wielkopolski (~4400 zadań, ~20 mln tokenów).
+zadania) zajęło 13 minut i 11,1 mln tokenów. Bank jest oceniony w całości — nowe zadania
+(kolejne roczniki) to przebieg z `--stage …` na samych nowych arkuszach, rzędu 1 sędziego na
+~12 zadań.
 
 ## Przebiegi (wersja skali 1)
 
@@ -117,13 +119,17 @@ Wielkopolski (~4400 zadań, ~20 mln tokenów).
 | 2026-11-21 | panel odniesienia (cały kraj), z kotwicami wielkopolskimi | 12 | 139 (+11 już ocenionych) |
 | 2026-11-21 | pilot Sonnet / Haiku (nie wchodzi do skali) | 4 + 4 | 196 |
 | 2026-11-21 | rejonowe z całego kraju (bez wielkopolskich), 4 nowe + 1 kotwica w piątce | 99 | 2463 (+34 przedruki) |
+| 2026-11-21 | wojewódzkie z całego kraju (skrypty z „Jak ocenić kolejne zadania”) | 98 | 2441 (+74 przedruki) |
+| 2026-11-21 | szkolne z całego kraju | 79 | 1974 (+69 przedruków) |
 
-Razem 3131 zadań (w tym 34 przedruki z wynikiem przeniesionym z oryginału, `rankings/aliasy.json`),
-65 660 porównań parami. Rzetelność (połówki sędziów, Spearman–Brown): 0,96 / 0,95 / 0,98 / 0,95
-dla czterech przebiegów; powtórzone piątki u dwóch sędziów — Spearman 0,79. Dołożenie rejonowych
-z kraju nie ruszyło wcześniejszych 634 zadań (r = 0,993, przesunięcie średnio 0,04 logitu).
+Razem 7689 zadań — cały bank poza anulowanymi (w tym 177 przedruków z wynikiem przeniesionym
+z oryginału, `rankings/aliasy.json`), 154 160 porównań parami, 308 sędziów. Rzetelność (połówki
+sędziów, Spearman–Brown): 0,96 / 0,95 / 0,98 / 0,95 / 0,95 / 0,95 dla kolejnych przebiegów;
+powtórzone piątki u dwóch sędziów — Spearman 0,79. Każdy kolejny przebieg zostawiał wcześniejsze
+zadania na miejscu: r = 0,993 / 0,997 / 0,999, przesunięcie średnio 0,04 / 0,02 / 0,01 logitu.
+Średnie etapów: szkolny −0,53, rejonowy −0,04, wojewódzki +0,88.
 
-Pokrycie: wszystkie rejonowe z kluczem lub potwierdzoną odpowiedzią, wszystkie wielkopolskie,
-panel. Szkolne i wojewódzkie spoza Wielkopolski — tylko zadania panelu.
+Pokrycie: wszystkie nieanulowane zadania banku (każde ma klucz albo potwierdzoną odpowiedź
+modelu).
 Zgodność z oficjalnymi wynikami (jedyny dostępny rok, 2024/25): rejonowy i wojewódzki
 2024/25 — najłatwiejsze w swoich etapach i według skali, i według odsetka zakwalifikowanych.
