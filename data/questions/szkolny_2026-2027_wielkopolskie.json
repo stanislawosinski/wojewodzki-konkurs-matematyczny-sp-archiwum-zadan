@@ -1,0 +1,800 @@
+{
+  "source_file": "szkolny/2026-2027_wielkopolskie.pdf",
+  "answers_file": "szkolny/2026-2027_wielkopolskie_answers.pdf",
+  "competition": "Wojewódzki Konkurs Matematyczny dla uczniów szkół podstawowych województwa wielkopolskiego",
+  "school_type": "podstawowa",
+  "stage": "szkolny",
+  "wojewodztwo": "wielkopolskie",
+  "school_year": "2026/2027",
+  "date": null,
+  "total_questions": 20,
+  "max_points": 30,
+  "questions": [
+    {
+      "id": "szkolny_2026-2027_wielkopolskie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "ułamki"
+      ],
+      "prompt_html": "<p>Na osi liczbowej liczba równa wartości wyrażenia <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>−</mo><mfrac><mn>7</mn><mn>12</mn></mfrac><mo>+</mo><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mn>8</mn></mfrac></math> znajduje się między liczbami:</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "0,5 i 0,6"
+        },
+        {
+          "label": "B",
+          "html": "0,6 i 0,7"
+        },
+        {
+          "label": "C",
+          "html": "0,7 i 0,8"
+        },
+        {
+          "label": "D",
+          "html": "0,8 i 0,9"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": null,
+        "solution_html": null,
+        "model": {
+          "answer": "B",
+          "by": "opus+sonnet",
+          "agrees": null,
+          "corroborated": true,
+          "solution_html": "<p>1 − 7/12 + 1/3 − 1/8 = (24 − 14 + 8 − 3)/24 = 15/24 = 0,625, czyli między 0,6 a 0,7.</p>"
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026-2027_wielkopolskie_q2",
+      "number": 2,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "zmiany procentowe",
+        "procenty"
+      ],
+      "prompt_html": "<p>W pewnym mieście temperatura przez 120 dni w roku była poniżej 0°C. Pięć lat temu takich dni było o 40% mniej, a w zeszłym roku było ich o 25% więcej niż pięć lat temu. Ile dni w tym mieście w zeszłym roku było z temperaturą poniżej 0°C?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "72"
+        },
+        {
+          "label": "B",
+          "html": "90"
+        },
+        {
+          "label": "C",
+          "html": "96"
+        },
+        {
+          "label": "D",
+          "html": "108"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": null,
+        "solution_html": null,
+        "model": {
+          "answer": "B",
+          "by": "opus+sonnet",
+          "agrees": null,
+          "corroborated": true,
+          "solution_html": "<p>Pięć lat temu: 120 · 0,6 = 72 dni. W zeszłym roku: 72 · 1,25 = 90 dni.</p>"
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026-2027_wielkopolskie_q3",
+      "number": 3,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "reszta z dzielenia",
+        "podzielność"
+      ],
+      "prompt_html": "<p>Ile jest liczb dwucyfrowych podzielnych przez 8, które przy dzieleniu przez 9 dają resztę 7?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "4"
+        },
+        {
+          "label": "B",
+          "html": "3"
+        },
+        {
+          "label": "C",
+          "html": "2"
+        },
+        {
+          "label": "D",
+          "html": "1"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": null,
+        "solution_html": null,
+        "model": {
+          "answer": "C",
+          "by": "opus+sonnet",
+          "agrees": null,
+          "corroborated": true,
+          "solution_html": "<p>Liczba podzielna przez 8, dająca resztę 7 z dzielenia przez 9, ma postać 16 + 72k. Liczby dwucyfrowe tej postaci to 16 i 88, czyli są 2.</p>"
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026-2027_wielkopolskie_q4",
+      "number": 4,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "NWW / NWD",
+        "kalendarz i czas"
+      ],
+      "prompt_html": "<p>W parku rozrywki działają trzy atrakcje, których pełne cykle trwają odpowiednio: 1 godzinę 48 minut, 2 godziny 24 minuty oraz 3 godziny. Po zakończeniu każdego cyklu dana atrakcja natychmiast rozpoczyna kolejny cykl. W pewną sobotę, 6 lipca, o godzinie 9:30 wszystkie trzy atrakcje jednocześnie rozpoczęły swoje cykle. Kiedy po raz pierwszy ponownie rozpoczną je jednocześnie?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "sobota 6 lipca, godz. 21:30"
+        },
+        {
+          "label": "B",
+          "html": "niedziela 7 lipca, godz. 09:30"
+        },
+        {
+          "label": "C",
+          "html": "niedziela 7 lipca, godz. 21:30"
+        },
+        {
+          "label": "D",
+          "html": "poniedziałek 8 lipca, godz. 09:30"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": null,
+        "solution_html": null,
+        "model": {
+          "answer": "C",
+          "by": "opus+sonnet",
+          "agrees": null,
+          "corroborated": true,
+          "solution_html": "<p>Cykle trwają 108, 144 i 180 min. NWW = 2<sup>4</sup>·3<sup>3</sup>·5 = 2160 min = 36 h. 9:30 w sobotę + 36 h = niedziela, 21:30.</p>"
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026-2027_wielkopolskie_q5",
+      "number": 5,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "podobieństwo i skala",
+        "zamiana jednostek",
+        "pole i obwód"
+      ],
+      "prompt_html": "<p>Na planie wykonanym w skali 1 : 10 000 prostokątna działka ma wymiary 2,4 cm × 3,5 cm. Działkę powiększono, dołączając do niej, wzdłuż całego jednego z dłuższych boków, prostokątny pas terenu o powierzchni 0,7 ha. Jaką szerokość ma dołączony pas terenu w rzeczywistości?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "10 m"
+        },
+        {
+          "label": "B",
+          "html": "25 m"
+        },
+        {
+          "label": "C",
+          "html": "50 m"
+        },
+        {
+          "label": "D",
+          "html": "20 m"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": null,
+        "solution_html": null,
+        "model": {
+          "answer": "D",
+          "by": "opus+sonnet",
+          "agrees": null,
+          "corroborated": true,
+          "solution_html": "<p>W rzeczywistości działka ma wymiary 240 m × 350 m. Pas ma 0,7 ha = 7000 m², więc jego szerokość to 7000 : 350 = 20 m.</p>"
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026-2027_wielkopolskie_q6",
+      "number": 6,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "czworokąty",
+        "kąty",
+        "trójkąty"
+      ],
+      "prompt_html": "<p>W czworokącie ABCD przedstawionym na rysunku pomocniczym kąt DAB jest prosty, AB=AD=CD a kąt ADC=30°. Oblicz miarę kąta ABC.</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "15°"
+        },
+        {
+          "label": "B",
+          "html": "25°"
+        },
+        {
+          "label": "C",
+          "html": "10°"
+        },
+        {
+          "label": "D",
+          "html": "20°"
+        }
+      ],
+      "figures": [
+        "szkolny_2026-2027_wielkopolskie_q6_fig1.png"
+      ],
+      "answer": {
+        "correct": null,
+        "solution_html": null,
+        "model": {
+          "answer": "A",
+          "by": "opus+sonnet",
+          "agrees": null,
+          "corroborated": true,
+          "solution_html": "<p>Trójkąt ADC jest równoramienny (DA = DC), więc ∠DAC = 75°, a stąd ∠CAB = 15°. W układzie A=(0,0), B=(1,0), D=(0,1) otrzymujemy C=(0,5; 1−√3/2). Wtedy tg∠ABC = (1−√3/2)/0,5 = 2−√3 = tg 15°, czyli ∠ABC = 15°.</p>"
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026-2027_wielkopolskie_q7",
+      "number": 7,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "prędkość / droga / czas"
+      ],
+      "prompt_html": "<p>O godzinie 8:00 z miejscowości A wyruszył pieszo turysta, idąc ze stałą prędkością 3,75 km/h. O godzinie 8:30 z tej samej miejscowości i w tym samym kierunku wyjechał rowerzysta, poruszający się ze stałą prędkością. O godzinie 9:00 rowerzysta dogonił turystę. Z jaką prędkością poruszał się rowerzysta?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "6 km/h"
+        },
+        {
+          "label": "B",
+          "html": "7 km/h"
+        },
+        {
+          "label": "C",
+          "html": "7,5 km/h"
+        },
+        {
+          "label": "D",
+          "html": "8 km/h"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": null,
+        "solution_html": null,
+        "model": {
+          "answer": "C",
+          "by": "opus+sonnet",
+          "agrees": null,
+          "corroborated": true,
+          "solution_html": "<p>Do 9:00 turysta przeszedł 3,75 km. Rowerzysta pokonał tę odległość w 0,5 h, więc jechał z prędkością 7,5 km/h.</p>"
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026-2027_wielkopolskie_q8",
+      "number": 8,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "prędkość / droga / czas",
+        "proporcjonalność prosta"
+      ],
+      "prompt_html": "<p>Dwa roboty magazynowe poruszają się wzdłuż tej samej prostej trasy, wykonując ruchy o stałych długościach. Robot A znajduje się za robotem B w odległości równej długości 60 ruchów robota B. Oba roboty jednocześnie ruszają w tym samym kierunku. Długość trzech ruchów robota A jest równa długości siedmiu ruchów robota B. W tym samym czasie robot A wykonuje 6 ruchów, a robot B – 9 ruchów. Po ilu ruchach robot A dogoni robota B?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "60"
+        },
+        {
+          "label": "B",
+          "html": "66"
+        },
+        {
+          "label": "C",
+          "html": "72"
+        },
+        {
+          "label": "D",
+          "html": "84"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": null,
+        "solution_html": null,
+        "model": {
+          "answer": "C",
+          "by": "opus+sonnet",
+          "agrees": null,
+          "corroborated": true,
+          "solution_html": "<p>Jeden ruch A = 7/3 ruchu B. W jednostce czasu A pokonuje 6·7/3 = 14 ruchów B, a B pokonuje 9, więc A zyskuje 5 ruchów B. Strata 60 zniknie po 12 jednostkach czasu, czyli po 12·6 = 72 ruchach robota A.</p>"
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026-2027_wielkopolskie_q9",
+      "number": 9,
+      "page": 6,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "zbiory / zasada włączeń i wyłączeń"
+      ],
+      "prompt_html": "<p>Wśród 20 trójkątów było 11 trójkątów równoramiennych, a 7 trójkątów prostokątnych. Pięć z tych trójkątów nie było ani równoramiennych, ani prostokątnych. Ile trójkątów było jednocześnie równoramiennych i prostokątnych?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "2"
+        },
+        {
+          "label": "B",
+          "html": "4"
+        },
+        {
+          "label": "C",
+          "html": "5"
+        },
+        {
+          "label": "D",
+          "html": "3"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": null,
+        "solution_html": null,
+        "model": {
+          "answer": "D",
+          "by": "opus+sonnet",
+          "agrees": null,
+          "corroborated": true,
+          "solution_html": "<p>20 − 5 = 15 = 11 + 7 − x, więc x = 3.</p>"
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026-2027_wielkopolskie_q10",
+      "number": 10,
+      "page": 6,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "zagadki logiczne",
+        "liczby pierwsze"
+      ],
+      "prompt_html": "<p>Liczby 2, 3, 4, 5 i 7 należy wpisać po jednej do pięciu kwadratów na rysunku, tak aby żadna liczba się nie powtarzała. Liczby zapisane przy trójkątach prostokątnych są iloczynami liczb wpisanych w kwadraty leżące w wierzchołkach tych trójkątów. Oblicz sumę liczb wpisanych w zacienione kwadraty.</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "7"
+        },
+        {
+          "label": "B",
+          "html": "9"
+        },
+        {
+          "label": "C",
+          "html": "10"
+        },
+        {
+          "label": "D",
+          "html": "14"
+        }
+      ],
+      "figures": [
+        "szkolny_2026-2027_wielkopolskie_q10_fig1.png"
+      ],
+      "answer": {
+        "correct": null,
+        "solution_html": null,
+        "model": {
+          "answer": "C",
+          "by": "opus+sonnet",
+          "agrees": null,
+          "corroborated": true,
+          "solution_html": "<p>70 = 2·5·7, 56 = 2·4·7, 105 = 3·5·7, 84 = 3·4·7. Środkowy kwadrat jest wspólny dla wszystkich iloczynów, więc ma 7. Góra = 2, lewy = 5, prawy = 4, dół = 3. Suma zacienionych: 7 + 3 = 10.</p>"
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026-2027_wielkopolskie_q11",
+      "number": 11,
+      "page": 6,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "czworokąty",
+        "pole i obwód",
+        "zadania tekstowe na równania"
+      ],
+      "prompt_html": "<p>Prostokąt ma obwód 76 cm. Gdy jego dłuższy bok skrócimy o 8 cm, a krótszy pozostawimy bez zmiany, pole prostokąta zmniejszy się o 96 cm². Jakie jest pole początkowego prostokąta?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "312 cm²"
+        },
+        {
+          "label": "B",
+          "html": "288 cm²"
+        },
+        {
+          "label": "C",
+          "html": "320 cm²"
+        },
+        {
+          "label": "D",
+          "html": "300 cm²"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": null,
+        "solution_html": null,
+        "model": {
+          "answer": "A",
+          "by": "opus+sonnet",
+          "agrees": null,
+          "corroborated": true,
+          "solution_html": "<p>a + b = 38. Skrócenie o 8 zmniejsza pole o 8b = 96, więc b = 12 i a = 26. Pole: 26 · 12 = 312 cm².</p>"
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026-2027_wielkopolskie_q12",
+      "number": 12,
+      "page": 8,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "wielokąty",
+        "pole i obwód"
+      ],
+      "prompt_html": "<p>Rysunek pomocniczy przedstawia łamaną zamkniętą złożoną z odcinków poziomych i pionowych. Na rysunku zaznaczono długości wybranych odcinków. Oblicz długość tej łamanej. Wybierz właściwą odpowiedź spośród podanych.</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "64"
+        },
+        {
+          "label": "B",
+          "html": "68"
+        },
+        {
+          "label": "C",
+          "html": "70"
+        },
+        {
+          "label": "D",
+          "html": "72"
+        }
+      ],
+      "figures": [
+        "szkolny_2026-2027_wielkopolskie_q12_fig1.png"
+      ],
+      "answer": {
+        "correct": null,
+        "solution_html": null,
+        "model": {
+          "answer": "C",
+          "by": "opus+sonnet",
+          "agrees": null,
+          "corroborated": true,
+          "solution_html": "<p>Odcinki pionowe w dół: 8 + 3 + 5 = 16, więc wszystkie pionowe mają razem 32. Odcinki poziome w prawo: 13 + 2 + 4 = 19, więc wszystkie poziome mają razem 38. Długość łamanej: 32 + 38 = 70.</p>"
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026-2027_wielkopolskie_q13",
+      "number": 13,
+      "page": 8,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "graniastosłupy"
+      ],
+      "prompt_html": "<p>W prostopadłościennym schowku o wymiarach 22 cm × 14 cm × 17 cm układane są jednakowe sześcienne klocki o krawędzi 4 cm, równolegle do ścian schowka. Jaka jest największa liczba całych klocków, które można umieścić w schowku?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "80"
+        },
+        {
+          "label": "B",
+          "html": "60"
+        },
+        {
+          "label": "C",
+          "html": "72"
+        },
+        {
+          "label": "D",
+          "html": "64"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": null,
+        "solution_html": null,
+        "model": {
+          "answer": "B",
+          "by": "opus+sonnet",
+          "agrees": null,
+          "corroborated": true,
+          "solution_html": "<p>⌊22/4⌋·⌊14/4⌋·⌊17/4⌋ = 5·3·4 = 60.</p>"
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026-2027_wielkopolskie_q14",
+      "number": 14,
+      "page": 8,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "graniastosłupy"
+      ],
+      "prompt_html": "<p>Z ośmiu jednakowych sześciennych kostek o krawędzi 4 cm ułożono prostopadłościan. Która z poniższych wartości nie może być polem powierzchni tego prostopadłościanu?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "544 cm²"
+        },
+        {
+          "label": "B",
+          "html": "480 cm²"
+        },
+        {
+          "label": "C",
+          "html": "448 cm²"
+        },
+        {
+          "label": "D",
+          "html": "384 cm²"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": null,
+        "solution_html": null,
+        "model": {
+          "answer": "B",
+          "by": "opus+sonnet",
+          "agrees": null,
+          "corroborated": true,
+          "solution_html": "<p>Możliwe prostopadłościany: 1×1×8 → 34·16 = 544, 1×2×4 → 28·16 = 448, 2×2×2 → 24·16 = 384. Pola 480 cm² nie da się uzyskać.</p>"
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026-2027_wielkopolskie_q15",
+      "number": 15,
+      "page": 10,
+      "type": "true_false",
+      "points": 3,
+      "topics": [
+        "ostatnia cyfra / cykliczność potęg",
+        "działania na potęgach",
+        "ujemny wykładnik",
+        "wyłączanie wspólnego czynnika przed nawias"
+      ],
+      "prompt_html": "<p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli zdanie jest fałszywe.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Cyfra jedności liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>87</mn><mn>87</mn></msup><mo>+</mo><msup><mn>69</mn><mn>69</mn></msup></math> jest liczbą parzystą."
+        },
+        {
+          "label": "2",
+          "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mrow><mo>[</mo><mfrac><msup><mn>10</mn><mn>9</mn></msup><msup><mrow><mo>(</mo><mn>10</mn><mo>·</mo><msup><mn>10</mn><mn>3</mn></msup><mo>)</mo></mrow><mn>3</mn></msup></mfrac><mo>]</mo></mrow><mrow><mo>−</mo><mn>3</mn></mrow></msup><mn>1000000000000</mn></mfrac><mo>=</mo><msup><mn>10</mn><mrow><mo>−</mo><mn>3</mn></mrow></msup></math>"
+        },
+        {
+          "label": "3",
+          "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mrow><msup><mn>27</mn><mn>2007</mn></msup><mo>−</mo><msup><mn>27</mn><mn>2006</mn></msup></mrow><mrow><msup><mn>3</mn><mn>6020</mn></msup><mo>−</mo><msup><mn>3</mn><mn>6017</mn></msup></mrow></mfrac><mo>=</mo><mn>3</mn></math>"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": null,
+        "solution_html": null,
+        "model": {
+          "answer": "PPP",
+          "by": "opus+sonnet",
+          "agrees": null,
+          "corroborated": true,
+          "solution_html": "<p>1) Cyfra jedności 87<sup>87</sup> to 3 (87 ≡ 3 mod 4), a 69<sup>69</sup> to 9. 3 + 9 = 12, cyfra jedności 2 jest parzysta: P. 2) 10<sup>9</sup>/10<sup>12</sup> = 10<sup>−3</sup>, (10<sup>−3</sup>)<sup>−3</sup> = 10<sup>9</sup>, a 10<sup>9</sup>/10<sup>12</sup> = 10<sup>−3</sup>: P. 3) 3<sup>6018</sup>·26 / (3<sup>6017</sup>·26) = 3: P.</p>"
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026-2027_wielkopolskie_q16",
+      "number": 16,
+      "page": 11,
+      "type": "true_false",
+      "points": 3,
+      "topics": [
+        "zadania tekstowe na równania"
+      ],
+      "prompt_html": "<p>150 książek należy podzielić między pięć bibliotek szkolnych tak, aby druga biblioteka otrzymała o tyle książek więcej od pierwszej, o ile trzecia otrzymała więcej od drugiej, czwarta od trzeciej i piąta od czwartej. Ponadto trzy ostatnie biblioteki razem powinny otrzymać cztery razy więcej książek niż dwie pierwsze biblioteki razem.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli zdanie jest fałszywe.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Pierwsza biblioteka otrzymała 15 książek."
+        },
+        {
+          "label": "2",
+          "html": "Piąta biblioteka otrzymała 50 książek."
+        },
+        {
+          "label": "3",
+          "html": "Dwie pierwsze biblioteki otrzymały razem tyle samo książek co trzecia biblioteka."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": null,
+        "solution_html": null,
+        "model": {
+          "answer": "FPP",
+          "by": "opus+sonnet",
+          "agrees": null,
+          "corroborated": true,
+          "solution_html": "<p>Liczby książek to a, a+d, …, a+4d, więc 5a + 10d = 150. Z warunku 3a + 9d = 4(2a + d) wynika d = a, a stąd a = 10. Rozdział: 10, 20, 30, 40, 50.</p>"
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026-2027_wielkopolskie_q17",
+      "number": 17,
+      "page": 12,
+      "type": "true_false",
+      "points": 3,
+      "topics": [
+        "wyrażenia algebraiczne",
+        "zadania tekstowe na równania"
+      ],
+      "prompt_html": "<p>Ola jest o 5 lat młodsza od Zosi, a Zosia jest o 4 lata młodsza od Mai. Razem mają 47 lat. Przez <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> oznaczymy wiek Zosi.</p><p>Oceń prawdziwość podanych zdań. Wybierz P, jeśli zdanie jest prawdziwe, albo F – jeśli zdanie jest fałszywe.</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Sumę wieku Oli i Mai opisuje wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>−</mo><mn>1</mn></math>."
+        },
+        {
+          "label": "2",
+          "html": "Wiek Oli stanowi połowę wieku Mai."
+        },
+        {
+          "label": "3",
+          "html": "Treść zadania opisuje równanie: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mi>x</mi><mo>−</mo><mn>5</mn><mo>)</mo><mo>+</mo><mi>x</mi><mo>+</mo><mo>(</mo><mi>x</mi><mo>+</mo><mn>4</mn><mo>)</mo><mo>=</mo><mn>47</mn></math>."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": null,
+        "solution_html": null,
+        "model": {
+          "answer": "PFP",
+          "by": "opus+sonnet",
+          "agrees": null,
+          "corroborated": true,
+          "solution_html": "<p>Ola ma x−5 lat, Maja x+4. Suma ich wieku to 2x−1. Z równania 3x − 1 = 47 mamy x = 16, więc Ola ma 11 lat, a Maja 20 (11 ≠ 10).</p>"
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026-2027_wielkopolskie_q18",
+      "number": 18,
+      "page": 13,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "wzory skróconego mnożenia",
+        "podzielność",
+        "dowodzenie / dowody"
+      ],
+      "prompt_html": "<p>Wykaż, że liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>32</mn></msup><mo>−</mo><mn>1</mn></math> jest podzielna przez 8. Zapisz wszystkie obliczenia i uzasadnienie.</p><p><strong>Wskazówka:</strong> Rozłóż wyrażenie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>3</mn><mn>32</mn></msup><mo>−</mo><mn>1</mn></math> na czynniki, kilkakrotnie stosując wzór skróconego mnożenia: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><mo>−</mo><msup><mi>b</mi><mn>2</mn></msup><mo>=</mo><mo>(</mo><mi>a</mi><mo>−</mo><mi>b</mi><mo>)</mo><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo></math>.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": null,
+        "solution_html": null,
+        "model": {
+          "answer": "3^32 − 1 = (3−1)(3+1)(3²+1)(3⁴+1)(3⁸+1)(3¹⁶+1), a (3−1)(3+1) = 8, więc liczba jest podzielna przez 8",
+          "by": "opus+sonnet",
+          "agrees": null,
+          "corroborated": true,
+          "solution_html": "<p>Kilkakrotne użycie wzoru a²−b² daje 3<sup>32</sup>−1 = (3<sup>16</sup>+1)(3<sup>8</sup>+1)(3<sup>4</sup>+1)(3<sup>2</sup>+1)(3+1)(3−1). Czynnik (3+1)(3−1) = 8, więc 8 dzieli tę liczbę.</p>"
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026-2027_wielkopolskie_q19",
+      "number": 19,
+      "page": 14,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "zmiany procentowe",
+        "układy równań"
+      ],
+      "prompt_html": "<p>Dwie liczby różnią się o 45. Po zwiększeniu mniejszej liczby o 20% i zmniejszeniu większej liczby o 10% otrzymano równe liczby. Wyznacz obie liczby. Zapisz wszystkie obliczenia.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": null,
+        "solution_html": null,
+        "model": {
+          "answer": "135 i 180",
+          "by": "opus+sonnet",
+          "agrees": null,
+          "corroborated": true,
+          "solution_html": "<p>1,2x = 0,9(x+45), więc 0,3x = 40,5 i x = 135. Większa liczba: 180 (sprawdzenie: 162 = 162).</p>"
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026-2027_wielkopolskie_q20",
+      "number": 20,
+      "page": 15,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "czworokąty",
+        "pole i obwód",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Na rysunku przedstawiono kwadrat ABCD. Punkt E leży na boku AB, a punkt F na boku AD. Pole czworokąta AECF jest równe 91 cm². Oblicz pole kwadratu ABCD, wiedząc, że |AE| = 8 cm oraz |AF| = 5 cm. Zapisz wszystkie obliczenia i podaj odpowiedź.</p>",
+      "choices": [],
+      "figures": [
+        "szkolny_2026-2027_wielkopolskie_q20_fig1.png"
+      ],
+      "answer": {
+        "correct": null,
+        "solution_html": null,
+        "model": {
+          "answer": "196 cm²",
+          "by": "opus+sonnet",
+          "agrees": null,
+          "corroborated": true,
+          "solution_html": "<p>Przekątna AC dzieli czworokąt na trójkąty AEC (pole ½·8·a) i AFC (pole ½·5·a). Stąd 6,5a = 91, a = 14 cm, a pole kwadratu wynosi 196 cm².</p>"
+        }
+      }
+    }
+  ]
+}
