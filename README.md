@@ -205,13 +205,13 @@ these are **relative to `pdfs/`** (prepend `pdfs/` to open the file).
 
 | Stage | Extracted |
 |-------|-----------|
-| szkolny (school) | **complete — 128 / 128** (2252 questions) |
+| szkolny (school) | **complete — 129 / 129** (2272 questions) |
 | rejonowy (regional) | **complete — 147 / 147** (2706 questions) |
 | wojewódzki (provincial) | **complete — 160 / 160** (2716 questions) |
 
-Known gaps: szkolny W-M 2012/13–2016/17 were never web-archived; 37 papers (640 questions)
+Known gaps: szkolny W-M 2012/13–2016/17 were never web-archived; 38 papers (660 questions)
 shipped without any answer key, and one more question's key is missing from its paper's
-answers-PDF — all 641 carry corroborated blind-AI answers instead. Details in
+answers-PDF — all 661 carry corroborated blind-AI answers instead. Details in
 [`SOURCES.md`](dev/docs/SOURCES.md).
 
 ## Building the browser
