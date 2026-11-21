@@ -15,6 +15,7 @@ every command works on both.
   figcrop.py crop <fig> X Y W H       # preview a candidate box
   figcrop.py crop <fig> X Y W H --apply    # overwrite the figure in the repo
   figcrop.py hidpi [--apply]          # re-render vector figures at 400 dpi
+  figcrop.py hidpi --only <prefix> [--apply]   # just the matching figures, e.g. a new paper
   figcrop.py revert <fig>             # restore from the pre-apply backup
   figcrop.py montage                  # contact sheets of unflagged figures
   figcrop.py sheet                    # recrop-review.html for the human gate
@@ -360,6 +361,11 @@ def cmd_hidpi(a):
     figs, _ = index()
     done = skip = reject = 0
     hi = {}
+    man = os.path.join(FIGS, 'hidpi.json')
+    if a.only:
+        # a new paper's figures only: everything else keeps its manifest entry as is
+        figs = {f: v for f, v in figs.items() if f.startswith(tuple(a.only))}
+        hi = {f: v for f, v in json.load(open(man)).items() if not f.startswith(tuple(a.only))}
     for i, (f, (h, qid, pg, src)) in enumerate(sorted(figs.items()), 1):
         if i % 100 == 0:
             print(f'  ...{i}/{len(figs)}', file=sys.stderr)
@@ -427,8 +433,7 @@ def cmd_hidpi(a):
     if a.apply:
         # fig -> [w, h] in CSS px, i.e. the 200 dpi box. The app puts these on the <img>
         # so a 400 dpi figure lays out at the same size as before instead of at its
-        # natural (doubled) size. Rebuilt whole each run, so it never drifts.
-        man = os.path.join(FIGS, 'hidpi.json')
+        # natural (doubled) size. Rebuilt whole on a full run, so it never drifts.
         json.dump(dict(sorted(hi.items())), open(man, 'w'), indent=0)
         print(f'-> {man} ({len(hi)} figures at {HIDPI} dpi)')
     else:
@@ -535,7 +540,9 @@ def main():
     c.add_argument('fig'); c.add_argument('box', nargs=4, type=int, metavar=('X', 'Y', 'W', 'H'))
     c.add_argument('--apply', action='store_true'); c.set_defaults(fn=cmd_crop)
     hd = sub.add_parser('hidpi')
-    hd.add_argument('--apply', action='store_true'); hd.set_defaults(fn=cmd_hidpi)
+    hd.add_argument('--apply', action='store_true')
+    hd.add_argument('--only', action='append', metavar='PREFIX', help='figure-name prefix (repeatable)')
+    hd.set_defaults(fn=cmd_hidpi)
     r = sub.add_parser('revert'); r.add_argument('figs', nargs='+'); r.set_defaults(fn=cmd_revert)
     sub.add_parser('montage').set_defaults(fn=cmd_montage)
     sub.add_parser('sheet').set_defaults(fn=cmd_sheet)

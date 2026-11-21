@@ -89,8 +89,11 @@ Difficulty is **not** a field — `points` carries it (2p basic, 3p advanced her
    `-x/-y/-W/-H` are pixels at the chosen `-r` DPI. Iterate: render, `Read` the
    png, adjust the box until the figure is tight. Save as `<question_id>_figN.png`.
    Crop at 200 — that is the scale every box in the corpus is expressed in. Then run
-   `dev/scripts/figcrop.py hidpi --apply`, which re-renders the vector-source ones at 400
-   and lists them in `browser/figures/hidpi.json` for the app's `srcset ... 2x`.
+   `dev/scripts/figcrop.py hidpi --only <stage>_<name>_ --apply` (needs `opencv-python-headless`,
+   `numpy`, `pymupdf`), which re-renders the paper's vector-source figures at 400 and lists them
+   in `browser/figures/hidpi.json` for the app's `srcset ... 2x`. Without `--only` it walks the
+   whole corpus (~15+ min). In a batch the orchestrator runs it once, not each extraction
+   agent (one shared `hidpi.json`) — see `dev/docs/EXTRACTION_PLAYBOOK.md`.
 5. **Answer key** — read the paired `answers_file`. Keys are usually a table
    with an `X` under the correct column (A–E); map row→letter into
    `answer.correct`. If the key shows full solutions, put them in

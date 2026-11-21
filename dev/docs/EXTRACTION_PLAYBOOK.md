@@ -36,11 +36,14 @@ keys. Outputs: `data/questions/<stage>_<name>.json` + `browser/figures/<stage>_<
    before the Write.
 4. **Validate the whole corpus** (script below): dup ids, invalid JSON, points!=max,
    missing/orphan figures, missing school_type.
-5. **Dup-scan the batch's PDFs** (md5) — catches mislabeled duplicates.
-6. **Grep new JSONs for `anulowano`** — confirm the right annulled sub-case was applied.
-7. **Update the coverage table in README.md**; record new gotchas in the per-file
+5. **Hi-dpi figures**: `python3 dev/scripts/figcrop.py hidpi --only <NAME>_ [--only …] --apply`
+   once per batch, from the orchestrator (one shared `hidpi.json` — parallel agents would race).
+   Dry-run without `--apply` first; only the batch's entries may change.
+6. **Dup-scan the batch's PDFs** (md5) — catches mislabeled duplicates.
+7. **Grep new JSONs for `anulowano`** — confirm the right annulled sub-case was applied.
+8. **Update the coverage table in README.md**; record new gotchas in the per-file
    notes below; flag key errors for the VERIFICATION.md pipeline.
-8. **Rebuild the data shards**: `cd browser && node build.mjs` — it also validates
+9. **Rebuild the data shards**: `cd browser && node build.mjs` — it also validates
    topic tags against `categories.json` and folds `suspected_key_errors.tsv` into the
    `suspect` flags. Agents must NOT run it themselves.
 
