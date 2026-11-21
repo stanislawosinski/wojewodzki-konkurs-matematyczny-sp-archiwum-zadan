@@ -10,7 +10,7 @@ papers (see `README.md`). Two halves:
 - **The data pipeline** — official PDFs under `pdfs/` turned into per-question JSON in
   `data/questions/` (the **source of truth**), largely by LLM agents. Everything else
   `build.mjs` reads also lives under `data/`: campaign sidecars (`solutions/`, `mental/`,
-  `dups/`), `categories.json`, `suspected_key_errors.tsv`. Procedures live in
+  `dups/`, `difficulty/`), `categories.json`, `suspected_key_errors.tsv`. Procedures live in
   `SCHEMA.md` and `dev/docs/EXTRACTION_PLAYBOOK.md`; one-off pipeline tools in `dev/scripts/`.
 - **The browser app** — a static, no-build question browser (`browser/`). `build.mjs`
   generates the data shards (`data.*.js` / `data.*.json`) and `catalog.js` from the JSON;

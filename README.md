@@ -174,6 +174,7 @@ konkurs-mat/
     traps/     *.json     # "Haczyki" trap judgements (strength 2–3), one sidecar per test; merged by build.mjs
     solutions/ *.json     # AI-written derivations, one sidecar per test; merged by build.mjs
     time/      *.json     # solving-time estimates (est_min), one sidecar per test; merged by build.mjs
+    difficulty/ *.json    # judged difficulty (trud, trud_pct…), judged questions only; merged by build.mjs
     dups/                 # near-duplicate verdicts (near-dups.tsv); merged by build.mjs
   dev/
     docs/                 # playbooks: EXTRACTION_PLAYBOOK.md, VERIFICATION.md, FIGURE_REDRAW.md + SOURCES.md

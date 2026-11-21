@@ -114,6 +114,20 @@ try {
 } catch {
   /* no time sidecars yet */
 }
+// data/difficulty/<data file>.json: the "Trudność" comparative-judgement sidecars,
+// {id: {logit, pct, pct_etap, n}} for the questions judged so far (see data/difficulty/README.md;
+// written by dev/scripts/difficulty-fit.py — panel.json and rankings/ are its inputs, not
+// sidecars). Merged here into `trud`, `trud_pct`, `trud_pct_etap`, `trud_n`.
+const difficulty = {};
+try {
+  const diffDir = fileURLToPath(new URL("../data/difficulty/", import.meta.url));
+  for (const f of readdirSync(diffDir).filter(f => f.endsWith(".json") && f !== "panel.json")) {
+    Object.assign(difficulty, JSON.parse(readFileSync(diffDir + f, "utf8")));
+  }
+} catch {
+  /* no difficulty sidecars yet */
+}
+
 if (badTime.length) {
   console.error(`bad "min" bucket(s) — expected 1/2/5/10/20:\n  ${badTime.join("\n  ")}`);
   process.exit(1);
@@ -209,6 +223,14 @@ for (const f of readdirSync(dataDir)
           ? { trap_sila: 0 }
           : {}), // reading/condition trap (data/traps sidecars); 0 = judged, no trap
       ...(estMin[q.id] ? { est_min: estMin[q.id] } : {}), // focused-work time bucket (data/time sidecars)
+      ...(difficulty[q.id]
+        ? {
+            trud: difficulty[q.id].logit,
+            trud_pct: difficulty[q.id].pct,
+            trud_pct_etap: difficulty[q.id].pct_etap,
+            trud_n: difficulty[q.id].n
+          }
+        : {}), // judged difficulty, 0 = reference-panel mean (data/difficulty sidecars)
       ...(solutions[q.id] && !q.answer?.solution_html && !q.answer?.model?.solution_html
         ? { sol_ai: solutions[q.id] }
         : {}), // AI-written derivation where no other one exists (data/solutions sidecars)
