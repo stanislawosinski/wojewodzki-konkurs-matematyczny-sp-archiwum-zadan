@@ -205,7 +205,7 @@ these are **relative to `pdfs/`** (prepend `pdfs/` to open the file).
 
 | Stage | Extracted |
 |-------|-----------|
-| szkolny (school) | **complete — 126 / 126** (2210 questions) |
+| szkolny (school) | **complete — 128 / 128** (2252 questions) |
 | rejonowy (regional) | **complete — 147 / 147** (2706 questions) |
 | wojewódzki (provincial) | **complete — 160 / 160** (2716 questions) |
 

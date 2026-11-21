@@ -1,0 +1,847 @@
+{
+  "source_file": "szkolny/2026_podlaskie.pdf",
+  "answers_file": "szkolny/2026_podlaskie_answers.pdf",
+  "competition": "Wojewódzki Konkurs z Matematyki dla uczniów szkół podstawowych (podlaskie)",
+  "school_type": "podstawowa",
+  "stage": "szkolny",
+  "wojewodztwo": "podlaskie",
+  "school_year": "2026/2027",
+  "date": null,
+  "total_questions": 26,
+  "max_points": 40,
+  "questions": [
+    {
+      "id": "szkolny_2026_podlaskie_q1",
+      "number": 1,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "reszta z dzielenia"
+      ],
+      "prompt_html": "<p>Na parterze teatru znajduje się 26 rzędów po 24 miejsca w każdym rzędzie. Miejsca ponumerowane są kolejnymi liczbami naturalnymi, począwszy od pierwszego rzędu. W którym rzędzie znajduje się miejsce nr 375?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "12"
+        },
+        {
+          "label": "B",
+          "html": "14"
+        },
+        {
+          "label": "C",
+          "html": "15"
+        },
+        {
+          "label": "D",
+          "html": "16"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null,
+        "model": {
+          "answer": "D",
+          "by": "sonnet",
+          "agrees": true
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026_podlaskie_q2",
+      "number": 2,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "kalendarz i czas"
+      ],
+      "prompt_html": "<p>Polska przystąpiła do Unii Europejskiej w sobotę 1 maja 2004 roku. W którym dniu tygodnia obchodzono pierwszą rocznicę tego wydarzenia?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "W niedzielę."
+        },
+        {
+          "label": "B",
+          "html": "W sobotę."
+        },
+        {
+          "label": "C",
+          "html": "W poniedziałek."
+        },
+        {
+          "label": "D",
+          "html": "W piątek."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": null,
+        "model": {
+          "answer": "C",
+          "by": "sonnet",
+          "agrees": false,
+          "solution_html": "<p>Od 1.05.2004 do 1.05.2005 mija 366 dni (jest 29.02.2004) = 52 tyg. + 2 dni, sobota+2 = poniedziałek.</p>"
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026_podlaskie_q3",
+      "number": 3,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "kalendarz i czas"
+      ],
+      "prompt_html": "<p>Zegar w południe wskazywał dokładny czas. Zegar ten spóźnia się 20 sekund w ciągu godziny. Po upływie doby zegar będzie wskazywał godzinę</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "11:53"
+        },
+        {
+          "label": "B",
+          "html": "11:52"
+        },
+        {
+          "label": "C",
+          "html": "23:52"
+        },
+        {
+          "label": "D",
+          "html": "23:53"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null,
+        "model": {
+          "answer": "B",
+          "by": "sonnet",
+          "agrees": true
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026_podlaskie_q4",
+      "number": 4,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "ułamki okresowe / rozwinięcia dziesiętne"
+      ],
+      "prompt_html": "<p>W którym przypadku poprawnie określono zależność między liczbami?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,(73)</mn><mo>&lt;</mo><mn>0,(733)</mn></math>"
+        },
+        {
+          "label": "B",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>0,(4422)</mn><mo>&lt;</mo><mn>0,4(422)</mn></math>"
+        },
+        {
+          "label": "C",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>5</mn><mn>12</mn></mfrac><mo>=</mo><mn>0,416666</mn></math>"
+        },
+        {
+          "label": "D",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>7</mn><mn>9</mn></mfrac><mo>=</mo><mn>0,(7)</mn></math>"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null,
+        "model": {
+          "answer": "D",
+          "by": "sonnet",
+          "agrees": true
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026_podlaskie_q5",
+      "number": 5,
+      "page": 2,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "statystyka opisowa"
+      ],
+      "prompt_html": "<p>Pan Jan ma cztery dębowe deski. Policzył, że trzecia część sumy długości trzech desek jest równa 1,7 m, a czwarta część sumy długości czterech desek wynosi 1,75 m. Jaka jest długość czwartej deski?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "1,75 m"
+        },
+        {
+          "label": "B",
+          "html": "1,8 m"
+        },
+        {
+          "label": "C",
+          "html": "1,85 m"
+        },
+        {
+          "label": "D",
+          "html": "1,9 m"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null,
+        "model": {
+          "answer": "D",
+          "by": "sonnet",
+          "agrees": true
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026_podlaskie_q6",
+      "number": 6,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "trójkąty",
+        "pole i obwód"
+      ],
+      "prompt_html": "<p>Na rysunku przedstawiony jest trójkąt ABC. Przyjmując, że długość jednej kratki jest równa 1, to pole trójkąta ABC przedstawionego na rysunku wynosi</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "12"
+        },
+        {
+          "label": "B",
+          "html": "10"
+        },
+        {
+          "label": "C",
+          "html": "14"
+        },
+        {
+          "label": "D",
+          "html": "16"
+        }
+      ],
+      "figures": [
+        "szkolny_2026_podlaskie_q6_fig1.png"
+      ],
+      "answer": {
+        "correct": "B",
+        "solution_html": null,
+        "model": {
+          "answer": "B",
+          "by": "sonnet",
+          "agrees": true
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026_podlaskie_q7",
+      "number": 7,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "podobieństwo i skala",
+        "zamiana jednostek"
+      ],
+      "prompt_html": "<p>Na planie wykonanym w skali 1:10 000 działka jest kwadratem o boku 2 cm. W rzeczywistości powierzchnia tej działki jest równa</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "40000 cm²"
+        },
+        {
+          "label": "B",
+          "html": "4000 m²"
+        },
+        {
+          "label": "C",
+          "html": "400 a"
+        },
+        {
+          "label": "D",
+          "html": "40 ha"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null,
+        "model": {
+          "answer": "C",
+          "by": "sonnet",
+          "agrees": true
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026_podlaskie_q8",
+      "number": 8,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "liczby rzymskie"
+      ],
+      "prompt_html": "<p>Jedną z podanych liczb: 996, 1410, 1918, 2026 można zapisać w systemie rzymskim w następujący sposób:</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "CMXLVI"
+        },
+        {
+          "label": "B",
+          "html": "MCMXVIII"
+        },
+        {
+          "label": "C",
+          "html": "MDCX"
+        },
+        {
+          "label": "D",
+          "html": "MMXXIV"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null,
+        "model": {
+          "answer": "B",
+          "by": "sonnet",
+          "agrees": true
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026_podlaskie_q9",
+      "number": 9,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "procenty"
+      ],
+      "prompt_html": "<p>Ogrodnik zasadził jabłonie i grusze. Jabłoni było cztery razy więcej niż grusz. Niestety, połowa posadzonych jabłoni się nie przyjęła. Jaki procent wszystkich posadzonych drzewek stanowią drzewka, które się przyjęły?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "60%"
+        },
+        {
+          "label": "B",
+          "html": "40%"
+        },
+        {
+          "label": "C",
+          "html": "50%"
+        },
+        {
+          "label": "D",
+          "html": "66,(6)%"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": null,
+        "model": {
+          "answer": "A",
+          "by": "sonnet",
+          "agrees": true
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026_podlaskie_q10",
+      "number": 10,
+      "page": 3,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "czworokąty",
+        "pole i obwód"
+      ],
+      "prompt_html": "<p>W równoległoboku o polu 48 cm² wysokości są równe 8 cm i 4,8 cm. Obwód tego równoległoboku wynosi</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "16 cm"
+        },
+        {
+          "label": "B",
+          "html": "32 cm"
+        },
+        {
+          "label": "C",
+          "html": "40 cm"
+        },
+        {
+          "label": "D",
+          "html": "24 cm"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null,
+        "model": {
+          "answer": "B",
+          "by": "sonnet",
+          "agrees": true
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026_podlaskie_q11",
+      "number": 11,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "podzielność"
+      ],
+      "prompt_html": "<p>Jaką cyfrę należy wstawić w miejsce <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>∗</mo></math>, aby liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3472</mn><mo>∗</mo></math> była podzielna jednocześnie przez 3 i 4?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "2"
+        },
+        {
+          "label": "B",
+          "html": "4"
+        },
+        {
+          "label": "C",
+          "html": "6"
+        },
+        {
+          "label": "D",
+          "html": "8"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null,
+        "model": {
+          "answer": "D",
+          "by": "sonnet",
+          "agrees": true
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026_podlaskie_q12",
+      "number": 12,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "liczba krawędzi, ścian i wierzchołków"
+      ],
+      "prompt_html": "<p>Graniastosłup ma 48 krawędzi. Liczba wierzchołków tego graniastosłupa jest równa</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "48"
+        },
+        {
+          "label": "B",
+          "html": "32"
+        },
+        {
+          "label": "C",
+          "html": "24"
+        },
+        {
+          "label": "D",
+          "html": "16"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null,
+        "model": {
+          "answer": "B",
+          "by": "sonnet",
+          "agrees": true
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026_podlaskie_q13",
+      "number": 13,
+      "page": 4,
+      "type": "closed_single",
+      "points": 1,
+      "topics": [
+        "kąty"
+      ],
+      "prompt_html": "<p>Jeden z kątów przyległych jest pięć razy większy od drugiego. Różnica miar tych kątów jest równa</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "120°"
+        },
+        {
+          "label": "B",
+          "html": "144°"
+        },
+        {
+          "label": "C",
+          "html": "60°"
+        },
+        {
+          "label": "D",
+          "html": "72°"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": null,
+        "model": {
+          "answer": "A",
+          "by": "sonnet",
+          "agrees": true
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026_podlaskie_q14",
+      "number": 14,
+      "page": 4,
+      "type": "true_false",
+      "points": 1,
+      "topics": [
+        "wielokąty",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Ola narysowała <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>10</mn><mo>−</mo><mi>x</mi><mo>)</mo></math> prostokątów oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>2</mn><mi>x</mi><mo>−</mo><mn>1</mn><mo>)</mo></math> sześciokątów, które łącznie miały 58 wierzchołków.</p><p>Zaznacz, które z poniższych informacji są prawdziwe, a które fałszywe, wpisując przy każdej informacji znak „X” we właściwej kolumnie tabeli (Prawda/Fałsz).</p>",
+      "choices": [
+        {
+          "label": "1",
+          "html": "Ola narysowała 7 prostokątów."
+        },
+        {
+          "label": "2",
+          "html": "Narysowane figury miały łącznie 59 przekątnych."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "PP",
+        "solution_html": null,
+        "model": {
+          "answer": "PP",
+          "by": "sonnet",
+          "agrees": true
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026_podlaskie_q15",
+      "number": 15,
+      "page": 4,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "wyrażenia algebraiczne"
+      ],
+      "prompt_html": "<p>Zosia miała dwa razy więcej książek niż Marcin. Dzisiaj dała 4 swoje książki Marcinowi. Uzupełnij zdania, wpisując odpowiednie wyrażenia algebraiczne.</p><p>Jeśli wczoraj Zosia miała <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> książek, to Marcin miał . . . . . . . . . . . . książek.</p><p>Jeśli wczoraj Marcin miał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi></math> książek, to Zosia ma dzisiaj . . . . . . . . . . . . książek.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "½x; 2y − 4",
+        "solution_html": "<p>Marcin miał <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>x</mi></math> książek; Zosia ma dzisiaj <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>y</mi><mo>−</mo><mn>4</mn></math> książek.</p>",
+        "rubric_html": "<p>2 p. – rozwiązanie bezbłędne</p><p>1 p. – poprawne zapisanie jednego z wyrażeń</p>",
+        "model": {
+          "answer": "Marcin miał x/2 książek; Zosia ma dzisiaj 2y−4 książek.",
+          "by": "sonnet",
+          "agrees": true
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026_podlaskie_q16",
+      "number": 16,
+      "page": 5,
+      "type": "open",
+      "points": 1,
+      "topics": [
+        "zagadki logiczne"
+      ],
+      "prompt_html": "<p>Do dużego kufra włożono 5 skrzynek, do każdej skrzynki 3 pudełka, a do każdego z nich po 10 książek. Kufer, skrzynki i pudełka są zamykane na klucze. Ile co najmniej zamków trzeba otworzyć, aby wyciągnąć 50 książek?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "8",
+        "solution_html": "<p>Należy otworzyć co najmniej 8 zamków.</p>",
+        "model": {
+          "answer": "8",
+          "by": "sonnet",
+          "agrees": true
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026_podlaskie_q17",
+      "number": 17,
+      "page": 5,
+      "type": "open",
+      "points": 1,
+      "topics": [
+        "proporcjonalność prosta"
+      ],
+      "prompt_html": "<p>Gdy z powodu awarii zgasło światło, zapalono świecę, która spala się całkowicie w ciągu 5 godzin. Awaria trwała 3 godziny. Po jej usunięciu świecę zgaszono i okazało się, że pozostało tylko 6 cm świecy. Jaka była początkowa długość świecy?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "15 cm",
+        "solution_html": "<p>Początkowa długość świecy wynosiła 15 cm.</p>",
+        "model": {
+          "answer": "15 cm",
+          "by": "sonnet",
+          "agrees": true
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026_podlaskie_q18",
+      "number": 18,
+      "page": 5,
+      "type": "open",
+      "points": 1,
+      "topics": [
+        "zagadki logiczne"
+      ],
+      "prompt_html": "<p>Mateusz ułożył z cyfr: 1, 4, 5, 7 i 8 pięciocyfrowy kod do logowania się na komputerze tak, że:</p><ul><li>8 nie jest na pierwszym ani na ostatnim miejscu kodu i nie sąsiaduje z liczbą pierwszą,</li><li>4 nie jest ostatnią cyfrą kodu,</li><li>1 jest na dalszym miejscu w kodzie niż 7,</li><li>7 nie jest pierwszą cyfrą kodu,</li><li>otrzymany kod nie jest liczbą podzielną przez 5.</li></ul><p>Jaki kod ułożył Mateusz?</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "57481",
+        "solution_html": "<p>Kod ułożony przez Mateusza to: 57481.</p>",
+        "model": {
+          "answer": "57481",
+          "by": "sonnet",
+          "agrees": true
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026_podlaskie_q19",
+      "number": 19,
+      "page": 6,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "czworokąty",
+        "pole i obwód"
+      ],
+      "prompt_html": "<p>Z dwóch prostokątów można zbudować prostokąt o obwodzie 70 cm. Można także zbudować z nich kwadrat. Oblicz powierzchnię takiego kwadratu.</p><p>Zapisz wszystkie obliczenia.</p>",
+      "choices": [],
+      "figures": [
+        "szkolny_2026_podlaskie_q19_fig1.png"
+      ],
+      "answer": {
+        "correct": "196 cm²",
+        "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> – krótszy bok prostokąta</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi></math> – dłuższy bok prostokąta i jednocześnie bok kwadratu</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>2</mn><mi>x</mi><mo>+</mo><mi>x</mi><mo>+</mo><mn>2</mn><mi>x</mi><mo>+</mo><mn>2</mn><mi>x</mi><mo>=</mo><mn>70</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn><mi>x</mi><mo>=</mo><mn>70</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>7</mn></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mi>x</mi><mo>=</mo><mn>2</mn><mo>·</mo><mn>7</mn><mo>=</mo><mn>14</mn></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>P</mi><mo>=</mo><msup><mn>14</mn><mn>2</mn></msup><mo>=</mo><mn>196</mn></math> cm²</p><p>Pole kwadratu wynosi 196 cm².</p>",
+        "rubric_html": "<p>2 p. – rozwiązanie bezbłędne</p><p>1 p. – rozwiązanie, w którym dokonano istotnego postępu, ale nie było kontynuowane lub było kontynuowane błędnie, np. uczeń poprawnie ułożył równanie z jedną niewiadomą lub obliczył długość boku prostokąta 7cm lub wyznaczył długość boku kwadratu 14 cm</p><p>0 p. – rozwiązanie, w którym nie dokonano istotnego postępu</p>",
+        "model": {
+          "answer": "196 cm²",
+          "by": "sonnet",
+          "agrees": true
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026_podlaskie_q20",
+      "number": 20,
+      "page": 6,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "prędkość / droga / czas",
+        "zamiana jednostek"
+      ],
+      "prompt_html": "<p>Sześcian o krawędzi 4 dm rozcięto na jednakowe sześcianiki o krawędzi 1 cm, a następnie ułożono je wszystkie jeden za drugim jak na rysunku. Ile czasu potrzebuje mrówka syberyjska na przejście całej drogi idąc wzdłuż otrzymanego szeregu sześcianików, jeśli porusza się ze średnią prędkością 0,8 m/s ?</p><p>Zapisz wszystkie obliczenia.</p>",
+      "choices": [],
+      "figures": [
+        "szkolny_2026_podlaskie_q20_fig1.png"
+      ],
+      "answer": {
+        "correct": "800 s lub 13 min 20 s",
+        "solution_html": "<p>4 dm = 40 cm</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>40</mn><mn>3</mn></msup><mo>=</mo><mn>64000</mn></math> – liczba sześcianików o krawędzi 1 cm</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>64000</mn><mo>·</mo><mn>1</mn></math> cm = 64000 cm = 640 m – długość otrzymanego szeregu</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mfrac><mrow><mn>640</mn><mtext>&#160;m</mtext></mrow><mrow><mn>0,8</mn><mtext>&#160;m/s</mtext></mrow></mfrac><mo>=</mo><mn>800</mn><mtext>&#160;s</mtext></math></p><p>Czas przejścia mrówki to 800 s.</p>",
+        "rubric_html": "<p>2 p. – rozwiązanie bezbłędne, uczeń może podać wynik w dowolnej postaci, np. 800s, 13 min 20 s</p><p>1 p. – rozwiązanie, w którym dokonano istotnego postępu, ale nie było kontynuowane lub było kontynuowane błędnie, np. uczeń poprawnie obliczył liczbę sześcianików 64 000 i długość szeregu 640 m lub poprawnie zastosował zależność <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>t</mi><mo>=</mo><mfrac><mi>s</mi><mi>v</mi></mfrac></math> i wykonał obliczenia prowadzące do obliczenia czasu</p><p>0 p. – rozwiązanie, w którym nie dokonano istotnego postępu</p>",
+        "model": {
+          "answer": "13 min 20 s (800 s)",
+          "by": "sonnet",
+          "agrees": true
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026_podlaskie_q21",
+      "number": 21,
+      "page": 7,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "kąty",
+        "trójkąty"
+      ],
+      "prompt_html": "<p>Wyznacz miary kątów <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi></math>, wiedząc, że miara kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi></math> jest o 4° większa od miary kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi></math> i o 58° mniejsza od miary kąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi></math>.</p><p>Zapisz wszystkie obliczenia.</p>",
+      "choices": [],
+      "figures": [
+        "szkolny_2026_podlaskie_q21_fig1.png"
+      ],
+      "answer": {
+        "correct": "α = 42°, β = 38°, γ = 100°",
+        "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi><mo>=</mo><mi>α</mi><mo>−</mo><mn>4</mn><mo>°</mo></math>; <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi><mo>=</mo><mi>α</mi><mo>+</mo><mn>58</mn><mo>°</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>+</mo><mi>α</mi><mo>−</mo><mn>4</mn><mo>°</mo><mo>+</mo><mi>α</mi><mo>+</mo><mn>58</mn><mo>°</mo><mo>=</mo><mn>180</mn><mo>°</mo></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>α</mi><mo>=</mo><mn>42</mn><mo>°</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>β</mi><mo>=</mo><mn>38</mn><mo>°</mo></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>γ</mi><mo>=</mo><mn>100</mn><mo>°</mo></math></p>",
+        "rubric_html": "<p>3 p. – rozwiązanie bezbłędne</p><p>2 p. – rozwiązanie, w którym pokonano zasadnicze trudności zadania, doprowadzone do końca, ale zawiera błędy rachunkowe, usterki, np.: uczeń poprawnie zapisał zależności między kątami i ułożył równanie z jedną niewiadomą wynikające z sumy kątów w trójkącie</p><p>1 p. – rozwiązanie, w którym dokonano istotnego postępu, ale nie było kontynuowane lub było kontynuowane błędnie, np.: uczeń poprawnie zapisał zależności między kątami lub prawidłowo wykorzystał fakt, że suma kątów trójkąta wynosi 180°</p><p>0 p. – rozwiązanie, w którym nie dokonano istotnego postępu</p>",
+        "model": {
+          "answer": "α=42°, β=38°, γ=100°",
+          "by": "sonnet",
+          "agrees": true
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026_podlaskie_q22",
+      "number": 22,
+      "page": 7,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "zadania tekstowe na równania"
+      ],
+      "prompt_html": "<p>Na trzech półkach stało 60 książek. Asia, robiąc porządki, przełożyła 10 książek z drugiej półki na trzecią, z trzeciej półki 8 książek na pierwszą, a następnie z pierwszej półki 4 książki na drugą półkę. Wówczas okazało się, że na każdej półce jest po tyle samo książek. Ile książek stało na każdej półce sprzed porządków Asi?</p><p>Zapisz wszystkie obliczenia.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "16, 26 i 18 książek",
+        "solution_html": "<p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>20</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>,</mo><mi>y</mi><mo>,</mo><mi>z</mi></math> oznaczają odpowiednio liczbę książek na pierwszej, drugiej i trzeciej półce przed porządkami.</p><p>Po wykonaniu wszystkich zmian:</p><p>Na pierwszej półce: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>+</mo><mn>8</mn><mo>−</mo><mn>4</mn><mo>=</mo><mi>x</mi><mo>+</mo><mn>4</mn><mo>=</mo><mn>20</mn><mo>,</mo><mspace width=\"0.5em\"/><mi>x</mi><mo>=</mo><mn>16</mn></math></p><p>Na drugiej półce: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>y</mi><mo>−</mo><mn>10</mn><mo>+</mo><mn>4</mn><mo>=</mo><mi>y</mi><mo>−</mo><mn>6</mn><mo>=</mo><mn>20</mn><mo>,</mo><mspace width=\"0.5em\"/><mi>y</mi><mo>=</mo><mn>26</mn></math></p><p>Na trzeciej półce: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>z</mi><mo>+</mo><mn>10</mn><mo>−</mo><mn>8</mn><mo>=</mo><mi>z</mi><mo>+</mo><mn>2</mn><mo>=</mo><mn>20</mn><mo>,</mo><mspace width=\"0.5em\"/><mi>z</mi><mo>=</mo><mn>18</mn></math></p><p>Przed porządkami na pierwszej półce było 16 książek, na drugiej 26 książek, a na trzeciej 18 książek.</p>",
+        "rubric_html": "<p>3 p. – rozwiązanie bezbłędne</p><p>2 p. – rozwiązanie, w którym pokonano zasadnicze trudności zadania, doprowadzone do końca, ale zawiera błędy rachunkowe, usterki, np.: uczeń poprawnie uwzględnił zmiany na wszystkich półkach i zastosował poprawną metodę prowadzącą do rozwiązania zadania lub poprawnie ustalił początkową liczbę książek na dwóch półkach i dalej nie kontynuował rozwiązania lub kontynuował błędnie</p><p>1 p. - rozwiązanie, w którym dokonano istotnego postępu, ale nie było kontynuowane lub było kontynuowane błędnie, np.: uczeń dokonał poprawnej analizy co najmniej części zmian (np. prawidłowo ustalił liczbę książek po przełożeniu na poszczególnych półkach), ale nie doprowadził rozwiązania do poprawnego wyniku lub poprawnie ustalił początkową liczbę książek tylko na jednej półce</p><p>0 p. – rozwiązanie, w którym nie dokonano istotnego postępu</p>",
+        "model": {
+          "answer": "Pierwsza 16, druga 26, trzecia 18",
+          "by": "sonnet",
+          "agrees": true
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026_podlaskie_q23",
+      "number": 23,
+      "page": 8,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "graniastosłupy"
+      ],
+      "prompt_html": "<p>Tomek skleił z trzech różnych sześcianów bryłę (zobacz rysunek).</p><p>Krawędź największego sześcianu ma długość 6 cm, krawędź średniego sześcianu jest o 2 cm krótsza od krawędzi największego sześcianu, a krawędź najmniejszego z nich jest trzy razy krótsza od krawędzi największego sześcianu. Oblicz pole powierzchni bryły zbudowanej przez Tomka.</p><p>Zapisz wszystkie obliczenia.</p>",
+      "choices": [],
+      "figures": [
+        "szkolny_2026_podlaskie_q23_fig1.png"
+      ],
+      "answer": {
+        "correct": "296 cm²",
+        "solution_html": "<p>Wyznaczenie długości krawędzi sześcianów: 6 cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>−</mo><mn>2</mn><mo>=</mo><mn>4</mn></math> cm, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>:</mo><mn>3</mn><mo>=</mo><mn>2</mn></math> cm.</p><p>Obliczenie pola powierzchni bryły, uwzględniając, że sklejone ściany nie należą do powierzchni zewnętrznej:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>·</mo><msup><mn>6</mn><mn>2</mn></msup><mo>+</mo><mn>6</mn><mo>·</mo><msup><mn>4</mn><mn>2</mn></msup><mo>+</mo><mn>6</mn><mo>·</mo><msup><mn>2</mn><mn>2</mn></msup><mo>−</mo><mn>2</mn><mo>·</mo><msup><mn>4</mn><mn>2</mn></msup><mo>−</mo><mn>2</mn><mo>·</mo><msup><mn>2</mn><mn>2</mn></msup><mo>=</mo><mn>216</mn><mo>+</mo><mn>96</mn><mo>+</mo><mn>24</mn><mo>−</mo><mn>32</mn><mo>−</mo><mn>8</mn><mo>=</mo><mn>296</mn></math> [cm²]</p>",
+        "rubric_html": "<p>2 p. – rozwiązanie bezbłędne</p><p>1 p. – rozwiązanie, w którym dokonano istotnego postępu, ale nie było kontynuowane lub było kontynuowane błędnie, np. uczeń poprawnie wyznaczył długości krawędzi sześcianów: 6 cm, 4 cm, 2 cm oraz zastosował poprawną metodę obliczenia pola powierzchni bryły lub poprawnie obliczył pola powierzchni sześcianów i uwzględnił konieczność odjęcia pól sklejonych ścian</p><p>0 p. – rozwiązanie, w którym nie dokonano istotnego postępu</p>",
+        "model": {
+          "answer": "296 cm²",
+          "by": "sonnet",
+          "agrees": true
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026_podlaskie_q24",
+      "number": 24,
+      "page": 8,
+      "type": "open",
+      "points": 2,
+      "topics": [
+        "zadania tekstowe na równania"
+      ],
+      "prompt_html": "<p>Bilet normalny do muzeum kosztuje 12 zł, a ulgowy 8 zł. Pewnego dnia muzeum zwiedziło 60 osób, płacąc za bilety 580 zł. Ile biletów ulgowych sprzedano tego dnia w muzeum?</p><p>Zapisz wszystkie obliczenia.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "35",
+        "solution_html": "<p>I metoda:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn><mo>·</mo><mn>12</mn><mo>=</mo><mn>720</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>720</mn><mo>−</mo><mn>580</mn><mo>=</mo><mn>140</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>140</mn><mo>:</mo><mn>4</mn><mo>=</mo><mn>35</mn></math></p><p>II metoda:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> – liczba sprzedanych biletów ulgowych</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>8</mn><mi>x</mi><mo>+</mo><mn>12</mn><mo>(</mo><mn>60</mn><mo>−</mo><mi>x</mi><mo>)</mo><mo>=</mo><mn>580</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>35</mn></math></p><p>Sprzedano 35 biletów ulgowych.</p>",
+        "rubric_html": "<p>2 p. – rozwiązanie bezbłędne</p><p>1 p. – rozwiązanie, w którym dokonano istotnego postępu, ale nie było kontynuowane lub było kontynuowane błędnie, np. uczeń zapisał równanie z jedną niewiadomą lub rozwiązał zadanie metodą prób i błędów uwzględniając cenę biletu ulgowego i normalnego, jednak bez właściwego rozwiązania</p><p>0 p. – rozwiązanie, w którym nie dokonano istotnego postępu</p><p>Uwaga: Jeśli uczeń rozwiązuje zadanie metodą prób i błędów musi przedstawić przynajmniej dwie próby (jedną błędną i jedną właściwą).</p>",
+        "model": {
+          "answer": "35",
+          "by": "sonnet",
+          "agrees": true
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026_podlaskie_q25",
+      "number": 25,
+      "page": 9,
+      "type": "open",
+      "points": 3,
+      "topics": [
+        "procenty",
+        "zadania tekstowe na równania"
+      ],
+      "prompt_html": "<p>Do sklepu z pamiątkami przywieziono 200 porcelanowych figurek. Ustalono cenę sprzedaży 35 zł za sztukę. Po sprzedaniu 30% figurek zauważono, że część z pozostałych w sklepie figurek ma ślady pęknięć. Uszkodzone figurki odłożono. Żeby uzyskać jednak zaplanowany przychód pozostałe sprzedano po 50 zł za sztukę. Ile było uszkodzonych figurek?</p><p>Zapisz wszystkie obliczenia.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "42",
+        "solution_html": "<p>I metoda:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>200</mn><mo>·</mo><mn>35</mn><mo>=</mo><mn>7000</mn></math> zł – planowany przychód</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>30</mn><mo>%</mo><mo>·</mo><mn>200</mn><mo>=</mo><mn>0,3</mn><mo>·</mo><mn>200</mn><mo>=</mo><mn>60</mn></math> – tyle figurek sprzedano po 35 zł</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn><mo>·</mo><mn>35</mn><mo>=</mo><mn>2100</mn></math> zł – taki przychód uzyskano ze sprzedaży figurek po 35 zł</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>7000</mn><mo>−</mo><mn>2100</mn><mo>=</mo><mn>4900</mn></math> zł – taki przychód należy uzyskać ze sprzedaży figurek po 50 zł</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4900</mn><mo>:</mo><mn>50</mn><mo>=</mo><mn>98</mn></math> – tyle figurek sprzedano po 50 zł</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>200</mn><mo>−</mo><mn>60</mn><mo>−</mo><mn>98</mn><mo>=</mo><mn>42</mn></math> – liczba figurek, na których występują ślady pęknięć</p><p>II metoda:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi></math> – liczba uszkodzonych figurek</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo>(</mo><mn>200</mn><mo>·</mo><mn>70</mn><mo>%</mo><mo>−</mo><mi>x</mi><mo>)</mo><mo>·</mo><mn>50</mn><mo>=</mo><mn>70</mn><mo>%</mo><mo>·</mo><mn>200</mn><mo>·</mo><mn>35</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>x</mi><mo>=</mo><mn>42</mn></math></p><p>Uszkodzonych figurek było 42 sztuki.</p>",
+        "rubric_html": "<p>3 p. – rozwiązanie bezbłędne</p><p>2 p. – rozwiązanie, w którym pokonano zasadnicze trudności zadania, doprowadzone do końca, ale zawiera błędy rachunkowe, usterki, np.: uczeń zastosował poprawną metodę prowadzącą do obliczenia liczby uszkodzonych figurek, ale popełnił błąd rachunkowy lub uczeń obliczył, jaki przychód trzeba uzyskać ze sprzedaży figurek po 50 zł (4900 zł)</p><p>1 p. – rozwiązanie, w którym dokonano istotnego postępu, ale nie było kontynuowane lub było kontynuowane błędnie, np.: uczeń obliczył, jaki przychód uzyskano ze sprzedaży figurek po 35 zł (2100 zł) lub poprawnie ułożył równanie z jedną niewiadomą, ale nie podjął próby rozwiązania tego równania</p><p>0 p. – rozwiązanie, w którym nie dokonano istotnego postępu</p>",
+        "model": {
+          "answer": "42",
+          "by": "sonnet",
+          "agrees": true
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026_podlaskie_q26",
+      "number": 26,
+      "page": 10,
+      "type": "open",
+      "points": 4,
+      "topics": [
+        "NWW / NWD",
+        "trójkąty",
+        "liczby pierwsze",
+        "ułamki"
+      ],
+      "prompt_html": "<p>Czy z odcinków długości <i>a, b, c</i> można zbudować trójkąt, jeśli</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mtext>NWD</mtext><mo>(</mo><mn>180</mn><mo>,</mo><mn>420</mn><mo>)</mo><mo>+</mo><mtext>NWW</mtext><mo>(</mo><mn>12</mn><mo>,</mo><mn>21</mn><mo>)</mo></math>;</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mo>(</mo><mn>4,8</mn><mo>−</mo><mn>0,8</mn><mo>·</mo><mn>1</mn><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>·</mo><mn>0,9</mn><mo>)</mo><mo>:</mo><mn>0,6</mn></math>;</p><p>zaś o odcinku <i>c</i> wiemy, że jest iloczynem dwóch kolejnych dwucyfrowych liczb pierwszych i jednocześnie jest mniejszy od 200?</p><p>Zapisz wszystkie obliczenia i uzasadnij odpowiedź.</p>",
+      "choices": [],
+      "figures": [],
+      "answer": {
+        "correct": "Tak (a = 144, b = 6, c = 143)",
+        "solution_html": "<p>Wyznaczenie długości odcinków:</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi><mo>=</mo><mtext>NWD</mtext><mo>(</mo><mn>180</mn><mo>,</mo><mn>420</mn><mo>)</mo><mo>+</mo><mtext>NWW</mtext><mo>(</mo><mn>12</mn><mo>,</mo><mn>21</mn><mo>)</mo><mo>=</mo><mn>60</mn><mo>+</mo><mn>84</mn><mo>=</mo><mn>144</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>b</mi><mo>=</mo><mn>6</mn></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>c</mi><mo>=</mo><mn>11</mn><mo>·</mo><mn>13</mn><mo>=</mo><mn>143</mn></math></p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>6</mn><mo>+</mo><mn>143</mn><mo>&gt;</mo><mn>144</mn></math></p><p>Z odcinków a, b, c można zbudować trójkąt.</p>",
+        "rubric_html": "<p>4 p. – rozwiązanie bezbłędne</p><p>3 p. – rozwiązanie, w którym pokonano zasadnicze trudności zadania, doprowadzone do końca, ale zawiera błędy rachunkowe, usterki, np. uczeń poprawnie obliczył długości odcinków 144, 6 i 143, ale nie udzielił odpowiedzi lub podał błędną odpowiedź lub poprawnie wyznaczył długości dwóch odcinków i podał odpowiedź adekwatną do uzyskanych wyników</p><p>2 p. – rozwiązanie, w którym pokonano zasadnicze trudności zadania, ale nie było kontynuowane lub było kontynuowane błędnie, np. uczeń poprawnie wyznaczył długości dwóch odcinków i nie kontynuował rozwiązania lub uczeń poprawnie wyznaczył długość jednego odcinka i podał odpowiedź adekwatną do uzyskanych wyników</p><p>1 p. – rozwiązanie, w którym dokonano istotnego postępu, ale rozwiązanie nie zostało doprowadzone do końca, a w trakcie pokonywania zasadniczych trudności zadania wystąpiły błędy rachunkowe, usterki, np. uczeń poprawnie wyznaczył długość jednego odcinka</p><p>0 p. – rozwiązanie, w którym nie dokonano istotnego postępu</p>",
+        "model": {
+          "answer": "Tak",
+          "by": "sonnet",
+          "agrees": true
+        }
+      }
+    }
+  ]
+}

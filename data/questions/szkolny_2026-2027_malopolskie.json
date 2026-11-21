@@ -1,0 +1,689 @@
+{
+  "source_file": "szkolny/2026-2027_malopolskie.pdf",
+  "answers_file": "szkolny/2026-2027_malopolskie_answers.pdf",
+  "competition": "Małopolski Konkurs Matematyczny dla uczniów szkół podstawowych województwa małopolskiego",
+  "school_type": "podstawowa",
+  "stage": "szkolny",
+  "wojewodztwo": "malopolskie",
+  "school_year": "2026/2027",
+  "date": "2026-10-21",
+  "total_questions": 16,
+  "max_points": 40,
+  "questions": [
+    {
+      "id": "szkolny_2026-2027_malopolskie_q1",
+      "number": 1,
+      "page": 3,
+      "type": "closed_single",
+      "points": 2,
+      "topics": [
+        "działania na pierwiastkach"
+      ],
+      "prompt_html": "<p>Ile jest liczb naturalnych, które można zapisać w postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msqrt><mi>a</mi></msqrt></math>, gdzie <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>a</mi></math> jest liczbą naturalną jednocyfrową?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "1"
+        },
+        {
+          "label": "B",
+          "html": "2"
+        },
+        {
+          "label": "C",
+          "html": "3"
+        },
+        {
+          "label": "D",
+          "html": "4"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C lub D",
+        "solution_html": null,
+        "model": {
+          "answer": "D",
+          "by": "sonnet",
+          "agrees": true,
+          "solution_html": "<p>√0=0, √1, √4, √9 – cztery liczby (0 jest naturalne).</p>"
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026-2027_malopolskie_q2",
+      "number": 2,
+      "page": 3,
+      "type": "closed_single",
+      "points": 2,
+      "topics": [
+        "zamiana jednostek"
+      ],
+      "prompt_html": "<p>Ojciec Wirgiliusz zapisał w spadku każdemu ze swoich 123 dzieci działkę o powierzchni 0,1 hektara. Łączna powierzchnia tych działek wyrażona w kilometrach kwadratowych jest równa:</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,0123</mn><mspace width=\"0.2em\"/><msup><mi>km</mi><mn>2</mn></msup></mrow></math>"
+        },
+        {
+          "label": "B",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,123</mn><mspace width=\"0.2em\"/><msup><mi>km</mi><mn>2</mn></msup></mrow></math>"
+        },
+        {
+          "label": "C",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>1,23</mn><mspace width=\"0.2em\"/><msup><mi>km</mi><mn>2</mn></msup></mrow></math>"
+        },
+        {
+          "label": "D",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>12,3</mn><mspace width=\"0.2em\"/><msup><mi>km</mi><mn>2</mn></msup></mrow></math>"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null,
+        "model": {
+          "answer": "B",
+          "by": "sonnet",
+          "agrees": true
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026-2027_malopolskie_q3",
+      "number": 3,
+      "page": 4,
+      "type": "closed_single",
+      "points": 2,
+      "topics": [
+        "podzielność"
+      ],
+      "prompt_html": "<p>Dana jest liczba o cyfrze setek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>X</mi></math>, cyfrze dziesiątek <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi></math> oraz cyfrze jedności <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Z</mi></math>. Liczba ta jest podzielna przez 4. Wybierz zdanie <strong>fałszywe</strong>.</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "Liczby <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Z</mi></math> są zawsze podzielne przez 4."
+        },
+        {
+          "label": "B",
+          "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Z</mi></math> jest zawsze parzysta."
+        },
+        {
+          "label": "C",
+          "html": "Liczba <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>10</mn><mi>Y</mi><mo>+</mo><mi>Z</mi></mrow></math> jest zawsze podzielna przez 4."
+        },
+        {
+          "label": "D",
+          "html": "Suma liczb <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>X</mi></math>, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Y</mi></math> i <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>Z</mi></math> może być liczbą nieparzystą."
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": null,
+        "model": {
+          "answer": "A",
+          "by": "sonnet",
+          "agrees": true
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026-2027_malopolskie_q4",
+      "number": 4,
+      "page": 4,
+      "type": "closed_single",
+      "points": 2,
+      "topics": [
+        "działania na pierwiastkach",
+        "usuwanie niewymierności z mianownika"
+      ],
+      "prompt_html": "<p>Oblicz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mfrac><mrow><msqrt><mn>2</mn></msqrt><mo>·</mo><msqrt><mn>18</mn></msqrt></mrow><mrow><msqrt><mn>2</mn></msqrt><mo>+</mo><msqrt><mn>18</mn></msqrt></mrow></mfrac><mo>)</mo></mrow><mn>2</mn></msup></math>.</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "0,25"
+        },
+        {
+          "label": "B",
+          "html": "1,125"
+        },
+        {
+          "label": "C",
+          "html": "1,6"
+        },
+        {
+          "label": "D",
+          "html": "1,8"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null,
+        "model": {
+          "answer": "B",
+          "by": "sonnet",
+          "agrees": true
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026-2027_malopolskie_q5",
+      "number": 5,
+      "page": 5,
+      "type": "closed_single",
+      "points": 2,
+      "topics": [
+        "zadania tekstowe na równania",
+        "procenty",
+        "równania z jedną zmienną"
+      ],
+      "prompt_html": "<p>Jednozłotowe, dwuzłotowe i pięciozłotowe monety zebrane w skarbonce mają łączną wartość 154 złotych. Monet jednozłotowych jest o cztery więcej niż dwuzłotowych, a monet pięciozłotowych jest o 40% więcej niż monet dwuzłotowych. Ile jest wszystkich monet w skarbonce?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "19"
+        },
+        {
+          "label": "B",
+          "html": "34"
+        },
+        {
+          "label": "C",
+          "html": "48"
+        },
+        {
+          "label": "D",
+          "html": "55"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null,
+        "model": {
+          "answer": "D",
+          "by": "sonnet",
+          "agrees": true
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026-2027_malopolskie_q6",
+      "number": 6,
+      "page": 5,
+      "type": "closed_single",
+      "points": 2,
+      "topics": [
+        "kąty",
+        "koła / okręgi",
+        "czworokąty"
+      ],
+      "prompt_html": "<p>Na tarczy zegara w kształcie koła godziny oznaczono punktami leżącymi w tej samej odległości od środka. Cztery punkty odpowiadające godzinom 1, 5, 8 oraz 10 połączono odcinkami tak, że otrzymano trapez. Jaką miarę ma najmniejszy kąt ostry tego trapezu?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "30°"
+        },
+        {
+          "label": "B",
+          "html": "45°"
+        },
+        {
+          "label": "C",
+          "html": "60°"
+        },
+        {
+          "label": "D",
+          "html": "75°"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null,
+        "model": {
+          "answer": "D",
+          "by": "sonnet",
+          "agrees": true
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026-2027_malopolskie_q7",
+      "number": 7,
+      "page": 6,
+      "type": "closed_single",
+      "points": 2,
+      "topics": [
+        "wielokąty",
+        "pole i obwód",
+        "twierdzenie Pitagorasa"
+      ],
+      "prompt_html": "<p>Jan narysował w zeszycie w kratkę wielokąt (rysunek obok). Długość boku kratki to <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>0,5</mn><mspace width=\"0.2em\"/><mi>cm</mi></mrow></math>, a każdy z wierzchołków znajduje się w punkcie kratowym. Rozważ zdania:</p><ol type=\"I\"><li>Pole powierzchni tego wielokąta jest równe <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>8</mn><mspace width=\"0.2em\"/><msup><mi>cm</mi><mn>2</mn></msup></mrow></math>.</li><li>Obwód tego wielokąta jest większy niż 16 cm.</li><li>Długość najkrótszej przekątnej tego wielokąta jest nie większa niż 1 cm.</li><li>Połowa kątów wewnętrznych tego wielokąta to kąty proste.</li></ol><p>Ile z powyższych zdań jest prawdziwych?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "cztery"
+        },
+        {
+          "label": "B",
+          "html": "dokładnie trzy"
+        },
+        {
+          "label": "C",
+          "html": "dokładnie dwa"
+        },
+        {
+          "label": "D",
+          "html": "dokładnie jedno"
+        }
+      ],
+      "figures": [
+        "szkolny_2026-2027_malopolskie_q7_fig1.png"
+      ],
+      "answer": {
+        "correct": "B",
+        "solution_html": null,
+        "model": {
+          "answer": "B",
+          "by": "sonnet",
+          "agrees": true
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026-2027_malopolskie_q8",
+      "number": 8,
+      "page": 6,
+      "type": "closed_single",
+      "points": 2,
+      "topics": [
+        "graniastosłupy",
+        "działania na potęgach"
+      ],
+      "prompt_html": "<p>Rozważmy prostopadłościany, których długości krawędzi są wyrażone liczbami całkowitymi i suma długości wszystkich krawędzi jest równa 36. Wśród nich jest prostopadłościan o największej objętości. Objętość tego prostopadłościanu jest równa</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>3</mn><mn>3</mn></msup><mspace width=\"0.2em\"/><msup><mi>cm</mi><mn>3</mn></msup></mrow></math>"
+        },
+        {
+          "label": "B",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>6</mn><mn>3</mn></msup><mspace width=\"0.2em\"/><msup><mi>cm</mi><mn>3</mn></msup></mrow></math>"
+        },
+        {
+          "label": "C",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>9</mn><mn>3</mn></msup><mspace width=\"0.2em\"/><msup><mi>cm</mi><mn>3</mn></msup></mrow></math>"
+        },
+        {
+          "label": "D",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mn>12</mn><mn>3</mn></msup><mspace width=\"0.2em\"/><msup><mi>cm</mi><mn>3</mn></msup></mrow></math>"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "A",
+        "solution_html": null,
+        "model": {
+          "answer": "A",
+          "by": "sonnet",
+          "agrees": true
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026-2027_malopolskie_q9",
+      "number": 9,
+      "page": 7,
+      "type": "closed_single",
+      "points": 3,
+      "topics": [
+        "ułamki okresowe / rozwinięcia dziesiętne",
+        "działania na potęgach"
+      ],
+      "prompt_html": "<p>Liczba wymierna w postaci nieskracalnej <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mi>p</mi><mi>q</mi></mfrac></math> ma skończone rozwinięcie dziesiętne, jeśli mianownik <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>q</mi></math> można zapisać jako iloczyn potęg o podstawach 2 lub 5 i wykładnikach będących liczbami naturalnymi. Która z poniższych liczb <u>nie ma</u> skończonego rozwinięcia dziesiętnego?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mrow><msup><mn>2</mn><mn>5</mn></msup><mo>+</mo><msup><mn>2</mn><mn>5</mn></msup></mrow></mfrac></math>"
+        },
+        {
+          "label": "B",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mn>3</mn><mn>100</mn></msup><mrow><msup><mn>3</mn><mn>0</mn></msup><mo>+</mo><msup><mn>3</mn><mn>1</mn></msup><mo>+</mo><msup><mn>3</mn><mn>2</mn></msup><mo>+</mo><msup><mn>3</mn><mn>3</mn></msup></mrow></mfrac></math>"
+        },
+        {
+          "label": "C",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>12500</mn></mfrac></math>"
+        },
+        {
+          "label": "D",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>12800</mn></mfrac></math>"
+        },
+        {
+          "label": "E",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msup><mn>3</mn><mn>100</mn></msup><msup><mn>15</mn><mn>200</mn></msup></mfrac></math>"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "E",
+        "solution_html": null,
+        "model": {
+          "answer": "E",
+          "by": "sonnet",
+          "agrees": true
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026-2027_malopolskie_q10",
+      "number": 10,
+      "page": 7,
+      "type": "closed_single",
+      "points": 3,
+      "topics": [
+        "prędkość / droga / czas"
+      ],
+      "prompt_html": "<p>Trasa o długości <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>3</mn><mspace width=\"0.2em\"/><mi>km</mi></mrow></math> z domu do pracy, którą Igor najczęściej wybiera, była zakorkowana, a aplikacja w telefonie pokazywała, że pokonanie jej zajęłoby mu aż 18 minut. Zamiast niej Igor wybrał alternatywną, dwukrotnie dłuższą trasę, której jedną czwartą pokonał z prędkością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>60</mn><mspace width=\"0.2em\"/><mfrac><mi>km</mi><mi>h</mi></mfrac></mrow></math>, a resztę tej trasy pokonał z prędkością <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>36</mn><mspace width=\"0.2em\"/><mfrac><mi>km</mi><mi>h</mi></mfrac></mrow></math>. Ile czasu zaoszczędził Igor, wybierając trasę alternatywną zamiast tej, którą wybiera najczęściej?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "6 minut"
+        },
+        {
+          "label": "B",
+          "html": "7,5 minuty"
+        },
+        {
+          "label": "C",
+          "html": "9 minut"
+        },
+        {
+          "label": "D",
+          "html": "10,5 minuty"
+        },
+        {
+          "label": "E",
+          "html": "11,5 minuty"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null,
+        "model": {
+          "answer": "C",
+          "by": "sonnet",
+          "agrees": true
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026-2027_malopolskie_q11",
+      "number": 11,
+      "page": 8,
+      "type": "closed_single",
+      "points": 3,
+      "topics": [
+        "wzory skróconego mnożenia",
+        "wyrażenia algebraiczne"
+      ],
+      "prompt_html": "<p>Dane jest pięć wyrażeń algebraicznych:</p><ol type=\"I\"><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>2</mn><mo>−</mo><mi>y</mi><mo>)</mo><mo>(</mo><mn>2</mn><mo>+</mo><mi>y</mi><mo>)</mo><msup><mi>x</mi><mn>2</mn></msup></mrow></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mrow><mo>(</mo><mn>2</mn><mi>x</mi><mo>−</mo><mi>x</mi><mi>y</mi><mo>)</mo></mrow><mn>2</mn></msup></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo>(</mo><mn>2</mn><mi>x</mi><mo>+</mo><mi>x</mi><mi>y</mi><mo>)</mo><mo>(</mo><mn>2</mn><mi>x</mi><mo>−</mo><mi>x</mi><mi>y</mi><mo>)</mo></mrow></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>(</mo><mn>4</mn><mo>−</mo><msup><mi>y</mi><mn>2</mn></msup><mo>)</mo></mrow></math></li><li><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>2</mn><mi>x</mi><mo>(</mo><mn>2</mn><mi>x</mi><mo>−</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>x</mi><msup><mi>y</mi><mn>2</mn></msup><mo>)</mo></mrow></math></li></ol><p>Którego z wyrażeń od I. do V. <strong>nie można</strong> zapisać w postaci <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>4</mn><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><msup><mi>x</mi><mn>2</mn></msup><msup><mi>y</mi><mn>2</mn></msup></mrow></math>?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "I"
+        },
+        {
+          "label": "B",
+          "html": "II"
+        },
+        {
+          "label": "C",
+          "html": "III"
+        },
+        {
+          "label": "D",
+          "html": "IV"
+        },
+        {
+          "label": "E",
+          "html": "V"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "B",
+        "solution_html": null,
+        "model": {
+          "answer": "B",
+          "by": "sonnet",
+          "agrees": true
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026-2027_malopolskie_q12",
+      "number": 12,
+      "page": 8,
+      "type": "closed_single",
+      "points": 3,
+      "topics": [
+        "równania z jedną zmienną",
+        "ułamki"
+      ],
+      "prompt_html": "<p>Liczbą spełniającą równanie</p><p><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mfrac><mrow><mn>2</mn><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><mfrac><mn>1</mn><mn>2</mn></mfrac><mi>x</mi><mo>−</mo><mn>2</mn></mrow><mrow><mfrac><mn>1</mn><mn>3</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mn>2</mn></mfrac></mrow></mfrac><mo>−</mo><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>−</mo><mfrac><mn>2</mn><mn>3</mn></mfrac><mi>x</mi><mo>+</mo><mn>3</mn></mrow><mrow><mfrac><mn>1</mn><mn>4</mn></mfrac><mo>−</mo><mfrac><mn>1</mn><mn>3</mn></mfrac></mrow></mfrac><mo>=</mo><mi>x</mi></mrow></math></p><p>jest:</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mo>−</mo><mn>12</mn></mrow></math>"
+        },
+        {
+          "label": "B",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mo>−</mo><mn>2</mn></mrow></math>"
+        },
+        {
+          "label": "C",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>2</mn></mrow></math>"
+        },
+        {
+          "label": "D",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>4</mn></mrow></math>"
+        },
+        {
+          "label": "E",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>x</mi><mo>=</mo><mn>8</mn></mrow></math>"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null,
+        "model": {
+          "answer": "D",
+          "by": "sonnet",
+          "agrees": true
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026-2027_malopolskie_q13",
+      "number": 13,
+      "page": 9,
+      "type": "closed_single",
+      "points": 3,
+      "topics": [
+        "stężenie procentowe / mieszaniny",
+        "procenty"
+      ],
+      "prompt_html": "<p>20 kilogramów świeżych śliwek bez pestek poddano procesowi suszenia. Początkowo zawierały 80% wody, a po procesie suszenia woda stanowiła 20% masy suszonych śliwek. Jaki procent wody, która była w świeżych śliwkach, został odparowany w procesie suszenia?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "60%"
+        },
+        {
+          "label": "B",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>66</mn><mfrac><mn>2</mn><mn>3</mn></mfrac><mo>%</mo></mrow></math>"
+        },
+        {
+          "label": "C",
+          "html": "75%"
+        },
+        {
+          "label": "D",
+          "html": "80%"
+        },
+        {
+          "label": "E",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>93</mn><mfrac><mn>3</mn><mn>4</mn></mfrac><mo>%</mo></mrow></math>"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "E",
+        "solution_html": null,
+        "model": {
+          "answer": "E",
+          "by": "sonnet",
+          "agrees": true
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026-2027_malopolskie_q14",
+      "number": 14,
+      "page": 9,
+      "type": "closed_single",
+      "points": 3,
+      "topics": [
+        "prawdopodobieństwo",
+        "podzielność"
+      ],
+      "prompt_html": "<p>Spośród wszystkich liczb trzycyfrowych podzielnych przez 30 losujemy jedną. Ile jest równe prawdopodobieństwo wylosowania liczby, której cyfra setek jest większa od cyfry dziesiątek, a cyfra dziesiątek jest większa od cyfry jedności?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>3</mn></mfrac></math>"
+        },
+        {
+          "label": "B",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>11</mn></mfrac></math>"
+        },
+        {
+          "label": "C",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>2</mn><mn>5</mn></mfrac></math>"
+        },
+        {
+          "label": "D",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>2</mn></mfrac></math>"
+        },
+        {
+          "label": "E",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>4</mn><mn>5</mn></mfrac></math>"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null,
+        "model": {
+          "answer": "C",
+          "by": "sonnet",
+          "agrees": true
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026-2027_malopolskie_q15",
+      "number": 15,
+      "page": 10,
+      "type": "closed_single",
+      "points": 3,
+      "topics": [
+        "trójkąty",
+        "pole i obwód"
+      ],
+      "prompt_html": "<p>Dany jest trójkąt równoboczny <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math>. Środkiem boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>BC</mi></math> jest punkt <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>M</mi></math>, a na boku <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>AC</mi></math> zaznaczono punkty <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>S</mi></math> oraz <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>T</mi></math> tak, że <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>AS</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>ST</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mo>=</mo><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo><mi>TC</mi><mo lspace=\"0\" rspace=\"0\" stretchy=\"false\">|</mo></mrow></math>. Jaką część pola powierzchni trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>ABC</mi></math> stanowi pole trójkąta <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>SMT</mi></math>?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>8</mn></mfrac></math>"
+        },
+        {
+          "label": "B",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>3</mn></msqrt><mn>12</mn></mfrac></math>"
+        },
+        {
+          "label": "C",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>6</mn></mfrac></math>"
+        },
+        {
+          "label": "D",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><msqrt><mn>3</mn></msqrt><mn>9</mn></mfrac></math>"
+        },
+        {
+          "label": "E",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mfrac><mn>1</mn><mn>5</mn></mfrac></math>"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "C",
+        "solution_html": null,
+        "model": {
+          "answer": "C",
+          "by": "sonnet",
+          "agrees": true
+        }
+      }
+    },
+    {
+      "id": "szkolny_2026-2027_malopolskie_q16",
+      "number": 16,
+      "page": 10,
+      "type": "closed_single",
+      "points": 3,
+      "topics": [
+        "pole i obwód",
+        "koła / okręgi",
+        "twierdzenie Pitagorasa"
+      ],
+      "prompt_html": "<p>Dane są trzy figury: koło, kwadrat i trójkąt równoramienny o ramieniu długości 5 cm. Obwód każdej z tych figur jest równy 16 cm. Oznaczmy przez: <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>O</mi></msub></math> pole koła, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>K</mi></msub></math> pole kwadratu, <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>P</mi><mi>T</mi></msub></math> pole trójkąta. Która z nierówności jest prawdziwa?</p>",
+      "choices": [
+        {
+          "label": "A",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>T</mi></msub><mo>&lt;</mo><msub><mi>P</mi><mi>O</mi></msub><mo>&lt;</mo><msub><mi>P</mi><mi>K</mi></msub></mrow></math>"
+        },
+        {
+          "label": "B",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>O</mi></msub><mo>&lt;</mo><msub><mi>P</mi><mi>K</mi></msub><mo>&lt;</mo><msub><mi>P</mi><mi>T</mi></msub></mrow></math>"
+        },
+        {
+          "label": "C",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>O</mi></msub><mo>&lt;</mo><msub><mi>P</mi><mi>T</mi></msub><mo>&lt;</mo><msub><mi>P</mi><mi>K</mi></msub></mrow></math>"
+        },
+        {
+          "label": "D",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>T</mi></msub><mo>&lt;</mo><msub><mi>P</mi><mi>K</mi></msub><mo>&lt;</mo><msub><mi>P</mi><mi>O</mi></msub></mrow></math>"
+        },
+        {
+          "label": "E",
+          "html": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>P</mi><mi>T</mi></msub><mo>&lt;</mo><msub><mi>P</mi><mi>O</mi></msub><mo>&lt;</mo><msub><mi>P</mi><mi>K</mi></msub></mrow></math>"
+        }
+      ],
+      "figures": [],
+      "answer": {
+        "correct": "D",
+        "solution_html": null,
+        "model": {
+          "answer": "D",
+          "by": "sonnet",
+          "agrees": true
+        }
+      }
+    }
+  ]
+}
