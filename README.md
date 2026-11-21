@@ -24,12 +24,13 @@ heavy lifting, in this order:
    exponents, roots and figures), transcribing the exact Polish wording, converting every formula to
    [MathML](https://developer.mozilla.org/en-US/docs/Web/MathML), and pulling the metadata (number,
    points, stage, …) and the answer keys into one consistent JSON shape.
-3. **Figure cropping** — 855 diagrams cut straight out of the PDF renders with `pdftoppm`.
+3. **Figure cropping** — 861 diagrams cut straight out of the PDF renders with `pdftoppm` (plus 4 from
+   a paper only available as a scan so far, rendered from their SVG redraws).
 4. **Categorization** — tagging each question against a fixed topic catalog (see
    [`SCHEMA.md`](SCHEMA.md)).
 5. **Blind verification** — every question re-solved from scratch without sight of the key, and the
    disagreements adjudicated across model tiers.
-6. **Figure redraw** — 823 of those 855 crops redrawn as clean vector SVGs, switchable in the
+6. **Figure redraw** — 829 of those 861 crops redrawn as clean vector SVGs, switchable in the
    browser under ⚙ → *Rysunki wektorowe*.
 7. **Mental-math pass** — every question re-solved once more, this time to rule whether a pupil
    could finish it with nothing written down, in two tiers (*od ręki* / *z pomysłem*) plus a Polish
